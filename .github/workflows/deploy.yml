@@ -25,6 +25,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Generate enriched reading pages
+        run: node scripts/enrich-readings.mjs
+
       - name: Prepare static HTML site
         shell: bash
         run: |
@@ -32,6 +35,18 @@ jobs:
           mkdir -p dist
           cp -R legacy-html/. dist/
           find dist -name '.gitkeep' -delete
+          rm -f dist/assets/martin-portrait.png
+          rm -f dist/assets/cane-osso-realistica.jpg
+          rm -f dist/assets/story-cane-osso-home.webp
+          rm -f dist/assets/story-cane-osso.jpg
+          rm -f dist/assets/story-cicala-formica.jpg
+          rm -f dist/assets/story-leone-topo.jpg
+          rm -f dist/assets/story-lepre-tartaruga.jpg
+          rm -f dist/assets/story-lupo-tre-porcellini.jpg
+          rm -f dist/assets/story-mugnaio-figlio-asino.jpg
+          rm -f dist/assets/story-pastorello.jpg
+          rm -f dist/assets/story-topo-citta-campagna.jpg
+          rm -f dist/assets/story-volpe-uva.jpg
 
       - name: Upload only static site files
         uses: actions/upload-pages-artifact@v3
