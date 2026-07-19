@@ -27,7 +27,7 @@ for (const file of sourceFiles) {
   const relative = path.relative(sourceDir, file);
   const normalized = relative.replaceAll('\\', '/');
   if (normalized === '.gitkeep') continue;
-  if (/\.html?$/i.test(file) && !passthroughHtml.some((pattern) => pattern.test(normalized))) continue;
+  if (/\.html?$/i.test(file) && !shouldCopyHtmlToPublic(normalized)) continue;
 
   const target = path.join(publicDir, relative);
   mkdirSync(path.dirname(target), { recursive: true });
@@ -81,6 +81,12 @@ function outputPage(html, relative) {
 function ensureGeneratedComment(html, relative) {
   const comment = `<!-- ${generatedMarker}: ${relative.replaceAll('\\', '/')} -->`;
   return html.includes(generatedMarker) ? html : html.replace(/<!doctype html>/i, `$&\n${comment}`);
+}
+
+function shouldCopyHtmlToPublic(relative) {
+  if (passthroughHtml.some((pattern) => pattern.test(relative))) return true;
+  if (/^404\.html?$/i.test(relative)) return false;
+  return !/(^|\/)index\.html?$/i.test(relative);
 }
 
 function removeGeneratedPages(dir) {
