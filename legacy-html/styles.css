@@ -4,7 +4,7 @@
 --shadow:0 22px 60px rgba(53,39,27,.13);--radius:26px
 }
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:108px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
-img{max-width:100%}.container{width:min(1120px,calc(100% - 40px));margin:auto}a{color:inherit}
+img{max-width:100%;display:block}.container{width:min(1120px,calc(100% - 40px));margin:auto}a{color:inherit}
 .site-header{position:sticky;top:0;z-index:30;background:rgba(255,250,244,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav-wrap{position:relative;min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:900;white-space:nowrap}
