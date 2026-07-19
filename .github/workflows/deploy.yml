@@ -31,7 +31,6 @@ jobs:
           rm -rf dist
           mkdir -p dist
           cp -R legacy-html/. dist/
-          if [ -f public/contact ]; then cp public/contact dist/contact; fi
           find dist -name '.gitkeep' -delete
 
       - name: Upload only static site files
