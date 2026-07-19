@@ -1,24 +1,5 @@
 ---
-import Layout from '~/layouts/Layout.astro';
-import { getHomePermalink } from '~/utils/permalinks';
-
-const title = `Error 404`;
+const documentHtml = "﻿<!doctype html>\n<!-- Generated from legacy-html by scripts/import-html.mjs: 404.html --><html lang=\"it\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Pagina non trovata | Italiano con Martin</title><link rel=\"icon\" href=\"favicon.png\" type=\"image/png\"><link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\"><style>body{font-family:system-ui;display:grid;place-items:center;min-height:100vh;margin:0;background:#fffdf8;color:#17202a;text-align:center}main{padding:30px}a{color:#a83a2a;font-weight:700}</style><main><h1>Pagina non trovata</h1><p>Questa pagina non esiste o è stata spostata.</p><a href=\"./\">Torna alla home</a></main></html>\r\n";
 ---
 
-<Layout metadata={{ title }}>
-  <section class="flex items-center h-full p-16">
-    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
-      <div class="max-w-md text-center">
-        <h2 class="mb-8 font-bold text-9xl">
-          <span class="sr-only">Error</span>
-          <span class="text-primary">404</span>
-        </h2>
-        <p class="text-3xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
-        <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
-          But don't worry, you can find plenty of other things on our homepage.
-        </p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Back to homepage</a>
-      </div>
-    </div>
-  </section>
-</Layout>
+<Fragment set:html={documentHtml} />

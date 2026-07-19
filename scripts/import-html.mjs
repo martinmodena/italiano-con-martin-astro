@@ -1,4 +1,4 @@
-import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -6,13 +6,17 @@ const sourceDir = path.join(root, 'legacy-html');
 const pagesDir = path.join(root, 'src', 'pages');
 const publicDir = path.join(root, 'public');
 const generatedMarker = 'Generated from legacy-html by scripts/import-html.mjs';
+const passthroughHtml = [/^google[a-z0-9_-]+\.html$/i];
 
 if (!existsSync(sourceDir)) {
   throw new Error('Missing legacy-html directory.');
 }
 
 const sourceFiles = walk(sourceDir);
-const htmlFiles = sourceFiles.filter((file) => /\.html?$/i.test(file));
+const htmlFiles = sourceFiles.filter((file) => {
+  const relative = path.relative(sourceDir, file).replaceAll('\\', '/');
+  return /\.html?$/i.test(file) && !passthroughHtml.some((pattern) => pattern.test(relative));
+});
 
 if (htmlFiles.length === 0) {
   console.log('No .html files found in legacy-html. Add the existing site files there and run npm run import:html.');
@@ -21,24 +25,27 @@ if (htmlFiles.length === 0) {
 
 for (const file of sourceFiles) {
   const relative = path.relative(sourceDir, file);
-  if (/\.html?$/i.test(file)) continue;
+  const normalized = relative.replaceAll('\\', '/');
+  if (normalized === '.gitkeep') continue;
+  if (/\.html?$/i.test(file) && !passthroughHtml.some((pattern) => pattern.test(normalized))) continue;
 
   const target = path.join(publicDir, relative);
   mkdirSync(path.dirname(target), { recursive: true });
   copyFileSync(file, target);
 }
 
+removeGeneratedPages(pagesDir);
+
 for (const file of htmlFiles) {
   const relative = path.relative(sourceDir, file);
   const output = pageOutputPath(relative);
   const html = readFileSync(file, 'utf8');
-  const title = extractTitle(html) || titleFromPath(relative);
-  const body = extractBody(html) || html;
+  const documentHtml = ensureGeneratedComment(html, relative);
 
   mkdirSync(path.dirname(output), { recursive: true });
   writeFileSync(
     output,
-    `---\nimport Layout from '~/layouts/PageLayout.astro';\n\nconst metadata = {\n  title: ${JSON.stringify(title)},\n};\n\nconst legacyHtml = ${JSON.stringify(body)};\n---\n\n<!-- ${generatedMarker}: ${relative.replaceAll('\\', '/')} -->\n<Layout metadata={metadata}>\n  <main class="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">\n    <div class="legacy-html prose max-w-none dark:prose-invert" set:html={legacyHtml} />\n  </main>\n</Layout>\n`
+    outputPage(documentHtml, relative)
   );
 }
 
@@ -52,45 +59,37 @@ function walk(dir) {
 }
 
 function pageOutputPath(relative) {
-  const normalized = relative.replaceAll('\\', '/').replace(/\.html?$/i, '.astro');
+  const normalized = relative.replaceAll('\\', '/');
   const parts = normalized.split('/');
   const file = parts.pop();
 
-  if (/^index\.astro$/i.test(file)) {
+  if (/^index\.html?$/i.test(file)) {
     return path.join(pagesDir, ...parts, 'index.astro');
   }
 
-  return path.join(pagesDir, ...parts, file);
+  if (/^404\.html?$/i.test(file) && parts.length === 0) {
+    return path.join(pagesDir, '404.astro');
+  }
+
+  return path.join(pagesDir, ...parts, `${file}.astro`);
 }
 
-function extractTitle(html) {
-  const match = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  return match ? decodeEntities(stripTags(match[1]).trim()) : '';
+function outputPage(html, relative) {
+  return `---\nconst documentHtml = ${JSON.stringify(html)};\n---\n\n<Fragment set:html={documentHtml} />\n`;
 }
 
-function extractBody(html) {
-  const match = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
-  return match ? match[1].trim() : '';
+function ensureGeneratedComment(html, relative) {
+  const comment = `<!-- ${generatedMarker}: ${relative.replaceAll('\\', '/')} -->`;
+  return html.includes(generatedMarker) ? html : html.replace(/<!doctype html>/i, `$&\n${comment}`);
 }
 
-function stripTags(value) {
-  return value.replace(/<[^>]+>/g, ' ');
-}
+function removeGeneratedPages(dir) {
+  if (!existsSync(dir)) return;
 
-function decodeEntities(value) {
-  return value
-    .replaceAll('&amp;', '&')
-    .replaceAll('&lt;', '<')
-    .replaceAll('&gt;', '>')
-    .replaceAll('&quot;', '"')
-    .replaceAll('&#39;', "'");
-}
-
-function titleFromPath(relative) {
-  const base = path.basename(relative, path.extname(relative));
-  return base === 'index'
-    ? 'Home'
-    : base
-        .replace(/[-_]+/g, ' ')
-        .replace(/\b\w/g, (char) => char.toUpperCase());
+  for (const file of walk(dir).filter((entry) => /\.astro$/i.test(entry))) {
+    const content = readFileSync(file, 'utf8');
+    if (content.includes(generatedMarker)) {
+      rmSync(file);
+    }
+  }
 }

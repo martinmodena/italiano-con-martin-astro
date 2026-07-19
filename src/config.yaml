@@ -2,7 +2,7 @@ site:
   name: Astro Pages Site
   site: 'https://example.github.io'
   base: '/'
-  trailingSlash: false
+  trailingSlash: true
 
   googleSiteVerificationId:
 
