@@ -10,7 +10,7 @@
   const storeName = 'grammar-progress';
 
   function norm(value) {
-    return value.trim().toLowerCase().replace(/[.,!?]/g, '').replace(/\s+/g, ' ');
+    return value.trim().toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[.,!?]/g, '').replace(/\s+/g, ' ');
   }
 
   function withoutAccents(value) {
@@ -18,7 +18,11 @@
   }
 
   function withoutAccentHelpers(value) {
-    return withoutAccents(value).replace(/['’`]/g, '');
+    return withoutAccents(value).replace(/['\u2019`]/g, '');
+  }
+
+  function displayAnswer(value) {
+    return value.replace(/[\u2018\u2019]/g, "'");
   }
 
   function legacyKey(index) {
@@ -160,7 +164,7 @@
       box.dataset.correct = '1';
       input.classList.add('almost');
       feedback.classList.add('almost');
-      feedback.textContent = `Corretto. Meglio scrivere: ${bestAnswer || rawAccepted[0]}.`;
+      feedback.textContent = `Corretto. Meglio scrivere: ${displayAnswer(bestAnswer || rawAccepted[0])}.`;
     } else if (accepted.some((answer) => answer.startsWith(value))) {
       feedback.classList.add('wait');
       feedback.textContent = 'Continua...';
