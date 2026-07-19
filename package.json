@@ -11,6 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "import:html": "node scripts/import-html.mjs",
+    "expand:readings": "node scripts/enrich-readings.mjs && node scripts/extend-article-readings.mjs && node scripts/add-article-deep-labs.mjs && npm run import:html",
     "preview": "astro preview",
     "astro": "astro",
     "check": "npm run check:astro && npm run check:eslint && npm run check:prettier",
