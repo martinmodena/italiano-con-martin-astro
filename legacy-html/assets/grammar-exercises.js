@@ -9,6 +9,26 @@
   const dbName = 'italiano-con-martin';
   const storeName = 'grammar-progress';
 
+  function ensureExerciseLabels() {
+    exercises.forEach((box, index) => {
+      const input = box.querySelector('input');
+      const label = box.querySelector('label');
+      if (!input) return;
+
+      const id = input.id || `${lessonId}-exercise-${index + 1}`;
+      input.id = id;
+
+      if (label && !label.htmlFor) {
+        label.htmlFor = id;
+      }
+
+      if (!input.getAttribute('aria-label')) {
+        const labelText = label ? label.textContent.trim().replace(/\s+/g, ' ') : '';
+        input.setAttribute('aria-label', labelText || `Esercizio ${index + 1}`);
+      }
+    });
+  }
+
   function norm(value) {
     return value.trim().toLowerCase().replace(/[\u2018\u2019]/g, "'").replace(/[.,!?]/g, '').replace(/\s+/g, ' ');
   }
@@ -176,6 +196,8 @@
 
     updateScore(db);
   }
+
+  ensureExerciseLabels();
 
   openDb().then((db) => {
     readProgress(db).then((progress) => {
