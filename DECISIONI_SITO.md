@@ -18,3 +18,10 @@ Il sito deve funzionare sempre sia su GitHub Pages sia su `https://italianoconma
 ## Regola operativa
 
 Ogni indicazione contenuta in un prompt che modifica il sito, la struttura, i contenuti, le lingue, il dominio o la SEO deve essere registrata in questo file nella stessa sessione di lavoro.
+
+## 2026-08-06 - Selettore lingua
+
+- Il selettore lingua deve essere presente direttamente nell'HTML pubblicato, non creato solo via JavaScript.
+- Le bandierine sono accettate come segnale visivo rapido, accompagnate sempre dal nome testuale della lingua.
+- La home italiana deve dichiarare gli `hreflang` verso tutte le home localizzate e `x-default`.
+- Il JavaScript non deve tradurre dinamicamente la home: ogni lingua deve restare una pagina statica indicizzabile.
