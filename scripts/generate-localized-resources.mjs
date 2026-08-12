@@ -32,6 +32,10 @@ const allLevelsPdfLabels = {
   cs: 'PDF vsechny urovne', pl: 'PDF wszystkie poziomy', tr: 'PDF tum seviyeler',
   de: 'PDF alle Niveaus', ja: 'PDF 全レベル',
 };
+const storyDirectoryLabels = {
+  it: 'Tutte le storie', en: 'All stories', es: 'Todos los cuentos', fr: 'Toutes les histoires',
+  cs: 'Všechny příběhy', pl: 'Wszystkie historie', tr: 'Tüm hikayeler', de: 'Alle Geschichten', ja: 'すべての物語',
+};
 const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar' };
 const slugOverrides = {
   en: { 'verbo-essere': 'verb-to-be', 'il-sonar-del-delfino': 'dolphin-sonar', 'il-cane-e-losso': 'the-dog-and-the-bone' },
@@ -259,6 +263,7 @@ function localizeDocument(source, context) {
   applyVocabularyGlosses($, language);
   applyTranslations($, language);
   restoreItalianStudyHeadings($, source, category);
+  addStoryDirectory($, category, language, isIndex);
   const title = cleanText($('h1').first().text());
   const canonical = `${siteUrl}/${targetRelative.replace('index.html', '')}`;
   const level = context.level ? ` ${context.level.toUpperCase()}` : '';
@@ -320,6 +325,19 @@ function restoreItalianStudyHeadings($, source, category) {
     const targetHeading = $(`.story-card#${id} h2`).first();
     if (sourceHeading.length && targetHeading.length) targetHeading.html(sourceHeading.html()).attr('lang', 'it');
   });
+}
+
+function addStoryDirectory($, category, language, isIndex) {
+  if (!isIndex || category !== 'favole') return;
+  $('.resource-directory').remove();
+  const stories = $('.story-list .story-tile').map((_, element) => ({
+    href: $(element).attr('href'),
+    title: cleanText($(element).find('h2').first().text()),
+  })).get().filter(({ href, title }) => href && title);
+  if (!stories.length) return;
+  const label = `${storyDirectoryLabels[language]} (${stories.length})`;
+  const links = stories.map(({ href, title }) => `<a href="${escapeHtml(href)}">${escapeHtml(title)}</a>`).join('');
+  $('.page-intro .container').append(`<nav class="resource-directory" aria-label="${escapeHtml(label)}"><strong>${escapeHtml(label)}</strong><div>${links}</div></nav>`);
 }
 
 function rewriteAssets($, targetRelative) {
@@ -388,6 +406,7 @@ function updateItalianAlternates() {
     $('link[rel="alternate"]').remove();
     $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
     $('.language-switcher').replaceWith(italianLanguageSelector(sourceRelative, category, isIndex));
+    addStoryDirectory($, category, 'it', isIndex);
     if (!isIndex) {
       const parts = sourceRelative.split('/');
       addPdfLinks($, { category, language: 'it', level: category === 'grammatica' ? parts[1] : '', targetRelative: sourceRelative, isIndex: false });

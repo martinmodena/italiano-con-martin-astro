@@ -69,3 +69,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Nell'introduzione deve comparire un solo PDF completo contenente tutti i livelli A1-C1.
 - Il PDF di un singolo livello deve comparire dentro il relativo blocco A1, A2, B1, B2 o C1, vicino al racconto che scarica.
 - La generazione automatica non viene aggiunta al workflow di produzione finché i testi localizzati non sono stati revisionati; non si pubblicano copie incomplete.
+
+## 2026-08-12 - Identita nei PDF e completezza degli indici
+
+- Tutti i PDF devono mostrare `italianoconmartin.com` in modo evidente e cliccabile, sia nel pie di pagina sia in un blocco finale dedicato.
+- Il blocco finale dei PDF deve includere una foto circolare di Martin e identificare chiaramente `Italiano con Martin`.
+- I PDF di letture e favole devono includere l'immagine editoriale corrispondente al contenuto.
+- Le pagine indice delle storie devono offrire un elenco testuale completo e immediatamente visibile di tutte le storie, oltre alle schede illustrate.
+- L'audit deve fallire se una storia esistente non e collegata dall'indice in qualsiasi lingua.

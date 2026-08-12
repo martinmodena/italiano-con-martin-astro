@@ -1,8 +1,11 @@
 from pathlib import Path
 from urllib.parse import unquote, urlparse
+from io import BytesIO
+from functools import lru_cache
 import re
 
 from lxml import html
+from PIL import Image as PILImage, ImageDraw, ImageOps
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
@@ -10,7 +13,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from reportlab.platypus import Image, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "legacy-html"
@@ -34,6 +37,8 @@ def styles_for(language):
         "h3": ParagraphStyle("H3", parent=base["Heading3"], fontName=bold, fontSize=11, leading=15, textColor=colors.HexColor("#18352e"), spaceBefore=8, spaceAfter=4),
         "body": ParagraphStyle("Body", parent=base["BodyText"], fontName=family, fontSize=9.4, leading=14, textColor=colors.HexColor("#182526"), spaceAfter=7),
         "small": ParagraphStyle("Small", parent=base["BodyText"], fontName=family, fontSize=7.5, leading=10, textColor=colors.HexColor("#4d5c62")),
+        "author": ParagraphStyle("Author", parent=base["BodyText"], fontName=family, fontSize=9.2, leading=13, textColor=colors.HexColor("#18352e")),
+        "website": ParagraphStyle("Website", parent=base["BodyText"], fontName=bold, fontSize=12, leading=16, textColor=colors.HexColor("#b53f27"), spaceBefore=3),
     }
 
 
@@ -101,11 +106,67 @@ def content_nodes(container):
 
 def footer(canvas, doc):
     canvas.saveState()
-    canvas.setFont("ICM", 7)
-    canvas.setFillColor(colors.HexColor("#6a7478"))
+    canvas.setFont("ICM-Bold", 8.5)
+    canvas.setFillColor(colors.HexColor("#18352e"))
     canvas.drawString(18 * mm, 10 * mm, "italianoconmartin.com")
+    canvas.linkURL("https://italianoconmartin.com/", (18 * mm, 8.5 * mm, 61 * mm, 13 * mm), relative=0)
     canvas.drawRightString(192 * mm, 10 * mm, str(doc.page))
     canvas.restoreState()
+
+
+@lru_cache(maxsize=1)
+def circular_photo():
+    source = SITE / "assets" / "martin-portrait.webp"
+    photo = PILImage.open(source).convert("RGB")
+    photo = ImageOps.fit(photo, (180, 180), method=PILImage.Resampling.LANCZOS, centering=(0.5, 0.34))
+    mask = PILImage.new("L", photo.size, 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, photo.width - 1, photo.height - 1), fill=255)
+    background = PILImage.new("RGB", photo.size, "#f7eee5")
+    background.paste(photo, mask=mask)
+    output = BytesIO()
+    background.save(output, format="JPEG", quality=82, optimize=True)
+    return output.getvalue()
+
+
+def author_block(style):
+    portrait = Image(BytesIO(circular_photo()), width=25 * mm, height=25 * mm)
+    copy = [
+        Paragraph("<b>Italiano con Martin</b>", style["author"]),
+        Paragraph('<link href="https://italianoconmartin.com/" color="#b53f27"><u>italianoconmartin.com</u></link>', style["website"]),
+    ]
+    panel = Table([[portrait, copy]], colWidths=[31 * mm, 119 * mm], hAlign="CENTER")
+    panel.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#f7eee5")),
+        ("BOX", (0, 0), (-1, -1), 0.7, colors.HexColor("#ddcbbd")),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 8),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+        ("TOPPADDING", (0, 0), (-1, -1), 8),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+    ]))
+    return KeepTogether([Spacer(1, 8 * mm), panel])
+
+
+@lru_cache(maxsize=32)
+def editorial_image_bytes(image_path):
+    source = PILImage.open(image_path).convert("RGB")
+    source = ImageOps.fit(source, (960, 540), method=PILImage.Resampling.LANCZOS)
+    output = BytesIO()
+    source.save(output, format="JPEG", quality=74, optimize=True)
+    return output.getvalue()
+
+
+def editorial_image(document, page):
+    candidates = document.xpath('//figure[contains(concat(" ", normalize-space(@class), " "), " story-figure ")]//img[1]/@src')
+    if not candidates:
+        return None
+    parsed = urlparse(candidates[0])
+    image_path = SITE / "assets" / Path(parsed.path).name if parsed.scheme else (page.parent / unquote(parsed.path)).resolve()
+    if not image_path.exists():
+        return None
+    image = Image(BytesIO(editorial_image_bytes(str(image_path))), width=156 * mm, height=87.75 * mm)
+    image.hAlign = "CENTER"
+    return image
 
 
 def build_pdf(page, language, level, output):
@@ -114,8 +175,12 @@ def build_pdf(page, language, level, output):
     title = clean("".join(document.xpath("//h1[1]//text()"))) or page.stem
     canonical = next(iter(document.xpath('//link[@rel="canonical"]/@href')), "")
     level_label = "A1-C1" if level == "all-levels" else level.upper()
-    story = [Paragraph(safe_markup(title), style["title"]), Paragraph(safe_markup(f"{language.upper()} · {level_label} · {canonical}"), style["subtitle"])]
-    if any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts):
+    story = [Paragraph(safe_markup(title), style["title"]), Paragraph(safe_markup(f"{language.upper()} - {level_label} - {canonical}"), style["subtitle"])]
+    is_reading = any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts)
+    if is_reading:
+        image = editorial_image(document, page)
+        if image:
+            story.extend([image, Spacer(1, 5 * mm)])
         if level == "all-levels":
             candidates = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " compact-top ")]')
         else:
@@ -125,6 +190,7 @@ def build_pdf(page, language, level, output):
         container = document.xpath("//main")[0]
     for node in content_nodes(container):
         add_node(story, node, style)
+    story.append(author_block(style))
     output.parent.mkdir(parents=True, exist_ok=True)
     pdf = SimpleDocTemplate(str(output), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=17 * mm, bottomMargin=17 * mm, title=title, author="Italiano con Martin")
     pdf.build(story, onFirstPage=footer, onLaterPages=footer)
