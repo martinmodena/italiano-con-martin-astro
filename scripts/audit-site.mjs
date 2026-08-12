@@ -1,96 +1,107 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import * as cheerio from 'cheerio';
 
 const root = process.cwd();
 const publicRoot = path.join(root, 'legacy-html');
 const languages = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
-const routes = {
-  it: { letture: 'letture', grammatica: 'grammatica', favole: 'favole' },
-  en: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  es: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  fr: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  cs: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  pl: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  tr: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  de: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
-  ja: { letture: 'readings', grammatica: 'grammar', favole: 'stories' },
+const localizedLanguages = languages.filter((language) => language !== 'it');
+const italianLeakPattern = /\b(Quando usiamo|Usiamo il|Impara|Scrivi|Ricomincia|Il tuo risultato|Prenota su|Prossima lezione|Esercizi con|Errori comuni|Parole utili|Domande di comprensione|Per parlare|Dalla regola|Durante una lezione|Livello|Letture|Grammatica|Favole)\b/i;
+const seoTerms = {
+  en: 'Italian grammar', es: 'gramática italiana', fr: 'grammaire italienne', cs: 'italská gramatika',
+  pl: 'gramatyka włoska', tr: 'İtalyanca dil bilgisi', de: 'italienische Grammatik', ja: 'イタリア語文法',
 };
-
 const issues = [];
 const resources = collectResources();
 
 for (const resource of resources) {
-  for (const language of languages) {
-    const relative = localizedPath(resource, language);
+  const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
+  const italianAlternates = readAlternates(italianHtml);
+  for (const language of localizedLanguages) {
+    const href = italianAlternates.get(language);
+    if (!href) {
+      issues.push(`- MISSING_HREFLANG | ${language} | ${resource.relative}`);
+      continue;
+    }
+    const relative = decodeURIComponent(new URL(href).pathname.replace(/^\//, ''));
     const absolute = path.join(publicRoot, relative);
     if (!existsSync(absolute)) {
       issues.push(`- MISSING_PAGE | ${language} | /${relative.replaceAll('\\', '/')}`);
       continue;
     }
-
-    const html = readFileSync(absolute, 'utf8');
-    for (const marker of ['<title>', 'meta name="description"', 'rel="canonical"', 'hreflang']) {
-      if (!html.includes(marker)) issues.push(`- MISSING_SEO | ${language} | ${relative} | ${marker}`);
+    inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href);
+  }
+  for (const language of languages) {
+    const pageRelative = language === 'it' ? resource.relative : decodeURIComponent(new URL(italianAlternates.get(language)).pathname.replace(/^\//, ''));
+    const slug = path.basename(pageRelative, '.html');
+    const levels = resource.category === 'grammatica' ? [resource.relative.split('/')[1]] : ['a1', 'a2', 'b1', 'b2', 'c1'];
+    for (const level of levels) {
+      const pdf = path.join(publicRoot, 'pdf', language, `${slug}-${level}.pdf`);
+      if (!existsSync(pdf)) issues.push(`- MISSING_PDF | ${language} | /pdf/${language}/${slug}-${level}.pdf`);
     }
   }
 }
 
-const pdfCount = existsSync(path.join(publicRoot, 'pdf'))
-  ? walk(path.join(publicRoot, 'pdf')).filter((file) => file.endsWith('.pdf')).length
-  : 0;
+const pdfCount = existsSync(path.join(publicRoot, 'pdf')) ? walk(path.join(publicRoot, 'pdf')).filter((file) => file.endsWith('.pdf')).length : 0;
+const readingsAndStories = resources.filter((resource) => resource.category !== 'grammatica').length;
+const grammarLessons = resources.filter((resource) => resource.category === 'grammatica').length;
+const expectedPdfCount = (readingsAndStories * 5 + grammarLessons) * languages.length;
+if (pdfCount < expectedPdfCount) issues.push(`- MISSING_PDF_PACKAGE | expected ${expectedPdfCount} | found ${pdfCount}`);
 
 const report = [
-  '# Site Audit',
-  '',
-  `Generated: ${new Date().toISOString().slice(0, 10)}`,
-  '',
-  '## Inventory',
-  '',
+  '# Site Audit', '', `Generated: ${new Date().toISOString().slice(0, 10)}`, '', '## Inventory', '',
   `- Supported languages: ${languages.length}`,
   `- Educational resources: ${resources.length}`,
   `- Expected localized resource pages: ${resources.length * languages.length}`,
+  `- Expected PDF files: ${expectedPdfCount}`,
   `- Existing PDF files: ${pdfCount}`,
-  `- Findings: ${issues.length}`,
-  '',
-  '## Findings',
-  '',
-  ...(issues.length ? issues : ['- No findings.']),
-  '',
-  '## Publication Rule',
-  '',
-  'This audit is intentionally non-blocking until every resource has reviewed translations, localized after-reading sections, reciprocal hreflang, and its PDF package.',
-  '',
+  `- Findings: ${issues.length}`, '', '## Findings', '',
+  ...(issues.length ? issues : ['- No findings.']), '', '## Publication Rule', '',
+  'Every localized page must have translated explanatory content, a localized URL, reciprocal hreflang, canonical metadata, and its PDF package.', '',
 ].join('\n');
 
 writeFileSync(path.join(root, 'SITE_AUDIT.md'), report);
 console.log(report);
+if (process.argv.includes('--strict') && issues.length) process.exitCode = 1;
+
+function inspectLocalizedPage(resource, language, relative, html, expectedCanonical) {
+  const $ = cheerio.load(html, { decodeEntities: false });
+  const label = `${language} | /${relative.replaceAll('\\', '/')}`;
+  if (html.includes('\uFEFF')) issues.push(`- EMBEDDED_BOM | ${label}`);
+  if (!$('head meta[charset]').length || !$('head title').length) issues.push(`- BROKEN_HEAD_METADATA | ${label}`);
+  if ($('html').attr('lang') !== language) issues.push(`- WRONG_LANG | ${label}`);
+  if ($('link[rel="canonical"]').attr('href') !== expectedCanonical) issues.push(`- WRONG_CANONICAL | ${label}`);
+  if ($('link[rel="alternate"]').length !== 10) issues.push(`- INCOMPLETE_HREFLANG | ${label}`);
+  if ($('meta[name="robots"]').attr('content')?.includes('noindex')) issues.push(`- NOINDEX_LOCALIZED_PAGE | ${label}`);
+  if ((html.match(/<!doctype html>/gi) || []).length !== 1) issues.push(`- INVALID_DOCTYPE | ${label}`);
+  if (!html.includes('language-switcher') || !html.includes('aria-current="page"')) issues.push(`- BROKEN_LANGUAGE_SWITCHER | ${label}`);
+  const bodyClone = $('body').clone();
+  bodyClone.find('.story-text,.conj-table,.example-grid,.mistake-grid,.exercise label,script,style').remove();
+  const explanatoryText = bodyClone.text().replace(/\s+/g, ' ');
+  const leak = explanatoryText.match(italianLeakPattern)?.[0];
+  if (leak) issues.push(`- ITALIAN_EXPLANATION | ${label} | ${leak}`);
+  if (resource.category === 'grammatica' && !$('title').text().toLocaleLowerCase(language).includes(seoTerms[language].toLocaleLowerCase(language))) {
+    issues.push(`- MISSING_LOCALIZED_SEO_TERM | ${label} | ${seoTerms[language]}`);
+  }
+}
+
+function readAlternates(html) {
+  const $ = cheerio.load(html, { decodeEntities: false });
+  return new Map($('link[rel="alternate"][hreflang]').map((_, element) => [[$(element).attr('hreflang'), $(element).attr('href')]]).get());
+}
 
 function collectResources() {
   const result = [];
   for (const category of ['letture', 'favole', 'grammatica']) {
-    const categoryRoot = path.join(publicRoot, category);
-    for (const file of walk(categoryRoot)) {
+    for (const file of walk(path.join(publicRoot, category))) {
       if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
-      const relative = path.relative(publicRoot, file).replaceAll('\\', '/');
-      result.push({ category, relative });
+      result.push({ category, relative: path.relative(publicRoot, file).replaceAll('\\', '/') });
     }
   }
   return result.sort((a, b) => a.relative.localeCompare(b.relative));
 }
 
-function localizedPath(resource, language) {
-  if (language === 'it') return resource.relative;
-  const parts = resource.relative.split('/');
-  const category = routes[language][resource.category];
-  const file = parts.at(-1);
-  const level = resource.category === 'grammatica' ? `${parts[1]}/` : '';
-  return path.join(language, category, level, file);
-}
-
 function walk(directory) {
   if (!existsSync(directory)) return [];
-  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    const absolute = path.join(directory, entry.name);
-    return entry.isDirectory() ? walk(absolute) : [absolute];
-  });
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => entry.isDirectory() ? walk(path.join(directory, entry.name)) : [path.join(directory, entry.name)]);
 }

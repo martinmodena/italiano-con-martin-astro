@@ -48,4 +48,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Il testo di studio italiano resta in italiano; interfaccia, istruzioni, etichette, metadata, navigazione, vocabolario e domande devono essere localizzati e revisionati.
 - Ogni pagina deve avere canonical, hreflang reciproci, selettore statico con bandiera e nome della lingua, asset relativi funzionanti e sitemap aggiornata.
 - `scripts/generate-localized-resources.mjs` genera localmente la struttura e `npm run audit:site` deve restituire zero errori prima del deploy.
+- Le categorie e gli slug delle risorse devono essere nella lingua della pagina, non in italiano. Per esempio, la lezione inglese sul verbo essere usa `/en/grammar/a1/verb-to-be.html`, mentre la versione spagnola usa `/es/gramatica/a1/verbo-ser.html`.
+- Titolo SEO, meta description, intestazioni, spiegazioni, istruzioni, navigazione, vocabolario e domande devono essere coerenti con la lingua selezionata. I titoli delle lezioni di grammatica devono includere l'equivalente locale dell'intento di ricerca "grammatica italiana".
+- Il materiale oggetto di studio, come brani, esempi e coniugazioni italiane, resta in italiano ed e marcato semanticamente con `lang="it"` quando opportuno.
+- I vecchi URL con categorie o slug italiani restano disponibili soltanto come redirect statici `noindex` verso il nuovo URL canonico localizzato, per non perdere collegamenti esistenti.
+- Gli `hreflang`, il selettore lingua e la sitemap devono puntare esclusivamente agli URL canonici localizzati.
+- L'audit di produzione deve essere eseguito in modalita rigorosa con `node scripts/audit-site.mjs --strict` e deve verificare anche coerenza linguistica, canonical, `hreflang`, redirect e disponibilita dei PDF.
+- Ogni risorsa offre PDF per lingua e livello: cinque livelli per letture e favole, un livello per le lezioni di grammatica. L'inventario corrente e di 945 PDF.
 - La generazione automatica non viene aggiunta al workflow di produzione finché i testi localizzati non sono stati revisionati; non si pubblicano copie incomplete.

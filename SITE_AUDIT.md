@@ -7,7 +7,8 @@ Generated: 2026-08-12
 - Supported languages: 9
 - Educational resources: 41
 - Expected localized resource pages: 369
-- Existing PDF files: 0
+- Expected PDF files: 945
+- Existing PDF files: 945
 - Findings: 0
 
 ## Findings
@@ -16,4 +17,4 @@ Generated: 2026-08-12
 
 ## Publication Rule
 
-This audit is intentionally non-blocking until every resource has reviewed translations, localized after-reading sections, reciprocal hreflang, and its PDF package.
+Every localized page must have translated explanatory content, a localized URL, reciprocal hreflang, canonical metadata, and its PDF package.

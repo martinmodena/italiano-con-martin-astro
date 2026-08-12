@@ -26,7 +26,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Audit site inventory
-        run: node scripts/audit-site.mjs
+        run: node scripts/audit-site.mjs --strict
 
       - name: Prepare static HTML site
         shell: bash

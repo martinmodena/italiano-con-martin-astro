@@ -1,167 +1,456 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import * as cheerio from 'cheerio';
 
 const root = process.cwd();
 const siteRoot = path.join(root, 'legacy-html');
 const siteUrl = 'https://italianoconmartin.com';
+const cacheFile = path.join(root, 'translations', 'review-cache.json');
 const languages = ['en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
-const routes = { letture: 'readings', favole: 'stories', grammatica: 'grammar' };
-const copy = {
-  en: { name: 'English', flag: '🇬🇧', home: 'Home', readings: 'Readings', grammar: 'Grammar', stories: 'Stories', book: 'Book on Preply', read: 'Read', story: 'Read the complete story', words: 'Useful words', speak: 'For speaking', comprehension: 'Comprehension', active: 'Active practice', exercise: 'Exercises', result: 'Your result', correct: 'correct answers out of', reset: 'Start again', next: 'Next lesson', back: 'Back to all readings', prefix: 'Italian reading' },
-  es: { name: 'Español', flag: '🇪🇸', home: 'Inicio', readings: 'Lecturas', grammar: 'Gramática', stories: 'Historias', book: 'Reservar en Preply', read: 'Leer', story: 'Leer la historia completa', words: 'Palabras útiles', speak: 'Para hablar', comprehension: 'Comprensión', active: 'Práctica activa', exercise: 'Ejercicios', result: 'Tu resultado', correct: 'respuestas correctas de', reset: 'Empezar de nuevo', next: 'Siguiente lección', back: 'Volver a todas las lecturas', prefix: 'Lectura de italiano' },
-  fr: { name: 'Français', flag: '🇫🇷', home: 'Accueil', readings: 'Lectures', grammar: 'Grammaire', stories: 'Histoires', book: 'Réserver sur Preply', read: 'Lire', story: 'Lire l’histoire complète', words: 'Mots utiles', speak: 'Pour parler', comprehension: 'Compréhension', active: 'Pratique active', exercise: 'Exercices', result: 'Votre résultat', correct: 'bonnes réponses sur', reset: 'Recommencer', next: 'Leçon suivante', back: 'Toutes les lectures', prefix: 'Lecture d’italien' },
-  cs: { name: 'Čeština', flag: '🇨🇿', home: 'Domů', readings: 'Čtení', grammar: 'Gramatika', stories: 'Příběhy', book: 'Rezervovat na Preply', read: 'Číst', story: 'Přečíst celý příběh', words: 'Užitečná slova', speak: 'Pro mluvení', comprehension: 'Porozumění', active: 'Aktivní procvičování', exercise: 'Cvičení', result: 'Váš výsledek', correct: 'správných odpovědí z', reset: 'Začít znovu', next: 'Další lekce', back: 'Všechna čtení', prefix: 'Italské čtení' },
-  pl: { name: 'Polski', flag: '🇵🇱', home: 'Strona główna', readings: 'Czytanki', grammar: 'Gramatyka', stories: 'Historie', book: 'Zarezerwuj na Preply', read: 'Czytaj', story: 'Przeczytaj całą historię', words: 'Przydatne słowa', speak: 'Do rozmowy', comprehension: 'Rozumienie tekstu', active: 'Aktywna praktyka', exercise: 'Ćwiczenia', result: 'Twój wynik', correct: 'poprawnych odpowiedzi z', reset: 'Zacznij od nowa', next: 'Następna lekcja', back: 'Wszystkie czytanki', prefix: 'Czytanka po włosku' },
-  tr: { name: 'Türkçe', flag: '🇹🇷', home: 'Ana sayfa', readings: 'Okumalar', grammar: 'Dil bilgisi', stories: 'Hikâyeler', book: 'Preply’de rezervasyon yap', read: 'Oku', story: 'Hikâyenin tamamını oku', words: 'Yararlı kelimeler', speak: 'Konuşma için', comprehension: 'Anlama', active: 'Aktif pratik', exercise: 'Alıştırmalar', result: 'Sonucunuz', correct: 'doğru cevap /', reset: 'Yeniden başla', next: 'Sonraki ders', back: 'Tüm okumalar', prefix: 'İtalyanca okuma' },
-  de: { name: 'Deutsch', flag: '🇩🇪', home: 'Startseite', readings: 'Lesetexte', grammar: 'Grammatik', stories: 'Geschichten', book: 'Auf Preply buchen', read: 'Lesen', story: 'Die ganze Geschichte lesen', words: 'Nützliche Wörter', speak: 'Zum Sprechen', comprehension: 'Verständnis', active: 'Aktives Üben', exercise: 'Übungen', result: 'Dein Ergebnis', correct: 'richtige Antworten von', reset: 'Neu beginnen', next: 'Nächste Lektion', back: 'Alle Lesetexte', prefix: 'Italienischer Lesetext' },
-  ja: { name: '日本語', flag: '🇯🇵', home: 'ホーム', readings: '読解', grammar: '文法', stories: '物語', book: 'Preplyで予約', read: '読む', story: '物語をすべて読む', words: '役立つ単語', speak: '会話の練習', comprehension: '読解問題', active: '実践練習', exercise: '練習問題', result: '結果', correct: '問正解 /', reset: 'もう一度始める', next: '次のレッスン', back: 'すべての読解', prefix: 'イタリア語の読解' },
+const languageData = {
+  en: { name: 'English', flag: '🇬🇧', categories: { letture: 'readings', favole: 'stories', grammatica: 'grammar' } },
+  es: { name: 'Español', flag: '🇪🇸', categories: { letture: 'lecturas', favole: 'cuentos', grammatica: 'gramatica' } },
+  fr: { name: 'Français', flag: '🇫🇷', categories: { letture: 'lectures', favole: 'histoires', grammatica: 'grammaire' } },
+  cs: { name: 'Čeština', flag: '🇨🇿', categories: { letture: 'cteni', favole: 'pribehy', grammatica: 'gramatika' } },
+  pl: { name: 'Polski', flag: '🇵🇱', categories: { letture: 'czytanki', favole: 'historie', grammatica: 'gramatyka' } },
+  tr: { name: 'Türkçe', flag: '🇹🇷', categories: { letture: 'okumalar', favole: 'hikayeler', grammatica: 'dilbilgisi' } },
+  de: { name: 'Deutsch', flag: '🇩🇪', categories: { letture: 'lesetexte', favole: 'geschichten', grammatica: 'grammatik' } },
+  ja: { name: '日本語', flag: '🇯🇵', categories: { letture: 'dokkai', favole: 'monogatari', grammatica: 'bunpo' } },
 };
-const metaSuffix = {
-  en: 'Italian study text with useful words, questions and activities for learners from A1 to C1.',
-  es: 'Texto de estudio en italiano con palabras útiles, preguntas y actividades para estudiantes de A1 a C1.',
-  fr: 'Texte d’étude en italien avec mots utiles, questions et activités pour les niveaux A1 à C1.',
-  cs: 'Italský studijní text s užitečnými slovy, otázkami a aktivitami pro úrovně A1 až C1.',
-  pl: 'Tekst do nauki włoskiego z przydatnymi słowami, pytaniami i ćwiczeniami dla poziomów A1–C1.',
-  tr: 'A1-C1 seviyesindeki öğrenciler için yararlı kelimeler, sorular ve etkinlikler içeren İtalyanca çalışma metni.',
-  de: 'Italienischer Lerntext mit nützlichen Wörtern, Fragen und Aktivitäten für die Niveaus A1 bis C1.',
-  ja: 'A1からC1レベルの学習者向けに、役立つ単語、質問、練習を含むイタリア語学習テキストです。',
+const seoLabels = {
+  en: { grammatica: 'Italian grammar', letture: 'graded Italian reading', favole: 'Italian story' },
+  es: { grammatica: 'gramática italiana', letture: 'lectura graduada en italiano', favole: 'cuento en italiano' },
+  fr: { grammatica: 'grammaire italienne', letture: 'lecture graduée en italien', favole: 'histoire en italien' },
+  cs: { grammatica: 'italská gramatika', letture: 'odstupňované čtení v italštině', favole: 'italský příběh' },
+  pl: { grammatica: 'gramatyka włoska', letture: 'czytanka stopniowana po włosku', favole: 'historia po włosku' },
+  tr: { grammatica: 'İtalyanca dil bilgisi', letture: 'seviyelendirilmiş İtalyanca okuma', favole: 'İtalyanca hikâye' },
+  de: { grammatica: 'italienische Grammatik', letture: 'abgestufter italienischer Lesetext', favole: 'italienische Geschichte' },
+  ja: { grammatica: 'イタリア語文法', letture: 'レベル別イタリア語読解', favole: 'イタリア語の物語' },
 };
-
-const resources = collectResources();
-for (const language of languages) {
-  for (const resource of resources) writeLocalizedResource(resource, language);
-  for (const category of Object.keys(routes)) writeLocalizedIndex(category, language);
+const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar' };
+const slugOverrides = {
+  en: { 'verbo-essere': 'verb-to-be', 'il-sonar-del-delfino': 'dolphin-sonar', 'il-cane-e-losso': 'the-dog-and-the-bone' },
+  es: { 'verbo-essere': 'verbo-ser', 'il-sonar-del-delfino': 'el-sonar-del-delfin', 'il-cane-e-losso': 'el-perro-y-el-hueso' },
+  fr: { 'verbo-essere': 'verbe-etre', 'il-sonar-del-delfino': 'le-sonar-du-dauphin', 'il-cane-e-losso': 'le-chien-et-los' },
+  cs: { 'verbo-essere': 'sloveso-byt' }, pl: { 'verbo-essere': 'czasownik-byc' },
+  tr: { 'verbo-essere': 'essere-fiili' }, de: { 'verbo-essere': 'verb-essere-sein' }, ja: { 'verbo-essere': 'essere-doshi' },
+};
+const preserveSelectors = [
+  '.story-text', '.conj-table', '.example-grid', '.mistake-grid', '.exercise label',
+  '.brand', '.language-switcher', '[lang="it"]', '.footer-grid > div:first-child > strong', 'script', 'style', 'code', 'pre',
+];
+const attributeNames = ['alt', 'aria-label', 'data-hint', 'placeholder', 'title'];
+const sourceCategories = ['letture', 'favole', 'grammatica'];
+const cache = existsSync(cacheFile) ? JSON.parse(readFileSync(cacheFile, 'utf8')) : {};
+const reviewedOverrides = {
+  en: {
+    'Il verbo essere': 'Italian verb essere (to be)',
+    'Quando usiamo “essere”?': 'When do we use “essere”?',
+    'essere': 'essere',
+    '“è” vuole l’accento. “E” senza accento è la congiunzione.': 'The Italian form “è” needs the accent. “E” without an accent means “and”.',
+    'Sono insegnante': 'Sono insegnante',
+    'Sono un insegnante': 'Sono un insegnante',
+    'Con “io” usiamo “sono”.': 'With “io”, use “sono”.',
+    'Con “tu” usiamo “sei”.': 'With “tu”, use “sei”.',
+    'Con “lei” usiamo “è”, con l’accento.': 'With “lei”, use the accented form “è”.',
+    'Con “noi” usiamo “siamo”.': 'With “noi”, use “siamo”.',
+    'Con “voi” usiamo “siete”.': 'With “voi”, use “siete”.',
+    'Con “loro” usiamo “sono”.': 'With “loro”, use “sono”.',
+    'Per la forma negativa: non + sono.': 'For the negative form, use non + sono.',
+    'Marco e io = noi, quindi “siamo”.': 'Marco e io corresponds to noi, so use “siamo”.',
+    'Anna e Luca = loro, quindi “sono”.': 'Anna e Luca corresponds to loro, so use “sono”.',
+    'Mettiamo': 'Place',
+    'prima del verbo:': 'before the verb:',
+  },
+  es: { 'Il verbo essere': 'El verbo italiano essere' },
+  fr: { 'Il verbo essere': 'Le verbe italien essere' },
+  cs: { 'Il verbo essere': 'Italské sloveso essere' },
+  pl: { 'Il verbo essere': 'Włoski czasownik essere' },
+  tr: { 'Il verbo essere': 'İtalyanca essere fiili' },
+  de: { 'Il verbo essere': 'Das italienische Verb essere' },
+  ja: { 'Il verbo essere': 'イタリア語動詞 essere' },
+};
+for (const [language, entries] of Object.entries(reviewedOverrides)) {
+  for (const [source, target] of Object.entries(entries)) cache[cacheKey(language, source)] = target;
 }
+const resources = collectResources();
+const sources = collectSources();
+const routeMaps = {};
+
+for (const language of languages) {
+  const strings = collectStringsForLanguage(language);
+  await translateMissing(strings, language);
+  mkdirSync(path.dirname(cacheFile), { recursive: true });
+  writeFileSync(cacheFile, `${JSON.stringify(cache, null, 2)}\n`);
+}
+for (const language of languages) {
+  routeMaps[language] = buildRouteMap(language);
+}
+for (const language of languages) {
+  writeLanguage(language);
+}
+
+updateItalianAlternates();
+updateLocalizedHomes();
+writeSitemap();
+mkdirSync(path.dirname(cacheFile), { recursive: true });
+writeFileSync(cacheFile, `${JSON.stringify(cache, null, 2)}\n`);
+console.log(`Generated and localized ${resources.length * languages.length} resource pages in ${languages.length} languages.`);
 
 function collectResources() {
   const result = [];
-  for (const category of Object.keys(routes)) {
-    const categoryRoot = path.join(siteRoot, category);
-    for (const file of walk(categoryRoot)) {
+  for (const category of sourceCategories) {
+    for (const file of walk(path.join(siteRoot, category))) {
       if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
-      result.push({ category, relative: path.relative(siteRoot, file).replaceAll('\\', '/') });
+      const relative = path.relative(siteRoot, file).replaceAll('\\', '/');
+      const level = category === 'grammatica' ? relative.split('/')[1] : '';
+      result.push({ category, level, relative, sourceSlug: path.basename(file, '.html') });
     }
   }
   return result.sort((a, b) => a.relative.localeCompare(b.relative));
 }
 
-function writeLocalizedResource(resource, language) {
-  const source = readFileSync(path.join(siteRoot, resource.relative), 'utf8');
-  const targetRelative = localizedRelative(resource, language);
-  const target = path.join(siteRoot, targetRelative);
-  mkdirSync(path.dirname(target), { recursive: true });
-  writeFileSync(target, localizeHtml(source, resource, language, targetRelative));
+function collectSources() {
+  const map = new Map();
+  for (const resource of resources) map.set(resource.relative, readFileSync(path.join(siteRoot, resource.relative), 'utf8'));
+  for (const category of sourceCategories) map.set(`${category}/index.html`, readFileSync(path.join(siteRoot, category, 'index.html'), 'utf8'));
+  return map;
 }
 
-function writeLocalizedIndex(category, language) {
-  const sourcePath = path.join(siteRoot, category, 'index.html');
-  if (!existsSync(sourcePath)) return;
-  const resource = { category, relative: `${category}/index.html` };
-  const targetRelative = path.join(language, routes[category], 'index.html');
-  const target = path.join(siteRoot, targetRelative);
-  writeFileSync(target, localizeHtml(readFileSync(sourcePath, 'utf8'), resource, language, targetRelative));
+function collectStringsForLanguage(language) {
+  const strings = new Set();
+  for (const [relative, html] of sources) {
+    const category = relative.split('/')[0];
+    const $ = cheerio.load(html, { decodeEntities: false });
+    collectTranslatable($, strings);
+    collectVocabularyStrings($, strings);
+    const title = cleanText($('h1').first().text());
+    if (title) strings.add(title);
+    const categoryName = category === 'letture' ? 'Letture' : category === 'favole' ? 'Favole' : 'Grammatica';
+    strings.add(categoryName);
+  }
+  return [...strings].filter((text) => !cache[cacheKey(language, text)]);
 }
 
-function localizeHtml(source, resource, language, targetRelative) {
-  const t = copy[language];
-  const localizedCategory = routes[resource.category];
-  const canonical = `${siteUrl}/${language}/${localizedCategory}/${resource.relative.includes('/a1/') ? 'a1/' : resource.relative.includes('/a2/') ? 'a2/' : resource.relative.includes('/b1/') ? 'b1/' : resource.relative.includes('/b2/') ? 'b2/' : resource.relative.includes('/c1/') ? 'c1/' : ''}${path.basename(resource.relative)}`.replace('/index.html', '/');
-  const prefix = resource.category === 'grammatica' && path.basename(resource.relative) !== 'index.html' ? '../../../' : '../../';
-  const categoryUrl = `${siteUrl}/${language}/${localizedCategory}/`;
-  const titleText = plainText((source.match(/<h1>([\s\S]*?)<\/h1>/i) || [,'Italiano'])[1]);
-  const title = `${t.prefix}: ${titleText} | Italiano con Martin`;
-  const description = `${t.prefix}: ${titleText}. ${metaSuffix[language]}`;
-  const hreflang = buildHreflang(resource);
-  let html = source.replace(/<html lang="it">/i, `<html lang="${language}">`);
-  html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);
-  html = html.replace(/<meta name="description" content="[^"]*">/i, `<meta name="description" content="${escapeHtml(description)}">`);
-  html = html.replace(/<link rel="canonical" href="[^"]*">/i, `<link rel="canonical" href="${canonical}">`);
-  html = html.replace(/<meta property="og:title" content="[^"]*">/i, `<meta property="og:title" content="${escapeHtml(title)}">`);
-  html = html.replace(/<meta property="og:description" content="[^"]*">/i, `<meta property="og:description" content="${escapeHtml(description)}">`);
-  html = html.replace(/<meta property="og:url" content="[^"]*">/i, `<meta property="og:url" content="${canonical}">`);
-  html = html.replace(/<meta name="twitter:title" content="[^"]*">/i, `<meta name="twitter:title" content="${escapeHtml(title)}">`);
-  html = html.replace(/<meta name="twitter:description" content="[^"]*">/i, `<meta name="twitter:description" content="${escapeHtml(description)}">`);
-  html = html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/i, `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': resource.category === 'grammatica' ? 'LearningResource' : 'Article', url: canonical, name: titleText, inLanguage: language, isPartOf: categoryUrl })}</script>`);
-  html = html.replace(/<link rel="alternate" hreflang="[\s\S]*?(?=<link rel="stylesheet")/i, '');
-  html = html.replace(/<link rel="canonical"[^>]*>/i, `${hreflang}<link rel="canonical" href="${canonical}">`);
-  html = html.replace(/<details class="language-switcher">[\s\S]*?<\/details>/i, languageSelector(resource, language));
-  html = html.replace(/(href|src)="(?:\.\.\/)+(?=(?:assets|styles\.css|script\.js|favicon\.png|apple-touch-icon\.png))/gi, `$1="${prefix}`);
-  html = html.replace(/href="\.\.\/letture\//g, `href="/${language}/${routes.letture}/`);
-  html = html.replace(/href="\.\.\/grammatica\//g, `href="/${language}/${routes.grammatica}/`);
-  html = html.replace(/href="\.\.\/favole\//g, `href="/${language}/${routes.favole}/`);
-  html = html.replace(/href="\.\.\/\.\.\/letture\//g, `href="/${language}/${routes.letture}/`);
-  html = html.replace(/href="\.\.\/\.\.\/grammatica\//g, `href="/${language}/${routes.grammatica}/`);
-  html = html.replace(/href="\.\.\/\.\.\/favole\//g, `href="/${language}/${routes.favole}/`);
-  html = html.replace(/href="\.\.\/\.\.\/"/g, `href="/${language}/"`);
-  html = html.replace(/href="\.\.\/"/g, `href="/${language}/"`);
-  html = html.replace(/href="\.\/"/g, `href="/${language}/${localizedCategory}/"`);
-  html = html.replace(/<a class="brand" href="[^"]*">/i, `<a class="brand" href="/${language}/">`);
-  html = translateInterface(html, t);
-  html = html.replaceAll(`<a href="/${language}/">${t.grammar}</a>`, `<a href="/${language}/${routes.grammatica}/">${t.grammar}</a>`);
-  html = html.replaceAll('Grammatica A1', `${t.grammar} A1`).replaceAll('Grammatica A2', `${t.grammar} A2`).replaceAll('Grammatica B1', `${t.grammar} B1`).replaceAll('Grammatica B2', `${t.grammar} B2`).replaceAll('Grammatica C1', `${t.grammar} C1`);
-  html = html.replace(/(\d+) risposte corrette su (\d+)/g, (_, correct, total) => `${correct} ${t.correct} ${total}`);
-  return html;
-}
-
-function buildHreflang(resource) {
-  const file = path.basename(resource.relative);
-  const level = resource.category === 'grammatica' ? `${resource.relative.split('/')[1]}/` : '';
-  const italianPath = file === 'index.html' ? `${resource.category}/` : resource.relative;
-  const localizedPath = file === 'index.html' ? `${routes[resource.category]}/` : `${routes[resource.category]}/${level}${file}`;
-  const links = [`<link rel="alternate" hreflang="it" href="${siteUrl}/${italianPath}">`];
-  for (const language of languages) links.push(`<link rel="alternate" hreflang="${language}" href="${siteUrl}/${language}/${localizedPath}">`);
-  links.push(`<link rel="alternate" hreflang="x-default" href="${siteUrl}/${italianPath}">`);
-  return `${links.join('')}\n  `;
-}
-
-function languageSelector(resource, current) {
-  const category = routes[resource.category];
-  const file = path.basename(resource.relative);
-  const level = resource.category === 'grammatica' ? `${resource.relative.split('/')[1]}/` : '';
-  const italianPath = file === 'index.html' ? `${resource.category}/` : resource.relative;
-  const localizedPath = file === 'index.html' ? `${category}/` : `${category}/${level}${file}`;
-  const entries = [`<a href="/${italianPath}" hreflang="it" lang="it"><span aria-hidden="true">🇮🇹</span><span>Italiano</span></a>`];
-  for (const language of languages) entries.push(`<a href="/${language}/${localizedPath}" hreflang="${language}" lang="${language}"${language === current ? ' aria-current="page"' : ''}><span aria-hidden="true">${copy[language].flag}</span><span>${copy[language].name}</span></a>`);
-  return `<details class="language-switcher"><summary aria-label="Scegli lingua"><span class="language-flag" aria-hidden="true">${current === 'it' ? '🇮🇹' : copy[current].flag}</span><span class="language-current">${current === 'it' ? 'Italiano' : copy[current].name}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${entries.join('')}</div></details>`;
-}
-
-function translateInterface(html, t) {
-  const replacements = [
-    ['Home', t.home], ['Letture', t.readings], ['Grammatica', t.grammar], ['Favole', t.stories], ['Prenota su Preply', t.book],
-    ['Leggi l’articolo', `${t.read} article`], ['Leggi l\'articolo', `${t.read} article`], ['Leggi la favola completa', t.story],
-    ['Parole utili', t.words], ['Per parlare', t.speak], ['Comprensione', t.comprehension], ['Scheda lessico', t.words], ['Scheda attiva', t.active],
-    ['Esercizi con feedback immediato', t.exercise], ['Il tuo risultato', t.result], ['Ricomincia', t.reset], ['Prossima lezione', t.next],
-  ];
-  for (const [from, to] of replacements) html = html.replaceAll(from, to);
-  return html;
-}
-
-function localizedRelative(resource, language) {
-  const parts = resource.relative.split('/');
-  const level = resource.category === 'grammatica' ? `${parts[1]}/` : '';
-  return `${language}/${routes[resource.category]}/${level}${parts.at(-1)}`;
-}
-
-function plainText(value) { return value.replace(/<[^>]+>/g, '').replaceAll('&rsquo;', "'").replaceAll('&nbsp;', ' ').trim(); }
-function escapeHtml(value) { return value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;'); }
-function walk(directory) {
-  if (!existsSync(directory)) return [];
-  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
-    const absolute = path.join(directory, entry.name);
-    return entry.isDirectory() ? walk(absolute) : [absolute];
+function collectTranslatable($, strings) {
+  $('body *').contents().each((_, node) => {
+    if (node.type !== 'text' || shouldPreserve($, node)) return;
+    const text = cleanText(node.data);
+    if (isTranslatable(text)) strings.add(text);
+  });
+  $('body *').each((_, element) => {
+    if (shouldPreserve($, element)) return;
+    for (const attribute of attributeNames) {
+      const text = cleanText($(element).attr(attribute) || '');
+      if (isTranslatable(text) && !/^https?:/i.test(text)) strings.add(text);
+    }
+  });
+  $('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').each((_, element) => {
+    const text = cleanText($(element).attr('content') || '');
+    if (isTranslatable(text)) strings.add(text);
   });
 }
 
-console.log(`Generated ${resources.length * languages.length} localized resource pages and ${languages.length * 3} localized hubs.`);
+function collectVocabularyStrings($, strings) {
+  $('.learning-grid > div').each((_, element) => {
+    const heading = cleanText($(element).find('h3').first().text());
+    if (!/^(Parole utili|Scheda lessico)$/i.test(heading)) return;
+    const words = cleanText($(element).find('p').first().text()).split(',').map((word) => word.trim()).filter(Boolean);
+    for (const word of words) if (isTranslatable(word)) strings.add(word);
+  });
+}
 
-const sitemapUrls = [
-  '/', '/letture/', '/favole/', '/grammatica/',
-  ...resources.map((resource) => `/${resource.relative}`),
-  ...languages.flatMap((language) => [
-    `/${language}/`, `/${language}/readings/`, `/${language}/stories/`, `/${language}/grammar/`,
-    ...resources.map((resource) => `/${language}/${localizedRelative(resource, language).split('/').slice(1).join('/')}`),
-  ]),
-];
-const uniqueUrls = [...new Set(sitemapUrls)];
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${uniqueUrls.map((url) => `  <url><loc>${siteUrl}${url}</loc><changefreq>monthly</changefreq></url>`).join('\n')}\n</urlset>\n`;
-writeFileSync(path.join(siteRoot, 'sitemap.xml'), sitemap);
+function shouldPreserve($, node) {
+  const element = node.type === 'text' ? node.parent : node;
+  return preserveSelectors.some((selector) => $(element).closest(selector).length > 0);
+}
+
+function isTranslatable(text) {
+  return text.length > 1 && /[A-Za-zÀ-ÿ]/.test(text) && !/^(A1|A2|B1|B2|C1|LAB|SC|TE|CU|ST|FA)$/.test(text);
+}
+
+async function translateMissing(strings, language) {
+  if (!strings.length) return;
+  const batches = [];
+  let batch = [];
+  let size = 0;
+  for (const text of strings) {
+    if (batch.length >= 18 || size + text.length > 3200) {
+      batches.push(batch); batch = []; size = 0;
+    }
+    batch.push(text); size += text.length;
+  }
+  if (batch.length) batches.push(batch);
+  console.log(`${language}: translating ${strings.length} strings in ${batches.length} batches`);
+  for (let index = 0; index < batches.length; index++) {
+    const translated = await translateBatch(batches[index], language);
+    batches[index].forEach((text, itemIndex) => { cache[cacheKey(language, text)] = translated[itemIndex] || text; });
+    if ((index + 1) % 20 === 0) console.log(`${language}: ${index + 1}/${batches.length} batches`);
+  }
+}
+
+async function translateBatch(strings, language, attempt = 1) {
+  const payload = strings.map((text, index) => `__ICM_${index}__\n${text}`).join('\n');
+  const url = new URL('https://translate.googleapis.com/translate_a/single');
+  url.searchParams.set('client', 'gtx'); url.searchParams.set('sl', 'it'); url.searchParams.set('tl', language); url.searchParams.set('dt', 't'); url.searchParams.set('q', payload);
+  try {
+    const response = await fetch(url, { headers: { 'User-Agent': 'ItalianoConMartin/1.0' } });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const output = data[0].map((part) => part[0]).join('');
+    const result = Array(strings.length).fill('');
+    const matches = [...output.matchAll(/__ICM_(\d+)__\s*([\s\S]*?)(?=__ICM_\d+__|$)/g)];
+    for (const match of matches) result[Number(match[1])] = match[2].trim();
+    if (result.some((value) => !value)) throw new Error('Incomplete batch response');
+    return result;
+  } catch (error) {
+    if (attempt >= 4) throw error;
+    await new Promise((resolve) => setTimeout(resolve, attempt * 1200));
+    return translateBatch(strings, language, attempt + 1);
+  }
+}
+
+function buildRouteMap(language) {
+  const map = new Map();
+  for (const resource of resources) {
+    const $ = cheerio.load(sources.get(resource.relative), { decodeEntities: false });
+    const title = cleanText($('h1').first().text());
+    const translatedTitle = translation(language, title);
+    const slug = slugOverrides[language]?.[resource.sourceSlug] || slugify(translatedTitle) || resource.sourceSlug;
+    const category = languageData[language].categories[resource.category];
+    const level = resource.level ? `${resource.level}/` : '';
+    map.set(resource.relative, `${language}/${category}/${level}${slug}.html`);
+  }
+  return map;
+}
+
+function writeLanguage(language) {
+  for (const category of sourceCategories) writeLocalizedIndex(category, language);
+  for (const resource of resources) writeLocalizedResource(resource, language);
+}
+
+function writeLocalizedIndex(category, language) {
+  const sourceRelative = `${category}/index.html`;
+  const targetRelative = `${language}/${languageData[language].categories[category]}/index.html`;
+  const html = localizeDocument(sources.get(sourceRelative), { category, language, sourceRelative, targetRelative, isIndex: true });
+  writeFile(targetRelative, html);
+  const legacy = `${language}/${legacyCategories[category]}/index.html`;
+  if (legacy !== targetRelative) writeFile(legacy, redirectPage(`/${targetRelative.replace('index.html', '')}`, language));
+}
+
+function writeLocalizedResource(resource, language) {
+  const targetRelative = routeMaps[language].get(resource.relative);
+  const html = localizeDocument(sources.get(resource.relative), { ...resource, language, sourceRelative: resource.relative, targetRelative, isIndex: false });
+  writeFile(targetRelative, html);
+  const legacy = `${language}/${legacyCategories[resource.category]}/${resource.level ? `${resource.level}/` : ''}${resource.sourceSlug}.html`;
+  if (legacy !== targetRelative) writeFile(legacy, redirectPage(`/${targetRelative}`, language));
+}
+
+function localizeDocument(source, context) {
+  const { language, category, sourceRelative, targetRelative, isIndex } = context;
+  const $ = cheerio.load(source, { decodeEntities: false });
+  normalizeDocument($);
+  $('html').attr('lang', language);
+  applyVocabularyGlosses($, language);
+  applyTranslations($, language);
+  const title = cleanText($('h1').first().text());
+  const canonical = `${siteUrl}/${targetRelative.replace('index.html', '')}`;
+  const level = context.level ? ` ${context.level.toUpperCase()}` : '';
+  const seoTitle = `${title}: ${seoLabels[language][category]}${level} | Italiano con Martin`;
+  $('title').text(seoTitle);
+  $('link[rel="canonical"]').remove(); $('link[rel="alternate"]').remove();
+  $('meta[property="og:url"]').attr('content', canonical);
+  $('meta[property="og:title"],meta[name="twitter:title"]').attr('content', seoTitle);
+  const alternates = buildAlternates(sourceRelative, category, isIndex);
+  $('head').prepend(`${alternates}<link rel="canonical" href="${canonical}">`);
+  $('script[type="application/ld+json"]').remove();
+  $('head').append(`<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': category === 'grammatica' ? 'LearningResource' : 'Article', name: title, url: canonical, inLanguage: language })}</script>`);
+  $('.language-switcher').replaceWith(languageSelector(sourceRelative, category, language, isIndex));
+  rewriteAssets($, targetRelative);
+  rewriteInternalLinks($, category, language, sourceRelative);
+  addPdfLinks($, { ...context, targetRelative });
+  return serialize($);
+}
+
+function applyVocabularyGlosses($, language) {
+  $('.learning-grid > div').each((_, element) => {
+    const heading = cleanText($(element).find('h3').first().text());
+    if (!/^(Parole utili|Scheda lessico)$/i.test(heading)) return;
+    const paragraph = $(element).find('p').first();
+    const words = cleanText(paragraph.text()).split(',').map((word) => word.trim()).filter(Boolean);
+    if (!words.length) return;
+    paragraph.html(words.map((word) => `<span lang="it">${escapeHtml(word)}</span> = ${escapeHtml(translation(language, word))}`).join('<br>'));
+  });
+}
+
+function applyTranslations($, language) {
+  $('body *').contents().each((_, node) => {
+    if (node.type !== 'text' || shouldPreserve($, node)) return;
+    const original = cleanText(node.data);
+    if (!isTranslatable(original)) return;
+    const leading = node.data.match(/^\s*/)?.[0] || '';
+    const trailing = node.data.match(/\s*$/)?.[0] || '';
+    node.data = `${leading}${translation(language, original)}${trailing}`;
+  });
+  $('body *').each((_, element) => {
+    if (shouldPreserve($, element)) return;
+    for (const attribute of attributeNames) {
+      const original = cleanText($(element).attr(attribute) || '');
+      if (isTranslatable(original) && !/^https?:/i.test(original)) $(element).attr(attribute, translation(language, original));
+    }
+  });
+  $('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').each((_, element) => {
+    const original = cleanText($(element).attr('content') || '');
+    if (isTranslatable(original)) $(element).attr('content', translation(language, original));
+  });
+}
+
+function rewriteAssets($, targetRelative) {
+  const depth = targetRelative.split('/').length - 1;
+  const prefix = '../'.repeat(depth);
+  $('[href],[src]').each((_, element) => {
+    for (const attribute of ['href', 'src']) {
+      const value = $(element).attr(attribute);
+      if (!value || value.startsWith('#') || value.startsWith('/') || /^(https?:|mailto:|tel:)/i.test(value)) continue;
+      const match = value.match(/(?:\.\.\/)*(assets\/[^?#]+|styles\.css|script\.js|favicon\.png|apple-touch-icon\.png)(.*)$/);
+      if (match) $(element).attr(attribute, `${prefix}${match[1]}${match[2] || ''}`);
+    }
+  });
+}
+
+function rewriteInternalLinks($, category, language, sourceRelative) {
+  const currentSourceDir = path.posix.dirname(sourceRelative);
+  $('[href]').each((_, element) => {
+    const href = $(element).attr('href');
+    if (!href || href.startsWith('#') || href.startsWith('/') || /^(https?:|mailto:|tel:)/i.test(href)) return;
+    const clean = href.split('#')[0].split('?')[0];
+    if (!clean.endsWith('.html') && !clean.endsWith('/')) return;
+    const resolved = path.posix.normalize(path.posix.join(currentSourceDir, clean));
+    const key = resolved.endsWith('/') ? `${resolved}index.html` : resolved;
+    const target = routeMaps[language].get(key);
+    if (target) $(element).attr('href', `/${target}${href.includes('#') ? `#${href.split('#')[1]}` : ''}`);
+  });
+  const categoryPath = languageData[language].categories[category];
+  $('.brand').attr('href', `/${language}/`);
+  $('.breadcrumbs a').first().attr('href', `/${language}/`);
+  $('.breadcrumbs a').eq(1).attr('href', `/${language}/${categoryPath}/`);
+  $('nav a,footer a').each((_, element) => {
+    const text = cleanText($(element).text()).toLowerCase();
+    for (const sourceCategory of sourceCategories) {
+      const translatedCategory = translation(language, sourceCategory === 'letture' ? 'Letture' : sourceCategory === 'favole' ? 'Favole' : 'Grammatica').toLowerCase();
+      if (text === translatedCategory) $(element).attr('href', `/${language}/${languageData[language].categories[sourceCategory]}/`);
+    }
+  });
+}
+
+function buildAlternates(sourceRelative, category, isIndex) {
+  const links = [`<link rel="alternate" hreflang="it" href="${siteUrl}/${isIndex ? `${category}/` : sourceRelative}">`];
+  for (const language of languages) {
+    const target = isIndex ? `${language}/${languageData[language].categories[category]}/` : routeMaps[language].get(sourceRelative);
+    links.push(`<link rel="alternate" hreflang="${language}" href="${siteUrl}/${target}">`);
+  }
+  links.push(`<link rel="alternate" hreflang="x-default" href="${siteUrl}/${isIndex ? `${category}/` : sourceRelative}">`);
+  return links.join('');
+}
+
+function languageSelector(sourceRelative, category, current, isIndex) {
+  const entries = [`<a href="/${isIndex ? `${category}/` : sourceRelative}" hreflang="it" lang="it"><span aria-hidden="true">🇮🇹</span><span>Italiano</span></a>`];
+  for (const language of languages) {
+    const target = isIndex ? `${language}/${languageData[language].categories[category]}/` : routeMaps[language].get(sourceRelative);
+    entries.push(`<a href="/${target}" hreflang="${language}" lang="${language}"${language === current ? ' aria-current="page"' : ''}><span aria-hidden="true">${languageData[language].flag}</span><span>${languageData[language].name}</span></a>`);
+  }
+  return `<details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${languageData[current].flag}</span><span class="language-current">${languageData[current].name}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${entries.join('')}</div></details>`;
+}
+
+function updateItalianAlternates() {
+  for (const [sourceRelative, source] of sources) {
+    const category = sourceRelative.split('/')[0];
+    const isIndex = path.basename(sourceRelative) === 'index.html';
+    const $ = cheerio.load(source, { decodeEntities: false });
+    normalizeDocument($);
+    $('link[rel="alternate"]').remove();
+    $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
+    $('.language-switcher').replaceWith(italianLanguageSelector(sourceRelative, category, isIndex));
+    if (!isIndex) {
+      const parts = sourceRelative.split('/');
+      addPdfLinks($, { category, language: 'it', level: category === 'grammatica' ? parts[1] : '', targetRelative: sourceRelative, isIndex: false });
+    }
+    writeFile(sourceRelative, serialize($));
+  }
+}
+
+function italianLanguageSelector(sourceRelative, category, isIndex) {
+  const entries = [`<a href="/${isIndex ? `${category}/` : sourceRelative}" hreflang="it" lang="it" aria-current="page"><span aria-hidden="true">🇮🇹</span><span>Italiano</span></a>`];
+  for (const language of languages) {
+    const target = isIndex ? `${language}/${languageData[language].categories[category]}/` : routeMaps[language].get(sourceRelative);
+    entries.push(`<a href="/${target}" hreflang="${language}" lang="${language}"><span aria-hidden="true">${languageData[language].flag}</span><span>${languageData[language].name}</span></a>`);
+  }
+  return `<details class="language-switcher"><summary aria-label="Scegli lingua"><span class="language-flag" aria-hidden="true">🇮🇹</span><span class="language-current">Italiano</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${entries.join('')}</div></details>`;
+}
+
+function updateLocalizedHomes() {
+  for (const language of languages) {
+    const file = path.join(siteRoot, language, 'index.html');
+    if (!existsSync(file)) continue;
+    let html = readFileSync(file, 'utf8');
+    for (const category of sourceCategories) {
+      const oldCategory = legacyCategories[category];
+      const newCategory = languageData[language].categories[category];
+      html = html.replaceAll(`/${language}/${oldCategory}/`, `/${language}/${newCategory}/`);
+      html = html.replaceAll(`${oldCategory}/`, `${newCategory}/`);
+    }
+    writeFileSync(file, html);
+  }
+}
+
+function writeSitemap() {
+  const urls = ['/', '/letture/', '/favole/', '/grammatica/', ...resources.map((resource) => `/${resource.relative}`)];
+  for (const language of languages) {
+    urls.push(`/${language}/`);
+    for (const category of sourceCategories) urls.push(`/${language}/${languageData[language].categories[category]}/`);
+    for (const resource of resources) urls.push(`/${routeMaps[language].get(resource.relative)}`);
+  }
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(urls)].map((url) => `  <url><loc>${siteUrl}${url}</loc><changefreq>monthly</changefreq></url>`).join('\n')}\n</urlset>\n`;
+  writeFileSync(path.join(siteRoot, 'sitemap.xml'), xml);
+}
+
+function addPdfLinks($, context) {
+  if (context.isIndex) return;
+  $('.pdf-downloads').remove();
+  const slug = path.posix.basename(context.targetRelative, '.html');
+  const levels = context.category === 'grammatica' ? [context.level] : ['a1', 'a2', 'b1', 'b2', 'c1'];
+  const labels = levels.map((level) => `<a class="button secondary" href="/pdf/${context.language}/${slug}-${level}.pdf" download>PDF ${level.toUpperCase()}</a>`).join('');
+  const block = `<div class="pdf-downloads" aria-label="PDF downloads">${labels}</div>`;
+  const anchor = context.category === 'grammatica' ? $('.lesson-nav').first() : $('.level-nav').first();
+  if (anchor.length) anchor.after(block); else $('main').prepend(block);
+}
+
+function redirectPage(target, language) {
+  const escaped = target.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+  return `<!doctype html><html lang="${language}"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${siteUrl}${escaped}"><meta http-equiv="refresh" content="0;url=${escaped}"><title>Redirect | Italiano con Martin</title></head><body><p><a href="${escaped}">Continue</a></p></body></html>`;
+}
+
+function translation(language, text) { return cache[cacheKey(language, cleanText(text))] || text; }
+function cacheKey(language, text) { return `${language}::${text}`; }
+function cleanText(text) { return String(text || '').replace(/\s+/g, ' ').trim(); }
+function escapeHtml(value) { return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;'); }
+function slugify(value) {
+  return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[’'"“”]/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '');
+}
+function serialize($) {
+  const html = $.html().replace(/^(?:\s*<!doctype html>\s*)+/i, '').replace(/[ \t]+$/gm, '');
+  return `<!doctype html>\n${html}`;
+}
+function normalizeDocument($) {
+  $('*').contents().filter((_, node) => node.type === 'text' && node.data.includes('\uFEFF')).each((_, node) => {
+    node.data = node.data.replaceAll('\uFEFF', '');
+  });
+  $('body > meta, body > title, body > link, body > style').appendTo('head');
+}
+function writeFile(relative, content) {
+  const file = path.join(siteRoot, relative); mkdirSync(path.dirname(file), { recursive: true }); writeFileSync(file, content);
+}
+function walk(directory) {
+  if (!existsSync(directory)) return [];
+  return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => entry.isDirectory() ? walk(path.join(directory, entry.name)) : [path.join(directory, entry.name)]);
+}
