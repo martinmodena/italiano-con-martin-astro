@@ -9,6 +9,7 @@ Generated: 2026-08-12
 - Expected localized resource pages: 369
 - Expected PDF files: 1089
 - Existing PDF files: 1089
+- Localized teacher pages: 9
 - Findings: 0
 
 ## Findings

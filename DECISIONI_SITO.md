@@ -77,3 +77,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - I PDF di letture e favole devono includere l'immagine editoriale corrispondente al contenuto.
 - Le pagine indice delle storie devono offrire un elenco testuale completo e immediatamente visibile di tutte le storie, oltre alle schede illustrate.
 - L'audit deve fallire se una storia esistente non e collegata dall'indice in qualsiasi lingua.
+
+## 2026-08-12 - Scelta dell'insegnante e pagina Chi siamo
+
+- Le call to action finali non devono proporre soltanto Martin: devono permettere di scegliere chiaramente tra Martin e Licia, mostrando foto circolare, caratteristica principale e collegamento Preply di ciascuno.
+- Le call to action devono includere anche un collegamento alla pagina dei docenti e un contatto WhatsApp.
+- Il sito deve avere una pagina `Chi siamo` dedicata a Martin e Licia, localizzata in tutte le lingue, con profili, caratteristiche, tariffa di 10 euro, collegamenti Preply e WhatsApp.
+- La pagina `Chi siamo` deve avere URL localizzato, canonical, hreflang reciproci, metadati SEO, dati strutturati e presenza nella sitemap.
+- La navigazione e il footer devono collegare la pagina dei docenti nella lingua corrente.

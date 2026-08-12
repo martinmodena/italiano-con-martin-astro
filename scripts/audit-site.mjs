@@ -15,6 +15,7 @@ const issues = [];
 const resources = collectResources();
 
 inspectIndexCoverage();
+inspectTeacherJourney();
 
 for (const resource of resources) {
   const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
@@ -61,6 +62,7 @@ const report = [
   `- Expected localized resource pages: ${resources.length * languages.length}`,
   `- Expected PDF files: ${expectedPdfCount}`,
   `- Existing PDF files: ${pdfCount}`,
+  `- Localized teacher pages: ${languages.length}`,
   `- Findings: ${issues.length}`, '', '## Findings', '',
   ...(issues.length ? issues : ['- No findings.']), '', '## Publication Rule', '',
   'Every localized page must have translated explanatory content, a localized URL, reciprocal hreflang, canonical metadata, and its PDF package.', '',
@@ -142,6 +144,34 @@ function inspectIndexCoverage() {
         issues.push(`- MISSING_INDEX_LINK | ${language} | ${resource.relative}`);
       }
     }
+  }
+}
+
+function inspectTeacherJourney() {
+  const routes = {
+    it: 'chi-siamo/index.html', en: 'en/about-us/index.html', es: 'es/sobre-nosotros/index.html',
+    fr: 'fr/a-propos/index.html', cs: 'cs/o-nas/index.html', pl: 'pl/o-nas/index.html',
+    tr: 'tr/hakkimizda/index.html', de: 'de/ueber-uns/index.html', ja: 'ja/watashitachi-ni-tsuite/index.html',
+  };
+  for (const [language, relative] of Object.entries(routes)) {
+    const file = path.join(publicRoot, relative);
+    if (!existsSync(file)) {
+      issues.push(`- MISSING_ABOUT_PAGE | ${language} | /${relative}`);
+      continue;
+    }
+    const $ = cheerio.load(readFileSync(file, 'utf8'), { decodeEntities: false });
+    if ($('link[rel="alternate"]').length !== 10) issues.push(`- INCOMPLETE_ABOUT_HREFLANG | ${language} | /${relative}`);
+    if ($('.about-teacher').length !== 2 || $('.about-teacher a[href*="preply"]').length !== 2) issues.push(`- INCOMPLETE_TEACHER_PROFILES | ${language} | /${relative}`);
+    if (!$('a[href^="https://wa.me/59167434075"]').length) issues.push(`- MISSING_WHATSAPP | ${language} | /${relative}`);
+  }
+  for (const file of walk(publicRoot).filter((entry) => entry.endsWith('.html'))) {
+    const html = readFileSync(file, 'utf8');
+    if (/http-equiv=["']refresh/i.test(html)) continue;
+    const $ = cheerio.load(html, { decodeEntities: false });
+    if (!$('.site-header').length) continue;
+    const label = `/${path.relative(publicRoot, file).replaceAll('\\', '/')}`;
+    if (!$('.site-header .about-link').length || !$('.footer-grid .about-link').length) issues.push(`- MISSING_ABOUT_NAVIGATION | ${label}`);
+    if ($('.conversion-section').length && ($('.teacher-cta').length !== 2 || $('.teacher-cta a[href*="preply"]').length !== 2)) issues.push(`- INCOMPLETE_TEACHER_CTA | ${label}`);
   }
 }
 
