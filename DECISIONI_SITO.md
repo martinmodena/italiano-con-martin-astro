@@ -31,3 +31,12 @@ Ogni indicazione contenuta in un prompt che modifica il sito, la struttura, i co
 La revisione completa ha rilevato 41 risorse educative italiane, 32 soli hub localizzati, nessuna pagina localizzata per le singole risorse e nessun PDF. E stato aggiunto `scripts/audit-site.mjs`, eseguibile con `npm run audit:site`, e il workflow lo esegue prima della preparazione del deploy. Le pagine localizzate non devono essere generate come copie con metadata tradotti: spiegazioni, istruzioni, vocabolario e domande devono essere tradotti e revisionati, mentre i brani di studio restano in italiano.
 
 Il sito non va considerato completo finche l'audit segnala risorse mancanti o PDF mancanti.
+
+## 2026-08-12 - Seconda insegnante
+
+- Licia e una seconda insegnante di italiano presentata sul sito insieme a Martin.
+- Licia e descritta come paziente, appassionata d'arte e particolarmente brava con la grammatica.
+- Martin e descritto come appassionato di scienza, tecnologia ed etimologia.
+- Entrambi hanno una tariffa di 10 euro per lezione.
+- Il profilo Preply di Licia deve essere collegato a `https://preply.in/LICIA6IT2176799611?ts=17865248`; il profilo di Martin resta collegato a `https://preply.com/it/tutor/5086125`.
+- La homepage italiana e tutte le homepage localizzate devono presentare entrambi i profili, con foto, descrizione, prezzo e collegamento Preply.
