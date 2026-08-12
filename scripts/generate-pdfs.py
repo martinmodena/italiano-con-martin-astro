@@ -113,9 +113,13 @@ def build_pdf(page, language, level, output):
     style = styles_for(language)
     title = clean("".join(document.xpath("//h1[1]//text()"))) or page.stem
     canonical = next(iter(document.xpath('//link[@rel="canonical"]/@href')), "")
-    story = [Paragraph(safe_markup(title), style["title"]), Paragraph(safe_markup(f"{language.upper()} · {level.upper()} · {canonical}"), style["subtitle"])]
+    level_label = "A1-C1" if level == "all-levels" else level.upper()
+    story = [Paragraph(safe_markup(title), style["title"]), Paragraph(safe_markup(f"{language.upper()} · {level_label} · {canonical}"), style["subtitle"])]
     if any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts):
-        candidates = document.xpath(f'//article[@id="{level}"]')
+        if level == "all-levels":
+            candidates = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " compact-top ")]')
+        else:
+            candidates = document.xpath(f'//article[@id="{level}"]')
         container = candidates[0] if candidates else document.xpath("//main")[0]
     else:
         container = document.xpath("//main")[0]
@@ -138,7 +142,7 @@ def localized_pages():
             else:
                 target = unquote(urlparse(alternates[language]).path.lstrip("/"))
                 page = SITE / target
-            levels = [italian.relative_to(SITE).parts[1]] if category == "grammatica" else LEVELS
+            levels = [italian.relative_to(SITE).parts[1]] if category == "grammatica" else ["all-levels", *LEVELS]
             for level in levels:
                 yield page, language, level
 

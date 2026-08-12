@@ -7,8 +7,8 @@ Generated: 2026-08-12
 - Supported languages: 9
 - Educational resources: 41
 - Expected localized resource pages: 369
-- Expected PDF files: 945
-- Existing PDF files: 945
+- Expected PDF files: 1089
+- Existing PDF files: 1089
 - Findings: 0
 
 ## Findings

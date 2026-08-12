@@ -61,4 +61,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Tutte le fotografie personali di Martin e Licia devono essere presentate con un ritaglio circolare, inclusi avatar, hero e schede insegnante, su desktop e mobile.
 - L'header deve passare al menu compatto gia sui viewport stretti da tablet, prima che marchio, selettore lingua e navigazione possano sovrapporsi o troncare il nome.
 - Su mobile il marchio occupa la prima riga con il pulsante menu; il selettore lingua occupa una seconda riga completa.
+
+## 2026-08-12 - Titoli di studio e PDF per livello
+
+- Nelle pagine localizzate di letture e favole, il titolo principale e i metadati restano tradotti per il lettore e per la SEO.
+- I titoli interni dei blocchi A1, A2, B1, B2 e C1 fanno parte del materiale di studio: devono restare in italiano ed essere marcati con `lang="it"`, come il relativo brano.
+- Nell'introduzione deve comparire un solo PDF completo contenente tutti i livelli A1-C1.
+- Il PDF di un singolo livello deve comparire dentro il relativo blocco A1, A2, B1, B2 o C1, vicino al racconto che scarica.
 - La generazione automatica non viene aggiunta al workflow di produzione finché i testi localizzati non sono stati revisionati; non si pubblicano copie incomplete.

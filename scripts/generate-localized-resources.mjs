@@ -27,6 +27,11 @@ const seoLabels = {
   de: { grammatica: 'italienische Grammatik', letture: 'abgestufter italienischer Lesetext', favole: 'italienische Geschichte' },
   ja: { grammatica: 'イタリア語文法', letture: 'レベル別イタリア語読解', favole: 'イタリア語の物語' },
 };
+const allLevelsPdfLabels = {
+  it: 'PDF tutti i livelli', en: 'PDF all levels', es: 'PDF todos los niveles', fr: 'PDF tous les niveaux',
+  cs: 'PDF vsechny urovne', pl: 'PDF wszystkie poziomy', tr: 'PDF tum seviyeler',
+  de: 'PDF alle Niveaus', ja: 'PDF 全レベル',
+};
 const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar' };
 const slugOverrides = {
   en: { 'verbo-essere': 'verb-to-be', 'il-sonar-del-delfino': 'dolphin-sonar', 'il-cane-e-losso': 'the-dog-and-the-bone' },
@@ -253,6 +258,7 @@ function localizeDocument(source, context) {
   $('html').attr('lang', language);
   applyVocabularyGlosses($, language);
   applyTranslations($, language);
+  restoreItalianStudyHeadings($, source, category);
   const title = cleanText($('h1').first().text());
   const canonical = `${siteUrl}/${targetRelative.replace('index.html', '')}`;
   const level = context.level ? ` ${context.level.toUpperCase()}` : '';
@@ -302,6 +308,17 @@ function applyTranslations($, language) {
   $('meta[name="description"],meta[property="og:description"],meta[name="twitter:description"]').each((_, element) => {
     const original = cleanText($(element).attr('content') || '');
     if (isTranslatable(original)) $(element).attr('content', translation(language, original));
+  });
+}
+
+function restoreItalianStudyHeadings($, source, category) {
+  if (category === 'grammatica') return;
+  const sourceDocument = cheerio.load(source, { decodeEntities: false });
+  sourceDocument('.story-card[id]').each((_, sourceArticle) => {
+    const id = sourceDocument(sourceArticle).attr('id');
+    const sourceHeading = sourceDocument(sourceArticle).find('h2').first();
+    const targetHeading = $(`.story-card#${id} h2`).first();
+    if (sourceHeading.length && targetHeading.length) targetHeading.html(sourceHeading.html()).attr('lang', 'it');
   });
 }
 
@@ -418,11 +435,22 @@ function addPdfLinks($, context) {
   if (context.isIndex) return;
   $('.pdf-downloads').remove();
   const slug = path.posix.basename(context.targetRelative, '.html');
-  const levels = context.category === 'grammatica' ? [context.level] : ['a1', 'a2', 'b1', 'b2', 'c1'];
-  const labels = levels.map((level) => `<a class="button secondary" href="/pdf/${context.language}/${slug}-${level}.pdf" download>PDF ${level.toUpperCase()}</a>`).join('');
-  const block = `<div class="pdf-downloads" aria-label="PDF downloads">${labels}</div>`;
-  const anchor = context.category === 'grammatica' ? $('.lesson-nav').first() : $('.level-nav').first();
-  if (anchor.length) anchor.after(block); else $('main').prepend(block);
+  if (context.category === 'grammatica') {
+    const block = `<div class="pdf-downloads" aria-label="PDF downloads"><a class="button secondary" href="/pdf/${context.language}/${slug}-${context.level}.pdf" download>PDF ${context.level.toUpperCase()}</a></div>`;
+    const anchor = $('.lesson-nav').first();
+    if (anchor.length) anchor.after(block); else $('main').prepend(block);
+    return;
+  }
+
+  const complete = `<div class="pdf-downloads pdf-downloads-complete" aria-label="PDF downloads"><a class="button secondary" href="/pdf/${context.language}/${slug}-all-levels.pdf" download>${allLevelsPdfLabels[context.language]}</a></div>`;
+  const levelNavigation = $('.level-nav').first();
+  if (levelNavigation.length) levelNavigation.after(complete); else $('main').prepend(complete);
+
+  for (const level of ['a1', 'a2', 'b1', 'b2', 'c1']) {
+    const article = $(`.story-card#${level}`);
+    if (!article.length) continue;
+    article.children('header').first().after(`<div class="pdf-downloads pdf-downloads-level"><a class="button secondary" href="/pdf/${context.language}/${slug}-${level}.pdf" download>PDF ${level.toUpperCase()}</a></div>`);
+  }
 }
 
 function redirectPage(target, language) {

@@ -29,7 +29,7 @@ for (const resource of resources) {
       issues.push(`- MISSING_PAGE | ${language} | /${relative.replaceAll('\\', '/')}`);
       continue;
     }
-    inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href);
+    inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href, italianHtml);
   }
   for (const language of languages) {
     const pageRelative = language === 'it' ? resource.relative : decodeURIComponent(new URL(italianAlternates.get(language)).pathname.replace(/^\//, ''));
@@ -39,13 +39,17 @@ for (const resource of resources) {
       const pdf = path.join(publicRoot, 'pdf', language, `${slug}-${level}.pdf`);
       if (!existsSync(pdf)) issues.push(`- MISSING_PDF | ${language} | /pdf/${language}/${slug}-${level}.pdf`);
     }
+    if (resource.category !== 'grammatica') {
+      const pdf = path.join(publicRoot, 'pdf', language, `${slug}-all-levels.pdf`);
+      if (!existsSync(pdf)) issues.push(`- MISSING_COMPLETE_PDF | ${language} | /pdf/${language}/${slug}-all-levels.pdf`);
+    }
   }
 }
 
 const pdfCount = existsSync(path.join(publicRoot, 'pdf')) ? walk(path.join(publicRoot, 'pdf')).filter((file) => file.endsWith('.pdf')).length : 0;
 const readingsAndStories = resources.filter((resource) => resource.category !== 'grammatica').length;
 const grammarLessons = resources.filter((resource) => resource.category === 'grammatica').length;
-const expectedPdfCount = (readingsAndStories * 5 + grammarLessons) * languages.length;
+const expectedPdfCount = (readingsAndStories * 6 + grammarLessons) * languages.length;
 if (pdfCount < expectedPdfCount) issues.push(`- MISSING_PDF_PACKAGE | expected ${expectedPdfCount} | found ${pdfCount}`);
 
 const report = [
@@ -64,7 +68,7 @@ writeFileSync(path.join(root, 'SITE_AUDIT.md'), report);
 console.log(report);
 if (process.argv.includes('--strict') && issues.length) process.exitCode = 1;
 
-function inspectLocalizedPage(resource, language, relative, html, expectedCanonical) {
+function inspectLocalizedPage(resource, language, relative, html, expectedCanonical, italianHtml) {
   const $ = cheerio.load(html, { decodeEntities: false });
   const label = `${language} | /${relative.replaceAll('\\', '/')}`;
   if (html.includes('\uFEFF')) issues.push(`- EMBEDDED_BOM | ${label}`);
@@ -75,8 +79,20 @@ function inspectLocalizedPage(resource, language, relative, html, expectedCanoni
   if ($('meta[name="robots"]').attr('content')?.includes('noindex')) issues.push(`- NOINDEX_LOCALIZED_PAGE | ${label}`);
   if ((html.match(/<!doctype html>/gi) || []).length !== 1) issues.push(`- INVALID_DOCTYPE | ${label}`);
   if (!html.includes('language-switcher') || !html.includes('aria-current="page"')) issues.push(`- BROKEN_LANGUAGE_SWITCHER | ${label}`);
+  if (resource.category !== 'grammatica') {
+    const italianDocument = cheerio.load(italianHtml, { decodeEntities: false });
+    const expectedHeadings = italianDocument('.story-card[id] h2').map((_, element) => italianDocument(element).text().trim()).get();
+    const localizedHeadings = $('.story-card[id] h2').map((_, element) => $(element).text().trim()).get();
+    if (JSON.stringify(localizedHeadings) !== JSON.stringify(expectedHeadings) || $('.story-card[id] h2[lang="it"]').length !== expectedHeadings.length) {
+      issues.push(`- TRANSLATED_STUDY_HEADING | ${label}`);
+    }
+    if ($('.pdf-downloads-complete a[href$="-all-levels.pdf"]').length !== 1) issues.push(`- MISSING_COMPLETE_PDF_LINK | ${label}`);
+    for (const level of ['a1', 'a2', 'b1', 'b2', 'c1']) {
+      if ($(`.story-card#${level} > .pdf-downloads-level a[href$="-${level}.pdf"]`).length !== 1) issues.push(`- MISPLACED_LEVEL_PDF_LINK | ${label} | ${level}`);
+    }
+  }
   const bodyClone = $('body').clone();
-  bodyClone.find('.story-text,.conj-table,.example-grid,.mistake-grid,.exercise label,script,style').remove();
+  bodyClone.find('.story-text,.conj-table,.example-grid,.mistake-grid,.exercise label,[lang="it"],script,style').remove();
   const explanatoryText = bodyClone.text().replace(/\s+/g, ' ');
   const leak = explanatoryText.match(italianLeakPattern)?.[0];
   if (leak) issues.push(`- ITALIAN_EXPLANATION | ${label} | ${leak}`);
