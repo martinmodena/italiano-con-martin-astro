@@ -55,4 +55,10 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Gli `hreflang`, il selettore lingua e la sitemap devono puntare esclusivamente agli URL canonici localizzati.
 - L'audit di produzione deve essere eseguito in modalita rigorosa con `node scripts/audit-site.mjs --strict` e deve verificare anche coerenza linguistica, canonical, `hreflang`, redirect e disponibilita dei PDF.
 - Ogni risorsa offre PDF per lingua e livello: cinque livelli per letture e favole, un livello per le lezioni di grammatica. L'inventario corrente e di 945 PDF.
+
+## 2026-08-12 - Header responsive e fotografie
+
+- Tutte le fotografie personali di Martin e Licia devono essere presentate con un ritaglio circolare, inclusi avatar, hero e schede insegnante, su desktop e mobile.
+- L'header deve passare al menu compatto gia sui viewport stretti da tablet, prima che marchio, selettore lingua e navigazione possano sovrapporsi o troncare il nome.
+- Su mobile il marchio occupa la prima riga con il pulsante menu; il selettore lingua occupa una seconda riga completa.
 - La generazione automatica non viene aggiunta al workflow di produzione finché i testi localizzati non sono stati revisionati; non si pubblicano copie incomplete.
