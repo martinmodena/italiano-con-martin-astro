@@ -40,3 +40,12 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Entrambi hanno una tariffa di 10 euro per lezione.
 - Il profilo Preply di Licia deve essere collegato a `https://preply.in/LICIA6IT2176799611?ts=17865248`; il profilo di Martin resta collegato a `https://preply.com/it/tutor/5086125`.
 - La homepage italiana e tutte le homepage localizzate devono presentare entrambi i profili, con foto, descrizione, prezzo e collegamento Preply.
+
+## 2026-08-12 - Struttura multilingue delle risorse
+
+- Ogni risorsa educativa deve avere una pagina statica dedicata nelle lingue `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de` e `ja`, oltre alla pagina italiana originale.
+- Le URL localizzate usano `/readings/`, `/stories/` e `/grammar/`, con il livello grammaticale mantenuto nel percorso.
+- Il testo di studio italiano resta in italiano; interfaccia, istruzioni, etichette, metadata, navigazione, vocabolario e domande devono essere localizzati e revisionati.
+- Ogni pagina deve avere canonical, hreflang reciproci, selettore statico con bandiera e nome della lingua, asset relativi funzionanti e sitemap aggiornata.
+- `scripts/generate-localized-resources.mjs` genera localmente la struttura e `npm run audit:site` deve restituire zero errori prima del deploy.
+- La generazione automatica non viene aggiunta al workflow di produzione finché i testi localizzati non sono stati revisionati; non si pubblicano copie incomplete.

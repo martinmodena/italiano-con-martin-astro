@@ -6,6 +6,21 @@
   const scoreText = document.getElementById('score-text');
   const scorePercent = document.getElementById('score-percent');
   const compactScore = document.getElementById('score');
+  const language = document.documentElement.lang || 'it';
+  const messages = {
+    it: { correct: 'Corretto!', better: 'Corretto. Meglio scrivere:', continue: 'Continua...', notYet: 'Non ancora.', reread: 'Rileggi la regola.', score: (correct, total) => `${correct} risposte corrette su ${total}` },
+    en: { correct: 'Correct!', better: 'Correct. It is better to write:', continue: 'Keep going...', notYet: 'Not yet.', reread: 'Read the rule again.', score: (correct, total) => `${correct} correct answers out of ${total}` },
+    es: { correct: '¡Correcto!', better: 'Correcto. Es mejor escribir:', continue: 'Sigue así...', notYet: 'Todavía no.', reread: 'Vuelve a leer la regla.', score: (correct, total) => `${correct} respuestas correctas de ${total}` },
+    fr: { correct: 'Correct !', better: 'Correct. Il vaut mieux écrire :', continue: 'Continuez...', notYet: 'Pas encore.', reread: 'Relisez la règle.', score: (correct, total) => `${correct} bonnes réponses sur ${total}` },
+    cs: { correct: 'Správně!', better: 'Správně. Lepší je napsat:', continue: 'Pokračujte...', notYet: 'Ještě ne.', reread: 'Přečtěte si pravidlo znovu.', score: (correct, total) => `${correct} správných odpovědí z ${total}` },
+    pl: { correct: 'Poprawnie!', better: 'Poprawnie. Lepiej napisać:', continue: 'Tak dalej...', notYet: 'Jeszcze nie.', reread: 'Przeczytaj regułę jeszcze raz.', score: (correct, total) => `${correct} poprawnych odpowiedzi z ${total}` },
+    tr: { correct: 'Doğru!', better: 'Doğru. Şöyle yazmak daha iyi:', continue: 'Devam edin...', notYet: 'Henüz değil.', reread: 'Kuralı tekrar okuyun.', score: (correct, total) => `${correct} doğru cevap / ${total}` },
+    de: { correct: 'Richtig!', better: 'Richtig. Besser schreibt man:', continue: 'Weiter so...', notYet: 'Noch nicht.', reread: 'Lies die Regel noch einmal.', score: (correct, total) => `${correct} richtige Antworten von ${total}` },
+    ja: { correct: '正解です！', better: '正解です。次のように書くとより自然です：', continue: '続けてください…', notYet: 'まだ正解ではありません。', reread: 'もう一度ルールを読みましょう。', score: (correct, total) => `${total}問中${correct}問正解` },
+  }[language] || null;
+  const message = messages || {
+    correct: 'Corretto!', better: 'Corretto. Meglio scrivere:', continue: 'Continua...', notYet: 'Non ancora.', reread: 'Rileggi la regola.', score: (correct, total) => `${correct} risposte corrette su ${total}`,
+  };
   const dbName = 'italiano-con-martin';
   const storeName = 'grammar-progress';
 
@@ -119,7 +134,7 @@
 
   function updateScore(db) {
     const correct = exercises.filter((box) => box.dataset.correct === '1').length;
-    if (scoreText) scoreText.textContent = `${correct} risposte corrette su ${exercises.length}`;
+    if (scoreText) scoreText.textContent = message.score(correct, exercises.length);
     if (scorePercent) scorePercent.textContent = `${Math.round((correct / exercises.length) * 100)}%`;
     if (compactScore) compactScore.textContent = `${correct}/${exercises.length}`;
     writeProgress(db);
@@ -153,25 +168,25 @@
       box.dataset.correct = '1';
       input.classList.add('correct');
       feedback.classList.add('ok');
-      feedback.textContent = 'Corretto!';
+      feedback.textContent = message.correct;
     } else if (accepted.includes(value) && helperFreeValue !== helperFreeBest) {
       box.dataset.correct = '1';
       input.classList.add('correct');
       feedback.classList.add('ok');
-      feedback.textContent = 'Corretto!';
+      feedback.textContent = message.correct;
     } else if (accentFreeAccepted.includes(accentFreeValue) || accepted.includes(value)) {
       const bestAnswer = rawAccepted[accentFreeAccepted.indexOf(accentFreeValue)];
       box.dataset.correct = '1';
       input.classList.add('almost');
       feedback.classList.add('almost');
-      feedback.textContent = `Corretto. Meglio scrivere: ${displayAnswer(bestAnswer || rawAccepted[0])}.`;
+      feedback.textContent = `${message.better} ${displayAnswer(bestAnswer || rawAccepted[0])}.`;
     } else if (accepted.some((answer) => answer.startsWith(value))) {
       feedback.classList.add('wait');
-      feedback.textContent = 'Continua...';
+      feedback.textContent = message.continue;
     } else {
       input.classList.add('wrong');
       feedback.classList.add('no');
-      feedback.textContent = `Non ancora. ${box.dataset.hint || 'Rileggi la regola.'}`;
+      feedback.textContent = `${message.notYet} ${box.dataset.hint || message.reread}`;
     }
 
     updateScore(db);

@@ -11,6 +11,7 @@
     "start": "astro dev",
     "build": "astro build",
     "import:html": "node scripts/import-html.mjs",
+    "generate:localized": "node scripts/generate-localized-resources.mjs",
     "audit:site": "node scripts/audit-site.mjs",
     "expand:readings": "node scripts/enrich-readings.mjs && node scripts/extend-article-readings.mjs && node scripts/add-article-deep-labs.mjs && npm run import:html",
     "preview": "astro preview",
