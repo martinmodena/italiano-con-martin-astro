@@ -165,7 +165,7 @@ function whatsappUrl(language) {
 
 function teacherOptions(language, assetPrefix = '') {
   const t = copy[language];
-  return `<div class="teacher-cta-options"><article class="teacher-cta"><img src="${assetPrefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="lazy"><div><strong>Martin</strong><span>${escapeHtml(t.martinShort)}</span></div><a class="button light" href="${martinUrl}" target="_blank" rel="noopener">${escapeHtml(t.martinCta)}</a></article><article class="teacher-cta"><img src="${assetPrefix}assets/licia.png" alt="Licia" width="2500" height="2500" loading="lazy"><div><strong>Licia</strong><span>${escapeHtml(t.liciaShort)}</span></div><a class="button light" href="${liciaUrl}" target="_blank" rel="noopener">${escapeHtml(t.liciaCta)}</a></article></div>`;
+  return `<div class="teacher-cta-options"><article class="teacher-cta"><img src="${assetPrefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="lazy" decoding="async"><div><strong>Martin</strong><span>${escapeHtml(t.martinShort)}</span></div><a class="button light" href="${martinUrl}" target="_blank" rel="noopener">${escapeHtml(t.martinCta)}</a></article><article class="teacher-cta"><img src="${assetPrefix}assets/licia-portrait.webp" alt="Licia" width="800" height="800" loading="lazy" decoding="async"><div><strong>Licia</strong><span>${escapeHtml(t.liciaShort)}</span></div><a class="button light" href="${liciaUrl}" target="_blank" rel="noopener">${escapeHtml(t.liciaCta)}</a></article></div>`;
 }
 
 function teacherSection(language, assetPrefix, aboutHref) {
@@ -203,6 +203,7 @@ function updatePage(file) {
   } else if (!conversion.length && isResourcePage(relative)) {
     $('main').after(teacherSection(language, assetPrefix, aboutHref));
   }
+  applyImagePerformanceHints($);
   writeFileSync(file, serialize($));
 }
 
@@ -224,8 +225,8 @@ function writeAboutPage(language) {
   const html = `<!doctype html>
 <html lang="${language}"><head>${alternates}<link rel="canonical" href="${canonical}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(t.title)} | Italiano con Martin</title><meta name="description" content="${escapeHtml(t.meta)}"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="author" content="Martin Modena"><meta property="og:type" content="website"><meta property="og:site_name" content="Italiano con Martin"><meta property="og:title" content="${escapeHtml(t.title)} | Italiano con Martin"><meta property="og:description" content="${escapeHtml(t.meta)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${siteUrl}/assets/social-card.svg"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="${prefix}styles.css"><link rel="icon" href="${prefix}favicon.png" type="image/png"><link rel="apple-touch-icon" href="${prefix}apple-touch-icon.png"><script type="application/ld+json">${schema}</script></head><body>
 <header class="site-header"><div class="container nav-wrap"><a class="brand" href="${homeHref}"><img class="brand-avatar" src="${prefix}assets/martin-photo.svg" alt="Martin" width="48" height="48"><span>Italiano con Martin</span></a><details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${t.flag}</span><span class="language-current">${escapeHtml(t.languageName)}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${languageOptions}</div></details><nav><a href="${categories[language].readings}">${escapeHtml(t.readings)}</a><a href="${categories[language].grammar}">${escapeHtml(t.grammar)}</a><a class="about-link" href="${route}" aria-current="page">${escapeHtml(t.about)}</a><a class="nav-cta" href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></nav></div></header>
-<main><section class="about-hero"><div class="container"><p class="eyebrow">${escapeHtml(t.eyebrow)}</p><h1>${escapeHtml(t.title)}</h1><p class="lead">${escapeHtml(t.lead)}</p><div class="about-portraits"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067"><img src="${prefix}assets/licia.png" alt="Licia" width="2500" height="2500"></div></div></section>
-<section class="about-teachers"><div class="container"><article class="about-teacher"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067"><div><p class="eyebrow">Martin</p><h2>${escapeHtml(t.martinTitle)}</h2><p>${escapeHtml(t.martinText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${martinUrl}" target="_blank" rel="noopener">${escapeHtml(t.martinCta)}</a></div></article><article class="about-teacher"><img src="${prefix}assets/licia.png" alt="Licia" width="2500" height="2500"><div><p class="eyebrow">Licia</p><h2>${escapeHtml(t.liciaTitle)}</h2><p>${escapeHtml(t.liciaText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${liciaUrl}" target="_blank" rel="noopener">${escapeHtml(t.liciaCta)}</a></div></article></div></section>
+<main><section class="about-hero"><div class="container"><p class="eyebrow">${escapeHtml(t.eyebrow)}</p><h1>${escapeHtml(t.title)}</h1><p class="lead">${escapeHtml(t.lead)}</p><div class="about-portraits"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="eager" decoding="async" fetchpriority="high"><img src="${prefix}assets/licia-portrait.webp" alt="Licia" width="800" height="800" loading="eager" decoding="async" fetchpriority="high"></div></div></section>
+<section class="about-teachers"><div class="container"><article class="about-teacher"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="lazy" decoding="async"><div><p class="eyebrow">Martin</p><h2>${escapeHtml(t.martinTitle)}</h2><p>${escapeHtml(t.martinText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${martinUrl}" target="_blank" rel="noopener">${escapeHtml(t.martinCta)}</a></div></article><article class="about-teacher"><img src="${prefix}assets/licia-portrait.webp" alt="Licia" width="800" height="800" loading="lazy" decoding="async"><div><p class="eyebrow">Licia</p><h2>${escapeHtml(t.liciaTitle)}</h2><p>${escapeHtml(t.liciaText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${liciaUrl}" target="_blank" rel="noopener">${escapeHtml(t.liciaCta)}</a></div></article></div></section>
 <section class="about-contact"><div class="container"><div><p class="eyebrow">WhatsApp</p><h2>${escapeHtml(t.contactTitle)}</h2><p>${escapeHtml(t.contactText)}</p></div><a class="button light final-cta" href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></div></section></main>
 <footer><div class="container footer-grid"><div><strong>Italiano con Martin</strong><p>${escapeHtml(t.footer)}</p></div><div><a href="${categories[language].readings}">${escapeHtml(t.readings)}</a><a href="${categories[language].grammar}">${escapeHtml(t.grammar)}</a><a class="about-link" href="${route}">${escapeHtml(t.about)}</a></div></div></footer><script src="${prefix}script.js"></script></body></html>`;
   mkdirSync(path.dirname(output), { recursive: true });
@@ -246,6 +247,20 @@ function updateSitemap() {
 function serialize($) {
   const document = $.html().replace(/^(?:\s*<!doctype html>\s*)+/i, '');
   return `<!doctype html>\n${document}`;
+}
+
+function applyImagePerformanceHints($) {
+  $('img').each((_, element) => {
+    const image = $(element);
+    const source = image.attr('src');
+    if (source?.endsWith('assets/licia.png')) {
+      image.attr({ src: source.replace(/licia\.png$/, 'licia-portrait.webp'), width: '800', height: '800' });
+    }
+    if (!image.attr('decoding')) image.attr('decoding', 'async');
+  });
+  $('.brand-avatar').attr({ width: '48', height: '48' });
+  $('.teacher-cta img, .about-teacher img').attr('loading', 'lazy');
+  $('.about-portraits img, .teacher-photo, .story-figure img').attr({ loading: 'eager', fetchpriority: 'high' });
 }
 
 function escapeHtml(value) {

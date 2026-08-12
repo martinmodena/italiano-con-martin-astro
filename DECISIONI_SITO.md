@@ -85,3 +85,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Il sito deve avere una pagina `Chi siamo` dedicata a Martin e Licia, localizzata in tutte le lingue, con profili, caratteristiche, tariffa di 10 euro, collegamenti Preply e WhatsApp.
 - La pagina `Chi siamo` deve avere URL localizzato, canonical, hreflang reciproci, metadati SEO, dati strutturati e presenza nella sitemap.
 - La navigazione e il footer devono collegare la pagina dei docenti nella lingua corrente.
+
+## 2026-08-12 - Prestazioni e immagini
+
+- Le immagini pubblicate devono usare formati moderni e dimensioni proporzionate all'uso; le fotografie originali ad alta risoluzione non devono essere referenziate direttamente dalle pagine.
+- La foto di Licia usa `/assets/licia-portrait.webp`, ottimizzata a 800 x 800 pixel e meno di 100 KB; l'audit deve fallire se ricompare un riferimento alla PNG originale.
+- Le fotografie visibili nella prima schermata devono essere caricate subito con priorita alta; le copie nelle schede e nelle call to action piu in basso devono usare caricamento differito.
+- Ogni immagine deve dichiarare dimensioni intrinseche e decodifica asincrona quando possibile, per ridurre spostamenti del layout e blocchi durante il rendering.
+- L'audit deve segnalare qualsiasi immagine locale effettivamente referenziata dalle pagine che superi 400 KB.

@@ -45,6 +45,7 @@ jobs:
           cp -R legacy-html/. dist/
           find dist -name '.gitkeep' -delete
           rm -f dist/assets/martin-portrait.png
+          rm -f dist/assets/licia.png
           rm -f dist/assets/cane-osso-realistica.jpg
           rm -f dist/assets/story-cane-osso-home.webp
           rm -f dist/assets/story-cane-osso.jpg

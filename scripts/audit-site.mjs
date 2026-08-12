@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import * as cheerio from 'cheerio';
 
@@ -16,6 +16,7 @@ const resources = collectResources();
 
 inspectIndexCoverage();
 inspectTeacherJourney();
+inspectImagePerformance();
 
 for (const resource of resources) {
   const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
@@ -143,6 +144,33 @@ function inspectIndexCoverage() {
       if (!localizedHref || !linkedPaths.includes(expectedPath)) {
         issues.push(`- MISSING_INDEX_LINK | ${language} | ${resource.relative}`);
       }
+    }
+  }
+}
+
+function inspectImagePerformance() {
+  const liciaPortrait = path.join(publicRoot, 'assets', 'licia-portrait.webp');
+  if (!existsSync(liciaPortrait)) {
+    issues.push('- MISSING_OPTIMIZED_IMAGE | /assets/licia-portrait.webp');
+  } else if (statSync(liciaPortrait).size > 100 * 1024) {
+    issues.push(`- OVERSIZED_TEACHER_IMAGE | /assets/licia-portrait.webp | ${statSync(liciaPortrait).size} bytes`);
+  }
+
+  const referencedImages = new Set();
+  for (const file of walk(publicRoot).filter((entry) => entry.endsWith('.html'))) {
+    const html = readFileSync(file, 'utf8');
+    if (html.includes('assets/licia.png')) issues.push(`- UNOPTIMIZED_IMAGE_REFERENCE | /${path.relative(publicRoot, file).replaceAll('\\', '/')}`);
+    const $ = cheerio.load(html, { decodeEntities: false });
+    $('img[src]').each((_, element) => {
+      const source = $(element).attr('src').split('?')[0];
+      if (/^(?:https?:|data:)/.test(source)) return;
+      const absolute = source.startsWith('/') ? path.join(publicRoot, source.slice(1)) : path.resolve(path.dirname(file), source);
+      if (existsSync(absolute)) referencedImages.add(absolute);
+    });
+  }
+  for (const image of referencedImages) {
+    if (statSync(image).size > 400 * 1024) {
+      issues.push(`- OVERSIZED_REFERENCED_IMAGE | /${path.relative(publicRoot, image).replaceAll('\\', '/')} | ${statSync(image).size} bytes`);
     }
   }
 }
