@@ -4,6 +4,7 @@ import * as cheerio from 'cheerio';
 
 const root = process.cwd();
 const publicRoot = path.join(root, 'legacy-html');
+const siteUrl = 'https://italianoconmartin.com';
 const languages = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
 const localizedLanguages = languages.filter((language) => language !== 'it');
 const italianLeakPattern = /\b(Quando usiamo|Usiamo il|Impara|Scrivi|Ricomincia|Il tuo risultato|Prenota su|Prossima lezione|Esercizi con|Errori comuni|Parole utili|Domande di comprensione|Per parlare|Dalla regola|Durante una lezione|Livello|Letture|Grammatica|Favole)\b/i;
@@ -17,6 +18,7 @@ const resources = collectResources();
 inspectIndexCoverage();
 inspectTeacherJourney();
 inspectImagePerformance();
+inspectUrlArchitecture();
 
 for (const resource of resources) {
   const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
@@ -172,6 +174,54 @@ function inspectImagePerformance() {
     if (statSync(image).size > 400 * 1024) {
       issues.push(`- OVERSIZED_REFERENCED_IMAGE | /${path.relative(publicRoot, image).replaceAll('\\', '/')} | ${statSync(image).size} bytes`);
     }
+  }
+}
+
+function inspectUrlArchitecture() {
+  const sitemapFile = path.join(publicRoot, 'sitemap.xml');
+  const sitemapXml = readFileSync(sitemapFile, 'utf8');
+  const declarations = sitemapXml.match(/<\?xml[^?]*\?>/gi) || [];
+  if (declarations.length !== 1 || !sitemapXml.trimStart().startsWith('<?xml')) {
+    issues.push(`- INVALID_SITEMAP_DECLARATION | expected 1 | found ${declarations.length}`);
+  }
+  const sitemapDocument = cheerio.load(sitemapXml.replace(/<\?xml[^?]*\?>\s*/gi, ''), { xmlMode: true });
+  const sitemapUrls = sitemapDocument('urlset > url > loc').map((_, element) => sitemapDocument(element).text().trim()).get();
+  const sitemapSet = new Set(sitemapUrls);
+  if (sitemapSet.size !== sitemapUrls.length) issues.push(`- DUPLICATE_SITEMAP_URL | ${sitemapUrls.length - sitemapSet.size} duplicate(s)`);
+
+  const canonicalPages = new Map();
+  const redirects = [];
+  for (const file of walk(publicRoot).filter((entry) => entry.endsWith('.html'))) {
+    const relative = path.relative(publicRoot, file).replaceAll('\\', '/');
+    const html = readFileSync(file, 'utf8');
+    const $ = cheerio.load(html, { decodeEntities: false });
+    const canonical = $('link[rel="canonical"]').attr('href');
+    if (!canonical) continue;
+    const pagePath = `/${relative.replace(/index\.html$/, '')}`;
+    const isRedirect = $('meta[http-equiv="refresh" i]').length > 0;
+    if (isRedirect) {
+      redirects.push({ relative, canonical, robots: $('meta[name="robots"]').attr('content') || '' });
+      if (sitemapSet.has(`${siteUrl}${pagePath}`)) issues.push(`- REDIRECT_IN_SITEMAP | /${relative}`);
+      continue;
+    }
+
+    const canonicalPath = decodeURIComponent(new URL(canonical).pathname);
+    if (canonicalPath !== pagePath) issues.push(`- CANONICAL_PATH_MISMATCH | /${relative} | ${canonicalPath}`);
+    if (canonicalPages.has(canonical)) issues.push(`- DUPLICATE_CANONICAL | ${canonical}`);
+    canonicalPages.set(canonical, relative);
+    if (!sitemapSet.has(canonical)) issues.push(`- CANONICAL_MISSING_FROM_SITEMAP | ${canonical}`);
+
+    const language = $('html').attr('lang');
+    if (language && language !== 'it' && !pagePath.startsWith(`/${language}/`)) issues.push(`- LANGUAGE_PREFIX_MISMATCH | ${language} | /${relative}`);
+    if (language === 'it' && /^\/(en|es|fr|cs|pl|tr|de|ja)\//.test(pagePath)) issues.push(`- ITALIAN_PAGE_WITH_LANGUAGE_PREFIX | /${relative}`);
+  }
+
+  for (const { relative, canonical, robots } of redirects) {
+    if (!robots.includes('noindex')) issues.push(`- INDEXABLE_REDIRECT | /${relative}`);
+    if (!canonicalPages.has(canonical)) issues.push(`- REDIRECT_TARGET_NOT_CANONICAL | /${relative} | ${canonical}`);
+  }
+  for (const url of sitemapSet) {
+    if (!canonicalPages.has(url)) issues.push(`- SITEMAP_URL_WITHOUT_CANONICAL_PAGE | ${url}`);
   }
 }
 

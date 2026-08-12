@@ -236,12 +236,14 @@ function writeAboutPage(language) {
 function updateSitemap() {
   const file = path.join(siteRoot, 'sitemap.xml');
   if (!existsSync(file)) return;
-  const $ = cheerio.load(readFileSync(file, 'utf8'), { xmlMode: true });
-  for (const language of Object.keys(copy)) {
-    const loc = `${siteUrl}${localizedPath(language)}`;
+  const source = readFileSync(file, 'utf8').replace(/<\?xml[^?]*\?>\s*/gi, '');
+  const $ = cheerio.load(source, { xmlMode: true });
+  const requiredUrls = [...Object.keys(copy).map((language) => `${siteUrl}${localizedPath(language)}`), `${siteUrl}/contact/`];
+  for (const loc of requiredUrls) {
     if (!$('loc').filter((_, element) => $(element).text() === loc).length) $('urlset').append(`<url><loc>${loc}</loc><changefreq>monthly</changefreq></url>`);
   }
-  writeFileSync(file, `<?xml version="1.0" encoding="UTF-8"?>\n${$.xml()}\n`);
+  const xml = $.xml().replace(/<\?xml[^?]*\?>\s*/gi, '');
+  writeFileSync(file, `<?xml version="1.0" encoding="UTF-8"?>\n${xml.trimEnd()}\n`);
 }
 
 function serialize($) {

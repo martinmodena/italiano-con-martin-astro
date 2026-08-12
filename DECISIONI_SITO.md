@@ -93,3 +93,11 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Le fotografie visibili nella prima schermata devono essere caricate subito con priorita alta; le copie nelle schede e nelle call to action piu in basso devono usare caricamento differito.
 - Ogni immagine deve dichiarare dimensioni intrinseche e decodifica asincrona quando possibile, per ridurre spostamenti del layout e blocchi durante il rendering.
 - L'audit deve segnalare qualsiasi immagine locale effettivamente referenziata dalle pagine che superi 400 KB.
+
+## 2026-08-12 - Integrita delle URL multilingue
+
+- L'italiano resta senza prefisso; ogni altra lingua usa il proprio prefisso ISO (`/en/`, `/es/`, `/fr/`, `/cs/`, `/pl/`, `/tr/`, `/de/`, `/ja/`).
+- Le categorie e gli slug canonici devono essere localizzati nella lingua della pagina; i vecchi percorsi restano esclusivamente redirect `noindex` verso il nuovo canonical.
+- La sitemap deve essere XML valido con una sola dichiarazione, URL univoci e soltanto pagine canoniche indicizzabili.
+- Ogni canonical deve coincidere con il percorso pubblico della pagina e ogni redirect deve puntare a una pagina canonica esistente.
+- L'audit deve fallire in caso di prefisso lingua incoerente, canonical duplicato, redirect presente in sitemap o URL sitemap privo di pagina canonica.
