@@ -25,3 +25,9 @@ Ogni indicazione contenuta in un prompt che modifica il sito, la struttura, i co
 - Le bandierine sono accettate come segnale visivo rapido, accompagnate sempre dal nome testuale della lingua.
 - La home italiana deve dichiarare gli `hreflang` verso tutte le home localizzate e `x-default`.
 - Il JavaScript non deve tradurre dinamicamente la home: ogni lingua deve restare una pagina statica indicizzabile.
+
+## Audit 2026-08-12
+
+La revisione completa ha rilevato 41 risorse educative italiane, 32 soli hub localizzati, nessuna pagina localizzata per le singole risorse e nessun PDF. E stato aggiunto `scripts/audit-site.mjs`, eseguibile con `npm run audit:site`, e il workflow lo esegue prima della preparazione del deploy. Le pagine localizzate non devono essere generate come copie con metadata tradotti: spiegazioni, istruzioni, vocabolario e domande devono essere tradotti e revisionati, mentre i brani di studio restano in italiano.
+
+Il sito non va considerato completo finche l'audit segnala risorse mancanti o PDF mancanti.

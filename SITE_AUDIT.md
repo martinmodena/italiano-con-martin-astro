@@ -1,0 +1,387 @@
+# Site Audit
+
+Generated: 2026-08-12
+
+## Inventory
+
+- Supported languages: 9
+- Educational resources: 41
+- Expected localized resource pages: 369
+- Existing PDF files: 0
+- Findings: 369
+
+## Findings
+
+- MISSING_SEO | it | favole/il-cane-e-losso.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-cane-e-losso.html
+- MISSING_PAGE | es | /es/stories/il-cane-e-losso.html
+- MISSING_PAGE | fr | /fr/stories/il-cane-e-losso.html
+- MISSING_PAGE | cs | /cs/stories/il-cane-e-losso.html
+- MISSING_PAGE | pl | /pl/stories/il-cane-e-losso.html
+- MISSING_PAGE | tr | /tr/stories/il-cane-e-losso.html
+- MISSING_PAGE | de | /de/stories/il-cane-e-losso.html
+- MISSING_PAGE | ja | /ja/stories/il-cane-e-losso.html
+- MISSING_SEO | it | favole/il-leone-e-il-topo.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | es | /es/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | fr | /fr/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | cs | /cs/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | pl | /pl/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | tr | /tr/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | de | /de/stories/il-leone-e-il-topo.html
+- MISSING_PAGE | ja | /ja/stories/il-leone-e-il-topo.html
+- MISSING_SEO | it | favole/il-lupo-e-i-tre-porcellini.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | es | /es/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | fr | /fr/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | cs | /cs/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | pl | /pl/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | tr | /tr/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | de | /de/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_PAGE | ja | /ja/stories/il-lupo-e-i-tre-porcellini.html
+- MISSING_SEO | it | favole/il-mugnaio-suo-figlio-e-lasino.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | es | /es/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | fr | /fr/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | cs | /cs/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | pl | /pl/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | tr | /tr/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | de | /de/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_PAGE | ja | /ja/stories/il-mugnaio-suo-figlio-e-lasino.html
+- MISSING_SEO | it | favole/il-pastorello-bugiardo.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | es | /es/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | fr | /fr/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | cs | /cs/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | pl | /pl/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | tr | /tr/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | de | /de/stories/il-pastorello-bugiardo.html
+- MISSING_PAGE | ja | /ja/stories/il-pastorello-bugiardo.html
+- MISSING_SEO | it | favole/il-topo-di-citta-e-il-topo-di-campagna.html | hreflang
+- MISSING_PAGE | en | /en/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | es | /es/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | fr | /fr/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | cs | /cs/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | pl | /pl/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | tr | /tr/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | de | /de/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_PAGE | ja | /ja/stories/il-topo-di-citta-e-il-topo-di-campagna.html
+- MISSING_SEO | it | favole/la-cicala-e-la-formica.html | hreflang
+- MISSING_PAGE | en | /en/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | es | /es/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | fr | /fr/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | cs | /cs/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | pl | /pl/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | tr | /tr/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | de | /de/stories/la-cicala-e-la-formica.html
+- MISSING_PAGE | ja | /ja/stories/la-cicala-e-la-formica.html
+- MISSING_SEO | it | favole/la-lepre-e-la-tartaruga.html | hreflang
+- MISSING_PAGE | en | /en/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | es | /es/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | fr | /fr/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | cs | /cs/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | pl | /pl/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | tr | /tr/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | de | /de/stories/la-lepre-e-la-tartaruga.html
+- MISSING_PAGE | ja | /ja/stories/la-lepre-e-la-tartaruga.html
+- MISSING_SEO | it | favole/la-volpe-e-luva.html | hreflang
+- MISSING_PAGE | en | /en/stories/la-volpe-e-luva.html
+- MISSING_PAGE | es | /es/stories/la-volpe-e-luva.html
+- MISSING_PAGE | fr | /fr/stories/la-volpe-e-luva.html
+- MISSING_PAGE | cs | /cs/stories/la-volpe-e-luva.html
+- MISSING_PAGE | pl | /pl/stories/la-volpe-e-luva.html
+- MISSING_PAGE | tr | /tr/stories/la-volpe-e-luva.html
+- MISSING_PAGE | de | /de/stories/la-volpe-e-luva.html
+- MISSING_PAGE | ja | /ja/stories/la-volpe-e-luva.html
+- MISSING_SEO | it | grammatica/a1/aggettivi-e-pronomi-possessivi.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | es | /es/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | fr | /fr/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | cs | /cs/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | pl | /pl/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | tr | /tr/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | de | /de/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_PAGE | ja | /ja/grammar/a1/aggettivi-e-pronomi-possessivi.html
+- MISSING_SEO | it | grammatica/a1/aggettivi-qualificativi.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | es | /es/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | fr | /fr/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | cs | /cs/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | pl | /pl/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | tr | /tr/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | de | /de/grammar/a1/aggettivi-qualificativi.html
+- MISSING_PAGE | ja | /ja/grammar/a1/aggettivi-qualificativi.html
+- MISSING_SEO | it | grammatica/a1/articoli-determinativi.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | es | /es/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | fr | /fr/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | cs | /cs/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | pl | /pl/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | tr | /tr/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | de | /de/grammar/a1/articoli-determinativi.html
+- MISSING_PAGE | ja | /ja/grammar/a1/articoli-determinativi.html
+- MISSING_SEO | it | grammatica/a1/articoli-indeterminativi.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | es | /es/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | fr | /fr/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | cs | /cs/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | pl | /pl/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | tr | /tr/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | de | /de/grammar/a1/articoli-indeterminativi.html
+- MISSING_PAGE | ja | /ja/grammar/a1/articoli-indeterminativi.html
+- MISSING_SEO | it | grammatica/a1/ce-ci-sono.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | es | /es/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | fr | /fr/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | cs | /cs/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | pl | /pl/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | tr | /tr/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | de | /de/grammar/a1/ce-ci-sono.html
+- MISSING_PAGE | ja | /ja/grammar/a1/ce-ci-sono.html
+- MISSING_SEO | it | grammatica/a1/genere-e-numero.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | es | /es/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | fr | /fr/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | cs | /cs/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | pl | /pl/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | tr | /tr/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | de | /de/grammar/a1/genere-e-numero.html
+- MISSING_PAGE | ja | /ja/grammar/a1/genere-e-numero.html
+- MISSING_SEO | it | grammatica/a1/preposizioni-semplici.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | es | /es/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | fr | /fr/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | cs | /cs/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | pl | /pl/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | tr | /tr/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | de | /de/grammar/a1/preposizioni-semplici.html
+- MISSING_PAGE | ja | /ja/grammar/a1/preposizioni-semplici.html
+- MISSING_SEO | it | grammatica/a1/presente-indicativo-verbi-regolari.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | es | /es/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | fr | /fr/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | cs | /cs/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | pl | /pl/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | tr | /tr/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | de | /de/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_PAGE | ja | /ja/grammar/a1/presente-indicativo-verbi-regolari.html
+- MISSING_SEO | it | grammatica/a1/presente-verbi-irregolari.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | es | /es/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | fr | /fr/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | cs | /cs/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | pl | /pl/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | tr | /tr/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | de | /de/grammar/a1/presente-verbi-irregolari.html
+- MISSING_PAGE | ja | /ja/grammar/a1/presente-verbi-irregolari.html
+- MISSING_SEO | it | grammatica/a1/verbo-avere.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/verbo-avere.html
+- MISSING_PAGE | es | /es/grammar/a1/verbo-avere.html
+- MISSING_PAGE | fr | /fr/grammar/a1/verbo-avere.html
+- MISSING_PAGE | cs | /cs/grammar/a1/verbo-avere.html
+- MISSING_PAGE | pl | /pl/grammar/a1/verbo-avere.html
+- MISSING_PAGE | tr | /tr/grammar/a1/verbo-avere.html
+- MISSING_PAGE | de | /de/grammar/a1/verbo-avere.html
+- MISSING_PAGE | ja | /ja/grammar/a1/verbo-avere.html
+- MISSING_SEO | it | grammatica/a1/verbo-essere.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a1/verbo-essere.html
+- MISSING_PAGE | es | /es/grammar/a1/verbo-essere.html
+- MISSING_PAGE | fr | /fr/grammar/a1/verbo-essere.html
+- MISSING_PAGE | cs | /cs/grammar/a1/verbo-essere.html
+- MISSING_PAGE | pl | /pl/grammar/a1/verbo-essere.html
+- MISSING_PAGE | tr | /tr/grammar/a1/verbo-essere.html
+- MISSING_PAGE | de | /de/grammar/a1/verbo-essere.html
+- MISSING_PAGE | ja | /ja/grammar/a1/verbo-essere.html
+- MISSING_SEO | it | grammatica/a2/futuro-semplice.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | es | /es/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | fr | /fr/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | cs | /cs/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | pl | /pl/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | tr | /tr/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | de | /de/grammar/a2/futuro-semplice.html
+- MISSING_PAGE | ja | /ja/grammar/a2/futuro-semplice.html
+- MISSING_SEO | it | grammatica/a2/imperfetto.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/imperfetto.html
+- MISSING_PAGE | es | /es/grammar/a2/imperfetto.html
+- MISSING_PAGE | fr | /fr/grammar/a2/imperfetto.html
+- MISSING_PAGE | cs | /cs/grammar/a2/imperfetto.html
+- MISSING_PAGE | pl | /pl/grammar/a2/imperfetto.html
+- MISSING_PAGE | tr | /tr/grammar/a2/imperfetto.html
+- MISSING_PAGE | de | /de/grammar/a2/imperfetto.html
+- MISSING_PAGE | ja | /ja/grammar/a2/imperfetto.html
+- MISSING_SEO | it | grammatica/a2/passato-prossimo-o-imperfetto.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | es | /es/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | fr | /fr/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | cs | /cs/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | pl | /pl/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | tr | /tr/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | de | /de/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_PAGE | ja | /ja/grammar/a2/passato-prossimo-o-imperfetto.html
+- MISSING_SEO | it | grammatica/a2/passato-prossimo.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | es | /es/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | fr | /fr/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | cs | /cs/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | pl | /pl/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | tr | /tr/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | de | /de/grammar/a2/passato-prossimo.html
+- MISSING_PAGE | ja | /ja/grammar/a2/passato-prossimo.html
+- MISSING_SEO | it | grammatica/a2/pronomi-diretti.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | es | /es/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | fr | /fr/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | cs | /cs/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | pl | /pl/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | tr | /tr/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | de | /de/grammar/a2/pronomi-diretti.html
+- MISSING_PAGE | ja | /ja/grammar/a2/pronomi-diretti.html
+- MISSING_SEO | it | grammatica/a2/verbi-modali.html | hreflang
+- MISSING_PAGE | en | /en/grammar/a2/verbi-modali.html
+- MISSING_PAGE | es | /es/grammar/a2/verbi-modali.html
+- MISSING_PAGE | fr | /fr/grammar/a2/verbi-modali.html
+- MISSING_PAGE | cs | /cs/grammar/a2/verbi-modali.html
+- MISSING_PAGE | pl | /pl/grammar/a2/verbi-modali.html
+- MISSING_PAGE | tr | /tr/grammar/a2/verbi-modali.html
+- MISSING_PAGE | de | /de/grammar/a2/verbi-modali.html
+- MISSING_PAGE | ja | /ja/grammar/a2/verbi-modali.html
+- MISSING_SEO | it | grammatica/b1/comparativo-e-superlativo.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | es | /es/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | fr | /fr/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | cs | /cs/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | pl | /pl/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | tr | /tr/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | de | /de/grammar/b1/comparativo-e-superlativo.html
+- MISSING_PAGE | ja | /ja/grammar/b1/comparativo-e-superlativo.html
+- MISSING_SEO | it | grammatica/b1/condizionale-presente.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | es | /es/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | fr | /fr/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | cs | /cs/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | pl | /pl/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | tr | /tr/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | de | /de/grammar/b1/condizionale-presente.html
+- MISSING_PAGE | ja | /ja/grammar/b1/condizionale-presente.html
+- MISSING_SEO | it | grammatica/b1/imperativo.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b1/imperativo.html
+- MISSING_PAGE | es | /es/grammar/b1/imperativo.html
+- MISSING_PAGE | fr | /fr/grammar/b1/imperativo.html
+- MISSING_PAGE | cs | /cs/grammar/b1/imperativo.html
+- MISSING_PAGE | pl | /pl/grammar/b1/imperativo.html
+- MISSING_PAGE | tr | /tr/grammar/b1/imperativo.html
+- MISSING_PAGE | de | /de/grammar/b1/imperativo.html
+- MISSING_PAGE | ja | /ja/grammar/b1/imperativo.html
+- MISSING_SEO | it | grammatica/b1/pronomi-combinati.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | es | /es/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | fr | /fr/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | cs | /cs/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | pl | /pl/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | tr | /tr/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | de | /de/grammar/b1/pronomi-combinati.html
+- MISSING_PAGE | ja | /ja/grammar/b1/pronomi-combinati.html
+- MISSING_SEO | it | grammatica/b2/congiuntivo-presente.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | es | /es/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | fr | /fr/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | cs | /cs/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | pl | /pl/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | tr | /tr/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | de | /de/grammar/b2/congiuntivo-presente.html
+- MISSING_PAGE | ja | /ja/grammar/b2/congiuntivo-presente.html
+- MISSING_SEO | it | grammatica/b2/periodo-ipotetico.html | hreflang
+- MISSING_PAGE | en | /en/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | es | /es/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | fr | /fr/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | cs | /cs/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | pl | /pl/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | tr | /tr/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | de | /de/grammar/b2/periodo-ipotetico.html
+- MISSING_PAGE | ja | /ja/grammar/b2/periodo-ipotetico.html
+- MISSING_SEO | it | grammatica/c1/congiuntivo-imperfetto.html | hreflang
+- MISSING_PAGE | en | /en/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | es | /es/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | fr | /fr/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | cs | /cs/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | pl | /pl/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | tr | /tr/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | de | /de/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_PAGE | ja | /ja/grammar/c1/congiuntivo-imperfetto.html
+- MISSING_SEO | it | grammatica/c1/forma-passiva.html | hreflang
+- MISSING_PAGE | en | /en/grammar/c1/forma-passiva.html
+- MISSING_PAGE | es | /es/grammar/c1/forma-passiva.html
+- MISSING_PAGE | fr | /fr/grammar/c1/forma-passiva.html
+- MISSING_PAGE | cs | /cs/grammar/c1/forma-passiva.html
+- MISSING_PAGE | pl | /pl/grammar/c1/forma-passiva.html
+- MISSING_PAGE | tr | /tr/grammar/c1/forma-passiva.html
+- MISSING_PAGE | de | /de/grammar/c1/forma-passiva.html
+- MISSING_PAGE | ja | /ja/grammar/c1/forma-passiva.html
+- MISSING_SEO | it | letture/api-linguaggio-e-caratteristiche.html | hreflang
+- MISSING_PAGE | en | /en/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | es | /es/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | fr | /fr/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | cs | /cs/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | pl | /pl/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | tr | /tr/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | de | /de/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_PAGE | ja | /ja/readings/api-linguaggio-e-caratteristiche.html
+- MISSING_SEO | it | letture/come-funziona-la-memoria-umana.html | hreflang
+- MISSING_PAGE | en | /en/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | es | /es/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | fr | /fr/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | cs | /cs/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | pl | /pl/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | tr | /tr/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | de | /de/readings/come-funziona-la-memoria-umana.html
+- MISSING_PAGE | ja | /ja/readings/come-funziona-la-memoria-umana.html
+- MISSING_SEO | it | letture/come-preparare-una-pizza.html | hreflang
+- MISSING_PAGE | en | /en/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | es | /es/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | fr | /fr/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | cs | /cs/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | pl | /pl/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | tr | /tr/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | de | /de/readings/come-preparare-una-pizza.html
+- MISSING_PAGE | ja | /ja/readings/come-preparare-una-pizza.html
+- MISSING_SEO | it | letture/futuro-intelligenza-artificiale.html | hreflang
+- MISSING_PAGE | en | /en/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | es | /es/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | fr | /fr/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | cs | /cs/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | pl | /pl/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | tr | /tr/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | de | /de/readings/futuro-intelligenza-artificiale.html
+- MISSING_PAGE | ja | /ja/readings/futuro-intelligenza-artificiale.html
+- MISSING_SEO | it | letture/il-sonar-del-delfino.html | hreflang
+- MISSING_PAGE | en | /en/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | es | /es/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | fr | /fr/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | cs | /cs/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | pl | /pl/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | tr | /tr/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | de | /de/readings/il-sonar-del-delfino.html
+- MISSING_PAGE | ja | /ja/readings/il-sonar-del-delfino.html
+- MISSING_SEO | it | letture/storia-del-caffe-in-italia.html | hreflang
+- MISSING_PAGE | en | /en/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | es | /es/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | fr | /fr/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | cs | /cs/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | pl | /pl/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | tr | /tr/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | de | /de/readings/storia-del-caffe-in-italia.html
+- MISSING_PAGE | ja | /ja/readings/storia-del-caffe-in-italia.html
+- MISSING_SEO | it | letture/tecniche-di-memoria.html | hreflang
+- MISSING_PAGE | en | /en/readings/tecniche-di-memoria.html
+- MISSING_PAGE | es | /es/readings/tecniche-di-memoria.html
+- MISSING_PAGE | fr | /fr/readings/tecniche-di-memoria.html
+- MISSING_PAGE | cs | /cs/readings/tecniche-di-memoria.html
+- MISSING_PAGE | pl | /pl/readings/tecniche-di-memoria.html
+- MISSING_PAGE | tr | /tr/readings/tecniche-di-memoria.html
+- MISSING_PAGE | de | /de/readings/tecniche-di-memoria.html
+- MISSING_PAGE | ja | /ja/readings/tecniche-di-memoria.html
+
+## Publication Rule
+
+This audit is intentionally non-blocking until every resource has reviewed translations, localized after-reading sections, reciprocal hreflang, and its PDF package.
