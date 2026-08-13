@@ -66,3 +66,37 @@
 
   window.setTimeout(scrollToCurrentHash, 0);
 })();
+
+(() => {
+  const CLOUDFLARE_ANALYTICS_TOKEN = '36e3bd2e55ad49079f6a9d9e93097405';
+
+  function addPrivacyLink() {
+    const footerLinks = document.querySelector('.footer-grid > div:last-child');
+    if (!footerLinks || footerLinks.querySelector('a[href$="privacy.html"]')) return;
+
+    const labels = {
+      de: 'Datenschutz',
+      es: 'Privacidad',
+      fr: 'Confidentialité',
+      pt: 'Privacidade',
+    };
+    const language = (document.documentElement.lang || 'it').toLowerCase().split('-')[0];
+    const link = document.createElement('a');
+    link.href = '/privacy.html';
+    link.textContent = labels[language] || 'Privacy';
+    footerLinks.appendChild(link);
+  }
+
+  function loadCloudflareAnalytics() {
+    if (document.querySelector('script[data-cf-beacon]')) return;
+
+    const beacon = document.createElement('script');
+    beacon.defer = true;
+    beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    beacon.setAttribute('data-cf-beacon', JSON.stringify({ token: CLOUDFLARE_ANALYTICS_TOKEN }));
+    document.head.appendChild(beacon);
+  }
+
+  addPrivacyLink();
+  loadCloudflareAnalytics();
+})();
