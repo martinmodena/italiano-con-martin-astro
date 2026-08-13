@@ -85,10 +85,13 @@
 }
 .word-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 .word-card {
+  display: grid;
+  grid-template-columns: 165px minmax(0, 1fr);
+  align-items: start;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 18px;
@@ -104,31 +107,56 @@
   aspect-ratio: 1;
   object-fit: cover;
   background: #fffaf4;
+  border-right: 1px solid var(--line);
 }
 .word-card-body {
-  padding: 15px;
+  padding: 20px;
 }
 .word-card h2 {
   margin: 0;
-  font-size: 1.2rem;
+  font-family: Georgia, serif;
+  font-size: 1.55rem;
 }
 .word-translation {
   margin: 4px 0 12px;
   color: var(--muted);
 }
-.word-example {
-  display: grid;
-  gap: 3px;
-  min-height: 74px;
-  margin: 0 0 14px;
+.word-examples {
+  margin: 0 0 16px;
   padding-top: 12px;
   border-top: 1px solid var(--line);
   line-height: 1.4;
 }
-.word-example span {
+.word-examples > strong {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--primary);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.word-examples ol {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 22px;
+}
+.word-examples li {
+  padding-left: 2px;
+}
+.word-examples li::marker {
+  color: var(--primary);
+  font-weight: 900;
+}
+.word-examples span,
+.word-examples small {
+  display: block;
+}
+.word-examples span {
   font-weight: 750;
 }
-.word-example small {
+.word-examples small {
+  margin-top: 2px;
   color: var(--muted);
   font-size: 0.82rem;
 }
@@ -314,9 +342,11 @@
   color: var(--ink);
 }
 @media (max-width: 900px) {
-  .vocabulary-grid,
-  .word-grid {
+  .vocabulary-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .word-grid {
+    grid-template-columns: 1fr;
   }
   .practice-heading,
   .translation-exercises {
@@ -332,15 +362,17 @@
     min-height: 0;
   }
   .word-card {
-    display: grid;
-    grid-template-columns: 130px 1fr;
+    grid-template-columns: 110px minmax(0, 1fr);
   }
   .word-card img {
-    height: 130px;
+    height: 110px;
     aspect-ratio: 1;
   }
-  .word-example {
-    min-height: 0;
+  .word-card-body {
+    padding: 15px;
+  }
+  .word-card h2 {
+    font-size: 1.35rem;
   }
   .translation-progress {
     top: 74px;
