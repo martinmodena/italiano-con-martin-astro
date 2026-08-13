@@ -4,7 +4,7 @@
 
   const language = (document.documentElement.lang || 'it').toLowerCase().split('-')[0];
   const labels = {
-    it: { course: 'Progresso complessivo', level: 'Progresso del livello', lesson: 'Progresso', done: (c, t) => `${c} di ${t} attività` },
+    it: { course: 'Progresso complessivo', level: 'Progresso del livello', lesson: 'Progresso', done: (c, t) => `Completati: ${c} su ${t}` },
     en: { course: 'Overall progress', level: 'Level progress', lesson: 'Progress', done: (c, t) => `${c} of ${t} activities` },
     es: { course: 'Progreso total', level: 'Progreso del nivel', lesson: 'Progreso', done: (c, t) => `${c} de ${t} actividades` },
     fr: { course: 'Progression globale', level: 'Progression du niveau', lesson: 'Progression', done: (c, t) => `${c} activités sur ${t}` },
@@ -14,7 +14,7 @@
     de: { course: 'Gesamtfortschritt', level: 'Niveaustufe', lesson: 'Fortschritt', done: (c, t) => `${c} von ${t} Aktivitäten` },
     ja: { course: '全体の進捗', level: 'レベルの進捗', lesson: '進捗', done: (c, t) => `${t}個中${c}個` },
   }[language] || null;
-  const text = labels || { course: 'Progresso complessivo', level: 'Progresso del livello', lesson: 'Progresso', done: (c, t) => `${c} di ${t} attività` };
+  const text = labels || { course: 'Progresso complessivo', level: 'Progresso del livello', lesson: 'Progresso', done: (c, t) => `Completati: ${c} su ${t}` };
 
   function normalizedPath(href) {
     const path = new URL(href, location.href).pathname;
@@ -25,14 +25,15 @@
   }
   function completed(record) {
     if (!record) return 0;
-    if (Number.isFinite(record.completedActivities)) return record.completedActivities;
-    return (record.answers || []).filter((answer) => String(answer).trim()).length;
+    const correctAnswers = Number(record.score) || 0;
+    const completedTranslations = (record.translationsCompleted || []).filter(Boolean).length;
+    return correctAnswers + completedTranslations;
   }
   function createSummary(label, done, total, className) {
     const percent = total ? Math.round((done / total) * 100) : 0;
     const wrapper = document.createElement('div');
     wrapper.className = className;
-    wrapper.innerHTML = `<div class="progress-heading"><strong>${label}</strong><span>${text.done(done, total)} · ${percent}%</span></div><progress max="100" value="${percent}"></progress>`;
+    wrapper.innerHTML = `<div class="progress-heading"><strong>${label}</strong> <span>${text.done(done, total)} · ${percent}%</span></div><progress max="100" value="${percent}"></progress>`;
     return wrapper;
   }
   function render(records) {
@@ -58,10 +59,13 @@
       const heading = block.querySelector('.level-title');
       if (heading) heading.insertAdjacentElement('afterend', createSummary(text.level, totals.done, totals.total, 'level-progress-summary'));
     });
-    const container = document.querySelector('.section.compact-top .container, .page-intro .container, .grammar-index');
-    if (container) {
-      document.querySelector('.course-progress-summary')?.remove();
-      container.insertBefore(createSummary(text.course, courseDone, courseTotal, 'course-progress-summary'), container.firstChild);
+    const firstLevel = document.querySelector('.level-section');
+    if (firstLevel) {
+      document.querySelector('.course-progress-container')?.remove();
+      const container = document.createElement('div');
+      container.className = 'container course-progress-container';
+      container.appendChild(createSummary(text.course, courseDone, courseTotal, 'course-progress-summary'));
+      firstLevel.insertAdjacentElement('beforebegin', container);
     }
   }
   function openAndRead() {
