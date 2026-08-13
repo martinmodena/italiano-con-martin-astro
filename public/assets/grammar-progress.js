@@ -21,6 +21,7 @@
     return path.endsWith('/') ? path : path.replace(/\/+$/, '');
   }
   function expectedTotal(path) {
+    if (/\/grammatica\/b1\/comparativo-e-superlativo\.html$/i.test(path)) return 33;
     return /(comparativ|comparative|comparatif|vergleich|srovnavaci|porownawcze|karsılastırmalı|比較級)/i.test(path) ? 13 : 10;
   }
   function completed(record) {
