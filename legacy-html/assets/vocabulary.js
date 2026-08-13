@@ -8,6 +8,7 @@
         card.hidden = query && !card.textContent.toLocaleLowerCase('it').includes(query);
       });
     });
+
   document.querySelectorAll('.speak-word').forEach((button) =>
     button.addEventListener('click', () => {
       if (!('speechSynthesis' in window)) return;
@@ -19,18 +20,6 @@
     })
   );
 
-  const exercises = [...document.querySelectorAll('.translation-exercise')];
-  const progress = document.querySelector('#translation-progress');
-  const progressText = document.querySelector('#translation-progress-text');
-  const storageKey = 'italiano-con-martin:vocabulary:cucina:v1';
-  let saved = {};
-
-  try {
-    saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
-  } catch {
-    saved = {};
-  }
-
   const normalize = (value) =>
     value
       .toLocaleLowerCase('it')
@@ -39,64 +28,103 @@
       .replace(/\s+/g, ' ')
       .trim();
 
-  const save = () => {
+  const readStorage = (key) => {
     try {
-      localStorage.setItem(storageKey, JSON.stringify(saved));
+      return JSON.parse(localStorage.getItem(key) || '{}');
     } catch {
-      // The exercise still works when private browsing blocks local storage.
+      return {};
     }
   };
 
-  const updateProgress = () => {
-    if (!progress || !progressText) return;
-    const correct = exercises.filter((exercise) => exercise.classList.contains('is-correct')).length;
-    const percentage = exercises.length ? Math.round((correct / exercises.length) * 100) : 0;
-    progress.value = correct;
-    progressText.textContent = `${correct} di ${exercises.length} corrette · ${percentage}%`;
-    progress.classList.toggle('is-complete', correct === exercises.length && exercises.length > 0);
+  const writeStorage = (key, value) => {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch {
+      // All activities remain usable when local storage is unavailable.
+    }
   };
 
-  exercises.forEach((exercise) => {
-    const key = exercise.dataset.key;
-    const input = exercise.querySelector('textarea');
-    const feedback = exercise.querySelector('.translation-feedback');
-    const solution = exercise.querySelector('.proposed-solution');
-    const answers = JSON.parse(exercise.dataset.answer || '[]');
-    const stored = saved[key] || {};
+  const wordTests = [...document.querySelectorAll('.word-test')];
+  const wordProgress = document.querySelector('#word-progress');
+  const wordProgressText = document.querySelector('#word-progress-text');
+  const wordStorageKey = 'italiano-con-martin:vocabulary:cucina:words:v1';
+  const savedWords = readStorage(wordStorageKey);
+
+  const updateWordProgress = () => {
+    if (!wordProgress || !wordProgressText) return;
+    const correct = wordTests.filter((test) => test.classList.contains('is-correct')).length;
+    const percentage = wordTests.length ? Math.round((correct / wordTests.length) * 100) : 0;
+    wordProgress.value = correct;
+    wordProgressText.textContent = `${correct} di ${wordTests.length} corrette · ${percentage}%`;
+    wordProgress.classList.toggle('is-complete', correct === wordTests.length && wordTests.length > 0);
+  };
+
+  wordTests.forEach((test) => {
+    const key = test.dataset.key;
+    const input = test.querySelector('input');
+    const feedback = test.querySelector('.word-test-feedback');
+    const solution = test.querySelector('.word-test-solution');
+    const answers = JSON.parse(test.dataset.answer || '[]');
+    const stored = savedWords[key] || {};
 
     input.value = stored.value || '';
     if (stored.correct) {
-      exercise.classList.add('is-correct');
-      feedback.textContent = 'Corretta! Ottimo lavoro.';
+      test.classList.add('is-correct');
+      feedback.textContent = 'Corretta! Hai riconosciuto la parola.';
     }
     if (stored.solutionVisible) solution.hidden = false;
 
     input.addEventListener('input', () => {
-      exercise.classList.remove('is-correct', 'is-incorrect');
+      test.classList.remove('is-correct', 'is-incorrect');
       feedback.textContent = '';
-      saved[key] = { ...saved[key], value: input.value, correct: false };
-      save();
-      updateProgress();
+      savedWords[key] = { ...savedWords[key], value: input.value, correct: false };
+      writeStorage(wordStorageKey, savedWords);
+      updateWordProgress();
     });
 
-    exercise.querySelector('.check-translation').addEventListener('click', () => {
+    test.querySelector('.check-word').addEventListener('click', () => {
       const correct = answers.some((answer) => normalize(answer) === normalize(input.value));
-      exercise.classList.toggle('is-correct', correct);
-      exercise.classList.toggle('is-incorrect', !correct);
+      test.classList.toggle('is-correct', correct);
+      test.classList.toggle('is-incorrect', !correct);
       feedback.textContent = correct
-        ? 'Corretta! Ottimo lavoro.'
-        : 'Non è ancora esatta. Riprova oppure confronta la soluzione proposta.';
-      saved[key] = { ...saved[key], value: input.value, correct };
-      save();
-      updateProgress();
+        ? 'Corretta! Hai riconosciuto la parola.'
+        : 'Non ancora. Guarda bene l’immagine e riprova.';
+      savedWords[key] = { ...savedWords[key], value: input.value, correct };
+      writeStorage(wordStorageKey, savedWords);
+      updateWordProgress();
+    });
+
+    test.querySelector('.show-word').addEventListener('click', () => {
+      solution.hidden = !solution.hidden;
+      savedWords[key] = { ...savedWords[key], value: input.value, solutionVisible: !solution.hidden };
+      writeStorage(wordStorageKey, savedWords);
+    });
+  });
+
+  updateWordProgress();
+
+  const translations = [...document.querySelectorAll('.translation-exercise')];
+  const translationStorageKey = 'italiano-con-martin:vocabulary:cucina:translations:v2';
+  const savedTranslations = readStorage(translationStorageKey);
+
+  translations.forEach((exercise) => {
+    const key = exercise.dataset.key;
+    const input = exercise.querySelector('textarea');
+    const solution = exercise.querySelector('.proposed-solution');
+    const stored = savedTranslations[key] || {};
+
+    input.value = stored.value || '';
+    if (stored.solutionVisible) solution.hidden = false;
+
+    input.addEventListener('input', () => {
+      savedTranslations[key] = { ...savedTranslations[key], value: input.value };
+      writeStorage(translationStorageKey, savedTranslations);
     });
 
     exercise.querySelector('.show-translation').addEventListener('click', () => {
       solution.hidden = !solution.hidden;
-      saved[key] = { ...saved[key], value: input.value, solutionVisible: !solution.hidden };
-      save();
+      savedTranslations[key] = { ...savedTranslations[key], value: input.value, solutionVisible: !solution.hidden };
+      writeStorage(translationStorageKey, savedTranslations);
     });
   });
-
-  updateProgress();
 })();
