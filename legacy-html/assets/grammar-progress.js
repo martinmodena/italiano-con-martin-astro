@@ -33,6 +33,7 @@
     const percent = total ? Math.round((done / total) * 100) : 0;
     const wrapper = document.createElement('div');
     wrapper.className = className;
+    wrapper.classList.toggle('is-complete', percent === 100);
     wrapper.innerHTML = `<div class="progress-heading"><strong>${label}</strong> <span>${text.done(done, total)} · ${percent}%</span></div><progress max="100" value="${percent}"></progress>`;
     return wrapper;
   }

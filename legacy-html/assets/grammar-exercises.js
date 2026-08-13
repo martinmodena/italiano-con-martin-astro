@@ -128,6 +128,7 @@
     const panel = ensureProgressPanel();
     if (panel) {
       const percent = progress.totalActivities ? Math.round((progress.completedActivities / progress.totalActivities) * 100) : 0;
+      panel.classList.toggle('is-complete', percent === 100);
       panel.querySelector('progress').value = percent;
       panel.querySelector('.lesson-progress-label').textContent = message.activities(progress.completedActivities, progress.totalActivities);
     }
