@@ -214,8 +214,11 @@
           const textarea = box.querySelector('textarea'); if (textarea) textarea.value = '';
           box.dataset.revealed = '0'; box.dataset.completed = '0';
           const solution = box.querySelector('.translation-solution'); if (solution) solution.hidden = true;
+          const toggle = box.querySelector('.translation-toggle'); if (toggle) toggle.textContent = message.show;
+          const complete = box.querySelector('.translation-complete'); if (complete) { complete.textContent = message.complete; complete.classList.remove('is-completed'); }
+          const status = box.querySelector('.translation-status'); if (status) status.textContent = '';
         });
-        clearProgress(db); updateAll(db); location.reload();
+        clearProgress(db); updateAll(db);
       });
       updateAll(db);
     });
