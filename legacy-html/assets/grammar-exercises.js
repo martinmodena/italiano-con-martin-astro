@@ -75,18 +75,18 @@
     const translationDrafts = translations.map((box) => box.querySelector('textarea')?.value || '');
     const translationsRevealed = translations.map((box) => box.dataset.revealed === '1');
     const translationsCompleted = translations.map((box) => box.dataset.completed === '1');
-    const answered = answers.filter((answer) => answer.trim()).length;
+    const correctCount = exercises.filter((box) => box.dataset.correct === '1').length;
     const translationCount = translationsCompleted.filter(Boolean).length;
     return {
       lessonId,
       path: lessonPath,
       answers,
-      score: exercises.filter((box) => box.dataset.correct === '1').length,
+      score: correctCount,
       total: exercises.length,
       translationDrafts,
       translationsRevealed,
       translationsCompleted,
-      completedActivities: answered + translationCount,
+      completedActivities: correctCount + translationCount,
       totalActivities: exercises.length + translations.length,
       updatedAt: new Date().toISOString(),
     };
