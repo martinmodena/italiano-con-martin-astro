@@ -389,6 +389,7 @@ function updatePage(file) {
   const aboutLink = `<a class="about-link" href="${aboutHref}"${isAboutPage ? ' aria-current="page"' : ''}>${escapeHtml(copy[language].about)}</a>`;
   if (navCta.length) navCta.before(aboutLink);
   else nav.append(aboutLink);
+  if (isHomePage) nav.find('.nav-cta').remove();
   const footerLinks = $('.footer-grid > div:last-child');
   const footerVocabularyLinks = equivalentVocabularyLinks(footerLinks);
   footerVocabularyLinks.each((index, element) => {
