@@ -16,6 +16,14 @@ const routes = {
     count: 8,
     it: 'vocabolario/ufficio.html', en: 'en/vocabulary/italian-office-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-oficina-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-du-bureau-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-kancelar.html', pl: 'pl/slownictwo/wloskie-slownictwo-biuro.html', tr: 'tr/kelime-bilgisi/italyanca-ofis-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-buero.html', ja: 'ja/goi/italian-office-vocabulary.html',
   },
+  abbigliamento: {
+    count: 8,
+    it: 'vocabolario/abbigliamento.html', en: 'en/vocabulary/italian-clothing-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-ropa-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-des-vetements-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-obleceni.html', pl: 'pl/slownictwo/wloskie-slownictwo-ubrania.html', tr: 'tr/kelime-bilgisi/italyanca-giyim-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-kleidung.html', ja: 'ja/goi/italian-clothing-vocabulary.html',
+  },
+  cibo: {
+    count: 8,
+    it: 'vocabolario/cibo.html', en: 'en/vocabulary/italian-food-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-comida-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-de-la-nourriture-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-jidlo.html', pl: 'pl/slownictwo/wloskie-slownictwo-jedzenie.html', tr: 'tr/kelime-bilgisi/italyanca-yemek-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-essen.html', ja: 'ja/goi/italian-food-vocabulary.html',
+  },
 };
 
 const errors = [];
@@ -43,14 +51,16 @@ for (const [lesson, config] of Object.entries(routes)) {
     if ($('.translation-free-section #word-progress').length) errors.push(`${relative}: translations incorrectly affect progress`);
     const vocabularyNav = $('.site-header nav a').filter((_, link) => /\/vocabolario\/$|\/vocabulary\/$|\/vocabulario\/$|\/vocabulaire\/$|\/slovni-zasoba\/$|\/slownictwo\/$|\/kelime-bilgisi\/$|\/wortschatz\/$|\/goi\/$/.test($(link).attr('href') || ''));
     if (vocabularyNav.length !== 1) errors.push(`${relative}: expected one vocabulary navigation link, found ${vocabularyNav.length}`);
+    const vocabularyFooterLinks = $('footer a').filter((_, link) => /^(\.\/|.*\/(vocabolario|vocabulary|vocabulario|vocabulaire|slovni-zasoba|slownictwo|kelime-bilgisi|wortschatz|goi)\/)$/i.test($(link).attr('href') || ''));
+    if (vocabularyFooterLinks.length !== 1) errors.push(`${relative}: expected one vocabulary footer link, found ${vocabularyFooterLinks.length}`);
   }
 }
 
 const index = readFileSync(path.join(root, 'vocabolario', 'index.html'), 'utf8');
-for (const lesson of ['cucina', 'salotto', 'ufficio']) if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
+for (const lesson of ['cucina', 'salotto', 'ufficio', 'abbigliamento', 'cibo']) if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Vocabulary audit passed: ${pages} lesson pages, 324 examples and activities checked.`);
+console.log(`Vocabulary audit passed: ${pages} localized lesson pages checked.`);

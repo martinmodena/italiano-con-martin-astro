@@ -375,7 +375,7 @@ function updatePage(file) {
   const vocabularyHref = categories[language].vocabulary;
   const equivalentVocabularyLinks = (container) => container.find('a').filter((_, element) => {
     const current = $(element).attr('href') || '';
-    return current === vocabularyHref || `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref;
+    return current === vocabularyHref || `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref || $(element).text().trim() === copy[language].vocabulary;
   });
   const navVocabularyLinks = equivalentVocabularyLinks(nav);
   navVocabularyLinks.each((index, element) => {

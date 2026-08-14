@@ -9,6 +9,62 @@ const template = readFileSync(path.join(siteRoot, 'vocabolario', 'cucina.html'),
 
 const lessons = [
   {
+    slug: 'abbigliamento',
+    title: 'L’abbigliamento',
+    seoTitle: 'Vocabolario dell’abbigliamento in italiano | Italiano con Martin',
+    description: 'Impara 8 parole italiane dell’abbigliamento con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
+    lead: 'Apri l’armadio e scopri ogni parola attraverso un’immagine e tre frasi italiane d’esempio.',
+    heroAlt: 'Abbigliamento illustrato con maglietta, camicia, pantaloni, gonna, vestito, giacca, scarpe e cappello',
+    words: [
+      ['maglietta', 'la maglietta', 'Una maglietta', ['Indosso una maglietta bianca.', 'La maglietta è di cotone.', 'Metto la maglietta nell’armadio.'], ['maglietta', 'la maglietta', 't-shirt', 'la t-shirt', 't shirt', 'la t shirt']],
+      ['camicia', 'la camicia', 'Una camicia', ['Martin porta una camicia azzurra.', 'Abbottono la camicia.', 'La camicia è stirata.'], ['camicia', 'la camicia']],
+      ['pantaloni', 'i pantaloni', 'Un paio di pantaloni', ['Questi pantaloni sono neri.', 'Indosso i pantaloni per andare al lavoro.', 'I pantaloni hanno quattro tasche.'], ['pantaloni', 'i pantaloni', 'calzoni', 'i calzoni']],
+      ['gonna', 'la gonna', 'Una gonna', ['Licia indossa una gonna lunga.', 'La gonna arriva al ginocchio.', 'Questa gonna è molto elegante.'], ['gonna', 'la gonna']],
+      ['vestito', 'il vestito', 'Un vestito', ['Indosso un vestito blu.', 'Il vestito è nell’armadio.', 'Questo vestito mi sta bene.'], ['vestito', 'il vestito', 'abito', 'l’abito', "l'abito"]],
+      ['giacca', 'la giacca', 'Una giacca', ['Metto la giacca perché fa fresco.', 'La giacca ha due tasche.', 'Appendo la giacca.'], ['giacca', 'la giacca']],
+      ['scarpe', 'le scarpe', 'Un paio di scarpe', ['Mi metto le scarpe.', 'Le scarpe sono sotto il letto.', 'Queste scarpe sono comode.'], ['scarpe', 'le scarpe']],
+      ['cappello', 'il cappello', 'Un cappello', ['Porto un cappello al mare.', 'Il cappello protegge dal sole.', 'Tolgo il cappello quando entro.'], ['cappello', 'il cappello']],
+    ],
+    translations: [
+      ['I am wearing a white T-shirt.', 'Indosso una maglietta bianca.'],
+      ['Martin is wearing a light-blue shirt.', 'Martin porta una camicia azzurra.'],
+      ['These trousers are black.', 'Questi pantaloni sono neri.'],
+      ['The skirt reaches the knee.', 'La gonna arriva al ginocchio.'],
+      ['The dress is in the wardrobe.', 'Il vestito è nell’armadio.'],
+      ['The jacket has two pockets.', 'La giacca ha due tasche.'],
+      ['These shoes are comfortable.', 'Queste scarpe sono comode.'],
+      ['The hat protects from the sun.', 'Il cappello protegge dal sole.'],
+    ],
+  },
+  {
+    slug: 'cibo',
+    title: 'Il cibo',
+    seoTitle: 'Vocabolario del cibo in italiano | Italiano con Martin',
+    description: 'Impara 8 parole italiane del cibo con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
+    lead: 'Siediti a tavola e scopri ogni parola attraverso un’immagine e tre frasi italiane d’esempio.',
+    heroAlt: 'Cibo illustrato con pane, pasta, riso, carne, pesce, formaggio, uovo e mela',
+    words: [
+      ['pane', 'il pane', 'Un pane', ['Compro il pane fresco.', 'Taglio una fetta di pane.', 'Mangio il pane con il formaggio.'], ['pane', 'il pane']],
+      ['pasta', 'la pasta', 'Della pasta', ['Cucino la pasta.', 'La pasta è al dente.', 'Condisco la pasta con il pomodoro.'], ['pasta', 'la pasta']],
+      ['riso', 'il riso', 'Del riso', ['Il riso cuoce nella pentola.', 'Mangio il riso con le verdure.', 'Il riso è ancora caldo.'], ['riso', 'il riso']],
+      ['carne', 'la carne', 'Della carne', ['Cucino la carne alla griglia.', 'La carne è tenera.', 'Taglio la carne con il coltello.'], ['carne', 'la carne']],
+      ['pesce', 'il pesce', 'Un pesce', ['Il pesce è fresco.', 'Cucino il pesce al forno.', 'Mangiamo pesce il venerdì.'], ['pesce', 'il pesce']],
+      ['formaggio', 'il formaggio', 'Del formaggio', ['Taglio un pezzo di formaggio.', 'Il formaggio è nel frigorifero.', 'Metto il formaggio sulla pasta.'], ['formaggio', 'il formaggio']],
+      ['uovo', 'l’uovo', 'Un uovo', ['Rompo un uovo nella ciotola.', 'L’uovo è sodo.', 'Mangio un uovo a colazione.'], ['uovo', 'un uovo', 'l’uovo', "l'uovo"]],
+      ['mela', 'la mela', 'Una mela', ['Lavo la mela.', 'La mela è rossa.', 'Mangio una mela come merenda.'], ['mela', 'la mela']],
+    ],
+    translations: [
+      ['I buy fresh bread.', 'Compro il pane fresco.'],
+      ['The pasta is al dente.', 'La pasta è al dente.'],
+      ['I eat rice with vegetables.', 'Mangio il riso con le verdure.'],
+      ['I cook the meat on the grill.', 'Cucino la carne alla griglia.'],
+      ['I cook the fish in the oven.', 'Cucino il pesce al forno.'],
+      ['The cheese is in the refrigerator.', 'Il formaggio è nel frigorifero.'],
+      ['I eat an egg for breakfast.', 'Mangio un uovo a colazione.'],
+      ['The apple is red.', 'La mela è rossa.'],
+    ],
+  },
+  {
     slug: 'salotto',
     title: 'Il salotto',
     seoTitle: 'Vocabolario del salotto in italiano | Italiano con Martin',
@@ -119,7 +175,8 @@ for (const lesson of lessons) {
   );
 
   $('.site-header nav a[href="/vocabolario/"]').remove();
-  $('footer a[href="/vocabolario/"]').remove();
+  const footerVocabularyLinks = $('footer a').filter((_, link) => $(link).text().trim() === 'Vocabolario');
+  footerVocabularyLinks.slice(1).remove();
   writeFileSync(path.join(siteRoot, 'vocabolario', `${lesson.slug}.html`), `<!doctype html>\n${$.html().replace(/^<!doctype html>/i, '')}`);
 }
 

@@ -4,6 +4,7 @@ import * as cheerio from 'cheerio';
 import { grammarSeoSlugs } from './grammar-seo-slugs.mjs';
 import { grammarSeoTitles } from './grammar-seo-titles.mjs';
 import { vocabularyReviewedTranslations } from './vocabulary-reviewed-translations.mjs';
+import { vocabularyMoreReviewedTranslations } from './vocabulary-more-reviewed-translations.mjs';
 
 const root = process.cwd();
 const siteRoot = path.join(root, 'legacy-html');
@@ -129,6 +130,8 @@ const slugOverrides = {
   en: {
     'verbo-essere': 'verb-to-be',
     cucina: 'italian-kitchen-vocabulary',
+    abbigliamento: 'italian-clothing-vocabulary',
+    cibo: 'italian-food-vocabulary',
     salotto: 'italian-living-room-vocabulary',
     ufficio: 'italian-office-vocabulary',
     'il-sonar-del-delfino': 'dolphin-sonar',
@@ -137,6 +140,8 @@ const slugOverrides = {
   es: {
     'verbo-essere': 'verbo-ser',
     cucina: 'vocabulario-cocina-italiano',
+    abbigliamento: 'vocabulario-de-la-ropa-en-italiano',
+    cibo: 'vocabulario-de-la-comida-en-italiano',
     salotto: 'vocabulario-del-salon-en-italiano',
     ufficio: 'vocabulario-de-la-oficina-en-italiano',
     'il-sonar-del-delfino': 'el-sonar-del-delfin',
@@ -145,16 +150,18 @@ const slugOverrides = {
   fr: {
     'verbo-essere': 'verbe-etre',
     cucina: 'vocabulaire-cuisine-italien',
+    abbigliamento: 'vocabulaire-des-vetements-en-italien',
+    cibo: 'vocabulaire-de-la-nourriture-en-italien',
     salotto: 'vocabulaire-du-salon-en-italien',
     ufficio: 'vocabulaire-du-bureau-en-italien',
     'il-sonar-del-delfino': 'le-sonar-du-dauphin',
     'il-cane-e-losso': 'le-chien-et-los',
   },
-  cs: { 'verbo-essere': 'sloveso-byt', cucina: 'italska-slovni-zasoba-kuchyne', salotto: 'italska-slovni-zasoba-obyvaci-pokoj', ufficio: 'italska-slovni-zasoba-kancelar' },
-  pl: { 'verbo-essere': 'czasownik-byc', cucina: 'wloskie-slownictwo-kuchnia', salotto: 'wloskie-slownictwo-salon', ufficio: 'wloskie-slownictwo-biuro' },
-  tr: { 'verbo-essere': 'essere-fiili', cucina: 'italyanca-mutfak-kelimeleri', salotto: 'italyanca-oturma-odasi-kelimeleri', ufficio: 'italyanca-ofis-kelimeleri' },
-  de: { 'verbo-essere': 'verb-essere-sein', cucina: 'italienischer-wortschatz-kueche', salotto: 'italienischer-wortschatz-wohnzimmer', ufficio: 'italienischer-wortschatz-buero' },
-  ja: { 'verbo-essere': 'essere-doshi', cucina: 'italian-kitchen-vocabulary', salotto: 'italian-living-room-vocabulary', ufficio: 'italian-office-vocabulary' },
+  cs: { 'verbo-essere': 'sloveso-byt', cucina: 'italska-slovni-zasoba-kuchyne', abbigliamento: 'italska-slovni-zasoba-obleceni', cibo: 'italska-slovni-zasoba-jidlo', salotto: 'italska-slovni-zasoba-obyvaci-pokoj', ufficio: 'italska-slovni-zasoba-kancelar' },
+  pl: { 'verbo-essere': 'czasownik-byc', cucina: 'wloskie-slownictwo-kuchnia', abbigliamento: 'wloskie-slownictwo-ubrania', cibo: 'wloskie-slownictwo-jedzenie', salotto: 'wloskie-slownictwo-salon', ufficio: 'wloskie-slownictwo-biuro' },
+  tr: { 'verbo-essere': 'essere-fiili', cucina: 'italyanca-mutfak-kelimeleri', abbigliamento: 'italyanca-giyim-kelimeleri', cibo: 'italyanca-yemek-kelimeleri', salotto: 'italyanca-oturma-odasi-kelimeleri', ufficio: 'italyanca-ofis-kelimeleri' },
+  de: { 'verbo-essere': 'verb-essere-sein', cucina: 'italienischer-wortschatz-kueche', abbigliamento: 'italienischer-wortschatz-kleidung', cibo: 'italienischer-wortschatz-essen', salotto: 'italienischer-wortschatz-wohnzimmer', ufficio: 'italienischer-wortschatz-buero' },
+  ja: { 'verbo-essere': 'essere-doshi', cucina: 'italian-kitchen-vocabulary', abbigliamento: 'italian-clothing-vocabulary', cibo: 'italian-food-vocabulary', salotto: 'italian-living-room-vocabulary', ufficio: 'italian-office-vocabulary' },
 };
 const preserveSelectors = [
   '.story-text',
@@ -413,7 +420,7 @@ function isTranslatable(text) {
 
 async function translateMissing(strings, language) {
   strings = strings.filter((text) => {
-    const reviewed = vocabularyReviewedTranslations[language]?.[text];
+    const reviewed = vocabularyReviewedTranslations[language]?.[text] || vocabularyMoreReviewedTranslations[language]?.[text];
     if (!reviewed) return true;
     cache[cacheKey(language, text)] = reviewed;
     return false;
