@@ -1,6 +1,8 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import * as cheerio from 'cheerio';
+import { grammarSeoSlugs } from './grammar-seo-slugs.mjs';
+import { grammarSeoTitles } from './grammar-seo-titles.mjs';
 
 const root = process.cwd();
 const siteRoot = path.join(root, 'legacy-html');
@@ -298,6 +300,7 @@ for (const [language, entries] of Object.entries(reviewedOverrides)) {
 const resources = collectResources();
 const sources = collectSources();
 const routeMaps = {};
+const previousRouteMaps = collectExistingCanonicalRouteMaps();
 
 for (const language of languages) {
   const strings = collectStringsForLanguage(language);
@@ -311,6 +314,7 @@ for (const language of languages) {
 for (const language of languages) {
   writeLanguage(language);
 }
+ensureGrammarPdfAliases();
 
 updateItalianAlternates();
 updateLocalizedHomes();
@@ -456,7 +460,9 @@ function buildRouteMap(language) {
     const $ = cheerio.load(sources.get(resource.relative), { decodeEntities: false });
     const title = cleanText($('h1').first().text());
     const translatedTitle = translation(language, title);
-    const slug = slugOverrides[language]?.[resource.sourceSlug] || slugify(translatedTitle) || resource.sourceSlug;
+    const grammarSlug = resource.category === 'grammatica' ? grammarSeoSlugs[language]?.[resource.sourceSlug] : '';
+    const slug =
+      grammarSlug || slugOverrides[language]?.[resource.sourceSlug] || slugify(translatedTitle) || resource.sourceSlug;
     const category = languageData[language].categories[resource.category];
     const level = resource.level ? `${resource.level}/` : '';
     map.set(resource.relative, `${language}/${category}/${level}${slug}.html`);
@@ -495,6 +501,8 @@ function writeLocalizedResource(resource, language) {
     isIndex: false,
   });
   writeFile(targetRelative, html);
+  const previous = previousRouteMaps[language]?.get(resource.relative);
+  if (previous && previous !== targetRelative) writeFile(previous, redirectPage(`/${targetRelative}`, language));
   const legacy = `${language}/${legacyCategories[resource.category]}/${resource.level ? `${resource.level}/` : ''}${resource.sourceSlug}.html`;
   if (legacy !== targetRelative) writeFile(legacy, redirectPage(`/${targetRelative}`, language));
 }
@@ -508,9 +516,11 @@ function localizeDocument(source, context) {
   $('html').attr('lang', language);
   applyVocabularyGlosses($, language);
   applyTranslations($, language);
-  const grammarHeading = curatedGrammarHeading(language, sourceTitle);
+  const grammarHeading =
+    grammarSeoTitles[language]?.[context.sourceSlug] || curatedGrammarHeading(language, sourceTitle);
   if (category === 'grammatica' && grammarHeading) {
     $('h1').first().text(grammarHeading);
+    updateGrammarBreadcrumb($, context, grammarHeading);
   }
   restoreItalianStudyHeadings($, source, category);
   addStoryDirectory($, category, language, isIndex);
@@ -532,8 +542,40 @@ function localizeDocument(source, context) {
   $('.language-switcher').replaceWith(languageSelector(sourceRelative, category, language, isIndex));
   rewriteAssets($, targetRelative);
   rewriteInternalLinks($, category, language, sourceRelative);
+  if (category === 'grammatica' && isIndex) updateGrammarIndexCards($, language);
   addPdfLinks($, { ...context, targetRelative });
   return serialize($);
+}
+
+function updateGrammarBreadcrumb($, context, title) {
+  let breadcrumb = $('.breadcrumbs').first();
+  if (!breadcrumb.length) {
+    const { language, level } = context;
+    const grammarPath = languageData[language].categories.grammatica;
+    const homeLabel = translation(language, 'Home');
+    const grammarLabel = translation(language, 'Grammatica');
+    $('.page-intro .container')
+      .first()
+      .prepend(
+        `<p class="breadcrumbs"><a href="/${language}/">${escapeHtml(homeLabel)}</a> / <a href="/${language}/${grammarPath}/">${escapeHtml(grammarLabel)}</a> / ${escapeHtml(level.toUpperCase())} / ${escapeHtml(title)}</p>`
+      );
+    breadcrumb = $('.breadcrumbs').first();
+  }
+  const textNodes = breadcrumb
+    .contents()
+    .toArray()
+    .filter((node) => node.type === 'text');
+  const lastText = textNodes.at(-1);
+  if (!lastText) return;
+  lastText.data = lastText.data.replace(/\/\s*[^/]*$/, `/ ${title}`);
+}
+
+function updateGrammarIndexCards($, language) {
+  for (const [sourceSlug, targetSlug] of Object.entries(grammarSeoSlugs[language] || {})) {
+    const title = grammarSeoTitles[language]?.[sourceSlug];
+    if (!title) continue;
+    $(`a.lesson-card[href$="/${targetSlug}.html"]`).find('h3').first().text(title);
+  }
 }
 
 function applyVocabularyGlosses($, language) {
@@ -647,6 +689,7 @@ function rewriteInternalLinks($, category, language, sourceRelative) {
         $(element).attr('href', `/${language}/${languageData[language].categories[sourceCategory]}/`);
     }
   });
+  ensureVocabularyNavigation($, language);
 }
 
 function buildAlternates(sourceRelative, category, isIndex) {
@@ -688,6 +731,7 @@ function updateItalianAlternates() {
     $('link[rel="alternate"]').remove();
     $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
     $('.language-switcher').replaceWith(italianLanguageSelector(sourceRelative, category, isIndex));
+    ensureVocabularyNavigation($, 'it');
     addStoryDirectory($, category, 'it', isIndex);
     if (!isIndex) {
       const parts = sourceRelative.split('/');
@@ -744,6 +788,67 @@ function updateLocalizedHomes() {
         .append(`<a href="${vocabularyHref}">${escapeHtml(vocabularyLabel)}</a>`);
     }
     writeFileSync(file, serialize($));
+  }
+}
+
+function ensureVocabularyNavigation($, language) {
+  const href = language === 'it' ? '/vocabolario/' : `/${language}/${languageData[language].categories.vocabolario}/`;
+  const label = language === 'it' ? 'Vocabolario' : translation(language, 'Vocabolario');
+  const nav = $('.site-header nav').first();
+  if (nav.length && !nav.find(`a[href="${href}"]`).length) {
+    const link = `<a href="${href}">${escapeHtml(label)}</a>`;
+    const anchor = nav.find('.about-link,.nav-cta').first();
+    if (anchor.length) anchor.before(link);
+    else nav.append(link);
+  }
+  const footer = $('footer .footer-grid > div').last();
+  if (footer.length && !footer.find(`a[href="${href}"]`).length) {
+    const about = footer.find('.about-link').first();
+    const link = `<a href="${href}">${escapeHtml(label)}</a>`;
+    if (about.length) about.before(link);
+    else footer.append(link);
+  }
+}
+
+function collectExistingCanonicalRouteMaps() {
+  const maps = Object.fromEntries(languages.map((language) => [language, new Map()]));
+  for (const language of languages) {
+    const grammarRoot = path.join(siteRoot, language, languageData[language].categories.grammatica);
+    for (const file of walk(grammarRoot)) {
+      if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
+      const html = readFileSync(file, 'utf8');
+      if (/http-equiv=["']refresh/i.test(html)) continue;
+      const $ = cheerio.load(html, { decodeEntities: false });
+      const italianHref = $('link[rel="alternate"][hreflang="it"]').attr('href') || '';
+      const sourceRelative = italianHref.replace(`${siteUrl}/`, '');
+      if (!sourceRelative.startsWith('grammatica/') || !sourceRelative.endsWith('.html')) continue;
+      maps[language].set(sourceRelative, path.relative(siteRoot, file).replaceAll('\\', '/'));
+    }
+  }
+  return maps;
+}
+
+function ensureGrammarPdfAliases() {
+  for (const language of languages) {
+    const grammarRoot = path.join(siteRoot, language, languageData[language].categories.grammatica);
+    for (const file of walk(grammarRoot)) {
+      if (!file.endsWith('.html')) continue;
+      const html = readFileSync(file, 'utf8');
+      if (!/http-equiv=["']refresh/i.test(html)) continue;
+      const $ = cheerio.load(html, { decodeEntities: false });
+      const canonical = $('link[rel="canonical"]').attr('href') || '';
+      if (!canonical.startsWith(`${siteUrl}/${language}/`)) continue;
+      const oldSlug = path.basename(file, '.html');
+      const targetPath = decodeURIComponent(new URL(canonical).pathname);
+      const newSlug = path.posix.basename(targetPath, '.html');
+      const level = path.basename(path.dirname(file)).toLowerCase();
+      if (!['a1', 'a2', 'b1', 'b2', 'c1'].includes(level) || oldSlug === newSlug) continue;
+      const sourcePdf = path.join(siteRoot, 'pdf', language, `${oldSlug}-${level}.pdf`);
+      const targetPdf = path.join(siteRoot, 'pdf', language, `${newSlug}-${level}.pdf`);
+      if (!existsSync(sourcePdf) || existsSync(targetPdf)) continue;
+      mkdirSync(path.dirname(targetPdf), { recursive: true });
+      copyFileSync(sourcePdf, targetPdf);
+    }
   }
 }
 

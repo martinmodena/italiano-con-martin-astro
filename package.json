@@ -14,6 +14,7 @@
     "generate:localized": "node scripts/generate-localized-resources.mjs && node scripts/update-teacher-journey.mjs",
     "update:teachers": "node scripts/update-teacher-journey.mjs",
     "audit:site": "node scripts/audit-site.mjs",
+    "audit:grammar-seo": "node scripts/audit-grammar-seo.mjs",
     "expand:readings": "node scripts/enrich-readings.mjs && node scripts/extend-article-readings.mjs && node scripts/add-article-deep-labs.mjs && npm run import:html",
     "preview": "astro preview",
     "astro": "astro",
