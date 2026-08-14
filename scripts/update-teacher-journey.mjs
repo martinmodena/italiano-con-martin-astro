@@ -372,12 +372,19 @@ function updatePage(file) {
   $('.site-header nav .about-link, footer .about-link').remove();
   const nav = $('.site-header nav').first();
   const navCta = nav.find('.nav-cta').first();
+  const vocabularyHref = categories[language].vocabulary;
+  if (nav.length && !nav.find(`a[href="${vocabularyHref}"]`).length) {
+    const vocabularyLink = `<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`;
+    if (navCta.length) navCta.before(vocabularyLink);
+    else nav.append(vocabularyLink);
+  }
   const aboutLink = `<a class="about-link" href="${aboutHref}"${isAboutPage ? ' aria-current="page"' : ''}>${escapeHtml(copy[language].about)}</a>`;
   if (navCta.length) navCta.before(aboutLink);
   else nav.append(aboutLink);
-  $('.footer-grid > div:last-child').append(
-    `<a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a>`
-  );
+  const footerLinks = $('.footer-grid > div:last-child');
+  if (footerLinks.length && !footerLinks.find(`a[href="${vocabularyHref}"]`).length)
+    footerLinks.append(`<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`);
+  footerLinks.append(`<a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a>`);
 
   const conversion = $('.conversion-section').first();
   if (isHomePage && $('.teachers-section').length) {

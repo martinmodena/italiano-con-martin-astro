@@ -2,7 +2,7 @@
 
 ## Principio editoriale
 
-La spiegazione, le istruzioni e le parole di raccordo sono scritte nella lingua dello studente. Il nome italiano della struttura studiata rimane invece visibile quando identifica una forma specifica dell'italiano o quando una traduzione letterale potrebbe indicare un tempo diverso.
+La spiegazione, le istruzioni e le parole di raccordo sono scritte nella lingua dello studente. Il nome italiano della struttura studiata rimane visibile quando identifica una forma specifica dell’italiano o quando una traduzione letterale potrebbe indicare un tempo diverso.
 
 Esempi consigliati:
 
@@ -12,24 +12,40 @@ Esempi consigliati:
 - tedesco: `Das italienische passato prossimo`;
 - giapponese: `イタリア語の passato prossimo`.
 
-La prima occorrenza del termine italiano può essere accompagnata da una breve spiegazione nella lingua dello studente. Nelle tabelle di coniugazione e negli esempi si usa sempre l'italiano.
+La prima occorrenza del termine italiano può essere accompagnata da una breve spiegazione nella lingua dello studente. Nelle tabelle di coniugazione e negli esempi si usa sempre l’italiano.
 
 ## Titoli
 
-Il titolo principale risponde all'intenzione di ricerca e contiene:
+Il titolo principale risponde all’intenzione di ricerca e contiene:
 
 1. il termine italiano corretto;
-2. un'indicazione esplicita che si tratta di grammatica italiana;
+2. un’indicazione esplicita che si tratta di grammatica italiana;
 3. parole di raccordo nella lingua dello studente.
 
 Si evitano traduzioni fuorvianti: per esempio `passato prossimo` non diventa automaticamente `past perfect`, perché in inglese quel nome indica un altro tempo.
 
 ## URL
 
-I nuovi URL usano la lingua dello studente e, quando utile, conservano il termine grammaticale italiano, per esempio `/en/grammar/italian-passato-prossimo.html`.
+Ogni URL usa parole comprensibili allo studente e specifica il contesto italiano. Conserva il termine italiano quando una traduzione potrebbe essere ambigua, per esempio:
 
-Gli URL già pubblicati non vengono rinominati in massa. Un URL indicizzato si cambia soltanto con una migrazione completa che comprenda redirect permanente 301, canonical, hreflang, sitemap e aggiornamento di tutti i collegamenti interni. In assenza di questa migrazione si migliora il titolo della pagina senza rompere l'indirizzo esistente.
+- `/en/grammar/a2/the-imperfetto-tense.html`;
+- `/es/gramatica/a2/el-passato-prossimo-italiano.html`;
+- `/de/grammatik/b2/das-italienische-congiuntivo-presente.html`.
+
+I concetti grammaticali universali possono essere tradotti, purché l’URL indichi chiaramente che riguardano l’italiano, per esempio `/en/grammar/a1/italian-definite-articles.html`.
+
+## Migrazione degli indirizzi esistenti
+
+Quando un URL già pubblicato cambia, la migrazione deve comprendere:
+
+1. un redirect immediato dal vecchio URL alla nuova pagina;
+2. canonical autoreferenziale sul nuovo URL;
+3. hreflang reciproci che usano soltanto i nuovi URL;
+4. sitemap e collegamenti interni aggiornati;
+5. PDF disponibile con il nuovo nome, senza eliminare il file precedente.
+
+Il sito è pubblicato come HTML statico su GitHub Pages. In assenza di redirect HTTP configurabili, usa un `meta refresh` con ritardo zero, canonical verso la destinazione e `noindex,follow`: Google interpreta il redirect immediato come permanente.
 
 ## Controllo qualità
 
-Per ogni lingua si verifica che titolo, H1, descrizione, canonical e hreflang siano coerenti; che i termini tecnici italiani non siano tradotti come falsi equivalenti; e che lo studente capisca subito sia l'argomento sia la lingua insegnata.
+Per ogni lingua si verifica che titolo, H1, descrizione, canonical, hreflang, sitemap e PDF siano coerenti; che i termini tecnici italiani non siano tradotti come falsi equivalenti; che ogni vecchio URL conduca direttamente alla nuova destinazione; e che lo studente capisca subito sia l’argomento sia la lingua insegnata.
