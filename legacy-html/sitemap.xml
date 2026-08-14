@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://italianoconmartin.com/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/privacy.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/letture/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/favole/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://italianoconmartin.com/vocabolario/</loc><lastmod>2026-08-13</lastmod><changefreq>monthly</changefreq></url>
-  <url><loc>https://italianoconmartin.com/vocabolario/cucina.html</loc><lastmod>2026-08-13</lastmod><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/vocabolario/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/favole/il-cane-e-losso.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/favole/il-leone-e-il-topo.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/favole/il-lupo-e-i-tre-porcellini.html</loc><changefreq>monthly</changefreq></url>
@@ -47,10 +47,12 @@
   <url><loc>https://italianoconmartin.com/letture/il-sonar-del-delfino.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/letture/storia-del-caffe-in-italia.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/letture/tecniche-di-memoria.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/vocabolario/cucina.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/readings/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/stories/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/en/vocabulary/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/stories/the-dog-and-the-bone.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/stories/the-lion-and-the-mouse.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/stories/the-wolf-and-the-three-little-pigs.html</loc><changefreq>monthly</changefreq></url>
@@ -92,10 +94,12 @@
   <url><loc>https://italianoconmartin.com/en/readings/dolphin-sonar.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/readings/the-history-of-coffee-in-italy.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/readings/memory-techniques.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/en/vocabulary/italian-kitchen-vocabulary.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/lecturas/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/cuentos/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/es/vocabulario/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/cuentos/el-perro-y-el-hueso.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/cuentos/el-leon-y-el-raton.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/cuentos/el-lobo-y-los-tres-cerditos.html</loc><changefreq>monthly</changefreq></url>
@@ -137,10 +141,12 @@
   <url><loc>https://italianoconmartin.com/es/lecturas/el-sonar-del-delfin.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/lecturas/la-historia-del-cafe-en-italia.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/lecturas/tecnicas-de-memoria.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/es/vocabulario/vocabulario-cocina-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/lectures/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/histoires/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/fr/vocabulaire/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/histoires/le-chien-et-los.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/histoires/le-lion-et-la-souris.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/histoires/le-loup-et-les-trois-petits-cochons.html</loc><changefreq>monthly</changefreq></url>
@@ -182,10 +188,12 @@
   <url><loc>https://italianoconmartin.com/fr/lectures/le-sonar-du-dauphin.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/lectures/lhistoire-du-cafe-en-italie.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/lectures/techniques-de-memoire.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/fr/vocabulaire/vocabulaire-cuisine-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/cteni/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/pribehy/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/cs/slovni-zasoba/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/pribehy/pes-a-kost.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/pribehy/lev-a-mys.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/pribehy/vlk-a-tri-prasatka.html</loc><changefreq>monthly</changefreq></url>
@@ -227,10 +235,12 @@
   <url><loc>https://italianoconmartin.com/cs/cteni/delfinovy-sonar.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/cteni/historie-kavy-v-italii.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/cteni/pametove-techniky.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/cs/slovni-zasoba/italska-slovni-zasoba-kuchyne.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/czytanki/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/historie/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/pl/slownictwo/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/historie/pies-i-kosc.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/historie/lew-i-mysz.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/historie/wilk-i-trzy-ma&#x142;e-swinki.html</loc><changefreq>monthly</changefreq></url>
@@ -272,10 +282,12 @@
   <url><loc>https://italianoconmartin.com/pl/czytanki/sonar-delfinow.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/czytanki/historia-kawy-we-w&#x142;oszech.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/czytanki/techniki-pamieci.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/pl/slownictwo/wloskie-slownictwo-kuchnia.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/okumalar/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/hikayeler/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/tr/kelime-bilgisi/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/hikayeler/kopek-ve-kemik.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/hikayeler/aslan-ve-fare.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/hikayeler/kurt-ve-uc-kucuk-domuz.html</loc><changefreq>monthly</changefreq></url>
@@ -317,10 +329,12 @@
   <url><loc>https://italianoconmartin.com/tr/okumalar/yunus-sonar&#x131;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/okumalar/italyada-kahvenin-tarihi.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/okumalar/bellek-teknikleri.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/tr/kelime-bilgisi/italyanca-mutfak-kelimeleri.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/lesetexte/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/geschichten/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/de/wortschatz/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/geschichten/der-hund-und-der-knochen.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/geschichten/der-lowe-und-die-maus.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/geschichten/der-wolf-und-die-drei-kleinen-schweinchen.html</loc><changefreq>monthly</changefreq></url>
@@ -362,10 +376,12 @@
   <url><loc>https://italianoconmartin.com/de/lesetexte/delphin-sonar.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/lesetexte/die-geschichte-des-kaffees-in-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/lesetexte/gedachtnistechniken.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/de/wortschatz/italienischer-wortschatz-kueche.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/dokkai/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/monogatari/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/ja/goi/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/monogatari/&#x72ac;&#x3068;&#x9aa8;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/monogatari/&#x30e9;&#x30a4;&#x30aa;&#x30f3;&#x3068;&#x30cd;&#x30b9;-&#x30df;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/monogatari/&#x30aa;&#x30aa;&#x30ab;&#x30df;&#x3068;&#x4e09;&#x5339;&#x306e;&#x5b50;&#x8c5a;.html</loc><changefreq>monthly</changefreq></url>
@@ -407,4 +423,5 @@
   <url><loc>https://italianoconmartin.com/ja/dokkai/&#x30a4;&#x30eb;&#x30ab;&#x30bd;&#x30ca;&#x30fc;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/dokkai/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x306e;&#x30b3;&#x30fc;&#x30d2;&#x30fc;&#x306e;&#x6b74;&#x53f2;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/dokkai/&#x8a18;&#x61b6;&#x8853;.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://italianoconmartin.com/chi-siamo/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/en/about-us/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/es/sobre-nosotros/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/fr/a-propos/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/cs/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/pl/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/tr/hakkimizda/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/de/ueber-uns/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/ja/watashitachi-ni-tsuite/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/contact/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/privacy.html</loc><lastmod>2026-08-13</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url></urlset>
+  <url><loc>https://italianoconmartin.com/ja/goi/italian-kitchen-vocabulary.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://italianoconmartin.com/chi-siamo/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/en/about-us/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/es/sobre-nosotros/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/fr/a-propos/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/cs/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/pl/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/tr/hakkimizda/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/de/ueber-uns/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/ja/watashitachi-ni-tsuite/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/contact/</loc><changefreq>monthly</changefreq></url></urlset>
