@@ -94,7 +94,8 @@
   const wordTests = [...document.querySelectorAll('.word-test')];
   const wordProgress = document.querySelector('#word-progress');
   const wordProgressText = document.querySelector('#word-progress-text');
-  const wordStorageKey = `italiano-con-martin:vocabulary:cucina:${language}:words:v2`;
+  const lessonId = location.pathname.split('/').pop()?.replace(/\.html$/, '') || 'index';
+  const wordStorageKey = `italiano-con-martin:vocabulary:${lessonId}:${language}:words:v2`;
   const savedWords = readStorage(wordStorageKey);
 
   const updateWordProgress = () => {
@@ -157,7 +158,7 @@
   updateWordProgress();
 
   const translations = [...document.querySelectorAll('.translation-exercise')];
-  const translationStorageKey = `italiano-con-martin:vocabulary:cucina:${language}:translations:v3`;
+  const translationStorageKey = `italiano-con-martin:vocabulary:${lessonId}:${language}:translations:v3`;
   const savedTranslations = readStorage(translationStorageKey);
 
   translations.forEach((exercise) => {

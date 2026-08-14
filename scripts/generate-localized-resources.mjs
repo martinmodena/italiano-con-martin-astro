@@ -3,6 +3,7 @@ import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { grammarSeoSlugs } from './grammar-seo-slugs.mjs';
 import { grammarSeoTitles } from './grammar-seo-titles.mjs';
+import { vocabularyReviewedTranslations } from './vocabulary-reviewed-translations.mjs';
 
 const root = process.cwd();
 const siteRoot = path.join(root, 'legacy-html');
@@ -128,26 +129,32 @@ const slugOverrides = {
   en: {
     'verbo-essere': 'verb-to-be',
     cucina: 'italian-kitchen-vocabulary',
+    salotto: 'italian-living-room-vocabulary',
+    ufficio: 'italian-office-vocabulary',
     'il-sonar-del-delfino': 'dolphin-sonar',
     'il-cane-e-losso': 'the-dog-and-the-bone',
   },
   es: {
     'verbo-essere': 'verbo-ser',
     cucina: 'vocabulario-cocina-italiano',
+    salotto: 'vocabulario-del-salon-en-italiano',
+    ufficio: 'vocabulario-de-la-oficina-en-italiano',
     'il-sonar-del-delfino': 'el-sonar-del-delfin',
     'il-cane-e-losso': 'el-perro-y-el-hueso',
   },
   fr: {
     'verbo-essere': 'verbe-etre',
     cucina: 'vocabulaire-cuisine-italien',
+    salotto: 'vocabulaire-du-salon-en-italien',
+    ufficio: 'vocabulaire-du-bureau-en-italien',
     'il-sonar-del-delfino': 'le-sonar-du-dauphin',
     'il-cane-e-losso': 'le-chien-et-los',
   },
-  cs: { 'verbo-essere': 'sloveso-byt', cucina: 'italska-slovni-zasoba-kuchyne' },
-  pl: { 'verbo-essere': 'czasownik-byc', cucina: 'wloskie-slownictwo-kuchnia' },
-  tr: { 'verbo-essere': 'essere-fiili', cucina: 'italyanca-mutfak-kelimeleri' },
-  de: { 'verbo-essere': 'verb-essere-sein', cucina: 'italienischer-wortschatz-kueche' },
-  ja: { 'verbo-essere': 'essere-doshi', cucina: 'italian-kitchen-vocabulary' },
+  cs: { 'verbo-essere': 'sloveso-byt', cucina: 'italska-slovni-zasoba-kuchyne', salotto: 'italska-slovni-zasoba-obyvaci-pokoj', ufficio: 'italska-slovni-zasoba-kancelar' },
+  pl: { 'verbo-essere': 'czasownik-byc', cucina: 'wloskie-slownictwo-kuchnia', salotto: 'wloskie-slownictwo-salon', ufficio: 'wloskie-slownictwo-biuro' },
+  tr: { 'verbo-essere': 'essere-fiili', cucina: 'italyanca-mutfak-kelimeleri', salotto: 'italyanca-oturma-odasi-kelimeleri', ufficio: 'italyanca-ofis-kelimeleri' },
+  de: { 'verbo-essere': 'verb-essere-sein', cucina: 'italienischer-wortschatz-kueche', salotto: 'italienischer-wortschatz-wohnzimmer', ufficio: 'italienischer-wortschatz-buero' },
+  ja: { 'verbo-essere': 'essere-doshi', cucina: 'italian-kitchen-vocabulary', salotto: 'italian-living-room-vocabulary', ufficio: 'italian-office-vocabulary' },
 };
 const preserveSelectors = [
   '.story-text',
@@ -405,6 +412,16 @@ function isTranslatable(text) {
 }
 
 async function translateMissing(strings, language) {
+  strings = strings.filter((text) => {
+    const reviewed = vocabularyReviewedTranslations[language]?.[text];
+    if (!reviewed) return true;
+    cache[cacheKey(language, text)] = reviewed;
+    return false;
+  });
+  if (process.env.LIST_MISSING_TRANSLATIONS === language) {
+    console.log(JSON.stringify(strings, null, 2));
+    process.exit(0);
+  }
   if (!strings.length) return;
   const batches = [];
   let batch = [];
@@ -795,14 +812,23 @@ function ensureVocabularyNavigation($, language) {
   const href = language === 'it' ? '/vocabolario/' : `/${language}/${languageData[language].categories.vocabolario}/`;
   const label = language === 'it' ? 'Vocabolario' : translation(language, 'Vocabolario');
   const nav = $('.site-header nav').first();
-  if (nav.length && !nav.find(`a[href="${href}"]`).length) {
+  const equivalentLinks = (container) => container.find('a').filter((_, element) => {
+    const current = $(element).attr('href') || '';
+    if (current === href) return true;
+    return language === 'it' && /(?:^|\/)vocabolario\/$/.test(current);
+  });
+  const navLinks = equivalentLinks(nav);
+  navLinks.slice(1).remove();
+  if (nav.length && !navLinks.length) {
     const link = `<a href="${href}">${escapeHtml(label)}</a>`;
     const anchor = nav.find('.about-link,.nav-cta').first();
     if (anchor.length) anchor.before(link);
     else nav.append(link);
   }
   const footer = $('footer .footer-grid > div').last();
-  if (footer.length && !footer.find(`a[href="${href}"]`).length) {
+  const footerLinks = equivalentLinks(footer);
+  footerLinks.slice(1).remove();
+  if (footer.length && !footerLinks.length) {
     const about = footer.find('.about-link').first();
     const link = `<a href="${href}">${escapeHtml(label)}</a>`;
     if (about.length) about.before(link);

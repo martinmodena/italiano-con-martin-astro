@@ -373,7 +373,15 @@ function updatePage(file) {
   const nav = $('.site-header nav').first();
   const navCta = nav.find('.nav-cta').first();
   const vocabularyHref = categories[language].vocabulary;
-  if (nav.length && !nav.find(`a[href="${vocabularyHref}"]`).length) {
+  const equivalentVocabularyLinks = (container) => container.find('a').filter((_, element) => {
+    const current = $(element).attr('href') || '';
+    return current === vocabularyHref || `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref;
+  });
+  const navVocabularyLinks = equivalentVocabularyLinks(nav);
+  navVocabularyLinks.each((index, element) => {
+    if (index > 0) $(element).remove();
+  });
+  if (nav.length && !navVocabularyLinks.length) {
     const vocabularyLink = `<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`;
     if (navCta.length) navCta.before(vocabularyLink);
     else nav.append(vocabularyLink);
@@ -382,7 +390,11 @@ function updatePage(file) {
   if (navCta.length) navCta.before(aboutLink);
   else nav.append(aboutLink);
   const footerLinks = $('.footer-grid > div:last-child');
-  if (footerLinks.length && !footerLinks.find(`a[href="${vocabularyHref}"]`).length)
+  const footerVocabularyLinks = equivalentVocabularyLinks(footerLinks);
+  footerVocabularyLinks.each((index, element) => {
+    if (index > 0) $(element).remove();
+  });
+  if (footerLinks.length && !footerVocabularyLinks.length)
     footerLinks.append(`<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`);
   footerLinks.append(`<a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a>`);
 
