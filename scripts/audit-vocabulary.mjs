@@ -17,7 +17,7 @@ const routes = {
     it: 'vocabolario/ufficio.html', en: 'en/vocabulary/italian-office-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-oficina-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-du-bureau-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-kancelar.html', pl: 'pl/slownictwo/wloskie-slownictwo-biuro.html', tr: 'tr/kelime-bilgisi/italyanca-ofis-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-buero.html', ja: 'ja/goi/italian-office-vocabulary.html',
   },
   abbigliamento: {
-    count: 50,
+    count: 57,
     it: 'vocabolario/abbigliamento.html', en: 'en/vocabulary/italian-clothing-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-ropa-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-des-vetements-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-obleceni.html', pl: 'pl/slownictwo/wloskie-slownictwo-ubrania.html', tr: 'tr/kelime-bilgisi/italyanca-giyim-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-kleidung.html', ja: 'ja/goi/italian-clothing-vocabulary.html',
   },
   cibo: {
