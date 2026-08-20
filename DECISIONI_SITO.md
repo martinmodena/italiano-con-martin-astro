@@ -106,3 +106,9 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - L'header di ogni pagina italiana deve mantenere lo stesso ordine: marchio “Italiano con Martin”, selettore lingua, quindi Grammatica, Letture, Vocabolario e Chi siamo.
 - Le pagine delle risorse non devono invertire marchio e selettore lingua: l'ordine uniforme evita spostamenti visivi tra una pagina e l'altra.
+
+## 2026-08-20 - Completezza delle pagine-menu
+
+- Ogni pagina-menu o indice di categoria deve collegare in modo visibile tutti gli articoli e le pagine pubblicati nella propria categoria: Letture, Favole, Grammatica e Vocabolario.
+- La stessa completezza e obbligatoria per ogni lingua: una risorsa non puo essere pubblicata se manca dal relativo indice localizzato.
+- L'audit rigoroso deve fallire in presenza di una pagina-menu mancante o di un articolo non collegato dal suo indice.

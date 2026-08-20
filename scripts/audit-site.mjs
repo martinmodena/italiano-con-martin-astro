@@ -125,26 +125,42 @@ function collectResources() {
 }
 
 function inspectIndexCoverage() {
-  const storyResources = resources.filter((resource) => resource.category === 'favole');
-  const italianHtml = readFileSync(path.join(publicRoot, 'favole', 'index.html'), 'utf8');
-  const italianDocument = cheerio.load(italianHtml, { decodeEntities: false });
-  for (const resource of storyResources) {
-    const href = path.basename(resource.relative);
-    if (!italianDocument(`.resource-directory a[href$="${href}"]`).length) issues.push(`- MISSING_INDEX_LINK | it | ${resource.relative}`);
-  }
-  const alternates = readAlternates(italianHtml);
-  for (const language of localizedLanguages) {
-    const indexHref = alternates.get(language);
-    if (!indexHref) continue;
-    const indexRelative = decodeURIComponent(new URL(indexHref).pathname.replace(/^\//, ''));
-    const indexDocument = cheerio.load(readFileSync(path.join(publicRoot, indexRelative, 'index.html'), 'utf8'), { decodeEntities: false });
-    for (const resource of storyResources) {
-      const source = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
-      const localizedHref = readAlternates(source).get(language);
-      const expectedPath = localizedHref ? decodeURIComponent(new URL(localizedHref).pathname) : '';
-      const linkedPaths = indexDocument('.resource-directory a').map((_, element) => decodeURIComponent(indexDocument(element).attr('href') || '')).get();
-      if (!localizedHref || !linkedPaths.includes(expectedPath)) {
-        issues.push(`- MISSING_INDEX_LINK | ${language} | ${resource.relative}`);
+  for (const category of ['letture', 'favole', 'grammatica']) {
+    const categoryResources = resources.filter((resource) => resource.category === category);
+    const italianIndex = path.join(publicRoot, category, 'index.html');
+    if (!existsSync(italianIndex)) {
+      issues.push(`- MISSING_INDEX_PAGE | it | /${category}/`);
+      continue;
+    }
+    const italianHtml = readFileSync(italianIndex, 'utf8');
+    const italianDocument = cheerio.load(italianHtml, { decodeEntities: false });
+    for (const resource of categoryResources) {
+      const href = path.basename(resource.relative);
+      if (!italianDocument(`a[href$="${href}"]`).length) issues.push(`- MISSING_INDEX_LINK | it | ${resource.relative}`);
+    }
+    const alternates = readAlternates(italianHtml);
+    for (const language of localizedLanguages) {
+      const indexHref = alternates.get(language);
+      if (!indexHref) {
+        issues.push(`- MISSING_INDEX_PAGE | ${language} | /${category}/`);
+        continue;
+      }
+      const indexRelative = decodeURIComponent(new URL(indexHref).pathname.replace(/^\//, ''));
+      const localizedIndex = path.join(publicRoot, indexRelative, 'index.html');
+      if (!existsSync(localizedIndex)) {
+        issues.push(`- MISSING_INDEX_PAGE | ${language} | ${indexHref}`);
+        continue;
+      }
+      const indexDocument = cheerio.load(readFileSync(localizedIndex, 'utf8'), { decodeEntities: false });
+      const indexPath = new URL(indexHref).pathname;
+      const linkedPaths = indexDocument('a[href]').map((_, element) => decodeURIComponent(new URL(indexDocument(element).attr('href'), `${siteUrl}${indexPath}`).pathname)).get();
+      for (const resource of categoryResources) {
+        const source = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
+        const localizedHref = readAlternates(source).get(language);
+        const expectedPath = localizedHref ? decodeURIComponent(new URL(localizedHref).pathname) : '';
+        if (!localizedHref || !linkedPaths.includes(expectedPath)) {
+          issues.push(`- MISSING_INDEX_LINK | ${language} | ${resource.relative}`);
+        }
       }
     }
   }
