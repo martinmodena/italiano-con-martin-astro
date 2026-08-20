@@ -139,3 +139,8 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - Ogni domanda a risposta libera deve essere disposta verticalmente: testo della domanda, poi una textarea a tutta larghezza del riquadro, senza affiancamenti o sovrapposizioni.
 - I campi mantengono altezza minima, padding, bordo e stato di focus coerenti; la correzione è globale per tutte le letture e per ogni lingua.
+
+## 2026-08-20 - Carattere informativo delle letture
+
+- La lettura sul latte materno è un contenuto informativo e didattico autonomo: non deve citare, collegare o presentare jw.org come fonte di riferimento.
+- La nota finale descrive lo scopo educativo e il limite sanitario del contenuto; la stessa regola vale per tutte le versioni linguistiche della lettura.
