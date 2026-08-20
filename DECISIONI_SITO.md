@@ -117,3 +117,8 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - Nell'header il comando per scegliere la lingua mostra soltanto la bandiera della lingua corrente, senza sigla testuale, freccia o contenitore circolare.
 - Il menu aperto conserva bandiere e nomi completi delle lingue, per rendere ogni scelta immediatamente riconoscibile e accessibile.
+
+## 2026-08-20 - Colore dell'icona WhatsApp
+
+- L'icona WhatsApp usa sempre il verde ufficiale `#25D366` quando il collegamento è su uno sfondo chiaro.
+- Su pulsanti o aree con sfondo scuro o colorato, l'icona passa al bianco per mantenere il contrasto; si applica la classe `whatsapp-on-dark` se il contesto non è già riconosciuto dagli stili globali.
