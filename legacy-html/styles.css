@@ -66,6 +66,12 @@ footer{background:#111920;color:#fff;padding:45px 0}.footer-grid{display:flex;ju
 /* Teacher profiles */
 .teachers-section{background:#fffaf4;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .teachers-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+
+/* Language selector: compact flag trigger, complete language names in the menu. */
+.language-switcher summary{min-height:0;padding:4px;border:0;border-radius:0;background:transparent;box-shadow:none;gap:0}
+.language-switcher .language-current,.language-switcher .language-chevron{display:none}
+.language-switcher .language-flag{font-size:1.45rem}
+@media(max-width:900px){.nav-wrap{grid-template-columns:minmax(0,1fr) auto auto}.language-switcher{grid-column:2;grid-row:1;width:auto;margin:0}.language-switcher summary{justify-content:center}.menu-button{grid-column:3;grid-row:1}.language-options{position:absolute;right:0;top:calc(100% + 8px);width:min(340px,calc(100vw - 26px));margin-top:0;grid-template-columns:repeat(2,minmax(135px,1fr));box-shadow:var(--shadow)}}
 .teacher-card{display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 12px 28px rgba(35,29,23,.06)}
 .teacher-card img{display:block;width:150px;height:150px;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:center 25%;background:var(--soft)}
 .teacher-card h3{font-family:Georgia,serif;font-size:1.6rem;line-height:1.08;margin:4px 0 10px}
