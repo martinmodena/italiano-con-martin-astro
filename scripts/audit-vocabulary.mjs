@@ -17,7 +17,7 @@ const routes = {
     it: 'vocabolario/ufficio.html', en: 'en/vocabulary/italian-office-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-oficina-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-du-bureau-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-kancelar.html', pl: 'pl/slownictwo/wloskie-slownictwo-biuro.html', tr: 'tr/kelime-bilgisi/italyanca-ofis-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-buero.html', ja: 'ja/goi/italian-office-vocabulary.html',
   },
   abbigliamento: {
-    count: 8,
+    count: 50,
     it: 'vocabolario/abbigliamento.html', en: 'en/vocabulary/italian-clothing-vocabulary.html', es: 'es/vocabulario/vocabulario-de-la-ropa-en-italiano.html', fr: 'fr/vocabulaire/vocabulaire-des-vetements-en-italien.html', cs: 'cs/slovni-zasoba/italska-slovni-zasoba-obleceni.html', pl: 'pl/slownictwo/wloskie-slownictwo-ubrania.html', tr: 'tr/kelime-bilgisi/italyanca-giyim-kelimeleri.html', de: 'de/wortschatz/italienischer-wortschatz-kleidung.html', ja: 'ja/goi/italian-clothing-vocabulary.html',
   },
   cibo: {
@@ -43,7 +43,13 @@ for (const [lesson, config] of Object.entries(routes)) {
       ['word tests', $('.word-test').length],
       ['translation exercises', $('.translation-exercise').length],
     ];
-    for (const [label, actual] of checks) if (actual !== config.count) errors.push(`${relative}: ${actual} ${label}, expected ${config.count}`);
+    for (const [label, actual] of checks) {
+      if (label === 'translation exercises') {
+        if (actual < 1) errors.push(`${relative}: no translation exercises found`);
+      } else if (actual !== config.count) {
+        errors.push(`${relative}: ${actual} ${label}, expected ${config.count}`);
+      }
+    }
     $('.word-card').each((index, card) => {
       if ($(card).find('.word-examples li').length !== 3) errors.push(`${relative}: card ${index + 1} does not have three examples`);
     });

@@ -126,6 +126,10 @@ const storyDirectoryLabels = {
   de: 'Alle Geschichten',
   ja: 'すべての物語',
 };
+const readingDirectoryLabels = {
+  it: 'Tutte le letture', en: 'All readings', es: 'Todas las lecturas', fr: 'Toutes les lectures',
+  cs: 'Všechna čtení', pl: 'Wszystkie czytanki', tr: 'Tüm okumalar', de: 'Alle Lesetexte', ja: 'すべての読み物',
+};
 const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar', vocabolario: 'vocabulary' };
 const slugOverrides = {
   en: {
@@ -544,6 +548,7 @@ function localizeDocument(source, context) {
   const $ = cheerio.load(source, { decodeEntities: false });
   normalizeDocument($);
   if (category === 'favole' && isIndex) ensureEmperorStoryTile($);
+  if (category === 'letture' && isIndex) ensureMilkReadingTile($, language);
   if (category === 'vocabolario') $('.word-test-actions,.word-test-solution').remove();
   const sourceTitle = cleanText($('h1').first().text());
   $('html').attr('lang', language);
@@ -556,7 +561,7 @@ function localizeDocument(source, context) {
     updateGrammarBreadcrumb($, context, grammarHeading);
   }
   restoreItalianStudyHeadings($, source, category);
-  addStoryDirectory($, category, language, isIndex);
+  addResourceDirectory($, category, language, isIndex);
   const title = cleanText($('h1').first().text());
   const canonical = `${siteUrl}/${targetRelative.replace('index.html', '')}`;
   const level = context.level ? ` ${context.level.toUpperCase()}` : '';
@@ -666,8 +671,8 @@ function restoreItalianStudyHeadings($, source, category) {
   });
 }
 
-function addStoryDirectory($, category, language, isIndex) {
-  if (!isIndex || category !== 'favole') return;
+function addResourceDirectory($, category, language, isIndex) {
+  if (!isIndex || !['favole', 'letture'].includes(category)) return;
   $('.resource-directory').remove();
   const stories = $('.story-list .story-tile')
     .map((_, element) => ({
@@ -677,11 +682,20 @@ function addStoryDirectory($, category, language, isIndex) {
     .get()
     .filter(({ href, title }) => href && title);
   if (!stories.length) return;
-  const label = `${storyDirectoryLabels[language]} (${stories.length})`;
+  const label = `${category === 'favole' ? storyDirectoryLabels[language] : readingDirectoryLabels[language]} (${stories.length})`;
   const links = stories.map(({ href, title }) => `<a href="${escapeHtml(href)}">${escapeHtml(title)}</a>`).join('');
   $('.page-intro .container').append(
     `<nav class="resource-directory" aria-label="${escapeHtml(label)}"><strong>${escapeHtml(label)}</strong><div>${links}</div></nav>`
   );
+}
+
+function ensureMilkReadingTile($, language) {
+  const list = $('.story-list').first();
+  if (!list.length || list.find('a[href$="latte-materno.html"],a[href$="breast-milk.html"],a[href$="lait-maternel.html"]').length) return;
+  const category = language === 'it' ? 'latte-materno.html' : language === 'en' ? 'breast-milk.html' : language === 'fr' ? 'lait-maternel.html' : language === 'es' ? 'leche-materna.html' : language === 'de' ? 'muttermilch.html' : language === 'pl' ? 'mleko-z-piersi.html' : language === 'tr' ? 'anne-sutu.html' : language === 'cs' ? 'materske-mleko.html' : '母乳.html';
+  const title = { it: 'Il latte materno', en: 'Breast milk', es: 'La leche materna', fr: 'Le lait maternel', cs: 'Mateřské mléko', pl: 'Mleko z piersi', tr: 'Anne sütü', de: 'Muttermilch', ja: '母乳' }[language];
+  const summary = { it: 'Come cambia il latte materno e che cos’è il colostro.', en: 'How breast milk changes and what colostrum is.', es: 'Cómo cambia la leche materna y qué es el calostro.', fr: 'Comment le lait maternel change et ce qu’est le colostrum.', cs: 'Jak se mateřské mléko mění a co je kolostrum.', pl: 'Jak zmienia się mleko matki i czym jest siara.', tr: 'Anne sütünün nasıl değiştiği ve kolostrumun ne olduğu.', de: 'Wie sich Muttermilch verändert und was Kolostrum ist.', ja: '母乳の変化と初乳について。' }[language];
+  list.append(`<a class="story-tile" href="${category}"><img src="../assets/reading-latte-materno.webp" alt="${escapeHtml(title)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">Scienza - A1-C1</span><h2>${escapeHtml(title)}</h2><p>${escapeHtml(summary)}</p><strong>Leggi l’articolo →</strong></a>`);
 }
 
 function ensureEmperorStoryTile($) {
@@ -770,12 +784,13 @@ function updateItalianAlternates() {
     const $ = cheerio.load(source, { decodeEntities: false });
     normalizeDocument($);
     if (category === 'favole' && isIndex) ensureEmperorStoryTile($);
+    if (category === 'letture' && isIndex) ensureMilkReadingTile($, 'it');
     if (category === 'vocabolario') $('.word-test-actions,.word-test-solution').remove();
     $('link[rel="alternate"]').remove();
     $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
     $('.language-switcher').replaceWith(italianLanguageSelector(sourceRelative, category, isIndex));
     ensureVocabularyNavigation($, 'it');
-    addStoryDirectory($, category, 'it', isIndex);
+    addResourceDirectory($, category, 'it', isIndex);
     if (!isIndex) {
       const parts = sourceRelative.split('/');
       addPdfLinks($, {

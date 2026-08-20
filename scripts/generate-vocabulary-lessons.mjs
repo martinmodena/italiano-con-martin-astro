@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
@@ -12,7 +12,7 @@ const lessons = [
     slug: 'abbigliamento',
     title: 'L’abbigliamento',
     seoTitle: 'Vocabolario dell’abbigliamento in italiano | Italiano con Martin',
-    description: 'Impara 8 parole italiane dell’abbigliamento con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
+    description: 'Impara 50 parole italiane dell’abbigliamento con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
     lead: 'Apri l’armadio e scopri ogni parola attraverso un’immagine e tre frasi italiane d’esempio.',
     heroAlt: 'Abbigliamento illustrato con maglietta, camicia, pantaloni, gonna, vestito, giacca, scarpe e cappello',
     words: [
@@ -24,6 +24,48 @@ const lessons = [
       ['giacca', 'la giacca', 'Una giacca', ['Metto la giacca perché fa fresco.', 'La giacca ha due tasche.', 'Appendo la giacca.'], ['giacca', 'la giacca']],
       ['scarpe', 'le scarpe', 'Un paio di scarpe', ['Mi metto le scarpe.', 'Le scarpe sono sotto il letto.', 'Queste scarpe sono comode.'], ['scarpe', 'le scarpe']],
       ['cappello', 'il cappello', 'Un cappello', ['Porto un cappello al mare.', 'Il cappello protegge dal sole.', 'Tolgo il cappello quando entro.'], ['cappello', 'il cappello']],
+      ['cappotto', 'il cappotto', 'Un cappotto', ['Indosso il cappotto quando fa freddo.', 'Il cappotto è appeso all’ingresso.', 'Questo cappotto è molto caldo.'], ['cappotto', 'il cappotto']],
+      ['impermeabile', 'l’impermeabile', 'Un impermeabile', ['Metto l’impermeabile quando piove.', 'L’impermeabile è leggero.', 'Il cappuccio dell’impermeabile protegge la testa.'], ['impermeabile', 'l’impermeabile', "l'impermeabile"]],
+      ['maglione', 'il maglione', 'Un maglione', ['In inverno porto un maglione.', 'Il maglione è di lana.', 'Questo maglione è morbido.'], ['maglione', 'il maglione']],
+      ['felpa', 'la felpa', 'Una felpa', ['La felpa ha un cappuccio.', 'Indosso una felpa comoda.', 'La felpa è nell’armadio.'], ['felpa', 'la felpa']],
+      ['cardigan', 'il cardigan', 'Un cardigan', ['Il cardigan è aperto davanti.', 'Metto un cardigan sopra la camicia.', 'Questo cardigan è elegante.'], ['cardigan', 'il cardigan']],
+      ['gilet', 'il gilet', 'Un gilet', ['Il gilet fa parte del completo.', 'Indosso un gilet sopra la camicia.', 'Il gilet ha tre bottoni.'], ['gilet', 'il gilet']],
+      ['blusa', 'la blusa', 'Una blusa', ['La blusa è di seta.', 'Licia indossa una blusa chiara.', 'Stiro la blusa con attenzione.'], ['blusa', 'la blusa']],
+      ['polo', 'la polo', 'Una polo', ['La polo ha il colletto.', 'Indosso una polo per la partita.', 'La polo è a righe.'], ['polo', 'la polo', 'maglietta polo']],
+      ['canottiera', 'la canottiera', 'Una canottiera', ['In estate porto una canottiera.', 'La canottiera è di cotone.', 'Lavo la canottiera a mano.'], ['canottiera', 'la canottiera']],
+      ['body', 'il body', 'Un body', ['Il body è comodo sotto la gonna.', 'Questo body è nero.', 'Il body si chiude tra le gambe.'], ['body', 'il body']],
+      ['tuta', 'la tuta', 'Una tuta', ['Indosso la tuta per fare sport.', 'La tuta è morbida.', 'La tuta è composta da giacca e pantaloni.'], ['tuta', 'la tuta']],
+      ['jeans', 'i jeans', 'Un paio di jeans', ['I jeans sono blu.', 'Porto i jeans ogni giorno.', 'Questi jeans sono troppo stretti.'], ['jeans', 'i jeans']],
+      ['shorts', 'gli shorts', 'Un paio di shorts', ['In estate indosso gli shorts.', 'Gli shorts sono corti.', 'Metto gli shorts nella valigia.'], ['shorts', 'gli shorts', 'pantaloncini', 'i pantaloncini']],
+      ['pantaloncini', 'i pantaloncini', 'Un paio di pantaloncini', ['I pantaloncini sono adatti alla spiaggia.', 'Indosso i pantaloncini per correre.', 'Questi pantaloncini hanno una tasca.'], ['pantaloncini', 'i pantaloncini', 'shorts', 'gli shorts']],
+      ['leggings', 'i leggings', 'Un paio di leggings', ['I leggings sono elastici.', 'Indosso i leggings per la palestra.', 'I leggings sono neri.'], ['leggings', 'i leggings']],
+      ['tuta da sci', 'la tuta da sci', 'Una tuta da sci', ['La tuta da sci protegge dal freddo.', 'Indosso la tuta da sci in montagna.', 'La tuta da sci è impermeabile.'], ['tuta da sci', 'la tuta da sci']],
+      ['pigiama', 'il pigiama', 'Un pigiama', ['Metto il pigiama prima di dormire.', 'Il pigiama è a righe.', 'Lavo il pigiama ogni settimana.'], ['pigiama', 'il pigiama']],
+      ['vestaglia', 'la vestaglia', 'Una vestaglia', ['La vestaglia è appesa in bagno.', 'Indosso la vestaglia al mattino.', 'La vestaglia è calda.'], ['vestaglia', 'la vestaglia']],
+      ['costume da bagno', 'il costume da bagno', 'Un costume da bagno', ['Metto il costume da bagno in valigia.', 'Il costume da bagno è blu.', 'Indosso il costume da bagno in piscina.'], ['costume da bagno', 'il costume da bagno']],
+      ['costume-intero', 'il costume intero', 'Un costume intero', ['Lei indossa un costume intero.', 'Il costume intero è nero.', 'Compro un costume intero per il mare.'], ['costume intero', 'il costume intero', 'costume da bagno intero da donna']],
+      ['bikini', 'il bikini', 'Un bikini', ['Licia porta un bikini in spiaggia.', 'Il bikini è nella borsa.', 'Questo bikini ha due colori.'], ['bikini', 'il bikini']],
+      ['accappatoio', 'l’accappatoio', 'Un accappatoio', ['Dopo la doccia indosso l’accappatoio.', 'L’accappatoio è morbido.', 'Appendo l’accappatoio in bagno.'], ['accappatoio', 'l’accappatoio', "l'accappatoio"]],
+      ['calze', 'le calze', 'Un paio di calze', ['Indosso le calze con le scarpe.', 'Le calze sono nel cassetto.', 'Queste calze sono di lana.'], ['calze', 'le calze', 'calzini', 'i calzini']],
+      ['calzini', 'i calzini', 'Un paio di calzini', ['I calzini sono spaiati.', 'Metto i calzini prima delle scarpe.', 'Lavo i calzini in lavatrice.'], ['calzini', 'i calzini', 'calze', 'le calze']],
+      ['collant', 'i collant', 'Un paio di collant', ['Indosso i collant con la gonna.', 'I collant sono delicati.', 'I collant sono color carne.'], ['collant', 'i collant', 'calze collant']],
+      ['autoreggenti', 'le autoreggenti', 'Un paio di autoreggenti', ['Le autoreggenti restano su grazie alla fascia.', 'Le autoreggenti sono nel cassetto.', 'Queste autoreggenti sono nere.'], ['autoreggenti', 'le autoreggenti']],
+      ['reggiseno', 'il reggiseno', 'Un reggiseno', ['Il reggiseno è nel cassetto.', 'Compro un reggiseno nuovo.', 'Il reggiseno è della misura giusta.'], ['reggiseno', 'il reggiseno']],
+      ['mutande', 'le mutande', 'Un paio di mutande', ['Le mutande sono nel cassetto.', 'Preparo le mutande per il viaggio.', 'Lavo le mutande a bassa temperatura.'], ['mutande', 'le mutande', 'slip', 'gli slip']],
+      ['cintura', 'la cintura', 'Una cintura', ['La cintura tiene su i pantaloni.', 'Questa cintura è di pelle.', 'Allaccio la cintura.'], ['cintura', 'la cintura']],
+      ['cravatta', 'la cravatta', 'Una cravatta', ['Lui indossa una cravatta rossa.', 'La cravatta è stretta bene.', 'Scelgo una cravatta per il colloquio.'], ['cravatta', 'la cravatta']],
+      ['papillon', 'il papillon', 'Un papillon', ['Il papillon è elegante.', 'Indosso il papillon con lo smoking.', 'Il papillon è nero.'], ['papillon', 'il papillon']],
+      ['sciarpa', 'la sciarpa', 'Una sciarpa', ['Avvolgo la sciarpa intorno al collo.', 'La sciarpa è di lana.', 'Questa sciarpa è colorata.'], ['sciarpa', 'la sciarpa']],
+      ['guanti', 'i guanti', 'Un paio di guanti', ['Metto i guanti quando fa freddo.', 'I guanti sono di pelle.', 'Ho perso un guanto.'], ['guanti', 'i guanti']],
+      ['orecchini', 'gli orecchini', 'Un paio di orecchini', ['Licia porta gli orecchini.', 'Gli orecchini sono d’argento.', 'Tolgo gli orecchini prima di dormire.'], ['orecchini', 'gli orecchini']],
+      ['collana', 'la collana', 'Una collana', ['La collana è un regalo.', 'Indosso una collana semplice.', 'La collana è d’oro.'], ['collana', 'la collana']],
+      ['braccialetto', 'il braccialetto', 'Un braccialetto', ['Il braccialetto è al polso.', 'Questo braccialetto è colorato.', 'Mi hanno regalato un braccialetto.'], ['braccialetto', 'il braccialetto']],
+      ['anello', 'l’anello', 'Un anello', ['Porto un anello d’argento.', 'L’anello è sul dito.', 'Questo anello è troppo grande.'], ['anello', 'l’anello', "l'anello"]],
+      ['occhiali da sole', 'gli occhiali da sole', 'Un paio di occhiali da sole', ['Metto gli occhiali da sole al mare.', 'Gli occhiali da sole proteggono gli occhi.', 'Ho dimenticato gli occhiali da sole.'], ['occhiali da sole', 'gli occhiali da sole']],
+      ['borsa', 'la borsa', 'Una borsa', ['La borsa è sulla sedia.', 'Metto il portafoglio nella borsa.', 'Questa borsa è capiente.'], ['borsa', 'la borsa']],
+      ['zaino', 'lo zaino', 'Uno zaino', ['Porto lo zaino a scuola.', 'Lo zaino è pesante.', 'Metto il quaderno nello zaino.'], ['zaino', 'lo zaino']],
+      ['portafoglio', 'il portafoglio', 'Un portafoglio', ['Il portafoglio è nella borsa.', 'Ho perso il portafoglio.', 'Il portafoglio contiene le carte.'], ['portafoglio', 'il portafoglio']],
+      ['stivali', 'gli stivali', 'Un paio di stivali', ['In inverno porto gli stivali.', 'Gli stivali sono impermeabili.', 'Pulisco gli stivali dopo la passeggiata.'], ['stivali', 'gli stivali']],
     ],
     translations: [
       ['I am wearing a white T-shirt.', 'Indosso una maglietta bianca.'],
@@ -123,6 +165,8 @@ const lessons = [
 ];
 
 const escapeAttribute = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+const assetFallbacks = { cappotto: 'giacca', impermeabile: 'giacca', maglione: 'giacca', felpa: 'giacca', cardigan: 'giacca', gilet: 'giacca', blusa: 'camicia', polo: 'maglietta', canottiera: 'maglietta', body: 'maglietta', tuta: 'pantaloni', jeans: 'pantaloni', shorts: 'pantaloni', pantaloncini: 'pantaloni', leggings: 'pantaloni', 'tuta da sci': 'pantaloni', pigiama: 'vestito', vestaglia: 'vestito', 'costume da bagno': 'vestito', 'costume-intero': 'vestito', bikini: 'vestito', accappatoio: 'vestito', calze: 'calzini', collant: 'calzini', autoreggenti: 'calze', reggiseno: 'maglietta', mutande: 'pantaloni', cintura: 'giacca', cravatta: 'camicia', papillon: 'camicia', sciarpa: 'cappello', guanti: 'cappello', orecchini: 'cappello', collana: 'cappello', braccialetto: 'cappello', anello: 'cappello', 'occhiali da sole': 'cappello', borsa: 'cappello', zaino: 'cappello', portafoglio: 'cappello', stivali: 'scarpe' };
+const imageFor = (slug) => existsSync(path.join(siteRoot, 'assets', 'vocabolario', `${slug}.webp`)) ? slug : (assetFallbacks[slug] || 'abbigliamento-hero');
 
 for (const lesson of lessons) {
   const $ = cheerio.load(template, { decodeEntities: false });
@@ -142,7 +186,7 @@ for (const lesson of lessons) {
 
   $('.word-grid').html(
     lesson.words.map(([image, word, alt, examples]) => `<article class="word-card">
-      <img src="../assets/vocabolario/${image}.webp" alt="${escapeAttribute(alt)}" loading="lazy" decoding="async">
+      <img src="../assets/vocabolario/${imageFor(image)}.webp" alt="${escapeAttribute(alt)}" loading="lazy" decoding="async">
       <div class="word-card-body"><h2>${word}</h2><div class="word-examples"><strong>3 frasi d’esempio</strong><ol>
         ${examples.map((example) => `<li><span lang="it">${example}</span></li>`).join('')}
       </ol></div><button class="speak-word" data-word="${escapeAttribute(word)}" type="button">🔊 Ascolta</button></div>
@@ -157,7 +201,7 @@ for (const lesson of lessons) {
   $('#word-progress').attr({ max: String(lesson.words.length), value: '0' }).text('0%');
   $('.word-tests').html(
     lesson.words.map(([image, , , , answers], index) => `<article class="word-test" data-answer="${escapeAttribute(JSON.stringify(answers))}" data-key="${index + 1}">
-      <img src="../assets/vocabolario/${image}.webp" alt="Oggetto da riconoscere: esercizio ${index + 1}" loading="lazy" decoding="async">
+      <img src="../assets/vocabolario/${imageFor(image)}.webp" alt="Oggetto da riconoscere: esercizio ${index + 1}" loading="lazy" decoding="async">
       <div class="word-test-body"><span class="test-number">${index + 1}</span><label for="word-test-${index + 1}">Scrivi la parola in italiano</label><input id="word-test-${index + 1}" type="text" autocomplete="off" spellcheck="true" placeholder="La parola…"><p class="word-test-feedback" aria-live="polite"></p></div>
     </article>`).join('')
   );
