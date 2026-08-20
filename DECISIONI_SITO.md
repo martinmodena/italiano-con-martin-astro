@@ -101,3 +101,8 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - La sitemap deve essere XML valido con una sola dichiarazione, URL univoci e soltanto pagine canoniche indicizzabili.
 - Ogni canonical deve coincidere con il percorso pubblico della pagina e ogni redirect deve puntare a una pagina canonica esistente.
 - L'audit deve fallire in caso di prefisso lingua incoerente, canonical duplicato, redirect presente in sitemap o URL sitemap privo di pagina canonica.
+
+## 2026-08-20 - Coerenza del menu
+
+- L'header di ogni pagina italiana deve mantenere lo stesso ordine: marchio “Italiano con Martin”, selettore lingua, quindi Grammatica, Letture, Vocabolario e Chi siamo.
+- Le pagine delle risorse non devono invertire marchio e selettore lingua: l'ordine uniforme evita spostamenti visivi tra una pagina e l'altra.
