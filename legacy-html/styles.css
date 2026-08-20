@@ -93,3 +93,6 @@ a[href*="wa.me"]::before{content:"";display:inline-block;width:1.05em;height:1.0
 a[href*="wa.me"]{--whatsapp-icon:#25D366}
 a[href*="wa.me"]::before{background:var(--whatsapp-icon)}
 .whatsapp-on-dark[href*="wa.me"],.conversion-card a[href*="wa.me"],.teacher-cta-links a[href*="wa.me"],a.button.primary[href*="wa.me"]{--whatsapp-icon:#fff}
+
+/* One desktop header rhythm on every page, independent of page content. */
+@media(min-width:901px){.site-header .nav-wrap{height:88px;min-height:88px}}

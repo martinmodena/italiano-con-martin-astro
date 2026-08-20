@@ -122,3 +122,8 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - L'icona WhatsApp usa sempre il verde ufficiale `#25D366` quando il collegamento è su uno sfondo chiaro.
 - Su pulsanti o aree con sfondo scuro o colorato, l'icona passa al bianco per mantenere il contrasto; si applica la classe `whatsapp-on-dark` se il contesto non è già riconosciuto dagli stili globali.
+
+## 2026-08-20 - Altezza coerente dell'header
+
+- L'header desktop deve avere sempre altezza `88px`, in home, indici, articoli e pagine localizzate; contenuti e stili locali non possono modificarne l’altezza.
+- Tutte le pagine condividono gli stessi stili globali dell’header; una nuova versione del CSS rende la correzione visibile non appena scade la cache esistente.
