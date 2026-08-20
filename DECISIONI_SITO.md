@@ -134,6 +134,7 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - I collant neri sono mostrati aperti e verticali, dalla vita ai piedi, mai piegati o arrotolati.
 - Questi quattro asset sono immagini WebP trasparenti di `720 × 720 px`, ottimizzate per le card e gli esercizi: ogni file deve rimanere ben al di sotto del limite generale di 400 KB.
 - Il bikini è un set completo isolato, senza modella: tessuto blu navy a coste con profili avorio coordinati su top e slip, anch’esso in WebP trasparente `720 × 720 px` ottimizzato.
+- I leggings sono sportivi fucsia, a vita alta e lunghezza alla caviglia, isolati senza persona; usano WebP trasparente `720 × 720 px` ottimizzato.
 
 ## 2026-08-20 - Risposte alle domande nelle letture
 
