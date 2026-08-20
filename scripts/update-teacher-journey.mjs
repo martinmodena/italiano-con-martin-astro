@@ -410,6 +410,7 @@ function updatePage(file) {
   if (footerLinks.length && !footerVocabularyLinks.length)
     footerLinks.append(`<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`);
   footerLinks.append(`<a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a>`);
+  normalizeNavigation($, language, aboutHref, isAboutPage);
 
   const conversion = $('.conversion-section').first();
   if (isHomePage && $('.teachers-section').length) {
@@ -484,6 +485,73 @@ function updateSitemap() {
 function serialize($) {
   const document = $.html().replace(/^(?:\s*<!doctype html>\s*)+/i, '');
   return `<!doctype html>\n${document}`;
+}
+
+function normalizeNavigation($, language, aboutHref, isAboutPage) {
+  const t = copy[language];
+  const desired = [
+    { key: 'grammar', href: categories[language].grammar, label: t.grammar },
+    { key: 'readings', href: categories[language].readings, label: t.readings },
+    { key: 'vocabulary', href: categories[language].vocabulary, label: t.vocabulary },
+    { key: 'about', href: aboutHref, label: t.about },
+  ];
+
+  const route = (value) => String(value || '').split('#')[0].replace(/^((\.\.\/)+|\.?\/)+/, '').replace(/^\/+/, '');
+  const matches = (href, target) => {
+    const current = route(href);
+    const expected = route(target);
+    return current === expected || current.endsWith(`/${expected}`);
+  };
+
+  const rebuild = (container, preserveExtras) => {
+    if (!container.length) return;
+    const existing = container.find('a').toArray();
+    const used = new Set();
+    const ordered = [];
+    for (const item of desired) {
+      let index = existing.findIndex((element, position) => {
+        if (used.has(position)) return false;
+        const link = $(element);
+        return item.key === 'about' ? link.hasClass('about-link') || matches(link.attr('href'), item.href) : matches(link.attr('href'), item.href);
+      });
+      let link;
+      if (index >= 0) {
+        used.add(index);
+        link = $(existing[index]).clone();
+        $(existing[index]).remove();
+      } else {
+        link = $('<a></a>');
+      }
+      link.attr('href', item.href).text(item.label);
+      if (item.key === 'about') {
+        link.addClass('about-link');
+        if (isAboutPage) link.attr('aria-current', 'page');
+        else link.removeAttr('aria-current');
+      } else {
+        link.removeClass('about-link').removeAttr('aria-current');
+      }
+      ordered.push(link);
+    }
+    if (preserveExtras) {
+      existing.forEach((element, index) => {
+        const link = $(element);
+        const isKnown = desired.some((item) => item.key === 'about' ? link.hasClass('about-link') || matches(link.attr('href'), item.href) : matches(link.attr('href'), item.href));
+        if (!used.has(index) && !isKnown) {
+          ordered.push(link.clone());
+          link.remove();
+        }
+      });
+    }
+    container.empty().append(ordered);
+  };
+
+  let nav = $('.site-header nav').first();
+  if (!nav.length && $('.nav-wrap').length) {
+    $('.nav-wrap').first().append('<nav></nav>');
+    nav = $('.site-header nav').first();
+  }
+  rebuild(nav, false);
+  rebuild($('.footer-grid > div:last-child').first(), true);
 }
 
 function applyImagePerformanceHints($) {
