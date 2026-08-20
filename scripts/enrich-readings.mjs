@@ -237,7 +237,7 @@ function renderPage(page) {
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="../"><img class="brand-avatar" src="../assets/martin-photo.svg" alt="Martin"><span>Italiano con Martin</span></a>
-    <nav><a href="../letture/">Letture</a><a href="../grammatica/">Grammatica</a><a class="nav-cta" href="https://preply.com/it/tutor/5086125" target="_blank" rel="noopener">Prenota su Preply</a></nav>
+    <nav><a href="../letture/">Letture</a><a href="../grammatica/">Grammatica</a></nav>
   </div>
 </header>
 <main>
