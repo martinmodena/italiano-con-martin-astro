@@ -363,10 +363,25 @@ function updatePage(file) {
   const depth = relative.split('/').length - 1;
   const assetPrefix = '../'.repeat(depth);
 
+  // A newly added reading may use a minimal header/footer. Bring it up to the
+  // same accessible navigation contract as every other generated page.
+  if (!$('.language-switcher').length) {
+    const current = $('html').attr('lang') || language;
+    const options = Object.entries(copy).map(([code, value]) => {
+      const href = $(`link[rel="alternate"][hreflang="${code}"]`).attr('href') || (code === language ? `/${relative}` : `/${code}/`);
+      return `<a href="${href}" hreflang="${code}" lang="${code}"${code === current ? ' aria-current="page"' : ''}><span aria-hidden="true">${value.flag}</span><span>${escapeHtml(value.languageName)}</span></a>`;
+    }).join('');
+    const selector = `<details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${copy[current]?.flag || copy[language].flag}</span><span class="language-current">${escapeHtml(copy[current]?.languageName || copy[language].languageName)}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${options}</div></details>`;
+    $('.nav-wrap').first().prepend(selector);
+  }
+
   if (!$('footer').length && $('main').length) {
     $('main').after(
       `<footer><div class="container footer-grid"><div><strong>Italiano con Martin</strong><p>${escapeHtml(copy[language].footer)}</p></div><div><a href="${categories[language].readings}">${escapeHtml(copy[language].readings)}</a><a href="${categories[language].grammar}">${escapeHtml(copy[language].grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(copy[language].vocabulary)}</a></div></div></footer>`
     );
+  }
+  if (!$('footer .footer-grid').length && $('footer').length) {
+    $('footer').replaceWith(`<footer><div class="container footer-grid"><div><strong>Italiano con Martin</strong><p>${escapeHtml(copy[language].footer)}</p></div><div><a href="${categories[language].readings}">${escapeHtml(copy[language].readings)}</a><a href="${categories[language].grammar}">${escapeHtml(copy[language].grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(copy[language].vocabulary)}</a><a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a></div></div></footer>`);
   }
 
   $('.site-header nav .about-link, footer .about-link').remove();
