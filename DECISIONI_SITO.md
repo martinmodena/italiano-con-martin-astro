@@ -127,3 +127,9 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - L'header desktop deve avere sempre altezza `88px`, in home, indici, articoli e pagine localizzate; contenuti e stili locali non possono modificarne l’altezza.
 - Tutte le pagine condividono gli stessi stili globali dell’header; una nuova versione del CSS rende la correzione visibile non appena scade la cache esistente.
+
+## 2026-08-20 - Immagini della sezione Abbigliamento
+
+- Il costume intero mostra un modello sportivo fucsia con spalline incrociate; il reggiseno nero con coppe modellate e le mutande nere fanno parte dello stesso coordinato visivo.
+- I collant neri sono mostrati aperti e verticali, dalla vita ai piedi, mai piegati o arrotolati.
+- Questi quattro asset sono immagini WebP trasparenti di `720 × 720 px`, ottimizzate per le card e gli esercizi: ogni file deve rimanere ben al di sotto del limite generale di 400 KB.
