@@ -145,3 +145,9 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 
 - La lettura sul latte materno è un contenuto informativo e didattico autonomo: non deve citare, collegare o presentare jw.org come fonte di riferimento.
 - La nota finale descrive lo scopo educativo e il limite sanitario del contenuto; la stessa regola vale per tutte le versioni linguistiche della lettura.
+
+## 2026-08-20 - Bandiere nel selettore della lingua
+
+- Il selettore nell'header mostra la bandiera SVG della lingua corrente, non una sigla testuale o un'emoji che possa trasformarsi in lettere a seconda del sistema operativo.
+- Nel menu a tendina ogni lingua è preceduta dalla stessa bandierina; il nome completo della lingua resta visibile per chiarezza.
+- Le bandiere sono asset locali, leggeri e comuni a tutte le pagine, così il comportamento resta identico in ogni versione del sito.
