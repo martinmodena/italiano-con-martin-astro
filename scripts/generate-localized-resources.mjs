@@ -3,6 +3,9 @@ import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { grammarSeoSlugs } from './grammar-seo-slugs.mjs';
 import { grammarSeoTitles } from './grammar-seo-titles.mjs';
+import { vocabularyReviewedTranslations } from './vocabulary-reviewed-translations.mjs';
+import { vocabularyMoreReviewedTranslations } from './vocabulary-more-reviewed-translations.mjs';
+import { emperorStoryTranslations } from './emperor-story-translations.mjs';
 
 const root = process.cwd();
 const siteRoot = path.join(root, 'legacy-html');
@@ -128,26 +131,41 @@ const slugOverrides = {
   en: {
     'verbo-essere': 'verb-to-be',
     cucina: 'italian-kitchen-vocabulary',
+    abbigliamento: 'italian-clothing-vocabulary',
+    cibo: 'italian-food-vocabulary',
+    salotto: 'italian-living-room-vocabulary',
+    ufficio: 'italian-office-vocabulary',
     'il-sonar-del-delfino': 'dolphin-sonar',
     'il-cane-e-losso': 'the-dog-and-the-bone',
+    'i-vestiti-nuovi-dellimperatore': 'the-emperors-new-clothes',
   },
   es: {
     'verbo-essere': 'verbo-ser',
     cucina: 'vocabulario-cocina-italiano',
+    abbigliamento: 'vocabulario-de-la-ropa-en-italiano',
+    cibo: 'vocabulario-de-la-comida-en-italiano',
+    salotto: 'vocabulario-del-salon-en-italiano',
+    ufficio: 'vocabulario-de-la-oficina-en-italiano',
     'il-sonar-del-delfino': 'el-sonar-del-delfin',
     'il-cane-e-losso': 'el-perro-y-el-hueso',
+    'i-vestiti-nuovi-dellimperatore': 'los-vestidos-nuevos-del-emperador',
   },
   fr: {
     'verbo-essere': 'verbe-etre',
     cucina: 'vocabulaire-cuisine-italien',
+    abbigliamento: 'vocabulaire-des-vetements-en-italien',
+    cibo: 'vocabulaire-de-la-nourriture-en-italien',
+    salotto: 'vocabulaire-du-salon-en-italien',
+    ufficio: 'vocabulaire-du-bureau-en-italien',
     'il-sonar-del-delfino': 'le-sonar-du-dauphin',
     'il-cane-e-losso': 'le-chien-et-los',
+    'i-vestiti-nuovi-dellimperatore': 'les-habits-neufs-de-lempereur',
   },
-  cs: { 'verbo-essere': 'sloveso-byt', cucina: 'italska-slovni-zasoba-kuchyne' },
-  pl: { 'verbo-essere': 'czasownik-byc', cucina: 'wloskie-slownictwo-kuchnia' },
-  tr: { 'verbo-essere': 'essere-fiili', cucina: 'italyanca-mutfak-kelimeleri' },
-  de: { 'verbo-essere': 'verb-essere-sein', cucina: 'italienischer-wortschatz-kueche' },
-  ja: { 'verbo-essere': 'essere-doshi', cucina: 'italian-kitchen-vocabulary' },
+  cs: { 'verbo-essere': 'sloveso-byt', 'i-vestiti-nuovi-dellimperatore': 'cisarovy-nove-saty', cucina: 'italska-slovni-zasoba-kuchyne', abbigliamento: 'italska-slovni-zasoba-obleceni', cibo: 'italska-slovni-zasoba-jidlo', salotto: 'italska-slovni-zasoba-obyvaci-pokoj', ufficio: 'italska-slovni-zasoba-kancelar' },
+  pl: { 'verbo-essere': 'czasownik-byc', 'i-vestiti-nuovi-dellimperatore': 'nowe-szaty-cesarza', cucina: 'wloskie-slownictwo-kuchnia', abbigliamento: 'wloskie-slownictwo-ubrania', cibo: 'wloskie-slownictwo-jedzenie', salotto: 'wloskie-slownictwo-salon', ufficio: 'wloskie-slownictwo-biuro' },
+  tr: { 'verbo-essere': 'essere-fiili', 'i-vestiti-nuovi-dellimperatore': 'imparatorun-yeni-giysileri', cucina: 'italyanca-mutfak-kelimeleri', abbigliamento: 'italyanca-giyim-kelimeleri', cibo: 'italyanca-yemek-kelimeleri', salotto: 'italyanca-oturma-odasi-kelimeleri', ufficio: 'italyanca-ofis-kelimeleri' },
+  de: { 'verbo-essere': 'verb-essere-sein', 'i-vestiti-nuovi-dellimperatore': 'des-kaisers-neue-kleider', cucina: 'italienischer-wortschatz-kueche', abbigliamento: 'italienischer-wortschatz-kleidung', cibo: 'italienischer-wortschatz-essen', salotto: 'italienischer-wortschatz-wohnzimmer', ufficio: 'italienischer-wortschatz-buero' },
+  ja: { 'verbo-essere': 'essere-doshi', 'i-vestiti-nuovi-dellimperatore': 'hadaka-no-osama', cucina: 'italian-kitchen-vocabulary', abbigliamento: 'italian-clothing-vocabulary', cibo: 'italian-food-vocabulary', salotto: 'italian-living-room-vocabulary', ufficio: 'italian-office-vocabulary' },
 };
 const preserveSelectors = [
   '.story-text',
@@ -160,6 +178,7 @@ const preserveSelectors = [
   '.translation-prompt strong',
   '.proposed-solution strong',
   '.word-test-solution strong',
+  '.resource-directory',
   '.brand',
   '.language-switcher',
   'body [lang="it"]',
@@ -297,6 +316,9 @@ const grammarSeoHeadings = {
 for (const [language, entries] of Object.entries(reviewedOverrides)) {
   for (const [source, target] of Object.entries(entries)) cache[cacheKey(language, source)] = target;
 }
+for (const [language, entries] of Object.entries(emperorStoryTranslations)) {
+  for (const [source, target] of Object.entries(entries)) cache[cacheKey(language, source)] = target;
+}
 const resources = collectResources();
 const sources = collectSources();
 const routeMaps = {};
@@ -405,6 +427,16 @@ function isTranslatable(text) {
 }
 
 async function translateMissing(strings, language) {
+  strings = strings.filter((text) => {
+    const reviewed = vocabularyReviewedTranslations[language]?.[text] || vocabularyMoreReviewedTranslations[language]?.[text];
+    if (!reviewed) return true;
+    cache[cacheKey(language, text)] = reviewed;
+    return false;
+  });
+  if (process.env.LIST_MISSING_TRANSLATIONS === language) {
+    console.log(JSON.stringify(strings, null, 2));
+    process.exit(0);
+  }
   if (!strings.length) return;
   const batches = [];
   let batch = [];
@@ -511,6 +543,7 @@ function localizeDocument(source, context) {
   const { language, category, sourceRelative, targetRelative, isIndex } = context;
   const $ = cheerio.load(source, { decodeEntities: false });
   normalizeDocument($);
+  if (category === 'favole' && isIndex) ensureEmperorStoryTile($);
   if (category === 'vocabolario') $('.word-test-actions,.word-test-solution').remove();
   const sourceTitle = cleanText($('h1').first().text());
   $('html').attr('lang', language);
@@ -540,6 +573,7 @@ function localizeDocument(source, context) {
     `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': category === 'grammatica' ? 'LearningResource' : 'Article', name: title, url: canonical, inLanguage: language })}</script>`
   );
   $('.language-switcher').replaceWith(languageSelector(sourceRelative, category, language, isIndex));
+  $('.site-header nav .nav-cta').remove();
   rewriteAssets($, targetRelative);
   rewriteInternalLinks($, category, language, sourceRelative);
   if (category === 'grammatica' && isIndex) updateGrammarIndexCards($, language);
@@ -650,6 +684,14 @@ function addStoryDirectory($, category, language, isIndex) {
   );
 }
 
+function ensureEmperorStoryTile($) {
+  const list = $('.story-list').first();
+  if (!list.length || list.find('a[href="i-vestiti-nuovi-dellimperatore.html"]').length) return;
+  list.append(
+    '<a class="story-tile" href="i-vestiti-nuovi-dellimperatore.html"><img src="../assets/story-imperatore-vestiti-card.webp" alt="Un imperatore sfila tra i cortigiani mentre un bambino indica i suoi abiti inesistenti" loading="lazy" width="640" height="360" decoding="async"><span class="badge">A1 · A2 · B1 · B2 · C1</span><h2>I vestiti nuovi dell’imperatore</h2><p>Orgoglio, conformismo e coraggio di dire la verità.</p><strong>Leggi la fiaba completa →</strong></a>'
+  );
+}
+
 function rewriteAssets($, targetRelative) {
   const depth = targetRelative.split('/').length - 1;
   const prefix = '../'.repeat(depth);
@@ -727,6 +769,7 @@ function updateItalianAlternates() {
     const isIndex = path.basename(sourceRelative) === 'index.html';
     const $ = cheerio.load(source, { decodeEntities: false });
     normalizeDocument($);
+    if (category === 'favole' && isIndex) ensureEmperorStoryTile($);
     if (category === 'vocabolario') $('.word-test-actions,.word-test-solution').remove();
     $('link[rel="alternate"]').remove();
     $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
@@ -776,7 +819,12 @@ function updateLocalizedHomes() {
     const $ = cheerio.load(html, { decodeEntities: false });
     const vocabularyHref = `/${language}/${languageData[language].categories.vocabolario}/`;
     const vocabularyLabel = translation(language, 'Vocabolario');
-    if (!$(`.site-header nav a[href="${vocabularyHref}"]`).length) {
+    // Keep exactly one vocabulary link in the primary navigation.  Older
+    // generated pages can contain two identical links after a regeneration;
+    // normalize them before deciding whether a link must be added.
+    const vocabularyLinks = $('.site-header nav').first().find(`a[href="${vocabularyHref}"]`);
+    vocabularyLinks.slice(1).remove();
+    if (!vocabularyLinks.first().length) {
       const link = `<a href="${vocabularyHref}">${escapeHtml(vocabularyLabel)}</a>`;
       const cta = $('.site-header nav .nav-cta').first();
       if (cta.length) cta.before(link);
@@ -795,14 +843,23 @@ function ensureVocabularyNavigation($, language) {
   const href = language === 'it' ? '/vocabolario/' : `/${language}/${languageData[language].categories.vocabolario}/`;
   const label = language === 'it' ? 'Vocabolario' : translation(language, 'Vocabolario');
   const nav = $('.site-header nav').first();
-  if (nav.length && !nav.find(`a[href="${href}"]`).length) {
+  const equivalentLinks = (container) => container.find('a').filter((_, element) => {
+    const current = $(element).attr('href') || '';
+    if (current === href) return true;
+    return language === 'it' && /(?:^|\/)vocabolario\/$/.test(current);
+  });
+  const navLinks = equivalentLinks(nav);
+  navLinks.slice(1).remove();
+  if (nav.length && !navLinks.length) {
     const link = `<a href="${href}">${escapeHtml(label)}</a>`;
     const anchor = nav.find('.about-link,.nav-cta').first();
     if (anchor.length) anchor.before(link);
     else nav.append(link);
   }
   const footer = $('footer .footer-grid > div').last();
-  if (footer.length && !footer.find(`a[href="${href}"]`).length) {
+  const footerLinks = equivalentLinks(footer);
+  footerLinks.slice(1).remove();
+  if (footer.length && !footerLinks.length) {
     const about = footer.find('.about-link').first();
     const link = `<a href="${href}">${escapeHtml(label)}</a>`;
     if (about.length) about.before(link);

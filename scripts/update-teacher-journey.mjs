@@ -371,18 +371,28 @@ function updatePage(file) {
 
   $('.site-header nav .about-link, footer .about-link').remove();
   const nav = $('.site-header nav').first();
-  const navCta = nav.find('.nav-cta').first();
+  nav.find('.nav-cta').remove();
   const vocabularyHref = categories[language].vocabulary;
-  if (nav.length && !nav.find(`a[href="${vocabularyHref}"]`).length) {
+  const equivalentVocabularyLinks = (container) => container.find('a').filter((_, element) => {
+    const current = $(element).attr('href') || '';
+    return current === vocabularyHref || `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref || $(element).text().trim() === copy[language].vocabulary;
+  });
+  const navVocabularyLinks = equivalentVocabularyLinks(nav);
+  navVocabularyLinks.each((index, element) => {
+    if (index > 0) $(element).remove();
+  });
+  if (nav.length && !navVocabularyLinks.length) {
     const vocabularyLink = `<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`;
-    if (navCta.length) navCta.before(vocabularyLink);
-    else nav.append(vocabularyLink);
+    nav.append(vocabularyLink);
   }
   const aboutLink = `<a class="about-link" href="${aboutHref}"${isAboutPage ? ' aria-current="page"' : ''}>${escapeHtml(copy[language].about)}</a>`;
-  if (navCta.length) navCta.before(aboutLink);
-  else nav.append(aboutLink);
+  nav.append(aboutLink);
   const footerLinks = $('.footer-grid > div:last-child');
-  if (footerLinks.length && !footerLinks.find(`a[href="${vocabularyHref}"]`).length)
+  const footerVocabularyLinks = equivalentVocabularyLinks(footerLinks);
+  footerVocabularyLinks.each((index, element) => {
+    if (index > 0) $(element).remove();
+  });
+  if (footerLinks.length && !footerVocabularyLinks.length)
     footerLinks.append(`<a href="${vocabularyHref}">${escapeHtml(copy[language].vocabulary)}</a>`);
   footerLinks.append(`<a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a>`);
 
@@ -430,7 +440,7 @@ function writeAboutPage(language) {
   });
   const html = `<!doctype html>
 <html lang="${language}"><head>${alternates}<link rel="canonical" href="${canonical}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(t.title)} | Italiano con Martin</title><meta name="description" content="${escapeHtml(t.meta)}"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="author" content="Martin Modena"><meta property="og:type" content="website"><meta property="og:site_name" content="Italiano con Martin"><meta property="og:title" content="${escapeHtml(t.title)} | Italiano con Martin"><meta property="og:description" content="${escapeHtml(t.meta)}"><meta property="og:url" content="${canonical}"><meta property="og:image" content="${siteUrl}/assets/social-card.svg"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="${prefix}styles.css"><link rel="icon" href="${prefix}favicon.png" type="image/png"><link rel="apple-touch-icon" href="${prefix}apple-touch-icon.png"><script type="application/ld+json">${schema}</script></head><body>
-<header class="site-header"><div class="container nav-wrap"><a class="brand" href="${homeHref}"><img class="brand-avatar" src="${prefix}assets/martin-photo.svg" alt="Martin" width="48" height="48"><span>Italiano con Martin</span></a><details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${t.flag}</span><span class="language-current">${escapeHtml(t.languageName)}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${languageOptions}</div></details><nav><a href="${categories[language].readings}">${escapeHtml(t.readings)}</a><a href="${categories[language].grammar}">${escapeHtml(t.grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(t.vocabulary)}</a><a class="about-link" href="${route}" aria-current="page">${escapeHtml(t.about)}</a><a class="nav-cta" href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></nav></div></header>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="${homeHref}"><img class="brand-avatar" src="${prefix}assets/martin-photo.svg" alt="Martin" width="48" height="48"><span>Italiano con Martin</span></a><details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${t.flag}</span><span class="language-current">${escapeHtml(t.languageName)}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${languageOptions}</div></details><nav><a href="${categories[language].readings}">${escapeHtml(t.readings)}</a><a href="${categories[language].grammar}">${escapeHtml(t.grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(t.vocabulary)}</a><a class="about-link" href="${route}" aria-current="page">${escapeHtml(t.about)}</a></nav></div></header>
 <main><section class="about-hero"><div class="container"><p class="eyebrow">${escapeHtml(t.eyebrow)}</p><h1>${escapeHtml(t.title)}</h1><p class="lead">${escapeHtml(t.lead)}</p><div class="about-portraits"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="eager" decoding="async" fetchpriority="high"><img src="${prefix}assets/licia-portrait.webp" alt="Licia" width="800" height="800" loading="eager" decoding="async" fetchpriority="high"></div></div></section>
 <section class="about-teachers"><div class="container"><article class="about-teacher"><img src="${prefix}assets/martin-portrait.webp" alt="Martin" width="800" height="1067" loading="lazy" decoding="async"><div><p class="eyebrow">Martin</p><h2>${escapeHtml(t.martinTitle)}</h2><p>${escapeHtml(t.martinText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${martinUrl}" target="_blank" rel="noopener">${escapeHtml(t.martinCta)}</a></div></article><article class="about-teacher"><img src="${prefix}assets/licia-portrait.webp" alt="Licia" width="800" height="800" loading="lazy" decoding="async"><div><p class="eyebrow">Licia</p><h2>${escapeHtml(t.liciaTitle)}</h2><p>${escapeHtml(t.liciaText)}</p><strong class="about-price">${escapeHtml(t.price)}</strong><a class="button primary" href="${liciaUrl}" target="_blank" rel="noopener">${escapeHtml(t.liciaCta)}</a></div></article></div></section>
 <section class="about-contact"><div class="container"><div><p class="eyebrow">WhatsApp</p><h2>${escapeHtml(t.contactTitle)}</h2><p>${escapeHtml(t.contactText)}</p></div><a class="button light final-cta" href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></div></section></main>
