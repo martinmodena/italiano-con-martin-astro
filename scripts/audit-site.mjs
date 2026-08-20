@@ -124,9 +124,21 @@ function collectResources() {
   return result.sort((a, b) => a.relative.localeCompare(b.relative));
 }
 
+function collectMenuResources() {
+  const result = [];
+  for (const category of ['letture', 'favole', 'grammatica', 'vocabolario']) {
+    for (const file of walk(path.join(publicRoot, category))) {
+      if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
+      result.push({ category, relative: path.relative(publicRoot, file).replaceAll('\\', '/') });
+    }
+  }
+  return result.sort((a, b) => a.relative.localeCompare(b.relative));
+}
+
 function inspectIndexCoverage() {
-  for (const category of ['letture', 'favole', 'grammatica']) {
-    const categoryResources = resources.filter((resource) => resource.category === category);
+  const menuResources = collectMenuResources();
+  for (const category of ['letture', 'favole', 'grammatica', 'vocabolario']) {
+    const categoryResources = menuResources.filter((resource) => resource.category === category);
     const italianIndex = path.join(publicRoot, category, 'index.html');
     if (!existsSync(italianIndex)) {
       issues.push(`- MISSING_INDEX_PAGE | it | /${category}/`);
