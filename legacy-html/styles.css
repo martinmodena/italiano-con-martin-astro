@@ -3,6 +3,7 @@
 --green:#116846;--soft:#f4e3d0;--line:#ddcbbd;--dark:#18352e;--cream:#fff7ed;
 --shadow:0 22px 60px rgba(53,39,27,.13);--radius:26px
 }
+.language-switcher summary .language-current{display:none}.language-switcher summary{min-width:42px;justify-content:center;padding-inline:9px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:108px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
 img{max-width:100%}.container{width:min(1120px,calc(100% - 40px));margin:auto}a{color:inherit}
 .site-header{position:sticky;top:0;z-index:30;background:rgba(255,250,244,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}

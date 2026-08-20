@@ -573,6 +573,7 @@ function localizeDocument(source, context) {
     `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': category === 'grammatica' ? 'LearningResource' : 'Article', name: title, url: canonical, inLanguage: language })}</script>`
   );
   $('.language-switcher').replaceWith(languageSelector(sourceRelative, category, language, isIndex));
+  $('.site-header nav .nav-cta').remove();
   rewriteAssets($, targetRelative);
   rewriteInternalLinks($, category, language, sourceRelative);
   if (category === 'grammatica' && isIndex) updateGrammarIndexCards($, language);
