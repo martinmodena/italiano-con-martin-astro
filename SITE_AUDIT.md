@@ -1,14 +1,14 @@
 # Site Audit
 
-Generated: 2026-08-20
+Generated: 2026-08-21
 
 ## Inventory
 
 - Supported languages: 9
-- Educational resources: 43
-- Expected localized resource pages: 387
-- Expected PDF files: 1197
-- Existing PDF files: 1397
+- Educational resources: 44
+- Expected localized resource pages: 396
+- Expected PDF files: 1251
+- Existing PDF files: 1451
 - Localized teacher pages: 9
 - Findings: 0
 
