@@ -14,7 +14,10 @@ const root = process.cwd();
 const legacyDir = path.join(root, 'legacy-html');
 const distDir = path.join(root, 'dist');
 const workDir = path.join(root, 'work', 'migration');
-const filter = process.argv[2] ?? '';
+// --ignore-intended-fixes: neutralizza le correzioni applicate dopo la
+// migrazione, per far emergere solo le differenze non volute.
+const ignoreFixes = process.argv.includes('--ignore-intended-fixes');
+const filter = process.argv.slice(2).find((a) => !a.startsWith('--')) ?? '';
 
 function walk(dir) {
   return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
@@ -36,6 +39,34 @@ function sortAttributes($) {
   // aria-current su <link> nell'head è HTML invalido (bug del vecchio
   // generatore): la migrazione lo rimuove, il confronto lo ignora.
   $('link[rel="alternate"][aria-current]').removeAttr('aria-current');
+}
+
+// Neutralizza le correzioni volute dopo la migrazione, così il confronto con
+// il sito storico mette in luce soltanto differenze NON intenzionali.
+function normalizeIntendedFixes($) {
+  // 1. Foglio di stile: indirizzo unificato con una sola query di versione
+  $('link[rel="stylesheet"]').each((_, el) => {
+    const href = $(el).attr('href') ?? '';
+    if (/(^|\/)styles\.css(\?|$)/.test(href)) $(el).attr('href', 'styles.css');
+  });
+  // 2. Preload di styles.css: rimosso perché puntava a un indirizzo diverso
+  //    da quello caricato e causava un secondo download
+  $('link[rel="preload"]').each((_, el) => {
+    const href = $(el).attr('href') ?? '';
+    if (/(^|\/)styles\.css(\?|$)/.test(href)) $(el).remove();
+  });
+  // 3. Etichetta accessibile del selettore lingua: ora localizzata
+  $('.language-switcher summary[aria-label]').attr('aria-label', 'LANG');
+  // 4. Ordine marchio / selettore lingua nell'header: ora uniforme
+  const wrap = $('header.site-header .nav-wrap');
+  const brand = wrap.children('a.brand');
+  const switcher = wrap.children('details.language-switcher');
+  if (brand.length && switcher.length) switcher.insertAfter(brand);
+  // 5. Home inglese: percorsi relativi corretti (erano rotti, /en/script.js)
+  $('script[src]').each((_, el) => {
+    const src = $(el).attr('src') ?? '';
+    if (/(^|\/)script\.js(\?|$)/.test(src)) $(el).attr('src', 'script.js');
+  });
 }
 
 function squash(html) {
@@ -60,6 +91,7 @@ function canonicalJson(text) {
 // Restituisce { head: [chiavi ordinate], body: stringa } di un documento
 function canonicalize(html) {
   const $ = cheerio.load(html);
+  if (ignoreFixes) normalizeIntendedFixes($);
   sortAttributes($);
 
   // JSON-LD canonico

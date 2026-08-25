@@ -3,84 +3,84 @@
   "languages": {
     "it": {
       "name": "Italiano",
-      "flag": "🇮🇹"
+      "flag": "🇮🇹",
+      "summaryAria": "Scegli lingua"
     },
     "en": {
       "name": "English",
-      "flag": "🇬🇧"
+      "flag": "🇬🇧",
+      "summaryAria": "Choose language"
     },
     "es": {
       "name": "Español",
-      "flag": "🇪🇸"
+      "flag": "🇪🇸",
+      "summaryAria": "Elegir idioma"
     },
     "fr": {
       "name": "Français",
-      "flag": "🇫🇷"
+      "flag": "🇫🇷",
+      "summaryAria": "Choisir la langue"
     },
     "cs": {
       "name": "Čeština",
-      "flag": "🇨🇿"
+      "flag": "🇨🇿",
+      "summaryAria": "Vybrat jazyk"
     },
     "pl": {
       "name": "Polski",
-      "flag": "🇵🇱"
+      "flag": "🇵🇱",
+      "summaryAria": "Wybierz język"
     },
     "tr": {
       "name": "Türkçe",
-      "flag": "🇹🇷"
+      "flag": "🇹🇷",
+      "summaryAria": "Dil seçin"
     },
     "de": {
       "name": "Deutsch",
-      "flag": "🇩🇪"
+      "flag": "🇩🇪",
+      "summaryAria": "Sprache wählen"
     },
     "ja": {
       "name": "日本語",
-      "flag": "🇯🇵"
+      "flag": "🇯🇵",
+      "summaryAria": "言語を選択"
     }
   },
   "ui": {
     "it": {
-      "summaryAria": "Scegli lingua",
       "nav": "<a href=\"/grammatica/\">Grammatica</a><a href=\"/letture/\">Letture</a><a href=\"/vocabolario/\">Vocabolario</a><a class=\"about-link\" href=\"/chi-siamo/\">Chi siamo</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Grammatica chiara, letture graduate e lezioni online.</p></div><div><a href=\"/grammatica/\">Grammatica</a><a href=\"/letture/\">Letture</a><a href=\"/vocabolario/\">Vocabolario</a><a class=\"about-link\" href=\"/chi-siamo/\">Chi siamo</a><a href=\"../\">Grammatica</a></div>"
     },
     "cs": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/cs/gramatika/\">Gramatika</a><a href=\"/cs/cteni/\">Čtení</a><a href=\"/cs/slovni-zasoba/\">Slovní zásoba</a><a class=\"about-link\" href=\"/cs/o-nas/\">O nás</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Jasná gramatika, stupňovaná četba a online lekce.</p></div><div><a href=\"/cs/gramatika/\">Gramatika</a><a href=\"/cs/cteni/\">Čtení</a><a href=\"/cs/slovni-zasoba/\">Slovní zásoba</a><a class=\"about-link\" href=\"/cs/o-nas/\">O nás</a></div>"
     },
     "de": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/de/grammatik/\">Grammatik</a><a href=\"/de/lesetexte/\">Lesetexte</a><a href=\"/de/wortschatz/\">Wortschatz</a><a class=\"about-link\" href=\"/de/ueber-uns/\">Über uns</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Klare Grammatik, benotete Lesungen und Online-Lektionen.</p></div><div><a href=\"/de/grammatik/\">Grammatik</a><a href=\"/de/lesetexte/\">Lesetexte</a><a href=\"/de/wortschatz/\">Wortschatz</a><a class=\"about-link\" href=\"/de/ueber-uns/\">Über uns</a></div>"
     },
     "en": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/en/grammar/\">Grammar</a><a href=\"/en/readings/\">Readings</a><a href=\"/en/vocabulary/\">Vocabulary</a><a class=\"about-link\" href=\"/en/about-us/\">About us</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Clear grammar, graded readings and online lessons.</p></div><div><a href=\"/en/grammar/\">Grammar</a><a href=\"/en/readings/\">Readings</a><a href=\"/en/vocabulary/\">Vocabulary</a><a class=\"about-link\" href=\"/en/about-us/\">About us</a></div>"
     },
     "es": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/es/gramatica/\">Gramática</a><a href=\"/es/lecturas/\">Lecturas</a><a href=\"/es/vocabulario/\">Vocabulario</a><a class=\"about-link\" href=\"/es/sobre-nosotros/\">Quiénes somos</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Gramática clara, lecturas calificadas y lecciones en línea.</p></div><div><a href=\"/es/gramatica/\">Gramática</a><a href=\"/es/lecturas/\">Lecturas</a><a href=\"/es/vocabulario/\">Vocabulario</a><a class=\"about-link\" href=\"/es/sobre-nosotros/\">Quiénes somos</a></div>"
     },
     "fr": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/fr/grammaire/\">Grammaire</a><a href=\"/fr/lectures/\">Lectures</a><a href=\"/fr/vocabulaire/\">Vocabulaire</a><a class=\"about-link\" href=\"/fr/a-propos/\">À propos</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Grammaire claire, lectures notées et cours en ligne.</p></div><div><a href=\"/fr/grammaire/\">Grammaire</a><a href=\"/fr/lectures/\">Lectures</a><a href=\"/fr/vocabulaire/\">Vocabulaire</a><a class=\"about-link\" href=\"/fr/a-propos/\">À propos</a></div>"
     },
     "ja": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/ja/bunpo/\">文法</a><a href=\"/ja/dokkai/\">読解</a><a href=\"/ja/goi/\">語彙</a><a class=\"about-link\" href=\"/ja/watashitachi-ni-tsuite/\">私たちについて</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>明確な文法、段階別のリーディング、オンライン レッスン。</p></div><div><a href=\"/ja/bunpo/\">文法</a><a href=\"/ja/dokkai/\">読解</a><a href=\"/ja/goi/\">語彙</a><a class=\"about-link\" href=\"/ja/watashitachi-ni-tsuite/\">私たちについて</a></div>"
     },
     "pl": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/pl/gramatyka/\">Gramatyka</a><a href=\"/pl/czytanki/\">Czytanki</a><a href=\"/pl/slownictwo/\">Słownictwo</a><a class=\"about-link\" href=\"/pl/o-nas/\">O nas</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Przejrzysta gramatyka, oceniane lektury i lekcje online.</p></div><div><a href=\"/pl/gramatyka/\">Gramatyka</a><a href=\"/pl/czytanki/\">Czytanki</a><a href=\"/pl/slownictwo/\">Słownictwo</a><a class=\"about-link\" href=\"/pl/o-nas/\">O nas</a></div>"
     },
     "tr": {
-      "summaryAria": "Language",
       "nav": "<a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a>",
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Net dilbilgisi, dereceli okumalar ve çevrimiçi dersler.</p></div><div><a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a></div>"
     }

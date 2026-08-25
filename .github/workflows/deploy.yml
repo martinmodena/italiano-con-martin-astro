@@ -40,6 +40,9 @@ jobs:
       - name: Audit site inventory (dist)
         run: node scripts/audit-site.mjs --strict
 
+      - name: Audit local links and assets (dist)
+        run: node scripts/audit-links.mjs --strict
+
       - name: Audit vocabulary (dist)
         run: node scripts/audit-vocabulary.mjs
 

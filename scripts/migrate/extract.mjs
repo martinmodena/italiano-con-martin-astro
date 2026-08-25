@@ -1,3 +1,9 @@
+// ATTENZIONE: strumento della migrazione una-tantum, GIÀ ESEGUITO.
+// La sorgente del sito è ora src/pages/ + src/html/, che dopo la migrazione
+// hanno ricevuto correzioni assenti in legacy-html (header uniforme, etichette
+// accessibili localizzate). Rilanciare questo script le cancellerebbe:
+// serve il flag esplicito --force-regenerate.
+//
 // Migrazione legacy-html -> Astro.
 // Estrae da ogni pagina HTML: metadati SEO (ovunque si trovino: alcune pagine
 // hanno un bug con <head></head> vuoto e i metadati nel body), contenuto tra
@@ -20,6 +26,18 @@ const marker = 'Migrated from legacy-html by scripts/migrate/extract.mjs';
 const legacyMarker = 'Generated from legacy-html by scripts/import-html.mjs';
 
 const report = { redirects: [], rawPages: [], anomalies: [], pages: 0, uiOverrides: [] };
+
+if (!process.argv.includes('--force-regenerate')) {
+  console.error(
+    [
+      'Rigenerazione bloccata: la sorgente del sito è src/pages/ + src/html/.',
+      'Questo script ricostruisce quelle cartelle da legacy-html/ (congelato) e',
+      'scarterebbe le correzioni applicate dopo la migrazione.',
+      'Se sai davvero cosa stai facendo: node scripts/migrate/extract.mjs --force-regenerate',
+    ].join('\n')
+  );
+  process.exit(1);
+}
 
 // ---------------------------------------------------------------- helpers
 

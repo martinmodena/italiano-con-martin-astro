@@ -8,8 +8,8 @@ Sorgente dei contenuti:
 
 - `src/html/<percorso>.html` — frammento di contenuto di ogni pagina (da `<main>` alle sezioni CTA incluse), HTML puro.
 - `src/pages/<percorso>.astro` — pagina sottile: importa il frammento e i metadati SEO (title, description, canonical, hreflang, Open Graph, JSON-LD) e li passa a `SiteLayout`.
-- `src/layouts/SiteLayout.astro` — layout unico: head SEO, header con selettore lingua, footer, script. Modifiche a header/footer/head si fanno QUI, una volta sola per tutto il sito.
-- `src/data/i18n.json` — nomi lingue, bandiere, navigazione e footer per ciascuna delle 9 lingue.
+- `src/layouts/SiteLayout.astro` — layout unico: head SEO, header con selettore lingua, footer, script. Modifiche a header/footer/head si fanno QUI, una volta sola per tutto il sito. Contiene `CSS_VERSION`: va alzata a ogni modifica di `public/styles.css`, così i browser scaricano il foglio aggiornato.
+- `src/data/i18n.json` — per ciascuna delle 9 lingue: nome, bandiera, etichetta accessibile del selettore, navigazione e footer.
 - `public/` — asset statici pubblicati tali e quali: immagini, PDF, `styles.css`, `script.js`, `robots.txt`, la sitemap curata `sitemap.xml`, `CNAME`, le pagine redirect `noindex`.
 
 Le rotte `X.html.astro` producono URL storici `X.html` (dopo la build `scripts/migrate/flatten-html.mjs` appiattisce `X.html/index.html` in file `X.html`; è agganciato allo script `build`).
@@ -19,7 +19,9 @@ Le rotte `X.html.astro` producono URL storici `X.html` (dopo la build `scripts/m
 ## Regole operative
 
 - Leggere `DECISIONI_SITO.md` prima di modificare struttura, contenuti, lingue o SEO; registrare lì ogni nuova decisione nella stessa sessione.
-- Prima del deploy devono passare: `npm run build`, poi `npm run audit:site -- --strict` (o `node scripts/audit-site.mjs --strict`), `npm run audit:vocabulary`, `npm run audit:grammar-seo`. Gli audit leggono `dist/` (override con `SITE_ROOT`).
+- Prima del deploy devono passare: `npm run build`, poi `node scripts/audit-site.mjs --strict`, `node scripts/audit-links.mjs --strict`, `npm run audit:vocabulary`, `npm run audit:grammar-seo`. Gli audit leggono `dist/` (override con `SITE_ROOT`).
+- `npm run verify:parity` confronta la build con il sito storico `legacy-html/`. Le correzioni volute applicate dopo la migrazione sono neutralizzate da `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes`, che deve restare a zero differenze: se aumenta, è cambiato qualcosa di non voluto.
+- `scripts/migrate/extract.mjs` NON va eseguito: rigenererebbe `src/pages/` e `src/html/` da `legacy-html/`, cancellando le correzioni successive alla migrazione.
 - `npm run check` (astro check + eslint + prettier) deve restare verde.
 - Ogni risorsa esiste in italiano più 8 lingue (`en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`) con canonical e hreflang reciproci; i brani di studio restano in italiano (`lang="it"`), interfaccia e domande localizzate.
 - Il deploy parte dal push su `main` (workflow `.github/workflows/deploy.yml`): build → audit → publish su GitHub Pages.

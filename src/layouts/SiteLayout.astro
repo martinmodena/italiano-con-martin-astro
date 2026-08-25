@@ -17,21 +17,25 @@ export interface PageMeta {
   jsonld: string[];
   hreflangs: [string, string][];
   extraHead: string[];
-  stylesheetHref: string;
   assetPrefix: string;
   iconLinks: string[];
   brandHref: string;
   brandImgSrc: string;
   optionsHtml: string;
-  headerHtml?: string;
   bodyScripts: string[];
-  ui?: { summaryAria: string; nav: string; footerGrid: string };
+  ui?: { nav: string; footerGrid: string };
 }
+
+// Versione del foglio di stile: da alzare quando cambia public/styles.css.
+// Tutte le pagine puntano allo stesso indirizzo, così i browser tengono una
+// sola copia in cache e non possono mostrare due versioni diverse dell'header.
+const CSS_VERSION = '20260825';
 
 const { meta, main } = Astro.props as { meta: PageMeta; main: string };
 
 const ui = meta.ui ?? i18n.ui[meta.lang];
-const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '' };
+const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '', summaryAria: 'Choose language' };
+const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
 ---
 
 <!doctype html>
@@ -52,32 +56,26 @@ const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '' };
     }
     {meta.jsonld.map((json) => <script type="application/ld+json" set:html={json} />)}
     {meta.extraHead.map((html) => <Fragment set:html={html} />)}
-    <link rel="stylesheet" href={meta.stylesheetHref} />
+    <link rel="stylesheet" href={stylesheetHref} />
     {meta.iconLinks.map((html) => <Fragment set:html={html} />)}
   </head>
   <body>
     <header class="site-header">
-      {
-        meta.headerHtml !== undefined ? (
-          <div class="container nav-wrap" set:html={meta.headerHtml} />
-        ) : (
-          <div class="container nav-wrap">
-            <a class="brand" href={meta.brandHref}>
-              <img class="brand-avatar" src={meta.brandImgSrc} alt="Martin" width="48" height="48" decoding="async" />
-              <span>Italiano con Martin</span>
-            </a>
-            <details class="language-switcher">
-              <summary aria-label={ui.summaryAria}>
-                <span class="language-flag" aria-hidden="true" set:text={current.flag} />
-                <span class="language-current" set:text={current.name} />
-                <span class="language-chevron" aria-hidden="true" set:text={'⌄'} />
-              </summary>
-              <div class="language-options" set:html={meta.optionsHtml} />
-            </details>
-            <nav set:html={ui.nav} />
-          </div>
-        )
-      }
+      <div class="container nav-wrap">
+        <a class="brand" href={meta.brandHref}>
+          <img class="brand-avatar" src={meta.brandImgSrc} alt="Martin" width="48" height="48" decoding="async" />
+          <span>Italiano con Martin</span>
+        </a>
+        <details class="language-switcher">
+          <summary aria-label={current.summaryAria}>
+            <span class="language-flag" aria-hidden="true" set:text={current.flag} />
+            <span class="language-current" set:text={current.name} />
+            <span class="language-chevron" aria-hidden="true" set:text={'⌄'} />
+          </summary>
+          <div class="language-options" set:html={meta.optionsHtml} />
+        </details>
+        <nav set:html={ui.nav} />
+      </div>
     </header>
     <Fragment set:html={main} />
     <footer>

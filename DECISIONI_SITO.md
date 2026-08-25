@@ -164,3 +164,12 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - `legacy-html/` resta come riferimento storico congelato: non va più modificato; `npm run import:html` e i generatori collegati sono stati ritirati dagli script npm.
 - La sitemap resta il file statico curato `public/sitemap.xml`; l'integrazione sitemap di Astro è disattivata.
 - `legacy-html/` va rimosso dal repository soltanto dopo il primo deploy Astro andato a buon fine: finché resta presente, un rollback immediato è possibile ripristinando il vecchio workflow. Fino ad allora i PDF risultano duplicati su disco (in `legacy-html/pdf/` e `public/pdf/`); Git non duplica i contenuti identici, quindi il costo è solo nella copia di lavoro.
+
+## 2026-08-25 - Header uniforme, etichette accessibili e asset unici
+
+- L'ordine dell'header è uniforme su tutte le pagine e tutte le lingue: marchio, selettore lingua, menu. L'eccezione che invertiva marchio e selettore su 9 pagine (le 8 traduzioni della lettura sul latte materno e `privacy.html`) è stata eliminata; l'header è generato una sola volta da `SiteLayout.astro`.
+- L'etichetta accessibile del selettore lingua è tradotta nella lingua della pagina ed è definita in `src/data/i18n.json` (`languages.<lingua>.summaryAria`). Prima il sito alternava `Language`, `Scegli lingua` e `Choose language` senza criterio.
+- Ogni pagina carica `styles.css` da un solo indirizzo, con un'unica query di versione definita da `CSS_VERSION` in `SiteLayout.astro`. Quando cambia `public/styles.css` si alza quella costante: prima le tre varianti in circolazione creavano copie di cache disallineate tra una pagina e l'altra.
+- La home inglese usava percorsi relativi errati (`/en/styles.css`, `/en/script.js`): il JavaScript era di fatto disattivato su quella pagina. Corretta.
+- Nessuna pagina può caricare lo stesso file sotto indirizzi diversi né referenziare file inesistenti: lo verifica `npm run audit:links`, eseguito in CI con `--strict` prima del deploy.
+- `scripts/migrate/extract.mjs` non va più eseguito: rigenererebbe le pagine da `legacy-html/` cancellando queste correzioni. È protetto dal flag `--force-regenerate`.
