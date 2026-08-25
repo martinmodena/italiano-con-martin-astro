@@ -1,41 +1,90 @@
 # Istruzioni per agenti AI
 
+Manuale operativo del progetto. Vale per qualsiasi assistente AI (Claude Code, ChatGPT/Codex, altri): `CLAUDE.md` rimanda qui, questo è l'unico file da tenere aggiornato.
+
+Gli altri due documenti hanno ruoli distinti:
+
+- `DECISIONI_SITO.md` — registro cronologico delle decisioni su sito, contenuti, lingue e SEO. Da leggere prima di modifiche strutturali; ogni nuova decisione va registrata lì nella stessa sessione.
+- `SITE_AUDIT.md` — esito dell'ultima revisione dei contenuti.
+
+## Il sito in breve
+
+italianoconmartin.com offre materiali gratuiti per chi studia italiano (letture graduate, favole, grammatica, vocabolario, PDF) e serve a portare visitatori alle lezioni su Preply di Martin e Licia. Ogni pagina esiste in italiano più 8 lingue.
+
 ## Architettura (dal 2026-08-25)
 
-Il sito pubblicato su GitHub Pages (italianoconmartin.com) è la **build Astro**: `npm run build` → `dist/`.
+Il sito pubblicato su GitHub Pages è la **build Astro**: `npm run build` produce `dist/`, che viene pubblicata.
 
-Sorgente dei contenuti:
+| Cartella                       | Contenuto                                                                                                                                |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/html/<percorso>.html`     | Il contenuto di ogni pagina (da `<main>` alle sezioni finali), HTML puro                                                                 |
+| `src/pages/<percorso>.astro`   | Pagina sottile: metadati SEO (title, description, canonical, hreflang, Open Graph, JSON-LD) passati a `SiteLayout`                       |
+| `src/layouts/SiteLayout.astro` | Layout unico: head, header con selettore lingua, footer, script                                                                          |
+| `src/data/i18n.json`           | Per ognuna delle 9 lingue: nome, bandiera, etichetta accessibile, menu, footer                                                           |
+| `public/`                      | File statici pubblicati tali e quali: immagini, PDF, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml`, `CNAME`, redirect `noindex` |
 
-- `src/html/<percorso>.html` — frammento di contenuto di ogni pagina (da `<main>` alle sezioni CTA incluse), HTML puro.
-- `src/pages/<percorso>.astro` — pagina sottile: importa il frammento e i metadati SEO (title, description, canonical, hreflang, Open Graph, JSON-LD) e li passa a `SiteLayout`.
-- `src/layouts/SiteLayout.astro` — layout unico: head SEO, header con selettore lingua, footer, script. Modifiche a header/footer/head si fanno QUI, una volta sola per tutto il sito. Contiene `CSS_VERSION`: va alzata a ogni modifica di `public/styles.css`, così i browser scaricano il foglio aggiornato.
-- `src/data/i18n.json` — per ciascuna delle 9 lingue: nome, bandiera, etichetta accessibile del selettore, navigazione e footer.
-- `public/` — asset statici pubblicati tali e quali: immagini, PDF, `styles.css`, `script.js`, `robots.txt`, la sitemap curata `sitemap.xml`, `CNAME`, le pagine redirect `noindex`.
+Le rotte `X.html.astro` producono gli URL storici `X.html`: dopo la build, `scripts/migrate/flatten-html.mjs` converte `X.html/index.html` in un file `X.html`. È già agganciato allo script `build`.
 
-Le rotte `X.html.astro` producono URL storici `X.html` (dopo la build `scripts/migrate/flatten-html.mjs` appiattisce `X.html/index.html` in file `X.html`; è agganciato allo script `build`).
+`legacy-html/` è il vecchio sito statico, **congelato**: riferimento storico, non è più pubblicato, non va modificato né usato come sorgente. Va rimosso dal repository quando si decide di rinunciare al rollback immediato (oggi tiene i PDF in doppia copia su disco).
 
-`legacy-html/` è il vecchio sito statico, **congelato come riferimento storico: non modificarlo e non usarlo come sorgente**. Gli script `scripts/migrate/{extract,sync-static,verify-parity}.mjs` sono serviti alla migrazione (parità verificata: 1119/1119 pagine identiche).
+## Dove si modifica cosa
+
+| Voglio cambiare…                                 | File da toccare                                                    |
+| ------------------------------------------------ | ------------------------------------------------------------------ |
+| Il testo di una pagina                           | `src/html/<percorso>.html`                                         |
+| Titolo, descrizione, dati SEO di una pagina      | `src/pages/<percorso>.astro`                                       |
+| Header, footer, selettore lingua (tutto il sito) | `src/layouts/SiteLayout.astro`                                     |
+| Voci di menu, nome lingua, etichette per lingua  | `src/data/i18n.json`                                               |
+| Grafica del sito                                 | `public/styles.css` **e** alza `CSS_VERSION` in `SiteLayout.astro` |
+| Comportamento interattivo                        | `public/script.js`                                                 |
+| Immagini, PDF                                    | `public/assets/`, `public/pdf/`                                    |
+
+Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pagina in `src/pages/`, più le versioni nelle altre 8 lingue e le voci nella sitemap e negli indici di categoria.
 
 ## Regole operative
 
-- Leggere `DECISIONI_SITO.md` prima di modificare struttura, contenuti, lingue o SEO; registrare lì ogni nuova decisione nella stessa sessione.
-- Prima del deploy devono passare: `npm run build`, poi `node scripts/audit-site.mjs --strict`, `node scripts/audit-links.mjs --strict`, `npm run audit:vocabulary`, `npm run audit:grammar-seo`. Gli audit leggono `dist/` (override con `SITE_ROOT`).
-- `npm run verify:parity` confronta la build con il sito storico `legacy-html/`. Le correzioni volute applicate dopo la migrazione sono neutralizzate da `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes`, che deve restare a zero differenze: se aumenta, è cambiato qualcosa di non voluto.
-- `scripts/migrate/extract.mjs` NON va eseguito: rigenererebbe `src/pages/` e `src/html/` da `legacy-html/`, cancellando le correzioni successive alla migrazione.
-- `npm run check` (astro check + eslint + prettier) deve restare verde.
-- Ogni risorsa esiste in italiano più 8 lingue (`en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`) con canonical e hreflang reciproci; i brani di studio restano in italiano (`lang="it"`), interfaccia e domande localizzate.
-- Il deploy parte dal push su `main` (workflow `.github/workflows/deploy.yml`): build → audit → publish su GitHub Pages.
+- **Prima di pubblicare** devono passare, nell'ordine:
 
-## Development
+  ```
+  npm run build
+  node scripts/audit-site.mjs --strict
+  node scripts/audit-links.mjs --strict
+  npm run audit:vocabulary
+  npm run audit:grammar-seo
+  npm run check
+  ```
 
-Server di sviluppo in background:
+  Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
+
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Deve restare a **0 differenze su 1119 pagine**. Se il numero sale, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
+
+- Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori. I brani di studio restano in italiano con `lang="it"`; interfaccia, istruzioni, vocabolario e domande vanno localizzati.
+
+- Gli URL pubblici non si cambiano: sono indicizzati. I vecchi percorsi restano come redirect `noindex` in `public/`.
+
+- Il deploy parte da solo al push su `main` (`.github/workflows/deploy.yml`): build → audit → pubblicazione.
+
+## Da non fare
+
+- **Non eseguire `scripts/migrate/extract.mjs`**: rigenererebbe `src/pages/` e `src/html/` da `legacy-html/`, cancellando tutte le correzioni successive alla migrazione. È protetto dal flag `--force-regenerate`.
+- Non modificare `legacy-html/`: non è più la sorgente.
+- Non toccare `dist/`: è generata, viene ricostruita a ogni build.
+- Non cambiare `public/styles.css` senza alzare `CSS_VERSION`: i browser continuerebbero a mostrare la versione vecchia.
+
+## Sviluppo locale
 
 ```
-astro dev --background
+npm run dev
 ```
 
-Gestione: `astro dev stop`, `astro dev status`, `astro dev logs`.
+Avvia il server di sviluppo su http://localhost:4321 con ricarica automatica.
+
+```
+npm run build && npm run preview
+```
+
+Mostra il sito **come sarà pubblicato**, cioè la build reale. Da preferire per verificare URL `.html`, redirect e asset. La configurazione per l'anteprima nel browser sta in `.claude/launch.json`.
 
 ## Documentazione Astro
 
-https://docs.astro.build — in particolare: [routing](https://docs.astro.build/en/guides/routing/), [componenti](https://docs.astro.build/en/basics/astro-components/), [contenuti](https://docs.astro.build/en/guides/content-collections/), [stili](https://docs.astro.build/en/guides/styling/), [i18n](https://docs.astro.build/en/guides/internationalization/).
+https://docs.astro.build — in particolare [routing](https://docs.astro.build/en/guides/routing/), [componenti](https://docs.astro.build/en/basics/astro-components/), [stili](https://docs.astro.build/en/guides/styling/), [i18n](https://docs.astro.build/en/guides/internationalization/).
