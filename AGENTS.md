@@ -55,6 +55,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```
+  node scripts/audit-language-mix.mjs --strict
   npm run build
   node scripts/audit-site.mjs --strict
   node scripts/audit-links.mjs --strict
@@ -63,9 +64,11 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
   npm run check
   ```
 
+  `audit-language-mix` analizza la sorgente (`src/html` + `src/pages`) e fa rispettare `REGOLE_LINGUE.md`: va eseguito **prima** della build, perché segnala errori che si correggono nei sorgenti.
+
   Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
 
-- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **36 differenze su 1119 pagine**, tutte volute (le 18 pagine indice di `letture/` e `favole/` senza più l'elenco testuale iniziale, le 9 home riscritte, le 9 pagine «Chi siamo» e la home inglese aggiornate con la tariffa di 12 €). Se il numero sale oltre queste 36, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **485 differenze su 1119 pagine**, tutte volute: le 36 precedenti (18 indici senza elenco testuale, 9 home riscritte, 9 pagine «Chi siamo» e la home inglese con la tariffa di 12 €) più le 469 pagine localizzate riparate secondo `REGOLE_LINGUE.md`. Se il numero sale oltre 485, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
 
 - Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori.
 

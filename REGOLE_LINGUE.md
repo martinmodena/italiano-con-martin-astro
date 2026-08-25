@@ -36,6 +36,7 @@ Anche quando l'intera pagina è in spagnolo, giapponese o turco.
 - Gli **articoli, i pronomi, le preposizioni, i verbi** citati come oggetto della lezione: `il`, `lo`, `la`, `l'`, `un'`, `io`, `tu`, `voi`, `parlare`, `credere`, `dormire`, `pulire`.
 - Le **forme sbagliate** negli errori tipici (`.mistake`): `❌ Io è italiano` resta così com'è.
 - I **testi degli esercizi da completare** (`.exercise label`, `data-answer`, `data-alt`).
+- I **suggerimenti degli esercizi** (`data-hint`): mostrano la forma italiana da usare («Con “io” usiamo “sono”», «Essere: che lui sia»). Tradotti diventano falsi: indicano una forma che in italiano non esiste.
 - Le **parole del vocabolario** e le loro frasi di esempio (`.word-card h2`, `.word-examples`).
 - Le **soluzioni proposte** degli esercizi di traduzione (`.proposed-solution strong`): sono la risposta in italiano.
 - I **titoli interni dei blocchi per livello**: «Il leone e il topo — livello A1» resta in italiano con `lang="it"` (decisione 2026-08-12).
@@ -52,9 +53,9 @@ Anche quando l'intera pagina è in spagnolo, giapponese o turco.
 - **Etichette e intestazioni di servizio**: `Persona`, `Forma`, `Esempio`, `Infinito`, `Uso`, `Quando`, `Tipo`, `Struttura`, `Verbo`, `Tempo`, `Singolare`, `Plurale`, `Maschile`, `Femminile`, `Participio`.
 - **Etichette dei riquadri di esempio**: `Identità`, `Nazionalità`, `Caratteristica`, `Posizione`, `Presente`, `Passato`, `Attiva`, `Passiva`.
 - **Le parole `Errato:` / `Corretto:`** davanti agli errori tipici (la forma sbagliata invece resta italiana).
-- **I suggerimenti degli esercizi** (`data-hint`), le glosse del vocabolario, i titoli delle schede.
+- **Le glosse del vocabolario e i titoli delle schede.**
 - **Le frasi di partenza degli esercizi di traduzione libera**: chi legge in spagnolo traduce **dallo spagnolo** verso l'italiano, non dall'inglese. L'inglese come lingua di partenza è corretto **solo** nella versione inglese e in quella italiana.
-- **Tutti gli attributi testuali**: `alt`, `aria-label`, `placeholder`, `title`, `data-hint`.
+- **Gli attributi testuali di servizio**: `alt`, `aria-label`, `placeholder`, `title`.
 - **I testi dei pulsanti e delle call to action.**
 
 ---
@@ -79,15 +80,20 @@ Molti riquadri contengono le due cose insieme. Vanno trattati **elemento per ele
 ```html
 <!-- pagina spagnola, riquadro di esempio -->
 <div class="example">
-  <strong>Identidad</strong><br>          <!-- etichetta → spagnolo -->
-  <span lang="it">Io sono Martin.</span>  <!-- esempio → italiano -->
+  <strong>Identidad</strong><br />
+  <!-- etichetta → spagnolo -->
+  <span lang="it">Io sono Martin.</span>
+  <!-- esempio → italiano -->
 </div>
 
 <!-- pagina spagnola, scheda di regola -->
 <div class="rule-card">
-  <strong lang="it">lo</strong><br>              <!-- forma italiana → italiano -->
-  delante de s + consonante, z, ps, gn, x, y<br> <!-- spiegazione → spagnolo -->
-  <em lang="it">lo studente</em>                 <!-- esempio → italiano -->
+  <strong lang="it">lo</strong><br />
+  <!-- forma italiana → italiano -->
+  delante de s + consonante, z, ps, gn, x, y<br />
+  <!-- spiegazione → spagnolo -->
+  <em lang="it">lo studente</em>
+  <!-- esempio → italiano -->
 </div>
 
 <!-- pagina spagnola, errore tipico -->
@@ -115,11 +121,11 @@ Le classi che contengono **sempre** blocchi misti: `.rule-card`, `.example`, `.m
 
 Regola unica, per non avere tre stili diversi nella stessa pagina.
 
-| Dove                                         | Come                                               | Esempio                                                                |
-| -------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------- |
-| `title`, H1, H2, titoli delle schede, link   | **Senza virgolette e senza corsivo**               | `El verbo italiano essere (ser y estar)`                               |
-| Testo corrente, spiegazioni                  | **Corsivo** con `<em lang="it">`                   | `Usamos el verbo <em lang="it">essere</em> para…`                      |
-| Forma isolata dentro un'istruzione o un hint | **Virgolette curve “ ”** + `<span lang="it">`      | `Con “<span lang="it">io</span>” usamos “<span lang="it">sono</span>”.` |
+| Dove                                         | Come                                          | Esempio                                                                 |
+| -------------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------- |
+| `title`, H1, H2, titoli delle schede, link   | **Senza virgolette e senza corsivo**          | `El verbo italiano essere (ser y estar)`                                |
+| Testo corrente, spiegazioni                  | **Corsivo** con `<em lang="it">`              | `Usamos el verbo <em lang="it">essere</em> para…`                       |
+| Forma isolata dentro un'istruzione o un hint | **Virgolette curve “ ”** + `<span lang="it">` | `Con “<span lang="it">io</span>” usamos “<span lang="it">sono</span>”.` |
 
 Perché senza virgolette nei titoli: nel `<title>` e nei risultati di Google le virgolette fanno rumore, a volte vengono troncate e non aggiungono informazione, perché la parola «italiano» accanto al termine chiarisce già che è una parola straniera. Nel corpo del testo il corsivo è invece la convenzione standard per le parole in lingua straniera, e va usato.
 
@@ -137,15 +143,22 @@ Molti nomi di tempi verbali italiani non hanno un equivalente esatto. Tradurli i
 2. Alla **prima occorrenza nella pagina** si può aggiungere fra parentesi l'equivalente locale, **solo se è davvero equivalente**. Dopo la prima volta si usa solo il nome italiano.
 3. Se un equivalente esatto non esiste, si mette una **descrizione breve**, non un falso equivalente.
 
-| Termine italiano   | ✅ Corretto (esempio spagnolo)                       | ❌ Da non usare                       |
-| ------------------ | ---------------------------------------------------- | ------------------------------------- |
-| `passato prossimo` | `passato prossimo (el pasado compuesto italiano)`    | `presente perfecto`                   |
-| `imperfetto`       | `imperfetto (el imperfecto italiano)`                | solo `imperfecto`, senza il nome vero |
-| `passato remoto`   | `passato remoto (tiempo del relato literario)`       | `pasado remoto`                       |
-| `congiuntivo`      | `congiuntivo (el subjuntivo italiano)`               | solo `subjuntivo`                     |
-| `ci` / `ne`        | `ci` e `ne`, senza traduzione, solo con spiegazione  | qualsiasi equivalente inventato       |
+| Termine italiano   | ✅ Corretto (esempio spagnolo)                      | ❌ Da non usare                       |
+| ------------------ | --------------------------------------------------- | ------------------------------------- |
+| `passato prossimo` | `passato prossimo (el pasado compuesto italiano)`   | `presente perfecto`                   |
+| `imperfetto`       | `imperfetto (el imperfecto italiano)`               | solo `imperfecto`, senza il nome vero |
+| `passato remoto`   | `passato remoto (tiempo del relato literario)`      | `pasado remoto`                       |
+| `congiuntivo`      | `congiuntivo (el subjuntivo italiano)`              | solo `subjuntivo`                     |
+| `ci` / `ne`        | `ci` e `ne`, senza traduzione, solo con spiegazione | qualsiasi equivalente inventato       |
 
-Lo stesso termine deve avere **lo stesso trattamento in tutta la pagina**: oggi capita di leggere `sin passato remoto` in un blocco e `pasado remoto` in quello subito sotto.
+Lo stesso termine deve avere **lo stesso trattamento in tutta la pagina**: non si può leggere `sin passato remoto` in un blocco e `pasado remoto` in quello subito sotto.
+
+**Titolo H1 e SEO.** Il termine italiano deve comparire **sempre nella meta description**, perché è il nome che lo studente incontrerà nei materiali italiani. Nel **titolo H1 e nello slug** vale una distinzione:
+
+- I nomi **senza equivalente esatto** (`essere`, `avere`, `passato prossimo`, `imperfetto`, `passato remoto`, `congiuntivo`, `condizionale`, `futuro semplice`) restano in italiano anche nel titolo: «İtalyanca imperfetto zamanı», «El congiuntivo presente italiano».
+- Le **categorie universali** (`imperativo`, `infinito`, `participio`, `gerundio`) possono usare il nome locale nel titolo, perché è quello che il visitatore cerca su Google: «İtalyanca emir kipi», «イタリア語の命令法». Il nome italiano compare comunque nella descrizione e nel corpo della lezione.
+
+Lo verifica `npm run audit:languages`.
 
 ---
 
@@ -160,11 +173,13 @@ Le domande sono un **esercizio sul testo italiano**, non un'istruzione: sono lin
 - Le etichette dei campi di risposta («La tua risposta») vanno tradotte.
 
 ```html
-<h3>Comprensión</h3>                                        <!-- etichetta → spagnolo -->
+<h3>Comprensión</h3>
+<!-- etichetta → spagnolo -->
 <ol>
   <li>
     <span lang="it">Che cosa piace all'imperatore?</span>
-    <span class="q-gloss">¿Qué le gusta al emperador?</span> <!-- solo A1 e A2 -->
+    <span class="q-gloss">¿Qué le gusta al emperador?</span>
+    <!-- solo A1 e A2 -->
   </li>
 </ol>
 ```
@@ -181,7 +196,17 @@ Le domande sono un **esercizio sul testo italiano**, non un'istruzione: sono lin
 
 ## 11. Controllo prima di pubblicare
 
-Per ogni pagina localizzata toccata:
+```bash
+npm run audit:languages
+```
+
+Confronta ogni pagina localizzata con la rispettiva pagina italiana e segnala:
+materiale di studio tradotto, etichette rimaste in italiano, attributi in inglese,
+frasi da tradurre non localizzate, domande di comprensione fuori posto, marchio
+adattato, link alla versione italiana e termini italiani spariti dalla SEO.
+Gira anche in CI con `--strict` prima della build: se fallisce, il sito non si pubblica.
+
+Controllo a occhio, per ogni pagina toccata:
 
 1. **Leggi solo le parti italiane.** Sono italiano corretto e reale? Se compare `hablar-o`, `sprechen-o` o `-yo` al posto di `-i`, la pagina è rotta.
 2. **Leggi solo le parti tradotte.** Restano parole italiane o inglesi? (`Esempio`, `Persona`, `PDF downloads`, `to be`)
@@ -190,47 +215,50 @@ Per ogni pagina localizzata toccata:
 5. **I link puntano alla stessa lingua?**
 6. `npm run build` e gli audit elencati in [AGENTS.md](./AGENTS.md).
 
-**Mai tradurre una pagina intera con uno strumento automatico senza proteggere in anticipo i blocchi della lingua-oggetto.** È così che sono nati tutti i difetti elencati qui sotto.
+**Mai tradurre una pagina intera con uno strumento automatico senza proteggere in anticipo i blocchi della lingua-oggetto.** È così che sono nati i difetti corretti il 2026-08-25. La lista dei blocchi protetti sta in `preserveSelectors`, dentro `scripts/generate-localized-resources.mjs`, e va tenuta allineata al capitolo 2.
 
 ---
 
-## 12. Difetti noti al 2026-08-25 (da correggere)
+## 12. Che cosa è stato corretto il 2026-08-25
 
-Rilevati confrontando le 432 pagine localizzate con la rispettiva pagina italiana.
+Confrontando le 432 pagine localizzate con la rispettiva pagina italiana sono stati
+riparati **469 file** con `node scripts/migrate/fix-language-mix.mjs`.
 
-### Gravi — insegnano italiano falso
+### Materiale di studio che era stato tradotto (insegnava italiano falso)
 
-| Difetto                                                                           | Estensione                     |
-| --------------------------------------------------------------------------------- | ------------------------------ |
-| `table.tbl` tradotta: `parlare→hablar`, `credere→credibilidad`, desinenza `-i→-yo` | 16 pagine, tutte e 8 le lingue |
-| `.rule-card` tradotta: gli articoli `il/lo/la/l'` diventano `el/yo/el/el`          | 112 pagine, 448 blocchi        |
-| `.grid .card` tradotta: preposizioni ed esempi                                    | 16 pagine, 208 blocchi         |
-| `.italian-box` tradotta, bandiera 🇮🇹 diventata 🇬🇧                                  | 64 pagine                      |
-| `.dialogue` tradotto: il minidialogo italiano diventa spagnolo, tedesco, turco    | 24 pagine                      |
-| `.cols` tradotta                                                                  | 8 pagine, 24 blocchi           |
-| Descrizioni delle schede negli **indici di grammatica**: «El, el, el, el y el»    | 8 indici, uno per lingua       |
+| Difetto                                                                                                                   | Interventi |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Suggerimenti degli esercizi (`data-hint`) tradotti: «Essere: che lui sia» → «Ser: para que él sea»                        | 2208       |
+| `.rule-card`: gli articoli `il / lo / la / l'` erano diventati `el / yo / el / el`                                        | 448        |
+| Forme italiane nel testo discorsivo (`essere` → «ser», `non` → «no»)                                                      | 641        |
+| Prefissi `Errato:` / `Non:` tradotti insieme alla forma sbagliata che li segue                                            | 576        |
+| Celle di tabella: `parlare → hablar`, `credere → credibilidad`, desinenza `-i → -yo`                                      | 279        |
+| Domande di comprensione riportate in italiano, con glossa locale in A1 e A2                                               | 1016       |
+| `.grid .card` e `.cols .card` con preposizioni ed esempi tradotti                                                         | 280        |
+| Riquadri «angolo italiano», bandiera 🇬🇧 tornata 🇮🇹                                                                        | 64         |
+| Minidialoghi ripristinati in italiano                                                                                     | 24         |
+| Nomi italiani dei tempi verbali nella riga di livello: «Imperfecto y presente perfecto» → «Imperfetto y passato prossimo» | 393        |
 
-### Medi — mescolanza visibile
+### Lingua del visitatore che era rimasta in italiano o in inglese
 
-| Difetto                                                                    | Estensione                        |
-| -------------------------------------------------------------------------- | --------------------------------- |
-| Intestazioni di tabella rimaste italiane (`Persona`, `Forma`, `Esempio`, …) | 169 pagine, 729 occorrenze        |
-| Etichette `.mistake strong` rimaste italiane (`Errato:`)                    | 176 pagine, 704 occorrenze        |
-| Etichette `.example strong` rimaste italiane (`Identità`, `Presente`, …)    | 80 pagine, 488 occorrenze         |
-| `aria-label="PDF downloads"` in inglese                                    | 44 per lingua, 308 in totale      |
-| Frasi da tradurre in inglese anziché nella lingua della pagina             | 52 per lingua, 364 in totale      |
-| Domande di comprensione nella lingua del visitatore anziché in italiano    | tutte le favole e le letture      |
-| Termini grammaticali tradotti in modo incoerente nella stessa pagina       | favole e letture, tutte le lingue |
+| Difetto                                                                                                | Interventi |
+| ------------------------------------------------------------------------------------------------------ | ---------- |
+| Intestazioni di tabella ed etichette di esempio tradotte                                               | 678        |
+| Celle di tabella che spiegano («consonante normale», «plurale di il») tradotte, forme italiane intatte | 286        |
+| `aria-label="PDF downloads"` tradotto in tutte le lingue                                               | 395        |
+| Frasi di traduzione libera portate dall'inglese alla lingua di pagina                                  | 364        |
+| Voci di navigazione della lezione («mesa» → «Tabla»)                                                   | 289        |
+| Titoli con maiuscola o punto finale sbagliati                                                          | 280        |
+| Descrizioni delle schede negli indici di grammatica                                                    | 173        |
+| Meta description SEO riscritte con il nome italiano del tempo verbale                                  | 80         |
+| Link `/chi-siamo/` portati alla pagina nella lingua giusta                                             | 8          |
+| «Martín» riportato a «Martin»                                                                          | 6          |
 
-### Minori
+### Che cosa resta fuori da questa correzione
 
-| Difetto                                                               | Estensione                            |
-| --------------------------------------------------------------------- | ------------------------------------- |
-| `href="/chi-siamo/"` da pagina localizzata                            | 8 pagine                              |
-| «Martín» accentato al posto di «Martin», anche accanto a «Martin»     | 19 occorrenze in `es`                 |
-| Meta description con inglese residuo («Aprende el verbo to be»)       | 5 pagine                              |
-| Titoli e pulsanti con maiuscola incoerente (`regla`, `mesa`, `hablar`) | pagine `es`, `fr`, `de` di grammatica |
-
-### Causa comune
-
-`scripts/generate-localized-resources.mjs` protegge dalla traduzione solo alcuni selettori (`preserveSelectors`, riga 207) e ha correzioni riviste a mano (`reviewedOverrides`) quasi soltanto per l'inglese. Mancano dalla lista: `.rule-card`, `.italian-box`, `.dialogue`, `.cols`, `.grid .card`, `table.tbl`. Prima di rigenerare qualsiasi cosa, quella lista va allineata al capitolo 2 di questo documento, e i blocchi misti del capitolo 5 vanno gestiti elemento per elemento.
+La riparazione automatica ha rimesso a posto **la lingua** di ogni blocco, non la
+**qualità di scrittura** delle spiegazioni tradotte. Restano frasi tradotte in modo
+goffo dalla vecchia traduzione automatica (per esempio, in spagnolo, «“è” quiere el
+acento» invece di «“è” lleva acento»). Non sono errori di lingua-oggetto e non
+insegnano niente di falso: si correggono a mano, una lingua alla volta, quando si
+rivede una pagina.
