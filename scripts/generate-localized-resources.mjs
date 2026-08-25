@@ -115,28 +115,6 @@ const allLevelsPdfLabels = {
   de: 'PDF alle Niveaus',
   ja: 'PDF 全レベル',
 };
-const storyDirectoryLabels = {
-  it: 'Tutte le storie',
-  en: 'All stories',
-  es: 'Todos los cuentos',
-  fr: 'Toutes les histoires',
-  cs: 'Všechny příběhy',
-  pl: 'Wszystkie historie',
-  tr: 'Tüm hikayeler',
-  de: 'Alle Geschichten',
-  ja: 'すべての物語',
-};
-const readingDirectoryLabels = {
-  it: 'Tutte le letture',
-  en: 'All readings',
-  es: 'Todas las lecturas',
-  fr: 'Toutes les lectures',
-  cs: 'Všechna čtení',
-  pl: 'Wszystkie czytanki',
-  tr: 'Tüm okumalar',
-  de: 'Alle Lesetexte',
-  ja: 'すべての読み物',
-};
 const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar', vocabolario: 'vocabulary' };
 const slugOverrides = {
   en: {
@@ -617,7 +595,7 @@ function localizeDocument(source, context) {
     updateGrammarBreadcrumb($, context, grammarHeading);
   }
   restoreItalianStudyHeadings($, source, category);
-  addResourceDirectory($, category, language, isIndex);
+  addResourceDirectory($);
   const title = cleanText($('h1').first().text());
   const canonical = `${siteUrl}/${targetRelative.replace('index.html', '')}`;
   const level = context.level ? ` ${context.level.toUpperCase()}` : '';
@@ -727,22 +705,11 @@ function restoreItalianStudyHeadings($, source, category) {
   });
 }
 
-function addResourceDirectory($, category, language, isIndex) {
-  if (!isIndex || !['favole', 'letture'].includes(category)) return;
+// Decisione 2026-08-25: l'elenco testuale di link a inizio pagina (.resource-directory)
+// e' stato rimosso perche' ridondante rispetto alle schede con immagine.
+// La funzione ora toglie solo eventuali residui: non ricrea piu' l'elenco.
+function addResourceDirectory($) {
   $('.resource-directory').remove();
-  const stories = $('.story-list .story-tile')
-    .map((_, element) => ({
-      href: $(element).attr('href'),
-      title: cleanText($(element).find('h2').first().text()),
-    }))
-    .get()
-    .filter(({ href, title }) => href && title);
-  if (!stories.length) return;
-  const label = `${category === 'favole' ? storyDirectoryLabels[language] : readingDirectoryLabels[language]} (${stories.length})`;
-  const links = stories.map(({ href, title }) => `<a href="${escapeHtml(href)}">${escapeHtml(title)}</a>`).join('');
-  $('.page-intro .container').append(
-    `<nav class="resource-directory" aria-label="${escapeHtml(label)}"><strong>${escapeHtml(label)}</strong><div>${links}</div></nav>`
-  );
 }
 
 function ensureMilkReadingTile($, language) {
@@ -889,7 +856,7 @@ function updateItalianAlternates() {
     $('head').prepend(buildAlternates(sourceRelative, category, isIndex));
     $('.language-switcher').replaceWith(italianLanguageSelector(sourceRelative, category, isIndex));
     ensureVocabularyNavigation($, 'it');
-    addResourceDirectory($, category, 'it', isIndex);
+    addResourceDirectory($);
     if (!isIndex) {
       const parts = sourceRelative.split('/');
       addPdfLinks($, {

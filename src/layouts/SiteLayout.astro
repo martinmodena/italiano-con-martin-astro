@@ -55,8 +55,9 @@ const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
       )
     }
     {meta.jsonld.map((json) => <script type="application/ld+json" set:html={json} />)}
-    {meta.extraHead.map((html) => <Fragment set:html={html} />)}
+    {/* styles.css va PRIMA dei CSS di pagina: quelli di pagina devono poter sovrascrivere le regole generali. */}
     <link rel="stylesheet" href={stylesheetHref} />
+    {meta.extraHead.map((html) => <Fragment set:html={html} />)}
     {meta.iconLinks.map((html) => <Fragment set:html={html} />)}
   </head>
   <body>
