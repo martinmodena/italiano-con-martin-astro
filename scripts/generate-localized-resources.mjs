@@ -204,11 +204,22 @@ const slugOverrides = {
     ufficio: 'italian-office-vocabulary',
   },
 };
+// Blocchi che contengono la lingua-oggetto (l'italiano che si studia) e che la
+// traduzione automatica non deve toccare. Regole complete in REGOLE_LINGUE.md,
+// capitolo 2. Aggiungere qui qualunque contenitore nuovo che ospiti italiano di
+// studio: se manca da questa lista, la traduzione automatica lo distrugge.
 const preserveSelectors = [
   '.story-text',
   '.conj-table',
+  'table.tbl',
   '.example-grid',
   '.mistake-grid',
+  '.rule-card',
+  '.rule-grid',
+  '.italian-box',
+  '.dialogue',
+  '.cols',
+  '.grid .card',
   '.exercise label',
   '.word-card h2',
   '.word-examples span',

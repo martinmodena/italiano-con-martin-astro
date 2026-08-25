@@ -1,0 +1,147 @@
+// Etichette di servizio che compaiono dentro i blocchi di materiale italiano.
+// Sono lingua-veicolo: vanno tradotte (REGOLE_LINGUE.md, capitolo 3).
+// Chiave = testo italiano esatto. Usato da scripts/migrate/fix-language-mix.mjs
+// e da scripts/audit-language-mix.mjs.
+export const LANGS = ['en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
+
+export const LABELS = {
+  // --- intestazioni di tabella -------------------------------------------
+  Persona: { en: 'Person', es: 'Persona', fr: 'Personne', cs: 'Osoba', pl: 'Osoba', tr: 'Kişi', de: 'Person', ja: '人称' },
+  Forma: { en: 'Form', es: 'Forma', fr: 'Forme', cs: 'Tvar', pl: 'Forma', tr: 'Biçim', de: 'Form', ja: '形' },
+  Uso: { en: 'Use', es: 'Uso', fr: 'Emploi', cs: 'Použití', pl: 'Użycie', tr: 'Kullanım', de: 'Gebrauch', ja: '用法' },
+  Esempio: { en: 'Example', es: 'Ejemplo', fr: 'Exemple', cs: 'Příklad', pl: 'Przykład', tr: 'Örnek', de: 'Beispiel', ja: '例' },
+  Verbo: { en: 'Verb', es: 'Verbo', fr: 'Verbe', cs: 'Sloveso', pl: 'Czasownik', tr: 'Fiil', de: 'Verb', ja: '動詞' },
+  Tipo: { en: 'Type', es: 'Tipo', fr: 'Type', cs: 'Typ', pl: 'Typ', tr: 'Tür', de: 'Typ', ja: '種類' },
+  Struttura: { en: 'Structure', es: 'Estructura', fr: 'Structure', cs: 'Struktura', pl: 'Struktura', tr: 'Yapı', de: 'Struktur', ja: '構造' },
+  Funzione: { en: 'Function', es: 'Función', fr: 'Fonction', cs: 'Funkce', pl: 'Funkcja', tr: 'İşlev', de: 'Funktion', ja: '機能' },
+  Infinito: { en: 'Infinitive', es: 'Infinitivo', fr: 'Infinitif', cs: 'Infinitiv', pl: 'Bezokolicznik', tr: 'Mastar', de: 'Infinitiv', ja: '不定詞' },
+  'Base futura': { en: 'Future stem', es: 'Raíz de futuro', fr: 'Radical du futur', cs: 'Kmen budoucího času', pl: 'Temat czasu przyszłego', tr: 'Gelecek zaman gövdesi', de: 'Futurstamm', ja: '未来形の語幹' },
+  Situazione: { en: 'Situation', es: 'Situación', fr: 'Situation', cs: 'Situace', pl: 'Sytuacja', tr: 'Durum', de: 'Situation', ja: '場面' },
+  Tempo: { en: 'Tense', es: 'Tiempo verbal', fr: 'Temps', cs: 'Čas', pl: 'Czas', tr: 'Zaman', de: 'Zeitform', ja: '時制' },
+  Participio: { en: 'Participle', es: 'Participio', fr: 'Participe', cs: 'Příčestí', pl: 'Imiesłów', tr: 'Ortaç', de: 'Partizip', ja: '過去分詞' },
+  'Persona / cosa': { en: 'Person / thing', es: 'Persona / cosa', fr: 'Personne / chose', cs: 'Osoba / věc', pl: 'Osoba / rzecz', tr: 'Kişi / nesne', de: 'Person / Sache', ja: '人・物' },
+  Pronome: { en: 'Pronoun', es: 'Pronombre', fr: 'Pronom', cs: 'Zájmeno', pl: 'Zaimek', tr: 'Zamir', de: 'Pronomen', ja: '代名詞' },
+  'Frase al presente': { en: 'Sentence in the present', es: 'Frase en presente', fr: 'Phrase au présent', cs: 'Věta v přítomném čase', pl: 'Zdanie w czasie teraźniejszym', tr: 'Şimdiki zamanda cümle', de: 'Satz im Präsens', ja: '現在形の文' },
+  'Frase al passato': { en: 'Sentence in the past', es: 'Frase en pasado', fr: 'Phrase au passé', cs: 'Věta v minulém čase', pl: 'Zdanie w czasie przeszłym', tr: 'Geçmiş zamanda cümle', de: 'Satz in der Vergangenheit', ja: '過去形の文' },
+  Maschile: { en: 'Masculine', es: 'Masculino', fr: 'Masculin', cs: 'Rod mužský', pl: 'Rodzaj męski', tr: 'Eril', de: 'Maskulin', ja: '男性' },
+  Femminile: { en: 'Feminine', es: 'Femenino', fr: 'Féminin', cs: 'Rod ženský', pl: 'Rodzaj żeński', tr: 'Dişil', de: 'Feminin', ja: '女性' },
+  Plurale: { en: 'Plural', es: 'Plural', fr: 'Pluriel', cs: 'Množné číslo', pl: 'Liczba mnoga', tr: 'Çoğul', de: 'Plural', ja: '複数' },
+  Singolare: { en: 'Singular', es: 'Singular', fr: 'Singulier', cs: 'Jednotné číslo', pl: 'Liczba pojedyncza', tr: 'Tekil', de: 'Singular', ja: '単数' },
+  'Genere e numero': { en: 'Gender and number', es: 'Género y número', fr: 'Genre et nombre', cs: 'Rod a číslo', pl: 'Rodzaj i liczba', tr: 'Cinsiyet ve sayı', de: 'Genus und Numerus', ja: '性と数' },
+  Articolo: { en: 'Article', es: 'Artículo', fr: 'Article', cs: 'Člen', pl: 'Rodzajnik', tr: 'Artikel', de: 'Artikel', ja: '冠詞' },
+  Quando: { en: 'When', es: 'Cuándo', fr: 'Quand', cs: 'Kdy', pl: 'Kiedy', tr: 'Ne zaman', de: 'Wann', ja: 'いつ' },
+  Finale: { en: 'Ending', es: 'Terminación', fr: 'Terminaison', cs: 'Zakončení', pl: 'Końcówka', tr: 'Son ek', de: 'Endung', ja: '語尾' },
+  'Di solito': { en: 'Usually', es: 'Normalmente', fr: 'En général', cs: 'Obvykle', pl: 'Zwykle', tr: 'Genellikle', de: 'Meistens', ja: 'たいてい' },
+  maschile: { en: 'masculine', es: 'masculino', fr: 'masculin', cs: 'mužský', pl: 'męski', tr: 'eril', de: 'maskulin', ja: '男性' },
+  femminile: { en: 'feminine', es: 'femenino', fr: 'féminin', cs: 'ženský', pl: 'żeński', tr: 'dişil', de: 'feminin', ja: '女性' },
+  'maschile o femminile': { en: 'masculine or feminine', es: 'masculino o femenino', fr: 'masculin ou féminin', cs: 'mužský nebo ženský', pl: 'męski lub żeński', tr: 'eril veya dişil', de: 'maskulin oder feminin', ja: '男性または女性' },
+
+  // --- etichette dei riquadri di esempio ---------------------------------
+  Presente: { en: 'Present', es: 'Presente', fr: 'Présent', cs: 'Přítomný čas', pl: 'Czas teraźniejszy', tr: 'Şimdiki zaman', de: 'Gegenwart', ja: '現在' },
+  Passato: { en: 'Past', es: 'Pasado', fr: 'Passé', cs: 'Minulý čas', pl: 'Czas przeszły', tr: 'Geçmiş zaman', de: 'Vergangenheit', ja: '過去' },
+  'Desiderio non reale': { en: 'Unreal wish', es: 'Deseo irreal', fr: 'Souhait irréel', cs: 'Nereálné přání', pl: 'Nierealne życzenie', tr: 'Gerçek dışı dilek', de: 'Irrealer Wunsch', ja: '非現実の願望' },
+  Attiva: { en: 'Active', es: 'Activa', fr: 'Active', cs: 'Činný rod', pl: 'Strona czynna', tr: 'Etken', de: 'Aktiv', ja: '能動態' },
+  Passiva: { en: 'Passive', es: 'Pasiva', fr: 'Passive', cs: 'Trpný rod', pl: 'Strona bierna', tr: 'Edilgen', de: 'Passiv', ja: '受動態' },
+  Maggioranza: { en: 'Superiority', es: 'Superioridad', fr: 'Supériorité', cs: 'Vyšší míra', pl: 'Wyższość', tr: 'Üstünlük', de: 'Höherstufe', ja: '優位' },
+  Minoranza: { en: 'Inferiority', es: 'Inferioridad', fr: 'Infériorité', cs: 'Nižší míra', pl: 'Niższość', tr: 'Azlık', de: 'Geringerstufe', ja: '劣位' },
+  Uguaglianza: { en: 'Equality', es: 'Igualdad', fr: 'Égalité', cs: 'Rovnost', pl: 'Równość', tr: 'Eşitlik', de: 'Gleichheit', ja: '同等' },
+  'Superlativo relativo': { en: 'Relative superlative', es: 'Superlativo relativo', fr: 'Superlatif relatif', cs: 'Relativní superlativ', pl: 'Stopień najwyższy względny', tr: 'Göreli üstünlük derecesi', de: 'Relativer Superlativ', ja: '相対最上級' },
+  'Due persone, cose o momenti?': { en: 'Two people, things or moments?', es: '¿Dos personas, cosas o momentos?', fr: 'Deux personnes, choses ou moments ?', cs: 'Dvě osoby, věci nebo okamžiky?', pl: 'Dwie osoby, rzeczy lub momenty?', tr: 'İki kişi, nesne ya da an?', de: 'Zwei Personen, Dinge oder Zeitpunkte?', ja: '二人・二つのもの・二つの時点？' },
+  'Due caratteristiche o azioni dello stesso termine?': { en: 'Two qualities or actions of the same subject?', es: '¿Dos cualidades o acciones del mismo término?', fr: 'Deux qualités ou actions du même terme ?', cs: 'Dvě vlastnosti nebo činnosti téhož výrazu?', pl: 'Dwie cechy lub czynności tego samego wyrazu?', tr: 'Aynı öğenin iki niteliği ya da eylemi?', de: 'Zwei Eigenschaften oder Handlungen desselben Begriffs?', ja: '同じ対象の二つの性質・動作？' },
+  'Due qualità': { en: 'Two qualities', es: 'Dos cualidades', fr: 'Deux qualités', cs: 'Dvě vlastnosti', pl: 'Dwie cechy', tr: 'İki nitelik', de: 'Zwei Eigenschaften', ja: '二つの性質' },
+  'Due azioni': { en: 'Two actions', es: 'Dos acciones', fr: 'Deux actions', cs: 'Dvě činnosti', pl: 'Dwie czynności', tr: 'İki eylem', de: 'Zwei Handlungen', ja: '二つの動作' },
+  'Due nomi': { en: 'Two nouns', es: 'Dos sustantivos', fr: 'Deux noms', cs: 'Dvě podstatná jména', pl: 'Dwa rzeczowniki', tr: 'İki isim', de: 'Zwei Substantive', ja: '二つの名詞' },
+  'Due espressioni con preposizione': { en: 'Two phrases with a preposition', es: 'Dos expresiones con preposición', fr: 'Deux expressions avec préposition', cs: 'Dva výrazy s předložkou', pl: 'Dwa wyrażenia z przyimkiem', tr: 'Edatlı iki ifade', de: 'Zwei Ausdrücke mit Präposition', ja: '前置詞を含む二つの表現' },
+  Istruzione: { en: 'Instruction', es: 'Instrucción', fr: 'Consigne', cs: 'Pokyn', pl: 'Polecenie', tr: 'Yönerge', de: 'Anweisung', ja: '指示' },
+  Invito: { en: 'Invitation', es: 'Invitación', fr: 'Invitation', cs: 'Pozvání', pl: 'Zaproszenie', tr: 'Davet', de: 'Einladung', ja: '誘い' },
+  Consiglio: { en: 'Advice', es: 'Consejo', fr: 'Conseil', cs: 'Rada', pl: 'Rada', tr: 'Öneri', de: 'Rat', ja: '助言' },
+  Divieto: { en: 'Prohibition', es: 'Prohibición', fr: 'Interdiction', cs: 'Zákaz', pl: 'Zakaz', tr: 'Yasak', de: 'Verbot', ja: '禁止' },
+  'Maschile singolare': { en: 'Masculine singular', es: 'Masculino singular', fr: 'Masculin singulier', cs: 'Mužský rod, jednotné číslo', pl: 'Rodzaj męski, liczba pojedyncza', tr: 'Eril tekil', de: 'Maskulin Singular', ja: '男性単数' },
+  'Femminile singolare': { en: 'Feminine singular', es: 'Femenino singular', fr: 'Féminin singulier', cs: 'Ženský rod, jednotné číslo', pl: 'Rodzaj żeński, liczba pojedyncza', tr: 'Dişil tekil', de: 'Feminin Singular', ja: '女性単数' },
+  'Maschile plurale': { en: 'Masculine plural', es: 'Masculino plural', fr: 'Masculin pluriel', cs: 'Mužský rod, množné číslo', pl: 'Rodzaj męski, liczba mnoga', tr: 'Eril çoğul', de: 'Maskulin Plural', ja: '男性複数' },
+  'Femminile plurale': { en: 'Feminine plural', es: 'Femenino plural', fr: 'Féminin pluriel', cs: 'Ženský rod, množné číslo', pl: 'Rodzaj żeński, liczba mnoga', tr: 'Dişil çoğul', de: 'Feminin Plural', ja: '女性複数' },
+  Identità: { en: 'Identity', es: 'Identidad', fr: 'Identité', cs: 'Totožnost', pl: 'Tożsamość', tr: 'Kimlik', de: 'Identität', ja: '身元' },
+  Nazionalità: { en: 'Nationality', es: 'Nacionalidad', fr: 'Nationalité', cs: 'Národnost', pl: 'Narodowość', tr: 'Uyruk', de: 'Nationalität', ja: '国籍' },
+  Caratteristica: { en: 'Characteristic', es: 'Característica', fr: 'Caractéristique', cs: 'Vlastnost', pl: 'Cecha', tr: 'Özellik', de: 'Eigenschaft', ja: '特徴' },
+  Posizione: { en: 'Position', es: 'Posición', fr: 'Position', cs: 'Poloha', pl: 'Położenie', tr: 'Konum', de: 'Position', ja: '位置' },
+};
+
+// Prefissi che introducono una forma sbagliata o corretta: l'etichetta si
+// traduce, la forma italiana che segue resta intatta.
+export const PREFIXES = {
+  'Errato:': { en: 'Wrong:', es: 'Incorrecto:', fr: 'Incorrect :', cs: 'Špatně:', pl: 'Błędnie:', tr: 'Yanlış:', de: 'Falsch:', ja: '誤：' },
+  'Corretto:': { en: 'Correct:', es: 'Correcto:', fr: 'Correct :', cs: 'Správně:', pl: 'Poprawnie:', tr: 'Doğru:', de: 'Richtig:', ja: '正：' },
+  'Non:': { en: 'Not:', es: 'No:', fr: 'Pas :', cs: 'Ne:', pl: 'Nie:', tr: 'Değil:', de: 'Nicht:', ja: '不可：' },
+};
+
+// Etichetta accessibile del blocco di download.
+export const PDF_DOWNLOADS = {
+  it: 'Download PDF',
+  en: 'PDF downloads',
+  es: 'Descargas de PDF',
+  fr: 'Téléchargements PDF',
+  cs: 'Soubory PDF ke stažení',
+  pl: 'Pliki PDF do pobrania',
+  tr: 'PDF indirmeleri',
+  de: 'PDF-Downloads',
+  ja: 'PDFのダウンロード',
+};
+
+// Intestazione del blocco di domande di comprensione.
+export const COMPREHENSION = {
+  it: 'Comprensione',
+  en: 'Comprehension',
+  es: 'Comprensión',
+  fr: 'Compréhension',
+  cs: 'Porozumění',
+  pl: 'Zrozumienie',
+  tr: 'Anlama',
+  de: 'Verständnis',
+  ja: '内容理解',
+};
+
+// Voci di navigazione interna delle lezioni di grammatica (`.lesson-nav`).
+// Alcune contengono una forma italiana: resta in italiano dentro uno <span>.
+export const NAV_LABELS = {
+  Forme: { en: 'Forms', es: 'Formas', fr: 'Formes', cs: 'Tvary', pl: 'Formy', tr: 'Biçimler', de: 'Formen', ja: '形' },
+  Forma: { en: 'Form', es: 'Forma', fr: 'Forme', cs: 'Tvar', pl: 'Forma', tr: 'Biçim', de: 'Form', ja: '形' },
+  Uso: { en: 'Use', es: 'Uso', fr: 'Emploi', cs: 'Použití', pl: 'Użycie', tr: 'Kullanım', de: 'Gebrauch', ja: '用法' },
+  Usi: { en: 'Uses', es: 'Usos', fr: 'Emplois', cs: 'Použití', pl: 'Zastosowania', tr: 'Kullanımlar', de: 'Verwendungen', ja: '用法' },
+  Concordanza: { en: 'Agreement', es: 'Concordancia', fr: 'Accord', cs: 'Shoda', pl: 'Zgodność', tr: 'Uyum', de: 'Angleichung', ja: '一致' },
+  Accordo: { en: 'Agreement', es: 'Concordancia', fr: 'Accord', cs: 'Shoda', pl: 'Zgodność', tr: 'Uyum', de: 'Angleichung', ja: '一致' },
+  Esercizi: { en: 'Exercises', es: 'Ejercicios', fr: 'Exercices', cs: 'Cvičení', pl: 'Ćwiczenia', tr: 'Alıştırmalar', de: 'Übungen', ja: '練習問題' },
+  Regola: { en: 'Rule', es: 'Regla', fr: 'Règle', cs: 'Pravidlo', pl: 'Zasada', tr: 'Kural', de: 'Regel', ja: 'ルール' },
+  Tabella: { en: 'Table', es: 'Tabla', fr: 'Tableau', cs: 'Tabulka', pl: 'Tabela', tr: 'Tablo', de: 'Tabelle', ja: '活用表' },
+  Tabelle: { en: 'Tables', es: 'Tablas', fr: 'Tableaux', cs: 'Tabulky', pl: 'Tabele', tr: 'Tablolar', de: 'Tabellen', ja: '活用表' },
+  Esempi: { en: 'Examples', es: 'Ejemplos', fr: 'Exemples', cs: 'Příklady', pl: 'Przykłady', tr: 'Örnekler', de: 'Beispiele', ja: '例文' },
+  'Quando usarlo': { en: 'When to use it', es: 'Cuándo usarlo', fr: 'Quand l’employer', cs: 'Kdy ho použít', pl: 'Kiedy go używać', tr: 'Ne zaman kullanılır', de: 'Wann man es benutzt', ja: '使いどころ' },
+  Irregolari: { en: 'Irregular verbs', es: 'Irregulares', fr: 'Irréguliers', cs: 'Nepravidelná slovesa', pl: 'Nieregularne', tr: 'Düzensizler', de: 'Unregelmäßige', ja: '不規則動詞' },
+  Tipi: { en: 'Types', es: 'Tipos', fr: 'Types', cs: 'Typy', pl: 'Typy', tr: 'Türler', de: 'Typen', ja: '種類' },
+  Possibile: { en: 'Possible', es: 'Posible', fr: 'Possible', cs: 'Možné', pl: 'Możliwe', tr: 'Olası', de: 'Möglich', ja: '可能' },
+  Irreale: { en: 'Unreal', es: 'Irreal', fr: 'Irréel', cs: 'Nereálné', pl: 'Nierealne', tr: 'Gerçek dışı', de: 'Irreal', ja: '非現実' },
+  Traduzione: { en: 'Translation', es: 'Traducción', fr: 'Traduction', cs: 'Překlad', pl: 'Tłumaczenie', tr: 'Çeviri', de: 'Übersetzung', ja: '翻訳' },
+  Errori: { en: 'Mistakes', es: 'Errores', fr: 'Erreurs', cs: 'Chyby', pl: 'Błędy', tr: 'Hatalar', de: 'Fehler', ja: 'よくある誤り' },
+  Scelta: { en: 'Choice', es: 'Elección', fr: 'Choix', cs: 'Volba', pl: 'Wybór', tr: 'Seçim', de: 'Wahl', ja: '使い分け' },
+  Confronti: { en: 'Comparisons', es: 'Comparaciones', fr: 'Comparaisons', cs: 'Srovnání', pl: 'Porównania', tr: 'Karşılaştırmalar', de: 'Vergleiche', ja: '比較' },
+  'Al passato': { en: 'In the past', es: 'En pasado', fr: 'Au passé', cs: 'V minulosti', pl: 'W przeszłości', tr: 'Geçmişte', de: 'In der Vergangenheit', ja: '過去形で' },
+  Posizione: { en: 'Position', es: 'Posición', fr: 'Position', cs: 'Poloha', pl: 'Położenie', tr: 'Konum', de: 'Position', ja: '位置' },
+  'Idea semplice': { en: 'The simple idea', es: 'La idea simple', fr: 'L’idée simple', cs: 'Základní myšlenka', pl: 'Prosta zasada', tr: 'Temel fikir', de: 'Die einfache Idee', ja: '基本の考え方' },
+  'Frasi utili': { en: 'Useful phrases', es: 'Frases útiles', fr: 'Phrases utiles', cs: 'Užitečné fráze', pl: 'Przydatne zwroty', tr: 'Yararlı cümleler', de: 'Nützliche Sätze', ja: '役立つ表現' },
+  'Di o che?': {
+    en: '<span lang="it">Di</span> or <span lang="it">che</span>?', es: '<span lang="it">Di</span> o <span lang="it">che</span>?',
+    fr: '<span lang="it">Di</span> ou <span lang="it">che</span> ?', cs: '<span lang="it">Di</span>, nebo <span lang="it">che</span>?',
+    pl: '<span lang="it">Di</span> czy <span lang="it">che</span>?', tr: '<span lang="it">Di</span> mi, <span lang="it">che</span> mi?',
+    de: '<span lang="it">Di</span> oder <span lang="it">che</span>?', ja: '<span lang="it">Di</span> と <span lang="it">che</span>',
+  },
+  'Con ne': {
+    en: 'With <span lang="it">ne</span>', es: 'Con <span lang="it">ne</span>', fr: 'Avec <span lang="it">ne</span>',
+    cs: 'S <span lang="it">ne</span>', pl: 'Z <span lang="it">ne</span>', tr: '<span lang="it">ne</span> ile',
+    de: 'Mit <span lang="it">ne</span>', ja: '<span lang="it">ne</span> を使う',
+  },
+  'Essere o avere': {
+    en: '<span lang="it">Essere</span> or <span lang="it">avere</span>?', es: '<span lang="it">Essere</span> o <span lang="it">avere</span>?',
+    fr: '<span lang="it">Essere</span> ou <span lang="it">avere</span> ?', cs: '<span lang="it">Essere</span>, nebo <span lang="it">avere</span>?',
+    pl: '<span lang="it">Essere</span> czy <span lang="it">avere</span>?', tr: '<span lang="it">Essere</span> mi, <span lang="it">avere</span> mi?',
+    de: '<span lang="it">Essere</span> oder <span lang="it">avere</span>?', ja: '<span lang="it">Essere</span> と <span lang="it">avere</span>',
+  },
+};

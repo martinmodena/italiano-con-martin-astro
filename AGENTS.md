@@ -5,6 +5,8 @@ Manuale operativo del progetto. Vale per qualsiasi assistente AI (Claude Code, C
 Gli altri due documenti hanno ruoli distinti:
 
 - `DECISIONI_SITO.md` — registro cronologico delle decisioni su sito, contenuti, lingue e SEO. Da leggere prima di modifiche strutturali; ogni nuova decisione va registrata lì nella stessa sessione.
+- `REGOLE_LINGUE.md` — **quali parti di una pagina restano in italiano e quali vanno nella lingua del visitatore.**
+  Da leggere prima di creare, tradurre o correggere qualsiasi pagina localizzata: le regole valgono sempre, senza eccezioni.
 - `SITE_AUDIT.md` — esito dell'ultima revisione dei contenuti.
 
 ## Il sito in breve
@@ -65,7 +67,9 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
 - **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **36 differenze su 1119 pagine**, tutte volute (le 18 pagine indice di `letture/` e `favole/` senza più l'elenco testuale iniziale, le 9 home riscritte, le 9 pagine «Chi siamo» e la home inglese aggiornate con la tariffa di 12 €). Se il numero sale oltre queste 36, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
 
-- Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori. I brani di studio restano in italiano con `lang="it"`; interfaccia, istruzioni, vocabolario e domande vanno localizzati.
+- Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori.
+
+- **Mescolanza delle lingue: vale `REGOLE_LINGUE.md`, sempre.** In sintesi: l'italiano è ciò che si impara (brani, esempi, coniugazioni, forme citate, domande di comprensione) e non si traduce mai, marcato `lang="it"`; la lingua del visitatore è ciò che spiega (menu, titoli, spiegazioni, istruzioni, etichette, attributi `alt`/`aria-label`/`data-hint`, SEO) e va tradotta al 100%. Il marchio «Italiano con Martin» e i nomi Martin e Licia non si traducono in nessuna lingua. Prima di tradurre in automatico vanno protetti i blocchi della lingua-oggetto: la lista in `scripts/generate-localized-resources.mjs` è incompleta e ha già rotto centinaia di pagine.
 
 - Gli URL pubblici non si cambiano: sono indicizzati. I vecchi percorsi restano come redirect `noindex` in `public/`.
 
