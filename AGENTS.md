@@ -43,6 +43,13 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
 ## Regole operative
 
+- **Una pagina nuova non esiste finché non è negli indici.** Ogni volta che si aggiunge una lettura, una favola, una lezione di grammatica o una scheda di vocabolario bisogna, nella stessa sessione:
+  1. creare il frammento in `src/html/` e la pagina in `src/pages/`, **in tutte e 9 le lingue**;
+  2. aggiungerla alla pagina indice della sua categoria (`letture/`, `favole/`, `grammatica/`, `vocabolario/`) **e a ogni indice che la contiene anche indirettamente** — per esempio una favola va sia in `favole/index.html` sia nella sezione «Favole» di `letture/index.html`, in tutte le lingue;
+  3. aggiungerla a `public/sitemap.xml`.
+
+  Controllo veloce prima di chiudere: `node scripts/audit-links.mjs --strict` e un confronto tra i file presenti in `src/html/<categoria>/` e i link presenti negli indici.
+
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```
@@ -56,7 +63,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
 
-- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Deve restare a **0 differenze su 1119 pagine**. Se il numero sale, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **26 differenze su 1119 pagine**, tutte volute (le 18 pagine indice di `letture/` e `favole/` senza più l'elenco testuale iniziale e le 8 home riscritte: italiano, spagnolo, francese, tedesco, ceco, polacco, turco, giapponese). Se il numero sale oltre queste 26, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
 
 - Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori. I brani di studio restano in italiano con `lang="it"`; interfaccia, istruzioni, vocabolario e domande vanno localizzati.
 
