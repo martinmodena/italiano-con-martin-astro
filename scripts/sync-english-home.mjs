@@ -42,21 +42,21 @@ text('.teachers-section .section-heading .eyebrow', 'Two teachers, two approache
 text('.teachers-section h2', 'Choose the teacher who fits you best.');
 text(
   '.teachers-section .section-heading > p',
-  'Martin and Licia teach Italian online for €10 per lesson. Choose the profile that feels closest to your goals.'
+  'Martin and Licia teach Italian online for €12 per lesson. Choose the profile that feels closest to your goals.'
 );
 text('.teacher-card:nth-of-type(1) h3', 'Science, technology and etymology');
 text(
   '.teacher-card:nth-of-type(1) div p:nth-of-type(2)',
   'Martin loves explaining how things work, where words come from and how language connects with culture and the modern world.'
 );
-text('.teacher-card:nth-of-type(1) .teacher-price', '€10 per lesson');
+text('.teacher-card:nth-of-type(1) .teacher-price', '€12 per lesson');
 text('.teacher-card:nth-of-type(1) .button', "View Martin's profile");
 text('.teacher-card:nth-of-type(2) h3', 'Art, patience and grammar');
 text(
   '.teacher-card:nth-of-type(2) div p:nth-of-type(2)',
   'Licia is patient, loves art and is especially good at grammar. She helps you understand rules calmly and use them in conversation.'
 );
-text('.teacher-card:nth-of-type(2) .teacher-price', '€10 per lesson');
+text('.teacher-card:nth-of-type(2) .teacher-price', '€12 per lesson');
 text('.teacher-card:nth-of-type(2) .button', "View Licia's profile");
 text('.level-path-section .eyebrow', 'Quick path');
 text('.level-path-section h2', 'Choose your level.');
@@ -146,7 +146,7 @@ source('[href="/chi-siamo/"]').attr('href', '/en/about-us/');
 
 const replacements = {
   'Dettagli della lezione': 'Lesson details',
-  '10€ a lezione': '€10 per lesson',
+  '12€ a lezione': '€12 per lesson',
   'Lezione individuale': 'One-to-one lesson',
   'Conversazione reale': 'Real conversation',
   'Percorso personalizzato': 'Personalized path',
@@ -155,13 +155,13 @@ const replacements = {
   'Scegli Martin o Licia in base al tuo stile.': 'Choose Martin or Licia based on your style.',
   'Lezioni 1:1 online': 'One-to-one online lessons',
   'Obiettivi, interessi e ritmo personali.': 'Personal goals, interests and pace.',
-  '10€ per lezione': '€10 per lesson',
+  '12€ per lezione': '€12 per lesson',
   'Grammatica, conversazione e materiali inclusi.': 'Grammar, conversation and materials included.',
   'Favole A1-C1': 'Graded stories A1-C1',
   'Letture graduate': 'Graded readings',
   'Immagini e pronuncia': 'Images and pronunciation',
-  'Lezioni online individuali a 10€, letture graduate, grammatica e vocabolario.':
-    'One-to-one online lessons at €10, graded readings, grammar and vocabulary.',
+  'Lezioni online individuali a 12€, letture graduate, grammatica e vocabolario.':
+    'One-to-one online lessons at €12, graded readings, grammar and vocabulary.',
   '>Letture<': '>Readings<',
   '>Grammatica<': '>Grammar<',
   '>Vocabolario<': '>Vocabulary<',
