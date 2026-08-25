@@ -63,7 +63,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
 
-- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **26 differenze su 1119 pagine**, tutte volute (le 18 pagine indice di `letture/` e `favole/` senza più l'elenco testuale iniziale e le 8 home riscritte: italiano, spagnolo, francese, tedesco, ceco, polacco, turco, giapponese). Se il numero sale oltre queste 26, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **36 differenze su 1119 pagine**, tutte volute (le 18 pagine indice di `letture/` e `favole/` senza più l'elenco testuale iniziale, le 9 home riscritte, le 9 pagine «Chi siamo» e la home inglese aggiornate con la tariffa di 12 €). Se il numero sale oltre queste 36, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
 
 - Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori. I brani di studio restano in italiano con `lang="it"`; interfaccia, istruzioni, vocabolario e domande vanno localizzati.
 
