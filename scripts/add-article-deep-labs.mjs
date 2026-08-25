@@ -163,9 +163,15 @@ const labs = {
 for (const [slug, cards] of Object.entries(labs)) {
   const file = path.join(root, 'legacy-html', 'letture', `${slug}.html`);
   let html = readFileSync(file, 'utf8');
-  html = html.replace(/\n\s*<article class="story-card">\s*<header><div><span class="level">LAB[\s\S]*?(?=\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti)/, '\n');
+  html = html.replace(
+    /\n\s*<article class="story-card">\s*<header><div><span class="level">LAB[\s\S]*?(?=\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti)/,
+    '\n'
+  );
   const block = toAsciiHtml(cards.map(renderCard).join('\n'));
-  html = html.replace(/\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti/, `\n${block}\n      <article class="story-card">\n        <header><div><span class="level">Fonti`);
+  html = html.replace(
+    /\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti/,
+    `\n${block}\n      <article class="story-card">\n        <header><div><span class="level">Fonti`
+  );
   writeFileSync(file, html, 'utf8');
 }
 

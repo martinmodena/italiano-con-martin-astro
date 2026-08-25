@@ -151,3 +151,16 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Il selettore nell'header mostra la bandiera SVG della lingua corrente, non una sigla testuale o un'emoji che possa trasformarsi in lettere a seconda del sistema operativo.
 - Nel menu a tendina ogni lingua è preceduta dalla stessa bandierina; il nome completo della lingua resta visibile per chiarezza.
 - Le bandiere sono asset locali, leggeri e comuni a tutte le pagine, così il comportamento resta identico in ogni versione del sito.
+
+## 2026-08-25 - Migrazione ad Astro come sorgente e builder
+
+- Il sito pubblicato è la build Astro (`npm run build` → `dist/`); il workflow di deploy non copia più `legacy-html/`.
+- La sorgente dei contenuti è nel progetto Astro: frammenti HTML in `src/html/`, pagine sottili in `src/pages/`, layout unico `src/layouts/SiteLayout.astro`, testi UI per lingua in `src/data/i18n.json`.
+- Gli asset statici (immagini, PDF, styles.css, script.js, robots.txt, sitemap.xml, CNAME, redirect noindex) vivono in `public/` e vengono pubblicati tali e quali.
+- Gli URL restano identici al sito storico, compresi i percorsi `.html` (garantiti da `scripts/migrate/flatten-html.mjs` dopo la build) e gli slug giapponesi.
+- La parità con il sito storico è stata verificata pagina per pagina con `npm run verify:parity`: 1119 pagine su 1119 identiche a livello DOM.
+- La migrazione corregge il bug delle 11 pagine (tutte le home) con `<head></head>` vuoto e i metadati SEO nel body: ora i metadati stanno nel head reale.
+- Gli audit (`audit:site`, `audit:vocabulary`, `audit:grammar-seo`) esaminano `dist/` (variabile `SITE_ROOT` per cambiare cartella) e girano in CI dopo la build, prima del deploy.
+- `legacy-html/` resta come riferimento storico congelato: non va più modificato; `npm run import:html` e i generatori collegati sono stati ritirati dagli script npm.
+- La sitemap resta il file statico curato `public/sitemap.xml`; l'integrazione sitemap di Astro è disattivata.
+- `legacy-html/` va rimosso dal repository soltanto dopo il primo deploy Astro andato a buon fine: finché resta presente, un rollback immediato è possibile ripristinando il vecchio workflow. Fino ad allora i PDF risultano duplicati su disco (in `legacy-html/pdf/` e `public/pdf/`); Git non duplica i contenuti identici, quindi il costo è solo nella copia di lavoro.

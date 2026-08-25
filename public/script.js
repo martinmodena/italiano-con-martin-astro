@@ -3,6 +3,18 @@
   const nav = header?.querySelector('nav');
   const navWrap = header?.querySelector('.nav-wrap');
   const year = document.querySelector('#year');
+  const menuLabels = {
+    it: ['Apri il menu', 'Chiudi il menu'],
+    en: ['Open menu', 'Close menu'],
+    es: ['Abrir menú', 'Cerrar menú'],
+    fr: ['Ouvrir le menu', 'Fermer le menu'],
+    cs: ['Otevřít menu', 'Zavřít menu'],
+    pl: ['Otwórz menu', 'Zamknij menu'],
+    tr: ['Menüyü aç', 'Menüyü kapat'],
+    de: ['Menü öffnen', 'Menü schließen'],
+    ja: ['メニューを開く', 'メニューを閉じる'],
+  };
+
 
   if (year) year.textContent = new Date().getFullYear();
   if (!header || !nav || !navWrap) return;
@@ -16,21 +28,22 @@
     menuButton.type = 'button';
     menuButton.setAttribute('aria-controls', nav.id);
     menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Apri il menu');
     menuButton.innerHTML = '<span></span><span></span><span></span>';
     navWrap.insertBefore(menuButton, nav);
   }
 
   function closeMenu() {
+    const labels = getMenuLabels();
     nav.classList.remove('open');
     menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Apri il menu');
+    menuButton.setAttribute('aria-label', labels[0]);
   }
 
   menuButton.addEventListener('click', () => {
+    const labels = getMenuLabels();
     const open = nav.classList.toggle('open');
     menuButton.setAttribute('aria-expanded', String(open));
-    menuButton.setAttribute('aria-label', open ? 'Chiudi il menu' : 'Apri il menu');
+    menuButton.setAttribute('aria-label', open ? labels[1] : labels[0]);
   });
 
   nav.querySelectorAll('a').forEach((link) => {
@@ -64,7 +77,14 @@
     window.setTimeout(scrollToCurrentHash, 0);
   });
 
+  menuButton.setAttribute('aria-label', getMenuLabels()[0]);
   window.setTimeout(scrollToCurrentHash, 0);
+
+  function getMenuLabels() {
+    const language = (document.documentElement.lang || 'it').toLowerCase().split('-')[0];
+    return menuLabels[language] || menuLabels.it;
+  }
+
 })();
 
 (() => {
@@ -73,13 +93,7 @@
   function addPrivacyLink() {
     const footerLinks = document.querySelector('.footer-grid > div:last-child');
     if (!footerLinks || footerLinks.querySelector('a[href$="privacy.html"]')) return;
-
-    const labels = {
-      de: 'Datenschutz',
-      es: 'Privacidad',
-      fr: 'Confidentialité',
-      pt: 'Privacidade',
-    };
+    const labels = { de: 'Datenschutz', es: 'Privacidad', fr: 'Confidentialité', pt: 'Privacidade' };
     const language = (document.documentElement.lang || 'it').toLowerCase().split('-')[0];
     const link = document.createElement('a');
     link.href = '/privacy.html';
@@ -89,7 +103,6 @@
 
   function loadCloudflareAnalytics() {
     if (document.querySelector('script[data-cf-beacon]')) return;
-
     const beacon = document.createElement('script');
     beacon.defer = true;
     beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';

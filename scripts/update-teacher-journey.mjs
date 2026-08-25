@@ -367,10 +367,14 @@ function updatePage(file) {
   // same accessible navigation contract as every other generated page.
   if (!$('.language-switcher').length) {
     const current = $('html').attr('lang') || language;
-    const options = Object.entries(copy).map(([code, value]) => {
-      const href = $(`link[rel="alternate"][hreflang="${code}"]`).attr('href') || (code === language ? `/${relative}` : `/${code}/`);
-      return `<a href="${href}" hreflang="${code}" lang="${code}"${code === current ? ' aria-current="page"' : ''}><span aria-hidden="true">${value.flag}</span><span>${escapeHtml(value.languageName)}</span></a>`;
-    }).join('');
+    const options = Object.entries(copy)
+      .map(([code, value]) => {
+        const href =
+          $(`link[rel="alternate"][hreflang="${code}"]`).attr('href') ||
+          (code === language ? `/${relative}` : `/${code}/`);
+        return `<a href="${href}" hreflang="${code}" lang="${code}"${code === current ? ' aria-current="page"' : ''}><span aria-hidden="true">${value.flag}</span><span>${escapeHtml(value.languageName)}</span></a>`;
+      })
+      .join('');
     const selector = `<details class="language-switcher"><summary aria-label="Language"><span class="language-flag" aria-hidden="true">${copy[current]?.flag || copy[language].flag}</span><span class="language-current">${escapeHtml(copy[current]?.languageName || copy[language].languageName)}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options">${options}</div></details>`;
     $('.nav-wrap').first().prepend(selector);
   }
@@ -381,17 +385,24 @@ function updatePage(file) {
     );
   }
   if (!$('footer .footer-grid').length && $('footer').length) {
-    $('footer').replaceWith(`<footer><div class="container footer-grid"><div><strong>Italiano con Martin</strong><p>${escapeHtml(copy[language].footer)}</p></div><div><a href="${categories[language].readings}">${escapeHtml(copy[language].readings)}</a><a href="${categories[language].grammar}">${escapeHtml(copy[language].grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(copy[language].vocabulary)}</a><a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a></div></div></footer>`);
+    $('footer').replaceWith(
+      `<footer><div class="container footer-grid"><div><strong>Italiano con Martin</strong><p>${escapeHtml(copy[language].footer)}</p></div><div><a href="${categories[language].readings}">${escapeHtml(copy[language].readings)}</a><a href="${categories[language].grammar}">${escapeHtml(copy[language].grammar)}</a><a href="${categories[language].vocabulary}">${escapeHtml(copy[language].vocabulary)}</a><a class="about-link" href="${aboutHref}">${escapeHtml(copy[language].about)}</a></div></div></footer>`
+    );
   }
 
   $('.site-header nav .about-link, footer .about-link').remove();
   const nav = $('.site-header nav').first();
   nav.find('.nav-cta').remove();
   const vocabularyHref = categories[language].vocabulary;
-  const equivalentVocabularyLinks = (container) => container.find('a').filter((_, element) => {
-    const current = $(element).attr('href') || '';
-    return current === vocabularyHref || `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref || $(element).text().trim() === copy[language].vocabulary;
-  });
+  const equivalentVocabularyLinks = (container) =>
+    container.find('a').filter((_, element) => {
+      const current = $(element).attr('href') || '';
+      return (
+        current === vocabularyHref ||
+        `/${current.replace(/^(?:\.\.\/)+/, '')}` === vocabularyHref ||
+        $(element).text().trim() === copy[language].vocabulary
+      );
+    });
   const navVocabularyLinks = equivalentVocabularyLinks(nav);
   navVocabularyLinks.each((index, element) => {
     if (index > 0) $(element).remove();
@@ -496,7 +507,11 @@ function normalizeNavigation($, language, aboutHref, isAboutPage) {
     { key: 'about', href: aboutHref, label: t.about },
   ];
 
-  const route = (value) => String(value || '').split('#')[0].replace(/^((\.\.\/)+|\.?\/)+/, '').replace(/^\/+/, '');
+  const route = (value) =>
+    String(value || '')
+      .split('#')[0]
+      .replace(/^((\.\.\/)+|\.?\/)+/, '')
+      .replace(/^\/+/, '');
   const matches = (href, target) => {
     const current = route(href);
     const expected = route(target);
@@ -512,7 +527,9 @@ function normalizeNavigation($, language, aboutHref, isAboutPage) {
       let index = existing.findIndex((element, position) => {
         if (used.has(position)) return false;
         const link = $(element);
-        return item.key === 'about' ? link.hasClass('about-link') || matches(link.attr('href'), item.href) : matches(link.attr('href'), item.href);
+        return item.key === 'about'
+          ? link.hasClass('about-link') || matches(link.attr('href'), item.href)
+          : matches(link.attr('href'), item.href);
       });
       let link;
       if (index >= 0) {
@@ -535,7 +552,11 @@ function normalizeNavigation($, language, aboutHref, isAboutPage) {
     if (preserveExtras) {
       existing.forEach((element, index) => {
         const link = $(element);
-        const isKnown = desired.some((item) => item.key === 'about' ? link.hasClass('about-link') || matches(link.attr('href'), item.href) : matches(link.attr('href'), item.href));
+        const isKnown = desired.some((item) =>
+          item.key === 'about'
+            ? link.hasClass('about-link') || matches(link.attr('href'), item.href)
+            : matches(link.attr('href'), item.href)
+        );
         if (!used.has(index) && !isKnown) {
           ordered.push(link.clone());
           link.remove();

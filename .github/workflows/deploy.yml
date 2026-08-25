@@ -1,4 +1,4 @@
-name: Publish HTML site to GitHub Pages
+name: Build Astro site and publish to GitHub Pages
 
 on:
   push:
@@ -28,37 +28,25 @@ jobs:
           node-version: 24
           cache: npm
 
-      - name: Install audit dependencies
+      - name: Install dependencies
         run: npm ci
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Audit site inventory
+      - name: Build site
+        run: npm run build
+
+      - name: Audit site inventory (dist)
         run: node scripts/audit-site.mjs --strict
 
-      - name: Prepare static HTML site
-        shell: bash
-        run: |
-          rm -rf dist
-          mkdir -p dist
-          cp -R legacy-html/. dist/
-          find dist -name '.gitkeep' -delete
-          rm -f dist/assets/martin-portrait.png
-          rm -f dist/assets/licia.png
-          rm -f dist/assets/cane-osso-realistica.jpg
-          rm -f dist/assets/story-cane-osso-home.webp
-          rm -f dist/assets/story-cane-osso.jpg
-          rm -f dist/assets/story-cicala-formica.jpg
-          rm -f dist/assets/story-leone-topo.jpg
-          rm -f dist/assets/story-lepre-tartaruga.jpg
-          rm -f dist/assets/story-lupo-tre-porcellini.jpg
-          rm -f dist/assets/story-mugnaio-figlio-asino.jpg
-          rm -f dist/assets/story-pastorello.jpg
-          rm -f dist/assets/story-topo-citta-campagna.jpg
-          rm -f dist/assets/story-volpe-uva.jpg
+      - name: Audit vocabulary (dist)
+        run: node scripts/audit-vocabulary.mjs
 
-      - name: Upload only static site files
+      - name: Audit grammar SEO (dist)
+        run: node scripts/audit-grammar-seo.mjs
+
+      - name: Upload static site files
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist

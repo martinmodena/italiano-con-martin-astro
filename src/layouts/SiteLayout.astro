@@ -1,0 +1,88 @@
+---
+// Layout unico del sito: riproduce la struttura delle pagine legacy
+// (head SEO, header con selettore lingua, contenuto, footer, script).
+// Il contenuto arriva come frammento HTML già pronto (prop `main`,
+// tipicamente `<main>…</main>` più eventuali sezioni finali).
+import i18n from '~/data/i18n.json';
+
+export interface PageMeta {
+  path: string;
+  lang: string;
+  title: string;
+  description: string | null;
+  canonical: string | null;
+  robots: string | null;
+  author: string | null;
+  og: [string, string][];
+  jsonld: string[];
+  hreflangs: [string, string][];
+  extraHead: string[];
+  stylesheetHref: string;
+  assetPrefix: string;
+  iconLinks: string[];
+  brandHref: string;
+  brandImgSrc: string;
+  optionsHtml: string;
+  headerHtml?: string;
+  bodyScripts: string[];
+  ui?: { summaryAria: string; nav: string; footerGrid: string };
+}
+
+const { meta, main } = Astro.props as { meta: PageMeta; main: string };
+
+const ui = meta.ui ?? i18n.ui[meta.lang];
+const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '' };
+---
+
+<!doctype html>
+<html lang={meta.lang}>
+  <head>
+    {meta.hreflangs.map(([l, href]) => <link rel="alternate" hreflang={l} href={href} />)}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{meta.title}</title>
+    {meta.description !== null && <meta name="description" content={meta.description} />}
+    {meta.canonical !== null && <link rel="canonical" href={meta.canonical} />}
+    {meta.robots !== null && <meta name="robots" content={meta.robots} />}
+    {meta.author !== null && <meta name="author" content={meta.author} />}
+    {
+      meta.og.map(([key, value]) =>
+        key.startsWith('og:') ? <meta property={key} content={value} /> : <meta name={key} content={value} />
+      )
+    }
+    {meta.jsonld.map((json) => <script type="application/ld+json" set:html={json} />)}
+    {meta.extraHead.map((html) => <Fragment set:html={html} />)}
+    <link rel="stylesheet" href={meta.stylesheetHref} />
+    {meta.iconLinks.map((html) => <Fragment set:html={html} />)}
+  </head>
+  <body>
+    <header class="site-header">
+      {
+        meta.headerHtml !== undefined ? (
+          <div class="container nav-wrap" set:html={meta.headerHtml} />
+        ) : (
+          <div class="container nav-wrap">
+            <a class="brand" href={meta.brandHref}>
+              <img class="brand-avatar" src={meta.brandImgSrc} alt="Martin" width="48" height="48" decoding="async" />
+              <span>Italiano con Martin</span>
+            </a>
+            <details class="language-switcher">
+              <summary aria-label={ui.summaryAria}>
+                <span class="language-flag" aria-hidden="true" set:text={current.flag} />
+                <span class="language-current" set:text={current.name} />
+                <span class="language-chevron" aria-hidden="true" set:text={'⌄'} />
+              </summary>
+              <div class="language-options" set:html={meta.optionsHtml} />
+            </details>
+            <nav set:html={ui.nav} />
+          </div>
+        )
+      }
+    </header>
+    <Fragment set:html={main} />
+    <footer>
+      <div class="container footer-grid" set:html={ui.footerGrid} />
+    </footer>
+    {meta.bodyScripts.map((script) => <Fragment set:html={script} />)}
+  </body>
+</html>

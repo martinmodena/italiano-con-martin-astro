@@ -65,7 +65,9 @@
     if (firstLevel) {
       document.querySelector('.course-progress-container')?.remove();
       const container = document.createElement('div');
-      container.className = 'container course-progress-container';
+      // The grammar index already has an outer .container. Avoid nesting a
+      // second constrained container so overall progress uses the full width.
+      container.className = 'course-progress-container';
       container.appendChild(createSummary(text.course, courseDone, courseTotal, 'course-progress-summary'));
       firstLevel.insertAdjacentElement('beforebegin', container);
     }

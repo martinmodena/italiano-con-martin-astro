@@ -127,8 +127,15 @@ const storyDirectoryLabels = {
   ja: 'すべての物語',
 };
 const readingDirectoryLabels = {
-  it: 'Tutte le letture', en: 'All readings', es: 'Todas las lecturas', fr: 'Toutes les lectures',
-  cs: 'Všechna čtení', pl: 'Wszystkie czytanki', tr: 'Tüm okumalar', de: 'Alle Lesetexte', ja: 'すべての読み物',
+  it: 'Tutte le letture',
+  en: 'All readings',
+  es: 'Todas las lecturas',
+  fr: 'Toutes les lectures',
+  cs: 'Všechna čtení',
+  pl: 'Wszystkie czytanki',
+  tr: 'Tüm okumalar',
+  de: 'Alle Lesetexte',
+  ja: 'すべての読み物',
 };
 const legacyCategories = { letture: 'readings', favole: 'stories', grammatica: 'grammar', vocabolario: 'vocabulary' };
 const slugOverrides = {
@@ -168,11 +175,56 @@ const slugOverrides = {
     'il-cane-e-losso': 'le-chien-et-los',
     'i-vestiti-nuovi-dellimperatore': 'les-habits-neufs-de-lempereur',
   },
-  cs: { 'verbo-essere': 'sloveso-byt', 'la-meraviglia-del-dna': 'zazrak-dna', 'i-vestiti-nuovi-dellimperatore': 'cisarovy-nove-saty', cucina: 'italska-slovni-zasoba-kuchyne', abbigliamento: 'italska-slovni-zasoba-obleceni', cibo: 'italska-slovni-zasoba-jidlo', salotto: 'italska-slovni-zasoba-obyvaci-pokoj', ufficio: 'italska-slovni-zasoba-kancelar' },
-  pl: { 'verbo-essere': 'czasownik-byc', 'la-meraviglia-del-dna': 'cud-dna', 'i-vestiti-nuovi-dellimperatore': 'nowe-szaty-cesarza', cucina: 'wloskie-slownictwo-kuchnia', abbigliamento: 'wloskie-slownictwo-ubrania', cibo: 'wloskie-slownictwo-jedzenie', salotto: 'wloskie-slownictwo-salon', ufficio: 'wloskie-slownictwo-biuro' },
-  tr: { 'verbo-essere': 'essere-fiili', 'la-meraviglia-del-dna': 'dna-mucizesi', 'i-vestiti-nuovi-dellimperatore': 'imparatorun-yeni-giysileri', cucina: 'italyanca-mutfak-kelimeleri', abbigliamento: 'italyanca-giyim-kelimeleri', cibo: 'italyanca-yemek-kelimeleri', salotto: 'italyanca-oturma-odasi-kelimeleri', ufficio: 'italyanca-ofis-kelimeleri' },
-  de: { 'verbo-essere': 'verb-essere-sein', 'la-meraviglia-del-dna': 'das-wunder-der-dna', 'i-vestiti-nuovi-dellimperatore': 'des-kaisers-neue-kleider', cucina: 'italienischer-wortschatz-kueche', abbigliamento: 'italienischer-wortschatz-kleidung', cibo: 'italienischer-wortschatz-essen', salotto: 'italienischer-wortschatz-wohnzimmer', ufficio: 'italienischer-wortschatz-buero' },
-  ja: { 'verbo-essere': 'essere-doshi', 'la-meraviglia-del-dna': 'dna-no-fushigi', 'i-vestiti-nuovi-dellimperatore': 'hadaka-no-osama', cucina: 'italian-kitchen-vocabulary', abbigliamento: 'italian-clothing-vocabulary', cibo: 'italian-food-vocabulary', salotto: 'italian-living-room-vocabulary', ufficio: 'italian-office-vocabulary' },
+  cs: {
+    'verbo-essere': 'sloveso-byt',
+    'la-meraviglia-del-dna': 'zazrak-dna',
+    'i-vestiti-nuovi-dellimperatore': 'cisarovy-nove-saty',
+    cucina: 'italska-slovni-zasoba-kuchyne',
+    abbigliamento: 'italska-slovni-zasoba-obleceni',
+    cibo: 'italska-slovni-zasoba-jidlo',
+    salotto: 'italska-slovni-zasoba-obyvaci-pokoj',
+    ufficio: 'italska-slovni-zasoba-kancelar',
+  },
+  pl: {
+    'verbo-essere': 'czasownik-byc',
+    'la-meraviglia-del-dna': 'cud-dna',
+    'i-vestiti-nuovi-dellimperatore': 'nowe-szaty-cesarza',
+    cucina: 'wloskie-slownictwo-kuchnia',
+    abbigliamento: 'wloskie-slownictwo-ubrania',
+    cibo: 'wloskie-slownictwo-jedzenie',
+    salotto: 'wloskie-slownictwo-salon',
+    ufficio: 'wloskie-slownictwo-biuro',
+  },
+  tr: {
+    'verbo-essere': 'essere-fiili',
+    'la-meraviglia-del-dna': 'dna-mucizesi',
+    'i-vestiti-nuovi-dellimperatore': 'imparatorun-yeni-giysileri',
+    cucina: 'italyanca-mutfak-kelimeleri',
+    abbigliamento: 'italyanca-giyim-kelimeleri',
+    cibo: 'italyanca-yemek-kelimeleri',
+    salotto: 'italyanca-oturma-odasi-kelimeleri',
+    ufficio: 'italyanca-ofis-kelimeleri',
+  },
+  de: {
+    'verbo-essere': 'verb-essere-sein',
+    'la-meraviglia-del-dna': 'das-wunder-der-dna',
+    'i-vestiti-nuovi-dellimperatore': 'des-kaisers-neue-kleider',
+    cucina: 'italienischer-wortschatz-kueche',
+    abbigliamento: 'italienischer-wortschatz-kleidung',
+    cibo: 'italienischer-wortschatz-essen',
+    salotto: 'italienischer-wortschatz-wohnzimmer',
+    ufficio: 'italienischer-wortschatz-buero',
+  },
+  ja: {
+    'verbo-essere': 'essere-doshi',
+    'la-meraviglia-del-dna': 'dna-no-fushigi',
+    'i-vestiti-nuovi-dellimperatore': 'hadaka-no-osama',
+    cucina: 'italian-kitchen-vocabulary',
+    abbigliamento: 'italian-clothing-vocabulary',
+    cibo: 'italian-food-vocabulary',
+    salotto: 'italian-living-room-vocabulary',
+    ufficio: 'italian-office-vocabulary',
+  },
 };
 const preserveSelectors = [
   '.story-text',
@@ -435,7 +487,8 @@ function isTranslatable(text) {
 
 async function translateMissing(strings, language) {
   strings = strings.filter((text) => {
-    const reviewed = vocabularyReviewedTranslations[language]?.[text] || vocabularyMoreReviewedTranslations[language]?.[text];
+    const reviewed =
+      vocabularyReviewedTranslations[language]?.[text] || vocabularyMoreReviewedTranslations[language]?.[text];
     if (!reviewed) return true;
     cache[cacheKey(language, text)] = reviewed;
     return false;
@@ -694,11 +747,54 @@ function addResourceDirectory($, category, language, isIndex) {
 
 function ensureMilkReadingTile($, language) {
   const list = $('.story-list').first();
-  if (!list.length || list.find('a[href$="latte-materno.html"],a[href$="breast-milk.html"],a[href$="lait-maternel.html"]').length) return;
-  const category = language === 'it' ? 'latte-materno.html' : language === 'en' ? 'breast-milk.html' : language === 'fr' ? 'lait-maternel.html' : language === 'es' ? 'leche-materna.html' : language === 'de' ? 'muttermilch.html' : language === 'pl' ? 'mleko-z-piersi.html' : language === 'tr' ? 'anne-sutu.html' : language === 'cs' ? 'materske-mleko.html' : '母乳.html';
-  const title = { it: 'Il latte materno', en: 'Breast milk', es: 'La leche materna', fr: 'Le lait maternel', cs: 'Mateřské mléko', pl: 'Mleko z piersi', tr: 'Anne sütü', de: 'Muttermilch', ja: '母乳' }[language];
-  const summary = { it: 'Come cambia il latte materno e che cos’è il colostro.', en: 'How breast milk changes and what colostrum is.', es: 'Cómo cambia la leche materna y qué es el calostro.', fr: 'Comment le lait maternel change et ce qu’est le colostrum.', cs: 'Jak se mateřské mléko mění a co je kolostrum.', pl: 'Jak zmienia się mleko matki i czym jest siara.', tr: 'Anne sütünün nasıl değiştiği ve kolostrumun ne olduğu.', de: 'Wie sich Muttermilch verändert und was Kolostrum ist.', ja: '母乳の変化と初乳について。' }[language];
-  list.append(`<a class="story-tile" href="${category}"><img src="../assets/reading-latte-materno.webp" alt="${escapeHtml(title)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">Scienza - A1-C1</span><h2>${escapeHtml(title)}</h2><p>${escapeHtml(summary)}</p><strong>Leggi l’articolo →</strong></a>`);
+  if (
+    !list.length ||
+    list.find('a[href$="latte-materno.html"],a[href$="breast-milk.html"],a[href$="lait-maternel.html"]').length
+  )
+    return;
+  const category =
+    language === 'it'
+      ? 'latte-materno.html'
+      : language === 'en'
+        ? 'breast-milk.html'
+        : language === 'fr'
+          ? 'lait-maternel.html'
+          : language === 'es'
+            ? 'leche-materna.html'
+            : language === 'de'
+              ? 'muttermilch.html'
+              : language === 'pl'
+                ? 'mleko-z-piersi.html'
+                : language === 'tr'
+                  ? 'anne-sutu.html'
+                  : language === 'cs'
+                    ? 'materske-mleko.html'
+                    : '母乳.html';
+  const title = {
+    it: 'Il latte materno',
+    en: 'Breast milk',
+    es: 'La leche materna',
+    fr: 'Le lait maternel',
+    cs: 'Mateřské mléko',
+    pl: 'Mleko z piersi',
+    tr: 'Anne sütü',
+    de: 'Muttermilch',
+    ja: '母乳',
+  }[language];
+  const summary = {
+    it: 'Come cambia il latte materno e che cos’è il colostro.',
+    en: 'How breast milk changes and what colostrum is.',
+    es: 'Cómo cambia la leche materna y qué es el calostro.',
+    fr: 'Comment le lait maternel change et ce qu’est le colostrum.',
+    cs: 'Jak se mateřské mléko mění a co je kolostrum.',
+    pl: 'Jak zmienia się mleko matki i czym jest siara.',
+    tr: 'Anne sütünün nasıl değiştiği ve kolostrumun ne olduğu.',
+    de: 'Wie sich Muttermilch verändert und was Kolostrum ist.',
+    ja: '母乳の変化と初乳について。',
+  }[language];
+  list.append(
+    `<a class="story-tile" href="${category}"><img src="../assets/reading-latte-materno.webp" alt="${escapeHtml(title)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">Scienza - A1-C1</span><h2>${escapeHtml(title)}</h2><p>${escapeHtml(summary)}</p><strong>Leggi l’articolo →</strong></a>`
+  );
 }
 
 function ensureEmperorStoryTile($) {
@@ -861,11 +957,12 @@ function ensureVocabularyNavigation($, language) {
   const href = language === 'it' ? '/vocabolario/' : `/${language}/${languageData[language].categories.vocabolario}/`;
   const label = language === 'it' ? 'Vocabolario' : translation(language, 'Vocabolario');
   const nav = $('.site-header nav').first();
-  const equivalentLinks = (container) => container.find('a').filter((_, element) => {
-    const current = $(element).attr('href') || '';
-    if (current === href) return true;
-    return language === 'it' && /(?:^|\/)vocabolario\/$/.test(current);
-  });
+  const equivalentLinks = (container) =>
+    container.find('a').filter((_, element) => {
+      const current = $(element).attr('href') || '';
+      if (current === href) return true;
+      return language === 'it' && /(?:^|\/)vocabolario\/$/.test(current);
+    });
   const navLinks = equivalentLinks(nav);
   navLinks.slice(1).remove();
   if (nav.length && !navLinks.length) {

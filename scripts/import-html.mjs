@@ -43,10 +43,7 @@ for (const file of htmlFiles) {
   const documentHtml = ensureGeneratedComment(html, relative);
 
   mkdirSync(path.dirname(output), { recursive: true });
-  writeFileSync(
-    output,
-    outputPage(documentHtml, relative)
-  );
+  writeFileSync(output, outputPage(documentHtml, relative));
 }
 
 console.log(`Imported ${htmlFiles.length} HTML page(s) into src/pages and copied static assets into public.`);

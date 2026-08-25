@@ -275,20 +275,32 @@ const additions = {
 for (const [slug, data] of Object.entries(additions)) {
   const file = path.join(root, 'legacy-html', 'letture', `${slug}.html`);
   let html = readFileSync(file, 'utf8');
-  html = html.replace(/\n\s*<article class="story-card">\s*<header><div><span class="level">APPROFONDIMENTO[\s\S]*?(?=\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti)/, '\n');
+  html = html.replace(
+    /\n\s*<article class="story-card">\s*<header><div><span class="level">APPROFONDIMENTO[\s\S]*?(?=\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti)/,
+    '\n'
+  );
   const block = renderAdditions(data);
-  html = html.replace(/\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti/, `\n${block}\n      <article class="story-card">\n        <header><div><span class="level">Fonti`);
+  html = html.replace(
+    /\n\s*<article class="story-card">\s*<header><div><span class="level">Fonti/,
+    `\n${block}\n      <article class="story-card">\n        <header><div><span class="level">Fonti`
+  );
   writeFileSync(file, html, 'utf8');
 }
 
 function renderAdditions(data) {
-  return toAsciiHtml(data.cards.map((card) => `      <article class="story-card">
+  return toAsciiHtml(
+    data.cards
+      .map(
+        (card) => `      <article class="story-card">
         <header><div><span class="level">APPROFONDIMENTO</span><h2>${card.heading}</h2></div><p>${card.subtitle}</p></header>
         <div class="story-text">
 ${card.paragraphs.map((p) => `          <p>${p}</p>`).join('\n')}
         </div>
         <div class="learning-grid"><div><h3>Parole utili</h3><p>${lessonWords(card.label)}</p></div><div><h3>Per parlare</h3><ol><li>Spiega l&#8217;idea pi&#249; sorprendente in due frasi.</li><li>Usa tre parole nuove in un esempio personale.</li></ol></div></div>
-      </article>`).join('\n'));
+      </article>`
+      )
+      .join('\n')
+  );
 }
 
 function lessonWords(label) {

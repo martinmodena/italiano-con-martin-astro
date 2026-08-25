@@ -5,7 +5,7 @@ import { defineConfig } from 'astro/config';
 
 import { unified } from '@astrojs/markdown-remark';
 
-import sitemap from '@astrojs/sitemap';
+// import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
@@ -27,10 +27,14 @@ export default defineConfig({
   output: 'static',
   site: process.env.SITE_URL || 'https://italianoconmartin.com',
   base: process.env.BASE_PATH || '/',
-  trailingSlash: 'always',
+  // Gli URL storici del sito terminano in `.html`: le rotte `X.html.astro`
+  // producono `X.html/index.html` e scripts/migrate/flatten-html.mjs le
+  // appiattisce in file `X.html` dopo la build (vedi script "build").
+  trailingSlash: 'ignore',
 
   integrations: [
-    sitemap(),
+    // sitemap(): disattivata — la sitemap canonica è il file statico
+    // public/sitemap.xml, curato e verificato da scripts/audit-site.mjs.
     mdx(),
     icon({
       include: {
@@ -56,14 +60,20 @@ export default defineConfig({
     ),
 
     compress({
-      CSS: true,
+      // CSS e JavaScript disattivati: styles.css e script.js sono asset
+      // statici condivisi con il sito storico e restano byte-identici.
+      CSS: false,
       HTML: {
         'html-minifier-terser': {
           removeAttributeQuotes: false,
+          sortAttributes: false,
+          sortClassName: false,
+          minifyCSS: false,
+          minifyJS: false,
         },
       },
       Image: false,
-      JavaScript: true,
+      JavaScript: false,
       SVG: false,
       Logger: 1,
     }),

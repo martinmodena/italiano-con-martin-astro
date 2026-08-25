@@ -61,6 +61,22 @@ export default [
     },
   },
   {
-    ignores: ['dist', 'node_modules', '.github', 'types.generated.d.ts', '.astro'],
+    ignores: [
+      'dist',
+      'node_modules',
+      '.github',
+      'types.generated.d.ts',
+      '.astro',
+      'legacy-html',
+      'public',
+      'src/html',
+      'src/pages',
+      'work',
+      'vendor',
+      'scripts/enrich-readings.mjs',
+      'scripts/extend-article-readings.mjs',
+      'scripts/import-html.mjs',
+      'scripts/add-article-deep-labs.mjs',
+    ],
   },
 ];

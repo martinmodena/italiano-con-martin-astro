@@ -5,7 +5,7 @@ import { grammarSeoSlugs } from './grammar-seo-slugs.mjs';
 import { grammarSeoTitles } from './grammar-seo-titles.mjs';
 
 const root = process.cwd();
-const siteRoot = path.join(root, 'legacy-html');
+const siteRoot = path.join(root, process.env.SITE_ROOT ?? 'dist');
 const siteUrl = 'https://italianoconmartin.com';
 const levels = ['a1', 'a2', 'b1', 'b2', 'c1'];
 const categories = {
