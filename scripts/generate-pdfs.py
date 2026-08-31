@@ -15,7 +15,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import Image, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+from reportlab.platypus import Image, KeepTogether, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 ROOT = Path(__file__).resolve().parents[1]
 # La sorgente e la build Astro (dist/), non piu legacy-html/ che e congelato.
@@ -47,7 +47,67 @@ def styles_for(language):
         "small": ParagraphStyle("Small", parent=base["BodyText"], fontName=family, fontSize=7.5, leading=10, textColor=colors.HexColor("#4d5c62")),
         "author": ParagraphStyle("Author", parent=base["BodyText"], fontName=family, fontSize=9.2, leading=13, textColor=colors.HexColor("#18352e")),
         "website": ParagraphStyle("Website", parent=base["BodyText"], fontName=bold, fontSize=12, leading=16, textColor=colors.HexColor("#b53f27"), spaceBefore=3),
+        "subtitle_left": ParagraphStyle("SubtitleLeft", parent=base["Normal"], fontName=family, fontSize=8.8, leading=12, textColor=colors.HexColor("#4d5c62"), spaceAfter=9),
+        "howto": ParagraphStyle("HowTo", parent=base["BodyText"], fontName=family, fontSize=9, leading=13, textColor=colors.HexColor("#18352e"), backColor=colors.HexColor("#f7eee5"), borderPadding=8, borderColor=colors.HexColor("#ddcbbd"), borderWidth=0.7, spaceAfter=10),
     }
+
+
+MARTIN_URL = "https://preply.com/it/tutor/5086125"
+LICIA_URL = "https://preply.in/LICIA6IT2176799611?ts=17865248"
+
+# Testo di servizio del PDF: sempre nella lingua del visitatore (REGOLE_LINGUE.md).
+# «Martin», «Licia» e «Italiano con Martin» non si traducono in nessuna lingua.
+STRINGS = {
+    "it": {"kind": "Lettura graduata per imparare l'italiano", "levels": "livelli A1-C1", "level": "livello {lv}",
+           "howto": "Il testo è in italiano. Sotto ogni brano trovi le parole utili con la traduzione e le domande: scrivi le risposte sulle righe.",
+           "words_head": ("Italiano", "Significato"), "cta_heading": "Lezioni di italiano 1:1",
+           "martin": "scienza, tecnologia ed etimologia", "licia": "arte, pazienza e grammatica",
+           "book": "Prenota su Preply", "free_material": "letture, grammatica e vocabolario gratuiti"},
+    "en": {"kind": "Graded reading to learn Italian", "levels": "levels A1-C1", "level": "level {lv}",
+           "howto": "The text is in Italian. Under each passage you will find the key words with their meaning and the questions: write your answers on the lines.",
+           "words_head": ("Italian", "Meaning"), "cta_heading": "1:1 Italian lessons",
+           "martin": "science, technology and etymology", "licia": "art, patience and grammar",
+           "book": "Book on Preply", "free_material": "free readings, grammar and vocabulary"},
+    "es": {"kind": "Lectura graduada para aprender italiano", "levels": "niveles A1-C1", "level": "nivel {lv}",
+           "howto": "El texto está en italiano. Debajo de cada pasaje encontrarás las palabras clave con su significado y las preguntas: escribe tus respuestas en las líneas.",
+           "words_head": ("Italiano", "Significado"), "cta_heading": "Clases de italiano 1:1",
+           "martin": "ciencia, tecnología y etimología", "licia": "arte, paciencia y gramática",
+           "book": "Reserva en Preply", "free_material": "lecturas, gramática y vocabulario gratuitos"},
+    "fr": {"kind": "Lecture graduée pour apprendre l'italien", "levels": "niveaux A1-C1", "level": "niveau {lv}",
+           "howto": "Le texte est en italien. Sous chaque passage se trouvent les mots utiles avec leur sens et les questions : écris tes réponses sur les lignes.",
+           "words_head": ("Italien", "Sens"), "cta_heading": "Cours d'italien 1:1",
+           "martin": "sciences, technologie et étymologie", "licia": "art, patience et grammaire",
+           "book": "Réserver sur Preply", "free_material": "lectures, grammaire et vocabulaire gratuits"},
+    "cs": {"kind": "Odstupňované čtení pro výuku italštiny", "levels": "úrovně A1-C1", "level": "úroveň {lv}",
+           "howto": "Text je v italštině. Pod každým úryvkem najdeš užitečná slova s významem a otázky: odpovědi piš na řádky.",
+           "words_head": ("Italsky", "Význam"), "cta_heading": "Individuální lekce italštiny",
+           "martin": "věda, technika a etymologie", "licia": "umění, trpělivost a gramatika",
+           "book": "Rezervovat na Preply", "free_material": "čtení, gramatika a slovní zásoba zdarma"},
+    "pl": {"kind": "Czytanka z poziomami do nauki włoskiego", "levels": "poziomy A1-C1", "level": "poziom {lv}",
+           "howto": "Tekst jest po włosku. Pod każdym fragmentem znajdziesz przydatne słowa ze znaczeniem i pytania: odpowiedzi zapisz na liniach.",
+           "words_head": ("Włoski", "Znaczenie"), "cta_heading": "Lekcje włoskiego 1:1",
+           "martin": "nauka, technologia i etymologia", "licia": "sztuka, cierpliwość i gramatyka",
+           "book": "Zarezerwuj na Preply", "free_material": "darmowe czytanki, gramatyka i słownictwo"},
+    "tr": {"kind": "İtalyanca öğrenmek için kademeli okuma", "levels": "A1-C1 seviyeleri", "level": "{lv} seviyesi",
+           "howto": "Metin İtalyancadır. Her bölümün altında yararlı kelimeler ve anlamları ile sorular var: yanıtlarını çizgilerin üzerine yaz.",
+           "words_head": ("İtalyanca", "Anlamı"), "cta_heading": "1:1 İtalyanca dersleri",
+           "martin": "bilim, teknoloji ve etimoloji", "licia": "sanat, sabır ve dilbilgisi",
+           "book": "Preply'de rezervasyon yap", "free_material": "ücretsiz okuma, dilbilgisi ve kelime"},
+    "de": {"kind": "Gestufter Lesetext zum Italienischlernen", "levels": "Niveaus A1-C1", "level": "Niveau {lv}",
+           "howto": "Der Text ist auf Italienisch. Unter jedem Abschnitt stehen die nützlichen Wörter mit ihrer Bedeutung und die Fragen: Schreibe deine Antworten auf die Linien.",
+           "words_head": ("Italienisch", "Bedeutung"), "cta_heading": "Italienischunterricht 1:1",
+           "martin": "Wissenschaft, Technik und Etymologie", "licia": "Kunst, Geduld und Grammatik",
+           "book": "Auf Preply buchen", "free_material": "kostenlose Lesetexte, Grammatik und Wortschatz"},
+    "ja": {"kind": "イタリア語学習のための段階別読解", "levels": "レベル A1〜C1", "level": "レベル {lv}",
+           "howto": "本文はイタリア語です。各文章の下に、意味つきの重要単語と質問があります。答えは線の上に書いてください。",
+           "words_head": ("イタリア語", "意味"), "cta_heading": "マンツーマンのイタリア語レッスン",
+           "martin": "科学・技術・語源", "licia": "芸術・忍耐・文法",
+           "book": "Preplyで予約", "free_material": "無料の読解・文法・語彙"},
+}
+
+
+def strings(language):
+    return STRINGS.get(language, STRINGS["en"])
 
 
 def clean(value):
@@ -122,9 +182,9 @@ def footer(canvas, doc):
     canvas.restoreState()
 
 
-@lru_cache(maxsize=1)
-def circular_photo():
-    source = SITE / "assets" / "martin-portrait.webp"
+@lru_cache(maxsize=4)
+def circular_photo(name="martin-portrait.webp"):
+    source = SITE / "assets" / name
     photo = PILImage.open(source).convert("RGB")
     photo = ImageOps.fit(photo, (180, 180), method=PILImage.Resampling.LANCZOS, centering=(0.5, 0.34))
     mask = PILImage.new("L", photo.size, 0)
@@ -136,23 +196,60 @@ def circular_photo():
     return output.getvalue()
 
 
-def author_block(style):
-    portrait = Image(BytesIO(circular_photo()), width=25 * mm, height=25 * mm)
+def teacher_cell(style, photo, name, specialty, url, book):
+    portrait = Image(BytesIO(circular_photo(photo)), width=22 * mm, height=22 * mm)
     copy = [
-        Paragraph("<b>Italiano con Martin</b>", style["author"]),
-        Paragraph('<link href="https://italianoconmartin.com/" color="#b53f27"><u>italianoconmartin.com</u></link>', style["website"]),
+        Paragraph(f"<b>{safe_markup(name)}</b>", style["author"]),
+        Paragraph(safe_markup(specialty), style["small"]),
+        Paragraph(f'<link href="{url}" color="#b53f27"><u>{safe_markup(book)}</u></link>', style["author"]),
     ]
-    panel = Table([[portrait, copy]], colWidths=[31 * mm, 119 * mm], hAlign="CENTER")
+    cell = Table([[portrait, copy]], colWidths=[26 * mm, 46 * mm])
+    cell.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 2),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    return cell
+
+
+def closing_block(style, language):
+    # Chiusura del PDF: chi insegna, con che cosa, e dove si prenota.
+    # Martin e Licia restano non tradotti in ogni lingua (REGOLE_LINGUE.md).
+    t = strings(language)
+    heading = Paragraph(f'<b>{safe_markup(t["cta_heading"])}</b>', style["h3"])
+    pair = Table(
+        [[
+            teacher_cell(style, "martin-portrait.webp", "Martin", t["martin"], MARTIN_URL, t["book"]),
+            teacher_cell(style, "licia-portrait.webp", "Licia", t["licia"], LICIA_URL, t["book"]),
+        ]],
+        colWidths=[75 * mm, 75 * mm],
+        hAlign="CENTER",
+    )
+    pair.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    site = Paragraph(
+        '<link href="https://italianoconmartin.com/" color="#b53f27"><u>italianoconmartin.com</u></link>'
+        f' - {safe_markup(t["free_material"])}',
+        style["author"],
+    )
+    panel = Table([[heading], [pair], [site]], colWidths=[152 * mm], hAlign="CENTER")
     panel.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#f7eee5")),
         ("BOX", (0, 0), (-1, -1), 0.7, colors.HexColor("#ddcbbd")),
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("LEFTPADDING", (0, 0), (-1, -1), 8),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
-        ("TOPPADDING", (0, 0), (-1, -1), 8),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+        ("LEFTPADDING", (0, 0), (-1, -1), 9),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 9),
+        ("TOPPADDING", (0, 0), (-1, -1), 7),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
     ]))
-    return KeepTogether([Spacer(1, 8 * mm), panel])
+    return KeepTogether([Spacer(1, 7 * mm), panel])
 
 
 @lru_cache(maxsize=32)
@@ -177,30 +274,146 @@ def editorial_image(document, page):
     return image
 
 
+def answer_lines(count=2, width=152 * mm):
+    rows = Table([[""] for _ in range(count)], colWidths=[width], rowHeights=[7.5 * mm] * count, hAlign="LEFT")
+    rows.setStyle(TableStyle([
+        ("LINEBELOW", (0, 0), (-1, -1), 0.4, colors.HexColor("#d9c9b8")),
+        ("LEFTPADDING", (0, 0), (-1, -1), 0),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+    ]))
+    return rows
+
+
+def words_rows(node):
+    """Parole utili: [(italiano, significato)]. Sulla pagina italiana il
+    significato manca, perché non si traduce l'italiano in italiano."""
+    spans = node.xpath('.//span[@lang="it"]')
+    if spans:
+        rows = []
+        for span in spans:
+            gloss = clean(span.tail or "").lstrip("=").strip()
+            rows.append((node_text(span), gloss))
+        return rows
+    return [(word.strip(), "") for word in node_text(node).split(",") if word.strip()]
+
+
+def words_block(story, heading, node, style, language):
+    rows = words_rows(node)
+    if not rows:
+        return
+    story.append(Paragraph(safe_markup(heading), style["h3"]))
+    glossed = any(gloss for _, gloss in rows)
+    head = strings(language)["words_head"]
+    if glossed:
+        data = [[Paragraph(f"<b>{safe_markup(head[0])}</b>", style["small"]), Paragraph(f"<b>{safe_markup(head[1])}</b>", style["small"])]]
+        data += [[Paragraph(f'<b>{safe_markup(w)}</b>', style["body"]), Paragraph(safe_markup(g), style["body"])] for w, g in rows]
+        widths = [52 * mm, 100 * mm]
+    else:
+        data = [[Paragraph(f'<b>{safe_markup(w)}</b>', style["body"])] for w, _ in rows]
+        widths = [152 * mm]
+    table = Table(data, colWidths=widths, hAlign="LEFT")
+    table.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#f4e3d0") if glossed else colors.white),
+        ("GRID", (0, 0), (-1, -1), 0.35, colors.HexColor("#ddcbbd")),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 6),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 6),
+        ("TOPPADDING", (0, 0), (-1, -1), 4),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+    ]))
+    story.extend([table, Spacer(1, 4 * mm)])
+
+
+def questions_block(story, heading, node, style):
+    items = node.xpath("./li")
+    if not items:
+        return
+    story.append(Paragraph(safe_markup(heading), style["h3"]))
+    for index, item in enumerate(items, 1):
+        italian = item.xpath('./span[@lang="it"]')
+        gloss = item.xpath('./span[contains(@class, "q-gloss")]')
+        question = node_text(italian[0]) if italian else node_text(item)
+        parts = [Paragraph(f"<b>{index}. {safe_markup(question)}</b>", style["body"])]
+        if gloss:
+            parts.append(Paragraph(f'<i>{safe_markup(node_text(gloss[0]))}</i>', style["small"]))
+        parts.extend([Spacer(1, 1.5 * mm), answer_lines(), Spacer(1, 4 * mm)])
+        story.append(KeepTogether(parts))
+
+
+def render_article(story, article, style, language, minor=False):
+    """minor=True per la nota finale: stesso contenuto, peso tipografico da nota."""
+    heading = clean("".join(article.xpath(".//header//h2[1]//text()")))
+    focus = clean("".join(article.xpath(".//header//p[1]//text()")))
+    block = [Paragraph(safe_markup(heading), style["h3" if minor else "h2"])]
+    if focus and not minor:
+        block.append(Paragraph(safe_markup(focus), style["subtitle_left"]))
+    for paragraph in article.xpath('.//div[contains(@class, "story-text")]/p'):
+        block.append(Paragraph(safe_markup(node_text(paragraph)), style["small" if minor else "body"]))
+    if minor:
+        story.append(KeepTogether(block))
+        return
+    story.extend(block)
+    for column in article.xpath('.//div[contains(@class, "learning-grid")]/div'):
+        title = clean("".join(column.xpath("./h3[1]//text()")))
+        words = column.xpath("./p[1]")
+        questions = column.xpath("./ol[1]")
+        if questions:
+            questions_block(story, title, questions[0], style)
+        elif words:
+            words_block(story, title, words[0], style, language)
+
+
+def cover_block(story, style, language, title, level, canonical, image):
+    t = strings(language)
+    scope = t["levels"] if level == "all-levels" else t["level"].format(lv=level.upper())
+    story.append(Paragraph(safe_markup(title), style["title"]))
+    story.append(Paragraph(f'{safe_markup(t["kind"])} - {safe_markup(scope)}', style["subtitle"]))
+    if image:
+        story.extend([image, Spacer(1, 5 * mm)])
+    story.append(Paragraph(safe_markup(t["howto"]), style["howto"]))
+    if level == "all-levels":
+        story.append(Paragraph(safe_markup(" - ".join(lv.upper() for lv in LEVELS)), style["subtitle"]))
+    if canonical:
+        story.append(Paragraph(f'<link href="{canonical}" color="#b53f27"><u>{safe_markup(canonical)}</u></link>', style["small"]))
+    if level == "all-levels":
+        story.append(PageBreak())
+    else:
+        story.append(Spacer(1, 5 * mm))
+
+
 def build_pdf(page, language, level, output):
     document = html.fromstring(page.read_text(encoding="utf-8"))
     style = styles_for(language)
     title = clean("".join(document.xpath("//h1[1]//text()"))) or page.stem
     canonical = next(iter(document.xpath('//link[@rel="canonical"]/@href')), "")
-    level_label = "A1-C1" if level == "all-levels" else level.upper()
-    story = [Paragraph(safe_markup(title), style["title"]), Paragraph(safe_markup(f"{language.upper()} - {level_label} - {canonical}"), style["subtitle"])]
     is_reading = any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts)
+    story = []
     if is_reading:
-        image = editorial_image(document, page)
-        if image:
-            story.extend([image, Spacer(1, 5 * mm)])
-        if level == "all-levels":
-            candidates = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " compact-top ")]')
-        else:
-            candidates = document.xpath(f'//article[@id="{level}"]')
-        container = candidates[0] if candidates else document.xpath("//main")[0]
+        cover_block(story, style, language, title, level, canonical, editorial_image(document, page))
+        # Un livello per pagina; la nota finale segue l'ultimo livello.
+        levels = document.xpath(f'//article[@id="{level}"]') if level != "all-levels" else document.xpath('//article[contains(concat(" ", normalize-space(@class), " "), " story-card ") and @id]')
+        note = document.xpath('//article[contains(concat(" ", normalize-space(@class), " "), " story-card ") and not(@id)]')
+        for index, article in enumerate(levels):
+            if index:
+                story.append(PageBreak())
+            render_article(story, article, style, language)
+        for article in note:
+            story.append(Spacer(1, 6 * mm))
+            render_article(story, article, style, language, minor=True)
     else:
-        container = document.xpath("//main")[0]
-    for node in content_nodes(container):
-        add_node(story, node, style)
-    story.append(author_block(style))
+        level_label = "A1-C1" if level == "all-levels" else level.upper()
+        story.append(Paragraph(safe_markup(title), style["title"]))
+        story.append(Paragraph(safe_markup(f"{language.upper()} - {level_label} - {canonical}"), style["subtitle"]))
+        for node in content_nodes(document.xpath("//main")[0]):
+            add_node(story, node, style)
+    story.append(closing_block(style, language))
     output.parent.mkdir(parents=True, exist_ok=True)
-    pdf = SimpleDocTemplate(str(output), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=17 * mm, bottomMargin=17 * mm, title=title, author="Italiano con Martin")
+    pdf = SimpleDocTemplate(
+        str(output), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=17 * mm, bottomMargin=17 * mm,
+        title=title, author="Italiano con Martin", subject=strings(language)["kind"],
+    )
     pdf.build(story, onFirstPage=footer, onLaterPages=footer)
 
 

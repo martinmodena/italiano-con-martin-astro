@@ -250,3 +250,16 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
   Il secondo `npm run build` serve a ricopiare i PDF nuovi da `public/` a `dist/`. Dipendenze Python: `reportlab`, `lxml`, `pillow`.
 - **PDF rigenerati**: 54 file (9 lingue x 6 livelli, `all-levels` compreso).
 - **Parità di migrazione**: `verify-parity.mjs --ignore-intended-fixes` riporta 489 differenze su 1119 pagine e le 9 pagine di questa lettura sono tra quelle diverse, come previsto: il testo è stato riscritto a mano e non deve più coincidere con `legacy-html/`. La soglia di riferimento in `AGENTS.md` va aggiornata a 489.
+
+## 2026-08-31 - I PDF diventano schede di lavoro autonome
+
+I PDF erano un riversamento del testo della pagina: nessuna intestazione che spiegasse che cosa fossero, le parole utili appiattite su una riga sola («poppata = toma grassi = grasas sazio = saciado»), la domanda italiana e la traduzione fuse nella stessa riga, nessuno spazio per rispondere e i livelli uno appiccicato all'altro. Fuori dal sito il file non si capiva.
+
+- **Intestazione autoesplicativa.** Titolo, poi la riga «Lettura graduata per imparare l'italiano - livelli A1-C1» (o «livello B2») nella lingua del visitatore, l'immagine, un riquadro che dice come si usa la scheda e l'URL della pagina, cliccabile.
+- **Una pagina per livello.** Nel PDF completo la copertina sta da sola e ogni livello parte in cima a una pagina nuova. Nei PDF di un solo livello l'intestazione resta in linea, perche una copertina intera per due pagine sarebbe spreco.
+- **Parole utili in tabella a due colonne** (italiano / significato), con intestazione tradotta. Sulla pagina italiana la colonna del significato non c'e: non si traduce l'italiano in italiano.
+- **Domande numerate**, con la domanda italiana in evidenza, la traduzione di servizio sotto in corsivo piccolo dove esiste, e due righe stampate per scrivere la risposta a mano.
+- **Chiusura con Martin e Licia**: le due foto, la specialita di ognuno, il link a Preply per ciascuno e il link al sito. Il PDF diventa cosi un canale di conversione, non solo materiale. In ogni pagina il pie di pagina porta `italianoconmartin.com` cliccabile e il numero di pagina.
+- **La nota informativa** (finalita educative, non sostituisce il parere di un professionista sanitario) entra in **ogni** PDF, anche in quelli di un solo livello.
+- **Metadati del file**: titolo, autore «Italiano con Martin» e oggetto nella lingua del visitatore.
+- **Applicato per ora solo a «Il latte materno»** (54 file). Gli altri PDF del sito conservano l'impaginazione vecchia finche non si decide di rigenerarli tutti: sono circa mille file e il confronto va fatto in un commit dedicato.
