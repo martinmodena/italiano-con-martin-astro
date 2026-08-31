@@ -52,6 +52,12 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Controllo veloce prima di chiudere: `node scripts/audit-links.mjs --strict` e un confronto tra i file presenti in `src/html/<categoria>/` e i link presenti negli indici.
 
+- **I livelli di una lettura raccontano le stesse cose, non cose diverse.** A1, A2, B1, B2 e C1 contengono **le stesse informazioni**: cambia la lingua, non il contenuto. A1 le dice con frasi corte e parole comuni, C1 con periodi articolati e lessico preciso, ma chi legge solo A1 non deve perdersi niente di quello che sa chi legge C1. Un livello che aggiunge fatti che gli altri non hanno è un errore da correggere.
+
+  Vale anche per il resto della scheda: le parole utili di ogni livello sono prese da quel livello, e le domande verificano gli stessi fatti con formulazioni via via più difficili. Le domande sono **sempre in italiano**, con la traduzione di servizio in `.q-gloss` solo per A1 e A2, e sotto ognuna c'è un riquadro per scrivere la risposta (`<textarea>` dentro il `<li>`).
+
+  Ogni paragrafo deve contenere almeno un dato concreto: una quantità, un meccanismo, un nome. Le frasi di riempimento («è importante», «svolge un ruolo particolare») vanno sostituite dal fatto che pretendono di riassumere.
+
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```

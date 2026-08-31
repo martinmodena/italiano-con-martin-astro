@@ -263,3 +263,10 @@ I PDF erano un riversamento del testo della pagina: nessuna intestazione che spi
 - **La nota informativa** (finalita educative, non sostituisce il parere di un professionista sanitario) entra in **ogni** PDF, anche in quelli di un solo livello.
 - **Metadati del file**: titolo, autore «Italiano con Martin» e oggetto nella lingua del visitatore.
 - **Applicato per ora solo a «Il latte materno»** (54 file). Gli altri PDF del sito conservano l'impaginazione vecchia finche non si decide di rigenerarli tutti: sono circa mille file e il confronto va fatto in un commit dedicato.
+
+## 2026-08-31 - I livelli dicono le stesse cose, e la nota informativa esce
+
+- **Regola nuova, vale per tutte le letture** (scritta anche in `AGENTS.md`): i cinque livelli contengono **le stesse informazioni**, spiegate con parole più semplici o più complesse. Prima non era così: la versione del mattino di questa lettura metteva il colostro in A1, gli ormoni in A2, gli oligosaccaridi in B1 e i globuli bianchi in B2, quindi chi leggeva A1 riceveva un quinto del contenuto. Ora i sei fatti - 87% di acqua e oltre 200 sostanze, la poppata che cambia, l'ora del giorno, gli zuccheri per i batteri, i globuli bianchi che salgono, il colostro tarato sullo stomaco - compaiono in tutti e cinque i livelli.
+- **Nota informativa rimossa** dai nove file su richiesta. Con essa sparisce anche la frase «non sostituiscono il parere di un professionista sanitario», che era l'unico avviso su un contenuto di salute: se serve, va rimessa.
+- **Riquadro per la risposta** sotto ogni domanda, sul sito e nel PDF. Sul sito è il `<textarea>` già previsto da `public/styles.css`, spostato dentro il `<li>` con `margin-top:8px`; `CSS_VERSION` sale a `20260831a`. Nel PDF il riquadro sostituisce le due righe orizzontali e riprende lo stesso bordo chiaro.
+- **PDF rigenerati**: 54 file.

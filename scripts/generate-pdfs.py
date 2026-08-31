@@ -59,47 +59,47 @@ LICIA_URL = "https://preply.in/LICIA6IT2176799611?ts=17865248"
 # «Martin», «Licia» e «Italiano con Martin» non si traducono in nessuna lingua.
 STRINGS = {
     "it": {"kind": "Lettura graduata per imparare l'italiano", "levels": "livelli A1-C1", "level": "livello {lv}",
-           "howto": "Il testo è in italiano. Sotto ogni brano trovi le parole utili con la traduzione e le domande: scrivi le risposte sulle righe.",
+           "howto": "Il testo è in italiano. Sotto ogni brano trovi le parole utili con la traduzione e le domande: scrivi le risposte nei riquadri.",
            "words_head": ("Italiano", "Significato"), "cta_heading": "Lezioni di italiano 1:1",
            "martin": "scienza, tecnologia ed etimologia", "licia": "arte, pazienza e grammatica",
            "book": "Prenota su Preply", "free_material": "letture, grammatica e vocabolario gratuiti"},
     "en": {"kind": "Graded reading to learn Italian", "levels": "levels A1-C1", "level": "level {lv}",
-           "howto": "The text is in Italian. Under each passage you will find the key words with their meaning and the questions: write your answers on the lines.",
+           "howto": "The text is in Italian. Under each passage you will find the key words with their meaning and the questions: write your answers in the boxes.",
            "words_head": ("Italian", "Meaning"), "cta_heading": "1:1 Italian lessons",
            "martin": "science, technology and etymology", "licia": "art, patience and grammar",
            "book": "Book on Preply", "free_material": "free readings, grammar and vocabulary"},
     "es": {"kind": "Lectura graduada para aprender italiano", "levels": "niveles A1-C1", "level": "nivel {lv}",
-           "howto": "El texto está en italiano. Debajo de cada pasaje encontrarás las palabras clave con su significado y las preguntas: escribe tus respuestas en las líneas.",
+           "howto": "El texto está en italiano. Debajo de cada pasaje encontrarás las palabras clave con su significado y las preguntas: escribe tus respuestas en los recuadros.",
            "words_head": ("Italiano", "Significado"), "cta_heading": "Clases de italiano 1:1",
            "martin": "ciencia, tecnología y etimología", "licia": "arte, paciencia y gramática",
            "book": "Reserva en Preply", "free_material": "lecturas, gramática y vocabulario gratuitos"},
     "fr": {"kind": "Lecture graduée pour apprendre l'italien", "levels": "niveaux A1-C1", "level": "niveau {lv}",
-           "howto": "Le texte est en italien. Sous chaque passage se trouvent les mots utiles avec leur sens et les questions : écris tes réponses sur les lignes.",
+           "howto": "Le texte est en italien. Sous chaque passage se trouvent les mots utiles avec leur sens et les questions : écris tes réponses dans les cadres.",
            "words_head": ("Italien", "Sens"), "cta_heading": "Cours d'italien 1:1",
            "martin": "sciences, technologie et étymologie", "licia": "art, patience et grammaire",
            "book": "Réserver sur Preply", "free_material": "lectures, grammaire et vocabulaire gratuits"},
     "cs": {"kind": "Odstupňované čtení pro výuku italštiny", "levels": "úrovně A1-C1", "level": "úroveň {lv}",
-           "howto": "Text je v italštině. Pod každým úryvkem najdeš užitečná slova s významem a otázky: odpovědi piš na řádky.",
+           "howto": "Text je v italštině. Pod každým úryvkem najdeš užitečná slova s významem a otázky: odpovědi piš do rámečků.",
            "words_head": ("Italsky", "Význam"), "cta_heading": "Individuální lekce italštiny",
            "martin": "věda, technika a etymologie", "licia": "umění, trpělivost a gramatika",
            "book": "Rezervovat na Preply", "free_material": "čtení, gramatika a slovní zásoba zdarma"},
     "pl": {"kind": "Czytanka z poziomami do nauki włoskiego", "levels": "poziomy A1-C1", "level": "poziom {lv}",
-           "howto": "Tekst jest po włosku. Pod każdym fragmentem znajdziesz przydatne słowa ze znaczeniem i pytania: odpowiedzi zapisz na liniach.",
+           "howto": "Tekst jest po włosku. Pod każdym fragmentem znajdziesz przydatne słowa ze znaczeniem i pytania: odpowiedzi zapisz w ramkach.",
            "words_head": ("Włoski", "Znaczenie"), "cta_heading": "Lekcje włoskiego 1:1",
            "martin": "nauka, technologia i etymologia", "licia": "sztuka, cierpliwość i gramatyka",
            "book": "Zarezerwuj na Preply", "free_material": "darmowe czytanki, gramatyka i słownictwo"},
     "tr": {"kind": "İtalyanca öğrenmek için kademeli okuma", "levels": "A1-C1 seviyeleri", "level": "{lv} seviyesi",
-           "howto": "Metin İtalyancadır. Her bölümün altında yararlı kelimeler ve anlamları ile sorular var: yanıtlarını çizgilerin üzerine yaz.",
+           "howto": "Metin İtalyancadır. Her bölümün altında yararlı kelimeler ve anlamları ile sorular var: yanıtlarını kutulara yaz.",
            "words_head": ("İtalyanca", "Anlamı"), "cta_heading": "1:1 İtalyanca dersleri",
            "martin": "bilim, teknoloji ve etimoloji", "licia": "sanat, sabır ve dilbilgisi",
            "book": "Preply'de rezervasyon yap", "free_material": "ücretsiz okuma, dilbilgisi ve kelime"},
     "de": {"kind": "Gestufter Lesetext zum Italienischlernen", "levels": "Niveaus A1-C1", "level": "Niveau {lv}",
-           "howto": "Der Text ist auf Italienisch. Unter jedem Abschnitt stehen die nützlichen Wörter mit ihrer Bedeutung und die Fragen: Schreibe deine Antworten auf die Linien.",
+           "howto": "Der Text ist auf Italienisch. Unter jedem Abschnitt stehen die nützlichen Wörter mit ihrer Bedeutung und die Fragen: Schreibe deine Antworten in die Kästchen.",
            "words_head": ("Italienisch", "Bedeutung"), "cta_heading": "Italienischunterricht 1:1",
            "martin": "Wissenschaft, Technik und Etymologie", "licia": "Kunst, Geduld und Grammatik",
            "book": "Auf Preply buchen", "free_material": "kostenlose Lesetexte, Grammatik und Wortschatz"},
     "ja": {"kind": "イタリア語学習のための段階別読解", "levels": "レベル A1〜C1", "level": "レベル {lv}",
-           "howto": "本文はイタリア語です。各文章の下に、意味つきの重要単語と質問があります。答えは線の上に書いてください。",
+           "howto": "本文はイタリア語です。各文章の下に、意味つきの重要単語と質問があります。答えは枠の中に書いてください。",
            "words_head": ("イタリア語", "意味"), "cta_heading": "マンツーマンのイタリア語レッスン",
            "martin": "科学・技術・語源", "licia": "芸術・忍耐・文法",
            "book": "Preplyで予約", "free_material": "無料の読解・文法・語彙"},
@@ -274,16 +274,19 @@ def editorial_image(document, page):
     return image
 
 
-def answer_lines(count=2, width=152 * mm):
-    rows = Table([[""] for _ in range(count)], colWidths=[width], rowHeights=[7.5 * mm] * count, hAlign="LEFT")
-    rows.setStyle(TableStyle([
-        ("LINEBELOW", (0, 0), (-1, -1), 0.4, colors.HexColor("#d9c9b8")),
+def answer_box(width=152 * mm, height=17 * mm):
+    """Riquadro per scrivere la risposta a mano: stesso segno del riquadro
+    di risposta sul sito (bordo chiaro, angoli squadrati, fondo bianco)."""
+    box = Table([[""]], colWidths=[width], rowHeights=[height], hAlign="LEFT")
+    box.setStyle(TableStyle([
+        ("BOX", (0, 0), (-1, -1), 0.6, colors.HexColor("#cdbba8")),
+        ("BACKGROUND", (0, 0), (-1, -1), colors.white),
         ("LEFTPADDING", (0, 0), (-1, -1), 0),
         ("RIGHTPADDING", (0, 0), (-1, -1), 0),
         ("TOPPADDING", (0, 0), (-1, -1), 0),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))
-    return rows
+    return box
 
 
 def words_rows(node):
@@ -338,7 +341,7 @@ def questions_block(story, heading, node, style):
         parts = [Paragraph(f"<b>{index}. {safe_markup(question)}</b>", style["body"])]
         if gloss:
             parts.append(Paragraph(f'<i>{safe_markup(node_text(gloss[0]))}</i>', style["small"]))
-        parts.extend([Spacer(1, 1.5 * mm), answer_lines(), Spacer(1, 4 * mm)])
+        parts.extend([Spacer(1, 1.5 * mm), answer_box(), Spacer(1, 4 * mm)])
         story.append(KeepTogether(parts))
 
 
