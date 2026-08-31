@@ -1,3 +1,5 @@
+import os
+import sys
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 from io import BytesIO
@@ -16,7 +18,13 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Image, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = ROOT / "legacy-html"
+# La sorgente e la build Astro (dist/), non piu legacy-html/ che e congelato.
+# I PDF prodotti finiscono in public/pdf/, da dove la build li ripubblica.
+SITE = Path(os.environ.get("SITE_ROOT", ROOT / "dist"))
+PDF_OUT = Path(os.environ.get("PDF_OUT", ROOT / "public" / "pdf"))
+# --only <nome-file-italiano-senza-estensione>: rigenera una sola risorsa,
+# in tutte le lingue e per tutti i livelli. Ripetibile.
+ONLY = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--only" and i + 1 < len(sys.argv)]
 LEVELS = ["a1", "a2", "b1", "b2", "c1"]
 LANGUAGES = ["it", "en", "es", "fr", "cs", "pl", "tr", "de", "ja"]
 
@@ -198,6 +206,10 @@ def build_pdf(page, language, level, output):
 
 def localized_pages():
     italian_resources = [page for category in ["letture", "favole", "grammatica"] for page in (SITE / category).rglob("*.html") if page.name != "index.html"]
+    if ONLY:
+        italian_resources = [page for page in italian_resources if page.stem in ONLY]
+        if not italian_resources:
+            raise SystemExit(f"--only: nessuna risorsa italiana con nome {ONLY} in {SITE}")
     for italian in italian_resources:
         source = html.fromstring(italian.read_text(encoding="utf-8"))
         alternates = {node.get("hreflang"): node.get("href") for node in source.xpath('//link[@rel="alternate"]')}
@@ -215,7 +227,7 @@ def localized_pages():
 
 jobs = list(localized_pages())
 for index, (page, language, level) in enumerate(jobs, 1):
-    output = SITE / "pdf" / language / f"{page.stem}-{level}.pdf"
+    output = PDF_OUT / language / f"{page.stem}-{level}.pdf"
     build_pdf(page, language, level, output)
     if index % 100 == 0:
         print(f"Generated {index}/{len(jobs)} PDFs")
