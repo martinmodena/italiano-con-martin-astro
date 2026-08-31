@@ -68,7 +68,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
 
-- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-25 la base di confronto è **485 differenze su 1119 pagine**, tutte volute: le 36 precedenti (18 indici senza elenco testuale, 9 home riscritte, 9 pagine «Chi siamo» e la home inglese con la tariffa di 12 €) più le 469 pagine localizzate riparate secondo `REGOLE_LINGUE.md`. Se il numero sale oltre 485, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-08-31 la base di confronto è **489 differenze su 1119 pagine**, tutte volute: le 36 precedenti (18 indici senza elenco testuale, 9 home riscritte, 9 pagine «Chi siamo» e la home inglese con la tariffa di 12 €) più le 469 pagine localizzate riparate secondo `REGOLE_LINGUE.md`. Alle 485 del 2026-08-25 si aggiungono le 9 pagine della lettura «Il latte materno», riscritta a mano il 2026-08-31. Se il numero sale oltre 489, è cambiato qualcosa che non era previsto: va capito prima di pubblicare.
 
 - Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori.
 
