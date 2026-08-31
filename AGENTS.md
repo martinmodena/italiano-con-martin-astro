@@ -58,6 +58,12 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Ogni paragrafo deve contenere almeno un dato concreto: una quantità, un meccanismo, un nome. Le frasi di riempimento («è importante», «svolge un ruolo particolare») vanno sostituite dal fatto che pretendono di riassumere.
 
+- **Aggiungere parole a una scheda di vocabolario significa aggiornare tutto quello che le conta.** Una parola nuova richiede, nello stesso passaggio e in tutte e 9 le lingue: la scheda con le tre frasi d'esempio, l'esercizio «Riconosci la parola», i contatori delle due sezioni, la meta description, la scheda nell'indice del vocabolario e la soglia di `scripts/audit-vocabulary.mjs`. Ci pensa `scripts/expand-food-vocabulary.mjs`, che aggiunge anche una frase da tradurre per le parole che ne hanno una in `foodTranslationExercises`.
+
+  **Una parola senza immagine non entra in pagina**: lo script la salta, così le 9 lingue restano allineate. Il prompt per produrre le illustrazioni e l'elenco di quelle che mancano sono in [docs/prompt-immagini-vocabolario.md](./docs/prompt-immagini-vocabolario.md).
+
+  Le pagine di vocabolario **non hanno PDF**: `scripts/generate-pdfs.py` copre solo letture, favole e grammatica. Se un giorno si aggiungono, vanno rigenerati a ogni parola nuova.
+
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```

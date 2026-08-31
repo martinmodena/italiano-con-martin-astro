@@ -884,4 +884,122 @@ export const foodVocabularyExtra = [
   },
 ];
 
+// Frasi per gli esercizi di traduzione libera, una per parola scelta.
+// La chiave e' lo slug dell'immagine. `prompt.it` e' in inglese perche' sulla
+// pagina italiana la lingua di partenza e' l'inglese (REGOLE_LINGUE.md).
+export const foodTranslationExercises = {
+  pizza: {
+    solution: 'Ordino una pizza margherita.',
+    prompt: {
+      it: 'I order a margherita pizza.',
+      en: 'I order a margherita pizza.',
+      es: 'Pido una pizza margarita.',
+      fr: 'Je commande une pizza margherita.',
+      cs: 'Objednávám si pizzu margheritu.',
+      pl: 'Zamawiam pizzę margheritę.',
+      tr: 'Bir margherita pizza söylüyorum.',
+      de: 'Ich bestelle eine Pizza Margherita.',
+      ja: '私はマルゲリータピザを注文します。',
+    },
+  },
+  pollo: {
+    solution: 'Cucino il pollo al forno.',
+    prompt: {
+      it: 'I cook the chicken in the oven.',
+      en: 'I cook the chicken in the oven.',
+      es: 'Cocino el pollo al horno.',
+      fr: 'Je cuis le poulet au four.',
+      cs: 'Peču kuře v troubě.',
+      pl: 'Piekę kurczaka w piekarniku.',
+      tr: 'Tavuğu fırında pişiriyorum.',
+      de: 'Ich gare das Hähnchen im Ofen.',
+      ja: '私は鶏肉をオーブンで調理します。',
+    },
+  },
+  pomodoro: {
+    solution: 'Il pomodoro è rosso e maturo.',
+    prompt: {
+      it: 'The tomato is red and ripe.',
+      en: 'The tomato is red and ripe.',
+      es: 'El tomate está rojo y maduro.',
+      fr: 'La tomate est rouge et mûre.',
+      cs: 'Rajče je červené a zralé.',
+      pl: 'Pomidor jest czerwony i dojrzały.',
+      tr: 'Domates kırmızı ve olgun.',
+      de: 'Die Tomate ist rot und reif.',
+      ja: 'トマトは赤くて熟しています。',
+    },
+  },
+  patata: {
+    solution: 'Cucino le patate al forno.',
+    prompt: {
+      it: 'I cook the potatoes in the oven.',
+      en: 'I cook the potatoes in the oven.',
+      es: 'Cocino las patatas al horno.',
+      fr: 'Je cuis les pommes de terre au four.',
+      cs: 'Peču brambory v troubě.',
+      pl: 'Piekę ziemniaki w piekarniku.',
+      tr: 'Patatesleri fırında pişiriyorum.',
+      de: 'Ich gare die Kartoffeln im Ofen.',
+      ja: '私はじゃがいもをオーブンで調理します。',
+    },
+  },
+  banana: {
+    solution: 'Mangio una banana dopo lo sport.',
+    prompt: {
+      it: 'I eat a banana after sport.',
+      en: 'I eat a banana after sport.',
+      es: 'Como un plátano después del deporte.',
+      fr: 'Je mange une banane après le sport.',
+      cs: 'Po sportu jím banán.',
+      pl: 'Po sporcie jem banana.',
+      tr: 'Spordan sonra bir muz yerim.',
+      de: 'Nach dem Sport esse ich eine Banane.',
+      ja: '私は運動のあとにバナナを食べます。',
+    },
+  },
+  gelato: {
+    solution: 'Mangio il gelato in estate.',
+    prompt: {
+      it: 'I eat ice cream in the summer.',
+      en: 'I eat ice cream in the summer.',
+      es: 'Como helado en verano.',
+      fr: 'Je mange de la glace en été.',
+      cs: 'V létě jím zmrzlinu.',
+      pl: 'Latem jem lody.',
+      tr: 'Yazın dondurma yerim.',
+      de: 'Im Sommer esse ich Eis.',
+      ja: '私は夏にアイスクリームを食べます。',
+    },
+  },
+  caffe: {
+    solution: 'Bevo un caffè al bar.',
+    prompt: {
+      it: 'I drink a coffee at the bar.',
+      en: 'I drink a coffee at the bar.',
+      es: 'Tomo un café en el bar.',
+      fr: 'Je bois un café au bar.',
+      cs: 'Piju kávu v kavárně.',
+      pl: 'Piję kawę w barze.',
+      tr: 'Barda bir kahve içerim.',
+      de: 'Ich trinke einen Kaffee in der Bar.',
+      ja: '私はバールでコーヒーを飲みます。',
+    },
+  },
+  vino: {
+    solution: 'Bevo un bicchiere di vino.',
+    prompt: {
+      it: 'I drink a glass of wine.',
+      en: 'I drink a glass of wine.',
+      es: 'Bebo un vaso de vino.',
+      fr: 'Je bois un verre de vin.',
+      cs: 'Piju sklenici vína.',
+      pl: 'Piję kieliszek wina.',
+      tr: 'Bir kadeh şarap içerim.',
+      de: 'Ich trinke ein Glas Wein.',
+      ja: '私はワインを一杯飲みます。',
+    },
+  },
+};
+
 export default foodVocabularyExtra;

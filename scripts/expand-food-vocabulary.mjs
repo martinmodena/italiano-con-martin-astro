@@ -29,7 +29,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 import sharp from 'sharp';
-import { foodVocabularyExtra } from './data/food-vocabulary-extra.mjs';
+import { foodVocabularyExtra, foodTranslationExercises } from './data/food-vocabulary-extra.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public', 'assets', 'vocabolario');
@@ -163,11 +163,29 @@ function buildTest(word, template, index) {
     </article>`;
 }
 
+function buildTranslation(word, template, language, index) {
+  const data = foodTranslationExercises[word.image];
+  if (!data || !template.translation) return '';
+  const number = index + 1;
+  const prompt = data.prompt[language];
+  if (!prompt) return '';
+  // Sulla pagina italiana la lingua di partenza e' l'inglese: e' l'unica
+  // eccezione prevista da REGOLE_LINGUE.md per le traduzioni libere.
+  const promptLang = language === 'it' ? 'en' : language;
+  return `<article class="translation-exercise" data-key="${number}"><div class="exercise-number" aria-hidden="true">${number}</div><div class="translation-exercise-body">
+      <p class="translation-prompt"><span class="prompt-label">${escapeHtml(template.translation.label)}</span><strong lang="${promptLang}">${escapeHtml(prompt)}</strong></p>
+      <label for="translation-${number}">${escapeHtml(template.translation.fieldLabel)}</label><textarea id="translation-${number}" rows="2" autocomplete="off" spellcheck="true"></textarea>
+      <div class="translation-actions"><button class="show-translation" type="button">${escapeHtml(template.translation.button)}</button></div>
+      <p class="proposed-solution" hidden=""><span>${escapeHtml(template.translation.solutionLabel)}</span> <strong>${escapeHtml(data.solution)}</strong></p>
+    </div></article>`;
+}
+
 /** Legge dalla pagina le etichette gia' tradotte, per non doverle ripetere qui. */
 function readTemplate(html) {
   const $ = cheerio.load(html, null, false);
   const card = $('.word-card').first();
   const test = $('.word-test').first();
+  const exercise = $('.translation-exercise').first();
   if (!card.length || !test.length) throw new Error('nessuna scheda di riferimento nella pagina');
   const source = card.find('img').attr('src') ?? '';
   const testAltSample = test.find('img').attr('alt') ?? '';
@@ -184,6 +202,15 @@ function readTemplate(html) {
         .get()
     ),
     currentCount: $('.word-card').length,
+    translationCount: $('.translation-exercise').length,
+    translation: exercise.length
+      ? {
+          label: exercise.find('.prompt-label').first().text(),
+          fieldLabel: exercise.find('label').first().text(),
+          button: exercise.find('.show-translation').first().text(),
+          solutionLabel: exercise.find('.proposed-solution span').first().text(),
+        }
+      : null,
   };
 }
 
@@ -204,6 +231,15 @@ function updateCounters(html, oldCount, newCount) {
     `${open}${text.replace(digits, String(newCount))}${close}`
   );
   return updated;
+}
+
+/** Aggiorna l'occhiello «N frasi libere» della sezione delle traduzioni. */
+function updateTranslationCounter(html, oldCount, newCount) {
+  const start = html.indexOf('translation-free-section');
+  const title = html.indexOf('<h2 id="translation-practice-title"', start);
+  if (start === -1 || title === -1) return html;
+  const head = html.slice(start, title).replace(new RegExp(`\\b${oldCount}\\b`), String(newCount));
+  return html.slice(0, start) + head + html.slice(title);
 }
 
 function updateMeta(file, oldCount, newCount) {
@@ -297,6 +333,21 @@ for (const [language, config] of Object.entries(pages)) {
 
   let updated = html.slice(0, tests.contentEnd) + newTests + html.slice(tests.contentEnd);
   updated = updated.slice(0, grid.contentEnd) + cards + updated.slice(grid.contentEnd);
+
+  // Frasi da tradurre: solo per le parole che ne hanno una in
+  // `foodTranslationExercises`, e solo quando la parola entra davvero in pagina.
+  const exercises = toAdd
+    .filter((word) => foodTranslationExercises[word.image])
+    .map((word, index) => buildTranslation(word, template, language, template.translationCount + index))
+    .filter(Boolean)
+    .join('');
+  if (exercises) {
+    const box = findContainer(updated, 'translation-exercises');
+    if (!box) throw new Error(`${config.lesson}: contenitore delle traduzioni non trovato`);
+    const added = exercises.match(/class="translation-exercise"/g).length;
+    updated = updated.slice(0, box.contentEnd) + exercises + updated.slice(box.contentEnd);
+    updated = updateTranslationCounter(updated, template.translationCount, template.translationCount + added);
+  }
 
   const newCount = template.currentCount + toAdd.length;
   updated = updateCounters(updated, template.currentCount, newCount);
