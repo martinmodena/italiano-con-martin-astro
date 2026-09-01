@@ -53,7 +53,7 @@ const routes = {
     ja: 'ja/goi/italian-clothing-vocabulary.html',
   },
   cibo: {
-    count: 8,
+    count: 16,
     it: 'vocabolario/cibo.html',
     en: 'en/vocabulary/italian-food-vocabulary.html',
     es: 'es/vocabulario/vocabulario-de-la-comida-en-italiano.html',

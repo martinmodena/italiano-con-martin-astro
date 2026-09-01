@@ -4,7 +4,9 @@ Come si producono le illustrazioni che mancano, e come si mettono nel sito.
 
 Le schede di vocabolario mostrano **una parola per immagine** e riusano la stessa immagine nell'esercizio «Riconosci la parola». Finché l'immagine manca, la parola **non viene aggiunta alla pagina**: `scripts/expand-food-vocabulary.mjs` salta le parole senza illustrazione, così tutte e 9 le lingue restano allineate.
 
-Stato al 2026-08-31: la lezione «Il cibo» ha 8 parole in pagina e **64 parole pronte in attesa dell'immagine** (`scripts/data/food-vocabulary-extra.mjs`). Quando le 64 immagini ci sono, la pagina passa a **72 parole**.
+Stato al 2026-09-01: la lezione «Il cibo» ha **16 parole in pagina** e **56 parole pronte in attesa dell'immagine** (`scripts/data/food-vocabulary-extra.mjs`). Quando tutte le immagini ci sono, la pagina passa a **72 parole**.
+
+Le prime 8 illustrazioni sono state generate con lo Space `mcp-tools/Z-Image-Turbo` via il connettore Hugging Face, seme fisso `1001`, 1024x1024. La GPU gratuita di Hugging Face si esaurisce dopo circa 8 immagini al giorno: o si aspetta il reset giornaliero, o si passa a Hugging Face PRO, o si generano con ChatGPT come descritto qui sotto.
 
 ---
 
@@ -70,19 +72,21 @@ Le immagini possono arrivare poche alla volta: lo script si può rieseguire quan
 
 ---
 
-## 3. Le 64 immagini che mancano
+## 3. Le immagini che mancano
+
+Le righe con ✅ sono gia' online.
 
 La colonna «Soggetto» è il messaggio da mandare a ChatGPT dopo il blocco iniziale. La colonna «File» è il nome con cui va salvata l'immagine: deve essere esatto.
 
 | # | File | Parola italiana | Soggetto |
 | --- | --- | --- | --- |
-| 1 | `pizza.webp` | la pizza | una pizza margherita intera, vista dall'alto |
-| 2 | `panino.webp` | il panino | un panino imbottito con prosciutto |
-| 3 | `spaghetti.webp` | gli spaghetti | un piatto bianco di spaghetti al pomodoro |
-| 4 | `lasagne.webp` | le lasagne | una porzione di lasagne al forno, vista dall'alto |
-| 5 | `gnocchi.webp` | gli gnocchi | un piatto bianco di gnocchi al pomodoro |
-| 6 | `risotto.webp` | il risotto | un piatto bianco di risotto giallo allo zafferano |
-| 7 | `zuppa.webp` | la zuppa | una scodella bianca di zuppa di verdure |
+| ✅ | `pizza.webp` | la pizza | una pizza margherita intera, vista dall'alto |
+| ✅ | `panino.webp` | il panino | un panino imbottito con prosciutto |
+| ✅ | `spaghetti.webp` | gli spaghetti | un piatto bianco di spaghetti al pomodoro |
+| ✅ | `lasagne.webp` | le lasagne | una porzione di lasagne al forno, vista dall'alto |
+| ✅ | `gnocchi.webp` | gli gnocchi | un piatto bianco di gnocchi al pomodoro |
+| ✅ | `risotto.webp` | il risotto | un piatto bianco di risotto giallo allo zafferano |
+| ✅ | `zuppa.webp` | la zuppa | una scodella bianca di zuppa di verdure |
 | 8 | `prosciutto.webp` | il prosciutto | alcune fette di prosciutto crudo |
 | 9 | `pollo.webp` | il pollo | un pollo arrosto intero |
 | 10 | `tonno.webp` | il tonno | una scatoletta aperta di tonno |
@@ -95,7 +99,7 @@ La colonna «Soggetto» è il messaggio da mandare a ChatGPT dopo il blocco iniz
 | 17 | `zucchero.webp` | lo zucchero | una ciotolina bianca di zucchero bianco |
 | 18 | `farina.webp` | la farina | una ciotolina bianca di farina |
 | 19 | `marmellata.webp` | la marmellata | un vasetto aperto di marmellata di albicocche |
-| 20 | `pomodoro.webp` | il pomodoro | un pomodoro rosso maturo con il picciolo verde |
+| ✅ | `pomodoro.webp` | il pomodoro | un pomodoro rosso maturo con il picciolo verde |
 | 21 | `insalata.webp` | l’insalata | una ciotola di insalata verde a foglie |
 | 22 | `patata.webp` | la patata | una patata cruda con la buccia |
 | 23 | `carota.webp` | la carota | una carota arancione con il ciuffo verde |
