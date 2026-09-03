@@ -326,3 +326,16 @@ I PDF erano un riversamento del testo della pagina: nessuna intestazione che spi
 - **Quattro immagini su 30 non si potevano ritagliare col colore**: medusa (traslucida), vela e crema solare (bianche), gabbiano (testa bianca, veniva via la testa). Trattate con `--whiten` come già per il cibo. `canna-da-pesca` era segnalata dallo script ma è risultata integra: l'oggetto è solo sottile, falso positivo verificato a occhio.
 - **Nuovo script riusabile** `scripts/convert-vocabulary-images.mjs`: porta le immagini pulite nel formato del sito (512×512, webp, tela trasparente) per qualunque lezione nuova, non solo il cibo.
 - **Verifica**: 54 pagine di lezione controllate dall'audit (erano 45), audit di lingua, sito, link e grammatica verdi. Provati a mano nel browser l'esercizio di riconoscimento (risposta con e senza articolo, risposta sbagliata, contatore che sale) e la traduzione libera.
+
+## 2026-09-03 - Correzioni di lingua nelle frasi d'esempio della lezione «Il mare»
+
+Martin ha segnalato «Andiamo alla spiaggia in agosto»: la collocazione italiana è **andare in spiaggia**; «alla spiaggia» si usa solo quando la spiaggia è determinata («alla spiaggia di Riccione»). Rilette tutte e 90 le frasi, corrette sei costruzioni che un madrelingua non userebbe:
+
+- «Andiamo alla spiaggia in agosto» → «Ad agosto andiamo in spiaggia» (preposizione, e si evita la ripetizione «in… in»).
+- «L'onda bagna i miei piedi» → «L'onda mi bagna i piedi»: con le parti del corpo l'italiano usa il pronome dativo e l'articolo, non il possessivo. Il possessivo è un calco dall'inglese e dallo spagnolo, proprio l'errore che questi studenti fanno.
+- «Viaggiamo con la nave» → «Viaggiamo in nave»: per i mezzi di trasporto la preposizione è _in_ (in treno, in aereo, in nave).
+- «Ascolto il rumore nella conchiglia» → «Ascolto il rumore del mare nella conchiglia».
+- «Il faro è sopra lo scoglio» → «Il faro è su uno scoglio»: _sopra_ suggerisce sospeso al di sopra.
+- «Il gabbiano sta sullo scoglio» → «Il gabbiano è sullo scoglio»: _stare_ per la posizione è colloquiale, e tutte le altre frasi locative della scheda usano _essere_.
+
+Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno rilette una per una cercando le collocazioni, non solo la grammatica: una frase può essere formalmente corretta e insegnare comunque un italiano che nessuno dice.

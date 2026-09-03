@@ -16,7 +16,7 @@ export const seaVocabulary = [
     word: 'la spiaggia',
     examples: [
       'La spiaggia è piena di gente.',
-      'Andiamo alla spiaggia in agosto.',
+      'Ad agosto andiamo in spiaggia.',
       'La spiaggia è lunga due chilometri.',
     ],
     answers: ['spiaggia', 'la spiaggia'],
@@ -55,7 +55,7 @@ export const seaVocabulary = [
   {
     image: 'onda',
     word: 'l’onda',
-    examples: ['L’onda arriva sulla spiaggia.', 'Oggi le onde sono alte.', 'L’onda bagna i miei piedi.'],
+    examples: ['L’onda arriva sulla spiaggia.', 'Oggi le onde sono alte.', 'L’onda mi bagna i piedi.'],
     answers: ['onda', 'l’onda', 'l onda', 'londa'],
     subject: 'a single curling blue ocean wave with white foam',
     alt: {
@@ -73,7 +73,11 @@ export const seaVocabulary = [
   {
     image: 'conchiglia',
     word: 'la conchiglia',
-    examples: ['Trovo una conchiglia bianca.', 'La conchiglia è sulla sabbia.', 'Ascolto il rumore nella conchiglia.'],
+    examples: [
+      'Trovo una conchiglia bianca.',
+      'La conchiglia è sulla sabbia.',
+      'Ascolto il rumore del mare nella conchiglia.',
+    ],
     answers: ['conchiglia', 'la conchiglia'],
     subject: 'a single spiral seashell, cream and pink',
     alt: {
@@ -167,7 +171,7 @@ export const seaVocabulary = [
   {
     image: 'faro',
     word: 'il faro',
-    examples: ['Il faro è alto e bianco.', 'Il faro illumina il mare di notte.', 'Il faro è sopra lo scoglio.'],
+    examples: ['Il faro è alto e bianco.', 'Il faro illumina il mare di notte.', 'Il faro è su uno scoglio.'],
     answers: ['faro', 'il faro'],
     subject: 'a white and red striped lighthouse tower, isolated',
     alt: {
@@ -423,7 +427,7 @@ export const seaVocabulary = [
   {
     image: 'nave',
     word: 'la nave',
-    examples: ['La nave è grande.', 'La nave arriva al porto.', 'Viaggiamo con la nave.'],
+    examples: ['La nave è grande.', 'La nave arriva al porto.', 'Viaggiamo in nave.'],
     answers: ['nave', 'la nave'],
     subject: 'a large white passenger ship, side view',
     alt: {
@@ -495,7 +499,7 @@ export const seaVocabulary = [
   {
     image: 'scoglio',
     word: 'lo scoglio',
-    examples: ['Lo scoglio è grigio.', 'Il gabbiano sta sullo scoglio.', 'Non salire sullo scoglio: è scivoloso.'],
+    examples: ['Lo scoglio è grigio.', 'Il gabbiano è sullo scoglio.', 'Non salire sullo scoglio: è scivoloso.'],
     answers: ['scoglio', 'lo scoglio'],
     subject: 'a single grey sea rock with a little water at its base',
     alt: {
