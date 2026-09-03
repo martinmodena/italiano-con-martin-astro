@@ -1,11 +1,13 @@
 # Immagine della lettura «La storia della mafia in Italia»
 
-Stato al 2026-09-02: l'immagine definitiva **non è ancora stata generata**, perché la quota
-giornaliera gratuita del generatore (ZeroGPU su Hugging Face) era esaurita. Fino ad allora
-`public/assets/reading-storia-mafia-italia.webp` e `-card.webp` sono **provvisorie**
-(fondo di carta invecchiata generato via script, senza testo). Vanno sostituite con
-l'illustrazione definitiva, nello stesso stile di `reading-storia-caffe-italia.webp`:
-collage seppia, oggetti fotorealistici fusi con un'incisione ottocentesca, carta macchiata.
+Stato al 2026-09-03: **immagine definitiva generata e pubblicata**, con
+`scripts/generate-image.mjs` via OpenRouter (`google/gemini-3-pro-image`), costo $0.13.
+`public/assets/reading-storia-mafia-italia.webp` e `-card.webp` sono nello stesso stile di
+`reading-storia-caffe-italia.webp`: collage seppia, oggetti fotorealistici in primo piano
+(cassetta di limoni, registro aperto, chiave, coppola, giornale) fusi con un'incisione
+ottocentesca sul muro (contadini e proprietario a cavallo) e una finestra su una via di
+Palermo. Il prompt sotto resta come riferimento, per rigenerare o per le prossime letture
+storiche.
 
 ## Formati
 
@@ -39,9 +41,16 @@ Testo alternativo già in pagina: «Limoni, registri e vecchie stampe della Sici
 dell'Ottocento». Se l'immagine definitiva mostra soggetti diversi, va aggiornato
 l'attributo `alt` in tutte e 9 le lingue.
 
-## Come sostituirle
+## Come rigenerarla (o farne una nuova simile)
 
-1. Salva l'immagine definitiva con i due nomi e le due dimensioni indicate sopra,
-   in `public/assets/`.
-2. Ricostruisci: `npm run build`.
-3. Rigenera i PDF della lettura: `python scripts/generate-pdfs.py --only storia-della-mafia-in-italia`.
+```
+node scripts/generate-image.mjs --slug reading-storia-mafia-italia \
+  --prompt-file docs/prompt-immagine-storia-mafia.md
+npm run build
+python scripts/generate-pdfs.py --only storia-della-mafia-in-italia
+```
+
+`generate-image.mjs` chiama OpenRouter (chiave in `.env`, mai in questo repo),
+estrae automaticamente il prompt dal blocco di codice qui sopra e salva già le
+due misure in `public/assets/`. Vedi `scripts/generate-image.mjs --help`-style
+commenti in cima al file per le altre opzioni (`--model`, `--prompt` diretto).
