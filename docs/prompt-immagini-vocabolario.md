@@ -166,10 +166,18 @@ node scripts/generate-vocabulary-images.mjs --out-dir <cartella>
 
 Chiama OpenRouter (`openai/gpt-image-1-mini`, `quality: "low"`, 1024×1024 — la qualità «low» non si vede più una volta ridotta a 512×512, e costa un decimo della «standard»), salta le parole che hanno già l'immagine in `public/assets/vocabolario/`, salva i file grezzi nella cartella indicata. Opzioni utili: `--only <slug1,slug2>` per rigenerare solo alcune parole, `--limit N` per fare un lotto di prova, `--dry-run` per vedere i prompt senza chiamare l'API. La chiave sta in `.env` (`OPENROUTER_API_KEY`, mai nel repository).
 
-3. Converti e aggiungi alle pagine, come nella sezione 2:
+3. **Togli lo sfondo prima di convertire**: il modello non genera mai un bianco puro, solo qualcosa di molto vicino (`#F9F7F7` circa). Senza questo passaggio si vede un rettangolo intorno al soggetto sulla scheda (successo il 2026-09-03, corretto lo stesso giorno).
 
 ```bash
-node scripts/expand-food-vocabulary.mjs --images <cartella>
+python scripts/remove-white-background.py <cartella> <cartella-pulita>
 ```
 
-Costo di riferimento (2026-09-03): **$0.1284 per 53 immagini**, circa $0.0024 ciascuna. Testato anche con soggetti più complessi (bottiglia di vetro trasparente, più funghi insieme): stessa qualità, stesso prezzo.
+Ritaglia lo sfondo con un flood fill dai bordi. Per i soggetti quasi bianchi anche loro (farina, sale, zucchero, mozzarella, un bicchiere di latte o d'acqua, un bicchiere di vino) il ritaglio non distingue soggetto da sfondo e mangia pezzi veri: lo script segnala quando la porzione di "soggetto" rilevata è sospettosamente piccola (`<-- da controllare`). Per quelle parole, invece di ritagliare, aggiungi `--whiten=slug1,slug2,...`: corregge solo il colore dello sfondo verso il bianco puro, senza ritagliare nulla, quindi non può creare buchi.
+
+4. Converti e aggiungi alle pagine, come nella sezione 2:
+
+```bash
+node scripts/expand-food-vocabulary.mjs --images <cartella-pulita>
+```
+
+Costo di riferimento (2026-09-03): **$0.1284 per 53 immagini**, circa $0.0024 ciascuna. Testato anche con soggetti più complessi (bottiglia di vetro trasparente, più funghi insieme): stessa qualità, stesso prezzo. Il ritaglio dello sfondo è gratuito (elaborazione locale, nessuna chiamata API).
