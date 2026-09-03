@@ -52,6 +52,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-kleidung.html',
     ja: 'ja/goi/italian-clothing-vocabulary.html',
   },
+  mare: {
+    count: 30,
+    it: 'vocabolario/mare.html',
+    en: 'en/vocabulary/italian-sea-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-mar-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-mer-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-more.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-morze.html',
+    tr: 'tr/kelime-bilgisi/italyanca-deniz-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-meer.html',
+    ja: 'ja/goi/italian-sea-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -115,7 +127,7 @@ for (const config of Object.values(routes)) {
 }
 
 const index = readFileSync(path.join(root, 'vocabolario', 'index.html'), 'utf8');
-for (const lesson of ['cucina', 'salotto', 'ufficio', 'abbigliamento', 'cibo'])
+for (const lesson of ['cucina', 'salotto', 'ufficio', 'abbigliamento', 'cibo', 'mare'])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
 if (errors.length) {
