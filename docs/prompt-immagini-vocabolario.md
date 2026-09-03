@@ -4,9 +4,9 @@ Come si producono le illustrazioni che mancano, e come si mettono nel sito.
 
 Le schede di vocabolario mostrano **una parola per immagine** e riusano la stessa immagine nell'esercizio «Riconosci la parola». Finché l'immagine manca, la parola **non viene aggiunta alla pagina**: `scripts/expand-food-vocabulary.mjs` salta le parole senza illustrazione, così tutte e 9 le lingue restano allineate.
 
-Stato al 2026-09-01: la lezione «Il cibo» ha **16 parole in pagina** e **56 parole pronte in attesa dell'immagine** (`scripts/data/food-vocabulary-extra.mjs`). Quando tutte le immagini ci sono, la pagina passa a **72 parole**.
+Stato al 2026-09-03: **tutte le 72 parole sono in pagina**, in tutte e 9 le lingue. Le prime 8 illustrazioni sono state generate con lo Space `mcp-tools/Z-Image-Turbo` via il connettore Hugging Face (seme fisso `1001`, 1024x1024); le altre 56 con `scripts/generate-vocabulary-images.mjs` via OpenRouter (`openai/gpt-image-1-mini`, `quality: "low"`, 1024x1024): **$0.1284** in tutto, circa $0.0023 a immagine. Vedi la sezione 5 più sotto per come rigenerarle o aggiungerne di nuove con lo stesso canale.
 
-Le prime 8 illustrazioni sono state generate con lo Space `mcp-tools/Z-Image-Turbo` via il connettore Hugging Face, seme fisso `1001`, 1024x1024. La GPU gratuita di Hugging Face si esaurisce dopo circa 8 immagini al giorno: o si aspetta il reset giornaliero, o si passa a Hugging Face PRO, o si generano con ChatGPT come descritto qui sotto.
+La GPU gratuita di Hugging Face si esaurisce dopo circa 5-8 immagini al giorno (limite di account, non di Space): per serie lunghe conviene OpenRouter, che non ha quota giornaliera e costa a consumo. In alternativa restano valide le istruzioni per ChatGPT qui sotto.
 
 ---
 
@@ -78,75 +78,98 @@ Le righe con ✅ sono gia' online.
 
 La colonna «Soggetto» è il messaggio da mandare a ChatGPT dopo il blocco iniziale. La colonna «File» è il nome con cui va salvata l'immagine: deve essere esatto.
 
-| # | File | Parola italiana | Soggetto |
-| --- | --- | --- | --- |
-| ✅ | `pizza.webp` | la pizza | una pizza margherita intera, vista dall'alto |
-| ✅ | `panino.webp` | il panino | un panino imbottito con prosciutto |
-| ✅ | `spaghetti.webp` | gli spaghetti | un piatto bianco di spaghetti al pomodoro |
-| ✅ | `lasagne.webp` | le lasagne | una porzione di lasagne al forno, vista dall'alto |
-| ✅ | `gnocchi.webp` | gli gnocchi | un piatto bianco di gnocchi al pomodoro |
-| ✅ | `risotto.webp` | il risotto | un piatto bianco di risotto giallo allo zafferano |
-| ✅ | `zuppa.webp` | la zuppa | una scodella bianca di zuppa di verdure |
-| 8 | `prosciutto.webp` | il prosciutto | alcune fette di prosciutto crudo |
-| 9 | `pollo.webp` | il pollo | un pollo arrosto intero |
-| 10 | `tonno.webp` | il tonno | una scatoletta aperta di tonno |
-| 11 | `yogurt.webp` | lo yogurt | un vasetto aperto di yogurt bianco |
-| 12 | `latte.webp` | il latte | un bicchiere di latte |
-| 13 | `burro.webp` | il burro | un panetto di burro |
-| 14 | `olio.webp` | l’olio | una bottiglia di olio d'oliva |
-| 15 | `sale.webp` | il sale | una ciotolina bianca di sale grosso |
-| 16 | `pepe.webp` | il pepe | una ciotolina bianca di pepe nero in grani |
-| 17 | `zucchero.webp` | lo zucchero | una ciotolina bianca di zucchero bianco |
-| 18 | `farina.webp` | la farina | una ciotolina bianca di farina |
-| 19 | `marmellata.webp` | la marmellata | un vasetto aperto di marmellata di albicocche |
-| ✅ | `pomodoro.webp` | il pomodoro | un pomodoro rosso maturo con il picciolo verde |
-| 21 | `insalata.webp` | l’insalata | una ciotola di insalata verde a foglie |
-| 22 | `patata.webp` | la patata | una patata cruda con la buccia |
-| 23 | `carota.webp` | la carota | una carota arancione con il ciuffo verde |
-| 24 | `cipolla.webp` | la cipolla | una cipolla dorata intera |
-| 25 | `aglio.webp` | l’aglio | una testa d'aglio bianca |
-| 26 | `zucchina.webp` | la zucchina | una zucchina verde intera |
-| 27 | `melanzana.webp` | la melanzana | una melanzana viola intera |
-| 28 | `banana.webp` | la banana | una banana gialla matura |
-| 29 | `arancia.webp` | l’arancia | un'arancia intera con una foglia verde |
-| 30 | `limone.webp` | il limone | un limone giallo intero con una foglia verde |
-| 31 | `fragola.webp` | la fragola | una fragola rossa con il picciolo verde |
-| 32 | `uva.webp` | l’uva | un grappolo d'uva nera |
-| 33 | `pera.webp` | la pera | una pera verde intera |
-| 34 | `gelato.webp` | il gelato | un cono gelato con due palline |
-| 35 | `torta.webp` | la torta | una torta al cioccolato intera, vista dall'alto |
-| 36 | `biscotti.webp` | i biscotti | alcuni biscotti rotondi |
-| 37 | `cornetto.webp` | il cornetto | un cornetto italiano dorato da colazione |
-| 38 | `caffe.webp` | il caffè | una tazzina bianca di caffè espresso |
-| 39 | `te.webp` | il tè | una tazza di tè caldo |
-| 40 | `acqua.webp` | l’acqua | un bicchiere d'acqua |
-| 41 | `vino.webp` | il vino | un bicchiere di vino rosso |
-| 42 | `birra.webp` | la birra | un bicchiere di birra chiara con la schiuma |
-| 43 | `mozzarella.webp` | la mozzarella | una mozzarella bianca tonda |
-| 44 | `salame.webp` | il salame | un salame intero con alcune fette tagliate accanto |
-| 45 | `bistecca.webp` | la bistecca | una bistecca di manzo cruda |
-| 46 | `gamberi.webp` | i gamberi | alcuni gamberi rosa crudi |
-| 47 | `miele.webp` | il miele | un vasetto di miele |
-| 48 | `aceto.webp` | l’aceto | una bottiglia di aceto |
-| 49 | `basilico.webp` | il basilico | un mazzetto di foglie di basilico fresco |
-| 50 | `peperone.webp` | il peperone | un peperone giallo intero |
-| 51 | `funghi.webp` | i funghi | alcuni funghi champignon |
-| 52 | `piselli.webp` | i piselli | un mucchietto di piselli verdi freschi |
-| 53 | `fagioli.webp` | i fagioli | un mucchietto di fagioli bianchi secchi |
-| 54 | `broccoli.webp` | i broccoli | un broccolo verde intero |
-| 55 | `spinaci.webp` | gli spinaci | un mazzetto di foglie di spinaci freschi |
-| 56 | `pesca.webp` | la pesca | una pesca gialla matura |
-| 57 | `ciliegia.webp` | la ciliegia | due ciliegie rosse unite dal picciolo |
-| 58 | `anguria.webp` | l’anguria | una fetta di anguria rossa |
-| 59 | `ananas.webp` | l’ananas | un ananas intero con il ciuffo |
-| 60 | `noci.webp` | le noci | alcune noci con il guscio, una aperta a metà |
-| 61 | `cioccolato.webp` | il cioccolato | una tavoletta di cioccolato fondente |
-| 62 | `succo.webp` | il succo | un bicchiere di succo d'arancia |
-| 63 | `cappuccino.webp` | il cappuccino | una tazza di cappuccino con la schiuma |
-| 64 | `focaccia.webp` | la focaccia | una focaccia con olio e sale grosso, vista dall'alto |
+| #   | File              | Parola italiana | Soggetto                                             |
+| --- | ----------------- | --------------- | ---------------------------------------------------- |
+| ✅  | `pizza.webp`      | la pizza        | una pizza margherita intera, vista dall'alto         |
+| ✅  | `panino.webp`     | il panino       | un panino imbottito con prosciutto                   |
+| ✅  | `spaghetti.webp`  | gli spaghetti   | un piatto bianco di spaghetti al pomodoro            |
+| ✅  | `lasagne.webp`    | le lasagne      | una porzione di lasagne al forno, vista dall'alto    |
+| ✅  | `gnocchi.webp`    | gli gnocchi     | un piatto bianco di gnocchi al pomodoro              |
+| ✅  | `risotto.webp`    | il risotto      | un piatto bianco di risotto giallo allo zafferano    |
+| ✅  | `zuppa.webp`      | la zuppa        | una scodella bianca di zuppa di verdure              |
+| ✅  | `prosciutto.webp` | il prosciutto   | alcune fette di prosciutto crudo                     |
+| ✅  | `pollo.webp`      | il pollo        | un pollo arrosto intero                              |
+| ✅  | `tonno.webp`      | il tonno        | una scatoletta aperta di tonno                       |
+| ✅  | `yogurt.webp`     | lo yogurt       | un vasetto aperto di yogurt bianco                   |
+| ✅  | `latte.webp`      | il latte        | un bicchiere di latte                                |
+| ✅  | `burro.webp`      | il burro        | un panetto di burro                                  |
+| ✅  | `olio.webp`       | l’olio          | una bottiglia di olio d'oliva                        |
+| ✅  | `sale.webp`       | il sale         | una ciotolina bianca di sale grosso                  |
+| ✅  | `pepe.webp`       | il pepe         | una ciotolina bianca di pepe nero in grani           |
+| ✅  | `zucchero.webp`   | lo zucchero     | una ciotolina bianca di zucchero bianco              |
+| ✅  | `farina.webp`     | la farina       | una ciotolina bianca di farina                       |
+| ✅  | `marmellata.webp` | la marmellata   | un vasetto aperto di marmellata di albicocche        |
+| ✅  | `pomodoro.webp`   | il pomodoro     | un pomodoro rosso maturo con il picciolo verde       |
+| ✅  | `insalata.webp`   | l’insalata      | una ciotola di insalata verde a foglie               |
+| ✅  | `patata.webp`     | la patata       | una patata cruda con la buccia                       |
+| ✅  | `carota.webp`     | la carota       | una carota arancione con il ciuffo verde             |
+| ✅  | `cipolla.webp`    | la cipolla      | una cipolla dorata intera                            |
+| ✅  | `aglio.webp`      | l’aglio         | una testa d'aglio bianca                             |
+| ✅  | `zucchina.webp`   | la zucchina     | una zucchina verde intera                            |
+| ✅  | `melanzana.webp`  | la melanzana    | una melanzana viola intera                           |
+| ✅  | `banana.webp`     | la banana       | una banana gialla matura                             |
+| ✅  | `arancia.webp`    | l’arancia       | un'arancia intera con una foglia verde               |
+| ✅  | `limone.webp`     | il limone       | un limone giallo intero con una foglia verde         |
+| ✅  | `fragola.webp`    | la fragola      | una fragola rossa con il picciolo verde              |
+| ✅  | `uva.webp`        | l’uva           | un grappolo d'uva nera                               |
+| ✅  | `pera.webp`       | la pera         | una pera verde intera                                |
+| ✅  | `gelato.webp`     | il gelato       | un cono gelato con due palline                       |
+| ✅  | `torta.webp`      | la torta        | una torta al cioccolato intera, vista dall'alto      |
+| ✅  | `biscotti.webp`   | i biscotti      | alcuni biscotti rotondi                              |
+| ✅  | `cornetto.webp`   | il cornetto     | un cornetto italiano dorato da colazione             |
+| ✅  | `caffe.webp`      | il caffè        | una tazzina bianca di caffè espresso                 |
+| ✅  | `te.webp`         | il tè           | una tazza di tè caldo                                |
+| ✅  | `acqua.webp`      | l’acqua         | un bicchiere d'acqua                                 |
+| ✅  | `vino.webp`       | il vino         | un bicchiere di vino rosso                           |
+| ✅  | `birra.webp`      | la birra        | un bicchiere di birra chiara con la schiuma          |
+| ✅  | `mozzarella.webp` | la mozzarella   | una mozzarella bianca tonda                          |
+| ✅  | `salame.webp`     | il salame       | un salame intero con alcune fette tagliate accanto   |
+| ✅  | `bistecca.webp`   | la bistecca     | una bistecca di manzo cruda                          |
+| ✅  | `gamberi.webp`    | i gamberi       | alcuni gamberi rosa crudi                            |
+| ✅  | `miele.webp`      | il miele        | un vasetto di miele                                  |
+| ✅  | `aceto.webp`      | l’aceto         | una bottiglia di aceto                               |
+| ✅  | `basilico.webp`   | il basilico     | un mazzetto di foglie di basilico fresco             |
+| ✅  | `peperone.webp`   | il peperone     | un peperone giallo intero                            |
+| ✅  | `funghi.webp`     | i funghi        | alcuni funghi champignon                             |
+| ✅  | `piselli.webp`    | i piselli       | un mucchietto di piselli verdi freschi               |
+| ✅  | `fagioli.webp`    | i fagioli       | un mucchietto di fagioli bianchi secchi              |
+| ✅  | `broccoli.webp`   | i broccoli      | un broccolo verde intero                             |
+| ✅  | `spinaci.webp`    | gli spinaci     | un mazzetto di foglie di spinaci freschi             |
+| ✅  | `pesca.webp`      | la pesca        | una pesca gialla matura                              |
+| ✅  | `ciliegia.webp`   | la ciliegia     | due ciliegie rosse unite dal picciolo                |
+| ✅  | `anguria.webp`    | l’anguria       | una fetta di anguria rossa                           |
+| ✅  | `ananas.webp`     | l’ananas        | un ananas intero con il ciuffo                       |
+| ✅  | `noci.webp`       | le noci         | alcune noci con il guscio, una aperta a metà         |
+| ✅  | `cioccolato.webp` | il cioccolato   | una tavoletta di cioccolato fondente                 |
+| ✅  | `succo.webp`      | il succo        | un bicchiere di succo d'arancia                      |
+| ✅  | `cappuccino.webp` | il cappuccino   | una tazza di cappuccino con la schiuma               |
+| ✅  | `focaccia.webp`   | la focaccia     | una focaccia con olio e sale grosso, vista dall'alto |
 
 ---
 
 ## 4. Se serve una parola che non è in elenco
 
-Aggiungila a `scripts/data/food-vocabulary-extra.mjs` con la stessa forma delle altre: nome del file, parola con l'articolo, tre frasi d'esempio **in italiano** (non si traducono mai), le risposte accettate dall'esercizio e il testo alternativo dell'immagine tradotto in tutte e 9 le lingue. Poi produci l'immagine con il prompt qui sopra.
+Aggiungila a `scripts/data/food-vocabulary-extra.mjs` con la stessa forma delle altre: nome del file, parola con l'articolo, tre frasi d'esempio **in italiano** (non si traducono mai), le risposte accettate dall'esercizio e il testo alternativo dell'immagine tradotto in tutte e 9 le lingue. Poi produci l'immagine con il prompt qui sopra, oppure con il canale della sezione 5.
+
+---
+
+## 5. Generarle in blocco con OpenRouter (il metodo usato per le 56)
+
+Più veloce ed economico di ChatGPT per serie lunghe: nessun copia-incolla manuale, nessuna attesa fra un'immagine e l'altra.
+
+1. Aggiungi la voce a `scripts/data/food-vocabulary-extra.mjs` (vedi sezione 4) **e** il soggetto in inglese a `scripts/data/food-vocabulary-image-prompts.mjs`, con lo stesso slug.
+2. Genera:
+
+```bash
+node scripts/generate-vocabulary-images.mjs --out-dir <cartella>
+```
+
+Chiama OpenRouter (`openai/gpt-image-1-mini`, `quality: "low"`, 1024×1024 — la qualità «low» non si vede più una volta ridotta a 512×512, e costa un decimo della «standard»), salta le parole che hanno già l'immagine in `public/assets/vocabolario/`, salva i file grezzi nella cartella indicata. Opzioni utili: `--only <slug1,slug2>` per rigenerare solo alcune parole, `--limit N` per fare un lotto di prova, `--dry-run` per vedere i prompt senza chiamare l'API. La chiave sta in `.env` (`OPENROUTER_API_KEY`, mai nel repository).
+
+3. Converti e aggiungi alle pagine, come nella sezione 2:
+
+```bash
+node scripts/expand-food-vocabulary.mjs --images <cartella>
+```
+
+Costo di riferimento (2026-09-03): **$0.1284 per 53 immagini**, circa $0.0024 ciascuna. Testato anche con soggetti più complessi (bottiglia di vetro trasparente, più funghi insieme): stessa qualità, stesso prezzo.
