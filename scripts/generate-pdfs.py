@@ -115,7 +115,10 @@ def clean(value):
 
 
 def node_text(node):
-    return clean(" ".join(part.strip() for part in node.itertext() if part.strip()))
+    # Niente spazio artificiale fra i pezzi: <em>Issus</em>. deve restare
+    # "Issus." e non "Issus .". La spaziatura corretta e' gia' nell'HTML,
+    # clean() si limita a compattare gli a capo dell'indentazione.
+    return clean("".join(node.itertext()))
 
 
 def safe_markup(value):

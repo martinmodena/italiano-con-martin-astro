@@ -70,6 +70,10 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Le pagine di vocabolario **non hanno PDF**: `scripts/generate-pdfs.py` copre solo letture, favole e grammatica. Se un giorno si aggiungono, vanno rigenerati a ogni parola nuova.
 
+- **Nemmeno una lettura nuova si scrive nove volte.** `scripts/create-issus-reading.mjs` è il modello: il testo di studio italiano sta in `scripts/data/<nome>-it.mjs`, la cornice localizzata (titoli, occhielli, glosse delle parole utili, traduzioni di servizio delle domande) in `scripts/data/<nome>-i18n.mjs`, e lo script costruisce i 9 frammenti, le 9 pagine `.astro`, le 9 tessere negli indici e le 9 voci in `public/sitemap.xml`. Le etichette di servizio e la call to action **non si ritraducono**: si clonano da una risorsa già revisionata nella stessa lingua (la lettura sulla mafia per i metadati, quella sul sonar del delfino per la tessera «Scienza»). Lo script è idempotente: rilanciarlo riscrive le pagine e lascia stare indici e sitemap se la lettura c'è già.
+
+  Dopo lo script servono, nell'ordine: `npm run build`, `python scripts/generate-pdfs.py --only <nome-file-italiano>`, di nuovo `npm run build` per copiare i PDF in `dist/`.
+
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```
@@ -86,7 +90,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Gli audit analizzano `dist/` (si può cambiare cartella con la variabile `SITE_ROOT`). Il workflow di deploy li esegue comunque e blocca la pubblicazione se falliscono.
 
-- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-09-01 la base di confronto è **490 differenze su 1119 pagine**, tutte volute: le 36 precedenti (18 indici senza elenco testuale, 9 home riscritte, 9 pagine «Chi siamo» e la home inglese con la tariffa di 12 €) più le 469 pagine localizzate riparate secondo `REGOLE_LINGUE.md`. Alle 485 del 2026-08-25 si aggiungono le 9 pagine della lettura «Il latte materno», riscritta a mano il 2026-08-31. Dal 2026-09-01 si aggiunge `vocabolario/cibo.html`, la pagina italiana della lezione «Il cibo» ampliata a 16 parole (le 8 localizzate erano già fra le 469). Se il numero sale oltre 490, è cambiato qualcosa che non era previsto: va capito prima di pubblicare. Le pagine **«extra in dist»** sono invece quelle nate dopo la migrazione e assenti da `legacy-html/`: dal 2026-09-02 sono **9**, le nove lingue della lettura «La storia della mafia in Italia».
+- **Rete di sicurezza**: `node scripts/migrate/verify-parity.mjs --ignore-intended-fixes` confronta la build con il sito storico neutralizzando le correzioni volute. Dal 2026-09-01 la base di confronto è **490 differenze su 1119 pagine**, tutte volute: le 36 precedenti (18 indici senza elenco testuale, 9 home riscritte, 9 pagine «Chi siamo» e la home inglese con la tariffa di 12 €) più le 469 pagine localizzate riparate secondo `REGOLE_LINGUE.md`. Alle 485 del 2026-08-25 si aggiungono le 9 pagine della lettura «Il latte materno», riscritta a mano il 2026-08-31. Dal 2026-09-01 si aggiunge `vocabolario/cibo.html`, la pagina italiana della lezione «Il cibo» ampliata a 16 parole (le 8 localizzate erano già fra le 469). Se il numero sale oltre 490, è cambiato qualcosa che non era previsto: va capito prima di pubblicare. Le pagine **«extra in dist»** sono invece quelle nate dopo la migrazione e assenti da `legacy-html/`: dal 2026-09-04 sono **27**, cioè tre risorse per nove lingue — la lettura «La storia della mafia in Italia» (2026-09-02), la lezione di vocabolario «Il mare» (2026-09-03, non registrata allora) e la lettura «L'insetto con gli ingranaggi» (2026-09-04).
 
 - Le lingue sono `it` (senza prefisso) più `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`. Canonical e hreflang reciproci obbligatori.
 
