@@ -39,6 +39,7 @@ Le rotte `X.html.astro` producono gli URL storici `X.html`: dopo la build, `scri
 | Voci di menu, nome lingua, etichette per lingua  | `src/data/i18n.json`                                               |
 | Grafica del sito                                 | `public/styles.css` **e** alza `CSS_VERSION` in `SiteLayout.astro` |
 | Comportamento interattivo                        | `public/script.js`                                                 |
+| Le parole cliccabili di un brano                 | `public/assets/glossario/<id>.json`                                |
 | Immagini, PDF                                    | `public/assets/`, `public/pdf/`                                    |
 
 Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pagina in `src/pages/`, più le versioni nelle altre 8 lingue e le voci nella sitemap e negli indici di categoria.
@@ -73,6 +74,12 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 - **Nemmeno una lettura nuova si scrive nove volte.** `scripts/create-issus-reading.mjs` è il modello: il testo di studio italiano sta in `scripts/data/<nome>-it.mjs`, la cornice localizzata (titoli, occhielli, glosse delle parole utili, traduzioni di servizio delle domande) in `scripts/data/<nome>-i18n.mjs`, e lo script costruisce i 9 frammenti, le 9 pagine `.astro`, le 9 tessere negli indici e le 9 voci in `public/sitemap.xml`. Le etichette di servizio e la call to action **non si ritraducono**: si clonano da una risorsa già revisionata nella stessa lingua (la lettura sulla mafia per i metadati, quella sul sonar del delfino per la tessera «Scienza»). Lo script è idempotente: rilanciarlo riscrive le pagine e lascia stare indici e sitemap se la lettura c'è già.
 
   Dopo lo script servono, nell'ordine: `npm run build`, `python scripts/generate-pdfs.py --only <nome-file-italiano>`, di nuovo `npm run build` per copiare i PDF in `dist/`.
+
+- **Le parole cliccabili di un brano non si scrivono nell'HTML.** Il glossario sta in `public/assets/glossario/<id>.json`; `public/assets/glossario.js` lo legge e trova quelle parole a runtime dentro `.story-text`. Così il brano resta identico nelle 9 lingue, i PDF non cambiano, gli audit non vedono niente di nuovo e una correzione si fa in un punto solo. Si aggancia con `node scripts/attach-glossary.mjs <id> <pagina.astro> [altre...]` (idempotente, mette CSS e script con il prefisso giusto in ogni pagina).
+
+  Ogni voce ha: `parola` (la testata, con l'articolo o all'infinito), `forme` (le forme che compaiono davvero nel testo), `esempio` (**sempre in italiano**), `traduzioni` per le 9 lingue e, se serve, `immagine`. La voce `it` è una definizione italiana, non una traduzione.
+
+  **La stessa parola non ha sempre lo stesso significato**: la glossa deve dare il senso che la parola ha _in questo testo_, non il primo del dizionario. Se un testo usa la stessa parola in due sensi si scrivono due voci, distinte da `contesto` (una parola vicina che deve comparire nello stesso paragrafo) o da `livelli` (per esempio `["c1"]`). Nella favola del cane «superficie» è il pelo dell'acqua nel primo paragrafo e «solo da fuori» nell'ultimo. Dove il senso ovvio sarebbe quello sbagliato conviene dirlo dentro la traduzione stessa: `apparentemente` → «seemingly, only in appearance (NOT “apparently”)».
 
 - **Prima di pubblicare** devono passare, nell'ordine:
 

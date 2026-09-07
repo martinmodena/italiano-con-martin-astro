@@ -46,9 +46,19 @@
     const voci = (dati && dati.voci) || [];
     if (!voci.length) return;
 
+    // Una stessa forma può avere più voci: «superficie» è quella dell'acqua
+    // nel primo paragrafo e «in superficie» nell'ultimo. Le voci con una
+    // condizione (contesto o livelli) vengono provate per prime; quella senza
+    // condizioni resta come ripiego.
     const indice = new Map();
     voci.forEach((voce) => {
-      (voce.forme || []).forEach((forma) => indice.set(normalizza(forma), voce));
+      (voce.forme || []).forEach((forma) => {
+        const chiave = normalizza(forma);
+        const elenco = indice.get(chiave) || [];
+        if (voce.contesto || voce.livelli) elenco.unshift(voce);
+        else elenco.push(voce);
+        indice.set(chiave, elenco);
+      });
     });
 
     const blocchi = document.querySelectorAll('.story-text');
@@ -56,14 +66,18 @@
 
     let trovate = 0;
     blocchi.forEach((blocco) => {
-      // Una parola si segna una volta sola per livello: il testo resta leggibile.
+      // Ogni voce si segna una volta sola per livello: il testo resta leggibile.
+      // Il conto è per voce, non per parola, così i due sensi di «superficie»
+      // restano tutti e due cliccabili.
       const gia = new Set();
+      const livello = (blocco.closest('.story-card') || {}).id || '';
       const nodi = [];
       const walker = document.createTreeWalker(blocco, NodeFilter.SHOW_TEXT);
       while (walker.nextNode()) nodi.push(walker.currentNode);
 
       nodi.forEach((nodo) => {
         const testoNodo = nodo.nodeValue;
+        const frase = normalizza((nodo.parentElement || blocco).textContent || '');
         const parole = /[\p{L}\p{M}]+/gu;
         let corrispondenza;
         let ultimo = 0;
@@ -71,9 +85,9 @@
 
         while ((corrispondenza = parole.exec(testoNodo))) {
           const chiave = normalizza(corrispondenza[0]);
-          const voce = indice.get(chiave);
-          if (!voce || gia.has(voce.parola)) continue;
-          gia.add(voce.parola);
+          const voce = scegliVoce(indice.get(chiave), frase, livello);
+          if (!voce || gia.has(voce)) continue;
+          gia.add(voce);
 
           frammento = frammento || document.createDocumentFragment();
           if (corrispondenza.index > ultimo) {
@@ -93,6 +107,21 @@
 
     if (!trovate) return;
     aggiungiSuggerimento(blocchi[0]);
+  }
+
+  // La stessa parola non ha sempre lo stesso significato: fra le voci che
+  // hanno quella forma si sceglie quella che vale in questo punto del testo.
+  // `contesto` è una parola vicina che deve comparire nello stesso paragrafo,
+  // `livelli` limita la voce a certi livelli (per esempio solo al C1).
+  function scegliVoce(candidate, frase, livello) {
+    if (!candidate) return null;
+    return (
+      candidate.find((voce) => {
+        if (voce.livelli && !voce.livelli.includes(livello)) return false;
+        if (voce.contesto && !frase.includes(normalizza(voce.contesto))) return false;
+        return true;
+      }) || null
+    );
   }
 
   function creaBottone(parolaNelTesto, voce) {

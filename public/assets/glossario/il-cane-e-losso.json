@@ -76,15 +76,15 @@
       "esempio": "La corrente porta via l'osso.",
       "immagine": null,
       "traduzioni": {
-        "it": "L'acqua del fiume che si muove in una direzione.",
-        "en": "current",
-        "es": "corriente",
-        "fr": "courant",
-        "cs": "proud",
-        "pl": "prąd",
-        "tr": "akıntı",
-        "de": "Strömung",
-        "ja": "流れ"
+        "it": "Qui: l'acqua del fiume che si muove. La stessa parola vuol dire anche «elettricità».",
+        "en": "current of the river (the same word also means «electricity»)",
+        "es": "corriente del río (la misma palabra significa también «electricidad»)",
+        "fr": "courant de la rivière (le même mot signifie aussi « électricité »)",
+        "cs": "říční proud (totéž slovo znamená i „elektřinu“)",
+        "pl": "nurt rzeki (to samo słowo znaczy też „prąd elektryczny”)",
+        "tr": "nehrin akıntısı (aynı kelime «elektrik» anlamına da gelir)",
+        "de": "Strömung des Flusses (dasselbe Wort heißt auch «Strom»)",
+        "ja": "川の流れ（同じ語に「電流」の意味もある）"
       }
     },
     {
@@ -348,15 +348,15 @@
       "esempio": "Con l'osso in bocca si dirige verso la campagna.",
       "immagine": null,
       "traduzioni": {
-        "it": "La zona fuori città, con campi e alberi.",
-        "en": "countryside",
-        "es": "campo",
-        "fr": "campagne",
-        "cs": "venkov",
-        "pl": "wieś",
-        "tr": "kırlık",
-        "de": "Land",
-        "ja": "田舎"
+        "it": "Qui: la zona fuori città, con campi e alberi. Non la «campagna elettorale».",
+        "en": "countryside (not a «campaign» here)",
+        "es": "campo, zona rural (aquí no «campaña»)",
+        "fr": "campagne, zone rurale (pas « campagne électorale »)",
+        "cs": "venkov (ne „kampaň“)",
+        "pl": "wieś, tereny wiejskie (nie „kampania”)",
+        "tr": "kırlık, kırsal (burada «kampanya» değil)",
+        "de": "Land, ländliche Gegend (hier nicht «Kampagne»)",
+        "ja": "田舎、郊外（ここでは「キャンペーン」ではない）"
       }
     },
     {
@@ -668,18 +668,37 @@
     {
       "parola": "la superficie",
       "forme": ["superficie"],
+      "contesto": "restituiva",
       "esempio": "La superficie dell'acqua riflette la sua figura.",
       "immagine": null,
       "traduzioni": {
-        "it": "La parte esterna, quella che si vede sopra.",
-        "en": "surface",
-        "es": "superficie",
-        "fr": "surface",
-        "cs": "hladina",
-        "pl": "powierzchnia",
-        "tr": "yüzey",
-        "de": "Oberfläche",
-        "ja": "表面"
+        "it": "Qui: il pelo dell'acqua, la faccia di sopra del fiume.",
+        "en": "surface (of the water)",
+        "es": "superficie (del agua)",
+        "fr": "surface (de l'eau)",
+        "cs": "hladina (vody)",
+        "pl": "powierzchnia (wody)",
+        "tr": "su yüzeyi",
+        "de": "Wasseroberfläche",
+        "ja": "水面"
+      }
+    },
+    {
+      "parola": "in superficie",
+      "forme": ["superficie"],
+      "contesto": "soltanto in superficie",
+      "esempio": "Degli altri vediamo soltanto quello che sta in superficie.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: solo da fuori, senza sapere quello che c'è dentro.",
+        "en": "on the surface, only from the outside",
+        "es": "por encima, solo desde fuera",
+        "fr": "en surface, seulement de l'extérieur",
+        "cs": "jen povrchně, zvenčí",
+        "pl": "powierzchownie, tylko z zewnątrz",
+        "tr": "yüzeysel olarak, sadece dışarıdan",
+        "de": "nur oberflächlich, von außen",
+        "ja": "うわべだけ、外から見ただけ"
       }
     },
     {
@@ -802,20 +821,260 @@
       }
     },
     {
-      "parola": "il limite",
+      "parola": "i limiti",
       "forme": ["limite", "limiti"],
       "esempio": "Di quello che abbiamo conosciamo anche i limiti.",
       "immagine": null,
       "traduzioni": {
-        "it": "Il punto oltre il quale una cosa non arriva.",
-        "en": "limit",
-        "es": "límite",
-        "fr": "limite",
-        "cs": "hranice",
-        "pl": "granica",
-        "tr": "sınır",
-        "de": "Grenze",
-        "ja": "限界"
+        "it": "Qui: i difetti e i punti deboli di una cosa, non il confine.",
+        "en": "shortcomings, flaws (not «boundary» here)",
+        "es": "las limitaciones, los defectos (aquí no «frontera»)",
+        "fr": "les défauts, les faiblesses (pas « frontière » ici)",
+        "cs": "nedostatky, slabá místa (ne „hranice“)",
+        "pl": "wady, słabe strony (nie „granica”)",
+        "tr": "kusurlar, zayıf yanlar (burada «sınır» değil)",
+        "de": "Schwächen, Mängel (hier nicht «Grenze»)",
+        "ja": "欠点・弱点（ここでは「境界」ではない）"
+      }
+    },
+    {
+      "parola": "restituire",
+      "forme": ["restituire", "restituiva", "restituisce"],
+      "esempio": "La superficie dell'acqua gli restituiva la sua immagine.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: rimandare indietro un'immagine, farla vedere. Non «ridare un oggetto».",
+        "en": "to reflect back, to show (here, not «to give back»)",
+        "es": "devolver la imagen, reflejar (aquí no «devolver un objeto»)",
+        "fr": "renvoyer l'image, refléter (pas « rendre un objet » ici)",
+        "cs": "vracet obraz, odrážet (ne „vrátit věc“)",
+        "pl": "odbijać, oddawać obraz (nie „zwracać rzecz”)",
+        "tr": "görüntüyü geri vermek, yansıtmak (burada «iade etmek» değil)",
+        "de": "zurückwerfen, spiegeln (hier nicht «zurückgeben»)",
+        "ja": "（像を）映し返す（ここでは「返却する」ではない）"
+      }
+    },
+    {
+      "parola": "parere",
+      "forme": ["parere", "pare", "parve"],
+      "esempio": "L'osso dell'altro gli parve più grande.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: sembrare. «Gli parve» significa «gli sembrò».",
+        "en": "to seem («gli parve» = it seemed to him)",
+        "es": "parecer («gli parve» = le pareció)",
+        "fr": "sembler (« gli parve » = il lui sembla)",
+        "cs": "zdát se („gli parve“ = zdálo se mu)",
+        "pl": "wydawać się („gli parve” = wydało mu się)",
+        "tr": "görünmek, gelmek («gli parve» = ona ... göründü)",
+        "de": "scheinen («gli parve» = es schien ihm)",
+        "ja": "〜のように思われる（gli parve＝彼にはそう思えた）"
+      }
+    },
+    {
+      "parola": "il bene",
+      "forme": ["bene"],
+      "contesto": "unico bene",
+      "livelli": ["c1"],
+      "esempio": "Perde l'unico bene concreto che possedeva.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui è un nome: una cosa che si possiede. Non l'avverbio «bene».",
+        "en": "possession, asset (a noun here, not the adverb «well»)",
+        "es": "bien, posesión (aquí sustantivo, no el adverbio «bien»)",
+        "fr": "bien, possession (nom ici, pas l'adverbe « bien »)",
+        "cs": "majetek, statek (zde podstatné jméno, ne příslovce „dobře“)",
+        "pl": "dobro, majątek (tu rzeczownik, nie przysłówek „dobrze”)",
+        "tr": "mal, varlık (burada isim, «iyi» zarfı değil)",
+        "de": "Gut, Besitz (hier Substantiv, nicht das Adverb «gut»)",
+        "ja": "財産・所有物（ここでは名詞。副詞の「よく」ではない）"
+      }
+    },
+    {
+      "parola": "dirigersi",
+      "forme": ["dirigersi", "dirige", "diresse", "diretto"],
+      "esempio": "Con l'osso in bocca si dirige verso la campagna.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Andare verso un posto preciso.",
+        "en": "to head towards",
+        "es": "dirigirse hacia",
+        "fr": "se diriger vers",
+        "cs": "vydat se, zamířit",
+        "pl": "skierować się, ruszyć",
+        "tr": "yönelmek",
+        "de": "sich begeben, zusteuern",
+        "ja": "〜へ向かう"
+      }
+    },
+    {
+      "parola": "dominare",
+      "forme": ["dominare", "domina", "dominato"],
+      "esempio": "Si è lasciato dominare dall'avidità.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: comandare su qualcuno. «Lasciarsi dominare da» = farsi comandare da.",
+        "en": "to control, to take over («lasciarsi dominare da» = to let oneself be ruled by)",
+        "es": "dominar («lasciarsi dominare da» = dejarse dominar por)",
+        "fr": "dominer (« lasciarsi dominare da » = se laisser dominer par)",
+        "cs": "ovládnout („lasciarsi dominare da“ = nechat se ovládnout)",
+        "pl": "opanować („lasciarsi dominare da” = dać się opanować)",
+        "tr": "hükmetmek («lasciarsi dominare da» = kendini kaptırmak)",
+        "de": "beherrschen («lasciarsi dominare da» = sich beherrschen lassen von)",
+        "ja": "支配する（lasciarsi dominare da＝〜に支配されるままになる）"
+      }
+    },
+    {
+      "parola": "colpire",
+      "forme": ["colpire", "colpisce", "colpì"],
+      "esempio": "L'osso colpì l'acqua e sparì.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Battere contro qualcosa.",
+        "en": "to hit, to strike",
+        "es": "golpear",
+        "fr": "frapper",
+        "cs": "narazit, udeřit",
+        "pl": "uderzyć",
+        "tr": "çarpmak, vurmak",
+        "de": "treffen, aufschlagen",
+        "ja": "打つ、ぶつかる"
+      }
+    },
+    {
+      "parola": "intimidire",
+      "forme": ["intimidire", "intimidisce"],
+      "esempio": "Apre la bocca per intimidire il rivale.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Fare paura a qualcuno per farlo stare indietro.",
+        "en": "to intimidate",
+        "es": "intimidar",
+        "fr": "intimider",
+        "cs": "zastrašit",
+        "pl": "zastraszyć",
+        "tr": "gözünü korkutmak",
+        "de": "einschüchtern",
+        "ja": "威嚇する"
+      }
+    },
+    {
+      "parola": "il luogo",
+      "forme": ["luogo", "luoghi"],
+      "esempio": "Si dirige verso un luogo tranquillo.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Un posto.",
+        "en": "place",
+        "es": "lugar",
+        "fr": "endroit",
+        "cs": "místo",
+        "pl": "miejsce",
+        "tr": "yer",
+        "de": "Ort",
+        "ja": "場所"
+      }
+    },
+    {
+      "parola": "interpretare",
+      "forme": ["interpretare", "interpreta", "interpretò"],
+      "esempio": "Il desiderio interpretò la realtà al posto suo.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Dare un significato a quello che si vede.",
+        "en": "to interpret, to read into",
+        "es": "interpretar",
+        "fr": "interpréter",
+        "cs": "vykládat si",
+        "pl": "interpretować",
+        "tr": "yorumlamak",
+        "de": "deuten",
+        "ja": "解釈する"
+      }
+    },
+    {
+      "parola": "apparentemente",
+      "forme": ["apparentemente"],
+      "esempio": "Un osso apparentemente più grande, ma era lo stesso osso.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: solo all'apparenza, in realtà no. Non significa «a quanto pare».",
+        "en": "seemingly, only in appearance (NOT «apparently, it seems»)",
+        "es": "en apariencia, solo aparentemente (NO «al parecer»)",
+        "fr": "en apparence seulement (PAS « apparemment, il paraît »)",
+        "cs": "jen zdánlivě (NE „zřejmě, patrně“)",
+        "pl": "pozornie, tylko z wyglądu (NIE „najwyraźniej”)",
+        "tr": "görünüşte, sadece görünürde («anlaşılan» DEĞİL)",
+        "de": "scheinbar, nur dem Anschein nach (NICHT «anscheinend»)",
+        "ja": "見かけ上だけ（「どうやら〜らしい」ではない）"
+      }
+    },
+    {
+      "parola": "reale",
+      "forme": ["reale"],
+      "esempio": "Ha perso qualcosa di reale per una cosa che non esisteva.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: vero, che esiste davvero. In altri contesti significa anche «del re».",
+        "en": "real, that truly exists (the word also means «royal»)",
+        "es": "real, que existe de verdad (la palabra también significa «del rey»)",
+        "fr": "réel, qui existe vraiment (le mot signifie aussi « royal »)",
+        "cs": "skutečný (slovo znamená také „královský“)",
+        "pl": "prawdziwy, realny (słowo znaczy też „królewski”)",
+        "tr": "gerçek (kelime «krala ait» anlamına da gelir)",
+        "de": "wirklich, echt (das Wort heißt auch «königlich»)",
+        "ja": "本当に存在する（この語は「王の」の意味もある）"
+      }
+    },
+    {
+      "parola": "grosso",
+      "forme": ["grosso", "grossa"],
+      "esempio": "Ha trovato un grosso osso davanti alla macelleria.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Grande, di dimensioni notevoli.",
+        "en": "big, large",
+        "es": "grande, gordo",
+        "fr": "gros, grand",
+        "cs": "velký",
+        "pl": "duży, gruby",
+        "tr": "iri, büyük",
+        "de": "groß, dick",
+        "ja": "大きい"
+      }
+    },
+    {
+      "parola": "comprendere",
+      "forme": ["comprendere", "comprende", "comprese", "compreso"],
+      "esempio": "Solo allora comprese l'inganno.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Qui: capire. La stessa parola significa anche «contenere».",
+        "en": "to understand (the same verb also means «to include»)",
+        "es": "comprender, entender (el mismo verbo significa también «incluir»)",
+        "fr": "comprendre (le même verbe signifie aussi « inclure »)",
+        "cs": "pochopit (totéž sloveso znamená i „zahrnovat“)",
+        "pl": "zrozumieć (ten sam czasownik znaczy też „obejmować”)",
+        "tr": "anlamak (aynı fiil «kapsamak» anlamına da gelir)",
+        "de": "verstehen (dasselbe Verb heißt auch «umfassen»)",
+        "ja": "理解する（同じ動詞に「含む」の意味もある）"
+      }
+    },
+    {
+      "parola": "abituato",
+      "forme": ["abituato", "abituata"],
+      "esempio": "Un cane abituato a cercare cibo tra le botteghe.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Che fa una cosa da tanto tempo e per lui è normale.",
+        "en": "used to, accustomed to",
+        "es": "acostumbrado a",
+        "fr": "habitué à",
+        "cs": "zvyklý na",
+        "pl": "przyzwyczajony do",
+        "tr": "alışkın",
+        "de": "gewohnt",
+        "ja": "〜に慣れている"
       }
     }
   ]
