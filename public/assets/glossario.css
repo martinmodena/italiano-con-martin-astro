@@ -1,0 +1,158 @@
+/* Glossario cliccabile dei brani di studio (public/assets/glossario.js). */
+
+.gloss-hint {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 18px;
+  padding: 10px 14px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  background: var(--cream);
+  color: var(--muted);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+.gloss-hint::before {
+  content: '👆';
+  font-size: 1.05rem;
+}
+
+/* La parola nel testo: deve restare testo, non sembrare un pulsante. */
+.gloss-word {
+  margin: 0;
+  padding: 0 1px;
+  border: 0;
+  border-bottom: 1px dotted var(--primary);
+  border-radius: 3px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+.gloss-word:hover,
+.gloss-word[aria-expanded='true'] {
+  background: #fbe2d3;
+  border-bottom-style: solid;
+}
+.gloss-word:focus-visible {
+  outline: 3px solid rgba(181, 63, 39, 0.35);
+  outline-offset: 1px;
+}
+
+.gloss-pop {
+  position: absolute;
+  z-index: 60;
+  width: min(330px, calc(100vw - 24px));
+  padding: 16px 18px 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: var(--shadow);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.gloss-pop[hidden] {
+  display: none;
+}
+.gloss-pop p {
+  margin: 0 0 10px;
+}
+.gloss-pop p:last-child {
+  margin-bottom: 0;
+}
+.gloss-head strong {
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.gloss-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--muted);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.gloss-close:hover {
+  background: var(--soft);
+  color: var(--ink);
+}
+.gloss-speak {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  margin: 0 0 12px;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+.gloss-speak:hover {
+  background: var(--soft);
+}
+.gloss-img {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 12px;
+  object-fit: contain;
+}
+.gloss-img[hidden] {
+  display: none;
+}
+.gloss-label {
+  display: block;
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.gloss-example span[lang='it'] {
+  font-family: Georgia, serif;
+  font-size: 1.02rem;
+}
+.gloss-example[hidden] {
+  display: none;
+}
+
+/* Su telefono il riquadro diventa una scheda in basso: non copre la parola
+   e non può finire fuori dallo schermo. */
+@media (max-width: 580px) {
+  .gloss-pop {
+    position: fixed;
+    top: auto !important;
+    right: 12px;
+    bottom: 12px;
+    left: 12px !important;
+    width: auto;
+    box-shadow: 0 -10px 40px rgba(53, 39, 27, 0.22);
+  }
+}
+
+@media print {
+  .gloss-hint,
+  .gloss-pop {
+    display: none !important;
+  }
+  .gloss-word {
+    border-bottom: 0;
+    background: none;
+  }
+}

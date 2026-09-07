@@ -1,0 +1,822 @@
+{
+  "id": "il-cane-e-losso",
+  "nota": "Glossario cliccabile della favola. `forme` elenca le forme che compaiono nel testo; `traduzioni.it` e' una definizione italiana, le altre otto sono la traduzione nella lingua del visitatore. `esempio` resta sempre in italiano. `immagine` e' un percorso assoluto oppure null.",
+  "voci": [
+    {
+      "parola": "il cane",
+      "forme": ["cane"],
+      "esempio": "Il cane cammina per la strada con l'osso in bocca.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Animale domestico che abbaia; il protagonista della favola.",
+        "en": "dog",
+        "es": "perro",
+        "fr": "chien",
+        "cs": "pes",
+        "pl": "pies",
+        "tr": "köpek",
+        "de": "Hund",
+        "ja": "犬"
+      }
+    },
+    {
+      "parola": "l'osso",
+      "forme": ["osso", "ossa"],
+      "esempio": "Il cane tiene l'osso tra i denti.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Parte dura e bianca dello scheletro.",
+        "en": "bone",
+        "es": "hueso",
+        "fr": "os",
+        "cs": "kost",
+        "pl": "kość",
+        "tr": "kemik",
+        "de": "Knochen",
+        "ja": "骨"
+      }
+    },
+    {
+      "parola": "il ponte",
+      "forme": ["ponte"],
+      "esempio": "Il ponte attraversa il fiume.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Costruzione che permette di passare sopra un fiume.",
+        "en": "bridge",
+        "es": "puente",
+        "fr": "pont",
+        "cs": "most",
+        "pl": "most",
+        "tr": "köprü",
+        "de": "Brücke",
+        "ja": "橋"
+      }
+    },
+    {
+      "parola": "il fiume",
+      "forme": ["fiume"],
+      "esempio": "Il fiume scorre sotto il ponte.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Corso d'acqua che arriva al mare.",
+        "en": "river",
+        "es": "río",
+        "fr": "rivière",
+        "cs": "řeka",
+        "pl": "rzeka",
+        "tr": "nehir",
+        "de": "Fluss",
+        "ja": "川"
+      }
+    },
+    {
+      "parola": "la corrente",
+      "forme": ["corrente"],
+      "esempio": "La corrente porta via l'osso.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "L'acqua del fiume che si muove in una direzione.",
+        "en": "current",
+        "es": "corriente",
+        "fr": "courant",
+        "cs": "proud",
+        "pl": "prąd",
+        "tr": "akıntı",
+        "de": "Strömung",
+        "ja": "流れ"
+      }
+    },
+    {
+      "parola": "l'immagine",
+      "forme": ["immagine"],
+      "esempio": "Nell'acqua vede la sua immagine.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La figura che si vede riflessa o disegnata.",
+        "en": "image",
+        "es": "imagen",
+        "fr": "image",
+        "cs": "obraz",
+        "pl": "obraz",
+        "tr": "görüntü",
+        "de": "Bild",
+        "ja": "像"
+      }
+    },
+    {
+      "parola": "il riflesso",
+      "forme": ["riflesso"],
+      "esempio": "Non capisce che è il suo riflesso.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "L'immagine di sé che l'acqua o lo specchio restituisce.",
+        "en": "reflection",
+        "es": "reflejo",
+        "fr": "reflet",
+        "cs": "odraz",
+        "pl": "odbicie",
+        "tr": "yansıma",
+        "de": "Spiegelbild",
+        "ja": "水面に映った姿"
+      }
+    },
+    {
+      "parola": "abbaiare",
+      "forme": ["abbaiare", "abbaia", "abbaiato", "abbaiò"],
+      "esempio": "Il cane abbaia contro un rivale che non esiste.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Fare il verso del cane.",
+        "en": "to bark",
+        "es": "ladrar",
+        "fr": "aboyer",
+        "cs": "štěkat",
+        "pl": "szczekać",
+        "tr": "havlamak",
+        "de": "bellen",
+        "ja": "吠える"
+      }
+    },
+    {
+      "parola": "cadere",
+      "forme": ["cadere", "cade", "caduto", "cadde"],
+      "esempio": "L'osso cade nell'acqua e sparisce.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Andare giù, verso il basso, senza volerlo.",
+        "en": "to fall",
+        "es": "caer",
+        "fr": "tomber",
+        "cs": "spadnout",
+        "pl": "spaść",
+        "tr": "düşmek",
+        "de": "fallen",
+        "ja": "落ちる"
+      }
+    },
+    {
+      "parola": "la bocca",
+      "forme": ["bocca"],
+      "esempio": "Apre la bocca e perde l'osso.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La parte del viso con cui si mangia e si parla.",
+        "en": "mouth",
+        "es": "boca",
+        "fr": "bouche",
+        "cs": "ústa",
+        "pl": "usta",
+        "tr": "ağız",
+        "de": "Mund",
+        "ja": "口"
+      }
+    },
+    {
+      "parola": "la fame",
+      "forme": ["fame"],
+      "esempio": "Il cane ha molta fame.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il bisogno di mangiare.",
+        "en": "hunger",
+        "es": "hambre",
+        "fr": "faim",
+        "cs": "hlad",
+        "pl": "głód",
+        "tr": "açlık",
+        "de": "Hunger",
+        "ja": "空腹"
+      }
+    },
+    {
+      "parola": "affamato",
+      "forme": ["affamato", "affamata", "affamati"],
+      "esempio": "Un cane affamato cerca cibo davanti alle botteghe.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Che ha molta fame.",
+        "en": "hungry",
+        "es": "hambriento",
+        "fr": "affamé",
+        "cs": "hladový",
+        "pl": "głodny",
+        "tr": "aç",
+        "de": "hungrig",
+        "ja": "腹をすかせた"
+      }
+    },
+    {
+      "parola": "la macelleria",
+      "forme": ["macelleria"],
+      "esempio": "Trova l'osso vicino alla macelleria.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il negozio dove si compra la carne.",
+        "en": "butcher's shop",
+        "es": "carnicería",
+        "fr": "boucherie",
+        "cs": "řeznictví",
+        "pl": "sklep mięsny",
+        "tr": "kasap dükkânı",
+        "de": "Metzgerei",
+        "ja": "肉屋"
+      }
+    },
+    {
+      "parola": "il macellaio",
+      "forme": ["macellaio"],
+      "esempio": "Il macellaio lavora nella sua bottega.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Chi vende la carne.",
+        "en": "butcher",
+        "es": "carnicero",
+        "fr": "boucher",
+        "cs": "řezník",
+        "pl": "rzeźnik",
+        "tr": "kasap",
+        "de": "Metzger",
+        "ja": "肉屋の主人"
+      }
+    },
+    {
+      "parola": "la bottega",
+      "forme": ["bottega", "botteghe"],
+      "esempio": "Cerca cibo tra le botteghe del villaggio.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Un piccolo negozio, spesso a conduzione familiare.",
+        "en": "shop",
+        "es": "tienda",
+        "fr": "boutique",
+        "cs": "obchod",
+        "pl": "sklep",
+        "tr": "dükkân",
+        "de": "Laden",
+        "ja": "店"
+      }
+    },
+    {
+      "parola": "il dente",
+      "forme": ["dente", "denti"],
+      "esempio": "Stringe l'osso tra i denti.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Ognuno degli elementi duri della bocca, per mordere.",
+        "en": "tooth",
+        "es": "diente",
+        "fr": "dent",
+        "cs": "zub",
+        "pl": "ząb",
+        "tr": "diş",
+        "de": "Zahn",
+        "ja": "歯"
+      }
+    },
+    {
+      "parola": "l'avidità",
+      "forme": ["avidità"],
+      "esempio": "L'avidità gli fa perdere quello che ha.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il desiderio di avere sempre di più.",
+        "en": "greed",
+        "es": "codicia",
+        "fr": "avidité",
+        "cs": "chamtivost",
+        "pl": "chciwość",
+        "tr": "açgözlülük",
+        "de": "Gier",
+        "ja": "強欲"
+      }
+    },
+    {
+      "parola": "il rivale",
+      "forme": ["rivale"],
+      "esempio": "Abbaia contro un rivale che non esiste.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Chi compete con noi per la stessa cosa.",
+        "en": "rival",
+        "es": "rival",
+        "fr": "rival",
+        "cs": "sok",
+        "pl": "rywal",
+        "tr": "rakip",
+        "de": "Rivale",
+        "ja": "競争相手"
+      }
+    },
+    {
+      "parola": "randagio",
+      "forme": ["randagio", "randagia", "randagi"],
+      "esempio": "Un cane randagio non ha padrone.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Detto di un animale che vive per strada, senza padrone.",
+        "en": "stray",
+        "es": "callejero",
+        "fr": "errant",
+        "cs": "toulavý",
+        "pl": "bezpański",
+        "tr": "başıboş",
+        "de": "streunend",
+        "ja": "野良の"
+      }
+    },
+    {
+      "parola": "il villaggio",
+      "forme": ["villaggio"],
+      "esempio": "Nel villaggio ci sono poche botteghe.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Un paese piccolo, con poche case.",
+        "en": "village",
+        "es": "pueblo",
+        "fr": "village",
+        "cs": "vesnice",
+        "pl": "wioska",
+        "tr": "köy",
+        "de": "Dorf",
+        "ja": "村"
+      }
+    },
+    {
+      "parola": "la campagna",
+      "forme": ["campagna"],
+      "esempio": "Con l'osso in bocca si dirige verso la campagna.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La zona fuori città, con campi e alberi.",
+        "en": "countryside",
+        "es": "campo",
+        "fr": "campagne",
+        "cs": "venkov",
+        "pl": "wieś",
+        "tr": "kırlık",
+        "de": "Land",
+        "ja": "田舎"
+      }
+    },
+    {
+      "parola": "la sagoma",
+      "forme": ["sagoma"],
+      "esempio": "Nell'acqua vede la sagoma di un altro cane.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La forma di una cosa vista da lontano o in ombra.",
+        "en": "outline",
+        "es": "silueta",
+        "fr": "silhouette",
+        "cs": "silueta",
+        "pl": "sylwetka",
+        "tr": "siluet",
+        "de": "Umriss",
+        "ja": "輪郭"
+      }
+    },
+    {
+      "parola": "le fauci",
+      "forme": ["fauci"],
+      "esempio": "Spalanca le fauci per abbaiare.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La bocca aperta di un animale.",
+        "en": "jaws",
+        "es": "fauces",
+        "fr": "gueule",
+        "cs": "tlama",
+        "pl": "paszcza",
+        "tr": "hayvan ağzı",
+        "de": "Maul",
+        "ja": "動物の口"
+      }
+    },
+    {
+      "parola": "il bottino",
+      "forme": ["bottino"],
+      "esempio": "È soddisfatto del suo bottino.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Quello che si porta via dopo averlo preso o rubato.",
+        "en": "loot",
+        "es": "botín",
+        "fr": "butin",
+        "cs": "kořist",
+        "pl": "łup",
+        "tr": "ganimet",
+        "de": "Beute",
+        "ja": "戦利品"
+      }
+    },
+    {
+      "parola": "l'inganno",
+      "forme": ["inganno"],
+      "esempio": "Solo alla fine capisce l'inganno.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Una cosa falsa che sembra vera.",
+        "en": "deception",
+        "es": "engaño",
+        "fr": "tromperie",
+        "cs": "klam",
+        "pl": "złudzenie",
+        "tr": "aldanma",
+        "de": "Täuschung",
+        "ja": "錯覚"
+      }
+    },
+    {
+      "parola": "la perdita",
+      "forme": ["perdita"],
+      "esempio": "La perdita dell'osso dipende dalla sua avidità.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il fatto di non avere più una cosa che si aveva.",
+        "en": "loss",
+        "es": "pérdida",
+        "fr": "perte",
+        "cs": "ztráta",
+        "pl": "strata",
+        "tr": "kayıp",
+        "de": "Verlust",
+        "ja": "損失"
+      }
+    },
+    {
+      "parola": "scivolare",
+      "forme": ["scivolare", "scivola", "scivolò", "scivolato"],
+      "esempio": "L'osso gli scivola di bocca.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Muoversi via da soli, senza attrito, su una superficie.",
+        "en": "to slip",
+        "es": "resbalar",
+        "fr": "glisser",
+        "cs": "vyklouznout",
+        "pl": "wyślizgnąć się",
+        "tr": "kaymak",
+        "de": "rutschen",
+        "ja": "滑る"
+      }
+    },
+    {
+      "parola": "afferrare",
+      "forme": ["afferrare", "afferra", "afferrò", "afferrato"],
+      "esempio": "Afferra l'osso con i denti.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Prendere con forza e tenere stretto.",
+        "en": "to grab",
+        "es": "agarrar",
+        "fr": "saisir",
+        "cs": "popadnout",
+        "pl": "chwycić",
+        "tr": "kapmak",
+        "de": "packen",
+        "ja": "つかむ"
+      }
+    },
+    {
+      "parola": "spalancare",
+      "forme": ["spalancare", "spalanca", "spalancò"],
+      "esempio": "Spalanca la bocca per abbaiare.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Aprire tutto, il più possibile.",
+        "en": "to open wide",
+        "es": "abrir de par en par",
+        "fr": "ouvrir grand",
+        "cs": "otevřít dokořán",
+        "pl": "otworzyć szeroko",
+        "tr": "ardına kadar açmak",
+        "de": "weit aufreißen",
+        "ja": "大きく開ける"
+      }
+    },
+    {
+      "parola": "scomparire",
+      "forme": ["scomparire", "scompare", "scomparve", "scomparso"],
+      "esempio": "L'osso scompare nella corrente.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Non essere più visibile.",
+        "en": "to disappear",
+        "es": "desaparecer",
+        "fr": "disparaître",
+        "cs": "zmizet",
+        "pl": "zniknąć",
+        "tr": "kaybolmak",
+        "de": "verschwinden",
+        "ja": "消える"
+      }
+    },
+    {
+      "parola": "scorgere",
+      "forme": ["scorgere", "scorge", "scorse"],
+      "esempio": "Dal ponte scorge una figura nell'acqua.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Vedere qualcosa di poco chiaro o lontano.",
+        "en": "to catch sight of",
+        "es": "divisar",
+        "fr": "apercevoir",
+        "cs": "zahlédnout",
+        "pl": "dostrzec",
+        "tr": "fark etmek",
+        "de": "erblicken",
+        "ja": "目にする"
+      }
+    },
+    {
+      "parola": "giungere",
+      "forme": ["giungere", "giunge", "giunto", "giunse"],
+      "esempio": "Giunto sul ponte, guarda l'acqua.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Arrivare in un luogo.",
+        "en": "to arrive",
+        "es": "llegar",
+        "fr": "arriver",
+        "cs": "dorazit",
+        "pl": "dotrzeć",
+        "tr": "varmak",
+        "de": "ankommen",
+        "ja": "着く"
+      }
+    },
+    {
+      "parola": "stringere",
+      "forme": ["stringere", "stringe", "stringeva", "strinse"],
+      "esempio": "Stringe l'osso tra i denti e non lo lascia.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Tenere con forza, senza lasciare andare.",
+        "en": "to clench",
+        "es": "apretar",
+        "fr": "serrer",
+        "cs": "svírat",
+        "pl": "ściskać",
+        "tr": "sıkmak",
+        "de": "festhalten",
+        "ja": "強く挟む"
+      }
+    },
+    {
+      "parola": "invitante",
+      "forme": ["invitante"],
+      "esempio": "L'altro osso sembra più invitante.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Che fa venire voglia, che attira.",
+        "en": "tempting",
+        "es": "apetitoso",
+        "fr": "appétissant",
+        "cs": "lákavý",
+        "pl": "kuszący",
+        "tr": "çekici",
+        "de": "verlockend",
+        "ja": "おいしそうな"
+      }
+    },
+    {
+      "parola": "presunto",
+      "forme": ["presunto", "presunta"],
+      "esempio": "Abbaia contro il presunto rivale.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Che si crede esista, ma non è dimostrato.",
+        "en": "supposed",
+        "es": "supuesto",
+        "fr": "prétendu",
+        "cs": "domnělý",
+        "pl": "domniemany",
+        "tr": "sözde",
+        "de": "vermeintlich",
+        "ja": "思い込んだ"
+      }
+    },
+    {
+      "parola": "spaventare",
+      "forme": ["spaventare", "spaventa", "spaventò"],
+      "esempio": "Vuole spaventare l'altro cane.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Fare paura a qualcuno.",
+        "en": "to scare",
+        "es": "asustar",
+        "fr": "effrayer",
+        "cs": "vyděsit",
+        "pl": "przestraszyć",
+        "tr": "korkutmak",
+        "de": "erschrecken",
+        "ja": "おどす"
+      }
+    },
+    {
+      "parola": "apprezzare",
+      "forme": ["apprezzare", "apprezza", "apprezzato"],
+      "esempio": "Non sa apprezzare quello che ha già.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Dare valore a una cosa, riconoscere che è buona.",
+        "en": "to appreciate",
+        "es": "apreciar",
+        "fr": "apprécier",
+        "cs": "vážit si",
+        "pl": "doceniać",
+        "tr": "değer vermek",
+        "de": "schätzen",
+        "ja": "大切にする"
+      }
+    },
+    {
+      "parola": "possedere",
+      "forme": ["possedere", "possiede", "possedeva", "posseduto"],
+      "esempio": "Perde l'unico bene che possiede.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Avere una cosa come propria.",
+        "en": "to own",
+        "es": "poseer",
+        "fr": "posséder",
+        "cs": "vlastnit",
+        "pl": "posiadać",
+        "tr": "sahip olmak",
+        "de": "besitzen",
+        "ja": "持っている"
+      }
+    },
+    {
+      "parola": "l'incapacità",
+      "forme": ["incapacità"],
+      "esempio": "La sua incapacità di apprezzare gli costa l'osso.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il non riuscire a fare una cosa.",
+        "en": "inability",
+        "es": "incapacidad",
+        "fr": "incapacité",
+        "cs": "neschopnost",
+        "pl": "niezdolność",
+        "tr": "yetersizlik",
+        "de": "Unfähigkeit",
+        "ja": "できないこと"
+      }
+    },
+    {
+      "parola": "la superficie",
+      "forme": ["superficie"],
+      "esempio": "La superficie dell'acqua riflette la sua figura.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La parte esterna, quella che si vede sopra.",
+        "en": "surface",
+        "es": "superficie",
+        "fr": "surface",
+        "cs": "hladina",
+        "pl": "powierzchnia",
+        "tr": "yüzey",
+        "de": "Oberfläche",
+        "ja": "表面"
+      }
+    },
+    {
+      "parola": "il desiderio",
+      "forme": ["desiderio"],
+      "esempio": "Il desiderio gli fa vedere quello che non c'è.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La voglia forte di avere qualcosa.",
+        "en": "desire",
+        "es": "deseo",
+        "fr": "désir",
+        "cs": "touha",
+        "pl": "pragnienie",
+        "tr": "arzu",
+        "de": "Verlangen",
+        "ja": "欲望"
+      }
+    },
+    {
+      "parola": "la figura",
+      "forme": ["figura"],
+      "esempio": "Vede una figura identica alla propria.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "La forma di una persona o di un animale che si vede.",
+        "en": "figure",
+        "es": "figura",
+        "fr": "figure",
+        "cs": "postava",
+        "pl": "postać",
+        "tr": "figür",
+        "de": "Gestalt",
+        "ja": "姿"
+      }
+    },
+    {
+      "parola": "la verità",
+      "forme": ["verità"],
+      "esempio": "Solo allora capisce la verità.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Come stanno davvero le cose.",
+        "en": "truth",
+        "es": "verdad",
+        "fr": "vérité",
+        "cs": "pravda",
+        "pl": "prawda",
+        "tr": "gerçek",
+        "de": "Wahrheit",
+        "ja": "真実"
+      }
+    },
+    {
+      "parola": "l'errore",
+      "forme": ["errore"],
+      "esempio": "Capisce il suo errore troppo tardi.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Una cosa sbagliata che si è fatta.",
+        "en": "mistake",
+        "es": "error",
+        "fr": "erreur",
+        "cs": "chyba",
+        "pl": "błąd",
+        "tr": "hata",
+        "de": "Fehler",
+        "ja": "間違い"
+      }
+    },
+    {
+      "parola": "soddisfatto",
+      "forme": ["soddisfatto", "soddisfatta"],
+      "esempio": "È soddisfatto del suo bottino.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Contento di quello che ha ottenuto.",
+        "en": "satisfied",
+        "es": "satisfecho",
+        "fr": "satisfait",
+        "cs": "spokojený",
+        "pl": "zadowolony",
+        "tr": "memnun",
+        "de": "zufrieden",
+        "ja": "満足した"
+      }
+    },
+    {
+      "parola": "precipitare",
+      "forme": ["precipitare", "precipita", "precipitato", "precipitò"],
+      "esempio": "L'osso precipita nel fiume.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Cadere all'improvviso e da in alto.",
+        "en": "to plunge",
+        "es": "precipitarse",
+        "fr": "chuter",
+        "cs": "zřítit se",
+        "pl": "spaść gwałtownie",
+        "tr": "düşmek",
+        "de": "stürzen",
+        "ja": "落下する"
+      }
+    },
+    {
+      "parola": "sconfitto",
+      "forme": ["sconfitto", "sconfitta"],
+      "esempio": "Non è stato sconfitto da un rivale, ma dalla sua avidità.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Che ha perso contro qualcuno.",
+        "en": "defeated",
+        "es": "derrotado",
+        "fr": "vaincu",
+        "cs": "poražený",
+        "pl": "pokonany",
+        "tr": "yenilmiş",
+        "de": "besiegt",
+        "ja": "負かされた"
+      }
+    },
+    {
+      "parola": "il limite",
+      "forme": ["limite", "limiti"],
+      "esempio": "Di quello che abbiamo conosciamo anche i limiti.",
+      "immagine": null,
+      "traduzioni": {
+        "it": "Il punto oltre il quale una cosa non arriva.",
+        "en": "limit",
+        "es": "límite",
+        "fr": "limite",
+        "cs": "hranice",
+        "pl": "granica",
+        "tr": "sınır",
+        "de": "Grenze",
+        "ja": "限界"
+      }
+    }
+  ]
+}
