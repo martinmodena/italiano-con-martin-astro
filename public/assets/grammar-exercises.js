@@ -154,7 +154,9 @@
     else if (value === bestAccepted || (accepted.includes(value) && helperFreeValue !== helperFreeBest)) {
       box.dataset.correct = '1'; input.classList.add('correct'); feedback.classList.add('ok'); feedback.textContent = message.correct;
     } else if (accentFreeAccepted.includes(accentFreeValue) || accepted.includes(value)) {
-      const bestAnswer = rawAccepted[accentFreeAccepted.indexOf(accentFreeValue)];
+      const matched = rawAccepted[accentFreeAccepted.indexOf(accentFreeValue)];
+      // «e'» per «è» è accettato, ma il consiglio mostra sempre la forma con l'accento.
+      const bestAnswer = matched && withoutAccentHelpers(norm(matched)) !== helperFreeBest ? matched : rawAccepted[0];
       box.dataset.correct = '1'; input.classList.add('almost'); feedback.classList.add('almost'); feedback.textContent = `${message.better} ${displayAnswer(bestAnswer || rawAccepted[0])}.`;
     } else if (accepted.some((answer) => answer.startsWith(value))) {
       feedback.classList.add('wait'); feedback.textContent = message.continue;

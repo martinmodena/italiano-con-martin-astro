@@ -25,6 +25,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'Italian periodo ipotetico',
     'congiuntivo-imperfetto': 'Italian congiuntivo imperfetto',
     'forma-passiva': 'Italian passive voice',
+    numeri: 'Italian numbers',
+    'che-ore-sono': 'Telling the time in Italian',
+    'giorni-mesi-date': 'Days, months and dates in Italian',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -52,6 +55,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'El periodo ipotetico italiano',
     'congiuntivo-imperfetto': 'El congiuntivo imperfetto italiano',
     'forma-passiva': 'La voz pasiva en italiano',
+    numeri: 'Los números en italiano',
+    'che-ore-sono': 'La hora en italiano',
+    'giorni-mesi-date': 'Días, meses y fechas en italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -79,6 +85,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'Le periodo ipotetico italien',
     'congiuntivo-imperfetto': 'Le congiuntivo imperfetto italien',
     'forma-passiva': 'La voix passive en italien',
+    numeri: 'Les nombres en italien',
+    'che-ore-sono': 'L’heure en italien',
+    'giorni-mesi-date': 'Jours, mois et dates en italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -106,6 +115,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'Italský periodo ipotetico',
     'congiuntivo-imperfetto': 'Italský congiuntivo imperfetto',
     'forma-passiva': 'Trpný rod v italštině',
+    numeri: 'Čísla v italštině',
+    'che-ore-sono': 'Hodiny a čas v italštině',
+    'giorni-mesi-date': 'Dny, měsíce a data v italštině',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -133,6 +145,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'Włoski periodo ipotetico',
     'congiuntivo-imperfetto': 'Włoski congiuntivo imperfetto',
     'forma-passiva': 'Strona bierna po włosku',
+    numeri: 'Liczby po włosku',
+    'che-ore-sono': 'Która godzina? Godziny po włosku',
+    'giorni-mesi-date': 'Dni, miesiące i daty po włosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -160,6 +175,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'İtalyanca periodo ipotetico',
     'congiuntivo-imperfetto': 'İtalyanca congiuntivo imperfetto',
     'forma-passiva': 'İtalyanca edilgen yapı',
+    numeri: 'İtalyanca sayılar',
+    'che-ore-sono': 'İtalyancada saat',
+    'giorni-mesi-date': 'İtalyanca günler, aylar ve tarihler',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -187,6 +205,9 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'Der italienische periodo ipotetico',
     'congiuntivo-imperfetto': 'Das italienische congiuntivo imperfetto',
     'forma-passiva': 'Passiv im Italienischen',
+    numeri: 'Zahlen auf Italienisch',
+    'che-ore-sono': 'Uhrzeit auf Italienisch',
+    'giorni-mesi-date': 'Wochentage, Monate und Datum auf Italienisch',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -214,5 +235,8 @@ export const grammarSeoTitles = {
     'periodo-ipotetico': 'イタリア語の periodo ipotetico',
     'congiuntivo-imperfetto': 'イタリア語の congiuntivo imperfetto',
     'forma-passiva': 'イタリア語の受動態',
+    numeri: 'イタリア語の数字',
+    'che-ore-sono': 'イタリア語の時刻の言い方',
+    'giorni-mesi-date': 'イタリア語の曜日・月・日付',
   },
 };

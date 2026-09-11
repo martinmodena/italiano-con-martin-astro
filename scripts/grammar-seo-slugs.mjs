@@ -27,6 +27,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'italian-periodo-ipotetico',
     'congiuntivo-imperfetto': 'the-congiuntivo-imperfetto',
     'forma-passiva': 'italian-passive-voice',
+    numeri: 'italian-numbers',
+    'che-ore-sono': 'telling-the-time-in-italian',
+    'giorni-mesi-date': 'days-months-and-dates-in-italian',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -54,6 +57,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'periodo-ipotetico-en-italiano',
     'congiuntivo-imperfetto': 'el-congiuntivo-imperfetto-italiano',
     'forma-passiva': 'la-voz-pasiva-en-italiano',
+    numeri: 'los-numeros-en-italiano',
+    'che-ore-sono': 'la-hora-en-italiano',
+    'giorni-mesi-date': 'dias-meses-y-fechas-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -81,6 +87,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'periodo-ipotetico-en-italien',
     'congiuntivo-imperfetto': 'le-congiuntivo-imperfetto-italien',
     'forma-passiva': 'la-voix-passive-en-italien',
+    numeri: 'les-nombres-en-italien',
+    'che-ore-sono': 'lheure-en-italien',
+    'giorni-mesi-date': 'jours-mois-et-dates-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -108,6 +117,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'italsky-periodo-ipotetico',
     'congiuntivo-imperfetto': 'italsky-congiuntivo-imperfetto',
     'forma-passiva': 'trpny-rod-v-italstine',
+    numeri: 'cisla-v-italstine',
+    'che-ore-sono': 'hodiny-v-italstine',
+    'giorni-mesi-date': 'dny-mesice-a-data-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -135,6 +147,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'wloski-periodo-ipotetico',
     'congiuntivo-imperfetto': 'wloski-congiuntivo-imperfetto',
     'forma-passiva': 'strona-bierna-po-wlosku',
+    numeri: 'liczby-po-wlosku',
+    'che-ore-sono': 'godziny-po-wlosku',
+    'giorni-mesi-date': 'dni-miesiace-i-daty-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -162,6 +177,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'italyanca-periodo-ipotetico',
     'congiuntivo-imperfetto': 'italyanca-congiuntivo-imperfetto',
     'forma-passiva': 'italyanca-edilgen-yapi',
+    numeri: 'italyanca-sayilar',
+    'che-ore-sono': 'italyancada-saat',
+    'giorni-mesi-date': 'italyanca-gunler-aylar-ve-tarihler',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -189,6 +207,9 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'der-italienische-periodo-ipotetico',
     'congiuntivo-imperfetto': 'das-italienische-congiuntivo-imperfetto',
     'forma-passiva': 'passiv-im-italienischen',
+    numeri: 'zahlen-auf-italienisch',
+    'che-ore-sono': 'uhrzeit-auf-italienisch',
+    'giorni-mesi-date': 'wochentage-monate-und-datum-auf-italienisch',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -216,5 +237,8 @@ export const grammarSeoSlugs = {
     'periodo-ipotetico': 'イタリア語の-periodo-ipotetico',
     'congiuntivo-imperfetto': 'イタリア語の-congiuntivo-imperfetto',
     'forma-passiva': 'イタリア語の受動態',
+    numeri: 'イタリア語の数字',
+    'che-ore-sono': 'イタリア語の時刻の言い方',
+    'giorni-mesi-date': 'イタリア語の曜日と月と日付',
   },
 };
