@@ -404,7 +404,9 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Titolo più piccolo**: `.landing-hero h1` da `clamp(3rem,6vw,5.15rem)` a `clamp(2.6rem,4.4vw,3.8rem)`, su mobile da `3rem` a `2.5rem`. Vale per tutte e 9 le home. `CSS_VERSION` a `20260911a`.
 - **Resto della pagina**: tolta la fascia «01/02/03» (ripeteva l'hero); frasi introduttive di insegnanti, livelli e materiali ridotte a una riga; descrizioni di Martin e Licia accorciate.
 - **Secondo passaggio, stesso giorno**: Martin approva la home e chiede di togliere la sezione «Scegli il tuo livello» (le cinque schede A1-C1). La sezione dei materiali ha ora solo il titolo «Materiale gratuito per studiare», senza occhiello né frase a lato.
-- **Pubblicata solo in italiano** perché Martin la veda online; le altre 8 home vanno allineate dopo la sua approvazione (vale la regola del 2026-08-25 sulle home localizzate con la stessa struttura).
+- **Terzo passaggio, stesso giorno**: bottone «Scrivici su WhatsApp» (al plurale: siamo in due); la sezione insegnanti ha solo il titolo «Scegli il tuo insegnante». I titoli rimasti soli in `.section-heading` occupano tutta la riga (`.section-heading>h2:only-child{grid-column:1/-1}`), `CSS_VERSION` a `20260911b`.
+- **Estesa alle altre 8 home** con lo stesso schema e testi riscritti nella lingua del visitatore, nel registro già usato da ogni home (tu in es/pl/tr/de, voi di cortesia in fr/cs). In giapponese la presentazione scrive «Martin» e «Licia» in caratteri latini, come vuole la regola sul marchio; il katakana resta solo sotto le foto. La home inglese diceva ancora «Hi, I’m Martin» al singolare: corretta con il nuovo testo.
+- **I primi due passaggi sono stati pubblicati solo in italiano** perché Martin li vedesse online; dopo la sua approvazione le 9 home hanno di nuovo la stessa struttura (regola del 2026-08-25).
 
 ## 2026-09-11 - Bottoni delle lezioni di grammatica: traduzioni automatiche corrette
 
