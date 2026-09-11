@@ -388,3 +388,19 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Corretto un difetto dei PDF**: la compressione della build toglie lo spazio dopo `<br>`, e nei riquadri `<strong>Presente</strong><br>Penso…` etichetta e frase uscivano attaccate («PresentePenso che sia utile»). `node_text()` trasforma ora `<br>` in un a capo nei paragrafi e in uno spazio altrove. Riguarda tutte le lezioni di grammatica, ma sono rigenerati solo i 9 PDF di questa: gli altri si allineano alla prossima rigenerazione completa.
 - **Meta description** aggiornate nelle 9 lingue (irregolari, periodo ipotetico, 30 esercizi). Titoli, slug e canonical invariati.
 - **Verifica**: audit di lingua, sito, link, vocabolario e grammatica verdi; `npm run check` pulito a parte i 4 file già fuori formato; nel browser 30 esercizi, risposta alternativa accettata, punteggio e suggerimenti corretti, ancore della navigazione presenti (pagina italiana e giapponese). **Parità di migrazione invariata**: 490 differenze su 1119 pagine, 36 pagine extra.
+
+## 2026-09-11 - Martin e Licia hanno lo stesso bottone ovunque
+
+- **La richiesta di Martin**: in nessuna pagina il bottone per prenotare con Martin deve essere diverso da quello di Licia. **Regola**: dove compaiono tutti e due, i bottoni hanno la stessa classe; non si mette un bottone di prenotazione solo per uno dei due.
+- **Home (9 lingue)**: nelle schede insegnante Martin aveva `button primary` (pieno) e Licia `button secondary` (vuoto). Ora entrambi `button primary`. Nei CTA finali (`button light`, 504 pagine) e in «Chi siamo» (`button primary`) erano già uguali.
+- **6 lezioni di grammatica × 9 lingue** (_essere_, possessivi, pronomi diretti, imperativo, comparativo e superlativo, forma passiva): sotto gli esercizi c'era «Allenati con Martin», solo per lui. Sostituito con «Torna alla grammatica» (`href="../"`), come le altre 11 lezioni; la scelta fra Martin e Licia resta nel riquadro subito sotto. Etichette già usate nel sito, corrette dove erano sbagliate: `Volver a la gramática` (era in minuscolo), `Wróć do gramatyki` (era «Wracając»).
+- **Resta com'è** la pagina `/contact/`, che è di Martin.
+- **Verifica**: audit di lingua, sito, link, vocabolario e grammatica verdi; `npm run check` senza errori; nel browser i due bottoni della home hanno lo stesso colore. **Parità di migrazione invariata**: 490 differenze su 1119 pagine.
+
+## 2026-09-11 - Home italiana più corta (prova, prima delle altre 8 lingue)
+
+- **La richiesta di Martin**: la home sembrava grande e ripetitiva. Nella prima schermata «1:1 / online / A1-C1» compariva tre volte e «12 €» quattro volte in pagina; il titolo andava su sei righe.
+- **Hero**: titolo «Parla italiano con sicurezza.»; presentazione in una frase; restano le etichette `1:1 online · 12€ a lezione · A1-C1` e i due bottoni. Tolti la pillola «Lezioni individuali online · A1-C1», la nota sotto i bottoni e la riga con le tre spunte.
+- **Titolo più piccolo**: `.landing-hero h1` da `clamp(3rem,6vw,5.15rem)` a `clamp(2.6rem,4.4vw,3.8rem)`, su mobile da `3rem` a `2.5rem`. Vale per tutte e 9 le home. `CSS_VERSION` a `20260911a`.
+- **Resto della pagina**: tolta la fascia «01/02/03» (ripeteva l'hero); frasi introduttive di insegnanti, livelli e materiali ridotte a una riga; descrizioni di Martin e Licia accorciate.
+- **Pubblicata solo in italiano** perché Martin la veda online; le altre 8 home vanno allineate dopo la sua approvazione (vale la regola del 2026-08-25 sulle home localizzate con la stessa struttura).
