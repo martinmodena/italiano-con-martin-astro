@@ -795,6 +795,16 @@ export const NAV_LABELS = {
     de: 'Mit <span lang="it">ne</span>',
     ja: '<span lang="it">ne</span> を使う',
   },
+  'Con se': {
+    en: 'With <span lang="it">se</span>',
+    es: 'Con <span lang="it">se</span>',
+    fr: 'Avec <span lang="it">se</span>',
+    cs: 'Spojka <span lang="it">se</span>',
+    pl: 'Spójnik <span lang="it">se</span>',
+    tr: '<span lang="it">se</span> ile',
+    de: 'Mit <span lang="it">se</span>',
+    ja: '<span lang="it">se</span> を使う',
+  },
   'Essere o avere': {
     en: '<span lang="it">Essere</span> or <span lang="it">avere</span>?',
     es: '<span lang="it">Essere</span> o <span lang="it">avere</span>?',

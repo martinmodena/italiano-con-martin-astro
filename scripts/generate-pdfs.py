@@ -114,16 +114,38 @@ def clean(value):
     return re.sub(r"\s+", " ", value or "").strip()
 
 
-def node_text(node):
+LINE_BREAK = "\ue000"  # carattere privato, mai presente nel testo
+
+
+def node_text(node, line_breaks=False):
     # Niente spazio artificiale fra i pezzi: <em>Issus</em>. deve restare
     # "Issus." e non "Issus .". La spaziatura corretta e' gia' nell'HTML,
     # clean() si limita a compattare gli a capo dell'indentazione.
-    return clean("".join(node.itertext()))
+    # Fa eccezione <br>: la compressione della build toglie lo spazio che lo
+    # segue, e nei riquadri <strong>Presente</strong><br>Penso... etichetta e
+    # frase si attaccherebbero. Diventa un a capo (line_breaks) o uno spazio.
+    pieces = []
+
+    def walk(element):
+        if isinstance(element.tag, str) and element.text:
+            pieces.append(element.text)
+        for child in element:
+            if isinstance(child.tag, str):
+                if child.tag.lower() == "br":
+                    pieces.append(LINE_BREAK)
+                else:
+                    walk(child)
+            if child.tail:
+                pieces.append(child.tail)
+
+    walk(node)
+    text = re.sub(rf"\s*{LINE_BREAK}\s*", LINE_BREAK, clean("".join(pieces))).strip(LINE_BREAK)
+    return text if line_breaks else text.replace(LINE_BREAK, " ")
 
 
 def safe_markup(value):
     value = value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    return value
+    return value.replace(LINE_BREAK, "<br/>")
 
 
 def add_node(story, node, style):
@@ -137,7 +159,7 @@ def add_node(story, node, style):
         story.append(Paragraph(safe_markup(text), style["h3"]))
     elif tag in {"p", "li", "figcaption", "label"} or "example" in (node.get("class") or "").split() or "mistake" in (node.get("class") or "").split():
         prefix = "• " if tag == "li" else ""
-        story.append(Paragraph(safe_markup(prefix + text), style["body"]))
+        story.append(Paragraph(safe_markup(prefix + node_text(node, line_breaks=True)), style["body"]))
     elif tag == "table":
         rows = []
         for row in node.xpath(".//tr"):
