@@ -36,6 +36,16 @@ const { meta, main } = Astro.props as { meta: PageMeta; main: string };
 const ui = meta.ui ?? i18n.ui[meta.lang];
 const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '', summaryAria: 'Choose language' };
 const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
+
+// public/script.js costruisce il bottone del menu (l'hamburger) che sotto i
+// 900 pixel è l'unico modo di aprire la navigazione: senza di lui il menu
+// sparisce e basta. Molte pagine non lo dichiarano in `bodyScripts`, perché
+// l'elenco arriva dal sito storico; qui lo aggiungiamo dove manca, così il
+// menu funziona su tutte le pagine. Chi ce l'ha già lo tiene com'è: il
+// riferimento non va duplicato e non va cambiato, per non far scattare
+// l'audit dei link e la rete di sicurezza della parità.
+const hasSiteScript = meta.bodyScripts.some((script) => /script\.js/.test(script));
+const siteScriptHref = `${meta.assetPrefix}script.js`;
 ---
 
 <!doctype html>
@@ -83,5 +93,6 @@ const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
       <div class="container footer-grid" set:html={ui.footerGrid} />
     </footer>
     {meta.bodyScripts.map((script) => <Fragment set:html={script} />)}
+    {!hasSiteScript && <script is:inline src={siteScriptHref} />}
   </body>
 </html>
