@@ -19,6 +19,12 @@ const seoTerms = {
   de: 'italienische Grammatik',
   ja: 'イタリア語文法',
 };
+// Pagine pubblicate volutamente solo in italiano e a un solo livello
+// (esperimento su richiesta di Martin, 2026-09-23): niente traduzioni, niente
+// altri livelli, niente PDF. Escluse dai controlli di parità linguistica e
+// PDF che si applicano al resto del sito.
+const PARTIAL_RESOURCES = new Set(['favole/la-formica-wow.html']);
+
 const issues = [];
 const resources = collectResources();
 
@@ -28,6 +34,7 @@ inspectImagePerformance();
 inspectUrlArchitecture();
 
 for (const resource of resources) {
+  if (PARTIAL_RESOURCES.has(resource.relative)) continue;
   const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
   const italianAlternates = readAlternates(italianHtml);
   for (const language of localizedLanguages) {
@@ -67,7 +74,9 @@ for (const resource of resources) {
 const pdfCount = existsSync(path.join(publicRoot, 'pdf'))
   ? walk(path.join(publicRoot, 'pdf')).filter((file) => file.endsWith('.pdf')).length
   : 0;
-const readingsAndStories = resources.filter((resource) => resource.category !== 'grammatica').length;
+const readingsAndStories = resources.filter(
+  (resource) => resource.category !== 'grammatica' && !PARTIAL_RESOURCES.has(resource.relative)
+).length;
 const grammarLessons = resources.filter((resource) => resource.category === 'grammatica').length;
 const expectedPdfCount = (readingsAndStories * 6 + grammarLessons) * languages.length;
 if (pdfCount < expectedPdfCount)
@@ -218,6 +227,7 @@ function inspectIndexCoverage() {
         )
         .get();
       for (const resource of categoryResources) {
+        if (PARTIAL_RESOURCES.has(resource.relative)) continue;
         const source = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
         const localizedHref = readAlternates(source).get(language);
         const expectedPath = localizedHref ? decodeURIComponent(new URL(localizedHref).pathname) : '';
