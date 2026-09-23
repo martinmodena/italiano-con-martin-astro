@@ -23,7 +23,7 @@ const seoTerms = {
 // (esperimento su richiesta di Martin, 2026-09-23): niente traduzioni, niente
 // altri livelli, niente PDF. Escluse dai controlli di parità linguistica e
 // PDF che si applicano al resto del sito.
-const PARTIAL_RESOURCES = new Set(['favole/la-formica-wow.html']);
+const PARTIAL_RESOURCES = new Set(['favole/la-formichina-wow.html']);
 
 const issues = [];
 const resources = collectResources();
@@ -168,11 +168,18 @@ function readAlternates(html) {
   );
 }
 
+// Uno stub di redirect (vecchio URL pubblico verso uno nuovo) non è una
+// risorsa educativa: non deve avere traduzioni, livelli o PDF propri.
+function isRedirectStub(file) {
+  return readFileSync(file, 'utf8').includes('http-equiv="refresh"');
+}
+
 function collectResources() {
   const result = [];
   for (const category of ['letture', 'favole', 'grammatica']) {
     for (const file of walk(path.join(publicRoot, category))) {
       if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
+      if (isRedirectStub(file)) continue;
       result.push({ category, relative: path.relative(publicRoot, file).replaceAll('\\', '/') });
     }
   }
@@ -184,6 +191,7 @@ function collectMenuResources() {
   for (const category of ['letture', 'favole', 'grammatica', 'vocabolario']) {
     for (const file of walk(path.join(publicRoot, category))) {
       if (!file.endsWith('.html') || path.basename(file) === 'index.html') continue;
+      if (isRedirectStub(file)) continue;
       result.push({ category, relative: path.relative(publicRoot, file).replaceAll('\\', '/') });
     }
   }
