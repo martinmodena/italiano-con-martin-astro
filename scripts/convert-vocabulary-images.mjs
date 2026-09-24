@@ -9,7 +9,10 @@
 // `python scripts/remove-white-background.py`: qui non si tocca lo sfondo.
 //
 // Uso:
-//   node scripts/convert-vocabulary-images.mjs <cartella-immagini-pulite>
+//   node scripts/convert-vocabulary-images.mjs <cartella-immagini-pulite> [--subdir <nome>]
+//
+// Con --subdir le immagini vanno in public/assets/vocabolario/<nome>/ (le lezioni con
+// molte parole, come gli animali, tengono le loro foto in una sottocartella).
 
 import { existsSync, mkdirSync, readdirSync } from 'node:fs';
 import path from 'node:path';
@@ -17,7 +20,9 @@ import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const assetsDir = path.join(root, 'public/assets/vocabolario');
+const subdirIndex = process.argv.indexOf('--subdir');
+const subdir = subdirIndex >= 0 ? process.argv[subdirIndex + 1] : '';
+const assetsDir = path.join(root, 'public/assets/vocabolario', subdir);
 
 const source = process.argv[2];
 if (!source) {
@@ -48,4 +53,4 @@ for (const file of files) {
   console.log(slug);
 }
 
-console.log(`\nConvertite: ${files.length} in public/assets/vocabolario/`);
+console.log(`\nConvertite: ${files.length} in ${path.relative(root, assetsDir).replaceAll('\\', '/')}/`);

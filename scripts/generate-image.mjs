@@ -23,6 +23,9 @@
 //   --model <id>          modello OpenRouter (default: google/gemini-3-pro-image)
 //   --hero-width/-height  dimensioni della figura (default 960x540)
 //   --card-width/-height  dimensioni della tessera (default 640x360)
+//   --aspect-ratio <r>    rapporto del modello (default 16:9; per le testate del
+//                         vocabolario, 1280x853, si usa 3:2)
+//   --no-card             salva solo la figura, senza la tessera (testate del vocabolario)
 //   --dry-run              stampa il prompt che verrebbe inviato ed esce
 
 import { readFileSync, existsSync, mkdirSync } from 'node:fs';
@@ -60,6 +63,8 @@ const heroW = Number(getArg('--hero-width') || 960);
 const heroH = Number(getArg('--hero-height') || 540);
 const cardW = Number(getArg('--card-width') || 640);
 const cardH = Number(getArg('--card-height') || 360);
+const aspectRatio = getArg('--aspect-ratio') || '16:9';
+const noCard = hasFlag('--no-card');
 const dryRun = hasFlag('--dry-run');
 
 if (!slug) {
@@ -106,7 +111,7 @@ const res = await fetch('https://openrouter.ai/api/v1/images', {
     model,
     prompt,
     resolution: '2K',
-    aspect_ratio: '16:9',
+    aspect_ratio: aspectRatio,
     quality: 'high',
     output_format: 'png',
     n: 1,
@@ -133,10 +138,11 @@ const heroPath = path.join(ASSETS, `${slug}.webp`);
 const cardPath = path.join(ASSETS, `${slug}-card.webp`);
 
 await sharp(buffer).resize(heroW, heroH, { fit: 'cover' }).webp({ quality: 86, effort: 6 }).toFile(heroPath);
-await sharp(buffer).resize(cardW, cardH, { fit: 'cover' }).webp({ quality: 86, effort: 6 }).toFile(cardPath);
+if (!noCard)
+  await sharp(buffer).resize(cardW, cardH, { fit: 'cover' }).webp({ quality: 86, effort: 6 }).toFile(cardPath);
 
 const cost = json.usage?.cost;
 console.log('Salvate:');
 console.log(' ', path.relative(ROOT, heroPath), `(${heroW}x${heroH})`);
-console.log(' ', path.relative(ROOT, cardPath), `(${cardW}x${cardH})`);
+if (!noCard) console.log(' ', path.relative(ROOT, cardPath), `(${cardW}x${cardH})`);
 if (cost != null) console.log('Costo:', `$${cost}`);
