@@ -1,6 +1,6 @@
-// Stringhe di pagina delle due lezioni sugli animali, lingua per lingua:
-//   - «Gli animali»                        (animalPages)
-//   - «Le caratteristiche degli animali»   (traitPages, con i testi degli esercizi da trascinare)
+// Stringhe di pagina della lezione «Gli animali» (animalPages, 100 parole) e i testi degli
+// esercizi da trascinare delle due lezioni sugli aggettivi (traitUi). Le pagine delle lezioni
+// «caratteristiche fisiche», «personalita'» e «verbi» sono in animals-pages-more.mjs.
 //
 // Le etichette di servizio comuni a tutte le lezioni (Riconosci la parola, Frasi da tradurre,
 // i bottoni, la barra di avanzamento) NON stanno qui: lo script le legge dalla pagina della
@@ -14,18 +14,18 @@ export const animalPages = {
     slug: 'animali',
     name: 'Gli animali',
     title: 'Vocabolario degli animali in italiano | Italiano con Martin',
-    description: 'Impara 50 nomi di animali in italiano con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
+    description: 'Impara 100 nomi di animali in italiano con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
     heroAlt: 'Un prato con elefante, giraffa, leoncino, panda, pinguino, volpe, coniglio e tartaruga',
-    cardText: '50 parole per mammiferi, uccelli, rettili, pesci e insetti.',
+    cardText: '100 parole per mammiferi, uccelli, rettili, pesci e insetti.',
   },
   en: {
     dir: 'en/vocabulary',
     slug: 'italian-animals-vocabulary',
     name: 'Animals',
     title: 'Animals | Italian vocabulary | Italiano con Martin',
-    description: 'Learn 50 Italian animal names with images, three example sentences, pronunciation and exercises.',
+    description: 'Learn 100 Italian animal names with images, three example sentences, pronunciation and exercises.',
     heroAlt: 'A meadow with an elephant, giraffe, lion cub, panda, penguin, fox, rabbit and tortoise',
-    cardText: '50 words for mammals, birds, reptiles, fish and insects.',
+    cardText: '100 words for mammals, birds, reptiles, fish and insects.',
   },
   es: {
     dir: 'es/vocabulario',
@@ -33,9 +33,9 @@ export const animalPages = {
     name: 'Los animales',
     title: 'Los animales | vocabulario italiano | Italiano con Martin',
     description:
-      'Aprende 50 nombres de animales en italiano con imágenes, tres frases de ejemplo, pronunciación y ejercicios.',
+      'Aprende 100 nombres de animales en italiano con imágenes, tres frases de ejemplo, pronunciación y ejercicios.',
     heroAlt: 'Un prado con elefante, jirafa, cachorro de león, panda, pingüino, zorro, conejo y tortuga',
-    cardText: '50 palabras para mamíferos, aves, reptiles, peces e insectos.',
+    cardText: '100 palabras para mamíferos, aves, reptiles, peces e insectos.',
   },
   fr: {
     dir: 'fr/vocabulaire',
@@ -43,18 +43,18 @@ export const animalPages = {
     name: 'Les animaux',
     title: 'Les animaux | vocabulaire italien | Italiano con Martin',
     description:
-      'Apprenez 50 noms d’animaux en italien avec des images, trois exemples de phrases, la prononciation et des exercices.',
+      'Apprenez 100 noms d’animaux en italien avec des images, trois exemples de phrases, la prononciation et des exercices.',
     heroAlt: 'Une prairie avec éléphant, girafe, lionceau, panda, manchot, renard, lapin et tortue',
-    cardText: '50 mots pour les mammifères, oiseaux, reptiles, poissons et insectes.',
+    cardText: '100 mots pour les mammifères, oiseaux, reptiles, poissons et insectes.',
   },
   cs: {
     dir: 'cs/slovni-zasoba',
     slug: 'italska-slovni-zasoba-zvirata',
     name: 'Zvířata',
     title: 'Zvířata | italská slovní zásoba | Italiano con Martin',
-    description: 'Naučte se 50 italských názvů zvířat s obrázky, třemi příkladovými větami, výslovností a cvičeními.',
+    description: 'Naučte se 100 italských názvů zvířat s obrázky, třemi příkladovými větami, výslovností a cvičeními.',
     heroAlt: 'Louka se slonem, žirafou, lvíčetem, pandou, tučňákem, liškou, králíkem a želvou',
-    cardText: '50 slov pro savce, ptáky, plazy, ryby a hmyz.',
+    cardText: '100 slov pro savce, ptáky, plazy, ryby a hmyz.',
   },
   pl: {
     dir: 'pl/slownictwo',
@@ -62,43 +62,45 @@ export const animalPages = {
     name: 'Zwierzęta',
     title: 'Zwierzęta | włoskie słownictwo | Italiano con Martin',
     description:
-      'Naucz się 50 włoskich nazw zwierząt z obrazkami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.',
+      'Naucz się 100 włoskich nazw zwierząt z obrazkami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.',
     heroAlt: 'Łąka ze słoniem, żyrafą, lwiątkiem, pandą, pingwinem, lisem, królikiem i żółwiem',
-    cardText: '50 słów o ssakach, ptakach, gadach, rybach i owadach.',
+    cardText: '100 słów o ssakach, ptakach, gadach, rybach i owadach.',
   },
   tr: {
     dir: 'tr/kelime-bilgisi',
     slug: 'italyanca-hayvan-kelimeleri',
     name: 'Hayvanlar',
     title: 'Hayvanlar | İtalyanca kelimeler | Italiano con Martin',
-    description: 'Resimler, üç örnek cümle, telaffuz ve alıştırmalarla 50 İtalyanca hayvan adını öğrenin.',
+    description: 'Resimler, üç örnek cümle, telaffuz ve alıştırmalarla 100 İtalyanca hayvan adını öğrenin.',
     heroAlt: 'Fil, zürafa, aslan yavrusu, panda, penguen, tilki, tavşan ve kaplumbağanın olduğu bir çayır',
-    cardText: 'Memeliler, kuşlar, sürüngenler, balıklar ve böcekler için 50 kelime.',
+    cardText: 'Memeliler, kuşlar, sürüngenler, balıklar ve böcekler için 100 kelime.',
   },
   de: {
     dir: 'de/wortschatz',
     slug: 'italienischer-wortschatz-tiere',
     name: 'Die Tiere',
     title: 'Die Tiere | italienischer Wortschatz | Italiano con Martin',
-    description: 'Lernen Sie 50 italienische Tiernamen mit Bildern, drei Beispielsätzen, Aussprache und Übungen.',
+    description: 'Lernen Sie 100 italienische Tiernamen mit Bildern, drei Beispielsätzen, Aussprache und Übungen.',
     heroAlt: 'Eine Wiese mit Elefant, Giraffe, Löwenjunges, Panda, Pinguin, Fuchs, Kaninchen und Schildkröte',
-    cardText: '50 Wörter für Säugetiere, Vögel, Reptilien, Fische und Insekten.',
+    cardText: '100 Wörter für Säugetiere, Vögel, Reptilien, Fische und Insekten.',
   },
   ja: {
     dir: 'ja/goi',
     slug: 'italian-animals-vocabulary',
     name: '動物',
     title: '動物 | イタリア語の語彙 | Italiano con Martin',
-    description: '動物の名前 50 語を画像、3 つの例文、発音、練習問題で学びます。',
+    description: '動物の名前 100 語を画像、3 つの例文、発音、練習問題で学びます。',
     heroAlt: 'ゾウ、キリン、子ライオン、パンダ、ペンギン、キツネ、ウサギ、カメのいる草原',
-    cardText: '哺乳類、鳥、爬虫類、魚、昆虫を表す 50 語。',
+    cardText: '哺乳類、鳥、爬虫類、魚、昆虫を表す 100 語。',
   },
 };
 
 // La parola d'esempio citata nel testo dell'esercizio «Riconosci la parola» e nella nota finale.
 export const animalExampleWord = { bare: 'gatto', withArticle: 'il gatto' };
 
-export const traitPages = {
+// Pagina della prima versione della lezione sulle caratteristiche, poi divisa in due (2026-09-24):
+// serve solo per i redirect degli URL vecchi. Le pagine nuove sono in animals-pages-more.mjs.
+export const oldTraitPages = {
   it: {
     dir: 'vocabolario',
     slug: 'caratteristiche-animali',
@@ -190,7 +192,9 @@ export const traitPages = {
   },
 };
 
-// Testi delle sezioni nuove della lezione sulle caratteristiche (lingua-veicolo).
+// Testi delle sezioni con trascinamento delle lezioni sugli aggettivi (lingua-veicolo). La `note` qui
+// e' quella della lezione sulla personalita' (stereotipi); quella della lezione fisica e' in
+// animals-pages-more.mjs.
 //
 //   note        riquadro sotto le schede (sostituisce la nota sull'articolo)
 //   lessonLink  invito a ripassare gli animali; {link} diventa il collegamento

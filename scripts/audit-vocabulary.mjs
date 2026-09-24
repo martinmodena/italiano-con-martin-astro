@@ -65,7 +65,7 @@ const routes = {
     ja: 'ja/goi/italian-sea-vocabulary.html',
   },
   animali: {
-    count: 50,
+    count: 100,
     it: 'vocabolario/animali.html',
     en: 'en/vocabulary/italian-animals-vocabulary.html',
     es: 'es/vocabulario/vocabulario-de-los-animales-en-italiano.html',
@@ -76,21 +76,51 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-tiere.html',
     ja: 'ja/goi/italian-animals-vocabulary.html',
   },
-  // Aggettivi: niente «Riconosci la parola» (un aggettivo non si riconosce da una foto), ma due
-  // esercizi con trascinamento: 50 righe («quale animale e' cosi'?») e 20 («quale non lo e'?»).
-  caratteristiche: {
-    count: 50,
+  // Aggettivi e verbi: niente «Riconosci la parola» (un aggettivo o un verbo non si riconosce da una
+  // foto), ma due esercizi con trascinamento: una riga per ogni parola («quale animale e' cosi' / lo
+  // fa?») e, per le parole con animali che chiaramente non lo sono, una riga in «non lo e'».
+  // Nei verbi tre non hanno riga (dormire, mangiare, camminare: ogni animale lo fa).
+  fisiche: {
+    count: 32,
     tests: 0,
-    match: { positive: 50, negative: 20 },
-    it: 'vocabolario/caratteristiche-animali.html',
-    en: 'en/vocabulary/italian-animal-traits-vocabulary.html',
-    es: 'es/vocabulario/vocabulario-caracteristicas-animales-en-italiano.html',
-    fr: 'fr/vocabulaire/vocabulaire-caracteristiques-des-animaux-en-italien.html',
-    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-vlastnosti-zvirat.html',
-    pl: 'pl/slownictwo/wloskie-slownictwo-cechy-zwierzat.html',
-    tr: 'tr/kelime-bilgisi/italyanca-hayvan-ozellikleri-kelimeleri.html',
-    de: 'de/wortschatz/italienischer-wortschatz-eigenschaften-tiere.html',
-    ja: 'ja/goi/italian-animal-traits-vocabulary.html',
+    match: { positive: 32, negative: 13 },
+    it: 'vocabolario/caratteristiche-fisiche-animali.html',
+    en: 'en/vocabulary/italian-animal-physical-traits-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-caracteristicas-fisicas-animales-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-caracteristiques-physiques-des-animaux-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-fyzicke-vlastnosti-zvirat.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-cechy-fizyczne-zwierzat.html',
+    tr: 'tr/kelime-bilgisi/italyanca-hayvan-fiziksel-ozellikleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-koerperliche-eigenschaften-tiere.html',
+    ja: 'ja/goi/italian-animal-physical-traits-vocabulary.html',
+  },
+  personalita: {
+    count: 35,
+    tests: 0,
+    match: { positive: 35, negative: 10 },
+    it: 'vocabolario/personalita-animali.html',
+    en: 'en/vocabulary/italian-animal-personality-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-personalidad-animales-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-personnalite-des-animaux-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-povaha-zvirat.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-charakter-zwierzat.html',
+    tr: 'tr/kelime-bilgisi/italyanca-hayvan-kisiligi-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-persoenlichkeit-tiere.html',
+    ja: 'ja/goi/italian-animal-personality-vocabulary.html',
+  },
+  verbi: {
+    count: 91,
+    tests: 0,
+    match: { positive: 88, negative: 7 },
+    it: 'vocabolario/verbi-animali.html',
+    en: 'en/vocabulary/italian-animal-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-animales-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-des-animaux-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-zvirat.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-zwierzat.html',
+    tr: 'tr/kelime-bilgisi/italyanca-hayvan-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-tiere.html',
+    ja: 'ja/goi/italian-animal-verbs-vocabulary.html',
   },
   cibo: {
     count: 72,
@@ -206,7 +236,9 @@ for (const lesson of [
   'cibo',
   'mare',
   'animali',
-  'caratteristiche-animali',
+  'caratteristiche-fisiche-animali',
+  'personalita-animali',
+  'verbi-animali',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

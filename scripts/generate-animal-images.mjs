@@ -1,7 +1,10 @@
 #!/usr/bin/env node
-// Genera le illustrazioni delle due lezioni sugli animali via OpenRouter:
-//   - «Gli animali» (50 parole)                   -> --set animali
-//   - «Le caratteristiche degli animali» (50 agg.) -> --set caratteristiche
+// Genera le illustrazioni delle lezioni sugli animali via OpenRouter:
+//   - «Gli animali» (100 parole)                                  -> --set animali
+//   - «Le caratteristiche fisiche» e «La personalita'» (67 agg.)  -> --set caratteristiche
+//   - «I verbi degli animali» (91 verbi)                          -> --set verbi
+// Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
+// solo quelle che mancano.
 //
 // Modello economico (gpt-image-1-mini, quality low): sono foto semplici e isolate
 // (decisione del 2026-09-03, vedi AGENTS.md). Le testate delle lezioni, che sono la
@@ -18,6 +21,7 @@
 // Uso:
 //   node scripts/generate-animal-images.mjs --set animali --out-dir <cartella>
 //   node scripts/generate-animal-images.mjs --set caratteristiche --out-dir <cartella> --only pigro,veloce
+//   node scripts/generate-animal-images.mjs --set verbi --out-dir <cartella>
 //   node scripts/generate-animal-images.mjs --set animali --dry-run
 
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
@@ -25,6 +29,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { animalVocabulary } from './data/animals-vocabulary.mjs';
 import { traitVocabulary } from './data/traits-vocabulary.mjs';
+import { verbVocabulary } from './data/verbs-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -54,9 +59,9 @@ const outDir = getArg('--out-dir');
 const concurrency = Number(getArg('--concurrency') || 4);
 const dryRun = args.includes('--dry-run');
 
-const sets = { animali: animalVocabulary, caratteristiche: traitVocabulary };
+const sets = { animali: animalVocabulary, caratteristiche: traitVocabulary, verbi: verbVocabulary };
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche.');
+  console.error('Serve --set animali|caratteristiche|verbi.');
   process.exit(1);
 }
 if (!dryRun && !outDir) {

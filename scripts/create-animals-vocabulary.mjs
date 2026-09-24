@@ -1,43 +1,68 @@
 #!/usr/bin/env node
 /**
- * Crea le due lezioni di vocabolario sugli animali in tutte e 9 le lingue:
+ * Crea le quattro lezioni di vocabolario sugli animali in tutte e 9 le lingue:
  *
- *   - «Gli animali»                       50 parole, stessa struttura delle altre lezioni;
- *   - «Le caratteristiche degli animali»  50 aggettivi + due esercizi con trascinamento
- *                                         (associare gli animali agli aggettivi, anche con
- *                                         la negazione).
+ *   - «Gli animali»                              100 parole, stessa struttura delle altre lezioni;
+ *   - «Le caratteristiche fisiche degli animali»  32 aggettivi (corpo, dimensioni, movimento, suoni);
+ *   - «La personalità degli animali»              35 aggettivi (carattere e comportamento);
+ *   - «I verbi degli animali»                     91 verbi (muoversi, costruire, difendersi, versi).
+ *
+ * Le tre lezioni con gli aggettivi e i verbi hanno, al posto di «Riconosci la parola» (un aggettivo o un
+ * verbo non si riconosce da una foto), due esercizi con trascinamento: «quale animale e' cosi' / lo fa?»
+ * e «quale animale non e' cosi' / non puo' farlo?».
  *
  * Metodo: come per il mare (`create-sea-vocabulary.mjs`), ogni pagina parte dalla lezione
  * della cucina gia' tradotta in quella lingua, cosi' tutte le etichette di servizio
  * («Riconosci la parola», «Frasi da tradurre», i bottoni, la barra di avanzamento)
  * restano quelle gia' tradotte. Si sostituiscono titolo, testata, parole e contatori.
- * Nella lezione sulle caratteristiche gli esercizi «Riconosci la parola» (un aggettivo non si
- * riconosce da una foto) sono sostituiti dalle due sezioni con trascinamento.
  *
  * Dati:
- *   scripts/data/animals-vocabulary.mjs   le 50 parole e le frasi da tradurre
- *   scripts/data/traits-vocabulary.mjs    i 50 aggettivi, gli animali associabili, le frasi
- *   scripts/data/animals-pages.mjs        titoli, descrizioni e testi degli esercizi per lingua
+ *   scripts/data/animals-vocabulary.mjs   le 100 parole e le frasi da tradurre
+ *   scripts/data/traits-vocabulary.mjs    gli aggettivi (fisici e di carattere), gli animali associabili
+ *   scripts/data/verbs-vocabulary.mjs     i verbi, gli animali che li fanno
+ *   scripts/data/animals-pages.mjs        «Gli animali» e i testi degli esercizi sugli aggettivi
+ *   scripts/data/animals-pages-more.mjs   le pagine di fisiche, personalita' e verbi
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
+ *
+ * La prima versione (2026-09-24) aveva una sola lezione «Le caratteristiche degli animali» con 50
+ * aggettivi: e' stata divisa in due. Lo script toglie le pagine vecchie da src/, lascia dei
+ * redirect `noindex` in public/ (gli URL sono gia' stati pubblicati), sostituisce la scheda
+ * nell'indice del vocabolario e le righe nella sitemap.
  *
  * Uso:
  *   node scripts/create-animals-vocabulary.mjs --dry-run
  *   node scripts/create-animals-vocabulary.mjs
+ *   node scripts/create-animals-vocabulary.mjs --review    (elenca le risposte «giuste» dedotte negli esercizi con la negazione)
  *
  * Idempotente: rilanciarlo riscrive le pagine e lascia stare indici e sitemap se le voci ci sono gia'.
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, unlinkSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 import { animalVocabulary, animalTranslationExercises } from './data/animals-vocabulary.mjs';
-import { traitVocabulary, traitTranslationExercises } from './data/traits-vocabulary.mjs';
-import { animalPages, animalExampleWord, traitPages, traitUi } from './data/animals-pages.mjs';
+import {
+  physicalTraits,
+  personalityTraits,
+  physicalTranslationExercises,
+  personalityTranslationExercises,
+} from './data/traits-vocabulary.mjs';
+import { verbVocabulary, verbTranslationExercises } from './data/verbs-vocabulary.mjs';
+import { animalPages, animalExampleWord, oldTraitPages, traitUi } from './data/animals-pages.mjs';
+import {
+  physicalPages,
+  personalityPages,
+  verbPages,
+  physicalNote,
+  verbUi,
+  verbUiOverrides,
+} from './data/animals-pages-more.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
+const review = process.argv.includes('--review');
 const LANGS = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
 const MATCH_ASSET_VERSION = '20260924';
 
@@ -66,29 +91,67 @@ const indexFile = {
   ja: 'src/html/ja/goi/index.html',
 };
 
-// --- le due lezioni ----------------------------------------------------------
+// --- le lezioni -------------------------------------------------------------------
+//   kind 'words'  : schede + «Riconosci la parola» + frasi da tradurre
+//   kind 'match'  : schede + due esercizi con trascinamento + frasi da tradurre
 const lessons = {
   animali: {
     id: 'animali',
+    kind: 'words',
     pages: animalPages,
     hero: 'animali-hero.webp',
     words: animalVocabulary,
     translations: animalTranslationExercises,
     exampleWord: animalExampleWord,
   },
-  caratteristiche: {
-    id: 'caratteristiche',
-    pages: traitPages,
-    hero: 'caratteristiche-animali-hero.webp',
-    words: traitVocabulary,
-    translations: traitTranslationExercises,
+  fisiche: {
+    id: 'fisiche',
+    kind: 'match',
+    pages: physicalPages,
+    hero: 'caratteristiche-fisiche-hero.webp',
+    words: physicalTraits,
+    translations: physicalTranslationExercises,
     exampleWord: null,
+    notLabel: 'non è',
+    seeds: [2411, 2412],
+    uiFor: (lang) => ({ ...traitUi[lang], note: physicalNote[lang] }),
+  },
+  personalita: {
+    id: 'personalita',
+    kind: 'match',
+    pages: personalityPages,
+    // La testata e' quella della prima versione della lezione (i personaggi sono gli stessi).
+    hero: 'caratteristiche-animali-hero.webp',
+    words: personalityTraits,
+    translations: personalityTranslationExercises,
+    exampleWord: null,
+    notLabel: 'non è',
+    seeds: [2413, 2414],
+    uiFor: (lang) => traitUi[lang],
+  },
+  verbi: {
+    id: 'verbi',
+    kind: 'match',
+    pages: verbPages,
+    hero: 'verbi-animali-hero.webp',
+    words: verbVocabulary,
+    translations: verbTranslationExercises,
+    exampleWord: null,
+    notLabel: 'non può',
+    seeds: [2415, 2416],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...verbUi[lang],
+      ui: { ...traitUi[lang].ui, ...verbUiOverrides[lang] },
+    }),
   },
 };
 
 const pagePath = (lesson, lang) => `${lesson.pages[lang].dir}/${lesson.pages[lang].slug}.html`;
 const pageUrl = (lesson, lang) => `https://italianoconmartin.com/${pagePath(lesson, lang)}`;
 const kitchenUrl = (lang) => `https://italianoconmartin.com/${kitchen[lang]}`;
+const oldPath = (lang) => `${oldTraitPages[lang].dir}/${oldTraitPages[lang].slug}.html`;
+const oldUrl = (lang) => `https://italianoconmartin.com/${oldPath(lang)}`;
 
 const escapeAttribute = (v) =>
   v.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -146,11 +209,11 @@ function readTemplate(html) {
 
 // --- schede, esercizi di riconoscimento, traduzioni --------------------------
 
-function buildCard(word, template, lang, isTrait) {
+function buildCard(word, template, lang, isMatch) {
   const examples = word.examples.map((s) => `<li><span lang="it">${escapeHtml(s)}</span></li>`).join('');
-  const alt = isTrait ? (lang === 'it' ? `Illustrazione: ${word.bare}` : word.gloss[lang]) : word.alt[lang];
-  const spoken = isTrait ? word.word.replace(' / ', ', ') : word.word;
-  const gloss = isTrait ? `\n                <p class="word-translation">${escapeHtml(word.gloss[lang])}</p>` : '';
+  const alt = isMatch ? (lang === 'it' ? `Illustrazione: ${word.bare}` : word.gloss[lang]) : word.alt[lang];
+  const spoken = isMatch ? word.word.replace(' / ', ', ') : word.word;
+  const gloss = isMatch ? `\n                <p class="word-translation">${escapeHtml(word.gloss[lang])}</p>` : '';
   return `<article class="word-card">
               <img src="${template.imagePrefix}/${word.image}.webp" alt="${escapeAttribute(alt)}" loading="lazy" decoding="async">
               <div class="word-card-body">
@@ -255,31 +318,43 @@ function shuffle(list, random) {
 const BANK_SIZE = 14;
 const SET_SIZE = 10;
 
+/** Divide in serie di al massimo `max` righe, il piu' possibile uguali fra loro (32 -> 4 da 8). */
+function chunkEvenly(list, max = SET_SIZE) {
+  const count = Math.max(1, Math.ceil(list.length / max));
+  const size = Math.ceil(list.length / count);
+  const out = [];
+  for (let i = 0; i < list.length; i += size) out.push(list.slice(i, i + size));
+  return out;
+}
+
+const animalBySlug = new Map(animalVocabulary.map((a) => [a.slug, a]));
+
 /**
  * Costruisce le serie di un esercizio. Per ogni serie:
- *  - la barra di animali contiene almeno una risposta giusta per ogni aggettivo;
- *  - il resto della barra e' fatto di animali che sono la risposta giusta per altri aggettivi
- *    della serie (o, nella forma negativa, animali che hanno la caratteristica: sono le trappole).
+ *  - la barra di animali contiene almeno una risposta giusta per ogni riga;
+ *  - il resto della barra e' fatto di animali che sono la risposta giusta per altre righe
+ *    della serie (o, nella forma negativa, animali che hanno la caratteristica: sono le trappole);
+ *  - in ogni riga c'e' almeno un animale sbagliato, altrimenti tutto sarebbe giusto.
  * Positivo: e' giusto ogni animale di `matches`. Negativo: e' giusto ogni animale che NON e' in `matches`.
  */
-function buildSets(traits, mode, seed) {
+function buildSets(items, mode, seed) {
   const random = mulberry32(seed);
   const used = new Set();
   const sets = [];
-  for (let i = 0; i < traits.length; i += SET_SIZE) {
-    const setTraits = traits.slice(i, i + SET_SIZE);
+  const isOk = (t, a) => (mode === 'positive' ? t.matches.includes(a) : !t.matches.includes(a));
+  for (const setItems of chunkEvenly(items)) {
     const bank = [];
     const goodFor = (t) => (mode === 'positive' ? t.matches : t.never);
-    for (const t of setTraits) {
+    for (const t of setItems) {
       const options = goodFor(t);
       if (bank.some((a) => options.includes(a))) continue;
       const pick = options.find((a) => !used.has(a) && !bank.includes(a)) ?? options.find((a) => !bank.includes(a));
       if (pick) bank.push(pick);
     }
-    // Nella forma negativa ogni aggettivo deve avere almeno due trappole in barra (animali che la
+    // Nella forma negativa ogni riga deve avere almeno due trappole in barra (animali che la
     // caratteristica ce l'hanno), altrimenti tutto quello che si trascina e' giusto.
     if (mode === 'negative') {
-      for (const t of setTraits) {
+      for (const t of setItems) {
         const traps = () => bank.filter((a) => t.matches.includes(a)).length;
         for (const a of t.matches) {
           if (traps() >= 2) break;
@@ -287,38 +362,63 @@ function buildSets(traits, mode, seed) {
         }
       }
     }
-    // Riempimento fino a BANK_SIZE con animali giusti per altri aggettivi della serie.
+    // Riempimento fino a BANK_SIZE con animali giusti per altre righe della serie: nella forma
+    // positiva i primi di `matches`, in quella negativa quelli di `never` (chiaramente «no»), cosi'
+    // le righe con centinaia di animali associati (selvaggio) non riempiono la barra a caso.
+    const fillerPool = (t) => (mode === 'positive' ? t.matches.slice(0, 6) : t.never);
     const fillers = shuffle(
-      [...new Set(setTraits.flatMap((t) => t.matches))].filter((a) => !bank.includes(a)),
+      [...new Set(setItems.flatMap(fillerPool))].filter((a) => !bank.includes(a)),
       random
     );
     for (const a of fillers) {
       if (bank.length >= BANK_SIZE) break;
       bank.push(a);
     }
+    // Nella forma positiva, se una riga ha per giusti tutti gli animali della barra, si aggiunge
+    // un animale che non c'entra.
+    if (mode === 'positive') {
+      for (const t of setItems) {
+        if (bank.every((a) => isOk(t, a))) {
+          const extra = shuffle(
+            animalVocabulary.map((a) => a.slug).filter((a) => !bank.includes(a) && !isOk(t, a)),
+            random
+          )[0];
+          if (extra) bank.push(extra);
+        }
+      }
+    }
     bank.forEach((a) => used.add(a));
-    const rows = setTraits.map((t) => {
-      const ok = bank.filter((a) => (mode === 'positive' ? t.matches.includes(a) : !t.matches.includes(a)));
+    const rows = setItems.map((t) => {
+      const ok = bank.filter((a) => isOk(t, a));
       if (bank.length - ok.length < 1) throw new Error(`${mode}: nessuna risposta sbagliata in barra per «${t.slug}»`);
       if (!ok.length) throw new Error(`${mode}: nessuna risposta giusta in barra per «${t.slug}»`);
-      return { trait: t, ok, hint: (mode === 'positive' ? t.matches : t.never).find((a) => ok.includes(a)) ?? ok[0] };
+      return { trait: t, ok, hint: goodFor(t).find((a) => ok.includes(a)) ?? ok[0] };
     });
     sets.push({ rows, bank: shuffle(bank, random) });
   }
   return sets;
 }
 
-const animalBySlug = new Map(animalVocabulary.map((a) => [a.slug, a]));
-
-function validateTraitData() {
-  for (const t of traitVocabulary) {
-    for (const slug of [...t.matches, ...t.never]) {
-      if (!animalBySlug.has(slug)) throw new Error(`aggettivo «${t.slug}»: animale sconosciuto «${slug}»`);
+function validateLessonData() {
+  for (const lesson of Object.values(lessons)) {
+    if (lesson.kind !== 'match') continue;
+    for (const t of lesson.words) {
+      for (const slug of [...t.matches, ...t.never]) {
+        if (!animalBySlug.has(slug)) throw new Error(`«${t.slug}»: animale sconosciuto «${slug}»`);
+      }
+      if (!t.noMatch && !t.matches.length) throw new Error(`«${t.slug}»: nessun animale associato`);
+      const clash = t.never.filter((a) => t.matches.includes(a));
+      if (clash.length) throw new Error(`«${t.slug}»: in matches e in never insieme: ${clash.join(', ')}`);
     }
   }
 }
 
-function buildMatchSections(lang, template, ui) {
+/** Le righe di un esercizio: senza i verbi troppo generali; per la negazione, solo quelle con `never`. */
+const matchItems = (lesson) => lesson.words.filter((t) => !t.noMatch);
+const negativeItems = (lesson) => matchItems(lesson).filter((t) => t.never.length > 0);
+
+function buildMatchSections(lesson, lang, template) {
+  const ui = lesson.uiFor(lang);
   const itAttr = lang === 'it' ? '' : ' lang="it"';
   const animalsPage = animalPages[lang];
   const animalsHref = lang === 'it' ? `${animalsPage.slug}.html` : `/${pagePath(lessons.animali, lang)}`;
@@ -330,7 +430,7 @@ function buildMatchSections(lang, template, ui) {
     return `<li><button class="match-chip" type="button" data-animal="${slug}" aria-pressed="false"><img src="${template.imagePrefix}/${a.image}.webp" alt="" width="56" height="56" loading="lazy" decoding="async" draggable="false"><span${itAttr}>${escapeHtml(a.word)}</span></button></li>`;
   };
 
-  const section = (mode, sets, n0) => {
+  const section = (mode, sets) => {
     const total = sets.reduce((sum, s) => sum + s.rows.length, 0);
     const text = ui[mode === 'positive' ? 'positive' : 'negative'];
     const messages = {
@@ -351,7 +451,7 @@ function buildMatchSections(lang, template, ui) {
             const label =
               mode === 'positive'
                 ? `<strong class="match-trait"${itAttr}>${escapeHtml(trait.word)}</strong>`
-                : `<strong class="match-trait"${itAttr}><span class="match-not">non è</span> ${escapeHtml(trait.word)}</strong>`;
+                : `<strong class="match-trait"${itAttr}><span class="match-not">${lesson.notLabel}</span> ${escapeHtml(trait.word)}</strong>`;
             const dropLabel = fill(ui.ui.dropLabel, { adj: trait.word });
             return `<li class="match-row" data-key="${trait.slug}" data-ok="${escapeAttribute(JSON.stringify(ok))}" data-hint="${hint}">
                 <div class="match-prompt"><span class="match-num" aria-hidden="true">${counter}</span>${label}</div>
@@ -376,7 +476,6 @@ function buildMatchSections(lang, template, ui) {
           </div>`;
       })
       .join('\n          ');
-    void n0;
     return `<section class="section match-section match-${mode}" data-match="${mode}" data-total="${total}" ${attrs} aria-labelledby="match-title-${mode}">
         <div class="container">
           <div class="practice-heading">
@@ -397,16 +496,26 @@ function buildMatchSections(lang, template, ui) {
       </section>`;
   };
 
-  const positive = buildSets(traitVocabulary, 'positive', 2409);
-  const negativeTraits = traitVocabulary.filter((t) => t.never.length > 0);
-  const negative = buildSets(negativeTraits, 'negative', 2410);
-  return section('positive', positive, 0) + '\n\n      ' + section('negative', negative, positive.length);
+  const positive = buildSets(matchItems(lesson), 'positive', lesson.seeds[0]);
+  const negative = buildSets(negativeItems(lesson), 'negative', lesson.seeds[1]);
+  return { html: section('positive', positive) + '\n\n      ' + section('negative', negative), positive, negative };
+}
+
+/** Le righe della forma negativa con le risposte «giuste» che nessuno ha dichiarato in `never`: da rivedere a occhio. */
+function reviewNegative(lesson, negative) {
+  console.log(`\n== ${lesson.pages.it.name}: risposte giuste dedotte nella forma negativa ==`);
+  for (const set of negative) {
+    for (const { trait, ok } of set.rows) {
+      const inferred = ok.filter((a) => !trait.never.includes(a));
+      console.log(`${trait.word}: ${inferred.length ? inferred.join(', ') : '(solo quelle dichiarate)'}`);
+    }
+  }
 }
 
 // --- pagine ---------------------------------------------------------------------
 
 function buildPage(lesson, lang) {
-  const isTrait = lesson.id === 'caratteristiche';
+  const isMatch = lesson.kind === 'match';
   const src = path.join(root, 'src/html', kitchen[lang]);
   const html = readFileSync(src, 'utf8');
   const template = readTemplate(html);
@@ -418,16 +527,17 @@ function buildPage(lesson, lang) {
   const kitchenHeroAlt = $('img.vocabulary-hero').attr('alt') ?? '';
 
   let out = html;
+  let negative = [];
 
   // 1. parole, esercizi di riconoscimento, traduzioni libere
   out = replaceContainer(
     out,
     'word-grid',
     '\n            ' +
-      lesson.words.map((w) => buildCard(w, template, lang, isTrait)).join('\n            ') +
+      lesson.words.map((w) => buildCard(w, template, lang, isMatch)).join('\n            ') +
       '\n          '
   );
-  if (!isTrait) {
+  if (!isMatch) {
     out = replaceContainer(
       out,
       'word-tests',
@@ -442,23 +552,24 @@ function buildPage(lesson, lang) {
       '\n          '
   );
 
-  // 2. la lezione sulle caratteristiche: niente «Riconosci la parola», ma gli esercizi da trascinare;
-  //    e la nota sull'articolo lascia il posto a quella sulle due forme dell'aggettivo.
-  if (isTrait) {
+  // 2. le lezioni con trascinamento: niente «Riconosci la parola», ma gli esercizi da trascinare;
+  //    e la nota sull'articolo lascia il posto a quella della lezione.
+  if (isMatch) {
     const start = out.indexOf('<section class="section word-practice-section"');
     const end = out.indexOf('</section>', start);
     if (start === -1 || end === -1) throw new Error(`${lang}: sezione «Riconosci la parola» non trovata`);
-    out =
-      out.slice(0, start) + buildMatchSections(lang, template, traitUi[lang]) + out.slice(end + '</section>'.length);
+    const sections = buildMatchSections(lesson, lang, template);
+    negative = sections.negative;
+    out = out.slice(0, start) + sections.html + out.slice(end + '</section>'.length);
 
-    const note = traitUi[lang].note;
+    const note = lesson.uiFor(lang).note;
     out = out.replace(
       /(<div class="vocabulary-note">)[\s\S]*?(<\/div>)/,
       `$1\n            <strong>${escapeHtml(note.title)}</strong>\n            <p>${note.body}</p>\n          $2`
     );
   }
 
-  // 3. contatori (la lezione sui caratteri non ha la barra del riconoscimento)
+  // 3. contatori (le lezioni con trascinamento non hanno la barra del riconoscimento)
   out = updateCounters(out, oldCount, lesson.words.length, oldTrad, lesson.translations.length);
 
   // 4. titolo, briciole di pane, immagine di testata
@@ -471,7 +582,7 @@ function buildPage(lesson, lang) {
   if (kitchenHeroAlt) out = out.replace(escapeAttribute(kitchenHeroAlt), escapeAttribute(page.heroAlt));
 
   // 5. la parola d'esempio citata nel testo dell'esercizio e nella nota finale
-  //    (nella lezione sulle caratteristiche la nota e' gia' stata sostituita).
+  //    (nelle lezioni con trascinamento la nota e' gia' stata sostituita).
   if (lesson.exampleWord) {
     const swapWord = (h, from, to) =>
       h.replace(new RegExp(`(<em(?:\\s+lang="it")?>)${escapeRegex(from)}(</em>)`, 'g'), `$1${to}$2`);
@@ -481,11 +592,11 @@ function buildPage(lesson, lang) {
     out = swapWord(out, 'forchetta', lesson.exampleWord.bare);
   }
 
-  return out;
+  return { out, negative };
 }
 
 function buildAstro(lesson, lang) {
-  const isTrait = lesson.id === 'caratteristiche';
+  const isMatch = lesson.kind === 'match';
   const src = path.join(root, 'src/pages', kitchen[lang] + '.astro');
   let out = readFileSync(src, 'utf8');
   const page = lesson.pages[lang];
@@ -514,8 +625,8 @@ function buildAstro(lesson, lang) {
   // Nel JSON-LD resta il nome localizzato della lezione della cucina: si riscrive il campo.
   out = out.replace(/(\\"name\\":\\")[^"]*?(\\")/, `$1${jsonEscape(page.name)}$2`);
 
-  // La lezione sulle caratteristiche carica anche gli stili e lo script degli esercizi da trascinare.
-  if (isTrait) {
+  // Le lezioni con trascinamento caricano anche gli stili e lo script degli esercizi.
+  if (isMatch) {
     const css = /("<link rel=\\"stylesheet\\" href=\\"([^"\\]*)assets\/vocabulary\.css\?v=[^"\\]*\\">")/.exec(out);
     if (!css) throw new Error(`${lang}: riga del foglio di stile del vocabolario non trovata`);
     const prefix = css[2];
@@ -535,7 +646,7 @@ function buildAstro(lesson, lang) {
 }
 
 // --------------------------------------------------------------------------------
-validateTraitData();
+validateLessonData();
 
 for (const lesson of Object.values(lessons)) {
   console.log(
@@ -545,8 +656,10 @@ for (const lesson of Object.values(lessons)) {
     const htmlFile = path.join(root, 'src/html', pagePath(lesson, lang));
     const astroFile = path.join(root, 'src/pages', pagePath(lesson, lang) + '.astro');
 
-    const html = buildPage(lesson, lang);
+    const { out: html, negative } = buildPage(lesson, lang);
     const astro = buildAstro(lesson, lang);
+
+    if (review && lang === 'it' && negative.length) reviewNegative(lesson, negative);
 
     if (!dryRun) {
       mkdirSync(path.dirname(htmlFile), { recursive: true });
@@ -562,7 +675,25 @@ for (const lesson of Object.values(lessons)) {
   console.log('');
 }
 
-// --- indici del vocabolario: due schede nuove prima dei segnaposto «In preparazione» ---
+// --- la lezione «Le caratteristiche degli animali» della prima versione: via, con un redirect ---
+{
+  const target = lessons.personalita;
+  for (const lang of LANGS) {
+    const htmlFile = path.join(root, 'src/html', oldPath(lang));
+    const astroFile = path.join(root, 'src/pages', oldPath(lang) + '.astro');
+    const stubFile = path.join(root, 'public', oldPath(lang));
+    const to = `/${pagePath(target, lang)}`;
+    const stub = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${pageUrl(target, lang)}"><meta http-equiv="refresh" content="0;url=${to}"><title>Redirect | Italiano con Martin</title></head><body><p><a href="${to}">Continue</a></p></body></html>`;
+    if (!dryRun) {
+      for (const f of [htmlFile, astroFile]) if (existsSync(f)) unlinkSync(f);
+      mkdirSync(path.dirname(stubFile), { recursive: true });
+      writeFileSync(stubFile, stub);
+    }
+  }
+  console.log('Vecchia lezione «caratteristiche»: pagine tolte da src/, redirect in public/ verso la personalità.\n');
+}
+
+// --- indici del vocabolario: schede nuove prima dei segnaposto «In preparazione» ---
 for (const lang of LANGS) {
   const file = path.join(root, indexFile[lang]);
   let html = readFileSync(file, 'utf8');
@@ -570,6 +701,18 @@ for (const lang of LANGS) {
   if (!sample) throw new Error(`${lang}: nessuna scheda disponibile da cui copiare`);
   const status = /<span class="status">([^<]*)<\/span>/.exec(sample[0])[1];
   const assetPrefix = /src="([^"]*)\/vocabolario\//.exec(sample[0])[1];
+
+  // La scheda della prima versione della lezione sulle caratteristiche sparisce.
+  const oldCard = new RegExp(
+    `\\s*<a class="vocabulary-category" href="[^"]*${escapeRegex(oldTraitPages[lang].slug)}\\.html"[\\s\\S]*?</a>`
+  );
+  html = html.replace(oldCard, '');
+
+  // La scheda degli animali ora dice 100 parole.
+  const animalsCard = new RegExp(
+    `(<a class="vocabulary-category" href="[^"]*${escapeRegex(animalPages[lang].slug)}\\.html"[\\s\\S]*?<p>)[^<]*(</p>)`
+  );
+  html = html.replace(animalsCard, `$1${escapeHtml(animalPages[lang].cardText)}$2`);
 
   let added = 0;
   const cards = [];
@@ -585,14 +728,12 @@ for (const lang of LANGS) {
               </div></a>`);
     added += 1;
   }
-  if (!added) {
-    console.log(`indice ${lang}: gia' aggiornato`);
-    continue;
+  if (added) {
+    // Prima del primo segnaposto; se non ce ne sono piu', in fondo alla griglia.
+    const coming = html.indexOf('<article class="vocabulary-category coming">');
+    const insertAt = coming !== -1 ? coming : html.lastIndexOf('</div>', html.indexOf('vocabulary-note'));
+    html = html.slice(0, insertAt) + cards.join('\n            ') + '\n            ' + html.slice(insertAt);
   }
-  // Prima del primo segnaposto; se non ce ne sono piu', in fondo alla griglia.
-  const coming = html.indexOf('<article class="vocabulary-category coming">');
-  const insertAt = coming !== -1 ? coming : html.lastIndexOf('</div>', html.indexOf('vocabulary-note'));
-  html = html.slice(0, insertAt) + cards.join('\n            ') + '\n            ' + html.slice(insertAt);
   if (!dryRun) writeFileSync(file, html);
   console.log(`indice ${lang}: ${added} schede aggiunte`);
 }
@@ -602,6 +743,19 @@ for (const lang of LANGS) {
   const file = path.join(root, 'public/sitemap.xml');
   let xml = readFileSync(file, 'utf8');
   const esc = (t) => [...t].map((c) => (c.charCodeAt(0) < 128 ? c : `&#x${c.codePointAt(0).toString(16)};`)).join('');
+
+  // Via le righe della vecchia lezione.
+  let removed = 0;
+  for (const lang of LANGS) {
+    const loc = `<loc>${esc(oldUrl(lang))}</loc>`;
+    const before = xml.length;
+    xml = xml
+      .split('\n')
+      .filter((line) => !line.includes(loc))
+      .join('\n');
+    if (xml.length !== before) removed += 1;
+  }
+
   let added = 0;
   for (const lesson of Object.values(lessons)) {
     for (const lang of LANGS) {
@@ -616,14 +770,18 @@ for (const lang of LANGS) {
       added += 1;
     }
   }
-  if (!dryRun && added) writeFileSync(file, xml);
-  console.log(`\nsitemap: ${added} righe aggiunte`);
+  if (!dryRun) writeFileSync(file, xml);
+  console.log(`\nsitemap: ${added} righe aggiunte, ${removed} vecchie tolte`);
 }
 
-console.log('\nDa aggiungere a scripts/audit-vocabulary.mjs, dentro `routes`:\n');
+console.log('\nDa mettere in scripts/audit-vocabulary.mjs, dentro `routes`:\n');
 for (const lesson of Object.values(lessons)) {
   console.log(`  ${lesson.id}: {`);
   console.log(`    count: ${lesson.words.length},`);
+  if (lesson.kind === 'match') {
+    console.log(`    tests: 0,`);
+    console.log(`    match: { positive: ${matchItems(lesson).length}, negative: ${negativeItems(lesson).length} },`);
+  }
   for (const l of LANGS) console.log(`    ${l}: '${pagePath(lesson, l)}',`);
   console.log('  },');
 }

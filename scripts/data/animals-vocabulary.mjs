@@ -574,6 +574,672 @@ export const animalVocabulary = [
     ],
     'a cute garden snail with a spiral brown shell, two long eye stalks raised, glossy body'
   ),
+
+  // --- Altri 50 animali (2026-09-24), aggiunti per avere abbastanza risposte nelle lezioni
+  //     sulle caratteristiche e sui verbi. Stesso stampo dei primi 50, in coda cosi' i numeri
+  //     degli esercizi gia' fatti non cambiano. ---
+
+  // mammiferi
+  animal(
+    'castoro',
+    'il castoro',
+    ['Il castoro costruisce una diga.', 'Il castoro ha una coda larga e piatta.', 'Il castoro vive vicino al fiume.'],
+    ['Un castoro', 'A beaver', 'Un castor', 'Un castor', 'Bobr', 'Bóbr', 'Bir kunduz', 'Ein Biber', 'ビーバー'],
+    'a cute brown beaver sitting upright, big orange front teeth, flat scaly tail, holding a small stick'
+  ),
+  animal(
+    'talpa',
+    'la talpa',
+    ['La talpa vive sotto terra.', 'La talpa scava lunghe gallerie.', 'La talpa ha il pelo morbido.'],
+    ['Una talpa', 'A mole', 'Un topo', 'Une taupe', 'Krtek', 'Kret', 'Bir köstebek', 'Ein Maulwurf', 'モグラ'],
+    'a cute mole with velvety dark fur, pink pointed snout and large pink digging paws, standing'
+  ),
+  animal(
+    'riccio',
+    'il riccio',
+    ['Il riccio ha molte spine.', 'Il riccio si arrotola a palla.', 'Il riccio dorme in inverno.'],
+    ['Un riccio', 'A hedgehog', 'Un erizo', 'Un hérisson', 'Ježek', 'Jeż', 'Bir kirpi', 'Ein Igel', 'ハリネズミ'],
+    'a cute hedgehog seen from the side, back covered in brown spines, small pointed snout, bright eyes'
+  ),
+  animal(
+    'pipistrello',
+    'il pipistrello',
+    ['Il pipistrello vola di notte.', 'Il pipistrello dorme a testa in giù.', 'Il pipistrello è un mammifero.'],
+    [
+      'Un pipistrello',
+      'A bat',
+      'Un murciélago',
+      'Une chauve-souris',
+      'Netopýr',
+      'Nietoperz',
+      'Bir yarasa',
+      'Eine Fledermaus',
+      'コウモリ',
+    ],
+    'a cute small brown fruit bat with wings folded, big dark eyes and fluffy face, hanging upside down from a twig'
+  ),
+  animal(
+    'zebra',
+    'la zebra',
+    ['La zebra ha le strisce bianche e nere.', 'La zebra vive in Africa.', 'Le zebre corrono insieme.'],
+    ['Una zebra', 'A zebra', 'Una cebra', 'Un zèbre', 'Zebra', 'Zebra', 'Bir zebra', 'Ein Zebra', 'シマウマ'],
+    'a young zebra standing side view, bold black and white stripes, gentle eye, upright mane'
+  ),
+  animal(
+    'rinoceronte',
+    'il rinoceronte',
+    ['Il rinoceronte ha un corno sul naso.', 'Il rinoceronte è grosso e pesante.', 'Il rinoceronte vive in Africa.'],
+    [
+      'Un rinoceronte',
+      'A rhinoceros',
+      'Un rinoceronte',
+      'Un rhinocéros',
+      'Nosorožec',
+      'Nosorożec',
+      'Bir gergedan',
+      'Ein Nashorn',
+      'サイ',
+    ],
+    'a young white rhinoceros standing side view, thick grey skin, one big horn, calm small eye'
+  ),
+  animal(
+    'cammello',
+    'il cammello',
+    ['Il cammello vive nel deserto.', 'Il cammello ha la gobba sulla schiena.', 'Il cammello beve molta acqua.'],
+    ['Un cammello', 'A camel', 'Un camello', 'Un chameau', 'Velbloud', 'Wielbłąd', 'Bir deve', 'Ein Kamel', 'ラクダ'],
+    'a dromedary camel standing side view, one hump, long eyelashes, calm friendly face'
+  ),
+  animal(
+    'lama',
+    'il lama',
+    [
+      'Il lama vive sulle montagne del Sud America.',
+      'Il lama ha il pelo lungo e morbido.',
+      'Il lama sputa quando è arrabbiato.',
+    ],
+    ['Un lama', 'A llama', 'Una llama', 'Un lama', 'Lama', 'Lama', 'Bir lama', 'Ein Lama', 'ラマ'],
+    'a fluffy cream-coloured llama standing, long neck, big soft eyes, woolly coat, curious face'
+  ),
+  animal(
+    'koala',
+    'il koala',
+    ['Il koala vive in Australia.', 'Il koala dorme sull’albero.', 'Il koala mangia le foglie di eucalipto.'],
+    ['Un koala', 'A koala', 'Un koala', 'Un koala', 'Koala', 'Koala', 'Bir koala', 'Ein Koala', 'コアラ'],
+    'a cute grey koala sitting hugging a short eucalyptus branch, round fluffy ears, big black nose'
+  ),
+  animal(
+    'marmotta',
+    'la marmotta',
+    ['La marmotta vive in montagna.', 'La marmotta dorme tutto l’inverno.', 'La marmotta scava una tana.'],
+    [
+      'Una marmotta',
+      'A marmot',
+      'Una marmota',
+      'Une marmotte',
+      'Svišť',
+      'Świstak',
+      'Bir marmot',
+      'Ein Murmeltier',
+      'マーモット',
+    ],
+    'a chubby alpine marmot sitting upright, brown-grey fur, small round ears, alert cute face'
+  ),
+  animal(
+    'criceto',
+    'il criceto',
+    ['Il criceto corre nella ruota.', 'Il criceto ha le guance piene.', 'Il criceto mangia i semi.'],
+    [
+      'Un criceto',
+      'A hamster',
+      'Un hámster',
+      'Un hamster',
+      'Křeček',
+      'Chomik',
+      'Bir hamster',
+      'Ein Hamster',
+      'ハムスター',
+    ],
+    'a cute golden hamster sitting up holding a sunflower seed, chubby cheeks, tiny paws'
+  ),
+  animal(
+    'foca',
+    'la foca',
+    ['La foca nuota nell’acqua fredda.', 'La foca riposa sul ghiaccio.', 'La foca ha i baffi lunghi.'],
+    ['Una foca', 'A seal', 'Una foca', 'Un phoque', 'Tuleň', 'Foka', 'Bir fok', 'Eine Robbe', 'アザラシ'],
+    'a cute grey spotted seal resting on its belly with head raised, long whiskers, big round dark eyes'
+  ),
+  animal(
+    'lontra',
+    'la lontra',
+    ['La lontra nuota a pancia in su.', 'La lontra vive vicino al fiume.', 'La lontra gioca nell’acqua.'],
+    ['Una lontra', 'An otter', 'Una nutria', 'Une loutre', 'Vydra', 'Wydra', 'Bir su samuru', 'Ein Otter', 'カワウソ'],
+    'a cute river otter standing on its hind legs, sleek brown fur, long whiskers, playful face'
+  ),
+  animal(
+    'cervo',
+    'il cervo',
+    ['Il cervo ha grandi corna.', 'Il cervo vive nel bosco.', 'Il cervo corre veloce.'],
+    ['Un cervo', 'A deer', 'Un ciervo', 'Un cerf', 'Jelen', 'Jeleń', 'Bir geyik', 'Ein Hirsch', 'シカ'],
+    'a graceful red deer stag standing side view, branching antlers, gentle dark eye'
+  ),
+  animal(
+    'capra',
+    'la capra',
+    ['La capra sale sulle rocce.', 'La capra vive in montagna.', 'La capra mangia l’erba.'],
+    ['Una capra', 'A goat', 'Una cabra', 'Une chèvre', 'Koza', 'Koza', 'Bir keçi', 'Eine Ziege', 'ヤギ'],
+    'a cute white and brown goat standing, small curved horns, little beard, curious eyes'
+  ),
+  animal(
+    'iena',
+    'la iena',
+    ['La iena vive nella savana.', 'La iena fa un verso che sembra una risata.', 'Le iene vivono in gruppo.'],
+    ['Una iena', 'A hyena', 'Una hiena', 'Une hyène', 'Hyena', 'Hiena', 'Bir sırtlan', 'Eine Hyäne', 'ハイエナ'],
+    'a spotted hyena standing side view, sandy fur with dark spots, round ears, slightly smiling face'
+  ),
+  animal(
+    'leopardo',
+    'il leopardo',
+    ['Il leopardo ha il pelo a macchie.', 'Il leopardo sale sugli alberi.', 'Il leopardo vive in Africa e in Asia.'],
+    [
+      'Un leopardo',
+      'A leopard',
+      'Un leopardo',
+      'Un léopard',
+      'Levhart',
+      'Lampart',
+      'Bir leopar',
+      'Ein Leopard',
+      'ヒョウ',
+    ],
+    'a beautiful leopard standing side view, golden coat with black rosette spots, calm green eyes, the whole animal from nose to tail-tip small in the centre of the frame with wide empty white margins all around'
+  ),
+  animal(
+    'scimpanze',
+    'lo scimpanzé',
+    ['Lo scimpanzé è molto intelligente.', 'Lo scimpanzé usa i bastoni come attrezzi.', 'Lo scimpanzé vive in gruppo.'],
+    [
+      'Uno scimpanzé',
+      'A chimpanzee',
+      'Un chimpancé',
+      'Un chimpanzé',
+      'Šimpanz',
+      'Szympans',
+      'Bir şempanze',
+      'Ein Schimpanse',
+      'チンパンジー',
+    ],
+    'a young chimpanzee sitting, dark fur, pale expressive face, big rounded ears, thoughtful look'
+  ),
+  animal(
+    'formichiere',
+    'il formichiere',
+    [
+      'Il formichiere ha il naso lungo.',
+      'Il formichiere ha una lingua lunghissima.',
+      'Il formichiere vive in America del Sud.',
+    ],
+    [
+      'Un formichiere',
+      'An anteater',
+      'Un oso hormiguero',
+      'Un fourmilier',
+      'Mravenečník',
+      'Mrówkojad',
+      'Bir karıncayiyen',
+      'Ein Ameisenbär',
+      'アリクイ',
+    ],
+    'a giant anteater standing side view, long tubular snout, bushy tail, black and grey striped fur'
+  ),
+  animal(
+    'suricato',
+    'il suricato',
+    [
+      'Il suricato sta in piedi e guarda lontano.',
+      'I suricati vivono in gruppo.',
+      'Il suricato scava una tana nella sabbia.',
+    ],
+    [
+      'Un suricato',
+      'A meerkat',
+      'Un suricato',
+      'Un suricate',
+      'Surikata',
+      'Surykatka',
+      'Bir mirket',
+      'Ein Erdmännchen',
+      'ミーアキャット',
+    ],
+    'a cute meerkat standing upright on its hind legs, alert, dark eye patches, sandy fur'
+  ),
+  animal(
+    'cinghiale',
+    'il cinghiale',
+    ['Il cinghiale vive nel bosco.', 'Il cinghiale ha due zanne.', 'Il cinghiale è forte e veloce.'],
+    [
+      'Un cinghiale',
+      'A wild boar',
+      'Un jabalí',
+      'Un sanglier',
+      'Divoké prase',
+      'Dzik',
+      'Bir yaban domuzu',
+      'Ein Wildschwein',
+      'イノシシ',
+    ],
+    'a young wild boar standing side view, bristly dark brown fur, small tusks, curious face'
+  ),
+
+  // uccelli
+  animal(
+    'anatra',
+    'l’anatra',
+    ['L’anatra nuota nello stagno.', 'L’anatra ha le zampe palmate.', 'L’anatra fa qua qua.'],
+    ['Un’anatra', 'A duck', 'Un pato', 'Un canard', 'Kachna', 'Kaczka', 'Bir ördek', 'Eine Ente', 'アヒル'],
+    'a cute mallard duck standing, glossy green head, yellow bill, orange webbed feet'
+  ),
+  animal(
+    'gallina',
+    'la gallina',
+    ['La gallina vive nel pollaio.', 'La gallina razzola nel cortile.', 'La gallina ha le piume marroni.'],
+    ['Una gallina', 'A hen', 'Una gallina', 'Une poule', 'Slepice', 'Kura', 'Bir tavuk', 'Ein Huhn', 'ニワトリ'],
+    'a friendly brown hen standing, small red comb, fluffy brown feathers, round bright eye'
+  ),
+  animal(
+    'colomba',
+    'la colomba',
+    ['La colomba è il simbolo della pace.', 'La colomba vola sopra la piazza.', 'La colomba è bianca.'],
+    ['Una colomba', 'A dove', 'Una paloma', 'Une colombe', 'Holubice', 'Gołąb', 'Bir güvercin', 'Eine Taube', 'ハト'],
+    'a pure white dove standing, soft feathers, small pink feet, gentle dark eye'
+  ),
+  animal(
+    'rondine',
+    'la rondine',
+    ['La rondine arriva in primavera.', 'La rondine fa il nido sotto il tetto.', 'La rondine vola molto veloce.'],
+    [
+      'Una rondine',
+      'A swallow',
+      'Una golondrina',
+      'Une hirondelle',
+      'Vlaštovka',
+      'Jaskółka',
+      'Bir kırlangıç',
+      'Eine Schwalbe',
+      'ツバメ',
+    ],
+    'a barn swallow perched, glossy dark blue back, rusty red throat, long forked tail, small bright eye'
+  ),
+  animal(
+    'pellicano',
+    'il pellicano',
+    ['Il pellicano ha un becco enorme.', 'Il pellicano vive vicino al mare.', 'Il pellicano si tuffa in acqua.'],
+    [
+      'Un pellicano',
+      'A pelican',
+      'Un pelícano',
+      'Un pélican',
+      'Pelikán',
+      'Pelikan',
+      'Bir pelikan',
+      'Ein Pelikan',
+      'ペリカン',
+    ],
+    'a friendly white pelican standing, huge pale beak with a pouch, kind eye, empty beak'
+  ),
+  animal(
+    'fenicottero',
+    'il fenicottero',
+    ['Il fenicottero è rosa.', 'Il fenicottero sta su una zampa sola.', 'Il fenicottero vive nei laghi.'],
+    [
+      'Un fenicottero',
+      'A flamingo',
+      'Un flamenco',
+      'Un flamant rose',
+      'Plameňák',
+      'Flaming',
+      'Bir flamingo',
+      'Ein Flamingo',
+      'フラミンゴ',
+    ],
+    'a pink flamingo standing on one leg, long curved neck, bent black-tipped beak'
+  ),
+  animal(
+    'cicogna',
+    'la cicogna',
+    [
+      'La cicogna ha le zampe lunghe.',
+      'La cicogna fa il nido sul tetto.',
+      'La cicogna vola verso l’Africa in autunno.',
+    ],
+    ['Una cicogna', 'A stork', 'Una cigüeña', 'Une cigogne', 'Čáp', 'Bocian', 'Bir leylek', 'Ein Storch', 'コウノトリ'],
+    'a white stork standing, long red legs, long red beak, black wing feathers'
+  ),
+  animal(
+    'gabbiano',
+    'il gabbiano',
+    ['Il gabbiano vola sopra il mare.', 'Il gabbiano è bianco e grigio.', 'Il gabbiano grida forte.'],
+    ['Un gabbiano', 'A seagull', 'Una gaviota', 'Une mouette', 'Racek', 'Mewa', 'Bir martı', 'Eine Möwe', 'カモメ'],
+    'a seagull standing, white body, grey wings, yellow beak with a red spot, bright eye'
+  ),
+  animal(
+    'picchio',
+    'il picchio',
+    ['Il picchio batte sul tronco.', 'Il picchio ha un becco duro.', 'Il picchio vive nel bosco.'],
+    [
+      'Un picchio',
+      'A woodpecker',
+      'Un pájaro carpintero',
+      'Un pic',
+      'Datel',
+      'Dzięcioł',
+      'Bir ağaçkakan',
+      'Ein Specht',
+      'キツツキ',
+    ],
+    'a great spotted woodpecker clinging to a small tree trunk, black white and red feathers, strong beak'
+  ),
+  animal(
+    'colibri',
+    'il colibrì',
+    ['Il colibrì è piccolissimo.', 'Il colibrì vola davanti al fiore.', 'Il colibrì batte le ali velocissimo.'],
+    [
+      'Un colibrì',
+      'A hummingbird',
+      'Un colibrí',
+      'Un colibri',
+      'Kolibřík',
+      'Koliber',
+      'Bir sinekkuşu',
+      'Ein Kolibri',
+      'ハチドリ',
+    ],
+    'a tiny iridescent green hummingbird with long thin beak, hovering, wings slightly blurred'
+  ),
+  animal(
+    'usignolo',
+    'l’usignolo',
+    [
+      'L’usignolo canta di notte.',
+      'L’usignolo è un uccello piccolo e marrone.',
+      'Il canto dell’usignolo è bellissimo.',
+    ],
+    [
+      'Un usignolo',
+      'A nightingale',
+      'Un ruiseñor',
+      'Un rossignol',
+      'Slavík',
+      'Słowik',
+      'Bir bülbül',
+      'Eine Nachtigall',
+      'ナイチンゲール',
+    ],
+    'a small brown nightingale perched on a twig, beak open as if singing, round dark eye'
+  ),
+  animal(
+    'falco',
+    'il falco',
+    ['Il falco vola molto veloce.', 'Il falco ha gli occhi acuti.', 'Il falco vive sulle montagne.'],
+    ['Un falco', 'A falcon', 'Un halcón', 'Un faucon', 'Sokol', 'Sokół', 'Bir şahin', 'Ein Falke', 'ハヤブサ'],
+    'a peregrine falcon perched, slate-grey back, barred cream chest, sharp dark eye, proud stance'
+  ),
+  animal(
+    'tucano',
+    'il tucano',
+    [
+      'Il tucano ha un grande becco colorato.',
+      'Il tucano vive nella foresta tropicale.',
+      'Il tucano è nero, giallo e arancione.',
+    ],
+    ['Un tucano', 'A toucan', 'Un tucán', 'Un toucan', 'Tukan', 'Tukan', 'Bir tukan', 'Ein Tukan', 'オオハシ'],
+    'a toco toucan perched, huge orange beak, black body, white throat, blue eye ring'
+  ),
+
+  // rettili e anfibi
+  animal(
+    'cobra',
+    'il cobra',
+    ['Il cobra alza la testa e allarga il collo.', 'Il cobra è velenoso.', 'Il cobra vive in Asia e in Africa.'],
+    ['Un cobra', 'A cobra', 'Una cobra', 'Un cobra', 'Kobra', 'Kobra', 'Bir kobra', 'Eine Kobra', 'コブラ'],
+    'a king cobra coiled with its head raised and hood spread, calm, textured tan scales, mouth closed'
+  ),
+  animal(
+    'iguana',
+    'l’iguana',
+    ['L’iguana è verde.', 'L’iguana ha una lunga coda.', 'L’iguana vive nelle foreste calde.'],
+    ['Un’iguana', 'An iguana', 'Una iguana', 'Un iguane', 'Leguán', 'Legwan', 'Bir iguana', 'Ein Leguan', 'イグアナ'],
+    'a green iguana standing side view, spiny crest along the back, long banded tail, calm eye'
+  ),
+  animal(
+    'rospo',
+    'il rospo',
+    ['Il rospo ha la pelle rugosa.', 'Il rospo vive vicino all’acqua.', 'Il rospo esce di sera.'],
+    [
+      'Un rospo',
+      'A toad',
+      'Un sapo',
+      'Un crapaud',
+      'Ropucha',
+      'Ropucha',
+      'Bir kara kurbağası',
+      'Eine Kröte',
+      'ヒキガエル',
+    ],
+    'a brown warty toad sitting, golden eyes, bumpy skin, calm friendly expression'
+  ),
+  animal(
+    'drago-di-komodo',
+    'il drago di Komodo',
+    [
+      'Il drago di Komodo è una grande lucertola.',
+      'Il drago di Komodo vive in Indonesia.',
+      'Il drago di Komodo ha una lingua lunga.',
+    ],
+    [
+      'Un drago di Komodo',
+      'A Komodo dragon',
+      'Un dragón de Komodo',
+      'Un dragon de Komodo',
+      'Varan komodský',
+      'Waran z Komodo',
+      'Bir Komodo ejderi',
+      'Ein Komodowaran',
+      'コモドオオトカゲ',
+    ],
+    'a young Komodo dragon standing side view, rough grey-brown scaly skin, long tail, forked tongue slightly out, the whole animal from nose to tail-tip small in the centre of the frame with wide empty white margins all around'
+  ),
+
+  // animali del mare
+  animal(
+    'polpo',
+    'il polpo',
+    ['Il polpo ha otto braccia.', 'Il polpo cambia colore.', 'Il polpo vive sul fondo del mare.'],
+    [
+      'Un polpo',
+      'An octopus',
+      'Un pulpo',
+      'Une pieuvre',
+      'Chobotnice',
+      'Ośmiornica',
+      'Bir ahtapot',
+      'Ein Oktopus',
+      'タコ',
+    ],
+    'a cute orange-red octopus with eight curled arms, big intelligent eyes, rounded head'
+  ),
+  animal(
+    'medusa',
+    'la medusa',
+    ['La medusa è trasparente.', 'La medusa galleggia nell’acqua.', 'La medusa ha lunghi tentacoli.'],
+    [
+      'Una medusa',
+      'A jellyfish',
+      'Una medusa',
+      'Une méduse',
+      'Medúza',
+      'Meduza',
+      'Bir denizanası',
+      'Eine Qualle',
+      'クラゲ',
+    ],
+    'a translucent pale blue jellyfish with a rounded bell and long thin trailing tentacles'
+  ),
+  animal(
+    'granchio',
+    'il granchio',
+    ['Il granchio cammina di lato.', 'Il granchio ha due chele.', 'Il granchio vive sulla spiaggia.'],
+    ['Un granchio', 'A crab', 'Un cangrejo', 'Un crabe', 'Krab', 'Krab', 'Bir yengeç', 'Eine Krabbe', 'カニ'],
+    'a cute red-orange crab seen from above at an angle, two raised claws, eyes on stalks'
+  ),
+  animal(
+    'stella-marina',
+    'la stella marina',
+    [
+      'La stella marina ha cinque braccia.',
+      'La stella marina vive sul fondo del mare.',
+      'La stella marina è arancione.',
+    ],
+    [
+      'Una stella marina',
+      'A starfish',
+      'Una estrella de mar',
+      'Une étoile de mer',
+      'Hvězdice',
+      'Rozgwiazda',
+      'Bir deniz yıldızı',
+      'Ein Seestern',
+      'ヒトデ',
+    ],
+    'an orange starfish with five arms and a bumpy textured surface, seen from above'
+  ),
+  animal(
+    'orca',
+    'l’orca',
+    ['L’orca è bianca e nera.', 'L’orca vive nel mare.', 'L’orca è molto intelligente.'],
+    ['Un’orca', 'An orca', 'Una orca', 'Une orque', 'Kosatka', 'Orka', 'Bir orka', 'Ein Orca', 'シャチ'],
+    'a friendly orca killer whale seen from the side, glossy black and white body, tall dorsal fin, calm eye, the whole animal from nose to tail-tip small in the centre of the frame with wide empty white margins all around'
+  ),
+
+  // insetti e altri piccoli animali
+  animal(
+    'coccinella',
+    'la coccinella',
+    ['La coccinella è rossa con i puntini neri.', 'La coccinella è piccola.', 'La coccinella cammina sulla foglia.'],
+    [
+      'Una coccinella',
+      'A ladybird',
+      'Una mariquita',
+      'Une coccinelle',
+      'Beruška',
+      'Biedronka',
+      'Bir uğur böceği',
+      'Ein Marienkäfer',
+      'テントウムシ',
+    ],
+    'a shiny red ladybird with black spots seen from above, tiny black legs, macro photo'
+  ),
+  animal(
+    'libellula',
+    'la libellula',
+    ['La libellula ha quattro ali.', 'La libellula vola sopra l’acqua.', 'La libellula è blu e verde.'],
+    [
+      'Una libellula',
+      'A dragonfly',
+      'Una libélula',
+      'Une libellule',
+      'Vážka',
+      'Ważka',
+      'Bir yusufçuk',
+      'Eine Libelle',
+      'トンボ',
+    ],
+    'a blue-green dragonfly with four transparent veined wings spread, big compound eyes, macro photo, the whole animal from nose to tail-tip small in the centre of the frame with wide empty white margins all around'
+  ),
+  animal(
+    'cavalletta',
+    'la cavalletta',
+    ['La cavalletta salta nell’erba.', 'La cavalletta è verde.', 'La cavalletta ha le zampe lunghe.'],
+    [
+      'Una cavalletta',
+      'A grasshopper',
+      'Un saltamontes',
+      'Une sauterelle',
+      'Kobylka',
+      'Konik polny',
+      'Bir çekirge',
+      'Eine Heuschrecke',
+      'バッタ',
+    ],
+    'a bright green grasshopper seen from the side, long folded hind legs, long antennae, macro photo'
+  ),
+  animal(
+    'zanzara',
+    'la zanzara',
+    ['La zanzara punge di sera.', 'La zanzara ronza vicino all’orecchio.', 'La zanzara vive vicino all’acqua.'],
+    [
+      'Una zanzara',
+      'A mosquito',
+      'Un mosquito',
+      'Un moustique',
+      'Komár',
+      'Komar',
+      'Bir sivrisinek',
+      'Eine Mücke',
+      '蚊',
+    ],
+    'a mosquito seen from the side, thin long legs, slender body, delicate wings, macro photo, the whole animal from nose to tail-tip small in the centre of the frame with wide empty white margins all around'
+  ),
+  animal(
+    'lucciola',
+    'la lucciola',
+    ['La lucciola brilla nel buio.', 'Le lucciole escono d’estate.', 'La lucciola è un piccolo insetto.'],
+    [
+      'Una lucciola',
+      'A firefly',
+      'Una luciérnaga',
+      'Une luciole',
+      'Světluška',
+      'Świetlik',
+      'Bir ateş böceği',
+      'Ein Glühwürmchen',
+      'ホタル',
+    ],
+    'a firefly beetle seen from the side, dark body with an orange head shield, softly glowing yellow-green tail, macro photo'
+  ),
+  animal(
+    'scorpione',
+    'lo scorpione',
+    ['Lo scorpione ha una coda con il pungiglione.', 'Lo scorpione vive nel deserto.', 'Lo scorpione ha due chele.'],
+    [
+      'Uno scorpione',
+      'A scorpion',
+      'Un escorpión',
+      'Un scorpion',
+      'Štír',
+      'Skorpion',
+      'Bir akrep',
+      'Ein Skorpion',
+      'サソリ',
+    ],
+    'a small tan scorpion seen from above at an angle, two claws, curved tail raised, macro photo'
+  ),
+  animal(
+    'bruco',
+    'il bruco',
+    ['Il bruco mangia le foglie.', 'Il bruco diventa una farfalla.', 'Il bruco è lungo e morbido.'],
+    [
+      'Un bruco',
+      'A caterpillar',
+      'Una oruga',
+      'Une chenille',
+      'Housenka',
+      'Gąsienica',
+      'Bir tırtıl',
+      'Eine Raupe',
+      'イモムシ',
+    ],
+    'a chubby green caterpillar with yellow stripes and tiny legs crawling on a leaf, macro photo'
+  ),
 ];
 
 // Le frasi da tradurre: la lingua di partenza e' quella del visitatore

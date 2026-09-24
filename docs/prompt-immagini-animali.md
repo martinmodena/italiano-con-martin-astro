@@ -1,6 +1,6 @@
-# Immagini delle lezioni «Gli animali» e «Le caratteristiche degli animali»
+# Immagini delle lezioni sugli animali
 
-Due lezioni di vocabolario del 2026-09-24: 50 animali e 50 aggettivi per descriverli. Ogni parola ha una foto, più una testata per lezione.
+Quattro lezioni di vocabolario del 2026-09-24: «Gli animali» (100 animali), «Le caratteristiche fisiche degli animali» (32 aggettivi), «La personalità degli animali» (35 aggettivi) e «I verbi degli animali» (91 verbi). Ogni parola ha una foto, più una testata per lezione (la personalità riusa quella della prima versione, «caratteristiche-animali-hero.webp»). Per i verbi la foto è un animale che compie l'azione.
 
 ## Regole (Martin, 2026-09-24)
 
@@ -14,12 +14,16 @@ Due lezioni di vocabolario del 2026-09-24: 50 animali e 50 aggettivi per descriv
 ```bash
 node scripts/generate-animal-images.mjs --set animali --out-dir <grezze>
 node scripts/generate-animal-images.mjs --set caratteristiche --out-dir <grezze>
-python scripts/remove-white-background.py <grezze> <pulite>
+node scripts/generate-animal-images.mjs --set verbi --out-dir <grezze>
+python scripts/remove-white-background.py <grezze> <pulite> --whiten=<soggetti-bianchi>
+node scripts/convert-vocabulary-images.mjs <pulite> --subdir animali|caratteristiche|verbi
 ```
 
-Poi si copiano in `public/assets/vocabolario/animali/` e `public/assets/vocabolario/caratteristiche/` convertendole in webp 512×512 (`scripts/convert-vocabulary-images.mjs`, che usa la sottocartella indicata nello slug).
+Lo script salta le immagini che esistono già in `public/assets/vocabolario/<sottocartella>/`, quindi rilanciarlo genera solo quelle che mancano. Il prompt di stile comune sta in `scripts/generate-animal-images.mjs` (costante `STYLE`); il soggetto di ogni immagine sta nel campo `subject` di `scripts/data/animals-vocabulary.mjs`, `traits-vocabulary.mjs` (i 17 aggettivi fisici nuovi; gli altri sono in `traits-base.mjs`) e `verbs-vocabulary.mjs`.
 
-Il prompt di stile comune sta in `scripts/generate-animal-images.mjs` (costante `STYLE`); il soggetto di ogni immagine sta nel campo `subject` di `scripts/data/animals-vocabulary.mjs` e `scripts/data/traits-vocabulary.mjs`.
+**Soggetti bianchi o trasparenti** (cigno, pecora, colomba, pellicano, cicogna, gabbiano, capra, lama, medusa; per i verbi «tubare», «tuffarsi», «librarsi») vanno con `--whiten=slug1,slug2`, altrimenti il ritaglio a colore si mangia il soggetto. Le foto vanno guardate a occhio con un foglio di contatto: alcune escono tagliate ai bordi (leopardo, drago di Komodo, libellula, orca, zanzara sono state rifatte aggiungendo «the whole animal small in the centre of the frame with wide empty white margins» al soggetto).
+
+**Verbi e regola «niente carne»:** «cacciare» è una leonessa acquattata nell'erba senza preda; «tuffarsi» un pellicano senza pesce; «covare» una gallina sul nido senza uova in vista; «brillare» una lucciola; «allattare» una gatta con i gattini (non una mucca: i latticini).
 
 ## Testata «Gli animali» (`animali-hero.webp`)
 
@@ -45,3 +49,32 @@ flower and a brave lion cub standing tall on a rock. Realistic anatomy with ende
 proportions and expressive faces. Soft blue sky with light clouds. No text, no people,
 no meat, no food, no eggs. 3:2 landscape composition.
 ```
+
+## Testata «Le caratteristiche fisiche degli animali» (`caratteristiche-fisiche-hero.webp`)
+
+```
+A charming soft storybook illustration in warm pastel gouache and watercolor, painterly
+rendering with NO black outlines, gentle airy colours. A sunny green meadow with rolling
+hills where animals show off their bodies: a very tall giraffe standing next to a big grey
+elephant, a tiny mouse sitting beside a large flower, a black and white striped zebra, a
+small spiny hedgehog, a colourful parrot on a branch and a fluffy woolly sheep. Realistic
+anatomy with endearing proportions and friendly expressions. Soft blue sky with light
+clouds. No text, no people, no meat, no food, no eggs. 3:2 landscape composition.
+```
+
+Generata con `--slug vocabolario/caratteristiche-fisiche-hero --hero-width 1280 --hero-height 853 --aspect-ratio 3:2 --no-card --prompt "..."` ($0,13).
+
+## Testata «I verbi degli animali» (`verbi-animali-hero.webp`)
+
+```
+A charming soft storybook illustration in warm pastel gouache and watercolor, painterly
+rendering with NO black outlines, gentle airy colours. A sunny green meadow with a small
+stream and a pond where animals are busy doing things: a beaver building a small dam of
+sticks at the edge of the stream, an eagle soaring high in the sky, a line of ants carrying
+big green leaves, a kangaroo hopping across the grass, a monkey climbing a tree, a spider on
+its web between two branches and a duck swimming on the pond. Realistic anatomy with
+endearing proportions and lively expressions. Soft blue sky with light clouds. No text, no
+people, no meat, no food, no eggs. 3:2 landscape composition.
+```
+
+Stessa riga di comando ($0,13). Nel testo alternativo della testata c'è l'anatra, non il delfino: nello stagno un delfino non ci sta.
