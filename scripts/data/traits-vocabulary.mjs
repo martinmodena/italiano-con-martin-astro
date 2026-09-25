@@ -1,17 +1,20 @@
-// Le due lezioni sugli aggettivi degli animali (2026-09-24):
+// Le due lezioni sugli aggettivi degli animali (2026-09-24, rifatte il 2026-09-25):
 //
-//   - «Le caratteristiche fisiche degli animali»  (physicalTraits, 32 aggettivi)
-//     corpo, dimensioni, movimento, suoni, pelle e pelo: 15 dei 50 aggettivi della prima versione
-//     (veloce, lento, forte, grande, piccolo, alto, pesante, leggero, sporco, pulito, velenoso,
-//     elegante, goffo, rumoroso, silenzioso) piu' 17 nuovi;
-//   - «La personalita' degli animali»             (personalityTraits, 35 aggettivi)
-//     carattere e comportamento: tutti gli altri aggettivi della prima versione.
+//   - «Le caratteristiche fisiche degli animali»  (physicalTraits, 50 aggettivi)
+//     dimensioni, forza, corpo e pelo, aspetto, pulizia, come si sta (stanco, affamato, malato...);
+//   - «La personalita' degli animali»             (personalityTraits, 62 aggettivi)
+//     carattere e stati d'animo (buono, generoso, triste, arrabbiato...).
 //
-// Le voci originali e gli attrezzi (`trait`, `tr`) stanno in traits-base.mjs. Qui ci sono:
-//   - i 17 aggettivi fisici nuovi;
+// Dal 2026-09-25 le due lezioni tengono solo aggettivi utili anche per le persone e per le cose di
+// ogni giorno: gli animali sono il mezzo simpatico per ricordarli. Sono stati tolti gli aggettivi
+// che valgono solo per gli animali (spinoso, squamoso, piumato, striato, maculato, domestico).
+//
+// Le voci della prima versione e gli attrezzi (`trait`, `tr`) stanno in traits-base.mjs, gli
+// aggettivi aggiunti il 2026-09-25 in traits-everyday.mjs. Qui ci sono:
+//   - 17 aggettivi fisici della seconda versione (newPhysical, di cui 5 tolti);
 //   - le risposte (`matches`, `never`) aggiunte per i 50 animali nuovi (animals-vocabulary.mjs):
 //     ogni voce vecchia riceve i nuovi animali che le si adattano;
-//   - la divisione in due lezioni e le frasi da tradurre di ciascuna.
+//   - l'ordine delle due lezioni e le frasi da tradurre di ciascuna.
 //
 // Come si leggono `matches` e `never` (vale anche per i verbi):
 //   matches   animali a cui la caratteristica SI PUO' attribuire; per l'esercizio positivo basta
@@ -21,6 +24,7 @@
 //             script mette per prime nelle barre della forma negativa.
 
 import { trait, tr, baseTraits, baseTranslationExercises } from './traits-base.mjs';
+import { everydayPhysical, everydayPersonality } from './traits-everyday.mjs';
 import { animalVocabulary } from './animals-vocabulary.mjs';
 
 // --- i 17 aggettivi fisici nuovi ------------------------------------------------
@@ -256,109 +260,6 @@ const newPhysical = [
     ]
   ),
   trait(
-    'spinoso',
-    'spinoso / spinosa',
-    'Ha spine appuntite sul corpo.',
-    ['spiny', 'espinoso', 'épineux', 'ostnatý', 'kolczasty', 'dikenli', 'stachelig', 'とげのある'],
-    ['Il riccio è spinoso.', 'La rosa ha un gambo spinoso.', 'Attenzione, il cactus è spinoso!'],
-    'a cute hedgehog seen from the side, its back covered in sharp brown spines, small pointed snout',
-    ['riccio', 'iguana', 'bruco']
-  ),
-  trait(
-    'squamoso',
-    'squamoso / squamosa',
-    'Ha il corpo coperto di squame.',
-    ['scaly', 'escamoso', 'écailleux', 'šupinatý', 'łuskowaty', 'pullu', 'schuppig', 'うろこのある'],
-    ['Il serpente è squamoso.', 'Il pesce ha la pelle squamosa.', 'Ho la pelle secca e squamosa.'],
-    'a shimmering gold and silver carp seen from the side showing large overlapping scales',
-    [
-      'serpente',
-      'cobra',
-      'coccodrillo',
-      'tartaruga',
-      'lucertola',
-      'camaleonte',
-      'iguana',
-      'drago-di-komodo',
-      'squalo',
-      'pesce-pagliaccio',
-      'pesce-rosso',
-      'cavalluccio-marino',
-      'farfalla',
-    ],
-    [
-      'cane',
-      'gatto',
-      'cavallo',
-      'mucca',
-      'pecora',
-      'coniglio',
-      'topo',
-      'elefante',
-      'leone',
-      'gorilla',
-      'orso',
-      'lupo',
-      'volpe',
-      'lumaca',
-      'ragno',
-      'pinguino',
-    ]
-  ),
-  trait(
-    'piumato',
-    'piumato / piumata',
-    'Ha il corpo coperto di piume.',
-    ['feathered', 'emplumado', 'à plumes', 'opeřený', 'pierzasty', 'tüy kaplı', 'gefiedert', '羽毛のある'],
-    ['Il pappagallo è un animale piumato.', 'Il pavone ha la coda piumata.', 'Gli uccelli hanno il corpo piumato.'],
-    'a fluffy young swan cygnet covered in soft grey feathers, standing, sweet face',
-    [
-      'aquila',
-      'gufo',
-      'pappagallo',
-      'pinguino',
-      'cigno',
-      'pavone',
-      'gallo',
-      'corvo',
-      'struzzo',
-      'anatra',
-      'gallina',
-      'colomba',
-      'rondine',
-      'pellicano',
-      'fenicottero',
-      'cicogna',
-      'gabbiano',
-      'picchio',
-      'colibri',
-      'usignolo',
-      'falco',
-      'tucano',
-    ],
-    [
-      'cane',
-      'gatto',
-      'cavallo',
-      'mucca',
-      'maiale',
-      'pecora',
-      'coniglio',
-      'topo',
-      'leone',
-      'tigre',
-      'elefante',
-      'delfino',
-      'balena',
-      'serpente',
-      'coccodrillo',
-      'rana',
-      'squalo',
-      'ragno',
-      'lumaca',
-    ]
-  ),
-  trait(
     'duro',
     'duro / dura',
     'Non si piega e non si rompe facilmente.',
@@ -379,24 +280,6 @@ const newPhysical = [
     ],
     'a slippery little green frog with glistening wet skin sitting on a wet rock',
     ['lumaca', 'rana', 'rospo', 'pesce-rosso', 'pesce-pagliaccio', 'polpo', 'medusa', 'foca', 'lontra']
-  ),
-  trait(
-    'striato',
-    'striato / striata',
-    'Ha righe di colori diversi.',
-    ['striped', 'rayado', 'rayé', 'pruhovaný', 'pasiasty', 'çizgili', 'gestreift', '縞模様の'],
-    ['La zebra è striata.', 'La tigre ha il pelo striato.', 'Porto una camicia striata.'],
-    'a zebra standing side view with bold black and white stripes, gentle eyes',
-    ['zebra', 'tigre', 'pesce-pagliaccio', 'ape', 'suricato', 'formichiere']
-  ),
-  trait(
-    'maculato',
-    'maculato / maculata',
-    'Ha macchie sul corpo.',
-    ['spotted', 'manchado', 'tacheté', 'skvrnitý', 'cętkowany', 'benekli', 'gefleckt', 'まだらの'],
-    ['Il ghepardo è maculato.', 'La giraffa ha il pelo maculato.', 'La mucca maculata mangia l’erba.'],
-    'a leopard standing in dappled light with clearly visible black rosette spots on golden fur, side view',
-    ['ghepardo', 'leopardo', 'giraffa', 'iena', 'coccinella', 'mucca', 'cane', 'rana', 'farfalla', 'foca']
   ),
   trait(
     'colorato',
@@ -754,7 +637,6 @@ const moreMatches = {
     'anatra',
     'colomba',
   ],
-  domestico: ['criceto', 'capra', 'anatra', 'gallina', 'cammello', 'lama', 'colomba'],
   pacifico: [
     'koala',
     'lama',
@@ -814,7 +696,6 @@ const moreNever = {
   rumoroso: ['talpa', 'medusa', 'stella-marina', 'coccinella', 'libellula', 'lucciola'],
   silenzioso: ['iena', 'cinghiale', 'rospo', 'capra'],
   coraggioso: ['criceto'],
-  domestico: ['leopardo', 'rinoceronte', 'orca', 'cobra', 'scorpione', 'iena', 'zebra', 'drago-di-komodo'],
   pacifico: ['leopardo', 'cobra', 'scorpione', 'iena', 'cinghiale'],
 };
 
@@ -841,17 +722,15 @@ const reviewedMatches = {
 
 const merge = (list, extra = []) => [...new Set([...list, ...extra])];
 
-const everyTrait = [...baseTraits, ...newPhysical].map((t) => ({
+const everyTrait = [...baseTraits, ...newPhysical, ...everydayPhysical, ...everydayPersonality].map((t) => ({
   ...t,
   matches: merge(t.matches, [...(moreMatches[t.slug] ?? []), ...(reviewedMatches[t.slug] ?? [])]),
   never: merge(t.never, moreNever[t.slug]),
 }));
 
-// «Domestico» e «selvaggio» sono uno il contrario dell'altro: se le due liste si scrivono a mano
-// restano buchi (l'ape, il bradipo o il pavone sarebbero risultati «non selvaggi»). Si scrive solo la
-// lista degli animali che si tengono in casa o in cortile, e «selvaggio» e' tutto il resto.
-// Gli animali che stanno da tutte e due le parti (pappagallo, capra, anatra...) sono in tutte e due
-// le liste: nella forma negativa non sono mai una risposta giusta.
+// «Selvaggio» e' l'opposto di chi si tiene in casa o in cortile. Se la lista si scrivesse a mano
+// resterebbero buchi (l'ape, il bradipo o il pavone sarebbero risultati «non selvaggi»): si scrive
+// solo la lista degli animali chiaramente domestici, e «selvaggio» e' tutto il resto.
 const clearlyDomestic = [
   'cane',
   'gatto',
@@ -866,9 +745,7 @@ const clearlyDomestic = [
   'pesce-rosso',
   'criceto',
 ];
-const bothWays = ['capra', 'anatra', 'colomba', 'cammello', 'lama', 'pappagallo', 'topo', 'pavone', 'ape', 'tartaruga'];
 for (const t of everyTrait) {
-  if (t.slug === 'domestico') t.matches = merge(clearlyDomestic, bothWays);
   if (t.slug === 'selvaggio') {
     t.matches = animalVocabulary.map((a) => a.slug).filter((slug) => !clearlyDomestic.includes(slug));
     t.never = clearlyDomestic.filter((slug) => !t.matches.includes(slug));
@@ -877,50 +754,151 @@ for (const t of everyTrait) {
 const bySlug = new Map(everyTrait.map((t) => [t.slug, t]));
 
 // --- le due lezioni -----------------------------------------------------------------
+// Dal 2026-09-25 tengono solo aggettivi utili anche per le persone e per le cose di ogni giorno.
 
 /** L'ordine in cui compaiono gli aggettivi fisici nella pagina. */
 const PHYSICAL_ORDER = [
+  // dimensioni e forma
   'grande',
   'piccolo',
   'alto',
+  'basso',
   'lungo',
+  'largo',
+  'stretto',
+  'rotondo',
   'pesante',
   'leggero',
+  // movimento e forza
   'veloce',
   'lento',
   'agile',
-  'forte',
   'goffo',
-  'elegante',
+  'forte',
+  'debole',
+  'muscoloso',
+  // corpo, pelle e pelo
   'magro',
   'grasso',
   'peloso',
+  'riccio',
   'morbido',
   'liscio',
-  'spinoso',
-  'squamoso',
-  'piumato',
+  'ruvido',
   'duro',
   'scivoloso',
-  'striato',
-  'maculato',
+  'affilato',
+  // aspetto
+  'elegante',
+  'bello',
+  'buffo',
   'colorato',
   'trasparente',
-  'affilato',
-  'velenoso',
+  'giovane',
+  'vecchio',
+  // suoni, pulizia, acqua
   'rumoroso',
   'silenzioso',
   'sporco',
   'pulito',
+  'bagnato',
+  'asciutto',
+  'velenoso',
+  // come si sta
+  'stanco',
+  'affamato',
+  'assetato',
+  'freddo',
+  'caldo',
+  'sveglio',
+  'addormentato',
+  'sano',
+  'malato',
 ];
 
-export const physicalTraits = PHYSICAL_ORDER.map((slug) => {
-  const t = bySlug.get(slug);
-  if (!t) throw new Error(`aggettivo fisico sconosciuto: ${slug}`);
-  return t;
-});
-const physicalSet = new Set(PHYSICAL_ORDER);
-export const personalityTraits = baseTraits.filter((t) => !physicalSet.has(t.slug)).map((t) => bySlug.get(t.slug));
+/** L'ordine in cui compaiono gli aggettivi di carattere: prima quelli gia' presenti, poi i nuovi. */
+const PERSONALITY_ORDER = [
+  'pigro',
+  'laborioso',
+  'energico',
+  'vivace',
+  'sonnolento',
+  'vanitoso',
+  'orgoglioso',
+  'coraggioso',
+  'pauroso',
+  'timido',
+  'curioso',
+  'furbo',
+  'saggio',
+  'intelligente',
+  'goloso',
+  'testardo',
+  'paziente',
+  'tranquillo',
+  'allegro',
+  'geloso',
+  'romantico',
+  'amichevole',
+  'socievole',
+  'solitario',
+  'indipendente',
+  'gentile',
+  'dolce',
+  'affettuoso',
+  'fedele',
+  'protettivo',
+  'pacifico',
+  'aggressivo',
+  'pericoloso',
+  'selvaggio',
+  // aggiunti il 2026-09-25: carattere e stati d'animo di tutti i giorni
+  'buono',
+  'cattivo',
+  'generoso',
+  'egoista',
+  'avaro',
+  'onesto',
+  'educato',
+  'maleducato',
+  'simpatico',
+  'antipatico',
+  'divertente',
+  'chiacchierone',
+  'ubbidiente',
+  'ribelle',
+  'ordinato',
+  'disordinato',
+  'distratto',
+  'attento',
+  'sensibile',
+  'permaloso',
+  'ottimista',
+  'pessimista',
+  'felice',
+  'triste',
+  'arrabbiato',
+  'nervoso',
+  'annoiato',
+  'sorpreso',
+];
+
+const ordered = (slugs) =>
+  slugs.map((slug) => {
+    const t = bySlug.get(slug);
+    if (!t) throw new Error(`aggettivo sconosciuto: ${slug}`);
+    return t;
+  });
+
+export const physicalTraits = ordered(PHYSICAL_ORDER);
+export const personalityTraits = ordered(PERSONALITY_ORDER);
+
+// Ogni aggettivo definito deve stare in una lezione (o va tolto dai dati).
+{
+  const listed = new Set([...PHYSICAL_ORDER, ...PERSONALITY_ORDER]);
+  const orphans = everyTrait.filter((t) => !listed.has(t.slug)).map((t) => t.slug);
+  if (orphans.length) throw new Error(`aggettivi definiti ma non in nessuna lezione: ${orphans.join(', ')}`);
+}
 
 /** Tutti gli aggettivi (le foto si generano da qui). */
 export const traitVocabulary = [...physicalTraits, ...personalityTraits];
@@ -937,30 +915,39 @@ const fromBase = (solution) => {
 export const physicalTranslationExercises = [
   fromBase('La lumaca è lenta.'),
   fromBase('La giraffa è molto alta.'),
-  fromBase('Il ghepardo è un animale molto veloce.'),
-  fromBase('Alcuni serpenti sono velenosi.'),
-  fromBase('Il pinguino è goffo sulla terra, ma nuota bene.'),
   tr(
-    'Il riccio è piccolo e spinoso.',
-    'The hedgehog is small and spiny.',
-    'El erizo es pequeño y espinoso.',
-    'Le hérisson est petit et épineux.',
-    'Ježek je malý a ostnatý.',
-    'Jeż jest mały i kolczasty.',
-    'Kirpi küçük ve dikenlidir.',
-    'Der Igel ist klein und stachelig.',
-    'ハリネズミは小さくて、とげがあります。'
+    'Mio nonno è vecchio, ma è ancora forte.',
+    'My grandfather is old, but he is still strong.',
+    'Mi abuelo es viejo, pero todavía es fuerte.',
+    'Mon grand-père est vieux, mais il est encore fort.',
+    'Můj dědeček je starý, ale je pořád silný.',
+    'Mój dziadek jest stary, ale nadal jest silny.',
+    'Büyükbabam yaşlı ama hâlâ güçlü.',
+    'Mein Opa ist alt, aber er ist noch stark.',
+    '祖父は年老いていますが、まだ力強いです。'
+  ),
+  fromBase('Il ghepardo è un animale molto veloce.'),
+  tr(
+    'La mia amica è bassa e magra.',
+    'My friend is short and thin.',
+    'Mi amiga es baja y delgada.',
+    'Mon amie est petite et mince.',
+    'Moje kamarádka je nízká a hubená.',
+    'Moja przyjaciółka jest niska i szczupła.',
+    'Arkadaşım kısa boylu ve zayıf.',
+    'Meine Freundin ist klein und dünn.',
+    '私の友だちは背が低くて痩せています。'
   ),
   tr(
-    'La zebra ha il pelo striato.',
-    'The zebra has a striped coat.',
-    'La cebra tiene el pelaje rayado.',
-    'Le zèbre a le pelage rayé.',
-    'Zebra má pruhovanou srst.',
-    'Zebra ma pasiastą sierść.',
-    'Zebranın tüyleri çizgilidir.',
-    'Das Zebra hat ein gestreiftes Fell.',
-    'シマウマは縞模様の毛皮をしています。'
+    'Ho i capelli lunghi e ricci.',
+    'I have long, curly hair.',
+    'Tengo el pelo largo y rizado.',
+    'J’ai les cheveux longs et bouclés.',
+    'Mám dlouhé kudrnaté vlasy.',
+    'Mam długie, kręcone włosy.',
+    'Uzun ve kıvırcık saçlarım var.',
+    'Ich habe lange, lockige Haare.',
+    '私は髪が長くて、巻き毛です。'
   ),
   tr(
     'Il gatto è agile e silenzioso.',
@@ -972,6 +959,28 @@ export const physicalTranslationExercises = [
     'Kedi çevik ve sessizdir.',
     'Die Katze ist wendig und leise.',
     '猫は身軽で、音を立てません。'
+  ),
+  tr(
+    'Dopo la corsa sono stanco e assetato.',
+    'After the run I am tired and thirsty.',
+    'Después de correr estoy cansado y sediento.',
+    'Après la course, je suis fatigué et assoiffé.',
+    'Po běhu jsem unavený a žíznivý.',
+    'Po biegu jestem zmęczony i spragniony.',
+    'Koşudan sonra yorgunum ve susadım.',
+    'Nach dem Lauf bin ich müde und durstig.',
+    '走ったあとで、疲れて喉が渇いています。'
+  ),
+  tr(
+    'Il cane è tutto bagnato: ha fatto il bagno nel lago.',
+    'The dog is all wet: he swam in the lake.',
+    'El perro está todo mojado: se ha bañado en el lago.',
+    'Le chien est tout mouillé : il s’est baigné dans le lac.',
+    'Pes je celý mokrý: koupal se v jezeře.',
+    'Pies jest cały mokry: kąpał się w jeziorze.',
+    'Köpek baştan aşağı ıslak: gölde yüzdü.',
+    'Der Hund ist ganz nass: Er hat im See gebadet.',
+    '犬は全身びしょ濡れです。湖で泳いだのです。'
   ),
   tr(
     'Il pappagallo è molto colorato.',
@@ -994,6 +1003,17 @@ export const physicalTranslationExercises = [
     'Denizanası şeffaftır.',
     'Die Qualle ist durchsichtig.',
     'クラゲは透明です。'
+  ),
+  tr(
+    'Il gattino è malato: non vuole mangiare.',
+    'The kitten is sick: it doesn’t want to eat.',
+    'El gatito está enfermo: no quiere comer.',
+    'Le chaton est malade : il ne veut pas manger.',
+    'Kotě je nemocné: nechce jíst.',
+    'Kotek jest chory: nie chce jeść.',
+    'Yavru kedi hasta: yemek yemek istemiyor.',
+    'Das Kätzchen ist krank: Es will nicht fressen.',
+    '子猫は病気で、食べようとしません。'
   ),
   tr(
     'L’elefante è grande e pesante.',
@@ -1022,11 +1042,8 @@ export const physicalTranslationExercises = [
 export const personalityTranslationExercises = [
   fromBase('La formica è molto laboriosa.'),
   fromBase('Il leone è un animale coraggioso.'),
-  fromBase('Il gufo è un animale saggio.'),
   fromBase('Il cane è un amico fedele.'),
-  fromBase('Il pavone è vanitoso e mostra la coda.'),
   fromBase('Il gatto è curioso: guarda dappertutto.'),
-  fromBase('Il panda è dolce e tranquillo.'),
   tr(
     'Il coniglio è timido e pauroso.',
     'The rabbit is shy and fearful.',
@@ -1037,6 +1054,28 @@ export const personalityTranslationExercises = [
     'Tavşan utangaç ve korkaktır.',
     'Das Kaninchen ist schüchtern und ängstlich.',
     'ウサギは内気で臆病です。'
+  ),
+  tr(
+    'Mia nonna è generosa: dà sempre qualcosa ai nipoti.',
+    'My grandmother is generous: she always gives something to her grandchildren.',
+    'Mi abuela es generosa: siempre da algo a sus nietos.',
+    'Ma grand-mère est généreuse : elle donne toujours quelque chose à ses petits-enfants.',
+    'Moje babička je štědrá: vždycky něco dává vnoučatům.',
+    'Moja babcia jest hojna: zawsze coś daje wnukom.',
+    'Büyükannem cömerttir: torunlarına her zaman bir şey verir.',
+    'Meine Oma ist großzügig: Sie gibt ihren Enkeln immer etwas.',
+    '祖母は気前がよくて、いつも孫に何かをあげます。'
+  ),
+  tr(
+    'Oggi sono triste, ma il mio cane mi rende felice.',
+    'Today I am sad, but my dog makes me happy.',
+    'Hoy estoy triste, pero mi perro me hace feliz.',
+    'Aujourd’hui je suis triste, mais mon chien me rend heureux.',
+    'Dnes jsem smutný, ale můj pes mě činí šťastným.',
+    'Dziś jestem smutny, ale mój pies sprawia, że jestem szczęśliwy.',
+    'Bugün üzgünüm ama köpeğim beni mutlu ediyor.',
+    'Heute bin ich traurig, aber mein Hund macht mich glücklich.',
+    '今日は悲しいですが、犬のおかげで幸せです。'
   ),
   tr(
     'L’asino è testardo, ma è molto paziente.',
@@ -1050,6 +1089,17 @@ export const personalityTranslationExercises = [
     'ロバは頑固ですが、とても忍耐強いです。'
   ),
   tr(
+    'Il mio collega è educato, ma il suo amico è maleducato.',
+    'My colleague is polite, but his friend is rude.',
+    'Mi compañero de trabajo es educado, pero su amigo es maleducado.',
+    'Mon collègue est poli, mais son ami est impoli.',
+    'Můj kolega je slušný, ale jeho kamarád je nezdvořilý.',
+    'Mój kolega z pracy jest uprzejmy, ale jego przyjaciel jest niegrzeczny.',
+    'İş arkadaşım kibar ama arkadaşı terbiyesiz.',
+    'Mein Kollege ist höflich, aber sein Freund ist unhöflich.',
+    '同僚は礼儀正しいですが、その友だちは無作法です。'
+  ),
+  tr(
     'La volpe è furba e indipendente.',
     'The fox is cunning and independent.',
     'El zorro es astuto e independiente.',
@@ -1061,6 +1111,28 @@ export const personalityTranslationExercises = [
     'キツネはずる賢くて、独立心が強いです。'
   ),
   tr(
+    'Sei troppo distratto: non ascolti mai!',
+    'You are too distracted: you never listen!',
+    'Estás demasiado distraído: ¡nunca escuchas!',
+    'Tu es trop distrait : tu n’écoutes jamais !',
+    'Jsi příliš roztržitý: nikdy neposloucháš!',
+    'Jesteś zbyt roztargniony: nigdy nie słuchasz!',
+    'Çok dalgınsın: hiç dinlemiyorsun!',
+    'Du bist zu zerstreut: Du hörst nie zu!',
+    'あなたはぼんやりしすぎです。全然聞いていません！'
+  ),
+  tr(
+    'Il bambino è arrabbiato perché ha perso il gioco.',
+    'The child is angry because he lost the game.',
+    'El niño está enfadado porque ha perdido el juego.',
+    'L’enfant est en colère parce qu’il a perdu le jeu.',
+    'Dítě je naštvané, protože prohrálo hru.',
+    'Dziecko jest złe, bo przegrało grę.',
+    'Çocuk kızgın çünkü oyunu kaybetti.',
+    'Das Kind ist wütend, weil es das Spiel verloren hat.',
+    '子どもはゲームに負けて怒っています。'
+  ),
+  tr(
     'Il delfino è intelligente e socievole.',
     'The dolphin is intelligent and sociable.',
     'El delfín es inteligente y sociable.',
@@ -1070,6 +1142,17 @@ export const personalityTranslationExercises = [
     'Yunus zeki ve sosyaldir.',
     'Der Delfin ist intelligent und gesellig.',
     'イルカは賢くて社交的です。'
+  ),
+  tr(
+    'Mia sorella è ordinata, ma io sono disordinato.',
+    'My sister is tidy, but I am messy.',
+    'Mi hermana es ordenada, pero yo soy desordenado.',
+    'Ma sœur est ordonnée, mais moi je suis désordonné.',
+    'Moje sestra je uspořádaná, ale já jsem nepořádný.',
+    'Moja siostra jest uporządkowana, ale ja jestem bałaganiarski.',
+    'Kız kardeşim düzenli ama ben dağınığım.',
+    'Meine Schwester ist ordentlich, aber ich bin unordentlich.',
+    '姉はきちんとしていますが、私はだらしないです。'
   ),
   tr(
     'Il gatto è pigro e sonnolento dopo pranzo.',

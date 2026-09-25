@@ -192,11 +192,8 @@ export const oldTraitPages = {
   },
 };
 
-// Testi delle sezioni con trascinamento delle lezioni sugli aggettivi (lingua-veicolo). La `note` qui
-// e' quella della lezione sulla personalita' (stereotipi); quella della lezione fisica e' in
-// animals-pages-more.mjs.
+// Testi delle sezioni con trascinamento delle lezioni sugli aggettivi (lingua-veicolo). Le note sotto le schede delle tre lezioni (fisiche, personalita', verbi) sono in animals-pages-more.mjs.
 //
-//   note        riquadro sotto le schede (sostituisce la nota sull'articolo)
 //   lessonLink  invito a ripassare gli animali; {link} diventa il collegamento
 //   positive    esercizio «quale animale e' cosi'?»   (eyebrow, title, intro)
 //   negative    esercizio «quale animale NON e' cosi'?»
@@ -205,10 +202,6 @@ export const oldTraitPages = {
 // `wrongNegative` e `progressNegative` servono alla forma con la negazione.
 export const traitUi = {
   it: {
-    note: {
-      title: 'Piccola osservazione',
-      body: 'Molti aggettivi hanno due forme: <em>pigro</em> (maschile) e <em>pigra</em> (femminile). Quelli che finiscono in <em>-e</em>, come <em>veloce</em> e <em>forte</em>, ne hanno una sola. Le associazioni fra animali e caratteristiche sono quasi tutte stereotipi, come nei modi di dire italiani («furbo come una volpe», «testardo come un mulo»): non sono verità scientifiche.',
-    },
     lessonLink: 'Non ricordi un animale? Ripassa la lezione {link}.',
     positive: {
       eyebrow: 'Esercizio con trascinamento',
@@ -238,10 +231,6 @@ export const traitUi = {
     },
   },
   en: {
-    note: {
-      title: 'A small note',
-      body: 'Many adjectives have two forms: <em lang="it">pigro</em> (masculine) and <em lang="it">pigra</em> (feminine). Those ending in <em lang="it">-e</em>, like <em lang="it">veloce</em> and <em lang="it">forte</em>, have only one. The links between animals and traits are mostly stereotypes, as in Italian sayings (<em lang="it">furbo come una volpe</em>, “sly as a fox”; <em lang="it">testardo come un mulo</em>, “stubborn as a mule”): they are not scientific facts.',
-    },
     lessonLink: 'Can’t remember an animal? Review the lesson {link}.',
     positive: {
       eyebrow: 'Drag-and-drop exercise',
@@ -271,10 +260,6 @@ export const traitUi = {
     },
   },
   es: {
-    note: {
-      title: 'Una pequeña observación',
-      body: 'Muchos adjetivos tienen dos formas: <em lang="it">pigro</em> (masculino) y <em lang="it">pigra</em> (femenino). Los que terminan en <em lang="it">-e</em>, como <em lang="it">veloce</em> y <em lang="it">forte</em>, tienen una sola. Las asociaciones entre animales y características son casi todas estereotipos, como en los refranes italianos (<em lang="it">furbo come una volpe</em>, «astuto como un zorro»; <em lang="it">testardo come un mulo</em>, «terco como una mula»): no son verdades científicas.',
-    },
     lessonLink: '¿No recuerdas un animal? Repasa la lección {link}.',
     positive: {
       eyebrow: 'Ejercicio de arrastrar',
@@ -304,10 +289,6 @@ export const traitUi = {
     },
   },
   fr: {
-    note: {
-      title: 'Petite remarque',
-      body: 'Beaucoup d’adjectifs ont deux formes : <em lang="it">pigro</em> (masculin) et <em lang="it">pigra</em> (féminin). Ceux qui finissent en <em lang="it">-e</em>, comme <em lang="it">veloce</em> et <em lang="it">forte</em>, n’en ont qu’une. Les liens entre animaux et caractéristiques sont presque tous des stéréotypes, comme dans les expressions italiennes (<em lang="it">furbo come una volpe</em>, « rusé comme un renard » ; <em lang="it">testardo come un mulo</em>, « têtu comme une mule ») : ce ne sont pas des vérités scientifiques.',
-    },
     lessonLink: 'Vous ne vous souvenez pas d’un animal ? Révisez la leçon {link}.',
     positive: {
       eyebrow: 'Exercice à glisser-déposer',
@@ -337,10 +318,6 @@ export const traitUi = {
     },
   },
   cs: {
-    note: {
-      title: 'Malá poznámka',
-      body: 'Mnoho přídavných jmen má dva tvary: <em lang="it">pigro</em> (mužský rod) a <em lang="it">pigra</em> (ženský rod). Ta, která končí na <em lang="it">-e</em>, například <em lang="it">veloce</em> a <em lang="it">forte</em>, mají jen jeden. Spojení zvířat a vlastností jsou většinou stereotypy, jako v italských rčeních (<em lang="it">furbo come una volpe</em>, „mazaný jako liška“; <em lang="it">testardo come un mulo</em>, „tvrdohlavý jako mezek“): nejsou to vědecké pravdy.',
-    },
     lessonLink: 'Nepamatujete si nějaké zvíře? Zopakujte si lekci {link}.',
     positive: {
       eyebrow: 'Cvičení na přetahování',
@@ -370,10 +347,6 @@ export const traitUi = {
     },
   },
   pl: {
-    note: {
-      title: 'Drobna uwaga',
-      body: 'Wiele przymiotników ma dwie formy: <em lang="it">pigro</em> (rodzaj męski) i <em lang="it">pigra</em> (rodzaj żeński). Te, które kończą się na <em lang="it">-e</em>, jak <em lang="it">veloce</em> i <em lang="it">forte</em>, mają tylko jedną. Skojarzenia zwierząt z cechami to w większości stereotypy, jak we włoskich powiedzeniach (<em lang="it">furbo come una volpe</em>, „przebiegły jak lis”; <em lang="it">testardo come un mulo</em>, „uparty jak muł”): nie są to prawdy naukowe.',
-    },
     lessonLink: 'Nie pamiętasz jakiegoś zwierzęcia? Powtórz lekcję {link}.',
     positive: {
       eyebrow: 'Ćwiczenie z przeciąganiem',
@@ -403,10 +376,6 @@ export const traitUi = {
     },
   },
   tr: {
-    note: {
-      title: 'Küçük bir not',
-      body: 'Birçok sıfatın iki biçimi vardır: <em lang="it">pigro</em> (eril) ve <em lang="it">pigra</em> (dişil). <em lang="it">veloce</em> ve <em lang="it">forte</em> gibi <em lang="it">-e</em> ile biten sıfatların ise tek biçimi vardır. Hayvanlarla özellikler arasındaki ilişkilerin çoğu, İtalyanca deyimlerdeki gibi basmakalıp kalıplardır (<em lang="it">furbo come una volpe</em>, “tilki kadar kurnaz”; <em lang="it">testardo come un mulo</em>, “katır kadar inatçı”): bilimsel gerçekler değildir.',
-    },
     lessonLink: 'Bir hayvanı hatırlamıyor musunuz? {link} dersini tekrar edin.',
     positive: {
       eyebrow: 'Sürükle-bırak alıştırması',
@@ -436,10 +405,6 @@ export const traitUi = {
     },
   },
   de: {
-    note: {
-      title: 'Eine kleine Anmerkung',
-      body: 'Viele Adjektive haben zwei Formen: <em lang="it">pigro</em> (maskulin) und <em lang="it">pigra</em> (feminin). Die auf <em lang="it">-e</em> enden, wie <em lang="it">veloce</em> und <em lang="it">forte</em>, haben nur eine. Die Zuordnungen zwischen Tieren und Eigenschaften sind meist Klischees, wie in italienischen Redensarten (<em lang="it">furbo come una volpe</em>, „schlau wie ein Fuchs“; <em lang="it">testardo come un mulo</em>, „stur wie ein Maultier“): Es sind keine wissenschaftlichen Tatsachen.',
-    },
     lessonLink: 'Sie erinnern sich nicht an ein Tier? Wiederholen Sie die Lektion {link}.',
     positive: {
       eyebrow: 'Drag-and-drop-Übung',
@@ -469,10 +434,6 @@ export const traitUi = {
     },
   },
   ja: {
-    note: {
-      title: 'ひとこと',
-      body: '形容詞の多くは 2 つの形を持ちます。<em lang="it">pigro</em>（男性形）と <em lang="it">pigra</em>（女性形）です。<em lang="it">veloce</em> や <em lang="it">forte</em> のように <em lang="it">-e</em> で終わる形容詞は、形が 1 つだけです。動物と特徴の組み合わせは、イタリア語の言い回し（<em lang="it">furbo come una volpe</em>「キツネのようにずる賢い」、<em lang="it">testardo come un mulo</em>「ラバのように頑固」）のように、ほとんどが固定観念で、科学的な事実ではありません。',
-    },
     lessonLink: '思い出せない動物がいますか？ レッスン{link}を復習しましょう。',
     positive: {
       eyebrow: 'ドラッグ＆ドロップの練習',

@@ -3,9 +3,12 @@
  * Crea le quattro lezioni di vocabolario sugli animali in tutte e 9 le lingue:
  *
  *   - «Gli animali»                              100 parole, stessa struttura delle altre lezioni;
- *   - «Le caratteristiche fisiche degli animali»  32 aggettivi (corpo, dimensioni, movimento, suoni);
- *   - «La personalità degli animali»              35 aggettivi (carattere e comportamento);
- *   - «I verbi degli animali»                     91 verbi (muoversi, costruire, difendersi, versi).
+ *   - «Le caratteristiche fisiche degli animali»  50 aggettivi (corpo, forza, aspetto, come si sta);
+ *   - «La personalità degli animali»              62 aggettivi (carattere e stati d'animo);
+ *   - «I verbi degli animali»                     119 verbi di tutti i giorni (nascere, lavorare, aiutare...).
+ *
+ * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
+ * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
  *
  * Le tre lezioni con gli aggettivi e i verbi hanno, al posto di «Riconosci la parola» (un aggettivo o un
  * verbo non si riconosce da una foto), due esercizi con trascinamento: «quale animale e' cosi' / lo fa?»
@@ -56,6 +59,7 @@ import {
   personalityPages,
   verbPages,
   physicalNote,
+  personalityNote,
   verbUi,
   verbUiOverrides,
 } from './data/animals-pages-more.mjs';
@@ -127,7 +131,7 @@ const lessons = {
     exampleWord: null,
     notLabel: 'non è',
     seeds: [2413, 2414],
-    uiFor: (lang) => traitUi[lang],
+    uiFor: (lang) => ({ ...traitUi[lang], note: personalityNote[lang] }),
   },
   verbi: {
     id: 'verbi',
@@ -708,11 +712,14 @@ for (const lang of LANGS) {
   );
   html = html.replace(oldCard, '');
 
-  // La scheda degli animali ora dice 100 parole.
-  const animalsCard = new RegExp(
-    `(<a class="vocabulary-category" href="[^"]*${escapeRegex(animalPages[lang].slug)}\\.html"[\\s\\S]*?<p>)[^<]*(</p>)`
-  );
-  html = html.replace(animalsCard, `$1${escapeHtml(animalPages[lang].cardText)}$2`);
+  // Le schede che ci sono gia' prendono il testo aggiornato (conteggio delle parole compreso).
+  for (const lesson of Object.values(lessons)) {
+    const page = lesson.pages[lang];
+    const card = new RegExp(
+      `(<a class="vocabulary-category" href="[^"]*${escapeRegex(page.slug)}\\.html"[\\s\\S]*?<p>)[^<]*(</p>)`
+    );
+    html = html.replace(card, `$1${escapeHtml(page.cardText)}$2`);
+  }
 
   let added = 0;
   const cards = [];

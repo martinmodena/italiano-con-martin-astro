@@ -23,7 +23,7 @@
 
 const LANG_ORDER = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
 
-export const trait = (image, word, def, glosses, examples, subject, matches, never = []) => ({
+export const trait = (image, word, def, glosses, examples, subject, matches, never = [], options = {}) => ({
   image: `caratteristiche/${image}`,
   slug: image,
   word,
@@ -33,6 +33,7 @@ export const trait = (image, word, def, glosses, examples, subject, matches, nev
   subject,
   matches,
   never,
+  noMatch: Boolean(options.noMatch),
   gloss: Object.fromEntries(LANG_ORDER.map((lang, i) => [lang, i === 0 ? def : glosses[i - 1]])),
 });
 
@@ -547,16 +548,6 @@ export const baseTraits = [
       'corvo',
     ],
     ['cane', 'gatto', 'mucca', 'pecora', 'maiale', 'coniglio', 'pesce-rosso', 'cavallo', 'asino']
-  ),
-  trait(
-    'domestico',
-    'domestico / domestica',
-    'Vive con le persone, in casa.',
-    ['domestic', 'doméstico', 'domestique', 'domácí', 'domowy', 'evcil', 'domestiziert', '飼いならされた'],
-    ['Il cane è un animale domestico.', 'Ho due animali domestici.', 'I lavori domestici sono faticosi.'],
-    'a friendly dog wearing a red collar sitting side by side with a tabby cat, both looking at the camera',
-    ['cane', 'gatto', 'cavallo', 'mucca', 'maiale', 'pecora', 'asino', 'coniglio', 'gallo', 'pesce-rosso'],
-    ['leone', 'tigre', 'lupo', 'squalo', 'coccodrillo', 'elefante', 'gorilla', 'aquila']
   ),
   trait(
     'velenoso',

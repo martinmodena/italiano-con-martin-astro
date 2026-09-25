@@ -1,6 +1,6 @@
 # Immagini delle lezioni sugli animali
 
-Quattro lezioni di vocabolario del 2026-09-24: «Gli animali» (100 animali), «Le caratteristiche fisiche degli animali» (32 aggettivi), «La personalità degli animali» (35 aggettivi) e «I verbi degli animali» (91 verbi). Ogni parola ha una foto, più una testata per lezione (la personalità riusa quella della prima versione, «caratteristiche-animali-hero.webp»). Per i verbi la foto è un animale che compie l'azione.
+Quattro lezioni di vocabolario del 2026-09-24: «Gli animali» (100 animali), «Le caratteristiche fisiche degli animali» (50 aggettivi), «La personalità degli animali» (62 aggettivi) e «I verbi degli animali» (119 verbi). Ogni parola ha una foto, più una testata per lezione (la personalità riusa quella della prima versione, «caratteristiche-animali-hero.webp»). Per i verbi la foto è un animale che compie l'azione.
 
 ## Regole (Martin, 2026-09-24)
 
@@ -19,11 +19,13 @@ python scripts/remove-white-background.py <grezze> <pulite> --whiten=<soggetti-b
 node scripts/convert-vocabulary-images.mjs <pulite> --subdir animali|caratteristiche|verbi
 ```
 
-Lo script salta le immagini che esistono già in `public/assets/vocabolario/<sottocartella>/`, quindi rilanciarlo genera solo quelle che mancano. Il prompt di stile comune sta in `scripts/generate-animal-images.mjs` (costante `STYLE`); il soggetto di ogni immagine sta nel campo `subject` di `scripts/data/animals-vocabulary.mjs`, `traits-vocabulary.mjs` (i 17 aggettivi fisici nuovi; gli altri sono in `traits-base.mjs`) e `verbs-vocabulary.mjs`.
+Lo script salta le immagini che esistono già in `public/assets/vocabolario/<sottocartella>/`, quindi rilanciarlo genera solo quelle che mancano. Il prompt di stile comune sta in `scripts/generate-animal-images.mjs` (costante `STYLE`); il soggetto di ogni immagine sta nel campo `subject` di `scripts/data/animals-vocabulary.mjs`, `traits-vocabulary.mjs` (aggettivi fisici della seconda versione), `traits-everyday.mjs` (aggiunti il 2026-09-25), `traits-base.mjs`, `verbs-vocabulary.mjs` e `verbs-everyday.mjs`.
 
 **Soggetti bianchi o trasparenti** (cigno, pecora, colomba, pellicano, cicogna, gabbiano, capra, lama, medusa; per i verbi «tubare», «tuffarsi», «librarsi») vanno con `--whiten=slug1,slug2`, altrimenti il ritaglio a colore si mangia il soggetto. Le foto vanno guardate a occhio con un foglio di contatto: alcune escono tagliate ai bordi (leopardo, drago di Komodo, libellula, orca, zanzara sono state rifatte aggiungendo «the whole animal small in the centre of the frame with wide empty white margins» al soggetto).
 
 **Verbi e regola «niente carne»:** «cacciare» è una leonessa acquattata nell'erba senza preda; «tuffarsi» un pellicano senza pesce; «covare» una gallina sul nido senza uova in vista; «brillare» una lucciola; «allattare» una gatta con i gattini (non una mucca: i latticini).
+
+**Revisione del 2026-09-25 («parole di tutti i giorni»).** Le tre lezioni di aggettivi e verbi sono state rifatte perché insegnino parole valide anche per le persone; 119 foto nuove (circa $0,30). Cose imparate: le scene con più soggetti (anatra con i piccoli, gatti che litigano, cigni) escono tagliate ai bordi se il prompt non dice «the whole scene small in the centre of the frame with wide empty white margins on every side and nothing touching the edges»; lo sfondo (erba, sabbia) va escluso con «on a plain pure white background with no ground, grass or sand»; un nastro del traguardo esce con la scritta «FINISH» se non si scrive «plain red ribbon with no text or letters on it». Soggetti bianchi o crema da passare con `--whiten`: cigni, pellicano, pinguini, capretto bianco, bulldog crema, cuscino, tela bianca, nuvoletta del sogno.
 
 ## Testata «Gli animali» (`animali-hero.webp`)
 

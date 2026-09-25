@@ -1,7 +1,12 @@
-// I verbi della lezione «I verbi degli animali» (2026-09-24).
+// I verbi della lezione «I verbi degli animali» (2026-09-24, rifatta il 2026-09-25).
 //
-// Sono i verbi che gli animali fanno "di mestiere", quelli piu' evidenti o piu' famosi:
-// muoversi, costruire, cacciare, difendersi, i versi. Ogni voce:
+// Dal 2026-09-25 la lezione insegna verbi di tutti i giorni, validi anche per le persone (nascere,
+// morire, lavorare, aspettare, ridere, fare rumore...): gli animali sono il mezzo simpatico, non
+// il fine. Qui restano i 51 verbi della prima versione che si usano anche con le persone (con le
+// frasi d'esempio riscritte, sempre con almeno una persona); i versi animali (abbaiare, gracidare...)
+// e i mestieri solo animali (ruminare, razzolare, tessere...) sono stati tolti. I verbi nuovi stanno
+// in verbs-everyday.mjs, che ha anche l'attrezzo `verb`. L'ordine nella pagina e' in VERB_ORDER.
+// Ogni voce:
 //   image     percorso in public/assets/vocabolario/ senza estensione
 //   word      il verbo all'infinito: e' lingua-oggetto e resta in italiano ovunque
 //   gloss     l'infinito tradotto (in italiano: una breve definizione)
@@ -19,108 +24,19 @@
 // Regola delle immagini (decisione del 2026-09-07): niente carne. Nessuna preda in scena, nemmeno
 // per «cacciare»; niente pesce in bocca al pellicano; niente uova; niente miele.
 //
-// Nota per chi rivede: le associazioni sono quelle piu' note; per i versi vale l'italiano
-// corrente (abbaiare, miagolare, ruggire...).
+// Nota per chi rivede: le associazioni sono quelle piu' note.
 
-const LANG_ORDER = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
+import { verb, BIRDS, MAMMALS, everydayVerbs } from './verbs-everyday.mjs';
+import { tr } from './traits-base.mjs';
 
-const verb = (image, word, def, glosses, examples, subject, matches, never = [], options = {}) => ({
-  image: `verbi/${image}`,
-  slug: image,
-  word,
-  bare: word,
-  examples,
-  subject,
-  matches,
-  never,
-  noMatch: Boolean(options.noMatch),
-  gloss: Object.fromEntries(LANG_ORDER.map((lang, i) => [lang, i === 0 ? def : glosses[i - 1]])),
-});
-
-const BIRDS = [
-  'aquila',
-  'gufo',
-  'pappagallo',
-  'pinguino',
-  'cigno',
-  'pavone',
-  'gallo',
-  'corvo',
-  'struzzo',
-  'anatra',
-  'gallina',
-  'colomba',
-  'rondine',
-  'pellicano',
-  'fenicottero',
-  'cicogna',
-  'gabbiano',
-  'picchio',
-  'colibri',
-  'usignolo',
-  'falco',
-  'tucano',
-];
-
-const MAMMALS = [
-  'cane',
-  'gatto',
-  'cavallo',
-  'mucca',
-  'maiale',
-  'pecora',
-  'asino',
-  'coniglio',
-  'topo',
-  'leone',
-  'tigre',
-  'ghepardo',
-  'elefante',
-  'giraffa',
-  'ippopotamo',
-  'scimmia',
-  'gorilla',
-  'orso',
-  'panda',
-  'lupo',
-  'volpe',
-  'scoiattolo',
-  'bradipo',
-  'canguro',
-  'delfino',
-  'balena',
-  'castoro',
-  'talpa',
-  'riccio',
-  'pipistrello',
-  'zebra',
-  'rinoceronte',
-  'cammello',
-  'lama',
-  'koala',
-  'marmotta',
-  'criceto',
-  'foca',
-  'lontra',
-  'cervo',
-  'capra',
-  'iena',
-  'leopardo',
-  'scimpanze',
-  'formichiere',
-  'suricato',
-  'cinghiale',
-  'orca',
-];
-
-export const verbVocabulary = [
+const keptVerbs = [
   // --- muoversi ---------------------------------------------------------------------
   verb(
     'volare',
     'volare',
-    'Muoversi nell’aria con le ali.',
+    'Muoversi nell’aria, con le ali o con un aereo.',
     ['to fly', 'volar', 'voler', 'létat', 'latać', 'uçmak', 'fliegen', '飛ぶ'],
-    ['L’aquila vola molto in alto.', 'Le rondini volano verso sud.', 'Il pipistrello vola di notte.'],
+    ['L’aquila vola molto in alto.', 'Domani voliamo a Roma con l’aereo.', 'Il pipistrello vola di notte.'],
     'a golden eagle flying with its wings fully spread, seen from a slight angle, whole bird visible',
     [
       ...BIRDS.filter((b) => !['pinguino', 'struzzo'].includes(b)),
@@ -136,38 +52,11 @@ export const verbVocabulary = [
     ['pinguino', 'struzzo', 'cane', 'gatto', 'elefante', 'tartaruga', 'serpente', 'pesce-rosso', 'lumaca', 'cavallo']
   ),
   verb(
-    'planare',
-    'planare',
-    'Restare in aria con le ali aperte, senza batterle.',
-    ['to glide', 'planear', 'planer', 'plachtit', 'szybować', 'süzülmek', 'gleiten', '滑空する'],
-    ['L’aquila plana sopra la montagna.', 'Il gabbiano plana sul mare.', 'La cicogna plana con le ali aperte.'],
-    'a white stork gliding with its wings wide open and long legs trailing behind, whole bird visible',
-    ['aquila', 'gabbiano', 'cicogna', 'falco', 'pellicano']
-  ),
-  verb(
-    'librarsi',
-    'librarsi',
-    'Restare fermo in aria.',
-    [
-      'to hover',
-      'cernerse',
-      'faire du surplace',
-      'vznášet se na místě',
-      'unosić się w miejscu',
-      'havada asılı kalmak',
-      'in der Luft stehen',
-      'ホバリングする',
-    ],
-    ['Il colibrì si libra davanti al fiore.', 'Il falco si libra nel cielo.', 'La libellula si libra sull’acqua.'],
-    'a tiny hummingbird hovering in mid-air beside a red flower, wings blurred, whole bird visible',
-    ['colibri', 'falco', 'libellula', 'ape']
-  ),
-  verb(
     'nuotare',
     'nuotare',
     'Muoversi nell’acqua.',
     ['to swim', 'nadar', 'nager', 'plavat', 'pływać', 'yüzmek', 'schwimmen', '泳ぐ'],
-    ['Il delfino nuota con gli amici.', 'Il pinguino nuota molto bene.', 'Le anatre nuotano nel lago.'],
+    ['Il delfino nuota con gli amici.', 'Ogni sabato nuoto in piscina.', 'Le anatre nuotano nel lago.'],
     'a cute penguin swimming underwater with its flippers stretched out, side view',
     [
       'delfino',
@@ -202,11 +91,7 @@ export const verbVocabulary = [
     'immergersi',
     'Andare sotto l’acqua.',
     ['to submerge', 'sumergirse', 's’immerger', 'ponořit se', 'zanurzać się', 'suya dalmak', 'abtauchen', '潜る'],
-    [
-      'La balena si immerge in profondità.',
-      'Il pinguino si immerge per cercare cibo.',
-      'La foca si immerge per molti minuti.',
-    ],
+    ['La balena si immerge in profondità.', 'Mi immergo nell’acqua fredda.', 'La foca si immerge per molti minuti.'],
     'a whale diving down with its big tail lifted above the water surface, side view',
     [
       'balena',
@@ -238,7 +123,7 @@ export const verbVocabulary = [
       'hineinspringen',
       '飛び込む',
     ],
-    ['Il pellicano si tuffa in mare.', 'Il gabbiano si tuffa dall’alto.', 'La rana si tuffa nello stagno.'],
+    ['Il pellicano si tuffa in mare.', 'I bambini si tuffano dal molo.', 'La rana si tuffa nello stagno.'],
     'a white pelican plunging headfirst toward the water with its wings folded back, no fish visible',
     [
       'pellicano',
@@ -268,7 +153,7 @@ export const verbVocabulary = [
       'auf dem Wasser treiben',
       '浮かぶ',
     ],
-    ['La medusa galleggia nell’acqua.', 'La lontra dorme e galleggia.', 'Il cigno galleggia sul lago.'],
+    ['La medusa galleggia nell’acqua.', 'Il ghiaccio galleggia nel bicchiere.', 'Il cigno galleggia sul lago.'],
     'a sea otter floating on its back on calm water holding its paws together, relaxed',
     [
       'medusa',
@@ -288,9 +173,9 @@ export const verbVocabulary = [
   verb(
     'correre',
     'correre',
-    'Muoversi molto in fretta con le zampe.',
+    'Muoversi molto in fretta con le gambe.',
     ['to run', 'correr', 'courir', 'běhat', 'biegać', 'koşmak', 'rennen', '走る'],
-    ['Il ghepardo corre velocissimo.', 'Il cane corre nel parco.', 'Il cavallo corre nel prato.'],
+    ['Il ghepardo corre velocissimo.', 'Ogni mattina corro nel parco.', 'Il cavallo corre nel prato.'],
     'a happy dog running across a lawn with its ears flying, all legs off the ground, side view',
     [
       'ghepardo',
@@ -321,20 +206,11 @@ export const verbVocabulary = [
     ]
   ),
   verb(
-    'galoppare',
-    'galoppare',
-    'Correre come un cavallo, con salti regolari.',
-    ['to gallop', 'galopar', 'galoper', 'cválat', 'galopować', 'dörtnala koşmak', 'galoppieren', 'ギャロップで走る'],
-    ['Il cavallo galoppa nel campo.', 'Le zebre galoppano nella savana.', 'Il cervo galoppa nel bosco.'],
-    'a chestnut horse galloping with its mane flying, side view, whole horse visible',
-    ['cavallo', 'zebra', 'asino', 'cervo', 'ghepardo']
-  ),
-  verb(
     'saltare',
     'saltare',
     'Alzarsi da terra con uno scatto.',
     ['to jump', 'saltar', 'sauter', 'skákat', 'skakać', 'zıplamak', 'springen', '跳ぶ'],
-    ['Il canguro salta molto lontano.', 'La rana salta nello stagno.', 'Il coniglio salta nell’erba.'],
+    ['Il canguro salta molto lontano.', 'I bambini saltano sul letto.', 'Il coniglio salta nell’erba.'],
     'a kangaroo hopping mid-air with its tail down, side view, whole animal visible',
     [
       'canguro',
@@ -361,7 +237,7 @@ export const verbVocabulary = [
     'strisciare',
     'Muoversi con il corpo appoggiato a terra.',
     ['to crawl', 'reptar', 'ramper', 'plazit se', 'pełzać', 'sürünmek', 'kriechen', '這う'],
-    ['Il serpente striscia sul terreno.', 'La lumaca striscia sulla foglia.', 'Il bruco striscia sul ramo.'],
+    ['Il serpente striscia sul terreno.', 'Il soldato striscia nel fango.', 'La lumaca striscia sulla foglia.'],
     'a green snake slithering in a wavy line across the ground with its head raised slightly, whole body visible',
     ['serpente', 'cobra', 'lumaca', 'bruco', 'lucertola', 'coccodrillo', 'iguana', 'drago-di-komodo'],
     ['cavallo', 'mucca', 'elefante', 'cane', 'aquila', 'gufo', 'delfino', 'scimmia']
@@ -371,7 +247,11 @@ export const verbVocabulary = [
     'arrampicarsi',
     'Salire su un albero o su una parete.',
     ['to climb', 'trepar', 'grimper', 'šplhat', 'wspinać się', 'tırmanmak', 'klettern', '登る'],
-    ['La scimmia si arrampica sull’albero.', 'Il gatto si arrampica sul muro.', 'La capra si arrampica sulla roccia.'],
+    [
+      'La scimmia si arrampica sull’albero.',
+      'Mi arrampico sulla montagna con gli amici.',
+      'La capra si arrampica sulla roccia.',
+    ],
     'a young monkey climbing up a thin tree trunk, gripping with hands and feet, whole animal visible',
     [
       'scimmia',
@@ -398,7 +278,7 @@ export const verbVocabulary = [
     'scivolare',
     'Muoversi su una superficie liscia senza fatica.',
     ['to slide', 'deslizarse', 'glisser', 'klouzat', 'ślizgać się', 'kaymak', 'rutschen', '滑る'],
-    ['Il pinguino scivola sul ghiaccio.', 'La lontra scivola nell’acqua.', 'Il serpente scivola tra l’erba.'],
+    ['Il pinguino scivola sul ghiaccio.', 'Sono scivolato sul pavimento bagnato.', 'Il serpente scivola tra l’erba.'],
     'a penguin sliding on its belly across a smooth surface with its flippers back, joyful, whole animal visible',
     ['pinguino', 'lontra', 'serpente', 'foca', 'lumaca', 'cobra']
   ),
@@ -407,7 +287,7 @@ export const verbVocabulary = [
     'scappare',
     'Correre via da un pericolo.',
     ['to run away', 'huir', 's’enfuir', 'utíkat', 'uciekać', 'kaçmak', 'weglaufen', '逃げる'],
-    ['Il coniglio scappa nella tana.', 'Il topo scappa quando sente un rumore.', 'La lucertola scappa sul muro.'],
+    ['Il coniglio scappa nella tana.', 'Il ladro scappa dalla polizia.', 'Devo scappare, sono in ritardo!'],
     'a frightened rabbit bolting away with its ears flat, mid-hop, looking back over its shoulder',
     [
       'coniglio',
@@ -432,7 +312,7 @@ export const verbVocabulary = [
     ['to migrate', 'migrar', 'migrer', 'migrovat', 'migrować', 'göç etmek', 'migrieren', '渡りをする'],
     [
       'Le rondini migrano in autunno.',
-      'Le cicogne migrano verso l’Africa.',
+      'Molte persone migrano verso le città.',
       'Le balene migrano per migliaia di chilometri.',
     ],
     'three storks flying together in a line with wings wide open, whole birds visible',
@@ -452,14 +332,14 @@ export const verbVocabulary = [
     ]
   ),
   verb(
-    'stare-appeso',
-    'stare appeso',
-    'Rimanere attaccato a qualcosa, senza toccare terra.',
+    'appendersi',
+    'appendersi',
+    'Attaccarsi a qualcosa e restare sospeso, senza toccare terra.',
     ['to hang', 'colgar', 'être suspendu', 'viset', 'wisieć', 'asılı durmak', 'hängen', 'ぶら下がる'],
     [
-      'Il pipistrello sta appeso a testa in giù.',
-      'Il bradipo sta appeso al ramo.',
-      'La scimmia sta appesa con la coda.',
+      'Il pipistrello si appende a testa in giù.',
+      'Il bambino si appende al ramo con le mani.',
+      'La scimmia si appende con la coda.',
     ],
     'a cute bat hanging upside down from a branch with its wings folded around its body, whole animal visible',
     ['pipistrello', 'bradipo', 'scimmia', 'scimpanze', 'ragno', 'koala']
@@ -471,8 +351,8 @@ export const verbVocabulary = [
     ['to stand', 'estar de pie', 'se tenir debout', 'stát', 'stać', 'ayakta durmak', 'stehen', '立つ'],
     [
       'Il suricato sta in piedi e guarda lontano.',
+      'Sono stanco: sto in piedi da otto ore.',
       'L’orso sta in piedi sulle zampe posteriori.',
-      'Il canguro sta in piedi sulla coda.',
     ],
     'a meerkat standing upright on its hind legs, alert, looking into the distance, whole animal visible',
     [
@@ -494,36 +374,18 @@ export const verbVocabulary = [
     'camminare',
     'Muoversi con le zampe o con i piedi, un passo dopo l’altro.',
     ['to walk', 'caminar', 'marcher', 'chodit', 'chodzić', 'yürümek', 'gehen', '歩く'],
-    ['Il pinguino cammina in modo buffo.', 'L’elefante cammina piano.', 'Il gatto cammina sul muro.'],
+    ['Il pinguino cammina in modo buffo.', 'Ogni giorno cammino per un’ora.', 'Il gatto cammina sul muro.'],
     'a young elephant walking calmly, side view, whole animal visible',
     [],
     [],
     { noMatch: true }
   ),
   verb(
-    'sguazzare',
-    'sguazzare',
-    'Muoversi con piacere nell’acqua o nel fango.',
-    [
-      'to splash about',
-      'chapotear',
-      'barboter',
-      'čvachtat se',
-      'taplać się',
-      'çamurda oynamak',
-      'planschen',
-      'ばしゃばしゃ遊ぶ',
-    ],
-    ['Il maiale sguazza nel fango.', 'L’ippopotamo sguazza nell’acqua.', 'Le anatre sguazzano nello stagno.'],
-    'a cheerful young hippopotamus splashing in shallow water with droplets flying, whole animal visible',
-    ['maiale', 'ippopotamo', 'anatra', 'cinghiale', 'rinoceronte', 'elefante', 'rana']
-  ),
-  verb(
     'rotolarsi',
     'rotolarsi',
     'Girare su se stesso con il corpo a terra.',
     ['to roll around', 'revolcarse', 'se rouler', 'válet se', 'tarzać się', 'yuvarlanmak', 'sich wälzen', '転げ回る'],
-    ['Il cane si rotola nell’erba.', 'Il cavallo si rotola nella polvere.', 'L’elefante si rotola nella sabbia.'],
+    ['Il cane si rotola nell’erba.', 'I bambini si rotolano sul prato.', 'Il cavallo si rotola nella polvere.'],
     'a happy dog lying on its back rolling in the grass with its paws in the air',
     ['cane', 'cavallo', 'elefante', 'maiale', 'cinghiale', 'gatto', 'rinoceronte', 'zebra', 'asino']
   ),
@@ -534,7 +396,7 @@ export const verbVocabulary = [
     'dormire',
     'Riposare con gli occhi chiusi.',
     ['to sleep', 'dormir', 'dormir', 'spát', 'spać', 'uyumak', 'schlafen', '眠る'],
-    ['Il gatto dorme sul divano.', 'Il koala dorme molte ore al giorno.', 'L’orso dorme d’inverno.'],
+    ['Il gatto dorme sul divano.', 'Stanotte ho dormito otto ore.', 'L’orso dorme d’inverno.'],
     'a fluffy koala sleeping curled up on a branch with its eyes closed',
     [],
     [],
@@ -545,46 +407,11 @@ export const verbVocabulary = [
     'mangiare',
     'Prendere il cibo con la bocca.',
     ['to eat', 'comer', 'manger', 'jíst', 'jeść', 'yemek', 'essen', '食べる'],
-    ['Il panda mangia il bambù.', 'Il coniglio mangia una carota.', 'La scimmia mangia una banana.'],
+    ['Il panda mangia il bambù.', 'A mezzogiorno mangio la pasta.', 'La scimmia mangia una banana.'],
     'a giant panda sitting and eating a bamboo stem, content face',
     [],
     [],
     { noMatch: true }
-  ),
-  verb(
-    'andare-in-letargo',
-    'andare in letargo',
-    'Dormire tutto l’inverno, senza mangiare.',
-    [
-      'to hibernate',
-      'hibernar',
-      'hiberner',
-      'přezimovat',
-      'zapadać w sen zimowy',
-      'kış uykusuna yatmak',
-      'Winterschlaf halten',
-      '冬眠する',
-    ],
-    [
-      'L’orso va in letargo in inverno.',
-      'Il riccio va in letargo sotto le foglie.',
-      'La marmotta va in letargo per molti mesi.',
-    ],
-    'a cute marmot curled up asleep on a bed of dry grass with its eyes closed',
-    [
-      'orso',
-      'riccio',
-      'marmotta',
-      'pipistrello',
-      'criceto',
-      'rana',
-      'serpente',
-      'tartaruga',
-      'lumaca',
-      'lucertola',
-      'rospo',
-      'scoiattolo',
-    ]
   ),
   verb(
     'prendere-il-sole',
@@ -602,7 +429,7 @@ export const verbVocabulary = [
     ],
     [
       'La lucertola prende il sole sul muro.',
-      'La tartaruga prende il sole sul sasso.',
+      'In estate prendo il sole in spiaggia.',
       'Il coccodrillo prende il sole sulla riva.',
     ],
     'a turtle basking on a flat rock with its neck and legs stretched out to the sun',
@@ -625,7 +452,7 @@ export const verbVocabulary = [
     'allattare',
     'Dare il latte al proprio piccolo.',
     ['to nurse', 'amamantar', 'allaiter', 'kojit', 'karmić mlekiem', 'emzirmek', 'säugen', '授乳する'],
-    ['La mucca allatta il vitello.', 'La balena allatta il suo piccolo.', 'La gatta allatta i gattini.'],
+    ['La mucca allatta il vitello.', 'La mamma allatta il bambino.', 'La gatta allatta i gattini.'],
     'a mother cat lying down with three tiny kittens snuggled against her, gentle scene',
     MAMMALS,
     [
@@ -644,87 +471,11 @@ export const verbVocabulary = [
     ]
   ),
   verb(
-    'covare',
-    'covare',
-    'Stare sul nido per scaldare le uova.',
-    [
-      'to sit on eggs',
-      'empollar',
-      'couver',
-      'sedět na vejcích',
-      'wysiadywać jaja',
-      'kuluçkaya yatmak',
-      'brüten',
-      '卵を温める',
-    ],
-    ['La gallina cova nel nido.', 'Il cigno cova per molte settimane.', 'Il pinguino cova sotto la pancia.'],
-    'a brown hen sitting on a straw nest with her wings fluffed over it, cosy, nothing else visible in the nest',
-    [
-      'gallina',
-      'cigno',
-      'anatra',
-      'pinguino',
-      'colomba',
-      'aquila',
-      'cicogna',
-      'gufo',
-      'gabbiano',
-      'rondine',
-      'fenicottero',
-      'pellicano',
-      'usignolo',
-      'tucano',
-      'pappagallo',
-      'picchio',
-      'struzzo',
-    ]
-  ),
-  verb(
-    'fare-il-nido',
-    'fare il nido',
-    'Costruire un posto per i piccoli.',
-    [
-      'to build a nest',
-      'hacer el nido',
-      'faire son nid',
-      'stavět hnízdo',
-      'budować gniazdo',
-      'yuva yapmak',
-      'ein Nest bauen',
-      '巣を作る',
-    ],
-    [
-      'La rondine fa il nido sotto il tetto.',
-      'La cicogna fa il nido sul camino.',
-      'L’aquila fa il nido sulla montagna.',
-    ],
-    'a barn swallow perched on the rim of a small mud nest, whole bird visible, no eggs',
-    [
-      'rondine',
-      'cicogna',
-      'aquila',
-      'picchio',
-      'gufo',
-      'gabbiano',
-      'cigno',
-      'fenicottero',
-      'pellicano',
-      'gallina',
-      'colomba',
-      'usignolo',
-      'tucano',
-      'pappagallo',
-      'corvo',
-      'falco',
-      'anatra',
-    ]
-  ),
-  verb(
     'giocare',
     'giocare',
     'Fare qualcosa per divertirsi.',
     ['to play', 'jugar', 'jouer', 'hrát si', 'bawić się', 'oynamak', 'spielen', '遊ぶ'],
-    ['Il cucciolo gioca con la palla.', 'I delfini giocano nell’acqua.', 'Le lontre giocano con un sasso.'],
+    ['Il cucciolo gioca con la palla.', 'I bambini giocano a calcio.', 'Le lontre giocano con un sasso.'],
     'a playful puppy with a red ball, front paws down and rear up, inviting to play',
     [
       'cane',
@@ -754,35 +505,11 @@ export const verbVocabulary = [
     ['koala', 'scimpanze', 'gorilla', 'scimmia', 'orso', 'panda', 'bradipo', 'lontra', 'polpo']
   ),
   verb(
-    'arrotolarsi',
-    'arrotolarsi',
-    'Piegare il corpo fino a farne una palla o una spirale.',
-    [
-      'to curl up',
-      'enroscarse',
-      's’enrouler',
-      'stočit se',
-      'zwijać się',
-      'kıvrılmak',
-      'sich zusammenrollen',
-      '丸くなる',
-    ],
-    [
-      'Il riccio si arrotola quando ha paura.',
-      'Il serpente si arrotola sul ramo.',
-      'Il gatto si arrotola sul cuscino.',
-    ],
-    'a hedgehog curled into a tight round spiky ball, seen from the side',
-    ['riccio', 'serpente', 'cobra', 'gatto', 'cane', 'volpe', 'bruco', 'criceto', 'lumaca', 'cavalluccio-marino']
-  ),
-
-  // --- lavorare e costruire --------------------------------------------------------------------
-  verb(
     'lavorare',
     'lavorare',
     'Fare un’attività con impegno, ogni giorno.',
     ['to work', 'trabajar', 'travailler', 'pracovat', 'pracować', 'çalışmak', 'arbeiten', '働く'],
-    ['La formica lavora tutto il giorno.', 'Le api lavorano insieme.', 'L’asino lavora nei campi.'],
+    ['La formica lavora tutto il giorno.', 'Mio padre lavora in banca.', 'L’asino lavora nei campi.'],
     'a busy honeybee working on a yellow flower, macro photo, whole bee visible',
     [
       'formica',
@@ -804,7 +531,11 @@ export const verbVocabulary = [
     'costruire',
     'Fare una casa, una diga o un nido.',
     ['to build', 'construir', 'construire', 'stavět', 'budować', 'inşa etmek', 'bauen', '作る'],
-    ['Il castoro costruisce una diga.', 'Le formiche costruiscono il formicaio.', 'Le api costruiscono i favi.'],
+    [
+      'Il castoro costruisce una diga.',
+      'Costruiscono una casa vicino al mare.',
+      'Le formiche costruiscono il formicaio.',
+    ],
     'a beaver holding a branch with its front paws next to a small dam of wooden sticks, whole animal visible',
     [
       'castoro',
@@ -827,7 +558,7 @@ export const verbVocabulary = [
     'scavare',
     'Fare un buco nella terra.',
     ['to dig', 'cavar', 'creuser', 'hrabat', 'kopać w ziemi', 'kazmak', 'graben', '掘る'],
-    ['La talpa scava una galleria.', 'Il cane scava una buca.', 'Il coniglio scava la tana.'],
+    ['La talpa scava una galleria.', 'Gli operai scavano una buca nel giardino.', 'Il coniglio scava la tana.'],
     'a mole digging out of a mound of soil with its big pink paws, whole animal visible',
     [
       'talpa',
@@ -847,19 +578,6 @@ export const verbVocabulary = [
     ]
   ),
   verb(
-    'tessere',
-    'tessere',
-    'Fare un tessuto intrecciando fili.',
-    ['to weave', 'tejer', 'tisser', 'tkát', 'tkać', 'örmek', 'weben', '織る'],
-    [
-      'Il ragno tesse la tela tra due rami.',
-      'Ogni notte il ragno tesse una nuova tela.',
-      'Il ragno tesse fili sottilissimi.',
-    ],
-    'a small garden spider hanging from a thin silk thread and spinning, macro photo, whole spider visible',
-    ['ragno', 'bruco']
-  ),
-  verb(
     'trasformarsi',
     'trasformarsi',
     'Cambiare completamente forma.',
@@ -873,11 +591,7 @@ export const verbVocabulary = [
       'sich verwandeln',
       '変身する',
     ],
-    [
-      'Il bruco si trasforma in farfalla.',
-      'Il girino si trasforma in rana.',
-      'Il bruco si trasforma dentro il bozzolo.',
-    ],
+    ['Il bruco si trasforma in farfalla.', 'La città si trasforma di notte.', 'Il girino si trasforma in rana.'],
     'a colourful butterfly newly emerged sitting on a twig next to its empty chrysalis, macro photo',
     ['bruco', 'farfalla', 'rana', 'rospo', 'libellula', 'cavalletta', 'coccinella', 'zanzara']
   ),
@@ -897,7 +611,7 @@ export const verbVocabulary = [
     ],
     [
       'Lo scoiattolo fa scorte di nocciole.',
-      'Il criceto fa scorte nelle guance.',
+      'Prima della neve facciamo scorte di cibo.',
       'Le formiche fanno scorte per l’inverno.',
     ],
     'a hamster with its cheeks stuffed round and full, sitting up, cute',
@@ -908,7 +622,7 @@ export const verbVocabulary = [
     'raccogliere',
     'Prendere le cose da terra o dai fiori.',
     ['to gather', 'recoger', 'ramasser', 'sbírat', 'zbierać', 'toplamak', 'sammeln', '集める'],
-    ['L’ape raccoglie il polline.', 'La formica raccoglie le briciole.', 'Lo scoiattolo raccoglie le nocciole.'],
+    ['L’ape raccoglie il polline.', 'Raccolgo le mele nel frutteto.', 'Lo scoiattolo raccoglie le nocciole.'],
     'a fuzzy honeybee on a yellow flower with its pollen baskets full of pollen, macro photo',
     ['ape', 'formica', 'scoiattolo', 'criceto', 'castoro', 'scimpanze', 'corvo', 'marmotta']
   ),
@@ -917,18 +631,9 @@ export const verbVocabulary = [
     'portare',
     'Tenere qualcosa e spostarlo da un posto all’altro.',
     ['to carry', 'llevar', 'porter', 'nést', 'nosić', 'taşımak', 'tragen', '運ぶ'],
-    ['La formica porta una foglia.', 'Il cammello porta i viaggiatori nel deserto.', 'L’asino porta un sacco pesante.'],
+    ['La formica porta una foglia.', 'Porto la spesa a casa.', 'L’asino porta un sacco pesante.'],
     'a small grey donkey carrying two woven baskets on its back, patient face, whole animal visible',
     ['formica', 'asino', 'cammello', 'canguro', 'lama', 'cavallo', 'elefante', 'cicogna', 'cane', 'castoro']
-  ),
-  verb(
-    'impollinare',
-    'impollinare',
-    'Portare il polline da un fiore all’altro.',
-    ['to pollinate', 'polinizar', 'polliniser', 'opylovat', 'zapylać', 'tozlaştırmak', 'bestäuben', '受粉させる'],
-    ['Le api impollinano i fiori.', 'Le farfalle impollinano molte piante.', 'Il colibrì impollina i fiori rossi.'],
-    'a butterfly resting on a purple flower with a dusting of yellow pollen on its legs, macro photo',
-    ['ape', 'farfalla', 'colibri', 'pipistrello']
   ),
   verb(
     'succhiare',
@@ -937,7 +642,7 @@ export const verbVocabulary = [
     ['to suck', 'chupar', 'sucer', 'sát', 'ssać', 'emmek', 'saugen', '吸う'],
     [
       'La farfalla succhia il nettare.',
-      'La zanzara succhia il sangue.',
+      'Il bambino succhia il latte dal biberon.',
       'Il colibrì succhia il nettare con la lingua.',
     ],
     'a butterfly with its long thin proboscis uncoiled sipping from a pink flower, macro photo',
@@ -948,9 +653,9 @@ export const verbVocabulary = [
   verb(
     'cacciare',
     'cacciare',
-    'Inseguire altri animali per mangiarli.',
+    'Inseguire un animale per catturarlo; oppure mandare via qualcuno.',
     ['to hunt', 'cazar', 'chasser', 'lovit', 'polować', 'avlanmak', 'jagen', '狩りをする'],
-    ['Il leone caccia nella savana.', 'Il gufo caccia di notte.', 'Il ragno caccia con la sua tela.'],
+    ['Il leone caccia nella savana.', 'Il gufo caccia di notte.', 'Il professore ha cacciato lo studente dall’aula.'],
     'a lioness crouching low in tall grass, stalking with intense focus, no prey visible',
     [
       'leone',
@@ -1044,7 +749,7 @@ export const verbVocabulary = [
     'mordere',
     'Stringere qualcosa con i denti.',
     ['to bite', 'morder', 'mordre', 'kousat', 'gryźć', 'ısırmak', 'beißen', '噛む'],
-    ['Il cane morde la palla.', 'Il coccodrillo morde con forza.', 'Il serpente morde solo se ha paura.'],
+    ['Il cane morde la palla.', 'Mordo la mela e la mangio.', 'Il serpente morde solo se ha paura.'],
     'a puppy biting a red rubber toy ball, playful, whole dog visible',
     [
       'cane',
@@ -1073,7 +778,7 @@ export const verbVocabulary = [
     'pungere',
     'Ferire con un pungiglione o con una spina.',
     ['to sting', 'picar', 'piquer', 'píchat', 'kłuć', 'sokmak', 'stechen', '刺す'],
-    ['L’ape punge se ha paura.', 'La zanzara punge di sera.', 'Lo scorpione punge con la coda.'],
+    ['L’ape punge se ha paura.', 'Mi sono punto con una spina.', 'Lo scorpione punge con la coda.'],
     'a small scorpion raising its curved tail, seen from above at an angle, macro photo',
     ['ape', 'zanzara', 'scorpione', 'medusa', 'formica', 'riccio'],
     ['cavallo', 'mucca', 'pecora', 'coniglio', 'delfino', 'elefante', 'cigno', 'farfalla']
@@ -1083,44 +788,9 @@ export const verbVocabulary = [
     'graffiare',
     'Fare segni sulla pelle o sul legno con le unghie.',
     ['to scratch', 'arañar', 'griffer', 'škrábat', 'drápat', 'tırmalamak', 'kratzen', 'ひっかく'],
-    ['Il gatto graffia il divano.', 'La tigre graffia la corteccia.', 'L’orso graffia l’albero.'],
+    ['Il gatto graffia il divano.', 'Mi sono graffiato il braccio.', 'L’orso graffia l’albero.'],
     'a tabby cat scratching a wooden scratching post, stretched out, whole cat visible',
     ['gatto', 'tigre', 'leone', 'leopardo', 'orso', 'cane', 'gallina', 'formichiere']
-  ),
-  verb(
-    'mimetizzarsi',
-    'mimetizzarsi',
-    'Diventare uguale all’ambiente per non farsi vedere.',
-    [
-      'to camouflage oneself',
-      'camuflarse',
-      'se camoufler',
-      'maskovat se',
-      'kamuflować się',
-      'kamufle olmak',
-      'sich tarnen',
-      '擬態する',
-    ],
-    [
-      'Il camaleonte si mimetizza sulle foglie.',
-      'Il polpo si mimetizza con le rocce.',
-      'Il bruco si mimetizza sul ramo.',
-    ],
-    'an octopus with mottled skin matching a piece of coral rock, camouflaged, whole animal visible',
-    [
-      'camaleonte',
-      'polpo',
-      'bruco',
-      'cavalluccio-marino',
-      'leopardo',
-      'gufo',
-      'rana',
-      'lucertola',
-      'farfalla',
-      'iguana',
-      'cervo',
-      'serpente',
-    ]
   ),
   verb(
     'nascondersi',
@@ -1129,8 +799,8 @@ export const verbVocabulary = [
     ['to hide', 'esconderse', 'se cacher', 'schovávat se', 'chować się', 'saklanmak', 'sich verstecken', '隠れる'],
     [
       'Il coniglio si nasconde nella tana.',
+      'I bambini si nascondono dietro la porta.',
       'La tartaruga si nasconde nel guscio.',
-      'Il pesce pagliaccio si nasconde nell’anemone.',
     ],
     'a tortoise with its head and legs pulled into its shell, only a little of its face showing',
     [
@@ -1168,52 +838,16 @@ export const verbVocabulary = [
       'die Farbe wechseln',
       '色を変える',
     ],
-    [
-      'Il camaleonte cambia colore.',
-      'Il polpo cambia colore in un attimo.',
-      'Il camaleonte cambia colore quando si arrabbia.',
-    ],
+    ['Il camaleonte cambia colore.', 'Le foglie cambiano colore in autunno.', 'Quando mi vergogno, cambio colore.'],
     'a chameleon showing vivid multicoloured skin in turquoise, green and orange, side view',
     ['camaleonte', 'polpo', 'cavalluccio-marino', 'rana']
   ),
   verb(
-    'cambiare-pelle',
-    'cambiare pelle',
-    'Lasciare la pelle vecchia per averne una nuova.',
-    [
-      'to shed its skin',
-      'mudar la piel',
-      'muer',
-      'svlékat kůži',
-      'zrzucać skórę',
-      'deri değiştirmek',
-      'sich häuten',
-      '脱皮する',
-    ],
-    ['Il serpente cambia pelle ogni anno.', 'La lucertola cambia pelle.', 'Il ragno cambia pelle mentre cresce.'],
-    'a green snake next to its translucent shed snakeskin lying on the ground, whole animal visible',
-    [
-      'serpente',
-      'cobra',
-      'lucertola',
-      'iguana',
-      'ragno',
-      'granchio',
-      'cavalletta',
-      'drago-di-komodo',
-      'camaleonte',
-      'rana',
-      'scorpione',
-      'bruco',
-      'libellula',
-    ]
-  ),
-  verb(
     'sputare',
     'sputare',
-    'Buttare fuori dalla bocca un liquido.',
+    'Buttare fuori dalla bocca qualcosa.',
     ['to spit', 'escupir', 'cracher', 'plivat', 'pluć', 'tükürmek', 'spucken', '唾を吐く'],
-    ['Il lama sputa quando è arrabbiato.', 'Il cammello sputa se lo disturbano.', 'Il cobra sputa il veleno.'],
+    ['Il lama sputa quando è arrabbiato.', 'Non sputare per terra!', 'Il cammello sputa se lo disturbano.'],
     'a cross-looking llama with pursed lips and ears back, about to spit, whole animal visible',
     ['lama', 'cammello', 'cobra']
   ),
@@ -1224,8 +858,8 @@ export const verbVocabulary = [
     ['to spray', 'rociar', 'asperger', 'stříkat', 'pryskać', 'püskürtmek', 'spritzen', '水を吹きかける'],
     [
       'L’elefante spruzza l’acqua con la proboscide.',
+      'Spruzzo il profumo sul collo.',
       'La balena spruzza l’acqua dal dorso.',
-      'Il polpo spruzza l’inchiostro.',
     ],
     'a baby elephant spraying water from its trunk over its back, droplets in the air, whole animal visible',
     ['elefante', 'balena', 'polpo', 'orca', 'delfino']
@@ -1237,7 +871,7 @@ export const verbVocabulary = [
     ['to kick', 'cocear', 'ruer', 'kopat', 'kopać nogami', 'tekme atmak', 'ausschlagen', '蹴る'],
     [
       'Il cavallo scalcia quando è nervoso.',
-      'L’asino scalcia se ha paura.',
+      'Il bambino scalcia sotto la coperta.',
       'Il canguro scalcia con le zampe posteriori.',
     ],
     'a young donkey kicking up its back legs playfully in a field, side view, whole animal visible',
@@ -1259,8 +893,8 @@ export const verbVocabulary = [
     ],
     [
       'Il cane fa la guardia alla casa.',
+      'Il vigilante fa la guardia alla banca.',
       'Il suricato fa la guardia al gruppo.',
-      'Il gallo fa la guardia alle galline.',
     ],
     'a German shepherd dog sitting alert and upright beside a wooden gate, watchful eyes, whole dog visible',
     ['cane', 'suricato', 'gallo', 'lupo']
@@ -1270,7 +904,7 @@ export const verbVocabulary = [
     'annusare',
     'Sentire gli odori con il naso.',
     ['to sniff', 'oler', 'renifler', 'čenichat', 'wąchać', 'koklamak', 'schnüffeln', '嗅ぐ'],
-    ['Il cane annusa il prato.', 'Il maiale annusa la terra.', 'L’orso annusa l’aria.'],
+    ['Il cane annusa il prato.', 'Annuso il caffè: che profumo!', 'L’orso annusa l’aria.'],
     'a puppy sniffing a white daisy in the grass, nose close to the flower, whole dog visible',
     [
       'cane',
@@ -1296,7 +930,7 @@ export const verbVocabulary = [
     'leccare',
     'Passare la lingua su qualcosa.',
     ['to lick', 'lamer', 'lécher', 'olizovat', 'lízat', 'yalamak', 'lecken', 'なめる'],
-    ['Il gatto lecca la zampa e si pulisce.', 'Il cane lecca la mano del padrone.', 'La mucca lecca il suo piccolo.'],
+    ['Il gatto lecca la zampa e si pulisce.', 'Il bambino lecca il gelato.', 'La mucca lecca il suo piccolo.'],
     'a tabby cat licking its own front paw, eyes half closed, whole cat visible',
     [
       'gatto',
@@ -1318,7 +952,7 @@ export const verbVocabulary = [
     'brillare',
     'Fare luce o riflettere la luce.',
     ['to glow', 'brillar', 'briller', 'zářit', 'świecić', 'parlamak', 'leuchten', '光る'],
-    ['La lucciola brilla nel buio.', 'Le lucciole brillano d’estate.', 'La medusa brilla nell’acqua scura.'],
+    ['La lucciola brilla nel buio.', 'Le stelle brillano di notte.', 'I tuoi occhi brillano di gioia.'],
     'a firefly beetle glowing softly with a warm yellow-green light at the end of its body, macro photo',
     ['lucciola', 'medusa']
   ),
@@ -1338,8 +972,8 @@ export const verbVocabulary = [
     ],
     [
       'Il pipistrello si orienta con i suoni.',
+      'Non mi oriento senza il telefono.',
       'La rondine si orienta con le stelle.',
-      'Il delfino si orienta nel mare con i suoni.',
     ],
     'a small bat flying at night with its mouth open, whole animal visible',
     ['pipistrello', 'delfino', 'orca', 'balena', 'rondine', 'cicogna', 'colomba', 'formica', 'ape', 'tartaruga', 'foca']
@@ -1347,305 +981,22 @@ export const verbVocabulary = [
 
   // --- mangiare ---------------------------------------------------------------------------------------
   verb(
-    'pascolare',
-    'pascolare',
-    'Mangiare l’erba nel prato.',
-    ['to graze', 'pastar', 'paître', 'pást se', 'paść się', 'otlamak', 'weiden', '草を食べる'],
-    ['Le mucche pascolano nel prato.', 'Le pecore pascolano sulla collina.', 'I cavalli pascolano vicino al fiume.'],
-    'a woolly sheep grazing on grass with its head down, side view, whole animal visible',
-    [
-      'mucca',
-      'pecora',
-      'cavallo',
-      'capra',
-      'cervo',
-      'zebra',
-      'lama',
-      'asino',
-      'cammello',
-      'elefante',
-      'coniglio',
-      'rinoceronte',
-      'ippopotamo',
-      'canguro',
-    ]
-  ),
-  verb(
-    'rosicchiare',
-    'rosicchiare',
-    'Mangiare piano con i denti davanti.',
-    ['to gnaw', 'roer', 'ronger', 'hlodat', 'ogryzać', 'kemirmek', 'nagen', 'かじる'],
-    ['Il topo rosicchia il legno.', 'Il castoro rosicchia i tronchi.', 'Il coniglio rosicchia una carota.'],
-    'a small grey mouse nibbling a hazelnut held in its front paws, whole mouse visible',
-    ['topo', 'castoro', 'coniglio', 'scoiattolo', 'criceto', 'marmotta']
-  ),
-  verb(
-    'ruminare',
-    'ruminare',
-    'Masticare di nuovo il cibo già inghiottito.',
-    ['to chew the cud', 'rumiar', 'ruminer', 'přežvykovat', 'przeżuwać', 'geviş getirmek', 'wiederkäuen', '反芻する'],
-    ['La mucca rumina nel prato.', 'Le pecore ruminano all’ombra.', 'Il cammello rumina dopo aver mangiato.'],
-    'a calm white and brown goat chewing slowly with a relaxed face, side view, whole animal visible',
-    ['mucca', 'pecora', 'capra', 'cervo', 'giraffa', 'cammello', 'lama', 'canguro'],
-    [
-      'cane',
-      'gatto',
-      'cavallo',
-      'asino',
-      'maiale',
-      'leone',
-      'elefante',
-      'scimmia',
-      'ippopotamo',
-      'lupo',
-      'orso',
-      'zebra',
-    ]
-  ),
-  verb(
-    'beccare',
-    'beccare',
-    'Prendere il cibo con il becco.',
-    ['to peck', 'picotear', 'picorer', 'klovat', 'dziobać', 'gagalamak', 'picken', 'ついばむ'],
-    ['La gallina becca il grano.', 'La colomba becca le briciole.', 'Il picchio becca il tronco.'],
-    'a brown hen pecking grain from the ground with her head down, whole hen visible',
-    BIRDS,
-    [
-      'cane',
-      'gatto',
-      'cavallo',
-      'mucca',
-      'maiale',
-      'pecora',
-      'coniglio',
-      'topo',
-      'leone',
-      'elefante',
-      'delfino',
-      'serpente',
-      'rana',
-      'lumaca',
-      'farfalla',
-      'ragno',
-    ]
-  ),
-  verb(
-    'razzolare',
-    'razzolare',
-    'Cercare il cibo scavando con le zampe.',
-    [
-      'to scratch about',
-      'escarbar',
-      'gratter le sol',
-      'hrabat se v zemi',
-      'grzebać w ziemi',
-      'eşelenmek',
-      'scharren',
-      '地面をひっかく',
-    ],
-    ['La gallina razzola nel cortile.', 'Il gallo razzola tra le galline.', 'Le galline razzolano nel prato.'],
-    'a rooster scratching at the ground with one foot in a farmyard, whole bird visible',
-    ['gallina', 'gallo']
-  ),
-
-  // --- i versi -------------------------------------------------------------------------------------------
-  verb(
-    'abbaiare',
-    'abbaiare',
-    'Fare il verso del cane.',
-    ['to bark', 'ladrar', 'aboyer', 'štěkat', 'szczekać', 'havlamak', 'bellen', '吠える'],
-    ['Il cane abbaia forte.', 'Il cane abbaia quando arriva qualcuno.', 'Il cucciolo abbaia alla palla.'],
-    'a small dog barking with its mouth wide open, ears perked, whole dog visible',
-    ['cane']
-  ),
-  verb(
-    'miagolare',
-    'miagolare',
-    'Fare il verso del gatto.',
-    ['to meow', 'maullar', 'miauler', 'mňoukat', 'miauczeć', 'miyavlamak', 'miauen', 'ニャーと鳴く'],
-    ['Il gatto miagola davanti alla porta.', 'Il gattino miagola perché ha fame.', 'La gatta miagola tutta la notte.'],
-    'a ginger kitten meowing with its mouth open, sitting, whole kitten visible',
-    ['gatto']
-  ),
-  verb(
-    'ruggire',
-    'ruggire',
-    'Fare il verso forte del leone.',
-    ['to roar', 'rugir', 'rugir', 'řvát', 'ryczeć', 'kükremek', 'brüllen', 'ほえる'],
-    ['Il leone ruggisce forte.', 'La tigre ruggisce nella foresta.', 'Il leoncino prova a ruggire.'],
-    'a young lion roaring with its mouth wide open, mane fluffy, whole animal visible',
-    ['leone', 'tigre', 'leopardo', 'orso']
-  ),
-  verb(
-    'ululare',
-    'ululare',
-    'Fare il verso lungo del lupo.',
-    ['to howl', 'aullar', 'hurler', 'výt', 'wyć', 'ulumak', 'heulen', '遠吠えする'],
-    ['Il lupo ulula alla luna.', 'I lupi ululano di notte.', 'Il mio cane ulula quando sente la sirena.'],
-    'a grey wolf sitting and howling with its head raised and mouth in an O shape, whole animal visible',
-    ['lupo', 'cane']
-  ),
-  verb(
-    'muggire',
-    'muggire',
-    'Fare il verso della mucca.',
-    ['to moo', 'mugir', 'meugler', 'bučet', 'muczeć', 'böğürmek', 'muhen', 'モーと鳴く'],
-    ['La mucca muggisce nel prato.', 'La mucca muggisce quando ha fame.', 'Il vitello muggisce dietro la mamma.'],
-    'a black and white cow mooing with its head raised and mouth open, whole cow visible',
-    ['mucca']
-  ),
-  verb(
-    'belare',
-    'belare',
-    'Fare il verso della pecora.',
-    ['to bleat', 'balar', 'bêler', 'bečet', 'beczeć', 'melemek', 'blöken', 'メーと鳴く'],
-    ['La pecora bela nel prato.', 'La capra bela sulla montagna.', 'L’agnello bela dietro la mamma.'],
-    'a fluffy white sheep bleating with its mouth open, standing, whole sheep visible',
-    ['pecora', 'capra']
-  ),
-  verb(
-    'nitrire',
-    'nitrire',
-    'Fare il verso del cavallo.',
-    ['to neigh', 'relinchar', 'hennir', 'řehtat', 'rżeć', 'kişnemek', 'wiehern', 'いななく'],
-    ['Il cavallo nitrisce nella stalla.', 'Il cavallo nitrisce quando vede il padrone.', 'Il puledro nitrisce forte.'],
-    'a brown horse neighing with its head raised and mouth open, mane flying, whole horse visible',
-    ['cavallo']
-  ),
-  verb(
-    'ragliare',
-    'ragliare',
-    'Fare il verso dell’asino.',
-    ['to bray', 'rebuznar', 'braire', 'hýkat', 'ryczeć', 'anırmak', 'iahen', 'ヒーホーと鳴く'],
-    ['L’asino raglia nel campo.', 'L’asino raglia forte al mattino.', 'Sento l’asino ragliare.'],
-    'a grey donkey braying with its head stretched forward and mouth wide open, whole donkey visible',
-    ['asino']
-  ),
-  verb(
-    'grugnire',
-    'grugnire',
-    'Fare il verso del maiale.',
-    ['to grunt', 'gruñir', 'grogner', 'chrochtat', 'chrząkać', 'homurdanmak', 'grunzen', 'ブーブー鳴く'],
-    ['Il maiale grugnisce nel fango.', 'Il cinghiale grugnisce nel bosco.', 'I maialini grugniscono.'],
-    'a pink pig with its snout raised and mouth slightly open, grunting, whole pig visible',
-    ['maiale', 'cinghiale']
-  ),
-  verb(
     'cantare',
     'cantare',
-    'Fare un suono melodioso.',
+    'Fare un suono melodioso con la voce.',
     ['to sing', 'cantar', 'chanter', 'zpívat', 'śpiewać', 'ötmek', 'singen', '歌う'],
-    ['Il gallo canta la mattina.', 'L’usignolo canta di notte.', 'Gli uccelli cantano all’alba.'],
+    ['Il gallo canta la mattina.', 'Mia sorella canta sotto la doccia.', 'Gli uccelli cantano all’alba.'],
     'a small nightingale singing with its beak open and its throat puffed, on a twig, whole bird visible',
     ['gallo', 'usignolo', 'pappagallo', 'rondine', 'balena', 'cavalletta']
-  ),
-  verb(
-    'gracchiare',
-    'gracchiare',
-    'Fare il verso rauco del corvo.',
-    ['to caw', 'graznar', 'croasser', 'krákat', 'krakać', 'gaklamak', 'krächzen', 'カアカア鳴く'],
-    ['Il corvo gracchia sull’albero.', 'I corvi gracchiano nel campo.', 'Il corvo gracchia forte.'],
-    'a glossy black raven cawing with its beak wide open, perched, whole bird visible',
-    ['corvo']
-  ),
-  verb(
-    'gracidare',
-    'gracidare',
-    'Fare il verso della rana.',
-    ['to croak', 'croar', 'coasser', 'kvákat', 'rechotać', 'vaklamak', 'quaken', 'ゲロゲロ鳴く'],
-    ['La rana gracida nello stagno.', 'Le rane gracidano di sera.', 'Il rospo gracida vicino al fiume.'],
-    'a bright green frog croaking with its throat puffed out into a round bubble, whole frog visible',
-    ['rana', 'rospo']
   ),
   verb(
     'fischiare',
     'fischiare',
     'Fare un suono acuto e sottile.',
     ['to whistle', 'silbar', 'siffler', 'pískat', 'gwizdać', 'ıslık çalmak', 'pfeifen', 'ピーと鳴く'],
-    ['La marmotta fischia per avvisare gli altri.', 'Il delfino fischia sott’acqua.', 'Il pastore fischia al cane.'],
+    ['La marmotta fischia per avvisare gli altri.', 'Mio nonno fischia una canzone.', 'Il delfino fischia sott’acqua.'],
     'an alpine marmot standing upright whistling with its mouth slightly open, whole animal visible',
     ['marmotta', 'delfino', 'orca', 'usignolo']
-  ),
-  verb(
-    'barrire',
-    'barrire',
-    'Fare il verso dell’elefante.',
-    [
-      'to trumpet',
-      'barritar',
-      'barrir',
-      'troubit',
-      'trąbić',
-      'trompet gibi ses çıkarmak',
-      'trompeten',
-      'パオーンと鳴く',
-    ],
-    ['L’elefante barrisce nella savana.', 'L’elefante barrisce per chiamare i piccoli.', 'Sento l’elefante barrire.'],
-    'an elephant trumpeting with its trunk raised high and ears spread, whole animal visible',
-    ['elefante']
-  ),
-  verb(
-    'squittire',
-    'squittire',
-    'Fare il verso acuto del topo.',
-    ['to squeak', 'chillar', 'couiner', 'pištět', 'piszczeć', 'cıyaklamak', 'fiepen', 'チューチュー鳴く'],
-    ['Il topo squittisce nel buio.', 'Il criceto squittisce quando ha fame.', 'Il pipistrello squittisce in volo.'],
-    'a small grey mouse squeaking with its mouth open, sitting up on its hind legs, whole mouse visible',
-    ['topo', 'criceto', 'pipistrello', 'scoiattolo']
-  ),
-  verb(
-    'ronzare',
-    'ronzare',
-    'Fare il suono continuo degli insetti che volano.',
-    ['to buzz', 'zumbar', 'bourdonner', 'bzučet', 'bzyczeć', 'vızıldamak', 'summen', 'ブンブン音を立てる'],
-    ['L’ape ronza intorno al fiore.', 'La zanzara ronza nella notte.', 'Le api ronzano nell’alveare.'],
-    'a honeybee in flight with blurred wings near a small flower, macro photo, whole bee visible',
-    ['ape', 'zanzara']
-  ),
-  verb(
-    'chiocciare',
-    'chiocciare',
-    'Fare il verso della gallina.',
-    ['to cluck', 'cacarear', 'glousser', 'kdákat', 'gdakać', 'gıdaklamak', 'gackern', 'コッコッと鳴く'],
-    ['La gallina chioccia nel cortile.', 'La gallina chioccia con i pulcini.', 'Le galline chiocciano al mattino.'],
-    'a brown hen clucking with her beak open and neck stretched, whole hen visible',
-    ['gallina']
-  ),
-  verb(
-    'tubare',
-    'tubare',
-    'Fare il verso della colomba.',
-    ['to coo', 'arrullar', 'roucouler', 'vrkat', 'gruchać', 'guruldamak', 'gurren', 'クークー鳴く'],
-    ['La colomba tuba sul tetto.', 'I piccioni tubano sulla piazza.', 'La colomba tuba al mattino.'],
-    'a white dove cooing with its throat puffed up, standing, whole bird visible',
-    ['colomba']
-  ),
-  verb(
-    'starnazzare',
-    'starnazzare',
-    'Fare il verso forte dell’anatra.',
-    ['to quack noisily', 'graznar', 'cancaner', 'kvakat', 'kwakać', 'vaklamak', 'schnattern', 'ガーガー鳴く'],
-    ['L’anatra starnazza nello stagno.', 'Le anatre starnazzano nel lago.', 'La gallina starnazza spaventata.'],
-    'a mallard duck quacking loudly with its bill wide open and wings half flapping, whole duck visible',
-    ['anatra', 'gallina']
-  ),
-  verb(
-    'cinguettare',
-    'cinguettare',
-    'Fare i versi brevi degli uccellini.',
-    ['to chirp', 'gorjear', 'gazouiller', 'cvrlikat', 'ćwierkać', 'cıvıldamak', 'zwitschern', 'さえずる'],
-    ['La rondine cinguetta sul filo.', 'Gli uccellini cinguettano al mattino.', 'L’usignolo cinguetta sull’albero.'],
-    'a barn swallow chirping on a thin branch with its beak open, whole bird visible',
-    ['rondine', 'usignolo', 'colibri']
-  ),
-  verb(
-    'sibilare',
-    'sibilare',
-    'Fare un suono lungo e sottile, come un soffio.',
-    ['to hiss', 'sisear', 'siffler', 'syčet', 'syczeć', 'tıslamak', 'zischen', 'シューと音を出す'],
-    ['Il serpente sibila nell’erba.', 'Il cobra sibila quando si sente in pericolo.', 'Il gatto sibila se ha paura.'],
-    'a cat with its back arched hissing with its mouth open, fur puffed up, whole cat visible',
-    ['serpente', 'cobra', 'gatto', 'cigno', 'coccodrillo']
   ),
   verb(
     'strillare',
@@ -1661,7 +1012,7 @@ export const verbVocabulary = [
       'kreischen',
       'キーキー叫ぶ',
     ],
-    ['Il gabbiano strilla sopra il mare.', 'Il pappagallo strilla tutto il giorno.', 'La scimmia strilla sull’albero.'],
+    ['Il gabbiano strilla sopra il mare.', 'Il bambino strilla perché ha paura.', 'La scimmia strilla sull’albero.'],
     'a colourful scarlet macaw parrot squawking with its beak wide open and wings half spread, whole bird visible',
     ['gabbiano', 'pappagallo', 'scimmia', 'scimpanze', 'pavone', 'falco', 'aquila']
   ),
@@ -1670,89 +1021,31 @@ export const verbVocabulary = [
     'ridere',
     'Fare una risata.',
     ['to laugh', 'reír', 'rire', 'smát se', 'śmiać się', 'gülmek', 'lachen', '笑う'],
-    ['La iena ride nella savana.', 'Il delfino sembra ridere.', 'Quando la iena ride, tutti la sentono.'],
+    ['La iena ride nella savana.', 'Quando vedo un film comico, rido molto.', 'Il delfino sembra ridere.'],
     'a spotted hyena with its mouth open in a laughing expression, whole animal visible',
     ['iena', 'scimpanze', 'gorilla', 'scimmia']
-  ),
-  verb(
-    'picchiettare',
-    'picchiettare',
-    'Battere con il becco su un legno.',
-    ['to tap', 'golpetear', 'tapoter', 'klepat', 'stukać', 'gagalayarak vurmak', 'hämmern', 'コツコツたたく'],
-    [
-      'Il picchio picchietta sul tronco.',
-      'Il picchio picchietta tutto il giorno.',
-      'Sento il picchio picchiettare nel bosco.',
-    ],
-    'a great spotted woodpecker clinging to a tree trunk and tapping it with its beak, whole bird visible',
-    ['picchio']
   ),
   verb(
     'imitare',
     'imitare',
     'Fare le stesse cose o gli stessi suoni di un altro.',
     ['to imitate', 'imitar', 'imiter', 'napodobovat', 'naśladować', 'taklit etmek', 'nachahmen', 'まねをする'],
-    ['Il pappagallo imita la voce delle persone.', 'La scimmia imita i gesti.', 'Il corvo imita i suoni.'],
+    ['Il pappagallo imita la voce delle persone.', 'I bambini imitano i genitori.', 'Il corvo imita i suoni.'],
     'a colourful parrot with its head tilted and beak open as if repeating a word, whole bird visible',
     ['pappagallo', 'scimmia', 'scimpanze', 'corvo', 'usignolo', 'delfino']
   ),
 
   // --- gesti tipici ----------------------------------------------------------------------------------------
   verb(
-    'scodinzolare',
-    'scodinzolare',
-    'Muovere la coda da una parte all’altra.',
-    [
-      'to wag its tail',
-      'mover la cola',
-      'remuer la queue',
-      'vrtět ocasem',
-      'machać ogonem',
-      'kuyruk sallamak',
-      'mit dem Schwanz wedeln',
-      'しっぽを振る',
-    ],
-    ['Il cane scodinzola quando è felice.', 'Il cucciolo scodinzola alla porta.', 'Il mio cane scodinzola sempre.'],
-    'a happy golden retriever with its tail visibly blurred from wagging, big smile, whole dog visible',
-    ['cane']
-  ),
-  verb(
-    'fare-le-fusa',
-    'fare le fusa',
-    'Fare un rumore dolce quando si è contenti.',
-    ['to purr', 'ronronear', 'ronronner', 'příst', 'mruczeć', 'mırlamak', 'schnurren', 'ゴロゴロ言う'],
-    [
-      'Il gatto fa le fusa sulle mie gambe.',
-      'Il gattino fa le fusa quando lo accarezzo.',
-      'Quando è felice, il gatto fa le fusa.',
-    ],
-    'a grey tabby cat with closed contented eyes purring, sitting relaxed, whole cat visible',
-    ['gatto']
-  ),
-  verb(
-    'fare-la-ruota',
-    'fare la ruota',
-    'Aprire le piume della coda come un grande ventaglio.',
-    [
-      'to fan its tail',
-      'hacer la rueda',
-      'faire la roue',
-      'roztahovat ocas',
-      'rozkładać ogon',
-      'kuyruğunu açmak',
-      'ein Rad schlagen',
-      '尾羽を広げる',
-    ],
-    ['Il pavone fa la ruota.', 'Il pavone fa la ruota per farsi ammirare.', 'Guarda: il pavone fa la ruota!'],
-    'a peacock with its tail feathers fully fanned out in a big circle, iridescent blue and green, whole bird visible',
-    ['pavone']
-  ),
-  verb(
     'ricordare',
     'ricordare',
     'Non dimenticare.',
     ['to remember', 'recordar', 'se souvenir', 'pamatovat si', 'pamiętać', 'hatırlamak', 'sich erinnern', '覚えている'],
-    ['L’elefante ricorda tutto.', 'Il cane ricorda il suo padrone.', 'Il delfino ricorda i fischi dei suoi amici.'],
+    [
+      'L’elefante ricorda tutto.',
+      'Non ricordo il tuo numero di telefono.',
+      'Il delfino ricorda i fischi dei suoi amici.',
+    ],
     'an old elephant with a wise thoughtful look, trunk curled, kind eye, whole animal visible',
     ['elefante', 'delfino', 'corvo', 'cane', 'scimpanze', 'pappagallo', 'orca', 'polpo', 'cavallo', 'gatto']
   ),
@@ -1763,7 +1056,7 @@ export const verbVocabulary = [
     ['to wait', 'esperar', 'attendre', 'čekat', 'czekać', 'beklemek', 'warten', '待つ'],
     [
       'Il gatto aspetta davanti al buco.',
-      'Il coccodrillo aspetta immobile nell’acqua.',
+      'Aspetto l’autobus da dieci minuti.',
       'Il cane aspetta il padrone alla finestra.',
     ],
     'a loyal dog sitting patiently beside a wooden door, looking up, whole dog visible',
@@ -1783,12 +1076,160 @@ export const verbVocabulary = [
   ),
 ];
 
-// --- le frasi da tradurre -------------------------------------------------------------------
+// --- l'ordine nella pagina --------------------------------------------------------------------
+// Dal 2026-09-25 i verbi sono quelli di tutti i giorni: 51 dei 91 della prima versione (quelli che
+// valgono anche per le persone) piu' i nuovi di verbs-everyday.mjs, in ordine di argomento.
 
-const tr = (solution, en, es, fr, cs, pl, trk, de, ja) => ({
-  solution,
-  prompt: { it: en, en, es, fr, cs, pl, tr: trk, de, ja },
+const VERB_ORDER = [
+  // vita e corpo
+  'nascere',
+  'crescere',
+  'vivere',
+  'morire',
+  'svegliarsi',
+  'addormentarsi',
+  'dormire',
+  'sognare',
+  'respirare',
+  'sbadigliare',
+  'russare',
+  'starnutire',
+  'piangere',
+  'ridere',
+  'sorridere',
+  // muoversi
+  'camminare',
+  'correre',
+  'saltare',
+  'arrampicarsi',
+  'salire',
+  'scendere',
+  'cadere',
+  'inciampare',
+  'scivolare',
+  'strisciare',
+  'rotolarsi',
+  'dondolarsi',
+  'appendersi',
+  'stare-in-piedi',
+  'sedersi',
+  'sdraiarsi',
+  'alzarsi',
+  'stiracchiarsi',
+  'scuotersi',
+  'fermarsi',
+  // andare e venire
+  'partire',
+  'arrivare',
+  'tornare',
+  'entrare',
+  'uscire',
+  'attraversare',
+  'seguire',
+  'inseguire',
+  'scappare',
+  'migrare',
+  'orientarsi',
+  // aria e acqua
+  'volare',
+  'nuotare',
+  'immergersi',
+  'tuffarsi',
+  'galleggiare',
+  // prendere e spostare
+  'afferrare',
+  'portare',
+  'raccogliere',
+  'spingere',
+  'tirare',
+  'lanciare',
+  'scavare',
+  // cacciare e difendersi
+  'cacciare',
+  'mordere',
+  'pungere',
+  'graffiare',
+  'sputare',
+  'spruzzare',
+  'scalciare',
+  'nascondersi',
+  'fare-la-guardia',
+  'proteggere',
+  // sensi e mente
+  'guardare',
+  'osservare',
+  'ascoltare',
+  'annusare',
+  'cercare',
+  'trovare',
+  'pensare',
+  'imparare',
+  'ricordare',
+  'aspettare',
+  // stare con gli altri
+  'giocare',
+  'divertirsi',
+  'abbracciare',
+  'baciare',
+  'innamorarsi',
+  'salutare',
+  'aiutare',
+  'condividere',
+  'litigare',
+  'fare-pace',
+  'imitare',
+  // la voce
+  'chiamare',
+  'urlare',
+  'strillare',
+  'sussurrare',
+  'fare-rumore',
+  'cantare',
+  'fischiare',
+  // cibo e cura di se'
+  'mangiare',
+  'bere',
+  'dare-da-mangiare',
+  'allattare',
+  'leccare',
+  'lavarsi',
+  'pulire',
+  'grattarsi',
+  'prendere-il-sole',
+  'riposarsi',
+  'spaventarsi',
+  'vergognarsi',
+  // lavorare e costruire
+  'lavorare',
+  'costruire',
+  'fare-scorte',
+  'trasformarsi',
+  'cambiare-colore',
+  'brillare',
+  'succhiare',
+  'leggere',
+  'dipingere',
+  'ballare',
+  'vincere',
+];
+
+const everyVerb = [...keptVerbs, ...everydayVerbs];
+const verbBySlug = new Map(everyVerb.map((v) => [v.slug, v]));
+
+export const verbVocabulary = VERB_ORDER.map((slug) => {
+  const v = verbBySlug.get(slug);
+  if (!v) throw new Error(`verbo sconosciuto: ${slug}`);
+  return v;
 });
+
+{
+  const listed = new Set(VERB_ORDER);
+  const orphans = everyVerb.filter((v) => !listed.has(v.slug)).map((v) => v.slug);
+  if (orphans.length) throw new Error(`verbi definiti ma non in VERB_ORDER: ${orphans.join(', ')}`);
+  if (listed.size !== VERB_ORDER.length) throw new Error('VERB_ORDER contiene doppioni');
+}
+
+// --- le frasi da tradurre -------------------------------------------------------------------
 
 export const verbTranslationExercises = [
   tr(
@@ -1803,17 +1244,6 @@ export const verbTranslationExercises = [
     'ビーバーはダムを作ります。'
   ),
   tr(
-    'Il cane abbaia forte.',
-    'The dog barks loudly.',
-    'El perro ladra fuerte.',
-    'Le chien aboie fort.',
-    'Pes hlasitě štěká.',
-    'Pies głośno szczeka.',
-    'Köpek yüksek sesle havlar.',
-    'Der Hund bellt laut.',
-    '犬は大きな声で吠えます。'
-  ),
-  tr(
     'L’aquila vola molto in alto.',
     'The eagle flies very high.',
     'El águila vuela muy alto.',
@@ -1825,17 +1255,6 @@ export const verbTranslationExercises = [
     'ワシはとても高く飛びます。'
   ),
   tr(
-    'Il ragno tesse la tela tra due rami.',
-    'The spider weaves its web between two branches.',
-    'La araña teje su tela entre dos ramas.',
-    'L’araignée tisse sa toile entre deux branches.',
-    'Pavouk tká síť mezi dvěma větvemi.',
-    'Pająk tka sieć między dwiema gałęziami.',
-    'Örümcek iki dal arasında ağ örer.',
-    'Die Spinne webt ihr Netz zwischen zwei Ästen.',
-    'クモは二本の枝のあいだに巣を張ります。'
-  ),
-  tr(
     'Il canguro salta molto lontano.',
     'The kangaroo jumps very far.',
     'El canguro salta muy lejos.',
@@ -1845,17 +1264,6 @@ export const verbTranslationExercises = [
     'Kanguru çok uzağa zıplar.',
     'Das Känguru springt sehr weit.',
     'カンガルーはとても遠くまで跳びます。'
-  ),
-  tr(
-    'L’orso va in letargo in inverno.',
-    'The bear hibernates in winter.',
-    'El oso hiberna en invierno.',
-    'L’ours hiberne en hiver.',
-    'Medvěd v zimě přezimuje.',
-    'Niedźwiedź zapada w sen zimowy zimą.',
-    'Ayı kışın kış uykusuna yatar.',
-    'Der Bär hält im Winter Winterschlaf.',
-    'クマは冬に冬眠します。'
   ),
   tr(
     'La talpa scava una galleria.',
@@ -1880,17 +1288,6 @@ export const verbTranslationExercises = [
     'オンドリは朝に鳴きます。'
   ),
   tr(
-    'La mucca muggisce nel prato.',
-    'The cow moos in the meadow.',
-    'La vaca muge en el prado.',
-    'La vache meugle dans le pré.',
-    'Kráva bučí na louce.',
-    'Krowa muczy na łące.',
-    'İnek çayırda böğürür.',
-    'Die Kuh muht auf der Wiese.',
-    '牛は牧場でモーと鳴きます。'
-  ),
-  tr(
     'Il pinguino scivola sul ghiaccio.',
     'The penguin slides on the ice.',
     'El pingüino se desliza sobre el hielo.',
@@ -1913,14 +1310,113 @@ export const verbTranslationExercises = [
     'カメレオンは色を変えます。'
   ),
   tr(
-    'L’ape raccoglie il polline.',
-    'The bee gathers pollen.',
-    'La abeja recoge el polen.',
-    'L’abeille récolte le pollen.',
-    'Včela sbírá pyl.',
-    'Pszczoła zbiera pyłek.',
-    'Arı polen toplar.',
-    'Die Biene sammelt Pollen.',
-    'ミツバチは花粉を集めます。'
+    'Mio padre lavora in banca tutto il giorno.',
+    'My father works at a bank all day.',
+    'Mi padre trabaja en un banco todo el día.',
+    'Mon père travaille à la banque toute la journée.',
+    'Můj otec pracuje celý den v bance.',
+    'Mój tata pracuje w banku cały dzień.',
+    'Babam bütün gün bankada çalışıyor.',
+    'Mein Vater arbeitet den ganzen Tag in der Bank.',
+    '父は一日中、銀行で働いています。'
+  ),
+  tr(
+    'Il cucciolo nasce in primavera.',
+    'The puppy is born in spring.',
+    'El cachorro nace en primavera.',
+    'Le chiot naît au printemps.',
+    'Štěně se rodí na jaře.',
+    'Szczeniak rodzi się wiosną.',
+    'Yavru köpek ilkbaharda doğar.',
+    'Der Welpe wird im Frühling geboren.',
+    '子犬は春に生まれます。'
+  ),
+  tr(
+    'Mi piace nuotare in mare.',
+    'I like swimming in the sea.',
+    'Me gusta nadar en el mar.',
+    'J’aime nager dans la mer.',
+    'Rád plavu v moři.',
+    'Lubię pływać w morzu.',
+    'Denizde yüzmeyi severim.',
+    'Ich schwimme gern im Meer.',
+    '私は海で泳ぐのが好きです。'
+  ),
+  tr(
+    'Aspetto l’autobus da dieci minuti.',
+    'I have been waiting for the bus for ten minutes.',
+    'Espero el autobús desde hace diez minutos.',
+    'J’attends le bus depuis dix minutes.',
+    'Čekám na autobus už deset minut.',
+    'Czekam na autobus już dziesięć minut.',
+    'On dakikadır otobüsü bekliyorum.',
+    'Ich warte seit zehn Minuten auf den Bus.',
+    '10分前からバスを待っています。'
+  ),
+  tr(
+    'Il bambino piange quando ha fame.',
+    'The child cries when he is hungry.',
+    'El niño llora cuando tiene hambre.',
+    'L’enfant pleure quand il a faim.',
+    'Dítě pláče, když má hlad.',
+    'Dziecko płacze, kiedy jest głodne.',
+    'Çocuk acıkınca ağlar.',
+    'Das Kind weint, wenn es Hunger hat.',
+    '子どもはお腹がすくと泣きます。'
+  ),
+  tr(
+    'I bambini ridono e giocano nel parco.',
+    'The children laugh and play in the park.',
+    'Los niños ríen y juegan en el parque.',
+    'Les enfants rient et jouent dans le parc.',
+    'Děti se smějí a hrají si v parku.',
+    'Dzieci śmieją się i bawią w parku.',
+    'Çocuklar parkta gülüyor ve oynuyor.',
+    'Die Kinder lachen und spielen im Park.',
+    '子どもたちは公園で笑って遊んでいます。'
+  ),
+  tr(
+    'Il nonno dorme e russa sul divano.',
+    'Grandpa sleeps and snores on the sofa.',
+    'El abuelo duerme y ronca en el sofá.',
+    'Grand-père dort et ronfle sur le canapé.',
+    'Dědeček spí a chrápe na pohovce.',
+    'Dziadek śpi i chrapie na kanapie.',
+    'Büyükbaba kanepede uyuyor ve horluyor.',
+    'Opa schläft und schnarcht auf dem Sofa.',
+    'おじいちゃんはソファで寝て、いびきをかいています。'
+  ),
+  tr(
+    'La mamma aiuta il bambino a leggere.',
+    'The mother helps the child to read.',
+    'La madre ayuda al niño a leer.',
+    'La maman aide l’enfant à lire.',
+    'Maminka pomáhá dítěti číst.',
+    'Mama pomaga dziecku czytać.',
+    'Anne çocuğa okumada yardım ediyor.',
+    'Die Mutter hilft dem Kind beim Lesen.',
+    'お母さんは子どもが本を読むのを手伝います。'
+  ),
+  tr(
+    'I due gatti litigano per il cuscino.',
+    'The two cats are fighting over the cushion.',
+    'Los dos gatos discuten por el cojín.',
+    'Les deux chats se disputent le coussin.',
+    'Obě kočky se hádají o polštář.',
+    'Dwa koty kłócą się o poduszkę.',
+    'İki kedi yastık yüzünden tartışıyor.',
+    'Die zwei Katzen streiten sich um das Kissen.',
+    '2匹の猫はクッションのことでけんかしています。'
+  ),
+  tr(
+    'Ogni mattina mi sveglio alle sette e corro nel parco.',
+    'Every morning I wake up at seven and run in the park.',
+    'Cada mañana me despierto a las siete y corro en el parque.',
+    'Chaque matin, je me réveille à sept heures et je cours dans le parc.',
+    'Každé ráno se probouzím v sedm a běhám v parku.',
+    'Każdego ranka budzę się o siódmej i biegam w parku.',
+    'Her sabah yedide uyanır ve parkta koşarım.',
+    'Jeden Morgen wache ich um sieben auf und laufe im Park.',
+    '毎朝7時に起きて、公園を走ります。'
   ),
 ];

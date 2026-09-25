@@ -79,11 +79,12 @@ const routes = {
   // Aggettivi e verbi: niente «Riconosci la parola» (un aggettivo o un verbo non si riconosce da una
   // foto), ma due esercizi con trascinamento: una riga per ogni parola («quale animale e' cosi' / lo
   // fa?») e, per le parole con animali che chiaramente non lo sono, una riga in «non lo e'».
-  // Nei verbi tre non hanno riga (dormire, mangiare, camminare: ogni animale lo fa).
+  // Le parole che valgono per ogni animale (verbi: nascere, dormire, mangiare, guardare; aggettivi di
+  // stato: stanco, bagnato, malato) hanno la scheda ma non la riga negli esercizi.
   fisiche: {
-    count: 32,
+    count: 50,
     tests: 0,
-    match: { positive: 32, negative: 13 },
+    match: { positive: 35, negative: 13 },
     it: 'vocabolario/caratteristiche-fisiche-animali.html',
     en: 'en/vocabulary/italian-animal-physical-traits-vocabulary.html',
     es: 'es/vocabulario/vocabulario-caracteristicas-fisicas-animales-en-italiano.html',
@@ -95,9 +96,9 @@ const routes = {
     ja: 'ja/goi/italian-animal-physical-traits-vocabulary.html',
   },
   personalita: {
-    count: 35,
+    count: 62,
     tests: 0,
-    match: { positive: 35, negative: 10 },
+    match: { positive: 62, negative: 9 },
     it: 'vocabolario/personalita-animali.html',
     en: 'en/vocabulary/italian-animal-personality-vocabulary.html',
     es: 'es/vocabulario/vocabulario-personalidad-animales-en-italiano.html',
@@ -109,9 +110,9 @@ const routes = {
     ja: 'ja/goi/italian-animal-personality-vocabulary.html',
   },
   verbi: {
-    count: 91,
+    count: 119,
     tests: 0,
-    match: { positive: 88, negative: 7 },
+    match: { positive: 82, negative: 7 },
     it: 'vocabolario/verbi-animali.html',
     en: 'en/vocabulary/italian-animal-verbs-vocabulary.html',
     es: 'es/vocabulario/vocabulario-verbos-de-animales-en-italiano.html',
