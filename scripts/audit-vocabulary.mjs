@@ -123,6 +123,33 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-tiere.html',
     ja: 'ja/goi/italian-animal-verbs-vocabulary.html',
   },
+  corpo: {
+    count: 63,
+    it: 'vocabolario/corpo-umano.html',
+    en: 'en/vocabulary/italian-human-body-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-cuerpo-humano-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-du-corps-humain-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-lidske-telo.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-cialo-czlowieka.html',
+    tr: 'tr/kelime-bilgisi/italyanca-insan-vucudu-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-menschlicher-koerper.html',
+    ja: 'ja/goi/italian-human-body-vocabulary.html',
+  },
+  // «I verbi del corpo»: come i verbi degli animali, ma le parole da trascinare sono parti del corpo.
+  verbicorpo: {
+    count: 94,
+    tests: 0,
+    match: { positive: 88, negative: 34 },
+    it: 'vocabolario/verbi-corpo.html',
+    en: 'en/vocabulary/italian-body-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-del-cuerpo-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-du-corps-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-tela.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-ciala.html',
+    tr: 'tr/kelime-bilgisi/italyanca-vucut-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-koerper.html',
+    ja: 'ja/goi/italian-body-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -173,9 +200,9 @@ function checkMatchExercises($, relative, expected, errors) {
           }
           if (!ok.length) errors.push(`${relative}: ${mode} row ${key} has no correct answer`);
           if (ok.length >= bank.size)
-            errors.push(`${relative}: ${mode} row ${key} has no wrong animal in its tray, everything would be correct`);
+            errors.push(`${relative}: ${mode} row ${key} has no wrong chip in its tray, everything would be correct`);
           if (ok.some((a) => !bank.has(a)))
-            errors.push(`${relative}: ${mode} row ${key} expects an animal that is not in its tray`);
+            errors.push(`${relative}: ${mode} row ${key} expects a chip that is not in its tray`);
           if (!ok.includes($(row).attr('data-hint'))) errors.push(`${relative}: ${mode} row ${key} has a wrong hint`);
         });
     });
@@ -240,6 +267,8 @@ for (const lesson of [
   'caratteristiche-fisiche-animali',
   'personalita-animali',
   'verbi-animali',
+  'corpo-umano',
+  'verbi-corpo',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

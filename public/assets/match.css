@@ -276,6 +276,7 @@
   width: 56px;
   height: 56px;
   object-fit: contain;
+  mix-blend-mode: multiply; /* il bianco delle foto ritoccate senza ritaglio sparisce anche sul fondo colorato */
   pointer-events: none;
   -webkit-user-drag: none;
 }

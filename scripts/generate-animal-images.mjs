@@ -3,6 +3,8 @@
 //   - «Gli animali» (100 parole)                                  -> --set animali
 //   - «Le caratteristiche fisiche» e «La personalita'» (67 agg.)  -> --set caratteristiche
 //   - «I verbi degli animali» (91 verbi)                          -> --set verbi
+//   - «Il corpo umano» (63 parti del corpo, foto realistiche)     -> --set corpo
+//   - «I verbi del corpo» (94 verbi, foto realistiche)            -> --set verbi-corpo
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -12,6 +14,8 @@
 // `google/gemini-3-pro-image`.
 //
 // Stile voluto da Martin (2026-09-24): animali simpatici ma REALISTICI, non cartoni.
+// Le due lezioni sul corpo (2026-09-25): foto fotorealistiche di persone, modello `medium` (le mani
+// e i piedi a qualita' bassa escono con dita in piu').
 // Vincoli del progetto: nessuna carne, nessun cibo di origine animale in scena.
 //
 // IMPORTANTE: le immagini grezze vanno poi ripulite dallo sfondo con
@@ -30,6 +34,8 @@ import { fileURLToPath } from 'node:url';
 import { animalVocabulary } from './data/animals-vocabulary.mjs';
 import { traitVocabulary } from './data/traits-vocabulary.mjs';
 import { verbVocabulary } from './data/verbs-vocabulary.mjs';
+import { bodyVocabulary } from './data/body-vocabulary.mjs';
+import { bodyVerbs } from './data/body-verbs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -52,16 +58,23 @@ const getArg = (n) => {
 
 const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
-const quality = getArg('--quality') || 'low';
+const bodySet = setName === 'corpo' || setName === 'verbi-corpo';
+const quality = getArg('--quality') || (bodySet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
 const outDir = getArg('--out-dir');
 const concurrency = Number(getArg('--concurrency') || 4);
 const dryRun = args.includes('--dry-run');
 
-const sets = { animali: animalVocabulary, caratteristiche: traitVocabulary, verbi: verbVocabulary };
+const sets = {
+  animali: animalVocabulary,
+  caratteristiche: traitVocabulary,
+  verbi: verbVocabulary,
+  corpo: bodyVocabulary,
+  'verbi-corpo': bodyVerbs,
+};
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche|verbi.');
+  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo.');
   process.exit(1);
 }
 if (!dryRun && !outDir) {
@@ -69,13 +82,28 @@ if (!dryRun && !outDir) {
   process.exit(1);
 }
 
-const STYLE = [
+const PHOTO_END = [
+  'Plain pure white background (#FFFFFF), soft diffused studio light, minimal contact shadow only, everything in sharp focus.',
+  'The whole subject is completely inside the frame with a generous empty white margin on every side (at least 8%), never touching the edges of the picture, unless the subject is described as cropped.',
+  'Correct human anatomy: exactly five fingers on each hand and five toes on each foot.',
+  'No text, no logo, no watermark, no frame, no border, no meat, no blood, no nudity.',
+];
+const BODY_STYLE = [
+  'Photorealistic studio photograph with true-to-life skin, hair and anatomy and natural colours, sharp and clean, like a stock photo for a school textbook.',
+  ...PHOTO_END,
+].join(' ');
+const BODY_VERB_STYLE = [
+  'Photorealistic photograph of an ordinary friendly person in everyday clothes performing the action, natural relaxed expression, true-to-life skin, hair and anatomy, like a stock photo for a language textbook.',
+  ...PHOTO_END,
+].join(' ');
+const ANIMAL_STYLE = [
   'Adorable but realistic wildlife photograph: true-to-life anatomy, fur, feathers or scales and natural colours,',
   'with a charming friendly expression and big expressive eyes. Not a cartoon, not an illustration, not a 3D render, not a plush toy.',
   'Isolated on a pure white background (#FFFFFF), soft diffused studio light, minimal contact shadow only, everything in sharp focus.',
   'Wide full-body shot: the ENTIRE animal is visible from head to tail and feet, completely inside the frame with generous empty white margin on every side (at least 12%), never cropped, never a close-up.',
   'No text, no logo, no watermark, no frame, no border, no people, no meat.',
 ].join(' ');
+const STYLE = { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE }[setName] ?? ANIMAL_STYLE;
 
 const pending = sets[setName]
   .filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)))

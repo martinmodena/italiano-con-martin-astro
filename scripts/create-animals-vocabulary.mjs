@@ -1,16 +1,19 @@
 #!/usr/bin/env node
 /**
- * Crea le quattro lezioni di vocabolario sugli animali in tutte e 9 le lingue:
+ * Crea le lezioni di vocabolario sugli animali e sul corpo umano in tutte e 9 le lingue:
  *
  *   - «Gli animali»                              100 parole, stessa struttura delle altre lezioni;
  *   - «Le caratteristiche fisiche degli animali»  50 aggettivi (corpo, forza, aspetto, come si sta);
  *   - «La personalità degli animali»              62 aggettivi (carattere e stati d'animo);
- *   - «I verbi degli animali»                     119 verbi di tutti i giorni (nascere, lavorare, aiutare...).
+ *   - «I verbi degli animali»                     119 verbi di tutti i giorni (nascere, lavorare, aiutare...);
+ *   - «Il corpo umano»                            63 parti del corpo, foto realistiche (come «Gli animali»);
+ *   - «I verbi del corpo»                         94 verbi (pettinarsi i capelli, toccare, arrossire...): gli
+ *                                                 esercizi da trascinare usano le parti del corpo, non gli animali.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
  *
- * Le tre lezioni con gli aggettivi e i verbi hanno, al posto di «Riconosci la parola» (un aggettivo o un
+ * Le lezioni con gli aggettivi e i verbi hanno, al posto di «Riconosci la parola» (un aggettivo o un
  * verbo non si riconosce da una foto), due esercizi con trascinamento: «quale animale e' cosi' / lo fa?»
  * e «quale animale non e' cosi' / non puo' farlo?».
  *
@@ -25,6 +28,9 @@
  *   scripts/data/verbs-vocabulary.mjs     i verbi, gli animali che li fanno
  *   scripts/data/animals-pages.mjs        «Gli animali» e i testi degli esercizi sugli aggettivi
  *   scripts/data/animals-pages-more.mjs   le pagine di fisiche, personalita' e verbi
+ *   scripts/data/body-vocabulary.mjs      le parti del corpo (2026-09-25)
+ *   scripts/data/body-verbs.mjs           i verbi del corpo, con le parti del corpo che servono
+ *   scripts/data/body-pages.mjs           le pagine delle due lezioni sul corpo
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
  *
@@ -64,11 +70,15 @@ import {
   verbUiOverrides,
 } from './data/animals-pages-more.mjs';
 
+import { bodyVocabulary, bodyTranslationExercises } from './data/body-vocabulary.mjs';
+import { bodyVerbs, bodyVerbTranslationExercises, NEUTRAL as bodyNeutral } from './data/body-verbs.mjs';
+import { bodyPages, bodyExampleWord, bodyVerbPages, bodyVerbUi } from './data/body-pages.mjs';
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
 const review = process.argv.includes('--review');
 const LANGS = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
-const MATCH_ASSET_VERSION = '20260924';
+const MATCH_ASSET_VERSION = '20260925';
 
 /** La lezione della cucina, che fa da stampo: stesso impianto, gia' tradotto. */
 const kitchen = {
@@ -98,6 +108,7 @@ const indexFile = {
 // --- le lezioni -------------------------------------------------------------------
 //   kind 'words'  : schede + «Riconosci la parola» + frasi da tradurre
 //   kind 'match'  : schede + due esercizi con trascinamento + frasi da tradurre
+//                   (la barra da cui si trascina e' fatta di animali, salvo `bank`/`bankPage`)
 const lessons = {
   animali: {
     id: 'animali',
@@ -149,7 +160,44 @@ const lessons = {
       ui: { ...traitUi[lang].ui, ...verbUiOverrides[lang] },
     }),
   },
+  corpo: {
+    id: 'corpo',
+    kind: 'words',
+    pages: bodyPages,
+    hero: 'corpo-umano-hero.webp',
+    words: bodyVocabulary,
+    translations: bodyTranslationExercises,
+    exampleWord: bodyExampleWord,
+  },
+  verbicorpo: {
+    id: 'verbicorpo',
+    kind: 'match',
+    pages: bodyVerbPages,
+    hero: 'verbi-corpo-hero.webp',
+    words: bodyVerbs,
+    translations: bodyVerbTranslationExercises,
+    exampleWord: null,
+    // Le parole da trascinare sono le parti del corpo della lezione «Il corpo umano».
+    bank: bodyVocabulary,
+    bankPage: bodyPages,
+    bankLessonId: 'corpo',
+    // Le parti che servono un po' a tutto non entrano mai fra le risposte della forma negativa.
+    neutral: bodyNeutral,
+    yesLabel: 'serve per',
+    notLabel: 'non serve per',
+    seeds: [2417, 2418],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...bodyVerbUi[lang],
+      ui: { ...traitUi[lang].ui, ...bodyVerbUi[lang].ui },
+    }),
+  },
 };
+
+/** La barra da cui si trascina: animali (default) o, per i verbi del corpo, parti del corpo. */
+const bankOf = (lesson) => lesson.bank ?? animalVocabulary;
+const bankPageOf = (lesson) => lesson.bankPage ?? animalPages;
+const bankLessonOf = (lesson) => lessons[lesson.bankLessonId ?? 'animali'];
 
 const pagePath = (lesson, lang) => `${lesson.pages[lang].dir}/${lesson.pages[lang].slug}.html`;
 const pageUrl = (lesson, lang) => `https://italianoconmartin.com/${pagePath(lesson, lang)}`;
@@ -331,7 +379,7 @@ function chunkEvenly(list, max = SET_SIZE) {
   return out;
 }
 
-const animalBySlug = new Map(animalVocabulary.map((a) => [a.slug, a]));
+const bankBySlug = (lesson) => new Map(bankOf(lesson).map((a) => [a.slug, a]));
 
 /**
  * Costruisce le serie di un esercizio. Per ogni serie:
@@ -341,14 +389,17 @@ const animalBySlug = new Map(animalVocabulary.map((a) => [a.slug, a]));
  *  - in ogni riga c'e' almeno un animale sbagliato, altrimenti tutto sarebbe giusto.
  * Positivo: e' giusto ogni animale di `matches`. Negativo: e' giusto ogni animale che NON e' in `matches`.
  */
-function buildSets(items, mode, seed) {
+function buildSets(items, mode, seed, bankList = animalVocabulary, neutral = []) {
   const random = mulberry32(seed);
+  // Nella forma negativa le parti «neutre» (corpo, pelle, cuore...) non entrano mai in barra: servono
+  // un po' a tutto, e come risposta giusta o come trappola sarebbero discutibili.
+  const banned = mode === 'negative' ? new Set(neutral) : new Set();
   const used = new Set();
   const sets = [];
   const isOk = (t, a) => (mode === 'positive' ? t.matches.includes(a) : !t.matches.includes(a));
   for (const setItems of chunkEvenly(items)) {
     const bank = [];
-    const goodFor = (t) => (mode === 'positive' ? t.matches : t.never);
+    const goodFor = (t) => (mode === 'positive' ? t.matches : t.never).filter((a) => !banned.has(a));
     for (const t of setItems) {
       const options = goodFor(t);
       if (bank.some((a) => options.includes(a))) continue;
@@ -362,6 +413,7 @@ function buildSets(items, mode, seed) {
         const traps = () => bank.filter((a) => t.matches.includes(a)).length;
         for (const a of t.matches) {
           if (traps() >= 2) break;
+          if (banned.has(a)) continue;
           if (!bank.includes(a)) bank.push(a);
         }
       }
@@ -369,7 +421,7 @@ function buildSets(items, mode, seed) {
     // Riempimento fino a BANK_SIZE con animali giusti per altre righe della serie: nella forma
     // positiva i primi di `matches`, in quella negativa quelli di `never` (chiaramente «no»), cosi'
     // le righe con centinaia di animali associati (selvaggio) non riempiono la barra a caso.
-    const fillerPool = (t) => (mode === 'positive' ? t.matches.slice(0, 6) : t.never);
+    const fillerPool = (t) => (mode === 'positive' ? t.matches.slice(0, 6) : goodFor(t));
     const fillers = shuffle(
       [...new Set(setItems.flatMap(fillerPool))].filter((a) => !bank.includes(a)),
       random
@@ -384,7 +436,7 @@ function buildSets(items, mode, seed) {
       for (const t of setItems) {
         if (bank.every((a) => isOk(t, a))) {
           const extra = shuffle(
-            animalVocabulary.map((a) => a.slug).filter((a) => !bank.includes(a) && !isOk(t, a)),
+            bankList.map((a) => a.slug).filter((a) => !bank.includes(a) && !isOk(t, a)),
             random
           )[0];
           if (extra) bank.push(extra);
@@ -406,9 +458,10 @@ function buildSets(items, mode, seed) {
 function validateLessonData() {
   for (const lesson of Object.values(lessons)) {
     if (lesson.kind !== 'match') continue;
+    const known = bankBySlug(lesson);
     for (const t of lesson.words) {
       for (const slug of [...t.matches, ...t.never]) {
-        if (!animalBySlug.has(slug)) throw new Error(`«${t.slug}»: animale sconosciuto «${slug}»`);
+        if (!known.has(slug)) throw new Error(`«${t.slug}»: animale sconosciuto «${slug}»`);
       }
       if (!t.noMatch && !t.matches.length) throw new Error(`«${t.slug}»: nessun animale associato`);
       const clash = t.never.filter((a) => t.matches.includes(a));
@@ -424,13 +477,14 @@ const negativeItems = (lesson) => matchItems(lesson).filter((t) => t.never.lengt
 function buildMatchSections(lesson, lang, template) {
   const ui = lesson.uiFor(lang);
   const itAttr = lang === 'it' ? '' : ' lang="it"';
-  const animalsPage = animalPages[lang];
-  const animalsHref = lang === 'it' ? `${animalsPage.slug}.html` : `/${pagePath(lessons.animali, lang)}`;
+  const animalsPage = bankPageOf(lesson)[lang];
+  const animalsHref = lang === 'it' ? `${animalsPage.slug}.html` : `/${pagePath(bankLessonOf(lesson), lang)}`;
   const linkHtml = `<a href="${animalsHref}">${escapeHtml(animalsPage.name)}</a>`;
   const lessonLine = fill(ui.lessonLink, { link: linkHtml });
 
+  const chipSource = bankBySlug(lesson);
   const chip = (slug) => {
-    const a = animalBySlug.get(slug);
+    const a = chipSource.get(slug);
     return `<li><button class="match-chip" type="button" data-animal="${slug}" aria-pressed="false"><img src="${template.imagePrefix}/${a.image}.webp" alt="" width="56" height="56" loading="lazy" decoding="async" draggable="false"><span${itAttr}>${escapeHtml(a.word)}</span></button></li>`;
   };
 
@@ -454,7 +508,7 @@ function buildMatchSections(lesson, lang, template) {
             counter += 1;
             const label =
               mode === 'positive'
-                ? `<strong class="match-trait"${itAttr}>${escapeHtml(trait.word)}</strong>`
+                ? `<strong class="match-trait"${itAttr}>${lesson.yesLabel ? `<span class="match-yes">${lesson.yesLabel}</span> ` : ''}${escapeHtml(trait.word)}</strong>`
                 : `<strong class="match-trait"${itAttr}><span class="match-not">${lesson.notLabel}</span> ${escapeHtml(trait.word)}</strong>`;
             const dropLabel = fill(ui.ui.dropLabel, { adj: trait.word });
             return `<li class="match-row" data-key="${trait.slug}" data-ok="${escapeAttribute(JSON.stringify(ok))}" data-hint="${hint}">
@@ -500,8 +554,8 @@ function buildMatchSections(lesson, lang, template) {
       </section>`;
   };
 
-  const positive = buildSets(matchItems(lesson), 'positive', lesson.seeds[0]);
-  const negative = buildSets(negativeItems(lesson), 'negative', lesson.seeds[1]);
+  const positive = buildSets(matchItems(lesson), 'positive', lesson.seeds[0], bankOf(lesson), lesson.neutral);
+  const negative = buildSets(negativeItems(lesson), 'negative', lesson.seeds[1], bankOf(lesson), lesson.neutral);
   return { html: section('positive', positive) + '\n\n      ' + section('negative', negative), positive, negative };
 }
 
