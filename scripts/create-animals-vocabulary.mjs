@@ -13,6 +13,9 @@
  *                                                 immagini le disegna scripts/build-family-images.mjs.
  *   - «I mestieri»                                53 mestieri al maschile e al femminile (2026-09-26).
  *   - «Le persone intorno a noi»                  32 parole: eta', amici, vicini, colleghi, ospiti (2026-09-26).
+ *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
+ *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
+ *                                                 piu' verbi giusti per foto, niente forma negativa.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -39,6 +42,7 @@
  *   scripts/data/family-pages.mjs         la pagina della famiglia (con `lead` e `note` propri)
  *   scripts/data/jobs-vocabulary.mjs      i mestieri; jobs-pages.mjs la loro pagina (con `note` propria)
  *   scripts/data/people-vocabulary.mjs    le persone intorno a noi; people-pages.mjs la loro pagina
+ *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
  *
@@ -87,12 +91,14 @@ import { jobVocabulary, jobTranslationExercises, jobExampleWord } from './data/j
 import { jobPages } from './data/jobs-pages.mjs';
 import { peopleVocabulary, peopleTranslationExercises, peopleExampleWord } from './data/people-vocabulary.mjs';
 import { peoplePages } from './data/people-pages.mjs';
+import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
+import { relationPages, relationUi } from './data/relations-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
 const review = process.argv.includes('--review');
 const LANGS = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
-const MATCH_ASSET_VERSION = '20260925';
+const MATCH_ASSET_VERSION = '20260926';
 
 /** La lezione della cucina, che fa da stampo: stesso impianto, gia' tradotto. */
 const kitchen = {
@@ -232,6 +238,26 @@ const lessons = {
     words: peopleVocabulary,
     translations: peopleTranslationExercises,
     exampleWord: peopleExampleWord,
+  },
+  relazioni: {
+    id: 'relazioni',
+    kind: 'match',
+    // Esercizio al contrario: ogni riga e' la foto di un verbo, nella barra ci sono i verbi scritti.
+    photoRows: true,
+    pages: relationPages,
+    hero: 'verbi-relazioni-hero.webp',
+    words: relationVerbs,
+    translations: relationTranslationExercises,
+    exampleWord: null,
+    bank: relationVerbs,
+    bankPage: relationPages,
+    bankLessonId: 'relazioni',
+    seeds: [2419, 2420],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
 };
 
@@ -526,6 +552,9 @@ function buildMatchSections(lesson, lang, template) {
   const chipSource = bankBySlug(lesson);
   const chip = (slug) => {
     const a = chipSource.get(slug);
+    // Nelle lezioni con una foto per riga la barra contiene solo parole, senza immagine.
+    if (lesson.photoRows)
+      return `<li><button class="match-chip match-chip-word" type="button" data-animal="${slug}" aria-pressed="false"><span${itAttr}>${escapeHtml(a.word)}</span></button></li>`;
     return `<li><button class="match-chip" type="button" data-animal="${slug}" aria-pressed="false"><img src="${template.imagePrefix}/${a.image}.webp" alt="" width="56" height="56" loading="lazy" decoding="async" draggable="false"><span${itAttr}>${escapeHtml(a.word)}</span></button></li>`;
   };
 
@@ -547,11 +576,12 @@ function buildMatchSections(lesson, lang, template) {
         const rows = set.rows
           .map(({ trait, ok, hint }) => {
             counter += 1;
-            const label =
-              mode === 'positive'
+            const label = lesson.photoRows
+              ? `<img class="match-photo" src="${template.imagePrefix}/${trait.image}.webp" alt="${escapeAttribute(template.testAlt(counter))}" width="120" height="120" loading="lazy" decoding="async">`
+              : mode === 'positive'
                 ? `<strong class="match-trait"${itAttr}>${lesson.yesLabel ? `<span class="match-yes">${lesson.yesLabel}</span> ` : ''}${escapeHtml(trait.word)}</strong>`
                 : `<strong class="match-trait"${itAttr}><span class="match-not">${lesson.notLabel}</span> ${escapeHtml(trait.word)}</strong>`;
-            const dropLabel = fill(ui.ui.dropLabel, { adj: trait.word });
+            const dropLabel = fill(ui.ui.dropLabel, { adj: lesson.photoRows ? counter : trait.word });
             return `<li class="match-row" data-key="${trait.slug}" data-ok="${escapeAttribute(JSON.stringify(ok))}" data-hint="${hint}">
                 <div class="match-prompt"><span class="match-num" aria-hidden="true">${counter}</span>${label}</div>
                 <div class="match-drop" tabindex="0" role="group" aria-label="${escapeAttribute(dropLabel)}" data-empty="${escapeAttribute(ui.ui.empty)}"></div>
@@ -584,7 +614,7 @@ function buildMatchSections(lesson, lang, template) {
             </div>
             <p>${text.intro}</p>
           </div>
-          ${mode === 'positive' ? `<p class="match-lesson-link">${lessonLine}</p>` : ''}
+          ${mode === 'positive' && !lesson.photoRows ? `<p class="match-lesson-link">${lessonLine}</p>` : ''}
           <div class="word-progress match-progress-box" aria-live="polite">
             <div><strong>${escapeHtml(ui.ui.progress)}</strong><span class="match-progress-text">${escapeHtml(fill(ui.ui.progressText, { n: 0, total }))}</span></div>
             <progress class="match-progress" max="${total}" value="0">0%</progress>
@@ -596,8 +626,12 @@ function buildMatchSections(lesson, lang, template) {
   };
 
   const positive = buildSets(matchItems(lesson), 'positive', lesson.seeds[0], bankOf(lesson), lesson.neutral);
-  const negative = buildSets(negativeItems(lesson), 'negative', lesson.seeds[1], bankOf(lesson), lesson.neutral);
-  return { html: section('positive', positive) + '\n\n      ' + section('negative', negative), positive, negative };
+  // Senza righe con la negazione (i verbi delle relazioni) la seconda sezione non c'e'.
+  const negative = negativeItems(lesson).length
+    ? buildSets(negativeItems(lesson), 'negative', lesson.seeds[1], bankOf(lesson), lesson.neutral)
+    : [];
+  const html = section('positive', positive) + (negative.length ? '\n\n      ' + section('negative', negative) : '');
+  return { html, positive, negative };
 }
 
 /** Le righe della forma negativa con le risposte «giuste» che nessuno ha dichiarato in `never`: da rivedere a occhio. */

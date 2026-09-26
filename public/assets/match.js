@@ -79,10 +79,14 @@
       placed.type = 'button';
       placed.className = `match-placed ${isOk ? 'is-ok' : 'is-bad'}`;
       placed.dataset.animal = slug;
-      const img = chip.querySelector('img').cloneNode();
-      img.alt = '';
-      const label = chip.querySelector('span').cloneNode(true);
-      placed.append(img, label);
+      // Le etichette possono essere senza immagine (i verbi delle relazioni: solo la parola).
+      const chipImg = chip.querySelector('img');
+      if (chipImg) {
+        const img = chipImg.cloneNode();
+        img.alt = '';
+        placed.append(img);
+      }
+      placed.append(chip.querySelector('span').cloneNode(true));
       row.querySelector('.match-drop').append(placed);
       return placed;
     }

@@ -187,6 +187,21 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-menschen.html',
     ja: 'ja/goi/italian-people-vocabulary.html',
   },
+  // «I verbi delle relazioni»: esercizio al contrario (una foto per riga, i verbi nella barra), senza negazione.
+  relazioni: {
+    count: 47,
+    tests: 0,
+    match: { positive: 47 },
+    it: 'vocabolario/verbi-relazioni.html',
+    en: 'en/vocabulary/italian-relationship-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-las-relaciones-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-des-relations-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-vztahu.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-relacji.html',
+    tr: 'tr/kelime-bilgisi/italyanca-iliski-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
+    ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -309,6 +324,7 @@ for (const lesson of [
   'famiglia',
   'mestieri',
   'persone',
+  'verbi-relazioni',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

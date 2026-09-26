@@ -7,6 +7,7 @@
 //   - «I verbi del corpo» (94 verbi, foto realistiche)            -> --set verbi-corpo
 //   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
 //   - «Le persone intorno a noi» (come i mestieri)                   -> --set persone
+//   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -40,6 +41,7 @@ import { bodyVocabulary } from './data/body-vocabulary.mjs';
 import { bodyVerbs } from './data/body-verbs.mjs';
 import { jobVocabulary } from './data/jobs-vocabulary.mjs';
 import { peopleVocabulary } from './data/people-vocabulary.mjs';
+import { relationVerbs } from './data/relations-verbs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -78,9 +80,10 @@ const sets = {
   'verbi-corpo': bodyVerbs,
   mestieri: jobVocabulary,
   persone: peopleVocabulary,
+  relazioni: relationVerbs,
 };
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone.');
+  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni.');
   process.exit(1);
 }
 if (!dryRun && !outDir) {
@@ -123,8 +126,13 @@ const PEOPLE_STYLE = [
   ...PHOTO_END,
 ].join(' ');
 const STYLE =
-  { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE, mestieri: JOB_STYLE, persone: PEOPLE_STYLE }[setName] ??
-  ANIMAL_STYLE;
+  {
+    corpo: BODY_STYLE,
+    'verbi-corpo': BODY_VERB_STYLE,
+    mestieri: JOB_STYLE,
+    persone: PEOPLE_STYLE,
+    relazioni: PEOPLE_STYLE,
+  }[setName] ?? ANIMAL_STYLE;
 
 const pending = sets[setName]
   .filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)))
