@@ -216,6 +216,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-farben-und-formen.html',
     ja: 'ja/goi/italian-colors-and-shapes-vocabulary.html',
   },
+  tempo: {
+    count: 34,
+    it: 'vocabolario/tempo-stagioni.html',
+    en: 'en/vocabulary/italian-weather-and-seasons-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-tiempo-y-las-estaciones-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-meteo-et-des-saisons-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-pocasi-a-rocni-obdobi.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-pogoda-i-pory-roku.html',
+    tr: 'tr/kelime-bilgisi/italyanca-hava-durumu-ve-mevsimler-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-wetter-und-jahreszeiten.html',
+    ja: 'ja/goi/italian-weather-and-seasons-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -340,6 +352,7 @@ for (const lesson of [
   'persone',
   'verbi-relazioni',
   'colori-forme',
+  'tempo-stagioni',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

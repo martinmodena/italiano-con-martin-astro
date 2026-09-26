@@ -7,6 +7,7 @@
 //   - «I verbi del corpo» (94 verbi, foto realistiche)            -> --set verbi-corpo
 //   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
 //   - «Le persone intorno a noi» (come i mestieri)                   -> --set persone
+//   - «Il tempo e le stagioni» (qualita' low, paesaggi in un cerchio) -> --set tempo
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -44,6 +45,7 @@ import { jobVocabulary } from './data/jobs-vocabulary.mjs';
 import { peopleVocabulary } from './data/people-vocabulary.mjs';
 import { relationVerbs } from './data/relations-verbs.mjs';
 import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs';
+import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -86,10 +88,11 @@ const sets = {
   relazioni: relationVerbs,
   colori: colorVocabulary,
   'colori-descrivi': colorDescribeRows,
+  tempo: weatherVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo.'
   );
   process.exit(1);
 }
@@ -132,6 +135,13 @@ const PEOPLE_STYLE = [
   'Wide full-body shot: every person visible from the top of the head to the shoes, small in the centre of the frame with wide empty white margins on every side, never cropped; only the objects needed to understand the scene, no busy background.',
   ...PHOTO_END,
 ].join(' ');
+// Il tempo e le stagioni: oggetti e piccole scene ritagliate sul bianco; i paesaggi come foto rotonde.
+const WEATHER_STYLE = [
+  'Photorealistic photograph for a language textbook, natural colours, true to life, not a cartoon, not an illustration, not a 3D render.',
+  'The subject is shown as a small self-contained cut-out scene isolated on the white background: the white replaces the sky, with only a small patch of ground where needed. When the subject is a landscape cropped into a circle, the circle is centred with wide white margins around it and nothing outside it.',
+  'Wide shot: people, if any, fully visible from head to shoes, small in the centre of the frame.',
+  ...PHOTO_END,
+].join(' ');
 const STYLE =
   {
     corpo: BODY_STYLE,
@@ -139,6 +149,7 @@ const STYLE =
     mestieri: JOB_STYLE,
     persone: PEOPLE_STYLE,
     relazioni: PEOPLE_STYLE,
+    tempo: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;
 
 const pending = sets[setName]
