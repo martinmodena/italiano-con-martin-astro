@@ -19,10 +19,9 @@ const seoTerms = {
   de: 'italienische Grammatik',
   ja: 'イタリア語文法',
 };
-// Pagine pubblicate volutamente solo in italiano e a un solo livello
-// (esperimento su richiesta di Martin, 2026-09-23): niente traduzioni, niente
-// altri livelli, niente PDF. Escluse dai controlli di parità linguistica e
-// PDF che si applicano al resto del sito.
+// Favole a un solo livello (A1), senza PDF: «La formichina Wow» (2026-09-23,
+// tradotta nelle altre 8 lingue il 2026-09-26). Hanno gli stessi controlli di
+// traduzione e di indici delle altre risorse, ma non i PDF per livello.
 const PARTIAL_RESOURCES = new Set(['favole/la-formichina-wow.html']);
 
 const issues = [];
@@ -34,7 +33,6 @@ inspectImagePerformance();
 inspectUrlArchitecture();
 
 for (const resource of resources) {
-  if (PARTIAL_RESOURCES.has(resource.relative)) continue;
   const italianHtml = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
   const italianAlternates = readAlternates(italianHtml);
   for (const language of localizedLanguages) {
@@ -51,6 +49,7 @@ for (const resource of resources) {
     }
     inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href, italianHtml);
   }
+  if (PARTIAL_RESOURCES.has(resource.relative)) continue;
   for (const language of languages) {
     const pageRelative =
       language === 'it'
@@ -137,9 +136,12 @@ function inspectLocalizedPage(resource, language, relative, html, expectedCanoni
     ) {
       issues.push(`- TRANSLATED_STUDY_HEADING | ${label}`);
     }
-    if ($('.pdf-downloads-complete a[href$="-all-levels.pdf"]').length !== 1)
+    if (
+      !PARTIAL_RESOURCES.has(resource.relative) &&
+      $('.pdf-downloads-complete a[href$="-all-levels.pdf"]').length !== 1
+    )
       issues.push(`- MISSING_COMPLETE_PDF_LINK | ${label}`);
-    for (const level of ['a1', 'a2', 'b1', 'b2', 'c1']) {
+    for (const level of PARTIAL_RESOURCES.has(resource.relative) ? [] : ['a1', 'a2', 'b1', 'b2', 'c1']) {
       if ($(`.story-card#${level} > .pdf-downloads-level a[href$="-${level}.pdf"]`).length !== 1)
         issues.push(`- MISPLACED_LEVEL_PDF_LINK | ${label} | ${level}`);
     }
@@ -235,7 +237,6 @@ function inspectIndexCoverage() {
         )
         .get();
       for (const resource of categoryResources) {
-        if (PARTIAL_RESOURCES.has(resource.relative)) continue;
         const source = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
         const localizedHref = readAlternates(source).get(language);
         const expectedPath = localizedHref ? decodeURIComponent(new URL(localizedHref).pathname) : '';

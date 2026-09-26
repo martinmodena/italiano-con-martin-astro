@@ -1,0 +1,128 @@
+---
+import SiteLayout from '~/layouts/SiteLayout.astro';
+import main from '~/html/en/stories/the-little-ant-wow.html?raw';
+const meta = {
+  "path": "en/stories/the-little-ant-wow.html",
+  "lang": "en",
+  "title": "The Little Ant Wow | Italian story | Italiano con Martin",
+  "description": "The Little Ant Wow: fable at A1 level about looking at the sky even when others laugh. Italian text with useful words and comprehension questions.",
+  "canonical": "https://italianoconmartin.com/en/stories/the-little-ant-wow.html",
+  "robots": "index,follow,max-image-preview:large",
+  "author": "Martin Modena",
+  "og": [
+    [
+      "og:type",
+      "website"
+    ],
+    [
+      "og:site_name",
+      "Italiano con Martin"
+    ],
+    [
+      "og:title",
+      "The Little Ant Wow | Italian story | Italiano con Martin"
+    ],
+    [
+      "og:description",
+      "The Little Ant Wow: fable at A1 level about looking at the sky even when others laugh. Italian text with useful words and comprehension questions."
+    ],
+    [
+      "og:url",
+      "https://italianoconmartin.com/en/stories/the-little-ant-wow.html"
+    ],
+    [
+      "og:image",
+      "https://italianoconmartin.com/assets/story-formica-wow.webp"
+    ],
+    [
+      "og:image:width",
+      "960"
+    ],
+    [
+      "og:image:height",
+      "540"
+    ],
+    [
+      "twitter:card",
+      "summary_large_image"
+    ],
+    [
+      "twitter:title",
+      "The Little Ant Wow | Italian story | Italiano con Martin"
+    ],
+    [
+      "twitter:description",
+      "The Little Ant Wow: fable at A1 level about looking at the sky even when others laugh. Italian text with useful words and comprehension questions."
+    ],
+    [
+      "twitter:image",
+      "https://italianoconmartin.com/assets/story-formica-wow.webp"
+    ]
+  ],
+  "jsonld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"name\":\"The Little Ant Wow\",\"url\":\"https://italianoconmartin.com/en/stories/the-little-ant-wow.html\",\"inLanguage\":\"en\"}"
+  ],
+  "hreflangs": [
+    [
+      "it",
+      "https://italianoconmartin.com/favole/la-formichina-wow.html"
+    ],
+    [
+      "en",
+      "https://italianoconmartin.com/en/stories/the-little-ant-wow.html"
+    ],
+    [
+      "es",
+      "https://italianoconmartin.com/es/cuentos/la-hormiguita-wow.html"
+    ],
+    [
+      "fr",
+      "https://italianoconmartin.com/fr/histoires/la-petite-fourmi-wow.html"
+    ],
+    [
+      "cs",
+      "https://italianoconmartin.com/cs/pribehy/mravenecka-wow.html"
+    ],
+    [
+      "pl",
+      "https://italianoconmartin.com/pl/historie/mroweczka-wow.html"
+    ],
+    [
+      "tr",
+      "https://italianoconmartin.com/tr/hikayeler/kucuk-karinca-wow.html"
+    ],
+    [
+      "de",
+      "https://italianoconmartin.com/de/geschichten/die-kleine-ameise-wow.html"
+    ],
+    [
+      "ja",
+      "https://italianoconmartin.com/ja/monogatari/chiisana-ari-wow.html"
+    ],
+    [
+      "x-default",
+      "https://italianoconmartin.com/favole/la-formichina-wow.html"
+    ]
+  ],
+  "extraHead": [
+    "<link rel=\"preload\" as=\"image\" href=\"../../assets/story-formica-wow.webp\" fetchpriority=\"high\">"
+  ],
+  "assetPrefix": "../../",
+  "brandHref": "/en/",
+  "bodyScripts": [
+    "<script src=\"../../script.js\"></script>"
+  ],
+  "iconLinks": [
+    "<link rel=\"icon\" href=\"../../favicon.png\" type=\"image/png\">",
+    "<link rel=\"apple-touch-icon\" href=\"../../apple-touch-icon.png\">"
+  ],
+  "brandImgSrc": "../../assets/martin-photo.svg",
+  "optionsHtml": "<a href=\"/favole/la-formichina-wow.html\" hreflang=\"it\" lang=\"it\"><span aria-hidden=\"true\">🇮🇹</span><span>Italiano</span></a><a href=\"/en/stories/the-little-ant-wow.html\" hreflang=\"en\" lang=\"en\" aria-current=\"page\"><span aria-hidden=\"true\">🇬🇧</span><span>English</span></a><a href=\"/es/cuentos/la-hormiguita-wow.html\" hreflang=\"es\" lang=\"es\"><span aria-hidden=\"true\">🇪🇸</span><span>Español</span></a><a href=\"/fr/histoires/la-petite-fourmi-wow.html\" hreflang=\"fr\" lang=\"fr\"><span aria-hidden=\"true\">🇫🇷</span><span>Français</span></a><a href=\"/cs/pribehy/mravenecka-wow.html\" hreflang=\"cs\" lang=\"cs\"><span aria-hidden=\"true\">🇨🇿</span><span>Čeština</span></a><a href=\"/pl/historie/mroweczka-wow.html\" hreflang=\"pl\" lang=\"pl\"><span aria-hidden=\"true\">🇵🇱</span><span>Polski</span></a><a href=\"/tr/hikayeler/kucuk-karinca-wow.html\" hreflang=\"tr\" lang=\"tr\"><span aria-hidden=\"true\">🇹🇷</span><span>Türkçe</span></a><a href=\"/de/geschichten/die-kleine-ameise-wow.html\" hreflang=\"de\" lang=\"de\"><span aria-hidden=\"true\">🇩🇪</span><span>Deutsch</span></a><a href=\"/ja/monogatari/chiisana-ari-wow.html\" hreflang=\"ja\" lang=\"ja\"><span aria-hidden=\"true\">🇯🇵</span><span>日本語</span></a>",
+  "ui": {
+    "nav": "<a href=\"/en/grammar/\">Grammar</a><a href=\"/en/readings/\">Readings</a><a href=\"/en/vocabulary/\">Vocabulary</a><a class=\"about-link\" href=\"/en/about-us/\">About us</a>",
+    "footerGrid": "<div><strong>Italiano con Martin</strong></div><div><a href=\"/en/grammar/\">Grammar</a><a href=\"/en/readings/\">Readings</a><a href=\"/en/vocabulary/\">Vocabulary</a><a class=\"about-link\" href=\"/en/about-us/\">About us</a></div>"
+  }
+};
+---
+
+<SiteLayout meta={meta} main={main} />
