@@ -5,6 +5,7 @@
 //   - «I verbi degli animali» (91 verbi)                          -> --set verbi
 //   - «Il corpo umano» (63 parti del corpo, foto realistiche)     -> --set corpo
 //   - «I verbi del corpo» (94 verbi, foto realistiche)            -> --set verbi-corpo
+//   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -36,6 +37,7 @@ import { traitVocabulary } from './data/traits-vocabulary.mjs';
 import { verbVocabulary } from './data/verbs-vocabulary.mjs';
 import { bodyVocabulary } from './data/body-vocabulary.mjs';
 import { bodyVerbs } from './data/body-verbs.mjs';
+import { jobVocabulary } from './data/jobs-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -72,9 +74,10 @@ const sets = {
   verbi: verbVocabulary,
   corpo: bodyVocabulary,
   'verbi-corpo': bodyVerbs,
+  mestieri: jobVocabulary,
 };
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo.');
+  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri.');
   process.exit(1);
 }
 if (!dryRun && !outDir) {
@@ -103,7 +106,14 @@ const ANIMAL_STYLE = [
   'Wide full-body shot: the ENTIRE animal is visible from head to tail and feet, completely inside the frame with generous empty white margin on every side (at least 12%), never cropped, never a close-up.',
   'No text, no logo, no watermark, no frame, no border, no people, no meat.',
 ].join(' ');
-const STYLE = { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE }[setName] ?? ANIMAL_STYLE;
+// I mestieri: persona intera o a tre quarti con gli abiti e gli attrezzi del lavoro, riconoscibile a colpo
+// d'occhio. Qualita' `low` (Martin, 2026-09-26): le mani sono piccole nell'inquadratura larga.
+const JOB_STYLE = [
+  'Photorealistic photograph of a friendly ordinary person at work, wearing the typical clothes and holding the typical tools of the job, so the job is recognisable at first glance, natural relaxed expression, like a stock photo for a language textbook.',
+  'Wide full-body shot: the whole person from the top of the head to the shoes, small in the centre of the frame with wide empty white margins on every side, never cropped; only the objects needed to recognise the job, no busy background.',
+  ...PHOTO_END,
+].join(' ');
+const STYLE = { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE, mestieri: JOB_STYLE }[setName] ?? ANIMAL_STYLE;
 
 const pending = sets[setName]
   .filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)))

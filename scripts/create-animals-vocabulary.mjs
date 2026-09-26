@@ -11,6 +11,7 @@
  *                                                 esercizi da trascinare usano le parti del corpo, non gli animali.
  *   - «La famiglia»                               35 parole con l'albero della famiglia Rossi (2026-09-26): le
  *                                                 immagini le disegna scripts/build-family-images.mjs.
+ *   - «I mestieri»                                53 mestieri al maschile e al femminile (2026-09-26).
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -35,6 +36,7 @@
  *   scripts/data/body-pages.mjs           le pagine delle due lezioni sul corpo
  *   scripts/data/family-vocabulary.mjs    le parole della famiglia e l'albero dei Rossi
  *   scripts/data/family-pages.mjs         la pagina della famiglia (con `lead` e `note` propri)
+ *   scripts/data/jobs-vocabulary.mjs      i mestieri; jobs-pages.mjs la loro pagina (con `note` propria)
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
  *
@@ -79,6 +81,8 @@ import { bodyVerbs, bodyVerbTranslationExercises, NEUTRAL as bodyNeutral } from 
 import { bodyPages, bodyExampleWord, bodyVerbPages, bodyVerbUi } from './data/body-pages.mjs';
 import { familyVocabulary, familyTranslationExercises, familyExampleWord } from './data/family-vocabulary.mjs';
 import { familyPages } from './data/family-pages.mjs';
+import { jobVocabulary, jobTranslationExercises, jobExampleWord } from './data/jobs-vocabulary.mjs';
+import { jobPages } from './data/jobs-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -207,6 +211,15 @@ const lessons = {
     translations: familyTranslationExercises,
     exampleWord: familyExampleWord,
   },
+  mestieri: {
+    id: 'mestieri',
+    kind: 'words',
+    pages: jobPages,
+    hero: 'mestieri-hero.webp',
+    words: jobVocabulary,
+    translations: jobTranslationExercises,
+    exampleWord: jobExampleWord,
+  },
 };
 
 /** La barra da cui si trascina: animali (default) o, per i verbi del corpo, parti del corpo. */
@@ -279,7 +292,7 @@ function readTemplate(html) {
 function buildCard(word, template, lang, isMatch) {
   const examples = word.examples.map((s) => `<li><span lang="it">${escapeHtml(s)}</span></li>`).join('');
   const alt = isMatch ? (lang === 'it' ? `Illustrazione: ${word.bare}` : word.gloss[lang]) : word.alt[lang];
-  const spoken = isMatch ? word.word.replace(' / ', ', ') : word.word;
+  const spoken = word.word.replaceAll(' / ', ', ');
   const gloss = isMatch ? `\n                <p class="word-translation">${escapeHtml(word.gloss[lang])}</p>` : '';
   return `<article class="word-card">
               <img src="${template.imagePrefix}/${word.image}.webp" alt="${escapeAttribute(alt)}" loading="lazy" decoding="async">

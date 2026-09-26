@@ -163,6 +163,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-familie.html',
     ja: 'ja/goi/italian-family-vocabulary.html',
   },
+  mestieri: {
+    count: 53,
+    it: 'vocabolario/mestieri.html',
+    en: 'en/vocabulary/italian-jobs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-las-profesiones-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-des-metiers-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-povolani.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-zawody.html',
+    tr: 'tr/kelime-bilgisi/italyanca-meslek-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-berufe.html',
+    ja: 'ja/goi/italian-jobs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -283,6 +295,7 @@ for (const lesson of [
   'corpo-umano',
   'verbi-corpo',
   'famiglia',
+  'mestieri',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
