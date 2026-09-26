@@ -12,6 +12,7 @@
  *   - «La famiglia»                               35 parole con l'albero della famiglia Rossi (2026-09-26): le
  *                                                 immagini le disegna scripts/build-family-images.mjs.
  *   - «I mestieri»                                53 mestieri al maschile e al femminile (2026-09-26).
+ *   - «Le persone intorno a noi»                  32 parole: eta', amici, vicini, colleghi, ospiti (2026-09-26).
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -37,6 +38,7 @@
  *   scripts/data/family-vocabulary.mjs    le parole della famiglia e l'albero dei Rossi
  *   scripts/data/family-pages.mjs         la pagina della famiglia (con `lead` e `note` propri)
  *   scripts/data/jobs-vocabulary.mjs      i mestieri; jobs-pages.mjs la loro pagina (con `note` propria)
+ *   scripts/data/people-vocabulary.mjs    le persone intorno a noi; people-pages.mjs la loro pagina
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
  *
@@ -83,6 +85,8 @@ import { familyVocabulary, familyTranslationExercises, familyExampleWord } from 
 import { familyPages } from './data/family-pages.mjs';
 import { jobVocabulary, jobTranslationExercises, jobExampleWord } from './data/jobs-vocabulary.mjs';
 import { jobPages } from './data/jobs-pages.mjs';
+import { peopleVocabulary, peopleTranslationExercises, peopleExampleWord } from './data/people-vocabulary.mjs';
+import { peoplePages } from './data/people-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -219,6 +223,15 @@ const lessons = {
     words: jobVocabulary,
     translations: jobTranslationExercises,
     exampleWord: jobExampleWord,
+  },
+  persone: {
+    id: 'persone',
+    kind: 'words',
+    pages: peoplePages,
+    hero: 'persone-hero.webp',
+    words: peopleVocabulary,
+    translations: peopleTranslationExercises,
+    exampleWord: peopleExampleWord,
   },
 };
 

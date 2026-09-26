@@ -6,6 +6,7 @@
 //   - «Il corpo umano» (63 parti del corpo, foto realistiche)     -> --set corpo
 //   - «I verbi del corpo» (94 verbi, foto realistiche)            -> --set verbi-corpo
 //   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
+//   - «Le persone intorno a noi» (come i mestieri)                   -> --set persone
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -38,6 +39,7 @@ import { verbVocabulary } from './data/verbs-vocabulary.mjs';
 import { bodyVocabulary } from './data/body-vocabulary.mjs';
 import { bodyVerbs } from './data/body-verbs.mjs';
 import { jobVocabulary } from './data/jobs-vocabulary.mjs';
+import { peopleVocabulary } from './data/people-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -75,9 +77,10 @@ const sets = {
   corpo: bodyVocabulary,
   'verbi-corpo': bodyVerbs,
   mestieri: jobVocabulary,
+  persone: peopleVocabulary,
 };
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri.');
+  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone.');
   process.exit(1);
 }
 if (!dryRun && !outDir) {
@@ -113,7 +116,15 @@ const JOB_STYLE = [
   'Wide full-body shot: the whole person from the top of the head to the shoes, small in the centre of the frame with wide empty white margins on every side, never cropped; only the objects needed to recognise the job, no busy background.',
   ...PHOTO_END,
 ].join(' ');
-const STYLE = { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE, mestieri: JOB_STYLE }[setName] ?? ANIMAL_STYLE;
+// Le persone intorno a noi: piccole scene di vita quotidiana con una o piu' persone, stessa impostazione.
+const PEOPLE_STYLE = [
+  'Photorealistic photograph of ordinary friendly people in a small everyday scene, natural relaxed expressions, true-to-life skin and anatomy, like a stock photo for a language textbook.',
+  'Wide full-body shot: every person visible from the top of the head to the shoes, small in the centre of the frame with wide empty white margins on every side, never cropped; only the objects needed to understand the scene, no busy background.',
+  ...PHOTO_END,
+].join(' ');
+const STYLE =
+  { corpo: BODY_STYLE, 'verbi-corpo': BODY_VERB_STYLE, mestieri: JOB_STYLE, persone: PEOPLE_STYLE }[setName] ??
+  ANIMAL_STYLE;
 
 const pending = sets[setName]
   .filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)))
