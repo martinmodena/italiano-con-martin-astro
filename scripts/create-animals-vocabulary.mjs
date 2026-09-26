@@ -14,6 +14,7 @@
  *   - «I mestieri»                                53 mestieri al maschile e al femminile (2026-09-26).
  *   - «Le persone intorno a noi»                  32 parole: eta', amici, vicini, colleghi, ospiti (2026-09-26).
  *   - «Il tempo e le stagioni»                    34 parole: fenomeni del tempo, caldo e freddo, stagioni (2026-09-26).
+ *   - «La casa»                                   43 parole: stanze, parti della casa, camera, bagno, faccende (2026-09-27).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -47,6 +48,7 @@
  *   scripts/data/jobs-vocabulary.mjs      i mestieri; jobs-pages.mjs la loro pagina (con `note` propria)
  *   scripts/data/people-vocabulary.mjs    le persone intorno a noi; people-pages.mjs la loro pagina
  *   scripts/data/weather-vocabulary.mjs   il tempo e le stagioni; weather-pages.mjs la loro pagina
+ *   scripts/data/house-vocabulary.mjs     la casa; house-pages.mjs la sua pagina
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
@@ -98,6 +100,8 @@ import { peopleVocabulary, peopleTranslationExercises, peopleExampleWord } from 
 import { peoplePages } from './data/people-pages.mjs';
 import { weatherVocabulary, weatherTranslationExercises, weatherExampleWord } from './data/weather-vocabulary.mjs';
 import { weatherPages } from './data/weather-pages.mjs';
+import { houseVocabulary, houseTranslationExercises, houseExampleWord } from './data/house-vocabulary.mjs';
+import { housePages } from './data/house-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
 import { relationPages, relationUi } from './data/relations-pages.mjs';
 import {
@@ -308,6 +312,15 @@ const lessons = {
     words: weatherVocabulary,
     translations: weatherTranslationExercises,
     exampleWord: weatherExampleWord,
+  },
+  casa: {
+    id: 'casa',
+    kind: 'words',
+    pages: housePages,
+    hero: 'casa-hero.webp',
+    words: houseVocabulary,
+    translations: houseTranslationExercises,
+    exampleWord: houseExampleWord,
   },
 };
 

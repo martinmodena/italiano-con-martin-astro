@@ -8,6 +8,7 @@
 //   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
 //   - «Le persone intorno a noi» (come i mestieri)                   -> --set persone
 //   - «Il tempo e le stagioni» (qualita' low, paesaggi in un cerchio) -> --set tempo
+//   - «La casa» (qualita' low, stanze in un cerchio)                  -> --set casa
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -46,6 +47,7 @@ import { peopleVocabulary } from './data/people-vocabulary.mjs';
 import { relationVerbs } from './data/relations-verbs.mjs';
 import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
+import { houseVocabulary } from './data/house-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -89,10 +91,11 @@ const sets = {
   colori: colorVocabulary,
   'colori-descrivi': colorDescribeRows,
   tempo: weatherVocabulary,
+  casa: houseVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa.'
   );
   process.exit(1);
 }
@@ -142,8 +145,15 @@ const WEATHER_STYLE = [
   'Wide shot: people, if any, fully visible from head to shoes, small in the centre of the frame.',
   ...PHOTO_END,
 ].join(' ');
+// La casa: oggetti e mobili ritagliati sul bianco; le stanze intere come foto rotonde.
+const HOUSE_STYLE = [
+  'Photorealistic product-style photograph for a language textbook, natural colours, true to life, an ordinary tidy European home, not a cartoon, not an illustration, not a 3D render.',
+  'Objects and furniture are isolated on the white background, small in the centre of the frame. When the subject is a room cropped into a circle, the circle is centred with wide white margins around it and nothing outside it; no people.',
+  ...PHOTO_END,
+].join(' ');
 const STYLE =
   {
+    casa: HOUSE_STYLE,
     corpo: BODY_STYLE,
     'verbi-corpo': BODY_VERB_STYLE,
     mestieri: JOB_STYLE,
