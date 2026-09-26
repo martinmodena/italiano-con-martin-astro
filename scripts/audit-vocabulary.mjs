@@ -150,6 +150,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-koerper.html',
     ja: 'ja/goi/italian-body-verbs-vocabulary.html',
   },
+  // «La famiglia»: le immagini sono l'albero della famiglia Rossi (scripts/build-family-images.mjs).
+  famiglia: {
+    count: 34,
+    it: 'vocabolario/famiglia.html',
+    en: 'en/vocabulary/italian-family-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-la-familia-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-famille-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-rodina.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-rodzina.html',
+    tr: 'tr/kelime-bilgisi/italyanca-aile-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-familie.html',
+    ja: 'ja/goi/italian-family-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -269,6 +282,7 @@ for (const lesson of [
   'verbi-animali',
   'corpo-umano',
   'verbi-corpo',
+  'famiglia',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

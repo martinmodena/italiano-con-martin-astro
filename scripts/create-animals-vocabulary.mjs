@@ -9,6 +9,8 @@
  *   - «Il corpo umano»                            63 parti del corpo, foto realistiche (come «Gli animali»);
  *   - «I verbi del corpo»                         94 verbi (pettinarsi i capelli, toccare, arrossire...): gli
  *                                                 esercizi da trascinare usano le parti del corpo, non gli animali.
+ *   - «La famiglia»                               35 parole con l'albero della famiglia Rossi (2026-09-26): le
+ *                                                 immagini le disegna scripts/build-family-images.mjs.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -31,6 +33,8 @@
  *   scripts/data/body-vocabulary.mjs      le parti del corpo (2026-09-25)
  *   scripts/data/body-verbs.mjs           i verbi del corpo, con le parti del corpo che servono
  *   scripts/data/body-pages.mjs           le pagine delle due lezioni sul corpo
+ *   scripts/data/family-vocabulary.mjs    le parole della famiglia e l'albero dei Rossi
+ *   scripts/data/family-pages.mjs         la pagina della famiglia (con `lead` e `note` propri)
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
  *
@@ -73,6 +77,8 @@ import {
 import { bodyVocabulary, bodyTranslationExercises } from './data/body-vocabulary.mjs';
 import { bodyVerbs, bodyVerbTranslationExercises, NEUTRAL as bodyNeutral } from './data/body-verbs.mjs';
 import { bodyPages, bodyExampleWord, bodyVerbPages, bodyVerbUi } from './data/body-pages.mjs';
+import { familyVocabulary, familyTranslationExercises, familyExampleWord } from './data/family-vocabulary.mjs';
+import { familyPages } from './data/family-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -191,6 +197,15 @@ const lessons = {
       ...bodyVerbUi[lang],
       ui: { ...traitUi[lang].ui, ...bodyVerbUi[lang].ui },
     }),
+  },
+  famiglia: {
+    id: 'famiglia',
+    kind: 'words',
+    pages: familyPages,
+    hero: 'famiglia-hero.webp',
+    words: familyVocabulary,
+    translations: familyTranslationExercises,
+    exampleWord: familyExampleWord,
   },
 };
 
@@ -624,6 +639,17 @@ function buildPage(lesson, lang) {
     out = out.replace(
       /(<div class="vocabulary-note">)[\s\S]*?(<\/div>)/,
       `$1\n            <strong>${escapeHtml(note.title)}</strong>\n            <p>${note.body}</p>\n          $2`
+    );
+  }
+
+  // 2b. le lezioni con parole che hanno un paragrafo introduttivo e una nota propri (la famiglia)
+  if (page.lead) {
+    out = out.replace(/(<p class="lead">)[\s\S]*?(<\/p>)/, `$1\n            ${page.lead}\n          $2`);
+  }
+  if (!isMatch && page.note) {
+    out = out.replace(
+      /(<div class="vocabulary-note">)[\s\S]*?(<\/div>)/,
+      `$1\n            <strong>${page.note.title}</strong>\n            <p>${page.note.body}</p>\n          $2`
     );
   }
 
