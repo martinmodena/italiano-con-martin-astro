@@ -16,6 +16,9 @@
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
+ *   - «I colori e le forme»                       30 parole (colori, fantasie, forme) con le foto di animali
+ *                                                 (2026-09-26): «Riconosci la parola» PIU' l'esercizio da
+ *                                                 trascinare «Descrivi l'animale» (`extraMatch`, con `photoRows`).
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -93,6 +96,13 @@ import { peopleVocabulary, peopleTranslationExercises, peopleExampleWord } from 
 import { peoplePages } from './data/people-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
 import { relationPages, relationUi } from './data/relations-pages.mjs';
+import {
+  colorVocabulary,
+  colorDescribeRows,
+  colorTranslationExercises,
+  colorExampleWord,
+} from './data/colors-vocabulary.mjs';
+import { colorPages, colorUi } from './data/colors-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -259,7 +269,37 @@ const lessons = {
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
   },
+  colori: {
+    id: 'colori',
+    kind: 'words',
+    pages: colorPages,
+    hero: 'colori-forme-hero.webp',
+    words: colorVocabulary,
+    translations: colorTranslationExercises,
+    exampleWord: colorExampleWord,
+    // Dopo «Riconosci la parola», l'esercizio da trascinare «Descrivi l'animale»: una foto per riga (foto
+    // proprie, non quelle delle schede) e le parole della lezione nella barra.
+    extraMatch: {
+      id: 'colori-descrivi',
+      kind: 'match',
+      photoRows: true,
+      pages: colorPages,
+      words: colorDescribeRows,
+      bank: colorVocabulary,
+      bankPage: colorPages,
+      bankLessonId: 'colori',
+      seeds: [2421, 2422],
+      uiFor: (lang) => ({
+        ...traitUi[lang],
+        ...colorUi[lang],
+        ui: { ...traitUi[lang].ui, ...colorUi[lang].ui },
+      }),
+    },
+  },
 };
+
+/** Le lezioni che caricano match.css e match.js: quelle con trascinamento e quelle con un esercizio in piu'. */
+const hasMatch = (lesson) => lesson.kind === 'match' || Boolean(lesson.extraMatch);
 
 /** La barra da cui si trascina: animali (default) o, per i verbi del corpo, parti del corpo. */
 const bankOf = (lesson) => lesson.bank ?? animalVocabulary;
@@ -523,7 +563,7 @@ function buildSets(items, mode, seed, bankList = animalVocabulary, neutral = [])
 }
 
 function validateLessonData() {
-  for (const lesson of Object.values(lessons)) {
+  for (const lesson of Object.values(lessons).flatMap((l) => (l.extraMatch ? [l, l.extraMatch] : [l]))) {
     if (lesson.kind !== 'match') continue;
     const known = bankBySlug(lesson);
     for (const t of lesson.words) {
@@ -702,6 +742,16 @@ function buildPage(lesson, lang) {
     );
   }
 
+  // 2a. le lezioni con parole che hanno anche un esercizio da trascinare (i colori): dopo «Riconosci la parola».
+  if (lesson.extraMatch) {
+    const start = out.indexOf('<section class="section word-practice-section"');
+    const end = out.indexOf('</section>', start);
+    if (start === -1 || end === -1) throw new Error(`${lang}: sezione «Riconosci la parola» non trovata`);
+    const at = end + '</section>'.length;
+    const sections = buildMatchSections(lesson.extraMatch, lang, template);
+    out = out.slice(0, at) + '\n\n      ' + sections.html + out.slice(at);
+  }
+
   // 2b. le lezioni con parole che hanno un paragrafo introduttivo e una nota propri (la famiglia)
   if (page.lead) {
     out = out.replace(/(<p class="lead">)[\s\S]*?(<\/p>)/, `$1\n            ${page.lead}\n          $2`);
@@ -740,7 +790,6 @@ function buildPage(lesson, lang) {
 }
 
 function buildAstro(lesson, lang) {
-  const isMatch = lesson.kind === 'match';
   const src = path.join(root, 'src/pages', kitchen[lang] + '.astro');
   let out = readFileSync(src, 'utf8');
   const page = lesson.pages[lang];
@@ -770,7 +819,7 @@ function buildAstro(lesson, lang) {
   out = out.replace(/(\\"name\\":\\")[^"]*?(\\")/, `$1${jsonEscape(page.name)}$2`);
 
   // Le lezioni con trascinamento caricano anche gli stili e lo script degli esercizi.
-  if (isMatch) {
+  if (hasMatch(lesson)) {
     const css = /("<link rel=\\"stylesheet\\" href=\\"([^"\\]*)assets\/vocabulary\.css\?v=[^"\\]*\\">")/.exec(out);
     if (!css) throw new Error(`${lang}: riga del foglio di stile del vocabolario non trovata`);
     const prefix = css[2];
@@ -929,6 +978,7 @@ for (const lesson of Object.values(lessons)) {
     console.log(`    tests: 0,`);
     console.log(`    match: { positive: ${matchItems(lesson).length}, negative: ${negativeItems(lesson).length} },`);
   }
+  if (lesson.extraMatch) console.log(`    match: { positive: ${matchItems(lesson.extraMatch).length} },`);
   for (const l of LANGS) console.log(`    ${l}: '${pagePath(lesson, l)}',`);
   console.log('  },');
 }

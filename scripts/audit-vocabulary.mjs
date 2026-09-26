@@ -202,6 +202,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «I colori e le forme»: «Riconosci la parola» piu' l'esercizio da trascinare «Descrivi l'animale».
+  colori: {
+    count: 30,
+    match: { positive: 12 },
+    it: 'vocabolario/colori-forme.html',
+    en: 'en/vocabulary/italian-colors-and-shapes-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-los-colores-y-las-formas-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-des-couleurs-et-des-formes-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-barvy-a-tvary.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-kolory-i-ksztalty.html',
+    tr: 'tr/kelime-bilgisi/italyanca-renkler-ve-sekiller-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-farben-und-formen.html',
+    ja: 'ja/goi/italian-colors-and-shapes-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -325,6 +339,7 @@ for (const lesson of [
   'mestieri',
   'persone',
   'verbi-relazioni',
+  'colori-forme',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

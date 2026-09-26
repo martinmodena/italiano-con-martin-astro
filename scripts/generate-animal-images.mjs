@@ -8,6 +8,7 @@
 //   - «I mestieri» (foto realistiche, qualita' low per spendere poco) -> --set mestieri
 //   - «Le persone intorno a noi» (come i mestieri)                   -> --set persone
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
+//   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -42,6 +43,7 @@ import { bodyVerbs } from './data/body-verbs.mjs';
 import { jobVocabulary } from './data/jobs-vocabulary.mjs';
 import { peopleVocabulary } from './data/people-vocabulary.mjs';
 import { relationVerbs } from './data/relations-verbs.mjs';
+import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -64,8 +66,9 @@ const getArg = (n) => {
 
 const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
-const bodySet = setName === 'corpo' || setName === 'verbi-corpo';
-const quality = getArg('--quality') || (bodySet ? 'medium' : 'low');
+// I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi'].includes(setName);
+const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
 const outDir = getArg('--out-dir');
@@ -81,9 +84,13 @@ const sets = {
   mestieri: jobVocabulary,
   persone: peopleVocabulary,
   relazioni: relationVerbs,
+  colori: colorVocabulary,
+  'colori-descrivi': colorDescribeRows,
 };
 if (!sets[setName]) {
-  console.error('Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni.');
+  console.error(
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi.'
+  );
   process.exit(1);
 }
 if (!dryRun && !outDir) {
