@@ -1120,7 +1120,6 @@ for (const lang of LANGS) {
   let html = readFileSync(file, 'utf8');
   const sample = /<a class="vocabulary-category"[\s\S]*?<\/a>/.exec(html);
   if (!sample) throw new Error(`${lang}: nessuna scheda disponibile da cui copiare`);
-  const status = /<span class="status">([^<]*)<\/span>/.exec(sample[0])[1];
   const assetPrefix = /src="([^"]*)\/vocabolario\//.exec(sample[0])[1];
 
   // La scheda della prima versione della lezione sulle caratteristiche sparisce.
@@ -1148,7 +1147,6 @@ for (const lang of LANGS) {
               <div class="vocabulary-category-body">
                 <h2>${escapeHtml(page.name)}</h2>
                 <p>${escapeHtml(page.cardText)}</p>
-                <span class="status">${escapeHtml(status)}</span>
               </div></a>`);
     added += 1;
   }

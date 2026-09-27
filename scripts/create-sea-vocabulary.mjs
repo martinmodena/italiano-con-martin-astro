@@ -329,11 +329,10 @@ for (const lang of LANGS) {
     );
   if (!placeholder) throw new Error(`${lang}: segnaposto del mare non trovato`);
 
-  // Da una scheda gia' disponibile si prendono l'etichetta di stato e la
-  // forma esatta del collegamento, gia' tradotte.
+  // Da una scheda gia' disponibile si prende la
+  // forma esatta del collegamento.
   const sample = /<a class="vocabulary-category"[\s\S]*?<\/a>/.exec(html);
   if (!sample) throw new Error(`${lang}: nessuna scheda disponibile da cui copiare`);
-  const status = /<span class="status">([^<]*)<\/span>/.exec(sample[0])[1];
   const assetPrefix = /src="([^"]*)\/vocabolario\//.exec(sample[0])[1];
   const href = lang === 'it' ? `${page.slug}.html` : `/${seaPath(lang)}`;
 
@@ -341,7 +340,6 @@ for (const lang of LANGS) {
               <div class="vocabulary-category-body">
                 <h2>${escapeHtml(page.name)}</h2>
                 <p>${escapeHtml(page.cardText)}</p>
-                <span class="status">${escapeHtml(status)}</span>
               </div></a>`;
 
   html = html.slice(0, placeholder.index) + card + html.slice(placeholder.index + placeholder[0].length);
