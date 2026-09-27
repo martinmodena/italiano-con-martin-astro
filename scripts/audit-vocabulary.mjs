@@ -384,6 +384,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-sport.html',
     ja: 'ja/goi/italian-sports-verbs-vocabulary.html',
   },
+  'verbi-mare': {
+    count: 30,
+    tests: 0,
+    match: { positive: 30 },
+    it: 'vocabolario/verbi-mare.html',
+    en: 'en/vocabulary/italian-sea-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-del-mar-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-de-la-mer-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-more.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-morza.html',
+    tr: 'tr/kelime-bilgisi/italyanca-deniz-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-meer.html',
+    ja: 'ja/goi/italian-sea-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -521,6 +535,7 @@ for (const lesson of [
   'verbi-montagna',
   'sport',
   'verbi-sport',
+  'verbi-mare',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

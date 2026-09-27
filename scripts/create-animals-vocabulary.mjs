@@ -32,6 +32,7 @@
  *   - «Lo sport»                                  45 parole: sport, luoghi, attrezzatura, la gara (2026-09-27).
  *   - «I verbi dello sport»                       37 verbi (allenarsi, segnare, parare, tifare...) (2026-09-28): come
  *                                                 i verbi della citta' (`photoRows`).
+ *   - «I verbi del mare»                          30 verbi (abbronzarsi, fare il morto, salpare...) (2026-09-28): idem.
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -76,6 +77,7 @@
  *   scripts/data/office-verbs.mjs        i verbi dell'ufficio; office-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/mountain-verbs.mjs      i verbi della montagna; mountain-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/sport-verbs.mjs         i verbi dello sport; sport-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/sea-verbs.mjs           i verbi del mare; sea-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/sport-vocabulary.mjs    lo sport; sport-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
@@ -149,6 +151,9 @@ import { mountainVerbs, mountainVerbTranslationExercises } from './data/mountain
 import { mountainVerbPages, mountainVerbUi } from './data/mountain-verbs-pages.mjs';
 import { sportVerbs, sportVerbTranslationExercises } from './data/sport-verbs.mjs';
 import { sportVerbPages, sportVerbUi } from './data/sport-verbs-pages.mjs';
+import { seaVerbs, seaVerbTranslationExercises } from './data/sea-verbs.mjs';
+import { seaVerbPages, seaVerbUi } from './data/sea-verbs-pages.mjs';
+import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 import { sportVocabulary, sportTranslationExercises, sportExampleWord } from './data/sport-vocabulary.mjs';
 import { sportPages } from './data/sport-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
@@ -560,6 +565,28 @@ const lessons = {
       ...relationUi[lang],
       note: sportVerbUi[lang].note,
       positive: { ...relationUi[lang].positive, ...sportVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
+  },
+  'verbi-mare': {
+    id: 'verbi-mare',
+    kind: 'match',
+    // Come i verbi della citta': una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: seaVerbPages,
+    hero: 'verbi-mare-hero.webp',
+    words: seaVerbs,
+    translations: seaVerbTranslationExercises,
+    exampleWord: null,
+    bank: seaVerbs,
+    bankPage: seaVerbPages,
+    bankLessonId: 'verbi-mare',
+    seeds: [2451, 2452],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: seaVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...seaVerbUi[lang].positive },
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
   },
@@ -1205,6 +1232,8 @@ for (const lang of LANGS) {
   if (!dryRun) writeFileSync(file, html);
   console.log(`indice ${lang}: ${added} schede aggiunte`);
 }
+// Le schede nuove finiscono in fondo: le rimette nell'ordine logico di sort-vocabulary-index.mjs (ORDER).
+sortVocabularyIndexes({ dryRun });
 
 // --- sitemap -------------------------------------------------------------------------
 {
