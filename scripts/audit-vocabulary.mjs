@@ -370,6 +370,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-sport.html',
     ja: 'ja/goi/italian-sports-vocabulary.html',
   },
+  'verbi-sport': {
+    count: 37,
+    tests: 0,
+    match: { positive: 37 },
+    it: 'vocabolario/verbi-sport.html',
+    en: 'en/vocabulary/italian-sports-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-del-deporte-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-du-sport-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-sportu.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-sportowe.html',
+    tr: 'tr/kelime-bilgisi/italyanca-spor-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-sport.html',
+    ja: 'ja/goi/italian-sports-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -506,6 +520,7 @@ for (const lesson of [
   'verbi-ufficio',
   'verbi-montagna',
   'sport',
+  'verbi-sport',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

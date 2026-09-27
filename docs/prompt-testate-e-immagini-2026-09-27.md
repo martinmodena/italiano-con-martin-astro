@@ -113,6 +113,12 @@ A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 g
 A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one mountain activity clearly: two hikers with backpacks walking on a trail in the Italian Dolomites, a woman with a helmet climbing a rock face, a green tent being put up on an alpine meadow, friends sitting around a campfire at dusk, a skier carving down a sunny snowy slope, two laughing children sledging down a snowy hill.
 ```
 
+### `verbi-sport-hero` (2026-09-28)
+
+```
+A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one sports action clearly: a goalkeeper in gloves diving to catch a football in front of the goal, a young woman volleyball player jumping and spiking the ball over the net, a woman doing yoga in the tree pose on a mat in a sunny park, a runner breaking the finish tape with his arms raised, happy fans in a stadium stand cheering with a striped scarf, a smiling girl with a riding helmet riding a brown horse in a field. Clothes and equipment without any brand logo, no text.
+```
+
 Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [prompt-immagini-corpo.md](./prompt-immagini-corpo.md).
 
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
@@ -147,6 +153,7 @@ Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stil
 | I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`  | `PEOPLE_STYLE`  |
 | I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna` | `PEOPLE_STYLE`  |
 | Lo sport                 | `scripts/data/sport-vocabulary.mjs`    | `sport`          | `SPORT_STYLE`   |
+| I verbi dello sport      | `scripts/data/sport-verbs.mjs`         | `verbi-sport`    | `PEOPLE_STYLE`  |
 
 Procedura completa per una lezione:
 
@@ -173,3 +180,4 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - `verbi-montagna`: guardare-le-stelle, nevicare, pattinare e rinfrescarsi rifatte a `medium` come **foto rotonde** (il cielo notturno e la neve sparivano nel fondo bianco; sul ghiaccio non si vedevano i pattini): nel `subject` c'è ora «a photograph cropped into a perfect circle».
   - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.
   - `sport`: il 2026-09-27 le prime 18 foto (gli sport, lo stadio, il campo), poi i crediti di OpenRouter sono finiti; il 2026-09-28 le altre 27 ($0,07). Tutte con `--whiten`, nessun ritocco. `arbitro` è stata **rifiutata dal filtro di sicurezza** con «a whistle in his mouth»; con il fischietto appeso al collo è passata. Attenzione: `--set sport` salta le foto già presenti in `public/`, non quelle già nella cartella `--out-dir`: rilanciandolo per una sola foto fallita le rifà tutte (meglio `--only <slug>`).
+  - `verbi-sport` (2026-09-28): 37 foto `low` ($0,10), tutte con `--whiten`; remare e fare-surf chieste subito come foto rotonde (l'acqua sparirebbe nel bianco). Rifatte a `medium` con il soggetto riscritto ($0,02): fare-una-capriola (la prima era una verticale con due adulti che guardavano) e tagliare-il-traguardo (c'era la scritta «FINISH» per terra: ora un arco di palloncini e «no letters and no words anywhere»).
