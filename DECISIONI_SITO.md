@@ -645,3 +645,11 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Correzione trovata strada facendo**: nelle lezioni con trascinamento il titolo della nota veniva riscappato, e nei verbi della casa, della città e delle relazioni (24 pagine in 8 lingue) si leggeva `<em lang="it">…</em>` come testo. Il generatore ora lo lascia com'è; le pagine rigenerate cambiano solo in quella riga.
 - **Verifica**: audit tutti verdi; nel browser 36 e 34 righe, verbo sbagliato segnalato e verbo di `fits` accettato, nessuna immagine rotta. **Parità di migrazione**: 492 differenze (invariate), **280 pagine extra** (262 + 18).
 
+## 2026-09-27 - Vocabolario: «I verbi della montagna»
+
+- **Chiesta da Martin** come seguito di «La montagna». 34 verbi: l'escursione (fare un'escursione, preparare lo zaino, allacciare gli scarponi, salire in cima, scalare, scendere a valle, fare una sosta, riprendere fiato, faticare, ammirare il panorama, leggere la cartina, fare un picnic, raccogliere funghi), il campeggio e il rifugio (montare e smontare la tenda, campeggiare, accendere un falò, raccogliere la legna, pernottare in rifugio, guardare le stelle, rinfrescarsi), la neve (nevicare, sciare, fare snowboard, andare in slittino, pattinare sul ghiaccio, fare un pupazzo di neve, fare a palle di neve, prendere la seggiovia, spalare la neve, sciogliersi) e la sicurezza (coprirsi, farsi male, soccorrere).
+- **Niente doppioni** con i verbi degli animali, del corpo e della città: salire e scendere compaiono solo in _salire in cima_ e _scendere a valle_.
+- **Nota della pagina**: _andare a_ + infinito, le espressioni con _fare_, _essere_ con _salire_, _scendere_ e i riflessivi, _nevicare_ senza soggetto con _è_ o _ha nevicato_.
+- **Immagini**: 34 foto `low` con `PEOPLE_STYLE`, tutte con `--whiten`; 4 rifatte a `medium` come foto rotonde (stelle, neve che cade, pattini sul ghiaccio, torrente). $0,13 in tutto; testata a mosaico di sei scene ($0,13).
+- **Verifica**: audit tutti verdi; nel browser 34 righe, verbo sbagliato segnalato e verbo di `fits` accettato, nessuna immagine rotta. **Parità di migrazione**: 492 differenze (invariate), **289 pagine extra** (280 + 9).
+

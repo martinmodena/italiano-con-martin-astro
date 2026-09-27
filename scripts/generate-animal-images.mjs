@@ -18,6 +18,7 @@
 //   - «L'ufficio» (come la scuola)                                    -> --set ufficio
 //   - «I verbi della scuola» (scene come le persone)                  -> --set verbi-scuola
 //   - «I verbi dell'ufficio» (scene come le persone)                  -> --set verbi-ufficio
+//   - «I verbi della montagna» (scene come le persone)                -> --set verbi-montagna
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -66,6 +67,7 @@ import { schoolVocabulary } from './data/school-vocabulary.mjs';
 import { officeVocabulary } from './data/office-vocabulary.mjs';
 import { schoolVerbs } from './data/school-verbs.mjs';
 import { officeVerbs } from './data/office-verbs.mjs';
+import { mountainVerbs } from './data/mountain-verbs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -119,10 +121,11 @@ const sets = {
   ufficio: officeVocabulary,
   'verbi-scuola': schoolVerbs,
   'verbi-ufficio': officeVerbs,
+  'verbi-montagna': mountainVerbs,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna.'
   );
   process.exit(1);
 }
@@ -221,6 +224,7 @@ const STYLE =
     'verbi-citta': PEOPLE_STYLE,
     'verbi-scuola': PEOPLE_STYLE,
     'verbi-ufficio': PEOPLE_STYLE,
+    'verbi-montagna': PEOPLE_STYLE,
     tempo: WEATHER_STYLE,
     montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;

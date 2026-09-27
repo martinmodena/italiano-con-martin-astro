@@ -28,6 +28,7 @@
  *   - «I verbi della scuola»                      36 verbi (studiare, alzare la mano, correggere...) (2026-09-27): come
  *                                                 i verbi della citta' (`photoRows`).
  *   - «I verbi dell'ufficio»                      34 verbi (digitare, firmare, candidarsi...) (2026-09-27): idem.
+ *   - «I verbi della montagna»                    34 verbi (fare un'escursione, montare la tenda, sciare...) (2026-09-27): idem.
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -70,6 +71,7 @@
  *   scripts/data/office-vocabulary.mjs   l'ufficio; office-pages.mjs la sua pagina
  *   scripts/data/school-verbs.mjs        i verbi della scuola; school-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/office-verbs.mjs        i verbi dell'ufficio; office-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/mountain-verbs.mjs      i verbi della montagna; mountain-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -138,6 +140,8 @@ import { schoolVerbs, schoolVerbTranslationExercises } from './data/school-verbs
 import { schoolVerbPages, schoolVerbUi } from './data/school-verbs-pages.mjs';
 import { officeVerbs, officeVerbTranslationExercises } from './data/office-verbs.mjs';
 import { officeVerbPages, officeVerbUi } from './data/office-verbs-pages.mjs';
+import { mountainVerbs, mountainVerbTranslationExercises } from './data/mountain-verbs.mjs';
+import { mountainVerbPages, mountainVerbUi } from './data/mountain-verbs-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
 import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
@@ -494,6 +498,28 @@ const lessons = {
       ...relationUi[lang],
       note: officeVerbUi[lang].note,
       positive: { ...relationUi[lang].positive, ...officeVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
+  },
+  'verbi-montagna': {
+    id: 'verbi-montagna',
+    kind: 'match',
+    // Come i verbi della citta': una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: mountainVerbPages,
+    hero: 'verbi-montagna-hero.webp',
+    words: mountainVerbs,
+    translations: mountainVerbTranslationExercises,
+    exampleWord: null,
+    bank: mountainVerbs,
+    bankPage: mountainVerbPages,
+    bankLessonId: 'verbi-montagna',
+    seeds: [2431, 2432],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: mountainVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...mountainVerbUi[lang].positive },
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
   },

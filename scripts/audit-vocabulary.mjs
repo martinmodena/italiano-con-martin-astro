@@ -344,6 +344,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-buero.html',
     ja: 'ja/goi/italian-office-verbs-vocabulary.html',
   },
+  'verbi-montagna': {
+    count: 34,
+    tests: 0,
+    match: { positive: 34 },
+    it: 'vocabolario/verbi-montagna.html',
+    en: 'en/vocabulary/italian-mountain-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-la-montana-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-de-la-montagne-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-hor.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-gor.html',
+    tr: 'tr/kelime-bilgisi/italyanca-dag-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-berge.html',
+    ja: 'ja/goi/italian-mountain-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -478,6 +492,7 @@ for (const lesson of [
   'scuola',
   'verbi-scuola',
   'verbi-ufficio',
+  'verbi-montagna',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

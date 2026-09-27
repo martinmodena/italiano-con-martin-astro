@@ -107,6 +107,12 @@ A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 g
 A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one office action clearly: a woman typing on a computer keyboard, a man signing a contract with a pen, colleagues in a meeting around a table, a manager shaking hands with a happy new employee, a man with a headset on a video call on his laptop, two colleagues laughing during a coffee break with espresso cups.
 ```
 
+### `verbi-montagna-hero`
+
+```
+A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one mountain activity clearly: two hikers with backpacks walking on a trail in the Italian Dolomites, a woman with a helmet climbing a rock face, a green tent being put up on an alpine meadow, friends sitting around a campfire at dusk, a skier carving down a sunny snowy slope, two laughing children sledging down a snowy hill.
+```
+
 Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [prompt-immagini-corpo.md](./prompt-immagini-corpo.md).
 
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
@@ -115,22 +121,23 @@ Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<l
 
 Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stile comune (fondo bianco, niente testo, niente carne…) è in `scripts/generate-animal-images.mjs`. Modello `gpt-image-1-mini`, qualità `low` salvo dove indicato.
 
-| Lezione                  | File dati                              | `--set`         | Stile           |
-| ------------------------ | -------------------------------------- | --------------- | --------------- |
-| I mestieri               | `scripts/data/jobs-vocabulary.mjs`     | `mestieri`      | `JOB_STYLE`     |
-| Le persone intorno a noi | `scripts/data/people-vocabulary.mjs`   | `persone`       | `PEOPLE_STYLE`  |
-| I verbi delle relazioni  | `scripts/data/relations-verbs.mjs`     | `relazioni`     | `PEOPLE_STYLE`  |
-| Il tempo e le stagioni   | `scripts/data/weather-vocabulary.mjs`  | `tempo`         | `WEATHER_STYLE` |
-| La casa                  | `scripts/data/house-vocabulary.mjs`    | `casa`          | `HOUSE_STYLE`   |
-| I verbi della casa       | `scripts/data/house-verbs.mjs`         | `verbi-casa`    | `PEOPLE_STYLE`  |
-| La città                 | `scripts/data/city-vocabulary.mjs`     | `citta`         | `CITY_STYLE`    |
-| La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`      | `WEATHER_STYLE` |
-| I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta`   | `PEOPLE_STYLE`  |
-| Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`      | `EMOTION_STYLE` |
-| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`        | `SCHOOL_STYLE`  |
-| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`       | `OFFICE_STYLE`  |
-| I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`  | `PEOPLE_STYLE`  |
-| I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio` | `PEOPLE_STYLE`  |
+| Lezione                  | File dati                              | `--set`          | Stile           |
+| ------------------------ | -------------------------------------- | ---------------- | --------------- |
+| I mestieri               | `scripts/data/jobs-vocabulary.mjs`     | `mestieri`       | `JOB_STYLE`     |
+| Le persone intorno a noi | `scripts/data/people-vocabulary.mjs`   | `persone`        | `PEOPLE_STYLE`  |
+| I verbi delle relazioni  | `scripts/data/relations-verbs.mjs`     | `relazioni`      | `PEOPLE_STYLE`  |
+| Il tempo e le stagioni   | `scripts/data/weather-vocabulary.mjs`  | `tempo`          | `WEATHER_STYLE` |
+| La casa                  | `scripts/data/house-vocabulary.mjs`    | `casa`           | `HOUSE_STYLE`   |
+| I verbi della casa       | `scripts/data/house-verbs.mjs`         | `verbi-casa`     | `PEOPLE_STYLE`  |
+| La città                 | `scripts/data/city-vocabulary.mjs`     | `citta`          | `CITY_STYLE`    |
+| La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`       | `WEATHER_STYLE` |
+| I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta`    | `PEOPLE_STYLE`  |
+| Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`       | `EMOTION_STYLE` |
+| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`         | `SCHOOL_STYLE`  |
+| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`        | `OFFICE_STYLE`  |
+| I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`   | `PEOPLE_STYLE`  |
+| I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`  | `PEOPLE_STYLE`  |
+| I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna` | `PEOPLE_STYLE`  |
 
 Procedura completa per una lezione:
 
@@ -154,4 +161,5 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - Rifatte una volta per un difetto del soggetto, già corretto nel campo `subject`: `verbi-casa` asciugare e riempire, `montagna` rifugio, `verbi-citta` parcheggiare.
   - `verbi-scuola` essere-bocciato: il primo prompt (un ragazzino triste sui gradini della scuola) è stato **rifiutato dal filtro di sicurezza** di OpenAI; con uno studente universitario adulto è passato.
   - Rifatte a qualità `medium` con il soggetto riscritto (le prime erano poco chiare): `verbi-scuola` misurare, imparare-a-memoria, copiare; `verbi-ufficio` fare-gli-straordinari (la scena notturna si slavava con `--whiten`: ora c'è un orologio a muro sulle dieci), fare-un-colloquio, dimettersi (c'era un finto testo).
+  - `verbi-montagna`: guardare-le-stelle, nevicare, pattinare e rinfrescarsi rifatte a `medium` come **foto rotonde** (il cielo notturno e la neve sparivano nel fondo bianco; sul ghiaccio non si vedevano i pattini): nel `subject` c'è ora «a photograph cropped into a perfect circle».
   - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.
