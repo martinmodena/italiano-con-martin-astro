@@ -598,3 +598,11 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Immagini**: foto `low` con `WEATHER_STYLE`, tutte con `--whiten`; rifatto il rifugio (aveva una bandiera svizzera), maschera rotonda sulla bussola. **$0,10**. Testata a collage.
 - **Generatore**: senza segnaposti le schede nuove vanno in fondo alla griglia con il rientro delle altre.
 - **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 37 schede, link a «Il mare» e «Gli animali», nessuna immagine rotta. **Parità di migrazione**: **235 pagine extra** (226 + 9).
+
+## 2026-09-27 - Vocabolario: «I verbi della città»
+
+- **Chiesta da Martin** fra le proposte, come coppia di «La città». 40 verbi: la strada e i mezzi (attraversare, girare, andare dritto, aspettare, prendere l'autobus, timbrare il biglietto, guidare, parcheggiare, fermarsi, pedalare, fare il pieno, prendere un taxi, perdersi, chiedere indicazioni, partire, arrivare, perdere il treno), negozi e servizi (fare la spesa, comprare, pagare, scegliere, provare, fare la fila, prelevare, spedire, ordinare, prenotare, vendere, pesare, noleggiare, consegnare, costruire, rubare) e il tempo libero (passeggiare, visitare, fotografare, guardare le vetrine, incontrarsi, brindare, divertirsi).
+- **Esercizio**: una foto per riga e i verbi nella barra, come i verbi della casa; si accettano a vicenda le coppie che una foto non distingue (partire/arrivare, comprare/pagare, aspettare/fare la fila, perdersi/chiedere indicazioni).
+- **Nota della pagina**: _prendere_ l'autobus, un taxi, un caffè; _gira a destra_, _vai dritto_; _perdere il treno_ contro _perdersi_; _con la carta_ / _in contanti_; _andare a_ + infinito; _essere_ al passato prossimo con _partire_, _arrivare_ e i riflessivi.
+- **Immagini**: foto `low` con `PEOPLE_STYLE`, tutte con `--whiten`; rifatto «parcheggiare» (il guidatore sembrava nel lunotto), maschera rotonda su «andare dritto» (sfondo di strada). **$0,11**. Testata a collage.
+- **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 40 foto, verbo sbagliato segnalato e verbo di `fits` accettato, nessuna immagine rotta. **Parità di migrazione**: **244 pagine extra** (235 + 9).

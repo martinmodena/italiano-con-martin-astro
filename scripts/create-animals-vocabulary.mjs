@@ -19,6 +19,8 @@
  *                                                 esercizio al contrario dei verbi delle relazioni (`photoRows`).
  *   - «La città»                                  46 parole: luoghi, negozi, strada, mezzi di trasporto (2026-09-27).
  *   - «La montagna»                               37 parole: paesaggio, piante, rifugi, escursione, neve (2026-09-27).
+ *   - «I verbi della città»                       40 verbi (attraversare, prendere l'autobus, pagare...) (2026-09-27): come
+ *                                                 i verbi della casa (`photoRows`).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -55,6 +57,7 @@
  *   scripts/data/house-vocabulary.mjs     la casa; house-pages.mjs la sua pagina
  *   scripts/data/city-vocabulary.mjs      la citta'; city-pages.mjs la sua pagina
  *   scripts/data/mountain-vocabulary.mjs  la montagna; mountain-pages.mjs la sua pagina
+ *   scripts/data/city-verbs.mjs           i verbi della citta'; city-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -113,6 +116,8 @@ import { cityVocabulary, cityTranslationExercises, cityExampleWord } from './dat
 import { cityPages } from './data/city-pages.mjs';
 import { mountainVocabulary, mountainTranslationExercises, mountainExampleWord } from './data/mountain-vocabulary.mjs';
 import { mountainPages } from './data/mountain-pages.mjs';
+import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
+import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
 import { houseVerbPages, houseVerbUi } from './data/house-verbs-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
@@ -374,6 +379,28 @@ const lessons = {
     words: mountainVocabulary,
     translations: mountainTranslationExercises,
     exampleWord: mountainExampleWord,
+  },
+  'verbi-citta': {
+    id: 'verbi-citta',
+    kind: 'match',
+    // Come i verbi della casa: una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: cityVerbPages,
+    hero: 'verbi-citta-hero.webp',
+    words: cityVerbs,
+    translations: cityVerbTranslationExercises,
+    exampleWord: null,
+    bank: cityVerbs,
+    bankPage: cityVerbPages,
+    bankLessonId: 'verbi-citta',
+    seeds: [2425, 2426],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: cityVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...cityVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
 };
 
