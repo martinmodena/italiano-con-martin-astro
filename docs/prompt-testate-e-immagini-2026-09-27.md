@@ -117,15 +117,13 @@ Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [promp
 
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
 
-### `sport-hero` (collage, provvisoria)
+### `sport-hero`
 
-Nessun prompt: i crediti di OpenRouter erano finiti. È un collage di 8 foto delle schede, costo zero:
+Rifatta il 2026-09-28 con `gemini-3-pro-image` ($0,13) al posto del collage provvisorio del 2026-09-27 (`build-collage-hero.mjs --subdir sport --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga`). Il nastro del traguardo ha la scritta «FINISH»: lasciata così.
 
-```bash
-node scripts/build-collage-hero.mjs --subdir sport --out sport-hero.webp --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga
 ```
-
-Quando si rifà con il modello di qualità vanno riscritti `heroAlt` in `scripts/data/sport-pages.mjs` (9 lingue) e l'`alt` della tessera negli indici.
+A bright, natural, photorealistic photograph of a sunny Sunday morning at a public sports park in an Italian town: in the foreground a mixed group of young amateur players in plain colourful kits cheering after a goal on a green football pitch, a ball in the net; behind them people jogging on a red running track, a woman crossing a finish ribbon with her arms up, two people playing tennis, a family with bicycles and helmets, spectators with scarves on a small grandstand; terracotta rooftops and a bell tower in the distance, no brand logos, no text.
+```
 
 ## 2. Foto delle parole
 
@@ -174,4 +172,4 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - Rifatte a qualità `medium` con il soggetto riscritto (le prime erano poco chiare): `verbi-scuola` misurare, imparare-a-memoria, copiare; `verbi-ufficio` fare-gli-straordinari (la scena notturna si slavava con `--whiten`: ora c'è un orologio a muro sulle dieci), fare-un-colloquio, dimettersi (c'era un finto testo).
   - `verbi-montagna`: guardare-le-stelle, nevicare, pattinare e rinfrescarsi rifatte a `medium` come **foto rotonde** (il cielo notturno e la neve sparivano nel fondo bianco; sul ghiaccio non si vedevano i pattini): nel `subject` c'è ora «a photograph cropped into a perfect circle».
   - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.
-  - `sport`: generate solo le prime 18 foto (gli sport, lo stadio, il campo) prima che finissero i crediti di OpenRouter; tutte con `--whiten`, nessun ritocco. Le altre 27 si generano rilanciando `--set sport`, che salta quelle già presenti.
+  - `sport`: il 2026-09-27 le prime 18 foto (gli sport, lo stadio, il campo), poi i crediti di OpenRouter sono finiti; il 2026-09-28 le altre 27 ($0,07). Tutte con `--whiten`, nessun ritocco. `arbitro` è stata **rifiutata dal filtro di sicurezza** con «a whistle in his mouth»; con il fischietto appeso al collo è passata. Attenzione: `--set sport` salta le foto già presenti in `public/`, non quelle già nella cartella `--out-dir`: rilanciandolo per una sola foto fallita le rifà tutte (meglio `--only <slug>`).

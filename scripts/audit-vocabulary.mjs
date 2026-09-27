@@ -359,8 +359,7 @@ const routes = {
     ja: 'ja/goi/italian-mountain-verbs-vocabulary.html',
   },
   sport: {
-    // 18 parole su 45: le altre entrano quando ci sono le foto (vedi sport-vocabulary.mjs).
-    count: 18,
+    count: 45,
     it: 'vocabolario/sport.html',
     en: 'en/vocabulary/italian-sports-vocabulary.html',
     es: 'es/vocabulario/vocabulario-del-deporte-en-italiano.html',

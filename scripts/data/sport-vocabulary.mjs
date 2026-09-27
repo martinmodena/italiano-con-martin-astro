@@ -9,11 +9,9 @@
 // tifoso e il compagno di squadra (Le persone intorno a noi), la bicicletta (La città), gli sci e lo
 // snowboard (La montagna), la tuta e i pantaloncini (L'abbigliamento), la rete (Il mare). La nota le collega.
 //
-// PUBBLICATA A META' (2026-09-27): i crediti di OpenRouter sono finiti dopo 18 foto, e Martin ha chiesto di
-// pubblicare quello che c'era. `sportWordsAll` e' l'elenco completo (lo usa generate-animal-images.mjs);
+// Pubblicata a meta' il 2026-09-27 (18 foto, poi i crediti di OpenRouter sono finiti), completata il
+// 2026-09-28 con tutte le 45 parole. `sportWordsAll` e' l'elenco completo (lo usa generate-animal-images.mjs);
 // `sportVocabulary`, che fa la pagina, tiene solo le parole con la foto gia' in public/assets/vocabolario/sport/.
-// Per completare: `generate-animal-images.mjs --set sport`, ripulitura e conversione, poi rilanciare
-// create-animals-vocabulary.mjs: contatori, descrizioni e tessere degli indici si aggiornano da soli.
 //
 // Struttura di ogni voce: come school-vocabulary.mjs. Foto REALISTICHE con gpt-image-1-mini a qualita' `low`,
 // `generate-animal-images.mjs --set sport`, stile `SPORT_STYLE` (oggetti ritagliati, luoghi e scene come foto
@@ -515,7 +513,7 @@ export const sportWordsAll = [
       'L’arbitra mostra il cartellino giallo.',
     ],
     '|The referee|El árbitro, la árbitra|L’arbitre|Rozhodčí|Sędzia|Hakem|Der Schiedsrichter, die Schiedsrichterin|審判',
-    'a football referee in a black shirt holding up a yellow card with one hand and a whistle in his mouth, upper body',
+    'a smiling football referee in a black shirt holding up a yellow card, a whistle hanging on a cord around the neck, upper body',
     ['arbitri', 'arbitra']
   ),
   sport(

@@ -664,3 +664,9 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Pubblicata a metà**: i crediti di OpenRouter sono finiti dopo 18 foto ($0,05), e Martin ha scelto di pubblicare quello che c'era e aggiungere le foto in futuro. La pagina mostra solo le parole con la foto (filtro in `sport-vocabulary.mjs`); descrizione e tessera nominano solo gli sport. Testata provvisoria a collage di 8 foto (costo zero). Le altre 27 parole, con frasi e traduzioni, sono già scritte.
 - **Verifica**: audit tutti verdi; nel browser 18 schede con foto. **Parità di migrazione**: 492 differenze (invariate), **298 pagine extra** (289 + 9).
 
+
+## 2026-09-28 - Vocabolario: «Lo sport» completata (45 parole)
+
+- **Martin ha ricaricato i crediti** e ha chiesto di aggiungere gli altri sport: generate le 27 foto che mancavano (luoghi, attrezzatura, la gara), $0,07, tutte con `--whiten`. `arbitro` rifiutata una volta dal filtro di sicurezza, rifatta con il fischietto al collo invece che in bocca.
+- **Testata di qualità** (`gemini-3-pro-image`, $0,13) al posto del collage provvisorio: un campo sportivo di paese con bambini che esultano dopo un gol, la pista, il tennis, le bici e la tribuna. Riscritti `heroAlt`, `description` e `cardText` nelle 9 lingue e l'`alt` delle tessere negli indici. Soglia di `audit-vocabulary.mjs` a 45.
+- **Verifica**: audit verdi; parità invariata (492 differenze, 298 extra).
