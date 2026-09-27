@@ -606,3 +606,12 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Nota della pagina**: _prendere_ l'autobus, un taxi, un caffè; _gira a destra_, _vai dritto_; _perdere il treno_ contro _perdersi_; _con la carta_ / _in contanti_; _andare a_ + infinito; _essere_ al passato prossimo con _partire_, _arrivare_ e i riflessivi.
 - **Immagini**: foto `low` con `PEOPLE_STYLE`, tutte con `--whiten`; rifatto «parcheggiare» (il guidatore sembrava nel lunotto), maschera rotonda su «andare dritto» (sfondo di strada). **$0,11**. Testata a collage.
 - **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 40 foto, verbo sbagliato segnalato e verbo di `fits` accettato, nessuna immagine rotta. **Parità di migrazione**: **244 pagine extra** (235 + 9).
+
+## 2026-09-27 - Vocabolario: «Le emozioni»
+
+- **Chiesta da Martin** fra le proposte. 34 aggettivi per dire come ci si sente: piacevoli (felice, contento, allegro, entusiasta, emozionato, innamorato, orgoglioso, soddisfatto, rilassato, calmo, sollevato, grato, divertito, commosso, sorpreso, curioso) e spiacevoli (triste, arrabbiato, nervoso, preoccupato, spaventato, stressato, deluso, geloso, offeso, imbarazzato, annoiato, stanco, confuso, disgustato, solo, timido, disperato, impaziente). Ogni scheda ha maschile e femminile.
+- **«Riconosci la parola»** accetta le due forme, il plurale e il nome dell'emozione (_felicità_, _paura_, _rabbia_, _vergogna_, _noia_…): così si impara anche il nome, che compare nelle frasi d'esempio.
+- **Sovrapposizione voluta con «La personalità degli animali»** (felice, triste, arrabbiato, nervoso, timido…): là descrivono il carattere di un animale, qui lo stato d'animo di una persona; la nota spiega la differenza e collega quella lezione.
+- **Nota della pagina**: _sono_ / _mi sento_ + aggettivo accordato, aggettivi invariabili, _avere paura_ e _avere vergogna_, il falso amico _eccitato_ (si dice _emozionato_), i due sensi di _solo_, stato d'animo contro carattere.
+- **Immagini**: 34 volti realistici `low` (stile `EMOTION_STYLE`, uomini e donne di età diverse), nessuno rifatto, **$0,09**. Testata a collage.
+- **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 34 schede, nota presente, risposte con aggettivo e nome, nessuna immagine rotta. **Parità di migrazione**: **253 pagine extra** (244 + 9).

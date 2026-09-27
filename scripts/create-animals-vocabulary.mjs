@@ -21,6 +21,7 @@
  *   - «La montagna»                               37 parole: paesaggio, piante, rifugi, escursione, neve (2026-09-27).
  *   - «I verbi della città»                       40 verbi (attraversare, prendere l'autobus, pagare...) (2026-09-27): come
  *                                                 i verbi della casa (`photoRows`).
+ *   - «Le emozioni»                               34 aggettivi (felice, emozionato, deluso...) con i volti (2026-09-27).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -58,6 +59,7 @@
  *   scripts/data/city-vocabulary.mjs      la citta'; city-pages.mjs la sua pagina
  *   scripts/data/mountain-vocabulary.mjs  la montagna; mountain-pages.mjs la sua pagina
  *   scripts/data/city-verbs.mjs           i verbi della citta'; city-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/emotions-vocabulary.mjs le emozioni; emotions-pages.mjs la loro pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -116,6 +118,8 @@ import { cityVocabulary, cityTranslationExercises, cityExampleWord } from './dat
 import { cityPages } from './data/city-pages.mjs';
 import { mountainVocabulary, mountainTranslationExercises, mountainExampleWord } from './data/mountain-vocabulary.mjs';
 import { mountainPages } from './data/mountain-pages.mjs';
+import { emotionVocabulary, emotionTranslationExercises, emotionExampleWord } from './data/emotions-vocabulary.mjs';
+import { emotionPages } from './data/emotions-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
 import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
@@ -401,6 +405,15 @@ const lessons = {
       positive: { ...relationUi[lang].positive, ...cityVerbUi[lang].positive },
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
+  },
+  emozioni: {
+    id: 'emozioni',
+    kind: 'words',
+    pages: emotionPages,
+    hero: 'emozioni-hero.webp',
+    words: emotionVocabulary,
+    translations: emotionTranslationExercises,
+    exampleWord: emotionExampleWord,
   },
 };
 

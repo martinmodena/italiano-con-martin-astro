@@ -13,6 +13,7 @@
 //   - «La città» (edifici, strada e veicoli ritagliati)               -> --set citta
 //   - «La montagna» (come il tempo: paesaggi in un cerchio)            -> --set montagna
 //   - «I verbi della città» (scene come le persone)                   -> --set verbi-citta
+//   - «Le emozioni» (volti con un'espressione chiara)                 -> --set emozioni
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -56,6 +57,7 @@ import { houseVerbs } from './data/house-verbs.mjs';
 import { cityVocabulary } from './data/city-vocabulary.mjs';
 import { mountainVocabulary } from './data/mountain-vocabulary.mjs';
 import { cityVerbs } from './data/city-verbs.mjs';
+import { emotionVocabulary } from './data/emotions-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -104,10 +106,11 @@ const sets = {
   citta: cityVocabulary,
   montagna: mountainVocabulary,
   'verbi-citta': cityVerbs,
+  emozioni: emotionVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni.'
   );
   process.exit(1);
 }
@@ -172,8 +175,15 @@ const CITY_STYLE = [
   'People, if any, are small and fully visible. Signs have symbols only, never words or letters unless the description asks for one.',
   ...PHOTO_END,
 ].join(' ');
+// Le emozioni: una persona con un'espressione chiarissima, leggibile anche in miniatura.
+const EMOTION_STYLE = [
+  'Photorealistic photograph of an ordinary person clearly showing one emotion, a natural but unmistakable facial expression and body language, like a stock photo for a language textbook, true-to-life skin and anatomy.',
+  'Upper-body shot from the waist up, unless the description needs the whole body; the face large and well lit, the whole figure inside the frame with white margins, no busy background.',
+  ...PHOTO_END,
+].join(' ');
 const STYLE =
   {
+    emozioni: EMOTION_STYLE,
     citta: CITY_STYLE,
     casa: HOUSE_STYLE,
     corpo: BODY_STYLE,

@@ -292,6 +292,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-stadt.html',
     ja: 'ja/goi/italian-city-verbs-vocabulary.html',
   },
+  emozioni: {
+    count: 34,
+    it: 'vocabolario/emozioni.html',
+    en: 'en/vocabulary/italian-emotions-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-las-emociones-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-des-emotions-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-emoce.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-emocje.html',
+    tr: 'tr/kelime-bilgisi/italyanca-duygular-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-gefuehle.html',
+    ja: 'ja/goi/italian-emotions-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -422,6 +434,7 @@ for (const lesson of [
   'citta',
   'montagna',
   'verbi-citta',
+  'emozioni',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
