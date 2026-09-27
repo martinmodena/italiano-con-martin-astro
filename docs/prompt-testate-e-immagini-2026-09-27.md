@@ -117,6 +117,16 @@ Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [promp
 
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
 
+### `sport-hero` (collage, provvisoria)
+
+Nessun prompt: i crediti di OpenRouter erano finiti. È un collage di 8 foto delle schede, costo zero:
+
+```bash
+node scripts/build-collage-hero.mjs --subdir sport --out sport-hero.webp --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga
+```
+
+Quando si rifà con il modello di qualità vanno riscritti `heroAlt` in `scripts/data/sport-pages.mjs` (9 lingue) e l'`alt` della tessera negli indici.
+
 ## 2. Foto delle parole
 
 Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stile comune (fondo bianco, niente testo, niente carne…) è in `scripts/generate-animal-images.mjs`. Modello `gpt-image-1-mini`, qualità `low` salvo dove indicato.
@@ -138,6 +148,7 @@ Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stil
 | I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`   | `PEOPLE_STYLE`  |
 | I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`  | `PEOPLE_STYLE`  |
 | I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna` | `PEOPLE_STYLE`  |
+| Lo sport                 | `scripts/data/sport-vocabulary.mjs`    | `sport`          | `SPORT_STYLE`   |
 
 Procedura completa per una lezione:
 
@@ -163,3 +174,4 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - Rifatte a qualità `medium` con il soggetto riscritto (le prime erano poco chiare): `verbi-scuola` misurare, imparare-a-memoria, copiare; `verbi-ufficio` fare-gli-straordinari (la scena notturna si slavava con `--whiten`: ora c'è un orologio a muro sulle dieci), fare-un-colloquio, dimettersi (c'era un finto testo).
   - `verbi-montagna`: guardare-le-stelle, nevicare, pattinare e rinfrescarsi rifatte a `medium` come **foto rotonde** (il cielo notturno e la neve sparivano nel fondo bianco; sul ghiaccio non si vedevano i pattini): nel `subject` c'è ora «a photograph cropped into a perfect circle».
   - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.
+  - `sport`: generate solo le prime 18 foto (gli sport, lo stadio, il campo) prima che finissero i crediti di OpenRouter; tutte con `--whiten`, nessun ritocco. Le altre 27 si generano rilanciando `--set sport`, che salta quelle già presenti.

@@ -653,3 +653,14 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Immagini**: 34 foto `low` con `PEOPLE_STYLE`, tutte con `--whiten`; 4 rifatte a `medium` come foto rotonde (stelle, neve che cade, pattini sul ghiaccio, torrente). $0,13 in tutto; testata a mosaico di sei scene ($0,13).
 - **Verifica**: audit tutti verdi; nel browser 34 righe, verbo sbagliato segnalato e verbo di `fits` accettato, nessuna immagine rotta. **Parità di migrazione**: 492 differenze (invariate), **289 pagine extra** (280 + 9).
 
+## 2026-09-27 - Vocabolario: tolta l'etichetta «Lezione disponibile»
+
+- **Richiesta di Martin**: l'etichetta sotto ogni tessera degli indici del vocabolario era ridondante (ogni tessera è una lezione disponibile). Tolta dalle 28 tessere in tutte e 9 le lingue, insieme alla regola `.vocabulary-category .status` in `public/assets/vocabulary.css`; i generatori (`create-sea-vocabulary.mjs`, `create-animals-vocabulary.mjs`) non la ricopiano più.
+
+## 2026-09-27 - Vocabolario: «Lo sport», pubblicata con 18 parole su 45
+
+- **Chiesta da Martin** («c'è già la scheda per lo sport?»). Preparate 45 parole in quattro gruppi: gli sport (calcio, pallavolo, pallacanestro, tennis, nuoto, ciclismo, corsa, ginnastica, pugilato, yoga, scherma, rugby, golf, equitazione, pattinaggio, ping pong), i luoghi (stadio, campo da calcio, piscina, pista, spogliatoio, tribuna), l'attrezzatura (pallone, racchetta, canestro, casco, cuffia, occhialini, scarpe da ginnastica, fischietto, cronometro, pesi, tappetino, guantoni, medaglia, coppa) e la gara (partita, squadra, giocatore, arbitro, atleta, gol, gara, traguardo, podio).
+- **Niente doppioni**: palestra (La scuola), allenatore (I mestieri), tifoso e compagno di squadra (Le persone intorno a noi), bicicletta (La città), sci e snowboard (La montagna), tuta e pantaloncini (L'abbigliamento), rete (Il mare). La nota li collega e spiega _giocare a_ + sport con la palla, _fare_ + gli altri sport, _in palestra_ / _allo stadio_, _la partita_ / _la gara_, _vincere_ / _perdere_ / _pareggiare_, _tifare per_, _gli Azzurri_, _il pallone_ / _la palla_.
+- **Pubblicata a metà**: i crediti di OpenRouter sono finiti dopo 18 foto ($0,05), e Martin ha scelto di pubblicare quello che c'era e aggiungere le foto in futuro. La pagina mostra solo le parole con la foto (filtro in `sport-vocabulary.mjs`); descrizione e tessera nominano solo gli sport. Testata provvisoria a collage di 8 foto (costo zero). Le altre 27 parole, con frasi e traduzioni, sono già scritte.
+- **Verifica**: audit tutti verdi; nel browser 18 schede con foto. **Parità di migrazione**: 492 differenze (invariate), **298 pagine extra** (289 + 9).
+

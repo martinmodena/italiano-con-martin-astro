@@ -29,6 +29,7 @@
  *                                                 i verbi della citta' (`photoRows`).
  *   - «I verbi dell'ufficio»                      34 verbi (digitare, firmare, candidarsi...) (2026-09-27): idem.
  *   - «I verbi della montagna»                    34 verbi (fare un'escursione, montare la tenda, sciare...) (2026-09-27): idem.
+ *   - «Lo sport»                                  45 parole: sport, luoghi, attrezzatura, la gara (2026-09-27).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -72,6 +73,7 @@
  *   scripts/data/school-verbs.mjs        i verbi della scuola; school-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/office-verbs.mjs        i verbi dell'ufficio; office-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/mountain-verbs.mjs      i verbi della montagna; mountain-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/sport-vocabulary.mjs    lo sport; sport-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -142,6 +144,8 @@ import { officeVerbs, officeVerbTranslationExercises } from './data/office-verbs
 import { officeVerbPages, officeVerbUi } from './data/office-verbs-pages.mjs';
 import { mountainVerbs, mountainVerbTranslationExercises } from './data/mountain-verbs.mjs';
 import { mountainVerbPages, mountainVerbUi } from './data/mountain-verbs-pages.mjs';
+import { sportVocabulary, sportTranslationExercises, sportExampleWord } from './data/sport-vocabulary.mjs';
+import { sportPages } from './data/sport-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
 import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
@@ -456,6 +460,15 @@ const lessons = {
     words: officeVocabulary,
     translations: officeTranslationExercises,
     exampleWord: officeExampleWord,
+  },
+  sport: {
+    id: 'sport',
+    kind: 'words',
+    pages: sportPages,
+    hero: 'sport-hero.webp',
+    words: sportVocabulary,
+    translations: sportTranslationExercises,
+    exampleWord: sportExampleWord,
   },
   'verbi-scuola': {
     id: 'verbi-scuola',

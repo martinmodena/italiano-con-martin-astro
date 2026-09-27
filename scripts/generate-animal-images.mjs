@@ -19,6 +19,7 @@
 //   - «I verbi della scuola» (scene come le persone)                  -> --set verbi-scuola
 //   - «I verbi dell'ufficio» (scene come le persone)                  -> --set verbi-ufficio
 //   - «I verbi della montagna» (scene come le persone)                -> --set verbi-montagna
+//   - «Lo sport» (come la scuola: oggetti ritagliati, luoghi in un cerchio) -> --set sport
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -65,6 +66,7 @@ import { cityVerbs } from './data/city-verbs.mjs';
 import { emotionVocabulary } from './data/emotions-vocabulary.mjs';
 import { schoolVocabulary } from './data/school-vocabulary.mjs';
 import { officeVocabulary } from './data/office-vocabulary.mjs';
+import { sportWordsAll } from './data/sport-vocabulary.mjs';
 import { schoolVerbs } from './data/school-verbs.mjs';
 import { officeVerbs } from './data/office-verbs.mjs';
 import { mountainVerbs } from './data/mountain-verbs.mjs';
@@ -119,13 +121,14 @@ const sets = {
   emozioni: emotionVocabulary,
   scuola: schoolVocabulary,
   ufficio: officeVocabulary,
+  sport: sportWordsAll,
   'verbi-scuola': schoolVerbs,
   'verbi-ufficio': officeVerbs,
   'verbi-montagna': mountainVerbs,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport.'
   );
   process.exit(1);
 }
@@ -208,10 +211,12 @@ const workplaceStyle = (place) =>
   ].join(' ');
 const SCHOOL_STYLE = workplaceStyle('an ordinary Italian school');
 const OFFICE_STYLE = workplaceStyle('an ordinary modern Italian office');
+const SPORT_STYLE = workplaceStyle('everyday amateur sport in Italy, clothes and equipment without any brand logo');
 const STYLE =
   {
     scuola: SCHOOL_STYLE,
     ufficio: OFFICE_STYLE,
+    sport: SPORT_STYLE,
     emozioni: EMOTION_STYLE,
     citta: CITY_STYLE,
     casa: HOUSE_STYLE,

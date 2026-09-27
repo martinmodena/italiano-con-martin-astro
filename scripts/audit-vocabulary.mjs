@@ -358,6 +358,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-berge.html',
     ja: 'ja/goi/italian-mountain-verbs-vocabulary.html',
   },
+  sport: {
+    // 18 parole su 45: le altre entrano quando ci sono le foto (vedi sport-vocabulary.mjs).
+    count: 18,
+    it: 'vocabolario/sport.html',
+    en: 'en/vocabulary/italian-sports-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-deporte-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-du-sport-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-sport.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-sport.html',
+    tr: 'tr/kelime-bilgisi/italyanca-spor-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-sport.html',
+    ja: 'ja/goi/italian-sports-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -493,6 +506,7 @@ for (const lesson of [
   'verbi-scuola',
   'verbi-ufficio',
   'verbi-montagna',
+  'sport',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
