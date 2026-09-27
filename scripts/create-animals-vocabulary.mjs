@@ -18,6 +18,7 @@
  *   - «I verbi della casa»                        49 verbi (cucinare, fare il bucato, accendere...) (2026-09-27): stesso
  *                                                 esercizio al contrario dei verbi delle relazioni (`photoRows`).
  *   - «La città»                                  46 parole: luoghi, negozi, strada, mezzi di trasporto (2026-09-27).
+ *   - «La montagna»                               37 parole: paesaggio, piante, rifugi, escursione, neve (2026-09-27).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -53,6 +54,7 @@
  *   scripts/data/weather-vocabulary.mjs   il tempo e le stagioni; weather-pages.mjs la loro pagina
  *   scripts/data/house-vocabulary.mjs     la casa; house-pages.mjs la sua pagina
  *   scripts/data/city-vocabulary.mjs      la citta'; city-pages.mjs la sua pagina
+ *   scripts/data/mountain-vocabulary.mjs  la montagna; mountain-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -109,6 +111,8 @@ import { houseVocabulary, houseTranslationExercises, houseExampleWord } from './
 import { housePages } from './data/house-pages.mjs';
 import { cityVocabulary, cityTranslationExercises, cityExampleWord } from './data/city-vocabulary.mjs';
 import { cityPages } from './data/city-pages.mjs';
+import { mountainVocabulary, mountainTranslationExercises, mountainExampleWord } from './data/mountain-vocabulary.mjs';
+import { mountainPages } from './data/mountain-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
 import { houseVerbPages, houseVerbUi } from './data/house-verbs-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
@@ -361,6 +365,15 @@ const lessons = {
     words: cityVocabulary,
     translations: cityTranslationExercises,
     exampleWord: cityExampleWord,
+  },
+  montagna: {
+    id: 'montagna',
+    kind: 'words',
+    pages: mountainPages,
+    hero: 'montagna-hero.webp',
+    words: mountainVocabulary,
+    translations: mountainTranslationExercises,
+    exampleWord: mountainExampleWord,
   },
 };
 
@@ -993,8 +1006,14 @@ for (const lang of LANGS) {
   if (added) {
     // Prima del primo segnaposto; se non ce ne sono piu', in fondo alla griglia.
     const coming = html.indexOf('<article class="vocabulary-category coming">');
-    const insertAt = coming !== -1 ? coming : html.lastIndexOf('</div>', html.indexOf('vocabulary-note'));
-    html = html.slice(0, insertAt) + cards.join('\n            ') + '\n            ' + html.slice(insertAt);
+    if (coming !== -1) {
+      html = html.slice(0, coming) + cards.join('\n            ') + '\n            ' + html.slice(coming);
+    } else {
+      // All'inizio della riga che chiude la griglia, cosi' il rientro resta quello delle altre schede.
+      const close = html.lastIndexOf('</div>', html.indexOf('vocabulary-note'));
+      const lineStart = html.lastIndexOf('\n', close) + 1;
+      html = html.slice(0, lineStart) + cards.map((card) => `            ${card}\n`).join('') + html.slice(lineStart);
+    }
   }
   if (!dryRun) writeFileSync(file, html);
   console.log(`indice ${lang}: ${added} schede aggiunte`);

@@ -590,3 +590,11 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Nota della pagina**: _in_ o _a_ con i luoghi, _in_ con i mezzi ma _a piedi_, _prendere_ l'autobus, _libreria_ contro _biblioteca_, il bar italiano.
 - **Immagini**: niente carne (mercato di frutta e verdura, gelateria con sorbetti di frutta, niente pasticceria). 46 foto `low` + 34 rifatte `low` + 16 rifatte `medium` per la sfumatura scura ai bordi; le 13 che l'avevano ancora sono diventate foto rotonde con una maschera (costo zero). In tutto **$0,36**. Testata a collage.
 - **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 46 schede, nota presente, nessuna immagine rotta. **Parità di migrazione**: **226 pagine extra** (217 + 9).
+
+## 2026-09-27 - Vocabolario: «La montagna»
+
+- **Seconda scelta autonoma** dopo «La città»: l'ultimo segnaposto degli indici («Sentieri, boschi, rifugi e paesaggi»), tolto nelle 9 lingue. 37 parole: il paesaggio (montagna, cima, valle, bosco, sentiero, lago, fiume, cascata, ghiacciaio, roccia, prato, grotta, panorama), le piante (abete, pigna, fungo, stella alpina), rifugi e impianti (rifugio, baita, funivia, seggiovia, pista da sci), l'escursione (zaino, scarponi, borraccia, tenda, sacco a pelo, cartina, bussola, torcia, bastoncini, binocolo) e neve e arrampicata (sci, snowboard, slittino, corda, falò). Gli animali di montagna non si ripetono: la nota rimanda a «Gli animali».
+- **Nota della pagina**: _in montagna_ / _al mare_, _il monte_ davanti al nome, catene al plurale, _fare un'escursione_, _salire in cima_, _andare a sciare_, _gli sci_ contro _lo sci_.
+- **Immagini**: foto `low` con `WEATHER_STYLE`, tutte con `--whiten`; rifatto il rifugio (aveva una bandiera svizzera), maschera rotonda sulla bussola. **$0,10**. Testata a collage.
+- **Generatore**: senza segnaposti le schede nuove vanno in fondo alla griglia con il rientro delle altre.
+- **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 37 schede, link a «Il mare» e «Gli animali», nessuna immagine rotta. **Parità di migrazione**: **235 pagine extra** (226 + 9).

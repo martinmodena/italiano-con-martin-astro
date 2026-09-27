@@ -11,6 +11,7 @@
 //   - «La casa» (qualita' low, stanze in un cerchio)                  -> --set casa
 //   - «I verbi della casa» (scene come le persone)                    -> --set verbi-casa
 //   - «La città» (edifici, strada e veicoli ritagliati)               -> --set citta
+//   - «La montagna» (come il tempo: paesaggi in un cerchio)            -> --set montagna
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -52,6 +53,7 @@ import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
 import { cityVocabulary } from './data/city-vocabulary.mjs';
+import { mountainVocabulary } from './data/mountain-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -98,10 +100,11 @@ const sets = {
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
   citta: cityVocabulary,
+  montagna: mountainVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna.'
   );
   process.exit(1);
 }
@@ -177,6 +180,7 @@ const STYLE =
     relazioni: PEOPLE_STYLE,
     'verbi-casa': PEOPLE_STYLE,
     tempo: WEATHER_STYLE,
+    montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;
 
 const pending = sets[setName]

@@ -266,6 +266,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-stadt.html',
     ja: 'ja/goi/italian-city-vocabulary.html',
   },
+  montagna: {
+    count: 37,
+    it: 'vocabolario/montagna.html',
+    en: 'en/vocabulary/italian-mountain-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-la-montana-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-montagne-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-hory.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-gory.html',
+    tr: 'tr/kelime-bilgisi/italyanca-dag-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-berge.html',
+    ja: 'ja/goi/italian-mountain-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -394,6 +406,7 @@ for (const lesson of [
   'casa',
   'verbi-casa',
   'citta',
+  'montagna',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
