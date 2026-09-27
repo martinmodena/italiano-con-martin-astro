@@ -37,7 +37,7 @@ export const mountainPages = {
     title: 'La montagna: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole della montagna in italiano — la cima, il bosco, il sentiero, il rifugio, la funivia, lo zaino, gli scarponi, gli sci… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Dodici foto della montagna: una roccia, un abete, un rifugio, una baita, la funivia, lo zaino, gli scarponi, la tenda, la bussola, gli sci, lo slittino e il falò',
+      'Le Dolomiti d’estate: le cime di roccia, un prato fiorito, una baita di legno, un lago turchese, i boschi di abeti e due escursionisti con zaino e bastoncini',
     cardText: `${N} parole per la montagna: paesaggi, boschi, rifugi, l’escursione e la neve.`,
     note: {
       title: 'In montagna',
@@ -51,7 +51,7 @@ export const mountainPages = {
     title: 'The mountains | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for the mountains — the summit, the woods, the trail, the mountain hut, the cable car, the backpack, hiking boots, skis… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'Twelve mountain photos: a rock, a fir tree, a mountain hut, a cabin, the cable car, a backpack, hiking boots, a tent, a compass, skis, a sledge and a campfire',
+      'The Dolomites in summer: rocky peaks, a meadow full of flowers, a wooden cabin, a turquoise lake, fir woods and two hikers with backpacks and poles',
     cardText: `${N} words for the mountains: landscapes, woods, huts, hiking and snow.`,
     note: {
       title: it('In montagna'),
@@ -65,7 +65,7 @@ export const mountainPages = {
     title: 'La montaña | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras de la montaña en italiano — la cima, el bosque, el sendero, el refugio, el teleférico, la mochila, las botas, los esquís… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Doce fotos de la montaña: una roca, un abeto, un refugio, una cabaña, el teleférico, la mochila, las botas, la tienda, la brújula, los esquís, el trineo y la hoguera',
+      'Los Dolomitas en verano: cimas de roca, un prado en flor, una cabaña de madera, un lago turquesa, bosques de abetos y dos excursionistas con mochila y bastones',
     cardText: `${N} palabras para la montaña: paisajes, bosques, refugios, excursiones y nieve.`,
     note: {
       title: it('In montagna'),
@@ -79,7 +79,7 @@ export const mountainPages = {
     title: 'La montagne | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens de la montagne — le sommet, le bois, le sentier, le refuge, le téléphérique, le sac à dos, les chaussures de randonnée, les skis… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Douze photos de la montagne : un rocher, un sapin, un refuge, un chalet, le téléphérique, le sac à dos, les chaussures, la tente, la boussole, les skis, la luge et le feu de camp',
+      'Les Dolomites en été : des sommets rocheux, un pré fleuri, un chalet en bois, un lac turquoise, des forêts de sapins et deux randonneurs avec sac à dos et bâtons',
     cardText: `${N} mots pour la montagne : paysages, bois, refuges, randonnée et neige.`,
     note: {
       title: it('In montagna'),
@@ -93,7 +93,7 @@ export const mountainPages = {
     title: 'Hory | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o horách — vrchol, les, stezka, horská chata, lanovka, batoh, pohorky, lyže… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Dvanáct fotografií hor: skála, jedle, horská chata, srub, lanovka, batoh, pohorky, stan, kompas, lyže, sáňky a táborák',
+      'Dolomity v létě: skalnaté vrcholy, rozkvetlá louka, dřevěný srub, tyrkysové jezero, jedlové lesy a dva turisté s batohy a hůlkami',
     cardText: `${N} slov o horách: krajina, lesy, chaty, turistika a sníh.`,
     note: {
       title: it('In montagna'),
@@ -107,7 +107,7 @@ export const mountainPages = {
     title: 'Góry | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o górach — szczyt, las, szlak, schronisko, kolejka linowa, plecak, buty trekkingowe, narty… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Dwanaście zdjęć gór: skała, jodła, schronisko, chata, kolejka linowa, plecak, buty, namiot, kompas, narty, sanki i ognisko',
+      'Dolomity latem: skaliste szczyty, kwitnąca łąka, drewniana chata, turkusowe jezioro, lasy jodłowe i dwoje turystów z plecakami i kijkami',
     cardText: `${N} słów o górach: krajobrazy, lasy, schroniska, wędrówki i śnieg.`,
     note: {
       title: it('In montagna'),
@@ -121,7 +121,7 @@ export const mountainPages = {
     title: 'Dağ | İtalyanca kelimeler | Italiano con Martin',
     description: `Dağ için ${N} İtalyanca kelime öğrenin — zirve, orman, patika, dağ evi, teleferik, sırt çantası, dağ botları, kayaklar… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Dağla ilgili on iki fotoğraf: bir kaya, bir köknar, dağ evi, dağ kulübesi, teleferik, sırt çantası, botlar, çadır, pusula, kayaklar, kızak ve kamp ateşi',
+      'Yazın Dolomitler: kayalık zirveler, çiçekli bir çayır, ahşap bir dağ kulübesi, turkuaz bir göl, köknar ormanları ve sırt çantalı, batonlu iki yürüyüşçü',
     cardText: `Dağ için ${N} kelime: manzaralar, ormanlar, dağ evleri, doğa yürüyüşü ve kar.`,
     note: {
       title: it('In montagna'),
@@ -135,7 +135,7 @@ export const mountainPages = {
     title: 'Die Berge | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für die Berge — der Gipfel, der Wald, der Wanderweg, die Berghütte, die Seilbahn, der Rucksack, die Wanderschuhe, die Skier … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Zwölf Bergfotos: ein Felsen, eine Tanne, eine Berghütte, eine Almhütte, die Seilbahn, der Rucksack, die Wanderschuhe, das Zelt, der Kompass, die Skier, der Schlitten und das Lagerfeuer',
+      'Die Dolomiten im Sommer: Felsgipfel, eine Blumenwiese, eine Holzhütte, ein türkiser See, Tannenwälder und zwei Wanderer mit Rucksack und Stöcken',
     cardText: `${N} Wörter für die Berge: Landschaften, Wälder, Hütten, Wandern und Schnee.`,
     note: {
       title: it('In montagna'),
@@ -149,7 +149,7 @@ export const mountainPages = {
     title: '山 | イタリア語の語彙 | Italiano con Martin',
     description: `頂上、森、山道、山小屋、ロープウェー、リュックサック、登山靴、スキー板など、山に関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
     heroAlt:
-      '山の写真12枚：岩、モミの木、山小屋、山荘、ロープウェー、リュックサック、登山靴、テント、コンパス、スキー板、そり、たき火',
+      '夏のドロミテ：岩の峰、花の咲く草原、木の山小屋、ターコイズ色の湖、モミの森、リュックとストックを持った2人のハイカー',
     cardText: `山に関する ${N} 語。景色、森、山小屋、ハイキング、そして雪。`,
     note: {
       title: it('In montagna'),

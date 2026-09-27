@@ -20,7 +20,7 @@ export const jobPages = {
     title: 'Vocabolario dei mestieri in italiano | Italiano con Martin',
     description: `Impara ${N} mestieri in italiano, al maschile e al femminile — il cuoco e la cuoca, l’attore e l’attrice, il dentista e la dentista… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Dodici persone al lavoro: un cuoco, una dottoressa, un vigile del fuoco, un pilota, una contadina, una giudice e altri',
+      'Sei lavoratori sorridenti in una strada italiana: una cuoca con un cesto di verdure, un medico, un vigile del fuoco, una meccanica, un contadino e un’insegnante',
     cardText: `${N} mestieri al maschile e al femminile: dal cuoco alla dottoressa, dall’idraulico all’attrice, con foto.`,
     note: {
       title: 'Faccio il cuoco, sono cuoco',
@@ -33,7 +33,8 @@ export const jobPages = {
     name: 'Jobs',
     title: 'Jobs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} jobs in Italian, in the masculine and the feminine — cook, actor and actress, dentist… — with photos, three example sentences, pronunciation and exercises.`,
-    heroAlt: 'Twelve people at work: a cook, a doctor, a firefighter, a pilot, a farmer, a judge and others',
+    heroAlt:
+      'Six smiling workers in an Italian street: a chef with a basket of vegetables, a doctor, a firefighter, a mechanic, a farmer and a teacher',
     cardText: `${N} jobs in the masculine and the feminine: from the cook to the doctor, from the plumber to the actress, with photos.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -47,7 +48,7 @@ export const jobPages = {
     title: 'Las profesiones | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} profesiones en italiano, en masculino y en femenino — cocinero y cocinera, actor y actriz, dentista… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Doce personas trabajando: un cocinero, una médica, un bombero, un piloto, una campesina, una jueza y otros',
+      'Seis trabajadores sonrientes en una calle italiana: una cocinera con una cesta de verduras, un médico, un bombero, una mecánica, un agricultor y una profesora',
     cardText: `${N} profesiones en masculino y en femenino: del cocinero a la médica, del fontanero a la actriz, con fotos.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -61,7 +62,7 @@ export const jobPages = {
     title: 'Les métiers | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} métiers en italien, au masculin et au féminin — cuisinier et cuisinière, acteur et actrice, dentiste… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Douze personnes au travail : un cuisinier, une médecin, un pompier, un pilote, une paysanne, une juge et d’autres',
+      'Six travailleurs souriants dans une rue italienne : une cuisinière avec un panier de légumes, un médecin, un pompier, une mécanicienne, un agriculteur et une enseignante',
     cardText: `${N} métiers au masculin et au féminin : du cuisinier à la médecin, du plombier à l’actrice, avec des photos.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -74,7 +75,8 @@ export const jobPages = {
     name: 'Povolání',
     title: 'Povolání | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} povolání italsky, v mužském i ženském rodě — kuchař a kuchařka, herec a herečka, zubař… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
-    heroAlt: 'Dvanáct lidí při práci: kuchař, lékařka, hasič, pilot, zemědělkyně, soudkyně a další',
+    heroAlt:
+      'Šest usměvavých pracujících na italské ulici: kuchařka s košíkem zeleniny, lékař, hasič, automechanička, zemědělec a učitelka',
     cardText: `${N} povolání v mužském i ženském rodě: od kuchaře po lékařku, od instalatéra po herečku, s fotografiemi.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -87,7 +89,8 @@ export const jobPages = {
     name: 'Zawody',
     title: 'Zawody | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} zawodów po włosku, w rodzaju męskim i żeńskim — kucharz i kucharka, aktor i aktorka, dentysta… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
-    heroAlt: 'Dwanaście osób przy pracy: kucharz, lekarka, strażak, pilot, rolniczka, sędzia i inni',
+    heroAlt:
+      'Sześć uśmiechniętych osób przy pracy na włoskiej ulicy: kucharka z koszem warzyw, lekarz, strażak, mechaniczka, rolnik i nauczycielka',
     cardText: `${N} zawodów w rodzaju męskim i żeńskim: od kucharza po lekarkę, od hydraulika po aktorkę, ze zdjęciami.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -101,7 +104,7 @@ export const jobPages = {
     title: 'Meslekler | İtalyanca kelimeler | Italiano con Martin',
     description: `İtalyanca ${N} mesleği eril ve dişil biçimleriyle öğrenin — aşçı, oyuncu, diş hekimi… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'İş başında on iki kişi: bir aşçı, bir doktor, bir itfaiyeci, bir pilot, bir çiftçi, bir hakim ve diğerleri',
+      'İtalyan bir sokakta gülümseyen altı çalışan: sebze sepetli bir aşçı, bir doktor, bir itfaiyeci, bir tamirci, bir çiftçi ve bir öğretmen',
     cardText: `Eril ve dişil biçimleriyle ${N} meslek: aşçıdan doktora, tesisatçıdan oyuncuya, fotoğraflarla.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -115,7 +118,7 @@ export const jobPages = {
     title: 'Berufe | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} Berufe auf Italienisch, in der männlichen und der weiblichen Form — Koch und Köchin, Schauspieler und Schauspielerin, Zahnarzt … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Zwölf Menschen bei der Arbeit: ein Koch, eine Ärztin, ein Feuerwehrmann, ein Pilot, eine Bäuerin, eine Richterin und andere',
+      'Sechs lächelnde Berufstätige in einer italienischen Straße: eine Köchin mit einem Gemüsekorb, ein Arzt, ein Feuerwehrmann, eine Mechanikerin, ein Bauer und eine Lehrerin',
     cardText: `${N} Berufe in der männlichen und der weiblichen Form: vom Koch bis zur Ärztin, vom Klempner bis zur Schauspielerin, mit Fotos.`,
     note: {
       title: `${it('Faccio il cuoco')}, ${it('sono cuoco')}`,
@@ -128,7 +131,7 @@ export const jobPages = {
     name: '職業',
     title: '職業 | イタリア語の語彙 | Italiano con Martin',
     description: `料理人、俳優・女優、歯医者など、職業を表すイタリア語 ${N} 語を男性形と女性形で、写真、例文 3 つ、発音、練習問題とともに学べます。`,
-    heroAlt: '働く12人：料理人、医者、消防士、パイロット、農家、裁判官など',
+    heroAlt: 'イタリアの通りでほほえむ6人の働く人：野菜のかごを持った料理人、医者、消防士、整備士、農家、先生',
     cardText: `男性形と女性形で覚える職業 ${N} 語。料理人から医者、配管工から女優まで。写真付き。`,
     note: {
       title: `${it('Faccio il cuoco')}、${it('sono cuoco')}`,

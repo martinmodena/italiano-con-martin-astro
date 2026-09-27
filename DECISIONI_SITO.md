@@ -615,3 +615,10 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Nota della pagina**: _sono_ / _mi sento_ + aggettivo accordato, aggettivi invariabili, _avere paura_ e _avere vergogna_, il falso amico _eccitato_ (si dice _emozionato_), i due sensi di _solo_, stato d'animo contro carattere.
 - **Immagini**: 34 volti realistici `low` (stile `EMOTION_STYLE`, uomini e donne di età diverse), nessuno rifatto, **$0,09**. Testata a collage.
 - **Lingue, indici, verifica**: 9 pagine, 9 schede negli indici, 9 voci nella sitemap; audit tutti verdi; nel browser 34 schede, nota presente, risposte con aggettivo e nome, nessuna immagine rotta. **Parità di migrazione**: **253 pagine extra** (244 + 9).
+
+## 2026-09-27 - Testate del vocabolario con il modello di qualità
+
+- **Martin**: le lezioni vanno bene, ma le copertine vogliono più qualità; le foto dei singoli vocaboli vanno bene così.
+- **Rifatte le dieci testate a collage** (mestieri, persone, verbi delle relazioni, tempo e stagioni, casa, verbi della casa, città, montagna, verbi della città, emozioni) con `gemini-3-pro-image`: foto realistiche e luminose di scene italiane (una piazza piena di gente, una festa in giardino, lo stesso albero nelle quattro stagioni, un appartamento, una famiglia che fa le faccende, una via con il tram, le Dolomiti, amici al bar con emozioni diverse…). 10 × $0,13 = **$1,35**.
+- **Descrizioni**: `heroAlt` riscritto nelle 9 lingue per ogni lezione (90 testi) e sostituito anche nell'`alt` delle tessere degli indici.
+- **Regola da ora in poi** (in `AGENTS.md`): testata sempre con il modello di qualità, niente collage; foto delle parole a qualità `low`.

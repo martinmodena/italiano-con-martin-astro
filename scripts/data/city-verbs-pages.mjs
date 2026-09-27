@@ -29,7 +29,7 @@ export const cityVerbPages = {
     title: 'Verbi della città in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani per muoverti in città — attraversare, girare, prendere l’autobus, parcheggiare, pagare, fare la fila, prenotare — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Scene in città: attraversare sulle strisce, prendere l’autobus, parcheggiare, fare la spesa, pagare con la carta, prelevare, passeggiare, brindare e altre',
+      'Scene di vita in città: gente che attraversa sulle strisce, una donna che sale sull’autobus, un uomo che paga al mercato, due turisti che fotografano, un ciclista e due amiche che si abbracciano',
     cardText: `${V} verbi per la città: attraversare, girare, prendere l’autobus, parcheggiare, pagare, fare la fila, prenotare…`,
   },
   en: {
@@ -39,7 +39,7 @@ export const cityVerbPages = {
     title: 'City verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for getting around town — to cross, to turn, to take the bus, to park, to pay, to queue, to book — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'City scenes: crossing at the zebra crossing, taking the bus, parking, doing the shopping, paying by card, withdrawing money, strolling, making a toast and others',
+      'City life: people crossing at a zebra crossing, a woman getting on a bus, a man paying at the market, two tourists taking photos, a cyclist and two friends hugging',
     cardText: `${V} verbs for the city: to cross, to turn, to take the bus, to park, to pay, to queue, to book…`,
   },
   es: {
@@ -49,7 +49,7 @@ export const cityVerbPages = {
     title: 'Los verbos de la ciudad | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos para moverte por la ciudad — cruzar, girar, coger el autobús, aparcar, pagar, hacer cola, reservar — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Escenas en la ciudad: cruzar por el paso de peatones, coger el autobús, aparcar, hacer la compra, pagar con tarjeta, sacar dinero, pasear, brindar y otras',
+      'Escenas de la ciudad: gente cruzando por el paso de peatones, una mujer que sube al autobús, un hombre que paga en el mercado, dos turistas haciendo fotos, un ciclista y dos amigas que se abrazan',
     cardText: `${V} verbos para la ciudad: cruzar, girar, coger el autobús, aparcar, pagar, hacer cola, reservar…`,
   },
   fr: {
@@ -59,7 +59,7 @@ export const cityVerbPages = {
     title: 'Les verbes de la ville | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens pour vous déplacer en ville — traverser, tourner, prendre le bus, se garer, payer, faire la queue, réserver — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Scènes en ville : traverser au passage piéton, prendre le bus, se garer, faire les courses, payer par carte, retirer de l’argent, se promener, trinquer et d’autres',
+      'Scènes de la vie en ville : des gens qui traversent au passage piéton, une femme qui monte dans le bus, un homme qui paie au marché, deux touristes qui prennent des photos, un cycliste et deux amies qui s’embrassent',
     cardText: `${V} verbes pour la ville : traverser, tourner, prendre le bus, se garer, payer, faire la queue, réserver…`,
   },
   cs: {
@@ -69,7 +69,7 @@ export const cityVerbPages = {
     title: 'Slovesa města | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves pro pohyb po městě — přejít, zahnout, jet autobusem, zaparkovat, zaplatit, stát ve frontě, rezervovat — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Scény ve městě: přecházení po přechodu, nastupování do autobusu, parkování, nákup, placení kartou, výběr peněz, procházka, přípitek a další',
+      'Scény z města: lidé přecházejí po přechodu, žena nastupuje do autobusu, muž platí na trhu, dva turisté fotografují, cyklista a dvě kamarádky se objímají',
     cardText: `${V} sloves pro město: přejít, zahnout, jet autobusem, zaparkovat, zaplatit, stát ve frontě, rezervovat…`,
   },
   pl: {
@@ -79,7 +79,7 @@ export const cityVerbPages = {
     title: 'Czasowniki miasta | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników do poruszania się po mieście — przechodzić, skręcać, jechać autobusem, parkować, płacić, stać w kolejce, rezerwować — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sceny w mieście: przechodzenie po pasach, wsiadanie do autobusu, parkowanie, zakupy, płacenie kartą, wypłacanie pieniędzy, spacer, toast i inne',
+      'Sceny z miasta: ludzie przechodzą po pasach, kobieta wsiada do autobusu, mężczyzna płaci na targu, dwoje turystów robi zdjęcia, rowerzysta i dwie przyjaciółki się przytulają',
     cardText: `${V} czasowników do miasta: przechodzić, skręcać, jechać autobusem, parkować, płacić, stać w kolejce, rezerwować…`,
   },
   tr: {
@@ -89,7 +89,7 @@ export const cityVerbPages = {
     title: 'Şehir fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Şehirde dolaşmak için ${V} İtalyanca fiil öğrenin — karşıdan karşıya geçmek, dönmek, otobüse binmek, park etmek, ödemek, sıraya girmek, rezervasyon yapmak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Şehirden sahneler: yaya geçidinden geçmek, otobüse binmek, park etmek, alışveriş yapmak, kartla ödemek, para çekmek, gezinmek, kadeh kaldırmak ve diğerleri',
+      'Şehir hayatından sahneler: yaya geçidinden geçen insanlar, otobüse binen bir kadın, pazarda ödeme yapan bir adam, fotoğraf çeken iki turist, bir bisikletli ve sarılan iki arkadaş',
     cardText: `Şehir için ${V} fiil: karşıdan karşıya geçmek, dönmek, otobüse binmek, park etmek, ödemek, sıraya girmek, rezervasyon yapmak…`,
   },
   de: {
@@ -99,7 +99,7 @@ export const cityVerbPages = {
     title: 'Verben in der Stadt | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben, um dich in der Stadt zurechtzufinden — überqueren, abbiegen, den Bus nehmen, parken, bezahlen, Schlange stehen, reservieren — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Szenen in der Stadt: über den Zebrastreifen gehen, den Bus nehmen, parken, einkaufen, mit Karte bezahlen, Geld abheben, spazieren gehen, anstoßen und andere',
+      'Szenen aus der Stadt: Menschen auf dem Zebrastreifen, eine Frau steigt in den Bus, ein Mann bezahlt auf dem Markt, zwei Touristen fotografieren, ein Radfahrer und zwei Freundinnen umarmen sich',
     cardText: `${V} Verben für die Stadt: überqueren, abbiegen, den Bus nehmen, parken, bezahlen, Schlange stehen, reservieren …`,
   },
   ja: {
@@ -109,7 +109,7 @@ export const cityVerbPages = {
     title: '町の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `渡る、曲がる、バスに乗る、駐車する、払う、列に並ぶ、予約するなど、町で使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '町の場面：横断歩道を渡る、バスに乗る、駐車する、買い物をする、カードで払う、お金を引き出す、散歩する、乾杯するなど',
+      '町の暮らし：横断歩道を渡る人々、バスに乗る女性、市場で支払う男性、写真を撮る観光客、自転車に乗る人、抱き合う友だち',
     cardText: `町で使う動詞 ${V} 語：渡る、曲がる、バスに乗る、駐車する、払う、列に並ぶ、予約する…`,
   },
 };

@@ -21,7 +21,7 @@ export const cityPages = {
     title: 'La città: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole della città in italiano — la piazza, la stazione, la farmacia, il bar, il semaforo, le strisce pedonali, l’autobus… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Dodici foto della città: una chiesa, il municipio, la fontana, il semaforo, il bar, il mercato, l’autobus, il tram, la bicicletta e altre',
+      'Una via del centro di una città italiana: il tram arancione, biciclette e motorini, le strisce pedonali, i tavolini del bar, un banco di frutta e verdura, il campanile e una fontana',
     cardText: `${N} parole per la città: piazze ed edifici, negozi, la strada e i mezzi di trasporto.`,
     note: {
       title: 'In banca o al cinema?',
@@ -35,7 +35,7 @@ export const cityPages = {
     title: 'The city | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for the city — the square, the station, the pharmacy, the café, traffic lights, the zebra crossing, the bus… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'Twelve city photos: a church, the town hall, a fountain, traffic lights, a café, the market, a bus, a tram, a bicycle and others',
+      'A street in an Italian city centre: an orange tram, bicycles and scooters, a zebra crossing, café tables, a fruit and vegetable stall, a bell tower and a fountain',
     cardText: `${N} words for the city: squares and buildings, shops, the street and transport.`,
     note: {
       title: `${it('In banca')} or ${it('al cinema')}?`,
@@ -49,7 +49,7 @@ export const cityPages = {
     title: 'La ciudad | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras de la ciudad en italiano — la plaza, la estación, la farmacia, la cafetería, el semáforo, el paso de peatones, el autobús… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Doce fotos de la ciudad: una iglesia, el ayuntamiento, una fuente, un semáforo, una cafetería, el mercado, un autobús, un tranvía, una bicicleta y otras',
+      'Una calle del centro de una ciudad italiana: el tranvía naranja, bicicletas y motos, el paso de peatones, las mesas de un bar, un puesto de fruta y verdura, el campanario y una fuente',
     cardText: `${N} palabras para la ciudad: plazas y edificios, tiendas, la calle y los medios de transporte.`,
     note: {
       title: `¿${it('In banca')} o ${it('al cinema')}?`,
@@ -63,7 +63,7 @@ export const cityPages = {
     title: 'La ville | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens de la ville — la place, la gare, la pharmacie, le café, le feu, le passage piéton, le bus… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Douze photos de la ville : une église, la mairie, une fontaine, un feu de circulation, un café, le marché, un bus, un tram, un vélo et d’autres',
+      'Une rue du centre d’une ville italienne : le tram orange, des vélos et des scooters, un passage piéton, les tables d’un café, un étal de fruits et légumes, le clocher et une fontaine',
     cardText: `${N} mots pour la ville : places et bâtiments, magasins, la rue et les transports.`,
     note: {
       title: `${it('In banca')} ou ${it('al cinema')} ?`,
@@ -76,7 +76,8 @@ export const cityPages = {
     name: 'Město',
     title: 'Město | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o městě — náměstí, nádraží, lékárna, kavárna, semafor, přechod pro chodce, autobus… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
-    heroAlt: 'Dvanáct fotografií města: kostel, radnice, kašna, semafor, kavárna, trh, autobus, tramvaj, kolo a další',
+    heroAlt:
+      'Ulice v centru italského města: oranžová tramvaj, kola a skútry, přechod pro chodce, stolky kavárny, stánek s ovocem a zeleninou, zvonice a kašna',
     cardText: `${N} slov o městě: náměstí a budovy, obchody, ulice a doprava.`,
     note: {
       title: `${it('In banca')}, nebo ${it('al cinema')}?`,
@@ -90,7 +91,7 @@ export const cityPages = {
     title: 'Miasto | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o mieście — plac, dworzec, apteka, kawiarnia, światła, przejście dla pieszych, autobus… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Dwanaście zdjęć miasta: kościół, ratusz, fontanna, sygnalizacja świetlna, kawiarnia, targ, autobus, tramwaj, rower i inne',
+      'Ulica w centrum włoskiego miasta: pomarańczowy tramwaj, rowery i skutery, przejście dla pieszych, stoliki kawiarni, stragan z owocami i warzywami, dzwonnica i fontanna',
     cardText: `${N} słów o mieście: place i budynki, sklepy, ulica i środki transportu.`,
     note: {
       title: `${it('In banca')} czy ${it('al cinema')}?`,
@@ -104,7 +105,7 @@ export const cityPages = {
     title: 'Şehir | İtalyanca kelimeler | Italiano con Martin',
     description: `Şehir için ${N} İtalyanca kelime öğrenin — meydan, istasyon, eczane, kafe, trafik lambası, yaya geçidi, otobüs… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Şehirle ilgili on iki fotoğraf: bir kilise, belediye binası, çeşme, trafik lambası, kafe, pazar, otobüs, tramvay, bisiklet ve diğerleri',
+      'Bir İtalyan şehir merkezinde bir sokak: turuncu tramvay, bisikletler ve scooterlar, yaya geçidi, kafe masaları, bir manav tezgâhı, çan kulesi ve bir çeşme',
     cardText: `Şehir için ${N} kelime: meydanlar ve binalar, dükkânlar, sokak ve ulaşım araçları.`,
     note: {
       title: `${it('In banca')} mı, ${it('al cinema')} mı?`,
@@ -118,7 +119,7 @@ export const cityPages = {
     title: 'Die Stadt | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für die Stadt — der Platz, der Bahnhof, die Apotheke, das Café, die Ampel, der Zebrastreifen, der Bus … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Zwölf Fotos aus der Stadt: eine Kirche, das Rathaus, ein Brunnen, eine Ampel, ein Café, der Markt, ein Bus, eine Straßenbahn, ein Fahrrad und andere',
+      'Eine Straße im Zentrum einer italienischen Stadt: die orange Straßenbahn, Fahrräder und Roller, ein Zebrastreifen, Cafétische, ein Obst- und Gemüsestand, ein Glockenturm und ein Brunnen',
     cardText: `${N} Wörter für die Stadt: Plätze und Gebäude, Geschäfte, die Straße und die Verkehrsmittel.`,
     note: {
       title: `${it('In banca')} oder ${it('al cinema')}?`,
@@ -131,7 +132,8 @@ export const cityPages = {
     name: '町',
     title: '町 | イタリア語の語彙 | Italiano con Martin',
     description: `広場、駅、薬局、バール、信号、横断歩道、バスなど、町に関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
-    heroAlt: '町の写真12枚：教会、市役所、噴水、信号、バール、市場、バス、路面電車、自転車など',
+    heroAlt:
+      'イタリアの町の中心街：オレンジ色の路面電車、自転車とスクーター、横断歩道、バールのテーブル、果物と野菜の屋台、鐘楼と噴水',
     cardText: `町に関する ${N} 語。広場と建物、お店、通り、そして乗り物。`,
     note: {
       title: `${it('In banca')} か ${it('al cinema')} か？`,

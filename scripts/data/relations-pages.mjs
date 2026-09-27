@@ -21,7 +21,7 @@ export const relationPages = {
     title: 'Verbi delle relazioni in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani per parlare delle persone che ami e che incontri — sposarsi, voler bene, litigare, fare pace, regalare, obbedire — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Scene di vita: due sposi, una mamma che abbraccia la figlia, una proposta di matrimonio, un regalo, due anziani sulla panchina, un nonno che insegna ad andare in bici',
+      'Una festa in giardino con parenti e amici: una coppia abbracciata, due nonni che abbracciano i nipoti, due amici che si stringono la mano e una bambina che fa un regalo alla mamma',
     cardText: `${V} verbi per amore, famiglia e amicizia: sposarsi, voler bene, litigare, fare pace, regalare, obbedire…`,
   },
   en: {
@@ -31,7 +31,7 @@ export const relationPages = {
     title: 'Relationship verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs to talk about the people you love and meet — to get married, to love, to argue, to make up, to give a present, to obey — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Everyday scenes: a bride and groom, a mother hugging her daughter, a marriage proposal, a present, an elderly couple on a bench, a grandfather teaching a child to ride a bike',
+      'A garden party with family and friends: a couple embracing, grandparents hugging their grandchildren, two friends shaking hands and a girl giving her mother a present',
     cardText: `${V} verbs for love, family and friendship: to get married, to love, to argue, to make up, to give, to obey…`,
   },
   es: {
@@ -41,7 +41,7 @@ export const relationPages = {
     title: 'Los verbos de las relaciones | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos para hablar de las personas que quieres y que conoces — casarse, querer, discutir, hacer las paces, regalar, obedecer — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Escenas de la vida: unos novios, una madre que abraza a su hija, una pedida de mano, un regalo, dos ancianos en un banco, un abuelo que enseña a montar en bici',
+      'Una fiesta en el jardín con familia y amigos: una pareja abrazada, dos abuelos abrazando a sus nietos, dos amigos dándose la mano y una niña que le hace un regalo a su madre',
     cardText: `${V} verbos para el amor, la familia y la amistad: casarse, querer, discutir, hacer las paces, regalar, obedecer…`,
   },
   fr: {
@@ -51,7 +51,7 @@ export const relationPages = {
     title: 'Les verbes des relations | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens pour parler des personnes que vous aimez et que vous rencontrez — se marier, aimer, se disputer, se réconcilier, offrir, obéir — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Scènes de la vie : des mariés, une mère qui serre sa fille dans ses bras, une demande en mariage, un cadeau, un couple âgé sur un banc, un grand-père qui apprend à faire du vélo',
+      'Une fête au jardin en famille et entre amis : un couple enlacé, des grands-parents qui serrent leurs petits-enfants dans leurs bras, deux amis qui se serrent la main et une fillette qui offre un cadeau à sa mère',
     cardText: `${V} verbes pour l’amour, la famille et l’amitié : se marier, aimer, se disputer, se réconcilier, offrir, obéir…`,
   },
   cs: {
@@ -61,7 +61,7 @@ export const relationPages = {
     title: 'Slovesa vztahů | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves o lidech, které máte rádi a které potkáváte — vzít se, mít rád, hádat se, usmířit se, darovat, poslouchat — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Scény ze života: novomanželé, matka objímající dceru, žádost o ruku, dárek, starší pár na lavičce, dědeček učí vnuka jezdit na kole',
+      'Zahradní oslava s rodinou a přáteli: objímající se pár, prarodiče objímající vnoučata, dva přátelé si podávají ruce a holčička dává mamince dárek',
     cardText: `${V} sloves o lásce, rodině a přátelství: vzít se, mít rád, hádat se, usmířit se, darovat, poslouchat…`,
   },
   pl: {
@@ -71,7 +71,7 @@ export const relationPages = {
     title: 'Czasowniki relacji | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników o ludziach, których kochasz i spotykasz — pobrać się, kochać, kłócić się, pogodzić się, podarować, słuchać — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sceny z życia: państwo młodzi, mama przytulająca córkę, oświadczyny, prezent, starsza para na ławce, dziadek uczący wnuka jazdy na rowerze',
+      'Przyjęcie w ogrodzie z rodziną i przyjaciółmi: przytulona para, dziadkowie przytulający wnuki, dwaj przyjaciele podający sobie ręce i dziewczynka dająca mamie prezent',
     cardText: `${V} czasowników o miłości, rodzinie i przyjaźni: pobrać się, kochać, kłócić się, pogodzić się, podarować, słuchać…`,
   },
   tr: {
@@ -81,7 +81,7 @@ export const relationPages = {
     title: 'İlişki fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Sevdiğiniz ve tanıştığınız insanlardan söz etmek için ${V} İtalyanca fiil öğrenin — evlenmek, sevmek, kavga etmek, barışmak, hediye etmek, söz dinlemek — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Hayattan sahneler: gelin ve damat, kızına sarılan bir anne, evlilik teklifi, bir hediye, bankta yaşlı bir çift, torununa bisiklet sürmeyi öğreten bir dede',
+      'Aile ve arkadaşlarla bir bahçe partisi: sarılan bir çift, torunlarına sarılan dede ile nine, tokalaşan iki arkadaş ve annesine hediye veren bir kız',
     cardText: `Aşk, aile ve arkadaşlık için ${V} fiil: evlenmek, sevmek, kavga etmek, barışmak, hediye etmek, söz dinlemek…`,
   },
   de: {
@@ -91,7 +91,7 @@ export const relationPages = {
     title: 'Verben der Beziehungen | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben, um über die Menschen zu sprechen, die du liebst und triffst — heiraten, lieb haben, streiten, sich versöhnen, schenken, gehorchen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Szenen aus dem Leben: ein Brautpaar, eine Mutter umarmt ihre Tochter, ein Heiratsantrag, ein Geschenk, ein älteres Paar auf einer Bank, ein Opa bringt seinem Enkel das Radfahren bei',
+      'Ein Gartenfest mit Familie und Freunden: ein Paar in inniger Umarmung, Großeltern, die ihre Enkel umarmen, zwei Freunde beim Händeschütteln und ein Mädchen, das der Mutter ein Geschenk gibt',
     cardText: `${V} Verben für Liebe, Familie und Freundschaft: heiraten, lieb haben, streiten, sich versöhnen, schenken, gehorchen …`,
   },
   ja: {
@@ -101,7 +101,7 @@ export const relationPages = {
     title: '人間関係の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `結婚する、大切に思う、けんかする、仲直りする、贈る、従うなど、愛する人や出会う人について話すためのイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '暮らしの場面：新郎新婦、娘を抱きしめる母親、プロポーズ、プレゼント、ベンチの老夫婦、孫に自転車の乗り方を教える祖父',
+      '家族と友人の庭のパーティー：抱き合うカップル、孫を抱きしめる祖父母、握手する友人、母親にプレゼントを渡す女の子',
     cardText: `恋愛・家族・友情の動詞 ${V} 語：結婚する、大切に思う、けんかする、仲直りする、贈る、従う…`,
   },
 };

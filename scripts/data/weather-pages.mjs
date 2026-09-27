@@ -36,7 +36,7 @@ export const weatherPages = {
     title: 'Il tempo e le stagioni: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole per parlare del tempo in italiano — il sole, la pioggia, la neve, il temporale, fa caldo, nuvoloso, le quattro stagioni… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Dodici foto del tempo: il sole, una nuvola, la pioggia, un arcobaleno, un pupazzo di neve, un ombrello, le foglie d’autunno e altre',
+      'Lo stesso albero su una collina nelle quattro stagioni: fiori in primavera, grano d’estate, foglie rosse e nebbia in autunno, neve e un pupazzo di neve d’inverno, sotto un arcobaleno',
     cardText: `${N} parole per parlare del tempo: sole, pioggia, neve, vento, temporale, caldo e freddo, e le quattro stagioni.`,
     note: {
       title: 'Che tempo fa?',
@@ -50,7 +50,7 @@ export const weatherPages = {
     title: 'The weather and the seasons | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words to talk about the weather — sun, rain, snow, thunderstorm, hot, cloudy, the four seasons… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'Twelve weather photos: the sun, a cloud, rain, a rainbow, a snowman, an umbrella, autumn leaves and others',
+      'The same tree on a hill in the four seasons: blossoms in spring, wheat in summer, red leaves and fog in autumn, snow and a snowman in winter, under a rainbow',
     cardText: `${N} words to talk about the weather: sun, rain, snow, wind, storms, heat and cold, and the four seasons.`,
     note: {
       title: it('Che tempo fa?'),
@@ -64,7 +64,7 @@ export const weatherPages = {
     title: 'El tiempo y las estaciones | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras en italiano para hablar del tiempo — sol, lluvia, nieve, tormenta, calor, nublado, las cuatro estaciones… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Doce fotos del tiempo: el sol, una nube, la lluvia, un arcoíris, un muñeco de nieve, un paraguas, hojas de otoño y otras',
+      'El mismo árbol en una colina en las cuatro estaciones: flores en primavera, trigo en verano, hojas rojas y niebla en otoño, nieve y un muñeco de nieve en invierno, bajo un arcoíris',
     cardText: `${N} palabras para hablar del tiempo: sol, lluvia, nieve, viento, tormentas, calor y frío, y las cuatro estaciones.`,
     note: {
       title: it('Che tempo fa?'),
@@ -78,7 +78,7 @@ export const weatherPages = {
     title: 'La météo et les saisons | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens pour parler de la météo — soleil, pluie, neige, orage, chaleur, nuageux, les quatre saisons… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Douze photos de la météo : le soleil, un nuage, la pluie, un arc-en-ciel, un bonhomme de neige, un parapluie, des feuilles d’automne et d’autres',
+      'Le même arbre sur une colline au fil des quatre saisons : des fleurs au printemps, du blé en été, des feuilles rouges et du brouillard en automne, de la neige et un bonhomme de neige en hiver, sous un arc-en-ciel',
     cardText: `${N} mots pour parler de la météo : soleil, pluie, neige, vent, orages, chaleur et froid, et les quatre saisons.`,
     note: {
       title: it('Che tempo fa?'),
@@ -91,7 +91,8 @@ export const weatherPages = {
     name: 'Počasí a roční období',
     title: 'Počasí a roční období | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o počasí — slunce, déšť, sníh, bouřka, horko, zataženo, čtyři roční období… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
-    heroAlt: 'Dvanáct fotografií počasí: slunce, mrak, déšť, duha, sněhulák, deštník, podzimní listí a další',
+    heroAlt:
+      'Tentýž strom na kopci ve čtyřech ročních obdobích: květy na jaře, obilí v létě, červené listí a mlha na podzim, sníh a sněhulák v zimě, pod duhou',
     cardText: `${N} slov o počasí: slunce, déšť, sníh, vítr, bouřky, horko a zima a čtyři roční období.`,
     note: {
       title: it('Che tempo fa?'),
@@ -104,7 +105,8 @@ export const weatherPages = {
     name: 'Pogoda i pory roku',
     title: 'Pogoda i pory roku | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o pogodzie — słońce, deszcz, śnieg, burza, upał, pochmurno, cztery pory roku… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
-    heroAlt: 'Dwanaście zdjęć pogody: słońce, chmura, deszcz, tęcza, bałwan, parasol, jesienne liście i inne',
+    heroAlt:
+      'To samo drzewo na wzgórzu w czterech porach roku: kwiaty wiosną, zboże latem, czerwone liście i mgła jesienią, śnieg i bałwan zimą, pod tęczą',
     cardText: `${N} słów o pogodzie: słońce, deszcz, śnieg, wiatr, burze, upał i zimno oraz cztery pory roku.`,
     note: {
       title: it('Che tempo fa?'),
@@ -118,7 +120,7 @@ export const weatherPages = {
     title: 'Hava durumu ve mevsimler | İtalyanca kelimeler | Italiano con Martin',
     description: `Hava durumundan söz etmek için ${N} İtalyanca kelime öğrenin — güneş, yağmur, kar, fırtına, sıcak, bulutlu, dört mevsim… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Hava durumuyla ilgili on iki fotoğraf: güneş, bir bulut, yağmur, gökkuşağı, kardan adam, şemsiye, sonbahar yaprakları ve diğerleri',
+      'Dört mevsimde bir tepedeki aynı ağaç: ilkbaharda çiçekler, yazın buğday, sonbaharda kızıl yapraklar ve sis, kışın kar ve kardan adam, bir gökkuşağının altında',
     cardText: `Hava durumu için ${N} kelime: güneş, yağmur, kar, rüzgâr, fırtına, sıcak ve soğuk, ve dört mevsim.`,
     note: {
       title: it('Che tempo fa?'),
@@ -132,7 +134,7 @@ export const weatherPages = {
     title: 'Das Wetter und die Jahreszeiten | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter, um über das Wetter zu sprechen — Sonne, Regen, Schnee, Gewitter, Hitze, bewölkt, die vier Jahreszeiten … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Zwölf Wetterfotos: die Sonne, eine Wolke, Regen, ein Regenbogen, ein Schneemann, ein Regenschirm, Herbstblätter und andere',
+      'Derselbe Baum auf einem Hügel in den vier Jahreszeiten: Blüten im Frühling, Weizen im Sommer, rote Blätter und Nebel im Herbst, Schnee und ein Schneemann im Winter, unter einem Regenbogen',
     cardText: `${N} Wörter, um über das Wetter zu sprechen: Sonne, Regen, Schnee, Wind, Gewitter, Hitze und Kälte und die vier Jahreszeiten.`,
     note: {
       title: it('Che tempo fa?'),
@@ -145,7 +147,7 @@ export const weatherPages = {
     name: '天気と季節',
     title: '天気と季節 | イタリア語の語彙 | Italiano con Martin',
     description: `太陽、雨、雪、雷雨、暑さ、曇り、四季など、天気について話すためのイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
-    heroAlt: '天気の写真12枚：太陽、雲、雨、虹、雪だるま、傘、秋の落ち葉など',
+    heroAlt: '虹の下、丘の上の同じ木の四季：春の花、夏の麦畑、秋の紅葉と霧、冬の雪と雪だるま',
     cardText: `天気について話すための ${N} 語。太陽、雨、雪、風、雷雨、暑さと寒さ、そして四季。`,
     note: {
       title: it('Che tempo fa?'),

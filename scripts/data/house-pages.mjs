@@ -61,7 +61,7 @@ export const housePages = {
     title: 'La casa e le stanze: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole della casa in italiano — le stanze, la porta, le scale, il letto, l’armadio, la doccia, la lavatrice… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Dodici foto della casa: una casa, un palazzo, il letto, l’armadio, la porta, le chiavi, la doccia, la vasca da bagno e altre',
+      'Un appartamento italiano luminoso: il soggiorno con il divano, il tappeto e la libreria, la cucina e la camera da letto sullo sfondo, il balcone con i gerani',
     cardText: `${N} parole per la casa: le stanze, le parti della casa, la camera da letto, il bagno e le faccende.`,
     note: {
       title: 'A casa',
@@ -75,7 +75,7 @@ export const housePages = {
     title: 'The house and its rooms | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for the house — the rooms, the door, the stairs, the bed, the wardrobe, the shower, the washing machine… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'Twelve photos of the house: a house, an apartment building, the bed, the wardrobe, the door, the keys, the shower, the bathtub and others',
+      'A bright Italian apartment: the living room with a sofa, a rug and a bookcase, the kitchen and bedroom in the background, a balcony with geraniums',
     cardText: `${N} words for the house: the rooms, the parts of the house, the bedroom, the bathroom and the housework.`,
     note: {
       title: it('A casa'),
@@ -89,7 +89,7 @@ export const housePages = {
     title: 'La casa y las habitaciones | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras de la casa en italiano — las habitaciones, la puerta, las escaleras, la cama, el armario, la ducha, la lavadora… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Doce fotos de la casa: una casa, un edificio de pisos, la cama, el armario, la puerta, las llaves, la ducha, la bañera y otras',
+      'Un piso italiano luminoso: el salón con el sofá, la alfombra y la estantería, la cocina y el dormitorio al fondo, el balcón con geranios',
     cardText: `${N} palabras para la casa: las habitaciones, las partes de la casa, el dormitorio, el baño y las tareas domésticas.`,
     note: {
       title: it('A casa'),
@@ -103,7 +103,7 @@ export const housePages = {
     title: 'La maison et les pièces | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens de la maison — les pièces, la porte, l’escalier, le lit, l’armoire, la douche, la machine à laver… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Douze photos de la maison : une maison, un immeuble, le lit, l’armoire, la porte, les clés, la douche, la baignoire et d’autres',
+      'Un appartement italien lumineux : le séjour avec le canapé, le tapis et la bibliothèque, la cuisine et la chambre au fond, le balcon avec des géraniums',
     cardText: `${N} mots pour la maison : les pièces, les parties de la maison, la chambre, la salle de bains et les tâches ménagères.`,
     note: {
       title: it('A casa'),
@@ -116,7 +116,8 @@ export const housePages = {
     name: 'Dům',
     title: 'Dům a místnosti | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o domě — místnosti, dveře, schody, postel, skříň, sprcha, pračka… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
-    heroAlt: 'Dvanáct fotografií domova: dům, činžovní dům, postel, skříň, dveře, klíče, sprcha, vana a další',
+    heroAlt:
+      'Světlý italský byt: obývací pokoj s pohovkou, kobercem a knihovnou, v pozadí kuchyně a ložnice, balkon s muškáty',
     cardText: `${N} slov o domě: místnosti, části domu, ložnice, koupelna a domácí práce.`,
     note: {
       title: it('A casa'),
@@ -129,7 +130,8 @@ export const housePages = {
     name: 'Dom',
     title: 'Dom i pomieszczenia | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o domu — pomieszczenia, drzwi, schody, łóżko, szafa, prysznic, pralka… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
-    heroAlt: 'Dwanaście zdjęć domu: dom, blok, łóżko, szafa, drzwi, klucze, prysznic, wanna i inne',
+    heroAlt:
+      'Jasne włoskie mieszkanie: salon z kanapą, dywanem i regałem na książki, w tle kuchnia i sypialnia, balkon z pelargoniami',
     cardText: `${N} słów o domu: pomieszczenia, części domu, sypialnia, łazienka i prace domowe.`,
     note: {
       title: it('A casa'),
@@ -143,7 +145,7 @@ export const housePages = {
     title: 'Ev ve odalar | İtalyanca kelimeler | Italiano con Martin',
     description: `Ev için ${N} İtalyanca kelime öğrenin — odalar, kapı, merdiven, yatak, gardırop, duş, çamaşır makinesi… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Evle ilgili on iki fotoğraf: bir ev, bir apartman, yatak, gardırop, kapı, anahtarlar, duş, küvet ve diğerleri',
+      'Aydınlık bir İtalyan dairesi: kanepe, halı ve kitaplıklı oturma odası, arkada mutfak ve yatak odası, sardunyalı balkon',
     cardText: `Ev için ${N} kelime: odalar, evin bölümleri, yatak odası, banyo ve ev işleri.`,
     note: {
       title: it('A casa'),
@@ -157,7 +159,7 @@ export const housePages = {
     title: 'Das Haus und die Zimmer | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter rund ums Haus — die Zimmer, die Tür, die Treppe, das Bett, der Kleiderschrank, die Dusche, die Waschmaschine … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Zwölf Fotos vom Haus: ein Haus, ein Wohnhaus, das Bett, der Kleiderschrank, die Tür, die Schlüssel, die Dusche, die Badewanne und andere',
+      'Eine helle italienische Wohnung: das Wohnzimmer mit Sofa, Teppich und Bücherregal, im Hintergrund Küche und Schlafzimmer, ein Balkon mit Geranien',
     cardText: `${N} Wörter rund ums Haus: die Zimmer, die Teile des Hauses, das Schlafzimmer, das Bad und die Hausarbeit.`,
     note: {
       title: it('A casa'),
@@ -170,7 +172,7 @@ export const housePages = {
     name: '家',
     title: '家と部屋 | イタリア語の語彙 | Italiano con Martin',
     description: `部屋、ドア、階段、ベッド、洋服だんす、シャワー、洗濯機など、家に関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
-    heroAlt: '家の写真12枚：家、集合住宅、ベッド、洋服だんす、ドア、鍵、シャワー、浴槽など',
+    heroAlt: '明るいイタリアのアパート：ソファ、じゅうたん、本棚のあるリビング、奥に台所と寝室、ゼラニウムのバルコニー',
     cardText: `家に関する ${N} 語。部屋、家の各部分、寝室、浴室、そして家事。`,
     note: {
       title: it('A casa'),
