@@ -316,6 +316,34 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-schule.html',
     ja: 'ja/goi/italian-school-vocabulary.html',
   },
+  'verbi-scuola': {
+    count: 36,
+    tests: 0,
+    match: { positive: 36 },
+    it: 'vocabolario/verbi-scuola.html',
+    en: 'en/vocabulary/italian-school-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-la-escuela-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-de-l-ecole-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-skoly.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-szkoly.html',
+    tr: 'tr/kelime-bilgisi/italyanca-okul-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-schule.html',
+    ja: 'ja/goi/italian-school-verbs-vocabulary.html',
+  },
+  'verbi-ufficio': {
+    count: 34,
+    tests: 0,
+    match: { positive: 34 },
+    it: 'vocabolario/verbi-ufficio.html',
+    en: 'en/vocabulary/italian-office-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-la-oficina-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-du-bureau-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-kancelare.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-biura.html',
+    tr: 'tr/kelime-bilgisi/italyanca-ofis-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-buero.html',
+    ja: 'ja/goi/italian-office-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -448,6 +476,8 @@ for (const lesson of [
   'verbi-citta',
   'emozioni',
   'scuola',
+  'verbi-scuola',
+  'verbi-ufficio',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

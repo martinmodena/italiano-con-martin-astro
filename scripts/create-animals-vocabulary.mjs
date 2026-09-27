@@ -25,6 +25,9 @@
  *   - «La scuola»                                 43 parole: luoghi, aula, astuccio e cartella, vita a scuola (2026-09-27).
  *   - «L'ufficio»                                 40 parole (2026-09-27): rifatta agli stessi URL della prima versione,
  *                                                 che aveva 8 parole illustrate.
+ *   - «I verbi della scuola»                      36 verbi (studiare, alzare la mano, correggere...) (2026-09-27): come
+ *                                                 i verbi della citta' (`photoRows`).
+ *   - «I verbi dell'ufficio»                      34 verbi (digitare, firmare, candidarsi...) (2026-09-27): idem.
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -65,6 +68,8 @@
  *   scripts/data/emotions-vocabulary.mjs le emozioni; emotions-pages.mjs la loro pagina
  *   scripts/data/school-vocabulary.mjs   la scuola; school-pages.mjs la sua pagina
  *   scripts/data/office-vocabulary.mjs   l'ufficio; office-pages.mjs la sua pagina
+ *   scripts/data/school-verbs.mjs        i verbi della scuola; school-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/office-verbs.mjs        i verbi dell'ufficio; office-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -129,6 +134,10 @@ import { schoolVocabulary, schoolTranslationExercises, schoolExampleWord } from 
 import { schoolPages } from './data/school-pages.mjs';
 import { officeVocabulary, officeTranslationExercises, officeExampleWord } from './data/office-vocabulary.mjs';
 import { officePages } from './data/office-pages.mjs';
+import { schoolVerbs, schoolVerbTranslationExercises } from './data/school-verbs.mjs';
+import { schoolVerbPages, schoolVerbUi } from './data/school-verbs-pages.mjs';
+import { officeVerbs, officeVerbTranslationExercises } from './data/office-verbs.mjs';
+import { officeVerbPages, officeVerbUi } from './data/office-verbs-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
 import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
@@ -443,6 +452,50 @@ const lessons = {
     words: officeVocabulary,
     translations: officeTranslationExercises,
     exampleWord: officeExampleWord,
+  },
+  'verbi-scuola': {
+    id: 'verbi-scuola',
+    kind: 'match',
+    // Come i verbi della citta': una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: schoolVerbPages,
+    hero: 'verbi-scuola-hero.webp',
+    words: schoolVerbs,
+    translations: schoolVerbTranslationExercises,
+    exampleWord: null,
+    bank: schoolVerbs,
+    bankPage: schoolVerbPages,
+    bankLessonId: 'verbi-scuola',
+    seeds: [2427, 2428],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: schoolVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...schoolVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
+  },
+  'verbi-ufficio': {
+    id: 'verbi-ufficio',
+    kind: 'match',
+    // Come i verbi della citta': una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: officeVerbPages,
+    hero: 'verbi-ufficio-hero.webp',
+    words: officeVerbs,
+    translations: officeVerbTranslationExercises,
+    exampleWord: null,
+    bank: officeVerbs,
+    bankPage: officeVerbPages,
+    bankLessonId: 'verbi-ufficio',
+    seeds: [2429, 2430],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: officeVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...officeVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
 };
 
@@ -883,10 +936,11 @@ function buildPage(lesson, lang) {
     negative = sections.negative;
     out = out.slice(0, start) + sections.html + out.slice(end + '</section>'.length);
 
+    // Il titolo e' gia' HTML (parole italiane in <em lang="it">), come il corpo: non si riscappa.
     const note = lesson.uiFor(lang).note;
     out = out.replace(
       /(<div class="vocabulary-note">)[\s\S]*?(<\/div>)/,
-      `$1\n            <strong>${escapeHtml(note.title)}</strong>\n            <p>${note.body}</p>\n          $2`
+      `$1\n            <strong>${note.title}</strong>\n            <p>${note.body}</p>\n          $2`
     );
   }
 

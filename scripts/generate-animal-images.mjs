@@ -16,6 +16,8 @@
 //   - «Le emozioni» (volti con un'espressione chiara)                 -> --set emozioni
 //   - «La scuola» (oggetti ritagliati, ambienti in un cerchio)         -> --set scuola
 //   - «L'ufficio» (come la scuola)                                    -> --set ufficio
+//   - «I verbi della scuola» (scene come le persone)                  -> --set verbi-scuola
+//   - «I verbi dell'ufficio» (scene come le persone)                  -> --set verbi-ufficio
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -62,6 +64,8 @@ import { cityVerbs } from './data/city-verbs.mjs';
 import { emotionVocabulary } from './data/emotions-vocabulary.mjs';
 import { schoolVocabulary } from './data/school-vocabulary.mjs';
 import { officeVocabulary } from './data/office-vocabulary.mjs';
+import { schoolVerbs } from './data/school-verbs.mjs';
+import { officeVerbs } from './data/office-verbs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -113,10 +117,12 @@ const sets = {
   emozioni: emotionVocabulary,
   scuola: schoolVocabulary,
   ufficio: officeVocabulary,
+  'verbi-scuola': schoolVerbs,
+  'verbi-ufficio': officeVerbs,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio.'
   );
   process.exit(1);
 }
@@ -213,6 +219,8 @@ const STYLE =
     relazioni: PEOPLE_STYLE,
     'verbi-casa': PEOPLE_STYLE,
     'verbi-citta': PEOPLE_STYLE,
+    'verbi-scuola': PEOPLE_STYLE,
+    'verbi-ufficio': PEOPLE_STYLE,
     tempo: WEATHER_STYLE,
     montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;
