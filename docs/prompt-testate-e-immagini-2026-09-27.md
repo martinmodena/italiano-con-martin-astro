@@ -81,6 +81,22 @@ A bright, natural, photorealistic photograph of everyday life in a busy sunny It
 A bright, natural, photorealistic photograph of a group of five friends of different ages at an outdoor café table reacting to news, each showing a different clear emotion: one laughing happily, one surprised with hands on her cheeks, one hugging a friend with joy, one thoughtful and a little worried, one moved with tears of happiness. Faces clearly visible.
 ```
 
+### `scuola-hero`
+
+```
+A bright, natural, photorealistic photograph of a sunny classroom in an Italian primary school: children of about eight sitting at wooden desks, several of them eagerly raising their hands, a smiling young teacher standing at a green chalkboard, a world globe on her desk, colourful pencil cases and exercise books on the desks, children's colourful drawings on the walls, big windows with sunlight.
+```
+
+### `ufficio-hero`
+
+Ha sostituito l'illustrazione della prima versione della lezione (8 parole).
+
+```
+A bright, natural, photorealistic photograph of a modern open-plan office in an Italian city: colleagues of different ages working at light wooden desks with computers and plants, a small group having a relaxed meeting around a table with a laptop, two colleagues chatting and laughing with small espresso cups next to a coffee machine, big windows showing terracotta rooftops and a bell tower.
+```
+
+Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [prompt-immagini-corpo.md](./prompt-immagini-corpo.md).
+
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
 
 ## 2. Foto delle parole
@@ -99,6 +115,8 @@ Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stil
 | La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`    | `WEATHER_STYLE` |
 | I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta` | `PEOPLE_STYLE`  |
 | Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`    | `EMOTION_STYLE` |
+| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`      | `SCHOOL_STYLE`  |
+| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`     | `OFFICE_STYLE`  |
 
 Procedura completa per una lezione:
 
@@ -120,3 +138,4 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
 - **Foto rifatte più volte o a qualità più alta**:
   - `citta`: 34 foto rifatte a `low` dopo aver aggiunto a `CITY_STYLE` la frase sul fondo bianco; 16 rifatte a `medium` (banca, bar, biblioteca, cinema, fermata, metropolitana, museo, ospedale, parcheggio, parco, ponte, scuola, strada, supermercato, ufficio-postale, ristorante). Rigenerandole oggi con i prompt attuali basta `low` più la maschera.
   - Rifatte una volta per un difetto del soggetto, già corretto nel campo `subject`: `verbi-casa` asciugare e riempire, `montagna` rifugio, `verbi-citta` parcheggiare.
+  - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.

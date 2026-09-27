@@ -24,7 +24,8 @@ export const bodyPages = {
     name: 'Il corpo umano',
     title: 'Vocabolario del corpo umano in italiano | Italiano con Martin',
     description: `Impara ${N} parti del corpo in italiano — testa, mano, ginocchio, cuore… — con foto realistiche, tre frasi d’esempio, pronuncia ed esercizi.`,
-    heroAlt: 'Un gruppo di amici in un parco: ridono, si stirano e si danno il cinque',
+    heroAlt:
+      'Una ragazza sorridente seduta a gambe larghe sul pavimento di una stanza luminosa, a piedi nudi, con le braccia aperte e le dita delle mani distese',
     cardText: `${N} parole per la testa, il tronco, le mani, le gambe, la pelle, le ossa e gli organi, con foto realistiche.`,
   },
   en: {
@@ -33,7 +34,8 @@ export const bodyPages = {
     name: 'The human body',
     title: 'The human body | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} parts of the body in Italian — head, hand, knee, heart… — with realistic photos, three example sentences, pronunciation and exercises.`,
-    heroAlt: 'A group of friends in a park: laughing, stretching and high-fiving',
+    heroAlt:
+      'A smiling young woman sitting on the floor of a bright room with her legs wide apart, barefoot, arms stretched out and fingers spread',
     cardText: `${N} words for the head, torso, hands, legs, skin, bones and organs, with realistic photos.`,
   },
   es: {
@@ -42,7 +44,8 @@ export const bodyPages = {
     name: 'El cuerpo humano',
     title: 'El cuerpo humano | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} partes del cuerpo en italiano — cabeza, mano, rodilla, corazón… — con fotos realistas, tres frases de ejemplo, pronunciación y ejercicios.`,
-    heroAlt: 'Un grupo de amigos en un parque: se ríen, se estiran y se chocan los cinco',
+    heroAlt:
+      'Una joven sonriente sentada en el suelo de una sala luminosa con las piernas abiertas, descalza, con los brazos extendidos y los dedos separados',
     cardText: `${N} palabras para la cabeza, el tronco, las manos, las piernas, la piel, los huesos y los órganos, con fotos realistas.`,
   },
   fr: {
@@ -51,7 +54,8 @@ export const bodyPages = {
     name: 'Le corps humain',
     title: 'Le corps humain | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} parties du corps en italien — tête, main, genou, cœur… — avec des photos réalistes, trois exemples de phrases, la prononciation et des exercices.`,
-    heroAlt: 'Un groupe d’amis dans un parc : ils rient, s’étirent et se tapent dans la main',
+    heroAlt:
+      'Une jeune femme souriante assise par terre dans une pièce lumineuse, jambes écartées, pieds nus, les bras tendus et les doigts écartés',
     cardText: `${N} mots pour la tête, le tronc, les mains, les jambes, la peau, les os et les organes, avec des photos réalistes.`,
   },
   cs: {
@@ -60,7 +64,8 @@ export const bodyPages = {
     name: 'Lidské tělo',
     title: 'Lidské tělo | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} částí těla italsky — hlava, ruka, koleno, srdce… — s realistickými fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
-    heroAlt: 'Skupina přátel v parku: smějí se, protahují se a dávají si pětku',
+    heroAlt:
+      'Usměvavá mladá žena sedí bosá na podlaze světlé místnosti s roztaženýma nohama, rozpaženýma rukama a roztaženými prsty',
     cardText: `${N} slov pro hlavu, trup, ruce, nohy, kůži, kosti a orgány, s realistickými fotografiemi.`,
   },
   pl: {
@@ -69,7 +74,8 @@ export const bodyPages = {
     name: 'Ciało człowieka',
     title: 'Ciało człowieka | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} części ciała po włosku — głowa, ręka, kolano, serce… — z realistycznymi zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
-    heroAlt: 'Grupa przyjaciół w parku: śmieją się, przeciągają i przybijają piątkę',
+    heroAlt:
+      'Uśmiechnięta młoda kobieta siedzi boso na podłodze jasnego pokoju z rozłożonymi nogami, rozpostartymi ramionami i rozczapierzonymi palcami',
     cardText: `${N} słów: głowa, tułów, ręce, nogi, skóra, kości i narządy, z realistycznymi zdjęciami.`,
   },
   tr: {
@@ -78,7 +84,8 @@ export const bodyPages = {
     name: 'İnsan vücudu',
     title: 'İnsan vücudu | İtalyanca kelimeler | Italiano con Martin',
     description: `İtalyanca ${N} vücut bölümünü öğrenin — baş, el, diz, kalp… — gerçekçi fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
-    heroAlt: 'Bir parkta bir grup arkadaş: gülüyor, geriniyor ve çak yapıyor',
+    heroAlt:
+      'Aydınlık bir odada yerde bacaklarını açmış, yalın ayak oturan, kollarını iki yana açıp parmaklarını geren gülümseyen genç bir kadın',
     cardText: `Baş, gövde, eller, bacaklar, cilt, kemikler ve organlar için ${N} kelime, gerçekçi fotoğraflarla.`,
   },
   de: {
@@ -87,7 +94,8 @@ export const bodyPages = {
     name: 'Der menschliche Körper',
     title: 'Der menschliche Körper | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} Körperteile auf Italienisch — Kopf, Hand, Knie, Herz … — mit realistischen Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
-    heroAlt: 'Eine Gruppe von Freunden im Park: Sie lachen, strecken sich und geben sich ein High Five',
+    heroAlt:
+      'Eine lächelnde junge Frau sitzt barfuß mit gegrätschten Beinen auf dem Boden eines hellen Raums, die Arme ausgebreitet und die Finger gespreizt',
     cardText: `${N} Wörter für Kopf, Rumpf, Hände, Beine, Haut, Knochen und Organe, mit realistischen Fotos.`,
   },
   ja: {
@@ -96,7 +104,7 @@ export const bodyPages = {
     name: '人間の体',
     title: '人間の体 | イタリア語の語彙 | Italiano con Martin',
     description: `頭、手、ひざ、心臓など、体の部分を表すイタリア語 ${N} 語を、リアルな写真、例文 3 つ、発音、練習問題で学べます。`,
-    heroAlt: '公園で笑ったり、体を伸ばしたり、ハイタッチしたりする友だちのグループ',
+    heroAlt: '明るい部屋の床に裸足で脚を大きく開いて座り、両腕を広げて指を伸ばしている笑顔の若い女性',
     cardText: `頭、胴体、手、足、皮膚、骨、内臓の言葉 ${N} 語。リアルな写真付き。`,
   },
 };
@@ -110,7 +118,8 @@ export const bodyVerbPages = {
     name: 'I verbi del corpo',
     title: 'Verbi del corpo in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani legati al corpo — pettinarsi i capelli, lavarsi le mani, toccare, mordere, arrossire — con una foto realistica, tre frasi d’esempio ed esercizi da trascinare.`,
-    heroAlt: 'Persone in un parco: una donna saluta con la mano, un uomo salta, una ragazza ride e applaude',
+    heroAlt:
+      'Sei foto di gesti di tutti i giorni: un uomo si lava le mani, una bambina si lava i denti, una donna si spazzola i capelli, un bambino applaude, un signore annusa una rosa, una ragazza si stiracchia a letto',
     cardText: `${V} verbi per le mani, la bocca, gli occhi e le gambe: pettinarsi, toccare, mordere, arrossire, sentire…`,
   },
   en: {
@@ -119,7 +128,8 @@ export const bodyVerbPages = {
     name: 'Body verbs',
     title: 'Body verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs about the body — to comb your hair, to wash your hands, to touch, to bite, to blush — with a realistic photo, three example sentences and drag-and-drop exercises.`,
-    heroAlt: 'People in a park: a woman waves, a man jumps, a girl laughs and claps',
+    heroAlt:
+      'Six photos of everyday actions: a man washes his hands, a girl brushes her teeth, a woman brushes her hair, a boy claps, an older man smells a rose, a young woman stretches in bed',
     cardText: `${V} verbs for hands, mouth, eyes and legs: to comb, to touch, to bite, to blush, to hear…`,
   },
   es: {
@@ -128,7 +138,8 @@ export const bodyVerbPages = {
     name: 'Los verbos del cuerpo',
     title: 'Los verbos del cuerpo | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos relacionados con el cuerpo — peinarse, lavarse las manos, tocar, morder, sonrojarse — con una foto realista, tres frases de ejemplo y ejercicios de arrastrar.`,
-    heroAlt: 'Personas en un parque: una mujer saluda con la mano, un hombre salta, una chica se ríe y aplaude',
+    heroAlt:
+      'Seis fotos de gestos cotidianos: un hombre se lava las manos, una niña se cepilla los dientes, una mujer se cepilla el pelo, un niño aplaude, un señor huele una rosa, una joven se despereza en la cama',
     cardText: `${V} verbos para las manos, la boca, los ojos y las piernas: peinarse, tocar, morder, sonrojarse, oír…`,
   },
   fr: {
@@ -138,7 +149,7 @@ export const bodyVerbPages = {
     title: 'Les verbes du corps | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens liés au corps — se peigner, se laver les mains, toucher, mordre, rougir — avec une photo réaliste, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Des gens dans un parc : une femme fait un signe de la main, un homme saute, une jeune fille rit et applaudit',
+      'Six photos de gestes quotidiens : un homme se lave les mains, une fillette se brosse les dents, une femme se brosse les cheveux, un petit garçon applaudit, un monsieur sent une rose, une jeune femme s’étire dans son lit',
     cardText: `${V} verbes pour les mains, la bouche, les yeux et les jambes : se peigner, toucher, mordre, rougir, entendre…`,
   },
   cs: {
@@ -147,7 +158,8 @@ export const bodyVerbPages = {
     name: 'Slovesa těla',
     title: 'Slovesa těla | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves spojených s tělem — česat se, mýt si ruce, dotýkat se, kousat, červenat se — s realistickou fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
-    heroAlt: 'Lidé v parku: žena mává rukou, muž skáče, dívka se směje a tleská',
+    heroAlt:
+      'Šest fotografií každodenních pohybů: muž si myje ruce, holčička si čistí zuby, žena si kartáčuje vlasy, chlapec tleská, starší pán voní k růži, mladá žena se protahuje v posteli',
     cardText: `${V} sloves pro ruce, ústa, oči a nohy: česat se, dotýkat se, kousat, červenat se, slyšet…`,
   },
   pl: {
@@ -156,7 +168,8 @@ export const bodyVerbPages = {
     name: 'Czasowniki związane z ciałem',
     title: 'Czasowniki związane z ciałem | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników związanych z ciałem — czesać się, myć ręce, dotykać, gryźć, rumienić się — z realistycznym zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
-    heroAlt: 'Ludzie w parku: kobieta macha ręką, mężczyzna skacze, dziewczyna śmieje się i klaszcze',
+    heroAlt:
+      'Sześć zdjęć codziennych czynności: mężczyzna myje ręce, dziewczynka myje zęby, kobieta szczotkuje włosy, chłopiec klaszcze, starszy pan wącha różę, młoda kobieta przeciąga się w łóżku',
     cardText: `${V} czasowników dla rąk, ust, oczu i nóg: czesać się, dotykać, gryźć, rumienić się, słyszeć…`,
   },
   tr: {
@@ -165,7 +178,8 @@ export const bodyVerbPages = {
     name: 'Vücut fiilleri',
     title: 'Vücut fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Vücutla ilgili ${V} İtalyanca fiili öğrenin — saçını taramak, ellerini yıkamak, dokunmak, ısırmak, kızarmak — gerçekçi bir fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
-    heroAlt: 'Bir parkta insanlar: bir kadın el sallıyor, bir adam zıplıyor, bir kız gülüp alkışlıyor',
+    heroAlt:
+      'Günlük hareketlerden altı fotoğraf: bir adam ellerini yıkıyor, bir kız çocuğu dişlerini fırçalıyor, bir kadın saçını tarıyor, bir oğlan alkışlıyor, yaşlı bir adam gül kokluyor, genç bir kadın yatakta geriniyor',
     cardText: `Eller, ağız, gözler ve bacaklar için ${V} fiil: taramak, dokunmak, ısırmak, kızarmak, duymak…`,
   },
   de: {
@@ -174,7 +188,8 @@ export const bodyVerbPages = {
     name: 'Die Verben des Körpers',
     title: 'Die Verben des Körpers | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben rund um den Körper — sich kämmen, sich die Hände waschen, berühren, beißen, erröten — mit einem realistischen Foto, drei Beispielsätzen und Drag-and-drop-Übungen.`,
-    heroAlt: 'Menschen in einem Park: Eine Frau winkt, ein Mann springt, ein Mädchen lacht und klatscht',
+    heroAlt:
+      'Sechs Fotos von Alltagsbewegungen: Ein Mann wäscht sich die Hände, ein Mädchen putzt sich die Zähne, eine Frau bürstet sich die Haare, ein Junge klatscht, ein älterer Herr riecht an einer Rose, eine junge Frau streckt sich im Bett',
     cardText: `${V} Verben für Hände, Mund, Augen und Beine: kämmen, berühren, beißen, erröten, hören …`,
   },
   ja: {
@@ -183,7 +198,8 @@ export const bodyVerbPages = {
     name: '体の動詞',
     title: '体の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `髪をとかす、手を洗う、触る、かむ、赤くなるなど、体に関するイタリア語の動詞 ${V} 語を、リアルな写真、例文 3 つ、ドラッグ＆ドロップの練習で学べます。`,
-    heroAlt: '公園にいる人たち：手を振る女性、ジャンプする男性、笑って拍手する女の子',
+    heroAlt:
+      '日常の動作の写真6枚：手を洗う男性、歯をみがく女の子、髪をとかす女性、拍手する男の子、バラの香りをかぐ年配の男性、ベッドで伸びをする若い女性',
     cardText: `手、口、目、足の動詞 ${V} 語：とかす、触る、かむ、赤くなる、聞こえる…`,
   },
 };

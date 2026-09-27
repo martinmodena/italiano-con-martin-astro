@@ -14,6 +14,8 @@
 //   - «La montagna» (come il tempo: paesaggi in un cerchio)            -> --set montagna
 //   - «I verbi della città» (scene come le persone)                   -> --set verbi-citta
 //   - «Le emozioni» (volti con un'espressione chiara)                 -> --set emozioni
+//   - «La scuola» (oggetti ritagliati, ambienti in un cerchio)         -> --set scuola
+//   - «L'ufficio» (come la scuola)                                    -> --set ufficio
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -58,6 +60,8 @@ import { cityVocabulary } from './data/city-vocabulary.mjs';
 import { mountainVocabulary } from './data/mountain-vocabulary.mjs';
 import { cityVerbs } from './data/city-verbs.mjs';
 import { emotionVocabulary } from './data/emotions-vocabulary.mjs';
+import { schoolVocabulary } from './data/school-vocabulary.mjs';
+import { officeVocabulary } from './data/office-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -107,10 +111,12 @@ const sets = {
   montagna: mountainVocabulary,
   'verbi-citta': cityVerbs,
   emozioni: emotionVocabulary,
+  scuola: schoolVocabulary,
+  ufficio: officeVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio.'
   );
   process.exit(1);
 }
@@ -181,8 +187,22 @@ const EMOTION_STYLE = [
   'Upper-body shot from the waist up, unless the description needs the whole body; the face large and well lit, the whole figure inside the frame with white margins, no busy background.',
   ...PHOTO_END,
 ].join(' ');
+// La scuola e l'ufficio: oggetti ritagliati sul bianco, ambienti e scene con piu' persone come foto rotonde;
+// la frase contro la sfumatura scura ai bordi viene dalla citta'.
+const workplaceStyle = (place) =>
+  [
+    `Photorealistic photograph for a language textbook, natural colours, true to life, ${place}, not a cartoon, not an illustration, not a 3D render.`,
+    'The background is plain bright pure white (#FFFFFF) from edge to edge: no vignette, no dark or grey corners, no gradient, no studio backdrop.',
+    'Objects are isolated on the white background, small in the centre of the frame. When the subject is a room or a scene cropped into a circle, the circle is centred with wide white margins around it and nothing outside it.',
+    'People, if any, are friendly and natural, with true-to-life anatomy. Paper, screens and signs show no readable words: text is drawn as simple grey lines.',
+    ...PHOTO_END,
+  ].join(' ');
+const SCHOOL_STYLE = workplaceStyle('an ordinary Italian school');
+const OFFICE_STYLE = workplaceStyle('an ordinary modern Italian office');
 const STYLE =
   {
+    scuola: SCHOOL_STYLE,
+    ufficio: OFFICE_STYLE,
     emozioni: EMOTION_STYLE,
     citta: CITY_STYLE,
     casa: HOUSE_STYLE,

@@ -29,7 +29,7 @@ const routes = {
     ja: 'ja/goi/italian-living-room-vocabulary.html',
   },
   ufficio: {
-    count: 8,
+    count: 40,
     it: 'vocabolario/ufficio.html',
     en: 'en/vocabulary/italian-office-vocabulary.html',
     es: 'es/vocabulario/vocabulario-de-la-oficina-en-italiano.html',
@@ -304,6 +304,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-gefuehle.html',
     ja: 'ja/goi/italian-emotions-vocabulary.html',
   },
+  scuola: {
+    count: 43,
+    it: 'vocabolario/scuola.html',
+    en: 'en/vocabulary/italian-school-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-la-escuela-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-l-ecole-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-skola.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-szkola.html',
+    tr: 'tr/kelime-bilgisi/italyanca-okul-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-schule.html',
+    ja: 'ja/goi/italian-school-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -435,6 +447,7 @@ for (const lesson of [
   'montagna',
   'verbi-citta',
   'emozioni',
+  'scuola',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

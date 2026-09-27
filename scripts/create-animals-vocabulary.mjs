@@ -22,6 +22,9 @@
  *   - «I verbi della città»                       40 verbi (attraversare, prendere l'autobus, pagare...) (2026-09-27): come
  *                                                 i verbi della casa (`photoRows`).
  *   - «Le emozioni»                               34 aggettivi (felice, emozionato, deluso...) con i volti (2026-09-27).
+ *   - «La scuola»                                 43 parole: luoghi, aula, astuccio e cartella, vita a scuola (2026-09-27).
+ *   - «L'ufficio»                                 40 parole (2026-09-27): rifatta agli stessi URL della prima versione,
+ *                                                 che aveva 8 parole illustrate.
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -60,6 +63,8 @@
  *   scripts/data/mountain-vocabulary.mjs  la montagna; mountain-pages.mjs la sua pagina
  *   scripts/data/city-verbs.mjs           i verbi della citta'; city-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/emotions-vocabulary.mjs le emozioni; emotions-pages.mjs la loro pagina
+ *   scripts/data/school-vocabulary.mjs   la scuola; school-pages.mjs la sua pagina
+ *   scripts/data/office-vocabulary.mjs   l'ufficio; office-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -120,6 +125,10 @@ import { mountainVocabulary, mountainTranslationExercises, mountainExampleWord }
 import { mountainPages } from './data/mountain-pages.mjs';
 import { emotionVocabulary, emotionTranslationExercises, emotionExampleWord } from './data/emotions-vocabulary.mjs';
 import { emotionPages } from './data/emotions-pages.mjs';
+import { schoolVocabulary, schoolTranslationExercises, schoolExampleWord } from './data/school-vocabulary.mjs';
+import { schoolPages } from './data/school-pages.mjs';
+import { officeVocabulary, officeTranslationExercises, officeExampleWord } from './data/office-vocabulary.mjs';
+import { officePages } from './data/office-pages.mjs';
 import { cityVerbs, cityVerbTranslationExercises } from './data/city-verbs.mjs';
 import { cityVerbPages, cityVerbUi } from './data/city-verbs-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
@@ -414,6 +423,26 @@ const lessons = {
     words: emotionVocabulary,
     translations: emotionTranslationExercises,
     exampleWord: emotionExampleWord,
+  },
+  scuola: {
+    id: 'scuola',
+    kind: 'words',
+    pages: schoolPages,
+    hero: 'scuola-hero.webp',
+    words: schoolVocabulary,
+    translations: schoolTranslationExercises,
+    exampleWord: schoolExampleWord,
+  },
+  // Rifatta agli stessi URL della prima versione (8 parole): la scheda nell'indice c'e' gia', il generatore ne
+  // aggiorna il testo ma non l'immagine ne' l'alt.
+  ufficio: {
+    id: 'ufficio',
+    kind: 'words',
+    pages: officePages,
+    hero: 'ufficio-hero.webp',
+    words: officeVocabulary,
+    translations: officeTranslationExercises,
+    exampleWord: officeExampleWord,
   },
 };
 

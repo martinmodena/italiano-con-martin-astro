@@ -35,22 +35,20 @@ Consiglio per le foto dei soggetti interi (scheletro, corpo, gamba, piede, organ
 
 ## Testata «Il corpo umano» (`corpo-umano-hero.webp`)
 
+Rifatta il 2026-09-27 (Martin: la copertina non andava bene; la prima, amici che si danno il cinque in un parco, sembrava una lezione sulle persone). Ora il corpo è il soggetto:
+
 ```
-A bright, natural, photorealistic photograph of a diverse group of friends of different ages in a
-sunny green park, full bodies visible: one stretching both arms up high, two giving each other a
-high five, one laughing with a hand on the belly, one waving hello. Warm natural daylight, soft
-shallow depth of field, true-to-life skin and anatomy, candid and joyful. No text, no logos, no
-meat, no food. 3:2 landscape composition.
+A bright, natural, photorealistic photograph of a smiling young woman in a fitted sleeveless sports top and leggings, barefoot, doing a wide star-shaped stretch in a bright minimalist studio with pale wooden floor and white walls: arms stretched out to the sides with open hands and spread fingers, legs apart, head up, so the whole body is clearly readable from head to toes: hair, face, neck, shoulders, arms, elbows, hands, belly, knees, legs and feet. Full body visible, centred, plenty of space around her. Warm natural daylight, bright and inviting, true-to-life colours, skin and anatomy, candid and joyful, like a high-quality editorial photograph. No text, no letters, no logos, no signs with words, no meat, no fish. 3:2 landscape composition.
 ```
+
+(Il modello l'ha messa seduta a gambe larghe invece che in piedi: va bene così.)
 
 ## Testata «I verbi del corpo» (`verbi-corpo-hero.webp`)
 
+Rifatta il 2026-09-27 per lo stesso motivo (la prima: persone al parco che saltano e salutano). Mosaico di sei gesti, come la testata dei verbi della città:
+
 ```
-A bright, natural, photorealistic photograph of ordinary people in a sunny green park, each doing a
-different everyday action with their body, full bodies visible: a woman waving hello, a man jumping
-in the air, a girl laughing and clapping her hands, a man kneeling to tie his shoelace, a woman
-combing her long hair. Warm natural daylight, soft shallow depth of field, true-to-life skin and
-anatomy, candid and joyful. No text, no logos, no meat, no food. 3:2 landscape composition.
+A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one everyday action done with the body, close enough to see the gesture clearly: a man washing his hands with soap at a sink, a girl brushing her teeth in front of a mirror, a woman combing her long hair, a boy clapping his hands and laughing, an older man smelling a flower with closed eyes, a young woman stretching her arms up after waking up in bed. Warm natural daylight, bright and inviting, true-to-life colours, skin and anatomy, candid and joyful, like a high-quality editorial photograph. No text, no letters, no logos, no signs with words, no meat, no fish. 3:2 landscape composition.
 ```
 
 Entrambe con `generate-image.mjs --slug vocabolario/<nome> --hero-width 1280 --hero-height 853 --aspect-ratio 3:2 --no-card --prompt "..."` (modello di default `google/gemini-3-pro-image`, $0,13 l'una).
