@@ -240,6 +240,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-haus.html',
     ja: 'ja/goi/italian-house-vocabulary.html',
   },
+  'verbi-casa': {
+    count: 49,
+    tests: 0,
+    match: { positive: 49 },
+    it: 'vocabolario/verbi-casa.html',
+    en: 'en/vocabulary/italian-household-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-la-casa-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-de-la-maison-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-domova.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-domowe.html',
+    tr: 'tr/kelime-bilgisi/italyanca-ev-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-haushalt.html',
+    ja: 'ja/goi/italian-household-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -366,6 +380,7 @@ for (const lesson of [
   'colori-forme',
   'tempo-stagioni',
   'casa',
+  'verbi-casa',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

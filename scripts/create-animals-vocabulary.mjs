@@ -15,6 +15,8 @@
  *   - «Le persone intorno a noi»                  32 parole: eta', amici, vicini, colleghi, ospiti (2026-09-26).
  *   - «Il tempo e le stagioni»                    34 parole: fenomeni del tempo, caldo e freddo, stagioni (2026-09-26).
  *   - «La casa»                                   43 parole: stanze, parti della casa, camera, bagno, faccende (2026-09-27).
+ *   - «I verbi della casa»                        49 verbi (cucinare, fare il bucato, accendere...) (2026-09-27): stesso
+ *                                                 esercizio al contrario dei verbi delle relazioni (`photoRows`).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -49,6 +51,7 @@
  *   scripts/data/people-vocabulary.mjs    le persone intorno a noi; people-pages.mjs la loro pagina
  *   scripts/data/weather-vocabulary.mjs   il tempo e le stagioni; weather-pages.mjs la loro pagina
  *   scripts/data/house-vocabulary.mjs     la casa; house-pages.mjs la sua pagina
+ *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
  * Il comportamento degli esercizi sta in public/assets/match.js e match.css.
@@ -102,6 +105,8 @@ import { weatherVocabulary, weatherTranslationExercises, weatherExampleWord } fr
 import { weatherPages } from './data/weather-pages.mjs';
 import { houseVocabulary, houseTranslationExercises, houseExampleWord } from './data/house-vocabulary.mjs';
 import { housePages } from './data/house-pages.mjs';
+import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
+import { houseVerbPages, houseVerbUi } from './data/house-verbs-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
 import { relationPages, relationUi } from './data/relations-pages.mjs';
 import {
@@ -321,6 +326,28 @@ const lessons = {
     words: houseVocabulary,
     translations: houseTranslationExercises,
     exampleWord: houseExampleWord,
+  },
+  'verbi-casa': {
+    id: 'verbi-casa',
+    kind: 'match',
+    // Come i verbi delle relazioni: una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: houseVerbPages,
+    hero: 'verbi-casa-hero.webp',
+    words: houseVerbs,
+    translations: houseVerbTranslationExercises,
+    exampleWord: null,
+    bank: houseVerbs,
+    bankPage: houseVerbPages,
+    bankLessonId: 'verbi-casa',
+    seeds: [2423, 2424],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: houseVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...houseVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
 };
 
