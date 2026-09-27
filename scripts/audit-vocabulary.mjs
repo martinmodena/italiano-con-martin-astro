@@ -254,6 +254,18 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-haushalt.html',
     ja: 'ja/goi/italian-household-verbs-vocabulary.html',
   },
+  citta: {
+    count: 46,
+    it: 'vocabolario/citta.html',
+    en: 'en/vocabulary/italian-city-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-la-ciudad-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-ville-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-mesto.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-miasto.html',
+    tr: 'tr/kelime-bilgisi/italyanca-sehir-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-stadt.html',
+    ja: 'ja/goi/italian-city-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -381,6 +393,7 @@ for (const lesson of [
   'tempo-stagioni',
   'casa',
   'verbi-casa',
+  'citta',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

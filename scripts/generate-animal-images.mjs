@@ -10,6 +10,7 @@
 //   - «Il tempo e le stagioni» (qualita' low, paesaggi in un cerchio) -> --set tempo
 //   - «La casa» (qualita' low, stanze in un cerchio)                  -> --set casa
 //   - «I verbi della casa» (scene come le persone)                    -> --set verbi-casa
+//   - «La città» (edifici, strada e veicoli ritagliati)               -> --set citta
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
@@ -50,6 +51,7 @@ import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
+import { cityVocabulary } from './data/city-vocabulary.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -95,10 +97,11 @@ const sets = {
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
+  citta: cityVocabulary,
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta.'
   );
   process.exit(1);
 }
@@ -154,8 +157,18 @@ const HOUSE_STYLE = [
   'Objects and furniture are isolated on the white background, small in the centre of the frame. When the subject is a room cropped into a circle, the circle is centred with wide white margins around it and nothing outside it; no people.',
   ...PHOTO_END,
 ].join(' ');
+// La citta': edifici, negozi, oggetti della strada e veicoli ritagliati sul bianco; gli interni e le viste
+// dall'alto come foto rotonde.
+const CITY_STYLE = [
+  'Photorealistic photograph for a language textbook, natural colours, true to life, an ordinary Italian town, not a cartoon, not an illustration, not a 3D render.',
+  'The background is plain bright pure white (#FFFFFF) from edge to edge: no vignette, no dark or grey corners, no gradient, no studio backdrop.',
+  'The subject is shown as a small self-contained cut-out isolated on the white background: the white replaces the sky, with only a small patch of ground where needed. When the subject is a scene cropped into a circle, the circle is centred with wide white margins around it and nothing outside it.',
+  'People, if any, are small and fully visible. Signs have symbols only, never words or letters unless the description asks for one.',
+  ...PHOTO_END,
+].join(' ');
 const STYLE =
   {
+    citta: CITY_STYLE,
     casa: HOUSE_STYLE,
     corpo: BODY_STYLE,
     'verbi-corpo': BODY_VERB_STYLE,

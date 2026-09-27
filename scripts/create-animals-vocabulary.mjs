@@ -17,6 +17,7 @@
  *   - «La casa»                                   43 parole: stanze, parti della casa, camera, bagno, faccende (2026-09-27).
  *   - «I verbi della casa»                        49 verbi (cucinare, fare il bucato, accendere...) (2026-09-27): stesso
  *                                                 esercizio al contrario dei verbi delle relazioni (`photoRows`).
+ *   - «La città»                                  46 parole: luoghi, negozi, strada, mezzi di trasporto (2026-09-27).
  *   - «I verbi delle relazioni»                   47 verbi (sposarsi, voler bene, fare pace...) (2026-09-26): l'esercizio
  *                                                 e' al contrario (`photoRows`): una foto per riga, i verbi nella barra,
  *                                                 piu' verbi giusti per foto, niente forma negativa.
@@ -51,6 +52,7 @@
  *   scripts/data/people-vocabulary.mjs    le persone intorno a noi; people-pages.mjs la loro pagina
  *   scripts/data/weather-vocabulary.mjs   il tempo e le stagioni; weather-pages.mjs la loro pagina
  *   scripts/data/house-vocabulary.mjs     la casa; house-pages.mjs la sua pagina
+ *   scripts/data/city-vocabulary.mjs      la citta'; city-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
  *
@@ -105,6 +107,8 @@ import { weatherVocabulary, weatherTranslationExercises, weatherExampleWord } fr
 import { weatherPages } from './data/weather-pages.mjs';
 import { houseVocabulary, houseTranslationExercises, houseExampleWord } from './data/house-vocabulary.mjs';
 import { housePages } from './data/house-pages.mjs';
+import { cityVocabulary, cityTranslationExercises, cityExampleWord } from './data/city-vocabulary.mjs';
+import { cityPages } from './data/city-pages.mjs';
 import { houseVerbs, houseVerbTranslationExercises } from './data/house-verbs.mjs';
 import { houseVerbPages, houseVerbUi } from './data/house-verbs-pages.mjs';
 import { relationVerbs, relationTranslationExercises } from './data/relations-verbs.mjs';
@@ -348,6 +352,15 @@ const lessons = {
       positive: { ...relationUi[lang].positive, ...houseVerbUi[lang].positive },
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
+  },
+  citta: {
+    id: 'citta',
+    kind: 'words',
+    pages: cityPages,
+    hero: 'citta-hero.webp',
+    words: cityVocabulary,
+    translations: cityTranslationExercises,
+    exampleWord: cityExampleWord,
   },
 };
 
