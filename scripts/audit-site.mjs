@@ -356,7 +356,7 @@ function inspectTeacherJourney() {
       issues.push(`- INCOMPLETE_ABOUT_HREFLANG | ${language} | /${relative}`);
     if ($('.about-teacher').length !== 2 || $('.about-teacher a[href*="preply"]').length !== 2)
       issues.push(`- INCOMPLETE_TEACHER_PROFILES | ${language} | /${relative}`);
-    if (!$('a[href^="https://wa.me/59167434075"]').length)
+    if (!$('a[href^="https://wa.me/393280555034"]').length)
       issues.push(`- MISSING_WHATSAPP | ${language} | /${relative}`);
   }
   for (const file of walk(publicRoot).filter((entry) => entry.endsWith('.html'))) {

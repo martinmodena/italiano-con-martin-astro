@@ -7,7 +7,7 @@ const siteRoot = path.join(root, 'legacy-html');
 const siteUrl = 'https://italianoconmartin.com';
 const martinUrl = 'https://preply.com/it/tutor/5086125';
 const liciaUrl = 'https://preply.in/LICIA6IT2176799611?ts=17865248';
-const whatsappNumber = '59167434075';
+const whatsappNumber = '393280555034';
 
 const copy = {
   it: {
