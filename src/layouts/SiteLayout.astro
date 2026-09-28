@@ -46,6 +46,40 @@ const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
 // l'audit dei link e la rete di sicurezza della parità.
 const hasSiteScript = meta.bodyScripts.some((script) => /script\.js/.test(script));
 const siteScriptHref = `${meta.assetPrefix}script.js`;
+
+// Dati strutturati BreadcrumbList ricavati dalle briciole di pane già in pagina
+// («Home / Grammatica / A1 / Articoli»): Google mostra il percorso nei risultati.
+// I segmenti senza link (il livello «A1») restano fuori, l'ultimo è la pagina.
+function breadcrumbJsonLd(html: string, canonical: string | null): string | null {
+  if (!canonical) return null;
+  const block = html.match(/<(p|nav|div)[^>]*class="breadcrumbs"[^>]*>([\s\S]*?)<\/\1>/);
+  if (!block) return null;
+  const decode = (s: string) =>
+    s
+      .replace(/<[^>]+>/g, '')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&#39;|&apos;/g, "'")
+      .replace(/&quot;/g, '"')
+      .replace(/\s+/g, ' ')
+      .trim();
+  const segments = block[2].split(/\s\/\s/);
+  const items: { name: string; item: string }[] = [];
+  segments.forEach((segment, index) => {
+    const link = segment.match(/<a[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/);
+    const name = decode(link ? link[2] : segment);
+    if (!name) return;
+    if (index === segments.length - 1) items.push({ name, item: canonical });
+    else if (link) items.push({ name, item: new URL(link[1], canonical).href });
+  });
+  if (items.length < 2) return null;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map(({ name, item }, index) => ({ '@type': 'ListItem', position: index + 1, name, item })),
+  });
+}
+const breadcrumbs = breadcrumbJsonLd(main, meta.canonical);
 ---
 
 <!doctype html>
@@ -65,6 +99,7 @@ const siteScriptHref = `${meta.assetPrefix}script.js`;
       )
     }
     {meta.jsonld.map((json) => <script type="application/ld+json" set:html={json} />)}
+    {breadcrumbs && <script type="application/ld+json" set:html={breadcrumbs} />}
     {/* styles.css va PRIMA dei CSS di pagina: quelli di pagina devono poter sovrascrivere le regole generali. */}
     <link rel="stylesheet" href={stylesheetHref} />
     {meta.extraHead.map((html) => <Fragment set:html={html} />)}
