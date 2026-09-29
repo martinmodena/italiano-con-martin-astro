@@ -123,6 +123,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Flour, water, yeast and salt. Then you wait: the dough grows by itself.',
           caffe: 'Emma asks for “un latte” in a bar in Rome. A glass of cold milk arrives.',
           wow: 'An ant looks at the sky and says “Wow”. The others laugh. Then the eagle comes.',
           cicala: 'In summer the cicada sings and the ant works. Then the cold arrives.',
@@ -137,6 +138,7 @@ export const T = {
           imperatore: 'Everyone sees a beautiful suit. Only a child tells the truth.',
         },
         a2: {
+          pizza: 'Why does the dough need to rest? And what is the high edge of a Neapolitan pizza called?',
           caffe:
             'Emma writes to a friend: five days, five mistakes at the bar. In the end she is the one explaining to a tourist how to order.',
           lepre: 'The hare was sure it would win. That is why it fell asleep.',
@@ -290,6 +292,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Harina, agua, levadura y sal. Luego se espera: la masa crece sola.',
           caffe: 'Emma pide «un latte» en un bar de Roma. Llega un vaso de leche fría.',
           wow: 'Una hormiga mira el cielo y dice «Wow». Las otras se ríen. Luego llega el águila.',
           cicala: 'En verano la cigarra canta y la hormiga trabaja. Luego llega el frío.',
@@ -304,6 +307,7 @@ export const T = {
           imperatore: 'Todos ven un traje precioso. Solo un niño dice la verdad.',
         },
         a2: {
+          pizza: '¿Por qué la masa tiene que reposar? ¿Y cómo se llama el borde alto de la pizza napolitana?',
           caffe:
             'Emma escribe a una amiga: cinco días, cinco errores en el bar. Y al final es ella quien le explica a un turista cómo pedir.',
           lepre: 'La liebre estaba segura de ganar. Por eso se durmió.',
@@ -461,6 +465,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Farine, eau, levure et sel. Puis on attend : la pâte gonfle toute seule.',
           caffe: 'Emma demande « un latte » dans un bar de Rome. Un verre de lait froid arrive.',
           wow: 'Une fourmi regarde le ciel et dit « Wow ». Les autres rient. Puis l’aigle arrive.',
           cicala: 'En été, la cigale chante et la fourmi travaille. Puis le froid arrive.',
@@ -475,6 +480,7 @@ export const T = {
           imperatore: 'Tout le monde voit un habit magnifique. Seul un enfant dit la vérité.',
         },
         a2: {
+          pizza: 'Pourquoi la pâte doit-elle reposer ? Et comment s’appelle le bord épais de la pizza napolitaine ?',
           caffe:
             'Emma écrit à une amie : cinq jours, cinq erreurs au bar. Et à la fin, c’est elle qui explique à un touriste comment commander.',
           lepre: 'Le lièvre était sûr de gagner. C’est pour ça qu’il s’est endormi.',
@@ -630,6 +636,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Mouka, voda, droždí a sůl. Pak se čeká: těsto roste samo.',
           caffe: 'Emma si v římském baru objedná „un latte“. Přijde sklenice studeného mléka.',
           wow: 'Mravenečka se dívá na nebe a říká „Wow“. Ostatní se smějí. Pak přiletí orel.',
           cicala: 'V létě cikáda zpívá a mravenec pracuje. Pak přijde zima.',
@@ -644,6 +651,7 @@ export const T = {
           imperatore: 'Všichni vidí krásné šaty. Jen jedno dítě řekne pravdu.',
         },
         a2: {
+          pizza: 'Proč musí těsto odpočívat? A jak se jmenuje vysoký okraj neapolské pizzy?',
           caffe:
             'Emma píše kamarádce: pět dní, pět chyb v baru. A nakonec je to ona, kdo turistovi vysvětlí, jak si objednat.',
           lepre: 'Zajíc si byl jistý, že vyhraje. Proto usnul.',
@@ -802,6 +810,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Mąka, woda, drożdże i sól. Potem się czeka: ciasto rośnie samo.',
           caffe: 'Emma prosi w rzymskim barze o „un latte”. Dostaje szklankę zimnego mleka.',
           wow: 'Mrówka patrzy w niebo i mówi „Wow”. Inne się śmieją. Potem przylatuje orzeł.',
           cicala: 'Latem cykada śpiewa, a mrówka pracuje. Potem przychodzi zimno.',
@@ -816,6 +825,7 @@ export const T = {
           imperatore: 'Wszyscy widzą piękne szaty. Tylko dziecko mówi prawdę.',
         },
         a2: {
+          pizza: 'Dlaczego ciasto musi odpocząć? I jak nazywa się wysoki brzeg pizzy neapolitańskiej?',
           caffe:
             'Emma pisze do koleżanki: pięć dni, pięć błędów w barze. A na końcu to ona tłumaczy turyście, jak zamówić.',
           lepre: 'Zając był pewny, że wygra. Dlatego zasnął.',
@@ -973,6 +983,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Un, su, maya ve tuz. Sonra beklenir: hamur kendi kendine kabarır.',
           caffe: 'Emma Roma’da bir barda “un latte” ister. Bir bardak soğuk süt gelir.',
           wow: 'Bir karınca gökyüzüne bakıp “Wow” der. Diğerleri güler. Sonra kartal gelir.',
           cicala: 'Yazın ağustosböceği şarkı söyler, karınca çalışır. Sonra soğuk gelir.',
@@ -987,6 +998,7 @@ export const T = {
           imperatore: 'Herkes çok güzel bir giysi görür. Sadece bir çocuk doğruyu söyler.',
         },
         a2: {
+          pizza: 'Hamur neden dinlenmeli? Napoli pizzasının kalın kenarına ne denir?',
           caffe:
             'Emma bir arkadaşına yazar: beş gün, barda beş hata. Sonunda bir turiste nasıl sipariş verileceğini anlatan da odur.',
           lepre: 'Tavşan kazanacağından emindi. Bu yüzden uyuyakaldı.',
@@ -1148,6 +1160,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: 'Mehl, Wasser, Hefe und Salz. Dann wartet man: Der Teig geht von allein auf.',
           caffe: 'Emma bestellt in einer Bar in Rom „un latte“. Es kommt ein Glas kalte Milch.',
           wow: 'Eine Ameise schaut in den Himmel und sagt „Wow“. Die anderen lachen. Dann kommt der Adler.',
           cicala: 'Im Sommer singt die Zikade und die Ameise arbeitet. Dann kommt die Kälte.',
@@ -1162,6 +1175,7 @@ export const T = {
           imperatore: 'Alle sehen ein wunderschönes Gewand. Nur ein Kind sagt die Wahrheit.',
         },
         a2: {
+          pizza: 'Warum muss der Teig ruhen? Und wie heißt der hohe Rand der neapolitanischen Pizza?',
           caffe:
             'Emma schreibt einer Freundin: fünf Tage, fünf Fehler in der Bar. Am Ende erklärt sie selbst einem Touristen, wie man bestellt.',
           lepre: 'Der Hase war sicher, dass er gewinnt. Deshalb ist er eingeschlafen.',
@@ -1315,6 +1329,7 @@ export const T = {
       },
       hooks: {
         a1: {
+          pizza: '小麦粉、水、イースト、塩。あとは待つだけ。生地はひとりでにふくらみます。',
           caffe: 'エンマはローマのバールで「un latte」を頼みます。出てきたのは冷たい牛乳でした。',
           wow: '一匹のアリが空を見て「Wow」と言います。ほかのアリは笑います。そしてワシがやって来ます。',
           cicala: '夏、セミは歌い、アリは働きます。やがて寒さがやって来ます。',
@@ -1329,6 +1344,7 @@ export const T = {
           imperatore: 'みんなには美しい服が見えます。本当のことを言うのは、子どもひとりだけ。',
         },
         a2: {
+          pizza: 'なぜ生地を休ませるの？ ナポリピッツァの高いふちは何と呼ぶ？',
           caffe:
             'エンマが友だちに手紙を書きます。5日間で、バールでの失敗が5つ。最後には、観光客に注文の仕方を教えるのは彼女でした。',
           lepre: 'ウサギは勝てると思っていました。だから眠ってしまったのです。',
@@ -1371,9 +1387,29 @@ export const T = {
   },
 };
 
+// Livelli adatti a ogni lettura: le pagine di dettaglio hanno solo questi (le favole classiche,
+// non elencate, sono A1 · A2 · B1). Lo usano gli indici e scripts/trim-reading-levels.mjs.
+export const READING_LEVELS = {
+  'letture/storia-del-caffe-in-italia': 'A1 · A2',
+  'letture/come-preparare-una-pizza': 'A1 · A2',
+  'letture/tecniche-di-memoria': 'A2 · B1',
+  'letture/il-sonar-del-delfino': 'A2 · B1',
+  'letture/insetto-con-gli-ingranaggi': 'A2 · B1',
+  'letture/api-linguaggio-e-caratteristiche': 'A2 · B1',
+  'letture/proteine-quante-ne-servono': 'B1 · B2',
+  'letture/integratori-per-la-palestra': 'B1 · B2',
+  'letture/futuro-intelligenza-artificiale': 'B1 · B2 · C1',
+  'letture/storia-della-mafia-in-italia': 'B1 · B2 · C1',
+  'letture/come-funziona-la-memoria-umana': 'B2 · C1',
+  'letture/latte-materno': 'B2 · C1',
+  'letture/la-meraviglia-del-dna': 'B2 · C1',
+  'favole/la-formichina-wow': 'A1',
+};
+
 // Schede degli indici per livello: [chiave, file, tipo, parole, minuti, forme italiane, spiegazione].
 export const A1_TILES = [
   ['caffe', 'letture/storia-del-caffe-in-italia', 'everyday', 200, 2, 'vorrei · prendo · mi dà', null],
+  ['pizza', 'letture/come-preparare-una-pizza', 'everyday', 80, 1, 'prima… poi… alla fine', 'sequence'],
   ['wow', 'favole/la-formichina-wow', 'original', 400, 4, 'ogni giorno, il giorno dopo, ogni sera', 'time'],
   ['cicala', 'favole/la-cicala-e-la-formica', 'fable', 95, 1, 'c’è · non c’è più', null],
   ['mugnaio', 'favole/il-mugnaio-suo-figlio-e-lasino', 'fable', 95, 1, 'perché…?', 'why'],
@@ -1396,6 +1432,7 @@ export const A2_TILES = [
     'ho chiesto · sono andata · mi sono seduta',
     'ppAE',
   ],
+  ['pizza', 'letture/come-preparare-una-pizza', 'everyday', 95, 1, 'si prepara · si stende · si cuoce', null],
   ['lepre', 'favole/la-lepre-e-la-tartaruga', 'fable', 85, 1, 'si è sdraiata, si è addormentata', 'reflexive'],
   ['cicala', 'favole/la-cicala-e-la-formica', 'fable', 90, 1, 'cantava, mentre la formica raccoglieva', 'while'],
   ['pastorello', 'favole/il-pastorello-bugiardo', 'fable', 95, 1, 'si annoiava · ha gridato', 'impPp'],
@@ -1471,6 +1508,7 @@ T.it = {
     },
     hooks: {
       a1: {
+        pizza: 'Farina, acqua, lievito e sale. Poi si aspetta: l’impasto cresce da solo.',
         caffe: 'Emma chiede «un latte» in un bar di Roma. Arriva un bicchiere di latte freddo.',
         wow: 'Una formica guarda il cielo e dice «Wow». Le altre ridono. Poi arriva l’aquila.',
         cicala: 'D’estate la cicala canta e la formica lavora. Poi arriva il freddo.',
@@ -1485,6 +1523,7 @@ T.it = {
         imperatore: 'Tutti vedono un vestito bellissimo. Solo un bambino dice la verità.',
       },
       a2: {
+        pizza: 'Perché l’impasto deve riposare? E come si chiama il bordo alto della pizza napoletana?',
         caffe:
           'Emma scrive a un’amica: cinque giorni, cinque errori al bar. E alla fine è lei a spiegare a un turista come si ordina.',
         lepre: 'La lepre era sicura di vincere. Per questo si è addormentata.',

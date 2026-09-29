@@ -8,7 +8,7 @@
 //      python scripts/generate-pdfs.py --only storia-del-caffe-in-italia   e di nuovo npm run build
 import fs from 'fs';
 import path from 'path';
-import { LANGS, T, A1_TILES, A2_TILES, CAFFE_A2_TITLE } from './data/letture-livelli-i18n.mjs';
+import { LANGS, T, A1_TILES, A2_TILES, CAFFE_A2_TITLE, READING_LEVELS } from './data/letture-livelli-i18n.mjs';
 import { EMMA } from './data/emma-it.mjs';
 import { EMMA_UI, EMMA_I18N } from './data/emma-i18n.mjs';
 import { episodeUrl, seriesNav } from './create-emma-stories.mjs';
@@ -258,7 +258,7 @@ function levelPage(lang, level) {
                 <span class="tile-structure">${emmaStructure(e.ep, lang)}</span>
                 <strong>${h.cta.story}</strong></a>`;
     }
-    const target = file.startsWith('letture/') ? caffeUrl[lang] : resUrl(file)[lang];
+    const target = key === 'caffe' ? caffeUrl[lang] : resUrl(file)[lang];
     const info = tiles[target];
     if (!info) throw new Error(`${lang}: scheda non trovata nell'indice per ${target}`);
     const title = key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2[lang]) : info.title;
@@ -357,7 +357,7 @@ function levelPage(lang, level) {
       '@type': 'ListItem',
       position: i + 1,
       name: key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2[lang]) : tiles[resUrl(file)[lang]].title,
-      url: SITE + (file.startsWith('letture/') ? caffeUrl[lang] : resUrl(file)[lang]) + '#' + level,
+      url: SITE + (key === 'caffe' ? caffeUrl[lang] : resUrl(file)[lang]) + '#' + level,
     };
   });
   Object.assign(meta, {
@@ -430,22 +430,7 @@ function navHtml(lang, current) {
 }
 
 // ---------------------------------------------------------------- 3. indice di tutti i livelli
-const LEVELS_OF = {
-  'letture/storia-del-caffe-in-italia': 'A1 · A2',
-  'letture/come-preparare-una-pizza': 'A1 · A2',
-  'letture/tecniche-di-memoria': 'A2 · B1',
-  'letture/il-sonar-del-delfino': 'A2 · B1',
-  'letture/insetto-con-gli-ingranaggi': 'A2 · B1',
-  'letture/api-linguaggio-e-caratteristiche': 'A2 · B1',
-  'letture/proteine-quante-ne-servono': 'B1 · B2',
-  'letture/integratori-per-la-palestra': 'B1 · B2',
-  'letture/futuro-intelligenza-artificiale': 'B1 · B2 · C1',
-  'letture/storia-della-mafia-in-italia': 'B1 · B2 · C1',
-  'letture/come-funziona-la-memoria-umana': 'B2 · C1',
-  'letture/latte-materno': 'B2 · C1',
-  'letture/la-meraviglia-del-dna': 'B2 · C1',
-  'favole/la-formichina-wow': 'A1',
-};
+const LEVELS_OF = { ...READING_LEVELS };
 for (const f of fs.readdirSync('src/html/favole'))
   if (f !== 'index.html' && !LEVELS_OF['favole/' + f.replace('.html', '')])
     LEVELS_OF['favole/' + f.replace('.html', '')] = 'A1 · A2 · B1';

@@ -721,3 +721,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Pagine singole con un solo livello (modello Fabulang), URL con parole di ricerca (`/letture/emma-il-biglietto-del-treno.html`, `/en/readings/emma-the-train-ticket.html`…), navigazione «episodio precedente / successivo». Negli indici: sezione «Emma in Italia» in cima a `/letture/`, episodi fra le «Storie di oggi» di `/letture/a1/`.
 - Testate: 7 illustrazioni coerenti (anche una nuova per l'episodio 1 al posto della vecchia seppia), `gemini-3-pro-image`, circa $0,94 in tutto; prompt in `docs/prompt-immagini-emma.md`.
 - Da questa serie in poi anche le pagine italiane degli indici per livello si generano con `scripts/create-level-readings.mjs`.
+
+## 2026-09-29 - Letture e favole: solo i livelli adatti, anche nelle pagine di dettaglio
+
+- Le pagine di dettaglio avevano ancora A1–C1, mentre gli indici dichiaravano solo i livelli adatti al tema: incoerente. Ora le pagine hanno solo i livelli di `READING_LEVELS` (`scripts/data/letture-livelli-i18n.mjs`): favole classiche A1 · A2 · B1; pizza A1 · A2; memoria, sonar, insetto, api A2 · B1; proteine, integratori B1 · B2; IA e mafia B1 · B2 · C1; memoria umana, latte materno, DNA B2 · C1.
+- `scripts/trim-reading-levels.mjs` (idempotente) toglie articoli, pulsanti di livello e PDF dei livelli esclusi in 9 lingue e aggiorna titoli, descrizioni e `educationalLevel` (es. «A1–C1» → «B2–C1», «cinque livelli» → «tre livelli»). Indici delle favole ora «A1–B1»; indici delle letture: «ognuno nei livelli adatti al tema».
+- La pizza entra negli indici `/letture/a1/` e `/letture/a2/`. I testi tolti restano nella storia di git.
