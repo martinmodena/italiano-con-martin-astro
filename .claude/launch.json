@@ -8,6 +8,12 @@
       "port": 4321
     },
     {
+      "name": "preview-4400",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview", "--", "--port", "4400"],
+      "port": 4400
+    },
+    {
       "name": "dev",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
