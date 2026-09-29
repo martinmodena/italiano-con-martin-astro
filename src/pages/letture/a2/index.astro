@@ -1,79 +1,118 @@
 ---
-// Indice per livello (decisione 2026-09-29): le letture che hanno un A2 valido.
+// Generato da scripts/create-level-readings.mjs (indice per livello, decisione 2026-09-29).
 import SiteLayout from '~/layouts/SiteLayout.astro';
 import main from '~/html/letture/a2/index.html?raw';
-const site = 'https://italianoconmartin.com';
-const items = [
-  ['Una settimana al bar', '/letture/storia-del-caffe-in-italia.html#a2'],
-  ['La lepre e la tartaruga', '/favole/la-lepre-e-la-tartaruga.html#a2'],
-  ['La cicala e la formica', '/favole/la-cicala-e-la-formica.html#a2'],
-  ['Il pastorello bugiardo', '/favole/il-pastorello-bugiardo.html#a2'],
-  ["La volpe e l'uva", '/favole/la-volpe-e-luva.html#a2'],
-  ["Il cane e l'osso", '/favole/il-cane-e-losso.html#a2'],
-  ['Il lupo e i tre porcellini', '/favole/il-lupo-e-i-tre-porcellini.html#a2'],
-  ["Il mugnaio, suo figlio e l'asino", '/favole/il-mugnaio-suo-figlio-e-lasino.html#a2'],
-  ['Il topo di città e il topo di campagna', '/favole/il-topo-di-citta-e-il-topo-di-campagna.html#a2'],
-  ['Il leone e il topo', '/favole/il-leone-e-il-topo.html#a2'],
-  ["I vestiti nuovi dell'imperatore", '/favole/i-vestiti-nuovi-dellimperatore.html#a2'],
-];
-const title = 'Letture in italiano A2: racconti brevi al passato (con PDF)';
-const description =
-  'Racconti e favole in italiano di livello A2: storie al passato con passato prossimo e imperfetto, domande di comprensione, parole utili e PDF gratis.';
-const url = `${site}/letture/a2/`;
-const jsonld = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  name: title,
-  url,
-  inLanguage: 'it',
-  educationalLevel: 'A2',
-  mainEntity: {
-    '@type': 'ItemList',
-    itemListElement: items.map(([name, path], i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name,
-      url: site + path,
-    })),
-  },
-});
 const meta = {
-  path: 'letture/a2/index.html',
-  lang: 'it',
-  title,
-  description,
-  canonical: url,
-  robots: 'index,follow,max-image-preview:large',
-  author: 'Martin Modena',
-  og: [
-    ['og:type', 'website'],
-    ['og:site_name', 'Italiano con Martin'],
-    ['og:title', title],
-    ['og:description', 'Racconti brevi in italiano per il livello A2, con passato prossimo, imperfetto e PDF gratis.'],
-    ['og:url', url],
-    ['og:image', `${site}/assets/reading-storia-caffe-italia.webp`],
-    ['twitter:card', 'summary_large_image'],
-    ['twitter:title', title],
-    ['twitter:description', 'Racconti brevi in italiano per il livello A2, con passato prossimo, imperfetto e PDF gratis.'],
-    ['twitter:image', `${site}/assets/reading-storia-caffe-italia.webp`],
+  "path": "letture/a2/index.html",
+  "lang": "it",
+  "title": "Letture in italiano A2: racconti brevi al passato (con PDF)",
+  "description": "Racconti e favole in italiano di livello A2: storie al passato con passato prossimo e imperfetto, domande di comprensione, parole utili e PDF gratis.",
+  "canonical": "https://italianoconmartin.com/letture/a2/",
+  "robots": "index,follow,max-image-preview:large",
+  "author": "Martin Modena",
+  "og": [
+    [
+      "og:type",
+      "website"
+    ],
+    [
+      "og:site_name",
+      "Italiano con Martin"
+    ],
+    [
+      "og:title",
+      "Letture in italiano A2: racconti brevi al passato (con PDF)"
+    ],
+    [
+      "og:description",
+      "Racconti brevi in italiano per il livello A2, con passato prossimo, imperfetto e PDF gratis."
+    ],
+    [
+      "og:url",
+      "https://italianoconmartin.com/letture/a2/"
+    ],
+    [
+      "og:image",
+      "https://italianoconmartin.com/assets/reading-storia-caffe-italia.webp"
+    ],
+    [
+      "twitter:card",
+      "summary_large_image"
+    ],
+    [
+      "twitter:title",
+      "Letture in italiano A2: racconti brevi al passato (con PDF)"
+    ],
+    [
+      "twitter:description",
+      "Racconti brevi in italiano per il livello A2, con passato prossimo, imperfetto e PDF gratis."
+    ],
+    [
+      "twitter:image",
+      "https://italianoconmartin.com/assets/reading-storia-caffe-italia.webp"
+    ]
   ],
-  jsonld: [jsonld],
-  hreflangs: [["it","https://italianoconmartin.com/letture/a2/"],["en","https://italianoconmartin.com/en/readings/a2/"],["es","https://italianoconmartin.com/es/lecturas/a2/"],["fr","https://italianoconmartin.com/fr/lectures/a2/"],["cs","https://italianoconmartin.com/cs/cteni/a2/"],["pl","https://italianoconmartin.com/pl/czytanki/a2/"],["tr","https://italianoconmartin.com/tr/okumalar/a2/"],["de","https://italianoconmartin.com/de/lesetexte/a2/"],["ja","https://italianoconmartin.com/ja/dokkai/a2/"],["x-default","https://italianoconmartin.com/letture/a2/"]],
-  extraHead: [],
-  assetPrefix: '../../',
-  brandHref: '../../',
-  bodyScripts: ['<script src="../../script.js"></script>'],
-  iconLinks: [
-    '<link rel="icon" href="../../favicon.png" type="image/png">',
-    '<link rel="apple-touch-icon" href="../../apple-touch-icon.png">',
+  "jsonld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"CollectionPage\",\"name\":\"Letture in italiano A2: racconti brevi al passato (con PDF)\",\"url\":\"https://italianoconmartin.com/letture/a2/\",\"inLanguage\":\"it\",\"educationalLevel\":\"A2\",\"mainEntity\":{\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Una settimana al bar\",\"url\":\"https://italianoconmartin.com/letture/storia-del-caffe-in-italia.html#a2\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"La lepre e la tartaruga\",\"url\":\"https://italianoconmartin.com/favole/la-lepre-e-la-tartaruga.html#a2\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"La cicala e la formica\",\"url\":\"https://italianoconmartin.com/favole/la-cicala-e-la-formica.html#a2\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Il pastorello bugiardo\",\"url\":\"https://italianoconmartin.com/favole/il-pastorello-bugiardo.html#a2\"},{\"@type\":\"ListItem\",\"position\":5,\"name\":\"La volpe e l’uva\",\"url\":\"https://italianoconmartin.com/favole/la-volpe-e-luva.html#a2\"},{\"@type\":\"ListItem\",\"position\":6,\"name\":\"Il cane e l’osso\",\"url\":\"https://italianoconmartin.com/favole/il-cane-e-losso.html#a2\"},{\"@type\":\"ListItem\",\"position\":7,\"name\":\"Il lupo e i tre porcellini\",\"url\":\"https://italianoconmartin.com/favole/il-lupo-e-i-tre-porcellini.html#a2\"},{\"@type\":\"ListItem\",\"position\":8,\"name\":\"Il mugnaio, suo figlio e l'asino\",\"url\":\"https://italianoconmartin.com/favole/il-mugnaio-suo-figlio-e-lasino.html#a2\"},{\"@type\":\"ListItem\",\"position\":9,\"name\":\"Il topo di città e il topo di campagna\",\"url\":\"https://italianoconmartin.com/favole/il-topo-di-citta-e-il-topo-di-campagna.html#a2\"},{\"@type\":\"ListItem\",\"position\":10,\"name\":\"Il leone e il topo\",\"url\":\"https://italianoconmartin.com/favole/il-leone-e-il-topo.html#a2\"},{\"@type\":\"ListItem\",\"position\":11,\"name\":\"I vestiti nuovi dell’imperatore\",\"url\":\"https://italianoconmartin.com/favole/i-vestiti-nuovi-dellimperatore.html#a2\"}]}}"
   ],
-  brandImgSrc: '../../assets/martin-photo.svg',
-  optionsHtml: "<a href=\"/letture/a2/\" hreflang=\"it\" lang=\"it\" aria-current=\"page\"><span aria-hidden=\"true\">🇮🇹</span><span>Italiano</span></a><a href=\"/en/readings/a2/\" hreflang=\"en\" lang=\"en\"><span aria-hidden=\"true\">🇬🇧</span><span>English</span></a><a href=\"/es/lecturas/a2/\" hreflang=\"es\" lang=\"es\"><span aria-hidden=\"true\">🇪🇸</span><span>Español</span></a><a href=\"/fr/lectures/a2/\" hreflang=\"fr\" lang=\"fr\"><span aria-hidden=\"true\">🇫🇷</span><span>Français</span></a><a href=\"/cs/cteni/a2/\" hreflang=\"cs\" lang=\"cs\"><span aria-hidden=\"true\">🇨🇿</span><span>Čeština</span></a><a href=\"/pl/czytanki/a2/\" hreflang=\"pl\" lang=\"pl\"><span aria-hidden=\"true\">🇵🇱</span><span>Polski</span></a><a href=\"/tr/okumalar/a2/\" hreflang=\"tr\" lang=\"tr\"><span aria-hidden=\"true\">🇹🇷</span><span>Türkçe</span></a><a href=\"/de/lesetexte/a2/\" hreflang=\"de\" lang=\"de\"><span aria-hidden=\"true\">🇩🇪</span><span>Deutsch</span></a><a href=\"/ja/dokkai/a2/\" hreflang=\"ja\" lang=\"ja\"><span aria-hidden=\"true\">🇯🇵</span><span>日本語</span></a>",
-  ui: {
-    nav: '<a href="/grammatica/">Grammatica</a><a href="/letture/">Letture</a><a href="/vocabolario/">Vocabolario</a><a class="about-link" href="/chi-siamo/">Chi siamo</a>',
-    footerGrid:
-      '<div><strong>Italiano con Martin</strong><p>Letture graduate, grammatica chiara e lezioni online.</p></div><div><a href="/grammatica/">Grammatica</a><a href="/letture/">Letture</a><a href="/vocabolario/">Vocabolario</a><a class="about-link" href="/chi-siamo/">Chi siamo</a></div>',
-  },
+  "hreflangs": [
+    [
+      "it",
+      "https://italianoconmartin.com/letture/a2/"
+    ],
+    [
+      "en",
+      "https://italianoconmartin.com/en/readings/a2/"
+    ],
+    [
+      "es",
+      "https://italianoconmartin.com/es/lecturas/a2/"
+    ],
+    [
+      "fr",
+      "https://italianoconmartin.com/fr/lectures/a2/"
+    ],
+    [
+      "cs",
+      "https://italianoconmartin.com/cs/cteni/a2/"
+    ],
+    [
+      "pl",
+      "https://italianoconmartin.com/pl/czytanki/a2/"
+    ],
+    [
+      "tr",
+      "https://italianoconmartin.com/tr/okumalar/a2/"
+    ],
+    [
+      "de",
+      "https://italianoconmartin.com/de/lesetexte/a2/"
+    ],
+    [
+      "ja",
+      "https://italianoconmartin.com/ja/dokkai/a2/"
+    ],
+    [
+      "x-default",
+      "https://italianoconmartin.com/letture/a2/"
+    ]
+  ],
+  "extraHead": [],
+  "assetPrefix": "../../",
+  "brandHref": "/",
+  "bodyScripts": [
+    "<script src=\"../../script.js\"></script>"
+  ],
+  "iconLinks": [
+    "<link rel=\"icon\" href=\"../../favicon.png\" type=\"image/png\">",
+    "<link rel=\"apple-touch-icon\" href=\"../../apple-touch-icon.png\">"
+  ],
+  "brandImgSrc": "../../assets/martin-photo.svg",
+  "optionsHtml": "<a href=\"/letture/a2/\" hreflang=\"it\" lang=\"it\" aria-current=\"page\"><span aria-hidden=\"true\">🇮🇹</span><span>Italiano</span></a><a href=\"/en/readings/a2/\" hreflang=\"en\" lang=\"en\"><span aria-hidden=\"true\">🇬🇧</span><span>English</span></a><a href=\"/es/lecturas/a2/\" hreflang=\"es\" lang=\"es\"><span aria-hidden=\"true\">🇪🇸</span><span>Español</span></a><a href=\"/fr/lectures/a2/\" hreflang=\"fr\" lang=\"fr\"><span aria-hidden=\"true\">🇫🇷</span><span>Français</span></a><a href=\"/cs/cteni/a2/\" hreflang=\"cs\" lang=\"cs\"><span aria-hidden=\"true\">🇨🇿</span><span>Čeština</span></a><a href=\"/pl/czytanki/a2/\" hreflang=\"pl\" lang=\"pl\"><span aria-hidden=\"true\">🇵🇱</span><span>Polski</span></a><a href=\"/tr/okumalar/a2/\" hreflang=\"tr\" lang=\"tr\"><span aria-hidden=\"true\">🇹🇷</span><span>Türkçe</span></a><a href=\"/de/lesetexte/a2/\" hreflang=\"de\" lang=\"de\"><span aria-hidden=\"true\">🇩🇪</span><span>Deutsch</span></a><a href=\"/ja/dokkai/a2/\" hreflang=\"ja\" lang=\"ja\"><span aria-hidden=\"true\">🇯🇵</span><span>日本語</span></a>",
+  "ui": {
+    "nav": "<a href=\"/grammatica/\">Grammatica</a><a href=\"/letture/\">Letture</a><a href=\"/vocabolario/\">Vocabolario</a><a class=\"about-link\" href=\"/chi-siamo/\">Chi siamo</a>",
+    "footerGrid": "\n        <div>\n          <strong>Italiano con Martin</strong>\n          <p>Letture graduate, grammatica chiara e lezioni online.</p>\n        </div>\n        <div><a href=\"/grammatica/\">Grammatica</a><a href=\"/letture/\">Letture</a><a href=\"/vocabolario/\">Vocabolario</a><a class=\"about-link\" href=\"/chi-siamo/\">Chi siamo</a></div>\n      "
+  }
 };
 ---
 

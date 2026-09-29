@@ -714,3 +714,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin: gli indici del vocabolario mostrano, come quelli della grammatica, il **progresso complessivo** e una barra su ogni lezione, nelle 9 lingue.
 - Un esercizio = una parola giusta in «Riconosci la parola» o una riga completata negli esercizi con trascinamento. Le frasi da tradurre non contano: non hanno una verifica.
 - `public/assets/vocabulary-progress.js` legge le stesse chiavi del localStorage che già usano `vocabulary.js` e `match.js`, quindi vale anche il lavoro fatto prima. I totali per lezione li calcola a ogni build `src/pages/assets/vocabulary-totals.json.ts` dai frammenti in `src/html`: non si aggiornano mai a mano, nemmeno quando si aggiungono parole o lezioni.
+
+## 2026-09-29 - Serie «Emma in Italia» (racconti A1)
+
+- Sei nuovi racconti A1 originali, in 9 lingue, con protagonista fissa (Emma): «Il biglietto del treno» (preposizioni), «Al mercato» (c'è / ci sono), «Chiuso per pranzo» (l'ora), «Mal di gola di domenica» (verbo avere), «Il pranzo della nonna» (possessivi), «Cena alle otto» (articoli). L'episodio 1 è «Al bar in Italia». Ogni episodio: una sorpresa vera della vita in Italia (timbrare il biglietto, la frutta non si tocca, i negozi chiusi a pranzo, la farmacia di turno, primo e secondo, i crisantemi), 216–255 parole, riquadro della struttura con link alla lezione A1, 4 domande (l'ultima personale), PDF.
+- Pagine singole con un solo livello (modello Fabulang), URL con parole di ricerca (`/letture/emma-il-biglietto-del-treno.html`, `/en/readings/emma-the-train-ticket.html`…), navigazione «episodio precedente / successivo». Negli indici: sezione «Emma in Italia» in cima a `/letture/`, episodi fra le «Storie di oggi» di `/letture/a1/`.
+- Testate: 7 illustrazioni coerenti (anche una nuova per l'episodio 1 al posto della vecchia seppia), `gemini-3-pro-image`, circa $0,94 in tutto; prompt in `docs/prompt-immagini-emma.md`.
+- Da questa serie in poi anche le pagine italiane degli indici per livello si generano con `scripts/create-level-readings.mjs`.

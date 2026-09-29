@@ -9,6 +9,9 @@
 import fs from 'fs';
 import path from 'path';
 import { LANGS, T, A1_TILES, A2_TILES, CAFFE_A2_TITLE } from './data/letture-livelli-i18n.mjs';
+import { EMMA } from './data/emma-it.mjs';
+import { EMMA_UI, EMMA_I18N } from './data/emma-i18n.mjs';
+import { episodeUrl, seriesNav } from './create-emma-stories.mjs';
 
 const SITE = 'https://italianoconmartin.com';
 const FLAGS = {
@@ -54,6 +57,35 @@ const caffeUrl = hreflangs('src/pages/letture/storia-del-caffe-in-italia.html.as
 const resUrl = (file) => hreflangs(`src/pages/${file}.html.astro`);
 const gram = (g) => hreflangs(`src/pages/grammatica/${g}.html.astro`);
 const levelUrl = (lang, level) => (lang === 'it' ? `/letture/${level}/` : indexUrl[lang] + level + '/');
+const home = (lang) => (lang === 'it' ? '/' : `/${lang}/`);
+// Prefisso relativo verso la radice del sito (immagini e script usano percorsi relativi).
+const prefixOf = (url) => '../'.repeat(url.split('/').length - 2);
+// Gli indici italiani usano link relativi («../favole/…»), quelli stranieri assoluti.
+const resolve = (href, base) => decodeURI(new URL(href, SITE + base).pathname);
+const CAFFE_A2 = { ...CAFFE_A2_TITLE, it: 'Una settimana al bar' };
+// Episodi di «Emma in Italia»: dati della scheda nella lingua richiesta.
+const emmaTile = (ep, lang) => {
+  const tr = lang === 'it' ? ep : EMMA_I18N[ep.key][lang];
+  const words = ep.text
+    .join(' ')
+    .replace(/<[^>]+>/g, ' ')
+    .split(/\s+/)
+    .filter((w) => /\p{L}/u.test(w)).length;
+  return {
+    ep,
+    url: episodeUrl(ep, lang),
+    title: tr.title,
+    alt: tr.alt,
+    hook: tr.hook,
+    words: Math.round(words / 10) * 10,
+    minutes: Math.max(1, Math.round(words / 120)),
+  };
+};
+const emmaBadge = (lang) => `${EMMA_UI[lang].series} · A1`;
+const emmaStructure = (ep, lang) => {
+  const ex = EMMA_I18N[ep.key].expl;
+  return `${T[lang].hub.structure}: <span lang="it">${ep.structure}</span>${ex ? ` (${EMMA_UI[lang].expl[ex]})` : ''}`;
+};
 
 const options = (urls, current) =>
   ALL.map(
@@ -144,7 +176,7 @@ function caffePage(lang) {
       <p class="breadcrumbs"><a href="/${lang}/">${t.home}</a> / <a href="${indexUrl[lang]}">${t.readings}</a> / ${c.title}</p>
       <div class="story-hero-grid">
         <div>
-          <p class="eyebrow">${c.eyebrow}</p>
+          <p class="eyebrow">${EMMA_UI[lang].series} · ${EMMA_UI[lang].episode(1)} · A1 · A2</p>
           <h1>${c.title}</h1>
           <p class="lead">${c.lead}</p>
           <div class="level-nav"><a href="#a1">A1</a><a href="#a2">A2</a></div><div class="pdf-downloads pdf-downloads-complete" aria-label="${t.pdfAria}"><a class="button secondary" href="/pdf/${lang}/${slug}-all-levels.pdf" download="">${t.pdfAll}</a></div>
@@ -163,6 +195,7 @@ function caffePage(lang) {
       ${phrases}
     </div>
   </section>
+  ${seriesNav(lang, -1)}
   ${cta.trim()}
 </main>
 `;
@@ -192,12 +225,12 @@ function caffePage(lang) {
 
 // ---------------------------------------------------------------- 2. indici per livello
 // Titolo, immagine e testo alternativo di ogni scheda si prendono dall'indice delle letture della lingua.
-function tilesOf(indexHtml) {
+function tilesOf(indexHtml, base) {
   const map = {};
   for (const m of indexHtml.matchAll(
     /<a class="story-tile" href="([^"]+)"><img src="[^"]*\/assets\/([^"]+)" alt="([^"]*)"[^>]*>[^]*?<h2>([^<]+)<\/h2>/g
   ))
-    map[decodeURI(m[1])] = { img: m[2], alt: m[3], title: m[4].trim() };
+    map[resolve(m[1], base)] = { img: m[2], alt: m[3], title: m[4].trim() };
   return map;
 }
 
@@ -207,23 +240,46 @@ function levelPage(lang, level) {
   const L = h[level];
   const url = levelUrl(lang, level);
   const indexHtml = read(htmlOf(indexUrl[lang]));
-  const tiles = tilesOf(indexHtml);
-  const tileList = level === 'a1' ? A1_TILES : A2_TILES;
+  const tiles = tilesOf(indexHtml, indexUrl[lang]);
+  const pre = prefixOf(url);
+  // In A1, dopo «Al bar in Italia» (episodio 1) vengono gli altri episodi di Emma.
+  const tileList =
+    level === 'a1' ? [A1_TILES[0], ...EMMA.map((ep) => [ep.key, ep.file, 'emma']), ...A1_TILES.slice(1)] : A2_TILES;
   const tile = ([key, file, kind, w, m, forms, expl]) => {
+    if (kind === 'emma') {
+      const e = emmaTile(
+        EMMA.find((x) => x.key === key),
+        lang
+      );
+      return `<a class="story-tile" href="${e.url}#a1"><img src="${pre}assets/${e.ep.image}-card.webp" alt="${esc(e.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${emmaBadge(lang)}</span>
+                <h2>${e.title}</h2>
+                <span class="tile-meta">${h.meta(e.words, e.minutes)}</span>
+                <p>${e.hook}</p>
+                <span class="tile-structure">${emmaStructure(e.ep, lang)}</span>
+                <strong>${h.cta.story}</strong></a>`;
+    }
     const target = file.startsWith('letture/') ? caffeUrl[lang] : resUrl(file)[lang];
     const info = tiles[target];
     if (!info) throw new Error(`${lang}: scheda non trovata nell'indice per ${target}`);
-    const title = key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2_TITLE[lang]) : info.title;
+    const title = key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2[lang]) : info.title;
+    const alt = key === 'caffe' ? esc(t.caffe.alt) : info.alt;
+    const img = key === 'caffe' ? 'reading-storia-caffe-italia-card.webp' : info.img;
     const structure = `${h.structure}: <span lang="it">${forms}</span>${expl ? ` (${h.expl[expl]})` : ''}`;
     const cta = kind === 'fable' ? h.cta.fable : kind === 'fairy' ? h.cta.fairy : h.cta.story;
-    return `<a class="story-tile" href="${target}#${level}"><img src="../../../assets/${info.img}" alt="${info.alt}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${h.badge[kind]} · ${level.toUpperCase()}</span>
+    const badge =
+      key === 'caffe'
+        ? level === 'a1'
+          ? emmaBadge(lang)
+          : `${EMMA_UI[lang].series} · A2`
+        : `${h.badge[kind]} · ${level.toUpperCase()}`;
+    return `<a class="story-tile" href="${target}#${level}"><img src="${pre}assets/${img}" alt="${alt}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${badge}</span>
                 <h2>${title}</h2>
                 <span class="tile-meta">${h.meta(w, m)}</span>
                 <p>${h.hooks[level][key]}</p>
                 <span class="tile-structure">${structure}</span>
                 <strong>${cta}</strong></a>`;
   };
-  const today = tileList.filter((x) => x[2] === 'everyday' || x[2] === 'original');
+  const today = tileList.filter((x) => x[2] === 'everyday' || x[2] === 'original' || x[2] === 'emma');
   const fables = tileList.filter((x) => x[2] === 'fable' || x[2] === 'fairy');
   const grams =
     level === 'a1'
@@ -239,7 +295,7 @@ function levelPage(lang, level) {
   const cta = indexHtml
     .slice(indexHtml.indexOf('<section class="conversion-section'), indexHtml.lastIndexOf('</main>'))
     .trim()
-    .replace(/src="\.\.\/\.\.\/assets\//g, 'src="../../../assets/');
+    .replace(/src="(?:\.\.\/)+assets\//g, `src="${pre}assets/`);
   const section = (id, name, list) => `<section class="level-section" id="${id}">
             <div class="level-title">
               <span class="level">${level.toUpperCase()}</span>
@@ -252,7 +308,7 @@ function levelPage(lang, level) {
   const html = `<main>
       <section class="page-intro">
         <div class="container">
-          <p class="breadcrumbs"><a href="/${lang}/">${t.home}</a> / <a href="${indexUrl[lang]}">${t.readings}</a> / ${h.level} ${level.toUpperCase()}</p>
+          <p class="breadcrumbs"><a href="${home(lang)}">${t.home}</a> / <a href="${indexUrl[lang]}">${t.readings}</a> / ${h.level} ${level.toUpperCase()}</p>
           <p class="eyebrow">${h.eyebrow}</p>
           <h1>${L.h1}</h1>
           <p class="lead">
@@ -289,12 +345,21 @@ function levelPage(lang, level) {
   // Meta: si parte da quella dell'indice delle letture della stessa lingua.
   const meta = readMeta(astroOf(indexUrl[lang]));
   const urls = Object.fromEntries(ALL.map((l) => [l, levelUrl(l, level)]));
-  const items = tileList.map(([key, file], i) => ({
-    '@type': 'ListItem',
-    position: i + 1,
-    name: key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2_TITLE[lang]) : tiles[resUrl(file)[lang]].title,
-    url: SITE + (file.startsWith('letture/') ? caffeUrl[lang] : resUrl(file)[lang]) + '#' + level,
-  }));
+  const items = tileList.map(([key, file, kind], i) => {
+    if (kind === 'emma') {
+      const e = emmaTile(
+        EMMA.find((x) => x.key === key),
+        lang
+      );
+      return { '@type': 'ListItem', position: i + 1, name: e.title, url: SITE + e.url + '#a1' };
+    }
+    return {
+      '@type': 'ListItem',
+      position: i + 1,
+      name: key === 'caffe' ? (level === 'a1' ? t.caffe.title : CAFFE_A2[lang]) : tiles[resUrl(file)[lang]].title,
+      url: SITE + (file.startsWith('letture/') ? caffeUrl[lang] : resUrl(file)[lang]) + '#' + level,
+    };
+  });
   Object.assign(meta, {
     path: url.replace(/^\//, '') + 'index.html',
     title: L.seoTitle,
@@ -325,13 +390,14 @@ function levelPage(lang, level) {
     ],
     hreflangs: hreflangList(urls),
     extraHead: [],
-    assetPrefix: '../../../',
-    bodyScripts: ['<script src="../../../script.js"></script>'],
+    assetPrefix: pre,
+    brandHref: home(lang),
+    bodyScripts: [`<script src="${pre}script.js"></script>`],
     iconLinks: [
-      '<link rel="icon" href="../../../favicon.png" type="image/png">',
-      '<link rel="apple-touch-icon" href="../../../apple-touch-icon.png">',
+      `<link rel="icon" href="${pre}favicon.png" type="image/png">`,
+      `<link rel="apple-touch-icon" href="${pre}apple-touch-icon.png">`,
     ],
-    brandImgSrc: '../../../assets/martin-photo.svg',
+    brandImgSrc: `${pre}assets/martin-photo.svg`,
     optionsHtml: options(urls, lang),
   });
   const rel = url.replace(/^\//, '');
@@ -388,49 +454,70 @@ function allLevelsIndex(lang) {
   const t = T[lang];
   const p = htmlOf(indexUrl[lang]);
   let h = read(p);
-  const byUrl = Object.fromEntries(
-    Object.keys(LEVELS_OF).map((k) => [k.startsWith('letture/storia-del-caffe') ? caffeUrl[lang] : resUrl(k)[lang], k])
-  );
+  const base = indexUrl[lang];
+  const pre = prefixOf(base);
+  const ui = EMMA_UI[lang];
+
+  // 1. Si tolgono la sezione di Emma (si rifà sotto) e la scheda del bar, ovunque sia.
+  h = h.replace(/\s*<section class="level-section" id="emma">[^]*?<\/section>/, '');
+  const tileRe = /<a class="story-tile" href="([^"]*)">(?:(?!<\/a>)[^])*?<\/a>\s*/g;
+  h = h.replace(tileRe, (m, href) => (resolve(href, base) === caffeUrl[lang] ? '' : m));
+
+  // 2. Livelli veri sulle schede che restano. La categoria («Science - A1-C1», o
+  //    «Science · A2 · B1» se lo script è già passato) resta.
+  const byUrl = Object.fromEntries(Object.keys(LEVELS_OF).map((k) => [resUrl(k)[lang], k]));
   let count = 0;
   h = h.replace(
     /(<a class="story-tile" href="([^"]+)">[^]*?<span class="badge">)([^<]*)(<\/span>)/g,
-    (m, pre, href, badge, post) => {
-      const key = byUrl[decodeURI(href)];
+    (m, start, href, badge, end) => {
+      const key = byUrl[resolve(href, base)];
       if (!key) throw new Error(`${lang}: livelli mancanti per ${href}`);
       count++;
-      // La categoria («Science - A1-C1», o «Science · A2 · B1» se lo script è già passato) resta.
       const first = badge.split(/\s[-–·]\s/)[0];
       const cat = first && !/^[ABC][12]/.test(first) ? first + ' · ' : '';
-      return (
-        pre +
-        (key.endsWith('storia-del-caffe-in-italia') ? T[lang].hub.badge.everyday + ' · ' : cat) +
-        LEVELS_OF[key] +
-        post
-      );
+      return start + cat + LEVELS_OF[key] + end;
     }
   );
-  if (count !== 24) throw new Error(`${lang}: schede ${count}`);
+  if (count !== 23) throw new Error(`${lang}: schede ${count}`);
 
-  // La scheda del bar: testo nuovo e spostata fra Cultura (vicino alla pizza).
-  const caffeHref = caffeUrl[lang];
-  const tileRe = new RegExp(
-    `<a class="story-tile" href="${caffeHref.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}">[^]*?</a>\\s*`
+  // 3. Sezione «Emma in Italia» in cima: episodio 1 (il bar) e poi gli altri.
+  const card = (href, img, alt, badge, title, text) =>
+    `<a class="story-tile" href="${href}"><img src="${pre}assets/${img}" alt="${esc(alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${badge}</span>
+                <h2>${title}</h2>
+                <p>${text}</p>
+                <strong>${t.hub.cta.story}</strong></a>`;
+  const emmaCards = [
+    card(
+      caffeUrl[lang],
+      'reading-storia-caffe-italia-card.webp',
+      t.caffe.alt,
+      `${ui.series} · A1 · A2`,
+      t.caffe.title,
+      t.index.caffeDesc
+    ),
+    ...EMMA.map((ep) => {
+      const e = emmaTile(ep, lang);
+      return card(e.url, `${ep.image}-card.webp`, e.alt, emmaBadge(lang), e.title, e.hook);
+    }),
+  ];
+  const emmaSection = `<section class="level-section" id="emma">
+            <div class="level-title">
+              <span class="level">EM</span>
+              <h2>${ui.series}</h2>
+            </div>
+            <p>${ui.seriesIntro}</p>
+            <div class="story-list">
+              ${emmaCards.join('')}
+            </div>
+          </section>
+          `;
+  if (!/<section class="level-section" id="scienza">/.test(h)) throw new Error(`${lang}: sezione Scienza non trovata`);
+  h = h.replace(/<section class="level-section" id="scienza">/, emmaSection + '$&');
+  // Collegamento alla sezione fra le categorie.
+  h = h.replace(
+    /<div class="reading-cats">\s*(?:<a href="#emma">[^<]*<\/a>)?/,
+    `<div class="reading-cats"><a href="#emma">${ui.series}</a>`
   );
-  const encRe = new RegExp(
-    `<a class="story-tile" href="[^"]*">(?:(?!</a>)[^])*?reading-storia-caffe-italia-card[^]*?</a>\\s*`
-  );
-  const oldTile = (h.match(tileRe) || h.match(encRe))[0];
-  h = h.replace(oldTile, '');
-  const newTile = oldTile
-    .trim()
-    .replace(/<h2>[^<]*<\/h2>/, `<h2>${t.caffe.title}</h2>`)
-    .replace(/<p>[^<]*<\/p>/, `<p>${t.index.caffeDesc}</p>`)
-    .replace(/<strong>[^<]*<\/strong>/, `<strong>${t.hub.cta.story}</strong>`);
-  const pizzaEnd = new RegExp(
-    `(href="${resUrl('letture/come-preparare-una-pizza')[lang].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}">[^]*?</a>)`
-  );
-  if (!pizzaEnd.test(h)) throw new Error(`${lang}: scheda pizza non trovata`);
-  h = h.replace(pizzaEnd, (m) => m + newTile);
 
   // Intestazione: testo, pulsanti dei livelli (sostituisce quelli di una generazione precedente).
   h = h.replace(/\s*<nav class="level-hub-nav"[^]*?<\/nav>/, '');
@@ -444,13 +531,13 @@ function allLevelsIndex(lang) {
 
   // Elenchi B1, B2, C1.
   h = h.replace(/\s*<section class="level-section" id="(b1|b2|c1)">[^]*?<\/section>/g, '');
-  const titles = tilesOf(h);
+  const titles = tilesOf(h, base);
   const block = (lv) => {
     const L = lv.toUpperCase();
     const items = Object.entries(LEVELS_OF)
       .filter(([, v]) => v.includes(L))
       .map(([k]) => {
-        const href = k.endsWith('storia-del-caffe-in-italia') ? caffeUrl[lang] : resUrl(k)[lang];
+        const href = resUrl(k)[lang];
         return `<a href="${href}#${lv}">${titles[href].title}</a>`;
       });
     return `<section class="level-section" id="${lv}">
@@ -472,27 +559,12 @@ function allLevelsIndex(lang) {
 }
 
 // ---------------------------------------------------------------- esecuzione
-for (const lang of LANGS) {
-  caffePage(lang);
+// La pagina italiana del bar è scritta a mano (è la fonte); tutto il resto si genera in 9 lingue.
+for (const lang of LANGS) caffePage(lang);
+for (const lang of ALL) {
   allLevelsIndex(lang);
   levelPage(lang, 'a1');
   levelPage(lang, 'a2');
-}
-// Le pagine italiane per livello ricevono hreflang e selettore lingua completi.
-for (const level of ['a1', 'a2']) {
-  const p = `src/pages/letture/${level}/index.astro`;
-  const urls = Object.fromEntries(ALL.map((l) => [l, levelUrl(l, level)]));
-  let s = read(p);
-  // Accetta sia la forma scritta a mano (su più righe) sia quella già generata (su una riga).
-  s = s.replace(
-    / {2}hreflangs: (?:\[\[.*\]\]|\[[^]*?\n {2}\]),\n/,
-    `  hreflangs: ${JSON.stringify(hreflangList(urls))},\n`
-  );
-  s = s.replace(
-    / {2}optionsHtml:\n? *(?:'[^']*'|"(?:[^"\\]|\\.)*"),\n/,
-    `  optionsHtml: ${JSON.stringify(options(urls, 'it'))},\n`
-  );
-  fs.writeFileSync(p, s);
 }
 // Sitemap: una voce per ogni indice per livello.
 const sitemapPath = 'public/sitemap.xml';
