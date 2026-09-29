@@ -543,6 +543,32 @@ function allLevelsIndex(lang) {
   write(p, h);
 }
 
+
+// ---------------------------------------------------------------- 4. indice delle favole
+// Stessa barra dei livelli di /letture/: le favole classiche sono A1 · A2 · B1.
+const FABLE_NAV = {
+  it: ['Tutte le favole', 'Favole per livello'],
+  en: ['All fairy tales', 'Fairy tales by level'],
+  es: ['Todos los cuentos', 'Cuentos por nivel'],
+  fr: ['Tous les contes', 'Contes par niveau'],
+  cs: ['Všechny pohádky', 'Pohádky podle úrovně'],
+  pl: ['Wszystkie bajki', 'Bajki według poziomu'],
+  tr: ['Tüm masallar', 'Seviyeye göre masallar'],
+  de: ['Alle Märchen', 'Märchen nach Niveau'],
+  ja: ['すべての童話', 'レベル別の童話'],
+};
+const fableIndexUrl = hreflangs('src/pages/favole/index.astro');
+function fableIndex(lang) {
+  const p = htmlOf(fableIndexUrl[lang]);
+  const [all, aria] = FABLE_NAV[lang];
+  const base = lang === 'it' ? '/letture/' : indexUrl[lang];
+  const nav = `<nav class="level-hub-nav" aria-label="${aria}"><a href="${fableIndexUrl[lang]}" aria-current="page">${all}</a><a href="${base}a1/#favole">A1</a><a href="${base}a2/#favole">A2</a><a href="${base}#b1">B1</a></nav>`;
+  let h = read(p).replace(/<nav class="level-hub-nav"[^]*?<\/nav>/, '');
+  const lead = /(<section class="page-intro">[^]*?<p class="lead">[^]*?<\/p>)/;
+  if (!lead.test(h)) throw new Error(`${lang}: lead delle favole non trovato`);
+  write(p, h.replace(lead, (m) => m + nav));
+}
+
 // ---------------------------------------------------------------- esecuzione
 // La pagina italiana del bar è scritta a mano (è la fonte); tutto il resto si genera in 9 lingue.
 for (const lang of LANGS) caffePage(lang);
@@ -550,6 +576,7 @@ for (const lang of ALL) {
   allLevelsIndex(lang);
   levelPage(lang, 'a1');
   levelPage(lang, 'a2');
+  fableIndex(lang);
 }
 // Sitemap: una voce per ogni indice per livello.
 const sitemapPath = 'public/sitemap.xml';
