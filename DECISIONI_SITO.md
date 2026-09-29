@@ -695,6 +695,20 @@ Le altre 84 frasi confermate. **Regola che ne esce**: le frasi d'esempio vanno r
 - **Dati strutturati BreadcrumbList** su 745 pagine: `SiteLayout.astro` li ricava dalle briciole di pane già presenti (`.breadcrumbs`), così Google può mostrare il percorso nei risultati. I segmenti senza link (il livello «A1») restano fuori.
 - **Verifica**: audit tutti verdi, `npm run check` pulito. **Parità di migrazione: 496 differenze** (492 + 4 pagine storiche toccate dalle correzioni di sottotitoli e titoli visibili), 316 pagine extra.
 
+## 2026-09-29 - Nuovi criteri per le letture
+
+Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura sia buona deve dire qualcosa di nuovo, significativo […] l'obiettivo è focalizzarsi sulle strutture, sulla grammatica, su cose dell'italiano che lo studente può usare nella vita reale»).
+
+- Le letture vecchie (api, memoria umana, tecniche di memoria, IA, sonar, pizza, caffè) sono troppo corte (70–170 parole anche in C1), generiche e con etichette grammaticali che non corrispondono al testo. Quelle nuove (insetto, mafia, proteine, integratori, DNA, latte materno) sono elenchi di dati, con un A1 pieno di numeri e termini tecnici. Nelle favole il C1 è spesso più corto dell'A1.
+- **Abolite** le regole del 2026-08-31 «tutti i livelli contengono le stesse informazioni» e «ogni paragrafo contiene un dato concreto»: sono loro ad aver prodotto gli A1 sovraccarichi.
+- **Nuovi criteri** (dettaglio in AGENTS.md): una sorpresa o una svolta; una struttura grammaticale portante per livello, usata più volte, con etichetta veritiera e link alla lezione di grammatica; lessico comune; domande che fanno usare la struttura; lunghezze A1 120–200, A2 200–300, B1 300–450, B2 450–650, C1 600–900 parole.
+- **Si fanno solo i livelli adatti al tema** (bar e ricette A1–A2, favole A1–B1, divulgazione A2–B1, salute e sport B1–B2, mafia/IA/DNA B1–C1).
+- SEO: nessuno cerca «A1–C1». Piano: pagine indice per livello (`/letture/a1/` … in 9 lingue) prima di creare pagine separate per ogni livello, per non aggiungere pagine che Google non indicizza (117 già «rilevate ma non indicizzate»).
+- Pilota: la lettura sul caffè riscritta A1–A2 («ordinare al bar»), prima solo in italiano per approvare lo stile.
+- Modello scelto dopo il confronto con Fabulang: storie con un solo livello o con 2–3 livelli vicini, mai «A1–C1» per forza; indici per livello a griglia con immagini. Prossima crescita: la serie originale «Emma in Italia» (situazioni vere con una sorpresa).
+- Fatto in italiano: `letture/storia-del-caffe-in-italia.html` diventa «Al bar in Italia» (URL invariato; A1 «Un latte, per favore», A2 «Una settimana al bar», scheda «Le frasi vere del bar»; tolti B1–C1 e le vecchie schede sulla storia del caffè); nuova pagina `/letture/a1/` con 12 letture (il caffè, la Formichina Wow e 10 favole), dati strutturati `CollectionPage` + `ItemList`, in sitemap. Le 8 lingue e i PDF vanno allineati dopo l'approvazione di Martin.
+- `/letture/` diventa l'indice **di tutti i livelli** (come «All levels» di Fabulang): pulsanti Tutti · A1 · A2 · B1 · B2 · C1 come link veri, non filtri JavaScript; su ogni scheda i livelli consigliati al posto di «A1-C1»; in fondo gli elenchi B1, B2 e C1 (`#b1`, `#b2`, `#c1`) che portano al blocco giusto. Nuova pagina `/letture/a2/` (il caffè A2 e 10 favole). **B1, B2 e C1 avranno una pagina propria solo dopo la revisione delle letture di scienza e storia**: una pagina di livello con pochi testi deboli danneggia più di quanto aiuti.
+
 ## 2026-09-29 - Vocabolario: progresso negli indici, come nella grammatica
 
 - Richiesta di Martin: gli indici del vocabolario mostrano, come quelli della grammatica, il **progresso complessivo** e una barra su ogni lezione, nelle 9 lingue.

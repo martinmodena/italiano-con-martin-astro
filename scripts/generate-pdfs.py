@@ -377,12 +377,21 @@ def render_article(story, article, style, language, minor=False):
     block = [Paragraph(safe_markup(heading), style["h3" if minor else "h2"])]
     if focus and not minor:
         block.append(Paragraph(safe_markup(focus), style["subtitle_left"]))
-    for paragraph in article.xpath('.//div[contains(@class, "story-text")]/p'):
-        block.append(Paragraph(safe_markup(node_text(paragraph)), style["small" if minor else "body"]))
+    # phrase-list: frasi utili con spiegazioni nella lingua del visitatore (non è materiale di studio).
+    for paragraph in article.xpath('.//div[contains(@class, "story-text") or contains(@class, "phrase-list")]/p'):
+        # line_breaks: nei dialoghi ogni battuta va a capo, come sulla pagina.
+        block.append(Paragraph(safe_markup(node_text(paragraph, line_breaks=True)), style["small" if minor else "body"]))
     if minor:
         story.append(KeepTogether(block))
         return
     story.extend(block)
+    # Riquadro «La struttura di questo testo» (letture riscritte dal 2026-09-29).
+    for box in article.xpath('.//div[contains(@class, "structure-box")]'):
+        story.append(Paragraph(safe_markup(clean("".join(box.xpath("./h3[1]//text()")))), style["h3"]))
+        for item in box.xpath("./ul/li"):
+            story.append(Paragraph("• " + safe_markup(node_text(item)), style["body"]))
+        for paragraph in box.xpath("./p"):
+            story.append(Paragraph(safe_markup(node_text(paragraph)), style["body"]))
     for column in article.xpath('.//div[contains(@class, "learning-grid")]/div'):
         title = clean("".join(column.xpath("./h3[1]//text()")))
         words = column.xpath("./p[1]")
@@ -393,7 +402,7 @@ def render_article(story, article, style, language, minor=False):
             words_block(story, title, words[0], style, language)
 
 
-def cover_block(story, style, language, title, level, canonical, image):
+def cover_block(story, style, language, title, level, canonical, image, present_levels=None):
     t = strings(language)
     scope = t["levels"] if level == "all-levels" else t["level"].format(lv=level.upper())
     story.append(Paragraph(safe_markup(title), style["title"]))
@@ -402,7 +411,8 @@ def cover_block(story, style, language, title, level, canonical, image):
         story.extend([image, Spacer(1, 5 * mm)])
     story.append(Paragraph(safe_markup(t["howto"]), style["howto"]))
     if level == "all-levels":
-        story.append(Paragraph(safe_markup(" - ".join(lv.upper() for lv in LEVELS)), style["subtitle"]))
+        present = present_levels or LEVELS
+        story.append(Paragraph(safe_markup(" - ".join(lv.upper() for lv in present)), style["subtitle"]))
     if canonical:
         story.append(Paragraph(f'<link href="{canonical}" color="#b53f27"><u>{safe_markup(canonical)}</u></link>', style["small"]))
     if level == "all-levels":
@@ -419,7 +429,8 @@ def build_pdf(page, language, level, output):
     is_reading = any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts)
     story = []
     if is_reading:
-        cover_block(story, style, language, title, level, canonical, editorial_image(document, page))
+        present = [lv for lv in LEVELS if document.xpath(f'//article[@id="{lv}"]')]
+        cover_block(story, style, language, title, level, canonical, editorial_image(document, page), present)
         # Un livello per pagina; la nota finale segue l'ultimo livello.
         levels = document.xpath(f'//article[@id="{level}"]') if level != "all-levels" else document.xpath('//article[contains(concat(" ", normalize-space(@class), " "), " story-card ") and @id]')
         note = document.xpath('//article[contains(concat(" ", normalize-space(@class), " "), " story-card ") and not(@id)]')
@@ -461,7 +472,9 @@ def localized_pages():
             else:
                 target = unquote(urlparse(alternates[language]).path.lstrip("/"))
                 page = SITE / target
-            levels = [italian.relative_to(SITE).parts[1]] if category == "grammatica" else ["all-levels", *LEVELS]
+            # Dal 2026-09-29 una lettura può avere solo alcuni livelli: si stampano quelli presenti.
+            present = [lv for lv in LEVELS if source.xpath(f'//article[@id="{lv}"]')]
+            levels = [italian.relative_to(SITE).parts[1]] if category == "grammatica" else ["all-levels", *present]
             for level in levels:
                 yield page, language, level
 

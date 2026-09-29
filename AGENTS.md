@@ -53,11 +53,17 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   Controllo veloce prima di chiudere: `node scripts/audit-links.mjs --strict` e un confronto tra i file presenti in `src/html/<categoria>/` e i link presenti negli indici.
 
-- **I livelli di una lettura raccontano le stesse cose, non cose diverse.** A1, A2, B1, B2 e C1 contengono **le stesse informazioni**: cambia la lingua, non il contenuto. A1 le dice con frasi corte e parole comuni, C1 con periodi articolati e lessico preciso, ma chi legge solo A1 non deve perdersi niente di quello che sa chi legge C1. Un livello che aggiunge fatti che gli altri non hanno è un errore da correggere.
+- **Una lettura allena strutture, non lessico tecnico** (decisione 2026-09-29, sostituisce le regole del 2026-08-31 «stesse informazioni a tutti i livelli» e «un dato concreto per paragrafo»). L'obiettivo è l'italiano che lo studente usa nella vita reale. Ogni lettura deve rispettare questi criteri:
+  1. **Una sorpresa o una svolta.** Chi legge impara una cosa che non sapeva, o vive una piccola storia che cambia direzione. Una cosa ricordabile basta: niente elenchi di numeri e date. Vietate le frasi di riempimento («è importante», «è un tema perfetto per imparare…») e i commenti sul testo stesso.
+  2. **Una struttura portante per livello**, usata 6–10 volte in modo naturale. L'etichetta sotto il titolo del livello dice il vero (se dice «imperativo», il testo è pieno di imperativi) e rimanda alla lezione di grammatica corrispondente.
+  3. **Lessico comune.** Al massimo 5–6 parole legate al tema; il resto è italiano di tutti i giorni.
+  4. **Domande che fanno usare la struttura**, compresa almeno una domanda personale («Che cosa ordini tu al bar?»), mai «Riassumi l'idea principale». Le domande sono **sempre in italiano**, con la traduzione di servizio in `.q-gloss` solo per A1 e A2, e sotto ognuna c'è un riquadro per scrivere la risposta (`<textarea>` dentro il `<li>`).
+  5. **Lunghezza per livello:** A1 150–350 parole (anche di più se molto ripetitivo, come «La formichina Wow»), A2 200–350, B1 300–500, B2 450–650, C1 600–900.
+  6. **Sotto ogni livello, il riquadro «La struttura di questo testo»** (`.structure-box`): tre frasi prese dal testo, un esercizio «Prova tu» e il link alla lezione di grammatica. Modello: `letture/storia-del-caffe-in-italia.html`.
 
-  Vale anche per il resto della scheda: le parole utili di ogni livello sono prese da quel livello, e le domande verificano gli stessi fatti con formulazioni via via più difficili. Le domande sono **sempre in italiano**, con la traduzione di servizio in `.q-gloss` solo per A1 e A2, e sotto ognuna c'è un riquadro per scrivere la risposta (`<textarea>` dentro il `<li>`).
+  **Indici per livello** (`/letture/a1/`, poi A2…C1): una lettura entra nell'indice di un livello solo se quel livello rispetta i criteri qui sopra. Ogni scheda porta al blocco giusto (`#a1`) e dichiara la struttura allenata. Ogni lettura nuova va aggiunta agli indici dei suoi livelli, oltre che a quelli di categoria.
 
-  Ogni paragrafo deve contenere almeno un dato concreto: una quantità, un meccanismo, un nome. Le frasi di riempimento («è importante», «svolge un ruolo particolare») vanno sostituite dal fatto che pretendono di riassumere.
+  **I livelli condividono l'idea centrale, non tutti i dati**: un A1 non deve portarsi dietro i numeri del C1. **Si fanno solo i livelli adatti al tema**: ordinare al bar è A1–A2, la storia della mafia è B1–C1. Le parole utili di ogni livello sono prese da quel livello.
 
 - **Aggiungere parole a una scheda di vocabolario significa aggiornare tutto quello che le conta.** Una parola nuova richiede, nello stesso passaggio e in tutte e 9 le lingue: la scheda con le tre frasi d'esempio, l'esercizio «Riconosci la parola», i contatori delle due sezioni, la meta description, la scheda nell'indice del vocabolario e la soglia di `scripts/audit-vocabulary.mjs`. Ci pensa `scripts/expand-food-vocabulary.mjs`, che aggiunge anche una frase da tradurre per le parole che ne hanno una in `foodTranslationExercises`.
 

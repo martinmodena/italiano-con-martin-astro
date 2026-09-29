@@ -3,6 +3,8 @@
   <url><loc>https://italianoconmartin.com/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/privacy.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/letture/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/letture/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/letture/a2/</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://italianoconmartin.com/favole/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/vocabolario/</loc><changefreq>monthly</changefreq></url>
@@ -793,4 +795,21 @@
   <url><loc>https://italianoconmartin.com/ja/goi/italian-sea-vocabulary.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/goi/italian-living-room-vocabulary.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/goi/italian-office-vocabulary.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://italianoconmartin.com/chi-siamo/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/en/about-us/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/es/sobre-nosotros/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/fr/a-propos/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/cs/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/pl/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/tr/hakkimizda/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/de/ueber-uns/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/ja/watashitachi-ni-tsuite/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/contact/</loc><changefreq>monthly</changefreq></url></urlset>
+<url><loc>https://italianoconmartin.com/chi-siamo/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/en/about-us/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/es/sobre-nosotros/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/fr/a-propos/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/cs/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/pl/o-nas/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/tr/hakkimizda/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/de/ueber-uns/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/ja/watashitachi-ni-tsuite/</loc><changefreq>monthly</changefreq></url><url><loc>https://italianoconmartin.com/contact/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/en/readings/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/es/lecturas/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/fr/lectures/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/cs/cteni/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/pl/czytanki/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/tr/okumalar/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/de/lesetexte/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/ja/dokkai/a1/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/en/readings/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/es/lecturas/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/fr/lectures/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/cs/cteni/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/pl/czytanki/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/tr/okumalar/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/de/lesetexte/a2/</loc><changefreq>weekly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/ja/dokkai/a2/</loc><changefreq>weekly</changefreq></url>
+</urlset>

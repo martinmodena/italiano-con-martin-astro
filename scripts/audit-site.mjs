@@ -56,8 +56,7 @@ for (const resource of resources) {
         ? resource.relative
         : decodeURIComponent(new URL(italianAlternates.get(language)).pathname.replace(/^\//, ''));
     const slug = path.basename(pageRelative, '.html');
-    const levels =
-      resource.category === 'grammatica' ? [resource.relative.split('/')[1]] : ['a1', 'a2', 'b1', 'b2', 'c1'];
+    const levels = resource.category === 'grammatica' ? [resource.relative.split('/')[1]] : readingLevels(italianHtml);
     for (const level of levels) {
       const pdf = path.join(publicRoot, 'pdf', language, `${slug}-${level}.pdf`);
       if (!existsSync(pdf)) issues.push(`- MISSING_PDF | ${language} | /pdf/${language}/${slug}-${level}.pdf`);
@@ -73,11 +72,16 @@ for (const resource of resources) {
 const pdfCount = existsSync(path.join(publicRoot, 'pdf'))
   ? walk(path.join(publicRoot, 'pdf')).filter((file) => file.endsWith('.pdf')).length
   : 0;
-const readingsAndStories = resources.filter(
-  (resource) => resource.category !== 'grammatica' && !PARTIAL_RESOURCES.has(resource.relative)
-).length;
+// Una lettura ha un PDF per ogni livello che contiene, più quello completo
+// (dal 2026-09-29 non tutte le letture hanno i cinque livelli).
+const readingPdfs = resources
+  .filter((resource) => resource.category !== 'grammatica' && !PARTIAL_RESOURCES.has(resource.relative))
+  .reduce(
+    (sum, resource) => sum + readingLevels(readFileSync(path.join(publicRoot, resource.relative), 'utf8')).length + 1,
+    0
+  );
 const grammarLessons = resources.filter((resource) => resource.category === 'grammatica').length;
-const expectedPdfCount = (readingsAndStories * 6 + grammarLessons) * languages.length;
+const expectedPdfCount = (readingPdfs + grammarLessons) * languages.length;
 if (pdfCount < expectedPdfCount)
   issues.push(`- MISSING_PDF_PACKAGE | expected ${expectedPdfCount} | found ${pdfCount}`);
 
@@ -141,7 +145,7 @@ function inspectLocalizedPage(resource, language, relative, html, expectedCanoni
       $('.pdf-downloads-complete a[href$="-all-levels.pdf"]').length !== 1
     )
       issues.push(`- MISSING_COMPLETE_PDF_LINK | ${label}`);
-    for (const level of PARTIAL_RESOURCES.has(resource.relative) ? [] : ['a1', 'a2', 'b1', 'b2', 'c1']) {
+    for (const level of PARTIAL_RESOURCES.has(resource.relative) ? [] : readingLevels(italianHtml)) {
       if ($(`.story-card#${level} > .pdf-downloads-level a[href$="-${level}.pdf"]`).length !== 1)
         issues.push(`- MISPLACED_LEVEL_PDF_LINK | ${label} | ${level}`);
     }
@@ -159,6 +163,12 @@ function inspectLocalizedPage(resource, language, relative, html, expectedCanoni
   ) {
     issues.push(`- MISSING_LOCALIZED_SEO_TERM | ${label} | ${seoTerms[language]}`);
   }
+}
+
+// I livelli che la lettura italiana contiene davvero (article.story-card#a1…#c1).
+function readingLevels(html) {
+  const $ = cheerio.load(html, { decodeEntities: false });
+  return ['a1', 'a2', 'b1', 'b2', 'c1'].filter((level) => $(`.story-card#${level}`).length);
 }
 
 function readAlternates(html) {
