@@ -29,7 +29,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const [source, geometry, slugList, outputArg] = process.argv.slice(2);
 
 if (!source || !geometry || !slugList) {
-  console.error('Uso: node scripts/split-vocabulary-grid.mjs <immagine> <colonne>x<righe> <slug1,slug2,...> [cartella-uscita]');
+  console.error(
+    'Uso: node scripts/split-vocabulary-grid.mjs <immagine> <colonne>x<righe> <slug1,slug2,...> [cartella-uscita]'
+  );
   process.exit(1);
 }
 

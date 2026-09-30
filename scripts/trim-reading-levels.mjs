@@ -15,14 +15,26 @@ for (const f of fs.readdirSync('src/html/favole'))
 // «in cinque livelli» -> «in tre livelli», per lingua (solo le favole lo dicono).
 const NUMBER = {
   2: [
-    ['cinque livelli', 'due livelli'], ['five levels', 'two levels'], ['cinco niveles', 'dos niveles'],
-    ['cinq niveaux', 'deux niveaux'], ['pěti úrovních', 'dvou úrovních'], ['pięciu poziomach', 'dwóch poziomach'],
-    ['beş seviyede', 'iki seviyede'], ['fünf Niveaus', 'zwei Niveaus'], ['5つのレベル', '2つのレベル'],
+    ['cinque livelli', 'due livelli'],
+    ['five levels', 'two levels'],
+    ['cinco niveles', 'dos niveles'],
+    ['cinq niveaux', 'deux niveaux'],
+    ['pěti úrovních', 'dvou úrovních'],
+    ['pięciu poziomach', 'dwóch poziomach'],
+    ['beş seviyede', 'iki seviyede'],
+    ['fünf Niveaus', 'zwei Niveaus'],
+    ['5つのレベル', '2つのレベル'],
   ],
   3: [
-    ['cinque livelli', 'tre livelli'], ['five levels', 'three levels'], ['cinco niveles', 'tres niveles'],
-    ['cinq niveaux', 'trois niveaux'], ['pěti úrovních', 'třech úrovních'], ['pięciu poziomach', 'trzech poziomach'],
-    ['beş seviyede', 'üç seviyede'], ['fünf Niveaus', 'drei Niveaus'], ['5つのレベル', '3つのレベル'],
+    ['cinque livelli', 'tre livelli'],
+    ['five levels', 'three levels'],
+    ['cinco niveles', 'tres niveles'],
+    ['cinq niveaux', 'trois niveaux'],
+    ['pěti úrovních', 'třech úrovních'],
+    ['pięciu poziomach', 'trzech poziomach'],
+    ['beş seviyede', 'üç seviyede'],
+    ['fünf Niveaus', 'drei Niveaus'],
+    ['5つのレベル', '3つのレベル'],
   ],
 };
 
@@ -34,9 +46,9 @@ for (const [key, label] of Object.entries(keep)) {
   const first = levels[0].toUpperCase();
   const last = levels.at(-1).toUpperCase();
   const itAstro = `src/pages/${key}.html.astro`;
-  const urls = [...fs.readFileSync(itAstro, 'utf8').matchAll(/\[\s*"([a-z]{2})",\s*"https:\/\/italianoconmartin\.com\/([^"]+)"/g)].map(
-    (m) => decodeURIComponent(m[2])
-  );
+  const urls = [
+    ...fs.readFileSync(itAstro, 'utf8').matchAll(/\[\s*"([a-z]{2})",\s*"https:\/\/italianoconmartin\.com\/([^"]+)"/g),
+  ].map((m) => decodeURIComponent(m[2]));
   for (const path of urls) {
     const html = `src/html/${path}`;
     const astro = `src/pages/${path}.astro`;
@@ -49,7 +61,9 @@ for (const [key, label] of Object.entries(keep)) {
         h = h.replace(re, '');
         removed++;
       }
-      h = h.replace(/<div class="level-nav">[^]*?<\/div>/, (nav) => nav.replace(new RegExp(`<a href="#${lv}">[^<]*</a>`), ''));
+      h = h.replace(/<div class="level-nav">[^]*?<\/div>/, (nav) =>
+        nav.replace(new RegExp(`<a href="#${lv}">[^<]*</a>`), '')
+      );
       if (pdfSlug.length) fs.rmSync(`public/pdf/${pdfSlug[0]}/${pdfSlug[1]}-${lv}.pdf`, { force: true });
     }
     if (/<article class="story-card" id="(a1|a2|b1|b2|c1)"/.test(h) && drop.some((lv) => h.includes(`id="${lv}"`)))
@@ -67,7 +81,17 @@ console.log(report.join('\n'));
 console.log(`${report.length} pagine`);
 
 // Indici delle favole: ora vanno da A1 a B1 (badge, titoli, descrizioni, testo introduttivo).
-const FABLES = ['favole', 'en/stories', 'es/cuentos', 'fr/histoires', 'cs/pribehy', 'pl/historie', 'tr/hikayeler', 'de/geschichten', 'ja/monogatari'];
+const FABLES = [
+  'favole',
+  'en/stories',
+  'es/cuentos',
+  'fr/histoires',
+  'cs/pribehy',
+  'pl/historie',
+  'tr/hikayeler',
+  'de/geschichten',
+  'ja/monogatari',
+];
 const FABLE_TITLE = [
   ['beginners to advanced', 'beginners and intermediate learners'],
   ['principiantes y avanzados', 'principiantes e intermedios'],

@@ -144,9 +144,7 @@ async function convertRawImages(directory) {
 }
 
 function buildCard(word, template, language) {
-  const examples = word.examples
-    .map((sentence) => `<li><span lang="it">${escapeHtml(sentence)}</span></li>`)
-    .join('');
+  const examples = word.examples.map((sentence) => `<li><span lang="it">${escapeHtml(sentence)}</span></li>`).join('');
   return `<article class="word-card">
       <img src="${template.imagePrefix}/${word.image}.webp" alt="${escapeAttribute(word.alt[language])}" loading="lazy" decoding="async">
       <div class="word-card-body"><h2>${escapeHtml(word.word)}</h2><div class="word-examples"><strong>${escapeHtml(template.examplesLabel)}</strong><ol>
@@ -198,7 +196,12 @@ function readTemplate(html) {
     testAlt: (number) => testAltSample.replace(/\d+/, String(number)),
     existingImages: new Set(
       $('.word-card img')
-        .map((_, img) => ($(img).attr('src') ?? '').split('/').pop().replace(/\.webp$/, ''))
+        .map((_, img) =>
+          ($(img).attr('src') ?? '')
+            .split('/')
+            .pop()
+            .replace(/\.webp$/, '')
+        )
         .get()
     ),
     currentCount: $('.word-card').length,
@@ -227,8 +230,9 @@ function updateCounters(html, oldCount, newCount) {
   }
 
   updated = updated.replace(/(<progress id="word-progress" max=")\d+(")/, `$1${newCount}$2`);
-  updated = updated.replace(/(<span id="word-progress-text">)([^<]*)(<\/span>)/, (whole, open, text, close) =>
-    `${open}${text.replace(digits, String(newCount))}${close}`
+  updated = updated.replace(
+    /(<span id="word-progress-text">)([^<]*)(<\/span>)/,
+    (whole, open, text, close) => `${open}${text.replace(digits, String(newCount))}${close}`
   );
   return updated;
 }
@@ -250,7 +254,9 @@ function updateMeta(file, oldCount, newCount) {
   // il numero e' finito anche altrove: meglio fermarsi che riscrivere a caso.
   const occurrences = html.match(new RegExp(`\\b${oldCount}\\b`, 'g')) ?? [];
   if (occurrences.length !== 2) {
-    console.warn(`  ${path.relative(root, file)}: trovate ${occurrences.length} occorrenze di "${oldCount}", metadati non aggiornati`);
+    console.warn(
+      `  ${path.relative(root, file)}: trovate ${occurrences.length} occorrenze di "${oldCount}", metadati non aggiornati`
+    );
     return false;
   }
   const updated = html.replaceAll(new RegExp(`\\b${oldCount}\\b`, 'g'), String(newCount));
@@ -301,7 +307,9 @@ const stillMissing = foodVocabularyExtra.filter((word) => !ready.includes(word))
 
 if (!ready.length) {
   console.log('Nessuna immagine nuova trovata in public/assets/vocabolario/.');
-  console.log(`Mancano ${stillMissing.length} illustrazioni: ${stillMissing.map((word) => `${word.image}.webp`).join(', ')}`);
+  console.log(
+    `Mancano ${stillMissing.length} illustrazioni: ${stillMissing.map((word) => `${word.image}.webp`).join(', ')}`
+  );
   process.exit(0);
 }
 
@@ -327,9 +335,7 @@ for (const [language, config] of Object.entries(pages)) {
   if (!grid || !tests) throw new Error(`${config.lesson}: contenitori delle parole non trovati`);
 
   const cards = toAdd.map((word) => buildCard(word, template, language)).join('');
-  const newTests = toAdd
-    .map((word, index) => buildTest(word, template, template.currentCount + index))
-    .join('');
+  const newTests = toAdd.map((word, index) => buildTest(word, template, template.currentCount + index)).join('');
 
   let updated = html.slice(0, tests.contentEnd) + newTests + html.slice(tests.contentEnd);
   updated = updated.slice(0, grid.contentEnd) + cards + updated.slice(grid.contentEnd);
