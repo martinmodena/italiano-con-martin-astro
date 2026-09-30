@@ -414,26 +414,26 @@ function vocabTitle(lang, topic, n, kind) {
 
 // ------------------------------------------------------------ letture e favole
 const READING_SUFFIX = {
-  it: (t) => `${t}: lettura in italiano per stranieri A1–C1 con PDF`,
-  en: (t) => `${t}: Italian reading practice A1–C1 with PDF`,
-  es: (t) => `${t}: lectura en italiano A1–C1 con PDF`,
-  fr: (t) => `${t} : lecture en italien A1–C1 avec PDF`,
-  cs: (t) => `${t}: italský text ke čtení A1–C1 s PDF`,
-  pl: (t) => `${t}: czytanka po włosku A1–C1 z PDF`,
-  tr: (t) => `${t}: İtalyanca okuma metni A1–C1 (PDF)`,
-  de: (t) => `${t}: italienischer Lesetext A1–C1 mit PDF`,
-  ja: (t) => `${t}：イタリア語読解 A1〜C1（PDF付き）`,
+  it: (t, r) => `${t}: lettura in italiano per stranieri ${r} con PDF`,
+  en: (t, r) => `${t}: Italian reading practice ${r} with PDF`,
+  es: (t, r) => `${t}: lectura en italiano ${r} con PDF`,
+  fr: (t, r) => `${t} : lecture en italien ${r} avec PDF`,
+  cs: (t, r) => `${t}: italský text ke čtení ${r} s PDF`,
+  pl: (t, r) => `${t}: czytanka po włosku ${r} z PDF`,
+  tr: (t, r) => `${t}: İtalyanca okuma metni ${r} (PDF)`,
+  de: (t, r) => `${t}: italienischer Lesetext ${r} mit PDF`,
+  ja: (t, r) => `${t}：イタリア語読解 ${r}（PDF付き）`,
 };
 const STORY_SUFFIX = {
-  it: (t) => `${t}: favola in italiano per stranieri A1–C1 (PDF)`,
-  en: (t) => `${t}: Italian short story for learners A1–C1 (PDF)`,
-  es: (t) => `${t}: cuento en italiano para estudiantes A1–C1 (PDF)`,
-  fr: (t) => `${t} : conte en italien pour apprenants A1–C1 (PDF)`,
-  cs: (t) => `${t}: italská pohádka pro studenty A1–C1 (PDF)`,
-  pl: (t) => `${t}: włoska bajka dla uczących się A1–C1 (PDF)`,
-  tr: (t) => `${t}: öğrenciler için İtalyanca masal A1–C1 (PDF)`,
-  de: (t) => `${t}: italienisches Märchen für Lernende A1–C1 (PDF)`,
-  ja: (t) => `${t}：学習者向けイタリア語の童話 A1〜C1（PDF付き）`,
+  it: (t, r) => `${t}: favola in italiano per stranieri ${r} (PDF)`,
+  en: (t, r) => `${t}: Italian short story for learners ${r} (PDF)`,
+  es: (t, r) => `${t}: cuento en italiano para estudiantes ${r} (PDF)`,
+  fr: (t, r) => `${t} : conte en italien pour apprenants ${r} (PDF)`,
+  cs: (t, r) => `${t}: italská pohádka pro studenty ${r} (PDF)`,
+  pl: (t, r) => `${t}: włoska bajka dla uczących się ${r} (PDF)`,
+  tr: (t, r) => `${t}: öğrenciler için İtalyanca masal ${r} (PDF)`,
+  de: (t, r) => `${t}: italienisches Märchen für Lernende ${r} (PDF)`,
+  ja: (t, r) => `${t}：学習者向けイタリア語の童話 ${r}（PDF付き）`,
 };
 // «La formichina Wow» ha un solo livello e niente PDF.
 const STORY_A1_SUFFIX = {
@@ -447,26 +447,6 @@ const STORY_A1_SUFFIX = {
   de: (t) => `${t}: italienisches Märchen für Anfänger (A1)`,
   ja: (t) => `${t}：初心者向けイタリア語の童話（A1）`,
 };
-const STORY_DESCRIPTION = {
-  it: (t) =>
-    `${t}: la favola classica riscritta in italiano semplice in cinque livelli (A1–C1), con parole utili, domande di comprensione e PDF gratis.`,
-  en: (t) =>
-    `${t}: the classic tale retold in easy Italian at five levels (A1–C1), with key vocabulary, comprehension questions and a free PDF.`,
-  es: (t) =>
-    `${t}: el cuento clásico contado en italiano en cinco niveles (A1–C1), con vocabulario, preguntas de comprensión y PDF gratis.`,
-  fr: (t) =>
-    `${t} : le conte classique raconté en italien sur cinq niveaux (A1–C1), avec vocabulaire, questions de compréhension et PDF gratuit.`,
-  cs: (t) =>
-    `${t}: klasická pohádka převyprávěná italsky v pěti úrovních (A1–C1), se slovní zásobou, otázkami k porozumění a PDF zdarma.`,
-  pl: (t) =>
-    `${t}: klasyczna bajka opowiedziana po włosku na pięciu poziomach (A1–C1), ze słownictwem, pytaniami do tekstu i darmowym PDF.`,
-  tr: (t) =>
-    `${t}: beş seviyede (A1–C1) İtalyanca anlatılan klasik masal; kelimeler, anlama soruları ve ücretsiz PDF ile.`,
-  de: (t) =>
-    `${t}: die klassische Geschichte in fünf Niveaus (A1–C1) auf Italienisch erzählt, mit Wortschatz, Verständnisfragen und kostenlosem PDF.`,
-  ja: (t) => `${t}：有名なお話を5つのレベル（A1〜C1）のイタリア語で。単語、読解問題、無料PDF付き。`,
-};
-
 // ------------------------------------------------------------------ grammatica
 const GRAMMAR_MID = {
   en: (l) => `Italian grammar ${l} with exercises`,
@@ -675,77 +655,77 @@ const INDEX = {
   letture: {
     it: [
       'Letture graduate in italiano per stranieri A1–C1 (con PDF)',
-      'Testi in italiano per stranieri dal livello A1 al C1: scienza, cultura, storia e favole, ognuno in cinque livelli con parole utili, domande di comprensione e PDF gratis.',
+      'Testi in italiano per stranieri dal livello A1 al C1: scienza, cultura, storia e favole, ognuno nei livelli adatti al tema, con parole utili, domande di comprensione e PDF gratis.',
     ],
     en: [
       'Italian graded readers A1–C1: free texts with questions and PDF',
-      'Free Italian reading practice from A1 to C1: science, culture, history and fairy tales, each in five levels with key vocabulary, comprehension questions and PDF.',
+      'Free Italian reading practice from A1 to C1: science, culture, history and fairy tales, each at the levels that suit it, with key vocabulary, comprehension questions and PDF.',
     ],
     es: [
       'Lecturas graduadas en italiano A1–C1: textos gratis con PDF',
-      'Textos gratuitos en italiano del A1 al C1: ciencia, cultura, historia y cuentos, cada uno en cinco niveles con vocabulario, preguntas de comprensión y PDF.',
+      'Textos gratuitos en italiano del A1 al C1: ciencia, cultura, historia y cuentos, cada uno en los niveles adecuados, con vocabulario, preguntas de comprensión y PDF.',
     ],
     fr: [
       'Lectures graduées en italien A1–C1 : textes gratuits avec PDF',
-      'Textes gratuits en italien du niveau A1 au C1 : science, culture, histoire et contes, chacun en cinq niveaux avec vocabulaire, questions de compréhension et PDF.',
+      'Textes gratuits en italien du niveau A1 au C1 : science, culture, histoire et contes, chacun aux niveaux qui lui conviennent, avec vocabulaire, questions de compréhension et PDF.',
     ],
     cs: [
       'Italské texty ke čtení A1–C1: zdarma s PDF',
-      'Bezplatné italské texty od A1 do C1: věda, kultura, historie a pohádky, každý v pěti úrovních se slovní zásobou, otázkami k porozumění a PDF.',
+      'Bezplatné italské texty od A1 do C1: věda, kultura, historie a pohádky, každý v úrovních, které se k němu hodí, se slovní zásobou, otázkami k porozumění a PDF.',
     ],
     pl: [
       'Czytanki po włosku A1–C1: darmowe teksty z PDF',
-      'Darmowe teksty po włosku od A1 do C1: nauka, kultura, historia i bajki, każdy na pięciu poziomach, ze słownictwem, pytaniami do tekstu i PDF.',
+      'Darmowe teksty po włosku od A1 do C1: nauka, kultura, historia i bajki, każdy na odpowiednich poziomach, ze słownictwem, pytaniami do tekstu i PDF.',
     ],
     tr: [
       "Seviyeli İtalyanca okuma metinleri A1–C1: ücretsiz ve PDF'li",
-      "A1'den C1'e ücretsiz İtalyanca okuma metinleri: bilim, kültür, tarih ve masallar; her biri beş seviyede, kelimeler, anlama soruları ve PDF ile.",
+      "A1'den C1'e ücretsiz İtalyanca okuma metinleri: bilim, kültür, tarih ve masallar; her biri uygun seviyelerde, kelimeler, anlama soruları ve PDF ile.",
     ],
     de: [
       'Italienische Lesetexte A1–C1: kostenlose Texte mit PDF',
-      'Kostenlose italienische Lesetexte von A1 bis C1: Wissenschaft, Kultur, Geschichte und Märchen, jeweils in fünf Niveaus mit Wortschatz, Verständnisfragen und PDF.',
+      'Kostenlose italienische Lesetexte von A1 bis C1: Wissenschaft, Kultur, Geschichte und Märchen, jeweils in den passenden Niveaus, mit Wortschatz, Verständnisfragen und PDF.',
     ],
     ja: [
       'イタリア語のレベル別読解 A1〜C1：PDF付き無料テキスト',
-      'A1からC1までの無料イタリア語読解テキスト。科学、文化、歴史、童話を5つのレベルで、単語、読解問題、PDF付き。',
+      'A1からC1までの無料イタリア語読解テキスト。科学、文化、歴史、童話をそれぞれに合ったレベルで、単語、読解問題、PDF付き。',
     ],
   },
   favole: {
     it: [
-      'Favole in italiano per stranieri A1–C1 (con PDF)',
-      'Favole classiche riscritte in italiano semplice in cinque livelli, dall’A1 al C1: con parole utili, domande di comprensione, illustrazioni e PDF gratis.',
+      'Favole in italiano per stranieri A1–B1 (con PDF)',
+      'Favole classiche riscritte in italiano semplice in tre livelli, dall’A1 al B1: con parole utili, domande di comprensione, illustrazioni e PDF gratis.',
     ],
     en: [
-      'Italian short stories for beginners to advanced (A1–C1)',
-      'Classic fairy tales rewritten in Italian at five levels, from A1 to C1, with key vocabulary, comprehension questions, illustrations and a free PDF.',
+      'Italian short stories for beginners and intermediate learners (A1–B1)',
+      'Classic fairy tales rewritten in Italian at three levels, from A1 to B1, with key vocabulary, comprehension questions, illustrations and a free PDF.',
     ],
     es: [
-      'Cuentos en italiano para principiantes y avanzados (A1–C1)',
-      'Cuentos clásicos reescritos en italiano en cinco niveles, del A1 al C1, con vocabulario, preguntas de comprensión, ilustraciones y PDF gratis.',
+      'Cuentos en italiano para principiantes e intermedios (A1–B1)',
+      'Cuentos clásicos reescritos en italiano en tres niveles, del A1 al B1, con vocabulario, preguntas de comprensión, ilustraciones y PDF gratis.',
     ],
     fr: [
-      'Contes en italien pour débutants et avancés (A1–C1)',
-      'Contes classiques réécrits en italien sur cinq niveaux, de A1 à C1, avec vocabulaire, questions de compréhension, illustrations et PDF gratuit.',
+      'Contes en italien pour débutants et intermédiaires (A1–B1)',
+      'Contes classiques réécrits en italien sur trois niveaux, de A1 à B1, avec vocabulaire, questions de compréhension, illustrations et PDF gratuit.',
     ],
     cs: [
-      'Italské pohádky pro začátečníky i pokročilé (A1–C1)',
-      'Klasické pohádky převyprávěné italsky v pěti úrovních, od A1 do C1, se slovní zásobou, otázkami k porozumění, ilustracemi a PDF zdarma.',
+      'Italské pohádky pro začátečníky i mírně pokročilé (A1–B1)',
+      'Klasické pohádky převyprávěné italsky v třech úrovních, od A1 do B1, se slovní zásobou, otázkami k porozumění, ilustracemi a PDF zdarma.',
     ],
     pl: [
-      'Włoskie bajki dla początkujących i zaawansowanych (A1–C1)',
-      'Klasyczne bajki opowiedziane po włosku na pięciu poziomach, od A1 do C1, ze słownictwem, pytaniami do tekstu, ilustracjami i darmowym PDF.',
+      'Włoskie bajki dla początkujących i średnio zaawansowanych (A1–B1)',
+      'Klasyczne bajki opowiedziane po włosku na trzech poziomach, od A1 do B1, ze słownictwem, pytaniami do tekstu, ilustracjami i darmowym PDF.',
     ],
     tr: [
-      'Yeni başlayanlar ve ileri seviye için İtalyanca masallar (A1–C1)',
-      "Beş seviyede İtalyanca yeniden yazılmış klasik masallar, A1'den C1'e: kelimeler, anlama soruları, resimler ve ücretsiz PDF.",
+      'Yeni başlayanlar ve orta seviye için İtalyanca masallar (A1–B1)',
+      "Üç seviyede İtalyanca yeniden yazılmış klasik masallar, A1'den B1'e: kelimeler, anlama soruları, resimler ve ücretsiz PDF.",
     ],
     de: [
-      'Italienische Märchen für Anfänger und Fortgeschrittene (A1–C1)',
-      'Klassische Märchen in fünf Niveaus auf Italienisch neu erzählt, von A1 bis C1, mit Wortschatz, Verständnisfragen, Illustrationen und kostenlosem PDF.',
+      'Italienische Märchen für Anfänger und Mittelstufe (A1–B1)',
+      'Klassische Märchen in drei Niveaus auf Italienisch neu erzählt, von A1 bis B1, mit Wortschatz, Verständnisfragen, Illustrationen und kostenlosem PDF.',
     ],
     ja: [
-      '初級から上級までのイタリア語の童話（A1〜C1）',
-      '有名な童話を5つのレベル（A1〜C1）のイタリア語で。単語、読解問題、イラスト、無料PDF付き。',
+      '初級から中級までのイタリア語の童話（A1〜B1）',
+      '有名な童話を3つのレベル（A1〜B1）のイタリア語で。単語、読解問題、イラスト、無料PDF付き。',
     ],
   },
 };
@@ -823,6 +803,17 @@ function plan(p) {
     return m ? stripTags(m[1]) : null;
   };
 
+  // Livelli veri della pagina (pulsanti .level-nav del frammento): «A2–B1», in giapponese «A2〜B1».
+  const levelRange = (lang) => {
+    const html = p.htmlFile && fs.existsSync(p.htmlFile) ? fs.readFileSync(p.htmlFile, 'utf8') : '';
+    const nav = html.match(/<div class="level-nav">([\s\S]*?)<\/div>/);
+    const lv = nav ? [...nav[1].matchAll(/href="#(a1|a2|b1|b2|c1)"/g)].map((x) => x[1].toUpperCase()) : [];
+    if (!lv.length) return null;
+    const sep = lang === 'ja' ? '〜' : '–';
+    return lv.length === 1 ? lv[0] : `${lv[0]}${sep}${lv[lv.length - 1]}`;
+  };
+  const hasRange = (title, r) => title.replace(/[〜~-]/g, '–').includes(r.replace('〜', '–'));
+
   if (it === '/') return lang === 'it' ? null : { title: HOME_TITLES[lang] };
 
   let m = it.match(/^\/(grammatica|vocabolario|letture|favole)\/$/);
@@ -848,8 +839,11 @@ function plan(p) {
   if (m) {
     const t = h1();
     if (!t) return null;
+    // Titoli scritti a mano (Emma, bar, letture di scienza) o già giusti: si lasciano.
+    const r = levelRange(lang);
+    if (!r || hasRange(p.meta.title, r)) return null;
     // «Proteine: quante ne servono davvero» ha già i due punti: niente «: … :».
-    const title = READING_SUFFIX[lang](t);
+    const title = READING_SUFFIX[lang](t, r);
     return {
       title: /[:：]/.test(t)
         ? title.replace(`${t}: `, `${t} – `).replace(`${t} : `, `${t} – `).replace(`${t}：`, `${t} – `)
@@ -862,7 +856,10 @@ function plan(p) {
     const t = h1();
     if (!t) return null;
     if (m[1] === 'la-formichina-wow') return { title: STORY_A1_SUFFIX[lang](t) };
-    return { title: STORY_SUFFIX[lang](t), description: STORY_DESCRIPTION[lang](t) };
+    // Le descrizioni con il numero giusto di livelli le scrive trim-reading-levels.mjs.
+    const r = levelRange(lang);
+    if (!r || hasRange(p.meta.title, r)) return null;
+    return { title: STORY_SUFFIX[lang](t, r) };
   }
 
   m = it.match(/^\/grammatica\/(a1|a2|b1|b2|c1)\/([^/]+)\.html$/);
