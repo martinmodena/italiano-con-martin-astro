@@ -753,3 +753,12 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - _Collaborare_ c'era già nei verbi dell'ufficio: ripetuto perché Martin l'ha chiesto per nome, con la stessa foto.
 - Livello A2–B1 (non A1–A2 come le altre lezioni sui verbi): sono verbi meno elementari e con costruzioni da A2–B1. Opzione `level` nel generatore.
 - Costi: 32 foto `low` e 2 rifatte a `medium` ($0,10), testata `gemini-3-pro-image` ($0,13). Prompt in `docs/prompt-testate-e-immagini-2026-09-27.md`.
+
+## 2026-10-01 - «Il brutto anatroccolo» e «La biblioteca nell’androne»
+
+- Martin ha notato che mancava la fiaba del brutto anatroccolo e ha chiesto una lettura sui verbi di influenza: «stupiscimi, ma che sia anche realistica la storia e piacevole».
+- **«Il brutto anatroccolo»** (`favole/il-brutto-anatroccolo.html`, 9 lingue), con i criteri delle letture del 2026-09-29 e non con lo schema vecchio delle favole: **A1** aggettivi (piccoli e gialli / grande e grigio), **A2** passato prossimo e imperfetto (l’episodio del gatto e della gallina di Andersen, l’inverno nel ghiaccio), **B1** comparativi e superlativi, che finisce con la sorpresa vera: la vita di Andersen (figlio di un calzolaio povero di Odense, preso in giro, partito a 14 anni per Copenaghen), che molti lettori vedono nella fiaba.
+- **«La biblioteca nell’androne»** (`letture/la-biblioteca-nell-androne.html`, sezione Cultura, 9 lingue): un condominio di Bologna, uno scaffale vuoto, l’amministratore che lo vieta, la vicina contraria. **A2** dal punto di vista di Chiara (verbi + a / di + infinito: _convincere a, chiedere di, vietare di…_), **B1** raccontato dal signor Bruno, vecchio maestro elementare (fare / lasciare + infinito), che rivela come ha convinto la signora Ferri, sua alunna nel 1965, e perché regala i libri: non riesce più a leggere, e ora sono i ragazzi del palazzo a leggere per lui. Il riquadro rimanda alla lezione di vocabolario «I verbi di influenza», non a una lezione di grammatica (non ce n’è una su questi verbi).
+- Livelli scelti secondo il tema: fiaba A1–B1 come le altre favole; il racconto A2–B1 come la lezione di vocabolario.
+- Nessun generatore nuovo: `scripts/create-science-stories.mjs` ora accetta storie con `section` (`favole`, `cultura`) da `scripts/data/storie-it.mjs` e `storie-i18n.mjs`; `create-level-readings.mjs` le mette negli indici A1 e A2 (la fiaba fra le favole). 63 PDF nuovi.
+- Costi: due immagini `gemini-3-pro-image` ($0,27). Prompt in `docs/prompt-immagini-storie-2026-10-01.md`.

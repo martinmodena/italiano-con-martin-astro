@@ -1,5 +1,7 @@
 // Letture di scienza «che stupiscono» (2026-09-30): polpo, tardigrado, wood wide web.
-// Genera in 9 lingue le pagine (solo i livelli adatti al tema, con il riquadro
+// Dal 2026-10-01 anche le storie di storie-it.mjs con «section»: «favole» (pagina sotto
+// favole/, tessere negli indici delle favole e nella sezione Favole delle letture) e
+// «cultura» (sezione Cultura delle letture). Genera in 9 lingue le pagine (solo i livelli adatti al tema, con il riquadro
 // «La struttura di questo testo» e le fonti), le tessere nella sezione Scienza degli
 // indici delle letture e le voci della sitemap. Stesso schema di create-emma-stories.mjs.
 // Fonti: scripts/data/scienza-it.mjs (testi, parole, domande) e scienza-i18n.mjs (servizio).
@@ -9,6 +11,8 @@ import fs from 'fs';
 import path from 'path';
 import { SCIENZA } from './data/scienza-it.mjs';
 import { SCIENZA_UI, SCIENZA_I18N } from './data/scienza-i18n.mjs';
+import { STORIE } from './data/storie-it.mjs';
+import { STORIE_UI, STORIE_I18N } from './data/storie-i18n.mjs';
 import { T } from './data/letture-livelli-i18n.mjs';
 
 const SITE = 'https://italianoconmartin.com';
@@ -45,16 +49,25 @@ const htmlOf = (url) => 'src/html/' + url.replace(/^\//, '');
 const prefixOf = (url) => '../'.repeat(url.split('/').length - 2);
 
 const indexUrl = hreflangs('src/pages/letture/index.astro');
+const fableIndexUrl = hreflangs('src/pages/favole/index.astro');
+// Fiaba modello per le favole: tessere, breadcrumb e metadati si clonano da lì.
+const emperorUrl = hreflangs('src/pages/favole/i-vestiti-nuovi-dellimperatore.html.astro');
 const caffeUrl = hreflangs('src/pages/letture/storia-del-caffe-in-italia.html.astro');
-const gram = (g) => hreflangs(`src/pages/grammatica/${g}.html.astro`);
+const gram = (g) =>
+  hreflangs(g.startsWith('vocabolario/') ? `src/pages/${g}.html.astro` : `src/pages/grammatica/${g}.html.astro`);
 const home = (lang) => (lang === 'it' ? '/' : `/${lang}/`);
 
+export const STORIES = [...SCIENZA, ...STORIE];
+const I18N = { ...SCIENZA_I18N, ...STORIE_I18N };
+export const isFable = (r) => r.section === 'favole';
 export const scienceUrl = (r, lang) =>
-  lang === 'it' ? `/${r.file}.html` : indexUrl[lang] + SCIENZA_I18N[r.key][lang].slug + '.html';
+  lang === 'it' ? `/${r.file}.html` : (isFable(r) ? fableIndexUrl : indexUrl)[lang] + I18N[r.key][lang].slug + '.html';
 // Dati localizzati della lettura (titolo, gancio, testo alternativo, livello).
-export const scienceText = (r, lang) => (lang === 'it' ? r : SCIENZA_I18N[r.key][lang]);
+export const scienceText = (r, lang) => (lang === 'it' ? r : I18N[r.key][lang]);
 export const scienceLevel = (r, lang, id) =>
-  lang === 'it' ? r.levels.find((l) => l.id === id) : SCIENZA_I18N[r.key][lang][id];
+  lang === 'it' ? r.levels.find((l) => l.id === id) : I18N[r.key][lang][id];
+// Categoria nell'occhiello e nelle tessere: «Scienza», «Fiaba», «Cultura»…
+export const sectionLabel = (r, lang) => (r.section ? STORIE_UI[lang][r.section] : SCIENZA_UI[lang].science);
 export const levelsLabel = (r) => r.levels.map((l) => l.id.toUpperCase()).join(' · ');
 
 const urlsOf = (r) => Object.fromEntries(ALL.map((l) => [l, scienceUrl(r, l)]));
@@ -82,7 +95,7 @@ const IT_LABELS = {
 
 function levelCard(r, lv, lang, slug) {
   const t = lang === 'it' ? IT_LABELS : T[lang];
-  const tr = lang === 'it' ? null : SCIENZA_I18N[r.key][lang][lv.id];
+  const tr = lang === 'it' ? null : I18N[r.key][lang][lv.id];
   const itAttr = lang === 'it' ? '' : ' lang="it"';
   const L = lv.id.toUpperCase();
   const gloss = tr && (lv.id === 'a1' || lv.id === 'a2');
@@ -125,7 +138,13 @@ function page(r, lang) {
   const url = scienceUrl(r, lang);
   const slug = path.basename(url, '.html');
   const pre = prefixOf(url);
-  const sources = `<article class="story-card">
+  // Le favole tornano all'indice delle favole, con l'etichetta presa dalla fiaba modello.
+  const crumb = isFable(r)
+    ? read(htmlOf(emperorUrl[lang])).match(/<p class="breadcrumbs">(?:(?!<\/p>)[^])*?<\/a> \/ (<a [^>]*>[^<]*<\/a>)/)[1]
+    : `<a href="${indexUrl[lang]}">${t.readings}</a>`;
+  const sources = !r.sources
+    ? ''
+    : `<article class="story-card">
         <header><div><span class="level">${ui.sourcesLabel}</span><h2>${ui.sourcesTitle}</h2></div><p>${ui.sourcesSub}</p></header>
         <div class="story-text">
           ${r.sources.map((s) => `<p${lang === 'it' ? '' : ' lang="it"'}>${amp(s)}</p>`).join('\n          ')}
@@ -134,10 +153,10 @@ function page(r, lang) {
   const html = `<main>
   <section class="story-hero">
     <div class="container">
-      <p class="breadcrumbs"><a href="${home(lang)}">${t.home}</a> / <a href="${indexUrl[lang]}">${t.readings}</a> / ${x.title}</p>
+      <p class="breadcrumbs"><a href="${home(lang)}">${t.home}</a> / ${crumb} / ${x.title}</p>
       <div class="story-hero-grid">
         <div>
-          <p class="eyebrow">${ui.science} · ${levelsLabel(r)}</p>
+          <p class="eyebrow">${sectionLabel(r, lang)} · ${levelsLabel(r)}</p>
           <h1>${x.title}</h1>
           <p class="lead">${x.lead}</p>
           <div class="level-nav">${r.levels.map((l) => `<a href="#${l.id}">${l.id.toUpperCase()}</a>`).join('')}</div><div class="pdf-downloads pdf-downloads-complete" aria-label="${t.pdfAria}"><a class="button secondary" href="/pdf/${lang}/${slug}-all-levels.pdf" download="">${t.pdfAll}</a></div>
@@ -160,7 +179,7 @@ function page(r, lang) {
   write(htmlOf(url), html);
 
   // Meta: si parte da quella di «Al bar in Italia» nella stessa lingua (stessa cartella).
-  const meta = readMeta(astroOf(caffeUrl[lang]));
+  const meta = readMeta(astroOf((isFable(r) ? emperorUrl : caffeUrl)[lang]));
   const urls = urlsOf(r);
   const image = `${SITE}/assets/${r.image}.webp`;
   Object.assign(meta, {
@@ -218,6 +237,47 @@ function indexTiles(lang) {
   const p = htmlOf(indexUrl[lang] + 'index.html');
   let h = read(p);
   const pre = prefixOf(indexUrl[lang]);
+  // Cultura: in testa alla sezione, con la stessa tessera delle letture di scienza.
+  for (const r of STORIE.filter((x) => x.section === 'cultura')) {
+    if (h.includes(`${path.basename(scienceUrl(r, lang))}"`)) continue;
+    const m = h.match(/<a class="story-tile" href="[^"]*(?:sonar|ソナー)[^"]*\.html">(?:(?!<\/a>)[^])*?<\/a>/);
+    const x = scienceText(r, lang);
+    const tile = m[0]
+      .replace(/href="[^"]*"/, `href="${lang === 'it' ? path.basename(scienceUrl(r, lang)) : scienceUrl(r, lang)}"`)
+      .replace(/src="[^"]*"/, `src="${pre}assets/${r.image}-card.webp"`)
+      .replace(/alt="[^"]*"/, `alt="${esc(x.alt)}"`)
+      .replace(/<span class="badge">[^<]*/, `<span class="badge">${sectionLabel(r, lang)} · ${levelsLabel(r)}`)
+      .replace(/<h2>[^]*?<\/h2>/, `<h2>${x.title}</h2>`)
+      .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
+    const start = h.indexOf('<div class="story-list">', h.indexOf('<section class="level-section" id="cultura">'));
+    if (start < 0) throw new Error(`${lang}: sezione Cultura non trovata`);
+    const at = h.indexOf('>', start) + 1;
+    h = h.slice(0, at) + '\n              ' + tile + h.slice(at);
+  }
+  // Favole: subito dopo la fiaba dell'imperatore, qui e nell'indice delle favole.
+  h = fableTiles(h);
+  const fp = htmlOf(fableIndexUrl[lang] + 'index.html');
+  write(fp, fableTiles(read(fp)));
+  function fableTiles(html) {
+    const emp = path.basename(emperorUrl[lang]);
+    for (const r of STORIE.filter(isFable).reverse()) {
+      const file = path.basename(scienceUrl(r, lang));
+      if (html.includes(`${file}"`)) continue;
+      const m = html.match(new RegExp(`<a class="story-tile" href="[^"]*${emp}">(?:(?!</a>)[^])*?</a>`));
+      if (!m) throw new Error(`${lang}: tessera dell'imperatore non trovata`);
+      const x = scienceText(r, lang);
+      const tile = m[0]
+        .replace(emp, file)
+        .replace(/src="([^"]*\/)[^"/]*"/, `src="$1${r.image}-card.webp"`)
+        .replace(/alt="[^"]*"/, `alt="${esc(x.alt)}"`)
+        .replace(/<span class="badge">[^<]*/, `<span class="badge">${levelsLabel(r)}`)
+        .replace(/<h2>[^]*?<\/h2>/, `<h2>${x.title}</h2>`)
+        .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
+      const at = html.indexOf(m[0]) + m[0].length;
+      html = html.slice(0, at) + tile + html.slice(at);
+    }
+    return html;
+  }
   const m = h.match(/<a class="story-tile" href="[^"]*(?:sonar|ソナー)[^"]*\.html">(?:(?!<\/a>)[^])*?<\/a>/);
   if (!m) throw new Error(`${lang}: tessera del sonar non trovata`);
   const tiles = SCIENZA.filter((r) => !h.includes(`${path.basename(scienceUrl(r, lang))}"`)).map((r) => {
@@ -231,7 +291,7 @@ function indexTiles(lang) {
       .replace(/<h2>[^]*?<\/h2>/, `<h2>${x.title}</h2>`)
       .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
   });
-  if (!tiles.length) return;
+  if (!tiles.length) return write(p, h);
   const start = h.indexOf('<div class="story-list">', h.indexOf('<section class="level-section" id="scienza">'));
   if (start < 0) throw new Error(`${lang}: sezione Scienza non trovata`);
   const at = h.indexOf('>', start) + 1;
@@ -241,12 +301,12 @@ function indexTiles(lang) {
 
 if (process.argv[1] && process.argv[1].endsWith('create-science-stories.mjs')) {
   for (const lang of ALL) {
-    for (const r of SCIENZA) page(r, lang);
+    for (const r of STORIES) page(r, lang);
     indexTiles(lang);
   }
   const sitemapPath = 'public/sitemap.xml';
   let sitemap = read(sitemapPath);
-  for (const r of SCIENZA)
+  for (const r of STORIES)
     for (const lang of ALL) {
       const loc = SITE + encodeURI(scienceUrl(r, lang));
       if (!sitemap.includes(`<loc>${loc}</loc>`))
@@ -257,7 +317,7 @@ if (process.argv[1] && process.argv[1].endsWith('create-science-stories.mjs')) {
     }
   fs.writeFileSync(sitemapPath, sitemap);
   // Conteggio parole per livello, per controllare le lunghezze dei criteri.
-  for (const r of SCIENZA)
+  for (const r of STORIES)
     for (const lv of r.levels) {
       const n = lv.text
         .join(' ')
@@ -266,5 +326,5 @@ if (process.argv[1] && process.argv[1].endsWith('create-science-stories.mjs')) {
         .filter((w) => /\p{L}/u.test(w)).length;
       console.log(`  ${r.key} ${lv.id}: ${n} parole`);
     }
-  console.log(`Letture di scienza: ${SCIENZA.length} in ${ALL.length} lingue.`);
+  console.log(`Letture e storie: ${STORIES.length} in ${ALL.length} lingue.`);
 }

@@ -12,9 +12,15 @@ import { LANGS, T, A1_TILES, A2_TILES, CAFFE_A2_TITLE, READING_LEVELS } from './
 import { EMMA } from './data/emma-it.mjs';
 import { EMMA_UI, EMMA_I18N } from './data/emma-i18n.mjs';
 import { episodeUrl, seriesNav } from './create-emma-stories.mjs';
-import { SCIENZA } from './data/scienza-it.mjs';
-import { SCIENZA_UI } from './data/scienza-i18n.mjs';
-import { scienceUrl, scienceText, scienceLevel, levelsLabel } from './create-science-stories.mjs';
+import {
+  STORIES,
+  isFable,
+  sectionLabel,
+  scienceUrl,
+  scienceText,
+  scienceLevel,
+  levelsLabel,
+} from './create-science-stories.mjs';
 
 const SITE = 'https://italianoconmartin.com';
 const FLAGS = {
@@ -102,8 +108,13 @@ const scienceTile = (r, lang, level) => {
     minutes: Math.max(1, Math.round(words / 120)),
   };
 };
-const scienceAt = (level) =>
-  SCIENZA.filter((r) => r.levels.some((l) => l.id === level)).map((r) => [r.key, r.file, 'science']);
+// Letture di scienza e storie del 2026-10-01: le fiabe («sfable») vanno fra le favole.
+const scienceAt = (level, fables = false) =>
+  STORIES.filter((r) => isFable(r) === fables && r.levels.some((l) => l.id === level)).map((r) => [
+    r.key,
+    r.file,
+    fables ? 'sfable' : 'science',
+  ]);
 const emmaBadge = (lang) => `${EMMA_UI[lang].series} · A1`;
 const emmaStructure = (ep, lang) => {
   const ex = EMMA_I18N[ep.key].expl;
@@ -269,8 +280,14 @@ function levelPage(lang, level) {
   // Poi le letture di scienza del livello.
   const tileList =
     level === 'a1'
-      ? [A1_TILES[0], ...EMMA.map((ep) => [ep.key, ep.file, 'emma']), ...scienceAt('a1'), ...A1_TILES.slice(1)]
-      : [A2_TILES[0], ...scienceAt('a2'), ...A2_TILES.slice(1)];
+      ? [
+          A1_TILES[0],
+          ...EMMA.map((ep) => [ep.key, ep.file, 'emma']),
+          ...scienceAt('a1'),
+          ...A1_TILES.slice(1),
+          ...scienceAt('a1', true),
+        ]
+      : [A2_TILES[0], ...scienceAt('a2'), ...A2_TILES.slice(1), ...scienceAt('a2', true)];
   const tile = ([key, file, kind, w, m, forms, expl]) => {
     if (kind === 'emma') {
       const e = emmaTile(
@@ -284,18 +301,15 @@ function levelPage(lang, level) {
                 <span class="tile-structure">${emmaStructure(e.ep, lang)}</span>
                 <strong>${h.cta.story}</strong></a>`;
     }
-    if (kind === 'science') {
-      const s = scienceTile(
-        SCIENZA.find((x) => x.key === key),
-        lang,
-        level
-      );
-      return `<a class="story-tile" href="${s.url}#${level}"><img src="${pre}assets/${SCIENZA.find((x) => x.key === key).image}-card.webp" alt="${esc(s.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${SCIENZA_UI[lang].science} · ${level.toUpperCase()}</span>
+    if (kind === 'science' || kind === 'sfable') {
+      const r = STORIES.find((x) => x.key === key);
+      const s = scienceTile(r, lang, level);
+      return `<a class="story-tile" href="${s.url}#${level}"><img src="${pre}assets/${r.image}-card.webp" alt="${esc(s.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${sectionLabel(r, lang)} · ${level.toUpperCase()}</span>
                 <h2>${s.title}</h2>
                 <span class="tile-meta">${h.meta(s.words, s.minutes)}</span>
                 <p>${s.hook}</p>
                 <span class="tile-structure">${h.structure}: <span lang="it">${s.structure}</span></span>
-                <strong>${h.cta.story}</strong></a>`;
+                <strong>${kind === 'sfable' ? h.cta.fairy : h.cta.story}</strong></a>`;
     }
     const target = key === 'caffe' ? caffeUrl[lang] : resUrl(file)[lang];
     const info = tiles[target];
@@ -319,7 +333,7 @@ function levelPage(lang, level) {
                 <strong>${cta}</strong></a>`;
   };
   const today = tileList.filter((x) => ['everyday', 'original', 'emma', 'science'].includes(x[2]));
-  const fables = tileList.filter((x) => x[2] === 'fable' || x[2] === 'fairy');
+  const fables = tileList.filter((x) => ['fable', 'fairy', 'sfable'].includes(x[2]));
   const grams =
     level === 'a1'
       ? [
@@ -392,8 +406,8 @@ function levelPage(lang, level) {
       );
       return { '@type': 'ListItem', position: i + 1, name: e.title, url: SITE + e.url + '#a1' };
     }
-    if (kind === 'science') {
-      const r = SCIENZA.find((x) => x.key === key);
+    if (kind === 'science' || kind === 'sfable') {
+      const r = STORIES.find((x) => x.key === key);
       return {
         '@type': 'ListItem',
         position: i + 1,
@@ -479,7 +493,7 @@ function navHtml(lang, current) {
 
 // ---------------------------------------------------------------- 3. indice di tutti i livelli
 const LEVELS_OF = { ...READING_LEVELS };
-for (const r of SCIENZA) LEVELS_OF[r.file] = levelsLabel(r);
+for (const r of STORIES) LEVELS_OF[r.file] = levelsLabel(r);
 for (const f of fs.readdirSync('src/html/favole'))
   if (f !== 'index.html' && !LEVELS_OF['favole/' + f.replace('.html', '')])
     LEVELS_OF['favole/' + f.replace('.html', '')] = 'A1 · A2 · B1';
@@ -512,7 +526,7 @@ function allLevelsIndex(lang) {
       return start + cat + LEVELS_OF[key] + end;
     }
   );
-  if (count !== 23 + SCIENZA.length) throw new Error(`${lang}: schede ${count}`);
+  if (count !== 23 + STORIES.length) throw new Error(`${lang}: schede ${count}`);
 
   // 3. Sezione «Emma in Italia» in cima: episodio 1 (il bar) e poi gli altri.
   const card = (href, img, alt, badge, title, text) =>
