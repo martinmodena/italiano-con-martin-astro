@@ -738,3 +738,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Stesso schema della serie di Emma: `scripts/create-science-stories.mjs` con dati in `scripts/data/scienza-it.mjs` e `scienza-i18n.mjs`; negli indici per livello le letture di scienza compaiono fra le «Storie di oggi» (A1, A2) e negli elenchi B1–C1 di `/letture/`. Testate `gemini-3-pro-image` ($0,40 in tutto), prompt in `docs/prompt-immagini-letture-scienza-2026-09-30.md`.
 - `scripts/seo-boost.mjs` riscriveva i titoli di letture e favole con «A1–C1» e gli indici con «cinque livelli»: ora legge i livelli veri dai pulsanti `.level-nav` di ogni pagina, lascia stare i titoli che li contengono già (Emma, bar, letture di scienza, titoli scritti a mano) e ha negli indici gli stessi testi scritti da `trim-reading-levels.mjs`. Rilanciato: ha corretto 22 titoli giapponesi rimasti a «A1〜C1».
 - Nuovo `scripts/fix-reading-meta-levels.mjs` (idempotente): 32 pagine avevano ancora nella descrizione livelli che la pagina non ha («dal livello A1 al C1», «A1'den C1'e», «A1 から C1», le favole giapponesi «3つのレベル（A1〜C1）»), sfuggite a `trim-reading-levels.mjs` perché scritte in altro modo. Sostituisce i livelli con quelli veri.
+
+## 2026-10-01 - Descrizioni giapponesi riscritte a mano
+
+- Molte descrizioni giapponesi (description, og:description, twitter:description) erano traduzioni automatiche goffe o sbagliate: «ベリーダンス» (danza del ventre) per la danza delle api, «評価» (valutazione) per «lettura graduata», «仮説期間» per periodo ipotetico, «イタリア料理の単語» per gli oggetti della cucina, «回復» per il recupero dei ricordi, «5段階» per una favola a 3 livelli.
+- `scripts/fix-ja-descriptions.mjs` (idempotente) le riscrive in 15 pagine: 7 letture, gli indici di letture e vocabolario, una favola, 3 lezioni di grammatica, 2 di vocabolario. Le letture seguono lo schema «argomento + livelli + 単語、読解問題、無料PDF付き».
+- Le descrizioni giapponesi nuove si scrivono a mano, non con la traduzione automatica.
