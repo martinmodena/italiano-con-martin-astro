@@ -78,6 +78,7 @@
  *   scripts/data/mountain-verbs.mjs      i verbi della montagna; mountain-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/sport-verbs.mjs         i verbi dello sport; sport-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/sea-verbs.mjs           i verbi del mare; sea-verbs-pages.mjs pagina, nota e intro dell'esercizio
+ *   scripts/data/influence-verbs.mjs     i verbi di influenza; influence-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/sport-vocabulary.mjs    lo sport; sport-pages.mjs la sua pagina
  *   scripts/data/house-verbs.mjs          i verbi della casa; house-verbs-pages.mjs pagina, nota e intro dell'esercizio
  *   scripts/data/relations-verbs.mjs      i verbi delle relazioni; relations-pages.mjs pagina e testi dell'esercizio
@@ -153,6 +154,8 @@ import { sportVerbs, sportVerbTranslationExercises } from './data/sport-verbs.mj
 import { sportVerbPages, sportVerbUi } from './data/sport-verbs-pages.mjs';
 import { seaVerbs, seaVerbTranslationExercises } from './data/sea-verbs.mjs';
 import { seaVerbPages, seaVerbUi } from './data/sea-verbs-pages.mjs';
+import { influenceVerbs, influenceVerbTranslationExercises } from './data/influence-verbs.mjs';
+import { influenceVerbPages, influenceVerbUi } from './data/influence-verbs-pages.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 import { sportVocabulary, sportTranslationExercises, sportExampleWord } from './data/sport-vocabulary.mjs';
 import { sportPages } from './data/sport-pages.mjs';
@@ -587,6 +590,28 @@ const lessons = {
       ...relationUi[lang],
       note: seaVerbUi[lang].note,
       positive: { ...relationUi[lang].positive, ...seaVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
+  },
+  'verbi-influenza': {
+    id: 'verbi-influenza',
+    kind: 'match',
+    // Come i verbi della citta': una foto per riga, i verbi scritti nella barra.
+    photoRows: true,
+    pages: influenceVerbPages,
+    hero: 'verbi-influenza-hero.webp',
+    words: influenceVerbs,
+    translations: influenceVerbTranslationExercises,
+    exampleWord: null,
+    bank: influenceVerbs,
+    bankPage: influenceVerbPages,
+    bankLessonId: 'verbi-influenza',
+    seeds: [2461, 2462],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: influenceVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...influenceVerbUi[lang].positive },
       ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
     }),
   },

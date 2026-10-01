@@ -744,3 +744,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Molte descrizioni giapponesi (description, og:description, twitter:description) erano traduzioni automatiche goffe o sbagliate: «ベリーダンス» (danza del ventre) per la danza delle api, «評価» (valutazione) per «lettura graduata», «仮説期間» per periodo ipotetico, «イタリア料理の単語» per gli oggetti della cucina, «回復» per il recupero dei ricordi, «5段階» per una favola a 3 livelli.
 - `scripts/fix-ja-descriptions.mjs` (idempotente) le riscrive in 15 pagine: 7 letture, gli indici di letture e vocabolario, una favola, 3 lezioni di grammatica, 2 di vocabolario. Le letture seguono lo schema «argomento + livelli + 単語、読解問題、無料PDF付き».
 - Le descrizioni giapponesi nuove si scrivono a mano, non con la traduzione automatica.
+
+## 2026-10-01 - Lezione «I verbi di influenza»
+
+- Richiesta di Martin: una scheda di vocabolario con i verbi di influenza (obbligare, collaborare, incoraggiare, ostacolare, impedire…), «molto importanti». Fatta con 33 verbi di tutti i giorni in sei gruppi (spingere a fare, imporre, frenare, insieme, rispondere, di nascosto), in 9 lingue, all'URL `vocabolario/verbi-influenza.html`, subito dopo «I verbi delle relazioni» negli indici.
+- Nome «I verbi di influenza», con le parole di Martin; la nota della pagina ricorda che _l'influenza_ è anche la malattia.
+- La nota insegna la costruzione che serve davvero con questi verbi: _convincere qualcuno a fare_ (lo) contro _consigliare a qualcuno di fare_ (gli), _impedire di_, _dare retta a_.
+- _Collaborare_ c'era già nei verbi dell'ufficio: ripetuto perché Martin l'ha chiesto per nome, con la stessa foto.
+- Costi: 32 foto `low` e 2 rifatte a `medium` ($0,10), testata `gemini-3-pro-image` ($0,13). Prompt in `docs/prompt-testate-e-immagini-2026-09-27.md`.

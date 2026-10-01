@@ -298,6 +298,17 @@ const VOCAB = {
     'Verben rund um den Körper auf Italienisch',
     '体を使うイタリア語の動詞',
   ],
+  'verbi-influenza': [
+    'I verbi di influenza in italiano',
+    'Verbs of influence in Italian',
+    'Verbos de influencia en italiano',
+    'Les verbes d’influence en italien',
+    'Slovesa vlivu italsky',
+    'Czasowniki wpływu po włosku',
+    'İtalyanca etki fiilleri',
+    'Verben des Einflusses auf Italienisch',
+    '人に働きかけるイタリア語の動詞',
+  ],
   'verbi-mare': [
     'I verbi del mare in italiano',
     'Beach and sea verbs in Italian',

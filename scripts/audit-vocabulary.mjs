@@ -398,6 +398,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-meer.html',
     ja: 'ja/goi/italian-sea-verbs-vocabulary.html',
   },
+  'verbi-influenza': {
+    count: 33,
+    tests: 0,
+    match: { positive: 33 },
+    it: 'vocabolario/verbi-influenza.html',
+    en: 'en/vocabulary/italian-influence-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-influencia-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-d-influence-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-vlivu.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-wplywu.html',
+    tr: 'tr/kelime-bilgisi/italyanca-etki-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-einfluss.html',
+    ja: 'ja/goi/italian-influence-verbs-vocabulary.html',
+  },
   cibo: {
     count: 72,
     it: 'vocabolario/cibo.html',
@@ -536,6 +550,7 @@ for (const lesson of [
   'sport',
   'verbi-sport',
   'verbi-mare',
+  'verbi-influenza',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

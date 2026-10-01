@@ -125,6 +125,12 @@ A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 g
 A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one seaside activity clearly on the Italian coast: two children building a sandcastle on a sunny beach, a young woman snorkelling underwater among small colourful fish, a small white sailing boat with a big sail on a blue sea, two laughing children jumping over a small wave at the shore, an old fisherman with a fishing rod sitting on a wooden pier, a couple seen from behind sitting on the sand watching an orange sunset over the sea. No brand logos, no text.
 ```
 
+### `verbi-influenza-hero` (2026-10-01)
+
+```
+A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one way people influence each other: a smiling father running beside his little daughter who rides a bicycle for the first time, cheering her on; a friendly woman doctor gently shaking her head at a patient holding a big bottle of fizzy drink; a basketball defender with arms raised blocking an opponent on an outdoor court; a team of young colleagues stacking their hands together in the middle of a circle; a mother firmly pointing at a plate of broccoli while her reluctant little son pouts with crossed arms; a museum guard raising her open hand to stop a tourist taking a photo of a painting. <FINE>
+```
+
 Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [prompt-immagini-corpo.md](./prompt-immagini-corpo.md).
 
 Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
@@ -141,26 +147,27 @@ A bright, natural, photorealistic photograph of a sunny Sunday morning at a publ
 
 Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stile comune (fondo bianco, niente testo, niente carne…) è in `scripts/generate-animal-images.mjs`. Modello `gpt-image-1-mini`, qualità `low` salvo dove indicato.
 
-| Lezione                  | File dati                              | `--set`          | Stile           |
-| ------------------------ | -------------------------------------- | ---------------- | --------------- |
-| I mestieri               | `scripts/data/jobs-vocabulary.mjs`     | `mestieri`       | `JOB_STYLE`     |
-| Le persone intorno a noi | `scripts/data/people-vocabulary.mjs`   | `persone`        | `PEOPLE_STYLE`  |
-| I verbi delle relazioni  | `scripts/data/relations-verbs.mjs`     | `relazioni`      | `PEOPLE_STYLE`  |
-| Il tempo e le stagioni   | `scripts/data/weather-vocabulary.mjs`  | `tempo`          | `WEATHER_STYLE` |
-| La casa                  | `scripts/data/house-vocabulary.mjs`    | `casa`           | `HOUSE_STYLE`   |
-| I verbi della casa       | `scripts/data/house-verbs.mjs`         | `verbi-casa`     | `PEOPLE_STYLE`  |
-| La città                 | `scripts/data/city-vocabulary.mjs`     | `citta`          | `CITY_STYLE`    |
-| La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`       | `WEATHER_STYLE` |
-| I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta`    | `PEOPLE_STYLE`  |
-| Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`       | `EMOTION_STYLE` |
-| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`         | `SCHOOL_STYLE`  |
-| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`        | `OFFICE_STYLE`  |
-| I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`   | `PEOPLE_STYLE`  |
-| I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`  | `PEOPLE_STYLE`  |
-| I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna` | `PEOPLE_STYLE`  |
-| Lo sport                 | `scripts/data/sport-vocabulary.mjs`    | `sport`          | `SPORT_STYLE`   |
-| I verbi dello sport      | `scripts/data/sport-verbs.mjs`         | `verbi-sport`    | `PEOPLE_STYLE`  |
-| I verbi del mare         | `scripts/data/sea-verbs.mjs`           | `verbi-mare`     | `PEOPLE_STYLE`  |
+| Lezione                  | File dati                              | `--set`           | Stile           |
+| ------------------------ | -------------------------------------- | ----------------- | --------------- |
+| I mestieri               | `scripts/data/jobs-vocabulary.mjs`     | `mestieri`        | `JOB_STYLE`     |
+| Le persone intorno a noi | `scripts/data/people-vocabulary.mjs`   | `persone`         | `PEOPLE_STYLE`  |
+| I verbi delle relazioni  | `scripts/data/relations-verbs.mjs`     | `relazioni`       | `PEOPLE_STYLE`  |
+| Il tempo e le stagioni   | `scripts/data/weather-vocabulary.mjs`  | `tempo`           | `WEATHER_STYLE` |
+| La casa                  | `scripts/data/house-vocabulary.mjs`    | `casa`            | `HOUSE_STYLE`   |
+| I verbi della casa       | `scripts/data/house-verbs.mjs`         | `verbi-casa`      | `PEOPLE_STYLE`  |
+| La città                 | `scripts/data/city-vocabulary.mjs`     | `citta`           | `CITY_STYLE`    |
+| La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`        | `WEATHER_STYLE` |
+| I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta`     | `PEOPLE_STYLE`  |
+| Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`        | `EMOTION_STYLE` |
+| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`          | `SCHOOL_STYLE`  |
+| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`         | `OFFICE_STYLE`  |
+| I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`    | `PEOPLE_STYLE`  |
+| I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`   | `PEOPLE_STYLE`  |
+| I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna`  | `PEOPLE_STYLE`  |
+| Lo sport                 | `scripts/data/sport-vocabulary.mjs`    | `sport`           | `SPORT_STYLE`   |
+| I verbi dello sport      | `scripts/data/sport-verbs.mjs`         | `verbi-sport`     | `PEOPLE_STYLE`  |
+| I verbi del mare         | `scripts/data/sea-verbs.mjs`           | `verbi-mare`      | `PEOPLE_STYLE`  |
+| I verbi di influenza     | `scripts/data/influence-verbs.mjs`     | `verbi-influenza` | `PEOPLE_STYLE`  |
 
 Procedura completa per una lezione:
 
@@ -189,3 +196,4 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - `sport`: il 2026-09-27 le prime 18 foto (gli sport, lo stadio, il campo), poi i crediti di OpenRouter sono finiti; il 2026-09-28 le altre 27 ($0,07). Tutte con `--whiten`, nessun ritocco. `arbitro` è stata **rifiutata dal filtro di sicurezza** con «a whistle in his mouth»; con il fischietto appeso al collo è passata. Attenzione: `--set sport` salta le foto già presenti in `public/`, non quelle già nella cartella `--out-dir`: rilanciandolo per una sola foto fallita le rifà tutte (meglio `--only <slug>`).
   - `verbi-sport` (2026-09-28): 37 foto `low` ($0,10), tutte con `--whiten`; remare e fare-surf chieste subito come foto rotonde (l'acqua sparirebbe nel bianco). Rifatte a `medium` con il soggetto riscritto ($0,02): fare-una-capriola (la prima era una verticale con due adulti che guardavano) e tagliare-il-traguardo (c'era la scritta «FINISH» per terra: ora un arco di palloncini e «no letters and no words anywhere»).
   - `verbi-mare` (2026-09-28): 30 foto `low` ($0,08), tutte con `--whiten`; le 18 scene con molta acqua chieste subito come foto rotonde (costante `ROUND` nel file dati). Rifatte a `medium` ($0,02): infrangersi (il modello aveva disegnato quattro persone in piedi: ora «a seascape with no people at all») e scottarsi (la scottatura si vedeva poco: ora di schiena, con il segno bianco della canottiera).
+  - `verbi-influenza` (2026-10-01): 32 foto `low` ($0,08; collaborare riusa `verbi-ufficio/collaborare`), tutte con `--whiten`. Rifatte a `medium` ($0,02): fare-pressione (sul contratto c'era una finta scritta: ora «a completely blank white sheet… no letters and no words anywhere») e punire (sembrava «sgridare»: ora la mamma tiene in alto il controller sequestrato). Testata $0,13.

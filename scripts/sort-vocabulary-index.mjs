@@ -29,6 +29,7 @@ export const ORDER = [
   'famiglia',
   'persone',
   'verbi-relazioni',
+  'verbi-influenza',
   'mestieri',
   'abbigliamento',
   // la casa e il cibo

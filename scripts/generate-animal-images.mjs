@@ -21,6 +21,7 @@
 //   - «I verbi della montagna» (scene come le persone)                -> --set verbi-montagna
 //   - «I verbi dello sport» (scene come le persone)                   -> --set verbi-sport
 //   - «I verbi del mare» (scene come le persone, l'acqua in foto rotonde) -> --set verbi-mare
+//   - «I verbi di influenza» (scene con piu' persone)                 -> --set verbi-influenza
 //   - «Lo sport» (come la scuola: oggetti ritagliati, luoghi in un cerchio) -> --set sport
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
@@ -74,6 +75,7 @@ import { officeVerbs } from './data/office-verbs.mjs';
 import { mountainVerbs } from './data/mountain-verbs.mjs';
 import { sportVerbs } from './data/sport-verbs.mjs';
 import { seaVerbs } from './data/sea-verbs.mjs';
+import { influenceVerbs } from './data/influence-verbs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const assetsDir = path.join(root, 'public/assets/vocabolario');
@@ -131,10 +133,11 @@ const sets = {
   'verbi-montagna': mountainVerbs,
   'verbi-sport': sportVerbs,
   'verbi-mare': seaVerbs,
+  'verbi-influenza': influenceVerbs.filter((w) => w.subject),
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -238,6 +241,7 @@ const STYLE =
     'verbi-montagna': PEOPLE_STYLE,
     'verbi-sport': PEOPLE_STYLE,
     'verbi-mare': PEOPLE_STYLE,
+    'verbi-influenza': PEOPLE_STYLE,
     tempo: WEATHER_STYLE,
     montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;
