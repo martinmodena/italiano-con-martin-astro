@@ -751,4 +751,5 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Nome «I verbi di influenza», con le parole di Martin; la nota della pagina ricorda che _l'influenza_ è anche la malattia.
 - La nota insegna la costruzione che serve davvero con questi verbi: _convincere qualcuno a fare_ (lo) contro _consigliare a qualcuno di fare_ (gli), _impedire di_, _dare retta a_.
 - _Collaborare_ c'era già nei verbi dell'ufficio: ripetuto perché Martin l'ha chiesto per nome, con la stessa foto.
+- Livello A2–B1 (non A1–A2 come le altre lezioni sui verbi): sono verbi meno elementari e con costruzioni da A2–B1. Opzione `level` nel generatore.
 - Costi: 32 foto `low` e 2 rifatte a `medium` ($0,10), testata `gemini-3-pro-image` ($0,13). Prompt in `docs/prompt-testate-e-immagini-2026-09-27.md`.

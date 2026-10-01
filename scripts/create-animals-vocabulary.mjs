@@ -606,6 +606,7 @@ const lessons = {
     bank: influenceVerbs,
     bankPage: influenceVerbPages,
     bankLessonId: 'verbi-influenza',
+    level: ['A2', 'B1'],
     seeds: [2461, 2462],
     uiFor: (lang) => ({
       ...traitUi[lang],
@@ -1094,6 +1095,10 @@ function buildPage(lesson, lang) {
   out = out.replace(/(<h1>)[^<]*(<\/h1>)/, `$1${escapeHtml(page.name)}$2`);
   out = out.replace(/cucina-hero\.webp/g, lesson.hero);
   if (kitchenHeroAlt) out = out.replace(escapeAttribute(kitchenHeroAlt), escapeAttribute(page.heroAlt));
+  // Livello nell'occhiello della testata: la cucina dice «A1–A2»; `level: ['A2', 'B1']` lo cambia
+  // (i verbi di influenza, 2026-10-01).
+  if (lesson.level)
+    out = out.replace(/(<p class="eyebrow">[^<]*?)A1(\s*[–～~-]\s*)A2/, `$1${lesson.level[0]}$2${lesson.level[1]}`);
 
   // 5. la parola d'esempio citata nel testo dell'esercizio e nella nota finale
   //    (nelle lezioni con trascinamento la nota e' gia' stata sostituita).
