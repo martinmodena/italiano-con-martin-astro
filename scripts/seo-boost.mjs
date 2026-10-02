@@ -741,14 +741,14 @@ const INDEX = {
   },
 };
 const HOME_TITLES = {
-  en: 'Online Italian lessons with native teachers, €12 | Italiano con Martin',
-  es: 'Clases de italiano online con profesores nativos, 12 € | Italiano con Martin',
-  fr: 'Cours d’italien en ligne avec des professeurs natifs, 12 € | Italiano con Martin',
-  cs: 'Lekce italštiny online s rodilými mluvčími, 12 € | Italiano con Martin',
-  pl: 'Lekcje włoskiego online z native speakerami, 12 € | Italiano con Martin',
-  tr: 'Anadili İtalyanca öğretmenlerle online İtalyanca dersleri, 12 € | Italiano con Martin',
-  de: 'Italienischunterricht online mit Muttersprachlern, 12 € | Italiano con Martin',
-  ja: 'ネイティブ講師のオンラインイタリア語レッスン（12ユーロ） | Italiano con Martin',
+  en: 'Online Italian lessons with native teachers, €14 | Italiano con Martin',
+  es: 'Clases de italiano online con profesores nativos, 14 € | Italiano con Martin',
+  fr: 'Cours d’italien en ligne avec des professeurs natifs, 14 € | Italiano con Martin',
+  cs: 'Lekce italštiny online s rodilými mluvčími, 14 € | Italiano con Martin',
+  pl: 'Lekcje włoskiego online z native speakerami, 14 € | Italiano con Martin',
+  tr: 'Anadili İtalyanca öğretmenlerle online İtalyanca dersleri, 14 € | Italiano con Martin',
+  de: 'Italienischunterricht online mit Muttersprachlern, 14 € | Italiano con Martin',
+  ja: 'ネイティブ講師のオンラインイタリア語レッスン（14ユーロ） | Italiano con Martin',
 };
 
 // ------------------------------------------------------------------- motore

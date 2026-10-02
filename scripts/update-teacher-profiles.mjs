@@ -16,7 +16,7 @@ const profiles = {
     martinCta: "View Martin's profile",
     liciaCta: "View Licia's profile",
     lessonLabel: 'per lesson',
-    lessonMeta: 'Private lessons at 12 euros each.',
+    lessonMeta: 'Private lessons at 14 euros each.',
   },
   es: {
     title: 'Aprende italiano con Martin y Licia',
@@ -31,7 +31,7 @@ const profiles = {
     martinCta: 'Ver el perfil de Martin',
     liciaCta: 'Ver el perfil de Licia',
     lessonLabel: 'por clase',
-    lessonMeta: 'Clases individuales por 12 euros.',
+    lessonMeta: 'Clases individuales por 14 euros.',
   },
   fr: {
     title: 'Apprenez l’italien avec Martin et Licia',
@@ -46,7 +46,7 @@ const profiles = {
     martinCta: 'Voir le profil de Martin',
     liciaCta: 'Voir le profil de Licia',
     lessonLabel: 'par cours',
-    lessonMeta: 'Cours individuels à 12 euros.',
+    lessonMeta: 'Cours individuels à 14 euros.',
   },
   cs: {
     title: 'Učte se italsky s Martinem a Licií',
@@ -60,7 +60,7 @@ const profiles = {
     martinCta: 'Profil Martina',
     liciaCta: 'Profil Licie',
     lessonLabel: 'za lekci',
-    lessonMeta: 'Individuální lekce za 12 eur.',
+    lessonMeta: 'Individuální lekce za 14 eur.',
   },
   pl: {
     title: 'Ucz się włoskiego z Martinem i Licią',
@@ -75,7 +75,7 @@ const profiles = {
     martinCta: 'Profil Martina',
     liciaCta: 'Profil Licii',
     lessonLabel: 'za lekcję',
-    lessonMeta: 'Indywidualne lekcje za 12 euro.',
+    lessonMeta: 'Indywidualne lekcje za 14 euro.',
   },
   tr: {
     title: 'Martin ve Licia ile İtalyanca öğrenin',
@@ -90,7 +90,7 @@ const profiles = {
     martinCta: 'Martin profilini gör',
     liciaCta: 'Licia profilini gör',
     lessonLabel: 'ders başına',
-    lessonMeta: 'Bireysel dersler 12 euro.',
+    lessonMeta: 'Bireysel dersler 14 euro.',
   },
   de: {
     title: 'Italienisch lernen mit Martin und Licia',
@@ -119,7 +119,7 @@ const profiles = {
     martinCta: 'Martinのプロフィール',
     liciaCta: 'Liciaのプロフィール',
     lessonLabel: '1レッスン',
-    lessonMeta: '1レッスン12ユーロの個人レッスンです。',
+    lessonMeta: '1レッスン14ユーロの個人レッスンです。',
   },
 };
 

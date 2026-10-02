@@ -762,3 +762,7 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Livelli scelti secondo il tema: fiaba A1–B1 come le altre favole; il racconto A2–B1 come la lezione di vocabolario.
 - Nessun generatore nuovo: `scripts/create-science-stories.mjs` ora accetta storie con `section` (`favole`, `cultura`) da `scripts/data/storie-it.mjs` e `storie-i18n.mjs`; `create-level-readings.mjs` le mette negli indici A1 e A2 (la fiaba fra le favole). 63 PDF nuovi.
 - Costi: due immagini `gemini-3-pro-image` ($0,27). Prompt in `docs/prompt-immagini-storie-2026-10-01.md`.
+
+## 2026-10-02 - Tariffa a 14 €
+
+- **Tariffa: 14 € per entrambi gli insegnanti** (prima 12 €). Cambiata in ogni punto in cui compariva, con gli stessi formati locali della decisione del 2026-08-25: hero, schede insegnante, pagine «Chi siamo», title, meta description, Open Graph e JSON-LD, in tutte e 9 le lingue (`src/html/` e `src/pages/`), più gli script di manutenzione `scripts/seo-boost.mjs`, `scripts/sync-english-home.mjs`, `scripts/update-teacher-journey.mjs` e `scripts/update-teacher-profiles.mjs`, che altrimenti reintrodurrebbero 12 €.
