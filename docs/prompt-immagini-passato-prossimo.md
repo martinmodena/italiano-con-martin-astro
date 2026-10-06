@@ -1,13 +1,15 @@
 # Testate delle lezioni A2 sul passato prossimo (2026-10-06)
 
-Le prime lezioni di grammatica con una testata. Martin: «per la testata puoi spendere un po' di più, deve essere di qualità». Modello `google/gemini-3-pro-image` (circa $0,13 l'una), 16:9, 1280×720, senza tessera (le tessere della grammatica non hanno immagini).
+Le prime lezioni di grammatica con una testata. Martin: «per la testata puoi spendere un po' di più, deve essere di qualità». Modello `google/gemini-3-pro-image` (circa $0,13 l'una), 16:9, 1280×720, senza tessera (le tessere della grammatica non hanno immagini). Il prompt si passa con `--prompt`: con `--prompt-file` lo script prenderebbe il primo blocco di questo file, cioè il comando.
+
+La prima generazione è andata persa perché lo script non creava la cartella `assets/grammatica/` (corretto lo stesso giorno); le immagini pubblicate sono la seconda generazione, accettate al primo colpo. Costo totale $0,54, di cui $0,27 perse.
 
 ## «Il passato prossimo» — `public/assets/grammatica/passato-prossimo-hero.webp`
 
 Idea: le tracce di cose appena fatte (un viaggio appena finito), cioè azioni concluse.
 
 ```
-node scripts/generate-image.mjs --slug grammatica/passato-prossimo-hero --hero-width 1280 --hero-height 720 --no-card --prompt-file docs/prompt-immagini-passato-prossimo.md
+node scripts/generate-image.mjs --slug grammatica/passato-prossimo-hero --hero-width 1280 --hero-height 720 --no-card --prompt "<il blocco qui sotto>"
 ```
 
 ```

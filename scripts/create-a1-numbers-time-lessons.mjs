@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 // Crea le lezioni A1 «I numeri», «Che ore sono?», «Giorni, mesi e date» e (2026-10-06)
-// «Gli avverbi di frequenza»
+// «Gli avverbi di frequenza»; sempre il 2026-10-06 le lezioni A2 «Il passato prossimo» (rifatta agli
+// stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata.
+// Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
+// (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
+// tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
+// Con --only slug1,slug2 riscrive solo le pagine di quelle lezioni.
 // in tutte e 9 le lingue: frammenti in src/html, pagine .astro, tessere negli
 // indici di grammatica, voci in public/sitemap.xml e in grammar-seo-*.mjs.
 //
@@ -25,6 +30,10 @@ import date from './data/lezioni-a1/giorni-mesi-date.mjs';
 import dateI18n from './data/lezioni-a1/giorni-mesi-date-i18n.mjs';
 import avverbi from './data/lezioni-a1/avverbi-di-frequenza.mjs';
 import avverbiI18n from './data/lezioni-a1/avverbi-di-frequenza-i18n.mjs';
+import passato from './data/lezioni-a2/passato-prossimo.mjs';
+import passatoI18n from './data/lezioni-a2/passato-prossimo-i18n.mjs';
+import participi from './data/lezioni-a2/participi-passati-irregolari.mjs';
+import participiI18n from './data/lezioni-a2/participi-passati-irregolari-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -213,9 +222,14 @@ const lessons = [
   { ...ore, strings: { it: ore.it, ...oreI18n } },
   { ...date, strings: { it: date.it, ...dateI18n } },
   { ...avverbi, strings: { it: avverbi.it, ...avverbiI18n } },
+  { ...passato, strings: { it: passato.it, ...passatoI18n } },
+  { ...participi, strings: { it: participi.it, ...participiI18n } },
 ];
+const onlyArg = process.argv.indexOf('--only');
+const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
 for (const lesson of lessons) {
   lesson.slugs = { it: lesson.slug, ...lesson.slugs };
+  lesson.level ??= 'a1';
   const keys = Object.keys(lesson.strings.it).filter((key) => !['crumb', 'cardTitle'].includes(key));
   for (const lang of LANGS) {
     if (!lesson.strings[lang]) throw new Error(`${lesson.slug}: mancano i testi ${lang}`);
@@ -230,11 +244,12 @@ for (const lesson of lessons) {
 
 const localSlug = (lang, italianSlug) =>
   lessons.find((l) => l.slug === italianSlug)?.slugs[lang] ?? grammarSeoSlugs[lang]?.[italianSlug] ?? italianSlug;
-const pagePath = (lang, italianSlug, level = 'a1') =>
+const levelOf = (italianSlug, fallback = 'a1') => lessons.find((l) => l.slug === italianSlug)?.level ?? fallback;
+const pagePath = (lang, italianSlug, level = levelOf(italianSlug)) =>
   `${lang === 'it' ? '' : `${lang}/`}${DIR[lang]}/${level}/${localSlug(lang, italianSlug)}.html`;
 const attr = (s) => String(s).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
 
-function helpers(lang) {
+function helpers(lang, ownLevel = 'a1') {
   let counter = 0;
   const translate = (dictionary, key, what) => {
     if (lang === 'it') return key;
@@ -261,6 +276,9 @@ function helpers(lang) {
     dialogue: (lines) =>
       `<div class="dialogue" lang="it">${lines.map(([who, text]) => `<p><strong>${who}:</strong> ${text}</p>`).join('')}</div>`,
     nav: (key) => translate(NAV_LABELS, key, 'voce di navigazione'),
+    // Link a un'altra lezione di grammatica (slug italiano e livello).
+    href: (slug, level) =>
+      lang === 'it' ? `${level === ownLevel ? '' : `../${level}/`}${slug}.html` : `/${pagePath(lang, slug, level)}`,
     count: () => counter,
   };
 }
@@ -275,20 +293,31 @@ function ctaSection(lang) {
 function buildFragment(lesson, lang) {
   const L = lesson.strings[lang];
   const c = COMMON[lang];
-  const h = helpers(lang);
+  const h = helpers(lang, lesson.level);
   const body = lesson.body(L, h, c);
   const total = h.count();
-  if (total !== 30) throw new Error(`${lesson.slug}: ${total} esercizi invece di 30`);
+  const expected = lesson.exerciseCount ?? 30;
+  if (total !== expected) throw new Error(`${lesson.slug}: ${total} esercizi invece di ${expected}`);
+  const LV = lesson.level.toUpperCase();
   const crumbs =
     lang === 'it'
-      ? `<a href="../../">Home</a> / <a href="../">Grammatica</a> / A1 / ${L.crumb ?? L.h1}`
-      : `<a href="/${lang}/">${c.home}</a> / <a href="/${lang}/${DIR[lang]}/">${c.grammar}</a> / A1 / ${L.h1}`;
+      ? `<a href="../../">Home</a> / <a href="../">Grammatica</a> / ${LV} / ${L.crumb ?? L.h1}`
+      : `<a href="/${lang}/">${c.home}</a> / <a href="/${lang}/${DIR[lang]}/">${c.grammar}</a> / ${LV} / ${L.h1}`;
   const nav = lesson.nav.map(([id, key]) => `<a href="#${id}">${h.nav(key)}</a>`).join('');
-  const pdf = `/pdf/${lang}/${localSlug(lang, lesson.slug)}-a1.pdf`;
-  const nextHref = lesson.next ? (lang === 'it' ? `${lesson.next}.html` : `/${pagePath(lang, lesson.next)}`) : '../';
+  const pdf = `/pdf/${lang}/${localSlug(lang, lesson.slug)}-${lesson.level}.pdf`;
+  const nextLevel = levelOf(lesson.next, lesson.level);
+  const nextHref = !lesson.next
+    ? '../'
+    : lang === 'it'
+      ? `${nextLevel === lesson.level ? '' : `../${nextLevel}/`}${lesson.next}.html`
+      : `/${pagePath(lang, lesson.next, nextLevel)}`;
+  // Stili in linea: grammar-lesson.css non ha versione e i browser lo terrebbero in cache.
+  const hero = lesson.hero
+    ? `<figure style="margin:26px 0 0"><img src="/assets/${lesson.hero.src}" alt="${attr(L.heroAlt)}" width="${lesson.hero.width}" height="${lesson.hero.height}" decoding="async" loading="eager" fetchpriority="high" style="display:block;width:100%;height:auto;border-radius:24px"></figure>`
+    : '';
   const actions = `<div class="score-card"><div><strong>${c.result}</strong><p id="score-text">${c.score(total)}</p></div><strong id="score-percent">0%</strong></div><div class="exercise-actions"><button class="reset-btn" id="reset-exercises" type="button">${c.reset}</button><a class="button primary" href="${nextHref}">${lesson.next ? c.next : c.back}</a></div>`;
   let html = `<main>
-  <section class="page-intro"><div class="container lesson-shell"><p class="breadcrumbs">${crumbs}</p><p class="eyebrow">${c.eyebrow}</p><h1>${L.h1}</h1><p class="lead">${L.lead}</p><div class="lesson-meta"><span>${c.minutes(lesson.minutes)}</span><span>${c.exercises(total)}</span><span>${c.level}</span></div><div class="lesson-nav">${nav}</div><div class="pdf-downloads" aria-label="${PDF_DOWNLOADS[lang]}"><a class="button secondary" href="${pdf}" download="">PDF A1</a></div></div></section>
+  <section class="page-intro"><div class="container lesson-shell"><p class="breadcrumbs">${crumbs}</p><p class="eyebrow">${c.eyebrow.replace('A1', LV)}</p><h1>${L.h1}</h1><p class="lead">${L.lead}</p><div class="lesson-meta"><span>${c.minutes(lesson.minutes)}</span><span>${c.exercises(total)}</span><span>${c.level.replace('A1', LV)}</span></div>${hero}<div class="lesson-nav">${nav}</div><div class="pdf-downloads" aria-label="${PDF_DOWNLOADS[lang]}"><a class="button secondary" href="${pdf}" download="">PDF ${LV}</a></div></div></section>
   <section class="section compact-top"><div class="container lesson-shell">
 ${body.replace('{{ACTIONS}}', actions)}
   </div></section>
@@ -306,10 +335,11 @@ function buildAstro(lesson, lang) {
   const meta = JSON.parse(source.match(/const meta = (\{[\s\S]*?\n\});/)[1]);
   const own = pagePath(lang, lesson.slug);
   const canonical = `${SITE}/${own}`;
+  const LV = lesson.level.toUpperCase();
   const title =
     lang === 'it'
-      ? `${L.h1} - livello A1 | Italiano con Martin`
-      : `${L.h1} | ${SEO_TERM[lang]} A1 | Italiano con Martin`;
+      ? `${L.h1} - livello ${LV} | Italiano con Martin`
+      : `${L.h1} | ${SEO_TERM[lang]} ${LV} | Italiano con Martin`;
   meta.path = own;
   meta.title = title;
   meta.description = L.description;
@@ -321,6 +351,7 @@ function buildAstro(lesson, lang) {
     'twitter:title': title,
     'twitter:description': L.description,
   };
+  if (lesson.hero) og['og:image'] = og['twitter:image'] = `${SITE}/assets/${lesson.hero.src}`;
   meta.og = meta.og.map(([key, value]) => [key, og[key] ?? value]);
   if (meta.jsonld.length)
     meta.jsonld = [
@@ -360,7 +391,7 @@ function write(file, content) {
 }
 
 // 1. frammenti e pagine
-for (const lesson of lessons) {
+for (const lesson of lessons.filter((l) => !only || only.includes(l.slug))) {
   for (const lang of LANGS) {
     const own = pagePath(lang, lesson.slug);
     write(path.join(ROOT, 'src/html', own), buildFragment(lesson, lang));
@@ -378,15 +409,24 @@ for (const lang of LANGS) {
   let anchor = html.split('\n').findIndex((line) => line.includes(`href="${anchorHref}"`));
   if (anchor < 0) throw new Error(`indice ${lang}: tessera di riferimento non trovata`);
   const lines = html.split('\n');
+  const hrefOf = (slug) => (lang === 'it' ? `${levelOf(slug)}/${slug}.html` : `/${pagePath(lang, slug)}`);
   for (const lesson of lessons) {
     const L = lesson.strings[lang];
-    const href = lang === 'it' ? `a1/${lesson.slug}.html` : `/${pagePath(lang, lesson.slug)}`;
-    if (html.includes(`href="${href}"`)) {
-      anchor = lines.findIndex((line) => line.includes(`href="${href}"`));
+    const href = hrefOf(lesson.slug);
+    let card = `          <a class="lesson-card ready" href="${href}"><span class="status">${COMMON[lang].status}</span><h3>${L.cardTitle ?? L.h1}</h3><p>${L.card}</p></a>`;
+    if (lang === 'it') card = card.replace(/<span lang="it">([^<]*)<\/span>/g, '$1');
+    if (lesson.after) {
+      anchor = lines.findIndex((line) => line.includes(`href="${hrefOf(lesson.after)}"`));
+      if (anchor < 0) throw new Error(`indice ${lang}: tessera ${lesson.after} non trovata`);
+    }
+    const existing = lines.findIndex((line) => line.includes(`href="${href}"`));
+    if (existing >= 0) {
+      // Una lezione rifatta (il passato prossimo) aggiorna il testo della tessera che c'era già.
+      if (lesson.level !== 'a1') lines[existing] = card;
+      anchor = existing;
       continue;
     }
-    const card = `          <a class="lesson-card ready" href="${href}"><span class="status">${COMMON[lang].status}</span><h3>${L.cardTitle ?? L.h1}</h3><p>${L.card}</p></a>`;
-    lines.splice(anchor + 1, 0, lang === 'it' ? card.replace(/<span lang="it">([^<]*)<\/span>/g, '$1') : card);
+    lines.splice(anchor + 1, 0, card);
     anchor += 1;
     cards += 1;
   }
@@ -400,15 +440,15 @@ const sitemapLines = readFileSync(sitemapFile, 'utf8').split('\n');
 const xmlEscape = (s) => s.replace(/[^\x20-\x7e]/g, (ch) => `&#x${ch.codePointAt(0).toString(16)};`);
 let urls = 0;
 for (const lang of LANGS) {
-  const prefix = `${SITE}/${lang === 'it' ? '' : `${lang}/`}${DIR[lang]}/a1/`;
   for (const lesson of lessons) {
+    const prefix = `${SITE}/${lang === 'it' ? '' : `${lang}/`}${DIR[lang]}/${lesson.level}/`;
     const loc = xmlEscape(`${SITE}/${pagePath(lang, lesson.slug)}`);
     if (sitemapLines.some((line) => line.includes(`<loc>${loc}</loc>`))) continue;
     let last = -1;
     sitemapLines.forEach((line, i) => {
       if (line.includes(`<loc>${prefix}`)) last = i;
     });
-    if (last < 0) throw new Error(`sitemap ${lang}: nessuna lezione A1`);
+    if (last < 0) throw new Error(`sitemap ${lang}: nessuna lezione ${lesson.level}`);
     sitemapLines.splice(last + 1, 0, `  <url><loc>${loc}</loc><changefreq>monthly</changefreq></url>`);
     urls += 1;
   }

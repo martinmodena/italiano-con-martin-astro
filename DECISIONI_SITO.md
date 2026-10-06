@@ -803,3 +803,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Escluse di proposito _fiera_ (anche in italiano vuol dire «orgogliosa»), _lepre_ (_lèpre_ = lebbra) e _bara_ (_bar_): immagini poco adatte. La nota cita i falsi amici a metà (_vite_ = vis e vigne, _attendere_ / _aspettare_) e un vero amico (_fiero_).
 - Immagini: 20 vignette nuove più _cantina_ riusata dall'inglese; _tasca_ e _mancia_ rifatte (tazza in mano, monete nel palmo). Circa $0,19. Prompt in `docs/prompt-immagini-falsi-amici-fr.md`.
 - Il generatore accetta `colon` nella pagina: in francese prima dei due punti va uno spazio insecabile.
+
+## 2026-10-06 - Il passato prossimo rifatto e i participi passati irregolari
+
+- Richiesta di Martin: il passato prossimo era spiegato poco e mancavano le liste dei participi; servivano «la lista dei participi passati regolari ed irregolari con 100 esercizi». Proposta accettata: **due lezioni A2** con 50 esercizi ciascuna, invece di una pagina sola, perché «participi passati irregolari» è una ricerca a sé su Google.
+- «Il passato prossimo» è stata rifatta **agli stessi URL** nelle 9 lingue: quando si usa, come si forma, 30 participi regolari, i 20 irregolari più frequenti con l'ausiliare, essere o avere (con il trucco dell'oggetto e i verbi di movimento che vogliono avere), accordo, verbi con due ausiliari, posizione di _non_, _già_, _mai_ e dei pronomi, errori tipici, 50 esercizi in cinque parti.
+- «I participi passati irregolari» (nuova): **100 verbi** divisi per gruppi (-tto, -so, -sso, -sto, -rto, -nto, -lto, -otto/-osto/-atto, casi speciali), ognuno con ausiliare ed esempio; una sezione sui verbi in _-urre_, _-orre_, _-arre_ (chiesta da Martin: «hai previsto anche i casi con "urre" come tradurre?») che spiega l'infinito accorciato (_traducere_, _ponere_, _facere_, _dicere_, _bevere_); i verbi composti; 50 esercizi. Nell'indice sta subito dopo il passato prossimo.
+- **Prime lezioni di grammatica con una testata**, illustrazioni di qualità (Martin: «per la testata puoi spendere un po' di più»): `gemini-3-pro-image`, $0,27 per due. Prompt in `docs/prompt-immagini-passato-prossimo.md`.
+- `generate-image.mjs` non creava la sottocartella di uno slug come `grammatica/…`: le prime due immagini, già pagate ($0,27), sono andate perse. Ora la crea prima di salvare.
