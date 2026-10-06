@@ -789,3 +789,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - 21 parole (burro, caldo, camino, imbarazzata, salire, subire, topo, aceto, largo, guardare, carta, pronto, seta, cara, rumore, polpo, tirare, primo, vaso, officina, contestare), approvate da Martin. Escluse di proposito _gamba_ (pesce in immagine), _nudo_ (immagine di nudo) ed _esposa_ (ambigua).
 - Ogni scheda: la parola italiana, che cosa vuol dire, l'avviso «lo que en español es…, en italiano se dice…», due frasi italiane (una per significato). Esercizio «¿Cómo se dice en italiano?» con 21 domande.
 - Immagini: vignette ad acquerello con `gpt-image-1-mini` a qualità `medium` (21 vignette più 2 rifatte, $0,20). Dove il doppio senso non sta in una scena sola (guardare, carta, tirare, contestare) l'immagine è divisa in due con le bandiere. Testata a collage. Prompt in `docs/prompt-immagini-falsi-amici.md`.
+
+## 2026-10-06 - Falsi amici italiano-inglese
+
+- Seconda pagina dei falsi amici, `en/vocabulary/italian-english-false-friends.html`, stesso schema dello spagnolo: 21 parole (camera, parenti, libreria, fattoria, stampa, confetti, magazzino, educato, annoiare, pretendere, rumore, estate, pavimento, cantina, bravo, caldo, fame, casino, morbido, argomento, sensibile).
+- Escluse di proposito _preservativo_ (immagine poco adatta) e _lunatico_ (offende chi ha una malattia mentale). _Attualmente_ ed _eventualmente_, che non si disegnano, sono spiegati nella nota.
+- _Caldo_ non somiglia a _cold_ ma lo confonde chi legge la C sui rubinetti italiani: l'esercizio chiede _freddo_.
+- Immagini: 20 vignette nuove più _rumore_ riusata dallo spagnolo; _fame_ rifatta due volte (la diva sembrava incinta, poi la pizza aveva il salame piccante: regola «niente carne»). Circa $0,19. Prompt in `docs/prompt-immagini-falsi-amici-en.md`.

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Crea la pagina dei falsi amici di una lingua (2026-10-06, per ora solo lo spagnolo).
+// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo e inglese).
 //
 // A differenza delle altre lezioni, la pagina esiste in UNA lingua sola: i falsi amici fra italiano e
 // spagnolo non sono quelli fra italiano e inglese. Quindi niente versione italiana né hreflang verso le
@@ -18,6 +18,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { falseFriendsEs, falseFriendsEsPage } from './data/false-friends-es.mjs';
+import { falseFriendsEn, falseFriendsEnPage } from './data/false-friends-en.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 
 const root = process.cwd();
@@ -35,7 +36,10 @@ const INDEX = {
   ja: 'ja/goi',
 };
 
-const LESSONS = [{ lang: 'es', words: falseFriendsEs, page: falseFriendsEsPage }];
+const LESSONS = [
+  { lang: 'es', words: falseFriendsEs, page: falseFriendsEsPage },
+  { lang: 'en', words: falseFriendsEn, page: falseFriendsEnPage },
+];
 
 const esc = (s) => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const attr = (s) => esc(s).replaceAll('"', '&quot;');
@@ -47,7 +51,7 @@ function buildCard(w, page, prefix) {
               <div class="word-card-body">
                 <h2 lang="it">${esc(w.it)}</h2>
                 <p class="word-translation">${esc(page.meansLabel)}: <strong>${esc(w.itMeans)}</strong></p>
-                <p class="false-friend-warning">${page.warning(esc(w.es), w.esIs)}</p>
+                <p class="false-friend-warning">${page.warning(esc(w.foreign), w.foreignIs)}</p>
                 <div class="word-examples">
                   <strong>${esc(page.examplesLabel)}</strong>
                   <ol>${examples}</ol>
@@ -94,7 +98,8 @@ function buildFragment({ lang, words, page }) {
   practice.find('#word-practice-title').text(page.practiceH2);
   practice.find('.practice-heading > p').html(page.practiceP);
   const progressText = practice.find('#word-progress-text');
-  progressText.text(progressText.text().replace(/de \d+/, `de ${words.length}`));
+  // «0 de 20 correctas», «0 of 20 correct»…: il secondo numero è il totale.
+  progressText.text(progressText.text().replace(/(\d+)(\D+)\d+/, `$1$2${words.length}`));
   practice.find('#word-progress').attr('max', String(words.length));
   practice
     .find('.word-tests')

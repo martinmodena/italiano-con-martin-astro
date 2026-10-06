@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Prova delle vignette dei falsi amici (2026-10-06). Prompt e stile in docs/prompt-immagini-falsi-amici.md.
-// Uso: node scripts/try-false-friends.mjs <cartella-di-uscita> [--only burro,caldo]
+// Uso: node scripts/try-false-friends.mjs <cartella-di-uscita> [--only burro,caldo] [--doc <file dei prompt>]
+// Il file dei prompt di default è quello spagnolo; per l'inglese --doc docs/prompt-immagini-falsi-amici-en.md.
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
@@ -9,7 +10,8 @@ for (const line of existsSync('.env') ? readFileSync('.env', 'utf8').split('\n')
   if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
 }
 
-const doc = readFileSync('docs/prompt-immagini-falsi-amici.md', 'utf8');
+const docArg = process.argv.indexOf('--doc');
+const doc = readFileSync(docArg > 0 ? process.argv[docArg + 1] : 'docs/prompt-immagini-falsi-amici.md', 'utf8');
 const STYLE = /```\n([\s\S]*?)\n```/.exec(doc)[1].trim();
 const subjects = [...doc.matchAll(/^- \*\*([^*]+)\*\* \([^)]*\): (.+)$/gm)].map((m) => ({ slug: m[1], subject: m[2] }));
 const outDir = process.argv[2];
