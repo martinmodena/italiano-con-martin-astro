@@ -773,3 +773,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - La pagina ora è una **scala simmetrica** con un titolo visibile per ogni gruppo: spingere a fare (imporre → convincere → incoraggiare), al centro (insieme), frenare (scoraggiare → ostacolare → proibire); in fondo, fuori dalla scala, «di nascosto» e «come si risponde». Un paragrafo in testa alle schede spiega l'ordine, in 9 lingue.
 - Aggiunti **costringere** e **proibire**, le due estremità della scala: 35 verbi. Due foto `low` ($0,005).
 - Il generatore accetta `groups` e `groupUiFor` in qualsiasi lezione: si potranno dividere in gruppi anche le altre.
+
+## 2026-10-06 - Lezione A1 «Gli avverbi di frequenza»
+
+- Richiesta di Martin: una scheda sugli avverbi di frequenza «ordinata da quello che rappresenta il 100% (sempre) a quello che rappresenta lo 0%», con una percentuale anche se non perfettamente accurata.
+- Lezione di grammatica A1 (`grammatica/a1/avverbi-di-frequenza.html`, 9 lingue), non di vocabolario: «spesso» non si fotografa. Viene dopo «Giorni, mesi e date» (numeri → ore → date → frequenza).
+- La scala ha dieci gradini (sempre 100%, quasi sempre 90%, di solito 80%, spesso 70%, a volte 50%, ogni tanto 30%, raramente 15%, molto raramente 10%, quasi mai 5%, mai 0%), ognuno con una barra e una frase d'esempio. Una nota dice che le percentuali sono indicative.
+- Poi: la posizione nella frase, la doppia negazione _non… mai_ (con _mai_ nelle domande e _non sempre_), _quante volte?_ (_ogni_ / _tutti i_, _due volte alla settimana_), errori tipici, 30 esercizi, PDF.
+- Nelle lingue straniere la traduzione degli avverbi ha una colonna sua («Traduzione»): così le celle italiane restano identiche a quelle della pagina italiana.

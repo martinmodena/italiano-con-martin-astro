@@ -30,6 +30,7 @@ export const grammarSeoSlugs = {
     numeri: 'italian-numbers',
     'che-ore-sono': 'telling-the-time-in-italian',
     'giorni-mesi-date': 'days-months-and-dates-in-italian',
+    'avverbi-di-frequenza': 'adverbs-of-frequency-in-italian',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -60,6 +61,7 @@ export const grammarSeoSlugs = {
     numeri: 'los-numeros-en-italiano',
     'che-ore-sono': 'la-hora-en-italiano',
     'giorni-mesi-date': 'dias-meses-y-fechas-en-italiano',
+    'avverbi-di-frequenza': 'adverbios-de-frecuencia-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -90,6 +92,7 @@ export const grammarSeoSlugs = {
     numeri: 'les-nombres-en-italien',
     'che-ore-sono': 'lheure-en-italien',
     'giorni-mesi-date': 'jours-mois-et-dates-en-italien',
+    'avverbi-di-frequenza': 'adverbes-de-frequence-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -120,6 +123,7 @@ export const grammarSeoSlugs = {
     numeri: 'cisla-v-italstine',
     'che-ore-sono': 'hodiny-v-italstine',
     'giorni-mesi-date': 'dny-mesice-a-data-v-italstine',
+    'avverbi-di-frequenza': 'prislovce-frekvence-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -150,6 +154,7 @@ export const grammarSeoSlugs = {
     numeri: 'liczby-po-wlosku',
     'che-ore-sono': 'godziny-po-wlosku',
     'giorni-mesi-date': 'dni-miesiace-i-daty-po-wlosku',
+    'avverbi-di-frequenza': 'przyslowki-czestotliwosci-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -180,6 +185,7 @@ export const grammarSeoSlugs = {
     numeri: 'italyanca-sayilar',
     'che-ore-sono': 'italyancada-saat',
     'giorni-mesi-date': 'italyanca-gunler-aylar-ve-tarihler',
+    'avverbi-di-frequenza': 'italyancada-siklik-zarflari',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -210,6 +216,7 @@ export const grammarSeoSlugs = {
     numeri: 'zahlen-auf-italienisch',
     'che-ore-sono': 'uhrzeit-auf-italienisch',
     'giorni-mesi-date': 'wochentage-monate-und-datum-auf-italienisch',
+    'avverbi-di-frequenza': 'haeufigkeitsadverbien-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -240,5 +247,6 @@ export const grammarSeoSlugs = {
     numeri: 'イタリア語の数字',
     'che-ore-sono': 'イタリア語の時刻の言い方',
     'giorni-mesi-date': 'イタリア語の曜日と月と日付',
+    'avverbi-di-frequenza': 'イタリア語の頻度の副詞',
   },
 };

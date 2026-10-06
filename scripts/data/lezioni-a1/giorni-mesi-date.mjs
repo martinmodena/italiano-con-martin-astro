@@ -3,7 +3,7 @@
 
 export default {
   slug: 'giorni-mesi-date',
-  next: null,
+  next: 'avverbi-di-frequenza',
   minutes: 25,
   slugs: {
     en: 'days-months-and-dates-in-italian',

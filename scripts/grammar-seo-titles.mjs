@@ -28,6 +28,7 @@ export const grammarSeoTitles = {
     numeri: 'Italian numbers',
     'che-ore-sono': 'Telling the time in Italian',
     'giorni-mesi-date': 'Days, months and dates in Italian',
+    'avverbi-di-frequenza': 'Adverbs of frequency in Italian',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -58,6 +59,7 @@ export const grammarSeoTitles = {
     numeri: 'Los números en italiano',
     'che-ore-sono': 'La hora en italiano',
     'giorni-mesi-date': 'Días, meses y fechas en italiano',
+    'avverbi-di-frequenza': 'Los adverbios de frecuencia en italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -88,6 +90,7 @@ export const grammarSeoTitles = {
     numeri: 'Les nombres en italien',
     'che-ore-sono': 'L’heure en italien',
     'giorni-mesi-date': 'Jours, mois et dates en italien',
+    'avverbi-di-frequenza': 'Les adverbes de fréquence en italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -118,6 +121,7 @@ export const grammarSeoTitles = {
     numeri: 'Čísla v italštině',
     'che-ore-sono': 'Hodiny a čas v italštině',
     'giorni-mesi-date': 'Dny, měsíce a data v italštině',
+    'avverbi-di-frequenza': 'Příslovce frekvence v italštině',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -148,6 +152,7 @@ export const grammarSeoTitles = {
     numeri: 'Liczby po włosku',
     'che-ore-sono': 'Która godzina? Godziny po włosku',
     'giorni-mesi-date': 'Dni, miesiące i daty po włosku',
+    'avverbi-di-frequenza': 'Przysłówki częstotliwości w języku włoskim',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -178,6 +183,7 @@ export const grammarSeoTitles = {
     numeri: 'İtalyanca sayılar',
     'che-ore-sono': 'İtalyancada saat',
     'giorni-mesi-date': 'İtalyanca günler, aylar ve tarihler',
+    'avverbi-di-frequenza': 'İtalyancada sıklık zarfları',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -208,6 +214,7 @@ export const grammarSeoTitles = {
     numeri: 'Zahlen auf Italienisch',
     'che-ore-sono': 'Uhrzeit auf Italienisch',
     'giorni-mesi-date': 'Wochentage, Monate und Datum auf Italienisch',
+    'avverbi-di-frequenza': 'Häufigkeitsadverbien im Italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -238,5 +245,6 @@ export const grammarSeoTitles = {
     numeri: 'イタリア語の数字',
     'che-ore-sono': 'イタリア語の時刻の言い方',
     'giorni-mesi-date': 'イタリア語の曜日・月・日付',
+    'avverbi-di-frequenza': 'イタリア語の頻度の副詞',
   },
 };

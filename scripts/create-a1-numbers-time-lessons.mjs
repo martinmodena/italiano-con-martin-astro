@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Crea le tre lezioni A1 «I numeri», «Che ore sono?» e «Giorni, mesi e date»
+// Crea le lezioni A1 «I numeri», «Che ore sono?», «Giorni, mesi e date» e (2026-10-06)
+// «Gli avverbi di frequenza»
 // in tutte e 9 le lingue: frammenti in src/html, pagine .astro, tessere negli
 // indici di grammatica, voci in public/sitemap.xml e in grammar-seo-*.mjs.
 //
@@ -22,6 +23,8 @@ import ore from './data/lezioni-a1/che-ore-sono.mjs';
 import oreI18n from './data/lezioni-a1/che-ore-sono-i18n.mjs';
 import date from './data/lezioni-a1/giorni-mesi-date.mjs';
 import dateI18n from './data/lezioni-a1/giorni-mesi-date-i18n.mjs';
+import avverbi from './data/lezioni-a1/avverbi-di-frequenza.mjs';
+import avverbiI18n from './data/lezioni-a1/avverbi-di-frequenza-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -209,6 +212,7 @@ const lessons = [
   { ...numeri, strings: { it: numeri.it, ...numeriI18n } },
   { ...ore, strings: { it: ore.it, ...oreI18n } },
   { ...date, strings: { it: date.it, ...dateI18n } },
+  { ...avverbi, strings: { it: avverbi.it, ...avverbiI18n } },
 ];
 for (const lesson of lessons) {
   lesson.slugs = { it: lesson.slug, ...lesson.slugs };
