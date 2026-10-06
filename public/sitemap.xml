@@ -46,6 +46,7 @@
   <url><loc>https://italianoconmartin.com/grammatica/b1/condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/b1/imperativo.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/b1/pronomi-combinati.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/grammatica/b1/connettivi.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/b2/congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/b2/periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/grammatica/c1/congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -138,6 +139,7 @@
   <url><loc>https://italianoconmartin.com/en/grammar/b1/the-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/b1/the-italian-imperative.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/b1/italian-combined-pronouns.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/en/grammar/b1/italian-linking-words-connectives.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/b2/the-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/b2/italian-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/en/grammar/c1/the-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -231,6 +233,7 @@
   <url><loc>https://italianoconmartin.com/es/gramatica/b1/el-condizionale-presente-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/b1/el-imperativo-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/b1/pronombres-combinados-en-italiano.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/es/gramatica/b1/conectores-en-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/b2/el-congiuntivo-presente-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/b2/periodo-ipotetico-en-italiano.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/es/gramatica/c1/el-congiuntivo-imperfetto-italiano.html</loc><changefreq>monthly</changefreq></url>
@@ -324,6 +327,7 @@
   <url><loc>https://italianoconmartin.com/fr/grammaire/b1/le-condizionale-presente-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/b1/limperatif-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/b1/pronoms-combines-en-italien.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/fr/grammaire/b1/connecteurs-logiques-en-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/b2/le-congiuntivo-presente-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/b2/periodo-ipotetico-en-italien.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/fr/grammaire/c1/le-congiuntivo-imperfetto-italien.html</loc><changefreq>monthly</changefreq></url>
@@ -417,6 +421,7 @@
   <url><loc>https://italianoconmartin.com/cs/gramatika/b1/italsky-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/b1/italsky-imperativ.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/b1/kombinovana-zajmena-v-italstine.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/cs/gramatika/b1/spojovaci-vyrazy-v-italstine.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/b2/italsky-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/b2/italsky-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/cs/gramatika/c1/italsky-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -509,6 +514,7 @@
   <url><loc>https://italianoconmartin.com/pl/gramatyka/b1/wloski-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/b1/tryb-rozkazujacy-po-wlosku.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/b1/zaimki-laczone-po-wlosku.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/pl/gramatyka/b1/wyrazenia-laczace-po-wlosku.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/b2/wloski-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/b2/wloski-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/pl/gramatyka/c1/wloski-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -601,6 +607,7 @@
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b1/italyanca-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b1/italyanca-emir-kipi.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b1/italyanca-birlesik-zamirler.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b1/italyancada-baglaclar.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b2/italyanca-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/b2/italyanca-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/tr/dilbilgisi/c1/italyanca-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -693,6 +700,7 @@
   <url><loc>https://italianoconmartin.com/de/grammatik/b1/das-italienische-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/b1/der-italienische-imperativ.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/b1/kombinierte-pronomen-im-italienischen.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/de/grammatik/b1/konnektoren-im-italienischen.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/b2/das-italienische-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/b2/der-italienische-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/de/grammatik/c1/das-italienische-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>
@@ -785,6 +793,7 @@
   <url><loc>https://italianoconmartin.com/ja/bunpo/b1/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;-condizionale-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/b1/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;&#x547d;&#x4ee4;&#x6cd5;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/b1/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;&#x7d50;&#x5408;&#x4ee3;&#x540d;&#x8a5e;.html</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://italianoconmartin.com/ja/bunpo/b1/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;&#x63a5;&#x7d9a;&#x8868;&#x73fe;.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/b2/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;-congiuntivo-presente.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/b2/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;-periodo-ipotetico.html</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://italianoconmartin.com/ja/bunpo/c1/&#x30a4;&#x30bf;&#x30ea;&#x30a2;&#x8a9e;&#x306e;-congiuntivo-imperfetto.html</loc><changefreq>monthly</changefreq></url>

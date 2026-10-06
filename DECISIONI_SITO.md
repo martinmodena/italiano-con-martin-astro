@@ -819,3 +819,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Contenuto: la forma con _stare_, il gerundio regolare (-ando / -endo, senza -isc-), i pronomi (_lo sto facendo_), gli irregolari con il trucco dell'imperfetto (_facevo → facendo_), quando si usa e soprattutto quando no (futuro, abitudini, verbi di stato: l'errore tipico di chi parla inglese), _stavo_ + gerundio, _stare per_ + infinito. Le note sull'uso sono adattate a ogni lingua (in turco il «-yor» si usa ovunque, in spagnolo «estar siendo»).
 - I titoli H1 delle lezioni di grammatica sono testo semplice, senza `<span lang="it">`: `audit-grammar-seo` li confronta con `grammar-seo-titles.mjs`. La descrizione deve contenere il termine italiano («gerundio») anche nelle lingue che lo traducono.
 - `create-a1-numbers-time-lessons.mjs` ora trova su disco il livello delle lezioni che non costruisce lui (serve per `after` e `next` verso lezioni come «Passato prossimo o imperfetto?»).
+
+## 2026-10-06 - Lezione B1 «I connettivi»
+
+- Richiesta di Martin: una scheda con i connettivi («nonostante», «perciò»…), «ordinata logicamente».
+- Lezione di grammatica B1 (`grammatica/b1/connettivi.html`, 9 lingue, 30 esercizi, PDF), ultima dell'indice B1; il pulsante «Prossima lezione» porta al congiuntivo presente (B2).
+- Sei gruppi per funzione, preceduti da una «mappa» che insegna a chiedersi che cosa fa la frase: aggiungere e opporre, causa e conseguenza, concessione, fine e condizione, tempo, ordinare e concludere. Nella tabella i connettivi che vogliono il congiuntivo lo dicono nella cella stessa (_nonostante + congiuntivo_); le note spiegano _siccome_ all'inizio, i due sensi di _perché_, _prima di_ / _prima che_, _insomma_.
+- Esercizi: il connettivo giusto per la funzione, indicativo o congiuntivo, una parola sola.
+- Con questa lezione è finito il piano del 2026-10-06 (verbi di influenza in ordine, avverbi di frequenza, stare + gerundio, connettivi), più i falsi amici in spagnolo, inglese e francese.

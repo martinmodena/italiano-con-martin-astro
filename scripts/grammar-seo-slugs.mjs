@@ -33,6 +33,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'adverbs-of-frequency-in-italian',
     'participi-passati-irregolari': 'italian-irregular-past-participles',
     'stare-gerundio': 'italian-present-continuous-stare-gerund',
+    connettivi: 'italian-linking-words-connectives',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -66,6 +67,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'adverbios-de-frecuencia-en-italiano',
     'participi-passati-irregolari': 'participios-irregulares-en-italiano',
     'stare-gerundio': 'estar-gerundio-en-italiano',
+    connettivi: 'conectores-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -99,6 +101,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'adverbes-de-frequence-en-italien',
     'participi-passati-irregolari': 'participes-passes-irreguliers-en-italien',
     'stare-gerundio': 'stare-gerondif-en-italien',
+    connettivi: 'connecteurs-logiques-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -132,6 +135,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'prislovce-frekvence-v-italstine',
     'participi-passati-irregolari': 'nepravidelna-pricesti-v-italstine',
     'stare-gerundio': 'stare-gerundium-v-italstine',
+    connettivi: 'spojovaci-vyrazy-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -165,6 +169,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'przyslowki-czestotliwosci-po-wlosku',
     'participi-passati-irregolari': 'nieregularne-imieslowy-po-wlosku',
     'stare-gerundio': 'stare-gerundium-po-wlosku',
+    connettivi: 'wyrazenia-laczace-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -198,6 +203,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'italyancada-siklik-zarflari',
     'participi-passati-irregolari': 'italyancada-duzensiz-gecmis-ortaclar',
     'stare-gerundio': 'italyancada-stare-ulac',
+    connettivi: 'italyancada-baglaclar',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -231,6 +237,7 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'haeufigkeitsadverbien-im-italienischen',
     'participi-passati-irregolari': 'unregelmaessige-partizipien-im-italienischen',
     'stare-gerundio': 'stare-gerundium-im-italienischen',
+    connettivi: 'konnektoren-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -264,5 +271,6 @@ export const grammarSeoSlugs = {
     'avverbi-di-frequenza': 'イタリア語の頻度の副詞',
     'participi-passati-irregolari': 'イタリア語の不規則な過去分詞',
     'stare-gerundio': 'イタリア語の進行形',
+    connettivi: 'イタリア語の接続表現',
   },
 };

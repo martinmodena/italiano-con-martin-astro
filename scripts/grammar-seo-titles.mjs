@@ -31,6 +31,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Adverbs of frequency in Italian',
     'participi-passati-irregolari': 'Italian irregular past participles',
     'stare-gerundio': 'The present continuous in Italian: stare + gerund',
+    connettivi: 'Italian linking words: perché, quindi, nonostante, invece',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -64,6 +65,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Los adverbios de frecuencia en italiano',
     'participi-passati-irregolari': 'Participios pasados irregulares en italiano',
     'stare-gerundio': 'Stare + gerundio en italiano: sto mangiando',
+    connettivi: 'Los conectores en italiano: perché, quindi, nonostante, invece',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -97,6 +99,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Les adverbes de fréquence en italien',
     'participi-passati-irregolari': 'Participes passés irréguliers en italien',
     'stare-gerundio': 'Stare + gérondif en italien : sto mangiando',
+    connettivi: 'Les connecteurs en italien : perché, quindi, nonostante, invece',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -130,6 +133,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Příslovce frekvence v italštině',
     'participi-passati-irregolari': 'Nepravidelná příčestí minulá v italštině',
     'stare-gerundio': 'Průběhový čas v italštině: stare + gerundium',
+    connettivi: 'Spojovací výrazy v italštině: perché, quindi, nonostante, invece',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -163,6 +167,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Przysłówki częstotliwości w języku włoskim',
     'participi-passati-irregolari': 'Nieregularne imiesłowy przeszłe w języku włoskim',
     'stare-gerundio': 'Czas ciągły po włosku: stare + gerundium',
+    connettivi: 'Wyrażenia łączące po włosku: perché, quindi, nonostante, invece',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -196,6 +201,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'İtalyancada sıklık zarfları',
     'participi-passati-irregolari': 'İtalyancada düzensiz geçmiş zaman ortaçları',
     'stare-gerundio': 'İtalyancada şimdiki zaman: stare + ulaç',
+    connettivi: 'İtalyancada bağlaçlar: perché, quindi, nonostante, invece',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -229,6 +235,7 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'Häufigkeitsadverbien im Italienischen',
     'participi-passati-irregolari': 'Unregelmäßige Partizipien im Italienischen',
     'stare-gerundio': 'Die Verlaufsform im Italienischen: stare + Gerundium',
+    connettivi: 'Konnektoren im Italienischen: perché, quindi, nonostante, invece',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -262,5 +269,6 @@ export const grammarSeoTitles = {
     'avverbi-di-frequenza': 'イタリア語の頻度の副詞',
     'participi-passati-irregolari': 'イタリア語の不規則な過去分詞',
     'stare-gerundio': 'イタリア語の進行形：stare + ジェルンディオ',
+    connettivi: 'イタリア語の接続表現：perché、quindi、nonostante、invece',
   },
 };

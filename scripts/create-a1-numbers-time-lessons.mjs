@@ -37,6 +37,8 @@ import participi from './data/lezioni-a2/participi-passati-irregolari.mjs';
 import participiI18n from './data/lezioni-a2/participi-passati-irregolari-i18n.mjs';
 import gerundio from './data/lezioni-a2/stare-gerundio.mjs';
 import gerundioI18n from './data/lezioni-a2/stare-gerundio-i18n.mjs';
+import connettivi from './data/lezioni-b1/connettivi.mjs';
+import connettiviI18n from './data/lezioni-b1/connettivi-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -228,6 +230,7 @@ const lessons = [
   { ...passato, strings: { it: passato.it, ...passatoI18n } },
   { ...participi, strings: { it: participi.it, ...participiI18n } },
   { ...gerundio, strings: { it: gerundio.it, ...gerundioI18n } },
+  { ...connettivi, strings: { it: connettivi.it, ...connettiviI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
