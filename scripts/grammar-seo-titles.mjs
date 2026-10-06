@@ -30,6 +30,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Days, months and dates in Italian',
     'avverbi-di-frequenza': 'Adverbs of frequency in Italian',
     'participi-passati-irregolari': 'Italian irregular past participles',
+    'stare-gerundio': 'The present continuous in Italian: stare + gerund',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -62,6 +63,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Días, meses y fechas en italiano',
     'avverbi-di-frequenza': 'Los adverbios de frecuencia en italiano',
     'participi-passati-irregolari': 'Participios pasados irregulares en italiano',
+    'stare-gerundio': 'Stare + gerundio en italiano: sto mangiando',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -94,6 +96,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Jours, mois et dates en italien',
     'avverbi-di-frequenza': 'Les adverbes de fréquence en italien',
     'participi-passati-irregolari': 'Participes passés irréguliers en italien',
+    'stare-gerundio': 'Stare + gérondif en italien : sto mangiando',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -126,6 +129,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Dny, měsíce a data v italštině',
     'avverbi-di-frequenza': 'Příslovce frekvence v italštině',
     'participi-passati-irregolari': 'Nepravidelná příčestí minulá v italštině',
+    'stare-gerundio': 'Průběhový čas v italštině: stare + gerundium',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -158,6 +162,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Dni, miesiące i daty po włosku',
     'avverbi-di-frequenza': 'Przysłówki częstotliwości w języku włoskim',
     'participi-passati-irregolari': 'Nieregularne imiesłowy przeszłe w języku włoskim',
+    'stare-gerundio': 'Czas ciągły po włosku: stare + gerundium',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -190,6 +195,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'İtalyanca günler, aylar ve tarihler',
     'avverbi-di-frequenza': 'İtalyancada sıklık zarfları',
     'participi-passati-irregolari': 'İtalyancada düzensiz geçmiş zaman ortaçları',
+    'stare-gerundio': 'İtalyancada şimdiki zaman: stare + ulaç',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -222,6 +228,7 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'Wochentage, Monate und Datum auf Italienisch',
     'avverbi-di-frequenza': 'Häufigkeitsadverbien im Italienischen',
     'participi-passati-irregolari': 'Unregelmäßige Partizipien im Italienischen',
+    'stare-gerundio': 'Die Verlaufsform im Italienischen: stare + Gerundium',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -254,5 +261,6 @@ export const grammarSeoTitles = {
     'giorni-mesi-date': 'イタリア語の曜日・月・日付',
     'avverbi-di-frequenza': 'イタリア語の頻度の副詞',
     'participi-passati-irregolari': 'イタリア語の不規則な過去分詞',
+    'stare-gerundio': 'イタリア語の進行形：stare + ジェルンディオ',
   },
 };

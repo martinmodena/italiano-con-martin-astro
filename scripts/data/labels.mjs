@@ -524,6 +524,16 @@ export const LABELS = {
     de: 'Übersetzung',
     ja: '訳',
   },
+  Gerundio: {
+    en: 'Gerund',
+    es: 'Gerundio',
+    fr: 'Gérondif',
+    cs: 'Gerundium',
+    pl: 'Gerundium',
+    tr: 'Ulaç',
+    de: 'Gerundium',
+    ja: 'ジェルンディオ',
+  },
   Avverbio: {
     en: 'Adverb',
     es: 'Adverbio',
@@ -1128,5 +1138,15 @@ export const NAV_LABELS = {
     tr: 'Bileşik fiiller',
     de: 'Zusammengesetzte Verben',
     ja: '複合動詞',
+  },
+  'Stare per': {
+    en: '<span lang="it">Stare per</span>',
+    es: '<span lang="it">Stare per</span>',
+    fr: '<span lang="it">Stare per</span>',
+    cs: '<span lang="it">Stare per</span>',
+    pl: '<span lang="it">Stare per</span>',
+    tr: '<span lang="it">Stare per</span>',
+    de: '<span lang="it">Stare per</span>',
+    ja: '<span lang="it">Stare per</span>',
   },
 };

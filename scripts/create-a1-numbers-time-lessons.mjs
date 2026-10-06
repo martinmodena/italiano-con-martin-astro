@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Crea le lezioni A1 «I numeri», «Che ore sono?», «Giorni, mesi e date» e (2026-10-06)
 // «Gli avverbi di frequenza»; sempre il 2026-10-06 le lezioni A2 «Il passato prossimo» (rifatta agli
-// stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata.
+// stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata; poi «Stare +
+// gerundio» (A2, 30 esercizi, senza testata).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -34,6 +35,8 @@ import passato from './data/lezioni-a2/passato-prossimo.mjs';
 import passatoI18n from './data/lezioni-a2/passato-prossimo-i18n.mjs';
 import participi from './data/lezioni-a2/participi-passati-irregolari.mjs';
 import participiI18n from './data/lezioni-a2/participi-passati-irregolari-i18n.mjs';
+import gerundio from './data/lezioni-a2/stare-gerundio.mjs';
+import gerundioI18n from './data/lezioni-a2/stare-gerundio-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -224,6 +227,7 @@ const lessons = [
   { ...avverbi, strings: { it: avverbi.it, ...avverbiI18n } },
   { ...passato, strings: { it: passato.it, ...passatoI18n } },
   { ...participi, strings: { it: participi.it, ...participiI18n } },
+  { ...gerundio, strings: { it: gerundio.it, ...gerundioI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
@@ -244,7 +248,13 @@ for (const lesson of lessons) {
 
 const localSlug = (lang, italianSlug) =>
   lessons.find((l) => l.slug === italianSlug)?.slugs[lang] ?? grammarSeoSlugs[lang]?.[italianSlug] ?? italianSlug;
-const levelOf = (italianSlug, fallback = 'a1') => lessons.find((l) => l.slug === italianSlug)?.level ?? fallback;
+// Le lezioni che questo script non costruisce (es. «Passato prossimo o imperfetto?») si cercano su disco.
+const levelOnDisk = (italianSlug) =>
+  ['a1', 'a2', 'b1', 'b2', 'c1'].find((lv) =>
+    existsSync(path.join(ROOT, 'src/html/grammatica', lv, `${italianSlug}.html`))
+  );
+const levelOf = (italianSlug, fallback = 'a1') =>
+  lessons.find((l) => l.slug === italianSlug)?.level ?? levelOnDisk(italianSlug) ?? fallback;
 const pagePath = (lang, italianSlug, level = levelOf(italianSlug)) =>
   `${lang === 'it' ? '' : `${lang}/`}${DIR[lang]}/${level}/${localSlug(lang, italianSlug)}.html`;
 const attr = (s) => String(s).replaceAll('&', '&amp;').replaceAll('"', '&quot;');

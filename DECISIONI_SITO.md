@@ -811,3 +811,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - «I participi passati irregolari» (nuova): **100 verbi** divisi per gruppi (-tto, -so, -sso, -sto, -rto, -nto, -lto, -otto/-osto/-atto, casi speciali), ognuno con ausiliare ed esempio; una sezione sui verbi in _-urre_, _-orre_, _-arre_ (chiesta da Martin: «hai previsto anche i casi con "urre" come tradurre?») che spiega l'infinito accorciato (_traducere_, _ponere_, _facere_, _dicere_, _bevere_); i verbi composti; 50 esercizi. Nell'indice sta subito dopo il passato prossimo.
 - **Prime lezioni di grammatica con una testata**, illustrazioni di qualità (Martin: «per la testata puoi spendere un po' di più»): `gemini-3-pro-image`, $0,27 per due. Prompt in `docs/prompt-immagini-passato-prossimo.md`.
 - `generate-image.mjs` non creava la sottocartella di uno slug come `grammatica/…`: le prime due immagini, già pagate ($0,27), sono andate perse. Ora la crea prima di salvare.
+
+## 2026-10-06 - Lezione A2 «Stare + gerundio»
+
+- Richiesta di Martin: sul sito mancava la forma continuativa (_sto mangiando_, _lui sta lavorando_).
+- Lezione di grammatica A2 (`grammatica/a2/stare-gerundio.html`, 9 lingue, 30 esercizi, PDF). Nell'indice A2 sta dopo «Passato prossimo o imperfetto?» e prima del futuro, perché _stavo_ + gerundio usa l'imperfetto.
+- Contenuto: la forma con _stare_, il gerundio regolare (-ando / -endo, senza -isc-), i pronomi (_lo sto facendo_), gli irregolari con il trucco dell'imperfetto (_facevo → facendo_), quando si usa e soprattutto quando no (futuro, abitudini, verbi di stato: l'errore tipico di chi parla inglese), _stavo_ + gerundio, _stare per_ + infinito. Le note sull'uso sono adattate a ogni lingua (in turco il «-yor» si usa ovunque, in spagnolo «estar siendo»).
+- I titoli H1 delle lezioni di grammatica sono testo semplice, senza `<span lang="it">`: `audit-grammar-seo` li confronta con `grammar-seo-titles.mjs`. La descrizione deve contenere il termine italiano («gerundio») anche nelle lingue che lo traducono.
+- `create-a1-numbers-time-lessons.mjs` ora trova su disco il livello delle lezioni che non costruisce lui (serve per `after` e `next` verso lezioni come «Passato prossimo o imperfetto?»).
