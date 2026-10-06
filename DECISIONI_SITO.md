@@ -796,3 +796,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Escluse di proposito _preservativo_ (immagine poco adatta) e _lunatico_ (offende chi ha una malattia mentale). _Attualmente_ ed _eventualmente_, che non si disegnano, sono spiegati nella nota.
 - _Caldo_ non somiglia a _cold_ ma lo confonde chi legge la C sui rubinetti italiani: l'esercizio chiede _freddo_.
 - Immagini: 20 vignette nuove più _rumore_ riusata dallo spagnolo; _fame_ rifatta due volte (la diva sembrava incinta, poi la pizza aveva il salame piccante: regola «niente carne»). Circa $0,19. Prompt in `docs/prompt-immagini-falsi-amici-en.md`.
+
+## 2026-10-06 - Falsi amici italiano-francese
+
+- Terza pagina dei falsi amici, `fr/vocabulaire/faux-amis-italien-francais.html`, stesso schema: 21 parole (salire, fermare, tasca, gatto, cane, vite, mare, collo, cantina, cucina, chiesa, pelle, penna, mancia, firma, cappotto, tavolo, sala, conto, nave, pollice).
+- Escluse di proposito _fiera_ (anche in italiano vuol dire «orgogliosa»), _lepre_ (_lèpre_ = lebbra) e _bara_ (_bar_): immagini poco adatte. La nota cita i falsi amici a metà (_vite_ = vis e vigne, _attendere_ / _aspettare_) e un vero amico (_fiero_).
+- Immagini: 20 vignette nuove più _cantina_ riusata dall'inglese; _tasca_ e _mancia_ rifatte (tazza in mano, monete nel palmo). Circa $0,19. Prompt in `docs/prompt-immagini-falsi-amici-fr.md`.
+- Il generatore accetta `colon` nella pagina: in francese prima dei due punti va uno spazio insecabile.

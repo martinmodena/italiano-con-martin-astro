@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo e inglese).
+// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo, inglese e francese).
 //
 // A differenza delle altre lezioni, la pagina esiste in UNA lingua sola: i falsi amici fra italiano e
 // spagnolo non sono quelli fra italiano e inglese. Quindi niente versione italiana né hreflang verso le
@@ -19,6 +19,7 @@ import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { falseFriendsEs, falseFriendsEsPage } from './data/false-friends-es.mjs';
 import { falseFriendsEn, falseFriendsEnPage } from './data/false-friends-en.mjs';
+import { falseFriendsFr, falseFriendsFrPage } from './data/false-friends-fr.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 
 const root = process.cwd();
@@ -39,6 +40,7 @@ const INDEX = {
 const LESSONS = [
   { lang: 'es', words: falseFriendsEs, page: falseFriendsEsPage },
   { lang: 'en', words: falseFriendsEn, page: falseFriendsEnPage },
+  { lang: 'fr', words: falseFriendsFr, page: falseFriendsFrPage },
 ];
 
 const esc = (s) => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -50,7 +52,7 @@ function buildCard(w, page, prefix) {
               <img src="${prefix}assets/vocabolario/falsi-amici-${page.lang}/${w.slug}.webp" alt="${attr(w.alt)}" loading="lazy" decoding="async">
               <div class="word-card-body">
                 <h2 lang="it">${esc(w.it)}</h2>
-                <p class="word-translation">${esc(page.meansLabel)}: <strong>${esc(w.itMeans)}</strong></p>
+                <p class="word-translation">${esc(page.meansLabel)}${page.colon ?? ':'} <strong>${esc(w.itMeans)}</strong></p>
                 <p class="false-friend-warning">${page.warning(esc(w.foreign), w.foreignIs)}</p>
                 <div class="word-examples">
                   <strong>${esc(page.examplesLabel)}</strong>

@@ -132,10 +132,12 @@ if (!item?.b64_json) {
 }
 
 const buffer = Buffer.from(item.b64_json, 'base64');
-if (!existsSync(ASSETS)) mkdirSync(ASSETS, { recursive: true });
 
 const heroPath = path.join(ASSETS, `${slug}.webp`);
 const cardPath = path.join(ASSETS, `${slug}-card.webp`);
+// Uno slug con sottocartella (grammatica/…) deve trovarla già pronta: prima
+// del 2026-10-06 si creava solo assets/ e l'immagine pagata andava persa.
+mkdirSync(path.dirname(heroPath), { recursive: true });
 
 await sharp(buffer).resize(heroW, heroH, { fit: 'cover' }).webp({ quality: 86, effort: 6 }).toFile(heroPath);
 if (!noCard)
