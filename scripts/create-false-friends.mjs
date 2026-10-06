@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo, inglese e francese).
+// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo, inglese, francese e tedesco).
 //
 // A differenza delle altre lezioni, la pagina esiste in UNA lingua sola: i falsi amici fra italiano e
 // spagnolo non sono quelli fra italiano e inglese. Quindi niente versione italiana né hreflang verso le
@@ -20,6 +20,7 @@ import * as cheerio from 'cheerio';
 import { falseFriendsEs, falseFriendsEsPage } from './data/false-friends-es.mjs';
 import { falseFriendsEn, falseFriendsEnPage } from './data/false-friends-en.mjs';
 import { falseFriendsFr, falseFriendsFrPage } from './data/false-friends-fr.mjs';
+import { falseFriendsDe, falseFriendsDePage } from './data/false-friends-de.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 
 const root = process.cwd();
@@ -41,6 +42,7 @@ const LESSONS = [
   { lang: 'es', words: falseFriendsEs, page: falseFriendsEsPage },
   { lang: 'en', words: falseFriendsEn, page: falseFriendsEnPage },
   { lang: 'fr', words: falseFriendsFr, page: falseFriendsFrPage },
+  { lang: 'de', words: falseFriendsDe, page: falseFriendsDePage },
 ];
 
 const esc = (s) => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');

@@ -827,3 +827,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Sei gruppi per funzione, preceduti da una «mappa» che insegna a chiedersi che cosa fa la frase: aggiungere e opporre, causa e conseguenza, concessione, fine e condizione, tempo, ordinare e concludere. Nella tabella i connettivi che vogliono il congiuntivo lo dicono nella cella stessa (_nonostante + congiuntivo_); le note spiegano _siccome_ all'inizio, i due sensi di _perché_, _prima di_ / _prima che_, _insomma_.
 - Esercizi: il connettivo giusto per la funzione, indicativo o congiuntivo, una parola sola.
 - Con questa lezione è finito il piano del 2026-10-06 (verbi di influenza in ordine, avverbi di frequenza, stare + gerundio, connettivi), più i falsi amici in spagnolo, inglese e francese.
+
+## 2026-10-06 - Falsi amici italiano-tedesco
+
+- Quarta pagina dei falsi amici, `de/wortschatz/falsche-freunde-italienisch-deutsch.html`, stesso schema: 20 parole (camera, tassa, firma, nonna, latte, costume, dose, cantina, magazzino, regalo, mappa, tappeto, stufa, alto, chef, notizia, sole, mantello, confetti, caldo). Il tedesco ha meno falsi amici con l'italiano: 20 invece di 21.
+- Cinque vignette riusate dalla pagina inglese (camera, cantina, magazzino, confetti, caldo); 15 nuove, _tassa_ rifatta perché aveva la scritta «TAX». Circa $0,14. Prompt in `docs/prompt-immagini-falsi-amici-de.md`.
+- _Eventualmente_ non è un falso amico per il tedesco (_eventuell_ vuol dire quasi lo stesso): la nota spiega invece _il tempo_ (Zeit, Wetter; non Tempo).
