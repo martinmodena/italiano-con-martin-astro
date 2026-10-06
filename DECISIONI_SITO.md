@@ -781,3 +781,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - La scala ha dieci gradini (sempre 100%, quasi sempre 90%, di solito 80%, spesso 70%, a volte 50%, ogni tanto 30%, raramente 15%, molto raramente 10%, quasi mai 5%, mai 0%), ognuno con una barra e una frase d'esempio. Una nota dice che le percentuali sono indicative.
 - Poi: la posizione nella frase, la doppia negazione _non… mai_ (con _mai_ nelle domande e _non sempre_), _quante volte?_ (_ogni_ / _tutti i_, _due volte alla settimana_), errori tipici, 30 esercizi, PDF.
 - Nelle lingue straniere la traduzione degli avverbi ha una colonna sua («Traduzione»): così le celle italiane restano identiche a quelle della pagina italiana.
+
+## 2026-10-06 - Falsi amici italiano-spagnolo
+
+- Richiesta di Martin: una scheda sui falsi amici, «ovviamente diversa in ogni lingua», con immagini scherzose dove si può («per lo spagnolo burro sarebbe un asino che mangia il burro»), caso per caso.
+- **Prima pagina in una lingua sola**: `es/vocabulario/falsos-amigos-italiano-espanol.html`. Niente versione italiana né hreflang verso le altre lingue (i falsi amici dello spagnolo non sono quelli dell'inglese); il selettore di lingua porta agli indici del vocabolario. Le altre lingue avranno la loro pagina, con parole proprie.
+- 21 parole (burro, caldo, camino, imbarazzata, salire, subire, topo, aceto, largo, guardare, carta, pronto, seta, cara, rumore, polpo, tirare, primo, vaso, officina, contestare), approvate da Martin. Escluse di proposito _gamba_ (pesce in immagine), _nudo_ (immagine di nudo) ed _esposa_ (ambigua).
+- Ogni scheda: la parola italiana, che cosa vuol dire, l'avviso «lo que en español es…, en italiano se dice…», due frasi italiane (una per significato). Esercizio «¿Cómo se dice en italiano?» con 21 domande.
+- Immagini: vignette ad acquerello con `gpt-image-1-mini` a qualità `medium` (21 vignette più 2 rifatte, $0,20). Dove il doppio senso non sta in una scena sola (guardare, carta, tirare, contestare) l'immagine è divisa in due con le bandiere. Testata a collage. Prompt in `docs/prompt-immagini-falsi-amici.md`.

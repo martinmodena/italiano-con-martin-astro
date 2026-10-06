@@ -491,3 +491,24 @@
     height: 34px;
   }
 }
+/* Falsi amici (2026-10-06): l'avviso sulla parola straniera che somiglia a quella italiana. */
+.false-friend-warning {
+  margin: 10px 0 14px;
+  padding: 10px 12px;
+  border-left: 4px solid var(--primary);
+  border-radius: 10px;
+  background: #fff4ec;
+  font-weight: 700;
+}
+/* Le vignette dei falsi amici si leggono solo grandi: sopra il testo, a tutta larghezza. */
+.word-card.false-friend-card {
+  grid-template-columns: 1fr;
+}
+.word-card.false-friend-card > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-right: 0;
+  border-bottom: 1px solid var(--line);
+}

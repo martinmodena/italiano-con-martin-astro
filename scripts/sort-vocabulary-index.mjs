@@ -60,6 +60,8 @@ export const ORDER = [
   'caratteristiche-fisiche-animali',
   'personalita-animali',
   'verbi-animali',
+  // fra due lingue: le pagine che esistono in una lingua sola (2026-10-06)
+  'falsi-amici',
 ];
 
 const INDEX = {
@@ -82,8 +84,11 @@ function italianSlug(lang, href) {
   const astro = path.join(root, 'src/pages', `${href.replace(/^\//, '')}.astro`);
   if (!existsSync(astro)) throw new Error(`${lang}: manca la pagina ${astro}`);
   const m = /"it",\s*"https:\/\/italianoconmartin\.com\/vocabolario\/([^"]+)\.html"/.exec(readFileSync(astro, 'utf8'));
-  if (!m) throw new Error(`${lang}: nessun hreflang italiano in ${astro}`);
-  return m[1];
+  if (m) return m[1];
+  // Le pagine in una lingua sola (i falsi amici) non hanno la versione italiana: la chiave è nel commento.
+  const key = /\/\/ vocabulary-key: ([a-z-]+)/.exec(readFileSync(astro, 'utf8'));
+  if (!key) throw new Error(`${lang}: nessun hreflang italiano né vocabulary-key in ${astro}`);
+  return key[1];
 }
 
 export function sortVocabularyIndexes({ dryRun = false, log = console.log } = {}) {
