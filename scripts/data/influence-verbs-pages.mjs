@@ -166,3 +166,167 @@ const intros = {
 export const influenceVerbUi = Object.fromEntries(
   LANGS.map((lang) => [lang, { note: notes[lang], positive: { intro: intros[lang] } }])
 );
+
+// I gruppi della pagina (2026-10-06, Martin: «partire dai verbi che esprimono l'induzione a fare come
+// costringere, obbligare, poi collaborare, incoraggiare, poi scoraggiare e infine ostacolare, proibire,
+// impedire»). L'ordine e i verbi di ogni gruppo sono in `influenceVerbGroups` (influence-verbs.mjs); qui ci
+// sono il paragrafo che spiega la scala, l'occhiello di ogni lato della scala e il titolo di ogni gruppo.
+const s = (...labels) => Object.fromEntries(LANGS.map((lang, i) => [lang, labels[i]]));
+const side = {
+  push: s(
+    'Spingere a fare',
+    'Pushing to act',
+    'Empujar a hacer',
+    'Pousser à agir',
+    'Přimět k činu',
+    'Skłaniać do działania',
+    'Harekete geçirmek',
+    'Zum Handeln bewegen',
+    '行動させる'
+  ),
+  middle: s(
+    'Al centro',
+    'In the middle',
+    'En el centro',
+    'Au centre',
+    'Uprostřed',
+    'Pośrodku',
+    'Ortada',
+    'In der Mitte',
+    '真ん中'
+  ),
+  stop: s('Frenare', 'Holding back', 'Frenar', 'Freiner', 'Brzdit', 'Hamować', 'Frenlemek', 'Bremsen', '止める'),
+  off: s(
+    'Fuori dalla scala',
+    'Off the scale',
+    'Fuera de la escala',
+    'Hors de l’échelle',
+    'Mimo stupnici',
+    'Poza skalą',
+    'Ölçeğin dışında',
+    'Außerhalb der Skala',
+    '目盛りの外'
+  ),
+};
+const groupLabels = {
+  imporre: [
+    side.push,
+    s('Imporre', 'Imposing', 'Imponer', 'Imposer', 'Vnucovat', 'Narzucać', 'Dayatmak', 'Aufzwingen', '押しつける'),
+  ],
+  convincere: [
+    side.push,
+    s(
+      'Convincere',
+      'Persuading',
+      'Convencer',
+      'Convaincre',
+      'Přesvědčovat',
+      'Przekonywać',
+      'İkna etmek',
+      'Überzeugen',
+      '説得する'
+    ),
+  ],
+  incoraggiare: [
+    side.push,
+    s(
+      'Incoraggiare',
+      'Encouraging',
+      'Animar',
+      'Encourager',
+      'Povzbuzovat',
+      'Zachęcać',
+      'Cesaretlendirmek',
+      'Ermutigen',
+      '励ます'
+    ),
+  ],
+  insieme: [
+    side.middle,
+    s('Insieme', 'Together', 'Juntos', 'Ensemble', 'Spolu', 'Razem', 'Birlikte', 'Gemeinsam', '一緒に'),
+  ],
+  scoraggiare: [
+    side.stop,
+    s(
+      'Scoraggiare',
+      'Discouraging',
+      'Desanimar',
+      'Décourager',
+      'Odrazovat',
+      'Zniechęcać',
+      'Cesaretini kırmak',
+      'Entmutigen',
+      'やる気をそぐ'
+    ),
+  ],
+  ostacolare: [
+    side.stop,
+    s(
+      'Ostacolare',
+      'Hindering',
+      'Obstaculizar',
+      'Entraver',
+      'Překážet',
+      'Utrudniać',
+      'Engellemek',
+      'Behindern',
+      '邪魔する'
+    ),
+  ],
+  proibire: [
+    side.stop,
+    s('Proibire', 'Forbidding', 'Prohibir', 'Interdire', 'Zakazovat', 'Zakazywać', 'Yasaklamak', 'Verbieten', '禁じる'),
+  ],
+  'di-nascosto': [
+    side.off,
+    s(
+      'Di nascosto',
+      'Behind someone’s back',
+      'A escondidas',
+      'En cachette',
+      'Potají',
+      'Po kryjomu',
+      'Gizlice',
+      'Heimlich',
+      'こっそり'
+    ),
+  ],
+  rispondere: [
+    side.off,
+    s(
+      'Come si risponde',
+      'How people respond',
+      'Cómo se responde',
+      'Comment on réagit',
+      'Jak reagovat',
+      'Jak reagować',
+      'Nasıl karşılık verilir',
+      'Wie man reagiert',
+      'どう応じるか'
+    ),
+  ],
+};
+const scale = {
+  it: 'I verbi sono in ordine: si parte da chi <strong>costringe</strong> a fare, si passa da chi fa le cose <strong>insieme</strong> e si arriva a chi <strong>proibisce</strong> di fare. In fondo ci sono i verbi di chi agisce di nascosto e di chi risponde.',
+  en: `The verbs are in order: from the strongest push to do something (${it('costringere')}), through working <strong>together</strong> (${it('collaborare')}), to the strongest stop (${it('proibire')}). At the end come the verbs for acting behind someone’s back and for responding.`,
+  es: `Los verbos están en orden: del empujón más fuerte a hacer algo (${it('costringere')}), pasando por hacer las cosas <strong>juntos</strong> (${it('collaborare')}), hasta el freno más fuerte (${it('proibire')}). Al final están los verbos para actuar a escondidas y para responder.`,
+  fr: `Les verbes sont dans l’ordre : de la pression la plus forte pour faire agir (${it('costringere')}), en passant par le fait d’agir <strong>ensemble</strong> (${it('collaborare')}), jusqu’à l’interdiction la plus forte (${it('proibire')}). À la fin viennent les verbes pour agir en cachette et pour réagir.`,
+  cs: `Slovesa jsou seřazená: od nejsilnějšího donucení něco udělat (${it('costringere')}) přes společnou práci, kdy lidé jednají <strong>spolu</strong> (${it('collaborare')}), až po nejsilnější zákaz (${it('proibire')}). Na konci jsou slovesa pro jednání potají a pro reakci.`,
+  pl: `Czasowniki są ułożone po kolei: od najsilniejszego zmuszania do działania (${it('costringere')}), przez działanie <strong>razem</strong> (${it('collaborare')}), aż po najsilniejszy zakaz (${it('proibire')}). Na końcu są czasowniki o działaniu po kryjomu i o reagowaniu.`,
+  tr: `Fiiller sıralıdır: bir şey yaptırmak için en güçlü baskıdan (${it('costringere')}), <strong>birlikte</strong> çalışmaya (${it('collaborare')}), oradan en güçlü yasağa (${it('proibire')}) kadar. Sonda gizlice davranmak ve karşılık vermek için fiiller var.`,
+  de: `Die Verben sind geordnet: vom stärksten Zwang, etwas zu tun (${it('costringere')}), über das <strong>gemeinsame</strong> Handeln (${it('collaborare')}) bis zum stärksten Verbot (${it('proibire')}). Am Ende stehen die Verben für heimliches Handeln und für Reaktionen.`,
+  ja: `動詞は順番に並んでいます。何かを無理にさせる一番強い働きかけ（${it('costringere')}）から、<strong>一緒に</strong>行うこと（${it('collaborare')}）を経て、一番強い禁止（${it('proibire')}）まで。最後に、こっそり行う動詞と、それにどう応じるかの動詞があります。`,
+};
+
+/** Per ogni lingua: il paragrafo sulla scala e, per ogni gruppo, occhiello e titolo. */
+export const influenceVerbGroupUi = Object.fromEntries(
+  LANGS.map((lang) => [
+    lang,
+    {
+      intro: scale[lang],
+      labels: Object.fromEntries(
+        Object.entries(groupLabels).map(([id, [kicker, title]]) => [id, { kicker: kicker[lang], title: title[lang] }])
+      ),
+    },
+  ])
+);

@@ -766,3 +766,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 ## 2026-10-02 - Tariffa a 14 €
 
 - **Tariffa: 14 € per entrambi gli insegnanti** (prima 12 €). Cambiata in ogni punto in cui compariva, con gli stessi formati locali della decisione del 2026-08-25: hero, schede insegnante, pagine «Chi siamo», title, meta description, Open Graph e JSON-LD, in tutte e 9 le lingue (`src/html/` e `src/pages/`), più gli script di manutenzione `scripts/seo-boost.mjs`, `scripts/sync-english-home.mjs`, `scripts/update-teacher-journey.mjs` e `scripts/update-teacher-profiles.mjs`, che altrimenti reintrodurrebbero 12 €.
+
+## 2026-10-06 - «I verbi di influenza» in ordine logico
+
+- Richiesta di Martin: ordinare i verbi «partendo da quelli che esprimono l'induzione a fare, come costringere e obbligare, per poi passare per collaborare, incoraggiare, poi scoraggiare e infine ostacolare, proibire, impedire», con sottocategorie.
+- La pagina ora è una **scala simmetrica** con un titolo visibile per ogni gruppo: spingere a fare (imporre → convincere → incoraggiare), al centro (insieme), frenare (scoraggiare → ostacolare → proibire); in fondo, fuori dalla scala, «di nascosto» e «come si risponde». Un paragrafo in testa alle schede spiega l'ordine, in 9 lingue.
+- Aggiunti **costringere** e **proibire**, le due estremità della scala: 35 verbi. Due foto `low` ($0,005).
+- Il generatore accetta `groups` e `groupUiFor` in qualsiasi lezione: si potranno dividere in gruppi anche le altre.

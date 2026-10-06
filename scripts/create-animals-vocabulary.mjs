@@ -154,8 +154,8 @@ import { sportVerbs, sportVerbTranslationExercises } from './data/sport-verbs.mj
 import { sportVerbPages, sportVerbUi } from './data/sport-verbs-pages.mjs';
 import { seaVerbs, seaVerbTranslationExercises } from './data/sea-verbs.mjs';
 import { seaVerbPages, seaVerbUi } from './data/sea-verbs-pages.mjs';
-import { influenceVerbs, influenceVerbTranslationExercises } from './data/influence-verbs.mjs';
-import { influenceVerbPages, influenceVerbUi } from './data/influence-verbs-pages.mjs';
+import { influenceVerbs, influenceVerbGroups, influenceVerbTranslationExercises } from './data/influence-verbs.mjs';
+import { influenceVerbPages, influenceVerbUi, influenceVerbGroupUi } from './data/influence-verbs-pages.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 import { sportVocabulary, sportTranslationExercises, sportExampleWord } from './data/sport-vocabulary.mjs';
 import { sportPages } from './data/sport-pages.mjs';
@@ -177,7 +177,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
 const review = process.argv.includes('--review');
 const LANGS = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
-const MATCH_ASSET_VERSION = '20260926';
+const MATCH_ASSET_VERSION = '20261006';
 
 /** La lezione della cucina, che fa da stampo: stesso impianto, gia' tradotto. */
 const kitchen = {
@@ -607,6 +607,9 @@ const lessons = {
     bankPage: influenceVerbPages,
     bankLessonId: 'verbi-influenza',
     level: ['A2', 'B1'],
+    // Le schede divise in gruppi con un titolo (2026-10-06): una scala da «costringere» a «proibire».
+    groups: influenceVerbGroups,
+    groupUiFor: (lang) => influenceVerbGroupUi[lang],
     seeds: [2461, 2462],
     uiFor: (lang) => ({
       ...traitUi[lang],
@@ -706,6 +709,29 @@ function buildCard(word, template, lang, isMatch) {
                 <button class="speak-word" data-word="${escapeAttribute(spoken)}" type="button">${escapeHtml(template.speakLabel)}</button>
               </div>
             </article>`;
+}
+
+/**
+ * Le schede in gruppi, ognuno con occhiello e titolo che occupano tutta la riga della griglia (`.word-group-title`
+ * in match.css), preceduti dal paragrafo che spiega l'ordine. Le parole seguono l'ordine dei gruppi.
+ */
+function buildGroupedCards(lesson, template, lang, isMatch) {
+  const ui = lesson.groupUiFor(lang);
+  const bySlug = new Map(lesson.words.map((w) => [w.slug, w]));
+  const parts = [`<p class="word-group-intro">${ui.intro}</p>`];
+  for (const group of lesson.groups) {
+    const label = ui.labels[group.id];
+    if (!label) throw new Error(`${lang}: manca l'etichetta del gruppo «${group.id}»`);
+    parts.push(
+      `<h2 class="word-group-title"><span class="word-group-kicker">${escapeHtml(label.kicker)}</span> ${escapeHtml(label.title)}</h2>`
+    );
+    for (const slug of group.slugs) {
+      const word = bySlug.get(slug);
+      if (!word) throw new Error(`gruppo «${group.id}»: la parola «${slug}» non c'è`);
+      parts.push(buildCard(word, template, lang, isMatch));
+    }
+  }
+  return parts;
 }
 
 function buildTest(word, template, index) {
@@ -1027,7 +1053,10 @@ function buildPage(lesson, lang) {
     out,
     'word-grid',
     '\n            ' +
-      lesson.words.map((w) => buildCard(w, template, lang, isMatch)).join('\n            ') +
+      (lesson.groups
+        ? buildGroupedCards(lesson, template, lang, isMatch)
+        : lesson.words.map((w) => buildCard(w, template, lang, isMatch))
+      ).join('\n            ') +
       '\n          '
   );
   if (!isMatch) {

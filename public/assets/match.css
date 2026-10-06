@@ -354,3 +354,27 @@
     animation: none;
   }
 }
+
+/* Schede divise in gruppi con un titolo (2026-10-06, «I verbi di influenza»): il paragrafo sull'ordine e
+   i titoli dei gruppi occupano tutta la riga della griglia. */
+.word-grid > .word-group-intro {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+}
+.word-grid > .word-group-title {
+  grid-column: 1 / -1;
+  margin: 28px 0 -2px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--line);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+}
+.word-group-kicker {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}

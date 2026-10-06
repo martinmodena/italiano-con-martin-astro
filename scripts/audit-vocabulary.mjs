@@ -399,9 +399,9 @@ const routes = {
     ja: 'ja/goi/italian-sea-verbs-vocabulary.html',
   },
   'verbi-influenza': {
-    count: 33,
+    count: 35,
     tests: 0,
-    match: { positive: 33 },
+    match: { positive: 35 },
     it: 'vocabolario/verbi-influenza.html',
     en: 'en/vocabulary/italian-influence-verbs-vocabulary.html',
     es: 'es/vocabulario/vocabulario-verbos-de-influencia-en-italiano.html',
