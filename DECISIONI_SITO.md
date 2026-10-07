@@ -833,3 +833,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Quarta pagina dei falsi amici, `de/wortschatz/falsche-freunde-italienisch-deutsch.html`, stesso schema: 20 parole (camera, tassa, firma, nonna, latte, costume, dose, cantina, magazzino, regalo, mappa, tappeto, stufa, alto, chef, notizia, sole, mantello, confetti, caldo). Il tedesco ha meno falsi amici con l'italiano: 20 invece di 21.
 - Cinque vignette riusate dalla pagina inglese (camera, cantina, magazzino, confetti, caldo); 15 nuove, _tassa_ rifatta perché aveva la scritta «TAX». Circa $0,14. Prompt in `docs/prompt-immagini-falsi-amici-de.md`.
 - _Eventualmente_ non è un falso amico per il tedesco (_eventuell_ vuol dire quasi lo stesso): la nota spiega invece _il tempo_ (Zeit, Wetter; non Tempo).
+
+## 2026-10-07 - Lettura di scienza «Il picchio»
+
+- Richiesta di Martin: un articolo sul picchio e sulla lingua che protegge il cervello, con il periodo ipotetico («se non usasse questo sistema…») e anche un livello A1.
+- `letture/il-picchio-e-la-lingua-intorno-al-cervello.html`, 9 lingue, PDF, stesso generatore delle letture di scienza. Tre livelli: **A1** presente dei verbi regolari (Sara e il papà sentono un picchio nel parco), **A2** passato prossimo o imperfetto (che cosa si credeva, che cosa hanno scoperto nel 2022), **B2** periodo ipotetico (lezione `b2/periodo-ipotetico`, l'unica sul tema).
+- **La sorpresa è una correzione**: la lingua (con l'apparato ioideo) gira davvero intorno al cranio, ma che faccia da «cintura di sicurezza» è un'ipotesi. Lo studio di Van Wassenbergh e altri (_Current Biology_, 2022) ha mostrato che la testa non ammortizza: è un martello, e il cervello si salva soprattutto perché è piccolo. Il B2 cita anche la domanda aperta della proteina tau (Farah e altri, 2018). Per questo il periodo ipotetico del testo dice «se il picchio fosse grande come un'aquila, rischierebbe…» invece di «se non usasse la lingua, si danneggerebbe».
+- Testata con il modello di qualità, due tentativi ($0,27); prompt in `docs/prompt-immagine-picchio-2026-10-07.md`.
