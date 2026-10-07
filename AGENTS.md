@@ -183,6 +183,8 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
 - Gli URL pubblici non si cambiano: sono indicizzati. I vecchi percorsi restano come redirect `noindex` in `public/`.
 
+- **Si pubblica senza chiedere** (Martin, 2026-10-07: «non serve il mio permesso, mi fido di te»): quando il lavoro è finito e gli audit qui sopra passano, commit e push su `main` direttamente.
+
 - Il deploy parte da solo al push su `main` (`.github/workflows/deploy.yml`): build → audit → pubblicazione.
 
 ## Da non fare
