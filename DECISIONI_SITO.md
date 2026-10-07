@@ -840,3 +840,13 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - `letture/il-picchio-e-la-lingua-intorno-al-cervello.html`, 9 lingue, PDF, stesso generatore delle letture di scienza. Tre livelli: **A1** presente dei verbi regolari (Sara e il papà sentono un picchio nel parco), **A2** passato prossimo o imperfetto (che cosa si credeva, che cosa hanno scoperto nel 2022), **B2** periodo ipotetico (lezione `b2/periodo-ipotetico`, l'unica sul tema).
 - **La sorpresa è una correzione**: la lingua (con l'apparato ioideo) gira davvero intorno al cranio, ma che faccia da «cintura di sicurezza» è un'ipotesi. Lo studio di Van Wassenbergh e altri (_Current Biology_, 2022) ha mostrato che la testa non ammortizza: è un martello, e il cervello si salva soprattutto perché è piccolo. Il B2 cita anche la domanda aperta della proteina tau (Farah e altri, 2018). Per questo il periodo ipotetico del testo dice «se il picchio fosse grande come un'aquila, rischierebbe…» invece di «se non usasse la lingua, si danneggerebbe».
 - Testata con il modello di qualità, due tentativi ($0,27); prompt in `docs/prompt-immagine-picchio-2026-10-07.md`.
+
+## 2026-10-07 - Cinque letture di scienza sugli animali
+
+- Richiesta di Martin: la tela del ragno «super resistente», più le altre idee proposte («falli tutti!»). Stesso generatore e stesso schema del picchio, 9 lingue, PDF.
+- **Il ragno** (`letture/la-tela-del-ragno-piu-forte-dell-acciaio.html`): A1 aggettivi · B1 comparativo e superlativo (la seta è più forte dell'acciaio solo a parità di peso; il vero record è la tenacità, il ragno della corteccia di Darwin) · C1 forma passiva (i ragnetti di Darwin sulla Beagle e il volo con l'elettricità dell'aria, Morley e Robert 2018).
+- **Il colibrì** (`letture/il-colibri-cuore-velocissimo.html`): A1 numeri · A2 stare + gerundio (il torpore notturno, 3,26 gradi, Wolf e altri 2020).
+- **I corvi** (`letture/i-corvi-non-dimenticano-una-faccia.html`): A2 pronomi diretti · B1 connettivi (l'esperimento delle maschere di Marzluff a Seattle, dal 2006 al 2023).
+- **L'anguilla** (`letture/il-mistero-dell-anguilla.html`): A2 imperfetto · C1 congiuntivo imperfetto (Aristotele, Freud a Trieste, Grassi e Calandruccio a Messina, Schmidt e i Sargassi, i satelliti del 2022).
+- **La rana dei boschi** (`letture/la-rana-che-si-congela.html`): A1 verbo essere · B1 condizionale presente (Larson e altri 2014: 193 giorni congelata).
+- Le grammatiche sono tutte diverse per allenare lezioni che non avevano ancora una lettura. Testate al primo tentativo, $0,67; prompt in `docs/prompt-immagini-letture-animali-2026-10-07.md`.
