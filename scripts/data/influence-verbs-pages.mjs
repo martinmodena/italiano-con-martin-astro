@@ -26,7 +26,7 @@ export const influenceVerbPages = {
     title: 'Verbi di influenza in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani per influenzare gli altri — incoraggiare, convincere, consigliare, obbligare, permettere, vietare, impedire, ostacolare, collaborare, ingannare — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Sei scene: un papà che incoraggia la figlia in bicicletta, una dottoressa che sconsiglia una bibita a un paziente, un giocatore di basket che ostacola un avversario, una squadra che unisce le mani, una mamma che obbliga il figlio a mangiare i broccoli e una guardia di museo che vieta una foto',
+      'Un papà corre accanto alla figlia piccola che va in bicicletta per la prima volta, su un sentiero nel parco',
     cardText: `${V} verbi per influenzare gli altri: incoraggiare, convincere, obbligare, impedire, collaborare…`,
   },
   en: {
@@ -36,7 +36,7 @@ export const influenceVerbPages = {
     title: 'Verbs of influence | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for influencing other people — to encourage, to convince, to advise, to force, to allow, to forbid, to prevent, to hinder, to collaborate, to deceive — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Six scenes: a father encouraging his daughter on her bike, a doctor advising a patient against a fizzy drink, a basketball player blocking an opponent, a team stacking their hands, a mother making her son eat broccoli and a museum guard forbidding a photo',
+      'A father runs beside his little daughter as she rides a bicycle for the first time, on a path in the park',
     cardText: `${V} verbs for influencing others: to encourage, to convince, to force, to prevent, to collaborate…`,
   },
   es: {
@@ -46,7 +46,7 @@ export const influenceVerbPages = {
     title: 'Los verbos de influencia | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos para influir en los demás — animar, convencer, aconsejar, obligar, permitir, prohibir, impedir, obstaculizar, colaborar, engañar — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Seis escenas: un padre que anima a su hija en bicicleta, una médica que desaconseja un refresco a un paciente, un jugador de baloncesto que obstaculiza a un rival, un equipo que junta las manos, una madre que obliga a su hijo a comer brócoli y una vigilante de museo que prohíbe una foto',
+      'Un padre corre junto a su hija pequeña, que monta en bicicleta por primera vez, por un camino del parque',
     cardText: `${V} verbos para influir en los demás: animar, convencer, obligar, impedir, colaborar…`,
   },
   fr: {
@@ -56,7 +56,7 @@ export const influenceVerbPages = {
     title: 'Les verbes d’influence | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens pour influencer les autres — encourager, convaincre, conseiller, obliger, permettre, interdire, empêcher, entraver, collaborer, tromper — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Six scènes : un père qui encourage sa fille à vélo, une médecin qui déconseille un soda à un patient, un basketteur qui gêne un adversaire, une équipe qui joint les mains, une mère qui oblige son fils à manger des brocolis et une gardienne de musée qui interdit une photo',
+      'Un papa court à côté de sa petite fille qui fait du vélo pour la première fois, sur un chemin dans le parc',
     cardText: `${V} verbes pour influencer les autres : encourager, convaincre, obliger, empêcher, collaborer…`,
   },
   cs: {
@@ -66,7 +66,7 @@ export const influenceVerbPages = {
     title: 'Slovesa vlivu | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves, kterými ovlivňujeme druhé — povzbuzovat, přesvědčit, radit, nutit, dovolit, zakázat, zabránit, překážet, spolupracovat, oklamat — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Šest scén: táta povzbuzuje dceru na kole, lékařka pacientovi nedoporučuje limonádu, basketbalista brání soupeři, tým spojuje ruce, máma nutí syna jíst brokolici a hlídačka v muzeu zakazuje fotit',
+      'Táta běží vedle malé dcery, která poprvé jede na kole, po cestě v parku',
     cardText: `${V} sloves, kterými ovlivňujeme druhé: povzbuzovat, přesvědčit, nutit, zabránit, spolupracovat…`,
   },
   pl: {
@@ -76,7 +76,7 @@ export const influenceVerbPages = {
     title: 'Czasowniki wpływu | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników, którymi wpływamy na innych — zachęcać, przekonać, radzić, zmuszać, pozwalać, zakazywać, uniemożliwić, przeszkadzać, współpracować, oszukiwać — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sześć scen: tata zachęca córkę jadącą na rowerze, lekarka odradza pacjentowi słodki napój, koszykarz blokuje przeciwnika, drużyna łączy dłonie, mama zmusza syna do jedzenia brokułów, a strażniczka w muzeum zakazuje robienia zdjęć',
+      'Tata biegnie obok małej córeczki, która pierwszy raz jedzie na rowerze, ścieżką w parku',
     cardText: `${V} czasowników, którymi wpływamy na innych: zachęcać, przekonać, zmuszać, uniemożliwić, współpracować…`,
   },
   tr: {
@@ -86,7 +86,7 @@ export const influenceVerbPages = {
     title: 'Etki fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Başkalarını etkilemek için ${V} İtalyanca fiil öğrenin — cesaretlendirmek, ikna etmek, tavsiye etmek, zorlamak, izin vermek, yasaklamak, engel olmak, engellemek, iş birliği yapmak, kandırmak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Altı sahne: bisiklet süren kızını cesaretlendiren bir baba, hastasına gazlı içeceği tavsiye etmeyen bir doktor, rakibini engelleyen bir basketbolcu, ellerini birleştiren bir takım, oğlunu brokoli yemeye zorlayan bir anne ve fotoğraf çekmeyi yasaklayan bir müze görevlisi',
+      'Bir baba, parktaki bir patikada ilk kez bisiklete binen küçük kızının yanında koşuyor',
     cardText: `Başkalarını etkilemek için ${V} fiil: cesaretlendirmek, ikna etmek, zorlamak, engel olmak, iş birliği yapmak…`,
   },
   de: {
@@ -96,7 +96,7 @@ export const influenceVerbPages = {
     title: 'Verben des Einflusses | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben, mit denen wir andere beeinflussen — ermutigen, überzeugen, raten, zwingen, erlauben, verbieten, verhindern, behindern, zusammenarbeiten, täuschen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Sechs Szenen: ein Vater ermutigt seine Tochter auf dem Fahrrad, eine Ärztin rät einem Patienten von einer Limonade ab, ein Basketballspieler behindert einen Gegner, ein Team legt die Hände zusammen, eine Mutter zwingt ihren Sohn, Brokkoli zu essen, und eine Museumswärterin verbietet ein Foto',
+      'Ein Vater läuft neben seiner kleinen Tochter her, die zum ersten Mal Fahrrad fährt, auf einem Weg im Park',
     cardText: `${V} Verben, mit denen wir andere beeinflussen: ermutigen, überzeugen, zwingen, verhindern, zusammenarbeiten …`,
   },
   ja: {
@@ -106,7 +106,7 @@ export const influenceVerbPages = {
     title: '人に働きかける動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `励ます、説得する、勧める、強いる、許可する、禁止する、防ぐ、邪魔する、協力する、だますなど、人に働きかけるイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '6つの場面：自転車に乗る娘を励ます父親、患者に炭酸飲料をやめるよう言う医師、相手の選手を邪魔するバスケットボール選手、手を重ねるチーム、息子にブロッコリーを食べさせる母親、写真撮影を禁止する美術館の警備員',
+      '公園の小道で、初めて自転車に乗る小さな娘のそばを走るお父さん',
     cardText: `人に働きかける動詞 ${V} 語：励ます、説得する、強いる、防ぐ、協力する…`,
   },
 };

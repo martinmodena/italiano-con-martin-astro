@@ -26,7 +26,7 @@ export const mountainVerbPages = {
     title: 'Verbi della montagna in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani della montagna — fare un’escursione, salire in cima, fare una sosta, montare la tenda, accendere un falò, sciare, andare in slittino, spalare la neve — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Sei scene di montagna: escursionisti su un sentiero, una scalatrice su una parete di roccia, una tenda montata su un prato, amici intorno a un falò, uno sciatore sulla neve e bambini che vanno in slittino',
+      'Un escursionista con lo zaino cammina su un sentiero tra i prati verso le cime delle Dolomiti',
     cardText: `${V} verbi per la montagna: fare un’escursione, salire in cima, montare la tenda, sciare, andare in slittino…`,
   },
   en: {
@@ -36,7 +36,7 @@ export const mountainVerbPages = {
     title: 'Mountain verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for the mountains — to go hiking, to climb to the top, to stop for a rest, to put up the tent, to light a campfire, to ski, to go sledging, to shovel snow — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Six mountain scenes: hikers on a trail, a climber on a rock face, a tent on a meadow, friends around a campfire, a skier on the snow and children sledging',
+      'A hiker with a backpack walks along a path through the meadows towards the peaks of the Dolomites',
     cardText: `${V} verbs for the mountains: to go hiking, to climb to the top, to put up the tent, to ski, to go sledging…`,
   },
   es: {
@@ -46,7 +46,7 @@ export const mountainVerbPages = {
     title: 'Los verbos de la montaña | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos de la montaña — hacer una excursión, subir a la cima, hacer una parada, montar la tienda, encender una hoguera, esquiar, ir en trineo, quitar la nieve — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Seis escenas de montaña: excursionistas en un sendero, una escaladora en una pared de roca, una tienda en un prado, amigos alrededor de una hoguera, un esquiador en la nieve y niños en trineo',
+      'Un excursionista con mochila camina por un sendero entre prados hacia las cumbres de los Dolomitas',
     cardText: `${V} verbos para la montaña: hacer una excursión, subir a la cima, montar la tienda, esquiar, ir en trineo…`,
   },
   fr: {
@@ -56,7 +56,7 @@ export const mountainVerbPages = {
     title: 'Les verbes de la montagne | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens de la montagne — faire une randonnée, monter au sommet, faire une halte, monter la tente, allumer un feu de camp, skier, faire de la luge, déneiger — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Six scènes de montagne : des randonneurs sur un sentier, une grimpeuse sur une paroi rocheuse, une tente sur un pré, des amis autour d’un feu de camp, un skieur sur la neige et des enfants qui font de la luge',
+      'Un randonneur avec son sac à dos marche sur un sentier à travers les prés vers les sommets des Dolomites',
     cardText: `${V} verbes pour la montagne : faire une randonnée, monter au sommet, monter la tente, skier, faire de la luge…`,
   },
   cs: {
@@ -66,7 +66,7 @@ export const mountainVerbPages = {
     title: 'Slovesa na horách | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves z hor — jít na túru, vystoupat na vrchol, udělat si zastávku, postavit stan, rozdělat táborák, lyžovat, sáňkovat, odhazovat sníh — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Šest horských scén: turisté na stezce, horolezkyně na skalní stěně, stan na louce, přátelé u táboráku, lyžař na sněhu a děti na sáňkách',
+      'Turista s batohem jde po stezce loukami k vrcholkům Dolomit',
     cardText: `${V} sloves pro hory: jít na túru, vystoupat na vrchol, postavit stan, lyžovat, sáňkovat…`,
   },
   pl: {
@@ -76,7 +76,7 @@ export const mountainVerbPages = {
     title: 'Czasowniki w górach | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników z gór — pójść na wędrówkę, wejść na szczyt, zrobić postój, rozbić namiot, rozpalić ognisko, jeździć na nartach, zjeżdżać na sankach, odśnieżać — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sześć górskich scen: turyści na szlaku, wspinaczka na skalnej ścianie, namiot na łące, przyjaciele przy ognisku, narciarz na śniegu i dzieci na sankach',
+      'Turysta z plecakiem idzie ścieżką przez łąki w stronę szczytów Dolomitów',
     cardText: `${V} czasowników w górach: pójść na wędrówkę, wejść na szczyt, rozbić namiot, jeździć na nartach, zjeżdżać na sankach…`,
   },
   tr: {
@@ -86,7 +86,7 @@ export const mountainVerbPages = {
     title: 'Dağ fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Dağ için ${V} İtalyanca fiil öğrenin — doğa yürüyüşü yapmak, zirveye çıkmak, mola vermek, çadır kurmak, kamp ateşi yakmak, kayak yapmak, kızak kaymak, kar küremek — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Altı dağ sahnesi: patikada yürüyüşçüler, kaya duvarına tırmanan bir kadın, çayırda kurulu bir çadır, kamp ateşinin başında arkadaşlar, karda bir kayakçı ve kızak kayan çocuklar',
+      'Sırt çantalı bir yürüyüşçü, çayırların arasındaki bir patikada Dolomitlerin zirvelerine doğru yürüyor',
     cardText: `Dağ için ${V} fiil: doğa yürüyüşü yapmak, zirveye çıkmak, çadır kurmak, kayak yapmak, kızak kaymak…`,
   },
   de: {
@@ -96,7 +96,7 @@ export const mountainVerbPages = {
     title: 'Verben in den Bergen | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für die Berge — eine Wanderung machen, auf den Gipfel steigen, eine Rast machen, das Zelt aufbauen, ein Lagerfeuer machen, Ski fahren, Schlitten fahren, Schnee schippen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Sechs Bergszenen: Wanderer auf einem Pfad, eine Kletterin an einer Felswand, ein Zelt auf einer Wiese, Freunde am Lagerfeuer, ein Skifahrer im Schnee und Kinder beim Schlittenfahren',
+      'Ein Wanderer mit Rucksack geht auf einem Pfad durch die Wiesen auf die Gipfel der Dolomiten zu',
     cardText: `${V} Verben für die Berge: wandern, auf den Gipfel steigen, das Zelt aufbauen, Ski fahren, Schlitten fahren …`,
   },
   ja: {
@@ -106,7 +106,7 @@ export const mountainVerbPages = {
     title: '山の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `ハイキングをする、頂上に登る、ひと休みする、テントを張る、たき火をする、スキーをする、そりで滑る、雪かきをするなど、山で使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '山の6つの場面：山道を歩くハイカー、岩壁を登る女性、草原に張ったテント、たき火を囲む友だち、雪の上のスキーヤー、そりで滑る子どもたち',
+      'リュックを背負ったハイカーが、草原の小道をドロミテの山々へ向かって歩いている',
     cardText: `山で使う動詞 ${V} 語：ハイキングをする、頂上に登る、テントを張る、スキーをする、そりで滑る…`,
   },
 };

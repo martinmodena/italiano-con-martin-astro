@@ -28,7 +28,7 @@ export const schoolVerbPages = {
     title: 'Verbi della scuola in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani della scuola — studiare, imparare, ripassare, prendere appunti, alzare la mano, spiegare, sbagliare, correggere, superare un esame — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Sei scene di scuola: una bambina alza la mano, un ragazzo prende appunti, la maestra spiega alla lavagna, due studenti fanno un esperimento, un bambino disegna e una ragazza festeggia la laurea con la corona d’alloro',
+      'Una bambina sorridente seduta al banco alza la mano in un’aula con la lavagna verde',
     cardText: `${V} verbi per la scuola: studiare, imparare, ripassare, alzare la mano, spiegare, sbagliare, correggere…`,
   },
   en: {
@@ -38,7 +38,7 @@ export const schoolVerbPages = {
     title: 'School verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for school — to study, to learn, to revise, to take notes, to raise your hand, to explain, to make a mistake, to correct, to pass an exam — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Six school scenes: a girl raises her hand, a boy takes notes, the teacher explains at the blackboard, two students do an experiment, a child draws and a young woman celebrates her graduation with a laurel wreath',
+      'A smiling girl sitting at her desk raises her hand in a classroom with a green chalkboard',
     cardText: `${V} verbs for school: to study, to learn, to revise, to raise your hand, to explain, to make a mistake, to correct…`,
   },
   es: {
@@ -48,7 +48,7 @@ export const schoolVerbPages = {
     title: 'Los verbos de la escuela | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos de la escuela — estudiar, aprender, repasar, tomar apuntes, levantar la mano, explicar, equivocarse, corregir, aprobar un examen — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Seis escenas de escuela: una niña levanta la mano, un chico toma apuntes, la maestra explica en la pizarra, dos estudiantes hacen un experimento, un niño dibuja y una joven celebra su graduación con una corona de laurel',
+      'Una niña sonriente sentada en su pupitre levanta la mano en un aula con una pizarra verde',
     cardText: `${V} verbos para la escuela: estudiar, aprender, repasar, levantar la mano, explicar, equivocarse, corregir…`,
   },
   fr: {
@@ -58,7 +58,7 @@ export const schoolVerbPages = {
     title: 'Les verbes de l’école | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens de l’école — étudier, apprendre, réviser, prendre des notes, lever la main, expliquer, se tromper, corriger, réussir un examen — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Six scènes d’école : une fillette lève la main, un garçon prend des notes, la maîtresse explique au tableau, deux élèves font une expérience, un enfant dessine et une jeune femme fête son diplôme avec une couronne de laurier',
+      'Une petite fille souriante assise à son pupitre lève la main dans une salle de classe avec un tableau vert',
     cardText: `${V} verbes pour l’école : étudier, apprendre, réviser, lever la main, expliquer, se tromper, corriger…`,
   },
   cs: {
@@ -68,7 +68,7 @@ export const schoolVerbPages = {
     title: 'Slovesa ve škole | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves ze školy — učit se, naučit se, opakovat si, dělat si poznámky, hlásit se, vysvětlit, udělat chybu, opravit, udělat zkoušku — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Šest školních scén: holčička se hlásí, chlapec si dělá poznámky, paní učitelka vysvětluje u tabule, dva studenti dělají pokus, dítě kreslí a mladá žena slaví promoci s vavřínovým věncem',
+      'Usměvavá holčička sedí v lavici a hlásí se ve třídě se zelenou tabulí',
     cardText: `${V} sloves pro školu: učit se, naučit se, opakovat si, hlásit se, vysvětlit, udělat chybu, opravit…`,
   },
   pl: {
@@ -78,7 +78,7 @@ export const schoolVerbPages = {
     title: 'Czasowniki w szkole | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników ze szkoły — uczyć się, nauczyć się, powtarzać, robić notatki, podnieść rękę, wyjaśniać, pomylić się, poprawiać, zdać egzamin — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sześć scen ze szkoły: dziewczynka podnosi rękę, chłopak robi notatki, nauczycielka tłumaczy przy tablicy, dwoje uczniów robi doświadczenie, dziecko rysuje, a młoda kobieta świętuje obronę dyplomu z wieńcem laurowym',
+      'Uśmiechnięta dziewczynka siedzi w ławce i podnosi rękę w klasie z zieloną tablicą',
     cardText: `${V} czasowników do szkoły: uczyć się, nauczyć się, powtarzać, podnieść rękę, wyjaśniać, pomylić się, poprawiać…`,
   },
   tr: {
@@ -88,7 +88,7 @@ export const schoolVerbPages = {
     title: 'Okul fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Okul için ${V} İtalyanca fiil öğrenin — ders çalışmak, öğrenmek, tekrar etmek, not almak, parmak kaldırmak, açıklamak, hata yapmak, düzeltmek, sınavı geçmek — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Altı okul sahnesi: parmak kaldıran bir kız, not alan bir oğlan, tahtada anlatan öğretmen, deney yapan iki öğrenci, resim çizen bir çocuk ve defne tacıyla mezuniyetini kutlayan genç bir kadın',
+      'Sırasında oturan gülümseyen bir kız, yeşil kara tahtalı bir sınıfta elini kaldırıyor',
     cardText: `Okul için ${V} fiil: ders çalışmak, öğrenmek, tekrar etmek, parmak kaldırmak, açıklamak, hata yapmak, düzeltmek…`,
   },
   de: {
@@ -98,7 +98,7 @@ export const schoolVerbPages = {
     title: 'Verben in der Schule | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für die Schule — lernen, wiederholen, mitschreiben, sich melden, erklären, einen Fehler machen, korrigieren, eine Prüfung bestehen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Sechs Schulszenen: Ein Mädchen meldet sich, ein Junge schreibt mit, die Lehrerin erklärt an der Tafel, zwei Schüler machen ein Experiment, ein Kind zeichnet und eine junge Frau feiert ihren Abschluss mit einem Lorbeerkranz',
+      'Ein lächelndes Mädchen sitzt an seinem Pult und meldet sich in einem Klassenzimmer mit grüner Tafel',
     cardText: `${V} Verben für die Schule: lernen, wiederholen, sich melden, erklären, einen Fehler machen, korrigieren …`,
   },
   ja: {
@@ -108,7 +108,7 @@ export const schoolVerbPages = {
     title: '学校の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `勉強する、学ぶ、復習する、ノートを取る、手を挙げる、説明する、間違える、直す、試験に合格するなど、学校で使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '学校の6つの場面：手を挙げる女の子、ノートを取る男の子、黒板の前で説明する先生、実験をする2人の生徒、絵を描く子ども、月桂冠をかぶって卒業を祝う若い女性',
+      '緑の黒板のある教室で、机に座ってにこにこと手を挙げる女の子',
     cardText: `学校で使う動詞 ${V} 語：勉強する、学ぶ、復習する、手を挙げる、説明する、間違える、直す…`,
   },
 };

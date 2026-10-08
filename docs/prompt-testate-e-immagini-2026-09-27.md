@@ -1,59 +1,53 @@
 
 
-## 2026-10-08 — Le testate a cartone animato diventano foto
+## 2026-10-08 — I mosaici dei verbi diventano una foto sola
 
-Martin: «rifai anche i disegni a cartone animato con foto». Rifatte con lo stesso comando delle altre (`gemini-3-pro-image`, circa $0,13 l'una, $1,21 in tutto). Per i falsi amici l'idea è un oggetto tipico dell'altro paese accanto al suo «cugino» italiano. Le vignette dentro le lezioni dei falsi amici restano disegni: sono il contenuto degli esercizi, non la testata.
+Martin: «rifai anche i mosaici dei verbi con una foto sola». Le otto testate a mosaico (6 riquadri) sono state rifatte con una sola azione ben riconoscibile, stesso comando delle altre (`gemini-3-pro-image`, circa $0,13 l'una, $1,35 in tutto con due rifacimenti). Rifatte due volte: `verbi-scuola` (la prima bambina aveva una divisa scolastica giapponese: nel prompt ora «Italian… casual everyday clothes, no uniform») e `verbi-mare` (la prima nuotatrice era minuscola: ora «seen fairly close at water level»). Qui sotto i prompt definitivi.
 
-### `animali-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single red fox sitting calmly in a green meadow with a few wild flowers, looking at the camera, soft warm morning light, shallow depth of field; the background is softly blurred rolling Italian hills. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
-```
-
-### `caratteristiche-animali-hero` (2026-10-08)
+### `verbi-citta-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single peacock with its colourful tail fully open, standing on green grass, soft natural light, shallow depth of field; the background is a softly blurred, plain green garden. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a young woman riding a bicycle along a quiet cobbled street of an Italian town, seen from the side, soft morning light; the warm ochre facades behind her softly blurred. Calm, clean composition with lots of empty space, one subject only, no other people, no borders, no brand logos, no text.
 ```
 
-### `caratteristiche-fisiche-hero` (2026-10-08)
+### `verbi-corpo-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single tall giraffe standing in a savannah, its long neck stretching up, seen in full, soft golden light; the background is a softly blurred plain with a pale sky. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a young woman in a white t-shirt stretching her arms up high and smiling, just woken up, standing by a bright window with white curtains in soft morning light; the background is a plain, softly blurred white room. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `verbi-animali-hero` (2026-10-08)
+### `verbi-influenza-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single golden eagle flying with its wings fully spread against a clear pale blue sky, sharp in focus; far below, very softly blurred, the tops of mountains. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a smiling father running beside his little daughter who rides a bicycle for the first time, his hand encouraging her, on a quiet path in a park, soft golden afternoon light; the background softly blurred trees. Calm, clean composition with lots of empty space, one scene only, no other people, no borders, no brand logos, no text.
 ```
 
-### `mare-hero` (2026-10-08)
+### `verbi-mare-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single striped beach umbrella and one wooden deckchair on an empty sandy beach, the calm turquoise Mediterranean sea behind, soft morning light; in the far distance, softly blurred, a rocky Italian coastline. Calm, clean composition with lots of empty space, one subject only, no people, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a young woman swimming breaststroke in calm, crystal-clear turquoise sea, seen fairly close at water level, her head and shoulders and arms clearly visible, sunlight sparkling on the water; in the far background, softly blurred, a rocky Italian coastline. Calm, clean composition with lots of empty space, one subject only, no other people, no borders, no brand logos, no text.
 ```
 
-### `falsi-amici-en-hero` (2026-10-08)
+### `verbi-montagna-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a classic white English porcelain teapot and an Italian aluminium moka coffee pot standing side by side on a plain light wooden table, as if facing each other, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single hiker with a backpack walking away from the camera on a narrow trail through an alpine meadow, towards the pale peaks of the Italian Dolomites softly blurred in the distance, soft morning light. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `falsi-amici-fr-hero` (2026-10-08)
+### `verbi-scuola-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a long French baguette and a rustic Italian ciabatta lying side by side on a plain light wooden table, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a smiling Italian schoolgirl of about nine, in casual everyday clothes (a striped t-shirt, no uniform), sitting at a simple wooden desk in a primary school in Italy and eagerly raising her hand, seen from the side, soft daylight from a tall window; the classroom behind her is plain and softly blurred, with a green chalkboard. Calm, clean composition with lots of empty space, one subject only, no other people, no borders, no brand logos, no text.
 ```
 
-### `falsi-amici-es-hero` (2026-10-08)
+### `verbi-sport-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a Spanish classical guitar and an Italian mandolin leaning side by side against a plain warm white wall, on a light wooden floor, soft natural light, shallow depth of field. Calm, clean composition with lots of empty space, no people, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a young woman running alone on a quiet country road at sunrise, seen from the side in mid-stride, plain sports clothes; the background is softly blurred Italian hills with cypresses in golden light. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `falsi-amici-de-hero` (2026-10-08)
+### `verbi-ufficio-hero` (2026-10-08, foto sola)
 
 ```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a German pretzel and a small bundle of Italian grissini breadsticks lying side by side on a plain light wooden table, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a close-up of two people shaking hands across a light wooden desk, only their hands and forearms in white and light blue shirt sleeves visible, soft daylight; the background is a bright, softly blurred office with a large window. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```

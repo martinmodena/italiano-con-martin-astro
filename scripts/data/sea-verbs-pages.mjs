@@ -26,7 +26,7 @@ export const seaVerbPages = {
     title: 'Verbi del mare in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani del mare — andare al mare, aprire l’ombrellone, abbronzarsi, fare un castello di sabbia, fare il morto, saltare le onde, salpare, pescare, avere il mal di mare — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Sei scene di mare: bambini che fanno un castello di sabbia, una ragazza che fa snorkeling tra i pesci, una barca a vela, bambini che saltano le onde, un pescatore sul molo e una coppia che guarda il tramonto',
+      'Una donna nuota a rana nel mare trasparente e turchese, con la costa rocciosa italiana sullo sfondo',
     cardText: `${V} verbi per il mare: andare al mare, abbronzarsi, fare il morto, saltare le onde, salpare, pescare…`,
   },
   en: {
@@ -36,7 +36,7 @@ export const seaVerbPages = {
     title: 'Sea verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for the sea — to go to the seaside, to open the beach umbrella, to get a tan, to build a sandcastle, to float on your back, to jump over the waves, to set sail, to fish, to be seasick — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Six seaside scenes: children building a sandcastle, a girl snorkelling among fish, a sailing boat, children jumping over the waves, a fisherman on the pier and a couple watching the sunset',
+      'A woman swims breaststroke in the clear turquoise sea, with the rocky Italian coast in the background',
     cardText: `${V} verbs for the sea: to go to the seaside, to get a tan, to float on your back, to set sail, to fish…`,
   },
   es: {
@@ -46,7 +46,7 @@ export const seaVerbPages = {
     title: 'Los verbos del mar | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos del mar — ir a la playa, abrir la sombrilla, broncearse, hacer un castillo de arena, hacer el muerto, saltar las olas, zarpar, pescar, marearse — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Seis escenas de mar: niños haciendo un castillo de arena, una chica haciendo esnórquel entre peces, un velero, niños saltando las olas, un pescador en el muelle y una pareja mirando la puesta de sol',
+      'Una mujer nada a braza en el mar transparente y turquesa, con la costa rocosa italiana al fondo',
     cardText: `${V} verbos para el mar: ir a la playa, broncearse, hacer el muerto, zarpar, pescar…`,
   },
   fr: {
@@ -56,7 +56,7 @@ export const seaVerbPages = {
     title: 'Les verbes de la mer | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens de la mer — aller à la mer, ouvrir le parasol, bronzer, faire un château de sable, faire la planche, sauter dans les vagues, appareiller, pêcher, avoir le mal de mer — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Six scènes de mer : des enfants qui font un château de sable, une jeune fille qui fait du snorkeling parmi les poissons, un voilier, des enfants qui sautent dans les vagues, un pêcheur sur la jetée et un couple qui regarde le coucher du soleil',
+      'Une femme nage la brasse dans la mer transparente et turquoise, avec la côte rocheuse italienne à l’arrière-plan',
     cardText: `${V} verbes pour la mer : aller à la mer, bronzer, faire la planche, appareiller, pêcher…`,
   },
   cs: {
@@ -66,7 +66,7 @@ export const seaVerbPages = {
     title: 'Slovesa u moře | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves od moře — jet k moři, otevřít slunečník, opálit se, postavit hrad z písku, splývat na zádech, skákat přes vlny, vyplout, rybařit, mít mořskou nemoc — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Šest scén od moře: děti stavějí hrad z písku, dívka šnorchluje mezi rybami, plachetnice, děti skáčou přes vlny, rybář na molu a pár, který se dívá na západ slunce',
+      'Žena plave prsa v průzračném tyrkysovém moři, v pozadí skalnaté italské pobřeží',
     cardText: `${V} sloves pro moře: jet k moři, opálit se, splývat na zádech, vyplout, rybařit…`,
   },
   pl: {
@@ -76,7 +76,7 @@ export const seaVerbPages = {
     title: 'Czasowniki nad morzem | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników znad morza — jechać nad morze, rozłożyć parasol, opalać się, zbudować zamek z piasku, unosić się na plecach, skakać przez fale, wypłynąć, łowić ryby, mieć chorobę morską — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sześć scen nad morzem: dzieci budujące zamek z piasku, dziewczyna nurkująca z rurką wśród ryb, żaglówka, dzieci skaczące przez fale, wędkarz na molo i para patrząca na zachód słońca',
+      'Kobieta pływa żabką w przejrzystym turkusowym morzu, w tle skaliste włoskie wybrzeże',
     cardText: `${V} czasowników nad morzem: jechać nad morze, opalać się, unosić się na plecach, wypłynąć, łowić ryby…`,
   },
   tr: {
@@ -86,7 +86,7 @@ export const seaVerbPages = {
     title: 'Deniz fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Deniz için ${V} İtalyanca fiil öğrenin — denize gitmek, şemsiyeyi açmak, bronzlaşmak, kumdan kale yapmak, sırtüstü suda durmak, dalgaların üstünden atlamak, demir almak, balık tutmak, deniz tutmak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Altı deniz sahnesi: kumdan kale yapan çocuklar, balıkların arasında şnorkelle yüzen bir kız, bir yelkenli, dalgaların üstünden atlayan çocuklar, iskelede bir balıkçı ve gün batımını seyreden bir çift',
+      'Bir kadın berrak, turkuaz denizde kurbağalama yüzüyor, arka planda kayalık İtalyan kıyısı',
     cardText: `Deniz için ${V} fiil: denize gitmek, bronzlaşmak, sırtüstü suda durmak, demir almak, balık tutmak…`,
   },
   de: {
@@ -96,7 +96,7 @@ export const seaVerbPages = {
     title: 'Verben am Meer | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für das Meer — ans Meer fahren, den Sonnenschirm aufspannen, braun werden, eine Sandburg bauen, toter Mann spielen, über die Wellen springen, auslaufen, angeln, seekrank sein — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Sechs Szenen am Meer: Kinder bauen eine Sandburg, ein Mädchen schnorchelt zwischen Fischen, ein Segelboot, Kinder springen über die Wellen, ein Angler auf dem Steg und ein Paar schaut den Sonnenuntergang an',
+      'Eine Frau schwimmt Brust im klaren, türkisfarbenen Meer, im Hintergrund die felsige italienische Küste',
     cardText: `${V} Verben für das Meer: ans Meer fahren, braun werden, toter Mann spielen, auslaufen, angeln …`,
   },
   ja: {
@@ -106,7 +106,7 @@ export const seaVerbPages = {
     title: '海の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `海に行く、ビーチパラソルを開く、日焼けする、砂のお城を作る、背浮きをする、波を飛び越える、出航する、釣りをする、船酔いするなど、海で使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '海の6つの場面：砂のお城を作る子どもたち、魚の間でシュノーケリングをする女の子、ヨット、波を飛び越える子どもたち、桟橋の釣り人、夕日を眺めるカップル',
+      '澄んだターコイズ色の海を平泳ぎで泳ぐ女性。背景にはイタリアの岩の多い海岸',
     cardText: `海で使う動詞 ${V} 語：海に行く、日焼けする、背浮きをする、出航する、釣りをする…`,
   },
 };

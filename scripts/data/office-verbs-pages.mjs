@@ -26,7 +26,7 @@ export const officeVerbPages = {
     title: 'Verbi dell’ufficio in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani del lavoro in ufficio — digitare, stampare, mandare un’email, firmare, fissare un appuntamento, fare gli straordinari, candidarsi, assumere — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Sei scene d’ufficio: una donna digita al computer, un uomo firma un contratto, colleghi in riunione, una stretta di mano per un’assunzione, una videochiamata e una pausa caffè',
+      'Due persone si stringono la mano sopra una scrivania di legno in un ufficio luminoso',
     cardText: `${V} verbi per l’ufficio: digitare, stampare, mandare un’email, firmare, fare una pausa, candidarsi, assumere…`,
   },
   en: {
@@ -36,7 +36,7 @@ export const officeVerbPages = {
     title: 'Office verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for office work — to type, to print, to send an email, to sign, to make an appointment, to work overtime, to apply for a job, to hire — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'Six office scenes: a woman typing at a computer, a man signing a contract, colleagues in a meeting, a handshake for a new hire, a video call and a coffee break',
+      'Two people shake hands over a wooden desk in a bright office',
     cardText: `${V} verbs for the office: to type, to print, to send an email, to sign, to take a break, to apply, to hire…`,
   },
   es: {
@@ -46,7 +46,7 @@ export const officeVerbPages = {
     title: 'Los verbos de la oficina | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos del trabajo de oficina — teclear, imprimir, enviar un correo, firmar, concertar una cita, hacer horas extra, presentar una candidatura, contratar — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Seis escenas de oficina: una mujer teclea en el ordenador, un hombre firma un contrato, compañeros en una reunión, un apretón de manos por una contratación, una videollamada y una pausa para el café',
+      'Dos personas se estrechan la mano sobre un escritorio de madera en una oficina luminosa',
     cardText: `${V} verbos para la oficina: teclear, imprimir, enviar un correo, firmar, hacer una pausa, postularse, contratar…`,
   },
   fr: {
@@ -56,7 +56,7 @@ export const officeVerbPages = {
     title: 'Les verbes du bureau | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens du travail de bureau — taper, imprimer, envoyer un e-mail, signer, fixer un rendez-vous, faire des heures supplémentaires, postuler, embaucher — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Six scènes de bureau : une femme tape à l’ordinateur, un homme signe un contrat, des collègues en réunion, une poignée de main pour une embauche, un appel vidéo et une pause café',
+      'Deux personnes se serrent la main au-dessus d’un bureau en bois dans un espace de travail lumineux',
     cardText: `${V} verbes pour le bureau : taper, imprimer, envoyer un e-mail, signer, faire une pause, postuler, embaucher…`,
   },
   cs: {
@@ -66,7 +66,7 @@ export const officeVerbPages = {
     title: 'Slovesa v kanceláři | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves z kanceláře — psát na klávesnici, tisknout, poslat e-mail, podepsat, domluvit si schůzku, pracovat přesčas, ucházet se o místo, přijmout do práce — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Šest scén z kanceláře: žena píše na počítači, muž podepisuje smlouvu, kolegové na poradě, podání ruky při přijetí do práce, videohovor a přestávka na kávu',
+      'Dva lidé si podávají ruce nad dřevěným stolem ve světlé kanceláři',
     cardText: `${V} sloves pro kancelář: psát na klávesnici, tisknout, poslat e-mail, podepsat, udělat si přestávku, ucházet se o místo…`,
   },
   pl: {
@@ -76,7 +76,7 @@ export const officeVerbPages = {
     title: 'Czasowniki w biurze | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników z pracy w biurze — pisać na klawiaturze, drukować, wysłać e-mail, podpisać, umówić spotkanie, robić nadgodziny, aplikować, zatrudnić — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Sześć scen z biura: kobieta pisze na komputerze, mężczyzna podpisuje umowę, koledzy na zebraniu, uścisk dłoni przy zatrudnieniu, wideorozmowa i przerwa na kawę',
+      'Dwie osoby podają sobie ręce nad drewnianym biurkiem w jasnym biurze',
     cardText: `${V} czasowników do biura: pisać na klawiaturze, drukować, wysłać e-mail, podpisać, zrobić przerwę, zatrudnić…`,
   },
   tr: {
@@ -86,7 +86,7 @@ export const officeVerbPages = {
     title: 'Ofis fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Ofis işleri için ${V} İtalyanca fiil öğrenin — klavyeyle yazmak, yazdırmak, e-posta göndermek, imzalamak, randevu almak, fazla mesai yapmak, işe başvurmak, işe almak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Altı ofis sahnesi: bilgisayarda yazı yazan bir kadın, sözleşme imzalayan bir adam, toplantıdaki iş arkadaşları, işe alım için bir tokalaşma, görüntülü bir görüşme ve kahve molası',
+      'Aydınlık bir ofiste ahşap bir masanın üzerinden tokalaşan iki kişi',
     cardText: `Ofis için ${V} fiil: klavyeyle yazmak, yazdırmak, e-posta göndermek, imzalamak, mola vermek, işe almak…`,
   },
   de: {
@@ -96,7 +96,7 @@ export const officeVerbPages = {
     title: 'Verben im Büro | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für die Büroarbeit — tippen, drucken, eine E-Mail schicken, unterschreiben, einen Termin vereinbaren, Überstunden machen, sich bewerben, einstellen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Sechs Büroszenen: Eine Frau tippt am Computer, ein Mann unterschreibt einen Vertrag, Kollegen in einer Besprechung, ein Handschlag bei einer Einstellung, ein Videoanruf und eine Kaffeepause',
+      'Zwei Personen geben sich über einem Holzschreibtisch in einem hellen Büro die Hand',
     cardText: `${V} Verben für das Büro: tippen, drucken, eine E-Mail schicken, unterschreiben, Pause machen, sich bewerben …`,
   },
   ja: {
@@ -106,7 +106,7 @@ export const officeVerbPages = {
     title: 'オフィスの動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `入力する、印刷する、メールを送る、署名する、アポを取る、残業する、応募する、採用するなど、オフィスで使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      'オフィスの6つの場面：パソコンで入力する女性、契約書に署名する男性、会議中の同僚、採用の握手、ビデオ通話、コーヒーブレイク',
+      '明るいオフィスで、木の机越しに握手する二人',
     cardText: `オフィスで使う動詞 ${V} 語：入力する、印刷する、メールを送る、署名する、休憩する、応募する、採用する…`,
   },
 };
