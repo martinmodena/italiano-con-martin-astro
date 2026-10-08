@@ -850,3 +850,8 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **L'anguilla** (`letture/il-mistero-dell-anguilla.html`): A2 imperfetto · C1 congiuntivo imperfetto (Aristotele, Freud a Trieste, Grassi e Calandruccio a Messina, Schmidt e i Sargassi, i satelliti del 2022).
 - **La rana dei boschi** (`letture/la-rana-che-si-congela.html`): A1 verbo essere · B1 condizionale presente (Larson e altri 2014: 193 giorni congelata).
 - Le grammatiche sono tutte diverse per allenare lezioni che non avevano ancora una lettura. Testate al primo tentativo, $0,67; prompt in `docs/prompt-immagini-letture-animali-2026-10-07.md`.
+
+## 2026-10-08 - Testate semplici: rifatta quella dello sport
+
+- La testata di «Lo sport» (`vocabolario/sport-hero.webp`) era una scena affollata (calcio, pista, tennis, bici, tribuna, campanile, una ventina di persone) con la scritta «FINISH» in inglese. Rifatta con `gemini-3-pro-image` ($0,13): un pallone sull'erba davanti alla rete della porta, con un paese italiano sfocato dietro. `heroAlt` e `alt` delle tessere riscritti nelle 9 lingue; prompt in `docs/prompt-testate-e-immagini-2026-09-27.md`.
+- Regola per tutte le testate future (Martin): pochi dettagli, un solo soggetto, sfondo pulito o sfocato, come `colori-forme-hero` e `corpo-umano-hero`. Le testate affollate già pubblicate (per esempio `verbi-relazioni-hero`) si possono rifare quando Martin lo chiede.

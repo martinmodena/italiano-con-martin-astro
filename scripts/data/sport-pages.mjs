@@ -34,7 +34,7 @@ export const sportPages = {
     title: 'Lo sport: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole dello sport in italiano — il calcio, il nuoto, il tennis, lo stadio, la piscina, il pallone, la racchetta, la squadra, l’arbitro, la medaglia… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Un pomeriggio di sole in un campo sportivo di paese: bambini che esultano dopo un gol, una ragazza che taglia il traguardo sulla pista, una partita di tennis, una famiglia in bicicletta e i tifosi con le sciarpe in tribuna',
+      'Un pallone da calcio sull’erba davanti alla rete della porta, con le case di un paese italiano sfocate sullo sfondo',
     cardText: `${N} parole per lo sport: gli sport, i luoghi, l’attrezzatura e la gara.`,
     note: {
       title: 'Giocare a calcio, fare nuoto',
@@ -48,7 +48,7 @@ export const sportPages = {
     title: 'Sports | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for sports — football, swimming, tennis, the stadium, the swimming pool, the ball, the racket, the team, the referee, the medal… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'A sunny afternoon at a small-town sports ground: children cheering after a goal, a girl crossing the finish line on the track, a tennis match, a family on bicycles and fans with scarves in the stands',
+      'A football on the grass in front of the goal net, with the houses of an Italian town blurred in the background',
     cardText: `${N} words for sports: the sports, the places, the equipment and the competition.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -62,7 +62,7 @@ export const sportPages = {
     title: 'El deporte | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras del deporte en italiano — el fútbol, la natación, el tenis, el estadio, la piscina, el balón, la raqueta, el equipo, el árbitro, la medalla… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Una tarde de sol en un campo deportivo de pueblo: niños celebrando un gol, una chica cruzando la meta en la pista, un partido de tenis, una familia en bicicleta y aficionados con bufandas en la grada',
+      'Un balón de fútbol sobre el césped delante de la red de la portería, con las casas de un pueblo italiano desenfocadas al fondo',
     cardText: `${N} palabras para el deporte: los deportes, los lugares, el material y la competición.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -76,7 +76,7 @@ export const sportPages = {
     title: 'Le sport | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens du sport — le football, la natation, le tennis, le stade, la piscine, le ballon, la raquette, l’équipe, l’arbitre, la médaille… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Un après-midi ensoleillé sur un terrain de sport de village : des enfants qui fêtent un but, une fille qui franchit la ligne d’arrivée sur la piste, un match de tennis, une famille à vélo et des supporters avec leurs écharpes dans la tribune',
+      'Un ballon de football sur l’herbe devant le filet du but, avec les maisons d’un village italien floues à l’arrière-plan',
     cardText: `${N} mots pour le sport : les sports, les lieux, l’équipement et la compétition.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -90,7 +90,7 @@ export const sportPages = {
     title: 'Sport | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o sportu — fotbal, plavání, tenis, stadion, bazén, míč, raketa, tým, rozhodčí, medaile… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Slunečné odpoledne na sportovním hřišti v malém městě: děti slaví gól, dívka probíhá cílem na dráze, tenisový zápas, rodina na kolech a fanoušci se šálami na tribuně',
+      'Fotbalový míč na trávě před sítí branky, v pozadí rozmazané domy italského městečka',
     cardText: `${N} slov o sportu: sporty, místa, vybavení a závody.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -104,7 +104,7 @@ export const sportPages = {
     title: 'Sport | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o sporcie — piłka nożna, pływanie, tenis, stadion, basen, piłka, rakieta, drużyna, sędzia, medal… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Słoneczne popołudnie na boisku w małym miasteczku: dzieci cieszą się z gola, dziewczyna przekracza linię mety na bieżni, mecz tenisa, rodzina na rowerach i kibice z szalikami na trybunie',
+      'Piłka nożna na trawie przed siatką bramki, w tle rozmyte domy włoskiego miasteczka',
     cardText: `${N} słów o sporcie: dyscypliny, miejsca, sprzęt i zawody.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -118,7 +118,7 @@ export const sportPages = {
     title: 'Spor | İtalyanca kelimeler | Italiano con Martin',
     description: `Spor için ${N} İtalyanca kelime öğrenin — futbol, yüzme, tenis, stadyum, havuz, top, raket, takım, hakem, madalya… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Küçük bir kasabanın spor sahasında güneşli bir öğleden sonra: gol sevinci yaşayan çocuklar, pistte bitiş çizgisini geçen bir kız, bir tenis maçı, bisikletli bir aile ve tribünde atkılı taraftarlar',
+      'Kale filesinin önünde çimlerin üzerinde bir futbol topu, arka planda bulanık bir İtalyan kasabasının evleri',
     cardText: `Spor için ${N} kelime: sporlar, yerler, malzemeler ve yarışma.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -132,7 +132,7 @@ export const sportPages = {
     title: 'Der Sport | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für den Sport — Fußball, Schwimmen, Tennis, das Stadion, das Schwimmbad, der Ball, der Schläger, die Mannschaft, der Schiedsrichter, die Medaille … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Ein sonniger Nachmittag auf einem Sportplatz in einem kleinen Ort: Kinder jubeln nach einem Tor, ein Mädchen läuft auf der Bahn durchs Ziel, ein Tennismatch, eine Familie mit Fahrrädern und Fans mit Schals auf der Tribüne',
+      'Ein Fußball auf dem Rasen vor dem Tornetz, im Hintergrund unscharf die Häuser eines italienischen Städtchens',
     cardText: `${N} Wörter für den Sport: die Sportarten, die Orte, die Ausrüstung und der Wettkampf.`,
     note: {
       title: `${it('Giocare a calcio')}, ${it('fare nuoto')}`,
@@ -146,7 +146,7 @@ export const sportPages = {
     title: 'スポーツ | イタリア語の語彙 | Italiano con Martin',
     description: `サッカー、水泳、テニス、スタジアム、プール、ボール、ラケット、チーム、審判、メダルなど、スポーツに関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
     heroAlt:
-      '晴れた午後の町の運動場：ゴールを喜ぶ子どもたち、トラックでゴールテープを切る女の子、テニスの試合、自転車に乗った家族、スタンドでマフラーを掲げるサポーター',
+      'ゴールネットの前の芝生に置かれたサッカーボール。背景にはぼやけたイタリアの町の家並み',
     cardText: `スポーツに関する ${N} 語。競技、場所、道具、そして試合。`,
     note: {
       title: `${it('Giocare a calcio')}、${it('fare nuoto')}`,

@@ -137,7 +137,13 @@ Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<l
 
 ### `sport-hero`
 
-Rifatta il 2026-09-28 con `gemini-3-pro-image` ($0,13) al posto del collage provvisorio del 2026-09-27 (`build-collage-hero.mjs --subdir sport --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga`). Il nastro del traguardo ha la scritta «FINISH»: lasciata così.
+**Rifatta il 2026-10-08** (`gemini-3-pro-image`, $0,13): la versione del 2026-09-28 aveva troppi dettagli (calcio, pista, tennis, bici, tribuna, campanile e una ventina di persone) e la scritta «FINISH» in inglese. Martin ha chiesto un'immagine semplice ed elegante, come quelle dei colori e del corpo umano. `heroAlt` e `alt` delle tessere riscritti nelle 9 lingue.
+
+```
+A minimal, elegant, photorealistic photograph: a single classic white football resting on short green grass in the foreground, shallow depth of field; behind it a white goal net, softly out of focus; far in the background, very blurred, the warm terracotta and ochre tones of an Italian town in late afternoon sunlight. Calm, clean composition with lots of empty space, one subject only, no people, no brand logos, no text.
+```
+
+Versione precedente, rifatta il 2026-09-28 con `gemini-3-pro-image` ($0,13) al posto del collage provvisorio del 2026-09-27 (`build-collage-hero.mjs --subdir sport --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga`). Il nastro del traguardo ha la scritta «FINISH»: lasciata così.
 
 ```
 A bright, natural, photorealistic photograph of a sunny Sunday morning at a public sports park in an Italian town: in the foreground a mixed group of young amateur players in plain colourful kits cheering after a goal on a green football pitch, a ball in the net; behind them people jogging on a red running track, a woman crossing a finish ribbon with her arms up, two people playing tennis, a family with bicycles and helmets, spectators with scarves on a small grandstand; terracotta rooftops and a bell tower in the distance, no brand logos, no text.
