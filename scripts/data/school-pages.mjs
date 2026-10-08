@@ -28,7 +28,7 @@ export const schoolPages = {
     title: 'La scuola: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole della scuola in italiano — l’aula, la lavagna, il banco, l’astuccio, la penna, la gomma, il quaderno, i compiti, la verifica, il voto… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Un’aula luminosa di una scuola elementare italiana: bambini ai banchi che alzano la mano, la maestra alla lavagna, un mappamondo e disegni colorati alle pareti',
+      'Un banco di scuola in legno con un quaderno aperto, matite colorate e una gomma, davanti a una lavagna verde',
     cardText: `${N} parole per la scuola: l’aula, l’astuccio, la cartella, le lezioni e i voti.`,
     note: {
       title: 'A scuola',
@@ -42,7 +42,7 @@ export const schoolPages = {
     title: 'School | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for school — the classroom, the blackboard, the desk, the pencil case, the pen, the eraser, the exercise book, homework, the test, the mark… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'A bright classroom in an Italian primary school: children at their desks raising their hands, the teacher at the blackboard, a globe and colourful drawings on the walls',
+      'A wooden school desk with an open notebook, coloured pencils and an eraser, in front of a green chalkboard',
     cardText: `${N} words for school: the classroom, the pencil case, the school bag, lessons and marks.`,
     note: {
       title: it('A scuola'),
@@ -56,7 +56,7 @@ export const schoolPages = {
     title: 'La escuela | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras de la escuela en italiano — el aula, la pizarra, el pupitre, el estuche, el bolígrafo, la goma, el cuaderno, los deberes, el examen, la nota… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Un aula luminosa de una escuela primaria italiana: niños en sus pupitres levantando la mano, la maestra en la pizarra, un globo terráqueo y dibujos de colores en las paredes',
+      'Un pupitre de madera con un cuaderno abierto, lápices de colores y una goma, delante de una pizarra verde',
     cardText: `${N} palabras para la escuela: el aula, el estuche, la mochila, las clases y las notas.`,
     note: {
       title: it('A scuola'),
@@ -70,7 +70,7 @@ export const schoolPages = {
     title: 'L’école | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens de l’école — la salle de classe, le tableau, le pupitre, la trousse, le stylo, la gomme, le cahier, les devoirs, le contrôle, la note… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Une salle de classe lumineuse dans une école primaire italienne : des enfants à leur pupitre qui lèvent la main, la maîtresse au tableau, un globe et des dessins colorés aux murs',
+      'Un pupitre en bois avec un cahier ouvert, des crayons de couleur et une gomme, devant un tableau vert',
     cardText: `${N} mots pour l’école : la salle de classe, la trousse, le cartable, les cours et les notes.`,
     note: {
       title: it('A scuola'),
@@ -84,7 +84,7 @@ export const schoolPages = {
     title: 'Škola | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o škole — třída, tabule, lavice, penál, pero, guma, sešit, domácí úkoly, písemka, známka… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Světlá třída italské základní školy: děti v lavicích se hlásí, paní učitelka u tabule, glóbus a barevné obrázky na stěnách',
+      'Dřevěná školní lavice s otevřeným sešitem, pastelkami a gumou před zelenou tabulí',
     cardText: `${N} slov o škole: třída, penál, aktovka, vyučování a známky.`,
     note: {
       title: it('A scuola'),
@@ -98,7 +98,7 @@ export const schoolPages = {
     title: 'Szkoła | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o szkole — sala lekcyjna, tablica, ławka, piórnik, długopis, gumka, zeszyt, praca domowa, sprawdzian, ocena… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Jasna sala lekcyjna we włoskiej szkole podstawowej: dzieci w ławkach podnoszą rękę, nauczycielka przy tablicy, globus i kolorowe rysunki na ścianach',
+      'Drewniana ławka szkolna z otwartym zeszytem, kredkami i gumką przed zieloną tablicą',
     cardText: `${N} słów o szkole: sala lekcyjna, piórnik, tornister, lekcje i oceny.`,
     note: {
       title: it('A scuola'),
@@ -112,7 +112,7 @@ export const schoolPages = {
     title: 'Okul | İtalyanca kelimeler | Italiano con Martin',
     description: `Okul için ${N} İtalyanca kelime öğrenin — sınıf, kara tahta, sıra, kalem kutusu, tükenmez kalem, silgi, defter, ödev, yazılı sınav, not… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Bir İtalyan ilkokulunda aydınlık bir sınıf: sıralarında parmak kaldıran çocuklar, kara tahtanın önünde öğretmen, bir dünya küresi ve duvarlarda renkli resimler',
+      'Yeşil bir kara tahtanın önünde, üzerinde açık bir defter, renkli kalemler ve bir silgi olan ahşap bir okul sırası',
     cardText: `Okul için ${N} kelime: sınıf, kalem kutusu, okul çantası, dersler ve notlar.`,
     note: {
       title: it('A scuola'),
@@ -126,7 +126,7 @@ export const schoolPages = {
     title: 'Die Schule | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für die Schule — das Klassenzimmer, die Tafel, die Schulbank, das Mäppchen, der Kuli, der Radiergummi, das Heft, die Hausaufgaben, die Klassenarbeit, die Note … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Ein helles Klassenzimmer in einer italienischen Grundschule: Kinder an ihren Tischen melden sich, die Lehrerin an der Tafel, ein Globus und bunte Zeichnungen an den Wänden',
+      'Eine hölzerne Schulbank mit einem offenen Heft, Buntstiften und einem Radiergummi vor einer grünen Tafel',
     cardText: `${N} Wörter für die Schule: das Klassenzimmer, das Mäppchen, der Schulranzen, der Unterricht und die Noten.`,
     note: {
       title: it('A scuola'),
@@ -139,7 +139,7 @@ export const schoolPages = {
     name: '学校',
     title: '学校 | イタリア語の語彙 | Italiano con Martin',
     description: `教室、黒板、机、筆箱、ペン、消しゴム、ノート、宿題、テスト、成績など、学校に関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
-    heroAlt: 'イタリアの小学校の明るい教室：手を挙げる子どもたち、黒板の前の先生、地球儀、壁のカラフルな絵',
+    heroAlt: '緑の黒板の前の木の机。開いたノート、色鉛筆、消しゴムが置いてある',
     cardText: `学校に関する ${N} 語。教室、筆箱、通学かばん、授業、そして成績。`,
     note: {
       title: it('A scuola'),

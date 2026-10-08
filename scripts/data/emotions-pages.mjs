@@ -25,7 +25,7 @@ export const emotionPages = {
     title: 'Le emozioni: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole per dire come ti senti in italiano — felice, contento, emozionato, triste, arrabbiato, preoccupato, deluso, imbarazzato… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Cinque amici al tavolino di un bar con emozioni diverse: una donna sorpresa con la mano sulla bocca, un uomo che ride, due amiche che si abbracciano felici, una donna commossa',
+      'Una giovane donna che ride felice con gli occhi socchiusi, davanti a una parete color crema',
     cardText: `${N} parole per dire come ti senti: felice, emozionato, orgoglioso, triste, arrabbiato, preoccupato, deluso…`,
     note: {
       title: 'Come ti senti?',
@@ -39,7 +39,7 @@ export const emotionPages = {
     title: 'Emotions | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words to say how you feel — happy, pleased, excited, sad, angry, worried, disappointed, embarrassed… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'Five friends at a café table showing different emotions: a surprised woman with her hand over her mouth, a man laughing, two friends hugging happily, a woman moved to tears',
+      'A young woman laughing happily with her eyes half closed, in front of a cream-coloured wall',
     cardText: `${N} words to say how you feel: happy, excited, proud, sad, angry, worried, disappointed…`,
     note: {
       title: it('Come ti senti?'),
@@ -53,7 +53,7 @@ export const emotionPages = {
     title: 'Las emociones | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras en italiano para decir cómo te sientes — feliz, contento, emocionado, triste, enfadado, preocupado, decepcionado, avergonzado… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Cinco amigos en la mesa de un bar con emociones distintas: una mujer sorprendida con la mano en la boca, un hombre que ríe, dos amigas que se abrazan felices, una mujer emocionada',
+      'Una mujer joven que ríe feliz con los ojos entornados, delante de una pared color crema',
     cardText: `${N} palabras para decir cómo te sientes: feliz, emocionado, orgulloso, triste, enfadado, preocupado, decepcionado…`,
     note: {
       title: it('Come ti senti?'),
@@ -67,7 +67,7 @@ export const emotionPages = {
     title: 'Les émotions | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens pour dire ce que vous ressentez — heureux, content, ému, triste, en colère, inquiet, déçu, gêné… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Cinq amis à la terrasse d’un café avec des émotions différentes : une femme surprise, la main sur la bouche, un homme qui rit, deux amies qui s’enlacent, heureuses, une femme émue',
+      'Une jeune femme qui rit de bon cœur, les yeux mi-clos, devant un mur couleur crème',
     cardText: `${N} mots pour dire ce que vous ressentez : heureux, ému, fier, triste, en colère, inquiet, déçu…`,
     note: {
       title: it('Come ti senti?'),
@@ -81,7 +81,7 @@ export const emotionPages = {
     title: 'Emoce | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov, jak říct, jak se cítíte — šťastný, spokojený, nadšený, smutný, naštvaný, ustaraný, zklamaný, v rozpacích… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Pět přátel u kavárenského stolku s různými emocemi: překvapená žena s rukou na ústech, smějící se muž, dvě šťastné kamarádky v objetí, dojatá žena',
+      'Mladá žena se šťastně směje s přivřenýma očima před krémovou stěnou',
     cardText: `${N} slov o tom, jak se cítíte: šťastný, nadšený, hrdý, smutný, naštvaný, ustaraný, zklamaný…`,
     note: {
       title: it('Come ti senti?'),
@@ -95,7 +95,7 @@ export const emotionPages = {
     title: 'Emocje | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów, żeby powiedzieć, jak się czujesz — szczęśliwy, zadowolony, podekscytowany, smutny, zły, zmartwiony, rozczarowany, zawstydzony… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Pięcioro przyjaciół przy kawiarnianym stoliku z różnymi emocjami: zaskoczona kobieta z ręką na ustach, śmiejący się mężczyzna, dwie szczęśliwe przyjaciółki w uścisku, wzruszona kobieta',
+      'Młoda kobieta śmieje się radośnie z przymkniętymi oczami na tle kremowej ściany',
     cardText: `${N} słów o tym, jak się czujesz: szczęśliwy, podekscytowany, dumny, smutny, zły, zmartwiony, rozczarowany…`,
     note: {
       title: it('Come ti senti?'),
@@ -109,7 +109,7 @@ export const emotionPages = {
     title: 'Duygular | İtalyanca kelimeler | Italiano con Martin',
     description: `Nasıl hissettiğinizi söylemek için ${N} İtalyanca kelime öğrenin — mutlu, memnun, heyecanlı, üzgün, kızgın, endişeli, hayal kırıklığına uğramış, mahcup… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Kafe masasında farklı duygular gösteren beş arkadaş: eli ağzında şaşırmış bir kadın, gülen bir adam, mutlulukla sarılan iki arkadaş, duygulanmış bir kadın',
+      'Krem rengi bir duvarın önünde gözleri yarı kapalı, mutlulukla gülen genç bir kadın',
     cardText: `Nasıl hissettiğinizi söylemek için ${N} kelime: mutlu, heyecanlı, gururlu, üzgün, kızgın, endişeli, hayal kırıklığına uğramış…`,
     note: {
       title: it('Come ti senti?'),
@@ -123,7 +123,7 @@ export const emotionPages = {
     title: 'Gefühle | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter, um zu sagen, wie du dich fühlst — glücklich, zufrieden, aufgeregt, traurig, wütend, besorgt, enttäuscht, verlegen … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Fünf Freunde an einem Cafétisch mit verschiedenen Gefühlen: eine überraschte Frau mit der Hand vor dem Mund, ein lachender Mann, zwei glückliche Freundinnen in inniger Umarmung, eine gerührte Frau',
+      'Eine junge Frau lacht fröhlich mit halb geschlossenen Augen vor einer cremefarbenen Wand',
     cardText: `${N} Wörter, um zu sagen, wie du dich fühlst: glücklich, aufgeregt, stolz, traurig, wütend, besorgt, enttäuscht …`,
     note: {
       title: it('Come ti senti?'),
@@ -137,7 +137,7 @@ export const emotionPages = {
     title: '感情 | イタリア語の語彙 | Italiano con Martin',
     description: `幸せな、満足した、ドキドキした、悲しい、怒っている、心配している、がっかりした、恥ずかしいなど、気持ちを伝えるイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
     heroAlt:
-      'カフェのテーブルでさまざまな感情を見せる5人の友人：口に手を当てて驚く女性、笑う男性、うれしそうに抱き合う2人、感動して涙ぐむ女性',
+      'クリーム色の壁の前で、目を細めて楽しそうに笑う若い女性',
     cardText: `気持ちを伝える ${N} 語：幸せな、ドキドキした、誇らしい、悲しい、怒っている、心配している、がっかりした…`,
     note: {
       title: it('Come ti senti?'),

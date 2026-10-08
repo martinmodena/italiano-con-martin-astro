@@ -562,7 +562,7 @@ const lessons = [
     seoTitle: 'Vocabolario del cibo in italiano | Italiano con Martin',
     description: 'Impara 8 parole italiane del cibo con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
     lead: 'Siediti a tavola e scopri ogni parola attraverso un’immagine e tre frasi italiane d’esempio.',
-    heroAlt: 'Cibo illustrato con pane, pasta, riso, carne, pesce, formaggio, uovo e mela',
+    heroAlt: 'Una pagnotta di pane e dei pomodorini rossi su un tavolo di legno, in una cucina italiana luminosa',
     words: [
       [
         'pane',

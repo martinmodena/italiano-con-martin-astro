@@ -28,7 +28,7 @@ export const houseVerbPages = {
     title: 'Verbi della casa in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani per la vita in casa — cucinare, apparecchiare, fare il bucato, stirare, accendere, spegnere, svegliarsi — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Una famiglia fa le faccende di casa: il papà cucina, la bambina apparecchia, la mamma stende i panni sul balcone, il ragazzo passa l’aspirapolvere e la nonna innaffia le piante',
+      'Una mano apre una finestra con le persiane verdi sui tetti e sui cipressi di un paese italiano',
     cardText: `${V} verbi per la vita in casa: cucinare, apparecchiare, pulire, fare il bucato, accendere, spegnere, svegliarsi…`,
   },
   en: {
@@ -38,7 +38,7 @@ export const houseVerbPages = {
     title: 'Household verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs for life at home — to cook, to set the table, to do the laundry, to iron, to switch on, to switch off, to wake up — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'A family doing housework: the father cooks, the girl sets the table, the mother hangs out the washing on the balcony, the boy vacuums and the grandmother waters the plants',
+      'A hand opens a window with green shutters onto the rooftops and cypresses of an Italian town',
     cardText: `${V} verbs for life at home: to cook, to set the table, to clean, to do the laundry, to switch on and off, to wake up…`,
   },
   es: {
@@ -48,7 +48,7 @@ export const houseVerbPages = {
     title: 'Los verbos de la casa | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos para la vida en casa — cocinar, poner la mesa, hacer la colada, planchar, encender, apagar, despertarse — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Una familia hace las tareas de casa: el padre cocina, la niña pone la mesa, la madre tiende la ropa en el balcón, el chico pasa la aspiradora y la abuela riega las plantas',
+      'Una mano abre una ventana con persianas verdes que da a los tejados y los cipreses de un pueblo italiano',
     cardText: `${V} verbos para la vida en casa: cocinar, poner la mesa, limpiar, hacer la colada, encender, apagar, despertarse…`,
   },
   fr: {
@@ -58,7 +58,7 @@ export const houseVerbPages = {
     title: 'Les verbes de la maison | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens pour la vie à la maison — cuisiner, mettre la table, faire la lessive, repasser, allumer, éteindre, se réveiller — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Une famille fait le ménage : le père cuisine, la fille met la table, la mère étend le linge sur le balcon, le garçon passe l’aspirateur et la grand-mère arrose les plantes',
+      'Une main ouvre une fenêtre aux volets verts sur les toits et les cyprès d’un village italien',
     cardText: `${V} verbes pour la vie à la maison : cuisiner, mettre la table, nettoyer, faire la lessive, allumer, éteindre, se réveiller…`,
   },
   cs: {
@@ -68,7 +68,7 @@ export const houseVerbPages = {
     title: 'Slovesa domova | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves pro život doma — vařit, prostřít stůl, prát prádlo, žehlit, zapnout, vypnout, probudit se — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Rodina dělá domácí práce: táta vaří, holčička prostírá stůl, máma věší prádlo na balkoně, kluk vysává a babička zalévá květiny',
+      'Ruka otevírá okno se zelenými okenicemi s výhledem na střechy a cypřiše italského městečka',
     cardText: `${V} sloves pro život doma: vařit, prostřít stůl, uklízet, prát prádlo, zapnout, vypnout, probudit se…`,
   },
   pl: {
@@ -78,7 +78,7 @@ export const houseVerbPages = {
     title: 'Czasowniki domowe | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników o życiu w domu — gotować, nakrywać do stołu, robić pranie, prasować, włączać, wyłączać, budzić się — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Rodzina zajmuje się domem: tata gotuje, dziewczynka nakrywa do stołu, mama wiesza pranie na balkonie, chłopak odkurza, a babcia podlewa kwiaty',
+      'Dłoń otwiera okno z zielonymi okiennicami z widokiem na dachy i cyprysy włoskiego miasteczka',
     cardText: `${V} czasowników o życiu w domu: gotować, nakrywać do stołu, sprzątać, robić pranie, włączać, wyłączać, budzić się…`,
   },
   tr: {
@@ -88,7 +88,7 @@ export const houseVerbPages = {
     title: 'Ev fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Evdeki hayat için ${V} İtalyanca fiil öğrenin — yemek pişirmek, sofrayı kurmak, çamaşır yıkamak, ütülemek, açmak, kapatmak, uyanmak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Ev işlerini yapan bir aile: baba yemek pişiriyor, kız sofrayı kuruyor, anne balkonda çamaşır asıyor, oğlan süpürge çekiyor, büyükanne çiçekleri suluyor',
+      'Bir el, bir İtalyan kasabasının çatılarına ve servilerine bakan yeşil panjurlu bir pencereyi açıyor',
     cardText: `Evdeki hayat için ${V} fiil: yemek pişirmek, sofrayı kurmak, temizlemek, çamaşır yıkamak, açmak, kapatmak, uyanmak…`,
   },
   de: {
@@ -98,7 +98,7 @@ export const houseVerbPages = {
     title: 'Verben im Haushalt | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für das Leben zu Hause — kochen, den Tisch decken, Wäsche waschen, bügeln, einschalten, ausschalten, aufwachen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Eine Familie bei der Hausarbeit: Der Vater kocht, das Mädchen deckt den Tisch, die Mutter hängt auf dem Balkon Wäsche auf, der Junge saugt Staub und die Oma gießt die Blumen',
+      'Eine Hand öffnet ein Fenster mit grünen Fensterläden zu den Dächern und Zypressen eines italienischen Städtchens',
     cardText: `${V} Verben für das Leben zu Hause: kochen, den Tisch decken, putzen, Wäsche waschen, einschalten, ausschalten, aufwachen …`,
   },
   ja: {
@@ -108,7 +108,7 @@ export const houseVerbPages = {
     title: '家の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `料理する、食卓の用意をする、洗濯する、アイロンをかける、つける、消す、目を覚ますなど、家での生活のためのイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '家事をする家族：料理する父親、食卓の用意をする女の子、バルコニーで洗濯物を干す母親、掃除機をかける男の子、植物に水をやる祖母',
+      '緑の鎧戸の窓を開ける手。窓の外にはイタリアの町の屋根と糸杉',
     cardText: `家での生活の動詞 ${V} 語：料理する、食卓の用意をする、掃除する、洗濯する、つける、消す、目を覚ます…`,
   },
 };

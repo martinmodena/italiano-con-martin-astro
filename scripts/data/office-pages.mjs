@@ -26,7 +26,7 @@ export const officePages = {
     title: 'L’ufficio: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole dell’ufficio in italiano — la scrivania, il computer, la stampante, la cartellina, la riunione, il contratto, lo stipendio, la pausa caffè… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Un ufficio moderno e luminoso in una città italiana: colleghi alle scrivanie con il computer, una piccola riunione intorno a un tavolo, due persone che chiacchierano alla macchinetta del caffè e i tetti rossi fuori dalle finestre',
+      'Una scrivania con un computer portatile, un taccuino e una tazzina di caffè davanti a una finestra sui tetti rossi di una città italiana',
     cardText: `${N} parole per l’ufficio: la scrivania, la cancelleria, le riunioni e il lavoro.`,
     note: {
       title: 'In ufficio',
@@ -40,7 +40,7 @@ export const officePages = {
     title: 'The office | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for the office — the desk, the computer, the printer, the folder, the meeting, the contract, the salary, the coffee break… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'A bright modern office in an Italian city: colleagues at desks with computers, a small meeting around a table, two people chatting at the coffee machine and red rooftops outside the windows',
+      'A desk with a laptop, a notebook and an espresso cup in front of a window overlooking the red rooftops of an Italian city',
     cardText: `${N} words for the office: the desk, stationery, meetings and work.`,
     note: {
       title: it('In ufficio'),
@@ -54,7 +54,7 @@ export const officePages = {
     title: 'La oficina | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras de la oficina en italiano — el escritorio, el ordenador, la impresora, la carpeta, la reunión, el contrato, el sueldo, la pausa para el café… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Una oficina moderna y luminosa en una ciudad italiana: compañeros en sus escritorios con el ordenador, una pequeña reunión alrededor de una mesa, dos personas charlando junto a la máquina de café y tejados rojos al otro lado de las ventanas',
+      'Un escritorio con un portátil, una libreta y una taza de café delante de una ventana con vistas a los tejados rojos de una ciudad italiana',
     cardText: `${N} palabras para la oficina: el escritorio, el material de oficina, las reuniones y el trabajo.`,
     note: {
       title: it('In ufficio'),
@@ -68,7 +68,7 @@ export const officePages = {
     title: 'Le bureau | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens du bureau — le bureau (le meuble), l’ordinateur, l’imprimante, la chemise, la réunion, le contrat, le salaire, la pause café… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Un bureau moderne et lumineux dans une ville italienne : des collègues à leur poste avec un ordinateur, une petite réunion autour d’une table, deux personnes qui discutent à la machine à café et des toits rouges derrière les fenêtres',
+      'Un bureau avec un ordinateur portable, un carnet et une tasse de café devant une fenêtre donnant sur les toits rouges d’une ville italienne',
     cardText: `${N} mots pour le bureau : le poste de travail, les fournitures, les réunions et le travail.`,
     note: {
       title: it('In ufficio'),
@@ -82,7 +82,7 @@ export const officePages = {
     title: 'Kancelář | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov o kanceláři — psací stůl, počítač, tiskárna, složka, porada, smlouva, plat, přestávka na kávu… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Moderní světlá kancelář v italském městě: kolegové u stolů s počítači, malá porada kolem stolu, dva lidé si povídají u kávovaru a za okny červené střechy',
+      'Psací stůl s notebookem, zápisníkem a šálkem kávy před oknem s výhledem na červené střechy italského města',
     cardText: `${N} slov o kanceláři: psací stůl, kancelářské potřeby, porady a práce.`,
     note: {
       title: it('In ufficio'),
@@ -96,7 +96,7 @@ export const officePages = {
     title: 'Biuro | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o biurze — biurko, komputer, drukarka, teczka, zebranie, umowa, pensja, przerwa na kawę… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Nowoczesne, jasne biuro we włoskim mieście: koledzy przy biurkach z komputerami, małe zebranie przy stole, dwie osoby rozmawiają przy ekspresie do kawy, a za oknami czerwone dachy',
+      'Biurko z laptopem, notesem i filiżanką kawy przed oknem z widokiem na czerwone dachy włoskiego miasta',
     cardText: `${N} słów o biurze: biurko, artykuły biurowe, zebrania i praca.`,
     note: {
       title: it('In ufficio'),
@@ -110,7 +110,7 @@ export const officePages = {
     title: 'Ofis | İtalyanca kelimeler | Italiano con Martin',
     description: `Ofis için ${N} İtalyanca kelime öğrenin — çalışma masası, bilgisayar, yazıcı, dosya, toplantı, sözleşme, maaş, kahve molası… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'Bir İtalyan şehrinde modern ve aydınlık bir ofis: bilgisayarlı masalarında çalışan iş arkadaşları, bir masanın etrafında küçük bir toplantı, kahve makinesinin yanında sohbet eden iki kişi ve pencerelerin ardında kırmızı çatılar',
+      'Bir İtalyan şehrinin kırmızı çatılarına bakan bir pencerenin önünde dizüstü bilgisayar, not defteri ve bir fincan kahve bulunan bir masa',
     cardText: `Ofis için ${N} kelime: çalışma masası, kırtasiye, toplantılar ve iş.`,
     note: {
       title: it('In ufficio'),
@@ -124,7 +124,7 @@ export const officePages = {
     title: 'Das Büro | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für das Büro — der Schreibtisch, der Computer, der Drucker, die Mappe, die Besprechung, der Vertrag, das Gehalt, die Kaffeepause … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Ein helles, modernes Büro in einer italienischen Stadt: Kollegen an Schreibtischen mit Computern, eine kleine Besprechung an einem Tisch, zwei Leute plaudern an der Kaffeemaschine, draußen rote Dächer',
+      'Ein Schreibtisch mit Laptop, Notizbuch und Espressotasse vor einem Fenster mit Blick auf die roten Dächer einer italienischen Stadt',
     cardText: `${N} Wörter für das Büro: der Schreibtisch, Büromaterial, Besprechungen und die Arbeit.`,
     note: {
       title: it('In ufficio'),
@@ -138,7 +138,7 @@ export const officePages = {
     title: 'オフィス | イタリア語の語彙 | Italiano con Martin',
     description: `机、パソコン、プリンター、書類ばさみ、会議、契約書、給料、コーヒーブレイクなど、オフィスに関するイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
     heroAlt:
-      'イタリアの街にある明るくモダンなオフィス：パソコンに向かう同僚たち、テーブルを囲む小さな会議、コーヒーマシンのそばで話す2人、窓の外には赤い屋根',
+      'イタリアの町の赤い屋根が見える窓の前の机。ノートパソコン、手帳、エスプレッソのカップ',
     cardText: `オフィスに関する ${N} 語。机、文房具、会議、そして仕事。`,
     note: {
       title: it('In ufficio'),

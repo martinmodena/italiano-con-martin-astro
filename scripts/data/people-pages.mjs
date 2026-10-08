@@ -20,7 +20,7 @@ export const peoplePages = {
     title: 'Le persone intorno a noi: vocabolario italiano | Italiano con Martin',
     description: `Impara ${N} parole per le persone di tutti i giorni in italiano — l’amico, il vicino di casa, il collega, il compagno di classe, l’ospite… — con foto, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt:
-      'Una piazza italiana piena di gente: due nonni su una panchina, bambini che giocano, una coppia per mano, amici che chiacchierano e un turista con la cartina',
+      'Due anziani seduti su una panchina di pietra in una piazza italiana tranquilla, che si guardano e sorridono',
     cardText: `${N} parole per le persone di tutti i giorni: amici, vicini di casa, colleghi, compagni di classe, ospiti e sconosciuti.`,
     note: {
       title: 'La gente è…, la persona è…',
@@ -34,7 +34,7 @@ export const peoplePages = {
     title: 'The people around us | Italian vocabulary | Italiano con Martin',
     description: `Learn ${N} Italian words for the people in your everyday life — friend, neighbour, colleague, classmate, guest… — with photos, three example sentences, pronunciation and exercises.`,
     heroAlt:
-      'An Italian square full of people: grandparents on a bench, children playing, a couple holding hands, friends chatting and a tourist with a map',
+      'An elderly couple sitting on a stone bench in a quiet Italian square, looking at each other and smiling',
     cardText: `${N} words for the people in your everyday life: friends, neighbours, colleagues, classmates, guests and strangers.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -48,7 +48,7 @@ export const peoplePages = {
     title: 'Las personas que nos rodean | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${N} palabras en italiano para las personas de tu día a día — amigo, vecino, compañero de trabajo, compañero de clase, invitado… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.`,
     heroAlt:
-      'Una plaza italiana llena de gente: dos abuelos en un banco, niños jugando, una pareja de la mano, amigos charlando y un turista con un mapa',
+      'Una pareja de ancianos sentada en un banco de piedra en una tranquila plaza italiana, mirándose y sonriendo',
     cardText: `${N} palabras para las personas de todos los días: amigos, vecinos, compañeros de trabajo y de clase, invitados y desconocidos.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -62,7 +62,7 @@ export const peoplePages = {
     title: 'Les gens autour de nous | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${N} mots italiens pour les personnes de tous les jours — ami, voisin, collègue, camarade de classe, invité… — avec des photos, trois exemples de phrases, la prononciation et des exercices.`,
     heroAlt:
-      'Une place italienne pleine de monde : deux grands-parents sur un banc, des enfants qui jouent, un couple main dans la main, des amis qui bavardent et un touriste avec un plan',
+      'Un couple de personnes âgées assis sur un banc en pierre dans une place italienne tranquille, qui se regardent en souriant',
     cardText: `${N} mots pour les personnes de tous les jours : amis, voisins, collègues, camarades de classe, invités et inconnus.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -76,7 +76,7 @@ export const peoplePages = {
     title: 'Lidé kolem nás | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${N} italských slov pro lidi kolem vás — kamarád, soused, kolega, spolužák, host… — s fotografiemi, třemi příkladovými větami, výslovností a cvičeními.`,
     heroAlt:
-      'Italské náměstí plné lidí: prarodiče na lavičce, hrající si děti, pár držící se za ruce, povídající si přátelé a turista s mapou',
+      'Starší manželé sedí na kamenné lavičce na klidném italském náměstí, dívají se na sebe a usmívají se',
     cardText: `${N} slov pro lidi kolem nás: kamarádi, sousedé, kolegové, spolužáci, hosté a cizí lidé.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -90,7 +90,7 @@ export const peoplePages = {
     title: 'Ludzie wokół nas | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${N} włoskich słów o ludziach z codziennego życia — przyjaciel, sąsiad, kolega z pracy, kolega z klasy, gość… — ze zdjęciami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.`,
     heroAlt:
-      'Włoski plac pełen ludzi: dziadkowie na ławce, bawiące się dzieci, para trzymająca się za ręce, rozmawiający przyjaciele i turysta z mapą',
+      'Starsza para siedzi na kamiennej ławce na spokojnym włoskim placu, patrzą na siebie i się uśmiechają',
     cardText: `${N} słów o ludziach z codziennego życia: przyjaciele, sąsiedzi, koledzy z pracy i z klasy, goście i nieznajomi.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -104,7 +104,7 @@ export const peoplePages = {
     title: 'Çevremizdeki insanlar | İtalyanca kelimeler | Italiano con Martin',
     description: `Günlük hayattaki insanlar için ${N} İtalyanca kelime öğrenin — arkadaş, komşu, iş arkadaşı, sınıf arkadaşı, misafir… — fotoğraflar, üç örnek cümle, telaffuz ve alıştırmalarla.`,
     heroAlt:
-      'İnsanlarla dolu bir İtalyan meydanı: bankta dede ile nine, oynayan çocuklar, el ele bir çift, sohbet eden arkadaşlar ve haritalı bir turist',
+      'Sakin bir İtalyan meydanında taş bir bankta oturan, birbirine bakıp gülümseyen yaşlı bir çift',
     cardText: `Günlük hayattaki insanlar için ${N} kelime: arkadaşlar, komşular, iş ve sınıf arkadaşları, misafirler ve yabancılar.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -118,7 +118,7 @@ export const peoplePages = {
     title: 'Die Menschen um uns herum | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${N} italienische Wörter für die Menschen in deinem Alltag — Freund, Nachbar, Kollege, Klassenkamerad, Gast … — mit Fotos, drei Beispielsätzen, Aussprache und Übungen.`,
     heroAlt:
-      'Ein italienischer Platz voller Menschen: Großeltern auf einer Bank, spielende Kinder, ein Paar Hand in Hand, plaudernde Freunde und ein Tourist mit Stadtplan',
+      'Ein älteres Paar sitzt auf einer Steinbank auf einem ruhigen italienischen Platz, sie sehen sich an und lächeln',
     cardText: `${N} Wörter für die Menschen im Alltag: Freunde, Nachbarn, Kollegen, Klassenkameraden, Gäste und Fremde.`,
     note: {
       title: `${it('La gente è…')}, ${it('la persona è…')}`,
@@ -132,7 +132,7 @@ export const peoplePages = {
     title: '身の回りの人々 | イタリア語の語彙 | Italiano con Martin',
     description: `友だち、隣人、同僚、クラスメート、客など、毎日の生活で出会う人を表すイタリア語 ${N} 語を、写真、例文 3 つ、発音、練習問題で学べます。`,
     heroAlt:
-      '人でにぎわうイタリアの広場：ベンチの祖父母、遊ぶ子どもたち、手をつなぐカップル、おしゃべりする友だち、地図を持った観光客',
+      '静かなイタリアの広場で、石のベンチに座って見つめ合い、ほほえむ老夫婦',
     cardText: `毎日の生活で出会う人を表す ${N} 語。友だち、隣人、同僚、クラスメート、客、知らない人。`,
     note: {
       title: `${it('La gente è…')}、${it('la persona è…')}`,

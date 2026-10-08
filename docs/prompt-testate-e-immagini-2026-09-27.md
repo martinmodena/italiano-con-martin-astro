@@ -203,3 +203,61 @@ In queste lezioni tutte le foto sono passate con `--whiten`.
   - `verbi-sport` (2026-09-28): 37 foto `low` ($0,10), tutte con `--whiten`; remare e fare-surf chieste subito come foto rotonde (l'acqua sparirebbe nel bianco). Rifatte a `medium` con il soggetto riscritto ($0,02): fare-una-capriola (la prima era una verticale con due adulti che guardavano) e tagliare-il-traguardo (c'era la scritta «FINISH» per terra: ora un arco di palloncini e «no letters and no words anywhere»).
   - `verbi-mare` (2026-09-28): 30 foto `low` ($0,08), tutte con `--whiten`; le 18 scene con molta acqua chieste subito come foto rotonde (costante `ROUND` nel file dati). Rifatte a `medium` ($0,02): infrangersi (il modello aveva disegnato quattro persone in piedi: ora «a seascape with no people at all») e scottarsi (la scottatura si vedeva poco: ora di schiena, con il segno bianco della canottiera).
   - `verbi-influenza` (2026-10-01): 32 foto `low` ($0,08; collaborare riusa `verbi-ufficio/collaborare`), tutte con `--whiten`. Rifatte a `medium` ($0,02): fare-pressione (sul contratto c'era una finta scritta: ora «a completely blank white sheet… no letters and no words anywhere») e punire (sembrava «sgridare»: ora la mamma tiene in alto il controller sequestrato). Testata $0,13.
+
+## 2026-10-08 — Nove testate rifatte più semplici
+
+Martin: «non voglio troppi dettagli». Le vecchie testate erano scene affollate (e quella del cibo aveva carne e pesce, contro la regola delle immagini). Tutte con `generate-image.mjs --slug vocabolario/<nome>-hero --hero-width 1280 --hero-height 853 --aspect-ratio 3:2 --no-card` (`gemini-3-pro-image`, circa $0,13 l'una). `heroAlt` e `alt` delle tessere riscritti nelle 9 lingue. La prima versione di `verbi-relazioni-hero` (un abbraccio troppo ravvicinato) è uscita tagliata con due bande bianche: rifatta con il prompt qui sotto, che chiede esplicitamente il formato orizzontale e niente bordi.
+
+### `cibo-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a rustic loaf of Italian bread and a few ripe red tomatoes on a simple wooden table, soft natural window light, shallow depth of field; the background is a warm, softly blurred Italian kitchen. No meat, no fish, no eggs, no cheese. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `verbi-relazioni-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: two smiling friends, a man and a woman, warmly hugging each other in the centre of the image, seen from the waist up, soft golden late afternoon light; the background is a softly blurred Italian countryside with olive trees and cypresses. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
+```
+
+### `persone-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: an elderly couple sitting side by side on a stone bench, smiling at each other, seen from a little distance; the background is a quiet Italian piazza with warm ochre walls, very softly blurred and empty. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `citta-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a quiet narrow street in an Italian town in soft morning light, warm ochre and terracotta facades with green shutters, a single pastel-coloured scooter parked by the wall; the end of the street softly blurred. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `emozioni-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic portrait: a young woman laughing joyfully with her eyes half closed, head slightly tilted back, soft natural light; the background is a plain, softly blurred warm cream wall. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `scuola-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a single wooden school desk with an open notebook, a few coloured pencils and an eraser, soft daylight from a window; behind it a green chalkboard, softly out of focus and empty. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `ufficio-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a clean light wooden desk with an open laptop, a small notebook and a pen, and a little espresso cup, soft daylight; behind it a large window with the terracotta rooftops of an Italian city, softly blurred. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `mestieri-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a white chef's hat and a folded white apron resting on a light wooden kitchen counter next to a sprig of fresh basil, soft natural light; the background is a softly blurred bright Italian kitchen. No people, no food other than basil. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
+
+### `verbi-casa-hero` (2026-10-08)
+
+```
+A minimal, elegant, photorealistic photograph: a hand opening a white wooden window with green shutters, morning light pouring in; through the window, softly blurred, the terracotta rooftops of an Italian town. Only the hand and forearm visible. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+```
