@@ -15,7 +15,7 @@ export const animalPages = {
     name: 'Gli animali',
     title: 'Vocabolario degli animali in italiano | Italiano con Martin',
     description: 'Impara 100 nomi di animali in italiano con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
-    heroAlt: 'Un prato con elefante, giraffa, leoncino, panda, pinguino, volpe, coniglio e tartaruga',
+    heroAlt: 'Una volpe rossa seduta in un prato fiorito, con le colline e i cipressi della campagna italiana sullo sfondo',
     cardText: '100 parole per mammiferi, uccelli, rettili, pesci e insetti.',
   },
   en: {
@@ -24,7 +24,7 @@ export const animalPages = {
     name: 'Animals',
     title: 'Animals | Italian vocabulary | Italiano con Martin',
     description: 'Learn 100 Italian animal names with images, three example sentences, pronunciation and exercises.',
-    heroAlt: 'A meadow with an elephant, giraffe, lion cub, panda, penguin, fox, rabbit and tortoise',
+    heroAlt: 'A red fox sitting in a flowery meadow, with the hills and cypresses of the Italian countryside in the background',
     cardText: '100 words for mammals, birds, reptiles, fish and insects.',
   },
   es: {
@@ -34,7 +34,7 @@ export const animalPages = {
     title: 'Los animales | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 100 nombres de animales en italiano con imágenes, tres frases de ejemplo, pronunciación y ejercicios.',
-    heroAlt: 'Un prado con elefante, jirafa, cachorro de león, panda, pingüino, zorro, conejo y tortuga',
+    heroAlt: 'Un zorro rojo sentado en un prado lleno de flores, con las colinas y los cipreses del campo italiano al fondo',
     cardText: '100 palabras para mamíferos, aves, reptiles, peces e insectos.',
   },
   fr: {
@@ -44,7 +44,7 @@ export const animalPages = {
     title: 'Les animaux | vocabulaire italien | Italiano con Martin',
     description:
       'Apprenez 100 noms d’animaux en italien avec des images, trois exemples de phrases, la prononciation et des exercices.',
-    heroAlt: 'Une prairie avec éléphant, girafe, lionceau, panda, manchot, renard, lapin et tortue',
+    heroAlt: 'Un renard roux assis dans un pré fleuri, avec les collines et les cyprès de la campagne italienne à l’arrière-plan',
     cardText: '100 mots pour les mammifères, oiseaux, reptiles, poissons et insectes.',
   },
   cs: {
@@ -53,7 +53,7 @@ export const animalPages = {
     name: 'Zvířata',
     title: 'Zvířata | italská slovní zásoba | Italiano con Martin',
     description: 'Naučte se 100 italských názvů zvířat s obrázky, třemi příkladovými větami, výslovností a cvičeními.',
-    heroAlt: 'Louka se slonem, žirafou, lvíčetem, pandou, tučňákem, liškou, králíkem a želvou',
+    heroAlt: 'Liška obecná sedí na rozkvetlé louce, v pozadí kopce a cypřiše italského venkova',
     cardText: '100 slov pro savce, ptáky, plazy, ryby a hmyz.',
   },
   pl: {
@@ -63,7 +63,7 @@ export const animalPages = {
     title: 'Zwierzęta | włoskie słownictwo | Italiano con Martin',
     description:
       'Naucz się 100 włoskich nazw zwierząt z obrazkami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.',
-    heroAlt: 'Łąka ze słoniem, żyrafą, lwiątkiem, pandą, pingwinem, lisem, królikiem i żółwiem',
+    heroAlt: 'Rudy lis siedzi na kwitnącej łące, w tle wzgórza i cyprysy włoskiej wsi',
     cardText: '100 słów o ssakach, ptakach, gadach, rybach i owadach.',
   },
   tr: {
@@ -72,7 +72,7 @@ export const animalPages = {
     name: 'Hayvanlar',
     title: 'Hayvanlar | İtalyanca kelimeler | Italiano con Martin',
     description: 'Resimler, üç örnek cümle, telaffuz ve alıştırmalarla 100 İtalyanca hayvan adını öğrenin.',
-    heroAlt: 'Fil, zürafa, aslan yavrusu, panda, penguen, tilki, tavşan ve kaplumbağanın olduğu bir çayır',
+    heroAlt: 'Çiçekli bir çayırda oturan bir kızıl tilki, arka planda İtalyan kırsalının tepeleri ve servileri',
     cardText: 'Memeliler, kuşlar, sürüngenler, balıklar ve böcekler için 100 kelime.',
   },
   de: {
@@ -81,7 +81,7 @@ export const animalPages = {
     name: 'Die Tiere',
     title: 'Die Tiere | italienischer Wortschatz | Italiano con Martin',
     description: 'Lernen Sie 100 italienische Tiernamen mit Bildern, drei Beispielsätzen, Aussprache und Übungen.',
-    heroAlt: 'Eine Wiese mit Elefant, Giraffe, Löwenjunges, Panda, Pinguin, Fuchs, Kaninchen und Schildkröte',
+    heroAlt: 'Ein Rotfuchs sitzt auf einer Blumenwiese, im Hintergrund die Hügel und Zypressen der italienischen Landschaft',
     cardText: '100 Wörter für Säugetiere, Vögel, Reptilien, Fische und Insekten.',
   },
   ja: {
@@ -90,7 +90,7 @@ export const animalPages = {
     name: '動物',
     title: '動物 | イタリア語の語彙 | Italiano con Martin',
     description: '動物の名前 100 語を画像、3 つの例文、発音、練習問題で学びます。',
-    heroAlt: 'ゾウ、キリン、子ライオン、パンダ、ペンギン、キツネ、ウサギ、カメのいる草原',
+    heroAlt: '花の咲く草原に座るアカギツネ。背景にはイタリアの田園の丘と糸杉',
     cardText: '哺乳類、鳥、爬虫類、魚、昆虫を表す 100 語。',
   },
 };
@@ -108,7 +108,7 @@ export const oldTraitPages = {
     title: 'Aggettivi per descrivere gli animali in italiano | Italiano con Martin',
     description:
       'Impara 50 aggettivi italiani per descrivere animali e persone, con immagini, tre frasi d’esempio ed esercizi da trascinare.',
-    heroAlt: 'Un prato con ghepardo, lumaca, pavone, bradipo, gufo, volpe, coniglio e leoncino',
+    heroAlt: 'Un pavone con la coda colorata tutta aperta su un prato verde',
     cardText: '50 aggettivi per descrivere gli animali e le persone, con esercizi da trascinare.',
   },
   en: {
@@ -118,7 +118,7 @@ export const oldTraitPages = {
     title: 'Animal characteristics | Italian vocabulary | Italiano con Martin',
     description:
       'Learn 50 Italian adjectives to describe animals and people, with images, three example sentences and drag-and-drop exercises.',
-    heroAlt: 'A meadow with a cheetah, snail, peacock, sloth, owl, fox, rabbit and lion cub',
+    heroAlt: 'A peacock with its colourful tail fully open on a green lawn',
     cardText: '50 adjectives to describe animals and people, with drag-and-drop exercises.',
   },
   es: {
@@ -128,7 +128,7 @@ export const oldTraitPages = {
     title: 'Las características de los animales | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 50 adjetivos italianos para describir animales y personas, con imágenes, tres frases de ejemplo y ejercicios de arrastrar.',
-    heroAlt: 'Un prado con guepardo, caracol, pavo real, perezoso, búho, zorro, conejo y cachorro de león',
+    heroAlt: 'Un pavo real con su colorida cola totalmente abierta sobre un prado verde',
     cardText: '50 adjetivos para describir animales y personas, con ejercicios de arrastrar.',
   },
   fr: {
@@ -138,7 +138,7 @@ export const oldTraitPages = {
     title: 'Les caractéristiques des animaux | vocabulaire italien | Italiano con Martin',
     description:
       'Apprenez 50 adjectifs italiens pour décrire les animaux et les personnes, avec des images, trois exemples de phrases et des exercices à glisser-déposer.',
-    heroAlt: 'Une prairie avec guépard, escargot, paon, paresseux, hibou, renard, lapin et lionceau',
+    heroAlt: 'Un paon qui fait la roue avec sa queue colorée sur une pelouse verte',
     cardText: '50 adjectifs pour décrire les animaux et les personnes, avec des exercices à glisser-déposer.',
   },
   cs: {
@@ -148,7 +148,7 @@ export const oldTraitPages = {
     title: 'Vlastnosti zvířat | italská slovní zásoba | Italiano con Martin',
     description:
       'Naučte se 50 italských přídavných jmen pro popis zvířat i lidí s obrázky, třemi příkladovými větami a cvičeními na přetahování.',
-    heroAlt: 'Louka s gepardem, hlemýžděm, pávem, lenochodem, sovou, liškou, králíkem a lvíčetem',
+    heroAlt: 'Páv s rozevřeným barevným ocasem na zeleném trávníku',
     cardText: '50 přídavných jmen pro popis zvířat i lidí, s cvičeními na přetahování.',
   },
   pl: {
@@ -158,7 +158,7 @@ export const oldTraitPages = {
     title: 'Cechy zwierząt | włoskie słownictwo | Italiano con Martin',
     description:
       'Naucz się 50 włoskich przymiotników opisujących zwierzęta i ludzi, z obrazkami, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.',
-    heroAlt: 'Łąka z gepardem, ślimakiem, pawiem, leniwcem, sową, lisem, królikiem i lwiątkiem',
+    heroAlt: 'Paw z całkowicie rozłożonym kolorowym ogonem na zielonym trawniku',
     cardText: '50 przymiotników opisujących zwierzęta i ludzi, z ćwiczeniami z przeciąganiem.',
   },
   tr: {
@@ -168,7 +168,7 @@ export const oldTraitPages = {
     title: 'Hayvanların özellikleri | İtalyanca kelimeler | Italiano con Martin',
     description:
       'Hayvanları ve insanları anlatan 50 İtalyanca sıfatı resimler, üç örnek cümle ve sürükle-bırak alıştırmalarıyla öğrenin.',
-    heroAlt: 'Çita, salyangoz, tavus kuşu, tembel hayvan, baykuş, tilki, tavşan ve aslan yavrusunun olduğu bir çayır',
+    heroAlt: 'Yeşil bir çimenlikte renkli kuyruğunu tamamen açmış bir tavus kuşu',
     cardText: 'Hayvanları ve insanları anlatan 50 sıfat, sürükle-bırak alıştırmalarıyla.',
   },
   de: {
@@ -178,7 +178,7 @@ export const oldTraitPages = {
     title: 'Die Eigenschaften der Tiere | italienischer Wortschatz | Italiano con Martin',
     description:
       'Lernen Sie 50 italienische Adjektive für Tiere und Menschen mit Bildern, drei Beispielsätzen und Drag-and-drop-Übungen.',
-    heroAlt: 'Eine Wiese mit Gepard, Schnecke, Pfau, Faultier, Eule, Fuchs, Kaninchen und Löwenjunges',
+    heroAlt: 'Ein Pfau mit weit aufgefächertem, buntem Schwanz auf einer grünen Wiese',
     cardText: '50 Adjektive für Tiere und Menschen, mit Drag-and-drop-Übungen.',
   },
   ja: {
@@ -187,7 +187,7 @@ export const oldTraitPages = {
     name: '動物の特徴',
     title: '動物の特徴 | イタリア語の語彙 | Italiano con Martin',
     description: '動物や人を表すイタリア語の形容詞 50 個を、画像、3 つの例文、ドラッグ＆ドロップの練習問題で学びます。',
-    heroAlt: 'チーター、カタツムリ、クジャク、ナマケモノ、フクロウ、キツネ、ウサギ、子ライオンのいる草原',
+    heroAlt: '緑の芝生の上で色あざやかな尾羽を大きく広げたクジャク',
     cardText: '動物や人を表す形容詞 50 個。ドラッグ＆ドロップの練習付き。',
   },
 };

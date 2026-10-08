@@ -264,7 +264,7 @@ export const falseFriendsEsPage = {
   template: 'es/vocabulario/vocabulario-cocina-italiano.html',
   hero: 'falsi-amici-es-hero.webp',
   heroAlt:
-    'Doce viñetas de falsos amigos: un burro unta mantequilla, un hombre toma caldo en la playa, una chimenea en medio del camino, un ratón y un topo, una seta con pañuelo de seda, un pulpo que quita el polvo y más',
+    'Una guitarra española y una mandolina italiana apoyadas una al lado de la otra contra una pared blanca',
   crumb: 'Falsos amigos',
   eyebrow: 'Vocabulario A1–B1',
   h1: 'Falsos amigos entre el italiano y el español',

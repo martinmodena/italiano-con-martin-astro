@@ -248,7 +248,7 @@ export const falseFriendsFrPage = {
   template: 'fr/vocabulaire/vocabulaire-cuisine-italien.html',
   hero: 'falsi-amici-fr-hero.webp',
   heroAlt:
-    'Douze vignettes de faux amis : un chat devant un gâteau, une vis qui court vite, une girafe avec un tube de colle, un navet qui navigue, un homme qui creuse avec une pelle et d’autres encore',
+    'Une baguette française et une ciabatta italienne côte à côte sur une table en bois',
   crumb: 'Faux amis',
   eyebrow: 'Vocabulaire A1–B1',
   h1: 'Les faux amis entre l’italien et le français',

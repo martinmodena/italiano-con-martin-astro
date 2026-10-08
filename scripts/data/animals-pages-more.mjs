@@ -24,7 +24,7 @@ export const physicalPages = {
     title: 'Aggettivi per descrivere il corpo degli animali | Italiano con Martin',
     description:
       'Impara 50 aggettivi italiani per descrivere il corpo, la forza, l’aspetto e come si sta — validi per animali, persone e cose — con immagini, tre frasi d’esempio ed esercizi da trascinare.',
-    heroAlt: 'Un prato con elefante, giraffa, topolino, zebra, riccio, pappagallo e pecora',
+    heroAlt: 'Una giraffa alta con il collo lungo, in piedi nella savana dorata',
     cardText:
       '50 aggettivi di tutti i giorni per descrivere animali, persone e cose: alto, stanco, bagnato, peloso…, con esercizi da trascinare.',
   },
@@ -35,7 +35,7 @@ export const physicalPages = {
     title: 'Animal physical characteristics | Italian vocabulary | Italiano con Martin',
     description:
       'Learn 50 Italian adjectives to describe bodies, strength, looks and how you feel — for animals, people and things — with images, three example sentences and drag-and-drop exercises.',
-    heroAlt: 'A meadow with an elephant, giraffe, tiny mouse, zebra, hedgehog, parrot and sheep',
+    heroAlt: 'A tall giraffe with a long neck standing in the golden savannah',
     cardText:
       '50 everyday adjectives for animals, people and things: tall, tired, wet, hairy… with drag-and-drop exercises.',
   },
@@ -46,7 +46,7 @@ export const physicalPages = {
     title: 'Las características físicas de los animales | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 50 adjetivos italianos para describir el cuerpo, la fuerza, el aspecto y cómo se siente uno — para animales, personas y cosas — con imágenes, tres frases de ejemplo y ejercicios de arrastrar.',
-    heroAlt: 'Un prado con elefante, jirafa, ratoncito, cebra, erizo, loro y oveja',
+    heroAlt: 'Una jirafa alta de cuello largo, de pie en la sabana dorada',
     cardText:
       '50 adjetivos de todos los días para animales, personas y cosas: alto, cansado, mojado, peludo… con ejercicios de arrastrar.',
   },
@@ -57,7 +57,7 @@ export const physicalPages = {
     title: 'Les caractéristiques physiques des animaux | vocabulaire italien | Italiano con Martin',
     description:
       'Apprenez 50 adjectifs italiens pour décrire le corps, la force, l’apparence et l’état physique — pour les animaux, les personnes et les choses — avec des images, trois exemples de phrases et des exercices à glisser-déposer.',
-    heroAlt: 'Une prairie avec éléphant, girafe, petite souris, zèbre, hérisson, perroquet et mouton',
+    heroAlt: 'Une grande girafe au long cou, debout dans la savane dorée',
     cardText:
       '50 adjectifs de tous les jours pour les animaux, les personnes et les choses : grand, fatigué, mouillé, poilu… avec des exercices à glisser-déposer.',
   },
@@ -68,7 +68,7 @@ export const physicalPages = {
     title: 'Fyzické vlastnosti zvířat | italská slovní zásoba | Italiano con Martin',
     description:
       'Naučte se 50 italských přídavných jmen pro popis těla, síly, vzhledu a tělesného stavu — pro zvířata, lidi i věci — s obrázky, třemi příkladovými větami a cvičeními na přetahování.',
-    heroAlt: 'Louka se slonem, žirafou, malou myškou, zebrou, ježkem, papouškem a ovcí',
+    heroAlt: 'Vysoká žirafa s dlouhým krkem stojí ve zlatavé savaně',
     cardText:
       '50 každodenních přídavných jmen pro zvířata, lidi i věci: vysoký, unavený, mokrý, chlupatý… s cvičeními na přetahování.',
   },
@@ -79,7 +79,7 @@ export const physicalPages = {
     title: 'Cechy fizyczne zwierząt | włoskie słownictwo | Italiano con Martin',
     description:
       'Naucz się 50 włoskich przymiotników opisujących ciało, siłę, wygląd i samopoczucie — o zwierzętach, ludziach i rzeczach — z obrazkami, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.',
-    heroAlt: 'Łąka ze słoniem, żyrafą, małą myszką, zebrą, jeżem, papugą i owcą',
+    heroAlt: 'Wysoka żyrafa z długą szyją stoi na złocistej sawannie',
     cardText:
       '50 codziennych przymiotników o zwierzętach, ludziach i rzeczach: wysoki, zmęczony, mokry, owłosiony… z ćwiczeniami z przeciąganiem.',
   },
@@ -90,7 +90,7 @@ export const physicalPages = {
     title: 'Hayvanların fiziksel özellikleri | İtalyanca kelimeler | Italiano con Martin',
     description:
       'Vücudu, gücü, görünüşü ve fiziksel durumu anlatan 50 İtalyanca sıfatı — hayvanlar, insanlar ve eşyalar için — resimler, üç örnek cümle ve sürükle-bırak alıştırmalarıyla öğrenin.',
-    heroAlt: 'Fil, zürafa, küçük fare, zebra, kirpi, papağan ve koyunun olduğu bir çayır',
+    heroAlt: 'Altın rengi savanda duran uzun boyunlu, uzun bir zürafa',
     cardText:
       'Hayvanlar, insanlar ve eşyalar için 50 günlük sıfat: uzun boylu, yorgun, ıslak, tüylü… sürükle-bırak alıştırmalarıyla.',
   },
@@ -101,7 +101,7 @@ export const physicalPages = {
     title: 'Die körperlichen Eigenschaften der Tiere | italienischer Wortschatz | Italiano con Martin',
     description:
       'Lernen Sie 50 italienische Adjektive für Körper, Kraft, Aussehen und körperlichen Zustand — für Tiere, Menschen und Dinge — mit Bildern, drei Beispielsätzen und Drag-and-drop-Übungen.',
-    heroAlt: 'Eine Wiese mit Elefant, Giraffe, kleiner Maus, Zebra, Igel, Papagei und Schaf',
+    heroAlt: 'Eine große Giraffe mit langem Hals steht in der goldenen Savanne',
     cardText:
       '50 Alltagsadjektive für Tiere, Menschen und Dinge: groß, müde, nass, haarig … mit Drag-and-drop-Übungen.',
   },
@@ -112,7 +112,7 @@ export const physicalPages = {
     title: '動物の身体的特徴 | イタリア語の語彙 | Italiano con Martin',
     description:
       '体、力、見た目、体の状態を表すイタリア語の形容詞 50 個を、動物・人・ものに使える表現として、画像、3 つの例文、ドラッグ＆ドロップの練習問題で学びます。',
-    heroAlt: 'ゾウ、キリン、小さなネズミ、シマウマ、ハリネズミ、オウム、ヒツジのいる草原',
+    heroAlt: '金色のサバンナに立つ、首の長い背の高いキリン',
     cardText:
       '動物・人・ものに使える日常の形容詞 50 個：背が高い、疲れた、濡れた、毛深い…。ドラッグ＆ドロップの練習付き。',
   },
@@ -126,7 +126,7 @@ export const personalityPages = {
     title: 'Aggettivi per descrivere la personalità degli animali | Italiano con Martin',
     description:
       'Impara 62 aggettivi italiani per descrivere il carattere e lo stato d’animo di animali e persone — buono, generoso, triste, arrabbiato — con immagini, tre frasi d’esempio ed esercizi da trascinare.',
-    heroAlt: 'Un prato con ghepardo, lumaca, pavone, bradipo, gufo, volpe, coniglio e leoncino',
+    heroAlt: 'Un pavone con la coda colorata tutta aperta su un prato verde',
     cardText:
       '62 aggettivi di tutti i giorni per il carattere e l’umore di persone e animali, con esercizi da trascinare.',
   },
@@ -137,7 +137,7 @@ export const personalityPages = {
     title: 'Animal personality | Italian vocabulary | Italiano con Martin',
     description:
       'Learn 62 Italian adjectives to describe the character and mood of animals and people — kind, generous, sad, angry — with images, three example sentences and drag-and-drop exercises.',
-    heroAlt: 'A meadow with a cheetah, snail, peacock, sloth, owl, fox, rabbit and lion cub',
+    heroAlt: 'A peacock with its colourful tail fully open on a green lawn',
     cardText: '62 everyday adjectives for the character and mood of people and animals, with drag-and-drop exercises.',
   },
   es: {
@@ -147,7 +147,7 @@ export const personalityPages = {
     title: 'La personalidad de los animales | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 62 adjetivos italianos para describir el carácter y el estado de ánimo de animales y personas — bueno, generoso, triste, enfadado — con imágenes, tres frases de ejemplo y ejercicios de arrastrar.',
-    heroAlt: 'Un prado con guepardo, caracol, pavo real, perezoso, búho, zorro, conejo y cachorro de león',
+    heroAlt: 'Un pavo real con su colorida cola totalmente abierta sobre un prado verde',
     cardText:
       '62 adjetivos de todos los días para el carácter y el ánimo de personas y animales, con ejercicios de arrastrar.',
   },
@@ -158,7 +158,7 @@ export const personalityPages = {
     title: 'La personnalité des animaux | vocabulaire italien | Italiano con Martin',
     description:
       'Apprenez 62 adjectifs italiens pour décrire le caractère et l’humeur des animaux et des personnes — gentil, généreux, triste, en colère — avec des images, trois exemples de phrases et des exercices à glisser-déposer.',
-    heroAlt: 'Une prairie avec guépard, escargot, paon, paresseux, hibou, renard, lapin et lionceau',
+    heroAlt: 'Un paon qui fait la roue avec sa queue colorée sur une pelouse verte',
     cardText:
       '62 adjectifs de tous les jours pour le caractère et l’humeur des personnes et des animaux, avec des exercices à glisser-déposer.',
   },
@@ -169,7 +169,7 @@ export const personalityPages = {
     title: 'Povaha zvířat | italská slovní zásoba | Italiano con Martin',
     description:
       'Naučte se 62 italských přídavných jmen pro popis povahy a nálady zvířat i lidí — hodný, štědrý, smutný, naštvaný — s obrázky, třemi příkladovými větami a cvičeními na přetahování.',
-    heroAlt: 'Louka s gepardem, hlemýžděm, pávem, lenochodem, sovou, liškou, králíkem a lvíčetem',
+    heroAlt: 'Páv s rozevřeným barevným ocasem na zeleném trávníku',
     cardText: '62 každodenních přídavných jmen pro povahu a náladu lidí i zvířat, s cvičeními na přetahování.',
   },
   pl: {
@@ -179,7 +179,7 @@ export const personalityPages = {
     title: 'Charakter zwierząt | włoskie słownictwo | Italiano con Martin',
     description:
       'Naucz się 62 włoskich przymiotników opisujących charakter i nastrój zwierząt i ludzi — dobry, hojny, smutny, zły — z obrazkami, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.',
-    heroAlt: 'Łąka z gepardem, ślimakiem, pawiem, leniwcem, sową, lisem, królikiem i lwiątkiem',
+    heroAlt: 'Paw z całkowicie rozłożonym kolorowym ogonem na zielonym trawniku',
     cardText:
       '62 codzienne przymiotniki opisujące charakter i nastrój ludzi i zwierząt, z ćwiczeniami z przeciąganiem.',
   },
@@ -190,7 +190,7 @@ export const personalityPages = {
     title: 'Hayvanların kişiliği | İtalyanca kelimeler | Italiano con Martin',
     description:
       'Hayvanların ve insanların karakterini ve ruh halini anlatan 62 İtalyanca sıfatı — iyi, cömert, üzgün, kızgın — resimler, üç örnek cümle ve sürükle-bırak alıştırmalarıyla öğrenin.',
-    heroAlt: 'Çita, salyangoz, tavus kuşu, tembel hayvan, baykuş, tilki, tavşan ve aslan yavrusunun olduğu bir çayır',
+    heroAlt: 'Yeşil bir çimenlikte renkli kuyruğunu tamamen açmış bir tavus kuşu',
     cardText:
       'İnsanların ve hayvanların karakterini ve ruh halini anlatan 62 günlük sıfat, sürükle-bırak alıştırmalarıyla.',
   },
@@ -201,7 +201,7 @@ export const personalityPages = {
     title: 'Die Persönlichkeit der Tiere | italienischer Wortschatz | Italiano con Martin',
     description:
       'Lernen Sie 62 italienische Adjektive für Charakter und Stimmung von Tieren und Menschen — gut, großzügig, traurig, wütend — mit Bildern, drei Beispielsätzen und Drag-and-drop-Übungen.',
-    heroAlt: 'Eine Wiese mit Gepard, Schnecke, Pfau, Faultier, Eule, Fuchs, Kaninchen und Löwenjunges',
+    heroAlt: 'Ein Pfau mit weit aufgefächertem, buntem Schwanz auf einer grünen Wiese',
     cardText: '62 Alltagsadjektive für Charakter und Stimmung von Menschen und Tieren, mit Drag-and-drop-Übungen.',
   },
   ja: {
@@ -211,7 +211,7 @@ export const personalityPages = {
     title: '動物の性格 | イタリア語の語彙 | Italiano con Martin',
     description:
       '動物や人の性格と気分を表すイタリア語の形容詞 62 個（優しい、気前がよい、悲しい、怒った）を、画像、3 つの例文、ドラッグ＆ドロップの練習問題で学びます。',
-    heroAlt: 'チーター、カタツムリ、クジャク、ナマケモノ、フクロウ、キツネ、ウサギ、子ライオンのいる草原',
+    heroAlt: '緑の芝生の上で色あざやかな尾羽を大きく広げたクジャク',
     cardText: '人や動物の性格と気分を表す日常の形容詞 62 個。ドラッグ＆ドロップの練習付き。',
   },
 };
@@ -224,7 +224,7 @@ export const verbPages = {
     title: 'Verbi degli animali in italiano | Italiano con Martin',
     description:
       'Impara 119 verbi italiani di tutti i giorni — nascere, morire, lavorare, aspettare, ridere, fare rumore — con un animale che li fa in foto, tre frasi d’esempio ed esercizi da trascinare.',
-    heroAlt: 'Un prato con ruscello: castoro, aquila, formica con una foglia, anatra, ragno, canguro e scimmia',
+    heroAlt: 'Un’aquila che vola con le ali spiegate nel cielo azzurro, sopra le cime innevate delle montagne',
     cardText:
       '119 verbi di tutti i giorni, per le persone e per gli animali: nascere, correre, aspettare, litigare, fare rumore…',
   },
@@ -235,7 +235,7 @@ export const verbPages = {
     title: 'Animal verbs | Italian vocabulary | Italiano con Martin',
     description:
       'Learn 119 everyday Italian verbs — to be born, to die, to work, to wait, to laugh, to make noise — each shown by an animal, with three example sentences and drag-and-drop exercises.',
-    heroAlt: 'A meadow with a stream: beaver, eagle, ant with a leaf, duck, spider, kangaroo and monkey',
+    heroAlt: 'An eagle flying with its wings spread in the blue sky, above snowy mountain peaks',
     cardText: '119 everyday verbs for people and animals: to be born, to run, to wait, to argue, to make noise…',
   },
   es: {
@@ -245,7 +245,7 @@ export const verbPages = {
     title: 'Los verbos de los animales | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 119 verbos italianos de todos los días — nacer, morir, trabajar, esperar, reír, hacer ruido — cada uno ilustrado por un animal, con tres frases de ejemplo y ejercicios de arrastrar.',
-    heroAlt: 'Un prado con un arroyo: castor, águila, hormiga con una hoja, pato, araña, canguro y mono',
+    heroAlt: 'Un águila que vuela con las alas extendidas en el cielo azul, sobre las cumbres nevadas',
     cardText: '119 verbos de todos los días para personas y animales: nacer, correr, esperar, discutir, hacer ruido…',
   },
   fr: {
@@ -256,7 +256,7 @@ export const verbPages = {
     description:
       'Apprenez 119 verbes italiens de tous les jours — naître, mourir, travailler, attendre, rire, faire du bruit — chacun illustré par un animal, avec trois exemples de phrases et des exercices à glisser-déposer.',
     heroAlt:
-      'Une prairie avec un ruisseau : castor, aigle, fourmi avec une feuille, canard, araignée, kangourou et singe',
+      'Un aigle qui vole les ailes déployées dans le ciel bleu, au-dessus des sommets enneigés',
     cardText:
       '119 verbes de tous les jours pour les personnes et les animaux : naître, courir, attendre, se disputer, faire du bruit…',
   },
@@ -267,7 +267,7 @@ export const verbPages = {
     title: 'Slovesa zvířat | italská slovní zásoba | Italiano con Martin',
     description:
       'Naučte se 119 každodenních italských sloves — narodit se, zemřít, pracovat, čekat, smát se, dělat hluk — každé ilustruje zvíře, se třemi příkladovými větami a cvičeními na přetahování.',
-    heroAlt: 'Louka s potokem: bobr, orel, mravenec s listem, kachna, pavouk, klokan a opice',
+    heroAlt: 'Orel letí s roztaženými křídly po modré obloze nad zasněženými vrcholky hor',
     cardText: '119 každodenních sloves pro lidi i zvířata: narodit se, běžet, čekat, hádat se, dělat hluk…',
   },
   pl: {
@@ -277,7 +277,7 @@ export const verbPages = {
     title: 'Czasowniki zwierząt | włoskie słownictwo | Italiano con Martin',
     description:
       'Naucz się 119 codziennych włoskich czasowników — urodzić się, umrzeć, pracować, czekać, śmiać się, hałasować — każdy pokazany przez zwierzę, z trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.',
-    heroAlt: 'Łąka z potokiem: bóbr, orzeł, mrówka z liściem, kaczka, pająk, kangur i małpa',
+    heroAlt: 'Orzeł leci z rozpostartymi skrzydłami po błękitnym niebie nad ośnieżonymi szczytami',
     cardText: '119 codziennych czasowników dla ludzi i zwierząt: urodzić się, biegać, czekać, kłócić się, hałasować…',
   },
   tr: {
@@ -287,7 +287,7 @@ export const verbPages = {
     title: 'Hayvanların fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description:
       '119 günlük İtalyanca fiili — doğmak, ölmek, çalışmak, beklemek, gülmek, gürültü yapmak — her biri bir hayvanla gösterilmiş, üç örnek cümle ve sürükle-bırak alıştırmalarıyla öğrenin.',
-    heroAlt: 'Dereli bir çayır: kunduz, kartal, yaprak taşıyan karınca, ördek, örümcek, kanguru ve maymun',
+    heroAlt: 'Karlı dağ zirvelerinin üzerinde, mavi gökyüzünde kanatlarını açarak uçan bir kartal',
     cardText: 'İnsanlar ve hayvanlar için 119 günlük fiil: doğmak, koşmak, beklemek, tartışmak, gürültü yapmak…',
   },
   de: {
@@ -297,7 +297,7 @@ export const verbPages = {
     title: 'Die Verben der Tiere | italienischer Wortschatz | Italiano con Martin',
     description:
       'Lernen Sie 119 italienische Alltagsverben — geboren werden, sterben, arbeiten, warten, lachen, Lärm machen — jedes von einem Tier gezeigt, mit drei Beispielsätzen und Drag-and-drop-Übungen.',
-    heroAlt: 'Eine Wiese mit Bach: Biber, Adler, Ameise mit einem Blatt, Ente, Spinne, Känguru und Affe',
+    heroAlt: 'Ein Adler fliegt mit ausgebreiteten Flügeln über verschneiten Berggipfeln durch den blauen Himmel',
     cardText: '119 Alltagsverben für Menschen und Tiere: geboren werden, rennen, warten, streiten, Lärm machen …',
   },
   ja: {
@@ -307,7 +307,7 @@ export const verbPages = {
     title: '動物の動詞 | イタリア語の語彙 | Italiano con Martin',
     description:
       '日常で使うイタリア語の動詞 119 個（生まれる、死ぬ、働く、待つ、笑う、音を立てる）を、動物の写真、3 つの例文、ドラッグ＆ドロップの練習問題で学びます。',
-    heroAlt: '小川のある草原：ビーバー、ワシ、葉っぱを運ぶアリ、アヒル、クモ、カンガルー、サル',
+    heroAlt: '雪をかぶった山々の上の青空を、翼を広げて飛ぶワシ',
     cardText: '人にも動物にも使える日常の動詞 119 個：生まれる、走る、待つ、けんかする、音を立てる…',
   },
 };

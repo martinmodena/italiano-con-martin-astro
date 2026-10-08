@@ -242,7 +242,7 @@ export const falseFriendsDePage = {
   template: 'de/wortschatz/italienischer-wortschatz-kueche.html',
   hero: 'falsi-amici-de-hero.webp',
   heroAlt:
-    'Zwölf Cartoons zu falschen Freunden: eine Oma und eine Nonne beim Stricken, ein Regal als Geschenk, eine Treppe aus Öfen, ein alter Mann, der sehr groß ist, eine Sohle in Form einer Sonne und mehr',
+    'Eine deutsche Brezel und italienische Grissini nebeneinander auf einem Holztisch',
   crumb: 'Falsche Freunde',
   eyebrow: 'Wortschatz A1–B1',
   h1: 'Falsche Freunde zwischen Italienisch und Deutsch',

@@ -1,263 +1,59 @@
-# Immagini delle lezioni di vocabolario del 2026-09-26/27
 
-Come rifare tutte le immagini di queste lezioni: «I mestieri», «Le persone intorno a noi», «I verbi delle relazioni», «Il tempo e le stagioni», «La casa», «I verbi della casa», «La città», «La montagna», «I verbi della città», «Le emozioni».
 
-## 1. Testate (copertine)
+## 2026-10-08 — Le testate a cartone animato diventano foto
 
-Modello di qualità `google/gemini-3-pro-image` (circa $0,13 l'una), una per lezione. Comando:
+Martin: «rifai anche i disegni a cartone animato con foto». Rifatte con lo stesso comando delle altre (`gemini-3-pro-image`, circa $0,13 l'una, $1,21 in tutto). Per i falsi amici l'idea è un oggetto tipico dell'altro paese accanto al suo «cugino» italiano. Le vignette dentro le lezioni dei falsi amici restano disegni: sono il contenuto degli esercizi, non la testata.
 
-```bash
-node scripts/generate-image.mjs --slug vocabolario/<nome>-hero --hero-width 1280 --hero-height 853 \
-  --aspect-ratio 3:2 --no-card --prompt "<SCENA> <FINE>"
-```
-
-`<FINE>` è uguale per tutte:
+### `animali-hero` (2026-10-08)
 
 ```
-Warm natural daylight, bright and inviting, true-to-life colours, skin and anatomy, candid and joyful, like a high-quality editorial photograph. No text, no letters, no logos, no signs with words, no meat, no fish. 3:2 landscape composition.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single red fox sitting calmly in a green meadow with a few wild flowers, looking at the camera, soft warm morning light, shallow depth of field; the background is softly blurred rolling Italian hills. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-Le `<SCENA>`:
-
-### `mestieri-hero`
+### `caratteristiche-animali-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of six smiling workers of different ages standing together in a sunny Italian street, each clearly recognisable by clothes and tools: a chef in a white jacket holding a basket of fresh vegetables, a doctor with a stethoscope, a firefighter with a helmet, a mechanic in blue overalls with a wrench, a farmer in a straw hat, a teacher holding books. Full bodies visible, men and women.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single peacock with its colourful tail fully open, standing on green grass, soft natural light, shallow depth of field; the background is a softly blurred, plain green garden. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `persone-hero`
+### `caratteristiche-fisiche-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of a lively sunny Italian town square full of ordinary people of all ages: grandparents on a bench, children playing, a young couple holding hands, a group of friends chatting, neighbours greeting each other, a tourist with a map.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single tall giraffe standing in a savannah, its long neck stretching up, seen in full, soft golden light; the background is a softly blurred plain with a pale sky. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `verbi-relazioni-hero`
+### `verbi-animali-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of a warm family and friends garden party in the Italian countryside: a couple embracing, grandparents hugging their grandchildren, two friends shaking hands, a child giving a wrapped present to her mother, people laughing together around a long table with fruit and bread.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single golden eagle flying with its wings fully spread against a clear pale blue sky, sharp in focus; far below, very softly blurred, the tops of mountains. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
 ```
 
-### `tempo-stagioni-hero`
+### `mare-hero` (2026-10-08)
 
 ```
-A bright, photorealistic landscape photograph of the same Italian hillside with a single tree seen through the four seasons, divided into four vertical parts that blend softly into each other from left to right: spring with blossoms and a light rain shower, summer with blazing sun and golden fields, autumn with red and orange leaves and fog, winter with snow and a snowman. A rainbow arches across the sky.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a single striped beach umbrella and one wooden deckchair on an empty sandy beach, the calm turquoise Mediterranean sea behind, soft morning light; in the far distance, softly blurred, a rocky Italian coastline. Calm, clean composition with lots of empty space, one subject only, no people, no borders, no brand logos, no text.
 ```
 
-### `casa-hero`
+### `falsi-amici-en-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of a cosy, tidy Italian apartment: an open living room with a sofa, a rug, a bookcase and plants, and through a wide doorway a kitchen and a glimpse of a bedroom, a balcony with geraniums, afternoon sunlight through the windows. No people.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a classic white English porcelain teapot and an Italian aluminium moka coffee pot standing side by side on a plain light wooden table, as if facing each other, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
 ```
 
-### `verbi-casa-hero`
+### `falsi-amici-fr-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of a family doing housework together in a sunny Italian home: a father cooking vegetables at the stove, a girl setting the table, a mother hanging washing on a drying rack on the balcony, a teenage boy vacuuming the rug, a grandmother watering plants. Full bodies visible.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a long French baguette and a rustic Italian ciabatta lying side by side on a plain light wooden table, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
 ```
 
-### `citta-hero`
+### `falsi-amici-es-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of a sunny historic Italian city street opening onto a square: an orange tram, people on bicycles and scooters, pedestrians on a zebra crossing, café tables outside a bar, a fruit and vegetable market stall, shop windows, a church bell tower and a fountain.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a Spanish classical guitar and an Italian mandolin leaning side by side against a plain warm white wall, on a light wooden floor, soft natural light, shallow depth of field. Calm, clean composition with lots of empty space, no people, no borders, no brand logos, no text.
 ```
 
-### `montagna-hero`
+### `falsi-amici-de-hero` (2026-10-08)
 
 ```
-A bright, natural, photorealistic photograph of the Italian Dolomites in summer: jagged peaks, a green alpine meadow with wild flowers, a wooden mountain hut, a turquoise lake, fir woods, and two hikers with backpacks and hiking poles walking along a trail.
-```
-
-### `verbi-citta-hero`
-
-```
-A bright, natural, photorealistic photograph of everyday life in a busy sunny Italian street: people crossing on a zebra crossing, a woman getting on an orange bus, a man paying with a card at a fruit and vegetable market stall, tourists taking photos, a cyclist, friends meeting with a hug outside a café.
-```
-
-(Il modello ne ha fatto un mosaico di sei riquadri: è piaciuto e resta così.)
-
-### `emozioni-hero`
-
-```
-A bright, natural, photorealistic photograph of a group of five friends of different ages at an outdoor café table reacting to news, each showing a different clear emotion: one laughing happily, one surprised with hands on her cheeks, one hugging a friend with joy, one thoughtful and a little worried, one moved with tears of happiness. Faces clearly visible.
-```
-
-### `scuola-hero`
-
-```
-A bright, natural, photorealistic photograph of a sunny classroom in an Italian primary school: children of about eight sitting at wooden desks, several of them eagerly raising their hands, a smiling young teacher standing at a green chalkboard, a world globe on her desk, colourful pencil cases and exercise books on the desks, children's colourful drawings on the walls, big windows with sunlight.
-```
-
-### `ufficio-hero`
-
-Ha sostituito l'illustrazione della prima versione della lezione (8 parole).
-
-```
-A bright, natural, photorealistic photograph of a modern open-plan office in an Italian city: colleagues of different ages working at light wooden desks with computers and plants, a small group having a relaxed meeting around a table with a laptop, two colleagues chatting and laughing with small espresso cups next to a coffee machine, big windows showing terracotta rooftops and a bell tower.
-```
-
-### `verbi-scuola-hero`
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one school action clearly: a smiling girl in a classroom eagerly raising her hand, a teenage boy taking notes in a notebook, a teacher explaining at a green chalkboard, two students in safety glasses doing an experiment with test tubes, a small boy drawing with coloured pencils, a young woman wearing a laurel wreath celebrating her university graduation with flowers.
-```
-
-### `verbi-ufficio-hero`
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one office action clearly: a woman typing on a computer keyboard, a man signing a contract with a pen, colleagues in a meeting around a table, a manager shaking hands with a happy new employee, a man with a headset on a video call on his laptop, two colleagues laughing during a coffee break with espresso cups.
-```
-
-### `verbi-montagna-hero`
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one mountain activity clearly: two hikers with backpacks walking on a trail in the Italian Dolomites, a woman with a helmet climbing a rock face, a green tent being put up on an alpine meadow, friends sitting around a campfire at dusk, a skier carving down a sunny snowy slope, two laughing children sledging down a snowy hill.
-```
-
-### `verbi-sport-hero` (2026-09-28)
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one sports action clearly: a goalkeeper in gloves diving to catch a football in front of the goal, a young woman volleyball player jumping and spiking the ball over the net, a woman doing yoga in the tree pose on a mat in a sunny park, a runner breaking the finish tape with his arms raised, happy fans in a stadium stand cheering with a striped scarf, a smiling girl with a riding helmet riding a brown horse in a field. Clothes and equipment without any brand logo, no text.
-```
-
-### `verbi-mare-hero` (2026-09-28)
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one seaside activity clearly on the Italian coast: two children building a sandcastle on a sunny beach, a young woman snorkelling underwater among small colourful fish, a small white sailing boat with a big sail on a blue sea, two laughing children jumping over a small wave at the shore, an old fisherman with a fishing rod sitting on a wooden pier, a couple seen from behind sitting on the sand watching an orange sunset over the sea. No brand logos, no text.
-```
-
-### `verbi-influenza-hero` (2026-10-01)
-
-```
-A bright, natural, photorealistic photo mosaic of six equal panels in a 3 by 2 grid separated by thin white lines, each showing one way people influence each other: a smiling father running beside his little daughter who rides a bicycle for the first time, cheering her on; a friendly woman doctor gently shaking her head at a patient holding a big bottle of fizzy drink; a basketball defender with arms raised blocking an opponent on an outdoor court; a team of young colleagues stacking their hands together in the middle of a circle; a mother firmly pointing at a plate of broccoli while her reluctant little son pouts with crossed arms; a museum guard raising her open hand to stop a tourist taking a photo of a painting. <FINE>
-```
-
-Le testate delle due lezioni sul corpo, rifatte lo stesso giorno, sono in [prompt-immagini-corpo.md](./prompt-immagini-corpo.md).
-
-Dopo aver cambiato una testata va aggiornato `heroAlt` nel file `scripts/data/<lezione>-pages.mjs`, nelle 9 lingue, **e** l'`alt` della tessera negli indici del vocabolario. Se la lezione esiste già, il generatore non tocca gli indici.
-
-### `sport-hero`
-
-**Rifatta il 2026-10-08** (`gemini-3-pro-image`, $0,13): la versione del 2026-09-28 aveva troppi dettagli (calcio, pista, tennis, bici, tribuna, campanile e una ventina di persone) e la scritta «FINISH» in inglese. Martin ha chiesto un'immagine semplice ed elegante, come quelle dei colori e del corpo umano. `heroAlt` e `alt` delle tessere riscritti nelle 9 lingue.
-
-```
-A minimal, elegant, photorealistic photograph: a single classic white football resting on short green grass in the foreground, shallow depth of field; behind it a white goal net, softly out of focus; far in the background, very blurred, the warm terracotta and ochre tones of an Italian town in late afternoon sunlight. Calm, clean composition with lots of empty space, one subject only, no people, no brand logos, no text.
-```
-
-Versione precedente, rifatta il 2026-09-28 con `gemini-3-pro-image` ($0,13) al posto del collage provvisorio del 2026-09-27 (`build-collage-hero.mjs --subdir sport --slugs calcio,nuoto,ciclismo,ginnastica,tennis,equitazione,scherma,yoga`). Il nastro del traguardo ha la scritta «FINISH»: lasciata così.
-
-```
-A bright, natural, photorealistic photograph of a sunny Sunday morning at a public sports park in an Italian town: in the foreground a mixed group of young amateur players in plain colourful kits cheering after a goal on a green football pitch, a ball in the net; behind them people jogging on a red running track, a woman crossing a finish ribbon with her arms up, two people playing tennis, a family with bicycles and helmets, spectators with scarves on a small grandstand; terracotta rooftops and a bell tower in the distance, no brand logos, no text.
-```
-
-## 2. Foto delle parole
-
-Il prompt di ogni parola è il campo `subject` della voce nel file dati. Lo stile comune (fondo bianco, niente testo, niente carne…) è in `scripts/generate-animal-images.mjs`. Modello `gpt-image-1-mini`, qualità `low` salvo dove indicato.
-
-| Lezione                  | File dati                              | `--set`           | Stile           |
-| ------------------------ | -------------------------------------- | ----------------- | --------------- |
-| I mestieri               | `scripts/data/jobs-vocabulary.mjs`     | `mestieri`        | `JOB_STYLE`     |
-| Le persone intorno a noi | `scripts/data/people-vocabulary.mjs`   | `persone`         | `PEOPLE_STYLE`  |
-| I verbi delle relazioni  | `scripts/data/relations-verbs.mjs`     | `relazioni`       | `PEOPLE_STYLE`  |
-| Il tempo e le stagioni   | `scripts/data/weather-vocabulary.mjs`  | `tempo`           | `WEATHER_STYLE` |
-| La casa                  | `scripts/data/house-vocabulary.mjs`    | `casa`            | `HOUSE_STYLE`   |
-| I verbi della casa       | `scripts/data/house-verbs.mjs`         | `verbi-casa`      | `PEOPLE_STYLE`  |
-| La città                 | `scripts/data/city-vocabulary.mjs`     | `citta`           | `CITY_STYLE`    |
-| La montagna              | `scripts/data/mountain-vocabulary.mjs` | `montagna`        | `WEATHER_STYLE` |
-| I verbi della città      | `scripts/data/city-verbs.mjs`          | `verbi-citta`     | `PEOPLE_STYLE`  |
-| Le emozioni              | `scripts/data/emotions-vocabulary.mjs` | `emozioni`        | `EMOTION_STYLE` |
-| La scuola                | `scripts/data/school-vocabulary.mjs`   | `scuola`          | `SCHOOL_STYLE`  |
-| L'ufficio                | `scripts/data/office-vocabulary.mjs`   | `ufficio`         | `OFFICE_STYLE`  |
-| I verbi della scuola     | `scripts/data/school-verbs.mjs`        | `verbi-scuola`    | `PEOPLE_STYLE`  |
-| I verbi dell'ufficio     | `scripts/data/office-verbs.mjs`        | `verbi-ufficio`   | `PEOPLE_STYLE`  |
-| I verbi della montagna   | `scripts/data/mountain-verbs.mjs`      | `verbi-montagna`  | `PEOPLE_STYLE`  |
-| Lo sport                 | `scripts/data/sport-vocabulary.mjs`    | `sport`           | `SPORT_STYLE`   |
-| I verbi dello sport      | `scripts/data/sport-verbs.mjs`         | `verbi-sport`     | `PEOPLE_STYLE`  |
-| I verbi del mare         | `scripts/data/sea-verbs.mjs`           | `verbi-mare`      | `PEOPLE_STYLE`  |
-| I verbi di influenza     | `scripts/data/influence-verbs.mjs`     | `verbi-influenza` | `PEOPLE_STYLE`  |
-
-Procedura completa per una lezione:
-
-```bash
-node scripts/generate-animal-images.mjs --set <set> --out-dir <grezze>
-python scripts/round-mask.py <grezze> <slug,...>            # solo se serve, vedi sotto
-python scripts/remove-white-background.py <grezze> <pulite> --whiten=<tutti gli slug>
-node scripts/convert-vocabulary-images.mjs <pulite> --subdir <set>
-```
-
-In queste lezioni tutte le foto sono passate con `--whiten`.
-
-### Ritocchi fatti a mano dopo la generazione
-
-- **Maschera rotonda** (`scripts/round-mask.py`, raggio 0.44), per la sfumatura scura ai bordi:
-  - `citta`: bar, biblioteca, cinema, metropolitana, museo, parcheggio, parco, ponte, scuola, strada, supermercato, ufficio-postale, ristorante;
-  - `montagna`: bussola;
-  - `verbi-citta`: andare-dritto, con raggio 0.46.
-- **Foto rifatte più volte o a qualità più alta**:
-  - `citta`: 34 foto rifatte a `low` dopo aver aggiunto a `CITY_STYLE` la frase sul fondo bianco; 16 rifatte a `medium` (banca, bar, biblioteca, cinema, fermata, metropolitana, museo, ospedale, parcheggio, parco, ponte, scuola, strada, supermercato, ufficio-postale, ristorante). Rigenerandole oggi con i prompt attuali basta `low` più la maschera.
-  - Rifatte una volta per un difetto del soggetto, già corretto nel campo `subject`: `verbi-casa` asciugare e riempire, `montagna` rifugio, `verbi-citta` parcheggiare.
-  - `verbi-scuola` essere-bocciato: il primo prompt (un ragazzino triste sui gradini della scuola) è stato **rifiutato dal filtro di sicurezza** di OpenAI; con uno studente universitario adulto è passato.
-  - Rifatte a qualità `medium` con il soggetto riscritto (le prime erano poco chiare): `verbi-scuola` misurare, imparare-a-memoria, copiare; `verbi-ufficio` fare-gli-straordinari (la scena notturna si slavava con `--whiten`: ora c'è un orologio a muro sulle dieci), fare-un-colloquio, dimettersi (c'era un finto testo).
-  - `verbi-montagna`: guardare-le-stelle, nevicare, pattinare e rinfrescarsi rifatte a `medium` come **foto rotonde** (il cielo notturno e la neve sparivano nel fondo bianco; sul ghiaccio non si vedevano i pattini): nel `subject` c'è ora «a photograph cropped into a perfect circle».
-  - `scuola` righello: il primo era trasparente e spariva sul bianco; rifatto di legno, poi a qualità `medium` (`--only righello --quality medium`, $0,009) perché a `low` i segni erano pasticciati.
-  - `sport`: il 2026-09-27 le prime 18 foto (gli sport, lo stadio, il campo), poi i crediti di OpenRouter sono finiti; il 2026-09-28 le altre 27 ($0,07). Tutte con `--whiten`, nessun ritocco. `arbitro` è stata **rifiutata dal filtro di sicurezza** con «a whistle in his mouth»; con il fischietto appeso al collo è passata. Attenzione: `--set sport` salta le foto già presenti in `public/`, non quelle già nella cartella `--out-dir`: rilanciandolo per una sola foto fallita le rifà tutte (meglio `--only <slug>`).
-  - `verbi-sport` (2026-09-28): 37 foto `low` ($0,10), tutte con `--whiten`; remare e fare-surf chieste subito come foto rotonde (l'acqua sparirebbe nel bianco). Rifatte a `medium` con il soggetto riscritto ($0,02): fare-una-capriola (la prima era una verticale con due adulti che guardavano) e tagliare-il-traguardo (c'era la scritta «FINISH» per terra: ora un arco di palloncini e «no letters and no words anywhere»).
-  - `verbi-mare` (2026-09-28): 30 foto `low` ($0,08), tutte con `--whiten`; le 18 scene con molta acqua chieste subito come foto rotonde (costante `ROUND` nel file dati). Rifatte a `medium` ($0,02): infrangersi (il modello aveva disegnato quattro persone in piedi: ora «a seascape with no people at all») e scottarsi (la scottatura si vedeva poco: ora di schiena, con il segno bianco della canottiera).
-  - `verbi-influenza` (2026-10-01): 32 foto `low` ($0,08; collaborare riusa `verbi-ufficio/collaborare`), tutte con `--whiten`. Rifatte a `medium` ($0,02): fare-pressione (sul contratto c'era una finta scritta: ora «a completely blank white sheet… no letters and no words anywhere») e punire (sembrava «sgridare»: ora la mamma tiene in alto il controller sequestrato). Testata $0,13.
-
-## 2026-10-08 — Nove testate rifatte più semplici
-
-Martin: «non voglio troppi dettagli». Le vecchie testate erano scene affollate (e quella del cibo aveva carne e pesce, contro la regola delle immagini). Tutte con `generate-image.mjs --slug vocabolario/<nome>-hero --hero-width 1280 --hero-height 853 --aspect-ratio 3:2 --no-card` (`gemini-3-pro-image`, circa $0,13 l'una). `heroAlt` e `alt` delle tessere riscritti nelle 9 lingue. La prima versione di `verbi-relazioni-hero` (un abbraccio troppo ravvicinato) è uscita tagliata con due bande bianche: rifatta con il prompt qui sotto, che chiede esplicitamente il formato orizzontale e niente bordi.
-
-### `cibo-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a rustic loaf of Italian bread and a few ripe red tomatoes on a simple wooden table, soft natural window light, shallow depth of field; the background is a warm, softly blurred Italian kitchen. No meat, no fish, no eggs, no cheese. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `verbi-relazioni-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: two smiling friends, a man and a woman, warmly hugging each other in the centre of the image, seen from the waist up, soft golden late afternoon light; the background is a softly blurred Italian countryside with olive trees and cypresses. Calm, clean composition with lots of empty space, one subject only, no borders, no brand logos, no text.
-```
-
-### `persone-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: an elderly couple sitting side by side on a stone bench, smiling at each other, seen from a little distance; the background is a quiet Italian piazza with warm ochre walls, very softly blurred and empty. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `citta-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a quiet narrow street in an Italian town in soft morning light, warm ochre and terracotta facades with green shutters, a single pastel-coloured scooter parked by the wall; the end of the street softly blurred. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `emozioni-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic portrait: a young woman laughing joyfully with her eyes half closed, head slightly tilted back, soft natural light; the background is a plain, softly blurred warm cream wall. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `scuola-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a single wooden school desk with an open notebook, a few coloured pencils and an eraser, soft daylight from a window; behind it a green chalkboard, softly out of focus and empty. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `ufficio-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a clean light wooden desk with an open laptop, a small notebook and a pen, and a little espresso cup, soft daylight; behind it a large window with the terracotta rooftops of an Italian city, softly blurred. No people. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `mestieri-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a white chef's hat and a folded white apron resting on a light wooden kitchen counter next to a sprig of fresh basil, soft natural light; the background is a softly blurred bright Italian kitchen. No people, no food other than basil. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
-```
-
-### `verbi-casa-hero` (2026-10-08)
-
-```
-A minimal, elegant, photorealistic photograph: a hand opening a white wooden window with green shutters, morning light pouring in; through the window, softly blurred, the terracotta rooftops of an Italian town. Only the hand and forearm visible. Calm, clean composition with lots of empty space, one subject only, no brand logos, no text.
+A minimal, elegant, photorealistic wide landscape-format photograph filling the whole frame: a German pretzel and a small bundle of Italian grissini breadsticks lying side by side on a plain light wooden table, soft natural light, shallow depth of field; the background is a plain, softly blurred cream wall. Calm, clean composition with lots of empty space, no borders, no brand logos, no text.
 ```

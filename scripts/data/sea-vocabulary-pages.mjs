@@ -15,7 +15,7 @@ export const seaPages = {
     name: 'Il mare',
     title: 'Vocabolario del mare in italiano | Italiano con Martin',
     description: 'Impara 30 parole italiane del mare con immagini, tre frasi d’esempio, pronuncia ed esercizi.',
-    heroAlt: 'Il mare illustrato con spiaggia, ombrellone, barca, conchiglie e faro',
+    heroAlt: 'Un ombrellone a righe e una sdraio su una spiaggia deserta, con il mare turchese e la costa rocciosa italiana sullo sfondo',
     cardText: '30 parole per la spiaggia, la barca e le vacanze.',
   },
   en: {
@@ -24,7 +24,7 @@ export const seaPages = {
     name: 'The sea',
     title: 'The sea | Italian vocabulary | Italiano con Martin',
     description: 'Learn 30 Italian sea words with images, three example sentences, pronunciation and exercises.',
-    heroAlt: 'An illustrated sea with beach, umbrella, boat, shells and lighthouse',
+    heroAlt: 'A striped beach umbrella and a deckchair on an empty beach, with the turquoise sea and the rocky Italian coast in the background',
     cardText: '30 words for the beach, the boat and holidays.',
   },
   es: {
@@ -34,7 +34,7 @@ export const seaPages = {
     title: 'el mar | vocabulario italiano | Italiano con Martin',
     description:
       'Aprende 30 palabras italianas del mar con imágenes, tres frases de ejemplo, pronunciación y ejercicios.',
-    heroAlt: 'Un mar ilustrado con playa, sombrilla, barco, conchas y faro',
+    heroAlt: 'Una sombrilla de rayas y una tumbona en una playa desierta, con el mar turquesa y la costa rocosa italiana al fondo',
     cardText: '30 palabras para la playa, el barco y las vacaciones.',
   },
   fr: {
@@ -44,7 +44,7 @@ export const seaPages = {
     title: 'La mer | vocabulaire italien | Italiano con Martin',
     description:
       'Apprenez 30 mots italiens de la mer avec des images, trois exemples de phrases, la prononciation et des exercices.',
-    heroAlt: 'Une mer illustrée avec plage, parasol, bateau, coquillages et phare',
+    heroAlt: 'Un parasol rayé et un transat sur une plage déserte, avec la mer turquoise et la côte rocheuse italienne à l’arrière-plan',
     cardText: '30 mots pour la plage, le bateau et les vacances.',
   },
   cs: {
@@ -53,7 +53,7 @@ export const seaPages = {
     name: 'Moře',
     title: 'moře | italská slovní zásoba | Italiano con Martin',
     description: 'Naučte se 30 italských slov o moři s obrázky, tři příkladové věty, výslovnost a cvičení.',
-    heroAlt: 'Ilustrované moře s pláží, slunečníkem, lodí, mušlemi a majákem',
+    heroAlt: 'Pruhovaný slunečník a lehátko na prázdné pláži, v pozadí tyrkysové moře a skalnaté italské pobřeží',
     cardText: '30 slov pro pláž, loď a dovolenou.',
   },
   pl: {
@@ -62,7 +62,7 @@ export const seaPages = {
     name: 'Morze',
     title: 'Morze | włoskie słownictwo | Italiano con Martin',
     description: 'Naucz się 30 włoskich słów o morzu z obrazkami, trzema przykładowymi zdaniami, wymową i ćwiczeniami.',
-    heroAlt: 'Ilustrowane morze z plażą, parasolem, łodzią, muszlami i latarnią morską',
+    heroAlt: 'Parasol w paski i leżak na pustej plaży, w tle turkusowe morze i skaliste włoskie wybrzeże',
     cardText: '30 słów na określenie plaży, łodzi i wakacji.',
   },
   tr: {
@@ -71,7 +71,7 @@ export const seaPages = {
     name: 'Deniz',
     title: 'deniz | İtalyanca kelimeler | Italiano con Martin',
     description: 'Resimler, üç örnek cümle, telaffuz ve alıştırmalarla birlikte 30 İtalyanca deniz kelimesini öğrenin.',
-    heroAlt: 'Plaj, şemsiye, tekne, deniz kabukları ve deniz feneri ile resimli bir deniz',
+    heroAlt: 'Boş bir plajda çizgili bir şemsiye ve bir şezlong, arka planda turkuaz deniz ve kayalık İtalyan kıyısı',
     cardText: 'Plaj, tekne ve tatiller için 30 kelime.',
   },
   de: {
@@ -81,7 +81,7 @@ export const seaPages = {
     title: 'Das Meer | italienischer Wortschatz | Italiano con Martin',
     description:
       'Lernen Sie 30 italienische Wörter rund um das Meer mit Bildern, drei Beispielsätzen, Aussprache und Übungen.',
-    heroAlt: 'Ein illustriertes Meer mit Strand, Sonnenschirm, Boot, Muscheln und Leuchtturm',
+    heroAlt: 'Ein gestreifter Sonnenschirm und ein Liegestuhl an einem leeren Strand, im Hintergrund das türkisfarbene Meer und die felsige italienische Küste',
     cardText: '30 Wörter für den Strand, das Boot und den Urlaub.',
   },
   ja: {
@@ -90,7 +90,7 @@ export const seaPages = {
     name: '海',
     title: '海 | イタリア語の語彙 | Italiano con Martin',
     description: '海に関するイタリア語の単語 30 個を画像、3 つの例文、発音、練習問題で学びます。',
-    heroAlt: 'ビーチ、パラソル、ボート、貝殻、灯台のあるイラスト入りの海',
+    heroAlt: '誰もいない砂浜に置かれたストライプのパラソルとデッキチェア。背景にはターコイズ色の海とイタリアの岩の多い海岸',
     cardText: 'ビーチ、ボート、休暇を表す 30 語。',
   },
 };

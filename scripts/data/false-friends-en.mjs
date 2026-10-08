@@ -264,7 +264,7 @@ export const falseFriendsEnPage = {
   template: 'en/vocabulary/italian-kitchen-vocabulary.html',
   hero: 'falsi-amici-en-hero.webp',
   heroAlt:
-    'Twelve false-friend cartoons: a camera sleeping in a bedroom, a cow working in a factory, sugared almonds at a wedding, a press printing stamps, a kitten on a soft pillow next to a skeleton and more',
+    'An English teapot and an Italian moka coffee pot side by side on a wooden table',
   crumb: 'False friends',
   eyebrow: 'Vocabulary A1–B1',
   h1: 'False friends between Italian and English',
