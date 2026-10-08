@@ -26,7 +26,7 @@ export const sportVerbPages = {
     title: 'Verbi dello sport in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani dello sport — allenarsi, riscaldarsi, fare pesi, giocare a calcio, passare la palla, segnare, parare, tifare, arrivare primo, battere il record — con una foto, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Una ragazza corre da sola su una strada di campagna all’alba, con le colline e i cipressi sullo sfondo',
+      'Un ragazzo con maglietta e pantaloncini corre da solo su una strada di campagna all’alba, tra le colline e i cipressi',
     cardText: `${V} verbi per lo sport: allenarsi, giocare a calcio, segnare, parare, tifare, arrivare primo…`,
   },
   en: {
@@ -36,7 +36,7 @@ export const sportVerbPages = {
     title: 'Sports verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian sports verbs — to train, to warm up, to lift weights, to play football, to pass the ball, to score, to save, to cheer, to come first, to break the record — with a photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'A young woman runs alone on a country road at sunrise, with hills and cypresses in the background',
+      'A young man in a t-shirt and shorts runs alone on a country road at sunrise, among hills and cypresses',
     cardText: `${V} verbs for sport: to train, to play football, to score, to save, to cheer, to come first…`,
   },
   es: {
@@ -46,7 +46,7 @@ export const sportVerbPages = {
     title: 'Los verbos del deporte | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos del deporte — entrenar, calentar, hacer pesas, jugar al fútbol, pasar el balón, marcar, parar, animar, llegar el primero, batir el récord — con una foto, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Una chica corre sola por una carretera de campo al amanecer, con colinas y cipreses al fondo',
+      'Un chico con camiseta y pantalón corto corre solo por una carretera de campo al amanecer, entre colinas y cipreses',
     cardText: `${V} verbos para el deporte: entrenar, jugar al fútbol, marcar, parar, animar, llegar el primero…`,
   },
   fr: {
@@ -56,7 +56,7 @@ export const sportVerbPages = {
     title: 'Les verbes du sport | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens du sport — s’entraîner, s’échauffer, faire de la musculation, jouer au foot, faire une passe, marquer, arrêter le ballon, supporter, arriver premier, battre le record — avec une photo, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Une jeune femme court seule sur une route de campagne au lever du soleil, avec des collines et des cyprès à l’arrière-plan',
+      'Un jeune homme en t-shirt et en short court seul sur une route de campagne au lever du soleil, entre les collines et les cyprès',
     cardText: `${V} verbes pour le sport : s’entraîner, jouer au foot, marquer, arrêter le ballon, supporter, arriver premier…`,
   },
   cs: {
@@ -66,7 +66,7 @@ export const sportVerbPages = {
     title: 'Slovesa ve sportu | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves ze sportu — trénovat, rozcvičit se, posilovat, hrát fotbal, přihrát míč, dát gól, chytit střelu, fandit, doběhnout první, překonat rekord — s fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Mladá žena běží za svítání sama po venkovské silnici, v pozadí kopce a cypřiše',
+      'Mladý muž v tričku a šortkách běží za svítání sám po venkovské silnici mezi kopci a cypřiši',
     cardText: `${V} sloves pro sport: trénovat, hrát fotbal, dát gól, chytit střelu, fandit, doběhnout první…`,
   },
   pl: {
@@ -76,7 +76,7 @@ export const sportVerbPages = {
     title: 'Czasowniki sportowe | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników sportowych — trenować, rozgrzewać się, podnosić ciężary, grać w piłkę nożną, podać piłkę, strzelić gola, obronić strzał, kibicować, przybiec pierwszy, pobić rekord — ze zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Młoda kobieta biegnie sama wiejską drogą o wschodzie słońca, w tle wzgórza i cyprysy',
+      'Młody mężczyzna w koszulce i szortach biegnie sam wiejską drogą o wschodzie słońca, wśród wzgórz i cyprysów',
     cardText: `${V} czasowników sportowych: trenować, grać w piłkę nożną, strzelić gola, obronić strzał, kibicować, przybiec pierwszy…`,
   },
   tr: {
@@ -86,7 +86,7 @@ export const sportVerbPages = {
     title: 'Spor fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Spor için ${V} İtalyanca fiil öğrenin — antrenman yapmak, ısınmak, ağırlık çalışmak, futbol oynamak, pas vermek, gol atmak, kurtarmak, bir takımı tutmak, birinci gelmek, rekor kırmak — fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Genç bir kadın gün doğarken bir köy yolunda tek başına koşuyor, arka planda tepeler ve selviler',
+      'Tişörtlü ve şortlu genç bir adam gün doğarken tepeler ve selviler arasındaki bir köy yolunda tek başına koşuyor',
     cardText: `Spor için ${V} fiil: antrenman yapmak, futbol oynamak, gol atmak, kurtarmak, takım tutmak, birinci gelmek…`,
   },
   de: {
@@ -96,7 +96,7 @@ export const sportVerbPages = {
     title: 'Verben im Sport | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben für den Sport — trainieren, sich aufwärmen, Gewichte heben, Fußball spielen, den Ball abgeben, ein Tor schießen, halten, anfeuern, als Erster ankommen, den Rekord brechen — mit Foto, drei Beispielsätzen und Übungen zum Ziehen.`,
     heroAlt:
-      'Eine junge Frau läuft bei Sonnenaufgang allein auf einer Landstraße, im Hintergrund Hügel und Zypressen',
+      'Ein junger Mann in T-Shirt und Shorts läuft bei Sonnenaufgang allein auf einer Landstraße zwischen Hügeln und Zypressen',
     cardText: `${V} Verben für den Sport: trainieren, Fußball spielen, ein Tor schießen, halten, anfeuern, als Erster ankommen …`,
   },
   ja: {
@@ -106,7 +106,7 @@ export const sportVerbPages = {
     title: 'スポーツの動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `練習する、ウォーミングアップする、ウエイトトレーニングをする、サッカーをする、パスする、ゴールを決める、セーブする、応援する、一位になる、記録を破るなど、スポーツで使うイタリア語の動詞 ${V} 語を、写真、例文 3 つ、ドラッグ練習で学べます。`,
     heroAlt:
-      '夜明けの田舎道をひとりで走る若い女性。背景には丘と糸杉',
+      '夜明け、丘と糸杉の間の田舎道をひとりで走る、Tシャツと短パン姿の若い男性',
     cardText: `スポーツで使う動詞 ${V} 語：練習する、サッカーをする、ゴールを決める、セーブする、応援する、一位になる…`,
   },
 };

@@ -119,7 +119,7 @@ export const bodyVerbPages = {
     title: 'Verbi del corpo in italiano | Italiano con Martin',
     description: `Impara ${V} verbi italiani legati al corpo — pettinarsi i capelli, lavarsi le mani, toccare, mordere, arrossire — con una foto realistica, tre frasi d’esempio ed esercizi da trascinare.`,
     heroAlt:
-      'Una ragazza con la maglietta bianca apre le braccia e chiude gli occhi davanti a una finestra luminosa',
+      'Una ragazza con un maglione color crema si pettina i capelli lunghi con una spazzola di legno, vicino a una finestra luminosa',
     cardText: `${V} verbi per le mani, la bocca, gli occhi e le gambe: pettinarsi, toccare, mordere, arrossire, sentire…`,
   },
   en: {
@@ -129,7 +129,7 @@ export const bodyVerbPages = {
     title: 'Body verbs | Italian vocabulary | Italiano con Martin',
     description: `Learn ${V} Italian verbs about the body — to comb your hair, to wash your hands, to touch, to bite, to blush — with a realistic photo, three example sentences and drag-and-drop exercises.`,
     heroAlt:
-      'A young woman in a white t-shirt opens her arms and closes her eyes in front of a bright window',
+      'A young woman in a cream sweater brushes her long hair with a wooden hairbrush, next to a bright window',
     cardText: `${V} verbs for hands, mouth, eyes and legs: to comb, to touch, to bite, to blush, to hear…`,
   },
   es: {
@@ -139,7 +139,7 @@ export const bodyVerbPages = {
     title: 'Los verbos del cuerpo | vocabulario italiano | Italiano con Martin',
     description: `Aprende ${V} verbos italianos relacionados con el cuerpo — peinarse, lavarse las manos, tocar, morder, sonrojarse — con una foto realista, tres frases de ejemplo y ejercicios de arrastrar.`,
     heroAlt:
-      'Una chica con camiseta blanca abre los brazos y cierra los ojos delante de una ventana luminosa',
+      'Una chica con un jersey color crema se peina el pelo largo con un cepillo de madera, junto a una ventana luminosa',
     cardText: `${V} verbos para las manos, la boca, los ojos y las piernas: peinarse, tocar, morder, sonrojarse, oír…`,
   },
   fr: {
@@ -149,7 +149,7 @@ export const bodyVerbPages = {
     title: 'Les verbes du corps | vocabulaire italien | Italiano con Martin',
     description: `Apprenez ${V} verbes italiens liés au corps — se peigner, se laver les mains, toucher, mordre, rougir — avec une photo réaliste, trois exemples de phrases et des exercices à glisser-déposer.`,
     heroAlt:
-      'Une jeune femme en t-shirt blanc ouvre les bras et ferme les yeux devant une fenêtre lumineuse',
+      'Une jeune femme en pull crème se brosse les cheveux longs avec une brosse en bois, près d’une fenêtre lumineuse',
     cardText: `${V} verbes pour les mains, la bouche, les yeux et les jambes : se peigner, toucher, mordre, rougir, entendre…`,
   },
   cs: {
@@ -159,7 +159,7 @@ export const bodyVerbPages = {
     title: 'Slovesa těla | italská slovní zásoba | Italiano con Martin',
     description: `Naučte se ${V} italských sloves spojených s tělem — česat se, mýt si ruce, dotýkat se, kousat, červenat se — s realistickou fotografií, třemi příkladovými větami a cvičeními na přetahování.`,
     heroAlt:
-      'Mladá žena v bílém tričku rozpíná ruce a zavírá oči před světlým oknem',
+      'Mladá žena v krémovém svetru si u světlého okna češe dlouhé vlasy dřevěným kartáčem',
     cardText: `${V} sloves pro ruce, ústa, oči a nohy: česat se, dotýkat se, kousat, červenat se, slyšet…`,
   },
   pl: {
@@ -169,7 +169,7 @@ export const bodyVerbPages = {
     title: 'Czasowniki związane z ciałem | włoskie słownictwo | Italiano con Martin',
     description: `Poznaj ${V} włoskich czasowników związanych z ciałem — czesać się, myć ręce, dotykać, gryźć, rumienić się — z realistycznym zdjęciem, trzema przykładowymi zdaniami i ćwiczeniami z przeciąganiem.`,
     heroAlt:
-      'Młoda kobieta w białej koszulce rozkłada ramiona i zamyka oczy przed jasnym oknem',
+      'Młoda kobieta w kremowym swetrze czesze długie włosy drewnianą szczotką przy jasnym oknie',
     cardText: `${V} czasowników dla rąk, ust, oczu i nóg: czesać się, dotykać, gryźć, rumienić się, słyszeć…`,
   },
   tr: {
@@ -179,7 +179,7 @@ export const bodyVerbPages = {
     title: 'Vücut fiilleri | İtalyanca kelimeler | Italiano con Martin',
     description: `Vücutla ilgili ${V} İtalyanca fiili öğrenin — saçını taramak, ellerini yıkamak, dokunmak, ısırmak, kızarmak — gerçekçi bir fotoğraf, üç örnek cümle ve sürükle-bırak alıştırmalarıyla.`,
     heroAlt:
-      'Beyaz tişörtlü genç bir kadın aydınlık bir pencerenin önünde kollarını açıp gözlerini kapatıyor',
+      'Krem rengi kazaklı genç bir kadın, aydınlık bir pencerenin yanında uzun saçlarını tahta bir fırçayla tarıyor',
     cardText: `Eller, ağız, gözler ve bacaklar için ${V} fiil: taramak, dokunmak, ısırmak, kızarmak, duymak…`,
   },
   de: {
@@ -189,7 +189,7 @@ export const bodyVerbPages = {
     title: 'Die Verben des Körpers | italienischer Wortschatz | Italiano con Martin',
     description: `Lerne ${V} italienische Verben rund um den Körper — sich kämmen, sich die Hände waschen, berühren, beißen, erröten — mit einem realistischen Foto, drei Beispielsätzen und Drag-and-drop-Übungen.`,
     heroAlt:
-      'Eine junge Frau im weißen T-Shirt breitet vor einem hellen Fenster die Arme aus und schließt die Augen',
+      'Eine junge Frau im cremefarbenen Pullover bürstet sich neben einem hellen Fenster mit einer Holzbürste die langen Haare',
     cardText: `${V} Verben für Hände, Mund, Augen und Beine: kämmen, berühren, beißen, erröten, hören …`,
   },
   ja: {
@@ -199,7 +199,7 @@ export const bodyVerbPages = {
     title: '体の動詞 | イタリア語の語彙 | Italiano con Martin',
     description: `髪をとかす、手を洗う、触る、かむ、赤くなるなど、体に関するイタリア語の動詞 ${V} 語を、リアルな写真、例文 3 つ、ドラッグ＆ドロップの練習で学べます。`,
     heroAlt:
-      '明るい窓の前で、白いTシャツの若い女性が両腕を広げて目を閉じている',
+      '明るい窓のそばで、クリーム色のセーターを着た若い女性が木のブラシで長い髪をとかしている',
     cardText: `手、口、目、足の動詞 ${V} 語：とかす、触る、かむ、赤くなる、聞こえる…`,
   },
 };
