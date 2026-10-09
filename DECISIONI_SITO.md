@@ -927,3 +927,16 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - I testi alternativi delle immagini spagnole erano in parte tradotti a macchina (es. _cravatta_ = «empate», _tuta_ = «traje», _panchina_ = «banco» nel senso di banca): in portoghese sono stati riscritti dal testo italiano. Le note per chi parla spagnolo sono state riscritte per i brasiliani (es. _la firma_ = assinatura e non «firma»; _licenziare_ e _assumere_ falsi amici; _rosso_ ≠ «roxo»; _ti amo_ solo per il partner, mentre in Brasile «te amo» si dice anche in famiglia; _la gente_ singolare e diverso dal «a gente» brasiliano).
 - Le parole delle schede (`<h2>` dentro `.word-card`, «la casa», «il palazzo») nelle pagine spagnole non hanno `lang="it"`: `build-pt.mjs` ora le riconosce confrontandole con la pagina italiana. Le frasi da tradurre degli esercizi hanno `lang="es"` nelle pagine spagnole: in portoghese diventano `lang="pt-BR"`.
 - Corretti due punti interrogativi spagnoli rimasti nelle lezioni portoghesi «Os advérbios em -mente» e «O passato prossimo» («¿Essere o avere?»): erano elementi con solo italiano e punteggiatura, che lo script saltava.
+
+## 2026-10-09 - Lezioni A1 spagnole corrette
+
+- Emersi traducendo in portoghese: errori tipici con «Corretto:»/«Ma:» in italiano, frasi tradotte a macchina («Maquillaje» per «Trucco», «tienes y tienes quiero la carta h», «Digamos non», «Usemos avere», «“è” quiere el acento», usted mescolato a tú), esempi italiani non marcati `lang="it"`. Corrette le 10 lezioni scritte a mano; le 7 del generatore erano già scritte bene.
+- In 4 tabelle `<tbody lang="it">` conteneva celle spagnole, che così restavano in spagnolo anche nelle pagine portoghesi: ora `lang="it"` sta sulle singole celle italiane.
+
+## 2026-10-10 - Falsi amici italiano-portoghese
+
+- Richiesta di Martin: la lezione sui falsi amici per chi parla portoghese. Quinta pagina in una lingua sola, `pt/vocabulario/falsos-amigos-italiano-portugues.html`, 21 parole: burro, squisito, palestra, prego, salsa, cena, prendere, pasta, guardare, caldo, camino, primo, aceto, cantina, confetti, fame, casino, morbido, camera, conto, chef.
+- 13 vignette riusate (spagnolo, inglese, francese, tedesco: solo quelle senza bandiere), 8 nuove ($0,07); testata: un pandeiro brasiliano accanto a un tamburello italiano ($0,13).
+- Scartate _tassa_ (la vignetta mostra una tazza, la _taça_ brasiliana è un calice), _largo_ (in portoghese vuol dire «largo» come in italiano), _pronto_, _vaso_, _salire_: le ultime tre e _presunto_ finiscono nella nota «falsos amigos pela metade».
+- Corretto un difetto della fase 4: `vocabulary.js` e `vocabulary-progress.js` avevano i testi portoghesi ma la stessa versione `?v=` di prima; alzata a `20261010` in tutte le 335 pagine che li caricano.
+- Resta da fare (annotato il 2026-10-09 nella fase 3): correggere le lezioni spagnole A2–C1 più vecchie (verbi modali, comparativi, imperativo, periodo ipotetico, passiva, congiuntivo), piene di traduzione automatica.

@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, globSync } from 'no
 import path from 'node:path';
 import * as cheerio from 'cheerio';
 import { PAGES as PT_PAGES } from '../data/pt/paginas.mjs';
+import { addPtOnlyCards } from '../create-false-friends.mjs';
 import { loadDictionary } from './dictionary.mjs';
 
 const ROOT = process.cwd();
@@ -426,4 +427,6 @@ for (const { g } of built) {
   added++;
 }
 writeFileSync(sitemapFile, sitemap);
+// le pagine solo portoghesi (falsi amici) non vengono dallo spagnolo: la loro scheda va rimessa nell'indice
+await addPtOnlyCards();
 console.log(`Pagine portoghesi: ${built.length}. Voci nuove nella sitemap: ${added}.`);

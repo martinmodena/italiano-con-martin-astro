@@ -74,6 +74,7 @@ const INDEX = {
   tr: 'tr/kelime-bilgisi',
   de: 'de/wortschatz',
   ja: 'ja/goi',
+  pt: 'pt/vocabulario',
 };
 
 const CARD = /<a class="vocabulary-category" href="([^"]+)"[\s\S]*?<\/a>/g;

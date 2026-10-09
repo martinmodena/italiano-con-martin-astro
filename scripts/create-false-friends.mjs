@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo, inglese, francese e tedesco).
+// Crea la pagina dei falsi amici di ogni lingua (2026-10-06: spagnolo, inglese, francese e tedesco; 2026-10-10:
+// portoghese brasiliano).
 //
 // A differenza delle altre lezioni, la pagina esiste in UNA lingua sola: i falsi amici fra italiano e
 // spagnolo non sono quelli fra italiano e inglese. Quindi niente versione italiana né hreflang verso le
@@ -16,16 +17,20 @@
 
 import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import * as cheerio from 'cheerio';
 import { falseFriendsEs, falseFriendsEsPage } from './data/false-friends-es.mjs';
 import { falseFriendsEn, falseFriendsEnPage } from './data/false-friends-en.mjs';
 import { falseFriendsFr, falseFriendsFrPage } from './data/false-friends-fr.mjs';
 import { falseFriendsDe, falseFriendsDePage } from './data/false-friends-de.mjs';
+import { falseFriendsPt, falseFriendsPtPage } from './data/false-friends-pt.mjs';
 import { sortVocabularyIndexes } from './sort-vocabulary-index.mjs';
 
 const root = process.cwd();
 const SITE = 'https://italianoconmartin.com';
 const VOCAB_CSS_VERSION = '20261006';
+// vocabulary.js ha i testi portoghesi dal 2026-10-09: versione alzata il 2026-10-10.
+const VOCAB_JS_VERSION = '20261010';
 const INDEX = {
   it: 'vocabolario',
   en: 'en/vocabulary',
@@ -36,15 +41,19 @@ const INDEX = {
   tr: 'tr/kelime-bilgisi',
   de: 'de/wortschatz',
   ja: 'ja/goi',
+  pt: 'pt/vocabulario',
 };
 
-const LESSONS = [
+export const LESSONS = [
   { lang: 'es', words: falseFriendsEs, page: falseFriendsEsPage },
   { lang: 'en', words: falseFriendsEn, page: falseFriendsEnPage },
   { lang: 'fr', words: falseFriendsFr, page: falseFriendsFrPage },
   { lang: 'de', words: falseFriendsDe, page: falseFriendsDePage },
+  { lang: 'pt', words: falseFriendsPt, page: falseFriendsPtPage },
 ];
 
+// Il portoghese è brasiliano: codice hreflang pt-BR (chiave interna pt).
+const hreflang = (l) => (l === 'pt' ? 'pt-BR' : l);
 const esc = (s) => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const attr = (s) => esc(s).replaceAll('"', '&quot;');
 
@@ -136,21 +145,27 @@ function buildAstro({ lang, page }) {
   };
   meta.og = meta.og.map(([key, value]) => [key, og[key] ?? value]);
   meta.jsonld = [
-    JSON.stringify({ '@context': 'https://schema.org', '@type': 'Article', name: page.h1, url, inLanguage: lang }),
+    JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      name: page.h1,
+      url,
+      inLanguage: hreflang(lang),
+    }),
   ];
   // Una lingua sola: l'unica alternativa è la pagina stessa.
-  meta.hreflangs = [[lang, url]];
+  meta.hreflangs = [[hreflang(lang), url]];
   meta.extraHead = meta.extraHead.map((s) =>
     s.replace(/vocabulary\.css\?v=[\w]+/, `vocabulary.css?v=${VOCAB_CSS_VERSION}`)
   );
   meta.bodyScripts = meta.bodyScripts.map((s) =>
-    s.replace(/vocabulary\.js\?v=[\w]+/, `vocabulary.js?v=${VOCAB_CSS_VERSION}`)
+    s.replace(/vocabulary\.js\?v=[\w]+/, `vocabulary.js?v=${VOCAB_JS_VERSION}`)
   );
   let options = meta.optionsHtml;
   for (const [l, dir] of Object.entries(INDEX))
     options = options.replace(
-      new RegExp(`href="[^"]*" hreflang="${l}"`),
-      `href="/${l === lang ? own : `${dir}/`}" hreflang="${l}"`
+      new RegExp(`href="[^"]*" hreflang="${hreflang(l)}"`),
+      `href="/${l === lang ? own : `${dir}/`}" hreflang="${hreflang(l)}"`
     );
   meta.optionsHtml = options;
   return `---
@@ -165,7 +180,7 @@ const meta = ${JSON.stringify(meta, null, 2)};
 `;
 }
 
-function addIndexCard({ lang, page }) {
+export function addIndexCard({ lang, page }) {
   const file = path.join(root, 'src/html', INDEX[lang], 'index.html');
   let html = readFileSync(file, 'utf8');
   const href = `/${page.dir}/${page.slug}.html`;
@@ -198,13 +213,21 @@ function addToSitemap({ page }) {
   writeFileSync(file, lines.join('\n'));
 }
 
-for (const lesson of LESSONS) {
-  const own = `${lesson.page.dir}/${lesson.page.slug}.html`;
-  writeFileSync(path.join(root, 'src/html', own), buildFragment(lesson));
-  writeFileSync(path.join(root, 'src/pages', `${own}.astro`), buildAstro(lesson));
-  addIndexCard(lesson);
-  addToSitemap(lesson);
-  console.log(`${lesson.lang}: ${lesson.words.length} falsi amici -> ${own}`);
+// build-pt.mjs riscrive l'indice portoghese dalla pagina spagnola: rimette la scheda della pagina solo portoghese.
+export function addPtOnlyCards() {
+  for (const lesson of LESSONS.filter((l) => l.lang === 'pt')) addIndexCard(lesson);
+  sortVocabularyIndexes({ log: () => {} });
 }
-sortVocabularyIndexes({ log: () => {} });
-console.log('Poi: npm run build e gli audit.');
+
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  for (const lesson of LESSONS) {
+    const own = `${lesson.page.dir}/${lesson.page.slug}.html`;
+    writeFileSync(path.join(root, 'src/html', own), buildFragment(lesson));
+    writeFileSync(path.join(root, 'src/pages', `${own}.astro`), buildAstro(lesson));
+    addIndexCard(lesson);
+    addToSitemap(lesson);
+    console.log(`${lesson.lang}: ${lesson.words.length} falsi amici -> ${own}`);
+  }
+  sortVocabularyIndexes({ log: () => {} });
+  console.log('Poi: npm run build e gli audit.');
+}
