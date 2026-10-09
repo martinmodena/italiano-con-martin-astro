@@ -862,3 +862,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **L'ornitorinco** (`letture/l-ornitorinco-animale-fatto-a-pezzi.html`): A1 verbo avere («ha il becco come un'anatra…», latte dalla pelle della pancia) · A2 passato prossimo (Shaw e il sospetto di un falso nel 1799, il telegramma di Caldwell del 1884) · B1 imperativo, «Istruzioni per diventare un ornitorinco» (occhi chiusi sott'acqua, becco elettrosensibile, guance come tasche, niente stomaco, sperone velenoso, uova e latte, pelo che brilla all'ultravioletto). L'imperativo B1 non aveva ancora una lettura.
 - Le forbici di Shaw sono un racconto tramandato: il testo dice «si racconta», e la scheda Fonti lo precisa. La parola colloquiale «accrocchio» è nelle parole utili del B1.
 - Testata: una foto semplice (un ornitorinco che nuota in un fiume limpido), primo tentativo, $0,13; prompt in `docs/prompt-immagine-ornitorinco-2026-10-08.md`.
+
+## 2026-10-09 - Link di iscrizione a Preply con lo sconto
+
+- Richiesta di Martin: aggiungere il suo link «invita un amico» di Preply (25 $ per ogni studente che si iscrive e si abbona).
+- Verificato sulla guida di Preply (Tutor referral program): chi si iscrive con il link, se è nuovo su Preply, ha il **30% di sconto sulla prima lezione di prova** con insegnanti da almeno 7 $/ora. Lo sconto è scritto nel testo del link, nelle 9 lingue.
+- Link secondario, accanto a «Conosci Martin e Licia» e «Scrivici su WhatsApp», per non togliere clic ai pulsanti dei profili. 1012 pagine (riquadro finale + 9 «Chi siamo»), con `scripts/add-preply-signup-link.mjs`; `rel="sponsored noopener"`.
+- Da controllare nel pannello Preply: se si può portare lo studente direttamente al profilo di Martin con lo stesso codice `pref`.
+
