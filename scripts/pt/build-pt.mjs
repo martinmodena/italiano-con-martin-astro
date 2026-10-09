@@ -36,7 +36,7 @@ const missing = new Map();
 const pages = [];
 for (const file of globSync('src/pages/**/*.astro', { cwd: ROOT })) {
   const src = readFileSync(file, 'utf8');
-  const m = src.match(/const meta = (\{[\s\S]*?\r?\n\});\r?\n/);
+  const m = src.match(/const meta = (\{[\s\S]*?\r?\n *\});\r?\n/);
   if (!m) continue;
   const meta = JSON.parse(m[1]);
   pages.push({ file: file.replaceAll('\\', '/'), src, meta, metaJson: m[1] });
@@ -396,7 +396,7 @@ for (const { g, html, meta, ptPath } of built) {
   // pagine sorelle: hreflang e selettore
   for (const s of g.siblings) {
     const fresh = readFileSync(s.file, 'utf8');
-    const m = fresh.match(/const meta = (\{[\s\S]*?\r?\n\});\r?\n/);
+    const m = fresh.match(/const meta = (\{[\s\S]*?\r?\n *\});\r?\n/);
     const sm = JSON.parse(m[1]);
     writeAstro(s.file, fresh, m[1], withPt(sm, g.ptUrl, false));
   }

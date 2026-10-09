@@ -907,3 +907,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Le pagine nascono dalla versione spagnola con `scripts/pt/build-pt.mjs` e un dizionario di frasi (`scripts/data/pt/dicionario.txt`): l'italiano resta identico, il testo di servizio è tradotto, le note pensate per gli spagnoli sono riscritte per i brasiliani (contrazioni do/na come le preposizioni articolate, «há dois anos» per _da due anni_, «de trem» = _in treno_, il pronome riflessivo che in Brasile spesso cade). Procedura in `AGENTS.md`.
 - Correzioni rispetto allo spagnolo: «Corretto:» rimasto in italiano negli errori tipici di alcune lezioni spagnole è diventato «Correto:» con la forma italiana marcata; frasi tradotte male in spagnolo (es. «Maquillaje», «yo tengo, tu tienes… quiero la carta h») sono state riscritte dal senso italiano.
 - Il menu portoghese ha solo Gramática, Leituras e Sobre nós finché il vocabolario non sarà tradotto.
+
+## 2026-10-09 - Portoghese brasiliano, fase 2
+
+- Richiesta di Martin: «vai con la fase 2». Tradotte in portoghese tutte le letture che mancavano (25 letture di scienza, cultura, storia e tecnologia, più l'indice A2) e le 12 favole con il loro indice `/pt/fabulas/`: 38 pagine nuove e 124 PDF. Gli indici portoghesi delle letture ora mostrano tutte le sezioni (Ciência, Tecnologia, Cultura, História, Fábulas, B1–C1) e la home ha di nuovo la tessera delle favole.
+- Le glosse delle parole utili delle letture più vecchie erano tradotte male a macchina anche in spagnolo (es. _attenzione_ = «ten cuidado», _sonno_ = «dormir», _condire_ = «temporada», _soffiare_ = «golpe»): in portoghese sono state riscritte dal significato italiano.
+- Restano da tradurre: grammatica A2–C1 e vocabolario.
