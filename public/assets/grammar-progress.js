@@ -7,6 +7,7 @@
     it: { course: 'Progresso complessivo', level: 'Progresso del livello', lesson: 'Progresso', done: (c, t) => `Completati: ${c} su ${t}` },
     en: { course: 'Overall progress', level: 'Level progress', lesson: 'Progress', done: (c, t) => `${c} of ${t} activities` },
     es: { course: 'Progreso total', level: 'Progreso del nivel', lesson: 'Progreso', done: (c, t) => `${c} de ${t} actividades` },
+    pt: { course: 'Progresso geral', level: 'Progresso do nível', lesson: 'Progresso', done: (c, t) => `${c} de ${t} atividades` },
     fr: { course: 'Progression globale', level: 'Progression du niveau', lesson: 'Progression', done: (c, t) => `${c} activités sur ${t}` },
     cs: { course: 'Celkový pokrok', level: 'Pokrok úrovně', lesson: 'Pokrok', done: (c, t) => `${c} z ${t} aktivit` },
     pl: { course: 'Postęp ogólny', level: 'Postęp poziomu', lesson: 'Postęp', done: (c, t) => `${c} z ${t} ćwiczeń` },

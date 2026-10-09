@@ -29,11 +29,13 @@ export interface PageMeta {
 // Versione del foglio di stile: da alzare quando cambia public/styles.css.
 // Tutte le pagine puntano allo stesso indirizzo, così i browser tengono una
 // sola copia in cache e non possono mostrare due versioni diverse dell'header.
-const CSS_VERSION = '20261009';
+const CSS_VERSION = '20261009b';
 
 const { meta, main } = Astro.props as { meta: PageMeta; main: string };
 
 const ui = meta.ui ?? i18n.ui[meta.lang];
+// Il portoghese è quello del Brasile: la chiave interna è «pt», la lingua dichiarata «pt-BR».
+const htmlLang = meta.lang === 'pt' ? 'pt-BR' : meta.lang;
 const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '', summaryAria: 'Choose language' };
 const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
 
@@ -83,7 +85,7 @@ const breadcrumbs = breadcrumbJsonLd(main, meta.canonical);
 ---
 
 <!doctype html>
-<html lang={meta.lang}>
+<html lang={htmlLang}>
   <head>
     {meta.hreflangs.map(([l, href]) => <link rel="alternate" hreflang={l} href={href} />)}
     <meta charset="utf-8" />

@@ -25,8 +25,13 @@ PDF_OUT = Path(os.environ.get("PDF_OUT", ROOT / "public" / "pdf"))
 # --only <nome-file-italiano-senza-estensione>: rigenera una sola risorsa,
 # in tutte le lingue e per tutti i livelli. Ripetibile.
 ONLY = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--only" and i + 1 < len(sys.argv)]
+# --lang <codice>: genera solo quella lingua (es. --lang pt). Ripetibile.
+LANG_ONLY = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--lang" and i + 1 < len(sys.argv)]
 LEVELS = ["a1", "a2", "b1", "b2", "c1"]
 LANGUAGES = ["it", "en", "es", "fr", "cs", "pl", "tr", "de", "ja"]
+# Portoghese brasiliano (dal 2026-10-09): solo per le pagine già tradotte,
+# cioè quelle che nella pagina italiana hanno l'hreflang pt-BR.
+OPTIONAL_LANGUAGES = {"pt": "pt-BR"}
 
 pdfmetrics.registerFont(TTFont("ICM", r"C:\Windows\Fonts\DejaVuSans.ttf"))
 pdfmetrics.registerFont(TTFont("ICM-Bold", r"C:\Windows\Fonts\DejaVuSans-Bold.ttf"))
@@ -98,6 +103,11 @@ STRINGS = {
            "words_head": ("Italienisch", "Bedeutung"), "cta_heading": "Italienischunterricht 1:1",
            "martin": "Wissenschaft, Technik und Etymologie", "licia": "Kunst, Geduld und Grammatik",
            "book": "Auf Preply buchen", "free_material": "kostenlose Lesetexte, Grammatik und Wortschatz"},
+    "pt": {"kind": "Leitura graduada para aprender italiano", "levels": "níveis A1-C1", "level": "nível {lv}",
+           "howto": "O texto está em italiano. Embaixo de cada trecho você encontra as palavras úteis com o significado e as perguntas: escreva as respostas nos quadros.",
+           "words_head": ("Italiano", "Significado"), "cta_heading": "Aulas de italiano 1:1",
+           "martin": "ciência, tecnologia e etimologia", "licia": "arte, paciência e gramática",
+           "book": "Agendar no Preply", "free_material": "leituras, gramática e vocabulário grátis"},
     "ja": {"kind": "イタリア語学習のための段階別読解", "levels": "レベル A1〜C1", "level": "レベル {lv}",
            "howto": "本文はイタリア語です。各文章の下に、意味つきの重要単語と質問があります。答えは枠の中に書いてください。",
            "words_head": ("イタリア語", "意味"), "cta_heading": "マンツーマンのイタリア語レッスン",
@@ -426,7 +436,7 @@ def build_pdf(page, language, level, output):
     style = styles_for(language)
     title = clean("".join(document.xpath("//h1[1]//text()"))) or page.stem
     canonical = next(iter(document.xpath('//link[@rel="canonical"]/@href')), "")
-    is_reading = any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari"} for part in page.parts)
+    is_reading = any(part in {"letture", "favole", "readings", "stories", "lecturas", "cuentos", "lectures", "histoires", "cteni", "pribehy", "czytanki", "historie", "okumalar", "hikayeler", "lesetexte", "geschichten", "dokkai", "monogatari", "leituras"} for part in page.parts)
     story = []
     if is_reading:
         present = [lv for lv in LEVELS if document.xpath(f'//article[@id="{lv}"]')]
@@ -466,11 +476,14 @@ def localized_pages():
         source = html.fromstring(italian.read_text(encoding="utf-8"))
         alternates = {node.get("hreflang"): node.get("href") for node in source.xpath('//link[@rel="alternate"]')}
         category = italian.relative_to(SITE).parts[0]
-        for language in LANGUAGES:
+        optional = [code for code, hreflang in OPTIONAL_LANGUAGES.items() if hreflang in alternates]
+        for language in [*LANGUAGES, *optional]:
+            if LANG_ONLY and language not in LANG_ONLY:
+                continue
             if language == "it":
                 page = italian
             else:
-                target = unquote(urlparse(alternates[language]).path.lstrip("/"))
+                target = unquote(urlparse(alternates[OPTIONAL_LANGUAGES.get(language, language)]).path.lstrip("/"))
                 page = SITE / target
             # Dal 2026-09-29 una lettura può avere solo alcuni livelli: si stampano quelli presenti.
             present = [lv for lv in LEVELS if source.xpath(f'//article[@id="{lv}"]')]

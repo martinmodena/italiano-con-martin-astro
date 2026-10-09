@@ -7,7 +7,7 @@ Il repository `italiano-con-martin-astro` e la sorgente principale del sito: il 
 ## Lingue e SEO
 
 - L'italiano resta la lingua predefinita con `/letture/`, `/grammatica/` e `/favole/`.
-- Le lingue internazionali usano pagine statiche dedicate: `/en/`, `/es/`, `/fr/`, `/cs/`, `/pl/`, `/tr/`, `/de/` e `/ja/`.
+- Le lingue internazionali usano pagine statiche dedicate: `/en/`, `/es/`, `/fr/`, `/cs/`, `/pl/`, `/tr/`, `/de/` e `/ja/`; dal 2026-10-09 anche `/pt/` (portoghese brasiliano), per ora solo per una parte delle pagine.
 - Le pagine localizzate devono avere `lang`, canonical, `hreflang` reciproci, meta description, Open Graph e presenza nella sitemap.
 - Il selettore delle lingue deve mostrare le bandiere e collegare a URL permanenti.
 
@@ -899,3 +899,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Gli avverbi in -mente** (`grammatica/a2/avverbi-in-mente.html`, in fondo all'A2): femminile + -mente, -le/-re che perdono la e, bene e male, buono o bene, molto/molti, posizione, avverbi della conversazione (sicuramente, finalmente, veramente…), i falsi amici attualmente ed eventualmente, 8 errori, 30 esercizi.
 - 9 lingue con PDF; nelle note di ogni lingua i confronti utili (in spagnolo niente tilde in facilmente e «ya» di «ya no» = più; in tedesco Adjektiv e Adverb spesso uguali; in inglese -mente = -ly).
 
+## 2026-10-09 - Portoghese brasiliano, decima lingua (fase 1)
+
+- Richiesta di Martin: «avrebbe senso aggiungere la lingua portoghese per il Brasile? già adesso ho visite dal Brasile… oppure il catalano?». Scelto il **portoghese brasiliano**: il Brasile ha molti discendenti di italiani e manda già visite; i catalani leggono quasi tutti lo spagnolo, che il sito ha già.
+- Martin ha scelto di procedere **a fasi** (una lingua intera sono circa 120 pagine e 450 PDF). **Fase 1, pubblicata il 2026-10-09**: home, Chi siamo, indice di grammatica e le 17 lezioni A1, indice delle letture, indice A1 e gli 8 episodi di «Emma in Italia» (30 pagine, 34 PDF). Le pagine non ancora tradotte non hanno la voce portoghese: niente hreflang e niente bandiera nel selettore, e negli indici portoghesi compaiono solo le pagine tradotte. Fasi successive: letture di scienza e favole, grammatica A2–C1, vocabolario.
+- URL: prefisso `/pt/`, slug in portoghese (`/pt/gramatica/a1/o-verbo-essere-em-italiano.html`, `/pt/leituras/emma-a-pia-misteriosa.html`, `/pt/sobre-nos/`); `lang="pt-BR"`, hreflang `pt-BR`; nel selettore il portoghese viene subito dopo lo spagnolo, con la bandiera del Brasile.
+- Le pagine nascono dalla versione spagnola con `scripts/pt/build-pt.mjs` e un dizionario di frasi (`scripts/data/pt/dicionario.txt`): l'italiano resta identico, il testo di servizio è tradotto, le note pensate per gli spagnoli sono riscritte per i brasiliani (contrazioni do/na come le preposizioni articolate, «há dois anos» per _da due anni_, «de trem» = _in treno_, il pronome riflessivo che in Brasile spesso cade). Procedura in `AGENTS.md`.
+- Correzioni rispetto allo spagnolo: «Corretto:» rimasto in italiano negli errori tipici di alcune lezioni spagnole è diventato «Correto:» con la forma italiana marcata; frasi tradotte male in spagnolo (es. «Maquillaje», «yo tengo, tu tienes… quiero la carta h») sono state riscritte dal senso italiano.
+- Il menu portoghese ha solo Gramática, Leituras e Sobre nós finché il vocabolario non sarà tradotto.

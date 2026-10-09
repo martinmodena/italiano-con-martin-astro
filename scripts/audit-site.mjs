@@ -18,7 +18,13 @@ const seoTerms = {
   tr: 'İtalyanca dil bilgisi',
   de: 'italienische Grammatik',
   ja: 'イタリア語文法',
+  'pt-BR': 'gramática italiana',
 };
+// Portoghese brasiliano (dal 2026-10-09): esiste solo per le pagine tradotte
+// finora (scripts/data/pt/paginas.mjs). Dove c'è, deve avere gli stessi
+// controlli delle altre lingue; dove non c'è, non è un errore.
+const OPTIONAL = { 'pt-BR': 'pt' };
+const pdfDir = (language) => OPTIONAL[language] || language;
 // Favole a un solo livello (A1), senza PDF: «La formichina Wow» (2026-09-23,
 // tradotta nelle altre 8 lingue il 2026-09-26). Hanno gli stessi controlli di
 // traduzione e di indici delle altre risorse, ma non i PDF per livello.
@@ -49,8 +55,19 @@ for (const resource of resources) {
     }
     inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href, italianHtml);
   }
+  for (const language of Object.keys(OPTIONAL)) {
+    const href = italianAlternates.get(language);
+    if (!href) continue;
+    const relative = decodeURIComponent(new URL(href).pathname.replace(/^\//, ''));
+    const absolute = path.join(publicRoot, relative);
+    if (!existsSync(absolute)) {
+      issues.push(`- MISSING_PAGE | ${language} | /${relative}`);
+      continue;
+    }
+    inspectLocalizedPage(resource, language, relative, readFileSync(absolute, 'utf8'), href, italianHtml);
+  }
   if (PARTIAL_RESOURCES.has(resource.relative)) continue;
-  for (const language of languages) {
+  for (const language of [...languages, ...Object.keys(OPTIONAL).filter((l) => italianAlternates.has(l))]) {
     const pageRelative =
       language === 'it'
         ? resource.relative
@@ -58,13 +75,13 @@ for (const resource of resources) {
     const slug = path.basename(pageRelative, '.html');
     const levels = resource.category === 'grammatica' ? [resource.relative.split('/')[1]] : readingLevels(italianHtml);
     for (const level of levels) {
-      const pdf = path.join(publicRoot, 'pdf', language, `${slug}-${level}.pdf`);
-      if (!existsSync(pdf)) issues.push(`- MISSING_PDF | ${language} | /pdf/${language}/${slug}-${level}.pdf`);
+      const pdf = path.join(publicRoot, 'pdf', pdfDir(language), `${slug}-${level}.pdf`);
+      if (!existsSync(pdf)) issues.push(`- MISSING_PDF | ${language} | /pdf/${pdfDir(language)}/${slug}-${level}.pdf`);
     }
     if (resource.category !== 'grammatica') {
-      const pdf = path.join(publicRoot, 'pdf', language, `${slug}-all-levels.pdf`);
+      const pdf = path.join(publicRoot, 'pdf', pdfDir(language), `${slug}-all-levels.pdf`);
       if (!existsSync(pdf))
-        issues.push(`- MISSING_COMPLETE_PDF | ${language} | /pdf/${language}/${slug}-all-levels.pdf`);
+        issues.push(`- MISSING_COMPLETE_PDF | ${language} | /pdf/${pdfDir(language)}/${slug}-all-levels.pdf`);
     }
   }
 }
@@ -81,7 +98,15 @@ const readingPdfs = resources
     0
   );
 const grammarLessons = resources.filter((resource) => resource.category === 'grammatica').length;
-const expectedPdfCount = (readingPdfs + grammarLessons) * languages.length;
+const optionalPdfs = resources
+  .filter((resource) => !PARTIAL_RESOURCES.has(resource.relative))
+  .reduce((sum, resource) => {
+    const html = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
+    const extra = Object.keys(OPTIONAL).filter((l) => readAlternates(html).has(l)).length;
+    const perLanguage = resource.category === 'grammatica' ? 1 : readingLevels(html).length + 1;
+    return sum + extra * perLanguage;
+  }, 0);
+const expectedPdfCount = (readingPdfs + grammarLessons) * languages.length + optionalPdfs;
 if (pdfCount < expectedPdfCount)
   issues.push(`- MISSING_PDF_PACKAGE | expected ${expectedPdfCount} | found ${pdfCount}`);
 
@@ -121,7 +146,8 @@ function inspectLocalizedPage(resource, language, relative, html, expectedCanoni
   if (!$('head meta[charset]').length || !$('head title').length) issues.push(`- BROKEN_HEAD_METADATA | ${label}`);
   if ($('html').attr('lang') !== language) issues.push(`- WRONG_LANG | ${label}`);
   if ($('link[rel="canonical"]').attr('href') !== expectedCanonical) issues.push(`- WRONG_CANONICAL | ${label}`);
-  if ($('link[rel="alternate"]').length !== 10) issues.push(`- INCOMPLETE_HREFLANG | ${label}`);
+  if ($('link[rel="alternate"]').not('[hreflang="pt-BR"]').length !== 10)
+    issues.push(`- INCOMPLETE_HREFLANG | ${label}`);
   if ($('meta[name="robots"]').attr('content')?.includes('noindex')) issues.push(`- NOINDEX_LOCALIZED_PAGE | ${label}`);
   if ((html.match(/<!doctype html>/gi) || []).length !== 1) issues.push(`- INVALID_DOCTYPE | ${label}`);
   if (!html.includes('language-switcher') || !html.includes('aria-current="page"'))
@@ -227,8 +253,9 @@ function inspectIndexCoverage() {
         issues.push(`- MISSING_INDEX_LINK | it | ${resource.relative}`);
     }
     const alternates = readAlternates(italianHtml);
-    for (const language of localizedLanguages) {
+    for (const language of [...localizedLanguages, ...Object.keys(OPTIONAL)]) {
       const indexHref = alternates.get(language);
+      if (!indexHref && OPTIONAL[language]) continue;
       if (!indexHref) {
         issues.push(`- MISSING_INDEX_PAGE | ${language} | /${category}/`);
         continue;
@@ -249,6 +276,7 @@ function inspectIndexCoverage() {
       for (const resource of categoryResources) {
         const source = readFileSync(path.join(publicRoot, resource.relative), 'utf8');
         const localizedHref = readAlternates(source).get(language);
+        if (!localizedHref && OPTIONAL[language]) continue;
         const expectedPath = localizedHref ? decodeURIComponent(new URL(localizedHref).pathname) : '';
         if (!localizedHref || !linkedPaths.includes(expectedPath)) {
           issues.push(`- MISSING_INDEX_LINK | ${language} | ${resource.relative}`);
@@ -328,9 +356,9 @@ function inspectUrlArchitecture() {
     if (!sitemapSet.has(canonical)) issues.push(`- CANONICAL_MISSING_FROM_SITEMAP | ${canonical}`);
 
     const language = $('html').attr('lang');
-    if (language && language !== 'it' && !pagePath.startsWith(`/${language}/`))
+    if (language && language !== 'it' && !pagePath.startsWith(`/${language.split('-')[0]}/`))
       issues.push(`- LANGUAGE_PREFIX_MISMATCH | ${language} | /${relative}`);
-    if (language === 'it' && /^\/(en|es|fr|cs|pl|tr|de|ja)\//.test(pagePath))
+    if (language === 'it' && /^\/(en|es|fr|cs|pl|tr|de|ja|pt)\//.test(pagePath))
       issues.push(`- ITALIAN_PAGE_WITH_LANGUAGE_PREFIX | /${relative}`);
   }
 
@@ -354,6 +382,7 @@ function inspectTeacherJourney() {
     tr: 'tr/hakkimizda/index.html',
     de: 'de/ueber-uns/index.html',
     ja: 'ja/watashitachi-ni-tsuite/index.html',
+    pt: 'pt/sobre-nos/index.html',
   };
   for (const [language, relative] of Object.entries(routes)) {
     const file = path.join(publicRoot, relative);
@@ -362,7 +391,7 @@ function inspectTeacherJourney() {
       continue;
     }
     const $ = cheerio.load(readFileSync(file, 'utf8'), { decodeEntities: false });
-    if ($('link[rel="alternate"]').length !== 10)
+    if ($('link[rel="alternate"]').not('[hreflang="pt-BR"]').length !== 10)
       issues.push(`- INCOMPLETE_ABOUT_HREFLANG | ${language} | /${relative}`);
     if ($('.about-teacher').length !== 2 || $('.about-teacher a[href*="preply"]').length !== 2)
       issues.push(`- INCOMPLETE_TEACHER_PROFILES | ${language} | /${relative}`);

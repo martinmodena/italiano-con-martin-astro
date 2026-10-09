@@ -1,0 +1,2697 @@
+// Dizionario spagnolo → portoghese brasiliano (vedi scripts/pt/dictionary.mjs).
+// Registro: «você», tono amichevole e diretto, come nelle altre lingue del sito.
+// Le note contrastive scritte per gli spagnoli sono riscritte per chi parla portoghese.
+
+re: ^Ejercicio (\d+)$
+pt: Exercício $1
+
+re: ^(\d+) respuestas correctas de (\d+)$
+pt: $1 respostas corretas de $2
+
+re: ^Emma en Italia · episodio (\d+) · relato (A\d)$
+pt: Emma na Itália · episódio $1 · conto $2
+
+re: ^([\d.]+) palabras · (\d+) min$
+pt: $1 palavras · $2 min
+
+re: ^<span>(\d+) minutos</span><span>(\d+) ejercicios</span><span>Nivel (A\d|B\d|C\d)</span>$
+pt: <span>$1 minutos</span><span>$2 exercícios</span><span>Nível $3</span>
+
+re: ^<strong>Resultado</strong><strong id="score">(\d+)/(\d+)</strong>$
+pt: <strong>Resultado</strong><strong id="score">$1/$2</strong>
+
+es: Italiano para extranjeros
+pt: Italiano para estrangeiros
+
+es: Habla italiano con seguridad.
+pt: Fale italiano com confiança.
+
+es: Somos Martin y Licia, profesores nativos de italiano. Clases 1:1 online, adaptadas a tu nivel.
+pt: Somos Martin e Licia, professores nativos de italiano. Aulas 1:1 online, adaptadas ao seu nível.
+
+es: <span>1:1 online</span><span>14 € por clase</span><span>A1-C1</span>
+pt: <span>1:1 online</span><span>14 € por aula</span><span>A1-C1</span>
+
+es: Reservar en Preply
+pt: Agendar no Preply
+
+es: Escríbenos por WhatsApp
+pt: Fale com a gente no WhatsApp
+
+es: Elige a tu profesor
+pt: Escolha seu professor
+
+es: Ciencia, tecnología y etimología
+pt: Ciência, tecnologia e etimologia
+
+es: Te explica cómo funcionan las cosas y de dónde vienen las palabras.
+pt: Explica como as coisas funcionam e de onde vêm as palavras.
+
+es: 14 € por clase 1:1
+pt: 14 € por aula 1:1
+
+es: Ver el perfil de Martin
+pt: Ver o perfil do Martin
+
+es: Arte, paciencia y gramática
+pt: Arte, paciência e gramática
+
+es: Te ayuda a entender las reglas con calma y a usarlas al hablar.
+pt: Ajuda você a entender as regras com calma e a usá-las na conversa.
+
+es: Ver el perfil de Licia
+pt: Ver o perfil da Licia
+
+es: Material gratuito para estudiar
+pt: Material gratuito para estudar
+
+es: Gramática interactiva
+pt: Gramática interativa
+
+es: Reglas claras, ejemplos reales y ejercicios con corrección inmediata.
+pt: Regras claras, exemplos reais e exercícios com correção imediata.
+
+es: Ir a la gramática <span aria-hidden="true">→</span>
+pt: Ir para a gramática <span aria-hidden="true">→</span>
+
+es: Lecturas graduadas
+pt: Leituras graduadas
+
+es: Artículos para conversar
+pt: Textos para conversar
+
+es: Ciencia, tecnología, cultura e historia en varios niveles, con vocabulario y preguntas.
+pt: Contos e textos em vários níveis, com vocabulário e perguntas.
+
+es: Abrir la biblioteca <span aria-hidden="true">→</span>
+pt: Abrir a biblioteca <span aria-hidden="true">→</span>
+
+es: Detalles de la clase
+pt: Detalhes da aula
+
+es: https://wa.me/393280555034?text=Ciao%20Martin%2C%20vorrei%20informazioni%20sulle%20lezioni%20di%20italiano.
+pt: https://wa.me/393280555034?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20de%20italiano%20com%20Martin%20ou%20Licia.
+
+es: Martin, profesor de italiano para extranjeros
+pt: Martin, professor de italiano para estrangeiros
+
+es: Licia, profesora de italiano para extranjeros
+pt: Licia, professora de italiano para estrangeiros
+
+es: Martin Modena, profesor de italiano apasionado por la ciencia, la tecnología y la etimología
+pt: Martin Modena, professor de italiano apaixonado por ciência, tecnologia e etimologia
+
+es: Licia, profesora de italiano paciente, apasionada por el arte y muy buena con la gramática
+pt: Licia, professora de italiano paciente, apaixonada por arte e muito boa em gramática
+
+es: Clases de italiano online con profesores nativos, 14 € | Italiano con Martin
+pt: Aulas de italiano online com professores nativos, 14 € | Italiano con Martin
+
+es: Aprende italiano con Martin y Licia: A Martin le apasionan la ciencia, la tecnología y la etimología. Relaciona la lengua, la cultura y el mundo actual. Licia es paciente, ama el arte y explica la gramática con mucha claridad y calma. Clases individuales por 14 euros.
+pt: Aprenda italiano com Martin e Licia: Martin é apaixonado por ciência, tecnologia e etimologia e liga a língua à cultura e ao mundo de hoje. Licia é paciente, ama a arte e explica a gramática com muita clareza e calma. Aulas individuais por 14 euros.
+
+es: Tus profesores
+pt: Seus professores
+
+es: Quiénes somos: Martin y Licia, profesores de italiano online
+pt: Quem somos: Martin e Licia, professores de italiano online
+
+es: Clases individuales de italiano con dos profesores nativos, cada uno con intereses y puntos fuertes diferentes.
+pt: Aulas individuais de italiano com dois professores nativos, cada um com interesses e pontos fortes diferentes.
+
+es: Lengua, ciencia y curiosidad
+pt: Língua, ciência e curiosidade
+
+es: A Martin le apasionan la ciencia, la tecnología y la etimología. Relaciona la lengua con la cultura, las ideas y el mundo actual, con mucha conversación.
+pt: Martin é apaixonado por ciência, tecnologia e etimologia. Liga a língua à cultura, às ideias e ao mundo de hoje, com muita conversação.
+
+es: Aprende con Martin
+pt: Aprenda com Martin
+
+es: Gramática, arte y paciencia
+pt: Gramática, arte e paciência
+
+es: Licia ama el arte y es especialmente buena con la gramática. Explica con claridad, calma y paciencia, respetando el ritmo de cada estudiante.
+pt: Licia ama a arte e é especialmente boa em gramática. Explica com clareza, calma e paciência, respeitando o ritmo de cada aluno.
+
+es: Aprende con Licia
+pt: Aprenda com Licia
+
+es: ¿No sabes qué profesor elegir?
+pt: Não sabe qual professor escolher?
+
+es: Escríbenos por WhatsApp y te ayudaremos a encontrar el camino más adecuado para tu nivel e intereses.
+pt: Escreva para a gente no WhatsApp e ajudamos você a encontrar o caminho certo para o seu nível e os seus interesses.
+
+es: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener">¿Nuevo en Preply? Regístrate aquí: 30 % de descuento en la clase de prueba</a>
+pt: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener">Novo no Preply? Cadastre-se aqui: 30% de desconto na aula experimental</a>
+
+es: Martin
+pt: Martin
+
+es: Licia
+pt: Licia
+
+es: https://wa.me/393280555034?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20las%20clases%20de%20italiano%20con%20Martin%20o%20Licia.
+pt: https://wa.me/393280555034?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20de%20italiano%20com%20Martin%20ou%20Licia.
+
+es: Quiénes somos: Martin y Licia, profesores de italiano online | Italiano con Martin
+pt: Quem somos: Martin e Licia, professores de italiano online | Italiano con Martin
+
+es: Conoce a Martin y Licia, profesores nativos de italiano online. Clases individuales por 14 euros, perfiles de Preply y contacto por WhatsApp.
+pt: Conheça Martin e Licia, professores nativos de italiano online. Aulas individuais por 14 euros, perfis no Preply e contato pelo WhatsApp.
+
+es: Martin Modena
+pt: Martin Modena
+
+es: Gramática italiana
+pt: Gramática italiana
+
+es: Aprende una regla a la vez
+pt: Aprenda uma regra de cada vez
+
+es: Cada lección contiene explicaciones sencillas, tablas completas, ejemplos reales, errores comunes y ejercicios con retroalimentación inmediata.
+pt: Cada lição tem explicações simples, tabelas completas, exemplos reais, erros comuns e exercícios com correção imediata.
+
+es: ¿No sabes por dónde empezar?
+pt: Não sabe por onde começar?
+
+es: Si eres principiante, sigue las lecciones A1 de arriba a abajo. El sitio guarda sus resultados en su navegador.
+pt: Se você é iniciante, siga as lições A1 de cima para baixo. O site guarda seus resultados no seu navegador.
+
+es: Comienza con el verbo ser.
+pt: Comece pelo verbo essere.
+
+es: Nivel A1
+pt: Nível A1
+
+es: Lección interactiva
+pt: Lição interativa
+
+es: El verbo italiano essere (ser y estar)
+pt: O verbo italiano essere (ser e estar)
+
+es: Conjugación, uso, errores comunes y 10 ejercicios.
+pt: Conjugação, uso, erros comuns e 10 exercícios.
+
+es: El verbo italiano avere (haber y tener)
+pt: O verbo italiano avere (ter e haver)
+
+es: Posesión, edad, sensaciones y expresiones comunes.
+pt: Posse, idade, sensações e expressões comuns.
+
+es: Artículos determinados en italiano
+pt: Artigos definidos em italiano
+
+es: <span lang="it">Il, lo, la, l’, i, gli</span> y <span lang="it">le</span> explicados con claridad.
+pt: <span lang="it">Il, lo, la, l’, i, gli</span> e <span lang="it">le</span> explicados com clareza.
+
+es: Artículos indeterminados en italiano
+pt: Artigos indefinidos em italiano
+
+es: <span lang="it">Un, uno, una</span> y <span lang="it">un’</span> con ejemplos y ejercicios.
+pt: <span lang="it">Un, uno, una</span> e <span lang="it">un’</span> com exemplos e exercícios.
+
+es: Presente indicativo de los verbos regulares italianos
+pt: Presente do indicativo dos verbos regulares italianos
+
+es: Verbos en <span lang="it">-are</span>, <span lang="it">-ere</span> e <span lang="it">-ire</span> con tablas completas.
+pt: Verbos em <span lang="it">-are</span>, <span lang="it">-ere</span> e <span lang="it">-ire</span> com tabelas completas.
+
+es: Nueva lección
+pt: Lição nova
+
+es: Presente de los verbos irregulares italianos
+pt: Presente dos verbos irregulares italianos
+
+es: Verbos reflexivos en italiano
+pt: Verbos reflexivos em italiano
+
+es: <span lang="it">Mi sveglio, ti lavi, si veste</span>: los verbos de la rutina diaria.
+pt: <span lang="it">Mi sveglio, ti lavi, si veste</span>: os verbos da rotina diária.
+
+es: Género y número de los sustantivos italianos
+pt: Gênero e número dos substantivos italianos
+
+es: Masculino, femenino, singular y plural.
+pt: Masculino, feminino, singular e plural.
+
+es: Preposiciones simples en italiano
+pt: Preposições simples em italiano
+
+es: <span lang="it">Di, a, da, in, con, su, per, tra, fra</span>: lugares, tiempo y verbos.
+pt: <span lang="it">Di, a, da, in, con, su, per, tra, fra</span>: lugares, tempo e verbos.
+
+es: Preposiciones articuladas en italiano
+pt: Preposições articuladas em italiano
+
+es: <span lang="it">Del, al, dal, nel, sul</span>: la tabla, las horas, <span lang="it">del pane</span> y <span lang="it">dei libri</span>.
+pt: <span lang="it">Del, al, dal, nel, sul</span>: a tabela, as horas, <span lang="it">del pane</span> e <span lang="it">dei libri</span>.
+
+es: C’è y ci sono en italiano
+pt: C’è e ci sono em italiano
+
+es: Decir que una persona o una cosa está presente.
+pt: Dizer que uma pessoa ou uma coisa está presente.
+
+es: Adjetivos calificativos en italiano
+pt: Adjetivos qualificativos em italiano
+
+es: Describir personas y cosas con la concordancia correcta.
+pt: Descrever pessoas e coisas com a concordância certa.
+
+es: Adjetivos y pronombres posesivos en italiano
+pt: Adjetivos e pronomes possessivos em italiano
+
+es: Los números en italiano
+pt: Os números em italiano
+
+es: Del cero a mil millones, edad, precios y números ordinales.
+pt: Do zero a um bilhão, idade, preços e números ordinais.
+
+es: La hora en italiano
+pt: As horas em italiano
+
+es: Preguntar y decir la hora, <span lang="it">a che ora</span>, horarios y partes del día.
+pt: Perguntar e dizer as horas, <span lang="it">a che ora</span>, horários e partes do dia.
+
+es: Días, meses y fechas en italiano
+pt: Dias, meses e datas em italiano
+
+es: Días de la semana, meses, estaciones, fechas, <span lang="it">ieri</span> y <span lang="it">domani</span>, <span lang="it">fa</span> y <span lang="it">tra</span>.
+pt: Dias da semana, meses, estações, datas, <span lang="it">ieri</span> e <span lang="it">domani</span>, <span lang="it">fa</span> e <span lang="it">tra</span>.
+
+es: Los adverbios de frecuencia en italiano
+pt: Os advérbios de frequência em italiano
+
+es: <span lang="it">Sempre, spesso, a volte, mai</span>: con qué frecuencia haces algo, del 100% al 0%.
+pt: <span lang="it">Sempre, spesso, a volte, mai</span>: com que frequência você faz algo, de 100% a 0%.
+
+es: ¿Cómo funcionan los ejercicios?
+pt: Como funcionam os exercícios?
+
+es: Escribe tu respuesta directamente en el campo. Inmediatamente recibirás un mensaje: corregir, continuar o una sugerencia específica. El resultado permanece guardado en la base de datos local de su navegador.
+pt: Escreva a resposta direto no campo. Na hora você recebe uma mensagem: corrigir, continuar ou uma dica específica. O resultado fica salvo no seu navegador.
+
+es: Elige con quién aprender italiano
+pt: Escolha com quem aprender italiano
+
+es: Dos profesores, dos perspectivas. Elige el enfoque que mejor se adapte a tus intereses.
+pt: Dois professores, dois olhares. Escolha o jeito de aprender que combina mais com você.
+
+es: <strong>Martin</strong><span>Ciencia, tecnología y etimología</span>
+pt: <strong>Martin</strong><span>Ciência, tecnologia e etimologia</span>
+
+es: <strong>Licia</strong><span>Arte, paciencia y gramática</span>
+pt: <strong>Licia</strong><span>Arte, paciência e gramática</span>
+
+es: Conoce a Martin y Licia
+pt: Conheça Martin e Licia
+
+es: ¿Nuevo en Preply? Regístrate aquí: 30 % de descuento en la clase de prueba
+pt: Novo no Preply? Cadastre-se aqui: 30% de desconto na aula experimental
+
+es: Gramática italiana A1–C1: lecciones gratis con ejercicios
+pt: Gramática italiana A1: lições grátis com exercícios
+
+es: Lecciones gratuitas de gramática italiana del A1 al C1: explicaciones claras, tablas, ejemplos reales y ejercicios interactivos con corrección inmediata.
+pt: Lições gratuitas de gramática italiana para o nível A1: explicações claras, tabelas, exemplos reais e exercícios interativos com correção imediata.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / El verbo italiano essere (ser y estar)
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / O verbo italiano essere (ser e estar)
+
+es: Gramática A1
+pt: Gramática A1
+
+es: Aprenda a presentarse, describir personas y cosas y decir dónde se encuentra.
+pt: Aprenda a se apresentar, a descrever pessoas e coisas e a dizer onde você está.
+
+es: Regla
+pt: Regra
+
+es: Tabla
+pt: Tabela
+
+es: Ejemplos
+pt: Exemplos
+
+es: Ejercicios
+pt: Exercícios
+
+es: ¿Cuándo usamos “<span lang="it">essere</span>”?
+pt: Quando usamos “<span lang="it">essere</span>”?
+
+es: Usamos el verbo <strong lang="it">essere</strong> para hablar de identidad, nacionalidad, profesión, características, estatus y posición.
+pt: Usamos o verbo <strong lang="it">essere</strong> para falar de identidade, nacionalidade, profissão, características, estado e localização. Em português ele corresponde tanto a «ser» quanto a «estar».
+
+es: <strong>Identidad</strong><br>Io sono Martin.
+pt: <strong>Identidade</strong><br><span lang="it">Io sono Martin.</span>
+
+es: <strong>Nacionalidad</strong><br>Lei è italiana.
+pt: <strong>Nacionalidade</strong><br><span lang="it">Lei è italiana.</span>
+
+es: <strong>Característica</strong><br>Il libro è interessante.
+pt: <strong>Característica</strong><br><span lang="it">Il libro è interessante.</span>
+
+es: <strong>Posición</strong><br>Noi siamo a casa.
+pt: <strong>Localização</strong><br><span lang="it">Noi siamo a casa.</span>
+
+es: Presente de indicativo
+pt: Presente do indicativo
+
+es: Ejemplo
+pt: Exemplo
+
+es: <strong>Atención:</strong> “è” quiere el acento. “E” sin tilde es la conjunción.
+pt: <strong>Atenção:</strong> “<span lang="it">è</span>” (verbo) leva acento. “<span lang="it">e</span>” sem acento é a conjunção, como o nosso «e».
+
+es: Oraciones simples
+pt: Frases simples
+
+es: <strong>Nota:</strong> con profesiones puede que falte el artículo: <em lang="it">Sono insegnante</em> es posible; <em lang="it">Sono un insegnante</em> es más claro para una oración A1.
+pt: <strong>Nota:</strong> com profissões o artigo pode faltar: <em lang="it">Sono insegnante</em> está certo; <em lang="it">Sono un insegnante</em> é mais claro para uma frase A1.
+
+es: Digamos <strong lang="it">non</strong> antes del verbo:
+pt: Colocamos <strong lang="it">non</strong> antes do verbo, como o nosso «não»:
+
+es: Preguntas
+pt: Perguntas
+
+es: En las preguntas la forma del verbo no cambia:
+pt: Nas perguntas a forma do verbo não muda, só a entonação:
+
+es: Errores comunes
+pt: Erros comuns
+
+es: Ejercicios con retroalimentación inmediata
+pt: Exercícios com correção imediata
+
+es: Escribe la forma correcta. El mensaje cambia a medida que escribe.
+pt: Escreva a forma correta. A mensagem muda enquanto você digita.
+
+es: Tu resultado
+pt: Seu resultado
+
+es: Empezar de nuevo
+pt: Recomeçar
+
+es: Volver a la gramática
+pt: Voltar para a gramática
+
+es: Descargas de PDF
+pt: Downloads em PDF
+
+es: El verbo italiano essere (ser y estar) | gramática italiana A1 con ejercicios
+pt: O verbo italiano essere (ser e estar) | gramática italiana A1 com exercícios
+
+es: Aprende el verbo italiano essere en presente con una tabla completa, ejemplos sencillos, errores comunes y ejercicios interactivos con corrección inmediata.
+pt: Aprenda o verbo italiano essere no presente com tabela completa, exemplos simples, erros comuns e exercícios interativos com correção imediata.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / El verbo italiano avere (haber y tener)
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / O verbo italiano avere (ter e haver)
+
+es: Aprende a hablar de posesión, edad, sensaciones y expresiones muy comunes.
+pt: Aprenda a falar de posse, idade, sensações e expressões muito comuns.
+
+es: ¿Cuándo usamos “<span lang="it">avere</span>”?
+pt: Quando usamos “<span lang="it">avere</span>”?
+
+es: Usemos <strong lang="it">avere</strong> sobre todo decir que somos dueños de algo, cuántos años tenemos y cómo nos sentimos en algunas expresiones.
+pt: Usamos <strong lang="it">avere</strong> sobretudo para dizer o que possuímos, quantos anos temos e, em algumas expressões, como nos sentimos.
+
+es: <strong>posesión</strong><br><span lang="it">Ho una bicicletta.</span>
+pt: <strong>Posse</strong><br><span lang="it">Ho una bicicletta.</span>
+
+es: <strong>edad</strong><br><span lang="it">Ho trent’anni.</span>
+pt: <strong>Idade</strong><br><span lang="it">Ho trent’anni.</span>
+
+es: <strong>Sensación</strong><br><span lang="it">Ho fame.</span>
+pt: <strong>Sensação</strong><br><span lang="it">Ho fame.</span>
+
+es: <strong>Necesidad</strong><br><span lang="it">Ho bisogno di aiuto.</span>
+pt: <strong>Necessidade</strong><br><span lang="it">Ho bisogno di aiuto.</span>
+
+es: <strong>🇮🇹 ¿Cómo habla de verdad un italiano?</strong><br>En italiano se dice <strong lang="it">ho 20 anni</strong>, no <span lang="it">sono 20 anni</span>.
+pt: <strong>🇮🇹 Como fala de verdade um italiano?</strong><br>Em italiano se diz <strong lang="it">ho 20 anni</strong> («tenho 20 anos»), nunca <span lang="it">sono 20 anni</span>.
+
+es: <strong>Atención:</strong> yo tengo, tu tienes, tienes y tienes quiero la carta <strong lang="it">h</strong>. La h no se pronuncia.
+pt: <strong>Atenção:</strong> <em lang="it">ho, hai, ha</em> e <em lang="it">hanno</em> se escrevem com <strong lang="it">h</strong>. O h não se pronuncia.
+
+es: Ejemplos simples
+pt: Exemplos simples
+
+es: Expresiones comunes
+pt: Expressões comuns
+
+es: Digamos <strong lang="it">non</strong> antes del verbo: <em lang="it">Non ho fame. Non hanno tempo.</em>
+pt: Colocamos <strong lang="it">non</strong> antes do verbo: <em lang="it">Non ho fame. Non hanno tempo.</em>
+
+es: Errores que casi todo el mundo comete
+pt: Erros que quase todo mundo comete
+
+es: Escribe la forma correcta del verbo tener.
+pt: Escreva a forma correta do verbo avere.
+
+es: Próxima lección
+pt: Próxima lição
+
+es: Minidiálogo
+pt: Minidiálogo
+
+es: El verbo italiano avere (haber y tener) | gramática italiana A1 con ejercicios
+pt: O verbo italiano avere (ter e haver) | gramática italiana A1 com exercícios
+
+es: Aprende el verbo italiano avere en presente con una tabla completa, ejemplos sencillos, expresiones comunes y ejercicios interactivos con corrección inmediata.
+pt: Aprenda o verbo italiano avere no presente com tabela completa, exemplos simples, expressões comuns e exercícios interativos com correção imediata.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Artículos determinados en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Artigos definidos em italiano
+
+es: Aprende a elegir entre il, lo, la, l', i, gli y le.
+pt: Aprenda a escolher entre il, lo, la, l', i, gli e le.
+
+es: Errores
+pt: Erros
+
+es: ¿Cuáles son?
+pt: Quais são?
+
+es: Los artículos definidos indican una persona o cosa específica: <strong lang="it">il libro</strong>, <strong lang="it">la casa</strong>, <strong lang="it">gli studenti</strong>.
+pt: Os artigos definidos indicam uma pessoa ou coisa específica: <strong lang="it">il libro</strong>, <strong lang="it">la casa</strong>, <strong lang="it">gli studenti</strong>.
+
+es: La elección depende de tres cosas: género, número y sonido inicial de la palabra.
+pt: A escolha depende de três coisas: gênero, número e som inicial da palavra.
+
+es: <strong lang="it">il</strong><br>singular común masculino<br><em lang="it">il libro</em>
+pt: <strong lang="it">il</strong><br>masculino singular comum<br><em lang="it">il libro</em>
+
+es: <strong lang="it">lo</strong><br>delante de s+consonante, z, ps, gn, x, y<br><em lang="it">lo studente</em>
+pt: <strong lang="it">lo</strong><br>antes de s + consoante, z, ps, gn, x, y<br><em lang="it">lo studente</em>
+
+es: <strong lang="it">la</strong><br>singular femenino<br><em lang="it">la casa</em>
+pt: <strong lang="it">la</strong><br>feminino singular<br><em lang="it">la casa</em>
+
+es: <strong lang="it">l’</strong><br>antes de una vocal<br><em lang="it">l’amico, l’amica</em>
+pt: <strong lang="it">l’</strong><br>antes de vogal<br><em lang="it">l’amico, l’amica</em>
+
+es: <strong>🇮🇹 ¿Por qué decimos <span lang="it">lo studente</span>?</strong><br>Porque <span lang="it">studente</span> empieza por <strong lang="it">st</strong>. Delante de s + consonante usamos <strong lang="it">lo</strong>.
+pt: <strong>🇮🇹 Por que dizemos <span lang="it">lo studente</span>?</strong><br>Porque <span lang="it">studente</span> começa com <strong lang="it">st</strong>. Antes de s + consoante usamos <strong lang="it">lo</strong>.
+
+es: Tabla completa
+pt: Tabela completa
+
+es: Género y número
+pt: Gênero e número
+
+es: Artículo
+pt: Artigo
+
+es: Cuándo
+pt: Quando
+
+es: Ejemplos para observar
+pt: Exemplos para observar
+
+es: <strong>Maquillaje:</strong> el plural de <strong lang="it">lo</strong> y de <strong lang="it">l’</strong> siempre es masculino <strong lang="it">gli</strong>.
+pt: <strong>Truque:</strong> o plural de <strong lang="it">lo</strong> e de <strong lang="it">l’</strong> masculino é sempre <strong lang="it">gli</strong>.
+
+es: Escribe el artículo correcto.
+pt: Escreva o artigo correto.
+
+es: Artículos determinados en italiano | gramática italiana A1 con ejercicios
+pt: Artigos definidos em italiano | gramática italiana A1 com exercícios
+
+es: Aprenda cuándo usar il, lo, la, l', i, gli y le con tablas, ejemplos y ejercicios interactivos con retroalimentación inmediata.
+pt: Aprenda quando usar il, lo, la, l', i, gli e le com tabelas, exemplos e exercícios interativos com correção imediata.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Artículos indeterminados en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Artigos indefinidos em italiano
+
+es: Aprende a elegir entre <span lang="it">un, uno, una</span> y <span lang="it">un’</span>.
+pt: Aprenda a escolher entre <span lang="it">un, uno, una</span> e <span lang="it">un’</span>.
+
+es: ¿Cuándo los utilizamos?
+pt: Quando usamos?
+
+es: Usamos artículos indefinidos cuando hablamos de una persona o cosa que no es precisa o no se menciona por primera vez.
+pt: Usamos os artigos indefinidos quando falamos de uma pessoa ou coisa não específica, ou mencionada pela primeira vez.
+
+es: <strong>🇮🇹 ¿Por qué <span lang="it">un amico</span> pero <span lang="it">un’amica</span>?</strong><br>En masculino, <strong lang="it">un</strong> no lleva apóstrofo. En femenino, delante de vocal, usamos <strong lang="it">un’</strong>.
+pt: <strong>🇮🇹 Por que <span lang="it">un amico</span> mas <span lang="it">un’amica</span>?</strong><br>No masculino, <strong lang="it">un</strong> não leva apóstrofo. No feminino, antes de vogal, usamos <strong lang="it">un’</strong>.
+
+es: <strong>Recuerda:</strong> no existe un plural directo de un, uno y una. Usaremos el plural más adelante. <em lang="it">dei, degli, delle</em>.
+pt: <strong>Lembre:</strong> <em lang="it">un, uno, una</em> não têm um plural direto como o nosso «uns, umas». Mais adiante você vai usar <em lang="it">dei, degli, delle</em>.
+
+es: Repasar <span lang="it">essere</span>
+pt: Revisar <span lang="it">essere</span>
+
+es: Artículos indeterminados en italiano | gramática italiana A1 con ejercicios
+pt: Artigos indefinidos em italiano | gramática italiana A1 com exercícios
+
+es: Aprende cuándo usar un, uno, una y un' en italiano, con explicaciones sencillas, una tabla completa y ejercicios interactivos con corrección inmediata.
+pt: Aprenda quando usar un, uno, una e un' em italiano, com explicações simples, tabela completa e exercícios interativos com correção imediata.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Género y número de los sustantivos italianos
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Gênero e número dos substantivos italianos
+
+es: Aprende a reconocer masculino, femenino, singular y plural.
+pt: Aprenda a reconhecer masculino, feminino, singular e plural.
+
+es: La regla básica
+pt: A regra básica
+
+es: Terminación
+pt: Terminação
+
+es: Normalmente
+pt: Normalmente
+
+es: Plural
+pt: Plural
+
+es: Cuidado con las excepciones
+pt: Cuidado com as exceções
+
+es: Los sustantivos que terminan en vocal o consonante acentuada a menudo no cambian en plural: <strong lang="it">la città → le città</strong>, <strong lang="it">il bar → i bar</strong>.
+pt: Os substantivos que terminam em vogal acentuada ou em consoante muitas vezes não mudam no plural: <strong lang="it">la città → le città</strong>, <strong lang="it">il bar → i bar</strong>.
+
+es: ← Presente de indicativo
+pt: ← Presente do indicativo
+
+es: Preposiciones simples →
+pt: Preposições simples →
+
+es: Género y número de los sustantivos italianos | gramática italiana A1 con ejercicios
+pt: Gênero e número dos substantivos italianos | gramática italiana A1 com exercícios
+
+es: Masculino, femenino, singular y plural en italiano con tablas, ejemplos y ejercicios interactivos.
+pt: Masculino, feminino, singular e plural em italiano com tabelas, exemplos e exercícios interativos.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Adjetivos calificativos en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Adjetivos qualificativos em italiano
+
+es: Aprenda a describir personas, objetos y lugares: bellos, grandes, interesantes, italianos.
+pt: Aprenda a descrever pessoas, objetos e lugares: <em lang="it">belli, grandi, interessanti, italiani</em>.
+
+es: Concordancia
+pt: Concordância
+
+es: Posición
+pt: Posição
+
+es: La regla más importante
+pt: A regra mais importante
+
+es: El adjetivo cambia con el sustantivo: masculino, femenino, singular y plural.
+pt: O adjetivo muda junto com o substantivo: masculino, feminino, singular e plural.
+
+es: Singular
+pt: Singular
+
+es: <strong>Recuerda:</strong> muchos adjetivos en <strong lang="it">-e</strong> son iguales al singular masculino y femenino: una película interesante, una lección interesante.
+pt: <strong>Lembre:</strong> muitos adjetivos em <strong lang="it">-e</strong> são iguais no masculino e no feminino singular: <em lang="it">un film interessante, una lezione interessante</em>.
+
+es: ¿Dónde ponemos el adjetivo?
+pt: Onde colocamos o adjetivo?
+
+es: El adjetivo suele ir después del sustantivo, especialmente cuando describe una cualidad concreta.
+pt: O adjetivo normalmente vem depois do substantivo, sobretudo quando descreve uma qualidade concreta.
+
+es: Algunos adjetivos muy comunes pueden ir delante del sustantivo: <strong lang="it">un bel giorno</strong>, <strong lang="it">una buona idea</strong>, <strong lang="it">un piccolo problema</strong>.
+pt: Alguns adjetivos muito comuns podem vir antes do substantivo: <strong lang="it">un bel giorno</strong>, <strong lang="it">una buona idea</strong>, <strong lang="it">un piccolo problema</strong>.
+
+es: <strong>Incorrecto:<span lang="it"> una casa nuovo.</span></strong>Corretto: una casa nuova.
+pt: <strong>Errado:<span lang="it"> una casa nuovo.</span></strong>Correto: <span lang="it">una casa nuova.</span>
+
+es: <strong>Incorrecto:<span lang="it"> libri nuova.</span></strong>Corretto: libri nuovi.
+pt: <strong>Errado:<span lang="it"> libri nuova.</span></strong>Correto: <span lang="it">libri nuovi.</span>
+
+es: <strong>Incorrecto:<span lang="it"> una lezione interessanta.</span></strong>Corretto: una lezione interessante.
+pt: <strong>Errado:<span lang="it"> una lezione interessanta.</span></strong>Correto: <span lang="it">una lezione interessante.</span>
+
+es: <strong>Incorrecto:<span lang="it"> due studenti gentile.</span></strong>Corretto: due studenti gentili.
+pt: <strong>Errado:<span lang="it"> due studenti gentile.</span></strong>Correto: <span lang="it">due studenti gentili.</span>
+
+es: Escribe la forma correcta del adjetivo.
+pt: Escreva a forma correta do adjetivo.
+
+es: Volver al itinerario
+pt: Voltar ao percurso
+
+es: Adjetivos calificativos en italiano | gramática italiana A1 con ejercicios
+pt: Adjetivos qualificativos em italiano | gramática italiana A1 com exercícios
+
+es: Aprenda adjetivos calificativos en italiano: concordancia con género y número, posición, ejemplos y ejercicios interactivos.
+pt: Aprenda os adjetivos qualificativos em italiano: concordância de gênero e número, posição, exemplos e exercícios interativos.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Adjetivos y pronombres posesivos en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Adjetivos e pronomes possessivos em italiano
+
+es: Aprende a saber quién posee algo: mi libro, tu casa, nuestros amigos.
+pt: Aprenda a dizer de quem é uma coisa: <em lang="it">il mio libro, la tua casa, i nostri amici</em>.
+
+es: ¿Cómo funcionan?
+pt: Como funcionam?
+
+es: El posesivo cambia en función de la cosa que se posee, no de la persona que la posee. Normalmente también utilizamos el artículo.
+pt: O possessivo concorda com a coisa possuída, não com a pessoa que a possui. Normalmente usamos também o artigo, como em «o meu livro».
+
+es: <strong>Masculino singular</strong><br>il mio libro
+pt: <strong>Masculino singular</strong><br><span lang="it">il mio libro</span>
+
+es: <strong>Femenino singular</strong><br>la mia casa
+pt: <strong>Feminino singular</strong><br><span lang="it">la mia casa</span>
+
+es: <strong>Masculino plural</strong><br>i miei amici
+pt: <strong>Masculino plural</strong><br><span lang="it">i miei amici</span>
+
+es: <strong>Femenino plural</strong><br>le mie lezioni
+pt: <strong>Feminino plural</strong><br><span lang="it">le mie lezioni</span>
+
+es: Tabla de posesivos
+pt: Tabela dos possessivos
+
+es: Masculino
+pt: Masculino
+
+es: Femenino
+pt: Feminino
+
+es: <strong>Atención:</strong> con familia en singular a menudo no usamos el artículo: mi madre, tu padre, su hermano.
+pt: <strong>Atenção:</strong> com os parentes no singular normalmente não usamos o artigo: <em lang="it">mia madre, tuo padre, suo fratello</em>.
+
+es: Ejemplos útiles
+pt: Exemplos úteis
+
+es: ¿Adjetivo o pronombre?
+pt: Adjetivo ou pronome?
+
+es: Cuando acompaña a un sustantivo es un adjetivo. Cuando reemplaza a un sustantivo es un pronombre.
+pt: Quando acompanha um substantivo, é adjetivo. Quando substitui um substantivo, é pronome.
+
+es: <strong>No:<span lang="it"> la mio casa</span></strong>Ma: la mia casa.
+pt: <strong>Não:<span lang="it"> la mio casa</span></strong>Mas: <span lang="it">la mia casa.</span>
+
+es: <strong>No:<span lang="it"> i miei amiche</span></strong>Ma: le mie amiche.
+pt: <strong>Não:<span lang="it"> i miei amiche</span></strong>Mas: <span lang="it">le mie amiche.</span>
+
+es: <strong>No:<span lang="it"> il loro macchina</span></strong>Ma: la loro macchina.
+pt: <strong>Não:<span lang="it"> il loro macchina</span></strong>Mas: <span lang="it">la loro macchina.</span>
+
+es: <strong>No:<span lang="it"> il mio madre</span></strong>Ma: mia madre.
+pt: <strong>Não:<span lang="it"> il mio madre</span></strong>Mas: <span lang="it">mia madre.</span>
+
+es: Completa con el posesivo correcto.
+pt: Complete com o possessivo correto.
+
+es: Adjetivos y pronombres posesivos en italiano | gramática italiana A1 con ejercicios
+pt: Adjetivos e pronomes possessivos em italiano | gramática italiana A1 com exercícios
+
+es: Aprende los posesivos italianos mio, tuo, suo, nostro, vostro y loro con tablas, ejemplos, errores comunes y ejercicios interactivos.
+pt: Aprenda os possessivos italianos mio, tuo, suo, nostro, vostro e loro com tabelas, exemplos, erros comuns e exercícios interativos.
+
+es: Aprende lo mío, lo tuyo, lo suyo, lo nuestro y lo tuyo con ejercicios interactivos.
+pt: Aprenda <span lang="it">mio, tuo, suo, nostro, vostro</span> e <span lang="it">loro</span> com exercícios interativos.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / Presente indicativo de los verbos regulares italianos
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / Presente do indicativo dos verbos regulares italianos
+
+es: Gramática A1 · 15 minutos
+pt: Gramática A1 · 15 minutos
+
+es: Aprende a hablar sobre lo que haces ahora y tus hábitos.
+pt: Aprenda a falar do que você faz agora e dos seus hábitos.
+
+es: Tablas
+pt: Tabelas
+
+es: ¿Cuándo usamos el tiempo presente?
+pt: Quando usamos o presente?
+
+es: <strong>ahora</strong><br><span lang="it">Parlo con Maria.</span>
+pt: <strong>Agora</strong><br><span lang="it">Parlo con Maria.</span>
+
+es: <strong>Hábito</strong><br><span lang="it">Studio ogni sera.</span>
+pt: <strong>Hábito</strong><br><span lang="it">Studio ogni sera.</span>
+
+es: <strong>verdad general</strong><br><span lang="it">Roma è in Italia.</span>
+pt: <strong>Verdade geral</strong><br><span lang="it">Roma è in Italia.</span>
+
+es: Para conjugar un verbo regular quitamos <strong lang="it">-are, -ere o -ire</strong> y agrega la terminación correcta.
+pt: Para conjugar um verbo regular tiramos <strong lang="it">-are, -ere</strong> ou <strong lang="it">-ire</strong> e acrescentamos a terminação certa.
+
+es: Las tres conjugaciones
+pt: As três conjugações
+
+es: <strong>Recuerda:</strong> con <em lang="it">noi</em> el final es siempre <strong lang="it">-iamo</strong>. Algunos verbos en <strong lang="it">-ire</strong>, como <em lang="it">pulire</em>, <em lang="it">capire</em>, <em lang="it">finire</em> e <em lang="it">preferire</em>, agregan <strong lang="it">-isc-</strong> con <em lang="it">io</em>, <em lang="it">tu</em>, <em lang="it">lui/lei</em> e <em lang="it">loro</em>: <strong lang="it">pulisco, pulisci, pulisce, puliscono</strong>. con <em lang="it">noi</em> e <em lang="it">voi</em> permanecer regular: <strong lang="it">puliamo, pulite</strong>.
+pt: <strong>Lembre:</strong> com <em lang="it">noi</em> a terminação é sempre <strong lang="it">-iamo</strong>. Alguns verbos em <strong lang="it">-ire</strong>, como <em lang="it">pulire</em>, <em lang="it">capire</em>, <em lang="it">finire</em> e <em lang="it">preferire</em>, acrescentam <strong lang="it">-isc-</strong> com <em lang="it">io</em>, <em lang="it">tu</em>, <em lang="it">lui/lei</em> e <em lang="it">loro</em>: <strong lang="it">pulisco, pulisci, pulisce, puliscono</strong>. Com <em lang="it">noi</em> e <em lang="it">voi</em> continuam regulares: <strong lang="it">puliamo, pulite</strong>.
+
+es: ¿Cómo habla realmente un italiano?
+pt: Como fala de verdade um italiano?
+
+es: En italiano muchas veces el pronombre no es necesario: decimos normalmente <strong lang="it">“<span lang="it">Parlo italiano</span>”</strong>, no siempre “<span lang="it">Io parlo italiano</span>”.
+pt: Em italiano o pronome geralmente cai, porque a terminação do verbo já diz quem é: dizemos normalmente <strong lang="it">“<span lang="it">Parlo italiano</span>”</strong>, nem sempre “<span lang="it">Io parlo italiano</span>”.
+
+es: <strong>Incorrecto:</strong> <span lang="it">Io parla</span><br><strong>Correcto:</strong> <span lang="it">Io parlo</span>
+pt: <strong>Errado:</strong> <span lang="it">Io parla</span><br><strong>Correto:</strong> <span lang="it">Io parlo</span>
+
+es: <strong>Incorrecto:</strong> <span lang="it">Noi credemo</span><br><strong>Correcto:</strong> <span lang="it">Noi crediamo</span>
+pt: <strong>Errado:</strong> <span lang="it">Noi credemo</span><br><strong>Correto:</strong> <span lang="it">Noi crediamo</span>
+
+es: <strong>Incorrecto:</strong> <span lang="it">Io pulo</span><br><strong>Correcto:</strong> <span lang="it">Io pulisco</span>
+pt: <strong>Errado:</strong> <span lang="it">Io pulo</span><br><strong>Correto:</strong> <span lang="it">Io pulisco</span>
+
+es: ← Artículos indefinidos
+pt: ← Artigos indefinidos
+
+es: Próxima lección: género y número →
+pt: Próxima lição: gênero e número →
+
+es: Presente indicativo de los verbos regulares italianos | gramática italiana A1 con ejercicios
+pt: Presente do indicativo dos verbos regulares italianos | gramática italiana A1 com exercícios
+
+es: Aprende el presente de indicativo de los verbos italianos en -are, -ere y -ire con tablas, ejemplos y ejercicios interactivos.
+pt: Aprenda o presente do indicativo dos verbos italianos em -are, -ere e -ire com tabelas, exemplos e exercícios interativos.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Presente de los verbos irregulares italianos
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Presente dos verbos irregulares italianos
+
+es: Algunos verbos muy comunes no siguen del todo la regla. Apréndelos en pequeños grupos: <span lang="it">andare, fare, stare, dare, venire, uscire</span> y <span lang="it">sapere</span>.
+pt: Alguns verbos muito comuns não seguem totalmente a regra. Aprenda em pequenos grupos: <span lang="it">andare, fare, stare, dare, venire, uscire</span> e <span lang="it">sapere</span>.
+
+es: La idea simple
+pt: A ideia simples
+
+es: Frases útiles
+pt: Frases úteis
+
+es: Idea sencilla
+pt: Ideia simples
+
+es: Los verbos irregulares son verbos muy utilizados. Por eso es mejor aprenderlos en oraciones cortas, no solo como una lista.
+pt: Os verbos irregulares são verbos muito usados. Por isso é melhor aprendê-los em frases curtas, não só como uma lista.
+
+es: <strong>Consejo:</strong> Primero aprende las formas con yo, tú y nosotros. Son los más útiles en la conversación.
+pt: <strong>Dica:</strong> aprenda primeiro as formas com <em lang="it">io</em>, <em lang="it">tu</em> e <em lang="it">noi</em>. São as mais úteis na conversa.
+
+es: Tablas de los verbos más comunes
+pt: Tabelas dos verbos mais comuns
+
+es: <strong>Incorrecto:<span lang="it"> io ando.</span></strong>Corretto: io vado.
+pt: <strong>Errado:<span lang="it"> io ando.</span></strong>Correto: <span lang="it">io vado.</span>
+
+es: <strong>Incorrecto:<span lang="it"> lui fà.</span></strong>Corretto: lui fa, senza accento.
+pt: <strong>Errado:<span lang="it"> lui fà.</span></strong>Correto: <span lang="it">lui fa</span>, sem acento.
+
+es: <strong>Incorrecto:<span lang="it"> loro venono.</span></strong>Corretto: loro vengono.
+pt: <strong>Errado:<span lang="it"> loro venono.</span></strong>Correto: <span lang="it">loro vengono.</span>
+
+es: <strong>Incorrecto:<span lang="it"> io saccio.</span></strong>Corretto: io so.
+pt: <strong>Errado:<span lang="it"> io saccio.</span></strong>Correto: <span lang="it">io so.</span>
+
+es: Completa con el tiempo presente del verbo entre paréntesis.
+pt: Complete com o presente do verbo entre parênteses.
+
+es: Presente de los verbos irregulares italianos | gramática italiana A1 con ejercicios
+pt: Presente dos verbos irregulares italianos | gramática italiana A1 com exercícios
+
+es: Aprende los verbos irregulares italianos en presente: andare, fare, stare, dare, venire, uscire y sapere, con tablas y ejercicios.
+pt: Aprenda os verbos irregulares italianos no presente: andare, fare, stare, dare, venire, uscire e sapere, com tabelas e exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Verbos reflexivos en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Verbos reflexivos em italiano
+
+es: <span lang="it">Mi sveglio, mi lavo, mi vesto</span> (me despierto, me lavo, me visto): los verbos reflexivos cuentan el día. Aquí tienes cómo se forman, los verbos de la rutina, cuándo un verbo es reflexivo y cuándo no, dónde va el pronombre con <span lang="it">devo</span> y <span lang="it">voglio</span>, los errores típicos y 30 ejercicios.
+pt: <span lang="it">Mi sveglio, mi lavo, mi vesto</span> (acordo, me lavo, me visto): os verbos reflexivos contam o dia. Aqui você vê como se formam, os verbos da rotina, quando um verbo é reflexivo e quando não é, onde vai o pronome com <span lang="it">devo</span> e <span lang="it">voglio</span>, os erros típicos e 30 exercícios.
+
+es: Partes del día
+pt: Partes do dia
+
+es: Cómo se forman: <span lang="it">mi, ti, si, ci, vi, si</span>
+pt: Como se formam: <span lang="it">mi, ti, si, ci, vi, si</span>
+
+es: Un verbo reflexivo lleva delante un pequeño pronombre: <em lang="it">mi</em>, <em lang="it">ti</em>, <em lang="it">si</em>, <em lang="it">ci</em>, <em lang="it">vi</em>, <em lang="it">si</em>, como «me, te, se, nos, os, se» en español. El verbo se conjuga como siempre, en los tres grupos en -are, -ere e -ire.
+pt: Um verbo reflexivo leva na frente um pequeno pronome: <em lang="it">mi</em>, <em lang="it">ti</em>, <em lang="it">si</em>, <em lang="it">ci</em>, <em lang="it">vi</em>, <em lang="it">si</em>, como «me, te, se, nos, se» em português. O verbo se conjuga como sempre, nos três grupos em -are, -ere e -ire.
+
+es: Pronombre
+pt: Pronome
+
+es: <strong>El infinitivo termina en -si:</strong> <em lang="it">svegliarsi</em> = <em lang="it">svegliare</em> + <em lang="it">si</em>, <em lang="it">mettersi</em>, <em lang="it">vestirsi</em>. Igual que en español (despertar<strong>se</strong>), pero con <em lang="it">si</em>.
+pt: <strong>O infinitivo termina em -si:</strong> <em lang="it">svegliarsi</em> = <em lang="it">svegliare</em> + <em lang="it">si</em>, <em lang="it">mettersi</em>, <em lang="it">vestirsi</em>. É como o nosso «vestir-se», mas tudo numa palavra só e com <em lang="it">si</em>.
+
+es: <strong>Ojo: «nos» es <span lang="it">ci</span> y «os» es <span lang="it">vi</span></strong>, no <em lang="it">se</em>: <em lang="it">ci svegliamo</em> (nos despertamos), <em lang="it">vi svegliate</em> (os despertáis). Y <em lang="it">si</em> sirve para <em lang="it">lui / lei</em> y para <em lang="it">loro</em>.
+pt: <strong>Atenção: «nos» é <span lang="it">ci</span>, e com <span lang="it">voi</span> o pronome é <span lang="it">vi</span></strong>, nunca <em lang="it">si</em>: <em lang="it">ci svegliamo</em> (nós acordamos), <em lang="it">vi svegliate</em> (vocês acordam). Já <em lang="it">si</em> serve para <em lang="it">lui / lei</em> e para <em lang="it">loro</em>.
+
+es: Los verbos del día
+pt: Os verbos do dia
+
+es: Casi toda la rutina diaria se cuenta con verbos reflexivos, como en español.
+pt: Quase toda a rotina diária se conta com verbos reflexivos. No Brasil o pronome muitas vezes cai («eu acordo», «ela senta»), mas em italiano ele é obrigatório: <em lang="it">mi sveglio</em>, <em lang="it">si siede</em>.
+
+es: <strong>Al despertar</strong><br> <span lang="it">Mi sveglio alle sette e mi alzo subito.</span>
+pt: <strong>Ao acordar</strong><br> <span lang="it">Mi sveglio alle sette e mi alzo subito.</span>
+
+es: <strong>En el baño</strong><br> <span lang="it">Mi lavo la faccia e mi faccio la doccia.</span>
+pt: <strong>No banheiro</strong><br> <span lang="it">Mi lavo la faccia e mi faccio la doccia.</span>
+
+es: <strong>Arreglarse</strong><br> <span lang="it">Mi vesto, mi pettino e mi trucco.</span>
+pt: <strong>Arrumar-se</strong><br> <span lang="it">Mi vesto, mi pettino e mi trucco.</span>
+
+es: <strong>Durante el día</strong><br> <span lang="it">A pranzo mi siedo al bar e mi riposo un po’.</span>
+pt: <strong>Durante o dia</strong><br> <span lang="it">A pranzo mi siedo al bar e mi riposo un po’.</span>
+
+es: <strong>Por la noche</strong><br> <span lang="it">La sera mi lavo i denti e mi metto il pigiama.</span>
+pt: <strong>À noite</strong><br> <span lang="it">La sera mi lavo i denti e mi metto il pigiama.</span>
+
+es: <strong>Al dormir</strong><br> <span lang="it">Mi addormento sempre verso mezzanotte.</span>
+pt: <strong>Na hora de dormir</strong><br> <span lang="it">Mi addormento sempre verso mezzanotte.</span>
+
+es: <strong>Con las partes del cuerpo no se usa el posesivo</strong>, igual que en español: <em lang="it">mi lavo le mani</em> (me lavo las manos), <em lang="it">mi lavo i denti</em>, no <em lang="it">mi lavo le mie mani</em>.
+pt: <strong>Com as partes do corpo não se usa o possessivo</strong>, como em português: <em lang="it">mi lavo le mani</em> (lavo as mãos), <em lang="it">mi lavo i denti</em>, nunca <em lang="it">mi lavo le mie mani</em>.
+
+es: <strong>Dos irregulares que conviene saber:</strong> <em lang="it">sedersi</em> (sentarse: <em lang="it">mi siedo, ti siedi, si siede, ci sediamo</em>) y <em lang="it">farsi la doccia</em> (ducharse), que sigue a <em lang="it">fare</em> (<em lang="it">mi faccio, ti fai, si fa</em>).
+pt: <strong>Dois irregulares que vale a pena saber:</strong> <em lang="it">sedersi</em> (sentar-se: <em lang="it">mi siedo, ti siedi, si siede, ci sediamo</em>) e <em lang="it">farsi la doccia</em> (tomar banho), que segue <em lang="it">fare</em> (<em lang="it">mi faccio, ti fai, si fa</em>).
+
+es: ¿Reflexivo o no?
+pt: Reflexivo ou não?
+
+es: El mismo verbo puede ser reflexivo o no. Es reflexivo cuando la acción vuelve a quien la hace; sin pronombre, la acción va a otra persona o a una cosa.
+pt: O mesmo verbo pode ser reflexivo ou não. É reflexivo quando a ação volta para quem a faz; sem pronome, a ação vai para outra pessoa ou para uma coisa.
+
+es: <strong>Yo mismo / una cosa</strong><br> <span lang="it">Mi lavo. · Lavo la macchina.</span>
+pt: <strong>Eu mesmo / uma coisa</strong><br> <span lang="it">Mi lavo. · Lavo la macchina.</span>
+
+es: <strong>Yo mismo / otra persona</strong><br> <span lang="it">Mi sveglio alle sette. · Sveglio i bambini alle sette.</span>
+pt: <strong>Eu mesmo / outra pessoa</strong><br> <span lang="it">Mi sveglio alle sette. · Sveglio i bambini alle sette.</span>
+
+es: <strong>El nombre / el teléfono</strong><br> <span lang="it">Mi chiamo Emma. · Chiamo Emma al telefono.</span>
+pt: <strong>O nome / o telefone</strong><br> <span lang="it">Mi chiamo Emma. · Chiamo Emma al telefono.</span>
+
+es: <strong>El uno al otro</strong><br> <span lang="it">Ci vediamo domani! · Marco e Anna si sposano.</span>
+pt: <strong>Um ao outro</strong><br> <span lang="it">Ci vediamo domani! · Marco e Anna si sposano.</span>
+
+es: <strong>Cómo estás: <span lang="it">sentirsi</span></strong><br> <span lang="it">Come ti senti? Mi sento bene.</span>
+pt: <strong>Como você está: <span lang="it">sentirsi</span></strong><br> <span lang="it">Come ti senti? Mi sento bene.</span>
+
+es: <strong>Emociones y memoria</strong><br> <span lang="it">Mi diverto, mi annoio, mi arrabbio, mi ricordo.</span>
+pt: <strong>Emoções e memória</strong><br> <span lang="it">Mi diverto, mi annoio, mi arrabbio, mi ricordo.</span>
+
+es: <strong>Atención:</strong> la mayoría coincide con el español (<em lang="it">mi chiamo</em> = me llamo, <em lang="it">mi diverto</em> = me divierto, <em lang="it">mi ricordo</em> = me acuerdo), pero no todos: <em lang="it">mi sposo</em> = me caso. En plural el pronombre puede significar «el uno al otro»: <em lang="it">ci vediamo</em> (nos vemos), <em lang="it">si sposano</em> (se casan).
+pt: <strong>Atenção:</strong> muitos coincidem com o português (<em lang="it">mi chiamo</em> = me chamo, <em lang="it">mi diverto</em> = me divirto, <em lang="it">mi ricordo</em> = me lembro), mas nem todos: <em lang="it">mi addormento</em> = adormeço, <em lang="it">mi arrabbio</em> = fico com raiva. No plural o pronome pode significar «um ao outro»: <em lang="it">ci vediamo</em> (a gente se vê), <em lang="it">si sposano</em> (eles se casam).
+
+es: ¿Dónde va el pronombre?
+pt: Onde vai o pronome?
+
+es: Normalmente el pronombre va justo antes del verbo, también en las frases negativas.
+pt: Normalmente o pronome vai logo antes do verbo, também nas frases negativas.
+
+es: <strong>Con <span lang="it">dovere, volere, potere</span>: antes…</strong><br> <span lang="it">Domani mi devo alzare presto.</span>
+pt: <strong>Com <span lang="it">dovere, volere, potere</span>: antes…</strong><br> <span lang="it">Domani mi devo alzare presto.</span>
+
+es: <strong>…o unido al infinitivo</strong><br> <span lang="it">Domani devo alzarmi presto.</span>
+pt: <strong>…ou junto do infinitivo</strong><br> <span lang="it">Domani devo alzarmi presto.</span>
+
+es: <strong>El infinitivo cambia con la persona</strong><br> <span lang="it">Vuoi riposarti un po’?</span>
+pt: <strong>O infinitivo muda com a pessoa</strong><br> <span lang="it">Vuoi riposarti un po’?</span>
+
+es: <strong>En <span lang="it">passato prossimo</span>: <span lang="it">essere</span></strong><br> <span lang="it">Stamattina mi sono svegliato tardi. Anna si è svegliata presto.</span>
+pt: <strong>No <span lang="it">passato prossimo</span>: <span lang="it">essere</span></strong><br> <span lang="it">Stamattina mi sono svegliato tardi. Anna si è svegliata presto.</span>
+
+es: <strong>Con el infinitivo el pronombre cambia con la persona</strong>, como en español (tengo que levantarme): <em lang="it">devo alzarmi</em>, <em lang="it">devi alzarti</em>, <em lang="it">deve alzarsi</em>. Las dos formas (<em lang="it">mi devo alzare</em> / <em lang="it">devo alzarmi</em>) son correctas.
+pt: <strong>Com o infinitivo o pronome muda com a pessoa</strong>, como em português (tenho que me levantar): <em lang="it">devo alzarmi</em>, <em lang="it">devi alzarti</em>, <em lang="it">deve alzarsi</em>. As duas formas (<em lang="it">mi devo alzare</em> / <em lang="it">devo alzarmi</em>) estão certas.
+
+es: <strong>En <span lang="it">passato prossimo</span> los reflexivos llevan siempre <span lang="it">essere</span></strong> (no <em lang="it">avere</em>), y el participio concuerda: <em lang="it">mi sono svegliato</em> (Marco), <em lang="it">mi sono svegliata</em> (Anna).
+pt: <strong>No <span lang="it">passato prossimo</span> os reflexivos levam sempre <span lang="it">essere</span></strong> (nunca <em lang="it">avere</em>), e o particípio concorda: <em lang="it">mi sono svegliato</em> (Marco), <em lang="it">mi sono svegliata</em> (Anna).
+
+es: <strong>Incorrecto: <span lang="it">Io sveglio alle sette.</span></strong> Correcto: <span lang="it">Mi sveglio alle sette.</span>
+pt: <strong>Errado: <span lang="it">Io sveglio alle sette.</span></strong> Correto: <span lang="it">Mi sveglio alle sette.</span>
+
+es: <strong>Incorrecto: <span lang="it">Io chiamo Sara.</span></strong> Correcto: <span lang="it">Mi chiamo Sara.</span>
+pt: <strong>Errado: <span lang="it">Io chiamo Sara.</span></strong> Correto: <span lang="it">Mi chiamo Sara.</span>
+
+es: <strong>Incorrecto: <span lang="it">Si sveglio presto.</span></strong> Correcto: <span lang="it">Mi sveglio presto.</span>
+pt: <strong>Errado: <span lang="it">Si sveglio presto.</span></strong> Correto: <span lang="it">Mi sveglio presto.</span>
+
+es: <strong>Incorrecto: <span lang="it">Noi si alziamo.</span></strong> Correcto: <span lang="it">Noi ci alziamo.</span>
+pt: <strong>Errado: <span lang="it">Noi si alziamo.</span></strong> Correto: <span lang="it">Noi ci alziamo.</span>
+
+es: <strong>Incorrecto: <span lang="it">Lui se lava.</span></strong> Correcto: <span lang="it">Lui si lava.</span>
+pt: <strong>Errado: <span lang="it">Lui se lava.</span></strong> Correto: <span lang="it">Lui si lava.</span>
+
+es: <strong>Incorrecto: <span lang="it">Mi lavo le mie mani.</span></strong> Correcto: <span lang="it">Mi lavo le mani.</span>
+pt: <strong>Errado: <span lang="it">Mi lavo le mie mani.</span></strong> Correto: <span lang="it">Mi lavo le mani.</span>
+
+es: <strong>Incorrecto: <span lang="it">Devo mi alzare.</span></strong> Correcto: <span lang="it">Devo alzarmi. / Mi devo alzare.</span>
+pt: <strong>Errado: <span lang="it">Devo mi alzare.</span></strong> Correto: <span lang="it">Devo alzarmi. / Mi devo alzare.</span>
+
+es: <strong>Incorrecto: <span lang="it">Mi ho svegliato tardi.</span></strong> Correcto: <span lang="it">Mi sono svegliato tardi.</span>
+pt: <strong>Errado: <span lang="it">Mi ho svegliato tardi.</span></strong> Correto: <span lang="it">Mi sono svegliato tardi.</span>
+
+es: Ejercicios con corrección inmediata
+pt: Exercícios com correção imediata
+
+es: 30 frases en tres partes. Escribe solo lo que falta: la corrección aparece mientras escribes.
+pt: 30 frases em três partes. Escreva só o que falta: a correção aparece enquanto você digita.
+
+es: Parte 1 · El pronombre
+pt: Parte 1 · O pronome
+
+es: Escribe <span lang="it">mi, ti, si, ci</span> o <span lang="it">vi</span>.
+pt: Escreva <span lang="it">mi, ti, si, ci</span> ou <span lang="it">vi</span>.
+
+es: Parte 2 · El verbo
+pt: Parte 2 · O verbo
+
+es: Escribe el verbo en presente.
+pt: Escreva o verbo no presente.
+
+es: Parte 3 · ¿Reflexivo o no?
+pt: Parte 3 · Reflexivo ou não?
+
+es: Escribe la forma correcta: con el pronombre solo si hace falta.
+pt: Escreva a forma correta: com o pronome só se for necessário.
+
+es: Llévalo a la conversación
+pt: Leve para a conversa
+
+es: Verbos reflexivos en italiano | gramática italiana A1 con ejercicios
+pt: Verbos reflexivos em italiano | gramática italiana A1 com exercícios
+
+es: Los verbos reflexivos en italiano (verbi riflessivi): mi sveglio, ti lavi, si veste. Los pronombres mi, ti, si, ci, vi, los verbos de la rutina, reflexivo o no (mi lavo / lavo la macchina), devo alzarmi, mi sono svegliato y 30 ejercicios.
+pt: Os verbos reflexivos em italiano (verbi riflessivi): mi sveglio, ti lavi, si veste. Os pronomes mi, ti, si, ci, vi, os verbos da rotina, reflexivo ou não (mi lavo / lavo la macchina), devo alzarmi, mi sono svegliato e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / C’è y ci sono en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / C’è e ci sono em italiano
+
+es: Aprender a decir que una persona, cosa o lugar existe o está presente.
+pt: Aprenda a dizer que uma pessoa, uma coisa ou um lugar existe ou está presente.
+
+es: Usemos <strong lang="it">c'è</strong> con una cosa singular y <strong lang="it">ci sono</strong> con dos o más cosas.
+pt: Usamos <strong lang="it">c'è</strong> com uma coisa no singular e <strong lang="it">ci sono</strong> com duas ou mais coisas. Em português é o mesmo «há» ou «tem» para os dois.
+
+es: <strong>Pregunta</strong><br><span lang="it">C'è un bagno? Ci sono esercizi?</span>
+pt: <strong>Pergunta</strong><br><span lang="it">C'è un bagno? Ci sono esercizi?</span>
+
+es: <strong>Negativo</strong><br><span lang="it">Non c'è tempo. Non ci sono problemi.</span>
+pt: <strong>Negativa</strong><br><span lang="it">Non c'è tempo. Non ci sono problemi.</span>
+
+es: <strong>¿Cómo habla de verdad un italiano?</strong><br>Para pedir información de forma natural puedes decir: <strong lang="it">C’è una banca qui vicino?</strong>
+pt: <strong>Como fala de verdade um italiano?</strong><br>Para pedir uma informação de forma natural você pode dizer: <strong lang="it">C’è una banca qui vicino?</strong>
+
+es: <strong>Incorrecto:<span lang="it"> ci sono un libro.</span></strong>Corretto: c'è un libro.
+pt: <strong>Errado:<span lang="it"> ci sono un libro.</span></strong>Correto: <span lang="it">c'è un libro.</span>
+
+es: <strong>Incorrecto:<span lang="it"> c'è due persone.</span></strong>Corretto: ci sono due persone.
+pt: <strong>Errado:<span lang="it"> c'è due persone.</span></strong>Correto: <span lang="it">ci sono due persone.</span>
+
+es: <strong>Incorrecto:<span lang="it"> non c'è problemi.</span></strong>Corretto: non ci sono problemi.
+pt: <strong>Errado:<span lang="it"> non c'è problemi.</span></strong>Correto: <span lang="it">non ci sono problemi.</span>
+
+es: <strong>Incorrecto:<span lang="it"> ci e una farmacia.</span></strong>Corretto: c'è una farmacia.
+pt: <strong>Errado:<span lang="it"> ci e una farmacia.</span></strong>Correto: <span lang="it">c'è una farmacia.</span>
+
+es: Escribir <strong lang="it">c'è</strong> o <strong lang="it">ci sono</strong>.
+pt: Escreva <strong lang="it">c'è</strong> ou <strong lang="it">ci sono</strong>.
+
+es: Tráelo a la conversación
+pt: Leve para a conversa
+
+es: C’è y ci sono en italiano | gramática italiana A1 con ejercicios
+pt: C’è e ci sono em italiano | gramática italiana A1 com exercícios
+
+es: Aprende a usar c'è y ci sono en italiano (hay) con explicaciones sencillas, ejemplos reales y ejercicios interactivos.
+pt: Aprenda a usar c'è e ci sono em italiano (há, tem) com explicações simples, exemplos reais e exercícios interativos.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Preposiciones simples en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Preposições simples em italiano
+
+es: <span lang="it">Di, a, da, in, con, su, per, tra</span> y <span lang="it">fra</span>: qué indica cada una, cómo elegir entre <span lang="it">a</span>, <span lang="it">in</span> y <span lang="it">da</span> con los lugares, las preposiciones de tiempo, los verbos con <span lang="it">a</span> y <span lang="it">di</span> + infinitivo, los errores típicos y 30 ejercicios.
+pt: <span lang="it">Di, a, da, in, con, su, per, tra</span> e <span lang="it">fra</span>: o que cada uma indica, como escolher entre <span lang="it">a</span>, <span lang="it">in</span> e <span lang="it">da</span> com os lugares, as preposições de tempo, os verbos com <span lang="it">a</span> e <span lang="it">di</span> + infinitivo, os erros típicos e 30 exercícios.
+
+es: Usos
+pt: Usos
+
+es: ¿Dónde?
+pt: Onde?
+
+es: Tiempo
+pt: Tempo
+
+es: Con verbos
+pt: Com verbos
+
+es: Qué indica cada preposición
+pt: O que cada preposição indica
+
+es: Las preposiciones simples son nueve palabras cortas. Cada una tiene un uso principal: apréndelo con un ejemplo.
+pt: As preposições simples são nove palavras curtas. Cada uma tem um uso principal: aprenda com um exemplo.
+
+es: <strong><span lang="it">di</span> · posesión, origen</strong><br> <span lang="it">Il libro di Anna. Sono di Napoli.</span>
+pt: <strong><span lang="it">di</span> · posse, origem</strong><br> <span lang="it">Il libro di Anna. Sono di Napoli.</span>
+
+es: <strong><span lang="it">a</span> · ciudades, dirección, a alguien</strong><br> <span lang="it">Vado a Roma. Scrivo a Luca.</span>
+pt: <strong><span lang="it">a</span> · cidades, direção, para alguém</strong><br> <span lang="it">Vado a Roma. Scrivo a Luca.</span>
+
+es: <strong><span lang="it">da</span> · procedencia, en casa de alguien</strong><br> <span lang="it">Vengo da Milano. Vado da Marco.</span>
+pt: <strong><span lang="it">da</span> · procedência, na casa de alguém</strong><br> <span lang="it">Vengo da Milano. Vado da Marco.</span>
+
+es: <strong><span lang="it">in</span> · países, lugares cerrados, medios</strong><br> <span lang="it">Vivo in Italia. Vado in treno.</span>
+pt: <strong><span lang="it">in</span> · países, lugares fechados, meios de transporte</strong><br> <span lang="it">Vivo in Italia. Vado in treno.</span>
+
+es: <strong><span lang="it">con</span> · compañía, instrumento</strong><br> <span lang="it">Esco con Sara. Scrivo con la penna.</span>
+pt: <strong><span lang="it">con</span> · companhia, instrumento</strong><br> <span lang="it">Esco con Sara. Scrivo con la penna.</span>
+
+es: <strong><span lang="it">su</span> · encima, tema</strong><br> <span lang="it">Salgo su una sedia. Un libro su Roma.</span>
+pt: <strong><span lang="it">su</span> · em cima, assunto</strong><br> <span lang="it">Salgo su una sedia. Un libro su Roma.</span>
+
+es: <strong><span lang="it">per</span> · destino, finalidad, para quién</strong><br> <span lang="it">Un regalo per te. Parto per Parigi.</span>
+pt: <strong><span lang="it">per</span> · destino, finalidade, para quem</strong><br> <span lang="it">Un regalo per te. Parto per Parigi.</span>
+
+es: <strong><span lang="it">tra / fra</span> · dentro de (tiempo), entre</strong><br> <span lang="it">Arrivo tra cinque minuti. Fra noi due.</span>
+pt: <strong><span lang="it">tra / fra</span> · daqui a (tempo), entre</strong><br> <span lang="it">Arrivo tra cinque minuti. Fra noi due.</span>
+
+es: <strong><span lang="it">Tra</span> y <span lang="it">fra</span> son iguales.</strong> Se elige la que suena mejor: <em lang="it">tra fratelli</em> y <em lang="it">fra tre giorni</em> se dicen más fácilmente que <em lang="it">fra fratelli</em> y <em lang="it">tra tre giorni</em>.
+pt: <strong><span lang="it">Tra</span> e <span lang="it">fra</span> são iguais.</strong> Escolhe-se a que soa melhor: <em lang="it">tra fratelli</em> e <em lang="it">fra tre giorni</em> se dizem mais facilmente do que <em lang="it">fra fratelli</em> e <em lang="it">tra tre giorni</em>.
+
+es: Los lugares: ¿<span lang="it">a</span>, <span lang="it">in</span> o <span lang="it">da</span>?
+pt: Os lugares: <span lang="it">a</span>, <span lang="it">in</span> ou <span lang="it">da</span>?
+
+es: Es la elección más difícil. Por suerte <em lang="it">andare</em> (el movimiento) y <em lang="it">essere</em> (la posición) usan la misma preposición: <em lang="it">vado a Roma</em> (voy a Roma), <em lang="it">sono a Roma</em> (estoy en Roma). El español cambia de «a» a «en»; el italiano no.
+pt: É a escolha mais difícil. Por sorte <em lang="it">andare</em> (o movimento) e <em lang="it">essere</em> (a posição) usam a mesma preposição: <em lang="it">vado a Roma</em> (vou a Roma), <em lang="it">sono a Roma</em> (estou em Roma). O português troca «a» por «em»; o italiano não.
+
+es: <strong>Ciudades: <span lang="it">a</span></strong><br> <span lang="it">Vivo a Roma. Vado a Milano.</span>
+pt: <strong>Cidades: <span lang="it">a</span></strong><br> <span lang="it">Vivo a Roma. Vado a Milano.</span>
+
+es: <strong>Países y regiones: <span lang="it">in</span></strong><br> <span lang="it">Vivo in Italia. Vado in Spagna.</span>
+pt: <strong>Países e regiões: <span lang="it">in</span></strong><br> <span lang="it">Vivo in Italia. Vado in Spagna.</span>
+
+es: <strong>Tiendas y oficinas: <span lang="it">in</span></strong><br> <span lang="it">Lavoro in banca. Sono in farmacia. Vado in ufficio.</span>
+pt: <strong>Lojas e escritórios: <span lang="it">in</span></strong><br> <span lang="it">Lavoro in banca. Sono in farmacia. Vado in ufficio.</span>
+
+es: <strong>Expresiones fijas con <span lang="it">a</span></strong><br> <span lang="it">a casa, a scuola, a letto, a teatro</span>
+pt: <strong>Expressões fixas com <span lang="it">a</span></strong><br> <span lang="it">a casa, a scuola, a letto, a teatro</span>
+
+es: <strong>Medios de transporte: <span lang="it">in</span></strong><br> <span lang="it">in treno, in macchina, in bici · a piedi</span>
+pt: <strong>Meios de transporte: <span lang="it">in</span></strong><br> <span lang="it">in treno, in macchina, in bici · a piedi</span>
+
+es: <strong><span lang="it">Da</span> + persona</strong> significa «a casa de» o «a la tienda, a la consulta de»: <em lang="it">vado da Marco</em> (voy a casa de Marco), <em lang="it">sono da Giulia</em>. Nunca se dice <em lang="it">vado a Marco</em>.
+pt: <strong><span lang="it">Da</span> + pessoa</strong> significa «na casa de» ou «no consultório, na loja de»: <em lang="it">vado da Marco</em> (vou à casa do Marco), <em lang="it">sono da Giulia</em>. Nunca se diz <em lang="it">vado a Marco</em>.
+
+es: <strong>Con las palabras en -ia y -eria</strong> se usa casi siempre <em lang="it">in</em>: <em lang="it">in farmacia</em>, <em lang="it">in pizzeria</em>, <em lang="it">in libreria</em>. Y con los medios de transporte hay una excepción que recordar: <em lang="it">a piedi</em> (a pie). Ojo: «en tren» es <em lang="it">in treno</em>, como en español.
+pt: <strong>Com as palavras em -ia e -eria</strong> se usa quase sempre <em lang="it">in</em>: <em lang="it">in farmacia</em>, <em lang="it">in pizzeria</em>, <em lang="it">in libreria</em>. Com os meios de transporte há uma exceção para lembrar: <em lang="it">a piedi</em> (a pé). Atenção: «de trem» é <em lang="it">in treno</em>, nunca <em lang="it">di treno</em>.
+
+es: El tiempo: <span lang="it">da</span>, <span lang="it">tra</span>, <span lang="it">per</span>
+pt: O tempo: <span lang="it">da</span>, <span lang="it">tra</span>, <span lang="it">per</span>
+
+es: También con el tiempo cada preposición tiene su función.
+pt: Também com o tempo cada preposição tem a sua função.
+
+es: <strong>¿Desde cuándo? <span lang="it">da</span> + presente</strong><br> <span lang="it">Studio italiano da due anni.</span>
+pt: <strong>Há quanto tempo? <span lang="it">da</span> + presente</strong><br> <span lang="it">Studio italiano da due anni.</span>
+
+es: <strong>¿Dentro de cuánto? <span lang="it">tra / fra</span></strong><br> <span lang="it">Il treno parte tra dieci minuti.</span>
+pt: <strong>Daqui a quanto tempo? <span lang="it">tra / fra</span></strong><br> <span lang="it">Il treno parte tra dieci minuti.</span>
+
+es: <strong>¿Cuánto duró? <span lang="it">per</span></strong><br> <span lang="it">Ho vissuto a Londra per tre anni.</span>
+pt: <strong>Quanto tempo durou? <span lang="it">per</span></strong><br> <span lang="it">Ho vissuto a Londra per tre anni.</span>
+
+es: <strong>Meses, fiestas, horas: <span lang="it">a</span></strong><br> <span lang="it">a mezzogiorno, a maggio, a Natale</span>
+pt: <strong>Meses, festas, horas: <span lang="it">a</span></strong><br> <span lang="it">a mezzogiorno, a maggio, a Natale</span>
+
+es: <strong>Estaciones, duración: <span lang="it">in</span></strong><br> <span lang="it">in estate, in inverno, in dieci minuti</span>
+pt: <strong>Estações, duração: <span lang="it">in</span></strong><br> <span lang="it">in estate, in inverno, in dieci minuti</span>
+
+es: <strong><span lang="it">Da</span> + presente: la acción todavía continúa.</strong> <em lang="it">Studio italiano da due anni</em> = estudio italiano desde hace dos años (y sigo). Con <em lang="it">per</em>, en cambio, la acción ha terminado: <em lang="it">ho studiato italiano per due anni</em> (estudié italiano durante dos años).
+pt: <strong><span lang="it">Da</span> + presente: a ação ainda continua.</strong> <em lang="it">Studio italiano da due anni</em> = estudo italiano há dois anos (e continuo). Com <em lang="it">per</em>, ao contrário, a ação terminou: <em lang="it">ho studiato italiano per due anni</em> (estudei italiano durante dois anos).
+
+es: <strong>¿<span lang="it">Tra dieci minuti</span> o <span lang="it">in dieci minuti</span>?</strong> <em lang="it">Tra dieci minuti</em> = dentro de diez minutos, en el futuro. <em lang="it">In dieci minuti</em> = el tiempo que se necesita: <em lang="it">faccio la doccia in dieci minuti</em> (me ducho en diez minutos).
+pt: <strong><span lang="it">Tra dieci minuti</span> ou <span lang="it">in dieci minuti</span>?</strong> <em lang="it">Tra dieci minuti</em> = daqui a dez minutos, no futuro. <em lang="it">In dieci minuti</em> = o tempo necessário: <em lang="it">faccio la doccia in dieci minuti</em> (tomo banho em dez minutos).
+
+es: Los verbos con <span lang="it">a</span> y <span lang="it">di</span> + infinitivo
+pt: Os verbos com <span lang="it">a</span> e <span lang="it">di</span> + infinitivo
+
+es: Muchos verbos se unen a otro verbo en infinitivo con <em lang="it">a</em> o con <em lang="it">di</em>. No hay una regla segura: aprende cada verbo junto con su preposición. Cuidado: <em lang="it">di</em> suele corresponder a «de», pero no siempre (<em lang="it">cerco di dormire</em> = intento dormir).
+pt: Muitos verbos se ligam a outro verbo no infinitivo com <em lang="it">a</em> ou com <em lang="it">di</em>. Não há uma regra segura: aprenda cada verbo junto com a sua preposição. Cuidado: <em lang="it">di</em> costuma corresponder a «de», mas nem sempre (<em lang="it">cerco di dormire</em> = tento dormir).
+
+es: <strong>La finalidad: <span lang="it">per</span></strong><br> <span lang="it">Studio per trovare un lavoro.</span>
+pt: <strong>A finalidade: <span lang="it">per</span></strong><br> <span lang="it">Studio per trovare un lavoro.</span>
+
+es: <strong>Un pequeño truco:</strong> los verbos de movimiento y de inicio llevan casi siempre <em lang="it">a</em> (<em lang="it">andare a</em>, <em lang="it">venire a</em>, <em lang="it">cominciare a</em>). Con <em lang="it">di</em> van <em lang="it">finire</em>, <em lang="it">smettere</em>, <em lang="it">cercare</em>, <em lang="it">decidere</em> y <em lang="it">pensare</em>.
+pt: <strong>Um pequeno truque:</strong> os verbos de movimento e de início levam quase sempre <em lang="it">a</em> (<em lang="it">andare a</em>, <em lang="it">venire a</em>, <em lang="it">cominciare a</em>). Com <em lang="it">di</em> vão <em lang="it">finire</em>, <em lang="it">smettere</em>, <em lang="it">cercare</em>, <em lang="it">decidere</em> e <em lang="it">pensare</em>.
+
+es: <strong>Incorrecto: <span lang="it">Vado in Roma.</span></strong> Correcto: <span lang="it">Vado a Roma.</span>
+pt: <strong>Errado: <span lang="it">Vado in Roma.</span></strong> Correto: <span lang="it">Vado a Roma.</span>
+
+es: <strong>Incorrecto: <span lang="it">Vivo a Italia.</span></strong> Correcto: <span lang="it">Vivo in Italia.</span>
+pt: <strong>Errado: <span lang="it">Vivo a Italia.</span></strong> Correto: <span lang="it">Vivo in Italia.</span>
+
+es: <strong>Incorrecto: <span lang="it">Vado a Marco.</span></strong> Correcto: <span lang="it">Vado da Marco.</span>
+pt: <strong>Errado: <span lang="it">Vado a Marco.</span></strong> Correto: <span lang="it">Vado da Marco.</span>
+
+es: <strong>Incorrecto: <span lang="it">Vado in piedi.</span></strong> Correcto: <span lang="it">Vado a piedi.</span>
+pt: <strong>Errado: <span lang="it">Vado in piedi.</span></strong> Correto: <span lang="it">Vado a piedi.</span>
+
+es: <strong>Incorrecto: <span lang="it">Sono da Milano.</span></strong> Correcto: <span lang="it">Sono di Milano.</span>
+pt: <strong>Errado: <span lang="it">Sono da Milano.</span></strong> Correto: <span lang="it">Sono di Milano.</span>
+
+es: <strong>Incorrecto: <span lang="it">Studio italiano per due anni (e continuo).</span></strong> Correcto: <span lang="it">Studio italiano da due anni.</span>
+pt: <strong>Errado: <span lang="it">Studio italiano per due anni (e continuo).</span></strong> Correto: <span lang="it">Studio italiano da due anni.</span>
+
+es: <strong>Incorrecto: <span lang="it">Il treno parte in dieci minuti.</span></strong> Correcto: <span lang="it">Il treno parte tra dieci minuti.</span>
+pt: <strong>Errado: <span lang="it">Il treno parte in dieci minuti.</span></strong> Correto: <span lang="it">Il treno parte tra dieci minuti.</span>
+
+es: <strong>Incorrecto: <span lang="it">Finisco a lavorare.</span></strong> Correcto: <span lang="it">Finisco di lavorare.</span>
+pt: <strong>Errado: <span lang="it">Finisco a lavorare.</span></strong> Correto: <span lang="it">Finisco di lavorare.</span>
+
+es: 30 frases en tres partes. Escribe solo la preposición: la corrección aparece mientras escribes.
+pt: 30 frases em três partes. Escreva só a preposição: a correção aparece enquanto você digita.
+
+es: Parte 1 · Los lugares
+pt: Parte 1 · Os lugares
+
+es: Escribe <span lang="it">a</span>, <span lang="it">in</span> o <span lang="it">da</span>.
+pt: Escreva <span lang="it">a</span>, <span lang="it">in</span> ou <span lang="it">da</span>.
+
+es: Parte 2 · Tiempo, origen, compañía
+pt: Parte 2 · Tempo, origem, companhia
+
+es: Escribe la preposición correcta.
+pt: Escreva a preposição correta.
+
+es: Parte 3 · Verbos + infinitivo
+pt: Parte 3 · Verbos + infinitivo
+
+es: Escribe <span lang="it">a</span>, <span lang="it">di</span> o <span lang="it">per</span>.
+pt: Escreva <span lang="it">a</span>, <span lang="it">di</span> ou <span lang="it">per</span>.
+
+es: Preposiciones simples en italiano | gramática italiana A1 con ejercicios
+pt: Preposições simples em italiano | gramática italiana A1 com exercícios
+
+es: Las preposiciones simples italianas di, a, da, in, con, su, per, tra y fra: a, in o da con los lugares, da + presente, tra y per con el tiempo, verbos con a y di + infinitivo, errores típicos y 30 ejercicios.
+pt: As preposições simples italianas di, a, da, in, con, su, per, tra e fra: a, in ou da com os lugares, da + presente, tra e per com o tempo, verbos com a e di + infinitivo, erros típicos e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Preposiciones articuladas en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Preposições articuladas em italiano
+
+es: <span lang="it">Di + il = del</span>, <span lang="it">a + la = alla</span>, <span lang="it">in + lo = nello</span>: la tabla completa, cuándo hace falta el artículo (<span lang="it">a Roma</span> pero <span lang="it">al mare</span>, <span lang="it">da Marco</span> pero <span lang="it">dal medico</span>), las horas, <span lang="it">del pane</span> y <span lang="it">dei libri</span>, los errores típicos y 30 ejercicios.
+pt: <span lang="it">Di + il = del</span>, <span lang="it">a + la = alla</span>, <span lang="it">in + lo = nello</span>: a tabela completa, quando é preciso o artigo (<span lang="it">a Roma</span> mas <span lang="it">al mare</span>, <span lang="it">da Marco</span> mas <span lang="it">dal medico</span>), as horas, <span lang="it">del pane</span> e <span lang="it">dei libri</span>, os erros típicos e 30 exercícios.
+
+es: Cuándo usarlo
+pt: Quando usar
+
+es: Preposición + artículo = una sola palabra
+pt: Preposição + artigo = uma palavra só
+
+es: Cuando después de <em lang="it">di</em>, <em lang="it">a</em>, <em lang="it">da</em>, <em lang="it">in</em> y <em lang="it">su</em> viene un artículo determinado, las dos palabras se unen: <em lang="it">di + il = del</em>. El español lo hace solo con «al» y «del»; el italiano, con cinco preposiciones y todos los artículos.
+pt: Quando depois de <em lang="it">di</em>, <em lang="it">a</em>, <em lang="it">da</em>, <em lang="it">in</em> e <em lang="it">su</em> vem um artigo definido, as duas palavras se juntam: <em lang="it">di + il = del</em>. O português faz o mesmo (de + o = do, em + a = na, a + a = à), e por isso você já conhece a ideia: o italiano faz isso com cinco preposições e todos os artigos.
+
+es: Preposición
+pt: Preposição
+
+es: <strong>Dos cosas que recordar.</strong> <em lang="it">Di</em> se convierte en <em lang="it">de-</em> e <em lang="it">in</em> en <em lang="it">ne-</em>: <em lang="it">del</em>, <em lang="it">nel</em>. Y con <em lang="it">lo, la, l’, gli, le</em> la <em lang="it">l</em> se duplica: <em lang="it">dello</em>, <em lang="it">alla</em>, <em lang="it">negli</em>.
+pt: <strong>Duas coisas para lembrar.</strong> <em lang="it">Di</em> vira <em lang="it">de-</em> e <em lang="it">in</em> vira <em lang="it">ne-</em>: <em lang="it">del</em>, <em lang="it">nel</em>. E com <em lang="it">lo, la, l’, gli, le</em> o <em lang="it">l</em> dobra: <em lang="it">dello</em>, <em lang="it">alla</em>, <em lang="it">negli</em>.
+
+es: <strong><span lang="it">Con, per, tra</span> y <span lang="it">fra</span> no se unen:</strong> <em lang="it">con il</em>, <em lang="it">per la</em>, <em lang="it">tra gli</em>. A veces se oye <em lang="it">col</em> (<em lang="it">con + il</em>), pero no es obligatorio.
+pt: <strong><span lang="it">Con, per, tra</span> e <span lang="it">fra</span> não se juntam:</strong> <em lang="it">con il</em>, <em lang="it">per la</em>, <em lang="it">tra gli</em>. Às vezes se ouve <em lang="it">col</em> (<em lang="it">con + il</em>), mas não é obrigatório.
+
+es: ¿Cuándo hace falta el artículo?
+pt: Quando é preciso o artigo?
+
+es: La preposición articulada solo se usa cuando el sustantivo lleva artículo. Compara las parejas: a la izquierda el sustantivo no lleva artículo, a la derecha sí.
+pt: A preposição articulada só se usa quando o substantivo leva artigo. Compare os pares: à esquerda o substantivo não tem artigo, à direita tem.
+
+es: <strong>Ciudad / lugar con artículo</strong><br> <span lang="it">Vado a Roma. · Vado al mare.</span>
+pt: <strong>Cidade / lugar com artigo</strong><br> <span lang="it">Vado a Roma. · Vado al mare.</span>
+
+es: <strong>País / país con un adjetivo</strong><br> <span lang="it">Vivo in Italia. · Vivo nell’Italia del Sud.</span>
+pt: <strong>País / país com um adjetivo</strong><br> <span lang="it">Vivo in Italia. · Vivo nell’Italia del Sud.</span>
+
+es: <strong>Nombre / profesión</strong><br> <span lang="it">Vado da Marco. · Vado dal medico.</span>
+pt: <strong>Nome / profissão</strong><br> <span lang="it">Vado da Marco. · Vado dal medico.</span>
+
+es: <strong>Familia / amigos</strong><br> <span lang="it">Il libro di mia sorella. · Il libro della mia amica.</span>
+pt: <strong>Família / amigos</strong><br> <span lang="it">Il libro di mia sorella. · Il libro della mia amica.</span>
+
+es: <strong>Las horas</strong><br> <span lang="it">alle otto, all’una, dalle nove alle cinque</span>
+pt: <strong>As horas</strong><br> <span lang="it">alle otto, all’una, dalle nove alle cinque</span>
+
+es: <strong>Lugares fijos</strong><br> <span lang="it">al bar, al cinema, allo stadio · in centro, in città</span>
+pt: <strong>Lugares fixos</strong><br> <span lang="it">al bar, al cinema, allo stadio · in centro, in città</span>
+
+es: <strong>Las ciudades y los nombres de persona no llevan artículo</strong>, así que la preposición queda simple: <em lang="it">a Roma</em>, <em lang="it">da Anna</em>. Los sustantivos comunes sí lo llevan: <em lang="it">al mare</em>, <em lang="it">dal medico</em>, <em lang="it">alla stazione</em>.
+pt: <strong>As cidades e os nomes de pessoa não levam artigo</strong>, então a preposição fica simples: <em lang="it">a Roma</em>, <em lang="it">da Anna</em>. Os substantivos comuns levam: <em lang="it">al mare</em>, <em lang="it">dal medico</em>, <em lang="it">alla stazione</em>. Atenção: em português dizemos «a Ana», «o Marco», mas em italiano o nome próprio fica sem artigo.
+
+es: <strong>Cuidado con los lugares fijos:</strong> <em lang="it">al bar</em>, <em lang="it">al cinema</em>, <em lang="it">al supermercato</em>, pero <em lang="it">in centro</em>, <em lang="it">in città</em>, <em lang="it">in cucina</em>, <em lang="it">a casa</em>, sin artículo. Se aprenden por grupos.
+pt: <strong>Cuidado com os lugares fixos:</strong> <em lang="it">al bar</em>, <em lang="it">al cinema</em>, <em lang="it">al supermercato</em>, mas <em lang="it">in centro</em>, <em lang="it">in città</em>, <em lang="it">in cucina</em>, <em lang="it">a casa</em>, sem artigo. Aprenda por grupos.
+
+es: <span lang="it">Del pane</span>, <span lang="it">dei libri</span>: una cantidad no precisa
+pt: <span lang="it">Del pane</span>, <span lang="it">dei libri</span>: uma quantidade não precisa
+
+es: <em lang="it">Di</em> + artículo también sirve para decir «un poco de» o «unos, unas»: es el partitivo. Se usa mucho en el bar, en el mercado y en el restaurante. En español a menudo no se traduce: <em lang="it">vorrei del pane</em> = quisiera pan.
+pt: <em lang="it">Di</em> + artigo também serve para dizer «um pouco de» ou «uns, umas»: é o partitivo. Usa-se muito no bar, na feira e no restaurante. Em português muitas vezes não se traduz: <em lang="it">vorrei del pane</em> = queria pão.
+
+es: <strong>Un poco de: <span lang="it">del, della, dello</span></strong><br> <span lang="it">Vorrei del pane, per favore.</span>
+pt: <strong>Um pouco de: <span lang="it">del, della, dello</span></strong><br> <span lang="it">Vorrei del pane, per favore.</span>
+
+es: <strong>Unos, unas: <span lang="it">dei, degli, delle</span></strong><br> <span lang="it">Ho comprato dei pomodori e delle mele.</span>
+pt: <strong>Uns, umas: <span lang="it">dei, degli, delle</span></strong><br> <span lang="it">Ho comprato dei pomodori e delle mele.</span>
+
+es: <strong>En las frases negativas: nada</strong><br> <span lang="it">Non ho pane. · Ho un po’ di pane.</span>
+pt: <strong>Nas frases negativas: nada</strong><br> <span lang="it">Non ho pane. · Ho un po’ di pane.</span>
+
+es: <strong><span lang="it">Dei, degli, delle</span> son el plural de <span lang="it">un, uno, una</span>:</strong> <em lang="it">un libro → dei libri</em>, <em lang="it">uno zaino → degli zaini</em>, <em lang="it">una mela → delle mele</em>.
+pt: <strong><span lang="it">Dei, degli, delle</span> são o plural de <span lang="it">un, uno, una</span>:</strong> <em lang="it">un libro → dei libri</em>, <em lang="it">uno zaino → degli zaini</em>, <em lang="it">una mela → delle mele</em>.
+
+es: <strong>Incorrecto: <span lang="it">Vado a il cinema.</span></strong> Correcto: <span lang="it">Vado al cinema.</span>
+pt: <strong>Errado: <span lang="it">Vado a il cinema.</span></strong> Correto: <span lang="it">Vado al cinema.</span>
+
+es: <strong>Incorrecto: <span lang="it">Il libro di il professore.</span></strong> Correcto: <span lang="it">Il libro del professore.</span>
+pt: <strong>Errado: <span lang="it">Il libro di il professore.</span></strong> Correto: <span lang="it">Il libro del professore.</span>
+
+es: <strong>Incorrecto: <span lang="it">Le chiavi sono su il tavolo.</span></strong> Correcto: <span lang="it">Le chiavi sono sul tavolo.</span>
+pt: <strong>Errado: <span lang="it">Le chiavi sono su il tavolo.</span></strong> Correto: <span lang="it">Le chiavi sono sul tavolo.</span>
+
+es: <strong>Incorrecto: <span lang="it">Vado al Roma.</span></strong> Correcto: <span lang="it">Vado a Roma.</span>
+pt: <strong>Errado: <span lang="it">Vado al Roma.</span></strong> Correto: <span lang="it">Vado a Roma.</span>
+
+es: <strong>Incorrecto: <span lang="it">Lavoro dalle nove a le cinque.</span></strong> Correcto: <span lang="it">Lavoro dalle nove alle cinque.</span>
+pt: <strong>Errado: <span lang="it">Lavoro dalle nove a le cinque.</span></strong> Correto: <span lang="it">Lavoro dalle nove alle cinque.</span>
+
+es: <strong>Incorrecto: <span lang="it">Torno dal stadio.</span></strong> Correcto: <span lang="it">Torno dallo stadio.</span>
+pt: <strong>Errado: <span lang="it">Torno dal stadio.</span></strong> Correto: <span lang="it">Torno dallo stadio.</span>
+
+es: <strong>Incorrecto: <span lang="it">La casa dei amici.</span></strong> Correcto: <span lang="it">La casa degli amici.</span>
+pt: <strong>Errado: <span lang="it">La casa dei amici.</span></strong> Correto: <span lang="it">La casa degli amici.</span>
+
+es: <strong>Incorrecto: <span lang="it">Vado nella Italia.</span></strong> Correcto: <span lang="it">Vado in Italia.</span>
+pt: <strong>Errado: <span lang="it">Vado nella Italia.</span></strong> Correto: <span lang="it">Vado in Italia.</span>
+
+es: Parte 1 · Une las dos palabras
+pt: Parte 1 · Junte as duas palavras
+
+es: Escribe la preposición articulada.
+pt: Escreva a preposição articulada.
+
+es: Parte 2 · Sin ayuda
+pt: Parte 2 · Sem ajuda
+
+es: Escribe la preposición articulada correcta.
+pt: Escreva a preposição articulada correta.
+
+es: Parte 3 · ¿Simple o articulada?
+pt: Parte 3 · Simples ou articulada?
+
+es: Atención: en algunas frases el artículo no hace falta.
+pt: Atenção: em algumas frases o artigo não é necessário.
+
+es: Preposiciones articuladas en italiano | gramática italiana A1 con ejercicios
+pt: Preposições articuladas em italiano | gramática italiana A1 com exercícios
+
+es: Las preposiciones articuladas italianas (preposizioni articolate): del, al, dal, nel, sul y todas las demás en una tabla, cuándo hace falta el artículo (a Roma / al mare, da Marco / dal medico), las horas, el partitivo y 30 ejercicios.
+pt: As preposições articuladas italianas (preposizioni articolate): del, al, dal, nel, sul e todas as outras numa tabela, quando é preciso o artigo (a Roma / al mare, da Marco / dal medico), as horas, o partitivo e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Los números en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Os números em italiano
+
+es: Contar, decir la edad y los precios, leer un año. Aquí tienes los números del cero a mil millones, las reglas para escribirlos, los ordinales y 30 ejercicios.
+pt: Contar, dizer a idade e os preços, ler um ano. Aqui estão os números do zero a um bilhão, as regras para escrevê-los, os ordinais e 30 exercícios.
+
+es: Del 0 al 20
+pt: Do 0 ao 20
+
+es: Decenas
+pt: Dezenas
+
+es: Números grandes
+pt: Números grandes
+
+es: Ordinales
+pt: Ordinais
+
+es: Estos números se aprenden de memoria: todos los demás se construyen a partir de ellos. Del 11 al 16 terminan en <em lang="it">-dici</em>; del 17 al 19 empiezan por <em lang="it">dici-</em>.
+pt: Estes números se aprendem de cor: todos os outros se constroem a partir deles. Do 11 ao 16 terminam em <em lang="it">-dici</em>; do 17 ao 19 começam com <em lang="it">dici-</em>.
+
+es: Número
+pt: Número
+
+es: En letras
+pt: Por extenso
+
+es: <strong>Cuidado con las consonantes dobles:</strong> <em lang="it">diciassette</em> lleva dos <em lang="it">s</em>, <em lang="it">diciotto</em> dos <em lang="it">t</em> y <em lang="it">diciannove</em> dos <em lang="it">n</em>.
+pt: <strong>Cuidado com as consoantes duplas:</strong> <em lang="it">diciassette</em> tem dois <em lang="it">s</em>, <em lang="it">diciotto</em> dois <em lang="it">t</em> e <em lang="it">diciannove</em> dois <em lang="it">n</em>.
+
+es: Las decenas y los números del 21 al 99
+pt: As dezenas e os números do 21 ao 99
+
+es: Las decenas son <em lang="it">venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta</em>. Los demás números unen decena y unidad en una sola palabra: <em lang="it">trenta + due = trentadue</em>.
+pt: As dezenas são <em lang="it">venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta</em>. Os outros números juntam dezena e unidade numa palavra só, sem «e»: <em lang="it">trenta + due = trentadue</em> (trinta e dois).
+
+es: <strong>Con <span lang="it">uno</span> y <span lang="it">otto</span> cae una vocal.</strong> Delante de <em lang="it">uno</em> y <em lang="it">otto</em> la decena pierde la vocal final: <em lang="it">ventuno, quarantotto</em>, no <em lang="it">ventiuno, quarantaotto</em>.
+pt: <strong>Com <span lang="it">uno</span> e <span lang="it">otto</span> cai uma vogal.</strong> Antes de <em lang="it">uno</em> e <em lang="it">otto</em> a dezena perde a vogal final: <em lang="it">ventuno, quarantotto</em>, nunca <em lang="it">ventiuno, quarantaotto</em>.
+
+es: <strong><span lang="it">Tre</span> lleva tilde.</strong> Al final de un número largo se escribe <em lang="it">tré</em>: <em lang="it">ventitré, trentatré, centotré</em>. Sola, en cambio, <em lang="it">tre</em> no lleva tilde.
+pt: <strong><span lang="it">Tre</span> leva acento.</strong> No fim de um número longo se escreve <em lang="it">tré</em>: <em lang="it">ventitré, trentatré, centotré</em>. Sozinho, ao contrário, <em lang="it">tre</em> não tem acento.
+
+es: Centenas, miles y millones
+pt: Centenas, milhares e milhões
+
+es: También los números grandes se escriben en una sola palabra, de la parte más grande a la más pequeña: <em lang="it">245 = duecentoquarantacinque</em>, <em lang="it">1998 = millenovecentonovantotto</em>.
+pt: Também os números grandes se escrevem numa palavra só, da parte maior para a menor: <em lang="it">245 = duecentoquarantacinque</em>, <em lang="it">1998 = millenovecentonovantotto</em>.
+
+es: <strong><span lang="it">Cento</span> no cambia, <span lang="it">mille</span> sí.</strong> <em lang="it">Cento</em> queda igual: <em lang="it">duecento, trecento</em>. En plural <em lang="it">mille</em> se convierte en <em lang="it">-mila</em>: <em lang="it">duemila, tremila, diecimila</em>. Delante de <em lang="it">otto</em> y <em lang="it">ottanta</em>, <em lang="it">cento</em> suele perder la <em lang="it">o</em>: <em lang="it">centotto, centottanta</em>.
+pt: <strong><span lang="it">Cento</span> não muda, <span lang="it">mille</span> sim.</strong> <em lang="it">Cento</em> fica igual: <em lang="it">duecento, trecento</em>. No plural <em lang="it">mille</em> vira <em lang="it">-mila</em>: <em lang="it">duemila, tremila, diecimila</em>. Antes de <em lang="it">otto</em> e <em lang="it">ottanta</em>, <em lang="it">cento</em> costuma perder o <em lang="it">o</em>: <em lang="it">centotto, centottanta</em>.
+
+es: <strong><span lang="it">Milione</span> y <span lang="it">miliardo</span> llevan <span lang="it">di</span>.</strong> Son sustantivos: tienen plural (<em lang="it">due milioni</em>) y delante de otro sustantivo llevan <em lang="it">di</em>: <em lang="it">un milione di persone</em>. Con <em lang="it">cento</em> y <em lang="it">mille</em> no hace falta: <em lang="it">mille persone</em>.
+pt: <strong><span lang="it">Milione</span> e <span lang="it">miliardo</span> levam <span lang="it">di</span>.</strong> São substantivos: têm plural (<em lang="it">due milioni</em>) e antes de outro substantivo levam <em lang="it">di</em>: <em lang="it">un milione di persone</em>, como «um milhão de pessoas». Com <em lang="it">cento</em> e <em lang="it">mille</em> não é preciso: <em lang="it">mille persone</em>.
+
+es: <strong>Punto para los miles, coma para los decimales.</strong> <em lang="it">1.500</em> se lee <em lang="it">millecinquecento</em> y <em lang="it">2,5</em> se lee <em lang="it">due virgola cinque</em>. En los años no se pone punto: <em lang="it">1998</em>.
+pt: <strong>Ponto para os milhares, vírgula para os decimais</strong>, como no Brasil. <em lang="it">1.500</em> se lê <em lang="it">millecinquecento</em> e <em lang="it">2,5</em> se lê <em lang="it">due virgola cinque</em>. Nos anos não se põe ponto: <em lang="it">1998</em>.
+
+es: Los números ordinales: <span lang="it">primo, secondo, terzo</span>
+pt: Os números ordinais: <span lang="it">primo, secondo, terzo</span>
+
+es: Los ordinales indican el lugar en una serie: <em lang="it">il primo giorno, la seconda strada</em>. Los diez primeros se aprenden de memoria. A partir del 11 se quita la última vocal del número y se añade <em lang="it">-esimo</em>: <em lang="it">undici → undicesimo, venti → ventesimo, cento → centesimo</em>.
+pt: Os ordinais indicam o lugar numa série: <em lang="it">il primo giorno, la seconda strada</em>. Os dez primeiros se aprendem de cor. A partir do 11 tira-se a última vogal do número e acrescenta-se <em lang="it">-esimo</em>: <em lang="it">undici → undicesimo, venti → ventesimo, cento → centesimo</em>.
+
+es: <strong>Son adjetivos.</strong> Concuerdan con el sustantivo, como <em lang="it">rosso</em> o <em lang="it">piccolo</em>: <em lang="it">il terzo piano, la terza volta, i primi giorni, le prime parole</em>.
+pt: <strong>São adjetivos.</strong> Concordam com o substantivo, como <em lang="it">rosso</em> ou <em lang="it">piccolo</em>: <em lang="it">il terzo piano, la terza volta, i primi giorni, le prime parole</em>.
+
+es: <strong>Dos casos especiales.</strong> Cuando el número termina en <em lang="it">tre</em> o <em lang="it">sei</em>, la vocal se mantiene: <em lang="it">ventitreesimo, trentaseiesimo</em>. Por escrito existe también la forma abreviada: <em lang="it">1°</em> (<em lang="it">primo</em>), <em lang="it">1ª</em> (<em lang="it">prima</em>).
+pt: <strong>Dois casos especiais.</strong> Quando o número termina em <em lang="it">tre</em> ou <em lang="it">sei</em>, a vogal fica: <em lang="it">ventitreesimo, trentaseiesimo</em>. Por escrito existe também a forma abreviada: <em lang="it">1°</em> (<em lang="it">primo</em>), <em lang="it">1ª</em> (<em lang="it">prima</em>).
+
+es: Los números de cada día
+pt: Os números do dia a dia
+
+es: <strong>Edad</strong><br> <span lang="it">Quanti anni hai? Ho ventotto anni.</span>
+pt: <strong>Idade</strong><br> <span lang="it">Quanti anni hai? Ho ventotto anni.</span>
+
+es: <strong>Precio</strong><br> <span lang="it">Quanto costa? Costa tre euro e cinquanta.</span>
+pt: <strong>Preço</strong><br> <span lang="it">Quanto costa? Costa tre euro e cinquanta.</span>
+
+es: <strong>En el bar</strong><br> <span lang="it">Due cappuccini e un cornetto, per favore.</span>
+pt: <strong>No bar</strong><br> <span lang="it">Due cappuccini e un cornetto, per favore.</span>
+
+es: <strong>¿Cuántas personas?</strong><br> <span lang="it">Quanti siete? Siamo in quattro.</span>
+pt: <strong>Quantas pessoas?</strong><br> <span lang="it">Quanti siete? Siamo in quattro.</span>
+
+es: <strong>Año</strong><br> <span lang="it">Mia nonna è nata nel 1948: nel millenovecentoquarantotto.</span>
+pt: <strong>Ano</strong><br> <span lang="it">Mia nonna è nata nel 1948: nel millenovecentoquarantotto.</span>
+
+es: <strong>Cuentas</strong><br> <span lang="it">Due più tre fa cinque. Dieci meno quattro fa sei.</span>
+pt: <strong>Contas</strong><br> <span lang="it">Due più tre fa cinque. Dieci meno quattro fa sei.</span>
+
+es: <strong>Porcentaje</strong><br> <span lang="it">Oggi c’è lo sconto del 20%: del venti per cento.</span>
+pt: <strong>Porcentagem</strong><br> <span lang="it">Oggi c’è lo sconto del 20%: del venti per cento.</span>
+
+es: <strong>Decimales</strong><br> <span lang="it">Ho la febbre: trentotto virgola due (38,2).</span>
+pt: <strong>Decimais</strong><br> <span lang="it">Ho la febbre: trentotto virgola due (38,2).</span>
+
+es: <strong>La edad se dice con <span lang="it">avere</span>:</strong> <em lang="it">ho vent’anni</em>, no <em lang="it">sono venti anni</em>.
+pt: <strong>A idade se diz com <span lang="it">avere</span>:</strong> <em lang="it">ho vent’anni</em> (tenho vinte anos), nunca <em lang="it">sono venti anni</em>.
+
+es: <strong><span lang="it">Uno</span> delante de un sustantivo</strong> cambia como el artículo: <em lang="it">un cornetto, una pizza, uno zaino</em>. <em lang="it">Euro</em> no cambia en plural (<em lang="it">un euro, dieci euro</em>) y con los precios normalmente no se dice <em lang="it">centesimi</em>: <em lang="it">3,50 € = tre euro e cinquanta</em>.
+pt: <strong><span lang="it">Uno</span> antes de um substantivo</strong> muda como o artigo: <em lang="it">un cornetto, una pizza, uno zaino</em>. <em lang="it">Euro</em> não muda no plural (<em lang="it">un euro, dieci euro</em>) e com os preços normalmente não se diz <em lang="it">centesimi</em>: <em lang="it">3,50 € = tre euro e cinquanta</em>.
+
+es: <strong>Incorrecto: <span lang="it">ventiuno.</span></strong> Correcto: <span lang="it">ventuno.</span>
+pt: <strong>Errado: <span lang="it">ventiuno.</span></strong> Correto: <span lang="it">ventuno.</span>
+
+es: <strong>Incorrecto: <span lang="it">trentaotto.</span></strong> Correcto: <span lang="it">trentotto.</span>
+pt: <strong>Errado: <span lang="it">trentaotto.</span></strong> Correto: <span lang="it">trentotto.</span>
+
+es: <strong>Incorrecto: <span lang="it">ventitre.</span></strong> Correcto: <span lang="it">ventitré.</span>
+pt: <strong>Errado: <span lang="it">ventitre.</span></strong> Correto: <span lang="it">ventitré.</span>
+
+es: <strong>Incorrecto: <span lang="it">dieciotto.</span></strong> Correcto: <span lang="it">diciotto.</span>
+pt: <strong>Errado: <span lang="it">dieciotto.</span></strong> Correto: <span lang="it">diciotto.</span>
+
+es: <strong>Incorrecto: <span lang="it">duemille euro.</span></strong> Correcto: <span lang="it">duemila euro.</span>
+pt: <strong>Errado: <span lang="it">duemille euro.</span></strong> Correto: <span lang="it">duemila euro.</span>
+
+es: <strong>Incorrecto: <span lang="it">un milione persone.</span></strong> Correcto: <span lang="it">un milione di persone.</span>
+pt: <strong>Errado: <span lang="it">un milione persone.</span></strong> Correto: <span lang="it">un milione di persone.</span>
+
+es: <strong>Incorrecto: <span lang="it">sono 25 anni.</span></strong> Correcto: <span lang="it">ho 25 anni.</span>
+pt: <strong>Errado: <span lang="it">sono 25 anni.</span></strong> Correto: <span lang="it">ho 25 anni.</span>
+
+es: <strong>Incorrecto: <span lang="it">la terzo volta.</span></strong> Correcto: <span lang="it">la terza volta.</span>
+pt: <strong>Errado: <span lang="it">la terzo volta.</span></strong> Correto: <span lang="it">la terza volta.</span>
+
+es: Parte 1 · Del 0 al 100
+pt: Parte 1 · Do 0 ao 100
+
+es: Escribe en letras el número entre paréntesis.
+pt: Escreva por extenso o número entre parênteses.
+
+es: Parte 2 · Números grandes y precios
+pt: Parte 2 · Números grandes e preços
+
+es: Parte 3 · Números ordinales
+pt: Parte 3 · Números ordinais
+
+es: Escribe el número ordinal. Fíjate en el sustantivo: ¿masculino o femenino?
+pt: Escreva o número ordinal. Olhe o substantivo: masculino ou feminino?
+
+es: Los números en italiano | gramática italiana A1 con ejercicios
+pt: Os números em italiano | gramática italiana A1 com exercícios
+
+es: Los números en italiano explicados fácil: del 0 al 20, ventuno y ventotto, cento, mille y duemila, un milione di, los ordinales (primo, secondo, terzo) y 30 ejercicios.
+pt: Os números em italiano explicados de forma simples: do 0 ao 20, ventuno e ventotto, cento, mille e duemila, un milione di, os ordinais (primo, secondo, terzo) e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / La hora en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / As horas em italiano
+
+es: Preguntar y decir la hora, quedar con alguien, leer el horario de un tren. Aquí tienes las reglas, las partes del día y 30 ejercicios.
+pt: Perguntar e dizer as horas, marcar um encontro, ler o horário de um trem. Aqui estão as regras, as partes do dia e 30 exercícios.
+
+es: Decir la hora
+pt: Dizer as horas
+
+es: Minutos
+pt: Minutos
+
+es: ¿A qué hora?
+pt: A que horas?
+
+es: Formato de 24 horas
+pt: Formato de 24 horas
+
+es: Preguntar y decir la hora
+pt: Perguntar e dizer as horas
+
+es: Para preguntar la hora hay dos preguntas, y las dos son correctas: <em lang="it">Che ore sono?</em> y <em lang="it">Che ora è?</em> En la respuesta usamos <em lang="it">essere</em> y el artículo femenino, porque pensamos en la palabra <em lang="it">ore</em> (horas): <em lang="it">sono le tre</em>, igual que «son las tres».
+pt: Para perguntar as horas há duas perguntas, e as duas estão certas: <em lang="it">Che ore sono?</em> e <em lang="it">Che ora è?</em> Na resposta usamos <em lang="it">essere</em> e o artigo feminino, porque pensamos na palavra <em lang="it">ore</em> (horas): <em lang="it">sono le tre</em>. Em português dizemos «são três horas», sem artigo; em italiano o artigo é obrigatório.
+
+es: Hora
+pt: Hora
+
+es: En italiano
+pt: Em italiano
+
+es: <strong>¿Por qué <span lang="it">è l’una</span> pero <span lang="it">sono le due</span>?</strong> Como en español: la una es una sola hora, así que el verbo va en singular (<em lang="it">è l’una</em>). A partir de las dos hay más de una hora y el verbo va en plural: <em lang="it">sono le due, sono le dieci</em>.
+pt: <strong>Por que <span lang="it">è l’una</span> mas <span lang="it">sono le due</span>?</strong> Como em português: uma hora é uma só, então o verbo fica no singular (<em lang="it">è l’una</em>, «é uma hora»). A partir das duas há mais de uma hora e o verbo vai para o plural: <em lang="it">sono le due, sono le dieci</em>.
+
+es: <strong><span lang="it">Mezzogiorno</span> (mediodía) y <span lang="it">mezzanotte</span> (medianoche)</strong> no llevan artículo: <em lang="it">è mezzogiorno, è mezzanotte</em>. Para las 12:00 también se dice <em lang="it">sono le dodici</em>.
+pt: <strong><span lang="it">Mezzogiorno</span> (meio-dia) e <span lang="it">mezzanotte</span> (meia-noite)</strong> não levam artigo: <em lang="it">è mezzogiorno, è mezzanotte</em>. Para 12:00 também se diz <em lang="it">sono le dodici</em>.
+
+es: Los minutos: <span lang="it">e, meno, un quarto, mezza</span>
+pt: Os minutos: <span lang="it">e, meno, un quarto, mezza</span>
+
+es: Después de la hora se añaden los minutos con <em lang="it">e</em> (y). Pasada la media hora también se puede decir cuántos minutos faltan para la hora siguiente, con <em lang="it">meno</em> (menos).
+pt: Depois da hora acrescentam-se os minutos com <em lang="it">e</em> (e). Passada a meia hora também se pode dizer quantos minutos faltam para a hora seguinte, com <em lang="it">meno</em> (menos).
+
+es: O también
+pt: Ou também
+
+es: <strong>¿<span lang="it">Mezza</span> o <span lang="it">mezzo</span>?</strong> Las dos son correctas: <em lang="it">le tre e mezza</em>, <em lang="it">le tre e mezzo</em>. Con el cuarto, en cambio, hace falta <em lang="it">un</em>: <em lang="it">le tre e un quarto</em>.
+pt: <strong><span lang="it">Mezza</span> ou <span lang="it">mezzo</span>?</strong> As duas estão certas: <em lang="it">le tre e mezza</em>, <em lang="it">le tre e mezzo</em> (três e meia). Com o quarto, ao contrário, é preciso <em lang="it">un</em>: <em lang="it">le tre e un quarto</em>.
+
+es: <strong><span lang="it">Meno</span> significa que faltan minutos.</strong> <em lang="it">Sono le quattro meno venti</em> = <em lang="it">mancano venti minuti alle quattro</em> (faltan veinte para las cuatro). Normalmente se usa <em lang="it">meno</em> cuando faltan 20 minutos o menos.
+pt: <strong><span lang="it">Meno</span> significa que faltam minutos.</strong> <em lang="it">Sono le quattro meno venti</em> = <em lang="it">mancano venti minuti alle quattro</em> (faltam vinte para as quatro). Normalmente se usa <em lang="it">meno</em> quando faltam 20 minutos ou menos.
+
+es: ¿A qué hora? <span lang="it">Alle, all’, a mezzogiorno</span>
+pt: A que horas? <span lang="it">Alle, all’, a mezzogiorno</span>
+
+es: Para decir cuándo pasa algo usamos <em lang="it">a</em> + artículo: <em lang="it">alle</em> (<em lang="it">a + le</em>) con casi todas las horas y <em lang="it">all’</em> (<em lang="it">a + l’</em>) con la una. Con <em lang="it">mezzogiorno</em> y <em lang="it">mezzanotte</em> basta <em lang="it">a</em>.
+pt: Para dizer quando algo acontece usamos <em lang="it">a</em> + artigo: <em lang="it">alle</em> (<em lang="it">a + le</em>) com quase todas as horas e <em lang="it">all’</em> (<em lang="it">a + l’</em>) com uma hora. É como o nosso «às» (a + as). Com <em lang="it">mezzogiorno</em> e <em lang="it">mezzanotte</em> basta <em lang="it">a</em>.
+
+es: <strong>Pregunta</strong><br> <span lang="it">A che ora comincia il film?</span>
+pt: <strong>Pergunta</strong><br> <span lang="it">A che ora comincia il film?</span>
+
+es: <strong><span lang="it">Alle</span> + hora</strong><br> <span lang="it">Il film comincia alle nove.</span>
+pt: <strong><span lang="it">Alle</span> + hora</strong><br> <span lang="it">Il film comincia alle nove.</span>
+
+es: <strong>De… a…</strong><br> <span lang="it">Lavoro dalle nove alle cinque.</span>
+pt: <strong>Das… às…</strong><br> <span lang="it">Lavoro dalle nove alle cinque.</span>
+
+es: <strong>Más o menos</strong><br> <span lang="it">Arrivo verso le otto.</span>
+pt: <strong>Mais ou menos</strong><br> <span lang="it">Arrivo verso le otto.</span>
+
+es: <strong>En punto</strong><br> <span lang="it">Il treno parte alle sette in punto.</span>
+pt: <strong>Em ponto</strong><br> <span lang="it">Il treno parte alle sette in punto.</span>
+
+es: <strong>Con retraso</strong><br> <span lang="it">Scusa, sono in ritardo di dieci minuti.</span>
+pt: <strong>Atrasado</strong><br> <span lang="it">Scusa, sono in ritardo di dieci minuti.</span>
+
+es: <strong>¿<span lang="it">Che ore sono?</span> o <span lang="it">A che ora?</span></strong> <em lang="it">Che ore sono?</em> pregunta la hora de ahora: <em lang="it">sono le otto</em>. <em lang="it">A che ora…?</em> pregunta cuándo pasa algo: <em lang="it">alle otto</em>.
+pt: <strong><span lang="it">Che ore sono?</span> ou <span lang="it">A che ora?</span></strong> <em lang="it">Che ore sono?</em> pergunta a hora de agora: <em lang="it">sono le otto</em>. <em lang="it">A che ora…?</em> pergunta quando algo acontece: <em lang="it">alle otto</em>.
+
+es: La hora de cada día y la hora oficial
+pt: A hora do dia a dia e a hora oficial
+
+es: Con amigos y familia se usan las horas del 1 al 12 y, si hace falta, se añade la parte del día: <em lang="it">le otto di mattina, le otto di sera</em>. En los horarios oficiales (trenes, tiendas, oficinas, televisión) se usan las 24 horas y los minutos se dicen con el número.
+pt: Com amigos e família se usam as horas de 1 a 12 e, se for preciso, acrescenta-se a parte do dia: <em lang="it">le otto di mattina, le otto di sera</em>. Nos horários oficiais (trens, lojas, escritórios, televisão) se usam as 24 horas e os minutos se dizem com o número.
+
+es: En el día a día
+pt: No dia a dia
+
+es: Horario oficial
+pt: Horário oficial
+
+es: <strong>En la hora oficial, nada de <span lang="it">quarto</span>, <span lang="it">mezza</span> ni <span lang="it">meno</span>.</strong> El tren de las 17:45 sale <em lang="it">alle diciassette e quarantacinque</em>, no <em lang="it">alle sei meno un quarto</em>.
+pt: <strong>Na hora oficial, nada de <span lang="it">quarto</span>, <span lang="it">mezza</span> nem <span lang="it">meno</span>.</strong> O trem das 17:45 sai <em lang="it">alle diciassette e quarantacinque</em>, não <em lang="it">alle sei meno un quarto</em>.
+
+es: Las partes del día
+pt: As partes do dia
+
+es: Parte del día
+pt: Parte do dia
+
+es: <strong><span lang="it">Di mattina, del pomeriggio, di sera, di notte</span>.</strong> Con la hora se dice <em lang="it">le otto di mattina</em> (o <em lang="it">del mattino</em>), <em lang="it">le tre del pomeriggio</em>, <em lang="it">le nove di sera</em>, <em lang="it">le due di notte</em>. Las horas de la tabla son orientativas.
+pt: <strong><span lang="it">Di mattina, del pomeriggio, di sera, di notte</span>.</strong> Com a hora se diz <em lang="it">le otto di mattina</em> (ou <em lang="it">del mattino</em>), <em lang="it">le tre del pomeriggio</em>, <em lang="it">le nove di sera</em>, <em lang="it">le due di notte</em>. As horas da tabela são aproximadas.
+
+es: <strong><span lang="it">Buongiorno, buonasera, buonanotte</span>.</strong> <em lang="it">Buongiorno</em> se usa por la mañana y hasta primera hora de la tarde; <em lang="it">buonasera</em>, de la tarde en adelante. <em lang="it">Buonanotte</em> solo se dice al irse a dormir o al despedirse muy tarde por la noche.
+pt: <strong><span lang="it">Buongiorno, buonasera, buonanotte</span>.</strong> <em lang="it">Buongiorno</em> se usa de manhã e até o começo da tarde; <em lang="it">buonasera</em>, da tarde em diante. <em lang="it">Buonanotte</em> só se diz na hora de dormir ou ao se despedir muito tarde da noite. Atenção: não existe um «boa tarde» separado como em português.
+
+es: <strong>Incorrecto: <span lang="it">sono l’una.</span></strong> Correcto: <span lang="it">è l’una.</span>
+pt: <strong>Errado: <span lang="it">sono l’una.</span></strong> Correto: <span lang="it">è l’una.</span>
+
+es: <strong>Incorrecto: <span lang="it">è le tre.</span></strong> Correcto: <span lang="it">sono le tre.</span>
+pt: <strong>Errado: <span lang="it">è le tre.</span></strong> Correto: <span lang="it">sono le tre.</span>
+
+es: <strong>Incorrecto: <span lang="it">sono tre.</span></strong> Correcto: <span lang="it">sono le tre.</span>
+pt: <strong>Errado: <span lang="it">sono tre.</span></strong> Correto: <span lang="it">sono le tre.</span>
+
+es: <strong>Incorrecto: <span lang="it">alle una.</span></strong> Correcto: <span lang="it">all’una.</span>
+pt: <strong>Errado: <span lang="it">alle una.</span></strong> Correto: <span lang="it">all’una.</span>
+
+es: <strong>Incorrecto: <span lang="it">a le otto.</span></strong> Correcto: <span lang="it">alle otto.</span>
+pt: <strong>Errado: <span lang="it">a le otto.</span></strong> Correto: <span lang="it">alle otto.</span>
+
+es: <strong>Incorrecto: <span lang="it">alle mezzogiorno.</span></strong> Correcto: <span lang="it">a mezzogiorno.</span>
+pt: <strong>Errado: <span lang="it">alle mezzogiorno.</span></strong> Correto: <span lang="it">a mezzogiorno.</span>
+
+es: <strong>Incorrecto: <span lang="it">che ora sono?</span></strong> Correcto: <span lang="it">che ore sono? / che ora è?</span>
+pt: <strong>Errado: <span lang="it">che ora sono?</span></strong> Correto: <span lang="it">che ore sono? / che ora è?</span>
+
+es: <strong>Incorrecto: <span lang="it">le otto di notte (20:00).</span></strong> Correcto: <span lang="it">le otto di sera.</span>
+pt: <strong>Errado: <span lang="it">le otto di notte (20:00).</span></strong> Correto: <span lang="it">le otto di sera.</span>
+
+es: Mira la hora entre paréntesis y completa la respuesta.
+pt: Olhe a hora entre parênteses e complete a resposta.
+
+es: Parte 2 · ¿A qué hora?
+pt: Parte 2 · A que horas?
+
+es: Escribe la palabra que falta.
+pt: Escreva a palavra que falta.
+
+es: Parte 3 · Hora oficial y partes del día
+pt: Parte 3 · Hora oficial e partes do dia
+
+es: Lee la hora y completa la frase.
+pt: Leia a hora e complete a frase.
+
+es: La hora en italiano | gramática italiana A1 con ejercicios
+pt: As horas em italiano | gramática italiana A1 com exercícios
+
+es: La hora en italiano explicada fácil: che ore sono?, è l’una y sono le due, e un quarto, e mezza, meno dieci, a che ora?, alle y all’, el horario oficial y 30 ejercicios.
+pt: As horas em italiano explicadas de forma simples: che ore sono?, è l’una e sono le due, e un quarto, e mezza, meno dieci, a che ora?, alle e all’, o horário oficial e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Días, meses y fechas en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Dias, meses e datas em italiano
+
+es: Los días de la semana, los meses y las estaciones, cómo se dice la fecha y las palabras para decir cuándo: ayer, hoy, mañana, hace y dentro de. Con 30 ejercicios.
+pt: Os dias da semana, os meses e as estações, como se diz a data e as palavras para dizer quando: ontem, hoje, amanhã, há e daqui a. Com 30 exercícios.
+
+es: Días
+pt: Dias
+
+es: Meses y estaciones
+pt: Meses e estações
+
+es: Fechas
+pt: Datas
+
+es: Ayer, hoy, mañana
+pt: Ontem, hoje, amanhã
+
+es: Los días de la semana
+pt: Os dias da semana
+
+es: En Italia la semana empieza el lunes. Los días se escriben con minúscula, como en español, y son todos masculinos salvo <em lang="it">la domenica</em> (el domingo). De <em lang="it">lunedì</em> a <em lang="it">venerdì</em> llevan tilde en la última sílaba.
+pt: Na Itália a semana começa na segunda-feira. Os dias se escrevem com letra minúscula, como em português, e são todos masculinos, menos <em lang="it">la domenica</em> (o domingo): o contrário do português, onde quase todos são femininos. De <em lang="it">lunedì</em> a <em lang="it">venerdì</em> levam acento na última sílaba.
+
+es: Día
+pt: Dia
+
+es: Abreviatura
+pt: Abreviatura
+
+es: <strong>Un día concreto</strong><br> <span lang="it">Lunedì vado dal medico.</span>
+pt: <strong>Um dia concreto</strong><br> <span lang="it">Lunedì vado dal medico.</span>
+
+es: <strong>Todas las semanas</strong><br> <span lang="it">Il lunedì vado in palestra.</span>
+pt: <strong>Toda semana</strong><br> <span lang="it">Il lunedì vado in palestra.</span>
+
+es: <strong><span lang="it">Domenica</span> es femenino</strong><br> <span lang="it">Questa domenica andiamo al lago.</span>
+pt: <strong><span lang="it">Domenica</span> é feminino</strong><br> <span lang="it">Questa domenica andiamo al lago.</span>
+
+es: <strong>Plural</strong><br> <span lang="it">Il museo è chiuso tutti i lunedì.</span>
+pt: <strong>Plural</strong><br> <span lang="it">Il museo è chiuso tutti i lunedì.</span>
+
+es: <strong>¿Con o sin artículo?</strong> Sin artículo es un solo día, el más cercano: <em lang="it">sabato vado al cinema</em> (este sábado). Con artículo es una costumbre, todas las semanas: <em lang="it">il sabato vado al cinema</em> (los sábados). Delante del día no hace falta ninguna preposición: <em lang="it">ci vediamo venerdì</em> (nos vemos el viernes).
+pt: <strong>Com ou sem artigo?</strong> Sem artigo é um dia só, o mais próximo: <em lang="it">sabato vado al cinema</em> (este sábado). Com artigo é um hábito, toda semana: <em lang="it">il sabato vado al cinema</em> (aos sábados). Antes do dia não é preciso nenhuma preposição: <em lang="it">ci vediamo venerdì</em> (a gente se vê na sexta).
+
+es: <strong>En plural</strong> los días con tilde no cambian: <em lang="it">il lunedì, i lunedì</em>. <em lang="it">Sabato</em> y <em lang="it">domenica</em>, en cambio, sí: <em lang="it">i sabati, le domeniche</em>.
+pt: <strong>No plural</strong> os dias com acento não mudam: <em lang="it">il lunedì, i lunedì</em>. <em lang="it">Sabato</em> e <em lang="it">domenica</em>, ao contrário, mudam: <em lang="it">i sabati, le domeniche</em>.
+
+es: <strong>¿De dónde vienen los nombres?</strong> Como en español: <em lang="it">lunedì</em> es el día de la Luna, <em lang="it">martedì</em> de Marte, <em lang="it">mercoledì</em> de Mercurio, <em lang="it">giovedì</em> de Júpiter y <em lang="it">venerdì</em> de Venus; <em lang="it">-dì</em> viene del latín <em lang="la">dies</em>, día. <em lang="it">Sabato</em> viene del hebreo <em>shabbat</em> y <em lang="it">domenica</em> del latín <em lang="la">dies dominica</em>, el día del Señor.
+pt: <strong>De onde vêm os nomes?</strong> Diferente do português (segunda-feira, terça-feira…), o italiano manteve os nomes dos astros: <em lang="it">lunedì</em> é o dia da Lua, <em lang="it">martedì</em> de Marte, <em lang="it">mercoledì</em> de Mercúrio, <em lang="it">giovedì</em> de Júpiter e <em lang="it">venerdì</em> de Vênus; <em lang="it">-dì</em> vem do latim <em lang="la">dies</em>, dia. <em lang="it">Sabato</em> vem do hebraico <em>shabbat</em> e <em lang="it">domenica</em> do latim <em lang="la">dies dominica</em>, o dia do Senhor, como «sábado» e «domingo».
+
+es: Los meses y las estaciones
+pt: Os meses e as estações
+
+es: También los meses se escriben con minúscula y son todos masculinos: <em lang="it">un gennaio freddo, un agosto caldo</em>. Las estaciones son cuatro.
+pt: Os meses também se escrevem com minúscula e são todos masculinos: <em lang="it">un gennaio freddo, un agosto caldo</em>. As estações são quatro.
+
+es: Mes
+pt: Mês
+
+es: Estación
+pt: Estação
+
+es: Meses
+pt: Meses
+
+es: <strong><span lang="it">In</span> o <span lang="it">a</span> + mes</strong><br> <span lang="it">In agosto molti negozi chiudono. A maggio fa già caldo.</span>
+pt: <strong><span lang="it">In</span> ou <span lang="it">a</span> + mês</strong><br> <span lang="it">In agosto molti negozi chiudono. A maggio fa già caldo.</span>
+
+es: <strong>Las estaciones</strong><br> <span lang="it">In estate andiamo al mare. D’inverno scio in montagna.</span>
+pt: <strong>As estações</strong><br> <span lang="it">In estate andiamo al mare. D’inverno scio in montagna.</span>
+
+es: <strong>De… a…</strong><br> <span lang="it">Il corso va da ottobre a giugno.</span>
+pt: <strong>De… a…</strong><br> <span lang="it">Il corso va da ottobre a giugno.</span>
+
+es: <strong>¿<span lang="it">In</span> o <span lang="it">a</span>?</strong> Con los meses valen las dos: <em lang="it">in agosto</em> o <em lang="it">ad agosto</em> (<em lang="it">ad</em> delante de vocal), <em lang="it">a maggio</em> o <em lang="it">in maggio</em>. Con las estaciones se dice <em lang="it">in estate, in inverno</em>, pero también <em lang="it">d’estate, d’inverno</em>.
+pt: <strong><span lang="it">In</span> ou <span lang="it">a</span>?</strong> Com os meses valem as duas: <em lang="it">in agosto</em> ou <em lang="it">ad agosto</em> (<em lang="it">ad</em> antes de vogal), <em lang="it">a maggio</em> ou <em lang="it">in maggio</em>. Com as estações se diz <em lang="it">in estate, in inverno</em>, mas também <em lang="it">d’estate, d’inverno</em>.
+
+es: <strong>El género de las estaciones.</strong> <em lang="it">La primavera</em> y <em lang="it">l’estate</em> (el verano) son femeninas; <em lang="it">l’autunno</em> y <em lang="it">l’inverno</em>, masculinas. Las estaciones astronómicas empiezan hacia el día 21 del mes (<em lang="it">il 21 marzo</em>), pero en la vida diaria se piensa en los meses de la tabla.
+pt: <strong>O gênero das estações.</strong> <em lang="it">La primavera</em> e <em lang="it">l’estate</em> (o verão) são femininas; <em lang="it">l’autunno</em> e <em lang="it">l’inverno</em>, masculinas. As estações astronômicas começam por volta do dia 21 do mês (<em lang="it">il 21 marzo</em>), mas no dia a dia se pensa nos meses da tabela. Lembre que na Itália as estações são as do hemisfério norte: <em lang="it">agosto</em> é pleno verão.
+
+es: Cómo se dice la fecha
+pt: Como se diz a data
+
+es: La fecha se dice así: artículo, día, mes y año, siempre en este orden. El día es un número normal (<em lang="it">il tre maggio</em>); solo el primer día del mes usa el ordinal: <em lang="it">il primo maggio</em>.
+pt: A data se diz assim: artigo, dia, mês e ano, sempre nesta ordem. O dia é um número normal (<em lang="it">il tre maggio</em>); só o primeiro dia do mês usa o ordinal: <em lang="it">il primo maggio</em>, como o nosso «primeiro de maio».
+
+es: Se escribe
+pt: Escreve-se
+
+es: Se dice
+pt: Diz-se
+
+es: <strong>Pregunta</strong><br> <span lang="it">Che giorno è oggi? Oggi è martedì tre marzo.</span>
+pt: <strong>Pergunta</strong><br> <span lang="it">Che giorno è oggi? Oggi è martedì tre marzo.</span>
+
+es: <strong>Pregunta informal</strong><br> <span lang="it">Quanti ne abbiamo oggi? Ne abbiamo tre.</span>
+pt: <strong>Pergunta informal</strong><br> <span lang="it">Quanti ne abbiamo oggi? Ne abbiamo tre.</span>
+
+es: <strong>Día y fecha</strong><br> <span lang="it">Il concerto è sabato 14 giugno.</span>
+pt: <strong>Dia e data</strong><br> <span lang="it">Il concerto è sabato 14 giugno.</span>
+
+es: <strong>Cumpleaños</strong><br> <span lang="it">Il mio compleanno è il 2 aprile.</span>
+pt: <strong>Aniversário</strong><br> <span lang="it">Il mio compleanno è il 2 aprile.</span>
+
+es: <strong>Año</strong><br> <span lang="it">Siamo arrivati in Italia nel 2019.</span>
+pt: <strong>Ano</strong><br> <span lang="it">Siamo arrivati in Italia nel 2019.</span>
+
+es: <strong>En una carta</strong><br> <span lang="it">Roma, 3 marzo 2026</span>
+pt: <strong>Numa carta</strong><br> <span lang="it">Roma, 3 marzo 2026</span>
+
+es: <strong>Primero el día y luego el mes</strong>, como en español: <em lang="it">05/12</em> es <em lang="it">il cinque dicembre</em>.
+pt: <strong>Primeiro o dia e depois o mês</strong>, como no Brasil: <em lang="it">05/12</em> é <em lang="it">il cinque dicembre</em>.
+
+es: <strong><span lang="it">L’otto</span> y <span lang="it">l’undici</span>.</strong> <em lang="it">Otto</em> y <em lang="it">undici</em> empiezan por vocal, así que el artículo se convierte en <em lang="it">l’</em>: <em lang="it">l’otto marzo, l’undici settembre</em>.
+pt: <strong><span lang="it">L’otto</span> e <span lang="it">l’undici</span>.</strong> <em lang="it">Otto</em> e <em lang="it">undici</em> começam com vogal, então o artigo vira <em lang="it">l’</em>: <em lang="it">l’otto marzo, l’undici settembre</em>.
+
+es: <strong>Los años llevan artículo:</strong> <em lang="it">nel 2019</em> (<em lang="it">in + il</em>, en 2019), <em lang="it">dal 2020 al 2024</em>. En la fecha completa, en cambio, el año va después del mes, sin artículo y sin <em lang="it">di</em>: <em lang="it">il 3 marzo 2026</em>. En una carta o un documento tampoco el día lleva artículo: <em lang="it">Roma, 3 marzo 2026</em>.
+pt: <strong>Os anos levam artigo:</strong> <em lang="it">nel 2019</em> (<em lang="it">in + il</em>, em 2019), <em lang="it">dal 2020 al 2024</em>. Na data completa, ao contrário, o ano vem depois do mês, sem artigo e sem <em lang="it">di</em>: <em lang="it">il 3 marzo 2026</em> (3 de março de 2026). Numa carta ou num documento nem o dia leva artigo: <em lang="it">Roma, 3 marzo 2026</em>.
+
+es: Pasado
+pt: Passado
+
+es: <strong><span lang="it">Stamattina</span> y <span lang="it">stasera</span></strong> son una sola palabra: <em lang="it">questa mattina → stamattina</em> (esta mañana), <em lang="it">questa sera → stasera</em> (esta tarde o esta noche). Del mismo modo se dice <em lang="it">stanotte</em> (esta noche, durante la noche).
+pt: <strong><span lang="it">Stamattina</span> e <span lang="it">stasera</span></strong> são uma palavra só: <em lang="it">questa mattina → stamattina</em> (hoje de manhã), <em lang="it">questa sera → stasera</em> (hoje à tarde ou à noite). Do mesmo jeito se diz <em lang="it">stanotte</em> (esta noite, durante a noite).
+
+es: <strong><span lang="it">Scorso</span> (pasado) y <span lang="it">prossimo</span> (próximo) concuerdan con el sustantivo:</strong> <em lang="it">il mese scorso, la settimana scorsa</em>. <em lang="it">Prossimo</em> también puede ir delante: <em lang="it">la prossima settimana</em> = <em lang="it">la settimana prossima</em>.
+pt: <strong><span lang="it">Scorso</span> (passado) e <span lang="it">prossimo</span> (próximo) concordam com o substantivo:</strong> <em lang="it">il mese scorso, la settimana scorsa</em>. <em lang="it">Prossimo</em> também pode vir antes: <em lang="it">la prossima settimana</em> = <em lang="it">la settimana prossima</em>.
+
+es: ¿Con qué frecuencia?
+pt: Com que frequência?
+
+es: <strong>Todos los días</strong><br> <span lang="it">Studio italiano tutti i giorni.</span>
+pt: <strong>Todos os dias</strong><br> <span lang="it">Studio italiano tutti i giorni.</span>
+
+es: <strong>A la semana</strong><br> <span lang="it">Vado in piscina due volte alla settimana.</span>
+pt: <strong>Por semana</strong><br> <span lang="it">Vado in piscina due volte alla settimana.</span>
+
+es: <strong>Al mes</strong><br> <span lang="it">Una volta al mese ceniamo al ristorante.</span>
+pt: <strong>Por mês</strong><br> <span lang="it">Una volta al mese ceniamo al ristorante.</span>
+
+es: <strong>Nunca</strong><br> <span lang="it">La sera non bevo mai caffè.</span>
+pt: <strong>Nunca</strong><br> <span lang="it">La sera non bevo mai caffè.</span>
+
+es: <em lang="it">Fa</em> (hace) mira hacia atrás, al pasado, y va después de la expresión de tiempo: <em lang="it">due anni fa</em> (hace dos años). <em lang="it">Tra</em> (o <em lang="it">fra</em>: son iguales) mira hacia delante, al futuro, y va antes: <em lang="it">tra due anni</em> (dentro de dos años).
+pt: <em lang="it">Fa</em> (há, atrás) olha para trás, para o passado, e vem depois da expressão de tempo: <em lang="it">due anni fa</em> (dois anos atrás, há dois anos). <em lang="it">Tra</em> (ou <em lang="it">fra</em>: são iguais) olha para a frente, para o futuro, e vem antes: <em lang="it">tra due anni</em> (daqui a dois anos).
+
+es: <strong>En el pasado</strong><br> <span lang="it">Sono arrivato in Italia tre mesi fa.</span>
+pt: <strong>No passado</strong><br> <span lang="it">Sono arrivato in Italia tre mesi fa.</span>
+
+es: <strong>En el futuro</strong><br> <span lang="it">Parto tra una settimana.</span>
+pt: <strong>No futuro</strong><br> <span lang="it">Parto tra una settimana.</span>
+
+es: <strong><span lang="it">Da</span> + tiempo</strong><br> <span lang="it">Studio italiano da due anni.</span>
+pt: <strong><span lang="it">Da</span> + tempo</strong><br> <span lang="it">Studio italiano da due anni.</span>
+
+es: <strong><span lang="it">Da</span> + tiempo, con el presente.</strong> Cuando una acción empezó en el pasado y sigue ahora, se usa el presente con <em lang="it">da</em>: <em lang="it">studio italiano da due anni</em> (estudio italiano desde hace dos años). No se dice <em lang="it">per due anni</em>.
+pt: <strong><span lang="it">Da</span> + tempo, com o presente.</strong> Quando uma ação começou no passado e continua agora, usa-se o presente com <em lang="it">da</em>: <em lang="it">studio italiano da due anni</em> (estudo italiano há dois anos). Não se diz <em lang="it">per due anni</em>.
+
+es: <strong>Incorrecto: <span lang="it">ci vediamo Lunedì.</span></strong> Correcto: <span lang="it">ci vediamo lunedì.</span>
+pt: <strong>Errado: <span lang="it">ci vediamo Lunedì.</span></strong> Correto: <span lang="it">ci vediamo lunedì.</span>
+
+es: <strong>Incorrecto: <span lang="it">in Gennaio.</span></strong> Correcto: <span lang="it">in gennaio. / a gennaio.</span>
+pt: <strong>Errado: <span lang="it">in Gennaio.</span></strong> Correto: <span lang="it">in gennaio. / a gennaio.</span>
+
+es: <strong>Incorrecto: <span lang="it">il uno maggio.</span></strong> Correcto: <span lang="it">il primo maggio.</span>
+pt: <strong>Errado: <span lang="it">il uno maggio.</span></strong> Correto: <span lang="it">il primo maggio.</span>
+
+es: <strong>Incorrecto: <span lang="it">il otto marzo.</span></strong> Correcto: <span lang="it">l’otto marzo.</span>
+pt: <strong>Errado: <span lang="it">il otto marzo.</span></strong> Correto: <span lang="it">l’otto marzo.</span>
+
+es: <strong>Incorrecto: <span lang="it">in 2026.</span></strong> Correcto: <span lang="it">nel 2026.</span>
+pt: <strong>Errado: <span lang="it">in 2026.</span></strong> Correto: <span lang="it">nel 2026.</span>
+
+es: <strong>Incorrecto: <span lang="it">fa tre giorni.</span></strong> Correcto: <span lang="it">tre giorni fa.</span>
+pt: <strong>Errado: <span lang="it">fa tre giorni.</span></strong> Correto: <span lang="it">tre giorni fa.</span>
+
+es: <strong>Incorrecto: <span lang="it">il domenica.</span></strong> Correcto: <span lang="it">la domenica.</span>
+pt: <strong>Errado: <span lang="it">il domenica.</span></strong> Correto: <span lang="it">la domenica.</span>
+
+es: <strong>Incorrecto: <span lang="it">studio italiano per due anni (e studio ancora).</span></strong> Correcto: <span lang="it">studio italiano da due anni.</span>
+pt: <strong>Errado: <span lang="it">studio italiano per due anni (e studio ancora).</span></strong> Correto: <span lang="it">studio italiano da due anni.</span>
+
+es: Parte 1 · Días, meses y estaciones
+pt: Parte 1 · Dias, meses e estações
+
+es: Parte 2 · Las fechas
+pt: Parte 2 · As datas
+
+es: Completa la fecha. Los números se escriben en letras.
+pt: Complete a data. Os números se escrevem por extenso.
+
+es: Parte 3 · Ayer, hoy, mañana, <span lang="it">fa</span> y <span lang="it">tra</span>
+pt: Parte 3 · Ontem, hoje, amanhã, <span lang="it">fa</span> e <span lang="it">tra</span>
+
+es: Días, meses y fechas en italiano | gramática italiana A1 con ejercicios
+pt: Dias, meses e datas em italiano | gramática italiana A1 com exercícios
+
+es: Días de la semana, meses y fechas en italiano explicados fácil: lunedì o il lunedì, in agosto, il primo maggio, l’otto marzo, nel 2026, ieri y domani, fa, tra y da, y 30 ejercicios.
+pt: Dias da semana, meses e datas em italiano explicados de forma simples: lunedì ou il lunedì, in agosto, il primo maggio, l’otto marzo, nel 2026, ieri e domani, fa, tra e da, e 30 exercícios.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Gramática</a> / A1 / Los adverbios de frecuencia en italiano
+pt: <a href="§1">Início</a> / <a href="§2">Gramática</a> / A1 / Os advérbios de frequência em italiano
+
+es: ¿Con qué frecuencia haces algo? Aquí tienes los adverbios de frecuencia italianos en orden, del 100% (<span lang="it">sempre</span>) al 0% (<span lang="it">mai</span>), dónde se colocan en la frase, la doble negación <span lang="it">non… mai</span> y 30 ejercicios.
+pt: Com que frequência você faz algo? Aqui estão os advérbios de frequência italianos em ordem, de 100% (<span lang="it">sempre</span>) a 0% (<span lang="it">mai</span>), onde eles ficam na frase, a dupla negação <span lang="it">non… mai</span> e 30 exercícios.
+
+es: La escala
+pt: A escala
+
+es: ¿Cuántas veces?
+pt: Quantas vezes?
+
+es: Del 100% al 0%: la escala
+pt: De 100% a 0%: a escala
+
+es: Los adverbios de frecuencia dicen <strong>cuántas veces</strong> hacemos algo. Aquí están en orden, desde el que vale siempre hasta el que no vale nunca.
+pt: Os advérbios de frequência dizem <strong>quantas vezes</strong> fazemos algo. Aqui estão em ordem, do que vale sempre até o que não vale nunca.
+
+es: Adverbio
+pt: Advérbio
+
+es: Traducción
+pt: Tradução
+
+es: Frecuencia
+pt: Frequência
+
+es: siempre
+pt: sempre
+
+es: casi siempre
+pt: quase sempre
+
+es: normalmente, por lo general
+pt: normalmente, geralmente
+
+es: a menudo
+pt: muitas vezes, com frequência
+
+es: a veces
+pt: às vezes
+
+es: de vez en cuando
+pt: de vez em quando
+
+es: raramente, rara vez
+pt: raramente
+
+es: muy raramente
+pt: muito raramente
+
+es: casi nunca
+pt: quase nunca
+
+es: nunca
+pt: nunca
+
+es: <strong>Los porcentajes son orientativos.</strong> Sirven para recordar el orden: ningún italiano piensa «<span lang="it">spesso</span> = 70%». Entre palabras vecinas (<em lang="it">di solito</em> y <em lang="it">spesso</em>, <em lang="it">a volte</em> y <em lang="it">ogni tanto</em>) la diferencia es pequeña y depende de quién habla.
+pt: <strong>As porcentagens são aproximadas.</strong> Servem para lembrar a ordem: nenhum italiano pensa «<span lang="it">spesso</span> = 70%». Entre palavras vizinhas (<em lang="it">di solito</em> e <em lang="it">spesso</em>, <em lang="it">a volte</em> e <em lang="it">ogni tanto</em>) a diferença é pequena e depende de quem fala.
+
+es: <strong>Palabras con el mismo valor.</strong> <em lang="it">Di solito</em> = <em lang="it">solitamente</em> = <em lang="it">normalmente</em>. <em lang="it">Spesso</em> = <em lang="it">frequentemente</em>, más formal. <em lang="it">A volte</em> = <em lang="it">qualche volta</em>. <em lang="it">Raramente</em> = <em lang="it">di rado</em>.
+pt: <strong>Palavras com o mesmo valor.</strong> <em lang="it">Di solito</em> = <em lang="it">solitamente</em> = <em lang="it">normalmente</em>. <em lang="it">Spesso</em> = <em lang="it">frequentemente</em>, mais formal. <em lang="it">A volte</em> = <em lang="it">qualche volta</em>. <em lang="it">Raramente</em> = <em lang="it">di rado</em>.
+
+es: Dónde se coloca el adverbio
+pt: Onde fica o advérbio
+
+es: Normalmente el adverbio va <strong>justo después del verbo</strong>. <em lang="it">Di solito</em>, <em lang="it">a volte</em>, <em lang="it">qualche volta</em> y <em lang="it">ogni tanto</em> también pueden ir al principio o al final de la frase.
+pt: Normalmente o advérbio vem <strong>logo depois do verbo</strong>. <em lang="it">Di solito</em>, <em lang="it">a volte</em>, <em lang="it">qualche volta</em> e <em lang="it">ogni tanto</em> também podem ficar no começo ou no fim da frase. Atenção: em português dizemos «eu sempre tomo café», mas em italiano é <em lang="it">prendo sempre il caffè</em>.
+
+es: <strong>Después del verbo</strong><br> <span lang="it">Vado spesso al cinema.</span>
+pt: <strong>Depois do verbo</strong><br> <span lang="it">Vado spesso al cinema.</span>
+
+es: <strong>Al principio</strong><br> <span lang="it">Di solito ceno alle otto.</span>
+pt: <strong>No começo</strong><br> <span lang="it">Di solito ceno alle otto.</span>
+
+es: <strong>Al final</strong><br> <span lang="it">Ci vediamo ogni tanto.</span>
+pt: <strong>No fim</strong><br> <span lang="it">Ci vediamo ogni tanto.</span>
+
+es: <strong>Con un verbo reflexivo</strong><br> <span lang="it">Mi alzo sempre alle sette.</span>
+pt: <strong>Com um verbo reflexivo</strong><br> <span lang="it">Mi alzo sempre alle sette.</span>
+
+es: <strong>En <span lang="it">passato prossimo</span></strong><br> <span lang="it">Ho sempre abitato a Milano.</span>
+pt: <strong>No <span lang="it">passato prossimo</span></strong><br> <span lang="it">Ho sempre abitato a Milano.</span>
+
+es: <strong>En <span lang="it">passato prossimo</span></strong> <em lang="it">sempre</em>, <em lang="it">spesso</em> y <em lang="it">mai</em> suelen ir entre el auxiliar y el participio: <em lang="it">ho sempre detto</em> (siempre he dicho), <em lang="it">non sono mai stato</em> (nunca he estado). Los adverbios de varias palabras quedan mejor al principio o al final: <em lang="it">ci siamo visti ogni tanto</em> (nos hemos visto de vez en cuando).
+pt: <strong>No <span lang="it">passato prossimo</span></strong> <em lang="it">sempre</em>, <em lang="it">spesso</em> e <em lang="it">mai</em> costumam ficar entre o auxiliar e o particípio: <em lang="it">ho sempre detto</em> (sempre disse), <em lang="it">non sono mai stato</em> (nunca estive). Os advérbios de várias palavras ficam melhor no começo ou no fim: <em lang="it">ci siamo visti ogni tanto</em> (a gente se viu de vez em quando).
+
+es: <span lang="it">Non… mai</span>: la doble negación
+pt: <span lang="it">Non… mai</span>: a dupla negação
+
+es: Con <em lang="it">mai</em> y <em lang="it">quasi mai</em> el italiano usa <strong>dos negaciones</strong>: <em lang="it">non</em> antes del verbo y <em lang="it">mai</em> después, como «no… nunca» en español. No es un error: es obligatorio.
+pt: Com <em lang="it">mai</em> e <em lang="it">quasi mai</em> o italiano usa <strong>duas negações</strong>: <em lang="it">non</em> antes do verbo e <em lang="it">mai</em> depois, como «não… nunca» em português («não bebo nunca»). Não é um erro: é obrigatório.
+
+es: <strong>En <span lang="it">passato prossimo</span></strong><br> <span lang="it">Non sono mai stato in Sicilia.</span>
+pt: <strong>No <span lang="it">passato prossimo</span></strong><br> <span lang="it">Non sono mai stato in Sicilia.</span>
+
+es: <strong>En las preguntas: alguna vez en la vida</strong><br> <span lang="it">Sei mai stato a Roma?</span>
+pt: <strong>Nas perguntas: alguma vez na vida</strong><br> <span lang="it">Sei mai stato a Roma?</span>
+
+es: <strong>Solo, como respuesta</strong><br> <span lang="it">Bevi il latte? Mai!</span>
+pt: <strong>Sozinho, como resposta</strong><br> <span lang="it">Bevi il latte? Mai!</span>
+
+es: <strong><span lang="it">Non sempre</span>: a veces sí, a veces no</strong><br> <span lang="it">Non sempre ho tempo per cucinare.</span>
+pt: <strong><span lang="it">Non sempre</span>: às vezes sim, às vezes não</strong><br> <span lang="it">Non sempre ho tempo per cucinare.</span>
+
+es: <strong>¿<span lang="it">Mai</span> al principio de la frase?</strong> Solo para dar fuerza, y entonces <em lang="it">non</em> desaparece: <em lang="it">Mai visto una cosa così!</em> (¡Nunca he visto algo así!). En las frases normales se dice <em lang="it">non… mai</em>.
+pt: <strong><span lang="it">Mai</span> no começo da frase?</strong> Só para dar ênfase, e aí o <em lang="it">non</em> desaparece: <em lang="it">Mai visto una cosa così!</em> (Nunca vi uma coisa assim!). Nas frases normais se diz <em lang="it">non… mai</em>.
+
+es: <strong><span lang="it">Non sempre</span> no quiere decir nunca.</strong> <em lang="it">Non sempre ho ragione</em> quiere decir que a veces tengo razón y a veces no. Para el 0% hace falta <em lang="it">mai</em>: <em lang="it">non ho mai ragione</em> (nunca tengo razón).
+pt: <strong><span lang="it">Non sempre</span> não quer dizer nunca.</strong> <em lang="it">Non sempre ho ragione</em> quer dizer que às vezes tenho razão e às vezes não. Para o 0% é preciso <em lang="it">mai</em>: <em lang="it">non ho mai ragione</em> (nunca tenho razão).
+
+es: ¿Cuántas veces? <span lang="it">Ogni giorno, due volte alla settimana</span>
+pt: Quantas vezes? <span lang="it">Ogni giorno, due volte alla settimana</span>
+
+es: Para una frecuencia exacta se usa <em lang="it">una volta</em> (una vez), <em lang="it">due volte</em> (dos veces)… con <em lang="it">al</em>, <em lang="it">alla</em>, <em lang="it">all’</em>, o bien <em lang="it">ogni</em> (cada) y <em lang="it">tutti i</em> / <em lang="it">tutte le</em> (todos los / todas las).
+pt: Para uma frequência exata se usa <em lang="it">una volta</em> (uma vez), <em lang="it">due volte</em> (duas vezes)… com <em lang="it">al</em>, <em lang="it">alla</em>, <em lang="it">all’</em>, ou então <em lang="it">ogni</em> (cada) e <em lang="it">tutti i</em> / <em lang="it">tutte le</em> (todos os / todas as).
+
+es: Expresión
+pt: Expressão
+
+es: <strong><span lang="it">Ogni</span> va con singular, <span lang="it">tutti</span> con plural y artículo:</strong> <em lang="it">ogni giorno</em> = <em lang="it">tutti i giorni</em> (cada día, todos los días), <em lang="it">ogni settimana</em> = <em lang="it">tutte le settimane</em>. También <em lang="it">qualche</em> va con singular: <em lang="it">qualche volta</em>, nunca <em lang="it">qualche volte</em>.
+pt: <strong><span lang="it">Ogni</span> vai com singular, <span lang="it">tutti</span> com plural e artigo:</strong> <em lang="it">ogni giorno</em> = <em lang="it">tutti i giorni</em> (cada dia, todos os dias), <em lang="it">ogni settimana</em> = <em lang="it">tutte le settimane</em>. Também <em lang="it">qualche</em> vai com singular: <em lang="it">qualche volta</em>, nunca <em lang="it">qualche volte</em>.
+
+es: <strong><span lang="it">Al, alla, all’</span></strong> siguen el género de la palabra: <em lang="it">al giorno</em> (al día), <em lang="it">al mese</em> (al mes), <em lang="it">alla settimana</em> (a la semana), <em lang="it">all’anno</em> (al año). Hablando también se oye <em lang="it">due volte a settimana</em>.
+pt: <strong><span lang="it">Al, alla, all’</span></strong> seguem o gênero da palavra: <em lang="it">al giorno</em> (por dia), <em lang="it">al mese</em> (por mês), <em lang="it">alla settimana</em> (por semana), <em lang="it">all’anno</em> (por ano). Falando também se ouve <em lang="it">due volte a settimana</em>.
+
+es: <strong>Incorrecto: <span lang="it">Io mai bevo il caffè.</span></strong> Correcto: <span lang="it">Non bevo mai il caffè.</span>
+pt: <strong>Errado: <span lang="it">Io mai bevo il caffè.</span></strong> Correto: <span lang="it">Non bevo mai il caffè.</span>
+
+es: <strong>Incorrecto: <span lang="it">Bevo mai il caffè.</span></strong> Correcto: <span lang="it">Non bevo mai il caffè.</span>
+pt: <strong>Errado: <span lang="it">Bevo mai il caffè.</span></strong> Correto: <span lang="it">Non bevo mai il caffè.</span>
+
+es: <strong>Incorrecto: <span lang="it">Non quasi mai esco.</span></strong> Correcto: <span lang="it">Non esco quasi mai.</span>
+pt: <strong>Errado: <span lang="it">Non quasi mai esco.</span></strong> Correto: <span lang="it">Non esco quasi mai.</span>
+
+es: <strong>Incorrecto: <span lang="it">Sempre faccio colazione.</span></strong> Correcto: <span lang="it">Faccio sempre colazione.</span>
+pt: <strong>Errado: <span lang="it">Sempre faccio colazione.</span></strong> Correto: <span lang="it">Faccio sempre colazione.</span>
+
+es: <strong>Incorrecto: <span lang="it">ogni giorni</span></strong> Correcto: <span lang="it">ogni giorno / tutti i giorni</span>
+pt: <strong>Errado: <span lang="it">ogni giorni</span></strong> Correto: <span lang="it">ogni giorno / tutti i giorni</span>
+
+es: <strong>Incorrecto: <span lang="it">tutti giorni</span></strong> Correcto: <span lang="it">tutti i giorni</span>
+pt: <strong>Errado: <span lang="it">tutti giorni</span></strong> Correto: <span lang="it">tutti i giorni</span>
+
+es: <strong>Incorrecto: <span lang="it">qualche volte</span></strong> Correcto: <span lang="it">qualche volta / a volte</span>
+pt: <strong>Errado: <span lang="it">qualche volte</span></strong> Correto: <span lang="it">qualche volta / a volte</span>
+
+es: <strong>Incorrecto: <span lang="it">due tempi al giorno</span></strong> Correcto: <span lang="it">due volte al giorno</span>
+pt: <strong>Errado: <span lang="it">due tempi al giorno</span></strong> Correto: <span lang="it">due volte al giorno</span>
+
+es: Parte 1 · La escala
+pt: Parte 1 · A escala
+
+es: Mira el porcentaje entre paréntesis y escribe el adverbio.
+pt: Olhe a porcentagem entre parênteses e escreva o advérbio.
+
+es: Parte 2 · <span lang="it">Non… mai</span> y la posición
+pt: Parte 2 · <span lang="it">Non… mai</span> e a posição
+
+es: Completa la expresión.
+pt: Complete a expressão.
+
+es: Los adverbios de frecuencia en italiano | gramática italiana A1 con ejercicios
+pt: Os advérbios de frequência em italiano | gramática italiana A1 com exercícios
+
+es: Los adverbios de frecuencia en italiano en orden del 100% al 0%: sempre, quasi sempre, di solito, spesso, a volte, ogni tanto, raramente, quasi mai, mai. Posición en la frase, non… mai, quante volte? y 30 ejercicios.
+pt: Os advérbios de frequência em italiano em ordem de 100% a 0%: sempre, quasi sempre, di solito, spesso, a volte, ogni tanto, raramente, quasi mai, mai. Posição na frase, non… mai, quante volte? e 30 exercícios.
+
+es: Lecturas graduadas para aprender italiano
+pt: Leituras graduadas para aprender italiano
+
+es: Relatos, fábulas y artículos en italiano para cada nivel, del A1 al C1. Cada texto tiene palabras útiles, preguntas y PDF gratis. Elige tu nivel o mira todas las lecturas.
+pt: Contos em italiano para quem está começando, com palavras úteis, perguntas e PDF grátis. Escolha um episódio ou veja as leituras por nível.
+
+es: Todos los niveles
+pt: Todos os níveis
+
+es: <a href="§1">Emma en Italia</a>
+pt: <a href="§1">Emma na Itália</a>
+
+es: Emma en Italia
+pt: Emma na Itália
+
+es: Emma llega a Italia y descubre, día tras día, las reglas que nadie explica: en el bar, en el tren, en el mercado, en la mesa. Cada episodio es un relato A1 con una estructura para aprender.
+pt: Emma chega à Itália e descobre, dia após dia, as regras que ninguém explica: no bar, no trem, na feira, à mesa. Cada episódio é um conto A1 com uma estrutura para aprender.
+
+es: Emma en Italia · A1 · A2
+pt: Emma na Itália · A1 · A2
+
+es: En el bar en Italia
+pt: No bar na Itália
+
+es: Emma pide «un latte» y recibe un vaso de leche fría: cómo se pide de verdad en un bar italiano.
+pt: Emma pede «un latte» e recebe um copo de leite gelado: como se pede de verdade num bar italiano.
+
+es: Lee el relato →
+pt: Ler o conto →
+
+es: Emma en Italia · A1
+pt: Emma na Itália · A1
+
+es: El billete de tren
+pt: A passagem de trem
+
+es: Emma tiene el billete para Pisa. Pero un señor con un perro grita: «¡Deve timbrare!»
+pt: Emma tem a passagem para Pisa. Mas um senhor com um cachorro grita: «Deve timbrare!»
+
+es: En el mercado
+pt: Na feira
+
+es: Emma coge una fresa. «¡No, no, signorina! ¡Non si tocca!»
+pt: Emma pega um morango. «No, no, signorina! Non si tocca!»
+
+es: Cerrado a mediodía
+pt: Fechado para o almoço
+
+es: A la una el pueblo está vacío. ¿Dónde están todos? ¿Y quién es el señor del sombrero?
+pt: À uma hora a cidadezinha está vazia. Onde estão todos? E quem é o senhor de chapéu?
+
+es: Dolor de garganta en domingo
+pt: Dor de garganta no domingo
+
+es: Domingo, dolor de garganta, farmacia cerrada. Y una amiga italiana con una teoría sobre el pelo mojado.
+pt: Domingo, dor de garganta, farmácia fechada. E uma amiga italiana com uma teoria sobre o cabelo molhado.
+
+es: La comida de la abuela
+pt: O almoço da avó
+
+es: Dos platos de tallarines: Emma está llena. Pero la abuela trae… el segundo.
+pt: Dois pratos de macarrão: Emma está cheia. Mas a avó traz… o segundo prato.
+
+es: Cena a las ocho
+pt: Jantar às oito
+
+es: Emma quiere llevar flores a una cena. La florista: «¿I crisantemi? ¡No, signorina!»
+pt: Emma quer levar flores a um jantar. A florista: «I crisantemi? No, signorina!»
+
+es: El lavabo misterioso
+pt: A pia misteriosa
+
+es: En el baño de Emma hay un lavabo bajo y misterioso. ¿Es para los niños? ¿Para el perro?
+pt: No banheiro da Emma há uma pia baixa e misteriosa. É para as crianças? Para o cachorro?
+
+es: Lecturas por nivel
+pt: Leituras por nível
+
+es: Emma, en la barra de un bar de Roma, mira un vaso de leche fría
+pt: Emma, no balcão de um bar de Roma, olha para um copo de leite gelado
+
+es: Emma valida el billete de tren en una estación italiana, junto al andén
+pt: Emma valida a passagem de trem numa estação italiana, perto da plataforma
+
+es: Emma delante de un puesto de fruta y verdura en un mercado de Florencia
+pt: Emma diante de uma banca de frutas e verduras numa feira de Florença
+
+es: Emma delante del escaparate cerrado de una tienda de cerámica en una plaza de la Toscana
+pt: Emma diante da vitrine fechada de uma loja de cerâmica numa praça da Toscana
+
+es: Emma con bufanda delante de una farmacia con la cruz verde encendida
+pt: Emma de cachecol diante de uma farmácia com a cruz verde acesa
+
+es: Emma a la mesa con una familia italiana y una abuela sonriente, delante de un plato de tallarines con tomate
+pt: Emma à mesa com uma família italiana e uma avó sorridente, diante de um prato de macarrão com molho de tomate
+
+es: Emma con un ramo de girasoles en la puerta de un piso italiano, por la noche
+pt: Emma com um buquê de girassóis na porta de um apartamento italiano, à noite
+
+es: Emma en pijama en el baño mira con curiosidad el bidé junto al lavabo
+pt: Emma de pijama no banheiro olha com curiosidade o bidê ao lado da pia
+
+es: Lecturas graduadas en italiano A1–C1: textos gratis con PDF
+pt: Leituras graduadas em italiano: contos A1 grátis com PDF
+
+es: Textos gratuitos en italiano del A1 al C1: ciencia, cultura, historia y cuentos, cada uno en los niveles adecuados, con vocabulario, preguntas de comprensión y PDF.
+pt: Contos grátis em italiano para iniciantes: a série «Emma na Itália», com vocabulário, perguntas de compreensão e PDF.
+
+es: Artículos y fábulas en italiano, reescritos en los niveles A1, A2, B1, B2 y C1.
+pt: Contos em italiano para iniciantes, com perguntas e PDF.
+
+es: Ciencia, tecnología, cultura, historia y cuentos de hadas en italiano desde el nivel A1 al C1.
+pt: Contos em italiano para quem está começando, nível A1.
+
+es: Lecturas graduadas para aprender italiano.
+pt: Leituras graduadas para aprender italiano.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / Nivel A1
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / Nível A1
+
+es: Lecturas en italiano A1: relatos cortos para principiantes
+pt: Leituras em italiano A1: contos curtos para iniciantes
+
+es: Historias en italiano sencillo para quien empieza: frases cortas, palabras de todos los días y una estructura para aprender en cada texto. Cada relato tiene preguntas, palabras útiles y PDF gratis.
+pt: Histórias em italiano simples para quem está começando: frases curtas, palavras do dia a dia e uma estrutura para aprender em cada texto. Cada conto tem perguntas, palavras úteis e PDF grátis.
+
+es: Qué encontrarás
+pt: O que você vai encontrar
+
+es: Textos de 100 a 400 palabras en presente, con muchos diálogos. Debajo de cada texto: palabras útiles, preguntas y un PDF para imprimir.
+pt: Textos de 100 a 400 palavras no presente, com muitos diálogos. Embaixo de cada texto: palavras úteis, perguntas e um PDF para imprimir.
+
+es: Cómo leer
+pt: Como ler
+
+es: Lee todo una vez sin diccionario. Luego vuelve a leer, busca solo las palabras que bloquean la historia y responde a las preguntas. Al final, lee en voz alta.
+pt: Leia tudo uma vez sem dicionário. Depois leia de novo, procure só as palavras que travam a história e responda às perguntas. No fim, leia em voz alta.
+
+es: La gramática del A1
+pt: A gramática do A1
+
+es: Repasa <a href="§1">el presente</a>, <a href="§2">los verbos irregulares</a>, <a href="§3">c’è y ci sono</a> y <a href="§4">los artículos</a>: son las estructuras que encontrarás en estos relatos.
+pt: Revise <a href="§1">o presente</a>, <a href="§2">os verbos irregulares</a>, <a href="§3">c’è e ci sono</a> e <a href="§4">os artigos</a>: são as estruturas que você vai encontrar nestes contos.
+
+es: Historias de hoy
+pt: Histórias de hoje
+
+es: Emma pide «un latte» en un bar de Roma. Llega un vaso de leche fría.
+pt: Emma pede «un latte» num bar de Roma. Chega um copo de leite gelado.
+
+es: Estructura: <span lang="it">vorrei · prendo · mi dà</span>
+pt: Estrutura: <span lang="it">vorrei · prendo · mi dà</span>
+
+es: Estructura: <span lang="it">a, in, da, per, con</span> (preposiciones)
+pt: Estrutura: <span lang="it">a, in, da, per, con</span> (preposições)
+
+es: Estructura: <span lang="it">c’è · ci sono</span>
+pt: Estrutura: <span lang="it">c’è · ci sono</span>
+
+es: Estructura: <span lang="it">sono le… · è l’una · alle…</span> (decir la hora)
+pt: Estrutura: <span lang="it">sono le… · è l’una · alle…</span> (dizer as horas)
+
+es: Estructura: <span lang="it">ho mal di… · ho la febbre · ho bisogno di…</span> (el verbo avere)
+pt: Estrutura: <span lang="it">ho mal di… · ho la febbre · ho bisogno di…</span> (o verbo avere)
+
+es: Estructura: <span lang="it">mia nonna · i miei genitori · il tuo posto</span> (posesivos)
+pt: Estrutura: <span lang="it">mia nonna · i miei genitori · il tuo posto</span> (possessivos)
+
+es: Estructura: <span lang="it">il, lo, la, i, gli, le · un, una</span> (artículos)
+pt: Estrutura: <span lang="it">il, lo, la, i, gli, le · un, una</span> (artigos)
+
+es: Estructura: <span lang="it">mi sveglio · ti alzi · si lava</span> (verbos reflexivos)
+pt: Estrutura: <span lang="it">mi sveglio · ti alzi · si lava</span> (verbos reflexivos)
+
+es: Lecturas en italiano A1: relatos cortos para principiantes (PDF)
+pt: Leituras em italiano A1: contos curtos para iniciantes (PDF)
+
+es: Relatos y fábulas en italiano para principiantes (nivel A1): frases cortas, palabras de todos los días, preguntas de comprensión y PDF gratis. Aprende la gramática en contexto.
+pt: Contos em italiano para iniciantes (nível A1): frases curtas, palavras do dia a dia, perguntas de compreensão e PDF grátis. Aprenda a gramática no contexto.
+
+es: Relatos cortos en italiano para el nivel A1, con preguntas y PDF gratis.
+pt: Contos curtos em italiano para o nível A1, com perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / En el bar en Italia
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / No bar na Itália
+
+es: Emma en Italia · episodio 1 · A1 · A2
+pt: Emma na Itália · episódio 1 · A1 · A2
+
+es: Emma pide «un latte» y recibe un vaso de leche fría. Un relato para aprender a pedir en un bar italiano: qué decir, dónde pagar, cuándo tomar el capuchino.
+pt: Emma pede «un latte» e recebe um copo de leite gelado. Um conto para aprender a pedir num bar italiano: o que dizer, onde pagar, quando tomar o cappuccino.
+
+es: <a class="button secondary" href="§1" download="">PDF todos los niveles</a>
+pt: <a class="button secondary" href="§1" download="">PDF de todos os níveis</a>
+
+es: En el bar italiano bastan pocas palabras. Pero son palabras precisas.
+pt: No bar italiano bastam poucas palavras. Mas são palavras precisas.
+
+es: Pedir con cortesía: <span lang="it">vorrei · prendo · mi dà</span>
+pt: Pedir com educação: <span lang="it">vorrei · prendo · mi dà</span>
+
+es: La estructura de este texto
+pt: A estrutura deste texto
+
+es: <span lang="it"><strong>Vorrei</strong> un latte.</span> → pedir con cortesía (más amable que <span lang="it">voglio</span>)
+pt: <span lang="it"><strong>Vorrei</strong> un latte.</span> → pedir com educação (mais gentil que <span lang="it">voglio</span>)
+
+es: <span lang="it"><strong>Prendo</strong> un caffè.</span> → decir qué eliges
+pt: <span lang="it"><strong>Prendo</strong> un caffè.</span> → dizer o que você escolhe
+
+es: <span lang="it"><strong>Mi dà</strong> un cornetto?</span> → pedirle algo al camarero
+pt: <span lang="it"><strong>Mi dà</strong> un cornetto?</span> → pedir algo ao barista
+
+es: Pruébalo: haz amables estas frases. <span lang="it"><em>Voglio un cappuccino.</em></span> → … · <span lang="it"><em>Dammi un’acqua.</em></span> → …
+pt: Experimente: deixe estas frases gentis. <span lang="it"><em>Voglio un cappuccino.</em></span> → … · <span lang="it"><em>Dammi un’acqua.</em></span> → …
+
+es: Repasa: <a href="§1">el presente de los verbos irregulares (volere, dare, fare…)</a>
+pt: Revise: <a href="§1">o presente dos verbos irregulares (volere, dare, fare…)</a>
+
+es: Palabras útiles
+pt: Palavras úteis
+
+es: <span lang="it">il banco</span> = barra<br><span lang="it">il barista</span> = camarero<br><span lang="it">il cornetto</span> = cruasán<br><span lang="it">il bicchiere</span> = vaso<br><span lang="it">Quanto costa?</span> = ¿Cuánto cuesta?
+pt: <span lang="it">il banco</span> = balcão<br><span lang="it">il barista</span> = atendente do bar<br><span lang="it">il cornetto</span> = croissant<br><span lang="it">il bicchiere</span> = copo<br><span lang="it">Quanto costa?</span> = Quanto custa?
+
+es: ¿Qué pide Emma la primera vez? ¿Qué le llega?
+pt: O que Emma pede da primeira vez? O que chega para ela?
+
+es: ¿Qué es «un caffè» en un bar italiano?
+pt: O que é «un caffè» num bar italiano?
+
+es: ¿Por qué sonríe Emma al final?
+pt: Por que Emma sorri no final?
+
+es: Estás en un bar italiano. ¿Qué pides? Escribe dos frases: una con «vorrei» y otra con «mi dà».
+pt: Você está num bar italiano. O que você pede? Escreva duas frases: uma com «vorrei» e outra com «mi dà».
+
+es: Contar: <span lang="it">passato prossimo</span> con <span lang="it">avere</span> y con <span lang="it">essere</span>
+pt: Contar: <span lang="it">passato prossimo</span> com <span lang="it">avere</span> e com <span lang="it">essere</span>
+
+es: <span lang="it"><strong>Ho chiesto</strong> un latte.</span> → casi todos los verbos: <span lang="it">avere</span> + participio
+pt: <span lang="it"><strong>Ho chiesto</strong> un latte.</span> → quase todos os verbos: <span lang="it">avere</span> + particípio
+
+es: <span lang="it"><strong>Sono andata</strong> in un bar.</span> → verbos de movimiento y de cambio: <span lang="it">essere</span> + participio (-o, -a, -i, -e)
+pt: <span lang="it"><strong>Sono andata</strong> in un bar.</span> → verbos de movimento e de mudança: <span lang="it">essere</span> + particípio (-o, -a, -i, -e)
+
+es: <span lang="it"><strong>Mi sono seduta</strong> a un tavolino.</span> → verbos reflexivos: siempre <span lang="it">essere</span>
+pt: <span lang="it"><strong>Mi sono seduta</strong> a un tavolino.</span> → verbos reflexivos: sempre <span lang="it">essere</span>
+
+es: Pruébalo: ponlo en pasado. <span lang="it"><em>Oggi entro al bar, prendo un caffè e mi siedo.</em></span> → <span lang="it"><em>Ieri</em></span> …
+pt: Experimente: passe para o passado. <span lang="it"><em>Oggi entro al bar, prendo un caffè e mi siedo.</em></span> → <span lang="it"><em>Ieri</em></span> …
+
+es: Repasa: el passato prossimo
+pt: Revise: o passato prossimo
+
+es: <span lang="it">la cassa</span> = caja<br><span lang="it">lo scontrino</span> = tique<br><span lang="it">il tavolino</span> = mesita<br><span lang="it">la tazzina</span> = taza pequeña<br><span lang="it">macchiato</span> = con un poco de leche
+pt: <span lang="it">la cassa</span> = caixa<br><span lang="it">lo scontrino</span> = cupom fiscal, notinha<br><span lang="it">il tavolino</span> = mesinha<br><span lang="it">la tazzina</span> = xicrinha<br><span lang="it">macchiato</span> = com um pouco de leite
+
+es: ¿Por qué esperó Emma diez minutos el martes?
+pt: Por que Emma esperou dez minutos na terça-feira?
+
+es: ¿Por qué el miércoles Emma y su amiga pagaron seis euros?
+pt: Por que na quarta-feira Emma e a amiga pagaram seis euros?
+
+es: ¿Qué diferencia hay entre un caffè macchiato y un latte macchiato?
+pt: Qual é a diferença entre um caffè macchiato e um latte macchiato?
+
+es: ¿Y tú? Cuenta la última vez que fuiste a un bar: ¿qué pediste? ¿Dónde te sentaste? ¿Cuánto pagaste?
+pt: E você? Conte a última vez que foi a um bar: o que pediu? Onde se sentou? Quanto pagou?
+
+es: FRASES
+pt: FRASES
+
+es: Las frases reales del bar
+pt: As frases de verdade do bar
+
+es: Para usarlas enseguida, en la barra
+pt: Para usar na hora, no balcão
+
+es: <strong>Para pedir:</strong> <span lang="it">Un caffè, per favore. · Vorrei un cappuccino. · Mi dà un cornetto alla crema? · Prendo un’acqua naturale / frizzante.</span>
+pt: <strong>Para pedir:</strong> <span lang="it">Un caffè, per favore. · Vorrei un cappuccino. · Mi dà un cornetto alla crema? · Prendo un’acqua naturale / frizzante.</span>
+
+es: <strong>Para pagar:</strong> <span lang="it">Quant’è? · Pago alla cassa? · Posso pagare con la carta? · Lo scontrino, grazie.</span>
+pt: <strong>Para pagar:</strong> <span lang="it">Quant’è? · Pago alla cassa? · Posso pagare con la carta? · Lo scontrino, grazie.</span>
+
+es: <strong>Los cafés:</strong> <span lang="it"><em>ristretto</em></span> (con poca agua, más fuerte) · <span lang="it"><em>lungo</em></span> (con más agua) · <span lang="it"><em>macchiato</em></span> (con un poco de leche) · <span lang="it"><em>corretto</em></span> (con un chorrito de grappa u otro licor) · <span lang="it"><em>decaffeinato</em></span>, <span lang="it"><em>deca</em></span> (descafeinado) · <span lang="it"><em>d’orzo</em></span> (de cebada, sin café).
+pt: <strong>Os cafés:</strong> <span lang="it"><em>ristretto</em></span> (com pouca água, mais forte) · <span lang="it"><em>lungo</em></span> (com mais água) · <span lang="it"><em>macchiato</em></span> (com um pouco de leite, como o nosso pingado) · <span lang="it"><em>corretto</em></span> (com um pouco de grappa ou outro licor) · <span lang="it"><em>decaffeinato</em></span>, <span lang="it"><em>deca</em></span> (descafeinado) · <span lang="it"><em>d’orzo</em></span> (de cevada, sem café).
+
+es: <strong>Dónde:</strong> <span lang="it"><em>al banco</em></span> (de pie en la barra, más barato) · <span lang="it"><em>al tavolo</em></span> (sentados, con servicio, más caro).
+pt: <strong>Onde:</strong> <span lang="it"><em>al banco</em></span> (em pé no balcão, mais barato) · <span lang="it"><em>al tavolo</em></span> (sentado, com serviço, mais caro).
+
+es: <strong>Entre amigos:</strong> <span lang="it">«Prendiamo un caffè?»</span> a menudo no significa solo beber: significa «¿Hablamos cinco minutos?».
+pt: <strong>Entre amigos:</strong> <span lang="it">«Prendiamo un caffè?»</span> muitas vezes não significa só beber: significa «Vamos conversar cinco minutos?».
+
+es: <strong>Emma en Italia</strong><span></span><a href="§1">Todas las lecturas A1</a><a href="§2">Episodio siguiente →</a>
+pt: <strong>Emma na Itália</strong><span></span><a href="§1">Todas as leituras A1</a><a href="§2">Próximo episódio →</a>
+
+es: Escribe tu respuesta
+pt: Escreva sua resposta
+
+es: Episodios de Emma en Italia
+pt: Episódios de Emma na Itália
+
+es: Cómo pedir un café en Italia: relato en italiano A1–A2 (PDF)
+pt: Como pedir um café na Itália: conto em italiano A1–A2 (PDF)
+
+es: Relato en italiano para principiantes (A1 y A2): Emma aprende a pedir en un bar italiano. Vorrei, prendo, mi dà y el passato prossimo, con preguntas, frases reales y PDF gratis.
+pt: Conto em italiano para iniciantes (A1 e A2): Emma aprende a pedir num bar italiano. Vorrei, prendo, mi dà e o passato prossimo, com perguntas, frases reais e PDF grátis.
+
+es: Emma pide «un latte» y recibe un vaso de leche fría. Un relato A1–A2 para pedir en el bar como un italiano.
+pt: Emma pede «un latte» e recebe um copo de leite gelado. Um conto A1–A2 para pedir no bar como um italiano.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / El billete de tren
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / A passagem de trem
+
+es: Emma tiene el billete para Pisa en la mano. Pero un señor con un perro grita: «¡Deve timbrare!». Un relato A1 para viajar en tren en Italia sin multas.
+pt: Emma está com a passagem para Pisa na mão. Mas um senhor com um cachorro grita: «Deve timbrare!». Um conto A1 para viajar de trem na Itália sem levar multa.
+
+es: Las preposiciones: <span lang="it">a, in, da, per, con</span>
+pt: As preposições: <span lang="it">a, in, da, per, con</span>
+
+es: <span lang="it">Va <strong>a</strong> Pisa <strong>in</strong> treno.</span> → <span lang="it">a</span> + ciudad; <span lang="it">in</span> + medio de transporte
+pt: <span lang="it">Va <strong>a</strong> Pisa <strong>in</strong> treno.</span> → <span lang="it">a</span> + cidade; <span lang="it">in</span> + meio de transporte
+
+es: <span lang="it">Il treno <strong>per</strong> Pisa parte <strong>dal</strong> binario sette.</span> → <span lang="it">per</span> = destino; <span lang="it">da</span> + <span lang="it">il</span> = <span lang="it">dal</span>
+pt: <span lang="it">Il treno <strong>per</strong> Pisa parte <strong>dal</strong> binario sette.</span> → <span lang="it">per</span> = destino; <span lang="it">da</span> + <span lang="it">il</span> = <span lang="it">dal</span>
+
+es: <span lang="it">Un signore <strong>con</strong> un cane.</span> → <span lang="it">con</span> = con
+pt: <span lang="it">Un signore <strong>con</strong> un cane.</span> → <span lang="it">con</span> = com
+
+es: Pruébalo: completa con a, in o con. <span lang="it"><em>Emma abita … Firenze e va … Pisa … treno.</em></span>
+pt: Experimente: complete com a, in ou con. <span lang="it"><em>Emma abita … Firenze e va … Pisa … treno.</em></span>
+
+es: Repasa: <a href="§1">las preposiciones simples</a>
+pt: Revise: <a href="§1">as preposições simples</a>
+
+es: <span lang="it">la biglietteria</span> = taquilla<br><span lang="it">il binario</span> = andén, vía<br><span lang="it">timbrare</span> = validar (el billete)<br><span lang="it">il controllore</span> = revisor<br><span lang="it">la multa</span> = multa
+pt: <span lang="it">la biglietteria</span> = bilheteria<br><span lang="it">il binario</span> = plataforma, trilho<br><span lang="it">timbrare</span> = validar (a passagem)<br><span lang="it">il controllore</span> = fiscal<br><span lang="it">la multa</span> = multa
+
+es: ¿Adónde va Emma el sábado? ¿Por qué?
+pt: Aonde Emma vai no sábado? Por quê?
+
+es: ¿Qué tiene que hacer Emma con el billete antes de subir al tren?
+pt: O que Emma tem que fazer com a passagem antes de subir no trem?
+
+es: ¿Por qué el chico tiene que pagar una multa?
+pt: Por que o rapaz tem que pagar uma multa?
+
+es: ¿Y tú? ¿Cómo vas al trabajo o a clase? Escribe dos frases con «a», «in» o «con».
+pt: E você? Como você vai para o trabalho ou para a aula? Escreva duas frases com «a», «in» ou «con».
+
+es: <strong>Emma en Italia</strong><a href="§1">← Episodio anterior</a><a href="§2">Todas las lecturas A1</a><a href="§3">Episodio siguiente →</a>
+pt: <strong>Emma na Itália</strong><a href="§1">← Episódio anterior</a><a href="§2">Todas as leituras A1</a><a href="§3">Próximo episódio →</a>
+
+es: Tomar el tren en Italia: relato en italiano A1 (PDF)
+pt: Pegar o trem na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): Emma toma el tren de Florencia a Pisa y descubre que el billete de papel hay que validarlo. Preposiciones, preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): Emma pega o trem de Florença para Pisa e descobre que a passagem de papel precisa ser validada. Preposições, perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / En el mercado
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / Na feira
+
+es: Emma coge una fresa con la mano. «¡No, no, signorina! ¡Non si tocca!». Un relato A1 para comprar en un mercado italiano como un local.
+pt: Emma pega um morango com a mão. «No, no, signorina! Non si tocca!». Um conto A1 para fazer compras numa feira italiana como alguém de lá.
+
+es: <span lang="it"><strong>C’è</strong> molta gente.</span> → <span lang="it">c’è</span> + una cosa (singular)
+pt: <span lang="it"><strong>C’è</strong> molta gente.</span> → <span lang="it">c’è</span> + uma coisa (singular)
+
+es: <span lang="it"><strong>Ci sono</strong> le mele, le pere e le fragole.</span> → <span lang="it">ci sono</span> + varias cosas (plural)
+pt: <span lang="it"><strong>Ci sono</strong> le mele, le pere e le fragole.</span> → <span lang="it">ci sono</span> + várias coisas (plural)
+
+es: <span lang="it"><strong>Ci sono</strong> pomodori per il sugo?</span> → la misma estructura para preguntar
+pt: <span lang="it"><strong>Ci sono</strong> pomodori per il sugo?</span> → a mesma estrutura para perguntar
+
+es: Pruébalo: completa con c’è o ci sono. <span lang="it"><em>Nella borsa … il basilico. Al mercato … tanti banchi.</em></span>
+pt: Experimente: complete com c’è ou ci sono. <span lang="it"><em>Nella borsa … il basilico. Al mercato … tanti banchi.</em></span>
+
+es: Repasa: <a href="§1">c’è y ci sono</a>
+pt: Revise: <a href="§1">c’è e ci sono</a>
+
+es: <span lang="it">il banco</span> = puesto<br><span lang="it">il fruttivendolo</span> = frutero<br><span lang="it">mezzo chilo</span> = medio kilo<br><span lang="it">il sugo</span> = salsa (para la pasta)<br><span lang="it">il basilico</span> = albahaca
+pt: <span lang="it">il banco</span> = banca<br><span lang="it">il fruttivendolo</span> = feirante, quitandeiro<br><span lang="it">mezzo chilo</span> = meio quilo<br><span lang="it">il sugo</span> = molho (para o macarrão)<br><span lang="it">il basilico</span> = manjericão
+
+es: ¿Qué hay en el mercado de Sant’Ambrogio?
+pt: O que tem na feira de Sant’Ambrogio?
+
+es: ¿Por qué el frutero dice «Non si tocca!»?
+pt: Por que o feirante diz «Non si tocca!»?
+
+es: ¿Qué le regala el frutero a Emma? ¿Por qué?
+pt: O que o feirante dá de presente para Emma? Por quê?
+
+es: ¿Y tú? ¿Qué hay hoy en tu nevera? Escribe dos frases con «c’è» y «ci sono».
+pt: E você? O que tem hoje na sua geladeira? Escreva duas frases com «c’è» e «ci sono».
+
+es: En el mercado en Italia: relato en italiano A1 (PDF)
+pt: Na feira na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): Emma hace la compra en el mercado de Sant’Ambrogio de Florencia y aprende que la fruta no se toca. C’è y ci sono, preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): Emma faz compras na feira de Sant’Ambrogio, em Florença, e aprende que a fruta não se toca. C’è e ci sono, perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / Cerrado a mediodía
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / Fechado para o almoço
+
+es: A la una el pueblo está vacío: todas las tiendas están cerradas. ¿Dónde está todo el mundo? ¿Y quién es el señor del sombrero? Un relato A1 para aprender a decir la hora.
+pt: À uma hora a cidadezinha está vazia: todas as lojas estão fechadas. Onde está todo mundo? E quem é o senhor de chapéu? Um conto A1 para aprender a dizer as horas.
+
+es: Decir la hora: <span lang="it">sono le…, è l’una, alle…</span>
+pt: Dizer as horas: <span lang="it">sono le…, è l’una, alle…</span>
+
+es: <span lang="it"><strong>Sono le</strong> dodici e mezza.</span> → <span lang="it">sono le</span> + hora (plural)
+pt: <span lang="it"><strong>Sono le</strong> dodici e mezza.</span> → <span lang="it">sono le</span> + hora (plural)
+
+es: <span lang="it"><strong>È l’</strong>una e cinque.</span> → pero la una es singular: <span lang="it">è l’una</span>
+pt: <span lang="it"><strong>È l’</strong>una e cinque.</span> → mas uma hora é singular: <span lang="it">è l’una</span>
+
+es: <span lang="it"><strong>Alle</strong> quattro meno dieci chiede il conto.</span> → <span lang="it">alle</span> + hora = a qué hora pasa algo
+pt: <span lang="it"><strong>Alle</strong> quattro meno dieci chiede il conto.</span> → <span lang="it">alle</span> + hora = a que horas algo acontece
+
+es: Pruébalo: escribe la hora en letras. <span lang="it"><em>13.15 → … · 16.30 → …</em></span>
+pt: Experimente: escreva a hora por extenso. <span lang="it"><em>13.15 → … · 16.30 → …</em></span>
+
+es: Repasa: <a href="§1">¿qué hora es?</a>
+pt: Revise: <a href="§1">que horas são?</a>
+
+es: <span lang="it">il cartello</span> = cartel<br><span lang="it">l’orario</span> = horario<br><span lang="it">chiuso / aperto</span> = cerrado / abierto<br><span lang="it">la trattoria</span> = casa de comidas<br><span lang="it">il conto</span> = la cuenta
+pt: <span lang="it">il cartello</span> = placa, aviso<br><span lang="it">l’orario</span> = horário<br><span lang="it">chiuso / aperto</span> = fechado / aberto<br><span lang="it">la trattoria</span> = restaurante simples, de comida caseira<br><span lang="it">il conto</span> = a conta
+
+es: ¿Qué quiere comprar Emma? ¿Para quién?
+pt: O que Emma quer comprar? Para quem?
+
+es: ¿Por qué a la una y cinco las tiendas están cerradas?
+pt: Por que à uma e cinco as lojas estão fechadas?
+
+es: ¿Quién es el señor del sombrero?
+pt: Quem é o senhor de chapéu?
+
+es: ¿Y tú? ¿A qué hora comes normalmente? ¿A qué hora abren las tiendas en tu ciudad?
+pt: E você? A que horas você costuma almoçar? A que horas as lojas abrem na sua cidade?
+
+es: Horarios de las tiendas en Italia: relato en italiano A1 (PDF)
+pt: Horários das lojas na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): en un pueblo de la Toscana las tiendas cierran de la una a las cuatro. Emma aprende a decir la hora. Preguntas, palabras útiles y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): numa cidadezinha da Toscana as lojas fecham da uma às quatro. Emma aprende a dizer as horas. Perguntas, palavras úteis e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / Dolor de garganta en domingo
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / Dor de garganta no domingo
+
+es: Domingo, dolor de garganta, la farmacia cerrada. Y una amiga italiana con una teoría sobre el pelo mojado. Un relato A1 para explicar cómo estás en la farmacia.
+pt: Domingo, dor de garganta, a farmácia fechada. E uma amiga italiana com uma teoria sobre o cabelo molhado. Um conto A1 para explicar na farmácia como você está.
+
+es: El verbo <span lang="it">avere</span>: <span lang="it">ho mal di…, ho la febbre, ho bisogno di…</span>
+pt: O verbo <span lang="it">avere</span>: <span lang="it">ho mal di…, ho la febbre, ho bisogno di…</span>
+
+es: <span lang="it"><strong>Ha</strong> mal di gola e <strong>ha</strong> un po’ di febbre.</span> → cómo estás: <span lang="it">avere</span> + <span lang="it">mal di</span>, <span lang="it">febbre</span>, <span lang="it">freddo</span>
+pt: <span lang="it"><strong>Ha</strong> mal di gola e <strong>ha</strong> un po’ di febbre.</span> → como você está: <span lang="it">avere</span> + <span lang="it">mal di</span>, <span lang="it">febbre</span>, <span lang="it">freddo</span>
+
+es: <span lang="it"><strong>Ho bisogno di</strong> una medicina.</span> → necesitar algo: <span lang="it">avere bisogno di</span>
+pt: <span lang="it"><strong>Ho bisogno di</strong> una medicina.</span> → precisar de algo: <span lang="it">avere bisogno di</span>
+
+es: <span lang="it"><strong>Hai</strong> una sciarpa?</span> → para preguntar basta subir la entonación
+pt: <span lang="it"><strong>Hai</strong> una sciarpa?</span> → para perguntar basta subir a entonação
+
+es: Pruébalo: completa con el verbo avere. <span lang="it"><em>Emma … freddo. Io … mal di testa. Tu … la tosse?</em></span>
+pt: Experimente: complete com o verbo avere. <span lang="it"><em>Emma … freddo. Io … mal di testa. Tu … la tosse?</em></span>
+
+es: Repasa: <a href="§1">el verbo avere</a>
+pt: Revise: <a href="§1">o verbo avere</a>
+
+es: <span lang="it">la farmacia di turno</span> = farmacia de guardia<br><span lang="it">il mal di gola</span> = dolor de garganta<br><span lang="it">la febbre</span> = fiebre<br><span lang="it">la tosse</span> = tos<br><span lang="it">la ricetta</span> = receta
+pt: <span lang="it">la farmacia di turno</span> = farmácia de plantão<br><span lang="it">il mal di gola</span> = dor de garganta<br><span lang="it">la febbre</span> = febre<br><span lang="it">la tosse</span> = tosse<br><span lang="it">la ricetta</span> = receita
+
+es: ¿Cómo está Emma el domingo por la mañana?
+pt: Como Emma está no domingo de manhã?
+
+es: ¿Por qué Emma no encuentra medicinas en el supermercado?
+pt: Por que Emma não encontra remédios no supermercado?
+
+es: ¿Qué es la «farmacia di turno»?
+pt: O que é a «farmacia di turno»?
+
+es: ¿Y tú? ¿Qué haces cuando te duele la garganta? Escribe dos frases con el verbo «avere».
+pt: E você? O que você faz quando está com dor de garganta? Escreva duas frases com o verbo «avere».
+
+es: En la farmacia en Italia: relato en italiano A1 (PDF)
+pt: Na farmácia na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): Emma tiene dolor de garganta un domingo y descubre la farmacia de guardia. El verbo avere (ho mal di…, ho la febbre), preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): Emma está com dor de garganta num domingo e descobre a farmácia de plantão. O verbo avere (ho mal di…, ho la febbre), perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / La comida de la abuela
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / O almoço da avó
+
+es: Dos platos de tallarines: Emma está llena. Pero la abuela trae… el segundo. Un relato A1 sobre la comida del domingo en una familia italiana.
+pt: Dois pratos de macarrão: Emma está cheia. Mas a avó traz… o segundo prato. Um conto A1 sobre o almoço de domingo numa família italiana.
+
+es: Los posesivos: <span lang="it">mia nonna, i miei genitori, il tuo posto</span>
+pt: Os possessivos: <span lang="it">mia nonna, i miei genitori, il tuo posto</span>
+
+es: <span lang="it">Questa è <strong>mia</strong> nonna Rosa.</span> → un familiar: sin artículo (<span lang="it">mia nonna</span>)
+pt: <span lang="it">Questa è <strong>mia</strong> nonna Rosa.</span> → um parente: sem artigo (<span lang="it">mia nonna</span>)
+
+es: <span lang="it">Questi sono <strong>i miei</strong> genitori.</span> → familiares en plural: con artículo (<span lang="it">i miei genitori</span>)
+pt: <span lang="it">Questi sono <strong>i miei</strong> genitori.</span> → parentes no plural: com artigo (<span lang="it">i miei genitori</span>)
+
+es: <span lang="it">Ecco <strong>il tuo</strong> posto.</span> → todo lo demás: con artículo (<span lang="it">il tuo posto</span>)
+pt: <span lang="it">Ecco <strong>il tuo</strong> posto.</span> → todo o resto: com artigo (<span lang="it">il tuo posto</span>)
+
+es: Pruébalo: completa con un posesivo. <span lang="it"><em>Questa è … madre. Questi sono … fratelli. Ecco … piatto.</em></span>
+pt: Experimente: complete com um possessivo. <span lang="it"><em>Questa è … madre. Questi sono … fratelli. Ecco … piatto.</em></span>
+
+es: Repasa: <a href="§1">los adjetivos y pronombres posesivos</a>
+pt: Revise: <a href="§1">os adjetivos e pronomes possessivos</a>
+
+es: <span lang="it">il primo</span> = primer plato (pasta, sopa, risotto)<br><span lang="it">il secondo</span> = segundo plato (el plato principal)<br><span lang="it">la teglia</span> = fuente para el horno<br><span lang="it">la porzione</span> = porción<br><span lang="it">pieno, piena</span> = lleno, llena
+pt: <span lang="it">il primo</span> = primeiro prato (massa, sopa, risoto)<br><span lang="it">il secondo</span> = segundo prato (o prato principal)<br><span lang="it">la teglia</span> = assadeira<br><span lang="it">la porzione</span> = porção<br><span lang="it">pieno, piena</span> = cheio, cheia
+
+es: ¿Quién está en la comida en casa de la abuela de Giulia?
+pt: Quem está no almoço na casa da avó da Giulia?
+
+es: ¿Por qué Emma se sorprende cuando llega la parmigiana?
+pt: Por que Emma se surpreende quando chega a parmigiana?
+
+es: ¿Qué consejo le da el abuelo a Emma?
+pt: Que conselho o avô dá para Emma?
+
+es: ¿Y tú? Presenta a tu familia en tres frases: «Mia madre…», «Mio padre…», «I miei…».
+pt: E você? Apresente sua família em três frases: «Mia madre…», «Mio padre…», «I miei…».
+
+es: La comida del domingo en Italia: relato en italiano A1 (PDF)
+pt: O almoço de domingo na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): Emma come en casa de la abuela de una amiga y descubre que después del primero llega el segundo. Posesivos, preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): Emma almoça na casa da avó de uma amiga e descobre que depois do primeiro prato chega o segundo. Possessivos, perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / Cena a las ocho
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / Jantar às oito
+
+es: Emma quiere llevar flores a una cena. La florista: «¿I crisantemi? ¡No, signorina!». Y a las ocho en punto… Un relato A1 sobre las cenas con amigos en Italia.
+pt: Emma quer levar flores a um jantar. A florista: «I crisantemi? No, signorina!». E às oito em ponto… Um conto A1 sobre os jantares com amigos na Itália.
+
+es: Los artículos: <span lang="it">il, lo, la, i, gli, le, un, una</span>
+pt: Os artigos: <span lang="it">il, lo, la, i, gli, le, un, una</span>
+
+es: <span lang="it"><strong>I</strong> girasoli, <strong>gli</strong> amici, <strong>le</strong> rose.</span> → plural: <span lang="it">i</span> (masculino), <span lang="it">gli</span> (masculino ante vocal), <span lang="it">le</span> (femenino)
+pt: <span lang="it"><strong>I</strong> girasoli, <strong>gli</strong> amici, <strong>le</strong> rose.</span> → plural: <span lang="it">i</span> (masculino), <span lang="it">gli</span> (masculino antes de vogal), <span lang="it">le</span> (feminino)
+
+es: <span lang="it"><strong>Un</strong> ragazzo con <strong>una</strong> bottiglia di vino.</span> → indeterminados: <span lang="it">un</span> (masculino), <span lang="it">una</span> (femenino)
+pt: <span lang="it"><strong>Un</strong> ragazzo con <strong>una</strong> bottiglia di vino.</span> → indefinidos: <span lang="it">un</span> (masculino), <span lang="it">una</span> (feminino)
+
+es: <span lang="it"><strong>Il</strong> gelato, <strong>la</strong> torta, <strong>l’</strong>ora giusta.</span> → singular: <span lang="it">il</span>, <span lang="it">la</span> y <span lang="it">l’</span> ante vocal
+pt: <span lang="it"><strong>Il</strong> gelato, <strong>la</strong> torta, <strong>l’</strong>ora giusta.</span> → singular: <span lang="it">il</span>, <span lang="it">la</span> e <span lang="it">l’</span> antes de vogal
+
+es: Pruébalo: pon el artículo. <span lang="it"><em>… vino, … amici, … torta, … arancia.</em></span>
+pt: Experimente: coloque o artigo. <span lang="it"><em>… vino, … amici, … torta, … arancia.</em></span>
+
+es: Repasa: <a href="§1">los artículos determinados</a>
+pt: Revise: <a href="§1">os artigos definidos</a>
+
+es: <span lang="it">la fioraia</span> = florista<br><span lang="it">i crisantemi</span> = crisantemos<br><span lang="it">il campanello</span> = timbre<br><span lang="it">la pentola</span> = olla<br><span lang="it">in punto</span> = en punto
+pt: <span lang="it">la fioraia</span> = florista<br><span lang="it">i crisantemi</span> = crisântemos<br><span lang="it">il campanello</span> = campainha<br><span lang="it">la pentola</span> = panela<br><span lang="it">in punto</span> = em ponto
+
+es: ¿Por qué la florista dice «¡No, signorina!»?
+pt: Por que a florista diz «No, signorina!»?
+
+es: ¿Quién llega a las ocho en punto? ¿Y cuándo llegan los demás amigos?
+pt: Quem chega às oito em ponto? E quando chegam os outros amigos?
+
+es: ¿Qué llevan los amigos a la cena?
+pt: O que os amigos levam para o jantar?
+
+es: ¿Y tú? ¿Qué llevas cuando vas a cenar a casa de amigos? Escribe dos frases con artículos.
+pt: E você? O que você leva quando vai jantar na casa de amigos? Escreva duas frases com artigos.
+
+es: Cena con amigos en Italia: relato en italiano A1 (PDF)
+pt: Jantar com amigos na Itália: conto em italiano A1 (PDF)
+
+es: Relato en italiano para principiantes (A1): invitan a Emma a cenar a las ocho y quiere llevar flores. Pero los crisantemos… Artículos determinados e indeterminados, preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): Emma é convidada para jantar às oito e quer levar flores. Mas os crisântemos… Artigos definidos e indefinidos, perguntas e PDF grátis.
+
+es: <a href="§1">Inicio</a> / <a href="§2">Lecturas</a> / El lavabo misterioso
+pt: <a href="§1">Início</a> / <a href="§2">Leituras</a> / A pia misteriosa
+
+es: Emma siempre se despierta a las siete; Chiara nunca se levanta antes de las ocho. Y en el baño hay un lavabo bajo y misterioso… Un relato A1 sobre la rutina de cada día.
+pt: Emma sempre acorda às sete; Chiara nunca se levanta antes das oito. E no banheiro há uma pia baixa e misteriosa… Um conto A1 sobre a rotina de todos os dias.
+
+es: Los verbos reflexivos: <span lang="it">mi sveglio, ti alzi, si lava</span>
+pt: Os verbos reflexivos: <span lang="it">mi sveglio, ti alzi, si lava</span>
+
+es: <span lang="it">Emma <strong>si sveglia</strong> sempre alle sette.</span> → <span lang="it">si sveglia</span> = se despierta (<span lang="it">svegliarsi</span>)
+pt: <span lang="it">Emma <strong>si sveglia</strong> sempre alle sette.</span> → <span lang="it">si sveglia</span> = acorda (<span lang="it">svegliarsi</span>)
+
+es: <span lang="it">Chiara non <strong>si alza</strong> mai prima delle otto.</span> → <span lang="it">non … mai</span> + verbo reflexivo: el pronombre va justo antes del verbo
+pt: <span lang="it">Chiara non <strong>si alza</strong> mai prima delle otto.</span> → <span lang="it">non … mai</span> + verbo reflexivo: o pronome vai logo antes do verbo
+
+es: <span lang="it"><strong>Mi lavo</strong> i piedi nel lavandino piccolo.</span> → <span lang="it">mi lavo</span> = me lavo: <span lang="it">io</span> → <span lang="it">mi</span>
+pt: <span lang="it"><strong>Mi lavo</strong> i piedi nel lavandino piccolo.</span> → <span lang="it">mi lavo</span> = me lavo: <span lang="it">io</span> → <span lang="it">mi</span>
+
+es: Prueba tú: completa con mi, ti o si. <span lang="it"><em>Io … sveglio alle sette, tu … alzi tardi, Chiara … veste in tre minuti.</em></span>
+pt: Experimente: complete com mi, ti ou si. <span lang="it"><em>Io … sveglio alle sette, tu … alzi tardi, Chiara … veste in tre minuti.</em></span>
+
+es: Repasa: <a href="§1">los verbos reflexivos</a>
+pt: Revise: <a href="§1">os verbos reflexivos</a>
+
+es: <span lang="it">la coinquilina</span> = la compañera de piso<br><span lang="it">il gabinetto</span> = el váter<br><span lang="it">il lavandino</span> = el lavabo<br><span lang="it">il rubinetto</span> = el grifo<br><span lang="it">il bidet</span> = el bidé
+pt: <span lang="it">la coinquilina</span> = a colega de apartamento<br><span lang="it">il gabinetto</span> = o vaso sanitário<br><span lang="it">il lavandino</span> = a pia<br><span lang="it">il rubinetto</span> = a torneira<br><span lang="it">il bidet</span> = o bidê
+
+es: ¿A qué hora se despierta Emma? ¿Y Chiara?
+pt: A que horas Emma acorda? E Chiara?
+
+es: ¿Qué hace Emma por la mañana, antes del desayuno?
+pt: O que Emma faz de manhã, antes do café da manhã?
+
+es: ¿Por qué se ríe Chiara?
+pt: Por que Chiara ri?
+
+es: ¿Y tú? ¿Cómo es tu mañana? Escribe tres frases: «Mi sveglio…», «Mi lavo…», «Mi vesto…».
+pt: E você? Como é a sua manhã? Escreva três frases: «Mi sveglio…», «Mi lavo…», «Mi vesto…».
+
+es: <strong>Emma en Italia</strong><a href="§1">← Episodio anterior</a><a href="§2">Todas las lecturas A1</a><span></span>
+pt: <strong>Emma na Itália</strong><a href="§1">← Episódio anterior</a><a href="§2">Todas as leituras A1</a><span></span>
+
+es: La rutina en italiano: relato A1 con verbos reflexivos (PDF)
+pt: A rotina em italiano: conto A1 com verbos reflexivos (PDF)
+
+es: Relato en italiano para principiantes (A1): la mañana de Emma y de su compañera de piso, y un lavabo bajo y misterioso en el baño. Verbos reflexivos, adverbios de frecuencia, preguntas y PDF gratis.
+pt: Conto em italiano para iniciantes (A1): a manhã de Emma e da colega de apartamento, e uma pia baixa e misteriosa no banheiro. Verbos reflexivos, advérbios de frequência, perguntas e PDF grátis.
+
+es: WhatsApp
+pt: WhatsApp
+
+es: <a class="button secondary" href="§1" download="">PDF A1</a>
+pt: <a class="button secondary" href="§1" download="">PDF A1</a>
+
+es: Persona
+pt: Pessoa
+
+es: Forma
+pt: Forma
+
+es: Forma negativa
+pt: Forma negativa
+
+es: Sei italiano?
+pt: <span lang="it">Sei italiano?</span>
+
+es: Siete pronti?
+pt: <span lang="it">Siete pronti?</span>
+
+es: Hai sete?
+pt: <span lang="it">Hai sete?</span>
+
+es: Avete tempo?
+pt: <span lang="it">Avete tempo?</span>
+
+es: un cane
+pt: <span lang="it">un cane</span>
+
+es: un albero
+pt: <span lang="it">un albero</span>
+
+es: uno sport
+pt: <span lang="it">uno sport</span>
+
+es: uno psicologo
+pt: <span lang="it">uno psicologo</span>
+
+es: una penna
+pt: <span lang="it">una penna</span>
+
+es: un’isola
+pt: <span lang="it">un’isola</span>
+
+es: Tipo
+pt: Tipo
+
+es: Uso
+pt: Uso
+
+es: Stiamo bene.
+pt: <span lang="it">Stiamo bene.</span>
+
+es: Vengono domani.
+pt: <span lang="it">Vengono domani.</span>
+
+es: Partitivo
+pt: Partitivo
+
+es: il
+pt: <span lang="it">il</span>
+
+es: lo
+pt: <span lang="it">lo</span>
+
+es: la
+pt: <span lang="it">la</span>
+
+es: gli
+pt: <span lang="it">gli</span>
+
+es: le
+pt: <span lang="it">le</span>
+
+es: Presente
+pt: Presente
+
+es: Futuro
+pt: Futuro
+
+es: Biblioteca gratuita
+pt: Biblioteca gratuita
+
+es: EM
+pt: EM
+
+es: <a class="button secondary" href="§1" download="">PDF A2</a>
+pt: <a class="button secondary" href="§1" download="">PDF A2</a>

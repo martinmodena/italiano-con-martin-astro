@@ -19,6 +19,7 @@
     it: { glossa: 'Significato', esempio: 'Esempio', ascolta: 'Ascolta', chiudi: 'Chiudi', suggerimento: 'Tocca le parole sottolineate: significato, esempio e pronuncia.' },
     en: { glossa: 'Translation', esempio: 'Example', ascolta: 'Listen', chiudi: 'Close', suggerimento: 'Tap the underlined words for the translation, an example and the pronunciation.' },
     es: { glossa: 'Traducción', esempio: 'Ejemplo', ascolta: 'Escuchar', chiudi: 'Cerrar', suggerimento: 'Toca las palabras subrayadas: traducción, ejemplo y pronunciación.' },
+    pt: { glossa: 'Tradução', esempio: 'Exemplo', ascolta: 'Ouvir', chiudi: 'Fechar', suggerimento: 'Toque nas palavras sublinhadas: tradução, exemplo e pronúncia.' },
     fr: { glossa: 'Traduction', esempio: 'Exemple', ascolta: 'Écouter', chiudi: 'Fermer', suggerimento: 'Touchez les mots soulignés : traduction, exemple et prononciation.' },
     cs: { glossa: 'Překlad', esempio: 'Příklad', ascolta: 'Poslechnout', chiudi: 'Zavřít', suggerimento: 'Klepněte na podtržená slova: překlad, příklad a výslovnost.' },
     pl: { glossa: 'Tłumaczenie', esempio: 'Przykład', ascolta: 'Posłuchaj', chiudi: 'Zamknij', suggerimento: 'Dotknij podkreślonych słów: tłumaczenie, przykład i wymowa.' },

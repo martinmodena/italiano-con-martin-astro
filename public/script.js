@@ -7,6 +7,7 @@
     it: ['Apri il menu', 'Chiudi il menu'],
     en: ['Open menu', 'Close menu'],
     es: ['Abrir menú', 'Cerrar menú'],
+    pt: ['Abrir o menu', 'Fechar o menu'],
     fr: ['Ouvrir le menu', 'Fermer le menu'],
     cs: ['Otevřít menu', 'Zavřít menu'],
     pl: ['Otwórz menu', 'Zamknij menu'],

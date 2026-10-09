@@ -1,7 +1,7 @@
 # Regole delle lingue
 
 Come si mescolano italiano e lingua del visitatore in una pagina localizzata.
-Queste regole valgono **sempre**, in tutte e 9 le lingue (`it`, `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja`) e in ogni tipo di pagina.
+Queste regole valgono **sempre**, in tutte le lingue (`it`, `en`, `es`, `fr`, `cs`, `pl`, `tr`, `de`, `ja` e, dal 2026-10-09, `pt` per le pagine già tradotte) e in ogni tipo di pagina.
 Registro delle decisioni: [DECISIONI_SITO.md](./DECISIONI_SITO.md) · Manuale operativo: [AGENTS.md](./AGENTS.md).
 
 ---

@@ -647,6 +647,14 @@ export const LABELS = {
   },
 };
 
+// Portoghese brasiliano (2026-10-09): le pagine nascono da quelle spagnole con
+// scripts/pt/build-pt.mjs, quindi qui servono solo le etichette che in
+// portoghese si scrivono come in italiano, perché l'audit non le scambi per
+// testo rimasto non tradotto.
+for (const label of ['Forma', 'Uso', 'Tipo', 'Quando', 'Pronome', 'Presente', 'Futuro', 'Partitivo']) {
+  if (LABELS[label]) LABELS[label].pt = label;
+}
+
 // Prefissi che introducono una forma sbagliata o corretta: l'etichetta si
 // traduce, la forma italiana che segue resta intatta.
 export const PREFIXES = {
