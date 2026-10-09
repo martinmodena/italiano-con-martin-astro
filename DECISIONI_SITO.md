@@ -885,3 +885,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Emma, episodio 7: «Il lavandino misterioso»** (278 parole, A1, verbi riflessivi + avverbi di frequenza): Emma si sveglia sempre alle sette, la coinquilina Chiara mai prima delle otto; Emma si lava i piedi nel «lavandino basso» e Chiara le spiega che è il bidet. Sorpresa finale vera: in Italia ogni casa deve avere un bidet (DM Sanità 5 luglio 1975, art. 7). Nuovo personaggio: Chiara, la coinquilina.
 - Testata con il modello di qualità al primo tentativo ($0,13), pigiama sobrio; prompt in `docs/prompt-immagini-emma.md` (blocco 8).
 
+## 2026-10-09 - Lettura di scienza sul castoro
+
+- Richiesta di Martin: una lettura sul castoro, che costruisce dighe enormi con grande abilità e deve rosicchiare perché i denti non crescano troppo.
+- **Il castoro: l’ingegnere dai denti arancioni** (`letture/il-castoro-ingegnere-dai-denti-arancioni.html`): A1 presente dei verbi regolari (denti arancioni che crescono sempre, la diga, la casa con la porta sott’acqua, le labbra che si chiudono dietro i denti) · A2 verbi modali (perché deve costruire, l’esperimento di Lars Wilsson con l’altoparlante: il rumore dell’acqua basta a farlo costruire) · B1 comparativi e superlativi (la diga di circa 850 m nel Parco Wood Buffalo trovata con Google Earth nel 2007, raggiunta da Rob Mark nel 2014; il roditore più grande d’Europa; il ritorno in Italia a Tarvisio nel 2018 e lungo il Tevere).
+- Fatti verificati e citati nella scheda Fonti. Il colore arancione: il testo dice solo «denti pieni di ferro e molto duri», perché uno studio del 2024 attribuisce il colore allo strato esterno e non al ferro.
+- Testata: una foto semplice (un castoro che rosicchia un ramo sulla riva), primo tentativo, $0,13; prompt in `docs/prompt-immagine-castoro-2026-10-09.md`.
+
