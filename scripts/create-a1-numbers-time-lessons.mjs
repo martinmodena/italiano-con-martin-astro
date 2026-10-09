@@ -2,7 +2,8 @@
 // Crea le lezioni A1 «I numeri», «Che ore sono?», «Giorni, mesi e date» e (2026-10-06)
 // «Gli avverbi di frequenza»; sempre il 2026-10-06 le lezioni A2 «Il passato prossimo» (rifatta agli
 // stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata; poi «Stare +
-// gerundio» (A2, 30 esercizi, senza testata).
+// gerundio» (A2, 30 esercizi, senza testata). Il 2026-10-09 «Le preposizioni semplici» (A1, rifatta agli
+// stessi URL; `updateCard` aggiorna la tessera che c'era già) e «Le preposizioni articolate» (A1).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -39,6 +40,10 @@ import gerundio from './data/lezioni-a2/stare-gerundio.mjs';
 import gerundioI18n from './data/lezioni-a2/stare-gerundio-i18n.mjs';
 import connettivi from './data/lezioni-b1/connettivi.mjs';
 import connettiviI18n from './data/lezioni-b1/connettivi-i18n.mjs';
+import prepSemplici from './data/lezioni-a1/preposizioni-semplici.mjs';
+import prepSempliciI18n from './data/lezioni-a1/preposizioni-semplici-i18n.mjs';
+import prepArticolate from './data/lezioni-a1/preposizioni-articolate.mjs';
+import prepArticolateI18n from './data/lezioni-a1/preposizioni-articolate-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -231,6 +236,8 @@ const lessons = [
   { ...participi, strings: { it: participi.it, ...participiI18n } },
   { ...gerundio, strings: { it: gerundio.it, ...gerundioI18n } },
   { ...connettivi, strings: { it: connettivi.it, ...connettiviI18n } },
+  { ...prepSemplici, strings: { it: prepSemplici.it, ...prepSempliciI18n } },
+  { ...prepArticolate, strings: { it: prepArticolate.it, ...prepArticolateI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
@@ -435,7 +442,7 @@ for (const lang of LANGS) {
     const existing = lines.findIndex((line) => line.includes(`href="${href}"`));
     if (existing >= 0) {
       // Una lezione rifatta (il passato prossimo) aggiorna il testo della tessera che c'era già.
-      if (lesson.level !== 'a1') lines[existing] = card;
+      if (lesson.level !== 'a1' || lesson.updateCard) lines[existing] = card;
       anchor = existing;
       continue;
     }

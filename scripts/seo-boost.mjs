@@ -481,16 +481,6 @@ const GRAMMAR_DESCRIPTIONS = {
     de: "Lernen Sie, wann man im Italienischen un, uno, una und un' verwendet – mit einfachen Erklärungen, vollständiger Tabelle und interaktiven Übungen mit sofortiger Korrektur.",
     ja: "イタリア語の不定冠詞 un、uno、una、un' の使い分けを、やさしい説明、一覧表、すぐに答え合わせできる練習問題で学びます。",
   },
-  'preposizioni-semplici': {
-    en: 'Learn the Italian simple prepositions di, a, da, in, con, su, per, tra and fra with clear examples and interactive exercises.',
-    es: 'Aprende las preposiciones simples italianas di, a, da, in, con, su, per, tra y fra con ejemplos claros y ejercicios interactivos.',
-    fr: 'Apprenez les prépositions simples italiennes di, a, da, in, con, su, per, tra et fra avec des exemples clairs et des exercices interactifs.',
-    cs: 'Naučte se italské jednoduché předložky di, a, da, in, con, su, per, tra a fra s jasnými příklady a interaktivními cvičeními.',
-    pl: 'Poznaj włoskie przyimki proste di, a, da, in, con, su, per, tra i fra dzięki jasnym przykładom i interaktywnym ćwiczeniom.',
-    tr: 'İtalyanca basit edatlar di, a, da, in, con, su, per, tra ve fra: açık örnekler ve etkileşimli alıştırmalarla öğrenin.',
-    de: 'Lernen Sie die einfachen italienischen Präpositionen di, a, da, in, con, su, per, tra und fra mit klaren Beispielen und interaktiven Übungen.',
-    ja: 'イタリア語の単純前置詞 di、a、da、in、con、su、per、tra、fra を、わかりやすい例と練習問題で学びます。',
-  },
   'presente-verbi-irregolari': {
     en: 'Learn the Italian irregular verbs in the present tense – andare, fare, stare, dare, venire, uscire and sapere – with tables and exercises.',
     es: 'Aprende los verbos irregulares italianos en presente: andare, fare, stare, dare, venire, uscire y sapere, con tablas y ejercicios.',
@@ -581,7 +571,6 @@ const IRREGULAR = {
 };
 const GRAMMAR_LEADS = {
   'articoli-indeterminativi': (l) => CHOOSE[l](it('un, uno, una'), it('un’')),
-  'preposizioni-semplici': (l) => CHOOSE[l](it('di, a, da, in, con, su, per, tra'), it('fra')),
   'presente-verbi-irregolari': (l) => IRREGULAR[l](it('andare, fare, stare, dare, venire, uscire'), it('sapere')),
 };
 

@@ -635,6 +635,16 @@ export const LABELS = {
     de: 'Zusammengesetzte Verben',
     ja: '複合動詞',
   },
+  Preposizione: {
+    en: 'Preposition',
+    es: 'Preposición',
+    fr: 'Préposition',
+    cs: 'Předložka',
+    pl: 'Przyimek',
+    tr: 'Edat',
+    de: 'Präposition',
+    ja: '前置詞',
+  },
 };
 
 // Prefissi che introducono una forma sbagliata o corretta: l'etichetta si
@@ -1218,5 +1228,35 @@ export const NAV_LABELS = {
     tr: 'Sıralama ve toparlama',
     de: 'Ordnen und Abschließen',
     ja: '順序とまとめ',
+  },
+  'Dove?': {
+    en: 'Where?',
+    es: '¿Dónde?',
+    fr: 'Où ?',
+    cs: 'Kde?',
+    pl: 'Gdzie?',
+    tr: 'Nerede?',
+    de: 'Wo?',
+    ja: 'どこ？',
+  },
+  'Con i verbi': {
+    en: 'With verbs',
+    es: 'Con verbos',
+    fr: 'Avec les verbes',
+    cs: 'Se slovesy',
+    pl: 'Z czasownikami',
+    tr: 'Fiillerle',
+    de: 'Mit Verben',
+    ja: '動詞と一緒に',
+  },
+  Partitivo: {
+    en: 'Partitive',
+    es: 'Partitivo',
+    fr: 'Partitif',
+    cs: 'Partitiv',
+    pl: 'Partytyw',
+    tr: 'Kısmi tanımlık',
+    de: 'Teilungsartikel',
+    ja: '部分冠詞',
   },
 };

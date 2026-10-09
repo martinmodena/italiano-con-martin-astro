@@ -870,3 +870,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Link secondario, accanto a «Conosci Martin e Licia» e «Scrivici su WhatsApp», per non togliere clic ai pulsanti dei profili. 1012 pagine (riquadro finale + 9 «Chi siamo»), con `scripts/add-preply-signup-link.mjs`; `rel="sponsored noopener"`.
 - Da controllare nel pannello Preply: se si può portare lo studente direttamente al profilo di Martin con lo stesso codice `pref`.
 
+## 2026-10-09 - Preposizioni semplici rifatte, preposizioni articolate nuove
+
+- Richiesta di Martin: analizzare la lezione sulle preposizioni, aggiungere esercizi, fare le articolate. La vecchia lezione aveva 8 esempi e 8 esercizi: era la più debole del sito.
+- **Le preposizioni semplici** (stessi URL): che cosa indica ogni preposizione, i luoghi (a città / in Paesi, negozi e mezzi / da persona, a piedi), il tempo (da + presente, tra/fra, per, a, in), i verbi con a e di + infinito, 8 errori tipici, 30 esercizi in tre parti, PDF.
+- **Le preposizioni articolate** (A1, nuova, dopo le semplici nell'indice): tabella di/a/da/in/su × 7 articoli, quando serve l'articolo (a Roma / al mare, da Marco / dal medico, di mia madre / della mia amica), le ore, il partitivo del/dei, 8 errori tipici, 30 esercizi (l'ultima parte: semplice o articolata?), PDF.
+- Stesso generatore delle lezioni A1 (`create-a1-numbers-time-lessons.mjs`), 9 lingue; nuove etichette «Dove?», «Con i verbi», «Partitivo», «Preposizione» in `labels.mjs`.
+- Il 2026-10-09 è stato concordato anche il resto del piano, in quest'ordine: verbi riflessivi + episodio di Emma sulla routine (avverbi di frequenza), lettura sul castoro, due lezioni sugli avverbi (-mente; già/ancora/appena), portoghese brasiliano come decima lingua in una sessione dedicata (preferito al catalano: i catalani leggono già lo spagnolo, dal Brasile arrivano già visite).
+

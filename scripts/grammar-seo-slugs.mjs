@@ -34,6 +34,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'italian-irregular-past-participles',
     'stare-gerundio': 'italian-present-continuous-stare-gerund',
     connettivi: 'italian-linking-words-connectives',
+    'preposizioni-articolate': 'italian-articulated-prepositions',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -68,6 +69,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'participios-irregulares-en-italiano',
     'stare-gerundio': 'estar-gerundio-en-italiano',
     connettivi: 'conectores-en-italiano',
+    'preposizioni-articolate': 'preposiciones-articuladas-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -102,6 +104,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'participes-passes-irreguliers-en-italien',
     'stare-gerundio': 'stare-gerondif-en-italien',
     connettivi: 'connecteurs-logiques-en-italien',
+    'preposizioni-articolate': 'prepositions-articulees-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -136,6 +139,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'nepravidelna-pricesti-v-italstine',
     'stare-gerundio': 'stare-gerundium-v-italstine',
     connettivi: 'spojovaci-vyrazy-v-italstine',
+    'preposizioni-articolate': 'predlozky-se-clenem-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -170,6 +174,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'nieregularne-imieslowy-po-wlosku',
     'stare-gerundio': 'stare-gerundium-po-wlosku',
     connettivi: 'wyrazenia-laczace-po-wlosku',
+    'preposizioni-articolate': 'przyimki-sciagniete-z-rodzajnikiem-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -204,6 +209,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'italyancada-duzensiz-gecmis-ortaclar',
     'stare-gerundio': 'italyancada-stare-ulac',
     connettivi: 'italyancada-baglaclar',
+    'preposizioni-articolate': 'italyanca-artikelli-edatlar',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -238,6 +244,7 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'unregelmaessige-partizipien-im-italienischen',
     'stare-gerundio': 'stare-gerundium-im-italienischen',
     connettivi: 'konnektoren-im-italienischen',
+    'preposizioni-articolate': 'praepositionen-mit-artikel-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -272,5 +279,6 @@ export const grammarSeoSlugs = {
     'participi-passati-irregolari': 'イタリア語の不規則な過去分詞',
     'stare-gerundio': 'イタリア語の進行形',
     connettivi: 'イタリア語の接続表現',
+    'preposizioni-articolate': 'イタリア語の冠詞前置詞',
   },
 };
