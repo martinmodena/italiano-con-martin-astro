@@ -36,6 +36,8 @@ export const grammarSeoSlugs = {
     connettivi: 'italian-linking-words-connectives',
     'preposizioni-articolate': 'italian-articulated-prepositions',
     'verbi-riflessivi': 'italian-reflexive-verbs',
+    'gia-ancora-appena': 'italian-adverbs-gia-ancora-appena',
+    'avverbi-in-mente': 'italian-adverbs-ending-in-mente',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -72,6 +74,8 @@ export const grammarSeoSlugs = {
     connettivi: 'conectores-en-italiano',
     'preposizioni-articolate': 'preposiciones-articuladas-en-italiano',
     'verbi-riflessivi': 'verbos-reflexivos-en-italiano',
+    'gia-ancora-appena': 'adverbios-gia-ancora-appena-en-italiano',
+    'avverbi-in-mente': 'adverbios-en-mente-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -108,6 +112,8 @@ export const grammarSeoSlugs = {
     connettivi: 'connecteurs-logiques-en-italien',
     'preposizioni-articolate': 'prepositions-articulees-en-italien',
     'verbi-riflessivi': 'verbes-pronominaux-en-italien',
+    'gia-ancora-appena': 'adverbes-gia-ancora-appena-en-italien',
+    'avverbi-in-mente': 'adverbes-en-mente-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -144,6 +150,8 @@ export const grammarSeoSlugs = {
     connettivi: 'spojovaci-vyrazy-v-italstine',
     'preposizioni-articolate': 'predlozky-se-clenem-v-italstine',
     'verbi-riflessivi': 'zvratna-slovesa-v-italstine',
+    'gia-ancora-appena': 'prislovce-gia-ancora-appena-v-italstine',
+    'avverbi-in-mente': 'prislovce-na-mente-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -180,6 +188,8 @@ export const grammarSeoSlugs = {
     connettivi: 'wyrazenia-laczace-po-wlosku',
     'preposizioni-articolate': 'przyimki-sciagniete-z-rodzajnikiem-po-wlosku',
     'verbi-riflessivi': 'czasowniki-zwrotne-po-wlosku',
+    'gia-ancora-appena': 'przyslowki-gia-ancora-appena-po-wlosku',
+    'avverbi-in-mente': 'przyslowki-na-mente-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -216,6 +226,8 @@ export const grammarSeoSlugs = {
     connettivi: 'italyancada-baglaclar',
     'preposizioni-articolate': 'italyanca-artikelli-edatlar',
     'verbi-riflessivi': 'italyancada-donuslu-fiiller',
+    'gia-ancora-appena': 'italyancada-gia-ancora-appena-zarflari',
+    'avverbi-in-mente': 'italyancada-mente-zarflari',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -252,6 +264,8 @@ export const grammarSeoSlugs = {
     connettivi: 'konnektoren-im-italienischen',
     'preposizioni-articolate': 'praepositionen-mit-artikel-im-italienischen',
     'verbi-riflessivi': 'reflexive-verben-im-italienischen',
+    'gia-ancora-appena': 'adverbien-gia-ancora-appena-im-italienischen',
+    'avverbi-in-mente': 'adverbien-auf-mente-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -288,5 +302,7 @@ export const grammarSeoSlugs = {
     connettivi: 'イタリア語の接続表現',
     'preposizioni-articolate': 'イタリア語の冠詞前置詞',
     'verbi-riflessivi': 'イタリア語の再帰動詞',
+    'gia-ancora-appena': 'イタリア語の副詞-gia-ancora-appena',
+    'avverbi-in-mente': 'イタリア語の副詞-mente',
   },
 };

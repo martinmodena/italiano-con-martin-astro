@@ -34,6 +34,8 @@ export const grammarSeoTitles = {
     connettivi: 'Italian linking words: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Italian articulated prepositions',
     'verbi-riflessivi': 'Italian reflexive verbs',
+    'gia-ancora-appena': 'Già, ancora, appena: Italian adverbs of time',
+    'avverbi-in-mente': 'Italian adverbs ending in -mente',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -70,6 +72,8 @@ export const grammarSeoTitles = {
     connettivi: 'Los conectores en italiano: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Preposiciones articuladas en italiano',
     'verbi-riflessivi': 'Verbos reflexivos en italiano',
+    'gia-ancora-appena': 'Già, ancora, appena: los adverbios de tiempo en italiano',
+    'avverbi-in-mente': 'Los adverbios en -mente en italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -106,6 +110,8 @@ export const grammarSeoTitles = {
     connettivi: 'Les connecteurs en italien : perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Prépositions articulées en italien',
     'verbi-riflessivi': 'Verbes pronominaux en italien',
+    'gia-ancora-appena': 'Già, ancora, appena : les adverbes de temps en italien',
+    'avverbi-in-mente': 'Les adverbes en -mente en italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -142,6 +148,8 @@ export const grammarSeoTitles = {
     connettivi: 'Spojovací výrazy v italštině: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Předložky se členem v italštině',
     'verbi-riflessivi': 'Zvratná slovesa v italštině',
+    'gia-ancora-appena': 'Già, ancora, appena: příslovce času v italštině',
+    'avverbi-in-mente': 'Příslovce na -mente v italštině',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -178,6 +186,8 @@ export const grammarSeoTitles = {
     connettivi: 'Wyrażenia łączące po włosku: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Przyimki ściągnięte z rodzajnikiem po włosku',
     'verbi-riflessivi': 'Czasowniki zwrotne po włosku',
+    'gia-ancora-appena': 'Già, ancora, appena: przysłówki czasu po włosku',
+    'avverbi-in-mente': 'Przysłówki na -mente po włosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -214,6 +224,8 @@ export const grammarSeoTitles = {
     connettivi: 'İtalyancada bağlaçlar: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'İtalyanca artikelli edatlar',
     'verbi-riflessivi': 'İtalyancada dönüşlü fiiller',
+    'gia-ancora-appena': 'Già, ancora, appena: İtalyancada zaman zarfları',
+    'avverbi-in-mente': 'İtalyancada -mente ile biten zarflar',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -250,6 +262,8 @@ export const grammarSeoTitles = {
     connettivi: 'Konnektoren im Italienischen: perché, quindi, nonostante, invece',
     'preposizioni-articolate': 'Präpositionen mit Artikel im Italienischen',
     'verbi-riflessivi': 'Reflexive Verben im Italienischen',
+    'gia-ancora-appena': 'Già, ancora, appena: Zeitadverbien im Italienischen',
+    'avverbi-in-mente': 'Adverbien auf -mente im Italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -286,5 +300,7 @@ export const grammarSeoTitles = {
     connettivi: 'イタリア語の接続表現：perché、quindi、nonostante、invece',
     'preposizioni-articolate': 'イタリア語の冠詞前置詞',
     'verbi-riflessivi': 'イタリア語の再帰動詞',
+    'gia-ancora-appena': 'Già、ancora、appena：イタリア語の時の副詞',
+    'avverbi-in-mente': 'イタリア語の -mente で終わる副詞',
   },
 };

@@ -5,10 +5,10 @@ Generated: 2026-10-09
 ## Inventory
 
 - Supported languages: 9
-- Educational resources: 78
-- Expected localized resource pages: 702
-- Expected PDF files: 1557
-- Existing PDF files: 1757
+- Educational resources: 80
+- Expected localized resource pages: 720
+- Expected PDF files: 1575
+- Existing PDF files: 1775
 - Localized teacher pages: 9
 - Findings: 0
 

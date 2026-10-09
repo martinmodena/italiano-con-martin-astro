@@ -1259,4 +1259,14 @@ export const NAV_LABELS = {
     de: 'Teilungsartikel',
     ja: '部分冠詞',
   },
+  'Aggettivo o avverbio?': {
+    en: 'Adjective or adverb?',
+    es: '¿Adjetivo o adverbio?',
+    fr: 'Adjectif ou adverbe ?',
+    cs: 'Přídavné jméno, nebo příslovce?',
+    pl: 'Przymiotnik czy przysłówek?',
+    tr: 'Sıfat mı, zarf mı?',
+    de: 'Adjektiv oder Adverb?',
+    ja: '形容詞？副詞？',
+  },
 };

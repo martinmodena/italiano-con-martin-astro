@@ -892,3 +892,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Fatti verificati e citati nella scheda Fonti. Il colore arancione: il testo dice solo «denti pieni di ferro e molto duri», perché uno studio del 2024 attribuisce il colore allo strato esterno e non al ferro.
 - Testata: una foto semplice (un castoro che rosicchia un ramo sulla riva), primo tentativo, $0,13; prompt in `docs/prompt-immagine-castoro-2026-10-09.md`.
 
+## 2026-10-09 - Due lezioni A2 sugli avverbi
+
+- Richiesta di Martin: «si potrebbero aggiungere una o più schede sugli avverbi? vedilo tu». C'era solo «Gli avverbi di frequenza» (A1). Scelte due lezioni di grammatica A2 (non di vocabolario: un avverbio non si riconosce da una foto):
+- **Già, ancora, appena, non… più** (`grammatica/a2/gia-ancora-appena.html`, dopo i participi irregolari): significati (i tre sensi di ancora), le coppie per rispondere (già → non ancora, ancora → non più, mai → non… mai), la posizione fra ausiliare e participio, appena = «un momento fa» o «non appena», 8 errori, 30 esercizi (l'ultima parte: metti in ordine).
+- **Gli avverbi in -mente** (`grammatica/a2/avverbi-in-mente.html`, in fondo all'A2): femminile + -mente, -le/-re che perdono la e, bene e male, buono o bene, molto/molti, posizione, avverbi della conversazione (sicuramente, finalmente, veramente…), i falsi amici attualmente ed eventualmente, 8 errori, 30 esercizi.
+- 9 lingue con PDF; nelle note di ogni lingua i confronti utili (in spagnolo niente tilde in facilmente e «ya» di «ya no» = più; in tedesco Adjektiv e Adverb spesso uguali; in inglese -mente = -ly).
+
