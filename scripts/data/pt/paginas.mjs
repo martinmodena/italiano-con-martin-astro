@@ -2,6 +2,7 @@
 // portoghese. Le costruisce scripts/pt/build-pt.mjs dalla versione spagnola.
 // Fase 1 (2026-10-09): home, Chi siamo, indici, grammatica A1, Emma.
 // Fase 2 (2026-10-09): tutte le letture e le favole.
+// Fase 3 (2026-10-09): grammatica A2–C1.
 
 export const PAGES = [
   { it: 'index.html', pt: 'pt/index.html' },
@@ -105,4 +106,31 @@ export const PAGES = [
   { it: 'favole/la-formichina-wow.html', pt: 'pt/fabulas/a-formiguinha-wow.html' },
   { it: 'favole/la-lepre-e-la-tartaruga.html', pt: 'pt/fabulas/a-lebre-e-a-tartaruga.html' },
   { it: 'favole/la-volpe-e-luva.html', pt: 'pt/fabulas/a-raposa-e-as-uvas.html' },
+
+  // Fase 3 (2026-10-09): grammatica A2–C1
+  { it: 'grammatica/a2/avverbi-in-mente.html', pt: 'pt/gramatica/a2/os-adverbios-em-mente-em-italiano.html' },
+  { it: 'grammatica/a2/futuro-semplice.html', pt: 'pt/gramatica/a2/o-futuro-semplice-italiano.html' },
+  { it: 'grammatica/a2/gia-ancora-appena.html', pt: 'pt/gramatica/a2/os-adverbios-gia-ancora-appena-em-italiano.html' },
+  { it: 'grammatica/a2/imperfetto.html', pt: 'pt/gramatica/a2/o-imperfetto-italiano.html' },
+  {
+    it: 'grammatica/a2/participi-passati-irregolari.html',
+    pt: 'pt/gramatica/a2/participios-irregulares-em-italiano.html',
+  },
+  { it: 'grammatica/a2/passato-prossimo-o-imperfetto.html', pt: 'pt/gramatica/a2/passato-prossimo-ou-imperfetto.html' },
+  { it: 'grammatica/a2/passato-prossimo.html', pt: 'pt/gramatica/a2/o-passato-prossimo-italiano.html' },
+  { it: 'grammatica/a2/pronomi-diretti.html', pt: 'pt/gramatica/a2/pronomes-diretos-em-italiano.html' },
+  { it: 'grammatica/a2/stare-gerundio.html', pt: 'pt/gramatica/a2/stare-e-gerundio-em-italiano.html' },
+  { it: 'grammatica/a2/verbi-modali.html', pt: 'pt/gramatica/a2/verbos-modais-italianos-potere-volere-dovere.html' },
+  {
+    it: 'grammatica/b1/comparativo-e-superlativo.html',
+    pt: 'pt/gramatica/b1/comparativo-e-superlativo-em-italiano.html',
+  },
+  { it: 'grammatica/b1/condizionale-presente.html', pt: 'pt/gramatica/b1/o-condizionale-presente-italiano.html' },
+  { it: 'grammatica/b1/connettivi.html', pt: 'pt/gramatica/b1/conectivos-em-italiano.html' },
+  { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html' },
+  { it: 'grammatica/b1/pronomi-combinati.html', pt: 'pt/gramatica/b1/pronomes-combinados-em-italiano.html' },
+  { it: 'grammatica/b2/congiuntivo-presente.html', pt: 'pt/gramatica/b2/o-congiuntivo-presente-italiano.html' },
+  { it: 'grammatica/b2/periodo-ipotetico.html', pt: 'pt/gramatica/b2/o-periodo-ipotetico-em-italiano.html' },
+  { it: 'grammatica/c1/congiuntivo-imperfetto.html', pt: 'pt/gramatica/c1/o-congiuntivo-imperfetto-italiano.html' },
+  { it: 'grammatica/c1/forma-passiva.html', pt: 'pt/gramatica/c1/a-voz-passiva-em-italiano.html' },
 ];

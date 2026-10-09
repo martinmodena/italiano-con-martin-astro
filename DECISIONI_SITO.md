@@ -913,3 +913,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin: «vai con la fase 2». Tradotte in portoghese tutte le letture che mancavano (25 letture di scienza, cultura, storia e tecnologia, più l'indice A2) e le 12 favole con il loro indice `/pt/fabulas/`: 38 pagine nuove e 124 PDF. Gli indici portoghesi delle letture ora mostrano tutte le sezioni (Ciência, Tecnologia, Cultura, História, Fábulas, B1–C1) e la home ha di nuovo la tessera delle favole.
 - Le glosse delle parole utili delle letture più vecchie erano tradotte male a macchina anche in spagnolo (es. _attenzione_ = «ten cuidado», _sonno_ = «dormir», _condire_ = «temporada», _soffiare_ = «golpe»): in portoghese sono state riscritte dal significato italiano.
 - Restano da tradurre: grammatica A2–C1 e vocabolario.
+
+## 2026-10-09 - Portoghese brasiliano, fase 3
+
+- Richiesta di Martin: «vai con la fase 3». Tradotte in portoghese le 19 lezioni di grammatica A2–C1 (passato prossimo, participi irregolari, imperfetto, stare + gerundio, futuro, modali, pronomi, avverbi, condizionale, imperativo, comparativi, connettivi, congiuntivo, periodo ipotetico, passiva): l'indice `/pt/gramatica/` ora va dall'A1 al C1. 19 pagine e 19 PDF.
+- Le lezioni spagnole più vecchie (verbi modali, comparativi, imperativo, periodo ipotetico, passiva, congiuntivo) contengono errori di traduzione automatica: esempi italiani tradotti in spagnolo («trabajo hoy meglio», «Habría comido»), resti di inglese («can, want o have to», «to be»), etichette assurde. In portoghese sono stati riscritti dall'originale italiano. Le pagine spagnole restano da correggere.
+- Resta da tradurre il vocabolario.

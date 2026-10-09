@@ -651,7 +651,20 @@ export const LABELS = {
 // scripts/pt/build-pt.mjs, quindi qui servono solo le etichette che in
 // portoghese si scrivono come in italiano, perché l'audit non le scambi per
 // testo rimasto non tradotto.
-for (const label of ['Forma', 'Uso', 'Tipo', 'Quando', 'Pronome', 'Presente', 'Futuro', 'Partitivo']) {
+for (const label of [
+  'Forma',
+  'Uso',
+  'Tipo',
+  'Quando',
+  'Pronome',
+  'Presente',
+  'Futuro',
+  'Partitivo',
+  'Passiva',
+  'Verbo',
+  'Verbo base',
+  'Superlativo relativo',
+]) {
   if (LABELS[label]) LABELS[label].pt = label;
 }
 

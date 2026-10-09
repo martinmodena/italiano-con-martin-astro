@@ -246,7 +246,8 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
       const { key, hrefs } = withPlaceholders($(el).html());
       // Le etichette brevi (Persona, Forma, Nota) sono uguali in spagnolo e in italiano:
       // si riconoscono come italiane solo le frasi di almeno tre parole.
-      if (itSet.has(bare(key)) && bare(key).split(' ').length >= 3) return;
+      const b = bare(key);
+      if (itSet.has(b) && ((b.match(/\p{L}+/gu) || []).length >= 3 || /___|\d/.test(b))) return;
       const out = translate(key, where);
       if (out !== key) $(el).html(fromPlaceholders(out, hrefs));
     },
