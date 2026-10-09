@@ -14286,3 +14286,453 @@ pt: <span lang="it">Bene</span> ou <span lang="it">buono</span>? <span lang="it"
 
 es: ¿<span lang="it">Essere</span> o <span lang="it">avere</span>?
 pt: <span lang="it">Essere</span> ou <span lang="it">avere</span>?
+
+es: <strong>Incorrecto: <span lang="it">io parleraio.</span></strong> Correcto: <span lang="it">io parlerò.</span>
+pt: <strong>Errado: <span lang="it">io parleraio.</span></strong> Correto: <span lang="it">io parlerò.</span>
+
+es: <strong>Incorrecto: <span lang="it">domani vado a Roma, sempre.</span></strong> Correcto: <span lang="it">domani andrò a Roma.</span>
+pt: <strong>Errado: <span lang="it">domani vado a Roma, sempre.</span></strong> Correto: <span lang="it">domani andrò a Roma.</span>
+
+es: <strong>Incorrecto: <span lang="it">loro partirà.</span></strong> Correcto: <span lang="it">loro partiranno.</span>
+pt: <strong>Errado: <span lang="it">loro partirà.</span></strong> Correto: <span lang="it">loro partiranno.</span>
+
+es: <strong>Incorrecto: <span lang="it">io andarò.</span></strong> Correcto: <span lang="it">io andrò.</span>
+pt: <strong>Errado: <span lang="it">io andarò.</span></strong> Correto: <span lang="it">io andrò.</span>
+
+es: <strong>Incorrecto: <span lang="it">io era stanco.</span></strong> Correcto: <span lang="it">io ero stanco.</span>
+pt: <strong>Errado: <span lang="it">io era stanco.</span></strong> Correto: <span lang="it">io ero stanco.</span>
+
+es: <strong>Incorrecto: <span lang="it">noi parlava.</span></strong> Correcto: <span lang="it">noi parlavamo.</span>
+pt: <strong>Errado: <span lang="it">noi parlava.</span></strong> Correto: <span lang="it">noi parlavamo.</span>
+
+es: <strong>Incorrecto: <span lang="it">quando ero bambino, sono giocato.</span></strong> Correcto: <span lang="it">quando ero bambino, giocavo.</span>
+pt: <strong>Errado: <span lang="it">quando ero bambino, sono giocato.</span></strong> Correto: <span lang="it">quando ero bambino, giocavo.</span>
+
+es: <strong>Incorrecto: <span lang="it">facevo una pizza ieri.</span></strong> Mejor: <span lang="it">ieri ho fatto una pizza.</span>
+pt: <strong>Errado: <span lang="it">facevo una pizza ieri.</span></strong> Melhor: <span lang="it">ieri ho fatto una pizza.</span>
+
+es: <strong>Incorrecto: <span lang="it">Da bambino ho giocato ogni giorno.</span></strong> Mejor: <span lang="it">da bambino giocavo ogni giorno.</span>
+pt: <strong>Errado: <span lang="it">Da bambino ho giocato ogni giorno.</span></strong> Melhor: <span lang="it">da bambino giocavo ogni giorno.</span>
+
+es: <strong>Incorrecto: <span lang="it">Ieri andavo al cinema.</span></strong> Mejor: <span lang="it">ieri sono andato al cinema.</span>
+pt: <strong>Errado: <span lang="it">Ieri andavo al cinema.</span></strong> Melhor: <span lang="it">ieri sono andato al cinema.</span>
+
+es: <strong>Incorrecto: <span lang="it">Era caduto mentre camminava.</span></strong> Mejor (A2): <span lang="it">è caduto mentre camminava.</span>
+pt: <strong>Errado: <span lang="it">Era caduto mentre camminava.</span></strong> Melhor (A2): <span lang="it">è caduto mentre camminava.</span>
+
+es: <strong>Incorrecto: <span lang="it">Quando ho avuto 10 anni...</span></strong> Mejor: <span lang="it">quando avevo 10 anni...</span>
+pt: <strong>Errado: <span lang="it">Quando ho avuto 10 anni...</span></strong> Melhor: <span lang="it">quando avevo 10 anni...</span>
+
+es: <strong>Incorrecto: <span lang="it">vedo lo</span></strong> Correcto: <span lang="it">lo vedo.</span>
+pt: <strong>Errado: <span lang="it">vedo lo</span></strong> Correto: <span lang="it">lo vedo.</span>
+
+es: <strong>Incorrecto: <span lang="it">la ho vista</span></strong> Correcto: <span lang="it">l'ho vista.</span>
+pt: <strong>Errado: <span lang="it">la ho vista</span></strong> Correto: <span lang="it">l'ho vista.</span>
+
+es: <strong>Incorrecto: <span lang="it">li ho comprato</span></strong> Correcto: <span lang="it">li ho comprati.</span>
+pt: <strong>Errado: <span lang="it">li ho comprato</span></strong> Correto: <span lang="it">li ho comprati.</span>
+
+es: <strong>Incorrecto: <span lang="it">le ascolto a loro</span></strong> Correcto: <span lang="it">le ascolto.</span>
+pt: <strong>Errado: <span lang="it">le ascolto a loro</span></strong> Correto: <span lang="it">le ascolto.</span>
+
+es: <strong>Incorrecto: <span lang="it">io può parlare.</span></strong> Correcto: <span lang="it">io posso parlare.</span>
+pt: <strong>Errado: <span lang="it">io può parlare.</span></strong> Correto: <span lang="it">io posso parlare.</span>
+
+es: <strong>Incorrecto: <span lang="it">lei puo venire.</span></strong> Correcto: <span lang="it">lei può venire.</span>
+pt: <strong>Errado: <span lang="it">lei puo venire.</span></strong> Correto: <span lang="it">lei può venire.</span>
+
+es: <strong>Incorrecto: <span lang="it">devo vado.</span></strong> Correcto: <span lang="it">devo andare.</span>
+pt: <strong>Errado: <span lang="it">devo vado.</span></strong> Correto: <span lang="it">devo andare.</span>
+
+es: <strong>Incorrecto: <span lang="it">loro vogliono studiano.</span></strong> Correcto: <span lang="it">loro vogliono studiare.</span>
+pt: <strong>Errado: <span lang="it">loro vogliono studiano.</span></strong> Correto: <span lang="it">loro vogliono studiare.</span>
+
+es: <strong>Incorrecto: <span lang="it">più grande che me</span></strong> Correcto: <span lang="it">più grande di me.</span>
+pt: <strong>Errado: <span lang="it">più grande che me</span></strong> Correto: <span lang="it">più grande di me.</span>
+
+es: <strong>Incorrecto: <span lang="it">molto bellissimo</span></strong> Correcto: <span lang="it">molto bello oppure bellissimo.</span>
+pt: <strong>Errado: <span lang="it">molto bellissimo</span></strong> Correto: <span lang="it">molto bello oppure bellissimo.</span>
+
+es: <strong>Incorrecto: <span lang="it">il più meglio</span></strong> Correcto: <span lang="it">il migliore.</span>
+pt: <strong>Errado: <span lang="it">il più meglio</span></strong> Correto: <span lang="it">il migliore.</span>
+
+es: <strong>Incorrecto: <span lang="it">uguale di</span></strong> Correcto: <span lang="it">uguale a / come.</span>
+pt: <strong>Errado: <span lang="it">uguale di</span></strong> Correto: <span lang="it">uguale a / come.</span>
+
+es: <strong>Incorrecto: <span lang="it">io vorrebbe.</span></strong> Correcto: <span lang="it">io vorrei.</span>
+pt: <strong>Errado: <span lang="it">io vorrebbe.</span></strong> Correto: <span lang="it">io vorrei.</span>
+
+es: <strong>Incorrecto: <span lang="it">Potresti aiutarmi?</span> (en tono seco)</strong> Mejor: <span lang="it">Potresti aiutarmi, per favore?</span>
+pt: <strong>Errado: <span lang="it">Potresti aiutarmi?</span> (em tom seco)</strong> Melhor: <span lang="it">Potresti aiutarmi, per favore?</span>
+
+es: <strong>Incorrecto: <span lang="it">noi parleriamo.</span></strong> Correcto: <span lang="it">noi parleremmo.</span>
+pt: <strong>Errado: <span lang="it">noi parleriamo.</span></strong> Correto: <span lang="it">noi parleremmo.</span>
+
+es: <strong>Incorrecto: <span lang="it">loro andarebbero.</span></strong> Correcto: <span lang="it">loro andrebbero.</span>
+pt: <strong>Errado: <span lang="it">loro andarebbero.</span></strong> Correto: <span lang="it">loro andrebbero.</span>
+
+es: <strong>Incorrecto: <span lang="it">tu parla italiano</span></strong> Correcto: <span lang="it">parla italiano.</span>
+pt: <strong>Errado: <span lang="it">tu parla italiano</span></strong> Correto: <span lang="it">parla italiano.</span>
+
+es: <strong>Incorrecto: <span lang="it">non parla!</span></strong> Correcto: <span lang="it">non parlare!</span>
+pt: <strong>Errado: <span lang="it">non parla!</span></strong> Correto: <span lang="it">non parlare!</span>
+
+es: <strong>Incorrecto: <span lang="it">lo prendi!</span></strong> Correcto: <span lang="it">prendilo!</span>
+pt: <strong>Errado: <span lang="it">lo prendi!</span></strong> Correto: <span lang="it">prendilo!</span>
+
+es: <strong>Incorrecto: <span lang="it">andi!</span></strong> Correcto: <span lang="it">va'! / vai!</span>
+pt: <strong>Errado: <span lang="it">andi!</span></strong> Correto: <span lang="it">va'! / vai!</span>
+
+es: <strong>Incorrecto: <span lang="it">mi lo dai.</span></strong> Correcto: <span lang="it">me lo dai.</span>
+pt: <strong>Errado: <span lang="it">mi lo dai.</span></strong> Correto: <span lang="it">me lo dai.</span>
+
+es: <strong>Incorrecto: <span lang="it">ti la mando.</span></strong> Correcto: <span lang="it">te la mando.</span>
+pt: <strong>Errado: <span lang="it">ti la mando.</span></strong> Correto: <span lang="it">te la mando.</span>
+
+es: <strong>Incorrecto: <span lang="it">gli lo dico.</span></strong> Correcto: <span lang="it">glielo dico.</span>
+pt: <strong>Errado: <span lang="it">gli lo dico.</span></strong> Correto: <span lang="it">glielo dico.</span>
+
+es: <strong>Incorrecto: <span lang="it">ci ne sono.</span></strong> Correcto: <span lang="it">ce ne sono.</span>
+pt: <strong>Errado: <span lang="it">ci ne sono.</span></strong> Correto: <span lang="it">ce ne sono.</span>
+
+es: <strong>Incorrecto: <span lang="it">penso che lui è bravo.</span></strong> Correcto: <span lang="it">penso che lui sia bravo.</span>
+pt: <strong>Errado: <span lang="it">penso che lui è bravo.</span></strong> Correto: <span lang="it">penso che lui sia bravo.</span>
+
+es: <strong>Incorrecto: <span lang="it">spero che tu vieni.</span></strong> Correcto: <span lang="it">spero che tu venga.</span>
+pt: <strong>Errado: <span lang="it">spero che tu vieni.</span></strong> Correto: <span lang="it">spero che tu venga.</span>
+
+es: <strong>Incorrecto: <span lang="it">è importante che voi parlate.</span></strong> Correcto: <span lang="it">è importante che voi parliate.</span>
+pt: <strong>Errado: <span lang="it">è importante che voi parlate.</span></strong> Correto: <span lang="it">è importante che voi parliate.</span>
+
+es: <strong>Incorrecto: <span lang="it">credo che loro hanno tempo.</span></strong> Correcto: <span lang="it">credo che loro abbiano tempo.</span>
+pt: <strong>Errado: <span lang="it">credo che loro hanno tempo.</span></strong> Correto: <span lang="it">credo che loro abbiano tempo.</span>
+
+es: <strong>Incorrecto: <span lang="it">se avrei tempo.</span></strong> Correcto: <span lang="it">se avessi tempo.</span>
+pt: <strong>Errado: <span lang="it">se avrei tempo.</span></strong> Correto: <span lang="it">se avessi tempo.</span>
+
+es: <strong>Incorrecto: <span lang="it">se studiavo, parlerei.</span></strong> Correcto: <span lang="it">se studiassi, parlerei.</span>
+pt: <strong>Errado: <span lang="it">se studiavo, parlerei.</span></strong> Correto: <span lang="it">se studiassi, parlerei.</span>
+
+es: <strong>Incorrecto: <span lang="it">se avrei studiato.</span></strong> Correcto: <span lang="it">se avessi studiato.</span>
+pt: <strong>Errado: <span lang="it">se avrei studiato.</span></strong> Correto: <span lang="it">se avessi studiato.</span>
+
+es: <strong>Incorrecto: <span lang="it">la lettera è scritto</span></strong> Correcto: <span lang="it">la lettera è scritta.</span>
+pt: <strong>Errado: <span lang="it">la lettera è scritto</span></strong> Correto: <span lang="it">la lettera è scritta.</span>
+
+es: <strong>Incorrecto: <span lang="it">il libro è pubblicato da ieri</span></strong> Mejor: <span lang="it">il libro è stato pubblicato ieri.</span>
+pt: <strong>Errado: <span lang="it">il libro è pubblicato da ieri</span></strong> Melhor: <span lang="it">il libro è stato pubblicato ieri.</span>
+
+es: <strong>Incorrecto: <span lang="it">viene chiuso da me la porta</span></strong> Correcto: <span lang="it">la porta viene chiusa da me.</span>
+pt: <strong>Errado: <span lang="it">viene chiuso da me la porta</span></strong> Correto: <span lang="it">la porta viene chiusa da me.</span>
+
+es: <strong>Incorrecto: <span lang="it">il modulo deve compilato</span></strong> Correcto: <span lang="it">il modulo va compilato / deve essere compilato.</span>
+pt: <strong>Errado: <span lang="it">il modulo deve compilato</span></strong> Correto: <span lang="it">il modulo va compilato / deve essere compilato.</span>
+
+es: Habla de planes, previsiones y promesas: <span lang="it">domani studierò, partirai, faremo pratica</span>.
+pt: Fale de planos, previsões e promessas: <span lang="it">domani studierò, partirai, faremo pratica</span>.
+
+es: En muchos verbos quitamos la terminación del infinitivo y añadimos las terminaciones del futuro.
+pt: Em muitos verbos tiramos a terminação do infinitivo e acrescentamos as terminações do futuro.
+
+es: <strong>Nota:</strong> en los verbos en <em lang="it">-are</em> la <em lang="it">a</em> se convierte en <em lang="it">e</em>: <em lang="it">parlare → parlerò, mangiare → mangerò</em>.
+pt: <strong>Nota:</strong> nos verbos em <em lang="it">-are</em> o <em lang="it">a</em> vira <em lang="it">e</em>: <em lang="it">parlare → parlerò, mangiare → mangerò</em>.
+
+es: <strong>Planes</strong><br><span lang="it">Domani visiterò il centro.</span>
+pt: <strong>Planos</strong><br><span lang="it">Domani visiterò il centro.</span>
+
+es: Escribe el <em lang="it">futuro semplice</em>.
+pt: Escreva o <em lang="it">futuro semplice</em>.
+
+es: Aprende a hablar de hábitos del pasado, descripciones y situaciones en curso.
+pt: Aprenda a falar de hábitos do passado, descrições e situações em andamento.
+
+es: ¿Cuándo usamos el <span lang="it">imperfetto</span>?
+pt: Quando usamos o <span lang="it">imperfetto</span>?
+
+es: <strong>Edad, hora, clima</strong><br><span lang="it">Avevo dieci anni. Erano le otto. Pioveva.</span>
+pt: <strong>Idade, hora, tempo (clima)</strong><br><span lang="it">Avevo dieci anni. Erano le otto. Pioveva.</span>
+
+es: Cuatro verbos muy importantes
+pt: Quatro verbos muito importantes
+
+es: Escribe la forma correcta del <em lang="it">imperfetto</em>.
+pt: Escreva a forma correta do <em lang="it">imperfetto</em>.
+
+es: Aprende a elegir entre acción terminada, hábito, descripción y situación en curso.
+pt: Aprenda a escolher entre ação concluída, hábito, descrição e situação em andamento.
+
+es: <strong lang="it">Passato prossimo</strong><br><span>Acción terminada, hecho puntual.</span><br><em lang="it">Ieri ho studiato italiano.</em>
+pt: <strong lang="it">Passato prossimo</strong><br><span>Ação concluída, fato pontual.</span><br><em lang="it">Ieri ho studiato italiano.</em>
+
+es: <strong lang="it">Imperfetto</strong><br><span>Hábito, descripción, situación.</span><br><em lang="it">Da bambino studiavo poco.</em>
+pt: <strong lang="it">Imperfetto</strong><br><span>Hábito, descrição, situação.</span><br><em lang="it">Da bambino studiavo poco.</em>
+
+es: <strong>Truco útil:</strong> si puedes preguntar <span lang="it">che cosa è successo?</span>, a menudo usas el <span lang="it">passato prossimo</span>. Si describes <span lang="it">com’era la situazione?</span>, a menudo usas el <span lang="it">imperfetto</span>.
+pt: <strong>Dica útil:</strong> se você pode perguntar <span lang="it">che cosa è successo?</span>, muitas vezes usa o <span lang="it">passato prossimo</span>. Se descreve <span lang="it">com’era la situazione?</span>, muitas vezes usa o <span lang="it">imperfetto</span>. É a mesma lógica do português entre «morei» e «morava».
+
+es: Acción terminada
+pt: Ação concluída
+
+es: Hábito en el pasado
+pt: Hábito no passado
+
+es: Descripción
+pt: Descrição
+
+es: Acción que interrumpe
+pt: Ação que interrompe
+
+es: Acción en curso
+pt: Ação em andamento
+
+es: Usa <span lang="it">mi, ti, lo, la, ci, vi, li, le</span> para evitar repeticiones y hablar de forma más natural.
+pt: Use <span lang="it">mi, ti, lo, la, ci, vi, li, le</span> para evitar repetições e falar de um jeito mais natural.
+
+es: Los pronombres directos responden a la pregunta <strong lang="it">chi?</strong> o <strong lang="it">che cosa?</strong> Suelen ir delante del verbo conjugado.
+pt: Os pronomes diretos respondem à pergunta <strong lang="it">chi?</strong> ou <strong lang="it">che cosa?</strong> Costumam vir antes do verbo conjugado.
+
+es: <span lang="it">lui</span> / masculino singular
+pt: <span lang="it">lui</span> / masculino singular
+
+es: <span lang="it">lei</span> / femenino singular
+pt: <span lang="it">lei</span> / feminino singular
+
+es: <strong>Con el <span lang="it">passato prossimo</span>:</strong> con <em lang="it">lo, la, li, le</em> el participio concuerda: <em lang="it">Ho visto Anna → L’ho vista.</em>
+pt: <strong>Com o <span lang="it">passato prossimo</span>:</strong> com <em lang="it">lo, la, li, le</em> o particípio concorda: <em lang="it">Ho visto Anna → L’ho vista.</em>
+
+es: Con estos verbos puedes hablar de posibilidades, deseos, necesidades y obligaciones: puedo hablar, quiero estudiar, tengo que trabajar.
+pt: Com estes verbos você pode falar de possibilidades, desejos, necessidades e obrigações: posso falar, quero estudar, tenho que trabalhar.
+
+es: <strong lang="it">potere</strong><br><span lang="it">Posso uscire.</span> = tengo la posibilidad.
+pt: <strong lang="it">potere</strong><br><span lang="it">Posso uscire.</span> = tenho a possibilidade.
+
+es: <strong lang="it">volere</strong><br><span lang="it">Voglio parlare.</span> = tengo un deseo.
+pt: <strong lang="it">volere</strong><br><span lang="it">Voglio parlare.</span> = tenho um desejo.
+
+es: <strong lang="it">dovere</strong><br><span lang="it">Devo studiare.</span> = tengo una obligación o una necesidad.
+pt: <strong lang="it">dovere</strong><br><span lang="it">Devo studiare.</span> = tenho uma obrigação ou uma necessidade.
+
+es: <strong lang="it">modale + infinito</strong><br><span lang="it">Devi partire</span>, no «<span lang="it">devi parti</span>».
+pt: <strong lang="it">modale + infinito</strong><br><span lang="it">Devi partire</span>, não «<span lang="it">devi parti</span>».
+
+es: <strong>Regla corta:</strong> con <em lang="it">potere</em>, <em lang="it">volere</em> y <em lang="it">dovere</em> el segundo verbo queda en infinitivo: <em lang="it">parlare, vedere, dormire</em>.
+pt: <strong>Regra curta:</strong> com <em lang="it">potere</em>, <em lang="it">volere</em> e <em lang="it">dovere</em> o segundo verbo fica no infinitivo: <em lang="it">parlare, vedere, dormire</em>, como em português («posso falar»).
+
+es: Frases muy útiles
+pt: Frases muito úteis
+
+es: En el <span lang="it">passato prossimo</span> el modal suele tomar el auxiliar del verbo en infinitivo.
+pt: No <span lang="it">passato prossimo</span> o modal costuma usar o auxiliar do verbo no infinitivo.
+
+es: <strong>Para empezar:</strong> si el segundo verbo usa <em lang="it">essere</em>, a menudo el modal también usa <em lang="it">essere</em>: <em lang="it">sono dovuto andare, sono potuta uscire</em>.
+pt: <strong>Para começar:</strong> se o segundo verbo usa <em lang="it">essere</em>, muitas vezes o modal também usa <em lang="it">essere</em>: <em lang="it">sono dovuto andare, sono potuta uscire</em>.
+
+es: Completa con <em lang="it">potere</em>, <em lang="it">volere</em> o <em lang="it">dovere</em> en presente.
+pt: Complete com <em lang="it">potere</em>, <em lang="it">volere</em> ou <em lang="it">dovere</em> no presente.
+
+es: <strong>Superioridad</strong><br><span lang="it">Roma è più grande di Pisa.</span>
+pt: <strong>Superioridade</strong><br><span lang="it">Roma è più grande di Pisa.</span>
+
+es: <strong>Inferioridad</strong><br><span lang="it">Questo corso è meno caro di quello.</span>
+pt: <strong>Inferioridade</strong><br><span lang="it">Questo corso è meno caro di quello.</span>
+
+es: <strong>Igualdad</strong><br><span lang="it">Marco è alto come Luca.</span>
+pt: <strong>Igualdade</strong><br><span lang="it">Marco è alto come Luca.</span>
+
+es: Superioridad
+pt: Superioridade
+
+es: Inferioridad
+pt: Inferioridade
+
+es: Igualdad
+pt: Igualdade
+
+es: Superlativo relativo
+pt: Superlativo relativo
+
+es: Superlativo absoluto
+pt: Superlativo absoluto
+
+es: <strong>Atención:</strong> <strong lang="it">migliore</strong> significa «más bueno» o «más hábil»; <strong lang="it">peggiore</strong>, «más malo» o «menos bueno».
+pt: <strong>Atenção:</strong> <strong lang="it">migliore</strong> quer dizer «mais bom» ou «mais habilidoso» (melhor); <strong lang="it">peggiore</strong>, «mais ruim» ou «menos bom» (pior).
+
+es: ¿<em lang="it">Di</em> o <em lang="it">che</em>? Una regla sencilla
+pt: <em lang="it">Di</em> ou <em lang="it">che</em>? Uma regra simples
+
+es: Mira qué se compara después de <strong lang="it">più</strong> o <strong lang="it">meno</strong> y hazte esta pregunta:
+pt: Veja o que se compara depois de <strong lang="it">più</strong> ou <strong lang="it">meno</strong> e faça esta pergunta:
+
+es: <strong>¿Dos personas, cosas o momentos?</strong><br>Comparas la misma característica en dos términos diferentes: usa <strong lang="it">di</strong>.
+pt: <strong>Duas pessoas, coisas ou momentos?</strong><br>Você compara a mesma característica em dois termos diferentes: use <strong lang="it">di</strong>.
+
+es: <strong>¿Dos cualidades o acciones del mismo término?</strong><br>Comparas dos aspectos del mismo sujeto: usa <strong lang="it">che</strong>.
+pt: <strong>Duas qualidades ou ações do mesmo termo?</strong><br>Você compara dois aspectos do mesmo sujeito: use <strong lang="it">che</strong>.
+
+es: Uso de <em lang="it">di</em>: misma característica, dos términos diferentes
+pt: Uso de <em lang="it">di</em>: mesma característica, dois termos diferentes
+
+es: <strong lang="it">Martin è più alto di Luca.</strong><br>Característica: la altura. Personas: Martin y Luca.
+pt: <strong lang="it">Martin è più alto di Luca.</strong><br>Característica: a altura. Pessoas: Martin e Luca.
+
+es: <strong lang="it">Oggi fa più caldo di ieri.</strong><br>Característica: la temperatura. Momentos: hoy y ayer.
+pt: <strong lang="it">Oggi fa più caldo di ieri.</strong><br>Característica: a temperatura. Momentos: hoje e ontem.
+
+es: <strong lang="it">Questo libro è meno lungo di quello.</strong><br>Característica: la longitud. Cosas: este libro y aquel.
+pt: <strong lang="it">Questo libro è meno lungo di quello.</strong><br>Característica: o comprimento. Coisas: este livro e aquele.
+
+es: <strong lang="it">Giulia corre più velocemente di me.</strong><br>Con los pronombres: <em lang="it">di me, di te, di lui, di lei, di noi, di voi, di loro</em>.
+pt: <strong lang="it">Giulia corre più velocemente di me.</strong><br>Com os pronomes: <em lang="it">di me, di te, di lui, di lei, di noi, di voi, di loro</em>.
+
+es: Uso de <em lang="it">che</em>: dos aspectos del mismo término
+pt: Uso de <em lang="it">che</em>: dois aspectos do mesmo termo
+
+es: <strong>Dos cualidades</strong><br><span lang="it">Martin è più alto <strong>che</strong> generoso.</span><br><span lang="it">Il film è più lungo <strong>che</strong> difficile.</span>
+pt: <strong>Duas qualidades</strong><br><span lang="it">Martin è più alto <strong>che</strong> generoso.</span><br><span lang="it">Il film è più lungo <strong>che</strong> difficile.</span>
+
+es: <strong>Dos acciones</strong><br><span lang="it">È più facile leggere <strong>che</strong> scrivere.</span><br><span lang="it">Camminare è più salutare <strong>che</strong> prendere l’autobus.</span>
+pt: <strong>Duas ações</strong><br><span lang="it">È più facile leggere <strong>che</strong> scrivere.</span><br><span lang="it">Camminare è più salutare <strong>che</strong> prendere l’autobus.</span>
+
+es: <strong>Dos sustantivos</strong><br><span lang="it">Abbiamo più fame <strong>che</strong> sete.</span><br><span lang="it">In casa ci sono più libri <strong>che</strong> riviste.</span>
+pt: <strong>Dois substantivos</strong><br><span lang="it">Abbiamo più fame <strong>che</strong> sete.</span><br><span lang="it">In casa ci sono più libri <strong>che</strong> riviste.</span>
+
+es: <strong>Dos expresiones con preposición</strong><br><span lang="it">Il viaggio è più comodo <strong>in treno che in autobus</strong>.</span><br><span lang="it">Studio più volentieri <strong>con Anna che con Paolo</strong>.</span>
+pt: <strong>Duas expressões com preposição</strong><br><span lang="it">Il viaggio è più comodo <strong>in treno che in autobus</strong>.</span><br><span lang="it">Studio più volentieri <strong>con Anna che con Paolo</strong>.</span>
+
+es: <strong>Truco rápido:</strong> Si puedes decir «<span lang="it">X rispetto a Y</span>» y X e Y son personas, cosas o momentos diferentes, elige <em lang="it">di</em>. Si después de <em lang="it">più/meno</em> comparas dos cualidades, acciones o alternativas del mismo sujeto, elige <em lang="it">che</em>.
+pt: <strong>Dica rápida:</strong> se você pode dizer «<span lang="it">X rispetto a Y</span>» e X e Y são pessoas, coisas ou momentos diferentes, escolha <em lang="it">di</em>. Se depois de <em lang="it">più/meno</em> você compara duas qualidades, ações ou alternativas do mesmo sujeito, escolha <em lang="it">che</em>.
+
+es: ¿<em lang="it">Meglio</em> o <em lang="it">migliore</em>?
+pt: <em lang="it">Meglio</em> ou <em lang="it">migliore</em>?
+
+es: Completa con la forma correcta. Los ejercicios 11 a 22 se centran en <em lang="it">di</em> y <em lang="it">che</em>; los últimos distinguen <em lang="it">meglio</em> y <em lang="it">migliore</em>.
+pt: Complete com a forma correta. Os exercícios 11 a 22 tratam de <em lang="it">di</em> e <em lang="it">che</em>; os últimos distinguem <em lang="it">meglio</em> e <em lang="it">migliore</em>.
+
+es: Escribe tu frase y luego compárala con la solución propuesta. No hay una única traducción posible: esta actividad solo registra que la has hecho, no dice si está bien o mal.
+pt: Escreva a sua frase e depois compare com a solução proposta. Não existe uma única tradução possível: esta atividade só registra que você a fez, não diz se está certa ou errada.
+
+es: Aprende a hablar con amabilidad: <span lang="it">vorrei, potresti, mi piacerebbe, dovresti</span>.
+pt: Aprenda a falar com gentileza: <span lang="it">vorrei, potresti, mi piacerebbe, dovresti</span>.
+
+es: El <span lang="it">condizionale presente</span> usa una base parecida a la del futuro, pero con otras terminaciones.
+pt: O <span lang="it">condizionale presente</span> usa uma base parecida com a do futuro, mas com outras terminações.
+
+es: <strong>Deseos</strong><br><span lang="it">Vorrei parlare meglio italiano.</span>
+pt: <strong>Desejos</strong><br><span lang="it">Vorrei parlare meglio italiano.</span>
+
+es: <strong>Consejos</strong><br><span lang="it">Dovresti leggere ogni giorno.</span>
+pt: <strong>Conselhos</strong><br><span lang="it">Dovresti leggere ogni giorno.</span>
+
+es: Escribe el <em lang="it">condizionale presente</em>.
+pt: Escreva o <em lang="it">condizionale presente</em>.
+
+es: Da instrucciones, consejos, invitaciones e indicaciones de forma natural: <span lang="it">ascolta, prendi, parti, non fare</span>.
+pt: Dê instruções, conselhos, convites e indicações de forma natural: <span lang="it">ascolta, prendi, parti, non fare</span>.
+
+es: <strong>Instrucción</strong><br><span lang="it">Gira a destra.</span>
+pt: <strong>Instrução</strong><br><span lang="it">Gira a destra.</span>
+
+es: <strong>Invitación</strong><br><span lang="it">Entra, per favore.</span>
+pt: <strong>Convite</strong><br><span lang="it">Entra, per favore.</span>
+
+es: <strong>Consejo</strong><br><span lang="it">Dormi un po'.</span>
+pt: <strong>Conselho</strong><br><span lang="it">Dormi un po'.</span>
+
+es: <strong>Prohibición</strong><br><span lang="it">Non parlare adesso.</span>
+pt: <strong>Proibição</strong><br><span lang="it">Non parlare adesso.</span>
+
+es: Formas con <span lang="it">tu</span> y <span lang="it">voi</span>
+pt: Formas com <span lang="it">tu</span> e <span lang="it">voi</span>
+
+es: <strong>Negativo con <span lang="it">tu</span>:</strong> <em lang="it">non</em> + infinitivo: <em lang="it">non parlare, non prendere, non partire</em>.
+pt: <strong>Negativo com <span lang="it">tu</span>:</strong> <em lang="it">non</em> + infinitivo: <em lang="it">non parlare, non prendere, non partire</em>.
+
+es: Aprende a decir frases naturales como <span lang="it">te lo dico, gliela porto, ce ne sono</span>.
+pt: Aprenda a dizer frases naturais como <span lang="it">te lo dico, gliela porto, ce ne sono</span>.
+
+es: Los pronombres combinados unen un pronombre indirecto y uno directo.
+pt: Os pronomes combinados juntam um pronome indireto e um direto.
+
+es: <strong>Orden:</strong> primero el pronombre indirecto transformado, luego el pronombre directo: <em lang="it">me + lo, te + la, glie + li</em>.
+pt: <strong>Ordem:</strong> primeiro o pronome indireto transformado, depois o pronome direto: <em lang="it">me + lo, te + la, glie + li</em>.
+
+es: La tabla básica
+pt: A tabela básica
+
+es: A quién
+pt: A quem
+
+es: Reescribe la frase con el pronombre combinado.
+pt: Reescreva a frase com o pronome combinado.
+
+es: Úsalo después de opiniones, dudas, emociones y valoraciones: <span lang="it">penso che sia, spero che venga</span>.
+pt: Use depois de opiniões, dúvidas, emoções e avaliações: <span lang="it">penso che sia, spero che venga</span>.
+
+es: <strong>Importante:</strong> <em lang="it">io, tu</em> y <em lang="it">lui / lei</em> tienen a menudo la misma forma: <em lang="it">che io parli, che tu parli, che lui parli</em>.
+pt: <strong>Importante:</strong> <em lang="it">io, tu</em> e <em lang="it">lui / lei</em> muitas vezes têm a mesma forma: <em lang="it">che io parli, che tu parli, che lui parli</em>.
+
+es: <strong>Duda</strong><br><span lang="it">Non so se venga oggi.</span>
+pt: <strong>Dúvida</strong><br><span lang="it">Non so se venga oggi.</span>
+
+es: <strong>Emoción</strong><br><span lang="it">Sono felice che tu studi italiano.</span>
+pt: <strong>Emoção</strong><br><span lang="it">Sono felice che tu studi italiano.</span>
+
+es: <strong>Truco práctico:</strong> después de expresiones como <span lang="it">penso che</span>, <span lang="it">credo che</span>, <span lang="it">spero che</span>, <span lang="it">è importante che</span>, a menudo hace falta el <span lang="it">congiuntivo</span>.
+pt: <strong>Dica prática:</strong> depois de expressões como <span lang="it">penso che</span>, <span lang="it">credo che</span>, <span lang="it">spero che</span>, <span lang="it">è importante che</span>, muitas vezes é preciso o <span lang="it">congiuntivo</span>. Atenção: em português «acho que é» leva indicativo, mas em italiano <em lang="it">penso che sia</em>.
+
+es: Irregulares fundamentales
+pt: Irregulares fundamentais
+
+es: Completa con el <em lang="it">congiuntivo presente</em>.
+pt: Complete com o <em lang="it">congiuntivo presente</em>.
+
+es: Aprende a construir frases con <em lang="it">se</em>: realidad, posibilidad y situaciones imaginarias.
+pt: Aprenda a construir frases com <em lang="it">se</em>: realidade, possibilidade e situações imaginárias.
+
+es: Usamos el <span lang="it">congiuntivo imperfetto</span> después de <strong lang="it">se</strong> y el <span lang="it">condizionale presente</span> en la consecuencia.
+pt: Usamos o <span lang="it">congiuntivo imperfetto</span> depois de <strong lang="it">se</strong> e o <span lang="it">condizionale presente</span> na consequência, como em português: «se eu tivesse, eu iria».
+
+es: Cuando hablamos de algo que no sucedió, usamos el <span lang="it">congiuntivo trapassato</span> y el <span lang="it">condizionale passato</span>.
+pt: Quando falamos de algo que não aconteceu, usamos o <span lang="it">congiuntivo trapassato</span> e o <span lang="it">condizionale passato</span>.
+
+es: Completa con la forma correcta.
+pt: Complete com a forma correta.
+
+es: Aprende a desplazar la atención de la acción a quien la recibe: <span lang="it">il libro è stato pubblicato, la legge viene approvata</span>.
+pt: Aprenda a deslocar a atenção da ação para quem a recebe: <span lang="it">il libro è stato pubblicato, la legge viene approvata</span>.
+
+es: En la oración activa el sujeto realiza la acción. En la oración pasiva el sujeto recibe la acción. Es muy frecuente en textos formales, noticias, instrucciones y documentos.
+pt: Na frase ativa o sujeito faz a ação. Na frase passiva o sujeito recebe a ação. É muito frequente em textos formais, notícias, instruções e documentos.
+
+es: <strong>Activa</strong><br><span lang="it">Il Comune approva il progetto.</span>
+pt: <strong>Ativa</strong><br><span lang="it">Il Comune approva il progetto.</span>
+
+es: <strong>Pasiva</strong><br><span lang="it">Il progetto è approvato dal Comune.</span>
+pt: <strong>Passiva</strong><br><span lang="it">Il progetto è approvato dal Comune.</span>
+
+es: <strong>Activa</strong><br><span lang="it">L'editore ha pubblicato il libro.</span>
+pt: <strong>Ativa</strong><br><span lang="it">L'editore ha pubblicato il libro.</span>
+
+es: <strong>Pasiva</strong><br><span lang="it">Il libro è stato pubblicato dall'editore.</span>
+pt: <strong>Passiva</strong><br><span lang="it">Il libro è stato pubblicato dall'editore.</span>
+
+es: forma general
+pt: forma geral
+
+es: acción, no estado
+pt: ação, não estado
+
+es: necesidad
+pt: necessidade
+
+es: <span lang="it">da</span> + agente
+pt: <span lang="it">da</span> + agente
+
+es: quién realiza la acción
+pt: quem faz a ação
+
+es: <strong>Concordancia:</strong> el participio concuerda con el sujeto pasivo: <em lang="it">la lettera è stata scritta, i documenti sono stati firmati</em>.
+pt: <strong>Concordância:</strong> o particípio concorda com o sujeito passivo: <em lang="it">la lettera è stata scritta, i documenti sono stati firmati</em>.
+
+es: Transforma la frase en pasiva o complétala.
+pt: Transforme a frase na voz passiva ou complete-a.

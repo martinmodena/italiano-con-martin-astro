@@ -939,4 +939,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - 13 vignette riusate (spagnolo, inglese, francese, tedesco: solo quelle senza bandiere), 8 nuove ($0,07); testata: un pandeiro brasiliano accanto a un tamburello italiano ($0,13).
 - Scartate _tassa_ (la vignetta mostra una tazza, la _taça_ brasiliana è un calice), _largo_ (in portoghese vuol dire «largo» come in italiano), _pronto_, _vaso_, _salire_: le ultime tre e _presunto_ finiscono nella nota «falsos amigos pela metade».
 - Corretto un difetto della fase 4: `vocabulary.js` e `vocabulary-progress.js` avevano i testi portoghesi ma la stessa versione `?v=` di prima; alzata a `20261010` in tutte le 335 pagine che li caricano.
-- Resta da fare (annotato il 2026-10-09 nella fase 3): correggere le lezioni spagnole A2–C1 più vecchie (verbi modali, comparativi, imperativo, periodo ipotetico, passiva, congiuntivo), piene di traduzione automatica.
+
+## 2026-10-10 - Lezioni spagnole A2–C1 corrette
+
+- Richiesta di Martin. Corrette le 12 lezioni scritte a mano (le 6 del generatore e il congiuntivo imperfetto erano già scritti bene): resti di inglese («can, want o have to», «to be»), esempi italiani tradotti in spagnolo («trabajo hoy meglio», «Habría comido»), spiegazioni rimaste in italiano nel comparativo, titoli tradotti a macchina («¿Por o eso?», «mejor o mejor», «Formas contigo y contigo», «Edad, tiempo, tiempo»), un racconto mezzo italiano e mezzo spagnolo, errori tipici con «Corretto:/Ma:/Meglio:» e forme italiane non marcate, tabelle con celle spagnole dentro `<tbody lang="it">`.
+- Le nuove etichette di tabella (Più, Meno, Uguale, A qualcuno, lui / maschile singolare…) sono registrate in `scripts/data/table-cells.mjs`, così l'audit delle lingue le accetta tradotte.
+- Corretti anche refusi nell'italiano originale, in tutte le lingue: «è caduto», «ogni martedì», «che cosa è successo», «Quattro verbi importantissimi» (erano quattro), e l'errore tipico dei modali che era identico alla forma corretta (ora «lei puo venire», senza accento).
+- In portoghese le frasi nuove sono nel dizionario; rimesse le quattro note scritte apposta per chi parla portoghese (morei/morava, «posso falar», «acho que é», «se eu tivesse»).
+- **Resta da fare:** nelle altre 7 lingue (en, fr, de, cs, pl, tr, ja) le stesse 16 lezioni hanno ancora «Corretto:», «Ma:» e «Meglio:» in italiano negli errori tipici, e probabilmente gli stessi difetti di traduzione automatica dello spagnolo.
