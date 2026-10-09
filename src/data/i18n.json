@@ -90,8 +90,8 @@
       "footerGrid": "<div><strong>Italiano con Martin</strong><p>Net dilbilgisi, dereceli okumalar ve çevrimiçi dersler.</p></div><div><a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a></div>"
     },
     "pt": {
-      "nav": "<a href=\"/pt/gramatica/\">Gramática</a><a href=\"/pt/leituras/\">Leituras</a><a class=\"about-link\" href=\"/pt/sobre-nos/\">Sobre nós</a>",
-      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Gramática clara, leituras graduadas e aulas online.</p></div><div><a href=\"/pt/gramatica/\">Gramática</a><a href=\"/pt/leituras/\">Leituras</a><a class=\"about-link\" href=\"/pt/sobre-nos/\">Sobre nós</a></div>"
+      "nav": "<a href=\"/pt/gramatica/\">Gramática</a><a href=\"/pt/leituras/\">Leituras</a><a href=\"/pt/vocabulario/\">Vocabulário</a><a class=\"about-link\" href=\"/pt/sobre-nos/\">Sobre nós</a>",
+      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Gramática clara, leituras graduadas e aulas online.</p></div><div><a href=\"/pt/gramatica/\">Gramática</a><a href=\"/pt/leituras/\">Leituras</a><a href=\"/pt/vocabulario/\">Vocabulário</a><a class=\"about-link\" href=\"/pt/sobre-nos/\">Sobre nós</a></div>"
     }
   }
 }

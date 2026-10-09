@@ -17,6 +17,11 @@
         correct: '¡Correcto! Has reconocido la palabra.',
         incorrect: 'Todavía no. Mira bien la imagen e inténtalo de nuevo.',
       },
+      pt: {
+        progress: (correct, total, percentage) => `${correct} de ${total} corretas · ${percentage}%`,
+        correct: 'Correto! Você reconheceu a palavra.',
+        incorrect: 'Ainda não. Olhe bem a imagem e tente de novo.',
+      },
       fr: {
         progress: (correct, total, percentage) => `${correct} sur ${total} correctes · ${percentage}%`,
         correct: 'Correct ! Vous avez reconnu le mot.',

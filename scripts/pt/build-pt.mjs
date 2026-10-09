@@ -171,7 +171,9 @@ function walk($, node, leaf, text) {
     if ((child.children || []).some(isBlock)) walk($, child, leaf, text);
     else if (onlyLinks(child)) {
       for (const a of child.children) if (a.type === 'tag' && hasWords(serviceText($, a))) leaf(a);
-    } else if (hasWords(serviceText($, child))) leaf(child);
+    }
+    // anche «¿<em lang="it">…</em> o <em lang="it">…</em>?»: solo punteggiatura spagnola attorno all'italiano
+    else if (hasWords(serviceText($, child)) || /[¿¡]/.test(serviceText($, child))) leaf(child);
   }
 }
 
@@ -247,7 +249,9 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
       // Le etichette brevi (Persona, Forma, Nota) sono uguali in spagnolo e in italiano:
       // si riconoscono come italiane solo le frasi di almeno tre parole.
       const b = bare(key);
-      if (itSet.has(b) && ((b.match(/\p{L}+/gu) || []).length >= 3 || /___|\d/.test(b))) return;
+      // Nelle schede del vocabolario anche la parola del titolo è italiana («la casa»).
+      const wordTitle = /^h[23]$/.test(el.name) && $(el).closest('.word-card').length;
+      if (itSet.has(b) && (wordTitle || (b.match(/\p{L}+/gu) || []).length >= 3 || /___|\d/.test(b))) return;
       const out = translate(key, where);
       if (out !== key) $(el).html(fromPlaceholders(out, hrefs));
     },
@@ -272,6 +276,8 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
     const href = el.attribs?.href;
     if (href && href.startsWith('https://wa.me/')) el.attribs.href = translate(href, where);
   });
+  // le frasi da tradurre negli esercizi sono nella lingua del visitatore
+  $('[lang="es"]').attr('lang', HREFLANG);
   return $.html();
 }
 

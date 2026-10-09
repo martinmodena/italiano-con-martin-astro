@@ -3,6 +3,7 @@
 // Fase 1 (2026-10-09): home, Chi siamo, indici, grammatica A1, Emma.
 // Fase 2 (2026-10-09): tutte le letture e le favole.
 // Fase 3 (2026-10-09): grammatica A2–C1.
+// Fase 4 (2026-10-09): vocabolario.
 
 export const PAGES = [
   { it: 'index.html', pt: 'pt/index.html' },
@@ -133,4 +134,45 @@ export const PAGES = [
   { it: 'grammatica/b2/periodo-ipotetico.html', pt: 'pt/gramatica/b2/o-periodo-ipotetico-em-italiano.html' },
   { it: 'grammatica/c1/congiuntivo-imperfetto.html', pt: 'pt/gramatica/c1/o-congiuntivo-imperfetto-italiano.html' },
   { it: 'grammatica/c1/forma-passiva.html', pt: 'pt/gramatica/c1/a-voz-passiva-em-italiano.html' },
+
+  // Fase 4 (2026-10-09): vocabolario
+  { it: 'vocabolario/index.html', pt: 'pt/vocabulario/index.html' },
+  { it: 'vocabolario/abbigliamento.html', pt: 'pt/vocabulario/vocabulario-das-roupas-em-italiano.html' },
+  { it: 'vocabolario/animali.html', pt: 'pt/vocabulario/vocabulario-dos-animais-em-italiano.html' },
+  {
+    it: 'vocabolario/caratteristiche-fisiche-animali.html',
+    pt: 'pt/vocabulario/vocabulario-caracteristicas-fisicas-dos-animais-em-italiano.html',
+  },
+  { it: 'vocabolario/casa.html', pt: 'pt/vocabulario/vocabulario-da-casa-em-italiano.html' },
+  { it: 'vocabolario/cibo.html', pt: 'pt/vocabulario/vocabulario-da-comida-em-italiano.html' },
+  { it: 'vocabolario/citta.html', pt: 'pt/vocabulario/vocabulario-da-cidade-em-italiano.html' },
+  { it: 'vocabolario/colori-forme.html', pt: 'pt/vocabulario/vocabulario-das-cores-e-formas-em-italiano.html' },
+  { it: 'vocabolario/corpo-umano.html', pt: 'pt/vocabulario/vocabulario-do-corpo-humano-em-italiano.html' },
+  { it: 'vocabolario/cucina.html', pt: 'pt/vocabulario/vocabulario-da-cozinha-em-italiano.html' },
+  { it: 'vocabolario/emozioni.html', pt: 'pt/vocabulario/vocabulario-das-emocoes-em-italiano.html' },
+  { it: 'vocabolario/famiglia.html', pt: 'pt/vocabulario/vocabulario-da-familia-em-italiano.html' },
+  { it: 'vocabolario/mare.html', pt: 'pt/vocabulario/vocabulario-do-mar-em-italiano.html' },
+  { it: 'vocabolario/mestieri.html', pt: 'pt/vocabulario/vocabulario-das-profissoes-em-italiano.html' },
+  { it: 'vocabolario/montagna.html', pt: 'pt/vocabulario/vocabulario-da-montanha-em-italiano.html' },
+  {
+    it: 'vocabolario/personalita-animali.html',
+    pt: 'pt/vocabulario/vocabulario-personalidade-dos-animais-em-italiano.html',
+  },
+  { it: 'vocabolario/persone.html', pt: 'pt/vocabulario/vocabulario-das-pessoas-em-italiano.html' },
+  { it: 'vocabolario/salotto.html', pt: 'pt/vocabulario/vocabulario-da-sala-de-estar-em-italiano.html' },
+  { it: 'vocabolario/scuola.html', pt: 'pt/vocabulario/vocabulario-da-escola-em-italiano.html' },
+  { it: 'vocabolario/sport.html', pt: 'pt/vocabulario/vocabulario-do-esporte-em-italiano.html' },
+  { it: 'vocabolario/tempo-stagioni.html', pt: 'pt/vocabulario/vocabulario-do-tempo-e-das-estacoes-em-italiano.html' },
+  { it: 'vocabolario/ufficio.html', pt: 'pt/vocabulario/vocabulario-do-escritorio-em-italiano.html' },
+  { it: 'vocabolario/verbi-animali.html', pt: 'pt/vocabulario/vocabulario-verbos-dos-animais-em-italiano.html' },
+  { it: 'vocabolario/verbi-casa.html', pt: 'pt/vocabulario/vocabulario-verbos-da-casa-em-italiano.html' },
+  { it: 'vocabolario/verbi-citta.html', pt: 'pt/vocabulario/vocabulario-verbos-da-cidade-em-italiano.html' },
+  { it: 'vocabolario/verbi-corpo.html', pt: 'pt/vocabulario/vocabulario-verbos-do-corpo-em-italiano.html' },
+  { it: 'vocabolario/verbi-influenza.html', pt: 'pt/vocabulario/vocabulario-verbos-de-influencia-em-italiano.html' },
+  { it: 'vocabolario/verbi-mare.html', pt: 'pt/vocabulario/vocabulario-verbos-do-mar-em-italiano.html' },
+  { it: 'vocabolario/verbi-montagna.html', pt: 'pt/vocabulario/vocabulario-verbos-da-montanha-em-italiano.html' },
+  { it: 'vocabolario/verbi-relazioni.html', pt: 'pt/vocabulario/vocabulario-verbos-das-relacoes-em-italiano.html' },
+  { it: 'vocabolario/verbi-scuola.html', pt: 'pt/vocabulario/vocabulario-verbos-da-escola-em-italiano.html' },
+  { it: 'vocabolario/verbi-sport.html', pt: 'pt/vocabulario/vocabulario-verbos-do-esporte-em-italiano.html' },
+  { it: 'vocabolario/verbi-ufficio.html', pt: 'pt/vocabulario/vocabulario-verbos-do-escritorio-em-italiano.html' },
 ];

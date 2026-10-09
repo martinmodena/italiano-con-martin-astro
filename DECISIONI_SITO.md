@@ -7,7 +7,7 @@ Il repository `italiano-con-martin-astro` e la sorgente principale del sito: il 
 ## Lingue e SEO
 
 - L'italiano resta la lingua predefinita con `/letture/`, `/grammatica/` e `/favole/`.
-- Le lingue internazionali usano pagine statiche dedicate: `/en/`, `/es/`, `/fr/`, `/cs/`, `/pl/`, `/tr/`, `/de/` e `/ja/`; dal 2026-10-09 anche `/pt/` (portoghese brasiliano), per ora solo per una parte delle pagine.
+- Le lingue internazionali usano pagine statiche dedicate: `/en/`, `/es/`, `/fr/`, `/cs/`, `/pl/`, `/tr/`, `/de/` e `/ja/`; dal 2026-10-09 anche `/pt/` (portoghese brasiliano), completo dalla fase 4 dello stesso giorno.
 - Le pagine localizzate devono avere `lang`, canonical, `hreflang` reciproci, meta description, Open Graph e presenza nella sitemap.
 - Il selettore delle lingue deve mostrare le bandiere e collegare a URL permanenti.
 
@@ -906,7 +906,7 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - URL: prefisso `/pt/`, slug in portoghese (`/pt/gramatica/a1/o-verbo-essere-em-italiano.html`, `/pt/leituras/emma-a-pia-misteriosa.html`, `/pt/sobre-nos/`); `lang="pt-BR"`, hreflang `pt-BR`; nel selettore il portoghese viene subito dopo lo spagnolo, con la bandiera del Brasile.
 - Le pagine nascono dalla versione spagnola con `scripts/pt/build-pt.mjs` e un dizionario di frasi (`scripts/data/pt/dicionario.txt`): l'italiano resta identico, il testo di servizio è tradotto, le note pensate per gli spagnoli sono riscritte per i brasiliani (contrazioni do/na come le preposizioni articolate, «há dois anos» per _da due anni_, «de trem» = _in treno_, il pronome riflessivo che in Brasile spesso cade). Procedura in `AGENTS.md`.
 - Correzioni rispetto allo spagnolo: «Corretto:» rimasto in italiano negli errori tipici di alcune lezioni spagnole è diventato «Correto:» con la forma italiana marcata; frasi tradotte male in spagnolo (es. «Maquillaje», «yo tengo, tu tienes… quiero la carta h») sono state riscritte dal senso italiano.
-- Il menu portoghese ha solo Gramática, Leituras e Sobre nós finché il vocabolario non sarà tradotto.
+- Il menu portoghese ha solo Gramática, Leituras e Sobre nós finché il vocabolario non sarà tradotto (aggiunto con la fase 4).
 
 ## 2026-10-09 - Portoghese brasiliano, fase 2
 
@@ -919,3 +919,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin: «vai con la fase 3». Tradotte in portoghese le 19 lezioni di grammatica A2–C1 (passato prossimo, participi irregolari, imperfetto, stare + gerundio, futuro, modali, pronomi, avverbi, condizionale, imperativo, comparativi, connettivi, congiuntivo, periodo ipotetico, passiva): l'indice `/pt/gramatica/` ora va dall'A1 al C1. 19 pagine e 19 PDF.
 - Le lezioni spagnole più vecchie (verbi modali, comparativi, imperativo, periodo ipotetico, passiva, congiuntivo) contengono errori di traduzione automatica: esempi italiani tradotti in spagnolo («trabajo hoy meglio», «Habría comido»), resti di inglese («can, want o have to», «to be»), etichette assurde. In portoghese sono stati riscritti dall'originale italiano. Le pagine spagnole restano da correggere.
 - Resta da tradurre il vocabolario.
+
+## 2026-10-09 - Portoghese brasiliano, fase 4: il portoghese è completo
+
+- Richiesta di Martin: «vai con la fase 4». Tradotto in portoghese tutto il vocabolario: l'indice `/pt/vocabulario/` e le 32 lezioni (sostantivi, aggettivi e verbi). 33 pagine; il vocabolario non ha PDF. Il menu e il piè di pagina portoghesi ora hanno anche Vocabulário, e la home portoghese ha di nuovo la tessera del vocabolario. Con questa fase il portoghese ha tutte le pagine delle altre lingue, tranne i falsi amici (vedi sotto).
+- I falsi amici spagnoli (`falsos-amigos-italiano-espanol`) non sono stati tradotti: sono scritti per chi parla spagnolo. Una lezione «falsos amigos italiano–português» sarebbe contenuto nuovo, da scrivere a parte se Martin la vuole.
+- I testi alternativi delle immagini spagnole erano in parte tradotti a macchina (es. _cravatta_ = «empate», _tuta_ = «traje», _panchina_ = «banco» nel senso di banca): in portoghese sono stati riscritti dal testo italiano. Le note per chi parla spagnolo sono state riscritte per i brasiliani (es. _la firma_ = assinatura e non «firma»; _licenziare_ e _assumere_ falsi amici; _rosso_ ≠ «roxo»; _ti amo_ solo per il partner, mentre in Brasile «te amo» si dice anche in famiglia; _la gente_ singolare e diverso dal «a gente» brasiliano).
+- Le parole delle schede (`<h2>` dentro `.word-card`, «la casa», «il palazzo») nelle pagine spagnole non hanno `lang="it"`: `build-pt.mjs` ora le riconosce confrontandole con la pagina italiana. Le frasi da tradurre degli esercizi hanno `lang="es"` nelle pagine spagnole: in portoghese diventano `lang="pt-BR"`.
+- Corretti due punti interrogativi spagnoli rimasti nelle lezioni portoghesi «Os advérbios em -mente» e «O passato prossimo» («¿Essere o avere?»): erano elementi con solo italiano e punteggiatura, che lo script saltava.
