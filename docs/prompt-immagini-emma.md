@@ -55,3 +55,9 @@ Soft painterly gouache illustration, warm golden midday light, gentle colors, no
 ```
 Soft painterly gouache illustration, warm evening light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing a mustard-yellow cardigan over a white t-shirt, stands at the open door of an Italian apartment in the evening, holding a big bouquet of sunflowers, while her surprised host, a young man with wet hair and an old t-shirt, opens the door with a towel around his neck. Behind him an empty cozy kitchen with a set table and a pot on the stove. No text, no words, no letters, no logos, no meat, no fish.
 ```
+
+## 8. `reading-emma-bagno` — «Il lavandino misterioso» (2026-10-09, primo tentativo, $0,13)
+
+```
+Soft painterly gouache illustration, soft warm morning light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing modest loose long-sleeved light-blue cotton pyjamas, fully clothed, stands in a small bright Italian bathroom holding a toothbrush, tilting her head and looking curiously and puzzled at a white bidet with a small chrome tap, mounted on the wall beside the washbasin. Pale ceramic tiles, a small window with a terracotta rooftop view outside, a towel on a hook, a plant on the windowsill. Gentle humorous everyday atmosphere, tasteful and family-friendly. One person only. No text, no words, no letters, no logos.
+```

@@ -3,7 +3,7 @@
 // «Gli avverbi di frequenza»; sempre il 2026-10-06 le lezioni A2 «Il passato prossimo» (rifatta agli
 // stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata; poi «Stare +
 // gerundio» (A2, 30 esercizi, senza testata). Il 2026-10-09 «Le preposizioni semplici» (A1, rifatta agli
-// stessi URL; `updateCard` aggiorna la tessera che c'era già) e «Le preposizioni articolate» (A1).
+// stessi URL; `updateCard` aggiorna la tessera che c'era già) e «Le preposizioni articolate» (A1); poi «I verbi riflessivi» (A1).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -44,6 +44,8 @@ import prepSemplici from './data/lezioni-a1/preposizioni-semplici.mjs';
 import prepSempliciI18n from './data/lezioni-a1/preposizioni-semplici-i18n.mjs';
 import prepArticolate from './data/lezioni-a1/preposizioni-articolate.mjs';
 import prepArticolateI18n from './data/lezioni-a1/preposizioni-articolate-i18n.mjs';
+import riflessivi from './data/lezioni-a1/verbi-riflessivi.mjs';
+import riflessiviI18n from './data/lezioni-a1/verbi-riflessivi-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -238,6 +240,7 @@ const lessons = [
   { ...connettivi, strings: { it: connettivi.it, ...connettiviI18n } },
   { ...prepSemplici, strings: { it: prepSemplici.it, ...prepSempliciI18n } },
   { ...prepArticolate, strings: { it: prepArticolate.it, ...prepArticolateI18n } },
+  { ...riflessivi, strings: { it: riflessivi.it, ...riflessiviI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

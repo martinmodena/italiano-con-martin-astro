@@ -878,3 +878,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Stesso generatore delle lezioni A1 (`create-a1-numbers-time-lessons.mjs`), 9 lingue; nuove etichette «Dove?», «Con i verbi», «Partitivo», «Preposizione» in `labels.mjs`.
 - Il 2026-10-09 è stato concordato anche il resto del piano, in quest'ordine: verbi riflessivi + episodio di Emma sulla routine (avverbi di frequenza), lettura sul castoro, due lezioni sugli avverbi (-mente; già/ancora/appena), portoghese brasiliano come decima lingua in una sessione dedicata (preferito al catalano: i catalani leggono già lo spagnolo, dal Brasile arrivano già visite).
 
+## 2026-10-09 - Verbi riflessivi ed Emma «Il lavandino misterioso»
+
+- Richiesta di Martin: un testo sulla routine giornaliera, magari una lettura di Emma. Sul sito mancava la lezione sui verbi riflessivi, che sono proprio i verbi della routine: fatte insieme.
+- **I verbi riflessivi** (grammatica A1, dopo il presente irregolare): mi/ti/si/ci/vi/si con i tre gruppi, i verbi della giornata (mi lavo le mani senza possessivo, sedersi, farsi la doccia), riflessivo o no (mi lavo / lavo la macchina, mi chiamo / chiamo), reciproci, posizione del pronome (devo alzarmi / mi devo alzare), passato prossimo con essere, 8 errori, 30 esercizi, PDF.
+- **Emma, episodio 7: «Il lavandino misterioso»** (278 parole, A1, verbi riflessivi + avverbi di frequenza): Emma si sveglia sempre alle sette, la coinquilina Chiara mai prima delle otto; Emma si lava i piedi nel «lavandino basso» e Chiara le spiega che è il bidet. Sorpresa finale vera: in Italia ogni casa deve avere un bidet (DM Sanità 5 luglio 1975, art. 7). Nuovo personaggio: Chiara, la coinquilina.
+- Testata con il modello di qualità al primo tentativo ($0,13), pigiama sobrio; prompt in `docs/prompt-immagini-emma.md` (blocco 8).
+
