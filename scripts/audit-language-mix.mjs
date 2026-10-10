@@ -96,7 +96,8 @@ for (const entry of buildMap()) {
   const { lang, page } = entry;
 
   // 1. il marchio e i nomi non si adattano
-  if (raw.includes('Martín')) add(page, 'marchio', '«Martín» al posto di «Martin»');
+  // «Martín» come nome, non dentro un cognome come «Martínez» (fonti dell'axolotl, 2026-10-10).
+  if (/Martín(?!\p{L})/u.test(raw)) add(page, 'marchio', '«Martín» al posto di «Martin»');
 
   // 2. nessun link alla versione italiana del sito
   if (IT_ONLY_LINK.test(raw)) add(page, 'link', 'collegamento a un percorso italiano');

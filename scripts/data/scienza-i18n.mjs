@@ -3,6 +3,9 @@
 // glosse delle parole, spiegazioni del riquadro e la traduzione di servizio delle domande
 // (solo A1 e A2, REGOLE_LINGUE.md). <it>…</it> = forma italiana dentro la frase straniera.
 
+import { NATURA_I18N_1 } from './scienza-i18n-natura-1.mjs';
+import { NATURA_I18N_2 } from './scienza-i18n-natura-2.mjs';
+
 export const SCIENZA_UI = {
   it: { science: 'Scienza', sourcesLabel: 'Fonti', sourcesTitle: 'Fonti usate', sourcesSub: 'Per approfondire' },
   en: { science: 'Science', sourcesLabel: 'Sources', sourcesTitle: 'Sources used', sourcesSub: 'Further reading' },
@@ -4124,4 +4127,7 @@ export const SCIENZA_I18N = {
       },
     },
   },
+  // Letture sulla natura del 2026-10-10 (medusa, axolotl, monarca, rondone)
+  ...NATURA_I18N_1,
+  ...NATURA_I18N_2,
 };

@@ -958,3 +958,17 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin: un piccolo bottone verde in basso a destra su tutte le pagine, per farsi contattare su WhatsApp; nella home e in «Chi siamo» resta anche il bottone grande che c'era già (stesso numero).
 - Uso: la lezione di prova si fa direttamente con Martin o Licia, **a pagamento, al prezzo indicato (14 €)**, non gratis; dopo la prova lo studente passa a Preply (link «invita un amico» con lo sconto). Su WhatsApp si danno le disponibilità di Martin e Licia.
 - Vincolo: gli studenti trovati su Preply non vanno portati su WhatsApp (regole di Preply); il bottone vale per chi arriva dal sito.
+
+## 2026-10-10 - Quattro letture sulla natura: medusa immortale, axolotl, farfalla monarca, rondone
+
+- Richiesta di Martin («fai la medusa, l'axolotl, la farfalla monarca e il rondone, un po' alla volta»), scelte fra le idee proposte. Le altre idee restano in lista: formazione a V degli uccelli, storni di Roma, salmone; e due episodi di Emma per imperfetto («Quando ero piccola») e futuro.
+- **Mai nulla di magia** (Martin, 2026-10-10, dopo la proposta di un episodio di Emma con una cartomante): niente cartomanti, oroscopi, maghi o soprannaturale nei contenuti. Per i tempi verbali si usano situazioni reali.
+- Grammatica scelta fra le lezioni meno allenate dalle letture (il futuro non lo allenava nessuna):
+  - **La medusa che torna bambina** (`letture/la-medusa-che-torna-bambina.html`): A1 presente dei verbi irregolari · A2 già / ancora / appena / non… più (Christian Sommer e l'acquario di Rapallo, 1988) · B1 condizionale (il nome da Anton Dohrn e la Stazione Zoologica di Napoli, il transdifferenziamento, il genoma del 2022, il condizionale «giornalistico» dei titoli sull'eterna giovinezza).
+  - **L'axolotl: rifà le zampe e resta giovane per sempre** (`letture/l-axolotl-che-rifa-le-zampe.html`): A1 avverbi di frequenza · A2 participi irregolari (Duméril a Parigi, 1865: axolotl diventati salamandre) · B2 congiuntivo presente (blastema, genoma del 2018, Xochimilco da 6.000 a 35 per km², banconota da 50 pesos).
+  - **La farfalla monarca: un viaggio lungo quattro generazioni** (`letture/la-farfalla-monarca-viaggio-di-quattro-generazioni.html`): A2 futuro · B1 passato prossimo o imperfetto (gli Urquhart, Ken Brugger e Catalina Aguado, il ramo che si spezza e la farfalla di Chaska) · B2 periodo ipotetico (l'orologio nelle antenne, gli esperimenti con la vernice, il freddo che fa tornare a nord).
+  - **Il rondone: dieci mesi in volo senza mai posarsi** (`letture/il-rondone-dieci-mesi-in-volo.html`): A1 preposizioni articolate (non è una rondine) · A2 stare + gerundio (i registratori dell'Università di Lund, 2016) · B1 imperativo con i pronomi (guida pratica: che cosa fare se trovi un rondone a terra, secondo le indicazioni LIPU).
+- Il sonno in volo dei rondoni è presentato come ipotesi molto probabile, non come fatto misurato; la medusa «immortale» come immortale solo in teoria.
+- Testate: quattro foto semplici con il modello di qualità, tutte buone al primo tentativo ($0,54); prompt in `docs/prompt-immagini-natura-2026-10-10.md`.
+- Portoghese: le quattro pagine sono in `scripts/data/pt/paginas.mjs` e nel dizionario (147 frasi nuove).
+- `audit-language-mix` segnalava «Martín» dentro il cognome «Martínez-Meyer» (fonti dell'axolotl): ora il controllo cerca «Martín» solo come parola intera.

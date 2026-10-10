@@ -175,4 +175,13 @@ export const PAGES = [
   { it: 'vocabolario/verbi-scuola.html', pt: 'pt/vocabulario/vocabulario-verbos-da-escola-em-italiano.html' },
   { it: 'vocabolario/verbi-sport.html', pt: 'pt/vocabulario/vocabulario-verbos-do-esporte-em-italiano.html' },
   { it: 'vocabolario/verbi-ufficio.html', pt: 'pt/vocabulario/vocabulario-verbos-do-escritorio-em-italiano.html' },
+
+  // Letture sulla natura (2026-10-10)
+  { it: 'letture/la-medusa-che-torna-bambina.html', pt: 'pt/leituras/a-agua-viva-que-volta-a-ser-jovem.html' },
+  { it: 'letture/l-axolotl-che-rifa-le-zampe.html', pt: 'pt/leituras/o-axolote-que-refaz-as-patas.html' },
+  {
+    it: 'letture/la-farfalla-monarca-viaggio-di-quattro-generazioni.html',
+    pt: 'pt/leituras/a-borboleta-monarca-uma-viagem-de-quatro-geracoes.html',
+  },
+  { it: 'letture/il-rondone-dieci-mesi-in-volo.html', pt: 'pt/leituras/o-andorinhao-dez-meses-em-voo.html' },
 ];
