@@ -952,3 +952,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin («correggi le altre 7 lingue»). Le stesse 22 lezioni scritte a mano (10 A1 e 12 A2–C1) avevano in tutte le lingue i difetti dello spagnolo, perché vengono dalla stessa traduzione automatica: «Corretto: / Ma: / Meglio:» non tradotti, esempi italiani non marcati, celle tradotte dentro `<tbody lang="it">`, spiegazioni rimaste in italiano (comparativo, passato prossimo o imperfetto), esempi italiani tradotti («Ich spreche Italienisch», «mówię po włosku»), resti di inglese («Write the correct article.» in ceco, «Kiedy używamy słowa „have”?»), parole sbagliate («Makeup» per «Trucco», «Besessenheit», «Topa sahip olma», «kontrakty futures», «vadeli işlemler», «不定期先物», «記事» per «冠詞», «formulaire» / «Formular» per «forma»).
 - Metodo: marcatura automatica di ciò che compare identico nella pagina italiana; 108 punti difettosi riscritti a mano in tutte e 7 le lingue (sono nella stessa posizione in ogni lingua); poi rilettura di ogni lingua e correzione dei difetti propri. 154 pagine e 154 PDF.
 - Il registro va rispettato in ogni lingua (ora scritto in `AGENTS.md`): francese «vous», turco forma cortese in -in/-iniz, tedesco «du», ceco «vy», polacco «ty», giapponese です・ます.
+
+## 2026-10-10 - Bottone WhatsApp fisso su tutte le pagine
+
+- Richiesta di Martin: un piccolo bottone verde in basso a destra su tutte le pagine, per farsi contattare su WhatsApp; nella home e in «Chi siamo» resta anche il bottone grande che c'era già (stesso numero).
+- Uso: la lezione di prova si fa direttamente con Martin o Licia, **a pagamento, al prezzo indicato (14 €)**, non gratis; dopo la prova lo studente passa a Preply (link «invita un amico» con lo sconto). Su WhatsApp si danno le disponibilità di Martin e Licia.
+- Vincolo: gli studenti trovati su Preply non vanno portati su WhatsApp (regole di Preply); il bottone vale per chi arriva dal sito.

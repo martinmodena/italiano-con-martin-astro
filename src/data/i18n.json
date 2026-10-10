@@ -4,52 +4,62 @@
     "it": {
       "name": "Italiano",
       "flag": "🇮🇹",
-      "summaryAria": "Scegli lingua"
+      "summaryAria": "Scegli lingua",
+      "whatsappLabel": "Scrivici su WhatsApp"
     },
     "en": {
       "name": "English",
       "flag": "🇬🇧",
-      "summaryAria": "Choose language"
+      "summaryAria": "Choose language",
+      "whatsappLabel": "Message us on WhatsApp"
     },
     "es": {
       "name": "Español",
       "flag": "🇪🇸",
-      "summaryAria": "Elegir idioma"
+      "summaryAria": "Elegir idioma",
+      "whatsappLabel": "Escríbenos por WhatsApp"
     },
     "pt": {
       "name": "Português",
       "flag": "🇧🇷",
-      "summaryAria": "Escolher idioma"
+      "summaryAria": "Escolher idioma",
+      "whatsappLabel": "Fale com a gente no WhatsApp"
     },
     "fr": {
       "name": "Français",
       "flag": "🇫🇷",
-      "summaryAria": "Choisir la langue"
+      "summaryAria": "Choisir la langue",
+      "whatsappLabel": "Écrivez-nous sur WhatsApp"
     },
     "cs": {
       "name": "Čeština",
       "flag": "🇨🇿",
-      "summaryAria": "Vybrat jazyk"
+      "summaryAria": "Vybrat jazyk",
+      "whatsappLabel": "Napište nám na WhatsApp"
     },
     "pl": {
       "name": "Polski",
       "flag": "🇵🇱",
-      "summaryAria": "Wybierz język"
+      "summaryAria": "Wybierz język",
+      "whatsappLabel": "Napisz do nas na WhatsAppie"
     },
     "tr": {
       "name": "Türkçe",
       "flag": "🇹🇷",
-      "summaryAria": "Dil seçin"
+      "summaryAria": "Dil seçin",
+      "whatsappLabel": "WhatsApp’tan bize yaz"
     },
     "de": {
       "name": "Deutsch",
       "flag": "🇩🇪",
-      "summaryAria": "Sprache wählen"
+      "summaryAria": "Sprache wählen",
+      "whatsappLabel": "Schreib uns auf WhatsApp"
     },
     "ja": {
       "name": "日本語",
       "flag": "🇯🇵",
-      "summaryAria": "言語を選択"
+      "summaryAria": "言語を選択",
+      "whatsappLabel": "WhatsAppで相談する"
     }
   },
   "ui": {
