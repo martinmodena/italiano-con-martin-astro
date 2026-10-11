@@ -972,3 +972,12 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Testate: quattro foto semplici con il modello di qualità, tutte buone al primo tentativo ($0,54); prompt in `docs/prompt-immagini-natura-2026-10-10.md`.
 - Portoghese: le quattro pagine sono in `scripts/data/pt/paginas.mjs` e nel dizionario (147 frasi nuove).
 - `audit-language-mix` segnalava «Martín» dentro il cognome «Martínez-Meyer» (fonti dell'axolotl): ora il controllo cerca «Martín» solo come parola intera.
+
+## 2026-10-11 - Emma, episodi 9 e 10: i primi episodi A2
+
+- Richiesta di Martin («ora fai i due episodi di Emma»), dopo la proposta del 2026-10-10: un episodio per l'imperfetto e uno per il futuro. Situazioni reali, niente magia.
+- **Le foto dei nonni** (`letture/emma-le-foto-dei-nonni.html`, A2, imperfetto, 261 parole): dai nonni di Chiara vicino a Siena, Emma scopre il grembiule con il fiocco, la televisione al bar negli anni Cinquanta (il quiz del giovedì sera), «dopo Carosello tutti a letto»; sorpresa finale: il bambino col fiocco storto nella foto di classe è il nonno, che la nonna ha sposato.
+- **Il piano perfetto** (`letture/emma-il-piano-perfetto.html`, A2, futuro, 260 parole): il programma per Venezia e lo sciopero dei treni. Fatti veri: preavviso di almeno dieci giorni (legge 146/1990), fasce di garanzia 6–9 e 18–21 per i treni regionali. Il futuro serve anche per la supposizione («Sarà in ritardo»).
+- La serie ora ha episodi A1 e A2: campo `level` in `emma-it.mjs`; `create-emma-stories.mjs` e `create-level-readings.mjs` lo usano (livello della pagina, PDF, link «Tutte le letture A2», schede nell'indice A2). La presentazione della serie dice «racconto A1 o A2» nelle 10 lingue.
+- Testate: OpenRouter senza crediti (errore 402), quindi Hugging Face Z-Image-Turbo, gratis, stesso stile acquerellato della serie; nella prima manca Chiara e il testo alternativo è stato corretto. Dettagli in `docs/prompt-immagini-emma.md`.
+- **Da ricaricare: i crediti di OpenRouter**, che servono per le testate con il modello di qualità.

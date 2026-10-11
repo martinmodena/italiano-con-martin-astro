@@ -46,9 +46,11 @@ const prefixOf = (url) => '../'.repeat(url.split('/').length - 2);
 const indexUrl = hreflangs('src/pages/letture/index.astro');
 const caffeUrl = hreflangs(`src/pages/${EPISODE_1}.html.astro`);
 const gram = (g) => hreflangs(`src/pages/grammatica/${g}.html.astro`);
-const levelA1 = (lang) => (lang === 'it' ? '/letture/a1/' : indexUrl[lang] + 'a1/');
+const levelIndex = (lang, lv = 'a1') => (lang === 'it' ? `/letture/${lv}/` : indexUrl[lang] + `${lv}/`);
 const home = (lang) => (lang === 'it' ? '/' : `/${lang}/`);
 
+// Livello dell'episodio: A1 di base, A2 dal 2026-10-11 (imperfetto e futuro).
+export const emmaLevel = (ep) => ep.level || 'a1';
 export const episodeUrl = (ep, lang) =>
   lang === 'it' ? `/${ep.file}.html` : indexUrl[lang] + EMMA_I18N[ep.key][lang].slug + '.html';
 const urlsOf = (ep) => Object.fromEntries(ALL.map((l) => [l, episodeUrl(ep, l)]));
@@ -64,9 +66,11 @@ export function seriesNav(lang, index) {
   const ui = EMMA_UI[lang];
   const prev = index === 0 ? caffeUrl[lang] : index > 0 ? episodeUrl(EMMA[index - 1], lang) : null;
   const next = index + 1 < EMMA.length ? episodeUrl(EMMA[index + 1], lang) : null;
+  // Il link centrale porta alle letture del livello dell'episodio.
+  const lv = index >= 0 ? emmaLevel(EMMA[index]) : 'a1';
   const links = [
     prev ? `<a href="${prev}">${ui.prev}</a>` : '<span></span>',
-    `<a href="${levelA1(lang)}">${ui.allA1}</a>`,
+    `<a href="${levelIndex(lang, lv)}">${ui.allA1.replace('A1', lv.toUpperCase())}</a>`,
     next ? `<a href="${next}">${ui.next}</a>` : '<span></span>',
   ];
   return `<section class="section compact-top series-section"><div class="container"><nav class="series-nav" aria-label="${ui.seriesAria}"><strong>${ui.series}</strong>${links.join('')}</nav></div></section>`;
@@ -106,6 +110,8 @@ function episodePage(ep, index, lang) {
   const tryLabel = tr ? tr.tryLabel : itBox.tryLabel;
   const linkText = tr ? tr.link : itBox.link;
   const itAttr = lang === 'it' ? '' : ' lang="it"';
+  const lv = emmaLevel(ep);
+  const L = lv.toUpperCase();
   const words = tr
     ? ep.words.map((w, i) => `<span lang="it">${w}</span> = ${tr.words[i]}`).join('<br>')
     : ep.words.join(', ');
@@ -130,10 +136,10 @@ function episodePage(ep, index, lang) {
       <p class="breadcrumbs"><a href="${home(lang)}">${t.home}</a> / <a href="${indexUrl[lang]}">${t.readings}</a> / ${title}</p>
       <div class="story-hero-grid">
         <div>
-          <p class="eyebrow">${ui.series} · ${ui.episode(index + 2)} · ${ui.story}</p>
+          <p class="eyebrow">${ui.series} · ${ui.episode(index + 2)} · ${ui.story.replace('A1', L)}</p>
           <h1>${title}</h1>
           <p class="lead">${lead}</p>
-          <div class="level-nav"><a href="#a1">A1</a></div><div class="pdf-downloads pdf-downloads-complete" aria-label="${t.pdfAria}"><a class="button secondary" href="/pdf/${lang}/${slug}-all-levels.pdf" download="">${t.pdfAll}</a></div>
+          <div class="level-nav"><a href="#${lv}">${L}</a></div><div class="pdf-downloads pdf-downloads-complete" aria-label="${t.pdfAria}"><a class="button secondary" href="/pdf/${lang}/${slug}-all-levels.pdf" download="">${t.pdfAll}</a></div>
         </div>
         <figure class="story-figure">
           <img src="${pre}assets/${ep.image}.webp" alt="${esc(alt)}" width="960" height="540" decoding="async" loading="eager" fetchpriority="high">
@@ -143,8 +149,8 @@ function episodePage(ep, index, lang) {
   </section>
   <section class="section compact-top">
     <div class="container">
-      <article class="story-card" id="a1">
-        <header><div><span class="level">A1</span><h2${itAttr}>${ep.title}</h2></div><p>${focus}</p></header><div class="pdf-downloads pdf-downloads-level"><a class="button secondary" href="/pdf/${lang}/${slug}-a1.pdf" download="">PDF A1</a></div>
+      <article class="story-card" id="${lv}">
+        <header><div><span class="level">${L}</span><h2${itAttr}>${ep.title}</h2></div><p>${focus}</p></header><div class="pdf-downloads pdf-downloads-level"><a class="button secondary" href="/pdf/${lang}/${slug}-${lv}.pdf" download="">PDF ${L}</a></div>
         <div class="story-text"${itAttr}>
           ${ep.text.map((p) => `<p>${p}</p>`).join('\n          ')}
         </div>
@@ -191,7 +197,7 @@ function episodePage(ep, index, lang) {
         headline: title,
         url: SITE + url,
         inLanguage: lang,
-        educationalLevel: 'A1',
+        educationalLevel: emmaLevel(ep).toUpperCase(),
         image,
         isPartOf: { '@type': 'CreativeWorkSeries', name: ui.series },
         author: { '@type': 'Person', name: 'Martin Modena' },

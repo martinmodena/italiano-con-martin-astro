@@ -11,7 +11,7 @@ import path from 'path';
 import { LANGS, T, A1_TILES, A2_TILES, CAFFE_A2_TITLE, READING_LEVELS } from './data/letture-livelli-i18n.mjs';
 import { EMMA } from './data/emma-it.mjs';
 import { EMMA_UI, EMMA_I18N } from './data/emma-i18n.mjs';
-import { episodeUrl, seriesNav } from './create-emma-stories.mjs';
+import { episodeUrl, seriesNav, emmaLevel } from './create-emma-stories.mjs';
 import {
   STORIES,
   isFable,
@@ -115,7 +115,9 @@ const scienceAt = (level, fables = false) =>
     r.file,
     fables ? 'sfable' : 'science',
   ]);
-const emmaBadge = (lang) => `${EMMA_UI[lang].series} · A1`;
+const emmaBadge = (lang, level = 'a1') => `${EMMA_UI[lang].series} · ${level.toUpperCase()}`;
+// Episodi di Emma di un livello (dal 2026-10-11 ci sono anche episodi A2).
+const emmaAt = (level) => EMMA.filter((ep) => emmaLevel(ep) === level).map((ep) => [ep.key, ep.file, 'emma']);
 const emmaStructure = (ep, lang) => {
   const ex = EMMA_I18N[ep.key].expl;
   return `${T[lang].hub.structure}: <span lang="it">${ep.structure}</span>${ex ? ` (${EMMA_UI[lang].expl[ex]})` : ''}`;
@@ -280,21 +282,15 @@ function levelPage(lang, level) {
   // Poi le letture di scienza del livello.
   const tileList =
     level === 'a1'
-      ? [
-          A1_TILES[0],
-          ...EMMA.map((ep) => [ep.key, ep.file, 'emma']),
-          ...scienceAt('a1'),
-          ...A1_TILES.slice(1),
-          ...scienceAt('a1', true),
-        ]
-      : [A2_TILES[0], ...scienceAt('a2'), ...A2_TILES.slice(1), ...scienceAt('a2', true)];
+      ? [A1_TILES[0], ...emmaAt('a1'), ...scienceAt('a1'), ...A1_TILES.slice(1), ...scienceAt('a1', true)]
+      : [A2_TILES[0], ...emmaAt('a2'), ...scienceAt('a2'), ...A2_TILES.slice(1), ...scienceAt('a2', true)];
   const tile = ([key, file, kind, w, m, forms, expl]) => {
     if (kind === 'emma') {
       const e = emmaTile(
         EMMA.find((x) => x.key === key),
         lang
       );
-      return `<a class="story-tile" href="${e.url}#a1"><img src="${pre}assets/${e.ep.image}-card.webp" alt="${esc(e.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${emmaBadge(lang)}</span>
+      return `<a class="story-tile" href="${e.url}#${level}"><img src="${pre}assets/${e.ep.image}-card.webp" alt="${esc(e.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${emmaBadge(lang, level)}</span>
                 <h2>${e.title}</h2>
                 <span class="tile-meta">${h.meta(e.words, e.minutes)}</span>
                 <p>${e.hook}</p>
@@ -404,7 +400,7 @@ function levelPage(lang, level) {
         EMMA.find((x) => x.key === key),
         lang
       );
-      return { '@type': 'ListItem', position: i + 1, name: e.title, url: SITE + e.url + '#a1' };
+      return { '@type': 'ListItem', position: i + 1, name: e.title, url: SITE + e.url + '#' + level };
     }
     if (kind === 'science' || kind === 'sfable') {
       const r = STORIES.find((x) => x.key === key);
@@ -545,7 +541,7 @@ function allLevelsIndex(lang) {
     ),
     ...EMMA.map((ep) => {
       const e = emmaTile(ep, lang);
-      return card(e.url, `${ep.image}-card.webp`, e.alt, emmaBadge(lang), e.title, e.hook);
+      return card(e.url, `${ep.image}-card.webp`, e.alt, emmaBadge(lang, emmaLevel(ep)), e.title, e.hook);
     }),
   ];
   const emmaSection = `<section class="level-section" id="emma">

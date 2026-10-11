@@ -1,5 +1,6 @@
 // «Emma in Italia»: racconti A1 originali (decisione 2026-09-29).
-// Ogni episodio è una situazione vera con una sorpresa, e allena una lezione di grammatica A1.
+// Ogni episodio è una situazione vera con una sorpresa, e allena una lezione di grammatica A1
+// (dal 2026-10-11 anche A2, con il campo level).
 // L'episodio 1 è «Al bar in Italia» (letture/storia-del-caffe-in-italia), che ha anche un A2.
 // Questo file è la fonte italiana; le traduzioni del testo di servizio sono in emma-i18n.mjs.
 
@@ -289,5 +290,82 @@ export const EMMA = [
       'E tu? Com’è la tua mattina? Scrivi tre frasi: «Mi sveglio…», «Mi lavo…», «Mi vesto…».',
     ],
     structure: 'mi sveglio · ti alzi · si lava',
+  },
+  // Dal 2026-10-11 anche episodi A2 (level: 'a2'): imperfetto e futuro.
+  {
+    key: 'foto',
+    level: 'a2',
+    file: 'letture/emma-le-foto-dei-nonni',
+    image: 'reading-emma-foto',
+    title: 'Le foto dei nonni',
+    seoTitle: 'L’imperfetto in italiano: racconto A2 sulle foto dei nonni (PDF)',
+    seoDesc:
+      'Racconto in italiano A2: Emma guarda le vecchie foto dei nonni di Chiara e scopre il grembiule a scuola, la televisione al bar e «dopo Carosello tutti a letto». L’imperfetto in un racconto, con domande e PDF gratis.',
+    lead: 'Dai nonni di Chiara, Emma apre una scatola di vecchie foto: bambini tutti vestiti uguali, la televisione al bar, una regola che valeva in tutta l’Italia. E nell’ultima foto c’è una sorpresa. Un racconto A2 per imparare l’imperfetto.',
+    hook: 'Nelle vecchie foto i bambini sono tutti vestiti uguali. E dopo Carosello… tutti a letto!',
+    alt: 'Emma sul divano guarda ridendo con la nonna una scatola di vecchie foto in bianco e nero; dietro, il nonno in poltrona',
+    focus: 'L’imperfetto: era, avevo, portavano',
+    grammar: 'a2/imperfetto',
+    text: [
+      'Domenica Chiara porta Emma a pranzo dai nonni, in un piccolo paese vicino a Siena. Dopo il caffè la nonna Lucia prende dall’armadio una vecchia scatola piena di foto in bianco e nero.',
+      '– Guarda, Emma: questa era la mia scuola. Avevo sei anni.<br>Nella foto ci sono trenta bambini, tutti vestiti uguali: un grembiule nero e un grande fiocco bianco al collo. Emma è sorpresa.<br>– Ma… eravate in ospedale?<br>Tutti ridono.<br>– No! A scuola tutti i bambini portavano il grembiule. Così i ricchi e i poveri erano uguali, e i vestiti non si sporcavano con l’inchiostro.',
+      'Il nonno Beppe prende un’altra foto: una piazza piena di gente davanti a un bar.<br>– E questa? Era il 1956. In paese nessuno aveva la televisione a casa: c’era solo al bar. Il giovedì sera tutto il paese andava lì a vedere un programma di quiz. Noi bambini ci sedevamo per terra, davanti a tutti.',
+      '– E quando avete comprato la televisione?<br>– Qualche anno dopo. Ma c’era una regola: ogni sera guardavamo Carosello, un piccolo programma con le pubblicità e i cartoni animati. E dopo Carosello, tutti a letto! Lo dicevano tutte le mamme d’Italia.<br>Emma ride.<br>– Allora una pubblicità decideva quando andavate a dormire!',
+      'Poi Emma prende l’ultima foto della scatola: la classe della nonna. In prima fila c’è un bambino con il fiocco storto e le ginocchia sporche.<br>– E questo chi era? Sembra un piccolo disastro!',
+      'La nonna sorride e guarda il nonno.<br>– Questo? Era il mio compagno di banco. Mi tirava sempre le trecce e non stava mai fermo… E sessant’anni fa l’ho sposato.',
+    ],
+    box: [
+      'Questa <strong>era</strong> la mia scuola. <strong>Avevo</strong> sei anni.',
+      'A scuola tutti i bambini <strong>portavano</strong> il grembiule.',
+      'Ogni sera <strong>guardavamo</strong> Carosello.',
+    ],
+    tryIt: 'Quando (essere) … piccolo, (abitare) … in campagna. Ogni estate (andare) … al mare con i nonni.',
+    words: ['il grembiule', 'il fiocco', 'la pubblicità', 'il compagno di banco', 'la treccia'],
+    questions: [
+      'Che cosa portavano i bambini a scuola? Perché?',
+      'Dove guardava la televisione il nonno quando era piccolo?',
+      'Che cosa succedeva dopo Carosello?',
+      'E tu? Com’era la tua vita quando eri piccolo? Scrivi tre frasi con l’imperfetto (Abitavo…, Andavo…, Giocavo…).',
+    ],
+    structure: 'era · avevo · portavano · guardavamo',
+  },
+  {
+    key: 'sciopero',
+    level: 'a2',
+    file: 'letture/emma-il-piano-perfetto',
+    image: 'reading-emma-sciopero',
+    title: 'Il piano perfetto',
+    seoTitle: 'Il futuro in italiano: racconto A2 su un viaggio in treno e uno sciopero (PDF)',
+    seoDesc:
+      'Racconto in italiano A2: Emma organizza un fine settimana a Venezia, ma venerdì c’è lo sciopero dei treni. Il futuro semplice per i progetti e per le supposizioni, le fasce di garanzia, domande e PDF gratis.',
+    lead: 'Emma ha scritto il programma perfetto per un fine settimana a Venezia. Ma in Italia c’è una cosa che può cambiare tutti i piani… e che si sa con dieci giorni di anticipo. Un racconto A2 per imparare il futuro.',
+    hook: 'Emma ha un piano perfetto per Venezia. Poi Chiara legge una parola sul telefono: sciopero.',
+    alt: 'Emma e Chiara sul binario di una stazione all’alba, con un caffè in mano, aspettano il treno',
+    focus: 'Il futuro semplice: prenderemo, andremo, sarà',
+    grammar: 'a2/futuro-semplice',
+    text: [
+      'È lunedì sera. Emma ha un quaderno nuovo e una grande idea: un fine settimana a Venezia con Chiara. Ha già scritto tutto il programma.',
+      '– Ascolta, Chiara. Venerdì mattina prenderemo il treno delle 7.10 e arriveremo a Venezia alle dieci e mezza. Lasceremo le valigie in albergo e andremo subito in piazza San Marco. A pranzo mangeremo in una piccola osteria, poi faremo un giro in vaporetto. La sera…',
+      'Chiara guarda il telefono e fa una faccia strana.<br>– Emma… venerdì non partiremo alle 7.10.<br>– Perché?<br>– Perché venerdì ci sarà lo sciopero dei treni.',
+      '– Lo sciopero? E come lo sai? Venerdì è fra quattro giorni!<br>– In Italia gli scioperi dei treni si annunciano prima: almeno dieci giorni prima, lo dice la legge. Guarda: «Sciopero nazionale dalle 21 di giovedì alle 21 di venerdì».',
+      'Emma chiude il quaderno, triste.<br>– Allora non andremo a Venezia.<br>– Ma no! Durante lo sciopero alcuni treni regionali viaggiano lo stesso: la mattina dalle sei alle nove e la sera dalle sei alle nove. Si chiamano «fasce di garanzia». Prenderemo il regionale delle 6.20: sarà più lento e cambieremo a Bologna, ma partirà.',
+      '– Alle sei e venti? Ma a quell’ora io dormo!<br>– Venerdì no, – ride Chiara. – Metterai la sveglia alle cinque.',
+      'Venerdì mattina, alle sei e un quarto, Emma è in stazione con un caffè in mano. Il treno non c’è ancora.<br>– Dov’è il treno? – chiede Emma, preoccupata.<br>– Sarà in ritardo, – risponde Chiara, tranquilla. – Ma arriverà. E a pranzo saremo a Venezia.',
+      'Emma apre il quaderno e scrive una nuova regola: «In Italia, prima di fare un piano perfetto, controllerò sempre gli scioperi».',
+    ],
+    box: [
+      'Venerdì mattina <strong>prenderemo</strong> il treno delle 7.10.',
+      'Allora non <strong>andremo</strong> a Venezia.',
+      '– <strong>Sarà</strong> in ritardo, – risponde Chiara.',
+    ],
+    tryIt: 'Domani io (partire) … presto. Noi (andare) … a Venezia. Dov’è Chiara? (essere) … ancora a letto!',
+    words: ['lo sciopero', 'il programma', 'la sveglia', 'in orario', 'in ritardo'],
+    questions: [
+      'Che cosa farà Emma a Venezia, secondo il suo programma?',
+      'Perché venerdì il treno delle 7.10 non partirà?',
+      'Che cosa sono le «fasce di garanzia»?',
+      'E tu? Che cosa farai il prossimo fine settimana? Scrivi tre frasi al futuro (Andrò…, Vedrò…, Mangerò…).',
+    ],
+    structure: 'prenderemo · andremo · sarà in ritardo',
   },
 ];

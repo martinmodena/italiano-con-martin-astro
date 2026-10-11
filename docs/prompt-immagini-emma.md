@@ -61,3 +61,21 @@ Soft painterly gouache illustration, warm evening light, gentle colors, no black
 ```
 Soft painterly gouache illustration, soft warm morning light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing modest loose long-sleeved light-blue cotton pyjamas, fully clothed, stands in a small bright Italian bathroom holding a toothbrush, tilting her head and looking curiously and puzzled at a white bidet with a small chrome tap, mounted on the wall beside the washbasin. Pale ceramic tiles, a small window with a terracotta rooftop view outside, a towel on a hook, a plant on the windowsill. Gentle humorous everyday atmosphere, tasteful and family-friendly. One person only. No text, no words, no letters, no logos.
 ```
+
+Nota sulle testate 9 e 10 (2026-10-11): i crediti di OpenRouter erano finiti, perciò sono state generate
+gratis con Hugging Face, Space `mcp-tools/Z-Image-Turbo` (tool `gr1_z_image_turbo_generate`), seme fisso
+`1001`, risoluzione `1280x720 ( 16:9 )`, poi ridimensionate a 960×540 e 640×360 con Pillow. Rispetto ai
+blocchi qui sotto il prompt inviato non conteneva «no meat, no fish» (9) e aggiungeva «no clocks» (10).
+Nella 9 il modello ha disegnato Emma con la nonna, senza Chiara: il testo alternativo lo dice.
+
+## 9. `reading-emma-foto` — «Le foto dei nonni» (2026-10-11, episodio A2 sull'imperfetto)
+
+```
+Soft painterly gouache illustration, warm afternoon light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing a mustard-yellow cardigan over a white t-shirt, sits on an old sofa in the cozy living room of a Tuscan country house next to her flatmate Chiara, a young Italian woman with a dark brown ponytail and a dark green sweater. Between them a smiling grandmother with short white hair and a lilac cardigan holds an open cardboard box full of old black-and-white photographs; Emma holds one photo and laughs in surprise. In the background, softly blurred, a grandfather with a grey moustache in an armchair, a window with Tuscan hills and cypress trees. Modest, fully clothed, family-friendly, warm everyday atmosphere. No text, no words, no letters, no logos, no meat, no fish.
+```
+
+## 10. `reading-emma-sciopero` — «Il piano perfetto» (2026-10-11, episodio A2 sul futuro)
+
+```
+Soft painterly gouache illustration, pale pink dawn light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing a mustard-yellow cardigan over a white t-shirt and a small dark-green backpack, stands sleepy on the platform of an Italian railway station at dawn, holding a small paper cup of coffee and a notebook, yawning, next to her flatmate Chiara, a young Italian woman with a dark brown ponytail and a dark green sweater, who smiles calmly and points down the empty tracks. A small suitcase at their feet, an old station canopy with iron columns, a station clock without numbers, soft early light over the rails. Modest, fully clothed, gentle humorous atmosphere. No text, no words, no letters, no numbers, no signs, no logos.
+```

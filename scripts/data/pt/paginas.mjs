@@ -52,6 +52,8 @@ export const PAGES = [
   { it: 'letture/emma-il-pranzo-della-nonna.html', pt: 'pt/leituras/emma-o-almoco-da-avo.html' },
   { it: 'letture/emma-cena-da-amici.html', pt: 'pt/leituras/emma-jantar-com-amigos.html' },
   { it: 'letture/emma-il-lavandino-misterioso.html', pt: 'pt/leituras/emma-a-pia-misteriosa.html' },
+  { it: 'letture/emma-le-foto-dei-nonni.html', pt: 'pt/leituras/emma-as-fotos-dos-avos.html' },
+  { it: 'letture/emma-il-piano-perfetto.html', pt: 'pt/leituras/emma-o-plano-perfeito.html' },
 
   // Fase 2 (2026-10-09): letture di scienza e cultura, favole
   { it: 'letture/a2/index.html', pt: 'pt/leituras/a2/index.html' },

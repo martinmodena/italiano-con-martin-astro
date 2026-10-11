@@ -2,6 +2,8 @@
 // (i racconti, le parole e le domande restano in italiano: sono in emma-it.mjs).
 // <it>…</it> diventa <span lang="it">…</span>.
 
+import { EMMA_I18N_A2 } from './emma-i18n-a2.mjs';
+
 export const EMMA_UI = {
   it: {
     series: 'Emma in Italia',
@@ -12,7 +14,7 @@ export const EMMA_UI = {
     allA1: 'Tutte le letture A1',
     seriesAria: 'Episodi di Emma in Italia',
     seriesIntro:
-      'Emma arriva in Italia e scopre, un giorno dopo l’altro, le regole che nessuno spiega: al bar, in treno, al mercato, a tavola. Ogni episodio è un racconto A1 con una struttura da imparare.',
+      'Emma arriva in Italia e scopre, un giorno dopo l’altro, le regole che nessuno spiega: al bar, in treno, al mercato, a tavola. Ogni episodio è un racconto A1 o A2 con una struttura da imparare.',
     expl: {
       prepositions: 'preposizioni',
       clock: 'l’ora',
@@ -31,7 +33,7 @@ export const EMMA_UI = {
     allA1: 'All A1 readings',
     seriesAria: 'Emma in Italy episodes',
     seriesIntro:
-      'Emma arrives in Italy and discovers, day after day, the rules nobody explains: at the bar, on the train, at the market, at the table. Each episode is an A1 story with one structure to learn.',
+      'Emma arrives in Italy and discovers, day after day, the rules nobody explains: at the bar, on the train, at the market, at the table. Each episode is an A1 or A2 story with one structure to learn.',
     expl: {
       prepositions: 'prepositions',
       clock: 'telling the time',
@@ -50,7 +52,7 @@ export const EMMA_UI = {
     allA1: 'Todas las lecturas A1',
     seriesAria: 'Episodios de Emma en Italia',
     seriesIntro:
-      'Emma llega a Italia y descubre, día tras día, las reglas que nadie explica: en el bar, en el tren, en el mercado, en la mesa. Cada episodio es un relato A1 con una estructura para aprender.',
+      'Emma llega a Italia y descubre, día tras día, las reglas que nadie explica: en el bar, en el tren, en el mercado, en la mesa. Cada episodio es un relato A1 o A2 con una estructura para aprender.',
     expl: {
       prepositions: 'preposiciones',
       clock: 'decir la hora',
@@ -69,7 +71,7 @@ export const EMMA_UI = {
     allA1: 'Toutes les lectures A1',
     seriesAria: 'Épisodes d’Emma en Italie',
     seriesIntro:
-      'Emma arrive en Italie et découvre, jour après jour, les règles que personne n’explique : au bar, dans le train, au marché, à table. Chaque épisode est une histoire A1 avec une structure à apprendre.',
+      'Emma arrive en Italie et découvre, jour après jour, les règles que personne n’explique : au bar, dans le train, au marché, à table. Chaque épisode est une histoire A1 ou A2 avec une structure à apprendre.',
     expl: {
       prepositions: 'prépositions',
       clock: 'dire l’heure',
@@ -88,7 +90,7 @@ export const EMMA_UI = {
     allA1: 'Všechna čtení A1',
     seriesAria: 'Díly seriálu Emma v Itálii',
     seriesIntro:
-      'Emma přijíždí do Itálie a den za dnem objevuje pravidla, která nikdo nevysvětluje: v baru, ve vlaku, na trhu, u stolu. Každý díl je příběh A1 s jednou strukturou k naučení.',
+      'Emma přijíždí do Itálie a den za dnem objevuje pravidla, která nikdo nevysvětluje: v baru, ve vlaku, na trhu, u stolu. Každý díl je příběh A1 nebo A2 s jednou strukturou k naučení.',
     expl: {
       prepositions: 'předložky',
       clock: 'kolik je hodin',
@@ -107,7 +109,7 @@ export const EMMA_UI = {
     allA1: 'Wszystkie czytanki A1',
     seriesAria: 'Odcinki serii Emma we Włoszech',
     seriesIntro:
-      'Emma przyjeżdża do Włoch i dzień po dniu odkrywa zasady, których nikt nie tłumaczy: w barze, w pociągu, na targu, przy stole. Każdy odcinek to opowiadanie A1 z jedną strukturą do nauczenia.',
+      'Emma przyjeżdża do Włoch i dzień po dniu odkrywa zasady, których nikt nie tłumaczy: w barze, w pociągu, na targu, przy stole. Każdy odcinek to opowiadanie A1 lub A2 z jedną strukturą do nauczenia.',
     expl: {
       prepositions: 'przyimki',
       clock: 'podawanie godziny',
@@ -126,7 +128,7 @@ export const EMMA_UI = {
     allA1: 'Tüm A1 okumaları',
     seriesAria: 'İtalya’da Emma bölümleri',
     seriesIntro:
-      'Emma İtalya’ya gelir ve her gün kimsenin anlatmadığı kuralları keşfeder: barda, trende, pazarda, sofrada. Her bölüm, öğrenilecek bir yapısı olan bir A1 öyküsüdür.',
+      'Emma İtalya’ya gelir ve her gün kimsenin anlatmadığı kuralları keşfeder: barda, trende, pazarda, sofrada. Her bölüm, öğrenilecek bir yapısı olan bir A1 ya da A2 öyküsüdür.',
     expl: {
       prepositions: 'edatlar',
       clock: 'saati söylemek',
@@ -145,7 +147,7 @@ export const EMMA_UI = {
     allA1: 'Alle Lesetexte A1',
     seriesAria: 'Folgen von Emma in Italien',
     seriesIntro:
-      'Emma kommt nach Italien und entdeckt Tag für Tag die Regeln, die niemand erklärt: in der Bar, im Zug, auf dem Markt, am Tisch. Jede Folge ist eine A1-Geschichte mit einer Struktur zum Lernen.',
+      'Emma kommt nach Italien und entdeckt Tag für Tag die Regeln, die niemand erklärt: in der Bar, im Zug, auf dem Markt, am Tisch. Jede Folge ist eine A1- oder A2-Geschichte mit einer Struktur zum Lernen.',
     expl: {
       prepositions: 'Präpositionen',
       clock: 'die Uhrzeit',
@@ -164,7 +166,7 @@ export const EMMA_UI = {
     allA1: 'A1の読み物をすべて見る',
     seriesAria: '「イタリアのエンマ」のエピソード',
     seriesIntro:
-      'エンマはイタリアに来て、だれも説明してくれないルールを毎日ひとつずつ発見します。バールで、電車で、市場で、食卓で。どの話も、学ぶ構造がひとつある A1 の物語です。',
+      'エンマはイタリアに来て、だれも説明してくれないルールを毎日ひとつずつ発見します。バールで、電車で、市場で、食卓で。どの話も、学ぶ構造がひとつある A1 または A2 の物語です。',
     expl: {
       prepositions: '前置詞',
       clock: '時刻の言い方',
@@ -240,6 +242,24 @@ export const EMMA_IT_BOX = {
     ],
     tryLabel: 'Prova tu: completa con mi, ti o si.',
     link: 'i verbi riflessivi',
+  },
+  foto: {
+    box: [
+      'imperfetto per descrivere il passato: età, luoghi, com’erano le cose (<it>essere → ero, eri, era…</it>; <it>avere → avevo</it>)',
+      'imperfetto per le abitudini del passato: <it>-are → -avo, -avi, -ava, -avamo, -avate, -avano</it>',
+      'con <it>ogni sera, sempre, di solito</it> si usa l’imperfetto; <it>-ere → -evo</it>, <it>-ire → -ivo</it>',
+    ],
+    tryLabel: 'Prova tu: scrivi il verbo all’imperfetto.',
+    link: 'l’imperfetto',
+  },
+  sciopero: {
+    box: [
+      'futuro per i progetti: <it>-are</it> e <it>-ere → -erò, -erai, -erà, -eremo, -erete, -eranno</it>; <it>-ire → -irò</it>',
+      'futuro irregolare: <it>andare → andrò, essere → sarò, avere → avrò, fare → farò</it>',
+      'futuro per una supposizione sul presente: <it>sarà in ritardo</it> = probabilmente è in ritardo',
+    ],
+    tryLabel: 'Prova tu: scrivi il verbo al futuro.',
+    link: 'il futuro semplice',
   },
 };
 
@@ -1711,4 +1731,6 @@ export const EMMA_I18N = {
       hook: 'エンマの浴室には、低くてなぞの洗面台があります。子ども用？犬用？',
     },
   },
+  // Episodi A2 del 2026-10-11 (foto dei nonni, sciopero)
+  ...EMMA_I18N_A2,
 };
