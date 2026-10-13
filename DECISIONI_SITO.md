@@ -59,6 +59,7 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 ## 2026-08-12 - Header responsive e fotografie
 
 - Tutte le fotografie personali di Martin e Licia devono essere presentate con un ritaglio circolare, inclusi avatar, hero e schede insegnante, su desktop e mobile.
+- Avatar del logo (2026-10-13): il ritaglio sta nel `viewBox` di `public/assets/martin-photo.svg` (`50 139 360 360`), con la testa in alto e grande come nella foto dell'hero; il CSS lo centra soltanto. Su mobile la bandierina delle lingue sta nella griglia dell'header (`position:static`, centrata in verticale con logo e menu).
 - L'header deve passare al menu compatto gia sui viewport stretti da tablet, prima che marchio, selettore lingua e navigazione possano sovrapporsi o troncare il nome.
 - Su mobile il marchio occupa la prima riga con il pulsante menu; il selettore lingua occupa una seconda riga completa.
 
