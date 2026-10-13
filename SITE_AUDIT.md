@@ -8,7 +8,7 @@ Generated: 2026-10-13
 - Educational resources: 86
 - Expected localized resource pages: 774
 - Expected PDF files: 1950
-- Existing PDF files: 2152
+- Existing PDF files: 2170
 - Localized teacher pages: 9
 - Findings: 0
 

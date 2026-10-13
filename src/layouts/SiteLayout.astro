@@ -29,7 +29,7 @@ export interface PageMeta {
 // Versione del foglio di stile: da alzare quando cambia public/styles.css.
 // Tutte le pagine puntano allo stesso indirizzo, così i browser tengono una
 // sola copia in cache e non possono mostrare due versioni diverse dell'header.
-const CSS_VERSION = '20261013a';
+const CSS_VERSION = '20261013b';
 
 const { meta, main } = Astro.props as { meta: PageMeta; main: string };
 
@@ -40,7 +40,8 @@ const current = i18n.languages[meta.lang] ?? { name: meta.lang, flag: '', summar
 const stylesheetHref = `${meta.assetPrefix}styles.css?v=${CSS_VERSION}`;
 
 // Bottone WhatsApp fisso in basso a destra, su tutte le pagine (Martin, 2026-10-10):
-// chi scrive prenota la lezione di prova con Martin o Licia, poi passa a Preply.
+// chi scrive prenota la lezione di prova con Martin o Licia; poi può iscriversi a
+// Preply con il link «invita un amico». Nessun link ai profili Preply (2026-10-13).
 // Il messaggio precompilato è in italiano come quello dei bottoni grandi della home;
 // in portoghese è tradotto, come nella home /pt/.
 const whatsappText =

@@ -38,7 +38,7 @@ Il sito non va considerato completo finche l'audit segnala risorse mancanti o PD
 - Licia e descritta come paziente, appassionata d'arte e particolarmente brava con la grammatica.
 - Martin e descritto come appassionato di scienza, tecnologia ed etimologia.
 - Entrambi hanno una tariffa di 10 euro per lezione.
-- Il profilo Preply di Licia deve essere collegato a `https://preply.in/LICIA6IT2176799611?ts=17865248`; il profilo di Martin resta collegato a `https://preply.com/it/tutor/5086125`.
+- *(Superato il 2026-10-13: niente link ai profili Preply, vedi in fondo.)* Il profilo Preply di Licia deve essere collegato a `https://preply.in/LICIA6IT2176799611?ts=17865248`; il profilo di Martin resta collegato a `https://preply.com/it/tutor/5086125`.
 - La homepage italiana e tutte le homepage localizzate devono presentare entrambi i profili, con foto, descrizione, prezzo e collegamento Preply.
 
 ## 2026-08-12 - Struttura multilingue delle risorse
@@ -982,3 +982,14 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - La serie ora ha episodi A1 e A2: campo `level` in `emma-it.mjs`; `create-emma-stories.mjs` e `create-level-readings.mjs` lo usano (livello della pagina, PDF, link «Tutte le letture A2», schede nell'indice A2). La presentazione della serie dice «racconto A1 o A2» nelle 10 lingue.
 - Testate: OpenRouter senza crediti (errore 402), quindi Hugging Face Z-Image-Turbo, gratis, stesso stile acquerellato della serie; nella prima manca Chiara e il testo alternativo è stato corretto. Dettagli in `docs/prompt-immagini-emma.md`.
 - **Da ricaricare: i crediti di OpenRouter**, che servono per le testate con il modello di qualità.
+
+## 2026-10-13 - Da Preply a WhatsApp
+
+- Richiesta di Martin: togliere ogni riferimento ai profili Preply e far scrivere gli studenti su WhatsApp; di Preply resta solo il link di iscrizione «invita un amico» (Martin riceve 25 $ per ogni iscritto che si abbona). Obiettivo: sito molto orientato ai messaggi WhatsApp.
+- Sostituisce le decisioni precedenti che chiedevano il «collegamento Preply» per Martin e Licia (homepage, riquadri finali, «Chi siamo», PDF): ora quei pulsanti aprono WhatsApp.
+- Ogni pulsante dell'insegnante apre WhatsApp con un messaggio già scritto nella lingua della pagina e con il nome scelto: chi scrive dice subito con chi vuole la lezione di prova. Lo stesso numero per tutti e due (`393280555034`).
+- Hero delle 10 home: pulsante principale «Prenota la lezione di prova» (WhatsApp), secondo pulsante «Scegli il tuo insegnante» che scende alle schede, e una riga che dice che cosa succede dopo il messaggio (giorni e orari liberi di Martin e Licia). Schede della home: «Prenota con Martin» / «Prenota con Licia». Piè di pagina: «WhatsApp» al posto di «Preply» (in alcune pagine delle storie era stato tradotto per errore in «Prepárate», «Vorbereiten», «準備する»…).
+- Dati strutturati e meta description: via i profili Preply; la descrizione tedesca di «Über uns» diceva 12 euro, corretta in 14.
+- PDF (1933 con il profilo): chiusura con «Prenota su WhatsApp» per Martin e Licia, tutti rigenerati.
+- Restano le parole «Preply» solo nel link di iscrizione e nell'informativa privacy (il link porta ancora a Preply).
+- Script: `scripts/whatsapp-conversion.mjs`; controllo in `audit-site` (`PREPLY_PROFILE_LINK`, e i riquadri insegnanti devono avere due link `wa.me`).

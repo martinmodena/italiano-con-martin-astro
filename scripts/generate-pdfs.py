@@ -57,8 +57,28 @@ def styles_for(language):
     }
 
 
-MARTIN_URL = "https://preply.com/it/tutor/5086125"
-LICIA_URL = "https://preply.in/LICIA6IT2176799611?ts=17865248"
+# Dal 2026-10-13 niente link ai profili Preply: si prenota la lezione di prova
+# su WhatsApp, con il messaggio già scritto nella lingua del PDF (gli stessi
+# testi di scripts/whatsapp-conversion.mjs).
+WHATSAPP = "https://wa.me/393280555034?text="
+WHATSAPP_MSG = {
+    "it": ("Ciao Martin, vorrei prenotare una lezione di prova di italiano.", "Ciao, vorrei prenotare una lezione di prova di italiano con Licia."),
+    "en": ("Hi Martin, I'd like to book an Italian trial lesson.", "Hi, I'd like to book an Italian trial lesson with Licia."),
+    "es": ("Hola Martin, quisiera reservar una clase de prueba de italiano.", "Hola, quisiera reservar una clase de prueba de italiano con Licia."),
+    "pt": ("Olá Martin, gostaria de marcar uma aula experimental de italiano.", "Olá, gostaria de marcar uma aula experimental de italiano com a Licia."),
+    "fr": ("Bonjour Martin, je voudrais réserver un cours d’essai d’italien.", "Bonjour, je voudrais réserver un cours d’essai d’italien avec Licia."),
+    "cs": ("Dobrý den, Martine, chtěl(a) bych si rezervovat zkušební lekci italštiny.", "Dobrý den, chtěl(a) bych si rezervovat zkušební lekci italštiny s Licií."),
+    "pl": ("Dzień dobry, chciał(a)bym zarezerwować lekcję próbną włoskiego z Martinem.", "Dzień dobry, chciał(a)bym zarezerwować lekcję próbną włoskiego z Licią."),
+    "tr": ("Merhaba Martin, İtalyanca deneme dersi almak istiyorum.", "Merhaba, Licia ile İtalyanca deneme dersi almak istiyorum."),
+    "de": ("Hallo Martin, ich möchte eine Probestunde Italienisch buchen.", "Hallo, ich möchte eine Probestunde Italienisch bei Licia buchen."),
+    "ja": ("Martinさん、こんにちは。イタリア語の体験レッスンを予約したいです。", "こんにちは。Liciaさんのイタリア語の体験レッスンを予約したいです。"),
+}
+
+
+def whatsapp_urls(language):
+    from urllib.parse import quote
+    martin, licia = WHATSAPP_MSG.get(language, WHATSAPP_MSG["en"])
+    return WHATSAPP + quote(martin, safe=""), WHATSAPP + quote(licia, safe="")
 
 # Testo di servizio del PDF: sempre nella lingua del visitatore (REGOLE_LINGUE.md).
 # «Martin», «Licia» e «Italiano con Martin» non si traducono in nessuna lingua.
@@ -67,52 +87,52 @@ STRINGS = {
            "howto": "Il testo è in italiano. Sotto ogni brano trovi le parole utili con la traduzione e le domande: scrivi le risposte nei riquadri.",
            "words_head": ("Italiano", "Significato"), "cta_heading": "Lezioni di italiano 1:1",
            "martin": "scienza, tecnologia ed etimologia", "licia": "arte, pazienza e grammatica",
-           "book": "Prenota su Preply", "free_material": "letture, grammatica e vocabolario gratuiti"},
+           "book": "Prenota su WhatsApp", "free_material": "letture, grammatica e vocabolario gratuiti"},
     "en": {"kind": "Graded reading to learn Italian", "levels": "levels A1-C1", "level": "level {lv}",
            "howto": "The text is in Italian. Under each passage you will find the key words with their meaning and the questions: write your answers in the boxes.",
            "words_head": ("Italian", "Meaning"), "cta_heading": "1:1 Italian lessons",
            "martin": "science, technology and etymology", "licia": "art, patience and grammar",
-           "book": "Book on Preply", "free_material": "free readings, grammar and vocabulary"},
+           "book": "Book on WhatsApp", "free_material": "free readings, grammar and vocabulary"},
     "es": {"kind": "Lectura graduada para aprender italiano", "levels": "niveles A1-C1", "level": "nivel {lv}",
            "howto": "El texto está en italiano. Debajo de cada pasaje encontrarás las palabras clave con su significado y las preguntas: escribe tus respuestas en los recuadros.",
            "words_head": ("Italiano", "Significado"), "cta_heading": "Clases de italiano 1:1",
            "martin": "ciencia, tecnología y etimología", "licia": "arte, paciencia y gramática",
-           "book": "Reserva en Preply", "free_material": "lecturas, gramática y vocabulario gratuitos"},
+           "book": "Reserva por WhatsApp", "free_material": "lecturas, gramática y vocabulario gratuitos"},
     "fr": {"kind": "Lecture graduée pour apprendre l'italien", "levels": "niveaux A1-C1", "level": "niveau {lv}",
            "howto": "Le texte est en italien. Sous chaque passage se trouvent les mots utiles avec leur sens et les questions : écris tes réponses dans les cadres.",
            "words_head": ("Italien", "Sens"), "cta_heading": "Cours d'italien 1:1",
            "martin": "sciences, technologie et étymologie", "licia": "art, patience et grammaire",
-           "book": "Réserver sur Preply", "free_material": "lectures, grammaire et vocabulaire gratuits"},
+           "book": "Réserver sur WhatsApp", "free_material": "lectures, grammaire et vocabulaire gratuits"},
     "cs": {"kind": "Odstupňované čtení pro výuku italštiny", "levels": "úrovně A1-C1", "level": "úroveň {lv}",
            "howto": "Text je v italštině. Pod každým úryvkem najdeš užitečná slova s významem a otázky: odpovědi piš do rámečků.",
            "words_head": ("Italsky", "Význam"), "cta_heading": "Individuální lekce italštiny",
            "martin": "věda, technika a etymologie", "licia": "umění, trpělivost a gramatika",
-           "book": "Rezervovat na Preply", "free_material": "čtení, gramatika a slovní zásoba zdarma"},
+           "book": "Rezervovat přes WhatsApp", "free_material": "čtení, gramatika a slovní zásoba zdarma"},
     "pl": {"kind": "Czytanka z poziomami do nauki włoskiego", "levels": "poziomy A1-C1", "level": "poziom {lv}",
            "howto": "Tekst jest po włosku. Pod każdym fragmentem znajdziesz przydatne słowa ze znaczeniem i pytania: odpowiedzi zapisz w ramkach.",
            "words_head": ("Włoski", "Znaczenie"), "cta_heading": "Lekcje włoskiego 1:1",
            "martin": "nauka, technologia i etymologia", "licia": "sztuka, cierpliwość i gramatyka",
-           "book": "Zarezerwuj na Preply", "free_material": "darmowe czytanki, gramatyka i słownictwo"},
+           "book": "Zarezerwuj przez WhatsApp", "free_material": "darmowe czytanki, gramatyka i słownictwo"},
     "tr": {"kind": "İtalyanca öğrenmek için kademeli okuma", "levels": "A1-C1 seviyeleri", "level": "{lv} seviyesi",
            "howto": "Metin İtalyancadır. Her bölümün altında yararlı kelimeler ve anlamları ile sorular var: yanıtlarını kutulara yaz.",
            "words_head": ("İtalyanca", "Anlamı"), "cta_heading": "1:1 İtalyanca dersleri",
            "martin": "bilim, teknoloji ve etimoloji", "licia": "sanat, sabır ve dilbilgisi",
-           "book": "Preply'de rezervasyon yap", "free_material": "ücretsiz okuma, dilbilgisi ve kelime"},
+           "book": "WhatsApp'tan rezervasyon yap", "free_material": "ücretsiz okuma, dilbilgisi ve kelime"},
     "de": {"kind": "Gestufter Lesetext zum Italienischlernen", "levels": "Niveaus A1-C1", "level": "Niveau {lv}",
            "howto": "Der Text ist auf Italienisch. Unter jedem Abschnitt stehen die nützlichen Wörter mit ihrer Bedeutung und die Fragen: Schreibe deine Antworten in die Kästchen.",
            "words_head": ("Italienisch", "Bedeutung"), "cta_heading": "Italienischunterricht 1:1",
            "martin": "Wissenschaft, Technik und Etymologie", "licia": "Kunst, Geduld und Grammatik",
-           "book": "Auf Preply buchen", "free_material": "kostenlose Lesetexte, Grammatik und Wortschatz"},
+           "book": "Über WhatsApp buchen", "free_material": "kostenlose Lesetexte, Grammatik und Wortschatz"},
     "pt": {"kind": "Leitura graduada para aprender italiano", "levels": "níveis A1-C1", "level": "nível {lv}",
            "howto": "O texto está em italiano. Embaixo de cada trecho você encontra as palavras úteis com o significado e as perguntas: escreva as respostas nos quadros.",
            "words_head": ("Italiano", "Significado"), "cta_heading": "Aulas de italiano 1:1",
            "martin": "ciência, tecnologia e etimologia", "licia": "arte, paciência e gramática",
-           "book": "Agendar no Preply", "free_material": "leituras, gramática e vocabulário grátis"},
+           "book": "Agendar pelo WhatsApp", "free_material": "leituras, gramática e vocabulário grátis"},
     "ja": {"kind": "イタリア語学習のための段階別読解", "levels": "レベル A1〜C1", "level": "レベル {lv}",
            "howto": "本文はイタリア語です。各文章の下に、意味つきの重要単語と質問があります。答えは枠の中に書いてください。",
            "words_head": ("イタリア語", "意味"), "cta_heading": "マンツーマンのイタリア語レッスン",
            "martin": "科学・技術・語源", "licia": "芸術・忍耐・文法",
-           "book": "Preplyで予約", "free_material": "無料の読解・文法・語彙"},
+           "book": "WhatsAppで予約", "free_material": "無料の読解・文法・語彙"},
 }
 
 
@@ -250,14 +270,15 @@ def teacher_cell(style, photo, name, specialty, url, book):
 
 
 def closing_block(style, language):
-    # Chiusura del PDF: chi insegna, con che cosa, e dove si prenota.
+    # Chiusura del PDF: chi insegna, con che cosa, e dove si prenota (WhatsApp).
     # Martin e Licia restano non tradotti in ogni lingua (REGOLE_LINGUE.md).
     t = strings(language)
+    martin_url, licia_url = whatsapp_urls(language)
     heading = Paragraph(f'<b>{safe_markup(t["cta_heading"])}</b>', style["h3"])
     pair = Table(
         [[
-            teacher_cell(style, "martin-portrait.webp", "Martin", t["martin"], MARTIN_URL, t["book"]),
-            teacher_cell(style, "licia-portrait.webp", "Licia", t["licia"], LICIA_URL, t["book"]),
+            teacher_cell(style, "martin-portrait.webp", "Martin", t["martin"], martin_url, t["book"]),
+            teacher_cell(style, "licia-portrait.webp", "Licia", t["licia"], licia_url, t["book"]),
         ]],
         colWidths=[75 * mm, 75 * mm],
         hAlign="CENTER",
@@ -473,7 +494,10 @@ def localized_pages():
         if not italian_resources:
             raise SystemExit(f"--only: nessuna risorsa italiana con nome {ONLY} in {SITE}")
     for italian in italian_resources:
-        source = html.fromstring(italian.read_text(encoding="utf-8"))
+        text = italian.read_text(encoding="utf-8")
+        if 'http-equiv="refresh"' in text:
+            continue
+        source = html.fromstring(text)
         alternates = {node.get("hreflang"): node.get("href") for node in source.xpath('//link[@rel="alternate"]')}
         category = italian.relative_to(SITE).parts[0]
         optional = [code for code, hreflang in OPTIONAL_LANGUAGES.items() if hreflang in alternates]
@@ -483,6 +507,9 @@ def localized_pages():
             if language == "it":
                 page = italian
             else:
+                # Le pagine di reindirizzamento (vecchi URL) non hanno le alternate: niente PDF.
+                if OPTIONAL_LANGUAGES.get(language, language) not in alternates:
+                    continue
                 target = unquote(urlparse(alternates[OPTIONAL_LANGUAGES.get(language, language)]).path.lstrip("/"))
                 page = SITE / target
             # Dal 2026-09-29 una lettura può avere solo alcuni livelli: si stampano quelli presenti.

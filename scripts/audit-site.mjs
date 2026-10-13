@@ -393,7 +393,7 @@ function inspectTeacherJourney() {
     const $ = cheerio.load(readFileSync(file, 'utf8'), { decodeEntities: false });
     if ($('link[rel="alternate"]').not('[hreflang="pt-BR"]').length !== 10)
       issues.push(`- INCOMPLETE_ABOUT_HREFLANG | ${language} | /${relative}`);
-    if ($('.about-teacher').length !== 2 || $('.about-teacher a[href*="preply"]').length !== 2)
+    if ($('.about-teacher').length !== 2 || $('.about-teacher a[href^="https://wa.me/"]').length !== 2)
       issues.push(`- INCOMPLETE_TEACHER_PROFILES | ${language} | /${relative}`);
     if (!$('a[href^="https://wa.me/393280555034"]').length)
       issues.push(`- MISSING_WHATSAPP | ${language} | /${relative}`);
@@ -404,11 +404,12 @@ function inspectTeacherJourney() {
     const $ = cheerio.load(html, { decodeEntities: false });
     if (!$('.site-header').length) continue;
     const label = `/${path.relative(publicRoot, file).replaceAll('\\', '/')}`;
+    if (/preply\.(?:com\/[a-z]+\/tutor|in)\//.test(html)) issues.push(`- PREPLY_PROFILE_LINK | ${label}`);
     if (!$('.site-header .about-link').length || !$('.footer-grid .about-link').length)
       issues.push(`- MISSING_ABOUT_NAVIGATION | ${label}`);
     if (
       $('.conversion-section').length &&
-      ($('.teacher-cta').length !== 2 || $('.teacher-cta a[href*="preply"]').length !== 2)
+      ($('.teacher-cta').length !== 2 || $('.teacher-cta a[href^="https://wa.me/"]').length !== 2)
     )
       issues.push(`- INCOMPLETE_TEACHER_CTA | ${label}`);
   }
