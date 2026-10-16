@@ -185,5 +185,9 @@ export const PAGES = [
     it: 'letture/la-farfalla-monarca-viaggio-di-quattro-generazioni.html',
     pt: 'pt/leituras/a-borboleta-monarca-uma-viagem-de-quatro-geracoes.html',
   },
-  { it: 'letture/il-rondone-dieci-mesi-in-volo.html', pt: 'pt/leituras/o-andorinhao-dez-meses-em-voo.html' },
+  { it: 'letture/il-rondone-dieci-mesi-in-volo.html', pt: 'pt/leituras/o-andorinhao-dez-meses-em-voo.html' }, // Le formiche che fanno ponti (2026-10-16)
+  {
+    it: 'letture/le-formiche-che-costruiscono-ponti.html',
+    pt: 'pt/leituras/as-formigas-que-constroem-pontes-com-o-proprio-corpo.html',
+  },
 ];

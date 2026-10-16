@@ -993,3 +993,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - PDF (1933 con il profilo): chiusura con «Prenota su WhatsApp» per Martin e Licia, tutti rigenerati.
 - Restano le parole «Preply» solo nel link di iscrizione e nell'informativa privacy (il link porta ancora a Preply).
 - Script: `scripts/whatsapp-conversion.mjs`; controllo in `audit-site` (`PREPLY_PROFILE_LINK`, e i riquadri insegnanti devono avere due link `wa.me`).
+
+## 2026-10-16 - Le formiche che costruiscono ponti con il proprio corpo
+
+- Proposta di Martin (con una foto di un ponte di formiche come spunto): una lettura di scienza sulle formiche legionarie che fanno ponti con il proprio corpo. Pagina `letture/le-formiche-che-costruiscono-ponti.html`, in 10 lingue con PDF.
+- Livelli: **A1 verbi riflessivi** (la fila davanti al buco: si fermano, si aggrappano, si tengono), **B1 connettivi** (l'esperimento a V di Reid e Garnier a Panama, PNAS 2015: il ponte si sposta per accorciare la strada ma si ferma prima, perché ogni formica nel ponte non porta cibo), **B2 congiuntivo presente** (le due regole senza capo, il bivacco, le formiche che tappano le buche, le zattere delle formiche di fuoco, i robot). Proposti prima A2 riflessivi e B1 pronomi relativi: il sito non ha una lezione sui pronomi relativi, perciò B1 connettivi e A1 per la lezione sui riflessivi, che è A1.
+- Vocabolario di tutti i giorni (aggrapparsi, staccarsi, la fila, la scorciatoia, il compromesso, conveniente), come chiede la regola sulle lezioni con gli animali.
+- La foto di Martin non è stata usata (diritti): testata nuova con `gemini-3-pro-image`, prompt in `docs/prompt-immagini-formiche-2026-10-16.md`.
+- Testo di servizio in `scripts/data/scienza-i18n-natura-3.mjs`. Il dizionario portoghese ha avuto anche le 6 frasi della home e di «Chi siamo» rimaste senza traduzione dopo il passaggio a WhatsApp del 2026-10-13 (stessi testi di `whatsapp-conversion.mjs`), così `build-pt.mjs` non rimette lo spagnolo.
