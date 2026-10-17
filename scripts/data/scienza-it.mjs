@@ -8,6 +8,9 @@
 
 import { CONCENTRAZIONE } from './scienza-it-concentrazione.mjs';
 
+// Link delle fonti (dal 2026-10-17): DOI quando c'è, altrimenti la pagina ufficiale.
+const a = (href, text) => `<a href="${href}" target="_blank" rel="noopener">${text}</a>`;
+
 export const SCIENZA = [
   {
     key: 'polpo',
@@ -101,9 +104,9 @@ export const SCIENZA = [
     ],
     sources: [
       'The Guardian, «Inky the octopus escapes from New Zealand aquarium», 13 aprile 2016.',
-      'Smithsonian Ocean, «Octopuses: three hearts and blue blood» — cuori, branchie ed emocianina.',
-      'B. Hochner, «An embodied view of octopus neurobiology», <em>Current Biology</em> 22, 2012 — i neuroni nelle braccia.',
-      'L. van Giesen e altri, «Molecular basis of chemotactile sensation in octopus», <em>Cell</em> 183, 2020 — le ventose sentono il sapore.',
+      `Smithsonian Ocean, ${a('https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives', '«Cephalopods: Octopus, Squid, Cuttlefish, and Nautilus»')} — cuori, branchie ed emocianina.`,
+      `B. Hochner, ${a('https://doi.org/10.1016/j.cub.2012.09.001', '«An embodied view of octopus neurobiology»')}, <em>Current Biology</em> 22, 2012 — i neuroni nelle braccia.`,
+      `L. van Giesen e altri, ${a('https://doi.org/10.1016/j.cell.2020.09.008', '«Molecular basis of chemotactile sensation in octopus»')}, <em>Cell</em> 183, 2020 — le ventose sentono il sapore.`,
     ],
   },
   {
@@ -194,11 +197,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'D. D. Horikawa, «Survival of tardigrades in extreme environments», in <em>Anhydrobiosis</em>, Springer 2012 — freddo, pressione, radiazioni.',
-      'M. Tsujimoto, S. Imura, H. Kanda, «Recovery and reproduction of an Antarctic tardigrade retrieved from a moss sample frozen for over 30 years», <em>Cryobiology</em> 72, 2016.',
-      'K. I. Jönsson e altri, «Tardigrades survive exposure to space in low Earth orbit», <em>Current Biology</em> 18, 2008.',
-      'R. M. Neves e altri, «Thermotolerance experiments on active and desiccated states of <em>Ramazzottius varieornatus</em>», <em>Scientific Reports</em> 10, 2020.',
-      'A. Traspas, M. J. Burchell, «Tardigrade survival limits in high-speed impacts», <em>Astrobiology</em> 21, 2021 — la sonda Beresheet sulla Luna.',
+      `D. D. Horikawa, ${a('https://doi.org/10.1007/978-94-007-1896-8_12', '«Survival of tardigrades in extreme environments: a model animal for astrobiology»')}, in <em>Anoxia</em>, Springer 2012 — freddo, pressione, radiazioni.`,
+      `M. Tsujimoto, S. Imura, H. Kanda, ${a('https://doi.org/10.1016/j.cryobiol.2015.12.003', '«Recovery and reproduction of an Antarctic tardigrade retrieved from a moss sample frozen for over 30 years»')}, <em>Cryobiology</em> 72, 2016.`,
+      `K. I. Jönsson e altri, ${a('https://doi.org/10.1016/j.cub.2008.06.048', '«Tardigrades survive exposure to space in low Earth orbit»')}, <em>Current Biology</em> 18, 2008.`,
+      `R. M. Neves e altri, ${a('https://doi.org/10.1038/s41598-019-56965-z', '«Thermotolerance experiments on active and desiccated states of <em>Ramazzottius varieornatus</em> emphasize that tardigrades are sensitive to high temperatures»')}, <em>Scientific Reports</em> 10, 2020.`,
+      `A. Traspas, M. J. Burchell, ${a('https://doi.org/10.1089/ast.2020.2405', '«Tardigrade survival limits in high-speed impacts»')}, <em>Astrobiology</em> 21, 2021 — la sonda Beresheet sulla Luna.`,
     ],
   },
   {
@@ -291,11 +294,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'S. W. Simard e altri, «Net transfer of carbon between ectomycorrhizal tree species in the field», <em>Nature</em> 388, 1997.',
-      'D. Read, «The ties that bind», <em>Nature</em> 388, 1997 — il commento da cui nasce il nome <em>wood wide web</em>.',
-      'J. Karst, M. D. Jones, J. D. Hoeksema, «Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests», <em>Nature Ecology & Evolution</em> 7, 2023.',
-      'E. T. Kiers e altri, «Reciprocal rewards stabilize cooperation in the mycorrhizal symbiosis», <em>Science</em> 333, 2011.',
-      'M. D. Whiteside e altri, «Mycorrhizal fungi respond to resource inequality by moving phosphorus from rich to poor patches across networks», <em>Current Biology</em> 29, 2019.',
+      `S. W. Simard e altri, ${a('https://doi.org/10.1038/41557', '«Net transfer of carbon between ectomycorrhizal tree species in the field»')}, <em>Nature</em> 388, 1997.`,
+      `D. Read, ${a('https://doi.org/10.1038/41426', '«The ties that bind»')}, <em>Nature</em> 388, 1997 — il commento da cui nasce il nome <em>wood wide web</em>.`,
+      `J. Karst, M. D. Jones, J. D. Hoeksema, ${a('https://doi.org/10.1038/s41559-023-01986-1', '«Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests»')}, <em>Nature Ecology & Evolution</em> 7, 2023.`,
+      `E. T. Kiers e altri, ${a('https://doi.org/10.1126/science.1208473', '«Reciprocal rewards stabilize cooperation in the mycorrhizal symbiosis»')}, <em>Science</em> 333, 2011.`,
+      `M. D. Whiteside e altri, ${a('https://doi.org/10.1016/j.cub.2019.04.061', '«Mycorrhizal fungi respond to resource inequality by moving phosphorus from rich to poor patches across networks»')}, <em>Current Biology</em> 29, 2019.`,
     ],
   },
   {
@@ -427,11 +430,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'S. Van Wassenbergh e altri, «Woodpeckers minimize cranial absorption of shocks», <em>Current Biology</em> 32, 2022 — la testa come martello, i 109 video, la soglia di sicurezza.',
-      'L. Wang e altri, «Why do woodpeckers resist head impact injury: a biomechanical investigation», <em>PLoS ONE</em> 6, 2011 — l’ipotesi del cranio spugnoso che ammortizza i colpi.',
-      'S.-H. Yoon, S. Park, «A mechanical analysis of woodpecker drumming and its application to shock-absorbing systems», <em>Bioinspiration & Biomimetics</em> 6, 2011 — l’apparato ioideo come ammortizzatore e le protezioni antiurto ispirate al picchio.',
-      'G. Farah, D. Siwek, P. Cummings, «Tau accumulations in the brains of woodpeckers», <em>PLoS ONE</em> 13, 2018.',
-      'Audubon, «New Study Shakes Up Long-held Belief on Woodpecker Hammering», 2022 — velocità dei colpi e confronto con la soglia umana.',
+      `S. Van Wassenbergh e altri, ${a('https://doi.org/10.1016/j.cub.2022.05.052', '«Woodpeckers minimize cranial absorption of shocks»')}, <em>Current Biology</em> 32, 2022 — la testa come martello, i 109 video, la soglia di sicurezza.`,
+      `L. Wang e altri, ${a('https://doi.org/10.1371/journal.pone.0026490', '«Why do woodpeckers resist head impact injury: a biomechanical investigation»')}, <em>PLoS ONE</em> 6, 2011 — l’ipotesi del cranio spugnoso che ammortizza i colpi.`,
+      `S.-H. Yoon, S. Park, ${a('https://doi.org/10.1088/1748-3182/6/1/016003', '«A mechanical analysis of woodpecker drumming and its application to shock-absorbing systems»')}, <em>Bioinspiration & Biomimetics</em> 6, 2011 — l’apparato ioideo come ammortizzatore e le protezioni antiurto ispirate al picchio.`,
+      `G. Farah, D. Siwek, P. Cummings, ${a('https://doi.org/10.1371/journal.pone.0191526', '«Tau accumulations in the brains of woodpeckers»')}, <em>PLoS ONE</em> 13, 2018.`,
+      `Audubon, ${a('https://www.audubon.org/news/new-study-shakes-long-held-belief-woodpecker-hammering', '«New Study Shakes Up Long-held Belief on Woodpecker Hammering»')}, 2022 — velocità dei colpi e confronto con la soglia umana.`,
     ],
   },
   {
@@ -560,9 +563,9 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'I. Agnarsson, M. Kuntner, T. A. Blackledge, «Bioprospecting finds the toughest biological material: extraordinary silk from a giant riverine orb spider», <em>PLoS ONE</em> 5, 2010 — il ragno della corteccia di Darwin.',
-      'J. M. Gosline e altri, «The mechanical design of spider silks: from fibroin sequence to mechanical function», <em>Journal of Experimental Biology</em> 202, 1999 — resistenza e tenacità a confronto con acciaio e Kevlar.',
-      'E. L. Morley, D. Robert, «Electric fields elicit ballooning in spiders», <em>Current Biology</em> 28, 2018.',
+      `I. Agnarsson, M. Kuntner, T. A. Blackledge, ${a('https://doi.org/10.1371/journal.pone.0011234', '«Bioprospecting finds the toughest biological material: extraordinary silk from a giant riverine orb spider»')}, <em>PLoS ONE</em> 5, 2010 — il ragno della corteccia di Darwin.`,
+      `J. M. Gosline e altri, ${a('https://doi.org/10.1242/jeb.202.23.3295', '«The mechanical design of spider silks: from fibroin sequence to mechanical function»')}, <em>Journal of Experimental Biology</em> 202, 1999 — resistenza e tenacità a confronto con acciaio e Kevlar.`,
+      `E. L. Morley, D. Robert, ${a('https://doi.org/10.1016/j.cub.2018.05.057', '«Electric fields elicit ballooning in spiders»')}, <em>Current Biology</em> 28, 2018.`,
       'C. Darwin, <em>Viaggio di un naturalista intorno al mondo</em> (1839), capitolo sul Río de la Plata — i ragnetti sulla Beagle.',
     ],
   },
@@ -656,8 +659,8 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'B. O. Wolf e altri, «Extreme and variable torpor among high-elevation Andean hummingbird species», <em>Biology Letters</em> 16, 2020 — i 3,26 gradi del colibrì nero (<em>Metallura phoebe</em>).',
-      'Science News, «This hummingbird survives cold nights by nearly freezing itself solid», settembre 2020 — battiti del cuore di giorno e di notte, risparmio di energia.',
+      `B. O. Wolf e altri, ${a('https://doi.org/10.1098/rsbl.2020.0428', '«Extreme and variable torpor among high-elevation Andean hummingbird species»')}, <em>Biology Letters</em> 16, 2020 — i 3,26 gradi del colibrì nero (<em>Metallura phoebe</em>).`,
+      `Science News, ${a('https://www.sciencenews.org/article/hummingbirds-black-metaltail-cold-torpor', '«This hummingbird survives cold nights by nearly freezing itself solid»')}, settembre 2020 — battiti del cuore di giorno e di notte, risparmio di energia.`,
     ],
   },
   {
@@ -749,9 +752,9 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'J. M. Marzluff e altri, «Lasting recognition of threatening people by wild American crows», <em>Animal Behaviour</em> 79, 2010.',
-      'J. M. Marzluff e altri, «Brain imaging reveals neuronal circuitry underlying the crow’s perception of human faces», <em>PNAS</em> 109, 2012.',
-      'University of Washington, «Crows hold grudges against individual humans for up to 17 years», 2023 — la passeggiata del settembre 2023.',
+      `J. M. Marzluff e altri, ${a('https://doi.org/10.1016/j.anbehav.2009.12.022', '«Lasting recognition of threatening people by wild American crows»')}, <em>Animal Behaviour</em> 79, 2010.`,
+      `J. M. Marzluff e altri, ${a('https://doi.org/10.1073/pnas.1206109109', '«Brain imaging reveals neuronal circuitry underlying the crow’s perception of human faces»')}, <em>PNAS</em> 109, 2012.`,
+      `Earth.com, ripubblicato da Urban@UW (University of Washington), ${a('https://urban.uw.edu/news/crows-hold-grudges-against-individual-humans-for-up-to-17-years', '«Crows hold grudges against individual humans for up to 17 years»')}, 2024 — la passeggiata del settembre 2023.`,
     ],
   },
   {
@@ -844,11 +847,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'R. M. Wright e altri, «First direct evidence of adult European eels migrating to their breeding place in the Sargasso Sea», <em>Scientific Reports</em> 12, 2022.',
-      'J. Schmidt, «The breeding places of the eel», <em>Philosophical Transactions of the Royal Society B</em> 211, 1923.',
-      'G. B. Grassi, «The reproduction and metamorphosis of the common eel», <em>Proceedings of the Royal Society of London</em> 60, 1896.',
-      'Harvard University, Collection of Historical Scientific Instruments, «Freud the Scientist: the riddle of the eel» — Freud a Trieste nel 1876.',
-      'IUCN, Lista rossa: <em>Anguilla anguilla</em>, in pericolo critico.',
+      `R. M. Wright e altri, ${a('https://doi.org/10.1038/s41598-022-19248-8', '«First direct evidence of adult European eels migrating to their breeding place in the Sargasso Sea»')}, <em>Scientific Reports</em> 12, 2022.`,
+      `J. Schmidt, ${a('https://doi.org/10.1098/rstb.1923.0004', '«The breeding places of the eel»')}, <em>Philosophical Transactions of the Royal Society B</em> 211, 1923.`,
+      `G. B. Grassi, ${a('https://doi.org/10.1098/rspl.1896.0045', '«The reproduction and metamorphosis of the common eel»')}, <em>Proceedings of the Royal Society of London</em> 60, 1896.`,
+      `Harvard University, Collection of Historical Scientific Instruments, ${a('https://chsi.harvard.edu/current_exhibitions/freud-interp-drawings/freud-scientist-riddle-eel', '«Freud the Scientist: the riddle of the eel»')} — Freud a Trieste nel 1876.`,
+      `IUCN, Lista rossa: ${a('https://www.iucnredlist.org/species/60344/152845178', '«<em>Anguilla anguilla</em>»')}, in pericolo critico.`,
     ],
   },
   {
@@ -940,9 +943,9 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'D. J. Larson e altri, «Wood frog adaptations to overwintering in Alaska: new limits to freezing tolerance», <em>Journal of Experimental Biology</em> 217, 2014.',
-      'K. B. Storey, J. M. Storey, «Molecular physiology of freeze tolerance in vertebrates», <em>Physiological Reviews</em> 97, 2017 — il glucosio come antigelo.',
-      'University of Alaska Fairbanks, «Alaska frogs stock up on glucose to survive extreme cold», 2014.',
+      `D. J. Larson e altri, ${a('https://doi.org/10.1242/jeb.101931', '«Wood frog adaptations to overwintering in Alaska: new limits to freezing tolerance»')}, <em>Journal of Experimental Biology</em> 217, 2014.`,
+      `K. B. Storey, J. M. Storey, ${a('https://doi.org/10.1152/physrev.00016.2016', '«Molecular physiology of freeze tolerance in vertebrates»')}, <em>Physiological Reviews</em> 97, 2017 — il glucosio come antigelo.`,
+      `University of Alaska Fairbanks, ${a('https://www.uaf.edu/news/archives/news-archives-2010-2021/alaska-frogs.php', '«Alaska frogs stock up on glucose to survive extreme cold»')}, 2014.`,
     ],
   },
   {
@@ -1072,12 +1075,12 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'G. Shaw, «The Duck-Billed Platypus», <em>The Naturalist’s Miscellany</em> 10, 1799 — la prima descrizione e il sospetto di un falso.',
-      'Discover Magazine, «When scientists believed the adorable platypus was a hoax» — Shaw e le forbici (il racconto è tramandato, non documentato con certezza).',
-      'W. H. Caldwell, «The embryology of Monotremata and Marsupialia», <em>Philosophical Transactions of the Royal Society B</em> 178, 1887 — il telegramma del 1884 letto alla British Association a Montréal: «Monotremes oviparous, ovum meroblastic».',
-      'U. Proske, J. E. Gregory, A. Iggo, «Sensory receptors in monotremes», <em>Philosophical Transactions of the Royal Society B</em> 353, 1998 — le circa 40.000 ghiandole elettrosensibili del becco.',
-      'Australian Museum, «Platypus» — sperone velenoso, latte senza capezzoli, assenza di stomaco.',
-      'P. S. Anich e altri, «Biofluorescence in the platypus (<em>Ornithorhynchus anatinus</em>)», <em>Mammalia</em> 85, 2021 (online nel 2020).',
+      `G. Shaw, ${a('https://doi.org/10.5962/p.304567', '«The Duck-Billed Platypus»')}, <em>The Naturalist’s Miscellany</em> 10, 1799 — la prima descrizione e il sospetto di un falso.`,
+      `Discover Magazine, ${a('https://www.discovermagazine.com/when-scientists-believed-the-adorable-platypus-was-a-hoax-45324', '«When scientists believed the adorable platypus was a hoax»')} — Shaw e le forbici (il racconto è tramandato, non documentato con certezza).`,
+      `W. H. Caldwell, ${a('https://doi.org/10.1098/rstb.1887.0016', '«The embryology of Monotremata and Marsupialia»')}, <em>Philosophical Transactions of the Royal Society B</em> 178, 1887 — il telegramma del 1884 letto alla British Association a Montréal: «Monotremes oviparous, ovum meroblastic».`,
+      `U. Proske, J. E. Gregory, A. Iggo, ${a('https://doi.org/10.1098/rstb.1998.0275', '«Sensory receptors in monotremes»')}, <em>Philosophical Transactions of the Royal Society B</em> 353, 1998 — le circa 40.000 ghiandole elettrosensibili del becco.`,
+      `Australian Museum, ${a('https://australian.museum/learn/animals/mammals/platypus/', '«Platypus»')} — sperone velenoso, latte senza capezzoli, assenza di stomaco.`,
+      `P. S. Anich e altri, ${a('https://doi.org/10.1515/mammalia-2020-0027', '«Biofluorescence in the platypus (<em>Ornithorhynchus anatinus</em>)»')}, <em>Mammalia</em> 85, 2021 (online nel 2020).`,
     ],
   },
   {
@@ -1205,12 +1208,12 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'L. M. Gordon e altri, «Amorphous intergranular phases control the properties of rodent tooth enamel», <em>Science</em> 347, 2015 — lo smalto dei denti del castoro, ricco di ferro, è più duro e più resistente agli acidi.',
-      'Chemistry World, «Rodents’ striking orange teeth not down to iron-rich enamel as thought», 2024 — il colore arancione viene dallo strato esterno; lo smalto sotto è comunque ricco di ferro.',
-      'L. Wilsson, «Observations and experiments on the ethology of the European beaver», <em>Viltrevy</em> 8, 1971 — il rumore dell’acqua che scorre spinge i castori a costruire, anche sopra un altoparlante. Racconto divulgativo: Mental Floss, «The sound of running water puts beavers in the mood to build».',
-      'AFP / Phys.org, «World’s biggest beaver dam discovered in northern Canada», 2010 — la diga di circa 850 metri nel Parco nazionale Wood Buffalo, trovata da Jean Thie nel 2007 con Google Earth.',
-      'Maclean’s, «Meet the first person to explore the world’s largest beaver dam», 2014 — la spedizione di Rob Mark.',
-      'Il Post, «Cosa sappiamo del ritorno dei castori in Toscana», 2023; Il Dolomiti, «Estinto da cinque secoli, ritorna il castoro», 2018 — Tarvisio e il centro Italia.',
+      `L. M. Gordon e altri, ${a('https://doi.org/10.1126/science.1258950', '«Amorphous intergranular phases control the properties of rodent tooth enamel»')}, <em>Science</em> 347, 2015 — lo smalto dei denti del castoro, ricco di ferro, è più duro e più resistente agli acidi.`,
+      `Chemistry World, ${a('https://www.chemistryworld.com/news/rodents-striking-orange-teeth-not-down-to-iron-rich-enamel-as-thought/4019428.article', '«Rodents’ striking orange teeth not down to iron-rich enamel as thought»')}, 2024 — il colore arancione viene dallo strato esterno; lo smalto sotto è comunque ricco di ferro.`,
+      `L. Wilsson, «Observations and experiments on the ethology of the European beaver», <em>Viltrevy</em> 8, 1971 — il rumore dell’acqua che scorre spinge i castori a costruire, anche sopra un altoparlante. Racconto divulgativo: Mental Floss, ${a('https://www.mentalfloss.com/animals/sound-running-water-puts-beavers-mood-build', '«The sound of running water puts beavers in the mood to build»')}.`,
+      `AFP / Phys.org, ${a('https://phys.org/news/2010-05-world-biggest-beaver-northern-canada.html', '«World’s biggest beaver dam discovered in northern Canada»')}, 2010 — la diga di circa 850 metri nel Parco nazionale Wood Buffalo, trovata da Jean Thie nel 2007 con Google Earth.`,
+      `Maclean’s, ${a('https://macleans.ca/society/science/meet-the-first-person-to-explore-the-worlds-largest-beaver-dam/', '«Meet the first person to explore the world’s largest beaver dam»')}, 2014 — la spedizione di Rob Mark.`,
+      `Il Post, ${a('https://www.ilpost.it/2023/02/23/castori-centro-italia-reintroduzione-illegale/', '«Cosa sappiamo del ritorno dei castori in Toscana»')}, 2023; Il Dolomiti, ${a('https://www.ildolomiti.it/ambiente/2018/estinto-da-cinque-secoli-ritorna-il-castoro-la-sensazionale-scoperta-nelle-foreste-di-tarvisio', '«Estinto da cinque secoli, ritorna il castoro»')}, 2018 — Tarvisio e il centro Italia.`,
     ],
   },
   // ------------------------------------------------------------------ medusa (2026-10-10)
@@ -1336,11 +1339,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'G. Bavestrello, C. Sommer, M. Sarà, «Bi-directional conversion in <em>Turritopsis nutricula</em> (Hydrozoa)», <em>Scientia Marina</em> 56, 1992 — le prime osservazioni, nate dagli esperimenti di Christian Sommer a Rapallo.',
-      'S. Piraino, F. Boero, B. Aeschbach, V. Schmid, «Reversing the life cycle: medusae transforming into polyps and cell transdifferentiation in <em>Turritopsis nutricula</em> (Cnidaria, Hydrozoa)», <em>Biological Bulletin</em> 190, 1996.',
-      'M. Pascual-Torner e altri, «Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation», <em>PNAS</em> 119, 2022 — il DNA della medusa e i geni della riparazione.',
-      'M. P. Miglietta, H. A. Lessios, «A silent invasion», <em>Biological Invasions</em> 11, 2009 — la diffusione nei mari del mondo con le navi.',
-      'N. Rich, «Can a jellyfish unlock the secret of immortality?», <em>The New York Times Magazine</em>, 2012 — la storia di Christian Sommer a Rapallo.',
+      `G. Bavestrello, C. Sommer, M. Sarà, ${a('https://scimar.icm.csic.es/index.php/secId/6/IdArt/2594/', '«Bi-directional conversion in <em>Turritopsis nutricula</em> (Hydrozoa)»')}, <em>Scientia Marina</em> 56, 1992 — le prime osservazioni, nate dagli esperimenti di Christian Sommer a Rapallo.`,
+      `S. Piraino, F. Boero, B. Aeschbach, V. Schmid, ${a('https://doi.org/10.2307/1543022', '«Reversing the life cycle: medusae transforming into polyps and cell transdifferentiation in <em>Turritopsis nutricula</em> (Cnidaria, Hydrozoa)»')}, <em>Biological Bulletin</em> 190, 1996.`,
+      `M. Pascual-Torner e altri, ${a('https://doi.org/10.1073/pnas.2118763119', '«Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation»')}, <em>PNAS</em> 119, 2022 — il DNA della medusa e i geni della riparazione.`,
+      `M. P. Miglietta, H. A. Lessios, ${a('https://doi.org/10.1007/s10530-008-9296-0', '«A silent invasion»')}, <em>Biological Invasions</em> 11, 2009 — la diffusione nei mari del mondo con le navi.`,
+      `N. Rich, ${a('https://www.nytimes.com/2012/12/02/magazine/can-a-jellyfish-unlock-the-secret-of-immortality.html', '«Can a jellyfish unlock the secret of immortality?»')}, <em>The New York Times Magazine</em>, 2012 — la storia di Christian Sommer a Rapallo.`,
     ],
   },
   // ------------------------------------------------------------------ axolotl (2026-10-10)
@@ -1468,12 +1471,12 @@ export const SCIENZA = [
     ],
     sources: [
       'A. Duméril, note all’Académie des sciences di Parigi, 1865–1866 — gli axolotl nati al Muséum national d’Histoire naturelle e i primi che si sono trasformati in salamandre.',
-      'J. S. Huxley, «Metamorphosis of axolotl caused by thyroid-feeding», <em>Nature</em> 104, 1920.',
-      'E. M. Tanaka, «The molecular and cellular choreography of appendage regeneration», <em>Cell</em> 165, 2016 — il blastema e la rigenerazione degli arti.',
-      'S. Nowoshilow e altri, «The axolotl genome and the evolution of key tissue formation regulators», <em>Nature</em> 554, 2018.',
-      'C. M. Illingworth, «Trapped fingers and amputated finger tips in children», <em>Journal of Pediatric Surgery</em> 9, 1974 — la punta del dito che ricresce nei bambini piccoli.',
-      'Banco de México, banconota da 50 pesos della famiglia G, in circolazione dal 2021, con l’axolotl e i canali di Xochimilco.',
-      'V. Contreras, E. Martínez-Meyer, E. Valiente, L. Zambrano, «Recent decline and potential distribution in the last remnant area of the microendemic Mexican axolotl (<em>Ambystoma mexicanum</em>)», <em>Biological Conservation</em> 142, 2009; IUCN Red List, <em>Ambystoma mexicanum</em> (in pericolo critico) — il crollo nei canali di Xochimilco e il censimento del 2014.',
+      `J. S. Huxley, ${a('https://doi.org/10.1038/104435b0', '«Metamorphosis of axolotl caused by thyroid-feeding»')}, <em>Nature</em> 104, 1920.`,
+      `E. M. Tanaka, ${a('https://doi.org/10.1016/j.cell.2016.05.038', '«The molecular and cellular choreography of appendage regeneration»')}, <em>Cell</em> 165, 2016 — il blastema e la rigenerazione degli arti.`,
+      `S. Nowoshilow e altri, ${a('https://doi.org/10.1038/nature25458', '«The axolotl genome and the evolution of key tissue formation regulators»')}, <em>Nature</em> 554, 2018.`,
+      `C. M. Illingworth, ${a('https://doi.org/10.1016/s0022-3468(74)80220-4', '«Trapped fingers and amputated finger tips in children»')}, <em>Journal of Pediatric Surgery</em> 9, 1974 — la punta del dito che ricresce nei bambini piccoli.`,
+      `Banco de México, ${a('https://www.banxico.org.mx/billetes-y-monedas/billete-50-pesos-familia-g.html', '«Billete de 50 pesos de la familia G»')}, in circolazione dal 2021, con l’axolotl e i canali di Xochimilco.`,
+      `V. Contreras, E. Martínez-Meyer, E. Valiente, L. Zambrano, ${a('https://doi.org/10.1016/j.biocon.2009.07.008', '«Recent decline and potential distribution in the last remnant area of the microendemic Mexican axolotl (<em>Ambystoma mexicanum</em>)»')}, <em>Biological Conservation</em> 142, 2009; IUCN Red List, ${a('https://www.iucnredlist.org/species/1095/53947343', '«<em>Ambystoma mexicanum</em>»')} (in pericolo critico) — il crollo nei canali di Xochimilco e il censimento del 2014.`,
     ],
   },
   // ------------------------------------------------------------------ monarca (2026-10-10)
@@ -1600,12 +1603,12 @@ export const SCIENZA = [
     ],
     sources: [
       'F. A. Urquhart, «Found at last: the monarch’s winter home», <em>National Geographic</em> 150, agosto 1976 — la scoperta del bosco e la farfalla con l’etichetta di Chaska.',
-      'L. P. Brower, «Understanding and misunderstanding the migration of the monarch butterfly (Nymphalidae) in North America: 1857–1995», <em>Journal of the Lepidopterists’ Society</em> 49, 1995 — la storia della ricerca e il ruolo di Ken Brugger e Catalina Aguado.',
-      'C. Merlin, R. J. Gegear, S. M. Reppert, «Antennal circadian clocks coordinate sun compass orientation in migratory monarch butterflies», <em>Science</em> 325, 2009.',
-      'P. A. Guerra e altri, «Discordant timing between antennae disrupts sun compass orientation in migratory monarch butterflies», <em>Nature Communications</em> 3, 2012.',
-      'P. A. Guerra, S. M. Reppert, «Coldness triggers northward flight in remigrant monarch butterflies», <em>Current Biology</em> 23, 2013.',
-      'P. A. Guerra, R. J. Gegear, S. M. Reppert, «A magnetic compass aids monarch butterfly migration», <em>Nature Communications</em> 5, 2014.',
-      'U.S. Forest Service, «Monarch butterfly migration and overwintering» — le generazioni, la durata della vita e l’asclepiade.',
+      `L. P. Brower, ${a('https://images.peabody.yale.edu/lepsoc/jls/1990s/1995/1995-49(4)304-Brower.pdf', '«Understanding and misunderstanding the migration of the monarch butterfly (Nymphalidae) in North America: 1857–1995»')}, <em>Journal of the Lepidopterists’ Society</em> 49, 1995 — la storia della ricerca e il ruolo di Ken Brugger e Catalina Aguado.`,
+      `C. Merlin, R. J. Gegear, S. M. Reppert, ${a('https://doi.org/10.1126/science.1176221', '«Antennal circadian clocks coordinate sun compass orientation in migratory monarch butterflies»')}, <em>Science</em> 325, 2009.`,
+      `P. A. Guerra e altri, ${a('https://doi.org/10.1038/ncomms1965', '«Discordant timing between antennae disrupts sun compass orientation in migratory monarch butterflies»')}, <em>Nature Communications</em> 3, 2012.`,
+      `P. A. Guerra, S. M. Reppert, ${a('https://doi.org/10.1016/j.cub.2013.01.052', '«Coldness triggers northward flight in remigrant monarch butterflies»')}, <em>Current Biology</em> 23, 2013.`,
+      `P. A. Guerra, R. J. Gegear, S. M. Reppert, ${a('https://doi.org/10.1038/ncomms5164', '«A magnetic compass aids monarch butterfly migration»')}, <em>Nature Communications</em> 5, 2014.`,
+      `U.S. Forest Service, ${a('https://www.fs.usda.gov/wildflowers/pollinators/Monarch_Butterfly/migration/index.shtml', '«Monarch butterfly migration and overwintering»')} — le generazioni, la durata della vita e l’asclepiade.`,
       'WWF México e CONANP, rilevamenti annuali della superficie di bosco occupata dalle colonie di monarche in Messico (18,19 ettari nel 1996-97, 0,67 nel 2013-14).',
     ],
   },
@@ -1733,11 +1736,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'A. Hedenström e altri, «Annual 10-month aerial life phase in the common swift <em>Apus apus</em>», <em>Current Biology</em> 26, 2016 — i registratori sui rondoni svedesi: alcuni non si sono mai posati in dieci mesi.',
-      'A. M. Dokter e altri, «Twilight ascents by common swifts, <em>Apus apus</em>, at dawn and dusk: acquisition of orientation cues?», <em>Animal Behaviour</em> 85, 2013 — le salite al tramonto.',
-      'N. C. Rattenborg e altri, «Evidence that birds sleep in mid-flight», <em>Nature Communications</em> 7, 2016 — il sonno in volo, misurato nelle fregate; per i rondoni è un’ipotesi molto probabile.',
-      'R. O. Prum e altri, «A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing», <em>Nature</em> 526, 2015 — rondoni e colibrì sono parenti stretti; le rondini no.',
-      'LIPU – Lega Italiana Protezione Uccelli, indicazioni per chi trova un rondone a terra e progetti di cassette nido.',
+      `A. Hedenström e altri, ${a('https://doi.org/10.1016/j.cub.2016.09.014', '«Annual 10-month aerial life phase in the common swift <em>Apus apus</em>»')}, <em>Current Biology</em> 26, 2016 — i registratori sui rondoni svedesi: alcuni non si sono mai posati in dieci mesi.`,
+      `A. M. Dokter e altri, ${a('https://doi.org/10.1016/j.anbehav.2012.12.006', '«Twilight ascents by common swifts, <em>Apus apus</em>, at dawn and dusk: acquisition of orientation cues?»')}, <em>Animal Behaviour</em> 85, 2013 — le salite al tramonto.`,
+      `N. C. Rattenborg e altri, ${a('https://doi.org/10.1038/ncomms12468', '«Evidence that birds sleep in mid-flight»')}, <em>Nature Communications</em> 7, 2016 — il sonno in volo, misurato nelle fregate; per i rondoni è un’ipotesi molto probabile.`,
+      `R. O. Prum e altri, ${a('https://doi.org/10.1038/nature15697', '«A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing»')}, <em>Nature</em> 526, 2015 — rondoni e colibrì sono parenti stretti; le rondini no.`,
+      `LIPU – Lega Italiana Protezione Uccelli, ${a('https://animaliferiti.lipu.it/nodes/05-uccelli-2/', '«SOS animali feriti: uccelli»')} (un rondone a terra va sempre raccolto) e ${a('https://www.lipu.it/uccelli/conoscerli-proteggerli/rondone-comune', '«Rondone comune»')} (i nidi artificiali a cassetta).`,
     ],
   },
   {
@@ -1863,11 +1866,11 @@ export const SCIENZA = [
       },
     ],
     sources: [
-      'C. R. Reid, M. J. Lutz, S. Powell, A. B. Kao, I. D. Couzin, S. Garnier, «Army ants dynamically adjust living bridges in response to a cost–benefit trade-off», <em>PNAS</em> 112 (49), 2015 — l’esperimento con i pannelli a V a Barro Colorado, Panama: il ponte si sposta e si ferma prima della strada più corta.',
-      'J. M. Graham, A. B. Kao, D. A. Wilhelm, S. Garnier, «Optimal construction of army ant living bridges», <em>Journal of Theoretical Biology</em> 435, 2017 — le due regole: resta ferma finché ti camminano sopra, staccati quando il traffico cala.',
-      'S. Powell, N. R. Franks, «How a few help all: living pothole plugs speed prey delivery in the army ant <em>Eciton burchellii</em>», <em>Animal Behaviour</em> 73, 2007 — le operaie che tappano le buche del sentiero.',
-      'N. J. Mlot, C. A. Tovey, D. L. Hu, «Fire ants self-assemble into waterproof rafts to survive floods», <em>PNAS</em> 108 (19), 2011 — le zattere delle formiche di fuoco.',
-      'D. J. C. Kronauer, <em>Army Ants: Nature’s Ultimate Social Hunters</em>, Harvard University Press, 2020 — il bivacco, la vita senza nido fisso e la vista quasi assente delle formiche legionarie.',
+      `C. R. Reid, M. J. Lutz, S. Powell, A. B. Kao, I. D. Couzin, S. Garnier, ${a('https://doi.org/10.1073/pnas.1512241112', '«Army ants dynamically adjust living bridges in response to a cost–benefit trade-off»')}, <em>PNAS</em> 112 (49), 2015 — l’esperimento con i pannelli a V a Barro Colorado, Panama: il ponte si sposta e si ferma prima della strada più corta.`,
+      `J. M. Graham, A. B. Kao, D. A. Wilhelm, S. Garnier, ${a('https://doi.org/10.1016/j.jtbi.2017.09.017', '«Optimal construction of army ant living bridges»')}, <em>Journal of Theoretical Biology</em> 435, 2017 — le due regole: resta ferma finché ti camminano sopra, staccati quando il traffico cala.`,
+      `S. Powell, N. R. Franks, ${a('https://doi.org/10.1016/j.anbehav.2006.11.005', '«How a few help all: living pothole plugs speed prey delivery in the army ant <em>Eciton burchellii</em>»')}, <em>Animal Behaviour</em> 73, 2007 — le operaie che tappano le buche del sentiero.`,
+      `N. J. Mlot, C. A. Tovey, D. L. Hu, ${a('https://doi.org/10.1073/pnas.1016658108', '«Fire ants self-assemble into waterproof rafts to survive floods»')}, <em>PNAS</em> 108 (19), 2011 — le zattere delle formiche di fuoco.`,
+      `D. J. C. Kronauer, ${a('https://doi.org/10.2307/j.ctv2jfvc81', '<em>Army Ants: Nature’s Ultimate Social Hunters</em>')}, Harvard University Press, 2020 — il bivacco, la vita senza nido fisso e la vista quasi assente delle formiche legionarie.`,
     ],
   },
   CONCENTRAZIONE,
