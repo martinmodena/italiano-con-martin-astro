@@ -1,0 +1,85 @@
+/* «La pronuncia italiana» (2026-10-17): pulsanti audio, schede delle vocali e delle coppie, esercizi di ascolto, registratore. */
+.pron-play,.pron-slow{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;flex:none;border:0;border-radius:50%;background:var(--primary);color:#fff;font-size:15px;line-height:1;cursor:pointer;transition:transform .15s,background .15s}
+.pron-play::before{content:"\25B6";margin-left:2px}
+.pron-slow::before{content:"\1F422"}
+.pron-slow{background:#fff;border:2px solid var(--line);color:var(--ink);font-size:17px}
+.pron-play:hover,.pron-slow:hover{transform:scale(1.08)}
+.pron-play.is-playing{background:var(--dark)}
+.pron-play:focus-visible,.pron-slow:focus-visible,.pron-opt:focus-visible,.pron-syl:focus-visible{outline:3px solid var(--dark);outline-offset:2px}
+.pron-words{display:flex;flex-wrap:wrap;gap:8px 10px;margin:12px 0 0;padding:0;list-style:none}
+.pron-word{display:inline-flex;align-items:center;gap:8px;padding:4px 14px 4px 4px;border:1px solid var(--line);border-radius:999px;background:#fff;font-weight:800}
+.pron-word .pron-play{width:32px;height:32px;font-size:13px}
+.pron-word em{font-style:normal}
+.pron-vowels{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:20px 0}
+.pron-vowel{margin:0;padding:12px;border-radius:20px;background:var(--soft);text-align:center}
+.pron-vowel img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:16px}
+.pron-letter{display:block;margin:10px 0 4px;font-family:Georgia,serif;font-size:2.6rem;font-weight:700;line-height:1;color:var(--primary)}
+.pron-vowel p{margin:0 0 6px;font-size:.92rem;line-height:1.35}
+.pron-vowel .pron-words{justify-content:center}
+.pron-figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:16px 0}
+.pron-fig{margin:0;padding:12px;border:1px solid var(--line);border-radius:18px;background:#fff;text-align:center}
+.pron-fig img{display:block;width:100%;max-width:220px;height:auto;margin:0 auto;aspect-ratio:1;object-fit:contain}
+.pron-fig figcaption{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px;font-weight:800}
+.pron-table{width:100%;border-collapse:collapse;margin:18px 0}
+.pron-table th,.pron-table td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.pron-table th{background:var(--soft)}
+.pron-table td:first-child{font-family:Georgia,serif;font-size:1.25rem;font-weight:700;white-space:nowrap}
+.pron-table .pron-words{margin:0}
+.pron-sound-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+.pron-sound{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:start;padding:16px;border-radius:18px;background:var(--soft)}
+.pron-sound.no-img{grid-template-columns:1fr}
+.pron-sound img{width:96px;height:96px;object-fit:contain;border-radius:14px;background:#fff}
+.pron-sound h3{margin:0 0 6px;font-size:1.15rem}
+.pron-sound p{margin:0}
+.pron-cat{display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:center}
+.pron-cat img{width:100%;height:auto;border-radius:18px}
+.pron-pairs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:16px 0}
+.pron-pair{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;padding:10px;border:1px solid var(--line);border-radius:20px;background:#fff}
+.pron-pair .pron-fig{border:0;padding:4px}
+.pron-pair .pron-fig img{max-width:150px}
+.pron-pair .pron-fig figcaption{flex-direction:column;gap:2px}
+.pron-pair .pron-fig figcaption span{display:flex;align-items:center;gap:8px;font-size:1.2rem}
+.pron-pair .pron-fig figcaption small{font-weight:600;color:var(--muted)}
+.pron-lesson .pron-fig figcaption span.pron-sep{display:none}
+.pron-neq{font-family:Georgia,serif;font-size:1.8rem;color:var(--primary)}
+.pron-stress-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+.pron-stress-groups>div{padding:14px;border-radius:18px;background:var(--soft)}
+.pron-stress-groups h3{margin:0;font-size:1rem}
+.pron-traps{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:16px 0}
+.pron-trap{padding:18px;border-radius:18px;background:var(--soft)}
+.pron-trap h3{margin:0 0 8px;font-size:1.15rem}
+.pron-trap p{margin:0}
+.pron-trap .pron-trap-link{display:inline-block;margin-top:10px;font-weight:800}
+.pron-quiz{margin-top:26px;padding:20px;border:2px solid var(--line);border-radius:22px;background:#fffdf9}
+.pron-quiz h3{margin-top:0}
+.pron-q{display:flex;flex-wrap:wrap;align-items:center;gap:10px 12px;padding:14px 0;border-top:1px solid var(--line)}
+.pron-q-num{min-width:28px;font-weight:900;color:var(--muted)}
+.pron-q-word{min-width:120px;font-family:Georgia,serif;font-size:1.35rem;font-weight:700}
+.pron-opts{display:flex;flex-wrap:wrap;gap:10px}
+.pron-opt{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:2px solid var(--line);border-radius:14px;background:#fff;font:inherit;font-weight:800;cursor:pointer}
+.pron-opt img{width:54px;height:54px;object-fit:contain}
+.pron-opt.is-right{border-color:#16875d;background:#f0fff8}
+.pron-opt.is-wrong{border-color:#c9492b;background:#fff5f2}
+.pron-opt[disabled]{cursor:default}
+.pron-syl{padding:8px 13px;border:2px solid var(--line);border-radius:12px;background:#fff;font:inherit;font-family:Georgia,serif;font-size:1.25rem;font-weight:700;cursor:pointer}
+.pron-syl.is-right{border-color:#16875d;background:#f0fff8}
+.pron-syl.is-wrong{border-color:#c9492b;background:#fff5f2}
+.pron-fb{flex-basis:100%;min-height:22px;font-weight:800}
+.pron-fb.ok{color:#16875d}
+.pron-fb.no{color:#b23820}
+.pron-fb.wait{color:#65717d}
+.pron-quiz-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+.pron-score{font-weight:900}
+.pron-twister{padding:18px;margin:14px 0;border-radius:18px;background:var(--soft)}
+.pron-twister blockquote{margin:0 0 10px;font-family:Georgia,serif;font-size:1.3rem;line-height:1.45}
+.pron-twister p{margin:8px 0 0}
+.pron-tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.pron-rec{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.pron-rec-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:2px solid var(--primary);border-radius:999px;background:#fff;color:var(--ink);font:inherit;font-weight:800;cursor:pointer}
+.pron-rec-btn.is-recording{background:#c9492b;border-color:#c9492b;color:#fff}
+.pron-rec audio{height:36px;max-width:240px}
+.pron-rec-msg{font-size:.9rem;color:#b23820}
+.pron-try{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:14px 0;padding:14px 16px;border-radius:16px;background:var(--soft)}
+@media(max-width:820px){.pron-vowels{grid-template-columns:repeat(3,1fr)}.pron-stress-groups{grid-template-columns:1fr}}
+@media(max-width:650px){.pron-table thead{display:none}.pron-table tr{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.pron-table td{padding:0;border:0}.pron-table td:last-child{grid-column:1/-1}.pron-vowels{grid-template-columns:repeat(2,1fr)}.pron-sound-grid,.pron-pairs,.pron-traps{grid-template-columns:1fr}.pron-cat{grid-template-columns:1fr}.pron-cat img{max-width:240px}.pron-q-word{min-width:0}.pron-opt img{width:44px;height:44px}}
+.pron-try .pron-words{margin:0}

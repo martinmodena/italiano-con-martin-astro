@@ -47,7 +47,7 @@ const byUrl = new Map(pages.map((p) => [decodeURI(urlOf(p.meta.path)), p]));
 
 // Gruppo di una pagina portoghese: le pagine sorelle nelle altre lingue.
 const groups = [];
-for (const { it, pt } of PT_PAGES) {
+for (const { it, pt, own } of PT_PAGES) {
   const itPage = byUrl.get(decodeURI(urlOf(it)));
   if (!itPage) throw new Error(`Pagina italiana non trovata: ${it}`);
   const esUrl = itPage.meta.hreflangs.find(([l]) => l === 'es')?.[1];
@@ -57,7 +57,7 @@ for (const { it, pt } of PT_PAGES) {
     .filter(([l]) => l !== 'x-default' && l !== HREFLANG)
     .map(([, u]) => byUrl.get(decodeURI(u)))
     .filter(Boolean);
-  groups.push({ it, pt, ptUrl: urlOf(pt), itPage, esPage, siblings });
+  groups.push({ it, pt, own, ptUrl: urlOf(pt), itPage, esPage, siblings });
 }
 
 // Ogni URL di una pagina tradotta (in qualunque lingua) → URL portoghese.
@@ -358,6 +358,12 @@ function writeAstro(file, src, oldJson, meta) {
 // 4. Costruzione
 const built = [];
 for (const g of groups) {
+  // `own: true` (la lezione sulla pronuncia): la pagina portoghese la scrive il suo generatore, perché non
+  // è la traduzione di quella spagnola. Qui servono solo gli hreflang delle pagine sorelle.
+  if (g.own) {
+    built.push({ g, own: true });
+    continue;
+  }
   const esFrag = path.join(ROOT, 'src/html', g.esPage.meta.path);
   const itFrag = path.join(ROOT, 'src/html', g.itPage.meta.path);
   const ptPath = g.pt;
@@ -386,7 +392,15 @@ if (MISSING_ONLY) {
   process.exit();
 }
 
-for (const { g, html, meta, ptPath } of built) {
+for (const { g, html, meta, ptPath, own } of built) {
+  if (own) {
+    for (const s of g.siblings) {
+      const fresh = readFileSync(s.file, 'utf8');
+      const m = fresh.match(/const meta = (\{[\s\S]*?\r?\n *\});\r?\n/);
+      writeAstro(s.file, fresh, m[1], withPt(JSON.parse(m[1]), g.ptUrl, false));
+    }
+    continue;
+  }
   const fragFile = path.join(ROOT, 'src/html', ptPath);
   mkdirSync(path.dirname(fragFile), { recursive: true });
   writeFileSync(fragFile, html);

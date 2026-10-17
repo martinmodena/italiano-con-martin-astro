@@ -36,6 +36,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Italian reflexive verbs',
     'gia-ancora-appena': 'Già, ancora, appena: Italian adverbs of time',
     'avverbi-in-mente': 'Italian adverbs ending in -mente',
+    pronuncia: 'Italian pronunciation',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -74,6 +75,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Verbos reflexivos en italiano',
     'gia-ancora-appena': 'Già, ancora, appena: los adverbios de tiempo en italiano',
     'avverbi-in-mente': 'Los adverbios en -mente en italiano',
+    pronuncia: 'La pronunciación italiana',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -112,6 +114,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Verbes pronominaux en italien',
     'gia-ancora-appena': 'Già, ancora, appena : les adverbes de temps en italien',
     'avverbi-in-mente': 'Les adverbes en -mente en italien',
+    pronuncia: 'La prononciation italienne',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -150,6 +153,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Zvratná slovesa v italštině',
     'gia-ancora-appena': 'Già, ancora, appena: příslovce času v italštině',
     'avverbi-in-mente': 'Příslovce na -mente v italštině',
+    pronuncia: 'Italská výslovnost',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -188,6 +192,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Czasowniki zwrotne po włosku',
     'gia-ancora-appena': 'Già, ancora, appena: przysłówki czasu po włosku',
     'avverbi-in-mente': 'Przysłówki na -mente po włosku',
+    pronuncia: 'Wymowa włoska',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -226,6 +231,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'İtalyancada dönüşlü fiiller',
     'gia-ancora-appena': 'Già, ancora, appena: İtalyancada zaman zarfları',
     'avverbi-in-mente': 'İtalyancada -mente ile biten zarflar',
+    pronuncia: 'İtalyanca telaffuz',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -264,6 +270,7 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'Reflexive Verben im Italienischen',
     'gia-ancora-appena': 'Già, ancora, appena: Zeitadverbien im Italienischen',
     'avverbi-in-mente': 'Adverbien auf -mente im Italienischen',
+    pronuncia: 'Italienische Aussprache',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -302,5 +309,6 @@ export const grammarSeoTitles = {
     'verbi-riflessivi': 'イタリア語の再帰動詞',
     'gia-ancora-appena': 'Già、ancora、appena：イタリア語の時の副詞',
     'avverbi-in-mente': 'イタリア語の -mente で終わる副詞',
+    pronuncia: 'イタリア語の発音',
   },
 };

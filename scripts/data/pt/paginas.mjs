@@ -11,6 +11,8 @@ export const PAGES = [
 
   // Grammatica A1
   { it: 'grammatica/index.html', pt: 'pt/gramatica/index.html' },
+  // La pronuncia (2026-10-17): scritta da scripts/create-pronuncia-lesson.mjs, non tradotta dallo spagnolo.
+  { it: 'grammatica/a1/pronuncia.html', pt: 'pt/gramatica/a1/pronuncia-do-italiano.html', own: true },
   { it: 'grammatica/a1/verbo-essere.html', pt: 'pt/gramatica/a1/o-verbo-essere-em-italiano.html' },
   { it: 'grammatica/a1/verbo-avere.html', pt: 'pt/gramatica/a1/o-verbo-avere-em-italiano.html' },
   { it: 'grammatica/a1/articoli-determinativi.html', pt: 'pt/gramatica/a1/artigos-definidos-em-italiano.html' },

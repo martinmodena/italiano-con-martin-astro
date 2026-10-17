@@ -38,6 +38,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'italian-reflexive-verbs',
     'gia-ancora-appena': 'italian-adverbs-gia-ancora-appena',
     'avverbi-in-mente': 'italian-adverbs-ending-in-mente',
+    pronuncia: 'italian-pronunciation',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -76,6 +77,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'verbos-reflexivos-en-italiano',
     'gia-ancora-appena': 'adverbios-gia-ancora-appena-en-italiano',
     'avverbi-in-mente': 'adverbios-en-mente-en-italiano',
+    pronuncia: 'pronunciacion-italiana',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -114,6 +116,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'verbes-pronominaux-en-italien',
     'gia-ancora-appena': 'adverbes-gia-ancora-appena-en-italien',
     'avverbi-in-mente': 'adverbes-en-mente-en-italien',
+    pronuncia: 'prononciation-italienne',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -152,6 +155,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'zvratna-slovesa-v-italstine',
     'gia-ancora-appena': 'prislovce-gia-ancora-appena-v-italstine',
     'avverbi-in-mente': 'prislovce-na-mente-v-italstine',
+    pronuncia: 'italska-vyslovnost',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -190,6 +194,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'czasowniki-zwrotne-po-wlosku',
     'gia-ancora-appena': 'przyslowki-gia-ancora-appena-po-wlosku',
     'avverbi-in-mente': 'przyslowki-na-mente-po-wlosku',
+    pronuncia: 'wymowa-wloska',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -228,6 +233,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'italyancada-donuslu-fiiller',
     'gia-ancora-appena': 'italyancada-gia-ancora-appena-zarflari',
     'avverbi-in-mente': 'italyancada-mente-zarflari',
+    pronuncia: 'italyanca-telaffuz',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -266,6 +272,7 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'reflexive-verben-im-italienischen',
     'gia-ancora-appena': 'adverbien-gia-ancora-appena-im-italienischen',
     'avverbi-in-mente': 'adverbien-auf-mente-im-italienischen',
+    pronuncia: 'italienische-aussprache',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -304,5 +311,6 @@ export const grammarSeoSlugs = {
     'verbi-riflessivi': 'イタリア語の再帰動詞',
     'gia-ancora-appena': 'イタリア語の副詞-gia-ancora-appena',
     'avverbi-in-mente': 'イタリア語の副詞-mente',
+    pronuncia: 'イタリア語の発音',
   },
 };

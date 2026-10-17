@@ -161,6 +161,9 @@ def node_text(node, line_breaks=False):
             pieces.append(element.text)
         for child in element:
             if isinstance(child.tag, str):
+                # Elenchi di parole della lezione sulla pronuncia: su una riga, separate da un punto.
+                if child.tag.lower() == "li" and "pron-words" in (element.get("class") or "") and child.getprevious() is not None:
+                    pieces.append(" · ")
                 if child.tag.lower() == "br":
                     pieces.append(LINE_BREAK)
                 else:
@@ -174,6 +177,8 @@ def node_text(node, line_breaks=False):
 
 
 def safe_markup(value):
+    # Le emoji (🐢, 🎙) non sono nel font del PDF: si tolgono.
+    value = re.sub(r"[\U0001F000-\U0001FFFF]\s?", "", value)
     value = value.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     return value.replace(LINE_BREAK, "<br/>")
 
@@ -187,6 +192,8 @@ def add_node(story, node, style):
         story.append(Paragraph(safe_markup(text), style["h2"]))
     elif tag == "h3":
         story.append(Paragraph(safe_markup(text), style["h3"]))
+    elif tag == "ul" and "pron-words" in (node.get("class") or ""):
+        story.append(Paragraph(safe_markup(text), style["body"]))
     elif tag in {"p", "li", "figcaption", "label"} or "example" in (node.get("class") or "").split() or "mistake" in (node.get("class") or "").split():
         prefix = "• " if tag == "li" else ""
         story.append(Paragraph(safe_markup(prefix + node_text(node, line_breaks=True)), style["body"]))
@@ -212,7 +219,7 @@ def add_node(story, node, style):
 
 
 def content_nodes(container):
-    skip_classes = {"language-switcher", "pdf-downloads", "level-nav", "lesson-nav", "conversion-section", "exercise-actions", "score-card"}
+    skip_classes = {"language-switcher", "pdf-downloads", "level-nav", "lesson-nav", "conversion-section", "exercise-actions", "score-card", "no-print"}
     nodes = []
     for node in container.xpath(".//*"):
         classes = set((node.get("class") or "").split())
@@ -221,7 +228,9 @@ def content_nodes(container):
         if any(set((parent.get("class") or "").split()) & skip_classes for parent in node.iterancestors()):
             continue
         classes = set((node.get("class") or "").split())
-        printable = node.tag in {"h2", "h3", "p", "li", "table", "figcaption", "label"} or bool(classes & {"example", "mistake"})
+        printable = node.tag in {"h2", "h3", "p", "li", "table", "figcaption", "label"} or bool(classes & {"example", "mistake", "pron-words"})
+        if node.tag == "li" and "pron-words" in (node.getparent().get("class") or ""):
+            printable = False
         if printable and not any(parent.tag == "table" for parent in node.iterancestors()):
             nodes.append(node)
     return nodes
