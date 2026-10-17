@@ -6,6 +6,7 @@
 import { NATURA_I18N_1 } from './scienza-i18n-natura-1.mjs';
 import { NATURA_I18N_2 } from './scienza-i18n-natura-2.mjs';
 import { NATURA_I18N_3 } from './scienza-i18n-natura-3.mjs';
+import { CONCENTRAZIONE_I18N } from './scienza-i18n-concentrazione.mjs';
 
 export const SCIENZA_UI = {
   it: { science: 'Scienza', sourcesLabel: 'Fonti', sourcesTitle: 'Fonti usate', sourcesSub: 'Per approfondire' },
@@ -4133,4 +4134,6 @@ export const SCIENZA_I18N = {
   ...NATURA_I18N_2,
   // Lettura sulle formiche che fanno ponti (2026-10-16)
   ...NATURA_I18N_3,
+  // Lettura «La concentrazione perduta» (2026-10-17)
+  ...CONCENTRAZIONE_I18N,
 };

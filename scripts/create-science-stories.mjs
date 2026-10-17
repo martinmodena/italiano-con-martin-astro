@@ -93,6 +93,9 @@ const IT_LABELS = {
   placeholder: 'Scrivi la tua risposta',
 };
 
+// Una riga che comincia con «## » è un sottotitolo dentro il testo (letture lunghe, dal 2026-10-17).
+const para = (p) => (p.startsWith('## ') ? `<h3>${amp(p.slice(3))}</h3>` : `<p>${amp(p)}</p>`);
+
 function levelCard(r, lv, lang, slug) {
   const t = lang === 'it' ? IT_LABELS : T[lang];
   const tr = lang === 'it' ? null : I18N[r.key][lang][lv.id];
@@ -124,7 +127,7 @@ function levelCard(r, lv, lang, slug) {
   return `<article class="story-card" id="${lv.id}">
         <header><div><span class="level">${L}</span><h2${itAttr}>${lv.heading}</h2></div><p>${tr ? it(tr.focus, lang) : lv.focus}</p></header><div class="pdf-downloads pdf-downloads-level"><a class="button secondary" href="/pdf/${lang}/${slug}-${lv.id}.pdf" download="">PDF ${L}</a></div>
         <div class="story-text"${itAttr}>
-          ${lv.text.map((p) => `<p>${amp(p)}</p>`).join('\n          ')}
+          ${lv.text.map(para).join('\n          ')}
         </div>
         ${box}
         <div class="learning-grid"><div><h3>${t.words}</h3><p>${words}</p></div><div><h3>${t.questions}</h3><ol>${questions}</ol></div></div>
@@ -320,6 +323,7 @@ if (process.argv[1] && process.argv[1].endsWith('create-science-stories.mjs')) {
   for (const r of STORIES)
     for (const lv of r.levels) {
       const n = lv.text
+        .filter((p) => !p.startsWith('## '))
         .join(' ')
         .replace(/<[^>]+>/g, ' ')
         .split(/\s+/)

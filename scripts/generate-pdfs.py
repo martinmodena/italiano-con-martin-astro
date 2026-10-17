@@ -409,7 +409,14 @@ def render_article(story, article, style, language, minor=False):
     if focus and not minor:
         block.append(Paragraph(safe_markup(focus), style["subtitle_left"]))
     # phrase-list: frasi utili con spiegazioni nella lingua del visitatore (non è materiale di studio).
-    for paragraph in article.xpath('.//div[contains(@class, "story-text") or contains(@class, "phrase-list")]/p'):
+    for paragraph in article.xpath('.//div[contains(@class, "story-text") or contains(@class, "phrase-list")]/*[self::p or self::h3]'):
+        # Sottotitoli dentro il testo delle letture lunghe (dal 2026-10-17).
+        if paragraph.tag == "h3":
+            block.append(Paragraph(safe_markup(node_text(paragraph)), style["h3"]))
+            continue
+        # Fonti con il link (dal 2026-10-17): sulla carta l'indirizzo si scrive dopo il titolo.
+        for link in paragraph.xpath('.//a[@target="_blank"][starts-with(@href, "http")]'):
+            link.tail = f" ({link.get('href')})" + (link.tail or "")
         # line_breaks: nei dialoghi ogni battuta va a capo, come sulla pagina.
         block.append(Paragraph(safe_markup(node_text(paragraph, line_breaks=True)), style["small" if minor else "body"]))
     if minor:

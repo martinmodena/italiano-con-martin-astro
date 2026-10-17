@@ -6,6 +6,8 @@
 // Questo file è la fonte italiana; il testo di servizio delle 8 lingue è in scienza-i18n.mjs.
 // Generatore: scripts/create-science-stories.mjs (poi create-level-readings.mjs).
 
+import { CONCENTRAZIONE } from './scienza-it-concentrazione.mjs';
+
 export const SCIENZA = [
   {
     key: 'polpo',
@@ -1868,4 +1870,5 @@ export const SCIENZA = [
       'D. J. C. Kronauer, <em>Army Ants: Nature’s Ultimate Social Hunters</em>, Harvard University Press, 2020 — il bivacco, la vita senza nido fisso e la vista quasi assente delle formiche legionarie.',
     ],
   },
+  CONCENTRAZIONE,
 ];

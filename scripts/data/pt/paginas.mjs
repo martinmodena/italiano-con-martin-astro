@@ -190,4 +190,9 @@ export const PAGES = [
     it: 'letture/le-formiche-che-costruiscono-ponti.html',
     pt: 'pt/leituras/as-formigas-que-constroem-pontes-com-o-proprio-corpo.html',
   },
+  // La concentrazione perduta (2026-10-17)
+  {
+    it: 'letture/la-concentrazione-perduta.html',
+    pt: 'pt/leituras/a-concentracao-perdida-e-como-recupera-la.html',
+  },
 ];
