@@ -7,12 +7,48 @@ export const CONCENTRAZIONE_I18N = {
     en: {
       slug: 'lost-concentration-and-how-to-get-it-back',
       title: 'Lost concentration (and how to get it back)',
-      seoTitle: 'Lost concentration (and how to get it back). Italian reading B1–C1 (PDF)',
+      seoTitle: 'Lost concentration (and how to get it back). Italian reading A1–C1 (PDF)',
       seoDesc:
-        'An Italian reading (B1–C1) about concentration: why a notification distracts us even when we do not look at it, what an interruption really costs, what flow is, the myths to debunk and the remedies that work, from a black-and-white phone to the Pomodoro Technique. Conditional, if-clauses, the passive, questions and a free PDF.',
+        'An Italian reading (A1–C1) about concentration: why a notification distracts us even when we do not look at it, what an interruption really costs, what flow is, the myths to debunk and the remedies that work, from a black-and-white phone to the Pomodoro Technique. Adverbs of frequency, passato prossimo, conditional, if-clauses, the passive, questions and a free PDF.',
       lead: 'A buzz in your pocket is enough, even without looking at the phone, and your mind wanders off. Why it has become so hard to concentrate, what happens in the brain when we are interrupted, and what we can do to take our attention back.',
       hook: 'A notification distracts us even when we do not look at it. Why it happens and how to take our attention back.',
       alt: 'A young woman sitting at a wooden table by the window, her chin resting on her hand, looking into the distance, lost in thought; in front of her an open notebook and her phone',
+      a1: {
+        focus: 'Adverbs of frequency: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          'with <it>mai</it> (never) you need <it>non</it> before the verb: <it>non finisce mai</it>',
+          '<it>spesso</it> = often, many times; <it>a volte</it> = sometimes; <it>raramente</it> = rarely',
+          '<it>sempre</it> (always) = 100%: it usually goes after the verb (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Try it: complete with sempre, spesso, a volte or mai.',
+        link: 'adverbs of frequency',
+        words: ['phone', 'to vibrate, to buzz', 'break', 'walk', 'to finish'],
+        q: [
+          'What is Giulia’s problem?',
+          'According to Gloria Mark, for how many seconds do we look at a page?',
+          'How does the tomato idea work?',
+          'And you? What do you always do when you study? What do you never do? Write three sentences with sempre, spesso and mai.',
+        ],
+        hook: 'Giulia always looks at her phone and never finishes her work. But today she tries three simple ideas.',
+      },
+      a2: {
+        focus: 'The passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + past participle: with most verbs (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + past participle with many verbs of movement and change: the participle agrees (<it>è uscita, è tornata</it>)',
+          'many participles are irregular: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Try it: write the passato prossimo.',
+        link: 'the passato prossimo',
+        words: ['piece of advice', 'settings', 'to switch off', 'short story', 'angry'],
+        q: [
+          'What happened to Giulia last week?',
+          'What advice did Sara give her? What did the American study find?',
+          'What did Kafka do one night in 1912?',
+          'And you? What did you do yesterday to study or work better? What distracted you? Write three sentences in the passato prossimo.',
+        ],
+        hook: 'A week without finishing anything, then a strange piece of advice. And what did Kafka and an Italian student do with a tomato?',
+      },
       b1: {
         focus: 'The present conditional for giving advice: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -50,12 +86,48 @@ export const CONCENTRAZIONE_I18N = {
     es: {
       slug: 'la-concentracion-perdida-y-como-recuperarla',
       title: 'La concentración perdida (y cómo recuperarla)',
-      seoTitle: 'La concentración perdida (y cómo recuperarla). Lectura en italiano B1–C1 (PDF)',
+      seoTitle: 'La concentración perdida (y cómo recuperarla). Lectura en italiano A1–C1 (PDF)',
       seoDesc:
-        'Lectura en italiano B1–C1 sobre la concentración: por qué una notificación nos distrae aunque no la miremos, cuánto cuesta una interrupción, qué es el flow, los mitos que hay que desmontar y los remedios que funcionan, del móvil en blanco y negro a la técnica pomodoro. Condicional, periodo hipotético, voz pasiva, preguntas y PDF gratis.',
+        'Lectura en italiano A1–C1 sobre la concentración: por qué una notificación nos distrae aunque no la miremos, cuánto cuesta una interrupción, qué es el flow, los mitos que hay que desmontar y los remedios que funcionan, del móvil en blanco y negro a la técnica pomodoro. Adverbios de frecuencia, passato prossimo, condicional, periodo hipotético, voz pasiva, preguntas y PDF gratis.',
       lead: 'Basta un zumbido en el bolsillo, aunque no mires el móvil, y la mente se va. Por qué se ha vuelto tan difícil concentrarse, qué pasa en el cerebro cuando nos interrumpen y qué podemos hacer para recuperar nuestra atención.',
       hook: 'Una notificación nos distrae aunque no la miremos. Por qué ocurre y cómo recuperar la atención.',
       alt: 'Una chica sentada a una mesa de madera junto a la ventana, con la barbilla apoyada en la mano, mira a lo lejos pensativa; delante de ella, un cuaderno abierto y el móvil',
+      a1: {
+        focus: 'Los adverbios de frecuencia: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          'con <it>mai</it> (nunca) hace falta <it>non</it> delante del verbo: <it>non finisce mai</it>',
+          '<it>spesso</it> = a menudo, muchas veces; <it>a volte</it> = a veces; <it>raramente</it> = pocas veces',
+          '<it>sempre</it> (siempre) = 100 %: normalmente va después del verbo (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Prueba tú: completa con sempre, spesso, a volte o mai.',
+        link: 'los adverbios de frecuencia',
+        words: ['el teléfono, el móvil', 'vibrar', 'el descanso, la pausa', 'el paseo', 'terminar'],
+        q: [
+          '¿Cuál es el problema de Giulia?',
+          'Según Gloria Mark, ¿cuántos segundos miramos una página?',
+          '¿Cómo funciona la idea del tomate?',
+          'Y tú, ¿qué haces siempre cuando estudias? ¿Qué no haces nunca? Escribe tres frases con sempre, spesso y mai.',
+        ],
+        hook: 'Giulia siempre mira el móvil y nunca termina el trabajo. Pero hoy prueba tres ideas sencillas.',
+      },
+      a2: {
+        focus: 'El passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + participio: con la mayoría de los verbos (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + participio con muchos verbos de movimiento y de cambio: el participio concuerda (<it>è uscita, è tornata</it>)',
+          'muchos participios son irregulares: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Prueba tú: escribe el passato prossimo.',
+        link: 'el passato prossimo',
+        words: ['el consejo', 'los ajustes, la configuración', 'apagar', 'el relato, el cuento', 'enfadado'],
+        q: [
+          '¿Qué le pasó a Giulia la semana pasada?',
+          '¿Qué consejo le dio Sara? ¿Qué descubrió el estudio estadounidense?',
+          '¿Qué hizo Kafka una noche de 1912?',
+          'Y tú, ¿qué hiciste ayer para estudiar o trabajar mejor? ¿Qué te distrajo? Escribe tres frases en passato prossimo.',
+        ],
+        hook: 'Una semana sin terminar nada y luego un consejo raro. ¿Y qué hicieron Kafka y un estudiante italiano con un tomate?',
+      },
       b1: {
         focus: 'El condicional presente para dar consejos: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -93,12 +165,48 @@ export const CONCENTRAZIONE_I18N = {
     fr: {
       slug: 'la-concentration-perdue-et-comment-la-retrouver',
       title: 'La concentration perdue (et comment la retrouver)',
-      seoTitle: 'La concentration perdue (et comment la retrouver). Lecture en italien B1–C1 (PDF)',
+      seoTitle: 'La concentration perdue (et comment la retrouver). Lecture en italien A1–C1 (PDF)',
       seoDesc:
-        'Lecture en italien B1–C1 sur la concentration : pourquoi une notification nous distrait même si nous ne la regardons pas, ce que coûte une interruption, ce qu’est le flow, les mythes à démonter et les remèdes qui marchent, du téléphone en noir et blanc à la technique Pomodoro. Conditionnel, phrase hypothétique, voix passive, questions et PDF gratuit.',
+        'Lecture en italien A1–C1 sur la concentration : pourquoi une notification nous distrait même si nous ne la regardons pas, ce que coûte une interruption, ce qu’est le flow, les mythes à démonter et les remèdes qui marchent, du téléphone en noir et blanc à la technique Pomodoro. Adverbes de fréquence, passato prossimo, conditionnel, phrase hypothétique, voix passive, questions et PDF gratuit.',
       lead: 'Il suffit d’une vibration dans la poche, même sans regarder le téléphone, et l’esprit s’en va. Pourquoi il est devenu si difficile de se concentrer, ce qui se passe dans le cerveau quand on nous interrompt et ce que nous pouvons faire pour reprendre notre attention.',
       hook: 'Une notification nous distrait même si nous ne la regardons pas. Pourquoi, et comment reprendre notre attention.',
       alt: 'Une jeune femme assise à une table en bois près de la fenêtre, le menton appuyé sur la main, regarde au loin, pensive ; devant elle, un carnet ouvert et son téléphone',
+      a1: {
+        focus: 'Les adverbes de fréquence : <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          'avec <it>mai</it> (jamais), il faut <it>non</it> devant le verbe : <it>non finisce mai</it>',
+          '<it>spesso</it> = souvent ; <it>a volte</it> = parfois ; <it>raramente</it> = rarement',
+          '<it>sempre</it> (toujours) = 100 % : il se place en général après le verbe (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'À vous : complétez avec sempre, spesso, a volte ou mai.',
+        link: 'les adverbes de fréquence',
+        words: ['le téléphone', 'vibrer', 'la pause', 'la promenade', 'finir'],
+        q: [
+          'Quel est le problème de Giulia ?',
+          'Selon Gloria Mark, combien de secondes regardons-nous une page ?',
+          'Comment fonctionne l’idée de la tomate ?',
+          'Et vous ? Que faites-vous toujours quand vous étudiez ? Que ne faites-vous jamais ? Écrivez trois phrases avec sempre, spesso et mai.',
+        ],
+        hook: 'Giulia regarde toujours son téléphone et ne finit jamais son travail. Mais aujourd’hui, elle essaie trois idées simples.',
+      },
+      a2: {
+        focus: 'Le passato prossimo : <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + participe passé : avec la plupart des verbes (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + participe passé avec beaucoup de verbes de mouvement et de changement : le participe s’accorde (<it>è uscita, è tornata</it>)',
+          'beaucoup de participes sont irréguliers : <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'À vous : écrivez le passato prossimo.',
+        link: 'le passato prossimo',
+        words: ['le conseil', 'les réglages, les paramètres', 'éteindre', 'la nouvelle, le récit', 'en colère'],
+        q: [
+          'Que s’est-il passé pour Giulia la semaine dernière ?',
+          'Quel conseil Sara lui a-t-elle donné ? Qu’a découvert l’étude américaine ?',
+          'Qu’a fait Kafka une nuit de 1912 ?',
+          'Et vous ? Qu’avez-vous fait hier pour mieux étudier ou travailler ? Qu’est-ce qui vous a distrait ? Écrivez trois phrases au passato prossimo.',
+        ],
+        hook: 'Une semaine sans rien finir, puis un conseil étrange. Et qu’ont fait Kafka et un étudiant italien avec une tomate ?',
+      },
       b1: {
         focus: 'Le conditionnel présent pour donner des conseils : <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -136,12 +244,48 @@ export const CONCENTRAZIONE_I18N = {
     cs: {
       slug: 'ztracene-soustredeni-a-jak-ho-najit',
       title: 'Ztracené soustředění (a jak ho znovu najít)',
-      seoTitle: 'Ztracené soustředění (a jak ho znovu najít). Italské čtení B1–C1 (PDF)',
+      seoTitle: 'Ztracené soustředění (a jak ho znovu najít). Italské čtení A1–C1 (PDF)',
       seoDesc:
-        'Italské čtení B1–C1 o soustředění: proč nás upozornění rozptýlí, i když se na něj nepodíváme, kolik stojí vyrušení, co je flow, které mýty vyvrátit a které rady fungují, od černobílého telefonu po techniku Pomodoro. Kondicionál, podmínkové věty, trpný rod, otázky a PDF zdarma.',
+        'Italské čtení A1–C1 o soustředění: proč nás upozornění rozptýlí, i když se na něj nepodíváme, kolik stojí vyrušení, co je flow, které mýty vyvrátit a které rady fungují, od černobílého telefonu po techniku Pomodoro. Příslovce četnosti, passato prossimo, kondicionál, podmínkové věty, trpný rod, otázky a PDF zdarma.',
       lead: 'Stačí bzučení v kapse, i když se na telefon nepodíváte, a mysl je pryč. Proč je dnes tak těžké se soustředit, co se děje v mozku, když nás někdo vyruší, a co můžeme udělat, abychom svou pozornost získali zpět.',
       hook: 'Upozornění nás rozptýlí, i když se na něj nepodíváme. Proč se to děje a jak získat pozornost zpět.',
       alt: 'Mladá žena sedí u dřevěného stolu u okna, bradu opřenou o ruku, a zamyšleně hledí do dálky; před ní otevřený sešit a telefon',
+      a1: {
+        focus: 'Příslovce četnosti: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          's <it>mai</it> (nikdy) musí být před slovesem <it>non</it>: <it>non finisce mai</it>',
+          '<it>spesso</it> = často; <it>a volte</it> = někdy; <it>raramente</it> = zřídka',
+          '<it>sempre</it> (vždy) = 100 %: obvykle stojí za slovesem (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Zkuste to: doplňte sempre, spesso, a volte, nebo mai.',
+        link: 'příslovce četnosti',
+        words: ['telefon', 'vibrovat', 'přestávka', 'procházka', 'dokončit'],
+        q: [
+          'Jaký problém má Giulia?',
+          'Kolik sekund se podle Glorie Markové díváme na jednu stránku?',
+          'Jak funguje nápad s rajčetem?',
+          'A vy? Co děláte vždycky, když se učíte? Co neděláte nikdy? Napište tři věty se sempre, spesso a mai.',
+        ],
+        hook: 'Giulia se pořád dívá do telefonu a nikdy nedokončí práci. Dnes ale zkouší tři jednoduché nápady.',
+      },
+      a2: {
+        focus: 'Passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + příčestí minulé: u většiny sloves (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + příčestí minulé u mnoha sloves pohybu a změny: příčestí se shoduje (<it>è uscita, è tornata</it>)',
+          'mnoho příčestí je nepravidelných: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Zkuste to: napište passato prossimo.',
+        link: 'passato prossimo',
+        words: ['rada', 'nastavení', 'vypnout', 'povídka', 'naštvaný'],
+        q: [
+          'Co se Giulii stalo minulý týden?',
+          'Jakou radu jí dala Sara? Co zjistila americká studie?',
+          'Co udělal Kafka jedné noci v roce 1912?',
+          'A vy? Co jste včera udělali, abyste se lépe učili nebo pracovali? Co vás rozptýlilo? Napište tři věty v passato prossimo.',
+        ],
+        hook: 'Týden, kdy nic nedokončila, a pak zvláštní rada. A co udělali Kafka a jeden italský student s rajčetem?',
+      },
       b1: {
         focus: 'Kondicionál přítomný pro rady: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -179,12 +323,48 @@ export const CONCENTRAZIONE_I18N = {
     pl: {
       slug: 'utracona-koncentracja-i-jak-ja-odzyskac',
       title: 'Utracona koncentracja (i jak ją odzyskać)',
-      seoTitle: 'Utracona koncentracja (i jak ją odzyskać). Czytanie po włosku B1–C1 (PDF)',
+      seoTitle: 'Utracona koncentracja (i jak ją odzyskać). Czytanie po włosku A1–C1 (PDF)',
       seoDesc:
-        'Tekst do czytania po włosku B1–C1 o koncentracji: dlaczego powiadomienie rozprasza nas, nawet gdy na nie nie patrzymy, ile kosztuje przerwanie pracy, czym jest flow, jakie mity obalić i jakie sposoby działają, od czarno-białego telefonu po technikę Pomodoro. Tryb warunkowy, zdania warunkowe, strona bierna, pytania i darmowy PDF.',
+        'Tekst do czytania po włosku A1–C1 o koncentracji: dlaczego powiadomienie rozprasza nas, nawet gdy na nie nie patrzymy, ile kosztuje przerwanie pracy, czym jest flow, jakie mity obalić i jakie sposoby działają, od czarno-białego telefonu po technikę Pomodoro. Przysłówki częstotliwości, passato prossimo, tryb warunkowy, zdania warunkowe, strona bierna, pytania i darmowy PDF.',
       lead: 'Wystarczy brzęczenie w kieszeni, nawet jeśli nie patrzysz na telefon, i myśli uciekają. Dlaczego tak trudno jest dziś się skupić, co dzieje się w mózgu, kiedy ktoś nam przerywa, i co możemy zrobić, żeby odzyskać swoją uwagę.',
       hook: 'Powiadomienie rozprasza nas, nawet gdy na nie nie patrzymy. Dlaczego tak się dzieje i jak odzyskać uwagę.',
       alt: 'Młoda kobieta siedzi przy drewnianym stole przy oknie, z brodą opartą na dłoni, i zamyślona patrzy w dal; przed nią otwarty zeszyt i telefon',
+      a1: {
+        focus: 'Przysłówki częstotliwości: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          'z <it>mai</it> (nigdy) przed czasownikiem musi być <it>non</it>: <it>non finisce mai</it>',
+          '<it>spesso</it> = często; <it>a volte</it> = czasami; <it>raramente</it> = rzadko',
+          '<it>sempre</it> (zawsze) = 100%: zwykle stoi po czasowniku (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Spróbuj: uzupełnij sempre, spesso, a volte albo mai.',
+        link: 'przysłówki częstotliwości',
+        words: ['telefon', 'wibrować', 'przerwa', 'spacer', 'skończyć'],
+        q: [
+          'Jaki problem ma Giulia?',
+          'Według Glorii Mark przez ile sekund patrzymy na jedną stronę?',
+          'Jak działa pomysł z pomidorem?',
+          'A ty? Co zawsze robisz, kiedy się uczysz? Czego nie robisz nigdy? Napisz trzy zdania z sempre, spesso i mai.',
+        ],
+        hook: 'Giulia ciągle patrzy w telefon i nigdy nie kończy pracy. Ale dziś próbuje trzech prostych pomysłów.',
+      },
+      a2: {
+        focus: 'Passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + imiesłów bierny: z większością czasowników (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + imiesłów z wieloma czasownikami ruchu i zmiany: imiesłów się uzgadnia (<it>è uscita, è tornata</it>)',
+          'wiele imiesłowów jest nieregularnych: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Spróbuj: napisz passato prossimo.',
+        link: 'passato prossimo',
+        words: ['rada', 'ustawienia', 'wyłączyć', 'opowiadanie', 'zły, zdenerwowany'],
+        q: [
+          'Co się stało z Giulią w zeszłym tygodniu?',
+          'Jaką radę dała jej Sara? Co odkryło amerykańskie badanie?',
+          'Co zrobił Kafka pewnej nocy w 1912 roku?',
+          'A ty? Co zrobiłeś wczoraj, żeby lepiej się uczyć albo pracować? Co cię rozproszyło? Napisz trzy zdania w passato prossimo.',
+        ],
+        hook: 'Tydzień, w którym nic nie skończyła, a potem dziwna rada. I co zrobili z pomidorem Kafka i pewien włoski student?',
+      },
       b1: {
         focus: 'Tryb warunkowy (<it>condizionale presente</it>) w radach: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -222,12 +402,48 @@ export const CONCENTRAZIONE_I18N = {
     tr: {
       slug: 'kaybolan-odak-ve-nasil-geri-kazanilir',
       title: 'Kaybolan odak (ve nasıl geri kazanılır)',
-      seoTitle: 'Kaybolan odak (ve nasıl geri kazanılır). İtalyanca okuma B1–C1 (PDF)',
+      seoTitle: 'Kaybolan odak (ve nasıl geri kazanılır). İtalyanca okuma A1–C1 (PDF)',
       seoDesc:
-        'Odaklanma üzerine B1–C1 seviyesinde İtalyanca okuma: bir bildirim, ona bakmasak bile neden dikkatimizi dağıtır, bir kesintinin bedeli nedir, flow nedir, hangi efsaneler çürütülmeli ve hangi çareler işe yarar; siyah beyaz telefondan Pomodoro tekniğine. Şart kipi, koşul cümleleri, edilgen yapı, sorular ve ücretsiz PDF.',
+        'Odaklanma üzerine A1–C1 seviyesinde İtalyanca okuma: bir bildirim, ona bakmasak bile neden dikkatimizi dağıtır, bir kesintinin bedeli nedir, flow nedir, hangi efsaneler çürütülmeli ve hangi çareler işe yarar; siyah beyaz telefondan Pomodoro tekniğine. Sıklık zarfları, passato prossimo, şart kipi, koşul cümleleri, edilgen yapı, sorular ve ücretsiz PDF.',
       lead: 'Telefona bakmasanız bile cebinizdeki bir titreşim yeter, zihin uzaklaşır. Odaklanmak neden bu kadar zorlaştı, sözümüz kesildiğinde beyinde ne olur ve dikkatimizi geri almak için ne yapabiliriz?',
       hook: 'Bir bildirim, ona bakmasak bile dikkatimizi dağıtır. Bunun nedeni ve dikkatimizi nasıl geri alacağımız.',
       alt: 'Pencerenin yanındaki ahşap bir masada oturan genç bir kadın, çenesini eline dayamış, düşünceli bir şekilde uzaklara bakıyor; önünde açık bir defter ve telefonu var',
+      a1: {
+        focus: 'Sıklık zarfları: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          '<it>mai</it> (asla) ile fiilin önüne <it>non</it> gerekir: <it>non finisce mai</it>',
+          '<it>spesso</it> = sık sık; <it>a volte</it> = bazen; <it>raramente</it> = nadiren',
+          '<it>sempre</it> (her zaman) = %100: genellikle fiilden sonra gelir (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Siz deneyin: sempre, spesso, a volte ya da mai ile tamamlayın.',
+        link: 'sıklık zarfları',
+        words: ['telefon', 'titreşmek', 'mola', 'yürüyüş', 'bitirmek'],
+        q: [
+          'Giulia’nın sorunu nedir?',
+          'Gloria Mark’a göre bir sayfaya kaç saniye bakıyoruz?',
+          'Domates fikri nasıl işliyor?',
+          'Peki siz? Ders çalışırken her zaman ne yaparsınız? Asla ne yapmazsınız? sempre, spesso ve mai ile üç cümle yazın.',
+        ],
+        hook: 'Giulia hep telefonuna bakıyor ve işini hiç bitiremiyor. Ama bugün üç basit fikir deniyor.',
+      },
+      a2: {
+        focus: 'Passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + geçmiş ortaç: fiillerin çoğuyla (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + geçmiş ortaç, hareket ve değişim bildiren birçok fiille: ortaç uyum gösterir (<it>è uscita, è tornata</it>)',
+          'birçok ortaç düzensizdir: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Siz deneyin: passato prossimo yazın.',
+        link: 'passato prossimo',
+        words: ['tavsiye, öğüt', 'ayarlar', 'kapatmak', 'öykü', 'kızgın'],
+        q: [
+          'Geçen hafta Giulia’ya ne oldu?',
+          'Sara ona ne tavsiye etti? Amerikan araştırması ne buldu?',
+          'Kafka 1912’de bir gece ne yaptı?',
+          'Peki siz? Dün daha iyi çalışmak ya da ders çalışmak için ne yaptınız? Dikkatinizi ne dağıttı? passato prossimo ile üç cümle yazın.',
+        ],
+        hook: 'Hiçbir şeyi bitiremediği bir hafta, sonra tuhaf bir tavsiye. Peki Kafka ve İtalyan bir öğrenci bir domatesle ne yaptı?',
+      },
       b1: {
         focus: 'Tavsiye vermek için şimdiki zaman şart kipi: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -265,12 +481,48 @@ export const CONCENTRAZIONE_I18N = {
     de: {
       slug: 'die-verlorene-konzentration-und-wie-man-sie-wiederfindet',
       title: 'Die verlorene Konzentration (und wie man sie wiederfindet)',
-      seoTitle: 'Die verlorene Konzentration (und wie man sie wiederfindet). Italienischer Lesetext B1–C1 (PDF)',
+      seoTitle: 'Die verlorene Konzentration (und wie man sie wiederfindet). Italienischer Lesetext A1–C1 (PDF)',
       seoDesc:
-        'Italienischer Lesetext B1–C1 über Konzentration: warum uns eine Benachrichtigung ablenkt, auch wenn wir nicht hinschauen, was eine Unterbrechung kostet, was Flow ist, welche Mythen nicht stimmen und welche Mittel wirken, vom Schwarz-Weiß-Handy bis zur Pomodoro-Technik. Konditional, Bedingungssätze, Passiv, Fragen und kostenloses PDF.',
+        'Italienischer Lesetext A1–C1 über Konzentration: warum uns eine Benachrichtigung ablenkt, auch wenn wir nicht hinschauen, was eine Unterbrechung kostet, was Flow ist, welche Mythen nicht stimmen und welche Mittel wirken, vom Schwarz-Weiß-Handy bis zur Pomodoro-Technik. Häufigkeitsadverbien, passato prossimo, Konditional, Bedingungssätze, Passiv, Fragen und kostenloses PDF.',
       lead: 'Ein Summen in der Tasche reicht, auch ohne aufs Handy zu schauen, und die Gedanken sind weg. Warum es so schwer geworden ist, sich zu konzentrieren, was im Gehirn passiert, wenn wir unterbrochen werden, und was wir tun können, um unsere Aufmerksamkeit zurückzuholen.',
       hook: 'Eine Benachrichtigung lenkt uns ab, auch wenn wir nicht hinschauen. Warum das so ist und wie wir unsere Aufmerksamkeit zurückholen.',
       alt: 'Eine junge Frau sitzt an einem Holztisch am Fenster, das Kinn auf die Hand gestützt, und blickt nachdenklich in die Ferne; vor ihr ein aufgeschlagenes Heft und ihr Handy',
+      a1: {
+        focus: 'Die Häufigkeitsadverbien: <it>sempre, spesso, a volte, mai</it>',
+        box: [
+          'mit <it>mai</it> (nie) braucht man <it>non</it> vor dem Verb: <it>non finisce mai</it>',
+          '<it>spesso</it> = oft; <it>a volte</it> = manchmal; <it>raramente</it> = selten',
+          '<it>sempre</it> (immer) = 100 %: steht meistens nach dem Verb (<it>ha sempre, guarda sempre</it>)',
+        ],
+        tryLabel: 'Probier es: Ergänze mit sempre, spesso, a volte oder mai.',
+        link: 'die Häufigkeitsadverbien',
+        words: ['das Telefon, das Handy', 'vibrieren', 'die Pause', 'der Spaziergang', 'beenden, fertig machen'],
+        q: [
+          'Was ist Giulias Problem?',
+          'Wie viele Sekunden schauen wir laut Gloria Mark auf eine Seite?',
+          'Wie funktioniert die Idee mit der Tomate?',
+          'Und du? Was machst du immer, wenn du lernst? Was machst du nie? Schreib drei Sätze mit sempre, spesso und mai.',
+        ],
+        hook: 'Giulia schaut immer aufs Handy und wird nie mit der Arbeit fertig. Aber heute probiert sie drei einfache Ideen aus.',
+      },
+      a2: {
+        focus: 'Das passato prossimo: <it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> + Partizip Perfekt: bei den meisten Verben (<it>ha provato, ha lavorato, ha deciso</it>)',
+          '<it>essere</it> + Partizip bei vielen Verben der Bewegung und der Veränderung: das Partizip wird angeglichen (<it>è uscita, è tornata</it>)',
+          'viele Partizipien sind unregelmäßig: <it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'Probier es: Schreib das passato prossimo.',
+        link: 'das passato prossimo',
+        words: ['der Rat, der Tipp', 'die Einstellungen', 'ausschalten', 'die Erzählung', 'wütend, verärgert'],
+        q: [
+          'Was ist Giulia letzte Woche passiert?',
+          'Welchen Rat hat Sara ihr gegeben? Was hat die amerikanische Studie herausgefunden?',
+          'Was hat Kafka in einer Nacht im Jahr 1912 gemacht?',
+          'Und du? Was hast du gestern gemacht, um besser zu lernen oder zu arbeiten? Was hat dich abgelenkt? Schreib drei Sätze im passato prossimo.',
+        ],
+        hook: 'Eine Woche, in der nichts fertig wird, dann ein seltsamer Rat. Und was haben Kafka und ein italienischer Student mit einer Tomate gemacht?',
+      },
       b1: {
         focus: 'Der Konditional Präsens für Ratschläge: <it>dovresti, potresti, sarebbe meglio</it>',
         box: [
@@ -308,12 +560,48 @@ export const CONCENTRAZIONE_I18N = {
     ja: {
       slug: 'ushinawareta-shuchuryoku',
       title: '失われた集中力（そして取り戻す方法）',
-      seoTitle: '失われた集中力（そして取り戻す方法）｜イタリア語読み物 B1–C1（PDF）',
+      seoTitle: '失われた集中力（そして取り戻す方法）｜イタリア語読み物 A1–C1（PDF）',
       seoDesc:
-        '集中力についてのイタリア語読み物（B1–C1）。通知は見なくても気が散るのはなぜか、中断の本当のコスト、フローとは何か、信じられている俗説と本当に効く方法（スマホの白黒表示からポモドーロ・テクニックまで）。条件法、仮定文、受動態、質問、無料PDF付き。',
+        '集中力についてのイタリア語読み物（A1–C1）。通知は見なくても気が散るのはなぜか、中断の本当のコスト、フローとは何か、信じられている俗説と本当に効く方法（スマホの白黒表示からポモドーロ・テクニックまで）。頻度の副詞、近過去、条件法、仮定文、受動態、質問、無料PDF付き。',
       lead: 'スマホを見なくても、ポケットの中で振動するだけで心はどこかへ行ってしまいます。なぜ集中がこんなに難しくなったのか、中断されたとき脳で何が起きているのか、そして注意力を取り戻すために何ができるのかを読みます。',
       hook: '通知は見なくても私たちの気を散らします。その理由と、注意力を取り戻す方法。',
       alt: '窓辺の木のテーブルに座り、あごを手にのせて遠くを見つめ、考えごとをしている若い女性。前には開いたノートとスマートフォン',
+      a1: {
+        focus: '頻度の副詞：<it>sempre, spesso, a volte, mai</it>',
+        box: [
+          '<it>mai</it>（決して〜ない）を使うときは、動詞の前に <it>non</it> が必要です：<it>non finisce mai</it>',
+          '<it>spesso</it> = よく、しばしば／<it>a volte</it> = ときどき／<it>raramente</it> = めったに〜ない',
+          '<it>sempre</it>（いつも）= 100%：ふつうは動詞のあとに置きます（<it>ha sempre, guarda sempre</it>）',
+        ],
+        tryLabel: 'やってみよう：sempre、spesso、a volte、mai のどれかで文を完成させましょう。',
+        link: '頻度の副詞',
+        words: ['電話、スマートフォン', '振動する', '休憩', '散歩', '終える'],
+        q: [
+          'ジュリアの問題は何ですか。',
+          'グロリア・マークによると、私たちは一つのページを何秒見ていますか。',
+          '「トマト」のアイデアはどのような仕組みですか。',
+          'あなたは？勉強するとき、いつもすることは何ですか。決してしないことは何ですか。sempre、spesso、mai を使って文を三つ書きましょう。',
+        ],
+        hook: 'ジュリアはいつもスマホを見ていて、仕事が終わりません。でも今日は、三つの簡単なアイデアを試します。',
+      },
+      a2: {
+        focus: '近過去（passato prossimo）：<it>ha provato, è uscita, ha scritto</it>',
+        box: [
+          '<it>avere</it> ＋ 過去分詞：ほとんどの動詞はこちらです（<it>ha provato, ha lavorato, ha deciso</it>）',
+          '移動や変化を表す多くの動詞は <it>essere</it> ＋ 過去分詞：過去分詞が主語に合わせて変化します（<it>è uscita, è tornata</it>）',
+          '不規則な過去分詞も多くあります：<it>scrivere → scritto, prendere → preso, mettere → messo, leggere → letto</it>',
+        ],
+        tryLabel: 'やってみよう：passato prossimo を書きましょう。',
+        link: '近過去（passato prossimo）',
+        words: ['アドバイス', '設定', '（電源を）切る', '短編小説', '怒っている'],
+        q: [
+          '先週、ジュリアに何がありましたか。',
+          'サラはどんなアドバイスをしましたか。アメリカの研究では何がわかりましたか。',
+          '1912年のある夜、カフカは何をしましたか。',
+          'あなたは？昨日、もっとよく勉強したり働いたりするために何をしましたか。何に気が散りましたか。passato prossimo で文を三つ書きましょう。',
+        ],
+        hook: '何も終わらなかった一週間、そして不思議なアドバイス。カフカとイタリアの学生は、トマトで何をしたのでしょう。',
+      },
       b1: {
         focus: 'アドバイスに使う条件法現在：<it>dovresti, potresti, sarebbe meglio</it>',
         box: [
