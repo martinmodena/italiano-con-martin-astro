@@ -85,4 +85,8 @@ jobs:
           node-version: 24
 
       - name: Notify IndexNow
-        run: node scripts/indexnow.mjs --since "${{ github.event.before || 'HEAD~1' }}"
+        # Il primo tentativo del 2026-10-29 ha avuto 403: la chiave non era ancora online.
+        run: |
+          for i in $(seq 1 20); do curl -fs https://italianoconmartin.com/56ed333318307916e33e31522f2f4313.txt >/dev/null && break; sleep 15; done
+          sleep 60
+          node scripts/indexnow.mjs --since "${{ github.event.before || 'HEAD~1' }}"
