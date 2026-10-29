@@ -1,0 +1,972 @@
+[
+  {
+    "id": "ancora-nave",
+    "text": "Getta l’àncora!",
+    "voice": "female"
+  },
+  {
+    "id": "ancora-bis",
+    "text": "Ancora un po’!",
+    "voice": "female"
+  },
+  {
+    "id": "papa-frase",
+    "text": "Ciao, papà!",
+    "voice": "female"
+  },
+  {
+    "id": "capito-frase",
+    "text": "Hai capito?",
+    "voice": "female"
+  },
+  {
+    "id": "capito-passato",
+    "text": "Capitò tutto in un giorno.",
+    "voice": "female"
+  },
+  {
+    "id": "buon-anno",
+    "text": "Buon anno!",
+    "voice": "female"
+  },
+  {
+    "id": "ho-fame",
+    "text": "Ho fame.",
+    "voice": "female"
+  },
+  {
+    "id": "hanno-ragione",
+    "text": "Hanno ragione.",
+    "voice": "male"
+  },
+  {
+    "id": "cina-paese",
+    "text": "Cina",
+    "voice": "female"
+  },
+  {
+    "id": "china-inchiostro",
+    "text": "china",
+    "voice": "female"
+  },
+  {
+    "id": "tw-trentini",
+    "text": "Trentatré trentini entrarono a Trento, tutti e trentatré trotterellando.",
+    "voice": "male"
+  },
+  {
+    "id": "tw-apelle",
+    "text": "Apelle, figlio di Apollo, fece una palla di pelle di pollo.",
+    "voice": "male"
+  },
+  {
+    "id": "tw-cuoco",
+    "text": "Il cuoco cuoce in cucina e dice che la cuoca giace e tace perché sua cugina non cucina.",
+    "voice": "male"
+  },
+  {
+    "id": "tw-sereno",
+    "text": "Sereno è, sereno sarà, se non sarà sereno, si rasserenerà.",
+    "voice": "male"
+  },
+  {
+    "id": "amica",
+    "text": "amica",
+    "voice": "female"
+  },
+  {
+    "id": "casa",
+    "text": "casa",
+    "voice": "female"
+  },
+  {
+    "id": "banana",
+    "text": "banana",
+    "voice": "female"
+  },
+  {
+    "id": "bene",
+    "text": "bene",
+    "voice": "female"
+  },
+  {
+    "id": "sera",
+    "text": "sera",
+    "voice": "female"
+  },
+  {
+    "id": "mele",
+    "text": "mele",
+    "voice": "female"
+  },
+  {
+    "id": "vino",
+    "text": "vino",
+    "voice": "female"
+  },
+  {
+    "id": "libri",
+    "text": "libri",
+    "voice": "female"
+  },
+  {
+    "id": "bici",
+    "text": "bici",
+    "voice": "female"
+  },
+  {
+    "id": "sole",
+    "text": "sole",
+    "voice": "female"
+  },
+  {
+    "id": "oro",
+    "text": "oro",
+    "voice": "female"
+  },
+  {
+    "id": "molto",
+    "text": "molto",
+    "voice": "female"
+  },
+  {
+    "id": "uva",
+    "text": "uva",
+    "voice": "female"
+  },
+  {
+    "id": "luna",
+    "text": "luna",
+    "voice": "female"
+  },
+  {
+    "id": "tu",
+    "text": "tu",
+    "voice": "female"
+  },
+  {
+    "id": "pizza",
+    "text": "pizza",
+    "voice": "female"
+  },
+  {
+    "id": "pasta",
+    "text": "pasta",
+    "voice": "female"
+  },
+  {
+    "id": "roma",
+    "text": "Roma",
+    "voice": "female"
+  },
+  {
+    "id": "gelato",
+    "text": "gelato",
+    "voice": "female"
+  },
+  {
+    "id": "notte",
+    "text": "notte",
+    "voice": "female"
+  },
+  {
+    "id": "cosa",
+    "text": "cosa",
+    "voice": "female"
+  },
+  {
+    "id": "cuore",
+    "text": "cuore",
+    "voice": "female"
+  },
+  {
+    "id": "perche",
+    "text": "perché",
+    "voice": "female"
+  },
+  {
+    "id": "chiave",
+    "text": "chiave",
+    "voice": "female"
+  },
+  {
+    "id": "cena",
+    "text": "cena",
+    "voice": "female"
+  },
+  {
+    "id": "dieci",
+    "text": "dieci",
+    "voice": "female"
+  },
+  {
+    "id": "ciao",
+    "text": "ciao",
+    "voice": "female"
+  },
+  {
+    "id": "cioccolato",
+    "text": "cioccolato",
+    "voice": "female"
+  },
+  {
+    "id": "ciuffo",
+    "text": "ciuffo",
+    "voice": "female"
+  },
+  {
+    "id": "gatto",
+    "text": "gatto",
+    "voice": "female"
+  },
+  {
+    "id": "gonna",
+    "text": "gonna",
+    "voice": "female"
+  },
+  {
+    "id": "gusto",
+    "text": "gusto",
+    "voice": "female"
+  },
+  {
+    "id": "spaghetti",
+    "text": "spaghetti",
+    "voice": "female"
+  },
+  {
+    "id": "ghiaccio",
+    "text": "ghiaccio",
+    "voice": "female"
+  },
+  {
+    "id": "girasole",
+    "text": "girasole",
+    "voice": "female"
+  },
+  {
+    "id": "giallo",
+    "text": "giallo",
+    "voice": "female"
+  },
+  {
+    "id": "giorno",
+    "text": "giorno",
+    "voice": "female"
+  },
+  {
+    "id": "giugno",
+    "text": "giugno",
+    "voice": "female"
+  },
+  {
+    "id": "chiesa",
+    "text": "chiesa",
+    "voice": "female"
+  },
+  {
+    "id": "cuoco",
+    "text": "cuoco",
+    "voice": "female"
+  },
+  {
+    "id": "anche",
+    "text": "anche",
+    "voice": "female"
+  },
+  {
+    "id": "arancia",
+    "text": "arancia",
+    "voice": "female"
+  },
+  {
+    "id": "gnocchi",
+    "text": "gnocchi",
+    "voice": "female"
+  },
+  {
+    "id": "bagno",
+    "text": "bagno",
+    "voice": "female"
+  },
+  {
+    "id": "lasagne",
+    "text": "lasagne",
+    "voice": "female"
+  },
+  {
+    "id": "spagna",
+    "text": "Spagna",
+    "voice": "female"
+  },
+  {
+    "id": "aglio",
+    "text": "aglio",
+    "voice": "female"
+  },
+  {
+    "id": "figlio",
+    "text": "figlio",
+    "voice": "female"
+  },
+  {
+    "id": "famiglia",
+    "text": "famiglia",
+    "voice": "female"
+  },
+  {
+    "id": "moglie",
+    "text": "moglie",
+    "voice": "female"
+  },
+  {
+    "id": "sciarpa",
+    "text": "sciarpa",
+    "voice": "female"
+  },
+  {
+    "id": "pesce",
+    "text": "pesce",
+    "voice": "female"
+  },
+  {
+    "id": "scena",
+    "text": "scena",
+    "voice": "female"
+  },
+  {
+    "id": "scuola",
+    "text": "scuola",
+    "voice": "female"
+  },
+  {
+    "id": "schiena",
+    "text": "schiena",
+    "voice": "female"
+  },
+  {
+    "id": "grazie",
+    "text": "grazie",
+    "voice": "female"
+  },
+  {
+    "id": "zebra",
+    "text": "zebra",
+    "voice": "female"
+  },
+  {
+    "id": "zero",
+    "text": "zero",
+    "voice": "female"
+  },
+  {
+    "id": "sale",
+    "text": "sale",
+    "voice": "female"
+  },
+  {
+    "id": "rosa",
+    "text": "rosa",
+    "voice": "female"
+  },
+  {
+    "id": "rana",
+    "text": "rana",
+    "voice": "female"
+  },
+  {
+    "id": "caro",
+    "text": "caro",
+    "voice": "female"
+  },
+  {
+    "id": "carro",
+    "text": "carro",
+    "voice": "female"
+  },
+  {
+    "id": "ho",
+    "text": "ho",
+    "voice": "female"
+  },
+  {
+    "id": "hai",
+    "text": "hai",
+    "voice": "female"
+  },
+  {
+    "id": "ha",
+    "text": "ha",
+    "voice": "female"
+  },
+  {
+    "id": "hanno",
+    "text": "hanno",
+    "voice": "female"
+  },
+  {
+    "id": "cassa",
+    "text": "cassa",
+    "voice": "female"
+  },
+  {
+    "id": "nono",
+    "text": "nono",
+    "voice": "female"
+  },
+  {
+    "id": "nonno",
+    "text": "nonno",
+    "voice": "female"
+  },
+  {
+    "id": "pala",
+    "text": "pala",
+    "voice": "female"
+  },
+  {
+    "id": "palla",
+    "text": "palla",
+    "voice": "female"
+  },
+  {
+    "id": "sete",
+    "text": "sete",
+    "voice": "female"
+  },
+  {
+    "id": "sette",
+    "text": "sette",
+    "voice": "female"
+  },
+  {
+    "id": "capello",
+    "text": "capello",
+    "voice": "female"
+  },
+  {
+    "id": "cappello",
+    "text": "cappello",
+    "voice": "female"
+  },
+  {
+    "id": "pena",
+    "text": "pena",
+    "voice": "female"
+  },
+  {
+    "id": "penna",
+    "text": "penna",
+    "voice": "female"
+  },
+  {
+    "id": "sono",
+    "text": "sono",
+    "voice": "female"
+  },
+  {
+    "id": "sonno",
+    "text": "sonno",
+    "voice": "female"
+  },
+  {
+    "id": "fato",
+    "text": "fato",
+    "voice": "female"
+  },
+  {
+    "id": "fatto",
+    "text": "fatto",
+    "voice": "female"
+  },
+  {
+    "id": "copia",
+    "text": "copia",
+    "voice": "female"
+  },
+  {
+    "id": "coppia",
+    "text": "coppia",
+    "voice": "female"
+  },
+  {
+    "id": "note",
+    "text": "note",
+    "voice": "female"
+  },
+  {
+    "id": "tuta",
+    "text": "tuta",
+    "voice": "female"
+  },
+  {
+    "id": "tutta",
+    "text": "tutta",
+    "voice": "female"
+  },
+  {
+    "id": "telefono",
+    "text": "telefono",
+    "voice": "female"
+  },
+  {
+    "id": "macchina",
+    "text": "macchina",
+    "voice": "female"
+  },
+  {
+    "id": "citta",
+    "text": "città",
+    "voice": "female"
+  },
+  {
+    "id": "amico",
+    "text": "amico",
+    "voice": "female"
+  },
+  {
+    "id": "sabato",
+    "text": "sabato",
+    "voice": "female"
+  },
+  {
+    "id": "universita",
+    "text": "università",
+    "voice": "female"
+  },
+  {
+    "id": "tavolo",
+    "text": "tavolo",
+    "voice": "female"
+  },
+  {
+    "id": "parola",
+    "text": "parola",
+    "voice": "female"
+  },
+  {
+    "id": "zucchero",
+    "text": "zucchero",
+    "voice": "female"
+  },
+  {
+    "id": "ragazza",
+    "text": "ragazza",
+    "voice": "female"
+  },
+  {
+    "id": "parlare",
+    "text": "parlare",
+    "voice": "female"
+  },
+  {
+    "id": "caffe",
+    "text": "caffè",
+    "voice": "female"
+  },
+  {
+    "id": "papa",
+    "text": "papà",
+    "voice": "female"
+  },
+  {
+    "id": "lana",
+    "text": "lana",
+    "voice": "female"
+  },
+  {
+    "id": "vacca",
+    "text": "vacca",
+    "voice": "female"
+  },
+  {
+    "id": "cane",
+    "text": "cane",
+    "voice": "female"
+  },
+  {
+    "id": "cani",
+    "text": "cani",
+    "voice": "female"
+  },
+  {
+    "id": "alto",
+    "text": "alto",
+    "voice": "female"
+  },
+  {
+    "id": "auto",
+    "text": "auto",
+    "voice": "female"
+  },
+  {
+    "id": "pesche",
+    "text": "pesche",
+    "voice": "female"
+  },
+  {
+    "id": "cappuccino",
+    "text": "cappuccino",
+    "voice": "female"
+  },
+  {
+    "id": "tutto",
+    "text": "tutto",
+    "voice": "female"
+  },
+  {
+    "id": "fino",
+    "text": "fino",
+    "voice": "female"
+  },
+  {
+    "id": "chi",
+    "text": "chi",
+    "voice": "female"
+  },
+  {
+    "id": "strada",
+    "text": "strada",
+    "voice": "female"
+  },
+  {
+    "id": "mare",
+    "text": "mare",
+    "voice": "female"
+  },
+  {
+    "id": "male",
+    "text": "male",
+    "voice": "female"
+  },
+  {
+    "id": "bacca",
+    "text": "bacca",
+    "voice": "female"
+  },
+  {
+    "id": "voto",
+    "text": "voto",
+    "voice": "female"
+  },
+  {
+    "id": "foto",
+    "text": "foto",
+    "voice": "female"
+  },
+  {
+    "id": "ricci",
+    "text": "ricci",
+    "voice": "female"
+  },
+  {
+    "id": "ricchi",
+    "text": "ricchi",
+    "voice": "female"
+  },
+  {
+    "id": "rossa",
+    "text": "rossa",
+    "voice": "female"
+  },
+  {
+    "id": "no",
+    "text": "no",
+    "voice": "female"
+  },
+  {
+    "id": "ora",
+    "text": "ora",
+    "voice": "female"
+  },
+  {
+    "id": "bruschetta",
+    "text": "bruschetta",
+    "voice": "female"
+  },
+  {
+    "id": "chianti",
+    "text": "Chianti",
+    "voice": "female"
+  },
+  {
+    "id": "pisa",
+    "text": "Pisa",
+    "voice": "female"
+  },
+  {
+    "id": "hotel",
+    "text": "hotel",
+    "voice": "female"
+  },
+  {
+    "id": "ceci",
+    "text": "ceci",
+    "voice": "female"
+  },
+  {
+    "id": "cechi",
+    "text": "cechi",
+    "voice": "female"
+  },
+  {
+    "id": "eco",
+    "text": "eco",
+    "voice": "female"
+  },
+  {
+    "id": "ecco",
+    "text": "ecco",
+    "voice": "female"
+  },
+  {
+    "id": "polo",
+    "text": "polo",
+    "voice": "female"
+  },
+  {
+    "id": "pollo",
+    "text": "pollo",
+    "voice": "female"
+  },
+  {
+    "id": "camino",
+    "text": "camino",
+    "voice": "female"
+  },
+  {
+    "id": "cammino",
+    "text": "cammino",
+    "voice": "female"
+  },
+  {
+    "id": "pappa",
+    "text": "pappa",
+    "voice": "female"
+  },
+  {
+    "id": "bello",
+    "text": "bello",
+    "voice": "female"
+  },
+  {
+    "id": "cavallo",
+    "text": "cavallo",
+    "voice": "female"
+  },
+  {
+    "id": "gente",
+    "text": "gente",
+    "voice": "female"
+  },
+  {
+    "id": "vene",
+    "text": "vene",
+    "voice": "female"
+  },
+  {
+    "id": "bado",
+    "text": "bado",
+    "voice": "female"
+  },
+  {
+    "id": "vado",
+    "text": "vado",
+    "voice": "female"
+  },
+  {
+    "id": "tutti",
+    "text": "tutti",
+    "voice": "female"
+  },
+  {
+    "id": "dire",
+    "text": "dire",
+    "voice": "female"
+  },
+  {
+    "id": "il",
+    "text": "il",
+    "voice": "female"
+  },
+  {
+    "id": "calma",
+    "text": "calma",
+    "voice": "female"
+  },
+  {
+    "id": "rosso",
+    "text": "rosso",
+    "voice": "female"
+  },
+  {
+    "id": "pane",
+    "text": "pane",
+    "voice": "female"
+  },
+  {
+    "id": "bambino",
+    "text": "bambino",
+    "voice": "female"
+  },
+  {
+    "id": "un",
+    "text": "un",
+    "voice": "female"
+  },
+  {
+    "id": "notti",
+    "text": "notti",
+    "voice": "female"
+  },
+  {
+    "id": "chiavi",
+    "text": "chiavi",
+    "voice": "female"
+  },
+  {
+    "id": "pani",
+    "text": "pani",
+    "voice": "female"
+  },
+  {
+    "id": "milano",
+    "text": "Milano",
+    "voice": "female"
+  },
+  {
+    "id": "con-preposizione",
+    "text": "con",
+    "voice": "female"
+  },
+  {
+    "id": "michele",
+    "text": "Michele",
+    "voice": "female"
+  },
+  {
+    "id": "cinema",
+    "text": "cinema",
+    "voice": "female"
+  },
+  {
+    "id": "cibo",
+    "text": "cibo",
+    "voice": "female"
+  },
+  {
+    "id": "tempo",
+    "text": "tempo",
+    "voice": "female"
+  },
+  {
+    "id": "mondo",
+    "text": "mondo",
+    "voice": "female"
+  },
+  {
+    "id": "che",
+    "text": "che",
+    "voice": "female"
+  },
+  {
+    "id": "sport",
+    "text": "sport",
+    "voice": "female"
+  },
+  {
+    "id": "studente",
+    "text": "studente",
+    "voice": "female"
+  },
+  {
+    "id": "scherzo",
+    "text": "scherzo",
+    "voice": "female"
+  },
+  {
+    "id": "sei",
+    "text": "sei",
+    "voice": "female"
+  },
+  {
+    "id": "lei",
+    "text": "lei",
+    "voice": "female"
+  },
+  {
+    "id": "europa",
+    "text": "Europa",
+    "voice": "female"
+  },
+  {
+    "id": "per",
+    "text": "per",
+    "voice": "female"
+  },
+  {
+    "id": "volta",
+    "text": "volta",
+    "voice": "female"
+  },
+  {
+    "id": "folta",
+    "text": "folta",
+    "voice": "female"
+  },
+  {
+    "id": "vari",
+    "text": "vari",
+    "voice": "female"
+  },
+  {
+    "id": "fari",
+    "text": "fari",
+    "voice": "female"
+  },
+  {
+    "id": "si",
+    "text": "sì",
+    "voice": "female"
+  },
+  {
+    "id": "fumo",
+    "text": "fumo",
+    "voice": "female"
+  },
+  {
+    "id": "calo",
+    "text": "calo",
+    "voice": "female"
+  },
+  {
+    "id": "corto",
+    "text": "corto",
+    "voice": "female"
+  },
+  {
+    "id": "colto",
+    "text": "colto",
+    "voice": "female"
+  },
+  {
+    "id": "gara",
+    "text": "gara",
+    "voice": "female"
+  },
+  {
+    "id": "gala",
+    "text": "gala",
+    "voice": "female"
+  },
+  {
+    "id": "rotto",
+    "text": "rotto",
+    "voice": "female"
+  },
+  {
+    "id": "lotto",
+    "text": "lotto",
+    "voice": "female"
+  }
+]

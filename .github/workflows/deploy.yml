@@ -67,3 +67,22 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    # Avvisa Bing delle pagine cambiate (scripts/indexnow.mjs). Non blocca mai la pubblicazione.
+    runs-on: ubuntu-latest
+    needs: deploy
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 100
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Notify IndexNow
+        run: node scripts/indexnow.mjs --since "${{ github.event.before || 'HEAD~1' }}"
