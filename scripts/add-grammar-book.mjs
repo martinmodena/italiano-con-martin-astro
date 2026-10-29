@@ -36,6 +36,9 @@ for (const [lang, t] of Object.entries(BOOK)) {
   if (anchor === -1) throw new Error(`${htmlFile}: manca .path-note`);
   const end = html.indexOf('</div>', html.indexOf('</a>', anchor)) + '</div>'.length;
   html = html.slice(0, end) + block + html.slice(end);
+  // Niente etichette «Nuova lezione» / «Lezione interattiva» sulle tessere (Martin, 2026-10-29:
+  // «mi sembrano inutili»). I generatori delle lezioni le rimettono: per questo si tolgono qui.
+  html = html.replace(/<span class="status">[^<]*<\/span>/g, '');
   writeFileSync(htmlFile, html);
 
   const pageFile = `src/pages/${t.dir}/index.astro`;
