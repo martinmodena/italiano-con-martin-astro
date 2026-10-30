@@ -47,3 +47,35 @@ la vuole e la mamma che gli offre qualcosa in cambio. Raccontata senza la dea de
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft watercolour textures, warm late-morning light, no black outlines. A dusty country road in old rural Japan, with rice fields, a wooden bridge, a thatched farmhouse and gentle mountains in the background. A poor but cheerful young man in a simple patched indigo kimono and straw sandals holds up a single long golden rice straw with a tiny buzzing fly tied to its tip by a thin thread. A small boy in a simple kimono points at the straw with delight, pulling the sleeve of his mother, a kind woman in a modest travelling kimono who holds out a small wrapped cloth bundle to the young man as a gift in exchange. A brown horse grazes in the distance. Gentle, hopeful, humorous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
 ```
+
+## 5. `story-uccellini-gabbia` — «Gli uccellini in gabbia» (Ptaszki w klatce, Ignacy Krasicki, Polonia)
+
+I due lucherini nella gabbia davanti alla finestra aperta: il giovane allegro, il vecchio che guarda fuori.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated fable book, soft early morning light, no black outlines. An old wooden cage hangs by an open window of a Polish country manor house; beyond the window lie green meadows, birch trees and a wide bright sky with distant birds flying. Inside the cage two small yellow-green siskins sit on a perch: a young one, plump and cheerful, turned towards the room and singing; an old one with faded feathers, turned towards the open window, gazing sadly at the sky. Gentle, thoughtful, melancholy atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 6. `story-bue-ministro` — «Il bue ministro» (Wół minister, Ignacy Krasicki, Polonia)
+
+La corte degli animali: il leone re sul trono, la scimmia che fa il buffone, il bue paziente con le carte.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated fable book, warm candlelight, no black outlines. The throne room of an eighteenth-century Polish palace with tall windows and red curtains, populated only by animals. A majestic lion king with a small crown sits on the throne laughing, while a playful monkey in a colourful court jacket dances and juggles in front of him, sending papers flying. To the side a sly fox in a green coat watches, and a big calm ox in a plain dark minister's coat waits patiently by the door, holding a neat pile of documents. Humorous, satirical, gentle folk-tale atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 7. `story-grande-rapa` — «La grande rapa» (O veliké řepě, Repubblica Ceca)
+
+La catena che tira: nonno, nonna, nipotina, cane, gatto e topolino.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Czech fairy tale book, soft golden late-summer light, no black outlines. A small vegetable garden beside a Czech village cottage with a red-tiled roof, a wooden fence and rolling fields behind. A long funny line of characters pulls together: an old grandfather with a white moustache in a modest shirt and waistcoat grips the leaves of a gigantic white and purple turnip half out of the ground; behind him an old grandmother in a long dress, apron and headscarf holds his waist; behind her a little girl in a long-sleeved dress; then a brown dog, a tabby cat and at the very end a tiny grey mouse, all straining with effort. Cheerful, humorous, warm atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos.
+```
+
+## 8. `story-galletto-gallina` — «Il galletto e la gallina» (O kohoutkovi a slepičce, Repubblica Ceca)
+
+La gallina corre verso la sorgente mentre il galletto, sdraiato, aspetta: la corsa per salvarlo.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Czech fairy tale book, fresh early morning light with dew sparkling on the grass, no black outlines. A Czech countryside meadow with a small stone spring in the foreground, a wooden fence, a village with a little church on the hill. A brown hen hurries anxiously across the grass towards the spring, wings spread. In the background a small colourful rooster lies on his side on a heap of straw, weakly raising his head, in an unmistakably comic and gentle way, not hurt. A pink pig and a brown cow watch from behind the fence. Tender, lively, humorous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
