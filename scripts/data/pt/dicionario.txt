@@ -6,6 +6,85 @@
 es: Hablamos español e inglés
 pt: Falamos espanhol e inglês
 
+// Categorie delle letture e libro di grammatica (2026-10-29)
+es: Emma en Italia
+pt: Emma na Itália
+
+es: Emma llega a Italia y descubre, día tras día, las reglas que nadie explica: en el bar, en el tren, en el mercado, en la mesa. Cada episodio es un relato A1 o A2 con una estructura para aprender.
+pt: Emma chega à Itália e descobre, dia após dia, as regras que ninguém explica: no bar, no trem, na feira, à mesa. Cada episódio é um conto A1 ou A2 com uma estrutura para aprender.
+
+es: Animales y naturaleza
+pt: Animais e natureza
+
+es: El pulpo con tres corazones, la rana que se convierte en hielo, los árboles que se hablan bajo tierra: historias reales sobre animales y naturaleza, del A1 al C1, con fuentes.
+pt: O polvo com três corações, a rã que vira gelo, as árvores que conversam debaixo da terra: histórias reais sobre animais e natureza, do A1 ao C1, com as fontes.
+
+es: Cuerpo y salud
+pt: Corpo e saúde
+
+es: Cuántas proteínas hacen falta de verdad, qué funciona en el gimnasio, la leche materna, el ADN: el cuerpo humano explicado con textos claros y verificados, del B1 al C1.
+pt: Quanta proteína é preciso de verdade, o que funciona na academia, o leite materno, o DNA: o corpo humano explicado com textos claros e verificados, do B1 ao C1.
+
+es: Mente y tecnología
+pt: Mente e tecnologia
+
+es: Cómo funciona la memoria, por qué una notificación nos distrae aunque no la miremos, qué cambiará con la inteligencia artificial: lecturas sobre la mente y la tecnología, del A1 al C1.
+pt: Como funciona a memória, por que uma notificação nos distrai mesmo sem olharmos para ela, o que a inteligência artificial vai mudar: leituras sobre a mente e a tecnologia, do A1 ao C1.
+
+es: Cultura e historia italiana
+pt: Cultura e história italiana
+
+es: La pizza casera, una biblioteca nacida en el portal de un edificio, la historia de la mafia: la Italia de ayer y de hoy contada en italiano, del A2 al C1.
+pt: A pizza caseira, uma biblioteca nascida na portaria de um prédio, a história da máfia: a Itália de ontem e de hoje contada em italiano, do A2 ao C1.
+
+es: Lecturas por tema
+pt: Leituras por tema
+
+es: <a href="§1">Todos los cuentos →</a>
+pt: <a href="§1">Todos os contos →</a>
+
+es: NA
+pt: NA
+
+es: SA
+pt: SA
+
+es: ME
+pt: ME
+
+es: CU
+pt: CU
+
+es: EM
+pt: EM
+
+es: FA
+pt: FA
+
+es: Toda la gramática en un PDF
+pt: Toda a gramática em um PDF
+
+es: Gramática italiana A1–C1: lecciones, ejercicios y PDF gratis
+pt: Gramática italiana A1–C1: lições, exercícios e PDF grátis
+
+re: ^<a href="§1">Las (\d+) lecturas →</a>$
+pt: <a href="§1">As $1 leituras →</a>
+
+re: ^Las (\d+) lecciones del A1 al C1 en un solo libro para imprimir, con índice, ejercicios y soluciones\. Gratis\.$
+pt: As $1 lições do A1 ao C1 em um único livro para imprimir, com sumário, exercícios e respostas. Grátis.
+
+re: ^Naturaleza((?: · [ABC][12])+)$
+pt: Natureza$1
+
+re: ^Salud((?: · [ABC][12])+)$
+pt: Saúde$1
+
+re: ^Mente((?: · [ABC][12])+)$
+pt: Mente$1
+
+re: ^Cultura((?: · [ABC][12])+)$
+pt: Cultura$1
+
 es: Habla también español e inglés
 pt: Fala também espanhol e inglês
 

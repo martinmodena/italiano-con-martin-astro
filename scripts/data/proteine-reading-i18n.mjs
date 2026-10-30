@@ -528,7 +528,7 @@ export const i18n = {
     slug: 'wie-viel-eiweiss-brauchen-wir',
     home: 'Zuhause',
     indexLabel: 'Lesungen',
-    eyebrow: 'Naturwissenschaften – benotete Lektüre',
+    eyebrow: 'Naturwissenschaften – gestufter Lesetext',
     pdfAria: 'PDF-Downloads',
     pdfAll: 'PDF alle Niveaus',
     wordsLabel: 'Nützliche Wörter',

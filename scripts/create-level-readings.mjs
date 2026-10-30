@@ -481,9 +481,9 @@ function navHtml(lang, current) {
     link(base, t.all, current === 'all'),
     link(base + 'a1/', 'A1', current === 'a1'),
     link(base + 'a2/', 'A2', current === 'a2'),
-    link(base + '#b1', 'B1'),
-    link(base + '#b2', 'B2'),
-    link(base + '#c1', 'C1'),
+    link(base + 'b1/', 'B1', current === 'b1'),
+    link(base + 'b2/', 'B2', current === 'b2'),
+    link(base + 'c1/', 'C1', current === 'c1'),
   ].join('')}</nav>`;
 }
 
@@ -555,8 +555,9 @@ function allLevelsIndex(lang) {
             </div>
           </section>
           `;
-  if (!/<section class="level-section" id="scienza">/.test(h)) throw new Error(`${lang}: sezione Scienza non trovata`);
-  h = h.replace(/<section class="level-section" id="scienza">/, emmaSection + '$&');
+  // Prima della prima sezione (dal 2026-10-29 le sezioni le riordina create-reading-categories.mjs).
+  if (!/<section class="level-section" id="[^"]+">/.test(h)) throw new Error(`${lang}: sezioni non trovate`);
+  h = h.replace(/<section class="level-section" id="[^"]+">/, emmaSection + '$&');
   // Collegamento alla sezione fra le categorie.
   h = h.replace(
     /<div class="reading-cats">\s*(?:<a href="#emma">[^<]*<\/a>)?/,
@@ -573,32 +574,9 @@ function allLevelsIndex(lang) {
           ${navHtml(lang, 'all')}`
   );
 
-  // Elenchi B1, B2, C1.
+  // Gli elenchi B1, B2, C1 in fondo all'indice sono diventati pagine (/b1/, /b2/, /c1/) il 2026-10-29:
+  // le fa create-reading-categories.mjs, da lanciare dopo questo script.
   h = h.replace(/\s*<section class="level-section" id="(b1|b2|c1)">[^]*?<\/section>/g, '');
-  const titles = tilesOf(h, base);
-  const block = (lv) => {
-    const L = lv.toUpperCase();
-    const items = Object.entries(LEVELS_OF)
-      .filter(([, v]) => v.includes(L))
-      .map(([k]) => {
-        const href = resUrl(k)[lang];
-        return `<a href="${href}#${lv}">${titles[href].title}</a>`;
-      });
-    return `<section class="level-section" id="${lv}">
-            <div class="level-title">
-              <span class="level">${L}</span>
-              <h2>${t.index.levelsTitle(L)}</h2>
-            </div>
-            <p>${t.index[lv]}</p>
-            <div class="resource-directory"><div>${items.join('')}</div></div>
-          </section>`;
-  };
-  const anchor = /<\/section>\s*<\/div>\s*<\/section>\s*<section class="conversion-section/;
-  if (!anchor.test(h)) throw new Error(`${lang}: punto di inserimento non trovato`);
-  h = h.replace(
-    anchor,
-    (m) => '</section>\n          ' + ['b1', 'b2', 'c1'].map(block).join('\n          ') + m.slice('</section>'.length)
-  );
   write(p, h);
 }
 
@@ -620,7 +598,7 @@ function fableIndex(lang) {
   const p = htmlOf(fableIndexUrl[lang]);
   const [all, aria] = FABLE_NAV[lang];
   const base = lang === 'it' ? '/letture/' : indexUrl[lang];
-  const nav = `<nav class="level-hub-nav" aria-label="${aria}"><a href="${fableIndexUrl[lang]}" aria-current="page">${all}</a><a href="${base}a1/#favole">A1</a><a href="${base}a2/#favole">A2</a><a href="${base}#b1">B1</a></nav>`;
+  const nav = `<nav class="level-hub-nav" aria-label="${aria}"><a href="${fableIndexUrl[lang]}" aria-current="page">${all}</a><a href="${base}a1/#favole">A1</a><a href="${base}a2/#favole">A2</a><a href="${base}b1/">B1</a></nav>`;
   let h = read(p).replace(/<nav class="level-hub-nav"[^]*?<\/nav>/, '');
   const lead = /(<section class="page-intro">[^]*?<p class="lead">[^]*?<\/p>)/;
   if (!lead.test(h)) throw new Error(`${lang}: lead delle favole non trovato`);

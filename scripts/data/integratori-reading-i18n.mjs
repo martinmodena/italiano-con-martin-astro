@@ -531,7 +531,7 @@ export const i18n = {
     slug: 'nahrungsergaenzungsmittel-fitnessstudio',
     home: 'Zuhause',
     indexLabel: 'Lesungen',
-    eyebrow: 'Naturwissenschaften – benotete Lektüre',
+    eyebrow: 'Naturwissenschaften – gestufter Lesetext',
     pdfAria: 'PDF-Downloads',
     pdfAll: 'PDF alle Niveaus',
     wordsLabel: 'Nützliche Wörter',

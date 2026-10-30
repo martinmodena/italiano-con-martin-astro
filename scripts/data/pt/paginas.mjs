@@ -197,4 +197,13 @@ export const PAGES = [
     it: 'letture/la-concentrazione-perduta.html',
     pt: 'pt/leituras/a-concentracao-perdida-e-como-recupera-la.html',
   },
+  // Categorie e livelli delle letture (2026-10-29): le scrive create-reading-categories.mjs.
+  { it: 'letture/emma-in-italia/index.html', pt: 'pt/leituras/emma-na-italia/index.html', own: true },
+  { it: 'letture/animali-e-natura/index.html', pt: 'pt/leituras/animais-e-natureza/index.html', own: true },
+  { it: 'letture/corpo-e-salute/index.html', pt: 'pt/leituras/corpo-e-saude/index.html', own: true },
+  { it: 'letture/mente-e-tecnologia/index.html', pt: 'pt/leituras/mente-e-tecnologia/index.html', own: true },
+  { it: 'letture/cultura-e-storia-italiana/index.html', pt: 'pt/leituras/cultura-e-historia-italiana/index.html', own: true },
+  { it: 'letture/b1/index.html', pt: 'pt/leituras/b1/index.html', own: true },
+  { it: 'letture/b2/index.html', pt: 'pt/leituras/b2/index.html', own: true },
+  { it: 'letture/c1/index.html', pt: 'pt/leituras/c1/index.html', own: true },
 ];

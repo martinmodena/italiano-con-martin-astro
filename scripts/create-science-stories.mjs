@@ -295,8 +295,11 @@ function indexTiles(lang) {
       .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
   });
   if (!tiles.length) return write(p, h);
-  const start = h.indexOf('<div class="story-list">', h.indexOf('<section class="level-section" id="scienza">'));
-  if (start < 0) throw new Error(`${lang}: sezione Scienza non trovata`);
+  // Dal 2026-10-29 la sezione «Scienza» è diventata «Animali e natura» (id="natura"); poi
+  // create-reading-categories.mjs sposta ogni tessera nella sua categoria.
+  const section = ['natura', 'scienza'].map((id) => h.indexOf(`<section class="level-section" id="${id}">`)).find((i) => i >= 0);
+  const start = section === undefined ? -1 : h.indexOf('<div class="story-list">', section);
+  if (start < 0) throw new Error(`${lang}: sezione Natura non trovata`);
   const at = h.indexOf('>', start) + 1;
   h = h.slice(0, at) + '\n              ' + tiles.join('') + h.slice(at);
   write(p, h);
