@@ -274,4 +274,60 @@ export const ERRORS = {
       ['Non mai sono stato a Roma.', 'Non sono mai stato a Roma.', '過去形では <span lang="it">mai</span> は助動詞と過去分詞の間に入ります。<span lang="it">sono mai stato</span>。'],
     ],
   },
+
+  'grammatica/b1/connettivi.html': {
+    it: [
+      ['Attualmente preferisco il tè.', 'In realtà preferisco il tè.', '<em lang="en">Actually</em> è <strong>in realtà</strong>; <span lang="it">attualmente</span> vuol dire <em lang="en">currently</em>.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', '<em lang="en">Although</em> non cambia il verbo, ma dopo <span lang="it">sebbene</span> ci vuole il <strong>congiuntivo</strong>.'],
+      ['Siccome lunedì sono qui.', 'Sono qui da lunedì.', '<em lang="en">Since</em> di tempo è <strong>da</strong>; <span lang="it">siccome</span> indica solo la causa.'],
+      ['Eventualmente ha trovato lavoro.', 'Alla fine ha trovato lavoro.', '<em lang="en">Eventually</em> è <strong>alla fine</strong>; <span lang="it">eventualmente</span> vuol dire «se serve».'],
+    ],
+    en: [
+      ['Attualmente preferisco il tè.', 'In realtà preferisco il tè.', '<em>Actually</em> is <strong lang="it">in realtà</strong>; <span lang="it">attualmente</span> means “currently”.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', '<em>Although</em> doesn\'t change the verb, but <span lang="it">sebbene</span> needs the <strong>subjunctive</strong>.'],
+      ['Siccome lunedì sono qui.', 'Sono qui da lunedì.', '<em>Since</em> for time is <strong lang="it">da</strong>; <span lang="it">siccome</span> only gives a reason.'],
+      ['Eventualmente ha trovato lavoro.', 'Alla fine ha trovato lavoro.', '<em>Eventually</em> is <strong lang="it">alla fine</strong>; <span lang="it">eventualmente</span> means “if necessary”.'],
+    ],
+    es: [
+      ['Esco anche se piova.', 'Esco anche se piove.', 'Calco de <em>aunque llueva</em>: después de <span lang="it">anche se</span>, siempre <strong>indicativo</strong>.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', 'El caso contrario: <em>aunque estoy cansado</em> va con indicativo, pero <span lang="it">sebbene</span> exige <strong>subjuntivo</strong>.'],
+      ['Non è caro, sino economico.', 'Non è caro, ma economico.', '<em>No … sino</em> → <span lang="it">non … ma</span> (o <span lang="it">bensì</span>).'],
+      ['Poi, non lo so.', 'Beh, non lo so.', '<span lang="it">Poi</span> no es <em>pues</em>: significa <em>luego, después</em>. Para empezar una respuesta: <strong lang="it">beh</strong>.'],
+    ],
+    pt: [
+      ['Esco anche se piova.', 'Esco anche se piove.', 'Decalque de <em>mesmo que chova</em>: depois de <span lang="it">anche se</span>, sempre <strong>indicativo</strong>.'],
+      ['Ancora che piova, esco.', 'Anche se piove, esco.', '<em>Ainda que</em> não é <span lang="it">ancora che</span>: diga <strong lang="it">anche se</strong> + indicativo ou <span lang="it">sebbene</span> + subjuntivo.'],
+      ['Resto a casa, poi sono stanco.', 'Resto a casa, perché sono stanco.', '<em>Pois</em> (porque) é <strong lang="it">perché</strong>; <span lang="it">poi</span> quer dizer <em>depois</em>.'],
+    ],
+    fr: [
+      ['Pertanto costa troppo.', 'Eppure costa troppo.', 'Faux ami : <span lang="it">pertanto</span> veut dire <em>donc</em>. <em>Pourtant</em> → <strong lang="it">eppure</strong> ou <span lang="it">tuttavia</span>.'],
+      ['Durante che mangio, guardo la TV.', 'Mentre mangio, guardo la TV.', '<em>Pendant que</em> → <strong lang="it">mentre</strong>; <span lang="it">durante</span> va seulement devant un nom (<span lang="it">durante la cena</span>).'],
+      ['Resto a casa car sono stanco.', 'Resto a casa perché sono stanco.', '<em>Car</em> n\'existe pas en italien : <strong lang="it">perché</strong> ou, à l\'écrit, <span lang="it">poiché</span>.'],
+    ],
+    cs: [
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', 'Čeština konjunktiv nemá, italština ho po <span lang="it">sebbene, benché, nonostante</span> vyžaduje.'],
+      ['Quando domani piove, resto a casa.', 'Se domani piove, resto a casa.', '<em>Když</em> ve smyslu „jestli“ je <strong lang="it">se</strong>; <span lang="it">quando</span> jen pro čas.'],
+      ['Parlo piano, affinché mi capisci.', 'Parlo piano, affinché tu mi capisca.', '<em>Aby</em> → <span lang="it">affinché, perché</span> + <strong>konjunktiv</strong>.'],
+    ],
+    pl: [
+      ['Io prendo il tè, a Marco il caffè.', 'Io prendo il tè, Marco invece il caffè.', 'Polskie <em>a</em> to <strong lang="it">invece</strong> albo <span lang="it">mentre</span>; włoskie <span lang="it">a</span> jest przyimkiem.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', 'Po <span lang="it">sebbene, benché, nonostante</span> potrzebny jest <strong>congiuntivo</strong>.'],
+      ['Parlo piano, perché mi capisci.', 'Parlo piano, perché tu mi capisca.', '<em>Żebyś mnie rozumiał</em>: z indicativo <span lang="it">perché</span> znaczy „bo”. Cel wymaga <strong>congiuntivo</strong>.'],
+    ],
+    tr: [
+      ['Perché sono stanco, resto a casa.', 'Siccome sono stanco, resto a casa.', 'Sebep başta gelirse <strong lang="it">siccome</strong> kullanılır; <span lang="it">perché</span> ana cümleden sonra gelir.'],
+      ['Mentre mangiare, guardo la TV.', 'Mentre mangio, guardo la TV.', '<em>Yerken</em>: <span lang="it">mentre</span> çekimli fiil ister.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', '<em>Yorgun olmama rağmen</em> → <span lang="it">sebbene</span> + <strong>congiuntivo</strong>.'],
+    ],
+    de: [
+      ['Resto a casa, perché stanco sono.', 'Resto a casa, perché sono stanco.', 'Nach <span lang="it">perché</span> (weil) wandert das Verb nicht ans Ende.'],
+      ['Sono stanco, anche vado a letto.', 'Sono stanco, quindi vado a letto.', 'Falscher Freund: <em>also</em> ist <strong lang="it">quindi</strong>, <span lang="it">anche</span> heißt <em>auch</em>.'],
+      ['Sebbene sono stanco, finisco il lavoro.', 'Sebbene sia stanco, finisco il lavoro.', '<em>Obwohl ich müde bin</em> steht im Indikativ, nach <span lang="it">sebbene</span> braucht es den <strong>Konjunktiv</strong>.'],
+    ],
+    ja: [
+      ['Perché sono stanco, resto a casa.', 'Siccome sono stanco, resto a casa.', '「疲れているから」を先に言うときは <strong lang="it">siccome</strong> です。'],
+      ['Mentre mangiare, guardo la TV.', 'Mentre mangio, guardo la TV.', '「食べながら」：<span lang="it">mentre</span> のあとは活用した動詞です。'],
+      ['Anche se piova, esco.', 'Anche se piove, esco.', '「〜ても」の <span lang="it">anche se</span> は直説法です。接続法は <span lang="it">sebbene</span> のあとです。'],
+    ],
+  },
 };

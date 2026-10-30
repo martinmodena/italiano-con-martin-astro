@@ -1090,3 +1090,8 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Martin: le pagine non devono essere una semplice traduzione; insegnare un argomento a uno spagnolo non è come insegnarlo a un polacco, e la versione italiana può confrontare con l'inglese.
 - Ogni lezione riceve un riquadro «Confronto con…» dopo la regola, scritto da zero per ogni lingua: tabella lingua → italiano ed errori tipici di chi parla quella lingua. Dati in `scripts/data/confronti-lingua.mjs`, inserimento con `scripts/add-language-notes.mjs`, controllo nel deploy.
 - Si parte dalle lezioni con più impressioni in Search Console. Prima lezione: c'è/ci sono (spagnolo *hay* invariabile, francese *il y a* e *il y a deux ans* = *due anni fa*, tedesco *es gibt* e *kein*, polacco e ceco senza *ci* e *nie ma* + genitivo, turco *var/yok* e il possesso, giapponese «ある・いる» senza numero, portoghese *tem* da non tradurre con *ha*).
+
+## 2026-10-30 - Errori tipici scritti per la lingua dello studente
+
+- Martin approva di andare oltre il riquadro di confronto: anche la sezione «Errori» delle lezioni personalizzate è riscritta per ogni lingua (per esempio *c'è due persone* per chi parla spagnolo per via di *hay*, *mai non fumo* per cechi e polacchi, *pertanto* per *pourtant* per i francofoni). Dati in `scripts/data/errori-lingua.mjs`.
+- Fatto per c'è/ci sono, comparativo e superlativo, preposizioni semplici, avverbi di frequenza, connettivi, verbi riflessivi. Regola, esempi ed esercizi restano comuni.
