@@ -111,3 +111,27 @@ Perrette cammina verso il mercato con la brocca sulla testa, sognando a occhi ap
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated French fable book, fresh morning light, no black outlines. A country path through French fields leading to a small market town with a church tower. A cheerful young peasant woman in a long modest dress, long sleeves, apron and white bonnet walks with a light skip, balancing a tall closed earthenware jar on a small cushion on her head, one hand raised to hold it, her eyes dreamily turned to the sky and a smile on her lips. In the soft clouds above her, like a pale daydream, appear the faint shapes of a hen with chicks, a little pig and a cow with a calf. Gentle, playful, optimistic atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
 ```
+
+## 13. `story-asino-flautista` — «L'asino flautista» (El burro flautista, Tomás de Iriarte, Spagna)
+
+L'asino in un prato annusa il flauto e, senza volerlo, lo fa suonare.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Spanish fable book, warm afternoon light, no black outlines. A sunny meadow in the Spanish countryside with olive trees, a low stone wall and a white village on a distant hill. A grey donkey lowers his nose to sniff a simple wooden flute lying in the grass; small golden musical notes float out of the flute, and the donkey opens his eyes wide with proud surprise. On the wall a sparrow and a small lizard watch him with amusement. Humorous, gentle atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 14. `story-gallinella-rossa` — «La gallinella rossa» (The Little Red Hen, mondo inglese)
+
+La gallinella lavora nel campo con i pulcini mentre il cane, il gatto e l'anatra si riposano.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated English nursery tale book, soft golden late-summer light, no black outlines. An English country farmyard with a stone cottage, a wooden fence and a small field of ripe golden wheat. A small busy red hen in the wheat holds a little sickle under her wing, her yellow chicks following her and helping. In the foreground, in the shade, a lazy dog sleeps on its back, a cat stretches on a barrel and a white duck dozes with its head under its wing. Humorous, warm, cheerful atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 15. `story-riccioli-oro` — «Riccioli d'oro e i tre orsi» (Goldilocks and the Three Bears, Inghilterra)
+
+La bambina dorme nel lettino e i tre orsi la scoprono dalla porta.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated English nursery tale book, soft morning light through a small window, no black outlines. The cosy upstairs bedroom of a wooden cottage in an English forest, with three wooden beds of different sizes: big, medium and small. In the smallest bed a little girl with golden curls, wearing a long-sleeved modest dress, sleeps peacefully under a patchwork quilt. In the doorway three bears stand on two legs and look at her in amazement: a big father bear, a medium mother bear in a simple apron and a little bear cub pointing at the bed. Gentle, funny, warm atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
+```
