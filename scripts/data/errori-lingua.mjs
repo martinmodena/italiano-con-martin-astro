@@ -454,4 +454,59 @@ export const ERRORS = {
       ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '「住んでいます」は今も続いているので現在形です。'],
     ],
   },
+
+  'grammatica/b1/imperativo.html': {
+    it: [
+      ['Non parla adesso!', 'Non parlare adesso!', '<em lang="en">Don\'t speak</em> con <span lang="it">tu</span> è <strong>non + infinito</strong>.'],
+      ['Lo prendi!', 'Prendilo!', '<em lang="en">Take it</em>: il pronome va attaccato alla fine dell\'imperativo.'],
+      ['Non fai rumore!', 'Non fare rumore!', '<em lang="en">Don\'t make noise</em>: anche qui <span lang="it">non</span> + infinito.'],
+      ['Tu parla italiano!', 'Parla italiano!', 'Come in inglese, l\'imperativo non vuole il soggetto.'],
+    ],
+    en: [
+      ['Non parla adesso!', 'Non parlare adesso!', '<em>Don\'t speak</em> with <span lang="it">tu</span> is <strong lang="it">non + infinitive</strong>.'],
+      ['Lo prendi!', 'Prendilo!', '<em>Take it</em>: the pronoun is attached to the end of the imperative.'],
+      ['Non fai rumore!', 'Non fare rumore!', '<em>Don\'t make noise</em>: again <span lang="it">non</span> + infinitive.'],
+      ['Tu parla italiano!', 'Parla italiano!', 'Just like in English, the imperative has no subject.'],
+    ],
+    es: [
+      ['Non parli adesso!', 'Non parlare adesso!', 'Calco de <em>no hables</em>. Con <span lang="it">tu</span> el negativo es <strong lang="it">non + infinitivo</strong>.'],
+      ['Prendelo!', 'Prendilo!', '<em>Tómalo</em>: el imperativo de <span lang="it">prendere</span> con <span lang="it">tu</span> es <span lang="it">prendi</span>, terminado en <span lang="it">-i</span>.'],
+      ['Non facciate rumore!', 'Non fate rumore!', '<em>No hagáis</em>: con <span lang="it">voi</span> el negativo es igual al presente.'],
+    ],
+    pt: [
+      ['Non parla adesso!', 'Non parlare adesso!', 'Decalque de <em>não fala</em>. Com <span lang="it">tu</span> o negativo é <strong lang="it">non + infinitivo</strong>.'],
+      ['Non parli adesso!', 'Non parlare adesso!', 'Decalque de <em>não fale</em>: <span lang="it">non parli</span> é a forma de <span lang="it">Lei</span>, não de <span lang="it">tu</span>.'],
+      ['Mi ascolta!', 'Ascoltami!', '<em>Me escuta</em>: em italiano o pronome vai colado no fim do verbo.'],
+    ],
+    fr: [
+      ['Non parla adesso!', 'Non parlare adesso!', 'Calque de <em>ne parle pas</em>. Avec <span lang="it">tu</span> : <strong lang="it">non + infinitif</strong>.'],
+      ['Prendi-lo!', 'Prendilo!', 'Pas de trait d\'union : le pronom se colle au verbe.'],
+      ['Parlate più lentamente, signora.', 'Parli più lentamente, signora.', 'Le <em>vous</em> de politesse à une seule personne, c\'est <span lang="it">Lei</span>, pas <span lang="it">voi</span>.'],
+    ],
+    cs: [
+      ['Non parla adesso!', 'Non parlare adesso!', '<em>Nemluv</em> → <strong lang="it">non + infinitiv</strong>.'],
+      ['Prendi lo!', 'Prendilo!', 'Zájmeno se píše dohromady se slovesem.'],
+      ['Parlate più lentamente, signore.', 'Parli più lentamente, signore.', 'Vykání jednomu člověku je <span lang="it">Lei</span>, ne <span lang="it">voi</span>.'],
+    ],
+    pl: [
+      ['Non parla adesso!', 'Non parlare adesso!', '<em>Nie mów</em> → <strong lang="it">non + bezokolicznik</strong>.'],
+      ['Prendi lo!', 'Prendilo!', 'Zaimek pisze się razem z czasownikiem.'],
+      ['Prego parlare più lentamente.', 'Parli più lentamente, per favore.', 'Kalka z <em>proszę mówić</em>: grzecznie mówi się formą <span lang="it">Lei</span>.'],
+    ],
+    tr: [
+      ['Non parla adesso!', 'Non parlare adesso!', '<em>Konuşma</em> → <strong lang="it">non + mastar</strong>.'],
+      ['Lo prendi!', 'Prendilo!', '<em>Onu al</em>: zamir fiilin sonuna eklenir.'],
+      ['Parlate più lentamente, signore.', 'Parli più lentamente, signore.', 'Tek bir kişiye kibarca <em>konuşun</em> → <span lang="it">Lei</span> biçimi: <span lang="it">parli</span>.'],
+    ],
+    de: [
+      ['Parla non!', 'Non parlare!', '<em>Sprich nicht</em>: <span lang="it">non</span> steht vorne, danach der Infinitiv.'],
+      ['Prendi lo!', 'Prendilo!', '<em>Nimm es</em>: das Pronomen wird angehängt, in einem Wort.'],
+      ['Parlate più lentamente, signore.', 'Parli più lentamente, signore.', '<em>Sprechen Sie</em> → <span lang="it">Lei</span>-Form <span lang="it">parli</span>, nicht <span lang="it">voi</span>.'],
+    ],
+    ja: [
+      ['Non parla adesso!', 'Non parlare adesso!', '「話さないで」は <strong lang="it">non</strong> + 不定詞です。'],
+      ['Lo prendi!', 'Prendilo!', '「それを取って」の代名詞は動詞の最後にくっつけます。'],
+      ['Per favore parlare più lentamente.', 'Parla più lentamente, per favore.', '「〜てください」を不定詞で言わず、命令法 + <span lang="it">per favore</span> にします。'],
+    ],
+  },
 };

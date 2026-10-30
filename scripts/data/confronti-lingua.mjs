@@ -1312,4 +1312,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/b1/imperativo.html': {
+    it: {
+      h2: "L'imperativo: il confronto con l'inglese",
+      intro:
+        'In inglese l\'imperativo è uno solo, per una persona o per tante: <em lang="en">speak!</em> In italiano cambia: <strong>parla</strong> (tu), <strong>parlate</strong> (voi). E il negativo con <span lang="it">tu</span> non usa l\'imperativo, ma l\'infinito.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['Speak more slowly! (one person)', 'Parla più lentamente!'],
+        ['Speak more slowly! (two or more)', 'Parlate più lentamente!'],
+        ["Don't speak now!", 'Non parlare adesso!'],
+        ['Take it!', 'Prendilo!'],
+        ['Listen to me!', 'Ascoltami!'],
+      ],
+      points: [
+        '<em lang="en">Don\'t</em> + verbo con <span lang="it">tu</span> è <strong>non + infinito</strong>: <span lang="it">non parlare, non prendere</span>. Con <span lang="it">voi</span> resta la forma normale: <span lang="it">non parlate</span>.',
+        '<em lang="en">Take it, tell me</em>: il pronome si attacca alla fine del verbo, in una parola sola: <span lang="it">prendilo, dimmi</span>.',
+        'Il tono lo danno la voce e <span lang="it">per favore</span>: l\'imperativo italiano non è scortese. <span lang="it">Entra, per favore</span> è un invito gentile.',
+      ],
+    },
+    en: {
+      h2: 'The imperative compared with English',
+      intro:
+        'English has one imperative for one person or many: <em>speak!</em> Italian has two: <strong lang="it">parla</strong> (one person, <span lang="it">tu</span>) and <strong lang="it">parlate</strong> (several, <span lang="it">voi</span>). And the negative with <span lang="it">tu</span> uses the infinitive, not the imperative.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['Speak more slowly! (one person)', 'Parla più lentamente!'],
+        ['Speak more slowly! (two or more)', 'Parlate più lentamente!'],
+        ["Don't speak now!", 'Non parlare adesso!'],
+        ['Take it!', 'Prendilo!'],
+        ['Listen to me!', 'Ascoltami!'],
+      ],
+      points: [
+        '<em>Don\'t</em> + verb with <span lang="it">tu</span> is <strong lang="it">non + infinitive</strong>: <span lang="it">non parlare, non prendere</span>. With <span lang="it">voi</span> the normal form stays: <span lang="it">non parlate</span>.',
+        '<em>Take it, tell me</em>: the pronoun is glued to the end of the verb, as one word: <span lang="it">prendilo, dimmi</span>.',
+        'Tone comes from your voice and <span lang="it">per favore</span>: the Italian imperative isn\'t rude. <span lang="it">Entra, per favore</span> is a friendly invitation.',
+      ],
+    },
+    es: {
+      h2: 'El imperativo comparado con el español',
+      intro:
+        'El afirmativo se parece mucho: <em>habla</em> → <strong lang="it">parla</strong>, <em>tómalo</em> → <strong lang="it">prendilo</strong>, con el pronombre pegado al final como en español. La gran diferencia está en el negativo: el español usa el subjuntivo, el italiano no.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Habla más despacio.', 'Parla più lentamente.'],
+        ['No hables ahora.', 'Non parlare adesso.'],
+        ['Hablad más despacio.', 'Parlate più lentamente.'],
+        ['No hagáis ruido.', 'Non fate rumore.'],
+        ['Tómalo.', 'Prendilo.'],
+      ],
+      points: [
+        '<em>No hables</em> → <strong lang="it">non parlare</strong>: con <span lang="it">tu</span>, el negativo es <span lang="it">non</span> + infinitivo. <span lang="it">Non parli</span> significa «él no habla» o es el imperativo de <span lang="it">Lei</span>.',
+        'El <em>vosotros</em> afirmativo (<em>hablad</em>) es en italiano igual al presente: <strong lang="it">parlate</strong>. Y el negativo también: <em>no hagáis</em> → <span lang="it">non fate</span>.',
+        'Con <span lang="it">tu</span>, los verbos en <span lang="it">-ere</span> e <span lang="it">-ire</span> terminan en <span lang="it">-i</span>: <em>toma, abre</em> → <span lang="it">prendi, apri</span>.',
+      ],
+    },
+    pt: {
+      h2: 'O imperativo comparado com o português',
+      intro:
+        'No Brasil se diz muitas vezes <em>fala mais devagar</em> e <em>não fala</em>. Em italiano o afirmativo é parecido (<strong lang="it">parla</strong>), mas o negativo com <span lang="it">tu</span> usa o infinitivo: <strong lang="it">non parlare</strong>. E o pronome vai no fim do verbo.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Fala mais devagar.', 'Parla più lentamente.'],
+        ['Não fala agora. / Não fale agora.', 'Non parlare adesso.'],
+        ['Falem mais devagar. (vocês)', 'Parlate più lentamente.'],
+        ['Me escuta!', 'Ascoltami!'],
+        ['Pega isso!', 'Prendilo!'],
+      ],
+      points: [
+        'Nem <em>não fala</em> nem <em>não fale</em>: com <span lang="it">tu</span> o negativo é <strong lang="it">non</strong> + infinitivo: <span lang="it">non parlare, non prendere</span>.',
+        'O pronome não vem antes, como em <em>me escuta</em>: vem colado no fim do verbo, numa palavra só. <span lang="it">Ascoltami, prendilo, dimmi</span>.',
+        'Para <em>vocês</em> use a forma de <span lang="it">voi</span>, igual ao presente: <span lang="it">parlate, prendete, non parlate</span>.',
+      ],
+    },
+    fr: {
+      h2: "L'impératif comparé au français",
+      intro:
+        'L\'affirmatif ressemble au français : <em>parle</em> → <strong lang="it">parla</strong>, <em>parlez</em> (à plusieurs) → <strong lang="it">parlate</strong>. Mais le négatif avec <span lang="it">tu</span> ne se fait pas avec l\'impératif, et le pronom se colle au verbe sans trait d\'union.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Parle plus lentement.', 'Parla più lentamente.'],
+        ['Ne parle pas maintenant.', 'Non parlare adesso.'],
+        ['Parlez plus lentement. (à plusieurs)', 'Parlate più lentamente.'],
+        ['Prends-le.', 'Prendilo.'],
+        ['Ne le prends pas.', 'Non prenderlo. / Non lo prendere.'],
+      ],
+      points: [
+        '<em>Ne parle pas</em> → <strong lang="it">non parlare</strong> : avec <span lang="it">tu</span>, le négatif est <span lang="it">non</span> + infinitif.',
+        '<em>Prends-le</em> → <strong lang="it">prendilo</strong> : un seul mot, sans trait d\'union.',
+        'Le <em>vous</em> de politesse n\'est pas <span lang="it">voi</span> mais <span lang="it">Lei</span> : à une seule personne qu\'on vouvoie, on dit <span lang="it">parli più lentamente</span>. <span lang="it">Parlate</span> s\'adresse à plusieurs personnes.',
+      ],
+    },
+    cs: {
+      h2: 'Rozkazovací způsob ve srovnání s češtinou',
+      intro:
+        'Kladný rozkaz je podobný: <em>mluv</em> → <strong lang="it">parla</strong>, <em>mluvte</em> (více lidem) → <strong lang="it">parlate</strong>. Zápor ale italština tvoří jinak: u <span lang="it">tu</span> používá <strong>infinitiv</strong>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Mluv pomaleji.', 'Parla più lentamente.'],
+        ['Teď nemluv.', 'Non parlare adesso.'],
+        ['Mluvte pomaleji. (více lidem)', 'Parlate più lentamente.'],
+        ['Vezmi to.', 'Prendilo.'],
+        ['Poslouchej mě.', 'Ascoltami.'],
+      ],
+      points: [
+        '<em>Nemluv</em> → <strong lang="it">non parlare</strong>: <span lang="it">non</span> + infinitiv. S <span lang="it">voi</span> zůstává normální tvar: <span lang="it">non parlate</span>.',
+        'Zájmeno se připojí na konec slovesa, jedním slovem: <em>vezmi to</em> → <span lang="it">prendilo</span>, <em>řekni mi</em> → <span lang="it">dimmi</span>.',
+        'Vykání není <span lang="it">voi</span>, ale <span lang="it">Lei</span>: jednomu člověku, kterému vykáte, řeknete <span lang="it">parli più lentamente</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Tryb rozkazujący w porównaniu z polskim',
+      intro:
+        'Twierdzący rozkaz jest podobny: <em>mów</em> → <strong lang="it">parla</strong>, <em>mówcie</em> → <strong lang="it">parlate</strong>. Przeczenie jest inne: przy <span lang="it">tu</span> używa się <strong>bezokolicznika</strong>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Mów wolniej.', 'Parla più lentamente.'],
+        ['Nie mów teraz.', 'Non parlare adesso.'],
+        ['Mówcie wolniej.', 'Parlate più lentamente.'],
+        ['Weź to.', 'Prendilo.'],
+        ['Proszę mówić wolniej.', 'Parli più lentamente, per favore.'],
+      ],
+      points: [
+        '<em>Nie mów</em> → <strong lang="it">non parlare</strong>: <span lang="it">non</span> + bezokolicznik. Z <span lang="it">voi</span> zostaje zwykła forma: <span lang="it">non parlate</span>.',
+        'Zaimek dokleja się na końcu czasownika, w jednym słowie: <em>weź to</em> → <span lang="it">prendilo</span>, <em>powiedz mi</em> → <span lang="it">dimmi</span>.',
+        'Uprzejme <em>proszę mówić</em> to nie bezokolicznik, tylko forma <span lang="it">Lei</span>: <span lang="it">parli più lentamente</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Emir kipi: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede <em>konuş</em>, <em>konuşma</em>, <em>konuşun</em> derken olumsuzluk bir ekle yapılır. İtalyancada <span lang="it">tu</span> için olumlu <strong lang="it">parla</strong>, olumsuz ise <strong lang="it">non + mastar</strong>: <span lang="it">non parlare</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Daha yavaş konuş.', 'Parla più lentamente.'],
+        ['Şimdi konuşma.', 'Non parlare adesso.'],
+        ['Daha yavaş konuşun. (birden fazla kişiye)', 'Parlate più lentamente.'],
+        ['Daha yavaş konuşur musunuz? (kibar)', 'Parli più lentamente, per favore.'],
+        ['Onu al.', 'Prendilo.'],
+      ],
+      points: [
+        '<em>Konuşma</em> → <strong lang="it">non parlare</strong>: <span lang="it">non</span> + mastar. <span lang="it">Voi</span> ile normal biçim kalır: <span lang="it">non parlate</span>.',
+        'Türkçede nesne önce gelir (<em>onu al</em>); İtalyancada zamir fiilin sonuna eklenir: <span lang="it">prendilo</span>, <span lang="it">dimmi</span>.',
+        '<em>-in / -ın</em> eki hem çoğul hem kibar olabilir. İtalyancada çoğul için <span lang="it">parlate</span>, tek bir kişiye kibarca <span lang="it">parli</span> (<span lang="it">Lei</span>) denir.',
+      ],
+    },
+    de: {
+      h2: 'Der Imperativ im Vergleich zum Deutschen',
+      intro:
+        'Wie im Deutschen gibt es eine Form für eine Person und eine für mehrere: <em>sprich</em> → <strong lang="it">parla</strong>, <em>sprecht</em> → <strong lang="it">parlate</strong>. Anders sind die Verneinung mit <span lang="it">tu</span> und die Stellung der Pronomen.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Sprich langsamer!', 'Parla più lentamente!'],
+        ['Sprich jetzt nicht!', 'Non parlare adesso!'],
+        ['Sprecht langsamer!', 'Parlate più lentamente!'],
+        ['Sprechen Sie langsamer!', 'Parli più lentamente!'],
+        ['Nimm es!', 'Prendilo!'],
+      ],
+      points: [
+        '<em>Sprich nicht</em> → <strong lang="it">non parlare</strong>: <span lang="it">non</span> steht vorne, danach der Infinitiv.',
+        'Das Pronomen wird ans Verb angehängt, in einem Wort: <em>nimm es</em> → <span lang="it">prendilo</span>, <em>sag mir</em> → <span lang="it">dimmi</span>.',
+        '<em>Sie</em> ist nicht <span lang="it">voi</span>, sondern <span lang="it">Lei</span>: <span lang="it">parli più lentamente</span>. <span lang="it">Parlate</span> heißt <em>sprecht</em>.',
+      ],
+    },
+    ja: {
+      h2: '命令法と日本語の「〜て・〜ないで」',
+      intro:
+        '日本語では「話して」「話さないで」「話してください」と言います。イタリア語の命令法はもっと直接的ですが、失礼ではありません。丁寧さは <span lang="it">per favore</span> と声の調子で表します。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['もっとゆっくり話して。', 'Parla più lentamente.'],
+        ['今は話さないで。', 'Non parlare adesso.'],
+        ['（みんな）もっとゆっくり話して。', 'Parlate più lentamente.'],
+        ['もっとゆっくり話してください。', 'Parli più lentamente, per favore.'],
+        ['それを取って。', 'Prendilo.'],
+      ],
+      points: [
+        '「〜ないで」は <strong lang="it">non</strong> + 不定詞です。<span lang="it">non parlare</span>、<span lang="it">non prendere</span>。',
+        '代名詞は動詞の最後にくっつけて一語にします。<span lang="it">prendilo</span>（それを取って）、<span lang="it">dimmi</span>（私に言って）。',
+        '一人に言うときは <span lang="it">parla</span>、何人かに言うときは <span lang="it">parlate</span>。初対面の人には <span lang="it">Lei</span> の形 <span lang="it">parli</span> を使います。',
+      ],
+    },
+  },
 };
