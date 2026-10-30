@@ -25,6 +25,7 @@ import {
   LEVEL_PAGES,
   UI,
 } from './data/letture-categorie.mjs';
+import { HOME, homeUrl, navLabel } from './data/breadcrumb-labels.mjs';
 
 const SITE = 'https://italianoconmartin.com';
 const LANGS = ['it', 'en', 'es', 'fr', 'cs', 'pl', 'tr', 'de', 'ja', 'pt'];
@@ -153,9 +154,9 @@ function rebuildIndex(lang, tiles) {
 
 // ---------------------------------------------------------------- 2. pagine nuove (categorie e livelli)
 function crumbs(lang) {
-  const html = read(htmlOf(indexUrl[lang] + 'a1/'));
-  const m = html.match(/<p class="breadcrumbs"[^>]*>(<a [^>]*>[^<]*<\/a>) \/ (<a [^>]*>[^<]*<\/a>)/);
-  return [m[1], m[2]];
+  const label = navLabel(lang, indexUrl[lang]);
+  if (!label) throw new Error(`${lang}: voce «letture» del menu non trovata`);
+  return [`<a href="${homeUrl(lang)}">${HOME[lang]}</a>`, `<a href="${indexUrl[lang]}">${label}</a>`];
 }
 
 function ctaOf(lang, pre) {
@@ -321,7 +322,7 @@ function fixLevelIndex(lang, lv) {
 //   letture      Home / Letture / <categoria> / titolo
 //   favole       Home / Letture / Favole / titolo      (l'URL /favole/ resta: è la pagina che rende di più su Google)
 //   indice favole, categorie, livelli   Home / Letture / <nome>
-// Ogni pagina ha anche il BreadcrumbList in JSON-LD, che Google usa per la gerarchia e i risultati.
+// Il BreadcrumbList in JSON-LD lo aggiunge poi add-breadcrumbs.mjs.
 const stripTags = (s) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 function setCrumbs(lang, pageUrl, trail, title) {
   const p = htmlOf(pageUrl);
@@ -343,18 +344,7 @@ function setCrumbs(lang, pageUrl, trail, title) {
   }
   write(p, h);
 
-  const astroFile = astroOf(pageUrl);
-  if (!fs.existsSync(astroFile)) return;
-  const meta = readMeta(astroFile);
-  const href = (a) => a.match(/href="([^"]*)"/)[1];
-  const names = [[stripTags(home), resolve(href(home), pageUrl)], [stripTags(readings), resolve(href(readings), pageUrl)], ...trail, [last, pageUrl]];
-  const list = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: names.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + encodeURI(url) })),
-  };
-  meta.jsonld = [...(meta.jsonld || []).filter((j) => !j.includes('"BreadcrumbList"')), JSON.stringify(list)];
-  writeMeta(astroFile, meta);
+  // Il BreadcrumbList in JSON-LD lo scrive add-breadcrumbs.mjs per tutto il sito, dalla briciola visibile.
 }
 
 function fixCrumbs(lang, tiles) {

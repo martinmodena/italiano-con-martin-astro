@@ -37,6 +37,9 @@ jobs:
       - name: Audit language mix (source)
         run: node scripts/audit-language-mix.mjs --strict
 
+      - name: Audit breadcrumbs (source)
+        run: node scripts/add-breadcrumbs.mjs --check
+
       - name: Build site
         run: npm run build
 

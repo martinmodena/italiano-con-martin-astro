@@ -182,6 +182,7 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   ```
   node scripts/audit-language-mix.mjs --strict
+  node scripts/add-breadcrumbs.mjs --check
   npm run build
   node scripts/audit-site.mjs --strict
   node scripts/audit-links.mjs --strict
@@ -217,6 +218,8 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 - **Registro di ogni lingua** (verificato il 2026-10-10 sulle pagine del generatore): spagnolo «tú», portoghese «você», francese **«vous»** (Écrivez, Apprenez), tedesco «du» (Schreib, Lerne), ceco «vy» (Napište), polacco «ty» (Wpisz), turco **forma cortese** (yazın, öğrenin), giapponese です・ます con istruzioni in 〜ましょう. Inglese neutro. Chi scrive testi nuovi o correzioni deve seguirlo: il 2026-10-10 le correzioni francesi e turche erano partite con il «tu» e sono state rifatte.
 
 - **Nei contenuti mai nulla di magia** (Martin, 2026-10-10): niente cartomanti, oroscopi, maghi, soprannaturale, nemmeno come pretesto per allenare un tempo verbale.
+
+- **Briciole di pane e BreadcrumbList (dal 2026-10-30, Martin: «mantieni sempre coerente la struttura del sito e che sia perfetta dal punto di vista SEO»).** Stessa forma in tutto il sito e in tutte le lingue, link assoluti: grammatica «Home / Grammatica / A1 (link a `#a1` dell'indice) / titolo h1», vocabolario «Home / Vocabolario / titolo h1», letture «Home / Letture / categoria / titolo», favole «Home / Letture / Favole / titolo». Le scrive `node scripts/add-breadcrumbs.mjs` (grammatica e vocabolario) e `create-reading-categories.mjs` (letture e favole), con le etichette fisse di `scripts/data/breadcrumb-labels.mjs` (Home per lingua e voci del menu di `src/data/i18n.json`); le briciole hanno `data-auto`, e `build-pt.mjs` ne traduce solo il titolo. `add-breadcrumbs.mjs` mette anche il **BreadcrumbList in JSON-LD su ogni pagina tranne le home**, costruito dalla briciola visibile (Home > pagina dove non c'è). **Va lanciato per ultimo dopo qualsiasi generatore**; il deploy lancia `--check` e si ferma se una pagina non è a posto. Ordine completo dopo un generatore: `build-pt.mjs` → `create-reading-categories.mjs` → `add-grammar-book.mjs` → `add-breadcrumbs.mjs`.
 
 - **Mescolanza delle lingue: vale `REGOLE_LINGUE.md`, sempre.** In sintesi: l'italiano è ciò che si impara (brani, esempi, coniugazioni, forme citate, domande di comprensione) e non si traduce mai, marcato `lang="it"`; la lingua del visitatore è ciò che spiega (menu, titoli, spiegazioni, istruzioni, etichette, attributi `alt`/`aria-label`/`data-hint`, SEO) e va tradotta al 100%. Il marchio «Italiano con Martin» e i nomi Martin e Licia non si traducono in nessuna lingua. Prima di tradurre in automatico vanno protetti i blocchi della lingua-oggetto: la lista in `scripts/generate-localized-resources.mjs` è incompleta e ha già rotto centinaia di pagine.
 

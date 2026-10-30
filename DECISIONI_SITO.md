@@ -1073,3 +1073,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **L'URL `/favole/` resta dov'è**: è la pagina migliore su Google (posizione 3,6, 28% di clic in 3 mesi) e GitHub Pages non fa redirect 301, solo pagine di reindirizzamento, che farebbero perdere posizioni. Per Google la gerarchia la danno le briciole e i dati strutturati, non le cartelle.
 - L'indice delle favole ha anche la barra degli argomenti delle letture, con «Favole» evidenziato. Lo stile della barra ora è in `styles.css` (`CSS_VERSION` 20261030b).
 - Martin ha registrato il sito su Bing Webmaster Tools il 2026-10-30.
+
+## 2026-10-30 - Briciole di pane e BreadcrumbList in tutto il sito
+
+- Dopo letture e favole, anche grammatica e vocabolario. Prima: link relativi in italiano e assoluti nelle altre lingue, livello («A1») come testo semplice, ultimo pezzo a volte corto («Possessivi») e a volte il titolo intero, e la lezione italiana «Genere e numero» senza briciola.
+- Ora la forma è una sola: «Home / Grammatica / A1 / titolo» (A1 porta alla sezione dell'indice), «Home / Vocabolario / titolo», con il titolo uguale all'h1.
+- **Ogni pagina del sito tranne le home ha il BreadcrumbList in JSON-LD** (prima nessuna), costruito dalla briciola visibile perché i due non possano divergere; dove non c'è briciola visibile (indici delle sezioni, Chi siamo, privacy) è Home > pagina.
+- Il deploy controlla le briciole (`add-breadcrumbs.mjs --check`) e si ferma se una pagina non è a posto.
