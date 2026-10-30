@@ -1084,3 +1084,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 ## 2026-10-30 - «Letture graduate» tradotto male in quattro lingue
 
 - Dopo il tedesco («Benotete», corretto il 2026-10-29), lo stesso errore in spagnolo («lecturas calificadas»), francese («lectures notées») e polacco («oceniane lektury»): tutti significano «letture con il voto». Corretti in «lecturas graduadas», «lectures graduées», «stopniowane czytanki» (h1 dell'indice polacco e francese, piè di pagina, occhielli, descrizioni). In turco «dereceli» diventa «seviyeli», più usato per i testi per livello.
+
+## 2026-10-30 - Confronto con la lingua dello studente nelle lezioni di grammatica
+
+- Martin: le pagine non devono essere una semplice traduzione; insegnare un argomento a uno spagnolo non è come insegnarlo a un polacco, e la versione italiana può confrontare con l'inglese.
+- Ogni lezione riceve un riquadro «Confronto con…» dopo la regola, scritto da zero per ogni lingua: tabella lingua → italiano ed errori tipici di chi parla quella lingua. Dati in `scripts/data/confronti-lingua.mjs`, inserimento con `scripts/add-language-notes.mjs`, controllo nel deploy.
+- Si parte dalle lezioni con più impressioni in Search Console. Prima lezione: c'è/ci sono (spagnolo *hay* invariabile, francese *il y a* e *il y a deux ans* = *due anni fa*, tedesco *es gibt* e *kein*, polacco e ceco senza *ci* e *nie ma* + genitivo, turco *var/yok* e il possesso, giapponese «ある・いる» senza numero, portoghese *tem* da non tradurre con *ha*).

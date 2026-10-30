@@ -723,6 +723,7 @@ export const COMPREHENSION = {
 // Voci di navigazione interna delle lezioni di grammatica (`.lesson-nav`).
 // Alcune contengono una forma italiana: resta in italiano dentro uno <span>.
 export const NAV_LABELS = {
+  "Confronto con l'inglese": { en: 'Compared with English', es: 'Comparado con el español', fr: 'Comparé au français', cs: 'Srovnání s češtinou', pl: 'Porównanie z polskim', tr: 'Türkçe ile karşılaştırma', de: 'Vergleich mit dem Deutschen', ja: '日本語との比較' },
   Forme: { en: 'Forms', es: 'Formas', fr: 'Formes', cs: 'Tvary', pl: 'Formy', tr: 'Biçimler', de: 'Formen', ja: '形' },
   Forma: { en: 'Form', es: 'Forma', fr: 'Forme', cs: 'Tvar', pl: 'Forma', tr: 'Biçim', de: 'Form', ja: '形' },
   Uso: { en: 'Use', es: 'Uso', fr: 'Emploi', cs: 'Použití', pl: 'Użycie', tr: 'Kullanım', de: 'Gebrauch', ja: '用法' },
