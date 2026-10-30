@@ -201,4 +201,186 @@ export const NOTES = {
     },
   },
 
+  'grammatica/b1/comparativo-e-superlativo.html': {
+    it: {
+      h2: "Comparativo e superlativo: il confronto con l'inglese",
+      intro:
+        'L\'inglese ha due sistemi: <em lang="en">-er / -est</em> per gli aggettivi corti (<em lang="en">bigger, the biggest</em>) e <em lang="en">more / the most</em> per quelli lunghi. L\'italiano ne ha uno solo: <strong>più</strong> e <strong>il più</strong> con tutti gli aggettivi.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['Rome is bigger than Pisa.', 'Roma è più grande di Pisa.'],
+        ["It's easier to read than to write.", 'È più facile leggere che scrivere.'],
+        ['Marco is as tall as Luca.', 'Marco è alto come Luca.'],
+        ['the most useful book in the class', 'il libro più utile della classe'],
+        ['very beautiful', 'bellissimo'],
+      ],
+      points: [
+        '<em lang="en">Than</em> ha due traduzioni: <strong>di</strong> quando confronti due persone o cose (<span lang="it">più grande di Pisa</span>), <strong>che</strong> quando confronti due azioni o due qualità (<span lang="it">più facile leggere che scrivere</span>).',
+        'Dopo il superlativo l\'inglese usa <em lang="en">in</em>, l\'italiano <strong>di</strong>: <span lang="it">il più bello del mondo</span>, non <span lang="it">nel mondo</span>.',
+        'Come <em lang="en">better</em> e <em lang="en">worse</em>, anche l\'italiano ha forme irregolari: <span lang="it">migliore</span>, <span lang="it">peggiore</span>. Il superlativo in <strong>-issimo</strong> invece in inglese non esiste: <span lang="it">bellissimo</span> = <em lang="en">very beautiful</em>.',
+      ],
+    },
+    en: {
+      h2: 'Comparatives and superlatives compared with English',
+      intro:
+        'English has two systems: <em>-er / -est</em> for short adjectives (<em>bigger, the biggest</em>) and <em>more / the most</em> for long ones. Italian has just one: <strong lang="it">più</strong> and <strong lang="it">il più</strong> with every adjective.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['Rome is bigger than Pisa.', 'Roma è più grande di Pisa.'],
+        ["It's easier to read than to write.", 'È più facile leggere che scrivere.'],
+        ['Marco is as tall as Luca.', 'Marco è alto come Luca.'],
+        ['the most useful book in the class', 'il libro più utile della classe'],
+        ['very beautiful', 'bellissimo'],
+      ],
+      points: [
+        '<em>Than</em> has two translations: <strong lang="it">di</strong> when you compare two people or things (<span lang="it">più grande di Pisa</span>), <strong lang="it">che</strong> when you compare two actions or two qualities (<span lang="it">più facile leggere che scrivere</span>).',
+        'After a superlative English uses <em>in</em>, Italian uses <strong lang="it">di</strong>: <span lang="it">il più bello del mondo</span> (the most beautiful in the world), not <span lang="it">nel mondo</span>.',
+        '<em>As … as</em> needs only one word: <span lang="it">alto come Luca</span>. And Italian has a form English lacks: <strong lang="it">-issimo</strong>, <span lang="it">bellissimo</span> = very beautiful.',
+      ],
+    },
+    es: {
+      h2: 'Comparativo y superlativo comparados con el español',
+      intro:
+        'La estructura es casi la misma que en español: <em>más</em> → <strong lang="it">più</strong>, <em>menos</em> → <strong lang="it">meno</strong>, <em>el más</em> → <strong lang="it">il più</strong>. La gran diferencia está en la palabra que sigue: el español usa siempre <em>que</em>, el italiano casi siempre <strong lang="it">di</strong>.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Roma es más grande que Pisa.', 'Roma è più grande di Pisa.'],
+        ['Es más fácil leer que escribir.', 'È più facile leggere che scrivere.'],
+        ['Marco es tan alto como Luca.', 'Marco è alto come Luca.'],
+        ['el libro más útil de la clase', 'il libro più utile della classe'],
+        ['buenísimo', 'buonissimo'],
+      ],
+      points: [
+        'El error típico de quien habla español es <span lang="it">più grande che Pisa</span>. Entre dos personas o cosas, el italiano usa <strong lang="it">di</strong>: <span lang="it">più grande di Pisa</span>, <span lang="it">più alto di me</span>. <strong lang="it">Che</strong> solo entre dos acciones o dos cualidades: <span lang="it">più facile leggere che scrivere</span>.',
+        'El <em>tan</em> de <em>tan alto como</em> desaparece: <span lang="it">Marco è alto come Luca</span>.',
+        'Lo demás funciona como en español: <em>-ísimo</em> → <strong lang="it">-issimo</strong> (<span lang="it">buonissimo</span>), <em>mejor / peor</em> → <span lang="it">migliore / peggiore</span>, <em>mayor / menor</em> → <span lang="it">maggiore / minore</span>.',
+      ],
+    },
+    pt: {
+      h2: 'Comparativo e superlativo comparados com o português',
+      intro:
+        'A estrutura é quase a mesma do português: <em>mais</em> → <strong lang="it">più</strong>, <em>menos</em> → <strong lang="it">meno</strong>, <em>o mais</em> → <strong lang="it">il più</strong>. A grande diferença está na palavra que vem depois: o português usa <em>(do) que</em>, o italiano quase sempre <strong lang="it">di</strong>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Roma é maior do que Pisa.', 'Roma è più grande di Pisa.'],
+        ['É mais fácil ler do que escrever.', 'È più facile leggere che scrivere.'],
+        ['O Marco é tão alto quanto o Luca.', 'Marco è alto come Luca.'],
+        ['o livro mais útil da turma', 'il libro più utile della classe'],
+        ['lindíssimo', 'bellissimo'],
+      ],
+      points: [
+        'O erro típico de quem fala português é <span lang="it">più grande che Pisa</span>. Entre duas pessoas ou coisas, o italiano usa <strong lang="it">di</strong>: <span lang="it">più grande di Pisa</span>, <span lang="it">più alto di me</span>. <strong lang="it">Che</strong> só entre duas ações ou duas qualidades: <span lang="it">più facile leggere che scrivere</span>.',
+        '<em>Maior</em> e <em>menor</em> para tamanho viram <span lang="it">più grande</span> e <span lang="it">più piccolo</span>; <span lang="it">maggiore</span> e <span lang="it">minore</span> se usam sobretudo para idade e importância (<span lang="it">mio fratello maggiore</span>).',
+        'O <em>tão</em> de <em>tão alto quanto</em> cai: <span lang="it">alto come Luca</span> ou <span lang="it">alto quanto Luca</span>. E <em>-íssimo</em> funciona igual: <span lang="it">bellissimo</span>, <span lang="it">buonissimo</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Comparatif et superlatif comparés au français',
+      intro:
+        'Le principe est le même qu\'en français : <em>plus</em> → <strong lang="it">più</strong>, <em>moins</em> → <strong lang="it">meno</strong>. Deux différences piègent presque tous les francophones : le mot après l\'adjectif et l\'article du superlatif.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Rome est plus grande que Pise.', 'Roma è più grande di Pisa.'],
+        ["Il est plus facile de lire que d'écrire.", 'È più facile leggere che scrivere.'],
+        ['Marco est aussi grand que Luca.', 'Marco è alto come Luca.'],
+        ['le livre le plus utile de la classe', 'il libro più utile della classe'],
+        ['très beau', 'bellissimo'],
+      ],
+      points: [
+        '<em>Que</em> ne se traduit pas toujours par <span lang="it">che</span>. Entre deux personnes ou deux choses, l\'italien utilise <strong lang="it">di</strong> : <span lang="it">più grande di Pisa</span>, <span lang="it">più alto di me</span>. <strong lang="it">Che</strong> sert à comparer deux actions ou deux qualités.',
+        'Le français répète l\'article (<em>le livre <u>le</u> plus utile</em>), l\'italien non : <span lang="it">il libro più utile</span>, jamais <span lang="it">il libro il più utile</span>.',
+        '<em>Aussi … que</em> devient simplement <span lang="it">come</span> : <span lang="it">alto come Luca</span>. Et l\'italien a un superlatif en <strong lang="it">-issimo</strong> qui n\'existe pas en français : <span lang="it">bellissimo</span> = très beau.',
+      ],
+    },
+    cs: {
+      h2: 'Druhý a třetí stupeň ve srovnání s češtinou',
+      intro:
+        'Čeština stupňuje koncovkami: <em>velký – větší – největší</em>. Italské přídavné jméno se nemění, jen se před něj přidá <strong lang="it">più</strong> (více) nebo <strong lang="it">il più</strong> (nej-): <span lang="it">grande – più grande – il più grande</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Řím je větší než Pisa.', 'Roma è più grande di Pisa.'],
+        ['Číst je snazší než psát.', 'È più facile leggere che scrivere.'],
+        ['Marco je stejně vysoký jako Luca.', 'Marco è alto come Luca.'],
+        ['nejužitečnější kniha ve třídě', 'il libro più utile della classe'],
+        ['velmi krásný', 'bellissimo'],
+      ],
+      points: [
+        '<em>Než</em> má v italštině dva překlady: <strong lang="it">di</strong>, když srovnáváte dvě osoby nebo věci (<span lang="it">più grande di Pisa</span>), a <strong lang="it">che</strong>, když srovnáváte dvě činnosti nebo vlastnosti (<span lang="it">più facile leggere che scrivere</span>).',
+        'Nejvyšší stupeň potřebuje člen: <span lang="it">il più grande</span>, <span lang="it">la più bella</span>. A místo <em>ve třídě</em> se říká <strong lang="it">della classe</strong> (z třídy), ne <span lang="it">nella classe</span>.',
+        'Jako <em>lepší / horší</em> má i italština nepravidelné tvary: <span lang="it">migliore / peggiore</span>, u příslovcí <span lang="it">meglio / peggio</span> (<em>lépe / hůř</em>).',
+      ],
+    },
+    pl: {
+      h2: 'Stopniowanie w porównaniu z polskim',
+      intro:
+        'Po polsku stopniujesz końcówkami: <em>duży – większy – największy</em>. Włoski przymiotnik się nie zmienia, dodajesz tylko <strong lang="it">più</strong> (bardziej) albo <strong lang="it">il più</strong> (naj-): <span lang="it">grande – più grande – il più grande</span>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Rzym jest większy od Pizy.', 'Roma è più grande di Pisa.'],
+        ['Łatwiej jest czytać niż pisać.', 'È più facile leggere che scrivere.'],
+        ['Marco jest tak wysoki jak Luca.', 'Marco è alto come Luca.'],
+        ['najbardziej przydatna książka w klasie', 'il libro più utile della classe'],
+        ['bardzo piękny', 'bellissimo'],
+      ],
+      points: [
+        'Dobra wskazówka: tam, gdzie po polsku możesz powiedzieć <em>od</em> (<em>większy od Pizy</em>, <em>wyższy ode mnie</em>), po włosku jest <strong lang="it">di</strong>: <span lang="it">più grande di Pisa</span>, <span lang="it">più alto di me</span>. Tam, gdzie pasuje tylko <em>niż</em> (dwie czynności, dwie cechy), jest <strong lang="it">che</strong>: <span lang="it">più facile leggere che scrivere</span>.',
+        'Stopień najwyższy potrzebuje rodzajnika: <span lang="it">il più grande</span>, <span lang="it">la più bella</span>. Zamiast <em>w klasie</em> mówisz <strong lang="it">della classe</strong>, nie <span lang="it">nella classe</span>.',
+        'Jak <em>lepszy / gorszy</em>, włoski też ma formy nieregularne: <span lang="it">migliore / peggiore</span>, a przy przysłówkach <span lang="it">meglio / peggio</span> (<em>lepiej / gorzej</em>).',
+      ],
+    },
+    tr: {
+      h2: 'Karşılaştırma ve üstünlük: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede karşılaştırılan şey önce gelir: <em>Roma, Pisa\'dan daha büyük</em>. İtalyancada sıra tersidir: önce sıfat, sonra karşılaştırılan şey. <em>Daha</em> → <strong lang="it">più</strong>, <em>-den</em> → <strong lang="it">di</strong>, <em>en</em> → <strong lang="it">il più</strong>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ["Roma, Pisa'dan daha büyük.", 'Roma è più grande di Pisa.'],
+        ['Okumak yazmaktan daha kolay.', 'È più facile leggere che scrivere.'],
+        ['Marco, Luca kadar uzun.', 'Marco è alto come Luca.'],
+        ['sınıfın en faydalı kitabı', 'il libro più utile della classe'],
+        ['çok güzel', 'bellissimo'],
+      ],
+      points: [
+        'Türkçede <em>-den</em> her zaman kullanılır, İtalyancada iki karşılığı vardır: iki kişi veya iki şey için <strong lang="it">di</strong> (<span lang="it">più grande di Pisa</span>), iki eylem veya iki nitelik için <strong lang="it">che</strong> (<span lang="it">più facile leggere che scrivere</span>).',
+        '<em>En</em> için tanımlık gerekir ve isim genellikle önce gelir: <span lang="it">il libro più utile</span>. <em>Sınıfın</em> → <strong lang="it">della classe</strong>.',
+        'İtalyancada sıfat, ismin cinsiyetine ve sayısına uyar: <span lang="it">più alto</span> (erkek), <span lang="it">più alta</span> (kadın), <span lang="it">più alti</span> (çoğul). <em>-issimo</em> ise <em>çok</em> anlamına gelir: <span lang="it">bellissimo</span> = çok güzel.',
+      ],
+    },
+    de: {
+      h2: 'Komparativ und Superlativ im Vergleich zum Deutschen',
+      intro:
+        'Im Deutschen hängst du eine Endung an: <em>groß – größer – am größten</em>. Im Italienischen bleibt das Adjektiv gleich, du stellst nur <strong lang="it">più</strong> (mehr) oder <strong lang="it">il più</strong> davor: <span lang="it">grande – più grande – il più grande</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Rom ist größer als Pisa.', 'Roma è più grande di Pisa.'],
+        ['Lesen ist leichter als Schreiben.', 'È più facile leggere che scrivere.'],
+        ['Marco ist so groß wie Luca.', 'Marco è alto come Luca.'],
+        ['das nützlichste Buch der Klasse', 'il libro più utile della classe'],
+        ['sehr schön', 'bellissimo'],
+      ],
+      points: [
+        '<em>Als</em> hat zwei Übersetzungen: <strong lang="it">di</strong>, wenn du zwei Personen oder Dinge vergleichst (<span lang="it">più grande di Pisa</span>, <span lang="it">più alto di me</span>), und <strong lang="it">che</strong>, wenn du zwei Tätigkeiten oder zwei Eigenschaften vergleichst. <span lang="it">Più grande come Pisa</span> ist falsch.',
+        'Im Superlativ steht das Nomen meist vorne: <span lang="it">il libro più utile</span> (wörtlich „das Buch nützlichste“).',
+        '<em>Besser</em> hat im Italienischen zwei Formen: <span lang="it">migliore</span> beim Nomen (<span lang="it">un vino migliore</span>) und <span lang="it">meglio</span> beim Verb (<span lang="it">canta meglio</span>). Ebenso <em>schlechter</em>: <span lang="it">peggiore / peggio</span>.',
+      ],
+    },
+    ja: {
+      h2: '比較級・最上級と日本語の「より・一番」',
+      intro:
+        '日本語では比べる相手が先に来ます（ローマは<em>ピサより</em>大きい）。イタリア語では順番が逆で、形容詞のあとに相手が来ます。「より」→ <strong lang="it">più … di</strong>、「一番」→ <strong lang="it">il più</strong>。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['ローマはピサより大きいです。', 'Roma è più grande di Pisa.'],
+        ['書くより読むほうが簡単です。', 'È più facile leggere che scrivere.'],
+        ['マルコはルカと同じくらい背が高いです。', 'Marco è alto come Luca.'],
+        ['クラスで一番役に立つ本', 'il libro più utile della classe'],
+        ['とても美しい', 'bellissimo'],
+      ],
+      points: [
+        '「より」には二つの訳があります。人や物を比べるときは <strong lang="it">di</strong>（<span lang="it">più grande di Pisa</span>）、二つの動作や性質を比べるときは <strong lang="it">che</strong>（<span lang="it">più facile leggere che scrivere</span>）です。',
+        '「クラスで」の「で」は <strong lang="it">di</strong> になります。<span lang="it">il libro più utile della classe</span>（<span lang="it">nella classe</span> ではありません）。最上級には冠詞 <span lang="it">il / la</span> が必要です。',
+        '日本語の形容詞は比較しても形が変わりませんが、イタリア語の形容詞は名詞の性と数に合わせます。<span lang="it">più alto</span>（男性）、<span lang="it">più alta</span>（女性）、<span lang="it">più alti</span>（複数）。',
+      ],
+    },
+  },
 };

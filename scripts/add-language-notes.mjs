@@ -1,5 +1,5 @@
 // Inserisce nelle lezioni di grammatica il riquadro «confronto con la tua lingua» (id="confronto"),
-// subito dopo la regola, e la voce nel menu della lezione. I testi sono in data/confronti-lingua.mjs.
+// subito dopo la regola (o dopo il riquadro indicato con «after»), e la voce nel menu della lezione. I testi sono in data/confronti-lingua.mjs.
 //
 // Idempotente. Va lanciato dopo scripts/pt/build-pt.mjs (che toglie il riquadro spagnolo prima di tradurre)
 // e prima di add-breadcrumbs.mjs. Con --check non scrive niente e fallisce se un riquadro manca o è diverso.
@@ -35,12 +35,14 @@ for (const [itPath, byLang] of Object.entries(NOTES)) {
     const file = path.join('src/html', decodeURI(url.replace(SITE + '/', '')));
     const html = fs.readFileSync(file, 'utf8');
     let next = html.replace(BLOCK_RE, '').replace(NAV_RE, '');
-    const rule = next.indexOf('id="regola"');
+    // Dopo il riquadro indicato in «after», altrimenti dopo il primo del menu della lezione (di solito #regola).
+    const anchor = byLang.after || (next.match(/<div class="lesson-nav"><a href="#([^"]+)"/) || [])[1];
+    const rule = next.indexOf(`id="${anchor}"`);
     const end = next.indexOf('</article>', rule);
-    if (rule < 0 || end < 0) throw new Error(`${file}: riquadro della regola non trovato`);
+    if (!anchor || rule < 0 || end < 0) throw new Error(`${file}: riquadro #${anchor} non trovato`);
     const at = next.indexOf('<', end + '</article>'.length);
     next = next.slice(0, at) + block(note) + next.slice(at);
-    next = next.replace(/(<div class="lesson-nav"><a href="#regola">[^<]*<\/a>)/, `$1<a href="#confronto">${NAV[lang]}</a>`);
+    next = next.replace(new RegExp(`(<div class="lesson-nav">.*?<a href="#${anchor}">[^<]*</a>)`), `$1<a href="#confronto">${NAV[lang]}</a>`);
     if (next === html) continue;
     if (CHECK) {
       console.log(`Confronto da aggiornare: ${file}`);
