@@ -577,4 +577,188 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/avverbi-di-frequenza.html': {
+    after: 'mai',
+    it: {
+      h2: "Gli avverbi di frequenza: il confronto con l'inglese",
+      intro:
+        'In inglese l\'avverbio va <strong>prima</strong> del verbo: <em lang="en">I often go</em>. In italiano va <strong>dopo</strong>: <span lang="it">vado spesso</span>. E con <strong>mai</strong> l\'italiano usa due negazioni, dove l\'inglese ne usa una.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I often go to the cinema.', 'Vado spesso al cinema.'],
+        ['I usually have dinner at eight.', 'Di solito ceno alle otto.'],
+        ['I never smoke.', 'Non fumo mai.'],
+        ["I've always lived in Milan.", 'Ho sempre abitato a Milano.'],
+        ['Have you ever been to Rome?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em lang="en">Never</em> diventa <strong>non … mai</strong>: <span lang="it">non fumo mai</span>. In inglese due negazioni sono un errore, in italiano sono obbligatorie.',
+        '<em lang="en">Ever</em> nelle domande è <strong>mai</strong>, senza <span lang="it">non</span>: <span lang="it">Sei mai stato a Roma?</span>',
+        'Con i tempi composti l\'avverbio sta tra ausiliare e participio, proprio come in inglese: <em lang="en">I have always lived</em> → <span lang="it">ho sempre abitato</span>.',
+      ],
+    },
+    en: {
+      h2: 'Adverbs of frequency compared with English',
+      intro:
+        'In English the adverb goes <strong>before</strong> the verb: <em>I often go</em>. In Italian it goes <strong>after</strong> it: <span lang="it">vado spesso</span>. And with <strong lang="it">mai</strong> Italian uses two negatives where English uses one.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I often go to the cinema.', 'Vado spesso al cinema.'],
+        ['I usually have dinner at eight.', 'Di solito ceno alle otto.'],
+        ['I never smoke.', 'Non fumo mai.'],
+        ["I've always lived in Milan.", 'Ho sempre abitato a Milano.'],
+        ['Have you ever been to Rome?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Never</em> becomes <strong lang="it">non … mai</strong>: <span lang="it">non fumo mai</span>. A double negative is a mistake in English, but compulsory in Italian.',
+        '<em>Ever</em> in questions is <strong lang="it">mai</strong>, without <span lang="it">non</span>: <span lang="it">Sei mai stato a Roma?</span>',
+        'With compound tenses the adverb sits between the auxiliary and the participle, just like in English: <em>I have always lived</em> → <span lang="it">ho sempre abitato</span>.',
+      ],
+    },
+    es: {
+      h2: 'Los adverbios de frecuencia comparados con el español',
+      intro:
+        'Muchos adverbios son casi iguales: <em>siempre</em> → <strong lang="it">sempre</strong>, <em>a veces</em> → <strong lang="it">a volte</strong>. Las diferencias están en el lugar del adverbio y en <em>nunca</em>.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Siempre desayuno.', 'Faccio sempre colazione.'],
+        ['Nunca fumo. / No fumo nunca.', 'Non fumo mai.'],
+        ['Casi nunca salgo por la noche.', 'Non esco quasi mai la sera.'],
+        ['Siempre he vivido en Milán.', 'Ho sempre abitato a Milano.'],
+        ['¿Has estado alguna vez en Roma?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        'En español puedes decir <em>nunca fumo</em>. En italiano no: <span lang="it">mai</span> va después del verbo y <strong lang="it">non</strong> delante, como en <em>no fumo nunca</em>. <span lang="it">Mai fumo</span> suena raro.',
+        'El español pone a menudo el adverbio delante (<em>siempre desayuno</em>); el italiano lo pone detrás del verbo: <span lang="it">faccio sempre colazione</span>. En los tiempos compuestos va entre el auxiliar y el participio: <span lang="it">ho sempre abitato</span>.',
+        '<em>Alguna vez</em> en las preguntas se dice <strong lang="it">mai</strong>: <span lang="it">Sei mai stato a Roma?</span> No es negativo: aquí <span lang="it">mai</span> significa «alguna vez».',
+      ],
+    },
+    pt: {
+      h2: 'Os advérbios de frequência comparados com o português',
+      intro:
+        'Muitos advérbios são quase iguais: <em>sempre</em> → <strong lang="it">sempre</strong>, <em>às vezes</em> → <strong lang="it">a volte</strong>, <em>de vez em quando</em> → <strong lang="it">ogni tanto</strong>. As diferenças estão no lugar do advérbio e em <em>nunca</em>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Sempre tomo café da manhã.', 'Faccio sempre colazione.'],
+        ['Nunca fumo.', 'Non fumo mai.'],
+        ['Quase nunca saio à noite.', 'Non esco quasi mai la sera.'],
+        ['Geralmente janto às oito.', 'Di solito ceno alle otto.'],
+        ['Você já foi a Roma?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Nunca</em> antes do verbo vira <strong lang="it">non</strong> antes do verbo e <strong lang="it">mai</strong> depois: <span lang="it">non fumo mai</span>. As duas negações são obrigatórias.',
+        'Na pergunta <em>Você já foi…?</em>, o <em>já</em> não é <span lang="it">già</span>, é <strong lang="it">mai</strong>: <span lang="it">Sei mai stato a Roma?</span> <span lang="it">Sei già stato a Roma?</span> pergunta só se aconteceu antes de agora.',
+        'O português põe muitas vezes o advérbio antes do verbo; o italiano, depois: <span lang="it">faccio sempre colazione</span>, <span lang="it">vado spesso al cinema</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les adverbes de fréquence comparés au français',
+      intro:
+        'Bonne nouvelle : la place de l\'adverbe est la même qu\'en français. <em>Je vais souvent au cinéma</em> → <span lang="it">Vado spesso al cinema</span> ; <em>j\'ai toujours habité</em> → <span lang="it">ho sempre abitato</span>. Et <em>ne … jamais</em> → <strong lang="it">non … mai</strong>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je vais souvent au cinéma.', 'Vado spesso al cinema.'],
+        ['Je ne fume jamais.', 'Non fumo mai.'],
+        ["J'ai toujours habité à Milan.", 'Ho sempre abitato a Milano.'],
+        ['Vous êtes déjà allé à Rome ?', 'È mai stato a Roma?'],
+        ['de temps en temps', 'ogni tanto'],
+      ],
+      points: [
+        'À l\'oral, le français laisse souvent tomber le <em>ne</em> (<em>je fume jamais</em>). En italien, le <strong lang="it">non</strong> ne tombe jamais : <span lang="it">non fumo mai</span>.',
+        'Dans les questions, <em>déjà</em> se traduit par <strong lang="it">mai</strong> : <span lang="it">Sei mai stato a Roma?</span> Avec <span lang="it">già</span> on demande seulement si c\'est déjà arrivé, sans l\'idée de « une fois dans la vie ».',
+        '<em>D\'habitude</em> → <span lang="it">di solito</span>, <em>parfois</em> → <span lang="it">a volte</span>, <em>rarement</em> → <span lang="it">raramente</span> : ces trois-là peuvent aussi ouvrir la phrase, comme en français.',
+      ],
+    },
+    cs: {
+      h2: 'Příslovce frekvence ve srovnání s češtinou',
+      intro:
+        'Dobrá zpráva: dvojí zápor znáte. <em>Nikdy nekouřím</em> → <strong lang="it">Non fumo mai</strong>. Liší se hlavně místo příslovce: česky stojí před slovesem, italsky <strong>za ním</strong>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Často chodím do kina.', 'Vado spesso al cinema.'],
+        ['Nikdy nekouřím.', 'Non fumo mai.'],
+        ['Skoro nikdy nevycházím večer.', 'Non esco quasi mai la sera.'],
+        ['Vždycky jsem bydlel v Miláně.', 'Ho sempre abitato a Milano.'],
+        ['Byl jsi někdy v Římě?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Nikdy</em> stojí česky před slovesem, italské <strong lang="it">mai</strong> za ním. Před sloveso patří <strong lang="it">non</strong>: <span lang="it">non fumo mai</span>.',
+        'Česky <em>někdy</em> znamená „občas“ i „vůbec někdy“. Italsky jsou to dvě slova: <span lang="it">a volte</span> (občas) a <strong lang="it">mai</strong> v otázce (<span lang="it">Sei mai stato a Roma?</span>).',
+        'V minulém čase stojí příslovce mezi pomocným slovesem a příčestím: <span lang="it">ho sempre abitato</span>, <span lang="it">non sono mai stato</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Przysłówki częstotliwości w porównaniu z polskim',
+      intro:
+        'Dobra wiadomość: podwójne przeczenie znasz. <em>Nigdy nie palę</em> → <strong lang="it">Non fumo mai</strong>. Różni się głównie miejsce przysłówka: po polsku stoi przed czasownikiem, po włosku <strong>za nim</strong>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Często chodzę do kina.', 'Vado spesso al cinema.'],
+        ['Nigdy nie palę.', 'Non fumo mai.'],
+        ['Prawie nigdy nie wychodzę wieczorem.', 'Non esco quasi mai la sera.'],
+        ['Zawsze mieszkałem w Mediolanie.', 'Ho sempre abitato a Milano.'],
+        ['Byłeś kiedyś w Rzymie?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Nigdy</em> stoi po polsku przed czasownikiem, włoskie <strong lang="it">mai</strong> za nim. Przed czasownik idzie <strong lang="it">non</strong>: <span lang="it">non fumo mai</span>.',
+        '<em>Kiedyś</em> w pytaniu to <strong lang="it">mai</strong>: <span lang="it">Sei mai stato a Roma?</span> Tutaj <span lang="it">mai</span> nie jest przeczeniem.',
+        'W czasie przeszłym przysłówek stoi między czasownikiem posiłkowym a imiesłowem: <span lang="it">ho sempre abitato</span>, <span lang="it">non sono mai stato</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Sıklık zarfları: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede zarf fiilden önce gelir: <em>Sık sık sinemaya giderim</em>. İtalyancada fiilden <strong>sonra</strong> gelir: <span lang="it">Vado spesso al cinema</span>. <em>Hiç</em> ve olumsuz fiil ise İtalyancadaki <strong lang="it">non … mai</strong> ile aynı mantıktadır.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Sık sık sinemaya giderim.', 'Vado spesso al cinema.'],
+        ['Genellikle saat sekizde akşam yemeği yerim.', 'Di solito ceno alle otto.'],
+        ['Hiç sigara içmem.', 'Non fumo mai.'],
+        ["Hep Milano'da yaşadım.", 'Ho sempre abitato a Milano.'],
+        ["Hiç Roma'ya gittiniz mi?", 'È mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Hiç</em> → <strong lang="it">mai</strong>, fiildeki olumsuzluk eki <em>-me/-ma</em> → <strong lang="it">non</strong>: <em>Hiç içmem</em> → <span lang="it">non fumo mai</span>. Ama <span lang="it">non</span> fiilin önüne, <span lang="it">mai</span> arkasına gelir.',
+        'Sorularda da <em>hiç</em> = <strong lang="it">mai</strong>: <span lang="it">Sei mai stato a Roma?</span> Burada <span lang="it">non</span> yoktur.',
+        'Türkçedeki geniş zaman (<em>giderim</em>, <em>yerim</em>) alışkanlıkları anlatır; İtalyancada bunun için şimdiki zaman kullanılır: <span lang="it">vado</span>, <span lang="it">ceno</span>.',
+      ],
+    },
+    de: {
+      h2: 'Häufigkeitsadverbien im Vergleich zum Deutschen',
+      intro:
+        'Im Hauptsatz steht das Adverb wie im Deutschen nach dem Verb: <em>Ich gehe oft ins Kino</em> → <span lang="it">Vado spesso al cinema</span>. Der große Unterschied ist <em>nie</em>: Das Italienische braucht <strong>zwei</strong> Verneinungen.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich gehe oft ins Kino.', 'Vado spesso al cinema.'],
+        ['Normalerweise esse ich um acht zu Abend.', 'Di solito ceno alle otto.'],
+        ['Ich rauche nie.', 'Non fumo mai.'],
+        ['Ich habe immer in Mailand gewohnt.', 'Ho sempre abitato a Milano.'],
+        ['Warst du schon mal in Rom?', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '<em>Nie</em> wird zu <strong lang="it">non … mai</strong>: <span lang="it">non fumo mai</span>. Ohne <span lang="it">non</span> ist der Satz falsch.',
+        '<em>Schon mal</em> heißt in der Frage <strong lang="it">mai</strong>: <span lang="it">Sei mai stato a Roma?</span> Hier ist <span lang="it">mai</span> keine Verneinung.',
+        'Das Partizip steht nicht am Satzende: <em>Ich habe immer in Mailand gewohnt</em> → <span lang="it">ho sempre abitato a Milano</span>, mit dem Adverb zwischen Hilfsverb und Partizip.',
+      ],
+    },
+    ja: {
+      h2: '頻度の副詞と日本語の「よく・時々・全然」',
+      intro:
+        '日本語では副詞は動詞の前に来ます（<em>よく</em>映画館に行きます）。イタリア語では動詞の<strong>後ろ</strong>です。<span lang="it">Vado spesso al cinema.</span> 「全然〜ない」のように否定の動詞と組む形は、イタリア語の <strong lang="it">non … mai</strong> と同じ考え方です。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['よく映画館に行きます。', 'Vado spesso al cinema.'],
+        ['たいてい八時に晩ご飯を食べます。', 'Di solito ceno alle otto.'],
+        ['たばこは全然吸いません。', 'Non fumo mai.'],
+        ['夜はめったに出かけません。', 'Non esco quasi mai la sera.'],
+        ['ローマに行ったことがありますか。', 'Sei mai stato a Roma?'],
+      ],
+      points: [
+        '否定は二か所に入ります。動詞の前に <strong lang="it">non</strong>、後ろに <strong lang="it">mai</strong>（全然・一度も）。<span lang="it">non fumo mai</span>。',
+        '「〜したことがありますか」は <strong lang="it">mai</strong> を使って言えます。<span lang="it">Sei mai stato a Roma?</span> この <span lang="it">mai</span> は否定ではなく「一度でも」の意味です。',
+        '「めったに〜ない」は <span lang="it">non … quasi mai</span>、「時々」は <span lang="it">a volte</span>、「たまに」は <span lang="it">ogni tanto</span> です。',
+      ],
+    },
+  },
 };
