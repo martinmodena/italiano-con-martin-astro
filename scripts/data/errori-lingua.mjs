@@ -622,4 +622,59 @@ export const ERRORS = {
       ['È freddo oggi.', 'Oggi fa freddo.', '「今日は寒いです」（天気）は <span lang="it">fa freddo</span>。'],
     ],
   },
+
+  'grammatica/a1/verbo-avere.html': {
+    it: [
+      ['Sono fame.', 'Ho fame.', '<em lang="en">I\'m hungry</em> → <strong>avere</strong> + nome.'],
+      ['Ho colazione alle otto.', 'Faccio colazione alle otto.', '<em lang="en">Have breakfast</em> si dice con <strong>fare</strong>.'],
+      ['Sei giusto.', 'Hai ragione.', '<em lang="en">You\'re right</em> → <span lang="it">hai ragione</span>.'],
+      ['O un fratello.', 'Ho un fratello.', 'La <strong>h</strong> non si sente, ma si scrive.'],
+    ],
+    en: [
+      ['Sono fame.', 'Ho fame.', '<em>I\'m hungry</em> → <strong lang="it">avere</strong> + noun.'],
+      ['Ho colazione alle otto.', 'Faccio colazione alle otto.', '<em>Have breakfast</em> uses <strong lang="it">fare</strong>.'],
+      ['Sei giusto.', 'Hai ragione.', '<em>You\'re right</em> → <span lang="it">hai ragione</span>.'],
+      ['O un fratello.', 'Ho un fratello.', 'The <strong>h</strong> is silent, but you must write it.'],
+    ],
+    es: [
+      ['Ho che lavorare.', 'Devo lavorare.', '<em>Tengo que</em> → <strong lang="it">dovere</strong>.'],
+      ['Ha un problema.', "C'è un problema.", '<em>Hay un problema</em> → <span lang="it">c\'è</span>; <span lang="it">ha un problema</span> significa «él tiene un problema».'],
+      ['Lui a un cane.', 'Lui ha un cane.', '<em>Él tiene</em> → <span lang="it">ha</span>, con h; <span lang="it">a</span> es la preposición.'],
+    ],
+    pt: [
+      ['Sono con fame.', 'Ho fame.', '<em>Estou com fome</em> → <strong lang="it">avere</strong>: <span lang="it">ho fame</span>.'],
+      ['Ho che lavorare.', 'Devo lavorare.', '<em>Tenho que</em> → <strong lang="it">dovere</strong>.'],
+      ['Ha un problema.', "C'è un problema.", '<em>Tem um problema</em> (existe) → <span lang="it">c\'è</span>; <span lang="it">ha un problema</span> quer dizer «ele tem um problema».'],
+    ],
+    fr: [
+      ['Ho male alla testa.', 'Ho mal di testa.', '<em>J\'ai mal à la tête</em> → <span lang="it">mal di</span> + partie du corps, sans article.'],
+      ['Ha un libro sul tavolo.', "C'è un libro sul tavolo.", '<em>Il y a</em> → <span lang="it">c\'è</span> ; <span lang="it">ha</span> veut dire « il a ».'],
+      ['Lui a un cane.', 'Lui ha un cane.', '<em>Il a</em> → <span lang="it">ha</span>, avec h ; <span lang="it">a</span> est la préposition.'],
+    ],
+    cs: [
+      ["Mi è trent'anni.", "Ho trent'anni.", '<em>Je mi třicet</em> → <strong lang="it">avere</strong>.'],
+      ['Mi è freddo.', 'Ho freddo.', '<em>Je mi zima</em> → <span lang="it">ho freddo</span>.'],
+      ['O un fratello.', 'Ho un fratello.', '<strong>H</strong> se nevyslovuje, ale píše se.'],
+    ],
+    pl: [
+      ['Sono fame.', 'Ho fame.', '<em>Jestem głodny</em> → <strong lang="it">avere</strong> + rzeczownik: <span lang="it">ho fame</span>.'],
+      ['Mi è freddo.', 'Ho freddo.', '<em>Jest mi zimno</em> → <span lang="it">ho freddo</span>.'],
+      ['O un fratello.', 'Ho un fratello.', '<strong>H</strong> się nie wymawia, ale się ją pisze.'],
+    ],
+    tr: [
+      ["C'è mio fratello.", 'Ho un fratello.', '<em>Bir kardeşim var</em> → <span lang="it">ho un fratello</span>. <span lang="it">C\'è mio fratello</span> «kardeşim burada» demektir.'],
+      ["Sono trent'anni.", "Ho trent'anni.", '<em>Otuz yaşındayım</em> → yaş <strong lang="it">avere</strong> ile söylenir.'],
+      ['Sono giusto.', 'Ho ragione.', '<em>Haklıyım</em> → <span lang="it">ho ragione</span>.'],
+    ],
+    de: [
+      ["Sono trent'anni.", "Ho trent'anni.", '<em>Ich bin dreißig</em> → das Alter mit <strong lang="it">avere</strong>.'],
+      ['Mi è freddo.', 'Ho freddo.', '<em>Mir ist kalt</em> → <span lang="it">ho freddo</span>.'],
+      ['Ho bisogno un caffè.', 'Ho bisogno di un caffè.', '<em>Ich brauche</em> → <span lang="it">ho bisogno <strong>di</strong></span>.'],
+    ],
+    ja: [
+      ["C'è un fratello.", 'Ho un fratello.', '「兄がいます」（家族）は <strong lang="it">avere</strong> です。'],
+      ["C'è una macchina.", 'Ho una macchina.', '「車があります」（持っている）は <span lang="it">ho</span>。<span lang="it">c\'è</span> は「そこに車がある」です。'],
+      ["Sono trent'anni.", "Ho trent'anni.", '「三十歳です」：年齢は <strong lang="it">avere</strong> です。'],
+    ],
+  },
 };

@@ -1862,4 +1862,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/verbo-avere.html': {
+    it: {
+      h2: "Il verbo avere: il confronto con l'inglese",
+      intro:
+        'Molte frasi che in inglese usano <em lang="en">to be</em> + aggettivo in italiano usano <strong>avere</strong> + nome: <em lang="en">I\'m hungry</em> → <span lang="it">ho fame</span> («ho la fame»). E alcune frasi con <em lang="en">have</em> usano <span lang="it">fare</span>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I have a brother.', 'Ho un fratello.'],
+        ["I'm hungry. I'm cold.", 'Ho fame. Ho freddo.'],
+        ["I'm thirty.", "Ho trent'anni."],
+        ["You're right.", 'Hai ragione.'],
+        ['I have breakfast at eight.', 'Faccio colazione alle otto.'],
+      ],
+      points: [
+        '<em lang="en">Hungry, thirsty, cold, hot, afraid, right</em> → <span lang="it">avere fame, sete, freddo, caldo, paura, ragione</span>. E l\'età: <span lang="it">ho trent\'anni</span>.',
+        '<em lang="en">Have breakfast, have a shower</em> → <strong>fare</strong>: <span lang="it">faccio colazione, faccio la doccia</span>. <em lang="en">Have to</em> → <span lang="it">dovere</span>.',
+        'La <strong>h</strong> non si pronuncia ma si scrive: <span lang="it">ho, hai, ha, hanno</span>. Senza h sono altre parole: <span lang="it">o</span> (or), <span lang="it">a</span> (to), <span lang="it">anno</span> (year).',
+      ],
+    },
+    en: {
+      h2: 'The verb avere compared with English',
+      intro:
+        'Many phrases that use <em>to be</em> + adjective in English use <strong lang="it">avere</strong> + noun in Italian: <em>I\'m hungry</em> → <span lang="it">ho fame</span> (“I have hunger”). And some <em>have</em> phrases use <span lang="it">fare</span> (to do).',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I have a brother.', 'Ho un fratello.'],
+        ["I'm hungry. I'm cold.", 'Ho fame. Ho freddo.'],
+        ["I'm thirty.", "Ho trent'anni."],
+        ["You're right.", 'Hai ragione.'],
+        ['I have breakfast at eight.', 'Faccio colazione alle otto.'],
+      ],
+      points: [
+        '<em>Hungry, thirsty, cold, hot, afraid, right</em> → <span lang="it">avere fame, sete, freddo, caldo, paura, ragione</span>. And age: <span lang="it">ho trent\'anni</span>.',
+        '<em>Have breakfast, have a shower</em> → <strong lang="it">fare</strong>: <span lang="it">faccio colazione, faccio la doccia</span>. <em>Have to</em> → <span lang="it">dovere</span>.',
+        'The <strong>h</strong> is silent but written: <span lang="it">ho, hai, ha, hanno</span>. Without it they are different words: <span lang="it">o</span> (or), <span lang="it">a</span> (to), <span lang="it">anno</span> (year).',
+      ],
+    },
+    es: {
+      h2: 'El verbo avere comparado con el español',
+      intro:
+        '<strong lang="it">Avere</strong> es a la vez <em>tener</em> y el auxiliar <em>haber</em>. Las expresiones con <em>tener</em> funcionan igual: <em>tengo hambre</em> → <span lang="it">ho fame</span>, <em>tengo treinta años</em> → <span lang="it">ho trent\'anni</span>. Pero <em>hay</em> y <em>tener que</em> no se dicen con <span lang="it">avere</span>.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Tengo un hermano.', 'Ho un fratello.'],
+        ['Tengo hambre y frío.', 'Ho fame e freddo.'],
+        ['Tengo treinta años.', "Ho trent'anni."],
+        ['Tengo que trabajar.', 'Devo lavorare.'],
+        ['Hay un problema.', "C'è un problema."],
+      ],
+      points: [
+        '<em>Tener que</em> → <strong lang="it">dovere</strong>: <span lang="it">devo lavorare</span>.',
+        '<em>Hay</em> (de <em>haber</em>) no es <span lang="it">ha</span>: se dice <strong lang="it">c\'è / ci sono</strong>.',
+        'La <strong>h</strong> no suena pero se escribe: <span lang="it">ho, hai, ha, hanno</span>. <span lang="it">A</span> sin h es la preposición.',
+      ],
+    },
+    pt: {
+      h2: 'O verbo avere comparado com o português',
+      intro:
+        '<strong lang="it">Avere</strong> corresponde a <em>ter</em>, e muitas expressões funcionam igual: <em>tenho fome</em> → <span lang="it">ho fame</span>, <em>tenho trinta anos</em> → <span lang="it">ho trent\'anni</span>. Mas o <em>tem</em> de existência e o <em>ter que</em> não se dizem com <span lang="it">avere</span>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Tenho um irmão.', 'Ho un fratello.'],
+        ['Estou com fome.', 'Ho fame.'],
+        ['Tenho trinta anos.', "Ho trent'anni."],
+        ['Tenho que trabalhar.', 'Devo lavorare.'],
+        ['Tem um problema.', "C'è un problema."],
+      ],
+      points: [
+        '<em>Estou com fome, com frio, com medo</em> → <strong lang="it">avere</strong>: <span lang="it">ho fame, ho freddo, ho paura</span>.',
+        '<em>Ter que</em> → <strong lang="it">dovere</strong>: <span lang="it">devo lavorare</span>. <em>Tem um problema</em> (existe) → <span lang="it">c\'è un problema</span>.',
+        'O <strong>h</strong> não se pronuncia mas se escreve: <span lang="it">ho, hai, ha, hanno</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Le verbe avere comparé au français',
+      intro:
+        'Bonne nouvelle : <strong lang="it">avere</strong> s\'utilise presque comme <em>avoir</em>. <em>J\'ai faim, j\'ai froid, j\'ai vingt ans, j\'ai raison</em> → <span lang="it">ho fame, ho freddo, ho vent\'anni, ho ragione</span>. Attention seulement à quelques expressions et à l\'orthographe.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ["J'ai un frère.", 'Ho un fratello.'],
+        ["J'ai faim et froid.", 'Ho fame e freddo.'],
+        ["J'ai mal à la tête.", 'Ho mal di testa.'],
+        ["J'ai envie d'une glace.", 'Ho voglia di un gelato.'],
+        ['Il y a un livre.', "C'è un libro."],
+      ],
+      points: [
+        '<em>Avoir mal à</em> → <span lang="it">avere mal di</span> : <span lang="it">ho mal di testa, ho mal di denti</span>.',
+        '<em>Il y a</em> ne se dit pas avec <span lang="it">avere</span> : <span lang="it">c\'è, ci sono</span>.',
+        'Le <strong>h</strong> est muet mais s\'écrit : <span lang="it">ho, hai, ha, hanno</span>. <em>Il a</em> → <span lang="it">ha</span> ; <span lang="it">a</span> sans h est la préposition.',
+      ],
+    },
+    cs: {
+      h2: 'Sloveso avere ve srovnání s češtinou',
+      intro:
+        '<strong lang="it">Avere</strong> je <em>mít</em> a mnoho vazeb je stejných: <em>mám hlad</em> → <span lang="it">ho fame</span>, <em>máš pravdu</em> → <span lang="it">hai ragione</span>. Tam, kde čeština říká <em>je mi</em>, italština také používá <span lang="it">avere</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Mám bratra.', 'Ho un fratello.'],
+        ['Mám hlad.', 'Ho fame.'],
+        ['Je mi třicet let.', "Ho trent'anni."],
+        ['Je mi zima.', 'Ho freddo.'],
+        ['Mám rád kávu.', 'Mi piace il caffè.'],
+      ],
+      points: [
+        '<em>Je mi třicet</em>, <em>je mi zima</em>, <em>je mi horko</em> → <strong lang="it">ho trent\'anni, ho freddo, ho caldo</strong>.',
+        '<em>Mám rád</em> se nepřekládá s <span lang="it">avere</span>: <em>mám rád kávu</em> → <span lang="it">mi piace il caffè</span>.',
+        '<strong>H</strong> se nevyslovuje, ale píše: <span lang="it">ho, hai, ha, hanno</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Czasownik avere w porównaniu z polskim',
+      intro:
+        '<strong lang="it">Avere</strong> to <em>mieć</em>, a wiek wyraża się tak samo: <em>mam trzydzieści lat</em> → <span lang="it">ho trent\'anni</span>. Ale tam, gdzie polski używa przymiotnika albo <em>jest mi</em>, włoski też używa <span lang="it">avere</span>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Mam brata.', 'Ho un fratello.'],
+        ['Mam trzydzieści lat.', "Ho trent'anni."],
+        ['Jestem głodny.', 'Ho fame.'],
+        ['Jest mi zimno.', 'Ho freddo.'],
+        ['Boję się.', 'Ho paura.'],
+      ],
+      points: [
+        '<em>Jestem głodny, spragniony</em> → <strong lang="it">ho fame, ho sete</strong>: dosłownie „mam głód, mam pragnienie”.',
+        '<em>Jest mi zimno, gorąco</em> → <span lang="it">ho freddo, ho caldo</span>; <em>boję się</em> → <span lang="it">ho paura</span>; <em>masz rację</em> → <span lang="it">hai ragione</span>.',
+        '<strong>H</strong> się nie wymawia, ale pisze: <span lang="it">ho, hai, ha, hanno</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Avere fiili: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede «sahip olmak» genellikle <em>var</em> ve iyelik ekiyle söylenir: <em>bir kardeşim var</em>. İtalyancada bunun için bir fiil vardır: <strong lang="it">avere</strong> — <span lang="it">ho un fratello</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Bir kardeşim var.', 'Ho un fratello.'],
+        ['Acıktım.', 'Ho fame.'],
+        ['Otuz yaşındayım.', "Ho trent'anni."],
+        ['Üşüyorum.', 'Ho freddo.'],
+        ['Haklısın.', 'Hai ragione.'],
+      ],
+      points: [
+        '<em>Bir kardeşim var</em> → <strong lang="it">ho</strong> un fratello. <span lang="it">C\'è</span> sadece bir şeyin bir yerde bulunduğunu söyler.',
+        'Açlık, susuzluk, soğuk, sıcak, korku ve yaş için de <span lang="it">avere</span> kullanılır: <span lang="it">ho fame, ho sete, ho freddo, ho paura, ho trent\'anni</span>.',
+        '<strong>H</strong> okunmaz ama yazılır: <span lang="it">ho, hai, ha, hanno</span>.',
+      ],
+    },
+    de: {
+      h2: 'Das Verb avere im Vergleich zum Deutschen',
+      intro:
+        'Gute Nachricht: <strong lang="it">avere</strong> funktioniert oft wie <em>haben</em>, auch bei <em>Hunger, Durst, Angst</em> und <em>recht haben</em>. Anders ist es beim Alter und bei <em>mir ist kalt</em>: Auch dort steht <span lang="it">avere</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich habe einen Bruder.', 'Ho un fratello.'],
+        ['Ich habe Hunger.', 'Ho fame.'],
+        ['Ich bin dreißig.', "Ho trent'anni."],
+        ['Mir ist kalt.', 'Ho freddo.'],
+        ['Ich brauche einen Kaffee.', 'Ho bisogno di un caffè.'],
+      ],
+      points: [
+        '<em>Ich bin dreißig</em> → <span lang="it">ho trent\'anni</span>; <em>mir ist kalt / warm</em> → <span lang="it">ho freddo / caldo</span>.',
+        '<em>Brauchen</em> → <span lang="it">avere bisogno <strong>di</strong></span>: <span lang="it">ho bisogno di un caffè</span>.',
+        'Das <strong>h</strong> wird nicht gesprochen, aber geschrieben: <span lang="it">ho, hai, ha, hanno</span>.',
+      ],
+    },
+    ja: {
+      h2: 'avere と日本語の「ある・いる」',
+      intro:
+        '日本語では「兄がいます」「車があります」と言いますが、イタリア語では持っていることを <strong lang="it">avere</strong> で表します。<span lang="it">ho un fratello</span>、<span lang="it">ho una macchina</span>。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['兄がいます。', 'Ho un fratello.'],
+        ['車があります。', 'Ho una macchina.'],
+        ['お腹がすきました。', 'Ho fame.'],
+        ['三十歳です。', "Ho trent'anni."],
+        ['頭が痛いです。', 'Ho mal di testa.'],
+      ],
+      points: [
+        '自分の家族や持ち物の「いる・ある」は <strong lang="it">avere</strong> です。<span lang="it">c\'è</span> は「（ある場所に）ある」です。',
+        '空腹、のどの渇き、寒さ、暑さ、怖さ、年齢も <span lang="it">avere</span>：<span lang="it">ho fame, ho sete, ho freddo, ho caldo, ho paura, ho trent\'anni</span>。',
+        '<strong>h</strong> は発音しませんが書きます。<span lang="it">ho, hai, ha, hanno</span>。',
+      ],
+    },
+  },
 };
