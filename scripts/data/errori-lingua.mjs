@@ -218,4 +218,60 @@ export const ERRORS = {
       ['Studio italiano da due anni fa.', 'Studio italiano da due anni.', '「二年前から」の「前」は訳しません。<span lang="it">fa</span> は終わったことにだけ使います。'],
     ],
   },
+
+  'grammatica/a1/avverbi-di-frequenza.html': {
+    it: [
+      ['Io sempre faccio colazione.', 'Faccio sempre colazione.', '<em lang="en">I always have</em>: in inglese l\'avverbio va prima del verbo, in italiano <strong>dopo</strong>.'],
+      ['Fumo mai.', 'Non fumo mai.', '<em lang="en">I never smoke</em> ha una negazione sola; in italiano ne servono due: <strong>non … mai</strong>.'],
+      ['Non mai fumo.', 'Non fumo mai.', '<span lang="it">Non</span> va prima del verbo, <span lang="it">mai</span> dopo.'],
+      ['Usualmente ceno alle otto.', 'Di solito ceno alle otto.', '<em lang="en">Usually</em> si dice <strong>di solito</strong>; <span lang="it">usualmente</span> è rarissimo.'],
+    ],
+    en: [
+      ['Io sempre faccio colazione.', 'Faccio sempre colazione.', '<em>I always have</em>: English puts the adverb before the verb, Italian puts it <strong>after</strong>.'],
+      ['Fumo mai.', 'Non fumo mai.', '<em>I never smoke</em> has one negative; Italian needs two: <strong lang="it">non … mai</strong>.'],
+      ['Non mai fumo.', 'Non fumo mai.', '<span lang="it">Non</span> goes before the verb, <span lang="it">mai</span> after it.'],
+      ['Usualmente ceno alle otto.', 'Di solito ceno alle otto.', '<em>Usually</em> is <strong lang="it">di solito</strong>; <span lang="it">usualmente</span> is very rare.'],
+    ],
+    es: [
+      ['Mai fumo.', 'Non fumo mai.', 'Calco de <em>nunca fumo</em>. En italiano: <strong lang="it">non</strong> delante del verbo y <span lang="it">mai</span> detrás, como <em>no fumo nunca</em>.'],
+      ['Quasi mai esco la sera.', 'Non esco quasi mai la sera.', '<em>Casi nunca salgo</em> → igual que con <span lang="it">mai</span>: <span lang="it">non</span> + verbo + <span lang="it">quasi mai</span>.'],
+      ['Sempre faccio colazione.', 'Faccio sempre colazione.', '<em>Siempre desayuno</em>: en italiano el adverbio va detrás del verbo.'],
+    ],
+    pt: [
+      ['Mai fumo.', 'Non fumo mai.', 'Decalque de <em>nunca fumo</em>. Em italiano: <strong lang="it">non</strong> antes do verbo e <span lang="it">mai</span> depois.'],
+      ['Quasi mai esco la sera.', 'Non esco quasi mai la sera.', '<em>Quase nunca saio</em> → <span lang="it">non</span> + verbo + <span lang="it">quasi mai</span>.'],
+      ['Sempre faccio colazione.', 'Faccio sempre colazione.', '<em>Sempre tomo café</em>: em italiano o advérbio vai depois do verbo.'],
+    ],
+    fr: [
+      ['Fumo mai.', 'Non fumo mai.', 'À l\'oral on dit <em>je fume jamais</em> ; en italien le <strong lang="it">non</strong> ne tombe jamais.'],
+      ['Esco quasi mai la sera.', 'Non esco quasi mai la sera.', '<em>Je sors presque jamais</em> : même chose, il faut <span lang="it">non</span>.'],
+      ["D'abitudine ceno alle otto.", 'Di solito ceno alle otto.', '<em>D\'habitude</em> se dit <strong lang="it">di solito</strong>.'],
+      ['Esco raremente.', 'Esco raramente.', 'Attention à l\'orthographe : <em>rarement</em> → <strong lang="it">raramente</strong>.'],
+    ],
+    cs: [
+      ['Mai non fumo.', 'Non fumo mai.', '<em>Nikdy nekouřím</em>: dvojí zápor máte správně, jen pořadí je jiné. <span lang="it">Non</span> před slovesem, <span lang="it">mai</span> za ním.'],
+      ['Io sempre mi alzo alle sette.', 'Mi alzo sempre alle sette.', '<em>Vždycky vstávám</em>: italské příslovce stojí za slovesem.'],
+      ['Sei a volte stato a Roma?', 'Sei mai stato a Roma?', '<em>Byl jsi někdy…?</em> — toto <em>někdy</em> neznamená „občas“ (<span lang="it">a volte</span>), ale <strong lang="it">mai</strong>.'],
+    ],
+    pl: [
+      ['Mai non fumo.', 'Non fumo mai.', '<em>Nigdy nie palę</em>: podwójne przeczenie jest dobrze, tylko kolejność inna. <span lang="it">Non</span> przed czasownikiem, <span lang="it">mai</span> za nim.'],
+      ['Io sempre mi alzo alle sette.', 'Mi alzo sempre alle sette.', '<em>Zawsze wstaję</em>: włoski przysłówek stoi za czasownikiem.'],
+      ['Sei a volte stato a Roma?', 'Sei mai stato a Roma?', '<em>Byłeś kiedyś…?</em> — to <em>kiedyś</em> to nie „czasem” (<span lang="it">a volte</span>), tylko <strong lang="it">mai</strong>.'],
+    ],
+    tr: [
+      ['Mai fumo.', 'Non fumo mai.', '<em>Hiç içmem</em>: <em>hiç</em> = <span lang="it">mai</span>, olumsuzluk eki = <strong lang="it">non</strong>. İkisi de gerekir.'],
+      ['Io spesso al cinema vado.', 'Vado spesso al cinema.', 'Fiil sona gelmez; zarf fiilden sonra gelir.'],
+      ['Non mai sono stato a Roma.', 'Non sono mai stato a Roma.', 'Geçmiş zamanda <span lang="it">mai</span> yardımcı fiil ile ortaç arasına gelir: <span lang="it">sono mai stato</span>.'],
+    ],
+    de: [
+      ['Fumo mai.', 'Non fumo mai.', '<em>Ich rauche nie</em> hat eine Verneinung; im Italienischen braucht es zwei: <strong lang="it">non … mai</strong>.'],
+      ['Non mai sono stato a Roma.', 'Non sono mai stato a Roma.', 'Das Adverb steht zwischen Hilfsverb und Partizip: <span lang="it">sono mai stato</span>.'],
+      ['Ho abitato a Milano sempre.', 'Ho sempre abitato a Milano.', 'Das Adverb steht zwischen Hilfsverb und Partizip, nicht am Ende.'],
+    ],
+    ja: [
+      ['Fumo mai.', 'Non fumo mai.', '「全然吸いません」の「ません」にあたる <strong lang="it">non</strong> も必要です。'],
+      ['Spesso al cinema vado.', 'Vado spesso al cinema.', '動詞は最後に来ません。副詞は動詞のあとです。'],
+      ['Non mai sono stato a Roma.', 'Non sono mai stato a Roma.', '過去形では <span lang="it">mai</span> は助動詞と過去分詞の間に入ります。<span lang="it">sono mai stato</span>。'],
+    ],
+  },
 };
