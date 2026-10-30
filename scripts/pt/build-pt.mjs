@@ -260,7 +260,8 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
       const b = bare(key);
       // Nelle schede del vocabolario anche la parola del titolo è italiana («la casa»).
       const wordTitle = /^h[23]$/.test(el.name) && $(el).closest('.word-card').length;
-      if (itSet.has(b) && (wordTitle || (b.match(/\p{L}+/gu) || []).length >= 3 || /___|\d/.test(b))) return;
+      // Le frasi di storie-pt.mjs si traducono sempre, anche quando spagnolo e italiano coincidono («avere + participio»).
+      if (!dict.storyKeys.has(norm(key)) && itSet.has(b) && (wordTitle || (b.match(/\p{L}+/gu) || []).length >= 3 || /___|\d/.test(b))) return;
       const out = translate(key, where);
       if (out !== key) $(el).html(fromPlaceholders(out, hrefs));
     },

@@ -24,10 +24,43 @@
 import { readFileSync, existsSync, appendFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { STORIE } from '../data/storie-it.mjs';
+import { STORIE_I18N, ORIGINI } from '../data/storie-i18n.mjs';
+import { STORIE_PT } from '../data/storie-pt.mjs';
 
 const ROOT = process.cwd();
 const FILE = path.join(ROOT, 'scripts/data/pt/dicionario.txt');
 const norm = (s) => s.replace(/\s+/g, ' ').trim();
+
+// Le favole straniere (2026-10-30): le frasi portoghesi stanno in storie-pt.mjs, scritte per chi parla
+// portoghese; qui si abbinano a quelle spagnole, comprese le righe che create-science-stories.mjs compone.
+function addStories(exact, keys) {
+  const set = (es, pt) => (exact.set(norm(es), norm(pt)), keys.add(norm(es)));
+  const it = (s) => s.replace(/<it>/g, '<span lang="it">').replace(/<\/it>/g, '</span>');
+  const amp = (s) => s.replace(/ & /g, ' &amp; ');
+  const wordLine = (lv, words) => lv.words.map((w, i) => `<span lang="it">${w}</span> = ${it(words[i])}`).join('<br>');
+  for (const r of STORIE) {
+    const P = STORIE_PT[r.key];
+    if (!P) continue;
+    const E = STORIE_I18N[r.key].es;
+    for (const k of ['title', 'seoTitle', 'seoDesc', 'lead', 'hook', 'alt']) set(E[k], P[k]);
+    const levels = r.levels.map((l) => l.id.toUpperCase()).join(' · ');
+    const [from, to] = [ORIGINI.es[r.origin], ORIGINI.pt[r.origin]];
+    set(`${from} · ${levels}`, `${to} · ${levels}`);
+    set(`Cuento · ${from} · ${levels}`, `Conto · ${to} · ${levels}`);
+    for (const l of r.levels) set(`Cuento · ${from} · ${l.id.toUpperCase()}`, `Conto · ${to} · ${l.id.toUpperCase()}`);
+    for (const lv of r.levels) {
+      const [e, p] = [E[lv.id], P[lv.id]];
+      set(it(e.focus), it(p.focus));
+      set(e.hook, p.hook);
+      lv.box.forEach((l, i) => set(`<span lang="it">${amp(l)}</span> → ${it(e.box[i])}`, `<span lang="it">${amp(l)}</span> → ${it(p.box[i])}`));
+      set(`${e.tryLabel} <span lang="it"><em>${lv.tryIt}</em></span>`, `${p.tryLabel} <span lang="it"><em>${lv.tryIt}</em></span>`);
+      set(`Repasa: <a href="§1">${e.link}</a>`, `Revise: <a href="§1">${p.link}</a>`);
+      set(wordLine(lv, e.words), wordLine(lv, p.words));
+      (e.q || []).forEach((q, i) => set(q, p.q[i]));
+    }
+  }
+}
 
 export function loadDictionary() {
   const exact = new Map();
@@ -44,8 +77,11 @@ export function loadDictionary() {
       else exact.set(norm(src.slice(4)), value);
     }
   }
+  const storyKeys = new Set();
+  addStories(exact, storyKeys);
   return {
     size: exact.size + patterns.length,
+    storyKeys,
     lookup(key) {
       if (exact.has(key)) return exact.get(key);
       for (const [re, value] of patterns) if (re.test(key)) return key.replace(re, value);

@@ -15684,3 +15684,6 @@ pt: A concentração perdida (e como recuperá-la). Leitura em italiano A1–C1 
 
 es: Lectura en italiano A1–C1 sobre la concentración: por qué una notificación nos distrae aunque no la miremos, cuánto cuesta una interrupción, qué es el flow, los mitos que hay que desmontar y los remedios que funcionan, del móvil en blanco y negro a la técnica pomodoro. Adverbios de frecuencia, passato prossimo, condicional, periodo hipotético, voz pasiva, preguntas y PDF gratis.
 pt: Leitura em italiano A1–C1 sobre a concentração: por que uma notificação nos distrai mesmo quando não olhamos para ela, quanto custa uma interrupção, o que é o flow, os mitos que precisam ser desfeitos e os remédios que funcionam, do celular em preto e branco à técnica pomodoro. Advérbios de frequência, passato prossimo, condicional, período hipotético, voz passiva, perguntas e PDF grátis.
+
+re: ^Estructura: (<span lang="it">.*</span>)$
+pt: Estrutura: $1

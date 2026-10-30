@@ -17,15 +17,16 @@ export const STORIE_UI = {
 
 // Paese d'origine delle favole straniere (campo «origin» in storie-it.mjs), nell'occhiello e nelle tessere.
 export const ORIGINI = {
-  it: { tr: 'Dalla Turchia', ja: 'Dal Giappone', pl: 'Dalla Polonia', cs: 'Dalla Repubblica Ceca', de: 'Dalla Germania', fr: 'Dalla Francia', es: 'Dalla Spagna', en: 'Dal mondo inglese' },
-  en: { tr: 'From Turkey', ja: 'From Japan', pl: 'From Poland', cs: 'From the Czech Republic', de: 'From Germany', fr: 'From France', es: 'From Spain', en: 'From the English-speaking world' },
-  es: { tr: 'De Turquía', ja: 'De Japón', pl: 'De Polonia', cs: 'De Chequia', de: 'De Alemania', fr: 'De Francia', es: 'De España', en: 'Del mundo anglosajón' },
-  fr: { tr: 'De Turquie', ja: 'Du Japon', pl: 'De Pologne', cs: 'De Tchéquie', de: 'D’Allemagne', fr: 'De France', es: 'D’Espagne', en: 'Du monde anglophone' },
-  cs: { tr: 'Z Turecka', ja: 'Z Japonska', pl: 'Z Polska', cs: 'Z Česka', de: 'Z Německa', fr: 'Z Francie', es: 'Ze Španělska', en: 'Z anglicky mluvícího světa' },
-  pl: { tr: 'Z Turcji', ja: 'Z Japonii', pl: 'Z Polski', cs: 'Z Czech', de: 'Z Niemiec', fr: 'Z Francji', es: 'Z Hiszpanii', en: 'Z krajów anglojęzycznych' },
-  tr: { tr: 'Türkiye’den', ja: 'Japonya’dan', pl: 'Polonya’dan', cs: 'Çekya’dan', de: 'Almanya’dan', fr: 'Fransa’dan', es: 'İspanya’dan', en: 'İngilizce konuşulan dünyadan' },
-  de: { tr: 'Aus der Türkei', ja: 'Aus Japan', pl: 'Aus Polen', cs: 'Aus Tschechien', de: 'Aus Deutschland', fr: 'Aus Frankreich', es: 'Aus Spanien', en: 'Aus dem englischen Sprachraum' },
-  ja: { tr: 'トルコのお話', ja: '日本の昔話', pl: 'ポーランドのお話', cs: 'チェコのお話', de: 'ドイツのお話', fr: 'フランスのお話', es: 'スペインのお話', en: '英語圏のお話' },
+  it: { tr: 'Dalla Turchia', ja: 'Dal Giappone', pl: 'Dalla Polonia', cs: 'Dalla Repubblica Ceca', de: 'Dalla Germania', fr: 'Dalla Francia', es: 'Dalla Spagna', en: 'Dal mondo inglese', br: 'Dal Brasile' },
+  en: { tr: 'From Turkey', ja: 'From Japan', pl: 'From Poland', cs: 'From the Czech Republic', de: 'From Germany', fr: 'From France', es: 'From Spain', en: 'From the English-speaking world', br: 'From Brazil' },
+  es: { tr: 'De Turquía', ja: 'De Japón', pl: 'De Polonia', cs: 'De Chequia', de: 'De Alemania', fr: 'De Francia', es: 'De España', en: 'Del mundo anglosajón', br: 'De Brasil' },
+  fr: { tr: 'De Turquie', ja: 'Du Japon', pl: 'De Pologne', cs: 'De Tchéquie', de: 'D’Allemagne', fr: 'De France', es: 'D’Espagne', en: 'Du monde anglophone', br: 'Du Brésil' },
+  cs: { tr: 'Z Turecka', ja: 'Z Japonska', pl: 'Z Polska', cs: 'Z Česka', de: 'Z Německa', fr: 'Z Francie', es: 'Ze Španělska', en: 'Z anglicky mluvícího světa', br: 'Z Brazílie' },
+  pl: { tr: 'Z Turcji', ja: 'Z Japonii', pl: 'Z Polski', cs: 'Z Czech', de: 'Z Niemiec', fr: 'Z Francji', es: 'Z Hiszpanii', en: 'Z krajów anglojęzycznych', br: 'Z Brazylii' },
+  tr: { tr: 'Türkiye’den', ja: 'Japonya’dan', pl: 'Polonya’dan', cs: 'Çekya’dan', de: 'Almanya’dan', fr: 'Fransa’dan', es: 'İspanya’dan', en: 'İngilizce konuşulan dünyadan', br: 'Brezilya’dan' },
+  de: { tr: 'Aus der Türkei', ja: 'Aus Japan', pl: 'Aus Polen', cs: 'Aus Tschechien', de: 'Aus Deutschland', fr: 'Aus Frankreich', es: 'Aus Spanien', en: 'Aus dem englischen Sprachraum', br: 'Aus Brasilien' },
+  ja: { tr: 'トルコのお話', ja: '日本の昔話', pl: 'ポーランドのお話', cs: 'チェコのお話', de: 'ドイツのお話', fr: 'フランスのお話', es: 'スペインのお話', en: '英語圏のお話', br: 'ブラジルのお話' },
+  pt: { tr: 'Da Turquia', ja: 'Do Japão', pl: 'Da Polônia', cs: 'Da Tchéquia', de: 'Da Alemanha', fr: 'Da França', es: 'Da Espanha', en: 'Do mundo anglófono', br: 'Do Brasil' },
 };
 
 export const STORIE_I18N = {
