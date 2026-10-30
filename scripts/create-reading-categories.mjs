@@ -73,11 +73,16 @@ function categoryOf(key) {
 
 const TILE_RE = /<a class="story-tile" href="([^"]*)">(?:(?!<\/a>)[^])*?<\/a>/g;
 const levelsIn = (badge) => badge.match(/\b[ABC][12]\b/g) || [];
+// Le favole straniere hanno il Paese d'origine prima dei livelli («Dalla Turchia · A1»): si conserva.
+const originOf = (tile) => {
+  const first = ((tile.match(/<span class="badge">([^<]*)/) || [, ''])[1]).split(' · ')[0];
+  return first && !/^[ABC][12]$/.test(first) ? first + ' · ' : '';
+};
 
 // Tessera con link assoluto, immagine con il prefisso giusto ed etichetta della categoria.
 function retile(tile, href, cat, lang, pre, badgeLevels, anchor = '') {
   let t = tile.replace(/href="[^"]*"/, `href="${href}${anchor}"`).replace(/src="(?:\.\.\/)*assets\//, `src="${pre}assets/`);
-  const label = cat === 'favole' ? '' : CATEGORIES[cat][lang].badge + ' · ';
+  const label = cat === 'favole' ? originOf(t) : CATEGORIES[cat][lang].badge + ' · ';
   t = t.replace(/<span class="badge">[^<]*<\/span>/, `<span class="badge">${label}${badgeLevels.join(' · ')}</span>`);
   return t;
 }
@@ -312,7 +317,7 @@ function fixLevelIndex(lang, lv) {
     const key = keyOf[resolve(href, url).replace(/#.*$/, '')];
     if (!key) return m;
     const cat = categoryOf(key);
-    const label = cat === 'favole' ? '' : CATEGORIES[cat][lang].badge + ' · ';
+    const label = cat === 'favole' ? originOf(m) : CATEGORIES[cat][lang].badge + ' · ';
     return start + label + levelsIn(badge).join(' · ') + end;
   });
   write(p, fixLevelNav(h, indexUrl[lang]));

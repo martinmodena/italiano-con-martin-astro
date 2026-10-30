@@ -15,6 +15,19 @@ export const STORIE_UI = {
   ja: { favole: '童話', cultura: '文化' },
 };
 
+// Paese d'origine delle favole straniere (campo «origin» in storie-it.mjs), nell'occhiello e nelle tessere.
+export const ORIGINI = {
+  it: { tr: 'Dalla Turchia', ja: 'Dal Giappone' },
+  en: { tr: 'From Turkey', ja: 'From Japan' },
+  es: { tr: 'De Turquía', ja: 'De Japón' },
+  fr: { tr: 'De Turquie', ja: 'Du Japon' },
+  cs: { tr: 'Z Turecka', ja: 'Z Japonska' },
+  pl: { tr: 'Z Turcji', ja: 'Z Japonii' },
+  tr: { tr: 'Türkiye’den', ja: 'Japonya’dan' },
+  de: { tr: 'Aus der Türkei', ja: 'Aus Japan' },
+  ja: { tr: 'トルコのお話', ja: '日本の昔話' },
+};
+
 export const STORIE_I18N = {
   // ------------------------------------------------------------------ anatroccolo
   anatroccolo: {

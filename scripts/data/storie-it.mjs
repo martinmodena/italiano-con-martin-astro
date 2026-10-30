@@ -234,6 +234,7 @@ export const STORIE = [
   {
     key: 'pentola',
     section: 'favole',
+    origin: 'tr',
     topIn: ['tr'],
     file: 'favole/la-pentola-che-ha-partorito',
     image: 'story-pentola-nasreddin',
@@ -326,6 +327,7 @@ export const STORIE = [
   {
     key: 'mantello',
     section: 'favole',
+    origin: 'tr',
     topIn: ['tr'],
     file: 'favole/mangia-mantello-mio',
     image: 'story-mantello-nasreddin',

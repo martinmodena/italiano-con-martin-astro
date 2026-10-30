@@ -29,3 +29,12 @@ ricamato, per rispetto dei lettori vegani. Niente cibo visibile: la scodella è 
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated folk tale book, warm evening lantern light, no black outlines. A festive courtyard of a wealthy old Anatolian house with carpets, cushions, hanging lanterns and arches. In the centre, a cheerful elderly man with a short white beard and a large white turban, wearing a splendid long red cloth coat embroidered with gold (no fur), sits on a cushion and politely holds the end of his wide sleeve over a large covered copper bowl, with a playful, wise smile, as if offering it a meal. Around him, well-dressed guests in modest long traditional clothes stare at him in astonishment, one with his mouth open, the host in an elegant waistcoat raising his hands in surprise. Humorous, gentle, folk-tale atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no visible food.
 ```
+
+## 3. `story-topolina-giappone` — «Il matrimonio della topolina» (ねずみの嫁入り, Giappone)
+
+Papà e mamma topo con la figlia davanti al vecchio muro di terra, con il sole e la nuvola in
+cielo: il viaggio per trovare lo sposo «più forte del mondo».
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft watercolour textures, gentle morning light, no black outlines. A traditional Japanese countryside scene: an old earthen wall with a wooden roof and a small round hole at its base, a thatched farmhouse and rice fields in the background, a big friendly sun and a fluffy white cloud in a pale blue sky, a soft breeze bending the grasses. In the foreground a small family of grey mice dressed in simple Japanese kimono: a father mouse and a mother mouse proudly presenting their pretty young daughter in a pink kimono with a flower in her hair; from the hole in the wall a shy young mouse in a plain blue kimono peeks out and smiles at her. Gentle, humorous, heart-warming atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
+```

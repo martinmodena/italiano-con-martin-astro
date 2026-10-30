@@ -16,6 +16,7 @@ import {
   STORIES,
   isFable,
   sectionLabel,
+  originLabel,
   scienceUrl,
   scienceText,
   scienceLevel,
@@ -300,7 +301,7 @@ function levelPage(lang, level) {
     if (kind === 'science' || kind === 'sfable') {
       const r = STORIES.find((x) => x.key === key);
       const s = scienceTile(r, lang, level);
-      return `<a class="story-tile" href="${s.url}#${level}"><img src="${pre}assets/${r.image}-card.webp" alt="${esc(s.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${sectionLabel(r, lang)} · ${level.toUpperCase()}</span>
+      return `<a class="story-tile" href="${s.url}#${level}"><img src="${pre}assets/${r.image}-card.webp" alt="${esc(s.alt)}" loading="lazy" width="640" height="360" decoding="async"><span class="badge">${sectionLabel(r, lang)} · ${originLabel(r, lang)}${level.toUpperCase()}</span>
                 <h2>${s.title}</h2>
                 <span class="tile-meta">${h.meta(s.words, s.minutes)}</span>
                 <p>${s.hook}</p>

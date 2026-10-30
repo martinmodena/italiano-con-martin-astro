@@ -12,7 +12,7 @@ import path from 'path';
 import { SCIENZA } from './data/scienza-it.mjs';
 import { SCIENZA_UI, SCIENZA_I18N } from './data/scienza-i18n.mjs';
 import { STORIE } from './data/storie-it.mjs';
-import { STORIE_UI, STORIE_I18N } from './data/storie-i18n.mjs';
+import { STORIE_UI, STORIE_I18N, ORIGINI } from './data/storie-i18n.mjs';
 import { T } from './data/letture-livelli-i18n.mjs';
 
 const SITE = 'https://italianoconmartin.com';
@@ -69,6 +69,8 @@ export const scienceLevel = (r, lang, id) =>
 // Categoria nell'occhiello e nelle tessere: «Scienza», «Fiaba», «Cultura»…
 export const sectionLabel = (r, lang) => (r.section ? STORIE_UI[lang][r.section] : SCIENZA_UI[lang].science);
 export const levelsLabel = (r) => r.levels.map((l) => l.id.toUpperCase()).join(' · ');
+// Favole straniere: il Paese d'origine prima dei livelli («Dalla Turchia · A1 · A2»), su richiesta di Martin.
+export const originLabel = (r, lang) => (r.origin ? `${ORIGINI[lang][r.origin]} · ` : '');
 
 const urlsOf = (r) => Object.fromEntries(ALL.map((l) => [l, scienceUrl(r, l)]));
 const options = (urls, current) =>
@@ -161,7 +163,7 @@ function page(r, lang) {
       <p class="breadcrumbs"><a href="${home(lang)}">${t.home}</a> / ${crumb} / ${x.title}</p>
       <div class="story-hero-grid">
         <div>
-          <p class="eyebrow">${sectionLabel(r, lang)} · ${levelsLabel(r)}</p>
+          <p class="eyebrow">${sectionLabel(r, lang)} · ${originLabel(r, lang)}${levelsLabel(r)}</p>
           <h1>${x.title}</h1>
           <p class="lead">${x.lead}</p>
           <div class="level-nav">${r.levels.map((l) => `<a href="#${l.id}">${l.id.toUpperCase()}</a>`).join('')}</div><div class="pdf-downloads pdf-downloads-complete" aria-label="${t.pdfAria}"><a class="button secondary" href="/pdf/${lang}/${slug}-all-levels.pdf" download="">${t.pdfAll}</a></div>
@@ -267,7 +269,11 @@ function indexTiles(lang) {
     const emp = path.basename(emperorUrl[lang]);
     for (const r of STORIE.filter(isFable).reverse()) {
       const file = path.basename(scienceUrl(r, lang));
-      if (html.includes(`${file}"`)) continue;
+      if (html.includes(`${file}"`)) {
+        // tessera già presente: si aggiorna solo l'etichetta (origine e livelli)
+        html = html.replace(new RegExp(`(<a class="story-tile" href="[^"]*${file}">(?:(?!</a>)[^])*?<span class="badge">)[^<]*`), `$1${originLabel(r, lang)}${levelsLabel(r)}`);
+        continue;
+      }
       const m = html.match(new RegExp(`<a class="story-tile" href="[^"]*${emp}">(?:(?!</a>)[^])*?</a>`));
       if (!m) throw new Error(`${lang}: tessera dell'imperatore non trovata`);
       const x = scienceText(r, lang);
@@ -275,7 +281,7 @@ function indexTiles(lang) {
         .replace(emp, file)
         .replace(/src="([^"]*\/)[^"/]*"/, `src="$1${r.image}-card.webp"`)
         .replace(/alt="[^"]*"/, `alt="${esc(x.alt)}"`)
-        .replace(/<span class="badge">[^<]*/, `<span class="badge">${levelsLabel(r)}`)
+        .replace(/<span class="badge">[^<]*/, `<span class="badge">${originLabel(r, lang)}${levelsLabel(r)}`)
         .replace(/<h2>[^]*?<\/h2>/, `<h2>${x.title}</h2>`)
         .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
       // Favole straniere (2026-10-30): nella lingua del loro Paese vanno in cima all'elenco.
