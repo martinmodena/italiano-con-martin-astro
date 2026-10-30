@@ -446,6 +446,7 @@ export const STORIE = [
           'Allora vanno dal vento. Il vento è veloce, freddo e rumoroso. «Vento, tu sei forte. Vuoi sposare nostra figlia?» «Io? No. Il muro è più forte di me. Io soffio, soffio, ma il muro non si muove».',
           'Allora vanno dal muro. Il muro è alto, vecchio e duro. «Muro, tu sei forte. Vuoi sposare nostra figlia?» Il muro risponde, un po’ triste: «Io non sono forte. C’è un animale che fa tanti piccoli buchi in me. È il topo!».',
           'Papà topo e mamma topo si guardano. Il più forte del mondo è… un topo! Da un piccolo buco nel muro esce un giovane topo, simpatico e coraggioso. La topolina sorride. Pochi giorni dopo c’è una grande festa: la topolina sposa il giovane topo.',
+          'La mamma topo ride: «Cerchiamo lontano, ma lo sposo giusto è qui, dietro casa!». È la morale della fiaba: spesso quello che cerchiamo è già vicino a noi. E anche chi è piccolo può essere forte.',
         ],
         box: [
           'La figlia è <strong>piccola</strong>, <strong>bella</strong> e <strong>gentile</strong>.',
