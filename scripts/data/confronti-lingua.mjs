@@ -383,4 +383,198 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/preposizioni-semplici.html': {
+    after: 'luoghi',
+    it: {
+      h2: "Le preposizioni: il confronto con l'inglese",
+      intro:
+        'In inglese la scelta dipende dal movimento: <em lang="en">to</em> per andare, <em lang="en">in / at</em> per stare. In italiano no: conta <strong>il tipo di luogo</strong>. Città con <strong>a</strong>, Paesi con <strong>in</strong>, persone con <strong>da</strong>, sia per andare sia per stare.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ["I'm going to Rome. / I'm in Rome.", 'Vado a Roma. / Sono a Roma.'],
+        ['I live in Italy.', 'Vivo in Italia.'],
+        ["I'm going to Marco's.", 'Vado da Marco.'],
+        ["I've been studying Italian for two years.", 'Studio italiano da due anni.'],
+        ['in five minutes', 'tra cinque minuti'],
+        ['by train / on foot', 'in treno / a piedi'],
+      ],
+      points: [
+        '<em lang="en">In Rome</em> non è <span lang="it">in Roma</span>: con le città si usa sempre <strong>a</strong>, anche per la posizione. <span lang="it">Sono a Roma</span>, <span lang="it">abito a Milano</span>.',
+        '<em lang="en">For two years</em>, se l\'azione continua ancora, diventa <strong>da</strong> + presente: <span lang="it">studio italiano da due anni</span> (non <span lang="it">per due anni</span>, e non al passato).',
+        '<em lang="en">In five minutes</em>, nel futuro, è <strong>tra</strong> (o <strong>fra</strong>): <span lang="it">arrivo tra cinque minuti</span>. <span lang="it">In cinque minuti</span> vuol dire «nel giro di cinque minuti».',
+      ],
+    },
+    en: {
+      h2: 'Italian prepositions compared with English',
+      intro:
+        'In English the choice depends on movement: <em>to</em> for going, <em>in / at</em> for being there. Italian doesn\'t care about movement: what counts is <strong>the type of place</strong>. Cities take <strong lang="it">a</strong>, countries <strong lang="it">in</strong>, people <strong lang="it">da</strong>, both for going and for being there.',
+      th: ['English', 'Italian'],
+      rows: [
+        ["I'm going to Rome. / I'm in Rome.", 'Vado a Roma. / Sono a Roma.'],
+        ['I live in Italy.', 'Vivo in Italia.'],
+        ["I'm going to Marco's.", 'Vado da Marco.'],
+        ["I've been studying Italian for two years.", 'Studio italiano da due anni.'],
+        ['in five minutes', 'tra cinque minuti'],
+        ['by train / on foot', 'in treno / a piedi'],
+      ],
+      points: [
+        '<em>In Rome</em> is not <span lang="it">in Roma</span>: cities always take <strong lang="it">a</strong>, even for position. <span lang="it">Sono a Roma</span>, <span lang="it">abito a Milano</span>.',
+        '<em>For two years</em>, when the action is still going on, becomes <strong lang="it">da</strong> + present tense: <span lang="it">studio italiano da due anni</span>. Not <span lang="it">per due anni</span>, and not a past tense.',
+        '<em>In five minutes</em>, in the future, is <strong lang="it">tra</strong> (or <strong lang="it">fra</strong>): <span lang="it">arrivo tra cinque minuti</span>. <span lang="it">In cinque minuti</span> means “within five minutes”.',
+      ],
+    },
+    es: {
+      h2: 'Las preposiciones comparadas con el español',
+      intro:
+        'En español la preposición cambia con el movimiento: <em>voy a Roma</em>, <em>estoy en Roma</em>. En italiano lo que cuenta es <strong>el tipo de lugar</strong>: ciudades con <strong lang="it">a</strong>, países con <strong lang="it">in</strong>, personas con <strong lang="it">da</strong>, tanto para ir como para estar.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Estoy en Roma.', 'Sono a Roma.'],
+        ['Voy a Italia.', 'Vado in Italia.'],
+        ['Voy a casa de Marco.', 'Vado da Marco.'],
+        ['Soy de Nápoles. / Vengo de Milán.', 'Sono di Napoli. / Vengo da Milano.'],
+        ['Estudio italiano desde hace dos años.', 'Studio italiano da due anni.'],
+        ['dentro de cinco minutos', 'tra cinque minuti'],
+      ],
+      points: [
+        'Los dos errores típicos de quien habla español son <span lang="it">sono in Roma</span> y <span lang="it">vado a Italia</span>. Con ciudades, siempre <strong lang="it">a</strong>; con países, siempre <strong lang="it">in</strong>: <span lang="it">sono a Roma</span>, <span lang="it">vado in Italia</span>.',
+        'El <em>de</em> español se divide en dos: <strong lang="it">di</strong> para el origen de una persona (<span lang="it">sono di Napoli</span>) y <strong lang="it">da</strong> para el lugar del que vienes (<span lang="it">vengo da Milano</span>). <em>A casa de</em> también es <strong lang="it">da</strong>: <span lang="it">vado da Marco</span>.',
+        '<em>Desde hace</em> → <strong lang="it">da</strong> + presente (<span lang="it">studio italiano da due anni</span>); <em>dentro de</em> → <strong lang="it">tra</strong> (<span lang="it">tra cinque minuti</span>).',
+      ],
+    },
+    pt: {
+      h2: 'As preposições comparadas com o português',
+      intro:
+        'Em português a preposição muda com o movimento: <em>vou para Roma</em>, <em>moro em Roma</em>. Em italiano o que conta é <strong>o tipo de lugar</strong>: cidades com <strong lang="it">a</strong>, países com <strong lang="it">in</strong>, pessoas com <strong lang="it">da</strong>, tanto para ir quanto para estar.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Moro em Roma.', 'Abito a Roma.'],
+        ['Vou para a Itália.', 'Vado in Italia.'],
+        ['Vou na casa do Marco.', 'Vado da Marco.'],
+        ['Sou de Nápoles. / Venho de Milão.', 'Sono di Napoli. / Vengo da Milano.'],
+        ['Estudo italiano há dois anos.', 'Studio italiano da due anni.'],
+        ['Vou de trem. / Vou a pé.', 'Vado in treno. / Vado a piedi.'],
+      ],
+      points: [
+        'Com cidades, sempre <strong lang="it">a</strong>, também para dizer onde você está: <span lang="it">abito a Roma</span>, não <span lang="it">in Roma</span>. Com países, sempre <strong lang="it">in</strong>: <span lang="it">vado in Italia</span>.',
+        '<em>De trem</em>, <em>de carro</em> viram <strong lang="it">in</strong>: <span lang="it">in treno</span>, <span lang="it">in macchina</span> (<span lang="it">di treno</span> está errado). Só <em>a pé</em> é igual: <span lang="it">a piedi</span>.',
+        'Cuidado com <em>há</em>: se a ação continua, <em>há dois anos</em> → <strong lang="it">da</strong> + presente (<span lang="it">studio italiano da due anni</span>); se já terminou, é <span lang="it">due anni fa</span>. E <em>daqui a cinco minutos</em> → <span lang="it">tra cinque minuti</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les prépositions comparées au français',
+      intro:
+        'Bonne nouvelle : pour les lieux, l\'italien ressemble beaucoup au français. <em>À Rome</em> → <strong lang="it">a Roma</strong>, <em>en Italie</em> → <strong lang="it">in Italia</strong>, <em>chez Marco</em> → <strong lang="it">da Marco</strong>, que l\'on y aille ou que l\'on y soit.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ["Je vais à Rome. / J'habite à Rome.", 'Vado a Roma. / Abito a Roma.'],
+        ['Je vais au Japon.', 'Vado in Giappone.'],
+        ['Je vais chez Marco. / chez le médecin', 'Vado da Marco. / dal medico'],
+        ['Je suis de Naples. / Je viens de Milan.', 'Sono di Napoli. / Vengo da Milano.'],
+        ["J'étudie l'italien depuis deux ans.", 'Studio italiano da due anni.'],
+        ['dans cinq minutes', 'tra cinque minuti'],
+      ],
+      points: [
+        'Le français dit <em>au Japon</em>, <em>au Portugal</em>, <em>aux États-Unis</em> ; l\'italien garde <strong lang="it">in</strong> avec tous les pays : <span lang="it">in Giappone</span>, <span lang="it">in Portogallo</span>, <span lang="it">negli Stati Uniti</span>.',
+        'Le <em>de</em> français se divise en deux : <strong lang="it">di</strong> pour l\'origine (<span lang="it">sono di Napoli</span>), <strong lang="it">da</strong> pour la provenance (<span lang="it">vengo da Milano</span>).',
+        '<em>Depuis</em> + présent fonctionne comme en français : <span lang="it">studio italiano da due anni</span>. Mais <em>dans</em> + durée devient <strong lang="it">tra</strong> : <span lang="it">tra cinque minuti</span>, pas <span lang="it">in cinque minuti</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Předložky ve srovnání s češtinou',
+      intro:
+        'Čeština rozlišuje <em>kam</em> a <em>kde</em>: <em>do Říma / v Římě</em>, <em>k Markovi / u Marka</em>. Italština ne: rozhoduje <strong>druh místa</strong>. Města s <strong lang="it">a</strong>, země s <strong lang="it">in</strong>, osoby s <strong lang="it">da</strong>, pro <em>kam</em> i pro <em>kde</em>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Jedu do Říma. / Jsem v Římě.', 'Vado a Roma. / Sono a Roma.'],
+        ['Bydlím v Itálii.', 'Abito in Italia.'],
+        ['Jdu k Markovi. / Jsem u Marka.', 'Vado da Marco. / Sono da Marco.'],
+        ['Jedu vlakem. / Píšu perem.', 'Vado in treno. / Scrivo con la penna.'],
+        ['Učím se italsky dva roky.', 'Studio italiano da due anni.'],
+        ['za pět minut', 'tra cinque minuti'],
+      ],
+      points: [
+        '<em>Do</em> i <em>v</em> se u měst překládají stejně: <span lang="it">vado a Roma</span>, <span lang="it">sono a Roma</span>. <span lang="it">In Roma</span> je chyba.',
+        'Co čeština vyjádří pádem bez předložky (<em>vlakem</em>, <em>perem</em>), potřebuje v italštině předložku: <span lang="it">in treno</span>, <span lang="it">in macchina</span>, <span lang="it">con la penna</span>.',
+        'Když něco trvá dodnes, italština přidá <strong lang="it">da</strong>: <em>Učím se italsky dva roky</em> → <span lang="it">Studio italiano da due anni</span>. <em>Za pět minut</em> → <span lang="it">tra cinque minuti</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Przyimki w porównaniu z polskim',
+      intro:
+        'Po polsku rozróżniasz <em>dokąd</em> i <em>gdzie</em>: <em>do Rzymu / w Rzymie</em>, <em>do Marka / u Marka</em>. Po włosku nie: liczy się <strong>rodzaj miejsca</strong>. Miasta z <strong lang="it">a</strong>, kraje z <strong lang="it">in</strong>, osoby z <strong lang="it">da</strong>, i dla <em>dokąd</em>, i dla <em>gdzie</em>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Jadę do Rzymu. / Jestem w Rzymie.', 'Vado a Roma. / Sono a Roma.'],
+        ['Mieszkam we Włoszech.', 'Abito in Italia.'],
+        ['Idę do Marka. / Jestem u Marka.', 'Vado da Marco. / Sono da Marco.'],
+        ['Jadę pociągiem. / Piszę długopisem.', 'Vado in treno. / Scrivo con la penna.'],
+        ['Uczę się włoskiego od dwóch lat.', 'Studio italiano da due anni.'],
+        ['za pięć minut', 'tra cinque minuti'],
+      ],
+      points: [
+        '<em>Do</em> i <em>w</em> przy miastach tłumaczysz tak samo: <span lang="it">vado a Roma</span>, <span lang="it">sono a Roma</span>. <span lang="it">In Roma</span> to błąd.',
+        'To, co polski wyraża samym narzędnikiem (<em>pociągiem</em>, <em>długopisem</em>), po włosku wymaga przyimka: <span lang="it">in treno</span>, <span lang="it">in macchina</span>, <span lang="it">con la penna</span>.',
+        '<em>Od</em> + czas teraźniejszy działa jak po polsku: <em>od dwóch lat</em> → <span lang="it">da due anni</span>. A <em>za pięć minut</em> → <strong lang="it">tra</strong>: <span lang="it">tra cinque minuti</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Edatlar: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede yön ve yer bir ekle gösterilir ve kelimenin sonuna gelir: <em>Roma\'ya</em>, <em>Roma\'da</em>, <em>Milano\'dan</em>. İtalyancada kelimenin önüne bir edat gelir ve yönü değil <strong>yerin türünü</strong> gösterir: şehirler için <strong lang="it">a</strong>, ülkeler için <strong lang="it">in</strong>, kişiler için <strong lang="it">da</strong>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ["Roma'ya gidiyorum. / Roma'dayım.", 'Vado a Roma. / Sono a Roma.'],
+        ["İtalya'da yaşıyorum.", 'Abito in Italia.'],
+        ["Marco'ya gidiyorum.", 'Vado da Marco.'],
+        ["Milano'dan geliyorum.", 'Vengo da Milano.'],
+        ['İki yıldır İtalyanca öğreniyorum.', 'Studio italiano da due anni.'],
+        ['Trenle gidiyorum. / Kalemle yazıyorum.', 'Vado in treno. / Scrivo con la penna.'],
+      ],
+      points: [
+        '<em>-e/-a</em> ve <em>-de/-da</em> ekleri şehirlerde aynı edatla çevrilir: <span lang="it">vado a Roma</span>, <span lang="it">sono a Roma</span>. Ülkelerde ise ikisi de <strong lang="it">in</strong> olur: <span lang="it">vado in Italia</span>, <span lang="it">abito in Italia</span>.',
+        '<em>-den/-dan</em> çoğu zaman <strong lang="it">da</strong> olur (<span lang="it">da Milano</span>). <em>-le/-la</em> ise <strong lang="it">con</strong> olur (<span lang="it">con la penna</span>), ama taşıtlarda <strong lang="it">in</strong> kullanılır: <span lang="it">in treno</span>, <span lang="it">in macchina</span>.',
+        '<em>-dir</em> ile anlatılan, hâlâ süren bir durum <strong lang="it">da</strong> + şimdiki zamanla söylenir: <span lang="it">studio italiano da due anni</span>. <em>Beş dakika sonra</em> → <span lang="it">tra cinque minuti</span>.',
+      ],
+    },
+    de: {
+      h2: 'Präpositionen im Vergleich zum Deutschen',
+      intro:
+        'Im Deutschen hängt die Präposition oft von der Richtung ab: <em>nach Rom / in Rom</em>, <em>zu Marco / bei Marco</em>. Im Italienischen zählt nur <strong>die Art des Ortes</strong>: Städte mit <strong lang="it">a</strong>, Länder mit <strong lang="it">in</strong>, Personen mit <strong lang="it">da</strong>, für <em>wohin</em> und für <em>wo</em>. Und es gibt keine Fälle.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich fahre nach Rom. / Ich bin in Rom.', 'Vado a Roma. / Sono a Roma.'],
+        ['Ich wohne in Italien.', 'Abito in Italia.'],
+        ['Ich gehe zu Marco. / Ich bin bei Marco.', 'Vado da Marco. / Sono da Marco.'],
+        ['Ich komme aus Neapel. / Ich komme gerade aus Mailand.', 'Sono di Napoli. / Vengo da Milano.'],
+        ['Ich lerne seit zwei Jahren Italienisch.', 'Studio italiano da due anni.'],
+        ['in fünf Minuten', 'tra cinque minuti'],
+      ],
+      points: [
+        '<em>Nach Rom</em> und <em>in Rom</em> sind beide <span lang="it">a Roma</span>. <span lang="it">In Roma</span> ist falsch, <span lang="it">in</span> gilt nur für Länder und Regionen: <span lang="it">in Italia</span>, <span lang="it">in Toscana</span>.',
+        '<em>Zu</em> und <em>bei</em> + Person sind <strong lang="it">da</strong>: <span lang="it">vado da Marco</span>, <span lang="it">sono dal medico</span>. <em>Aus</em> hat zwei Übersetzungen: <span lang="it">di</span> für die Herkunft, <span lang="it">da</span> für den Ort, von dem du gerade kommst.',
+        '<em>Seit</em> + Präsens funktioniert wie im Deutschen: <span lang="it">studio italiano da due anni</span>. Aber <em>in fünf Minuten</em> heißt <strong lang="it">tra</strong>: <span lang="it">tra cinque minuti</span>.',
+      ],
+    },
+    ja: {
+      h2: 'イタリア語の前置詞と日本語の助詞',
+      intro:
+        '日本語の助詞は名詞の<em>あと</em>に来ます（ローマ<em>に</em>、ローマ<em>で</em>）。イタリア語の前置詞は名詞の<em>前</em>に来て、「行く」か「いる」かではなく<strong>場所の種類</strong>で選びます。町は <strong lang="it">a</strong>、国は <strong lang="it">in</strong>、人のところは <strong lang="it">da</strong> です。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['ローマに行きます。／ローマにいます。', 'Vado a Roma. / Sono a Roma.'],
+        ['イタリアに住んでいます。', 'Abito in Italia.'],
+        ['マルコさんの家に行きます。', 'Vado da Marco.'],
+        ['ミラノから電車で来ます。', 'Vengo da Milano in treno.'],
+        ['ペンで書きます。', 'Scrivo con la penna.'],
+        ['二年前からイタリア語を勉強しています。', 'Studio italiano da due anni.'],
+      ],
+      points: [
+        '「に」も「で」も、町なら <strong lang="it">a</strong>、国なら <strong lang="it">in</strong> です。<span lang="it">vado a Roma</span>、<span lang="it">sono a Roma</span>、<span lang="it">abito in Italia</span>。',
+        '「で」にはいろいろな訳があります。乗り物は <strong lang="it">in</strong>（<span lang="it">in treno</span>）、道具は <strong lang="it">con</strong>（<span lang="it">con la penna</span>）、町は <strong lang="it">a</strong>（<span lang="it">a Roma</span>）。',
+        '「から」は <strong lang="it">da</strong> です（<span lang="it">da Milano</span>）。「二年前から〜している」も <strong lang="it">da</strong> + 現在形になります。<span lang="it">studio italiano da due anni</span>。「五分後に」は <span lang="it">tra cinque minuti</span> です。',
+      ],
+    },
+  },
 };
