@@ -2763,4 +2763,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a2/pronomi-diretti.html': {
+    it: {
+      h2: "I pronomi diretti: il confronto con l'inglese",
+      intro:
+        'In inglese il pronome va <strong>dopo</strong> il verbo (<em lang="en">I see him</em>); in italiano va <strong>prima</strong>: <span lang="it">lo vedo</span>. E <em lang="en">it</em> non esiste: si sceglie <strong>lo</strong> o <strong>la</strong> secondo il genere della cosa.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I see him every day.', 'Lo vedo ogni giorno.'],
+        ['The pizza? I\'ll eat it.', 'La pizza? La mangio.'],
+        ['I saw her yesterday.', "L'ho vista ieri."],
+        ['I bought them.', 'Li ho comprati.'],
+        ['I want to see it.', 'Voglio vederlo. / Lo voglio vedere.'],
+      ],
+      points: [
+        'Il pronome sta prima del verbo coniugato: <span lang="it">lo vedo</span>, <span lang="it">la chiamo</span>. Con l\'infinito si può attaccare alla fine: <span lang="it">vederlo</span>.',
+        '<em lang="en">It</em> e <em lang="en">them</em> dipendono dal genere: <span lang="it">il libro → lo</span>, <span lang="it">la pizza → la</span>, <span lang="it">i libri → li</span>, <span lang="it">le chiavi → le</span>.',
+        'Al passato prossimo il participio si accorda con <span lang="it">lo, la, li, le</span>: <span lang="it">l\'ho vista, li ho comprati</span>.',
+      ],
+    },
+    en: {
+      h2: 'Direct object pronouns compared with English',
+      intro:
+        'In English the pronoun goes <strong>after</strong> the verb (<em>I see him</em>); in Italian it goes <strong>before</strong>: <span lang="it">lo vedo</span>. And there is no <em>it</em>: you choose <strong lang="it">lo</strong> or <strong lang="it">la</strong> by the gender of the thing.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I see him every day.', 'Lo vedo ogni giorno.'],
+        ["The pizza? I'll eat it.", 'La pizza? La mangio.'],
+        ['I saw her yesterday.', "L'ho vista ieri."],
+        ['I bought them.', 'Li ho comprati.'],
+        ['I want to see it.', 'Voglio vederlo. / Lo voglio vedere.'],
+      ],
+      points: [
+        'The pronoun goes before the conjugated verb: <span lang="it">lo vedo</span>, <span lang="it">la chiamo</span>. With an infinitive it can be attached at the end: <span lang="it">vederlo</span>.',
+        '<em>It</em> and <em>them</em> depend on gender: <span lang="it">il libro → lo</span>, <span lang="it">la pizza → la</span>, <span lang="it">i libri → li</span>, <span lang="it">le chiavi → le</span>.',
+        'In the passato prossimo the participle agrees with <span lang="it">lo, la, li, le</span>: <span lang="it">l\'ho vista, li ho comprati</span>.',
+      ],
+    },
+    es: {
+      h2: 'Los pronombres directos comparados con el español',
+      intro:
+        'Buena noticia: el pronombre va delante del verbo, como en español (<em>lo veo</em> → <span lang="it">lo vedo</span>), y se pega al infinitivo (<em>verlo</em> → <span lang="it">vederlo</span>). Cambian los plurales y el participio.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Lo veo.', 'Lo vedo.'],
+        ['Los compro. / Las compro.', 'Li compro. / Le compro.'],
+        ['A Marco le veo mucho. (leísmo)', 'Marco lo vedo spesso.'],
+        ['La he visto.', "L'ho vista."],
+        ['Quiero verlo.', 'Voglio vederlo.'],
+      ],
+      points: [
+        '<em>Los</em> → <strong lang="it">li</strong>, <em>las</em> → <strong lang="it">le</strong>. Ojo: el <span lang="it">le</span> italiano es femenino plural, no <em>le</em> de persona.',
+        'Sin leísmo: para una persona masculina, siempre <strong lang="it">lo</strong>: <span lang="it">lo vedo</span>, <span lang="it">lo conosco</span>.',
+        'Con el <span lang="it">passato prossimo</span> el participio concuerda: <em>la he visto</em> → <span lang="it">l\'ho vista</span>, <em>los he comprado</em> → <span lang="it">li ho comprati</span>.',
+      ],
+    },
+    pt: {
+      h2: 'Os pronomes diretos comparados com o português',
+      intro:
+        'No Brasil o pronome objeto muitas vezes some (<em>Comprou o pão? Comprei.</em>) ou vira <em>ele / ela</em> depois do verbo (<em>vi ela</em>). Em italiano ele é obrigatório e vem antes do verbo: <strong lang="it">l\'ho comprato</strong>, <strong lang="it">l\'ho vista</strong>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Comprou o pão? Comprei.', "Hai comprato il pane? Sì, l'ho comprato."],
+        ['Eu vi ela ontem.', "L'ho vista ieri."],
+        ['Te amo.', 'Ti amo.'],
+        ['Comprei os livros. Comprei eles.', 'Li ho comprati.'],
+        ['Quero ver isso.', 'Voglio vederlo.'],
+      ],
+      points: [
+        'Não deixe o verbo sozinho: <span lang="it">sì, l\'ho comprato</span>, não <span lang="it">sì, ho comprato</span>.',
+        '<em>Ele, ela, eles, elas</em> como objeto → <strong lang="it">lo, la, li, le</strong>, antes do verbo.',
+        'No <span lang="it">passato prossimo</span> o particípio concorda com o pronome: <span lang="it">l\'ho vista</span>, <span lang="it">li ho comprati</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les pronoms directs comparés au français',
+      intro:
+        'Bonne nouvelle : comme en français, le pronom se place avant le verbe, s\'élide (<em>je l\'ai vue</em> → <span lang="it">l\'ho vista</span>) et le participe s\'accorde. La différence est au pluriel : <em>les</em> a deux formes.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je le vois.', 'Lo vedo.'],
+        ['Je les achète. (les livres / les clés)', 'Li compro. / Le compro.'],
+        ["Je l'ai vue hier.", "L'ho vista ieri."],
+        ['Regarde-le !', 'Guardalo!'],
+        ['Je veux le voir.', 'Voglio vederlo. / Lo voglio vedere.'],
+      ],
+      points: [
+        '<em>Les</em> → <strong lang="it">li</strong> (masculin) ou <strong lang="it">le</strong> (féminin) : <span lang="it">i libri → li</span>, <span lang="it">le chiavi → le</span>.',
+        'Avec un infinitif, le pronom peut se coller à la fin : <span lang="it">vederlo</span>.',
+        'À l\'impératif, comme en français, il vient après, mais sans trait d\'union : <span lang="it">guardalo</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Přímé předměty ve srovnání s češtinou',
+      intro:
+        'České <em>ho, ji, je</em> stojí na druhém místě ve větě (<em>Já ho vidím</em>). Italské zájmeno stojí vždy <strong>těsně před slovesem</strong>: <span lang="it">lo vedo</span>. Rod znáte, ale v minulém čase se příčestí shoduje s <strong>předmětem</strong>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Vidím ho každý den.', 'Lo vedo ogni giorno.'],
+        ['Pizza? Sním ji.', 'La pizza? La mangio.'],
+        ['Viděl jsem ji včera.', "L'ho vista ieri."],
+        ['Koupil jsem je. (knihy)', 'Li ho comprati.'],
+        ['Chci ho vidět.', 'Voglio vederlo. / Lo voglio vedere.'],
+      ],
+      points: [
+        'Zájmeno stojí těsně před časovaným slovesem: <span lang="it">lo vedo</span>, <span lang="it">la chiamo</span>. K infinitivu se může připojit: <span lang="it">vederlo</span>.',
+        '<em>Viděl jsem ji</em>: česky se příčestí shoduje s mluvčím (<em>viděl / viděla</em>), italsky s předmětem: <span lang="it">l\'ho vista</span> (ji), <span lang="it">l\'ho visto</span> (ho).',
+        '<em>Je</em> → <span lang="it">li</span> (mužský rod) nebo <span lang="it">le</span> (ženský rod).',
+      ],
+    },
+    pl: {
+      h2: 'Zaimki w bierniku w porównaniu z polskim',
+      intro:
+        'Polskie <em>go, ją, je</em> stoją dość swobodnie (<em>Widzę go</em>, <em>Ja go widzę</em>). Włoski zaimek stoi zawsze <strong>tuż przed czasownikiem</strong>: <span lang="it">lo vedo</span>. A w czasie przeszłym imiesłów zgadza się z <strong>dopełnieniem</strong>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Widzę go codziennie.', 'Lo vedo ogni giorno.'],
+        ['Pizza? Zjem ją.', 'La pizza? La mangio.'],
+        ['Widziałem ją wczoraj.', "L'ho vista ieri."],
+        ['Kupiłem je. (książki)', 'Li ho comprati.'],
+        ['Chcę go zobaczyć.', 'Voglio vederlo. / Lo voglio vedere.'],
+      ],
+      points: [
+        'Zaimek stoi tuż przed odmienionym czasownikiem: <span lang="it">lo vedo</span>. Do bezokolicznika można go dokleić: <span lang="it">vederlo</span>.',
+        '<em>Widziałem ją</em>: po polsku imiesłów zgadza się z mówiącym (<em>widziałem / widziałam</em>), po włosku z dopełnieniem: <span lang="it">l\'ho vista</span> (ją), <span lang="it">l\'ho visto</span> (jego).',
+        '<em>Je</em> → <span lang="it">li</span> (rodzaj męski) albo <span lang="it">le</span> (żeński).',
+      ],
+    },
+    tr: {
+      h2: 'Nesne zamirleri: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede nesne çoğu zaman söylenmez (<em>Gördüm</em>) ya da <em>onu</em> ile söylenir ve cinsiyet yoktur. İtalyancada nesne zamiri gereklidir, fiilden <strong>önce</strong> gelir ve cinsiyete göre değişir: <strong lang="it">lo</strong> (eril), <strong lang="it">la</strong> (dişil).',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Onu her gün görüyorum.', 'Lo vedo ogni giorno.'],
+        ['Pizza mı? Onu yiyorum.', 'La pizza? La mangio.'],
+        ['Dün gördüm. (onu)', "L'ho vista ieri. / L'ho visto ieri."],
+        ['Onları aldım. (kitapları)', 'Li ho comprati.'],
+        ['Onu görmek istiyorum.', 'Voglio vederlo.'],
+      ],
+      points: [
+        'Nesne düşmez: <em>gördüm</em> → <span lang="it">l\'ho visto</span>; <span lang="it">ho visto</span> tek başına eksik kalır.',
+        '<em>Onu</em> için <span lang="it">lo</span> ya da <span lang="it">la</span> seçilir: <span lang="it">il libro → lo</span>, <span lang="it">la pizza → la</span>.',
+        'Geçmiş zamanda ortaç zamire uyar: <span lang="it">l\'ho vista</span> (onu, kadın), <span lang="it">li ho comprati</span>.',
+      ],
+    },
+    de: {
+      h2: 'Direkte Objektpronomen im Vergleich zum Deutschen',
+      intro:
+        'Im Deutschen steht das Pronomen hinter dem Verb (<em>Ich sehe ihn</em>); im Italienischen <strong>davor</strong>: <span lang="it">lo vedo</span>. Das Genus kennst du schon (<em>die Pizza → sie</em> → <span lang="it">la</span>), aber das Partizip richtet sich nach dem Pronomen.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich sehe ihn jeden Tag.', 'Lo vedo ogni giorno.'],
+        ['Die Pizza? Ich esse sie.', 'La pizza? La mangio.'],
+        ['Ich habe sie gestern gesehen.', "L'ho vista ieri."],
+        ['Ich habe sie gekauft. (die Bücher)', 'Li ho comprati.'],
+        ['Ich will es sehen.', 'Voglio vederlo.'],
+      ],
+      points: [
+        'Das Pronomen steht vor dem konjugierten Verb: <span lang="it">lo vedo</span>. Beim Infinitiv kann es angehängt werden: <span lang="it">vederlo</span>.',
+        '<em>Sie</em> (Plural) hat zwei Formen: <span lang="it">li</span> (männlich) und <span lang="it">le</span> (weiblich).',
+        'Im Perfekt richtet sich das Partizip nach <span lang="it">lo, la, li, le</span>: <span lang="it">l\'ho vista, li ho comprati</span>.',
+      ],
+    },
+    ja: {
+      h2: '直接目的語の代名詞と日本語の比較',
+      intro:
+        '日本語では「見ました」のように目的語をよく省きますが、イタリア語では代名詞が必要です。動詞の<strong>前</strong>に置き、物の性で <strong lang="it">lo</strong>（男性）か <strong lang="it">la</strong>（女性）を選びます。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['（彼を）毎日見ます。', 'Lo vedo ogni giorno.'],
+        ['ピザ？食べます。', 'La pizza? La mangio.'],
+        ['（彼女を）昨日見ました。', "L'ho vista ieri."],
+        ['（本を）買いました。', 'Li ho comprati.'],
+        ['見たいです。', 'Voglio vederlo.'],
+      ],
+      points: [
+        '目的語を省かないでください。「買いました」→ <span lang="it">l\'ho comprato</span>（<span lang="it">ho comprato</span> だけでは足りません）。',
+        '「それ」は物の性で変わります：<span lang="it">il libro → lo</span>、<span lang="it">la pizza → la</span>、複数は <span lang="it">li / le</span>。',
+        '過去形では過去分詞が代名詞に合わせます：<span lang="it">l\'ho vista</span>、<span lang="it">li ho comprati</span>。',
+      ],
+    },
+  },
 };

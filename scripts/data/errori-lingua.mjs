@@ -885,4 +885,58 @@ export const ERRORS = {
       ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<span lang="it">io</span> の語尾は <strong lang="it">-ei</strong> です。'],
     ],
   },
+
+  'grammatica/a2/pronomi-diretti.html': {
+    it: [
+      ['Vedo lo ogni giorno.', 'Lo vedo ogni giorno.', '<em lang="en">I see him</em>: in italiano il pronome va prima del verbo.'],
+      ['La pizza? Lo mangio.', 'La pizza? La mangio.', '<em lang="en">It</em> si sceglie secondo il genere: <span lang="it">pizza</span> è femminile.'],
+      ['Ho visto la ieri.', "L'ho vista ieri.", 'Pronome prima dell\'ausiliare e participio accordato.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'Con <span lang="it">li</span> il participio va al plurale.'],
+    ],
+    en: [
+      ['Vedo lo ogni giorno.', 'Lo vedo ogni giorno.', '<em>I see him</em>: in Italian the pronoun comes before the verb.'],
+      ['La pizza? Lo mangio.', 'La pizza? La mangio.', '<em>It</em> depends on gender: <span lang="it">pizza</span> is feminine.'],
+      ['Ho visto la ieri.', "L'ho vista ieri.", 'Pronoun before the auxiliary, and the participle agrees.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'With <span lang="it">li</span> the participle goes plural.'],
+    ],
+    es: [
+      ['Los compro.', 'Li compro.', '<em>Los</em> → <strong lang="it">li</strong>; <em>las</em> → <span lang="it">le</span>.'],
+      ['Marco le vedo spesso.', 'Marco lo vedo spesso.', 'Sin leísmo: persona masculina → <strong lang="it">lo</strong>.'],
+      ['La ho visto.', "L'ho vista.", '<em>La he visto</em>: en italiano se apostrofa y el participio concuerda.'],
+    ],
+    pt: [
+      ['Hai comprato il pane? Sì, ho comprato.', "Hai comprato il pane? Sì, l'ho comprato.", '<em>Comprei</em> sozinho não basta: o pronome é obrigatório.'],
+      ['La ho visto ieri.', "L'ho vista ieri.", 'Apóstrofo e concordância: <span lang="it">l\'ho vista</span>.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'Com <span lang="it">li</span> o particípio vai para o plural.'],
+    ],
+    fr: [
+      ['Les compro.', 'Li compro.', '<em>Je les achète</em> (les livres) → <span lang="it">li</span> ; pour un féminin, <span lang="it">le</span>.'],
+      ['Guarda-lo!', 'Guardalo!', 'Pas de trait d\'union : un seul mot.'],
+    ],
+    cs: [
+      ['Vedo lo ogni giorno.', 'Lo vedo ogni giorno.', 'Zájmeno stojí před slovesem, ne za ním.'],
+      ["Anna? L'ho visto ieri.", "Anna? L'ho vista ieri.", 'Příčestí se shoduje s předmětem (Anna), ne s mluvčím.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'S <span lang="it">li</span> je příčestí v množném čísle.'],
+    ],
+    pl: [
+      ['Vedo lo ogni giorno.', 'Lo vedo ogni giorno.', 'Zaimek stoi przed czasownikiem, nie za nim.'],
+      ["Anna? L'ho visto ieri.", "Anna? L'ho vista ieri.", 'Imiesłów zgadza się z dopełnieniem (Anna), nie z mówiącym.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'Z <span lang="it">li</span> imiesłów jest w liczbie mnogiej.'],
+    ],
+    tr: [
+      ['Il libro? Sì, ho comprato.', "Il libro? Sì, l'ho comprato.", '<em>Aldım</em>: İtalyancada nesne zamiri düşmez.'],
+      ['La pizza? Lo mangio.', 'La pizza? La mangio.', '<span lang="it">pizza</span> dişildir: <span lang="it">la</span>.'],
+      ['Vedo lo.', 'Lo vedo.', 'Zamir fiilden önce gelir.'],
+    ],
+    de: [
+      ['Vedo lo ogni giorno.', 'Lo vedo ogni giorno.', '<em>Ich sehe ihn</em>: das Pronomen steht vor dem Verb.'],
+      ['Ho visto la ieri.', "L'ho vista ieri.", 'Pronomen vor dem Hilfsverb, Partizip angeglichen.'],
+      ['Li ho comprato.', 'Li ho comprati.', 'Mit <span lang="it">li</span> steht das Partizip im Plural.'],
+    ],
+    ja: [
+      ['Il libro? Sì, ho comprato.', "Il libro? Sì, l'ho comprato.", '「はい、買いました」でも代名詞が必要です。'],
+      ['La pizza? Lo mangio.', 'La pizza? La mangio.', '<span lang="it">pizza</span> は女性名詞なので <span lang="it">la</span>。'],
+      ['Mangio la.', 'La mangio.', '代名詞は動詞の前です。'],
+    ],
+  },
 };
