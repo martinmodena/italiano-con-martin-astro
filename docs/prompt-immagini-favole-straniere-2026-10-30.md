@@ -19,3 +19,13 @@ restituisce la pentola grande con dentro quella piccola e il vicino lo guarda st
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated folk tale book, soft golden afternoon light, no black outlines. The sunny courtyard of an old Anatolian village house with whitewashed stone walls, a wooden door, a fig tree and pots of geraniums. On the left, a cheerful elderly man with a short white beard, a large white turban and a long simple brown robe holds out, with a mischievous smile, a big shiny copper cooking pot; inside it sits a small identical copper pot, like a baby pot. On the right, his neighbour, a middle-aged man in a simple long-sleeved shirt, waistcoat and cap, leans forward with wide surprised eyes and a delighted smile. A grey donkey peeks in from the side of the courtyard. Humorous, gentle, folk-tale atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
 ```
+
+## 2. `story-mantello-nasreddin` — «Mangia, mantello mio!» (Ye kürküm ye, Nasreddin Hoca, Turchia)
+
+Il momento in cui Nasreddin, con il mantello elegante, avvicina la manica alla scodella e gli
+ospiti lo guardano stupiti. Nella versione turca è una pelliccia: qui un mantello di stoffa
+ricamato, per rispetto dei lettori vegani. Niente cibo visibile: la scodella è coperta.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated folk tale book, warm evening lantern light, no black outlines. A festive courtyard of a wealthy old Anatolian house with carpets, cushions, hanging lanterns and arches. In the centre, a cheerful elderly man with a short white beard and a large white turban, wearing a splendid long red cloth coat embroidered with gold (no fur), sits on a cushion and politely holds the end of his wide sleeve over a large covered copper bowl, with a playful, wise smile, as if offering it a meal. Around him, well-dressed guests in modest long traditional clothes stare at him in astonishment, one with his mouth open, the host in an elegant waistcoat raising his hands in surprise. Humorous, gentle, folk-tale atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no visible food.
+```
