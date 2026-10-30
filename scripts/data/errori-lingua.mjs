@@ -786,4 +786,56 @@ export const ERRORS = {
       ['Italia è bella.', "L'Italia è bella.", '国名にも冠詞を付けます。'],
     ],
   },
+
+  'grammatica/a2/futuro-semplice.html': {
+    it: [
+      ['Va a piovere.', 'Pioverà.', '<em lang="en">It\'s going to rain</em>: <span lang="it">andare a</span> indica un movimento, non il futuro.'],
+      ['Io parlarò.', 'Io parlerò.', 'Nei verbi in <span lang="it">-are</span> la <span lang="it">a</span> diventa <strong>e</strong>.'],
+      ['Io andarò.', 'Io andrò.', 'Alcuni futuri perdono una vocale: <span lang="it">andrò, potrò, avrò</span>.'],
+    ],
+    en: [
+      ['Va a piovere.', 'Pioverà.', '<em>It\'s going to rain</em>: <span lang="it">andare a</span> is about movement, not the future.'],
+      ['Io parlarò.', 'Io parlerò.', 'In <span lang="it">-are</span> verbs the <span lang="it">a</span> becomes <strong lang="it">e</strong>.'],
+      ['Io andarò.', 'Io andrò.', 'Some futures drop a vowel: <span lang="it">andrò, potrò, avrò</span>.'],
+    ],
+    es: [
+      ['Va a piovere.', 'Pioverà.', '<em>Va a llover</em>: <span lang="it">andare a</span> indica movimiento, no futuro.'],
+      ['Io parlarò.', 'Io parlerò.', '<em>Hablaré</em>, pero en italiano la <span lang="it">a</span> de <span lang="it">-are</span> se vuelve <strong lang="it">e</strong>.'],
+      ['Io andarò.', 'Io andrò.', 'Como <em>podré</em> o <em>tendré</em>, algunos futuros pierden una vocal: <span lang="it">andrò</span>.'],
+    ],
+    pt: [
+      ['Domani vado a parlare con lui.', 'Domani parlo con lui.', '<em>Vou falar</em>: <span lang="it">vado a parlare</span> quer dizer «vou a um lugar para falar».'],
+      ['Va a piovere.', 'Pioverà.', '<em>Vai chover</em> → <span lang="it">pioverà</span> ou <span lang="it">sta per piovere</span>.'],
+      ['Io parlarò.', 'Io parlerò.', '<em>Falarei</em>, mas em italiano a <span lang="it">a</span> de <span lang="it">-are</span> vira <strong lang="it">e</strong>.'],
+    ],
+    fr: [
+      ['Vado a partire domani.', 'Parto domani.', '<em>Je vais partir</em> : le futur proche ne se dit pas avec <span lang="it">andare</span>.'],
+      ['Va a piovere.', 'Pioverà.', '<em>Il va pleuvoir</em> → <span lang="it">pioverà</span> ou <span lang="it">sta per piovere</span>.'],
+      ['Io parlerai.', 'Io parlerò.', '<em>Je parlerai</em> ressemble à <span lang="it">parlerai</span>, mais en italien c\'est « tu parleras ».'],
+    ],
+    cs: [
+      ['Sarò parlare.', 'Parlerò.', '<em>Budu mluvit</em> se neskládá z <span lang="it">essere</span>: je to jedno slovo.'],
+      ['Io parlarò.', 'Io parlerò.', 'U sloves na <span lang="it">-are</span> se <span lang="it">a</span> mění v <strong lang="it">e</strong>.'],
+      ['Io andarò.', 'Io andrò.', 'Některé tvary ztrácejí samohlásku: <span lang="it">andrò, potrò, avrò</span>.'],
+    ],
+    pl: [
+      ['Sarò parlare.', 'Parlerò.', '<em>Będę mówić</em> nie składa się z <span lang="it">essere</span>: to jedno słowo.'],
+      ['Io parlarò.', 'Io parlerò.', 'W czasownikach na <span lang="it">-are</span> <span lang="it">a</span> zmienia się w <strong lang="it">e</strong>.'],
+      ['Io andarò.', 'Io andrò.', 'Niektóre formy tracą samogłoskę: <span lang="it">andrò, potrò, avrò</span>.'],
+    ],
+    tr: [
+      ['Io parlarò.', 'Io parlerò.', '<span lang="it">-are</span> fiillerinde <span lang="it">a</span>, <strong lang="it">e</strong> olur.'],
+      ['Io andarò.', 'Io andrò.', 'Bazı fiiller bir ünlü kaybeder: <span lang="it">andrò, potrò, avrò</span>.'],
+      ['Io mangierò.', 'Io mangerò.', '<span lang="it">-giare</span> fiillerinde <span lang="it">i</span> düşer: <span lang="it">mangerò</span>.'],
+    ],
+    de: [
+      ['Io parlarò.', 'Io parlerò.', 'Bei <span lang="it">-are</span> wird das <span lang="it">a</span> zu <strong lang="it">e</strong>.'],
+      ['Io mangierò.', 'Io mangerò.', 'Bei <span lang="it">-giare</span> fällt das <span lang="it">i</span> weg.'],
+    ],
+    ja: [
+      ['Io parlarò.', 'Io parlerò.', '<span lang="it">-are</span> 動詞は <span lang="it">a</span> が <strong lang="it">e</strong> になります。'],
+      ['Io andarò.', 'Io andrò.', '母音が落ちる動詞があります：<span lang="it">andrò, potrò, avrò</span>。'],
+      ['Io mangierò.', 'Io mangerò.', '<span lang="it">-giare</span> 動詞は <span lang="it">i</span> が落ちます：<span lang="it">mangerò</span>。'],
+    ],
+  },
 };

@@ -2401,4 +2401,188 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a2/futuro-semplice.html': {
+    after: 'usi',
+    it: {
+      h2: "Il futuro semplice: il confronto con l'inglese",
+      intro:
+        'L\'inglese parla del futuro con <em lang="en">will</em>, <em lang="en">going to</em> o il <em lang="en">present continuous</em>. L\'italiano ha un tempo in una parola sola, il <strong>futuro</strong> (<span lang="it">partirò</span>), ma per i piani vicini usa spesso il semplice <strong>presente</strong>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ["I'm leaving tomorrow.", 'Parto domani.'],
+        ["I'll call you tonight.", 'Ti chiamo stasera. / Ti chiamerò stasera.'],
+        ["It's going to rain.", 'Pioverà. / Sta per piovere.'],
+        ["When I arrive, I'll call you.", 'Quando arriverò, ti chiamerò.'],
+        ["He's probably at home.", 'Sarà a casa.'],
+      ],
+      points: [
+        '<em lang="en">Going to</em> non si traduce con <span lang="it">andare a</span>, che indica un movimento: <span lang="it">vado a studiare</span> = vado in un posto per studiare. Per il futuro: <span lang="it">studierò</span> o <span lang="it">sta per piovere</span>.',
+        'Dopo <span lang="it">quando</span> e <span lang="it">appena</span>, se l\'azione è futura, si può usare il futuro: <span lang="it">quando arriverò</span>, dove l\'inglese usa il presente.',
+        'Il futuro serve anche per le ipotesi sul presente: <span lang="it">sarà a casa</span> = <em lang="en">he\'s probably at home</em>.',
+      ],
+    },
+    en: {
+      h2: 'The future tense compared with English',
+      intro:
+        'English talks about the future with <em>will</em>, <em>going to</em> or the present continuous. Italian has a one-word tense, the <strong lang="it">futuro</strong> (<span lang="it">partirò</span>), but for near plans it often just uses the <strong>present</strong>.',
+      th: ['English', 'Italian'],
+      rows: [
+        ["I'm leaving tomorrow.", 'Parto domani.'],
+        ["I'll call you tonight.", 'Ti chiamo stasera. / Ti chiamerò stasera.'],
+        ["It's going to rain.", 'Pioverà. / Sta per piovere.'],
+        ["When I arrive, I'll call you.", 'Quando arriverò, ti chiamerò.'],
+        ["He's probably at home.", 'Sarà a casa.'],
+      ],
+      points: [
+        '<em>Going to</em> is not <span lang="it">andare a</span>, which is about movement: <span lang="it">vado a studiare</span> = I\'m going (somewhere) to study. For the future: <span lang="it">studierò</span>, or <span lang="it">sta per piovere</span> (it\'s about to rain).',
+        'After <span lang="it">quando</span> and <span lang="it">appena</span>, a future action can take the future tense: <span lang="it">quando arriverò</span>, where English uses the present.',
+        'The future also expresses guesses about now: <span lang="it">sarà a casa</span> = he\'s probably at home.',
+      ],
+    },
+    es: {
+      h2: 'El futuro simple comparado con el español',
+      intro:
+        'El <strong lang="it">futuro</strong> funciona como en español: <em>hablaré</em> → <span lang="it">parlerò</span>, y también sirve para suposiciones (<em>estará en casa</em> → <span lang="it">sarà a casa</span>). La diferencia está en <em>ir a</em> + infinitivo y en las formas.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Mañana hablaré con él.', 'Domani parlerò con lui.'],
+        ['Va a llover.', 'Pioverà. / Sta per piovere.'],
+        ['Voy a comer.', 'Mangio adesso. / Sto per mangiare.'],
+        ['Estará en casa.', 'Sarà a casa.'],
+        ['Iré a Roma.', 'Andrò a Roma.'],
+      ],
+      points: [
+        '<em>Ir a</em> + infinitivo no se traduce con <span lang="it">andare a</span>, que indica movimiento. <em>Va a llover</em> → <span lang="it">pioverà</span> o <span lang="it">sta per piovere</span>.',
+        'En los verbos en <span lang="it">-are</span> la <span lang="it">a</span> se vuelve <strong lang="it">e</strong>: <em>hablaré</em> → <span lang="it">parlerò</span>, no <span lang="it">parlarò</span>.',
+        'Algunos futuros pierden una vocal: <em>iré, podré, tendré</em> → <span lang="it">andrò, potrò, avrò</span>.',
+      ],
+    },
+    pt: {
+      h2: 'O futuro simples comparado com o português',
+      intro:
+        'No Brasil quase sempre se diz <em>vou falar</em>, <em>vai chover</em>. Em italiano não se usa <span lang="it">andare</span> para o futuro: ou se usa o <strong lang="it">futuro</strong> (<span lang="it">parlerò</span>), ou simplesmente o <strong>presente</strong> (<span lang="it">domani parlo con lui</span>).',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Amanhã vou falar com ele.', 'Domani parlo con lui. / Domani parlerò con lui.'],
+        ['Vai chover.', 'Pioverà. / Sta per piovere.'],
+        ['Vou viajar para Roma.', 'Andrò a Roma.'],
+        ['Ele deve estar em casa.', 'Sarà a casa.'],
+        ['falarei / comerei', 'parlerò / mangerò'],
+      ],
+      points: [
+        '<em>Vou + infinitivo</em> não é <span lang="it">vado a</span> + infinitivo, que indica movimento (<span lang="it">vado a mangiare</span> = vou a um lugar para comer).',
+        'Nos verbos em <span lang="it">-are</span> o <span lang="it">a</span> vira <strong lang="it">e</strong>: <em>falarei</em> → <span lang="it">parlerò</span>.',
+        'O futuro serve para suposições, como <em>deve estar</em>: <span lang="it">sarà a casa</span>, <span lang="it">avrà trent\'anni</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Le futur simple comparé au français',
+      intro:
+        'Bonne nouvelle : le <strong lang="it">futuro</strong> s\'utilise comme le futur simple, y compris après <em>quand</em> (<em>quand j\'arriverai</em> → <span lang="it">quando arriverò</span>). Le futur proche, lui, ne se traduit pas avec <span lang="it">andare</span>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je partirai demain.', 'Partirò domani.'],
+        ['Je vais partir.', 'Parto. / Sto per partire.'],
+        ['Il va pleuvoir.', 'Pioverà. / Sta per piovere.'],
+        ["Quand j'arriverai, je t'appellerai.", 'Quando arriverò, ti chiamerò.'],
+        ['Il doit être chez lui.', 'Sarà a casa.'],
+      ],
+      points: [
+        '<em>Je vais</em> + infinitif → présent (<span lang="it">parto</span>) ou <span lang="it">stare per</span> + infinitif (<span lang="it">sto per partire</span>). <span lang="it">Vado a partire</span> n\'existe pas.',
+        'Attention aux terminaisons : <em>je parlerai</em> → <span lang="it">parlerò</span>, <em>tu parleras</em> → <span lang="it">parlerai</span>. Le <span lang="it">-ai</span> italien est la 2<sup>e</sup> personne.',
+        'Le futur exprime aussi la supposition, comme <em>il doit être</em> : <span lang="it">sarà a casa</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Budoucí čas ve srovnání s češtinou',
+      intro:
+        'Čeština tvoří budoucnost dvakrát: dokonavým slovesem (<em>udělám</em>) nebo <em>budu</em> + infinitiv (<em>budu dělat</em>). Italština má jeden tvar v jednom slově: <strong lang="it">farò</strong>. A pro blízké plány často stačí přítomný čas.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Zítra pojedu do Říma.', 'Domani andrò a Roma. / Domani vado a Roma.'],
+        ['Budu se učit italsky.', "Studierò l'italiano."],
+        ['Udělám to.', 'Lo farò.'],
+        ['Bude pršet.', 'Pioverà.'],
+        ['Asi je doma.', 'Sarà a casa.'],
+      ],
+      points: [
+        '<em>Budu</em> + infinitiv se nepřekládá <span lang="it">sarò</span> + infinitiv: <em>budu mluvit</em> → <span lang="it">parlerò</span>.',
+        'U sloves na <span lang="it">-are</span> se <span lang="it">a</span> mění v <strong lang="it">e</strong>: <span lang="it">parlerò</span>, ne <span lang="it">parlarò</span>.',
+        'Budoucí čas vyjadřuje i odhad o přítomnosti: <em>asi je doma</em> → <span lang="it">sarà a casa</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Czas przyszły w porównaniu z polskim',
+      intro:
+        'Po polsku przyszłość tworzysz na dwa sposoby: czasownikiem dokonanym (<em>zrobię</em>) albo <em>będę</em> + bezokolicznik (<em>będę robić</em>). Włoski ma jedną formę w jednym słowie: <strong lang="it">farò</strong>. Dla bliskich planów często wystarczy czas teraźniejszy.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Jutro pojadę do Rzymu.', 'Domani andrò a Roma. / Domani vado a Roma.'],
+        ['Będę się uczyć włoskiego.', "Studierò l'italiano."],
+        ['Zrobię to.', 'Lo farò.'],
+        ['Będzie padać.', 'Pioverà.'],
+        ['Pewnie jest w domu.', 'Sarà a casa.'],
+      ],
+      points: [
+        '<em>Będę</em> + bezokolicznik to nie <span lang="it">sarò</span> + bezokolicznik: <em>będę mówić</em> → <span lang="it">parlerò</span>.',
+        'W czasownikach na <span lang="it">-are</span> <span lang="it">a</span> zmienia się w <strong lang="it">e</strong>: <span lang="it">parlerò</span>, nie <span lang="it">parlarò</span>.',
+        'Czas przyszły wyraża też przypuszczenie: <em>pewnie jest w domu</em> → <span lang="it">sarà a casa</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Gelecek zaman: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçedeki <em>-ecek</em> eki İtalyancadaki <strong lang="it">futuro</strong> ile iyi örtüşür: <em>konuşacağım</em> → <span lang="it">parlerò</span>. Ama yakın planlar için İtalyancada çoğu zaman şimdiki zaman yeterlidir: <span lang="it">domani parto</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Yarın Roma\'ya gideceğim.', 'Domani andrò a Roma. / Domani vado a Roma.'],
+        ['Onunla konuşacağım.', 'Parlerò con lui.'],
+        ['Yağmur yağacak.', 'Pioverà.'],
+        ['Geldiğimde seni arayacağım.', 'Quando arriverò, ti chiamerò.'],
+        ['Evdedir. (tahmin)', 'Sarà a casa.'],
+      ],
+      points: [
+        '<span lang="it">-are</span> ile biten fiillerde <span lang="it">a</span>, <strong lang="it">e</strong> olur: <span lang="it">parlerò</span> (<span lang="it">parlarò</span> değil).',
+        '<em>Geldiğimde</em> gibi zaman yan cümleleri <span lang="it">quando</span> + gelecek zamanla kurulabilir: <span lang="it">quando arriverò</span>.',
+        'Tahmin bildiren <em>-dır</em> eki (<em>evdedir</em>) İtalyancada gelecek zamanla söylenir: <span lang="it">sarà a casa</span>.',
+      ],
+    },
+    de: {
+      h2: 'Das Futur im Vergleich zum Deutschen',
+      intro:
+        'Wie im Deutschen reicht für die Zukunft oft das <strong>Präsens</strong>: <em>Morgen fahre ich nach Rom</em> → <span lang="it">domani vado a Roma</span>. Das <strong lang="it">futuro</strong> ist aber ein Wort, ohne <em>werden</em>: <span lang="it">andrò</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Morgen fahre ich nach Rom.', 'Domani vado a Roma.'],
+        ['Ich werde mit ihm sprechen.', 'Parlerò con lui.'],
+        ['Es wird regnen.', 'Pioverà.'],
+        ['Er wird wohl zu Hause sein.', 'Sarà a casa.'],
+        ['Wenn ich ankomme, rufe ich dich an.', 'Quando arriverò, ti chiamerò.'],
+      ],
+      points: [
+        '<em>Werden</em> + Infinitiv → ein Wort: <span lang="it">parlerò</span>. <span lang="it">Divento</span> heißt <em>werden</em> nur im Sinn von „etwas werden“.',
+        'Wie <em>er wird wohl … sein</em> drückt das <span lang="it">futuro</span> eine Vermutung aus: <span lang="it">sarà a casa, avrà trent\'anni</span>.',
+        'Bei Verben auf <span lang="it">-are</span> wird das <span lang="it">a</span> zu <strong lang="it">e</strong>: <span lang="it">parlerò</span>, <span lang="it">mangerò</span>.',
+      ],
+    },
+    ja: {
+      h2: '未来形と日本語の比較',
+      intro:
+        '日本語には未来形がなく、「明日行きます」のように現在の形で未来を表します。イタリア語でも近い予定は現在形で言えますが、未来形（<strong lang="it">futuro</strong>）もあります。<span lang="it">andrò</span>（行くでしょう、行きます）。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['明日ローマに行きます。', 'Domani vado a Roma. / Domani andrò a Roma.'],
+        ['彼と話します。', 'Parlerò con lui.'],
+        ['雨が降るでしょう。', 'Pioverà.'],
+        ['家にいるでしょう。', 'Sarà a casa.'],
+        ['着いたら電話します。', 'Quando arriverò, ti chiamerò.'],
+      ],
+      points: [
+        '「〜でしょう」（推量）は未来形で言えます。<span lang="it">sarà a casa</span>（家にいるでしょう）、<span lang="it">pioverà</span>（雨が降るでしょう）。',
+        '「着いたら」は <span lang="it">quando</span> + 未来形：<span lang="it">quando arriverò</span>。',
+        '<span lang="it">-are</span> 動詞は <span lang="it">a</span> が <strong lang="it">e</strong> に変わります：<span lang="it">parlerò</span>、<span lang="it">mangerò</span>。',
+      ],
+    },
+  },
 };
