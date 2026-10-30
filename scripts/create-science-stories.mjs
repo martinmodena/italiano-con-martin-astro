@@ -141,9 +141,11 @@ function page(r, lang) {
   const url = scienceUrl(r, lang);
   const slug = path.basename(url, '.html');
   const pre = prefixOf(url);
-  // Le favole tornano all'indice delle favole, con l'etichetta presa dalla fiaba modello.
+  // Le favole tornano all'indice delle favole, con l'etichetta presa dalla fiaba modello
+  // (dal 2026-10-30 la briciola è «Home / Letture / Favole / titolo» e la riscrive
+  // create-reading-categories.mjs: qui basta il link all'indice delle favole).
   const crumb = isFable(r)
-    ? read(htmlOf(emperorUrl[lang])).match(/<p class="breadcrumbs">(?:(?!<\/p>)[^])*?<\/a> \/ (<a [^>]*>[^<]*<\/a>)/)[1]
+    ? read(htmlOf(emperorUrl[lang])).match(new RegExp(`<a [^>]*href="${fableIndexUrl[lang]}">[^<]*</a>`))[0]
     : `<a href="${indexUrl[lang]}">${t.readings}</a>`;
   const sources = !r.sources
     ? ''
@@ -260,8 +262,8 @@ function indexTiles(lang) {
   // Favole: subito dopo la fiaba dell'imperatore, qui e nell'indice delle favole.
   h = fableTiles(h);
   const fp = htmlOf(fableIndexUrl[lang] + 'index.html');
-  write(fp, fableTiles(read(fp)));
-  function fableTiles(html) {
+  write(fp, fableTiles(read(fp), true));
+  function fableTiles(html, fableIndex = false) {
     const emp = path.basename(emperorUrl[lang]);
     for (const r of STORIE.filter(isFable).reverse()) {
       const file = path.basename(scienceUrl(r, lang));
@@ -276,7 +278,9 @@ function indexTiles(lang) {
         .replace(/<span class="badge">[^<]*/, `<span class="badge">${levelsLabel(r)}`)
         .replace(/<h2>[^]*?<\/h2>/, `<h2>${x.title}</h2>`)
         .replace(/<p>[^]*?<\/p>/, `<p>${x.hook}</p>`);
-      const at = html.indexOf(m[0]) + m[0].length;
+      // Favole straniere (2026-10-30): nella lingua del loro Paese vanno in cima all'elenco.
+      const first = fableIndex && (r.topIn || []).includes(lang) && html.indexOf('<a class="story-tile"');
+      const at = first || html.indexOf(m[0]) + m[0].length;
       html = html.slice(0, at) + tile + html.slice(at);
     }
     return html;
