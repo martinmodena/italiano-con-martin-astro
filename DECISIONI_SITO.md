@@ -1064,3 +1064,12 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **B1, B2, C1 sono pagine vere** come A1 e A2, con le tessere delle letture e delle favole di quel livello che portano direttamente al blocco giusto (`#b1`).
 - **Briciola di pane** delle letture: Home / Letture / Animali e natura / titolo, così ogni lettura rimanda alla sua categoria.
 - **Correzione trovata strada facendo**: in tedesco «letture graduate» era tradotto «Benotete Lektüren / Lesungen», cioè «letture con il voto». Corretto in 71 file (h1 dell'indice «Italienische Texte zum Lesen, von A1 bis C1», piè di pagina «Gestufte Lesetexte», occhielli «gestufter Lesetext»). È la pagina tedesca che su Google compare per «italienische Texte» in 25ª posizione.
+
+## 2026-10-30 - Briciole di pane coerenti nella sezione letture e favole
+
+- **Martin**: «favole non è sotto la directory letture… la sezione favole non ha la breadcrumb… la breadcrumb di storia-del-caffe non mi sembra coerente. Mantieni sempre coerente la struttura del sito e che sia perfetta dal punto di vista SEO».
+- **Briciole uguali ovunque**, rifatte da `create-reading-categories.mjs` (attributo `data-auto`): letture «Home / Letture / categoria / titolo», favole «Home / Letture / Favole / titolo», indice delle favole, pagine di categoria e di livello «Home / Letture / nome». Prima: il caffè aveva link relativi e nessuna categoria, le favole saltavano «Letture», l'indice delle favole non aveva la briciola.
+- **BreadcrumbList in JSON-LD** su tutte queste pagine (10 lingue): prima nessuna pagina del sito l'aveva. È quello che Google usa per la gerarchia e per mostrare il percorso nei risultati.
+- **L'URL `/favole/` resta dov'è**: è la pagina migliore su Google (posizione 3,6, 28% di clic in 3 mesi) e GitHub Pages non fa redirect 301, solo pagine di reindirizzamento, che farebbero perdere posizioni. Per Google la gerarchia la danno le briciole e i dati strutturati, non le cartelle.
+- L'indice delle favole ha anche la barra degli argomenti delle letture, con «Favole» evidenziato. Lo stile della barra ora è in `styles.css` (`CSS_VERSION` 20261030b).
+- Martin ha registrato il sito su Bing Webmaster Tools il 2026-10-30.

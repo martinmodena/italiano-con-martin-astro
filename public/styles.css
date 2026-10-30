@@ -117,3 +117,4 @@ a[href*="wa.me"]::before{background:var(--whatsapp-icon)}
 .hero-note{margin:-8px 0 0;max-width:520px;color:var(--muted);font-size:.98rem;line-height:1.5}
 
 .reading-cats a[aria-current="page"]{background:var(--dark);color:#fff;border-color:var(--dark)}.category-more{margin:18px 0 0;font-weight:850}.category-more a{color:var(--primary);text-underline-offset:4px}
+.reading-cats{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.reading-cats a{padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-weight:850}.reading-cats a[aria-current="page"]{background:var(--dark);color:#fff;border-color:var(--dark)}

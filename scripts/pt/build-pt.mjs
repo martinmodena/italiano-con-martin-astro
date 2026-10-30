@@ -186,9 +186,9 @@ function resolveHref(href, baseUrl) {
 }
 
 function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
-  // La categoria nella briciola di pane (Lecturas / Animales y naturaleza / …) la rimette
-  // create-reading-categories.mjs, già in portoghese: qui si toglie, così la briciola resta una frase nota.
-  esHtml = esHtml.replace(/ \/ <a class="crumb-cat" href="[^"]*">[^<]*<\/a>/g, '');
+  // Le briciole con data-auto (letture e favole) le rifà create-reading-categories.mjs, già in portoghese:
+  // qui si tiene solo il titolo della pagina, che è una frase nota.
+  esHtml = esHtml.replace(/<p class="breadcrumbs" data-auto>([^]*?)<\/p>/, (m, inner) => `<p class="breadcrumbs" data-auto>${inner.split(/<\/a>\s*\/\s*/).at(-1)}</p>`);
   const $ = cheerio.load(esHtml, null, false);
   const itSet = italianSegments(itHtml);
 

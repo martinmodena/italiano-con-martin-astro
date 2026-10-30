@@ -154,7 +154,7 @@ function rebuildIndex(lang, tiles) {
 // ---------------------------------------------------------------- 2. pagine nuove (categorie e livelli)
 function crumbs(lang) {
   const html = read(htmlOf(indexUrl[lang] + 'a1/'));
-  const m = html.match(/<p class="breadcrumbs">(<a [^>]*>[^<]*<\/a>) \/ (<a [^>]*>[^<]*<\/a>)/);
+  const m = html.match(/<p class="breadcrumbs"[^>]*>(<a [^>]*>[^<]*<\/a>) \/ (<a [^>]*>[^<]*<\/a>)/);
   return [m[1], m[2]];
 }
 
@@ -172,7 +172,7 @@ function writePage({ lang, url, urls, eyebrow, h1, lead, nav, tiles, crumb, seoT
   const html = `<main>
       <section class="page-intro">
         <div class="container">
-          <p class="breadcrumbs">${home} / ${readings} / ${crumb}</p>
+          <p class="breadcrumbs" data-auto>${home} / ${readings} / ${crumb}</p>
           <p class="eyebrow">${eyebrow}</p>
           <h1>${h1}</h1>
           <p class="lead">
@@ -317,18 +317,63 @@ function fixLevelIndex(lang, lv) {
   write(p, fixLevelNav(h, indexUrl[lang]));
 }
 
-// Briciola di pane delle letture: Home / Letture / <categoria> / titolo.
-function fixCrumbs(lang, tiles) {
-  for (const t of tiles) {
-    if (t.cat === 'favole') continue;
-    const p = htmlOf(t.href);
-    if (!fs.existsSync(p)) continue;
-    const h = read(p);
-    const c = CATEGORIES[t.cat][lang];
-    const re = new RegExp(`(<p class="breadcrumbs">[^]*?<a href="${indexUrl[lang]}">[^<]*</a>)(?: / <a class="crumb-cat" href="[^"]*">[^<]*</a>)?`);
-    if (!re.test(h)) continue;
-    write(p, h.replace(re, `$1 / <a class="crumb-cat" href="${catUrl(t.cat, lang)}">${c.name}</a>`));
+// Briciole di pane, uguali in tutta la sezione (2026-10-30, Martin: «mantieni sempre coerente la struttura»):
+//   letture      Home / Letture / <categoria> / titolo
+//   favole       Home / Letture / Favole / titolo      (l'URL /favole/ resta: è la pagina che rende di più su Google)
+//   indice favole, categorie, livelli   Home / Letture / <nome>
+// Ogni pagina ha anche il BreadcrumbList in JSON-LD, che Google usa per la gerarchia e i risultati.
+const stripTags = (s) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+function setCrumbs(lang, pageUrl, trail, title) {
+  const p = htmlOf(pageUrl);
+  if (!fs.existsSync(p)) return;
+  let h = read(p);
+  const [home, readings] = crumbs(lang);
+  const mid = trail.map(([name, url]) => ` / <a class="crumb-cat" href="${url}">${name}</a>`).join('');
+  const old = h.match(/<p class="breadcrumbs"[^>]*>([^]*?)<\/p>/);
+  const last = title ?? (old ? stripTags(old[1].split(/<\/a>\s*\/\s*/).at(-1)) : null);
+  if (!last) return;
+  // data-auto: build-pt.mjs ne traduce solo il titolo, il resto lo rifà questo script.
+  const visible = `<p class="breadcrumbs" data-auto>${home} / ${readings}${mid} / ${last}</p>`;
+  if (old) h = h.replace(old[0], visible);
+  else {
+    // Pagina senza briciola (l'indice delle favole): in testa all'introduzione.
+    const at = h.indexOf('<div class="container">', h.indexOf('<section class="page-intro">'));
+    if (at < 0) return;
+    h = h.slice(0, at) + '<div class="container">' + visible + h.slice(at + '<div class="container">'.length);
   }
+  write(p, h);
+
+  const astroFile = astroOf(pageUrl);
+  if (!fs.existsSync(astroFile)) return;
+  const meta = readMeta(astroFile);
+  const href = (a) => a.match(/href="([^"]*)"/)[1];
+  const names = [[stripTags(home), resolve(href(home), pageUrl)], [stripTags(readings), resolve(href(readings), pageUrl)], ...trail, [last, pageUrl]];
+  const list = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: names.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + encodeURI(url) })),
+  };
+  meta.jsonld = [...(meta.jsonld || []).filter((j) => !j.includes('"BreadcrumbList"')), JSON.stringify(list)];
+  writeMeta(astroFile, meta);
+}
+
+function fixCrumbs(lang, tiles) {
+  const fables = [UI[lang].fables, fableUrl[lang]];
+  for (const t of tiles) {
+    if (t.cat === 'favole') setCrumbs(lang, t.href, [fables]);
+    else setCrumbs(lang, t.href, [[CATEGORIES[t.cat][lang].name, catUrl(t.cat, lang)]]);
+  }
+  setCrumbs(lang, fableUrl[lang], [], UI[lang].fables);
+  for (const cat of CATEGORY_ORDER) setCrumbs(lang, catUrl(cat, lang), [], CATEGORIES[cat][lang].name);
+  for (const lv of [...LEVELS, 'a1', 'a2']) setCrumbs(lang, indexUrl[lang] + lv + '/', [], `${UI[lang].level} ${lv.toUpperCase()}`);
+}
+
+// Indice delle favole: stessa barra degli argomenti delle letture, con «Favole» evidenziato.
+function fableIndexNav(lang) {
+  const p = htmlOf(fableUrl[lang]);
+  let h = fixLevelNav(read(p), indexUrl[lang]).replace(/<nav class="reading-cats"[^]*?<\/nav>/, '');
+  h = h.replace(/(<nav class="level-hub-nav"[^]*?<\/nav>)/, `$1${catsNav(lang, 'favole')}`);
+  write(p, h);
 }
 
 // ---------------------------------------------------------------- 4. sitemap e portoghese
@@ -368,8 +413,7 @@ for (const lang of LANGS) {
   for (const cat of CATEGORY_ORDER) categoryPage(lang, cat, tiles);
   for (const lv of LEVELS) levelPage(lang, lv, tiles);
   for (const lv of ['a1', 'a2']) fixLevelIndex(lang, lv);
-  const fp = htmlOf(fableUrl[lang]);
-  write(fp, fixLevelNav(read(fp), indexUrl[lang]));
+  fableIndexNav(lang);
   fixCrumbs(lang, tiles);
   const count = Object.fromEntries([...CATEGORY_ORDER, 'favole'].map((c) => [c, tiles.filter((t) => t.cat === c).length]));
   console.log(lang, JSON.stringify(count));
