@@ -1,5 +1,6 @@
 // Inserisce nelle lezioni di grammatica il riquadro «confronto con la tua lingua» (id="confronto"),
 // subito dopo la regola (o dopo il riquadro indicato con «after»), e la voce nel menu della lezione. I testi sono in data/confronti-lingua.mjs.
+// Riscrive anche la sezione «Errori» con gli errori tipici di chi parla quella lingua (data/errori-lingua.mjs).
 //
 // Idempotente. Va lanciato dopo scripts/pt/build-pt.mjs (che toglie il riquadro spagnolo prima di tradurre)
 // e prima di add-breadcrumbs.mjs. Con --check non scrive niente e fallisce se un riquadro manca o è diverso.
@@ -9,6 +10,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { NAV, NOTES } from './data/confronti-lingua.mjs';
+import { ERR_H2, ERR_LABELS, ERRORS } from './data/errori-lingua.mjs';
 
 const SITE = 'https://italianoconmartin.com';
 const CHECK = process.argv.includes('--check');
@@ -21,6 +23,21 @@ const block = (n) =>
   `        <table class="compare-table"><thead><tr><th>${n.th[0]}</th><th>${n.th[1]}</th></tr></thead><tbody>` +
   n.rows.map(([a, b]) => `<tr><td>${a}</td><td lang="it">${b}</td></tr>`).join('') +
   `</tbody></table>\n        <ul>${n.points.map((p) => `<li>${p}</li>`).join('')}</ul>\n      </article><!-- /lang-note -->\n\n      `;
+
+// Sezione «Errori» riscritta per chi parla quella lingua (id="errori"): titolo e schede con la spiegazione.
+const ERR_RE = /<article class="lesson-box" id="errori">[^]*?<\/article>/;
+const errBlock = (lang, items) => {
+  const [w, c] = ERR_LABELS[lang];
+  const sp = lang === 'ja' ? '' : ' ';
+  return (
+    `<article class="lesson-box" id="errori">
+        <h2>${ERR_H2[lang]}</h2>
+        <div class="mistake-grid" data-auto>` +
+    items.map(([wrong, right, why]) => `<div class="mistake"><strong>${w}${sp}<span lang="it">${wrong}</span></strong> ${c}${sp}<span lang="it">${right}</span><br>${why}</div>`).join('') +
+    `</div>
+      </article>`
+  );
+};
 
 let problems = 0;
 let changed = 0;
@@ -43,6 +60,12 @@ for (const [itPath, byLang] of Object.entries(NOTES)) {
     const at = next.indexOf('<', end + '</article>'.length);
     next = next.slice(0, at) + block(note) + next.slice(at);
     next = next.replace(new RegExp(`(<div class="lesson-nav">.*?<a href="#${anchor}">[^<]*</a>)`), `$1<a href="#confronto">${NAV[lang]}</a>`);
+    const errs = ERRORS[itPath] && ERRORS[itPath][lang];
+    if (ERRORS[itPath] && !errs) throw new Error(`${itPath}: mancano gli errori per ${lang}`);
+    if (errs) {
+      if (!ERR_RE.test(next)) throw new Error(`${file}: sezione #errori non trovata`);
+      next = next.replace(ERR_RE, () => errBlock(lang, errs));
+    }
     if (next === html) continue;
     if (CHECK) {
       console.log(`Confronto da aggiornare: ${file}`);

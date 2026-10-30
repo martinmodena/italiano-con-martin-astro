@@ -191,6 +191,8 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
   esHtml = esHtml.replace(/<p class="breadcrumbs" data-auto>([^]*?)<\/p>/, (m, inner) => `<p class="breadcrumbs" data-auto>${inner.split(/<\/a>\s*\/\s*/).at(-1)}</p>`);
   // Il confronto con lo spagnolo non si traduce: add-language-notes.mjs mette quello con il portoghese.
   esHtml = esHtml.replace(/<article class="lesson-box lang-note" id="confronto">[^]*?<\/article><!-- \/lang-note -->\s*/, '').replace(/<a href="#confronto">[^<]*<\/a>/, '');
+  // Anche gli errori tipici sono di chi parla spagnolo: add-language-notes.mjs mette quelli portoghesi.
+  esHtml = esHtml.replace(/<article class="lesson-box" id="errori">\s*<h2>[^<]*<\/h2>\s*<div class="mistake-grid" data-auto>[^]*?<\/article>/, '<article class="lesson-box" id="errori"><h2></h2><div class="mistake-grid" data-auto></div></article>');
   const $ = cheerio.load(esHtml, null, false);
   const itSet = italianSegments(itHtml);
 
