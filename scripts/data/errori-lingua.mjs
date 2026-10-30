@@ -509,4 +509,59 @@ export const ERRORS = {
       ['Per favore parlare più lentamente.', 'Parla più lentamente, per favore.', '「〜てください」を不定詞で言わず、命令法 + <span lang="it">per favore</span> にします。'],
     ],
   },
+
+  'grammatica/a1/aggettivi-e-pronomi-possessivi.html': {
+    it: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', '<em lang="en">My book</em>: in italiano ci vuole l\'articolo.'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '<em lang="en">Her brother</em>: conta <span lang="it">fratello</span>, che è maschile.'],
+      ['La mia madre è medico.', 'Mia madre è medico.', 'Con i nomi di famiglia al singolare niente articolo.'],
+      ['Un amico di mio.', 'Un mio amico.', '<em lang="en">A friend of mine</em> → <span lang="it">un mio amico</span>.'],
+    ],
+    en: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', '<em>My book</em>: Italian needs the article.'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '<em>Her brother</em>: what counts is <span lang="it">fratello</span>, which is masculine.'],
+      ['La mia madre è medico.', 'Mia madre è medico.', 'Singular family nouns take no article.'],
+      ['Un amico di mio.', 'Un mio amico.', '<em>A friend of mine</em> → <span lang="it">un mio amico</span>.'],
+    ],
+    es: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', 'Calco de <em>mi libro</em>: en italiano hace falta el artículo.'],
+      ['Miei fratelli sono alti.', 'I miei fratelli sono alti.', '<em>Mis hermanos</em>: en plural los familiares llevan artículo.'],
+      ['Loro casa è grande.', 'La loro casa è grande.', '<em>Su casa</em> (de ellos) → <span lang="it">la loro casa</span>, siempre con artículo.'],
+    ],
+    pt: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', 'Decalque de <em>meu livro</em>: em italiano é preciso o artigo.'],
+      ['Maria, è sua questa borsa?', 'Maria, è tua questa borsa?', '<em>É sua?</em> (de você) → <span lang="it">tua</span>. <span lang="it">Sua</span> quer dizer <em>dele / dela</em>.'],
+      ['Miei amici sono qui.', 'I miei amici sono qui.', '<em>Meus amigos</em> → com artigo: <span lang="it">i miei amici</span>.'],
+    ],
+    fr: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', 'Calque de <em>mon livre</em> : il faut l\'article.'],
+      ['Il mio amica.', 'La mia amica.', '<em>Mon amie</em> : en italien le féminin reste féminin.'],
+      ['Loro casa è grande.', 'La loro casa è grande.', '<em>Leur maison</em> → <span lang="it">la loro casa</span>, avec l\'article.'],
+    ],
+    cs: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', 'Čeština členy nemá, italština ho před přivlastňovacím zájmenem potřebuje.'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '<em>Její bratr</em>: rozhoduje rod slova <span lang="it">fratello</span> (mužský).'],
+      ['La mia madre è medico.', 'Mia madre è medico.', 'Příbuzní v jednotném čísle jsou bez členu.'],
+    ],
+    pl: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', 'Polski nie ma rodzajników, ale włoski potrzebuje ich przed zaimkiem.'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '<em>Jej brat</em>: decyduje rodzaj słowa <span lang="it">fratello</span> (męski).'],
+      ['La mia madre è medico.', 'Mia madre è medico.', 'Członkowie rodziny w liczbie pojedynczej są bez rodzajnika.'],
+    ],
+    tr: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', '<em>Kitabım</em>: İtalyancada tanımlık da gerekir.'],
+      ['Marco e suo sorella.', 'Marco e sua sorella.', 'İyelik sıfatı ismin cinsiyetine uyar: <span lang="it">sorella</span> dişildir.'],
+      ['La mia madre è medico.', 'Mia madre è medico.', 'Aile üyeleri tekilken tanımlıksızdır.'],
+    ],
+    de: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', '<em>Mein Buch</em>: im Italienischen mit Artikel.'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '<em>Ihr Bruder</em>: Es zählt <span lang="it">fratello</span> (männlich), nicht Anna.'],
+      ['Un amico di me.', 'Un mio amico.', '<em>Ein Freund von mir</em> → <span lang="it">un mio amico</span>.'],
+    ],
+    ja: [
+      ['Mio libro è sul tavolo.', 'Il mio libro è sul tavolo.', '「私の本」でも冠詞が必要です。'],
+      ['Anna e sua fratello.', 'Anna e suo fratello.', '「彼女の兄」：<span lang="it">fratello</span> が男性名詞なので <span lang="it">suo</span> です。'],
+      ['Chiamo madre.', 'Chiamo mia madre.', '「母に電話します」：イタリア語では <span lang="it">mia</span> を省きません。'],
+    ],
+  },
 };

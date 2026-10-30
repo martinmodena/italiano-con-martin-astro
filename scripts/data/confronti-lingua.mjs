@@ -1495,4 +1495,188 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/aggettivi-e-pronomi-possessivi.html': {
+    it: {
+      h2: "I possessivi: il confronto con l'inglese",
+      intro:
+        'Due differenze contano più di tutto. L\'italiano mette l\'<strong>articolo</strong> davanti al possessivo (<em lang="en">my book</em> → <span lang="it">il mio libro</span>). E <strong>suo / sua</strong> si accorda con la cosa posseduta, non con la persona: <em lang="en">his</em> e <em lang="en">her</em> sono la stessa parola.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['my book', 'il mio libro'],
+        ['his sister / her sister', 'sua sorella'],
+        ['his brother / her brother', 'suo fratello'],
+        ['my mother / my brothers', 'mia madre / i miei fratelli'],
+        ['a friend of mine', 'un mio amico'],
+      ],
+      points: [
+        '<em lang="en">My, your, our</em> + nome vogliono quasi sempre l\'articolo: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em lang="en">His</em> o <em lang="en">her</em> non importa: conta il nome che segue. <span lang="it">Anna e suo fratello</span>, <span lang="it">Marco e sua sorella</span>.',
+        'Eccezione: i nomi di famiglia al singolare non hanno articolo (<span lang="it">mia madre, tuo padre</span>), ma al plurale sì (<span lang="it">i miei fratelli</span>).',
+      ],
+    },
+    en: {
+      h2: 'Possessives compared with English',
+      intro:
+        'Two differences matter most. Italian puts the <strong>article</strong> before the possessive (<em>my book</em> → <span lang="it">il mio libro</span>). And <strong lang="it">suo / sua</strong> agrees with the thing owned, not with the owner: <em>his</em> and <em>her</em> are the same word.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['my book', 'il mio libro'],
+        ['his sister / her sister', 'sua sorella'],
+        ['his brother / her brother', 'suo fratello'],
+        ['my mother / my brothers', 'mia madre / i miei fratelli'],
+        ['a friend of mine', 'un mio amico'],
+      ],
+      points: [
+        '<em>My, your, our</em> + noun almost always need the article: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>His</em> or <em>her</em> doesn\'t matter: what counts is the noun that follows. <span lang="it">Anna e suo fratello</span> (Anna and her brother), <span lang="it">Marco e sua sorella</span> (Marco and his sister).',
+        'Exception: singular family nouns take no article (<span lang="it">mia madre, tuo padre</span>), but plurals do (<span lang="it">i miei fratelli</span>).',
+      ],
+    },
+    es: {
+      h2: 'Los posesivos comparados con el español',
+      intro:
+        'En español <em>mi libro</em> va sin artículo; en italiano se dice <strong lang="it">il mio libro</strong>. Y el <em>su</em> español, que puede ser de él, de ella, de usted o de ellos, en italiano se divide: <strong lang="it">suo / sua</strong> (de él, de ella, de usted) y <strong lang="it">loro</strong> (de ellos).',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['mi libro', 'il mio libro'],
+        ['mis hermanos', 'i miei fratelli'],
+        ['mi madre', 'mia madre'],
+        ['su casa (de él / de ella)', 'la sua casa'],
+        ['su casa (de ellos)', 'la loro casa'],
+      ],
+      points: [
+        'Delante del nombre, el posesivo italiano lleva casi siempre artículo: <span lang="it">il mio libro, la tua casa, i nostri amici</span>. Es como decir <em>el libro mío</em>, pero con el posesivo delante.',
+        'Excepción que coincide con el español: los familiares en singular van sin artículo (<span lang="it">mia madre, tuo padre</span>); en plural, con artículo (<span lang="it">i miei fratelli</span>).',
+        '<span lang="it">Loro</span> no cambia nunca y siempre lleva artículo: <span lang="it">il loro libro, la loro casa, i loro figli</span>.',
+      ],
+    },
+    pt: {
+      h2: 'Os possessivos comparados com o português',
+      intro:
+        'No Brasil se diz <em>meu livro</em>, sem artigo; em italiano é <strong lang="it">il mio libro</strong>. E cuidado com <em>seu</em>: no Brasil quer dizer quase sempre <em>de você</em>, que em italiano é <strong lang="it">tuo</strong> (ou <span lang="it">Suo</span>, formal). <em>Dele / dela</em> é <strong lang="it">suo / sua</strong>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['meu livro', 'il mio libro'],
+        ['seu livro (de você)', 'il tuo libro'],
+        ['o livro dele / o livro dela', 'il suo libro'],
+        ['minha mãe / meus irmãos', 'mia madre / i miei fratelli'],
+        ['o livro deles', 'il loro libro'],
+      ],
+      points: [
+        'O possessivo italiano leva quase sempre artigo: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>Seu</em> (de você) → <span lang="it">tuo</span>; <em>dele</em> e <em>dela</em> → <span lang="it">suo / sua</span>, que concorda com a coisa possuída: <span lang="it">Anna e suo fratello</span>.',
+        'Parentes no singular ficam sem artigo, como no Brasil: <span lang="it">mia madre, tuo padre</span>. No plural, com artigo: <span lang="it">i miei fratelli</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les possessifs comparés au français',
+      intro:
+        'Bonne nouvelle : <strong lang="it">suo / sua</strong> s\'accorde avec l\'objet possédé, exactement comme <em>son / sa</em>. La différence : l\'italien ajoute l\'<strong>article</strong>. <em>Mon livre</em> → <span lang="it">il mio libro</span>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['mon livre', 'il mio libro'],
+        ['son frère / sa sœur', 'suo fratello / sua sorella'],
+        ['mon amie', 'la mia amica'],
+        ['ma mère / mes frères', 'mia madre / i miei fratelli'],
+        ['leur maison', 'la loro casa'],
+        ['un ami à moi', 'un mio amico'],
+      ],
+      points: [
+        'Devant le nom, le possessif italien prend presque toujours l\'article : <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>Mon amie</em> (avec <em>mon</em> devant une voyelle) → <span lang="it">la mia amica</span> : en italien le féminin reste féminin.',
+        'Exception : les noms de famille au singulier n\'ont pas d\'article (<span lang="it">mia madre</span>), mais au pluriel oui (<span lang="it">i miei fratelli</span>). <span lang="it">Loro</span> est invariable et prend toujours l\'article.',
+      ],
+    },
+    cs: {
+      h2: 'Přivlastňovací zájmena ve srovnání s češtinou',
+      intro:
+        'Čeština nemá členy, italština je dává i před přivlastňovací zájmeno: <em>moje kniha</em> → <strong lang="it">il mio libro</strong>. A <em>jeho / její</em> se v italštině neřídí majitelem, ale věcí: obojí je <strong lang="it">suo / sua</strong>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['moje kniha', 'il mio libro'],
+        ['jeho sestra / její sestra', 'sua sorella'],
+        ['jeho bratr / její bratr', 'suo fratello'],
+        ['moje matka / moji bratři', 'mia madre / i miei fratelli'],
+        ['Marek miluje svou ženu.', 'Marco ama sua moglie.'],
+      ],
+      points: [
+        'Před podstatným jménem dejte skoro vždy člen: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>Její bratr</em> je <span lang="it">suo fratello</span> (bratr je mužského rodu), <em>jeho sestra</em> je <span lang="it">sua sorella</span>. Rozhoduje rod věci, ne majitele.',
+        '<em>Svůj</em> italština nemá: <em>svou ženu</em> → <span lang="it">sua moglie</span>, <em>svého syna</em> → <span lang="it">suo figlio</span>. Příbuzní v jednotném čísle jsou bez členu.',
+      ],
+    },
+    pl: {
+      h2: 'Zaimki dzierżawcze w porównaniu z polskim',
+      intro:
+        'Polski nie ma rodzajników, włoski dodaje je nawet przed zaimkiem: <em>moja książka</em> → <strong lang="it">il mio libro</strong>. A <em>jego / jej</em> zależy po włosku nie od właściciela, tylko od rzeczy: oba to <strong lang="it">suo / sua</strong>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['moja książka', 'il mio libro'],
+        ['jego siostra / jej siostra', 'sua sorella'],
+        ['jego brat / jej brat', 'suo fratello'],
+        ['moja mama / moi bracia', 'mia madre / i miei fratelli'],
+        ['Marek kocha swoją żonę.', 'Marco ama sua moglie.'],
+      ],
+      points: [
+        'Przed rzeczownikiem prawie zawsze dajesz rodzajnik: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>Jej brat</em> to <span lang="it">suo fratello</span> (brat jest rodzaju męskiego), <em>jego siostra</em> to <span lang="it">sua sorella</span>. Decyduje rodzaj rzeczy, nie właściciela.',
+        '<em>Swój</em> nie istnieje: <em>swoją żonę</em> → <span lang="it">sua moglie</span>. Po polsku często pomijasz zaimek (<em>dzwonię do mamy</em>); po włosku lepiej go powiedzieć: <span lang="it">chiamo mia madre</span>.',
+      ],
+    },
+    tr: {
+      h2: 'İyelik sıfatları: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede iyelik bir ektir: <em>kitabım, kitabın, kitabı</em>. İtalyancada ismin önüne tanımlık ve iyelik sıfatı gelir: <strong lang="it">il mio libro</strong>. Türkçe <em>onun</em> gibi, <strong lang="it">suo</strong> da sahibin cinsiyetini göstermez.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['kitabım', 'il mio libro'],
+        ['onun kitabı', 'il suo libro'],
+        ['onun kız kardeşi', 'sua sorella'],
+        ['annem / kardeşlerim', 'mia madre / i miei fratelli'],
+        ['onların evi', 'la loro casa'],
+      ],
+      points: [
+        'İsmin önüne genellikle tanımlık gelir: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        'İyelik sıfatı, sahip olunan şeyin cinsiyetine ve sayısına uyar: <span lang="it">il mio libro</span> (eril), <span lang="it">la mia casa</span> (dişil), <span lang="it">i miei libri</span> (çoğul).',
+        'Aile üyeleri tekilken tanımlıksızdır (<span lang="it">mia madre</span>), çoğulda tanımlıklıdır (<span lang="it">i miei fratelli</span>). <span lang="it">Loro</span> değişmez.',
+      ],
+    },
+    de: {
+      h2: 'Possessivbegleiter im Vergleich zum Deutschen',
+      intro:
+        'Im Italienischen steht vor dem Possessiv meist der <strong>Artikel</strong>: <em>mein Buch</em> → <span lang="it">il mio libro</span>. Und <em>sein</em> und <em>ihr</em> sind dasselbe Wort: <strong lang="it">suo / sua</strong> richtet sich nach dem Besitz, nicht nach dem Besitzer.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['mein Buch', 'il mio libro'],
+        ['sein Bruder / ihr Bruder', 'suo fratello'],
+        ['seine Schwester / ihre Schwester', 'sua sorella'],
+        ['meine Mutter / meine Brüder', 'mia madre / i miei fratelli'],
+        ['ein Freund von mir', 'un mio amico'],
+      ],
+      points: [
+        'Vor dem Nomen fast immer mit Artikel: <span lang="it">il mio libro, la tua casa, i nostri amici</span>.',
+        '<em>Ihr Bruder</em> (von Anna) ist <span lang="it">suo fratello</span>, weil <span lang="it">fratello</span> männlich ist. Ob der Besitzer Mann oder Frau ist, spielt keine Rolle.',
+        'Familie im Singular ohne Artikel (<span lang="it">mia madre</span>), im Plural mit (<span lang="it">i miei fratelli</span>). Das höfliche <em>Ihr</em> ist <span lang="it">Suo</span>.',
+      ],
+    },
+    ja: {
+      h2: '所有形容詞と日本語の「〜の」',
+      intro:
+        '日本語は「私の本」と言うだけですが、イタリア語では冠詞も付けます。<strong lang="it">il mio libro</strong>。また、<strong lang="it">suo / sua</strong> は「彼の」も「彼女の」も表し、持ち主ではなく<strong>持ち物</strong>の性に合わせます。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['私の本', 'il mio libro'],
+        ['彼の妹／彼女の妹', 'sua sorella'],
+        ['彼の兄／彼女の兄', 'suo fratello'],
+        ['母／私の兄弟', 'mia madre / i miei fratelli'],
+        ['母に電話します。', 'Chiamo mia madre.'],
+      ],
+      points: [
+        '名詞の前ではほとんどいつも冠詞を付けます。<span lang="it">il mio libro</span>、<span lang="it">la tua casa</span>、<span lang="it">i nostri amici</span>。',
+        '「彼女の兄」は <span lang="it">suo fratello</span>（<span lang="it">fratello</span> が男性名詞だから）。持ち主の性は関係ありません。',
+        '日本語では「母に電話します」と「私の」を省きますが、イタリア語では普通 <span lang="it">mia madre</span> と言います。家族の単数は冠詞なし、複数は冠詞ありです。',
+      ],
+    },
+  },
 };
