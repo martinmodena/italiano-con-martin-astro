@@ -79,3 +79,35 @@ La gallina corre verso la sorgente mentre il galletto, sdraiato, aspetta: la cor
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Czech fairy tale book, fresh early morning light with dew sparkling on the grass, no black outlines. A Czech countryside meadow with a small stone spring in the foreground, a wooden fence, a village with a little church on the hill. A brown hen hurries anxiously across the grass towards the spring, wings spread. In the background a small colourful rooster lies on his side on a heap of straw, weakly raising his head, in an unmistakably comic and gentle way, not hurt. A pink pig and a brown cow watch from behind the fence. Tender, lively, humorous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
 ```
+
+## 9. `story-musicanti-brema` — «I musicanti di Brema» (Die Bremer Stadtmusikanten, Germania)
+
+I quattro animali uno sopra l'altro davanti alla finestra illuminata della casa nel bosco.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated German fairy tale book, deep blue moonlit night with warm golden light from a window, no black outlines. A small old half-timbered house in a dark German forest with one brightly lit window. In front of the window four animals stand on top of each other: at the bottom a grey donkey, on his back a brown dog, on the dog a tabby cat, and at the very top a colourful rooster, all with their mouths wide open as if singing loudly together. Fir trees, a full moon and stars above. Funny, warm, adventurous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 10. `story-lepre-riccio` — «La lepre e il riccio» (Der Hase und der Igel, Germania)
+
+La lepre arriva di corsa in fondo al solco e trova il riccio, cioè sua moglie, già lì.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated German fairy tale book, soft golden morning light, no black outlines. A ploughed field in the north German countryside with long straight furrows, a hedge, a windmill and a village in the distance. In the foreground a small calm hedgehog stands at the end of a furrow and raises one paw, smiling, as if saying hello. A tall thin brown hare arrives at full speed down the furrow, ears flying, eyes wide with astonishment. Far away at the other end of the same furrow a second small hedgehog is just visible. Humorous, lively atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people, no food.
+```
+
+## 11. `story-corvo-volpe` — «Il corvo e la volpe» (Le Corbeau et le Renard, La Fontaine, Francia)
+
+La volpe, seduta in basso, fa i complimenti al corvo, che apre il becco per cantare.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated French fable book, soft autumn afternoon light, no black outlines. A French countryside clearing with an old oak tree, a stone wall and a distant chateau on a hill. On a low branch a glossy black crow proudly stretches its neck and opens its beak wide to sing, while a small round golden thing slips from its beak and falls through the air. At the foot of the tree a handsome red fox sits politely with one paw on its chest, looking up with a charming, cunning smile. Elegant, humorous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no people.
+```
+
+## 12. `story-lattaia` — «La lattaia» (La Laitière et le Pot au lait, La Fontaine, Francia)
+
+Perrette cammina verso il mercato con la brocca sulla testa, sognando a occhi aperti.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated French fable book, fresh morning light, no black outlines. A country path through French fields leading to a small market town with a church tower. A cheerful young peasant woman in a long modest dress, long sleeves, apron and white bonnet walks with a light skip, balancing a tall closed earthenware jar on a small cushion on her head, one hand raised to hold it, her eyes dreamily turned to the sky and a smile on her lips. In the soft clouds above her, like a pale daydream, appear the faint shapes of a hen with chicks, a little pig and a cow with a calf. Gentle, playful, optimistic atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
+```
