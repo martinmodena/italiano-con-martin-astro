@@ -155,4 +155,67 @@ export const ERRORS = {
       ['È più facile leggere di scrivere.', 'È più facile leggere che scrivere.', '二つの動作を比べるときは <strong lang="it">che</strong> を使います。'],
     ],
   },
+
+  'grammatica/a1/preposizioni-semplici.html': {
+    it: [
+      ['Sono in Roma.', 'Sono a Roma.', '<em lang="en">In Rome</em>: con le città si usa sempre <strong>a</strong>, anche per dire dove sei.'],
+      ['Studio italiano per due anni.', 'Studio italiano da due anni.', '<em lang="en">For two years</em>, se continua ancora, è <strong>da</strong> + presente.'],
+      ['Arrivo in cinque minuti.', 'Arrivo tra cinque minuti.', '<em lang="en">In five minutes</em> nel futuro è <strong>tra</strong> (o <span lang="it">fra</span>).'],
+      ['Vado alla casa di Marco.', 'Vado da Marco.', '<em lang="en">To Marco\'s</em>: per andare a casa di qualcuno basta <strong>da</strong>.'],
+    ],
+    en: [
+      ['Sono in Roma.', 'Sono a Roma.', '<em>In Rome</em>: cities always take <strong lang="it">a</strong>, even for where you are.'],
+      ['Studio italiano per due anni.', 'Studio italiano da due anni.', '<em>For two years</em>, when it is still going on, is <strong lang="it">da</strong> + present tense.'],
+      ['Arrivo in cinque minuti.', 'Arrivo tra cinque minuti.', '<em>In five minutes</em>, in the future, is <strong lang="it">tra</strong> (or <span lang="it">fra</span>).'],
+      ['Vado alla casa di Marco.', 'Vado da Marco.', '<em>To Marco\'s</em>: to go to someone\'s place, <strong lang="it">da</strong> is enough.'],
+    ],
+    es: [
+      ['Sono in Roma.', 'Sono a Roma.', 'Calco de <em>estoy en Roma</em>. Con ciudades, siempre <strong lang="it">a</strong>.'],
+      ['Vado a Italia.', 'Vado in Italia.', 'Calco de <em>voy a Italia</em>. Con países, siempre <strong lang="it">in</strong>.'],
+      ['Vengo di Milano.', 'Vengo da Milano.', 'El <em>de</em> de procedencia es <strong lang="it">da</strong>; <span lang="it">di</span> solo para el origen: <span lang="it">sono di Milano</span>.'],
+      ['Arrivo dentro cinque minuti.', 'Arrivo tra cinque minuti.', '<em>Dentro de cinco minutos</em> → <strong lang="it">tra</strong>; <span lang="it">dentro</span> solo significa «en el interior».'],
+    ],
+    pt: [
+      ['Abito in Roma.', 'Abito a Roma.', 'Decalque de <em>moro em Roma</em>. Com cidades, sempre <strong lang="it">a</strong>.'],
+      ['Vado di treno.', 'Vado in treno.', '<em>De trem, de carro</em> → <strong lang="it">in treno, in macchina</strong>.'],
+      ['Vengo di Milano.', 'Vengo da Milano.', 'O <em>de</em> de procedência é <strong lang="it">da</strong>; <span lang="it">di</span> só para a origem: <span lang="it">sono di Milano</span>.'],
+      ['Studio italiano fa due anni.', 'Studio italiano da due anni.', '<em>Há dois anos</em> (e ainda estudo) → <strong lang="it">da</strong> + presente. <span lang="it">Fa</span> é só para o que já terminou.'],
+    ],
+    fr: [
+      ['Vado al Giappone.', 'Vado in Giappone.', 'Calque de <em>au Japon</em> : en italien, tous les pays prennent <strong lang="it">in</strong>.'],
+      ['Vengo di Milano.', 'Vengo da Milano.', 'Le <em>de</em> de provenance est <strong lang="it">da</strong> ; <span lang="it">di</span> sert pour l\'origine : <span lang="it">sono di Milano</span>.'],
+      ['Arrivo in cinque minuti.', 'Arrivo tra cinque minuti.', '<em>Dans cinq minutes</em> → <strong lang="it">tra</strong>. <span lang="it">In cinque minuti</span> veut dire « en cinq minutes ».'],
+      ['Vado al medico.', 'Vado dal medico.', '<em>Chez le médecin</em> → <strong lang="it">da</strong> + article : <span lang="it">dal medico</span>.'],
+    ],
+    cs: [
+      ['Vado in Roma.', 'Vado a Roma.', '<em>Do Říma</em> i <em>v Římě</em> se u měst překládá <strong lang="it">a</strong>.'],
+      ['Vado treno.', 'Vado in treno.', '<em>Vlakem</em> se vyjádří pádem, italsky je potřeba předložka: <strong lang="it">in treno</strong>.'],
+      ['Studio italiano due anni.', 'Studio italiano da due anni.', '<em>Učím se dva roky</em> (a pořád): italsky <strong lang="it">da</strong> + přítomný čas.'],
+      ['Vado a Marco.', 'Vado da Marco.', '<em>K Markovi</em> i <em>u Marka</em> je <strong lang="it">da</strong>.'],
+    ],
+    pl: [
+      ['Vado in Roma.', 'Vado a Roma.', '<em>Do Rzymu</em> i <em>w Rzymie</em> przy miastach to <strong lang="it">a</strong>.'],
+      ['Scrivo penna.', 'Scrivo con la penna.', '<em>Długopisem</em> to narzędnik bez przyimka; po włosku potrzebne jest <strong lang="it">con</strong>.'],
+      ['Vado a Marco.', 'Vado da Marco.', '<em>Do Marka</em> i <em>u Marka</em> to <strong lang="it">da</strong>.'],
+      ['Abito in Milano.', 'Abito a Milano.', '<em>W Mediolanie</em>: miejsce w mieście to też <strong lang="it">a</strong>, nie <span lang="it">in</span>.'],
+    ],
+    tr: [
+      ['Roma a vado.', 'Vado a Roma.', 'Türkçede ek kelimenin sonuna gelir (<em>Roma\'ya</em>), İtalyancada edat önüne: <span lang="it">a Roma</span>.'],
+      ['Vado in Roma.', 'Vado a Roma.', 'Şehirler için <strong lang="it">a</strong>, ülkeler için <span lang="it">in</span>: <span lang="it">vado in Italia</span>.'],
+      ['Vado con treno.', 'Vado in treno.', '<em>Trenle</em>: taşıtlar için <strong lang="it">in</strong> kullanılır.'],
+      ['Studio italiano per due anni.', 'Studio italiano da due anni.', '<em>İki yıldır</em> (hâlâ) → <strong lang="it">da</strong> + şimdiki zaman.'],
+    ],
+    de: [
+      ['Vado in Roma.', 'Vado a Roma.', '<em>In Rom</em> und <em>nach Rom</em>: bei Städten immer <strong lang="it">a</strong>.'],
+      ['Vado a Italia.', 'Vado in Italia.', '<em>Nach Italien</em>: bei Ländern immer <strong lang="it">in</strong>.'],
+      ['Vado a Marco.', 'Vado da Marco.', '<em>Zu Marco</em> und <em>bei Marco</em> sind <strong lang="it">da</strong>.'],
+      ['Arrivo in cinque minuti.', 'Arrivo tra cinque minuti.', '<em>In fünf Minuten</em> (in der Zukunft) ist <strong lang="it">tra</strong>.'],
+    ],
+    ja: [
+      ['Vado in Roma.', 'Vado a Roma.', '町には <strong lang="it">a</strong> を使います。「に」も「で」も同じです。'],
+      ['Vado a Italia.', 'Vado in Italia.', '国には <strong lang="it">in</strong> を使います。'],
+      ['Vado con treno.', 'Vado in treno.', '「電車で」の「で」は乗り物なので <strong lang="it">in</strong> です。'],
+      ['Studio italiano da due anni fa.', 'Studio italiano da due anni.', '「二年前から」の「前」は訳しません。<span lang="it">fa</span> は終わったことにだけ使います。'],
+    ],
+  },
 };
