@@ -2585,4 +2585,182 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/b1/condizionale-presente.html': {
+    after: 'usi',
+    it: {
+      h2: "Il condizionale: il confronto con l'inglese",
+      intro:
+        'L\'inglese usa <em lang="en">would, could, should</em> davanti al verbo. L\'italiano mette tutto in una parola sola: <em lang="en">I would go</em> → <strong>andrei</strong>, <em lang="en">could you</em> → <strong>potresti</strong>, <em lang="en">you should</em> → <strong>dovresti</strong>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ["I'd like a coffee.", 'Vorrei un caffè.'],
+        ['Could you help me?', 'Potresti aiutarmi?'],
+        ['You should sleep more.', 'Dovresti dormire di più.'],
+        ['If I had time, I would travel.', 'Se avessi tempo, viaggerei.'],
+        ['Every summer we would go to the sea.', 'Ogni estate andavamo al mare.'],
+      ],
+      points: [
+        'Dopo <span lang="it">se</span> non va il condizionale ma il <strong>congiuntivo</strong>: <span lang="it">se avessi tempo</span>, non <span lang="it">se avrei tempo</span>.',
+        '<em lang="en">Would</em> per le abitudini del passato non è condizionale: <span lang="it">andavamo</span> (imperfetto).',
+        '<em lang="en">I\'d like</em> → <strong>vorrei</strong> è il modo più naturale per chiedere al bar o in negozio.',
+      ],
+    },
+    en: {
+      h2: 'The conditional compared with English',
+      intro:
+        'English puts <em>would, could, should</em> before the verb. Italian packs it all into one word: <em>I would go</em> → <strong lang="it">andrei</strong>, <em>could you</em> → <strong lang="it">potresti</strong>, <em>you should</em> → <strong lang="it">dovresti</strong>.',
+      th: ['English', 'Italian'],
+      rows: [
+        ["I'd like a coffee.", 'Vorrei un caffè.'],
+        ['Could you help me?', 'Potresti aiutarmi?'],
+        ['You should sleep more.', 'Dovresti dormire di più.'],
+        ['If I had time, I would travel.', 'Se avessi tempo, viaggerei.'],
+        ['Every summer we would go to the sea.', 'Ogni estate andavamo al mare.'],
+      ],
+      points: [
+        'After <span lang="it">se</span> (if) Italian uses the <strong>subjunctive</strong>, not the conditional: <span lang="it">se avessi tempo</span>, not <span lang="it">se avrei tempo</span>.',
+        '<em>Would</em> for past habits is not the conditional: <span lang="it">andavamo</span> (imperfetto).',
+        '<em>I\'d like</em> → <strong lang="it">vorrei</strong> is the most natural way to ask in a bar or a shop.',
+      ],
+    },
+    es: {
+      h2: 'El condicional comparado con el español',
+      intro:
+        'Buena noticia: el <strong lang="it">condizionale</strong> se usa como el condicional español: <em>me gustaría</em> → <span lang="it">mi piacerebbe</span>, <em>podrías</em> → <span lang="it">potresti</span>, <em>deberías</em> → <span lang="it">dovresti</span>. Lo difícil son las terminaciones.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Hablaría con él.', 'Parlerei con lui.'],
+        ['Me gustaría viajar.', 'Mi piacerebbe viaggiare.'],
+        ['¿Podrías ayudarme?', 'Potresti aiutarmi?'],
+        ['Quisiera un café.', 'Vorrei un caffè.'],
+        ['Si tuviera tiempo, viajaría.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'La terminación <em>-ía</em> no existe en italiano: <span lang="it">io parlerei</span>, <span lang="it">lui parlerebbe</span>. <em>Gustaría</em> → <span lang="it">piacerebbe</span>.',
+        'Como en el futuro, en los verbos en <span lang="it">-are</span> la <span lang="it">a</span> se vuelve <strong lang="it">e</strong>: <em>hablaría</em> → <span lang="it">parlerei</span>.',
+        'Como en español, después de <span lang="it">se</span> va el subjuntivo: <em>si tuviera</em> → <span lang="it">se avessi</span>.',
+      ],
+    },
+    pt: {
+      h2: 'O condicional comparado com o português',
+      intro:
+        'Boa notícia: o <strong lang="it">condizionale</strong> se usa como o futuro do pretérito: <em>eu gostaria</em> → <span lang="it">mi piacerebbe</span> ou <span lang="it">vorrei</span>, <em>você poderia</em> → <span lang="it">potresti</span>. O difícil são as terminações.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Eu falaria com ele.', 'Parlerei con lui.'],
+        ['Eu gostaria de viajar.', 'Mi piacerebbe viaggiare.'],
+        ['Você poderia me ajudar?', 'Potresti aiutarmi?'],
+        ['Eu queria um café.', 'Vorrei un caffè.'],
+        ['Se eu tivesse tempo, viajaria.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'A terminação <em>-ia</em> não existe em italiano: <span lang="it">io parlerei</span>, <span lang="it">lui parlerebbe</span>. <em>Gostaria</em> → <span lang="it">piacerebbe</span>.',
+        'Para pedir no bar, <em>eu queria</em> → <strong lang="it">vorrei</strong> (no bar também se ouve <span lang="it">volevo</span>, como o seu <em>queria</em>).',
+        'Como em português, depois de <span lang="it">se</span> vai o subjuntivo: <em>se eu tivesse</em> → <span lang="it">se avessi</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Le conditionnel comparé au français',
+      intro:
+        'Le <strong lang="it">condizionale</strong> s\'utilise comme le conditionnel : <em>je voudrais</em> → <span lang="it">vorrei</span>, <em>tu pourrais</em> → <span lang="it">potresti</span>. Une seule différence importante, après <em>si</em>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je voudrais un café.', 'Vorrei un caffè.'],
+        ['Tu pourrais m\'aider ?', 'Potresti aiutarmi?'],
+        ['Tu devrais dormir plus.', 'Dovresti dormire di più.'],
+        ["Si j'avais le temps, je voyagerais.", 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'Après <em>si</em>, le français met l\'imparfait (<em>si j\'avais</em>) ; l\'italien met le <strong lang="it">congiuntivo imperfetto</strong> : <span lang="it">se avessi</span>, pas <span lang="it">se avevo</span>.',
+        'Les terminaisons : <em>je parlerais</em> → <span lang="it">parlerei</span>, <em>il parlerait</em> → <span lang="it">parlerebbe</span>, <em>ils parleraient</em> → <span lang="it">parlerebbero</span>.',
+        'Comme en français, le conditionnel rend une demande plus polie : <span lang="it">vorrei</span> plutôt que <span lang="it">voglio</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Podmiňovací způsob ve srovnání s češtinou',
+      intro:
+        'Čeština tvoří kondicionál pomocí <em>bych, bys, by</em>: <em>šel bych</em>. Italština to dělá jedním slovem: <strong lang="it">andrei</strong>. A ve větě s <em>kdyby</em> se italština od češtiny liší.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Chtěl bych kávu.', 'Vorrei un caffè.'],
+        ['Mohl bys mi pomoct?', 'Potresti aiutarmi?'],
+        ['Měl bys víc spát.', 'Dovresti dormire di più.'],
+        ['Kdybych měl čas, cestoval bych.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'Česky je kondicionál v obou částech věty (<em>kdybych měl … cestoval bych</em>). Italsky je po <span lang="it">se</span> <strong lang="it">congiuntivo</strong>: <span lang="it">se avessi</span>, ne <span lang="it">se avrei</span>.',
+        '<em>Chtěl bych</em> → <span lang="it">vorrei</span>, <em>mohl bys</em> → <span lang="it">potresti</span>, <em>měl bys</em> → <span lang="it">dovresti</span>.',
+        'Koncovky: <span lang="it">-ei, -esti, -ebbe, -emmo, -este, -ebbero</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Tryb przypuszczający w porównaniu z polskim',
+      intro:
+        'Po polsku tryb przypuszczający tworzysz z <em>-by</em>: <em>poszedłbym</em>. Po włosku to jedno słowo: <strong lang="it">andrei</strong>. A w zdaniu z <em>gdyby</em> włoski różni się od polskiego.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Chciałbym kawę.', 'Vorrei un caffè.'],
+        ['Mógłbyś mi pomóc?', 'Potresti aiutarmi?'],
+        ['Powinieneś więcej spać.', 'Dovresti dormire di più.'],
+        ['Gdybym miał czas, podróżowałbym.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'Po polsku tryb przypuszczający jest w obu częściach (<em>gdybym miał … podróżowałbym</em>). Po włosku po <span lang="it">se</span> jest <strong lang="it">congiuntivo</strong>: <span lang="it">se avessi</span>, nie <span lang="it">se avrei</span>.',
+        '<em>Powinieneś</em> → <span lang="it">dovresti</span>: rada brzmi grzecznie właśnie w trybie warunkowym.',
+        'Końcówki: <span lang="it">-ei, -esti, -ebbe, -emmo, -este, -ebbero</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Şart kipi: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede <em>isterdim, gelirdim</em> gibi <em>-erdi</em> biçimleri ve kibar <em>-ebilir misin</em> soruları İtalyancada <strong lang="it">condizionale</strong> ile söylenir: <span lang="it">vorrei</span>, <span lang="it">potresti</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Bir kahve istiyorum. (kibar)', 'Vorrei un caffè.'],
+        ['Bana yardım edebilir misin?', 'Potresti aiutarmi?'],
+        ['Daha çok uyumalısın.', 'Dovresti dormire di più.'],
+        ['Vaktim olsa seyahat ederdim.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        '<em>-sa</em> şart eki → <span lang="it">se</span> + <strong lang="it">congiuntivo</strong> (<span lang="it">se avessi</span>); <em>-erdi</em> → <span lang="it">condizionale</span> (<span lang="it">viaggerei</span>).',
+        'Kibar istek için <span lang="it">voglio</span> yerine <strong lang="it">vorrei</strong> kullanılır.',
+        'Ekler: <span lang="it">-ei, -esti, -ebbe, -emmo, -este, -ebbero</span>.',
+      ],
+    },
+    de: {
+      h2: 'Der Konditional im Vergleich zum Deutschen',
+      intro:
+        'Wo das Deutsche <em>würde</em> + Infinitiv oder den Konjunktiv II benutzt, hat das Italienische ein Wort: <em>ich würde fahren</em> → <strong lang="it">andrei</strong>, <em>ich möchte</em> → <strong lang="it">vorrei</strong>, <em>könntest du</em> → <strong lang="it">potresti</strong>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich möchte einen Kaffee.', 'Vorrei un caffè.'],
+        ['Könntest du mir helfen?', 'Potresti aiutarmi?'],
+        ['Du solltest mehr schlafen.', 'Dovresti dormire di più.'],
+        ['Wenn ich Zeit hätte, würde ich reisen.', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        'Im <em>wenn</em>-Satz steht nicht der Konditional, sondern der <strong lang="it">congiuntivo</strong>: <em>wenn ich hätte</em> → <span lang="it">se avessi</span>, nicht <span lang="it">se avrei</span>.',
+        '<em>Würde</em> wird nicht übersetzt: <span lang="it">viaggerei</span> = <em>ich würde reisen</em>.',
+        'Endungen: <span lang="it">-ei, -esti, -ebbe, -emmo, -este, -ebbero</span>.',
+      ],
+    },
+    ja: {
+      h2: '条件法と日本語の丁寧な言い方',
+      intro:
+        '日本語の「〜たいのですが」「〜てくれませんか」「〜したほうがいい」は、イタリア語では <strong lang="it">condizionale</strong> で表すことが多いです。<span lang="it">vorrei</span>、<span lang="it">potresti</span>、<span lang="it">dovresti</span>。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['コーヒーをお願いしたいのですが。', 'Vorrei un caffè.'],
+        ['手伝ってくれませんか。', 'Potresti aiutarmi?'],
+        ['もっと寝たほうがいいよ。', 'Dovresti dormire di più.'],
+        ['時間があったら旅行するのに。', 'Se avessi tempo, viaggerei.'],
+      ],
+      points: [
+        '「〜たら…のに」：<span lang="it">se</span> のあとは <strong lang="it">congiuntivo</strong>（<span lang="it">se avessi</span>）、もう一方が条件法（<span lang="it">viaggerei</span>）です。',
+        '注文するときは <span lang="it">voglio</span>（ほしい）より <strong lang="it">vorrei</strong> のほうが丁寧です。',
+        '語尾：<span lang="it">-ei, -esti, -ebbe, -emmo, -este, -ebbero</span>。',
+      ],
+    },
+  },
 };

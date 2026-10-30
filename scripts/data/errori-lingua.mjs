@@ -838,4 +838,51 @@ export const ERRORS = {
       ['Io mangierò.', 'Io mangerò.', '<span lang="it">-giare</span> 動詞は <span lang="it">i</span> が落ちます：<span lang="it">mangerò</span>。'],
     ],
   },
+
+  'grammatica/b1/condizionale-presente.html': {
+    it: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em lang="en">If I had</em>: dopo <span lang="it">se</span> ci vuole il <strong>congiuntivo</strong>.'],
+      ['Da bambino andrei al mare ogni estate.', 'Da bambino andavo al mare ogni estate.', '<em lang="en">Would</em> per un\'abitudine del passato → imperfetto.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', 'Con <span lang="it">io</span> la terminazione è <strong>-ei</strong>.'],
+    ],
+    en: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>If I had</em>: after <span lang="it">se</span> you need the <strong>subjunctive</strong>.'],
+      ['Da bambino andrei al mare ogni estate.', 'Da bambino andavo al mare ogni estate.', '<em>Would</em> for a past habit → imperfetto.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', 'With <span lang="it">io</span> the ending is <strong lang="it">-ei</strong>.'],
+    ],
+    es: [
+      ['Io parleria.', 'Io parlerei.', '<em>Hablaría</em>: en italiano la terminación de <span lang="it">io</span> es <strong lang="it">-ei</strong>.'],
+      ['Mi piaceria viaggiare.', 'Mi piacerebbe viaggiare.', '<em>Me gustaría</em> → <span lang="it">piacerebbe</span>.'],
+      ['Io parlarei.', 'Io parlerei.', 'Como en el futuro, la <span lang="it">a</span> de <span lang="it">-are</span> se vuelve <strong lang="it">e</strong>.'],
+    ],
+    pt: [
+      ['Io parleria.', 'Io parlerei.', '<em>Falaria</em>: em italiano a terminação de <span lang="it">io</span> é <strong lang="it">-ei</strong>.'],
+      ['Mi piaceria viaggiare.', 'Mi piacerebbe viaggiare.', '<em>Gostaria</em> → <span lang="it">piacerebbe</span>.'],
+      ['Io parlarei.', 'Io parlerei.', 'Como no futuro, a <span lang="it">a</span> de <span lang="it">-are</span> vira <strong lang="it">e</strong>.'],
+    ],
+    fr: [
+      ['Se avevo tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>Si j\'avais</em> : après <span lang="it">se</span>, <strong lang="it">congiuntivo imperfetto</strong>, pas imparfait.'],
+      ['Loro parlerebbono.', 'Loro parlerebbero.', '<em>Ils parleraient</em> → terminaison <strong lang="it">-ebbero</strong>.'],
+    ],
+    cs: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>Kdybych měl</em> → po <span lang="it">se</span> <strong lang="it">congiuntivo</strong>, ne kondicionál.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<em>Chtěl bych</em> → s <span lang="it">io</span> koncovka <strong lang="it">-ei</strong>.'],
+    ],
+    pl: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>Gdybym miał</em> → po <span lang="it">se</span> <strong lang="it">congiuntivo</strong>, nie tryb przypuszczający.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<em>Chciałbym</em> → z <span lang="it">io</span> końcówka <strong lang="it">-ei</strong>.'],
+    ],
+    tr: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>Vaktim olsa</em> → <span lang="it">se</span> + <strong lang="it">congiuntivo</strong>.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<span lang="it">io</span> için ek <strong lang="it">-ei</strong>.'],
+    ],
+    de: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '<em>Wenn ich hätte</em> → <span lang="it">se avessi</span> (Konjunktiv), nicht Konditional.'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<em>Ich möchte</em> → mit <span lang="it">io</span> die Endung <strong lang="it">-ei</strong>.'],
+    ],
+    ja: [
+      ['Se avrei tempo, viaggerei.', 'Se avessi tempo, viaggerei.', '「時間があったら」：<span lang="it">se</span> のあとは <strong lang="it">congiuntivo</strong>。'],
+      ['Io vorrebbe un caffè.', 'Io vorrei un caffè.', '<span lang="it">io</span> の語尾は <strong lang="it">-ei</strong> です。'],
+    ],
+  },
 };
