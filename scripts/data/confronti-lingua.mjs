@@ -1679,4 +1679,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/verbo-essere.html': {
+    it: {
+      h2: "Il verbo essere: il confronto con l'inglese",
+      intro:
+        '<em lang="en">To be</em> e <strong>essere</strong> si somigliano, ma non coprono le stesse cose. Per l\'età, la fame e il freddo l\'italiano usa <span lang="it">avere</span>; per dire come stai usa <span lang="it">stare</span>. E il soggetto di solito non si dice: <span lang="it">sono</span> basta.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ["I'm Italian.", 'Sono italiano.'],
+        ["I'm a teacher.", 'Sono insegnante.'],
+        ["It's me.", 'Sono io.'],
+        ['How are you? I\'m fine.', 'Come stai? Sto bene.'],
+        ["I'm twenty. I'm cold.", 'Ho vent\'anni. Ho freddo.'],
+      ],
+      points: [
+        'Il verbo dice già chi è il soggetto: <span lang="it">sono</span> = <em lang="en">I am</em>, <span lang="it">sei</span> = <em lang="en">you are</em>. <span lang="it">Io sono</span> si usa solo per dare enfasi.',
+        '<em lang="en">It\'s me</em> → <strong>sono io</strong>: il verbo si accorda con <span lang="it">io</span>, non con <em lang="en">it</em>.',
+        'Con età, fame, sete, caldo, freddo e paura si usa <strong>avere</strong>: <span lang="it">ho vent\'anni, ho fame</span>. Con <em lang="en">how are you</em> si usa <strong>stare</strong>.',
+      ],
+    },
+    en: {
+      h2: 'The verb essere compared with English',
+      intro:
+        '<em>To be</em> and <strong lang="it">essere</strong> look alike, but they don\'t cover the same ground. For age, hunger and cold Italian uses <span lang="it">avere</span> (to have); for “how are you” it uses <span lang="it">stare</span>. And the subject is usually left out: <span lang="it">sono</span> is enough.',
+      th: ['English', 'Italian'],
+      rows: [
+        ["I'm Italian.", 'Sono italiano.'],
+        ["I'm a teacher.", 'Sono insegnante.'],
+        ["It's me.", 'Sono io.'],
+        ["How are you? I'm fine.", 'Come stai? Sto bene.'],
+        ["I'm twenty. I'm cold.", "Ho vent'anni. Ho freddo."],
+      ],
+      points: [
+        'The verb already tells you who the subject is: <span lang="it">sono</span> = I am, <span lang="it">sei</span> = you are. <span lang="it">Io sono</span> is only for emphasis.',
+        '<em>It\'s me</em> → <strong lang="it">sono io</strong>: the verb agrees with <span lang="it">io</span>, not with <em>it</em>.',
+        'Age, hunger, thirst, heat, cold and fear use <strong lang="it">avere</strong>: <span lang="it">ho vent\'anni, ho fame</span> (literally “I have twenty years, I have hunger”). <em>How are you</em> uses <strong lang="it">stare</strong>.',
+      ],
+    },
+    es: {
+      h2: 'El verbo essere comparado con el español',
+      intro:
+        'El italiano también tiene dos verbos, <strong lang="it">essere</strong> y <strong lang="it">stare</strong>, pero no se reparten el trabajo como <em>ser</em> y <em>estar</em>. <strong lang="it">Essere</strong> hace casi todo, también la ubicación y los estados: <em>estoy en casa</em> → <span lang="it">sono a casa</span>, <em>estoy cansado</em> → <span lang="it">sono stanco</span>.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Soy italiano.', 'Sono italiano.'],
+        ['Estoy en casa.', 'Sono a casa.'],
+        ['Estoy cansado.', 'Sono stanco.'],
+        ['¿Cómo estás? Estoy bien.', 'Come stai? Sto bene.'],
+        ['Soy yo.', 'Sono io.'],
+      ],
+      points: [
+        '<em>Estar</em> + adjetivo (<em>cansado, contento, enfermo</em>) es casi siempre <strong lang="it">essere</strong>: <span lang="it">sono stanco, sono contento</span>.',
+        '<strong lang="it">Stare</strong> se usa sobre todo para la salud (<span lang="it">come stai? sto bene</span>), con el gerundio (<span lang="it">sto mangiando</span>) y en expresiones como <span lang="it">stare zitto</span>.',
+        'Como en español, el pronombre sujeto no hace falta: <span lang="it">sono</span> = <em>soy, estoy</em>.',
+      ],
+    },
+    pt: {
+      h2: 'O verbo essere comparado com o português',
+      intro:
+        'O italiano também tem <strong lang="it">essere</strong> e <strong lang="it">stare</strong>, mas não divide o trabalho como <em>ser</em> e <em>estar</em>. <strong lang="it">Essere</strong> faz quase tudo, também lugar e estado: <em>estou em casa</em> → <span lang="it">sono a casa</span>, <em>estou cansado</em> → <span lang="it">sono stanco</span>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Sou italiano.', 'Sono italiano.'],
+        ['Estou em casa.', 'Sono a casa.'],
+        ['Estou cansado.', 'Sono stanco.'],
+        ['Tudo bem? Estou bem.', 'Come stai? Sto bene.'],
+        ['Sou eu.', 'Sono io.'],
+      ],
+      points: [
+        '<em>Estar</em> + adjetivo (<em>cansado, contente, doente</em>) é quase sempre <strong lang="it">essere</strong>: <span lang="it">sono stanco, sono contento</span>.',
+        '<strong lang="it">Stare</strong> serve sobretudo para a saúde (<span lang="it">come stai? sto bene</span>) e com o gerúndio (<span lang="it">sto mangiando</span>).',
+        'Como em português, o pronome sujeito pode cair: <span lang="it">sono</span> = <em>eu sou, eu estou</em>.',
+      ],
+    },
+    fr: {
+      h2: 'Le verbe essere comparé au français',
+      intro:
+        '<strong lang="it">Essere</strong> correspond presque toujours à <em>être</em>, et l\'âge, la faim et le froid se disent avec <span lang="it">avere</span>, comme en français. Deux différences : le pronom sujet tombe, et <em>ça va</em> se dit avec <span lang="it">stare</span>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je suis italien.', 'Sono italiano.'],
+        ['Il est médecin.', 'È medico.'],
+        ["C'est moi.", 'Sono io.'],
+        ['Comment ça va ? Je vais bien.', 'Come stai? Sto bene.'],
+        ["J'ai vingt ans. J'ai froid.", "Ho vent'anni. Ho freddo."],
+      ],
+      points: [
+        'Le verbe suffit : <span lang="it">sono</span> = <em>je suis</em>. <span lang="it">Io sono</span> sert à insister.',
+        '<em>C\'est moi</em> → <strong lang="it">sono io</strong> ; <em>c\'est nous</em> → <span lang="it">siamo noi</span>. Le verbe s\'accorde avec la personne.',
+        '<em>Je vais bien</em> ne se dit pas avec <span lang="it">andare</span> : <strong lang="it">sto bene</strong>.',
+      ],
+    },
+    cs: {
+      h2: 'Sloveso essere ve srovnání s češtinou',
+      intro:
+        'Dobrá zpráva: jako čeština i italština vynechává zájmeno (<em>jsem</em> → <span lang="it">sono</span>). Liší se ale věk, zima a otázka „jak se máš“: tam italština nepoužívá <span lang="it">essere</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Jsem Ital.', 'Sono italiano.'],
+        ['Je učitel.', 'È insegnante.'],
+        ['To jsem já.', 'Sono io.'],
+        ['Je mi dvacet let. Je mi zima.', "Ho vent'anni. Ho freddo."],
+        ['Jak se máš? Mám se dobře.', 'Come stai? Sto bene.'],
+      ],
+      points: [
+        '<em>Je mi dvacet</em>, <em>je mi zima</em>, <em>mám hlad</em>: italsky vždy <strong lang="it">avere</strong> — <span lang="it">ho vent\'anni, ho freddo, ho fame</span>.',
+        '<em>Jak se máš? Mám se dobře</em> se neříká s <span lang="it">avere</span>, ale se <strong lang="it">stare</strong>: <span lang="it">come stai? sto bene</span>.',
+        '<em>To jsem já</em> → <span lang="it">sono io</span>, bez <span lang="it">to</span>. Povolání bez členu: <span lang="it">è insegnante</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Czasownik essere w porównaniu z polskim',
+      intro:
+        'Dobra wiadomość: jak po polsku, zaimek można pominąć (<em>jestem</em> → <span lang="it">sono</span>), a wiek wyraża się przez <em>mieć</em>: <em>mam dwadzieścia lat</em> → <span lang="it">ho vent\'anni</span>. Różnice są w zimnie, w pytaniu „jak się masz” i w narzędniku.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Jestem Włochem.', 'Sono italiano.'],
+        ['On jest nauczycielem.', 'È insegnante.'],
+        ['To ja.', 'Sono io.'],
+        ['Jest mi zimno.', 'Ho freddo.'],
+        ['Jak się masz? Dobrze.', 'Come stai? Sto bene.'],
+      ],
+      points: [
+        'Po <em>być</em> polski używa narzędnika (<em>nauczycielem</em>); po włosku słowo się nie zmienia: <span lang="it">sono insegnante</span>.',
+        '<em>Jest mi zimno</em>, <em>jest mi gorąco</em> → <strong lang="it">ho freddo, ho caldo</strong>. <em>To ja</em> → <span lang="it">sono io</span>.',
+        '<em>Jak się masz?</em> to <span lang="it">come stai?</span> ze <strong lang="it">stare</strong>, nie z <span lang="it">avere</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Essere fiili: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede «olmak» çoğu zaman bir ektir: <em>İtalyanım, öğretmensin</em>, üçüncü kişide bazen hiçbir şey: <em>O öğretmen</em>. İtalyancada her zaman bir fiil gerekir: <strong lang="it">sono italiano</strong>, <strong lang="it">è insegnante</strong>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['İtalyanım.', 'Sono italiano.'],
+        ['O öğretmen.', 'È insegnante.'],
+        ['Benim.', 'Sono io.'],
+        ['Yirmi yaşındayım.', "Ho vent'anni."],
+        ['Nasılsın? İyiyim.', 'Come stai? Sto bene.'],
+      ],
+      points: [
+        '<em>O öğretmen</em> gibi fiilsiz cümle İtalyancada olmaz: <span lang="it">è</span> gerekir. <span lang="it">Lui è insegnante</span>.',
+        'Yaş, açlık, soğuk için <strong lang="it">avere</strong> kullanılır: <span lang="it">ho vent\'anni</span> (yirmi yaşındayım), <span lang="it">ho freddo</span> (üşüyorum).',
+        '<em>İyiyim</em> → <span lang="it">sto bene</span>, <strong lang="it">stare</strong> fiiliyle.',
+      ],
+    },
+    de: {
+      h2: 'Das Verb essere im Vergleich zum Deutschen',
+      intro:
+        '<strong lang="it">Essere</strong> entspricht meist <em>sein</em>, und wie im Deutschen steht der Beruf ohne Artikel: <em>Ich bin Lehrer</em> → <span lang="it">sono insegnante</span>. Das Pronomen fällt aber weg, und bei Alter, Kälte und Befinden nimmt das Italienische andere Verben.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich bin Italiener.', 'Sono italiano.'],
+        ['Ich bin Lehrer.', 'Sono insegnante.'],
+        ['Ich bin es.', 'Sono io.'],
+        ['Ich bin zwanzig. Mir ist kalt.', "Ho vent'anni. Ho freddo."],
+        ['Wie geht es dir? Mir geht es gut.', 'Come stai? Sto bene.'],
+      ],
+      points: [
+        'Das Verb reicht: <span lang="it">sono</span> = <em>ich bin</em>. <span lang="it">Io sono</span> nur zur Betonung.',
+        '<em>Ich bin zwanzig</em>, <em>mir ist kalt</em> → <strong lang="it">avere</strong>: <span lang="it">ho vent\'anni, ho freddo</span>. <em>Es ist kalt</em> (Wetter) → <span lang="it">fa freddo</span>.',
+        '<em>Ich bin es</em> → <span lang="it">sono io</span>. <em>Wie geht\'s</em> → <span lang="it">come stai</span>, mit <strong lang="it">stare</strong>.',
+      ],
+    },
+    ja: {
+      h2: 'essere と日本語の「です」',
+      intro:
+        '「です」と <strong lang="it">essere</strong> は似ていますが、同じではありません。年齢、空腹、寒さには <span lang="it">avere</span>、「元気です」には <span lang="it">stare</span> を使います。主語は普通言いません。<span lang="it">sono</span> だけで「私は〜です」になります。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['私はイタリア人です。', 'Sono italiano.'],
+        ['彼は先生です。', 'È insegnante.'],
+        ['二十歳です。', "Ho vent'anni."],
+        ['元気です。', 'Sto bene.'],
+        ['（注文で）コーヒーです。', 'Prendo un caffè.'],
+      ],
+      points: [
+        '「〜です」を何でも <span lang="it">essere</span> にしないでください。年齢は <strong lang="it">avere</strong>（<span lang="it">ho vent\'anni</span>）、「寒いです」は <span lang="it">fa freddo</span>（天気）か <span lang="it">ho freddo</span>（私が寒い）。',
+        '「元気です」は <strong lang="it">sto bene</strong> です。',
+        '「私はコーヒーです」のような「です」は、イタリア語では動詞を変えます。<span lang="it">prendo un caffè</span>（コーヒーにします）。',
+      ],
+    },
+  },
 };

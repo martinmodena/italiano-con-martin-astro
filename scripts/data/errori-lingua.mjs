@@ -564,4 +564,62 @@ export const ERRORS = {
       ['Chiamo madre.', 'Chiamo mia madre.', '「母に電話します」：イタリア語では <span lang="it">mia</span> を省きません。'],
     ],
   },
+
+  'grammatica/a1/verbo-essere.html': {
+    it: [
+      ['È io.', 'Sono io.', '<em lang="en">It\'s me</em>: il verbo si accorda con <span lang="it">io</span>.'],
+      ['Sono vent\'anni.', "Ho vent'anni.", '<em lang="en">I\'m twenty</em>: l\'età si dice con <strong>avere</strong>.'],
+      ['Sono freddo.', 'Ho freddo.', '<em lang="en">I\'m cold</em> → <span lang="it">ho freddo</span>. <span lang="it">Sono freddo</span> vuol dire «sono una persona fredda».'],
+      ['Come sei?', 'Come stai?', '<em lang="en">How are you?</em> si chiede con <strong>stare</strong>.'],
+    ],
+    en: [
+      ['È io.', 'Sono io.', '<em>It\'s me</em>: the verb agrees with <span lang="it">io</span>.'],
+      ["Sono vent'anni.", "Ho vent'anni.", '<em>I\'m twenty</em>: age uses <strong lang="it">avere</strong>.'],
+      ['Sono freddo.', 'Ho freddo.', '<em>I\'m cold</em> → <span lang="it">ho freddo</span>. <span lang="it">Sono freddo</span> means “I\'m a cold person”.'],
+      ['Come sei?', 'Come stai?', '<em>How are you?</em> uses <strong lang="it">stare</strong>.'],
+    ],
+    es: [
+      ['Sto stanco.', 'Sono stanco.', '<em>Estoy cansado</em>: con adjetivos el italiano usa <strong lang="it">essere</strong>.'],
+      ['Sto contento.', 'Sono contento.', '<em>Estoy contento</em> → <span lang="it">sono contento</span>.'],
+      ['Sono bene.', 'Sto bene.', 'Al revés: para la salud, <strong lang="it">stare</strong>. <em>Estoy bien</em> → <span lang="it">sto bene</span>.'],
+    ],
+    pt: [
+      ['Sto stanco.', 'Sono stanco.', '<em>Estou cansado</em>: com adjetivos o italiano usa <strong lang="it">essere</strong>.'],
+      ['Sto contento.', 'Sono contento.', '<em>Estou contente</em> → <span lang="it">sono contento</span>.'],
+      ['Sono bene.', 'Sto bene.', 'Ao contrário: para a saúde, <strong lang="it">stare</strong>. <em>Estou bem</em> → <span lang="it">sto bene</span>.'],
+    ],
+    fr: [
+      ['È io.', 'Sono io.', '<em>C\'est moi</em> : le verbe s\'accorde avec <span lang="it">io</span>.'],
+      ['Vado bene.', 'Sto bene.', '<em>Je vais bien</em> → <strong lang="it">sto bene</strong>.'],
+      ['Come vai?', 'Come stai?', '<em>Comment vas-tu ?</em> → <span lang="it">come stai?</span>'],
+    ],
+    cs: [
+      ["Mi è vent'anni.", "Ho vent'anni.", '<em>Je mi dvacet</em> → věk se říká s <strong lang="it">avere</strong>.'],
+      ['Mi è freddo.', 'Ho freddo.', '<em>Je mi zima</em> → <span lang="it">ho freddo</span>.'],
+      ['Ho bene.', 'Sto bene.', '<em>Mám se dobře</em> → se <strong lang="it">stare</strong>: <span lang="it">sto bene</span>.'],
+      ['È io.', 'Sono io.', '<em>To jsem já</em>: sloveso se řídí <span lang="it">io</span>.'],
+    ],
+    pl: [
+      ['Mi è freddo.', 'Ho freddo.', '<em>Jest mi zimno</em> → <strong lang="it">ho freddo</strong>.'],
+      ['È io.', 'Sono io.', '<em>To ja</em>: czasownik zgadza się z <span lang="it">io</span>.'],
+      ['Mi ho bene.', 'Sto bene.', '<em>Mam się dobrze</em> → ze <strong lang="it">stare</strong>: <span lang="it">sto bene</span>.'],
+    ],
+    tr: [
+      ['Lui insegnante.', 'Lui è insegnante.', '<em>O öğretmen</em>: İtalyancada fiil gerekir.'],
+      ["Sono vent'anni.", "Ho vent'anni.", '<em>Yirmi yaşındayım</em> → yaş <strong lang="it">avere</strong> ile söylenir.'],
+      ['Sono bene.', 'Sto bene.', '<em>İyiyim</em> → <strong lang="it">stare</strong> ile: <span lang="it">sto bene</span>.'],
+    ],
+    de: [
+      ['È io.', 'Sono io.', '<em>Ich bin es</em>: das Verb richtet sich nach <span lang="it">io</span>.'],
+      ["Sono vent'anni.", "Ho vent'anni.", '<em>Ich bin zwanzig</em>: das Alter mit <strong lang="it">avere</strong>.'],
+      ['Mi è freddo.', 'Ho freddo.', '<em>Mir ist kalt</em> → <span lang="it">ho freddo</span>.'],
+      ['È freddo oggi.', 'Oggi fa freddo.', '<em>Es ist kalt</em> (Wetter) → <span lang="it">fa freddo</span>.'],
+    ],
+    ja: [
+      ["Sono vent'anni.", "Ho vent'anni.", '「二十歳です」：年齢は <strong lang="it">avere</strong> です。'],
+      ['Sono bene.', 'Sto bene.', '「元気です」は <strong lang="it">sto bene</strong>。'],
+      ['Io sono caffè.', 'Prendo un caffè.', '「私はコーヒーです」（注文）は <span lang="it">prendo</span> を使います。'],
+      ['È freddo oggi.', 'Oggi fa freddo.', '「今日は寒いです」（天気）は <span lang="it">fa freddo</span>。'],
+    ],
+  },
 };
