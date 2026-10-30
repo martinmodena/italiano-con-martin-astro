@@ -147,7 +147,7 @@ export const i18n = {
     slug: 'suplementos-para-el-gimnasio',
     home: 'Inicio',
     indexLabel: 'Lecturas',
-    eyebrow: 'Ciencias - lectura calificada',
+    eyebrow: 'Ciencias - lectura graduada',
     pdfAria: 'Descargas de PDF',
     pdfAll: 'PDF todos los niveles',
     wordsLabel: 'Palabras útiles',
@@ -224,7 +224,7 @@ export const i18n = {
     slug: 'complements-alimentaires-musculation',
     home: 'Accueil',
     indexLabel: 'Lectures',
-    eyebrow: 'Sciences - lecture notée',
+    eyebrow: 'Sciences - lecture graduée',
     pdfAria: 'Téléchargements PDF',
     pdfAll: 'PDF tous les niveaux',
     wordsLabel: 'Mots utiles',
@@ -457,7 +457,7 @@ export const i18n = {
     slug: 'spor-salonu-takviyeleri',
     home: 'Ana sayfa',
     indexLabel: 'Okumalar',
-    eyebrow: 'Bilim - dereceli okuma',
+    eyebrow: 'Bilim - seviyeli okuma',
     pdfAria: 'PDF indirmeleri',
     pdfAll: 'PDF tum seviyeler',
     wordsLabel: 'Yararlı kelimeler',
@@ -476,9 +476,9 @@ export const i18n = {
     figcaption:
       'Tozlar, tabletler ve kavanozlar: spor salonunda satılan her şeyin içinde yalnızca beş ürünün sağlam kanıtı var.',
     alt: 'Ahşap bir masanın üzerinde bir ölçek beyaz toz, bir shaker, bir bardak pancar suyu, bir fincan kahve ve bir dambıl',
-    metaTitle: 'Spor salonu takviyeleri: ne işe yarar | dereceli okuma A1-C1 | Italiano con Martin',
+    metaTitle: 'Spor salonu takviyeleri: ne işe yarar | seviyeli okuma A1-C1 | Italiano con Martin',
     metaDescription:
-      'Spor salonu takviyeleri üzerine dereceli İtalyanca okuma (A1-C1): kreatin, kafein, protein tozu, BCAA ve pre-workout; dozlar, bilimsel kanıtlar, yan etkiler, bulaşma riskleri ve fiyatlar.',
+      'Spor salonu takviyeleri üzerine seviyeli İtalyanca okuma (A1-C1): kreatin, kafein, protein tozu, BCAA ve pre-workout; dozlar, bilimsel kanıtlar, yan etkiler, bulaşma riskleri ve fiyatlar.',
     levelSubs: [
       'Presente',
       'Sayılar ve karşılaştırmalar',

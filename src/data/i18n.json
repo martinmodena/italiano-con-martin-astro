@@ -81,11 +81,11 @@
     },
     "es": {
       "nav": "<a href=\"/es/gramatica/\">Gramática</a><a href=\"/es/lecturas/\">Lecturas</a><a href=\"/es/vocabulario/\">Vocabulario</a><a class=\"about-link\" href=\"/es/sobre-nosotros/\">Quiénes somos</a>",
-      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Gramática clara, lecturas calificadas y lecciones en línea.</p></div><div><a href=\"/es/gramatica/\">Gramática</a><a href=\"/es/lecturas/\">Lecturas</a><a href=\"/es/vocabulario/\">Vocabulario</a><a class=\"about-link\" href=\"/es/sobre-nosotros/\">Quiénes somos</a></div>"
+      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Gramática clara, lecturas graduadas y lecciones en línea.</p></div><div><a href=\"/es/gramatica/\">Gramática</a><a href=\"/es/lecturas/\">Lecturas</a><a href=\"/es/vocabulario/\">Vocabulario</a><a class=\"about-link\" href=\"/es/sobre-nosotros/\">Quiénes somos</a></div>"
     },
     "fr": {
       "nav": "<a href=\"/fr/grammaire/\">Grammaire</a><a href=\"/fr/lectures/\">Lectures</a><a href=\"/fr/vocabulaire/\">Vocabulaire</a><a class=\"about-link\" href=\"/fr/a-propos/\">À propos</a>",
-      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Grammaire claire, lectures notées et cours en ligne.</p></div><div><a href=\"/fr/grammaire/\">Grammaire</a><a href=\"/fr/lectures/\">Lectures</a><a href=\"/fr/vocabulaire/\">Vocabulaire</a><a class=\"about-link\" href=\"/fr/a-propos/\">À propos</a></div>"
+      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Grammaire claire, lectures graduées et cours en ligne.</p></div><div><a href=\"/fr/grammaire/\">Grammaire</a><a href=\"/fr/lectures/\">Lectures</a><a href=\"/fr/vocabulaire/\">Vocabulaire</a><a class=\"about-link\" href=\"/fr/a-propos/\">À propos</a></div>"
     },
     "ja": {
       "nav": "<a href=\"/ja/bunpo/\">文法</a><a href=\"/ja/dokkai/\">読解</a><a href=\"/ja/goi/\">語彙</a><a class=\"about-link\" href=\"/ja/watashitachi-ni-tsuite/\">私たちについて</a>",
@@ -93,11 +93,11 @@
     },
     "pl": {
       "nav": "<a href=\"/pl/gramatyka/\">Gramatyka</a><a href=\"/pl/czytanki/\">Czytanki</a><a href=\"/pl/slownictwo/\">Słownictwo</a><a class=\"about-link\" href=\"/pl/o-nas/\">O nas</a>",
-      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Przejrzysta gramatyka, oceniane lektury i lekcje online.</p></div><div><a href=\"/pl/gramatyka/\">Gramatyka</a><a href=\"/pl/czytanki/\">Czytanki</a><a href=\"/pl/slownictwo/\">Słownictwo</a><a class=\"about-link\" href=\"/pl/o-nas/\">O nas</a></div>"
+      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Przejrzysta gramatyka, stopniowane czytanki i lekcje online.</p></div><div><a href=\"/pl/gramatyka/\">Gramatyka</a><a href=\"/pl/czytanki/\">Czytanki</a><a href=\"/pl/slownictwo/\">Słownictwo</a><a class=\"about-link\" href=\"/pl/o-nas/\">O nas</a></div>"
     },
     "tr": {
       "nav": "<a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a>",
-      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Net dilbilgisi, dereceli okumalar ve çevrimiçi dersler.</p></div><div><a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a></div>"
+      "footerGrid": "<div><strong>Italiano con Martin</strong><p>Net dilbilgisi, seviyeli okumalar ve çevrimiçi dersler.</p></div><div><a href=\"/tr/dilbilgisi/\">Dil bilgisi</a><a href=\"/tr/okumalar/\">Okumalar</a><a href=\"/tr/kelime-bilgisi/\">Kelime bilgisi</a><a class=\"about-link\" href=\"/tr/hakkimizda/\">Hakkımızda</a></div>"
     },
     "pt": {
       "nav": "<a href=\"/pt/gramatica/\">Gramática</a><a href=\"/pt/leituras/\">Leituras</a><a href=\"/pt/vocabulario/\">Vocabulário</a><a class=\"about-link\" href=\"/pt/sobre-nos/\">Sobre nós</a>",

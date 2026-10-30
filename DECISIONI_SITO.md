@@ -1080,3 +1080,7 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Ora la forma è una sola: «Home / Grammatica / A1 / titolo» (A1 porta alla sezione dell'indice), «Home / Vocabolario / titolo», con il titolo uguale all'h1.
 - **Ogni pagina del sito tranne le home ha il BreadcrumbList in JSON-LD** (prima nessuna), costruito dalla briciola visibile perché i due non possano divergere; dove non c'è briciola visibile (indici delle sezioni, Chi siamo, privacy) è Home > pagina.
 - Il deploy controlla le briciole (`add-breadcrumbs.mjs --check`) e si ferma se una pagina non è a posto.
+
+## 2026-10-30 - «Letture graduate» tradotto male in quattro lingue
+
+- Dopo il tedesco («Benotete», corretto il 2026-10-29), lo stesso errore in spagnolo («lecturas calificadas»), francese («lectures notées») e polacco («oceniane lektury»): tutti significano «letture con il voto». Corretti in «lecturas graduadas», «lectures graduées», «stopniowane czytanki» (h1 dell'indice polacco e francese, piè di pagina, occhielli, descrizioni). In turco «dereceli» diventa «seviyeli», più usato per i testi per livello.
