@@ -2946,4 +2946,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/presente-verbi-irregolari.html': {
+    it: {
+      h2: "Il presente irregolare: il confronto con l'inglese",
+      intro:
+        'In inglese il presente è quasi sempre regolare: cambia solo la <em lang="en">-s</em> di <em lang="en">he goes</em>. In italiano ogni persona ha la sua forma, e i verbi più usati sono irregolari: <span lang="it">vado, vai, va, andiamo, andate, vanno</span>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I go / he goes', 'vado / va'],
+        ['I do my homework. / I make a cake.', 'Faccio i compiti. / Faccio una torta.'],
+        ['I can swim.', 'So nuotare.'],
+        ['Can I come in?', 'Posso entrare?'],
+        ['I know that he is here. / I know Rome.', 'So che è qui. / Conosco Roma.'],
+      ],
+      points: [
+        '<em lang="en">Do</em> e <em lang="en">make</em> sono tutti e due <strong>fare</strong>: <span lang="it">faccio i compiti, faccio una torta, faccio una domanda</span>.',
+        '<em lang="en">Can</em> ha due traduzioni: <strong>so</strong> per una capacità imparata (<span lang="it">so nuotare</span>), <strong>posso</strong> per un permesso o una possibilità (<span lang="it">posso entrare?</span>).',
+        '<em lang="en">Know</em> ne ha due: <span lang="it">sapere</span> per un\'informazione (<span lang="it">so che…</span>), <span lang="it">conoscere</span> per persone e luoghi (<span lang="it">conosco Roma</span>).',
+      ],
+    },
+    en: {
+      h2: 'Irregular present verbs compared with English',
+      intro:
+        'In English the present is almost always regular: only the <em>-s</em> of <em>he goes</em> changes. In Italian every person has its own form, and the most common verbs are irregular: <span lang="it">vado, vai, va, andiamo, andate, vanno</span>.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I go / he goes', 'vado / va'],
+        ['I do my homework. / I make a cake.', 'Faccio i compiti. / Faccio una torta.'],
+        ['I can swim.', 'So nuotare.'],
+        ['Can I come in?', 'Posso entrare?'],
+        ['I know that he is here. / I know Rome.', 'So che è qui. / Conosco Roma.'],
+      ],
+      points: [
+        '<em>Do</em> and <em>make</em> are both <strong lang="it">fare</strong>: <span lang="it">faccio i compiti, faccio una torta, faccio una domanda</span>.',
+        '<em>Can</em> has two translations: <strong lang="it">so</strong> for a learned skill (<span lang="it">so nuotare</span>), <strong lang="it">posso</strong> for permission or possibility (<span lang="it">posso entrare?</span>).',
+        '<em>Know</em> has two: <span lang="it">sapere</span> for information (<span lang="it">so che…</span>), <span lang="it">conoscere</span> for people and places (<span lang="it">conosco Roma</span>).',
+      ],
+    },
+    es: {
+      h2: 'El presente irregular comparado con el español',
+      intro:
+        'Buena noticia: muchos irregulares se parecen a los españoles. <em>Vengo, vienes, viene</em> → <span lang="it">vengo, vieni, viene</span>; <em>sé</em> → <span lang="it">so</span>; <em>doy</em> → <span lang="it">do</span>; <em>hago</em> → <span lang="it">faccio</span>. Hay que tener cuidado con algunos falsos amigos.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Voy a la escuela.', 'Vado a scuola.'],
+        ['Vengo mañana.', 'Vengo domani.'],
+        ['Salgo esta noche.', 'Esco stasera.'],
+        ['Sé nadar.', 'So nuotare.'],
+        ['Estoy bien.', 'Sto bene.'],
+      ],
+      points: [
+        '<em>Salir</em> es <strong lang="it">uscire</strong> (<span lang="it">esco, esci, esce</span>). <span lang="it">Salire</span> en italiano significa <em>subir</em>.',
+        '<em>Ir</em> → <span lang="it">andare</span>, irregular en el singular y en <span lang="it">loro</span>: <span lang="it">vado, vai, va, vanno</span>, pero <span lang="it">andiamo, andate</span>.',
+        'Como en español: <em>sé nadar</em> → <span lang="it">so nuotare</span>, <em>conozco Roma</em> → <span lang="it">conosco Roma</span>.',
+      ],
+    },
+    pt: {
+      h2: 'O presente irregular comparado com o português',
+      intro:
+        'Muitos irregulares se parecem com os portugueses: <em>vou</em> → <span lang="it">vado</span>, <em>faço</em> → <span lang="it">faccio</span>, <em>venho</em> → <span lang="it">vengo</span>, <em>dou</em> → <span lang="it">do</span>, <em>estou</em> → <span lang="it">sto</span>. Mas algumas formas parecidas enganam.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Eu sei nadar.', 'So nuotare.'],
+        ['Você sabe?', 'Sai?'],
+        ['Saio hoje à noite.', 'Esco stasera.'],
+        ['Venho amanhã.', 'Vengo domani.'],
+        ['Faço o jantar.', 'Faccio la cena.'],
+      ],
+      points: [
+        '<em>Eu sei</em> → <strong lang="it">io so</strong>. <span lang="it">Sei</span> em italiano quer dizer <em>você é</em> (de <span lang="it">essere</span>).',
+        '<em>Sair</em> → <strong lang="it">uscire</strong>: <span lang="it">esco, esci, esce</span>.',
+        'Como em português: <em>sei nadar</em> → <span lang="it">so nuotare</span>, <em>conheço Roma</em> → <span lang="it">conosco Roma</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Le présent irrégulier comparé au français',
+      intro:
+        'Beaucoup d\'irréguliers correspondent : <em>je vais</em> → <span lang="it">vado</span>, <em>je fais</em> → <span lang="it">faccio</span>, <em>je viens</em> → <span lang="it">vengo</span>, <em>je sais</em> → <span lang="it">so</span>. Et comme en français, <span lang="it">sapere</span> et <span lang="it">conoscere</span> se distinguent.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je vais à Rome.', 'Vado a Roma.'],
+        ['Je sors ce soir.', 'Esco stasera.'],
+        ['Je sais nager.', 'So nuotare.'],
+        ['Je connais Rome.', 'Conosco Roma.'],
+        ['Ça va bien.', 'Sto bene.'],
+      ],
+      points: [
+        '<em>Sortir</em> → <strong lang="it">uscire</strong> : <span lang="it">esco, esci, esce</span>.',
+        '<em>Aller</em> sert aussi pour la santé en français ; en italien, c\'est <strong lang="it">stare</strong> : <span lang="it">sto bene</span>.',
+        'Attention aux formes : <em>ils vont</em> → <span lang="it">vanno</span>, <em>ils font</em> → <span lang="it">fanno</span>, <em>ils viennent</em> → <span lang="it">vengono</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Nepravidelná slovesa ve srovnání s češtinou',
+      intro:
+        'Čeština rozlišuje <em>jdu</em> a <em>jedu</em>; italština má pro obojí <strong lang="it">vado</strong>. Rozlišení <em>umím</em> / <em>můžu</em> a <em>vím</em> / <em>znám</em> naopak máte stejně jako italština.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Jdu do školy. / Jedu do Říma.', 'Vado a scuola. / Vado a Roma.'],
+        ['Umím plavat.', 'So nuotare.'],
+        ['Můžu dál?', 'Posso entrare?'],
+        ['Vím, že je tady. / Znám Řím.', 'So che è qui. / Conosco Roma.'],
+        ['Dělám domácí úkoly.', 'Faccio i compiti.'],
+      ],
+      points: [
+        '<em>Jít</em> i <em>jet</em> → <strong lang="it">andare</strong>: <span lang="it">vado a piedi, vado in treno</span>.',
+        '<em>Umím</em> → <span lang="it">so</span>, <em>můžu</em> → <span lang="it">posso</span>; <em>vím</em> → <span lang="it">so</span>, <em>znám</em> → <span lang="it">conosco</span>.',
+        'Pozor na <span lang="it">loro</span>: <span lang="it">vanno, fanno, vengono, escono</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Czasowniki nieregularne w porównaniu z polskim',
+      intro:
+        'Po polsku rozróżniasz <em>idę</em> i <em>jadę</em>; po włosku oba to <strong lang="it">vado</strong>. Rozróżnienie <em>umiem</em> / <em>mogę</em> i <em>wiem</em> / <em>znam</em> masz za to takie samo jak włoski.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Idę do szkoły. / Jadę do Rzymu.', 'Vado a scuola. / Vado a Roma.'],
+        ['Umiem pływać.', 'So nuotare.'],
+        ['Mogę wejść?', 'Posso entrare?'],
+        ['Wiem, że tu jest. / Znam Rzym.', 'So che è qui. / Conosco Roma.'],
+        ['Odrabiam lekcje.', 'Faccio i compiti.'],
+      ],
+      points: [
+        '<em>Iść</em> i <em>jechać</em> → <strong lang="it">andare</strong>: <span lang="it">vado a piedi, vado in treno</span>.',
+        '<em>Umiem</em> → <span lang="it">so</span>, <em>mogę</em> → <span lang="it">posso</span>; <em>wiem</em> → <span lang="it">so</span>, <em>znam</em> → <span lang="it">conosco</span>.',
+        'Uwaga na <span lang="it">loro</span>: <span lang="it">vanno, fanno, vengono, escono</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Düzensiz fiiller: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede fiillerin neredeyse hepsi düzenlidir: kök değişmez, ekler eklenir (<em>gidiyorum, gidiyorsun</em>). İtalyancada en sık kullanılan fiiller düzensizdir ve kökleri değişir: <span lang="it">vado, vai, va, andiamo</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Okula gidiyorum.', 'Vado a scuola.'],
+        ['Yüzebilirim. (yüzmeyi biliyorum)', 'So nuotare.'],
+        ['Girebilir miyim?', 'Posso entrare?'],
+        ['Burada olduğunu biliyorum. / Roma\'yı tanıyorum.', 'So che è qui. / Conosco Roma.'],
+        ['Ödevimi yapıyorum.', 'Faccio i compiti.'],
+      ],
+      points: [
+        '<em>-ebilmek</em> iki fiille çevrilir: öğrenilmiş beceri için <strong lang="it">sapere</strong> (<span lang="it">so nuotare</span>), izin ya da olanak için <strong lang="it">potere</strong> (<span lang="it">posso entrare?</span>).',
+        '<em>Bilmek</em> → <span lang="it">sapere</span>, <em>tanımak</em> → <span lang="it">conoscere</span>.',
+        'Önce en çok kullanılan biçimleri öğrenin: <span lang="it">io, tu, noi</span> — <span lang="it">vado, vai, andiamo</span>.',
+      ],
+    },
+    de: {
+      h2: 'Unregelmäßige Verben im Vergleich zum Deutschen',
+      intro:
+        'Auch im Deutschen sind die häufigsten Verben unregelmäßig (<em>du fährst, er weiß</em>). Im Italienischen ändert sich oft der ganze Stamm: <span lang="it">vado, vai, va, andiamo</span>. Hilfreich: <em>wissen</em> / <em>kennen</em> trennst du schon wie <span lang="it">sapere</span> / <span lang="it">conoscere</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich gehe zur Schule. / Ich fahre nach Rom.', 'Vado a scuola. / Vado a Roma.'],
+        ['Ich kann schwimmen.', 'So nuotare.'],
+        ['Kann ich reinkommen?', 'Posso entrare?'],
+        ['Ich weiß, dass er hier ist. / Ich kenne Rom.', 'So che è qui. / Conosco Roma.'],
+        ['Ich mache Hausaufgaben.', 'Faccio i compiti.'],
+      ],
+      points: [
+        '<em>Gehen</em> und <em>fahren</em> → <strong lang="it">andare</strong>: <span lang="it">vado a piedi, vado in treno</span>.',
+        '<em>Ich kann schwimmen</em> (gelernt) → <strong lang="it">so</strong> nuotare; <em>kann ich?</em> (Erlaubnis) → <strong lang="it">posso</strong>.',
+        '<em>Ausgehen</em> → <span lang="it">uscire</span>: <span lang="it">esco stasera</span>.',
+      ],
+    },
+    ja: {
+      h2: '不規則動詞と日本語の比較',
+      intro:
+        '日本語の動詞は人称で形が変わりません（私も彼も「行きます」）。イタリア語では人ごとに形が変わり、よく使う動詞ほど不規則です。<span lang="it">vado</span>（私）、<span lang="it">vai</span>（君）、<span lang="it">va</span>（彼・彼女）。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['（私は）学校に行きます。／（彼は）学校に行きます。', 'Vado a scuola. / Va a scuola.'],
+        ['泳げます。', 'So nuotare.'],
+        ['入ってもいいですか。', 'Posso entrare?'],
+        ['彼がここにいることを知っています。／ローマを知っています。', 'So che è qui. / Conosco Roma.'],
+        ['宿題をします。', 'Faccio i compiti.'],
+      ],
+      points: [
+        '主語で動詞の形を選びます：<span lang="it">io vado, lui va, loro vanno</span>。',
+        '「〜できる」は二つ：習った能力は <strong lang="it">sapere</strong>（<span lang="it">so nuotare</span>）、許可や可能性は <strong lang="it">potere</strong>（<span lang="it">posso entrare?</span>）。',
+        '「知っている」も二つ：情報は <span lang="it">sapere</span>、人や場所は <span lang="it">conoscere</span>。',
+      ],
+    },
+  },
 };

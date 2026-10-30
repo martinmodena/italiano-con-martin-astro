@@ -939,4 +939,57 @@ export const ERRORS = {
       ['Mangio la.', 'La mangio.', '代名詞は動詞の前です。'],
     ],
   },
+
+  'grammatica/a1/presente-verbi-irregolari.html': {
+    it: [
+      ['Posso nuotare.', 'So nuotare.', '<em lang="en">I can swim</em> (capacità imparata) → <strong>sapere</strong>.'],
+      ['Conosco che è qui.', 'So che è qui.', '<em lang="en">I know that…</em> → <span lang="it">sapere</span>; <span lang="it">conoscere</span> per persone e luoghi.'],
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> è irregolare: <span lang="it">vado, vai, va, vanno</span>.'],
+    ],
+    en: [
+      ['Posso nuotare.', 'So nuotare.', '<em>I can swim</em> (a learned skill) → <strong lang="it">sapere</strong>.'],
+      ['Conosco che è qui.', 'So che è qui.', '<em>I know that…</em> → <span lang="it">sapere</span>; <span lang="it">conoscere</span> is for people and places.'],
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> is irregular: <span lang="it">vado, vai, va, vanno</span>.'],
+    ],
+    es: [
+      ['Salgo stasera.', 'Esco stasera.', '<em>Salir</em> → <span lang="it">uscire</span>; <span lang="it">salgo</span> significa «subo».'],
+      ['Loro venono.', 'Loro vengono.', '<em>Vienen</em> → <span lang="it">vengono</span>, con la <span lang="it">g</span> de <span lang="it">vengo</span>.'],
+      ['Io ando.', 'Io vado.', '<em>Voy</em> → <span lang="it">vado</span>; <span lang="it">andare</span> no se conjuga como <em>andar</em>.'],
+    ],
+    pt: [
+      ['Io sei nuotare.', 'Io so nuotare.', '<em>Eu sei</em> → <span lang="it">io so</span>; <span lang="it">sei</span> é «você é».'],
+      ['Io saio stasera.', 'Io esco stasera.', '<em>Saio</em> → <span lang="it">esco</span>, de <span lang="it">uscire</span>.'],
+      ['Loro venono.', 'Loro vengono.', '<em>Eles vêm</em> → <span lang="it">vengono</span>.'],
+    ],
+    fr: [
+      ['Sorto stasera.', 'Esco stasera.', '<em>Je sors</em> → <span lang="it">esco</span>, du verbe <span lang="it">uscire</span>.'],
+      ['Vado bene.', 'Sto bene.', '<em>Je vais bien</em> → <strong lang="it">sto bene</strong>.'],
+      ['Loro vano.', 'Loro vanno.', '<em>Ils vont</em> → <span lang="it">vanno</span>, avec deux n.'],
+    ],
+    cs: [
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> je nepravidelné: <span lang="it">vado, vai, va, vanno</span>.'],
+      ['Loro venono.', 'Loro vengono.', '<span lang="it">Venire</span>: <span lang="it">vengo, vieni, viene, vengono</span>.'],
+      ['Lui fà.', 'Lui fa.', '<span lang="it">Fa</span> se píše bez přízvuku.'],
+    ],
+    pl: [
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> jest nieregularne: <span lang="it">vado, vai, va, vanno</span>.'],
+      ['Loro venono.', 'Loro vengono.', '<span lang="it">Venire</span>: <span lang="it">vengo, vieni, viene, vengono</span>.'],
+      ['Lui fà.', 'Lui fa.', '<span lang="it">Fa</span> piszemy bez akcentu.'],
+    ],
+    tr: [
+      ['Posso nuotare.', 'So nuotare.', '<em>Yüzebilirim</em> (beceri) → <strong lang="it">sapere</strong>.'],
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> düzensizdir: <span lang="it">vado, vai, va, vanno</span>.'],
+      ['Loro venono.', 'Loro vengono.', '<span lang="it">Venire</span>: <span lang="it">vengono</span>.'],
+    ],
+    de: [
+      ['Posso nuotare.', 'So nuotare.', '<em>Ich kann schwimmen</em> (gelernt) → <strong lang="it">sapere</strong>.'],
+      ['Io ando.', 'Io vado.', '<span lang="it">Andare</span> ist unregelmäßig: <span lang="it">vado, vai, va, vanno</span>.'],
+      ['Loro venono.', 'Loro vengono.', '<span lang="it">Venire</span>: <span lang="it">vengono</span>.'],
+    ],
+    ja: [
+      ['Io va a scuola.', 'Io vado a scuola.', '主語が <span lang="it">io</span> なら <span lang="it">vado</span>。人称で形が変わります。'],
+      ['Posso nuotare.', 'So nuotare.', '「泳げます」（習った能力）は <strong lang="it">sapere</strong>。'],
+      ['Conosco che è qui.', 'So che è qui.', '「〜ことを知っている」は <span lang="it">sapere</span>。'],
+    ],
+  },
 };
