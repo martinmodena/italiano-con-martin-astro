@@ -346,7 +346,7 @@ function teacherOptions(language, assetPrefix = '') {
 
 function teacherSection(language, assetPrefix, aboutHref) {
   const t = copy[language];
-  return `<section class="conversion-section teacher-cta-section"><div class="container"><div class="teacher-cta-heading"><div><p class="eyebrow">Italiano con Martin</p><h2>${escapeHtml(t.ctaTitle)}</h2></div><p>${escapeHtml(t.ctaIntro)}</p></div>${teacherOptions(language, assetPrefix)}<div class="teacher-cta-links"><a href="${aboutHref}">${escapeHtml(t.discover)}</a><a href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></div></div></section>`;
+  return `<section class="conversion-section teacher-cta-section"><div class="container"><div class="teacher-cta-heading"><div><p class="eyebrow" translate="no">Italiano con Martin</p><h2>${escapeHtml(t.ctaTitle)}</h2></div><p>${escapeHtml(t.ctaIntro)}</p></div>${teacherOptions(language, assetPrefix)}<div class="teacher-cta-links"><a href="${aboutHref}">${escapeHtml(t.discover)}</a><a href="${whatsappUrl(language)}" target="_blank" rel="noopener">${escapeHtml(t.whatsapp)}</a></div></div></section>`;
 }
 
 function updatePage(file) {

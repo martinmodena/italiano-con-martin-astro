@@ -94,6 +94,11 @@ function breadcrumbJsonLd(html: string, canonical: string | null): string | null
   });
 }
 const breadcrumbs = breadcrumbJsonLd(main, meta.canonical);
+// Nelle pagine straniere l'italiano di studio (lang="it") non va toccato dal traduttore del
+// browser: Chrome, traducendo una pagina giapponese in italiano, rovinava anche il racconto
+// italiano (2026-10-30). translate="no" lo lascia com'è; le pagine italiane non cambiano.
+const mainHtml =
+  htmlLang === 'it' ? main : main.replace(/<([a-z][a-z0-9]*)(\s[^>]*?\blang="it"[^>]*)>/g, (m, tag, attrs) => (/\stranslate=/.test(attrs) ? m : `<${tag} translate="no"${attrs}>`));
 ---
 
 <!doctype html>
@@ -122,7 +127,7 @@ const breadcrumbs = breadcrumbJsonLd(main, meta.canonical);
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href={meta.brandHref}>
+        <a class="brand" href={meta.brandHref} translate="no">
           <img class="brand-avatar" src={meta.brandImgSrc} alt="Martin" width="48" height="48" decoding="async" />
           <span>Italiano con Martin</span>
         </a>
@@ -137,7 +142,7 @@ const breadcrumbs = breadcrumbJsonLd(main, meta.canonical);
         <nav set:html={ui.nav} />
       </div>
     </header>
-    <Fragment set:html={main} />
+    <Fragment set:html={mainHtml} />
     <footer>
       <div class="container footer-grid" set:html={ui.footerGrid} />
     </footer>
