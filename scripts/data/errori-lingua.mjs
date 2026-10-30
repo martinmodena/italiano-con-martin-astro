@@ -729,4 +729,61 @@ export const ERRORS = {
       ['Ieri sera è stato freddo.', 'Ieri sera faceva freddo.', '「寒かった」（様子）は <span lang="it">imperfetto</span> で、天気は <span lang="it">fare</span> を使います。'],
     ],
   },
+
+  'grammatica/a1/articoli-determinativi.html': {
+    it: [
+      ['Caffè è buono.', 'Il caffè è buono.', '<em lang="en">Coffee is good</em>: in generale l\'italiano vuole l\'articolo.'],
+      ['Mi piace musica.', 'Mi piace la musica.', '<em lang="en">I like music</em> → <span lang="it">la musica</span>.'],
+      ['Italia è bella.', "L'Italia è bella.", 'I Paesi hanno l\'articolo.'],
+      ['Il studente.', 'Lo studente.', 'Davanti a <span lang="it">s</span> + consonante: <strong>lo</strong>.'],
+    ],
+    en: [
+      ['Caffè è buono.', 'Il caffè è buono.', '<em>Coffee is good</em>: general statements need the article in Italian.'],
+      ['Mi piace musica.', 'Mi piace la musica.', '<em>I like music</em> → <span lang="it">la musica</span>.'],
+      ['Italia è bella.', "L'Italia è bella.", 'Countries take the article.'],
+      ['Il studente.', 'Lo studente.', 'Before <span lang="it">s</span> + consonant: <strong lang="it">lo</strong>.'],
+    ],
+    es: [
+      ['I studenti.', 'Gli studenti.', '<em>Los estudiantes</em>: delante de <span lang="it">s</span> + consonante, <strong lang="it">gli</strong>.'],
+      ['Il studente.', 'Lo studente.', '<em>El estudiante</em> → <span lang="it">lo studente</span>.'],
+      ['La latte.', 'Il latte.', '<em>La leche</em>, pero en italiano es masculino: <span lang="it">il latte</span>.'],
+      ['Arrivo il lunedì.', 'Arrivo lunedì.', '<em>Llego el lunes</em> (este lunes) va sin artículo; <span lang="it">il lunedì</span> es «todos los lunes».'],
+    ],
+    pt: [
+      ['Il Giovanni è arrivato.', 'Giovanni è arrivato.', '<em>O João</em>: em italiano nomes de pessoas não levam artigo.'],
+      ['I studenti.', 'Gli studenti.', '<em>Os estudantes</em>: antes de <span lang="it">s</span> + consoante, <strong lang="it">gli</strong>.'],
+      ['La albero.', "L'albero.", '<em>A árvore</em>, mas em italiano é masculino e com vogal: <span lang="it">l\'albero</span>.'],
+    ],
+    fr: [
+      ['I ragazze.', 'Le ragazze.', '<em>Les filles</em> : au féminin pluriel, <strong lang="it">le</strong>.'],
+      ['I studenti.', 'Gli studenti.', '<em>Les étudiants</em> : devant <span lang="it">s</span> + consonne, <strong lang="it">gli</strong>.'],
+      ['La mare.', 'Il mare.', '<em>La mer</em>, mais <span lang="it">mare</span> est masculin.'],
+    ],
+    cs: [
+      ['Italia è bella.', "L'Italia è bella.", 'Čeština členy nemá, ale italské země ho mají.'],
+      ['Mi piace musica.', 'Mi piace la musica.', '<em>Mám rád hudbu</em> → obecně, ale se členem.'],
+      ['Il luna.', 'La luna.', '<em>Měsíc</em> je mužského rodu, <span lang="it">luna</span> ženského.'],
+    ],
+    pl: [
+      ['Italia è bella.', "L'Italia è bella.", 'Polski nie ma rodzajników, ale włoskie kraje go mają.'],
+      ['Mi piace musica.', 'Mi piace la musica.', '<em>Lubię muzykę</em> → ogólnie, ale z rodzajnikiem.'],
+      ['Il luna.', 'La luna.', '<em>Księżyc</em> jest rodzaju męskiego, <span lang="it">luna</span> żeńskiego.'],
+    ],
+    tr: [
+      ['Caffè è buono.', 'Il caffè è buono.', '<em>Kahve güzel</em>: İtalyancada genel konuşurken de tanımlık gerekir.'],
+      ['Italia è bella.', "L'Italia è bella.", 'Ülke adları tanımlık alır.'],
+      ['Il studente.', 'Lo studente.', '<span lang="it">s</span> + ünsüz önünde <strong lang="it">lo</strong>.'],
+    ],
+    de: [
+      ['Caffè è buono.', 'Il caffè è buono.', '<em>Kaffee ist gut</em>: im Italienischen mit Artikel.'],
+      ['La sole.', 'Il sole.', '<em>Die Sonne</em>, aber <span lang="it">sole</span> ist männlich.'],
+      ['Il luna.', 'La luna.', '<em>Der Mond</em>, aber <span lang="it">luna</span> ist weiblich.'],
+      ['Il studente.', 'Lo studente.', 'Vor <span lang="it">s</span> + Konsonant: <strong lang="it">lo</strong>.'],
+    ],
+    ja: [
+      ['Caffè è buono.', 'Il caffè è buono.', '「コーヒーは」の「は」の代わりに冠詞が必要です。'],
+      ['Mi piace musica.', 'Mi piace la musica.', '「音楽が好き」も冠詞を付けます。'],
+      ['Italia è bella.', "L'Italia è bella.", '国名にも冠詞を付けます。'],
+    ],
+  },
 };

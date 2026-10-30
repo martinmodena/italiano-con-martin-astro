@@ -2218,4 +2218,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/articoli-determinativi.html': {
+    it: {
+      h2: "Gli articoli determinativi: il confronto con l'inglese",
+      intro:
+        'L\'inglese ha una sola parola, <em lang="en">the</em>. L\'italiano ne ha sette (<strong>il, lo, la, l\', i, gli, le</strong>), scelte secondo genere, numero e suono iniziale. E le usa anche dove l\'inglese non mette niente.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['the book / the student / the friend', "il libro / lo studente / l'amico"],
+        ['Coffee is good.', 'Il caffè è buono.'],
+        ['I like music.', 'Mi piace la musica.'],
+        ['Italy is beautiful.', "L'Italia è bella."],
+        ['on Mondays', 'il lunedì'],
+      ],
+      points: [
+        'Quando parli di qualcosa in generale l\'italiano vuole l\'articolo: <span lang="it">il caffè, la musica, gli animali</span>.',
+        'Anche i nomi dei Paesi hanno l\'articolo: <span lang="it">l\'Italia, la Francia, gli Stati Uniti</span>.',
+        '<span lang="it">Lo</span> e <span lang="it">gli</span> si usano davanti a <span lang="it">s</span> + consonante, <span lang="it">z</span>, <span lang="it">gn</span>, <span lang="it">ps</span>, <span lang="it">y</span>: <span lang="it">lo studente, gli zaini</span>.',
+      ],
+    },
+    en: {
+      h2: 'Definite articles compared with English',
+      intro:
+        'English has one word, <em>the</em>. Italian has seven (<strong lang="it">il, lo, la, l\', i, gli, le</strong>), chosen by gender, number and the first sound of the next word. And Italian uses them where English uses nothing.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['the book / the student / the friend', "il libro / lo studente / l'amico"],
+        ['Coffee is good.', 'Il caffè è buono.'],
+        ['I like music.', 'Mi piace la musica.'],
+        ['Italy is beautiful.', "L'Italia è bella."],
+        ['on Mondays', 'il lunedì'],
+      ],
+      points: [
+        'When you talk about something in general, Italian needs the article: <span lang="it">il caffè, la musica, gli animali</span>.',
+        'Countries take the article too: <span lang="it">l\'Italia, la Francia, gli Stati Uniti</span>.',
+        '<span lang="it">Lo</span> and <span lang="it">gli</span> go before <span lang="it">s</span> + consonant, <span lang="it">z</span>, <span lang="it">gn</span>, <span lang="it">ps</span>, <span lang="it">y</span>: <span lang="it">lo studente, gli zaini</span>.',
+      ],
+    },
+    es: {
+      h2: 'Los artículos determinados comparados con el español',
+      intro:
+        'El italiano usa el artículo casi donde lo usa el español (<em>el café es bueno</em> → <span lang="it">il caffè è buono</span>), pero tiene más formas: al lado de <strong lang="it">il, la, i, le</strong> están <strong lang="it">lo, l\', gli</strong>, que dependen del sonido de la palabra siguiente.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['el libro / el estudiante', 'il libro / lo studente'],
+        ['los libros / los estudiantes', 'i libri / gli studenti'],
+        ['el agua / el amigo', "l'acqua / l'amico"],
+        ['la leche / la sal', 'il latte / il sale'],
+        ['Llego el lunes.', 'Arrivo lunedì.'],
+      ],
+      points: [
+        'Delante de <span lang="it">s</span> + consonante, <span lang="it">z</span>, <span lang="it">gn</span> y <span lang="it">ps</span>: <strong lang="it">lo / gli</strong>. <em>Los estudiantes</em> → <span lang="it">gli studenti</span>, no <span lang="it">i studenti</span>.',
+        'El género no siempre coincide: <em>la leche</em> → <span lang="it">il latte</span>, <em>la sal</em> → <span lang="it">il sale</span>, <em>la nariz</em> → <span lang="it">il naso</span>, <em>el árbol</em> → <span lang="it">l\'albero</span> (masculino, como en español).',
+        'Para un día concreto no se pone artículo: <em>llego el lunes</em> → <span lang="it">arrivo lunedì</span>. <span lang="it">Il lunedì</span> significa «todos los lunes».',
+      ],
+    },
+    pt: {
+      h2: 'Os artigos definidos comparados com o português',
+      intro:
+        'O italiano usa o artigo quase como o português, mas tem mais formas: além de <strong lang="it">il, la, i, le</strong> existem <strong lang="it">lo, l\', gli</strong>, que dependem do som da palavra seguinte. E com nomes de pessoas o artigo cai.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['o livro / o estudante', 'il libro / lo studente'],
+        ['os livros / os estudantes', 'i libri / gli studenti'],
+        ['o amigo / a árvore', "l'amico / l'albero"],
+        ['O João chegou.', 'Giovanni è arrivato.'],
+        ['Chego na segunda.', 'Arrivo lunedì.'],
+      ],
+      points: [
+        'Diante de <span lang="it">s</span> + consoante, <span lang="it">z</span>, <span lang="it">gn</span> e <span lang="it">ps</span>: <strong lang="it">lo / gli</strong>. <em>Os estudantes</em> → <span lang="it">gli studenti</span>.',
+        'Com nomes próprios de pessoa não se usa artigo: <em>o João</em> → <span lang="it">Giovanni</span>.',
+        'O gênero às vezes muda: <em>a árvore</em> → <span lang="it">l\'albero</span> (masculino), <em>a ponte</em> → <span lang="it">il ponte</span>. E um dia concreto vai sem artigo: <span lang="it">arrivo lunedì</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les articles définis comparés au français',
+      intro:
+        'L\'italien met l\'article là où le français le met (<em>le café est bon</em> → <span lang="it">il caffè è buono</span>), avec l\'élision comme en français (<span lang="it">l\'amico</span>). Mais il a plus de formes, surtout au pluriel : <em>les</em> devient <strong lang="it">i, gli</strong> ou <strong lang="it">le</strong>.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ["le livre / l'étudiant", 'il libro / lo studente'],
+        ['les livres / les étudiants', 'i libri / gli studenti'],
+        ['les filles', 'le ragazze'],
+        ['la mer / la fleur', 'il mare / il fiore'],
+        ['le lundi / lundi', 'il lunedì / lunedì'],
+      ],
+      points: [
+        '<em>Les</em> a trois traductions : <span lang="it">i</span> (masculin), <span lang="it">gli</span> (masculin devant voyelle, <span lang="it">s</span> + consonne, <span lang="it">z</span>), <span lang="it">le</span> (féminin). <em>Les filles</em> → <span lang="it">le ragazze</span>.',
+        'Le genre change parfois : <em>la mer</em> → <span lang="it">il mare</span>, <em>la fleur</em> → <span lang="it">il fiore</span>, <em>le lait</em> → <span lang="it">il latte</span> (masculin aussi).',
+        'Comme en français : <span lang="it">lunedì</span> (ce lundi), <span lang="it">il lunedì</span> (tous les lundis).',
+      ],
+    },
+    cs: {
+      h2: 'Určitý člen ve srovnání s češtinou',
+      intro:
+        'Čeština členy nemá, italština je používá skoro před každým podstatným jménem: <strong lang="it">il, lo, la, l\', i, gli, le</strong>. Rod podstatných jmen znáte, ale v italštině jsou jen dva (mužský a ženský) a často se liší od češtiny.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['kniha / student', 'il libro / lo studente'],
+        ['Káva je dobrá.', 'Il caffè è buono.'],
+        ['Mám rád hudbu.', 'Mi piace la musica.'],
+        ['Itálie je krásná.', "L'Italia è bella."],
+        ['slunce / měsíc', 'il sole / la luna'],
+      ],
+      points: [
+        'Když mluvíte obecně, člen nechybí: <span lang="it">il caffè, la musica, gli animali</span>. Člen mají i země: <span lang="it">l\'Italia</span>.',
+        'Střední rod neexistuje: <em>slunce</em> → <span lang="it">il sole</span>, <em>moře</em> → <span lang="it">il mare</span>. A rod se může lišit: <em>měsíc</em> (m.) → <span lang="it">la luna</span>.',
+        'Člen se učte se slovem: <span lang="it">il libro, la casa, lo zaino</span>. Prozradí rod i číslo.',
+      ],
+    },
+    pl: {
+      h2: 'Rodzajnik określony w porównaniu z polskim',
+      intro:
+        'Polski nie ma rodzajników, włoski stawia je prawie przed każdym rzeczownikiem: <strong lang="it">il, lo, la, l\', i, gli, le</strong>. Rodzaj znasz, ale po włosku są tylko dwa (męski i żeński) i często różnią się od polskich.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['książka / student', 'il libro / lo studente'],
+        ['Kawa jest dobra.', 'Il caffè è buono.'],
+        ['Lubię muzykę.', 'Mi piace la musica.'],
+        ['Włochy są piękne.', "L'Italia è bella."],
+        ['słońce / księżyc', 'il sole / la luna'],
+      ],
+      points: [
+        'Gdy mówisz ogólnie, rodzajnik jest potrzebny: <span lang="it">il caffè, la musica, gli animali</span>. Kraje też go mają: <span lang="it">l\'Italia</span>.',
+        'Nie ma rodzaju nijakiego: <em>słońce</em> → <span lang="it">il sole</span>, <em>morze</em> → <span lang="it">il mare</span>. Rodzaj bywa inny: <em>księżyc</em> (m.) → <span lang="it">la luna</span>.',
+        'Ucz się rzeczownika razem z rodzajnikiem: <span lang="it">il libro, la casa, lo zaino</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Belirli tanımlıklar: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede tanımlık ve dilbilgisel cinsiyet yoktur. İtalyancada hemen her ismin önüne bir tanımlık gelir ve bu tanımlık ismin cinsiyetini, sayısını gösterir: <strong lang="it">il, lo, la, l\', i, gli, le</strong>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['kitap / öğrenci', 'il libro / lo studente'],
+        ['Kahve güzel.', 'Il caffè è buono.'],
+        ['Müziği severim.', 'Mi piace la musica.'],
+        ['İtalya güzel.', "L'Italia è bella."],
+        ['güneş / ay', 'il sole / la luna'],
+      ],
+      points: [
+        'Genel konuşurken de tanımlık gerekir: <span lang="it">il caffè, la musica</span>. Ülke adlarında da: <span lang="it">l\'Italia, la Turchia</span>.',
+        'Her ismin cinsiyeti vardır ve tanımlıkla birlikte öğrenilir: <span lang="it">il libro</span> (eril), <span lang="it">la casa</span> (dişil).',
+        '<span lang="it">Lo / gli</span>, <span lang="it">s</span> + ünsüz, <span lang="it">z</span>, <span lang="it">gn</span>, <span lang="it">ps</span> önünde kullanılır: <span lang="it">lo studente, gli zaini</span>.',
+      ],
+    },
+    de: {
+      h2: 'Bestimmte Artikel im Vergleich zum Deutschen',
+      intro:
+        'Das Italienische hat keine Fälle: Der Artikel ändert sich nicht mit <em>den, dem, des</em>. Dafür hängt er vom Anfangslaut des Wortes ab: <strong lang="it">il, lo, la, l\', i, gli, le</strong>. Und es gibt nur zwei Genera, kein Neutrum.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['das Buch / der Student', 'il libro / lo studente'],
+        ['Kaffee ist gut.', 'Il caffè è buono.'],
+        ['Ich mag Musik.', 'Mi piace la musica.'],
+        ['die Sonne / der Mond', 'il sole / la luna'],
+        ['das Mädchen', 'la ragazza'],
+      ],
+      points: [
+        'Wo man im Deutschen allgemein ohne Artikel spricht (<em>Kaffee ist gut, ich mag Musik</em>), braucht das Italienische einen: <span lang="it">il caffè, la musica</span>.',
+        'Das Genus ist oft anders: <em>die Sonne</em> → <span lang="it">il sole</span>, <em>der Mond</em> → <span lang="it">la luna</span>, <em>das Mädchen</em> → <span lang="it">la ragazza</span>.',
+        '<span lang="it">Lo / gli</span> vor <span lang="it">s</span> + Konsonant, <span lang="it">z</span>, <span lang="it">gn</span>, <span lang="it">ps</span>: <span lang="it">lo studente, gli zaini</span>.',
+      ],
+    },
+    ja: {
+      h2: '定冠詞と日本語の比較',
+      intro:
+        '日本語には冠詞も文法上の性もありません。イタリア語では名詞の前にほとんどいつも冠詞を付け、その冠詞が性と数を表します。<strong lang="it">il, lo, la, l\', i, gli, le</strong>。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['本／学生', 'il libro / lo studente'],
+        ['コーヒーはおいしいです。', 'Il caffè è buono.'],
+        ['音楽が好きです。', 'Mi piace la musica.'],
+        ['イタリアはきれいです。', "L'Italia è bella."],
+        ['太陽／月', 'il sole / la luna'],
+      ],
+      points: [
+        '「は」「が」は冠詞ではありません。一般的なことを言うときも冠詞を付けます。<span lang="it">il caffè</span>、<span lang="it">la musica</span>。国名にも付けます：<span lang="it">l\'Italia, il Giappone</span>。',
+        '名詞は冠詞といっしょに覚えましょう。<span lang="it">il libro</span>（男性）、<span lang="it">la casa</span>（女性）。',
+        '<span lang="it">s</span> + 子音、<span lang="it">z</span> などの前は <span lang="it">lo / gli</span>：<span lang="it">lo studente, gli zaini</span>。',
+      ],
+    },
+  },
 };
