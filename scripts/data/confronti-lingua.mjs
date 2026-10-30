@@ -945,4 +945,188 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a1/verbi-riflessivi.html': {
+    after: 'giornata',
+    it: {
+      h2: "I verbi riflessivi: il confronto con l'inglese",
+      intro:
+        'L\'inglese usa <em lang="en">myself</em> solo di rado: <em lang="en">I get up, I wake up, I get dressed</em>. In italiano questi verbi sono riflessivi e il pronome non si può togliere: <strong>mi alzo, mi sveglio, mi vesto</strong>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I wake up and get up at seven.', 'Mi sveglio e mi alzo alle sette.'],
+        ['I get dressed and sit down.', 'Mi vesto e mi siedo.'],
+        ['I wash my hands.', 'Mi lavo le mani.'],
+        ['My name is Anna.', 'Mi chiamo Anna.'],
+        ['I got up late.', 'Mi sono alzato tardi.'],
+      ],
+      points: [
+        'Dove l\'inglese usa <em lang="en">get</em> + aggettivo o un verbo con particella (<em lang="en">get up, get dressed, fall asleep</em>), l\'italiano usa spesso un verbo riflessivo: <span lang="it">alzarsi, vestirsi, addormentarsi</span>.',
+        '<em lang="en">My hands, my teeth</em>: in italiano niente possessivo, basta il pronome. <span lang="it">Mi lavo i denti</span>, non <span lang="it">lavo i miei denti</span>.',
+        'Al passato l\'ausiliare è <strong>essere</strong> e il participio si accorda: <span lang="it">mi sono alzato</span> (lui), <span lang="it">mi sono alzata</span> (lei).',
+      ],
+    },
+    en: {
+      h2: 'Reflexive verbs compared with English',
+      intro:
+        'English rarely uses <em>myself</em>: <em>I get up, I wake up, I get dressed</em>. In Italian these verbs are reflexive and the pronoun can\'t be left out: <strong lang="it">mi alzo, mi sveglio, mi vesto</strong>.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I wake up and get up at seven.', 'Mi sveglio e mi alzo alle sette.'],
+        ['I get dressed and sit down.', 'Mi vesto e mi siedo.'],
+        ['I wash my hands.', 'Mi lavo le mani.'],
+        ['My name is Anna.', 'Mi chiamo Anna.'],
+        ['I got up late.', 'Mi sono alzato tardi.'],
+      ],
+      points: [
+        'Where English uses <em>get</em> + adjective or a phrasal verb (<em>get up, get dressed, fall asleep</em>), Italian often uses a reflexive verb: <span lang="it">alzarsi, vestirsi, addormentarsi</span>.',
+        '<em>My hands, my teeth</em>: Italian drops the possessive, the pronoun is enough. <span lang="it">Mi lavo i denti</span>, not <span lang="it">lavo i miei denti</span>.',
+        'In the past the auxiliary is <strong lang="it">essere</strong> and the participle agrees: <span lang="it">mi sono alzato</span> (he), <span lang="it">mi sono alzata</span> (she).',
+      ],
+    },
+    es: {
+      h2: 'Los verbos reflexivos comparados con el español',
+      intro:
+        'Aquí el español ayuda mucho: <em>me levanto</em> → <strong lang="it">mi alzo</strong>, <em>me llamo</em> → <strong lang="it">mi chiamo</strong>, <em>me lavo las manos</em> → <strong lang="it">mi lavo le mani</strong>. Las diferencias están en el pasado y en algunos verbos.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Me levanto a las siete.', 'Mi alzo alle sette.'],
+        ['Me lavo las manos.', 'Mi lavo le mani.'],
+        ['Me he levantado tarde.', 'Mi sono alzato tardi.'],
+        ['Me quedo en casa.', 'Resto a casa.'],
+        ['Me voy.', 'Me ne vado.'],
+      ],
+      points: [
+        'En el pasado, el español usa <em>haber</em>; el italiano, <strong lang="it">essere</strong>, y el participio concuerda: <span lang="it">mi sono alzato</span>, <span lang="it">mi sono alzata</span>, <span lang="it">ci siamo alzati</span>.',
+        'No todos los verbos coinciden: <em>quedarse</em> → <span lang="it">restare</span> (sin pronombre), <em>irse</em> → <span lang="it">andarsene</span> o <span lang="it">andare via</span>.',
+        'Lo demás es igual que en español, también sin posesivo con el cuerpo: <span lang="it">mi lavo i denti</span>, como <em>me lavo los dientes</em>.',
+      ],
+    },
+    pt: {
+      h2: 'Os verbos reflexivos comparados com o português',
+      intro:
+        'No Brasil o pronome muitas vezes cai: <em>eu levanto às sete</em>, <em>sentei no sofá</em>. Em italiano o pronome é obrigatório e vem antes do verbo: <strong lang="it">mi alzo</strong>, <strong lang="it">mi sono seduto</strong>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Eu levanto às sete.', 'Mi alzo alle sette.'],
+        ['Me chamo Ana.', 'Mi chiamo Anna.'],
+        ['Lavo as mãos.', 'Mi lavo le mani.'],
+        ['Sentei no sofá.', 'Mi sono seduto sul divano.'],
+        ['A gente se vê amanhã.', 'Ci vediamo domani.'],
+      ],
+      points: [
+        'Não tire o pronome: <span lang="it">alzo alle sette</span> está errado, é <strong lang="it">mi alzo</strong>. O mesmo com <span lang="it">mi siedo</span>, <span lang="it">mi sveglio</span>, <span lang="it">mi lavo le mani</span>.',
+        'No passado o auxiliar é <strong lang="it">essere</strong> e o particípio concorda: <span lang="it">mi sono alzato</span> (ele), <span lang="it">mi sono alzata</span> (ela).',
+        'O <em>se</em> recíproco funciona igual: <em>a gente se vê</em> → <span lang="it">ci vediamo</span>, <em>eles se conhecem</em> → <span lang="it">si conoscono</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Les verbes pronominaux comparés au français',
+      intro:
+        'Bonne nouvelle : le système est presque le même qu\'en français. <em>Je me lève</em> → <strong lang="it">mi alzo</strong>, <em>je me suis levé(e)</em> → <strong lang="it">mi sono alzato / alzata</strong>, avec <em>être</em> et l\'accord, comme en français.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je me lève à sept heures.', 'Mi alzo alle sette.'],
+        ['Je me lave les mains.', 'Mi lavo le mani.'],
+        ['Elle s\'est levée tard.', 'Si è alzata tardi.'],
+        ['Je me promène.', 'Faccio una passeggiata.'],
+        ['Je m\'en vais.', 'Me ne vado.'],
+      ],
+      points: [
+        'Attention à la forme du pronom : <em>me, te, se, nous, vous, se</em> → <span lang="it">mi, ti, si, ci, vi, si</span>. <em>Nous nous levons</em> → <span lang="it">ci alziamo</span>.',
+        'Quelques verbes ne correspondent pas : <em>se promener</em> → <span lang="it">fare una passeggiata</span> ou <span lang="it">passeggiare</span>, <em>se taire</em> → <span lang="it">stare zitto</span>.',
+        'Comme en français, pas de possessif avec le corps : <span lang="it">mi lavo i denti</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Zvratná slovesa ve srovnání s češtinou',
+      intro:
+        'Čeština má pro všechny osoby jedno <em>se</em>: <em>myju se, myješ se, myjeme se</em>. Italština zájmeno mění podle osoby a dává ho <strong>před sloveso</strong>: <span lang="it">mi lavo, ti lavi, ci laviamo</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Vstávám v sedm.', 'Mi alzo alle sette.'],
+        ['Jmenuji se Anna.', 'Mi chiamo Anna.'],
+        ['Myju si ruce.', 'Mi lavo le mani.'],
+        ['Umyl jsem se.', 'Mi sono lavato.'],
+        ['Učím se italsky.', "Studio l'italiano."],
+      ],
+      points: [
+        '<em>Se</em> → <span lang="it">mi, ti, si, ci, vi, si</span> podle osoby: <em>oblékáme se</em> → <span lang="it">ci vestiamo</span>.',
+        'Některá slovesa jsou zvratná jen česky: <em>učit se</em> → <span lang="it">studiare, imparare</span>, <em>smát se</em> → <span lang="it">ridere</span>, <em>bát se</em> → <span lang="it">avere paura</span>. A naopak: <em>vstávat</em> → <span lang="it">alzarsi</span>, <em>usnout</em> → <span lang="it">addormentarsi</span>.',
+        'V minulém čase se používá <strong lang="it">essere</strong> a příčestí se shoduje: <span lang="it">mi sono lavato</span> (muž), <span lang="it">mi sono lavata</span> (žena).',
+      ],
+    },
+    pl: {
+      h2: 'Czasowniki zwrotne w porównaniu z polskim',
+      intro:
+        'Po polsku masz jedno <em>się</em> dla wszystkich osób: <em>myję się, myjesz się, myjemy się</em>. Po włosku zaimek zmienia się z osobą i stoi <strong>przed czasownikiem</strong>: <span lang="it">mi lavo, ti lavi, ci laviamo</span>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Wstaję o siódmej.', 'Mi alzo alle sette.'],
+        ['Nazywam się Anna.', 'Mi chiamo Anna.'],
+        ['Myję ręce.', 'Mi lavo le mani.'],
+        ['Umyłem się.', 'Mi sono lavato.'],
+        ['Uczę się włoskiego.', "Studio l'italiano."],
+      ],
+      points: [
+        '<em>Się</em> → <span lang="it">mi, ti, si, ci, vi, si</span> zależnie od osoby: <em>ubieramy się</em> → <span lang="it">ci vestiamo</span>.',
+        'Niektóre czasowniki są zwrotne tylko po polsku: <em>uczyć się</em> → <span lang="it">studiare, imparare</span>, <em>śmiać się</em> → <span lang="it">ridere</span>, <em>bać się</em> → <span lang="it">avere paura</span>. I odwrotnie: <em>wstawać</em> → <span lang="it">alzarsi</span>, <em>myć ręce</em> → <span lang="it">lavarsi le mani</span>.',
+        'W czasie przeszłym używa się <strong lang="it">essere</strong>, a imiesłów zgadza się z osobą: <span lang="it">mi sono lavato</span> (on), <span lang="it">mi sono lavata</span> (ona).',
+      ],
+    },
+    tr: {
+      h2: 'Dönüşlü fiiller: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede dönüşlülük bir ekle gösterilir (<em>yıkamak → yıkanmak</em>, <em>giymek → giyinmek</em>) ve günlük fiillerin çoğu dönüşlü değildir. İtalyancada fiilin önüne bir zamir gelir: <strong lang="it">mi alzo</strong> (kalkıyorum), <strong lang="it">mi sveglio</strong> (uyanıyorum).',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Yedide uyanıp kalkıyorum.', 'Mi sveglio e mi alzo alle sette.'],
+        ['Giyiniyorum.', 'Mi vesto.'],
+        ['Ellerimi yıkıyorum.', 'Mi lavo le mani.'],
+        ['Adım Anna.', 'Mi chiamo Anna.'],
+        ['Geç kalktım.', 'Mi sono alzato tardi.'],
+      ],
+      points: [
+        '<em>Kalkmak, uyanmak, oturmak, uyumak</em> Türkçede dönüşlü değildir, İtalyancada dönüşlüdür: <span lang="it">alzarsi, svegliarsi, sedersi, addormentarsi</span>.',
+        'Vücut için iyelik eki kullanılmaz: <em>ellerimi</em> → <span lang="it">le mani</span>, zamir <span lang="it">mi</span> kimin elleri olduğunu söyler: <span lang="it">mi lavo le mani</span>.',
+        'Geçmiş zamanda yardımcı fiil <strong lang="it">essere</strong>dir ve ortaç cinsiyete uyar: <span lang="it">mi sono alzato</span> (erkek), <span lang="it">mi sono alzata</span> (kadın).',
+      ],
+    },
+    de: {
+      h2: 'Reflexive Verben im Vergleich zum Deutschen',
+      intro:
+        'Reflexive Verben kennst du: <em>ich ziehe mich an</em> → <strong lang="it">mi vesto</strong>. Im Italienischen steht das Pronomen aber <strong>vor</strong> dem Verb, und viele Alltagsverben sind reflexiv, die es im Deutschen nicht sind.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich wache um sieben auf und stehe auf.', 'Mi sveglio alle sette e mi alzo.'],
+        ['Ich ziehe mich an.', 'Mi vesto.'],
+        ['Ich wasche mir die Hände.', 'Mi lavo le mani.'],
+        ['Ich habe mich gewaschen.', 'Mi sono lavato.'],
+        ['Wir heiraten im Mai.', 'Ci sposiamo a maggio.'],
+      ],
+      points: [
+        'Im Perfekt <strong lang="it">essere</strong> statt <em>haben</em>, und das Partizip richtet sich nach der Person: <span lang="it">mi sono lavato</span> (Mann), <span lang="it">mi sono lavata</span> (Frau).',
+        'Reflexiv nur im Italienischen: <em>aufstehen</em> → <span lang="it">alzarsi</span>, <em>aufwachen</em> → <span lang="it">svegliarsi</span>, <em>einschlafen</em> → <span lang="it">addormentarsi</span>, <em>heiraten</em> → <span lang="it">sposarsi</span>.',
+        '<em>Ich wasche mir die Hände</em> funktioniert genau wie im Italienischen: Pronomen + Artikel, kein Possessiv. <span lang="it">Mi lavo le mani.</span>',
+      ],
+    },
+    ja: {
+      h2: '再帰動詞と日本語の比較',
+      intro:
+        '日本語には再帰動詞の形がありません。「起きる」「着る」「座る」はそのままです。イタリア語では、自分にする動作の多くに代名詞 <strong lang="it">mi, ti, si…</strong> を付けます。<span lang="it">mi alzo</span>（起きる）、<span lang="it">mi vesto</span>（服を着る）。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['七時に起きます。', 'Mi alzo alle sette.'],
+        ['服を着ます。', 'Mi vesto.'],
+        ['手を洗います。', 'Mi lavo le mani.'],
+        ['アンナといいます。', 'Mi chiamo Anna.'],
+        ['十二時ごろ寝ます。', 'Mi addormento verso mezzanotte.'],
+      ],
+      points: [
+        '代名詞は主語に合わせて変わります。<span lang="it">mi alzo</span>（私）、<span lang="it">ti alzi</span>（君）、<span lang="it">si alza</span>（彼・彼女）。省略はできません。',
+        '「手を洗う」に「私の」は要りません。<span lang="it">mi</span> が「自分の」を表します。<span lang="it">mi lavo le mani</span>。',
+        '過去形（passato prossimo）では <strong lang="it">essere</strong> を使い、過去分詞は性と数に合わせます。<span lang="it">mi sono alzato</span>（男性）、<span lang="it">mi sono alzata</span>（女性）。',
+      ],
+    },
+  },
 };
