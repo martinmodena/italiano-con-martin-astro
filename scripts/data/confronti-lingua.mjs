@@ -1129,4 +1129,187 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a2/passato-prossimo.html': {
+    it: {
+      h2: "Il passato prossimo: il confronto con l'inglese",
+      intro:
+        'L\'inglese ha due tempi, il <em lang="en">simple past</em> (<em lang="en">I went</em>) e il <em lang="en">present perfect</em> (<em lang="en">I have gone</em>). Nell\'italiano parlato tutti e due diventano quasi sempre <strong>passato prossimo</strong>. E l\'ausiliare non è sempre <em lang="en">have</em>: a volte è <strong>essere</strong>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['I went to Rome yesterday.', 'Ieri sono andato a Roma.'],
+        ["I've already eaten.", 'Ho già mangiato.'],
+        ['She arrived late.', 'È arrivata tardi.'],
+        ['I was born in 1990.', 'Sono nato nel 1990.'],
+        ["I've lived here for three years.", 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'Con <em lang="en">yesterday, last year, in 2019</em> l\'inglese vuole il <em lang="en">simple past</em>, l\'italiano parlato usa lo stesso il <strong>passato prossimo</strong>: <span lang="it">ieri sono andato</span>.',
+        '<em lang="en">Have</em> è <strong>avere</strong> con la maggior parte dei verbi, ma <strong>essere</strong> con i verbi di movimento e di cambiamento (<span lang="it">andare, arrivare, nascere, diventare</span>) e con i riflessivi. Con <span lang="it">essere</span> il participio si accorda: <span lang="it">è arrivata</span>.',
+        '<em lang="en">I\'ve lived here for three years</em>, se ci abiti ancora, è <strong>presente + da</strong>: <span lang="it">abito qui da tre anni</span>.',
+      ],
+    },
+    en: {
+      h2: 'The passato prossimo compared with English',
+      intro:
+        'English has two tenses, the simple past (<em>I went</em>) and the present perfect (<em>I have gone</em>). In spoken Italian both usually become the <strong lang="it">passato prossimo</strong>. And the auxiliary isn\'t always <em>have</em>: sometimes it\'s <strong lang="it">essere</strong> (to be).',
+      th: ['English', 'Italian'],
+      rows: [
+        ['I went to Rome yesterday.', 'Ieri sono andato a Roma.'],
+        ["I've already eaten.", 'Ho già mangiato.'],
+        ['She arrived late.', 'È arrivata tardi.'],
+        ['I was born in 1990.', 'Sono nato nel 1990.'],
+        ["I've lived here for three years.", 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'With <em>yesterday, last year, in 2019</em> English needs the simple past; spoken Italian still uses the <strong lang="it">passato prossimo</strong>: <span lang="it">ieri sono andato</span>.',
+        '<em>Have</em> is <strong lang="it">avere</strong> with most verbs, but <strong lang="it">essere</strong> with verbs of movement and change (<span lang="it">andare, arrivare, nascere, diventare</span>) and with reflexive verbs. With <span lang="it">essere</span> the participle agrees: <span lang="it">è arrivata</span>.',
+        '<em>I\'ve lived here for three years</em>, if you still live there, is <strong>present tense + da</strong>: <span lang="it">abito qui da tre anni</span>.',
+      ],
+    },
+    es: {
+      h2: 'El passato prossimo comparado con el español',
+      intro:
+        'Se forma como el pretérito perfecto (<em>he comido</em> → <strong lang="it">ho mangiato</strong>), pero en la lengua hablada se usa mucho más: también donde el español usa el indefinido (<em>ayer fui</em> → <strong lang="it">ieri sono andato</strong>). Y el auxiliar no siempre es <em>haber</em>.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Ayer fui a Roma.', 'Ieri sono andato a Roma.'],
+        ['Hoy he comido pasta.', 'Oggi ho mangiato la pasta.'],
+        ['María ha llegado tarde.', 'Maria è arrivata tardi.'],
+        ['He estado en Roma.', 'Sono stato a Roma.'],
+        ['Vivo aquí desde hace tres años.', 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'El indefinido (<em>fui, comí, llegó</em>) se traduce casi siempre con el <strong lang="it">passato prossimo</strong> cuando hablas. El <span lang="it">passato remoto</span> existe, pero sobre todo en la lengua escrita.',
+        '<em>Haber</em> → <strong lang="it">avere</strong> con la mayoría de los verbos, pero <strong lang="it">essere</strong> con los de movimiento y cambio, con los reflexivos y con <span lang="it">essere</span> mismo: <span lang="it">sono stato</span>.',
+        'Con <span lang="it">essere</span> el participio concuerda, cosa que en español no pasa: <span lang="it">Maria è arrivata</span>, <span lang="it">siamo arrivati</span>.',
+      ],
+    },
+    pt: {
+      h2: 'O passato prossimo comparado com o português',
+      intro:
+        'O <strong lang="it">passato prossimo</strong> corresponde ao pretérito perfeito: <em>ontem fui</em> → <span lang="it">ieri sono andato</span>, <em>comi</em> → <span lang="it">ho mangiato</span>. A diferença é que em italiano ele tem duas partes: um auxiliar (<span lang="it">avere</span> ou <span lang="it">essere</span>) e o particípio.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Ontem fui a Roma.', 'Ieri sono andato a Roma.'],
+        ['Comi uma pizza.', 'Ho mangiato una pizza.'],
+        ['A Maria chegou tarde.', 'Maria è arrivata tardi.'],
+        ['Já comi.', 'Ho già mangiato.'],
+        ['Tenho estudado muito.', 'Ultimamente studio molto.'],
+      ],
+      points: [
+        'Cuidado: <em>tenho estudado</em> não é <span lang="it">ho studiato</span>. O pretérito perfeito composto fala de algo que se repete até agora; em italiano: <span lang="it">ultimamente studio molto</span>. <span lang="it">Ho studiato</span> = <em>estudei</em>.',
+        'O auxiliar é <strong lang="it">avere</strong> com a maioria dos verbos e <strong lang="it">essere</strong> com os de movimento e mudança (<span lang="it">andare, arrivare, nascere</span>), com os reflexivos e com <span lang="it">essere</span>: <span lang="it">sono stato</span>.',
+        'Com <span lang="it">essere</span> o particípio concorda, como um adjetivo: <span lang="it">Maria è arrivata</span>, <span lang="it">siamo arrivati</span>.',
+      ],
+    },
+    fr: {
+      h2: 'Le passato prossimo comparé au français',
+      intro:
+        'Bonne nouvelle : le <strong lang="it">passato prossimo</strong> fonctionne presque comme le passé composé, avec deux auxiliaires et l\'accord avec <em>être</em>. <em>Je suis allée</em> → <span lang="it">sono andata</span>. Mais certains verbes changent d\'auxiliaire.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Je suis allé à Rome.', 'Sono andato a Roma.'],
+        ["J'ai été malade.", 'Sono stato malato.'],
+        ["Le film m'a plu.", 'Il film mi è piaciuto.'],
+        ["J'ai réussi à finir.", 'Sono riuscito a finire.'],
+        ['Ça a coûté cher.', 'È costato caro.'],
+      ],
+      points: [
+        '<em>Être</em> se conjugue avec lui-même : <em>j\'ai été</em> → <strong lang="it">sono stato</strong>.',
+        'Avec <em>avoir</em> en français mais <strong lang="it">essere</strong> en italien : <span lang="it">piacere</span> (<span lang="it">mi è piaciuto</span>), <span lang="it">riuscire</span>, <span lang="it">costare</span>, <span lang="it">durare</span>, et tous les verbes pronominaux comme en français.',
+        'L\'accord se fait comme en français : <span lang="it">Maria è arrivata</span>, et avec <span lang="it">avere</span> seulement quand le complément <span lang="it">lo, la, li, le</span> est placé avant : <span lang="it">le ho viste</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Passato prossimo ve srovnání s češtinou',
+      intro:
+        'Česká minulost má jedno pomocné sloveso (<em>byl jsem, šla jsem</em>) a koncovka se vždy shoduje s rodem. Italština má dvě pomocná slovesa, <strong lang="it">avere</strong> a <strong lang="it">essere</strong>, a shoda v rodě je jen u <span lang="it">essere</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Včera jsem jel do Říma.', 'Ieri sono andato a Roma.'],
+        ['Marie přišla pozdě.', 'Maria è arrivata tardi.'],
+        ['Marie snědla pizzu.', 'Maria ha mangiato la pizza.'],
+        ['Přečetl jsem tu knihu.', 'Ho letto quel libro.'],
+        ['Bydlím tady tři roky.', 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'České <em>jsem</em> v minulém čase není italské <span lang="it">sono</span>. Většina sloves má <strong lang="it">avere</strong>: <span lang="it">ho letto</span>, <span lang="it">ho mangiato</span>. <span lang="it">Essere</span> mají slovesa pohybu a změny a zvratná slovesa.',
+        'Česky se mění koncovka vždy (<em>snědl / snědla</em>), italsky jen s <span lang="it">essere</span>: <span lang="it">Maria è arrivata</span>, ale <span lang="it">Maria ha mangiato</span>.',
+        'Vid pomáhá: dokonavé sloveso (<em>přečetl</em>, ukončený děj) bývá <span lang="it">passato prossimo</span>; nedokonavé (<em>četl</em>, popis, zvyk) často <span lang="it">imperfetto</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Passato prossimo w porównaniu z polskim',
+      intro:
+        'Polski czas przeszły to jedno słowo z końcówką osoby i rodzaju: <em>poszedłem, poszłam</em>. Włoski potrzebuje dwóch: czasownika posiłkowego (<strong lang="it">avere</strong> albo <strong lang="it">essere</strong>) i imiesłowu: <span lang="it">sono andato</span>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Wczoraj pojechałem do Rzymu.', 'Ieri sono andato a Roma.'],
+        ['Maria przyszła późno.', 'Maria è arrivata tardi.'],
+        ['Maria zjadła pizzę.', 'Maria ha mangiato la pizza.'],
+        ['Przeczytałem tę książkę.', 'Ho letto quel libro.'],
+        ['Mieszkam tu od trzech lat.', 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'Nie zapominaj o czasowniku posiłkowym: <em>poszedłem</em> → <span lang="it">sono andato</span>, nie <span lang="it">andato</span>. Większość czasowników ma <strong lang="it">avere</strong>, czasowniki ruchu, zmiany i zwrotne mają <strong lang="it">essere</strong>.',
+        'Po polsku rodzaj widać zawsze (<em>zjadł / zjadła</em>), po włosku tylko z <span lang="it">essere</span>: <span lang="it">Maria è arrivata</span>, ale <span lang="it">Maria ha mangiato</span>.',
+        'Aspekt pomaga: czasownik dokonany (<em>przeczytałem</em>) to zwykle <span lang="it">passato prossimo</span>, niedokonany (<em>czytałem</em>, opis, zwyczaj) często <span lang="it">imperfetto</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Passato prossimo: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede geçmiş zaman tek kelimedir: <em>gittim, yedim</em>. İtalyancada iki parçadan oluşur: yardımcı fiil (<strong lang="it">avere</strong> ya da <strong lang="it">essere</strong>) ve ortaç: <span lang="it">sono andato</span>, <span lang="it">ho mangiato</span>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ["Dün Roma'ya gittim.", 'Ieri sono andato a Roma.'],
+        ['Pizza yedim.', 'Ho mangiato la pizza.'],
+        ['Maria geç geldi.', 'Maria è arrivata tardi.'],
+        ['Bu kitabı okudum.', 'Ho letto questo libro.'],
+        ['Üç yıldır burada oturuyorum.', 'Abito qui da tre anni.'],
+      ],
+      points: [
+        'Fiillerin çoğu <strong lang="it">avere</strong> alır; hareket ve değişim bildiren fiiller (<span lang="it">andare, arrivare, nascere</span>) ve dönüşlü fiiller <strong lang="it">essere</strong> alır.',
+        'Türkçede cinsiyet yoktur, ama <span lang="it">essere</span> ile ortaç cinsiyete ve sayıya uyar: <span lang="it">è arrivato</span> (erkek), <span lang="it">è arrivata</span> (kadın), <span lang="it">sono arrivati</span> (çoğul).',
+        '<em>-dir</em> ile süren durum geçmiş zaman değildir: <em>üç yıldır oturuyorum</em> → <span lang="it">abito qui da tre anni</span>.',
+      ],
+    },
+    de: {
+      h2: 'Das passato prossimo im Vergleich zum Deutschen',
+      intro:
+        'Das <strong lang="it">passato prossimo</strong> ist das italienische Perfekt, mit zwei Hilfsverben wie im Deutschen: <span lang="it">avere</span> (haben) und <span lang="it">essere</span> (sein). Es wird auch genauso im Gespräch benutzt. Unterschiede gibt es bei der Wortstellung, bei einigen Hilfsverben und beim Partizip.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich bin nach Rom gefahren.', 'Sono andato a Roma.'],
+        ['Ich habe gestern einen Film gesehen.', 'Ieri ho visto un film.'],
+        ['Maria ist spät angekommen.', 'Maria è arrivata tardi.'],
+        ['Ich habe mich gewaschen.', 'Mi sono lavato.'],
+        ['Der Film hat mir gefallen.', 'Il film mi è piaciuto.'],
+      ],
+      points: [
+        'Das Partizip steht nicht am Ende, sondern direkt nach dem Hilfsverb: <span lang="it">ieri ho visto un film</span>.',
+        '<em>Haben</em> im Deutschen, aber <strong lang="it">essere</strong> im Italienischen: alle reflexiven Verben (<span lang="it">mi sono lavato</span>), <span lang="it">piacere</span>, <span lang="it">costare</span>, <span lang="it">durare</span>.',
+        'Mit <span lang="it">essere</span> richtet sich das Partizip nach dem Subjekt: <span lang="it">Maria è arrivata</span>, <span lang="it">siamo arrivati</span>. Das deutsche Partizip bleibt immer gleich.',
+      ],
+    },
+    ja: {
+      h2: 'passato prossimo と日本語の「〜た」',
+      intro:
+        '日本語の過去形は「行った」「食べた」の一語です。イタリア語の <strong lang="it">passato prossimo</strong> は二つの部分からなります。助動詞（<span lang="it">avere</span> か <span lang="it">essere</span>）と過去分詞です。<span lang="it">sono andato</span>、<span lang="it">ho mangiato</span>。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['昨日ローマに行きました。', 'Ieri sono andato a Roma.'],
+        ['ピザを食べました。', 'Ho mangiato la pizza.'],
+        ['マリアさんは遅く着きました。', 'Maria è arrivata tardi.'],
+        ['もう食べました。', 'Ho già mangiato.'],
+        ['三年前からここに住んでいます。', 'Abito qui da tre anni.'],
+      ],
+      points: [
+        '多くの動詞は <strong lang="it">avere</strong> を使い、移動や変化の動詞（<span lang="it">andare, arrivare, nascere</span>）と再帰動詞は <strong lang="it">essere</strong> を使います。',
+        '<span lang="it">essere</span> を使うとき、過去分詞は主語の性と数に合わせます。<span lang="it">è arrivato</span>（男性）、<span lang="it">è arrivata</span>（女性）、<span lang="it">sono arrivati</span>（複数）。',
+        '「〜しています」で今も続いていることは過去形ではありません。<span lang="it">abito qui da tre anni</span>（現在形 + <span lang="it">da</span>）。',
+      ],
+    },
+  },
 };

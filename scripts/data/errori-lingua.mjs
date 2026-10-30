@@ -392,4 +392,66 @@ export const ERRORS = {
       ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', '過去形では <strong lang="it">essere</strong> を使います。'],
     ],
   },
+
+  'grammatica/a2/passato-prossimo.html': {
+    it: [
+      ['Ho andato a Roma.', 'Sono andato a Roma.', '<em lang="en">I have gone</em> usa sempre <em lang="en">have</em>, ma i verbi di movimento vogliono <strong>essere</strong>.'],
+      ['Lei è arrivato tardi.', 'Lei è arrivata tardi.', 'L\'inglese <em lang="en">arrived</em> non cambia; con <span lang="it">essere</span> il participio si accorda.'],
+      ['Sono stato nato nel 1990.', 'Sono nato nel 1990.', '<em lang="en">I was born</em> non è un passivo in italiano: <span lang="it">nascere</span> al passato prossimo.'],
+      ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '<em lang="en">I\'ve lived here for three years</em> (e ci abito ancora) → presente + <strong>da</strong>.'],
+    ],
+    en: [
+      ['Ho andato a Roma.', 'Sono andato a Roma.', '<em>I have gone</em> always uses <em>have</em>, but verbs of movement take <strong lang="it">essere</strong>.'],
+      ['Lei è arrivato tardi.', 'Lei è arrivata tardi.', 'English <em>arrived</em> never changes; with <span lang="it">essere</span> the participle agrees.'],
+      ['Sono stato nato nel 1990.', 'Sono nato nel 1990.', '<em>I was born</em> is not a passive in Italian: just <span lang="it">nascere</span> in the passato prossimo.'],
+      ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '<em>I\'ve lived here for three years</em> (and still do) → present tense + <strong lang="it">da</strong>.'],
+    ],
+    es: [
+      ['Ho andato a Roma.', 'Sono andato a Roma.', '<em>He ido</em> usa <em>haber</em>, pero los verbos de movimiento van con <strong lang="it">essere</strong>.'],
+      ['Ho stato a Roma.', 'Sono stato a Roma.', '<em>He estado</em> → <span lang="it">essere</span> se conjuga con <strong lang="it">essere</strong>.'],
+      ['Maria è arrivato tardi.', 'Maria è arrivata tardi.', 'En español el participio no cambia (<em>ha llegado</em>); con <span lang="it">essere</span> sí concuerda.'],
+      ['Mi ho alzato alle sette.', 'Mi sono alzato alle sette.', '<em>Me he levantado</em>: los reflexivos van siempre con <strong lang="it">essere</strong>.'],
+    ],
+    pt: [
+      ['Ieri ho andato a Roma.', 'Ieri sono andato a Roma.', 'Os verbos de movimento usam <strong lang="it">essere</strong>: <span lang="it">sono andato</span>.'],
+      ['Ho stato a Roma.', 'Sono stato a Roma.', '<em>Estive em Roma</em> → <span lang="it">essere</span> se conjuga com <strong lang="it">essere</strong>.'],
+      ['Maria è arrivato tardi.', 'Maria è arrivata tardi.', 'Com <span lang="it">essere</span> o particípio concorda com o sujeito.'],
+    ],
+    fr: [
+      ['Ho stato malato.', 'Sono stato malato.', '<em>J\'ai été</em> → en italien <span lang="it">essere</span> se conjugue avec <strong lang="it">essere</strong>.'],
+      ['Il film mi ha piaciuto.', 'Il film mi è piaciuto.', '<em>Ça m\'a plu</em> → <span lang="it">piacere</span> prend <strong lang="it">essere</strong>.'],
+      ['Ho riuscito a finire.', 'Sono riuscito a finire.', '<em>J\'ai réussi</em> → <span lang="it">riuscire</span> prend <strong lang="it">essere</strong>.'],
+      ['Ha costato caro.', 'È costato caro.', '<em>Ça a coûté</em> → <span lang="it">costare</span> prend <strong lang="it">essere</strong>.'],
+    ],
+    cs: [
+      ['Sono letto il libro.', 'Ho letto il libro.', 'České <em>četl jsem</em> neznamená <span lang="it">sono</span>: většina sloves má <strong lang="it">avere</strong>.'],
+      ['Maria ha mangiata la pizza.', 'Maria ha mangiato la pizza.', 'Česky <em>snědla</em>, ale s <span lang="it">avere</span> se příčestí nemění.'],
+      ['Ho andato a Roma.', 'Sono andato a Roma.', 'Slovesa pohybu mají <strong lang="it">essere</strong>.'],
+      ['Ho abitato qui tre anni.', 'Abito qui da tre anni.', '<em>Bydlím tady tři roky</em> (pořád) → přítomný čas + <strong lang="it">da</strong>.'],
+    ],
+    pl: [
+      ['Ieri andato a Roma.', 'Ieri sono andato a Roma.', '<em>Pojechałem</em> to jedno słowo, ale po włosku potrzebny jest czasownik posiłkowy: <strong lang="it">sono</strong> andato.'],
+      ['Maria ha mangiata la pizza.', 'Maria ha mangiato la pizza.', 'Po polsku <em>zjadła</em>, ale z <span lang="it">avere</span> imiesłów się nie zmienia.'],
+      ['Ho andato a Roma.', 'Sono andato a Roma.', 'Czasowniki ruchu mają <strong lang="it">essere</strong>.'],
+      ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '<em>Mieszkam tu od trzech lat</em> → czas teraźniejszy, jak po polsku.'],
+    ],
+    tr: [
+      ['Ieri andato a Roma.', 'Ieri sono andato a Roma.', '<em>Gittim</em> tek kelimedir, ama İtalyancada yardımcı fiil gerekir: <strong lang="it">sono</strong> andato.'],
+      ['Ho andato a Roma.', 'Sono andato a Roma.', 'Hareket fiilleri <strong lang="it">essere</strong> alır.'],
+      ['Maria è arrivato tardi.', 'Maria è arrivata tardi.', '<span lang="it">Essere</span> ile ortaç cinsiyete uyar: kadın için <span lang="it">arrivata</span>.'],
+      ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '<em>Üç yıldır oturuyorum</em> → şimdiki zaman + <strong lang="it">da</strong>.'],
+    ],
+    de: [
+      ['Ieri ho un film visto.', 'Ieri ho visto un film.', 'Das Partizip steht direkt nach dem Hilfsverb, nicht am Satzende.'],
+      ['Mi ho lavato.', 'Mi sono lavato.', '<em>Ich habe mich gewaschen</em>: reflexive Verben haben immer <strong lang="it">essere</strong>.'],
+      ['Il film mi ha piaciuto.', 'Il film mi è piaciuto.', '<em>Der Film hat mir gefallen</em> → <span lang="it">piacere</span> mit <strong lang="it">essere</strong>.'],
+      ['Maria è arrivato tardi.', 'Maria è arrivata tardi.', 'Das deutsche Partizip bleibt gleich, mit <span lang="it">essere</span> richtet sich das italienische nach dem Subjekt.'],
+    ],
+    ja: [
+      ['Ieri andato a Roma.', 'Ieri sono andato a Roma.', '「行った」は一語ですが、イタリア語では助動詞 <strong lang="it">sono</strong> が必要です。'],
+      ['Ho andato a Roma.', 'Sono andato a Roma.', '移動の動詞は <strong lang="it">essere</strong> を使います。'],
+      ['Maria è arrivato tardi.', 'Maria è arrivata tardi.', '<span lang="it">essere</span> のとき、過去分詞は主語の性に合わせます。'],
+      ['Ho abitato qui da tre anni.', 'Abito qui da tre anni.', '「住んでいます」は今も続いているので現在形です。'],
+    ],
+  },
 };
