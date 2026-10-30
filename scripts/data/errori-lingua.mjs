@@ -330,4 +330,66 @@ export const ERRORS = {
       ['Anche se piova, esco.', 'Anche se piove, esco.', '「〜ても」の <span lang="it">anche se</span> は直説法です。接続法は <span lang="it">sebbene</span> のあとです。'],
     ],
   },
+
+  'grammatica/a1/verbi-riflessivi.html': {
+    it: [
+      ['Alzo alle sette.', 'Mi alzo alle sette.', '<em lang="en">I get up</em> non ha pronome, ma in italiano <span lang="it">alzarsi</span> è riflessivo: <strong>mi</strong> alzo.'],
+      ['Lavo le mie mani.', 'Mi lavo le mani.', '<em lang="en">My hands</em>: in italiano niente possessivo, basta il pronome.'],
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', 'Con i verbi riflessivi l\'ausiliare è sempre <strong>essere</strong>.'],
+      ['Mi chiamo è Anna.', 'Mi chiamo Anna.', '<em lang="en">My name is</em> → <span lang="it">mi chiamo</span>: il verbo è già <span lang="it">chiamo</span>, non serve <span lang="it">è</span>.'],
+    ],
+    en: [
+      ['Alzo alle sette.', 'Mi alzo alle sette.', '<em>I get up</em> has no pronoun, but <span lang="it">alzarsi</span> is reflexive: <strong lang="it">mi</strong> alzo.'],
+      ['Lavo le mie mani.', 'Mi lavo le mani.', '<em>My hands</em>: Italian drops the possessive, the pronoun is enough.'],
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', 'Reflexive verbs always take <strong lang="it">essere</strong> in the past.'],
+      ['Mi chiamo è Anna.', 'Mi chiamo Anna.', '<em>My name is</em> → <span lang="it">mi chiamo</span> (literally “I call myself”): no <span lang="it">è</span>.'],
+    ],
+    es: [
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', '<em>Me he levantado</em> usa <em>haber</em>; el italiano, <strong lang="it">essere</strong>.'],
+      ['Ci siamo alzato tardi.', 'Ci siamo alzati tardi.', 'Con <span lang="it">essere</span> el participio concuerda: <span lang="it">alzati</span>, <span lang="it">alzata</span>, <span lang="it">alzate</span>.'],
+      ['Mi resto a casa.', 'Resto a casa.', '<em>Quedarse</em> no es reflexivo en italiano: <span lang="it">restare</span>.'],
+      ['Mi vado.', 'Me ne vado.', '<em>Me voy</em> → <span lang="it">me ne vado</span> (o <span lang="it">vado via</span>).'],
+    ],
+    pt: [
+      ['Alzo alle sette.', 'Mi alzo alle sette.', 'No Brasil se diz <em>eu levanto</em>, mas em italiano o pronome é obrigatório: <strong lang="it">mi</strong> alzo.'],
+      ['Siedo sul divano.', 'Mi siedo sul divano.', '<em>Sentar</em> sem <em>se</em> → <span lang="it">sedersi</span>, sempre com o pronome.'],
+      ['Lavo le mani.', 'Mi lavo le mani.', '<em>Lavo as mãos</em> → <span lang="it">mi lavo le mani</span>: o <span lang="it">mi</span> diz de quem são as mãos.'],
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', 'No <span lang="it">passato prossimo</span>, os reflexivos usam <strong lang="it">essere</strong>.'],
+    ],
+    fr: [
+      ['Me alzo alle sette.', 'Mi alzo alle sette.', 'Attention à l\'orthographe : <em>me</em> → <strong lang="it">mi</strong> (et <em>te</em> → <span lang="it">ti</span>).'],
+      ['Noi si alziamo alle sette.', 'Noi ci alziamo alle sette.', 'Calque de <em>on se lève</em> : avec <span lang="it">noi</span> le pronom est <strong lang="it">ci</strong>.'],
+      ['Mi passeggio nel parco.', 'Passeggio nel parco.', '<em>Se promener</em> n\'est pas pronominal en italien : <span lang="it">passeggiare</span> ou <span lang="it">fare una passeggiata</span>.'],
+    ],
+    cs: [
+      ['Si lavo.', 'Mi lavo.', 'České <em>se</em> je pro všechny osoby stejné, italské zájmeno ne: <strong lang="it">mi</strong> lavo, <span lang="it">ti</span> lavi, <span lang="it">si</span> lava.'],
+      ["Mi imparo l'italiano.", "Imparo l'italiano.", '<em>Učit se</em> není v italštině zvratné: <span lang="it">imparare</span>, <span lang="it">studiare</span>.'],
+      ['Lavo mi le mani.', 'Mi lavo le mani.', 'Zájmeno stojí před slovesem, ne na druhém místě jako české <em>si</em>.'],
+      ['Mi ho lavato.', 'Mi sono lavato.', 'V minulém čase zvratná slovesa používají <strong lang="it">essere</strong>.'],
+    ],
+    pl: [
+      ['Si lavo.', 'Mi lavo.', 'Polskie <em>się</em> jest takie samo dla wszystkich osób, włoskie nie: <strong lang="it">mi</strong> lavo, <span lang="it">ti</span> lavi, <span lang="it">si</span> lava.'],
+      ["Mi studio l'italiano.", "Studio l'italiano.", '<em>Uczyć się</em> nie jest zwrotne po włosku: <span lang="it">studiare</span>, <span lang="it">imparare</span>.'],
+      ['Lavo le mani.', 'Mi lavo le mani.', '<em>Myję ręce</em> nie ma <em>się</em>, ale po włosku potrzebne jest <strong lang="it">mi</strong>.'],
+      ['Mi ho lavato.', 'Mi sono lavato.', 'W czasie przeszłym czasowniki zwrotne mają <strong lang="it">essere</strong>.'],
+    ],
+    tr: [
+      ['Alzo alle sette.', 'Mi alzo alle sette.', '<em>Kalkmak</em> Türkçede dönüşlü değildir, İtalyancada dönüşlüdür: <strong lang="it">mi</strong> alzo.'],
+      ['Lavo le mie mani.', 'Mi lavo le mani.', '<em>Ellerimi</em>: iyelik gerekmez, <span lang="it">mi</span> yeterlidir.'],
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', 'Dönüşlü fiiller geçmişte <strong lang="it">essere</strong> ile kurulur.'],
+      ['Lei si è alzato.', 'Lei si è alzata.', 'Ortaç cinsiyete uyar: kadın için <span lang="it">alzata</span>.'],
+    ],
+    de: [
+      ['Vesto mi.', 'Mi vesto.', '<em>Ich ziehe mich an</em>: im Italienischen steht das Pronomen <strong>vor</strong> dem Verb.'],
+      ['Mi ho lavato.', 'Mi sono lavato.', '<em>Ich habe mich gewaschen</em> → <strong lang="it">essere</strong>, nicht <span lang="it">avere</span>.'],
+      ['Alzo alle sette.', 'Mi alzo alle sette.', '<em>Aufstehen</em> ist im Deutschen nicht reflexiv, <span lang="it">alzarsi</span> schon.'],
+      ['Sposiamo a maggio.', 'Ci sposiamo a maggio.', '<em>Wir heiraten</em> → <span lang="it">ci sposiamo</span>: <span lang="it">sposarsi</span> ist reflexiv.'],
+    ],
+    ja: [
+      ['Alzo alle sette.', 'Mi alzo alle sette.', '「起きる」は日本語では普通の動詞ですが、イタリア語では <strong lang="it">mi</strong> が必要です。'],
+      ['Tu mi alzi alle sette.', 'Tu ti alzi alle sette.', '代名詞は主語に合わせます。<span lang="it">tu</span> なら <span lang="it">ti</span>。<span lang="it">mi alzi</span> は「君が私を起こす」の意味になります。'],
+      ['Lavo le mie mani.', 'Mi lavo le mani.', '「私の手」の「私の」は要りません。<span lang="it">mi</span> で十分です。'],
+      ['Mi ho alzato tardi.', 'Mi sono alzato tardi.', '過去形では <strong lang="it">essere</strong> を使います。'],
+    ],
+  },
 };
