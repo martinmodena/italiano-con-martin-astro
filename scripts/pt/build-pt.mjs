@@ -22,6 +22,8 @@ import * as cheerio from 'cheerio';
 import { PAGES as PT_PAGES } from '../data/pt/paginas.mjs';
 import { addPtOnlyCards } from '../create-false-friends.mjs';
 import { loadDictionary } from './dictionary.mjs';
+import { STORIE } from '../data/storie-it.mjs';
+import { STORIE_PT } from '../data/storie-pt.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -286,6 +288,13 @@ function convertFragment(esHtml, itHtml, esPageUrl, ptPageUrl, where) {
     const href = el.attribs?.href;
     if (href && href.startsWith('https://wa.me/')) el.attribs.href = translate(href, where);
   });
+  // Le favole del mondo lusofono (topIn: ['pt']) vanno in cima al loro indice, come nelle altre lingue.
+  if (/\/pt\/fabulas\/$/.test(ptPageUrl)) {
+    for (const r of STORIE.filter((x) => x.topIn?.includes('pt')).reverse()) {
+      const tile = $(`a.story-tile[href="/${STORIE_PT[r.key].path}"]`);
+      tile.parent().prepend(tile);
+    }
+  }
   // le frasi da tradurre negli esercizi sono nella lingua del visitatore
   $('[lang="es"]').attr('lang', HREFLANG);
   return $.html();

@@ -221,4 +221,5 @@ export const PAGES = [
   { it: 'favole/l-asino-flautista.html', pt: 'pt/fabulas/o-burro-flautista-fabula-espanhola.html' },
   { it: 'favole/la-gallinella-rossa.html', pt: 'pt/fabulas/a-galinha-ruiva-em-italiano.html' },
   { it: 'favole/riccioli-d-oro-e-i-tre-orsi.html', pt: 'pt/fabulas/cachinhos-dourados-e-os-tres-ursos-em-italiano.html' },
+  { it: 'favole/la-festa-in-cielo.html', pt: 'pt/fabulas/a-festa-no-ceu-em-italiano.html' },
 ];

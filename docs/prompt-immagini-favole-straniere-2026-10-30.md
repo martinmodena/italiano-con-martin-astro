@@ -135,3 +135,11 @@ La bambina dorme nel lettino e i tre orsi la scoprono dalla porta.
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated English nursery tale book, soft morning light through a small window, no black outlines. The cosy upstairs bedroom of a wooden cottage in an English forest, with three wooden beds of different sizes: big, medium and small. In the smallest bed a little girl with golden curls, wearing a long-sleeved modest dress, sleeps peacefully under a patchwork quilt. In the doorway three bears stand on two legs and look at her in amazement: a big father bear, a medium mother bear in a simple apron and a little bear cub pointing at the bed. Gentle, funny, warm atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
 ```
+
+## 16. `story-festa-cielo` — «La festa in cielo» (A festa no céu, Brasile)
+
+L'avvoltoio vola verso il cielo con la viola sulla schiena; il rospo si affaccia dallo strumento. (Nell'immagine il rospo sta sulla viola più che dentro: un secondo tentativo non è partito perché i crediti OpenRouter erano finiti.)
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Brazilian folk tale book, bright morning light, no black outlines. High in a clear blue sky over the green hills and dry scrubland of north-eastern Brazil, a big black vulture with spread wings flies upwards, carrying on its back a rustic wooden Brazilian viola guitar with a round sound hole and ten strings. From the round sound hole a small brown toad peeks out with wide round eyes and a mischievous smile. A few colourful tropical birds fly in the distance towards soft white clouds. Clean uncluttered composition, a single clear scene. No people, no food, no text, no letters.
+```
