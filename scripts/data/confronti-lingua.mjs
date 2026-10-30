@@ -761,4 +761,188 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/b1/connettivi.html': {
+    after: 'concludere',
+    it: {
+      h2: "I connettivi: il confronto con l'inglese",
+      intro:
+        'Molti connettivi hanno un equivalente diretto in inglese (<em lang="en">but</em> → <strong>ma</strong>, <em lang="en">so</em> → <strong>quindi</strong>). Le trappole sono tre: le parole con due significati, il congiuntivo dopo alcuni connettivi e i falsi amici.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ["It's expensive, but the food is great. / The food is great, though.", 'È caro, ma si mangia benissimo. / Si mangia benissimo, però.'],
+        ["Since it's raining, we'll take the bus.", 'Siccome piove, prendiamo l\'autobus.'],
+        ["I've been here since Monday.", 'Sono qui da lunedì.'],
+        ["Although I'm tired, I'll finish the job.", 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Actually, I prefer tea.', 'In realtà preferisco il tè.'],
+      ],
+      points: [
+        '<em lang="en">Since</em> ha due significati: causa (<span lang="it">siccome, visto che</span>) e tempo (<span lang="it">da, da quando</span>).',
+        'Dopo <span lang="it">sebbene, benché, nonostante</span> ci vuole il congiuntivo (<span lang="it">sebbene sia</span>); dopo <span lang="it">anche se</span> l\'indicativo (<span lang="it">anche se sono stanco</span>). L\'inglese usa sempre la stessa forma.',
+        'Falsi amici: <em lang="en">actually</em> = <span lang="it">in realtà</span> (<span lang="it">attualmente</span> = <em lang="en">currently</em>); <em lang="en">eventually</em> = <span lang="it">alla fine</span> (<span lang="it">eventualmente</span> = <em lang="en">if necessary</em>).',
+      ],
+    },
+    en: {
+      h2: 'Italian connectives compared with English',
+      intro:
+        'Many connectives have a direct English equivalent (<em>but</em> → <strong lang="it">ma</strong>, <em>so</em> → <strong lang="it">quindi</strong>). There are three traps: words with two meanings, the subjunctive after some connectives, and false friends.',
+      th: ['English', 'Italian'],
+      rows: [
+        ["It's expensive, but the food is great. / The food is great, though.", 'È caro, ma si mangia benissimo. / Si mangia benissimo, però.'],
+        ["Since it's raining, we'll take the bus.", 'Siccome piove, prendiamo l\'autobus.'],
+        ["I've been here since Monday.", 'Sono qui da lunedì.'],
+        ["Although I'm tired, I'll finish the job.", 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Actually, I prefer tea.', 'In realtà preferisco il tè.'],
+      ],
+      points: [
+        '<em>Since</em> has two meanings: cause (<span lang="it">siccome, visto che</span>) and time (<span lang="it">da, da quando</span>).',
+        'After <span lang="it">sebbene, benché, nonostante</span> Italian needs the subjunctive (<span lang="it">sebbene sia</span>); after <span lang="it">anche se</span>, the indicative (<span lang="it">anche se sono stanco</span>). English uses the same form for both.',
+        'False friends: <em>actually</em> = <span lang="it">in realtà</span> (<span lang="it">attualmente</span> means “currently”); <em>eventually</em> = <span lang="it">alla fine</span> (<span lang="it">eventualmente</span> means “if necessary”).',
+      ],
+    },
+    es: {
+      h2: 'Los conectores comparados con el español',
+      intro:
+        'Muchos conectores se parecen: <em>pero</em> → <strong lang="it">ma, però</strong>, <em>mientras</em> → <strong lang="it">mentre</strong>, <em>sin embargo</em> → <strong lang="it">tuttavia</strong>, <em>además</em> → <strong lang="it">inoltre</strong>. Las trampas están en <em>aunque</em> y en algunas palabras que suenan igual y no lo son.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['Salgo aunque llueva.', 'Esco anche se piove.'],
+        ['Aunque esté cansado, termino el trabajo.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Ya que estás aquí, ¿me ayudas?', 'Visto che sei qui, mi aiuti?'],
+        ['No es caro, sino barato.', 'Non è caro, ma economico.'],
+        ['Luego vamos al cine.', 'Poi andiamo al cinema.'],
+      ],
+      points: [
+        '<em>Aunque</em> admite subjuntivo, pero <strong lang="it">anche se</strong> va siempre con indicativo: <span lang="it">esco anche se piove</span>, nunca <span lang="it">anche se piova</span>. El subjuntivo va con <span lang="it">sebbene, benché, nonostante</span>.',
+        '<strong lang="it">Poi</strong> no es <em>pues</em>: significa <em>luego, después</em>. Y <span lang="it">poiché</span> significa <em>ya que</em>.',
+        '<em>No … sino</em> se dice <span lang="it">non … ma</span> (o <span lang="it">bensì</span>, más formal): <span lang="it">non è caro, ma economico</span>.',
+      ],
+    },
+    pt: {
+      h2: 'Os conectivos comparados com o português',
+      intro:
+        'Muitos conectivos se parecem: <em>mas</em> → <strong lang="it">ma</strong>, <em>porém</em> → <strong lang="it">però</strong>, <em>todavia</em> → <strong lang="it">tuttavia</strong>, <em>por isso</em> → <strong lang="it">perciò</strong>, <em>enquanto</em> → <strong lang="it">mentre</strong>. As armadilhas estão em <em>mesmo que</em> e em <em>pois</em>.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['É caro, porém se come muito bem.', 'È caro, però si mangia benissimo.'],
+        ['Saio mesmo que chova.', 'Esco anche se piove.'],
+        ['Embora esteja cansado, termino o trabalho.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Já que você está aqui, me ajuda?', 'Visto che sei qui, mi aiuti?'],
+        ['Depois vamos ao cinema.', 'Poi andiamo al cinema.'],
+      ],
+      points: [
+        '<em>Embora</em> funciona como <strong lang="it">sebbene / benché</strong>: os dois pedem o subjuntivo (<span lang="it">sebbene sia stanco</span>).',
+        '<em>Mesmo que</em> pede o subjuntivo, mas <strong lang="it">anche se</strong> vai sempre com o indicativo: <span lang="it">esco anche se piove</span>, nunca <span lang="it">anche se piova</span>.',
+        '<em>Pois</em> (porque) é <span lang="it">perché</span> ou <span lang="it">poiché</span>; e <strong lang="it">poi</strong> não é <em>pois</em>: quer dizer <em>depois</em>.',
+      ],
+    },
+    fr: {
+      h2: 'Les connecteurs comparés au français',
+      intro:
+        'Bonne nouvelle : les modes sont les mêmes qu\'en français. <em>Bien que</em> + subjonctif → <strong lang="it">sebbene</strong> + congiuntivo ; <em>même si</em> + indicatif → <strong lang="it">anche se</strong> + indicativo. Le piège principal est un faux ami.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ["Je sors même s'il pleut.", 'Esco anche se piove.'],
+        ['Bien que je sois fatigué, je finis le travail.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ["Puisque vous êtes là, vous m'aidez ?", 'Visto che è qui, mi aiuta?'],
+        ['Je suis fatigué, donc je vais me coucher.', 'Sono stanco, quindi vado a letto.'],
+        ['Pourtant, ça coûte trop cher.', 'Eppure costa troppo.'],
+      ],
+      points: [
+        'Faux ami : <strong lang="it">pertanto</strong> ne veut pas dire <em>pourtant</em>, mais <em>donc, par conséquent</em>. <em>Pourtant</em> se dit <span lang="it">eppure</span> ou <span lang="it">tuttavia</span>.',
+        '<em>Car</em> n\'a pas d\'équivalent direct : on dit <span lang="it">perché</span> ou, à l\'écrit, <span lang="it">poiché</span>.',
+        '<em>Pendant que</em> et <em>tandis que</em> se disent tous les deux <span lang="it">mentre</span>. Et <span lang="it">però</span>, comme <em>pourtant</em>, peut se placer en fin de phrase : <span lang="it">è caro, è buono però</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Spojky ve srovnání s češtinou',
+      intro:
+        'Mnoho spojek má přímý protějšek: <em>ale</em> → <strong lang="it">ma</strong>, <em>protože</em> → <strong lang="it">perché</strong>, <em>takže</em> → <strong lang="it">quindi</strong>, <em>zatímco</em> → <strong lang="it">mentre</strong>. Rozdíl je v tom, že po některých spojkách italština potřebuje <strong>konjunktiv</strong>, který čeština nemá.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Zůstávám doma, protože jsem unavený.', 'Resto a casa perché sono stanco.'],
+        ['Přestože jsem unavený, dodělám práci.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Když prší, zůstávám doma.', 'Quando piove, resto a casa.'],
+        ['Jestli bude pršet, zůstanu doma.', 'Se piove, resto a casa.'],
+        ['Mluvím pomalu, abys mi rozuměl.', 'Parlo piano perché tu mi capisca.'],
+      ],
+      points: [
+        '<em>Přestože, i když</em> mají v italštině dvě podoby: <span lang="it">anche se</span> + indikativ (<span lang="it">anche se sono stanco</span>) nebo <span lang="it">sebbene, benché, nonostante</span> + konjunktiv (<span lang="it">sebbene sia stanco</span>).',
+        'Česky <em>když</em> znamená „kdy“ i „jestli“. Italsky jsou to dvě slova: <span lang="it">quando</span> (čas) a <span lang="it">se</span> (podmínka).',
+        '<em>Aby</em> se překládá <span lang="it">perché</span> nebo <span lang="it">affinché</span> + konjunktiv: <span lang="it">perché tu mi capisca</span>.',
+      ],
+    },
+    pl: {
+      h2: 'Spójniki w porównaniu z polskim',
+      intro:
+        'Wiele spójników ma bezpośredni odpowiednik: <em>ale</em> → <strong lang="it">ma</strong>, <em>bo, ponieważ</em> → <strong lang="it">perché</strong>, <em>więc</em> → <strong lang="it">quindi</strong>, <em>jednak</em> → <strong lang="it">però, tuttavia</strong>. Różnica: po niektórych spójnikach włoski wymaga <strong>trybu łączącego</strong> (congiuntivo).',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Zostaję w domu, bo jestem zmęczony.', 'Resto a casa perché sono stanco.'],
+        ['Chociaż jestem zmęczony, kończę pracę.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Jestem zmęczony, więc idę spać.', 'Sono stanco, quindi vado a letto.'],
+        ['Ja piję herbatę, a Marek kawę.', 'Io prendo il tè, Marco invece il caffè.'],
+        ['Mówię powoli, żebyś mnie rozumiał.', 'Parlo piano perché tu mi capisca.'],
+      ],
+      points: [
+        'Polskie <em>a</em> (<em>ja herbatę, a Marek kawę</em>) to po włosku <span lang="it">invece</span> albo <span lang="it">mentre</span>. Włoskie <span lang="it">a</span> jest tylko przyimkiem.',
+        '<em>Chociaż, mimo że</em> mają dwie formy: <span lang="it">anche se</span> + indicativo (<span lang="it">anche se sono stanco</span>) albo <span lang="it">sebbene, benché, nonostante</span> + congiuntivo (<span lang="it">sebbene sia stanco</span>).',
+        '<em>Żeby</em> to <span lang="it">perché</span> albo <span lang="it">affinché</span> + congiuntivo: <span lang="it">perché tu mi capisca</span>. Gdy podmiot jest ten sam, wystarczy <span lang="it">per</span> + bezokolicznik: <span lang="it">studio per imparare</span>.',
+      ],
+    },
+    tr: {
+      h2: 'Bağlaçlar: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçede yan cümleler çoğu zaman bir ekle kurulur ve ek cümlenin sonuna gelir: <em>yorgun olduğum için</em>, <em>yorgun olmama rağmen</em>, <em>yemek yerken</em>. İtalyancada ise yan cümlenin <strong>başına</strong> bir bağlaç gelir: <strong lang="it">perché</strong>, <strong lang="it">sebbene</strong>, <strong lang="it">mentre</strong>.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Yorgun olduğum için evde kalıyorum.', 'Resto a casa perché sono stanco.'],
+        ['Yorgun olmama rağmen işi bitiriyorum.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Yorgunum, bu yüzden yatıyorum.', 'Sono stanco, quindi vado a letto.'],
+        ['Yemek yerken televizyon izlerim.', 'Guardo la televisione mentre mangio.'],
+        ["İtalyanca öğrenmek için İtalya'ya gidiyorum.", "Vado in Italia per imparare l'italiano."],
+      ],
+      points: [
+        '<em>-diği için</em> → <strong lang="it">perché</strong>, ana cümleden sonra: <span lang="it">resto a casa perché sono stanco</span>. Sebebi başa koymak isterseniz <span lang="it">siccome</span> kullanılır: <span lang="it">siccome sono stanco, resto a casa</span>.',
+        '<em>-e rağmen</em> → <span lang="it">sebbene, benché, nonostante</span> + congiuntivo (<span lang="it">sebbene sia stanco</span>) ya da <span lang="it">anche se</span> + indicativo (<span lang="it">anche se sono stanco</span>).',
+        '<em>-ken</em> → <span lang="it">mentre</span> + çekimli fiil (<span lang="it">mentre mangio</span>); <em>-mek için</em> → <span lang="it">per</span> + mastar (<span lang="it">per imparare</span>).',
+      ],
+    },
+    de: {
+      h2: 'Konnektoren im Vergleich zum Deutschen',
+      intro:
+        'Die gute Nachricht: Im Italienischen wandert das Verb nach einem Konnektor <strong>nicht ans Ende</strong>. <em>…, weil ich müde bin</em> → <span lang="it">…, perché sono stanco</span>. Und nach <em>deshalb</em> gibt es keine Umstellung: <span lang="it">quindi vado a letto</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Ich bleibe zu Hause, weil ich müde bin.', 'Resto a casa perché sono stanco.'],
+        ['Obwohl ich müde bin, mache ich die Arbeit fertig.', 'Sebbene sia stanco, finisco il lavoro.'],
+        ['Da es regnet, nehmen wir den Bus.', "Siccome piove, prendiamo l'autobus."],
+        ['Ich bin müde, also gehe ich ins Bett.', 'Sono stanco, quindi vado a letto.'],
+        ['Ich trinke Tee, mein Bruder dagegen Kaffee.', 'Io prendo il tè, mio fratello invece il caffè.'],
+      ],
+      points: [
+        'Falscher Freund: <em>also</em> heißt <strong lang="it">quindi</strong>, nicht <span lang="it">anche</span>. <span lang="it">Anche</span> ist <em>auch</em>.',
+        '<em>Obwohl</em> hat zwei Entsprechungen: <span lang="it">sebbene, benché, nonostante</span> + Konjunktiv (<span lang="it">sebbene sia stanco</span>) oder <span lang="it">anche se</span> + Indikativ (<span lang="it">anche se sono stanco</span>).',
+        '<em>Aber</em> und <em>sondern</em> sind beide <span lang="it">ma</span>: <span lang="it">non è caro, ma economico</span>. <em>Während</em> ist <span lang="it">mentre</span>, für die Zeit wie für den Gegensatz.',
+      ],
+    },
+    ja: {
+      h2: 'つなぎの言葉と日本語の「から・けど・ても」',
+      intro:
+        '日本語では「から」「けど」「ても」が節の<em>終わり</em>に付きます。イタリア語の接続詞は節の<strong>始め</strong>に来ます。<span lang="it">perché sono stanco</span>（疲れているから）。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['疲れているので、家にいます。', 'Siccome sono stanco, resto a casa.'],
+        ['疲れているから家にいます。', 'Resto a casa perché sono stanco.'],
+        ['雨が降っても出かけます。', 'Esco anche se piove.'],
+        ['疲れているけれど、仕事を終わらせます。', 'Sono stanco, ma finisco il lavoro.'],
+        ['食べながらテレビを見ます。', 'Guardo la televisione mentre mangio.'],
+      ],
+      points: [
+        '理由を先に言うときは <strong lang="it">siccome</strong>、後ろに言うときは <strong lang="it">perché</strong> を使います。<span lang="it">Perché sono stanco, resto a casa</span> とは普通言いません。',
+        '「〜ても」は <span lang="it">anche se</span> + 直説法（<span lang="it">anche se piove</span>）。「〜のに」に近い <span lang="it">sebbene, benché</span> のあとは接続法です（<span lang="it">sebbene sia stanco</span>）。',
+        '「〜ながら」は <span lang="it">mentre</span> + 活用した動詞です。<span lang="it">mentre mangio</span>（不定詞の <span lang="it">mangiare</span> ではありません）。',
+      ],
+    },
+  },
 };
