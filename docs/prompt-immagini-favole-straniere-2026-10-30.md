@@ -38,3 +38,12 @@ cielo: il viaggio per trovare lo sposo «più forte del mondo».
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft watercolour textures, gentle morning light, no black outlines. A traditional Japanese countryside scene: an old earthen wall with a wooden roof and a small round hole at its base, a thatched farmhouse and rice fields in the background, a big friendly sun and a fluffy white cloud in a pale blue sky, a soft breeze bending the grasses. In the foreground a small family of grey mice dressed in simple Japanese kimono: a father mouse and a mother mouse proudly presenting their pretty young daughter in a pink kimono with a flower in her hair; from the hole in the wall a shy young mouse in a plain blue kimono peeks out and smiles at her. Gentle, humorous, heart-warming atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
 ```
+
+## 4. `story-paglia-giappone` — «Il milionario della paglia» (わらしべ長者, Giappone)
+
+Il primo scambio: il ragazzo povero con la pagliuzza e l'insetto legato in cima, il bambino che
+la vuole e la mamma che gli offre qualcosa in cambio. Raccontata senza la dea dell'originale.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft watercolour textures, warm late-morning light, no black outlines. A dusty country road in old rural Japan, with rice fields, a wooden bridge, a thatched farmhouse and gentle mountains in the background. A poor but cheerful young man in a simple patched indigo kimono and straw sandals holds up a single long golden rice straw with a tiny buzzing fly tied to its tip by a thin thread. A small boy in a simple kimono points at the straw with delight, pulling the sleeve of his mother, a kind woman in a modest travelling kimono who holds out a small wrapped cloth bundle to the young man as a gift in exchange. A brown horse grazes in the distance. Gentle, hopeful, humorous atmosphere. Rich detail, soft depth of field. No text, no words, no letters, no numbers, no logos, no food.
+```
