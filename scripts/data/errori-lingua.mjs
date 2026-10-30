@@ -92,4 +92,67 @@ export const ERRORS = {
       ['Marco è?', "C'è Marco?", '「マルコさんはいますか」は <span lang="it">C\'è Marco?</span> と言います。'],
     ],
   },
+
+  'grammatica/b1/comparativo-e-superlativo.html': {
+    it: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', '<em lang="en">Than</em> fra due persone o due cose è <strong>di</strong>; <span lang="it">che</span> serve per due azioni o due qualità.'],
+      ['È il libro più utile nella classe.', 'È il libro più utile della classe.', 'Dopo il superlativo l\'inglese usa <em lang="en">in</em>, l\'italiano <strong>di</strong>.'],
+      ['Marco è come alto come Luca.', 'Marco è alto come Luca.', '<em lang="en">As … as</em> diventa una parola sola: <strong>come</strong> (o <span lang="it">quanto</span>).'],
+      ['È molto bellissimo.', 'È bellissimo.', '<span lang="it">-issimo</span> vuol già dire <em lang="en">very</em>: <span lang="it">molto</span> è di troppo.'],
+    ],
+    en: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', '<em>Than</em> between two people or things is <strong lang="it">di</strong>; <span lang="it">che</span> is for two actions or two qualities.'],
+      ['È il libro più utile nella classe.', 'È il libro più utile della classe.', 'After a superlative English uses <em>in</em>, Italian uses <strong lang="it">di</strong>.'],
+      ['Marco è come alto come Luca.', 'Marco è alto come Luca.', '<em>As … as</em> becomes a single word: <strong lang="it">come</strong> (or <span lang="it">quanto</span>).'],
+      ['È molto bellissimo.', 'È bellissimo.', '<span lang="it">-issimo</span> already means “very”, so <span lang="it">molto</span> is one word too many.'],
+    ],
+    es: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', 'Calco de <em>más grande que</em>. Entre dos personas o cosas el italiano usa <strong lang="it">di</strong>.'],
+      ['Marco è più alto che io.', 'Marco è più alto di me.', '<em>Más alto que yo</em> → <span lang="it">di</span> + pronombre de complemento: <strong lang="it">di me, di te</strong>.'],
+      ['Marco è tanto alto come Luca.', 'Marco è alto come Luca.', 'El <em>tan</em> de <em>tan … como</em> desaparece. (Si quieres usarlo: <span lang="it">tanto alto quanto</span>, nunca mezclado con <span lang="it">come</span>.)'],
+      ['Il film è più lungo di noioso.', 'Il film è più lungo che noioso.', 'El error contrario, después de aprender <span lang="it">di</span>: entre dos cualidades de lo mismo se usa <strong lang="it">che</strong>.'],
+    ],
+    pt: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', 'Decalque de <em>maior (do) que</em>. Entre duas pessoas ou coisas o italiano usa <strong lang="it">di</strong>.'],
+      ['Marco è più alto che io.', 'Marco è più alto di me.', '<em>Mais alto que eu</em> → <span lang="it">di</span> + pronome oblíquo: <strong lang="it">di me, di te</strong>.'],
+      ['La mia casa è maggiore della tua.', 'La mia casa è più grande della tua.', 'Para tamanho, <em>maior</em> é <span lang="it">più grande</span>; <span lang="it">maggiore</span> se usa para idade e importância.'],
+      ['Marco è così alto quanto Luca.', 'Marco è alto quanto Luca.', 'O <em>tão</em> de <em>tão … quanto</em> cai: <span lang="it">alto quanto Luca</span> ou <span lang="it">alto come Luca</span>.'],
+    ],
+    fr: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', 'Calque de <em>plus grande que</em>. Entre deux personnes ou deux choses : <strong lang="it">di</strong>.'],
+      ['È il libro il più utile.', 'È il libro più utile.', 'Le français répète l\'article (<em>le livre le plus utile</em>), l\'italien jamais.'],
+      ['Marco è così alto che Luca.', 'Marco è alto come Luca.', '<em>Aussi … que</em> devient simplement <strong lang="it">come</strong>.'],
+      ['Ho più di libri di te.', 'Ho più libri di te.', '<em>Plus de livres</em> : en italien, pas de <span lang="it">di</span> entre <span lang="it">più</span> et le nom.'],
+    ],
+    cs: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', '<em>Než</em> se mezi dvěma osobami nebo věcmi nepřekládá <span lang="it">che</span>, ale <strong lang="it">di</strong>.'],
+      ['È più bello libro della classe.', 'È il libro più bello della classe.', 'Nejvyšší stupeň potřebuje člen a podstatné jméno stojí před <span lang="it">più</span>. <span lang="it">È più bello</span> znamená „je hezčí“.'],
+      ['È il libro più utile nella classe.', 'È il libro più utile della classe.', '<em>Ve třídě</em> se po nejvyšším stupni říká <strong lang="it">della classe</strong>.'],
+      ['Canta migliore di me.', 'Canta meglio di me.', '<em>Lépe</em> (příslovce) je <strong lang="it">meglio</strong>; <span lang="it">migliore</span> je <em>lepší</em> (přídavné jméno).'],
+    ],
+    pl: [
+      ['Roma è più grande che Pisa.', 'Roma è più grande di Pisa.', '<em>Niż</em> między dwiema osobami lub rzeczami to nie <span lang="it">che</span>, tylko <strong lang="it">di</strong> (jak <em>od</em>: <em>większy od Pizy</em>).'],
+      ['È più bello libro della classe.', 'È il libro più bello della classe.', 'Stopień najwyższy potrzebuje rodzajnika, a rzeczownik stoi przed <span lang="it">più</span>. <span lang="it">È più bello</span> znaczy „jest ładniejszy”.'],
+      ['È il libro più utile nella classe.', 'È il libro più utile della classe.', '<em>W klasie</em> po stopniu najwyższym to <strong lang="it">della classe</strong>.'],
+      ['Canta migliore di me.', 'Canta meglio di me.', '<em>Lepiej</em> (przysłówek) to <strong lang="it">meglio</strong>; <span lang="it">migliore</span> to <em>lepszy</em> (przymiotnik).'],
+    ],
+    tr: [
+      ['Roma Pisa di più grande.', 'Roma è più grande di Pisa.', 'Türkçe sırayla kurulmuş: İtalyancada önce fiil ve sıfat, sonra <span lang="it">di</span> + karşılaştırılan şey gelir.'],
+      ['È più facile leggere di scrivere.', 'È più facile leggere che scrivere.', 'Türkçede hep <em>-den</em> kullanılır; iki eylem karşılaştırılırken İtalyancada <strong lang="it">che</strong> gerekir.'],
+      ['È più utile libro.', 'È il libro più utile.', '<em>En faydalı kitap</em>: tanımlık gerekir ve isim <span lang="it">più</span>dan önce gelir.'],
+      ['Lei è più alto di me.', 'Lei è più alta di me.', 'Sıfat cinsiyete uyar: kadın için <span lang="it">alta</span>.'],
+    ],
+    de: [
+      ['Roma è più grande come Pisa.', 'Roma è più grande di Pisa.', 'Wie umgangssprachlich <em>größer wie</em>: Nach <span lang="it">più</span> steht <strong lang="it">di</strong>, nie <span lang="it">come</span>.'],
+      ['È il più utile libro.', 'È il libro più utile.', 'Im Superlativ steht das Nomen meist vor <span lang="it">più</span>: <span lang="it">il libro più utile</span>.'],
+      ['Canta migliore di me.', 'Canta meglio di me.', '<em>Besser</em> beim Verb ist <strong lang="it">meglio</strong>; <span lang="it">migliore</span> steht nur beim Nomen.'],
+      ['È più facile leggere di scrivere.', 'È più facile leggere che scrivere.', 'Werden zwei Tätigkeiten verglichen, wird <em>als</em> zu <strong lang="it">che</strong>.'],
+    ],
+    ja: [
+      ['Roma è di Pisa più grande.', 'Roma è più grande di Pisa.', '日本語の語順（ピサより大きい）のままです。<span lang="it">più</span> + 形容詞 + <span lang="it">di</span> + 相手の順です。'],
+      ['È il libro più utile nella classe.', 'È il libro più utile della classe.', '「クラスで一番」の「で」は <strong lang="it">di</strong> です。'],
+      ['Lei è più alto di me.', 'Lei è più alta di me.', '形容詞は性に合わせます。女性なら <span lang="it">alta</span>。'],
+      ['È più facile leggere di scrivere.', 'È più facile leggere che scrivere.', '二つの動作を比べるときは <strong lang="it">che</strong> を使います。'],
+    ],
+  },
 };

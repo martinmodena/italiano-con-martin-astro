@@ -25,7 +25,8 @@ const block = (n) =>
   `</tbody></table>\n        <ul>${n.points.map((p) => `<li>${p}</li>`).join('')}</ul>\n      </article><!-- /lang-note -->\n\n      `;
 
 // Sezione «Errori» riscritta per chi parla quella lingua (id="errori"): titolo e schede con la spiegazione.
-const ERR_RE = /<article class="lesson-box" id="errori">[^]*?<\/article>/;
+// Alcune lezioni non hanno l'id: la sezione si riconosce dal titolo seguito dalle schede degli errori.
+const ERR_RE = /<article class="lesson-box"(?: id="errori")?>\s*<h2>[^<]*<\/h2>\s*<div class="mistake-grid"[^]*?<\/article>/;
 const errBlock = (lang, items) => {
   const [w, c] = ERR_LABELS[lang];
   const sp = lang === 'ja' ? '' : ' ';
