@@ -1095,3 +1095,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 
 - Martin approva di andare oltre il riquadro di confronto: anche la sezione «Errori» delle lezioni personalizzate è riscritta per ogni lingua (per esempio *c'è due persone* per chi parla spagnolo per via di *hay*, *mai non fumo* per cechi e polacchi, *pertanto* per *pourtant* per i francofoni). Dati in `scripts/data/errori-lingua.mjs`.
 - Fatto per c'è/ci sono, comparativo e superlativo, preposizioni semplici, avverbi di frequenza, connettivi, verbi riflessivi; poi (stesso giorno, confronto + errori insieme) passato prossimo, imperativo, possessivi, essere, avere, imperfetto, articoli determinativi, futuro semplice, condizionale presente, pronomi diretti, presente irregolare. Regola, esempi ed esercizi restano comuni.
+
+## 2026-10-30 - Favole straniere
+
+- Martin: «pensare con la testa di uno straniero». Accanto alle favole note agli italiani ci sono favole famose nei Paesi degli studenti, in italiano facile, senza magia, orchi o divinità. Vanno in cima all'indice delle favole della lingua del Paese e nelle altre lingue dopo la fiaba dell'imperatore; il Paese d'origine si vede nell'occhiello e nelle tessere.
+- Pubblicate: Turchia (due storie di Nasreddin Hoca), Giappone (ねずみの嫁入り, わらしべ長者 senza la dea), Polonia (due favole di Krasicki), Repubblica Ceca (la grande rapa, il galletto e la gallina). La pelliccia di «Ye kürküm ye» è diventata un mantello di stoffa per i lettori vegani. Le pagine portoghesi di queste favole non esistono ancora.
+- Dopo un controllo di Martin su una pagina tradotta da Chrome, l'italiano di studio e il marchio hanno translate="no" nelle pagine straniere.
