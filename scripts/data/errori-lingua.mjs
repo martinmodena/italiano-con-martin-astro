@@ -677,4 +677,56 @@ export const ERRORS = {
       ["Sono trent'anni.", "Ho trent'anni.", '「三十歳です」：年齢は <strong lang="it">avere</strong> です。'],
     ],
   },
+
+  'grammatica/a2/imperfetto.html': {
+    it: [
+      ['Usavo giocare a calcio.', 'Giocavo a calcio.', '<em lang="en">Used to</em> non si traduce: basta l\'imperfetto.'],
+      ['Ero leggendo quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em lang="en">I was reading</em> → <span lang="it">leggevo</span> o <span lang="it">stavo leggendo</span>, mai <span lang="it">ero</span> + gerundio.'],
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', 'Un\'abitudine (<em lang="en">every day</em>) vuole l\'imperfetto, anche se l\'inglese usa il <em lang="en">simple past</em>.'],
+    ],
+    en: [
+      ['Usavo giocare a calcio.', 'Giocavo a calcio.', '<em>Used to</em> isn\'t translated: the imperfetto is enough.'],
+      ['Ero leggendo quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em>I was reading</em> → <span lang="it">leggevo</span> or <span lang="it">stavo leggendo</span>, never <span lang="it">ero</span> + gerund.'],
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', 'A habit (<em>every day</em>) needs the imperfetto, even where English uses the simple past.'],
+    ],
+    es: [
+      ['Io giocava a calcio.', 'Io giocavo a calcio.', '<em>Yo jugaba</em> y <em>él jugaba</em> son iguales en español; en italiano la primera persona termina en <strong lang="it">-o</strong>.'],
+      ['Io era stanco.', 'Io ero stanco.', '<em>Yo era / yo estaba</em> → <span lang="it">io ero</span>; <span lang="it">era</span> es «él era».'],
+      ['Noi giocàvamo.', 'Noi giocavamo.', 'En español se escribe la tilde (<em>jugábamos</em>); en italiano no: <span lang="it">giocavamo</span>, con el acento en <span lang="it">-va-</span>.'],
+    ],
+    pt: [
+      ['Io giocava a calcio.', 'Io giocavo a calcio.', '<em>Eu jogava</em> e <em>ele jogava</em> são iguais em português; em italiano a primeira pessoa termina em <strong lang="it">-o</strong>.'],
+      ['Io era stanco.', 'Io ero stanco.', '<em>Eu era / eu estava</em> → <span lang="it">io ero</span>; <span lang="it">era</span> é «ele era».'],
+      ['Noi giocàvamo.', 'Noi giocavamo.', 'Em português se escreve o acento (<em>jogávamos</em>); em italiano não: <span lang="it">giocavamo</span>.'],
+    ],
+    fr: [
+      ['Io era stanco.', 'Io ero stanco.', '<em>J\'étais</em> → <span lang="it">io ero</span> ; <span lang="it">era</span> correspond à <em>il était</em>.'],
+      ['Loro parlavono.', 'Loro parlavano.', '<em>Ils parlaient</em> → terminaison <strong lang="it">-avano</strong>.'],
+    ],
+    cs: [
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', '<em>Hrával jsem</em> (zvyk, nedokonavé) → <strong lang="it">imperfetto</strong>.'],
+      ['Ho letto quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em>Četl jsem, když…</em> (děj v průběhu) → <span lang="it">leggevo</span>.'],
+      ['Io era stanco.', 'Io ero stanco.', '<em>Byl jsem</em> → <span lang="it">io ero</span>; <span lang="it">era</span> je <em>byl</em> (on).'],
+    ],
+    pl: [
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', '<em>Grałem codziennie</em> (zwyczaj, niedokonany) → <strong lang="it">imperfetto</strong>.'],
+      ['Ho letto quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em>Czytałem, kiedy…</em> (czynność w toku) → <span lang="it">leggevo</span>.'],
+      ['Io era stanco.', 'Io ero stanco.', '<em>Byłem</em> → <span lang="it">io ero</span>; <span lang="it">era</span> to <em>był</em> (on).'],
+    ],
+    tr: [
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', '<em>Oynardım</em> (alışkanlık) → <strong lang="it">imperfetto</strong>.'],
+      ['Ho letto quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em>Okuyordum</em> (süren eylem) → <span lang="it">leggevo</span>.'],
+      ['Io era stanco.', 'Io ero stanco.', '<em>Yorgundum</em> → <span lang="it">io ero</span>; <span lang="it">era</span> üçüncü tekil kişidir.'],
+    ],
+    de: [
+      ['Da bambino ho giocato sempre a calcio.', 'Da bambino giocavo sempre a calcio.', 'Gewohnheit (<em>früher immer</em>) → <strong lang="it">imperfetto</strong>, auch wenn man auf Deutsch Perfekt sagt.'],
+      ['Ho letto quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '<em>Ich las gerade</em> → <span lang="it">leggevo</span>.'],
+      ['Ieri sera è stato freddo.', 'Ieri sera faceva freddo.', 'Beschreibungen in der Vergangenheit → <span lang="it">imperfetto</span>, und Wetter mit <span lang="it">fare</span>.'],
+    ],
+    ja: [
+      ['Da bambino ho giocato a calcio ogni giorno.', 'Da bambino giocavo a calcio ogni giorno.', '「よくしていた」（習慣）は <strong lang="it">imperfetto</strong> です。'],
+      ['Ho letto quando è arrivato Marco.', 'Leggevo quando è arrivato Marco.', '「読んでいた」（続いていたこと）は <span lang="it">leggevo</span>。'],
+      ['Ieri sera è stato freddo.', 'Ieri sera faceva freddo.', '「寒かった」（様子）は <span lang="it">imperfetto</span> で、天気は <span lang="it">fare</span> を使います。'],
+    ],
+  },
 };

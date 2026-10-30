@@ -2045,4 +2045,177 @@ export const NOTES = {
       ],
     },
   },
+
+  'grammatica/a2/imperfetto.html': {
+    it: {
+      h2: "L'imperfetto: il confronto con l'inglese",
+      intro:
+        'L\'inglese non ha un tempo solo per l\'imperfetto: usa <em lang="en">used to</em>, <em lang="en">would</em>, <em lang="en">was … -ing</em> o il <em lang="en">simple past</em>. In italiano tutte queste idee (abitudini, descrizioni, azioni in corso) diventano <strong>imperfetto</strong>.',
+      th: ['Inglese', 'Italiano'],
+      rows: [
+        ['When I was a child, I used to play football.', 'Da bambino giocavo a calcio.'],
+        ['I was reading when Marco arrived.', 'Leggevo quando è arrivato Marco.'],
+        ['It was cold and it was raining.', 'Faceva freddo e pioveva.'],
+        ['Every summer we would go to the sea.', "Ogni estate andavamo al mare."],
+      ],
+      points: [
+        '<em lang="en">Used to</em> e <em lang="en">would</em> (abitudini) non si traducono parola per parola: basta l\'imperfetto, <span lang="it">giocavo, andavamo</span>.',
+        '<em lang="en">Was reading</em> → <span lang="it">leggevo</span> (o <span lang="it">stavo leggendo</span>). L\'azione che interrompe va al passato prossimo: <span lang="it">quando è arrivato Marco</span>.',
+        'Il <em lang="en">simple past</em> va diviso: un fatto concluso → <span lang="it">passato prossimo</span>; una descrizione o un\'abitudine → <strong>imperfetto</strong>.',
+      ],
+    },
+    en: {
+      h2: 'The imperfetto compared with English',
+      intro:
+        'English has no single tense for the imperfetto: it uses <em>used to</em>, <em>would</em>, <em>was … -ing</em> or the simple past. In Italian all these ideas (habits, descriptions, actions in progress) become the <strong lang="it">imperfetto</strong>.',
+      th: ['English', 'Italian'],
+      rows: [
+        ['When I was a child, I used to play football.', 'Da bambino giocavo a calcio.'],
+        ['I was reading when Marco arrived.', 'Leggevo quando è arrivato Marco.'],
+        ['It was cold and it was raining.', 'Faceva freddo e pioveva.'],
+        ['Every summer we would go to the sea.', 'Ogni estate andavamo al mare.'],
+      ],
+      points: [
+        '<em>Used to</em> and <em>would</em> (habits) aren\'t translated word for word: the imperfetto is enough, <span lang="it">giocavo, andavamo</span>.',
+        '<em>Was reading</em> → <span lang="it">leggevo</span> (or <span lang="it">stavo leggendo</span>). The action that interrupts goes in the passato prossimo: <span lang="it">quando è arrivato Marco</span>.',
+        'The simple past splits in two: a finished event → <span lang="it">passato prossimo</span>; a description or habit → <strong lang="it">imperfetto</strong>.',
+      ],
+    },
+    es: {
+      h2: 'El imperfetto comparado con el español',
+      intro:
+        'Buena noticia: el <strong lang="it">imperfetto</strong> se usa casi exactamente como el pretérito imperfecto. <em>Jugaba, leía, hacía frío</em> → <span lang="it">giocavo, leggevo, faceva freddo</span>. La trampa está en las formas.',
+      th: ['Español', 'Italiano'],
+      rows: [
+        ['De niño jugaba al fútbol.', 'Da bambino giocavo a calcio.'],
+        ['Leía cuando llegó Marco.', 'Leggevo quando è arrivato Marco.'],
+        ['Hacía frío y llovía.', 'Faceva freddo e pioveva.'],
+        ['Yo era / él era', 'io ero / lui era'],
+      ],
+      points: [
+        'En español <em>yo jugaba</em> y <em>él jugaba</em> son iguales; en italiano no: <strong lang="it">io giocavo</strong>, <span lang="it">lui giocava</span>. Lo mismo con <em>era</em>: <span lang="it">io ero</span>, <span lang="it">lui era</span>.',
+        'La terminación es <span lang="it">-avo, -evo, -ivo</span> en los tres grupos: <span lang="it">parlavo, leggevo, dormivo</span>.',
+        'Cuidado con el contraste: donde el español usa el indefinido (<em>llegó</em>), el italiano hablado usa el <span lang="it">passato prossimo</span> (<span lang="it">è arrivato</span>).',
+      ],
+    },
+    pt: {
+      h2: 'O imperfetto comparado com o português',
+      intro:
+        'Boa notícia: o <strong lang="it">imperfetto</strong> se usa quase exatamente como o pretérito imperfeito. <em>Jogava, lia, fazia frio</em> → <span lang="it">giocavo, leggevo, faceva freddo</span>. A armadilha está nas formas.',
+      th: ['Português', 'Italiano'],
+      rows: [
+        ['Quando eu era criança, jogava futebol.', 'Da bambino giocavo a calcio.'],
+        ['Eu estava lendo quando o Marco chegou.', 'Leggevo quando è arrivato Marco.'],
+        ['Fazia frio e chovia.', 'Faceva freddo e pioveva.'],
+        ['eu era / ele era', 'io ero / lui era'],
+      ],
+      points: [
+        'Em português <em>eu jogava</em> e <em>ele jogava</em> são iguais; em italiano não: <strong lang="it">io giocavo</strong>, <span lang="it">lui giocava</span>. O mesmo com <em>era</em>: <span lang="it">io ero</span>, <span lang="it">lui era</span>.',
+        '<em>Estava lendo</em> → <span lang="it">leggevo</span> ou <span lang="it">stavo leggendo</span>.',
+        'Onde o português usa o pretérito perfeito (<em>chegou</em>), o italiano falado usa o <span lang="it">passato prossimo</span> (<span lang="it">è arrivato</span>).',
+      ],
+    },
+    fr: {
+      h2: "L'imperfetto comparé au français",
+      intro:
+        'Bonne nouvelle : l\'<strong lang="it">imperfetto</strong> s\'utilise comme l\'imparfait, et le <span lang="it">passato prossimo</span> comme le passé composé. <em>Je lisais quand Marco est arrivé</em> → <span lang="it">leggevo quando è arrivato Marco</span>. Seules les formes demandent de l\'attention.',
+      th: ['Français', 'Italien'],
+      rows: [
+        ['Enfant, je jouais au foot.', 'Da bambino giocavo a calcio.'],
+        ['Je lisais quand Marco est arrivé.', 'Leggevo quando è arrivato Marco.'],
+        ['Il faisait froid et il pleuvait.', 'Faceva freddo e pioveva.'],
+        ["j'étais / il était", 'io ero / lui era'],
+      ],
+      points: [
+        '<em>J\'étais</em> et <em>il était</em> se prononcent pareil ; en italien ce sont deux formes : <strong lang="it">io ero</strong>, <span lang="it">lui era</span>.',
+        'Les terminaisons : <span lang="it">-avo, -avi, -ava, -avamo, -avate, -avano</span>. <em>Ils parlaient</em> → <span lang="it">parlavano</span>.',
+        'Comme en français, l\'action qui interrompt est au <span lang="it">passato prossimo</span> : <span lang="it">quando è arrivato Marco</span>.',
+      ],
+    },
+    cs: {
+      h2: 'Imperfetto ve srovnání s češtinou',
+      intro:
+        'Pomůže vám vid. Nedokonavé sloveso v minulosti (<em>četl jsem, hrál jsem</em>: děj v průběhu, zvyk, popis) bývá v italštině <strong lang="it">imperfetto</strong>; dokonavé (<em>přečetl jsem, přišel</em>: ukončený děj) bývá <span lang="it">passato prossimo</span>.',
+      th: ['Česky', 'Italsky'],
+      rows: [
+        ['Jako dítě jsem hrál fotbal.', 'Da bambino giocavo a calcio.'],
+        ['Četl jsem, když přišel Marek.', 'Leggevo quando è arrivato Marco.'],
+        ['Byla zima a pršelo.', 'Faceva freddo e pioveva.'],
+        ['Přečetl jsem tu knihu.', 'Ho letto quel libro.'],
+      ],
+      points: [
+        'Zvyk a popis v minulosti → <strong lang="it">imperfetto</strong>: <span lang="it">giocavo, faceva freddo</span>.',
+        'Děj, který probíhal, a děj, který ho přerušil: <span lang="it">leggevo</span> (četl jsem) + <span lang="it">è arrivato</span> (přišel).',
+        'Pozor na tvary: <span lang="it">io ero</span> (byl jsem), <span lang="it">lui era</span> (byl).',
+      ],
+    },
+    pl: {
+      h2: 'Imperfetto w porównaniu z polskim',
+      intro:
+        'Pomoże ci aspekt. Czasownik niedokonany w przeszłości (<em>czytałem, grałem</em>: czynność w toku, zwyczaj, opis) to zwykle <strong lang="it">imperfetto</strong>; dokonany (<em>przeczytałem, przyszedł</em>: czynność zakończona) to zwykle <span lang="it">passato prossimo</span>.',
+      th: ['Po polsku', 'Po włosku'],
+      rows: [
+        ['Jako dziecko grałem w piłkę.', 'Da bambino giocavo a calcio.'],
+        ['Czytałem, kiedy przyszedł Marek.', 'Leggevo quando è arrivato Marco.'],
+        ['Było zimno i padało.', 'Faceva freddo e pioveva.'],
+        ['Przeczytałem tę książkę.', 'Ho letto quel libro.'],
+      ],
+      points: [
+        'Zwyczaj i opis w przeszłości → <strong lang="it">imperfetto</strong>: <span lang="it">giocavo, faceva freddo</span>.',
+        'Czynność w toku i czynność, która ją przerwała: <span lang="it">leggevo</span> (czytałem) + <span lang="it">è arrivato</span> (przyszedł).',
+        'Uwaga na formy: <span lang="it">io ero</span> (byłem), <span lang="it">lui era</span> (był).',
+      ],
+    },
+    tr: {
+      h2: 'Imperfetto: Türkçe ile karşılaştırma',
+      intro:
+        'Türkçe zamanlar iyi bir rehberdir. <em>-iyordu</em> (<em>okuyordum</em>) ve <em>-ırdı</em> (<em>oynardım</em>) çoğu zaman <strong lang="it">imperfetto</strong> olur; <em>-di</em> ile anlatılan bitmiş olay (<em>geldi</em>) çoğu zaman <span lang="it">passato prossimo</span>dur.',
+      th: ['Türkçe', 'İtalyanca'],
+      rows: [
+        ['Çocukken futbol oynardım.', 'Da bambino giocavo a calcio.'],
+        ['Marco geldiğinde kitap okuyordum.', 'Leggevo quando è arrivato Marco.'],
+        ['Hava soğuktu ve yağmur yağıyordu.', 'Faceva freddo e pioveva.'],
+        ['O kitabı okudum.', 'Ho letto quel libro.'],
+      ],
+      points: [
+        '<em>-ırdı</em> (geçmişteki alışkanlık) → <strong lang="it">imperfetto</strong>: <span lang="it">giocavo</span>.',
+        '<em>-iyordu</em> (süren eylem) → <span lang="it">leggevo</span> ya da <span lang="it">stavo leggendo</span>; araya giren olay <span lang="it">passato prossimo</span>: <span lang="it">è arrivato</span>.',
+        'Geçmişteki betimlemeler de imperfetto olur: <em>hava soğuktu</em> → <span lang="it">faceva freddo</span>.',
+      ],
+    },
+    de: {
+      h2: 'Das imperfetto im Vergleich zum Deutschen',
+      intro:
+        'Das <strong lang="it">imperfetto</strong> ist kein Präteritum: Es geht nicht um gesprochen oder geschrieben, sondern darum, <em>wie</em> man auf die Vergangenheit schaut. Gewohnheiten, Beschreibungen und laufende Handlungen → <span lang="it">imperfetto</span>; abgeschlossene Ereignisse → <span lang="it">passato prossimo</span>.',
+      th: ['Deutsch', 'Italienisch'],
+      rows: [
+        ['Als Kind habe ich Fußball gespielt.', 'Da bambino giocavo a calcio.'],
+        ['Ich las gerade, als Marco kam.', 'Leggevo quando è arrivato Marco.'],
+        ['Es war kalt und es regnete.', 'Faceva freddo e pioveva.'],
+        ['Ich habe das Buch gelesen.', 'Ho letto il libro.'],
+      ],
+      points: [
+        'Im Gespräch sagt man auf Deutsch fast immer Perfekt. Im Italienischen muss man wählen: Gewohnheit (<em>früher immer</em>) → <strong lang="it">imperfetto</strong>, <span lang="it">giocavo</span>.',
+        '<em>Ich war gerade dabei zu lesen</em> → <span lang="it">leggevo</span> oder <span lang="it">stavo leggendo</span>; das unterbrechende Ereignis → <span lang="it">è arrivato</span>.',
+        'Beschreibungen (<em>es war kalt, sie war müde</em>) → <span lang="it">faceva freddo, era stanca</span>.',
+      ],
+    },
+    ja: {
+      h2: 'imperfetto と日本語の「〜ていた」',
+      intro:
+        '日本語の「〜ていた」（読んでいた）や「よく〜したものだ」（習慣）、過去の様子（寒かった）は、イタリア語では <strong lang="it">imperfetto</strong> になることが多いです。一回で終わった出来事（来た）は <span lang="it">passato prossimo</span> です。',
+      th: ['日本語', 'イタリア語'],
+      rows: [
+        ['子どものころ、よくサッカーをしていました。', 'Da bambino giocavo a calcio.'],
+        ['マルコさんが来たとき、本を読んでいました。', 'Leggevo quando è arrivato Marco.'],
+        ['寒くて、雨が降っていました。', 'Faceva freddo e pioveva.'],
+        ['その本を読みました。', 'Ho letto quel libro.'],
+      ],
+      points: [
+        '過去の習慣「よく〜していた」→ <strong lang="it">imperfetto</strong>：<span lang="it">giocavo</span>。',
+        '「読んでいた」（続いていたこと）は <span lang="it">leggevo</span>、そこに起きた「来た」は <span lang="it">è arrivato</span>。',
+        '「寒かった」のような過去の様子も <span lang="it">imperfetto</span> です：<span lang="it">faceva freddo</span>。',
+      ],
+    },
+  },
 };
