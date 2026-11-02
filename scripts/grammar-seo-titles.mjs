@@ -37,6 +37,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: Italian adverbs of time',
     'avverbi-in-mente': 'Italian adverbs ending in -mente',
     pronuncia: 'Italian pronunciation',
+    'contrari': 'Opposites in Italian: s-, dis-, in-',
+    'nomi-alterati': 'Italian diminutives and augmentatives: -ino, -one, -accio',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -76,6 +78,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: los adverbios de tiempo en italiano',
     'avverbi-in-mente': 'Los adverbios en -mente en italiano',
     pronuncia: 'La pronunciación italiana',
+    'contrari': 'Los contrarios en italiano: s-, dis-, in-',
+    'nomi-alterati': 'Diminutivos y aumentativos en italiano: -ino, -one, -accio',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -115,6 +119,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena : les adverbes de temps en italien',
     'avverbi-in-mente': 'Les adverbes en -mente en italien',
     pronuncia: 'La prononciation italienne',
+    'contrari': 'Les contraires en italien : s-, dis-, in-',
+    'nomi-alterati': 'Diminutifs et augmentatifs en italien : -ino, -one, -accio',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -154,6 +160,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: příslovce času v italštině',
     'avverbi-in-mente': 'Příslovce na -mente v italštině',
     pronuncia: 'Italská výslovnost',
+    'contrari': 'Opaky v italštině: s-, dis-, in-',
+    'nomi-alterati': 'Zdrobněliny a zveličeniny v italštině: -ino, -one, -accio',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -193,6 +201,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: przysłówki czasu po włosku',
     'avverbi-in-mente': 'Przysłówki na -mente po włosku',
     pronuncia: 'Wymowa włoska',
+    'contrari': 'Przeciwieństwa po włosku: s-, dis-, in-',
+    'nomi-alterati': 'Zdrobnienia i zgrubienia po włosku: -ino, -one, -accio',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -232,6 +242,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: İtalyancada zaman zarfları',
     'avverbi-in-mente': 'İtalyancada -mente ile biten zarflar',
     pronuncia: 'İtalyanca telaffuz',
+    'contrari': 'İtalyancada zıt anlamlılar: s-, dis-, in-',
+    'nomi-alterati': 'İtalyancada küçültme ve büyütme ekleri: -ino, -one, -accio',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -271,6 +283,8 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già, ancora, appena: Zeitadverbien im Italienischen',
     'avverbi-in-mente': 'Adverbien auf -mente im Italienischen',
     pronuncia: 'Italienische Aussprache',
+    'contrari': 'Gegenteile im Italienischen: s-, dis-, in-',
+    'nomi-alterati': 'Verkleinerungsformen im Italienischen: -ino, -one, -accio',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -310,5 +324,7 @@ export const grammarSeoTitles = {
     'gia-ancora-appena': 'Già、ancora、appena：イタリア語の時の副詞',
     'avverbi-in-mente': 'イタリア語の -mente で終わる副詞',
     pronuncia: 'イタリア語の発音',
+    'contrari': 'イタリア語の反対語：s-、dis-、in-',
+    'nomi-alterati': 'イタリア語の縮小辞・増大辞：-ino、-one、-accio',
   },
 };

@@ -29,6 +29,8 @@ export const ERR_LABELS = {
   ja: ['誤：', '正：'],
 };
 
+import { ERRORS_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
+
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
     it: [
@@ -993,3 +995,6 @@ export const ERRORS = {
     ],
   },
 };
+
+// Lezioni del 2026-11-02, in un file a parte.
+Object.assign(ERRORS, ERRORS_CONTRARI_ALTERATI);

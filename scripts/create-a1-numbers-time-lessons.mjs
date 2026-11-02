@@ -4,6 +4,7 @@
 // stessi URL) e «I participi passati irregolari», con 50 esercizi e una testata; poi «Stare +
 // gerundio» (A2, 30 esercizi, senza testata). Il 2026-10-09 «Le preposizioni semplici» (A1, rifatta agli
 // stessi URL; `updateCard` aggiorna la tessera che c'era già) e «Le preposizioni articolate» (A1); poi «I verbi riflessivi» (A1), «Già, ancora, appena, non… più» e «Gli avverbi in -mente» (A2).
+// Il 2026-11-02 «I contrari: s-, dis-, in-» (A2) e «I nomi alterati: -ino, -one, -accio» (B1), con testata.
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -50,6 +51,10 @@ import giaAncora from './data/lezioni-a2/gia-ancora-appena.mjs';
 import giaAncoraI18n from './data/lezioni-a2/gia-ancora-appena-i18n.mjs';
 import avverbiMente from './data/lezioni-a2/avverbi-in-mente.mjs';
 import avverbiMenteI18n from './data/lezioni-a2/avverbi-in-mente-i18n.mjs';
+import contrari from './data/lezioni-a2/contrari.mjs';
+import contrariI18n from './data/lezioni-a2/contrari-i18n.mjs';
+import alterati from './data/lezioni-b1/nomi-alterati.mjs';
+import alteratiI18n from './data/lezioni-b1/nomi-alterati-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -247,6 +252,8 @@ const lessons = [
   { ...riflessivi, strings: { it: riflessivi.it, ...riflessiviI18n } },
   { ...giaAncora, strings: { it: giaAncora.it, ...giaAncoraI18n } },
   { ...avverbiMente, strings: { it: avverbiMente.it, ...avverbiMenteI18n } },
+  { ...contrari, strings: { it: contrari.it, ...contrariI18n } },
+  { ...alterati, strings: { it: alterati.it, ...alteratiI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

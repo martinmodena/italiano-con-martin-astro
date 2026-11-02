@@ -39,6 +39,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'italian-adverbs-gia-ancora-appena',
     'avverbi-in-mente': 'italian-adverbs-ending-in-mente',
     pronuncia: 'italian-pronunciation',
+    'contrari': 'italian-opposites-prefixes',
+    'nomi-alterati': 'italian-diminutives-and-augmentatives',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -78,6 +80,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'adverbios-gia-ancora-appena-en-italiano',
     'avverbi-in-mente': 'adverbios-en-mente-en-italiano',
     pronuncia: 'pronunciacion-italiana',
+    'contrari': 'contrarios-en-italiano',
+    'nomi-alterati': 'diminutivos-y-aumentativos-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -117,6 +121,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'adverbes-gia-ancora-appena-en-italien',
     'avverbi-in-mente': 'adverbes-en-mente-en-italien',
     pronuncia: 'prononciation-italienne',
+    'contrari': 'les-contraires-en-italien',
+    'nomi-alterati': 'diminutifs-et-augmentatifs-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -156,6 +162,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'prislovce-gia-ancora-appena-v-italstine',
     'avverbi-in-mente': 'prislovce-na-mente-v-italstine',
     pronuncia: 'italska-vyslovnost',
+    'contrari': 'opaky-v-italstine',
+    'nomi-alterati': 'zdrobneliny-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -195,6 +203,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'przyslowki-gia-ancora-appena-po-wlosku',
     'avverbi-in-mente': 'przyslowki-na-mente-po-wlosku',
     pronuncia: 'wymowa-wloska',
+    'contrari': 'przeciwienstwa-po-wlosku',
+    'nomi-alterati': 'zdrobnienia-i-zgrubienia-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -234,6 +244,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'italyancada-gia-ancora-appena-zarflari',
     'avverbi-in-mente': 'italyancada-mente-zarflari',
     pronuncia: 'italyanca-telaffuz',
+    'contrari': 'italyancada-zit-anlamlilar',
+    'nomi-alterati': 'italyancada-kucultme-ve-buyutme-ekleri',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -273,6 +285,8 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'adverbien-gia-ancora-appena-im-italienischen',
     'avverbi-in-mente': 'adverbien-auf-mente-im-italienischen',
     pronuncia: 'italienische-aussprache',
+    'contrari': 'gegenteile-im-italienischen',
+    'nomi-alterati': 'verkleinerungsformen-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -312,5 +326,7 @@ export const grammarSeoSlugs = {
     'gia-ancora-appena': 'イタリア語の副詞-gia-ancora-appena',
     'avverbi-in-mente': 'イタリア語の副詞-mente',
     pronuncia: 'イタリア語の発音',
+    'contrari': 'イタリア語の反対語',
+    'nomi-alterati': 'イタリア語の縮小辞と増大辞',
   },
 };

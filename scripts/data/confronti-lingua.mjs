@@ -20,6 +20,8 @@ export const NAV = {
   ja: '日本語との比較',
 };
 
+import { NOTES_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
+
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
     it: {
@@ -3130,3 +3132,6 @@ export const NOTES = {
     },
   },
 };
+
+// Lezioni del 2026-11-02, in un file a parte.
+Object.assign(NOTES, NOTES_CONTRARI_ALTERATI);

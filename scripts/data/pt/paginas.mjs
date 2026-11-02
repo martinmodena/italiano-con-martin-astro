@@ -114,6 +114,7 @@ export const PAGES = [
 
   // Fase 3 (2026-10-09): grammatica A2–C1
   { it: 'grammatica/a2/avverbi-in-mente.html', pt: 'pt/gramatica/a2/os-adverbios-em-mente-em-italiano.html' },
+  { it: 'grammatica/a2/contrari.html', pt: 'pt/gramatica/a2/contrarios-em-italiano.html' },
   { it: 'grammatica/a2/futuro-semplice.html', pt: 'pt/gramatica/a2/o-futuro-semplice-italiano.html' },
   { it: 'grammatica/a2/gia-ancora-appena.html', pt: 'pt/gramatica/a2/os-adverbios-gia-ancora-appena-em-italiano.html' },
   { it: 'grammatica/a2/imperfetto.html', pt: 'pt/gramatica/a2/o-imperfetto-italiano.html' },
@@ -132,6 +133,7 @@ export const PAGES = [
   },
   { it: 'grammatica/b1/condizionale-presente.html', pt: 'pt/gramatica/b1/o-condizionale-presente-italiano.html' },
   { it: 'grammatica/b1/connettivi.html', pt: 'pt/gramatica/b1/conectivos-em-italiano.html' },
+  { it: 'grammatica/b1/nomi-alterati.html', pt: 'pt/gramatica/b1/diminutivos-e-aumentativos-em-italiano.html' },
   { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html' },
   { it: 'grammatica/b1/pronomi-combinati.html', pt: 'pt/gramatica/b1/pronomes-combinados-em-italiano.html' },
   { it: 'grammatica/b2/congiuntivo-presente.html', pt: 'pt/gramatica/b2/o-congiuntivo-presente-italiano.html' },
