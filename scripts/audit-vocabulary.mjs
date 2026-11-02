@@ -202,6 +202,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Ho fame, ho sonno» (2026-11-02): come il luogo, con l'esercizio da trascinare «Che cosa ha?».
+  sensazioni: {
+    count: 20,
+    match: { positive: 8 },
+    it: 'vocabolario/ho-fame-ho-sonno.html',
+    en: 'en/vocabulary/italian-expressions-with-avere-hungry-cold.html',
+    es: 'es/vocabulario/expresiones-con-avere-tener-hambre-en-italiano.html',
+    fr: 'fr/vocabulaire/expressions-avec-avere-avoir-faim-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-mam-hlad.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-jestem-glodny.html',
+    tr: 'tr/kelime-bilgisi/italyanca-ac-ve-uykulu-olmak.html',
+    de: 'de/wortschatz/italienischer-wortschatz-hunger-und-durst.html',
+    ja: 'ja/goi/italian-expressions-with-avere-vocabulary.html',
+  },
   // «Dov'e' il gatto?» (2026-11-02): come i colori, con l'esercizio da trascinare «Dov'e' il gattino?».
   luogo: {
     count: 22,
@@ -551,6 +565,7 @@ for (const lesson of [
   'verbi-relazioni',
   'colori-forme',
   'dove-si-trova',
+  'ho-fame-ho-sonno',
   'tempo-stagioni',
   'casa',
   'verbi-casa',

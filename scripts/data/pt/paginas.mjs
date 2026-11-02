@@ -154,6 +154,7 @@ export const PAGES = [
   { it: 'vocabolario/citta.html', pt: 'pt/vocabulario/vocabulario-da-cidade-em-italiano.html' },
   { it: 'vocabolario/colori-forme.html', pt: 'pt/vocabulario/vocabulario-das-cores-e-formas-em-italiano.html' },
   { it: 'vocabolario/dove-si-trova.html', pt: 'pt/vocabulario/preposicoes-de-lugar-em-italiano.html' },
+  { it: 'vocabolario/ho-fame-ho-sonno.html', pt: 'pt/vocabulario/estou-com-fome-em-italiano.html' },
   { it: 'vocabolario/corpo-umano.html', pt: 'pt/vocabulario/vocabulario-do-corpo-humano-em-italiano.html' },
   { it: 'vocabolario/cucina.html', pt: 'pt/vocabulario/vocabulario-da-cozinha-em-italiano.html' },
   { it: 'vocabolario/emozioni.html', pt: 'pt/vocabulario/vocabulario-das-emocoes-em-italiano.html' },

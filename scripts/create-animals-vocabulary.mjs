@@ -41,6 +41,8 @@
  *                                                 trascinare «Descrivi l'animale» (`extraMatch`, con `photoRows`).
  *   - «Dov'e' il gatto?»                          22 parole del luogo (sopra, sotto, davanti a, in cima a...) con le
  *                                                 foto di animali (2026-11-02): come i colori, con «Dov'e' il gattino?».
+ *   - «Ho fame, ho sonno»                         20 espressioni con avere (fame, freddo, paura, il raffreddore...)
+ *                                                 con le foto di animali (2026-11-02): come il luogo, con «Che cosa ha?».
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -181,6 +183,13 @@ import {
   placeExampleWord,
 } from './data/places-vocabulary.mjs';
 import { placePages, placeUi } from './data/places-pages.mjs';
+import {
+  sensationVocabulary,
+  sensationDescribeRows,
+  sensationTranslationExercises,
+  sensationExampleWord,
+} from './data/sensations-vocabulary.mjs';
+import { sensationPages, sensationUi } from './data/sensations-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -398,6 +407,32 @@ const lessons = {
         ...traitUi[lang],
         ...placeUi[lang],
         ui: { ...traitUi[lang].ui, ...placeUi[lang].ui },
+      }),
+    },
+  },
+  // «Ho fame, ho sonno» (2026-11-02): le sensazioni con avere, come il luogo, con «Che cosa ha?».
+  sensazioni: {
+    id: 'sensazioni',
+    kind: 'words',
+    pages: sensationPages,
+    hero: 'ho-fame-ho-sonno-hero.webp',
+    words: sensationVocabulary,
+    translations: sensationTranslationExercises,
+    exampleWord: sensationExampleWord,
+    extraMatch: {
+      id: 'sensazioni-descrivi',
+      kind: 'match',
+      photoRows: true,
+      pages: sensationPages,
+      words: sensationDescribeRows,
+      bank: sensationVocabulary,
+      bankPage: sensationPages,
+      bankLessonId: 'sensazioni',
+      seeds: [2481, 2482],
+      uiFor: (lang) => ({
+        ...traitUi[lang],
+        ...sensationUi[lang],
+        ui: { ...traitUi[lang].ui, ...sensationUi[lang].ui },
       }),
     },
   },

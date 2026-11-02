@@ -1116,4 +1116,4 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - 22 parole del luogo, A1–A2, con le foto di animali come i colori e l’esercizio da trascinare «Dov’è il gattino?». Va subito dopo i colori nell’indice: sono parole di base.
 - La nota di ogni lingua è scritta per chi la parla: *di fronte a* non è *in front of*; il «de» di spagnolo, portoghese e francese che in italiano diventa *a* (*davanti alla porta*); niente casi per cechi e polacchi; l’ordine rovesciato per turchi e giapponesi; niente differenza fra stato e moto per i tedeschi.
 - Da fare: «Ho fame, ho sonno» (le sensazioni con *avere*), poi salute e viaggi.
-
+- Fatta lo stesso giorno anche «Ho fame, ho sonno: le sensazioni con avere» (20 espressioni, A1–A2, dopo le emozioni): è la trappola più comune per chi parla inglese, portoghese, tedesco, ceco o polacco, che dicono «sono affamato». Prossimi: salute e viaggi.

@@ -111,6 +111,17 @@ const VOCAB = {
     'Die Stadt auf Italienisch',
     'イタリア語の街の単語',
   ],
+  'ho-fame-ho-sonno': [
+    'Le espressioni con avere in italiano',
+    'Italian expressions with avere',
+    'Expresiones con avere en italiano',
+    'Les expressions avec avere en italien',
+    'Výrazy s avere italsky',
+    'Wyrażenia z avere po włosku',
+    'İtalyancada avere ile ifadeler',
+    'Ausdrücke mit avere auf Italienisch',
+    'イタリア語の avere を使う表現',
+  ],
   'dove-si-trova': [
     'Le parole del luogo in italiano',
     'Prepositions of place in Italian',

@@ -26,6 +26,7 @@ export const ORDER = [
   'corpo-umano',
   'verbi-corpo',
   'emozioni',
+  'ho-fame-ho-sonno',
   // le persone
   'famiglia',
   'persone',
