@@ -62,9 +62,9 @@ export const mountainVocabulary = [
   mount(
     'cima',
     'la cima',
-    ['Siamo arrivati in cima dopo tre ore.', 'Sulla cima c’è una croce di legno.', 'Dalla cima si vede il lago.'],
+    ['Siamo arrivati in cima dopo tre ore.', 'Sulla cima tira un vento fortissimo.', 'Dalla cima si vede il lago.'],
     '|The summit, peak|La cima|Le sommet|Vrchol|Szczyt|Zirve|Der Gipfel|頂上',
-    `${ROUND} two hikers with backpacks standing next to a wooden summit cross on a rocky mountain top, arms raised`,
+    `${ROUND} two hikers with backpacks standing on a rocky mountain top with arms raised, a small pile of stones beside them, nothing else on the summit, no cross, no religious symbols`,
     ['vetta', 'la vetta']
   ),
   mount(

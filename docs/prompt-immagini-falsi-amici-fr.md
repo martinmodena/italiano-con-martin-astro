@@ -21,7 +21,7 @@ Soggetti:
 - **mare** (fr. _mare_ = stagno): a man in swimming trunks with a beach towel, a bucket and spade and a beach umbrella, standing disappointed in front of a tiny muddy pond with two ducks in the middle of a field
 - **collo** (fr. _colle_ = colla): a giraffe holding a big tube of glue and gluing a broken vase back together, stretching its very long neck
 - **cucina** (fr. _cousine_ = cugina): two young women cousins who look alike, with the same curly hair, cooking together in a kitchen and laughing, one stirring a pot of tomato sauce and the other chopping vegetables
-- **chiesa** (fr. _chaise_ = sedia): a small country church shaped like a giant wooden chair, with the bell tower as the back of the chair, and villagers walking in through the door
+- **chiesa** (fr. _chaise_ = sedia): a small country church shaped like a giant wooden chair, with the bell tower as the back of the chair, plain walls with no cross and no religious symbols anywhere, and villagers walking in through the door
 - **pelle** (fr. _pelle_ = pala): a sunburnt man with bright red skin on a sunny beach digging a hole in the sand with a big shovel
 - **penna** (fr. _panne_ = guasto): a woman sitting on the bonnet of a broken-down car with smoke coming out of the engine, writing a note with a big pen while she waits for help
 - **mancia** (fr. _manche_ = manica): a smiling waiter holding out his arm with a very wide loose sleeve, and a customer dropping a tip of golden coins straight into the open end of the sleeve, the coins visibly falling inside the sleeve

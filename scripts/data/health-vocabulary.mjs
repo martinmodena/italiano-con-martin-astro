@@ -77,7 +77,7 @@ export const healthVocabulary = [
     'il pronto soccorso',
     ['Si è fatto male al braccio: lo portiamo al pronto soccorso.', 'Al pronto soccorso abbiamo aspettato tre ore.', 'Il pronto soccorso è aperto giorno e notte.'],
     '|The emergency room, A&E|Urgencias|Les urgences|Pohotovost, urgentní příjem|Szpitalny oddział ratunkowy (SOR)|Acil servis|Die Notaufnahme|救急外来',
-    'the entrance of a hospital emergency department with wide automatic glass doors, a big red cross sign above the doors with no words, an ambulance parked in front, isolated cut-out with a small patch of ground'
+    'the entrance of a hospital emergency department with wide automatic glass doors under a plain red canopy with no letters at all, absolutely no words anywhere, an ambulance with orange stripes parked in front, no cross anywhere, no religious symbols, isolated cut-out with a small patch of ground'
   ),
   health(
     'ambulanza',
@@ -212,7 +212,7 @@ export const healthVocabulary = [
     'la farmacia',
     ['La farmacia di turno è aperta anche di notte.', 'Passo in farmacia a prendere lo sciroppo.', 'La croce verde indica una farmacia.'],
     '|The pharmacy, the chemist’s|La farmacia|La pharmacie|Lékárna|Apteka|Eczane|Die Apotheke|薬局',
-    'the front of a small Italian pharmacy on the ground floor of an old building, a glowing green cross sign above the door and a shop window with boxes, isolated cut-out with a small patch of pavement, no words',
+    'the front of a small Italian pharmacy on the ground floor of an old building, a shop window full of colourful medicine boxes and a pharmacist in a white coat visible behind the glass, the shop sign above the window is a plain dark green board with no letters at all, absolutely no words anywhere, no cross anywhere, no religious symbols, isolated cut-out with a small patch of pavement, no words',
     ['farmacie', 'le farmacie']
   ),
   health(
@@ -220,7 +220,7 @@ export const healthVocabulary = [
     'la medicina',
     ['Prendi la medicina dopo i pasti.', 'Hai preso le medicine oggi?', 'Tieni le medicine lontano dai bambini.'],
     '|The medicine, the medication|El medicamento, la medicina|Le médicament|Lék|Lek, lekarstwo|İlaç|Das Medikament|薬',
-    'a few medicine boxes, a blister pack of tablets and a small brown bottle on a white surface, product photo, the boxes with simple grey lines instead of text',
+    'a medicine box with a dark blue band, a blister pack of white tablets and a small brown bottle with a white cap, product photo, the box with dark grey lines instead of text, good contrast',
     ['medicine', 'le medicine', 'il farmaco', 'farmaco', 'i farmaci', 'farmaci', 'la medicina']
   ),
   health(
@@ -276,7 +276,7 @@ export const healthVocabulary = [
     'il termometro',
     ['Il termometro segna trentotto e mezzo.', 'Dov’è il termometro? Credo di avere la febbre.', 'Tieni il termometro sotto il braccio per un minuto.'],
     '|The thermometer|El termómetro|Le thermomètre|Teploměr|Termometr|Termometre, derece|Das Fieberthermometer|体温計',
-    'a white digital clinical thermometer with a blank small display, product photo',
+    'a digital clinical thermometer with a blue tip and a blue body, a dark grey blank display, product photo, clearly standing out from the white background',
     ['termometri']
   ),
   health(
@@ -292,7 +292,7 @@ export const healthVocabulary = [
     'il vaccino',
     ['Prima del viaggio devo fare un vaccino.', 'Il vaccino contro l’influenza si fa in autunno.', 'Il bambino ha fatto tutti i vaccini.'],
     '|The vaccine, the vaccination|La vacuna|Le vaccin|Očkování, vakcína|Szczepionka|Aşı|Die Impfung, der Impfstoff|ワクチン、予防接種',
-    'a small glass vaccine vial without label text and a capped syringe lying beside it on a small white tray',
+    'a small glass vaccine vial with an orange cap and no label text, a sealed syringe still inside its closed plastic wrapper beside it on a light blue tray, no needle visible, good contrast',
     ['vaccini', 'i vaccini', 'la vaccinazione', 'vaccinazione']
   ),
   health(

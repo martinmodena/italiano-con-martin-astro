@@ -14,8 +14,18 @@ Costo: $0,31 per 34 foto. `--whiten` per camici, scatole, bende, il termometro e
 
 ## La testata — `public/assets/vocabolario/salute-hero.webp`
 
-Fatta gratis con lo Space Hugging Face `Z-Image-Turbo` (`1248x832 ( 3:2 )`, seme 572849), perché `gemini-3-pro-image` su OpenRouter risponde 402 con il credito attuale; portata a 1280×853 in webp qualità 82 con sharp.
+Fatta gratis con lo Space Hugging Face `Z-Image-Turbo` (`1248x832 ( 3:2 )`, seme 572849; rifatta il 2026-11-02 con seme 283434 senza la croce verde, perché nel sito non vogliamo croci né simboli religiosi), perché `gemini-3-pro-image` su OpenRouter risponde 402 con il credito attuale; portata a 1280×853 in webp qualità 82 con sharp.
 
 ```
-Photorealistic photograph of the counter of a small traditional Italian pharmacy: wooden shelves full of neatly arranged white and pastel medicine boxes, a glowing green cross on the wall, a smiling female pharmacist in a white coat behind the counter handing a small white box, warm natural light, clean and calm atmosphere, simple composition, no readable text, no logos
+Photorealistic photograph of the counter of a small traditional Italian pharmacy: wooden shelves full of neatly arranged white and pastel medicine boxes, a smiling female pharmacist in a white coat behind the counter handing a small white box, warm natural light, clean and calm atmosphere, simple composition, plain walls with no signs, no crosses, no symbols, no religious symbols, no readable text, no logos
 ```
+
+## Foto rifatte il 2026-11-02
+
+Martin ha chiesto di guardare bene le foto (contrasto basso, foto brutte) e di non mettere mai croci o simboli religiosi. Rifatte con `--only` (che ora rifà le foto nominate anche se esistono già) e i soggetti nuovi che stanno in `scripts/data/health-vocabulary.mjs`:
+
+- **farmacia** e **pronto-soccorso**: tolta la croce; insegna verde o pensilina rossa «with no letters at all», perché il primo tentativo aveva scritto «FARMACIA» ed «EMERGENCY» (con «FARMACIA» l'esercizio avrebbe dato la risposta).
+- **vaccino**: la siringa ora è chiusa nella sua confezione, perché nel primo tentativo l'ago era scoperto.
+- **medicina** e **termometro**: colori più decisi (fascia blu, punta blu), perché le prime erano bianco su bianco.
+
+Ritaglio: `--whiten=farmacia,medicina,pronto-soccorso`. Costo circa 0,08 $ con i tentativi.

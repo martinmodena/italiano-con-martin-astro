@@ -19,3 +19,11 @@ Fatta gratis con lo Space Hugging Face `Z-Image-Turbo` (`1248x832 ( 3:2 )`, seme
 ```
 Realistic, bright, elegant photograph. Minimal and simple, one subject only, lots of empty space. A red hard-shell suitcase standing on the platform of a small sunny Italian railway station, a regional train arriving softly blurred in the background, old station building in warm ochre colour with green shutters, warm morning light. Natural colours. No people. Absolutely no text, letters or numbers anywhere.
 ```
+
+## Foto rifatte il 2026-11-02
+
+- **passeggero**: era slavata. La causa era `--whiten`, che schiariva tutta la foto in modo lineare: ora `scripts/remove-white-background.py` schiarisce solo i toni vicini allo sfondo. In più la scena ora è in un cerchio, come le altre scene, e il cappotto è verde scuro.
+- **aereo**, **biglietto** e **carta-d-identita**: colori più decisi (coda blu, biglietto arancione e verde, tessera azzurra con la foto), perché le prime erano bianco su bianco.
+- **area-di-servizio**: più grande nell'inquadratura, tetto rosso «with no letters at all», perché il modello aveva riscritto «CAFE».
+
+Ritaglio: `--whiten=aereo,biglietto,carta-d-identita,area-di-servizio`; la passeggera è stata ritagliata normalmente.

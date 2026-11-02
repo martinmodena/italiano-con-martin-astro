@@ -60,7 +60,7 @@ export const travelVocabulary = [
     'l’aereo',
     ['L’aereo atterra alle sei.', 'È la prima volta che prendo l’aereo.', 'In aereo dormo sempre.'],
     '|The plane|El avión|L’avion|Letadlo|Samolot|Uçak|Das Flugzeug|飛行機',
-    'a white passenger jet plane flying, seen from the side at a slight angle, no logo, no text',
+    'a passenger jet plane with a dark blue tail and a dark blue stripe along the white body, flying, seen from the side at a slight angle, clearly standing out from the white background, no logo, no text',
     ['aerei', 'l’aeroplano', 'aeroplano']
   ),
   trip(
@@ -76,7 +76,7 @@ export const travelVocabulary = [
     'la carta d’identità',
     ['In Europa basta la carta d’identità.', 'Mi fa vedere la carta d’identità, per favore?', 'Ho perso la carta d’identità in treno.'],
     '|The identity card|El documento de identidad, el DNI|La carte d’identité|Občanský průkaz|Dowód osobisty|Kimlik kartı|Der Personalausweis|身分証明書',
-    'a hand holding a plastic identity card with a small blank photo square, a chip and simple grey lines instead of text',
+    'a hand holding a light blue and pale pink plastic identity card with a small photo of a smiling face, a gold chip and dark grey lines instead of text, good contrast',
     ['carta d’identita', 'la carta d’identita', 'documento', 'il documento']
   ),
   trip(
@@ -133,7 +133,7 @@ export const travelVocabulary = [
     'il biglietto',
     ['Un biglietto per Firenze, per favore.', 'Ho comprato il biglietto online.', 'Il biglietto di andata e ritorno costa meno.'],
     '|The ticket|El billete|Le billet|Jízdenka, lístek|Bilet|Bilet|Die Fahrkarte, das Ticket|切符、チケット',
-    'a hand holding a small paper train ticket with simple grey lines instead of text',
+    'a hand holding a small orange and green paper train ticket with dark grey lines instead of text, clearly standing out from the white background',
     ['biglietti', 'i biglietti']
   ),
   trip(
@@ -173,7 +173,7 @@ export const travelVocabulary = [
     'il passeggero / la passeggera',
     ['I passeggeri scendono dal treno.', 'La passeggera accanto a me leggeva un libro.', 'Il pilota saluta i passeggeri.'],
     '|The passenger|El / la pasajero/a|Le passager / la passagère|Cestující|Pasażer / pasażerka|Yolcu|Der Fahrgast, der Passagier|乗客',
-    'a young woman in a coat sitting by a train window with a small suitcase, looking out and smiling',
+    'a scene cropped into a perfect circle, centred with wide white margins: a young woman in a dark green coat sitting in a blue train seat by the window with a small suitcase, smiling, green countryside visible through the window, rich natural colours and good contrast, nothing washed out or overexposed',
     ['passeggeri', 'i passeggeri', 'passeggere']
   ),
   trip(
@@ -213,7 +213,7 @@ export const travelVocabulary = [
     'l’area di servizio',
     ['Ci fermiamo all’area di servizio per un caffè.', 'La prossima area di servizio è tra venti chilometri.', 'All’area di servizio facciamo benzina.'],
     '|The service station (on the motorway)|El área de servicio|L’aire de service|Odpočívadlo, čerpací stanice u dálnice|Miejsce obsługi podróżnych (MOP)|Dinlenme tesisi|Die Raststätte|サービスエリア',
-    'a motorway service area with a small glass café building, petrol pumps under a canopy and a few parked cars, isolated cut-out, completely blank signs and roofs with no letters, no words and no logos anywhere',
+    'a motorway service area filling most of the frame, a glass café building with a plain red roof with no letters at all, petrol pumps under a canopy and a few parked cars, isolated cut-out, completely blank signs and roofs with no letters, no words and no logos anywhere',
     ['l’autogrill', 'autogrill', 'aree di servizio']
   ),
   trip(

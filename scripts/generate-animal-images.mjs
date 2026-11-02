@@ -165,7 +165,7 @@ const PHOTO_END = [
   'Plain pure white background (#FFFFFF), soft diffused studio light, minimal contact shadow only, everything in sharp focus.',
   'The whole subject is completely inside the frame with a generous empty white margin on every side (at least 8%), never touching the edges of the picture, unless the subject is described as cropped.',
   'Correct human anatomy: exactly five fingers on each hand and five toes on each foot.',
-  'No text, no logo, no watermark, no frame, no border, no meat, no blood, no nudity.',
+  'No text, no logo, no watermark, no frame, no border, no meat, no blood, no nudity, no crosses or religious symbols.',
 ];
 const BODY_STYLE = [
   'Photorealistic studio photograph with true-to-life skin, hair and anatomy and natural colours, sharp and clean, like a stock photo for a school textbook.',
@@ -180,7 +180,7 @@ const ANIMAL_STYLE = [
   'with a charming friendly expression and big expressive eyes. Not a cartoon, not an illustration, not a 3D render, not a plush toy.',
   'Isolated on a pure white background (#FFFFFF), soft diffused studio light, minimal contact shadow only, everything in sharp focus.',
   'Wide full-body shot: the ENTIRE animal is visible from head to tail and feet, completely inside the frame with generous empty white margin on every side (at least 12%), never cropped, never a close-up.',
-  'No text, no logo, no watermark, no frame, no border, no people, no meat.',
+  'No text, no logo, no watermark, no frame, no border, no people, no meat, no crosses or religious symbols.',
 ].join(' ');
 // I mestieri: persona intera o a tre quarti con gli abiti e gli attrezzi del lavoro, riconoscibile a colpo
 // d'occhio. Qualita' `low` (Martin, 2026-09-26): le mani sono piccole nell'inquadratura larga.
@@ -250,7 +250,7 @@ const PLACE_STYLE = [
   'The picture must show very clearly WHERE the animal is in relation to the object: the spatial relation is the whole point and must be readable at first glance even in a small thumbnail.',
   'Only the animal and the objects named in the description, isolated on a plain pure white background (#FFFFFF) from edge to edge, no room, no vignette, no other props.',
   'Wide shot: the animal and the objects completely inside the frame with generous empty white margins on every side, never cropped.',
-  'No text, no logo, no watermark, no frame, no border, no people, no meat.',
+  'No text, no logo, no watermark, no frame, no border, no people, no meat, no crosses or religious symbols.',
 ].join(' ');
 // Le sensazioni con avere: l'animale mostra chiaramente cosa sente (fame, freddo, paura...), pochi oggetti.
 const SENSATION_STYLE = [
@@ -258,7 +258,7 @@ const SENSATION_STYLE = [
   'The animal shows very clearly, through its pose and expression, the feeling or the small ailment in the description: it must be readable at first glance even in a small thumbnail.',
   'Only the animal and the few objects named in the description, isolated on a plain pure white background (#FFFFFF) from edge to edge, no room, no vignette.',
   'Wide shot: everything completely inside the frame with generous empty white margins on every side, never cropped.',
-  'No text, no logo, no watermark, no frame, no border, no people, no meat.',
+  'No text, no logo, no watermark, no frame, no border, no people, no meat, no crosses or religious symbols.',
 ].join(' ');
 const STYLE =
   {
@@ -291,9 +291,10 @@ const STYLE =
     montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;
 
-const pending = sets[setName]
-  .filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)))
-  .filter((w) => !only || only.has(w.slug));
+// Con --only le immagini nominate si rifanno anche se esistono gia' (per sostituire quelle venute male).
+const pending = only
+  ? sets[setName].filter((w) => only.has(w.slug))
+  : sets[setName].filter((w) => !existsSync(path.join(assetsDir, `${w.image}.webp`)));
 
 if (!pending.length) {
   console.log('Nessuna immagine da generare.');

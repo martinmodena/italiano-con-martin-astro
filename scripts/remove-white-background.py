@@ -99,14 +99,21 @@ def whiten_background(image: Image.Image) -> Image.Image:
     pezzi veri (un bordo di ciotola, meta' di una mozzarella). La correzione
     lineare non puo' creare buchi: sposta tutti i pixel di poco, non decide
     cosa e' sfondo e cosa no.
+
+    2026-11-02: prima era una scala lineare (v * 255 / sfondo), che
+    schiariva tutta la foto; con uno sfondo grigio o una scena a tutto
+    campo (la passeggera in treno) il volto e la finestra diventavano
+    slavati. Ora la curva sposta solo i chiari vicini allo sfondo e lascia
+    quasi intatti scuri e mezzitoni; e lo sfondo stimato non scende sotto
+    235, cosi' una foto senza bordo bianco non viene schiarita.
     """
     rgb = image.convert("RGB")
     w, h = rgb.size
     bg = estimate_background(rgb.load(), w, h)
-    scale = tuple(255 / c if c > 0 else 1 for c in bg)
     lut = []
-    for s in scale:
-        lut.extend(min(255, round(v * s)) for v in range(256))
+    for c in bg:
+        c = max(c, 235)
+        lut.extend(255 if v >= c else min(255, round(v + (255 - c) * (v / c) ** 6)) for v in range(256))
     corrected = rgb.point(lut)  # 768 valori: applicati a R poi G poi B, in ordine
     return corrected.convert("RGBA")
 

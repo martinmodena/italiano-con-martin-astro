@@ -65,7 +65,7 @@ export const cityVocabulary = [
       'Le campane della chiesa suonano a mezzogiorno.',
     ],
     '|The church|La iglesia|L’église|Kostel|Kościół|Kilise|Die Kirche|教会',
-    'a small Italian stone church with a bell tower, isolated, like a cut-out, a small patch of ground in front'
+    'a small Italian stone church with a plain square bell tower, simple stone walls and a wooden door, no cross anywhere, no religious symbols, isolated, like a cut-out, a small patch of ground in front'
   ),
   city(
     'municipio',
@@ -84,7 +84,7 @@ export const cityVocabulary = [
       'L’ospedale è aperto giorno e notte.',
     ],
     '|The hospital|El hospital|L’hôpital|Nemocnice|Szpital|Hastane|Das Krankenhaus|病院',
-    'a modern hospital building with a red cross sign and an ambulance parked in front, isolated, like a cut-out'
+    'a modern hospital building with a blank blue sign panel and an ambulance parked in front, no cross anywhere, no religious symbols, isolated, like a cut-out'
   ),
   city(
     'scuola',
@@ -301,7 +301,7 @@ export const cityVocabulary = [
     'la farmacia',
     ['Compro l’aspirina in farmacia.', 'La farmacia di turno è aperta di notte.', 'La farmacia ha una croce verde.'],
     '|The pharmacy, chemist’s|La farmacia|La pharmacie|Lékárna|Apteka|Eczane|Die Apotheke|薬局',
-    `${FRONT} a glowing green cross sign above the door and shelves of medicine boxes behind the glass`
+    `${FRONT} a pharmacist in a white coat behind the counter and shelves of colourful medicine boxes behind the glass, the shop sign above the window is a plain dark green board with no letters at all, absolutely no words anywhere, no cross anywhere, no religious symbols`
   ),
   city(
     'libreria',
