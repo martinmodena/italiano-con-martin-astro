@@ -39,6 +39,8 @@
  *   - «I colori e le forme»                       30 parole (colori, fantasie, forme) con le foto di animali
  *                                                 (2026-09-26): «Riconosci la parola» PIU' l'esercizio da
  *                                                 trascinare «Descrivi l'animale» (`extraMatch`, con `photoRows`).
+ *   - «Dov'e' il gatto?»                          22 parole del luogo (sopra, sotto, davanti a, in cima a...) con le
+ *                                                 foto di animali (2026-11-02): come i colori, con «Dov'e' il gattino?».
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -172,6 +174,13 @@ import {
   colorExampleWord,
 } from './data/colors-vocabulary.mjs';
 import { colorPages, colorUi } from './data/colors-pages.mjs';
+import {
+  placeVocabulary,
+  placeDescribeRows,
+  placeTranslationExercises,
+  placeExampleWord,
+} from './data/places-vocabulary.mjs';
+import { placePages, placeUi } from './data/places-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -362,6 +371,33 @@ const lessons = {
         ...traitUi[lang],
         ...colorUi[lang],
         ui: { ...traitUi[lang].ui, ...colorUi[lang].ui },
+      }),
+    },
+  },
+  // «Dov'e' il gatto?» (2026-11-02): le parole del luogo, come i colori: «Riconosci la parola» piu'
+  // l'esercizio da trascinare «Dov'e' il gattino?».
+  luogo: {
+    id: 'luogo',
+    kind: 'words',
+    pages: placePages,
+    hero: 'dove-si-trova-hero.webp',
+    words: placeVocabulary,
+    translations: placeTranslationExercises,
+    exampleWord: placeExampleWord,
+    extraMatch: {
+      id: 'luogo-descrivi',
+      kind: 'match',
+      photoRows: true,
+      pages: placePages,
+      words: placeDescribeRows,
+      bank: placeVocabulary,
+      bankPage: placePages,
+      bankLessonId: 'luogo',
+      seeds: [2471, 2472],
+      uiFor: (lang) => ({
+        ...traitUi[lang],
+        ...placeUi[lang],
+        ui: { ...traitUi[lang].ui, ...placeUi[lang].ui },
       }),
     },
   },

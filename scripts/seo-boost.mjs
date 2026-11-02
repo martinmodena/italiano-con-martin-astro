@@ -111,6 +111,17 @@ const VOCAB = {
     'Die Stadt auf Italienisch',
     'イタリア語の街の単語',
   ],
+  'dove-si-trova': [
+    'Le parole del luogo in italiano',
+    'Prepositions of place in Italian',
+    'Preposiciones de lugar en italiano',
+    'Les prépositions de lieu en italien',
+    'Předložky místa v italštině',
+    'Przyimki miejsca po włosku',
+    'İtalyancada yer bildiren kelimeler',
+    'Ortsangaben auf Italienisch',
+    'イタリア語の場所を表す言葉',
+  ],
   'colori-forme': [
     'I colori e le forme in italiano',
     'Colors and shapes in Italian',

@@ -22,6 +22,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const ORDER = [
   // colori, corpo, emozioni
   'colori-forme',
+  'dove-si-trova',
   'corpo-umano',
   'verbi-corpo',
   'emozioni',

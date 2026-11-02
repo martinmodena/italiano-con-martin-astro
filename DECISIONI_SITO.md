@@ -1110,3 +1110,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Le trappole scelte per lingua: «des-» che non esiste per spagnoli e portoghesi, «-on» diminutivo e «mal-» per i francofoni, il solo «un-»/«ne-»/«nie-» di tedeschi, cechi e polacchi, la negazione in fondo alla parola per i turchi, 不・非・無 per i giapponesi; negli alterati «-azo»/«-aço» che elogiano mentre «-accio» critica, «-ucho» contro «-uccio», «-chen» che cambia il genere.
 - La seconda testata è stata fatta con Hugging Face perché i crediti OpenRouter erano finiti: vanno ricaricati per le prossime testate di qualità.
 
+## 2026-11-02 - Vocabolario: «Dov’è il gatto?», le parole del luogo
+
+- Alla domanda «per il vocabolario cosa manca?» ho proposto due lezioni con gli animali (le parole del luogo e le sensazioni con *avere*) e i temi pratici mancanti (salute, viaggi, acquisti, telefono, tempo libero, verbi della mente e della parola). Martin ha scelto «Dov’è il gatto?».
+- 22 parole del luogo, A1–A2, con le foto di animali come i colori e l’esercizio da trascinare «Dov’è il gattino?». Va subito dopo i colori nell’indice: sono parole di base.
+- La nota di ogni lingua è scritta per chi la parla: *di fronte a* non è *in front of*; il «de» di spagnolo, portoghese e francese che in italiano diventa *a* (*davanti alla porta*); niente casi per cechi e polacchi; l’ordine rovesciato per turchi e giapponesi; niente differenza fra stato e moto per i tedeschi.
+- Da fare: «Ho fame, ho sonno» (le sensazioni con *avere*), poi salute e viaggi.
+

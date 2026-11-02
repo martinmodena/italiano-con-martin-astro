@@ -202,6 +202,20 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Dov'e' il gatto?» (2026-11-02): come i colori, con l'esercizio da trascinare «Dov'e' il gattino?».
+  luogo: {
+    count: 22,
+    match: { positive: 8 },
+    it: 'vocabolario/dove-si-trova.html',
+    en: 'en/vocabulary/italian-prepositions-of-place-vocabulary.html',
+    es: 'es/vocabulario/preposiciones-de-lugar-en-italiano.html',
+    fr: 'fr/vocabulaire/les-prepositions-de-lieu-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-urceni-mista.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-okreslenia-miejsca.html',
+    tr: 'tr/kelime-bilgisi/italyanca-yer-bildiren-kelimeler.html',
+    de: 'de/wortschatz/italienischer-wortschatz-ortsangaben.html',
+    ja: 'ja/goi/italian-prepositions-of-place-vocabulary.html',
+  },
   // «I colori e le forme»: «Riconosci la parola» piu' l'esercizio da trascinare «Descrivi l'animale».
   colori: {
     count: 30,
@@ -536,6 +550,7 @@ for (const lesson of [
   'persone',
   'verbi-relazioni',
   'colori-forme',
+  'dove-si-trova',
   'tempo-stagioni',
   'casa',
   'verbi-casa',

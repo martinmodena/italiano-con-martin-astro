@@ -25,6 +25,7 @@
 //   - «Lo sport» (come la scuola: oggetti ritagliati, luoghi in un cerchio) -> --set sport
 //   - «I verbi delle relazioni» (scene con piu' persone, come sopra)  -> --set relazioni
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
+//   - «Dov'e' il gatto?» (animali e un oggetto, qualita' medium)      -> --set luogo e --set luogo-descrivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -60,6 +61,7 @@ import { jobVocabulary } from './data/jobs-vocabulary.mjs';
 import { peopleVocabulary } from './data/people-vocabulary.mjs';
 import { relationVerbs } from './data/relations-verbs.mjs';
 import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs';
+import { placeVocabulary, placeDescribeRows } from './data/places-vocabulary.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -99,7 +101,8 @@ const getArg = (n) => {
 const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
 // I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
-const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi'].includes(setName);
+// Le parole del luogo (2026-11-02): come i colori, la posizione deve leggersi bene.
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi'].includes(setName);
 const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
@@ -118,6 +121,8 @@ const sets = {
   relazioni: relationVerbs,
   colori: colorVocabulary,
   'colori-descrivi': colorDescribeRows,
+  luogo: placeVocabulary,
+  'luogo-descrivi': placeDescribeRows,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -137,7 +142,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -221,8 +226,18 @@ const workplaceStyle = (place) =>
 const SCHOOL_STYLE = workplaceStyle('an ordinary Italian school');
 const OFFICE_STYLE = workplaceStyle('an ordinary modern Italian office');
 const SPORT_STYLE = workplaceStyle('everyday amateur sport in Italy, clothes and equipment without any brand logo');
+// Le parole del luogo: un animale e uno o due oggetti semplici, la posizione chiara a colpo d'occhio.
+const PLACE_STYLE = [
+  'Adorable but realistic photograph: true-to-life animal anatomy, fur, feathers or scales and natural colours, a charming friendly expression. Not a cartoon, not an illustration, not a 3D render, not a plush toy.',
+  'The picture must show very clearly WHERE the animal is in relation to the object: the spatial relation is the whole point and must be readable at first glance even in a small thumbnail.',
+  'Only the animal and the objects named in the description, isolated on a plain pure white background (#FFFFFF) from edge to edge, no room, no vignette, no other props.',
+  'Wide shot: the animal and the objects completely inside the frame with generous empty white margins on every side, never cropped.',
+  'No text, no logo, no watermark, no frame, no border, no people, no meat.',
+].join(' ');
 const STYLE =
   {
+    luogo: PLACE_STYLE,
+    'luogo-descrivi': PLACE_STYLE,
     scuola: SCHOOL_STYLE,
     ufficio: OFFICE_STYLE,
     sport: SPORT_STYLE,
