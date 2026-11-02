@@ -111,6 +111,17 @@ const VOCAB = {
     'Die Stadt auf Italienisch',
     'イタリア語の街の単語',
   ],
+  viaggi: [
+    'Le parole del viaggio in italiano',
+    'Travel vocabulary in Italian',
+    'Los viajes en italiano',
+    'Le voyage en italien',
+    'Cestování italsky',
+    'Podróże po włosku',
+    'İtalyanca seyahat kelimeleri',
+    'Reisen auf Italienisch',
+    'イタリア語の旅行の単語',
+  ],
   salute: [
     'Le parole della salute in italiano',
     'Health vocabulary in Italian',

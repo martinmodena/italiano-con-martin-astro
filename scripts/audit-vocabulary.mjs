@@ -202,6 +202,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «In viaggio» (2026-11-02): come la salute.
+  viaggi: {
+    count: 34,
+    it: 'vocabolario/viaggi.html',
+    en: 'en/vocabulary/italian-travel-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-viajes-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-du-voyage-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-cestovani.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-podroze.html',
+    tr: 'tr/kelime-bilgisi/italyanca-seyahat-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-reisen.html',
+    ja: 'ja/goi/italian-travel-vocabulary.html',
+  },
   // «Dal medico e in farmacia» (2026-11-02): come la citta'.
   salute: {
     count: 34,
@@ -586,6 +599,7 @@ for (const lesson of [
   'citta',
   'montagna',
   'verbi-citta',
+  'viaggi',
   'emozioni',
   'scuola',
   'verbi-scuola',

@@ -156,6 +156,7 @@ export const PAGES = [
   { it: 'vocabolario/dove-si-trova.html', pt: 'pt/vocabulario/preposicoes-de-lugar-em-italiano.html' },
   { it: 'vocabolario/ho-fame-ho-sonno.html', pt: 'pt/vocabulario/estou-com-fome-em-italiano.html' },
   { it: 'vocabolario/salute.html', pt: 'pt/vocabulario/vocabulario-da-saude-em-italiano.html' },
+  { it: 'vocabolario/viaggi.html', pt: 'pt/vocabulario/vocabulario-de-viagem-em-italiano.html' },
   { it: 'vocabolario/corpo-umano.html', pt: 'pt/vocabulario/vocabulario-do-corpo-humano-em-italiano.html' },
   { it: 'vocabolario/cucina.html', pt: 'pt/vocabulario/vocabulario-da-cozinha-em-italiano.html' },
   { it: 'vocabolario/emozioni.html', pt: 'pt/vocabulario/vocabulario-das-emocoes-em-italiano.html' },

@@ -45,6 +45,8 @@
  *                                                 con le foto di animali (2026-11-02): come il luogo, con «Che cosa ha?».
  *   - «Dal medico e in farmacia»                  34 parole della salute (la ricetta, la tosse, lo sciroppo...) con
  *                                                 foto realistiche (2026-11-02): come la citta'.
+ *   - «In viaggio»                                34 parole del viaggio (il binario, la valigia, la dogana...) con
+ *                                                 foto realistiche (2026-11-02): come la salute.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -194,6 +196,8 @@ import {
 import { sensationPages, sensationUi } from './data/sensations-pages.mjs';
 import { healthVocabulary, healthTranslationExercises, healthExampleWord } from './data/health-vocabulary.mjs';
 import { healthPages } from './data/health-pages.mjs';
+import { travelVocabulary, travelTranslationExercises, travelExampleWord } from './data/travel-vocabulary.mjs';
+import { travelPages } from './data/travel-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -449,6 +453,16 @@ const lessons = {
     words: healthVocabulary,
     translations: healthTranslationExercises,
     exampleWord: healthExampleWord,
+  },
+  // «In viaggio» (2026-11-02): foto realistiche, come la salute.
+  viaggi: {
+    id: 'viaggi',
+    kind: 'words',
+    pages: travelPages,
+    hero: 'viaggi-hero.webp',
+    words: travelVocabulary,
+    translations: travelTranslationExercises,
+    exampleWord: travelExampleWord,
   },
   tempo: {
     id: 'tempo',

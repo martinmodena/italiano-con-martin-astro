@@ -1118,3 +1118,4 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Da fare: «Ho fame, ho sonno» (le sensazioni con *avere*), poi salute e viaggi.
 - Fatta lo stesso giorno anche «Ho fame, ho sonno: le sensazioni con avere» (20 espressioni, A1–A2, dopo le emozioni): è la trappola più comune per chi parla inglese, portoghese, tedesco, ceco o polacco, che dicono «sono affamato». Prossimi: salute e viaggi.
 - Fatta poi «Dal medico e in farmacia» (34 parole, slug `salute`, dopo «Ho fame, ho sonno»): tema pratico, quindi foto realistiche di persone e oggetti invece degli animali, come la città. Le espressioni con *avere* non si ripetono. Prossimo tema pratico proposto: i viaggi.
+- Fatta poi «In viaggio» (34 parole, slug `viaggi`, dopo i verbi della città): aeroporto, treno e strada, dormire e visitare, senza ripetere le parole della città e della montagna. Prossimi temi pratici: acquisti e soldi, telefono e internet, tempo libero.

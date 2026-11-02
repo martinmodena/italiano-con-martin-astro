@@ -49,6 +49,7 @@ export const ORDER = [
   // la città
   'citta',
   'verbi-citta',
+  'viaggi',
   // il tempo e la natura
   'tempo-stagioni',
   'mare',
