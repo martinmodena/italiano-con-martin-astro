@@ -43,6 +43,8 @@
  *                                                 foto di animali (2026-11-02): come i colori, con «Dov'e' il gattino?».
  *   - «Ho fame, ho sonno»                         20 espressioni con avere (fame, freddo, paura, il raffreddore...)
  *                                                 con le foto di animali (2026-11-02): come il luogo, con «Che cosa ha?».
+ *   - «Dal medico e in farmacia»                  34 parole della salute (la ricetta, la tosse, lo sciroppo...) con
+ *                                                 foto realistiche (2026-11-02): come la citta'.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -190,6 +192,8 @@ import {
   sensationExampleWord,
 } from './data/sensations-vocabulary.mjs';
 import { sensationPages, sensationUi } from './data/sensations-pages.mjs';
+import { healthVocabulary, healthTranslationExercises, healthExampleWord } from './data/health-vocabulary.mjs';
+import { healthPages } from './data/health-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -435,6 +439,16 @@ const lessons = {
         ui: { ...traitUi[lang].ui, ...sensationUi[lang].ui },
       }),
     },
+  },
+  // «Dal medico e in farmacia» (2026-11-02): foto realistiche, come la citta'.
+  salute: {
+    id: 'salute',
+    kind: 'words',
+    pages: healthPages,
+    hero: 'salute-hero.webp',
+    words: healthVocabulary,
+    translations: healthTranslationExercises,
+    exampleWord: healthExampleWord,
   },
   tempo: {
     id: 'tempo',

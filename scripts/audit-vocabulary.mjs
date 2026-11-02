@@ -202,6 +202,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Dal medico e in farmacia» (2026-11-02): come la citta'.
+  salute: {
+    count: 34,
+    it: 'vocabolario/salute.html',
+    en: 'en/vocabulary/italian-health-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-la-salud-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-de-la-sante-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-zdravi.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-zdrowie.html',
+    tr: 'tr/kelime-bilgisi/italyanca-saglik-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-gesundheit.html',
+    ja: 'ja/goi/italian-health-vocabulary.html',
+  },
   // «Ho fame, ho sonno» (2026-11-02): come il luogo, con l'esercizio da trascinare «Che cosa ha?».
   sensazioni: {
     count: 20,
@@ -566,6 +579,7 @@ for (const lesson of [
   'colori-forme',
   'dove-si-trova',
   'ho-fame-ho-sonno',
+  'salute',
   'tempo-stagioni',
   'casa',
   'verbi-casa',

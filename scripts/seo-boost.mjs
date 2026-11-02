@@ -111,6 +111,17 @@ const VOCAB = {
     'Die Stadt auf Italienisch',
     'イタリア語の街の単語',
   ],
+  salute: [
+    'Le parole della salute in italiano',
+    'Health vocabulary in Italian',
+    'La salud en italiano',
+    'La santé en italien',
+    'Zdraví italsky',
+    'Zdrowie po włosku',
+    'İtalyanca sağlık kelimeleri',
+    'Gesundheit auf Italienisch',
+    'イタリア語の健康の単語',
+  ],
   'ho-fame-ho-sonno': [
     'Le espressioni con avere in italiano',
     'Italian expressions with avere',

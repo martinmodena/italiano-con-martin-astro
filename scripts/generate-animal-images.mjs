@@ -27,6 +27,7 @@
 //   - «I colori e le forme» (animali, qualita' medium)               -> --set colori e --set colori-descrivi
 //   - «Dov'e' il gatto?» (animali e un oggetto, qualita' medium)      -> --set luogo e --set luogo-descrivi
 //   - «Ho fame, ho sonno» (animali che mostrano cosa sentono, medium) -> --set sensazioni e --set sensazioni-descrivi
+//   - «Dal medico e in farmacia» (foto realistiche, medium)          -> --set salute
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -64,6 +65,7 @@ import { relationVerbs } from './data/relations-verbs.mjs';
 import { colorVocabulary, colorDescribeRows } from './data/colors-vocabulary.mjs';
 import { placeVocabulary, placeDescribeRows } from './data/places-vocabulary.mjs';
 import { sensationVocabulary, sensationDescribeRows } from './data/sensations-vocabulary.mjs';
+import { healthVocabulary } from './data/health-vocabulary.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -104,7 +106,7 @@ const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
 // I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
 // Le parole del luogo (2026-11-02): come i colori, la posizione deve leggersi bene.
-const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi'].includes(setName);
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute'].includes(setName);
 const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
@@ -127,6 +129,7 @@ const sets = {
   'luogo-descrivi': placeDescribeRows,
   sensazioni: sensationVocabulary,
   'sensazioni-descrivi': sensationDescribeRows,
+  salute: healthVocabulary,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -146,7 +149,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -229,6 +232,10 @@ const workplaceStyle = (place) =>
   ].join(' ');
 const SCHOOL_STYLE = workplaceStyle('an ordinary Italian school');
 const OFFICE_STYLE = workplaceStyle('an ordinary modern Italian office');
+// La salute (2026-11-02): come la scuola; persone vestite in modo sobrio, niente sangue ne' aghi in primo piano.
+const HEALTH_STYLE = workplaceStyle(
+  'an ordinary Italian family doctor’s surgery and pharmacy, people dressed modestly in everyday clothes, nothing frightening, no needles close up'
+);
 const SPORT_STYLE = workplaceStyle('everyday amateur sport in Italy, clothes and equipment without any brand logo');
 // Le parole del luogo: un animale e uno o due oggetti semplici, la posizione chiara a colpo d'occhio.
 const PLACE_STYLE = [
@@ -249,6 +256,7 @@ const SENSATION_STYLE = [
 const STYLE =
   {
     sensazioni: SENSATION_STYLE,
+    salute: HEALTH_STYLE,
     'sensazioni-descrivi': SENSATION_STYLE,
     luogo: PLACE_STYLE,
     'luogo-descrivi': PLACE_STYLE,
