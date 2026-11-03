@@ -41,6 +41,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'italian-pronunciation',
     'contrari': 'italian-opposites-prefixes',
     'nomi-alterati': 'italian-diminutives-and-augmentatives',
+    'articoli-partitivi': 'italian-partitive-articles',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -82,6 +83,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'pronunciacion-italiana',
     'contrari': 'contrarios-en-italiano',
     'nomi-alterati': 'diminutivos-y-aumentativos-en-italiano',
+    'articoli-partitivi': 'articulos-partitivos-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -123,6 +125,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'prononciation-italienne',
     'contrari': 'les-contraires-en-italien',
     'nomi-alterati': 'diminutifs-et-augmentatifs-en-italien',
+    'articoli-partitivi': 'articles-partitifs-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -164,6 +167,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'italska-vyslovnost',
     'contrari': 'opaky-v-italstine',
     'nomi-alterati': 'zdrobneliny-v-italstine',
+    'articoli-partitivi': 'delivy-clen-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -205,6 +209,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'wymowa-wloska',
     'contrari': 'przeciwienstwa-po-wlosku',
     'nomi-alterati': 'zdrobnienia-i-zgrubienia-po-wlosku',
+    'articoli-partitivi': 'rodzajnik-czastkowy-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -246,6 +251,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'italyanca-telaffuz',
     'contrari': 'italyancada-zit-anlamlilar',
     'nomi-alterati': 'italyancada-kucultme-ve-buyutme-ekleri',
+    'articoli-partitivi': 'italyancada-kismi-tanimliklar',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -287,6 +293,7 @@ export const grammarSeoSlugs = {
     pronuncia: 'italienische-aussprache',
     'contrari': 'gegenteile-im-italienischen',
     'nomi-alterati': 'verkleinerungsformen-im-italienischen',
+    'articoli-partitivi': 'teilungsartikel-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -328,5 +335,6 @@ export const grammarSeoSlugs = {
     pronuncia: 'イタリア語の発音',
     'contrari': 'イタリア語の反対語',
     'nomi-alterati': 'イタリア語の縮小辞と増大辞',
+    'articoli-partitivi': 'イタリア語の部分冠詞',
   },
 };

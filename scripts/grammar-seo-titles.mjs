@@ -39,6 +39,7 @@ export const grammarSeoTitles = {
     pronuncia: 'Italian pronunciation',
     'contrari': 'Opposites in Italian: s-, dis-, in-',
     'nomi-alterati': 'Italian diminutives and augmentatives: -ino, -one, -accio',
+    'articoli-partitivi': 'Italian partitive articles: del, della, dei',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -80,6 +81,7 @@ export const grammarSeoTitles = {
     pronuncia: 'La pronunciación italiana',
     'contrari': 'Los contrarios en italiano: s-, dis-, in-',
     'nomi-alterati': 'Diminutivos y aumentativos en italiano: -ino, -one, -accio',
+    'articoli-partitivi': 'Los artículos partitivos en italiano: del, della, dei',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -121,6 +123,7 @@ export const grammarSeoTitles = {
     pronuncia: 'La prononciation italienne',
     'contrari': 'Les contraires en italien : s-, dis-, in-',
     'nomi-alterati': 'Diminutifs et augmentatifs en italien : -ino, -one, -accio',
+    'articoli-partitivi': 'Les articles partitifs en italien : del, della, dei',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -162,6 +165,7 @@ export const grammarSeoTitles = {
     pronuncia: 'Italská výslovnost',
     'contrari': 'Opaky v italštině: s-, dis-, in-',
     'nomi-alterati': 'Zdrobněliny a zveličeniny v italštině: -ino, -one, -accio',
+    'articoli-partitivi': 'Dělivý člen v italštině: del, della, dei',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -203,6 +207,7 @@ export const grammarSeoTitles = {
     pronuncia: 'Wymowa włoska',
     'contrari': 'Przeciwieństwa po włosku: s-, dis-, in-',
     'nomi-alterati': 'Zdrobnienia i zgrubienia po włosku: -ino, -one, -accio',
+    'articoli-partitivi': 'Rodzajnik cząstkowy po włosku: del, della, dei',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -244,6 +249,7 @@ export const grammarSeoTitles = {
     pronuncia: 'İtalyanca telaffuz',
     'contrari': 'İtalyancada zıt anlamlılar: s-, dis-, in-',
     'nomi-alterati': 'İtalyancada küçültme ve büyütme ekleri: -ino, -one, -accio',
+    'articoli-partitivi': 'İtalyancada kısmi tanımlıklar: del, della, dei',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -285,6 +291,7 @@ export const grammarSeoTitles = {
     pronuncia: 'Italienische Aussprache',
     'contrari': 'Gegenteile im Italienischen: s-, dis-, in-',
     'nomi-alterati': 'Verkleinerungsformen im Italienischen: -ino, -one, -accio',
+    'articoli-partitivi': 'Der Teilungsartikel im Italienischen: del, della, dei',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -326,5 +333,6 @@ export const grammarSeoTitles = {
     pronuncia: 'イタリア語の発音',
     'contrari': 'イタリア語の反対語：s-、dis-、in-',
     'nomi-alterati': 'イタリア語の縮小辞・増大辞：-ino、-one、-accio',
+    'articoli-partitivi': 'イタリア語の部分冠詞：del、della、dei',
   },
 };

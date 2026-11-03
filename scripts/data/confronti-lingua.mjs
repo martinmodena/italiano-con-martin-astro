@@ -21,6 +21,7 @@ export const NAV = {
 };
 
 import { NOTES_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
+import { NOTES_PARTITIVI } from './confronti-partitivi.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3135,3 +3136,6 @@ export const NOTES = {
 
 // Lezioni del 2026-11-02, in un file a parte.
 Object.assign(NOTES, NOTES_CONTRARI_ALTERATI);
+
+// Lezione del 2026-11-03, in un file a parte.
+Object.assign(NOTES, NOTES_PARTITIVI);

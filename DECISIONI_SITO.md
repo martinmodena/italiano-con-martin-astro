@@ -1146,3 +1146,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - 23 verbi: 6 ripetuti dalla città (fare la spesa, scegliere, pesare, provare, fare la fila, comprare), _pagare_ diviso in _pagare in contanti_ e _pagare con la carta_, e 15 nuovi (fare shopping, mettere nel carrello, dare il resto, costare, spendere, risparmiare, contare i soldi, tirare sul prezzo, fare uno sconto, incartare, fare un regalo, cambiare, restituire, ordinare online, ricevere un pacco). Slug `verbi-acquisti`, subito dopo `acquisti`, in 10 lingue; la nota rimanda alle parole degli acquisti e ai verbi della città.
 - Foto `medium` controllate una per una; rifatte due (dollari americani al posto degli euro, un cartellino del prezzo che non si vedeva). Testata gratis con Hugging Face. Costo 0,22 $.
 - Nel portoghese mancava la variante senza link del cartellino Preply «até −30%» (indice della grammatica), aggiunta da un'altra sessione: tradotta con lo stesso testo della versione con link.
+
+## 2026-11-03 - Lezione nuova: gli articoli partitivi (A1)
+
+- Martin ha notato che mancava una scheda sugli articoli partitivi: prima c'era solo una sezione breve nella lezione sulle preposizioni articolate. Fatta in 10 lingue con PDF, testata, confronto con la lingua dello studente ed errori tipici.
+- È A1, subito dopo «Le preposizioni articolate» (stesse forme, di + articolo): il partitivo serve dal primo giorno al bar e al mercato. La sezione delle preposizioni articolate resta, con un link alla lezione nuova.
+- Oltre alle forme insegna quando **non** si usa (con piacere/amare/odiare l'articolo determinativo; al bar si ordina _un caffè_), le alternative di tutti i giorni (_un po' di_, _alcuni_, _qualche_ + singolare) e che spesso si può togliere: nessun errore segnato per frasi corrette ma meno naturali.
+- Le trappole scelte per lingua: per l'inglese _any_ che non si traduce; per il francese il partitivo obbligatorio, «pas de» e «beaucoup de»; per spagnolo e portoghese «unos/uns» e «alguma água»; per tedesco, ceco e polacco l'articolo nelle frasi generali (_mi piace il caffè_), con il genitivo partitivo slavo come aggancio; per il turco «birkaç» + singolare; per il giapponese il plurale.
+

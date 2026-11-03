@@ -38,6 +38,7 @@ export const PAGES = [
     it: 'grammatica/a1/preposizioni-articolate.html',
     pt: 'pt/gramatica/a1/preposicoes-articuladas-em-italiano.html',
   },
+  { it: 'grammatica/a1/articoli-partitivi.html', pt: 'pt/gramatica/a1/artigos-partitivos-em-italiano.html' },
   { it: 'grammatica/a1/numeri.html', pt: 'pt/gramatica/a1/os-numeros-em-italiano.html' },
   { it: 'grammatica/a1/che-ore-sono.html', pt: 'pt/gramatica/a1/as-horas-em-italiano.html' },
   { it: 'grammatica/a1/giorni-mesi-date.html', pt: 'pt/gramatica/a1/dias-meses-e-datas-em-italiano.html' },

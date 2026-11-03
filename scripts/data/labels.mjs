@@ -695,6 +695,16 @@ export const LABELS = {
     de: 'Abwertung',
     ja: '軽蔑辞',
   },
+  'Di + articolo': {
+    en: 'Di + article',
+    es: 'Di + artículo',
+    fr: 'Di + article défini',
+    cs: 'Di + člen',
+    pl: 'Di + rodzajnik',
+    tr: 'Di + tanımlık',
+    de: 'Di + Artikel',
+    ja: 'di ＋ 冠詞',
+  },
 };
 
 // Portoghese brasiliano (2026-10-09): le pagine nascono da quelle spagnole con
@@ -1430,5 +1440,25 @@ export const NAV_LABELS = {
     tr: 'Sahte küçültmeler',
     de: 'Falsche Verkleinerungen',
     ja: '見かけだけの縮小辞',
+  },
+  'Altri modi': {
+    en: 'Other ways',
+    es: 'Otras formas',
+    fr: 'Autres façons',
+    cs: 'Jiné možnosti',
+    pl: 'Inne sposoby',
+    tr: 'Başka yollar',
+    de: 'Andere Wege',
+    ja: 'ほかの言い方',
+  },
+  'Frasi negative': {
+    en: 'Negative sentences',
+    es: 'Frases negativas',
+    fr: 'Phrases négatives',
+    cs: 'Záporné věty',
+    pl: 'Zdania przeczące',
+    tr: 'Olumsuz cümleler',
+    de: 'Verneinte Sätze',
+    ja: '否定文',
   },
 };

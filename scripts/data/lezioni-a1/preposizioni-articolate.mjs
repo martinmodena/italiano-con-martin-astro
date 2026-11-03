@@ -10,7 +10,7 @@ const it = (s) => `<span lang="it">${s}</span>`;
 
 export default {
   slug: 'preposizioni-articolate',
-  next: 'ce-ci-sono',
+  next: 'articoli-partitivi',
   after: 'preposizioni-semplici',
   minutes: 25,
   slugs: {
@@ -59,7 +59,7 @@ export default {
       [L.pSing, 'Vorrei del pane, per favore.'],
       [L.pPlur, 'Ho comprato dei pomodori e delle mele.'],
       [L.pSenza, 'Non ho pane. · Ho un po’ di pane.'],
-    ])}<p class="mini-note">${L.partNote}</p></article>
+    ])}<p class="mini-note">${L.partNote}</p><p class="mini-note"><a href="${h.href('articoli-partitivi', 'a1')}">${L.partLink}</a></p></article>
     <article class="lesson-box" id="errori"><h2>${c.mistakesH2}</h2>${h.mistakes([
       ['Vado a il cinema.', 'Vado al cinema.'],
       ['Il libro di il professore.', 'Il libro del professore.'],
@@ -149,6 +149,7 @@ export default {
     pSenza: 'Nelle frasi negative: niente',
     partNote:
       '<strong><em lang="it">Dei, degli, delle</em> sono il plurale di <em lang="it">un, uno, una</em>:</strong> <em lang="it">un libro → dei libri</em>, <em lang="it">uno zaino → degli zaini</em>, <em lang="it">una mela → delle mele</em>.',
+    partLink: 'Tutto sul partitivo (del pane, dei libri, qualche, un po’ di): la lezione sugli articoli partitivi →',
     exIntro: '30 frasi in tre parti. Scrivi solo la preposizione: la correzione arriva mentre scrivi.',
     part1H3: 'Parte 1 · Unisci le due parole',
     part1P: 'Scrivi la preposizione articolata.',
