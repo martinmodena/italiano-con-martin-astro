@@ -869,6 +869,7 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Richiesta di Martin: aggiungere il suo link «invita un amico» di Preply (25 $ per ogni studente che si iscrive e si abbona).
 - Verificato sulla guida di Preply (Tutor referral program): chi si iscrive con il link, se è nuovo su Preply, ha il **30% di sconto sulla prima lezione di prova** con insegnanti da almeno 7 $/ora. Lo sconto è scritto nel testo del link, nelle 9 lingue.
 - Link secondario, accanto a «Conosci Martin e Licia» e «Scrivici su WhatsApp», per non togliere clic ai pulsanti dei profili. 1012 pagine (riquadro finale + 9 «Chi siamo»), con `scripts/add-preply-signup-link.mjs`; `rel="sponsored noopener"`.
+- 2026-11-03, Martin: «fai il bollino Preply, un price tag che si muove; è fino al 30% di sconto, sotto i 7 euro circa non funziona». Davanti al link c'è un cartellino rosso «fino al −30%» disegnato in CSS (non l'immagine di stock proposta, che aveva la filigrana), che dondola ogni pochi secondi e al passaggio del mouse; testo «fino al 30%» in tutte le 10 lingue. Lo script ora conosce anche il portoghese (prima l'avrebbe sovrascritto con l'italiano).
 - Da controllare nel pannello Preply: se si può portare lo studente direttamente al profilo di Martin con lo stesso codice `pref`.
 
 ## 2026-10-09 - Preposizioni semplici rifatte, preposizioni articolate nuove

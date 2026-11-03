@@ -480,8 +480,8 @@ pt: Não sabe qual professor escolher?
 es: Escríbenos por WhatsApp y te ayudaremos a encontrar el camino más adecuado para tu nivel e intereses.
 pt: Escreva para a gente no WhatsApp e ajudamos você a encontrar o caminho certo para o seu nível e os seus interesses.
 
-es: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener">¿Nuevo en Preply? Regístrate aquí: 30 % de descuento en la clase de prueba</a>
-pt: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener">Novo no Preply? Cadastre-se aqui: 30% de desconto na aula experimental</a>
+es: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener"><span class="preply-tag" aria-hidden="true"><small>hasta</small>−30%</span><span class="preply-signup-text">¿Nuevo en Preply? Regístrate aquí: hasta un 30 % de descuento en la clase de prueba</span></a>
+pt: <a class="preply-signup" href="§1" target="_blank" rel="sponsored noopener"><span class="preply-tag" aria-hidden="true"><small>até</small>−30%</span><span class="preply-signup-text">Novo no Preply? Cadastre-se aqui: até 30% de desconto na aula experimental</span></a>
 
 es: Martin
 pt: Martin
