@@ -29,6 +29,7 @@
 //   - «Ho fame, ho sonno» (animali che mostrano cosa sentono, medium) -> --set sensazioni e --set sensazioni-descrivi
 //   - «Dal medico e in farmacia» (foto realistiche, medium)          -> --set salute
 //   - «In viaggio» (foto realistiche, medium)                         -> --set viaggi
+//   - «I verbi del viaggio» (scene come le persone, medium)          -> --set verbi-viaggio
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -68,6 +69,7 @@ import { placeVocabulary, placeDescribeRows } from './data/places-vocabulary.mjs
 import { sensationVocabulary, sensationDescribeRows } from './data/sensations-vocabulary.mjs';
 import { healthVocabulary } from './data/health-vocabulary.mjs';
 import { travelVocabulary } from './data/travel-vocabulary.mjs';
+import { travelVerbs } from './data/travel-verbs.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -108,7 +110,7 @@ const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
 // I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
 // Le parole del luogo (2026-11-02): come i colori, la posizione deve leggersi bene.
-const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi'].includes(setName);
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi', 'verbi-viaggio'].includes(setName);
 const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
@@ -133,6 +135,7 @@ const sets = {
   'sensazioni-descrivi': sensationDescribeRows,
   salute: healthVocabulary,
   viaggi: travelVocabulary,
+  'verbi-viaggio': travelVerbs,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -152,7 +155,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -281,6 +284,7 @@ const STYLE =
     relazioni: PEOPLE_STYLE,
     'verbi-casa': PEOPLE_STYLE,
     'verbi-citta': PEOPLE_STYLE,
+    'verbi-viaggio': PEOPLE_STYLE,
     'verbi-scuola': PEOPLE_STYLE,
     'verbi-ufficio': PEOPLE_STYLE,
     'verbi-montagna': PEOPLE_STYLE,

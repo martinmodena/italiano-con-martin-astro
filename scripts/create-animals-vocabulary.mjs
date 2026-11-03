@@ -47,6 +47,8 @@
  *                                                 foto realistiche (2026-11-02): come la citta'.
  *   - «In viaggio»                                34 parole del viaggio (il binario, la valigia, la dogana...) con
  *                                                 foto realistiche (2026-11-02): come la salute.
+ *   - «I verbi del viaggio»                       25 verbi (fare la valigia, decollare, dare un passaggio...) con
+ *                                                 foto realistiche (2026-11-03): come i verbi della citta'.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -198,6 +200,8 @@ import { healthVocabulary, healthTranslationExercises, healthExampleWord } from 
 import { healthPages } from './data/health-pages.mjs';
 import { travelVocabulary, travelTranslationExercises, travelExampleWord } from './data/travel-vocabulary.mjs';
 import { travelPages } from './data/travel-pages.mjs';
+import { travelVerbs, travelVerbTranslationExercises } from './data/travel-verbs.mjs';
+import { travelVerbPages, travelVerbUi } from './data/travel-verbs-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -463,6 +467,28 @@ const lessons = {
     words: travelVocabulary,
     translations: travelTranslationExercises,
     exampleWord: travelExampleWord,
+  },
+  // «I verbi del viaggio» (2026-11-03): come i verbi della citta', foto realistiche medium.
+  'verbi-viaggio': {
+    id: 'verbi-viaggio',
+    kind: 'match',
+    photoRows: true,
+    pages: travelVerbPages,
+    hero: 'verbi-viaggio-hero.webp',
+    words: travelVerbs,
+    translations: travelVerbTranslationExercises,
+    exampleWord: null,
+    bank: travelVerbs,
+    bankPage: travelVerbPages,
+    bankLessonId: 'verbi-viaggio',
+    seeds: [2491, 2492],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: travelVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...travelVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
   tempo: {
     id: 'tempo',

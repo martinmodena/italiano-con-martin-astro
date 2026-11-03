@@ -320,6 +320,17 @@ const VOCAB = {
     'Verben für den Haushalt auf Italienisch',
     '家で使うイタリア語の動詞',
   ],
+  'verbi-viaggio': [
+    'I verbi del viaggio in italiano',
+    'Travel verbs in Italian',
+    'Los verbos del viaje en italiano',
+    'Les verbes du voyage en italien',
+    'Slovesa cestování italsky',
+    'Czasowniki podróży po włosku',
+    'İtalyanca seyahat fiilleri',
+    'Verben auf Reisen auf Italienisch',
+    'イタリア語の旅行の動詞',
+  ],
   'verbi-citta': [
     'I verbi della città in italiano',
     'City verbs in Italian',
