@@ -49,6 +49,8 @@
  *                                                 foto realistiche (2026-11-02): come la salute.
  *   - «I verbi del viaggio»                       25 verbi (fare la valigia, decollare, dare un passaggio...) con
  *                                                 foto realistiche (2026-11-03): come i verbi della citta'.
+ *   - «Fare acquisti: soldi e negozi»             30 parole (i soldi, il resto, lo scontrino, il carrello, i saldi...)
+ *                                                 con foto realistiche (2026-11-03): come i viaggi.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -202,6 +204,8 @@ import { travelVocabulary, travelTranslationExercises, travelExampleWord } from 
 import { travelPages } from './data/travel-pages.mjs';
 import { travelVerbs, travelVerbTranslationExercises } from './data/travel-verbs.mjs';
 import { travelVerbPages, travelVerbUi } from './data/travel-verbs-pages.mjs';
+import { shoppingVocabulary, shoppingTranslationExercises, shoppingExampleWord } from './data/shopping-vocabulary.mjs';
+import { shoppingPages } from './data/shopping-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -467,6 +471,16 @@ const lessons = {
     words: travelVocabulary,
     translations: travelTranslationExercises,
     exampleWord: travelExampleWord,
+  },
+  // «Fare acquisti: soldi e negozi» (2026-11-03): foto realistiche, come i viaggi.
+  acquisti: {
+    id: 'acquisti',
+    kind: 'words',
+    pages: shoppingPages,
+    hero: 'acquisti-hero.webp',
+    words: shoppingVocabulary,
+    translations: shoppingTranslationExercises,
+    exampleWord: shoppingExampleWord,
   },
   // «I verbi del viaggio» (2026-11-03): come i verbi della citta', foto realistiche medium.
   'verbi-viaggio': {

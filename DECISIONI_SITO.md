@@ -1132,3 +1132,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Esercizio da trascinare come i verbi della città: una foto per verbo, le coppie indistinguibili si accettano a vicenda. Slug `verbi-viaggio`, subito dopo `viaggi` nell'indice, in 10 lingue.
 - La nota è scritta per chi parla ciascuna lingua: il punto comune è _affittare_ (casa) contro _noleggiare_ (macchina); poi _fare la valigia_, _fare il biglietto_, _prendere l’aereo_, _dare un passaggio_ e _atterrare_ con _essere_ (di solito). Per il portoghese: «dar carona» è _dare un passaggio_, e _passaggio_ non è la «passagem».
 - Foto realistiche `medium` controllate una per una: rifatte tre (scritte «Tickets» e «POSTE», un campanile sullo sfondo); anche la prima testata aveva un campanile ed è stata rifatta. Costo 0,26 $; testata gratis con Hugging Face.
+
+## 2026-11-03 — «Fare acquisti: soldi e negozi»
+
+- Terzo tema pratico (Martin: «Sì, gli acquisti»): 30 parole in due gruppi, i soldi e al negozio e al mercato, senza ripetere le parole della città, dei mestieri e delle persone. Slug `acquisti`, subito dopo i verbi del viaggio nell'indice, in 10 lingue.
+- Nota scritta per chi parla ciascuna lingua: il punto comune è _i soldi_ sempre plurale, poi _il resto_, _lo scontrino_, _il conto_, _la mancia_, _fare la spesa_ contro _fare shopping_, _i saldi_; e le trappole di ciascuna lingua (billete / billet / biglietto, cuento e «conto de fadas» / conto, mancha / mancia, Saldo / saldi, «a nota» / la nota, «despesa» / la spesa).
+- Foto realistiche `medium` controllate una per una (anche le banconote e le monete ingrandite: niente croci né scritte); rifatte il conto (era un tablet) e lo scontrino (bianco su bianco). La testata, tre sacchetti colorati in una via italiana, è fatta con `gpt-image-1-mini` perché la quota gratuita di Hugging Face del giorno era finita. Costo totale circa 0,30 $.

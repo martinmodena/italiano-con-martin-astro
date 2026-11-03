@@ -30,6 +30,7 @@
 //   - «Dal medico e in farmacia» (foto realistiche, medium)          -> --set salute
 //   - «In viaggio» (foto realistiche, medium)                         -> --set viaggi
 //   - «I verbi del viaggio» (scene come le persone, medium)          -> --set verbi-viaggio
+//   - «Fare acquisti: soldi e negozi» (foto realistiche, medium)      -> --set acquisti
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -70,6 +71,7 @@ import { sensationVocabulary, sensationDescribeRows } from './data/sensations-vo
 import { healthVocabulary } from './data/health-vocabulary.mjs';
 import { travelVocabulary } from './data/travel-vocabulary.mjs';
 import { travelVerbs } from './data/travel-verbs.mjs';
+import { shoppingVocabulary } from './data/shopping-vocabulary.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -110,7 +112,7 @@ const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
 // I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
 // Le parole del luogo (2026-11-02): come i colori, la posizione deve leggersi bene.
-const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi', 'verbi-viaggio'].includes(setName);
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi', 'verbi-viaggio', 'acquisti'].includes(setName);
 const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
@@ -136,6 +138,7 @@ const sets = {
   salute: healthVocabulary,
   viaggi: travelVocabulary,
   'verbi-viaggio': travelVerbs,
+  acquisti: shoppingVocabulary,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -155,7 +158,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|acquisti|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -246,6 +249,10 @@ const HEALTH_STYLE = workplaceStyle(
 const TRAVEL_STYLE = workplaceStyle(
   'travelling in Italy: airports, railway stations, motorways and hotels, people dressed modestly in everyday clothes, no brand logos'
 );
+// Gli acquisti (2026-11-03): come i viaggi; soldi, cartellini e insegne senza numeri ne' scritte (al massimo il simbolo %).
+const SHOPPING_STYLE = workplaceStyle(
+  'shopping in Italy: shops, markets and supermarkets, people dressed modestly in everyday clothes, no brand logos, banknotes, coins and price tags without readable numbers or words, no meat and no fish on display'
+);
 const SPORT_STYLE = workplaceStyle('everyday amateur sport in Italy, clothes and equipment without any brand logo');
 // Le parole del luogo: un animale e uno o due oggetti semplici, la posizione chiara a colpo d'occhio.
 const PLACE_STYLE = [
@@ -268,6 +275,7 @@ const STYLE =
     sensazioni: SENSATION_STYLE,
     salute: HEALTH_STYLE,
     viaggi: TRAVEL_STYLE,
+    acquisti: SHOPPING_STYLE,
     'sensazioni-descrivi': SENSATION_STYLE,
     luogo: PLACE_STYLE,
     'luogo-descrivi': PLACE_STYLE,

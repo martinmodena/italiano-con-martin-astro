@@ -202,6 +202,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Fare acquisti: soldi e negozi» (2026-11-03): come i viaggi.
+  acquisti: {
+    count: 30,
+    it: 'vocabolario/acquisti.html',
+    en: 'en/vocabulary/italian-shopping-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-de-las-compras-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-des-achats-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-nakupovani.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-zakupy.html',
+    tr: 'tr/kelime-bilgisi/italyanca-alisveris-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-einkaufen.html',
+    ja: 'ja/goi/italian-shopping-vocabulary.html',
+  },
   // «In viaggio» (2026-11-02): come la salute.
   viaggi: {
     count: 34,
@@ -616,6 +629,7 @@ for (const lesson of [
   'verbi-citta',
   'viaggi',
   'verbi-viaggio',
+  'acquisti',
   'emozioni',
   'scuola',
   'verbi-scuola',

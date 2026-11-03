@@ -51,6 +51,7 @@ export const ORDER = [
   'verbi-citta',
   'viaggi',
   'verbi-viaggio',
+  'acquisti',
   // il tempo e la natura
   'tempo-stagioni',
   'mare',
