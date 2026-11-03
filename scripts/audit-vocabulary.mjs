@@ -345,6 +345,21 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-berge.html',
     ja: 'ja/goi/italian-mountain-vocabulary.html',
   },
+  // «I verbi degli acquisti» (2026-11-03): come i verbi del viaggio.
+  'verbi-acquisti': {
+    count: 23,
+    tests: 0,
+    match: { positive: 23 },
+    it: 'vocabolario/verbi-acquisti.html',
+    en: 'en/vocabulary/italian-shopping-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-las-compras-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-des-achats-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-nakupovani.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-zakupow.html',
+    tr: 'tr/kelime-bilgisi/italyanca-alisveris-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-einkaufen.html',
+    ja: 'ja/goi/italian-shopping-verbs-vocabulary.html',
+  },
   // «I verbi del viaggio» (2026-11-03): come i verbi della citta'.
   'verbi-viaggio': {
     count: 25,
@@ -630,6 +645,7 @@ for (const lesson of [
   'viaggi',
   'verbi-viaggio',
   'acquisti',
+  'verbi-acquisti',
   'emozioni',
   'scuola',
   'verbi-scuola',

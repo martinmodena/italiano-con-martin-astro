@@ -320,6 +320,17 @@ const VOCAB = {
     'Verben für den Haushalt auf Italienisch',
     '家で使うイタリア語の動詞',
   ],
+  'verbi-acquisti': [
+    'I verbi degli acquisti in italiano',
+    'Shopping verbs in Italian',
+    'Los verbos de las compras en italiano',
+    'Les verbes des achats en italien',
+    'Slovesa nakupování italsky',
+    'Czasowniki zakupów po włosku',
+    'İtalyanca alışveriş fiilleri',
+    'Verben beim Einkaufen auf Italienisch',
+    'イタリア語の買い物の動詞',
+  ],
   acquisti: [
     'Le parole degli acquisti in italiano',
     'Shopping vocabulary in Italian',

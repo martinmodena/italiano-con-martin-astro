@@ -51,6 +51,8 @@
  *                                                 foto realistiche (2026-11-03): come i verbi della citta'.
  *   - «Fare acquisti: soldi e negozi»             30 parole (i soldi, il resto, lo scontrino, il carrello, i saldi...)
  *                                                 con foto realistiche (2026-11-03): come i viaggi.
+ *   - «I verbi degli acquisti»                    23 verbi (costare, spendere, provare, cambiare, restituire...)
+ *                                                 con foto realistiche (2026-11-03): come i verbi del viaggio.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -206,6 +208,8 @@ import { travelVerbs, travelVerbTranslationExercises } from './data/travel-verbs
 import { travelVerbPages, travelVerbUi } from './data/travel-verbs-pages.mjs';
 import { shoppingVocabulary, shoppingTranslationExercises, shoppingExampleWord } from './data/shopping-vocabulary.mjs';
 import { shoppingPages } from './data/shopping-pages.mjs';
+import { shoppingVerbs, shoppingVerbTranslationExercises } from './data/shopping-verbs.mjs';
+import { shoppingVerbPages, shoppingVerbUi } from './data/shopping-verbs-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -481,6 +485,28 @@ const lessons = {
     words: shoppingVocabulary,
     translations: shoppingTranslationExercises,
     exampleWord: shoppingExampleWord,
+  },
+  // «I verbi degli acquisti» (2026-11-03): come i verbi del viaggio, foto realistiche medium.
+  'verbi-acquisti': {
+    id: 'verbi-acquisti',
+    kind: 'match',
+    photoRows: true,
+    pages: shoppingVerbPages,
+    hero: 'verbi-acquisti-hero.webp',
+    words: shoppingVerbs,
+    translations: shoppingVerbTranslationExercises,
+    exampleWord: null,
+    bank: shoppingVerbs,
+    bankPage: shoppingVerbPages,
+    bankLessonId: 'verbi-acquisti',
+    seeds: [2501, 2502],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: shoppingVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...shoppingVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
   // «I verbi del viaggio» (2026-11-03): come i verbi della citta', foto realistiche medium.
   'verbi-viaggio': {
