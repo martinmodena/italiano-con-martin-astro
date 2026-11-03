@@ -17077,3 +17077,122 @@ pt: Vocabulário italiano por temas: mais de 1700 palavras com imagens
 
 es: Vocabulario italiano ilustrado y gratuito: más de 1700 palabras y verbos en 40 temas, cada uno con imagen, tres frases de ejemplo, pronunciación y ejercicios.
 pt: Vocabulário italiano ilustrado e gratuito: mais de 1700 palavras e verbos em 40 temas, cada um com imagem, três frases de exemplo, pronúncia e exercícios.
+
+// Lezione di vocabolario «Il telefono e internet» (2026-11-03): nota riscritta per chi parla portoghese
+
+es: El teléfono e internet
+pt: O telefone e a internet
+
+es: 24 palabras del teléfono e internet: el móvil, el cargador, la cobertura, el wifi, la aplicación, el audio…
+pt: 24 palavras do telefone e da internet: o celular, o carregador, o sinal, o wi-fi, o aplicativo, o áudio…
+
+es: Un móvil sobre la mesa de un bar italiano, junto a una tacita de café
+pt: Um celular em cima da mesa de um café italiano, ao lado de uma xicrinha de café
+
+es: El móvil no es <em lang="it">il mobile</em>
+pt: O celular é <em lang="it">il cellulare</em>, não <em lang="it">il mobile</em>
+
+es: La trampa más fuerte: <em lang="it">il mobile</em> es un mueble; el móvil es <em lang="it">il cellulare</em> o <em lang="it">il telefonino</em>. Al teléfono no se dice «¿Diga?» sino <em lang="it">Pronto?</em>. «Llamar a alguien» es <em lang="it">chiamare qualcuno</em>, sin <em lang="it">a</em>: <em lang="it">chiamo mia madre</em>; en cambio <em lang="it">telefonare</em> sí la lleva: <em lang="it">telefono a mia madre</em>. Si no hay cobertura, <em lang="it">non c’è campo</em>. El móvil sin batería <em lang="it">è scarico</em>, y «descargar» una aplicación es <em lang="it">scaricare</em>: es el mismo verbo. La funda es <em lang="it">la cover</em>, el cargador <em lang="it">il caricabatterie</em> y el altavoz <em lang="it">il vivavoce</em>. Un audio de WhatsApp es <em lang="it">un vocale</em> o <em lang="it">un messaggio vocale</em>. Ojo a la pronunciación: <em lang="it">wi-fi</em> se dice casi siempre «uái fai», a la inglesa. Y para despedirse: <em lang="it">ci sentiamo!</em> (¡hablamos!).
+pt: Boa notícia: o celular em italiano também é <em lang="it">il cellulare</em> (ou <em lang="it">il telefonino</em>); só não confunda com <em lang="it">il mobile</em>, que é um móvel, e com <em lang="it">il portatile</em>, que é o notebook. Ao atender, não se diz «Alô» mas <em lang="it">Pronto?</em>. A armadilha: «ligar para alguém» é <em lang="it">chiamare qualcuno</em>, sem preposição (<em lang="it">chiamo mia madre</em>), enquanto <em lang="it">telefonare</em> pede <em lang="it">a</em>: <em lang="it">telefono a mia madre</em>. Sem sinal, <em lang="it">non c’è campo</em>. O celular sem bateria <em lang="it">è scarico</em>, e «baixar» um aplicativo também é <em lang="it">scaricare</em>: é o mesmo verbo. A capinha é <em lang="it">la cover</em>, o carregador <em lang="it">il caricabatterie</em>, o viva-voz <em lang="it">il vivavoce</em> e o áudio do WhatsApp <em lang="it">il vocale</em> (<em lang="it">ti mando un vocale</em>, te mando um áudio). <em lang="it">Wi-fi</em> se pronuncia à inglesa, «uái fai». E para se despedir: <em lang="it">ci sentiamo!</em> (a gente se fala!).
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">¿Diga? ¿Quién es?</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Alô? Quem fala?</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Tengo el móvil sin batería: ¿me prestas el cargador?</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Meu celular descarregou: você me empresta o carregador?</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">¿Cuál es la contraseña del wifi?</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Qual é a senha do wi-fi?</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Aquí no hay cobertura: te llamo luego.</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Aqui não tem sinal: te ligo depois.</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Te mando un audio.</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Vou te mandar um áudio.</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Tengo tres llamadas perdidas de mi madre.</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Tenho três chamadas perdidas da minha mãe.</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Descarga la aplicación y escanea el código QR.</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Baixe o aplicativo e leia o QR code.</strong>
+
+es: <span class="prompt-label">Traducir libremente</span><strong lang="es">Pongo el altavoz, así lo oís vosotros también.</strong>
+pt: <span class="prompt-label">Traduza livremente</span><strong lang="pt-BR">Vou colocar no viva-voz para vocês ouvirem também.</strong>
+
+es: El móvil, el celular
+pt: O celular
+
+es: El cargador
+pt: O carregador
+
+es: La batería
+pt: A bateria
+
+es: El enchufe
+pt: A tomada
+
+es: El cable
+pt: O cabo
+
+es: La batería externa
+pt: O carregador portátil, a power bank
+
+es: La funda
+pt: A capinha
+
+es: La tarjeta SIM
+pt: O chip, o cartão SIM
+
+es: Los auriculares
+pt: Os fones de ouvido
+
+es: La cámara
+pt: A câmera
+
+es: El manos libres, el altavoz
+pt: O viva-voz
+
+es: La llamada
+pt: A ligação, a chamada
+
+es: El mensaje
+pt: A mensagem
+
+es: La cobertura
+pt: O sinal
+
+es: El wifi
+pt: O wi-fi
+
+es: El router
+pt: O roteador, o modem
+
+es: La tableta
+pt: O tablet
+
+es: La aplicación, la app
+pt: O aplicativo, o app
+
+es: El chat, el grupo
+pt: O chat, o grupo
+
+es: El audio, el mensaje de voz
+pt: O áudio, a mensagem de voz
+
+es: El emoji
+pt: O emoji
+
+es: La notificación
+pt: A notificação
+
+es: El código QR
+pt: O QR code
+
+es: La contraseña
+pt: A senha
+
+es: El teléfono e internet en italiano: 24 palabras con imágenes y pronunciación
+pt: O telefone e a internet em italiano: 24 palavras com imagens e pronúncia
+
+es: Aprende 24 palabras italianas del teléfono e internet — el móvil, el cargador, la funda, los auriculares, la cobertura, el wifi, la aplicación, el audio… — con fotos, tres frases de ejemplo, pronunciación y ejercicios.
+pt: Aprenda 24 palavras italianas do telefone e da internet — o celular, o carregador, a capinha, os fones de ouvido, o sinal, o wi-fi, o aplicativo, o áudio… — com fotos, três frases de exemplo, pronúncia e exercícios.

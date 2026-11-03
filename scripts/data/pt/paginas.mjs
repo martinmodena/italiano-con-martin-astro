@@ -161,6 +161,7 @@ export const PAGES = [
   { it: 'vocabolario/verbi-viaggio.html', pt: 'pt/vocabulario/vocabulario-verbos-de-viagem-em-italiano.html' },
   { it: 'vocabolario/acquisti.html', pt: 'pt/vocabulario/vocabulario-das-compras-em-italiano.html' },
   { it: 'vocabolario/verbi-acquisti.html', pt: 'pt/vocabulario/vocabulario-verbos-das-compras-em-italiano.html' },
+  { it: 'vocabolario/telefono-internet.html', pt: 'pt/vocabulario/vocabulario-do-telefone-e-internet-em-italiano.html' },
   { it: 'vocabolario/corpo-umano.html', pt: 'pt/vocabulario/vocabulario-do-corpo-humano-em-italiano.html' },
   { it: 'vocabolario/cucina.html', pt: 'pt/vocabulario/vocabulario-da-cozinha-em-italiano.html' },
   { it: 'vocabolario/emozioni.html', pt: 'pt/vocabulario/vocabulario-das-emocoes-em-italiano.html' },

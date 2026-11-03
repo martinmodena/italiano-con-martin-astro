@@ -202,6 +202,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Il telefono e internet» (2026-11-03): come gli acquisti.
+  'telefono-internet': {
+    count: 24,
+    it: 'vocabolario/telefono-internet.html',
+    en: 'en/vocabulary/italian-phone-and-internet-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-telefono-e-internet-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-du-telephone-et-internet-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-telefon-a-internet.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-telefon-i-internet.html',
+    tr: 'tr/kelime-bilgisi/italyanca-telefon-ve-internet-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-telefon-und-internet.html',
+    ja: 'ja/goi/italian-phone-and-internet-vocabulary.html',
+  },
   // «Fare acquisti: soldi e negozi» (2026-11-03): come i viaggi.
   acquisti: {
     count: 30,
@@ -646,6 +659,7 @@ for (const lesson of [
   'verbi-viaggio',
   'acquisti',
   'verbi-acquisti',
+  'telefono-internet',
   'emozioni',
   'scuola',
   'verbi-scuola',

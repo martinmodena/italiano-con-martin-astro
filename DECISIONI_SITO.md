@@ -1154,3 +1154,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Oltre alle forme insegna quando **non** si usa (con piacere/amare/odiare l'articolo determinativo; al bar si ordina _un caffè_), le alternative di tutti i giorni (_un po' di_, _alcuni_, _qualche_ + singolare) e che spesso si può togliere: nessun errore segnato per frasi corrette ma meno naturali.
 - Le trappole scelte per lingua: per l'inglese _any_ che non si traduce; per il francese il partitivo obbligatorio, «pas de» e «beaucoup de»; per spagnolo e portoghese «unos/uns» e «alguma água»; per tedesco, ceco e polacco l'articolo nelle frasi generali (_mi piace il caffè_), con il genitivo partitivo slavo come aggancio; per il turco «birkaç» + singolare; per il giapponese il plurale.
 
+## 2026-11-03 — «Il telefono e internet»
+
+- Quarto tema pratico (Martin: «Sì, il telefono»): 24 parole in due gruppi, il telefono e internet, senza ripetere le parole dell’ufficio. Slug `telefono-internet`, subito dopo i verbi degli acquisti nell’indice, in 10 lingue.
+- Nota scritta per chi parla ciascuna lingua: il punto comune è _Pronto?_, _chiamare qualcuno_ contro _telefonare a qualcuno_, _non c’è campo_, _è scarico_ e _scaricare un’app_ con lo stesso verbo; le trappole sono _il mobile_ (mobile, móvil, mobil), _il portatile_ (portable), «Handy», «zadzwonić do», «ligar para».
+- Foto `medium` controllate una per una; rifatte sei (caricabatterie, auricolari e router bianchi su bianco, la presa, la notifica quasi invisibile, le emoji tagliate dai bordi). Testata gratis con Hugging Face. Costo 0,27 $.
+- Lavorata insieme a un’altra sessione (lezione di grammatica sugli articoli partitivi) nella stessa cartella: ci siamo accordati per messaggio su chi lanciava `build-pt.mjs` e la build; nei file in comune (sitemap, dizionario pt, `paginas.mjs`) ognuno ha messo nel commit solo le sue righe.

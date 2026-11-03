@@ -320,6 +320,17 @@ const VOCAB = {
     'Verben für den Haushalt auf Italienisch',
     '家で使うイタリア語の動詞',
   ],
+  'telefono-internet': [
+    'Le parole del telefono e di internet in italiano',
+    'Phone and internet vocabulary in Italian',
+    'El teléfono e internet en italiano',
+    'Le téléphone et internet en italien',
+    'Telefon a internet italsky',
+    'Telefon i internet po włosku',
+    'İtalyanca telefon ve internet kelimeleri',
+    'Telefon und Internet auf Italienisch',
+    'イタリア語の電話とインターネットの単語',
+  ],
   'verbi-acquisti': [
     'I verbi degli acquisti in italiano',
     'Shopping verbs in Italian',

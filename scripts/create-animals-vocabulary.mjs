@@ -53,6 +53,8 @@
  *                                                 con foto realistiche (2026-11-03): come i viaggi.
  *   - «I verbi degli acquisti»                    23 verbi (costare, spendere, provare, cambiare, restituire...)
  *                                                 con foto realistiche (2026-11-03): come i verbi del viaggio.
+ *   - «Il telefono e internet»                    24 parole (il cellulare, il caricabatterie, il campo, il wi-fi,
+ *                                                 l'app...) con foto realistiche (2026-11-03): come gli acquisti.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -210,6 +212,8 @@ import { shoppingVocabulary, shoppingTranslationExercises, shoppingExampleWord }
 import { shoppingPages } from './data/shopping-pages.mjs';
 import { shoppingVerbs, shoppingVerbTranslationExercises } from './data/shopping-verbs.mjs';
 import { shoppingVerbPages, shoppingVerbUi } from './data/shopping-verbs-pages.mjs';
+import { phoneVocabulary, phoneTranslationExercises, phoneExampleWord } from './data/phone-vocabulary.mjs';
+import { phonePages } from './data/phone-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -485,6 +489,16 @@ const lessons = {
     words: shoppingVocabulary,
     translations: shoppingTranslationExercises,
     exampleWord: shoppingExampleWord,
+  },
+  // «Il telefono e internet» (2026-11-03): foto realistiche, come gli acquisti.
+  'telefono-internet': {
+    id: 'telefono-internet',
+    kind: 'words',
+    pages: phonePages,
+    hero: 'telefono-internet-hero.webp',
+    words: phoneVocabulary,
+    translations: phoneTranslationExercises,
+    exampleWord: phoneExampleWord,
   },
   // «I verbi degli acquisti» (2026-11-03): come i verbi del viaggio, foto realistiche medium.
   'verbi-acquisti': {
