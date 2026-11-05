@@ -123,3 +123,5 @@ a.preply-signup{display:inline-flex;align-items:center;gap:14px}.preply-tag{posi
 @keyframes preply-tag-swing{0%,55%,100%{transform:rotate(-7deg)}62%{transform:rotate(9deg)}70%{transform:rotate(-12deg)}78%{transform:rotate(4deg)}86%{transform:rotate(-9deg)}93%{transform:rotate(-5deg)}}
 @media(max-width:580px){a.preply-signup{justify-content:center;text-align:left}}
 @media(prefers-reduced-motion:reduce){.preply-tag,a.preply-signup:hover .preply-tag{animation:none}}
+/* Favole lette da Martin (2026-11-05): lettore audio sopra il testo del livello, lo mette scripts/add-fable-audio.mjs. */
+.fable-audio{margin:0 0 22px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--cream)}.fable-audio p{margin:0 0 10px;font-weight:700;color:var(--dark)}.fable-audio audio{display:block;width:100%;max-width:460px;height:40px}
