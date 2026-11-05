@@ -238,4 +238,5 @@ export const PAGES = [
   { it: 'favole/i-due-conigli.html', pt: 'pt/fabulas/os-dois-coelhos-em-italiano.html' },
   { it: 'favole/il-lupo-e-il-cane.html', pt: 'pt/fabulas/o-lobo-e-o-cao-la-fontaine-em-italiano.html' },
   { it: 'favole/il-vecchio-nonno-e-il-nipotino.html', pt: 'pt/fabulas/o-velho-avo-e-o-neto-grimm-em-italiano.html' },
+  { it: 'favole/pennina-e-il-cielo-che-cade.html', pt: 'pt/fabulas/henny-penny-o-ceu-esta-caindo-em-italiano.html' },
 ];

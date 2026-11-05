@@ -167,3 +167,11 @@ Il bambino monta per terra la ciotolina di legno, il nonno da solo vicino alla s
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated German folk tale book of the Brothers Grimm, soft golden evening light from a small window and the warm glow of a tiled stove, no black outlines. The simple wooden kitchen of an old German farmhouse. In the foreground, a small boy of about four with a round childish face, in a plain long-sleeved shirt and trousers, sits on the wooden floor fitting small flat pieces of wood together with his bare hands to build a little trough, no tools, no knife. In the background corner, next to the tiled stove, a very old grandfather with a white beard, in a simple long-sleeved shirt and waistcoat, sits alone on a stool holding a plain wooden bowl with trembling hands and looks sadly towards the family table. At the table, a young father and mother in plain modest clothes have stopped and are looking at the boy, surprised and moved. Gentle, tender atmosphere. Clean uncluttered composition, a single clear scene. No meat, no food visible, no religious symbols, no text, no words, no letters.
 ```
+
+## 20. `story-pennina-cielo` — «Pennina e il cielo che cade» (Henny Penny, mondo inglese) — 2026-11-05
+
+I cinque animali in fila sul sentiero, la ghianda dietro la gallina, la volpe seduta accanto alla quercia. Primo tentativo, tenuto (0,13 $); l'alt è stato corretto da «dietro» ad «accanto a» un albero.
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated English nursery tale book, bright autumn morning light, no black outlines. A winding country path through the English countryside with hedgerows, golden autumn leaves and a big oak tree. Five farm birds walk along the path in a single line, in a hurry, with worried, comical expressions: in front a small brown hen with wide alarmed eyes looking ahead, then a proud red rooster, a white duck, a white goose and a big turkey. A single small acorn lies on the path behind the hen. At the side of the path, half hidden behind the trunk of a tree, a sly red fox in no clothes smiles politely at them. Humorous, gentle fable atmosphere, no violence. Clean uncluttered composition, a single clear scene. No people, no food, no text, no words, no letters.
+```
