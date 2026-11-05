@@ -237,4 +237,5 @@ export const PAGES = [
   { it: 'favole/la-festa-in-cielo.html', pt: 'pt/fabulas/a-festa-no-ceu-em-italiano.html' },
   { it: 'favole/i-due-conigli.html', pt: 'pt/fabulas/os-dois-coelhos-em-italiano.html' },
   { it: 'favole/il-lupo-e-il-cane.html', pt: 'pt/fabulas/o-lobo-e-o-cao-la-fontaine-em-italiano.html' },
+  { it: 'favole/il-vecchio-nonno-e-il-nipotino.html', pt: 'pt/fabulas/o-velho-avo-e-o-neto-grimm-em-italiano.html' },
 ];
