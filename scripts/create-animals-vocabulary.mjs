@@ -57,6 +57,8 @@
  *                                                 l'app...) con foto realistiche (2026-11-03): come gli acquisti.
  *   - «Il tempo libero»                           29 parole (il concerto, la chitarra, gli scacchi, il cruciverba,
  *                                                 l'aperitivo...) con foto realistiche (2026-11-05): come il telefono.
+ *   - «I verbi della mente e della parola»        27 verbi (sapere, conoscere, ricordare, dire, chiedere,
+ *                                                 raccontare...) con foto realistiche (2026-11-05): come i verbi degli acquisti.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -218,6 +220,8 @@ import { phoneVocabulary, phoneTranslationExercises, phoneExampleWord } from './
 import { phonePages } from './data/phone-pages.mjs';
 import { leisureVocabulary, leisureTranslationExercises, leisureExampleWord } from './data/leisure-vocabulary.mjs';
 import { leisurePages } from './data/leisure-pages.mjs';
+import { mindVerbs, mindVerbTranslationExercises } from './data/mind-verbs.mjs';
+import { mindVerbPages, mindVerbUi } from './data/mind-verbs-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -513,6 +517,28 @@ const lessons = {
     words: phoneVocabulary,
     translations: phoneTranslationExercises,
     exampleWord: phoneExampleWord,
+  },
+  // «I verbi della mente e della parola» (2026-11-05): come i verbi degli acquisti, foto realistiche medium.
+  'verbi-mente-parola': {
+    id: 'verbi-mente-parola',
+    kind: 'match',
+    photoRows: true,
+    pages: mindVerbPages,
+    hero: 'verbi-mente-parola-hero.webp',
+    words: mindVerbs,
+    translations: mindVerbTranslationExercises,
+    exampleWord: null,
+    bank: mindVerbs,
+    bankPage: mindVerbPages,
+    bankLessonId: 'verbi-mente-parola',
+    seeds: [2511, 2512],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: mindVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...mindVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
   // «I verbi degli acquisti» (2026-11-03): come i verbi del viaggio, foto realistiche medium.
   'verbi-acquisti': {

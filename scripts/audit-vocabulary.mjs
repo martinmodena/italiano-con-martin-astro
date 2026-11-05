@@ -521,6 +521,21 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-meer.html',
     ja: 'ja/goi/italian-sea-verbs-vocabulary.html',
   },
+  // «I verbi della mente e della parola» (2026-11-05): come i verbi degli acquisti.
+  'verbi-mente-parola': {
+    count: 27,
+    tests: 0,
+    match: { positive: 27 },
+    it: 'vocabolario/verbi-mente-parola.html',
+    en: 'en/vocabulary/italian-mind-and-speech-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-de-la-mente-y-la-palabra-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-de-la-pensee-et-de-la-parole-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-slovesa-mysleni-a-reci.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-myslenia-i-mowy.html',
+    tr: 'tr/kelime-bilgisi/italyanca-dusunme-ve-konusma-fiilleri-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-verben-denken-und-sprechen.html',
+    ja: 'ja/goi/italian-mind-and-speech-verbs-vocabulary.html',
+  },
   'verbi-influenza': {
     count: 35,
     tests: 0,
@@ -683,6 +698,7 @@ for (const lesson of [
   'verbi-sport',
   'verbi-mare',
   'verbi-influenza',
+  'verbi-mente-parola',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 

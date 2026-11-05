@@ -33,6 +33,7 @@ export const ORDER = [
   'persone',
   'verbi-relazioni',
   'verbi-influenza',
+  'verbi-mente-parola',
   'mestieri',
   'abbigliamento',
   // la casa e il cibo

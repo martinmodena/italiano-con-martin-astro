@@ -397,6 +397,17 @@ const VOCAB = {
     'Verben rund um den Körper auf Italienisch',
     '体を使うイタリア語の動詞',
   ],
+  'verbi-mente-parola': [
+    'I verbi della mente e della parola in italiano',
+    'Verbs for thinking and speaking in Italian',
+    'Los verbos de la mente y la palabra en italiano',
+    'Les verbes de la pensée et de la parole en italien',
+    'Slovesa myšlení a řeči italsky',
+    'Czasowniki myślenia i mowy po włosku',
+    'İtalyanca düşünme ve konuşma fiilleri',
+    'Verben des Denkens und Sprechens auf Italienisch',
+    'イタリア語の考える・話す動詞',
+  ],
   'verbi-influenza': [
     'I verbi di influenza in italiano',
     'Verbs of influence in Italian',
