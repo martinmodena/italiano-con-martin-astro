@@ -234,4 +234,5 @@ export const PAGES = [
   { it: 'favole/la-gallinella-rossa.html', pt: 'pt/fabulas/a-galinha-ruiva-em-italiano.html' },
   { it: 'favole/riccioli-d-oro-e-i-tre-orsi.html', pt: 'pt/fabulas/cachinhos-dourados-e-os-tres-ursos-em-italiano.html' },
   { it: 'favole/la-festa-in-cielo.html', pt: 'pt/fabulas/a-festa-no-ceu-em-italiano.html' },
+  { it: 'favole/i-due-conigli.html', pt: 'pt/fabulas/os-dois-coelhos-em-italiano.html' },
 ];

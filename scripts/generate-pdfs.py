@@ -26,7 +26,12 @@ SITE = Path(os.environ.get("SITE_ROOT", ROOT / "dist"))
 PDF_OUT = Path(os.environ.get("PDF_OUT", ROOT / "public" / "pdf"))
 # --only <nome-file-italiano-senza-estensione>: rigenera una sola risorsa,
 # in tutte le lingue e per tutti i livelli. Ripetibile.
-ONLY = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--only" and i + 1 < len(sys.argv)]
+# --help / -h: stampa le opzioni ed esce (prima un --help faceva partire il giro completo).
+if "--help" in sys.argv or "-h" in sys.argv:
+    print("Uso: python scripts/generate-pdfs.py [--only <file-italiano>] [--lang <codice>] [--book]")
+    print("Senza opzioni rigenera TUTTI i PDF (lungo).")
+    raise SystemExit(0)
+ONLY =[sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--only" and i + 1 < len(sys.argv)]
 # --lang <codice>: genera solo quella lingua (es. --lang pt). Ripetibile.
 LANG_ONLY = [sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--lang" and i + 1 < len(sys.argv)]
 LEVELS = ["a1", "a2", "b1", "b2", "c1"]

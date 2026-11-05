@@ -143,3 +143,11 @@ L'avvoltoio vola verso il cielo con la viola sulla schiena; il rospo si affaccia
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Brazilian folk tale book, bright morning light, no black outlines. High in a clear blue sky over the green hills and dry scrubland of north-eastern Brazil, a big black vulture with spread wings flies upwards, carrying on its back a rustic wooden Brazilian viola guitar with a round sound hole and ten strings. From the round sound hole a small brown toad peeks out with wide round eyes and a mischievous smile. A few colourful tropical birds fly in the distance towards soft white clouds. Clean uncluttered composition, a single clear scene. No people, no food, no text, no letters.
 ```
+
+## 17. `story-due-conigli` — «I due conigli» (Los dos conejos, Iriarte, Spagna) — 2026-11-05
+
+I due conigli discutono in primo piano; in fondo, ancora lontani, un levriero e un segugio. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Spanish fable book, soft morning spring light, no black outlines. A green meadow with low bushes and wild flowers in the Spanish countryside, gentle hills and a few olive trees. In the foreground two brown wild rabbits sit up on their hind legs face to face, very close, arguing: one points a front paw towards the background with an indignant expression, the other shakes its head stubbornly with ears raised. Neither of them is looking behind. In the background, still far away across the meadow, two slender hunting dogs, a tall thin greyhound and a sturdy hound with long floppy ears, run towards them through the grass. Humorous, gentle, fable atmosphere, no violence. Clean uncluttered composition, a single clear scene. No people, no food, no text, no words, no letters.
+```

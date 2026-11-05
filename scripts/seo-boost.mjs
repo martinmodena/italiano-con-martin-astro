@@ -650,7 +650,7 @@ const CHOOSE = {
   cs: (a, b) => `Naučte se vybírat mezi ${a} a ${b}.`,
   pl: (a, b) => `Naucz się wybierać między ${a} i ${b}.`,
   tr: (a, b) => `${a} ve ${b} arasında seçim yapmayı öğrenin.`,
-  de: (a, b) => `Lernen Sie, zwischen ${a} und ${b} zu wählen.`,
+  de: (a, b) => `Lerne, zwischen ${a} und ${b} zu wählen.`,
   ja: (a, b) => `${a} と ${b} の使い分けを学びましょう。`,
 };
 const IRREGULAR = {
@@ -664,7 +664,7 @@ const IRREGULAR = {
   tr: (a, b) =>
     `Çok sık kullanılan bazı fiiller kurala tam olarak uymaz. Onları küçük gruplar hâlinde öğrenin: ${a} ve ${b}.`,
   de: (a, b) =>
-    `Einige sehr häufige Verben folgen der Regel nicht ganz. Lernen Sie sie in kleinen Gruppen: ${a} und ${b}.`,
+    `Einige sehr häufige Verben folgen der Regel nicht ganz. Lerne sie in kleinen Gruppen: ${a} und ${b}.`,
   ja: (a, b) =>
     `よく使う動詞の中には、規則どおりに活用しないものがあります。少しずつグループで覚えましょう：${a}、${b}。`,
 };
@@ -677,39 +677,39 @@ const GRAMMAR_LEADS = {
 const INDEX = {
   grammatica: {
     it: [
-      'Grammatica italiana per stranieri A1–C1: lezioni ed esercizi gratis',
+      'Grammatica italiana per stranieri A1–C1: lezioni, esercizi e PDF gratis',
       'Tutta la grammatica italiana dal livello A1 al C1: spiegazioni semplici, tabelle, esempi reali ed esercizi interattivi con correzione immediata. Gratis.',
     ],
     en: [
-      'Italian grammar A1–C1: free lessons with exercises',
+      'Italian grammar A1–C1: free lessons, exercises and PDF',
       'Free Italian grammar lessons from A1 to C1: clear explanations, tables, real examples and interactive exercises with instant feedback.',
     ],
     es: [
-      'Gramática italiana A1–C1: lecciones gratis con ejercicios',
+      'Gramática italiana A1–C1: lecciones, ejercicios y PDF gratis',
       'Lecciones gratuitas de gramática italiana del A1 al C1: explicaciones claras, tablas, ejemplos reales y ejercicios interactivos con corrección inmediata.',
     ],
     fr: [
-      'Grammaire italienne A1–C1 : leçons gratuites avec exercices',
+      'Grammaire italienne A1–C1 : leçons, exercices et PDF gratuits',
       'Leçons gratuites de grammaire italienne du niveau A1 au C1 : explications claires, tableaux, exemples réels et exercices interactifs corrigés immédiatement.',
     ],
     cs: [
-      'Italská gramatika A1–C1: lekce zdarma s cvičeními',
+      'Italská gramatika A1–C1: lekce, cvičení a PDF zdarma',
       'Bezplatné lekce italské gramatiky od A1 do C1: jasná vysvětlení, tabulky, skutečné příklady a interaktivní cvičení s okamžitou opravou.',
     ],
     pl: [
-      'Gramatyka włoska A1–C1: darmowe lekcje z ćwiczeniami',
+      'Gramatyka włoska A1–C1: darmowe lekcje, ćwiczenia i PDF',
       'Darmowe lekcje gramatyki włoskiej od A1 do C1: jasne wyjaśnienia, tabele, prawdziwe przykłady i interaktywne ćwiczenia z natychmiastową korektą.',
     ],
     tr: [
-      'İtalyanca dil bilgisi A1–C1: alıştırmalı ücretsiz dersler',
+      'İtalyanca dil bilgisi A1–C1: ücretsiz dersler, alıştırmalar ve PDF',
       "A1'den C1'e ücretsiz İtalyanca dil bilgisi dersleri: açık anlatımlar, tablolar, gerçek örnekler ve anında düzeltilen etkileşimli alıştırmalar.",
     ],
     de: [
-      'Italienische Grammatik A1–C1: kostenlose Lektionen mit Übungen',
+      'Italienische Grammatik A1–C1: kostenlose Lektionen, Übungen und PDF',
       'Kostenlose Lektionen zur italienischen Grammatik von A1 bis C1: klare Erklärungen, Tabellen, echte Beispiele und interaktive Übungen mit sofortiger Korrektur.',
     ],
     ja: [
-      'イタリア語文法 A1〜C1：練習問題つき無料レッスン',
+      'イタリア語文法 A1〜C1：無料レッスン・練習問題・PDF',
       'A1からC1までの無料イタリア語文法レッスン。わかりやすい説明、表、実例、すぐに答え合わせできる練習問題つき。',
     ],
   },
