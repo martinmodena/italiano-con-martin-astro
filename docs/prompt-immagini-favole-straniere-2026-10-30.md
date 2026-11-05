@@ -151,3 +151,11 @@ I due conigli discutono in primo piano; in fondo, ancora lontani, un levriero e 
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Spanish fable book, soft morning spring light, no black outlines. A green meadow with low bushes and wild flowers in the Spanish countryside, gentle hills and a few olive trees. In the foreground two brown wild rabbits sit up on their hind legs face to face, very close, arguing: one points a front paw towards the background with an indignant expression, the other shakes its head stubbornly with ears raised. Neither of them is looking behind. In the background, still far away across the meadow, two slender hunting dogs, a tall thin greyhound and a sturdy hound with long floppy ears, run towards them through the grass. Humorous, gentle, fable atmosphere, no violence. Clean uncluttered composition, a single clear scene. No people, no food, no text, no words, no letters.
 ```
+
+## 18. `story-lupo-cane` — «Il lupo e il cane» (Le Loup et le Chien, La Fontaine, Francia) — 2026-11-05
+
+Il lupo magro e il cane grasso con il collare, di notte, al limite del bosco. Primo tentativo scartato: il lupo teneva in bocca un collare. Secondo tentativo tenuto (0,27 $ in tutto).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated French fable book of La Fontaine, moonlit night with soft blue and silver light and a warm glow from a distant farmhouse window, no black outlines. At the edge of a dark forest, on a dirt path, two animals stand face to face. On the left, a very skinny, scruffy grey wolf, its ribs clearly visible under thin fur, with empty jaws and nothing in its mouth, looks hungry and curious. On the right, a big, plump, well-fed farm guard dog with a glossy brown and white coat wears a thick leather collar tightly around its own neck; the fur on its neck under the collar is worn away. The dog looks friendly and proud. Full moon above the trees. Calm, gentle fable atmosphere, no violence. Clean uncluttered composition, a single clear scene, only these two animals. No objects on the ground, no people, no food, no text, no words, no letters.
+```
