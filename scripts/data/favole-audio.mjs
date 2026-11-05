@@ -3,7 +3,7 @@
 // public/assets/audio/favole/<nome della pagina italiana>-<livello>.mp3
 // (per esempio i-due-conigli-a1.mp3). Lo usa scripts/add-fable-audio.mjs.
 export const FAVOLE_AUDIO = {
-  'favole/i-due-conigli.html': ['a1'],
+  'favole/i-due-conigli.html': ['a1', 'a2'],
 };
 
 // Il testo sopra il lettore, nella lingua di chi legge la pagina. {L} = livello.

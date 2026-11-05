@@ -1185,5 +1185,5 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 
 ## 2026-11-05 — Favole lette da Martin
 - Martin vuole la sua voce nelle favole («vorrei aggiungere la mia lettura alle favole»). Una registrazione per livello, sopra il testo di quel livello, in tutte le 10 lingue: il testo italiano è uguale ovunque.
-- Prima registrazione: «I due conigli», A1 (1:37). Il riquadro dice «Ascolta il testo A1 letto da Martin» nella lingua della pagina; niente audio nei PDF.
+- Prima registrazione: «I due conigli», A1 (1:37) e A2 (2:25). Il riquadro dice «Ascolta il testo A1 letto da Martin» nella lingua della pagina; niente audio nei PDF.
 - Meccanismo separato dai generatori (`scripts/add-fable-audio.mjs` + `scripts/data/favole-audio.mjs`) per non toccare i file delle favole che un'altra sessione stava modificando; il deploy controlla che i lettori ci siano.
