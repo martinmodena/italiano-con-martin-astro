@@ -202,6 +202,19 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-beziehungen.html',
     ja: 'ja/goi/italian-relationship-verbs-vocabulary.html',
   },
+  // «Il tempo libero» (2026-11-05): come il telefono.
+  'tempo-libero': {
+    count: 29,
+    it: 'vocabolario/tempo-libero.html',
+    en: 'en/vocabulary/italian-free-time-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-del-tiempo-libre-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-des-loisirs-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-volny-cas.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czas-wolny.html',
+    tr: 'tr/kelime-bilgisi/italyanca-bos-zaman-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-freizeit.html',
+    ja: 'ja/goi/italian-free-time-vocabulary.html',
+  },
   // «Il telefono e internet» (2026-11-03): come gli acquisti.
   'telefono-internet': {
     count: 24,
@@ -660,6 +673,7 @@ for (const lesson of [
   'acquisti',
   'verbi-acquisti',
   'telefono-internet',
+  'tempo-libero',
   'emozioni',
   'scuola',
   'verbi-scuola',

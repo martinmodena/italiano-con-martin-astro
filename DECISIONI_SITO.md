@@ -1160,3 +1160,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Nota scritta per chi parla ciascuna lingua: il punto comune è _Pronto?_, _chiamare qualcuno_ contro _telefonare a qualcuno_, _non c’è campo_, _è scarico_ e _scaricare un’app_ con lo stesso verbo; le trappole sono _il mobile_ (mobile, móvil, mobil), _il portatile_ (portable), «Handy», «zadzwonić do», «ligar para».
 - Foto `medium` controllate una per una; rifatte sei (caricabatterie, auricolari e router bianchi su bianco, la presa, la notifica quasi invisibile, le emoji tagliate dai bordi). Testata gratis con Hugging Face. Costo 0,27 $.
 - Lavorata insieme a un’altra sessione (lezione di grammatica sugli articoli partitivi) nella stessa cartella: ci siamo accordati per messaggio su chi lanciava `build-pt.mjs` e la build; nei file in comune (sitemap, dizionario pt, `paginas.mjs`) ognuno ha messo nel commit solo le sue righe.
+
+## 2026-11-05 — «Il tempo libero»
+
+- Quinto tema pratico (Martin: «Sì, il tempo libero»): 29 parole in quattro gruppi, musica e spettacoli, giochi, in casa e fuori casa, con due abitudini italiane (_l’aperitivo_, _la sagra_) e due giochi italiani (_il calcio balilla_, _le bocce_). Slug `tempo-libero`, subito dopo il telefono nell’indice, in 10 lingue.
+- Nota scritta per chi parla ciascuna lingua: il punto comune è _giocare a_ contro _suonare_; per spagnoli e brasiliani «tocar» non è _toccare_; per turchi e giapponesi la buona notizia che la loro lingua distingue già; _gli scacchi_ plurale per chi ha «Schach», «satranç», «xadrez» al singolare.
+- Foto `medium` controllate una per una; rifatte le carte; tre scene ritagliate in un cerchio. Testata gratis con Hugging Face, rifatta una volta perché era comparso un campanile. Costo 0,27 $.

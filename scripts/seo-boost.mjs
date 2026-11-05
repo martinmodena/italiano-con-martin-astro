@@ -320,6 +320,17 @@ const VOCAB = {
     'Verben für den Haushalt auf Italienisch',
     '家で使うイタリア語の動詞',
   ],
+  'tempo-libero': [
+    'Le parole del tempo libero in italiano',
+    'Free time vocabulary in Italian',
+    'El tiempo libre en italiano',
+    'Les loisirs en italien',
+    'Volný čas italsky',
+    'Czas wolny po włosku',
+    'İtalyanca boş zaman kelimeleri',
+    'Freizeit auf Italienisch',
+    'イタリア語の余暇の単語',
+  ],
   'telefono-internet': [
     'Le parole del telefono e di internet in italiano',
     'Phone and internet vocabulary in Italian',

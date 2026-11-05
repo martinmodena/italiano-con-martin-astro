@@ -33,6 +33,7 @@
 //   - «Fare acquisti: soldi e negozi» (foto realistiche, medium)      -> --set acquisti
 //   - «I verbi degli acquisti» (scene come le persone, medium)       -> --set verbi-acquisti
 //   - «Il telefono e internet» (foto realistiche, medium)            -> --set telefono
+//   - «Il tempo libero» (foto realistiche, medium)                   -> --set tempo-libero
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -76,6 +77,7 @@ import { travelVerbs } from './data/travel-verbs.mjs';
 import { shoppingVocabulary } from './data/shopping-vocabulary.mjs';
 import { shoppingVerbs } from './data/shopping-verbs.mjs';
 import { phoneVocabulary } from './data/phone-vocabulary.mjs';
+import { leisureVocabulary } from './data/leisure-vocabulary.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -116,7 +118,7 @@ const setName = getArg('--set');
 const model = getArg('--model') || 'openai/gpt-image-1-mini';
 // I colori (2026-09-26): Martin vuole foto di qualita', ma senza spendere troppo -> `medium`.
 // Le parole del luogo (2026-11-02): come i colori, la posizione deve leggersi bene.
-const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi', 'verbi-viaggio', 'acquisti', 'verbi-acquisti', 'telefono'].includes(setName);
+const mediumSet = ['corpo', 'verbi-corpo', 'colori', 'colori-descrivi', 'luogo', 'luogo-descrivi', 'sensazioni', 'sensazioni-descrivi', 'salute', 'viaggi', 'verbi-viaggio', 'acquisti', 'verbi-acquisti', 'telefono', 'tempo-libero'].includes(setName);
 const quality = getArg('--quality') || (mediumSet ? 'medium' : 'low');
 const size = getArg('--size') || '1024x1024';
 const only = getArg('--only') ? new Set(getArg('--only').split(',')) : null;
@@ -145,6 +147,7 @@ const sets = {
   acquisti: shoppingVocabulary,
   'verbi-acquisti': shoppingVerbs,
   telefono: phoneVocabulary,
+  'tempo-libero': leisureVocabulary,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -164,7 +167,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|acquisti|verbi-acquisti|telefono|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|acquisti|verbi-acquisti|telefono|tempo-libero|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -263,6 +266,10 @@ const SHOPPING_STYLE = workplaceStyle(
 const PHONE_STYLE = workplaceStyle(
   'everyday phones, chargers and home internet in Italy, people dressed modestly in everyday clothes, no brand logos at all (no bitten apple, no app logos), screens blank or with only simple coloured shapes and symbols, never readable words or numbers'
 );
+// Il tempo libero (2026-11-05): come il telefono; niente scritte, niente chiese sugli sfondi, quadri astratti, niente carne.
+const LEISURE_STYLE = workplaceStyle(
+  'free time and hobbies in Italy, people of all ages dressed modestly in everyday clothes, no brand logos, no readable words or numbers, no churches, bell towers or religious art in the background, no meat and no fish'
+);
 const SPORT_STYLE = workplaceStyle('everyday amateur sport in Italy, clothes and equipment without any brand logo');
 // Le parole del luogo: un animale e uno o due oggetti semplici, la posizione chiara a colpo d'occhio.
 const PLACE_STYLE = [
@@ -287,6 +294,7 @@ const STYLE =
     viaggi: TRAVEL_STYLE,
     acquisti: SHOPPING_STYLE,
     telefono: PHONE_STYLE,
+    'tempo-libero': LEISURE_STYLE,
     'sensazioni-descrivi': SENSATION_STYLE,
     luogo: PLACE_STYLE,
     'luogo-descrivi': PLACE_STYLE,

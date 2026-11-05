@@ -55,6 +55,8 @@
  *                                                 con foto realistiche (2026-11-03): come i verbi del viaggio.
  *   - «Il telefono e internet»                    24 parole (il cellulare, il caricabatterie, il campo, il wi-fi,
  *                                                 l'app...) con foto realistiche (2026-11-03): come gli acquisti.
+ *   - «Il tempo libero»                           29 parole (il concerto, la chitarra, gli scacchi, il cruciverba,
+ *                                                 l'aperitivo...) con foto realistiche (2026-11-05): come il telefono.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -214,6 +216,8 @@ import { shoppingVerbs, shoppingVerbTranslationExercises } from './data/shopping
 import { shoppingVerbPages, shoppingVerbUi } from './data/shopping-verbs-pages.mjs';
 import { phoneVocabulary, phoneTranslationExercises, phoneExampleWord } from './data/phone-vocabulary.mjs';
 import { phonePages } from './data/phone-pages.mjs';
+import { leisureVocabulary, leisureTranslationExercises, leisureExampleWord } from './data/leisure-vocabulary.mjs';
+import { leisurePages } from './data/leisure-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -489,6 +493,16 @@ const lessons = {
     words: shoppingVocabulary,
     translations: shoppingTranslationExercises,
     exampleWord: shoppingExampleWord,
+  },
+  // «Il tempo libero» (2026-11-05): foto realistiche, come il telefono.
+  'tempo-libero': {
+    id: 'tempo-libero',
+    kind: 'words',
+    pages: leisurePages,
+    hero: 'tempo-libero-hero.webp',
+    words: leisureVocabulary,
+    translations: leisureTranslationExercises,
+    exampleWord: leisureExampleWord,
   },
   // «Il telefono e internet» (2026-11-03): foto realistiche, come gli acquisti.
   'telefono-internet': {

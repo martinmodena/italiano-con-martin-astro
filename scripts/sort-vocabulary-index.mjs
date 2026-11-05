@@ -54,6 +54,7 @@ export const ORDER = [
   'acquisti',
   'verbi-acquisti',
   'telefono-internet',
+  'tempo-libero',
   // il tempo e la natura
   'tempo-stagioni',
   'mare',
