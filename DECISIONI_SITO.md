@@ -1187,3 +1187,9 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - Martin vuole la sua voce nelle favole («vorrei aggiungere la mia lettura alle favole»). Una registrazione per livello, sopra il testo di quel livello, in tutte le 10 lingue: il testo italiano è uguale ovunque.
 - Prima registrazione: «I due conigli», A1 (1:37) e A2 (2:25). Il riquadro dice «Ascolta il testo A1 letto da Martin» nella lingua della pagina; niente audio nei PDF.
 - Meccanismo separato dai generatori (`scripts/add-fable-audio.mjs` + `scripts/data/favole-audio.mjs`) per non toccare i file delle favole che un'altra sessione stava modificando; il deploy controlla che i lettori ci siano.
+
+## 2026-11-10 — Lezione nuova: i pronomi indiretti (A2)
+- Martin: «manca una lezione per i pronomi indiretti, vero? però ci sono quelli combinati..». C'erano «Pronomi diretti» (A2) e «Pronomi combinati» (B1), che dava gli indiretti per noti. Ora la scala è completa: diretti → indiretti → combinati.
+- «I pronomi indiretti: mi, ti, gli, le» (`grammatica/a2/pronomi-indiretti.html`, 10 lingue, 10 PDF), subito dopo i diretti nell'indice A2; il pulsante finale porta ai combinati. Forme con la forma tonica, diretto o indiretto (chi? / a chi?), posizione, piacere e i verbi come lui (mancare, servire, sembrare, fare male), passato prossimo senza accordo, trappole (le = a lei o «le» diretto, gli per una donna è un errore, Le formale), 30 esercizi.
+- Il riquadro «confronto» e gli errori sono scritti per lingua: la «a» personale e il «le» spagnolo che vale per tutti, il «pra ele» brasiliano, «lui» francese per uomo e donna, i verbi che cambiano caso (anrufen/helfen, pomoci, dzwonić do, onu aramak / ona yardım etmek), mancare rovesciato rispetto a «I miss you».
+- Testata gratis con Hugging Face Z-Image-Turbo (una mano porge un regalo), prompt in `docs/prompt-immagini-pronomi-indiretti.md`.

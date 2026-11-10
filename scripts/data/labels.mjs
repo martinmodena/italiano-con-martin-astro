@@ -705,6 +705,16 @@ export const LABELS = {
     de: 'Di + Artikel',
     ja: 'di ＋ 冠詞',
   },
+  'Forma tonica': {
+    en: 'Stressed form',
+    es: 'Forma tónica',
+    fr: 'Forme tonique',
+    cs: 'Přízvučný tvar',
+    pl: 'Forma akcentowana',
+    tr: 'Vurgulu biçim',
+    de: 'Betonte Form',
+    ja: '強勢形',
+  },
 };
 
 // Portoghese brasiliano (2026-10-09): le pagine nascono da quelle spagnole con
@@ -1460,5 +1470,25 @@ export const NAV_LABELS = {
     tr: 'Olumsuz cümleler',
     de: 'Verneinte Sätze',
     ja: '否定文',
+  },
+  'Diretto o indiretto?': {
+    en: 'Direct or indirect?',
+    es: '¿Directo o indirecto?',
+    fr: 'Direct ou indirect ?',
+    cs: 'Přímé, nebo nepřímé?',
+    pl: 'Bezpośredni czy pośredni?',
+    tr: 'Doğrudan mı, dolaylı mı?',
+    de: 'Direkt oder indirekt?',
+    ja: '直接か、間接か',
+  },
+  'Con piacere': {
+    en: 'With <span lang="it">piacere</span>',
+    es: 'Con <span lang="it">piacere</span>',
+    fr: 'Avec <span lang="it">piacere</span>',
+    cs: 'Sloveso <span lang="it">piacere</span>',
+    pl: 'Czasownik <span lang="it">piacere</span>',
+    tr: '<span lang="it">piacere</span> ile',
+    de: 'Mit <span lang="it">piacere</span>',
+    ja: '<span lang="it">piacere</span> を使う',
   },
 };

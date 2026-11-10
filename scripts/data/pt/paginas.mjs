@@ -126,6 +126,7 @@ export const PAGES = [
   { it: 'grammatica/a2/passato-prossimo-o-imperfetto.html', pt: 'pt/gramatica/a2/passato-prossimo-ou-imperfetto.html' },
   { it: 'grammatica/a2/passato-prossimo.html', pt: 'pt/gramatica/a2/o-passato-prossimo-italiano.html' },
   { it: 'grammatica/a2/pronomi-diretti.html', pt: 'pt/gramatica/a2/pronomes-diretos-em-italiano.html' },
+  { it: 'grammatica/a2/pronomi-indiretti.html', pt: 'pt/gramatica/a2/pronomes-indiretos-em-italiano.html' },
   { it: 'grammatica/a2/stare-gerundio.html', pt: 'pt/gramatica/a2/stare-e-gerundio-em-italiano.html' },
   { it: 'grammatica/a2/verbi-modali.html', pt: 'pt/gramatica/a2/verbos-modais-italianos-potere-volere-dovere.html' },
   {

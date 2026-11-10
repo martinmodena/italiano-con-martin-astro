@@ -31,6 +31,7 @@ export const ERR_LABELS = {
 
 import { ERRORS_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
 import { ERRORS_PARTITIVI } from './confronti-partitivi.mjs';
+import { ERRORS_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1002,3 +1003,6 @@ Object.assign(ERRORS, ERRORS_CONTRARI_ALTERATI);
 
 // Lezione del 2026-11-03, in un file a parte.
 Object.assign(ERRORS, ERRORS_PARTITIVI);
+
+// Lezione del 2026-11-10, in un file a parte.
+Object.assign(ERRORS, ERRORS_INDIRETTI);

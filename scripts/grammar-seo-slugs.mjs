@@ -42,6 +42,7 @@ export const grammarSeoSlugs = {
     'contrari': 'italian-opposites-prefixes',
     'nomi-alterati': 'italian-diminutives-and-augmentatives',
     'articoli-partitivi': 'italian-partitive-articles',
+    'pronomi-indiretti': 'italian-indirect-object-pronouns',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -84,6 +85,7 @@ export const grammarSeoSlugs = {
     'contrari': 'contrarios-en-italiano',
     'nomi-alterati': 'diminutivos-y-aumentativos-en-italiano',
     'articoli-partitivi': 'articulos-partitivos-en-italiano',
+    'pronomi-indiretti': 'pronombres-indirectos-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -126,6 +128,7 @@ export const grammarSeoSlugs = {
     'contrari': 'les-contraires-en-italien',
     'nomi-alterati': 'diminutifs-et-augmentatifs-en-italien',
     'articoli-partitivi': 'articles-partitifs-en-italien',
+    'pronomi-indiretti': 'pronoms-indirects-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -168,6 +171,7 @@ export const grammarSeoSlugs = {
     'contrari': 'opaky-v-italstine',
     'nomi-alterati': 'zdrobneliny-v-italstine',
     'articoli-partitivi': 'delivy-clen-v-italstine',
+    'pronomi-indiretti': 'neprima-zajmena-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -210,6 +214,7 @@ export const grammarSeoSlugs = {
     'contrari': 'przeciwienstwa-po-wlosku',
     'nomi-alterati': 'zdrobnienia-i-zgrubienia-po-wlosku',
     'articoli-partitivi': 'rodzajnik-czastkowy-po-wlosku',
+    'pronomi-indiretti': 'zaimki-dopelnienia-dalszego-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -252,6 +257,7 @@ export const grammarSeoSlugs = {
     'contrari': 'italyancada-zit-anlamlilar',
     'nomi-alterati': 'italyancada-kucultme-ve-buyutme-ekleri',
     'articoli-partitivi': 'italyancada-kismi-tanimliklar',
+    'pronomi-indiretti': 'italyanca-dolayli-nesne-zamirleri',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -294,6 +300,7 @@ export const grammarSeoSlugs = {
     'contrari': 'gegenteile-im-italienischen',
     'nomi-alterati': 'verkleinerungsformen-im-italienischen',
     'articoli-partitivi': 'teilungsartikel-im-italienischen',
+    'pronomi-indiretti': 'indirekte-pronomen-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -336,5 +343,6 @@ export const grammarSeoSlugs = {
     'contrari': 'イタリア語の反対語',
     'nomi-alterati': 'イタリア語の縮小辞と増大辞',
     'articoli-partitivi': 'イタリア語の部分冠詞',
+    'pronomi-indiretti': 'イタリア語の間接目的語代名詞',
   },
 };

@@ -40,6 +40,7 @@ export const grammarSeoTitles = {
     'contrari': 'Opposites in Italian: s-, dis-, in-',
     'nomi-alterati': 'Italian diminutives and augmentatives: -ino, -one, -accio',
     'articoli-partitivi': 'Italian partitive articles: del, della, dei',
+    'pronomi-indiretti': 'Italian indirect object pronouns: mi, ti, gli, le',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -82,6 +83,7 @@ export const grammarSeoTitles = {
     'contrari': 'Los contrarios en italiano: s-, dis-, in-',
     'nomi-alterati': 'Diminutivos y aumentativos en italiano: -ino, -one, -accio',
     'articoli-partitivi': 'Los artículos partitivos en italiano: del, della, dei',
+    'pronomi-indiretti': 'Pronombres indirectos en italiano: mi, ti, gli, le',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -124,6 +126,7 @@ export const grammarSeoTitles = {
     'contrari': 'Les contraires en italien : s-, dis-, in-',
     'nomi-alterati': 'Diminutifs et augmentatifs en italien : -ino, -one, -accio',
     'articoli-partitivi': 'Les articles partitifs en italien : del, della, dei',
+    'pronomi-indiretti': 'Pronoms indirects en italien : mi, ti, gli, le',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -166,6 +169,7 @@ export const grammarSeoTitles = {
     'contrari': 'Opaky v italštině: s-, dis-, in-',
     'nomi-alterati': 'Zdrobněliny a zveličeniny v italštině: -ino, -one, -accio',
     'articoli-partitivi': 'Dělivý člen v italštině: del, della, dei',
+    'pronomi-indiretti': 'Nepřímá zájmena v italštině: mi, ti, gli, le',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -208,6 +212,7 @@ export const grammarSeoTitles = {
     'contrari': 'Przeciwieństwa po włosku: s-, dis-, in-',
     'nomi-alterati': 'Zdrobnienia i zgrubienia po włosku: -ino, -one, -accio',
     'articoli-partitivi': 'Rodzajnik cząstkowy po włosku: del, della, dei',
+    'pronomi-indiretti': 'Zaimki dopełnienia dalszego po włosku: mi, ti, gli, le',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -250,6 +255,7 @@ export const grammarSeoTitles = {
     'contrari': 'İtalyancada zıt anlamlılar: s-, dis-, in-',
     'nomi-alterati': 'İtalyancada küçültme ve büyütme ekleri: -ino, -one, -accio',
     'articoli-partitivi': 'İtalyancada kısmi tanımlıklar: del, della, dei',
+    'pronomi-indiretti': 'İtalyanca dolaylı nesne zamirleri: mi, ti, gli, le',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -292,6 +298,7 @@ export const grammarSeoTitles = {
     'contrari': 'Gegenteile im Italienischen: s-, dis-, in-',
     'nomi-alterati': 'Verkleinerungsformen im Italienischen: -ino, -one, -accio',
     'articoli-partitivi': 'Der Teilungsartikel im Italienischen: del, della, dei',
+    'pronomi-indiretti': 'Indirekte Pronomen im Italienischen: mi, ti, gli, le',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -334,5 +341,6 @@ export const grammarSeoTitles = {
     'contrari': 'イタリア語の反対語：s-、dis-、in-',
     'nomi-alterati': 'イタリア語の縮小辞・増大辞：-ino、-one、-accio',
     'articoli-partitivi': 'イタリア語の部分冠詞：del、della、dei',
+    'pronomi-indiretti': 'イタリア語の間接目的語代名詞：mi, ti, gli, le',
   },
 };
