@@ -240,4 +240,5 @@ export const PAGES = [
   { it: 'favole/il-lupo-e-il-cane.html', pt: 'pt/fabulas/o-lobo-e-o-cao-la-fontaine-em-italiano.html' },
   { it: 'favole/il-vecchio-nonno-e-il-nipotino.html', pt: 'pt/fabulas/o-velho-avo-e-o-neto-grimm-em-italiano.html' },
   { it: 'favole/pennina-e-il-cielo-che-cade.html', pt: 'pt/fabulas/henny-penny-o-ceu-esta-caindo-em-italiano.html' },
+  { it: 'favole/il-fuoco-dei-covoni-di-riso.html', pt: 'pt/fabulas/o-fogo-dos-feixes-de-arroz-historia-japonesa-em-italiano.html' },
 ];

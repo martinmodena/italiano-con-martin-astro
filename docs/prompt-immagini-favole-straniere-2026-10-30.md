@@ -175,3 +175,11 @@ I cinque animali in fila sul sentiero, la ghianda dietro la gallina, la volpe se
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated English nursery tale book, bright autumn morning light, no black outlines. A winding country path through the English countryside with hedgerows, golden autumn leaves and a big oak tree. Five farm birds walk along the path in a single line, in a hurry, with worried, comical expressions: in front a small brown hen with wide alarmed eyes looking ahead, then a proud red rooster, a white duck, a white goose and a big turkey. A single small acorn lies on the path behind the hen. At the side of the path, half hidden behind the trunk of a tree, a sly red fox in no clothes smiles politely at them. Humorous, gentle fable atmosphere, no violence. Clean uncluttered composition, a single clear scene. No people, no food, no text, no words, no letters.
 ```
+
+## 21. `story-inamura-fuoco` — «Il fuoco dei covoni di riso» (Inamura no hi, Giappone) — 2026-11-10
+
+Hamaguchi con la torcia accende i covoni sulla collina; sotto, il villaggio e il mare che si ritira, con l'onda all'orizzonte. Niente templi né simboli religiosi. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft colours of a late autumn sunset, no black outlines. On a grassy hill above a small traditional Japanese fishing village with wooden houses and thatched roofs, an elderly Japanese man with white hair, in a plain dark kimono, holds a burning torch and sets fire to a row of tall conical stacks of harvested rice straw; bright orange flames rise from the first stacks. Below, the sea has strangely pulled back far from the beach, leaving wet sand and stranded boats exposed, and far out on the horizon a dark line of a great wave is forming. Small villagers on the beach look up towards the fire. Dramatic but calm, no destruction shown, no people hurt. Clean composition, a single clear scene. No temples, no shrines, no religious symbols, no text, no words, no letters.
+```
