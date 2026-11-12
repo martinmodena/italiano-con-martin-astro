@@ -145,7 +145,7 @@ const VOCAB = {
     'イタリア語の avere を使う表現',
   ],
   'dove-si-trova': [
-    'Le parole del luogo in italiano',
+    'Le preposizioni di luogo in italiano',
     'Prepositions of place in Italian',
     'Preposiciones de lugar en italiano',
     'Les prépositions de lieu en italien',

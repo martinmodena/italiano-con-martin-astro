@@ -18,9 +18,9 @@ export const placePages = {
   it: {
     dir: 'vocabolario',
     slug: 'dove-si-trova',
-    name: 'Dov’è il gatto? Sopra, sotto, dentro, fuori',
-    title: 'Sopra, sotto, dentro, fuori: le parole del luogo in italiano | Italiano con Martin',
-    description: `Impara ${N} parole italiane per dire dove si trova una cosa — sopra, sotto, dentro, davanti a, accanto a, tra, in fondo a… — con foto di animali, tre frasi d’esempio, pronuncia ed esercizi.`,
+    name: 'Le preposizioni di luogo: dov’è il gatto?',
+    title: 'Le preposizioni di luogo in italiano: sopra, sotto, davanti, dietro | Italiano con Martin',
+    description: `Le preposizioni di luogo in italiano: ${N} parole per dire dove si trova una cosa — sopra, sotto, dentro, davanti a, accanto a, tra, in fondo a… — con foto di animali, tre frasi d’esempio, pronuncia ed esercizi.`,
     heroAlt: 'Un gatto rosso che sbuca da una scatola di cartone sul pavimento di una cucina italiana',
     cardText: `${N} parole per dire dove si trova qualcosa, imparate con gli animali: il gatto sopra la scatola, il cane sotto il tavolo, la capra in cima alla roccia.`,
     note: {
