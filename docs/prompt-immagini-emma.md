@@ -79,3 +79,11 @@ Soft painterly gouache illustration, warm afternoon light, gentle colors, no bla
 ```
 Soft painterly gouache illustration, pale pink dawn light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing a mustard-yellow cardigan over a white t-shirt and a small dark-green backpack, stands sleepy on the platform of an Italian railway station at dawn, holding a small paper cup of coffee and a notebook, yawning, next to her flatmate Chiara, a young Italian woman with a dark brown ponytail and a dark green sweater, who smiles calmly and points down the empty tracks. A small suitcase at their feet, an old station canopy with iron columns, a station clock without numbers, soft early light over the rails. Modest, fully clothed, gentle humorous atmosphere. No text, no words, no letters, no numbers, no signs, no logos.
 ```
+
+## 11. `reading-emma-venezia` — «Perse a Venezia» (2026-11-12, episodio A2 sul passato prossimo dei riflessivi)
+
+Gratis con Hugging Face, Space `mcp-tools/Z-Image-Turbo`, seme `1001`, `1280x720 ( 16:9 )`, poi 960×540 (q82) e 640×360 (q80) con sharp. Riuscita al primo colpo; le due ragazze sono sedute sul bordo del canale e non sui gradini del ponte, e il testo alternativo lo dice.
+
+```
+Soft painterly gouache illustration, warm golden afternoon light, gentle colors, no black outlines, cinematic 16:9. Emma, a friendly young woman in her late twenties with shoulder-length wavy auburn hair, light freckles and round tortoiseshell glasses, wearing a mustard-yellow cardigan over a white t-shirt and a small dark-green backpack, sits tired and frustrated on the stone steps of a small arched bridge over a narrow Venetian canal, next to a small suitcase, holding a smartphone, while her flatmate Chiara, a young Italian woman with a dark brown ponytail and a dark green sweater, sits beside her laughing. A kind elderly man with a grey cap and a small brown dog on a leash walks towards them, smiling. Narrow Venetian alley with ochre and terracotta walls, flower boxes, a green wooden boat in the canal. Modest, fully clothed, gentle humorous atmosphere. No text, no words, no letters, no numbers, no signs, no logos.
+```

@@ -368,4 +368,46 @@ export const EMMA = [
     ],
     structure: 'prenderemo · andremo · sarà in ritardo',
   },
+  // 2026-11-12: seguito del «Piano perfetto», allena il passato prossimo dei verbi riflessivi
+  // (lezione di vocabolario «I verbi riflessivi di tutti i giorni»). Fatto vero: a Venezia il
+  // numero civico è del sestiere, non della via (a Castello si arriva oltre 6800).
+  {
+    key: 'venezia',
+    level: 'a2',
+    file: 'letture/emma-perse-a-venezia',
+    image: 'reading-emma-venezia',
+    title: 'Perse a Venezia',
+    seoTitle: 'Il passato prossimo dei verbi riflessivi: racconto A2 a Venezia (PDF)',
+    seoDesc:
+      'Racconto in italiano A2: Emma e Chiara arrivano a Venezia e cercano l’albergo «Castello 5312». Ma dov’è la via? Il passato prossimo dei verbi riflessivi (ci siamo perse, si è arrabbiata), domande e PDF gratis.',
+    lead: 'Emma e Chiara arrivano a Venezia con un indirizzo strano: «Castello 5312». Niente via, solo un numero. Un’ora dopo si sono perse… Un racconto A2 per imparare il passato prossimo dei verbi riflessivi.',
+    hook: 'Sulla prenotazione c’è scritto solo «Castello 5312». E la via?',
+    alt: 'Emma e Chiara sedute con lo zaino e la valigia sul bordo di un canale di Venezia, vicino a un piccolo ponte; un signore anziano con un cane si avvicina',
+    focus: 'Il passato prossimo dei verbi riflessivi: ci siamo perse, si è arrabbiata',
+    grammar: 'a2/passato-prossimo',
+    text: [
+      'Alle due del pomeriggio il treno regionale si è fermato finalmente a Venezia. Emma e Chiara si sono svegliate alle cinque ed erano stanche, ma quando sono uscite dalla stazione e hanno visto il Canal Grande, la stanchezza è sparita.',
+      '– Allora, – ha detto Emma, – il nostro albergo è in via… aspetta.<br>Ha guardato la prenotazione sul telefono e si è fermata.<br>– Qui c’è scritto solo «Castello 5312». Dov’è la via?<br>– Non importa, – ha risposto Chiara. – Ci aiuta il telefono.',
+      'Hanno camminato per un’ora. Le calli erano strette e i ponti erano tutti uguali. Il telefono diceva «gira a destra», ma a destra c’era un canale. Due volte si sono trovate davanti alla stessa chiesa.',
+      '– Ci siamo perse, – ha detto Chiara, e si è messa a ridere.<br>Emma invece si è arrabbiata.<br>– Non è divertente! Sono stanca, ho fame e la valigia pesa venti chili!',
+      'Si sono sedute sui gradini di un ponte. Un signore anziano con un cane si è avvicinato.<br>– Vi siete perse, signorine? Che numero cercate?<br>– Castello 5312. Ma non sappiamo la via!<br>Il signore ha sorriso.<br>– Non c’è la via. A Venezia il numero della casa non è della strada, ma del sestiere, cioè del quartiere. Qui a Castello i numeri arrivano quasi a settemila!',
+      'Il signore le ha accompagnate fino alla porta dell’albergo: dieci minuti a piedi. Si sono salutati e lui se n’è andato con il suo cane.',
+      'La sera Emma e Chiara si sono fatte la doccia, si sono rilassate un po’ e sono uscite di nuovo, questa volta senza telefono. Si sono perse altre tre volte, ma non si sono arrabbiate: si sono divertite.',
+      'Prima di dormire Emma ha scritto nel suo quaderno: «A Venezia la mappa non serve. Perdersi è il modo migliore per conoscerla».',
+    ],
+    box: [
+      'Emma e Chiara <strong>si sono svegliate</strong> alle cinque.',
+      '– <strong>Ci siamo perse</strong>, – ha detto Chiara.',
+      'Emma invece <strong>si è arrabbiata</strong>.',
+    ],
+    tryIt: 'Ieri io (svegliarsi) … tardi. Noi (perdersi) … a Venezia. Chiara (divertirsi) … molto.',
+    words: ['la calle', 'il ponte', 'il sestiere', 'la prenotazione', 'i gradini'],
+    questions: [
+      'Che cosa c’era scritto sulla prenotazione dell’albergo?',
+      'Perché Emma si è arrabbiata? E Chiara?',
+      'Come funzionano i numeri delle case a Venezia?',
+      'E tu? Ti sei mai perso in una città? Scrivi tre frasi al passato prossimo (Mi sono perso…, Mi sono fermato…, Mi sono divertito…).',
+    ],
+    structure: 'si sono svegliate · ci siamo perse · si è arrabbiata',
+  },
 ];

@@ -3,6 +3,7 @@
 // <it>…</it> diventa <span lang="it">…</span>.
 
 import { EMMA_I18N_A2 } from './emma-i18n-a2.mjs';
+import { EMMA_I18N_VENEZIA } from './emma-i18n-venezia.mjs';
 
 export const EMMA_UI = {
   it: {
@@ -260,6 +261,15 @@ export const EMMA_IT_BOX = {
     ],
     tryLabel: 'Prova tu: scrivi il verbo al futuro.',
     link: 'il futuro semplice',
+  },
+  venezia: {
+    box: [
+      'i verbi riflessivi al passato prossimo vogliono sempre <it>essere</it>: <it>mi sono svegliato, ti sei svegliata, si è svegliato…</it>',
+      'il participio si accorda con il soggetto: Emma e Chiara sono due donne → <it>ci siamo perse</it> (due uomini: <it>ci siamo persi</it>)',
+      'il pronome va prima di <it>essere</it>: <it>si è arrabbiata</it>, <it>non si sono arrabbiate</it>',
+    ],
+    tryLabel: 'Prova tu: scrivi il verbo al passato prossimo.',
+    link: 'il passato prossimo',
   },
 };
 
@@ -1733,4 +1743,6 @@ export const EMMA_I18N = {
   },
   // Episodi A2 del 2026-10-11 (foto dei nonni, sciopero)
   ...EMMA_I18N_A2,
+  // Episodio 11, A2 (2026-11-12): «Perse a Venezia», passato prossimo dei riflessivi
+  ...EMMA_I18N_VENEZIA,
 };
