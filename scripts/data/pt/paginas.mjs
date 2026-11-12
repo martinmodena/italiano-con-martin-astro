@@ -128,6 +128,7 @@ export const PAGES = [
   { it: 'grammatica/a2/passato-prossimo.html', pt: 'pt/gramatica/a2/o-passato-prossimo-italiano.html' },
   { it: 'grammatica/a2/pronomi-diretti.html', pt: 'pt/gramatica/a2/pronomes-diretos-em-italiano.html' },
   { it: 'grammatica/a2/pronomi-indiretti.html', pt: 'pt/gramatica/a2/pronomes-indiretos-em-italiano.html' },
+  { it: 'grammatica/a2/verbo-piacere.html', pt: 'pt/gramatica/a2/o-verbo-piacere-em-italiano.html' },
   { it: 'grammatica/a2/stare-gerundio.html', pt: 'pt/gramatica/a2/stare-e-gerundio-em-italiano.html' },
   { it: 'grammatica/a2/verbi-modali.html', pt: 'pt/gramatica/a2/verbos-modais-italianos-potere-volere-dovere.html' },
   {
@@ -135,6 +136,7 @@ export const PAGES = [
     pt: 'pt/gramatica/b1/comparativo-e-superlativo-em-italiano.html',
   },
   { it: 'grammatica/b1/condizionale-presente.html', pt: 'pt/gramatica/b1/o-condizionale-presente-italiano.html' },
+  { it: 'grammatica/b1/trapassato-prossimo.html', pt: 'pt/gramatica/b1/o-trapassato-prossimo-em-italiano.html' },
   { it: 'grammatica/b1/connettivi.html', pt: 'pt/gramatica/b1/conectivos-em-italiano.html' },
   { it: 'grammatica/b1/nomi-alterati.html', pt: 'pt/gramatica/b1/diminutivos-e-aumentativos-em-italiano.html' },
   { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html' },

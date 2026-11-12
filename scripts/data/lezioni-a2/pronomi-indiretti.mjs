@@ -12,7 +12,7 @@
 export default {
   slug: 'pronomi-indiretti',
   level: 'a2',
-  next: 'pronomi-combinati',
+  next: 'verbo-piacere',
   after: 'pronomi-diretti',
   minutes: 20,
   hero: { src: 'grammatica/pronomi-indiretti-hero.webp', width: 1280, height: 720 },

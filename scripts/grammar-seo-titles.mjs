@@ -41,6 +41,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Italian diminutives and augmentatives: -ino, -one, -accio',
     'articoli-partitivi': 'Italian partitive articles: del, della, dei',
     'pronomi-indiretti': 'Italian indirect object pronouns: mi, ti, gli, le',
+    'verbo-piacere': 'The Italian verb piacere: mi piace, mi piacciono',
+    'trapassato-prossimo': 'The Italian trapassato prossimo: avevo fatto, ero andato',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -84,6 +86,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Diminutivos y aumentativos en italiano: -ino, -one, -accio',
     'articoli-partitivi': 'Los artículos partitivos en italiano: del, della, dei',
     'pronomi-indiretti': 'Pronombres indirectos en italiano: mi, ti, gli, le',
+    'verbo-piacere': 'El verbo piacere en italiano: mi piace, mi piacciono',
+    'trapassato-prossimo': 'El trapassato prossimo en italiano: avevo fatto, ero andato',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -127,6 +131,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Diminutifs et augmentatifs en italien : -ino, -one, -accio',
     'articoli-partitivi': 'Les articles partitifs en italien : del, della, dei',
     'pronomi-indiretti': 'Pronoms indirects en italien : mi, ti, gli, le',
+    'verbo-piacere': 'Le verbe piacere en italien : mi piace, mi piacciono',
+    'trapassato-prossimo': 'Le trapassato prossimo en italien : avevo fatto, ero andato',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -170,6 +176,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Zdrobněliny a zveličeniny v italštině: -ino, -one, -accio',
     'articoli-partitivi': 'Dělivý člen v italštině: del, della, dei',
     'pronomi-indiretti': 'Nepřímá zájmena v italštině: mi, ti, gli, le',
+    'verbo-piacere': 'Sloveso piacere v italštině: mi piace, mi piacciono',
+    'trapassato-prossimo': 'Trapassato prossimo v italštině: avevo fatto, ero andato',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -213,6 +221,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Zdrobnienia i zgrubienia po włosku: -ino, -one, -accio',
     'articoli-partitivi': 'Rodzajnik cząstkowy po włosku: del, della, dei',
     'pronomi-indiretti': 'Zaimki dopełnienia dalszego po włosku: mi, ti, gli, le',
+    'verbo-piacere': 'Czasownik piacere po włosku: mi piace, mi piacciono',
+    'trapassato-prossimo': 'Trapassato prossimo po włosku: avevo fatto, ero andato',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -256,6 +266,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'İtalyancada küçültme ve büyütme ekleri: -ino, -one, -accio',
     'articoli-partitivi': 'İtalyancada kısmi tanımlıklar: del, della, dei',
     'pronomi-indiretti': 'İtalyanca dolaylı nesne zamirleri: mi, ti, gli, le',
+    'verbo-piacere': 'İtalyancada piacere fiili: mi piace, mi piacciono',
+    'trapassato-prossimo': 'İtalyancada trapassato prossimo: avevo fatto, ero andato',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -299,6 +311,8 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'Verkleinerungsformen im Italienischen: -ino, -one, -accio',
     'articoli-partitivi': 'Der Teilungsartikel im Italienischen: del, della, dei',
     'pronomi-indiretti': 'Indirekte Pronomen im Italienischen: mi, ti, gli, le',
+    'verbo-piacere': 'Das Verb piacere im Italienischen: mi piace, mi piacciono',
+    'trapassato-prossimo': 'Das trapassato prossimo im Italienischen: avevo fatto, ero andato',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -342,5 +356,7 @@ export const grammarSeoTitles = {
     'nomi-alterati': 'イタリア語の縮小辞・増大辞：-ino、-one、-accio',
     'articoli-partitivi': 'イタリア語の部分冠詞：del、della、dei',
     'pronomi-indiretti': 'イタリア語の間接目的語代名詞：mi, ti, gli, le',
+    'verbo-piacere': 'イタリア語の動詞piacere：mi piace, mi piacciono',
+    'trapassato-prossimo': 'イタリア語の大過去 trapassato prossimo：avevo fatto, ero andato',
   },
 };

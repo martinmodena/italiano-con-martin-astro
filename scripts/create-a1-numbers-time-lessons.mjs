@@ -7,6 +7,7 @@
 // Il 2026-11-02 «I contrari: s-, dis-, in-» (A2) e «I nomi alterati: -ino, -one, -accio» (B1), con testata.
 // Il 2026-11-03 «Gli articoli partitivi: del, della, dei» (A1), con testata, dopo le preposizioni articolate.
 // Il 2026-11-10 «I pronomi indiretti: mi, ti, gli, le» (A2), con testata, dopo i pronomi diretti.
+// Il 2026-11-12 «Il verbo piacere» (A2, dopo i pronomi indiretti) e «Il trapassato prossimo» (B1, dopo il condizionale).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -61,6 +62,10 @@ import partitivi from './data/lezioni-a1/articoli-partitivi.mjs';
 import partitiviI18n from './data/lezioni-a1/articoli-partitivi-i18n.mjs';
 import indiretti from './data/lezioni-a2/pronomi-indiretti.mjs';
 import indirettiI18n from './data/lezioni-a2/pronomi-indiretti-i18n.mjs';
+import piacere from './data/lezioni-a2/verbo-piacere.mjs';
+import piacereI18n from './data/lezioni-a2/verbo-piacere-i18n.mjs';
+import trapassato from './data/lezioni-b1/trapassato-prossimo.mjs';
+import trapassatoI18n from './data/lezioni-b1/trapassato-prossimo-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -262,6 +267,8 @@ const lessons = [
   { ...alterati, strings: { it: alterati.it, ...alteratiI18n } },
   { ...partitivi, strings: { it: partitivi.it, ...partitiviI18n } },
   { ...indiretti, strings: { it: indiretti.it, ...indirettiI18n } },
+  { ...piacere, strings: { it: piacere.it, ...piacereI18n } },
+  { ...trapassato, strings: { it: trapassato.it, ...trapassatoI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

@@ -43,6 +43,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'italian-diminutives-and-augmentatives',
     'articoli-partitivi': 'italian-partitive-articles',
     'pronomi-indiretti': 'italian-indirect-object-pronouns',
+    'verbo-piacere': 'the-italian-verb-piacere',
+    'trapassato-prossimo': 'the-italian-trapassato-prossimo',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -86,6 +88,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'diminutivos-y-aumentativos-en-italiano',
     'articoli-partitivi': 'articulos-partitivos-en-italiano',
     'pronomi-indiretti': 'pronombres-indirectos-en-italiano',
+    'verbo-piacere': 'el-verbo-piacere-en-italiano',
+    'trapassato-prossimo': 'el-trapassato-prossimo-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -129,6 +133,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'diminutifs-et-augmentatifs-en-italien',
     'articoli-partitivi': 'articles-partitifs-en-italien',
     'pronomi-indiretti': 'pronoms-indirects-en-italien',
+    'verbo-piacere': 'le-verbe-piacere-en-italien',
+    'trapassato-prossimo': 'le-trapassato-prossimo-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -172,6 +178,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'zdrobneliny-v-italstine',
     'articoli-partitivi': 'delivy-clen-v-italstine',
     'pronomi-indiretti': 'neprima-zajmena-v-italstine',
+    'verbo-piacere': 'sloveso-piacere-v-italstine',
+    'trapassato-prossimo': 'trapassato-prossimo-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -215,6 +223,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'zdrobnienia-i-zgrubienia-po-wlosku',
     'articoli-partitivi': 'rodzajnik-czastkowy-po-wlosku',
     'pronomi-indiretti': 'zaimki-dopelnienia-dalszego-po-wlosku',
+    'verbo-piacere': 'czasownik-piacere-po-wlosku',
+    'trapassato-prossimo': 'trapassato-prossimo-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -258,6 +268,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'italyancada-kucultme-ve-buyutme-ekleri',
     'articoli-partitivi': 'italyancada-kismi-tanimliklar',
     'pronomi-indiretti': 'italyanca-dolayli-nesne-zamirleri',
+    'verbo-piacere': 'italyanca-piacere-fiili',
+    'trapassato-prossimo': 'italyanca-trapassato-prossimo',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -301,6 +313,8 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'verkleinerungsformen-im-italienischen',
     'articoli-partitivi': 'teilungsartikel-im-italienischen',
     'pronomi-indiretti': 'indirekte-pronomen-im-italienischen',
+    'verbo-piacere': 'das-verb-piacere-im-italienischen',
+    'trapassato-prossimo': 'das-trapassato-prossimo-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -344,5 +358,7 @@ export const grammarSeoSlugs = {
     'nomi-alterati': 'イタリア語の縮小辞と増大辞',
     'articoli-partitivi': 'イタリア語の部分冠詞',
     'pronomi-indiretti': 'イタリア語の間接目的語代名詞',
+    'verbo-piacere': 'イタリア語の動詞piacere',
+    'trapassato-prossimo': 'イタリア語の大過去',
   },
 };
