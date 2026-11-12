@@ -59,6 +59,8 @@
  *                                                 l'aperitivo...) con foto realistiche (2026-11-05): come il telefono.
  *   - «I verbi della mente e della parola»        27 verbi (sapere, conoscere, ricordare, dire, chiedere,
  *                                                 raccontare...) con foto realistiche (2026-11-05): come i verbi degli acquisti.
+ *   - «I verbi riflessivi di tutti i giorni»     41 verbi (svegliarsi, vestirsi, arrabbiarsi, conoscersi, sentirsi,
+ *                                                 trovarsi...) in sei gruppi con un titolo (2026-11-12): come i verbi di influenza.
  *
  * Dal 2026-09-25 le tre lezioni insegnano parole utili anche per le persone: gli animali sono il
  * mezzo simpatico per ricordarle, non il fine (richiesta di Martin).
@@ -222,6 +224,8 @@ import { leisureVocabulary, leisureTranslationExercises, leisureExampleWord } fr
 import { leisurePages } from './data/leisure-pages.mjs';
 import { mindVerbs, mindVerbTranslationExercises } from './data/mind-verbs.mjs';
 import { mindVerbPages, mindVerbUi } from './data/mind-verbs-pages.mjs';
+import { reflexiveVerbs, reflexiveVerbGroups, reflexiveVerbTranslationExercises } from './data/reflexive-verbs.mjs';
+import { reflexiveVerbPages, reflexiveVerbUi, reflexiveVerbGroupUi } from './data/reflexive-verbs-pages.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dryRun = process.argv.includes('--dry-run');
@@ -517,6 +521,30 @@ const lessons = {
     words: phoneVocabulary,
     translations: phoneTranslationExercises,
     exampleWord: phoneExampleWord,
+  },
+  // «I verbi riflessivi di tutti i giorni» (2026-11-12): come i verbi di influenza, sei gruppi con un titolo.
+  'verbi-riflessivi': {
+    id: 'verbi-riflessivi',
+    kind: 'match',
+    photoRows: true,
+    pages: reflexiveVerbPages,
+    hero: 'verbi-riflessivi-hero.webp',
+    words: reflexiveVerbs,
+    translations: reflexiveVerbTranslationExercises,
+    exampleWord: null,
+    bank: reflexiveVerbs,
+    bankPage: reflexiveVerbPages,
+    bankLessonId: 'verbi-riflessivi',
+    groups: reflexiveVerbGroups,
+    groupUiFor: (lang) => reflexiveVerbGroupUi[lang],
+    seeds: [2531, 2532],
+    uiFor: (lang) => ({
+      ...traitUi[lang],
+      ...relationUi[lang],
+      note: reflexiveVerbUi[lang].note,
+      positive: { ...relationUi[lang].positive, ...reflexiveVerbUi[lang].positive },
+      ui: { ...traitUi[lang].ui, ...relationUi[lang].ui },
+    }),
   },
   // «I verbi della mente e della parola» (2026-11-05): come i verbi degli acquisti, foto realistiche medium.
   'verbi-mente-parola': {

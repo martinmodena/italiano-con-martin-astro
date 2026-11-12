@@ -39,13 +39,11 @@ const write = (p, s) => {
 };
 const META_RE = /const meta = (\{[^]*?\r?\n\});\r?\n---/;
 const readMeta = (p) => JSON.parse(read(p).match(META_RE)[1]);
-const writeMeta = (p, meta) => write(p, read(p).replace(META_RE, () => `const meta = ${JSON.stringify(meta, null, 2)};\n---`));
 const htmlOf = (url) => 'src/html/' + url.replace(/^\//, '') + (url.endsWith('/') ? 'index.html' : '');
 const astroOf = (url) => 'src/pages/' + url.replace(/^\//, '') + (url.endsWith('/') ? 'index.astro' : '.astro');
 const urlsOf = (astro) => Object.fromEntries(readMeta(astro).hreflangs.filter(([l]) => l !== 'x-default').map(([l, u]) => [l === 'pt-BR' ? 'pt' : l, decodeURI(u.replace(SITE, ''))]));
 const resolve = (href, base) => decodeURI(new URL(href, SITE + base).pathname);
 const prefixOf = (url) => '../'.repeat(url.split('/').length - 2);
-const esc = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
 const indexUrl = urlsOf('src/pages/letture/index.astro');
 const fableUrl = urlsOf('src/pages/favole/index.astro');
@@ -75,7 +73,7 @@ const TILE_RE = /<a class="story-tile" href="([^"]*)">(?:(?!<\/a>)[^])*?<\/a>/g;
 const levelsIn = (badge) => badge.match(/\b[ABC][12]\b/g) || [];
 // Le favole straniere hanno il Paese d'origine prima dei livelli («Dalla Turchia · A1»): si conserva.
 const originOf = (tile) => {
-  const first = ((tile.match(/<span class="badge">([^<]*)/) || [, ''])[1]).split(' · ')[0];
+  const first = ((tile.match(/<span class="badge">([^<]*)/) || ['', ''])[1]).split(' · ')[0];
   return first && !/^[ABC][12]$/.test(first) ? first + ' · ' : '';
 };
 
@@ -99,7 +97,7 @@ function tilesOf(lang) {
     seen.add(href);
     const key = keyOf[href];
     if (!key) throw new Error(`${lang}: lettura sconosciuta ${href}`);
-    const badge = (m[0].match(/<span class="badge">([^<]*)<\/span>/) || [, ''])[1];
+    const badge = (m[0].match(/<span class="badge">([^<]*)<\/span>/) || ['', ''])[1];
     tiles.push({ html: m[0], href, key, cat: categoryOf(key), levels: levelsIn(badge) });
   }
   return tiles;

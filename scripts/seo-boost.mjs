@@ -397,6 +397,17 @@ const VOCAB = {
     'Verben rund um den Körper auf Italienisch',
     '体を使うイタリア語の動詞',
   ],
+  'verbi-riflessivi': [
+    'I verbi riflessivi di tutti i giorni in italiano',
+    'Everyday reflexive verbs in Italian',
+    'Los verbos reflexivos de cada día en italiano',
+    'Les verbes pronominaux du quotidien en italien',
+    'Zvratná slovesa na každý den italsky',
+    'Czasowniki zwrotne na co dzień po włosku',
+    'İtalyanca günlük dönüşlü fiiller',
+    'Reflexive Verben für jeden Tag auf Italienisch',
+    '毎日使うイタリア語の再帰動詞',
+  ],
   'verbi-mente-parola': [
     'I verbi della mente e della parola in italiano',
     'Verbs for thinking and speaking in Italian',

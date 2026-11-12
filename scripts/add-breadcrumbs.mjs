@@ -49,7 +49,7 @@ for (const astro of walk('src/pages').filter((f) => f.endsWith('.astro'))) {
   if (!fs.existsSync(htmlFile)) continue;
   let html = read(htmlFile);
   if (/http-equiv="refresh"/.test(html)) continue;
-  const h1 = stripTags((html.match(/<h1[^>]*>([^]*?)<\/h1>/) || [, ''])[1]);
+  const h1 = stripTags((html.match(/<h1[^>]*>([^]*?)<\/h1>/) || ['', ''])[1]);
 
   // 1. Briciola visibile di grammatica e vocabolario: link assoluti, livello cliccabile, titolo = h1.
   const [section, base] = sectionOf(url);

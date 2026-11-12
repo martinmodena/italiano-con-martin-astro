@@ -35,6 +35,7 @@
 //   - «Il telefono e internet» (foto realistiche, medium)            -> --set telefono
 //   - «Il tempo libero» (foto realistiche, medium)                   -> --set tempo-libero
 //   - «I verbi della mente e della parola» (scene, medium)           -> --set verbi-mente
+//   - «I verbi riflessivi di tutti i giorni» (scene, low)            -> --set verbi-riflessivi
 // Lo script salta le immagini che esistono gia' in public/assets/vocabolario/: rilanciarlo genera
 // solo quelle che mancano.
 //
@@ -80,6 +81,7 @@ import { shoppingVerbs } from './data/shopping-verbs.mjs';
 import { phoneVocabulary } from './data/phone-vocabulary.mjs';
 import { leisureVocabulary } from './data/leisure-vocabulary.mjs';
 import { mindVerbs } from './data/mind-verbs.mjs';
+import { reflexiveVerbs } from './data/reflexive-verbs.mjs';
 import { weatherVocabulary } from './data/weather-vocabulary.mjs';
 import { houseVocabulary } from './data/house-vocabulary.mjs';
 import { houseVerbs } from './data/house-verbs.mjs';
@@ -151,6 +153,7 @@ const sets = {
   telefono: phoneVocabulary,
   'tempo-libero': leisureVocabulary,
   'verbi-mente': mindVerbs,
+  'verbi-riflessivi': reflexiveVerbs,
   tempo: weatherVocabulary,
   casa: houseVocabulary,
   'verbi-casa': houseVerbs,
@@ -170,7 +173,7 @@ const sets = {
 };
 if (!sets[setName]) {
   console.error(
-    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|acquisti|verbi-acquisti|telefono|tempo-libero|verbi-mente|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
+    'Serve --set animali|caratteristiche|verbi|corpo|verbi-corpo|mestieri|persone|relazioni|colori|colori-descrivi|luogo|luogo-descrivi|sensazioni|sensazioni-descrivi|salute|viaggi|verbi-viaggio|acquisti|verbi-acquisti|telefono|tempo-libero|verbi-mente|verbi-riflessivi|tempo|casa|verbi-casa|citta|montagna|verbi-citta|emozioni|scuola|ufficio|verbi-scuola|verbi-ufficio|verbi-montagna|sport|verbi-sport|verbi-mare|verbi-influenza.'
   );
   process.exit(1);
 }
@@ -323,6 +326,7 @@ const STYLE =
     'verbi-mare': PEOPLE_STYLE,
     'verbi-influenza': PEOPLE_STYLE,
     'verbi-mente': PEOPLE_STYLE,
+    'verbi-riflessivi': PEOPLE_STYLE,
     tempo: WEATHER_STYLE,
     montagna: WEATHER_STYLE,
   }[setName] ?? ANIMAL_STYLE;

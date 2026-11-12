@@ -521,6 +521,21 @@ const routes = {
     de: 'de/wortschatz/italienischer-wortschatz-verben-meer.html',
     ja: 'ja/goi/italian-sea-verbs-vocabulary.html',
   },
+  // «I verbi riflessivi di tutti i giorni» (2026-11-12): come i verbi di influenza.
+  'verbi-riflessivi': {
+    count: 41,
+    tests: 0,
+    match: { positive: 41 },
+    it: 'vocabolario/verbi-riflessivi.html',
+    en: 'en/vocabulary/italian-reflexive-verbs-vocabulary.html',
+    es: 'es/vocabulario/vocabulario-verbos-reflexivos-en-italiano.html',
+    fr: 'fr/vocabulaire/vocabulaire-verbes-pronominaux-en-italien.html',
+    cs: 'cs/slovni-zasoba/italska-slovni-zasoba-zvratna-slovesa.html',
+    pl: 'pl/slownictwo/wloskie-slownictwo-czasowniki-zwrotne.html',
+    tr: 'tr/kelime-bilgisi/italyanca-donuslu-fiiller-kelimeleri.html',
+    de: 'de/wortschatz/italienischer-wortschatz-reflexive-verben.html',
+    ja: 'ja/goi/italian-reflexive-verbs-vocabulary.html',
+  },
   // «I verbi della mente e della parola» (2026-11-05): come i verbi degli acquisti.
   'verbi-mente-parola': {
     count: 27,
@@ -699,6 +714,7 @@ for (const lesson of [
   'verbi-mare',
   'verbi-influenza',
   'verbi-mente-parola',
+  'verbi-riflessivi',
 ])
   if (!index.includes(`href="${lesson}.html"`)) errors.push(`Italian vocabulary index does not link ${lesson}`);
 
