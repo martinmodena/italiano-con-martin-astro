@@ -1,0 +1,1238 @@
+{
+  "id": "il-fuoco-dei-covoni-di-riso",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il villaggio",
+      "forme": [
+        "villaggio"
+      ],
+      "esempi": [
+        "Il villaggio ha solo cento abitanti.",
+        "Siamo arrivati a un piccolo villaggio di montagna.",
+        "Tutto il villaggio va alla festa."
+      ],
+      "traduzioni": {
+        "en": "village",
+        "es": "pueblo, aldea",
+        "pt": "vilarejo, aldeia",
+        "fr": "village",
+        "cs": "vesnice",
+        "pl": "wioska",
+        "tr": "köy",
+        "de": "Dorf",
+        "ja": "村"
+      }
+    },
+    {
+      "parola": "la collina",
+      "forme": [
+        "collina"
+      ],
+      "formeEsempi": [
+        "colline"
+      ],
+      "esempi": [
+        "La casa dei nonni è in collina.",
+        "Dalla collina si vede tutta la città.",
+        "In Toscana ci sono tante colline."
+      ],
+      "traduzioni": {
+        "en": "hill",
+        "es": "colina",
+        "pt": "colina, morro",
+        "fr": "colline",
+        "cs": "kopec",
+        "pl": "wzgórze",
+        "tr": "tepe",
+        "de": "Hügel",
+        "ja": "丘"
+      }
+    },
+    {
+      "parola": "anziano",
+      "forme": [
+        "anziano",
+        "anziani"
+      ],
+      "formeEsempi": [
+        "anziana"
+      ],
+      "esempi": [
+        "Mio nonno è un uomo anziano, ma ancora forte.",
+        "Sull'autobus lascio il posto agli anziani.",
+        "La signora anziana del terzo piano vive da sola."
+      ],
+      "traduzioni": {
+        "en": "elderly; old person",
+        "es": "anciano",
+        "pt": "idoso",
+        "fr": "âgé; personne âgée",
+        "cs": "starší, starý člověk",
+        "pl": "starszy, starsza osoba",
+        "tr": "yaşlı",
+        "de": "alt, älterer Mensch",
+        "ja": "年をとった、お年寄り"
+      }
+    },
+    {
+      "parola": "il riso",
+      "forme": [
+        "riso"
+      ],
+      "esempi": [
+        "In Giappone si mangia molto riso.",
+        "Il risotto si fa con il riso.",
+        "Nella pianura del Po coltivano il riso."
+      ],
+      "traduzioni": {
+        "en": "rice (here not “laughter”)",
+        "es": "arroz",
+        "pt": "arroz",
+        "fr": "riz",
+        "cs": "rýže",
+        "pl": "ryż",
+        "tr": "pirinç",
+        "de": "Reis",
+        "ja": "稲、米"
+      }
+    },
+    {
+      "parola": "il covone",
+      "forme": [
+        "covoni"
+      ],
+      "formeEsempi": [
+        "covone"
+      ],
+      "esempi": [
+        "Dopo la mietitura, i covoni restano nel campo.",
+        "Il contadino lega il grano in covoni.",
+        "Sulla collina ci sono grandi covoni di riso."
+      ],
+      "traduzioni": {
+        "en": "sheaf (of rice or wheat)",
+        "es": "gavilla",
+        "pt": "feixe",
+        "fr": "gerbe",
+        "cs": "snop",
+        "pl": "snop",
+        "tr": "demet (ekin demeti)",
+        "de": "Garbe",
+        "ja": "稲むら、束"
+      }
+    },
+    {
+      "parola": "all'improvviso",
+      "forme": [
+        "improvviso"
+      ],
+      "esempi": [
+        "All'improvviso è andata via la luce.",
+        "Camminavo e all'improvviso ha cominciato a piovere.",
+        "All'improvviso il cane ha cominciato ad abbaiare."
+      ],
+      "traduzioni": {
+        "en": "suddenly",
+        "es": "de repente",
+        "pt": "de repente",
+        "fr": "tout à coup",
+        "cs": "najednou",
+        "pl": "nagle",
+        "tr": "birden",
+        "de": "plötzlich",
+        "ja": "突然"
+      }
+    },
+    {
+      "parola": "tremare",
+      "forme": [
+        "trema"
+      ],
+      "formeEsempi": [
+        "tremano"
+      ],
+      "esempi": [
+        "Ho freddo e le mani mi tremano.",
+        "La voce le trema quando parla in pubblico.",
+        "Durante il terremoto la casa trema."
+      ],
+      "traduzioni": {
+        "en": "to shake, to tremble",
+        "es": "temblar",
+        "pt": "tremer",
+        "fr": "trembler",
+        "cs": "třást se",
+        "pl": "drżeć",
+        "tr": "sallanmak, titremek",
+        "de": "beben, zittern",
+        "ja": "ゆれる、ふるえる"
+      }
+    },
+    {
+      "parola": "a lungo",
+      "forme": [
+        "lungo"
+      ],
+      "livelli": [
+        "a1"
+      ],
+      "esempi": [
+        "Ha parlato a lungo con il medico.",
+        "Abbiamo aspettato a lungo il treno.",
+        "Il bambino ha pianto a lungo."
+      ],
+      "traduzioni": {
+        "en": "for a long time",
+        "es": "mucho rato, largo tiempo",
+        "pt": "por muito tempo",
+        "fr": "longtemps",
+        "cs": "dlouho",
+        "pl": "długo",
+        "tr": "uzun süre",
+        "de": "lange",
+        "ja": "長いあいだ"
+      }
+    },
+    {
+      "parola": "la spiaggia",
+      "forme": [
+        "spiaggia"
+      ],
+      "esempi": [
+        "D'estate andiamo in spiaggia ogni giorno.",
+        "La spiaggia è piena di turisti.",
+        "Camminiamo sulla spiaggia al tramonto."
+      ],
+      "traduzioni": {
+        "en": "beach",
+        "es": "playa",
+        "pt": "praia",
+        "fr": "plage",
+        "cs": "pláž",
+        "pl": "plaża",
+        "tr": "kumsal, plaj",
+        "de": "Strand",
+        "ja": "浜、砂浜"
+      }
+    },
+    {
+      "parola": "l'onda",
+      "forme": [
+        "onda"
+      ],
+      "formeEsempi": [
+        "onde"
+      ],
+      "esempi": [
+        "Oggi le onde sono alte.",
+        "I bambini giocano con le onde.",
+        "Un'onda grande ha bagnato i nostri asciugamani."
+      ],
+      "traduzioni": {
+        "en": "wave",
+        "es": "ola",
+        "pt": "onda",
+        "fr": "vague",
+        "cs": "vlna",
+        "pl": "fala",
+        "tr": "dalga",
+        "de": "Welle",
+        "ja": "波"
+      }
+    },
+    {
+      "parola": "enorme",
+      "forme": [
+        "enorme"
+      ],
+      "esempi": [
+        "Nel porto abbiamo visto una nave enorme.",
+        "Ho un problema enorme!",
+        "La balena è un animale enorme."
+      ],
+      "traduzioni": {
+        "en": "huge",
+        "es": "enorme",
+        "pt": "enorme",
+        "fr": "énorme",
+        "cs": "obrovský",
+        "pl": "ogromny",
+        "tr": "dev, kocaman",
+        "de": "riesig",
+        "ja": "巨大な"
+      }
+    },
+    {
+      "parola": "la torcia",
+      "forme": [
+        "torcia"
+      ],
+      "formeEsempi": [
+        "torce"
+      ],
+      "esempi": [
+        "Al buio accendo la torcia.",
+        "Porta una torcia: in cantina non c'è luce.",
+        "Le persone camminavano con le torce in mano."
+      ],
+      "traduzioni": {
+        "en": "torch",
+        "es": "antorcha",
+        "pt": "tocha",
+        "fr": "torche",
+        "cs": "pochodeň",
+        "pl": "pochodnia",
+        "tr": "meşale",
+        "de": "Fackel",
+        "ja": "たいまつ"
+      }
+    },
+    {
+      "parola": "il raccolto",
+      "forme": [
+        "raccolto"
+      ],
+      "esempi": [
+        "Quest'anno il raccolto di uva è stato ottimo.",
+        "La pioggia ha rovinato il raccolto.",
+        "In autunno si fa la festa del raccolto."
+      ],
+      "traduzioni": {
+        "en": "harvest, crop («è raccolto» = it has been harvested)",
+        "es": "cosecha («è raccolto» = está cosechado)",
+        "pt": "colheita («è raccolto» = foi colhido)",
+        "fr": "récolte («è raccolto» = il est récolté)",
+        "cs": "úroda, sklizeň («è raccolto» = je sklizený)",
+        "pl": "plony, zbiory («è raccolto» = jest zebrany)",
+        "tr": "hasat («è raccolto» = hasat edilmiş)",
+        "de": "Ernte («è raccolto» = ist geerntet)",
+        "ja": "収穫（«è raccolto» = 刈り取られた）"
+      }
+    },
+    {
+      "parola": "il fuoco",
+      "forme": [
+        "fuoco"
+      ],
+      "esempi": [
+        "Accendiamo il fuoco nel camino.",
+        "Attenzione: non giocare con il fuoco!",
+        "Qualcuno ha dato fuoco alla spazzatura."
+      ],
+      "traduzioni": {
+        "en": "fire («dare fuoco a» = to set fire to)",
+        "es": "fuego («dare fuoco a» = prender fuego a)",
+        "pt": "fogo («dare fuoco a» = pôr fogo em)",
+        "fr": "feu («dare fuoco a» = mettre le feu à)",
+        "cs": "oheň («dare fuoco a» = zapálit)",
+        "pl": "ogień («dare fuoco a» = podpalić)",
+        "tr": "ateş («dare fuoco a» = ateşe vermek)",
+        "de": "Feuer («dare fuoco a» = anzünden)",
+        "ja": "火（«dare fuoco a» = 火をつける）"
+      }
+    },
+    {
+      "parola": "la gente",
+      "forme": [
+        "gente"
+      ],
+      "esempi": [
+        "In piazza c'è tanta gente.",
+        "La gente di questo paese è molto gentile.",
+        "Non mi piace la gente che urla."
+      ],
+      "traduzioni": {
+        "en": "people (singular in Italian: «la gente è»)",
+        "es": "gente",
+        "pt": "gente, pessoas",
+        "fr": "gens",
+        "cs": "lidé",
+        "pl": "ludzie",
+        "tr": "insanlar, halk",
+        "de": "Leute",
+        "ja": "人々"
+      }
+    },
+    {
+      "parola": "l'incendio",
+      "forme": [
+        "incendio"
+      ],
+      "formeEsempi": [
+        "incendi"
+      ],
+      "esempi": [
+        "I pompieri spengono l'incendio.",
+        "D'estate ci sono molti incendi nei boschi.",
+        "C'è stato un incendio in cucina."
+      ],
+      "traduzioni": {
+        "en": "fire (a large, dangerous one)",
+        "es": "incendio",
+        "pt": "incêndio",
+        "fr": "incendie",
+        "cs": "požár",
+        "pl": "pożar",
+        "tr": "yangın",
+        "de": "Brand",
+        "ja": "火事"
+      }
+    },
+    {
+      "parola": "indicare",
+      "forme": [
+        "indica"
+      ],
+      "formeEsempi": [
+        "indichi"
+      ],
+      "esempi": [
+        "Il bambino indica il gatto con il dito.",
+        "Mi indichi la strada per la stazione?",
+        "La freccia indica l'uscita."
+      ],
+      "traduzioni": {
+        "en": "to point at, to show",
+        "es": "señalar, indicar",
+        "pt": "apontar, indicar",
+        "fr": "montrer, indiquer",
+        "cs": "ukázat",
+        "pl": "pokazać, wskazać",
+        "tr": "göstermek",
+        "de": "zeigen auf",
+        "ja": "指さす、示す"
+      }
+    },
+    {
+      "parola": "coprire",
+      "forme": [
+        "copre"
+      ],
+      "formeEsempi": [
+        "coprono"
+      ],
+      "esempi": [
+        "La neve copre le montagne.",
+        "La mamma copre il bambino con una coperta.",
+        "Le nuvole coprono il sole."
+      ],
+      "traduzioni": {
+        "en": "to cover",
+        "es": "cubrir",
+        "pt": "cobrir",
+        "fr": "couvrir",
+        "cs": "zakrýt, zaplavit",
+        "pl": "zakryć, zalać",
+        "tr": "kaplamak, örtmek",
+        "de": "bedecken",
+        "ja": "おおう、のみこむ"
+      }
+    },
+    {
+      "parola": "distrutto",
+      "forme": [
+        "distrutte"
+      ],
+      "formeEsempi": [
+        "distrutto",
+        "distrutta"
+      ],
+      "esempi": [
+        "Dopo il terremoto molte case erano distrutte.",
+        "Il vento ha distrutto il tetto della casa.",
+        "La strada distrutta dall'alluvione è chiusa."
+      ],
+      "traduzioni": {
+        "en": "destroyed",
+        "es": "destruido",
+        "pt": "destruído",
+        "fr": "détruit",
+        "cs": "zničený",
+        "pl": "zniszczony",
+        "tr": "yıkılmış",
+        "de": "zerstört",
+        "ja": "こわれた、破壊された"
+      }
+    },
+    {
+      "parola": "salvo",
+      "forme": [
+        "salve"
+      ],
+      "formeEsempi": [
+        "salvo",
+        "salvi"
+      ],
+      "esempi": [
+        "Per fortuna tutti sono salvi.",
+        "Il gatto è caduto nel fiume, ma è salvo.",
+        "Siamo arrivati a casa sani e salvi."
+      ],
+      "traduzioni": {
+        "en": "safe, saved",
+        "es": "a salvo",
+        "pt": "salvo",
+        "fr": "sauf («sani e salvi» = sains et saufs)",
+        "cs": "v bezpečí, zachráněný",
+        "pl": "bezpieczny, ocalały",
+        "tr": "güvende, kurtulmuş",
+        "de": "gerettet, in Sicherheit",
+        "ja": "無事な"
+      }
+    },
+    {
+      "parola": "ricordare",
+      "forme": [
+        "ricorda"
+      ],
+      "formeEsempi": [
+        "ricordo",
+        "ricordi",
+        "ricordiamo"
+      ],
+      "esempi": [
+        "Ricordo bene il mio primo giorno di scuola.",
+        "Ti ricordi di me?",
+        "Ogni anno ricordiamo questa data."
+      ],
+      "traduzioni": {
+        "en": "to remember, to commemorate",
+        "es": "recordar",
+        "pt": "lembrar",
+        "fr": "se souvenir de, commémorer",
+        "cs": "pamatovat si, připomínat si",
+        "pl": "pamiętać, wspominać",
+        "tr": "hatırlamak, anmak",
+        "de": "sich erinnern, gedenken",
+        "ja": "思い出す、記念する"
+      }
+    },
+    {
+      "parola": "la giornata",
+      "forme": [
+        "giornata"
+      ],
+      "esempi": [
+        "Oggi è stata una giornata lunga.",
+        "Il 21 marzo è la Giornata mondiale della poesia.",
+        "Buona giornata!"
+      ],
+      "traduzioni": {
+        "en": "day (as a stretch of time, or a «day of…»)",
+        "es": "día, jornada",
+        "pt": "dia",
+        "fr": "journée",
+        "cs": "den",
+        "pl": "dzień",
+        "tr": "gün",
+        "de": "Tag",
+        "ja": "一日、〜の日"
+      }
+    },
+    {
+      "parola": "la morale",
+      "forme": [
+        "morale"
+      ],
+      "esempi": [
+        "La morale della storia è: non dire bugie.",
+        "Ogni favola di Esopo ha una morale.",
+        "Qual è la morale di questo racconto?"
+      ],
+      "traduzioni": {
+        "en": "moral (of a story)",
+        "es": "moraleja",
+        "pt": "moral (da história)",
+        "fr": "morale (d’une histoire)",
+        "cs": "ponaučení",
+        "pl": "morał",
+        "tr": "ana fikir, kıssadan hisse",
+        "de": "Moral, Lehre",
+        "ja": "教訓"
+      }
+    },
+    {
+      "parola": "la costa",
+      "forme": [
+        "costa"
+      ],
+      "esempi": [
+        "Abitiamo sulla costa, vicino al mare.",
+        "La costa ligure è bellissima.",
+        "Facciamo un viaggio lungo la costa."
+      ],
+      "traduzioni": {
+        "en": "coast",
+        "es": "costa",
+        "pt": "litoral, costa",
+        "fr": "côte",
+        "cs": "pobřeží",
+        "pl": "wybrzeże",
+        "tr": "kıyı",
+        "de": "Küste",
+        "ja": "海岸"
+      }
+    },
+    {
+      "parola": "il nipote",
+      "forme": [
+        "nipote"
+      ],
+      "formeEsempi": [
+        "nipoti"
+      ],
+      "esempi": [
+        "Il nonno porta il nipote a scuola.",
+        "La nonna ha cinque nipoti.",
+        "Il nonno gioca a carte con il nipote."
+      ],
+      "traduzioni": {
+        "en": "grandson (the word also means «nephew»: here grandson)",
+        "es": "nieto",
+        "pt": "neto",
+        "fr": "petit-fils",
+        "cs": "vnuk",
+        "pl": "wnuk",
+        "tr": "torun",
+        "de": "Enkel",
+        "ja": "孫"
+      }
+    },
+    {
+      "parola": "il terremoto",
+      "forme": [
+        "terremoto"
+      ],
+      "formeEsempi": [
+        "terremoti"
+      ],
+      "esempi": [
+        "Il terremoto ha distrutto molte case.",
+        "In Giappone ci sono spesso terremoti.",
+        "Durante il terremoto siamo usciti in strada."
+      ],
+      "traduzioni": {
+        "en": "earthquake",
+        "es": "terremoto",
+        "pt": "terremoto",
+        "fr": "tremblement de terre",
+        "cs": "zemětřesení",
+        "pl": "trzęsienie ziemi",
+        "tr": "deprem",
+        "de": "Erdbeben",
+        "ja": "地震"
+      }
+    },
+    {
+      "parola": "fare caso a",
+      "forme": [
+        "caso"
+      ],
+      "esempi": [
+        "Non ho fatto caso all'ora.",
+        "Hai fatto caso al suo nuovo cappello?",
+        "Non farci caso, è solo stanco."
+      ],
+      "traduzioni": {
+        "en": "to notice, to pay attention to",
+        "es": "hacer caso, fijarse",
+        "pt": "prestar atenção",
+        "fr": "faire attention à",
+        "cs": "všímat si",
+        "pl": "zwracać uwagę",
+        "tr": "aldırmak, dikkat etmek",
+        "de": "achten auf, bemerken",
+        "ja": "気にとめる"
+      }
+    },
+    {
+      "parola": "ritirarsi",
+      "forme": [
+        "ritirando",
+        "ritirata"
+      ],
+      "formeEsempi": [
+        "ritira"
+      ],
+      "esempi": [
+        "Con la bassa marea il mare si ritira.",
+        "Dopo la pioggia l'acqua si è ritirata.",
+        "L'acqua del fiume si ritira lentamente."
+      ],
+      "traduzioni": {
+        "en": "to recede, to draw back",
+        "es": "retirarse",
+        "pt": "recuar",
+        "fr": "se retirer",
+        "cs": "ustupovat",
+        "pl": "cofać się",
+        "tr": "çekilmek",
+        "de": "zurückgehen, sich zurückziehen",
+        "ja": "引く"
+      }
+    },
+    {
+      "parola": "la sabbia",
+      "forme": [
+        "sabbia"
+      ],
+      "esempi": [
+        "I bambini giocano con la sabbia.",
+        "Ho la sabbia nelle scarpe.",
+        "Questa spiaggia ha la sabbia bianca."
+      ],
+      "traduzioni": {
+        "en": "sand",
+        "es": "arena",
+        "pt": "areia",
+        "fr": "sable",
+        "cs": "písek",
+        "pl": "piasek",
+        "tr": "kum",
+        "de": "Sand",
+        "ja": "砂"
+      }
+    },
+    {
+      "parola": "impazzire",
+      "forme": [
+        "impazzito"
+      ],
+      "formeEsempi": [
+        "impazzisco"
+      ],
+      "esempi": [
+        "Sei impazzito? Fuori nevica!",
+        "Con questo rumore impazzisco!",
+        "Il mio telefono è impazzito."
+      ],
+      "traduzioni": {
+        "en": "to go crazy",
+        "es": "volverse loco",
+        "pt": "ficar maluco, enlouquecer",
+        "fr": "devenir fou",
+        "cs": "zbláznit se",
+        "pl": "oszaleć",
+        "tr": "delirmek",
+        "de": "verrückt werden",
+        "ja": "気がくるう"
+      }
+    },
+    {
+      "parola": "la fiamma",
+      "forme": [
+        "fiamme"
+      ],
+      "formeEsempi": [
+        "fiamma"
+      ],
+      "esempi": [
+        "Le fiamme del camino scaldano la stanza.",
+        "La casa era in fiamme.",
+        "Abbassa la fiamma del fornello."
+      ],
+      "traduzioni": {
+        "en": "flame",
+        "es": "llama",
+        "pt": "chama",
+        "fr": "flamme",
+        "cs": "plamen",
+        "pl": "płomień",
+        "tr": "alev",
+        "de": "Flamme",
+        "ja": "炎"
+      }
+    },
+    {
+      "parola": "spegnere",
+      "forme": [
+        "spegnere"
+      ],
+      "formeEsempi": [
+        "spegni",
+        "spengono",
+        "spento"
+      ],
+      "esempi": [
+        "Spegni la luce, per favore.",
+        "I pompieri spengono il fuoco.",
+        "Ho spento il telefono durante il film."
+      ],
+      "traduzioni": {
+        "en": "to put out (a fire), to switch off",
+        "es": "apagar",
+        "pt": "apagar",
+        "fr": "éteindre",
+        "cs": "uhasit, vypnout",
+        "pl": "ugasić, wyłączyć",
+        "tr": "söndürmek, kapatmak",
+        "de": "löschen, ausschalten",
+        "ja": "消す"
+      }
+    },
+    {
+      "parola": "in braccio",
+      "forme": [
+        "braccio"
+      ],
+      "esempi": [
+        "La mamma tiene il bambino in braccio.",
+        "Il papà prende la figlia in braccio.",
+        "Il gatto dorme in braccio al nonno."
+      ],
+      "traduzioni": {
+        "en": "in one's arms",
+        "es": "en brazos",
+        "pt": "no colo",
+        "fr": "dans les bras",
+        "cs": "v náručí",
+        "pl": "na rękach",
+        "tr": "kucağında",
+        "de": "auf dem Arm",
+        "ja": "抱いて"
+      }
+    },
+    {
+      "parola": "cancellare",
+      "forme": [
+        "cancellato"
+      ],
+      "formeEsempi": [
+        "cancella"
+      ],
+      "esempi": [
+        "Il vento ha cancellato le impronte sulla sabbia.",
+        "Cancella questa parola: è sbagliata.",
+        "La pioggia ha cancellato i disegni dei bambini."
+      ],
+      "traduzioni": {
+        "en": "to wipe out, to erase",
+        "es": "borrar",
+        "pt": "apagar",
+        "fr": "effacer",
+        "cs": "smést, smazat",
+        "pl": "zmieść, wymazać",
+        "tr": "silmek",
+        "de": "auslöschen, wegwischen",
+        "ja": "消し去る"
+      }
+    },
+    {
+      "parola": "bruciare",
+      "forme": [
+        "bruciato"
+      ],
+      "formeEsempi": [
+        "brucia"
+      ],
+      "esempi": [
+        "D'estate il sole brucia la pelle.",
+        "Attenzione, il forno brucia!",
+        "Ho bruciato la torta."
+      ],
+      "traduzioni": {
+        "en": "to burn",
+        "es": "quemar",
+        "pt": "queimar",
+        "fr": "brûler",
+        "cs": "spálit",
+        "pl": "spalić",
+        "tr": "yakmak",
+        "de": "verbrennen",
+        "ja": "焼く、燃やす"
+      }
+    },
+    {
+      "parola": "salvare",
+      "forme": [
+        "salvato"
+      ],
+      "formeEsempi": [
+        "salva"
+      ],
+      "esempi": [
+        "Il bagnino ha salvato un bambino.",
+        "Il medico salva molte vite.",
+        "Grazie, mi hai salvato la giornata!"
+      ],
+      "traduzioni": {
+        "en": "to save, to rescue",
+        "es": "salvar",
+        "pt": "salvar",
+        "fr": "sauver",
+        "cs": "zachránit",
+        "pl": "uratować",
+        "tr": "kurtarmak",
+        "de": "retten",
+        "ja": "救う"
+      }
+    },
+    {
+      "parola": "le centinaia",
+      "forme": [
+        "centinaia"
+      ],
+      "esempi": [
+        "Centinaia di persone aspettano il concerto.",
+        "Ho centinaia di foto sul telefono.",
+        "Ogni estate arrivano centinaia di turisti."
+      ],
+      "traduzioni": {
+        "en": "hundreds",
+        "es": "cientos",
+        "pt": "centenas",
+        "fr": "centaines",
+        "cs": "stovky",
+        "pl": "setki",
+        "tr": "yüzlerce",
+        "de": "Hunderte",
+        "ja": "何百もの"
+      }
+    },
+    {
+      "parola": "accendere",
+      "forme": [
+        "acceso"
+      ],
+      "formeEsempi": [
+        "accendo",
+        "accende",
+        "accendi"
+      ],
+      "esempi": [
+        "Accendi la luce, per favore.",
+        "Il nonno accende il camino.",
+        "Ho acceso il computer."
+      ],
+      "traduzioni": {
+        "en": "to light, to switch on",
+        "es": "encender",
+        "pt": "acender",
+        "fr": "allumer",
+        "cs": "zapálit, zapnout",
+        "pl": "zapalić, włączyć",
+        "tr": "yakmak, açmak",
+        "de": "anzünden, einschalten",
+        "ja": "火をつける、つける"
+      }
+    },
+    {
+      "parola": "guidare",
+      "forme": [
+        "guidare"
+      ],
+      "formeEsempi": [
+        "guida",
+        "guidavano"
+      ],
+      "esempi": [
+        "La guida ci guida nel museo.",
+        "Il cane guida l'uomo cieco.",
+        "Le stelle guidavano i marinai."
+      ],
+      "traduzioni": {
+        "en": "to guide, to lead (here not “to drive”)",
+        "es": "guiar",
+        "pt": "guiar",
+        "fr": "guider",
+        "cs": "vést, ukázat cestu",
+        "pl": "prowadzić, wskazać drogę",
+        "tr": "yol göstermek",
+        "de": "führen, leiten",
+        "ja": "導く"
+      }
+    },
+    {
+      "parola": "di tasca sua",
+      "forme": [
+        "tasca"
+      ],
+      "esempi": [
+        "Ha pagato la cena di tasca sua.",
+        "Il nonno ha comprato la bici di tasca sua.",
+        "Ho pagato il biglietto di tasca mia."
+      ],
+      "traduzioni": {
+        "en": "out of his own pocket",
+        "es": "de su bolsillo",
+        "pt": "do próprio bolso",
+        "fr": "de sa poche",
+        "cs": "z vlastní kapsy",
+        "pl": "z własnej kieszeni",
+        "tr": "kendi cebinden",
+        "de": "aus eigener Tasche",
+        "ja": "自腹で"
+      }
+    },
+    {
+      "parola": "la diga",
+      "forme": [
+        "diga"
+      ],
+      "esempi": [
+        "La diga trattiene l'acqua del lago.",
+        "Hanno costruito una diga sul fiume.",
+        "La diga protegge il paese dal mare."
+      ],
+      "traduzioni": {
+        "en": "dam, sea wall",
+        "es": "dique, presa",
+        "pt": "dique, barragem",
+        "fr": "digue, barrage",
+        "cs": "hráz",
+        "pl": "wał, tama",
+        "tr": "set, baraj",
+        "de": "Deich, Damm",
+        "ja": "堤防、ダム"
+      }
+    },
+    {
+      "parola": "l'abitante",
+      "forme": [
+        "abitanti"
+      ],
+      "esempi": [
+        "Questo paese ha mille abitanti.",
+        "Gli abitanti di Roma si chiamano romani.",
+        "Gli abitanti del villaggio sono gentili."
+      ],
+      "traduzioni": {
+        "en": "inhabitant, resident",
+        "es": "habitante",
+        "pt": "morador, habitante",
+        "fr": "habitant",
+        "cs": "obyvatel",
+        "pl": "mieszkaniec",
+        "tr": "sakin, köylü",
+        "de": "Einwohner, Bewohner",
+        "ja": "住民"
+      }
+    },
+    {
+      "parola": "proteggere",
+      "forme": [
+        "protetto"
+      ],
+      "formeEsempi": [
+        "protegge"
+      ],
+      "esempi": [
+        "Il casco protegge la testa.",
+        "La mamma protegge i suoi figli.",
+        "La crema protegge la pelle dal sole."
+      ],
+      "traduzioni": {
+        "en": "to protect",
+        "es": "proteger",
+        "pt": "proteger",
+        "fr": "protéger",
+        "cs": "chránit",
+        "pl": "chronić",
+        "tr": "korumak",
+        "de": "schützen",
+        "ja": "守る"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In Japan there's a small village by the sea. It's called Hiro. Above the village, on a hill, lives an old man: his name is Hamaguchi. It's 1854.",
+        "It's 5 November. The rice has already been harvested: it's on the hill, in big sheaves. In the evening, down in the village, everyone is getting ready for a festival.",
+        "Suddenly the ground shakes. It doesn't shake hard, but it shakes for a long time. Hamaguchi looks at the sea and is afraid: the water goes back, far from the beach. Hamaguchi knows what that means: soon a huge wave will come, a tsunami.",
+        "The people are on the beach and know nothing. Hamaguchi is old and can't run down. So he takes a torch and sets fire to the rice sheaves: his harvest, a whole year's work.",
+        "From the village people see the fire on the hill. “There's a fire at Hamaguchi's! Let's go and help!” Everyone runs up: men, women, children.",
+        "When everyone is on the hill, Hamaguchi points at the sea. The wave arrives: it's very high and covers the village. The houses are destroyed, but the people are safe, on the hill.",
+        "Hamaguchi no longer has his rice, but the village is alive. Today, every year on 5 November, the world remembers this story: it's World Tsunami Awareness Day.",
+        "That's the moral of the story: people are more important than things. And this story is true."
+      ],
+      "a2": [
+        "It was the evening of 5 November 1854. In the village of Hiro, on the coast of Japan, people were getting ready for the harvest festival. On the hill above the village, old Hamaguchi was looking at the sea with his grandson.",
+        "A little earlier there had been an earthquake: not strong, but long and strange. Nobody had paid attention to it. Hamaguchi, however, had noticed something he didn't like at all: the sea was drawing back and leaving the sand uncovered.",
+        "– Bring me a torch, right now! – he said to his grandson. The boy brought him the torch without understanding. Hamaguchi went towards the rice sheaves, just harvested and ready to be sold, and set them on fire, one after another.",
+        "– Grandpa, what are you doing? Have you gone mad? – shouted his grandson. But Hamaguchi didn't answer him.",
+        "From the village they saw the flames. Everyone ran up the hill to help the old man put out the fire: young people, old people, mothers with children in their arms. A woman asked him: “What happened?”. Hamaguchi just answered: “Look at the sea”.",
+        "At that moment the wave arrived: a mountain of water that wiped out the village. When the water drew back, almost nothing was left of the houses. But everyone was on the hill: Hamaguchi had burned his harvest and saved the lives of hundreds of people.",
+        "The story is true, even if the reality is a bit different: Hamaguchi Goryō lit the sheaves to guide the people fleeing the wave through the darkness towards the hill. After the tsunami he paid out of his own pocket for a long sea wall, and the villagers built it: that way he also gave them work. In 1946 another tsunami hit Hiro, and the wall protected the village.",
+        "The writer Lafcadio Hearn told this story in English in 1897, and since 1937 Japanese children have read it at school under the title «稲むらの火» (Inamura no hi), “The fire of the rice sheaves”. In 2015 the UN chose 5 November as World Tsunami Awareness Day."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En Japón hay un pequeño pueblo junto al mar. Se llama Hiro. Encima del pueblo, en una colina, vive un hombre anciano: se llama Hamaguchi. Estamos en 1854.",
+        "Es el 5 de noviembre. El arroz ya está cosechado: está en la colina, en grandes gavillas. Por la tarde, abajo en el pueblo, todos preparan una fiesta.",
+        "De repente la tierra tiembla. No tiembla fuerte, pero tiembla mucho rato. Hamaguchi mira el mar y tiene miedo: el agua se retira, lejos de la playa. Hamaguchi sabe qué significa: dentro de poco llegará una ola enorme, un tsunami.",
+        "La gente está en la playa y no sabe nada. Hamaguchi es viejo y no puede bajar corriendo. Entonces coge una antorcha y prende fuego a las gavillas de arroz: su cosecha, el trabajo de un año.",
+        "Desde el pueblo la gente ve el fuego en la colina. «¡Hay un incendio en casa de Hamaguchi! ¡Vamos a ayudar!» Todos suben corriendo: hombres, mujeres, niños.",
+        "Cuando todos están en la colina, Hamaguchi señala el mar. Llega la ola: es altísima y cubre el pueblo. Las casas quedan destruidas, pero las personas están a salvo, en la colina.",
+        "Hamaguchi ya no tiene su arroz, pero el pueblo está vivo. Hoy, cada año, el 5 de noviembre, el mundo recuerda esta historia: es el Día Mundial de Concienciación sobre los Tsunamis.",
+        "Es la moraleja de la historia: las personas son más importantes que las cosas. Y esta historia es verdadera."
+      ],
+      "a2": [
+        "Era la tarde del 5 de noviembre de 1854. En el pueblo de Hiro, en la costa de Japón, la gente se preparaba para la fiesta de la cosecha. En la colina sobre el pueblo, el viejo Hamaguchi miraba el mar con su nieto.",
+        "Poco antes había habido un terremoto: no fuerte, pero largo y extraño. Nadie le había hecho caso. Hamaguchi, en cambio, había notado algo que no le gustaba nada: el mar se estaba retirando y dejaba la arena al descubierto.",
+        "– ¡Tráeme una antorcha, ahora mismo! – le dijo a su nieto. El chico le llevó la antorcha sin entender. Hamaguchi fue hacia las gavillas de arroz, recién cosechadas y listas para la venta, y les prendió fuego, una tras otra.",
+        "– Abuelo, ¿qué haces? ¿Te has vuelto loco? – le gritó el nieto. Pero Hamaguchi no le respondió.",
+        "Desde el pueblo vieron las llamas. Todos subieron corriendo a la colina para ayudar al viejo a apagar el fuego: jóvenes, ancianos, madres con los niños en brazos. Una mujer le preguntó: «¿Qué ha pasado?». Hamaguchi solo le respondió: «Mirad el mar».",
+        "En ese momento llegó la ola: una montaña de agua que borró el pueblo. Cuando el agua se retiró, de las casas no quedaba casi nada. Pero en la colina estaban todos: Hamaguchi había quemado su cosecha y había salvado la vida a cientos de personas.",
+        "La historia es verdadera, aunque la realidad es un poco distinta: Hamaguchi Goryō encendió las gavillas para guiar en la oscuridad hacia la colina a quienes huían de la ola. Después del tsunami pagó de su bolsillo un largo dique contra el mar, y lo construyeron los habitantes del pueblo: así también les dio trabajo. En 1946 otro tsunami golpeó Hiro, y el dique protegió el pueblo.",
+        "El escritor Lafcadio Hearn contó esta historia en inglés en 1897, y desde 1937 los niños japoneses la leen en la escuela con el título «稲むらの火» (Inamura no hi), «El fuego de las gavillas de arroz». En 2015 la ONU eligió precisamente el 5 de noviembre como Día Mundial de Concienciación sobre los Tsunamis."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "No Japão há um pequeno vilarejo perto do mar. Ele se chama Hiro. Acima do vilarejo, numa colina, mora um homem idoso: ele se chama Hamaguchi. Estamos em 1854.",
+        "É 5 de novembro. O arroz já foi colhido: está na colina, em grandes feixes. À noite, lá embaixo no vilarejo, todos preparam uma festa.",
+        "De repente a terra treme. Não treme forte, mas treme por muito tempo. Hamaguchi olha para o mar e fica com medo: a água recua, longe da praia. Hamaguchi sabe o que isso quer dizer: daqui a pouco vai chegar uma onda enorme, um tsunami.",
+        "As pessoas estão na praia e não sabem de nada. Hamaguchi é velho e não pode descer correndo. Então pega uma tocha e põe fogo nos feixes de arroz: a sua colheita, o trabalho de um ano.",
+        "Do vilarejo as pessoas veem o fogo na colina. «Tem um incêndio na casa do Hamaguchi! Vamos ajudar!» Todos sobem correndo: homens, mulheres, crianças.",
+        "Quando todos estão na colina, Hamaguchi aponta para o mar. A onda chega: é altíssima e cobre o vilarejo. As casas ficam destruídas, mas as pessoas estão salvas, na colina.",
+        "Hamaguchi não tem mais o seu arroz, mas o vilarejo está vivo. Hoje, todo ano, no dia 5 de novembro, o mundo lembra esta história: é o Dia Mundial de Conscientização sobre Tsunamis.",
+        "Essa é a moral da história: as pessoas são mais importantes que as coisas. E esta história é verdadeira."
+      ],
+      "a2": [
+        "Era a noite de 5 de novembro de 1854. No vilarejo de Hiro, no litoral do Japão, as pessoas se preparavam para a festa da colheita. Na colina acima do vilarejo, o velho Hamaguchi olhava o mar junto com o neto.",
+        "Pouco antes tinha havido um terremoto: não forte, mas longo e estranho. Ninguém tinha prestado atenção. Hamaguchi, porém, tinha notado uma coisa de que não gostava nada: o mar estava recuando e deixava a areia descoberta.",
+        "– Me traga uma tocha, agora! – disse ao neto. O menino trouxe a tocha sem entender. Hamaguchi foi até os feixes de arroz, recém-colhidos e prontos para a venda, e pôs fogo neles, um depois do outro.",
+        "– Vovô, o que você está fazendo? Ficou maluco? – gritou o neto. Mas Hamaguchi não respondeu.",
+        "Do vilarejo viram as chamas. Todos subiram correndo a colina para ajudar o velho a apagar o fogo: jovens, idosos, mães com as crianças no colo. Uma mulher perguntou: «O que aconteceu?». Hamaguchi respondeu apenas: «Olhem o mar».",
+        "Nesse momento chegou a onda: uma montanha de água que apagou o vilarejo. Quando a água recuou, quase nada restava das casas. Mas na colina estavam todos: Hamaguchi tinha queimado a sua colheita e tinha salvado a vida de centenas de pessoas.",
+        "A história é verdadeira, mesmo que a realidade seja um pouco diferente: Hamaguchi Goryō acendeu os feixes para guiar no escuro, em direção à colina, quem fugia da onda. Depois do tsunami pagou do próprio bolso um longo dique contra o mar, e quem o construiu foram os moradores do vilarejo: assim deu a eles também um trabalho. Em 1946 outro tsunami atingiu Hiro, e o dique protegeu o vilarejo.",
+        "O escritor Lafcadio Hearn contou esta história em inglês em 1897, e desde 1937 as crianças japonesas a leem na escola com o título «稲むらの火» (Inamura no hi), «O fogo dos feixes de arroz». Em 2015 a ONU escolheu justamente o dia 5 de novembro como Dia Mundial de Conscientização sobre Tsunamis."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Au Japon, il y a un petit village au bord de la mer. Il s’appelle Hiro. Au-dessus du village, sur une colline, vit un vieil homme : il s’appelle Hamaguchi. Nous sommes en 1854.",
+        "C’est le 5 novembre. Le riz est déjà récolté : il est sur la colline, en grandes gerbes. Le soir, en bas au village, tout le monde prépare une fête.",
+        "Tout à coup, la terre tremble. Elle ne tremble pas fort, mais elle tremble longtemps. Hamaguchi regarde la mer et il a peur : l’eau recule, loin de la plage. Hamaguchi sait ce que cela veut dire : bientôt arrivera une vague énorme, un tsunami.",
+        "Les gens sont sur la plage et ne savent rien. Hamaguchi est vieux et ne peut pas descendre en courant. Alors il prend une torche et met le feu aux gerbes de riz : sa récolte, le travail d’une année.",
+        "Du village, les gens voient le feu sur la colline. « Il y a un incendie chez Hamaguchi ! Allons l’aider ! » Tout le monde monte en courant : hommes, femmes, enfants.",
+        "Quand tout le monde est sur la colline, Hamaguchi montre la mer. La vague arrive : elle est immense et recouvre le village. Les maisons sont détruites, mais les gens sont sains et saufs, sur la colline.",
+        "Hamaguchi n’a plus son riz, mais le village est vivant. Aujourd’hui, chaque année, le 5 novembre, le monde se souvient de cette histoire : c’est la Journée mondiale de sensibilisation aux tsunamis.",
+        "C’est la morale de l’histoire : les personnes sont plus importantes que les choses. Et cette histoire est vraie."
+      ],
+      "a2": [
+        "C’était le soir du 5 novembre 1854. Dans le village de Hiro, sur la côte du Japon, les gens se préparaient pour la fête des récoltes. Sur la colline au-dessus du village, le vieux Hamaguchi regardait la mer avec son petit-fils.",
+        "Un peu plus tôt, il y avait eu un tremblement de terre : pas fort, mais long et étrange. Personne n’y avait fait attention. Hamaguchi, lui, avait remarqué une chose qui ne lui plaisait pas du tout : la mer se retirait et laissait le sable à découvert.",
+        "– Apporte-moi une torche, tout de suite ! – a-t-il dit à son petit-fils. Le garçon lui a apporté la torche sans comprendre. Hamaguchi est allé vers les gerbes de riz, à peine récoltées et prêtes à être vendues, et il y a mis le feu, l’une après l’autre.",
+        "– Grand-père, qu’est-ce que tu fais ? Tu es devenu fou ? – lui a crié son petit-fils. Mais Hamaguchi ne lui a pas répondu.",
+        "Du village, on a vu les flammes. Tout le monde a couru en haut de la colline pour aider le vieil homme à éteindre le feu : jeunes, vieux, mères avec leurs enfants dans les bras. Une femme lui a demandé : « Qu’est-ce qui s’est passé ? ». Hamaguchi lui a seulement répondu : « Regardez la mer ».",
+        "À ce moment-là, la vague est arrivée : une montagne d’eau qui a effacé le village. Quand l’eau s’est retirée, il ne restait presque rien des maisons. Mais sur la colline, tout le monde était là : Hamaguchi avait brûlé sa récolte et avait sauvé la vie de centaines de personnes.",
+        "L’histoire est vraie, même si la réalité est un peu différente : Hamaguchi Goryō a allumé les gerbes pour guider dans le noir, vers la colline, ceux qui fuyaient la vague. Après le tsunami, il a payé de sa poche une longue digue contre la mer, et ce sont les habitants du village qui l’ont construite : ainsi, il leur a aussi donné du travail. En 1946, un autre tsunami a frappé Hiro, et la digue a protégé le village.",
+        "L’écrivain Lafcadio Hearn a raconté cette histoire en anglais en 1897, et depuis 1937 les enfants japonais la lisent à l’école sous le titre «稲むらの火» (Inamura no hi), « Le feu des gerbes de riz ». En 2015, l’ONU a choisi justement le 5 novembre comme Journée mondiale de sensibilisation aux tsunamis."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V Japonsku je malá vesnice u moře. Jmenuje se Hiro. Nad vesnicí, na kopci, žije starý muž: jmenuje se Hamaguči. Je rok 1854.",
+        "Je 5. listopadu. Rýže je už sklizená: je na kopci ve velkých snopech. Večer se dole ve vesnici všichni chystají na slavnost.",
+        "Najednou se země zatřese. Netřese se silně, ale dlouho. Hamaguči se dívá na moře a má strach: voda ustupuje, daleko od pláže. Hamaguči ví, co to znamená: brzy přijde obrovská vlna, tsunami.",
+        "Lidé jsou na pláži a nic nevědí. Hamaguči je starý a nemůže seběhnout dolů. A tak vezme pochodeň a zapálí snopy rýže: svou úrodu, práci celého roku.",
+        "Z vesnice lidé vidí na kopci oheň. „U Hamagučiho hoří! Pojďme pomoct!“ Všichni běží nahoru: muži, ženy, děti.",
+        "Když jsou všichni na kopci, Hamaguči ukáže na moře. Přichází vlna: je obrovská a zaplaví vesnici. Domy jsou zničené, ale lidé jsou v bezpečí, na kopci.",
+        "Hamaguči už nemá svou rýži, ale vesnice žije. Dnes si každý rok 5. listopadu svět tento příběh připomíná: je to Světový den povědomí o tsunami.",
+        "To je ponaučení z příběhu: lidé jsou důležitější než věci. A tenhle příběh je pravdivý."
+      ],
+      "a2": [
+        "Byl večer 5. listopadu 1854. Ve vesnici Hiro na japonském pobřeží se lidé chystali na slavnost sklizně. Na kopci nad vesnicí se starý Hamaguči díval s vnukem na moře.",
+        "Krátce předtím bylo zemětřesení: ne silné, ale dlouhé a zvláštní. Nikdo si ho nevšímal. Hamaguči si ale všiml něčeho, co se mu vůbec nelíbilo: moře ustupovalo a odhalovalo písek.",
+        "– Přines mi pochodeň, hned! – řekl vnukovi. Chlapec mu pochodeň přinesl, aniž by chápal proč. Hamaguči šel ke snopům rýže, čerstvě sklizeným a připraveným k prodeji, a zapálil je jeden po druhém.",
+        "– Dědo, co to děláš? Zbláznil ses? – křičel na něj vnuk. Ale Hamaguči mu neodpověděl.",
+        "Z vesnice uviděli plameny. Všichni vyběhli na kopec, aby pomohli starci uhasit oheň: mladí, staří, matky s dětmi v náručí. Jedna žena se ho zeptala: „Co se stalo?“. Hamaguči jí jen odpověděl: „Podívejte se na moře.“",
+        "V tu chvíli přišla vlna: hora vody, která smetla vesnici. Když voda ustoupila, z domů nezbylo skoro nic. Ale na kopci byli všichni: Hamaguči spálil svou úrodu a zachránil život stovkám lidí.",
+        "Příběh je pravdivý, i když skutečnost byla trochu jiná: Hamaguči Gorjó zapálil snopy, aby ve tmě ukázal cestu na kopec těm, kdo utíkali před vlnou. Po tsunami zaplatil z vlastní kapsy dlouhou hráz proti moři a postavili ji obyvatelé vesnice: tak jim dal i práci. V roce 1946 zasáhlo Hiro další tsunami a hráz vesnici ochránila.",
+        "Spisovatel Lafcadio Hearn vyprávěl tento příběh anglicky v roce 1897 a od roku 1937 ho japonské děti čtou ve škole pod názvem «稲むらの火» (Inamura no hi), „Oheň rýžových snopů“. V roce 2015 OSN vybrala právě 5. listopad jako Světový den povědomí o tsunami."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W Japonii jest mała wioska nad morzem. Nazywa się Hiro. Nad wioską, na wzgórzu, mieszka starszy pan: nazywa się Hamaguchi. Jest rok 1854.",
+        "Jest 5 listopada. Ryż jest już zebrany: leży na wzgórzu w dużych snopach. Wieczorem, na dole w wiosce, wszyscy przygotowują święto.",
+        "Nagle ziemia drży. Nie drży mocno, ale długo. Hamaguchi patrzy na morze i się boi: woda się cofa, daleko od plaży. Hamaguchi wie, co to znaczy: zaraz przyjdzie ogromna fala, tsunami.",
+        "Ludzie są na plaży i nic nie wiedzą. Hamaguchi jest stary i nie może zbiec na dół. Więc bierze pochodnię i podpala snopy ryżu: swoje plony, pracę całego roku.",
+        "Z wioski ludzie widzą ogień na wzgórzu. „U Hamaguchiego się pali! Chodźmy pomóc!” Wszyscy biegną na górę: mężczyźni, kobiety, dzieci.",
+        "Kiedy wszyscy są na wzgórzu, Hamaguchi pokazuje morze. Przychodzi fala: jest bardzo wysoka i zalewa wioskę. Domy są zniszczone, ale ludzie są bezpieczni, na wzgórzu.",
+        "Hamaguchi nie ma już swojego ryżu, ale wioska żyje. Dziś co roku, 5 listopada, świat wspomina tę historię: to Światowy Dzień Świadomości Tsunami.",
+        "To jest morał tej historii: ludzie są ważniejsi niż rzeczy. A ta historia jest prawdziwa."
+      ],
+      "a2": [
+        "Był wieczór 5 listopada 1854 roku. W wiosce Hiro, na wybrzeżu Japonii, ludzie przygotowywali się do święta plonów. Na wzgórzu nad wioską stary Hamaguchi patrzył na morze razem z wnukiem.",
+        "Chwilę wcześniej było trzęsienie ziemi: niezbyt silne, ale długie i dziwne. Nikt nie zwrócił na nie uwagi. Hamaguchi natomiast zauważył coś, co mu się wcale nie podobało: morze się cofało i odsłaniało piasek.",
+        "– Przynieś mi pochodnię, natychmiast! – powiedział do wnuka. Chłopiec przyniósł mu pochodnię, nic nie rozumiejąc. Hamaguchi podszedł do snopów ryżu, dopiero co zebranych i gotowych na sprzedaż, i podpalił je, jeden po drugim.",
+        "– Dziadku, co robisz? Oszalałeś? – krzyknął wnuk. Ale Hamaguchi mu nie odpowiedział.",
+        "Z wioski zobaczono płomienie. Wszyscy pobiegli na wzgórze, żeby pomóc staruszkowi ugasić ogień: młodzi, starsi, matki z dziećmi na rękach. Jakaś kobieta zapytała go: „Co się stało?”. Hamaguchi odpowiedział jej tylko: „Spójrzcie na morze”.",
+        "W tej chwili przyszła fala: góra wody, która zmiotła wioskę. Kiedy woda się cofnęła, z domów prawie nic nie zostało. Ale na wzgórzu byli wszyscy: Hamaguchi spalił swoje plony i uratował życie setkom ludzi.",
+        "Ta historia jest prawdziwa, choć w rzeczywistości było trochę inaczej: Hamaguchi Goryō podpalił snopy, żeby w ciemności wskazać drogę na wzgórze tym, którzy uciekali przed falą. Po tsunami zapłacił z własnej kieszeni za długi wał przeciw morzu, a zbudowali go mieszkańcy wioski: w ten sposób dał im też pracę. W 1946 roku kolejne tsunami uderzyło w Hiro, a wał ochronił wioskę.",
+        "Pisarz Lafcadio Hearn opowiedział tę historię po angielsku w 1897 roku, a od 1937 roku japońskie dzieci czytają ją w szkole pod tytułem «稲むらの火» (Inamura no hi), „Ogień ze snopów ryżu”. W 2015 roku ONZ wybrała właśnie 5 listopada na Światowy Dzień Świadomości Tsunami."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Japonya'da denizin yanında küçük bir köy var. Adı Hiro. Köyün üstünde, bir tepede yaşlı bir adam yaşıyor: adı Hamaguchi. Yıl 1854.",
+        "5 Kasım. Pirinç çoktan hasat edilmiş: tepede, büyük demetler halinde duruyor. Akşam aşağıda, köyde, herkes bir bayram hazırlıyor.",
+        "Birden yer sallanıyor. Çok şiddetli değil ama uzun sürüyor. Hamaguchi denize bakıyor ve korkuyor: su geri çekiliyor, kumsaldan uzaklaşıyor. Hamaguchi bunun ne demek olduğunu biliyor: birazdan dev bir dalga, bir tsunami gelecek.",
+        "İnsanlar kumsalda ve hiçbir şeyden haberleri yok. Hamaguchi yaşlı, aşağı koşamıyor. O da bir meşale alıp pirinç demetlerini ateşe veriyor: kendi hasadını, bir yıllık emeğini.",
+        "Köydekiler tepedeki ateşi görüyor. «Hamaguchi'nin orada yangın var! Hadi yardıma gidelim!» Herkes yukarı koşuyor: erkekler, kadınlar, çocuklar.",
+        "Herkes tepeye çıkınca Hamaguchi denizi gösteriyor. Dalga geliyor: çok yüksek ve köyü kaplıyor. Evler yıkılıyor ama insanlar tepede, güvende.",
+        "Hamaguchi'nin artık pirinci yok ama köy hayatta. Bugün her yıl 5 Kasım'da dünya bu hikâyeyi anıyor: Dünya Tsunami Farkındalık Günü.",
+        "Hikâyenin ana fikri şu: insanlar eşyalardan daha önemlidir. Ve bu hikâye gerçektir."
+      ],
+      "a2": [
+        "5 Kasım 1854 akşamıydı. Japonya kıyısındaki Hiro köyünde insanlar hasat bayramına hazırlanıyordu. Köyün üstündeki tepede yaşlı Hamaguchi, torunuyla birlikte denize bakıyordu.",
+        "Biraz önce bir deprem olmuştu: şiddetli değil ama uzun ve tuhaf. Kimse aldırmamıştı. Hamaguchi ise hiç hoşuna gitmeyen bir şey fark etmişti: deniz çekiliyor ve kumu açıkta bırakıyordu.",
+        "– Bana hemen bir meşale getir! – dedi torununa. Çocuk hiçbir şey anlamadan meşaleyi getirdi. Hamaguchi yeni hasat edilmiş, satışa hazır pirinç demetlerine gitti ve onları birer birer ateşe verdi.",
+        "– Dede, ne yapıyorsun? Delirdin mi? – diye bağırdı torunu. Ama Hamaguchi cevap vermedi.",
+        "Köyden alevleri gördüler. Yaşlı adama ateşi söndürmekte yardım etmek için herkes tepeye koştu: gençler, yaşlılar, kucağında çocuklarıyla anneler. Bir kadın ona sordu: «Ne oldu?». Hamaguchi sadece «Denize bakın» dedi.",
+        "Tam o anda dalga geldi: köyü silip süpüren bir su dağı. Su çekildiğinde evlerden neredeyse hiçbir şey kalmamıştı. Ama tepede herkes vardı: Hamaguchi hasadını yakmış ve yüzlerce insanın hayatını kurtarmıştı.",
+        "Hikâye gerçek, ama gerçekte olanlar biraz farklı: Hamaguchi Goryō demetleri, dalgadan kaçanlara karanlıkta tepenin yolunu göstermek için yaktı. Tsunamiden sonra kendi cebinden ödeyerek denize karşı uzun bir set yaptırdı ve seti köylüler inşa etti: böylece onlara iş de vermiş oldu. 1946'da başka bir tsunami Hiro'yu vurdu ve set köyü korudu.",
+        "Yazar Lafcadio Hearn bu hikâyeyi 1897'de İngilizce anlattı; 1937'den beri Japon çocukları onu okulda «稲むらの火» (Inamura no hi), yani «Pirinç demetlerinin ateşi» adıyla okuyor. 2015'te BM tam da 5 Kasım'ı Dünya Tsunami Farkındalık Günü olarak seçti."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In Japan gibt es ein kleines Dorf am Meer. Es heißt Hiro. Über dem Dorf, auf einem Hügel, lebt ein alter Mann: Er heißt Hamaguchi. Wir sind im Jahr 1854.",
+        "Es ist der 5. November. Der Reis ist schon geerntet: Er liegt auf dem Hügel, in großen Garben. Am Abend bereiten unten im Dorf alle ein Fest vor.",
+        "Plötzlich bebt die Erde. Sie bebt nicht stark, aber lange. Hamaguchi schaut aufs Meer und hat Angst: Das Wasser zieht sich zurück, weit weg vom Strand. Hamaguchi weiß, was das bedeutet: Bald kommt eine riesige Welle, ein Tsunami.",
+        "Die Leute sind am Strand und wissen nichts. Hamaguchi ist alt und kann nicht hinunterlaufen. Also nimmt er eine Fackel und zündet die Reisgarben an: seine Ernte, die Arbeit eines ganzen Jahres.",
+        "Vom Dorf aus sehen die Leute das Feuer auf dem Hügel. „Bei Hamaguchi brennt es! Kommt, wir helfen!“ Alle laufen hinauf: Männer, Frauen, Kinder.",
+        "Als alle auf dem Hügel sind, zeigt Hamaguchi aufs Meer. Die Welle kommt: Sie ist riesig hoch und bedeckt das Dorf. Die Häuser sind zerstört, aber die Menschen sind gerettet, auf dem Hügel.",
+        "Hamaguchi hat keinen Reis mehr, aber das Dorf lebt. Heute erinnert die Welt jedes Jahr am 5. November an diese Geschichte: Es ist der Welttag des Tsunami-Bewusstseins.",
+        "Das ist die Moral der Geschichte: Menschen sind wichtiger als Dinge. Und diese Geschichte ist wahr."
+      ],
+      "a2": [
+        "Es war der Abend des 5. November 1854. Im Dorf Hiro an der Küste Japans bereiteten sich die Leute auf das Erntefest vor. Auf dem Hügel über dem Dorf schaute der alte Hamaguchi mit seinem Enkel aufs Meer.",
+        "Kurz vorher hatte es ein Erdbeben gegeben: nicht stark, aber lang und seltsam. Niemand hatte darauf geachtet. Hamaguchi dagegen hatte etwas bemerkt, das ihm gar nicht gefiel: Das Meer zog sich zurück und legte den Sand frei.",
+        "– Bring mir eine Fackel, sofort! – sagte er zu seinem Enkel. Der Junge brachte ihm die Fackel, ohne zu verstehen. Hamaguchi ging zu den Reisgarben, frisch geerntet und bereit zum Verkauf, und zündete sie an, eine nach der anderen.",
+        "– Opa, was machst du? Bist du verrückt geworden? – schrie sein Enkel. Aber Hamaguchi antwortete ihm nicht.",
+        "Vom Dorf aus sah man die Flammen. Alle rannten den Hügel hinauf, um dem alten Mann beim Löschen zu helfen: junge Leute, alte Leute, Mütter mit Kindern auf dem Arm. Eine Frau fragte ihn: „Was ist passiert?“. Hamaguchi antwortete nur: „Schaut aufs Meer.“",
+        "In diesem Moment kam die Welle: ein Berg aus Wasser, der das Dorf auslöschte. Als das Wasser zurückging, war von den Häusern fast nichts mehr übrig. Aber auf dem Hügel waren alle: Hamaguchi hatte seine Ernte verbrannt und Hunderten von Menschen das Leben gerettet.",
+        "Die Geschichte ist wahr, auch wenn die Wirklichkeit ein bisschen anders war: Hamaguchi Goryō zündete die Garben an, um den Menschen, die vor der Welle flohen, im Dunkeln den Weg zum Hügel zu zeigen. Nach dem Tsunami bezahlte er aus eigener Tasche einen langen Deich gegen das Meer, und die Dorfbewohner bauten ihn: So gab er ihnen auch Arbeit. 1946 traf ein weiterer Tsunami Hiro, und der Deich schützte das Dorf.",
+        "Der Schriftsteller Lafcadio Hearn erzählte diese Geschichte 1897 auf Englisch, und seit 1937 lesen japanische Kinder sie in der Schule unter dem Titel «稲むらの火» (Inamura no hi), „Das Feuer der Reisgarben“. 2015 wählten die Vereinten Nationen genau den 5. November als Welttag des Tsunami-Bewusstseins."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "日本の海のそばに、小さな村があります。名前は広村です。村の上の丘に、年をとった男の人が住んでいます。名前は濱口です。時は1854年です。",
+        "11月5日です。稲はもう刈り取られて、丘の上に大きな稲むらになっています。夕方、下の村では、みんながお祭りの準備をしています。",
+        "突然、地面がゆれます。強くはありませんが、長いあいだゆれます。濱口は海を見て、こわくなります。水が浜から遠くへ引いていくのです。濱口はそれが何を意味するか知っています。まもなく大きな波、津波が来るのです。",
+        "人々は浜にいて、何も知りません。濱口は年寄りで、走って下りることができません。そこで、たいまつを持って、稲むらに火をつけます。自分の収穫、一年の仕事です。",
+        "村の人々は、丘の上の火を見ます。「濱口さんのところが火事だ！　助けに行こう！」　みんなが走って上ってきます。男の人も、女の人も、子どもも。",
+        "みんなが丘の上に集まると、濱口は海を指さします。波が来ます。とても高く、村をのみこみます。家はこわれてしまいますが、人々は丘の上で無事です。",
+        "濱口はもう稲を持っていませんが、村は生きています。今では毎年11月5日に、世界がこの話を思い出します。「世界津波の日」です。",
+        "これがこのお話の教訓です。人は物よりも大切です。そして、この話は本当にあったことです。"
+      ],
+      "a2": [
+        "1854年11月5日の夕方のことでした。日本の海岸にある広村では、人々が収穫のお祭りの準備をしていました。村の上の丘では、年老いた濱口が孫といっしょに海をながめていました。",
+        "少し前に地震がありました。強くはないけれど、長くて奇妙な地震でした。だれも気にとめていませんでした。けれども濱口は、どうにも気に入らないことに気づいていました。海が引いていき、砂浜があらわになっていたのです。",
+        "「たいまつを持ってこい、すぐに！」と濱口は孫に言いました。孫はわけもわからず、たいまつを持ってきました。濱口は、刈り取ったばかりで売るばかりになっていた稲むらのところへ行き、一つ、また一つと火をつけました。",
+        "「おじいさん、何をするの？　気がくるったの？」と孫は叫びました。でも濱口は答えませんでした。",
+        "村から炎が見えました。みんなが老人の火消しを手伝おうと、丘をかけ上ってきました。若者も、年寄りも、子どもを抱いた母親も。ある女の人がたずねました。「何があったのですか？」　濱口はただ「海を見なさい」と答えました。",
+        "そのとき、波がやって来ました。村を消し去ってしまう、山のような水でした。水が引いたとき、家はほとんど何も残っていませんでした。けれども丘の上には、みんながいました。濱口は自分の収穫を焼き、何百人もの命を救ったのです。",
+        "この話は本当ですが、実際は少しちがいます。濱口梧陵は、波から逃げる人々を暗やみの中で丘へ導くために、稲むらに火をつけたのです。津波のあと、濱口は自分のお金で海を防ぐ長い堤防をつくらせ、それを村人たちが建てました。こうして村人に仕事も与えたのです。1946年にまた津波が広村をおそったとき、堤防が村を守りました。",
+        "作家のラフカディオ・ハーン（小泉八雲）は1897年にこの話を英語で書きました。そして1937年から、日本の子どもたちは「稲むらの火」という題で学校でこの話を読んでいます。2015年、国連はまさに11月5日を「世界津波の日」に選びました。"
+      ]
+    }
+  }
+}
