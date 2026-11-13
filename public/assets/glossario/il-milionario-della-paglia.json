@@ -1,0 +1,453 @@
+{
+  "id": "il-milionario-della-paglia",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "povero",
+      "forme": ["povero"],
+      "formeEsempi": ["povere", "poveri"],
+      "esempi": ["In questo quartiere vivono molte persone povere.", "Da giovane ero povero e lavoravo tanto.", "I paesi poveri hanno bisogno di aiuto."],
+      "traduzioni": { "en": "poor (with no money)", "es": "pobre", "pt": "pobre", "fr": "pauvre", "cs": "chudý", "pl": "biedny", "tr": "yoksul, fakir", "de": "arm", "ja": "貧しい" }
+    },
+    {
+      "parola": "buttare via",
+      "forme": ["buttare", "butto", "buttato"],
+      "esempi": ["Non buttare via il pane!", "Butto via le scarpe vecchie.", "Ho buttato via tutte le lettere."],
+      "traduzioni": { "en": "to throw away", "es": "tirar, botar", "pt": "jogar fora", "fr": "jeter", "cs": "vyhodit", "pl": "wyrzucać", "tr": "atmak", "de": "wegwerfen", "ja": "捨てる" }
+    },
+    {
+      "parola": "servire",
+      "forme": ["servire"],
+      "formeEsempi": ["serve"],
+      "esempi": ["A che cosa serve questo?", "Mi serve una penna.", "Tieni questa scatola: può servire."],
+      "traduzioni": { "en": "to be useful, to be needed («a che serve?» = what's it for?)", "es": "servir, ser útil", "pt": "servir, ser útil", "fr": "servir, être utile", "cs": "hodit se, být k užitku", "pl": "przydać się", "tr": "işe yaramak", "de": "nützlich sein, brauchen", "ja": "役に立つ" }
+    },
+    {
+      "parola": "rialzarsi",
+      "forme": ["rialzava"],
+      "formeEsempi": ["rialza", "rialzato", "rialzarmi"],
+      "esempi": ["Il bambino cade e si rialza subito.", "Dopo la caduta mi sono rialzato da solo.", "Aiutami a rialzarmi!"],
+      "traduzioni": { "en": "to get back up", "es": "levantarse (de nuevo)", "pt": "levantar-se (de novo)", "fr": "se relever", "cs": "zvednout se", "pl": "podnieść się", "tr": "ayağa kalkmak", "de": "wieder aufstehen", "ja": "起き上がる" }
+    },
+    {
+      "parola": "la pagliuzza",
+      "forme": ["pagliuzza"],
+      "formeEsempi": ["pagliuzze"],
+      "esempi": ["Il vento porta via una pagliuzza.", "Sul cappotto ho una pagliuzza.", "Nella stalla ci sono pagliuzze dappertutto."],
+      "traduzioni": { "en": "a single straw (paglia + -uzza)", "es": "pajita, brizna de paja", "pt": "palhinha", "fr": "brin de paille", "cs": "stéblo slámy", "pl": "źdźbło słomy", "tr": "saman çöpü", "de": "Strohhalm", "ja": "わら一本" }
+    },
+    {
+      "parola": "il tafano",
+      "forme": ["tafano"],
+      "formeEsempi": ["tafani"],
+      "esempi": ["In estate i tafani danno fastidio ai cavalli.", "Un tafano mi ha punto sul braccio.", "Il tafano gira intorno alla mucca."],
+      "traduzioni": { "en": "horsefly", "es": "tábano", "pt": "mutuca", "fr": "taon", "cs": "ovád", "pl": "bąk (giez)", "tr": "at sineği", "de": "Bremse (Insekt)", "ja": "アブ" }
+    },
+    {
+      "parola": "il filo",
+      "forme": ["filo"],
+      "esempi": ["Mi servono ago e filo.", "Il ragno fa un filo sottile.", "Lega il pacco con un filo."],
+      "traduzioni": { "en": "thread, string", "es": "hilo", "pt": "fio, linha", "fr": "fil", "cs": "nit, provázek", "pl": "nitka", "tr": "iplik", "de": "Faden", "ja": "糸" }
+    },
+    {
+      "parola": "il cerchio",
+      "forme": ["cerchio"],
+      "esempi": ["I bambini si siedono in cerchio.", "Disegna un cerchio sul foglio.", "L'uccello vola in cerchio sopra il campo."],
+      "traduzioni": { "en": "circle", "es": "círculo", "pt": "círculo", "fr": "cercle", "cs": "kruh", "pl": "koło, krąg", "tr": "daire, çember", "de": "Kreis", "ja": "円、輪" }
+    },
+    {
+      "parola": "il giocattolo",
+      "forme": ["giocattolo"],
+      "formeEsempi": ["giocattoli"],
+      "esempi": ["Il bambino ha tanti giocattoli.", "Questo è il mio giocattolo preferito.", "Il cane rompe tutti i giocattoli."],
+      "traduzioni": { "en": "toy", "es": "juguete", "pt": "brinquedo", "fr": "jouet", "cs": "hračka", "pl": "zabawka", "tr": "oyuncak", "de": "Spielzeug", "ja": "おもちゃ" }
+    },
+    {
+      "parola": "regalare",
+      "forme": ["regalato", "regalo"],
+      "formeEsempi": ["regala"],
+      "esempi": ["Per il compleanno mi hanno regalato un libro.", "Ti regalo questo disegno.", "Il nonno regala sempre caramelle ai nipoti."],
+      "traduzioni": { "en": "to give (as a present)", "es": "regalar", "pt": "dar de presente", "fr": "offrir, donner", "cs": "darovat", "pl": "podarować", "tr": "hediye etmek", "de": "schenken", "ja": "あげる、贈る" }
+    },
+    {
+      "parola": "l'arancia",
+      "forme": ["arance"],
+      "formeEsempi": ["arancia"],
+      "esempi": ["Mangio un'arancia ogni mattina.", "In Sicilia ci sono arance buonissime.", "Faccio una spremuta di arance."],
+      "traduzioni": { "en": "orange (the fruit)", "es": "naranja", "pt": "laranja", "fr": "orange", "cs": "pomeranč", "pl": "pomarańcza", "tr": "portakal", "de": "Orange", "ja": "オレンジ、みかん" }
+    },
+    {
+      "parola": "la sete",
+      "forme": ["sete"],
+      "esempi": ["Ho sete: c'è dell'acqua?", "D'estate i bambini hanno sempre sete.", "Dopo la corsa avevo molta sete."],
+      "traduzioni": { "en": "thirst («avere sete» = to be thirsty)", "es": "sed («avere sete» = tener sed)", "pt": "sede («avere sete» = ter sede)", "fr": "soif («avere sete» = avoir soif)", "cs": "žízeň («avere sete» = mít žízeň)", "pl": "pragnienie («avere sete» = chcieć pić)", "tr": "susuzluk («avere sete» = susamak)", "de": "Durst («avere sete» = Durst haben)", "ja": "のどのかわき（«avere sete» = のどがかわく）" }
+    },
+    {
+      "parola": "ringraziare",
+      "forme": ["ringraziarlo"],
+      "formeEsempi": ["ringrazio", "ringraziato"],
+      "esempi": ["Ti ringrazio per l'aiuto.", "Voglio ringraziarlo per il regalo.", "Ho ringraziato la maestra."],
+      "traduzioni": { "en": "to thank", "es": "agradecer, dar las gracias", "pt": "agradecer", "fr": "remercier", "cs": "poděkovat", "pl": "podziękować", "tr": "teşekkür etmek", "de": "danken", "ja": "感謝する、お礼を言う" }
+    },
+    {
+      "parola": "il rotolo",
+      "forme": ["rotolo"],
+      "esempi": ["Compro un rotolo di carta da regalo.", "La sarta ha un rotolo di stoffa blu.", "Ho finito il rotolo di nastro adesivo."],
+      "traduzioni": { "en": "roll", "es": "rollo", "pt": "rolo", "fr": "rouleau", "cs": "role, štůček", "pl": "rolka, bela", "tr": "top, rulo", "de": "Rolle, Ballen", "ja": "巻き、反物" }
+    },
+    {
+      "parola": "la seta",
+      "forme": ["seta"],
+      "esempi": ["Questa camicia è di seta.", "La seta viene dalla Cina.", "Un foulard di seta è un bel regalo."],
+      "traduzioni": { "en": "silk", "es": "seda", "pt": "seda", "fr": "soie", "cs": "hedvábí", "pl": "jedwab", "tr": "ipek", "de": "Seide", "ja": "絹" }
+    },
+    {
+      "parola": "offrire",
+      "forme": ["offerto"],
+      "formeEsempi": ["offro", "offre"],
+      "esempi": ["Ti offro un caffè.", "Mi hanno offerto un lavoro a Roma.", "Il signore offre il suo posto a una donna anziana."],
+      "traduzioni": { "en": "to offer", "es": "ofrecer", "pt": "oferecer", "fr": "offrir, proposer", "cs": "nabídnout", "pl": "zaoferować", "tr": "önermek, sunmak", "de": "anbieten", "ja": "申し出る、さし出す" }
+    },
+    {
+      "parola": "il cavallo",
+      "forme": ["cavallo"],
+      "formeEsempi": ["cavalli"],
+      "esempi": ["Il cavallo corre nel prato.", "Sai andare a cavallo?", "Il contadino ha due cavalli."],
+      "traduzioni": { "en": "horse", "es": "caballo", "pt": "cavalo", "fr": "cheval", "cs": "kůň", "pl": "koń", "tr": "at", "de": "Pferd", "ja": "馬" }
+    },
+    {
+      "parola": "alzarsi",
+      "forme": ["alzava", "alzato"],
+      "formeEsempi": ["alzo", "alzati"],
+      "esempi": ["La mattina mi alzo alle sette.", "Il cane si è alzato e ha cominciato ad abbaiare.", "Alzati, è tardi!"],
+      "traduzioni": { "en": "to get up, to stand up", "es": "levantarse", "pt": "levantar-se", "fr": "se lever", "cs": "vstát, zvednout se", "pl": "wstać", "tr": "kalkmak", "de": "aufstehen", "ja": "立ち上がる、起きる" }
+    },
+    {
+      "parola": "il viaggio",
+      "forme": ["viaggio"],
+      "esempi": ["Buon viaggio!", "Il viaggio in treno dura tre ore.", "Quest'estate facciamo un viaggio in Sicilia."],
+      "traduzioni": { "en": "journey, trip", "es": "viaje", "pt": "viagem", "fr": "voyage", "cs": "cesta", "pl": "podróż", "tr": "yolculuk", "de": "Reise", "ja": "旅" }
+    },
+    {
+      "parola": "suggerire",
+      "forme": ["suggerire"],
+      "formeEsempi": ["suggerito", "suggerisco"],
+      "esempi": ["Mi puoi suggerire un buon ristorante?", "Il medico mi ha suggerito di riposare.", "Ti suggerisco di partire presto."],
+      "traduzioni": { "en": "to suggest, to advise", "es": "sugerir, aconsejar", "pt": "sugerir, aconselhar", "fr": "suggérer, conseiller", "cs": "poradit, navrhnout", "pl": "doradzić, podsunąć", "tr": "tavsiye etmek, önermek", "de": "raten, vorschlagen", "ja": "すすめる、教える" }
+    },
+    {
+      "parola": "toccare",
+      "forme": ["tocca"],
+      "formeEsempi": ["toccare", "toccato"],
+      "esempi": ["Non toccare il forno: è caldo!", "Il bambino tocca tutto.", "Ho toccato la neve per la prima volta."],
+      "traduzioni": { "en": "to touch", "es": "tocar", "pt": "tocar", "fr": "toucher", "cs": "dotknout se", "pl": "dotknąć", "tr": "dokunmak", "de": "berühren", "ja": "さわる" }
+    },
+    {
+      "parola": "possedere",
+      "forme": ["possedeva"],
+      "formeEsempi": ["possiede", "possiedo"],
+      "esempi": ["Mio zio possiede una casa al mare.", "Non possiedo una macchina: vado in bici.", "Era tutto quello che possedeva."],
+      "traduzioni": { "en": "to own", "es": "poseer, tener", "pt": "possuir, ter", "fr": "posséder", "cs": "vlastnit", "pl": "posiadać", "tr": "sahip olmak", "de": "besitzen", "ja": "持っている" }
+    },
+    {
+      "parola": "inciampare",
+      "forme": ["inciampando"],
+      "formeEsempi": ["inciampato", "inciampare", "inciampo"],
+      "esempi": ["Sono inciampato nel tappeto.", "Attento a non inciampare nelle scale!", "Inciampo sempre in questo gradino."],
+      "traduzioni": { "en": "to trip", "es": "tropezar", "pt": "tropeçar", "fr": "trébucher", "cs": "zakopnout", "pl": "potknąć się", "tr": "tökezlemek", "de": "stolpern", "ja": "つまずく" }
+    },
+    {
+      "parola": "afferrare",
+      "forme": ["afferrato"],
+      "formeEsempi": ["afferra", "afferro"],
+      "esempi": ["Afferro la borsa e corro fuori.", "Il bambino afferra la mano della mamma.", "Ha afferrato la palla al volo."],
+      "traduzioni": { "en": "to grab", "es": "agarrar", "pt": "agarrar", "fr": "attraper, saisir", "cs": "chytit", "pl": "chwycić", "tr": "yakalamak, kapmak", "de": "greifen, packen", "ja": "つかむ" }
+    },
+    {
+      "parola": "ronzare",
+      "forme": ["ronzava"],
+      "formeEsempi": ["ronza", "ronzano"],
+      "esempi": ["Una zanzara mi ronza intorno all'orecchio.", "Le api ronzano tra i fiori.", "Una mosca ronzava sopra il tavolo."],
+      "traduzioni": { "en": "to buzz", "es": "zumbar", "pt": "zumbir", "fr": "bourdonner", "cs": "bzučet", "pl": "brzęczeć", "tr": "vızıldamak", "de": "summen", "ja": "ブンブン飛ぶ" }
+    },
+    {
+      "parola": "buffo",
+      "forme": ["buffo"],
+      "formeEsempi": ["buffe", "buffa"],
+      "esempi": ["Che cappello buffo!", "Il clown fa facce buffe.", "È una storia buffa: ti fa ridere."],
+      "traduzioni": { "en": "funny, comical", "es": "gracioso, cómico", "pt": "engraçado", "fr": "drôle, rigolo", "cs": "legrační", "pl": "zabawny", "tr": "komik", "de": "lustig, komisch", "ja": "おもしろい、こっけいな" }
+    },
+    {
+      "parola": "commosso",
+      "forme": ["commossa"],
+      "formeEsempi": ["commosso"],
+      "esempi": ["Alla fine del film ero commosso.", "La nonna era commossa per il regalo.", "Ha parlato con la voce commossa."],
+      "traduzioni": { "en": "moved, touched (emotionally)", "es": "emocionado, conmovido", "pt": "emocionado, comovido", "fr": "ému", "cs": "dojatý", "pl": "wzruszony", "tr": "duygulanmış", "de": "gerührt", "ja": "感動した、胸を打たれた" }
+    },
+    {
+      "parola": "volentieri",
+      "forme": ["volentieri"],
+      "esempi": ["«Vieni al cinema?» «Volentieri!»", "Ti aiuto volentieri.", "Mangio volentieri la pizza."],
+      "traduzioni": { "en": "gladly, willingly", "es": "con mucho gusto", "pt": "com prazer, de bom grado", "fr": "volontiers", "cs": "rád, ochotně", "pl": "chętnie", "tr": "memnuniyetle", "de": "gern", "ja": "喜んで" }
+    },
+    {
+      "parola": "sfinito",
+      "forme": ["sfinito"],
+      "formeEsempi": ["sfinita"],
+      "esempi": ["Dopo la maratona era sfinito.", "Sono sfinita: vado a letto.", "Il cane torna dalla passeggiata sfinito."],
+      "traduzioni": { "en": "exhausted", "es": "agotado", "pt": "exausto", "fr": "épuisé", "cs": "vyčerpaný", "pl": "wykończony", "tr": "bitkin", "de": "erschöpft", "ja": "くたくたの" }
+    },
+    {
+      "parola": "il labbro",
+      "forme": ["labbra"],
+      "esempi": ["D'inverno ho le labbra secche.", "Si mette il rossetto sulle labbra.", "Il bambino ha le labbra sporche di cioccolato."],
+      "traduzioni": { "en": "lip (plural: le labbra)", "es": "labio (plural: le labbra)", "pt": "lábio (plural: le labbra)", "fr": "lèvre (pluriel : le labbra)", "cs": "ret (množné číslo: le labbra)", "pl": "warga (l. mn.: le labbra)", "tr": "dudak (çoğulu: le labbra)", "de": "Lippe (Plural: le labbra)", "ja": "くちびる（複数形は le labbra）" }
+    },
+    {
+      "parola": "secco",
+      "forme": ["secche"],
+      "formeEsempi": ["secca", "secco"],
+      "esempi": ["D'estate l'erba è secca.", "Ho la bocca secca.", "Le foglie secche cadono dagli alberi."],
+      "traduzioni": { "en": "dry", "es": "seco", "pt": "seco", "fr": "sec", "cs": "suchý", "pl": "suchy", "tr": "kuru", "de": "trocken", "ja": "かわいた" }
+    },
+    {
+      "parola": "prezioso",
+      "forme": ["preziosa"],
+      "formeEsempi": ["prezioso"],
+      "esempi": ["Questo anello è molto prezioso.", "Il tempo è prezioso.", "Mi hai dato un consiglio prezioso."],
+      "traduzioni": { "en": "precious, valuable", "es": "precioso, valioso", "pt": "precioso, valioso", "fr": "précieux", "cs": "vzácný, drahocenný", "pl": "cenny", "tr": "değerli", "de": "kostbar", "ja": "高価な、貴重な" }
+    },
+    {
+      "parola": "l'alba",
+      "forme": ["alba"],
+      "esempi": ["Ci siamo svegliati all'alba.", "L'alba sul mare è bellissima.", "I contadini lavorano dall'alba al tramonto."],
+      "traduzioni": { "en": "dawn", "es": "amanecer, alba", "pt": "amanhecer, alvorada", "fr": "aube", "cs": "svítání", "pl": "świt", "tr": "şafak", "de": "Morgendämmerung", "ja": "夜明け" }
+    },
+    {
+      "parola": "lo scambio",
+      "forme": ["scambio"],
+      "esempi": ["Facciamo uno scambio: il mio libro per il tuo.", "Lo scambio dei regali è dopo cena.", "Ho fatto uno scambio di figurine con mio cugino."],
+      "traduzioni": { "en": "exchange, swap", "es": "intercambio, trueque", "pt": "troca", "fr": "échange", "cs": "výměna", "pl": "wymiana", "tr": "takas, değiş tokuş", "de": "Tausch", "ja": "交換" }
+    },
+    {
+      "parola": "affidare",
+      "forme": ["affido"],
+      "formeEsempi": ["affida", "affidato"],
+      "esempi": ["Ti affido le chiavi di casa.", "Ho affidato il gatto alla vicina.", "La mamma affida il bambino alla nonna."],
+      "traduzioni": { "en": "to entrust, to leave in someone's care", "es": "confiar, dejar a cargo", "pt": "confiar, deixar aos cuidados de", "fr": "confier", "cs": "svěřit", "pl": "powierzyć", "tr": "emanet etmek", "de": "anvertrauen", "ja": "預ける、任せる" }
+    },
+    {
+      "parola": "finché",
+      "forme": ["finché"],
+      "esempi": ["Resto qui finché non torni.", "Aspettiamo finché smette di piovere.", "Studia finché non hai capito."],
+      "traduzioni": { "en": "until", "es": "hasta que", "pt": "até que", "fr": "jusqu’à ce que", "cs": "dokud, než", "pl": "dopóki, aż", "tr": "-e kadar", "de": "bis", "ja": "〜まで" }
+    },
+    {
+      "parola": "ingannare",
+      "forme": ["ingannando"],
+      "formeEsempi": ["ingannare", "inganna", "ingannato"],
+      "esempi": ["Non farti ingannare dalle apparenze.", "Nella favola la volpe inganna il corvo.", "Mi hanno ingannato: il telefono era rotto."],
+      "traduzioni": { "en": "to deceive, to trick", "es": "engañar", "pt": "enganar", "fr": "tromper", "cs": "podvést, oklamat", "pl": "oszukać", "tr": "kandırmak", "de": "betrügen, täuschen", "ja": "だます" }
+    },
+    {
+      "parola": "il bisogno",
+      "forme": ["bisogno"],
+      "esempi": ["Ho bisogno di aiuto.", "Hai bisogno di qualcosa?", "Il bambino ha bisogno di dormire."],
+      "traduzioni": { "en": "need («avere bisogno di» = to need)", "es": "necesidad («avere bisogno di» = necesitar)", "pt": "necessidade («avere bisogno di» = precisar de)", "fr": "besoin («avere bisogno di» = avoir besoin de)", "cs": "potřeba («avere bisogno di» = potřebovat)", "pl": "potrzeba («avere bisogno di» = potrzebować)", "tr": "ihtiyaç («avere bisogno di» = ihtiyacı olmak)", "de": "Bedarf («avere bisogno di» = brauchen)", "ja": "必要（«avere bisogno di» = 〜が必要だ）" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a2": [
+        "Long ago, in Japan, there lived a very poor boy. He had no family, he had no money and he worked from morning till night. His grandmother always told him: “Don't throw anything away: everything can be useful to someone”.",
+        "One morning the boy went out of his house, fell over in the street and, as he was getting up, picked up a single straw of rice. “I don't throw anything away,” he thought, and he kept it.",
+        "Soon afterwards a horsefly arrived and started flying around him. The boy caught it and tied it with a thread to the end of the straw. The horsefly flew in circles: it looked like a little toy.",
+        "On the road he met a lady with a child who was crying. When the child saw the straw, he stopped crying and smiled. The boy gave the straw to the child, and the mother, happy, gave him three oranges.",
+        "Further on he found a merchant sitting under a tree. He was very thirsty and there was no water. The boy gave him the oranges and the merchant, to thank him, gave him a roll of silk.",
+        "Then he saw a samurai next to his horse, which had fallen and wouldn't get up again. The samurai had to leave at once. The boy offered him the silk in exchange for the horse. All night he stayed with the animal, gave it water and grass, and in the morning the horse got up.",
+        "In a village a rich man was about to go on a long journey. He saw the fine horse and said: “Give me the horse and I'll leave you my house and my fields”. And so the poor boy became rich. And from that day on he never threw anything away."
+      ],
+      "b1": [
+        "In Japan this story is called «わらしべ長者», Warashibe chōja, that is “the straw millionaire”. In the oldest version it is a goddess who advises the main character to keep the first thing he touches; here we tell it the way many grandparents tell it, with much simpler advice: don't throw anything away.",
+        "The main character was a boy so poor that he owned nothing but the clothes he wore. One day, as he tripped, he grabbed a single straw of rice. He tied to it a horsefly that was buzzing around, and the straw became a funny toy.",
+        "A child crying in his mother's arms saw it and stopped at once. “Will you give it to me?” he asked. “It's a present,” answered the boy. The mother, moved, wanted to thank him: “We don't have much, but I'm glad to give you these three oranges”. And she put them in his hands.",
+        "A little later a merchant, exhausted with thirst, stopped beside him. The boy saw his dry lips and didn't think twice: “Would you like them? I'll give them to you”. In return the merchant offered him a roll of precious silk: “They sold it to me in Kyoto, but I'm giving it to you”.",
+        "Further on a samurai was standing next to his horse, which had collapsed on the ground. “I have to leave at once,” he said. “I'll leave you the horse if you give me something for the journey.” The boy gave him the silk, then stayed all night with the animal, brought it water and fresh grass, and at dawn the horse got back on its feet.",
+        "The last exchange was the most surprising. A rich gentleman who was about to leave on a long journey noticed the horse: “Will you sell it to me? I have no time to count money, but I'll entrust my house and fields to you until I come back. If I don't come back, keep them”. He never came back, and the boy became the “straw millionaire”.",
+        "Why is this tale so popular in Japan? Because the boy doesn't become rich by tricking anyone: each time he gives what he has to someone who needs it. His good fortune, the story seems to say, was brought to him by the people he helped."
+      ]
+    },
+    "es": {
+      "a2": [
+        "Hace mucho tiempo, en Japón, vivía un chico muy pobre. No tenía familia, no tenía dinero y trabajaba de la mañana a la noche. Su abuela le decía siempre: «No tires nada: todo puede servirle a alguien».",
+        "Una mañana el chico salió de casa, se cayó en la calle y, mientras se levantaba, cogió una pajita de arroz. «Yo no tiro nada», pensó, y se la quedó.",
+        "Poco después llegó un tábano y empezó a dar vueltas a su alrededor. El chico lo atrapó y lo ató con un hilo a la punta de la pajita. El tábano volaba en círculo: parecía un pequeño juguete.",
+        "Por el camino se encontró con una señora con un niño que lloraba. Cuando el niño vio la pajita, dejó de llorar y sonrió. El chico le regaló la pajita al niño, y la madre, contenta, le dio tres naranjas.",
+        "Más adelante encontró a un mercader sentado debajo de un árbol. Tenía mucha sed y no había agua. El chico le dio las naranjas y el mercader, para darle las gracias, le regaló un rollo de seda.",
+        "Luego vio a un samurái junto a su caballo, que se había caído y ya no se levantaba. El samurái tenía que irse enseguida. El chico le ofreció la seda a cambio del caballo. Toda la noche se quedó con el animal, le dio agua y hierba, y por la mañana el caballo se levantó.",
+        "En un pueblo, un hombre rico estaba a punto de hacer un largo viaje. Vio el hermoso caballo y dijo: «Dame el caballo y te dejo mi casa y mis campos». Así el chico pobre se hizo rico. Y desde aquel día nunca tiró nada."
+      ],
+      "b1": [
+        "En Japón esta historia se llama «わらしべ長者», Warashibe chōja, es decir, «el millonario de la paja». En la versión más antigua es una diosa la que aconseja al protagonista quedarse con lo primero que toque; aquí la contamos como la cuentan muchos abuelos, con un consejo mucho más sencillo: no tires nada.",
+        "El protagonista era un chico tan pobre que no poseía nada más que la ropa que llevaba puesta. Un día, al tropezar, agarró una pajita de arroz. Le ató un tábano que zumbaba por allí, y la pajita se convirtió en un juguete gracioso.",
+        "Un niño que lloraba en brazos de su madre la vio y paró enseguida. «¿Me la das?», preguntó. «Te la regalo», respondió el chico. La madre, emocionada, quería darle las gracias: «No tenemos mucho, pero estas tres naranjas te las dejo con mucho gusto». Y se las puso en la mano.",
+        "Poco después un mercader, agotado por la sed, se paró a su lado. El chico vio sus labios secos y no se lo pensó dos veces: «¿Las quiere? Se las doy». A cambio, el mercader le ofreció un rollo de seda preciosa: «Me la vendieron en Kioto, pero a ti te la regalo».",
+        "Más adelante, un samurái estaba junto a su caballo, que se había desplomado en el suelo. «Tengo que irme enseguida», dijo. «El caballo te lo dejo, si me das algo para el viaje». El chico le dio la seda, luego se quedó toda la noche con el animal, le llevó agua y hierba fresca y, al amanecer, el caballo se puso de nuevo en pie.",
+        "El último intercambio fue el más sorprendente. Un señor rico que estaba a punto de salir de viaje se fijó en el caballo: «¿Me lo vendes? No tengo tiempo de contar el dinero, pero la casa y los campos te los confío hasta que vuelva. Si no vuelvo, quédatelos». Nunca volvió, y el chico se convirtió en el «millonario de la paja».",
+        "¿Por qué gusta tanto este cuento en Japón? Porque el chico no se hace rico engañando a nadie: cada vez da lo que tiene a quien lo necesita. La suerte, parece decir la historia, se la trajeron las personas a las que ayudó."
+      ]
+    },
+    "pt": {
+      "a2": [
+        "Há muito tempo, no Japão, vivia um menino muito pobre. Ele não tinha família, não tinha dinheiro e trabalhava de manhã à noite. A avó sempre lhe dizia: «Não jogue nada fora: tudo pode servir para alguém».",
+        "Uma manhã o menino saiu de casa, caiu na rua e, enquanto se levantava, pegou uma palhinha de arroz. «Eu não jogo nada fora», pensou, e ficou com ela.",
+        "Pouco depois chegou uma mutuca e começou a voar em volta dele. O menino a pegou e a amarrou com um fio na ponta da palhinha. A mutuca voava em círculo: parecia um brinquedinho.",
+        "No caminho encontrou uma senhora com uma criança que chorava. Quando a criança viu a palhinha, parou de chorar e sorriu. O menino deu a palhinha de presente para a criança, e a mãe, contente, deu a ele três laranjas.",
+        "Mais adiante encontrou um comerciante sentado embaixo de uma árvore. Ele estava com muita sede e não havia água. O menino deu as laranjas para ele e o comerciante, para agradecer, deu-lhe de presente um rolo de seda.",
+        "Depois viu um samurai perto do seu cavalo, que tinha caído e não se levantava mais. O samurai precisava partir na hora. O menino ofereceu a seda em troca do cavalo. A noite inteira ficou com o animal, deu água e capim para ele, e de manhã o cavalo se levantou.",
+        "Num vilarejo um homem rico estava prestes a fazer uma longa viagem. Viu o belo cavalo e disse: «Me dê o cavalo e eu deixo para você a minha casa e os meus campos». Assim o menino pobre ficou rico. E desde aquele dia nunca mais jogou nada fora."
+      ],
+      "b1": [
+        "No Japão esta história se chama «わらしべ長者», Warashibe chōja, ou seja, «o milionário da palha». Na versão mais antiga é uma deusa que aconselha o protagonista a guardar a primeira coisa que tocar; aqui nós a contamos como muitos avós contam, com um conselho bem mais simples: não jogue nada fora.",
+        "O protagonista era um menino tão pobre que não possuía nada além da roupa do corpo. Um dia, ao tropeçar, agarrou uma palhinha de arroz. Amarrou nela uma mutuca que zumbia por ali, e a palhinha virou um brinquedo engraçado.",
+        "Uma criança que chorava no colo da mãe a viu e parou na hora. «Você me dá?», perguntou. «É um presente», respondeu o menino. A mãe, emocionada, queria agradecer: «Não temos muito, mas estas três laranjas eu deixo para você com prazer». E colocou-as na mão dele.",
+        "Pouco depois um comerciante, exausto de sede, parou ao lado dele. O menino viu os lábios secos dele e não pensou duas vezes: «O senhor quer? Eu dou para o senhor». Em troca, o comerciante lhe ofereceu um rolo de seda preciosa: «Me venderam em Quioto, mas para você eu dou de presente».",
+        "Mais adiante um samurai estava ao lado do seu cavalo, que tinha desabado no chão. «Preciso partir agora», disse. «O cavalo eu deixo para você, se me der alguma coisa para a viagem». O menino lhe deu a seda, depois ficou a noite inteira com o animal, levou água e capim fresco para ele e, ao amanhecer, o cavalo ficou de pé de novo.",
+        "A última troca foi a mais surpreendente. Um senhor rico que estava prestes a partir para uma longa viagem notou o cavalo: «Você me vende? Não tenho tempo para contar dinheiro, mas a casa e os campos eu confio a você até eu voltar. Se eu não voltar, fique com eles». Ele nunca voltou, e o menino virou o «milionário da palha».",
+        "Por que este conto agrada tanto no Japão? Porque o menino não fica rico enganando ninguém: toda vez ele dá o que tem a quem precisa. A sorte, parece dizer a história, quem trouxe foram as pessoas que ele ajudou."
+      ]
+    },
+    "fr": {
+      "a2": [
+        "Il y a très longtemps, au Japon, vivait un garçon très pauvre. Il n’avait pas de famille, il n’avait pas d’argent et il travaillait du matin au soir. Sa grand-mère lui disait toujours : « Ne jette rien : tout peut servir à quelqu’un »."
+        ,
+        "Un matin, le garçon est sorti de chez lui, il est tombé dans la rue et, en se relevant, il a ramassé un brin de paille de riz. « Je ne jette rien », a-t-il pensé, et il l’a gardé."
+        ,
+        "Peu après, un taon est arrivé et a commencé à tourner autour de lui. Le garçon l’a attrapé et l’a attaché avec un fil au bout du brin de paille. Le taon volait en cercle : on aurait dit un petit jouet."
+        ,
+        "Sur la route, il a rencontré une dame avec un enfant qui pleurait. Quand l’enfant a vu le brin de paille, il a arrêté de pleurer et il a souri. Le garçon a offert le brin de paille à l’enfant, et la mère, contente, lui a donné trois oranges."
+        ,
+        "Plus loin, il a trouvé un marchand assis sous un arbre. Il avait très soif et il n’y avait pas d’eau. Le garçon lui a donné les oranges et le marchand, pour le remercier, lui a offert un rouleau de soie."
+        ,
+        "Puis il a vu un samouraï à côté de son cheval, qui était tombé et ne se relevait plus. Le samouraï devait partir tout de suite. Le garçon lui a proposé la soie en échange du cheval. Toute la nuit, il est resté avec l’animal, il lui a donné de l’eau et de l’herbe, et le matin le cheval s’est relevé."
+        ,
+        "Dans un village, un homme riche allait partir pour un long voyage. Il a vu le beau cheval et a dit : « Donne-moi le cheval et je te laisse ma maison et mes champs ». C’est ainsi que le garçon pauvre est devenu riche. Et depuis ce jour, il n’a plus jamais rien jeté."
+      ],
+      "b1": [
+        "Au Japon, cette histoire s’appelle «わらしべ長者», Warashibe chōja, c’est-à-dire « le millionnaire de la paille ». Dans la version la plus ancienne, c’est une déesse qui conseille au héros de garder la première chose qu’il touchera ; ici, nous la racontons comme beaucoup de grands-parents la racontent, avec un conseil beaucoup plus simple : ne rien jeter."
+        ,
+        "Le héros était un garçon si pauvre qu’il ne possédait rien d’autre que les vêtements qu’il portait. Un jour, en trébuchant, il a attrapé un brin de paille de riz. Il y a attaché un taon qui bourdonnait par là, et le brin de paille est devenu un drôle de jouet."
+        ,
+        "Un enfant qui pleurait dans les bras de sa mère l’a vu et s’est arrêté aussitôt. « Tu me le donnes ? », a-t-il demandé. « Je te l’offre », a répondu le garçon. La mère, émue, voulait le remercier : « Nous n’avons pas grand-chose, mais ces trois oranges, je te les laisse volontiers ». Et elle les lui a mises dans la main."
+        ,
+        "Peu après, un marchand, épuisé par la soif, s’est arrêté à côté de lui. Le garçon a vu ses lèvres sèches et n’a pas hésité une seconde : « Vous les voulez ? Je vous les donne ». En échange, le marchand lui a offert un rouleau de soie précieuse : « On me l’a vendue à Kyoto, mais à toi, je l’offre »."
+        ,
+        "Plus loin, un samouraï se tenait à côté de son cheval, effondré par terre. « Je dois partir tout de suite », a-t-il dit. « Le cheval, je te le laisse, si tu me donnes quelque chose pour le voyage. » Le garçon lui a donné la soie, puis il est resté toute la nuit avec l’animal, lui a apporté de l’eau et de l’herbe fraîche et, à l’aube, le cheval s’est remis sur ses pattes."
+        ,
+        "Le dernier échange a été le plus surprenant. Un riche seigneur qui allait partir pour un long voyage a remarqué le cheval : « Tu me le vends ? Je n’ai pas le temps de compter l’argent, mais la maison et les champs, je te les confie jusqu’à mon retour. Si je ne reviens pas, garde-les. » Il n’est jamais revenu, et le garçon est devenu le « millionnaire de la paille »."
+        ,
+        "Pourquoi ce conte plaît-il tant au Japon ? Parce que le garçon ne devient pas riche en trompant quelqu’un : chaque fois, il donne ce qu’il a à celui qui en a besoin. La chance, semble dire l’histoire, ce sont les personnes qu’il a aidées qui la lui ont apportée."
+      ]
+    },
+    "cs": {
+      "a2": [
+        "Kdysi dávno žil v Japonsku velmi chudý chlapec. Neměl rodinu, neměl peníze a pracoval od rána do večera. Babička mu vždycky říkala: „Nic nevyhazuj: všechno se může někomu hodit.“",
+        "Jednoho rána chlapec vyšel z domu, upadl na ulici, a když se zvedal, vzal do ruky stéblo rýžové slámy. „Nic nevyhazuju,“ pomyslel si a nechal si ho.",
+        "Za chvíli přiletěl ovád a začal kolem něj kroužit. Chlapec ho chytil a přivázal nití na konec stébla. Ovád létal v kruhu: vypadalo to jako malá hračka.",
+        "Na cestě potkal paní s dítětem, které plakalo. Když dítě uvidělo stéblo, přestalo plakat a usmálo se. Chlapec dítěti stéblo daroval a maminka mu z radosti dala tři pomeranče.",
+        "Kus dál našel obchodníka, který seděl pod stromem. Měl velkou žízeň a nikde nebyla voda. Chlapec mu dal pomeranče a obchodník mu na poděkování daroval štůček hedvábí.",
+        "Pak uviděl samuraje u jeho koně, který upadl a už nevstal. Samuraj musel hned odjet. Chlapec mu nabídl hedvábí výměnou za koně. Celou noc zůstal se zvířetem, dával mu vodu a trávu a ráno se kůň postavil.",
+        "V jedné vesnici se bohatý muž chystal na dlouhou cestu. Uviděl krásného koně a řekl: „Dej mi koně a já ti nechám svůj dům a svá pole.“ Tak se chudý chlapec stal bohatým. A od toho dne už nikdy nic nevyhodil."
+      ],
+      "b1": [
+        "V Japonsku se tento příběh jmenuje «わらしべ長者», Warašibe čója, tedy „milionář ze stébla slámy“. V nejstarší verzi radí hrdinovi bohyně, aby si nechal první věc, které se dotkne; tady ho vyprávíme tak, jak ho vyprávějí mnozí dědečkové a babičky, s mnohem jednodušší radou: nic nevyhazuj.",
+        "Hrdina byl chlapec tak chudý, že nevlastnil nic než šaty, které měl na sobě. Jednoho dne, když zakopl, chytil stéblo rýžové slámy. Přivázal k němu ováda, který tam kolem bzučel, a ze stébla se stala legrační hračka.",
+        "Dítě, které plakalo matce v náručí, ji uvidělo a hned přestalo. „Dáš mi ji?“ zeptalo se. „Daruju ti ji,“ odpověděl chlapec. Matka byla dojatá a chtěla mu poděkovat: „Nemáme moc, ale tyhle tři pomeranče ti ráda dám.“ A vložila mu je do ruky.",
+        "Zanedlouho se vedle něj zastavil obchodník, vyčerpaný žízní. Chlapec uviděl jeho suché rty a dlouho neváhal: „Chcete je? Dám vám je.“ Obchodník mu na oplátku nabídl štůček vzácného hedvábí: „Prodali mi ho v Kjótu, ale tobě ho daruju.“",
+        "Kus dál stál samuraj u svého koně, který se zhroutil na zem. „Musím hned odjet,“ řekl. „Koně ti nechám, když mi dáš něco na cestu.“ Chlapec mu dal hedvábí, pak zůstal celou noc se zvířetem, nosil mu vodu a čerstvou trávu a za svítání se kůň znovu postavil na nohy.",
+        "Poslední výměna byla ta nejpřekvapivější. Bohatý pán, který se chystal na dlouhou cestu, si všiml koně: „Prodáš mi ho? Nemám čas počítat peníze, ale dům a pole ti svěřím, dokud se nevrátím. Když se nevrátím, nech si je.“ Nikdy se nevrátil a z chlapce se stal „milionář ze stébla slámy“.",
+        "Proč se tahle pohádka v Japonsku tolik líbí? Protože chlapec nezbohatne tím, že by někoho podvedl: pokaždé dá to, co má, tomu, kdo to potřebuje. Štěstí mu, jak se zdá příběh říkat, přinesli lidé, kterým pomohl."
+      ]
+    },
+    "pl": {
+      "a2": [
+        "Dawno temu w Japonii żył bardzo biedny chłopiec. Nie miał rodziny, nie miał pieniędzy i pracował od rana do wieczora. Babcia zawsze mu powtarzała: „Niczego nie wyrzucaj: wszystko może się komuś przydać”.",
+        "Pewnego ranka chłopiec wyszedł z domu, przewrócił się na ulicy i, podnosząc się, wziął do ręki źdźbło ryżowej słomy. „Niczego nie wyrzucam” – pomyślał i je zatrzymał.",
+        "Chwilę później przyleciał bąk i zaczął krążyć wokół niego. Chłopiec go złapał i przywiązał nitką do końca źdźbła. Bąk latał w kółko: wyglądało to jak mała zabawka.",
+        "Na drodze spotkał panią z dzieckiem, które płakało. Kiedy dziecko zobaczyło źdźbło, przestało płakać i się uśmiechnęło. Chłopiec podarował źdźbło dziecku, a mama, zadowolona, dała mu trzy pomarańcze.",
+        "Dalej znalazł kupca, który siedział pod drzewem. Bardzo chciało mu się pić, a nie było wody. Chłopiec dał mu pomarańcze, a kupiec, żeby mu podziękować, podarował mu belę jedwabiu.",
+        "Potem zobaczył samuraja przy jego koniu, który upadł i już się nie podnosił. Samuraj musiał natychmiast wyruszyć. Chłopiec zaproponował mu jedwab w zamian za konia. Całą noc został ze zwierzęciem, dawał mu wodę i trawę, a rano koń wstał.",
+        "W pewnej wiosce bogaty człowiek miał właśnie wyruszyć w długą podróż. Zobaczył pięknego konia i powiedział: „Daj mi konia, a zostawię ci mój dom i moje pola”. I tak biedny chłopiec stał się bogaty. A od tego dnia nigdy niczego nie wyrzucił."
+      ],
+      "b1": [
+        "W Japonii ta historia nazywa się «わらしべ長者», Warashibe chōja, czyli „milioner ze źdźbła słomy”. W najstarszej wersji to bogini radzi bohaterowi, żeby zatrzymał pierwszą rzecz, której dotknie; tutaj opowiadamy ją tak, jak opowiada ją wielu dziadków, z dużo prostszą radą: niczego nie wyrzucaj.",
+        "Bohater był chłopcem tak biednym, że nie posiadał nic poza ubraniem, które miał na sobie. Pewnego dnia, potykając się, chwycił źdźbło ryżowej słomy. Przywiązał do niego bąka, który brzęczał w pobliżu, i źdźbło stało się zabawną zabawką.",
+        "Dziecko, które płakało na rękach matki, zobaczyło je i od razu przestało. „Dasz mi je?” – zapytało. „Podaruję ci je” – odpowiedział chłopiec. Matka, wzruszona, chciała mu podziękować: „Nie mamy wiele, ale te trzy pomarańcze chętnie ci zostawię”. I włożyła mu je do ręki.",
+        "Niedługo potem obok niego zatrzymał się kupiec, wykończony pragnieniem. Chłopiec zobaczył jego suche wargi i nie zastanawiał się ani chwili: „Chce pan? Dam je panu”. W zamian kupiec zaoferował mu belę cennego jedwabiu: „Sprzedali mi go w Kioto, ale tobie go podaruję”.",
+        "Dalej samuraj stał przy swoim koniu, który padł na ziemię. „Muszę natychmiast wyruszyć” – powiedział. – „Konia ci zostawię, jeśli dasz mi coś na drogę”. Chłopiec dał mu jedwab, a potem został całą noc ze zwierzęciem, przynosił mu wodę i świeżą trawę, a o świcie koń stanął z powrotem na nogi.",
+        "Ostatnia wymiana była najbardziej zaskakująca. Bogaty pan, który miał wyruszyć w długą podróż, zauważył konia: „Sprzedasz mi go? Nie mam czasu liczyć pieniędzy, ale dom i pola powierzam ci, dopóki nie wrócę. Jeśli nie wrócę, zatrzymaj je”. Nigdy nie wrócił, a chłopiec został „milionerem ze źdźbła słomy”.",
+        "Dlaczego ta baśń tak się podoba w Japonii? Bo chłopiec nie bogaci się, oszukując kogokolwiek: za każdym razem daje to, co ma, temu, kto tego potrzebuje. Szczęście, zdaje się mówić ta historia, przynieśli mu ludzie, którym pomógł."
+      ]
+    },
+    "tr": {
+      "a2": [
+        "Çok eskiden Japonya'da çok yoksul bir oğlan yaşardı. Ailesi yoktu, parası yoktu ve sabahtan akşama kadar çalışırdı. Büyükannesi ona hep şöyle derdi: «Hiçbir şeyi atma: her şey birinin işine yarayabilir».",
+        "Bir sabah oğlan evden çıktı, sokakta düştü ve kalkarken eline bir pirinç saman çöpü aldı. «Ben hiçbir şeyi atmam», diye düşündü ve onu sakladı.",
+        "Biraz sonra bir at sineği geldi ve etrafında dönmeye başladı. Oğlan onu yakaladı ve bir iplikle saman çöpünün ucuna bağladı. At sineği daire çizerek uçuyordu: küçük bir oyuncak gibiydi.",
+        "Yolda ağlayan bir çocukla birlikte bir hanımla karşılaştı. Çocuk saman çöpünü görünce ağlamayı bıraktı ve gülümsedi. Oğlan saman çöpünü çocuğa hediye etti, sevinen anne de ona üç portakal verdi.",
+        "Biraz ileride bir ağacın altında oturan bir tüccar buldu. Çok susamıştı ve hiç su yoktu. Oğlan ona portakalları verdi, tüccar da ona teşekkür etmek için bir top ipek hediye etti.",
+        "Sonra atının yanında bir samuray gördü; at düşmüştü ve bir daha kalkmıyordu. Samurayın hemen yola çıkması gerekiyordu. Oğlan ona atın karşılığında ipeği önerdi. Bütün gece hayvanın yanında kaldı, ona su ve ot verdi, sabah da at ayağa kalktı.",
+        "Bir köyde zengin bir adam uzun bir yolculuğa çıkmak üzereydi. Güzel atı gördü ve dedi ki: «Atı bana ver, ben de sana evimi ve tarlalarımı bırakayım». Böylece yoksul oğlan zengin oldu. Ve o günden sonra hiçbir şeyi atmadı."
+      ],
+      "b1": [
+        "Japonya'da bu hikâyenin adı «わらしべ長者», Warashibe chōja'dır, yani «saman çöpü milyoneri». En eski anlatımda kahramana dokunduğu ilk şeyi saklamasını bir tanrıça söyler; biz burada onu birçok dede ve ninenin anlattığı gibi, çok daha basit bir öğütle anlatıyoruz: hiçbir şeyi atma.",
+        "Kahramanımız öyle yoksul bir oğlandı ki üzerindeki giysilerden başka hiçbir şeyi yoktu. Bir gün tökezlerken bir pirinç saman çöpünü kaptı. Oralarda vızıldayan bir at sineğini ona bağladı ve saman çöpü komik bir oyuncağa dönüştü.",
+        "Annesinin kucağında ağlayan bir çocuk onu görünce hemen sustu. «Bana verir misin?», diye sordu. «Sana hediyem olsun», dedi oğlan. Duygulanan anne ona teşekkür etmek istedi: «Fazla bir şeyimiz yok ama bu üç portakalı sana seve seve bırakırım». Ve portakalları onun eline koydu.",
+        "Biraz sonra susuzluktan bitkin düşmüş bir tüccar onun yanında durdu. Oğlan adamın kurumuş dudaklarını gördü ve hiç düşünmeden: «İster misiniz? Size vereyim», dedi. Tüccar da karşılığında ona değerli bir top ipek önerdi: «Bunu bana Kyoto'da sattılar ama sana hediye ediyorum».",
+        "Biraz ileride bir samuray, yere yığılmış atının yanında duruyordu. «Hemen yola çıkmam lazım», dedi. «Yolculuk için bana bir şey verirsen atı sana bırakırım.» Oğlan ona ipeği verdi, sonra bütün gece hayvanın yanında kaldı, ona su ve taze ot getirdi ve şafakta at yeniden ayağa kalktı.",
+        "Son takas en şaşırtıcısı oldu. Uzun bir yolculuğa çıkmak üzere olan zengin bir bey atı fark etti: «Onu bana satar mısın? Para saymaya vaktim yok ama ben dönene kadar evimi ve tarlalarımı sana emanet ediyorum. Dönmezsem senin olsun». Bir daha hiç dönmedi ve oğlan «saman çöpü milyoneri» oldu.",
+        "Bu masal Japonya'da neden bu kadar sevilir? Çünkü oğlan kimseyi kandırarak zengin olmaz: her seferinde elindekini ihtiyacı olana verir. Hikâye sanki şunu söylüyor: talihini ona, yardım ettiği insanlar getirdi."
+      ]
+    },
+    "de": {
+      "a2": [
+        "Vor langer Zeit lebte in Japan ein sehr armer Junge. Er hatte keine Familie, er hatte kein Geld und arbeitete von morgens bis abends. Seine Großmutter sagte ihm immer: „Wirf nichts weg: Alles kann jemandem nützen.“",
+        "Eines Morgens ging der Junge aus dem Haus, fiel auf der Straße hin und hob, während er wieder aufstand, einen Reisstrohhalm auf. „Ich werfe nichts weg“, dachte er und behielt ihn.",
+        "Kurz darauf kam eine Bremse und fing an, um ihn herumzufliegen. Der Junge fing sie und band sie mit einem Faden an die Spitze des Strohhalms. Die Bremse flog im Kreis: Es sah aus wie ein kleines Spielzeug.",
+        "Unterwegs traf er eine Frau mit einem Kind, das weinte. Als das Kind den Strohhalm sah, hörte es auf zu weinen und lächelte. Der Junge schenkte dem Kind den Strohhalm, und die Mutter gab ihm froh drei Orangen.",
+        "Weiter vorne fand er einen Händler, der unter einem Baum saß. Er hatte großen Durst, und es gab kein Wasser. Der Junge gab ihm die Orangen, und der Händler schenkte ihm zum Dank eine Rolle Seide.",
+        "Dann sah er einen Samurai neben seinem Pferd, das gestürzt war und nicht mehr aufstand. Der Samurai musste sofort weiter. Der Junge bot ihm die Seide im Tausch gegen das Pferd an. Die ganze Nacht blieb er bei dem Tier, gab ihm Wasser und Gras, und am Morgen stand das Pferd auf.",
+        "In einem Dorf wollte ein reicher Mann gerade zu einer langen Reise aufbrechen. Er sah das schöne Pferd und sagte: „Gib mir das Pferd, und ich lasse dir mein Haus und meine Felder.“ So wurde der arme Junge reich. Und von diesem Tag an warf er nie wieder etwas weg."
+      ],
+      "b1": [
+        "In Japan heißt diese Geschichte «わらしべ長者», Warashibe chōja, also „der Strohhalm-Millionär“. In der ältesten Fassung ist es eine Göttin, die der Hauptfigur rät, das Erste zu behalten, was sie berührt; hier erzählen wir sie so, wie viele Großeltern sie erzählen, mit einem viel einfacheren Rat: Wirf nichts weg.",
+        "Die Hauptfigur war ein Junge, so arm, dass er nichts besaß außer den Kleidern, die er trug. Eines Tages stolperte er und griff dabei nach einem Reisstrohhalm. Er band eine Bremse daran, die in der Nähe herumsummte, und der Strohhalm wurde zu einem lustigen Spielzeug.",
+        "Ein Kind, das auf dem Arm seiner Mutter weinte, sah ihn und hörte sofort auf. „Gibst du ihn mir?“, fragte es. „Ich schenke ihn dir“, antwortete der Junge. Die Mutter war gerührt und wollte ihm danken: „Wir haben nicht viel, aber diese drei Orangen lasse ich dir gern.“ Und sie legte sie ihm in die Hand.",
+        "Kurz darauf blieb ein Händler neben ihm stehen, erschöpft vor Durst. Der Junge sah seine trockenen Lippen und überlegte nicht lange: „Möchten Sie sie? Ich gebe sie Ihnen.“ Dafür bot ihm der Händler eine Rolle kostbarer Seide an: „Man hat sie mir in Kyoto verkauft, aber dir schenke ich sie.“",
+        "Weiter vorne stand ein Samurai neben seinem Pferd, das zu Boden gestürzt war. „Ich muss sofort weiter“, sagte er. „Das Pferd lasse ich dir, wenn du mir etwas für die Reise gibst.“ Der Junge gab ihm die Seide, blieb dann die ganze Nacht bei dem Tier, brachte ihm Wasser und frisches Gras, und bei Tagesanbruch stand das Pferd wieder auf den Beinen.",
+        "Der letzte Tausch war der überraschendste. Ein reicher Herr, der gerade zu einer langen Reise aufbrechen wollte, bemerkte das Pferd: „Verkaufst du es mir? Ich habe keine Zeit, Geld zu zählen, aber das Haus und die Felder vertraue ich dir an, bis ich zurückkomme. Wenn ich nicht zurückkomme, behalte sie.“ Er kam nie zurück, und der Junge wurde der „Strohhalm-Millionär“.",
+        "Warum ist dieses Märchen in Japan so beliebt? Weil der Junge nicht reich wird, indem er jemanden betrügt: Jedes Mal gibt er das, was er hat, dem, der es braucht. Sein Glück, scheint die Geschichte zu sagen, haben ihm die Menschen gebracht, denen er geholfen hat."
+      ]
+    },
+    "ja": {
+      "a2": [
+        "むかしむかし、日本に、とても貧しい若者がいました。家族もなく、お金もなく、朝から晩まで働いていました。おばあさんはいつも言っていました。「何も捨ててはいけないよ。どんなものでも、だれかの役に立つのだから。」",
+        "ある朝、若者は家を出て道で転び、起き上がるときに、稲のわらを一本つかみました。「何も捨てないぞ」と思って、そのわらを持っていきました。",
+        "まもなく、アブが一匹やって来て、若者のまわりを飛びはじめました。若者はアブをつかまえ、糸でわらの先にしばりました。アブはぐるぐると輪をかいて飛び、まるで小さなおもちゃのようでした。",
+        "道で、泣いている子どもを連れた女の人に会いました。子どもはわらを見ると泣きやみ、にっこりしました。若者がわらを子どもにあげると、お母さんは喜んで、みかんを三つくれました。",
+        "さらに行くと、木の下にすわっている商人がいました。商人はのどがからからでしたが、水がありませんでした。若者がみかんをあげると、商人はお礼に絹の反物を一巻きくれました。",
+        "それから、倒れて起き上がらなくなった馬のそばに、侍がいるのを見かけました。侍はすぐに出発しなければなりませんでした。若者は馬とひきかえに絹をさし出しました。一晩じゅう馬のそばにいて、水と草をやると、朝には馬が立ち上がりました。",
+        "ある村で、金持ちの男が長い旅に出ようとしていました。男はりっぱな馬を見て言いました。「その馬をくれたら、わたしの家と畑をあげよう。」　こうして貧しい若者はお金持ちになりました。そしてその日から、何ひとつ捨てることはありませんでした。"
+      ],
+      "b1": [
+        "日本ではこの話は「わらしべ長者」と呼ばれています。いちばん古い話では、最初にさわったものを大事に持っていなさいと主人公に教えるのは観音さまです。ここでは、多くのおじいさんやおばあさんが語るように、もっとかんたんな教えでお話しします。「何も捨ててはいけない」です。",
+        "主人公は、着ている服のほかには何も持っていないほど貧しい若者でした。ある日、つまずいた拍子に、稲のわらを一本つかみました。そのあたりをブンブン飛んでいたアブをわらにしばると、わらはおもしろいおもちゃになりました。",
+        "お母さんに抱かれて泣いていた子どもがそれを見て、すぐに泣きやみました。「それ、ちょうだい？」と子どもは言いました。「あげるよ」と若者は答えました。お母さんは胸を打たれて、お礼がしたいと思いました。「たいしたものはありませんが、このみかん三つを喜んで差し上げます。」　そしてみかんを若者の手にのせました。",
+        "まもなく、のどがかわいてくたくたになった商人が、若者のそばで立ち止まりました。若者は商人のかわいたくちびるを見て、迷わずに言いました。「いりますか？　差し上げます。」　商人はお返しに、高価な絹の反物を一巻きさし出しました。「京都で買ったものだが、あなたにあげよう。」",
+        "さらに行くと、地面に倒れこんだ馬のそばに侍が立っていました。「すぐに出発しなければならない」と侍は言いました。「旅に必要なものをくれるなら、馬はおまえにやろう。」　若者は侍に絹を渡し、それから一晩じゅう馬のそばにいて、水と新しい草を運びました。夜明けには、馬はまた立ち上がりました。",
+        "最後の交換は、いちばん驚くべきものでした。長い旅に出ようとしていた金持ちの旦那が、その馬に目をとめたのです。「その馬を売ってくれないか？　お金を数えるひまはないが、わたしがもどるまで家と畑をおまえに預けよう。もしもどらなかったら、おまえのものにしていい。」　旦那は二度ともどらず、若者は「わらしべ長者」になりました。",
+        "この昔話は、なぜ日本でこんなに好まれているのでしょう？　それは、若者がだれもだまさずにお金持ちになるからです。若者はいつも、自分の持っているものを、それを必要としている人にあげます。幸運は、若者が助けた人たちが運んできてくれたのだ、とこの話は語っているようです。"
+      ]
+    }
+  }
+}
