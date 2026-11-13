@@ -59,6 +59,11 @@ const lavori = idScelto
       .map((f) => basename(f, '.json'))
       .map((id) => [id, pagineDi(id)]);
 
+const LINGUE = ['en', 'es', 'pt', 'fr', 'cs', 'pl', 'tr', 'de', 'ja'];
+const LIVELLI_TRADOTTI = ['a1', 'a2', 'b1'];
+const normalizza = (s) => s.toLocaleLowerCase('it').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[‘’]/g, "'");
+const parole = (s) => new Set((normalizza(s).match(/[\p{L}\p{M}]+/gu) || []).map(normalizza));
+
 let problemi = 0;
 
 for (const [idGlossario, pagine] of lavori) {
@@ -72,6 +77,7 @@ for (const [idGlossario, pagine] of lavori) {
     console.error(`${idGlossario}: trovate solo ${pagine.length} pagine su 10`);
     problemi += 1;
   }
+  problemi += controllaContenuto(idGlossario, JSON.parse(readFileSync(datiGlossario, 'utf8')), pagine);
   // Il JSON si carica sempre da un percorso assoluto: le pagine stanno a
   // profondità diverse (favole/, en/stories/) ma il file è uno solo.
   const percorsoJson = `/assets/glossario/${idGlossario}.json?v=${VERSIONE}`;
@@ -133,6 +139,59 @@ for (const [idGlossario, pagine] of lavori) {
 
 if (soloControllo && !problemi) console.log(`Glossari a posto (${lavori.length}).`);
 if (problemi) process.exitCode = 1;
+
+// Controlla il contenuto del glossario contro il brano italiano: ogni voce
+// deve comparire nel testo, avere tre esempi (con la parola dentro, per il
+// grassetto) e le traduzioni nelle 9 lingue; la traduzione del brano deve
+// avere un testo per ogni paragrafo, in tutte le lingue e per A1, A2 e B1.
+function controllaContenuto(id, dati, pagine) {
+  const errori = [];
+  const italiana = pagine.find((p) => readFileSync(join(RADICE_PAGINE, p), 'utf8').match(/"lang":\s*"it"/));
+  const sorgente =
+    italiana && readFileSync(join(RADICE_PAGINE, italiana), 'utf8').match(/from '~\/html\/(.+?)\?raw'/)?.[1];
+  if (!sorgente) return 0;
+  const html = readFileSync(join('src/html', sorgente), 'utf8');
+  const livelli = {};
+  for (const m of html.matchAll(
+    /<article class="story-card[^"]*" id="(\w+)"[\s\S]*?<div class="story-text"[^>]*>([\s\S]*?)<\/div>/g
+  )) {
+    livelli[m[1]] = (m[2].match(/<p[\s>]/g) || []).length;
+    livelli[m[1] + ':testo'] = m[2].replace(/<[^>]+>/g, ' ');
+  }
+  const tuttoIlTesto = parole(
+    Object.keys(livelli)
+      .filter((k) => k.endsWith(':testo'))
+      .map((k) => livelli[k])
+      .join(' ')
+  );
+
+  for (const voce of dati.voci || []) {
+    const nome = voce.parola;
+    if (!(voce.forme || []).some((f) => tuttoIlTesto.has(normalizza(f))))
+      errori.push(`«${nome}»: nessuna forma compare nel brano`);
+    const esempi = voce.esempi || [];
+    if (esempi.length !== 3) errori.push(`«${nome}»: ${esempi.length} esempi invece di 3`);
+    const forme = new Set([...(voce.forme || []), ...(voce.formeEsempi || [])].map(normalizza));
+    for (const e of esempi)
+      if (![...parole(e)].some((w) => forme.has(w))) errori.push(`«${nome}»: esempio senza la parola: ${e}`);
+    const mancanti = LINGUE.filter((l) => !voce.traduzioni?.[l]);
+    if (mancanti.length) errori.push(`«${nome}»: traduzioni mancanti ${mancanti.join(' ')}`);
+  }
+
+  if (dati.testo) {
+    for (const lingua of LINGUE) {
+      for (const livello of LIVELLI_TRADOTTI.filter((l) => livelli[l])) {
+        const tradotto = dati.testo[lingua]?.[livello];
+        if (!tradotto) errori.push(`testo ${lingua} ${livello}: manca`);
+        else if (tradotto.length !== livelli[livello])
+          errori.push(`testo ${lingua} ${livello}: ${tradotto.length} paragrafi invece di ${livelli[livello]}`);
+      }
+    }
+  }
+
+  errori.forEach((e) => console.error(`${id}: ${e}`));
+  return errori.length;
+}
 
 // Inserisce una riga in un elenco del blocco `meta`. Il foglio di stile va in
 // fondo a extraHead (deve poter sovrascrivere gli altri), lo script in cima a
