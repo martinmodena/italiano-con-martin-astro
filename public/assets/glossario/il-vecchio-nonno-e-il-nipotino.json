@@ -1,0 +1,448 @@
+{
+  "id": "il-vecchio-nonno-e-il-nipotino",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "tremare",
+      "forme": ["tremano", "trema", "tremavano"],
+      "esempi": ["Ho freddo e le mani mi tremano.", "La voce le trema quando parla in pubblico.", "Durante il terremoto la casa trema."],
+      "traduzioni": { "en": "to shake, to tremble", "es": "temblar", "pt": "tremer", "fr": "trembler", "cs": "třást se", "pl": "trząść się, drżeć", "tr": "titremek", "de": "zittern", "ja": "ふるえる" }
+    },
+    {
+      "parola": "il figlio",
+      "forme": ["figlio"],
+      "formeEsempi": ["figli"],
+      "esempi": ["Mio figlio ha dieci anni.", "Hanno due figli: un maschio e una femmina.", "Il figlio del panettiere studia a Bologna."],
+      "traduzioni": { "en": "son (plural «figli» = children)", "es": "hijo", "pt": "filho", "fr": "fils", "cs": "syn", "pl": "syn", "tr": "oğul", "de": "Sohn", "ja": "息子" }
+    },
+    {
+      "parola": "la nuora",
+      "forme": ["nuora"],
+      "esempi": ["La nuora di Maria è spagnola.", "La suocera e la nuora vanno d'accordo.", "Mia nuora cucina benissimo."],
+      "traduzioni": { "en": "daughter-in-law", "es": "nuera", "pt": "nora", "fr": "belle-fille", "cs": "snacha", "pl": "synowa", "tr": "gelin", "de": "Schwiegertochter", "ja": "お嫁さん（息子の妻）" }
+    },
+    {
+      "parola": "il nipotino",
+      "forme": ["nipotino"],
+      "formeEsempi": ["nipotini"],
+      "esempi": ["Il nonno porta il nipotino al parco.", "La nonna ha tre nipotini.", "Il mio nipotino ha appena cominciato la scuola."],
+      "traduzioni": { "en": "little grandson (here not “nephew”)", "es": "nietecito", "pt": "netinho", "fr": "petit-fils", "cs": "vnouček", "pl": "wnuczek", "tr": "küçük torun", "de": "Enkelchen", "ja": "小さな孫" }
+    },
+    {
+      "parola": "la minestra",
+      "forme": ["minestra"],
+      "esempi": ["D'inverno mangio la minestra di verdure.", "La minestra è troppo calda.", "La nonna fa una minestra buonissima."],
+      "traduzioni": { "en": "soup", "es": "sopa", "pt": "sopa", "fr": "soupe", "cs": "polévka", "pl": "zupa", "tr": "çorba", "de": "Suppe", "ja": "スープ" }
+    },
+    {
+      "parola": "la tovaglia",
+      "forme": ["tovaglia"],
+      "esempi": ["Metti la tovaglia sul tavolo.", "Ho macchiato la tovaglia con il caffè.", "La tovaglia della festa è rossa."],
+      "traduzioni": { "en": "tablecloth", "es": "mantel", "pt": "toalha de mesa", "fr": "nappe", "cs": "ubrus", "pl": "obrus", "tr": "masa örtüsü", "de": "Tischdecke", "ja": "テーブルクロス" }
+    },
+    {
+      "parola": "il disordine",
+      "forme": ["disordine"],
+      "esempi": ["Che disordine in camera tua!", "Scusa il disordine, sto traslocando.", "Non sopporto il disordine."],
+      "traduzioni": { "en": "mess", "es": "desorden", "pt": "bagunça", "fr": "désordre", "cs": "nepořádek", "pl": "bałagan", "tr": "dağınıklık", "de": "Unordnung", "ja": "散らかっていること、だらしなさ" }
+    },
+    {
+      "parola": "l'angolo",
+      "forme": ["angolo"],
+      "esempi": ["Il cane dorme in un angolo della cucina.", "Il bar è all'angolo della strada.", "Metti la pianta in quell'angolo."],
+      "traduzioni": { "en": "corner", "es": "rincón, esquina", "pt": "canto", "fr": "coin", "cs": "kout, roh", "pl": "kąt", "tr": "köşe", "de": "Ecke", "ja": "隅、角" }
+    },
+    {
+      "parola": "la stufa",
+      "forme": ["stufa"],
+      "esempi": ["D'inverno accendiamo la stufa.", "Il gatto dorme vicino alla stufa.", "La stufa a legna scalda tutta la casa."],
+      "traduzioni": { "en": "stove (for heating)", "es": "estufa", "pt": "fogão a lenha, aquecedor", "fr": "poêle", "cs": "kamna", "pl": "piec", "tr": "soba", "de": "Ofen", "ja": "ストーブ" }
+    },
+    {
+      "parola": "la terracotta",
+      "forme": ["terracotta"],
+      "esempi": ["Ho comprato dei vasi di terracotta.", "La nonna cuoce i fagioli in una pentola di terracotta.", "Il pavimento della cucina è di terracotta."],
+      "traduzioni": { "en": "terracotta, earthenware", "es": "barro, terracota", "pt": "barro, terracota", "fr": "terre cuite", "cs": "pálená hlína", "pl": "glina, terakota", "tr": "toprak, pişmiş kil", "de": "Ton, Terrakotta", "ja": "素焼き" }
+    },
+    {
+      "parola": "rompersi",
+      "forme": ["rompe", "rotta", "rompere"],
+      "formeEsempi": ["rotto"],
+      "esempi": ["Il bicchiere è caduto e si è rotto.", "Attento, il vaso si rompe!", "La lavatrice si è rotta di nuovo."],
+      "traduzioni": { "en": "to break", "es": "romperse", "pt": "quebrar", "fr": "se casser", "cs": "rozbít se", "pl": "stłuc się, zepsuć się", "tr": "kırılmak", "de": "kaputtgehen, zerbrechen", "ja": "割れる、こわれる" }
+    },
+    {
+      "parola": "il legno",
+      "forme": ["legno"],
+      "esempi": ["Il tavolo è di legno.", "Mettiamo un po' di legno nel camino.", "Mio padre fa giocattoli di legno."],
+      "traduzioni": { "en": "wood", "es": "madera", "pt": "madeira", "fr": "bois", "cs": "dřevo", "pl": "drewno", "tr": "tahta, odun", "de": "Holz", "ja": "木（材木）" }
+    },
+    {
+      "parola": "costare",
+      "forme": ["costa"],
+      "formeEsempi": ["costato"],
+      "esempi": ["Quanto costa questo libro?", "Al mercato la frutta costa poco.", "Il viaggio è costato molto."],
+      "traduzioni": { "en": "to cost", "es": "costar", "pt": "custar", "fr": "coûter", "cs": "stát (cena)", "pl": "kosztować", "tr": "tutmak, fiyatı olmak", "de": "kosten", "ja": "（値段が）かかる" }
+    },
+    {
+      "parola": "il pavimento",
+      "forme": ["pavimento"],
+      "esempi": ["Il bambino gioca sul pavimento.", "Ho lavato il pavimento della cucina.", "Le chiavi sono cadute sul pavimento."],
+      "traduzioni": { "en": "floor", "es": "suelo", "pt": "chão", "fr": "sol, plancher", "cs": "podlaha", "pl": "podłoga", "tr": "yer, döşeme", "de": "Fußboden", "ja": "床" }
+    },
+    {
+      "parola": "il pezzo",
+      "forme": ["pezzi"],
+      "formeEsempi": ["pezzo"],
+      "esempi": ["Vuoi un pezzo di torta?", "Il vaso si è rotto in mille pezzi.", "Ho trovato un pezzo di legno sulla spiaggia."],
+      "traduzioni": { "en": "piece", "es": "trozo, pedazo", "pt": "pedaço", "fr": "morceau", "cs": "kousek, kus", "pl": "kawałek", "tr": "parça", "de": "Stück", "ja": "かけら、一切れ" }
+    },
+    {
+      "parola": "piangere",
+      "forme": ["piangono", "piangere"],
+      "formeEsempi": ["piange", "piango"],
+      "esempi": ["Il bambino piange perché ha fame.", "Quando guardo questo film piango sempre.", "Non piangere, va tutto bene."],
+      "traduzioni": { "en": "to cry", "es": "llorar", "pt": "chorar", "fr": "pleurer", "cs": "plakat", "pl": "płakać", "tr": "ağlamak", "de": "weinen", "ja": "泣く" }
+    },
+    {
+      "parola": "subito",
+      "forme": ["subito"],
+      "esempi": ["Vieni subito qui!", "Ho capito subito il problema.", "Arrivo subito!"],
+      "traduzioni": { "en": "immediately, right away", "es": "enseguida, inmediatamente", "pt": "na hora, imediatamente", "fr": "tout de suite", "cs": "hned", "pl": "od razu", "tr": "hemen", "de": "sofort", "ja": "すぐに" }
+    },
+    {
+      "parola": "trattare",
+      "forme": ["trattiamo", "trattano"],
+      "formeEsempi": ["tratta", "trattare"],
+      "esempi": ["Tratta tutti con gentilezza.", "Non trattare male tuo fratello!", "Il nuovo capo ci tratta bene."],
+      "traduzioni": { "en": "to treat (someone)", "es": "tratar", "pt": "tratar", "fr": "traiter", "cs": "zacházet s", "pl": "traktować", "tr": "davranmak", "de": "behandeln", "ja": "扱う" }
+    },
+    {
+      "parola": "i genitori",
+      "forme": ["genitori"],
+      "esempi": ["I miei genitori vivono a Napoli.", "Domenica pranzo dai miei genitori.", "I genitori aspettano i figli davanti alla scuola."],
+      "traduzioni": { "en": "parents (not “relatives”)", "es": "padres", "pt": "pais", "fr": "parents (père et mère)", "cs": "rodiče", "pl": "rodzice", "tr": "anne baba", "de": "Eltern", "ja": "両親、親" }
+    },
+    {
+      "parola": "imparare",
+      "forme": ["imparano"],
+      "formeEsempi": ["imparo", "imparato"],
+      "esempi": ["Imparo cinque parole nuove ogni giorno.", "I bambini imparano in fretta.", "Ho imparato a nuotare da piccolo."],
+      "traduzioni": { "en": "to learn", "es": "aprender", "pt": "aprender", "fr": "apprendre", "cs": "učit se", "pl": "uczyć się", "tr": "öğrenmek", "de": "lernen", "ja": "学ぶ、覚える" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "il vecchietto",
+      "forme": ["vecchietto"],
+      "esempi": ["Sulla panchina c'è un vecchietto che legge il giornale.", "Il vecchietto del terzo piano è molto simpatico.", "Un vecchietto mi ha chiesto la strada."],
+      "traduzioni": { "en": "little old man (vecchio + -etto)", "es": "viejecito", "pt": "velhinho", "fr": "petit vieux", "cs": "stařeček", "pl": "staruszek", "tr": "ihtiyarcık", "de": "altes Männlein", "ja": "おじいさん（親しみをこめて）" }
+    },
+    {
+      "parola": "la casetta",
+      "forme": ["casetta"],
+      "esempi": ["Abbiamo una casetta in montagna.", "I bambini disegnano una casetta con il camino.", "In giardino c'è una casetta per gli uccelli."],
+      "traduzioni": { "en": "little house, cottage (casa + -etta)", "es": "casita", "pt": "casinha", "fr": "maisonnette", "cs": "domeček, chaloupka", "pl": "domek", "tr": "küçük ev", "de": "Häuschen", "ja": "小さな家" }
+    },
+    {
+      "parola": "il nonnino",
+      "forme": ["nonnino"],
+      "esempi": ["Il nonnino si è addormentato sulla poltrona.", "Ciao nonnino, come stai?", "Il nonnino cammina piano con il bastone."],
+      "traduzioni": { "en": "dear old grandpa (nonno + -ino)", "es": "abuelito", "pt": "vovozinho", "fr": "papi", "cs": "dědoušek", "pl": "dziadziuś", "tr": "dedecik", "de": "Großväterchen", "ja": "おじいちゃん" }
+    },
+    {
+      "parola": "l'angolino",
+      "forme": ["angolino"],
+      "esempi": ["Mi siedo in un angolino tranquillo del bar.", "Il gatto ha trovato un angolino caldo.", "C'è un angolino libero vicino alla finestra."],
+      "traduzioni": { "en": "little corner (angolo + -ino)", "es": "rinconcito", "pt": "cantinho", "fr": "petit coin", "cs": "koutek", "pl": "kącik", "tr": "köşecik", "de": "Eckchen", "ja": "隅っこ" }
+    },
+    {
+      "parola": "il pezzetto",
+      "forme": ["pezzetti"],
+      "formeEsempi": ["pezzetto"],
+      "esempi": ["Taglia la carota a pezzetti.", "Mi dai un pezzetto di cioccolato?", "Il bicchiere si è rotto in tanti pezzetti."],
+      "traduzioni": { "en": "little piece, bit (pezzo + -etto)", "es": "trocito, pedacito", "pt": "pedacinho", "fr": "petit morceau", "cs": "kousíček", "pl": "kawałeczek", "tr": "parçacık", "de": "Stückchen", "ja": "小さなかけら" }
+    },
+    {
+      "parola": "la ciotolina",
+      "forme": ["ciotolina"],
+      "esempi": ["Metto le olive in una ciotolina.", "Il gattino beve da una ciotolina blu.", "Sul tavolo c'è una ciotolina di noccioline."],
+      "traduzioni": { "en": "small bowl (ciotola + -ina)", "es": "cuenquito", "pt": "tigelinha", "fr": "petit bol", "cs": "mistička", "pl": "miseczka", "tr": "kâsecik", "de": "Schüsselchen", "ja": "小さなおわん" }
+    },
+    {
+      "parola": "piccolino",
+      "forme": ["piccolino"],
+      "formeEsempi": ["piccolina"],
+      "esempi": ["Vieni qui, piccolino!", "La mia camera è piccolina ma carina.", "Quando ero piccolino avevo paura del buio."],
+      "traduzioni": { "en": "little one; tiny (piccolo + -ino)", "es": "pequeñín", "pt": "pequenininho", "fr": "mon petit, tout petit", "cs": "maličký", "pl": "maluch, malutki", "tr": "ufaklık", "de": "Kleiner, klitzeklein", "ja": "坊や、ちっちゃい" }
+    },
+    {
+      "parola": "fermo",
+      "forme": ["fermo"],
+      "formeEsempi": ["ferma"],
+      "esempi": ["Stai fermo, ti faccio una foto!", "Tieni ferma la scala, per favore.", "L'autobus è fermo al semaforo."],
+      "traduzioni": { "en": "still, steady («tenere fermo» = to hold steady)", "es": "quieto, firme", "pt": "parado, firme", "fr": "immobile («tenere fermo» = tenir sans bouger)", "cs": "v klidu, pevně", "pl": "nieruchomo, prosto", "tr": "sabit, kıpırdamadan", "de": "ruhig, still", "ja": "動かない、しっかり" }
+    },
+    {
+      "parola": "il fastidio",
+      "forme": ["fastidio"],
+      "esempi": ["La musica alta mi dà fastidio.", "Scusa il fastidio, posso chiederti una cosa?", "Il fumo dà fastidio a molte persone."],
+      "traduzioni": { "en": "annoyance («dare fastidio» = to bother)", "es": "molestia («dare fastidio» = molestar)", "pt": "incômodo («dare fastidio» = incomodar)", "fr": "gêne («dare fastidio» = déranger)", "cs": "obtíž («dare fastidio» = vadit)", "pl": "przykrość («dare fastidio» = przeszkadzać)", "tr": "rahatsızlık («dare fastidio» = rahatsız etmek)", "de": "Ärger («dare fastidio» = stören)", "ja": "迷惑（«dare fastidio» = いやがらせる、気にさわる）" }
+    },
+    {
+      "parola": "lucido",
+      "forme": ["lucidi"],
+      "esempi": ["Quando ha salutato la figlia aveva gli occhi lucidi.", "Alla fine del film tutti avevano gli occhi lucidi.", "Con gli occhi lucidi, la nonna ci ha abbracciato."],
+      "traduzioni": { "en": "teary («occhi lucidi» = eyes wet with tears)", "es": "lloroso («occhi lucidi» = ojos llorosos)", "pt": "marejado («occhi lucidi» = olhos marejados)", "fr": "brillant de larmes («occhi lucidi»)", "cs": "zalitý slzami («occhi lucidi»)", "pl": "zaszklony («occhi lucidi» = oczy pełne łez)", "tr": "dolu dolu («occhi lucidi» = gözleri dolu)", "de": "feucht («occhi lucidi» = feuchte Augen)", "ja": "うるんだ（«occhi lucidi» = 涙ぐんだ目）" }
+    },
+    {
+      "parola": "brontolare",
+      "forme": ["brontolato"],
+      "formeEsempi": ["brontola", "brontolare"],
+      "esempi": ["Il nonno brontola sempre quando piove.", "Smettila di brontolare e aiutami!", "Ha brontolato tutto il giorno per il traffico."],
+      "traduzioni": { "en": "to grumble", "es": "refunfuñar", "pt": "resmungar", "fr": "grogner, ronchonner", "cs": "bručet", "pl": "zrzędzić", "tr": "söylenmek", "de": "schimpfen, murren", "ja": "ぶつぶつ文句を言う" }
+    },
+    {
+      "parola": "sospirare",
+      "forme": ["sospirato"],
+      "formeEsempi": ["sospira"],
+      "esempi": ["Ha guardato fuori dalla finestra e ha sospirato.", "Sospira ogni volta che pensa alle vacanze.", "«Che stanchezza!», sospira la mamma."],
+      "traduzioni": { "en": "to sigh", "es": "suspirar", "pt": "suspirar", "fr": "soupirer", "cs": "povzdechnout si", "pl": "westchnąć", "tr": "iç çekmek", "de": "seufzen", "ja": "ため息をつく" }
+    },
+    {
+      "parola": "l'adulto",
+      "forme": ["adulti"],
+      "formeEsempi": ["adulto"],
+      "esempi": ["Il biglietto costa dieci euro per gli adulti.", "Da adulto voglio vivere al mare.", "Questo film è solo per adulti."],
+      "traduzioni": { "en": "adult, grown-up", "es": "adulto", "pt": "adulto", "fr": "adulte", "cs": "dospělý", "pl": "dorosły", "tr": "yetişkin, büyük", "de": "Erwachsener", "ja": "大人" }
+    },
+    {
+      "parola": "il marito",
+      "forme": ["marito"],
+      "esempi": ["Mio marito lavora in banca.", "Ti presento mio marito, Paolo.", "Marito e moglie sono andati in vacanza."],
+      "traduzioni": { "en": "husband", "es": "marido", "pt": "marido", "fr": "mari", "cs": "manžel, muž", "pl": "mąż", "tr": "koca, eş", "de": "Ehemann, Mann", "ja": "夫" }
+    },
+    {
+      "parola": "riportare",
+      "forme": ["riportato"],
+      "formeEsempi": ["riporto", "riporti"],
+      "esempi": ["Domani riporto il libro in biblioteca.", "Mi riporti a casa dopo la festa?", "Ho riportato la giacca al negozio."],
+      "traduzioni": { "en": "to bring back, to take back", "es": "volver a llevar, devolver", "pt": "levar de volta", "fr": "ramener, rapporter", "cs": "přivést zpátky, vrátit", "pl": "przyprowadzić z powrotem, oddać", "tr": "geri getirmek", "de": "zurückbringen", "ja": "連れもどす、返す" }
+    },
+    {
+      "parola": "il volume",
+      "forme": ["volume"],
+      "formeEsempi": ["volumi"],
+      "esempi": ["La biblioteca ha più di mille volumi.", "Il primo volume dell'enciclopedia è rosso.", "La storia continua nel secondo volume."],
+      "traduzioni": { "en": "volume (a book; here not “loudness”)", "es": "volumen, tomo", "pt": "volume (livro)", "fr": "volume, tome", "cs": "svazek", "pl": "tom", "tr": "cilt", "de": "Band", "ja": "巻（本）" }
+    },
+    {
+      "parola": "breve",
+      "forme": ["brevi"],
+      "formeEsempi": ["breve"],
+      "esempi": ["Ti scrivo un messaggio breve.", "La lezione di oggi è stata breve.", "Le poesie brevi sono facili da ricordare."],
+      "traduzioni": { "en": "short, brief", "es": "breve, corto", "pt": "breve, curto", "fr": "bref, court", "cs": "krátký", "pl": "krótki", "tr": "kısa", "de": "kurz", "ja": "短い" }
+    },
+    {
+      "parola": "la raccolta",
+      "forme": ["raccolta"],
+      "esempi": ["Ho una raccolta di francobolli.", "Questa è una raccolta di favole italiane.", "La raccolta delle sue poesie è uscita nel 2020."],
+      "traduzioni": { "en": "collection", "es": "colección, recopilación", "pt": "coleção, coletânea", "fr": "recueil, collection", "cs": "sbírka", "pl": "zbiór", "tr": "derleme, koleksiyon", "de": "Sammlung", "ja": "～集、コレクション" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a house in the countryside lives a very old grandfather. His eyes see little, his ears hear little and his hands shake.",
+        "With the grandfather live his son, his daughter-in-law and their child. The child is four years old: he's the grandfather's little grandson.",
+        "At the table the grandfather eats his soup, but the spoon shakes. The soup falls on the tablecloth, and a little comes out of his mouth.",
+        "His son and his daughter-in-law aren't happy. “What a mess!” they say. Now the grandfather eats alone in a corner, near the stove. His soup is in an earthenware bowl.",
+        "One day the grandfather's hands shake more. The bowl falls and breaks. The daughter-in-law is angry. The son buys a wooden bowl: it costs little and doesn't break.",
+        "One evening the child is on the floor, working with some pieces of wood.\n– What are you doing? – asks his father.\n– I'm making a bowl, – answers the child. – It's for you and Mum, when you are old.",
+        "The father and the mother look at each other and cry. Right away they take the grandfather and bring him to their table. From that day on the grandfather always eats with his family, and if a little soup falls, nobody says anything.",
+        "That's the moral of the fable: children watch and learn. The way we treat our parents today is the way our children will treat us tomorrow."
+      ],
+      "b1": [
+        "Once upon a time there was a little old man, so old that his eyes could hardly see any more, his ears didn't hear well and his knees shook. He lived in a little house in the countryside with his son, his daughter-in-law and their child, a four-year-old grandson.",
+        "When he sat at the table, the poor old grandpa couldn't hold the spoon steady: some soup fell on the tablecloth, some ran down from his mouth. This greatly annoyed his son and daughter-in-law.",
+        "So one day they decided to make him eat in a little corner, behind the stove. They gave him his soup in an earthenware bowl, and not even much of it. The old man looked towards the table with tears in his eyes.",
+        "One evening his shaking hands dropped the bowl, which broke into a thousand little pieces. The daughter-in-law grumbled; he didn't say a word, he only sighed. Then they bought him, for a few coins, a little wooden bowl that couldn't break.",
+        "A few days later, while the adults were at the table, the little grandson was playing on the floor with some little pieces of wood.\n– What are you doing, little one? – his father asked him.\n– I'm making a little bowl, – answered the child. – So when you are old, you and Mum can eat from it.",
+        "The husband and wife looked at each other for a long time, then they began to cry. They immediately brought the grandfather back to the table, and from that day on they always let him eat with them. And if a little soup fell on the tablecloth, nobody said anything any more.",
+        "The Brothers Grimm included this story in the first volume of their tales, published in 1812. It is one of the shortest in the collection: there are no witches, no princesses and no magic, only a family. The moral: children learn from what they see people do, not from what they hear people say."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En una casa de campo vive un abuelo muy viejo. Sus ojos ven poco, sus oídos oyen poco y sus manos tiemblan.",
+        "Con el abuelo viven su hijo, su nuera y el niño de ellos. El niño tiene cuatro años: es el nietecito del abuelo.",
+        "En la mesa el abuelo come la sopa, pero la cuchara tiembla. La sopa cae sobre el mantel, y un poco se le sale de la boca.",
+        "Su hijo y su nuera no están contentos. «¡Qué desorden!», dicen. Ahora el abuelo come solo en un rincón, cerca de la estufa. Su sopa está en un cuenco de barro.",
+        "Un día las manos del abuelo tiemblan más. El cuenco cae y se rompe. La nuera está enfadada. El hijo compra un cuenco de madera: cuesta poco y no se rompe.",
+        "Una tarde el niño está en el suelo y trabaja con unos trozos de madera.\n– ¿Qué haces? – pregunta su padre.\n– Hago un cuenco – responde el niño. – Es para ti y para mamá, cuando seáis viejos.",
+        "El padre y la madre se miran y lloran. Enseguida cogen al abuelo y lo llevan a su mesa. Desde ese día el abuelo come siempre con su familia, y si se cae un poco de sopa, nadie dice nada.",
+        "Es la moraleja de la fábula: los niños miran y aprenden. Como tratamos hoy a nuestros padres, así nos tratarán mañana nuestros hijos."
+      ],
+      "b1": [
+        "Érase una vez un viejecito, tan viejo que los ojos casi no le veían, los oídos no le oían bien y las rodillas le temblaban. Vivía en una casita de campo con su hijo, su nuera y el niño de ellos, un nietecito de cuatro años.",
+        "Cuando se sentaba a la mesa, el pobre abuelito no conseguía sujetar firme la cuchara: un poco de sopa caía sobre el mantel, un poco le chorreaba por la boca. Al hijo y a la nuera esto les molestaba mucho.",
+        "Así que un día decidieron hacerlo comer en un rinconcito, detrás de la estufa. Le daban la sopa en un cuenco de barro, y ni siquiera mucha. El viejo miraba hacia la mesa con los ojos llorosos.",
+        "Una tarde sus manos temblorosas dejaron caer el cuenco, que se rompió en mil pedacitos. La nuera refunfuñó; él no dijo ni una palabra, solo suspiró. Entonces le compraron por cuatro cuartos un cuenquito de madera, que no se podía romper.",
+        "Unos días después, mientras los adultos estaban a la mesa, el nietecito jugaba en el suelo con unos trocitos de madera.\n– ¿Qué estás haciendo, pequeñín? – le preguntó el padre.\n– Hago un cuenquito – respondió el niño. – Así, cuando seáis viejos, comeréis en él tú y mamá.",
+        "El marido y la mujer se miraron largo rato y luego empezaron a llorar. Enseguida volvieron a llevar al abuelo a la mesa, y desde aquel día lo dejaron comer siempre con ellos. Y si un poco de sopa caía sobre el mantel, nadie decía nada.",
+        "Los hermanos Grimm recogieron esta historia en el primer volumen de sus cuentos, publicado en 1812. Es uno de los más breves de la colección: no hay brujas, ni princesas, ni magia, solo una familia. La moraleja: los hijos aprenden de lo que ven hacer, no de lo que oyen decir."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Numa casa no campo mora um avô muito velho. Os olhos dele enxergam pouco, os ouvidos escutam pouco e as mãos tremem.",
+        "Com o avô moram o filho, a nora e o filhinho deles. O menino tem quatro anos: é o netinho do avô.",
+        "À mesa o avô toma a sopa, mas a colher treme. A sopa cai na toalha, e um pouco escorre da boca dele.",
+        "O filho e a nora não estão contentes. «Que bagunça!», dizem. Agora o avô come sozinho num canto, perto do fogão a lenha. A sopa dele fica numa tigela de barro.",
+        "Um dia as mãos do avô tremem mais. A tigela cai e quebra. A nora fica brava. O filho compra uma tigela de madeira: custa pouco e não quebra.",
+        "Uma noite o menino está no chão, trabalhando com uns pedaços de madeira.\n– O que você está fazendo? – pergunta o pai.\n– Estou fazendo uma tigela – responde o menino. – É para você e para a mamãe, quando vocês forem velhos.",
+        "O pai e a mãe se olham e choram. Na hora pegam o avô e o levam para a mesa deles. Desde aquele dia o avô sempre come com a família, e se cai um pouco de sopa, ninguém diz nada.",
+        "Essa é a moral da fábula: as crianças olham e aprendem. Do jeito que tratamos os nossos pais hoje, os nossos filhos vão nos tratar amanhã."
+      ],
+      "b1": [
+        "Era uma vez um velhinho, tão velho que os olhos quase não enxergavam mais, os ouvidos não escutavam bem e os joelhos tremiam. Morava numa casinha no campo com o filho, a nora e o filhinho deles, um netinho de quatro anos.",
+        "Quando se sentava à mesa, o pobre vovozinho não conseguia segurar a colher firme: um pouco de sopa caía na toalha, um pouco escorria da boca. Isso incomodava muito o filho e a nora.",
+        "Então um dia decidiram fazê-lo comer num cantinho, atrás do fogão. Davam a sopa numa tigela de barro, e nem muita. O velho olhava para a mesa com os olhos marejados.",
+        "Uma noite as suas mãos trêmulas deixaram cair a tigela, que se quebrou em mil pedacinhos. A nora resmungou; ele não disse uma palavra, só suspirou. Então compraram para ele, por uns trocados, uma tigelinha de madeira, que não podia quebrar.",
+        "Alguns dias depois, enquanto os adultos estavam à mesa, o netinho brincava no chão com uns pedacinhos de madeira.\n– O que você está fazendo, pequenininho? – perguntou o pai.\n– Estou fazendo uma tigelinha – respondeu o menino. – Assim, quando vocês forem velhos, você e a mamãe vão comer nela.",
+        "O marido e a mulher se olharam por muito tempo e depois começaram a chorar. Levaram o avô de volta para a mesa na mesma hora e, desde aquele dia, sempre o deixaram comer com eles. E se um pouco de sopa caía na toalha, ninguém dizia mais nada.",
+        "Os irmãos Grimm recolheram esta história no primeiro volume dos seus contos, publicado em 1812. É um dos mais curtos da coleção: não há bruxas, nem princesas, nem magia, só uma família. A moral: os filhos aprendem com o que veem fazer, não com o que ouvem dizer."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans une maison à la campagne vit un grand-père très vieux. Ses yeux voient mal, ses oreilles entendent mal et ses mains tremblent.",
+        "Avec le grand-père vivent son fils, sa belle-fille et leur enfant. L’enfant a quatre ans : c’est le petit-fils du grand-père.",
+        "À table, le grand-père mange sa soupe, mais la cuillère tremble. La soupe tombe sur la nappe, et un peu sort de sa bouche.",
+        "Son fils et sa belle-fille ne sont pas contents. « Quel désordre ! », disent-ils. Maintenant, le grand-père mange seul dans un coin, près du poêle. Sa soupe est dans un bol en terre cuite.",
+        "Un jour, les mains du grand-père tremblent plus fort. Le bol tombe et se casse. La belle-fille est en colère. Le fils achète un bol en bois : il coûte peu et il ne se casse pas.",
+        "Un soir, l’enfant est par terre et travaille avec des morceaux de bois.\n– Qu’est-ce que tu fais ? – demande son père.\n– Je fais un bol – répond l’enfant. – C’est pour toi et pour maman, quand vous serez vieux.",
+        "Le père et la mère se regardent et pleurent. Tout de suite, ils prennent le grand-père et l’amènent à leur table. Depuis ce jour, le grand-père mange toujours avec sa famille, et si un peu de soupe tombe, personne ne dit rien.",
+        "C’est la morale de la fable : les enfants regardent et apprennent. Comme nous traitons nos parents aujourd’hui, nos enfants nous traiteront demain."
+      ],
+      "b1": [
+        "Il était une fois un petit vieux, si vieux que ses yeux ne voyaient presque plus, que ses oreilles n’entendaient plus bien et que ses genoux tremblaient. Il vivait dans une maisonnette à la campagne avec son fils, sa belle-fille et leur enfant, un petit-fils de quatre ans.",
+        "Quand il était à table, le pauvre papi n’arrivait pas à tenir sa cuillère sans trembler : un peu de soupe tombait sur la nappe, un peu lui coulait de la bouche. Cela agaçait beaucoup son fils et sa belle-fille.",
+        "Alors, un jour, ils ont décidé de le faire manger dans un petit coin, derrière le poêle. Ils lui donnaient sa soupe dans un bol en terre cuite, et pas beaucoup. Le vieil homme regardait vers la table, les yeux brillants de larmes.",
+        "Un soir, ses mains tremblantes ont laissé tomber le bol, qui s’est cassé en mille petits morceaux. La belle-fille a grogné ; lui n’a pas dit un mot, il a seulement soupiré. Alors ils lui ont acheté pour quelques sous un petit bol en bois, qu’on ne pouvait pas casser.",
+        "Quelques jours plus tard, pendant que les adultes étaient à table, le petit-fils jouait par terre avec des petits morceaux de bois.\n– Qu’est-ce que tu fais, mon petit ? – lui a demandé son père.\n– Je fais un petit bol – a répondu l’enfant. – Comme ça, quand vous serez vieux, toi et maman, vous mangerez dedans.",
+        "Le mari et la femme se sont regardés longtemps, puis ils se sont mis à pleurer. Ils ont tout de suite ramené le grand-père à table, et depuis ce jour ils l’ont toujours fait manger avec eux. Et si un peu de soupe tombait sur la nappe, personne ne disait plus rien.",
+        "Les frères Grimm ont recueilli cette histoire dans le premier volume de leurs contes, publié en 1812. C’est l’un des plus courts du recueil : il n’y a ni sorcières, ni princesses, ni magie, seulement une famille. La morale : les enfants apprennent de ce qu’ils voient faire, pas de ce qu’ils entendent dire."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V jednom domě na venkově žije velmi starý dědeček. Jeho oči špatně vidí, jeho uši špatně slyší a ruce se mu třesou.",
+        "S dědečkem bydlí jeho syn, jeho snacha a jejich dítě. Chlapečkovi jsou čtyři roky: je to dědečkův vnouček.",
+        "U stolu jí dědeček polévku, ale lžíce se třese. Polévka padá na ubrus a trochu mu teče z pusy.",
+        "Syn a snacha nejsou spokojení. „To je ale nepořádek!“ říkají. Teď jí dědeček sám v koutě, u kamen. Polévku má v hliněné misce.",
+        "Jednoho dne se dědečkovi ruce třesou ještě víc. Miska spadne a rozbije se. Snacha se zlobí. Syn koupí dřevěnou misku: stojí málo a nerozbije se.",
+        "Jednoho večera sedí chlapeček na podlaze a pracuje s kousky dřeva.\n– Co to děláš? – ptá se tatínek.\n– Dělám misku – odpoví chlapeček. – Je pro tebe a pro maminku, až budete staří.",
+        "Tatínek a maminka se na sebe podívají a pláčou. Hned vezmou dědečka a posadí ho ke svému stolu. Od toho dne jí dědeček vždycky s rodinou, a když trochu polévky ukápne, nikdo nic neříká.",
+        "To je ponaučení z bajky: děti se dívají a učí se. Jak dnes zacházíme se svými rodiči, tak budou zítra naše děti zacházet s námi."
+      ],
+      "b1": [
+        "Byl jednou jeden stařeček, tak starý, že mu oči skoro neviděly, uši špatně slyšely a kolena se mu třásla. Bydlel v malé chaloupce na venkově se synem, snachou a jejich dítětem, čtyřletým vnoučkem.",
+        "Když seděl u stolu, chudák dědoušek nedokázal udržet lžíci v klidu: trochu polévky padalo na ubrus, trochu mu teklo z úst. Synovi a snaše to hrozně vadilo.",
+        "A tak se jednoho dne rozhodli, že bude jíst v koutku za kamny. Polévku mu dávali do hliněné misky, a ani ne moc. Stařec se díval ke stolu a oči se mu leskly slzami.",
+        "Jednoho večera mu třesoucí se ruce upustily misku, která se rozbila na tisíc kousíčků. Snacha bručela; on neřekl ani slovo, jen si povzdechl. Tak mu za pár grošů koupili dřevěnou mističku, která se nedala rozbít.",
+        "O několik dní později, když dospělí seděli u stolu, si vnouček hrál na zemi s kousíčky dřeva.\n– Co to děláš, maličký? – zeptal se ho tatínek.\n– Dělám mističku – odpověděl chlapeček. – Až budete staří, budete z ní jíst ty a maminka.",
+        "Muž a žena se na sebe dlouho dívali a pak se rozplakali. Hned dědečka přivedli zpátky ke stolu a od toho dne ho nechávali jíst vždycky s sebou. A když trochu polévky ukáplo na ubrus, už nikdo nic neříkal.",
+        "Bratři Grimmové zařadili tento příběh do prvního svazku svých pohádek, vydaného v roce 1812. Je to jedna z nejkratších pohádek celé sbírky: nejsou v ní čarodějnice, princezny ani kouzla, jen jedna rodina. Ponaučení: děti se učí z toho, co vidí, ne z toho, co slyší."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W pewnym domu na wsi mieszka bardzo stary dziadek. Jego oczy słabo widzą, jego uszy słabo słyszą, a ręce mu się trzęsą.",
+        "Z dziadkiem mieszkają jego syn, jego synowa i ich dziecko. Chłopiec ma cztery lata: to wnuczek dziadka.",
+        "Przy stole dziadek je zupę, ale łyżka się trzęsie. Zupa spada na obrus, a trochę wylatuje mu z ust.",
+        "Syn i synowa nie są zadowoleni. „Co za bałagan!” – mówią. Teraz dziadek je sam w kącie, przy piecu. Jego zupa jest w glinianej misce.",
+        "Pewnego dnia ręce dziadka trzęsą się jeszcze bardziej. Miska spada i się tłucze. Synowa jest zła. Syn kupuje drewnianą miskę: kosztuje mało i się nie tłucze.",
+        "Pewnego wieczoru chłopiec siedzi na podłodze i pracuje z kawałkami drewna.\n– Co robisz? – pyta tata.\n– Robię miskę – odpowiada chłopiec. – To dla ciebie i dla mamy, kiedy będziecie starzy.",
+        "Ojciec i matka patrzą na siebie i płaczą. Od razu biorą dziadka i prowadzą go do swojego stołu. Od tego dnia dziadek zawsze je z rodziną, a jeśli trochę zupy spadnie, nikt nic nie mówi.",
+        "To jest morał bajki: dzieci patrzą i się uczą. Jak my dziś traktujemy naszych rodziców, tak jutro nasze dzieci będą traktować nas."
+      ],
+      "b1": [
+        "Był sobie staruszek, tak stary, że oczy prawie już nie widziały, uszy słabo słyszały, a kolana mu drżały. Mieszkał w domku na wsi z synem, synową i ich dzieckiem, czteroletnim wnuczkiem.",
+        "Kiedy siadał do stołu, biedny dziadziuś nie potrafił utrzymać łyżki prosto: trochę zupy spadało na obrus, trochę ściekało mu z ust. Syna i synową bardzo to irytowało.",
+        "Więc pewnego dnia postanowili, że będzie jadł w kąciku, za piecem. Dawali mu zupę w glinianej misce, i to niewiele. Starzec patrzył w stronę stołu oczami pełnymi łez.",
+        "Pewnego wieczoru jego drżące ręce upuściły miskę, która rozbiła się na tysiąc kawałeczków. Synowa zrzędziła; on nie powiedział ani słowa, tylko westchnął. Wtedy kupili mu za grosze drewnianą miseczkę, której nie dało się stłuc.",
+        "Kilka dni później, kiedy dorośli siedzieli przy stole, wnuczek bawił się na podłodze kawałeczkami drewna.\n– Co robisz, maluchu? – zapytał go ojciec.\n– Robię miseczkę – odpowiedział chłopiec. – Żebyście, kiedy będziecie starzy, ty i mama mogli z niej jeść.",
+        "Mąż i żona długo patrzyli na siebie, a potem zaczęli płakać. Od razu przyprowadzili dziadka z powrotem do stołu i od tego dnia zawsze jadł z nimi. A jeśli trochę zupy spadło na obrus, nikt już nic nie mówił.",
+        "Bracia Grimm umieścili tę historię w pierwszym tomie swoich baśni, wydanym w 1812 roku. To jedna z najkrótszych baśni w całym zbiorze: nie ma w niej czarownic, księżniczek ani magii, tylko rodzina. Morał: dzieci uczą się z tego, co widzą, a nie z tego, co słyszą."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Köyde bir evde çok yaşlı bir dede yaşar. Gözleri az görür, kulakları az duyar ve elleri titrer.",
+        "Dedeyle birlikte oğlu, gelini ve onların çocuğu yaşar. Çocuk dört yaşındadır: dedenin küçük torunudur.",
+        "Sofrada dede çorbasını içer ama kaşık titrer. Çorba masa örtüsüne dökülür, biraz da ağzından akar.",
+        "Oğlu ve gelini memnun değildir. «Ne dağınıklık!» derler. Artık dede sobanın yanında, bir köşede yalnız yer. Çorbası toprak bir kâsededir.",
+        "Bir gün dedenin elleri daha çok titrer. Kâse düşer ve kırılır. Gelin kızar. Oğul tahta bir kâse alır: ucuzdur ve kırılmaz.",
+        "Bir akşam çocuk yerde oturmuş, tahta parçalarıyla uğraşmaktadır.\n– Ne yapıyorsun? – diye sorar babası.\n– Bir kâse yapıyorum – diye cevap verir çocuk. – Sen ve annem yaşlanınca sizin için.",
+        "Anne ve baba birbirlerine bakar ve ağlarlar. Hemen dedeyi alıp kendi sofralarına getirirler. O günden sonra dede hep ailesiyle birlikte yer, biraz çorba dökülse de kimse bir şey demez.",
+        "Masalın ana fikri şu: çocuklar bakar ve öğrenir. Bugün anne babamıza nasıl davranırsak, yarın çocuklarımız da bize öyle davranır."
+      ],
+      "b1": [
+        "Bir zamanlar öyle yaşlı bir ihtiyarcık varmış ki gözleri neredeyse hiç görmez, kulakları iyi duymaz, dizleri titrermiş. Köyde küçük bir evde oğlu, gelini ve onların çocuğu, dört yaşındaki küçük torunuyla yaşarmış.",
+        "Sofraya oturduğunda zavallı dedecik kaşığı sabit tutamazmış: biraz çorba masa örtüsüne dökülür, biraz da ağzından akarmış. Bu durum oğlunu ve gelinini çok rahatsız edermiş.",
+        "Böylece bir gün onu sobanın arkasında, bir köşecikte yedirmeye karar vermişler. Çorbasını toprak bir kâsede, o da az miktarda verirlermiş. İhtiyar, gözleri dolu dolu sofraya bakarmış.",
+        "Bir akşam titreyen elleri kâseyi düşürmüş, kâse de bin parçacığa bölünmüş. Gelin söylenmiş; o tek kelime etmemiş, sadece iç çekmiş. Bunun üzerine ona birkaç kuruşa kırılmayan tahta bir kâsecik almışlar.",
+        "Birkaç gün sonra, büyükler sofradayken küçük torun yerde tahta parçacıklarıyla oynuyormuş.\n– Ne yapıyorsun, ufaklık? – diye sormuş babası.\n– Bir kâsecik yapıyorum – demiş çocuk. – Siz yaşlanınca sen ve annem bundan yiyeceksiniz.",
+        "Karı koca uzun uzun birbirlerine bakmışlar, sonra ağlamaya başlamışlar. Dedeyi hemen sofraya geri getirmişler ve o günden sonra hep kendileriyle birlikte yedirmişler. Masa örtüsüne biraz çorba dökülse de artık kimse bir şey dememiş.",
+        "Grimm Kardeşler bu hikâyeyi 1812'de yayımlanan masallarının ilk cildine almışlar. Derlemedeki en kısa masallardan biridir: içinde ne cadı, ne prenses, ne de büyü vardır; sadece bir aile vardır. Ana fikri: çocuklar duyduklarından değil, gördüklerinden öğrenir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem Haus auf dem Land lebt ein sehr alter Großvater. Seine Augen sehen schlecht, seine Ohren hören schlecht und seine Hände zittern.",
+        "Mit dem Großvater leben sein Sohn, seine Schwiegertochter und ihr Kind. Das Kind ist vier Jahre alt: Es ist der kleine Enkel des Großvaters.",
+        "Am Tisch isst der Großvater seine Suppe, aber der Löffel zittert. Die Suppe fällt auf die Tischdecke, und ein bisschen läuft ihm aus dem Mund.",
+        "Sein Sohn und seine Schwiegertochter sind nicht zufrieden. „Was für eine Unordnung!“, sagen sie. Jetzt isst der Großvater allein in einer Ecke, neben dem Ofen. Seine Suppe ist in einer Schüssel aus Ton.",
+        "Eines Tages zittern die Hände des Großvaters noch mehr. Die Schüssel fällt herunter und zerbricht. Die Schwiegertochter ist wütend. Der Sohn kauft eine Holzschüssel: Sie kostet wenig und geht nicht kaputt.",
+        "Eines Abends sitzt das Kind auf dem Boden und arbeitet mit ein paar Holzstücken.\n– Was machst du da? – fragt sein Vater.\n– Ich mache eine Schüssel – antwortet das Kind. – Die ist für dich und für Mama, wenn ihr alt seid.",
+        "Der Vater und die Mutter sehen sich an und weinen. Sofort holen sie den Großvater an ihren Tisch. Von diesem Tag an isst der Großvater immer mit seiner Familie, und wenn ein bisschen Suppe herunterfällt, sagt niemand etwas.",
+        "Das ist die Moral der Fabel: Kinder schauen zu und lernen. Wie wir heute unsere Eltern behandeln, so behandeln uns morgen unsere Kinder."
+      ],
+      "b1": [
+        "Es war einmal ein altes Männlein, so alt, dass ihm die Augen fast nichts mehr sahen, die Ohren nicht mehr gut hörten und die Knie zitterten. Es lebte in einem Häuschen auf dem Land mit seinem Sohn, seiner Schwiegertochter und deren Kind, einem vierjährigen Enkelchen.",
+        "Wenn es am Tisch saß, konnte das arme Großväterchen den Löffel nicht ruhig halten: Ein bisschen Suppe fiel auf die Tischdecke, ein bisschen lief ihm aus dem Mund. Das ärgerte den Sohn und die Schwiegertochter sehr.",
+        "Also beschlossen sie eines Tages, es in einem Eckchen hinter dem Ofen essen zu lassen. Sie gaben ihm die Suppe in einer Tonschüssel, und nicht einmal viel. Der Alte schaute mit feuchten Augen zum Tisch hinüber.",
+        "Eines Abends ließen seine zitternden Hände die Schüssel fallen, und sie zerbrach in tausend Stückchen. Die Schwiegertochter schimpfte; er sagte kein Wort, er seufzte nur. Da kauften sie ihm für ein paar Heller ein hölzernes Schüsselchen, das nicht zerbrechen konnte.",
+        "Ein paar Tage später, während die Erwachsenen am Tisch saßen, spielte das Enkelchen auf dem Boden mit ein paar Holzstückchen.\n– Was machst du da, Kleiner? – fragte ihn der Vater.\n– Ich mache ein Schüsselchen – antwortete das Kind. – Daraus esst ihr dann, du und Mama, wenn ihr alt seid.",
+        "Mann und Frau sahen sich lange an, dann fingen sie an zu weinen. Sofort holten sie den Großvater wieder an den Tisch, und von diesem Tag an ließen sie ihn immer mit ihnen essen. Und wenn ein bisschen Suppe auf die Tischdecke fiel, sagte niemand mehr etwas.",
+        "Die Brüder Grimm haben diese Geschichte in den ersten Band ihrer Märchen aufgenommen, der 1812 erschien. Sie ist eine der kürzesten der Sammlung: Es gibt keine Hexen, keine Prinzessinnen und keine Zauberei, nur eine Familie. Die Moral: Kinder lernen von dem, was sie andere tun sehen, nicht von dem, was sie andere sagen hören."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "いなかの家に、とても年をとったおじいさんが住んでいます。目はよく見えず、耳はよく聞こえず、手はふるえています。",
+        "おじいさんといっしょに、息子とお嫁さんと、二人の子どもが住んでいます。子どもは四歳で、おじいさんの小さな孫です。",
+        "食卓でおじいさんはスープを飲みますが、スプーンがふるえます。スープがテーブルクロスにこぼれて、少し口からもこぼれます。",
+        "息子とお嫁さんはおもしろくありません。「なんてだらしない！」と言います。今、おじいさんはストーブのそばの隅で、ひとりで食べています。スープは素焼きのおわんに入っています。",
+        "ある日、おじいさんの手がもっとふるえます。おわんが落ちて、割れてしまいます。お嫁さんは怒ります。息子は木のおわんを買います。安くて、割れないからです。",
+        "ある晩、子どもが床にすわって、木切れで何かを作っています。\n「何をしているの？」とお父さんがたずねます。\n「おわんを作っているの」と子どもは答えます。「お父さんとお母さんが年をとったときのためだよ。」",
+        "お父さんとお母さんは顔を見合わせて、泣きます。すぐにおじいさんを自分たちの食卓に連れてきます。その日から、おじいさんはいつも家族といっしょに食べ、スープが少しこぼれても、だれも何も言いません。",
+        "これがこのお話の教訓です。子どもは見て学びます。今日わたしたちが親をどう扱うか、それが明日、子どもたちがわたしたちをどう扱うかなのです。"
+      ],
+      "b1": [
+        "むかしむかし、とても年をとったおじいさんがいました。目はほとんど見えず、耳もよく聞こえず、ひざはふるえていました。おじいさんはいなかの小さな家で、息子とお嫁さん、そして二人の子どもである四歳の孫と暮らしていました。",
+        "食卓につくと、かわいそうなおじいちゃんはスプーンをしっかり持っていられませんでした。スープが少しテーブルクロスにこぼれ、少し口からたれました。息子とお嫁さんは、それがとてもいやでした。",
+        "そこである日、おじいさんをストーブの後ろの隅っこで食べさせることにしました。スープは素焼きのおわんに入れて、それもほんの少しだけでした。おじいさんは目をうるませて、食卓のほうを見ていました。",
+        "ある晩、ふるえる手がおわんを落とし、おわんは粉々に割れてしまいました。お嫁さんはぶつぶつ文句を言いました。おじいさんは一言も言わず、ため息をついただけでした。そこで二人は、わずかなお金で、割れない木の小さなおわんを買ってやりました。",
+        "何日かたって、大人たちが食卓についているあいだ、小さな孫は床で木切れを使って遊んでいました。\n「何をしているんだい、坊や？」とお父さんがたずねました。\n「小さなおわんを作っているの」と子どもは答えました。「お父さんとお母さんが年をとったら、これで食べるんだよ。」",
+        "夫と妻は長いあいだ顔を見合わせ、それから泣き出しました。二人はすぐにおじいさんを食卓に連れもどし、その日からいつもいっしょに食べさせました。スープが少しテーブルクロスにこぼれても、もうだれも何も言いませんでした。",
+        "グリム兄弟は、1812年に出版された童話集の第一巻にこの話を入れました。この本の中でいちばん短い話の一つです。魔女もお姫さまも魔法も出てきません。出てくるのは、ひとつの家族だけです。教訓は、子どもは言われたことからではなく、大人がしていることを見て学ぶ、ということです。"
+      ]
+    }
+  }
+}
