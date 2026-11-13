@@ -1,0 +1,424 @@
+{
+  "id": "l-asino-flautista",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il prato",
+      "forme": ["prato"],
+      "esempi": ["Facciamo un picnic sul prato.", "Le mucche mangiano nel prato.", "Dietro la scuola c'è un grande prato verde."],
+      "traduzioni": { "en": "meadow, lawn", "es": "prado", "pt": "prado, gramado", "fr": "pré", "cs": "louka", "pl": "łąka", "tr": "çayır", "de": "Wiese", "ja": "草地、牧草地" }
+    },
+    {
+      "parola": "l'asino",
+      "forme": ["asino", "asini"],
+      "esempi": ["L'asino porta la legna in montagna.", "Il contadino ha un asino grigio.", "L'asino mangia la paglia nella stalla."],
+      "traduzioni": { "en": "donkey", "es": "burro", "pt": "burro", "fr": "âne", "cs": "osel", "pl": "osioł", "tr": "eşek", "de": "Esel", "ja": "ロバ" }
+    },
+    {
+      "parola": "svegliarsi",
+      "forme": ["sveglia"],
+      "formeEsempi": ["sveglio", "svegliato"],
+      "esempi": ["Mi sveglio alle sette ogni mattina.", "Il bambino si sveglia sempre di notte.", "Domenica mi sono svegliato tardi."],
+      "traduzioni": { "en": "to wake up", "es": "despertarse", "pt": "acordar", "fr": "se réveiller", "cs": "probudit se", "pl": "budzić się", "tr": "uyanmak", "de": "aufwachen", "ja": "目を覚ます" }
+    },
+    {
+      "parola": "alzarsi",
+      "forme": ["alza"],
+      "contesto": "sveglia",
+      "formeEsempi": ["alzo", "alzati"],
+      "esempi": ["Mi sveglio alle sette, ma mi alzo alle sette e mezza.", "Alzati, è tardi!", "La nonna si alza presto per andare al mercato."],
+      "traduzioni": { "en": "to get up (out of bed)", "es": "levantarse", "pt": "levantar-se", "fr": "se lever", "cs": "vstát", "pl": "wstawać", "tr": "kalkmak", "de": "aufstehen", "ja": "起き上がる、起きる" }
+    },
+    {
+      "parola": "semplice",
+      "forme": ["semplice"],
+      "esempi": ["Mio nonno era un uomo semplice.", "Vivono una vita semplice in campagna.", "È una persona semplice e gentile."],
+      "traduzioni": { "en": "simple, plain, humble", "es": "sencillo", "pt": "simples", "fr": "simple", "cs": "prostý", "pl": "prosty", "tr": "sade, basit", "de": "einfach, schlicht", "ja": "素朴な、飾らない" }
+    },
+    {
+      "parola": "il muretto",
+      "forme": ["muretto"],
+      "esempi": ["I ragazzi si siedono sul muretto.", "Un gatto dorme sul muretto del giardino.", "Tra i due campi c'è un muretto di pietra."],
+      "traduzioni": { "en": "low wall", "es": "tapia, murete", "pt": "muro baixo, mureta", "fr": "muret", "cs": "nízká zídka", "pl": "murek", "tr": "alçak duvar", "de": "Mäuerchen, niedrige Mauer", "ja": "低い石垣、塀" }
+    },
+    {
+      "parola": "il flauto",
+      "forme": ["flauto"],
+      "esempi": ["Mia figlia suona il flauto.", "A scuola impariamo a suonare il flauto.", "Il flauto ha un suono dolce."],
+      "traduzioni": { "en": "flute", "es": "flauta", "pt": "flauta", "fr": "flûte", "cs": "flétna", "pl": "flet", "tr": "flüt", "de": "Flöte", "ja": "笛、フルート" }
+    },
+    {
+      "parola": "dimenticare",
+      "forme": ["dimenticato"],
+      "formeEsempi": ["dimenticare", "dimentico"],
+      "esempi": ["Ho dimenticato le chiavi a casa.", "Non dimenticare l'ombrello!", "Dimentico sempre il suo nome."],
+      "traduzioni": { "en": "to forget, to leave behind", "es": "olvidar", "pt": "esquecer", "fr": "oublier", "cs": "zapomenout", "pl": "zapomnieć, zostawić", "tr": "unutmak", "de": "vergessen", "ja": "忘れる、置き忘れる" }
+    },
+    {
+      "parola": "annusare",
+      "forme": ["annusa", "annusando"],
+      "formeEsempi": ["annuso"],
+      "esempi": ["Il cane annusa tutto.", "Annuso il pane appena fatto: che profumo!", "Il gatto annusa il piatto e se ne va."],
+      "traduzioni": { "en": "to sniff, to smell", "es": "olfatear, oler", "pt": "cheirar, farejar", "fr": "renifler, sentir", "cs": "očichávat", "pl": "wąchać", "tr": "koklamak", "de": "schnuppern, riechen an", "ja": "においをかぐ" }
+    },
+    {
+      "parola": "respirare",
+      "forme": ["respira", "respirando"],
+      "formeEsempi": ["respirare", "respiro"],
+      "esempi": ["Respira piano e rilassati.", "In montagna si respira aria pulita.", "Dopo la corsa non riesco a respirare."],
+      "traduzioni": { "en": "to breathe", "es": "respirar", "pt": "respirar", "fr": "respirer", "cs": "dýchat", "pl": "oddychać", "tr": "nefes almak", "de": "atmen", "ja": "息をする" }
+    },
+    {
+      "parola": "spaventarsi",
+      "forme": ["spaventa"],
+      "formeEsempi": ["spaventarti", "spaventato"],
+      "esempi": ["Il bambino si spaventa quando c'è un temporale.", "Non spaventarti, è solo il vento.", "Mi sono spaventato quando ho sentito il rumore."],
+      "traduzioni": { "en": "to get scared", "es": "asustarse", "pt": "assustar-se", "fr": "avoir peur, s’effrayer", "cs": "leknout se", "pl": "przestraszyć się", "tr": "korkmak", "de": "erschrecken", "ja": "びっくりする、こわがる" }
+    },
+    {
+      "parola": "suonare",
+      "forme": ["suona", "suonare", "suonando", "suonato"],
+      "esempi": ["Mia sorella suona il pianoforte.", "Sai suonare la chitarra?", "In piazza un ragazzo suona il violino."],
+      "traduzioni": { "en": "to play (an instrument); to sound", "es": "tocar (un instrumento); sonar", "pt": "tocar (um instrumento)", "fr": "jouer (d’un instrument)", "cs": "hrát (na nástroj)", "pl": "grać (na instrumencie)", "tr": "çalmak (çalgı)", "de": "spielen (ein Instrument)", "ja": "（楽器を）演奏する、鳴る" }
+    },
+    {
+      "parola": "il musicista",
+      "forme": ["musicista", "musicisti"],
+      "esempi": ["Mio cugino è un musicista: suona la chitarra.", "In piazza ci sono dei musicisti di strada.", "Da grande voglio fare il musicista."],
+      "traduzioni": { "en": "musician", "es": "músico", "pt": "músico", "fr": "musicien", "cs": "hudebník", "pl": "muzyk", "tr": "müzisyen", "de": "Musiker", "ja": "音楽家" }
+    },
+    {
+      "parola": "il passero",
+      "forme": ["passero"],
+      "formeEsempi": ["passeri"],
+      "esempi": ["Un passero canta sul ramo.", "I passeri cercano le briciole nel parco.", "Il passero è un uccello piccolo e marrone."],
+      "traduzioni": { "en": "sparrow", "es": "gorrión", "pt": "pardal", "fr": "moineau", "cs": "vrabec", "pl": "wróbel", "tr": "serçe", "de": "Spatz", "ja": "スズメ" }
+    },
+    {
+      "parola": "la lucertola",
+      "forme": ["lucertola"],
+      "formeEsempi": ["lucertole"],
+      "esempi": ["Una lucertola prende il sole sul muro.", "La lucertola scappa veloce tra i sassi.", "D'estate vedo molte lucertole in giardino."],
+      "traduzioni": { "en": "lizard", "es": "lagartija", "pt": "lagartixa", "fr": "lézard", "cs": "ještěrka", "pl": "jaszczurka", "tr": "kertenkele", "de": "Eidechse", "ja": "トカゲ" }
+    },
+    {
+      "parola": "vantarsi",
+      "forme": ["vanta"],
+      "formeEsempi": ["vantarti"],
+      "esempi": ["Mio cugino si vanta sempre della sua macchina.", "Non vantarti: anche tu hai sbagliato!", "Si vanta di parlare cinque lingue."],
+      "traduzioni": { "en": "to boast, to show off", "es": "presumir, jactarse", "pt": "gabar-se, se exibir", "fr": "se vanter", "cs": "chlubit se", "pl": "przechwalać się", "tr": "böbürlenmek, övünmek", "de": "prahlen, angeben", "ja": "自慢する" }
+    },
+    {
+      "parola": "soffiare",
+      "forme": ["soffia"],
+      "esempi": ["Soffia sulla minestra: è calda!", "Il bambino soffia sulle candeline.", "Oggi il vento soffia forte."],
+      "traduzioni": { "en": "to blow", "es": "soplar", "pt": "soprar", "fr": "souffler", "cs": "foukat", "pl": "dmuchać", "tr": "üflemek", "de": "blasen", "ja": "息を吹く、吹く" }
+    },
+    {
+      "parola": "stancarsi",
+      "forme": ["stanca"],
+      "formeEsempi": ["stanco", "stancano"],
+      "esempi": ["Mi stanco subito quando corro.", "Il nonno si stanca a camminare in salita.", "I bambini non si stancano mai di giocare."],
+      "traduzioni": { "en": "to get tired", "es": "cansarse", "pt": "cansar-se", "fr": "se fatiguer", "cs": "unavit se", "pl": "męczyć się", "tr": "yorulmak", "de": "müde werden", "ja": "疲れる" }
+    },
+    {
+      "parola": "addormentarsi",
+      "forme": ["addormenta"],
+      "formeEsempi": ["addormentato", "addormentarmi"],
+      "esempi": ["Il bambino si addormenta sul divano.", "Ieri sera mi sono addormentato davanti alla TV.", "Non riesco ad addormentarmi."],
+      "traduzioni": { "en": "to fall asleep", "es": "dormirse", "pt": "adormecer, pegar no sono", "fr": "s’endormir", "cs": "usnout", "pl": "zasypiać", "tr": "uyuyakalmak, uykuya dalmak", "de": "einschlafen", "ja": "眠ってしまう、寝つく" }
+    },
+    {
+      "parola": "per caso",
+      "forme": ["caso"],
+      "esempi": ["Ho incontrato Luca per caso al supermercato.", "Ho trovato questo libro per caso.", "Abbiamo scoperto questo ristorante per caso."],
+      "traduzioni": { "en": "by chance, by accident", "es": "por casualidad", "pt": "por acaso", "fr": "par hasard", "cs": "náhodou", "pl": "przez przypadek", "tr": "tesadüfen", "de": "zufällig", "ja": "たまたま、偶然" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "il pomeriggio",
+      "forme": ["pomeriggio"],
+      "esempi": ["Il pomeriggio studio in biblioteca.", "Ci vediamo domani pomeriggio?", "Ogni pomeriggio il nonno dorme un'ora."],
+      "traduzioni": { "en": "afternoon", "es": "tarde", "pt": "tarde", "fr": "après-midi", "cs": "odpoledne", "pl": "popołudnie", "tr": "öğleden sonra", "de": "Nachmittag", "ja": "午後" }
+    },
+    {
+      "parola": "succedere",
+      "forme": ["succedendo"],
+      "formeEsempi": ["successo", "succedono"],
+      "esempi": ["Che cosa è successo?", "Sta succedendo qualcosa di strano.", "Queste cose succedono a tutti."],
+      "traduzioni": { "en": "to happen", "es": "pasar, suceder", "pt": "acontecer", "fr": "se passer, arriver", "cs": "dít se, stát se", "pl": "dziać się", "tr": "olmak", "de": "passieren", "ja": "起こる" }
+    },
+    {
+      "parola": "il profumo",
+      "forme": ["profumo"],
+      "esempi": ["Che buon profumo di pane!", "In primavera il giardino ha un profumo di fiori.", "Dalla cucina arriva un profumo di caffè."],
+      "traduzioni": { "en": "smell, scent (here not “perfume”)", "es": "olor (aquí no «perfume»)", "pt": "cheiro (aqui não «perfume»)", "fr": "odeur (ici pas « parfum » en flacon)", "cs": "vůně", "pl": "zapach", "tr": "koku", "de": "Duft, Geruch (hier nicht „Parfüm“)", "ja": "におい、香り" }
+    },
+    {
+      "parola": "l'oggetto",
+      "forme": ["oggetto"],
+      "formeEsempi": ["oggetti"],
+      "esempi": ["Che cos'è questo oggetto?", "Nella scatola ci sono vecchi oggetti del nonno.", "Non lasciate oggetti sul treno."],
+      "traduzioni": { "en": "object, thing", "es": "objeto", "pt": "objeto", "fr": "objet", "cs": "věc, předmět", "pl": "przedmiot", "tr": "nesne, şey", "de": "Gegenstand, Ding", "ja": "物" }
+    },
+    {
+      "parola": "credere",
+      "forme": ["crede"],
+      "formeEsempi": ["credo", "credi"],
+      "esempi": ["Ho vinto? Non ci credo!", "Non credo a quello che dice.", "Credi a questa storia?"],
+      "traduzioni": { "en": "to believe («non ci crede» = he can't believe it)", "es": "creer («non ci crede» = no se lo cree)", "pt": "acreditar («non ci crede» = não acredita)", "fr": "croire («non ci crede» = il n’y croit pas)", "cs": "věřit («non ci crede» = nemůže tomu uvěřit)", "pl": "wierzyć («non ci crede» = nie może uwierzyć)", "tr": "inanmak («non ci crede» = inanamıyor)", "de": "glauben («non ci crede» = er kann es nicht glauben)", "ja": "信じる（«non ci crede» = 信じられない）" }
+    },
+    {
+      "parola": "gridare",
+      "forme": ["grida"],
+      "formeEsempi": ["gridare"],
+      "esempi": ["Non gridare, ti sento benissimo!", "Il bambino grida di gioia.", "Dalla finestra la mamma grida il mio nome."],
+      "traduzioni": { "en": "to shout", "es": "gritar", "pt": "gritar", "fr": "crier", "cs": "křičet", "pl": "krzyczeć", "tr": "bağırmak", "de": "rufen, schreien", "ja": "叫ぶ" }
+    },
+    {
+      "parola": "la forza",
+      "forme": ["forze"],
+      "formeEsempi": ["forza"],
+      "esempi": ["Spingo la porta con tutta la mia forza.", "Dopo la malattia non ho più forze.", "Tira la corda con tutte le tue forze!"],
+      "traduzioni": { "en": "strength («con tutte le sue forze» = with all his strength)", "es": "fuerza", "pt": "força", "fr": "force", "cs": "síla", "pl": "siła", "tr": "güç", "de": "Kraft", "ja": "力" }
+    },
+    {
+      "parola": "la regola",
+      "forme": ["regole"],
+      "formeEsempi": ["regola"],
+      "esempi": ["Le regole del gioco sono semplici.", "In classe ci sono regole da rispettare.", "Prima impara le regole, poi gioca."],
+      "traduzioni": { "en": "rule", "es": "regla", "pt": "regra", "fr": "règle", "cs": "pravidlo", "pl": "zasada, reguła", "tr": "kural", "de": "Regel", "ja": "ルール、決まり" }
+    },
+    {
+      "parola": "l'arte",
+      "forme": ["arte"],
+      "esempi": ["La cucina è un'arte.", "Ha imparato l'arte di fare il pane.", "Il nonno conosceva l'arte di riparare le scarpe."],
+      "traduzioni": { "en": "art, craft", "es": "arte", "pt": "arte", "fr": "art", "cs": "umění, řemeslo", "pl": "sztuka", "tr": "sanat, zanaat", "de": "Kunst, Handwerk", "ja": "技術、芸" }
+    },
+    {
+      "parola": "riuscire",
+      "forme": ["riesce"],
+      "formeEsempi": ["riuscita", "riuscito"],
+      "esempi": ["La torta è riuscita benissimo!", "Il mio piano non è riuscito.", "Se una cosa riesce al primo tentativo, è fortuna."],
+      "traduzioni": { "en": "to work out, to turn out well", "es": "salir bien", "pt": "dar certo", "fr": "réussir", "cs": "povést se", "pl": "udać się", "tr": "iyi gitmek, başarılı olmak", "de": "gelingen, klappen", "ja": "うまくいく" }
+    },
+    {
+      "parola": "la fortuna",
+      "forme": ["fortuna"],
+      "esempi": ["Buona fortuna per l'esame!", "Che fortuna: il treno è in ritardo e lo prendo!", "Non è bravura, è solo fortuna."],
+      "traduzioni": { "en": "luck", "es": "suerte", "pt": "sorte", "fr": "chance", "cs": "štěstí", "pl": "szczęście", "tr": "şans", "de": "Glück", "ja": "運" }
+    },
+    {
+      "parola": "chiaro",
+      "forme": ["chiara"],
+      "formeEsempi": ["chiaro"],
+      "esempi": ["La lezione di oggi è chiara.", "È chiaro? Hai capito?", "Il messaggio è molto chiaro."],
+      "traduzioni": { "en": "clear", "es": "claro", "pt": "claro", "fr": "clair", "cs": "jasný", "pl": "jasny", "tr": "açık, net", "de": "klar", "ja": "はっきりした、明らかな" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a meadow in Spain lives a donkey. Every morning he wakes up early, gets up and goes to eat grass. He's a simple donkey.",
+        "One day he stops near a low wall. In the grass there is a flute: a boy forgot it there. The donkey comes closer and sniffs it.",
+        "When the donkey breathes, the air goes into the flute. The flute plays: fweee! The donkey gets scared. Then he stops and listens.",
+        "– What beautiful music! – he says. – It's me! I can play the flute!",
+        "The donkey feels like a great musician. He looks around: on the wall there are a sparrow and a lizard. He stands in front of them and boasts:\n– You see? Donkeys can play music!",
+        "– Well done! – says the sparrow, laughing. – Play again!",
+        "The donkey gets ready and blows. But the flute doesn't play. He blows again. Nothing. The donkey gets angry, then he gets tired and falls asleep in the grass.",
+        "That's the moral of the fable: sometimes we do something well by chance, but that doesn't mean we know how to do it. To know how to do it, we have to study."
+      ],
+      "a2": [
+        "It's a sunny afternoon in a meadow in Spain. What's happening? A donkey is walking slowly and thinking about dinner. From a low wall a sparrow is watching him.",
+        "In the grass there's a flute: a boy forgot it there. The donkey sees it and comes closer. Now he's sniffing it. He's breathing hard, because that object doesn't smell good.",
+        "Fweee! The flute is playing! The donkey raises his head and can't believe it. The air went into the flute by chance, but he's already smiling.",
+        "– Listen, everybody! – he shouts. – I'm playing the flute! Donkeys are great musicians!",
+        "The animals of the meadow are coming closer. The sparrow is laughing. A lizard is asking him:\n– Can you play again?",
+        "– Of course! – answers the donkey. And he blows with all his strength. The flute doesn't play. He blows again. Nothing. The animals are leaving, one after the other.",
+        "Now the donkey is alone. He's looking at the flute and doesn't understand anything.",
+        "Tomás de Iriarte published this fable in Spain in 1782. Its moral is clear: if someone who doesn't know the rules of an art does something well, it's only by chance. Even today in Spain, when something works out by luck, people say «sonó la flauta», “the flute played”."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un prado de España vive un burro. Cada mañana se despierta temprano, se levanta y va a comer hierba. Es un burro sencillo.",
+        "Un día se para cerca de una tapia. En la hierba hay una flauta: un chico la ha olvidado allí. El burro se acerca y la huele.",
+        "Cuando el burro respira, el aire entra en la flauta. La flauta suena: ¡fiii! El burro se asusta. Luego se para y escucha.",
+        "– ¡Qué música tan bonita! – dice. – ¡Soy yo! ¡Yo sé tocar la flauta!",
+        "El burro se siente un gran músico. Mira a su alrededor: en la tapia hay un gorrión y una lagartija. Se pone delante de ellos y presume:\n– ¿Veis? ¡Los burros saben tocar!",
+        "– ¡Bravo! – dice el gorrión, y se ríe. – ¡Toca otra vez!",
+        "El burro se prepara y sopla. Pero la flauta no suena. Sopla otra vez. Nada. El burro se enfada, luego se cansa y se duerme en la hierba.",
+        "Es la moraleja de la fábula: a veces hacemos bien una cosa por casualidad, pero eso no quiere decir que sepamos hacerla. Para saber hacerla, tenemos que estudiar."
+      ],
+      "a2": [
+        "Es una tarde de sol en un prado de España. ¿Qué está pasando? Un burro está caminando despacio y está pensando en la cena. Desde una tapia, un gorrión lo está mirando.",
+        "En la hierba hay una flauta: un chico la ha olvidado allí. El burro la ve y se acerca. Ahora la está oliendo. Está respirando fuerte, porque ese objeto no huele bien.",
+        "¡Fiii! ¡La flauta está sonando! El burro levanta la cabeza y no se lo cree. El aire ha entrado en la flauta por casualidad, pero él ya está sonriendo.",
+        "– ¡Escuchad todos! – grita. – ¡Estoy tocando la flauta! ¡Los burros son grandes músicos!",
+        "Los animales del prado se están acercando. El gorrión se está riendo. Una lagartija le está preguntando:\n– ¿Puedes tocar otra vez?",
+        "– ¡Claro! – responde el burro. Y sopla con todas sus fuerzas. La flauta no suena. Sopla de nuevo. Nada. Los animales se están yendo, uno tras otro.",
+        "Ahora el burro está solo. Está mirando la flauta y no está entendiendo nada.",
+        "Tomás de Iriarte publicó esta fábula, «El burro flautista», en España en 1782. Su moraleja está clara: quien no conoce las reglas de un arte, si hace algo bien, lo hace solo por casualidad. Todavía hoy en España, cuando algo sale bien por suerte, se dice «sonó la flauta»."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Num prado da Espanha mora um burro. Toda manhã ele acorda cedo, se levanta e vai comer capim. É um burro simples.",
+        "Um dia ele para perto de um muro baixo. No capim há uma flauta: um menino a esqueceu ali. O burro chega perto e a cheira.",
+        "Quando o burro respira, o ar entra na flauta. A flauta toca: fiii! O burro se assusta. Depois para e escuta.",
+        "– Que música bonita! – diz ele. – Sou eu! Eu sei tocar flauta!",
+        "O burro se sente um grande músico. Olha em volta: no muro há um pardal e uma lagartixa. Ele se coloca na frente deles e se gaba:\n– Estão vendo? Os burros sabem tocar!",
+        "– Muito bem! – diz o pardal, rindo. – Toque de novo!",
+        "O burro se prepara e sopra. Mas a flauta não toca. Sopra de novo. Nada. O burro fica bravo, depois se cansa e pega no sono no capim.",
+        "Essa é a moral da fábula: às vezes fazemos uma coisa bem por acaso, mas isso não quer dizer que sabemos fazê-la. Para saber fazê-la, precisamos estudar."
+      ],
+      "a2": [
+        "É uma tarde de sol num prado da Espanha. O que está acontecendo? Um burro está andando devagar e pensando no jantar. De cima de um muro baixo, um pardal está olhando para ele.",
+        "No capim há uma flauta: um menino a esqueceu ali. O burro a vê e chega perto. Agora está cheirando a flauta. Está respirando forte, porque aquele objeto não tem um cheiro bom.",
+        "Fiii! A flauta está tocando! O burro levanta a cabeça e não acredita. O ar entrou na flauta por acaso, mas ele já está sorrindo.",
+        "– Escutem todos! – grita. – Estou tocando flauta! Os burros são grandes músicos!",
+        "Os animais do prado estão chegando perto. O pardal está rindo. Uma lagartixa está perguntando a ele:\n– Você pode tocar de novo?",
+        "– Claro! – responde o burro. E sopra com todas as suas forças. A flauta não toca. Sopra de novo. Nada. Os animais estão indo embora, um depois do outro.",
+        "Agora o burro está sozinho. Está olhando para a flauta e não está entendendo nada.",
+        "Tomás de Iriarte publicou esta fábula na Espanha em 1782. A moral é clara: quem não conhece as regras de uma arte, se faz uma coisa bem, faz só por acaso. Até hoje na Espanha, quando uma coisa dá certo por sorte, se diz «sonó la flauta», «a flauta tocou»."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans un pré d’Espagne vit un âne. Chaque matin, il se réveille tôt, il se lève et il va manger de l’herbe. C’est un âne simple.",
+        "Un jour, il s’arrête près d’un muret. Dans l’herbe, il y a une flûte : un garçon l’a oubliée là. L’âne s’approche et la renifle.",
+        "Quand l’âne respire, l’air entre dans la flûte. La flûte joue : fiiii ! L’âne a peur. Puis il s’arrête et il écoute.",
+        "– Quelle belle musique ! – dit-il. – C’est moi ! Je sais jouer de la flûte !",
+        "L’âne se sent un grand musicien. Il regarde autour de lui : sur le muret, il y a un moineau et un lézard. Il se met devant eux et se vante :\n– Vous voyez ? Les ânes savent jouer de la musique !",
+        "– Bravo ! – dit le moineau en riant. – Joue encore !",
+        "L’âne se prépare et souffle. Mais la flûte ne joue pas. Il souffle encore. Rien. L’âne se fâche, puis il se fatigue et s’endort dans l’herbe.",
+        "C’est la morale de la fable : parfois, nous faisons bien une chose par hasard, mais cela ne veut pas dire que nous savons la faire. Pour savoir la faire, il faut étudier."
+      ],
+      "a2": [
+        "C’est un après-midi ensoleillé dans un pré d’Espagne. Qu’est-ce qui se passe ? Un âne marche lentement et pense au dîner. Depuis un muret, un moineau le regarde.",
+        "Dans l’herbe, il y a une flûte : un garçon l’a oubliée là. L’âne la voit et s’approche. Maintenant, il la renifle. Il respire fort, parce que cet objet ne sent pas bon.",
+        "Fiiii ! La flûte joue ! L’âne lève la tête et n’en croit pas ses oreilles. L’air est entré dans la flûte par hasard, mais lui, il sourit déjà.",
+        "– Écoutez tous ! – crie-t-il. – Je joue de la flûte ! Les ânes sont de grands musiciens !",
+        "Les animaux du pré s’approchent. Le moineau rit. Un lézard lui demande :\n– Tu peux jouer encore ?",
+        "– Bien sûr ! – répond l’âne. Et il souffle de toutes ses forces. La flûte ne joue pas. Il souffle de nouveau. Rien. Les animaux s’en vont, l’un après l’autre.",
+        "Maintenant, l’âne est seul. Il regarde la flûte et ne comprend rien.",
+        "Tomás de Iriarte a publié cette fable en Espagne en 1782. Sa morale est claire : celui qui ne connaît pas les règles d’un art, s’il fait bien une chose, ne la fait que par hasard. Aujourd’hui encore en Espagne, quand une chose réussit par chance, on dit « sonó la flauta », « la flûte a joué »."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Na jedné louce ve Španělsku žije osel. Každé ráno se brzy probudí, vstane a jde se napást trávy. Je to prostý osel.",
+        "Jednoho dne se zastaví u nízké zídky. V trávě leží flétna: nějaký kluk ji tam zapomněl. Osel přijde blíž a očichává ji.",
+        "Když osel dýchne, vzduch vejde do flétny. Flétna zahraje: fííí! Osel se lekne. Pak se zastaví a poslouchá.",
+        "– To je ale krásná hudba! – řekne. – To jsem já! Já umím hrát na flétnu!",
+        "Osel si připadá jako velký hudebník. Rozhlédne se: na zídce sedí vrabec a ještěrka. Postaví se před ně a chlubí se:\n– Vidíte? Osli umějí hrát!",
+        "– Bravo! – řekne vrabec a směje se. – Zahraj ještě!",
+        "Osel se připraví a fouká. Ale flétna nehraje. Fouká znovu. Nic. Osel se rozzlobí, pak se unaví a usne v trávě.",
+        "To je ponaučení z bajky: někdy něco uděláme dobře náhodou, ale to neznamená, že to umíme. Abychom to uměli, musíme se učit."
+      ],
+      "a2": [
+        "Je slunečné odpoledne na louce ve Španělsku. Co se děje? Osel pomalu jde a myslí na večeři. Ze zídky ho pozoruje vrabec.",
+        "V trávě leží flétna: nějaký kluk ji tam zapomněl. Osel ji uvidí a přijde blíž. Teď ji očichává. Silně dýchá, protože ta věc moc hezky nevoní.",
+        "Fííí! Flétna hraje! Osel zvedne hlavu a nemůže tomu uvěřit. Vzduch vešel do flétny náhodou, ale on se už usmívá.",
+        "– Poslouchejte všichni! – křičí. – Hraju na flétnu! Osli jsou velcí hudebníci!",
+        "Zvířata z louky se přibližují. Vrabec se směje. Ještěrka se ho ptá:\n– Můžeš zahrát ještě jednou?",
+        "– Jasně! – odpoví osel. A fouká ze všech sil. Flétna nehraje. Fouká znovu. Nic. Zvířata jedno po druhém odcházejí.",
+        "Teď je osel sám. Dívá se na flétnu a ničemu nerozumí.",
+        "Tomás de Iriarte vydal tuto bajku ve Španělsku v roce 1782. Její ponaučení je jasné: kdo nezná pravidla nějakého umění a něco se mu povede, povedlo se mu to jen náhodou. Ve Španělsku se dodnes, když se něco podaří štěstím, říká «sonó la flauta», „flétna zahrála“."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Na pewnej łące w Hiszpanii mieszka osioł. Każdego ranka budzi się wcześnie, wstaje i idzie jeść trawę. To prosty osioł.",
+        "Pewnego dnia zatrzymuje się przy niskim murku. W trawie leży flet: jakiś chłopiec go tam zostawił. Osioł podchodzi i go wącha.",
+        "Kiedy osioł oddycha, powietrze wchodzi do fletu. Flet gra: fiii! Osioł się przestrasza. Potem się zatrzymuje i słucha.",
+        "– Jaka piękna muzyka! – mówi. – To ja! Umiem grać na flecie!",
+        "Osioł czuje się wielkim muzykiem. Rozgląda się: na murku siedzą wróbel i jaszczurka. Staje przed nimi i się przechwala:\n– Widzicie? Osły umieją grać!",
+        "– Brawo! – mówi wróbel i się śmieje. – Zagraj jeszcze raz!",
+        "Osioł się przygotowuje i dmucha. Ale flet nie gra. Dmucha jeszcze raz. Nic. Osioł się złości, potem się męczy i zasypia w trawie.",
+        "To jest morał bajki: czasem robimy coś dobrze przez przypadek, ale to nie znaczy, że umiemy to robić. Żeby to umieć, musimy się uczyć."
+      ],
+      "a2": [
+        "Jest słoneczne popołudnie na łące w Hiszpanii. Co się dzieje? Osioł idzie powoli i myśli o kolacji. Z murku obserwuje go wróbel.",
+        "W trawie leży flet: jakiś chłopiec go tam zostawił. Osioł go widzi i podchodzi. Teraz go wącha. Mocno oddycha, bo ten przedmiot nie pachnie ładnie.",
+        "Fiii! Flet gra! Osioł podnosi głowę i nie może w to uwierzyć. Powietrze weszło do fletu przez przypadek, ale on już się uśmiecha.",
+        "– Słuchajcie wszyscy! – krzyczy. – Gram na flecie! Osły to wielcy muzycy!",
+        "Zwierzęta z łąki się zbliżają. Wróbel się śmieje. Jaszczurka go pyta:\n– Możesz zagrać jeszcze raz?",
+        "– Oczywiście! – odpowiada osioł. I dmucha z całych sił. Flet nie gra. Dmucha znowu. Nic. Zwierzęta odchodzą, jedno po drugim.",
+        "Teraz osioł jest sam. Patrzy na flet i nic nie rozumie.",
+        "Tomás de Iriarte opublikował tę bajkę w Hiszpanii w 1782 roku. Jej morał jest jasny: kto nie zna zasad jakiejś sztuki, a zrobi coś dobrze, robi to tylko przez przypadek. Do dziś w Hiszpanii, kiedy coś udaje się dzięki szczęściu, mówi się «sonó la flauta», „flet zagrał”."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "İspanya'da bir çayırda bir eşek yaşar. Her sabah erkenden uyanır, kalkar ve ot yemeye gider. Sade bir eşektir.",
+        "Bir gün alçak bir duvarın yanında durur. Otların arasında bir flüt vardır: bir çocuk onu orada unutmuştur. Eşek yaklaşır ve flütü koklar.",
+        "Eşek nefes alınca hava flütün içine girer. Flüt çalar: fiii! Eşek korkar. Sonra durur ve dinler.",
+        "– Ne güzel bir müzik! – der. – Bu benim! Ben flüt çalmayı biliyorum!",
+        "Eşek kendini büyük bir müzisyen gibi hisseder. Etrafına bakar: duvarın üstünde bir serçe ve bir kertenkele vardır. Onların önüne geçer ve böbürlenir:\n– Gördünüz mü? Eşekler müzik çalabilir!",
+        "– Aferin! – der serçe ve güler. – Bir daha çal!",
+        "Eşek hazırlanır ve üfler. Ama flüt çalmaz. Bir daha üfler. Hiçbir şey. Eşek kızar, sonra yorulur ve otların arasında uyuyakalır.",
+        "Masalın ana fikri şu: bazen bir şeyi tesadüfen iyi yaparız, ama bu onu yapmayı bildiğimiz anlamına gelmez. Yapmayı bilmek için çalışmamız gerekir."
+      ],
+      "a2": [
+        "İspanya'da bir çayırda güneşli bir öğleden sonra. Neler oluyor? Bir eşek yavaş yavaş yürüyor ve akşam yemeğini düşünüyor. Alçak bir duvarın üstünden bir serçe onu izliyor.",
+        "Otların arasında bir flüt var: bir çocuk onu orada unutmuş. Eşek onu görüyor ve yaklaşıyor. Şimdi onu kokluyor. Derin derin nefes alıyor, çünkü o şeyin kokusu hiç güzel değil.",
+        "Fiii! Flüt çalıyor! Eşek başını kaldırıyor ve inanamıyor. Hava flütün içine tesadüfen girdi, ama o şimdiden gülümsüyor.",
+        "– Herkes dinlesin! – diye bağırıyor. – Flüt çalıyorum! Eşekler büyük müzisyenlerdir!",
+        "Çayırdaki hayvanlar yaklaşıyor. Serçe gülüyor. Bir kertenkele ona soruyor:\n– Bir daha çalabilir misin?",
+        "– Elbette! – diye cevap veriyor eşek. Ve bütün gücüyle üflüyor. Flüt çalmıyor. Yeniden üflüyor. Hiçbir şey. Hayvanlar birer birer gidiyor.",
+        "Şimdi eşek yalnız. Flüte bakıyor ve hiçbir şey anlamıyor.",
+        "Tomás de Iriarte bu masalı 1782'de İspanya'da yayımladı. Ana fikri açık: bir sanatın kurallarını bilmeyen biri bir şeyi iyi yaparsa, bu sadece tesadüftür. İspanya'da bugün hâlâ bir iş şans eseri iyi gittiğinde «sonó la flauta», yani «flüt çaldı» denir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Auf einer Wiese in Spanien lebt ein Esel. Jeden Morgen wacht er früh auf, steht auf und geht Gras fressen. Er ist ein einfacher Esel.",
+        "Eines Tages bleibt er an einem Mäuerchen stehen. Im Gras liegt eine Flöte: Ein Junge hat sie dort vergessen. Der Esel kommt näher und schnuppert daran.",
+        "Als der Esel atmet, geht die Luft in die Flöte. Die Flöte spielt: Fiii! Der Esel erschrickt. Dann bleibt er stehen und hört zu.",
+        "– Was für schöne Musik! – sagt er. – Das bin ich! Ich kann Flöte spielen!",
+        "Der Esel fühlt sich wie ein großer Musiker. Er schaut sich um: Auf dem Mäuerchen sitzen ein Spatz und eine Eidechse. Er stellt sich vor sie hin und prahlt:\n– Seht ihr? Esel können Musik machen!",
+        "– Bravo! – sagt der Spatz und lacht. – Spiel noch einmal!",
+        "Der Esel macht sich bereit und bläst. Aber die Flöte spielt nicht. Er bläst noch einmal. Nichts. Der Esel wird wütend, dann wird er müde und schläft im Gras ein.",
+        "Das ist die Moral der Fabel: Manchmal machen wir etwas zufällig gut, aber das heißt nicht, dass wir es können. Um es zu können, müssen wir lernen."
+      ],
+      "a2": [
+        "Es ist ein sonniger Nachmittag auf einer Wiese in Spanien. Was passiert gerade? Ein Esel geht langsam und denkt an das Abendessen. Von einem Mäuerchen aus beobachtet ihn ein Spatz.",
+        "Im Gras liegt eine Flöte: Ein Junge hat sie dort vergessen. Der Esel sieht sie und kommt näher. Jetzt schnuppert er daran. Er atmet kräftig, denn dieses Ding riecht nicht gut.",
+        "Fiii! Die Flöte spielt! Der Esel hebt den Kopf und kann es nicht glauben. Die Luft ist zufällig in die Flöte gekommen, aber er lächelt schon.",
+        "– Hört alle her! – ruft er. – Ich spiele Flöte! Esel sind große Musiker!",
+        "Die Tiere der Wiese kommen näher. Der Spatz lacht. Eine Eidechse fragt ihn:\n– Kannst du noch einmal spielen?",
+        "– Klar! – antwortet der Esel. Und er bläst mit aller Kraft. Die Flöte spielt nicht. Er bläst noch einmal. Nichts. Die Tiere gehen weg, eins nach dem anderen.",
+        "Jetzt ist der Esel allein. Er schaut die Flöte an und versteht gar nichts.",
+        "Tomás de Iriarte veröffentlichte diese Fabel 1782 in Spanien. Ihre Moral ist klar: Wer die Regeln einer Kunst nicht kennt und trotzdem etwas gut macht, macht es nur zufällig. Noch heute sagt man in Spanien, wenn etwas durch Glück klappt: «sonó la flauta» – „die Flöte hat gespielt“."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "スペインの草地に、ロバが一頭住んでいます。毎朝早く目を覚まし、起き上がって、草を食べに行きます。素朴なロバです。",
+        "ある日、ロバは低い石垣のそばで立ち止まります。草の中に笛があります。男の子がそこに忘れていったのです。ロバは近づいて、においをかぎます。",
+        "ロバが息をすると、空気が笛に入ります。笛が鳴ります。ピーッ！　ロバはびっくりします。それから立ち止まって、耳をすませます。",
+        "「なんてきれいな音楽だ！」とロバは言います。「ぼくだ！　ぼくは笛が吹けるんだ！」",
+        "ロバは自分が偉大な音楽家になった気がします。まわりを見ると、石垣の上にスズメとトカゲがいます。ロバは二匹の前に立って、自慢します。\n「見たかい？　ロバは楽器が吹けるんだよ！」",
+        "「すごい！」とスズメは笑いながら言います。「もう一回吹いて！」",
+        "ロバは準備をして、息を吹きこみます。でも笛は鳴りません。もう一度吹きます。何も起こりません。ロバは怒り、それから疲れて、草の中で眠ってしまいます。",
+        "これがこのお話の教訓です。たまたま何かがうまくできることはありますが、それはやり方を知っているということではありません。本当にできるようになるには、学ばなければなりません。"
+      ],
+      "a2": [
+        "スペインの草地の、よく晴れた午後です。何が起きているのでしょう？　ロバがゆっくり歩きながら、夕ごはんのことを考えています。低い石垣の上から、スズメがロバを見ています。",
+        "草の中に笛があります。男の子がそこに忘れていったのです。ロバはそれを見つけて近づきます。今、においをかいでいます。強く息をしています。その物がいいにおいではないからです。",
+        "ピーッ！　笛が鳴っています！　ロバは頭を上げて、信じられません。空気がたまたま笛に入っただけなのに、ロバはもうにこにこしています。",
+        "「みんな、聞いて！」とロバは叫びます。「ぼくが笛を吹いているんだ！　ロバは偉大な音楽家なんだ！」",
+        "草地の動物たちが近づいてきます。スズメは笑っています。トカゲがロバにたずねています。\n「もう一回吹ける？」",
+        "「もちろん！」とロバは答えます。そして力いっぱい吹きます。笛は鳴りません。もう一度吹きます。何も起こりません。動物たちは一匹、また一匹と去っていきます。",
+        "今、ロバはひとりぼっちです。笛を見つめていますが、何もわかりません。",
+        "トマス・デ・イリアルテは1782年にスペインでこの寓話を発表しました。教訓ははっきりしています。ある技術のルールを知らない人が何かをうまくやっても、それはたまたまにすぎない、ということです。今でもスペインでは、何かが運よくうまくいったとき «sonó la flauta»（「笛が鳴った」）と言います。"
+      ]
+    }
+  }
+}
