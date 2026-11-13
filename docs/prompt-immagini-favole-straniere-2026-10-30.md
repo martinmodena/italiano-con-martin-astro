@@ -191,3 +191,11 @@ Nasreddin seduto su un sasso in riva al lago gira l'acqua con un bastone; accant
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Turkish folk tale book of Nasreddin Hodja, bright summer morning light, no black outlines. The calm shore of a wide Anatolian lake with reeds, poplar trees and gentle brown hills in the distance. A cheerful elderly man with a short white beard, a very large round white turban and a long simple brown robe sits on a flat stone at the water's edge and, with a serene, mischievous smile, stirs the lake water with a long wooden stick; a small closed clay pot rests beside him. Behind him, a few villagers in simple long-sleeved traditional clothes, a boy, a merchant in a waistcoat and an old man, point at him and laugh. A grey donkey grazes nearby. Humorous, gentle atmosphere. Clean uncluttered composition, a single clear scene. No food visible, no religious symbols, no mosques, no text, no words, no letters.
 ```
+
+## 23. `story-caprette-poznan` — «Le caprette di Poznań» (Koziołki poznańskie, Polonia) — 2026-11-13
+
+Il municipio rinascimentale di Poznań, le due caprette che si danno le cornate sopra l'orologio, la folla che ride e il ragazzo di cucina con le mani in testa. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Polish legend book, bright midday sunlight, no black outlines. The colourful Renaissance town hall of Poznań in the old market square, with its white arcaded facade, decorated attic and a tall clock tower with a big ornate clock showing twelve o'clock. On a narrow ledge just above the clock, two small white goats stand on their hind legs and playfully butt their horns together. Below in the square, a crowd of townspeople in modest 16th-century clothes with long sleeves look up, pointing and laughing, and a young kitchen boy in a white apron holds his head in his hands. Humorous, joyful atmosphere. Clean composition, a single clear scene. No food, no religious symbols, no crosses, no text, no words, no letters, no numbers on signs.
+```
