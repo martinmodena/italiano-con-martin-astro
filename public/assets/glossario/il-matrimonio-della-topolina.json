@@ -1,0 +1,494 @@
+{
+  "id": "il-matrimonio-della-topolina",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il muro",
+      "forme": ["muro"],
+      "esempi": ["Sul muro c'è un quadro.", "Il gatto cammina sul muro del giardino.", "Questo muro è molto vecchio."],
+      "traduzioni": { "en": "wall", "es": "muro, pared", "pt": "muro, parede", "fr": "mur", "cs": "zeď", "pl": "mur, ściana", "tr": "duvar", "de": "Mauer", "ja": "塀、壁" }
+    },
+    {
+      "parola": "abitare",
+      "forme": ["abita"],
+      "formeEsempi": ["abito", "abitano"],
+      "esempi": ["Abito a Milano da tre anni.", "Mia sorella abita in campagna.", "In questa casa abitano quattro persone."],
+      "traduzioni": { "en": "to live (somewhere)", "es": "vivir, habitar", "pt": "morar", "fr": "habiter", "cs": "bydlet", "pl": "mieszkać", "tr": "oturmak, yaşamak", "de": "wohnen", "ja": "住む" }
+    },
+    {
+      "parola": "saggio",
+      "forme": ["saggio"],
+      "formeEsempi": ["saggia"],
+      "esempi": ["Mio nonno è un uomo saggio.", "È stata una decisione saggia.", "Il vecchio saggio dà buoni consigli."],
+      "traduzioni": { "en": "wise", "es": "sabio", "pt": "sábio", "fr": "sage", "cs": "moudrý", "pl": "mądry", "tr": "bilge, akıllı", "de": "weise", "ja": "かしこい、賢明な" }
+    },
+    {
+      "parola": "dolce",
+      "forme": ["dolce"],
+      "esempi": ["La mia nonna è una persona dolce.", "Il bambino ha un sorriso dolce.", "Mia madre ha una voce dolce."],
+      "traduzioni": { "en": "sweet, gentle (of a person)", "es": "dulce, cariñoso", "pt": "doce, meigo", "fr": "douce, gentille", "cs": "laskavý, něžný", "pl": "łagodny, słodki", "tr": "tatlı, yumuşak huylu", "de": "lieb, sanft", "ja": "やさしい" }
+    },
+    {
+      "parola": "speciale",
+      "forme": ["speciale"],
+      "esempi": ["Oggi è un giorno speciale.", "Per me sei una persona speciale.", "Questo regalo è speciale."],
+      "traduzioni": { "en": "special", "es": "especial", "pt": "especial", "fr": "spécial, exceptionnel", "cs": "výjimečný, zvláštní", "pl": "wyjątkowy", "tr": "özel", "de": "besonders", "ja": "特別な" }
+    },
+    {
+      "parola": "lo sposo",
+      "forme": ["sposo"],
+      "formeEsempi": ["sposi"],
+      "esempi": ["Lo sposo aspetta la sposa davanti al municipio.", "Gli sposi partono per il viaggio di nozze.", "Chi è lo sposo?"],
+      "traduzioni": { "en": "groom, husband-to-be", "es": "novio, esposo", "pt": "noivo", "fr": "fiancé, époux", "cs": "ženich", "pl": "narzeczony, pan młody", "tr": "damat, koca", "de": "Bräutigam", "ja": "花婿、お婿さん" }
+    },
+    {
+      "parola": "sposare",
+      "forme": ["sposare", "sposa"],
+      "formeEsempi": ["sposati"],
+      "esempi": ["Marco vuole sposare Giulia.", "Si sono sposati in primavera.", "Anna sposa un ragazzo francese."],
+      "traduzioni": { "en": "to marry", "es": "casarse con", "pt": "casar com", "fr": "épouser", "cs": "vzít si (za manžela)", "pl": "poślubić, wyjść za", "tr": "evlenmek", "de": "heiraten", "ja": "結婚する" }
+    },
+    {
+      "parola": "la nuvola",
+      "forme": ["nuvola"],
+      "formeEsempi": ["nuvole"],
+      "esempi": ["Oggi il cielo è pieno di nuvole.", "Una nuvola nera copre il sole.", "Quella nuvola sembra un cane!"],
+      "traduzioni": { "en": "cloud", "es": "nube", "pt": "nuvem", "fr": "nuage", "cs": "mrak", "pl": "chmura", "tr": "bulut", "de": "Wolke", "ja": "雲" }
+    },
+    {
+      "parola": "brillare",
+      "forme": ["brillo"],
+      "formeEsempi": ["brilla", "brillano"],
+      "esempi": ["Il sole brilla nel cielo.", "Di notte brillano le stelle.", "I tuoi occhi brillano di gioia."],
+      "traduzioni": { "en": "to shine", "es": "brillar", "pt": "brilhar", "fr": "briller", "cs": "svítit, zářit", "pl": "świecić", "tr": "parlamak", "de": "scheinen, leuchten", "ja": "輝く" }
+    },
+    {
+      "parola": "pesante",
+      "forme": ["pesante"],
+      "esempi": ["Questa valigia è pesante.", "Oggi ho mangiato un pranzo pesante.", "La neve pesante rompe i rami."],
+      "traduzioni": { "en": "heavy", "es": "pesado", "pt": "pesado", "fr": "lourd", "cs": "těžký", "pl": "ciężki", "tr": "ağır", "de": "schwer", "ja": "重い" }
+    },
+    {
+      "parola": "rumoroso",
+      "forme": ["rumoroso"],
+      "formeEsempi": ["rumorosa", "rumorosi"],
+      "esempi": ["La mia strada è molto rumorosa.", "I nuovi vicini sono rumorosi.", "È un ristorante rumoroso, ma simpatico."],
+      "traduzioni": { "en": "noisy", "es": "ruidoso", "pt": "barulhento", "fr": "bruyant", "cs": "hlučný", "pl": "hałaśliwy", "tr": "gürültülü", "de": "laut", "ja": "うるさい" }
+    },
+    {
+      "parola": "muoversi",
+      "forme": ["muove"],
+      "formeEsempi": ["muoverti"],
+      "esempi": ["Il gatto dorme e non si muove.", "Non muoverti, ti faccio una foto!", "La macchina non si muove: è rotta."],
+      "traduzioni": { "en": "to move", "es": "moverse", "pt": "mexer-se, mover-se", "fr": "bouger", "cs": "hnout se", "pl": "ruszać się", "tr": "kıpırdamak, yerinden oynamak", "de": "sich bewegen", "ja": "動く" }
+    },
+    {
+      "parola": "duro",
+      "forme": ["duro"],
+      "formeEsempi": ["durissima"],
+      "esempi": ["Il pane di ieri è duro.", "Questo letto è troppo duro.", "Il diamante è una pietra durissima."],
+      "traduzioni": { "en": "hard", "es": "duro", "pt": "duro", "fr": "dur", "cs": "tvrdý", "pl": "twardy", "tr": "sert", "de": "hart", "ja": "かたい" }
+    },
+    {
+      "parola": "triste",
+      "forme": ["triste"],
+      "esempi": ["Oggi sono un po' triste.", "È un film molto triste.", "Perché hai la faccia triste?"],
+      "traduzioni": { "en": "sad", "es": "triste", "pt": "triste", "fr": "triste", "cs": "smutný", "pl": "smutny", "tr": "üzgün", "de": "traurig", "ja": "悲しい" }
+    },
+    {
+      "parola": "il buco",
+      "forme": ["buchi", "buco"],
+      "esempi": ["Ho un buco nel calzino.", "Il topo esce da un buco nel muro.", "Nella strada ci sono tanti buchi."],
+      "traduzioni": { "en": "hole", "es": "agujero", "pt": "buraco", "fr": "trou", "cs": "díra", "pl": "dziura", "tr": "delik", "de": "Loch", "ja": "穴" }
+    },
+    {
+      "parola": "simpatico",
+      "forme": ["simpatico"],
+      "formeEsempi": ["simpatica", "simpatici"],
+      "esempi": ["Il nuovo vicino è simpatico.", "Che ragazza simpatica!", "I tuoi amici sono molto simpatici."],
+      "traduzioni": { "en": "nice, likeable (not “sympathetic”)", "es": "simpático", "pt": "simpático", "fr": "sympathique", "cs": "sympatický, milý", "pl": "sympatyczny, miły", "tr": "sevimli, cana yakın", "de": "sympathisch, nett", "ja": "感じのいい" }
+    },
+    {
+      "parola": "giusto",
+      "forme": ["giusto"],
+      "formeEsempi": ["giusta", "giuste"],
+      "esempi": ["Questa è la risposta giusta.", "Hai scelto il momento giusto.", "Cerco le parole giuste."],
+      "traduzioni": { "en": "right (the right one)", "es": "adecuado, correcto", "pt": "certo", "fr": "bon, juste", "cs": "ten pravý, správný", "pl": "właściwy", "tr": "doğru, uygun", "de": "richtig", "ja": "ぴったりの、正しい" }
+    },
+    {
+      "parola": "spesso",
+      "forme": ["spesso"],
+      "esempi": ["Vado spesso al cinema.", "A novembre piove spesso.", "Spesso ceno con i miei genitori."],
+      "traduzioni": { "en": "often", "es": "a menudo", "pt": "muitas vezes", "fr": "souvent", "cs": "často", "pl": "często", "tr": "sık sık", "de": "oft", "ja": "よく、しばしば" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "anziano",
+      "forme": ["anziani"],
+      "formeEsempi": ["anziano", "anziana"],
+      "esempi": ["Mio nonno è un uomo anziano, ma ancora forte.", "Sull'autobus lascio il posto agli anziani.", "La signora anziana del terzo piano vive da sola."],
+      "traduzioni": { "en": "elderly, old", "es": "anciano", "pt": "idoso", "fr": "âgé", "cs": "starý, postarší", "pl": "starszy, stary", "tr": "yaşlı", "de": "alt, betagt", "ja": "年老いた" }
+    },
+    {
+      "parola": "orgoglioso",
+      "forme": ["orgogliosi"],
+      "formeEsempi": ["orgoglioso", "orgogliosa"],
+      "esempi": ["Sono orgoglioso di te!", "La mamma è orgogliosa dei suoi figli.", "Sono orgogliosi della loro città."],
+      "traduzioni": { "en": "proud", "es": "orgulloso", "pt": "orgulhoso", "fr": "fier", "cs": "pyšný", "pl": "dumny", "tr": "gururlu", "de": "stolz", "ja": "誇りに思う、自慢の" }
+    },
+    {
+      "parola": "unico",
+      "forme": ["unica"],
+      "formeEsempi": ["unico"],
+      "esempi": ["È la mia unica sorella.", "È l'unico ristorante aperto.", "Questa è un'occasione unica."],
+      "traduzioni": { "en": "only; unique", "es": "único", "pt": "único", "fr": "unique, seul", "cs": "jediný", "pl": "jedyny", "tr": "tek, biricik", "de": "einzig", "ja": "ただ一人の、唯一の" }
+    },
+    {
+      "parola": "grazioso",
+      "forme": ["graziosa"],
+      "formeEsempi": ["grazioso"],
+      "esempi": ["Che bambina graziosa!", "Abbiamo affittato un appartamento grazioso.", "Indossa un vestito grazioso."],
+      "traduzioni": { "en": "pretty, charming", "es": "gracioso, bonito", "pt": "gracioso, bonitinho", "fr": "gracieux, joli", "cs": "půvabný", "pl": "uroczy, ładny", "tr": "zarif, sevimli", "de": "hübsch, anmutig", "ja": "かわいらしい" }
+    },
+    {
+      "parola": "perfino",
+      "forme": ["perfino"],
+      "esempi": ["Perfino il nonno ha ballato alla festa.", "Lavora sempre, perfino la domenica.", "È così facile che perfino un bambino lo capisce."],
+      "traduzioni": { "en": "even", "es": "incluso, hasta", "pt": "até, inclusive", "fr": "même", "cs": "dokonce", "pl": "nawet", "tr": "bile", "de": "sogar", "ja": "〜さえ" }
+    },
+    {
+      "parola": "qualunque",
+      "forme": ["qualunque"],
+      "esempi": ["Non è un ragazzo qualunque.", "Chiamami a qualunque ora.", "Prendi una sedia qualunque."],
+      "traduzioni": { "en": "any; ordinary («un topo qualunque» = just any mouse)", "es": "cualquiera", "pt": "qualquer", "fr": "quelconque, n’importe quel", "cs": "jakýkoli, obyčejný", "pl": "byle jaki, jakikolwiek", "tr": "herhangi bir, sıradan", "de": "irgendein, beliebig", "ja": "ありふれた、どんな〜でも" }
+    },
+    {
+      "parola": "potente",
+      "forme": ["potente"],
+      "esempi": ["È l'uomo più potente della città.", "Questa macchina ha un motore potente.", "Il re era ricco e potente."],
+      "traduzioni": { "en": "powerful", "es": "poderoso", "pt": "poderoso", "fr": "puissant", "cs": "mocný", "pl": "potężny", "tr": "güçlü, kudretli", "de": "mächtig", "ja": "力のある、強い" }
+    },
+    {
+      "parola": "illuminare",
+      "forme": ["illumini"],
+      "formeEsempi": ["illumina", "illuminano"],
+      "esempi": ["Il sole illumina la stanza.", "La luna illumina la strada.", "Le lanterne illuminano il giardino."],
+      "traduzioni": { "en": "to light up", "es": "iluminar", "pt": "iluminar", "fr": "éclairer", "cs": "osvětlovat", "pl": "oświetlać", "tr": "aydınlatmak", "de": "beleuchten, erhellen", "ja": "照らす" }
+    },
+    {
+      "parola": "scuotere",
+      "forme": ["scosso"],
+      "formeEsempi": ["scuote", "scuoti"],
+      "esempi": ["Il nonno scuote la testa: non è d'accordo.", "Ha scosso la testa e non ha risposto.", "Scuoti la bottiglia prima di aprirla."],
+      "traduzioni": { "en": "to shake («scuotere la testa» = to shake one's head)", "es": "sacudir («scuotere la testa» = negar con la cabeza)", "pt": "sacudir («scuotere la testa» = balançar a cabeça)", "fr": "secouer («scuotere la testa» = secouer la tête)", "cs": "zavrtět («scuotere la testa» = zavrtět hlavou)", "pl": "potrząsnąć («scuotere la testa» = pokręcić głową)", "tr": "sallamak («scuotere la testa» = başını iki yana sallamak)", "de": "schütteln («scuotere la testa» = den Kopf schütteln)", "ja": "振る（«scuotere la testa» = 首を横に振る）" }
+    },
+    {
+      "parola": "la lanterna",
+      "forme": ["lanterna"],
+      "formeEsempi": ["lanterne"],
+      "esempi": ["Di sera accendiamo una lanterna in giardino.", "Le lanterne rosse decorano la strada.", "Cammina nel bosco con una lanterna."],
+      "traduzioni": { "en": "lantern", "es": "farol, linterna", "pt": "lanterna", "fr": "lanterne", "cs": "lucerna", "pl": "latarnia, lampion", "tr": "fener", "de": "Laterne", "ja": "ちょうちん、ランタン" }
+    },
+    {
+      "parola": "sicuro di sé",
+      "forme": ["sicura"],
+      "formeEsempi": ["sicuro"],
+      "esempi": ["È una ragazza molto sicura di sé.", "Marco è sicuro di sé quando parla in pubblico.", "Non sono sicuro di sapere la risposta."],
+      "traduzioni": { "en": "sure; «sicuro di sé» = self-confident", "es": "seguro de sí mismo", "pt": "seguro de si", "fr": "sûr de soi", "cs": "sebejistý", "pl": "pewny siebie", "tr": "kendinden emin", "de": "selbstsicher", "ja": "自信のある" }
+    },
+    {
+      "parola": "il soffio",
+      "forme": ["soffio"],
+      "esempi": ["Con un soffio ha spento le candeline.", "Un soffio di vento ha chiuso la porta.", "Basta un soffio e il foglio vola via."],
+      "traduzioni": { "en": "puff, breath (of wind)", "es": "soplo", "pt": "sopro", "fr": "souffle", "cs": "závan, foukání", "pl": "podmuch", "tr": "üfleme, esinti", "de": "Hauch, Windstoß", "ja": "ひと吹き" }
+    },
+    {
+      "parola": "piegare",
+      "forme": ["piegare"],
+      "formeEsempi": ["piego", "piega"],
+      "esempi": ["Piego i vestiti e li metto nell'armadio.", "Il vento forte piega gli alberi.", "Piega le gambe quando sollevi una cassa."],
+      "traduzioni": { "en": "to bend, to fold", "es": "doblar", "pt": "dobrar, curvar", "fr": "plier", "cs": "ohnout", "pl": "zginać", "tr": "eğmek, katlamak", "de": "biegen, falten", "ja": "曲げる、たたむ" }
+    },
+    {
+      "parola": "spostarsi",
+      "forme": ["sposta"],
+      "formeEsempi": ["spostati"],
+      "esempi": ["Spostati, per favore: non vedo!", "La macchina non si sposta.", "Il gatto si sposta sul divano per stare al sole."],
+      "traduzioni": { "en": "to move (from a place)", "es": "moverse, apartarse", "pt": "mudar de lugar, sair do lugar", "fr": "se déplacer, bouger", "cs": "pohnout se, posunout se", "pl": "przesunąć się", "tr": "yerinden oynamak, kaymak", "de": "sich verschieben, zur Seite gehen", "ja": "動く、どく" }
+    },
+    {
+      "parola": "testardo",
+      "forme": ["testardo"],
+      "formeEsempi": ["testarda"],
+      "esempi": ["Mio fratello è testardo come un mulo.", "Non essere testarda: ascolta anche gli altri!", "È un bambino molto testardo."],
+      "traduzioni": { "en": "stubborn", "es": "testarudo, terco", "pt": "teimoso", "fr": "têtu", "cs": "tvrdohlavý", "pl": "uparty", "tr": "inatçı", "de": "stur", "ja": "がんこな" }
+    },
+    {
+      "parola": "confuso",
+      "forme": ["confusi"],
+      "formeEsempi": ["confuso", "confusa"],
+      "esempi": ["Dopo la spiegazione ero ancora più confuso.", "La strada è complicata e i turisti sono confusi.", "Sono confusa: non so che cosa scegliere."],
+      "traduzioni": { "en": "confused", "es": "confundido", "pt": "confuso", "fr": "perdu, confus", "cs": "zmatený", "pl": "zdezorientowany", "tr": "kafası karışık", "de": "verwirrt", "ja": "混乱した、わけがわからない" }
+    },
+    {
+      "parola": "scavare",
+      "forme": ["scava"],
+      "formeEsempi": ["scavano"],
+      "esempi": ["Il cane scava una buca in giardino.", "I bambini scavano nella sabbia.", "Il contadino scava la terra."],
+      "traduzioni": { "en": "to dig", "es": "excavar, cavar", "pt": "cavar", "fr": "creuser", "cs": "hrabat, kopat", "pl": "kopać, drążyć", "tr": "kazmak", "de": "graben", "ja": "掘る" }
+    },
+    {
+      "parola": "profondo",
+      "forme": ["profondi"],
+      "formeEsempi": ["profondo", "profonda"],
+      "esempi": ["Il lago è molto profondo.", "Fai un respiro profondo.", "Qui l'acqua è profonda: attenzione!"],
+      "traduzioni": { "en": "deep", "es": "profundo", "pt": "fundo, profundo", "fr": "profond", "cs": "hluboký", "pl": "głęboki", "tr": "derin", "de": "tief", "ja": "深い" }
+    },
+    {
+      "parola": "per colpa di",
+      "forme": ["colpa"],
+      "esempi": ["Siamo arrivati tardi per colpa del traffico.", "Non è colpa tua.", "Per colpa della pioggia la festa è rimandata."],
+      "traduzioni": { "en": "because of (something bad); «colpa» = fault", "es": "por culpa de", "pt": "por culpa de", "fr": "à cause de, par la faute de", "cs": "kvůli, vinou", "pl": "przez, z winy", "tr": "yüzünden", "de": "wegen, schuld an", "ja": "〜のせいで" }
+    },
+    {
+      "parola": "crollare",
+      "forme": ["crollerò"],
+      "formeEsempi": ["crollato", "crollata", "crolla"],
+      "esempi": ["Il vecchio ponte è crollato.", "Con il terremoto la casa è crollata.", "Se non lo ripariamo, il muro crolla."],
+      "traduzioni": { "en": "to collapse", "es": "derrumbarse", "pt": "desabar", "fr": "s’effondrer", "cs": "zřítit se", "pl": "zawalić się", "tr": "çökmek, yıkılmak", "de": "einstürzen", "ja": "くずれる" }
+    },
+    {
+      "parola": "pericoloso",
+      "forme": ["pericoloso"],
+      "formeEsempi": ["pericolosa"],
+      "esempi": ["Questa strada è pericolosa di notte.", "Nuotare qui è pericoloso.", "Lo squalo è un animale pericoloso."],
+      "traduzioni": { "en": "dangerous", "es": "peligroso", "pt": "perigoso", "fr": "dangereux", "cs": "nebezpečný", "pl": "niebezpieczny", "tr": "tehlikeli", "de": "gefährlich", "ja": "危険な" }
+    },
+    {
+      "parola": "migliore",
+      "forme": ["migliore"],
+      "esempi": ["Sei il mio migliore amico.", "Questa è la pizza migliore della città.", "Domani sarà una giornata migliore."],
+      "traduzioni": { "en": "better; the best", "es": "mejor", "pt": "melhor", "fr": "meilleur", "cs": "lepší, nejlepší", "pl": "lepszy, najlepszy", "tr": "daha iyi, en iyi", "de": "besser, der beste", "ja": "より良い、いちばん良い" }
+    },
+    {
+      "parola": "chiunque",
+      "forme": ["chiunque"],
+      "esempi": ["Chiunque può imparare l'italiano.", "Non aprire la porta a chiunque.", "È più gentile di chiunque altro."],
+      "traduzioni": { "en": "anyone, anybody", "es": "cualquiera", "pt": "qualquer um", "fr": "n’importe qui", "cs": "kdokoli", "pl": "ktokolwiek", "tr": "herkes, kim olursa", "de": "jeder, irgendjemand", "ja": "だれでも" }
+    },
+    {
+      "parola": "il matrimonio",
+      "forme": ["matrimonio"],
+      "esempi": ["Il matrimonio di mia cugina è a giugno.", "Al matrimonio c'erano cento invitati.", "Festeggiano dieci anni di matrimonio."],
+      "traduzioni": { "en": "wedding; marriage", "es": "boda; matrimonio", "pt": "casamento", "fr": "mariage", "cs": "svatba", "pl": "ślub, wesele", "tr": "düğün, evlilik", "de": "Hochzeit", "ja": "結婚式" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a village in Japan, under an old wall, lives a family of mice. The father is old and wise. The mother is sweet. The daughter is small, pretty and kind.",
+        "One day the father says: “Our daughter is special. Her husband must be strong, the strongest in the world!”. And the mother answers: “Yes! Let's go and look for him”.",
+        "First they go to the sun. The sun is big, yellow and warm. “Sun, you are strong. Will you marry our daughter?” The sun laughs: “Me? No, the cloud is stronger than me. When it comes, I don't shine any more”.",
+        "So they go to the cloud. The cloud is big, grey and heavy. “Cloud, you are strong. Will you marry our daughter?” “Me? No, the wind is stronger than me. When it comes, I run away”.",
+        "So they go to the wind. The wind is fast, cold and noisy. “Wind, you are strong. Will you marry our daughter?” “Me? No. The wall is stronger than me. I blow and blow, but the wall doesn't move”.",
+        "So they go to the wall. The wall is tall, old and hard. “Wall, you are strong. Will you marry our daughter?” The wall answers, a little sad: “I'm not strong. There's an animal that makes lots of little holes in me. It's the mouse!”.",
+        "Father Mouse and Mother Mouse look at each other. The strongest in the world is… a mouse! From a little hole in the wall comes a young mouse, nice and brave. The little mouse smiles. A few days later there's a big party: the little mouse marries the young mouse.",
+        "Mother Mouse laughs: “We looked far away, but the right husband is here, behind our house!”. That's the moral of the tale: what we look for is often already close to us. And even the small can be strong."
+      ],
+      "b1": [
+        "In Japan this tale is called «ねずみの嫁入り», Nezumi no yomeiri, and almost every child knows it. It begins with two old mice, very proud of their only daughter: to them she was the prettiest little mouse in the village, more elegant even than the daughters of the rice merchant.",
+        "“A girl like her can't marry just any mouse,” said the father. “We'll find her the most powerful husband in the world.” And one morning they set off.",
+        "The first was the sun. “Who is stronger than you, who light up the whole earth?” But the sun shook its head: “You're wrong. The cloud is stronger than me: when it covers me, my light becomes weaker than a lantern's”.",
+        "The cloud, however, was less sure of itself than it seemed: “Stronger than me? The wind. One puff from it and I disappear, faster than a thought”. The wind, in turn, pointed to an old earthen wall: “I can bend the tallest trees on the mountain, but that wall doesn't move an inch. It's much more stubborn than me”.",
+        "The two mice were more and more tired and more and more confused when they arrived in front of the wall. The wall listened to them and sighed: “The strongest? Not me. Every night someone digs ever deeper holes inside me, and one day, because of them, I'll collapse. It's the mouse, the smallest of animals and the most dangerous for me”.",
+        "So, after asking heaven and earth, the parents understood that the best husband was a mouse: the young one who lived right in the hole in that wall, less rich than a merchant but kinder than anyone else. The wedding was the happiest the village had ever seen.",
+        "The Japanese moral is simple: we often look far away, in bigger and more famous things, for what is already close to us. And everyone, even the smallest, is stronger than someone else."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un pueblo de Japón, debajo de un viejo muro, vive una familia de ratones. El papá es viejo y sabio. La mamá es dulce. La hija es pequeña, guapa y amable.",
+        "Un día el papá dice: «Nuestra hija es especial. Su novio tiene que ser fuerte, ¡el más fuerte del mundo!». Y la mamá responde: «¡Sí! Vamos a buscarlo».",
+        "Primero van a ver al sol. El sol es grande, amarillo y caliente. «Sol, tú eres fuerte. ¿Quieres casarte con nuestra hija?» El sol se ríe: «¿Yo? No, la nube es más fuerte que yo. Cuando llega, ya no brillo».",
+        "Entonces van a ver a la nube. La nube es grande, gris y pesada. «Nube, tú eres fuerte. ¿Quieres casarte con nuestra hija?» «¿Yo? No, el viento es más fuerte que yo. Cuando llega, me escapo».",
+        "Entonces van a ver al viento. El viento es rápido, frío y ruidoso. «Viento, tú eres fuerte. ¿Quieres casarte con nuestra hija?» «¿Yo? No. El muro es más fuerte que yo. Yo soplo y soplo, pero el muro no se mueve».",
+        "Entonces van a ver al muro. El muro es alto, viejo y duro. «Muro, tú eres fuerte. ¿Quieres casarte con nuestra hija?» El muro responde, un poco triste: «Yo no soy fuerte. Hay un animal que me hace muchos agujeritos. ¡Es el ratón!».",
+        "Papá ratón y mamá ratona se miran. El más fuerte del mundo es… ¡un ratón! De un agujerito del muro sale un ratón joven, simpático y valiente. La ratoncita sonríe. Pocos días después hay una gran fiesta: la ratoncita se casa con el joven ratón.",
+        "Mamá ratona se ríe: «Buscamos lejos, ¡pero el novio adecuado está aquí, detrás de casa!». Es la moraleja del cuento: a menudo lo que buscamos ya está cerca de nosotros. Y también quien es pequeño puede ser fuerte."
+      ],
+      "b1": [
+        "En Japón este cuento se llama «ねずみの嫁入り», Nezumi no yomeiri, y lo conocen casi todos los niños. Empieza con dos ratones ancianos, muy orgullosos de su única hija: para ellos era la ratoncita más graciosa del pueblo, más elegante incluso que las hijas del comerciante de arroz.",
+        "«Una chica así no puede casarse con un ratón cualquiera», decía el padre. «Le encontraremos el marido más poderoso del mundo». Y una mañana se pusieron en camino.",
+        "El primero fue el sol. «¿Quién es más fuerte que tú, que iluminas toda la tierra?». Pero el sol negó con la cabeza: «Os equivocáis. La nube es más fuerte que yo: cuando me cubre, mi luz se vuelve más débil que la de un farol».",
+        "La nube, sin embargo, estaba menos segura de sí misma de lo que parecía: «¿Más fuerte que yo? El viento. Basta un soplo suyo y desaparezco, más rápido que un pensamiento». El viento, a su vez, señaló un viejo muro de tierra: «Puedo doblar los árboles más altos de la montaña, pero ese muro no se mueve ni un centímetro. Es mucho más testarudo que yo».",
+        "Los dos ratones estaban cada vez más cansados y cada vez más confundidos cuando llegaron delante del muro. El muro los escuchó y suspiró: «¿El más fuerte? Yo no. Cada noche alguien excava dentro de mí agujeros cada vez más profundos, y un día, por su culpa, me derrumbaré. Es el ratón, el más pequeño de los animales y el más peligroso para mí».",
+        "Así, después de haber preguntado al cielo y a la tierra, los padres comprendieron que el mejor marido era un ratón: el joven que vivía justo en el agujero de aquel muro, menos rico que un comerciante pero más amable que cualquiera. La boda fue la más alegre que el pueblo había visto jamás.",
+        "La moraleja japonesa es sencilla: a menudo buscamos lejos, en las cosas más grandes y más famosas, lo que ya está cerca de nosotros. Y cada uno, incluso el más pequeño, es más fuerte que algún otro."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Num vilarejo do Japão, embaixo de um muro velho, mora uma família de ratos. O papai é velho e sábio. A mamãe é doce. A filha é pequena, bonita e gentil.",
+        "Um dia o papai diz: «A nossa filha é especial. O noivo dela tem que ser forte, o mais forte do mundo!». E a mamãe responde: «Sim! Vamos procurá-lo».",
+        "Primeiro eles vão até o sol. O sol é grande, amarelo e quente. «Sol, você é forte. Quer se casar com a nossa filha?» O sol ri: «Eu? Não, a nuvem é mais forte do que eu. Quando ela chega, eu não brilho mais».",
+        "Então vão até a nuvem. A nuvem é grande, cinza e pesada. «Nuvem, você é forte. Quer se casar com a nossa filha?» «Eu? Não, o vento é mais forte do que eu. Quando ele chega, eu fujo».",
+        "Então vão até o vento. O vento é rápido, frio e barulhento. «Vento, você é forte. Quer se casar com a nossa filha?» «Eu? Não. O muro é mais forte do que eu. Eu sopro, sopro, mas o muro não se mexe».",
+        "Então vão até o muro. O muro é alto, velho e duro. «Muro, você é forte. Quer se casar com a nossa filha?» O muro responde, um pouco triste: «Eu não sou forte. Tem um animal que faz muitos buraquinhos em mim. É o rato!».",
+        "O papai rato e a mamãe rata se olham. O mais forte do mundo é… um rato! De um buraquinho no muro sai um rato jovem, simpático e corajoso. A ratinha sorri. Poucos dias depois há uma grande festa: a ratinha se casa com o jovem rato.",
+        "A mamãe rata ri: «Procuramos longe, mas o noivo certo está aqui, atrás de casa!». Essa é a moral do conto: muitas vezes o que procuramos já está perto de nós. E também quem é pequeno pode ser forte."
+      ],
+      "b1": [
+        "No Japão este conto se chama «ねずみの嫁入り», Nezumi no yomeiri, e quase todas as crianças o conhecem. Começa com dois ratos idosos, muito orgulhosos da sua única filha: para eles era a ratinha mais graciosa do vilarejo, mais elegante até do que as filhas do comerciante de arroz.",
+        "«Uma moça assim não pode se casar com um rato qualquer», dizia o pai. «Vamos encontrar para ela o marido mais poderoso do mundo». E uma manhã partiram.",
+        "O primeiro foi o sol. «Quem é mais forte que você, que ilumina a terra inteira?». Mas o sol balançou a cabeça: «Vocês se enganam. A nuvem é mais forte do que eu: quando ela me cobre, a minha luz fica mais fraca que a de uma lanterna».",
+        "A nuvem, porém, era menos segura de si do que parecia: «Mais forte do que eu? O vento. Basta um sopro dele e eu sumo, mais rápido que um pensamento». O vento, por sua vez, apontou um velho muro de terra: «Posso dobrar as árvores mais altas da montanha, mas aquele muro não sai do lugar nem um centímetro. É muito mais teimoso do que eu».",
+        "Os dois ratos estavam cada vez mais cansados e cada vez mais confusos quando chegaram diante do muro. O muro os escutou e suspirou: «O mais forte? Eu não. Toda noite alguém cava dentro de mim buracos cada vez mais fundos, e um dia, por culpa dele, vou desabar. É o rato, o menor dos animais e o mais perigoso para mim».",
+        "Assim, depois de terem perguntado ao céu e à terra, os pais entenderam que o melhor marido era um rato: o jovem que morava justamente no buraco daquele muro, menos rico que um comerciante mas mais gentil que qualquer outro. O casamento foi o mais alegre que o vilarejo já tinha visto.",
+        "A moral japonesa é simples: muitas vezes procuramos longe, nas coisas maiores e mais famosas, o que já está perto de nós. E cada um, até o menor, é mais forte do que algum outro."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans un village du Japon, sous un vieux mur, habite une famille de souris. Le papa est vieux et sage. La maman est douce. La fille est petite, jolie et gentille.",
+        "Un jour, le papa dit : « Notre fille est exceptionnelle. Son mari doit être fort, le plus fort du monde ! ». Et la maman répond : « Oui ! Allons le chercher ».",
+        "D’abord, ils vont voir le soleil. Le soleil est grand, jaune et chaud. « Soleil, tu es fort. Veux-tu épouser notre fille ? » Le soleil rit : « Moi ? Non, le nuage est plus fort que moi. Quand il arrive, je ne brille plus ».",
+        "Alors ils vont voir le nuage. Le nuage est grand, gris et lourd. « Nuage, tu es fort. Veux-tu épouser notre fille ? » « Moi ? Non, le vent est plus fort que moi. Quand il arrive, je m’enfuis ».",
+        "Alors ils vont voir le vent. Le vent est rapide, froid et bruyant. « Vent, tu es fort. Veux-tu épouser notre fille ? » « Moi ? Non. Le mur est plus fort que moi. Je souffle, je souffle, mais le mur ne bouge pas ».",
+        "Alors ils vont voir le mur. Le mur est haut, vieux et dur. « Mur, tu es fort. Veux-tu épouser notre fille ? » Le mur répond, un peu triste : « Je ne suis pas fort. Il y a un animal qui fait plein de petits trous en moi. C’est la souris ! ».",
+        "Papa souris et maman souris se regardent. Le plus fort du monde, c’est… une souris ! D’un petit trou dans le mur sort une jeune souris, sympathique et courageuse. La petite souris sourit. Quelques jours plus tard, il y a une grande fête : la petite souris épouse la jeune souris.",
+        "Maman souris rit : « Nous avons cherché loin, mais le bon mari est ici, derrière la maison ! ». C’est la morale du conte : souvent, ce que nous cherchons est déjà près de nous. Et même celui qui est petit peut être fort."
+      ],
+      "b1": [
+        "Au Japon, ce conte s’appelle «ねずみの嫁入り», Nezumi no yomeiri, et presque tous les enfants le connaissent. Il commence avec deux vieilles souris, très fières de leur fille unique : pour elles, c’était la petite souris la plus gracieuse du village, plus élégante même que les filles du marchand de riz.",
+        "« Une fille comme elle ne peut pas épouser une souris quelconque », disait le père. « Nous lui trouverons le mari le plus puissant du monde. » Et un matin, ils sont partis.",
+        "Le premier a été le soleil. « Qui est plus fort que toi, qui éclaires toute la terre ? ». Mais le soleil a secoué la tête : « Vous vous trompez. Le nuage est plus fort que moi : quand il me couvre, ma lumière devient plus faible que celle d’une lanterne ».",
+        "Le nuage, pourtant, était moins sûr de lui qu’il n’en avait l’air : « Plus fort que moi ? Le vent. Il suffit d’un de ses souffles et je disparais, plus vite qu’une pensée ». Le vent, à son tour, a montré un vieux mur de terre : « Je peux plier les arbres les plus hauts de la montagne, mais ce mur ne bouge pas d’un centimètre. Il est beaucoup plus têtu que moi ».",
+        "Les deux souris étaient de plus en plus fatiguées et de plus en plus perdues quand elles sont arrivées devant le mur. Le mur les a écoutées et a soupiré : « Le plus fort ? Pas moi. Chaque nuit, quelqu’un creuse en moi des trous de plus en plus profonds, et un jour, à cause de lui, je m’effondrerai. C’est la souris, le plus petit des animaux et le plus dangereux pour moi ».",
+        "Ainsi, après avoir interrogé le ciel et la terre, les parents ont compris que le meilleur mari était une souris : le jeune qui vivait justement dans le trou de ce mur, moins riche qu’un marchand mais plus gentil que n’importe qui. Le mariage a été le plus joyeux que le village ait jamais vu.",
+        "La morale japonaise est simple : souvent, nous cherchons loin, dans les choses plus grandes et plus célèbres, ce qui est déjà près de nous. Et chacun, même le plus petit, est plus fort que quelqu’un d’autre."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V jedné japonské vesnici, pod starou zdí, bydlí myší rodina. Tatínek je starý a moudrý. Maminka je laskavá. Dcera je malá, hezká a hodná.",
+        "Jednoho dne tatínek řekne: „Naše dcera je výjimečná. Její ženich musí být silný, nejsilnější na světě!“. A maminka odpoví: „Ano! Pojďme ho hledat.“",
+        "Nejdřív jdou za sluncem. Slunce je velké, žluté a teplé. „Slunce, ty jsi silné. Chceš si vzít naši dceru?“ Slunce se směje: „Já? Ne, mrak je silnější než já. Když přijde, už nesvítím.“",
+        "Tak jdou za mrakem. Mrak je velký, šedý a těžký. „Mraku, ty jsi silný. Chceš si vzít naši dceru?“ „Já? Ne, vítr je silnější než já. Když přijde, uteču.“",
+        "Tak jdou za větrem. Vítr je rychlý, studený a hlučný. „Větře, ty jsi silný. Chceš si vzít naši dceru?“ „Já? Ne. Zeď je silnější než já. Foukám a foukám, ale zeď se ani nehne.“",
+        "Tak jdou za zdí. Zeď je vysoká, stará a tvrdá. „Zdi, ty jsi silná. Chceš si vzít naši dceru?“ Zeď odpoví trochu smutně: „Já silná nejsem. Je tu zvíře, které do mě dělá spoustu malých děr. Je to myš!“",
+        "Tatínek myš a maminka myš se na sebe podívají. Nejsilnější na světě je… myš! Z malé díry ve zdi vyleze mladý myšák, milý a odvážný. Myška se usměje. O pár dní později je velká slavnost: myška si bere mladého myšáka.",
+        "Maminka myš se směje: „Hledali jsme daleko, a ten pravý ženich je tady, za domem!“. To je ponaučení z pohádky: to, co hledáme, je často už blízko nás. A i ten, kdo je malý, může být silný."
+      ],
+      "b1": [
+        "V Japonsku se tahle pohádka jmenuje «ねずみの嫁入り», Nezumi no jomeiri, a znají ji skoro všechny děti. Začíná dvěma starými myšmi, které byly velmi pyšné na svou jedinou dceru: podle nich to byla nejpůvabnější myška ve vesnici, elegantnější dokonce než dcery obchodníka s rýží.",
+        "„Taková dívka si nemůže vzít jen tak nějakou myš,“ říkal otec. „Najdeme jí nejmocnějšího manžela na světě.“ A jednoho rána se vydali na cestu.",
+        "Prvním bylo slunce. „Kdo je silnější než ty, které osvětluješ celou zemi?“. Ale slunce zavrtělo hlavou: „Mýlíte se. Mrak je silnější než já: když mě zakryje, moje světlo je slabší než světlo lucerny.“",
+        "Mrak si ale nebyl tak jistý sám sebou, jak se zdálo: „Silnější než já? Vítr. Stačí jeden jeho závan a zmizím, rychleji než myšlenka.“ Vítr zase ukázal na starou hliněnou zeď: „Dokážu ohnout nejvyšší stromy na horách, ale ta zeď se nepohne ani o centimetr. Je mnohem tvrdohlavější než já.“",
+        "Obě myši byly čím dál unavenější a čím dál zmatenější, když dorazily ke zdi. Zeď je vyslechla a povzdechla si: „Nejsilnější? Já ne. Každou noc do mě někdo hrabe čím dál hlubší díry a jednoho dne se kvůli němu zřítím. Je to myš, nejmenší ze zvířat a pro mě to nejnebezpečnější.“",
+        "A tak rodiče, když se vyptali nebe i země, pochopili, že nejlepší manžel je myš: ten mladík, který bydlel přímo v díře v té zdi, méně bohatý než obchodník, ale laskavější než kdokoli jiný. Byla to ta nejveselejší svatba, jakou vesnice kdy viděla.",
+        "Japonské ponaučení je prosté: často hledáme daleko, ve větších a slavnějších věcech, to, co je už blízko nás. A každý, i ten nejmenší, je silnější než někdo jiný."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W pewnej japońskiej wiosce, pod starym murem, mieszka rodzina myszy. Tata jest stary i mądry. Mama jest łagodna. Córka jest mała, ładna i miła.",
+        "Pewnego dnia tata mówi: „Nasza córka jest wyjątkowa. Jej mąż musi być silny, najsilniejszy na świecie!”. A mama odpowiada: „Tak! Chodźmy go szukać”.",
+        "Najpierw idą do słońca. Słońce jest duże, żółte i ciepłe. „Słońce, ty jesteś silne. Chcesz poślubić naszą córkę?” Słońce się śmieje: „Ja? Nie, chmura jest silniejsza ode mnie. Kiedy przychodzi, już nie świecę”.",
+        "Więc idą do chmury. Chmura jest duża, szara i ciężka. „Chmuro, ty jesteś silna. Chcesz poślubić naszą córkę?” „Ja? Nie, wiatr jest silniejszy ode mnie. Kiedy przychodzi, uciekam”.",
+        "Więc idą do wiatru. Wiatr jest szybki, zimny i hałaśliwy. „Wietrze, ty jesteś silny. Chcesz poślubić naszą córkę?” „Ja? Nie. Mur jest silniejszy ode mnie. Dmucham i dmucham, ale mur się nie rusza”.",
+        "Więc idą do muru. Mur jest wysoki, stary i twardy. „Murze, ty jesteś silny. Chcesz poślubić naszą córkę?” Mur odpowiada, trochę smutny: „Nie jestem silny. Jest takie zwierzę, które robi we mnie mnóstwo małych dziurek. To mysz!”.",
+        "Tata mysz i mama mysz patrzą na siebie. Najsilniejszy na świecie jest… mysz! Z małej dziurki w murze wychodzi młody mysz, sympatyczny i odważny. Myszka się uśmiecha. Kilka dni później jest wielkie wesele: myszka wychodzi za młodego mysza.",
+        "Mama mysz się śmieje: „Szukaliśmy daleko, a właściwy mąż jest tutaj, za domem!”. To jest morał baśni: to, czego szukamy, często jest już blisko nas. I nawet ktoś mały może być silny."
+      ],
+      "b1": [
+        "W Japonii ta baśń nazywa się «ねずみの嫁入り», Nezumi no yomeiri, i znają ją prawie wszystkie dzieci. Zaczyna się od dwóch starych myszy, bardzo dumnych ze swojej jedynej córki: dla nich była to najładniejsza myszka w wiosce, bardziej elegancka nawet od córek kupca ryżowego.",
+        "„Taka dziewczyna nie może wyjść za byle jaką mysz” – mówił ojciec. – „Znajdziemy jej najpotężniejszego męża na świecie”. I pewnego ranka wyruszyli.",
+        "Pierwsze było słońce. „Kto jest silniejszy od ciebie, które oświetlasz całą ziemię?”. Ale słońce pokręciło głową: „Mylicie się. Chmura jest silniejsza ode mnie: kiedy mnie zasłania, moje światło staje się słabsze niż światło latarni”.",
+        "Chmura jednak była mniej pewna siebie, niż się wydawało: „Silniejszy ode mnie? Wiatr. Wystarczy jeden jego podmuch i znikam, szybciej niż myśl”. Wiatr z kolei wskazał stary gliniany mur: „Potrafię zgiąć najwyższe drzewa w górach, ale ten mur nie przesunie się ani o centymetr. Jest dużo bardziej uparty ode mnie”.",
+        "Dwie myszy były coraz bardziej zmęczone i coraz bardziej zdezorientowane, kiedy stanęły przed murem. Mur ich wysłuchał i westchnął: „Najsilniejszy? Nie ja. Każdej nocy ktoś drąży we mnie coraz głębsze dziury i pewnego dnia przez niego się zawalę. To mysz, najmniejsze ze zwierząt i najgroźniejsze dla mnie”.",
+        "I tak, po wypytaniu nieba i ziemi, rodzice zrozumieli, że najlepszym mężem jest mysz: młodzieniec, który mieszkał właśnie w dziurze tego muru, mniej bogaty od kupca, ale milszy niż ktokolwiek inny. Wesele było najweselsze, jakie wioska kiedykolwiek widziała.",
+        "Japoński morał jest prosty: często szukamy daleko, w rzeczach większych i sławniejszych, tego, co jest już blisko nas. A każdy, nawet najmniejszy, jest silniejszy od kogoś innego."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Japonya'da bir köyde, eski bir duvarın altında bir fare ailesi yaşar. Baba yaşlı ve bilgedir. Anne tatlıdır. Kızları küçük, güzel ve kibardır.",
+        "Bir gün baba der ki: «Kızımız çok özel. Kocası güçlü olmalı, dünyanın en güçlüsü!». Anne de cevap verir: «Evet! Hadi onu aramaya gidelim»."
+        ,
+        "Önce güneşe giderler. Güneş büyük, sarı ve sıcaktır. «Güneş, sen güçlüsün. Kızımızla evlenir misin?» Güneş güler: «Ben mi? Hayır, bulut benden güçlü. O gelince ben artık parlamam»."
+        ,
+        "Sonra buluta giderler. Bulut büyük, gri ve ağırdır. «Bulut, sen güçlüsün. Kızımızla evlenir misin?» «Ben mi? Hayır, rüzgâr benden güçlü. O gelince ben kaçarım»."
+        ,
+        "Sonra rüzgâra giderler. Rüzgâr hızlı, soğuk ve gürültülüdür. «Rüzgâr, sen güçlüsün. Kızımızla evlenir misin?» «Ben mi? Hayır. Duvar benden güçlü. Üflerim, üflerim ama duvar yerinden kıpırdamaz»."
+        ,
+        "Sonra duvara giderler. Duvar yüksek, eski ve serttir. «Duvar, sen güçlüsün. Kızımızla evlenir misin?» Duvar biraz üzgün cevap verir: «Ben güçlü değilim. İçimde bir sürü küçük delik açan bir hayvan var. O da fare!»."
+        ,
+        "Baba fare ile anne fare birbirlerine bakar. Dünyanın en güçlüsü… bir fare! Duvardaki küçük bir delikten genç, sevimli ve cesur bir fare çıkar. Küçük fare gülümser. Birkaç gün sonra büyük bir düğün olur: küçük fare genç fareyle evlenir."
+        ,
+        "Anne fare güler: «Uzaklarda aradık, oysa doğru damat burada, evin arkasındaymış!». Masalın ana fikri şu: aradığımız şey çoğu zaman zaten yakınımızdadır. Küçük olan da güçlü olabilir."
+      ],
+      "b1": [
+        "Japonya'da bu masalın adı «ねずみの嫁入り», Nezumi no yomeiri'dir ve neredeyse bütün çocuklar onu bilir. Biricik kızlarıyla çok gurur duyan iki yaşlı fareyle başlar: onlara göre kızları köyün en zarif faresiydi, hatta pirinç tüccarının kızlarından bile daha şıktı."
+        ,
+        "«Böyle bir kız herhangi bir fareyle evlenemez», diyordu baba. «Ona dünyanın en güçlü kocasını bulacağız.» Ve bir sabah yola çıktılar."
+        ,
+        "İlk durak güneş oldu. «Bütün dünyayı aydınlatan sen, senden daha güçlü kim olabilir?». Ama güneş başını iki yana salladı: «Yanılıyorsunuz. Bulut benden güçlü: beni örttüğünde ışığım bir fenerin ışığından bile zayıf kalır»."
+        ,
+        "Bulut ise göründüğü kadar kendinden emin değildi: «Benden güçlü mü? Rüzgâr. Bir esintisi yeter, düşünceden bile hızlı kaybolurum». Rüzgâr da sırası gelince eski bir toprak duvarı gösterdi: «Dağdaki en yüksek ağaçları eğebilirim ama o duvar bir santim bile kımıldamaz. Benden çok daha inatçı»."
+        ,
+        "İki fare duvarın önüne vardıklarında giderek daha yorgun, giderek daha şaşkındılar. Duvar onları dinledi ve iç çekti: «En güçlü mü? Ben değilim. Her gece biri içimde gittikçe derinleşen delikler kazıyor ve bir gün onun yüzünden çökeceğim. O da fare: hayvanların en küçüğü ve benim için en tehlikelisi»."
+        ,
+        "Böylece göğe de yere de sorduktan sonra anne baba, en iyi kocanın bir fare olduğunu anladı: tam da o duvarın deliğinde yaşayan, bir tüccardan daha az zengin ama herkesten daha kibar genç fare. Düğün, köyün o güne kadar gördüğü en neşeli düğün oldu."
+        ,
+        "Japon masalının ana fikri basittir: çoğu zaman, zaten yakınımızda olanı uzaklarda, daha büyük ve daha ünlü şeylerde ararız. Ve herkes, en küçüğü bile, birilerinden daha güçlüdür."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem Dorf in Japan wohnt unter einer alten Mauer eine Mäusefamilie. Der Vater ist alt und weise. Die Mutter ist lieb. Die Tochter ist klein, hübsch und freundlich.",
+        "Eines Tages sagt der Vater: „Unsere Tochter ist etwas Besonderes. Ihr Bräutigam muss stark sein, der Stärkste der Welt!“. Und die Mutter antwortet: „Ja! Gehen wir ihn suchen.“",
+        "Zuerst gehen sie zur Sonne. Die Sonne ist groß, gelb und warm. „Sonne, du bist stark. Willst du unsere Tochter heiraten?“ Die Sonne lacht: „Ich? Nein, die Wolke ist stärker als ich. Wenn sie kommt, scheine ich nicht mehr.“",
+        "Also gehen sie zur Wolke. Die Wolke ist groß, grau und schwer. „Wolke, du bist stark. Willst du unsere Tochter heiraten?“ „Ich? Nein, der Wind ist stärker als ich. Wenn er kommt, laufe ich weg.“",
+        "Also gehen sie zum Wind. Der Wind ist schnell, kalt und laut. „Wind, du bist stark. Willst du unsere Tochter heiraten?“ „Ich? Nein. Die Mauer ist stärker als ich. Ich blase und blase, aber die Mauer bewegt sich nicht.“",
+        "Also gehen sie zur Mauer. Die Mauer ist hoch, alt und hart. „Mauer, du bist stark. Willst du unsere Tochter heiraten?“ Die Mauer antwortet ein bisschen traurig: „Ich bin nicht stark. Es gibt ein Tier, das viele kleine Löcher in mich macht. Es ist die Maus!“.",
+        "Vater Maus und Mutter Maus sehen sich an. Der Stärkste der Welt ist … eine Maus! Aus einem kleinen Loch in der Mauer kommt ein junger Mäuserich, nett und mutig. Die kleine Maus lächelt. Ein paar Tage später gibt es ein großes Fest: Die kleine Maus heiratet den jungen Mäuserich.",
+        "Mutter Maus lacht: „Wir haben weit weg gesucht, aber der richtige Bräutigam ist hier, hinter dem Haus!“. Das ist die Moral des Märchens: Was wir suchen, ist oft schon ganz nah. Und auch wer klein ist, kann stark sein."
+      ],
+      "b1": [
+        "In Japan heißt dieses Märchen «ねずみの嫁入り», Nezumi no yomeiri, und fast alle Kinder kennen es. Es beginnt mit zwei alten Mäusen, die sehr stolz auf ihre einzige Tochter waren: Für sie war sie die anmutigste kleine Maus im Dorf, eleganter sogar als die Töchter des Reishändlers.",
+        "„So ein Mädchen kann nicht irgendeine Maus heiraten“, sagte der Vater. „Wir finden ihr den mächtigsten Ehemann der Welt.“ Und eines Morgens machten sie sich auf den Weg.",
+        "Die Erste war die Sonne. „Wer ist stärker als du, die du die ganze Erde erhellst?“. Aber die Sonne schüttelte den Kopf: „Ihr irrt euch. Die Wolke ist stärker als ich: Wenn sie mich bedeckt, wird mein Licht schwächer als das einer Laterne.“",
+        "Die Wolke war allerdings weniger selbstsicher, als es schien: „Stärker als ich? Der Wind. Ein Hauch von ihm, und ich verschwinde, schneller als ein Gedanke.“ Der Wind wiederum zeigte auf eine alte Lehmmauer: „Ich kann die höchsten Bäume auf dem Berg biegen, aber diese Mauer rührt sich keinen Zentimeter. Sie ist viel sturer als ich.“",
+        "Die beiden Mäuse waren immer müder und immer verwirrter, als sie vor der Mauer ankamen. Die Mauer hörte ihnen zu und seufzte: „Der Stärkste? Ich nicht. Jede Nacht gräbt jemand immer tiefere Löcher in mich, und eines Tages werde ich seinetwegen einstürzen. Es ist die Maus, das kleinste der Tiere und für mich das gefährlichste.“",
+        "So verstanden die Eltern, nachdem sie Himmel und Erde gefragt hatten, dass der beste Ehemann eine Maus war: der junge Mäuserich, der genau im Loch dieser Mauer wohnte, weniger reich als ein Händler, aber freundlicher als jeder andere. Die Hochzeit war die fröhlichste, die das Dorf je gesehen hatte.",
+        "Die japanische Moral ist einfach: Oft suchen wir weit weg, in größeren und berühmteren Dingen, was schon ganz nah ist. Und jeder, auch der Kleinste, ist stärker als jemand anderes."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "日本のある村の、古い塀の下に、ネズミの家族が住んでいます。お父さんは年をとっていて、かしこいです。お母さんはやさしいです。娘は小さくて、かわいくて、気立てがいいです。",
+        "ある日、お父さんが言います。「うちの娘は特別だ。お婿さんは強くなくてはいけない。世界でいちばん強い者だ！」　お母さんが答えます。「そうね！　探しに行きましょう。」",
+        "まず、お日さまのところへ行きます。お日さまは大きくて、黄色くて、あたたかいです。「お日さま、あなたは強い。うちの娘と結婚してくれませんか？」　お日さまは笑います。「わたし？　いいえ、雲のほうがわたしより強い。雲が来ると、わたしはもう輝けないのです。」",
+        "そこで、雲のところへ行きます。雲は大きくて、灰色で、重いです。「雲さん、あなたは強い。うちの娘と結婚してくれませんか？」「わたし？　いいえ、風のほうがわたしより強い。風が来ると、わたしは逃げてしまうのです。」",
+        "そこで、風のところへ行きます。風は速くて、冷たくて、うるさいです。「風さん、あなたは強い。うちの娘と結婚してくれませんか？」「わたし？　いいえ。塀のほうがわたしより強い。どんなに吹いても、塀は動きません。」",
+        "そこで、塀のところへ行きます。塀は高くて、古くて、かたいです。「塀さん、あなたは強い。うちの娘と結婚してくれませんか？」　塀は少し悲しそうに答えます。「わたしは強くありません。わたしにたくさん小さな穴をあける動物がいるのです。それはネズミです！」",
+        "お父さんネズミとお母さんネズミは顔を見合わせます。世界でいちばん強いのは……ネズミ！　塀の小さな穴から、感じがよくて勇気のある若いネズミが出てきます。娘はにっこりします。何日かして、大きなお祝いがあります。娘は若いネズミと結婚するのです。",
+        "お母さんネズミは笑います。「遠くを探したけれど、ぴったりのお婿さんはここ、家の裏にいたのね！」　これがこのお話の教訓です。探しているものは、たいてい、もう近くにあります。そして、小さな者も強くなれるのです。"
+      ],
+      "b1": [
+        "日本ではこの話は「ねずみの嫁入り」と呼ばれ、ほとんどの子どもが知っています。お話は、ひとり娘をとても自慢に思っている年老いたネズミの夫婦から始まります。二匹にとって、娘は村でいちばんかわいらしいネズミで、米問屋の娘たちよりも上品なほどでした。",
+        "「こんな娘を、ありふれたネズミに嫁がせるわけにはいかない」とお父さんは言いました。「世界でいちばん力のあるお婿さんを見つけてやろう。」　そしてある朝、二匹は出かけました。",
+        "最初はお日さまでした。「地上をすっかり照らすあなたより強い者が、ほかにいるでしょうか？」　けれどもお日さまは首を横に振りました。「それはまちがいです。雲のほうがわたしより強い。雲におおわれると、わたしの光はちょうちんの明かりより弱くなってしまうのです。」",
+        "ところが雲は、見かけほど自信がありませんでした。「わたしより強い者？　それは風です。風がひと吹きすれば、わたしは考えるよりも速く消えてしまいます。」　風はというと、古い土の塀を指さしました。「わたしは山でいちばん高い木も曲げられますが、あの塀は一センチも動きません。わたしよりずっとがんこなのです。」",
+        "塀の前に着いたとき、二匹のネズミはますます疲れて、ますますわけがわからなくなっていました。塀は二匹の話を聞いて、ため息をつきました。「いちばん強い者？　わたしではありません。毎晩だれかがわたしの中にどんどん深い穴を掘るので、いつかそのせいでくずれてしまうでしょう。それはネズミです。動物の中でいちばん小さくて、わたしにとっていちばん危険な者です。」",
+        "こうして、天にも地にもたずねたあとで、両親はいちばんのお婿さんはネズミだとわかりました。まさにその塀の穴に住んでいた若いネズミです。商人ほど金持ちではありませんが、だれよりも気立てがやさしいのです。結婚式は、村がそれまでに見たことのないほどにぎやかなものになりました。",
+        "日本の教訓はかんたんです。わたしたちはよく、もう近くにあるものを、遠くの、もっと大きくて有名なものの中に探してしまいます。そして、だれでも、いちばん小さな者でさえ、だれかよりは強いのです。"
+      ]
+    }
+  }
+}
