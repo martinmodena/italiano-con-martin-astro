@@ -1,0 +1,1253 @@
+{
+  "id": "la-lattaia",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il contadino, la contadina",
+      "forme": [
+        "contadina",
+        "contadino"
+      ],
+      "esempi": [
+        "Il contadino lavora nei campi dalla mattina alla sera.",
+        "La contadina porta le verdure al mercato.",
+        "Mio nonno era un contadino."
+      ],
+      "traduzioni": {
+        "en": "farmer, peasant",
+        "es": "campesino, campesina",
+        "pt": "camponês, camponesa",
+        "fr": "paysan, paysanne",
+        "cs": "venkovan, sedlák",
+        "pl": "wieśniak, wieśniaczka",
+        "tr": "köylü",
+        "de": "Bauer, Bäuerin",
+        "ja": "農家の人、農夫"
+      }
+    },
+    {
+      "parola": "la brocca",
+      "forme": [
+        "brocca"
+      ],
+      "esempi": [
+        "Metti l'acqua nella brocca.",
+        "Sul tavolo c'è una brocca di acqua fresca.",
+        "La brocca è caduta e si è rotta."
+      ],
+      "traduzioni": {
+        "en": "jug, pitcher",
+        "es": "cántaro, jarra",
+        "pt": "jarra",
+        "fr": "pot, cruche",
+        "cs": "džbán",
+        "pl": "dzban",
+        "tr": "testi",
+        "de": "Krug",
+        "ja": "つぼ、水差し"
+      }
+    },
+    {
+      "parola": "il latte",
+      "forme": [
+        "latte"
+      ],
+      "esempi": [
+        "La mattina bevo un bicchiere di latte.",
+        "Nel caffè metto un po' di latte di avena.",
+        "Il latte è finito: lo compro io."
+      ],
+      "traduzioni": {
+        "en": "milk",
+        "es": "leche",
+        "pt": "leite",
+        "fr": "lait",
+        "cs": "mléko",
+        "pl": "mleko",
+        "tr": "süt",
+        "de": "Milch",
+        "ja": "牛乳、ミルク"
+      }
+    },
+    {
+      "parola": "il mercato",
+      "forme": [
+        "mercato"
+      ],
+      "esempi": [
+        "Il sabato vado al mercato a comprare la frutta.",
+        "Il mercato è in piazza.",
+        "Al mercato i prezzi sono bassi."
+      ],
+      "traduzioni": {
+        "en": "market",
+        "es": "mercado",
+        "pt": "mercado, feira",
+        "fr": "marché",
+        "cs": "trh",
+        "pl": "targ",
+        "tr": "pazar",
+        "de": "Markt",
+        "ja": "市場"
+      }
+    },
+    {
+      "parola": "comodo",
+      "forme": [
+        "comode"
+      ],
+      "formeEsempi": [
+        "comodo",
+        "comodi"
+      ],
+      "esempi": [
+        "Queste scarpe sono molto comode.",
+        "Il divano è comodo.",
+        "Per il viaggio metto vestiti comodi."
+      ],
+      "traduzioni": {
+        "en": "comfortable",
+        "es": "cómodo",
+        "pt": "confortável",
+        "fr": "confortable",
+        "cs": "pohodlný",
+        "pl": "wygodny",
+        "tr": "rahat",
+        "de": "bequem",
+        "ja": "楽な、はきやすい"
+      }
+    },
+    {
+      "parola": "sognare",
+      "forme": [
+        "sognare",
+        "sogniamo"
+      ],
+      "formeEsempi": [
+        "sogno",
+        "sognavo"
+      ],
+      "esempi": [
+        "Sogno di vivere al mare.",
+        "Da piccolo sognavo di fare il pilota.",
+        "Sognare non costa niente."
+      ],
+      "traduzioni": {
+        "en": "to dream (of)",
+        "es": "soñar",
+        "pt": "sonhar",
+        "fr": "rêver",
+        "cs": "snít",
+        "pl": "marzyć",
+        "tr": "hayal kurmak",
+        "de": "träumen",
+        "ja": "夢見る"
+      }
+    },
+    {
+      "parola": "l'uovo",
+      "forme": [
+        "uova"
+      ],
+      "formeEsempi": [
+        "uovo"
+      ],
+      "esempi": [
+        "La gallina fa un uovo ogni giorno.",
+        "In questa ricetta ci vogliono due uova.",
+        "Ho comprato una scatola di uova."
+      ],
+      "traduzioni": {
+        "en": "egg (plural: le uova)",
+        "es": "huevo (plural: le uova)",
+        "pt": "ovo (plural: le uova)",
+        "fr": "œuf (pluriel : le uova)",
+        "cs": "vejce (množné číslo: le uova)",
+        "pl": "jajko (l. mn.: le uova)",
+        "tr": "yumurta (çoğulu: le uova)",
+        "de": "Ei (Plural: le uova)",
+        "ja": "卵（複数形は le uova）"
+      }
+    },
+    {
+      "parola": "il pulcino",
+      "forme": [
+        "pulcini"
+      ],
+      "formeEsempi": [
+        "pulcino"
+      ],
+      "esempi": [
+        "Il pulcino è giallo e piccolissimo.",
+        "La gallina cammina con i suoi pulcini.",
+        "Dall'uovo è nato un pulcino."
+      ],
+      "traduzioni": {
+        "en": "chick",
+        "es": "pollito",
+        "pt": "pintinho",
+        "fr": "poussin",
+        "cs": "kuřátko",
+        "pl": "kurczę",
+        "tr": "civciv",
+        "de": "Küken",
+        "ja": "ひよこ"
+      }
+    },
+    {
+      "parola": "crescere",
+      "forme": [
+        "cresceranno",
+        "crescere"
+      ],
+      "formeEsempi": [
+        "crescono",
+        "cresciuto",
+        "cresce"
+      ],
+      "esempi": [
+        "I bambini crescono in fretta.",
+        "Questa pianta cresce bene al sole.",
+        "Sono cresciuto in un piccolo paese."
+      ],
+      "traduzioni": {
+        "en": "to grow (up)",
+        "es": "crecer",
+        "pt": "crescer",
+        "fr": "grandir",
+        "cs": "růst, vyrůst",
+        "pl": "rosnąć",
+        "tr": "büyümek",
+        "de": "wachsen",
+        "ja": "育つ、大きくなる"
+      }
+    },
+    {
+      "parola": "in fretta",
+      "forme": [
+        "fretta"
+      ],
+      "esempi": [
+        "Ho mangiato in fretta perché ero in ritardo.",
+        "Non fare le cose in fretta!",
+        "Il tempo passa in fretta."
+      ],
+      "traduzioni": {
+        "en": "quickly, in a hurry",
+        "es": "deprisa",
+        "pt": "depressa, rápido",
+        "fr": "vite, à la hâte",
+        "cs": "rychle, ve spěchu",
+        "pl": "szybko, w pośpiechu",
+        "tr": "çabucak, aceleyle",
+        "de": "schnell, in Eile",
+        "ja": "急いで、すぐに"
+      }
+    },
+    {
+      "parola": "il maiale",
+      "forme": [
+        "maiale"
+      ],
+      "formeEsempi": [
+        "maiali"
+      ],
+      "esempi": [
+        "Il maiale vive nella fattoria.",
+        "I maiali amano il fango.",
+        "Il maiale è un animale molto intelligente."
+      ],
+      "traduzioni": {
+        "en": "pig",
+        "es": "cerdo",
+        "pt": "porco",
+        "fr": "cochon",
+        "cs": "prase",
+        "pl": "świnia",
+        "tr": "domuz",
+        "de": "Schwein",
+        "ja": "ブタ"
+      }
+    },
+    {
+      "parola": "il prezzo",
+      "forme": [
+        "prezzo"
+      ],
+      "formeEsempi": [
+        "prezzi"
+      ],
+      "esempi": [
+        "Qual è il prezzo di questa borsa?",
+        "I prezzi sono aumentati.",
+        "Ho comprato la bici a un buon prezzo."
+      ],
+      "traduzioni": {
+        "en": "price",
+        "es": "precio",
+        "pt": "preço",
+        "fr": "prix",
+        "cs": "cena",
+        "pl": "cena",
+        "tr": "fiyat",
+        "de": "Preis",
+        "ja": "値段"
+      }
+    },
+    {
+      "parola": "la mucca",
+      "forme": [
+        "mucca"
+      ],
+      "formeEsempi": [
+        "mucche"
+      ],
+      "esempi": [
+        "La mucca mangia l'erba nel prato.",
+        "In montagna ci sono tante mucche.",
+        "La mucca fa «muu»."
+      ],
+      "traduzioni": {
+        "en": "cow",
+        "es": "vaca",
+        "pt": "vaca",
+        "fr": "vache",
+        "cs": "kráva",
+        "pl": "krowa",
+        "tr": "inek",
+        "de": "Kuh",
+        "ja": "牛（めす牛）"
+      }
+    },
+    {
+      "parola": "il vitello",
+      "forme": [
+        "vitello"
+      ],
+      "esempi": [
+        "Il vitello sta sempre vicino alla mamma.",
+        "Nella stalla è nato un vitello.",
+        "Il vitello corre nel prato."
+      ],
+      "traduzioni": {
+        "en": "calf",
+        "es": "ternero",
+        "pt": "bezerro",
+        "fr": "veau",
+        "cs": "tele",
+        "pl": "cielak",
+        "tr": "buzağı",
+        "de": "Kalb",
+        "ja": "子牛"
+      }
+    },
+    {
+      "parola": "saltare",
+      "forme": [
+        "saltare"
+      ],
+      "formeEsempi": [
+        "salta"
+      ],
+      "esempi": [
+        "Il bambino salta nelle pozzanghere.",
+        "Il gatto salta sul tavolo.",
+        "Mi piace saltare la corda."
+      ],
+      "traduzioni": {
+        "en": "to jump",
+        "es": "saltar",
+        "pt": "pular",
+        "fr": "sauter",
+        "cs": "skákat",
+        "pl": "skakać",
+        "tr": "zıplamak",
+        "de": "springen",
+        "ja": "とびはねる"
+      }
+    },
+    {
+      "parola": "ricco",
+      "forme": [
+        "ricca"
+      ],
+      "formeEsempi": [
+        "ricco",
+        "ricchi"
+      ],
+      "esempi": [
+        "È un uomo molto ricco.",
+        "Vorrei diventare ricca.",
+        "I ricchi non sono sempre felici."
+      ],
+      "traduzioni": {
+        "en": "rich",
+        "es": "rico",
+        "pt": "rico",
+        "fr": "riche",
+        "cs": "bohatý",
+        "pl": "bogaty",
+        "tr": "zengin",
+        "de": "reich",
+        "ja": "お金持ちの"
+      }
+    },
+    {
+      "parola": "il rispetto",
+      "forme": [
+        "rispetto"
+      ],
+      "esempi": [
+        "Parla ai nonni con rispetto.",
+        "Il rispetto è importante in una famiglia.",
+        "Ho molto rispetto per il tuo lavoro."
+      ],
+      "traduzioni": {
+        "en": "respect",
+        "es": "respeto",
+        "pt": "respeito",
+        "fr": "respect",
+        "cs": "úcta, respekt",
+        "pl": "szacunek",
+        "tr": "saygı",
+        "de": "Respekt",
+        "ja": "尊敬"
+      }
+    },
+    {
+      "parola": "il salto",
+      "forme": [
+        "salto"
+      ],
+      "esempi": [
+        "Il gatto fa un salto sul divano.",
+        "Ha fatto un salto di gioia.",
+        "Con un salto ha superato il muretto."
+      ],
+      "traduzioni": {
+        "en": "jump, leap",
+        "es": "salto",
+        "pt": "pulo, salto",
+        "fr": "saut",
+        "cs": "skok",
+        "pl": "skok",
+        "tr": "zıplama, sıçrama",
+        "de": "Sprung",
+        "ja": "ジャンプ、ひととび"
+      }
+    },
+    {
+      "parola": "addio",
+      "forme": [
+        "addio"
+      ],
+      "esempi": [
+        "Addio, non ci vedremo più.",
+        "È stato un addio triste.",
+        "Addio vacanze: domani si torna al lavoro!"
+      ],
+      "traduzioni": {
+        "en": "goodbye (for ever), farewell",
+        "es": "adiós",
+        "pt": "adeus",
+        "fr": "adieu",
+        "cs": "sbohem",
+        "pl": "żegnaj",
+        "tr": "elveda",
+        "de": "lebe wohl, adieu",
+        "ja": "さようなら（永遠の）"
+      }
+    },
+    {
+      "parola": "rotto",
+      "forme": [
+        "rotta"
+      ],
+      "formeEsempi": [
+        "rotto"
+      ],
+      "esempi": [
+        "Il telefono è rotto.",
+        "La finestra è rotta.",
+        "Mio fratello ha una gamba rotta."
+      ],
+      "traduzioni": {
+        "en": "broken",
+        "es": "roto",
+        "pt": "quebrado",
+        "fr": "cassé",
+        "cs": "rozbitý",
+        "pl": "rozbity, zepsuty",
+        "tr": "kırık",
+        "de": "kaputt, zerbrochen",
+        "ja": "割れた、こわれた"
+      }
+    },
+    {
+      "parola": "contare",
+      "forme": [
+        "contare"
+      ],
+      "formeEsempi": [
+        "conta"
+      ],
+      "esempi": [
+        "Il bambino sa contare fino a cento.",
+        "Conta i soldi prima di pagare.",
+        "Non contare i pulcini prima che nascano!"
+      ],
+      "traduzioni": {
+        "en": "to count",
+        "es": "contar",
+        "pt": "contar",
+        "fr": "compter",
+        "cs": "počítat",
+        "pl": "liczyć",
+        "tr": "saymak",
+        "de": "zählen",
+        "ja": "数える"
+      }
+    },
+    {
+      "parola": "severo",
+      "forme": [
+        "severo"
+      ],
+      "formeEsempi": [
+        "severa"
+      ],
+      "esempi": [
+        "Il professore di matematica è severo.",
+        "Mia madre era severa con noi.",
+        "Non essere così severo con te stesso!"
+      ],
+      "traduzioni": {
+        "en": "strict, harsh",
+        "es": "severo",
+        "pt": "severo",
+        "fr": "sévère",
+        "cs": "přísný",
+        "pl": "surowy",
+        "tr": "sert, katı",
+        "de": "streng",
+        "ja": "きびしい"
+      }
+    },
+    {
+      "parola": "i castelli in aria",
+      "forme": [
+        "castelli"
+      ],
+      "esempi": [
+        "Smetti di fare castelli in aria e studia!",
+        "Da giovane facevo tanti castelli in aria.",
+        "I suoi progetti sono solo castelli in aria."
+      ],
+      "traduzioni": {
+        "en": "castles in the air («fare castelli in aria» = to daydream)",
+        "es": "castillos en el aire",
+        "pt": "castelos no ar",
+        "fr": "châteaux en Espagne",
+        "cs": "vzdušné zámky",
+        "pl": "zamki na lodzie",
+        "tr": "hayal âlemi, boş hayaller",
+        "de": "Luftschlösser",
+        "ja": "空中の城、空想"
+      }
+    },
+    {
+      "parola": "la morale",
+      "forme": [
+        "morale"
+      ],
+      "esempi": [
+        "La morale della storia è: non dire bugie.",
+        "Ogni favola di Esopo ha una morale.",
+        "Qual è la morale di questo racconto?"
+      ],
+      "traduzioni": {
+        "en": "moral (of a story)",
+        "es": "moraleja",
+        "pt": "moral (da história)",
+        "fr": "morale (d’une histoire)",
+        "cs": "ponaučení",
+        "pl": "morał",
+        "tr": "ana fikir, kıssadan hisse",
+        "de": "Moral, Lehre",
+        "ja": "教訓"
+      }
+    },
+    {
+      "parola": "viaggiatore",
+      "forme": [
+        "viaggiatrici"
+      ],
+      "formeEsempi": [
+        "viaggiatrice",
+        "viaggiatori",
+        "viaggiatore"
+      ],
+      "esempi": [
+        "Mia zia è una grande viaggiatrice.",
+        "I viaggiatori aspettano il treno.",
+        "Marco Polo è stato un viaggiatore famoso."
+      ],
+      "traduzioni": {
+        "en": "traveller; well-travelled",
+        "es": "viajero",
+        "pt": "viajante, viajado",
+        "fr": "voyageur",
+        "cs": "cestovatel, cestovatelský",
+        "pl": "podróżnik",
+        "tr": "gezgin",
+        "de": "Reisender; weit gereist",
+        "ja": "旅をする、旅人"
+      }
+    },
+    {
+      "parola": "il Medioevo",
+      "forme": [
+        "medioevo"
+      ],
+      "esempi": [
+        "Nel Medioevo le città avevano le mura.",
+        "Questo castello è del Medioevo.",
+        "Mi piace la storia del Medioevo."
+      ],
+      "traduzioni": {
+        "en": "Middle Ages",
+        "es": "Edad Media",
+        "pt": "Idade Média",
+        "fr": "Moyen Âge",
+        "cs": "středověk",
+        "pl": "średniowiecze",
+        "tr": "Orta Çağ",
+        "de": "Mittelalter",
+        "ja": "中世"
+      }
+    },
+    {
+      "parola": "i versi",
+      "forme": [
+        "versi"
+      ],
+      "esempi": [
+        "Conosco a memoria i primi versi della poesia.",
+        "Dante ha scritto migliaia di versi.",
+        "Leggi questi versi ad alta voce."
+      ],
+      "traduzioni": {
+        "en": "lines of poetry, verses",
+        "es": "versos",
+        "pt": "versos",
+        "fr": "vers",
+        "cs": "verše",
+        "pl": "wersy, wiersze",
+        "tr": "dizeler",
+        "de": "Verse",
+        "ja": "詩の行、詩句"
+      }
+    },
+    {
+      "parola": "la versione",
+      "forme": [
+        "versione"
+      ],
+      "formeEsempi": [
+        "versioni"
+      ],
+      "esempi": [
+        "Ho visto la versione originale del film.",
+        "Esistono molte versioni di questa favola.",
+        "Scarica l'ultima versione dell'app."
+      ],
+      "traduzioni": {
+        "en": "version",
+        "es": "versión",
+        "pt": "versão",
+        "fr": "version",
+        "cs": "verze",
+        "pl": "wersja",
+        "tr": "versiyon, anlatım",
+        "de": "Fassung, Version",
+        "ja": "版、バージョン"
+      }
+    },
+    {
+      "parola": "il/la protagonista",
+      "forme": [
+        "protagonista"
+      ],
+      "esempi": [
+        "Il protagonista del film è un bambino.",
+        "Chi è la protagonista del romanzo?",
+        "In questa storia il protagonista è un gatto."
+      ],
+      "traduzioni": {
+        "en": "main character",
+        "es": "protagonista",
+        "pt": "protagonista",
+        "fr": "héros, héroïne",
+        "cs": "hlavní hrdina",
+        "pl": "bohater, bohaterka",
+        "tr": "kahraman",
+        "de": "Hauptfigur",
+        "ja": "主人公"
+      }
+    },
+    {
+      "parola": "l'equilibrio",
+      "forme": [
+        "equilibrio"
+      ],
+      "esempi": [
+        "Il bambino perde l'equilibrio e cade.",
+        "In bici bisogna tenere l'equilibrio.",
+        "Il cameriere porta il vassoio in equilibrio su una mano."
+      ],
+      "traduzioni": {
+        "en": "balance",
+        "es": "equilibrio",
+        "pt": "equilíbrio",
+        "fr": "équilibre",
+        "cs": "rovnováha",
+        "pl": "równowaga",
+        "tr": "denge",
+        "de": "Gleichgewicht",
+        "ja": "バランス"
+      }
+    },
+    {
+      "parola": "allegro",
+      "forme": [
+        "allegra"
+      ],
+      "formeEsempi": [
+        "allegro"
+      ],
+      "esempi": [
+        "È una ragazza allegra e simpatica.",
+        "Oggi sei molto allegro!",
+        "Mi piace la musica allegra."
+      ],
+      "traduzioni": {
+        "en": "cheerful",
+        "es": "alegre",
+        "pt": "alegre",
+        "fr": "gai",
+        "cs": "veselý",
+        "pl": "wesoły",
+        "tr": "neşeli",
+        "de": "fröhlich",
+        "ja": "陽気な"
+      }
+    },
+    {
+      "parola": "parecchio",
+      "forme": [
+        "parecchio"
+      ],
+      "formeEsempi": [
+        "parecchi"
+      ],
+      "esempi": [
+        "Questo vestito costa parecchio.",
+        "Ho aspettato parecchio prima di entrare.",
+        "Ha parecchi amici in città."
+      ],
+      "traduzioni": {
+        "en": "quite a lot",
+        "es": "bastante",
+        "pt": "bastante",
+        "fr": "pas mal, beaucoup",
+        "cs": "docela dost",
+        "pl": "sporo",
+        "tr": "epey",
+        "de": "ziemlich viel",
+        "ja": "けっこう、かなり"
+      }
+    },
+    {
+      "parola": "rubare",
+      "forme": [
+        "ruberebbe"
+      ],
+      "formeEsempi": [
+        "rubato",
+        "ruba"
+      ],
+      "esempi": [
+        "Mi hanno rubato la bicicletta!",
+        "Il ladro ruba il portafoglio al turista.",
+        "Chi ha rubato la mia penna?"
+      ],
+      "traduzioni": {
+        "en": "to steal",
+        "es": "robar",
+        "pt": "roubar",
+        "fr": "voler",
+        "cs": "ukrást",
+        "pl": "ukraść",
+        "tr": "çalmak",
+        "de": "stehlen",
+        "ja": "盗む"
+      }
+    },
+    {
+      "parola": "abbastanza",
+      "forme": [
+        "abbastanza"
+      ],
+      "esempi": [
+        "Ho abbastanza soldi per il biglietto.",
+        "Sei abbastanza grande per capire.",
+        "Non dormo abbastanza."
+      ],
+      "traduzioni": {
+        "en": "enough",
+        "es": "bastante, suficiente",
+        "pt": "o suficiente",
+        "fr": "assez",
+        "cs": "dost",
+        "pl": "dość",
+        "tr": "yeterince",
+        "de": "genug",
+        "ja": "十分に"
+      }
+    },
+    {
+      "parola": "rivendere",
+      "forme": [
+        "rivenderei"
+      ],
+      "formeEsempi": [
+        "rivendo",
+        "rivenduto",
+        "rivendere"
+      ],
+      "esempi": [
+        "Compro libri usati e poi li rivendo.",
+        "Ha rivenduto la macchina dopo un anno.",
+        "Questa casa si può rivendere facilmente."
+      ],
+      "traduzioni": {
+        "en": "to resell",
+        "es": "revender",
+        "pt": "revender",
+        "fr": "revendre",
+        "cs": "znovu prodat",
+        "pl": "odsprzedać",
+        "tr": "yeniden satmak",
+        "de": "weiterverkaufen",
+        "ja": "売り直す"
+      }
+    },
+    {
+      "parola": "impedire",
+      "forme": [
+        "impedirebbe"
+      ],
+      "formeEsempi": [
+        "impedisce"
+      ],
+      "esempi": [
+        "La pioggia ci impedisce di uscire.",
+        "Niente ti impedisce di provare.",
+        "Il rumore mi impedisce di dormire."
+      ],
+      "traduzioni": {
+        "en": "to prevent, to stop",
+        "es": "impedir",
+        "pt": "impedir",
+        "fr": "empêcher",
+        "cs": "bránit, zabránit",
+        "pl": "przeszkodzić",
+        "tr": "engel olmak",
+        "de": "hindern",
+        "ja": "じゃまする、妨げる"
+      }
+    },
+    {
+      "parola": "la mandria",
+      "forme": [
+        "mandria"
+      ],
+      "esempi": [
+        "Una mandria di mucche attraversa la strada.",
+        "Il cane aiuta il pastore con la mandria.",
+        "In montagna abbiamo visto una mandria di cavalli."
+      ],
+      "traduzioni": {
+        "en": "herd",
+        "es": "rebaño, manada",
+        "pt": "manada",
+        "fr": "troupeau",
+        "cs": "stádo",
+        "pl": "stado",
+        "tr": "sürü",
+        "de": "Herde",
+        "ja": "群れ"
+      }
+    },
+    {
+      "parola": "spargersi",
+      "forme": [
+        "sparge"
+      ],
+      "formeEsempi": [
+        "sparsa"
+      ],
+      "esempi": [
+        "L'acqua si sparge sul pavimento.",
+        "Il profumo del caffè si sparge per la casa.",
+        "La notizia si è sparsa in tutto il paese."
+      ],
+      "traduzioni": {
+        "en": "to spread, to spill",
+        "es": "derramarse, esparcirse",
+        "pt": "espalhar-se",
+        "fr": "se répandre",
+        "cs": "rozlít se, rozšířit se",
+        "pl": "rozlać się, rozejść się",
+        "tr": "dökülmek, yayılmak",
+        "de": "sich verteilen, fließen",
+        "ja": "広がる、こぼれる"
+      }
+    },
+    {
+      "parola": "sparire",
+      "forme": [
+        "spariscono"
+      ],
+      "formeEsempi": [
+        "sparisce",
+        "sparito"
+      ],
+      "esempi": [
+        "Il sole sparisce dietro le nuvole.",
+        "Il mio portafoglio è sparito!",
+        "Le macchie spariscono con questo sapone."
+      ],
+      "traduzioni": {
+        "en": "to disappear, to vanish",
+        "es": "desaparecer",
+        "pt": "sumir, desaparecer",
+        "fr": "disparaître",
+        "cs": "zmizet",
+        "pl": "znikać",
+        "tr": "yok olmak, kaybolmak",
+        "de": "verschwinden",
+        "ja": "消える"
+      }
+    },
+    {
+      "parola": "spiegare",
+      "forme": [
+        "spiegare"
+      ],
+      "formeEsempi": [
+        "spiega",
+        "spiegarmi",
+        "spiego"
+      ],
+      "esempi": [
+        "Il professore spiega la lezione.",
+        "Puoi spiegarmi la strada?",
+        "Ti spiego tutto domani."
+      ],
+      "traduzioni": {
+        "en": "to explain",
+        "es": "explicar",
+        "pt": "explicar",
+        "fr": "expliquer",
+        "cs": "vysvětlit",
+        "pl": "wyjaśnić",
+        "tr": "açıklamak",
+        "de": "erklären",
+        "ja": "説明する"
+      }
+    },
+    {
+      "parola": "il guadagno",
+      "forme": [
+        "guadagni"
+      ],
+      "formeEsempi": [
+        "guadagno"
+      ],
+      "esempi": [
+        "Quest'anno il guadagno del negozio è basso.",
+        "Con i guadagni dell'estate ha comprato una moto.",
+        "Non pensare solo al guadagno."
+      ],
+      "traduzioni": {
+        "en": "earnings, profit",
+        "es": "ganancia",
+        "pt": "ganho, lucro",
+        "fr": "gain",
+        "cs": "zisk",
+        "pl": "zysk",
+        "tr": "kazanç",
+        "de": "Gewinn",
+        "ja": "もうけ"
+      }
+    },
+    {
+      "parola": "aggiungere",
+      "forme": [
+        "aggiunge"
+      ],
+      "formeEsempi": [
+        "aggiungi",
+        "aggiungere",
+        "aggiunto"
+      ],
+      "esempi": [
+        "Aggiungi un po' di sale alla pasta.",
+        "Vorrei aggiungere una cosa.",
+        "Ho aggiunto il tuo nome alla lista."
+      ],
+      "traduzioni": {
+        "en": "to add",
+        "es": "añadir",
+        "pt": "acrescentar",
+        "fr": "ajouter",
+        "cs": "přidat",
+        "pl": "dodać",
+        "tr": "eklemek",
+        "de": "hinzufügen",
+        "ja": "付け加える"
+      }
+    },
+    {
+      "parola": "sorprendente",
+      "forme": [
+        "sorprendente"
+      ],
+      "esempi": [
+        "Il finale del film è sorprendente.",
+        "È sorprendente quanto parli bene!",
+        "Ho ricevuto una notizia sorprendente."
+      ],
+      "traduzioni": {
+        "en": "surprising",
+        "es": "sorprendente",
+        "pt": "surpreendente",
+        "fr": "surprenant",
+        "cs": "překvapivý",
+        "pl": "zaskakujący",
+        "tr": "şaşırtıcı",
+        "de": "überraschend",
+        "ja": "意外な、驚くべき"
+      }
+    },
+    {
+      "parola": "smettere",
+      "forme": [
+        "smettere"
+      ],
+      "formeEsempi": [
+        "smesso",
+        "smetti"
+      ],
+      "esempi": [
+        "Ho smesso di fumare.",
+        "Smetti di parlare e ascolta!",
+        "Finalmente ha smesso di piovere."
+      ],
+      "traduzioni": {
+        "en": "to stop (doing something)",
+        "es": "dejar de",
+        "pt": "parar de",
+        "fr": "arrêter de",
+        "cs": "přestat",
+        "pl": "przestać",
+        "tr": "bırakmak, vazgeçmek",
+        "de": "aufhören",
+        "ja": "やめる"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a2": [
+        "Perrette is a young farm girl. One morning she puts a jug full of milk on her head and sets off for the market. She has dressed simply and is wearing comfortable shoes, because she wants to walk fast.",
+        "As she walks, she starts to dream:\n– At the market I'll sell the milk. With the money I'll buy a hundred eggs. A hundred chicks will hatch from the eggs.",
+        "– I'll keep them near the house and they'll grow quickly. I'll sell them and buy a pig. The pig will get big and I'll sell it at a good price.",
+        "– With that money I'll buy a cow and her calf. I'll see it jumping in the meadow. I'll have a farm, I'll be rich and everyone will look at me with respect!",
+        "Perrette is so happy that she jumps too. The jug falls. The milk ends up on the ground.",
+        "Goodbye milk, eggs, chicks, pig, cow and calf! Perrette looks at the broken jug. She'll go home with nothing. What will she tell her husband?",
+        "That's the moral of the fable: don't count your money before you have it in your hands (in English: “don't count your chickens before they hatch”). But Jean de La Fontaine isn't harsh with her: in 1678 he writes that everyone, rich and poor, has dreams like that. In French people say “to build castles in Spain”, in Italian “castles in the air”. And in Spain too everyone knows this story: they call it «La lechera»."
+      ],
+      "b1": [
+        "It is one of the most widely travelled stories in the world. Before it reached France, it was told in Asia and in medieval Spain; in Spain everyone knows it as «La lechera», in the verses of Félix María de Samaniego. The most famous version, however, is Jean de La Fontaine's, from 1678.",
+        "The main character, Perrette, is on her way to market with a jug of milk balanced on her head. She's wearing a simple dress and comfortable shoes, because she wants to arrive early. She's young, she's cheerful and the road is long: around her there are only fields and sky. It's the perfect moment for making plans.",
+        "“This milk is worth quite a lot,” she thinks. “With that money I could buy a hundred eggs. I'd have to keep them warm, of course, but it wouldn't be difficult. A hundred chicks would hatch, and I'd raise them near the house. The fox would steal a few, but I'd have enough left to buy a pig.”",
+        "“The pig wouldn't cost me much,” she goes on. “I'd keep it a few months, then I'd resell it at a good price. And at that point, what would stop me from getting a cow with her calf? I'd love to see it jumping in the middle of the herd. It would be wonderful!”",
+        "As she says it, Perrette jumps too. The jug falls. The milk spills over the road, and with it the eggs, the chicks, the pig, the cow and the calf all disappear.",
+        "Perrette looks at the wet ground. She'd like to go back one minute, but she can't. She'll have to explain everything to her husband, and it won't be an easy conversation.",
+        "This fable is usually told to say that you shouldn't count your earnings before you have them. La Fontaine, however, adds something surprising: who doesn't build castles in the air? We all daydream, the king as well as the farmer. Maybe Perrette shouldn't stop dreaming: she should just watch where she puts her feet."
+      ]
+    },
+    "es": {
+      "a2": [
+        "Perrette es una joven campesina. Una mañana se pone en la cabeza un cántaro lleno de leche y sale hacia el mercado. Se ha vestido con sencillez y lleva zapatos cómodos, porque quiere caminar deprisa.",
+        "Mientras camina, empieza a soñar:\n– En el mercado venderé la leche. Con el dinero compraré cien huevos. De los huevos nacerán cien pollitos.",
+        "– Los tendré cerca de casa y crecerán deprisa. Los venderé y compraré un cerdo. El cerdo se hará grande y lo venderé a buen precio.",
+        "– Con ese dinero compraré una vaca y su ternero. Lo veré saltar en el prado. Tendré una granja, seré rica y todos me mirarán con respeto.",
+        "Perrette está tan feliz que también ella da un salto. El cántaro cae. La leche acaba en el suelo.",
+        "¡Adiós leche, huevos, pollitos, cerdo, vaca y ternero! Perrette mira el cántaro roto. Volverá a casa sin nada. ¿Qué le dirá a su marido?",
+        "Es la moraleja de la fábula: no debemos contar el dinero antes de tenerlo en la mano. Pero Jean de La Fontaine no es severo con ella: en 1678 escribe que todos, ricos y pobres, tienen sueños así. En francés se dice «hacer castillos en España»; en italiano y en español, «castillos en el aire». Y en España todo el mundo conoce esta historia: es «La lechera»."
+      ],
+      "b1": [
+        "Es una de las historias más viajeras del mundo. Antes de llegar a Francia, se contaba en Asia y en la España medieval; en España todos la conocen como «La lechera», en los versos de Félix María de Samaniego. Sin embargo, la versión más famosa es la de Jean de La Fontaine, de 1678.",
+        "La protagonista, Perrette, va al mercado con un cántaro de leche en equilibrio sobre la cabeza. Lleva un vestido sencillo y zapatos cómodos, porque quiere llegar pronto. Es joven, está alegre y el camino es largo: a su alrededor solo hay campos y cielo. Es el momento perfecto para hacer planes.",
+        "«Esta leche vale bastante», piensa. «Con ese dinero podría comprar cien huevos. Tendría que tenerlos al calor, claro, pero no sería difícil. Nacerían cien pollitos, y yo los criaría cerca de casa. La zorra me robaría alguno, pero me quedarían bastantes para comprar un cerdo.»",
+        "«El cerdo no me costaría mucho», continúa. «Lo tendría unos meses y luego lo revendería a buen precio. Y entonces, ¿qué me impediría comprar una vaca con su ternero? Me encantaría verlo saltar en medio del rebaño. ¡Sería precioso!»",
+        "Al decirlo, Perrette también da un salto. El cántaro cae. La leche se derrama por el camino, y con ella desaparecen los huevos, los pollitos, el cerdo, la vaca y el ternero.",
+        "Perrette mira la tierra mojada. Querría volver atrás un minuto, pero no se puede. Tendrá que explicárselo todo a su marido, y no será una conversación fácil.",
+        "Normalmente esta fábula se cuenta para decir que no hay que contar las ganancias antes de tenerlas. La Fontaine, sin embargo, añade algo sorprendente: ¿quién no hace castillos en el aire? Todos soñamos despiertos, el rey igual que el campesino. Quizás Perrette no debería dejar de soñar: solo debería mirar dónde pone los pies."
+      ]
+    },
+    "pt": {
+      "a2": [
+        "Perrette é uma jovem camponesa. Uma manhã ela põe na cabeça uma jarra cheia de leite e parte para o mercado. Vestiu-se de um jeito simples e está com sapatos confortáveis, porque quer andar rápido.",
+        "Enquanto anda, começa a sonhar:\n– No mercado vou vender o leite. Com o dinheiro vou comprar cem ovos. Dos ovos vão nascer cem pintinhos.",
+        "– Vou criá-los perto de casa e eles vão crescer depressa. Vou vendê-los e comprar um porco. O porco vai ficar grande e vou vendê-lo por um bom preço.",
+        "– Com esse dinheiro vou comprar uma vaca e o seu bezerro. Vou vê-lo pular no pasto. Vou ter uma fazenda, vou ser rica e todos vão me olhar com respeito!",
+        "Perrette está tão feliz que também dá um pulo. A jarra cai. O leite vai parar no chão.",
+        "Adeus leite, ovos, pintinhos, porco, vaca e bezerro! Perrette olha para a jarra quebrada. Vai voltar para casa sem nada. O que vai dizer ao marido?",
+        "Essa é a moral da fábula: não devemos contar o dinheiro antes de tê-lo na mão. Mas Jean de La Fontaine não é severo com ela: em 1678 escreve que todos, ricos e pobres, têm sonhos assim. Em francês se diz «fazer castelos na Espanha», em italiano e em português «castelos no ar». E na Espanha todo mundo conhece esta história: a chamam de «La lechera»."
+      ],
+      "b1": [
+        "É uma das histórias mais viajadas do mundo. Antes de chegar à França, era contada na Ásia e na Espanha medieval; na Espanha todos a conhecem como «La lechera», nos versos de Félix María de Samaniego. A versão mais famosa, porém, é a de Jean de La Fontaine, de 1678.",
+        "A protagonista, Perrette, está indo ao mercado com uma jarra de leite equilibrada na cabeça. Usa um vestido simples e sapatos confortáveis, porque quer chegar cedo. É jovem, está alegre e o caminho é longo: em volta dela só há campos e céu. É o momento perfeito para fazer planos.",
+        "«Este leite vale bastante», pensa. «Com esse dinheiro eu poderia comprar cem ovos. Teria de mantê-los aquecidos, claro, mas não seria difícil. Nasceriam cem pintinhos, e eu os criaria perto de casa. A raposa roubaria alguns, mas ainda me sobrariam o suficiente para comprar um porco.»",
+        "«O porco não me custaria muito», continua. «Eu o criaria alguns meses e depois o revenderia por um bom preço. E aí, o que me impediria de comprar uma vaca com o seu bezerro? Eu adoraria vê-lo pular no meio da manada. Seria lindo!»",
+        "Ao dizer isso, Perrette também dá um pulo. A jarra cai. O leite se espalha pela estrada, e com ele somem os ovos, os pintinhos, o porco, a vaca e o bezerro.",
+        "Perrette olha para a terra molhada. Gostaria de voltar um minuto no tempo, mas não dá. Vai ter que explicar tudo ao marido, e não vai ser uma conversa fácil.",
+        "Normalmente se conta esta fábula para dizer que não se deve contar os ganhos antes de tê-los. La Fontaine, porém, acrescenta uma coisa surpreendente: quem não faz castelos no ar? Todos sonhamos acordados, tanto o rei quanto o camponês. Talvez Perrette não devesse parar de sonhar: só devesse olhar onde põe os pés."
+      ]
+    },
+    "fr": {
+      "a2": [
+        "Perrette est une jeune paysanne. Un matin, elle pose sur sa tête un pot plein de lait et part pour le marché. Elle s’est habillée simplement et porte des souliers confortables, parce qu’elle veut marcher vite.",
+        "Pendant qu’elle marche, elle commence à rêver :\n– Au marché, je vendrai le lait. Avec l’argent, j’achèterai cent œufs. Des œufs naîtront cent poussins.",
+        "– Je les garderai près de la maison et ils grandiront vite. Je les vendrai et j’achèterai un cochon. Le cochon deviendra gros et je le vendrai à un bon prix.",
+        "– Avec cet argent, j’achèterai une vache et son veau. Je le verrai sauter dans le pré. J’aurai une ferme, je serai riche et tout le monde me regardera avec respect !",
+        "Perrette est si heureuse qu’elle fait un saut, elle aussi. Le pot tombe. Le lait se répand par terre.",
+        "Adieu lait, œufs, poussins, cochon, vache et veau ! Perrette regarde le pot cassé. Elle rentrera à la maison sans rien. Que va-t-elle dire à son mari ?",
+        "C’est la morale de la fable : il ne faut pas compter l’argent avant de l’avoir en main. Mais Jean de La Fontaine n’est pas sévère avec elle : en 1678, il écrit que tout le monde, riches et pauvres, fait des rêves comme ça. En français, on dit « faire des châteaux en Espagne », en italien « des châteaux en l’air ». Et en Espagne aussi, tout le monde connaît cette histoire : on l’appelle « La lechera »."
+      ],
+      "b1": [
+        "C’est l’une des histoires qui ont le plus voyagé dans le monde. Avant d’arriver en France, on la racontait en Asie et dans l’Espagne du Moyen Âge ; en Espagne, tout le monde la connaît sous le nom de « La lechera », dans les vers de Félix María de Samaniego. La version la plus célèbre, cependant, est celle de Jean de La Fontaine, de 1678.",
+        "L’héroïne, Perrette, va au marché avec un pot de lait en équilibre sur la tête. Elle porte une robe simple et des souliers confortables, parce qu’elle veut arriver tôt. Elle est jeune, elle est gaie et la route est longue : autour d’elle, il n’y a que les champs et le ciel. C’est le moment idéal pour faire des projets.",
+        "« Ce lait vaut pas mal d’argent », pense-t-elle. « Avec cet argent, je pourrais acheter cent œufs. Il faudrait les garder au chaud, bien sûr, mais ce ne serait pas difficile. Il naîtrait cent poussins, et je les élèverais près de la maison. Le renard en volerait quelques-uns, mais il m’en resterait assez pour acheter un cochon. »",
+        "« Le cochon ne me coûterait pas cher », continue-t-elle. « Je le garderais quelques mois, puis je le revendrais à un bon prix. Et alors, qu’est-ce qui m’empêcherait de prendre une vache avec son veau ? J’aimerais le voir sauter au milieu du troupeau. Ce serait magnifique ! »",
+        "En disant cela, Perrette fait un saut, elle aussi. Le pot tombe. Le lait se répand sur la route, et avec lui disparaissent les œufs, les poussins, le cochon, la vache et le veau.",
+        "Perrette regarde la terre mouillée. Elle voudrait revenir une minute en arrière, mais c’est impossible. Elle devra tout expliquer à son mari, et ce ne sera pas une conversation facile.",
+        "D’habitude, on raconte cette fable pour dire qu’il ne faut pas compter ses gains avant de les avoir. La Fontaine, pourtant, ajoute une chose surprenante : qui ne fait pas de châteaux en Espagne ? Nous rêvons tous éveillés, le roi comme le paysan. Peut-être que Perrette ne devrait pas arrêter de rêver : elle devrait seulement regarder où elle met les pieds."
+      ]
+    },
+    "cs": {
+      "a2": [
+        "Perrette je mladá venkovanka. Jednoho rána si dá na hlavu džbán plný mléka a vydá se na trh. Oblékla se jednoduše a má pohodlné boty, protože chce jít rychle.",
+        "Cestou začne snít:\n– Na trhu prodám mléko. Za ty peníze koupím sto vajec. Z vajec se vylíhne sto kuřátek.",
+        "– Budu je chovat u domu a rychle vyrostou. Prodám je a koupím prase. Prase vyroste a prodám ho za dobrou cenu.",
+        "– Za ty peníze koupím krávu a její tele. Uvidím ho skákat na louce. Budu mít statek, budu bohatá a všichni se na mě budou dívat s úctou!",
+        "Perrette je tak šťastná, že taky poskočí. Džbán spadne. Mléko skončí na zemi.",
+        "Sbohem, mléko, vejce, kuřátka, prase, kráva a tele! Perrette se dívá na rozbitý džbán. Vrátí se domů s prázdnou. Co řekne manželovi?",
+        "To je ponaučení z bajky: nemáme počítat peníze dřív, než je máme v ruce. Ale Jean de La Fontaine na ni není přísný: v roce 1678 píše, že všichni, bohatí i chudí, mají takové sny. Francouzi říkají „stavět zámky ve Španělsku“, Italové „zámky ve vzduchu“ – česky vzdušné zámky. A ve Španělsku tenhle příběh zná každý: říká se mu «La lechera»."
+      ],
+      "b1": [
+        "Je to jeden z příběhů, které nejvíc procestovaly svět. Než se dostal do Francie, vyprávěl se v Asii a ve středověkém Španělsku; ve Španělsku ho všichni znají jako «La lechera» ve verších Félixe Maríi de Samaniega. Nejslavnější verze je však ta od Jeana de La Fontaina z roku 1678.",
+        "Hlavní hrdinka Perrette jde na trh se džbánem mléka, který nese v rovnováze na hlavě. Má na sobě jednoduché šaty a pohodlné boty, protože chce dorazit brzy. Je mladá, veselá a cesta je dlouhá: kolem ní jsou jen pole a nebe. Je to ideální chvíle na plánování.",
+        "„Tohle mléko má docela velkou cenu,“ myslí si. „Za ty peníze bych mohla koupit sto vajec. Musela bych je držet v teple, to ano, ale nebylo by to těžké. Vylíhlo by se sto kuřátek a já bych je chovala u domu. Liška by pár ukradla, ale zbylo by mi jich dost na koupi prasete.“",
+        "„Prase by mě moc nestálo,“ pokračuje. „Pár měsíců bych ho chovala a pak bych ho prodala za dobrou cenu. A co by mi potom bránilo pořídit si krávu s teletem? Ráda bych viděla, jak skáče uprostřed stáda. To by bylo krásné!“",
+        "Jak to říká, Perrette taky poskočí. Džbán spadne. Mléko se rozlije po cestě a s ním zmizí vejce, kuřátka, prase, kráva i tele.",
+        "Perrette se dívá na mokrou zem. Ráda by se vrátila o minutu zpátky, ale to nejde. Bude muset všechno vysvětlit manželovi a nebude to snadný rozhovor.",
+        "Obvykle se tahle bajka vypráví, aby se řeklo, že se nemají počítat zisky dřív, než je máme. La Fontaine ale přidává něco překvapivého: kdo nestaví vzdušné zámky? Všichni sníme s otevřenýma očima, král stejně jako sedlák. Možná by Perrette neměla přestat snít: jen by se měla dívat, kam šlape."
+      ]
+    },
+    "pl": {
+      "a2": [
+        "Perrette jest młodą wieśniaczką. Pewnego ranka stawia na głowie dzban pełen mleka i wyrusza na targ. Ubrała się skromnie i ma wygodne buty, bo chce iść szybko.",
+        "Idąc, zaczyna marzyć:\n– Na targu sprzedam mleko. Za pieniądze kupię sto jajek. Z jajek wykluje się sto kurcząt.",
+        "– Będę je trzymać przy domu i szybko urosną. Sprzedam je i kupię świnię. Świnia urośnie, a ja sprzedam ją za dobrą cenę.",
+        "– Za te pieniądze kupię krowę i jej cielaka. Zobaczę, jak skacze po łące. Będę miała gospodarstwo, będę bogata i wszyscy będą na mnie patrzeć z szacunkiem!",
+        "Perrette jest tak szczęśliwa, że też podskakuje. Dzban spada. Mleko wylewa się na ziemię.",
+        "Żegnajcie, mleko, jajka, kurczęta, świnio, krowo i cielaku! Perrette patrzy na rozbity dzban. Wróci do domu z niczym. Co powie mężowi?",
+        "To jest morał bajki: nie powinniśmy liczyć pieniędzy, zanim nie będziemy ich mieć w ręku. Ale Jean de La Fontaine nie jest dla niej surowy: w 1678 roku pisze, że wszyscy, bogaci i biedni, mają takie marzenia. Po francusku mówi się „budować zamki w Hiszpanii”, po włosku „zamki w powietrzu” – po polsku: zamki na lodzie. A w Hiszpanii wszyscy znają tę historię: nazywają ją «La lechera»."
+      ],
+      "b1": [
+        "To jedna z historii, które najwięcej podróżowały po świecie. Zanim dotarła do Francji, opowiadano ją w Azji i w średniowiecznej Hiszpanii; w Hiszpanii wszyscy znają ją jako «La lechera», z wierszy Félixa Maríi de Samaniego. Najsłynniejsza wersja jest jednak ta Jeana de La Fontaine'a z 1678 roku.",
+        "Bohaterka, Perrette, idzie na targ z dzbanem mleka, który niesie w równowadze na głowie. Ma na sobie prostą sukienkę i wygodne buty, bo chce dotrzeć wcześnie. Jest młoda, wesoła, a droga jest długa: wokół niej są tylko pola i niebo. To idealna chwila na planowanie.",
+        "„To mleko jest warte całkiem sporo” – myśli. – „Za te pieniądze mogłabym kupić sto jajek. Musiałabym trzymać je w cieple, oczywiście, ale to nie byłoby trudne. Wykluło by się sto kurcząt, a ja hodowałabym je przy domu. Lis ukradłby kilka, ale zostałoby mi dość, żeby kupić świnię.”",
+        "„Świnia nie kosztowałaby mnie wiele” – ciągnie dalej. – „Trzymałabym ją kilka miesięcy, a potem odsprzedałabym ją za dobrą cenę. I co by mi wtedy przeszkodziło kupić krowę z cielakiem? Chciałabym zobaczyć, jak skacze pośród stada. To byłoby piękne!”",
+        "Mówiąc to, Perrette też podskakuje. Dzban spada. Mleko rozlewa się po drodze, a razem z nim znikają jajka, kurczęta, świnia, krowa i cielak.",
+        "Perrette patrzy na mokrą ziemię. Chciałaby cofnąć się o minutę, ale się nie da. Będzie musiała wszystko wyjaśnić mężowi, a to nie będzie łatwa rozmowa.",
+        "Zwykle opowiada się tę bajkę, żeby powiedzieć, że nie należy liczyć zysków, zanim się ich nie ma. La Fontaine dodaje jednak coś zaskakującego: kto nie buduje zamków na lodzie? Wszyscy marzymy na jawie, król tak samo jak wieśniak. Może Perrette nie powinna przestać marzyć: powinna tylko patrzeć, gdzie stawia stopy."
+      ]
+    },
+    "tr": {
+      "a2": [
+        "Perrette genç bir köylü kızıdır. Bir sabah başına süt dolu bir testi koyar ve pazara doğru yola çıkar. Sade giyinmiştir, ayağında da rahat ayakkabılar vardır, çünkü hızlı yürümek ister.",
+        "Yürürken hayal kurmaya başlar:\n– Pazarda sütü satacağım. Parasıyla yüz yumurta alacağım. Yumurtalardan yüz civciv çıkacak.",
+        "– Onları evin yanında besleyeceğim, çabucak büyüyecekler. Onları satıp bir domuz alacağım. Domuz büyüyecek, ben de onu iyi bir fiyata satacağım.",
+        "– O parayla bir inek ve buzağısını alacağım. Buzağının çayırda zıpladığını göreceğim. Bir çiftliğim olacak, zengin olacağım ve herkes bana saygıyla bakacak!",
+        "Perrette o kadar mutludur ki o da bir zıplar. Testi düşer. Süt yere dökülür.",
+        "Elveda süt, yumurtalar, civcivler, domuz, inek ve buzağı! Perrette kırık testiye bakar. Eve eli boş dönecek. Kocasına ne diyecek?",
+        "Masalın ana fikri şu: parayı eline almadan saymamalısın; Türkçedeki deyişle, dereyi görmeden paçaları sıvamamalısın. Ama Jean de La Fontaine ona karşı sert değildir: 1678'de herkesin, zengin ya da yoksul, böyle hayaller kurduğunu yazar. Fransızcada «İspanya'da şatolar kurmak», İtalyancada «havada şatolar» denir. İspanya'da da bu hikâyeyi herkes bilir: adı «La lechera»dır."
+      ],
+      "b1": [
+        "Dünyada en çok dolaşmış hikâyelerden biridir. Fransa'ya gelmeden önce Asya'da ve Orta Çağ İspanya'sında anlatılırdı; İspanya'da herkes onu Félix María de Samaniego'nun dizelerindeki «La lechera» adıyla tanır. Ama en ünlü versiyonu, Jean de La Fontaine'in 1678 tarihli anlatımıdır.",
+        "Kahramanımız Perrette, başında dengede tuttuğu bir testi sütle pazara gidiyor. Sade bir elbise ve rahat ayakkabılar giymiş, çünkü erken varmak istiyor. Genç ve neşeli, yol da uzun: etrafında sadece tarlalar ve gökyüzü var. Plan yapmak için tam zamanı.",
+        "«Bu süt epey para eder», diye düşünüyor. «O parayla yüz yumurta alabilirim. Elbette onları sıcak tutmam gerekir ama zor olmaz. Yüz civciv çıkar, ben de onları evin yanında büyütürüm. Tilki birkaçını çalar, ama bir domuz alacak kadarı kalır.»",
+        "«Domuz bana pahalıya patlamaz», diye devam ediyor. «Birkaç ay beslerim, sonra iyi bir fiyata yeniden satarım. O zaman bir ineği buzağısıyla almama ne engel olabilir? Buzağının sürünün ortasında zıpladığını görmeyi çok isterim. Ne güzel olur!»",
+        "Bunu söylerken Perrette de bir zıplıyor. Testi düşüyor. Süt yola dökülüyor ve onunla birlikte yumurtalar, civcivler, domuz, inek ve buzağı da yok oluyor.",
+        "Perrette ıslak toprağa bakıyor. Bir dakika geriye dönmek isterdi ama olmaz. Her şeyi kocasına anlatmak zorunda kalacak ve bu kolay bir konuşma olmayacak.",
+        "Bu masal genellikle kazancı eline geçmeden saymamak gerektiğini anlatmak için okunur. Ama La Fontaine şaşırtıcı bir şey ekler: kim hayalden şatolar kurmaz ki? Hepimiz gözümüz açık hayal kurarız, kral da köylü de. Belki Perrette hayal kurmayı bırakmamalı: sadece ayağını nereye bastığına dikkat etmeli."
+      ]
+    },
+    "de": {
+      "a2": [
+        "Perrette ist eine junge Bäuerin. Eines Morgens stellt sie einen Krug voll Milch auf den Kopf und macht sich auf den Weg zum Markt. Sie hat sich einfach angezogen und trägt bequeme Schuhe, weil sie schnell gehen will.",
+        "Während sie geht, fängt sie an zu träumen:\n– Auf dem Markt werde ich die Milch verkaufen. Mit dem Geld werde ich hundert Eier kaufen. Aus den Eiern werden hundert Küken schlüpfen.",
+        "– Ich werde sie nah beim Haus halten, und sie werden schnell wachsen. Ich werde sie verkaufen und ein Schwein kaufen. Das Schwein wird groß werden, und ich werde es zu einem guten Preis verkaufen.",
+        "– Mit dem Geld werde ich eine Kuh und ihr Kalb kaufen. Ich werde es auf der Wiese springen sehen. Ich werde einen Bauernhof haben, ich werde reich sein, und alle werden mich mit Respekt ansehen!",
+        "Perrette ist so glücklich, dass auch sie einen Sprung macht. Der Krug fällt. Die Milch landet auf dem Boden.",
+        "Adieu, Milch, Eier, Küken, Schwein, Kuh und Kalb! Perrette schaut auf den zerbrochenen Krug. Sie wird mit leeren Händen nach Hause kommen. Was wird sie ihrem Mann sagen?",
+        "Das ist die Moral der Fabel: Man soll das Geld nicht zählen, bevor man es in der Hand hat. Aber Jean de La Fontaine ist nicht streng mit ihr: 1678 schreibt er, dass alle, Reiche und Arme, solche Träume haben. Auf Französisch sagt man „Schlösser in Spanien bauen“, auf Italienisch „Schlösser in der Luft“ – auf Deutsch: Luftschlösser. Und auch in Spanien kennt jeder diese Geschichte: Man nennt sie «La lechera»."
+      ],
+      "b1": [
+        "Es ist eine der Geschichten, die am weitesten durch die Welt gereist sind. Bevor sie nach Frankreich kam, erzählte man sie in Asien und im mittelalterlichen Spanien; in Spanien kennen sie alle als «La lechera», in den Versen von Félix María de Samaniego. Die berühmteste Fassung ist aber die von Jean de La Fontaine aus dem Jahr 1678.",
+        "Die Hauptfigur, Perrette, ist auf dem Weg zum Markt, mit einem Milchkrug, den sie im Gleichgewicht auf dem Kopf trägt. Sie trägt ein einfaches Kleid und bequeme Schuhe, weil sie früh ankommen will. Sie ist jung, fröhlich, und der Weg ist lang: Um sie herum gibt es nur Felder und Himmel. Der perfekte Moment, um Pläne zu schmieden.",
+        "„Diese Milch ist ziemlich viel wert“, denkt sie. „Mit dem Geld könnte ich hundert Eier kaufen. Ich müsste sie warm halten, klar, aber das wäre nicht schwer. Hundert Küken würden schlüpfen, und ich würde sie beim Haus großziehen. Der Fuchs würde ein paar stehlen, aber es blieben mir genug, um ein Schwein zu kaufen.“",
+        "„Das Schwein würde mich nicht viel kosten“, fährt sie fort. „Ich würde es ein paar Monate halten und dann zu einem guten Preis weiterverkaufen. Und was würde mich dann daran hindern, eine Kuh mit ihrem Kalb zu nehmen? Ich würde es gern mitten in der Herde springen sehen. Das wäre wunderschön!“",
+        "Bei diesen Worten macht auch Perrette einen Sprung. Der Krug fällt. Die Milch fließt über den Weg, und mit ihr verschwinden die Eier, die Küken, das Schwein, die Kuh und das Kalb.",
+        "Perrette schaut auf die nasse Erde. Sie würde gern eine Minute zurückgehen, aber das geht nicht. Sie wird ihrem Mann alles erklären müssen, und es wird kein leichtes Gespräch.",
+        "Meistens erzählt man diese Fabel, um zu sagen, dass man seine Gewinne nicht zählen soll, bevor man sie hat. La Fontaine fügt aber etwas Überraschendes hinzu: Wer baut keine Luftschlösser? Wir alle träumen mit offenen Augen, der König genauso wie der Bauer. Vielleicht sollte Perrette nicht aufhören zu träumen: Sie sollte nur schauen, wohin sie tritt."
+      ]
+    },
+    "ja": {
+      "a2": [
+        "ペレットは若い農家の娘です。ある朝、牛乳がいっぱい入ったつぼを頭にのせて、市場へ出かけます。簡単な服を着て、はきやすいくつをはいています。早く歩きたいからです。",
+        "歩きながら、ペレットは夢を見始めます。\n「市場で牛乳を売ろう。そのお金で卵を百個買おう。卵からひよこが百羽生まれるわ。」",
+        "「ひよこは家の近くで育てよう。すぐに大きくなるわ。それを売って、ブタを一頭買おう。ブタは大きくなるから、いい値段で売ろう。」",
+        "「そのお金で、牛と子牛を買おう。子牛が牧場でとびはねるのを見るのよ。農場を持って、お金持ちになって、みんなが尊敬のまなざしでわたしを見るわ！」",
+        "ペレットはうれしくなって、自分もぴょんととびはねます。つぼが落ちます。牛乳は地面にこぼれてしまいます。",
+        "さようなら、牛乳、卵、ひよこ、ブタ、牛、子牛！　ペレットは割れたつぼを見つめます。何も持たずに家へ帰ることになります。夫に何と言えばいいのでしょう？",
+        "これがこのお話の教訓です。お金は手に入れる前に数えてはいけません。日本語の「取らぬたぬきの皮算用」と同じですね。でもジャン・ド・ラ・フォンテーヌはペレットにきびしくありません。1678年に、お金持ちも貧しい人も、みんなこんな夢を見ると書いています。フランス語では「スペインに城を建てる」、イタリア語では「空中の城」と言います。そしてスペインでも、この話はだれもが知っています。「ラ・レチェラ（牛乳売りの娘）」と呼ばれています。"
+      ],
+      "b1": [
+        "これは世界でいちばん旅をしたお話の一つです。フランスに来る前は、アジアや中世のスペインで語られていました。スペインではフェリクス・マリア・デ・サマニエゴの詩「ラ・レチェラ」として、だれもが知っています。けれども、いちばん有名なのは1678年のジャン・ド・ラ・フォンテーヌのものです。",
+        "主人公のペレットは、牛乳のつぼを頭の上でうまくバランスをとりながら、市場へ向かっています。早く着きたいので、簡単なワンピースに、はきやすいくつをはいています。若くて、陽気で、道は長く、まわりには畑と空しかありません。計画を立てるにはぴったりの時間です。",
+        "「この牛乳はけっこうな値打ちがあるわ」とペレットは考えます。「そのお金で卵を百個買えるかもしれない。もちろん温めておかなければならないけど、むずかしくはないわ。ひよこが百羽生まれて、家の近くで育てるの。キツネに何羽か盗まれるでしょうけど、ブタを一頭買うぶんは十分残るはずよ。」",
+        "「ブタならそんなにお金はかからないわ」とペレットは続けます。「何か月か育てて、いい値段で売り直すの。そうしたら、牛と子牛を手に入れるのを何がじゃまするかしら？　子牛が群れの中でとびはねるのを見てみたいわ。すてきでしょうね！」",
+        "そう言いながら、ペレットも思わずとびはねます。つぼが落ちます。牛乳は道に広がり、それといっしょに卵も、ひよこも、ブタも、牛も、子牛も消えてしまいます。",
+        "ペレットはぬれた地面を見つめます。一分前にもどりたいけれど、それはできません。夫にすべてを説明しなければならず、楽な話にはならないでしょう。",
+        "ふつうこの寓話は、もうけを手に入れる前に数えてはいけない、という意味で語られます。でもラ・フォンテーヌは、意外なことを付け加えています。空想の城を建てない人などいるでしょうか？　王さまも農夫も、だれもが白昼夢を見るのです。ペレットは夢を見るのをやめる必要はないのかもしれません。ただ、足もとに気をつければいいのです。"
+      ]
+    }
+  }
+}
