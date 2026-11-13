@@ -124,9 +124,75 @@
   text-transform: uppercase;
   letter-spacing: 0.09em;
 }
-.gloss-example span[lang='it'] {
+.gloss-examples {
+  margin: 4px 0 0;
+  padding-left: 1.3em;
   font-family: Georgia, serif;
   font-size: 1.02rem;
+}
+.gloss-examples li {
+  margin: 0 0 6px;
+}
+.gloss-examples li:last-child {
+  margin-bottom: 0;
+}
+.gloss-examples strong {
+  color: var(--primary);
+}
+.gloss-say {
+  padding: 0 4px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  font-size: 0.85rem;
+  line-height: 1;
+  vertical-align: 1px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.gloss-say:hover {
+  background: var(--soft);
+  opacity: 1;
+}
+.gloss-translation[hidden] {
+  display: none;
+}
+
+/* Traduzione del paragrafo: chiusa, sotto il paragrafo, discreta. */
+.gloss-tr {
+  margin: -6px 0 16px;
+}
+.gloss-tr-toggle {
+  padding: 3px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gloss-tr-toggle::before {
+  content: '🌐 ';
+}
+.gloss-tr-toggle:hover,
+.gloss-tr-toggle[aria-expanded='true'] {
+  background: var(--cream);
+  color: var(--ink);
+}
+.gloss-tr-text {
+  margin: 8px 0 0;
+  padding: 8px 12px;
+  border-left: 3px solid var(--line);
+  color: var(--muted);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+.gloss-tr-text[hidden] {
+  display: none;
 }
 .gloss-example[hidden] {
   display: none;
@@ -141,6 +207,8 @@
     right: 12px;
     bottom: 12px;
     left: 12px !important;
+    /* Sopra il pulsante di WhatsApp (z-index 900), che copriva gli esempi. */
+    z-index: 950;
     width: auto;
     box-shadow: 0 -10px 40px rgba(53, 39, 27, 0.22);
   }
@@ -148,11 +216,16 @@
 
 @media print {
   .gloss-hint,
-  .gloss-pop {
+  .gloss-pop,
+  .gloss-tr {
     display: none !important;
   }
   .gloss-word {
     border-bottom: 0;
     background: none;
   }
+}
+
+.gloss-nowrap {
+  white-space: nowrap;
 }

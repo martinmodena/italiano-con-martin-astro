@@ -43,6 +43,9 @@ jobs:
       - name: Audit fable audio (source)
         run: node scripts/add-fable-audio.mjs --check
 
+      - name: Audit story glossaries (source)
+        run: node scripts/attach-glossary.mjs --check
+
       - name: Build site
         run: npm run build
 

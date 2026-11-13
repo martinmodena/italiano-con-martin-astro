@@ -1,0 +1,421 @@
+{
+  "id": "il-lago-di-yogurt",
+  "nota": "Glossario cliccabile e traduzione della favola. Voci: `forme` = forme che compaiono nel testo; `formeEsempi` = altre forme usate negli esempi (solo per il grassetto); `esempi` = tre frasi in italiano con la parola NELLO STESSO SIGNIFICATO del testo; `traduzioni` = traduzione della parola nelle 9 lingue (nella pagina italiana non si mostra niente: niente definizioni). `testo[lingua][livello]` = traduzione dei paragrafi <p> di .story-text, nello stesso ordine; \\n va a capo come i <br>.",
+  "voci": [
+    {
+      "parola": "il paese",
+      "forme": ["paese"],
+      "esempi": ["Mia nonna vive in un piccolo paese di montagna.", "In questo paese tutti si conoscono.", "La domenica il paese è tranquillo."],
+      "traduzioni": { "en": "village, small town (here not “country”)", "es": "pueblo (aquí no «país»)", "pt": "cidadezinha, vila (aqui não «país»)", "fr": "village (ici pas « pays »)", "cs": "vesnice, městečko (tady ne „země“)", "pl": "wioska, miasteczko (tu nie „kraj”)", "tr": "köy, kasaba (burada «ülke» değil)", "de": "Dorf (hier nicht „Land“)", "ja": "村、町（ここでは「国」ではない）" }
+    },
+    {
+      "parola": "la ciotola",
+      "forme": ["ciotola"],
+      "esempi": ["Metto i cereali nella ciotola.", "Il gatto beve l'acqua dalla sua ciotola.", "Sul tavolo c'è una ciotola di frutta."],
+      "traduzioni": { "en": "bowl", "es": "cuenco", "pt": "tigela", "fr": "bol", "cs": "miska", "pl": "miska", "tr": "kâse", "de": "Schüssel", "ja": "おわん、ボウル" }
+    },
+    {
+      "parola": "il cucchiaio",
+      "forme": ["cucchiaio"],
+      "esempi": ["Mangio la minestra con il cucchiaio.", "Aggiungi un cucchiaio di zucchero.", "Mi passi un cucchiaio, per favore?"],
+      "traduzioni": { "en": "spoon; a spoonful", "es": "cuchara; cucharada", "pt": "colher", "fr": "cuillère ; cuillerée", "cs": "lžíce", "pl": "łyżka", "tr": "kaşık", "de": "Löffel", "ja": "スプーン（1杯）" }
+    },
+    {
+      "parola": "il bastone",
+      "forme": ["bastone"],
+      "esempi": ["Il nonno cammina con il bastone.", "Il cane riporta il bastone.", "Raccolgo un bastone nel bosco."],
+      "traduzioni": { "en": "stick", "es": "palo", "pt": "pau, bastão", "fr": "bâton", "cs": "hůl, klacek", "pl": "kij", "tr": "sopa, değnek", "de": "Stock", "ja": "棒" }
+    },
+    {
+      "parola": "la riva",
+      "forme": ["riva"],
+      "esempi": ["Ci sediamo sulla riva del fiume.", "La barca è vicina alla riva.", "Sulla riva del lago ci sono molti alberi."],
+      "traduzioni": { "en": "shore, bank", "es": "orilla", "pt": "margem", "fr": "rive, bord", "cs": "břeh", "pl": "brzeg", "tr": "kıyı", "de": "Ufer", "ja": "岸" }
+    },
+    {
+      "parola": "sedersi",
+      "forme": ["siede", "seduto"],
+      "formeEsempi": ["siedo", "siediti", "seduta"],
+      "esempi": ["Mi siedo vicino alla finestra.", "Siediti qui, c'è posto.", "Mia madre è seduta sul divano."],
+      "traduzioni": { "en": "to sit down (seduto = sitting)", "es": "sentarse (seduto = sentado)", "pt": "sentar-se (seduto = sentado)", "fr": "s’asseoir (seduto = assis)", "cs": "sednout si (seduto = sedící)", "pl": "usiąść (seduto = siedzący)", "tr": "oturmak", "de": "sich setzen (seduto = sitzend)", "ja": "座る" }
+    },
+    {
+      "parola": "girare",
+      "forme": ["gira", "girava", "girato"],
+      "formeEsempi": ["giro"],
+      "esempi": ["Giro il caffè con il cucchiaino.", "Gira la minestra, se no si attacca alla pentola.", "Mentre parla, gira il tè nella tazza."],
+      "traduzioni": { "en": "to stir (here)", "es": "remover (aquí)", "pt": "mexer (aqui)", "fr": "remuer (ici)", "cs": "míchat (tady)", "pl": "mieszać (tutaj)", "tr": "karıştırmak (burada)", "de": "umrühren (hier)", "ja": "かき混ぜる（ここでは）" }
+    },
+    {
+      "parola": "ridere",
+      "forme": ["ride", "ridono", "ridere", "riderà"],
+      "formeEsempi": ["rido"],
+      "esempi": ["Quando guardo questo film rido sempre.", "I bambini ridono in giardino.", "Non ridere, è una cosa seria!"],
+      "traduzioni": { "en": "to laugh", "es": "reír, reírse", "pt": "rir", "fr": "rire", "cs": "smát se", "pl": "śmiać się", "tr": "gülmek", "de": "lachen", "ja": "笑う" }
+    },
+    {
+      "parola": "diventare",
+      "forme": ["diventa", "diventerà"],
+      "formeEsempi": ["diventano", "diventare"],
+      "esempi": ["D'inverno l'acqua del lago diventa ghiaccio.", "Le foglie diventano gialle in autunno.", "Mio fratello vuole diventare medico."],
+      "traduzioni": { "en": "to become, to turn into", "es": "convertirse en, volverse", "pt": "virar, tornar-se", "fr": "devenir", "cs": "stát se, proměnit se", "pl": "stać się, zmienić się w", "tr": "olmak, dönüşmek", "de": "werden", "ja": "〜になる" }
+    },
+    {
+      "parola": "arrabbiarsi",
+      "forme": ["arrabbia"],
+      "formeEsempi": ["arrabbiarti"],
+      "esempi": ["Se arrivo tardi, mia madre si arrabbia.", "Non arrabbiarti, era uno scherzo!", "Il professore si arrabbia quando parliamo in classe."],
+      "traduzioni": { "en": "to get angry", "es": "enfadarse", "pt": "ficar bravo, zangar-se", "fr": "se fâcher", "cs": "zlobit se", "pl": "złościć się", "tr": "kızmak", "de": "wütend werden, sich ärgern", "ja": "怒る" }
+    },
+    {
+      "parola": "sorridere",
+      "forme": ["sorride"],
+      "formeEsempi": ["sorridi", "sorrido"],
+      "esempi": ["La bambina sorride alla mamma.", "Sorridi! Facciamo una foto.", "Quando sono felice, sorrido a tutti."],
+      "traduzioni": { "en": "to smile", "es": "sonreír", "pt": "sorrir", "fr": "sourire", "cs": "usmívat se", "pl": "uśmiechać się", "tr": "gülümsemek", "de": "lächeln", "ja": "ほほえむ、にっこりする" }
+    },
+    {
+      "parola": "funzionare",
+      "forme": ["funziona", "funzionerà"],
+      "esempi": ["Proviamo questo metodo: forse funziona.", "La tua idea funziona benissimo!", "Questa medicina funziona: sto già meglio."],
+      "traduzioni": { "en": "to work, to succeed", "es": "funcionar, salir bien", "pt": "dar certo, funcionar", "fr": "marcher, réussir", "cs": "vyjít, fungovat", "pl": "udać się, zadziałać", "tr": "tutmak, işe yaramak", "de": "klappen, funktionieren", "ja": "うまくいく" }
+    },
+    {
+      "parola": "provare",
+      "forme": ["prova"],
+      "formeEsempi": ["provo", "provato"],
+      "esempi": ["Provo a parlare solo italiano per una settimana.", "Hai mai provato a fare il pane in casa?", "Non è facile, ma provo lo stesso."],
+      "traduzioni": { "en": "to try", "es": "intentar", "pt": "tentar", "fr": "essayer", "cs": "zkusit, zkoušet", "pl": "próbować, spróbować", "tr": "denemek", "de": "versuchen", "ja": "やってみる、試す" }
+    },
+    {
+      "parola": "coraggioso",
+      "forme": ["coraggiosa"],
+      "formeEsempi": ["coraggioso", "coraggiosi"],
+      "esempi": ["Il pompiere è un uomo coraggioso.", "È stata una scelta coraggiosa.", "Bisogna essere coraggiosi per cambiare lavoro."],
+      "traduzioni": { "en": "brave", "es": "valiente", "pt": "corajoso", "fr": "courageux", "cs": "odvážný", "pl": "odważny", "tr": "cesur", "de": "mutig", "ja": "勇気のある" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "sembrare",
+      "forme": ["sembrano", "sembra"],
+      "formeEsempi": ["sembri"],
+      "esempi": ["Questo esercizio sembra difficile, ma è facile.", "Sembri stanco: hai dormito?", "Da lontano le montagne sembrano blu."],
+      "traduzioni": { "en": "to seem, to look", "es": "parecer", "pt": "parecer", "fr": "sembler", "cs": "zdát se, vypadat", "pl": "wydawać się", "tr": "görünmek", "de": "scheinen, wirken", "ja": "〜に見える" }
+    },
+    {
+      "parola": "strano",
+      "forme": ["strana"],
+      "formeEsempi": ["strano"],
+      "esempi": ["Che strano: la porta è aperta!", "Stanotte ho fatto un sogno strano.", "Oggi il cielo ha un colore strano."],
+      "traduzioni": { "en": "strange", "es": "extraño, raro", "pt": "estranho", "fr": "étrange, bizarre", "cs": "zvláštní, divný", "pl": "dziwny", "tr": "tuhaf, garip", "de": "seltsam, komisch", "ja": "奇妙な、変な" }
+    },
+    {
+      "parola": "il ginocchio",
+      "forme": ["ginocchia"],
+      "formeEsempi": ["ginocchio"],
+      "esempi": ["Il bambino si siede sulle ginocchia del nonno.", "Mi fa male il ginocchio destro.", "Metto il computer sulle ginocchia."],
+      "traduzioni": { "en": "knee (plural: le ginocchia)", "es": "rodilla (plural: le ginocchia)", "pt": "joelho (plural: le ginocchia)", "fr": "genou (pluriel : le ginocchia)", "cs": "koleno (množné číslo: le ginocchia)", "pl": "kolano (l. mn.: le ginocchia)", "tr": "diz (çoğulu: le ginocchia)", "de": "Knie (Plural: le ginocchia)", "ja": "ひざ（複数形は le ginocchia）" }
+    },
+    {
+      "parola": "serio",
+      "forme": ["serio"],
+      "formeEsempi": ["seria"],
+      "esempi": ["Non ridere, sono serio!", "Il dottore ha una faccia seria.", "Parla sul serio o scherza?"],
+      "traduzioni": { "en": "serious, not joking", "es": "serio", "pt": "sério", "fr": "sérieux", "cs": "vážný", "pl": "poważny", "tr": "ciddi", "de": "ernst", "ja": "まじめな、真剣な" }
+    },
+    {
+      "parola": "il mercante",
+      "forme": ["mercante"],
+      "formeEsempi": ["mercanti"],
+      "esempi": ["Il mercante vende stoffe al mercato.", "Nel Medioevo i mercanti di Venezia viaggiavano molto.", "La sera il mercante conta i soldi della giornata."],
+      "traduzioni": { "en": "merchant", "es": "mercader", "pt": "comerciante, mercador", "fr": "marchand", "cs": "kupec, obchodník", "pl": "kupiec", "tr": "tüccar", "de": "Kaufmann, Händler", "ja": "商人" }
+    },
+    {
+      "parola": "il sapientone",
+      "forme": ["sapientone"],
+      "esempi": ["Mio cugino fa sempre il sapientone.", "Non fare il sapientone: anche tu sbagli!", "Nessuno ascolta quel sapientone."],
+      "traduzioni": { "en": "know-it-all", "es": "sabelotodo", "pt": "sabichão", "fr": "monsieur je-sais-tout", "cs": "chytrák", "pl": "mądrala", "tr": "ukala, bilmiş", "de": "Besserwisser", "ja": "知ったかぶりの人" }
+    },
+    {
+      "parola": "istruito",
+      "forme": ["istruito"],
+      "formeEsempi": ["istruita", "istruite"],
+      "esempi": ["Mia nonna era una donna molto istruita.", "È un uomo istruito: ha letto moltissimi libri.", "Oggi le persone istruite sono più di cento anni fa."],
+      "traduzioni": { "en": "educated", "es": "instruido, culto", "pt": "instruído, culto", "fr": "instruit", "cs": "vzdělaný", "pl": "wykształcony", "tr": "okumuş, eğitimli", "de": "gebildet", "ja": "学のある、教養のある" }
+    },
+    {
+      "parola": "perdere",
+      "forme": ["perderai"],
+      "formeEsempi": ["perdere", "perso", "perdi"],
+      "esempi": ["Non voglio perdere tempo davanti alla televisione.", "Ho perso tutta la mattina in fila alla posta.", "Con questo gioco perdi solo il tuo tempo."],
+      "traduzioni": { "en": "to lose, to waste (time)", "es": "perder", "pt": "perder", "fr": "perdre", "cs": "ztratit (čas), přijít o", "pl": "stracić", "tr": "kaybetmek, boşa harcamak", "de": "verlieren, verschwenden", "ja": "失う、（時間を）むだにする" }
+    },
+    {
+      "parola": "versare",
+      "forme": ["versato"],
+      "formeEsempi": ["verso", "versa"],
+      "esempi": ["Verso l'acqua nei bicchieri.", "Versa un po' d'olio nella padella.", "Ho versato il tè nella tazza."],
+      "traduzioni": { "en": "to pour", "es": "echar, verter", "pt": "despejar", "fr": "verser", "cs": "nalít", "pl": "wlać, nalać", "tr": "dökmek", "de": "gießen", "ja": "注ぐ" }
+    },
+    {
+      "parola": "naturalmente",
+      "forme": ["naturalmente"],
+      "esempi": ["«Vieni anche tu?» «Naturalmente!»", "Ha piovuto tutto il giorno e, naturalmente, ho dimenticato l'ombrello.", "Naturalmente ti aiuto io!"],
+      "traduzioni": { "en": "of course, naturally", "es": "naturalmente, por supuesto", "pt": "naturalmente, claro", "fr": "bien sûr, naturellement", "cs": "samozřejmě", "pl": "oczywiście", "tr": "elbette, tabii ki", "de": "natürlich", "ja": "もちろん" }
+    },
+    {
+      "parola": "il progetto",
+      "forme": ["progetti"],
+      "formeEsempi": ["progetto"],
+      "esempi": ["Qual è il tuo progetto per l'estate?", "Abbiamo un progetto: aprire un piccolo bar.", "Ho molti progetti per il nuovo anno."],
+      "traduzioni": { "en": "plan, project", "es": "proyecto, plan", "pt": "projeto, plano", "fr": "projet", "cs": "plán", "pl": "plan", "tr": "plan, proje", "de": "Plan, Vorhaben", "ja": "計画" }
+    },
+    {
+      "parola": "il saggio",
+      "forme": ["saggio"],
+      "esempi": ["Il saggio del villaggio dà buoni consigli a tutti.", "I giovani ascoltano le parole del vecchio saggio.", "Nelle favole il saggio trova sempre una risposta."],
+      "traduzioni": { "en": "wise man, sage", "es": "sabio", "pt": "sábio", "fr": "sage", "cs": "mudrc", "pl": "mędrzec", "tr": "bilge", "de": "der Weise", "ja": "賢者" }
+    },
+    {
+      "parola": "matto",
+      "forme": ["matto"],
+      "formeEsempi": ["matta"],
+      "esempi": ["Sei matto? Fuori ci sono due gradi!", "Mio zio è un po' matto, ma simpatico.", "Questo traffico mi fa diventare matta!"],
+      "traduzioni": { "en": "crazy, mad", "es": "loco", "pt": "maluco, louco", "fr": "fou", "cs": "bláznivý", "pl": "szalony", "tr": "deli", "de": "verrückt", "ja": "おかしな、変わった" }
+    },
+    {
+      "parola": "tentare",
+      "forme": ["tentare"],
+      "formeEsempi": ["tentato", "tentiamo"],
+      "esempi": ["Voglio tentare l'esame un'altra volta.", "Ho tentato di chiamarti, ma il telefono era spento.", "Tentiamo: non abbiamo niente da perdere!"],
+      "traduzioni": { "en": "to try, to attempt", "es": "intentar", "pt": "tentar", "fr": "tenter", "cs": "pokusit se", "pl": "próbować, spróbować", "tr": "denemek, kalkışmak", "de": "versuchen, wagen", "ja": "試みる" }
+    },
+    {
+      "parola": "la fortuna",
+      "forme": ["fortuna"],
+      "esempi": ["Buona fortuna per l'esame!", "Che fortuna: il treno è in ritardo e lo prendo!", "Non è bravura, è solo fortuna."],
+      "traduzioni": { "en": "luck", "es": "suerte", "pt": "sorte", "fr": "chance", "cs": "štěstí", "pl": "szczęście", "tr": "şans", "de": "Glück", "ja": "運" }
+    },
+    {
+      "parola": "lo sciocco",
+      "forme": ["sciocco"],
+      "formeEsempi": ["sciocca"],
+      "esempi": ["Non sono uno sciocco: ho capito tutto!", "Scusa, ho fatto una domanda sciocca.", "Solo uno sciocco esce in barca con questo vento."],
+      "traduzioni": { "en": "fool; silly", "es": "tonto", "pt": "bobo, tolo", "fr": "sot, idiot", "cs": "hlupák", "pl": "głupiec", "tr": "saf, ahmak", "de": "Dummkopf", "ja": "愚か者" }
+    },
+    {
+      "parola": "sprecare",
+      "forme": ["spreca"],
+      "formeEsempi": ["sprecare", "sprecato"],
+      "esempi": ["Non sprecare l'acqua quando ti lavi i denti.", "Chi spreca il cibo non pensa a chi ha fame.", "Ho sprecato un'ora a cercare le chiavi."],
+      "traduzioni": { "en": "to waste", "es": "desperdiciar", "pt": "desperdiçar", "fr": "gaspiller", "cs": "plýtvat", "pl": "marnować", "tr": "israf etmek, boşa harcamak", "de": "verschwenden", "ja": "むだにする" }
+    },
+    {
+      "parola": "il tentativo",
+      "forme": ["tentativo"],
+      "formeEsempi": ["tentativi"],
+      "esempi": ["Al terzo tentativo ho passato l'esame.", "È stato un buon tentativo: riprova!", "Dopo molti tentativi, la torta è venuta bene."],
+      "traduzioni": { "en": "attempt", "es": "intento", "pt": "tentativa", "fr": "essai, tentative", "cs": "pokus", "pl": "próba", "tr": "deneme", "de": "Versuch", "ja": "試み" }
+    },
+    {
+      "parola": "ridicolo",
+      "forme": ["ridicolo"],
+      "formeEsempi": ["ridicola"],
+      "esempi": ["Con questo cappello sembro ridicolo.", "È una scusa ridicola: nessuno ci crede.", "Non è ridicolo chiedere aiuto."],
+      "traduzioni": { "en": "ridiculous", "es": "ridículo", "pt": "ridículo", "fr": "ridicule", "cs": "směšný", "pl": "śmieszny", "tr": "gülünç", "de": "lächerlich", "ja": "ばかばかしい" }
+    },
+    {
+      "parola": "secondo",
+      "forme": ["secondo"],
+      "esempi": ["Secondo me, domani piove.", "Secondo il medico devo dormire di più.", "Secondo la leggenda, qui viveva un re."],
+      "traduzioni": { "en": "according to (here not “second”)", "es": "según (aquí no «segundo»)", "pt": "segundo, de acordo com", "fr": "selon (ici pas « deuxième »)", "cs": "podle (tady ne „druhý“)", "pl": "według (tu nie „drugi”)", "tr": "-e göre (burada «ikinci» değil)", "de": "laut, nach (hier nicht „zweiter“)", "ja": "〜によると（ここでは「2番目」ではない）" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Nasreddin Hodja lives in a small village in Turkey. One day he has an idea. He goes to a lake with a bowl, a spoon and a stick. In the bowl there is some yogurt.",
+        "Nasreddin sits down on the shore. He takes a spoonful of yogurt and puts it in the water. Then he stirs the water with the stick.",
+        "A man arrives.\n– Hodja, what are you doing?\n– I'm making yogurt.\n– Yogurt? In the lake?\n– Yes: a yogurt as big as a lake!",
+        "The man laughs. Then a boy, a woman and an old man arrive. They laugh too.\n– Hodja, it's not possible! A lake doesn't turn into yogurt!",
+        "Nasreddin doesn't get angry. He puts another spoonful of yogurt in the water and smiles.\n– I know. But… what if it works?",
+        "Even today in Turkey, when someone tries something almost impossible, people say «Ya tutarsa!»: “What if it works?”. Sometimes it's a silly thing. Sometimes it's a brave idea.",
+        "That's the moral of the story: great things always seem impossible at the beginning. But if you never try, you never know how it will end."
+      ],
+      "a2": [
+        "One summer morning the boys of Akşehir saw a strange scene: Nasreddin Hodja was sitting on the shore of the lake, with a bowl of yogurt on his knees. Every now and then he took a spoonful of yogurt, put it in the water and then stirred with a long stick.",
+        "– Hodja, what are you doing? – asked a boy.\n– I'm making yogurt – he answered seriously. – Tomorrow this whole lake will turn into yogurt. We'll have enough for the whole village, and for the whole winter.",
+        "The boys started laughing. Then the village merchant arrived, with his usual know-it-all air.\n– Hodja, you're an educated man and you know it very well: water will never turn into yogurt. You'll waste your time, and you'll lose your yogurt too.",
+        "Nasreddin poured another spoonful into the lake, stirred calmly and looked up.\n– You're right, it probably won't work. But if it does work, who will be laughing tomorrow?",
+        "The merchant didn't know what to answer. The next day, of course, the lake was still a lake. But the whole village was talking about Nasreddin, and many, on their way home, were thinking about their own “impossible” plans.",
+        "It is one of the most famous stories of Nasreddin Hodja, the slightly crazy wise man of hundreds of Turkish tales, who according to tradition lived in Akşehir in the 13th century. In Turkey «göle maya çalmak», “to put yogurt starter in the lake”, means trying something almost impossible and hoping for luck. And the answer is always the same: «Ya tutarsa!», “What if it works?”.",
+        "The moral can be read in two ways. Maybe Nasreddin is a fool who wastes his yogurt. Or maybe he teaches us that great things always begin with an attempt that seems ridiculous. What do you think?"
+      ]
+    },
+    "es": {
+      "a1": [
+        "Nasreddin Hodja vive en un pueblo pequeño de Turquía. Un día tiene una idea. Va a un lago con un cuenco, una cuchara y un palo. En el cuenco hay un yogur.",
+        "Nasreddin se sienta en la orilla. Toma una cucharada de yogur y la echa en el agua. Luego remueve el agua con el palo.",
+        "Llega un hombre.\n– Hodja, ¿qué haces?\n– Hago un yogur.\n– ¿Un yogur? ¿En el lago?\n– Sí: ¡un yogur grande como un lago!",
+        "El hombre se ríe. Luego llegan un chico, una mujer y un anciano. También ellos se ríen.\n– Hodja, ¡no es posible! ¡Un lago no se convierte en yogur!",
+        "Nasreddin no se enfada. Echa otra cucharada de yogur en el agua y sonríe.\n– Ya lo sé. Pero… ¿y si funciona?",
+        "Todavía hoy en Turquía, cuando una persona intenta algo casi imposible, se dice «Ya tutarsa!»: «¿Y si funciona?». A veces es una tontería. A veces es una idea valiente.",
+        "Es la moraleja de la fábula: las grandes cosas siempre parecen imposibles al principio. Pero quien no lo intenta nunca sabe cómo va a terminar."
+      ],
+      "a2": [
+        "Una mañana de verano los chicos de Akşehir vieron una escena extraña: Nasreddin Hodja estaba sentado en la orilla del lago, con un cuenco de yogur sobre las rodillas. De vez en cuando tomaba una cucharada de yogur, la echaba al agua y luego removía con un palo largo.",
+        "– Hodja, ¿qué estás haciendo? – preguntó un chico.\n– Preparo yogur – respondió él, serio. – Mañana todo este lago se convertirá en yogur. Tendremos para todo el pueblo, y para todo el invierno.",
+        "Los chicos se echaron a reír. Luego llegó el mercader del pueblo, con su habitual aire de sabelotodo.\n– Hodja, eres un hombre instruido y lo sabes muy bien: el agua nunca se convertirá en yogur. Perderás el tiempo, y perderás también tu yogur.",
+        "Nasreddin echó otra cucharada al lago, removió con calma y levantó la vista.\n– Tienes razón, probablemente no funcionará. Pero si en cambio funciona, ¿quién se reirá mañana?",
+        "El mercader no supo qué responder. Al día siguiente, naturalmente, el lago seguía siendo un lago. Pero todo el pueblo hablaba de Nasreddin, y muchos, al volver a casa, pensaban en sus propios proyectos «imposibles».",
+        "Es una de las historias más famosas de Nasreddin Hodja, el sabio un poco loco de cientos de cuentos turcos, que según la tradición vivió en Akşehir en el siglo XIII. En Turquía «göle maya çalmak», «echar fermento al lago», significa intentar algo casi imposible, confiando en la suerte. Y la respuesta es siempre la misma: «Ya tutarsa!», «¿Y si funciona?».",
+        "La moraleja se puede leer de dos maneras. Quizás Nasreddin es un tonto que desperdicia el yogur. O quizás nos enseña que las grandes cosas siempre empiezan con un intento que parece ridículo. ¿Tú qué opinas?"
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Nasreddin Hodja mora numa cidadezinha da Turquia. Um dia ele tem uma ideia. Vai até um lago com uma tigela, uma colher e um pau. Na tigela tem iogurte.",
+        "Nasreddin se senta na margem. Pega uma colher de iogurte e coloca na água. Depois mexe a água com o pau.",
+        "Chega um homem.\n– Hodja, o que você está fazendo?\n– Estou fazendo iogurte.\n– Iogurte? No lago?\n– Sim: um iogurte do tamanho de um lago!",
+        "O homem ri. Depois chegam um menino, uma mulher e um velho. Eles também riem.\n– Hodja, não é possível! Um lago não vira iogurte!",
+        "Nasreddin não fica bravo. Coloca mais uma colher de iogurte na água e sorri.\n– Eu sei. Mas… e se der certo?",
+        "Até hoje na Turquia, quando alguém tenta uma coisa quase impossível, se diz «Ya tutarsa!»: «E se der certo?». Às vezes é uma bobagem. Às vezes é uma ideia corajosa.",
+        "Essa é a moral da fábula: as grandes coisas sempre parecem impossíveis no começo. Mas quem não tenta nunca sabe como vai terminar."
+      ],
+      "a2": [
+        "Numa manhã de verão, os meninos de Akşehir viram uma cena estranha: Nasreddin Hodja estava sentado na margem do lago, com uma tigela de iogurte sobre os joelhos. De vez em quando pegava uma colher de iogurte, colocava na água e depois mexia com um pau comprido.",
+        "– Hodja, o que você está fazendo? – perguntou um menino.\n– Estou preparando iogurte – respondeu ele, sério. – Amanhã este lago inteiro vai virar iogurte. Vai dar para a cidade toda, e para o inverno todo.",
+        "Os meninos começaram a rir. Depois chegou o comerciante da cidade, com o seu ar de sabichão de sempre.\n– Hodja, você é um homem instruído e sabe muito bem: a água nunca vai virar iogurte. Você vai perder seu tempo, e vai perder também seu iogurte.",
+        "Nasreddin despejou mais uma colher no lago, mexeu com calma e levantou os olhos.\n– Você tem razão, provavelmente não vai dar certo. Mas, se der certo, quem vai rir amanhã?",
+        "O comerciante não soube o que responder. No dia seguinte, naturalmente, o lago ainda era um lago. Mas a cidade toda falava de Nasreddin, e muitos, voltando para casa, pensavam nos seus projetos «impossíveis».",
+        "É uma das histórias mais famosas de Nasreddin Hodja, o sábio meio maluco de centenas de historinhas turcas, que segundo a tradição viveu em Akşehir no século XIII. Na Turquia «göle maya çalmak», «colocar fermento no lago», quer dizer tentar uma coisa quase impossível, contando com a sorte. E a resposta é sempre a mesma: «Ya tutarsa!», «E se der certo?».",
+        "A moral pode ser lida de dois jeitos. Talvez Nasreddin seja um bobo que desperdiça iogurte. Ou talvez ele nos ensine que as grandes coisas sempre começam com uma tentativa que parece ridícula. E você, o que acha?"
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Nasreddin Hodja vit dans un petit village de Turquie. Un jour, il a une idée. Il va à un lac avec un bol, une cuillère et un bâton. Dans le bol, il y a un yaourt.",
+        "Nasreddin s’assoit sur la rive. Il prend une cuillerée de yaourt et la met dans l’eau. Puis il remue l’eau avec le bâton.",
+        "Un homme arrive.\n– Hodja, qu’est-ce que tu fais ?\n– Je fais un yaourt.\n– Un yaourt ? Dans le lac ?\n– Oui : un yaourt grand comme un lac !",
+        "L’homme rit. Puis arrivent un garçon, une femme et un vieil homme. Eux aussi rient.\n– Hodja, ce n’est pas possible ! Un lac ne devient pas du yaourt !",
+        "Nasreddin ne se fâche pas. Il remet une cuillerée de yaourt dans l’eau et sourit.\n– Je sais. Mais… et si ça marche ?",
+        "Aujourd’hui encore, en Turquie, quand quelqu’un essaie une chose presque impossible, on dit « Ya tutarsa! » : « Et si ça marche ? ». Parfois, c’est une bêtise. Parfois, c’est une idée courageuse.",
+        "C’est la morale de la fable : les grandes choses semblent toujours impossibles au début. Mais celui qui n’essaie pas ne sait jamais comment cela va finir."
+      ],
+      "a2": [
+        "Un matin d’été, les garçons d’Akşehir ont vu une scène étrange : Nasreddin Hodja était assis sur la rive du lac, un bol de yaourt sur les genoux. De temps en temps, il prenait une cuillerée de yaourt, la mettait dans l’eau, puis remuait avec un long bâton.",
+        "– Hodja, qu’est-ce que tu fais ? – a demandé un garçon.\n– Je prépare du yaourt – a-t-il répondu, sérieux. – Demain, tout ce lac deviendra du yaourt. Nous en aurons pour tout le village, et pour tout l’hiver.",
+        "Les garçons se sont mis à rire. Puis le marchand du village est arrivé, avec son air habituel de monsieur je-sais-tout.\n– Hodja, tu es un homme instruit et tu le sais très bien : l’eau ne deviendra jamais du yaourt. Tu vas perdre ton temps, et tu vas perdre aussi ton yaourt.",
+        "Nasreddin a versé une autre cuillerée dans le lac, a remué calmement et a levé les yeux.\n– Tu as raison, ça ne marchera probablement pas. Mais si au contraire ça marche, qui rira demain ?",
+        "Le marchand n’a pas su quoi répondre. Le lendemain, bien sûr, le lac était toujours un lac. Mais tout le village parlait de Nasreddin, et beaucoup, en rentrant chez eux, pensaient à leurs projets « impossibles ».",
+        "C’est l’une des histoires les plus célèbres de Nasreddin Hodja, le sage un peu fou de centaines de petites histoires turques, qui selon la tradition a vécu à Akşehir au XIIIe siècle. En Turquie, « göle maya çalmak », « mettre du ferment dans le lac », veut dire tenter une chose presque impossible en comptant sur la chance. Et la réponse est toujours la même : « Ya tutarsa! », « Et si ça marche ? ».",
+        "La morale peut se lire de deux façons. Peut-être que Nasreddin est un sot qui gaspille son yaourt. Ou peut-être qu’il nous apprend que les grandes choses commencent toujours par un essai qui semble ridicule. Et toi, qu’en penses-tu ?"
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Nasreddin Hodža žije v malé vesnici v Turecku. Jednoho dne dostane nápad. Jde k jezeru s miskou, lžící a holí. V misce je jogurt.",
+        "Nasreddin si sedne na břeh. Vezme lžíci jogurtu a dá ji do vody. Potom míchá vodu holí.",
+        "Přijde jeden muž.\n– Hodžo, co to děláš?\n– Dělám jogurt.\n– Jogurt? V jezeře?\n– Ano: jogurt velký jako jezero!",
+        "Muž se směje. Potom přijde chlapec, žena a stařec. I oni se smějí.\n– Hodžo, to není možné! Z jezera se jogurt nestane!",
+        "Nasreddin se nezlobí. Dá do vody ještě jednu lžíci jogurtu a usměje se.\n– Já vím. Ale… co když to vyjde?",
+        "V Turecku se dodnes, když někdo zkouší něco skoro nemožného, říká «Ya tutarsa!»: „Co když to vyjde?“. Někdy je to hloupost. Někdy je to odvážný nápad.",
+        "To je ponaučení z bajky: velké věci se na začátku vždycky zdají nemožné. Ale kdo to nezkusí, nikdy neví, jak to dopadne."
+      ],
+      "a2": [
+        "Jednoho letního rána uviděli kluci z Akşehiru zvláštní scénu: Nasreddin Hodža seděl na břehu jezera s miskou jogurtu na kolenou. Každou chvíli nabral lžíci jogurtu, dal ji do vody a pak míchal dlouhou holí.",
+        "– Hodžo, co to děláš? – zeptal se jeden kluk.\n– Dělám jogurt – odpověděl vážně. – Zítra se celé tohle jezero promění v jogurt. Bude ho dost pro celou vesnici a na celou zimu.",
+        "Kluci se dali do smíchu. Pak přišel vesnický kupec se svým obvyklým výrazem chytráka.\n– Hodžo, jsi vzdělaný člověk a moc dobře to víš: z vody se jogurt nikdy nestane. Ztratíš čas a přijdeš i o svůj jogurt.",
+        "Nasreddin nalil do jezera další lžíci, klidně zamíchal a zvedl oči.\n– Máš pravdu, nejspíš to nevyjde. Ale když to naopak vyjde, kdo se bude zítra smát?",
+        "Kupec nevěděl, co odpovědět. Druhý den bylo jezero samozřejmě pořád jezerem. Ale celá vesnice mluvila o Nasreddinovi a mnozí cestou domů přemýšleli o svých „nemožných“ plánech.",
+        "Je to jeden z nejslavnějších příběhů o Nasreddinu Hodžovi, trochu bláznivém mudrci ze stovek tureckých historek, který podle tradice žil v Akşehiru ve 13. století. V Turecku «göle maya çalmak», „dát jogurtovou kulturu do jezera“, znamená pokusit se o něco skoro nemožného a spoléhat na štěstí. A odpověď je vždycky stejná: «Ya tutarsa!», „Co když to vyjde?“.",
+        "Ponaučení se dá číst dvojím způsobem. Možná je Nasreddin hlupák, který plýtvá jogurtem. Nebo nás možná učí, že velké věci vždycky začínají pokusem, který vypadá směšně. Co si o tom myslíš ty?"
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Nasreddin Hodża mieszka w małej wiosce w Turcji. Pewnego dnia wpada na pomysł. Idzie nad jezioro z miską, łyżką i kijem. W misce jest jogurt.",
+        "Nasreddin siada na brzegu. Bierze łyżkę jogurtu i wlewa ją do wody. Potem miesza wodę kijem.",
+        "Przychodzi jakiś mężczyzna.\n– Hodżo, co robisz?\n– Robię jogurt.\n– Jogurt? W jeziorze?\n– Tak: jogurt wielki jak jezioro!",
+        "Mężczyzna się śmieje. Potem przychodzą chłopiec, kobieta i starzec. Oni też się śmieją.\n– Hodżo, to niemożliwe! Jezioro nie zmieni się w jogurt!",
+        "Nasreddin się nie złości. Wlewa do wody jeszcze jedną łyżkę jogurtu i się uśmiecha.\n– Wiem. Ale… a jeśli się uda?",
+        "Do dziś w Turcji, kiedy ktoś próbuje zrobić coś prawie niemożliwego, mówi się «Ya tutarsa!»: „A jeśli się uda?”. Czasem to głupota. Czasem to odważny pomysł.",
+        "To jest morał bajki: wielkie rzeczy na początku zawsze wydają się niemożliwe. Ale kto nie spróbuje, nigdy nie wie, jak to się skończy."
+      ],
+      "a2": [
+        "Pewnego letniego ranka chłopcy z Akşehiru zobaczyli dziwną scenę: Nasreddin Hodża siedział na brzegu jeziora z miską jogurtu na kolanach. Co jakiś czas brał łyżkę jogurtu, wlewał ją do wody, a potem mieszał długim kijem.",
+        "– Hodżo, co robisz? – zapytał jeden chłopiec.\n– Robię jogurt – odpowiedział poważnie. – Jutro całe to jezioro zmieni się w jogurt. Wystarczy go dla całej wioski i na całą zimę.",
+        "Chłopcy zaczęli się śmiać. Potem przyszedł wiejski kupiec ze swoją zwykłą miną mądrali.\n– Hodżo, jesteś wykształconym człowiekiem i dobrze o tym wiesz: woda nigdy nie zmieni się w jogurt. Stracisz czas i stracisz też swój jogurt.",
+        "Nasreddin wlał do jeziora kolejną łyżkę, spokojnie zamieszał i podniósł wzrok.\n– Masz rację, pewnie się nie uda. Ale jeśli jednak się uda, kto będzie się śmiał jutro?",
+        "Kupiec nie wiedział, co odpowiedzieć. Następnego dnia jezioro oczywiście nadal było jeziorem. Ale cała wioska mówiła o Nasreddinie, a wielu, wracając do domu, myślało o swoich „niemożliwych” planach.",
+        "To jedna z najsłynniejszych historii o Nasreddinie Hodży, trochę szalonym mędrcu z setek tureckich anegdot, który według tradycji żył w Akşehirze w XIII wieku. W Turcji «göle maya çalmak», „wlać zakwas do jeziora”, oznacza próbować czegoś prawie niemożliwego i liczyć na szczęście. A odpowiedź jest zawsze ta sama: «Ya tutarsa!», „A jeśli się uda?”.",
+        "Morał można odczytać na dwa sposoby. Może Nasreddin to głupiec, który marnuje jogurt. A może uczy nas, że wielkie rzeczy zawsze zaczynają się od próby, która wydaje się śmieszna. A ty co o tym myślisz?"
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Nasreddin Hoca, Türkiye'de küçük bir köyde yaşar. Bir gün aklına bir fikir gelir. Bir kâse, bir kaşık ve bir sopa alıp bir göle gider. Kâsede yoğurt vardır.",
+        "Nasreddin göl kıyısına oturur. Bir kaşık yoğurt alır ve suya koyar. Sonra suyu sopayla karıştırır.",
+        "Bir adam gelir.\n– Hocam, ne yapıyorsun?\n– Yoğurt yapıyorum.\n– Yoğurt mu? Gölde mi?\n– Evet: göl kadar büyük bir yoğurt!",
+        "Adam güler. Sonra bir oğlan, bir kadın ve yaşlı bir adam gelir. Onlar da gülerler.\n– Hocam, bu mümkün değil! Göl yoğurt olmaz!",
+        "Nasreddin kızmaz. Suya bir kaşık yoğurt daha koyar ve gülümser.\n– Biliyorum. Ama… ya tutarsa?",
+        "Türkiye'de bugün hâlâ, biri neredeyse imkânsız bir şeyi denediğinde «Ya tutarsa!» denir. Bazen bu aptalca bir şeydir. Bazen de cesur bir fikirdir.",
+        "Masalın ana fikri şu: büyük işler başta hep imkânsız görünür. Ama denemeyen, işin sonunun ne olacağını asla bilemez."
+      ],
+      "a2": [
+        "Bir yaz sabahı Akşehir'in çocukları tuhaf bir manzara gördü: Nasreddin Hoca göl kıyısında oturuyordu, dizlerinin üstünde bir kâse yoğurt vardı. Arada bir kaşıkla yoğurt alıyor, suya koyuyor, sonra uzun bir sopayla karıştırıyordu.",
+        "– Hocam, ne yapıyorsun? – diye sordu çocuklardan biri.\n– Yoğurt mayalıyorum – dedi Hoca ciddi ciddi. – Yarın bu gölün hepsi yoğurt olacak. Bütün köye, bütün kışa yetecek kadar yoğurdumuz olacak.",
+        "Çocuklar gülmeye başladı. Sonra köyün tüccarı geldi, her zamanki ukala tavrıyla.\n– Hocam, sen okumuş bir adamsın, sen de çok iyi bilirsin: su asla yoğurt olmaz. Hem vaktini boşa harcayacaksın hem de yoğurdunu.",
+        "Nasreddin göle bir kaşık daha döktü, sakin sakin karıştırdı ve başını kaldırdı.\n– Haklısın, muhtemelen tutmayacak. Ama ya tutarsa, yarın kim gülecek?",
+        "Tüccar ne diyeceğini bilemedi. Ertesi gün, elbette, göl yine göldü. Ama bütün köy Nasreddin'i konuşuyordu ve birçoğu eve dönerken kendi «imkânsız» planlarını düşünüyordu.",
+        "Bu, Nasreddin Hoca'nın en ünlü fıkralarından biridir. Yüzlerce Türk fıkrasının biraz deli, bilge kahramanı Hoca, rivayete göre 13. yüzyılda Akşehir'de yaşamıştır. Türkçede «göle maya çalmak», neredeyse imkânsız bir şeyi şansa güvenerek denemek demektir. Cevap da hep aynıdır: «Ya tutarsa!»",
+        "Bu fıkranın ana fikri iki türlü okunabilir. Belki Nasreddin yoğurdunu boşa harcayan bir saftır. Belki de bize büyük işlerin hep gülünç görünen bir denemeyle başladığını öğretiyordur. Sen ne düşünüyorsun?"
+      ]
+    },
+    "de": {
+      "a1": [
+        "Nasreddin Hodscha lebt in einem kleinen Dorf in der Türkei. Eines Tages hat er eine Idee. Er geht mit einer Schüssel, einem Löffel und einem Stock zu einem See. In der Schüssel ist Joghurt.",
+        "Nasreddin setzt sich ans Ufer. Er nimmt einen Löffel Joghurt und gibt ihn ins Wasser. Dann rührt er das Wasser mit dem Stock um.",
+        "Ein Mann kommt vorbei.\n– Hodscha, was machst du?\n– Ich mache Joghurt.\n– Joghurt? Im See?\n– Ja: einen Joghurt, so groß wie ein See!",
+        "Der Mann lacht. Dann kommen ein Junge, eine Frau und ein alter Mann. Auch sie lachen.\n– Hodscha, das ist nicht möglich! Ein See wird nicht zu Joghurt!",
+        "Nasreddin wird nicht wütend. Er gibt noch einen Löffel Joghurt ins Wasser und lächelt.\n– Ich weiß. Aber … und wenn es klappt?",
+        "Noch heute sagt man in der Türkei, wenn jemand etwas fast Unmögliches versucht: «Ya tutarsa!» – „Und wenn es klappt?“. Manchmal ist es eine dumme Sache. Manchmal ist es eine mutige Idee.",
+        "Das ist die Moral der Fabel: Große Dinge scheinen am Anfang immer unmöglich. Aber wer es nicht versucht, weiß nie, wie es ausgeht."
+      ],
+      "a2": [
+        "An einem Sommermorgen sahen die Jungen von Akşehir eine seltsame Szene: Nasreddin Hodscha saß am Ufer des Sees, mit einer Schüssel Joghurt auf den Knien. Ab und zu nahm er einen Löffel Joghurt, gab ihn ins Wasser und rührte dann mit einem langen Stock um.",
+        "– Hodscha, was machst du da? – fragte ein Junge.\n– Ich mache Joghurt – antwortete er ernst. – Morgen wird dieser ganze See zu Joghurt. Dann haben wir genug für das ganze Dorf, und für den ganzen Winter.",
+        "Die Jungen fingen an zu lachen. Dann kam der Kaufmann des Dorfes, mit seiner üblichen Besserwisser-Miene.\n– Hodscha, du bist ein gebildeter Mann und weißt ganz genau: Wasser wird nie zu Joghurt. Du verschwendest deine Zeit, und deinen Joghurt verlierst du auch.",
+        "Nasreddin goss noch einen Löffel in den See, rührte in Ruhe um und hob den Blick.\n– Du hast recht, wahrscheinlich klappt es nicht. Aber wenn es doch klappt, wer lacht dann morgen?",
+        "Der Kaufmann wusste nicht, was er antworten sollte. Am nächsten Tag war der See natürlich immer noch ein See. Aber das ganze Dorf sprach über Nasreddin, und viele dachten auf dem Heimweg an ihre eigenen „unmöglichen“ Pläne.",
+        "Es ist eine der berühmtesten Geschichten von Nasreddin Hodscha, dem etwas verrückten Weisen aus Hunderten türkischer Schwänke, der der Überlieferung nach im 13. Jahrhundert in Akşehir lebte. In der Türkei bedeutet «göle maya çalmak», „Joghurtkultur in den See geben“, etwas fast Unmögliches zu versuchen und auf Glück zu hoffen. Und die Antwort ist immer dieselbe: «Ya tutarsa!» – „Und wenn es klappt?“.",
+        "Die Moral kann man auf zwei Arten lesen. Vielleicht ist Nasreddin ein Dummkopf, der Joghurt verschwendet. Oder vielleicht lehrt er uns, dass große Dinge immer mit einem Versuch beginnen, der lächerlich wirkt. Was meinst du?"
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ナスレッディン・ホジャはトルコの小さな村に住んでいます。ある日、ホジャはあることを思いつきます。おわんとスプーンと棒を持って、湖へ行きます。おわんの中にはヨーグルトが入っています。",
+        "ナスレッディンは岸に座ります。ヨーグルトをスプーン1杯すくって、水に入れます。それから棒で水をかき混ぜます。",
+        "男の人がやって来ます。\n「ホジャ、何をしているの？」\n「ヨーグルトを作っているんだ。」\n「ヨーグルト？　湖で？」\n「そう、湖くらい大きなヨーグルトだよ！」",
+        "男の人は笑います。それから男の子と女の人とおじいさんが来ます。みんなも笑います。\n「ホジャ、そんなの無理だよ！　湖がヨーグルトになるわけがない！」",
+        "ナスレッディンは怒りません。もう1杯ヨーグルトを水に入れて、にっこり笑います。\n「わかっているよ。でも……もしうまくいったら？」",
+        "今でもトルコでは、ほとんど不可能なことをやってみる人がいると、«Ya tutarsa!»（「もしうまくいったら？」）と言います。ばかげたことのときもあります。勇気あるアイデアのときもあります。",
+        "これがこのお話の教訓です。大きなことは、はじめはいつも不可能に見えます。でも、やってみない人には、どうなるかは決してわかりません。"
+      ],
+      "a2": [
+        "ある夏の朝、アクシェヒルの少年たちは奇妙な光景を見ました。ナスレッディン・ホジャが湖の岸に座り、ひざの上にヨーグルトの入ったおわんをのせていたのです。ときどきヨーグルトをスプーンですくって水に入れ、長い棒でかき混ぜていました。",
+        "「ホジャ、何をしているの？」と少年の一人がたずねました。\n「ヨーグルトを作っているのさ」とホジャはまじめな顔で答えました。「明日にはこの湖が全部ヨーグルトになる。村じゅうの分も、冬じゅうの分もあるぞ。」",
+        "少年たちは笑い出しました。そこへ村の商人が、いつもの物知り顔でやって来ました。\n「ホジャ、あなたは学のある人だから、よくわかっているでしょう。水は決してヨーグルトにはなりませんよ。時間をむだにして、ヨーグルトまでなくしてしまいますよ。」",
+        "ナスレッディンはもう1杯湖に注ぎ、ゆっくりかき混ぜて、顔を上げました。\n「そのとおり、たぶんうまくいかないだろう。でも、もしうまくいったら、明日笑うのは誰かな？」",
+        "商人は何と答えていいかわかりませんでした。次の日、もちろん湖は湖のままでした。でも村じゅうがナスレッディンの話をしていて、多くの人が家に帰りながら、自分の「不可能な」計画のことを考えていました。",
+        "これはナスレッディン・ホジャのとても有名なお話の一つです。ホジャは何百ものトルコの小話に出てくる、少し変わった賢者で、言い伝えでは13世紀にアクシェヒルに住んでいたとされます。トルコ語の «göle maya çalmak»（「湖にヨーグルトの種菌を入れる」）は、運を頼りに、ほとんど不可能なことを試みるという意味です。そして答えはいつも同じ、«Ya tutarsa!»（「もしうまくいったら？」）です。",
+        "この教訓は二通りに読めます。ナスレッディンはヨーグルトをむだにする愚か者なのかもしれません。あるいは、大きなことはいつも、ばかばかしく見える試みから始まると教えてくれているのかもしれません。あなたはどう思いますか？"
+      ]
+    }
+  }
+}
