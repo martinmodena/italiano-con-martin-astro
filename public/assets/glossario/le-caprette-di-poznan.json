@@ -1,0 +1,1250 @@
+{
+  "id": "le-caprette-di-poznan",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la piazza",
+      "forme": [
+        "piazza"
+      ],
+      "esempi": [
+        "Ci vediamo in piazza alle sei.",
+        "Il sabato in piazza c'è il mercato.",
+        "Piazza San Marco è a Venezia."
+      ],
+      "traduzioni": {
+        "en": "square (in a town)",
+        "es": "plaza",
+        "pt": "praça",
+        "fr": "place",
+        "cs": "náměstí",
+        "pl": "rynek, plac",
+        "tr": "meydan",
+        "de": "Platz, Marktplatz",
+        "ja": "広場"
+      }
+    },
+    {
+      "parola": "l'orologio",
+      "forme": [
+        "orologio"
+      ],
+      "esempi": [
+        "Il mio orologio è fermo.",
+        "L'orologio della stazione segna le otto.",
+        "Per il compleanno mi hanno regalato un orologio."
+      ],
+      "traduzioni": {
+        "en": "clock, watch",
+        "es": "reloj",
+        "pt": "relógio",
+        "fr": "horloge, montre",
+        "cs": "hodiny",
+        "pl": "zegar",
+        "tr": "saat",
+        "de": "Uhr",
+        "ja": "時計"
+      }
+    },
+    {
+      "parola": "il sindaco",
+      "forme": [
+        "sindaco"
+      ],
+      "formeEsempi": [
+        "sindaca"
+      ],
+      "esempi": [
+        "Il sindaco parla ai cittadini.",
+        "La sindaca ha inaugurato la nuova scuola.",
+        "Chi è il sindaco di Roma?"
+      ],
+      "traduzioni": {
+        "en": "mayor",
+        "es": "alcalde",
+        "pt": "prefeito",
+        "fr": "maire",
+        "cs": "starosta",
+        "pl": "burmistrz",
+        "tr": "belediye başkanı",
+        "de": "Bürgermeister",
+        "ja": "市長"
+      }
+    },
+    {
+      "parola": "l'ospite",
+      "forme": [
+        "ospiti"
+      ],
+      "formeEsempi": [
+        "ospite"
+      ],
+      "esempi": [
+        "Stasera abbiamo ospiti a cena.",
+        "L'ospite arriva alle otto.",
+        "Prepariamo la camera per gli ospiti."
+      ],
+      "traduzioni": {
+        "en": "guest",
+        "es": "invitado",
+        "pt": "convidado",
+        "fr": "invité",
+        "cs": "host",
+        "pl": "gość",
+        "tr": "misafir, konuk",
+        "de": "Gast",
+        "ja": "客、来賓"
+      }
+    },
+    {
+      "parola": "la cucina",
+      "forme": [
+        "cucina"
+      ],
+      "esempi": [
+        "La nostra cucina è piccola ma luminosa.",
+        "Mia madre è in cucina.",
+        "Il gatto aspetta in cucina."
+      ],
+      "traduzioni": {
+        "en": "kitchen",
+        "es": "cocina",
+        "pt": "cozinha",
+        "fr": "cuisine",
+        "cs": "kuchyně",
+        "pl": "kuchnia",
+        "tr": "mutfak",
+        "de": "Küche",
+        "ja": "台所"
+      }
+    },
+    {
+      "parola": "il cuoco",
+      "forme": [
+        "cuoco"
+      ],
+      "esempi": [
+        "Il cuoco prepara la pasta.",
+        "Mio fratello fa il cuoco in un ristorante.",
+        "L'aiuto cuoco lava le verdure."
+      ],
+      "traduzioni": {
+        "en": "cook («aiuto cuoco» = kitchen assistant)",
+        "es": "cocinero («aiuto cuoco» = pinche)",
+        "pt": "cozinheiro («aiuto cuoco» = ajudante de cozinha)",
+        "fr": "cuisinier («aiuto cuoco» = commis)",
+        "cs": "kuchař («aiuto cuoco» = pomocný kuchař)",
+        "pl": "kucharz («aiuto cuoco» = pomocnik kucharza)",
+        "tr": "aşçı («aiuto cuoco» = aşçı yardımcısı)",
+        "de": "Koch («aiuto cuoco» = Küchenhilfe)",
+        "ja": "料理人（«aiuto cuoco» = 見習いコック）"
+      }
+    },
+    {
+      "parola": "bruciare",
+      "forme": [
+        "brucia",
+        "bruciato"
+      ],
+      "esempi": [
+        "Attenzione, la torta brucia!",
+        "Ho bruciato il pane nel forno.",
+        "Il sugo si è bruciato."
+      ],
+      "traduzioni": {
+        "en": "to burn",
+        "es": "quemarse",
+        "pt": "queimar",
+        "fr": "brûler",
+        "cs": "připálit se, hořet",
+        "pl": "przypalić się",
+        "tr": "yanmak",
+        "de": "anbrennen, verbrennen",
+        "ja": "焦げる"
+      }
+    },
+    {
+      "parola": "il disastro",
+      "forme": [
+        "disastro"
+      ],
+      "esempi": [
+        "Che disastro: ho perso il treno!",
+        "La festa è stata un disastro.",
+        "La mia camera è un disastro."
+      ],
+      "traduzioni": {
+        "en": "disaster",
+        "es": "desastre",
+        "pt": "desastre",
+        "fr": "catastrophe, désastre",
+        "cs": "katastrofa",
+        "pl": "katastrofa",
+        "tr": "felaket",
+        "de": "Katastrophe",
+        "ja": "大失敗、大変なこと"
+      }
+    },
+    {
+      "parola": "la capretta",
+      "forme": [
+        "caprette"
+      ],
+      "formeEsempi": [
+        "capretta"
+      ],
+      "esempi": [
+        "La capretta salta sulle rocce.",
+        "Nella fattoria ci sono due caprette.",
+        "La capretta mangia l'erba del prato."
+      ],
+      "traduzioni": {
+        "en": "little goat (capra + -etta)",
+        "es": "cabrita",
+        "pt": "cabritinha",
+        "fr": "chevrette, biquette",
+        "cs": "kozička",
+        "pl": "koziołek, kózka",
+        "tr": "küçük keçi",
+        "de": "Zicklein, Geißlein",
+        "ja": "子ヤギ"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappano"
+      ],
+      "formeEsempi": [
+        "scappa",
+        "scappato"
+      ],
+      "esempi": [
+        "Il gatto scappa quando vede il cane.",
+        "Il ladro è scappato dalla finestra.",
+        "Il canarino è scappato dalla gabbia."
+      ],
+      "traduzioni": {
+        "en": "to run away",
+        "es": "escaparse",
+        "pt": "fugir",
+        "fr": "s’enfuir",
+        "cs": "utéct",
+        "pl": "uciekać",
+        "tr": "kaçmak",
+        "de": "weglaufen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "la torre",
+      "forme": [
+        "torre"
+      ],
+      "formeEsempi": [
+        "torri"
+      ],
+      "esempi": [
+        "La torre di Pisa è famosa in tutto il mondo.",
+        "Dalla torre si vede tutta la città.",
+        "Il castello ha quattro torri."
+      ],
+      "traduzioni": {
+        "en": "tower",
+        "es": "torre",
+        "pt": "torre",
+        "fr": "tour",
+        "cs": "věž",
+        "pl": "wieża",
+        "tr": "kule",
+        "de": "Turm",
+        "ja": "塔"
+      }
+    },
+    {
+      "parola": "il mezzogiorno",
+      "forme": [
+        "mezzogiorno"
+      ],
+      "esempi": [
+        "Pranziamo a mezzogiorno.",
+        "A mezzogiorno il sole è alto.",
+        "Ci vediamo a mezzogiorno davanti al bar."
+      ],
+      "traduzioni": {
+        "en": "noon, midday",
+        "es": "mediodía",
+        "pt": "meio-dia",
+        "fr": "midi",
+        "cs": "poledne",
+        "pl": "południe",
+        "tr": "öğle",
+        "de": "Mittag",
+        "ja": "正午"
+      }
+    },
+    {
+      "parola": "in alto",
+      "forme": [
+        "alto"
+      ],
+      "livelli": [
+        "a1"
+      ],
+      "esempi": [
+        "Guarda in alto: c'è un aereo!",
+        "Metti i bicchieri in alto nell'armadio.",
+        "Il gatto è salito in alto sull'albero."
+      ],
+      "traduzioni": {
+        "en": "up, upwards",
+        "es": "arriba, hacia arriba",
+        "pt": "para cima, no alto",
+        "fr": "en haut, vers le haut",
+        "cs": "nahoru, nahoře",
+        "pl": "w górę, wysoko",
+        "tr": "yukarı",
+        "de": "nach oben, oben",
+        "ja": "上を、上に"
+      }
+    },
+    {
+      "parola": "la cornata",
+      "forme": [
+        "cornate"
+      ],
+      "formeEsempi": [
+        "cornata"
+      ],
+      "esempi": [
+        "Le capre si danno le cornate.",
+        "Il toro dà una cornata al recinto.",
+        "Il caprone ha dato una cornata alla porta."
+      ],
+      "traduzioni": {
+        "en": "butt with the horns («darsi le cornate» = to butt heads)",
+        "es": "cornada, topetazo",
+        "pt": "chifrada, marrada",
+        "fr": "coup de cornes",
+        "cs": "trknutí («darsi le cornate» = trkat se)",
+        "pl": "uderzenie rogami («darsi le cornate» = trykać się)",
+        "tr": "boynuz darbesi («darsi le cornate» = tos vuruşmak)",
+        "de": "Hornstoß («darsi le cornate» = sich stoßen)",
+        "ja": "角での突き（«darsi le cornate» = 角を突き合わせる）"
+      }
+    },
+    {
+      "parola": "l'orologiaio",
+      "forme": [
+        "orologiaio"
+      ],
+      "esempi": [
+        "L'orologiaio ripara il mio orologio.",
+        "Mio nonno faceva l'orologiaio.",
+        "Porto la sveglia rotta dall'orologiaio."
+      ],
+      "traduzioni": {
+        "en": "clockmaker, watchmaker",
+        "es": "relojero",
+        "pt": "relojoeiro",
+        "fr": "horloger",
+        "cs": "hodinář",
+        "pl": "zegarmistrz",
+        "tr": "saatçi",
+        "de": "Uhrmacher",
+        "ja": "時計職人"
+      }
+    },
+    {
+      "parola": "il metallo",
+      "forme": [
+        "metallo"
+      ],
+      "esempi": [
+        "Questa sedia è di metallo.",
+        "Il ferro è un metallo.",
+        "La scatola di metallo è pesante."
+      ],
+      "traduzioni": {
+        "en": "metal",
+        "es": "metal",
+        "pt": "metal",
+        "fr": "métal",
+        "cs": "kov",
+        "pl": "metal",
+        "tr": "metal",
+        "de": "Metall",
+        "ja": "金属"
+      }
+    },
+    {
+      "parola": "perdonare",
+      "forme": [
+        "perdona",
+        "perdonato"
+      ],
+      "formeEsempi": [
+        "perdono"
+      ],
+      "esempi": [
+        "Ti perdono, ma non farlo più.",
+        "La mamma perdona sempre i figli.",
+        "Mi ha perdonato per il ritardo."
+      ],
+      "traduzioni": {
+        "en": "to forgive",
+        "es": "perdonar",
+        "pt": "perdoar",
+        "fr": "pardonner",
+        "cs": "odpustit",
+        "pl": "wybaczyć",
+        "tr": "affetmek",
+        "de": "verzeihen",
+        "ja": "許す"
+      }
+    },
+    {
+      "parola": "il/la turista",
+      "forme": [
+        "turisti"
+      ],
+      "formeEsempi": [
+        "turista"
+      ],
+      "esempi": [
+        "Molti turisti visitano Firenze.",
+        "Un turista mi chiede la strada.",
+        "D'estate la città è piena di turisti."
+      ],
+      "traduzioni": {
+        "en": "tourist",
+        "es": "turista",
+        "pt": "turista",
+        "fr": "touriste",
+        "cs": "turista",
+        "pl": "turysta",
+        "tr": "turist",
+        "de": "Tourist",
+        "ja": "観光客"
+      }
+    },
+    {
+      "parola": "l'errore",
+      "forme": [
+        "errore"
+      ],
+      "formeEsempi": [
+        "errori"
+      ],
+      "esempi": [
+        "Ho fatto un errore nell'esercizio.",
+        "Tutti fanno errori.",
+        "È stato un errore partire così tardi."
+      ],
+      "traduzioni": {
+        "en": "mistake",
+        "es": "error",
+        "pt": "erro",
+        "fr": "erreur",
+        "cs": "chyba",
+        "pl": "błąd",
+        "tr": "hata",
+        "de": "Fehler",
+        "ja": "まちがい、失敗"
+      }
+    },
+    {
+      "parola": "la risata",
+      "forme": [
+        "risata"
+      ],
+      "formeEsempi": [
+        "risate"
+      ],
+      "esempi": [
+        "Dalla cucina arriva una risata.",
+        "Che risate abbiamo fatto ieri sera!",
+        "La sua risata è contagiosa."
+      ],
+      "traduzioni": {
+        "en": "laugh, laughter",
+        "es": "risa, carcajada",
+        "pt": "risada",
+        "fr": "rire",
+        "cs": "smích",
+        "pl": "śmiech",
+        "tr": "kahkaha, gülüş",
+        "de": "Lachen",
+        "ja": "笑い"
+      }
+    },
+    {
+      "parola": "la punizione",
+      "forme": [
+        "punizione"
+      ],
+      "esempi": [
+        "Per punizione stasera non guarda la TV.",
+        "Questa punizione è troppo severa.",
+        "Il bambino ha avuto una punizione."
+      ],
+      "traduzioni": {
+        "en": "punishment",
+        "es": "castigo",
+        "pt": "castigo",
+        "fr": "punition",
+        "cs": "trest",
+        "pl": "kara",
+        "tr": "ceza",
+        "de": "Strafe",
+        "ja": "罰"
+      }
+    },
+    {
+      "parola": "la morale",
+      "forme": [
+        "morale"
+      ],
+      "esempi": [
+        "La morale della storia è: non dire bugie.",
+        "Ogni favola di Esopo ha una morale.",
+        "Qual è la morale di questo racconto?"
+      ],
+      "traduzioni": {
+        "en": "moral (of a story)",
+        "es": "moraleja",
+        "pt": "moral (da história)",
+        "fr": "morale (d’une histoire)",
+        "cs": "ponaučení",
+        "pl": "morał",
+        "tr": "ana fikir, kıssadan hisse",
+        "de": "Moral, Lehre",
+        "ja": "教訓"
+      }
+    },
+    {
+      "parola": "il maestro",
+      "forme": [
+        "maestro"
+      ],
+      "esempi": [
+        "Il maestro falegname insegna il mestiere ai giovani.",
+        "Leonardo era un grande maestro.",
+        "Il maestro vetraio lavora a Murano."
+      ],
+      "traduzioni": {
+        "en": "master (craftsman)",
+        "es": "maestro",
+        "pt": "mestre",
+        "fr": "maître",
+        "cs": "mistr",
+        "pl": "mistrz",
+        "tr": "usta",
+        "de": "Meister",
+        "ja": "親方、名人"
+      }
+    },
+    {
+      "parola": "meraviglioso",
+      "forme": [
+        "meraviglioso"
+      ],
+      "formeEsempi": [
+        "meravigliosa"
+      ],
+      "esempi": [
+        "Che giornata meravigliosa!",
+        "Dalla terrazza il panorama è meraviglioso.",
+        "Hai una voce meravigliosa."
+      ],
+      "traduzioni": {
+        "en": "marvellous, wonderful",
+        "es": "maravilloso",
+        "pt": "maravilhoso",
+        "fr": "merveilleux",
+        "cs": "nádherný",
+        "pl": "cudowny",
+        "tr": "harika",
+        "de": "wunderbar",
+        "ja": "すばらしい"
+      }
+    },
+    {
+      "parola": "il consiglio (della città)",
+      "forme": [
+        "consiglio"
+      ],
+      "esempi": [
+        "Il consiglio comunale si riunisce stasera.",
+        "Il consiglio della città ha deciso di costruire un parco.",
+        "Mio zio fa parte del consiglio comunale."
+      ],
+      "traduzioni": {
+        "en": "council (here not “advice”)",
+        "es": "concejo, ayuntamiento (aquí no «consejo» dado a alguien)",
+        "pt": "câmara, conselho municipal",
+        "fr": "conseil (municipal)",
+        "cs": "rada (města)",
+        "pl": "rada (miejska)",
+        "tr": "meclis (belediye meclisi)",
+        "de": "Rat (Stadtrat)",
+        "ja": "（町の）議会"
+      }
+    },
+    {
+      "parola": "affidare",
+      "forme": [
+        "affidato"
+      ],
+      "formeEsempi": [
+        "affido",
+        "affida"
+      ],
+      "esempi": [
+        "Ti affido le chiavi di casa.",
+        "Ho affidato il gatto alla vicina.",
+        "La mamma affida il bambino alla nonna."
+      ],
+      "traduzioni": {
+        "en": "to entrust",
+        "es": "confiar, encargar",
+        "pt": "confiar, encarregar",
+        "fr": "confier",
+        "cs": "svěřit",
+        "pl": "powierzyć",
+        "tr": "emanet etmek, vermek",
+        "de": "anvertrauen",
+        "ja": "任せる"
+      }
+    },
+    {
+      "parola": "distrarsi",
+      "forme": [
+        "distratto"
+      ],
+      "formeEsempi": [
+        "distraggo",
+        "distrarti"
+      ],
+      "esempi": [
+        "Quando studio mi distraggo facilmente.",
+        "Non distrarti mentre guidi!",
+        "Si è distratto e ha sbagliato strada."
+      ],
+      "traduzioni": {
+        "en": "to get distracted",
+        "es": "distraerse",
+        "pt": "distrair-se",
+        "fr": "se laisser distraire",
+        "cs": "nechat se rozptýlit",
+        "pl": "rozproszyć się, zagapić się",
+        "tr": "dikkati dağılmak",
+        "de": "sich ablenken lassen",
+        "ja": "気をとられる"
+      }
+    },
+    {
+      "parola": "i preparativi",
+      "forme": [
+        "preparativi"
+      ],
+      "esempi": [
+        "In casa ci sono i preparativi per il matrimonio.",
+        "I preparativi della festa durano una settimana.",
+        "Abbiamo finito i preparativi per il viaggio."
+      ],
+      "traduzioni": {
+        "en": "preparations",
+        "es": "preparativos",
+        "pt": "preparativos",
+        "fr": "préparatifs",
+        "cs": "přípravy",
+        "pl": "przygotowania",
+        "tr": "hazırlıklar",
+        "de": "Vorbereitungen",
+        "ja": "準備"
+      }
+    },
+    {
+      "parola": "il fornello",
+      "forme": [
+        "fornelli"
+      ],
+      "formeEsempi": [
+        "fornello"
+      ],
+      "esempi": [
+        "Stasera il papà è ai fornelli.",
+        "Accendi il fornello per l'acqua della pasta.",
+        "La nostra cucina ha quattro fornelli."
+      ],
+      "traduzioni": {
+        "en": "stove burner («ai fornelli» = at the stove, cooking)",
+        "es": "fogón («ai fornelli» = cocinando)",
+        "pt": "fogão, boca do fogão («ai fornelli» = cozinhando)",
+        "fr": "feu, fourneau («ai fornelli» = aux fourneaux)",
+        "cs": "plotýnka, sporák («ai fornelli» = u plotny)",
+        "pl": "palnik, kuchenka («ai fornelli» = przy kuchni)",
+        "tr": "ocak («ai fornelli» = ocak başında)",
+        "de": "Herdplatte («ai fornelli» = am Herd)",
+        "ja": "コンロ（«ai fornelli» = 台所で料理して）"
+      }
+    },
+    {
+      "parola": "disperato",
+      "forme": [
+        "disperato"
+      ],
+      "formeEsempi": [
+        "disperata"
+      ],
+      "esempi": [
+        "Ho perso il passaporto: sono disperato!",
+        "Era disperata perché non trovava il gatto.",
+        "Il bambino piangeva disperato."
+      ],
+      "traduzioni": {
+        "en": "in despair, desperate",
+        "es": "desesperado",
+        "pt": "desesperado",
+        "fr": "désespéré",
+        "cs": "zoufalý",
+        "pl": "zrozpaczony",
+        "tr": "çaresiz, umutsuz",
+        "de": "verzweifelt",
+        "ja": "途方にくれた"
+      }
+    },
+    {
+      "parola": "la voglia",
+      "forme": [
+        "voglia"
+      ],
+      "esempi": [
+        "Ho voglia di un gelato.",
+        "Non ho voglia di uscire stasera.",
+        "Hai voglia di fare una passeggiata?"
+      ],
+      "traduzioni": {
+        "en": "desire («avere voglia di» = to feel like)",
+        "es": "ganas («avere voglia di» = tener ganas de)",
+        "pt": "vontade («avere voglia di» = ter vontade de)",
+        "fr": "envie («avere voglia di» = avoir envie de)",
+        "cs": "chuť («avere voglia di» = mít chuť na)",
+        "pl": "ochota («avere voglia di» = mieć ochotę na)",
+        "tr": "istek («avere voglia di» = canı istemek)",
+        "de": "Lust («avere voglia di» = Lust haben auf)",
+        "ja": "〜したい気持ち"
+      }
+    },
+    {
+      "parola": "la pentola",
+      "forme": [
+        "pentola"
+      ],
+      "esempi": [
+        "Metti l'acqua nella pentola.",
+        "La pentola bolle.",
+        "Mia nonna ha una pentola enorme per la minestra."
+      ],
+      "traduzioni": {
+        "en": "pot, saucepan («finire in pentola» = to end up in the pot)",
+        "es": "olla, cazuela",
+        "pt": "panela",
+        "fr": "marmite, casserole",
+        "cs": "hrnec",
+        "pl": "garnek",
+        "tr": "tencere",
+        "de": "Topf",
+        "ja": "なべ"
+      }
+    },
+    {
+      "parola": "sfuggire",
+      "forme": [
+        "sfuggite"
+      ],
+      "formeEsempi": [
+        "sfuggito",
+        "sfugge"
+      ],
+      "esempi": [
+        "Il gatto mi è sfuggito e si è nascosto.",
+        "Il cane è sfuggito al padrone.",
+        "La palla mi sfugge sempre dalle mani."
+      ],
+      "traduzioni": {
+        "en": "to escape, to slip away",
+        "es": "escaparse",
+        "pt": "escapar",
+        "fr": "échapper",
+        "cs": "utéct, vyklouznout",
+        "pl": "wymknąć się",
+        "tr": "elinden kaçmak",
+        "de": "entwischen",
+        "ja": "逃げ出す、すり抜ける"
+      }
+    },
+    {
+      "parola": "l'attimo",
+      "forme": [
+        "attimo"
+      ],
+      "esempi": [
+        "Aspetta un attimo!",
+        "In un attimo è sparito.",
+        "Torno tra un attimo."
+      ],
+      "traduzioni": {
+        "en": "moment, instant",
+        "es": "momento, instante",
+        "pt": "instante, momento",
+        "fr": "instant",
+        "cs": "okamžik",
+        "pl": "chwila",
+        "tr": "an",
+        "de": "Augenblick",
+        "ja": "一瞬"
+      }
+    },
+    {
+      "parola": "attraversare",
+      "forme": [
+        "attraversato"
+      ],
+      "formeEsempi": [
+        "attraversa",
+        "attraversiamo"
+      ],
+      "esempi": [
+        "Attraversiamo la strada sulle strisce.",
+        "Il fiume attraversa la città.",
+        "Ho attraversato tutta l'Italia in treno."
+      ],
+      "traduzioni": {
+        "en": "to cross",
+        "es": "cruzar, atravesar",
+        "pt": "atravessar",
+        "fr": "traverser",
+        "cs": "přejít",
+        "pl": "przejść przez",
+        "tr": "karşıdan karşıya geçmek, geçmek",
+        "de": "überqueren",
+        "ja": "横切る、渡る"
+      }
+    },
+    {
+      "parola": "in punto",
+      "forme": [
+        "punto"
+      ],
+      "esempi": [
+        "Il treno parte alle otto in punto.",
+        "Arriva sempre a mezzogiorno in punto.",
+        "Ci vediamo alle tre in punto."
+      ],
+      "traduzioni": {
+        "en": "sharp (of time: «alle tre in punto» = at three sharp)",
+        "es": "en punto",
+        "pt": "em ponto",
+        "fr": "pile",
+        "cs": "přesně",
+        "pl": "punktualnie, równo",
+        "tr": "tam",
+        "de": "pünktlich, Punkt",
+        "ja": "ちょうど（時刻）"
+      }
+    },
+    {
+      "parola": "aspettarsi",
+      "forme": [
+        "aspettava"
+      ],
+      "formeEsempi": [
+        "aspettavo",
+        "aspetti"
+      ],
+      "esempi": [
+        "Non mi aspettavo questo regalo!",
+        "Che cosa ti aspetti da questo viaggio?",
+        "Nessuno si aspettava la neve a maggio."
+      ],
+      "traduzioni": {
+        "en": "to expect",
+        "es": "esperarse",
+        "pt": "esperar (que)",
+        "fr": "s’attendre à",
+        "cs": "očekávat",
+        "pl": "spodziewać się",
+        "tr": "beklemek (ummak)",
+        "de": "erwarten",
+        "ja": "予想する"
+      }
+    },
+    {
+      "parola": "solenne",
+      "forme": [
+        "solenni"
+      ],
+      "formeEsempi": [
+        "solenne"
+      ],
+      "esempi": [
+        "È stata una cerimonia solenne.",
+        "Il presidente ha parlato con voce solenne.",
+        "Mi ha fatto una promessa solenne."
+      ],
+      "traduzioni": {
+        "en": "solemn",
+        "es": "solemne",
+        "pt": "solene",
+        "fr": "solennel",
+        "cs": "slavnostní",
+        "pl": "uroczysty, poważny",
+        "tr": "ciddi, ağırbaşlı",
+        "de": "feierlich",
+        "ja": "厳粛な"
+      }
+    },
+    {
+      "parola": "scoppiare a ridere",
+      "forme": [
+        "scoppiati"
+      ],
+      "formeEsempi": [
+        "scoppiato",
+        "scoppiata"
+      ],
+      "esempi": [
+        "Quando l'ha visto, è scoppiato a ridere.",
+        "Dopo la battuta la classe è scoppiata a ridere.",
+        "Siamo scoppiati a ridere tutti insieme."
+      ],
+      "traduzioni": {
+        "en": "to burst out laughing",
+        "es": "echarse a reír",
+        "pt": "cair na gargalhada",
+        "fr": "éclater de rire",
+        "cs": "vybuchnout smíchy",
+        "pl": "wybuchnąć śmiechem",
+        "tr": "kahkahayı basmak",
+        "de": "in Lachen ausbrechen",
+        "ja": "どっと笑う"
+      }
+    },
+    {
+      "parola": "divertirsi",
+      "forme": [
+        "divertito"
+      ],
+      "formeEsempi": [
+        "diverto",
+        "divertiti"
+      ],
+      "esempi": [
+        "Mi diverto molto con i miei amici.",
+        "Divertiti alla festa!",
+        "Ci siamo divertiti un sacco al mare."
+      ],
+      "traduzioni": {
+        "en": "to have fun, to enjoy oneself",
+        "es": "divertirse",
+        "pt": "divertir-se",
+        "fr": "s’amuser",
+        "cs": "bavit se",
+        "pl": "bawić się",
+        "tr": "eğlenmek",
+        "de": "sich amüsieren",
+        "ja": "楽しむ"
+      }
+    },
+    {
+      "parola": "la leggenda",
+      "forme": [
+        "leggenda"
+      ],
+      "esempi": [
+        "Secondo la leggenda, Roma è nata nel 753 a.C.",
+        "È una vecchia leggenda di questo paese.",
+        "Le leggende sono storie antiche."
+      ],
+      "traduzioni": {
+        "en": "legend",
+        "es": "leyenda",
+        "pt": "lenda",
+        "fr": "légende",
+        "cs": "pověst, legenda",
+        "pl": "legenda",
+        "tr": "efsane",
+        "de": "Legende, Sage",
+        "ja": "伝説"
+      },
+      "formeEsempi": [
+        "leggende"
+      ]
+    },
+    {
+      "parola": "il secolo",
+      "forme": [
+        "secoli"
+      ],
+      "formeEsempi": [
+        "secolo"
+      ],
+      "esempi": [
+        "Il castello ha cinque secoli.",
+        "Dante è vissuto nel XIV secolo.",
+        "Questa tradizione esiste da secoli."
+      ],
+      "traduzioni": {
+        "en": "century",
+        "es": "siglo",
+        "pt": "século",
+        "fr": "siècle",
+        "cs": "století",
+        "pl": "wiek, stulecie",
+        "tr": "yüzyıl",
+        "de": "Jahrhundert",
+        "ja": "世紀"
+      }
+    },
+    {
+      "parola": "il simbolo",
+      "forme": [
+        "simbolo"
+      ],
+      "esempi": [
+        "La colomba è il simbolo della pace.",
+        "Il Colosseo è il simbolo di Roma.",
+        "Questo è il simbolo dell'euro."
+      ],
+      "traduzioni": {
+        "en": "symbol",
+        "es": "símbolo",
+        "pt": "símbolo",
+        "fr": "symbole",
+        "cs": "symbol",
+        "pl": "symbol",
+        "tr": "sembol, simge",
+        "de": "Symbol, Wahrzeichen",
+        "ja": "象徴、シンボル"
+      }
+    },
+    {
+      "parola": "la cartolina",
+      "forme": [
+        "cartoline"
+      ],
+      "formeEsempi": [
+        "cartolina"
+      ],
+      "esempi": [
+        "Ti mando una cartolina da Napoli.",
+        "Colleziono cartoline vecchie.",
+        "Scrivo una cartolina ai nonni."
+      ],
+      "traduzioni": {
+        "en": "postcard",
+        "es": "postal",
+        "pt": "cartão-postal",
+        "fr": "carte postale",
+        "cs": "pohlednice",
+        "pl": "pocztówka",
+        "tr": "kartpostal",
+        "de": "Postkarte",
+        "ja": "絵はがき"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "We're in Poznań, in Poland, in 1551. In the square there's the town hall, with a new and very beautiful clock. Today there's a big celebration: at twelve o'clock the mayor and the guests will look at the clock for the first time.",
+        "In the kitchen works Pietrek, a young kitchen assistant. It's eleven o'clock. Pietrek watches the celebration from the window… and the lunch burns! What a disaster!",
+        "Pietrek is afraid. He runs outside and finds two little white goats in a meadow. “I'll take them to the kitchen,” he thinks. But the goats don't want to go: they run away!",
+        "The goats run into the square, go into the town hall and climb, climb, climb… up to the tower, next to the clock.",
+        "It's twelve o'clock. It's noon. The mayor and the guests look up. And what do they see? Two little goats on the tower: they look at each other and butt heads, once, twice, three times… twelve times!",
+        "Everyone laughs. The mayor laughs most of all.\n– Wonderful! I want two goats in the clock!\nSo the clockmaker makes two metal goats. And Pietrek? The mayor isn't angry: he forgives the boy, and he lets the goats go too.",
+        "Even today, every day at twelve o'clock, two metal goats come out on the tower of Poznań town hall and butt heads twelve times. Many tourists arrive in the square a little before noon to see them.",
+        "That's the moral of the story: sometimes a mistake becomes something beautiful. And a laugh is better than a punishment."
+      ],
+      "b1": [
+        "1551 was an important year for Poznań. The master clockmaker Bartłomiej Wolff had worked for months on a marvellous clock for the town hall tower, and the city council had organised a big celebration for its inauguration.",
+        "The lunch for the guests had been entrusted to Pietrek, a young kitchen assistant. But that morning the boy had got distracted watching the preparations in the square, and when he came back to the stove the main dish was already burnt.",
+        "In despair, Pietrek had run out of town, taken two little goats from a meadow and brought them all the way to the kitchen. But the goats, who had no wish at all to end up in the pot, escaped from him. In a moment they had crossed the square and climbed up the tower.",
+        "At twelve o'clock sharp, when the mayor and the guests raised their eyes towards the new clock, they saw a scene nobody expected: on the ledge of the tower two little goats were butting heads in front of the whole city.",
+        "The guests, who until then had stayed serious and solemn, burst out laughing. The mayor enjoyed himself so much that he forgave Pietrek, let the goats go and asked master Wolff to add two mechanical goats to the clock.",
+        "It's a legend, but the clock is real, and so are the goats: over the centuries they have been repaired and remade several times, but still today, every day at noon, they come out of a little door above the clock and butt heads twelve times. They have become the symbol of Poznań: you find them on souvenirs, on postcards and in children's drawings.",
+        "The moral? Pietrek had made a big mistake, but that mistake gave the city its best-loved symbol."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Estamos en Poznań, en Polonia, en 1551. En la plaza está el ayuntamiento, con un reloj nuevo y precioso. Hoy hay una gran fiesta: a las doce el alcalde y los invitados miran el reloj por primera vez.",
+        "En la cocina trabaja Pietrek, un chico que es pinche de cocina. Son las once. Pietrek mira la fiesta por la ventana… ¡y la comida se quema! ¡Qué desastre!",
+        "Pietrek tiene miedo. Sale corriendo y encuentra dos cabritas blancas en un prado. «Me las llevo a la cocina», piensa. Pero las cabritas no quieren: ¡se escapan!",
+        "Las cabritas corren por la plaza, entran en el ayuntamiento y suben, suben, suben… hasta la torre, junto al reloj.",
+        "Son las doce. Es mediodía. El alcalde y los invitados miran hacia arriba. ¿Y qué ven? Dos cabritas en la torre: se miran y se dan topetazos, uno, dos, tres… ¡doce veces!",
+        "Todos se ríen. El alcalde se ríe más que nadie.\n– ¡Precioso! ¡Quiero dos cabritas en el reloj!\nAsí que el relojero hace dos cabritas de metal. ¿Y Pietrek? El alcalde no está enfadado: perdona al chico y deja libres también a las cabritas.",
+        "Todavía hoy, cada día a las doce, en la torre del ayuntamiento de Poznań salen dos cabritas de metal y se dan doce topetazos. Muchos turistas llegan a la plaza un poco antes de mediodía para verlas.",
+        "Es la moraleja de la historia: a veces un error se convierte en algo bonito. Y una risa es mejor que un castigo."
+      ],
+      "b1": [
+        "1551 fue un año importante para Poznań. El maestro relojero Bartłomiej Wolff había trabajado durante meses en un reloj maravilloso para la torre del ayuntamiento, y el concejo de la ciudad había organizado una gran fiesta para su inauguración.",
+        "La comida para los invitados se había encargado a Pietrek, un joven pinche de cocina. Pero aquella mañana el chico se había distraído mirando los preparativos en la plaza, y cuando volvió a los fogones el plato principal ya estaba quemado.",
+        "Desesperado, Pietrek había corrido fuera de la ciudad, había cogido dos cabritas en un prado y las había llevado hasta la cocina. Pero las cabritas, que no tenían ningunas ganas de acabar en la olla, se le escaparon. En un momento habían cruzado la plaza y habían subido a la torre.",
+        "A las doce en punto, cuando el alcalde y los invitados levantaron los ojos hacia el reloj nuevo, vieron una escena que nadie se esperaba: en la cornisa de la torre dos cabritas se daban topetazos delante de toda la ciudad.",
+        "Los invitados, que hasta ese momento habían estado serios y solemnes, se echaron a reír. El alcalde se divirtió tanto que perdonó a Pietrek, dejó libres a las cabras y pidió al maestro Wolff que añadiera al reloj dos cabritas mecánicas.",
+        "Es una leyenda, pero el reloj es real, y también las cabritas: a lo largo de los siglos las han reparado y rehecho varias veces, pero todavía hoy, cada día a mediodía, salen de una puertecita encima del reloj y se dan doce topetazos. Se han convertido en el símbolo de Poznań: las encuentras en los recuerdos, en las postales y en los dibujos de los niños.",
+        "¿La moraleja? Pietrek había cometido un gran error, pero ese error le regaló a la ciudad su símbolo más querido."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Estamos em Poznań, na Polônia, em 1551. Na praça fica a prefeitura, com um relógio novo e lindo. Hoje tem uma grande festa: ao meio-dia o prefeito e os convidados vão olhar o relógio pela primeira vez.",
+        "Na cozinha trabalha Pietrek, um menino ajudante de cozinha. São onze horas. Pietrek olha a festa pela janela… e o almoço queima! Que desastre!",
+        "Pietrek fica com medo. Sai correndo e encontra duas cabritinhas brancas num prado. «Vou levá-las para a cozinha», pensa. Mas as cabritinhas não querem: fogem!",
+        "As cabritinhas correm pela praça, entram na prefeitura e sobem, sobem, sobem… até a torre, perto do relógio.",
+        "É meio-dia. O prefeito e os convidados olham para cima. E o que eles veem? Duas cabritinhas na torre: elas se olham e dão marradas, uma, duas, três… doze vezes!",
+        "Todos riem. O prefeito ri mais do que todos.\n– Lindo! Quero duas cabritinhas no relógio!\nEntão o relojoeiro faz duas cabritinhas de metal. E Pietrek? O prefeito não está bravo: perdoa o menino e deixa as cabritinhas irem embora também.",
+        "Até hoje, todo dia ao meio-dia, na torre da prefeitura de Poznań saem duas cabritinhas de metal e dão doze marradas. Muitos turistas chegam à praça um pouco antes do meio-dia para vê-las.",
+        "Essa é a moral da história: às vezes um erro vira uma coisa bonita. E uma risada é melhor do que um castigo."
+      ],
+      "b1": [
+        "1551 foi um ano importante para Poznań. O mestre relojoeiro Bartłomiej Wolff tinha trabalhado durante meses num relógio maravilhoso para a torre da prefeitura, e o conselho da cidade tinha organizado uma grande festa para a inauguração.",
+        "O almoço para os convidados tinha sido confiado a Pietrek, um jovem ajudante de cozinha. Mas naquela manhã o menino tinha se distraído olhando os preparativos na praça, e quando voltou para o fogão o prato principal já estava queimado.",
+        "Desesperado, Pietrek tinha corrido para fora da cidade, tinha pegado duas cabritinhas num prado e as tinha levado até a cozinha. Mas as cabritinhas, que não tinham nenhuma vontade de acabar na panela, escaparam. Num instante tinham atravessado a praça e subido na torre.",
+        "Ao meio-dia em ponto, quando o prefeito e os convidados levantaram os olhos para o relógio novo, viram uma cena que ninguém esperava: no beiral da torre, duas cabritinhas davam marradas na frente da cidade inteira.",
+        "Os convidados, que até aquele momento tinham ficado sérios e solenes, caíram na gargalhada. O prefeito se divertiu tanto que perdoou Pietrek, deixou as cabras irem embora e pediu ao mestre Wolff que acrescentasse ao relógio duas cabritinhas mecânicas.",
+        "É uma lenda, mas o relógio é verdadeiro, e as cabritinhas também: ao longo dos séculos foram consertadas e refeitas várias vezes, mas até hoje, todo dia ao meio-dia, saem de uma portinha acima do relógio e dão doze marradas. Viraram o símbolo de Poznań: você as encontra nos suvenires, nos cartões-postais e nos desenhos das crianças.",
+        "A moral? Pietrek tinha cometido um grande erro, mas esse erro deu à cidade o seu símbolo mais amado."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Nous sommes à Poznań, en Pologne, en 1551. Sur la place, il y a l’hôtel de ville, avec une horloge neuve et magnifique. Aujourd’hui, c’est une grande fête : à midi, le maire et les invités regardent l’horloge pour la première fois.",
+        "Dans la cuisine travaille Pietrek, un garçon commis de cuisine. Il est onze heures. Pietrek regarde la fête par la fenêtre… et le repas brûle ! Quelle catastrophe !",
+        "Pietrek a peur. Il court dehors et trouve deux petites chèvres blanches dans un pré. « Je les emmène à la cuisine », pense-t-il. Mais les chevrettes ne veulent pas : elles s’enfuient !",
+        "Les chevrettes courent sur la place, entrent dans l’hôtel de ville et montent, montent, montent… jusqu’à la tour, à côté de l’horloge.",
+        "Il est douze heures. Il est midi. Le maire et les invités regardent en haut. Et qu’est-ce qu’ils voient ? Deux petites chèvres sur la tour : elles se regardent et se donnent des coups de cornes, un, deux, trois… douze fois !",
+        "Tout le monde rit. Le maire rit plus que tous les autres.\n– Magnifique ! Je veux deux chevrettes dans l’horloge !\nAlors l’horloger fabrique deux chevrettes en métal. Et Pietrek ? Le maire n’est pas en colère : il pardonne au garçon, et il laisse partir les chevrettes aussi.",
+        "Aujourd’hui encore, chaque jour à midi, sur la tour de l’hôtel de ville de Poznań, deux chevrettes en métal sortent et se donnent douze coups de cornes. Beaucoup de touristes arrivent sur la place un peu avant midi pour les voir.",
+        "C’est la morale de l’histoire : parfois, une erreur devient une belle chose. Et un éclat de rire vaut mieux qu’une punition."
+      ],
+      "b1": [
+        "1551 fut une année importante pour Poznań. Le maître horloger Bartłomiej Wolff avait travaillé pendant des mois à une horloge merveilleuse pour la tour de l’hôtel de ville, et le conseil de la ville avait organisé une grande fête pour son inauguration.",
+        "Le repas des invités avait été confié à Pietrek, un jeune commis de cuisine. Mais ce matin-là, le garçon s’était laissé distraire en regardant les préparatifs sur la place, et quand il était revenu aux fourneaux, le plat principal était déjà brûlé.",
+        "Désespéré, Pietrek avait couru hors de la ville, avait pris deux chevrettes dans un pré et les avait amenées jusqu’à la cuisine. Mais les chevrettes, qui n’avaient aucune envie de finir dans la marmite, lui avaient échappé. En un instant, elles avaient traversé la place et étaient montées sur la tour.",
+        "À midi pile, quand le maire et les invités ont levé les yeux vers la nouvelle horloge, ils ont vu une scène à laquelle personne ne s’attendait : sur la corniche de la tour, deux chevrettes se donnaient des coups de cornes devant toute la ville.",
+        "Les invités, qui jusque-là étaient restés sérieux et solennels, ont éclaté de rire. Le maire s’est tellement amusé qu’il a pardonné à Pietrek, a laissé partir les chèvres et a demandé au maître Wolff d’ajouter à l’horloge deux chevrettes mécaniques.",
+        "C’est une légende, mais l’horloge est réelle, et les chevrettes aussi : au fil des siècles, elles ont été réparées et refaites plusieurs fois, mais aujourd’hui encore, chaque jour à midi, elles sortent d’une petite porte au-dessus de l’horloge et se donnent douze coups de cornes. Elles sont devenues le symbole de Poznań : on les trouve sur les souvenirs, sur les cartes postales et dans les dessins des enfants.",
+        "La morale ? Pietrek avait fait une grosse erreur, mais cette erreur a offert à la ville son symbole le plus aimé."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Jsme v Poznani, v Polsku, v roce 1551. Na náměstí stojí radnice s novými a nádhernými hodinami. Dnes je velká slavnost: ve dvanáct se starosta a hosté poprvé podívají na hodiny.",
+        "V kuchyni pracuje Pietrek, mladý pomocný kuchař. Je jedenáct hodin. Pietrek se dívá z okna na slavnost… a oběd se připaluje! To je katastrofa!",
+        "Pietrek má strach. Vyběhne ven a na louce najde dvě bílé kozičky. „Vezmu je do kuchyně,“ pomyslí si. Ale kozičky nechtějí: utečou!",
+        "Kozičky běží přes náměstí, vběhnou do radnice a lezou, lezou, lezou… až na věž, k hodinám.",
+        "Je dvanáct hodin. Je poledne. Starosta a hosté se dívají nahoru. A co vidí? Na věži dvě kozičky: dívají se na sebe a trkají se, jednou, dvakrát, třikrát… dvanáctkrát!",
+        "Všichni se smějí. Starosta se směje nejvíc ze všech.\n– Nádhera! Chci v hodinách dvě kozičky!\nA tak hodinář vyrobí dvě kovové kozičky. A Pietrek? Starosta se nezlobí: chlapci odpustí a kozičky taky pustí.",
+        "Dodnes každý den ve dvanáct vyjdou na věži poznaňské radnice dvě kovové kozičky a dvanáctkrát se trknou. Mnoho turistů přichází na náměstí kousek před polednem, aby je vidělo.",
+        "To je ponaučení z příběhu: někdy se z chyby stane něco krásného. A smích je lepší než trest."
+      ],
+      "b1": [
+        "Rok 1551 byl pro Poznaň důležitý. Mistr hodinář Bartłomiej Wolff celé měsíce pracoval na nádherných hodinách pro radniční věž a městská rada uspořádala k jejich slavnostnímu spuštění velkou slavnost.",
+        "Oběd pro hosty byl svěřen Pietrkovi, mladému pomocnému kuchaři. Ale toho rána se chlapec zakoukal na přípravy na náměstí, a když se vrátil ke sporáku, hlavní jídlo už bylo spálené.",
+        "Zoufalý Pietrek vyběhl za město, na louce chytil dvě kozičky a dovedl je až do kuchyně. Jenže kozičky, které neměly sebemenší chuť skončit v hrnci, mu utekly. Za okamžik přeběhly náměstí a vylezly na věž.",
+        "Přesně v poledne, když starosta a hosté zvedli oči k novým hodinám, uviděli scénu, kterou nikdo nečekal: na římse věže se před celým městem trkaly dvě kozičky.",
+        "Hosté, kteří do té chvíle zůstávali vážní a slavnostní, vybuchli smíchy. Starosta se tak bavil, že Pietrkovi odpustil, kozy pustil a požádal mistra Wolffa, aby k hodinám přidal dvě mechanické kozičky.",
+        "Je to pověst, ale hodiny jsou skutečné, a kozičky také: během staletí byly mnohokrát opraveny a znovu vyrobeny, ale dodnes každý den v poledne vyjdou z malých dvířek nad hodinami a dvanáctkrát se trknou. Staly se symbolem Poznaně: najdete je na suvenýrech, na pohlednicích i na dětských kresbách.",
+        "Ponaučení? Pietrek udělal velkou chybu, ale ta chyba darovala městu jeho nejoblíbenější symbol."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jesteśmy w Poznaniu, w Polsce, w 1551 roku. Na rynku stoi ratusz z nowym, pięknym zegarem. Dziś jest wielkie święto: o dwunastej burmistrz i goście po raz pierwszy popatrzą na zegar.",
+        "W kuchni pracuje Pietrek, chłopiec, pomocnik kucharza. Jest jedenasta. Pietrek patrzy przez okno na święto… a obiad się przypala! Co za katastrofa!",
+        "Pietrek się boi. Wybiega na zewnątrz i na łące znajduje dwa białe koziołki. „Zabiorę je do kuchni” – myśli. Ale koziołki nie chcą: uciekają!",
+        "Koziołki biegną przez rynek, wchodzą do ratusza i wspinają się, wspinają, wspinają… aż na wieżę, obok zegara.",
+        "Jest dwunasta. Jest południe. Burmistrz i goście patrzą w górę. I co widzą? Dwa koziołki na wieży: patrzą na siebie i trykają się rogami, raz, dwa, trzy… dwanaście razy!",
+        "Wszyscy się śmieją. Burmistrz śmieje się najbardziej.\n– Wspaniałe! Chcę dwa koziołki w zegarze!\nI tak zegarmistrz robi dwa metalowe koziołki. A Pietrek? Burmistrz nie jest zły: wybacza chłopcu i wypuszcza też koziołki.",
+        "Do dziś codziennie o dwunastej na wieży poznańskiego ratusza wychodzą dwa metalowe koziołki i trykają się dwanaście razy. Wielu turystów przychodzi na rynek trochę przed południem, żeby je zobaczyć.",
+        "To jest morał tej historii: czasem błąd zmienia się w coś pięknego. A śmiech jest lepszy niż kara."
+      ],
+      "b1": [
+        "Rok 1551 był dla Poznania ważny. Mistrz zegarmistrzowski Bartłomiej Wolff przez wiele miesięcy pracował nad wspaniałym zegarem na wieżę ratusza, a rada miejska zorganizowała wielkie święto z okazji jego uruchomienia.",
+        "Obiad dla gości powierzono Pietrkowi, młodemu pomocnikowi kucharza. Ale tego ranka chłopiec zagapił się na przygotowania na rynku, a kiedy wrócił do kuchni, główne danie było już spalone.",
+        "Zrozpaczony Pietrek pobiegł za miasto, złapał na łące dwa koziołki i przyprowadził je aż do kuchni. Ale koziołki, które wcale nie miały ochoty skończyć w garnku, wymknęły mu się. W jednej chwili przebiegły przez rynek i wspięły się na wieżę.",
+        "Punktualnie w południe, kiedy burmistrz i goście podnieśli oczy na nowy zegar, zobaczyli scenę, której nikt się nie spodziewał: na gzymsie wieży dwa koziołki trykały się rogami na oczach całego miasta.",
+        "Goście, którzy do tej chwili byli poważni i uroczyści, wybuchnęli śmiechem. Burmistrz tak się ubawił, że wybaczył Pietrkowi, wypuścił kozy i poprosił mistrza Wolffa, żeby dodał do zegara dwa mechaniczne koziołki.",
+        "To legenda, ale zegar jest prawdziwy, i koziołki też: przez wieki były wielokrotnie naprawiane i robione od nowa, ale do dziś codziennie w południe wychodzą z małych drzwiczek nad zegarem i trykają się dwanaście razy. Stały się symbolem Poznania: znajdziesz je na pamiątkach, na pocztówkach i na rysunkach dzieci.",
+        "Morał? Pietrek popełnił wielki błąd, ale ten błąd podarował miastu jego najbardziej ukochany symbol."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Polonya'da, Poznań'dayız, yıl 1551. Meydanda yeni ve çok güzel bir saati olan belediye binası var. Bugün büyük bir kutlama var: saat on ikide belediye başkanı ve konuklar saate ilk kez bakacak.",
+        "Mutfakta Pietrek adında bir aşçı yardımcısı çalışıyor. Saat on bir. Pietrek pencereden kutlamaya bakıyor… ve öğle yemeği yanıyor! Ne felaket!",
+        "Pietrek korkuyor. Dışarı koşuyor ve bir çayırda iki küçük beyaz keçi buluyor. «Onları mutfağa götüreyim», diye düşünüyor. Ama keçiler istemiyor: kaçıyorlar!",
+        "Keçiler meydana koşuyor, belediye binasına giriyor ve tırmanıyor, tırmanıyor, tırmanıyor… saatin yanındaki kuleye kadar.",
+        "Saat on iki. Öğle vakti. Belediye başkanı ve konuklar yukarı bakıyor. Ve ne görüyorlar? Kulede iki küçük keçi: birbirlerine bakıp tos vuruşuyorlar, bir, iki, üç… on iki kez!",
+        "Herkes gülüyor. Belediye başkanı herkesten çok gülüyor.\n– Harika! Saatte iki keçi istiyorum!\nBöylece saatçi metalden iki keçi yapıyor. Ya Pietrek? Belediye başkanı kızgın değil: çocuğu affediyor ve keçileri de serbest bırakıyor.",
+        "Bugün hâlâ her gün saat on ikide, Poznań belediye binasının kulesinde metalden iki keçi çıkıyor ve on iki kez tos vuruşuyor. Birçok turist onları görmek için öğleden biraz önce meydana geliyor.",
+        "Hikâyenin ana fikri şu: bazen bir hata güzel bir şeye dönüşür. Ve bir kahkaha bir cezadan daha iyidir."
+      ],
+      "b1": [
+        "1551, Poznań için önemli bir yıldı. Saat ustası Bartłomiej Wolff, belediye binasının kulesi için aylarca harika bir saat üzerinde çalışmıştı ve şehir meclisi açılışı için büyük bir kutlama düzenlemişti.",
+        "Konukların öğle yemeği genç bir aşçı yardımcısı olan Pietrek'e emanet edilmişti. Ama o sabah çocuk meydandaki hazırlıkları seyrederken dalıp gitmişti ve ocağın başına döndüğünde ana yemek çoktan yanmıştı.",
+        "Çaresiz kalan Pietrek şehrin dışına koşmuş, bir çayırdan iki küçük keçi alıp mutfağa kadar getirmişti. Ama tencerede bitmeye hiç niyeti olmayan keçiler elinden kaçmıştı. Bir anda meydanı geçmiş ve kuleye tırmanmışlardı.",
+        "Tam öğle vakti, belediye başkanı ve konuklar gözlerini yeni saate kaldırdığında kimsenin beklemediği bir sahne gördüler: kulenin saçağında iki küçük keçi bütün şehrin önünde tos vuruşuyordu.",
+        "O ana kadar ciddi ve ağırbaşlı duran konuklar kahkahayı bastı. Belediye başkanı o kadar eğlendi ki Pietrek'i affetti, keçileri serbest bıraktı ve usta Wolff'tan saate iki mekanik keçi eklemesini istedi.",
+        "Bu bir efsane ama saat gerçek, keçiler de öyle: yüzyıllar boyunca birçok kez onarıldılar ve yeniden yapıldılar, ama bugün hâlâ her gün öğle vakti saatin üstündeki küçük bir kapıdan çıkıp on iki kez tos vuruşuyorlar. Poznań'ın simgesi oldular: onları hediyelik eşyalarda, kartpostallarda ve çocukların resimlerinde görebilirsin.",
+        "Ana fikir mi? Pietrek büyük bir hata yapmıştı ama bu hata şehre en sevilen simgesini armağan etti."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Wir sind in Posen, in Polen, im Jahr 1551. Auf dem Platz steht das Rathaus mit einer neuen, wunderschönen Uhr. Heute gibt es ein großes Fest: Um zwölf Uhr schauen der Bürgermeister und die Gäste zum ersten Mal auf die Uhr.",
+        "In der Küche arbeitet Pietrek, ein junger Küchenhelfer. Es ist elf Uhr. Pietrek schaut aus dem Fenster auf das Fest … und das Mittagessen brennt an! Was für eine Katastrophe!",
+        "Pietrek hat Angst. Er läuft hinaus und findet auf einer Wiese zwei kleine weiße Ziegen. „Ich bringe sie in die Küche“, denkt er. Aber die Ziegen wollen nicht: Sie laufen weg!",
+        "Die Ziegen laufen über den Platz, gehen ins Rathaus und steigen hinauf, hinauf, hinauf … bis zum Turm, neben die Uhr.",
+        "Es ist zwölf Uhr. Es ist Mittag. Der Bürgermeister und die Gäste schauen nach oben. Und was sehen sie? Zwei kleine Ziegen auf dem Turm: Sie schauen sich an und stoßen sich mit den Hörnern, einmal, zweimal, dreimal … zwölfmal!",
+        "Alle lachen. Der Bürgermeister lacht am meisten.\n– Wunderbar! Ich will zwei Ziegen in der Uhr!\nAlso macht der Uhrmacher zwei Ziegen aus Metall. Und Pietrek? Der Bürgermeister ist nicht böse: Er verzeiht dem Jungen und lässt auch die Ziegen frei.",
+        "Noch heute kommen jeden Tag um zwölf Uhr auf dem Turm des Posener Rathauses zwei Ziegen aus Metall heraus und stoßen sich zwölfmal. Viele Touristen kommen kurz vor Mittag auf den Platz, um sie zu sehen.",
+        "Das ist die Moral der Geschichte: Manchmal wird aus einem Fehler etwas Schönes. Und ein Lachen ist besser als eine Strafe."
+      ],
+      "b1": [
+        "1551 war ein wichtiges Jahr für Posen. Der Uhrmachermeister Bartłomiej Wolff hatte monatelang an einer wunderbaren Uhr für den Rathausturm gearbeitet, und der Stadtrat hatte für die Einweihung ein großes Fest organisiert.",
+        "Das Mittagessen für die Gäste war Pietrek anvertraut worden, einem jungen Küchenhelfer. Aber an jenem Morgen hatte sich der Junge von den Vorbereitungen auf dem Platz ablenken lassen, und als er an den Herd zurückkam, war das Hauptgericht schon verbrannt.",
+        "Verzweifelt war Pietrek aus der Stadt gelaufen, hatte auf einer Wiese zwei Zicklein geholt und sie bis in die Küche gebracht. Aber die Zicklein, die überhaupt keine Lust hatten, im Topf zu landen, waren ihm entwischt. In einem Augenblick hatten sie den Platz überquert und waren auf den Turm geklettert.",
+        "Punkt zwölf Uhr, als der Bürgermeister und die Gäste die Augen zur neuen Uhr hoben, sahen sie eine Szene, die niemand erwartet hatte: Auf dem Gesims des Turms stießen sich zwei Zicklein mit den Hörnern, vor der ganzen Stadt.",
+        "Die Gäste, die bis dahin ernst und feierlich geblieben waren, brachen in Lachen aus. Der Bürgermeister amüsierte sich so sehr, dass er Pietrek verzieh, die Ziegen freiließ und Meister Wolff bat, der Uhr zwei mechanische Zicklein hinzuzufügen.",
+        "Es ist eine Legende, aber die Uhr ist echt, und die Zicklein auch: Im Lauf der Jahrhunderte wurden sie mehrmals repariert und neu gebaut, aber noch heute kommen sie jeden Tag um zwölf aus einer kleinen Tür über der Uhr und stoßen sich zwölfmal. Sie sind zum Wahrzeichen von Posen geworden: Man findet sie auf Souvenirs, auf Postkarten und in Kinderzeichnungen.",
+        "Die Moral? Pietrek hatte einen großen Fehler gemacht, aber dieser Fehler hat der Stadt ihr beliebtestes Wahrzeichen geschenkt."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ここはポーランドのポズナンです。時は1551年。広場には市庁舎があり、新しくてとてもきれいな時計がついています。今日は大きなお祝いの日です。12時に、市長とお客たちが初めてその時計を見るのです。",
+        "台所では、見習いコックの少年ピエトレクが働いています。11時です。ピエトレクは窓からお祝いを見ていて……昼ごはんが焦げてしまいます！　大変だ！",
+        "ピエトレクはこわくなります。外へ走っていくと、草地に白い子ヤギが二匹います。「台所へ連れていこう」と思います。でも子ヤギたちはいやがって、逃げてしまいます！",
+        "子ヤギたちは広場を走り、市庁舎に入って、上へ、上へ、上へ……時計のそばの塔までのぼっていきます。",
+        "12時です。正午です。市長とお客たちは上を見ます。何が見えるでしょう？　塔の上に子ヤギが二匹。顔を見合わせて、角を突き合わせます。一回、二回、三回……十二回！",
+        "みんなが笑います。市長がいちばん笑います。\n「すばらしい！　時計に子ヤギを二匹つけたい！」\nそこで時計職人は、金属の子ヤギを二匹作ります。ピエトレクは？　市長は怒っていません。少年を許し、子ヤギたちも放してやります。",
+        "今でも毎日12時になると、ポズナンの市庁舎の塔に金属の子ヤギが二匹出てきて、十二回角を突き合わせます。たくさんの観光客が、それを見るために正午少し前に広場へやって来ます。",
+        "これがこのお話の教訓です。ときには、失敗がすてきなものに変わります。そして、笑いは罰よりもいいものです。"
+      ],
+      "b1": [
+        "1551年は、ポズナンにとって大切な年でした。時計職人の親方バルトウォミェイ・ヴォルフは、何か月もかけて市庁舎の塔のためにすばらしい時計を作り、町の議会はそのお披露目のために大きなお祝いを準備していました。",
+        "お客たちの昼食は、若い見習いコックのピエトレクに任されていました。ところがその朝、少年は広場の準備に気をとられてしまい、コンロにもどったときには、メインの料理はもう焦げていました。",
+        "途方にくれたピエトレクは町の外へ走っていき、草地で子ヤギを二匹つかまえて、台所まで連れてきました。けれども、なべの中で終わるなどまっぴらな子ヤギたちは、ピエトレクの手をすり抜けて逃げ出しました。あっというまに広場を横切り、塔にのぼってしまったのです。",
+        "ちょうど正午、市長とお客たちが新しい時計を見上げたとき、だれも予想していなかった光景が目に入りました。塔の軒の上で、二匹の子ヤギが町じゅうの人の前で角を突き合わせていたのです。",
+        "それまでまじめで厳粛な顔をしていたお客たちは、どっと笑い出しました。市長はすっかり楽しくなって、ピエトレクを許し、ヤギたちを放してやり、時計に機械じかけの子ヤギを二匹つけるようヴォルフ親方にたのみました。",
+        "これは伝説ですが、時計は本物で、子ヤギも本物です。何世紀ものあいだに何度も修理され、作り直されてきましたが、今でも毎日正午になると、時計の上の小さな扉から出てきて、十二回角を突き合わせます。子ヤギたちはポズナンのシンボルになりました。おみやげにも、絵はがきにも、子どもたちの絵にも登場します。",
+        "教訓は？　ピエトレクは大きな失敗をしました。でもその失敗が、町にいちばん愛されるシンボルを贈ったのです。"
+      ]
+    }
+  }
+}
