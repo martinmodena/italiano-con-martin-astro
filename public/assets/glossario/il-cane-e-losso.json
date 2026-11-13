@@ -1,16 +1,22 @@
 {
   "id": "il-cane-e-losso",
-  "nota": "Glossario cliccabile della favola. `forme` elenca le forme che compaiono nel testo; `traduzioni.it` e' una definizione italiana, le altre otto sono la traduzione nella lingua del visitatore. `esempio` resta sempre in italiano. `immagine` e' un percorso assoluto oppure null.",
+  "nota": "Glossario cliccabile della favola (vedi AGENTS.md e il-lago-di-yogurt.json). `esempi` = tre frasi in italiano con la parola nello stesso significato del testo; niente definizione italiana.",
   "voci": [
     {
       "parola": "il cane",
-      "forme": ["cane"],
-      "esempio": "Il cane cammina per la strada con l'osso in bocca.",
+      "forme": [
+        "cane"
+      ],
+      "esempi": [
+        "Il mio cane dorme sempre sul divano.",
+        "Ogni mattina porto a spasso il cane.",
+        "Il cane della vicina è molto simpatico."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Animale domestico che abbaia; il protagonista della favola.",
         "en": "dog",
         "es": "perro",
+        "pt": "cachorro",
         "fr": "chien",
         "cs": "pes",
         "pl": "pies",
@@ -21,13 +27,20 @@
     },
     {
       "parola": "l'osso",
-      "forme": ["osso", "ossa"],
-      "esempio": "Il cane tiene l'osso tra i denti.",
+      "forme": [
+        "osso",
+        "ossa"
+      ],
+      "esempi": [
+        "Il cane nasconde l'osso in giardino.",
+        "Mi sono rotto un osso del braccio.",
+        "Il corpo umano ha più di duecento ossa."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Parte dura e bianca dello scheletro.",
         "en": "bone",
         "es": "hueso",
+        "pt": "osso",
         "fr": "os",
         "cs": "kost",
         "pl": "kość",
@@ -38,13 +51,22 @@
     },
     {
       "parola": "il ponte",
-      "forme": ["ponte"],
-      "esempio": "Il ponte attraversa il fiume.",
+      "forme": [
+        "ponte"
+      ],
+      "formeEsempi": [
+        "ponti"
+      ],
+      "esempi": [
+        "Attraversiamo il ponte a piedi.",
+        "A Venezia ci sono più di quattrocento ponti.",
+        "Dal ponte si vedono le barche."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Costruzione che permette di passare sopra un fiume.",
         "en": "bridge",
         "es": "puente",
+        "pt": "ponte",
         "fr": "pont",
         "cs": "most",
         "pl": "most",
@@ -55,13 +77,19 @@
     },
     {
       "parola": "il fiume",
-      "forme": ["fiume"],
-      "esempio": "Il fiume scorre sotto il ponte.",
+      "forme": [
+        "fiume"
+      ],
+      "esempi": [
+        "Il Po è il fiume più lungo d'Italia.",
+        "D'estate facciamo il bagno nel fiume.",
+        "La città è divisa in due dal fiume."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Corso d'acqua che arriva al mare.",
         "en": "river",
         "es": "río",
+        "pt": "rio",
         "fr": "rivière",
         "cs": "řeka",
         "pl": "rzeka",
@@ -72,13 +100,19 @@
     },
     {
       "parola": "la corrente",
-      "forme": ["corrente"],
-      "esempio": "La corrente porta via l'osso.",
+      "forme": [
+        "corrente"
+      ],
+      "esempi": [
+        "Non nuotare qui: la corrente è troppo forte.",
+        "La barca va giù con la corrente.",
+        "La corrente ha portato via il pallone."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: l'acqua del fiume che si muove. La stessa parola vuol dire anche «elettricità».",
         "en": "current of the river (the same word also means «electricity»)",
         "es": "corriente del río (la misma palabra significa también «electricidad»)",
+        "pt": "correnteza do rio (a mesma palavra também quer dizer «corrente elétrica»)",
         "fr": "courant de la rivière (le même mot signifie aussi « électricité »)",
         "cs": "říční proud (totéž slovo znamená i „elektřinu“)",
         "pl": "nurt rzeki (to samo słowo znaczy też „prąd elektryczny”)",
@@ -89,13 +123,19 @@
     },
     {
       "parola": "l'immagine",
-      "forme": ["immagine"],
-      "esempio": "Nell'acqua vede la sua immagine.",
+      "forme": [
+        "immagine"
+      ],
+      "esempi": [
+        "Nello specchio vedo la mia immagine.",
+        "Sull'acqua del lago c'è l'immagine delle montagne.",
+        "Il gatto guarda la sua immagine nel vetro."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La figura che si vede riflessa o disegnata.",
         "en": "image",
         "es": "imagen",
+        "pt": "imagem",
         "fr": "image",
         "cs": "obraz",
         "pl": "obraz",
@@ -106,13 +146,19 @@
     },
     {
       "parola": "il riflesso",
-      "forme": ["riflesso"],
-      "esempio": "Non capisce che è il suo riflesso.",
+      "forme": [
+        "riflesso"
+      ],
+      "esempi": [
+        "Nel lago si vede il riflesso della luna.",
+        "Guardo il mio riflesso nella vetrina.",
+        "Il riflesso del sole sull'acqua mi fa male agli occhi."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "L'immagine di sé che l'acqua o lo specchio restituisce.",
         "en": "reflection",
         "es": "reflejo",
+        "pt": "reflexo",
         "fr": "reflet",
         "cs": "odraz",
         "pl": "odbicie",
@@ -123,13 +169,25 @@
     },
     {
       "parola": "abbaiare",
-      "forme": ["abbaiare", "abbaia", "abbaiato", "abbaiò"],
-      "esempio": "Il cane abbaia contro un rivale che non esiste.",
+      "forme": [
+        "abbaiare",
+        "abbaia",
+        "abbaiato",
+        "abbaiò"
+      ],
+      "formeEsempi": [
+        "abbaiano"
+      ],
+      "esempi": [
+        "Il cane abbaia quando suona il campanello.",
+        "Di notte i cani del vicino abbaiano sempre.",
+        "Perché abbaia? Non c'è nessuno!"
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Fare il verso del cane.",
         "en": "to bark",
         "es": "ladrar",
+        "pt": "latir",
         "fr": "aboyer",
         "cs": "štěkat",
         "pl": "szczekać",
@@ -140,13 +198,25 @@
     },
     {
       "parola": "cadere",
-      "forme": ["cadere", "cade", "caduto", "cadde"],
-      "esempio": "L'osso cade nell'acqua e sparisce.",
+      "forme": [
+        "cadere",
+        "cade",
+        "caduto",
+        "cadde"
+      ],
+      "formeEsempi": [
+        "cadono"
+      ],
+      "esempi": [
+        "Attento, il bicchiere sta per cadere!",
+        "D'autunno cadono le foglie.",
+        "Ieri sono caduto dalla bicicletta."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Andare giù, verso il basso, senza volerlo.",
         "en": "to fall",
         "es": "caer",
+        "pt": "cair",
         "fr": "tomber",
         "cs": "spadnout",
         "pl": "spaść",
@@ -157,13 +227,19 @@
     },
     {
       "parola": "la bocca",
-      "forme": ["bocca"],
-      "esempio": "Apre la bocca e perde l'osso.",
+      "forme": [
+        "bocca"
+      ],
+      "esempi": [
+        "Non parlare con la bocca piena!",
+        "«Apri la bocca», dice il dentista.",
+        "Il bambino ha la bocca sporca di cioccolato."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La parte del viso con cui si mangia e si parla.",
         "en": "mouth",
         "es": "boca",
+        "pt": "boca",
         "fr": "bouche",
         "cs": "ústa",
         "pl": "usta",
@@ -174,13 +250,19 @@
     },
     {
       "parola": "la fame",
-      "forme": ["fame"],
-      "esempio": "Il cane ha molta fame.",
+      "forme": [
+        "fame"
+      ],
+      "esempi": [
+        "Ho fame: mangiamo?",
+        "Dopo la palestra ho sempre molta fame.",
+        "Non ho fame, grazie."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Il bisogno di mangiare.",
         "en": "hunger",
         "es": "hambre",
+        "pt": "fome",
         "fr": "faim",
         "cs": "hlad",
         "pl": "głód",
@@ -191,13 +273,21 @@
     },
     {
       "parola": "affamato",
-      "forme": ["affamato", "affamata", "affamati"],
-      "esempio": "Un cane affamato cerca cibo davanti alle botteghe.",
+      "forme": [
+        "affamato",
+        "affamata",
+        "affamati"
+      ],
+      "esempi": [
+        "Dopo la gita i bambini sono affamati.",
+        "Torno a casa stanco e affamato.",
+        "Il gatto affamato miagola davanti al frigorifero."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Che ha molta fame.",
         "en": "hungry",
         "es": "hambriento",
+        "pt": "faminto, com fome",
         "fr": "affamé",
         "cs": "hladový",
         "pl": "głodny",
@@ -208,13 +298,19 @@
     },
     {
       "parola": "la macelleria",
-      "forme": ["macelleria"],
-      "esempio": "Trova l'osso vicino alla macelleria.",
+      "forme": [
+        "macelleria"
+      ],
+      "esempi": [
+        "La macelleria è chiusa il lunedì.",
+        "Accanto alla macelleria c'è un forno.",
+        "Mia zia lavora in una macelleria del centro."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Il negozio dove si compra la carne.",
         "en": "butcher's shop",
         "es": "carnicería",
+        "pt": "açougue",
         "fr": "boucherie",
         "cs": "řeznictví",
         "pl": "sklep mięsny",
@@ -225,13 +321,19 @@
     },
     {
       "parola": "il macellaio",
-      "forme": ["macellaio"],
-      "esempio": "Il macellaio lavora nella sua bottega.",
+      "forme": [
+        "macellaio"
+      ],
+      "esempi": [
+        "Il macellaio apre il negozio alle sette.",
+        "Mio nonno faceva il macellaio.",
+        "Il macellaio saluta tutti i clienti per nome."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Chi vende la carne.",
         "en": "butcher",
         "es": "carnicero",
+        "pt": "açougueiro",
         "fr": "boucher",
         "cs": "řezník",
         "pl": "rzeźnik",
@@ -242,13 +344,20 @@
     },
     {
       "parola": "la bottega",
-      "forme": ["bottega", "botteghe"],
-      "esempio": "Cerca cibo tra le botteghe del villaggio.",
+      "forme": [
+        "bottega",
+        "botteghe"
+      ],
+      "esempi": [
+        "In centro c'è la bottega di un falegname.",
+        "Il nonno aveva una piccola bottega di scarpe.",
+        "Nelle botteghe del paese si trova di tutto."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Un piccolo negozio, spesso a conduzione familiare.",
         "en": "shop",
         "es": "tienda",
+        "pt": "loja, oficina",
         "fr": "boutique",
         "cs": "obchod",
         "pl": "sklep",
@@ -259,13 +368,20 @@
     },
     {
       "parola": "il dente",
-      "forme": ["dente", "denti"],
-      "esempio": "Stringe l'osso tra i denti.",
+      "forme": [
+        "dente",
+        "denti"
+      ],
+      "esempi": [
+        "Mi fa male un dente.",
+        "Lavati i denti prima di dormire.",
+        "Al bambino è caduto il primo dente."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Ognuno degli elementi duri della bocca, per mordere.",
         "en": "tooth",
         "es": "diente",
+        "pt": "dente",
         "fr": "dent",
         "cs": "zub",
         "pl": "ząb",
@@ -276,13 +392,19 @@
     },
     {
       "parola": "l'avidità",
-      "forme": ["avidità"],
-      "esempio": "L'avidità gli fa perdere quello che ha.",
+      "forme": [
+        "avidità"
+      ],
+      "esempi": [
+        "L'avidità non lo lascia mai contento.",
+        "Per avidità ha perso tutti i suoi amici.",
+        "L'avidità è il difetto più grande del protagonista."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Il desiderio di avere sempre di più.",
         "en": "greed",
         "es": "codicia",
+        "pt": "ganância",
         "fr": "avidité",
         "cs": "chamtivost",
         "pl": "chciwość",
@@ -293,13 +415,22 @@
     },
     {
       "parola": "il rivale",
-      "forme": ["rivale"],
-      "esempio": "Abbaia contro un rivale che non esiste.",
+      "forme": [
+        "rivale"
+      ],
+      "formeEsempi": [
+        "rivali"
+      ],
+      "esempi": [
+        "Marco è il mio rivale nella gara di corsa.",
+        "Le due squadre sono rivali da cento anni.",
+        "Ha battuto il suo rivale per un punto."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Chi compete con noi per la stessa cosa.",
         "en": "rival",
         "es": "rival",
+        "pt": "rival",
         "fr": "rival",
         "cs": "sok",
         "pl": "rywal",
@@ -310,13 +441,21 @@
     },
     {
       "parola": "randagio",
-      "forme": ["randagio", "randagia", "randagi"],
-      "esempio": "Un cane randagio non ha padrone.",
+      "forme": [
+        "randagio",
+        "randagia",
+        "randagi"
+      ],
+      "esempi": [
+        "In questa strada vivono molti gatti randagi.",
+        "Abbiamo adottato un cane randagio.",
+        "Il cane randagio dorme davanti alla stazione."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Detto di un animale che vive per strada, senza padrone.",
         "en": "stray",
         "es": "callejero",
+        "pt": "de rua, sem dono",
         "fr": "errant",
         "cs": "toulavý",
         "pl": "bezpański",
@@ -327,13 +466,19 @@
     },
     {
       "parola": "il villaggio",
-      "forme": ["villaggio"],
-      "esempio": "Nel villaggio ci sono poche botteghe.",
+      "forme": [
+        "villaggio"
+      ],
+      "esempi": [
+        "Il villaggio ha solo cento abitanti.",
+        "Siamo arrivati a un piccolo villaggio di montagna.",
+        "Tutto il villaggio va alla festa."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Un paese piccolo, con poche case.",
         "en": "village",
         "es": "pueblo",
+        "pt": "vilarejo",
         "fr": "village",
         "cs": "vesnice",
         "pl": "wioska",
@@ -344,13 +489,19 @@
     },
     {
       "parola": "la campagna",
-      "forme": ["campagna"],
-      "esempio": "Con l'osso in bocca si dirige verso la campagna.",
+      "forme": [
+        "campagna"
+      ],
+      "esempi": [
+        "I miei nonni vivono in campagna.",
+        "La domenica facciamo una passeggiata in campagna.",
+        "In campagna l'aria è più pulita."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: la zona fuori città, con campi e alberi. Non la «campagna elettorale».",
         "en": "countryside (not a «campaign» here)",
         "es": "campo, zona rural (aquí no «campaña»)",
+        "pt": "campo, interior (aqui não «campanha»)",
         "fr": "campagne, zone rurale (pas « campagne électorale »)",
         "cs": "venkov (ne „kampaň“)",
         "pl": "wieś, tereny wiejskie (nie „kampania”)",
@@ -361,13 +512,22 @@
     },
     {
       "parola": "la sagoma",
-      "forme": ["sagoma"],
-      "esempio": "Nell'acqua vede la sagoma di un altro cane.",
+      "forme": [
+        "sagoma"
+      ],
+      "formeEsempi": [
+        "sagome"
+      ],
+      "esempi": [
+        "Nella nebbia vedo la sagoma di una casa.",
+        "Dietro la tenda c'è la sagoma di una persona.",
+        "Di sera le montagne sono solo sagome scure."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La forma di una cosa vista da lontano o in ombra.",
         "en": "outline",
         "es": "silueta",
+        "pt": "silhueta",
         "fr": "silhouette",
         "cs": "silueta",
         "pl": "sylwetka",
@@ -378,13 +538,19 @@
     },
     {
       "parola": "le fauci",
-      "forme": ["fauci"],
-      "esempio": "Spalanca le fauci per abbaiare.",
+      "forme": [
+        "fauci"
+      ],
+      "esempi": [
+        "Il leone apre le fauci.",
+        "Il coccodrillo ha fauci enormi.",
+        "Il lupo mostra le fauci e ringhia."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La bocca aperta di un animale.",
         "en": "jaws",
         "es": "fauces",
+        "pt": "mandíbulas, boca aberta do animal",
         "fr": "gueule",
         "cs": "tlama",
         "pl": "paszcza",
@@ -395,13 +561,19 @@
     },
     {
       "parola": "il bottino",
-      "forme": ["bottino"],
-      "esempio": "È soddisfatto del suo bottino.",
+      "forme": [
+        "bottino"
+      ],
+      "esempi": [
+        "I ladri si dividono il bottino.",
+        "Il pirata nasconde il bottino su un'isola.",
+        "Dopo la passeggiata nel bosco, il nostro bottino è un cesto di funghi."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Quello che si porta via dopo averlo preso o rubato.",
         "en": "loot",
         "es": "botín",
+        "pt": "espólio, presa",
         "fr": "butin",
         "cs": "kořist",
         "pl": "łup",
@@ -412,13 +584,19 @@
     },
     {
       "parola": "l'inganno",
-      "forme": ["inganno"],
-      "esempio": "Solo alla fine capisce l'inganno.",
+      "forme": [
+        "inganno"
+      ],
+      "esempi": [
+        "Era tutto un inganno: il premio non esisteva.",
+        "Ho capito l'inganno troppo tardi.",
+        "Con un inganno, la volpe convince il corvo a cantare."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Una cosa falsa che sembra vera.",
         "en": "deception",
         "es": "engaño",
+        "pt": "engano, armadilha",
         "fr": "tromperie",
         "cs": "klam",
         "pl": "złudzenie",
@@ -429,13 +607,19 @@
     },
     {
       "parola": "la perdita",
-      "forme": ["perdita"],
-      "esempio": "La perdita dell'osso dipende dalla sua avidità.",
+      "forme": [
+        "perdita"
+      ],
+      "esempi": [
+        "La perdita del lavoro è stata un brutto colpo.",
+        "La perdita delle chiavi mi ha rovinato la giornata.",
+        "Vendere la casa adesso sarebbe una perdita."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Il fatto di non avere più una cosa che si aveva.",
         "en": "loss",
         "es": "pérdida",
+        "pt": "perda",
         "fr": "perte",
         "cs": "ztráta",
         "pl": "strata",
@@ -446,13 +630,22 @@
     },
     {
       "parola": "scivolare",
-      "forme": ["scivolare", "scivola", "scivolò", "scivolato"],
-      "esempio": "L'osso gli scivola di bocca.",
+      "forme": [
+        "scivolare",
+        "scivola",
+        "scivolò",
+        "scivolato"
+      ],
+      "esempi": [
+        "Il telefono mi è scivolato dalle mani.",
+        "Il sapone scivola via dalle dita.",
+        "Attenzione: sul ghiaccio è facile scivolare."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Muoversi via da soli, senza attrito, su una superficie.",
         "en": "to slip",
         "es": "resbalar",
+        "pt": "escorregar",
         "fr": "glisser",
         "cs": "vyklouznout",
         "pl": "wyślizgnąć się",
@@ -463,13 +656,25 @@
     },
     {
       "parola": "afferrare",
-      "forme": ["afferrare", "afferra", "afferrò", "afferrato"],
-      "esempio": "Afferra l'osso con i denti.",
+      "forme": [
+        "afferrare",
+        "afferra",
+        "afferrò",
+        "afferrato"
+      ],
+      "formeEsempi": [
+        "afferro"
+      ],
+      "esempi": [
+        "Afferro la borsa e corro fuori.",
+        "Il bambino afferra la mano della mamma.",
+        "Ha afferrato la palla al volo."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Prendere con forza e tenere stretto.",
         "en": "to grab",
         "es": "agarrar",
+        "pt": "agarrar",
         "fr": "saisir",
         "cs": "popadnout",
         "pl": "chwycić",
@@ -480,13 +685,21 @@
     },
     {
       "parola": "spalancare",
-      "forme": ["spalancare", "spalanca", "spalancò"],
-      "esempio": "Spalanca la bocca per abbaiare.",
+      "forme": [
+        "spalancare",
+        "spalanca",
+        "spalancò"
+      ],
+      "esempi": [
+        "Spalanca la finestra: fa caldo!",
+        "Il bambino spalanca gli occhi davanti alla torta.",
+        "Il gatto sbadiglia e spalanca la bocca."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Aprire tutto, il più possibile.",
         "en": "to open wide",
         "es": "abrir de par en par",
+        "pt": "escancarar",
         "fr": "ouvrir grand",
         "cs": "otevřít dokořán",
         "pl": "otworzyć szeroko",
@@ -497,13 +710,25 @@
     },
     {
       "parola": "scomparire",
-      "forme": ["scomparire", "scompare", "scomparve", "scomparso"],
-      "esempio": "L'osso scompare nella corrente.",
+      "forme": [
+        "scomparire",
+        "scompare",
+        "scomparve",
+        "scomparso"
+      ],
+      "formeEsempi": [
+        "scomparse"
+      ],
+      "esempi": [
+        "Il sole scompare dietro le montagne.",
+        "Le mie chiavi sono scomparse di nuovo!",
+        "Il gatto è scomparso da tre giorni."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Non essere più visibile.",
         "en": "to disappear",
         "es": "desaparecer",
+        "pt": "desaparecer",
         "fr": "disparaître",
         "cs": "zmizet",
         "pl": "zniknąć",
@@ -514,13 +739,25 @@
     },
     {
       "parola": "scorgere",
-      "forme": ["scorgere", "scorge", "scorse"],
-      "esempio": "Dal ponte scorge una figura nell'acqua.",
+      "forme": [
+        "scorgere",
+        "scorge",
+        "scorse"
+      ],
+      "formeEsempi": [
+        "scorgo",
+        "scorto"
+      ],
+      "esempi": [
+        "Dalla finestra scorgo il mare.",
+        "Tra la folla ho scorto il mio amico.",
+        "In lontananza si scorge un paese."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Vedere qualcosa di poco chiaro o lontano.",
         "en": "to catch sight of",
         "es": "divisar",
+        "pt": "avistar",
         "fr": "apercevoir",
         "cs": "zahlédnout",
         "pl": "dostrzec",
@@ -531,13 +768,26 @@
     },
     {
       "parola": "giungere",
-      "forme": ["giungere", "giunge", "giunto", "giunse"],
-      "esempio": "Giunto sul ponte, guarda l'acqua.",
+      "forme": [
+        "giungere",
+        "giunge",
+        "giunto",
+        "giunse"
+      ],
+      "formeEsempi": [
+        "giunti",
+        "giunta"
+      ],
+      "esempi": [
+        "Il treno giunge a Roma alle otto.",
+        "Giunti in cima, abbiamo guardato il panorama.",
+        "La notizia è giunta ieri sera."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Arrivare in un luogo.",
         "en": "to arrive",
         "es": "llegar",
+        "pt": "chegar",
         "fr": "arriver",
         "cs": "dorazit",
         "pl": "dotrzeć",
@@ -548,13 +798,26 @@
     },
     {
       "parola": "stringere",
-      "forme": ["stringere", "stringe", "stringeva", "strinse"],
-      "esempio": "Stringe l'osso tra i denti e non lo lascia.",
+      "forme": [
+        "stringere",
+        "stringe",
+        "stringeva",
+        "strinse"
+      ],
+      "formeEsempi": [
+        "stringo",
+        "stringi"
+      ],
+      "esempi": [
+        "Stringo la mano al nuovo collega.",
+        "La bambina stringe il suo orsacchiotto.",
+        "Stringi forte la corda!"
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Tenere con forza, senza lasciare andare.",
         "en": "to clench",
         "es": "apretar",
+        "pt": "apertar",
         "fr": "serrer",
         "cs": "svírat",
         "pl": "ściskać",
@@ -565,13 +828,19 @@
     },
     {
       "parola": "invitante",
-      "forme": ["invitante"],
-      "esempio": "L'altro osso sembra più invitante.",
+      "forme": [
+        "invitante"
+      ],
+      "esempi": [
+        "Questa torta ha un profumo invitante.",
+        "Il mare è calmo e molto invitante.",
+        "Un'offerta così invitante è difficile da rifiutare."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Che fa venire voglia, che attira.",
         "en": "tempting",
         "es": "apetitoso",
+        "pt": "convidativo, tentador",
         "fr": "appétissant",
         "cs": "lákavý",
         "pl": "kuszący",
@@ -582,13 +851,20 @@
     },
     {
       "parola": "presunto",
-      "forme": ["presunto", "presunta"],
-      "esempio": "Abbaia contro il presunto rivale.",
+      "forme": [
+        "presunto",
+        "presunta"
+      ],
+      "esempi": [
+        "Il presunto ladro era solo un vicino.",
+        "La presunta lettera d'amore era una bolletta.",
+        "Il presunto errore non c'era: avevo ragione io."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Che si crede esista, ma non è dimostrato.",
         "en": "supposed",
         "es": "supuesto",
+        "pt": "suposto",
         "fr": "prétendu",
         "cs": "domnělý",
         "pl": "domniemany",
@@ -599,13 +875,25 @@
     },
     {
       "parola": "spaventare",
-      "forme": ["spaventare", "spaventa", "spaventò"],
-      "esempio": "Vuole spaventare l'altro cane.",
+      "forme": [
+        "spaventare",
+        "spaventa",
+        "spaventò"
+      ],
+      "formeEsempi": [
+        "spaventarti",
+        "spaventato"
+      ],
+      "esempi": [
+        "Il temporale spaventa i bambini.",
+        "Scusa, non volevo spaventarti!",
+        "Il rumore ha spaventato il gatto."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Fare paura a qualcuno.",
         "en": "to scare",
         "es": "asustar",
+        "pt": "assustar",
         "fr": "effrayer",
         "cs": "vyděsit",
         "pl": "przestraszyć",
@@ -616,13 +904,24 @@
     },
     {
       "parola": "apprezzare",
-      "forme": ["apprezzare", "apprezza", "apprezzato"],
-      "esempio": "Non sa apprezzare quello che ha già.",
+      "forme": [
+        "apprezzare",
+        "apprezza",
+        "apprezzato"
+      ],
+      "formeEsempi": [
+        "apprezzo"
+      ],
+      "esempi": [
+        "Apprezzo molto il tuo aiuto.",
+        "Impariamo ad apprezzare le piccole cose.",
+        "Gli ospiti hanno apprezzato la cena."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Dare valore a una cosa, riconoscere che è buona.",
         "en": "to appreciate",
         "es": "apreciar",
+        "pt": "valorizar, dar valor a",
         "fr": "apprécier",
         "cs": "vážit si",
         "pl": "doceniać",
@@ -633,13 +932,25 @@
     },
     {
       "parola": "possedere",
-      "forme": ["possedere", "possiede", "possedeva", "posseduto"],
-      "esempio": "Perde l'unico bene che possiede.",
+      "forme": [
+        "possedere",
+        "possiede",
+        "possedeva",
+        "posseduto"
+      ],
+      "formeEsempi": [
+        "possiedo"
+      ],
+      "esempi": [
+        "Mio zio possiede una casa al mare.",
+        "Non possiedo una macchina: vado in bici.",
+        "Era tutto quello che possedeva."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Avere una cosa come propria.",
         "en": "to own",
         "es": "poseer",
+        "pt": "possuir, ter",
         "fr": "posséder",
         "cs": "vlastnit",
         "pl": "posiadać",
@@ -650,13 +961,19 @@
     },
     {
       "parola": "l'incapacità",
-      "forme": ["incapacità"],
-      "esempio": "La sua incapacità di apprezzare gli costa l'osso.",
+      "forme": [
+        "incapacità"
+      ],
+      "esempi": [
+        "La sua incapacità di dire di no gli crea problemi.",
+        "Mi fa arrabbiare la mia incapacità di arrivare in orario.",
+        "L'incapacità di ascoltare rovina molte amicizie."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Il non riuscire a fare una cosa.",
         "en": "inability",
         "es": "incapacidad",
+        "pt": "incapacidade",
         "fr": "incapacité",
         "cs": "neschopnost",
         "pl": "niezdolność",
@@ -667,14 +984,20 @@
     },
     {
       "parola": "la superficie",
-      "forme": ["superficie"],
+      "forme": [
+        "superficie"
+      ],
       "contesto": "restituiva",
-      "esempio": "La superficie dell'acqua riflette la sua figura.",
+      "esempi": [
+        "Le foglie galleggiano sulla superficie del lago.",
+        "Sulla superficie del mare brilla la luna.",
+        "La superficie dell'acqua è liscia come uno specchio."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: il pelo dell'acqua, la faccia di sopra del fiume.",
         "en": "surface (of the water)",
         "es": "superficie (del agua)",
+        "pt": "superfície (da água)",
         "fr": "surface (de l'eau)",
         "cs": "hladina (vody)",
         "pl": "powierzchnia (wody)",
@@ -685,14 +1008,20 @@
     },
     {
       "parola": "in superficie",
-      "forme": ["superficie"],
+      "forme": [
+        "superficie"
+      ],
       "contesto": "soltanto in superficie",
-      "esempio": "Degli altri vediamo soltanto quello che sta in superficie.",
+      "esempi": [
+        "Conosco i miei colleghi soltanto in superficie.",
+        "In superficie è tutto tranquillo, ma la famiglia ha molti problemi.",
+        "È gentile, ma solo in superficie."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: solo da fuori, senza sapere quello che c'è dentro.",
         "en": "on the surface, only from the outside",
         "es": "por encima, solo desde fuera",
+        "pt": "na superfície, só por fora",
         "fr": "en surface, seulement de l'extérieur",
         "cs": "jen povrchně, zvenčí",
         "pl": "powierzchownie, tylko z zewnątrz",
@@ -703,13 +1032,19 @@
     },
     {
       "parola": "il desiderio",
-      "forme": ["desiderio"],
-      "esempio": "Il desiderio gli fa vedere quello che non c'è.",
+      "forme": [
+        "desiderio"
+      ],
+      "esempi": [
+        "Il mio desiderio è viaggiare in Giappone.",
+        "Ha un grande desiderio di rivedere la sua famiglia.",
+        "Il desiderio di vincere lo rende nervoso."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La voglia forte di avere qualcosa.",
         "en": "desire",
         "es": "deseo",
+        "pt": "desejo",
         "fr": "désir",
         "cs": "touha",
         "pl": "pragnienie",
@@ -720,13 +1055,19 @@
     },
     {
       "parola": "la figura",
-      "forme": ["figura"],
-      "esempio": "Vede una figura identica alla propria.",
+      "forme": [
+        "figura"
+      ],
+      "esempi": [
+        "In fondo alla strada vedo una figura con un ombrello.",
+        "Una figura scura entra nella stanza.",
+        "Nella foto c'è una piccola figura vicino al mare."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "La forma di una persona o di un animale che si vede.",
         "en": "figure",
         "es": "figura",
+        "pt": "figura, vulto",
         "fr": "figure",
         "cs": "postava",
         "pl": "postać",
@@ -737,13 +1078,19 @@
     },
     {
       "parola": "la verità",
-      "forme": ["verità"],
-      "esempio": "Solo allora capisce la verità.",
+      "forme": [
+        "verità"
+      ],
+      "esempi": [
+        "Dimmi la verità!",
+        "Prima o poi la verità viene fuori.",
+        "Non è facile dire la verità a un amico."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Come stanno davvero le cose.",
         "en": "truth",
         "es": "verdad",
+        "pt": "verdade",
         "fr": "vérité",
         "cs": "pravda",
         "pl": "prawda",
@@ -754,13 +1101,22 @@
     },
     {
       "parola": "l'errore",
-      "forme": ["errore"],
-      "esempio": "Capisce il suo errore troppo tardi.",
+      "forme": [
+        "errore"
+      ],
+      "formeEsempi": [
+        "errori"
+      ],
+      "esempi": [
+        "Ho fatto un errore nell'esercizio.",
+        "Tutti fanno errori.",
+        "È stato un errore partire così tardi."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Una cosa sbagliata che si è fatta.",
         "en": "mistake",
         "es": "error",
+        "pt": "erro",
         "fr": "erreur",
         "cs": "chyba",
         "pl": "błąd",
@@ -771,13 +1127,23 @@
     },
     {
       "parola": "soddisfatto",
-      "forme": ["soddisfatto", "soddisfatta"],
-      "esempio": "È soddisfatto del suo bottino.",
+      "forme": [
+        "soddisfatto",
+        "soddisfatta"
+      ],
+      "formeEsempi": [
+        "soddisfatti"
+      ],
+      "esempi": [
+        "Sono soddisfatto del mio lavoro.",
+        "La cliente è soddisfatta del servizio.",
+        "Dopo la cena tutti erano soddisfatti."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Contento di quello che ha ottenuto.",
         "en": "satisfied",
         "es": "satisfecho",
+        "pt": "satisfeito",
         "fr": "satisfait",
         "cs": "spokojený",
         "pl": "zadowolony",
@@ -788,13 +1154,22 @@
     },
     {
       "parola": "precipitare",
-      "forme": ["precipitare", "precipita", "precipitato", "precipitò"],
-      "esempio": "L'osso precipita nel fiume.",
+      "forme": [
+        "precipitare",
+        "precipita",
+        "precipitato",
+        "precipitò"
+      ],
+      "esempi": [
+        "Il vaso è precipitato dal balcone.",
+        "Un sasso precipita nel burrone.",
+        "L'aereo di carta precipita dopo pochi metri."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Cadere all'improvviso e da in alto.",
         "en": "to plunge",
         "es": "precipitarse",
+        "pt": "despencar, cair de repente",
         "fr": "chuter",
         "cs": "zřítit se",
         "pl": "spaść gwałtownie",
@@ -805,13 +1180,20 @@
     },
     {
       "parola": "sconfitto",
-      "forme": ["sconfitto", "sconfitta"],
-      "esempio": "Non è stato sconfitto da un rivale, ma dalla sua avidità.",
+      "forme": [
+        "sconfitto",
+        "sconfitta"
+      ],
+      "esempi": [
+        "La squadra torna a casa sconfitta.",
+        "Si sente sconfitto, ma domani ci riprova.",
+        "Il campione è stato sconfitto da un ragazzo giovane."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Che ha perso contro qualcuno.",
         "en": "defeated",
         "es": "derrotado",
+        "pt": "derrotado",
         "fr": "vaincu",
         "cs": "poražený",
         "pl": "pokonany",
@@ -822,13 +1204,20 @@
     },
     {
       "parola": "i limiti",
-      "forme": ["limite", "limiti"],
-      "esempio": "Di quello che abbiamo conosciamo anche i limiti.",
+      "forme": [
+        "limite",
+        "limiti"
+      ],
+      "esempi": [
+        "Conosco i miei limiti: non so cantare.",
+        "Ogni persona ha i suoi limiti.",
+        "Ama la sua città, ma ne vede anche i limiti."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: i difetti e i punti deboli di una cosa, non il confine.",
         "en": "shortcomings, flaws (not «boundary» here)",
         "es": "las limitaciones, los defectos (aquí no «frontera»)",
+        "pt": "limitações, defeitos (aqui não «fronteira»)",
         "fr": "les défauts, les faiblesses (pas « frontière » ici)",
         "cs": "nedostatky, slabá místa (ne „hranice“)",
         "pl": "wady, słabe strony (nie „granica”)",
@@ -839,13 +1228,21 @@
     },
     {
       "parola": "restituire",
-      "forme": ["restituire", "restituiva", "restituisce"],
-      "esempio": "La superficie dell'acqua gli restituiva la sua immagine.",
+      "forme": [
+        "restituire",
+        "restituiva",
+        "restituisce"
+      ],
+      "esempi": [
+        "Lo specchio restituisce un'immagine stanca.",
+        "Il lago restituisce i colori del cielo.",
+        "La vetrina mi restituiva la mia faccia sorpresa."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: rimandare indietro un'immagine, farla vedere. Non «ridare un oggetto».",
         "en": "to reflect back, to show (here, not «to give back»)",
         "es": "devolver la imagen, reflejar (aquí no «devolver un objeto»)",
+        "pt": "devolver a imagem, refletir (aqui não «devolver uma coisa»)",
         "fr": "renvoyer l'image, refléter (pas « rendre un objet » ici)",
         "cs": "vracet obraz, odrážet (ne „vrátit věc“)",
         "pl": "odbijać, oddawać obraz (nie „zwracać rzecz”)",
@@ -856,13 +1253,21 @@
     },
     {
       "parola": "parere",
-      "forme": ["parere", "pare", "parve"],
-      "esempio": "L'osso dell'altro gli parve più grande.",
+      "forme": [
+        "parere",
+        "pare",
+        "parve"
+      ],
+      "esempi": [
+        "Mi pare una buona idea.",
+        "Pare che domani piova.",
+        "Il viaggio gli parve lunghissimo."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: sembrare. «Gli parve» significa «gli sembrò».",
         "en": "to seem («gli parve» = it seemed to him)",
         "es": "parecer («gli parve» = le pareció)",
+        "pt": "parecer («gli parve» = pareceu a ele)",
         "fr": "sembler (« gli parve » = il lui sembla)",
         "cs": "zdát se („gli parve“ = zdálo se mu)",
         "pl": "wydawać się („gli parve” = wydało mu się)",
@@ -873,15 +1278,26 @@
     },
     {
       "parola": "il bene",
-      "forme": ["bene"],
+      "forme": [
+        "bene"
+      ],
       "contesto": "unico bene",
-      "livelli": ["c1"],
-      "esempio": "Perde l'unico bene concreto che possedeva.",
+      "livelli": [
+        "c1"
+      ],
+      "formeEsempi": [
+        "beni"
+      ],
+      "esempi": [
+        "La casa è il suo unico bene.",
+        "La salute è il bene più prezioso.",
+        "Hanno venduto tutti i loro beni e sono partiti."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui è un nome: una cosa che si possiede. Non l'avverbio «bene».",
         "en": "possession, asset (a noun here, not the adverb «well»)",
         "es": "bien, posesión (aquí sustantivo, no el adverbio «bien»)",
+        "pt": "bem, posse (aqui substantivo, não o advérbio «bem»)",
         "fr": "bien, possession (nom ici, pas l'adverbe « bien »)",
         "cs": "majetek, statek (zde podstatné jméno, ne příslovce „dobře“)",
         "pl": "dobro, majątek (tu rzeczownik, nie przysłówek „dobrze”)",
@@ -892,13 +1308,26 @@
     },
     {
       "parola": "dirigersi",
-      "forme": ["dirigersi", "dirige", "diresse", "diretto"],
-      "esempio": "Con l'osso in bocca si dirige verso la campagna.",
+      "forme": [
+        "dirigersi",
+        "dirige",
+        "diresse",
+        "diretto"
+      ],
+      "formeEsempi": [
+        "dirigo",
+        "diretti"
+      ],
+      "esempi": [
+        "Dopo la lezione mi dirigo verso casa.",
+        "La nave si dirige verso il porto.",
+        "Si sono diretti subito all'uscita."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Andare verso un posto preciso.",
         "en": "to head towards",
         "es": "dirigirse hacia",
+        "pt": "dirigir-se, ir em direção a",
         "fr": "se diriger vers",
         "cs": "vydat se, zamířit",
         "pl": "skierować się, ruszyć",
@@ -909,13 +1338,21 @@
     },
     {
       "parola": "dominare",
-      "forme": ["dominare", "domina", "dominato"],
-      "esempio": "Si è lasciato dominare dall'avidità.",
+      "forme": [
+        "dominare",
+        "domina",
+        "dominato"
+      ],
+      "esempi": [
+        "Non lasciarti dominare dalla paura.",
+        "La rabbia lo domina e dice cose brutte.",
+        "È dominato dalla gelosia."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: comandare su qualcuno. «Lasciarsi dominare da» = farsi comandare da.",
         "en": "to control, to take over («lasciarsi dominare da» = to let oneself be ruled by)",
         "es": "dominar («lasciarsi dominare da» = dejarse dominar por)",
+        "pt": "dominar («lasciarsi dominare da» = deixar-se dominar por)",
         "fr": "dominer (« lasciarsi dominare da » = se laisser dominer par)",
         "cs": "ovládnout („lasciarsi dominare da“ = nechat se ovládnout)",
         "pl": "opanować („lasciarsi dominare da” = dać się opanować)",
@@ -926,13 +1363,24 @@
     },
     {
       "parola": "colpire",
-      "forme": ["colpire", "colpisce", "colpì"],
-      "esempio": "L'osso colpì l'acqua e sparì.",
+      "forme": [
+        "colpire",
+        "colpisce",
+        "colpì"
+      ],
+      "formeEsempi": [
+        "colpito"
+      ],
+      "esempi": [
+        "La palla ha colpito la finestra.",
+        "Il fulmine colpisce un albero.",
+        "Mi ha colpito per sbaglio con il gomito."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Battere contro qualcosa.",
         "en": "to hit, to strike",
         "es": "golpear",
+        "pt": "bater em, atingir",
         "fr": "frapper",
         "cs": "narazit, udeřit",
         "pl": "uderzyć",
@@ -943,13 +1391,20 @@
     },
     {
       "parola": "intimidire",
-      "forme": ["intimidire", "intimidisce"],
-      "esempio": "Apre la bocca per intimidire il rivale.",
+      "forme": [
+        "intimidire",
+        "intimidisce"
+      ],
+      "esempi": [
+        "Il cane abbaia per intimidire gli estranei.",
+        "Non farti intimidire dal professore!",
+        "La sua voce forte intimidisce i bambini."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Fare paura a qualcuno per farlo stare indietro.",
         "en": "to intimidate",
         "es": "intimidar",
+        "pt": "intimidar",
         "fr": "intimider",
         "cs": "zastrašit",
         "pl": "zastraszyć",
@@ -960,13 +1415,20 @@
     },
     {
       "parola": "il luogo",
-      "forme": ["luogo", "luoghi"],
-      "esempio": "Si dirige verso un luogo tranquillo.",
+      "forme": [
+        "luogo",
+        "luoghi"
+      ],
+      "esempi": [
+        "Questo è il luogo ideale per un picnic.",
+        "Scrivi il tuo luogo di nascita.",
+        "Ci sono luoghi che non dimentico mai."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Un posto.",
         "en": "place",
         "es": "lugar",
+        "pt": "lugar",
         "fr": "endroit",
         "cs": "místo",
         "pl": "miejsce",
@@ -977,13 +1439,25 @@
     },
     {
       "parola": "interpretare",
-      "forme": ["interpretare", "interpreta", "interpretò"],
-      "esempio": "Il desiderio interpretò la realtà al posto suo.",
+      "forme": [
+        "interpretare",
+        "interpreta",
+        "interpretò"
+      ],
+      "formeEsempi": [
+        "interpretato",
+        "interpreti"
+      ],
+      "esempi": [
+        "Ho interpretato male il suo silenzio.",
+        "Come interpreti questa poesia?",
+        "Ognuno interpreta i fatti a modo suo."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Dare un significato a quello che si vede.",
         "en": "to interpret, to read into",
         "es": "interpretar",
+        "pt": "interpretar",
         "fr": "interpréter",
         "cs": "vykládat si",
         "pl": "interpretować",
@@ -994,13 +1468,19 @@
     },
     {
       "parola": "apparentemente",
-      "forme": ["apparentemente"],
-      "esempio": "Un osso apparentemente più grande, ma era lo stesso osso.",
+      "forme": [
+        "apparentemente"
+      ],
+      "esempi": [
+        "Il problema è apparentemente semplice, ma richiede ore.",
+        "Era apparentemente tranquillo, ma dentro tremava.",
+        "Una scatola apparentemente vuota conteneva una lettera."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: solo all'apparenza, in realtà no. Non significa «a quanto pare».",
         "en": "seemingly, only in appearance (NOT «apparently, it seems»)",
         "es": "en apariencia, solo aparentemente (NO «al parecer»)",
+        "pt": "aparentemente, só na aparência (NÃO «pelo visto»)",
         "fr": "en apparence seulement (PAS « apparemment, il paraît »)",
         "cs": "jen zdánlivě (NE „zřejmě, patrně“)",
         "pl": "pozornie, tylko z wyglądu (NIE „najwyraźniej”)",
@@ -1011,13 +1491,19 @@
     },
     {
       "parola": "reale",
-      "forme": ["reale"],
-      "esempio": "Ha perso qualcosa di reale per una cosa che non esisteva.",
+      "forme": [
+        "reale"
+      ],
+      "esempi": [
+        "Questa è una storia reale, non inventata.",
+        "Il pericolo è reale: stai attento.",
+        "Nel sogno tutto sembrava reale."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: vero, che esiste davvero. In altri contesti significa anche «del re».",
         "en": "real, that truly exists (the word also means «royal»)",
         "es": "real, que existe de verdad (la palabra también significa «del rey»)",
+        "pt": "real, que existe de verdade (a palavra também quer dizer «real» de rei)",
         "fr": "réel, qui existe vraiment (le mot signifie aussi « royal »)",
         "cs": "skutečný (slovo znamená také „královský“)",
         "pl": "prawdziwy, realny (słowo znaczy też „królewski”)",
@@ -1028,13 +1514,20 @@
     },
     {
       "parola": "grosso",
-      "forme": ["grosso", "grossa"],
-      "esempio": "Ha trovato un grosso osso davanti alla macelleria.",
+      "forme": [
+        "grosso",
+        "grossa"
+      ],
+      "esempi": [
+        "Ho una grossa valigia rossa.",
+        "Che grosso albero!",
+        "Un grosso cane dorme davanti alla porta."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Grande, di dimensioni notevoli.",
         "en": "big, large",
         "es": "grande, gordo",
+        "pt": "grande, graúdo",
         "fr": "gros, grand",
         "cs": "velký",
         "pl": "duży, gruby",
@@ -1045,13 +1538,25 @@
     },
     {
       "parola": "comprendere",
-      "forme": ["comprendere", "comprende", "comprese", "compreso"],
-      "esempio": "Solo allora comprese l'inganno.",
+      "forme": [
+        "comprendere",
+        "comprende",
+        "comprese",
+        "compreso"
+      ],
+      "formeEsempi": [
+        "comprendo"
+      ],
+      "esempi": [
+        "Non comprendo il motivo della tua rabbia.",
+        "Solo da adulto ho compreso i consigli di mio padre.",
+        "È difficile comprendere questo testo."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Qui: capire. La stessa parola significa anche «contenere».",
         "en": "to understand (the same verb also means «to include»)",
         "es": "comprender, entender (el mismo verbo significa también «incluir»)",
+        "pt": "compreender, entender (o mesmo verbo também quer dizer «incluir»)",
         "fr": "comprendre (le même verbe signifie aussi « inclure »)",
         "cs": "pochopit (totéž sloveso znamená i „zahrnovat“)",
         "pl": "zrozumieć (ten sam czasownik znaczy też „obejmować”)",
@@ -1062,13 +1567,23 @@
     },
     {
       "parola": "abituato",
-      "forme": ["abituato", "abituata"],
-      "esempio": "Un cane abituato a cercare cibo tra le botteghe.",
+      "forme": [
+        "abituato",
+        "abituata"
+      ],
+      "formeEsempi": [
+        "abituati"
+      ],
+      "esempi": [
+        "Sono abituato ad alzarmi presto.",
+        "Mia madre è abituata al freddo.",
+        "Non siamo abituati a tanto traffico."
+      ],
       "immagine": null,
       "traduzioni": {
-        "it": "Che fa una cosa da tanto tempo e per lui è normale.",
         "en": "used to, accustomed to",
         "es": "acostumbrado a",
+        "pt": "acostumado",
         "fr": "habitué à",
         "cs": "zvyklý na",
         "pl": "przyzwyczajony do",
