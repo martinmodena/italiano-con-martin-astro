@@ -207,3 +207,11 @@ Maruška porge al re una ciotola di sale nella sala del trono di legno, le sorel
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Czech fairy tale book, soft warm light from tall windows, no black outlines. The wooden throne room of an old Bohemian castle with carved beams and a large tiled stove. An old king with a white beard, a golden crown and a long red robe sits on a simple wooden throne and leans forward, surprised and moved. In front of him his youngest daughter, a young woman with a long blond braid in a plain long-sleeved peasant dress and a headscarf, holds out with both hands a small wooden bowl full of white salt. Behind her, her two older sisters in elegant long-sleeved embroidered gowns with jewels watch with raised eyebrows. Through the window a snowy winter landscape. Tender, gentle atmosphere. Clean composition, a single clear scene. No food other than the salt, no religious symbols, no crosses, no text, no words, no letters.
 ```
+
+## 25. `story-zuppa-sasso` — «La zuppa di sasso» (Sopa de pedra, Portogallo) — 2026-11-13
+
+Il viaggiatore mescola la pentola nella piazza imbiancata a calce; i paesani portano patate, cavolo, carote e olio. Niente carne né salsicce (nella ricetta vera di Almeirim c'è il chouriço), niente chiese. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Portuguese folk tale book, golden autumn evening light, no black outlines. The small cobbled square of a whitewashed Portuguese village in the Ribatejo, with blue-painted door frames, terracotta roofs and an old olive tree. In the centre, a cheerful lean traveller with a short beard, a wide-brimmed hat, a long brown coat and a walking stick leaning nearby stirs a big black iron pot over a small wood fire with a long wooden spoon. Around him curious villagers in simple modest long-sleeved clothes bring vegetables: a woman holds a basket of potatoes, a boy carries a green cabbage, a girl holds a bunch of carrots, an old man brings a small jug of olive oil. A few children peek from a doorway. Warm, friendly, humorous atmosphere. Clean composition, a single clear scene. No meat, no sausages, no religious symbols, no churches, no crosses, no text, no words, no letters.
+```

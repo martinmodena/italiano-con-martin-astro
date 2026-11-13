@@ -248,4 +248,5 @@ export const PAGES = [
   { it: 'favole/il-lago-di-yogurt.html', pt: 'pt/fabulas/o-lago-de-iogurte-nasreddin-hodja-em-italiano.html' },
   { it: 'favole/le-caprette-di-poznan.html', pt: 'pt/fabulas/as-cabritas-de-poznan-lenda-polonesa-em-italiano.html' },
   { it: 'favole/il-sale-vale-piu-dell-oro.html', pt: 'pt/fabulas/o-sal-vale-mais-que-o-ouro-conto-tcheco-em-italiano.html' },
+  { it: 'favole/la-zuppa-di-sasso.html', pt: 'pt/fabulas/sopa-de-pedra-em-italiano.html' },
 ];
