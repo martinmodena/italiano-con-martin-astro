@@ -1,0 +1,439 @@
+{
+  "id": "i-due-conigli",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il campo",
+      "forme": ["campo"],
+      "esempi": ["In questo campo coltivano il grano.", "Le mucche mangiano l'erba nel campo.", "Dietro casa c'è un grande campo di girasoli."],
+      "traduzioni": { "en": "field (here not “camp”)", "es": "campo", "pt": "campo", "fr": "champ", "cs": "pole", "pl": "pole", "tr": "tarla", "de": "Feld", "ja": "野原、畑" }
+    },
+    {
+      "parola": "la zampa",
+      "forme": ["zampe"],
+      "formeEsempi": ["zampa"],
+      "esempi": ["Il gatto si lecca la zampa.", "Il cane mi dà la zampa.", "Il ragno ha otto zampe."],
+      "traduzioni": { "en": "paw, leg (of an animal)", "es": "pata", "pt": "pata", "fr": "patte", "cs": "tlapka, noha (zvířete)", "pl": "łapa", "tr": "pati, ayak (hayvanın)", "de": "Pfote, Bein (eines Tieres)", "ja": "（動物の）足" }
+    },
+    {
+      "parola": "la coda",
+      "forme": ["coda"],
+      "esempi": ["Il cane muove la coda quando è contento.", "La volpe ha una coda lunga e rossa.", "Il gatto dorme con la coda intorno al corpo."],
+      "traduzioni": { "en": "tail (here not “queue”)", "es": "cola (de un animal)", "pt": "rabo (aqui não «fila»)", "fr": "queue (d’un animal)", "cs": "ocas (tady ne „fronta“)", "pl": "ogon (tu nie „kolejka”)", "tr": "kuyruk (hayvanın)", "de": "Schwanz (hier nicht „Warteschlange“)", "ja": "しっぽ（ここでは「行列」ではない）" }
+    },
+    {
+      "parola": "il cespuglio",
+      "forme": ["cespugli"],
+      "formeEsempi": ["cespuglio"],
+      "esempi": ["Il gatto si nasconde dietro un cespuglio.", "In giardino ci sono cespugli di rose.", "La palla è finita tra i cespugli."],
+      "traduzioni": { "en": "bush", "es": "arbusto", "pt": "arbusto, moita", "fr": "buisson", "cs": "keř", "pl": "krzak", "tr": "çalı", "de": "Busch", "ja": "茂み" }
+    },
+    {
+      "parola": "la tana",
+      "forme": ["tana"],
+      "esempi": ["La volpe dorme nella sua tana.", "Il coniglio scava una tana sotto terra.", "L'orso passa l'inverno nella tana."],
+      "traduzioni": { "en": "burrow, den", "es": "madriguera", "pt": "toca", "fr": "terrier", "cs": "nora", "pl": "nora", "tr": "yuva, in", "de": "Bau", "ja": "巣穴" }
+    },
+    {
+      "parola": "il levriero",
+      "forme": ["levrieri"],
+      "formeEsempi": ["levriero"],
+      "esempi": ["Il levriero è un cane molto veloce.", "I levrieri hanno le gambe lunghe e magre.", "Il mio vicino ha un levriero grigio."],
+      "traduzioni": { "en": "greyhound", "es": "galgo", "pt": "galgo", "fr": "lévrier", "cs": "chrt", "pl": "chart", "tr": "tazı", "de": "Windhund", "ja": "グレーハウンド（足の速い猟犬）" }
+    },
+    {
+      "parola": "il segugio",
+      "forme": ["segugi"],
+      "formeEsempi": ["segugio"],
+      "esempi": ["Il segugio segue le tracce con il naso.", "I segugi hanno le orecchie lunghe.", "Il segugio ha trovato il gatto perso nel bosco."],
+      "traduzioni": { "en": "hound (a hunting dog that follows the smell)", "es": "podenco", "pt": "sabujo, podengo", "fr": "chien courant", "cs": "honič", "pl": "ogar", "tr": "zağar (koku alan av köpeği)", "de": "Laufhund, Spürhund", "ja": "ハウンド犬（においで追う猟犬）" }
+    },
+    {
+      "parola": "magro",
+      "forme": ["magre"],
+      "formeEsempi": ["magro", "magra"],
+      "esempi": ["Mio fratello è alto e magro.", "Dopo la malattia è diventata molto magra.", "Il gatto randagio era magro e affamato."],
+      "traduzioni": { "en": "thin, slim", "es": "delgado, flaco", "pt": "magro", "fr": "maigre, mince", "cs": "hubený", "pl": "chudy", "tr": "zayıf, ince", "de": "dünn, mager", "ja": "やせた、細い" }
+    },
+    {
+      "parola": "il muso",
+      "forme": ["muso"],
+      "esempi": ["Il cane ha il muso sporco di terra.", "Il cavallo mette il muso fuori dalla stalla.", "Il gatto mi tocca la mano con il muso."],
+      "traduzioni": { "en": "snout, muzzle (of an animal)", "es": "hocico", "pt": "focinho", "fr": "museau", "cs": "čumák", "pl": "pysk", "tr": "burun (hayvanın)", "de": "Schnauze", "ja": "（動物の）鼻先" }
+    },
+    {
+      "parola": "l'orecchio",
+      "forme": ["orecchie"],
+      "formeEsempi": ["orecchio"],
+      "esempi": ["Il coniglio ha le orecchie lunghe.", "Mi fa male l'orecchio destro.", "Il cane alza le orecchie quando sente un rumore."],
+      "traduzioni": { "en": "ear (plural: le orecchie)", "es": "oreja (plural: le orecchie)", "pt": "orelha (plural: le orecchie)", "fr": "oreille (pluriel : le orecchie)", "cs": "ucho (množné číslo: le orecchie)", "pl": "ucho (l. mn.: le orecchie)", "tr": "kulak (çoğulu: le orecchie)", "de": "Ohr (Plural: le orecchie)", "ja": "耳（複数形は le orecchie）" }
+    },
+    {
+      "parola": "discutere",
+      "forme": ["discutono", "discutere"],
+      "formeEsempi": ["discutiamo"],
+      "esempi": ["I miei genitori discutono sempre di politica.", "Non voglio discutere con te stasera.", "Discutiamo per ore, ma alla fine facciamo pace."],
+      "traduzioni": { "en": "to argue, to discuss", "es": "discutir", "pt": "discutir", "fr": "se disputer, discuter", "cs": "hádat se", "pl": "kłócić się", "tr": "tartışmak", "de": "streiten, diskutieren", "ja": "言い争う、議論する" }
+    },
+    {
+      "parola": "fermarsi",
+      "forme": ["fermano"],
+      "formeEsempi": ["ferma", "fermati", "fermo"],
+      "esempi": ["L'autobus si ferma davanti alla scuola.", "Fermati! Il semaforo è rosso.", "Mi fermo un momento a bere un caffè."],
+      "traduzioni": { "en": "to stop", "es": "pararse, detenerse", "pt": "parar", "fr": "s’arrêter", "cs": "zastavit se", "pl": "zatrzymać się", "tr": "durmak", "de": "stehen bleiben, anhalten", "ja": "立ち止まる、止まる" }
+    },
+    {
+      "parola": "intanto",
+      "forme": ["intanto"],
+      "esempi": ["Io cucino; tu intanto apparecchia la tavola.", "Lui parlava, e intanto il treno partiva.", "Il film comincia alle nove: intanto mangiamo qualcosa."],
+      "traduzioni": { "en": "meanwhile", "es": "mientras tanto", "pt": "enquanto isso", "fr": "pendant ce temps", "cs": "mezitím", "pl": "tymczasem", "tr": "bu arada", "de": "inzwischen, währenddessen", "ja": "そのあいだに" }
+    },
+    {
+      "parola": "il pericolo",
+      "forme": ["pericolo"],
+      "formeEsempi": ["pericoli"],
+      "esempi": ["Attenzione: pericolo di ghiaccio sulla strada.", "Il gatto sente il pericolo e scappa.", "In montagna ci sono molti pericoli."],
+      "traduzioni": { "en": "danger", "es": "peligro", "pt": "perigo", "fr": "danger", "cs": "nebezpečí", "pl": "niebezpieczeństwo", "tr": "tehlike", "de": "Gefahr", "ja": "危険" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "l'erba",
+      "forme": ["erba"],
+      "esempi": ["I bambini giocano sull'erba del parco.", "Il prato ha l'erba verde e alta.", "Non camminare sull'erba bagnata!"],
+      "traduzioni": { "en": "grass", "es": "hierba", "pt": "grama, capim", "fr": "herbe", "cs": "tráva", "pl": "trawa", "tr": "ot, çimen", "de": "Gras", "ja": "草" }
+    },
+    {
+      "parola": "il bosco",
+      "forme": ["bosco"],
+      "esempi": ["La domenica facciamo una passeggiata nel bosco.", "Nel bosco ci sono molti funghi.", "La casa è vicino a un bosco di castagni."],
+      "traduzioni": { "en": "wood, woods", "es": "bosque", "pt": "bosque", "fr": "bois", "cs": "les", "pl": "las", "tr": "koru, orman", "de": "Wald", "ja": "森" }
+    },
+    {
+      "parola": "improvvisamente",
+      "forme": ["improvvisamente"],
+      "esempi": ["Improvvisamente è andata via la luce.", "Camminavo tranquillo e improvvisamente ha cominciato a piovere.", "Il bambino si è svegliato improvvisamente."],
+      "traduzioni": { "en": "suddenly", "es": "de repente", "pt": "de repente", "fr": "soudain, tout à coup", "cs": "najednou", "pl": "nagle", "tr": "birden", "de": "plötzlich", "ja": "突然" }
+    },
+    {
+      "parola": "il rumore",
+      "forme": ["rumore"],
+      "esempi": ["Che cos'è questo rumore?", "Di notte sento il rumore delle macchine.", "I bambini fanno troppo rumore."],
+      "traduzioni": { "en": "noise", "es": "ruido", "pt": "barulho", "fr": "bruit", "cs": "hluk, zvuk", "pl": "hałas", "tr": "ses, gürültü", "de": "Geräusch, Lärm", "ja": "物音、音" }
+    },
+    {
+      "parola": "scappare",
+      "forme": ["scappato", "scappo"],
+      "formeEsempi": ["scappa"],
+      "esempi": ["Il gatto scappa quando vede il cane.", "Il ladro è scappato dalla finestra.", "Il canarino è scappato dalla gabbia."],
+      "traduzioni": { "en": "to run away, to escape", "es": "huir, escaparse", "pt": "fugir", "fr": "s’enfuir, s’échapper", "cs": "utéct", "pl": "uciekać", "tr": "kaçmak", "de": "fliehen, weglaufen", "ja": "逃げる" }
+    },
+    {
+      "parola": "abbaiare",
+      "forme": ["abbaiavano"],
+      "formeEsempi": ["abbaia", "abbaiano"],
+      "esempi": ["Il cane abbaia quando suona il campanello.", "Di notte i cani del vicino abbaiano sempre.", "Perché abbaia? Non c'è nessuno!"],
+      "traduzioni": { "en": "to bark", "es": "ladrar", "pt": "latir", "fr": "aboyer", "cs": "štěkat", "pl": "szczekać", "tr": "havlamak", "de": "bellen", "ja": "ほえる" }
+    },
+    {
+      "parola": "curiosamente",
+      "forme": ["curiosamente"],
+      "esempi": ["Il bambino guarda curiosamente il nuovo vicino.", "Il gatto annusa curiosamente la scatola.", "Tutti ci guardavano curiosamente."],
+      "traduzioni": { "en": "curiously, with curiosity", "es": "con curiosidad", "pt": "com curiosidade", "fr": "avec curiosité", "cs": "zvědavě", "pl": "z ciekawością", "tr": "merakla", "de": "neugierig", "ja": "不思議そうに、興味深そうに" }
+    },
+    {
+      "parola": "faticosamente",
+      "forme": ["faticosamente"],
+      "esempi": ["Il nonno sale le scale faticosamente.", "Dopo la corsa respiro faticosamente.", "Il camion sale faticosamente la montagna."],
+      "traduzioni": { "en": "with effort, heavily", "es": "con dificultad", "pt": "com dificuldade", "fr": "péniblement", "cs": "ztěžka", "pl": "z trudem, ciężko", "tr": "güçlükle, zorlukla", "de": "mühsam, schwer", "ja": "苦しそうに、やっとのことで" }
+    },
+    {
+      "parola": "seguire",
+      "forme": ["seguono"],
+      "formeEsempi": ["segue", "seguimi"],
+      "esempi": ["Il cane segue il padrone ovunque.", "Seguimi, ti mostro la strada.", "La polizia segue la macchina rossa."],
+      "traduzioni": { "en": "to follow, to chase", "es": "seguir", "pt": "seguir", "fr": "suivre", "cs": "sledovat, pronásledovat", "pl": "gonić, śledzić", "tr": "takip etmek, peşinden gitmek", "de": "folgen, verfolgen", "ja": "追いかける、ついて行く" }
+    },
+    {
+      "parola": "attentamente",
+      "forme": ["attentamente"],
+      "esempi": ["Leggi attentamente le istruzioni.", "Il medico mi ascolta attentamente.", "Guarda attentamente questa foto."],
+      "traduzioni": { "en": "carefully", "es": "atentamente", "pt": "atentamente", "fr": "attentivement", "cs": "pozorně", "pl": "uważnie", "tr": "dikkatle", "de": "aufmerksam, genau", "ja": "じっと、注意深く" }
+    },
+    {
+      "parola": "sinceramente",
+      "forme": ["sinceramente"],
+      "esempi": ["Sinceramente, questo film non mi piace.", "Rispondimi sinceramente: sei stanco?", "Sinceramente non so cosa dire."],
+      "traduzioni": { "en": "honestly, frankly", "es": "sinceramente", "pt": "sinceramente", "fr": "franchement, sincèrement", "cs": "upřímně", "pl": "szczerze mówiąc", "tr": "açıkçası", "de": "ehrlich gesagt", "ja": "正直に言うと" }
+    },
+    {
+      "parola": "sbagliarsi",
+      "forme": ["sbagli"],
+      "formeEsempi": ["sbagliato", "sbaglio"],
+      "esempi": ["Scusa, mi sono sbagliato: la riunione è domani.", "Se non mi sbaglio, il negozio chiude alle otto.", "Ti sbagli: Marco non è francese."],
+      "traduzioni": { "en": "to be wrong, to make a mistake", "es": "equivocarse", "pt": "enganar-se, estar enganado", "fr": "se tromper", "cs": "mýlit se", "pl": "mylić się", "tr": "yanılmak", "de": "sich irren", "ja": "思いちがいをする、まちがえる" }
+    },
+    {
+      "parola": "animatamente",
+      "forme": ["animatamente"],
+      "esempi": ["I tifosi discutono animatamente della partita.", "Le due sorelle parlavano animatamente in cucina.", "Hanno discusso animatamente per tutta la cena."],
+      "traduzioni": { "en": "heatedly, in a lively way", "es": "acaloradamente, animadamente", "pt": "acaloradamente", "fr": "avec animation, vivement", "cs": "vášnivě", "pl": "zawzięcie, z ożywieniem", "tr": "hararetle", "de": "hitzig, lebhaft", "ja": "熱くなって、活発に" }
+    },
+    {
+      "parola": "pazientemente",
+      "forme": ["pazientemente"],
+      "esempi": ["La maestra spiega pazientemente la lezione.", "Aspettiamo pazientemente il nostro turno.", "Il nonno risponde pazientemente a tutte le domande."],
+      "traduzioni": { "en": "patiently", "es": "pacientemente, con paciencia", "pt": "pacientemente", "fr": "patiemment", "cs": "trpělivě", "pl": "cierpliwie", "tr": "sabırla", "de": "geduldig", "ja": "辛抱強く" }
+    },
+    {
+      "parola": "la ragione",
+      "forme": ["ragioni"],
+      "esempi": ["Ognuno ha le sue ragioni.", "Ci sono molte ragioni per studiare l'italiano.", "Spiegami le tue ragioni: ti ascolto."],
+      "traduzioni": { "en": "reason (here not “being right”)", "es": "razón, motivo", "pt": "razão, motivo", "fr": "raison", "cs": "důvod", "pl": "racja, powód", "tr": "gerekçe, sebep", "de": "Grund", "ja": "理由" }
+    },
+    {
+      "parola": "avvicinarsi",
+      "forme": ["avvicinavano"],
+      "formeEsempi": ["avvicina", "avvicinarti", "avvicinano"],
+      "esempi": ["Il treno si avvicina alla stazione.", "Non avvicinarti al fuoco!", "Si avvicinano le vacanze di Natale."],
+      "traduzioni": { "en": "to come closer, to approach", "es": "acercarse", "pt": "aproximar-se, chegar perto", "fr": "s’approcher", "cs": "blížit se", "pl": "zbliżać się", "tr": "yaklaşmak", "de": "sich nähern, näher kommen", "ja": "近づく" }
+    },
+    {
+      "parola": "silenziosamente",
+      "forme": ["silenziosamente"],
+      "esempi": ["Il gatto entra silenziosamente in cucina.", "Sono uscito silenziosamente per non svegliare i bambini.", "La neve cade silenziosamente."],
+      "traduzioni": { "en": "silently, quietly", "es": "silenciosamente, en silencio", "pt": "silenciosamente", "fr": "silencieusement", "cs": "tiše", "pl": "po cichu", "tr": "sessizce", "de": "leise", "ja": "静かに" }
+    },
+    {
+      "parola": "facilmente",
+      "forme": ["facilmente"],
+      "esempi": ["Questo esercizio si fa facilmente.", "Lui si arrabbia facilmente.", "Con la metro arrivi facilmente in centro."],
+      "traduzioni": { "en": "easily", "es": "fácilmente", "pt": "facilmente", "fr": "facilement", "cs": "snadno", "pl": "łatwo, bez trudu", "tr": "kolayca", "de": "leicht, mühelos", "ja": "たやすく、簡単に" }
+    },
+    {
+      "parola": "la questione",
+      "forme": ["questioni"],
+      "formeEsempi": ["questione"],
+      "esempi": ["È una questione importante: parliamone domani.", "Per me è solo una questione di tempo.", "Abbiamo risolto la questione dei soldi."],
+      "traduzioni": { "en": "matter, issue (not “question”)", "es": "cuestión, asunto", "pt": "questão, assunto", "fr": "question, affaire", "cs": "záležitost, věc", "pl": "sprawa, kwestia", "tr": "mesele", "de": "Frage, Angelegenheit", "ja": "問題、事柄" }
+    },
+    {
+      "parola": "il dettaglio",
+      "forme": ["dettagli"],
+      "formeEsempi": ["dettaglio"],
+      "esempi": ["Raccontami tutto, con tutti i dettagli!", "È un dettaglio, non è importante.", "Guarda i dettagli di questo quadro."],
+      "traduzioni": { "en": "detail", "es": "detalle", "pt": "detalhe", "fr": "détail", "cs": "podrobnost, detail", "pl": "szczegół", "tr": "ayrıntı", "de": "Detail, Einzelheit", "ja": "細かいこと、細部" }
+    },
+    {
+      "parola": "inutile",
+      "forme": ["inutili"],
+      "formeEsempi": ["inutile"],
+      "esempi": ["È inutile chiamarlo: non risponde mai.", "Ho comprato una cosa inutile.", "Butta via le cose inutili."],
+      "traduzioni": { "en": "useless, pointless", "es": "inútil", "pt": "inútil", "fr": "inutile", "cs": "zbytečný", "pl": "niepotrzebny, bezużyteczny", "tr": "gereksiz", "de": "unnütz, nutzlos", "ja": "役に立たない、むだな" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a field in Spain lives a rabbit. He has fast legs, a white tail and a home under a tree.",
+        "One morning the rabbit runs among the bushes. He runs hard, he almost flies. Behind him there are two big dogs.",
+        "Another rabbit comes out of his burrow and sees him.\n– Hey, friend! Why are you running like that?",
+        "– Can't you see? There are two greyhounds! – answers the first rabbit.",
+        "The second rabbit looks at the dogs and laughs.\n– Greyhounds? Oh no! They aren't greyhounds. They're hounds!",
+        "– Hounds? What are you talking about? Look at the legs: they're long and thin. They're greyhounds!\n– Look at the snout and the ears: they're hounds!",
+        "The two rabbits stop and argue. One says “greyhounds”, the other says “hounds”. Neither listens to the other. Meanwhile the dogs arrive… and catch both rabbits.",
+        "That's the moral of the fable: when there is danger, it's not the moment to argue about small things. First let's think about the important things."
+      ],
+      "a2": [
+        "It was a beautiful spring morning in Spain. A rabbit was calmly eating grass near a wood, when suddenly he heard a noise: dogs!",
+        "The rabbit quickly ran away through the bushes. Behind him ran two big hunting dogs, barking loudly.",
+        "Near a burrow he met an old friend, another rabbit, who looked at him curiously.\n– Where are you going in such a hurry?",
+        "– I'm running away! – answered the first one, breathing heavily. – Two greyhounds are chasing me!",
+        "His friend looked carefully at the dogs.\n– Greyhounds? Honestly, they don't look like greyhounds to me. They're hounds.\n– You're completely wrong! I saw them well: they're greyhounds!",
+        "And so the two rabbits started arguing heatedly: greyhounds or hounds? Each one patiently explained his reasons, but nobody wanted to change his mind. Meanwhile the dogs were silently getting closer.",
+        "In the end the dogs arrived and easily caught both rabbits, who were still there arguing.",
+        "Tomás de Iriarte published this fable in Spain in 1782. Its moral: whoever wastes time on small matters and forgets the important ones pays for it in the end. Even today in Spain, when someone argues about useless details, people say «¿galgos o podencos?»: “greyhounds or hounds?”."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un campo de España vive un conejo. Tiene las patas rápidas, la cola blanca y una casa debajo de un árbol.",
+        "Una mañana el conejo corre entre los arbustos. Corre mucho, casi vuela. Detrás de él hay dos perros grandes.",
+        "Otro conejo sale de su madriguera y lo ve.\n– ¡Eh, amigo! ¿Por qué corres así?",
+        "– ¿No lo ves? ¡Hay dos galgos! – responde el primer conejo.",
+        "El segundo conejo mira a los perros y se ríe.\n– ¿Galgos? ¡Qué va! No son galgos. ¡Son podencos!",
+        "– ¿Podencos? ¿Pero qué dices? Mira las patas: son largas y delgadas. ¡Son galgos!\n– Mira el hocico y las orejas: ¡son podencos!",
+        "Los dos conejos se paran y discuten. Uno dice «galgos», el otro dice «podencos». Ninguno escucha al otro. Mientras tanto, los perros llegan… y atrapan a los dos conejos.",
+        "Es la moraleja de la fábula: cuando hay un peligro, no es momento de discutir sobre cosas pequeñas. Primero pensemos en las cosas importantes."
+      ],
+      "a2": [
+        "Era una bonita mañana de primavera en España. Un conejo comía tranquilamente hierba cerca de un bosque, cuando de repente oyó un ruido: ¡perros!",
+        "El conejo huyó rápidamente entre los arbustos. Detrás de él corrían dos grandes perros de caza, que ladraban ruidosamente.",
+        "Cerca de una madriguera se encontró con un viejo amigo, otro conejo, que lo miró con curiosidad.\n– ¿Adónde vas con tanta prisa?",
+        "– ¡Huyo! – respondió el primero, que respiraba con dificultad. – ¡Me siguen dos galgos!",
+        "El amigo miró atentamente a los perros.\n– ¿Galgos? Sinceramente, no me parecen galgos. Son podencos.\n– ¡Te equivocas completamente! Los he visto bien: ¡son galgos!",
+        "Y así los dos conejos se pusieron a discutir acaloradamente: ¿galgos o podencos? Cada uno explicaba con paciencia sus razones, pero nadie quería cambiar de opinión. Mientras tanto, los perros se acercaban en silencio.",
+        "Al final llegaron los perros y atraparon fácilmente a los dos conejos, que seguían allí discutiendo.",
+        "Tomás de Iriarte publicó esta fábula en España en 1782. Su moraleja: quien pierde el tiempo con cuestiones pequeñas y olvida las importantes, al final lo paga. Todavía hoy en España, cuando alguien discute sobre detalles inútiles, se dice «¿galgos o podencos?»."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Num campo da Espanha mora um coelho. Ele tem patas rápidas, rabo branco e uma casa embaixo de uma árvore.",
+        "Uma manhã o coelho corre entre os arbustos. Corre muito, quase voa. Atrás dele há dois cachorros grandes.",
+        "Outro coelho sai da sua toca e o vê.\n– Ei, amigo! Por que você está correndo assim?",
+        "– Você não está vendo? São dois galgos! – responde o primeiro coelho.",
+        "O segundo coelho olha para os cachorros e ri.\n– Galgos? Que nada! Não são galgos. São sabujos!",
+        "– Sabujos? O que você está dizendo? Olhe as pernas: são compridas e magras. São galgos!\n– Olhe o focinho e as orelhas: são sabujos!",
+        "Os dois coelhos param e discutem. Um diz «galgos», o outro diz «sabujos». Nenhum escuta o outro. Enquanto isso, os cachorros chegam… e pegam os dois coelhos.",
+        "Essa é a moral da fábula: quando há perigo, não é hora de discutir coisas pequenas. Primeiro vamos pensar nas coisas importantes."
+      ],
+      "a2": [
+        "Era uma bela manhã de primavera na Espanha. Um coelho comia capim tranquilamente perto de um bosque, quando de repente ouviu um barulho: cachorros!",
+        "O coelho fugiu depressa entre os arbustos. Atrás dele corriam dois grandes cães de caça, que latiam alto.",
+        "Perto de uma toca encontrou um velho amigo, outro coelho, que olhou para ele com curiosidade.\n– Aonde você vai com tanta pressa?",
+        "– Estou fugindo! – respondeu o primeiro, ofegante. – Dois galgos estão me seguindo!",
+        "O amigo olhou atentamente para os cachorros.\n– Galgos? Sinceramente, não me parecem galgos. São sabujos.\n– Você está completamente enganado! Eu os vi bem: são galgos!",
+        "E assim os dois coelhos começaram a discutir acaloradamente: galgos ou sabujos? Cada um explicava pacientemente as suas razões, mas ninguém queria mudar de ideia. Enquanto isso, os cachorros se aproximavam em silêncio.",
+        "No fim os cachorros chegaram e pegaram facilmente os dois coelhos, que ainda estavam lá discutindo.",
+        "Tomás de Iriarte publicou esta fábula na Espanha em 1782. A moral: quem perde tempo com questões pequenas e esquece as importantes, no fim paga caro. Até hoje na Espanha, quando alguém discute detalhes inúteis, se diz «¿galgos o podencos?»: «galgos ou sabujos?»."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans un champ d’Espagne vit un lapin. Il a des pattes rapides, une queue blanche et une maison sous un arbre.",
+        "Un matin, le lapin court entre les buissons. Il court vite, il vole presque. Derrière lui, il y a deux grands chiens.",
+        "Un autre lapin sort de son terrier et le voit.\n– Hé, mon ami ! Pourquoi tu cours comme ça ?",
+        "– Tu ne vois pas ? Il y a deux lévriers ! – répond le premier lapin.",
+        "Le deuxième lapin regarde les chiens et rit.\n– Des lévriers ? Mais non ! Ce ne sont pas des lévriers. Ce sont des chiens courants !",
+        "– Des chiens courants ? Qu’est-ce que tu racontes ? Regarde les pattes : elles sont longues et maigres. Ce sont des lévriers !\n– Regarde le museau et les oreilles : ce sont des chiens courants !",
+        "Les deux lapins s’arrêtent et se disputent. L’un dit « lévriers », l’autre dit « chiens courants ». Personne n’écoute l’autre. Pendant ce temps, les chiens arrivent… et attrapent les deux lapins.",
+        "C’est la morale de la fable : quand il y a un danger, ce n’est pas le moment de discuter de petites choses. Pensons d’abord aux choses importantes."
+      ],
+      "a2": [
+        "C’était un beau matin de printemps en Espagne. Un lapin mangeait tranquillement de l’herbe près d’un bois, quand soudain il a entendu un bruit : des chiens !",
+        "Le lapin s’est enfui rapidement entre les buissons. Derrière lui couraient deux grands chiens de chasse, qui aboyaient bruyamment.",
+        "Près d’un terrier, il a rencontré un vieil ami, un autre lapin, qui l’a regardé avec curiosité.\n– Où vas-tu si vite ?",
+        "– Je m’enfuis ! – a répondu le premier, tout essoufflé. – Deux lévriers me poursuivent !",
+        "L’ami a regardé attentivement les chiens.\n– Des lévriers ? Franchement, ils ne me semblent pas être des lévriers. Ce sont des chiens courants.\n– Tu te trompes complètement ! Je les ai bien vus : ce sont des lévriers !",
+        "Et ainsi les deux lapins se sont mis à discuter avec animation : lévriers ou chiens courants ? Chacun expliquait patiemment ses raisons, mais personne ne voulait changer d’avis. Pendant ce temps, les chiens s’approchaient en silence.",
+        "À la fin, les chiens sont arrivés et ont attrapé facilement les deux lapins, qui étaient encore là à discuter.",
+        "Tomás de Iriarte a publié cette fable en Espagne en 1782. Sa morale : celui qui perd son temps avec les petites questions et oublie les importantes finit par le payer. Aujourd’hui encore en Espagne, quand quelqu’un discute de détails inutiles, on dit « ¿galgos o podencos? » : « lévriers ou chiens courants ? »."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Na jednom poli ve Španělsku žije králík. Má rychlé tlapky, bílý ocásek a domov pod stromem.",
+        "Jednoho rána králík běží mezi keři. Běží rychle, skoro letí. Za ním jsou dva velcí psi.",
+        "Jiný králík vyleze ze své nory a uvidí ho.\n– Hej, kamaráde! Proč tak běžíš?",
+        "– Copak to nevidíš? Jsou tu dva chrti! – odpoví první králík.",
+        "Druhý králík se podívá na psy a směje se.\n– Chrti? Ale kdepak! To nejsou chrti. To jsou honiči!",
+        "– Honiči? Co to povídáš? Podívej se na nohy: jsou dlouhé a hubené. Jsou to chrti!\n– Podívej se na čumák a uši: jsou to honiči!",
+        "Oba králíci se zastaví a hádají se. Jeden říká „chrti“, druhý říká „honiči“. Nikdo neposlouchá toho druhého. Mezitím psi doběhnou… a chytí oba králíky.",
+        "To je ponaučení z bajky: když hrozí nebezpečí, není čas hádat se o maličkosti. Nejdřív myslete na to důležité."
+      ],
+      "a2": [
+        "Bylo krásné jarní ráno ve Španělsku. Králík si v klidu žral trávu u lesa, když najednou uslyšel hluk: psi!",
+        "Králík rychle utekl mezi keře. Za ním běželi dva velcí lovečtí psi a hlasitě štěkali.",
+        "U jedné nory potkal starého kamaráda, jiného králíka, který se na něj zvědavě podíval.\n– Kam tak spěcháš?",
+        "– Utíkám! – odpověděl ten první a těžce oddechoval. – Pronásledují mě dva chrti!",
+        "Kamarád se na psy pozorně podíval.\n– Chrti? Upřímně, mně jako chrti nepřipadají. To jsou honiči.\n– Úplně se mýlíš! Dobře jsem je viděl: jsou to chrti!",
+        "A tak se oba králíci začali vášnivě hádat: chrti, nebo honiči? Každý trpělivě vysvětloval své důvody, ale nikdo nechtěl změnit názor. Mezitím se psi tiše blížili.",
+        "Nakonec psi doběhli a snadno chytili oba králíky, kteří se tam pořád hádali.",
+        "Tomás de Iriarte vydal tuto bajku ve Španělsku v roce 1782. Její ponaučení: kdo ztrácí čas maličkostmi a zapomíná na důležité věci, nakonec doplatí. Ve Španělsku se dodnes, když se někdo hádá o zbytečné podrobnosti, říká «¿galgos o podencos?»: „chrti, nebo honiči?“."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Na pewnym polu w Hiszpanii mieszka królik. Ma szybkie łapki, biały ogonek i dom pod drzewem.",
+        "Pewnego ranka królik biegnie między krzakami. Biegnie szybko, prawie leci. Za nim są dwa duże psy.",
+        "Inny królik wychodzi ze swojej nory i go widzi.\n– Hej, przyjacielu! Dlaczego tak biegniesz?",
+        "– Nie widzisz? To dwa charty! – odpowiada pierwszy królik.",
+        "Drugi królik patrzy na psy i się śmieje.\n– Charty? Gdzie tam! To nie są charty. To ogary!",
+        "– Ogary? Co ty mówisz? Popatrz na nogi: są długie i chude. To charty!\n– Popatrz na pysk i uszy: to ogary!",
+        "Dwa króliki zatrzymują się i kłócą. Jeden mówi „charty”, drugi mówi „ogary”. Żaden nie słucha drugiego. Tymczasem psy dobiegają… i łapią oba króliki.",
+        "To jest morał bajki: kiedy grozi niebezpieczeństwo, to nie czas na kłótnie o drobiazgi. Najpierw myślmy o tym, co ważne."
+      ],
+      "a2": [
+        "Był piękny wiosenny poranek w Hiszpanii. Królik spokojnie jadł trawę niedaleko lasu, kiedy nagle usłyszał hałas: psy!",
+        "Królik szybko uciekł w krzaki. Za nim biegły dwa duże psy myśliwskie, które głośno szczekały.",
+        "Przy jednej norze spotkał starego przyjaciela, innego królika, który przyjrzał mu się z ciekawością.\n– Dokąd tak pędzisz?",
+        "– Uciekam! – odpowiedział pierwszy, ciężko dysząc. – Gonią mnie dwa charty!",
+        "Przyjaciel uważnie przyjrzał się psom.\n– Charty? Szczerze mówiąc, nie wyglądają mi na charty. To ogary.\n– Całkowicie się mylisz! Dobrze je widziałem: to charty!",
+        "I tak dwa króliki zaczęły zawzięcie się kłócić: charty czy ogary? Każdy cierpliwie tłumaczył swoje racje, ale nikt nie chciał zmienić zdania. Tymczasem psy po cichu się zbliżały.",
+        "W końcu psy dobiegły i bez trudu złapały oba króliki, które wciąż się tam kłóciły.",
+        "Tomás de Iriarte opublikował tę bajkę w Hiszpanii w 1782 roku. Jej morał: kto traci czas na drobne sprawy i zapomina o ważnych, w końcu za to płaci. Do dziś w Hiszpanii, kiedy ktoś kłóci się o niepotrzebne szczegóły, mówi się «¿galgos o podencos?»: „charty czy ogary?”."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "İspanya'da bir tarlada bir tavşan yaşar. Hızlı patileri, beyaz bir kuyruğu ve bir ağacın altında bir evi vardır.",
+        "Bir sabah tavşan çalıların arasında koşar. Hızlı koşar, neredeyse uçar. Arkasında iki büyük köpek vardır.",
+        "Başka bir tavşan yuvasından çıkar ve onu görür.\n– Hey, dostum! Neden böyle koşuyorsun?",
+        "– Görmüyor musun? İki tazı var! – diye cevap verir birinci tavşan.",
+        "İkinci tavşan köpeklere bakar ve güler.\n– Tazı mı? Yok canım! Onlar tazı değil. Zağar onlar!",
+        "– Zağar mı? Ne diyorsun sen? Bacaklarına bak: uzun ve ince. Tazı onlar!\n– Burunlarına ve kulaklarına bak: zağar onlar!",
+        "İki tavşan durur ve tartışır. Biri «tazı» der, öbürü «zağar» der. Kimse ötekini dinlemez. Bu arada köpekler gelir… ve iki tavşanı da yakalar.",
+        "Masalın ana fikri şu: tehlike varken küçük şeyleri tartışmanın zamanı değildir. Önce önemli şeyleri düşünelim."
+      ],
+      "a2": [
+        "İspanya'da güzel bir bahar sabahıydı. Bir tavşan bir korunun yakınında sakin sakin ot yiyordu ki birden bir ses duydu: köpekler!",
+        "Tavşan hızla çalıların arasına kaçtı. Arkasından iki büyük av köpeği gürültüyle havlayarak koşuyordu.",
+        "Bir yuvanın yanında eski bir arkadaşına, başka bir tavşana rastladı. Arkadaşı ona merakla baktı.\n– Böyle koşa koşa nereye gidiyorsun?",
+        "– Kaçıyorum! – dedi birincisi, nefes nefese. – Peşimde iki tazı var!",
+        "Arkadaşı köpeklere dikkatle baktı.\n– Tazı mı? Açıkçası bana tazı gibi görünmüyorlar. Onlar zağar.\n– Tamamen yanılıyorsun! Onları iyi gördüm: tazı onlar!",
+        "Ve böylece iki tavşan hararetle tartışmaya başladı: tazı mı, zağar mı? Her biri sabırla kendi gerekçelerini anlatıyordu ama kimse fikrini değiştirmek istemiyordu. Bu arada köpekler sessizce yaklaşıyordu.",
+        "Sonunda köpekler geldi ve hâlâ orada tartışan iki tavşanı da kolayca yakaladı.",
+        "Tomás de Iriarte bu masalı 1782'de İspanya'da yayımladı. Ana fikri şu: küçük meselelerle vakit kaybedip önemli olanları unutan, sonunda bedelini öder. İspanya'da bugün hâlâ biri gereksiz ayrıntılar üzerine tartıştığında «¿galgos o podencos?», yani «tazı mı, zağar mı?» denir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Auf einem Feld in Spanien lebt ein Kaninchen. Es hat schnelle Pfoten, einen weißen Schwanz und ein Zuhause unter einem Baum.",
+        "Eines Morgens rennt das Kaninchen durch die Büsche. Es rennt schnell, es fliegt fast. Hinter ihm sind zwei große Hunde.",
+        "Ein anderes Kaninchen kommt aus seinem Bau und sieht es.\n– He, Freund! Warum rennst du so?",
+        "– Siehst du nicht? Da sind zwei Windhunde! – antwortet das erste Kaninchen.",
+        "Das zweite Kaninchen schaut die Hunde an und lacht.\n– Windhunde? Ach was! Das sind keine Windhunde. Das sind Laufhunde!",
+        "– Laufhunde? Was redest du da? Schau dir die Beine an: Sie sind lang und dünn. Das sind Windhunde!\n– Schau dir die Schnauze und die Ohren an: Das sind Laufhunde!",
+        "Die zwei Kaninchen bleiben stehen und streiten. Eins sagt „Windhunde“, das andere sagt „Laufhunde“. Keins hört dem anderen zu. Inzwischen kommen die Hunde … und fangen beide Kaninchen.",
+        "Das ist die Moral der Fabel: Wenn Gefahr droht, ist nicht der Moment, über Kleinigkeiten zu streiten. Zuerst denken wir an die wichtigen Dinge."
+      ],
+      "a2": [
+        "Es war ein schöner Frühlingsmorgen in Spanien. Ein Kaninchen fraß in aller Ruhe Gras in der Nähe eines Waldes, als es plötzlich ein Geräusch hörte: Hunde!",
+        "Das Kaninchen floh schnell durch die Büsche. Hinter ihm rannten zwei große Jagdhunde, die laut bellten.",
+        "Bei einem Bau traf es einen alten Freund, ein anderes Kaninchen, das es neugierig ansah.\n– Wohin rennst du denn so eilig?",
+        "– Ich fliehe! – antwortete das erste und atmete schwer. – Zwei Windhunde verfolgen mich!",
+        "Der Freund schaute sich die Hunde aufmerksam an.\n– Windhunde? Ehrlich gesagt sehen sie für mich nicht wie Windhunde aus. Das sind Laufhunde.\n– Da irrst du dich völlig! Ich habe sie gut gesehen: Das sind Windhunde!",
+        "Und so fingen die zwei Kaninchen an, hitzig zu streiten: Windhunde oder Laufhunde? Jedes erklärte geduldig seine Gründe, aber keins wollte seine Meinung ändern. Inzwischen kamen die Hunde leise näher.",
+        "Am Ende kamen die Hunde an und fingen mühelos beide Kaninchen, die immer noch dort stritten.",
+        "Tomás de Iriarte veröffentlichte diese Fabel 1782 in Spanien. Ihre Moral: Wer seine Zeit mit kleinen Fragen verliert und die wichtigen vergisst, zahlt am Ende dafür. Noch heute sagt man in Spanien, wenn jemand über unnütze Details streitet: «¿galgos o podencos?» – „Windhunde oder Laufhunde?“."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "スペインの野原に、ウサギが一匹住んでいます。足が速くて、しっぽは白く、木の下に家があります。",
+        "ある朝、ウサギは茂みの間を走っています。速く速く、まるで飛ぶように走ります。うしろには大きな犬が二匹います。",
+        "別のウサギが巣穴から出てきて、それを見ます。\n「おーい、きみ！　どうしてそんなに走っているの？」",
+        "「見えないの？　グレーハウンドが二匹いるんだ！」と最初のウサギが答えます。",
+        "二匹目のウサギは犬を見て笑います。\n「グレーハウンド？　ちがうよ！　あれはグレーハウンドじゃない。ハウンド犬だよ！」",
+        "「ハウンド犬？　何を言ってるの？　足を見て。長くて細い。グレーハウンドだよ！」\n「鼻先と耳を見て。ハウンド犬だよ！」",
+        "二匹のウサギは立ち止まって言い争います。一匹は「グレーハウンド」、もう一匹は「ハウンド犬」と言います。どちらも相手の話を聞きません。そのあいだに犬たちがやって来て……二匹ともつかまえてしまいます。",
+        "これがこのお話の教訓です。危険があるときは、小さなことで言い争っている場合ではありません。まず大事なことを考えましょう。"
+      ],
+      "a2": [
+        "スペインの気持ちのいい春の朝でした。一匹のウサギが森の近くでのんびり草を食べていると、突然、物音が聞こえました。犬です！",
+        "ウサギは急いで茂みの中へ逃げました。うしろからは大きな猟犬が二匹、うるさくほえながら走ってきました。",
+        "巣穴の近くで、ウサギは古い友だちのウサギに会いました。友だちは不思議そうにウサギを見ました。\n「そんなに急いでどこへ行くの？」",
+        "「逃げているんだよ！」と最初のウサギは息を切らして答えました。「グレーハウンドが二匹、追いかけてくるんだ！」",
+        "友だちは犬をじっと見ました。\n「グレーハウンド？　正直に言うと、グレーハウンドには見えないな。あれはハウンド犬だよ。」\n「まったくの思いちがいだよ！　ちゃんと見たんだ。グレーハウンドだよ！」",
+        "こうして二匹のウサギは熱くなって言い争いを始めました。グレーハウンドか、ハウンド犬か？　どちらも辛抱強く自分の理由を説明しましたが、考えを変えようとはしません。そのあいだに、犬たちは静かに近づいていました。",
+        "とうとう犬たちがやって来て、まだそこで言い争っていた二匹のウサギを、あっさりつかまえてしまいました。",
+        "トマス・デ・イリアルテは1782年にスペインでこの寓話を発表しました。教訓は、小さな問題に時間をむだにして大事なことを忘れる者は、最後に痛い目にあう、ということです。今でもスペインでは、だれかがどうでもいい細かいことで言い争っていると «¿galgos o podencos?»（「グレーハウンドかハウンド犬か？」）と言います。"
+      ]
+    }
+  }
+}
