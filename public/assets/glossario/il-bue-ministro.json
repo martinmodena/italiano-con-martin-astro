@@ -1,0 +1,486 @@
+{
+  "id": "il-bue-ministro",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il leone",
+      "forme": ["leone"],
+      "esempi": ["Il leone è il re della savana.", "Allo zoo abbiamo visto un leone.", "Il leone dorme quasi tutto il giorno."],
+      "traduzioni": { "en": "lion", "es": "león", "pt": "leão", "fr": "lion", "cs": "lev", "pl": "lew", "tr": "aslan", "de": "Löwe", "ja": "ライオン" }
+    },
+    {
+      "parola": "il ministro",
+      "forme": ["ministro"],
+      "formeEsempi": ["ministra"],
+      "esempi": ["Il ministro parla alla televisione.", "La ministra della salute visita l'ospedale.", "Il nuovo ministro è molto giovane."],
+      "traduzioni": { "en": "minister", "es": "ministro", "pt": "ministro", "fr": "ministre", "cs": "ministr", "pl": "minister", "tr": "bakan, vezir", "de": "Minister", "ja": "大臣" }
+    },
+    {
+      "parola": "il bue",
+      "forme": ["bue"],
+      "formeEsempi": ["buoi"],
+      "esempi": ["Il bue tira il carro.", "Una volta i contadini lavoravano con i buoi.", "Il bue è forte e paziente."],
+      "traduzioni": { "en": "ox (plural: i buoi)", "es": "buey", "pt": "boi", "fr": "bœuf", "cs": "vůl", "pl": "wół", "tr": "öküz", "de": "Ochse", "ja": "牛（去勢牛）" }
+    },
+    {
+      "parola": "lento",
+      "forme": ["lento"],
+      "esempi": ["Questo treno è molto lento.", "La lumaca è un animale lento.", "Il mio computer è vecchio e lento."],
+      "traduzioni": { "en": "slow", "es": "lento", "pt": "lento", "fr": "lent", "cs": "pomalý", "pl": "powolny", "tr": "yavaş", "de": "langsam", "ja": "のろい、ゆっくりした" }
+    },
+    {
+      "parola": "il regno",
+      "forme": ["regno"],
+      "esempi": ["Il regno di Napoli era molto grande.", "Il re vuole difendere il suo regno.", "Dopo la morte del re, il regno è passato al figlio."],
+      "traduzioni": { "en": "kingdom", "es": "reino", "pt": "reino", "fr": "royaume", "cs": "království", "pl": "królestwo", "tr": "krallık", "de": "Königreich", "ja": "王国" }
+    },
+    {
+      "parola": "l'ordine",
+      "forme": ["ordine"],
+      "esempi": ["In camera mia c'è sempre ordine.", "Metti in ordine i tuoi giochi!", "Leggi i nomi in ordine alfabetico."],
+      "traduzioni": { "en": "order («mettere in ordine» = to tidy up)", "es": "orden", "pt": "ordem", "fr": "ordre", "cs": "pořádek", "pl": "porządek", "tr": "düzen", "de": "Ordnung", "ja": "秩序、整頓" }
+    },
+    {
+      "parola": "annoiarsi",
+      "forme": ["annoiava"],
+      "formeEsempi": ["annoio", "annoiano", "annoiato"],
+      "esempi": ["Mi annoio quando piove.", "I bambini si annoiano in macchina.", "Ti sei annoiato alla festa?"],
+      "traduzioni": { "en": "to get bored", "es": "aburrirse", "pt": "entediar-se", "fr": "s’ennuyer", "cs": "nudit se", "pl": "nudzić się", "tr": "sıkılmak", "de": "sich langweilen", "ja": "退屈する" }
+    },
+    {
+      "parola": "le carte",
+      "forme": ["carte"],
+      "esempi": ["Sulla scrivania ci sono tante carte.", "Il direttore firma le carte in ufficio.", "Ho perso le carte del contratto."],
+      "traduzioni": { "en": "papers, documents (here not “playing cards”)", "es": "papeles, documentos", "pt": "papéis, documentos", "fr": "papiers, documents", "cs": "papíry, listiny", "pl": "papiery, dokumenty", "tr": "kâğıtlar, belgeler", "de": "Papiere, Akten", "ja": "書類" }
+    },
+    {
+      "parola": "divertente",
+      "forme": ["divertente"],
+      "esempi": ["È un film molto divertente.", "Mio zio è una persona divertente.", "Questo gioco è divertente!"],
+      "traduzioni": { "en": "fun, funny", "es": "divertido", "pt": "divertido", "fr": "amusant", "cs": "zábavný", "pl": "zabawny", "tr": "eğlenceli", "de": "lustig, unterhaltsam", "ja": "おもしろい、楽しい" }
+    },
+    {
+      "parola": "mandare via",
+      "forme": ["mandato"],
+      "formeEsempi": ["manda"],
+      "esempi": ["Il capo ha mandato via due impiegati.", "Manda via quel cane dal giardino!", "Lo hanno mandato via dalla squadra."],
+      "traduzioni": { "en": "to send away, to dismiss", "es": "echar, despedir", "pt": "mandar embora", "fr": "renvoyer", "cs": "propustit, vyhodit", "pl": "odprawić, wyrzucić", "tr": "göndermek, kovmak", "de": "wegschicken, entlassen", "ja": "追い出す、やめさせる" }
+    },
+    {
+      "parola": "scegliere",
+      "forme": ["scelto"],
+      "formeEsempi": ["scelgo", "scegli"],
+      "esempi": ["Scelgo la pizza margherita.", "Hai scelto il regalo per la mamma?", "Scegli tu il film!"],
+      "traduzioni": { "en": "to choose", "es": "elegir", "pt": "escolher", "fr": "choisir", "cs": "vybrat", "pl": "wybrać", "tr": "seçmek", "de": "wählen, aussuchen", "ja": "選ぶ" }
+    },
+    {
+      "parola": "la scimmia",
+      "forme": ["scimmia"],
+      "formeEsempi": ["scimmie"],
+      "esempi": ["Allo zoo le scimmie saltano sugli alberi.", "La scimmia mangia una banana.", "Le scimmie vivono in gruppo."],
+      "traduzioni": { "en": "monkey", "es": "mona, mono", "pt": "macaca, macaco", "fr": "guenon, singe", "cs": "opice", "pl": "małpa", "tr": "maymun", "de": "Affe, Äffin", "ja": "サル" }
+    },
+    {
+      "parola": "lo scherzo",
+      "forme": ["scherzi"],
+      "formeEsempi": ["scherzo"],
+      "esempi": ["Non arrabbiarti, era solo uno scherzo!", "Mio fratello mi fa sempre scherzi.", "Non mi piacciono gli scherzi stupidi."],
+      "traduzioni": { "en": "joke, prank", "es": "broma", "pt": "brincadeira", "fr": "farce, plaisanterie", "cs": "žert, legrácka", "pl": "żart, psikus", "tr": "şaka", "de": "Spaß, Streich", "ja": "冗談、いたずら" }
+    },
+    {
+      "parola": "intelligente",
+      "forme": ["intelligente"],
+      "esempi": ["Il delfino è un animale intelligente.", "È una ragazza molto intelligente.", "Hai fatto una domanda intelligente."],
+      "traduzioni": { "en": "intelligent, clever", "es": "inteligente", "pt": "inteligente", "fr": "intelligent", "cs": "chytrý, inteligentní", "pl": "inteligentny", "tr": "zeki", "de": "intelligent", "ja": "かしこい" }
+    },
+    {
+      "parola": "rubare",
+      "forme": ["rubava"],
+      "formeEsempi": ["rubato", "ruba"],
+      "esempi": ["Mi hanno rubato la bicicletta!", "Il ladro ruba il portafoglio al turista.", "Chi ha rubato la mia penna?"],
+      "traduzioni": { "en": "to steal", "es": "robar", "pt": "roubar", "fr": "voler", "cs": "krást", "pl": "kraść", "tr": "çalmak", "de": "stehlen", "ja": "盗む" }
+    },
+    {
+      "parola": "la bugia",
+      "forme": ["bugie"],
+      "formeEsempi": ["bugia"],
+      "esempi": ["Non dire bugie!", "Ha detto una bugia alla maestra.", "Le bugie hanno le gambe corte."],
+      "traduzioni": { "en": "lie («dire bugie» = to tell lies)", "es": "mentira", "pt": "mentira", "fr": "mensonge", "cs": "lež", "pl": "kłamstwo", "tr": "yalan", "de": "Lüge", "ja": "うそ" }
+    },
+    {
+      "parola": "il popolo",
+      "forme": ["popolo"],
+      "esempi": ["Il re parla al popolo.", "Il popolo italiano ama il calcio.", "Il popolo vuole la pace."],
+      "traduzioni": { "en": "the people, the nation", "es": "pueblo", "pt": "povo", "fr": "peuple", "cs": "lid", "pl": "lud, naród", "tr": "halk", "de": "Volk", "ja": "民、国民" }
+    },
+    {
+      "parola": "la rovina",
+      "forme": ["rovina"],
+      "formeEsempi": ["rovine"],
+      "esempi": ["Il vecchio castello è in rovina.", "Il gioco ha mandato in rovina la sua famiglia.", "Visitiamo le rovine di Pompei."],
+      "traduzioni": { "en": "ruin («in rovina» = ruined)", "es": "ruina", "pt": "ruína", "fr": "ruine", "cs": "zkáza («in rovina» = na mizině)", "pl": "ruina", "tr": "yıkım, harabe", "de": "Ruin, Ruine", "ja": "荒廃、破滅" }
+    },
+    {
+      "parola": "riparare",
+      "forme": ["riparato"],
+      "formeEsempi": ["ripara"],
+      "esempi": ["Mio padre ripara la bicicletta.", "Il meccanico ha riparato la macchina.", "Chi ripara il tetto?"],
+      "traduzioni": { "en": "to repair", "es": "arreglar, reparar", "pt": "consertar", "fr": "réparer", "cs": "opravit", "pl": "naprawić", "tr": "onarmak", "de": "reparieren", "ja": "直す、修理する" }
+    },
+    {
+      "parola": "sistemare",
+      "forme": ["sistemato"],
+      "formeEsempi": ["sistemo"],
+      "esempi": ["Domani sistemo la cantina.", "Ho sistemato i libri sullo scaffale.", "Non preoccuparti, sistemo tutto io."],
+      "traduzioni": { "en": "to sort out, to fix, to tidy up", "es": "arreglar, ordenar", "pt": "ajeitar, arrumar", "fr": "arranger, ranger", "cs": "urovnat, uklidit", "pl": "uporządkować, załatwić", "tr": "yoluna koymak, düzeltmek", "de": "regeln, in Ordnung bringen", "ja": "整える、立て直す" }
+    },
+    {
+      "parola": "lamentarsi",
+      "forme": ["lamentato"],
+      "formeEsempi": ["lamenta", "lamentarti", "lamentati"],
+      "esempi": ["Mio nonno si lamenta sempre del tempo.", "Non lamentarti: va tutto bene!", "I clienti si sono lamentati del servizio."],
+      "traduzioni": { "en": "to complain", "es": "quejarse", "pt": "reclamar", "fr": "se plaindre", "cs": "stěžovat si", "pl": "narzekać", "tr": "şikâyet etmek", "de": "sich beschweren", "ja": "文句を言う" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "tuttavia",
+      "forme": ["tuttavia"],
+      "esempi": ["Era stanco; tuttavia ha continuato a lavorare.", "Il film è lungo, tuttavia è interessante.", "Piove; tuttavia usciamo lo stesso."],
+      "traduzioni": { "en": "however, nevertheless", "es": "sin embargo", "pt": "no entanto", "fr": "pourtant, cependant", "cs": "však, přesto", "pl": "jednak", "tr": "yine de, ancak", "de": "trotzdem, jedoch", "ja": "けれども、しかし" }
+    },
+    {
+      "parola": "il potere",
+      "forme": ["potere"],
+      "esempi": ["Il re aveva molto potere.", "Il potere cambia le persone.", "Quel partito è al potere da dieci anni."],
+      "traduzioni": { "en": "power (here a noun, not “can”)", "es": "poder", "pt": "poder", "fr": "pouvoir", "cs": "moc", "pl": "władza", "tr": "iktidar, güç", "de": "Macht", "ja": "権力" }
+    },
+    {
+      "parola": "dimostrare",
+      "forme": ["dimostra"],
+      "formeEsempi": ["dimostrato"],
+      "esempi": ["Questa foto dimostra che ero lì.", "Lo studio dimostra che dormire è importante.", "Mi ha dimostrato la sua amicizia."],
+      "traduzioni": { "en": "to show, to prove", "es": "demostrar", "pt": "demonstrar, provar", "fr": "montrer, prouver", "cs": "dokázat, ukázat", "pl": "pokazać, udowodnić", "tr": "göstermek, kanıtlamak", "de": "zeigen, beweisen", "ja": "示す、証明する" }
+    },
+    {
+      "parola": "siccome",
+      "forme": ["siccome"],
+      "esempi": ["Siccome piove, restiamo a casa.", "Siccome ero stanco, sono andato a letto.", "Siccome non c'era pane, ho comprato i biscotti."],
+      "traduzioni": { "en": "since, as (at the start of a sentence)", "es": "como (al inicio de la frase)", "pt": "como (no início da frase)", "fr": "comme (en début de phrase)", "cs": "protože, jelikož", "pl": "ponieważ", "tr": "-diği için", "de": "da", "ja": "〜なので" }
+    },
+    {
+      "parola": "paziente",
+      "forme": ["paziente"],
+      "esempi": ["La maestra è molto paziente con i bambini.", "Sii paziente: l'autobus arriva.", "Il pescatore è un uomo paziente."],
+      "traduzioni": { "en": "patient", "es": "paciente", "pt": "paciente", "fr": "patient", "cs": "trpělivý", "pl": "cierpliwy", "tr": "sabırlı", "de": "geduldig", "ja": "辛抱強い" }
+    },
+    {
+      "parola": "i conti",
+      "forme": ["conti"],
+      "esempi": ["Ogni mese faccio i conti delle spese.", "I conti non tornano: manca qualcosa.", "Il commercialista controlla i conti dell'azienda."],
+      "traduzioni": { "en": "accounts, the books («i conti tornano» = the figures add up)", "es": "cuentas", "pt": "contas", "fr": "comptes", "cs": "účty", "pl": "rachunki", "tr": "hesaplar", "de": "Rechnungen, Bücher", "ja": "帳簿、計算" }
+    },
+    {
+      "parola": "inoltre",
+      "forme": ["inoltre"],
+      "esempi": ["Il lavoro è vicino a casa; inoltre lo stipendio è buono.", "La casa è grande e, inoltre, ha un giardino.", "Studia italiano e inoltre impara il francese."],
+      "traduzioni": { "en": "moreover, besides", "es": "además", "pt": "além disso", "fr": "en plus, de plus", "cs": "navíc", "pl": "ponadto, w dodatku", "tr": "üstelik, ayrıca", "de": "außerdem", "ja": "そのうえ" }
+    },
+    {
+      "parola": "perciò",
+      "forme": ["perciò"],
+      "esempi": ["Era tardi, perciò ho preso un taxi.", "Ho fame, perciò mangio qualcosa.", "Non ha studiato, perciò non ha passato l'esame."],
+      "traduzioni": { "en": "so, therefore", "es": "por eso", "pt": "por isso", "fr": "c’est pourquoi, donc", "cs": "proto", "pl": "dlatego", "tr": "bu yüzden", "de": "deshalb", "ja": "だから" }
+    },
+    {
+      "parola": "licenziare",
+      "forme": ["licenziato"],
+      "formeEsempi": ["licenziano"],
+      "esempi": ["L'azienda ha licenziato venti persone.", "Se arrivi sempre tardi, ti licenziano.", "Il capo ha licenziato il cuoco."],
+      "traduzioni": { "en": "to fire, to dismiss", "es": "despedir", "pt": "demitir", "fr": "licencier, renvoyer", "cs": "propustit", "pl": "zwolnić", "tr": "işten çıkarmak, görevden almak", "de": "entlassen", "ja": "解雇する、解任する" }
+    },
+    {
+      "parola": "nominare",
+      "forme": ["nominato"],
+      "formeEsempi": ["nomina", "nominata"],
+      "esempi": ["Il presidente nomina i ministri.", "L'hanno nominato direttore della scuola.", "È stata nominata capitana della squadra."],
+      "traduzioni": { "en": "to appoint", "es": "nombrar", "pt": "nomear", "fr": "nommer", "cs": "jmenovat", "pl": "mianować", "tr": "atamak", "de": "ernennen", "ja": "任命する" }
+    },
+    {
+      "parola": "la corte",
+      "forme": ["corte"],
+      "esempi": ["La regina vive a corte.", "A corte tutti obbedivano al re.", "Il poeta lavorava alla corte di Ferrara."],
+      "traduzioni": { "en": "court (of a king)", "es": "corte", "pt": "corte", "fr": "cour", "cs": "dvůr", "pl": "dwór", "tr": "saray", "de": "Hof", "ja": "宮廷" }
+    },
+    {
+      "parola": "a causa di",
+      "forme": ["causa"],
+      "esempi": ["A causa della neve, le scuole sono chiuse.", "Il treno è in ritardo a causa di un guasto.", "A causa del rumore non ho dormito."],
+      "traduzioni": { "en": "because of", "es": "a causa de, por culpa de", "pt": "por causa de", "fr": "à cause de", "cs": "kvůli", "pl": "z powodu, przez", "tr": "yüzünden", "de": "wegen", "ja": "〜のせいで" }
+    },
+    {
+      "parola": "la protesta",
+      "forme": ["proteste"],
+      "formeEsempi": ["protesta"],
+      "esempi": ["In piazza c'è una protesta contro le tasse.", "Le proteste dei cittadini sono state ascoltate.", "Ha lasciato la sala in segno di protesta."],
+      "traduzioni": { "en": "protest", "es": "protesta", "pt": "protesto", "fr": "protestation", "cs": "protest", "pl": "protest", "tr": "protesto", "de": "Protest", "ja": "抗議" }
+    },
+    {
+      "parola": "aumentare",
+      "forme": ["aumentate"],
+      "formeEsempi": ["aumentati", "aumenta"],
+      "esempi": ["I prezzi sono aumentati molto.", "La temperatura aumenta a mezzogiorno.", "Quest'anno le iscrizioni sono aumentate."],
+      "traduzioni": { "en": "to increase", "es": "aumentar", "pt": "aumentar", "fr": "augmenter", "cs": "přibývat, zvyšovat se", "pl": "rosnąć, wzrastać", "tr": "artmak", "de": "zunehmen, steigen", "ja": "増える" }
+    },
+    {
+      "parola": "cacciare",
+      "forme": ["cacciato"],
+      "formeEsempi": ["caccia"],
+      "esempi": ["Il proprietario ha cacciato i clienti maleducati.", "L'hanno cacciato dalla squadra.", "Caccia via le mosche dalla cucina!"],
+      "traduzioni": { "en": "to throw out, to drive away (here not “to hunt”)", "es": "echar, expulsar", "pt": "expulsar", "fr": "chasser, mettre dehors", "cs": "vyhnat", "pl": "wypędzić", "tr": "kovmak", "de": "verjagen, rauswerfen", "ja": "追い出す" }
+    },
+    {
+      "parola": "infatti",
+      "forme": ["infatti"],
+      "esempi": ["Pensavo che sarebbe piovuto, e infatti piove.", "È molto bravo: infatti ha vinto il premio.", "Era stanca; infatti è andata a letto presto."],
+      "traduzioni": { "en": "indeed, in fact (it confirms what was said)", "es": "de hecho, en efecto", "pt": "de fato, realmente", "fr": "en effet", "cs": "skutečně, opravdu", "pl": "rzeczywiście, istotnie", "tr": "gerçekten de, nitekim", "de": "tatsächlich", "ja": "実際、たしかに" }
+    },
+    {
+      "parola": "il suddito",
+      "forme": ["sudditi"],
+      "esempi": ["Il re parla ai suoi sudditi.", "I sudditi pagavano le tasse al sovrano.", "La regina era amata dai sudditi."],
+      "traduzioni": { "en": "subject (of a king)", "es": "súbdito", "pt": "súdito", "fr": "sujet (d’un roi)", "cs": "poddaný", "pl": "poddany", "tr": "tebaa, uyruk", "de": "Untertan", "ja": "家来、臣民" }
+    },
+    {
+      "parola": "quindi",
+      "forme": ["quindi"],
+      "esempi": ["Sono malato, quindi resto a casa.", "Ho finito i compiti, quindi posso uscire.", "Il negozio è chiuso, quindi torniamo domani."],
+      "traduzioni": { "en": "so, therefore", "es": "así que, por lo tanto", "pt": "portanto, então", "fr": "donc", "cs": "takže, a tak", "pl": "więc", "tr": "bu yüzden, dolayısıyla", "de": "also, deshalb", "ja": "だから、それで" }
+    },
+    {
+      "parola": "nonostante",
+      "forme": ["nonostante"],
+      "esempi": ["Nonostante la pioggia, siamo andati al mare.", "Nonostante la stanchezza, ha finito il lavoro.", "È uscito nonostante il freddo."],
+      "traduzioni": { "en": "despite, in spite of", "es": "a pesar de", "pt": "apesar de", "fr": "malgré", "cs": "navzdory, i přes", "pl": "mimo", "tr": "-e rağmen", "de": "trotz", "ja": "〜にもかかわらず" }
+    },
+    {
+      "parola": "l'orgoglio",
+      "forme": ["orgoglio"],
+      "esempi": ["L'orgoglio non gli permette di chiedere aiuto.", "Parla del figlio con orgoglio.", "Per orgoglio non ha chiesto scusa."],
+      "traduzioni": { "en": "pride", "es": "orgullo", "pt": "orgulho", "fr": "orgueil, fierté", "cs": "pýcha, hrdost", "pl": "duma", "tr": "gurur", "de": "Stolz", "ja": "プライド、誇り" }
+    },
+    {
+      "parola": "ammettere",
+      "forme": ["ammesso"],
+      "formeEsempi": ["ammetto", "ammettere"],
+      "esempi": ["Ammetto di aver sbagliato.", "Alla fine ha ammesso la verità.", "Non vuole ammettere che ha paura."],
+      "traduzioni": { "en": "to admit", "es": "admitir", "pt": "admitir", "fr": "admettre, reconnaître", "cs": "přiznat", "pl": "przyznać", "tr": "kabul etmek", "de": "zugeben", "ja": "認める" }
+    },
+    {
+      "parola": "governare",
+      "forme": ["governa"],
+      "formeEsempi": ["governare", "governava"],
+      "esempi": ["Chi governa il Paese?", "Il re governava con giustizia.", "Non è facile governare una grande città."],
+      "traduzioni": { "en": "to govern, to rule", "es": "gobernar", "pt": "governar", "fr": "gouverner", "cs": "vládnout", "pl": "rządzić", "tr": "yönetmek", "de": "regieren", "ja": "治める" }
+    },
+    {
+      "parola": "noioso",
+      "forme": ["noioso"],
+      "formeEsempi": ["noiosa"],
+      "esempi": ["Questo libro è noioso.", "La lezione di oggi è stata noiosa.", "Non è noioso, è solo timido."],
+      "traduzioni": { "en": "boring", "es": "aburrido", "pt": "chato, entediante", "fr": "ennuyeux", "cs": "nudný", "pl": "nudny", "tr": "sıkıcı", "de": "langweilig", "ja": "退屈な" }
+    },
+    {
+      "parola": "insomma",
+      "forme": ["insomma"],
+      "esempi": ["Insomma, hai capito o no?", "Ho studiato, lavorato e cucinato: insomma, una giornata piena.", "Il viaggio è stato lungo, caro e faticoso: insomma, un disastro."],
+      "traduzioni": { "en": "in short, all in all", "es": "en resumen, en fin", "pt": "em resumo, enfim", "fr": "bref, en somme", "cs": "zkrátka", "pl": "krótko mówiąc", "tr": "kısacası", "de": "kurz gesagt", "ja": "つまり、要するに" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a2": [
+        "Once the lion, king of the animals, had a very serious minister: the ox. The ox worked from morning till night. He was slow, but he did everything well: in the kingdom there was order and nobody was hungry.",
+        "The king, however, was bored. Every day the ox brought the same papers and said the same things. One day the lion said: “Enough! I want a more fun minister”. He sent the ox away and chose the monkey.",
+        "At first everyone was happy. The monkey danced and played jokes, and the king laughed all day long. But the monkey didn't work: the papers fell on the floor and nobody read them.",
+        "After a few months the problems began. The bridges were broken, the fields were empty and the poor animals were hungry. So the king sent the monkey away and called the fox.",
+        "The fox was intelligent and spoke very well. But she stole and told lies to the king and to the people. When the king understood it, the kingdom was almost in ruins.",
+        "So the lion went to the old ox and asked him to come back. The ox came back, slow and serious as always. He repaired the bridges, put the papers in order and, little by little, sorted everything out.",
+        "This time the king didn't complain any more. He understood the moral of the fable: a good minister doesn't have to be fun, he has to know how to work."
+      ],
+      "b1": [
+        "Ignacy Krasicki was an eighteenth-century Polish bishop; however, his most famous fables are not about religion but about power. This story proves it: in it the king is a lion and the minister is an ox.",
+        "Since the ox was serious and patient, the kingdom worked well. Things moved slowly, but they moved in an orderly way: the accounts were right and, moreover, nobody stole.",
+        "The king, on the other hand, was bored. Even though the ox never made mistakes, his days were all the same; so the lion fired him and appointed the monkey minister, because she knew how to make him laugh.",
+        "At first the court was delighted, and so were the people. Little by little, however, disorder grew: while the king and the monkey laughed, the poor cried. Because of the minister's jokes, nobody checked anything any more.",
+        "When the protests increased, the lion threw the monkey out. However, he didn't call the ox back: he chose the fox, because she seemed the cleverest of all. She was indeed clever, but she worked only for herself: she deceived the king and robbed his subjects, so she too had to go.",
+        "In the end, despite his pride, the king admitted his mistake and called back the ox, who put everything right again.",
+        "Krasicki doesn't say it openly, but the message is clear: those who govern should not choose someone who entertains them, but someone who knows how to do their job. In short, better a boring minister than a kingdom in ruins."
+      ]
+    },
+    "es": {
+      "a2": [
+        "Una vez el león, rey de los animales, tenía un ministro muy serio: el buey. El buey trabajaba de la mañana a la noche. Era lento, pero lo hacía todo bien: en el reino había orden y nadie pasaba hambre.",
+        "El rey, sin embargo, se aburría. Cada día el buey traía los mismos papeles y decía las mismas cosas. Un día el león dijo: «¡Basta! Quiero un ministro más divertido». Echó al buey y eligió a la mona.",
+        "Al principio todos estaban contentos. La mona bailaba y gastaba bromas, y el rey se reía todo el día. Pero la mona no trabajaba: los papeles se caían al suelo y nadie los leía.",
+        "Después de algunos meses empezaron los problemas. Los puentes estaban rotos, los campos estaban vacíos y los animales pobres pasaban hambre. Entonces el rey echó a la mona y llamó a la zorra.",
+        "La zorra era inteligente y hablaba muy bien. Pero robaba y decía mentiras al rey y al pueblo. Cuando el rey lo comprendió, el reino estaba casi en la ruina.",
+        "Así que el león fue a ver al viejo buey y le pidió que volviera. El buey volvió, lento y serio como siempre. Arregló los puentes, ordenó los papeles y, poco a poco, lo puso todo en su sitio.",
+        "Esta vez el rey ya no se quejó. Entendió la moraleja de la fábula: un buen ministro no tiene que ser divertido, tiene que saber trabajar."
+      ],
+      "b1": [
+        "Ignacy Krasicki era un obispo polaco del siglo XVIII; sin embargo, sus fábulas más famosas no hablan de religión, sino de poder. Lo demuestra esta historia, en la que el rey es un león y el ministro es un buey.",
+        "Como el buey era serio y paciente, el reino funcionaba bien. Las cosas iban despacio, pero iban con orden: las cuentas cuadraban y, además, nadie robaba.",
+        "El rey, en cambio, se aburría. Aunque el buey no se equivocaba nunca, sus días eran todos iguales; por eso el león lo despidió y nombró ministra a la mona, que sabía hacerlo reír.",
+        "Al principio la corte estaba contentísima, y también el pueblo. Poco a poco, sin embargo, el desorden creció: mientras el rey y la mona se reían, los pobres lloraban. Por culpa de las bromas de la ministra, nadie controlaba ya nada.",
+        "Cuando las protestas aumentaron, el león echó a la mona. Sin embargo, no volvió a llamar al buey: eligió a la zorra, porque parecía la más astuta de todos. Era astuta, de hecho, pero solo trabajaba para sí misma: engañaba al rey y robaba a los súbditos, así que también ella tuvo que irse.",
+        "Al final, a pesar de su orgullo, el rey admitió su error y volvió a llamar al buey, que lo puso todo en orden otra vez.",
+        "Krasicki no lo dice abiertamente, pero el mensaje está claro: quien gobierna no debería elegir a quien lo divierte, sino a quien sabe hacer su trabajo. En resumen, mejor un ministro aburrido que un reino en la ruina."
+      ]
+    },
+    "pt": {
+      "a2": [
+        "Uma vez o leão, rei dos animais, tinha um ministro muito sério: o boi. O boi trabalhava de manhã à noite. Era lento, mas fazia tudo bem: no reino havia ordem e ninguém passava fome.",
+        "O rei, porém, ficava entediado. Todo dia o boi trazia os mesmos papéis e dizia as mesmas coisas. Um dia o leão disse: «Chega! Quero um ministro mais divertido». Mandou o boi embora e escolheu a macaca.",
+        "No começo todos estavam contentes. A macaca dançava e fazia brincadeiras, e o rei ria o dia inteiro. Mas a macaca não trabalhava: os papéis caíam no chão e ninguém os lia.",
+        "Depois de alguns meses começaram os problemas. As pontes estavam quebradas, os campos estavam vazios e os animais pobres passavam fome. Então o rei mandou a macaca embora e chamou a raposa.",
+        "A raposa era inteligente e falava muito bem. Mas roubava e contava mentiras ao rei e ao povo. Quando o rei percebeu, o reino estava quase em ruínas.",
+        "Então o leão foi até o velho boi e pediu que ele voltasse. O boi voltou, lento e sério como sempre. Consertou as pontes, colocou os papéis em ordem e, pouco a pouco, ajeitou tudo.",
+        "Desta vez o rei não reclamou mais. Entendeu a moral da fábula: um bom ministro não precisa ser divertido, precisa saber trabalhar."
+      ],
+      "b1": [
+        "Ignacy Krasicki era um bispo polonês do século XVIII; no entanto, as suas fábulas mais famosas não falam de religião, mas de poder. Esta história o demonstra: nela o rei é um leão e o ministro é um boi.",
+        "Como o boi era sério e paciente, o reino funcionava bem. As coisas andavam devagar, mas andavam com ordem: as contas estavam certas e, além disso, ninguém roubava.",
+        "O rei, por outro lado, ficava entediado. Mesmo que o boi nunca errasse, os seus dias eram todos iguais; por isso o leão o demitiu e nomeou ministra a macaca, que sabia fazê-lo rir.",
+        "No começo a corte ficou contentíssima, e o povo também. Pouco a pouco, porém, a desordem cresceu: enquanto o rei e a macaca riam, os pobres choravam. Por causa das brincadeiras da ministra, ninguém controlava mais nada.",
+        "Quando os protestos aumentaram, o leão expulsou a macaca. No entanto, não chamou o boi de volta: escolheu a raposa, porque parecia a mais esperta de todos. De fato, era esperta, mas trabalhava só para si mesma: enganava o rei e roubava os súditos, portanto ela também teve de ir embora.",
+        "No fim, apesar do orgulho, o rei admitiu o seu erro e chamou o boi de volta, que pôs tudo em ordem de novo.",
+        "Krasicki não diz isso abertamente, mas a mensagem é clara: quem governa não deveria escolher quem o diverte, mas quem sabe fazer o próprio trabalho. Em resumo, melhor um ministro chato do que um reino em ruínas."
+      ]
+    },
+    "fr": {
+      "a2": [
+        "Il était une fois le lion, roi des animaux, qui avait un ministre très sérieux : le bœuf. Le bœuf travaillait du matin au soir. Il était lent, mais il faisait tout bien : dans le royaume, il y avait de l’ordre et personne n’avait faim.",
+        "Le roi, pourtant, s’ennuyait. Chaque jour, le bœuf apportait les mêmes papiers et disait les mêmes choses. Un jour, le lion a dit : « Ça suffit ! Je veux un ministre plus amusant ». Il a renvoyé le bœuf et il a choisi la guenon.",
+        "Au début, tout le monde était content. La guenon dansait et faisait des farces, et le roi riait toute la journée. Mais la guenon ne travaillait pas : les papiers tombaient par terre et personne ne les lisait.",
+        "Au bout de quelques mois, les problèmes ont commencé. Les ponts étaient cassés, les champs étaient vides et les animaux pauvres avaient faim. Alors le roi a renvoyé la guenon et il a appelé le renard.",
+        "Le renard était intelligent et parlait très bien. Mais il volait et mentait au roi et au peuple. Quand le roi l’a compris, le royaume était presque en ruine.",
+        "Alors le lion est allé voir le vieux bœuf et lui a demandé de revenir. Le bœuf est revenu, lent et sérieux comme toujours. Il a réparé les ponts, il a mis de l’ordre dans les papiers et, petit à petit, il a tout arrangé.",
+        "Cette fois, le roi ne s’est plus plaint. Il a compris la morale de la fable : un bon ministre ne doit pas être amusant, il doit savoir travailler."
+      ],
+      "b1": [
+        "Ignacy Krasicki était un évêque polonais du XVIIIe siècle ; pourtant, ses fables les plus célèbres ne parlent pas de religion, mais de pouvoir. Cette histoire le montre : le roi y est un lion et le ministre un bœuf.",
+        "Comme le bœuf était sérieux et patient, le royaume fonctionnait bien. Les choses avançaient lentement, mais avec ordre : les comptes étaient justes et, en plus, personne ne volait.",
+        "Le roi, par contre, s’ennuyait. Même si le bœuf ne se trompait jamais, ses journées étaient toutes pareilles ; c’est pourquoi le lion l’a renvoyé et a nommé ministre la guenon, qui savait le faire rire.",
+        "Au début, la cour était ravie, et le peuple aussi. Petit à petit, pourtant, le désordre a grandi : pendant que le roi et la guenon riaient, les pauvres pleuraient. À cause des farces de la ministre, plus personne ne contrôlait rien.",
+        "Quand les protestations ont augmenté, le lion a chassé la guenon. Pourtant, il n’a pas rappelé le bœuf : il a choisi le renard, parce qu’il semblait le plus rusé de tous. Il était rusé, en effet, mais il ne travaillait que pour lui-même : il trompait le roi et volait les sujets, donc lui aussi a dû partir.",
+        "À la fin, malgré son orgueil, le roi a reconnu son erreur et a rappelé le bœuf, qui a tout remis en ordre.",
+        "Krasicki ne le dit pas ouvertement, mais le message est clair : celui qui gouverne ne devrait pas choisir celui qui l’amuse, mais celui qui sait faire son travail. Bref, mieux vaut un ministre ennuyeux qu’un royaume en ruine."
+      ]
+    },
+    "cs": {
+      "a2": [
+        "Kdysi měl lev, král zvířat, velmi vážného ministra: vola. Vůl pracoval od rána do večera. Byl pomalý, ale všechno dělal dobře: v království byl pořádek a nikdo neměl hlad.",
+        "Král se ale nudil. Každý den mu vůl nosil stejné papíry a říkal stejné věci. Jednoho dne lev řekl: „Dost! Chci zábavnějšího ministra.“ Vola propustil a vybral si opici.",
+        "Zpočátku byli všichni spokojení. Opice tancovala a dělala legrácky a král se celý den smál. Ale opice nepracovala: papíry padaly na zem a nikdo je nečetl.",
+        "Po několika měsících začaly problémy. Mosty byly rozbité, pole prázdná a chudá zvířata měla hlad. Tak král opici vyhodil a zavolal lišku.",
+        "Liška byla chytrá a mluvila skvěle. Ale kradla a lhala králi i lidu. Když to král pochopil, království bylo skoro na mizině.",
+        "A tak lev šel za starým volem a požádal ho, aby se vrátil. Vůl se vrátil, pomalý a vážný jako vždycky. Opravil mosty, dal papíry do pořádku a pomalu všechno urovnal.",
+        "Tentokrát si král už nestěžoval. Pochopil ponaučení z bajky: dobrý ministr nemusí být zábavný, musí umět pracovat."
+      ],
+      "b1": [
+        "Ignacy Krasicki byl polský biskup z 18. století; jeho nejslavnější bajky však nemluví o náboženství, ale o moci. Dokazuje to i tento příběh, ve kterém je králem lev a ministrem vůl.",
+        "Protože byl vůl vážný a trpělivý, království fungovalo dobře. Věci šly pomalu, ale šly s pořádkem: účty seděly a navíc nikdo nekradl.",
+        "Král se naopak nudil. I když vůl nikdy nedělal chyby, jeho dny byly všechny stejné; proto ho lev propustil a jmenoval ministryní opici, která ho uměla rozesmát.",
+        "Zpočátku byl dvůr nadšený, a lid také. Postupně však rostl nepořádek: zatímco se král a opice smáli, chudí plakali. Kvůli žertům ministryně už nikdo nic nekontroloval.",
+        "Když protestů přibylo, lev opici vyhnal. Vola si však zpátky nezavolal: vybral si lišku, protože vypadala ze všech nejchytřejší. Chytrá skutečně byla, ale pracovala jen pro sebe: klamala krále a okrádala poddané, a tak musela odejít i ona.",
+        "Nakonec král navzdory své pýše přiznal chybu a povolal zpátky vola, který všechno znovu dal do pořádku.",
+        "Krasicki to neříká otevřeně, ale poselství je jasné: kdo vládne, neměl by si vybírat toho, kdo ho baví, ale toho, kdo umí dělat svou práci. Zkrátka: lepší nudný ministr než království na mizině."
+      ]
+    },
+    "pl": {
+      "a2": [
+        "Kiedyś lew, król zwierząt, miał bardzo poważnego ministra: wołu. Wół pracował od rana do wieczora. Był powolny, ale wszystko robił dobrze: w królestwie panował porządek i nikt nie był głodny.",
+        "Król jednak się nudził. Każdego dnia wół przynosił te same papiery i mówił te same rzeczy. Pewnego dnia lew powiedział: „Dość! Chcę zabawniejszego ministra”. Odprawił wołu i wybrał małpę.",
+        "Na początku wszyscy byli zadowoleni. Małpa tańczyła i robiła psikusy, a król śmiał się cały dzień. Ale małpa nie pracowała: papiery spadały na ziemię i nikt ich nie czytał.",
+        "Po kilku miesiącach zaczęły się problemy. Mosty były zniszczone, pola puste, a biedne zwierzęta głodne. Wtedy król odprawił małpę i wezwał lisa.",
+        "Lis był inteligentny i świetnie mówił. Ale kradł i okłamywał króla i lud. Kiedy król to zrozumiał, królestwo było prawie w ruinie.",
+        "Więc lew poszedł do starego wołu i poprosił go, żeby wrócił. Wół wrócił, powolny i poważny jak zawsze. Naprawił mosty, uporządkował papiery i powoli wszystko poukładał.",
+        "Tym razem król już nie narzekał. Zrozumiał morał bajki: dobry minister nie musi być zabawny, musi umieć pracować."
+      ],
+      "b1": [
+        "Ignacy Krasicki był polskim biskupem z XVIII wieku; jednak jego najsłynniejsze bajki nie mówią o religii, lecz o władzy. Pokazuje to ta historia, „Wół minister”, w której królem jest lew, a ministrem wół.",
+        "Ponieważ wół był poważny i cierpliwy, królestwo działało dobrze. Sprawy szły powoli, ale w porządku: rachunki się zgadzały, a w dodatku nikt nie kradł.",
+        "Król natomiast się nudził. Chociaż wół nigdy się nie mylił, jego dni były wszystkie takie same; dlatego lew go zwolnił i mianował ministrem małpę, która umiała go rozśmieszyć.",
+        "Na początku dwór był zachwycony, i lud też. Stopniowo jednak rósł nieporządek: kiedy król i małpa się śmiali, biedni płakali. Przez psikusy ministra nikt już niczego nie kontrolował.",
+        "Kiedy protestów przybyło, lew wypędził małpę. Jednak nie wezwał z powrotem wołu: wybrał lisa, bo wydawał się najsprytniejszy ze wszystkich. Rzeczywiście był sprytny, ale pracował tylko dla siebie: oszukiwał króla i okradał poddanych, więc on też musiał odejść.",
+        "W końcu, mimo swojej dumy, król przyznał się do błędu i wezwał z powrotem wołu, który znowu wszystko uporządkował.",
+        "Krasicki nie mówi tego otwarcie, ale przesłanie jest jasne: kto rządzi, nie powinien wybierać tego, kto go bawi, lecz tego, kto umie wykonywać swoją pracę. Krótko mówiąc: lepszy nudny minister niż królestwo w ruinie."
+      ]
+    },
+    "tr": {
+      "a2": [
+        "Bir zamanlar hayvanların kralı aslanın çok ciddi bir bakanı vardı: öküz. Öküz sabahtan akşama kadar çalışırdı. Yavaştı ama her şeyi iyi yapardı: krallıkta düzen vardı ve kimse aç değildi.",
+        "Ama kral sıkılıyordu. Öküz her gün aynı kâğıtları getiriyor, aynı şeyleri söylüyordu. Bir gün aslan dedi ki: «Yeter! Daha eğlenceli bir bakan istiyorum». Öküzü gönderdi ve maymunu seçti.",
+        "Başta herkes memnundu. Maymun dans ediyor, şakalar yapıyordu ve kral bütün gün gülüyordu. Ama maymun çalışmıyordu: kâğıtlar yere düşüyordu ve kimse onları okumuyordu.",
+        "Birkaç ay sonra sorunlar başladı. Köprüler yıkıktı, tarlalar boştu ve yoksul hayvanlar açtı. Bunun üzerine kral maymunu gönderdi ve tilkiyi çağırdı.",
+        "Tilki zekiydi ve çok güzel konuşuyordu. Ama hırsızlık yapıyor, krala ve halka yalan söylüyordu. Kral bunu anladığında krallık neredeyse yıkılmıştı.",
+        "Böylece aslan yaşlı öküzün yanına gitti ve ondan geri dönmesini istedi. Öküz her zamanki gibi yavaş ve ciddi bir şekilde geri döndü. Köprüleri onardı, kâğıtları düzene koydu ve yavaş yavaş her şeyi yoluna koydu.",
+        "Bu sefer kral artık şikâyet etmedi. Masalın ana fikrini anladı: iyi bir bakanın eğlenceli olması gerekmez, çalışmayı bilmesi gerekir."
+      ],
+      "b1": [
+        "Ignacy Krasicki 18. yüzyılda yaşamış Polonyalı bir piskopostu; yine de en ünlü masalları dinden değil, iktidardan söz eder. Kralın bir aslan, bakanın bir öküz olduğu bu hikâye de bunu gösteriyor.",
+        "Öküz ciddi ve sabırlı olduğu için krallık iyi işliyordu. İşler yavaş ilerliyordu ama düzenli ilerliyordu: hesaplar doğruydu, üstelik kimse hırsızlık yapmıyordu.",
+        "Kral ise sıkılıyordu. Öküz hiç hata yapmasa da günleri hep birbirinin aynısıydı; bu yüzden aslan onu görevden aldı ve onu güldürmeyi bilen maymunu bakan yaptı.",
+        "Başta saray çok memnundu, halk da öyle. Ama yavaş yavaş düzensizlik büyüdü: kral ile maymun gülerken yoksullar ağlıyordu. Bakanın şakaları yüzünden artık kimse hiçbir şeyi denetlemiyordu.",
+        "Protestolar artınca aslan maymunu kovdu. Yine de öküzü geri çağırmadı: herkesten daha kurnaz göründüğü için tilkiyi seçti. Gerçekten de kurnazdı ama sadece kendisi için çalışıyordu: kralı kandırıyor, tebaayı soyuyordu; bu yüzden o da gitmek zorunda kaldı.",
+        "Sonunda kral, gururuna rağmen hatasını kabul etti ve öküzü geri çağırdı; öküz de her şeyi yeniden yoluna koydu.",
+        "Krasicki bunu açıkça söylemez ama mesaj nettir: yöneten kişi onu eğlendireni değil, işini bileni seçmelidir. Kısacası, sıkıcı bir bakan, yıkılmış bir krallıktan iyidir."
+      ]
+    },
+    "de": {
+      "a2": [
+        "Einst hatte der Löwe, der König der Tiere, einen sehr ernsten Minister: den Ochsen. Der Ochse arbeitete von morgens bis abends. Er war langsam, aber er machte alles gut: Im Königreich herrschte Ordnung, und niemand hatte Hunger.",
+        "Der König aber langweilte sich. Jeden Tag brachte der Ochse dieselben Papiere und sagte dieselben Dinge. Eines Tages sagte der Löwe: „Genug! Ich will einen lustigeren Minister.“ Er schickte den Ochsen weg und wählte die Äffin.",
+        "Am Anfang waren alle zufrieden. Die Äffin tanzte und machte Späße, und der König lachte den ganzen Tag. Aber die Äffin arbeitete nicht: Die Papiere fielen auf den Boden, und niemand las sie.",
+        "Nach ein paar Monaten fingen die Probleme an. Die Brücken waren kaputt, die Felder waren leer, und die armen Tiere hatten Hunger. Da schickte der König die Äffin weg und rief die Füchsin.",
+        "Die Füchsin war intelligent und redete sehr gut. Aber sie stahl und belog den König und das Volk. Als der König es verstand, war das Königreich fast ruiniert.",
+        "Also ging der Löwe zum alten Ochsen und bat ihn zurückzukommen. Der Ochse kam zurück, langsam und ernst wie immer. Er reparierte die Brücken, brachte die Papiere in Ordnung und regelte nach und nach alles.",
+        "Diesmal beschwerte sich der König nicht mehr. Er verstand die Moral der Fabel: Ein guter Minister muss nicht lustig sein, er muss arbeiten können."
+      ],
+      "b1": [
+        "Ignacy Krasicki war ein polnischer Bischof des 18. Jahrhunderts; trotzdem handeln seine berühmtesten Fabeln nicht von Religion, sondern von Macht. Das zeigt diese Geschichte, in der der König ein Löwe und der Minister ein Ochse ist.",
+        "Da der Ochse ernst und geduldig war, funktionierte das Königreich gut. Die Dinge gingen langsam, aber geordnet voran: Die Rechnungen stimmten, und außerdem stahl niemand.",
+        "Der König dagegen langweilte sich. Obwohl der Ochse nie einen Fehler machte, waren seine Tage alle gleich; deshalb entließ ihn der Löwe und ernannte die Äffin zur Ministerin, weil sie ihn zum Lachen bringen konnte.",
+        "Am Anfang war der Hof begeistert, und das Volk auch. Nach und nach aber wuchs die Unordnung: Während der König und die Äffin lachten, weinten die Armen. Wegen der Späße der Ministerin kontrollierte niemand mehr etwas.",
+        "Als die Proteste zunahmen, jagte der Löwe die Äffin davon. Doch er rief den Ochsen nicht zurück: Er wählte die Füchsin, weil sie die Schlaueste von allen zu sein schien. Schlau war sie tatsächlich, aber sie arbeitete nur für sich selbst: Sie betrog den König und bestahl die Untertanen, also musste auch sie gehen.",
+        "Am Ende gab der König trotz seines Stolzes seinen Fehler zu und rief den Ochsen zurück, der alles wieder in Ordnung brachte.",
+        "Krasicki sagt es nicht offen, aber die Botschaft ist klar: Wer regiert, sollte nicht den wählen, der ihn unterhält, sondern den, der seine Arbeit versteht. Kurz gesagt: lieber ein langweiliger Minister als ein ruiniertes Königreich."
+      ]
+    },
+    "ja": {
+      "a2": [
+        "むかし、動物の王であるライオンには、とてもまじめな大臣がいました。牛です。牛は朝から晩まで働きました。のろまでしたが、何でもきちんとしました。王国には秩序があり、おなかをすかせている者はいませんでした。",
+        "ところが王さまは退屈していました。牛は毎日同じ書類を持ってきて、同じことを言いました。ある日ライオンは言いました。「もうたくさんだ！　もっとおもしろい大臣がほしい。」　王さまは牛を追い出し、サルを選びました。",
+        "はじめは、みんな満足していました。サルは踊ったり冗談を言ったりして、王さまは一日じゅう笑っていました。でもサルは働きませんでした。書類は床に落ち、だれも読みませんでした。",
+        "何か月かたつと、問題が起こりはじめました。橋はこわれ、畑は空っぽになり、貧しい動物たちはおなかをすかせました。そこで王さまはサルを追い出し、キツネを呼びました。",
+        "キツネはかしこくて、話すのがとても上手でした。けれども物を盗み、王さまにも民にもうそをつきました。王さまがそれに気づいたとき、王国はほとんど荒れはてていました。",
+        "そこでライオンは年老いた牛のところへ行き、もどってきてほしいとたのみました。牛はいつものように、のんびりとまじめにもどってきました。橋を直し、書類を整理して、少しずつすべてを立て直しました。",
+        "今度は、王さまはもう文句を言いませんでした。王さまはこの寓話の教訓がわかったのです。よい大臣はおもしろくなくてもいい。仕事ができなければならないのです。"
+      ],
+      "b1": [
+        "イグナツィ・クラシツキは18世紀のポーランドの司教でした。けれども、彼のいちばん有名な寓話は宗教ではなく、権力について語っています。王がライオンで大臣が牛であるこの話も、それを示しています。",
+        "牛はまじめで辛抱強かったので、王国はうまく回っていました。物事はゆっくり進みましたが、きちんと進みました。帳簿は合っていて、そのうえ、だれも盗みをしませんでした。",
+        "一方、王さまは退屈していました。牛は一度もまちがえませんでしたが、毎日がまったく同じでした。だからライオンは牛を解任し、自分を笑わせてくれるサルを大臣に任命しました。",
+        "はじめは宮廷も大喜びで、民もそうでした。けれども少しずつ混乱が広がりました。王さまとサルが笑っているあいだに、貧しい者たちは泣いていたのです。大臣の悪ふざけのせいで、もうだれも何も管理しなくなりました。",
+        "抗議の声が増えると、ライオンはサルを追い出しました。けれども牛を呼びもどしはせず、だれよりもずる賢そうに見えたキツネを選びました。実際、キツネはずる賢かったのですが、自分のためだけに働きました。王さまをだまし、家来たちから奪ったので、キツネも去らなければなりませんでした。",
+        "最後に、王さまはプライドを捨てて自分のまちがいを認め、牛を呼びもどしました。牛はまたすべてを元どおりにしました。",
+        "クラシツキははっきりとは言いませんが、メッセージは明らかです。国を治める者は、自分を楽しませてくれる者ではなく、自分の仕事ができる者を選ぶべきなのです。つまり、退屈な大臣のほうが、荒れはてた王国よりましだということです。"
+      ]
+    }
+  }
+}
