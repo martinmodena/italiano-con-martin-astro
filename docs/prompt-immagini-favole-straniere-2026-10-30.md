@@ -199,3 +199,11 @@ Il municipio rinascimentale di Poznań, le due caprette che si danno le cornate 
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Polish legend book, bright midday sunlight, no black outlines. The colourful Renaissance town hall of Poznań in the old market square, with its white arcaded facade, decorated attic and a tall clock tower with a big ornate clock showing twelve o'clock. On a narrow ledge just above the clock, two small white goats stand on their hind legs and playfully butt their horns together. Below in the square, a crowd of townspeople in modest 16th-century clothes with long sleeves look up, pointing and laughing, and a young kitchen boy in a white apron holds his head in his hands. Humorous, joyful atmosphere. Clean composition, a single clear scene. No food, no religious symbols, no crosses, no text, no words, no letters, no numbers on signs.
 ```
+
+## 24. `story-sale-oro` — «Il sale vale più dell'oro» (Sůl nad zlato, Repubblica Ceca) — 2026-11-13
+
+Maruška porge al re una ciotola di sale nella sala del trono di legno, le sorelle guardano, fuori la neve. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Czech fairy tale book, soft warm light from tall windows, no black outlines. The wooden throne room of an old Bohemian castle with carved beams and a large tiled stove. An old king with a white beard, a golden crown and a long red robe sits on a simple wooden throne and leans forward, surprised and moved. In front of him his youngest daughter, a young woman with a long blond braid in a plain long-sleeved peasant dress and a headscarf, holds out with both hands a small wooden bowl full of white salt. Behind her, her two older sisters in elegant long-sleeved embroidered gowns with jewels watch with raised eyebrows. Through the window a snowy winter landscape. Tender, gentle atmosphere. Clean composition, a single clear scene. No food other than the salt, no religious symbols, no crosses, no text, no words, no letters.
+```
