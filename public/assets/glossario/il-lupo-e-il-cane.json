@@ -1,0 +1,423 @@
+{
+  "id": "il-lupo-e-il-cane",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il lupo",
+      "forme": ["lupo"],
+      "formeEsempi": ["lupi"],
+      "esempi": ["Il lupo vive nel bosco con il suo branco.", "Di notte il lupo ulula alla luna.", "In Italia ci sono lupi sugli Appennini."],
+      "traduzioni": { "en": "wolf", "es": "lobo", "pt": "lobo", "fr": "loup", "cs": "vlk", "pl": "wilk", "tr": "kurt", "de": "Wolf", "ja": "オオカミ" }
+    },
+    {
+      "parola": "magro",
+      "forme": ["magro"],
+      "formeEsempi": ["magra"],
+      "esempi": ["Mio fratello è alto e magro.", "Dopo la malattia è diventata molto magra.", "Il gatto randagio era magro e affamato."],
+      "traduzioni": { "en": "thin", "es": "flaco, delgado", "pt": "magro", "fr": "maigre", "cs": "hubený", "pl": "chudy", "tr": "zayıf", "de": "dünn, mager", "ja": "やせた" }
+    },
+    {
+      "parola": "raramente",
+      "forme": ["raramente"],
+      "esempi": ["Vado raramente al cinema.", "Qui nevica raramente.", "Mio fratello telefona raramente."],
+      "traduzioni": { "en": "rarely", "es": "pocas veces, raramente", "pt": "raramente", "fr": "rarement", "cs": "zřídka", "pl": "rzadko", "tr": "nadiren", "de": "selten", "ja": "めったに〜ない" }
+    },
+    {
+      "parola": "grasso",
+      "forme": ["grasso"],
+      "esempi": ["Il nostro cane è diventato grasso: mangia troppo.", "Un gatto grasso dorme sul divano.", "Il maiale è grasso e rosa."],
+      "traduzioni": { "en": "fat", "es": "gordo", "pt": "gordo", "fr": "gros", "cs": "tlustý", "pl": "gruby", "tr": "şişman", "de": "dick", "ja": "太った" }
+    },
+    {
+      "parola": "forte",
+      "forme": ["forte"],
+      "esempi": ["Mio padre è molto forte.", "Oggi c'è un vento forte.", "Il caffè è troppo forte per me."],
+      "traduzioni": { "en": "strong", "es": "fuerte", "pt": "forte", "fr": "fort", "cs": "silný", "pl": "silny", "tr": "güçlü", "de": "stark", "ja": "強い" }
+    },
+    {
+      "parola": "gentile",
+      "forme": ["gentile", "gentili"],
+      "esempi": ["La signora del bar è sempre gentile.", "Grazie, sei molto gentile!", "Sii gentile con tua sorella."],
+      "traduzioni": { "en": "kind, nice, polite", "es": "amable", "pt": "gentil", "fr": "gentil, poli", "cs": "zdvořilý, hodný", "pl": "uprzejmy, miły", "tr": "kibar, nazik", "de": "freundlich, nett", "ja": "ていねいな、親切な" }
+    },
+    {
+      "parola": "il pelo",
+      "forme": ["pelo"],
+      "esempi": ["Il gatto ha il pelo morbido.", "Il cane perde il pelo in primavera.", "Il mio cane ha il pelo bianco e nero."],
+      "traduzioni": { "en": "fur, coat (of an animal)", "es": "pelo", "pt": "pelo", "fr": "poil, pelage", "cs": "srst", "pl": "sierść", "tr": "tüy (hayvanın)", "de": "Fell", "ja": "（動物の）毛、毛並み" }
+    },
+    {
+      "parola": "gli avanzi",
+      "forme": ["avanzi"],
+      "esempi": ["Stasera mangiamo gli avanzi del pranzo.", "Metti gli avanzi in frigorifero.", "Con gli avanzi di verdura faccio una minestra."],
+      "traduzioni": { "en": "leftovers", "es": "sobras", "pt": "sobras", "fr": "restes", "cs": "zbytky (jídla)", "pl": "resztki", "tr": "artanlar, yemek artığı", "de": "Reste", "ja": "残りもの" }
+    },
+    {
+      "parola": "abbaiare",
+      "forme": ["abbai"],
+      "formeEsempi": ["abbaia", "abbaiano"],
+      "esempi": ["Il cane abbaia quando suona il campanello.", "Di notte i cani del vicino abbaiano sempre.", "Perché abbaia? Non c'è nessuno!"],
+      "traduzioni": { "en": "to bark", "es": "ladrar", "pt": "latir", "fr": "aboyer", "cs": "štěkat", "pl": "szczekać", "tr": "havlamak", "de": "bellen", "ja": "ほえる" }
+    },
+    {
+      "parola": "il collo",
+      "forme": ["collo"],
+      "esempi": ["La giraffa ha il collo lunghissimo.", "D'inverno porto una sciarpa al collo.", "Mi fa male il collo."],
+      "traduzioni": { "en": "neck", "es": "cuello", "pt": "pescoço", "fr": "cou", "cs": "krk", "pl": "szyja", "tr": "boyun", "de": "Hals", "ja": "首" }
+    },
+    {
+      "parola": "il collare",
+      "forme": ["collare"],
+      "esempi": ["Il cane ha un collare rosso.", "Sul collare c'è il nome del gatto.", "Compriamo un collare nuovo per il cane."],
+      "traduzioni": { "en": "collar (for a dog)", "es": "collar", "pt": "coleira", "fr": "collier", "cs": "obojek", "pl": "obroża", "tr": "tasma", "de": "Halsband", "ja": "首輪" }
+    },
+    {
+      "parola": "legare",
+      "forme": ["lega", "legato"],
+      "formeEsempi": ["lego"],
+      "esempi": ["Lego la bici al palo.", "Il contadino lega la capra all'albero.", "Il cane è legato davanti al negozio."],
+      "traduzioni": { "en": "to tie (up)", "es": "atar", "pt": "amarrar, prender", "fr": "attacher", "cs": "uvázat", "pl": "przywiązać", "tr": "bağlamak", "de": "anbinden", "ja": "つなぐ、しばる" }
+    },
+    {
+      "parola": "la libertà",
+      "forme": ["libertà"],
+      "esempi": ["La libertà è importante per tutti.", "Gli uccelli in gabbia non hanno libertà.", "In vacanza amo la libertà di non avere orari."],
+      "traduzioni": { "en": "freedom", "es": "libertad", "pt": "liberdade", "fr": "liberté", "cs": "svoboda", "pl": "wolność", "tr": "özgürlük", "de": "Freiheit", "ja": "自由" }
+    },
+    {
+      "parola": "la pancia",
+      "forme": ["pancia"],
+      "esempi": ["Mi fa male la pancia.", "Il gatto dorme a pancia in su.", "Dopo pranzo ho la pancia piena."],
+      "traduzioni": { "en": "belly, tummy", "es": "barriga, tripa", "pt": "barriga", "fr": "ventre", "cs": "břicho", "pl": "brzuch", "tr": "karın, mide", "de": "Bauch", "ja": "おなか" }
+    },
+    {
+      "parola": "pieno",
+      "forme": ["piena"],
+      "formeEsempi": ["pieno"],
+      "esempi": ["Il bicchiere è pieno d'acqua.", "Il treno è pieno di turisti.", "Ho la pancia piena: non mangio il dolce."],
+      "traduzioni": { "en": "full", "es": "lleno", "pt": "cheio", "fr": "plein", "cs": "plný", "pl": "pełny", "tr": "dolu", "de": "voll", "ja": "いっぱいの" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "l'osso",
+      "forme": ["ossa"],
+      "formeEsempi": ["osso"],
+      "esempi": ["Il cane nasconde l'osso in giardino.", "Mi sono rotto un osso del braccio.", "Il corpo umano ha più di duecento ossa."],
+      "traduzioni": { "en": "bone (plural: le ossa)", "es": "hueso", "pt": "osso", "fr": "os", "cs": "kost", "pl": "kość", "tr": "kemik", "de": "Knochen", "ja": "骨" }
+    },
+    {
+      "parola": "al chiaro di luna",
+      "forme": ["chiaro"],
+      "esempi": ["Passeggiamo sulla spiaggia al chiaro di luna.", "Al chiaro di luna il lago è bellissimo.", "Hanno cenato in giardino al chiaro di luna."],
+      "traduzioni": { "en": "by moonlight", "es": "a la luz de la luna", "pt": "ao luar", "fr": "au clair de lune", "cs": "za svitu měsíce", "pl": "przy świetle księżyca", "tr": "ay ışığında", "de": "im Mondschein", "ja": "月明かりの下で" }
+    },
+    {
+      "parola": "la guardia",
+      "forme": ["guardia"],
+      "esempi": ["Il cane fa la guardia alla casa.", "Abbiamo un cane da guardia molto grande.", "Di notte un uomo fa la guardia al museo."],
+      "traduzioni": { "en": "guard («cane da guardia» = watchdog; «fare la guardia» = to keep watch)", "es": "guardia («cane da guardia» = perro guardián)", "pt": "guarda («cane da guardia» = cão de guarda)", "fr": "garde («cane da guardia» = chien de garde)", "cs": "hlídka («cane da guardia» = hlídací pes)", "pl": "straż («cane da guardia» = pies podwórzowy)", "tr": "bekçilik («cane da guardia» = bekçi köpeği)", "de": "Wache («cane da guardia» = Wachhund)", "ja": "番（«cane da guardia» = 番犬）" }
+    },
+    {
+      "parola": "lucido",
+      "forme": ["lucido"],
+      "formeEsempi": ["lucide"],
+      "esempi": ["Il gatto ha il pelo lucido e morbido.", "Ho pulito le scarpe: ora sono lucide.", "Il pavimento è lucido come uno specchio."],
+      "traduzioni": { "en": "shiny", "es": "brillante", "pt": "brilhante", "fr": "luisant, brillant", "cs": "lesklý", "pl": "lśniący", "tr": "parlak", "de": "glänzend", "ja": "つやつやした" }
+    },
+    {
+      "parola": "attaccare",
+      "forme": ["attaccarlo"],
+      "formeEsempi": ["attacca"],
+      "esempi": ["Il gatto attacca il topo.", "Il nostro cane non attacca le persone.", "Lo squalo attacca solo se ha paura."],
+      "traduzioni": { "en": "to attack", "es": "atacar", "pt": "atacar", "fr": "attaquer", "cs": "napadnout", "pl": "zaatakować", "tr": "saldırmak", "de": "angreifen", "ja": "襲う" }
+    },
+    {
+      "parola": "preferire",
+      "forme": ["preferito", "preferisco"],
+      "formeEsempi": ["preferisci"],
+      "esempi": ["Preferisco il tè al caffè.", "Che cosa preferisci, mare o montagna?", "Ieri sera ho preferito restare a casa."],
+      "traduzioni": { "en": "to prefer, would rather", "es": "preferir", "pt": "preferir", "fr": "préférer", "cs": "dát přednost, radši", "pl": "woleć", "tr": "tercih etmek", "de": "lieber wollen, vorziehen", "ja": "〜のほうがいい" }
+    },
+    {
+      "parola": "debole",
+      "forme": ["debole"],
+      "esempi": ["Dopo l'influenza mi sento debole.", "Il pulcino è piccolo e debole.", "La luce della lampada è troppo debole."],
+      "traduzioni": { "en": "weak", "es": "débil", "pt": "fraco", "fr": "faible", "cs": "slabý", "pl": "słaby", "tr": "güçsüz, zayıf", "de": "schwach", "ja": "弱い" }
+    },
+    {
+      "parola": "come mai?",
+      "forme": ["mai"],
+      "livelli": ["a2"],
+      "esempi": ["Come mai sei in ritardo?", "Come mai non mangi?", "Come mai non sei venuto alla festa?"],
+      "traduzioni": { "en": "how come? why?", "es": "¿cómo es que? ¿por qué?", "pt": "como pode? por quê?", "fr": "comment ça se fait ? pourquoi ?", "cs": "jak to? proč?", "pl": "jak to? dlaczego?", "tr": "nasıl oluyor? neden?", "de": "wie kommt das? warum?", "ja": "どうして？" }
+    },
+    {
+      "parola": "in cambio",
+      "forme": ["cambio"],
+      "esempi": ["Ti aiuto, e in cambio tu mi offri un caffè.", "Che cosa vuoi in cambio?", "Gli ho dato il mio libro in cambio del suo."],
+      "traduzioni": { "en": "in return, in exchange", "es": "a cambio", "pt": "em troca", "fr": "en échange", "cs": "na oplátku, za to", "pl": "w zamian", "tr": "karşılığında", "de": "dafür, im Austausch", "ja": "そのかわりに" }
+    },
+    {
+      "parola": "notare",
+      "forme": ["notato"],
+      "formeEsempi": ["nota"],
+      "esempi": ["Hai notato il mio nuovo taglio di capelli?", "Non ho notato niente di strano.", "La maestra nota subito gli errori."],
+      "traduzioni": { "en": "to notice", "es": "notar, fijarse en", "pt": "notar, perceber", "fr": "remarquer", "cs": "všimnout si", "pl": "zauważyć", "tr": "fark etmek", "de": "bemerken", "ja": "気づく" }
+    },
+    {
+      "parola": "il segno",
+      "forme": ["segno"],
+      "formeEsempi": ["segni"],
+      "esempi": ["Sulla neve ci sono i segni delle zampe.", "Ha un segno rosso sul braccio.", "Il collare lascia un segno sul pelo."],
+      "traduzioni": { "en": "mark", "es": "marca, señal", "pt": "marca", "fr": "marque, trace", "cs": "stopa, znak", "pl": "ślad", "tr": "iz", "de": "Abdruck, Spur", "ja": "あと、しるし" }
+    },
+    {
+      "parola": "grave",
+      "forme": ["grave"],
+      "esempi": ["Non ti preoccupare, non è niente di grave.", "È un problema grave.", "Il medico dice che la malattia non è grave."],
+      "traduzioni": { "en": "serious («niente di grave» = nothing serious)", "es": "grave", "pt": "grave", "fr": "grave", "cs": "vážný", "pl": "poważny", "tr": "ciddi, önemli", "de": "schlimm, ernst", "ja": "重大な、深刻な" }
+    },
+    {
+      "parola": "la catena",
+      "forme": ["catena"],
+      "esempi": ["Il cane è legato alla catena.", "La bici è chiusa con una catena.", "Porta una catena d'oro al collo."],
+      "traduzioni": { "en": "chain", "es": "cadena", "pt": "corrente", "fr": "chaîne", "cs": "řetěz", "pl": "łańcuch", "tr": "zincir", "de": "Kette", "ja": "鎖" }
+    },
+    {
+      "parola": "libero",
+      "forme": ["libero"],
+      "formeEsempi": ["liberi"],
+      "esempi": ["Oggi sono libero: andiamo al mare?", "Scusi, questo posto è libero?", "Gli uccelli volano liberi nel cielo."],
+      "traduzioni": { "en": "free", "es": "libre", "pt": "livre", "fr": "libre", "cs": "volný, svobodný", "pl": "wolny", "tr": "serbest, özgür", "de": "frei", "ja": "自由な" }
+    },
+    {
+      "parola": "importare",
+      "forme": ["importa"],
+      "esempi": ["Non importa, lo faccio domani.", "Che cosa importa?", "Mi importa molto della tua opinione."],
+      "traduzioni": { "en": "to matter («che importa?» = what does it matter?)", "es": "importar", "pt": "importar", "fr": "importer («che importa?» = qu’importe ?)", "cs": "záležet", "pl": "mieć znaczenie", "tr": "önemli olmak", "de": "wichtig sein, ausmachen", "ja": "大事である" }
+    },
+    {
+      "parola": "di corsa",
+      "forme": ["corsa"],
+      "esempi": ["Sono uscito di corsa per prendere il treno.", "La mattina fa tutto di corsa.", "I bambini sono tornati a casa di corsa."],
+      "traduzioni": { "en": "running, in a rush", "es": "corriendo", "pt": "correndo", "fr": "en courant", "cs": "během, rychle", "pl": "biegiem", "tr": "koşarak", "de": "im Laufschritt, schnell", "ja": "走って、急いで" }
+    },
+    {
+      "parola": "la comodità",
+      "forme": ["comodità"],
+      "esempi": ["Amo le comodità della mia casa.", "In campeggio non ci sono molte comodità.", "Per comodità prendo la macchina."],
+      "traduzioni": { "en": "comfort, convenience", "es": "comodidad", "pt": "conforto, comodidade", "fr": "confort", "cs": "pohodlí", "pl": "wygoda", "tr": "rahatlık", "de": "Bequemlichkeit", "ja": "快適さ、便利さ" }
+    },
+    {
+      "parola": "qualsiasi",
+      "forme": ["qualsiasi"],
+      "esempi": ["Puoi venire a qualsiasi ora.", "Qualsiasi cosa succeda, ti aiuto.", "Prendi un libro qualsiasi."],
+      "traduzioni": { "en": "any (at all)", "es": "cualquier", "pt": "qualquer", "fr": "n’importe quel", "cs": "jakýkoli", "pl": "jakikolwiek", "tr": "herhangi bir", "de": "jeder beliebige", "ja": "どんな〜でも" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In the woods lives a wolf. He's thin, very thin: he rarely eats, and sometimes he doesn't eat for three days.",
+        "One night the wolf meets a dog. The dog is big, fat and handsome. The wolf is hungry, but the dog is strong. So the wolf is polite:\n– What a beautiful coat you have! How do you do it?",
+        "– It's easy, – says the dog. – I always eat: bread, soup, the leftovers from my master's dinner.",
+        "– Come with me. The work is easy: at night you guard the house and sometimes you bark. And you're never hungry!",
+        "The wolf is happy and walks with the dog. But at some point he looks at the dog's neck: there's no fur there.\n– What's this?\n– Nothing. It's the collar. During the day my master ties me up.",
+        "– He ties you up? So you can't always go where you want?\n– Not always, no. But it isn't important.",
+        "– For me it's very important, – says the wolf. – I rarely eat, but I always go where I want. Goodbye!\nAnd the wolf runs away, into the woods.",
+        "That's the moral of the fable: freedom is more important than a full belly."
+      ],
+      "a2": [
+        "Once upon a time there was a wolf so thin you could see his bones. In the woods the winter had been long, and the wolf's belly was always empty.",
+        "One night, by moonlight, he met a watchdog: fat, strong, with a shiny coat. The wolf wanted to attack him, but the dog was bigger than he was. So the wolf preferred to talk.",
+        "– Congratulations! You're fat and I'm thin. You're strong and I'm weak. How come?",
+        "– Leave the woods and come with me, – answered the dog. – With us life is easy, not hard like here. You just have to guard the house and be nice to the master. In return, your bowl is always full.",
+        "The wolf accepted. As they were walking, though, he noticed something strange: on the dog's neck there was no fur.\n– What happened to your neck?\n– Nothing serious. It's the mark of the collar: during the day I'm tied to a chain. At night, though, I'm free.",
+        "The wolf stopped.\n– Tied up? So you can't go where you want?\n– Not always. But what does it matter?",
+        "– It matters a great deal, – said the wolf. – I'd rather be thin and free than fat and tied up.\nAnd he ran off towards the woods. He's still running now.",
+        "Jean de La Fontaine published this fable in 1668, in the first book of his Fables; the story comes from Aesop. In France many children learn it by heart at school. The moral is clear: freedom is worth more than any comfort."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En el bosque vive un lobo. Está flaco, muy flaco: come pocas veces, y a veces no come durante tres días.",
+        "Una noche el lobo se encuentra con un perro. El perro es grande, gordo y guapo. El lobo tiene hambre, pero el perro es fuerte. Entonces el lobo es amable:\n– ¡Qué pelo tan bonito tienes! ¿Cómo lo haces?",
+        "– Es fácil – dice el perro. – Yo como siempre: pan, sopa, las sobras de la cena de mi amo.",
+        "– Ven conmigo. El trabajo es fácil: por la noche vigilas la casa y a veces ladras. ¡Y nunca tienes hambre!",
+        "El lobo está contento y camina con el perro. Pero en un momento dado mira el cuello del perro: allí no hay pelo.\n– ¿Qué es esto?\n– Nada. Es el collar. De día mi amo me ata.",
+        "– ¿Te ata? Entonces, ¿no vas siempre adonde quieres?\n– No siempre, no. Pero no es importante.",
+        "– Para mí es muy importante – dice el lobo. – Yo como pocas veces, pero voy siempre adonde quiero. ¡Adiós!\nY el lobo se va corriendo al bosque.",
+        "Es la moraleja de la fábula: la libertad es más importante que una barriga llena."
+      ],
+      "a2": [
+        "Érase una vez un lobo tan flaco que se le veían los huesos. En el bosque el invierno había sido largo, y el lobo tenía siempre la barriga vacía.",
+        "Una noche, a la luz de la luna, se encontró con un perro guardián: gordo, fuerte, con el pelo brillante. El lobo quería atacarlo, pero el perro era más grande que él. Así que el lobo prefirió hablar.",
+        "– ¡Enhorabuena! Tú estás gordo y yo estoy flaco. Tú eres fuerte y yo soy débil. ¿Cómo es posible?",
+        "– Deja el bosque y ven conmigo – respondió el perro. – Con nosotros la vida es fácil, no difícil como aquí. Basta con vigilar la casa y ser amable con el amo. A cambio, el cuenco siempre está lleno.",
+        "El lobo aceptó. Mientras caminaban, sin embargo, notó algo extraño: en el cuello del perro no había pelo.\n– ¿Qué te ha pasado en el cuello?\n– Nada grave. Es la marca del collar: de día estoy atado a la cadena. De noche, en cambio, soy libre.",
+        "El lobo se paró.\n– ¿Atado? Entonces, ¿no puedes ir adonde quieres?\n– No siempre. Pero ¿qué más da?",
+        "– Importa muchísimo – dijo el lobo. – Prefiero estar flaco y ser libre que estar gordo y atado.\nY se fue corriendo hacia el bosque. Todavía hoy sigue corriendo.",
+        "Jean de La Fontaine publicó esta fábula en 1668, en el primer libro de sus Fábulas; la historia viene de Esopo. En Francia muchos niños se la aprenden de memoria en el colegio. La moraleja está clara: la libertad vale más que cualquier comodidad."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "No bosque vive um lobo. Ele é magro, muito magro: come raramente, e às vezes passa três dias sem comer.",
+        "Uma noite o lobo encontra um cachorro. O cachorro é grande, gordo e bonito. O lobo está com fome, mas o cachorro é forte. Então o lobo é gentil:\n– Que pelo bonito você tem! Como você faz?",
+        "– É fácil – diz o cachorro. – Eu sempre como: pão, sopa, as sobras do jantar do meu dono.",
+        "– Venha comigo. O trabalho é fácil: de noite você vigia a casa e às vezes late. E nunca passa fome!",
+        "O lobo fica contente e anda com o cachorro. Mas em certo momento olha o pescoço do cachorro: ali não tem pelo.\n– O que é isso?\n– Nada. É a coleira. De dia o meu dono me amarra.",
+        "– Ele te amarra? Então você nem sempre vai aonde quer?\n– Nem sempre, não. Mas isso não é importante.",
+        "– Para mim é muito importante – diz o lobo. – Eu como raramente, mas sempre vou aonde quero. Tchau!\nE o lobo sai correndo para o bosque.",
+        "Essa é a moral da fábula: a liberdade é mais importante que uma barriga cheia."
+      ],
+      "a2": [
+        "Era uma vez um lobo tão magro que dava para ver os ossos. No bosque o inverno tinha sido longo, e o lobo estava sempre com a barriga vazia.",
+        "Uma noite, ao luar, encontrou um cão de guarda: gordo, forte, com o pelo brilhante. O lobo queria atacá-lo, mas o cachorro era maior que ele. Então o lobo preferiu conversar.",
+        "– Parabéns! Você é gordo e eu sou magro. Você é forte e eu sou fraco. Como pode?",
+        "– Deixe o bosque e venha comigo – respondeu o cachorro. – Lá em casa a vida é fácil, não é difícil como aqui. É só vigiar a casa e ser gentil com o dono. Em troca, a tigela está sempre cheia.",
+        "O lobo aceitou. Enquanto andavam, porém, notou uma coisa estranha: no pescoço do cachorro não havia pelo.\n– O que aconteceu com o seu pescoço?\n– Nada grave. É a marca da coleira: de dia fico preso na corrente. De noite, ao contrário, fico livre.",
+        "O lobo parou.\n– Preso? Então você não pode ir aonde quer?\n– Nem sempre. Mas que importa?",
+        "– Importa muitíssimo – disse o lobo. – Prefiro ser magro e livre a ser gordo e preso.\nE foi embora correndo para o bosque. Corre até hoje.",
+        "Jean de La Fontaine publicou esta fábula em 1668, no primeiro livro das suas Fábulas; a história vem de Esopo. Na França muitas crianças a decoram na escola. A moral é clara: a liberdade vale mais do que qualquer conforto."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans la forêt vit un loup. Il est maigre, très maigre : il mange rarement, et parfois il ne mange pas pendant trois jours.",
+        "Une nuit, le loup rencontre un chien. Le chien est grand, gros et beau. Le loup a faim, mais le chien est fort. Alors le loup est poli :\n– Quel beau poil tu as ! Comment fais-tu ?",
+        "– C’est facile – dit le chien. – Moi, je mange toujours : du pain, de la soupe, les restes du dîner de mon maître.",
+        "– Viens avec moi. Le travail est facile : la nuit, tu gardes la maison et parfois tu aboies. Et tu n’as jamais faim !",
+        "Le loup est content et marche avec le chien. Mais à un moment, il regarde le cou du chien : là, il n’y a pas de poil.\n– Qu’est-ce que c’est ?\n– Rien. C’est le collier. Le jour, mon maître m’attache.",
+        "– Il t’attache ? Alors tu ne vas pas toujours où tu veux ?\n– Pas toujours, non. Mais ce n’est pas important.",
+        "– Pour moi, c’est très important – dit le loup. – Je mange rarement, mais je vais toujours où je veux. Salut !\nEt le loup s’enfuit en courant dans la forêt.",
+        "C’est la morale de la fable : la liberté est plus importante qu’un ventre plein."
+      ],
+      "a2": [
+        "Il était une fois un loup si maigre qu’on voyait ses os. Dans la forêt, l’hiver avait été long, et le loup avait toujours le ventre vide.",
+        "Une nuit, au clair de lune, il a rencontré un chien de garde : gros, fort, au poil luisant. Le loup voulait l’attaquer, mais le chien était plus grand que lui. Alors le loup a préféré parler.",
+        "– Bravo ! Toi, tu es gros, et moi, je suis maigre. Toi, tu es fort, et moi, je suis faible. Comment ça se fait ?",
+        "– Quitte la forêt et viens avec moi – a répondu le chien. – Chez nous, la vie est facile, pas difficile comme ici. Il suffit de garder la maison et d’être gentil avec le maître. En échange, la gamelle est toujours pleine.",
+        "Le loup a accepté. Pendant qu’ils marchaient, pourtant, il a remarqué une chose étrange : sur le cou du chien, il n’y avait pas de poil.\n– Qu’est-ce que tu as au cou ?\n– Rien de grave. C’est la marque du collier : le jour, je suis attaché à la chaîne. La nuit, par contre, je suis libre.",
+        "Le loup s’est arrêté.\n– Attaché ? Alors tu ne peux pas aller où tu veux ?\n– Pas toujours. Mais qu’importe ?",
+        "– Ça importe énormément – a dit le loup. – Je préfère être maigre et libre plutôt que gros et attaché.\nEt il est parti en courant vers la forêt. Il court encore aujourd’hui.",
+        "Jean de La Fontaine a publié cette fable en 1668, dans le premier livre de ses Fables ; l’histoire vient d’Ésope. En France, beaucoup d’enfants l’apprennent par cœur à l’école. La morale est claire : la liberté vaut plus que tout le confort du monde."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V lese žije vlk. Je hubený, hrozně hubený: jí jen zřídka a někdy nejí tři dny.",
+        "Jedné noci potká vlk psa. Pes je velký, tlustý a krásný. Vlk má hlad, ale pes je silný. A tak je vlk zdvořilý:\n– Ty máš ale krásnou srst! Jak to děláš?",
+        "– To je snadné – říká pes. – Já jím pořád: chleba, polévku, zbytky z pánovy večeře.",
+        "– Pojď se mnou. Ta práce je snadná: v noci hlídáš dům a občas zaštěkáš. A nikdy nemáš hlad!",
+        "Vlk má radost a jde se psem. Ale v jednu chvíli se podívá psovi na krk: tam žádná srst není.\n– Co je tohle?\n– Nic. To je obojek. Přes den mě pán uvazuje.",
+        "– Uvazuje tě? Takže nechodíš vždycky, kam chceš?\n– Ne vždycky, ne. Ale to není důležité.",
+        "– Pro mě je to hodně důležité – říká vlk. – Jím zřídka, ale chodím vždycky, kam chci. Ahoj!\nA vlk uteče pryč, do lesa.",
+        "To je ponaučení z bajky: svoboda je důležitější než plné břicho."
+      ],
+      "a2": [
+        "Byl jednou jeden vlk, tak hubený, že mu byly vidět kosti. V lese byla dlouhá zima a vlk měl pořád prázdné břicho.",
+        "Jedné noci za svitu měsíce potkal hlídacího psa: tlustého, silného, s lesklou srstí. Vlk ho chtěl napadnout, ale pes byl větší než on. Tak se vlk radši dal do řeči.",
+        "– Gratuluju! Ty jsi tlustý a já hubený. Ty jsi silný a já slabý. Jak to?",
+        "– Opusť les a pojď se mnou – odpověděl pes. – U nás je život snadný, ne těžký jako tady. Stačí hlídat dům a být hodný na pána. Za to máš misku vždycky plnou.",
+        "Vlk souhlasil. Když šli, všiml si ale něčeho zvláštního: na psím krku nebyla srst.\n– Co máš s krkem?\n– Nic vážného. To je stopa po obojku: přes den jsem uvázaný na řetězu. V noci jsem ale volný.",
+        "Vlk se zastavil.\n– Uvázaný? Takže nemůžeš chodit, kam chceš?\n– Ne vždycky. Ale co na tom záleží?",
+        "– Záleží na tom moc – řekl vlk. – Radši budu hubený a svobodný než tlustý a uvázaný.\nA rozběhl se zpátky do lesa. Běží ještě teď.",
+        "Jean de La Fontaine vydal tuto bajku v roce 1668 v první knize svých Bajek; příběh pochází od Ezopa. Ve Francii se ji mnoho dětí učí ve škole nazpaměť. Ponaučení je jasné: svoboda má větší cenu než jakékoli pohodlí."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W lesie mieszka wilk. Jest chudy, bardzo chudy: je rzadko, a czasem nie je przez trzy dni.",
+        "Pewnej nocy wilk spotyka psa. Pies jest duży, gruby i piękny. Wilk jest głodny, ale pies jest silny. Więc wilk jest uprzejmy:\n– Jaką masz piękną sierść! Jak ty to robisz?",
+        "– To proste – mówi pies. – Ja jem zawsze: chleb, zupę, resztki z kolacji mojego pana.",
+        "– Chodź ze mną. Praca jest łatwa: w nocy pilnujesz domu i czasem szczekasz. I nigdy nie jesteś głodny!",
+        "Wilk jest zadowolony i idzie z psem. Ale w pewnej chwili patrzy na szyję psa: tam nie ma sierści.\n– Co to jest?\n– Nic. To obroża. W dzień pan mnie przywiązuje.",
+        "– Przywiązuje cię? To nie chodzisz zawsze, dokąd chcesz?\n– Nie zawsze, nie. Ale to nieważne.",
+        "– Dla mnie to bardzo ważne – mówi wilk. – Jem rzadko, ale zawsze chodzę, dokąd chcę. Cześć!\nI wilk ucieka do lasu.",
+        "To jest morał bajki: wolność jest ważniejsza niż pełny brzuch."
+      ],
+      "a2": [
+        "Był sobie wilk tak chudy, że widać mu było kości. W lesie zima była długa i wilk miał zawsze pusty brzuch.",
+        "Pewnej nocy, przy świetle księżyca, spotkał psa podwórzowego: grubego, silnego, o lśniącej sierści. Wilk chciał go zaatakować, ale pies był większy od niego. Więc wilk wolał porozmawiać.",
+        "– Gratuluję! Ty jesteś gruby, a ja chudy. Ty jesteś silny, a ja słaby. Jak to możliwe?",
+        "– Zostaw las i chodź ze mną – odpowiedział pies. – U nas życie jest łatwe, nie trudne jak tutaj. Wystarczy pilnować domu i być miłym dla pana. W zamian miska jest zawsze pełna.",
+        "Wilk się zgodził. Kiedy szli, zauważył jednak coś dziwnego: na szyi psa nie było sierści.\n– Co ci się stało w szyję?\n– Nic poważnego. To ślad po obroży: w dzień jestem przywiązany do łańcucha. W nocy za to jestem wolny.",
+        "Wilk się zatrzymał.\n– Przywiązany? To nie możesz chodzić, dokąd chcesz?\n– Nie zawsze. Ale co to ma za znaczenie?",
+        "– Ogromne znaczenie – powiedział wilk. – Wolę być chudy i wolny niż gruby i przywiązany.\nI pobiegł z powrotem do lasu. Biegnie do dziś.",
+        "Jean de La Fontaine opublikował tę bajkę w 1668 roku, w pierwszej księdze swoich Bajek; historia pochodzi od Ezopa. We Francji wiele dzieci uczy się jej w szkole na pamięć. Morał jest jasny: wolność jest warta więcej niż jakakolwiek wygoda."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Ormanda bir kurt yaşar. Zayıftır, çok zayıf: nadiren yemek yer, bazen üç gün hiçbir şey yemez.",
+        "Bir gece kurt bir köpekle karşılaşır. Köpek iri, şişman ve güzeldir. Kurt açtır ama köpek güçlüdür. Bu yüzden kurt kibar davranır:\n– Tüylerin ne kadar güzel! Bunu nasıl yapıyorsun?",
+        "– Kolay – der köpek. – Ben hep yerim: ekmek, çorba, sahibimin akşam yemeğinden artanlar.",
+        "– Benimle gel. İş kolay: geceleri evi beklersin, bazen de havlarsın. Hem hiç aç kalmazsın!",
+        "Kurt sevinir ve köpekle yürür. Ama bir ara köpeğin boynuna bakar: orada tüy yoktur.\n– Bu ne?\n– Hiç. Tasma. Gündüzleri sahibim beni bağlar.",
+        "– Seni bağlıyor mu? Yani her zaman istediğin yere gidemiyor musun?\n– Her zaman değil, hayır. Ama önemli değil.",
+        "– Benim için çok önemli – der kurt. – Ben nadiren yerim ama hep istediğim yere giderim. Hoşça kal!\nVe kurt koşarak ormana gider.",
+        "Masalın ana fikri şu: özgürlük, dolu bir mideden daha önemlidir."
+      ],
+      "a2": [
+        "Bir zamanlar öyle zayıf bir kurt varmış ki kemikleri görünürmüş. Ormanda kış uzun sürmüş, kurdun midesi hep boşmuş.",
+        "Bir gece, ay ışığında, bir bekçi köpeğiyle karşılaşmış: şişman, güçlü, tüyleri parlak. Kurt ona saldırmak istemiş ama köpek ondan daha iriymiş. Bu yüzden kurt konuşmayı tercih etmiş.",
+        "– Tebrikler! Sen şişmansın, ben zayıfım. Sen güçlüsün, ben güçsüzüm. Bu nasıl oluyor?",
+        "– Ormanı bırak da benimle gel – demiş köpek. – Bizde hayat kolay, burası gibi zor değil. Evi beklemek ve sahibine karşı iyi olmak yeter. Karşılığında kabın hep dolu olur.",
+        "Kurt kabul etmiş. Ama yürürlerken tuhaf bir şey fark etmiş: köpeğin boynunda tüy yokmuş.\n– Boynuna ne oldu?\n– Önemli bir şey değil. Tasmanın izi: gündüzleri zincire bağlıyım. Geceleri ise serbestim.",
+        "Kurt durmuş.\n– Bağlı mı? Yani istediğin yere gidemiyor musun?\n– Her zaman değil. Ama ne önemi var?",
+        "– Çok önemi var – demiş kurt. – Zayıf ve özgür olmayı, şişman ve bağlı olmaya tercih ederim.\nVe koşarak ormana gitmiş. Hâlâ koşuyor.",
+        "Jean de La Fontaine bu masalı 1668'de, Masallar'ının ilk kitabında yayımladı; hikâye Ezop'tan gelir. Fransa'da birçok çocuk onu okulda ezberler. Ana fikri açık: özgürlük her türlü rahatlıktan daha değerlidir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Im Wald lebt ein Wolf. Er ist dünn, sehr dünn: Er frisst selten, und manchmal frisst er drei Tage lang nichts.",
+        "Eines Nachts trifft der Wolf einen Hund. Der Hund ist groß, dick und schön. Der Wolf hat Hunger, aber der Hund ist stark. Also ist der Wolf freundlich:\n– Was für ein schönes Fell du hast! Wie machst du das?",
+        "– Das ist einfach – sagt der Hund. – Ich esse immer: Brot, Suppe, die Reste vom Abendessen meines Herrn.",
+        "– Komm mit mir. Die Arbeit ist leicht: Nachts bewachst du das Haus und manchmal bellst du. Und du hast nie Hunger!",
+        "Der Wolf freut sich und geht mit dem Hund. Aber irgendwann schaut er auf den Hals des Hundes: Dort ist kein Fell.\n– Was ist das?\n– Nichts. Das ist das Halsband. Am Tag bindet mich mein Herr an.",
+        "– Er bindet dich an? Dann gehst du nicht immer, wohin du willst?\n– Nicht immer, nein. Aber das ist nicht wichtig.",
+        "– Für mich ist das sehr wichtig – sagt der Wolf. – Ich fresse selten, aber ich gehe immer, wohin ich will. Tschüss!\nUnd der Wolf rennt weg, in den Wald.",
+        "Das ist die Moral der Fabel: Freiheit ist wichtiger als ein voller Bauch."
+      ],
+      "a2": [
+        "Es war einmal ein Wolf, so dünn, dass man seine Knochen sah. Im Wald war der Winter lang gewesen, und der Wolf hatte immer einen leeren Bauch.",
+        "Eines Nachts traf er im Mondschein einen Wachhund: dick, stark, mit glänzendem Fell. Der Wolf wollte ihn angreifen, aber der Hund war größer als er. Also redete der Wolf lieber.",
+        "– Glückwunsch! Du bist dick und ich bin dünn. Du bist stark und ich bin schwach. Wie kommt das?",
+        "– Verlass den Wald und komm mit mir – antwortete der Hund. – Bei uns ist das Leben leicht, nicht schwer wie hier. Du musst nur das Haus bewachen und nett zum Herrn sein. Dafür ist der Napf immer voll.",
+        "Der Wolf war einverstanden. Während sie gingen, bemerkte er aber etwas Seltsames: Am Hals des Hundes war kein Fell.\n– Was hast du am Hals?\n– Nichts Schlimmes. Das ist der Abdruck vom Halsband: Am Tag bin ich an die Kette gebunden. Nachts bin ich dafür frei.",
+        "Der Wolf blieb stehen.\n– Angebunden? Dann kannst du nicht gehen, wohin du willst?\n– Nicht immer. Aber was macht das schon?",
+        "– Das macht sehr viel – sagte der Wolf. – Lieber bin ich dünn und frei als dick und angebunden.\nUnd er rannte davon in Richtung Wald. Er rennt heute noch.",
+        "Jean de La Fontaine hat diese Fabel 1668 im ersten Buch seiner Fabeln veröffentlicht; die Geschichte stammt von Äsop. In Frankreich lernen viele Kinder sie in der Schule auswendig. Die Moral ist klar: Freiheit ist mehr wert als jede Bequemlichkeit."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "森にオオカミが住んでいます。やせています。とてもやせています。めったに食べられず、三日も何も食べないこともあります。",
+        "ある夜、オオカミは犬に会います。犬は大きくて、太っていて、立派です。オオカミはおなかがすいていますが、犬は強そうです。そこでオオカミはていねいに話します。\n「なんてきれいな毛並みだろう！　どうしたらそうなれるの？」",
+        "「かんたんさ」と犬は言います。「ぼくはいつも食べているよ。パンやスープ、ご主人の晩ごはんの残りものをね。」",
+        "「ぼくといっしょにおいでよ。仕事はかんたんだ。夜に家の番をして、ときどきほえるだけ。それに、おなかがすくことは絶対にないよ！」",
+        "オオカミは喜んで、犬といっしょに歩きます。でも、ふと犬の首を見ると、そこだけ毛がありません。\n「これは何？」\n「なんでもないよ。首輪だよ。昼間はご主人がぼくをつないでおくんだ。」",
+        "「つながれているの？　じゃあ、いつも好きなところへ行けるわけじゃないんだね？」\n「いつもじゃないね。でも、たいしたことじゃないよ。」",
+        "「ぼくにはとても大事なことだよ」とオオカミは言います。「ぼくはめったに食べられないけど、いつでも好きなところへ行ける。さようなら！」\nそしてオオカミは森の中へ走っていきます。",
+        "これがこのお話の教訓です。自由は、満腹よりも大切なのです。"
+      ],
+      "a2": [
+        "むかし、骨が見えるほどやせたオオカミがいました。森では長い冬が続き、オオカミのおなかはいつも空っぽでした。",
+        "ある月夜の晩、オオカミは番犬に出会いました。太っていて、強そうで、毛並みはつやつやしていました。オオカミは襲いかかろうと思いましたが、犬のほうが体が大きかったのです。そこでオオカミは話しかけることにしました。",
+        "「おみごと！　きみは太っていて、ぼくはやせている。きみは強くて、ぼくは弱い。どうしてだい？」",
+        "「森を出て、ぼくといっしょにおいで」と犬は答えました。「うちでは暮らしは楽だよ。ここみたいに苦しくはない。家の番をして、ご主人に愛想よくしていればいいんだ。そのかわり、おわんはいつもいっぱいさ。」",
+        "オオカミは承知しました。ところが歩いているうちに、おかしなことに気づきました。犬の首には毛がなかったのです。\n「首をどうしたの？」\n「たいしたことじゃないよ。首輪のあとさ。昼間は鎖につながれているんだ。でも、夜は自由だよ。」",
+        "オオカミは立ち止まりました。\n「つながれている？　じゃあ、好きなところへ行けないの？」\n「いつもじゃないね。でも、それがどうしたっていうんだい？」",
+        "「大ありさ」とオオカミは言いました。「太ってつながれているより、やせていても自由なほうがいい。」\nそしてオオカミは森のほうへ走り去りました。今もまだ走っています。",
+        "ジャン・ド・ラ・フォンテーヌは1668年に『寓話』の第一巻でこの話を発表しました。もとはイソップの話です。フランスでは多くの子どもたちが学校でこれを暗記します。教訓ははっきりしています。自由は、どんな快適さよりも価値があるのです。"
+      ]
+    }
+  }
+}
