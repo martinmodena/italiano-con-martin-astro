@@ -1,0 +1,398 @@
+{
+  "id": "il-corvo-e-la-volpe",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il corvo",
+      "forme": ["corvo"],
+      "formeEsempi": ["corvi"],
+      "esempi": ["Il corvo è un uccello tutto nero.", "Sul tetto c'è un corvo che gracchia.", "I corvi sono uccelli molto intelligenti."],
+      "traduzioni": { "en": "crow", "es": "cuervo", "pt": "corvo", "fr": "corbeau", "cs": "havran", "pl": "kruk", "tr": "karga", "de": "Rabe", "ja": "カラス" }
+    },
+    {
+      "parola": "il becco",
+      "forme": ["becco"],
+      "esempi": ["L'uccellino ha un piccolo becco giallo.", "Il pappagallo apre il becco e parla.", "La gallina cerca i semi con il becco."],
+      "traduzioni": { "en": "beak", "es": "pico", "pt": "bico", "fr": "bec", "cs": "zobák", "pl": "dziób", "tr": "gaga", "de": "Schnabel", "ja": "くちばし" }
+    },
+    {
+      "parola": "il formaggio",
+      "forme": ["formaggio"],
+      "formeEsempi": ["formaggi"],
+      "esempi": ["Mi piace la pasta con il formaggio.", "In Italia ci sono tantissimi formaggi.", "Compro un pezzo di formaggio al mercato."],
+      "traduzioni": { "en": "cheese", "es": "queso", "pt": "queijo", "fr": "fromage", "cs": "sýr", "pl": "ser", "tr": "peynir", "de": "Käse", "ja": "チーズ" }
+    },
+    {
+      "parola": "la volpe",
+      "forme": ["volpe"],
+      "esempi": ["La volpe ha la coda lunga e rossa.", "Di notte una volpe è entrata nel giardino.", "Nelle favole la volpe è sempre furba."],
+      "traduzioni": { "en": "fox", "es": "zorra, zorro", "pt": "raposa", "fr": "renard", "cs": "liška", "pl": "lis", "tr": "tilki", "de": "Fuchs", "ja": "キツネ" }
+    },
+    {
+      "parola": "il profumo",
+      "forme": ["profumo"],
+      "esempi": ["Che buon profumo di pane!", "In primavera il giardino ha un profumo di fiori.", "Dalla cucina arriva un profumo di caffè."],
+      "traduzioni": { "en": "smell, scent (here not “perfume”)", "es": "olor (aquí no «perfume»)", "pt": "cheiro (aqui não «perfume»)", "fr": "odeur (ici pas « parfum » en flacon)", "cs": "vůně", "pl": "zapach", "tr": "koku", "de": "Duft, Geruch (hier nicht „Parfüm“)", "ja": "におい、香り" }
+    },
+    {
+      "parola": "la piuma",
+      "forme": ["piume"],
+      "formeEsempi": ["piuma"],
+      "esempi": ["Il pavone ha piume coloratissime.", "Questo cuscino è pieno di piume.", "Questa borsa è leggera come una piuma!"],
+      "traduzioni": { "en": "feather", "es": "pluma", "pt": "pena", "fr": "plume", "cs": "pírko, peří", "pl": "pióro", "tr": "tüy", "de": "Feder", "ja": "羽" }
+    },
+    {
+      "parola": "elegante",
+      "forme": ["elegante"],
+      "esempi": ["Stasera sei molto elegante!", "Mio nonno porta sempre un cappello elegante.", "È un ristorante elegante in centro."],
+      "traduzioni": { "en": "elegant, smart", "es": "elegante", "pt": "elegante", "fr": "élégant", "cs": "elegantní", "pl": "elegancki", "tr": "zarif, şık", "de": "elegant", "ja": "上品な、おしゃれな" }
+    },
+    {
+      "parola": "l'ala",
+      "forme": ["ali"],
+      "formeEsempi": ["ala"],
+      "esempi": ["L'aquila apre le sue grandi ali.", "L'uccellino ha un'ala ferita.", "Le farfalle hanno ali coloratissime."],
+      "traduzioni": { "en": "wing (plural: le ali)", "es": "ala (plural: le ali)", "pt": "asa (plural: le ali)", "fr": "aile (pluriel : le ali)", "cs": "křídlo (množné číslo: le ali)", "pl": "skrzydło (l. mn.: le ali)", "tr": "kanat (çoğulu: le ali)", "de": "Flügel (Plural: le ali)", "ja": "つばさ（複数形は le ali）" }
+    },
+    {
+      "parola": "il re",
+      "forme": ["re"],
+      "esempi": ["Il re vive in un grande castello.", "Il leone è il re della foresta.", "Vittorio Emanuele II è stato il primo re d'Italia."],
+      "traduzioni": { "en": "king", "es": "rey", "pt": "rei", "fr": "roi", "cs": "král", "pl": "król", "tr": "kral", "de": "König", "ja": "王さま" }
+    },
+    {
+      "parola": "il consiglio",
+      "forme": ["consiglio"],
+      "esempi": ["Ti do un consiglio: studia un po' ogni giorno.", "Ho chiesto un consiglio a mia madre.", "Grazie del consiglio!"],
+      "traduzioni": { "en": "piece of advice (here not “council”)", "es": "consejo", "pt": "conselho", "fr": "conseil", "cs": "rada", "pl": "rada", "tr": "tavsiye, öğüt", "de": "Rat, Ratschlag", "ja": "忠告、アドバイス" }
+    },
+    {
+      "parola": "il complimento",
+      "forme": ["complimenti"],
+      "formeEsempi": ["complimento"],
+      "esempi": ["Mi ha fatto un complimento per il vestito.", "Complimenti, hai cucinato benissimo!", "Non mi piacciono i complimenti falsi."],
+      "traduzioni": { "en": "compliment", "es": "cumplido", "pt": "elogio", "fr": "compliment", "cs": "kompliment, lichotka", "pl": "komplement", "tr": "iltifat", "de": "Kompliment", "ja": "ほめ言葉、おせじ" }
+    },
+    {
+      "parola": "vuoto",
+      "forme": ["vuoto"],
+      "formeEsempi": ["vuota"],
+      "esempi": ["Il frigorifero è vuoto: andiamo a fare la spesa.", "La sala era vuota.", "Hai il bicchiere vuoto: vuoi ancora acqua?"],
+      "traduzioni": { "en": "empty", "es": "vacío", "pt": "vazio", "fr": "vide", "cs": "prázdný", "pl": "pusty", "tr": "boş", "de": "leer", "ja": "空っぽの" }
+    },
+    {
+      "parola": "credere (a)",
+      "forme": ["credere", "credi"],
+      "formeEsempi": ["credo"],
+      "esempi": ["Non credere a tutto quello che leggi.", "Ti credo: so che dici la verità.", "Credi alle sue promesse?"],
+      "traduzioni": { "en": "to believe (someone)", "es": "creer (a alguien)", "pt": "acreditar (em alguém)", "fr": "croire (quelqu’un)", "cs": "věřit (někomu)", "pl": "wierzyć (komuś)", "tr": "(birine) inanmak", "de": "(jemandem) glauben", "ja": "信じる" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "il ramo",
+      "forme": ["ramo"],
+      "formeEsempi": ["rami"],
+      "esempi": ["Un uccellino canta su un ramo.", "Il vento ha rotto un ramo dell'albero.", "In primavera i rami sono pieni di fiori."],
+      "traduzioni": { "en": "branch", "es": "rama", "pt": "galho", "fr": "branche", "cs": "větev", "pl": "gałąź", "tr": "dal", "de": "Ast, Zweig", "ja": "枝" }
+    },
+    {
+      "parola": "dal basso",
+      "forme": ["basso"],
+      "esempi": ["Dal basso, la torre sembra altissima.", "Guardo la montagna dal basso.", "Dal basso non si vede il tetto."],
+      "traduzioni": { "en": "from below", "es": "desde abajo", "pt": "de baixo", "fr": "d’en bas", "cs": "zdola", "pl": "z dołu", "tr": "aşağıdan", "de": "von unten", "ja": "下から" }
+    },
+    {
+      "parola": "lassù",
+      "forme": ["lassù"],
+      "esempi": ["Vedi il castello lassù sulla collina?", "Il gatto è salito lassù e non scende più.", "Lassù in montagna fa freddo."],
+      "traduzioni": { "en": "up there", "es": "allá arriba", "pt": "lá em cima", "fr": "là-haut", "cs": "tam nahoře", "pl": "tam w górze", "tr": "oraya, yukarıya", "de": "da oben", "ja": "あの上に、あそこ" }
+    },
+    {
+      "parola": "volare",
+      "forme": ["volare"],
+      "formeEsempi": ["volano", "vola"],
+      "esempi": ["In autunno gli uccelli volano verso sud.", "Ho paura di volare in aereo.", "Il palloncino vola via."],
+      "traduzioni": { "en": "to fly", "es": "volar", "pt": "voar", "fr": "voler", "cs": "létat", "pl": "latać", "tr": "uçmak", "de": "fliegen", "ja": "飛ぶ" }
+    },
+    {
+      "parola": "l'inchino",
+      "forme": ["inchino"],
+      "esempi": ["L'attore fa un inchino alla fine dello spettacolo.", "In Giappone l'inchino è un saluto.", "Ha salutato la regina con un inchino."],
+      "traduzioni": { "en": "bow (with the head and body)", "es": "reverencia", "pt": "reverência", "fr": "révérence", "cs": "úklona", "pl": "ukłon", "tr": "eğilerek selam", "de": "Verbeugung", "ja": "おじぎ" }
+    },
+    {
+      "parola": "ammirare",
+      "forme": ["ammirano"],
+      "formeEsempi": ["ammiro"],
+      "esempi": ["Ammiro molto il coraggio di mia sorella.", "I turisti ammirano il Colosseo.", "Tutti ammirano il suo lavoro."],
+      "traduzioni": { "en": "to admire", "es": "admirar", "pt": "admirar", "fr": "admirer", "cs": "obdivovat", "pl": "podziwiać", "tr": "hayran olmak", "de": "bewundern", "ja": "あこがれる、感心する" }
+    },
+    {
+      "parola": "con piacere",
+      "forme": ["piacere"],
+      "esempi": ["«Vieni a cena da noi?» «Con piacere!»", "Leggo sempre con piacere i tuoi messaggi.", "Ti aiuto con piacere."],
+      "traduzioni": { "en": "with pleasure, gladly", "es": "con gusto, con placer", "pt": "com prazer", "fr": "avec plaisir", "cs": "s potěšením, rád", "pl": "z przyjemnością", "tr": "keyifle, memnuniyetle", "de": "gern", "ja": "喜んで" }
+    },
+    {
+      "parola": "al volo",
+      "forme": ["volo"],
+      "esempi": ["Il cane prende la palla al volo.", "Ho preso l'autobus al volo.", "Ha capito al volo che cosa volevo dire."],
+      "traduzioni": { "en": "in mid-air, on the fly", "es": "al vuelo", "pt": "no ar, no voo", "fr": "au vol", "cs": "v letu", "pl": "w locie", "tr": "havada", "de": "im Flug", "ja": "空中で、さっと" }
+    },
+    {
+      "parola": "il boccone",
+      "forme": ["boccone"],
+      "esempi": ["Ha mangiato il panino in un boccone.", "Assaggia un boccone di questa torta!", "Non parlare con il boccone in bocca."],
+      "traduzioni": { "en": "mouthful, bite («in un boccone» = in one gulp)", "es": "bocado", "pt": "bocado", "fr": "bouchée", "cs": "sousto", "pl": "kęs", "tr": "lokma", "de": "Bissen", "ja": "ひと口" }
+    },
+    {
+      "parola": "vivere alle spalle di",
+      "forme": ["spalle"],
+      "esempi": ["Ha trent'anni e vive ancora alle spalle dei genitori.", "Non voglio vivere alle spalle di nessuno.", "Lavora poco e vive alle spalle della sorella."],
+      "traduzioni": { "en": "to live off someone, at their expense", "es": "vivir a costa de", "pt": "viver às custas de", "fr": "vivre aux dépens de", "cs": "žít na účet někoho", "pl": "żyć na czyjś koszt", "tr": "birinin sırtından geçinmek", "de": "auf Kosten von jemandem leben", "ja": "人の世話になって暮らす" }
+    },
+    {
+      "parola": "vergognarsi",
+      "forme": ["vergognato"],
+      "formeEsempi": ["vergogno", "vergognarti"],
+      "esempi": ["Mi vergogno di parlare in pubblico.", "Si è vergognato del suo errore.", "Non vergognarti, tutti sbagliano!"],
+      "traduzioni": { "en": "to be ashamed, to feel embarrassed", "es": "avergonzarse", "pt": "ter vergonha", "fr": "avoir honte", "cs": "stydět se", "pl": "wstydzić się", "tr": "utanmak", "de": "sich schämen", "ja": "恥ずかしく思う" }
+    },
+    {
+      "parola": "giurare",
+      "forme": ["giurato"],
+      "formeEsempi": ["giuro"],
+      "esempi": ["Ti giuro che è vero!", "Ha giurato di non fumare più.", "Giuro, non lo dico a nessuno."],
+      "traduzioni": { "en": "to swear, to promise", "es": "jurar", "pt": "jurar", "fr": "jurer", "cs": "přísahat", "pl": "przysięgać", "tr": "yemin etmek", "de": "schwören", "ja": "ちかう" }
+    },
+    {
+      "parola": "tardi",
+      "forme": ["tardi"],
+      "esempi": ["Scusa, sono arrivato tardi.", "È tardi: andiamo a dormire.", "Ho capito troppo tardi il mio errore."],
+      "traduzioni": { "en": "late («troppo tardi» = too late)", "es": "tarde", "pt": "tarde", "fr": "tard", "cs": "pozdě", "pl": "późno", "tr": "geç", "de": "spät", "ja": "遅く（«troppo tardi» = 手おくれ）" }
+    },
+    {
+      "parola": "riprendere",
+      "forme": ["riprendendo"],
+      "formeEsempi": ["riprende", "ripreso"],
+      "esempi": ["Il film riprende una vecchia storia.", "Questa canzone riprende una melodia popolare.", "Lo scrittore ha ripreso un'idea di Dante."],
+      "traduzioni": { "en": "to take up, to rework (an older story)", "es": "retomar", "pt": "retomar", "fr": "reprendre", "cs": "navázat na, převzít", "pl": "sięgnąć po, przejąć", "tr": "yeniden ele almak", "de": "aufgreifen", "ja": "取り入れる、もとにする" }
+    },
+    {
+      "parola": "antico",
+      "forme": ["antica"],
+      "formeEsempi": ["antico", "antiche"],
+      "esempi": ["Roma è una città antica.", "Ho comprato un tavolo antico.", "Le storie antiche sono piene di saggezza."],
+      "traduzioni": { "en": "ancient, very old", "es": "antiguo", "pt": "antigo", "fr": "ancien", "cs": "starobylý, dávný", "pl": "starożytny, dawny", "tr": "eski, kadim", "de": "alt, uralt", "ja": "古い、昔の" }
+    },
+    {
+      "parola": "a memoria",
+      "forme": ["memoria"],
+      "esempi": ["Ho imparato la poesia a memoria.", "Sai a memoria il mio numero di telefono?", "Gli attori imparano il testo a memoria."],
+      "traduzioni": { "en": "by heart", "es": "de memoria", "pt": "de cor", "fr": "par cœur", "cs": "nazpaměť", "pl": "na pamięć", "tr": "ezbere", "de": "auswendig", "ja": "暗記して" }
+    },
+    {
+      "parola": "la poesia",
+      "forme": ["poesie"],
+      "formeEsempi": ["poesia"],
+      "esempi": ["Leopardi ha scritto poesie bellissime.", "A scuola leggiamo una poesia ogni settimana.", "Mi scrivi una poesia per il compleanno?"],
+      "traduzioni": { "en": "poem", "es": "poema, poesía", "pt": "poema, poesia", "fr": "poème", "cs": "báseň", "pl": "wiersz", "tr": "şiir", "de": "Gedicht", "ja": "詩" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a tree there's a crow. In his beak he has a piece of cheese. Under the tree a fox goes by. The fox is hungry and smells the cheese.",
+        "The fox looks at the crow and says:\n– Good morning, Mr Crow! How beautiful your feathers are! How elegant your beak is! How big your wings are!",
+        "The crow is happy. He raises his head and opens his wings.",
+        "– And your voice? – asks the fox. – If your voice is as beautiful as your feathers, you are the king of the forest!",
+        "The crow wants everyone to hear his voice. He opens his big beak and sings: “Caw! Caw!”. His cheese falls to the ground.",
+        "The fox takes the cheese and eats it.\n– Thank you, my friend! Here's my advice: whoever pays lots of compliments always wants something.",
+        "The crow looks at his empty beak. His cheese is gone.",
+        "That's the moral of the fable: we shouldn't immediately believe people who pay us too many compliments."
+      ],
+      "a2": [
+        "A crow found a piece of cheese. He took it in his beak and carried it to a high branch. A fox saw him from below, smelled the cheese and thought: “I want that cheese”.",
+        "But how could she get all the way up there? The fox can't fly. So she made a deep bow and began to speak:\n– Good morning, Mr Crow! I've been watching you for a long time. Everyone knows you and everyone admires you. You're the most beautiful bird in the forest!",
+        "The crow listened to her with pleasure. Nobody ever spoke to him like that. The fox went on:\n– I know your feathers, but I've never heard your voice. May I hear it, just once?",
+        "The crow opened his beak to sing. The cheese fell. The fox caught it in mid-air and ate it in one bite.",
+        "– Thank you, Mr Crow, – she said. – I'll leave you a piece of advice: every flatterer lives at the expense of those who listen to him. This lesson is surely worth a cheese, don't you think?",
+        "The crow felt ashamed and swore: “I'll never listen to compliments again”. But it was too late.",
+        "Jean de La Fontaine published this fable in 1668, taking up a much older story that can already be found in Aesop. In France it is one of the most famous poems: many children learn it by heart at school."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un árbol hay un cuervo. En el pico tiene un trozo de queso. Debajo del árbol pasa una zorra. La zorra tiene hambre y huele el queso.",
+        "La zorra mira al cuervo y dice:\n– ¡Buenos días, señor cuervo! ¡Qué bonitas son tus plumas! ¡Qué elegante es tu pico! ¡Qué grandes son tus alas!",
+        "El cuervo está contento. Levanta la cabeza y abre las alas.",
+        "– ¿Y tu voz? – pregunta la zorra. – Si tu voz es tan bonita como tus plumas, ¡eres el rey del bosque!",
+        "El cuervo quiere que todos oigan su voz. Abre su gran pico y canta: «¡Cra! ¡Cra!». Su queso cae al suelo.",
+        "La zorra coge el queso y se lo come.\n– ¡Gracias, amigo mío! Aquí tienes mi consejo: quien hace muchos cumplidos siempre quiere algo.",
+        "El cuervo mira su pico vacío. Su queso ya no está.",
+        "Es la moraleja de la fábula: no debemos creer enseguida a quien nos hace demasiados cumplidos."
+      ],
+      "a2": [
+        "Un cuervo encontró un trozo de queso. Lo cogió con el pico y lo llevó a una rama alta. Una zorra lo vio desde abajo, olió el queso y pensó: «Ese queso lo quiero yo».",
+        "Pero ¿cómo llegar hasta allá arriba? La zorra no sabe volar. Entonces hizo una gran reverencia y empezó a hablar:\n– ¡Buenos días, señor cuervo! Te observo desde hace mucho tiempo. Todos te conocen y todos te admiran. ¡Eres el pájaro más bonito del bosque!",
+        "El cuervo la escuchó con gusto. Nadie le hablaba nunca así. La zorra continuó:\n– Tus plumas las conozco, pero tu voz no la he oído nunca. ¿Puedo oírla, solo una vez?",
+        "El cuervo abrió el pico para cantar. El queso se cayó. La zorra lo atrapó al vuelo y se lo comió de un bocado.",
+        "– Gracias, señor cuervo – dijo. – Te dejo un consejo: el adulador vive a costa de quien lo escucha. Esta lección bien vale un queso, ¿no crees?",
+        "El cuervo sintió vergüenza y juró: «Ya no escucho más cumplidos». Pero era demasiado tarde.",
+        "Jean de La Fontaine publicó esta fábula en 1668, retomando una historia mucho más antigua que ya se lee en Esopo. En Francia es uno de los poemas más famosos: muchos niños se lo aprenden de memoria en el colegio."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Numa árvore há um corvo. No bico ele tem um pedaço de queijo. Embaixo da árvore passa uma raposa. A raposa está com fome e sente o cheiro do queijo.",
+        "A raposa olha para o corvo e diz:\n– Bom dia, senhor corvo! Como são bonitas as suas penas! Como é elegante o seu bico! Como são grandes as suas asas!",
+        "O corvo fica contente. Levanta a cabeça e abre as asas.",
+        "– E a sua voz? – pergunta a raposa. – Se a sua voz é bonita como as suas penas, você é o rei do bosque!",
+        "O corvo quer mostrar a sua voz. Abre o seu grande bico e canta: «Cra! Cra!». O queijo cai no chão.",
+        "A raposa pega o queijo e come.\n– Obrigada, meu amigo! Aqui vai o meu conselho: quem faz muitos elogios sempre quer alguma coisa.",
+        "O corvo olha para o seu bico vazio. O queijo não está mais lá.",
+        "Essa é a moral da fábula: não devemos acreditar logo em quem nos faz elogios demais."
+      ],
+      "a2": [
+        "Um corvo encontrou um pedaço de queijo. Pegou-o com o bico e o levou para um galho alto. Uma raposa o viu lá de baixo, sentiu o cheiro e pensou: «Esse queijo eu quero para mim».",
+        "Mas como chegar lá em cima? A raposa não sabe voar. Então fez uma grande reverência e começou a falar:\n– Bom dia, senhor corvo! Faz tempo que olho para você. Todos conhecem você e todos admiram você. Você é o pássaro mais bonito do bosque!",
+        "O corvo a escutou com prazer. Ninguém nunca falava assim com ele. A raposa continuou:\n– As suas penas eu conheço, mas a sua voz nunca ouvi. Posso ouvi-la, só uma vez?",
+        "O corvo abriu o bico para cantar. O queijo caiu. A raposa o pegou no ar e o comeu de uma só bocada.",
+        "– Obrigada, senhor corvo – disse ela. – Deixo um conselho: quem faz elogios vive às custas de quem os escuta. Essa lição vale bem um queijo, não acha?",
+        "O corvo ficou com vergonha e jurou: «Nunca mais escuto elogios». Mas era tarde demais.",
+        "Jean de La Fontaine publicou esta fábula em 1668, retomando uma história muito mais antiga, que já se lê em Esopo. Na França é um dos poemas mais famosos: muitas crianças o decoram na escola."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Sur un arbre, il y a un corbeau. Dans son bec, il tient un morceau de fromage. Sous l’arbre passe un renard. Le renard a faim et il sent l’odeur du fromage.",
+        "Le renard regarde le corbeau et dit :\n– Bonjour, Monsieur le Corbeau ! Comme tes plumes sont belles ! Comme ton bec est élégant ! Comme tes ailes sont grandes !",
+        "Le corbeau est content. Il lève la tête et ouvre ses ailes.",
+        "– Et ta voix ? – demande le renard. – Si ta voix est aussi belle que tes plumes, tu es le roi de la forêt !",
+        "Le corbeau veut faire entendre sa voix. Il ouvre son grand bec et chante : « Croa ! Croa ! ». Son fromage tombe par terre.",
+        "Le renard prend le fromage et le mange.\n– Merci, mon ami ! Voici mon conseil : celui qui fait beaucoup de compliments veut toujours quelque chose.",
+        "Le corbeau regarde son bec vide. Son fromage n’est plus là.",
+        "C’est la morale de la fable : il ne faut pas croire tout de suite ceux qui nous font trop de compliments."
+      ],
+      "a2": [
+        "Un corbeau a trouvé un morceau de fromage. Il l’a pris dans son bec et l’a porté sur une haute branche. Un renard l’a vu d’en bas, a senti l’odeur et a pensé : « Ce fromage, je le veux pour moi ».",
+        "Mais comment arriver là-haut ? Le renard ne sait pas voler. Alors il a fait une grande révérence et a commencé à parler :\n– Bonjour, Monsieur le Corbeau ! Je te regarde depuis longtemps. Tout le monde te connaît et tout le monde t’admire. Tu es le plus bel oiseau de la forêt !",
+        "Le corbeau l’a écouté avec plaisir. Personne ne lui parlait jamais ainsi. Le renard a continué :\n– Tes plumes, je les connais, mais ta voix, je ne l’ai jamais entendue. Est-ce que je peux l’entendre, juste une fois ?",
+        "Le corbeau a ouvert le bec pour chanter. Le fromage est tombé. Le renard l’a attrapé au vol et l’a mangé d’une bouchée.",
+        "– Merci, Monsieur le Corbeau, – a-t-il dit. – Je te laisse un conseil : tout flatteur vit aux dépens de celui qui l’écoute. Cette leçon vaut bien un fromage, tu ne crois pas ?",
+        "Le corbeau a eu honte et a juré : « Je n’écoute plus les compliments ». Mais il était trop tard.",
+        "Jean de La Fontaine a publié cette fable en 1668, en reprenant une histoire bien plus ancienne, qu’on lit déjà chez Ésope. En France, c’est l’un des poèmes les plus célèbres : beaucoup d’enfants l’apprennent par cœur à l’école."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Na stromě sedí havran. V zobáku má kousek sýra. Pod stromem jde liška. Liška má hlad a cítí vůni sýra.",
+        "Liška se podívá na havrana a říká:\n– Dobrý den, pane havrane! Ty máš ale krásná pírka! Ty máš ale elegantní zobák! Ty máš ale velká křídla!",
+        "Havran má radost. Zvedne hlavu a roztáhne křídla.",
+        "– A tvůj hlas? – ptá se liška. – Jestli je tvůj hlas krásný jako tvoje pírka, jsi král lesa!",
+        "Havran chce, aby všichni slyšeli jeho hlas. Otevře velký zobák a zpívá: „Kra! Kra!“. Sýr mu spadne na zem.",
+        "Liška vezme sýr a sní ho.\n– Děkuju, příteli! Tady je moje rada: kdo dělá hodně komplimentů, vždycky něco chce.",
+        "Havran se dívá na svůj prázdný zobák. Sýr je pryč.",
+        "To je ponaučení z bajky: nemáme hned věřit těm, kdo nám dělají příliš mnoho komplimentů."
+      ],
+      "a2": [
+        "Havran našel kousek sýra. Vzal ho do zobáku a odnesl ho na vysokou větev. Liška ho viděla zdola, ucítila vůni a pomyslela si: „Ten sýr chci já.“",
+        "Ale jak se dostat až tam nahoru? Liška neumí létat. Tak se hluboce uklonila a začala mluvit:\n– Dobrý den, pane havrane! Už dlouho se na tebe dívám. Všichni tě znají a všichni tě obdivují. Jsi nejkrásnější pták v lese!",
+        "Havran ji poslouchal s potěšením. Nikdo s ním nikdy takhle nemluvil. Liška pokračovala:\n– Tvoje pírka znám, ale tvůj hlas jsem nikdy neslyšela. Můžu ho slyšet, jen jednou?",
+        "Havran otevřel zobák, aby zazpíval. Sýr spadl. Liška ho chytila v letu a snědla ho na jedno sousto.",
+        "– Děkuju, pane havrane, – řekla. – Nechám ti jednu radu: kdo lichotí, žije na účet toho, kdo ho poslouchá. Tahle lekce stojí za jeden sýr, nemyslíš?",
+        "Havran se zastyděl a přísahal: „Komplimenty už nikdy poslouchat nebudu.“ Ale bylo pozdě.",
+        "Jean de La Fontaine vydal tuto bajku v roce 1668 a navázal v ní na mnohem starší příběh, který najdeme už u Ezopa. Ve Francii je to jedna z nejslavnějších básní: mnoho dětí se ji ve škole učí nazpaměť."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Na drzewie siedzi kruk. W dziobie ma kawałek sera. Pod drzewem przechodzi lis. Lis jest głodny i czuje zapach sera.",
+        "Lis patrzy na kruka i mówi:\n– Dzień dobry, panie kruku! Jakie piękne masz pióra! Jaki elegancki masz dziób! Jakie wielkie masz skrzydła!",
+        "Kruk jest zadowolony. Podnosi głowę i rozkłada skrzydła.",
+        "– A twój głos? – pyta lis. – Jeśli twój głos jest piękny jak twoje pióra, jesteś królem lasu!",
+        "Kruk chce, żeby wszyscy usłyszeli jego głos. Otwiera swój wielki dziób i śpiewa: „Kra! Kra!”. Ser spada na ziemię.",
+        "Lis bierze ser i go zjada.\n– Dziękuję, przyjacielu! Oto moja rada: kto prawi dużo komplementów, zawsze czegoś chce.",
+        "Kruk patrzy na swój pusty dziób. Sera już nie ma.",
+        "To jest morał bajki: nie powinniśmy od razu wierzyć tym, którzy prawią nam za dużo komplementów."
+      ],
+      "a2": [
+        "Kruk znalazł kawałek sera. Wziął go w dziób i zaniósł na wysoką gałąź. Lis zobaczył go z dołu, poczuł zapach i pomyślał: „Ten ser będzie mój”.",
+        "Ale jak dostać się tak wysoko? Lis nie umie latać. Zrobił więc głęboki ukłon i zaczął mówić:\n– Dzień dobry, panie kruku! Od dawna na ciebie patrzę. Wszyscy cię znają i wszyscy cię podziwiają. Jesteś najpiękniejszym ptakiem w lesie!",
+        "Kruk słuchał go z przyjemnością. Nikt nigdy tak do niego nie mówił. Lis mówił dalej:\n– Twoje pióra znam, ale twojego głosu nigdy nie słyszałem. Czy mogę go usłyszeć, tylko raz?",
+        "Kruk otworzył dziób, żeby zaśpiewać. Ser spadł. Lis złapał go w locie i zjadł jednym kęsem.",
+        "– Dziękuję, panie kruku – powiedział. – Zostawiam ci radę: pochlebca żyje na koszt tego, kto go słucha. Ta lekcja jest warta jednego sera, nie sądzisz?",
+        "Krukowi zrobiło się wstyd i przysiągł: „Już nigdy nie będę słuchał komplementów”. Ale było za późno.",
+        "Jean de La Fontaine opublikował tę bajkę w 1668 roku, sięgając po dużo starszą historię, którą można przeczytać już u Ezopa. We Francji to jeden z najsłynniejszych wierszy: wiele dzieci uczy się go w szkole na pamięć."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir ağaçta bir karga var. Gagasında bir parça peynir var. Ağacın altından bir tilki geçiyor. Tilki aç ve peynirin kokusunu alıyor.",
+        "Tilki kargaya bakıp diyor ki:\n– Günaydın, Karga Bey! Tüylerin ne kadar güzel! Gagan ne kadar zarif! Kanatların ne kadar büyük!",
+        "Karga seviniyor. Başını kaldırıyor ve kanatlarını açıyor.",
+        "– Ya sesin? – diye soruyor tilki. – Sesin de tüylerin kadar güzelse, sen ormanın kralısın!",
+        "Karga sesini duyurmak istiyor. Kocaman gagasını açıp ötüyor: «Gak! Gak!». Peyniri yere düşüyor.",
+        "Tilki peyniri alıp yiyor.\n– Teşekkürler, dostum! Sana bir tavsiyem var: çok iltifat eden hep bir şey ister.",
+        "Karga boş gagasına bakıyor. Peyniri artık yok.",
+        "Masalın ana fikri şu: bize fazla iltifat edenlere hemen inanmamalıyız."
+      ],
+      "a2": [
+        "Bir karga bir parça peynir bulmuş. Onu gagasına alıp yüksek bir dala götürmüş. Bir tilki onu aşağıdan görmüş, kokuyu almış ve düşünmüş: «O peynir benim olmalı».",
+        "Ama oraya kadar nasıl çıkacak? Tilki uçmayı bilmez. O da yerlere kadar eğilip konuşmaya başlamış:\n– Günaydın, Karga Bey! Seni uzun zamandır izliyorum. Herkes seni tanıyor, herkes sana hayran. Ormanın en güzel kuşu sensin!",
+        "Karga onu keyifle dinlemiş. Kimse onunla hiç böyle konuşmamıştı. Tilki devam etmiş:\n– Tüylerini biliyorum ama sesini hiç duymadım. Bir kerecik duyabilir miyim?",
+        "Karga ötmek için gagasını açmış. Peynir düşmüş. Tilki onu havada kapmış ve bir lokmada yemiş.",
+        "– Teşekkürler, Karga Bey – demiş. – Sana bir öğüt bırakıyorum: dalkavuk, onu dinleyenin sırtından geçinir. Bu ders bir peynire değer, değil mi?",
+        "Karga utanmış ve yemin etmiş: «Artık iltifatlara kulak asmayacağım». Ama çok geçti.",
+        "Jean de La Fontaine bu masalı 1668'de yayımlamış; çok daha eski, Ezop'ta bile okunan bir hikâyeyi yeniden anlatmış. Fransa'da en ünlü şiirlerden biridir: birçok çocuk onu okulda ezberler."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Auf einem Baum sitzt ein Rabe. In seinem Schnabel hat er ein Stück Käse. Unter dem Baum geht ein Fuchs vorbei. Der Fuchs hat Hunger und riecht den Käse.",
+        "Der Fuchs schaut den Raben an und sagt:\n– Guten Morgen, Herr Rabe! Wie schön deine Federn sind! Wie elegant dein Schnabel ist! Wie groß deine Flügel sind!",
+        "Der Rabe freut sich. Er hebt den Kopf und öffnet die Flügel.",
+        "– Und deine Stimme? – fragt der Fuchs. – Wenn deine Stimme so schön ist wie deine Federn, bist du der König des Waldes!",
+        "Der Rabe will seine Stimme hören lassen. Er öffnet seinen großen Schnabel und singt: „Krah! Krah!“. Sein Käse fällt auf den Boden.",
+        "Der Fuchs nimmt den Käse und frisst ihn.\n– Danke, mein Freund! Hier ist mein Rat: Wer viele Komplimente macht, will immer etwas.",
+        "Der Rabe schaut auf seinen leeren Schnabel. Sein Käse ist weg.",
+        "Das ist die Moral der Fabel: Wir sollen denen, die uns zu viele Komplimente machen, nicht sofort glauben."
+      ],
+      "a2": [
+        "Ein Rabe hat ein Stück Käse gefunden. Er hat es in den Schnabel genommen und auf einen hohen Ast gebracht. Ein Fuchs hat ihn von unten gesehen, den Käse gerochen und gedacht: „Diesen Käse will ich haben.“",
+        "Aber wie kommt man da hinauf? Der Fuchs kann nicht fliegen. Also hat er sich tief verbeugt und angefangen zu reden:\n– Guten Morgen, Herr Rabe! Ich schaue dich schon lange an. Alle kennen dich und alle bewundern dich. Du bist der schönste Vogel im Wald!",
+        "Der Rabe hat ihm gern zugehört. Niemand hatte je so mit ihm gesprochen. Der Fuchs hat weitergeredet:\n– Deine Federn kenne ich, aber deine Stimme habe ich noch nie gehört. Darf ich sie hören, nur ein einziges Mal?",
+        "Der Rabe hat den Schnabel geöffnet, um zu singen. Der Käse ist heruntergefallen. Der Fuchs hat ihn im Flug gefangen und mit einem Bissen gefressen.",
+        "– Danke, Herr Rabe, – hat er gesagt. – Ich gebe dir einen Rat: Jeder Schmeichler lebt auf Kosten dessen, der ihm zuhört. Diese Lektion ist doch einen Käse wert, findest du nicht?",
+        "Der Rabe hat sich geschämt und geschworen: „Komplimenten höre ich nie mehr zu.“ Aber es war zu spät.",
+        "Jean de La Fontaine hat diese Fabel 1668 veröffentlicht und dabei eine viel ältere Geschichte aufgegriffen, die man schon bei Äsop liest. In Frankreich ist sie eines der berühmtesten Gedichte: Viele Kinder lernen es in der Schule auswendig."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "木の上にカラスがいます。くちばしにチーズをひとかけらくわえています。木の下をキツネが通ります。キツネはおなかがすいていて、チーズのにおいに気づきます。",
+        "キツネはカラスを見て言います。\n「こんにちは、カラスさん！　なんてきれいな羽でしょう！　なんて上品なくちばしでしょう！　なんて大きなつばさでしょう！」",
+        "カラスはうれしくなります。頭を上げて、つばさを広げます。",
+        "「それで、あなたの声は？」とキツネがたずねます。「もし声も羽と同じくらいきれいなら、あなたは森の王さまです！」",
+        "カラスは自分の声を聞かせたくなります。大きなくちばしを開けて歌います。「カー！　カー！」　チーズは地面に落ちてしまいます。",
+        "キツネはチーズを拾って食べてしまいます。\n「ありがとう、カラスさん！　ひとつ忠告してあげましょう。たくさんほめる者は、いつも何かをほしがっているのですよ。」",
+        "カラスは空っぽのくちばしを見つめます。チーズはもうありません。",
+        "これがこのお話の教訓です。ほめすぎる人の言うことを、すぐに信じてはいけません。"
+      ],
+      "a2": [
+        "カラスがチーズをひとかけら見つけました。くちばしでくわえて、高い枝に運びました。キツネは下からそれを見て、においをかぎ、「あのチーズはわたしのものにしよう」と思いました。",
+        "でも、あんな高いところまでどうやって行けばいいのでしょう？　キツネは飛べません。そこでキツネは深々とおじぎをして、話し始めました。\n「こんにちは、カラスさん！　ずっと前からあなたを見ていました。みんながあなたを知っていて、みんながあなたにあこがれています。あなたは森でいちばん美しい鳥です！」",
+        "カラスはいい気分で聞いていました。だれもこんなふうに話しかけてくれたことはなかったのです。キツネは続けました。\n「羽のことは知っていますが、声はまだ聞いたことがありません。一度だけ、聞かせてもらえませんか？」",
+        "カラスは歌おうとして、くちばしを開けました。チーズが落ちました。キツネはそれを空中でさっと受け取り、ひと口で食べてしまいました。",
+        "「ありがとう、カラスさん」とキツネは言いました。「ひとつ忠告を残していきましょう。おせじを言う者は、それを聞く者のおかげで暮らしているのです。この教えはチーズひとつの値打ちがあるでしょう？」",
+        "カラスは恥ずかしくなって、「もう二度とおせじには耳を貸さない」とちかいました。でも、もう手おくれでした。",
+        "ジャン・ド・ラ・フォンテーヌは1668年にこの寓話を発表しました。もとは、イソップにもある、ずっと古いお話です。フランスではとても有名な詩で、多くの子どもたちが学校で暗記します。"
+      ]
+    }
+  }
+}
