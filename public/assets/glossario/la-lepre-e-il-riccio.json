@@ -1,0 +1,1088 @@
+{
+  "id": "la-lepre-e-il-riccio",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il riccio",
+      "forme": [
+        "riccio",
+        "ricci"
+      ],
+      "esempi": [
+        "Il riccio ha il corpo coperto di spine.",
+        "Di notte un riccio passa nel nostro giardino.",
+        "Quando ha paura, il riccio diventa una palla."
+      ],
+      "traduzioni": {
+        "en": "hedgehog",
+        "es": "erizo",
+        "pt": "ouriço",
+        "fr": "hérisson",
+        "cs": "ježek",
+        "pl": "jeż",
+        "tr": "kirpi",
+        "de": "Igel",
+        "ja": "ハリネズミ"
+      }
+    },
+    {
+      "parola": "la lepre",
+      "forme": [
+        "lepre"
+      ],
+      "esempi": [
+        "La lepre corre più veloce del coniglio.",
+        "La lepre ha le orecchie molto lunghe.",
+        "Nel campo abbiamo visto una lepre."
+      ],
+      "traduzioni": {
+        "en": "hare",
+        "es": "liebre",
+        "pt": "lebre",
+        "fr": "lièvre",
+        "cs": "zajíc",
+        "pl": "zając",
+        "tr": "tavşan (yabani)",
+        "de": "Hase",
+        "ja": "ウサギ（野ウサギ）"
+      }
+    },
+    {
+      "parola": "il campo",
+      "forme": [
+        "campo"
+      ],
+      "esempi": [
+        "In questo campo coltivano il grano.",
+        "Le mucche mangiano l'erba nel campo.",
+        "Dietro casa c'è un grande campo di girasoli."
+      ],
+      "traduzioni": {
+        "en": "field (here not “camp”)",
+        "es": "campo",
+        "pt": "campo",
+        "fr": "champ",
+        "cs": "pole",
+        "pl": "pole",
+        "tr": "tarla",
+        "de": "Feld",
+        "ja": "畑"
+      }
+    },
+    {
+      "parola": "antipatico",
+      "forme": [
+        "antipatica"
+      ],
+      "formeEsempi": [
+        "antipatico"
+      ],
+      "esempi": [
+        "Il nuovo collega è un po' antipatico.",
+        "Non essere antipatica con tua sorella!",
+        "Quel cameriere è proprio antipatico."
+      ],
+      "traduzioni": {
+        "en": "unpleasant, not nice",
+        "es": "antipático",
+        "pt": "antipático, chato",
+        "fr": "antipathique, désagréable",
+        "cs": "protivný, nesympatický",
+        "pl": "niesympatyczny",
+        "tr": "sevimsiz, itici",
+        "de": "unsympathisch",
+        "ja": "感じの悪い"
+      }
+    },
+    {
+      "parola": "corto",
+      "forme": [
+        "corte"
+      ],
+      "formeEsempi": [
+        "corti"
+      ],
+      "esempi": [
+        "Ho i capelli corti.",
+        "D'estate porto i pantaloni corti.",
+        "Il bassotto ha le gambe corte."
+      ],
+      "traduzioni": {
+        "en": "short",
+        "es": "corto",
+        "pt": "curto",
+        "fr": "court",
+        "cs": "krátký",
+        "pl": "krótki",
+        "tr": "kısa",
+        "de": "kurz",
+        "ja": "短い"
+      }
+    },
+    {
+      "parola": "la gamba",
+      "forme": [
+        "gambe"
+      ],
+      "formeEsempi": [
+        "gamba"
+      ],
+      "esempi": [
+        "Mi fa male la gamba destra.",
+        "La giraffa ha le gambe lunghissime.",
+        "Dopo la corsa ho le gambe stanche."
+      ],
+      "traduzioni": {
+        "en": "leg",
+        "es": "pierna, pata",
+        "pt": "perna",
+        "fr": "jambe",
+        "cs": "noha",
+        "pl": "noga",
+        "tr": "bacak",
+        "de": "Bein",
+        "ja": "足、脚"
+      }
+    },
+    {
+      "parola": "la gara",
+      "forme": [
+        "gara"
+      ],
+      "esempi": [
+        "Facciamo una gara: chi arriva primo?",
+        "Domenica c'è una gara di nuoto.",
+        "Ha vinto la gara di corsa."
+      ],
+      "traduzioni": {
+        "en": "race, competition",
+        "es": "carrera, competición",
+        "pt": "corrida, competição",
+        "fr": "course, compétition",
+        "cs": "závod",
+        "pl": "wyścig, zawody",
+        "tr": "yarış",
+        "de": "Wettrennen, Wettkampf",
+        "ja": "競走、競争"
+      }
+    },
+    {
+      "parola": "matto",
+      "forme": [
+        "matto"
+      ],
+      "formeEsempi": [
+        "matta"
+      ],
+      "esempi": [
+        "Sei matto? Fuori ci sono due gradi!",
+        "Mio zio è un po' matto, ma simpatico.",
+        "Questo traffico mi fa diventare matta!"
+      ],
+      "traduzioni": {
+        "en": "crazy, mad",
+        "es": "loco",
+        "pt": "maluco, louco",
+        "fr": "fou",
+        "cs": "blázen, bláznivý",
+        "pl": "szalony",
+        "tr": "deli",
+        "de": "verrückt",
+        "ja": "頭がおかしい、変な"
+      }
+    },
+    {
+      "parola": "la moglie",
+      "forme": [
+        "moglie"
+      ],
+      "esempi": [
+        "Mia moglie lavora in ospedale.",
+        "Ti presento mia moglie, Anna.",
+        "Il signor Rossi è uscito con sua moglie."
+      ],
+      "traduzioni": {
+        "en": "wife",
+        "es": "mujer, esposa",
+        "pt": "mulher, esposa",
+        "fr": "femme, épouse",
+        "cs": "žena, manželka",
+        "pl": "żona",
+        "tr": "karı, eş",
+        "de": "Frau, Ehefrau",
+        "ja": "妻、奥さん"
+      }
+    },
+    {
+      "parola": "pronto",
+      "forme": [
+        "pronta"
+      ],
+      "formeEsempi": [
+        "pronto"
+      ],
+      "esempi": [
+        "Sei pronta? Usciamo!",
+        "La cena è pronta!",
+        "Sono pronto per l'esame."
+      ],
+      "traduzioni": {
+        "en": "ready",
+        "es": "listo",
+        "pt": "pronto",
+        "fr": "prêt",
+        "cs": "připravený",
+        "pl": "gotowy",
+        "tr": "hazır",
+        "de": "bereit, fertig",
+        "ja": "準備ができた"
+      }
+    },
+    {
+      "parola": "uguale",
+      "forme": [
+        "uguali"
+      ],
+      "esempi": [
+        "I due gemelli sono uguali.",
+        "Queste due borse sono uguali.",
+        "Le nostre magliette sono uguali!"
+      ],
+      "traduzioni": {
+        "en": "the same, identical",
+        "es": "igual",
+        "pt": "igual",
+        "fr": "pareil, identique",
+        "cs": "stejný",
+        "pl": "taki sam",
+        "tr": "aynı, birbirinin aynı",
+        "de": "gleich",
+        "ja": "同じ、そっくりな"
+      }
+    },
+    {
+      "parola": "la differenza",
+      "forme": [
+        "differenza"
+      ],
+      "esempi": [
+        "Qual è la differenza tra queste due parole?",
+        "Non vedo nessuna differenza.",
+        "C'è una grande differenza di età tra loro."
+      ],
+      "traduzioni": {
+        "en": "difference",
+        "es": "diferencia",
+        "pt": "diferença",
+        "fr": "différence",
+        "cs": "rozdíl",
+        "pl": "różnica",
+        "tr": "fark",
+        "de": "Unterschied",
+        "ja": "違い"
+      }
+    },
+    {
+      "parola": "in fondo (a)",
+      "forme": [
+        "fondo"
+      ],
+      "esempi": [
+        "Il bagno è in fondo al corridoio.",
+        "Mi siedo in fondo all'autobus.",
+        "La nostra casa è in fondo alla strada."
+      ],
+      "traduzioni": {
+        "en": "at the (far) end of",
+        "es": "al fondo de, al final de",
+        "pt": "no fim de, no fundo de",
+        "fr": "au bout de, au fond de",
+        "cs": "na konci",
+        "pl": "na końcu",
+        "tr": "sonunda, dibinde",
+        "de": "am Ende von, hinten",
+        "ja": "（〜の）奥に、端に"
+      }
+    },
+    {
+      "parola": "l'inizio",
+      "forme": [
+        "inizio"
+      ],
+      "esempi": [
+        "All'inizio l'italiano è difficile.",
+        "L'inizio del film è noioso.",
+        "Ci vediamo all'inizio di maggio."
+      ],
+      "traduzioni": {
+        "en": "beginning, start",
+        "es": "principio, inicio",
+        "pt": "começo, início",
+        "fr": "début",
+        "cs": "začátek",
+        "pl": "początek",
+        "tr": "baş, başlangıç",
+        "de": "Anfang",
+        "ja": "はじめ、スタート"
+      }
+    },
+    {
+      "parola": "il vento",
+      "forme": [
+        "vento"
+      ],
+      "esempi": [
+        "Oggi c'è molto vento.",
+        "Il vento porta via il cappello.",
+        "Corre veloce come il vento."
+      ],
+      "traduzioni": {
+        "en": "wind",
+        "es": "viento",
+        "pt": "vento",
+        "fr": "vent",
+        "cs": "vítr",
+        "pl": "wiatr",
+        "tr": "rüzgâr",
+        "de": "Wind",
+        "ja": "風"
+      }
+    },
+    {
+      "parola": "il passo",
+      "forme": [
+        "passi"
+      ],
+      "formeEsempi": [
+        "passo"
+      ],
+      "esempi": [
+        "Il bambino fa i primi passi.",
+        "Fai un passo avanti, per favore.",
+        "Cammina a passi lenti."
+      ],
+      "traduzioni": {
+        "en": "step",
+        "es": "paso",
+        "pt": "passo",
+        "fr": "pas",
+        "cs": "krok",
+        "pl": "krok",
+        "tr": "adım",
+        "de": "Schritt",
+        "ja": "歩"
+      }
+    },
+    {
+      "parola": "indietro",
+      "forme": [
+        "indietro"
+      ],
+      "esempi": [
+        "Torna indietro, hai dimenticato le chiavi!",
+        "Fai un passo indietro.",
+        "Non guardare indietro."
+      ],
+      "traduzioni": {
+        "en": "back, backwards",
+        "es": "hacia atrás",
+        "pt": "para trás, de volta",
+        "fr": "en arrière",
+        "cs": "zpátky, dozadu",
+        "pl": "z powrotem, do tyłu",
+        "tr": "geri",
+        "de": "zurück",
+        "ja": "後ろへ、もどって"
+      }
+    },
+    {
+      "parola": "sorpreso",
+      "forme": [
+        "sorpresa"
+      ],
+      "formeEsempi": [
+        "sorpreso"
+      ],
+      "esempi": [
+        "Sono sorpreso: non ti aspettavo!",
+        "Mia madre è rimasta sorpresa del regalo.",
+        "Perché sei così sorpreso?"
+      ],
+      "traduzioni": {
+        "en": "surprised",
+        "es": "sorprendido",
+        "pt": "surpreso",
+        "fr": "surpris",
+        "cs": "překvapený",
+        "pl": "zaskoczony",
+        "tr": "şaşırmış",
+        "de": "überrascht",
+        "ja": "びっくりした"
+      }
+    },
+    {
+      "parola": "stanchissimo",
+      "forme": [
+        "stanchissima"
+      ],
+      "formeEsempi": [
+        "stanchissimo",
+        "stanchissimi"
+      ],
+      "esempi": [
+        "Dopo il lavoro sono stanchissimo.",
+        "Ho camminato tutto il giorno: sono stanchissima.",
+        "Dopo la partita i ragazzi sono stanchissimi."
+      ],
+      "traduzioni": {
+        "en": "very tired, exhausted",
+        "es": "agotado, cansadísimo",
+        "pt": "exausto, cansadíssimo",
+        "fr": "épuisé, très fatigué",
+        "cs": "úplně vyčerpaný",
+        "pl": "wykończony, bardzo zmęczony",
+        "tr": "çok yorgun, bitkin",
+        "de": "total erschöpft",
+        "ja": "へとへとの"
+      }
+    },
+    {
+      "parola": "furbo",
+      "forme": [
+        "furbo"
+      ],
+      "esempi": [
+        "La volpe è un animale furbo.",
+        "Che furbo: hai trovato un modo più veloce!",
+        "Mio fratello è furbo e trova sempre una scusa."
+      ],
+      "traduzioni": {
+        "en": "clever, cunning, smart",
+        "es": "listo, astuto",
+        "pt": "esperto",
+        "fr": "malin, rusé",
+        "cs": "chytrý, mazaný",
+        "pl": "sprytny",
+        "tr": "akıllı, kurnaz",
+        "de": "schlau",
+        "ja": "かしこい、ずる賢い"
+      }
+    },
+    {
+      "parola": "vincere",
+      "forme": [
+        "vincere",
+        "vince"
+      ],
+      "formeEsempi": [
+        "vinto"
+      ],
+      "esempi": [
+        "Chi vince la partita?",
+        "Ho vinto un premio!",
+        "Non è importante vincere, è importante giocare."
+      ],
+      "traduzioni": {
+        "en": "to win",
+        "es": "ganar",
+        "pt": "ganhar, vencer",
+        "fr": "gagner",
+        "cs": "vyhrát",
+        "pl": "wygrać",
+        "tr": "kazanmak",
+        "de": "gewinnen",
+        "ja": "勝つ"
+      }
+    },
+    {
+      "parola": "la morale",
+      "forme": [
+        "morale"
+      ],
+      "esempi": [
+        "La morale della storia è: non dire bugie.",
+        "Ogni favola di Esopo ha una morale.",
+        "Qual è la morale di questo racconto?"
+      ],
+      "traduzioni": {
+        "en": "moral (of a story)",
+        "es": "moraleja",
+        "pt": "moral (da história)",
+        "fr": "morale (d’une histoire)",
+        "cs": "ponaučení",
+        "pl": "morał",
+        "tr": "ana fikir, kıssadan hisse",
+        "de": "Moral, Lehre",
+        "ja": "教訓"
+      }
+    },
+    {
+      "parola": "l'autunno",
+      "forme": [
+        "autunno"
+      ],
+      "esempi": [
+        "In autunno le foglie cadono.",
+        "L'autunno è la mia stagione preferita.",
+        "In autunno raccogliamo le castagne."
+      ],
+      "traduzioni": {
+        "en": "autumn, fall",
+        "es": "otoño",
+        "pt": "outono",
+        "fr": "automne",
+        "cs": "podzim",
+        "pl": "jesień",
+        "tr": "sonbahar",
+        "de": "Herbst",
+        "ja": "秋"
+      }
+    },
+    {
+      "parola": "appena",
+      "forme": [
+        "appena"
+      ],
+      "esempi": [
+        "Ho appena mangiato, non ho fame.",
+        "Il treno è appena partito.",
+        "Sono appena tornato dal lavoro."
+      ],
+      "traduzioni": {
+        "en": "just (a moment ago)",
+        "es": "acabar de («ha appena fatto» = acaba de hacer)",
+        "pt": "acabar de («ha appena fatto» = acabou de fazer)",
+        "fr": "venir de («ha appena fatto» = il vient de faire)",
+        "cs": "právě",
+        "pl": "właśnie",
+        "tr": "az önce, yeni",
+        "de": "gerade (eben)",
+        "ja": "〜したばかり"
+      }
+    },
+    {
+      "parola": "la rapa",
+      "forme": [
+        "rape"
+      ],
+      "formeEsempi": [
+        "rapa"
+      ],
+      "esempi": [
+        "Le rape crescono sotto terra.",
+        "La nonna cucina le rape con le patate.",
+        "Nel campo il contadino raccoglie le rape."
+      ],
+      "traduzioni": {
+        "en": "turnip",
+        "es": "nabo",
+        "pt": "nabo",
+        "fr": "navet",
+        "cs": "řepa",
+        "pl": "rzepa",
+        "tr": "şalgam",
+        "de": "Rübe",
+        "ja": "カブ"
+      }
+    },
+    {
+      "parola": "storto",
+      "forme": [
+        "storte"
+      ],
+      "formeEsempi": [
+        "storto",
+        "storta"
+      ],
+      "esempi": [
+        "Il quadro è storto: lo raddrizzi?",
+        "Questo albero ha il tronco storto.",
+        "Hai la cravatta storta!"
+      ],
+      "traduzioni": {
+        "en": "crooked, bent",
+        "es": "torcido",
+        "pt": "torto",
+        "fr": "tordu, de travers",
+        "cs": "křivý",
+        "pl": "krzywy",
+        "tr": "eğri, çarpık",
+        "de": "krumm, schief",
+        "ja": "曲がった"
+      }
+    },
+    {
+      "parola": "sopportare",
+      "forme": [
+        "sopporta"
+      ],
+      "formeEsempi": [
+        "sopporto",
+        "sopportare"
+      ],
+      "esempi": [
+        "Non sopporto il rumore.",
+        "Mia sorella non sopporta il caldo.",
+        "Come fai a sopportare questo traffico?"
+      ],
+      "traduzioni": {
+        "en": "to stand, to bear",
+        "es": "soportar, aguantar",
+        "pt": "suportar, aguentar",
+        "fr": "supporter",
+        "cs": "snést, vystát",
+        "pl": "znosić",
+        "tr": "dayanmak, katlanmak",
+        "de": "ertragen, leiden können",
+        "ja": "がまんする、耐える"
+      }
+    },
+    {
+      "parola": "la battuta",
+      "forme": [
+        "battute"
+      ],
+      "formeEsempi": [
+        "battuta"
+      ],
+      "esempi": [
+        "Che bella battuta, mi fai ridere!",
+        "Mio zio fa sempre battute a tavola.",
+        "Non mi piace questa battuta: è cattiva."
+      ],
+      "traduzioni": {
+        "en": "joke, wisecrack",
+        "es": "broma, chiste",
+        "pt": "piada",
+        "fr": "plaisanterie, blague",
+        "cs": "vtip",
+        "pl": "żart",
+        "tr": "şaka, espri",
+        "de": "Witz, Spruch",
+        "ja": "冗談、からかい"
+      }
+    },
+    {
+      "parola": "proporre",
+      "forme": [
+        "propone"
+      ],
+      "formeEsempi": [
+        "propongo",
+        "proposto"
+      ],
+      "esempi": [
+        "Propongo di andare al mare domenica.",
+        "Marco propone una pizza stasera.",
+        "Il professore ci ha proposto un nuovo esercizio."
+      ],
+      "traduzioni": {
+        "en": "to propose, to suggest",
+        "es": "proponer",
+        "pt": "propor",
+        "fr": "proposer",
+        "cs": "navrhnout",
+        "pl": "zaproponować",
+        "tr": "önermek",
+        "de": "vorschlagen",
+        "ja": "提案する"
+      }
+    },
+    {
+      "parola": "accettare",
+      "forme": [
+        "accetta"
+      ],
+      "formeEsempi": [
+        "accetto",
+        "accettato"
+      ],
+      "esempi": [
+        "Accetto il tuo invito con piacere.",
+        "Il negozio accetta la carta di credito.",
+        "Ha accettato il nuovo lavoro."
+      ],
+      "traduzioni": {
+        "en": "to accept",
+        "es": "aceptar",
+        "pt": "aceitar",
+        "fr": "accepter",
+        "cs": "přijmout, souhlasit",
+        "pl": "zgodzić się, przyjąć",
+        "tr": "kabul etmek",
+        "de": "annehmen",
+        "ja": "引き受ける、受け入れる"
+      }
+    },
+    {
+      "parola": "il solco",
+      "forme": [
+        "solco"
+      ],
+      "formeEsempi": [
+        "solchi"
+      ],
+      "esempi": [
+        "Il contadino fa i solchi nel campo.",
+        "Metto i semi nel solco.",
+        "Il trattore lascia solchi profondi."
+      ],
+      "traduzioni": {
+        "en": "furrow",
+        "es": "surco",
+        "pt": "sulco",
+        "fr": "sillon",
+        "cs": "brázda",
+        "pl": "bruzda",
+        "tr": "karık",
+        "de": "Furche",
+        "ja": "（畑の）うね、みぞ"
+      }
+    },
+    {
+      "parola": "la freccia",
+      "forme": [
+        "freccia"
+      ],
+      "formeEsempi": [
+        "frecce"
+      ],
+      "esempi": [
+        "La freccia colpisce il centro.",
+        "Segui le frecce per l'uscita.",
+        "Il bambino è corso via come una freccia."
+      ],
+      "traduzioni": {
+        "en": "arrow",
+        "es": "flecha",
+        "pt": "flecha",
+        "fr": "flèche",
+        "cs": "šíp",
+        "pl": "strzała",
+        "tr": "ok",
+        "de": "Pfeil",
+        "ja": "矢"
+      }
+    },
+    {
+      "parola": "nascondersi",
+      "forme": [
+        "nasconde"
+      ],
+      "formeEsempi": [
+        "nascondersi",
+        "nascosto"
+      ],
+      "esempi": [
+        "Il gatto si nasconde sotto il letto.",
+        "I bambini giocano a nascondersi in giardino.",
+        "Dove ti sei nascosto?"
+      ],
+      "traduzioni": {
+        "en": "to hide (oneself)",
+        "es": "esconderse",
+        "pt": "esconder-se",
+        "fr": "se cacher",
+        "cs": "schovat se",
+        "pl": "chować się",
+        "tr": "saklanmak",
+        "de": "sich verstecken",
+        "ja": "隠れる"
+      }
+    },
+    {
+      "parola": "il fiato",
+      "forme": [
+        "fiato"
+      ],
+      "esempi": [
+        "Dopo le scale devo riprendere fiato.",
+        "Aspetta, non ho più fiato!",
+        "Ha corso tanto che è rimasto senza fiato."
+      ],
+      "traduzioni": {
+        "en": "breath («riprendere fiato» = to catch one's breath)",
+        "es": "aliento («riprendere fiato» = recuperar el aliento)",
+        "pt": "fôlego («riprendere fiato» = recuperar o fôlego)",
+        "fr": "souffle («riprendere fiato» = reprendre son souffle)",
+        "cs": "dech («riprendere fiato» = popadnout dech)",
+        "pl": "oddech («riprendere fiato» = złapać oddech)",
+        "tr": "nefes («riprendere fiato» = soluklanmak)",
+        "de": "Atem («riprendere fiato» = wieder zu Atem kommen)",
+        "ja": "息（«riprendere fiato» = 息を整える）"
+      }
+    },
+    {
+      "parola": "il giro",
+      "forme": [
+        "giro"
+      ],
+      "esempi": [
+        "Corro tre giri del parco.",
+        "Al secondo giro della gara era primo.",
+        "Ogni giro della pista è di quattrocento metri."
+      ],
+      "traduzioni": {
+        "en": "lap, round",
+        "es": "vuelta",
+        "pt": "volta",
+        "fr": "tour",
+        "cs": "kolo",
+        "pl": "okrążenie",
+        "tr": "tur",
+        "de": "Runde",
+        "ja": "（〜周目の）周、回"
+      },
+      "formeEsempi": [
+        "giri"
+      ]
+    },
+    {
+      "parola": "raccogliere",
+      "forme": [
+        "raccolto"
+      ],
+      "formeEsempi": [
+        "raccoglie"
+      ],
+      "esempi": [
+        "Il nonno raccoglie francobolli da sempre.",
+        "Abbiamo raccolto soldi per la scuola.",
+        "Lo scrittore ha raccolto le storie del suo paese."
+      ],
+      "traduzioni": {
+        "en": "to collect, to gather",
+        "es": "recoger, recopilar",
+        "pt": "recolher, reunir",
+        "fr": "recueillir, rassembler",
+        "cs": "sbírat, zapsat",
+        "pl": "zebrać",
+        "tr": "derlemek, toplamak",
+        "de": "sammeln",
+        "ja": "集める"
+      }
+    },
+    {
+      "parola": "la zona",
+      "forme": [
+        "zona"
+      ],
+      "esempi": [
+        "Abito in una zona tranquilla.",
+        "In questa zona ci sono molti ristoranti.",
+        "È vietato parcheggiare in questa zona."
+      ],
+      "traduzioni": {
+        "en": "area",
+        "es": "zona",
+        "pt": "região, área",
+        "fr": "région, zone",
+        "cs": "oblast, okolí",
+        "pl": "okolica, strefa",
+        "tr": "bölge, yöre",
+        "de": "Gegend",
+        "ja": "地域、あたり"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "It's Sunday morning. The hedgehog is in front of his house and he's happy. He goes to see his field.",
+        "In the field there's the hare. The hare is tall, thin and very fast. She's also a bit unpleasant. She looks at the hedgehog and laughs:\n– How short your legs are!",
+        "The hedgehog is angry.\n– My legs are short? But I'm faster than you! Let's have a race!\n– You? You're crazy! – says the hare.",
+        "The hedgehog goes back home and talks to his wife.\n– Are you ready? You and I look the same: the hare can't see the difference. You stay at the end of the field. I'm here, at the beginning. When the hare arrives, you say: “I'm already here!”.",
+        "The race starts. The hare runs as fast as the wind. The hedgehog takes three steps and stops. When the hare reaches the end of the field, the hedgehog's wife says:\n– I'm already here!",
+        "The hare is surprised. She doesn't understand. She runs back. At the beginning of the field there's the hedgehog.\n– I'm already here!",
+        "The hare runs again and again. In the end she's exhausted and falls to the ground. The hedgehog and his wife are happy and go home together.",
+        "That's the moral of the tale: it isn't nice to laugh at others. And whoever is clever can win, even if they are small."
+      ],
+      "a2": [
+        "It's a beautiful autumn Sunday. The hedgehog has just had breakfast and is going to see his turnips. In the field he meets the hare, who has already been there for a while.",
+        "– What are you doing here so early? – asks the hare.\n– I'm going for a walk.\n– With those crooked legs? – she laughs.",
+        "The hedgehog can't stand jokes about his legs. He proposes a race: whoever arrives first wins. The hare laughs again, but accepts. She still hasn't understood who she's dealing with.",
+        "The hedgehog runs home, where his wife has just finished washing the dishes.\n– Have you finished already? Come with me.\nHe puts her at the end of a furrow in the field and goes back to the beginning. Hedgehogs all look the same: the hare can't see the difference.",
+        "The race starts. The hare shoots off like an arrow; the hedgehog takes barely three steps and hides. When the hare reaches the end, the wife raises her head:\n– I'm already here!",
+        "The hare can't believe it. She runs back. She still hasn't caught her breath when the hedgehog says to her:\n– I'm already here!",
+        "– Again! – she shouts. And she runs, runs, runs: seventy-three times. On the seventy-fourth lap she can't go on any more and falls to the ground with no strength left. She still hasn't understood anything.",
+        "The Brothers Grimm collected this story in the area of Buxtehude, in northern Germany. In German «Ich bin schon da!», “I'm already here!”, has become a famous phrase: people say it when someone always gets there before you, even if you run fast."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Es domingo por la mañana. El erizo está delante de su casa y está contento. Va a ver su campo.",
+        "En el campo está la liebre. La liebre es alta, delgada y muy rápida. También es un poco antipática. Mira al erizo y se ríe:\n– ¡Qué cortas son tus patas!",
+        "El erizo se enfada.\n– ¿Mis patas son cortas? ¡Pero yo soy más rápido que tú! ¡Hagamos una carrera!\n– ¿Tú? ¡Estás loco! – dice la liebre.",
+        "El erizo vuelve a casa y habla con su mujer.\n– ¿Estás lista? Tú y yo somos iguales: la liebre no ve la diferencia. Tú te quedas al final del campo. Yo estoy aquí, al principio. Cuando llegue la liebre, dices: «¡Ya estoy aquí!».",
+        "Empieza la carrera. La liebre corre rápida como el viento. El erizo da tres pasos y se para. Cuando la liebre llega al final del campo, la mujer del erizo dice:\n– ¡Ya estoy aquí!",
+        "La liebre está sorprendida. No entiende. Corre hacia atrás. Al principio del campo está el erizo.\n– ¡Ya estoy aquí!",
+        "La liebre corre otra vez y otra vez. Al final está agotada y cae al suelo. El erizo y su mujer están felices y vuelven a casa juntos.",
+        "Es la moraleja del cuento: no está bien reírse de los demás. Y quien es listo puede ganar, aunque sea pequeño."
+      ],
+      "a2": [
+        "Es un bonito domingo de otoño. El erizo acaba de desayunar y va a ver sus nabos. En el campo se encuentra con la liebre, que ya lleva un rato allí.",
+        "– ¿Qué haces aquí tan temprano? – pregunta la liebre.\n– Doy un paseo.\n– ¿Con esas patas torcidas? – se ríe ella.",
+        "El erizo no soporta las bromas sobre sus patas. Propone una carrera: quien llegue primero gana. La liebre se ríe otra vez, pero acepta. Todavía no ha entendido con quién está tratando.",
+        "El erizo corre a casa, donde su mujer acaba de terminar de fregar los platos.\n– ¿Ya has terminado? Ven conmigo.\nLa pone al final de un surco del campo y vuelve al principio. Los erizos son todos iguales: la liebre no puede ver la diferencia.",
+        "Empieza la carrera. La liebre sale como una flecha; el erizo da apenas tres pasos y se esconde. Cuando la liebre llega al final, la mujer levanta la cabeza:\n– ¡Ya estoy aquí!",
+        "La liebre no se lo cree. Corre hacia atrás. Todavía no ha recuperado el aliento cuando el erizo le dice:\n– ¡Ya estoy aquí!",
+        "– ¡Otra vez! – grita ella. Y corre, corre, corre: setenta y tres veces. En la vuelta setenta y cuatro ya no puede más y cae al suelo sin fuerzas. Todavía no ha entendido nada.",
+        "Los hermanos Grimm recogieron esta historia en la zona de Buxtehude, en el norte de Alemania. En alemán «Ich bin schon da!», «¡Ya estoy aquí!», se ha convertido en una frase famosa: se dice cuando alguien siempre llega antes que tú, aunque corras rápido."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "É domingo de manhã. O ouriço está na frente de casa e está contente. Vai ver o seu campo.",
+        "No campo está a lebre. A lebre é alta, magra e muito rápida. Também é um pouco antipática. Ela olha para o ouriço e ri:\n– Como as suas pernas são curtas!",
+        "O ouriço fica bravo.\n– As minhas pernas são curtas? Mas eu sou mais rápido que você! Vamos apostar uma corrida!\n– Você? Você está maluco! – diz a lebre.",
+        "O ouriço volta para casa e fala com a mulher.\n– Você está pronta? Você e eu somos iguais: a lebre não vê a diferença. Você fica no fim do campo. Eu fico aqui, no começo. Quando a lebre chegar, você diz: «Já estou aqui!».",
+        "Começa a corrida. A lebre corre rápida como o vento. O ouriço dá três passos e para. Quando a lebre chega no fim do campo, a mulher do ouriço diz:\n– Já estou aqui!",
+        "A lebre fica surpresa. Não entende. Corre de volta. No começo do campo está o ouriço.\n– Já estou aqui!",
+        "A lebre corre de novo, e de novo. No final está exausta e cai no chão. O ouriço e a mulher ficam felizes e voltam para casa juntos.",
+        "Essa é a moral do conto: não é bonito rir dos outros. E quem é esperto pode ganhar, mesmo sendo pequeno."
+      ],
+      "a2": [
+        "É um belo domingo de outono. O ouriço acabou de tomar café da manhã e está indo ver os seus nabos. No campo encontra a lebre, que já está lá faz um tempinho.",
+        "– O que você está fazendo aqui tão cedo? – pergunta a lebre.\n– Estou dando um passeio.\n– Com essas pernas tortas? – ri ela.",
+        "O ouriço não suporta piadas sobre as suas pernas. Propõe uma corrida: quem chegar primeiro ganha. A lebre ri de novo, mas aceita. Ainda não entendeu com quem está lidando.",
+        "O ouriço corre para casa, onde a mulher acabou de lavar a louça.\n– Já terminou? Venha comigo.\nEle a coloca no fim de um sulco do campo e volta para o começo. Os ouriços são todos iguais: a lebre não pode ver a diferença.",
+        "A corrida começa. A lebre sai como uma flecha; o ouriço dá só três passos e se esconde. Quando a lebre chega no fim, a mulher levanta a cabeça:\n– Já estou aqui!",
+        "A lebre não acredita. Corre de volta. Ainda não recuperou o fôlego quando o ouriço lhe diz:\n– Já estou aqui!",
+        "– De novo! – grita ela. E corre, corre, corre: setenta e três vezes. Na septuagésima quarta volta, não aguenta mais e cai no chão sem forças. Ainda não entendeu nada.",
+        "Os irmãos Grimm recolheram esta história na região de Buxtehude, no norte da Alemanha. Em alemão «Ich bin schon da!», «Já estou aqui!», virou uma frase famosa: se diz quando alguém sempre chega antes de você, mesmo que você corra rápido."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "C’est dimanche matin. Le hérisson est devant sa maison et il est content. Il va voir son champ.",
+        "Dans le champ, il y a le lièvre. Le lièvre est grand, maigre et très rapide. Il est aussi un peu antipathique. Il regarde le hérisson et rit :\n– Comme tes jambes sont courtes !",
+        "Le hérisson est en colère.\n– Mes jambes sont courtes ? Mais je suis plus rapide que toi ! Faisons une course !\n– Toi ? Tu es fou ! – dit le lièvre.",
+        "Le hérisson rentre chez lui et parle avec sa femme.\n– Tu es prête ? Toi et moi, nous sommes pareils : le lièvre ne voit pas la différence. Toi, tu restes au bout du champ. Moi, je suis ici, au début. Quand le lièvre arrive, tu dis : « Je suis déjà là ! ».",
+        "La course commence. Le lièvre court vite comme le vent. Le hérisson fait trois pas et s’arrête. Quand le lièvre arrive au bout du champ, la femme du hérisson dit :\n– Je suis déjà là !",
+        "Le lièvre est surpris. Il ne comprend pas. Il court en arrière. Au début du champ, il y a le hérisson.\n– Je suis déjà là !",
+        "Le lièvre court encore et encore. À la fin, il est épuisé et tombe par terre. Le hérisson et sa femme sont heureux et rentrent ensemble à la maison.",
+        "C’est la morale du conte : ce n’est pas bien de se moquer des autres. Et celui qui est malin peut gagner, même s’il est petit."
+      ],
+      "a2": [
+        "C’est un beau dimanche d’automne. Le hérisson vient de prendre son petit-déjeuner et il va voir ses navets. Dans le champ, il rencontre le lièvre, qui est déjà là depuis un moment.",
+        "– Qu’est-ce que tu fais ici si tôt ? – demande le lièvre.\n– Je me promène.\n– Avec ces jambes tordues ? – rit le lièvre.",
+        "Le hérisson ne supporte pas les plaisanteries sur ses jambes. Il propose une course : celui qui arrive le premier gagne. Le lièvre rit encore, mais il accepte. Il n’a pas encore compris à qui il a affaire.",
+        "Le hérisson court chez lui, où sa femme vient de finir de laver la vaisselle.\n– Tu as déjà fini ? Viens avec moi.\nIl la place au bout d’un sillon du champ et retourne au début. Les hérissons sont tous pareils : le lièvre ne peut pas voir la différence.",
+        "La course commence. Le lièvre part comme une flèche ; le hérisson fait à peine trois pas et se cache. Quand le lièvre arrive au bout, la femme lève la tête :\n– Je suis déjà là !",
+        "Le lièvre n’y croit pas. Il court en arrière. Il n’a pas encore repris son souffle quand le hérisson lui dit :\n– Je suis déjà là !",
+        "– Encore ! – crie le lièvre. Et il court, court, court : soixante-treize fois. Au soixante-quatorzième tour, il n’en peut plus et tombe par terre sans forces. Il n’a toujours rien compris.",
+        "Les frères Grimm ont recueilli cette histoire dans la région de Buxtehude, dans le nord de l’Allemagne. En allemand, « Ich bin schon da! », « Je suis déjà là ! », est devenue une phrase célèbre : on la dit quand quelqu’un arrive toujours avant toi, même si tu cours vite."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Je neděle ráno. Ježek stojí před domem a má dobrou náladu. Jde se podívat na své pole.",
+        "Na poli je zajíc. Zajíc je vysoký, hubený a velmi rychlý. Je taky trochu protivný. Podívá se na ježka a směje se:\n– Ty máš ale krátké nohy!",
+        "Ježek se rozzlobí.\n– Že mám krátké nohy? Ale já jsem rychlejší než ty! Uděláme si závod!\n– Ty? Ty ses zbláznil! – říká zajíc.",
+        "Ježek se vrátí domů a mluví se svou ženou.\n– Jsi připravená? Ty a já vypadáme stejně: zajíc ten rozdíl nepozná. Ty budeš stát na konci pole. Já jsem tady, na začátku. Až zajíc přiběhne, řekneš: „Už jsem tady!“.",
+        "Závod začíná. Zajíc běží rychle jako vítr. Ježek udělá tři kroky a zastaví se. Když zajíc doběhne na konec pole, ježkova žena řekne:\n– Už jsem tady!",
+        "Zajíc je překvapený. Nechápe to. Běží zpátky. Na začátku pole je ježek.\n– Už jsem tady!",
+        "Zajíc běží znovu a znovu. Nakonec je úplně vyčerpaný a padne na zem. Ježek a jeho žena jsou šťastní a jdou spolu domů.",
+        "To je ponaučení z pohádky: není hezké smát se druhým. A kdo je chytrý, může vyhrát, i když je malý."
+      ],
+      "a2": [
+        "Je krásná podzimní neděle. Ježek se právě nasnídal a jde se podívat na svou řepu. Na poli potká zajíce, který už tam chvíli je.",
+        "– Co tady děláš tak brzy? – ptá se zajíc.\n– Jdu na procházku.\n– S těmi křivými nohama? – směje se zajíc.",
+        "Ježek nesnáší vtipy o svých nohách. Navrhne závod: kdo doběhne první, vyhraje. Zajíc se znovu směje, ale souhlasí. Ještě nepochopil, s kým má tu čest.",
+        "Ježek běží domů, kde jeho žena právě domyla nádobí.\n– Už jsi hotová? Pojď se mnou.\nPostaví ji na konec brázdy na poli a vrátí se na začátek. Ježci vypadají všichni stejně: zajíc nemůže poznat rozdíl.",
+        "Závod začíná. Zajíc vyrazí jako šíp; ježek udělá sotva tři kroky a schová se. Když zajíc doběhne na konec, žena zvedne hlavu:\n– Už jsem tady!",
+        "Zajíc tomu nemůže uvěřit. Běží zpátky. Ještě ani nepopadl dech, a ježek mu říká:\n– Už jsem tady!",
+        "– Ještě jednou! – křičí zajíc. A běží, běží, běží: sedmdesát třikrát. Při sedmdesátém čtvrtém kole už nemůže a bez sil padne na zem. Pořád nic nepochopil.",
+        "Bratři Grimmové zapsali tento příběh v okolí Buxtehude na severu Německa. Německá věta «Ich bin schon da!», „Už jsem tady!“, se stala slavnou: říká se, když je někdo vždycky dřív než ty, i když běžíš rychle."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jest niedziela rano. Jeż stoi przed domem i jest zadowolony. Idzie zobaczyć swoje pole.",
+        "Na polu jest zając. Zając jest wysoki, chudy i bardzo szybki. Jest też trochę niesympatyczny. Patrzy na jeża i się śmieje:\n– Jakie ty masz krótkie nogi!",
+        "Jeż się złości.\n– Moje nogi są krótkie? Ale ja jestem szybszy od ciebie! Zróbmy wyścig!\n– Ty? Zwariowałeś! – mówi zając.",
+        "Jeż wraca do domu i rozmawia z żoną.\n– Jesteś gotowa? Ty i ja wyglądamy tak samo: zając nie zobaczy różnicy. Ty stoisz na końcu pola. Ja jestem tutaj, na początku. Kiedy zając dobiegnie, powiesz: „Już tu jestem!”.",
+        "Zaczyna się wyścig. Zając biegnie szybko jak wiatr. Jeż robi trzy kroki i się zatrzymuje. Kiedy zając dobiega do końca pola, żona jeża mówi:\n– Już tu jestem!",
+        "Zając jest zaskoczony. Nie rozumie. Biegnie z powrotem. Na początku pola jest jeż.\n– Już tu jestem!",
+        "Zając biegnie jeszcze raz i jeszcze raz. W końcu jest wykończony i pada na ziemię. Jeż i jego żona są szczęśliwi i razem wracają do domu.",
+        "To jest morał baśni: nieładnie jest śmiać się z innych. A kto jest sprytny, może wygrać, nawet jeśli jest mały."
+      ],
+      "a2": [
+        "Jest piękna jesienna niedziela. Jeż właśnie zjadł śniadanie i idzie zobaczyć swoją rzepę. Na polu spotyka zająca, który jest tam już od jakiegoś czasu.",
+        "– Co tu robisz tak wcześnie? – pyta zając.\n– Idę na spacer.\n– Na tych krzywych nogach? – śmieje się zając.",
+        "Jeż nie znosi żartów ze swoich nóg. Proponuje wyścig: kto dobiegnie pierwszy, wygrywa. Zając znowu się śmieje, ale się zgadza. Jeszcze nie zrozumiał, z kim ma do czynienia.",
+        "Jeż biegnie do domu, gdzie jego żona właśnie skończyła zmywać naczynia.\n– Już skończyłaś? Chodź ze mną.\nStawia ją na końcu bruzdy na polu i wraca na początek. Wszystkie jeże wyglądają tak samo: zając nie może zobaczyć różnicy.",
+        "Wyścig się zaczyna. Zając rusza jak strzała; jeż robi ledwie trzy kroki i się chowa. Kiedy zając dobiega do końca, żona podnosi głowę:\n– Już tu jestem!",
+        "Zając nie może w to uwierzyć. Biegnie z powrotem. Jeszcze nie złapał oddechu, kiedy jeż mówi do niego:\n– Już tu jestem!",
+        "– Jeszcze raz! – krzyczy zając. I biegnie, biegnie, biegnie: siedemdziesiąt trzy razy. Przy siedemdziesiątym czwartym okrążeniu już nie daje rady i pada na ziemię bez sił. Wciąż nic nie zrozumiał.",
+        "Bracia Grimm zebrali tę historię w okolicach Buxtehude, na północy Niemiec. Niemieckie zdanie «Ich bin schon da!», „Już tu jestem!”, stało się sławne: mówi się je, kiedy ktoś zawsze jest przed tobą, nawet jeśli biegniesz szybko."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Pazar sabahı. Kirpi evinin önünde ve keyfi yerinde. Tarlasını görmeye gidiyor.",
+        "Tarlada tavşan var. Tavşan uzun boylu, zayıf ve çok hızlı. Biraz da sevimsiz. Kirpiye bakıp gülüyor:\n– Bacakların ne kadar kısa!",
+        "Kirpi kızıyor.\n– Bacaklarım kısa mı? Ama ben senden daha hızlıyım! Hadi yarışalım!\n– Sen mi? Delirmişsin! – diyor tavşan.",
+        "Kirpi eve dönüp karısıyla konuşuyor.\n– Hazır mısın? Sen ve ben birbirimize çok benziyoruz: tavşan farkı göremez. Sen tarlanın sonunda dur. Ben burada, başta duracağım. Tavşan gelince «Ben zaten buradayım!» de.",
+        "Yarış başlıyor. Tavşan rüzgâr gibi koşuyor. Kirpi üç adım atıp duruyor. Tavşan tarlanın sonuna varınca kirpinin karısı diyor ki:\n– Ben zaten buradayım!",
+        "Tavşan şaşırıyor. Hiçbir şey anlamıyor. Geri koşuyor. Tarlanın başında kirpi var.\n– Ben zaten buradayım!",
+        "Tavşan bir daha, bir daha koşuyor. Sonunda bitkin düşüp yere yığılıyor. Kirpiyle karısı mutlu bir şekilde birlikte eve dönüyor.",
+        "Masalın ana fikri şu: başkalarıyla alay etmek hoş değildir. Akıllı olan, küçük de olsa kazanabilir."
+      ],
+      "a2": [
+        "Güzel bir sonbahar pazarı. Kirpi kahvaltısını yeni yapmış, şalgamlarını görmeye gidiyor. Tarlada bir süredir orada olan tavşanla karşılaşıyor.",
+        "– Bu kadar erken burada ne yapıyorsun? – diye soruyor tavşan.\n– Yürüyüş yapıyorum.\n– O çarpık bacaklarla mı? – diye gülüyor tavşan.",
+        "Kirpi bacaklarıyla ilgili şakalara dayanamıyor. Bir yarış öneriyor: önce varan kazanır. Tavşan yine gülüyor ama kabul ediyor. Kiminle uğraştığını henüz anlamamış.",
+        "Kirpi eve koşuyor; karısı bulaşıkları yıkamayı yeni bitirmiş.\n– Bitirdin mi? Benimle gel.\nOnu tarladaki bir karığın sonuna yerleştiriyor ve başa dönüyor. Bütün kirpiler birbirine benzer: tavşan farkı göremez.",
+        "Yarış başlıyor. Tavşan ok gibi fırlıyor; kirpi ancak üç adım atıp saklanıyor. Tavşan sona varınca kirpinin karısı başını kaldırıyor:\n– Ben zaten buradayım!",
+        "Tavşan inanamıyor. Geri koşuyor. Daha soluklanmadan kirpi ona diyor ki:\n– Ben zaten buradayım!",
+        "– Bir daha! – diye bağırıyor tavşan. Ve koşuyor, koşuyor, koşuyor: tam yetmiş üç kez. Yetmiş dördüncü turda artık dayanamıyor ve takatsiz yere yığılıyor. Hâlâ hiçbir şey anlamamış.",
+        "Grimm Kardeşler bu hikâyeyi Kuzey Almanya'da, Buxtehude yöresinde derlemişler. Almancada «Ich bin schon da!», yani «Ben zaten buradayım!», ünlü bir söz olmuş: sen ne kadar hızlı koşsan da senden hep önce varan biri için söylenir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Es ist Sonntagmorgen. Der Igel steht vor seinem Haus und ist zufrieden. Er geht sein Feld anschauen.",
+        "Auf dem Feld ist der Hase. Der Hase ist groß, dünn und sehr schnell. Er ist auch ein bisschen unsympathisch. Er schaut den Igel an und lacht:\n– Wie kurz deine Beine sind!",
+        "Der Igel ist wütend.\n– Meine Beine sind kurz? Aber ich bin schneller als du! Machen wir ein Wettrennen!\n– Du? Du bist verrückt! – sagt der Hase.",
+        "Der Igel geht nach Hause und spricht mit seiner Frau.\n– Bist du bereit? Du und ich sehen gleich aus: Der Hase sieht den Unterschied nicht. Du bleibst am Ende des Feldes. Ich bin hier, am Anfang. Wenn der Hase ankommt, sagst du: „Ich bin schon da!“.",
+        "Das Rennen beginnt. Der Hase rennt schnell wie der Wind. Der Igel macht drei Schritte und bleibt stehen. Als der Hase am Ende des Feldes ankommt, sagt die Frau des Igels:\n– Ich bin schon da!",
+        "Der Hase ist überrascht. Er versteht nichts. Er rennt zurück. Am Anfang des Feldes ist der Igel.\n– Ich bin schon da!",
+        "Der Hase rennt immer wieder. Am Ende ist er völlig erschöpft und fällt zu Boden. Der Igel und seine Frau sind glücklich und gehen zusammen nach Hause.",
+        "Das ist die Moral des Märchens: Es ist nicht schön, über andere zu lachen. Und wer schlau ist, kann gewinnen, auch wenn er klein ist."
+      ],
+      "a2": [
+        "Es ist ein schöner Herbstsonntag. Der Igel hat gerade gefrühstückt und geht nach seinen Rüben schauen. Auf dem Feld trifft er den Hasen, der schon eine Weile dort ist.",
+        "– Was machst du so früh hier? – fragt der Hase.\n– Ich gehe spazieren.\n– Mit diesen krummen Beinen? – lacht der Hase.",
+        "Der Igel kann keine Witze über seine Beine leiden. Er schlägt ein Wettrennen vor: Wer zuerst ankommt, gewinnt. Der Hase lacht wieder, nimmt aber an. Er hat noch nicht verstanden, mit wem er es zu tun hat.",
+        "Der Igel rennt nach Hause, wo seine Frau gerade mit dem Abwasch fertig geworden ist.\n– Bist du schon fertig? Komm mit.\nEr stellt sie ans Ende einer Furche auf dem Feld und geht zurück zum Anfang. Igel sehen alle gleich aus: Der Hase kann den Unterschied nicht erkennen.",
+        "Das Rennen beginnt. Der Hase schießt los wie ein Pfeil; der Igel macht kaum drei Schritte und versteckt sich. Als der Hase am Ende ankommt, hebt die Frau den Kopf:\n– Ich bin schon da!",
+        "Der Hase kann es nicht glauben. Er rennt zurück. Er ist noch ganz außer Atem, da sagt der Igel zu ihm:\n– Ich bin schon da!",
+        "– Noch einmal! – ruft der Hase. Und er rennt, rennt, rennt: dreiundsiebzigmal. Beim vierundsiebzigsten Lauf kann er nicht mehr und fällt kraftlos zu Boden. Er hat immer noch nichts verstanden.",
+        "Die Brüder Grimm haben diese Geschichte in der Gegend von Buxtehude in Norddeutschland gesammelt. Der Satz «Ich bin schon da!» ist berühmt geworden: Man sagt ihn, wenn jemand immer vor dir da ist, auch wenn du schnell rennst."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "日曜日の朝です。ハリネズミは家の前にいて、ごきげんです。自分の畑を見に行きます。",
+        "畑にはウサギがいます。ウサギは背が高くて、やせていて、とても足が速いです。そして少し感じが悪いです。ウサギはハリネズミを見て笑います。\n「なんて短い足なんだ！」",
+        "ハリネズミは腹を立てます。\n「ぼくの足が短いって？　でも、ぼくはきみより速いぞ！　競走しよう！」\n「きみが？　頭がおかしいんじゃないか！」とウサギは言います。",
+        "ハリネズミは家に帰って、奥さんと話します。\n「準備はいいかい？　きみとぼくはそっくりだ。ウサギには違いがわからない。きみは畑の向こうの端にいて。ぼくはここ、スタートにいる。ウサギが来たら『もうここにいるよ！』と言うんだ。」",
+        "競走が始まります。ウサギは風のように速く走ります。ハリネズミは三歩進んで、止まります。ウサギが畑の端に着くと、ハリネズミの奥さんが言います。\n「もうここにいるよ！」",
+        "ウサギはびっくりします。わけがわかりません。走ってもどります。畑のスタートにはハリネズミがいます。\n「もうここにいるよ！」",
+        "ウサギは何度も何度も走ります。とうとうへとへとになって、地面に倒れてしまいます。ハリネズミと奥さんは喜んで、いっしょに家に帰ります。",
+        "これがこのお話の教訓です。人を笑いものにするのはよくありません。そして、かしこい者は、小さくても勝つことができます。"
+      ],
+      "a2": [
+        "気持ちのいい秋の日曜日です。ハリネズミは朝ごはんを食べたばかりで、カブを見に行くところです。畑で、少し前からそこにいたウサギに会います。",
+        "「こんなに早く、ここで何をしているの？」とウサギがたずねます。\n「散歩だよ。」\n「その曲がった足で？」とウサギは笑います。",
+        "ハリネズミは、足のことでからかわれるのががまんできません。競走をしようと言います。先に着いたほうが勝ちです。ウサギはまた笑いますが、引き受けます。だれを相手にしているのか、まだわかっていないのです。",
+        "ハリネズミは家へ走ります。奥さんはちょうどお皿を洗い終えたところです。\n「もう終わった？　いっしょに来て。」\nハリネズミは奥さんを畑のうねの端に置いて、スタートにもどります。ハリネズミはみんなそっくりなので、ウサギには違いがわかりません。",
+        "競走が始まります。ウサギは矢のように飛び出します。ハリネズミはほんの三歩進んで、隠れます。ウサギが端に着くと、奥さんが顔を上げます。\n「もうここにいるよ！」",
+        "ウサギは信じられません。走ってもどります。まだ息も整わないうちに、ハリネズミが言います。\n「もうここにいるよ！」",
+        "「もう一回！」とウサギは叫びます。そして走って、走って、走ります。七十三回も。七十四回目で、もう力が出なくなり、地面に倒れてしまいます。それでもまだ、何もわかっていません。",
+        "グリム兄弟は、この話をドイツ北部のブクステフーデのあたりで集めました。ドイツ語の «Ich bin schon da!»（「もうここにいるよ！」）は有名な言葉になりました。どんなに速く走っても、いつも先に着いている人がいるときに使います。"
+      ]
+    }
+  }
+}
