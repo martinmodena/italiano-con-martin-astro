@@ -1,0 +1,400 @@
+{
+  "id": "gli-uccellini-in-gabbia",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la gabbia",
+      "forme": ["gabbia"],
+      "esempi": ["Il canarino vive in una gabbia.", "Apri la gabbia e lascia volare l'uccellino.", "Gli animali non dovrebbero stare in gabbia."],
+      "traduzioni": { "en": "cage", "es": "jaula", "pt": "gaiola", "fr": "cage", "cs": "klec", "pl": "klatka", "tr": "kafes", "de": "Käfig", "ja": "鳥かご、おり" }
+    },
+    {
+      "parola": "l'uccellino",
+      "forme": ["uccellino", "uccellini"],
+      "esempi": ["Un uccellino canta sul davanzale.", "Gli uccellini aspettano la mamma nel nido.", "Do le briciole agli uccellini."],
+      "traduzioni": { "en": "little bird (uccello + -ino)", "es": "pajarito", "pt": "passarinho", "fr": "petit oiseau", "cs": "ptáček", "pl": "ptaszek", "tr": "küçük kuş", "de": "Vögelchen", "ja": "小鳥" }
+    },
+    {
+      "parola": "il seme",
+      "forme": ["semi"],
+      "formeEsempi": ["seme"],
+      "esempi": ["Metto i semi nella terra.", "Gli uccelli mangiano i semi.", "Da un piccolo seme nasce un grande albero."],
+      "traduzioni": { "en": "seed", "es": "semilla", "pt": "semente", "fr": "graine", "cs": "semínko, zrní", "pl": "ziarno", "tr": "tohum, yem", "de": "Samen, Körner", "ja": "種、えさの粒" }
+    },
+    {
+      "parola": "il ramo",
+      "forme": ["ramo"],
+      "formeEsempi": ["rami"],
+      "esempi": ["Un uccellino canta su un ramo.", "Il vento ha rotto un ramo dell'albero.", "In primavera i rami sono pieni di fiori."],
+      "traduzioni": { "en": "branch, perch", "es": "rama", "pt": "galho", "fr": "branche, perchoir", "cs": "větvička", "pl": "gałązka", "tr": "dal", "de": "Ast, Zweig", "ja": "枝、止まり木" }
+    },
+    {
+      "parola": "invece",
+      "forme": ["invece"],
+      "esempi": ["Io bevo il tè, mia sorella invece beve il caffè.", "Pensavo di uscire, invece resto a casa.", "Lui è alto, il fratello invece è basso."],
+      "traduzioni": { "en": "on the other hand; instead", "es": "en cambio", "pt": "por outro lado, em vez disso", "fr": "par contre, au contraire", "cs": "naopak, zato", "pl": "natomiast, za to", "tr": "ise, buna karşılık", "de": "dagegen, stattdessen", "ja": "それに対して、かわりに" }
+    },
+    {
+      "parola": "la pioggia",
+      "forme": ["pioggia"],
+      "esempi": ["Domani è prevista pioggia.", "Mi piace il rumore della pioggia.", "Siamo rimasti a casa per la pioggia."],
+      "traduzioni": { "en": "rain", "es": "lluvia", "pt": "chuva", "fr": "pluie", "cs": "déšť", "pl": "deszcz", "tr": "yağmur", "de": "Regen", "ja": "雨" }
+    },
+    {
+      "parola": "il cielo",
+      "forme": ["cielo"],
+      "esempi": ["Oggi il cielo è azzurro.", "Di notte guardiamo le stelle nel cielo.", "Nel cielo passa un aereo."],
+      "traduzioni": { "en": "sky", "es": "cielo", "pt": "céu", "fr": "ciel", "cs": "nebe, obloha", "pl": "niebo", "tr": "gökyüzü", "de": "Himmel", "ja": "空" }
+    },
+    {
+      "parola": "nascere",
+      "forme": ["nato"],
+      "formeEsempi": ["nata", "nascono"],
+      "esempi": ["Sono nato a Napoli.", "Mia figlia è nata a maggio.", "In primavera nascono i fiori."],
+      "traduzioni": { "en": "to be born", "es": "nacer", "pt": "nascer", "fr": "naître", "cs": "narodit se", "pl": "urodzić się", "tr": "doğmak", "de": "geboren werden", "ja": "生まれる" }
+    },
+    {
+      "parola": "libero",
+      "forme": ["libero"],
+      "formeEsempi": ["liberi"],
+      "esempi": ["Oggi sono libero: andiamo al mare?", "Scusi, questo posto è libero?", "Gli uccelli volano liberi nel cielo."],
+      "traduzioni": { "en": "free", "es": "libre", "pt": "livre", "fr": "libre", "cs": "svobodný, volný", "pl": "wolny", "tr": "özgür, serbest", "de": "frei", "ja": "自由な" }
+    },
+    {
+      "parola": "la libertà",
+      "forme": ["libertà"],
+      "esempi": ["La libertà è importante per tutti.", "Gli uccelli in gabbia non hanno libertà.", "In vacanza amo la libertà di non avere orari."],
+      "traduzioni": { "en": "freedom", "es": "libertad", "pt": "liberdade", "fr": "liberté", "cs": "svoboda", "pl": "wolność", "tr": "özgürlük", "de": "Freiheit", "ja": "自由" }
+    },
+    {
+      "parola": "perdere",
+      "forme": ["perde", "perso"],
+      "esempi": ["Ho perso le chiavi di casa.", "Chi perde la partita paga la cena.", "Mio nonno perde sempre gli occhiali."],
+      "traduzioni": { "en": "to lose", "es": "perder", "pt": "perder", "fr": "perdre", "cs": "ztratit, přijít o", "pl": "stracić", "tr": "kaybetmek", "de": "verlieren", "ja": "失う、なくす" }
+    },
+    {
+      "parola": "fuori",
+      "forme": ["fuori"],
+      "esempi": ["Fuori fa freddo.", "I bambini giocano fuori.", "Aspettami fuori dal negozio."],
+      "traduzioni": { "en": "outside", "es": "fuera", "pt": "lá fora", "fr": "dehors", "cs": "venku, ven", "pl": "na zewnątrz", "tr": "dışarı, dışarıda", "de": "draußen", "ja": "外" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "il lucherino",
+      "forme": ["lucherini"],
+      "formeEsempi": ["lucherino"],
+      "esempi": ["Il lucherino è un piccolo uccello giallo e verde.", "Nel bosco abbiamo sentito cantare un lucherino.", "I lucherini mangiano i semi degli alberi."],
+      "traduzioni": { "en": "siskin (a small finch)", "es": "lúgano", "pt": "pintassilgo-verde", "fr": "tarin des aulnes", "cs": "čížek", "pl": "czyżyk", "tr": "karabaş iskete", "de": "Zeisig", "ja": "マヒワ" }
+    },
+    {
+      "parola": "stesso",
+      "forme": ["stessa"],
+      "formeEsempi": ["stesso"],
+      "esempi": ["Abitiamo nella stessa via.", "Abbiamo lo stesso zaino!", "Ogni giorno mangio la stessa cosa."],
+      "traduzioni": { "en": "same", "es": "mismo", "pt": "mesmo", "fr": "même", "cs": "stejný", "pl": "ten sam", "tr": "aynı", "de": "gleich, derselbe", "ja": "同じ" }
+    },
+    {
+      "parola": "il posto",
+      "forme": ["posto"],
+      "esempi": ["Scusi, c'è un posto libero?", "Questo è il mio posto preferito.", "Non trovo posto per la macchina."],
+      "traduzioni": { "en": "place, spot, seat", "es": "sitio, lugar", "pt": "lugar", "fr": "place, endroit", "cs": "místo", "pl": "miejsce", "tr": "yer", "de": "Platz, Ort", "ja": "場所、席" }
+    },
+    {
+      "parola": "l'inverno",
+      "forme": ["inverno"],
+      "esempi": ["In inverno nevica in montagna.", "L'inverno qui è lungo e freddo.", "Quest'inverno andiamo a sciare."],
+      "traduzioni": { "en": "winter", "es": "invierno", "pt": "inverno", "fr": "hiver", "cs": "zima", "pl": "zima", "tr": "kış", "de": "Winter", "ja": "冬" }
+    },
+    {
+      "parola": "finire",
+      "forme": ["finiva"],
+      "formeEsempi": ["finisce", "finito"],
+      "esempi": ["La lezione finisce alle cinque.", "Il film è finito tardi.", "Qui finisce la strada."],
+      "traduzioni": { "en": "to end, to finish", "es": "terminar, acabar", "pt": "terminar, acabar", "fr": "finir, s’arrêter", "cs": "končit", "pl": "kończyć się", "tr": "bitmek", "de": "enden, aufhören", "ja": "終わる" }
+    },
+    {
+      "parola": "meglio",
+      "forme": ["meglio"],
+      "esempi": ["Oggi sto meglio, grazie.", "È meglio partire presto.", "Parli italiano meglio di me."],
+      "traduzioni": { "en": "better («stare meglio» = to be better off)", "es": "mejor", "pt": "melhor", "fr": "mieux", "cs": "lépe", "pl": "lepiej", "tr": "daha iyi", "de": "besser", "ja": "より良く" }
+    },
+    {
+      "parola": "svegliarsi",
+      "forme": ["svegliavo"],
+      "formeEsempi": ["sveglio", "sveglia", "svegliato"],
+      "esempi": ["Mi sveglio alle sette ogni mattina.", "Il bambino si sveglia sempre di notte.", "Domenica mi sono svegliato tardi."],
+      "traduzioni": { "en": "to wake up", "es": "despertarse", "pt": "acordar", "fr": "se réveiller", "cs": "probudit se", "pl": "budzić się", "tr": "uyanmak", "de": "aufwachen", "ja": "目を覚ます" }
+    },
+    {
+      "parola": "volare",
+      "forme": ["volano", "volavo"],
+      "formeEsempi": ["volare", "vola"],
+      "esempi": ["In autunno gli uccelli volano verso sud.", "Ho paura di volare in aereo.", "Il palloncino vola via."],
+      "traduzioni": { "en": "to fly", "es": "volar", "pt": "voar", "fr": "voler", "cs": "létat", "pl": "latać", "tr": "uçmak", "de": "fliegen", "ja": "飛ぶ" }
+    },
+    {
+      "parola": "a volte",
+      "forme": ["volte"],
+      "esempi": ["A volte vado al lavoro a piedi.", "A volte il cielo è grigio tutto il giorno.", "A volte ho paura del buio."],
+      "traduzioni": { "en": "sometimes", "es": "a veces", "pt": "às vezes", "fr": "parfois", "cs": "někdy", "pl": "czasami", "tr": "bazen", "de": "manchmal", "ja": "ときどき" }
+    },
+    {
+      "parola": "decidere",
+      "forme": ["decidevo"],
+      "formeEsempi": ["decidere", "deciso", "decido"],
+      "esempi": ["Non so decidere che cosa mangiare.", "Abbiamo deciso di partire domani.", "Decido io dove andare!"],
+      "traduzioni": { "en": "to decide", "es": "decidir", "pt": "decidir", "fr": "décider", "cs": "rozhodnout", "pl": "decydować", "tr": "karar vermek", "de": "entscheiden", "ja": "決める" }
+    },
+    {
+      "parola": "mettere",
+      "forme": ["messo"],
+      "formeEsempi": ["metto", "mette"],
+      "esempi": ["Ho messo il latte nel frigorifero.", "Dove metto le chiavi?", "La mamma mette il bambino a letto."],
+      "traduzioni": { "en": "to put", "es": "poner, meter", "pt": "pôr, colocar", "fr": "mettre", "cs": "dát, posadit", "pl": "włożyć, posadzić", "tr": "koymak", "de": "setzen, stellen, legen", "ja": "入れる、置く" }
+    },
+    {
+      "parola": "chiuso",
+      "forme": ["chiusa"],
+      "formeEsempi": ["chiuso"],
+      "esempi": ["Il negozio è chiuso la domenica.", "La porta è chiusa a chiave.", "Tieni la finestra chiusa: fa freddo."],
+      "traduzioni": { "en": "closed, shut", "es": "cerrado", "pt": "fechado", "fr": "fermé", "cs": "zavřený", "pl": "zamknięty", "tr": "kapalı", "de": "geschlossen, zu", "ja": "閉まった" }
+    },
+    {
+      "parola": "pensarci",
+      "forme": ["pensava"],
+      "formeEsempi": ["penso", "pensarci", "pensavo"],
+      "esempi": ["Non ti preoccupare, ci penso io!", "Non pensarci più.", "Prima non ci pensavo mai."],
+      "traduzioni": { "en": "to think about it («ci penso io» = I'll take care of it)", "es": "pensar en ello", "pt": "pensar nisso", "fr": "y penser", "cs": "myslet na to", "pl": "myśleć o tym", "tr": "bunu düşünmek", "de": "daran denken", "ja": "そのことを考える" }
+    },
+    {
+      "parola": "pubblicare",
+      "forme": ["pubblicata"],
+      "formeEsempi": ["pubblica", "pubblicato", "pubblicate"],
+      "esempi": ["Il giornale pubblica la notizia.", "Ha pubblicato il suo primo libro a trent'anni.", "Le foto sono pubblicate online."],
+      "traduzioni": { "en": "to publish", "es": "publicar", "pt": "publicar", "fr": "publier", "cs": "vydat, zveřejnit", "pl": "opublikować", "tr": "yayımlamak", "de": "veröffentlichen", "ja": "発表する、出版する" }
+    },
+    {
+      "parola": "la terra",
+      "forme": ["terre"],
+      "formeEsempi": ["terra"],
+      "esempi": ["Il re ha perso molte terre.", "Queste terre sono della famiglia da secoli.", "Il contadino lavora la sua terra."],
+      "traduzioni": { "en": "land, territory", "es": "tierras, territorio", "pt": "terras, território", "fr": "terres, territoire", "cs": "území, země", "pl": "ziemie, terytorium", "tr": "topraklar", "de": "Land, Gebiet", "ja": "土地、領土" }
+    },
+    {
+      "parola": "il lettore",
+      "forme": ["lettori"],
+      "formeEsempi": ["lettore"],
+      "esempi": ["Questo libro ha milioni di lettori.", "Sono un grande lettore di gialli.", "Il giornale risponde alle domande dei lettori."],
+      "traduzioni": { "en": "reader", "es": "lector", "pt": "leitor", "fr": "lecteur", "cs": "čtenář", "pl": "czytelnik", "tr": "okur", "de": "Leser", "ja": "読者" }
+    },
+    {
+      "parola": "il Paese",
+      "forme": ["paese"],
+      "esempi": ["L'Italia è un Paese bellissimo.", "In quale Paese vivi?", "Ogni Paese ha le sue tradizioni."],
+      "traduzioni": { "en": "country (here not “village”)", "es": "país (aquí no «pueblo»)", "pt": "país", "fr": "pays", "cs": "země, stát", "pl": "kraj, państwo", "tr": "ülke", "de": "Land, Staat", "ja": "国" }
+    },
+    {
+      "parola": "studiare",
+      "forme": ["studiano"],
+      "formeEsempi": ["studio", "studi"],
+      "esempi": ["Studio italiano da sei mesi.", "I ragazzi studiano in biblioteca.", "Che cosa studi all'università?"],
+      "traduzioni": { "en": "to study", "es": "estudiar", "pt": "estudar", "fr": "étudier", "cs": "studovat, učit se", "pl": "uczyć się", "tr": "çalışmak, okumak", "de": "lernen, studieren", "ja": "勉強する、学ぶ" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a house in the countryside, in Poland, there is a cage near the window. In the cage there are two little birds: a young little bird and an old little bird.",
+        "In the cage there is everything. There is water, there are seeds, there is a little branch to sleep on. There are no cats and it isn't cold.",
+        "The young bird is happy. He sings all day. The old bird, on the other hand, doesn't sing. He looks out of the window and cries.",
+        "– Why are you crying? – asks the young one. – There's everything here! Outside there's wind, there's rain, there are cats. Here there are no problems!",
+        "The old bird looks outside. There are trees, there's the sun, there's a river. In the sky there are other birds flying.",
+        "– You were born here, – says the old one. – For you the cage is home. I was born out there. I was free. That's why I cry.",
+        "The young bird doesn't answer. For the first time, he too looks out of the window.",
+        "That's the moral of this Polish fable: whoever doesn't know freedom doesn't know what they are losing."
+      ],
+      "a2": [
+        "Two siskins lived in the same cage, in a house in the countryside. They had seeds, water and a warm place for the winter. The younger one sang all day, the older one cried.",
+        "The young one didn't understand. He had been born in that cage: he didn't know the woods, he didn't know the rivers, and for him the world ended at the window.",
+        "One day he asked:\n– Why are you always crying? We're better off here than outside!",
+        "– I wasn't always here, – answered the old one. – When I was young, I lived in a big forest. In the morning I woke up with the sun. I flew from one tree to another, I ate what I found and I drank at the river. In winter it was cold and sometimes I was hungry. But I decided where to go.",
+        "– And then? – asked the young one.\n– Then one day a man caught me and put me here.",
+        "The young one said nothing. He looked at the door of the cage: it was closed. He had never thought about it before.",
+        "This fable was written by Ignacy Krasicki, a Polish bishop, and published in 1779. In those years Poland had lost part of its lands, and in the cage many readers saw another story: that of a country that was no longer free. Even today Polish children study it at school."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En una casa de campo, en Polonia, hay una jaula cerca de la ventana. En la jaula hay dos pajaritos: un pajarito joven y un pajarito viejo.",
+        "En la jaula hay de todo. Hay agua, hay semillas, hay una ramita para dormir. No hay gatos y no hace frío.",
+        "El pajarito joven está contento. Canta todo el día. El pajarito viejo, en cambio, no canta. Mira por la ventana y llora.",
+        "– ¿Por qué lloras? – pregunta el joven. – ¡Aquí hay de todo! Fuera hay viento, hay lluvia, hay gatos. ¡Aquí no hay problemas!",
+        "El viejo mira fuera. Hay árboles, hay sol, hay un río. En el cielo vuelan otros pájaros.",
+        "– Tú naciste aquí – dice el viejo. – Para ti la jaula es tu casa. Yo nací allí fuera. Yo era libre. Por eso lloro.",
+        "El pajarito joven no responde. Por primera vez, también él mira por la ventana.",
+        "Es la moraleja de esta fábula polaca: quien no conoce la libertad no sabe lo que pierde."
+      ],
+      "a2": [
+        "Dos lúganos vivían en la misma jaula, en una casa de campo. Tenían semillas, agua y un sitio caliente para el invierno. El más joven cantaba todo el día, el más viejo lloraba.",
+        "El joven no entendía. Había nacido en aquella jaula: no conocía el bosque, no conocía los ríos, y para él el mundo terminaba en la ventana.",
+        "Un día preguntó:\n– ¿Por qué lloras siempre? ¡Aquí estamos mejor que fuera!",
+        "– Yo no estuve siempre aquí – respondió el viejo. – Cuando era joven, vivía en un gran bosque. Por la mañana me despertaba con el sol. Volaba de un árbol a otro, comía lo que encontraba y bebía en el río. En invierno hacía frío y a veces tenía hambre. Pero decidía yo adónde ir.",
+        "– ¿Y luego? – preguntó el joven.\n– Luego, un día, un hombre me atrapó y me metió aquí.",
+        "El joven no dijo nada. Miró la puerta de la jaula: estaba cerrada. Antes nunca pensaba en ello.",
+        "Esta fábula la escribió Ignacy Krasicki, un obispo polaco, y la publicó en 1779. En aquellos años Polonia había perdido una parte de sus tierras, y en la jaula muchos lectores veían otra historia: la de un país que ya no era libre. Todavía hoy los niños polacos la estudian en la escuela."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Numa casa no campo, na Polônia, há uma gaiola perto da janela. Na gaiola há dois passarinhos: um passarinho jovem e um passarinho velho.",
+        "Na gaiola tem de tudo. Tem água, tem sementes, tem um galhinho para dormir. Não tem gatos e não faz frio.",
+        "O passarinho jovem está contente. Canta o dia inteiro. O passarinho velho, ao contrário, não canta. Olha pela janela e chora.",
+        "– Por que você está chorando? – pergunta o jovem. – Aqui tem de tudo! Lá fora tem vento, tem chuva, tem gatos. Aqui não tem problemas!",
+        "O velho olha para fora. Tem árvores, tem sol, tem um rio. No céu voam outros pássaros.",
+        "– Você nasceu aqui – diz o velho. – Para você a gaiola é a sua casa. Eu nasci lá fora. Eu era livre. Por isso eu choro.",
+        "O passarinho jovem não responde. Pela primeira vez, ele também olha pela janela.",
+        "Essa é a moral desta fábula polonesa: quem não conhece a liberdade não sabe o que está perdendo."
+      ],
+      "a2": [
+        "Dois pintassilgos viviam na mesma gaiola, numa casa no campo. Tinham sementes, água e um lugar quentinho para o inverno. O mais jovem cantava o dia inteiro, o mais velho chorava.",
+        "O jovem não entendia. Tinha nascido naquela gaiola: não conhecia o bosque, não conhecia os rios, e para ele o mundo terminava na janela.",
+        "Um dia perguntou:\n– Por que você chora sempre? Aqui estamos melhor do que lá fora!",
+        "– Eu não estive sempre aqui – respondeu o velho. – Quando eu era jovem, morava num grande bosque. De manhã acordava com o sol. Voava de uma árvore para outra, comia o que encontrava e bebia no rio. No inverno fazia frio e às vezes eu passava fome. Mas era eu que decidia aonde ir.",
+        "– E depois? – perguntou o jovem.\n– Depois, um dia, um homem me pegou e me colocou aqui.",
+        "O jovem não disse nada. Olhou para a porta da gaiola: estava fechada. Antes ele nunca pensava nisso.",
+        "Esta fábula foi escrita por Ignacy Krasicki, um bispo polonês, e publicada em 1779. Naqueles anos a Polônia tinha perdido uma parte das suas terras, e na gaiola muitos leitores viam outra história: a de um país que não era mais livre. Até hoje as crianças polonesas a estudam na escola."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans une maison à la campagne, en Pologne, il y a une cage près de la fenêtre. Dans la cage, il y a deux petits oiseaux : un petit oiseau jeune et un petit oiseau vieux.",
+        "Dans la cage, il y a tout. Il y a de l’eau, il y a des graines, il y a un petit perchoir pour dormir. Il n’y a pas de chats et il ne fait pas froid.",
+        "Le jeune oiseau est content. Il chante toute la journée. Le vieil oiseau, par contre, ne chante pas. Il regarde par la fenêtre et il pleure.",
+        "– Pourquoi tu pleures ? – demande le jeune. – Ici, il y a tout ! Dehors, il y a le vent, il y a la pluie, il y a les chats. Ici, il n’y a pas de problèmes !",
+        "Le vieux regarde dehors. Il y a les arbres, il y a le soleil, il y a une rivière. Dans le ciel, d’autres oiseaux volent.",
+        "– Toi, tu es né ici – dit le vieux. – Pour toi, la cage, c’est la maison. Moi, je suis né là-dehors. J’étais libre. C’est pour ça que je pleure.",
+        "Le jeune oiseau ne répond pas. Pour la première fois, lui aussi regarde par la fenêtre.",
+        "C’est la morale de cette fable polonaise : celui qui ne connaît pas la liberté ne sait pas ce qu’il perd."
+      ],
+      "a2": [
+        "Deux tarins vivaient dans la même cage, dans une maison à la campagne. Ils avaient des graines, de l’eau et une place au chaud pour l’hiver. Le plus jeune chantait toute la journée, le plus vieux pleurait.",
+        "Le jeune ne comprenait pas. Il était né dans cette cage : il ne connaissait pas la forêt, il ne connaissait pas les rivières, et pour lui le monde s’arrêtait à la fenêtre.",
+        "Un jour, il a demandé :\n– Pourquoi tu pleures toujours ? Ici, on est mieux que dehors !",
+        "– Je n’ai pas toujours été ici – a répondu le vieux. – Quand j’étais jeune, j’habitais dans une grande forêt. Le matin, je me réveillais avec le soleil. Je volais d’un arbre à l’autre, je mangeais ce que je trouvais et je buvais à la rivière. L’hiver, il faisait froid et parfois j’avais faim. Mais c’est moi qui décidais où aller.",
+        "– Et après ? – a demandé le jeune.\n– Après, un jour, un homme m’a attrapé et m’a mis ici.",
+        "Le jeune n’a rien dit. Il a regardé la porte de la cage : elle était fermée. Avant, il n’y pensait jamais.",
+        "Cette fable, c’est Ignacy Krasicki, un évêque polonais, qui l’a écrite, et il l’a publiée en 1779. À cette époque, la Pologne avait perdu une partie de ses terres, et dans la cage beaucoup de lecteurs voyaient une autre histoire : celle d’un pays qui n’était plus libre. Aujourd’hui encore, les enfants polonais l’étudient à l’école."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V jednom domě na venkově, v Polsku, je u okna klec. V kleci jsou dva ptáčci: mladý ptáček a starý ptáček.",
+        "V kleci je všechno. Je tam voda, je tam zrní, je tam malá větvička na spaní. Nejsou tam kočky a není tam zima.",
+        "Mladý ptáček je spokojený. Zpívá celý den. Starý ptáček naopak nezpívá. Dívá se z okna a pláče.",
+        "– Proč pláčeš? – ptá se mladý. – Tady je všechno! Venku je vítr, je tam déšť, jsou tam kočky. Tady nejsou žádné problémy!",
+        "Starý se dívá ven. Jsou tam stromy, je tam slunce, je tam řeka. Na nebi létají jiní ptáci.",
+        "– Ty ses narodil tady, – říká starý. – Pro tebe je klec domov. Já jsem se narodil tam venku. Byl jsem svobodný. Proto pláču.",
+        "Mladý ptáček neodpoví. Poprvé se taky on podívá z okna.",
+        "To je ponaučení z této polské bajky: kdo nezná svobodu, neví, o co přichází."
+      ],
+      "a2": [
+        "Dva čížci žili ve stejné kleci, v jednom domě na venkově. Měli zrní, vodu a teplé místo na zimu. Ten mladší celý den zpíval, ten starší plakal.",
+        "Mladý to nechápal. Narodil se v té kleci: neznal les, neznal řeky a svět pro něj končil u okna.",
+        "Jednoho dne se zeptal:\n– Proč pořád pláčeš? Tady je nám líp než venku!",
+        "– Nebyl jsem tady vždycky, – odpověděl starý. – Když jsem byl mladý, žil jsem ve velkém lese. Ráno jsem se probouzel se sluncem. Létal jsem ze stromu na strom, jedl jsem, co jsem našel, a pil jsem u řeky. V zimě byla zima a někdy jsem měl hlad. Ale o tom, kam poletím, jsem rozhodoval já.",
+        "– A pak? – zeptal se mladý.\n– Pak mě jednoho dne chytil nějaký člověk a zavřel mě sem.",
+        "Mladý nic neřekl. Podíval se na dvířka klece: byla zavřená. Dřív na to nikdy nemyslel.",
+        "Tuto bajku napsal Ignacy Krasicki, polský biskup, a vydal ji v roce 1779. V těch letech přišlo Polsko o část svého území a v kleci mnoho čtenářů vidělo jiný příběh: příběh země, která už nebyla svobodná. Polské děti se ji dodnes učí ve škole."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W pewnym domu na wsi, w Polsce, przy oknie stoi klatka. W klatce są dwa ptaszki: młody ptaszek i stary ptaszek.",
+        "W klatce jest wszystko. Jest woda, są ziarenka, jest mała gałązka do spania. Nie ma kotów i nie jest zimno.",
+        "Młody ptaszek jest zadowolony. Śpiewa cały dzień. Stary ptaszek natomiast nie śpiewa. Patrzy przez okno i płacze.",
+        "– Dlaczego płaczesz? – pyta młody. – Tu jest wszystko! Na zewnątrz jest wiatr, jest deszcz, są koty. Tu nie ma problemów!",
+        "Stary patrzy na zewnątrz. Są drzewa, jest słońce, jest rzeka. Na niebie latają inne ptaki.",
+        "– Ty urodziłeś się tutaj – mówi stary. – Dla ciebie klatka to dom. Ja urodziłem się tam, na wolności. Byłem wolny. Dlatego płaczę.",
+        "Młody ptaszek nie odpowiada. Po raz pierwszy on też patrzy przez okno.",
+        "To jest morał tej polskiej bajki: kto nie zna wolności, nie wie, co traci."
+      ],
+      "a2": [
+        "Dwa czyżyki mieszkały w tej samej klatce, w domu na wsi. Miały ziarno, wodę i ciepłe miejsce na zimę. Młodszy śpiewał cały dzień, starszy płakał.",
+        "Młody nie rozumiał. Urodził się w tej klatce: nie znał lasu, nie znał rzek, a świat kończył się dla niego na oknie.",
+        "Pewnego dnia zapytał:\n– Dlaczego ciągle płaczesz? Tu jest nam lepiej niż na zewnątrz!",
+        "– Nie zawsze tu byłem – odpowiedział stary. – Kiedy byłem młody, mieszkałem w wielkim lesie. Rano budziłem się ze słońcem. Latałem z drzewa na drzewo, jadłem to, co znalazłem, i piłem wodę z rzeki. Zimą było zimno i czasem byłem głodny. Ale to ja decydowałem, dokąd lecieć.",
+        "– A potem? – zapytał młody.\n– Potem pewnego dnia złapał mnie człowiek i włożył mnie tutaj.",
+        "Młody nic nie powiedział. Spojrzał na drzwiczki klatki: były zamknięte. Wcześniej nigdy o tym nie myślał.",
+        "Tę bajkę, „Ptaszki w klatce”, napisał Ignacy Krasicki i wydał ją w 1779 roku. W tamtych latach Polska straciła część swoich ziem, i w klatce wielu czytelników widziało inną historię: historię kraju, który nie był już wolny. Do dziś polskie dzieci uczą się jej w szkole."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Polonya'da, köyde bir evde, pencerenin yanında bir kafes var. Kafeste iki küçük kuş var: genç bir küçük kuş ve yaşlı bir küçük kuş.",
+        "Kafeste her şey var. Su var, yem var, uyumak için küçük bir dal var. Kedi yok ve soğuk yok.",
+        "Genç kuş mutlu. Bütün gün şarkı söylüyor. Yaşlı kuş ise şarkı söylemiyor. Pencereden dışarı bakıp ağlıyor.",
+        "– Neden ağlıyorsun? – diye soruyor genç kuş. – Burada her şey var! Dışarıda rüzgâr var, yağmur var, kediler var. Burada hiç sorun yok!",
+        "Yaşlı kuş dışarı bakıyor. Ağaçlar var, güneş var, bir nehir var. Gökyüzünde başka kuşlar uçuyor.",
+        "– Sen burada doğdun – diyor yaşlı kuş. – Senin için kafes evin. Ben orada, dışarıda doğdum. Özgürdüm. Bu yüzden ağlıyorum.",
+        "Genç kuş cevap vermiyor. İlk kez o da pencereden dışarı bakıyor.",
+        "Bu Polonya masalının ana fikri şu: özgürlüğü tanımayan, neyi kaybettiğini bilmez."
+      ],
+      "a2": [
+        "İki karabaş iskete, köyde bir evde, aynı kafeste yaşıyordu. Yemleri, suları ve kış için sıcak bir yerleri vardı. Daha genç olan bütün gün şarkı söylüyor, daha yaşlı olan ağlıyordu.",
+        "Genç kuş anlamıyordu. O kafeste doğmuştu: ormanı bilmiyordu, nehirleri bilmiyordu ve onun için dünya pencerede bitiyordu.",
+        "Bir gün sordu:\n– Neden hep ağlıyorsun? Burada dışarıdan daha iyiyiz!",
+        "– Ben hep burada değildim – diye cevap verdi yaşlı kuş. – Gençken büyük bir ormanda yaşıyordum. Sabahları güneşle uyanırdım. Ağaçtan ağaca uçardım, ne bulursam onu yerdim ve nehirden su içerdim. Kışın hava soğuktu ve bazen aç kalırdım. Ama nereye gideceğime ben karar verirdim.",
+        "– Peki sonra? – diye sordu genç kuş.\n– Sonra bir gün bir adam beni yakaladı ve buraya koydu.",
+        "Genç kuş hiçbir şey demedi. Kafesin kapısına baktı: kapalıydı. Daha önce bunu hiç düşünmemişti.",
+        "Bu masalı Polonyalı bir piskopos olan Ignacy Krasicki yazdı ve 1779'da yayımladı. O yıllarda Polonya topraklarının bir kısmını kaybetmişti ve birçok okur kafeste başka bir hikâye görüyordu: artık özgür olmayan bir ülkenin hikâyesini. Polonyalı çocuklar onu bugün hâlâ okulda okuyor."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem Haus auf dem Land, in Polen, steht ein Käfig am Fenster. Im Käfig sind zwei Vögelchen: ein junges Vögelchen und ein altes Vögelchen.",
+        "Im Käfig gibt es alles. Es gibt Wasser, es gibt Körner, es gibt einen kleinen Zweig zum Schlafen. Es gibt keine Katzen und es ist nicht kalt.",
+        "Das junge Vögelchen ist zufrieden. Es singt den ganzen Tag. Das alte Vögelchen dagegen singt nicht. Es schaut aus dem Fenster und weint.",
+        "– Warum weinst du? – fragt das junge. – Hier gibt es alles! Draußen gibt es Wind, es gibt Regen, es gibt Katzen. Hier gibt es keine Probleme!",
+        "Das alte schaut hinaus. Da sind Bäume, da ist die Sonne, da ist ein Fluss. Am Himmel fliegen andere Vögel.",
+        "– Du bist hier geboren, – sagt das alte. – Für dich ist der Käfig dein Zuhause. Ich bin da draußen geboren. Ich war frei. Darum weine ich.",
+        "Das junge Vögelchen antwortet nicht. Zum ersten Mal schaut auch es aus dem Fenster.",
+        "Das ist die Moral dieser polnischen Fabel: Wer die Freiheit nicht kennt, weiß nicht, was er verliert."
+      ],
+      "a2": [
+        "Zwei Zeisige lebten im selben Käfig, in einem Haus auf dem Land. Sie hatten Körner, Wasser und einen warmen Platz für den Winter. Der jüngere sang den ganzen Tag, der ältere weinte.",
+        "Der junge verstand das nicht. Er war in diesem Käfig geboren: Er kannte den Wald nicht, er kannte die Flüsse nicht, und für ihn endete die Welt am Fenster.",
+        "Eines Tages fragte er:\n– Warum weinst du immer? Hier geht es uns besser als draußen!",
+        "– Ich war nicht immer hier, – antwortete der alte. – Als ich jung war, wohnte ich in einem großen Wald. Morgens wachte ich mit der Sonne auf. Ich flog von einem Baum zum anderen, ich fraß, was ich fand, und trank am Fluss. Im Winter war es kalt, und manchmal hatte ich Hunger. Aber ich entschied, wohin ich flog.",
+        "– Und dann? – fragte der junge.\n– Dann hat mich eines Tages ein Mann gefangen und hier hineingesetzt.",
+        "Der junge sagte nichts. Er schaute auf die Tür des Käfigs: Sie war zu. Früher hatte er nie daran gedacht.",
+        "Diese Fabel hat Ignacy Krasicki geschrieben, ein polnischer Bischof, und 1779 veröffentlicht. In jenen Jahren hatte Polen einen Teil seines Landes verloren, und im Käfig sahen viele Leser eine andere Geschichte: die eines Landes, das nicht mehr frei war. Noch heute lernen polnische Kinder sie in der Schule."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ポーランドのいなかの家に、窓のそばに鳥かごがあります。かごの中には小鳥が二羽います。若い小鳥と、年をとった小鳥です。",
+        "かごの中には何でもあります。水があり、えさの粒があり、眠るための小さな止まり木があります。ネコはいないし、寒くもありません。",
+        "若い小鳥は満足しています。一日じゅう歌っています。それに対して、年をとった小鳥は歌いません。窓の外を見て、泣いています。",
+        "「どうして泣いているの？」と若い小鳥がたずねます。「ここには何でもあるよ！　外には風も雨もネコもいる。ここなら何の問題もないよ！」",
+        "年をとった小鳥は外を見ます。木があり、太陽があり、川があります。空ではほかの鳥たちが飛んでいます。",
+        "「おまえはここで生まれた」と年をとった小鳥は言います。「おまえにとって、このかごは家なんだ。わたしはあの外で生まれた。自由だったんだ。だから泣いているんだよ。」",
+        "若い小鳥は何も答えません。初めて、若い小鳥も窓の外を見ます。",
+        "これがこのポーランドの寓話の教訓です。自由を知らない者は、自分が何を失っているのかわかりません。"
+      ],
+      "a2": [
+        "二羽のマヒワが、いなかの家で同じかごに住んでいました。えさも水もあり、冬にはあたたかい場所もありました。若いほうは一日じゅう歌い、年をとったほうは泣いていました。",
+        "若いマヒワにはわかりませんでした。そのかごの中で生まれたので、森も川も知らず、世界は窓のところで終わっていたのです。",
+        "ある日、若いマヒワはたずねました。\n「どうしていつも泣いているの？　ここのほうが外よりいいじゃないか！」",
+        "「わたしはずっとここにいたわけではない」と年をとったマヒワは答えました。「若いころは大きな森に住んでいた。朝はお日さまといっしょに目を覚ました。木から木へと飛びまわり、見つけたものを食べ、川で水を飲んだ。冬は寒く、ときにはおなかがすいた。でも、どこへ行くかは自分で決めていたんだ。」",
+        "「それから？」と若いマヒワはたずねました。\n「それからある日、人間がわたしをつかまえて、ここに入れたんだ。」",
+        "若いマヒワは何も言いませんでした。かごの戸を見ると、閉まっていました。それまで、そんなことは考えたこともありませんでした。",
+        "この寓話を書いたのは、ポーランドの司教イグナツィ・クラシツキで、1779年に発表されました。そのころポーランドは領土の一部を失っていて、多くの読者は鳥かごに別の物語を見ていました。もう自由ではなくなった国の物語です。今でもポーランドの子どもたちは、学校でこの話を学んでいます。"
+      ]
+    }
+  }
+}
