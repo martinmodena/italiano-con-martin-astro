@@ -1,0 +1,424 @@
+{
+  "id": "i-musicanti-di-brema",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la schiena",
+      "forme": ["schiena"],
+      "esempi": ["Mi fa male la schiena.", "Dormo sulla schiena.", "Porta lo zaino sulla schiena."],
+      "traduzioni": { "en": "back (of the body)", "es": "espalda", "pt": "costas", "fr": "dos", "cs": "záda", "pl": "plecy, grzbiet", "tr": "sırt", "de": "Rücken", "ja": "背中" }
+    },
+    {
+      "parola": "il padrone, la padrona",
+      "forme": ["padrone", "padrona"],
+      "esempi": ["Il cane aspetta il padrone davanti alla porta.", "La padrona del gatto è molto gentile.", "Il padrone di casa vuole l'affitto."],
+      "traduzioni": { "en": "owner, master (of an animal)", "es": "amo, dueño", "pt": "dono, dona", "fr": "maître, maîtresse", "cs": "pán, paní (majitel)", "pl": "pan, gospodarz", "tr": "sahip", "de": "Herr, Herrin, Besitzer", "ja": "飼い主、主人" }
+    },
+    {
+      "parola": "la voce",
+      "forme": ["voce"],
+      "esempi": ["Hai una bella voce!", "Parla a bassa voce: il bambino dorme.", "Ho mal di gola e non ho voce."],
+      "traduzioni": { "en": "voice", "es": "voz", "pt": "voz", "fr": "voix", "cs": "hlas", "pl": "głos", "tr": "ses", "de": "Stimme", "ja": "声" }
+    },
+    {
+      "parola": "cattivo",
+      "forme": ["cattivo"],
+      "esempi": ["Non essere cattivo con tuo fratello!", "Nelle favole c'è sempre un personaggio cattivo.", "Il mio vicino non è cattivo, è solo timido."],
+      "traduzioni": { "en": "bad, mean", "es": "malo", "pt": "malvado, mau", "fr": "méchant", "cs": "zlý", "pl": "zły", "tr": "kötü", "de": "böse", "ja": "意地悪な、悪い" }
+    },
+    {
+      "parola": "il gallo",
+      "forme": ["gallo"],
+      "esempi": ["Il gallo canta ogni mattina alle cinque.", "Nella fattoria ci sono un gallo e tre galline.", "Il gallo ha la cresta rossa."],
+      "traduzioni": { "en": "rooster", "es": "gallo", "pt": "galo", "fr": "coq", "cs": "kohout", "pl": "kogut", "tr": "horoz", "de": "Hahn", "ja": "オンドリ" }
+    },
+    {
+      "parola": "il freddo",
+      "forme": ["freddo"],
+      "esempi": ["Ho freddo: chiudi la finestra?", "Oggi fa molto freddo.", "D'inverno i gatti hanno freddo."],
+      "traduzioni": { "en": "cold («ha freddo» = he's cold; «fa freddo» = it's cold)", "es": "frío («ha freddo» = tiene frío; «fa freddo» = hace frío)", "pt": "frio («ha freddo» = está com frio; «fa freddo» = faz frio)", "fr": "froid («ha freddo» = il a froid ; «fa freddo» = il fait froid)", "cs": "zima («ha freddo» = je mu zima; «fa freddo» = je zima)", "pl": "zimno («ha freddo» = jest mu zimno)", "tr": "soğuk («ha freddo» = üşüyor; «fa freddo» = hava soğuk)", "de": "Kälte («ha freddo» = er friert; «fa freddo» = es ist kalt)", "ja": "寒さ（«ha freddo» = 寒い）" }
+    },
+    {
+      "parola": "il sonno",
+      "forme": ["sonno"],
+      "esempi": ["Ho sonno: vado a letto.", "Dopo pranzo ho sempre sonno.", "I bambini hanno sonno e sbadigliano."],
+      "traduzioni": { "en": "sleepiness («avere sonno» = to be sleepy)", "es": "sueño («avere sonno» = tener sueño)", "pt": "sono («avere sonno» = estar com sono)", "fr": "sommeil («avere sonno» = avoir sommeil)", "cs": "ospalost («avere sonno» = chtít se spát)", "pl": "senność («avere sonno» = chcieć spać)", "tr": "uyku («avere sonno» = uykusu gelmek)", "de": "Müdigkeit («avere sonno» = müde sein)", "ja": "眠気（«avere sonno» = 眠い）" }
+    },
+    {
+      "parola": "la paura",
+      "forme": ["paura"],
+      "esempi": ["Ho paura dei ragni.", "Il bambino ha paura del buio.", "Non avere paura, ci sono io!"],
+      "traduzioni": { "en": "fear («avere paura» = to be afraid)", "es": "miedo («avere paura» = tener miedo)", "pt": "medo («avere paura» = ter medo)", "fr": "peur («avere paura» = avoir peur)", "cs": "strach («avere paura» = bát se)", "pl": "strach («avere paura» = bać się)", "tr": "korku («avere paura» = korkmak)", "de": "Angst («avere paura» = Angst haben)", "ja": "恐れ（«avere paura» = こわがる）" }
+    },
+    {
+      "parola": "la luce",
+      "forme": ["luce"],
+      "esempi": ["Accendi la luce, per favore.", "Dalla finestra entra molta luce.", "Di notte vedo una luce in lontananza."],
+      "traduzioni": { "en": "light", "es": "luz", "pt": "luz", "fr": "lumière", "cs": "světlo", "pl": "światło", "tr": "ışık", "de": "Licht", "ja": "明かり、光" }
+    },
+    {
+      "parola": "il ladro",
+      "forme": ["ladri", "ladro"],
+      "esempi": ["Il ladro è entrato dalla finestra.", "La polizia ha preso i ladri.", "Attenti ai ladri sull'autobus!"],
+      "traduzioni": { "en": "thief, robber", "es": "ladrón", "pt": "ladrão", "fr": "voleur", "cs": "loupežník, zloděj", "pl": "złodziej", "tr": "hırsız", "de": "Räuber, Dieb", "ja": "どろぼう" }
+    },
+    {
+      "parola": "la tavola",
+      "forme": ["tavola"],
+      "esempi": ["La cena è in tavola!", "Apparecchia la tavola, per favore.", "A tavola parliamo della giornata."],
+      "traduzioni": { "en": "table (for meals)", "es": "mesa", "pt": "mesa", "fr": "table", "cs": "stůl (k jídlu)", "pl": "stół", "tr": "sofra, masa", "de": "Tisch (zum Essen)", "ja": "食卓、テーブル" }
+    },
+    {
+      "parola": "salire",
+      "forme": ["sale", "salito"],
+      "formeEsempi": ["saliamo"],
+      "esempi": ["Il gatto sale sul tavolo.", "Saliamo sull'autobus.", "Il bambino sale sulle spalle del papà."],
+      "traduzioni": { "en": "to climb (onto), to get on", "es": "subirse (a)", "pt": "subir (em)", "fr": "monter (sur)", "cs": "vylézt (na)", "pl": "wejść (na)", "tr": "çıkmak, binmek", "de": "steigen (auf)", "ja": "（〜の上に）乗る、のぼる" }
+    },
+    {
+      "parola": "insieme",
+      "forme": ["insieme"],
+      "esempi": ["Studiamo insieme stasera?", "Siamo andati in vacanza insieme.", "Cantiamo tutti insieme!"],
+      "traduzioni": { "en": "together", "es": "juntos", "pt": "juntos", "fr": "ensemble", "cs": "spolu, společně", "pl": "razem", "tr": "birlikte", "de": "zusammen", "ja": "いっしょに" }
+    },
+    {
+      "parola": "cominciare",
+      "forme": ["cominciare", "cominciato"],
+      "formeEsempi": ["comincia", "comincio"],
+      "esempi": ["La lezione comincia alle nove.", "Ho cominciato a studiare l'italiano un anno fa.", "Domani comincio un nuovo lavoro."],
+      "traduzioni": { "en": "to begin, to start", "es": "empezar, comenzar", "pt": "começar", "fr": "commencer", "cs": "začít", "pl": "zaczynać", "tr": "başlamak", "de": "anfangen, beginnen", "ja": "始める、始まる" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "il mugnaio",
+      "forme": ["mugnaio"],
+      "esempi": ["Il mugnaio macina il grano nel mulino.", "Il mugnaio lavora vicino al fiume.", "Mio bisnonno faceva il mugnaio."],
+      "traduzioni": { "en": "miller", "es": "molinero", "pt": "moleiro", "fr": "meunier", "cs": "mlynář", "pl": "młynarz", "tr": "değirmenci", "de": "Müller", "ja": "粉ひき、粉屋" }
+    },
+    {
+      "parola": "il sacco",
+      "forme": ["sacchi"],
+      "formeEsempi": ["sacco"],
+      "esempi": ["Porto a casa un sacco di patate.", "In cantina ci sono sacchi di farina.", "Metti la spazzatura nel sacco."],
+      "traduzioni": { "en": "sack, bag", "es": "saco", "pt": "saco", "fr": "sac", "cs": "pytel", "pl": "worek", "tr": "çuval", "de": "Sack", "ja": "袋" }
+    },
+    {
+      "parola": "ormai",
+      "forme": ["ormai"],
+      "esempi": ["Ormai è tardi: andiamo a casa.", "Ormai parlo bene l'italiano.", "Il treno è ormai partito."],
+      "traduzioni": { "en": "by now, at this point", "es": "ya (a estas alturas)", "pt": "já, a essa altura", "fr": "désormais, maintenant", "cs": "už (teď už)", "pl": "już (teraz już)", "tr": "artık", "de": "inzwischen, nun schon", "ja": "もう、今となっては" }
+    },
+    {
+      "parola": "mentre",
+      "forme": ["mentre"],
+      "esempi": ["Mentre cucino, ascolto la radio.", "Mi ha telefonato mentre dormivo.", "Mentre aspettavo il treno, ho letto un libro."],
+      "traduzioni": { "en": "while", "es": "mientras", "pt": "enquanto", "fr": "pendant que", "cs": "zatímco, když", "pl": "kiedy, podczas gdy", "tr": "-ken", "de": "während", "ja": "〜しているあいだに" }
+    },
+    {
+      "parola": "la caccia",
+      "forme": ["caccia"],
+      "esempi": ["Il gufo va a caccia di notte.", "In questo parco la caccia è vietata.", "Il gatto va a caccia di farfalle in giardino."],
+      "traduzioni": { "en": "hunting («andare a caccia» = to go hunting)", "es": "caza («andare a caccia» = ir de caza)", "pt": "caça («andare a caccia» = ir caçar)", "fr": "chasse («andare a caccia» = aller à la chasse)", "cs": "lov («andare a caccia» = chodit na lov)", "pl": "polowanie («andare a caccia» = chodzić na polowanie)", "tr": "av («andare a caccia» = ava gitmek)", "de": "Jagd («andare a caccia» = auf die Jagd gehen)", "ja": "狩り（«andare a caccia» = 狩りに行く）" }
+    },
+    {
+      "parola": "il topo",
+      "forme": ["topi"],
+      "formeEsempi": ["topo"],
+      "esempi": ["Il gatto prende il topo.", "In cantina c'è un topo!", "Il topo si nasconde in un buco."],
+      "traduzioni": { "en": "mouse", "es": "ratón", "pt": "rato", "fr": "souris", "cs": "myš", "pl": "mysz", "tr": "fare", "de": "Maus", "ja": "ネズミ" }
+    },
+    {
+      "parola": "la fattoria",
+      "forme": ["fattoria"],
+      "esempi": ["I bambini visitano la fattoria.", "Nella fattoria ci sono mucche e galline.", "Mio zio ha una fattoria in Toscana."],
+      "traduzioni": { "en": "farm", "es": "granja", "pt": "fazenda, sítio", "fr": "ferme", "cs": "statek", "pl": "gospodarstwo", "tr": "çiftlik", "de": "Bauernhof", "ja": "農場、農家" }
+    },
+    {
+      "parola": "l'ospite",
+      "forme": ["ospiti"],
+      "formeEsempi": ["ospite"],
+      "esempi": ["Stasera abbiamo ospiti a cena.", "L'ospite arriva alle otto.", "Prepariamo la camera per gli ospiti."],
+      "traduzioni": { "en": "guest", "es": "invitado", "pt": "visita, convidado", "fr": "invité", "cs": "host", "pl": "gość", "tr": "misafir", "de": "Gast", "ja": "お客" }
+    },
+    {
+      "parola": "lontano",
+      "forme": ["lontana"],
+      "formeEsempi": ["lontano"],
+      "esempi": ["La stazione è lontana da qui?", "Abito lontano dal centro.", "Il mare non è lontano."],
+      "traduzioni": { "en": "far, far away", "es": "lejos, lejano", "pt": "longe, distante", "fr": "loin, lointain", "cs": "daleko, vzdálený", "pl": "daleko, daleki", "tr": "uzak", "de": "weit weg, fern", "ja": "遠い" }
+    },
+    {
+      "parola": "in cima",
+      "forme": ["cima"],
+      "esempi": ["Siamo arrivati in cima alla montagna.", "Il gatto è salito in cima all'albero.", "La mia camera è in cima alle scale."],
+      "traduzioni": { "en": "at the top (of)", "es": "en lo alto (de), en la copa", "pt": "no alto (de), no topo", "fr": "en haut (de), au sommet", "cs": "nahoře, na vrcholku", "pl": "na czubku, na szczycie", "tr": "tepesinde", "de": "oben (auf), an der Spitze", "ja": "てっぺんに" }
+    },
+    {
+      "parola": "buio",
+      "forme": ["buia"],
+      "formeEsempi": ["buio"],
+      "esempi": ["La stanza è buia: accendi la luce.", "D'inverno alle cinque è già buio.", "Non mi piace camminare in una strada buia."],
+      "traduzioni": { "en": "dark", "es": "oscuro, a oscuras", "pt": "escuro", "fr": "sombre, noir", "cs": "tmavý (je tma)", "pl": "ciemny", "tr": "karanlık", "de": "dunkel", "ja": "暗い" }
+    },
+    {
+      "parola": "graffiare",
+      "forme": ["graffiato"],
+      "formeEsempi": ["graffia"],
+      "esempi": ["Il gatto mi ha graffiato la mano.", "Attento, il gatto graffia!", "Ho graffiato la macchina contro il muro."],
+      "traduzioni": { "en": "to scratch", "es": "arañar", "pt": "arranhar", "fr": "griffer", "cs": "poškrábat", "pl": "podrapać", "tr": "tırmalamak", "de": "kratzen", "ja": "ひっかく" }
+    },
+    {
+      "parola": "mordere",
+      "forme": ["morso"],
+      "formeEsempi": ["morde"],
+      "esempi": ["Il cane non morde, è buono.", "Il bambino morde la mela.", "Il cavallo mi ha morso il braccio."],
+      "traduzioni": { "en": "to bite («ha morso» = bit)", "es": "morder", "pt": "morder", "fr": "mordre", "cs": "kousnout", "pl": "ugryźć", "tr": "ısırmak", "de": "beißen", "ja": "かむ、かみつく" }
+    },
+    {
+      "parola": "il calcio",
+      "forme": ["calcio"],
+      "formeEsempi": ["calci"],
+      "esempi": ["Ha dato un calcio alla palla.", "Il cavallo dà un calcio alla porta della stalla.", "Non dare calci al tuo fratellino!"],
+      "traduzioni": { "en": "kick (here not “football”)", "es": "patada, coz (aquí no «fútbol»)", "pt": "chute, coice (aqui não «futebol»)", "fr": "coup de pied (ici pas « football »)", "cs": "kopnutí (tady ne „fotbal“)", "pl": "kopniak (tu nie „piłka nożna”)", "tr": "tekme (burada «futbol» değil)", "de": "Tritt (hier nicht „Fußball“)", "ja": "けり（ここでは「サッカー」ではない）" }
+    },
+    {
+      "parola": "la sorpresa",
+      "forme": ["sorpresa"],
+      "esempi": ["Che bella sorpresa!", "Abbiamo preparato una festa a sorpresa.", "Per il suo compleanno ho una sorpresa."],
+      "traduzioni": { "en": "surprise", "es": "sorpresa", "pt": "surpresa", "fr": "surprise", "cs": "překvapení", "pl": "niespodzianka", "tr": "sürpriz", "de": "Überraschung", "ja": "驚き、サプライズ" }
+    },
+    {
+      "parola": "rimanere",
+      "forme": ["rimasti"],
+      "formeEsempi": ["rimango", "rimasto"],
+      "esempi": ["Stasera rimango a casa.", "Siamo rimasti in Italia tre settimane.", "Il bambino è rimasto a dormire dai nonni."],
+      "traduzioni": { "en": "to stay, to remain", "es": "quedarse", "pt": "ficar", "fr": "rester", "cs": "zůstat", "pl": "zostać", "tr": "kalmak", "de": "bleiben", "ja": "とどまる、残る" }
+    },
+    {
+      "parola": "eppure",
+      "forme": ["eppure"],
+      "esempi": ["È ricco, eppure non è felice.", "Ho studiato tanto, eppure non ho passato l'esame.", "Sembra facile, eppure è difficilissimo."],
+      "traduzioni": { "en": "and yet", "es": "y sin embargo", "pt": "e no entanto", "fr": "et pourtant", "cs": "a přece", "pl": "a jednak", "tr": "yine de", "de": "und doch, trotzdem", "ja": "それなのに" }
+    },
+    {
+      "parola": "il municipio",
+      "forme": ["municipio"],
+      "esempi": ["Il municipio è nella piazza principale.", "Si sono sposati in municipio.", "Per la carta d'identità devi andare in municipio."],
+      "traduzioni": { "en": "town hall", "es": "ayuntamiento", "pt": "prefeitura", "fr": "mairie, hôtel de ville", "cs": "radnice", "pl": "ratusz", "tr": "belediye binası", "de": "Rathaus", "ja": "市庁舎、役所" }
+    },
+    {
+      "parola": "la statua",
+      "forme": ["statua"],
+      "esempi": ["In piazza c'è la statua di Garibaldi.", "Il David di Michelangelo è una statua famosa.", "I turisti fanno foto davanti alla statua."],
+      "traduzioni": { "en": "statue", "es": "estatua", "pt": "estátua", "fr": "statue", "cs": "socha", "pl": "pomnik, posąg", "tr": "heykel", "de": "Statue", "ja": "像" }
+    },
+    {
+      "parola": "il bronzo",
+      "forme": ["bronzo"],
+      "esempi": ["La statua è di bronzo.", "Ha vinto la medaglia di bronzo.", "Il museo ha molte opere in bronzo."],
+      "traduzioni": { "en": "bronze", "es": "bronce", "pt": "bronze", "fr": "bronze", "cs": "bronz", "pl": "brąz", "tr": "bronz", "de": "Bronze", "ja": "青銅、ブロンズ" }
+    },
+    {
+      "parola": "grazie a",
+      "forme": ["grazie"],
+      "esempi": ["Grazie a te ho capito la lezione.", "Ho trovato lavoro grazie a un amico.", "Grazie alla pioggia, il giardino è verde."],
+      "traduzioni": { "en": "thanks to", "es": "gracias a", "pt": "graças a", "fr": "grâce à", "cs": "díky", "pl": "dzięki", "tr": "sayesinde", "de": "dank", "ja": "〜のおかげで" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "There is an old donkey. He has long ears and a tired back. His owner doesn't want him any more. But the donkey has an idea: “I'm going to Bremen! I have a beautiful voice. I'll become a musician!”.",
+        "On the road he meets a dog. The dog is old and hungry.\n– Do you have a problem? – asks the donkey.\n– Yes, I have a bad owner.\n– Come with me! You have a strong voice!",
+        "Then they meet a cat. The cat has few teeth and is cold.\n– Come with us to Bremen! We have an idea!",
+        "Then they meet a rooster. The rooster is afraid: his owner doesn't want him any more.\n– Come with us! You have a wonderful voice!",
+        "In the evening they are in the woods. They are hungry, cold and sleepy. They see a light: it's a house. Inside there are some robbers. The robbers have a table full of good things.",
+        "The donkey puts his front legs on the window. The dog climbs onto the donkey, the cat climbs onto the dog and the rooster climbs onto the cat. Then they all sing together: “Hee-haw! Woof! Meow! Cock-a-doodle-doo!”.",
+        "The robbers are scared and run away into the woods. The animals go in, eat and sleep. The house is nice and warm.",
+        "And Bremen? They never go to Bremen: now they have a house and they have friends. That's the moral of the tale: whoever has friends can start a new life, even when old."
+      ],
+      "a2": [
+        "Once upon a time there was a donkey who had worked for a miller for many years. He carried the sacks every day, but by now he was old and had no more strength. When he understood that his owner didn't want him any more, he ran away and set off for Bremen: he wanted to become a town musician.",
+        "While he was walking, he met an old dog that could no longer go hunting, then a cat that had few teeth and no longer caught mice. They all had the same problem: they were old and nobody wanted them. “Come with me,” said the donkey. “In Bremen there's work for those who can sing.”",
+        "In front of a farm they found a rooster that was crowing with all his strength: the farmer's wife was expecting guests and he was very afraid. So the rooster set off with them too.",
+        "Bremen was far away. When evening came, they were still in the woods. It was cold, they were hungry and they didn't know where to sleep. At some point the rooster, who was at the top of a tree, saw a light. It was a house, and inside there were some robbers eating and drinking.",
+        "The donkey put his front legs on the window, the dog climbed onto the donkey, the cat onto the dog and the rooster onto the cat. Then all together they began to “sing”. The robbers got scared and ran away into the woods.",
+        "During the night a robber came back to check. The house was dark. The cat scratched his face, the dog bit his leg, the donkey gave him a kick and the rooster screamed. The robber ran away and never came back.",
+        "And Bremen? Here's the surprise: the musicians never reached Bremen. They felt so good in that house that they stayed there. And yet today, next to Bremen town hall, there is a bronze statue of the four animals, one on top of the other. A city made famous thanks to those who never saw it!"
+      ]
+    },
+    "es": {
+      "a1": [
+        "Hay un burro viejo. Tiene las orejas largas y la espalda cansada. Su amo ya no lo quiere. Pero el burro tiene una idea: «¡Me voy a Bremen! Tengo una voz bonita. ¡Me hago músico!».",
+        "Por el camino encuentra a un perro. El perro es viejo y tiene hambre.\n– ¿Tienes un problema? – pregunta el burro.\n– Sí, tengo un amo malo.\n– ¡Ven conmigo! ¡Tienes una voz fuerte!",
+        "Luego encuentran a un gato. El gato tiene pocos dientes y tiene frío.\n– ¡Ven con nosotros a Bremen! ¡Tenemos una idea!",
+        "Luego encuentran a un gallo. El gallo tiene miedo: su dueña ya no lo quiere.\n– ¡Ven con nosotros! ¡Tienes una voz preciosa!",
+        "Por la noche están en el bosque. Tienen hambre, tienen frío y tienen sueño. Ven una luz: es una casa. Dentro hay unos ladrones. Los ladrones tienen una mesa llena de cosas ricas.",
+        "El burro pone las patas en la ventana. El perro se sube al burro, el gato se sube al perro y el gallo se sube al gato. Luego cantan todos juntos: «¡Iaaa! ¡Guau! ¡Miau! ¡Quiquiriquí!».",
+        "Los ladrones tienen miedo y huyen al bosque. Los animales entran, comen y duermen. La casa es bonita y calentita.",
+        "¿Y Bremen? Nunca van a Bremen: ahora tienen una casa y tienen amigos. Es la moraleja del cuento: quien tiene amigos puede empezar una vida nueva, aunque sea viejo."
+      ],
+      "a2": [
+        "Érase una vez un burro que trabajaba desde hacía muchos años para un molinero. Llevaba los sacos todos los días, pero ya era viejo y no tenía fuerzas. Cuando entendió que su amo ya no lo quería, se escapó y se fue a Bremen: quería ser músico de la ciudad.",
+        "Mientras caminaba, encontró a un perro viejo que ya no podía ir de caza, y luego a un gato que tenía pocos dientes y ya no cazaba ratones. Todos tenían el mismo problema: eran viejos y nadie los quería. «Venid conmigo», dijo el burro. «En Bremen hay trabajo para quien sabe cantar.»",
+        "Delante de una granja encontraron a un gallo que gritaba con todas sus fuerzas: la dueña esperaba invitados y él tenía mucho miedo. Así que también el gallo se fue con ellos.",
+        "Bremen estaba lejos. Cuando llegó la noche, todavía estaban en el bosque. Hacía frío, tenían hambre y no sabían dónde dormir. En un momento dado, el gallo, que estaba en la copa de un árbol, vio una luz. Era una casa, y dentro había unos ladrones que comían y bebían.",
+        "El burro puso las patas en la ventana, el perro se subió al burro, el gato al perro y el gallo al gato. Luego todos juntos empezaron a «cantar». Los ladrones se asustaron y huyeron al bosque.",
+        "Por la noche un ladrón volvió para echar un vistazo. La casa estaba a oscuras. El gato le arañó la cara, el perro le mordió la pierna, el burro le dio una coz y el gallo gritó. El ladrón huyó y no volvió nunca más.",
+        "¿Y Bremen? Aquí está la sorpresa: los músicos nunca llegaron a Bremen. Estaban tan bien en aquella casa que se quedaron allí. Y sin embargo hoy, junto al ayuntamiento de Bremen, hay una estatua de bronce de los cuatro animales, uno encima de otro. ¡Una ciudad famosa gracias a quien nunca la vio!"
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Há um burro velho. Ele tem orelhas compridas e as costas cansadas. O dono não quer mais o burro. Mas o burro tem uma ideia: «Vou para Bremen! Tenho uma voz bonita. Vou ser músico!».",
+        "No caminho ele encontra um cachorro. O cachorro é velho e está com fome.\n– Você tem algum problema? – pergunta o burro.\n– Tenho, meu dono é malvado.\n– Venha comigo! Você tem uma voz forte!",
+        "Depois eles encontram um gato. O gato tem poucos dentes e está com frio.\n– Venha com a gente para Bremen! Temos uma ideia!",
+        "Depois encontram um galo. O galo está com medo: a dona não quer mais ele.\n– Venha com a gente! Você tem uma voz linda!",
+        "À noite eles estão no bosque. Estão com fome, com frio e com sono. Veem uma luz: é uma casa. Lá dentro há uns ladrões. Os ladrões têm uma mesa cheia de coisas gostosas.",
+        "O burro põe as patas na janela. O cachorro sobe no burro, o gato sobe no cachorro e o galo sobe no gato. Depois todos cantam juntos: «Iááá! Au-au! Miau! Cocoricó!».",
+        "Os ladrões ficam com medo e fogem para o bosque. Os animais entram, comem e dormem. A casa é bonita e quentinha.",
+        "E Bremen? Eles nunca vão para Bremen: agora têm uma casa e têm amigos. Essa é a moral do conto: quem tem amigos pode começar uma vida nova, mesmo quando já é velho."
+      ],
+      "a2": [
+        "Era uma vez um burro que trabalhava havia muitos anos para um moleiro. Carregava os sacos todos os dias, mas já estava velho e não tinha mais força. Quando entendeu que o dono não o queria mais, fugiu e partiu para Bremen: queria ser músico da cidade.",
+        "Enquanto andava, encontrou um cachorro velho que não podia mais caçar, e depois um gato que tinha poucos dentes e não pegava mais ratos. Todos tinham o mesmo problema: eram velhos e ninguém os queria. «Venham comigo», disse o burro. «Em Bremen tem trabalho para quem sabe cantar.»",
+        "Na frente de uma fazenda encontraram um galo que gritava com todas as suas forças: a dona esperava visitas e ele estava com muito medo. Então o galo também partiu com eles.",
+        "Bremen ficava longe. Quando chegou a noite, eles ainda estavam no bosque. Fazia frio, estavam com fome e não sabiam onde dormir. Em certo momento, o galo, que estava no alto de uma árvore, viu uma luz. Era uma casa, e lá dentro havia uns ladrões comendo e bebendo.",
+        "O burro pôs as patas na janela, o cachorro subiu no burro, o gato no cachorro e o galo no gato. Depois todos juntos começaram a «cantar». Os ladrões se assustaram e fugiram para o bosque.",
+        "De noite, um ladrão voltou para ver. A casa estava escura. O gato arranhou o rosto dele, o cachorro mordeu a perna dele, o burro deu um coice nele e o galo gritou. O ladrão fugiu e nunca mais voltou.",
+        "E Bremen? Aí está a surpresa: os músicos nunca chegaram a Bremen. Estavam tão bem naquela casa que ficaram lá. E no entanto hoje, perto da prefeitura de Bremen, há uma estátua de bronze dos quatro animais, um em cima do outro. Uma cidade famosa graças a quem nunca a viu!"
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Il y a un vieil âne. Il a de longues oreilles et le dos fatigué. Son maître ne veut plus de lui. Mais l’âne a une idée : « Je vais à Brême ! J’ai une belle voix. Je deviens musicien ! ».",
+        "En chemin, il rencontre un chien. Le chien est vieux et il a faim.\n– Tu as un problème ? – demande l’âne.\n– Oui, j’ai un maître méchant.\n– Viens avec moi ! Tu as une voix forte !",
+        "Puis ils rencontrent un chat. Le chat a peu de dents et il a froid.\n– Viens avec nous à Brême ! Nous avons une idée !",
+        "Puis ils rencontrent un coq. Le coq a peur : sa maîtresse ne veut plus de lui.\n– Viens avec nous ! Tu as une voix magnifique !",
+        "Le soir, ils sont dans la forêt. Ils ont faim, ils ont froid et ils ont sommeil. Ils voient une lumière : c’est une maison. Dedans, il y a des voleurs. Les voleurs ont une table pleine de bonnes choses.",
+        "L’âne met ses pattes sur la fenêtre. Le chien monte sur l’âne, le chat monte sur le chien et le coq monte sur le chat. Puis ils chantent tous ensemble : « Hi-han ! Ouaf ! Miaou ! Cocorico ! ».",
+        "Les voleurs ont peur et s’enfuient dans la forêt. Les animaux entrent, mangent et dorment. La maison est belle et chaude.",
+        "Et Brême ? Ils ne vont jamais à Brême : maintenant, ils ont une maison et ils ont des amis. C’est la morale du conte : celui qui a des amis peut commencer une nouvelle vie, même quand il est vieux."
+      ],
+      "a2": [
+        "Il était une fois un âne qui travaillait depuis de nombreuses années pour un meunier. Il portait les sacs tous les jours, mais il était désormais vieux et n’avait plus de force. Quand il a compris que son maître ne voulait plus de lui, il s’est enfui et il est parti pour Brême : il voulait devenir musicien de la ville.",
+        "Pendant qu’il marchait, il a rencontré un vieux chien qui ne pouvait plus aller à la chasse, puis un chat qui avait peu de dents et n’attrapait plus les souris. Ils avaient tous le même problème : ils étaient vieux et personne ne voulait d’eux. « Venez avec moi », a dit l’âne. « À Brême, il y a du travail pour ceux qui savent chanter. »",
+        "Devant une ferme, ils ont trouvé un coq qui criait de toutes ses forces : la fermière attendait des invités et il avait très peur. Alors le coq est parti avec eux, lui aussi.",
+        "Brême était loin. Quand le soir est arrivé, ils étaient encore dans la forêt. Il faisait froid, ils avaient faim et ils ne savaient pas où dormir. À un moment, le coq, qui était en haut d’un arbre, a vu une lumière. C’était une maison, et dedans il y avait des voleurs qui mangeaient et buvaient.",
+        "L’âne a mis ses pattes sur la fenêtre, le chien est monté sur l’âne, le chat sur le chien et le coq sur le chat. Puis, tous ensemble, ils ont commencé à « chanter ». Les voleurs ont eu peur et se sont enfuis dans la forêt.",
+        "Pendant la nuit, un voleur est revenu pour vérifier. La maison était sombre. Le chat lui a griffé le visage, le chien lui a mordu la jambe, l’âne lui a donné un coup de sabot et le coq a crié. Le voleur s’est enfui et n’est jamais revenu.",
+        "Et Brême ? Voilà la surprise : les musiciens ne sont jamais arrivés à Brême. Ils étaient si bien dans cette maison qu’ils y sont restés. Et pourtant aujourd’hui, près de l’hôtel de ville de Brême, il y a une statue en bronze des quatre animaux, l’un sur l’autre. Une ville célèbre grâce à ceux qui ne l’ont jamais vue !"
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Je tu starý osel. Má dlouhé uši a unavená záda. Pán ho už nechce. Ale osel dostane nápad: „Půjdu do Brém! Mám krásný hlas. Stanu se muzikantem!“.",
+        "Na cestě potká psa. Pes je starý a má hlad.\n– Máš nějaký problém? – ptá se osel.\n– Ano, mám zlého pána.\n– Pojď se mnou! Máš silný hlas!",
+        "Pak potkají kocoura. Kocour má málo zubů a je mu zima.\n– Pojď s námi do Brém! Máme nápad!",
+        "Pak potkají kohouta. Kohout má strach: jeho paní ho už nechce.\n– Pojď s námi! Máš nádherný hlas!",
+        "Večer jsou v lese. Mají hlad, je jim zima a chce se jim spát. Uvidí světlo: je to dům. Uvnitř jsou loupežníci. Loupežníci mají stůl plný dobrot.",
+        "Osel dá přední nohy na okno. Pes vyleze na osla, kocour vyleze na psa a kohout vyleze na kocoura. Pak všichni společně zazpívají: „Íá! Haf! Mňau! Kykyryký!“.",
+        "Loupežníci dostanou strach a utečou do lesa. Zvířata vejdou dovnitř, najedí se a vyspí se. Dům je pěkný a teplý.",
+        "A Brémy? Do Brém nikdy nedojdou: teď mají dům a mají přátele. To je ponaučení z pohádky: kdo má přátele, může začít nový život, i když je starý."
+      ],
+      "a2": [
+        "Byl jednou jeden osel, který už mnoho let pracoval pro mlynáře. Každý den nosil pytle, ale teď už byl starý a neměl sílu. Když pochopil, že ho pán už nechce, utekl a vydal se do Brém: chtěl se stát městským muzikantem.",
+        "Cestou potkal starého psa, který už nemohl chodit na lov, a pak kocoura, který měl málo zubů a už nechytal myši. Všichni měli stejný problém: byli staří a nikdo je nechtěl. „Pojďte se mnou,“ řekl osel. „V Brémách je práce pro ty, kdo umějí zpívat.“",
+        "Před jedním statkem našli kohouta, který křičel ze všech sil: hospodyně čekala hosty a on se moc bál. A tak se s nimi vydal i kohout.",
+        "Brémy byly daleko. Když přišel večer, byli pořád v lese. Byla zima, měli hlad a nevěděli, kde spát. V jednu chvíli kohout, který seděl na vrcholku stromu, uviděl světlo. Byl to dům a uvnitř byli loupežníci, kteří jedli a pili.",
+        "Osel dal přední nohy na okno, pes vylezl na osla, kocour na psa a kohout na kocoura. Pak všichni společně začali „zpívat“. Loupežníci se lekli a utekli do lesa.",
+        "V noci se jeden loupežník vrátil, aby se podíval. V domě byla tma. Kocour ho poškrábal na obličeji, pes ho kousl do nohy, osel ho kopl a kohout zakřičel. Loupežník utekl a už se nikdy nevrátil.",
+        "A Brémy? Tady je překvapení: muzikanti do Brém nikdy nedošli. V tom domě se jim žilo tak dobře, že tam zůstali. A přece dnes u brémské radnice stojí bronzová socha čtyř zvířat, jedno na druhém. Město, které proslavili ti, kdo ho nikdy neviděli!"
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jest sobie stary osioł. Ma długie uszy i zmęczony grzbiet. Gospodarz już go nie chce. Ale osioł ma pomysł: „Idę do Bremy! Mam piękny głos. Zostanę muzykantem!”.",
+        "Po drodze spotyka psa. Pies jest stary i głodny.\n– Masz jakiś problem? – pyta osioł.\n– Tak, mam złego pana.\n– Chodź ze mną! Masz mocny głos!",
+        "Potem spotykają kota. Kot ma mało zębów i jest mu zimno.\n– Chodź z nami do Bremy! Mamy pomysł!",
+        "Potem spotykają koguta. Kogut się boi: gospodyni już go nie chce.\n– Chodź z nami! Masz przepiękny głos!",
+        "Wieczorem są w lesie. Są głodni, jest im zimno i chce im się spać. Widzą światło: to dom. W środku są złodzieje. Złodzieje mają stół pełen pyszności.",
+        "Osioł kładzie przednie nogi na oknie. Pies wchodzi na osła, kot wchodzi na psa, a kogut wchodzi na kota. Potem śpiewają wszyscy razem: „Iii-aaa! Hau! Miau! Kukuryku!”.",
+        "Złodzieje się boją i uciekają do lasu. Zwierzęta wchodzą do środka, jedzą i śpią. Dom jest ładny i ciepły.",
+        "A Brema? Nigdy nie idą do Bremy: teraz mają dom i mają przyjaciół. To jest morał baśni: kto ma przyjaciół, może zacząć nowe życie, nawet na starość."
+      ],
+      "a2": [
+        "Był sobie osioł, który od wielu lat pracował u młynarza. Codziennie nosił worki, ale był już stary i nie miał siły. Kiedy zrozumiał, że gospodarz już go nie chce, uciekł i wyruszył do Bremy: chciał zostać miejskim muzykantem.",
+        "Kiedy szedł, spotkał starego psa, który nie mógł już chodzić na polowania, a potem kota, który miał mało zębów i nie łapał już myszy. Wszyscy mieli ten sam problem: byli starzy i nikt ich nie chciał. „Chodźcie ze mną” – powiedział osioł. – „W Bremie jest praca dla tych, którzy umieją śpiewać.”",
+        "Przed pewnym gospodarstwem znaleźli koguta, który krzyczał z całych sił: gospodyni czekała na gości, a on bardzo się bał. Tak więc kogut też wyruszył z nimi.",
+        "Brema była daleko. Kiedy nadszedł wieczór, byli jeszcze w lesie. Było zimno, byli głodni i nie wiedzieli, gdzie spać. W pewnej chwili kogut, który siedział na czubku drzewa, zobaczył światło. To był dom, a w środku byli złodzieje, którzy jedli i pili.",
+        "Osioł położył przednie nogi na oknie, pies wszedł na osła, kot na psa, a kogut na kota. Potem wszyscy razem zaczęli „śpiewać”. Złodzieje się przestraszyli i uciekli do lasu.",
+        "W nocy jeden złodziej wrócił, żeby sprawdzić. W domu było ciemno. Kot podrapał mu twarz, pies ugryzł go w nogę, osioł go kopnął, a kogut zakrzyczał. Złodziej uciekł i już nigdy nie wrócił.",
+        "A Brema? Oto niespodzianka: muzykanci nigdy nie dotarli do Bremy. Było im tak dobrze w tym domu, że tam zostali. A jednak dziś przy ratuszu w Bremie stoi pomnik z brązu przedstawiający cztery zwierzęta, jedno na drugim. Miasto sławne dzięki tym, którzy nigdy go nie widzieli!"
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Yaşlı bir eşek vardır. Uzun kulakları ve yorgun bir sırtı vardır. Sahibi onu artık istemez. Ama eşeğin aklına bir fikir gelir: «Bremen'e gidiyorum! Sesim güzel. Müzisyen olacağım!».",
+        "Yolda bir köpekle karşılaşır. Köpek yaşlıdır ve açtır.\n– Bir derdin mi var? – diye sorar eşek.\n– Evet, sahibim çok kötü.\n– Benimle gel! Sesin çok güçlü!",
+        "Sonra bir kediyle karşılaşırlar. Kedinin az dişi vardır ve üşümektedir.\n– Bizimle Bremen'e gel! Bir fikrimiz var!",
+        "Sonra bir horozla karşılaşırlar. Horoz korkmaktadır: sahibi kadın onu artık istemez.\n– Bizimle gel! Sesin harika!",
+        "Akşam ormandadırlar. Açtırlar, üşümüşlerdir ve uykuları gelmiştir. Bir ışık görürler: bir ev. İçinde hırsızlar vardır. Hırsızların masası güzel yiyeceklerle doludur.",
+        "Eşek ön ayaklarını pencereye dayar. Köpek eşeğin üstüne çıkar, kedi köpeğin üstüne çıkar, horoz da kedinin üstüne çıkar. Sonra hep birlikte şarkı söylerler: «Aii-aa! Hav! Miyav! Ü-ürü-üüü!».",
+        "Hırsızlar korkar ve ormana kaçar. Hayvanlar içeri girer, yer ve uyurlar. Ev güzel ve sıcaktır.",
+        "Peki ya Bremen? Bremen'e hiç gitmezler: artık bir evleri ve dostları vardır. Masalın ana fikri şu: dostları olan, yaşlı da olsa yeni bir hayata başlayabilir."
+      ],
+      "a2": [
+        "Bir zamanlar uzun yıllardır bir değirmenci için çalışan bir eşek varmış. Her gün çuval taşırmış, ama artık yaşlanmış ve gücü kalmamış. Sahibinin onu artık istemediğini anlayınca kaçmış ve Bremen'e doğru yola çıkmış: şehrin müzisyeni olmak istiyormuş.",
+        "Yürürken, artık ava gidemeyen yaşlı bir köpekle, sonra da dişleri azalmış ve artık fare tutamayan bir kediyle karşılaşmış. Hepsinin derdi aynıymış: yaşlıymışlar ve kimse onları istemiyormuş. «Benimle gelin», demiş eşek. «Bremen'de şarkı söylemeyi bilenlere iş var.»",
+        "Bir çiftliğin önünde var gücüyle bağıran bir horoz bulmuşlar: çiftliğin hanımı misafir bekliyormuş ve horoz çok korkuyormuş. Böylece horoz da onlarla yola çıkmış.",
+        "Bremen uzakmış. Akşam olduğunda hâlâ ormandaymışlar. Hava soğukmuş, açlarmış ve nerede uyuyacaklarını bilmiyorlarmış. Bir ara, bir ağacın tepesindeki horoz bir ışık görmüş. Bir evmiş bu, içinde de yiyip içen hırsızlar varmış.",
+        "Eşek ön ayaklarını pencereye dayamış, köpek eşeğin üstüne, kedi köpeğin üstüne, horoz da kedinin üstüne çıkmış. Sonra hep birlikte «şarkı söylemeye» başlamışlar. Hırsızlar korkmuş ve ormana kaçmışlar.",
+        "Gece hırsızlardan biri kontrol etmek için geri dönmüş. Ev karanlıkmış. Kedi yüzünü tırmalamış, köpek bacağını ısırmış, eşek ona bir tekme atmış, horoz da bağırmış. Hırsız kaçmış ve bir daha hiç dönmemiş.",
+        "Peki ya Bremen? İşte sürpriz: müzisyenler Bremen'e hiç varamamış. O evde o kadar rahatmışlar ki orada kalmışlar. Yine de bugün Bremen belediye binasının yanında, üst üste duran dört hayvanın bronz bir heykeli var. Onu hiç görmemiş olanlar sayesinde ünlü olmuş bir şehir!"
+      ]
+    },
+    "de": {
+      "a1": [
+        "Es gibt einen alten Esel. Er hat lange Ohren und einen müden Rücken. Sein Herr will ihn nicht mehr. Aber der Esel hat eine Idee: „Ich gehe nach Bremen! Ich habe eine schöne Stimme. Ich werde Musiker!“.",
+        "Unterwegs trifft er einen Hund. Der Hund ist alt und hat Hunger.\n– Hast du ein Problem? – fragt der Esel.\n– Ja, ich habe einen bösen Herrn.\n– Komm mit mir! Du hast eine kräftige Stimme!",
+        "Dann treffen sie eine Katze. Die Katze hat nur noch wenige Zähne und friert.\n– Komm mit uns nach Bremen! Wir haben eine Idee!",
+        "Dann treffen sie einen Hahn. Der Hahn hat Angst: Seine Herrin will ihn nicht mehr.\n– Komm mit uns! Du hast eine wunderschöne Stimme!",
+        "Am Abend sind sie im Wald. Sie haben Hunger, sie frieren und sie sind müde. Sie sehen ein Licht: Es ist ein Haus. Drinnen sind Räuber. Die Räuber haben einen Tisch voller guter Sachen.",
+        "Der Esel stellt die Vorderbeine auf das Fenster. Der Hund steigt auf den Esel, die Katze steigt auf den Hund und der Hahn steigt auf die Katze. Dann singen alle zusammen: „I-ah! Wau! Miau! Kikeriki!“.",
+        "Die Räuber haben Angst und fliehen in den Wald. Die Tiere gehen hinein, essen und schlafen. Das Haus ist schön und warm.",
+        "Und Bremen? Sie gehen nie nach Bremen: Jetzt haben sie ein Haus und sie haben Freunde. Das ist die Moral des Märchens: Wer Freunde hat, kann ein neues Leben anfangen, auch im Alter."
+      ],
+      "a2": [
+        "Es war einmal ein Esel, der seit vielen Jahren für einen Müller arbeitete. Jeden Tag trug er die Säcke, aber inzwischen war er alt und hatte keine Kraft mehr. Als er verstand, dass sein Herr ihn nicht mehr wollte, lief er weg und machte sich auf den Weg nach Bremen: Er wollte Stadtmusikant werden.",
+        "Unterwegs traf er einen alten Hund, der nicht mehr auf die Jagd gehen konnte, und dann eine Katze, die nur noch wenige Zähne hatte und keine Mäuse mehr fing. Alle hatten dasselbe Problem: Sie waren alt und niemand wollte sie. „Kommt mit mir“, sagte der Esel. „In Bremen gibt es Arbeit für alle, die singen können.“",
+        "Vor einem Bauernhof fanden sie einen Hahn, der aus voller Kraft schrie: Die Bäuerin erwartete Gäste und er hatte große Angst. Also zog auch der Hahn mit ihnen los.",
+        "Bremen war weit weg. Als es Abend wurde, waren sie noch im Wald. Es war kalt, sie hatten Hunger und wussten nicht, wo sie schlafen sollten. Irgendwann sah der Hahn, der oben auf einem Baum saß, ein Licht. Es war ein Haus, und drinnen waren Räuber, die aßen und tranken.",
+        "Der Esel stellte die Vorderbeine auf das Fenster, der Hund stieg auf den Esel, die Katze auf den Hund und der Hahn auf die Katze. Dann fingen alle zusammen an zu „singen“. Die Räuber erschraken und flohen in den Wald.",
+        "In der Nacht kam ein Räuber zurück, um nachzusehen. Das Haus war dunkel. Die Katze kratzte ihm das Gesicht, der Hund biss ihn ins Bein, der Esel gab ihm einen Tritt und der Hahn schrie. Der Räuber floh und kam nie wieder.",
+        "Und Bremen? Hier ist die Überraschung: Die Musikanten sind nie in Bremen angekommen. Sie fühlten sich in dem Haus so wohl, dass sie dort blieben. Und doch steht heute neben dem Bremer Rathaus eine Bronzestatue der vier Tiere, eins über dem anderen. Eine Stadt, berühmt dank denen, die sie nie gesehen haben!"
+      ]
+    },
+    "ja": {
+      "a1": [
+        "年をとったロバがいます。耳が長くて、背中はくたびれています。飼い主はもうロバをいりません。でもロバはあることを思いつきます。「ブレーメンへ行こう！　ぼくはいい声をしている。音楽家になるんだ！」",
+        "道でロバは犬に会います。犬は年をとっていて、おなかをすかせています。\n「何か困っているの？」とロバがたずねます。\n「うん、飼い主がひどいんだ。」\n「ぼくといっしょにおいでよ！　きみは力強い声をしているね！」",
+        "それから、ネコに会います。ネコは歯が少なくて、寒がっています。\n「ぼくたちといっしょにブレーメンへ行こう！　いい考えがあるんだ！」",
+        "それから、オンドリに会います。オンドリはこわがっています。飼い主の女の人が、もうオンドリをいらないのです。\n「いっしょにおいでよ！　きみはすばらしい声をしているね！」",
+        "夜になると、みんなは森の中にいます。おなかがすいて、寒くて、眠いです。明かりが見えます。家です。中にはどろぼうたちがいます。どろぼうたちのテーブルには、おいしいものがいっぱいです。",
+        "ロバが窓に前足をかけます。犬がロバの上に乗り、ネコが犬の上に乗り、オンドリがネコの上に乗ります。そしてみんなでいっしょに歌います。「ヒヒーン！　ワン！　ニャー！　コケコッコー！」",
+        "どろぼうたちはこわくなって、森へ逃げていきます。動物たちは家に入って、食べて、眠ります。家はきれいで、あたたかいです。",
+        "それでブレーメンは？　みんなは結局ブレーメンへは行きません。今は家があって、友だちがいるからです。これがこのお話の教訓です。友だちがいれば、年をとってからでも新しい生活を始められます。"
+      ],
+      "a2": [
+        "むかしむかし、粉ひきのもとで長年働いていたロバがいました。毎日袋を運んでいましたが、もう年をとって、力がなくなっていました。飼い主にもういらないと思われているとわかると、ロバは逃げ出して、ブレーメンへ向かいました。町の音楽隊に入りたかったのです。",
+        "歩いているうちに、もう狩りに行けなくなった年寄りの犬に会い、それから歯が少なくなってもうネズミをとらなくなったネコに会いました。みんな同じ悩みをかかえていました。年をとって、だれにも必要とされていなかったのです。「ぼくといっしょにおいで」とロバは言いました。「ブレーメンには、歌える者のための仕事があるんだ。」",
+        "ある農家の前で、力いっぱい叫んでいるオンドリを見つけました。おかみさんがお客を待っていて、オンドリはとてもこわかったのです。そこでオンドリもいっしょに出発しました。",
+        "ブレーメンは遠くにありました。夜になっても、みんなはまだ森の中にいました。寒くて、おなかがすいていて、どこで寝ればいいかわかりませんでした。ふと、木のてっぺんにいたオンドリが明かりを見つけました。それは家で、中ではどろぼうたちが食べたり飲んだりしていました。",
+        "ロバが窓に前足をかけ、犬がロバの上に、ネコが犬の上に、オンドリがネコの上に乗りました。そしてみんなでいっせいに「歌い」始めました。どろぼうたちはびっくりして、森へ逃げていきました。",
+        "夜中に、どろぼうの一人が様子を見にもどってきました。家の中は真っ暗でした。ネコはどろぼうの顔をひっかき、犬は足にかみつき、ロバはけとばし、オンドリは叫びました。どろぼうは逃げ出し、二度ともどってきませんでした。",
+        "それでブレーメンは？　実は、音楽隊はブレーメンに一度も着かなかったのです。その家の居心地がとてもよかったので、そこに住みついたのでした。それなのに今、ブレーメンの市庁舎のそばには、四匹の動物が重なった青銅の像が立っています。一度も来なかった者たちのおかげで有名になった町なのです！"
+      ]
+    }
+  }
+}
