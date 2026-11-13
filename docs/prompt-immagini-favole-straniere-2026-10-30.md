@@ -183,3 +183,11 @@ Hamaguchi con la torcia accende i covoni sulla collina; sotto, il villaggio e il
 ```
 Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Japanese folk tale book, soft colours of a late autumn sunset, no black outlines. On a grassy hill above a small traditional Japanese fishing village with wooden houses and thatched roofs, an elderly Japanese man with white hair, in a plain dark kimono, holds a burning torch and sets fire to a row of tall conical stacks of harvested rice straw; bright orange flames rise from the first stacks. Below, the sea has strangely pulled back far from the beach, leaving wet sand and stranded boats exposed, and far out on the horizon a dark line of a great wave is forming. Small villagers on the beach look up towards the fire. Dramatic but calm, no destruction shown, no people hurt. Clean composition, a single clear scene. No temples, no shrines, no religious symbols, no text, no words, no letters.
 ```
+
+## 22. `story-lago-yogurt` — «Il lago di yogurt» (Göle maya çalan Nasreddin Hoca, Turchia) — 2026-11-13
+
+Nasreddin seduto su un sasso in riva al lago gira l'acqua con un bastone; accanto un vasetto chiuso (niente latticini in vista); dietro, paesani che ridono e un asino. Primo tentativo, tenuto (0,13 $).
+
+```
+Cinematic 16:9 storybook illustration, warm detailed painterly style like a classic illustrated Turkish folk tale book of Nasreddin Hodja, bright summer morning light, no black outlines. The calm shore of a wide Anatolian lake with reeds, poplar trees and gentle brown hills in the distance. A cheerful elderly man with a short white beard, a very large round white turban and a long simple brown robe sits on a flat stone at the water's edge and, with a serene, mischievous smile, stirs the lake water with a long wooden stick; a small closed clay pot rests beside him. Behind him, a few villagers in simple long-sleeved traditional clothes, a boy, a merchant in a waistcoat and an old man, point at him and laugh. A grey donkey grazes nearby. Humorous, gentle atmosphere. Clean uncluttered composition, a single clear scene. No food visible, no religious symbols, no mosques, no text, no words, no letters.
+```

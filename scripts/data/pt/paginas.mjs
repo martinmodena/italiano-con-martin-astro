@@ -245,4 +245,5 @@ export const PAGES = [
   { it: 'favole/il-vecchio-nonno-e-il-nipotino.html', pt: 'pt/fabulas/o-velho-avo-e-o-neto-grimm-em-italiano.html' },
   { it: 'favole/pennina-e-il-cielo-che-cade.html', pt: 'pt/fabulas/henny-penny-o-ceu-esta-caindo-em-italiano.html' },
   { it: 'favole/il-fuoco-dei-covoni-di-riso.html', pt: 'pt/fabulas/o-fogo-dos-feixes-de-arroz-historia-japonesa-em-italiano.html' },
+  { it: 'favole/il-lago-di-yogurt.html', pt: 'pt/fabulas/o-lago-de-iogurte-nasreddin-hodja-em-italiano.html' },
 ];
