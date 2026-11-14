@@ -1,0 +1,542 @@
+{
+  "id": "la-gallinella-rossa",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la fattoria",
+      "forme": ["fattoria"],
+      "formeEsempi": ["fattorie"],
+      "esempi": ["I miei nonni hanno una fattoria in campagna.", "Nella fattoria ci sono mucche e galline.", "Domenica visitiamo una fattoria con i bambini."],
+      "traduzioni": { "en": "farm", "es": "granja", "pt": "fazenda, quinta", "fr": "ferme", "cs": "statek", "pl": "gospodarstwo, farma", "tr": "çiftlik", "de": "Bauernhof", "ja": "農場" }
+    },
+    {
+      "parola": "abitare",
+      "forme": ["abitano"],
+      "formeEsempi": ["abito", "abita"],
+      "esempi": ["Abito a Roma da tre anni.", "Mia sorella abita vicino al mare.", "I miei amici abitano in un piccolo appartamento."],
+      "traduzioni": { "en": "to live (somewhere)", "es": "vivir, habitar", "pt": "morar", "fr": "habiter", "cs": "bydlet", "pl": "mieszkać", "tr": "oturmak, yaşamak", "de": "wohnen", "ja": "住む" }
+    },
+    {
+      "parola": "dormire",
+      "forme": ["dorme", "dormono"],
+      "formeEsempi": ["dormo"],
+      "esempi": ["Di notte dormo otto ore.", "Il bambino dorme nella sua camera.", "I gatti dormono molte ore al giorno."],
+      "traduzioni": { "en": "to sleep", "es": "dormir", "pt": "dormir", "fr": "dormir", "cs": "spát", "pl": "spać", "tr": "uyumak", "de": "schlafen", "ja": "寝る、眠る" }
+    },
+    {
+      "parola": "nuotare",
+      "forme": ["nuota"],
+      "formeEsempi": ["nuoto", "nuotare"],
+      "esempi": ["D'estate nuoto nel mare.", "Mio figlio nuota molto bene.", "Ti piace nuotare in piscina?"],
+      "traduzioni": { "en": "to swim", "es": "nadar", "pt": "nadar", "fr": "nager", "cs": "plavat", "pl": "pływać", "tr": "yüzmek", "de": "schwimmen", "ja": "泳ぐ" }
+    },
+    {
+      "parola": "lavorare",
+      "forme": ["lavora"],
+      "formeEsempi": ["lavoro", "lavorano"],
+      "esempi": ["Lavoro in un ufficio in centro.", "Mio padre lavora anche il sabato.", "Le infermiere lavorano di notte."],
+      "traduzioni": { "en": "to work", "es": "trabajar", "pt": "trabalhar", "fr": "travailler", "cs": "pracovat", "pl": "pracować", "tr": "çalışmak", "de": "arbeiten", "ja": "働く" }
+    },
+    {
+      "parola": "trovare",
+      "forme": ["trova", "trovato"],
+      "formeEsempi": ["trovo"],
+      "esempi": ["Non trovo le chiavi!", "Ho trovato un portafoglio per strada.", "Marco trova sempre una soluzione."],
+      "traduzioni": { "en": "to find", "es": "encontrar", "pt": "encontrar, achar", "fr": "trouver", "cs": "najít", "pl": "znaleźć", "tr": "bulmak", "de": "finden", "ja": "見つける" }
+    },
+    {
+      "parola": "il seme",
+      "forme": ["semi"],
+      "formeEsempi": ["seme"],
+      "esempi": ["Metto i semi nella terra.", "Questo frutto ha molti semi.", "Da un piccolo seme nasce un grande albero."],
+      "traduzioni": { "en": "seed", "es": "semilla", "pt": "semente", "fr": "graine", "cs": "semínko", "pl": "nasiono, ziarno", "tr": "tohum", "de": "Samen, Korn", "ja": "種" }
+    },
+    {
+      "parola": "il grano",
+      "forme": ["grano"],
+      "esempi": ["Con il grano si fa la farina.", "D'estate i campi di grano sono gialli.", "Il pane e la pasta si fanno con il grano."],
+      "traduzioni": { "en": "wheat", "es": "trigo", "pt": "trigo", "fr": "blé", "cs": "pšenice, obilí", "pl": "pszenica, zboże", "tr": "buğday", "de": "Weizen, Korn", "ja": "小麦" }
+    },
+    {
+      "parola": "piantare",
+      "forme": ["pianta", "pianto", "piantate", "piantato"],
+      "formeEsempi": ["piantiamo"],
+      "esempi": ["In primavera piantiamo i pomodori.", "Il nonno pianta un albero in giardino.", "Ho piantato dei fiori sul balcone."],
+      "traduzioni": { "en": "to plant, to sow", "es": "plantar, sembrar", "pt": "plantar", "fr": "planter, semer", "cs": "zasadit, zasít", "pl": "posadzić, zasiać", "tr": "ekmek, dikmek", "de": "pflanzen, säen", "ja": "植える、まく" }
+    },
+    {
+      "parola": "crescere",
+      "forme": ["cresce"],
+      "formeEsempi": ["crescono"],
+      "esempi": ["Il bambino cresce in fretta.", "Le piante crescono con il sole e l'acqua.", "In questo giardino cresce di tutto."],
+      "traduzioni": { "en": "to grow", "es": "crecer", "pt": "crescer", "fr": "pousser, grandir", "cs": "růst", "pl": "rosnąć", "tr": "büyümek, yetişmek", "de": "wachsen", "ja": "育つ、伸びる" }
+    },
+    {
+      "parola": "alto",
+      "forme": ["alto"],
+      "formeEsempi": ["alta", "alti"],
+      "esempi": ["Mio fratello è molto alto.", "Questo albero è alto dieci metri.", "In città ci sono palazzi alti."],
+      "traduzioni": { "en": "tall, high", "es": "alto", "pt": "alto", "fr": "haut, grand", "cs": "vysoký", "pl": "wysoki", "tr": "uzun, yüksek", "de": "hoch, groß", "ja": "高い" }
+    },
+    {
+      "parola": "giallo",
+      "forme": ["giallo"],
+      "formeEsempi": ["gialla", "gialli", "gialle"],
+      "esempi": ["Il limone è giallo.", "Ho una maglietta gialla.", "In autunno le foglie diventano gialle e rosse."],
+      "traduzioni": { "en": "yellow", "es": "amarillo", "pt": "amarelo", "fr": "jaune", "cs": "žlutý", "pl": "żółty", "tr": "sarı", "de": "gelb", "ja": "黄色い" }
+    },
+    {
+      "parola": "tagliare",
+      "forme": ["taglia", "taglio", "tagliate", "tagliato"],
+      "esempi": ["Taglio il pane per la colazione.", "Il contadino taglia l'erba del prato.", "Ho tagliato la torta in otto fette."],
+      "traduzioni": { "en": "to cut (here: to reap)", "es": "cortar (aquí: segar)", "pt": "cortar (aqui: ceifar)", "fr": "couper (ici : moissonner)", "cs": "sekat, žnout", "pl": "ścinać, żąć", "tr": "kesmek, biçmek", "de": "schneiden, mähen", "ja": "刈る、切る" }
+    },
+    {
+      "parola": "il mulino",
+      "forme": ["mulino"],
+      "esempi": ["Il mulino macina il grano.", "Vicino al fiume c'è un vecchio mulino.", "Il mulino a vento gira con l'aria."],
+      "traduzioni": { "en": "mill", "es": "molino", "pt": "moinho", "fr": "moulin", "cs": "mlýn", "pl": "młyn", "tr": "değirmen", "de": "Mühle", "ja": "粉ひき小屋、風車" }
+    },
+    {
+      "parola": "preparare",
+      "forme": ["prepara", "preparo"],
+      "esempi": ["La sera preparo la cena per tutti.", "La mamma prepara una torta.", "Preparo la valigia per il viaggio."],
+      "traduzioni": { "en": "to make, to prepare", "es": "preparar", "pt": "preparar", "fr": "préparer", "cs": "připravit, upéct", "pl": "przygotować, upiec", "tr": "hazırlamak, yapmak", "de": "zubereiten, backen", "ja": "作る、準備する" }
+    },
+    {
+      "parola": "il pane",
+      "forme": ["pane"],
+      "esempi": ["Compro il pane ogni mattina.", "Il pane fresco è buonissimo.", "Vuoi un po' di pane con la zuppa?"],
+      "traduzioni": { "en": "bread", "es": "pan", "pt": "pão", "fr": "pain", "cs": "chléb", "pl": "chleb", "tr": "ekmek", "de": "Brot", "ja": "パン" }
+    },
+    {
+      "parola": "caldo",
+      "forme": ["caldo"],
+      "formeEsempi": ["calda"],
+      "esempi": ["Il caffè è troppo caldo.", "Oggi fa molto caldo.", "Vorrei una doccia calda."],
+      "traduzioni": { "en": "hot, warm («fa caldo» = it's hot)", "es": "caliente («fa caldo» = hace calor)", "pt": "quente («fa caldo» = está calor)", "fr": "chaud («fa caldo» = il fait chaud)", "cs": "teplý, horký («fa caldo» = je horko)", "pl": "ciepły, gorący («fa caldo» = jest gorąco)", "tr": "sıcak («fa caldo» = hava sıcak)", "de": "warm, heiß («fa caldo» = es ist heiß)", "ja": "温かい、暑い（«fa caldo» = 暑い）" }
+    },
+    {
+      "parola": "profumato",
+      "forme": ["profumato"],
+      "formeEsempi": ["profumata", "profumati"],
+      "esempi": ["Questo sapone è molto profumato.", "In giardino ci sono fiori profumati.", "La torta appena fatta è calda e profumata."],
+      "traduzioni": { "en": "fragrant, sweet-smelling", "es": "perfumado, oloroso", "pt": "cheiroso, perfumado", "fr": "parfumé", "cs": "voňavý", "pl": "pachnący", "tr": "mis kokulu", "de": "duftend", "ja": "いい香りの" }
+    },
+    {
+      "parola": "aprire",
+      "forme": ["apre"],
+      "formeEsempi": ["apro"],
+      "esempi": ["Apro la finestra: fa caldo.", "Il negozio apre alle nove.", "Il bambino apre il regalo."],
+      "traduzioni": { "en": "to open", "es": "abrir", "pt": "abrir", "fr": "ouvrir", "cs": "otevřít", "pl": "otworzyć", "tr": "açmak", "de": "öffnen", "ja": "開ける" }
+    },
+    {
+      "parola": "l'occhio",
+      "forme": ["occhi"],
+      "formeEsempi": ["occhio"],
+      "esempi": ["Mia figlia ha gli occhi verdi.", "Chiudi gli occhi e dormi.", "Ho qualcosa nell'occhio."],
+      "traduzioni": { "en": "eye", "es": "ojo", "pt": "olho", "fr": "œil (pl. yeux)", "cs": "oko (pl. oči)", "pl": "oko (pl. oczy)", "tr": "göz", "de": "Auge", "ja": "目" }
+    },
+    {
+      "parola": "uscire",
+      "forme": ["esce"],
+      "formeEsempi": ["esco"],
+      "esempi": ["Esco di casa alle otto.", "Mia madre esce dal lavoro alle sei.", "Il sole esce dalle nuvole."],
+      "traduzioni": { "en": "to come out, to go out", "es": "salir", "pt": "sair", "fr": "sortir", "cs": "vyjít, vylézt", "pl": "wyjść", "tr": "çıkmak", "de": "herauskommen, hinausgehen", "ja": "出る" }
+    },
+    {
+      "parola": "gridare",
+      "forme": ["gridano"],
+      "formeEsempi": ["grida", "gridare"],
+      "esempi": ["Non gridare, ti sento!", "I tifosi gridano allo stadio.", "Il bambino grida: «Mamma!»"],
+      "traduzioni": { "en": "to shout", "es": "gritar", "pt": "gritar", "fr": "crier", "cs": "křičet", "pl": "krzyczeć", "tr": "bağırmak", "de": "rufen, schreien", "ja": "さけぶ" }
+    },
+    {
+      "parola": "il pulcino",
+      "forme": ["pulcini"],
+      "formeEsempi": ["pulcino"],
+      "esempi": ["La gallina ha sei pulcini.", "Il pulcino è piccolo e giallo.", "I pulcini seguono la mamma."],
+      "traduzioni": { "en": "chick", "es": "pollito", "pt": "pintinho", "fr": "poussin", "cs": "kuřátko", "pl": "kurczątko, pisklę", "tr": "civciv", "de": "Küken", "ja": "ひよこ" }
+    },
+    {
+      "parola": "dovere",
+      "forme": ["deve"],
+      "formeEsempi": ["devo"],
+      "esempi": ["Domani devo lavorare.", "Chi vuole il gelato deve finire la verdura.", "Luca deve studiare per l'esame."],
+      "traduzioni": { "en": "must, to have to", "es": "deber, tener que", "pt": "dever, ter que", "fr": "devoir", "cs": "muset", "pl": "musieć", "tr": "-meli, zorunda olmak", "de": "müssen", "ja": "〜しなければならない" }
+    },
+    {
+      "parola": "aiutare",
+      "forme": ["aiutare", "aiuta"],
+      "formeEsempi": ["aiuto", "aiuti"],
+      "esempi": ["Mi aiuti a portare le borse?", "Aiuto mia madre in cucina.", "Il mio vicino aiuta sempre tutti."],
+      "traduzioni": { "en": "to help", "es": "ayudar", "pt": "ajudar", "fr": "aider", "cs": "pomoct", "pl": "pomóc", "tr": "yardım etmek", "de": "helfen", "ja": "手伝う" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: aiutatevi.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "simpatico",
+      "forme": ["simpatici"],
+      "formeEsempi": ["simpatico", "simpatica"],
+      "esempi": ["Il mio nuovo collega è molto simpatico.", "Laura è una ragazza simpatica.", "I tuoi amici sono simpatici."],
+      "traduzioni": { "en": "nice, likeable", "es": "simpático", "pt": "simpático, legal", "fr": "sympathique", "cs": "milý, sympatický", "pl": "sympatyczny, miły", "tr": "sevimli, cana yakın", "de": "sympathisch, nett", "ja": "感じのいい" }
+    },
+    {
+      "parola": "pigro",
+      "forme": ["pigri"],
+      "formeEsempi": ["pigro", "pigra"],
+      "esempi": ["La domenica sono un po' pigro.", "Non essere pigra, vieni a camminare!", "I gatti sono animali pigri."],
+      "traduzioni": { "en": "lazy", "es": "perezoso, vago", "pt": "preguiçoso", "fr": "paresseux", "cs": "líný", "pl": "leniwy", "tr": "tembel", "de": "faul", "ja": "なまけ者の" }
+    },
+    {
+      "parola": "il sole",
+      "forme": ["sole"],
+      "esempi": ["Oggi c'è il sole.", "Mi piace leggere al sole.", "Il sole tramonta alle sette."],
+      "traduzioni": { "en": "sun («al sole» = in the sun)", "es": "sol", "pt": "sol", "fr": "soleil", "cs": "slunce", "pl": "słońce", "tr": "güneş", "de": "Sonne", "ja": "太陽、日なた" }
+    },
+    {
+      "parola": "passare la giornata",
+      "forme": ["giornata"],
+      "esempi": ["Passo la giornata in ufficio.", "Che bella giornata!", "Domenica passiamo la giornata al mare."],
+      "traduzioni": { "en": "to spend the day", "es": "pasar el día", "pt": "passar o dia", "fr": "passer la journée", "cs": "strávit den", "pl": "spędzać dzień", "tr": "günü geçirmek", "de": "den Tag verbringen", "ja": "一日を過ごす" }
+    },
+    {
+      "parola": "lo stagno",
+      "forme": ["stagno"],
+      "esempi": ["Le rane vivono nello stagno.", "Nel parco c'è uno stagno con le anatre.", "D'inverno lo stagno è ghiacciato."],
+      "traduzioni": { "en": "pond", "es": "estanque", "pt": "lagoa, laguinho", "fr": "mare, étang", "cs": "rybník", "pl": "staw", "tr": "gölet", "de": "Teich", "ja": "池" }
+    },
+    {
+      "parola": "il cortile",
+      "forme": ["cortile"],
+      "esempi": ["I bambini giocano in cortile.", "La mia bici è nel cortile.", "Il cortile della scuola è grande."],
+      "traduzioni": { "en": "yard, courtyard", "es": "patio", "pt": "pátio, quintal", "fr": "cour", "cs": "dvůr", "pl": "podwórko", "tr": "avlu, bahçe", "de": "Hof", "ja": "中庭、庭" }
+    },
+    {
+      "parola": "avere sonno",
+      "forme": ["sonno"],
+      "esempi": ["Ho sonno: vado a letto.", "Dopo pranzo ho sempre sonno.", "Hai sonno? Sono già le undici."],
+      "traduzioni": { "en": "to be sleepy", "es": "tener sueño", "pt": "estar com sono", "fr": "avoir sommeil", "cs": "být ospalý", "pl": "chcieć spać", "tr": "uykusu gelmek", "de": "müde sein", "ja": "眠い" }
+    },
+    {
+      "parola": "dorato",
+      "forme": ["dorato"],
+      "formeEsempi": ["dorata"],
+      "esempi": ["La pizza esce dal forno dorata.", "Ha un vestito dorato per la festa.", "La luce del tramonto è dorata."],
+      "traduzioni": { "en": "golden", "es": "dorado", "pt": "dourado", "fr": "doré", "cs": "zlatavý", "pl": "złocisty", "tr": "altın sarısı", "de": "golden", "ja": "黄金色の" }
+    },
+    {
+      "parola": "il sacco",
+      "forme": ["sacco"],
+      "esempi": ["Metto le patate in un sacco.", "Il sacco della spazzatura è pieno.", "Porto un sacco di farina."],
+      "traduzioni": { "en": "sack, bag", "es": "saco", "pt": "saco", "fr": "sac", "cs": "pytel", "pl": "worek", "tr": "çuval", "de": "Sack", "ja": "袋" }
+    },
+    {
+      "parola": "pesante",
+      "forme": ["pesante"],
+      "formeEsempi": ["pesanti"],
+      "esempi": ["Questa valigia è pesante.", "Mi aiuti? Le borse sono pesanti.", "Oggi ho fatto un pranzo pesante."],
+      "traduzioni": { "en": "heavy", "es": "pesado", "pt": "pesado", "fr": "lourd", "cs": "těžký", "pl": "ciężki", "tr": "ağır", "de": "schwer", "ja": "重い" }
+    },
+    {
+      "parola": "lontano",
+      "forme": ["lontano"],
+      "esempi": ["La stazione è lontano da qui?", "Abito lontano dal centro.", "Il mare non è lontano."],
+      "traduzioni": { "en": "far (away)", "es": "lejos", "pt": "longe", "fr": "loin", "cs": "daleko", "pl": "daleko", "tr": "uzak", "de": "weit (weg)", "ja": "遠い" }
+    },
+    {
+      "parola": "il mugnaio",
+      "forme": ["mugnaio"],
+      "esempi": ["Il mugnaio lavora nel mulino.", "Il mugnaio macina il grano.", "Nel paese c'era un mugnaio molto vecchio."],
+      "traduzioni": { "en": "miller", "es": "molinero", "pt": "moleiro", "fr": "meunier", "cs": "mlynář", "pl": "młynarz", "tr": "değirmenci", "de": "Müller", "ja": "粉屋" }
+    },
+    {
+      "parola": "la farina",
+      "forme": ["farina"],
+      "esempi": ["Per la pizza serve la farina.", "Compro un chilo di farina.", "Ho le mani bianche di farina."],
+      "traduzioni": { "en": "flour", "es": "harina", "pt": "farinha", "fr": "farine", "cs": "mouka", "pl": "mąka", "tr": "un", "de": "Mehl", "ja": "小麦粉" }
+    },
+    {
+      "parola": "impastare",
+      "forme": ["impasta"],
+      "formeEsempi": ["impasto", "impastare"],
+      "esempi": ["Il pizzaiolo impasta la pizza.", "Impasto la farina con l'acqua.", "Mi piace impastare il pane con le mani."],
+      "traduzioni": { "en": "to knead", "es": "amasar", "pt": "amassar, sovar", "fr": "pétrir", "cs": "zadělat, hníst", "pl": "zagnieść, wyrabiać", "tr": "yoğurmak", "de": "kneten", "ja": "こねる" }
+    },
+    {
+      "parola": "da solo",
+      "forme": ["sola"],
+      "formeEsempi": ["solo"],
+      "esempi": ["Mia figlia va a scuola da sola.", "Vivo da solo da due anni.", "Ha fatto tutto da sola."],
+      "traduzioni": { "en": "alone, on one's own", "es": "solo, sola", "pt": "sozinho, sozinha", "fr": "tout seul, toute seule", "cs": "sám, sama", "pl": "sam, sama", "tr": "tek başına", "de": "allein", "ja": "ひとりで" }
+    },
+    {
+      "parola": "il forno",
+      "forme": ["forno"],
+      "esempi": ["Metto la torta nel forno.", "Le patate al forno sono buonissime.", "Il forno è caldo: possiamo cuocere il pane."],
+      "traduzioni": { "en": "oven", "es": "horno", "pt": "forno", "fr": "four", "cs": "trouba, pec", "pl": "piekarnik, piec", "tr": "fırın", "de": "Ofen", "ja": "オーブン、かまど" }
+    },
+    {
+      "parola": "il profumo",
+      "forme": ["profumo"],
+      "esempi": ["Che buon profumo di caffè!", "Il profumo dei fiori riempie la stanza.", "Sento il profumo della pizza."],
+      "traduzioni": { "en": "smell, scent", "es": "olor, aroma", "pt": "cheiro", "fr": "odeur, parfum", "cs": "vůně", "pl": "zapach", "tr": "koku", "de": "Duft", "ja": "香り" }
+    },
+    {
+      "parola": "sentire",
+      "forme": ["sente"],
+      "formeEsempi": ["sento", "senti"],
+      "esempi": ["Senti questo odore? È il pane!", "Il cane sente il profumo della torta.", "Sento odore di bruciato."],
+      "traduzioni": { "en": "to smell, to sense (here not “to hear”)", "es": "oler, notar (aquí no «oír»)", "pt": "sentir (o cheiro)", "fr": "sentir (ici l’odeur)", "cs": "ucítit (tady ne „slyšet“)", "pl": "poczuć (tu nie „usłyszeć”)", "tr": "kokusunu almak", "de": "riechen (hier nicht „hören“)", "ja": "（においを）かぐ、感じる" }
+    },
+    {
+      "parola": "seguire",
+      "forme": ["segue"],
+      "formeEsempi": ["seguo", "seguono", "seguimi"],
+      "esempi": ["Il cane segue il padrone.", "Seguimi, ti mostro la strada.", "I pulcini seguono la gallina."],
+      "traduzioni": { "en": "to follow", "es": "seguir", "pt": "seguir", "fr": "suivre", "cs": "následovat, jít za", "pl": "iść za", "tr": "peşinden gitmek, izlemek", "de": "folgen", "ja": "ついて行く" }
+    },
+    {
+      "parola": "uno per uno",
+      "forme": ["uno"],
+      "esempi": ["Il maestro chiama i bambini uno per uno.", "Controllo i documenti uno per uno.", "Li ho salutati uno per uno."],
+      "traduzioni": { "en": "one by one", "es": "uno por uno", "pt": "um por um", "fr": "un par un", "cs": "jednoho po druhém", "pl": "po kolei, jeden po drugim", "tr": "tek tek", "de": "einen nach dem anderen", "ja": "ひとりずつ" }
+    },
+    {
+      "parola": "a memoria",
+      "forme": ["memoria"],
+      "esempi": ["Ho imparato la poesia a memoria.", "Conosco il tuo numero a memoria.", "Il bambino sa la canzone a memoria."],
+      "traduzioni": { "en": "by heart", "es": "de memoria", "pt": "de cor, de memória", "fr": "par cœur", "cs": "nazpaměť", "pl": "na pamięć", "tr": "ezbere", "de": "auswendig", "ja": "暗記して" }
+    },
+    {
+      "parola": "ripetersi",
+      "forme": ["ripetono"],
+      "formeEsempi": ["ripete", "ripeto", "ripetere"],
+      "esempi": ["Nelle canzoni le parole si ripetono.", "Puoi ripetere, per favore?", "La storia si ripete ogni anno."],
+      "traduzioni": { "en": "to repeat (itself)", "es": "repetirse", "pt": "repetir-se", "fr": "se répéter", "cs": "opakovat se", "pl": "powtarzać się", "tr": "tekrarlanmak", "de": "sich wiederholen", "ja": "くり返される" }
+    },
+    {
+      "parola": "aspettarsi",
+      "forme": ["aspettarsi"],
+      "formeEsempi": ["aspettavo", "aspettarti", "aspettarci"],
+      "esempi": ["Non mi aspettavo un regalo!", "Non puoi aspettarti aiuto se non aiuti.", "Che cosa possiamo aspettarci da domani?"],
+      "traduzioni": { "en": "to expect", "es": "esperar(se)", "pt": "esperar (contar com)", "fr": "s’attendre à", "cs": "očekávat", "pl": "spodziewać się", "tr": "beklemek, ummak", "de": "erwarten", "ja": "期待する" }
+    },
+    {
+      "parola": "la parte",
+      "forme": ["parte"],
+      "esempi": ["Ognuno paga la sua parte.", "Mi dai una parte della torta?", "Ho letto solo una parte del libro."],
+      "traduzioni": { "en": "share, part", "es": "parte", "pt": "parte", "fr": "part", "cs": "díl, podíl", "pl": "część, udział", "tr": "pay", "de": "Teil, Anteil", "ja": "分け前、一部" }
+    },
+    {
+      "parola": "il premio",
+      "forme": ["premio"],
+      "esempi": ["Ha vinto il primo premio.", "Il premio è un viaggio a Parigi.", "Dopo l'esame mi faccio un premio: un gelato!"],
+      "traduzioni": { "en": "reward, prize", "es": "premio, recompensa", "pt": "prêmio, recompensa", "fr": "récompense, prix", "cs": "odměna, cena", "pl": "nagroda", "tr": "ödül", "de": "Belohnung, Preis", "ja": "ごほうび、賞" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "On a farm live a little red hen, a dog, a cat and a duck. The dog sleeps. The cat sleeps. The duck swims. The little hen works.",
+        "One day the little hen finds some grains of wheat.\n“Who will plant the wheat?” she asks.\n“Not I!” says the dog.\n“Not I!” says the cat.\n“Not I!” says the duck.\n“Then I'll plant it,” says the little hen. And she plants the wheat.",
+        "The wheat grows. Now it's tall and yellow.\n“Who will cut the wheat?” asks the little hen.\n“Not I! Not I! Not I!”\n“Then I'll cut it.” And she cuts the wheat.",
+        "“Who will take the wheat to the mill?”\n“Not I! Not I! Not I!”\n“Then I'll take it.” And she takes the wheat to the mill.",
+        "“Who will make the bread?”\n“Not I! Not I! Not I!”\n“Then I'll make it.” And she makes the bread.",
+        "The bread is warm and smells good. The dog opens his eyes. The cat opens his eyes. The duck comes out of the water.\n“Who will eat the bread?” asks the little hen.\n“I will! I will! I will!” they all shout.",
+        "“No,” says the little hen. “You don't plant, you don't cut, you don't carry and you don't make anything. I'll eat it, with my chicks!”",
+        "That's the moral of the tale: whoever wants to eat the bread must help to make it."
+      ],
+      "a2": [
+        "The little red hen lives on a farm with three friends. They're nice friends, but lazy: the dog and the cat sleep in the sun, the duck spends the day in the pond. The little hen does all the work.",
+        "One morning she finds some grains of wheat in the yard. She looks at them and thinks: “If I plant them, we'll have bread.” So she goes to her friends.\n“I've found these seeds. Who will plant them with me?”\n“Not us,” they answer. “We're sleepy.”\n“All right,” she says. “I'll plant them.”",
+        "The wheat grows and in summer it's tall and golden.\n“The wheat is ready. Who will cut it?”\n“Not us, it's too hot.”\n“All right. I'll cut it.”",
+        "Then she puts it in a sack. The sack is heavy.\n“Who will take it to the mill?”\n“Not us, it's too far.”\n“All right. I'll take it.”",
+        "The miller makes the flour and the little hen takes it home.\n“Here's the flour. Who will knead it? Who will help me make the bread?”\n“Not us, we're tired.”\n“Tired of what?” she asks. But she doesn't wait for the answer. She kneads it on her own and puts it in the oven.",
+        "The smell of bread spreads all over the farm. The dog smells it first. The cat follows him. The duck comes out of the pond.\n“Who will eat it?” asks the little hen.\n“We will!” they all shout. “We'll eat it!”",
+        "The little hen looks at them one by one.\n“You didn't plant it, you didn't cut it and you didn't take it to the mill. I'll eat it, with my chicks.”",
+        "In England and the United States almost every child knows this story. They often learn it by heart, because the sentences repeat. And its message is simple: those who don't help can't expect a share of the reward."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En una granja viven una gallinita roja, un perro, un gato y una pata. El perro duerme. El gato duerme. La pata nada. La gallinita trabaja.",
+        "Un día la gallinita encuentra unos granos de trigo.\n– ¿Quién planta el trigo? – pregunta.\n– ¡Yo no! – responde el perro.\n– ¡Yo no! – responde el gato.\n– ¡Yo no! – responde la pata.\n– Entonces lo planto yo – dice la gallinita. Y planta el trigo.",
+        "El trigo crece. Ahora está alto y amarillo.\n– ¿Quién corta el trigo? – pregunta la gallinita.\n– ¡Yo no! ¡Yo no! ¡Yo no!\n– Entonces lo corto yo. Y corta el trigo.",
+        "– ¿Quién lleva el trigo al molino?\n– ¡Yo no! ¡Yo no! ¡Yo no!\n– Entonces lo llevo yo. Y lleva el trigo al molino.",
+        "– ¿Quién hace el pan?\n– ¡Yo no! ¡Yo no! ¡Yo no!\n– Entonces lo hago yo. Y hace el pan.",
+        "El pan está caliente y huele muy bien. El perro abre los ojos. El gato abre los ojos. La pata sale del agua.\n– ¿Quién se come el pan? – pregunta la gallinita.\n– ¡Yo! ¡Yo! ¡Yo! – gritan todos.",
+        "– No – responde la gallinita. – Vosotros no plantáis, no cortáis, no lleváis y no hacéis nada. ¡Me lo como yo, con mis pollitos!",
+        "Es la moraleja del cuento: quien quiere comer el pan tiene que ayudar a hacerlo."
+      ],
+      "a2": [
+        "La gallinita roja vive en una granja con tres amigos. Son amigos simpáticos, pero perezosos: el perro y el gato duermen al sol, la pata pasa el día en el estanque. Todo el trabajo lo hace la gallinita.",
+        "Una mañana encuentra en el patio unos granos de trigo. Los mira y piensa: «Si los planto, tendremos pan». Entonces va a ver a sus amigos.\n– He encontrado estas semillas. ¿Quién las planta conmigo?\n– Nosotros no – responden. – Tenemos sueño.\n– Vale – dice ella. – Las planto yo.",
+        "El trigo crece y en verano está alto y dorado.\n– El trigo está listo. ¿Quién lo corta?\n– Nosotros no, hace demasiado calor.\n– Vale. Lo corto yo.",
+        "Luego lo mete en un saco. El saco pesa mucho.\n– ¿Quién lo lleva al molino?\n– Nosotros no, está demasiado lejos.\n– Vale. Lo llevo yo.",
+        "El molinero hace la harina y la gallinita se la lleva a casa.\n– Aquí está la harina. ¿Quién la amasa? ¿Quién me ayuda a hacer el pan?\n– Nosotros no, estamos cansados.\n– ¿Cansados de qué? – pregunta ella. Pero no espera la respuesta. La amasa sola y la mete en el horno.",
+        "El olor del pan llega a toda la granja. El perro lo nota el primero. El gato lo sigue. La pata sale del estanque.\n– ¿Quién se lo come? – pregunta la gallinita.\n– ¡Nosotros! – gritan todos. – ¡Nos lo comemos nosotros!",
+        "La gallinita los mira uno por uno.\n– No lo habéis plantado, no lo habéis cortado y no lo habéis llevado al molino. Me lo como yo, con mis pollitos.",
+        "En Inglaterra y en Estados Unidos casi todos los niños conocen esta historia. A menudo se la aprenden de memoria, porque las frases se repiten. Y su mensaje es sencillo: quien no ayuda no puede esperar una parte del premio."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Numa fazenda moram uma galinha ruiva, um cachorro, um gato e uma pata. O cachorro dorme. O gato dorme. A pata nada. A galinha trabalha.",
+        "Um dia a galinha encontra uns grãos de trigo.\n– Quem planta o trigo? – pergunta.\n– Eu não! – responde o cachorro.\n– Eu não! – responde o gato.\n– Eu não! – responde a pata.\n– Então eu planto – diz a galinha. E planta o trigo.",
+        "O trigo cresce. Agora está alto e amarelo.\n– Quem corta o trigo? – pergunta a galinha.\n– Eu não! Eu não! Eu não!\n– Então eu corto. E corta o trigo.",
+        "– Quem leva o trigo ao moinho?\n– Eu não! Eu não! Eu não!\n– Então eu levo. E leva o trigo ao moinho.",
+        "– Quem faz o pão?\n– Eu não! Eu não! Eu não!\n– Então eu faço. E faz o pão.",
+        "O pão está quentinho e cheiroso. O cachorro abre os olhos. O gato abre os olhos. A pata sai da água.\n– Quem come o pão? – pergunta a galinha.\n– Eu! Eu! Eu! – gritam todos.",
+        "– Não – responde a galinha. – Vocês não plantam, não cortam, não levam e não fazem nada. Quem come sou eu, com os meus pintinhos!",
+        "Essa é a moral da história: quem quer comer o pão tem que ajudar a fazê-lo."
+      ],
+      "a2": [
+        "A galinha ruiva mora numa fazenda com três amigos. São amigos simpáticos, mas preguiçosos: o cachorro e o gato dormem no sol, a pata passa o dia na lagoa. Todo o trabalho quem faz é a galinha.",
+        "Uma manhã ela encontra no quintal uns grãos de trigo. Olha para eles e pensa: «Se eu plantar, vamos ter pão». Então vai falar com os amigos.\n– Encontrei estas sementes. Quem planta comigo?\n– Nós não – respondem. – Estamos com sono.\n– Está bem – diz ela. – Eu planto.",
+        "O trigo cresce e no verão está alto e dourado.\n– O trigo está pronto. Quem corta?\n– Nós não, está calor demais.\n– Está bem. Eu corto.",
+        "Depois ela o coloca num saco. O saco é pesado.\n– Quem leva ao moinho?\n– Nós não, é longe demais.\n– Está bem. Eu levo.",
+        "O moleiro faz a farinha e a galinha a leva para casa.\n– Aqui está a farinha. Quem sova a massa? Quem me ajuda a fazer o pão?\n– Nós não, estamos cansados.\n– Cansados de quê? – pergunta ela. Mas não espera a resposta. Sova a massa sozinha e coloca no forno.",
+        "O cheiro do pão chega à fazenda inteira. O cachorro sente primeiro. O gato vai atrás. A pata sai da lagoa.\n– Quem come? – pergunta a galinha.\n– Nós! – gritam todos. – Nós comemos!",
+        "A galinha olha para eles um por um.\n– Vocês não plantaram, não cortaram e não levaram ao moinho. Quem come sou eu, com os meus pintinhos.",
+        "Na Inglaterra e nos Estados Unidos quase todas as crianças conhecem esta história. Muitas vezes aprendem de cor, porque as frases se repetem. E a mensagem é simples: quem não ajuda não pode esperar uma parte do prêmio."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans une ferme vivent une petite poule rousse, un chien, un chat et une cane. Le chien dort. Le chat dort. La cane nage. La petite poule travaille.",
+        "Un jour, la petite poule trouve des grains de blé.\n– Qui va planter le blé ? – demande-t-elle.\n– Pas moi ! – répond le chien.\n– Pas moi ! – répond le chat.\n– Pas moi ! – répond la cane.\n– Alors je le plante moi-même – dit la petite poule. Et elle plante le blé.",
+        "Le blé pousse. Maintenant, il est haut et jaune.\n– Qui va couper le blé ? – demande la petite poule.\n– Pas moi ! Pas moi ! Pas moi !\n– Alors je le coupe moi-même. Et elle coupe le blé.",
+        "– Qui va porter le blé au moulin ?\n– Pas moi ! Pas moi ! Pas moi !\n– Alors je le porte moi-même. Et elle porte le blé au moulin.",
+        "– Qui va faire le pain ?\n– Pas moi ! Pas moi ! Pas moi !\n– Alors je le fais moi-même. Et elle fait le pain.",
+        "Le pain est chaud et il sent bon. Le chien ouvre les yeux. Le chat ouvre les yeux. La cane sort de l’eau.\n– Qui va manger le pain ? – demande la petite poule.\n– Moi ! Moi ! Moi ! – crient-ils tous.",
+        "– Non – répond la petite poule. – Vous ne plantez pas, vous ne coupez pas, vous ne portez pas et vous ne faites rien. C’est moi qui le mange, avec mes poussins !",
+        "C’est la morale du conte : qui veut manger le pain doit aider à le faire."
+      ],
+      "a2": [
+        "La petite poule rousse vit dans une ferme avec trois amis. Ce sont des amis sympathiques, mais paresseux : le chien et le chat dorment au soleil, la cane passe la journée dans la mare. C’est la petite poule qui fait tout le travail.",
+        "Un matin, elle trouve dans la cour quelques grains de blé. Elle les regarde et pense : « Si je les plante, nous aurons du pain. » Alors elle va voir ses amis.\n– J’ai trouvé ces graines. Qui les plante avec moi ?\n– Pas nous – répondent-ils. – Nous avons sommeil.\n– D’accord – dit-elle. – Je les plante moi-même.",
+        "Le blé pousse et, en été, il est haut et doré.\n– Le blé est prêt. Qui le coupe ?\n– Pas nous, il fait trop chaud.\n– D’accord. Je le coupe moi-même.",
+        "Puis elle le met dans un sac. Le sac est lourd.\n– Qui le porte au moulin ?\n– Pas nous, c’est trop loin.\n– D’accord. Je le porte moi-même.",
+        "Le meunier fait la farine et la petite poule la rapporte à la maison.\n– Voici la farine. Qui la pétrit ? Qui m’aide à faire le pain ?\n– Pas nous, nous sommes fatigués.\n– Fatigués de quoi ? – demande-t-elle. Mais elle n’attend pas la réponse. Elle la pétrit toute seule et la met au four.",
+        "L’odeur du pain se répand dans toute la ferme. Le chien la sent le premier. Le chat le suit. La cane sort de la mare.\n– Qui le mange ? – demande la petite poule.\n– Nous ! – crient-ils tous. – C’est nous qui le mangeons !",
+        "La petite poule les regarde un par un.\n– Vous ne l’avez pas planté, vous ne l’avez pas coupé et vous ne l’avez pas porté au moulin. C’est moi qui le mange, avec mes poussins.",
+        "En Angleterre et aux États-Unis, presque tous les enfants connaissent cette histoire. Souvent, ils l’apprennent par cœur, parce que les phrases se répètent. Et son message est simple : celui qui n’aide pas ne peut pas s’attendre à une part de la récompense."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Na statku bydlí červená slepička, pes, kočka a kachna. Pes spí. Kočka spí. Kachna plave. Slepička pracuje.",
+        "Jednoho dne slepička najde zrníčka pšenice.\n– Kdo zaseje pšenici? – ptá se.\n– Já ne! – odpoví pes.\n– Já ne! – odpoví kočka.\n– Já ne! – odpoví kachna.\n– Tak ji zaseju já, – řekne slepička. A pšenici zaseje.",
+        "Pšenice roste. Teď je vysoká a žlutá.\n– Kdo pšenici posekne? – ptá se slepička.\n– Já ne! Já ne! Já ne!\n– Tak ji posekám já. A pšenici posekne.",
+        "– Kdo odnese pšenici do mlýna?\n– Já ne! Já ne! Já ne!\n– Tak ji odnesu já. A odnese pšenici do mlýna.",
+        "– Kdo upeče chléb?\n– Já ne! Já ne! Já ne!\n– Tak ho upeču já. A upeče chléb.",
+        "Chléb je teplý a voní. Pes otevře oči. Kočka otevře oči. Kachna vyleze z vody.\n– Kdo sní chléb? – ptá se slepička.\n– Já! Já! Já! – křičí všichni.",
+        "– Ne, – odpoví slepička. – Vy jste nesili, nesekali, nenosili ani nepekli. Sním ho já se svými kuřátky!",
+        "To je ponaučení z pohádky: kdo chce jíst chléb, musí pomoct ho udělat."
+      ],
+      "a2": [
+        "Červená slepička žije na statku se třemi kamarády. Jsou to milí kamarádi, ale líní: pes a kočka spí na sluníčku, kachna tráví celý den na rybníku. Všechnu práci dělá slepička.",
+        "Jednoho rána najde na dvoře pár zrníček pšenice. Podívá se na ně a pomyslí si: „Když je zasadím, budeme mít chléb.“ Jde tedy za kamarády.\n– Našla jsem tahle semínka. Kdo je se mnou zaseje?\n– My ne, – odpovídají. – Jsme ospalí.\n– Dobře, – řekne. – Zaseju je já.",
+        "Pšenice roste a v létě je vysoká a zlatavá.\n– Pšenice je zralá. Kdo ji posekne?\n– My ne, je moc horko.\n– Dobře. Posekám ji já.",
+        "Pak ji dá do pytle. Pytel je těžký.\n– Kdo ho odnese do mlýna?\n– My ne, je to moc daleko.\n– Dobře. Odnesu ho já.",
+        "Mlynář umele mouku a slepička ji odnese domů.\n– Tady je mouka. Kdo z ní zadělá těsto? Kdo mi pomůže upéct chléb?\n– My ne, jsme unavení.\n– Unavení z čeho? – ptá se. Ale na odpověď nečeká. Zadělá těsto sama a dá ho do pece.",
+        "Vůně chleba se line celým statkem. Pes ji ucítí první. Kočka jde za ním. Kachna vyleze z rybníka.\n– Kdo ho sní? – ptá se slepička.\n– My! – křičí všichni. – Sníme ho my!",
+        "Slepička si je jednoho po druhém prohlédne.\n– Nezaseli jste ho, neposekali jste ho a neodnesli jste ho do mlýna. Sním ho já se svými kuřátky.",
+        "V Anglii a ve Spojených státech zná tenhle příběh skoro každé dítě. Často se ho učí nazpaměť, protože se v něm věty opakují. A jeho poselství je jednoduché: kdo nepomáhá, nemůže čekat podíl z odměny."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W gospodarstwie mieszkają mała ruda kurka, pies, kot i kaczka. Pies śpi. Kot śpi. Kaczka pływa. Kurka pracuje.",
+        "Pewnego dnia kurka znajduje ziarenka pszenicy.\n– Kto zasieje pszenicę? – pyta.\n– Nie ja! – odpowiada pies.\n– Nie ja! – odpowiada kot.\n– Nie ja! – odpowiada kaczka.\n– To ja zasieję – mówi kurka. I sieje pszenicę.",
+        "Pszenica rośnie. Teraz jest wysoka i żółta.\n– Kto zetnie pszenicę? – pyta kurka.\n– Nie ja! Nie ja! Nie ja!\n– To ja zetnę. I ścina pszenicę.",
+        "– Kto zaniesie pszenicę do młyna?\n– Nie ja! Nie ja! Nie ja!\n– To ja zaniosę. I niesie pszenicę do młyna.",
+        "– Kto upiecze chleb?\n– Nie ja! Nie ja! Nie ja!\n– To ja upiekę. I piecze chleb.",
+        "Chleb jest ciepły i pachnący. Pies otwiera oczy. Kot otwiera oczy. Kaczka wychodzi z wody.\n– Kto zje chleb? – pyta kurka.\n– Ja! Ja! Ja! – krzyczą wszyscy.",
+        "– Nie – odpowiada kurka. – Wy nie siejecie, nie ścinacie, nie nosicie i nie pieczecie. Zjem go ja, z moimi kurczątkami!",
+        "To jest morał bajki: kto chce jeść chleb, musi pomóc go zrobić."
+      ],
+      "a2": [
+        "Mała ruda kurka mieszka w gospodarstwie z trojgiem przyjaciół. To sympatyczni przyjaciele, ale leniwi: pies i kot śpią na słońcu, kaczka spędza cały dzień w stawie. Całą pracę wykonuje kurka.",
+        "Pewnego ranka znajduje na podwórku kilka ziarenek pszenicy. Patrzy na nie i myśli: „Jeśli je zasieję, będziemy mieli chleb”. Idzie więc do przyjaciół.\n– Znalazłam te ziarenka. Kto zasieje je ze mną?\n– Nie my – odpowiadają. – Chce nam się spać.\n– Dobrze – mówi. – Zasieję je sama.",
+        "Pszenica rośnie, a latem jest wysoka i złocista.\n– Pszenica jest gotowa. Kto ją zetnie?\n– Nie my, jest za gorąco.\n– Dobrze. Zetnę ją sama.",
+        "Potem wkłada ją do worka. Worek jest ciężki.\n– Kto zaniesie go do młyna?\n– Nie my, to za daleko.\n– Dobrze. Zaniosę go sama.",
+        "Młynarz robi mąkę, a kurka zanosi ją do domu.\n– Oto mąka. Kto zagniecie ciasto? Kto pomoże mi upiec chleb?\n– Nie my, jesteśmy zmęczeni.\n– Zmęczeni czym? – pyta. Ale nie czeka na odpowiedź. Zagniata ciasto sama i wkłada je do pieca.",
+        "Zapach chleba rozchodzi się po całym gospodarstwie. Pies czuje go pierwszy. Kot idzie za nim. Kaczka wychodzi ze stawu.\n– Kto go zje? – pyta kurka.\n– My! – krzyczą wszyscy. – My go zjemy!",
+        "Kurka patrzy na nich po kolei.\n– Nie zasialiście go, nie ścięliście go i nie zanieśliście do młyna. Zjem go ja, z moimi kurczątkami.",
+        "W Anglii i w Stanach Zjednoczonych prawie wszystkie dzieci znają tę historię. Często uczą się jej na pamięć, bo zdania się powtarzają. A jej przesłanie jest proste: kto nie pomaga, nie może spodziewać się części nagrody."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir çiftlikte küçük kırmızı bir tavuk, bir köpek, bir kedi ve bir ördek yaşar. Köpek uyur. Kedi uyur. Ördek yüzer. Küçük tavuk çalışır.",
+        "Bir gün küçük tavuk birkaç buğday tanesi bulur.\n– Buğdayı kim eker? – diye sorar.\n– Ben değil! – der köpek.\n– Ben değil! – der kedi.\n– Ben değil! – der ördek.\n– O zaman ben ekerim, – der küçük tavuk. Ve buğdayı eker.",
+        "Buğday büyür. Şimdi uzun ve sarıdır.\n– Buğdayı kim biçer? – diye sorar küçük tavuk.\n– Ben değil! Ben değil! Ben değil!\n– O zaman ben biçerim. Ve buğdayı biçer.",
+        "– Buğdayı değirmene kim götürür?\n– Ben değil! Ben değil! Ben değil!\n– O zaman ben götürürüm. Ve buğdayı değirmene götürür.",
+        "– Ekmeği kim yapar?\n– Ben değil! Ben değil! Ben değil!\n– O zaman ben yaparım. Ve ekmeği yapar.",
+        "Ekmek sıcacık ve mis kokuludur. Köpek gözlerini açar. Kedi gözlerini açar. Ördek sudan çıkar.\n– Ekmeği kim yer? – diye sorar küçük tavuk.\n– Ben! Ben! Ben! – diye bağırır hepsi.",
+        "– Hayır, – der küçük tavuk. – Siz ekmiyorsunuz, biçmiyorsunuz, taşımıyorsunuz ve yapmıyorsunuz. Ekmeği ben yerim, civcivlerimle birlikte!",
+        "Masalın ana fikri şu: ekmeği yemek isteyen, yapmasına yardım etmelidir."
+      ],
+      "a2": [
+        "Küçük kırmızı tavuk bir çiftlikte üç arkadaşıyla yaşar. Sevimli arkadaşlardır ama tembeldirler: köpekle kedi güneşte uyur, ördek bütün gününü gölette geçirir. Bütün işi küçük tavuk yapar.",
+        "Bir sabah avluda birkaç buğday tanesi bulur. Onlara bakar ve düşünür: «Bunları ekersem ekmeğimiz olur.» Bunun üzerine arkadaşlarının yanına gider.\n– Bu tohumları buldum. Benimle kim eker?\n– Biz değil, – derler. – Uykumuz var.\n– Peki, – der. – Ben ekerim.",
+        "Buğday büyür ve yazın uzun ve altın sarısı olur.\n– Buğday hazır. Kim biçer?\n– Biz değil, hava çok sıcak.\n– Peki. Ben biçerim.",
+        "Sonra buğdayı bir çuvala koyar. Çuval ağırdır.\n– Değirmene kim götürür?\n– Biz değil, çok uzak.\n– Peki. Ben götürürüm.",
+        "Değirmenci unu öğütür, küçük tavuk da unu eve getirir.\n– İşte un. Kim yoğurur? Ekmeği yapmama kim yardım eder?\n– Biz değil, yorgunuz.\n– Neden yorgunsunuz? – diye sorar. Ama cevabı beklemez. Hamuru tek başına yoğurur ve fırına koyar.",
+        "Ekmeğin kokusu bütün çiftliğe yayılır. Kokuyu ilk köpek alır. Kedi onun peşinden gelir. Ördek göletten çıkar.\n– Kim yer? – diye sorar küçük tavuk.\n– Biz! – diye bağırır hepsi. – Biz yeriz!",
+        "Küçük tavuk onlara tek tek bakar.\n– Ne ektiniz, ne biçtiniz, ne de değirmene götürdünüz. Ekmeği ben yerim, civcivlerimle birlikte.",
+        "İngiltere'de ve Amerika'da neredeyse bütün çocuklar bu hikâyeyi bilir. Cümleler tekrarlandığı için çoğu zaman ezberlerler. Mesajı da basittir: yardım etmeyen, ödülden pay bekleyemez."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Auf einem Bauernhof wohnen ein kleines rotes Huhn, ein Hund, eine Katze und eine Ente. Der Hund schläft. Die Katze schläft. Die Ente schwimmt. Das kleine Huhn arbeitet.",
+        "Eines Tages findet das kleine Huhn ein paar Weizenkörner.\n„Wer pflanzt den Weizen?“, fragt es.\n„Ich nicht!“, antwortet der Hund.\n„Ich nicht!“, antwortet die Katze.\n„Ich nicht!“, antwortet die Ente.\n„Dann pflanze ich ihn“, sagt das kleine Huhn. Und es pflanzt den Weizen.",
+        "Der Weizen wächst. Jetzt ist er hoch und gelb.\n„Wer schneidet den Weizen?“, fragt das kleine Huhn.\n„Ich nicht! Ich nicht! Ich nicht!“\n„Dann schneide ich ihn.“ Und es schneidet den Weizen.",
+        "„Wer bringt den Weizen zur Mühle?“\n„Ich nicht! Ich nicht! Ich nicht!“\n„Dann bringe ich ihn.“ Und es bringt den Weizen zur Mühle.",
+        "„Wer backt das Brot?“\n„Ich nicht! Ich nicht! Ich nicht!“\n„Dann backe ich es.“ Und es backt das Brot.",
+        "Das Brot ist warm und duftet. Der Hund öffnet die Augen. Die Katze öffnet die Augen. Die Ente kommt aus dem Wasser.\n„Wer isst das Brot?“, fragt das kleine Huhn.\n„Ich! Ich! Ich!“, rufen alle.",
+        "„Nein“, antwortet das kleine Huhn. „Ihr pflanzt nicht, ihr schneidet nicht, ihr tragt nicht und ihr backt nicht. Ich esse es, mit meinen Küken!“",
+        "Das ist die Moral des Märchens: Wer das Brot essen will, muss helfen, es zu machen."
+      ],
+      "a2": [
+        "Das kleine rote Huhn lebt mit drei Freunden auf einem Bauernhof. Es sind nette Freunde, aber faul: Der Hund und die Katze schlafen in der Sonne, die Ente verbringt den Tag im Teich. Die ganze Arbeit macht das kleine Huhn.",
+        "Eines Morgens findet es im Hof ein paar Weizenkörner. Es sieht sie an und denkt: „Wenn ich sie pflanze, haben wir Brot.“ Also geht es zu seinen Freunden.\n„Ich habe diese Körner gefunden. Wer pflanzt sie mit mir?“\n„Wir nicht“, antworten sie. „Wir sind müde.“\n„Na gut“, sagt es. „Dann pflanze ich sie.“",
+        "Der Weizen wächst, und im Sommer ist er hoch und golden.\n„Der Weizen ist reif. Wer schneidet ihn?“\n„Wir nicht, es ist zu heiß.“\n„Na gut. Dann schneide ich ihn.“",
+        "Dann füllt es ihn in einen Sack. Der Sack ist schwer.\n„Wer bringt ihn zur Mühle?“\n„Wir nicht, das ist zu weit.“\n„Na gut. Dann bringe ich ihn.“",
+        "Der Müller mahlt das Mehl, und das kleine Huhn bringt es nach Hause.\n„Hier ist das Mehl. Wer knetet den Teig? Wer hilft mir, das Brot zu backen?“\n„Wir nicht, wir sind erschöpft.“\n„Erschöpft wovon?“, fragt es. Aber es wartet nicht auf die Antwort. Es knetet den Teig allein und schiebt ihn in den Ofen.",
+        "Der Duft des Brotes zieht über den ganzen Hof. Der Hund riecht ihn als Erster. Die Katze folgt ihm. Die Ente kommt aus dem Teich.\n„Wer isst es?“, fragt das kleine Huhn.\n„Wir!“, rufen alle. „Wir essen es!“",
+        "Das kleine Huhn sieht sie einen nach dem anderen an.\n„Ihr habt es nicht gepflanzt, ihr habt es nicht geschnitten und ihr habt es nicht zur Mühle gebracht. Ich esse es, mit meinen Küken.“",
+        "In England und in den USA kennen fast alle Kinder diese Geschichte. Oft lernen sie sie auswendig, weil sich die Sätze wiederholen. Und ihre Botschaft ist einfach: Wer nicht hilft, kann keinen Anteil an der Belohnung erwarten."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ある農場に、小さな赤いめんどりと、犬と、ねこと、あひるが住んでいます。犬は寝ています。ねこも寝ています。あひるは泳いでいます。めんどりは働いています。",
+        "ある日、めんどりは小麦の種を見つけます。\n「だれが小麦をまく？」とめんどりは聞きます。\n「いやだよ！」と犬が答えます。\n「いやだよ！」とねこが答えます。\n「いやだよ！」とあひるが答えます。\n「じゃあ、わたしがまくわ」とめんどりは言います。そして小麦をまきます。",
+        "小麦は育ちます。今では高くて黄色です。\n「だれが小麦を刈る？」とめんどりは聞きます。\n「いやだよ！　いやだよ！　いやだよ！」\n「じゃあ、わたしが刈るわ。」そして小麦を刈ります。",
+        "「だれが小麦を粉ひき小屋に運ぶ？」\n「いやだよ！　いやだよ！　いやだよ！」\n「じゃあ、わたしが運ぶわ。」そして小麦を粉ひき小屋に運びます。",
+        "「だれがパンを作る？」\n「いやだよ！　いやだよ！　いやだよ！」\n「じゃあ、わたしが作るわ。」そしてパンを作ります。",
+        "パンは温かくて、いい香りがします。犬が目を開けます。ねこが目を開けます。あひるが水から出てきます。\n「だれがパンを食べる？」とめんどりは聞きます。\n「ぼく！　ぼく！　ぼく！」とみんながさけびます。",
+        "「だめよ」とめんどりは答えます。「あなたたちは、まかない、刈らない、運ばない、作らない。わたしが食べるの。ひよこたちといっしょにね！」",
+        "これがこのお話の教訓です。パンを食べたい人は、パン作りを手伝わなければなりません。"
+      ],
+      "a2": [
+        "小さな赤いめんどりは、三匹の友だちと農場で暮らしています。感じのいい友だちですが、なまけ者です。犬とねこは日なたで寝ていて、あひるは一日じゅう池で過ごします。仕事はみんな、めんどりがします。",
+        "ある朝、めんどりは庭で小麦の種をいくつか見つけます。それを見て考えます。「これをまけば、パンができる。」そこで友だちのところへ行きます。\n「この種を見つけたの。だれがいっしょにまいてくれる？」\n「ぼくたちはいやだよ」とみんなは答えます。「眠いんだ。」\n「いいわ」とめんどりは言います。「わたしがまくわ。」",
+        "小麦は育ち、夏には高く、黄金色になります。\n「小麦が実ったわ。だれが刈る？」\n「ぼくたちはいやだよ。暑すぎる。」\n「いいわ。わたしが刈るわ。」",
+        "それから、めんどりは小麦を袋に入れます。袋は重いです。\n「だれが粉ひき小屋に運ぶ？」\n「ぼくたちはいやだよ。遠すぎる。」\n「いいわ。わたしが運ぶわ。」",
+        "粉屋さんが小麦粉にしてくれて、めんどりはそれを家に持って帰ります。\n「小麦粉よ。だれがこねる？　だれがパン作りを手伝ってくれる？」\n「ぼくたちはいやだよ。疲れているんだ。」\n「何に疲れたの？」とめんどりは聞きます。でも、答えは待ちません。ひとりでこねて、かまどに入れます。",
+        "パンの香りが農場じゅうに広がります。最初に気づいたのは犬です。ねこがそのあとについて来ます。あひるは池から出てきます。\n「だれが食べる？」とめんどりは聞きます。\n「ぼくたち！」とみんながさけびます。「ぼくたちが食べる！」",
+        "めんどりはみんなをひとりずつ見ます。\n「あなたたちは、まかなかった、刈らなかった、粉ひき小屋に運ばなかった。わたしが食べるの。ひよこたちといっしょにね。」",
+        "イギリスやアメリカでは、ほとんどの子どもがこのお話を知っています。同じ文がくり返されるので、よく暗記します。そして、そのメッセージはかんたんです。手伝わない人は、ごほうびの分け前を期待できないのです。"
+      ]
+    }
+  }
+}
