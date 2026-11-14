@@ -1,0 +1,987 @@
+{
+  "id": "la-grande-rapa",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "l'orto",
+      "forme": [
+        "orto"
+      ],
+      "esempi": [
+        "Il nonno coltiva i pomodori nell'orto.",
+        "Dietro casa abbiamo un piccolo orto.",
+        "Nell'orto crescono le zucchine."
+      ],
+      "traduzioni": {
+        "en": "vegetable garden",
+        "es": "huerto",
+        "pt": "horta",
+        "fr": "potager",
+        "cs": "zahrádka (zeleninová)",
+        "pl": "ogródek warzywny",
+        "tr": "bostan, sebze bahçesi",
+        "de": "Gemüsegarten",
+        "ja": "菜園、畑"
+      }
+    },
+    {
+      "parola": "piantare",
+      "forme": [
+        "pianta",
+        "piantato"
+      ],
+      "formeEsempi": [
+        "piantiamo",
+        "pianto"
+      ],
+      "esempi": [
+        "In primavera piantiamo i fiori.",
+        "Il nonno ha piantato un albero.",
+        "Pianto il basilico in un vaso."
+      ],
+      "traduzioni": {
+        "en": "to plant",
+        "es": "plantar",
+        "pt": "plantar",
+        "fr": "planter",
+        "cs": "zasadit",
+        "pl": "posadzić, zasadzić",
+        "tr": "dikmek",
+        "de": "pflanzen",
+        "ja": "植える"
+      }
+    },
+    {
+      "parola": "la rapa",
+      "forme": [
+        "rapa"
+      ],
+      "formeEsempi": [
+        "rape"
+      ],
+      "esempi": [
+        "Le rape crescono sotto terra.",
+        "La nonna cucina le rape con le patate.",
+        "Nel campo il contadino raccoglie le rape."
+      ],
+      "traduzioni": {
+        "en": "turnip",
+        "es": "nabo",
+        "pt": "nabo",
+        "fr": "navet",
+        "cs": "řepa",
+        "pl": "rzepka",
+        "tr": "şalgam",
+        "de": "Rübe",
+        "ja": "カブ"
+      }
+    },
+    {
+      "parola": "crescere",
+      "forme": [
+        "cresce",
+        "cresciuta"
+      ],
+      "formeEsempi": [
+        "crescono",
+        "cresciuto"
+      ],
+      "esempi": [
+        "I bambini crescono in fretta.",
+        "Questa pianta cresce bene al sole.",
+        "Sono cresciuto in un piccolo paese."
+      ],
+      "traduzioni": {
+        "en": "to grow",
+        "es": "crecer",
+        "pt": "crescer",
+        "fr": "grandir, pousser",
+        "cs": "růst",
+        "pl": "rosnąć",
+        "tr": "büyümek",
+        "de": "wachsen",
+        "ja": "育つ、大きくなる"
+      }
+    },
+    {
+      "parola": "la foglia",
+      "forme": [
+        "foglie"
+      ],
+      "formeEsempi": [
+        "foglia"
+      ],
+      "esempi": [
+        "In autunno le foglie cadono.",
+        "Questa pianta ha foglie grandi.",
+        "C'è una foglia gialla sul tavolo."
+      ],
+      "traduzioni": {
+        "en": "leaf",
+        "es": "hoja",
+        "pt": "folha",
+        "fr": "feuille",
+        "cs": "list (natě)",
+        "pl": "liść",
+        "tr": "yaprak",
+        "de": "Blatt",
+        "ja": "葉"
+      }
+    },
+    {
+      "parola": "tirare",
+      "forme": [
+        "tira",
+        "tirano",
+        "tirato"
+      ],
+      "formeEsempi": [
+        "tirate"
+      ],
+      "esempi": [
+        "Tira la porta per aprirla.",
+        "Il cane tira il guinzaglio.",
+        "Tirate la corda tutti insieme!"
+      ],
+      "traduzioni": {
+        "en": "to pull",
+        "es": "tirar",
+        "pt": "puxar",
+        "fr": "tirer",
+        "cs": "tahat",
+        "pl": "ciągnąć",
+        "tr": "çekmek",
+        "de": "ziehen",
+        "ja": "引っぱる"
+      }
+    },
+    {
+      "parola": "chiamare",
+      "forme": [
+        "chiama",
+        "chiamato"
+      ],
+      "formeEsempi": [
+        "chiamo"
+      ],
+      "esempi": [
+        "Ti chiamo stasera.",
+        "La mamma chiama i bambini per la cena.",
+        "Ho chiamato il medico."
+      ],
+      "traduzioni": {
+        "en": "to call",
+        "es": "llamar",
+        "pt": "chamar",
+        "fr": "appeler",
+        "cs": "zavolat",
+        "pl": "zawołać",
+        "tr": "çağırmak",
+        "de": "rufen",
+        "ja": "呼ぶ"
+      }
+    },
+    {
+      "parola": "la nipotina",
+      "forme": [
+        "nipotina"
+      ],
+      "esempi": [
+        "La nonna legge una favola alla nipotina.",
+        "La mia nipotina ha tre anni.",
+        "Il nonno porta la nipotina al parco."
+      ],
+      "traduzioni": {
+        "en": "little granddaughter (here not “niece”)",
+        "es": "nietecita",
+        "pt": "netinha",
+        "fr": "petite-fille",
+        "cs": "vnučka",
+        "pl": "wnuczka",
+        "tr": "küçük kız torun",
+        "de": "Enkelin",
+        "ja": "孫娘"
+      }
+    },
+    {
+      "parola": "il topolino",
+      "forme": [
+        "topolino"
+      ],
+      "esempi": [
+        "Un topolino esce dal buco.",
+        "Il topolino mangia una briciola.",
+        "Il gatto guarda il topolino."
+      ],
+      "traduzioni": {
+        "en": "little mouse (topo + -ino)",
+        "es": "ratoncito",
+        "pt": "ratinho",
+        "fr": "petite souris",
+        "cs": "myška",
+        "pl": "myszka",
+        "tr": "küçük fare",
+        "de": "Mäuschen",
+        "ja": "小ネズミ"
+      }
+    },
+    {
+      "parola": "cadere",
+      "forme": [
+        "cadono",
+        "caduti"
+      ],
+      "formeEsempi": [
+        "cade",
+        "caduto",
+        "cadere"
+      ],
+      "esempi": [
+        "Attento, il bicchiere sta per cadere!",
+        "D'autunno cadono le foglie.",
+        "Ieri sono caduto dalla bicicletta."
+      ],
+      "traduzioni": {
+        "en": "to fall",
+        "es": "caer",
+        "pt": "cair",
+        "fr": "tomber",
+        "cs": "spadnout",
+        "pl": "upaść",
+        "tr": "düşmek",
+        "de": "fallen",
+        "ja": "倒れる、落ちる"
+      }
+    },
+    {
+      "parola": "ridere",
+      "forme": [
+        "ridono",
+        "ride",
+        "riso"
+      ],
+      "formeEsempi": [
+        "rido"
+      ],
+      "esempi": [
+        "Quando guardo questo film rido sempre.",
+        "I bambini ridono in giardino.",
+        "Abbiamo riso tutta la sera."
+      ],
+      "traduzioni": {
+        "en": "to laugh («ha riso» = he laughed; here not “rice”)",
+        "es": "reír («ha riso» = se rio)",
+        "pt": "rir («ha riso» = riu)",
+        "fr": "rire («ha riso» = il a ri)",
+        "cs": "smát se («ha riso» = zasmál se)",
+        "pl": "śmiać się («ha riso» = zaśmiał się)",
+        "tr": "gülmek («ha riso» = güldü)",
+        "de": "lachen («ha riso» = hat gelacht)",
+        "ja": "笑う（«ha riso» = 笑った）"
+      }
+    },
+    {
+      "parola": "l'aiuto",
+      "forme": [
+        "aiuto"
+      ],
+      "esempi": [
+        "Grazie per il tuo aiuto!",
+        "Aiuto! Il gatto è sull'albero!",
+        "Ho bisogno di aiuto con i compiti."
+      ],
+      "traduzioni": {
+        "en": "help",
+        "es": "ayuda",
+        "pt": "ajuda",
+        "fr": "aide",
+        "cs": "pomoc",
+        "pl": "pomoc",
+        "tr": "yardım",
+        "de": "Hilfe",
+        "ja": "助け"
+      }
+    },
+    {
+      "parola": "insieme",
+      "forme": [
+        "insieme"
+      ],
+      "esempi": [
+        "Studiamo insieme stasera?",
+        "Siamo andati in vacanza insieme.",
+        "Cantiamo tutti insieme!"
+      ],
+      "traduzioni": {
+        "en": "together",
+        "es": "juntos",
+        "pt": "juntos",
+        "fr": "ensemble",
+        "cs": "spolu",
+        "pl": "razem",
+        "tr": "birlikte",
+        "de": "zusammen",
+        "ja": "いっしょに"
+      }
+    },
+    {
+      "parola": "forte",
+      "forme": [
+        "forti"
+      ],
+      "formeEsempi": [
+        "forte"
+      ],
+      "esempi": [
+        "Mio padre è molto forte.",
+        "Oggi c'è un vento forte.",
+        "Insieme siamo più forti."
+      ],
+      "traduzioni": {
+        "en": "strong",
+        "es": "fuerte",
+        "pt": "forte",
+        "fr": "fort",
+        "cs": "silný",
+        "pl": "silny",
+        "tr": "güçlü",
+        "de": "stark",
+        "ja": "強い"
+      }
+    },
+    {
+      "parola": "importante",
+      "forme": [
+        "importante"
+      ],
+      "esempi": [
+        "Domani ho un esame importante.",
+        "La salute è la cosa più importante.",
+        "Stasera ho una riunione importante."
+      ],
+      "traduzioni": {
+        "en": "important",
+        "es": "importante",
+        "pt": "importante",
+        "fr": "important",
+        "cs": "důležitý",
+        "pl": "ważny",
+        "tr": "önemli",
+        "de": "wichtig",
+        "ja": "大切な"
+      }
+    },
+    {
+      "parola": "la morale",
+      "forme": [
+        "morale"
+      ],
+      "esempi": [
+        "La morale della storia è: non dire bugie.",
+        "Ogni favola di Esopo ha una morale.",
+        "Qual è la morale di questo racconto?"
+      ],
+      "traduzioni": {
+        "en": "moral (of a story)",
+        "es": "moraleja",
+        "pt": "moral (da história)",
+        "fr": "morale (d’une histoire)",
+        "cs": "ponaučení",
+        "pl": "morał",
+        "tr": "ana fikir, kıssadan hisse",
+        "de": "Moral, Lehre",
+        "ja": "教訓"
+      }
+    },
+    {
+      "parola": "togliere",
+      "forme": [
+        "tolto"
+      ],
+      "formeEsempi": [
+        "togli",
+        "togliere"
+      ],
+      "esempi": [
+        "Togli le scarpe prima di entrare.",
+        "Ho tolto il sale dalla ricetta.",
+        "Togliere le foglie secche è un lavoro lungo."
+      ],
+      "traduzioni": {
+        "en": "to remove, to pull out",
+        "es": "quitar",
+        "pt": "tirar",
+        "fr": "enlever",
+        "cs": "odstranit, vytrhat",
+        "pl": "usunąć, wyrwać",
+        "tr": "çıkarmak, temizlemek",
+        "de": "entfernen, jäten",
+        "ja": "取り除く"
+      }
+    },
+    {
+      "parola": "l'erba cattiva",
+      "forme": [
+        "cattiva"
+      ],
+      "esempi": [
+        "Il contadino toglie l'erba cattiva dall'orto.",
+        "In giardino cresce sempre l'erba cattiva.",
+        "Togliere l'erba cattiva è un lavoro lungo."
+      ],
+      "traduzioni": {
+        "en": "weeds (lit. “bad grass”)",
+        "es": "malas hierbas",
+        "pt": "erva daninha",
+        "fr": "mauvaises herbes",
+        "cs": "plevel",
+        "pl": "chwasty",
+        "tr": "yabani ot",
+        "de": "Unkraut",
+        "ja": "雑草"
+      }
+    },
+    {
+      "parola": "l'estate",
+      "forme": [
+        "estate"
+      ],
+      "esempi": [
+        "D'estate andiamo al mare.",
+        "L'estate qui è molto calda.",
+        "Quest'estate imparo a nuotare."
+      ],
+      "traduzioni": {
+        "en": "summer",
+        "es": "verano",
+        "pt": "verão",
+        "fr": "été",
+        "cs": "léto",
+        "pl": "lato",
+        "tr": "yaz",
+        "de": "Sommer",
+        "ja": "夏"
+      }
+    },
+    {
+      "parola": "l'autunno",
+      "forme": [
+        "autunno"
+      ],
+      "esempi": [
+        "In autunno le foglie cadono.",
+        "L'autunno è la mia stagione preferita.",
+        "In autunno raccogliamo le castagne."
+      ],
+      "traduzioni": {
+        "en": "autumn, fall",
+        "es": "otoño",
+        "pt": "outono",
+        "fr": "automne",
+        "cs": "podzim",
+        "pl": "jesień",
+        "tr": "sonbahar",
+        "de": "Herbst",
+        "ja": "秋"
+      }
+    },
+    {
+      "parola": "perdere",
+      "forme": [
+        "perso"
+      ],
+      "formeEsempi": [
+        "perde"
+      ],
+      "esempi": [
+        "Ho perso le chiavi di casa.",
+        "Chi perde la partita paga la cena.",
+        "Mio nonno perde sempre gli occhiali."
+      ],
+      "traduzioni": {
+        "en": "to lose",
+        "es": "perder",
+        "pt": "perder",
+        "fr": "perdre",
+        "cs": "ztratit",
+        "pl": "zgubić",
+        "tr": "kaybetmek, düşürmek",
+        "de": "verlieren",
+        "ja": "なくす"
+      }
+    },
+    {
+      "parola": "muoversi",
+      "forme": [
+        "mossa"
+      ],
+      "formeEsempi": [
+        "muove",
+        "muoverti"
+      ],
+      "esempi": [
+        "Il gatto dorme e non si muove.",
+        "Non muoverti, ti faccio una foto!",
+        "La macchina non si muove: è rotta."
+      ],
+      "traduzioni": {
+        "en": "to move, to budge",
+        "es": "moverse",
+        "pt": "mexer-se",
+        "fr": "bouger",
+        "cs": "hnout se",
+        "pl": "ruszyć się",
+        "tr": "kıpırdamak",
+        "de": "sich bewegen, sich rühren",
+        "ja": "動く"
+      }
+    },
+    {
+      "parola": "il grembiule",
+      "forme": [
+        "grembiule"
+      ],
+      "esempi": [
+        "La nonna cucina con il grembiule.",
+        "In alcune scuole i bambini portano il grembiule.",
+        "Mettiti il grembiule, se no ti sporchi."
+      ],
+      "traduzioni": {
+        "en": "apron",
+        "es": "delantal",
+        "pt": "avental",
+        "fr": "tablier",
+        "cs": "zástěra",
+        "pl": "fartuch",
+        "tr": "önlük",
+        "de": "Schürze",
+        "ja": "エプロン"
+      }
+    },
+    {
+      "parola": "bagnato",
+      "forme": [
+        "bagnato"
+      ],
+      "formeEsempi": [
+        "bagnati",
+        "bagnata"
+      ],
+      "esempi": [
+        "Ho i capelli bagnati.",
+        "Il pavimento è bagnato: attenzione!",
+        "Dopo la pioggia l'erba è bagnata."
+      ],
+      "traduzioni": {
+        "en": "wet",
+        "es": "mojado",
+        "pt": "molhado",
+        "fr": "mouillé",
+        "cs": "mokrý",
+        "pl": "mokry",
+        "tr": "ıslak",
+        "de": "nass",
+        "ja": "ぬれた"
+      }
+    },
+    {
+      "parola": "la vita (parte del corpo)",
+      "forme": [
+        "vita"
+      ],
+      "esempi": [
+        "Questi pantaloni sono larghi in vita.",
+        "Porta una cintura in vita.",
+        "La sarta prende le misure della vita."
+      ],
+      "traduzioni": {
+        "en": "waist (here not “life”)",
+        "es": "cintura (aquí no «vida»)",
+        "pt": "cintura (aqui não «vida»)",
+        "fr": "taille (ici pas « vie »)",
+        "cs": "pas (tady ne „život“)",
+        "pl": "talia, pas (tu nie „życie”)",
+        "tr": "bel (burada «hayat» değil)",
+        "de": "Taille (hier nicht „Leben“)",
+        "ja": "腰、ウエスト（ここでは「人生」ではない）"
+      }
+    },
+    {
+      "parola": "lasciare",
+      "forme": [
+        "lasciato"
+      ],
+      "formeEsempi": [
+        "lascia",
+        "lascio"
+      ],
+      "esempi": [
+        "Ho lasciato il libro sul tavolo.",
+        "Lascia il telefono e vieni a cena!",
+        "Lascio le chiavi alla vicina."
+      ],
+      "traduzioni": {
+        "en": "to leave",
+        "es": "dejar",
+        "pt": "deixar",
+        "fr": "laisser",
+        "cs": "nechat",
+        "pl": "zostawić",
+        "tr": "bırakmak",
+        "de": "lassen, liegen lassen",
+        "ja": "置いていく、やめる"
+      }
+    },
+    {
+      "parola": "il gioco",
+      "forme": [
+        "giochi"
+      ],
+      "formeEsempi": [
+        "gioco"
+      ],
+      "esempi": [
+        "I bambini mettono via i giochi.",
+        "Questo è il mio gioco preferito.",
+        "Facciamo un gioco?"
+      ],
+      "traduzioni": {
+        "en": "toy, game",
+        "es": "juguete, juego",
+        "pt": "brinquedo, jogo",
+        "fr": "jouet, jeu",
+        "cs": "hračka, hra",
+        "pl": "zabawka, gra",
+        "tr": "oyuncak, oyun",
+        "de": "Spielzeug, Spiel",
+        "ja": "おもちゃ、遊び"
+      }
+    },
+    {
+      "parola": "rimanere",
+      "forme": [
+        "rimasta"
+      ],
+      "formeEsempi": [
+        "rimango",
+        "rimasti"
+      ],
+      "esempi": [
+        "Stasera rimango a casa.",
+        "Siamo rimasti in Italia tre settimane.",
+        "La finestra è rimasta aperta tutta la notte."
+      ],
+      "traduzioni": {
+        "en": "to stay, to remain",
+        "es": "quedarse",
+        "pt": "ficar",
+        "fr": "rester",
+        "cs": "zůstat",
+        "pl": "zostać",
+        "tr": "kalmak",
+        "de": "bleiben",
+        "ja": "とどまる、そのままである"
+      }
+    },
+    {
+      "parola": "attaccarsi",
+      "forme": [
+        "attaccato"
+      ],
+      "formeEsempi": [
+        "attacca",
+        "attaccati"
+      ],
+      "esempi": [
+        "Il bambino si attacca alla mano della mamma.",
+        "Il cane si è attaccato alla mia gamba.",
+        "Attaccati alla corda!"
+      ],
+      "traduzioni": {
+        "en": "to grab hold of, to cling to",
+        "es": "agarrarse",
+        "pt": "agarrar-se",
+        "fr": "s’accrocher",
+        "cs": "chytit se",
+        "pl": "uczepić się",
+        "tr": "tutunmak",
+        "de": "sich festhalten an",
+        "ja": "しがみつく"
+      }
+    },
+    {
+      "parola": "aprirsi",
+      "forme": [
+        "aperta"
+      ],
+      "formeEsempi": [
+        "apre",
+        "aperto"
+      ],
+      "esempi": [
+        "La porta si apre da sola.",
+        "Il fiore si è aperto stamattina.",
+        "Dopo la pioggia il cielo si apre."
+      ],
+      "traduzioni": {
+        "en": "to open (up)",
+        "es": "abrirse",
+        "pt": "abrir-se",
+        "fr": "s’ouvrir",
+        "cs": "otevřít se",
+        "pl": "otworzyć się",
+        "tr": "açılmak",
+        "de": "sich öffnen",
+        "ja": "開く、割れる"
+      }
+    },
+    {
+      "parola": "tirare fuori",
+      "forme": [
+        "fuori"
+      ],
+      "esempi": [
+        "Tira fuori il libro dalla borsa.",
+        "Ho tirato fuori le giacche invernali.",
+        "Il bambino tira fuori la lingua."
+      ],
+      "traduzioni": {
+        "en": "to pull out, to take out",
+        "es": "sacar",
+        "pt": "tirar, puxar para fora",
+        "fr": "sortir, arracher",
+        "cs": "vytáhnout",
+        "pl": "wyciągnąć",
+        "tr": "çıkarmak",
+        "de": "herausziehen",
+        "ja": "引き抜く、取り出す"
+      }
+    },
+    {
+      "parola": "slavo",
+      "forme": [
+        "slavi"
+      ],
+      "formeEsempi": [
+        "slave",
+        "slavo"
+      ],
+      "esempi": [
+        "Il ceco e il polacco sono lingue slave.",
+        "Nei Paesi slavi questa fiaba è famosa.",
+        "Ha un nome slavo."
+      ],
+      "traduzioni": {
+        "en": "Slavic",
+        "es": "eslavo",
+        "pt": "eslavo",
+        "fr": "slave",
+        "cs": "slovanský",
+        "pl": "słowiański",
+        "tr": "Slav",
+        "de": "slawisch",
+        "ja": "スラヴの"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a small village in the Czech Republic lives a grandfather. Grandpa has a vegetable garden. In the garden he plants a turnip.",
+        "The turnip grows, grows, grows. It becomes big, enormous! One day Grandpa goes into the garden and takes the turnip by its leaves. He pulls, pulls, pulls… but the turnip doesn't come out.",
+        "Grandpa calls Grandma. Grandma holds Grandpa, Grandpa holds the turnip. They pull, pull, pull… but the turnip doesn't come out.",
+        "Grandma calls their little granddaughter. The granddaughter holds Grandma, Grandma holds Grandpa, Grandpa holds the turnip. They pull, pull, pull… but the turnip doesn't come out.",
+        "The granddaughter calls the dog. The dog holds the granddaughter, the granddaughter holds Grandma, Grandma holds Grandpa, Grandpa holds the turnip. They pull, pull, pull… but the turnip doesn't come out.",
+        "The dog calls the cat. The cat holds the dog, the dog holds the granddaughter, the granddaughter holds Grandma, Grandma holds Grandpa, Grandpa holds the turnip. Nothing!",
+        "The cat calls the little mouse. Grandpa laughs: “You? You're too small!”. But the little mouse holds the cat, the cat holds the dog, the dog holds the granddaughter, the granddaughter holds Grandma, Grandma holds Grandpa, Grandpa holds the turnip. They pull, pull, pull…",
+        "Pop! The turnip comes out! Everyone falls on the ground and laughs.",
+        "That's the moral of this tale: together we are strong, and even the help of the smallest is important."
+      ],
+      "a2": [
+        "That year Grandpa planted a turnip in the vegetable garden behind the house. He watered the soil every evening and pulled out the weeds. The turnip grew all summer long and became enormous.",
+        "In autumn Grandpa went into the garden, took the turnip by its leaves and pulled with all his strength. Nothing. He tried again, went red in the face, lost his hat. The turnip didn't move.",
+        "So he called Grandma. Grandma arrived with her apron still wet and took Grandpa round the waist. They pulled together. Nothing.",
+        "Grandma called their little granddaughter, who left her toys and ran into the garden. Then the granddaughter called the dog, and the dog called the cat. They all pulled together, but the turnip stayed where it was.",
+        "At that point the cat saw a little mouse near the wall. “You come too!” it shouted. Grandpa laughed: “What can a little mouse do?”. But the little mouse came, grabbed hold of the cat's tail and pulled.",
+        "At that moment the ground opened, the turnip came out and they all fell one on top of the other.",
+        "Who pulled the turnip out? The little mouse? No: everyone together. Czech children know this tale, and so do the children of many Slavic countries, because it says something simple: nobody is too small to help."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un pueblecito de la República Checa vive un abuelo. El abuelo tiene un huerto. En el huerto planta un nabo.",
+        "El nabo crece, crece, crece. Se hace grande, ¡grandísimo! Un día el abuelo va al huerto y coge el nabo por las hojas. Tira, tira, tira… pero el nabo no sale.",
+        "El abuelo llama a la abuela. La abuela agarra al abuelo, el abuelo agarra el nabo. Tiran, tiran, tiran… pero el nabo no sale.",
+        "La abuela llama a la nietecita. La nietecita agarra a la abuela, la abuela agarra al abuelo, el abuelo agarra el nabo. Tiran, tiran, tiran… pero el nabo no sale.",
+        "La nietecita llama al perro. El perro agarra a la nietecita, la nietecita agarra a la abuela, la abuela agarra al abuelo, el abuelo agarra el nabo. Tiran, tiran, tiran… pero el nabo no sale.",
+        "El perro llama al gato. El gato agarra al perro, el perro agarra a la nietecita, la nietecita agarra a la abuela, la abuela agarra al abuelo, el abuelo agarra el nabo. ¡Nada!",
+        "El gato llama al ratoncito. El abuelo se ríe: «¿Tú? ¡Eres demasiado pequeño!». Pero el ratoncito agarra al gato, el gato agarra al perro, el perro agarra a la nietecita, la nietecita agarra a la abuela, la abuela agarra al abuelo, el abuelo agarra el nabo. Tiran, tiran, tiran…",
+        "¡Pum! ¡El nabo sale! Todos caen al suelo y se ríen.",
+        "Es la moraleja de este cuento: juntos somos fuertes, y hasta la ayuda del más pequeño es importante."
+      ],
+      "a2": [
+        "Aquel año el abuelo plantó un nabo en el huerto de detrás de casa. Regó la tierra cada tarde y quitó las malas hierbas. El nabo creció durante todo el verano y se hizo enorme.",
+        "En otoño el abuelo fue al huerto, cogió el nabo por las hojas y tiró con todas sus fuerzas. Nada. Lo intentó otra vez, se puso rojo, perdió el sombrero. El nabo no se movió.",
+        "Entonces llamó a la abuela. La abuela llegó con el delantal todavía mojado y agarró al abuelo por la cintura. Tiraron juntos. Nada.",
+        "La abuela llamó a la nietecita, que dejó sus juguetes y corrió al huerto. Luego la nietecita llamó al perro, y el perro llamó al gato. Tiraron todos juntos, pero el nabo se quedó allí.",
+        "En ese momento el gato vio un ratoncito cerca del muro. «¡Ven tú también!», le gritó. El abuelo se rio: «¿Qué puede hacer un ratoncito?». Pero el ratoncito llegó, se agarró a la cola del gato y tiró.",
+        "En ese instante la tierra se abrió, el nabo salió y todos cayeron unos encima de otros.",
+        "¿Quién sacó el nabo? ¿El ratoncito? No: todos juntos. Este cuento lo conocen los niños checos y los de muchos países eslavos, porque dice algo sencillo: nadie es demasiado pequeño para ayudar."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Num pequeno vilarejo da República Tcheca mora um avô. O avô tem uma horta. Na horta ele planta um nabo.",
+        "O nabo cresce, cresce, cresce. Fica grande, enorme! Um dia o avô vai à horta e pega o nabo pelas folhas. Puxa, puxa, puxa… mas o nabo não sai.",
+        "O avô chama a avó. A avó segura o avô, o avô segura o nabo. Puxam, puxam, puxam… mas o nabo não sai.",
+        "A avó chama a netinha. A netinha segura a avó, a avó segura o avô, o avô segura o nabo. Puxam, puxam, puxam… mas o nabo não sai.",
+        "A netinha chama o cachorro. O cachorro segura a netinha, a netinha segura a avó, a avó segura o avô, o avô segura o nabo. Puxam, puxam, puxam… mas o nabo não sai.",
+        "O cachorro chama o gato. O gato segura o cachorro, o cachorro segura a netinha, a netinha segura a avó, a avó segura o avô, o avô segura o nabo. Nada!",
+        "O gato chama o ratinho. O avô ri: «Você? Você é pequeno demais!». Mas o ratinho segura o gato, o gato segura o cachorro, o cachorro segura a netinha, a netinha segura a avó, a avó segura o avô, o avô segura o nabo. Puxam, puxam, puxam…",
+        "Pum! O nabo sai! Todos caem no chão e riem.",
+        "Essa é a moral deste conto: juntos somos fortes, e até a ajuda do menor é importante."
+      ],
+      "a2": [
+        "Naquele ano o avô plantou um nabo na horta atrás de casa. Regou a terra toda noite e tirou a erva daninha. O nabo cresceu o verão inteiro e ficou enorme.",
+        "No outono o avô foi à horta, pegou o nabo pelas folhas e puxou com todas as suas forças. Nada. Tentou de novo, ficou vermelho, perdeu o chapéu. O nabo não se mexeu.",
+        "Então chamou a avó. A avó chegou com o avental ainda molhado e segurou o avô pela cintura. Puxaram juntos. Nada.",
+        "A avó chamou a netinha, que deixou os brinquedos e correu para a horta. Depois a netinha chamou o cachorro, e o cachorro chamou o gato. Puxaram todos juntos, mas o nabo ficou lá.",
+        "Nesse momento o gato viu um ratinho perto do muro. «Venha você também!», gritou. O avô riu: «O que um ratinho pode fazer?». Mas o ratinho chegou, agarrou-se ao rabo do gato e puxou.",
+        "Naquele instante a terra se abriu, o nabo saiu e todos caíram um em cima do outro.",
+        "Quem tirou o nabo? O ratinho? Não: todos juntos. Este conto é conhecido pelas crianças tchecas e pelas de muitos países eslavos, porque diz uma coisa simples: ninguém é pequeno demais para ajudar."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans un petit village de République tchèque habite un grand-père. Le grand-père a un potager. Dans le potager, il plante un navet.",
+        "Le navet grandit, grandit, grandit. Il devient grand, énorme ! Un jour, le grand-père va au potager et prend le navet par les feuilles. Il tire, tire, tire… mais le navet ne sort pas.",
+        "Le grand-père appelle la grand-mère. La grand-mère tient le grand-père, le grand-père tient le navet. Ils tirent, tirent, tirent… mais le navet ne sort pas.",
+        "La grand-mère appelle la petite-fille. La petite-fille tient la grand-mère, la grand-mère tient le grand-père, le grand-père tient le navet. Ils tirent, tirent, tirent… mais le navet ne sort pas.",
+        "La petite-fille appelle le chien. Le chien tient la petite-fille, la petite-fille tient la grand-mère, la grand-mère tient le grand-père, le grand-père tient le navet. Ils tirent, tirent, tirent… mais le navet ne sort pas.",
+        "Le chien appelle le chat. Le chat tient le chien, le chien tient la petite-fille, la petite-fille tient la grand-mère, la grand-mère tient le grand-père, le grand-père tient le navet. Rien !",
+        "Le chat appelle la petite souris. Le grand-père rit : « Toi ? Tu es trop petite ! ». Mais la petite souris tient le chat, le chat tient le chien, le chien tient la petite-fille, la petite-fille tient la grand-mère, la grand-mère tient le grand-père, le grand-père tient le navet. Ils tirent, tirent, tirent…",
+        "Pouf ! Le navet sort ! Tout le monde tombe par terre et rit.",
+        "C’est la morale de ce conte : ensemble, nous sommes forts, et même l’aide du plus petit est importante."
+      ],
+      "a2": [
+        "Cette année-là, le grand-père a planté un navet dans le potager derrière la maison. Il a arrosé la terre chaque soir et il a enlevé les mauvaises herbes. Le navet a grandi tout l’été et il est devenu énorme.",
+        "En automne, le grand-père est allé au potager, il a pris le navet par les feuilles et il a tiré de toutes ses forces. Rien. Il a encore essayé, il est devenu tout rouge, il a perdu son chapeau. Le navet n’a pas bougé.",
+        "Alors il a appelé la grand-mère. La grand-mère est arrivée avec son tablier encore mouillé et elle a pris le grand-père par la taille. Ils ont tiré ensemble. Rien.",
+        "La grand-mère a appelé la petite-fille, qui a laissé ses jouets et a couru au potager. Puis la petite-fille a appelé le chien, et le chien a appelé le chat. Ils ont tous tiré ensemble, mais le navet est resté là.",
+        "À ce moment-là, le chat a vu une petite souris près du mur. « Viens, toi aussi ! », lui a-t-il crié. Le grand-père a ri : « Qu’est-ce qu’une petite souris peut faire ? ». Mais la petite souris est arrivée, s’est accrochée à la queue du chat et a tiré.",
+        "À cet instant, la terre s’est ouverte, le navet est sorti et tout le monde est tombé l’un sur l’autre.",
+        "Qui a arraché le navet ? La petite souris ? Non : tous ensemble. Ce conte, les enfants tchèques le connaissent, comme ceux de beaucoup de pays slaves, parce qu’il dit une chose simple : personne n’est trop petit pour aider."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V jedné malé vesnici v Česku bydlí dědeček. Dědeček má zahrádku. Na zahrádce zasadí řepu.",
+        "Řepa roste, roste, roste. Je velká, obrovská! Jednoho dne jde dědeček na zahrádku a chytí řepu za natě. Tahá, tahá, tahá… ale řepa nejde ven.",
+        "Dědeček zavolá babičku. Babička chytí dědečka, dědeček chytí řepu. Tahají, tahají, tahají… ale řepa nejde ven.",
+        "Babička zavolá vnučku. Vnučka chytí babičku, babička chytí dědečka, dědeček chytí řepu. Tahají, tahají, tahají… ale řepa nejde ven.",
+        "Vnučka zavolá pejska. Pejsek chytí vnučku, vnučka chytí babičku, babička chytí dědečka, dědeček chytí řepu. Tahají, tahají, tahají… ale řepa nejde ven.",
+        "Pejsek zavolá kočičku. Kočička chytí pejska, pejsek chytí vnučku, vnučka chytí babičku, babička chytí dědečka, dědeček chytí řepu. Nic!",
+        "Kočička zavolá myšku. Dědeček se směje: „Ty? Jsi moc malá!“. Ale myška chytí kočičku, kočička chytí pejska, pejsek chytí vnučku, vnučka chytí babičku, babička chytí dědečka, dědeček chytí řepu. Tahají, tahají, tahají…",
+        "Bum! Řepa je venku! Všichni spadnou na zem a smějí se.",
+        "To je ponaučení z této pohádky: společně jsme silní a i pomoc toho nejmenšího je důležitá."
+      ],
+      "a2": [
+        "Toho roku zasadil dědeček na zahrádce za domem řepu. Každý večer zaléval zem a vytrhával plevel. Řepa rostla celé léto a byla obrovská.",
+        "Na podzim šel dědeček na zahrádku, chytil řepu za natě a táhl ze všech sil. Nic. Zkusil to znovu, celý zčervenal, ztratil klobouk. Řepa se ani nehnula.",
+        "Tak zavolal babičku. Babička přišla se zástěrou ještě mokrou a chytila dědečka kolem pasu. Táhli spolu. Nic.",
+        "Babička zavolala vnučku, která nechala hračky a přiběhla na zahrádku. Pak vnučka zavolala pejska a pejsek zavolal kočičku. Táhli všichni spolu, ale řepa zůstala, kde byla.",
+        "V tu chvíli kočička uviděla u zdi myšku. „Pojď taky!“ zavolala na ni. Dědeček se zasmál: „Co může myška udělat?“. Ale myška přišla, chytila se kočičce za ocas a táhla.",
+        "V tu chvíli se země otevřela, řepa vyjela ven a všichni spadli jeden přes druhého.",
+        "Kdo řepu vytáhl? Myška? Ne: všichni společně. Tuhle pohádku, O veliké řepě, znají české děti i děti z mnoha slovanských zemí, protože říká jednoduchou věc: nikdo není příliš malý na to, aby pomohl."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W małej wiosce w Czechach mieszka dziadek. Dziadek ma ogródek. W ogródku sadzi rzepkę.",
+        "Rzepka rośnie, rośnie, rośnie. Jest duża, ogromna! Pewnego dnia dziadek idzie do ogródka i bierze rzepkę za liście. Ciągnie, ciągnie, ciągnie… ale rzepka nie wychodzi.",
+        "Dziadek woła babcię. Babcia trzyma dziadka, dziadek trzyma rzepkę. Ciągną, ciągną, ciągną… ale rzepka nie wychodzi.",
+        "Babcia woła wnuczkę. Wnuczka trzyma babcię, babcia trzyma dziadka, dziadek trzyma rzepkę. Ciągną, ciągną, ciągną… ale rzepka nie wychodzi.",
+        "Wnuczka woła psa. Pies trzyma wnuczkę, wnuczka trzyma babcię, babcia trzyma dziadka, dziadek trzyma rzepkę. Ciągną, ciągną, ciągną… ale rzepka nie wychodzi.",
+        "Pies woła kota. Kot trzyma psa, pies trzyma wnuczkę, wnuczka trzyma babcię, babcia trzyma dziadka, dziadek trzyma rzepkę. Nic!",
+        "Kot woła myszkę. Dziadek się śmieje: „Ty? Jesteś za mała!”. Ale myszka trzyma kota, kot trzyma psa, pies trzyma wnuczkę, wnuczka trzyma babcię, babcia trzyma dziadka, dziadek trzyma rzepkę. Ciągną, ciągną, ciągną…",
+        "Bum! Rzepka wychodzi! Wszyscy upadają na ziemię i się śmieją.",
+        "To jest morał tej baśni: razem jesteśmy silni, a nawet pomoc najmniejszego jest ważna."
+      ],
+      "a2": [
+        "Tego roku dziadek posadził rzepkę w ogródku za domem. Co wieczór podlewał ziemię i wyrywał chwasty. Rzepka rosła całe lato i zrobiła się ogromna.",
+        "Jesienią dziadek poszedł do ogródka, chwycił rzepkę za liście i pociągnął z całych sił. Nic. Spróbował jeszcze raz, poczerwieniał, zgubił kapelusz. Rzepka się nie ruszyła.",
+        "Wtedy zawołał babcię. Babcia przyszła w jeszcze mokrym fartuchu i złapała dziadka w pasie. Ciągnęli razem. Nic.",
+        "Babcia zawołała wnuczkę, która zostawiła zabawki i przybiegła do ogródka. Potem wnuczka zawołała psa, a pies zawołał kota. Ciągnęli wszyscy razem, ale rzepka została na miejscu.",
+        "W tej chwili kot zobaczył myszkę przy murze. „Chodź i ty!” – zawołał. Dziadek się zaśmiał: „Co może zrobić myszka?”. Ale myszka przyszła, uczepiła się ogona kota i pociągnęła.",
+        "W tym momencie ziemia się otworzyła, rzepka wyskoczyła i wszyscy upadli jeden na drugiego.",
+        "Kto wyciągnął rzepkę? Myszka? Nie: wszyscy razem. Tę baśń znają czeskie dzieci i dzieci z wielu krajów słowiańskich – w Polsce choćby z wiersza Tuwima „Rzepka” – bo mówi coś prostego: nikt nie jest za mały, żeby pomóc."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Çek Cumhuriyeti'nde küçük bir köyde bir dede yaşıyor. Dedenin bir bostanı var. Bostana bir şalgam ekiyor.",
+        "Şalgam büyüyor, büyüyor, büyüyor. Kocaman, dev gibi oluyor! Bir gün dede bostana gidiyor ve şalgamı yapraklarından tutuyor. Çekiyor, çekiyor, çekiyor… ama şalgam çıkmıyor.",
+        "Dede nineyi çağırıyor. Nine dedeyi tutuyor, dede şalgamı tutuyor. Çekiyorlar, çekiyorlar, çekiyorlar… ama şalgam çıkmıyor.",
+        "Nine küçük torununu çağırıyor. Torun nineyi tutuyor, nine dedeyi tutuyor, dede şalgamı tutuyor. Çekiyorlar, çekiyorlar, çekiyorlar… ama şalgam çıkmıyor.",
+        "Torun köpeği çağırıyor. Köpek torunu tutuyor, torun nineyi tutuyor, nine dedeyi tutuyor, dede şalgamı tutuyor. Çekiyorlar, çekiyorlar, çekiyorlar… ama şalgam çıkmıyor.",
+        "Köpek kediyi çağırıyor. Kedi köpeği tutuyor, köpek torunu tutuyor, torun nineyi tutuyor, nine dedeyi tutuyor, dede şalgamı tutuyor. Hiçbir şey!",
+        "Kedi küçük fareyi çağırıyor. Dede gülüyor: «Sen mi? Sen çok küçüksün!». Ama küçük fare kediyi tutuyor, kedi köpeği tutuyor, köpek torunu tutuyor, torun nineyi tutuyor, nine dedeyi tutuyor, dede şalgamı tutuyor. Çekiyorlar, çekiyorlar, çekiyorlar…",
+        "Güm! Şalgam çıkıyor! Herkes yere düşüyor ve gülüyor.",
+        "Bu masalın ana fikri şu: birlikte güçlüyüz ve en küçüğün yardımı bile önemlidir."
+      ],
+      "a2": [
+        "O yıl dede evin arkasındaki bostana bir şalgam ekti. Her akşam toprağı suladı ve yabani otları temizledi. Şalgam bütün yaz büyüdü ve kocaman oldu.",
+        "Sonbaharda dede bostana gitti, şalgamı yapraklarından tuttu ve bütün gücüyle çekti. Hiçbir şey. Bir daha denedi, kıpkırmızı oldu, şapkasını düşürdü. Şalgam yerinden kıpırdamadı.",
+        "Bunun üzerine nineyi çağırdı. Nine önlüğü hâlâ ıslak gelip dedeyi belinden tuttu. Birlikte çektiler. Hiçbir şey.",
+        "Nine küçük torununu çağırdı; torun oyuncaklarını bırakıp bostana koştu. Sonra torun köpeği çağırdı, köpek de kediyi. Hep birlikte çektiler ama şalgam olduğu yerde kaldı.",
+        "O sırada kedi duvarın yanında küçük bir fare gördü. «Sen de gel!», diye bağırdı. Dede güldü: «Küçük bir fare ne yapabilir ki?». Ama küçük fare geldi, kedinin kuyruğuna tutundu ve çekti.",
+        "Tam o anda toprak açıldı, şalgam çıktı ve hepsi üst üste düştü.",
+        "Şalgamı kim çıkardı? Küçük fare mi? Hayır: hep birlikte. Bu masalı Çek çocukları ve birçok Slav ülkesinin çocukları bilir, çünkü basit bir şey söyler: kimse yardım etmek için fazla küçük değildir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem kleinen Dorf in Tschechien wohnt ein Großvater. Der Großvater hat einen Gemüsegarten. Im Garten pflanzt er eine Rübe.",
+        "Die Rübe wächst, wächst, wächst. Sie wird groß, riesengroß! Eines Tages geht der Großvater in den Garten und packt die Rübe an den Blättern. Er zieht und zieht und zieht … aber die Rübe kommt nicht heraus.",
+        "Der Großvater ruft die Großmutter. Die Großmutter hält den Großvater, der Großvater hält die Rübe. Sie ziehen und ziehen und ziehen … aber die Rübe kommt nicht heraus.",
+        "Die Großmutter ruft die Enkelin. Die Enkelin hält die Großmutter, die Großmutter hält den Großvater, der Großvater hält die Rübe. Sie ziehen und ziehen und ziehen … aber die Rübe kommt nicht heraus.",
+        "Die Enkelin ruft den Hund. Der Hund hält die Enkelin, die Enkelin hält die Großmutter, die Großmutter hält den Großvater, der Großvater hält die Rübe. Sie ziehen und ziehen und ziehen … aber die Rübe kommt nicht heraus.",
+        "Der Hund ruft die Katze. Die Katze hält den Hund, der Hund hält die Enkelin, die Enkelin hält die Großmutter, die Großmutter hält den Großvater, der Großvater hält die Rübe. Nichts!",
+        "Die Katze ruft das Mäuschen. Der Großvater lacht: „Du? Du bist viel zu klein!“. Aber das Mäuschen hält die Katze, die Katze hält den Hund, der Hund hält die Enkelin, die Enkelin hält die Großmutter, die Großmutter hält den Großvater, der Großvater hält die Rübe. Sie ziehen und ziehen und ziehen …",
+        "Plopp! Die Rübe ist draußen! Alle fallen auf den Boden und lachen.",
+        "Das ist die Moral dieses Märchens: Zusammen sind wir stark, und auch die Hilfe des Kleinsten ist wichtig."
+      ],
+      "a2": [
+        "In jenem Jahr pflanzte der Großvater eine Rübe im Gemüsegarten hinter dem Haus. Jeden Abend goss er die Erde und zupfte das Unkraut aus. Die Rübe wuchs den ganzen Sommer und wurde riesig.",
+        "Im Herbst ging der Großvater in den Garten, packte die Rübe an den Blättern und zog mit aller Kraft. Nichts. Er versuchte es noch einmal, wurde ganz rot, verlor seinen Hut. Die Rübe rührte sich nicht.",
+        "Da rief er die Großmutter. Die Großmutter kam mit noch nasser Schürze und fasste den Großvater um die Taille. Sie zogen zusammen. Nichts.",
+        "Die Großmutter rief die Enkelin, die ihre Spielsachen liegen ließ und in den Garten lief. Dann rief die Enkelin den Hund, und der Hund rief die Katze. Alle zogen zusammen, aber die Rübe blieb, wo sie war.",
+        "In diesem Moment sah die Katze ein Mäuschen an der Mauer. „Komm du auch!“, rief sie ihm zu. Der Großvater lachte: „Was kann denn ein Mäuschen schon tun?“. Aber das Mäuschen kam, hielt sich am Schwanz der Katze fest und zog.",
+        "Im selben Augenblick öffnete sich die Erde, die Rübe kam heraus, und alle fielen übereinander.",
+        "Wer hat die Rübe herausgezogen? Das Mäuschen? Nein: alle zusammen. Dieses Märchen kennen die tschechischen Kinder und die Kinder vieler slawischer Länder, weil es etwas Einfaches sagt: Niemand ist zu klein, um zu helfen."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "チェコの小さな村に、おじいさんが住んでいます。おじいさんには菜園があります。菜園に、カブを植えます。",
+        "カブは大きく、大きく、大きくなります。とても、とても大きくなりました！　ある日、おじいさんは菜園へ行き、カブの葉っぱをつかみます。うんとこしょ、どっこいしょ……でもカブはぬけません。",
+        "おじいさんはおばあさんを呼びます。おばあさんがおじいさんを引っぱり、おじいさんがカブを引っぱります。うんとこしょ、どっこいしょ……でもカブはぬけません。",
+        "おばあさんは孫娘を呼びます。孫娘がおばあさんを引っぱり、おばあさんがおじいさんを引っぱり、おじいさんがカブを引っぱります。うんとこしょ、どっこいしょ……でもカブはぬけません。",
+        "孫娘は犬を呼びます。犬が孫娘を引っぱり、孫娘がおばあさんを引っぱり、おばあさんがおじいさんを引っぱり、おじいさんがカブを引っぱります。うんとこしょ、どっこいしょ……でもカブはぬけません。",
+        "犬はネコを呼びます。ネコが犬を引っぱり、犬が孫娘を引っぱり、孫娘がおばあさんを引っぱり、おばあさんがおじいさんを引っぱり、おじいさんがカブを引っぱります。だめです！",
+        "ネコは小ネズミを呼びます。おじいさんは笑います。「おまえが？　小さすぎるよ！」　でも小ネズミがネコを引っぱり、ネコが犬を、犬が孫娘を、孫娘がおばあさんを、おばあさんがおじいさんを、おじいさんがカブを引っぱります。うんとこしょ、どっこいしょ……",
+        "スポン！　カブがぬけました！　みんな地面にころんで、笑います。",
+        "これがこのお話の教訓です。いっしょなら強くなれます。そして、いちばん小さな者の助けも大切なのです。"
+      ],
+      "a2": [
+        "その年、おじいさんは家の裏の菜園にカブを植えました。毎晩土に水をやり、雑草を取りました。カブは夏のあいだずっと育ち、とても大きくなりました。",
+        "秋になると、おじいさんは菜園へ行き、カブの葉っぱをつかんで、力いっぱい引っぱりました。だめです。もう一度やってみて、顔が真っ赤になり、帽子もなくしてしまいました。カブはびくともしません。",
+        "そこでおじいさんはおばあさんを呼びました。おばあさんはまだぬれたエプロンのままやって来て、おじいさんの腰をつかみました。二人でいっしょに引っぱりました。だめです。",
+        "おばあさんは孫娘を呼びました。孫娘はおもちゃを置いて、菜園へ走ってきました。それから孫娘は犬を呼び、犬はネコを呼びました。みんなでいっしょに引っぱりましたが、カブはそのままでした。",
+        "そのとき、ネコは塀のそばに小ネズミを見つけました。「きみも来てよ！」とネコは叫びました。おじいさんは笑いました。「小ネズミに何ができるんだい？」　でも小ネズミはやって来て、ネコのしっぽにしがみつき、引っぱりました。",
+        "その瞬間、地面が割れて、カブがぬけ、みんな折り重なってころびました。",
+        "カブをぬいたのはだれでしょう？　小ネズミ？　いいえ、みんないっしょにです。このお話はチェコの子どもたちも、ほかの多くのスラヴの国の子どもたちも知っています（日本でも『おおきなかぶ』として有名ですね）。かんたんなことを教えてくれるからです。助けるのに小さすぎる者はいない、ということです。"
+      ]
+    }
+  }
+}
