@@ -1,0 +1,964 @@
+{
+  "id": "la-pentola-che-ha-partorito",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il personaggio",
+      "forme": [
+        "personaggio"
+      ],
+      "esempi": [
+        "Pinocchio è un personaggio famoso.",
+        "Qual è il tuo personaggio preferito del film?",
+        "Mio nonno è un personaggio: tutti lo conoscono!"
+      ],
+      "traduzioni": {
+        "en": "character (in a story); a figure",
+        "es": "personaje",
+        "pt": "personagem",
+        "fr": "personnage",
+        "cs": "postava",
+        "pl": "postać",
+        "tr": "karakter, kahraman",
+        "de": "Figur, Gestalt",
+        "ja": "登場人物"
+      }
+    },
+    {
+      "parola": "saggio",
+      "forme": [
+        "saggio"
+      ],
+      "formeEsempi": [
+        "saggia"
+      ],
+      "esempi": [
+        "Mio nonno è un uomo saggio.",
+        "È stata una decisione saggia.",
+        "Il vecchio saggio dà buoni consigli."
+      ],
+      "traduzioni": {
+        "en": "wise",
+        "es": "sabio",
+        "pt": "sábio",
+        "fr": "sage",
+        "cs": "moudrý",
+        "pl": "mądry",
+        "tr": "bilge",
+        "de": "weise",
+        "ja": "かしこい"
+      }
+    },
+    {
+      "parola": "simpatico",
+      "forme": [
+        "simpatico"
+      ],
+      "formeEsempi": [
+        "simpatica",
+        "simpatici"
+      ],
+      "esempi": [
+        "Il nuovo vicino è simpatico.",
+        "Che ragazza simpatica!",
+        "I tuoi amici sono molto simpatici."
+      ],
+      "traduzioni": {
+        "en": "nice, likeable (not “sympathetic”)",
+        "es": "simpático",
+        "pt": "simpático",
+        "fr": "sympathique",
+        "cs": "sympatický, milý",
+        "pl": "sympatyczny",
+        "tr": "sevimli, cana yakın",
+        "de": "sympathisch",
+        "ja": "感じのいい"
+      }
+    },
+    {
+      "parola": "il turbante",
+      "forme": [
+        "turbante"
+      ],
+      "esempi": [
+        "L'uomo porta un turbante bianco.",
+        "Il turbante protegge la testa dal sole.",
+        "Nelle vecchie foto il bisnonno porta il turbante."
+      ],
+      "traduzioni": {
+        "en": "turban",
+        "es": "turbante",
+        "pt": "turbante",
+        "fr": "turban",
+        "cs": "turban",
+        "pl": "turban",
+        "tr": "sarık, kavuk",
+        "de": "Turban",
+        "ja": "ターバン"
+      }
+    },
+    {
+      "parola": "cucinare",
+      "forme": [
+        "cucina"
+      ],
+      "formeEsempi": [
+        "cucino",
+        "cucinato"
+      ],
+      "esempi": [
+        "Stasera cucino io!",
+        "Mio padre cucina benissimo.",
+        "Hai mai cucinato il risotto?"
+      ],
+      "traduzioni": {
+        "en": "to cook (here a verb, not “kitchen”)",
+        "es": "cocinar",
+        "pt": "cozinhar",
+        "fr": "cuisiner",
+        "cs": "vařit",
+        "pl": "gotować",
+        "tr": "yemek pişirmek",
+        "de": "kochen",
+        "ja": "料理する"
+      }
+    },
+    {
+      "parola": "la pentola",
+      "forme": [
+        "pentola"
+      ],
+      "esempi": [
+        "Metti l'acqua nella pentola.",
+        "La pentola bolle.",
+        "Mia nonna ha una pentola enorme per la minestra."
+      ],
+      "traduzioni": {
+        "en": "pot, cooking pot",
+        "es": "olla",
+        "pt": "panela",
+        "fr": "marmite",
+        "cs": "hrnec",
+        "pl": "garnek",
+        "tr": "kazan, tencere",
+        "de": "Topf",
+        "ja": "なべ"
+      }
+    },
+    {
+      "parola": "bussare",
+      "forme": [
+        "bussa",
+        "bussato"
+      ],
+      "formeEsempi": [
+        "busso"
+      ],
+      "esempi": [
+        "Qualcuno bussa alla porta.",
+        "Prima di entrare, bussa!",
+        "Ho bussato, ma non ha risposto nessuno."
+      ],
+      "traduzioni": {
+        "en": "to knock (on a door)",
+        "es": "llamar (a la puerta)",
+        "pt": "bater (à porta)",
+        "fr": "frapper (à la porte)",
+        "cs": "zaklepat",
+        "pl": "zapukać",
+        "tr": "kapıyı çalmak",
+        "de": "klopfen",
+        "ja": "ノックする"
+      }
+    },
+    {
+      "parola": "il vicino",
+      "forme": [
+        "vicino"
+      ],
+      "formeEsempi": [
+        "vicina",
+        "vicini"
+      ],
+      "esempi": [
+        "Il mio vicino ha un cane grande.",
+        "La vicina mi porta le lettere.",
+        "Andiamo d'accordo con i vicini."
+      ],
+      "traduzioni": {
+        "en": "neighbour (here not “near”)",
+        "es": "vecino",
+        "pt": "vizinho",
+        "fr": "voisin",
+        "cs": "soused",
+        "pl": "sąsiad",
+        "tr": "komşu",
+        "de": "Nachbar",
+        "ja": "隣の人"
+      }
+    },
+    {
+      "parola": "prestare",
+      "forme": [
+        "presti",
+        "prestava"
+      ],
+      "formeEsempi": [
+        "presto",
+        "prestato"
+      ],
+      "esempi": [
+        "Mi presti la tua penna?",
+        "Ti presto il mio libro.",
+        "Non presto mai la macchina."
+      ],
+      "traduzioni": {
+        "en": "to lend («mi presti…?» = can I borrow…?)",
+        "es": "prestar",
+        "pt": "emprestar",
+        "fr": "prêter",
+        "cs": "půjčit",
+        "pl": "pożyczyć",
+        "tr": "ödünç vermek",
+        "de": "leihen",
+        "ja": "貸す"
+      }
+    },
+    {
+      "parola": "restituire",
+      "forme": [
+        "restituisce",
+        "restituito"
+      ],
+      "formeEsempi": [
+        "restituisco",
+        "restituisci"
+      ],
+      "esempi": [
+        "Domani ti restituisco il libro.",
+        "Ha restituito i soldi all'amico.",
+        "Restituisci la penna alla maestra!"
+      ],
+      "traduzioni": {
+        "en": "to give back, to return",
+        "es": "devolver",
+        "pt": "devolver",
+        "fr": "rendre",
+        "cs": "vrátit",
+        "pl": "oddać",
+        "tr": "geri vermek",
+        "de": "zurückgeben",
+        "ja": "返す"
+      }
+    },
+    {
+      "parola": "partorire",
+      "forme": [
+        "partorito",
+        "partorisce",
+        "partoriscono"
+      ],
+      "esempi": [
+        "La gatta ha partorito quattro gattini.",
+        "La mucca partorisce in primavera.",
+        "Mia cugina ha partorito una bambina."
+      ],
+      "traduzioni": {
+        "en": "to give birth",
+        "es": "parir, dar a luz",
+        "pt": "parir, dar à luz",
+        "fr": "accoucher, mettre bas",
+        "cs": "porodit",
+        "pl": "urodzić",
+        "tr": "doğurmak",
+        "de": "gebären, ein Junges bekommen",
+        "ja": "子どもを産む"
+      }
+    },
+    {
+      "parola": "la pentolina",
+      "forme": [
+        "pentolina"
+      ],
+      "esempi": [
+        "Scaldo il latte di soia nella pentolina.",
+        "Per il tè basta una pentolina.",
+        "La bambina gioca con una pentolina di plastica."
+      ],
+      "traduzioni": {
+        "en": "little pot (pentola + -ina)",
+        "es": "ollita",
+        "pt": "panelinha",
+        "fr": "petite marmite",
+        "cs": "hrníček",
+        "pl": "garnuszek",
+        "tr": "küçük kazan, tencerecik",
+        "de": "Töpfchen",
+        "ja": "小さななべ"
+      }
+    },
+    {
+      "parola": "guadagnare",
+      "forme": [
+        "guadagno"
+      ],
+      "formeEsempi": [
+        "guadagni",
+        "guadagnato"
+      ],
+      "esempi": [
+        "Quanto guadagni al mese?",
+        "Con questo lavoro guadagno poco.",
+        "Ha guadagnato molti soldi."
+      ],
+      "traduzioni": {
+        "en": "to earn, to gain, to get",
+        "es": "ganar",
+        "pt": "ganhar",
+        "fr": "gagner",
+        "cs": "získat, vydělat",
+        "pl": "zarobić, zyskać",
+        "tr": "kazanmak",
+        "de": "verdienen, gewinnen",
+        "ja": "得をする、かせぐ"
+      }
+    },
+    {
+      "parola": "di nuovo",
+      "forme": [
+        "nuovo"
+      ],
+      "livelli": [
+        "a1"
+      ],
+      "esempi": [
+        "Ciao, sono di nuovo io!",
+        "Oggi piove di nuovo.",
+        "Prova di nuovo, ce la fai!"
+      ],
+      "traduzioni": {
+        "en": "again",
+        "es": "de nuevo, otra vez",
+        "pt": "de novo",
+        "fr": "de nouveau",
+        "cs": "znovu",
+        "pl": "znowu",
+        "tr": "yine, tekrar",
+        "de": "wieder",
+        "ja": "また"
+      }
+    },
+    {
+      "parola": "aspettare",
+      "forme": [
+        "aspetta"
+      ],
+      "formeEsempi": [
+        "aspetto",
+        "aspettami"
+      ],
+      "esempi": [
+        "Aspetto l'autobus da venti minuti.",
+        "Aspettami qui!",
+        "Il cane aspetta il padrone."
+      ],
+      "traduzioni": {
+        "en": "to wait",
+        "es": "esperar",
+        "pt": "esperar",
+        "fr": "attendre",
+        "cs": "čekat",
+        "pl": "czekać",
+        "tr": "beklemek",
+        "de": "warten",
+        "ja": "待つ"
+      }
+    },
+    {
+      "parola": "abbassare",
+      "forme": [
+        "abbassa"
+      ],
+      "formeEsempi": [
+        "abbassato",
+        "abbassare"
+      ],
+      "esempi": [
+        "Abbassa la voce, il bambino dorme.",
+        "Ha abbassato gli occhi per la vergogna.",
+        "Puoi abbassare la musica?"
+      ],
+      "traduzioni": {
+        "en": "to lower («abbassare gli occhi» = to look down)",
+        "es": "bajar",
+        "pt": "abaixar, baixar",
+        "fr": "baisser",
+        "cs": "sklopit, ztišit",
+        "pl": "spuścić, ściszyć",
+        "tr": "indirmek, kısmak",
+        "de": "senken, leiser machen",
+        "ja": "下げる、伏せる"
+      }
+    },
+    {
+      "parola": "morire",
+      "forme": [
+        "morta",
+        "muore",
+        "muoiono"
+      ],
+      "formeEsempi": [
+        "morto"
+      ],
+      "esempi": [
+        "Le piante muoiono senza acqua.",
+        "Il mio pesce rosso è morto.",
+        "Il nonno è morto l'anno scorso."
+      ],
+      "traduzioni": {
+        "en": "to die («è morta» = it has died)",
+        "es": "morir",
+        "pt": "morrer",
+        "fr": "mourir",
+        "cs": "zemřít, umřít",
+        "pl": "umrzeć",
+        "tr": "ölmek",
+        "de": "sterben",
+        "ja": "死ぬ"
+      }
+    },
+    {
+      "parola": "credere",
+      "forme": [
+        "credi",
+        "creduto"
+      ],
+      "formeEsempi": [
+        "credo",
+        "credere"
+      ],
+      "esempi": [
+        "Non credere a tutto quello che leggi.",
+        "Ti credo: so che dici la verità.",
+        "Credi alle sue promesse?"
+      ],
+      "traduzioni": {
+        "en": "to believe («ci credi» = you believe it)",
+        "es": "creer",
+        "pt": "acreditar",
+        "fr": "croire",
+        "cs": "věřit",
+        "pl": "wierzyć",
+        "tr": "inanmak",
+        "de": "glauben",
+        "ja": "信じる"
+      }
+    },
+    {
+      "parola": "avaro",
+      "forme": [
+        "avaro"
+      ],
+      "esempi": [
+        "Mio zio è avaro: non offre mai un caffè.",
+        "Non essere avaro, presta il libro!",
+        "L'avaro conta sempre i suoi soldi."
+      ],
+      "traduzioni": {
+        "en": "stingy, miserly",
+        "es": "tacaño, avaro",
+        "pt": "pão-duro, avarento",
+        "fr": "avare",
+        "cs": "lakomý",
+        "pl": "skąpy",
+        "tr": "cimri",
+        "de": "geizig",
+        "ja": "けちな"
+      }
+    },
+    {
+      "parola": "il tappeto",
+      "forme": [
+        "tappeti"
+      ],
+      "formeEsempi": [
+        "tappeto"
+      ],
+      "esempi": [
+        "In Turchia si fanno tappeti bellissimi.",
+        "Il gatto dorme sul tappeto.",
+        "Togliti le scarpe prima di camminare sul tappeto."
+      ],
+      "traduzioni": {
+        "en": "carpet, rug",
+        "es": "alfombra",
+        "pt": "tapete",
+        "fr": "tapis",
+        "cs": "koberec",
+        "pl": "dywan",
+        "tr": "halı",
+        "de": "Teppich",
+        "ja": "じゅうたん"
+      }
+    },
+    {
+      "parola": "il rame",
+      "forme": [
+        "rame"
+      ],
+      "esempi": [
+        "Questa pentola è di rame.",
+        "I fili elettrici sono di rame.",
+        "Il rame diventa verde con il tempo."
+      ],
+      "traduzioni": {
+        "en": "copper",
+        "es": "cobre",
+        "pt": "cobre",
+        "fr": "cuivre",
+        "cs": "měď",
+        "pl": "miedź",
+        "tr": "bakır",
+        "de": "Kupfer",
+        "ja": "銅"
+      }
+    },
+    {
+      "parola": "pulito",
+      "forme": [
+        "pulita"
+      ],
+      "formeEsempi": [
+        "pulito"
+      ],
+      "esempi": [
+        "La cucina è pulita.",
+        "Metti una maglietta pulita.",
+        "L'acqua del lago è pulita."
+      ],
+      "traduzioni": {
+        "en": "clean",
+        "es": "limpio",
+        "pt": "limpo",
+        "fr": "propre",
+        "cs": "čistý",
+        "pl": "czysty",
+        "tr": "temiz",
+        "de": "sauber",
+        "ja": "きれいな、清潔な"
+      }
+    },
+    {
+      "parola": "lucido",
+      "forme": [
+        "lucida"
+      ],
+      "formeEsempi": [
+        "lucido",
+        "lucide"
+      ],
+      "esempi": [
+        "Il gatto ha il pelo lucido e morbido.",
+        "Ho pulito le scarpe: ora sono lucide.",
+        "Il pavimento è lucido come uno specchio."
+      ],
+      "traduzioni": {
+        "en": "shiny",
+        "es": "brillante",
+        "pt": "brilhante",
+        "fr": "brillant",
+        "cs": "lesklý",
+        "pl": "lśniący",
+        "tr": "parlak",
+        "de": "glänzend",
+        "ja": "ぴかぴかの"
+      }
+    },
+    {
+      "parola": "lo specchio",
+      "forme": [
+        "specchio"
+      ],
+      "esempi": [
+        "Mi guardo allo specchio.",
+        "Lo specchio del bagno è rotto.",
+        "Il lago è liscio come uno specchio."
+      ],
+      "traduzioni": {
+        "en": "mirror",
+        "es": "espejo",
+        "pt": "espelho",
+        "fr": "miroir",
+        "cs": "zrcadlo",
+        "pl": "lustro",
+        "tr": "ayna",
+        "de": "Spiegel",
+        "ja": "鏡"
+      }
+    },
+    {
+      "parola": "la notizia",
+      "forme": [
+        "notizia"
+      ],
+      "formeEsempi": [
+        "notizie"
+      ],
+      "esempi": [
+        "Ho una bella notizia: mi sposo!",
+        "Hai sentito le notizie di oggi?",
+        "È una notizia triste."
+      ],
+      "traduzioni": {
+        "en": "piece of news («che bella notizia!» = what good news!)",
+        "es": "noticia",
+        "pt": "notícia",
+        "fr": "nouvelle",
+        "cs": "zpráva",
+        "pl": "wiadomość",
+        "tr": "haber",
+        "de": "Nachricht",
+        "ja": "知らせ、ニュース"
+      }
+    },
+    {
+      "parola": "sperare",
+      "forme": [
+        "sperava"
+      ],
+      "formeEsempi": [
+        "spero",
+        "speriamo"
+      ],
+      "esempi": [
+        "Spero di vederti presto.",
+        "Speriamo che domani non piova.",
+        "Sperava in un regalo."
+      ],
+      "traduzioni": {
+        "en": "to hope",
+        "es": "esperar (tener esperanza)",
+        "pt": "esperar, ter esperança",
+        "fr": "espérer",
+        "cs": "doufat",
+        "pl": "mieć nadzieję",
+        "tr": "ummak",
+        "de": "hoffen",
+        "ja": "期待する、望む"
+      }
+    },
+    {
+      "parola": "la pazienza",
+      "forme": [
+        "pazienza"
+      ],
+      "esempi": [
+        "Abbi pazienza, arrivo subito!",
+        "Ho perso la pazienza.",
+        "Per imparare una lingua ci vuole pazienza."
+      ],
+      "traduzioni": {
+        "en": "patience («perdere la pazienza» = to lose one's patience)",
+        "es": "paciencia",
+        "pt": "paciência",
+        "fr": "patience",
+        "cs": "trpělivost",
+        "pl": "cierpliwość",
+        "tr": "sabır",
+        "de": "Geduld",
+        "ja": "忍耐、がまん"
+      }
+    },
+    {
+      "parola": "la faccia",
+      "forme": [
+        "faccia"
+      ],
+      "esempi": [
+        "Lavati la faccia!",
+        "Perché fai quella faccia?",
+        "Ha una faccia simpatica."
+      ],
+      "traduzioni": {
+        "en": "face",
+        "es": "cara",
+        "pt": "rosto, cara",
+        "fr": "visage, tête",
+        "cs": "obličej, výraz",
+        "pl": "twarz, mina",
+        "tr": "yüz, surat",
+        "de": "Gesicht",
+        "ja": "顔"
+      }
+    },
+    {
+      "parola": "senza parole",
+      "forme": [
+        "parole"
+      ],
+      "esempi": [
+        "Sono rimasto senza parole.",
+        "La notizia mi ha lasciato senza parole.",
+        "Davanti al panorama siamo rimasti senza parole."
+      ],
+      "traduzioni": {
+        "en": "speechless",
+        "es": "sin palabras",
+        "pt": "sem palavras",
+        "fr": "sans voix, bouche bée",
+        "cs": "beze slov",
+        "pl": "bez słowa, oniemiały",
+        "tr": "dili tutulmuş",
+        "de": "sprachlos",
+        "ja": "言葉を失って"
+      }
+    },
+    {
+      "parola": "bastare",
+      "forme": [
+        "basta"
+      ],
+      "formeEsempi": [
+        "bastano"
+      ],
+      "esempi": [
+        "Basta un minuto.",
+        "Mi bastano due euro.",
+        "Basta, smettila!"
+      ],
+      "traduzioni": {
+        "en": "to be enough («basta…» = you only have to…)",
+        "es": "bastar",
+        "pt": "bastar",
+        "fr": "suffire",
+        "cs": "stačit",
+        "pl": "wystarczyć",
+        "tr": "yetmek",
+        "de": "genügen, reichen",
+        "ja": "十分だ、〜するだけでいい"
+      }
+    },
+    {
+      "parola": "chiunque",
+      "forme": [
+        "chiunque"
+      ],
+      "esempi": [
+        "Chiunque può imparare l'italiano.",
+        "Non aprire la porta a chiunque.",
+        "È più gentile di chiunque altro."
+      ],
+      "traduzioni": {
+        "en": "anyone, anybody",
+        "es": "cualquiera",
+        "pt": "qualquer um",
+        "fr": "n’importe qui",
+        "cs": "kdokoli",
+        "pl": "każdy, ktokolwiek",
+        "tr": "herkes, kim olursa",
+        "de": "jeder, jedermann",
+        "ja": "だれでも"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Nasreddin Hodja is a very famous character in Turkey: a wise and likeable man with a big white turban. He lives in a small village with his wife and his donkey.",
+        "One day Nasreddin is cooking for lots of friends. But his pot is small. So he knocks on his neighbour's door.\n– Good morning! Will you lend me your big pot?\n– Of course, – answers the neighbour. – Here it is.",
+        "The next day Nasreddin gives back the pot. But inside the big pot there's a small pot.\n– And what's this? – asks the neighbour.\n– Your pot has given birth! – answers Nasreddin. – This is its baby. It's yours.",
+        "The neighbour looks at the little pot and laughs. He thinks: “Nasreddin is a bit odd, but I get an extra pot!”. And he takes both pots.",
+        "A week later Nasreddin knocks again.\n– Will you lend me the big pot again?\n– Of course! – answers the neighbour, happily.",
+        "One day goes by. Two days go by. A week goes by. The pot doesn't come back. The neighbour waits and waits… In the end he knocks on Nasreddin's door.\n– Where's my pot?",
+        "Nasreddin lowers his eyes and speaks softly:\n– I'm so sorry. Your pot has died.",
+        "– Died? – shouts the neighbour. – But a pot doesn't die!\nNasreddin smiles:\n– Strange. When your pot gives birth, you believe it. And when it dies, you don't believe it?"
+      ],
+      "a2": [
+        "In Nasreddin Hodja's village lived a rather stingy man. He had a big house, lots of carpets and a beautiful copper pot. He never lent anything to anybody, but he couldn't say no to Nasreddin: they had been neighbours for thirty years.",
+        "One day Nasreddin knocked on his door and asked him for the pot. The man gave it to him, but all evening he thought: “Will he give it back clean?”.",
+        "The next morning Nasreddin came back. He gave back the pot, and inside there was a small new pot, as shiny as a mirror.\n– What's this? – asked the neighbour.\n– Last night your pot gave birth, – answered Nasreddin. – The little one is yours, of course.",
+        "The neighbour knew perfectly well that pots don't give birth. But the little pot was nice and it cost nothing. So he said: “What good news!” and took it.",
+        "A few days later Nasreddin came back to ask for the pot. This time the neighbour gave it to him right away, with a big smile: maybe he was hoping for another little pot.",
+        "But the days went by and the pot didn't come back. After two weeks the neighbour lost his patience and went to Nasreddin.\n– I'm sorry, my friend, – said Nasreddin with a sad face. – Your pot has died.",
+        "– What are you talking about? – shouted the neighbour. – Pots don't die!\n– Strange, – answered Nasreddin. – When I told you: “Your pot has given birth”, you believed me. Why don't you believe me now?",
+        "The neighbour was left speechless. Even today everyone in Turkey knows this story, and you only have to say «Kazan doğurdu», “the pot has given birth”, to make anyone smile."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Nasreddin Hodja es un personaje muy famoso en Turquía: un hombre sabio y simpático, con un gran turbante blanco. Vive en un pueblecito con su mujer y su burro.",
+        "Un día Nasreddin cocina para muchos amigos. Pero su olla es pequeña. Entonces llama a la puerta del vecino.\n– ¡Buenos días! ¿Me prestas tu olla grande?\n– Claro – responde el vecino. – Aquí la tienes.",
+        "Al día siguiente Nasreddin devuelve la olla. Pero dentro de la olla grande hay una olla pequeña.\n– ¿Y esto? – pregunta el vecino.\n– ¡Tu olla ha dado a luz! – responde Nasreddin. – Es su bebé. Es tuya.",
+        "El vecino mira la ollita y se ríe. Piensa: «Nasreddin es un poco raro, ¡pero yo gano una olla!». Y se queda con las dos ollas.",
+        "Una semana después Nasreddin llama otra vez.\n– ¿Me prestas otra vez la olla grande?\n– ¡Pues claro! – responde el vecino, contento.",
+        "Pasa un día. Pasan dos días. Pasa una semana. La olla no vuelve. El vecino espera y espera… Al final llama a la puerta de Nasreddin.\n– ¿Dónde está mi olla?",
+        "Nasreddin baja los ojos y habla en voz baja:\n– Lo siento mucho. Tu olla ha muerto.",
+        "– ¿Muerto? – grita el vecino. – ¡Pero una olla no se muere!\nNasreddin sonríe:\n– Qué raro. Cuando tu olla da a luz, te lo crees. ¿Y cuando se muere, no te lo crees?"
+      ],
+      "a2": [
+        "En el pueblo de Nasreddin Hodja vivía un hombre un poco tacaño. Tenía una casa grande, muchas alfombras y una olla de cobre preciosa. No le prestaba nada a nadie, pero a Nasreddin no podía decirle que no: eran vecinos desde hacía treinta años.",
+        "Un día Nasreddin llamó a su puerta y le pidió la olla. El hombre se la dio, pero toda la tarde pensó: «¿Me la devolverá limpia?».",
+        "A la mañana siguiente Nasreddin volvió. Devolvió la olla, y dentro había una ollita nueva, brillante como un espejo.\n– ¿Qué es esto? – preguntó el vecino.\n– Esta noche tu olla ha dado a luz – respondió Nasreddin. – La pequeña es tuya, naturalmente.",
+        "El vecino sabía perfectamente que las ollas no dan a luz. Pero la ollita era bonita y no costaba nada. Así que dijo: «¡Qué buena noticia!», y se la quedó.",
+        "Unos días después Nasreddin volvió a pedir la olla. Esta vez el vecino se la dio enseguida, con una gran sonrisa: quizás esperaba otra ollita.",
+        "Pero pasaban los días y la olla no volvía. Después de dos semanas el vecino perdió la paciencia y fue a ver a Nasreddin.\n– Lo siento, amigo mío – dijo Nasreddin con cara triste. – Tu olla ha muerto.",
+        "– ¿Pero qué dices? – gritó el vecino. – ¡Las ollas no se mueren!\n– Qué raro – respondió Nasreddin. – Cuando te dije «Tu olla ha dado a luz», me creíste. ¿Por qué ahora no me crees?",
+        "El vecino se quedó sin palabras. Todavía hoy en Turquía todo el mundo conoce esta historia, y basta con decir «Kazan doğurdu», «la olla ha dado a luz», para hacer sonreír a cualquiera."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Nasreddin Hodja é um personagem muito famoso na Turquia: um homem sábio e simpático, com um grande turbante branco. Ele mora num pequeno vilarejo com a mulher e o burro.",
+        "Um dia Nasreddin cozinha para muitos amigos. Mas a panela dele é pequena. Então ele bate à porta do vizinho.\n– Bom dia! Você me empresta a sua panela grande?\n– Claro – responde o vizinho. – Aqui está.",
+        "No dia seguinte Nasreddin devolve a panela. Mas dentro da panela grande há uma panela pequena.\n– E isto? – pergunta o vizinho.\n– A sua panela deu à luz! – responde Nasreddin. – É o filhote dela. É seu.",
+        "O vizinho olha para a panelinha e ri. Pensa: «Nasreddin é meio estranho, mas eu ganho uma panela!». E fica com as duas panelas.",
+        "Uma semana depois Nasreddin bate de novo.\n– Você me empresta a panela grande outra vez?\n– Mas claro! – responde o vizinho, contente.",
+        "Passa um dia. Passam dois dias. Passa uma semana. A panela não volta. O vizinho espera, espera… No fim bate à porta de Nasreddin.\n– Cadê a minha panela?",
+        "Nasreddin abaixa os olhos e fala baixinho:\n– Sinto muito. A sua panela morreu.",
+        "– Morreu? – grita o vizinho. – Mas panela não morre!\nNasreddin sorri:\n– Estranho. Quando a sua panela dá à luz, você acredita. E quando ela morre, não acredita?"
+      ],
+      "a2": [
+        "No vilarejo de Nasreddin Hodja morava um homem meio pão-duro. Tinha uma casa grande, muitos tapetes e uma panela de cobre lindíssima. Não emprestava nada a ninguém, mas não conseguia dizer não a Nasreddin: eram vizinhos havia trinta anos.",
+        "Um dia Nasreddin bateu à porta dele e pediu a panela. O homem a emprestou, mas passou a noite inteira pensando: «Será que ele vai devolver limpa?».",
+        "Na manhã seguinte Nasreddin voltou. Devolveu a panela, e dentro havia uma panelinha nova, brilhante como um espelho.\n– O que é isso? – perguntou o vizinho.\n– Esta noite a sua panela deu à luz – respondeu Nasreddin. – A pequena é sua, naturalmente.",
+        "O vizinho sabia muito bem que panelas não dão à luz. Mas a panelinha era bonita e não custava nada. Então disse: «Que boa notícia!» e ficou com ela.",
+        "Alguns dias depois Nasreddin voltou para pedir a panela. Desta vez o vizinho a deu na hora, com um grande sorriso: talvez esperasse outra panelinha.",
+        "Mas os dias passavam e a panela não voltava. Depois de duas semanas o vizinho perdeu a paciência e foi até a casa de Nasreddin.\n– Sinto muito, meu amigo – disse Nasreddin com cara triste. – A sua panela morreu.",
+        "– Mas o que você está dizendo? – gritou o vizinho. – Panelas não morrem!\n– Estranho – respondeu Nasreddin. – Quando eu disse «A sua panela deu à luz», você acreditou em mim. Por que agora não acredita?",
+        "O vizinho ficou sem palavras. Até hoje na Turquia todo mundo conhece esta história, e basta dizer «Kazan doğurdu», «a panela deu à luz», para fazer qualquer um sorrir."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Nasreddin Hodja est un personnage très célèbre en Turquie : un homme sage et sympathique, avec un grand turban blanc. Il habite dans un petit village avec sa femme et son âne.",
+        "Un jour, Nasreddin cuisine pour beaucoup d’amis. Mais sa marmite est petite. Alors il frappe à la porte du voisin.\n– Bonjour ! Tu me prêtes ta grande marmite ?\n– Bien sûr – répond le voisin. – La voici.",
+        "Le lendemain, Nasreddin rend la marmite. Mais dans la grande marmite, il y a une petite marmite.\n– Et ça ? – demande le voisin.\n– Ta marmite a accouché ! – répond Nasreddin. – C’est son bébé. Elle est à toi.",
+        "Le voisin regarde la petite marmite et il rit. Il pense : « Nasreddin est un peu bizarre, mais moi, je gagne une marmite ! ». Et il prend les deux marmites.",
+        "Une semaine plus tard, Nasreddin frappe de nouveau.\n– Tu me prêtes encore la grande marmite ?\n– Mais bien sûr ! – répond le voisin, content.",
+        "Un jour passe. Deux jours passent. Une semaine passe. La marmite ne revient pas. Le voisin attend, attend… À la fin, il frappe à la porte de Nasreddin.\n– Où est ma marmite ?",
+        "Nasreddin baisse les yeux et parle doucement :\n– Je suis vraiment désolé. Ta marmite est morte.",
+        "– Morte ? – crie le voisin. – Mais une marmite ne meurt pas !\nNasreddin sourit :\n– Bizarre. Quand ta marmite accouche, tu y crois. Et quand elle meurt, tu n’y crois pas ?"
+      ],
+      "a2": [
+        "Dans le village de Nasreddin Hodja habitait un homme un peu avare. Il avait une grande maison, beaucoup de tapis et une magnifique marmite en cuivre. Il ne prêtait rien à personne, mais à Nasreddin, il ne pouvait pas dire non : ils étaient voisins depuis trente ans.",
+        "Un jour, Nasreddin a frappé à sa porte et lui a demandé la marmite. L’homme la lui a donnée, mais toute la soirée il a pensé : « Est-ce qu’il me la rendra propre ? ».",
+        "Le lendemain matin, Nasreddin est revenu. Il a rendu la marmite, et dedans il y avait une petite marmite neuve, brillante comme un miroir.\n– Qu’est-ce que c’est ? – a demandé le voisin.\n– Cette nuit, ta marmite a accouché – a répondu Nasreddin. – La petite est à toi, naturellement.",
+        "Le voisin savait très bien que les marmites n’accouchent pas. Mais la petite marmite était jolie et elle ne coûtait rien. Alors il a dit : « Quelle bonne nouvelle ! » et il l’a prise.",
+        "Quelques jours plus tard, Nasreddin est revenu demander la marmite. Cette fois, le voisin la lui a donnée tout de suite, avec un grand sourire : peut-être qu’il espérait une autre petite marmite.",
+        "Mais les jours passaient et la marmite ne revenait pas. Au bout de deux semaines, le voisin a perdu patience et il est allé chez Nasreddin.\n– Je suis désolé, mon ami – a dit Nasreddin d’un air triste. – Ta marmite est morte.",
+        "– Mais qu’est-ce que tu racontes ? – a crié le voisin. – Les marmites ne meurent pas !\n– Bizarre – a répondu Nasreddin. – Quand je t’ai dit : « Ta marmite a accouché », tu m’as cru. Pourquoi maintenant tu ne me crois pas ?",
+        "Le voisin est resté sans voix. Aujourd’hui encore, en Turquie, tout le monde connaît cette histoire, et il suffit de dire « Kazan doğurdu », « la marmite a accouché », pour faire sourire n’importe qui."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Nasreddin Hodža je v Turecku velmi slavná postava: moudrý a sympatický muž s velkým bílým turbanem. Bydlí v malé vesnici se svou ženou a se svým oslem.",
+        "Jednoho dne Nasreddin vaří pro hodně přátel. Ale jeho hrnec je malý. Tak zaklepe u souseda.\n– Dobrý den! Půjčíš mi svůj velký hrnec?\n– Jistě, – odpoví soused. – Tady je.",
+        "Druhý den Nasreddin hrnec vrátí. Ale ve velkém hrnci je malý hrnec.\n– A tohle? – ptá se soused.\n– Tvůj hrnec porodil! – odpoví Nasreddin. – To je jeho mládě. Je tvoje.",
+        "Soused se dívá na hrníček a směje se. Myslí si: „Nasreddin je trochu divný, ale já získám hrnec!“. A vezme si oba hrnce.",
+        "O týden později Nasreddin zaklepe znovu.\n– Půjčíš mi zase ten velký hrnec?\n– Ale samozřejmě! – odpoví soused spokojeně.",
+        "Uběhne jeden den. Uběhnou dva dny. Uběhne týden. Hrnec se nevrací. Soused čeká a čeká… Nakonec zaklepe u Nasreddina.\n– Kde je můj hrnec?",
+        "Nasreddin sklopí oči a mluví tiše:\n– Moc mě to mrzí. Tvůj hrnec umřel.",
+        "– Umřel? – křičí soused. – Ale hrnec přece neumírá!\nNasreddin se usměje:\n– Zvláštní. Když tvůj hrnec porodí, věříš tomu. A když umře, tak tomu nevěříš?"
+      ],
+      "a2": [
+        "Ve vesnici Nasreddina Hodži žil jeden dost lakomý muž. Měl velký dům, spoustu koberců a krásný měděný hrnec. Nikomu nic nepůjčoval, ale Nasreddinovi nemohl říct ne: byli sousedé už třicet let.",
+        "Jednoho dne Nasreddin zaklepal na jeho dveře a požádal ho o hrnec. Muž mu ho dal, ale celý večer myslel na to: „Vrátí mi ho čistý?“.",
+        "Druhý den ráno se Nasreddin vrátil. Vrátil hrnec a uvnitř byl malý nový hrníček, lesklý jako zrcadlo.\n– Co je to? – zeptal se soused.\n– Tvůj hrnec v noci porodil, – odpověděl Nasreddin. – To malé je samozřejmě tvoje.",
+        "Soused moc dobře věděl, že hrnce nerodí. Ale hrníček byl hezký a nic nestál. A tak řekl: „To je ale dobrá zpráva!“ a vzal si ho.",
+        "Za pár dní přišel Nasreddin znovu požádat o hrnec. Tentokrát mu ho soused dal hned, s velkým úsměvem: možná doufal v další hrníček.",
+        "Ale dny ubíhaly a hrnec se nevracel. Po dvou týdnech soused ztratil trpělivost a šel za Nasreddinem.\n– Mrzí mě to, příteli, – řekl Nasreddin se smutným výrazem. – Tvůj hrnec umřel.",
+        "– Co to povídáš? – vykřikl soused. – Hrnce přece neumírají!\n– Zvláštní, – odpověděl Nasreddin. – Když jsem ti řekl: „Tvůj hrnec porodil,“ věřil jsi mi. Proč mi teď nevěříš?",
+        "Soused zůstal beze slov. V Turecku tenhle příběh zná dodnes každý a stačí říct «Kazan doğurdu», „hrnec porodil“, aby se kdokoli usmál."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Nasreddin Hodża to bardzo słynna postać w Turcji: mądry i sympatyczny człowiek z dużym białym turbanem. Mieszka w małej wiosce z żoną i osłem.",
+        "Pewnego dnia Nasreddin gotuje dla wielu przyjaciół. Ale jego garnek jest mały. Więc puka do drzwi sąsiada.\n– Dzień dobry! Pożyczysz mi swój duży garnek?\n– Oczywiście – odpowiada sąsiad. – Proszę.",
+        "Następnego dnia Nasreddin oddaje garnek. Ale w dużym garnku jest mały garnek.\n– A to co? – pyta sąsiad.\n– Twój garnek urodził! – odpowiada Nasreddin. – To jego dziecko. Jest twoje.",
+        "Sąsiad patrzy na garnuszek i się śmieje. Myśli: „Nasreddin jest trochę dziwny, ale ja zyskuję garnek!”. I bierze oba garnki.",
+        "Tydzień później Nasreddin znowu puka.\n– Pożyczysz mi jeszcze raz duży garnek?\n– Ależ oczywiście! – odpowiada zadowolony sąsiad.",
+        "Mija jeden dzień. Mijają dwa dni. Mija tydzień. Garnek nie wraca. Sąsiad czeka i czeka… W końcu puka do drzwi Nasreddina.\n– Gdzie jest mój garnek?",
+        "Nasreddin spuszcza oczy i mówi cicho:\n– Bardzo mi przykro. Twój garnek umarł.",
+        "– Umarł? – krzyczy sąsiad. – Przecież garnek nie umiera!\nNasreddin się uśmiecha:\n– Dziwne. Kiedy twój garnek rodzi, wierzysz w to. A kiedy umiera, to nie wierzysz?"
+      ],
+      "a2": [
+        "W wiosce Nasreddina Hodży mieszkał pewien dość skąpy człowiek. Miał duży dom, mnóstwo dywanów i piękny miedziany garnek. Nikomu niczego nie pożyczał, ale Nasreddinowi nie mógł odmówić: byli sąsiadami od trzydziestu lat.",
+        "Pewnego dnia Nasreddin zapukał do jego drzwi i poprosił o garnek. Człowiek mu go dał, ale przez cały wieczór myślał: „Czy odda mi go czysty?”.",
+        "Następnego ranka Nasreddin wrócił. Oddał garnek, a w środku był mały nowy garnuszek, lśniący jak lustro.\n– Co to jest? – zapytał sąsiad.\n– Dziś w nocy twój garnek urodził – odpowiedział Nasreddin. – Maluch jest oczywiście twój.",
+        "Sąsiad doskonale wiedział, że garnki nie rodzą. Ale garnuszek był ładny i nic nie kosztował. Więc powiedział: „Co za dobra wiadomość!” i go wziął.",
+        "Kilka dni później Nasreddin znowu przyszedł poprosić o garnek. Tym razem sąsiad dał mu go od razu, z szerokim uśmiechem: może liczył na kolejny garnuszek.",
+        "Ale dni mijały, a garnek nie wracał. Po dwóch tygodniach sąsiad stracił cierpliwość i poszedł do Nasreddina.\n– Przykro mi, przyjacielu – powiedział Nasreddin ze smutną miną. – Twój garnek umarł.",
+        "– Co ty opowiadasz? – krzyknął sąsiad. – Garnki nie umierają!\n– Dziwne – odpowiedział Nasreddin. – Kiedy ci powiedziałem: „Twój garnek urodził”, uwierzyłeś mi. Dlaczego teraz mi nie wierzysz?",
+        "Sąsiad oniemiał. Do dziś w Turcji wszyscy znają tę historię i wystarczy powiedzieć «Kazan doğurdu», „garnek urodził”, żeby każdy się uśmiechnął."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Nasreddin Hoca Türkiye'de çok ünlü bir karakterdir: büyük beyaz kavuklu, bilge ve sevimli bir adam. Karısı ve eşeğiyle küçük bir köyde yaşar.",
+        "Bir gün Nasreddin birçok arkadaşı için yemek pişirir. Ama kazanı küçüktür. Bunun üzerine komşusunun kapısını çalar.\n– Günaydın! Büyük kazanını bana ödünç verir misin?\n– Tabii – der komşu. – Buyur.",
+        "Ertesi gün Nasreddin kazanı geri getirir. Ama büyük kazanın içinde küçük bir kazan vardır.\n– Bu ne? – diye sorar komşu.\n– Kazanın doğurdu! – der Nasreddin. – Bu onun yavrusu. Senindir.",
+        "Komşu küçük kazana bakar ve güler. «Hoca biraz tuhaf ama ben bir kazan kazanıyorum!» diye düşünür. Ve iki kazanı da alır.",
+        "Bir hafta sonra Nasreddin yine kapıyı çalar.\n– Büyük kazanı bir daha ödünç verir misin?\n– Elbette! – der komşu memnuniyetle.",
+        "Bir gün geçer. İki gün geçer. Bir hafta geçer. Kazan geri gelmez. Komşu bekler, bekler… Sonunda Nasreddin'in kapısını çalar.\n– Kazanım nerede?",
+        "Nasreddin gözlerini yere indirir ve alçak sesle konuşur:\n– Çok üzgünüm. Kazanın öldü.",
+        "– Öldü mü? – diye bağırır komşu. – Kazan ölür mü hiç!\nNasreddin gülümser:\n– Tuhaf. Kazanın doğurduğuna inanıyorsun da öldüğüne neden inanmıyorsun?"
+      ],
+      "a2": [
+        "Nasreddin Hoca'nın köyünde biraz cimri bir adam yaşarmış. Büyük bir evi, bir sürü halısı ve çok güzel bir bakır kazanı varmış. Kimseye hiçbir şey ödünç vermezmiş ama Hoca'ya hayır diyemezmiş: otuz yıldır komşuymuşlar.",
+        "Bir gün Hoca onun kapısını çalmış ve kazanı istemiş. Adam kazanı vermiş ama bütün akşam düşünmüş: «Acaba temiz mi geri getirecek?».",
+        "Ertesi sabah Hoca geri gelmiş. Kazanı geri vermiş, içinde de ayna gibi parlayan küçük, yepyeni bir kazan varmış.\n– Bu ne? – diye sormuş komşu.\n– Bu gece kazanın doğurdu – demiş Hoca. – Küçüğü elbette senin.",
+        "Komşu kazanların doğurmadığını çok iyi biliyormuş. Ama küçük kazan güzelmiş ve bedavaymış. Bu yüzden «Ne güzel haber!» demiş ve almış.",
+        "Birkaç gün sonra Hoca yine kazanı istemeye gelmiş. Bu sefer komşu kazanı hemen, kocaman bir gülümsemeyle vermiş: belki başka bir küçük kazan umuyormuş.",
+        "Ama günler geçiyor, kazan geri gelmiyormuş. İki hafta sonra komşunun sabrı tükenmiş ve Hoca'ya gitmiş.\n– Üzgünüm dostum – demiş Hoca üzgün bir yüzle. – Kazanın öldü.",
+        "– Ne diyorsun sen? – diye bağırmış komşu. – Kazan ölür mü hiç!\n– Tuhaf – demiş Hoca. – Sana «Kazanın doğurdu» dediğimde bana inandın. Şimdi neden inanmıyorsun?",
+        "Komşunun dili tutulmuş. Bu fıkrayı bugün Türkiye'de herkes bilir; birini gülümsetmek için «Kazan doğurdu» demek yeter."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Nasreddin Hodscha ist in der Türkei eine sehr berühmte Figur: ein weiser und sympathischer Mann mit einem großen weißen Turban. Er wohnt mit seiner Frau und seinem Esel in einem kleinen Dorf.",
+        "Eines Tages kocht Nasreddin für viele Freunde. Aber sein Topf ist klein. Also klopft er an die Tür des Nachbarn.\n– Guten Morgen! Leihst du mir deinen großen Topf?\n– Natürlich, – antwortet der Nachbar. – Hier ist er.",
+        "Am nächsten Tag gibt Nasreddin den Topf zurück. Aber im großen Topf ist ein kleiner Topf.\n– Und was ist das? – fragt der Nachbar.\n– Dein Topf hat ein Junges bekommen! – antwortet Nasreddin. – Das ist sein Baby. Es gehört dir.",
+        "Der Nachbar schaut das Töpfchen an und lacht. Er denkt: „Nasreddin ist ein bisschen seltsam, aber ich bekomme einen Topf dazu!“. Und er nimmt beide Töpfe.",
+        "Eine Woche später klopft Nasreddin wieder.\n– Leihst du mir noch einmal den großen Topf?\n– Aber natürlich! – antwortet der Nachbar zufrieden.",
+        "Ein Tag vergeht. Zwei Tage vergehen. Eine Woche vergeht. Der Topf kommt nicht zurück. Der Nachbar wartet und wartet … Am Ende klopft er an Nasreddins Tür.\n– Wo ist mein Topf?",
+        "Nasreddin senkt den Blick und spricht leise:\n– Es tut mir so leid. Dein Topf ist gestorben.",
+        "– Gestorben? – ruft der Nachbar. – Aber ein Topf stirbt doch nicht!\nNasreddin lächelt:\n– Seltsam. Wenn dein Topf ein Junges bekommt, glaubst du es. Und wenn er stirbt, glaubst du es nicht?"
+      ],
+      "a2": [
+        "In Nasreddin Hodschas Dorf wohnte ein ziemlich geiziger Mann. Er hatte ein großes Haus, viele Teppiche und einen wunderschönen Kupfertopf. Er lieh niemandem etwas, aber Nasreddin konnte er nichts abschlagen: Sie waren seit dreißig Jahren Nachbarn.",
+        "Eines Tages klopfte Nasreddin an seine Tür und bat ihn um den Topf. Der Mann gab ihn ihm, aber den ganzen Abend dachte er: „Gibt er ihn mir sauber zurück?“.",
+        "Am nächsten Morgen kam Nasreddin zurück. Er gab den Topf zurück, und darin lag ein kleiner neuer Topf, glänzend wie ein Spiegel.\n– Was ist das? – fragte der Nachbar.\n– Heute Nacht hat dein Topf ein Junges bekommen, – antwortete Nasreddin. – Das Kleine gehört natürlich dir.",
+        "Der Nachbar wusste ganz genau, dass Töpfe keine Jungen bekommen. Aber das Töpfchen war hübsch und kostete nichts. Also sagte er: „Was für eine gute Nachricht!“ und nahm es.",
+        "Ein paar Tage später kam Nasreddin wieder, um den Topf zu leihen. Diesmal gab ihn der Nachbar sofort her, mit einem breiten Lächeln: Vielleicht hoffte er auf ein weiteres Töpfchen.",
+        "Aber die Tage vergingen, und der Topf kam nicht zurück. Nach zwei Wochen verlor der Nachbar die Geduld und ging zu Nasreddin.\n– Es tut mir leid, mein Freund, – sagte Nasreddin mit trauriger Miene. – Dein Topf ist gestorben.",
+        "– Was erzählst du da? – schrie der Nachbar. – Töpfe sterben doch nicht!\n– Seltsam, – antwortete Nasreddin. – Als ich dir sagte: „Dein Topf hat ein Junges bekommen“, hast du mir geglaubt. Warum glaubst du mir jetzt nicht?",
+        "Der Nachbar war sprachlos. Noch heute kennt in der Türkei jeder diese Geschichte, und man muss nur «Kazan doğurdu» sagen, „der Topf hat ein Junges bekommen“, um jeden zum Lächeln zu bringen."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ナスレッディン・ホジャは、トルコでとても有名な登場人物です。大きな白いターバンをかぶった、かしこくて感じのいい人です。小さな村で、奥さんとロバといっしょに暮らしています。",
+        "ある日、ナスレッディンはたくさんの友だちのために料理をします。でも、自分のなべは小さいのです。そこで、隣の人の家のドアをノックします。\n「こんにちは！　大きいなべを貸してくれませんか？」\n「いいですよ」と隣の人は答えます。「はい、どうぞ。」",
+        "次の日、ナスレッディンはなべを返します。ところが、大きいなべの中に小さいなべが入っています。\n「これは何ですか？」と隣の人がたずねます。\n「あなたのなべが子どもを産んだのです！」とナスレッディンは答えます。「これはその赤ちゃんです。あなたのものですよ。」",
+        "隣の人は小さななべを見て笑います。そして「ナスレッディンはちょっと変わっているけど、なべがひとつ得したぞ！」と思います。そして、二つのなべを両方受け取ります。",
+        "一週間後、ナスレッディンがまたノックします。\n「もう一度、大きいなべを貸してくれませんか？」\n「もちろんですとも！」と隣の人は喜んで答えます。",
+        "一日たちます。二日たちます。一週間たちます。なべはもどってきません。隣の人は待って、待って……とうとうナスレッディンの家のドアをノックします。\n「わたしのなべはどこですか？」",
+        "ナスレッディンは目を伏せて、静かに言います。\n「本当にお気の毒です。あなたのなべは死んでしまいました。」",
+        "「死んだ？」と隣の人は叫びます。「なべが死ぬわけがないでしょう！」\nナスレッディンはにっこりします。\n「おかしいですね。なべが子どもを産んだときは信じたのに、死んだときは信じないのですか？」"
+      ],
+      "a2": [
+        "ナスレッディン・ホジャの村に、少しけちな男が住んでいました。大きな家と、たくさんのじゅうたんと、とても美しい銅のなべを持っていました。だれにも何も貸しませんでしたが、ナスレッディンには断れませんでした。三十年来の隣どうしだったからです。",
+        "ある日、ナスレッディンが男の家のドアをノックして、なべを貸してほしいとたのみました。男はなべを貸しましたが、その晩ずっと「きれいにして返してくれるだろうか？」と考えていました。",
+        "次の朝、ナスレッディンがもどってきました。なべを返すと、中には鏡のようにぴかぴかの、新しい小さななべが入っていました。\n「これは何だい？」と隣の男はたずねました。\n「ゆうべ、あなたのなべが子どもを産んだのです」とナスレッディンは答えました。「小さいほうは、もちろんあなたのものですよ。」",
+        "隣の男は、なべが子どもを産まないことはよくわかっていました。でも小さななべはきれいで、ただでした。そこで「それはいい知らせだ！」と言って、受け取りました。",
+        "何日かして、ナスレッディンがまたなべを借りに来ました。今度は隣の男は、満面の笑みですぐに貸しました。また小さななべがもらえるかもしれないと期待していたのでしょう。",
+        "ところが、何日たってもなべはもどってきませんでした。二週間たつと、隣の男はしびれを切らしてナスレッディンのところへ行きました。\n「気の毒だが、友よ」とナスレッディンは悲しそうな顔で言いました。「あなたのなべは死んでしまったのです。」",
+        "「何を言っているんだ？」と隣の男は叫びました。「なべが死ぬものか！」\n「おかしいですね」とナスレッディンは答えました。「『あなたのなべが子どもを産んだ』と言ったときは、わたしを信じたでしょう。どうして今は信じないのですか？」",
+        "隣の男は言葉を失いました。今でもトルコではだれもがこの話を知っていて、«Kazan doğurdu»（「なべが子を産んだ」）と言うだけで、だれでもにっこりします。"
+      ]
+    }
+  }
+}
