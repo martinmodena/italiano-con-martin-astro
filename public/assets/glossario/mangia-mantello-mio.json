@@ -1,0 +1,1215 @@
+{
+  "id": "mangia-mantello-mio",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la festa",
+      "forme": [
+        "festa"
+      ],
+      "esempi": [
+        "Sabato faccio una festa per il mio compleanno.",
+        "La festa del paese è ad agosto.",
+        "Alla festa c'era tanta gente."
+      ],
+      "traduzioni": {
+        "en": "party, celebration",
+        "es": "fiesta",
+        "pt": "festa",
+        "fr": "fête",
+        "cs": "oslava, slavnost",
+        "pl": "przyjęcie, święto",
+        "tr": "eğlence, şölen, düğün",
+        "de": "Fest, Feier",
+        "ja": "宴会、パーティー"
+      }
+    },
+    {
+      "parola": "ricco",
+      "forme": [
+        "ricco"
+      ],
+      "formeEsempi": [
+        "ricca",
+        "ricchi"
+      ],
+      "esempi": [
+        "È un uomo molto ricco.",
+        "Vorrei diventare ricca.",
+        "I ricchi non sono sempre felici."
+      ],
+      "traduzioni": {
+        "en": "rich",
+        "es": "rico",
+        "pt": "rico",
+        "fr": "riche",
+        "cs": "bohatý",
+        "pl": "bogaty",
+        "tr": "zengin",
+        "de": "reich",
+        "ja": "お金持ちの"
+      }
+    },
+    {
+      "parola": "i vestiti",
+      "forme": [
+        "vestiti"
+      ],
+      "formeEsempi": [
+        "vestito"
+      ],
+      "esempi": [
+        "Metto i vestiti nell'armadio.",
+        "Ho comprato un vestito nuovo.",
+        "I vestiti del bambino sono sporchi."
+      ],
+      "traduzioni": {
+        "en": "clothes («il vestito» = dress, suit)",
+        "es": "ropa («il vestito» = vestido, traje)",
+        "pt": "roupas («il vestito» = vestido, terno)",
+        "fr": "vêtements («il vestito» = robe, costume)",
+        "cs": "oblečení, šaty",
+        "pl": "ubrania («il vestito» = sukienka, garnitur)",
+        "tr": "giysiler, elbiseler",
+        "de": "Kleider, Kleidung",
+        "ja": "服"
+      }
+    },
+    {
+      "parola": "sporco",
+      "forme": [
+        "sporchi"
+      ],
+      "formeEsempi": [
+        "sporche",
+        "sporca"
+      ],
+      "esempi": [
+        "Ho le mani sporche.",
+        "Metti i piatti sporchi nel lavandino.",
+        "Dopo il mercato la strada è sporca."
+      ],
+      "traduzioni": {
+        "en": "dirty",
+        "es": "sucio",
+        "pt": "sujo",
+        "fr": "sale",
+        "cs": "špinavý",
+        "pl": "brudny",
+        "tr": "kirli",
+        "de": "schmutzig",
+        "ja": "汚れた"
+      }
+    },
+    {
+      "parola": "benvenuto",
+      "forme": [
+        "benvenuto"
+      ],
+      "formeEsempi": [
+        "benvenuti",
+        "benvenuta"
+      ],
+      "esempi": [
+        "Benvenuti a Roma!",
+        "Benvenuto, accomodati!",
+        "Benvenuta nella nostra famiglia."
+      ],
+      "traduzioni": {
+        "en": "welcome",
+        "es": "bienvenido",
+        "pt": "bem-vindo",
+        "fr": "bienvenue",
+        "cs": "vítej",
+        "pl": "witaj",
+        "tr": "hoş geldin",
+        "de": "willkommen",
+        "ja": "ようこそ"
+      }
+    },
+    {
+      "parola": "la sedia",
+      "forme": [
+        "sedia"
+      ],
+      "formeEsempi": [
+        "sedie"
+      ],
+      "esempi": [
+        "Prendi una sedia e siediti.",
+        "Questa sedia è rotta.",
+        "In cucina ci sono quattro sedie."
+      ],
+      "traduzioni": {
+        "en": "chair",
+        "es": "silla",
+        "pt": "cadeira",
+        "fr": "chaise",
+        "cs": "židle",
+        "pl": "krzesło",
+        "tr": "sandalye",
+        "de": "Stuhl",
+        "ja": "いす"
+      }
+    },
+    {
+      "parola": "in piedi",
+      "forme": [
+        "piedi"
+      ],
+      "livelli": [
+        "a1"
+      ],
+      "esempi": [
+        "Sull'autobus sto sempre in piedi.",
+        "Mi sono alzato in piedi per salutare.",
+        "Il cameriere è stato in piedi tutto il giorno."
+      ],
+      "traduzioni": {
+        "en": "standing («stare in piedi» = to stand)",
+        "es": "de pie",
+        "pt": "em pé",
+        "fr": "debout",
+        "cs": "vestoje («stare in piedi» = stát)",
+        "pl": "na stojąco («stare in piedi» = stać)",
+        "tr": "ayakta",
+        "de": "stehend («stare in piedi» = stehen)",
+        "ja": "立って"
+      }
+    },
+    {
+      "parola": "l'angolo",
+      "forme": [
+        "angolo"
+      ],
+      "esempi": [
+        "Il cane dorme in un angolo della cucina.",
+        "Il bar è all'angolo della strada.",
+        "Metti la pianta in quell'angolo."
+      ],
+      "traduzioni": {
+        "en": "corner",
+        "es": "rincón",
+        "pt": "canto",
+        "fr": "coin",
+        "cs": "kout",
+        "pl": "kąt",
+        "tr": "köşe",
+        "de": "Ecke",
+        "ja": "隅"
+      }
+    },
+    {
+      "parola": "fare il bagno",
+      "forme": [
+        "bagno"
+      ],
+      "esempi": [
+        "La sera faccio il bagno con l'acqua calda.",
+        "Il bambino fa il bagno nella vasca.",
+        "D'estate facciamo il bagno al mare."
+      ],
+      "traduzioni": {
+        "en": "to have a bath (also: to go swimming)",
+        "es": "bañarse",
+        "pt": "tomar banho",
+        "fr": "prendre un bain",
+        "cs": "vykoupat se",
+        "pl": "wykąpać się",
+        "tr": "banyo yapmak, yıkanmak",
+        "de": "baden",
+        "ja": "おふろに入る"
+      }
+    },
+    {
+      "parola": "il mantello",
+      "forme": [
+        "mantello"
+      ],
+      "esempi": [
+        "Il re porta un mantello rosso.",
+        "D'inverno metto il mantello di lana.",
+        "Il mantello è lungo fino ai piedi."
+      ],
+      "traduzioni": {
+        "en": "cloak",
+        "es": "capa, manto",
+        "pt": "capa, manto",
+        "fr": "manteau, cape",
+        "cs": "plášť",
+        "pl": "płaszcz",
+        "tr": "kaftan, pelerin",
+        "de": "Mantel, Umhang",
+        "ja": "マント、上着"
+      }
+    },
+    {
+      "parola": "il padrone di casa",
+      "forme": [
+        "padrone"
+      ],
+      "esempi": [
+        "Il padrone di casa ci accoglie alla porta.",
+        "Ringraziamo il padrone di casa per la cena.",
+        "Il padrone di casa ha preparato tutto."
+      ],
+      "traduzioni": {
+        "en": "host (also: landlord)",
+        "es": "anfitrión, dueño de la casa",
+        "pt": "anfitrião, dono da casa",
+        "fr": "maître de maison, hôte",
+        "cs": "hostitel, pán domu",
+        "pl": "gospodarz",
+        "tr": "ev sahibi",
+        "de": "Gastgeber, Hausherr",
+        "ja": "（その家の）主人"
+      }
+    },
+    {
+      "parola": "il servitore",
+      "forme": [
+        "servitori"
+      ],
+      "formeEsempi": [
+        "servitore"
+      ],
+      "esempi": [
+        "Nel castello lavoravano molti servitori.",
+        "Il servitore porta l'acqua al re.",
+        "I servitori preparano la tavola."
+      ],
+      "traduzioni": {
+        "en": "servant",
+        "es": "criado, sirviente",
+        "pt": "criado, servo",
+        "fr": "serviteur",
+        "cs": "sluha",
+        "pl": "służący",
+        "tr": "hizmetkâr",
+        "de": "Diener",
+        "ja": "召使い"
+      }
+    },
+    {
+      "parola": "la zuppa",
+      "forme": [
+        "zuppa"
+      ],
+      "esempi": [
+        "D'inverno mangio la zuppa di verdure.",
+        "La zuppa è troppo calda.",
+        "Mia nonna fa una zuppa di fagioli buonissima."
+      ],
+      "traduzioni": {
+        "en": "soup",
+        "es": "sopa",
+        "pt": "sopa",
+        "fr": "soupe",
+        "cs": "polévka",
+        "pl": "zupa",
+        "tr": "çorba",
+        "de": "Suppe",
+        "ja": "スープ"
+      }
+    },
+    {
+      "parola": "la lenticchia",
+      "forme": [
+        "lenticchie"
+      ],
+      "esempi": [
+        "A Capodanno in Italia si mangiano le lenticchie.",
+        "La zuppa di lenticchie è molto buona.",
+        "Le lenticchie sono ricche di ferro."
+      ],
+      "traduzioni": {
+        "en": "lentil",
+        "es": "lenteja",
+        "pt": "lentilha",
+        "fr": "lentille",
+        "cs": "čočka",
+        "pl": "soczewica",
+        "tr": "mercimek",
+        "de": "Linse",
+        "ja": "レンズ豆"
+      }
+    },
+    {
+      "parola": "i dolci",
+      "forme": [
+        "dolci"
+      ],
+      "formeEsempi": [
+        "dolce"
+      ],
+      "esempi": [
+        "Dopo cena mangiamo il dolce.",
+        "Questa pasticceria fa dolci buonissimi.",
+        "Non mangio troppi dolci."
+      ],
+      "traduzioni": {
+        "en": "sweets, desserts (here a noun)",
+        "es": "dulces, postres",
+        "pt": "doces",
+        "fr": "desserts, pâtisseries",
+        "cs": "sladkosti, zákusky",
+        "pl": "słodycze, desery",
+        "tr": "tatlılar",
+        "de": "Süßigkeiten, Nachspeisen",
+        "ja": "お菓子、デザート"
+      }
+    },
+    {
+      "parola": "la manica",
+      "forme": [
+        "manica"
+      ],
+      "formeEsempi": [
+        "maniche"
+      ],
+      "esempi": [
+        "La camicia ha le maniche corte.",
+        "Mi sono sporcato la manica di caffè.",
+        "Tira su le maniche e lavora!"
+      ],
+      "traduzioni": {
+        "en": "sleeve",
+        "es": "manga",
+        "pt": "manga",
+        "fr": "manche",
+        "cs": "rukáv",
+        "pl": "rękaw",
+        "tr": "yen, kol",
+        "de": "Ärmel",
+        "ja": "そで"
+      }
+    },
+    {
+      "parola": "l'ospite",
+      "forme": [
+        "ospiti"
+      ],
+      "formeEsempi": [
+        "ospite"
+      ],
+      "esempi": [
+        "Stasera abbiamo ospiti a cena.",
+        "L'ospite arriva alle otto.",
+        "Prepariamo la camera per gli ospiti."
+      ],
+      "traduzioni": {
+        "en": "guest",
+        "es": "invitado",
+        "pt": "convidado",
+        "fr": "invité",
+        "cs": "host",
+        "pl": "gość",
+        "tr": "misafir, davetli",
+        "de": "Gast",
+        "ja": "客"
+      }
+    },
+    {
+      "parola": "giusto",
+      "forme": [
+        "giusta"
+      ],
+      "formeEsempi": [
+        "giusto"
+      ],
+      "esempi": [
+        "Non è giusto!",
+        "È una decisione giusta.",
+        "Ho fatto la cosa giusta."
+      ],
+      "traduzioni": {
+        "en": "right, fair",
+        "es": "justo, correcto",
+        "pt": "certo, justo",
+        "fr": "juste",
+        "cs": "správný, spravedlivý",
+        "pl": "słuszny, sprawiedliwy",
+        "tr": "doğru, adil",
+        "de": "richtig, gerecht",
+        "ja": "正しい"
+      }
+    },
+    {
+      "parola": "invitare",
+      "forme": [
+        "invitate"
+      ],
+      "formeEsempi": [
+        "invito",
+        "invitato",
+        "inviti"
+      ],
+      "esempi": [
+        "Ti invito a cena sabato.",
+        "Abbiamo invitato tutti i vicini.",
+        "Chi inviti alla festa?"
+      ],
+      "traduzioni": {
+        "en": "to invite",
+        "es": "invitar",
+        "pt": "convidar",
+        "fr": "inviter",
+        "cs": "pozvat",
+        "pl": "zaprosić",
+        "tr": "davet etmek",
+        "de": "einladen",
+        "ja": "招待する"
+      }
+    },
+    {
+      "parola": "il matrimonio",
+      "forme": [
+        "matrimonio"
+      ],
+      "esempi": [
+        "Il matrimonio di mia cugina è a giugno.",
+        "Al matrimonio c'erano cento invitati.",
+        "Festeggiano dieci anni di matrimonio."
+      ],
+      "traduzioni": {
+        "en": "wedding",
+        "es": "boda",
+        "pt": "casamento",
+        "fr": "mariage",
+        "cs": "svatba",
+        "pl": "ślub, wesele",
+        "tr": "düğün",
+        "de": "Hochzeit",
+        "ja": "結婚式"
+      }
+    },
+    {
+      "parola": "coperto",
+      "forme": [
+        "coperto"
+      ],
+      "formeEsempi": [
+        "coperta"
+      ],
+      "esempi": [
+        "La montagna è coperta di neve.",
+        "Il tavolo è coperto di libri.",
+        "Sono tornato a casa coperto di fango."
+      ],
+      "traduzioni": {
+        "en": "covered",
+        "es": "cubierto",
+        "pt": "coberto",
+        "fr": "couvert",
+        "cs": "pokrytý, celý od",
+        "pl": "pokryty",
+        "tr": "kaplı, -e bulanmış",
+        "de": "bedeckt",
+        "ja": "おおわれた"
+      }
+    },
+    {
+      "parola": "la polvere",
+      "forme": [
+        "polvere"
+      ],
+      "esempi": [
+        "Sui mobili c'è tanta polvere.",
+        "La macchina è piena di polvere.",
+        "Tolgo la polvere dalla libreria."
+      ],
+      "traduzioni": {
+        "en": "dust",
+        "es": "polvo",
+        "pt": "poeira, pó",
+        "fr": "poussière",
+        "cs": "prach",
+        "pl": "kurz",
+        "tr": "toz",
+        "de": "Staub",
+        "ja": "ほこり"
+      }
+    },
+    {
+      "parola": "sbrigarsi",
+      "forme": [
+        "sbrigati"
+      ],
+      "formeEsempi": [
+        "sbrigatevi",
+        "sbrigo"
+      ],
+      "esempi": [
+        "Sbrigati, il treno parte!",
+        "Mi sbrigo e arrivo.",
+        "Sbrigatevi, è tardi!"
+      ],
+      "traduzioni": {
+        "en": "to hurry up («sbrigati!» = hurry up!)",
+        "es": "darse prisa («sbrigati!» = ¡date prisa!)",
+        "pt": "apressar-se («sbrigati!» = anda logo!)",
+        "fr": "se dépêcher («sbrigati!» = dépêche-toi !)",
+        "cs": "pospíšit si («sbrigati!» = pospěš si!)",
+        "pl": "pospieszyć się («sbrigati!» = pospiesz się!)",
+        "tr": "acele etmek («sbrigati!» = acele et!)",
+        "de": "sich beeilen («sbrigati!» = beeil dich!)",
+        "ja": "急ぐ（«sbrigati!» = 急いで！）"
+      }
+    },
+    {
+      "parola": "salutare",
+      "forme": [
+        "salutato"
+      ],
+      "formeEsempi": [
+        "saluto",
+        "saluta"
+      ],
+      "esempi": [
+        "Ogni mattina saluto i vicini.",
+        "Il bambino saluta con la mano.",
+        "Mi ha salutato dall'altra parte della strada."
+      ],
+      "traduzioni": {
+        "en": "to greet, to say hello",
+        "es": "saludar",
+        "pt": "cumprimentar",
+        "fr": "saluer",
+        "cs": "pozdravit",
+        "pl": "przywitać",
+        "tr": "selamlamak",
+        "de": "grüßen",
+        "ja": "あいさつする"
+      }
+    },
+    {
+      "parola": "il vassoio",
+      "forme": [
+        "vassoi"
+      ],
+      "formeEsempi": [
+        "vassoio"
+      ],
+      "esempi": [
+        "Il cameriere porta il caffè sul vassoio.",
+        "Metti i bicchieri sul vassoio.",
+        "Sui vassoi ci sono i pasticcini."
+      ],
+      "traduzioni": {
+        "en": "tray",
+        "es": "bandeja",
+        "pt": "bandeja",
+        "fr": "plateau",
+        "cs": "tác",
+        "pl": "taca",
+        "tr": "tepsi",
+        "de": "Tablett",
+        "ja": "お盆"
+      }
+    },
+    {
+      "parola": "accomodarsi",
+      "forme": [
+        "accomodatevi"
+      ],
+      "formeEsempi": [
+        "accomodi",
+        "accomodati"
+      ],
+      "esempi": [
+        "Prego, si accomodi!",
+        "Accomodati sul divano.",
+        "Accomodatevi: la cena è pronta!"
+      ],
+      "traduzioni": {
+        "en": "to make oneself comfortable, to take a seat («si accomodi» = please come in, sit down)",
+        "es": "ponerse cómodo, sentarse («si accomodi» = pase, siéntese)",
+        "pt": "acomodar-se («si accomodi» = fique à vontade, sente-se)",
+        "fr": "s’installer («si accomodi» = entrez, asseyez-vous)",
+        "cs": "posadit se, udělat si pohodlí",
+        "pl": "rozgościć się, usiąść",
+        "tr": "buyurmak, oturmak («si accomodi» = buyurun)",
+        "de": "Platz nehmen («si accomodi» = bitte, setzen Sie sich)",
+        "ja": "おくつろぎください、どうぞおかけください"
+      }
+    },
+    {
+      "parola": "assaggiare",
+      "forme": [
+        "assaggiate",
+        "assaggia"
+      ],
+      "formeEsempi": [
+        "assaggiare",
+        "assaggiato"
+      ],
+      "esempi": [
+        "Assaggia questa torta!",
+        "Posso assaggiare il vino?",
+        "In Sicilia ho assaggiato un piatto tipico."
+      ],
+      "traduzioni": {
+        "en": "to taste, to try (food)",
+        "es": "probar",
+        "pt": "provar",
+        "fr": "goûter",
+        "cs": "ochutnat",
+        "pl": "spróbować",
+        "tr": "tadına bakmak",
+        "de": "probieren, kosten",
+        "ja": "味見する、食べてみる"
+      }
+    },
+    {
+      "parola": "il ricamo",
+      "forme": [
+        "ricami"
+      ],
+      "formeEsempi": [
+        "ricamo"
+      ],
+      "esempi": [
+        "La tovaglia ha ricami bianchi.",
+        "La nonna fa bellissimi ricami.",
+        "Questo ricamo è fatto a mano."
+      ],
+      "traduzioni": {
+        "en": "embroidery",
+        "es": "bordado",
+        "pt": "bordado",
+        "fr": "broderie",
+        "cs": "výšivka",
+        "pl": "haft",
+        "tr": "nakış",
+        "de": "Stickerei",
+        "ja": "刺しゅう"
+      }
+    },
+    {
+      "parola": "lavarsi",
+      "forme": [
+        "lavato"
+      ],
+      "formeEsempi": [
+        "lavo",
+        "lavati"
+      ],
+      "esempi": [
+        "Mi lavo le mani prima di mangiare.",
+        "Lavati i denti!",
+        "Si è lavato e si è vestito in fretta."
+      ],
+      "traduzioni": {
+        "en": "to wash (oneself)",
+        "es": "lavarse",
+        "pt": "lavar-se",
+        "fr": "se laver",
+        "cs": "umýt se",
+        "pl": "umyć się",
+        "tr": "yıkanmak",
+        "de": "sich waschen",
+        "ja": "体を洗う"
+      }
+    },
+    {
+      "parola": "correre incontro a",
+      "forme": [
+        "incontro"
+      ],
+      "esempi": [
+        "Il cane mi corre incontro quando torno.",
+        "I bambini sono corsi incontro alla nonna.",
+        "Le sono andato incontro alla stazione."
+      ],
+      "traduzioni": {
+        "en": "to run to meet («andare incontro» = to go to meet)",
+        "es": "salir corriendo al encuentro de",
+        "pt": "correr ao encontro de",
+        "fr": "courir à la rencontre de",
+        "cs": "běžet naproti",
+        "pl": "wybiec naprzeciw",
+        "tr": "karşılamaya koşmak",
+        "de": "entgegenlaufen",
+        "ja": "（〜を）出迎えに駆け寄る"
+      }
+    },
+    {
+      "parola": "l'onore",
+      "forme": [
+        "onore"
+      ],
+      "esempi": [
+        "È un onore conoscerla.",
+        "Che onore averti qui!",
+        "La festa è in onore del sindaco."
+      ],
+      "traduzioni": {
+        "en": "honour",
+        "es": "honor",
+        "pt": "honra",
+        "fr": "honneur",
+        "cs": "čest",
+        "pl": "zaszczyt, honor",
+        "tr": "şeref",
+        "de": "Ehre",
+        "ja": "光栄"
+      }
+    },
+    {
+      "parola": "sedersi",
+      "forme": [
+        "siediti",
+        "seduto"
+      ],
+      "formeEsempi": [
+        "siedo",
+        "seduta"
+      ],
+      "esempi": [
+        "Siediti qui, c'è posto.",
+        "Mi siedo vicino alla finestra.",
+        "Mia madre è seduta sul divano."
+      ],
+      "traduzioni": {
+        "en": "to sit down («siediti!» = sit down!)",
+        "es": "sentarse («siediti!» = ¡siéntate!)",
+        "pt": "sentar-se («siediti!» = sente-se!)",
+        "fr": "s’asseoir («siediti!» = assieds-toi !)",
+        "cs": "sednout si («siediti!» = sedni si!)",
+        "pl": "usiąść («siediti!» = usiądź!)",
+        "tr": "oturmak («siediti!» = otur!)",
+        "de": "sich setzen («siediti!» = setz dich!)",
+        "ja": "すわる（«siediti!» = すわって！）"
+      }
+    },
+    {
+      "parola": "immergere",
+      "forme": [
+        "immersa"
+      ],
+      "formeEsempi": [
+        "immergi",
+        "immergo",
+        "immerge"
+      ],
+      "esempi": [
+        "Immergi la pasta nell'acqua bollente.",
+        "Il bambino immerge le mani nella sabbia.",
+        "Immergo il biscotto nel tè e diventa morbido."
+      ],
+      "traduzioni": {
+        "en": "to dip, to immerse",
+        "es": "sumergir, meter",
+        "pt": "mergulhar",
+        "fr": "tremper, plonger",
+        "cs": "ponořit, namočit",
+        "pl": "zanurzyć, zamoczyć",
+        "tr": "batırmak, daldırmak",
+        "de": "eintauchen, tunken",
+        "ja": "ひたす"
+      }
+    },
+    {
+      "parola": "la scodella",
+      "forme": [
+        "scodella"
+      ],
+      "formeEsempi": [
+        "scodelle"
+      ],
+      "esempi": [
+        "Mangio i cereali in una scodella.",
+        "Metti la minestra nelle scodelle.",
+        "La scodella del gatto è vuota."
+      ],
+      "traduzioni": {
+        "en": "bowl",
+        "es": "cuenco, tazón",
+        "pt": "tigela",
+        "fr": "bol, écuelle",
+        "cs": "miska",
+        "pl": "miska",
+        "tr": "kâse",
+        "de": "Schale, Schüssel",
+        "ja": "おわん"
+      }
+    },
+    {
+      "parola": "la fretta",
+      "forme": [
+        "fretta"
+      ],
+      "esempi": [
+        "Scusa, ho fretta!",
+        "Non c'è fretta: fai con calma.",
+        "Ha fatto i compiti in fretta."
+      ],
+      "traduzioni": {
+        "en": "hurry («avere fretta» = to be in a hurry)",
+        "es": "prisa («avere fretta» = tener prisa)",
+        "pt": "pressa («avere fretta» = estar com pressa)",
+        "fr": "hâte («avere fretta» = être pressé)",
+        "cs": "spěch («avere fretta» = spěchat)",
+        "pl": "pośpiech («avere fretta» = spieszyć się)",
+        "tr": "acele («avere fretta» = acelesi olmak)",
+        "de": "Eile («avere fretta» = es eilig haben)",
+        "ja": "急ぎ（«avere fretta» = 急いでいる）"
+      }
+    },
+    {
+      "parola": "fissare",
+      "forme": [
+        "fissavano"
+      ],
+      "formeEsempi": [
+        "fissi",
+        "fissa",
+        "fissava"
+      ],
+      "esempi": [
+        "Perché mi fissi?",
+        "Il gatto fissa la finestra.",
+        "Fissava il telefono senza parlare."
+      ],
+      "traduzioni": {
+        "en": "to stare at",
+        "es": "mirar fijamente",
+        "pt": "encarar, olhar fixamente",
+        "fr": "fixer (du regard)",
+        "cs": "zírat na",
+        "pl": "wpatrywać się",
+        "tr": "dik dik bakmak",
+        "de": "anstarren",
+        "ja": "じっと見つめる"
+      }
+    },
+    {
+      "parola": "a bocca aperta",
+      "forme": [
+        "aperta"
+      ],
+      "esempi": [
+        "I bambini guardano lo spettacolo a bocca aperta.",
+        "Sono rimasto a bocca aperta.",
+        "Lo ascoltavano tutti a bocca aperta."
+      ],
+      "traduzioni": {
+        "en": "open-mouthed, in amazement",
+        "es": "boquiabierto, con la boca abierta",
+        "pt": "de boca aberta",
+        "fr": "bouche bée",
+        "cs": "s otevřenou pusou",
+        "pl": "z otwartymi ustami",
+        "tr": "ağzı açık",
+        "de": "mit offenem Mund",
+        "ja": "ぽかんと口を開けて"
+      }
+    },
+    {
+      "parola": "smetterla",
+      "forme": [
+        "smettila"
+      ],
+      "formeEsempi": [
+        "smettetela"
+      ],
+      "esempi": [
+        "Smettila di urlare!",
+        "Smettetela, bambini!",
+        "Ti prego, smettila con queste battute."
+      ],
+      "traduzioni": {
+        "en": "to stop it («smettila!» = stop it!)",
+        "es": "dejarlo («smettila!» = ¡basta ya!)",
+        "pt": "parar («smettila!» = para com isso!)",
+        "fr": "arrêter («smettila!» = arrête !)",
+        "cs": "přestat («smettila!» = přestaň!)",
+        "pl": "przestać («smettila!» = przestań!)",
+        "tr": "kesmek («smettila!» = kes şunu!)",
+        "de": "aufhören («smettila!» = hör auf!)",
+        "ja": "やめる（«smettila!» = やめなさい！）"
+      }
+    },
+    {
+      "parola": "preoccuparsi",
+      "forme": [
+        "preoccupatevi"
+      ],
+      "formeEsempi": [
+        "preoccuparti",
+        "preoccupo"
+      ],
+      "esempi": [
+        "Non preoccuparti, va tutto bene.",
+        "Mi preoccupo per mio figlio.",
+        "Non preoccupatevi, arriviamo presto."
+      ],
+      "traduzioni": {
+        "en": "to worry",
+        "es": "preocuparse",
+        "pt": "preocupar-se",
+        "fr": "s’inquiéter",
+        "cs": "dělat si starosti",
+        "pl": "martwić się",
+        "tr": "endişelenmek",
+        "de": "sich Sorgen machen",
+        "ja": "心配する"
+      }
+    },
+    {
+      "parola": "la pelliccia",
+      "forme": [
+        "pelliccia"
+      ],
+      "esempi": [
+        "La volpe ha una pelliccia rossa.",
+        "D'inverno il gatto ha una pelliccia più folta.",
+        "Non compro pellicce: preferisco una giacca calda."
+      ],
+      "formeEsempi": [
+        "pellicce"
+      ],
+      "traduzioni": {
+        "en": "fur; fur coat",
+        "es": "piel, abrigo de piel",
+        "pt": "pelagem, casaco de pele",
+        "fr": "fourrure",
+        "cs": "kožich, srst",
+        "pl": "futro",
+        "tr": "kürk",
+        "de": "Pelz",
+        "ja": "毛皮"
+      }
+    },
+    {
+      "parola": "darsi delle arie",
+      "forme": [
+        "arie"
+      ],
+      "esempi": [
+        "Da quando ha la macchina nuova, si dà tante arie.",
+        "Non darti arie: non sei il capo!",
+        "Si dà delle arie, ma in fondo è simpatico."
+      ],
+      "traduzioni": {
+        "en": "to put on airs, to show off",
+        "es": "darse aires",
+        "pt": "se achar, dar-se ares",
+        "fr": "se donner des airs",
+        "cs": "vytahovat se",
+        "pl": "zadzierać nosa",
+        "tr": "hava atmak, burnu havada olmak",
+        "de": "sich aufspielen",
+        "ja": "気取る、いばる"
+      }
+    },
+    {
+      "parola": "giudicare",
+      "forme": [
+        "giudicate"
+      ],
+      "formeEsempi": [
+        "giudicare",
+        "giudica"
+      ],
+      "esempi": [
+        "Non giudicare un libro dalla copertina.",
+        "Mi giudica sempre!",
+        "È difficile giudicare una persona dopo un solo incontro."
+      ],
+      "traduzioni": {
+        "en": "to judge",
+        "es": "juzgar",
+        "pt": "julgar",
+        "fr": "juger",
+        "cs": "soudit",
+        "pl": "oceniać, osądzać",
+        "tr": "yargılamak",
+        "de": "beurteilen",
+        "ja": "判断する、決めつける"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Today there's a big party in the village. Everyone is going to a rich man's house. Nasreddin Hodja is going to the party too. But he's coming straight from work in the fields: his clothes are old and dirty.",
+        "Nasreddin goes in. Nobody looks at him. Nobody says: “Welcome!”. Nobody gives him a chair. Nasreddin stands in a corner, alone.",
+        "So Nasreddin leaves and goes home. He has a bath and puts on his most beautiful cloak: it's long, red and gold.",
+        "Then he goes back to the party. Now everyone looks at him. The host comes to him straight away:\n– Welcome, dear Nasreddin! How are you? Come, come! There's a place for you, here next to me.",
+        "The servants give him lentil soup, rice and sweets. Everyone smiles. Now everyone knows his name.",
+        "Nasreddin takes the sleeve of his cloak and puts it in the soup. Then he says:\n– Eat, my cloak, eat!",
+        "The guests don't understand.\n– Nasreddin, what are you doing?\n– I'm doing the right thing, – he says. – First I come here in my old clothes and you give me nothing. Then I come in my cloak and you give me everything. You haven't invited me: you've invited my cloak. So it should eat!"
+      ],
+      "b1": [
+        "That evening the richest man in the village was giving a party for his daughter's wedding. Nasreddin Hodja was coming back from the fields, tired and covered in dust, when a neighbour said to him: “Hurry up! Go as you are, the party has already started”.",
+        "Nasreddin listened to him and went in wearing his work clothes. But in the hall nobody greeted him. The servants walked past him with their trays and said to the other guests: “Make yourselves comfortable! Have some more rice! Taste these sweets!”. To him, nothing. After an hour Nasreddin understood and left without a word.",
+        "At home he said to his wife: “Give me the new cloak, the red one with the gold embroidery. And don't ask me why”. He washed, got dressed and went back to the party.",
+        "This time the host ran to meet him: “Dear Nasreddin, what an honour! Come in, come in! Don't stand in the doorway! Sit here, next to me. Boys, bring him the hottest soup and the best rice!”.",
+        "Nasreddin sat down, looked at the lentil soup, then took the sleeve of his cloak between two fingers and dipped it in the bowl.\n– Eat, my cloak, eat! – he said gently. – Taste the rice too. Don't rush!",
+        "The guests stared at him open-mouthed.\n– Nasreddin, stop it! What are you doing?\n– Don't worry, – he answered calmly. – An hour ago I came here in my own clothes and nobody said “sit down” to me. Now I arrive in this cloak and you offer me everything. So the guest is the cloak, not me. Let it eat!",
+        "In Turkey everyone knows this story, children included, with Nasreddin's words: «Ye kürküm ye». In the Turkish version the elegant garment is a fur coat, kürk. Grandparents tell it to their grandchildren when someone puts on airs because of new clothes. And the advice is always the same: don't judge people by their clothes."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Hoy en el pueblo hay una gran fiesta. Todos van a casa de un hombre rico. Nasreddin Hodja también va a la fiesta. Pero viene directamente del trabajo en el campo: tiene la ropa vieja y sucia.",
+        "Nasreddin entra. Nadie lo mira. Nadie dice: «¡Bienvenido!». Nadie le da una silla. Nasreddin está de pie en un rincón, solo.",
+        "Entonces Nasreddin sale y se va a casa. Se baña y se pone su capa más bonita: es larga, roja y dorada.",
+        "Luego vuelve a la fiesta. Ahora todos lo miran. El dueño de la casa va enseguida hacia él:\n– ¡Bienvenido, querido Nasreddin! ¿Cómo estás? ¡Ven, ven! Hay un sitio para ti, aquí a mi lado.",
+        "Los criados le dan sopa de lentejas, arroz y dulces. Todos sonríen. Ahora todos saben su nombre.",
+        "Nasreddin coge la manga de la capa y la mete en la sopa. Luego dice:\n– ¡Come, capa mía, come!",
+        "Los invitados no entienden.\n– Nasreddin, ¿qué haces?\n– Hago lo justo – dice él. – Primero vengo aquí con la ropa vieja y no me dais nada. Luego vengo con la capa y me lo dais todo. No me invitáis a mí: invitáis a mi capa. ¡Pues que coma ella!"
+      ],
+      "b1": [
+        "Aquella tarde el hombre más rico del pueblo daba una fiesta por la boda de su hija. Nasreddin Hodja volvía del campo, cansado y cubierto de polvo, cuando un vecino le dijo: «¡Date prisa! Ve tal como estás, la fiesta ya ha empezado».",
+        "Nasreddin le hizo caso y entró con la ropa de trabajo. Pero en la sala nadie lo saludó. Los criados pasaban delante de él con las bandejas y decían a los demás invitados: «¡Pónganse cómodos! ¡Tomen un poco más de arroz! ¡Prueben estos dulces!». A él, nada. Después de una hora Nasreddin comprendió y salió sin decir una palabra.",
+        "En casa le dijo a su mujer: «Dame la capa nueva, la roja con los bordados de oro. Y no me preguntes por qué». Se lavó, se vistió y volvió a la fiesta.",
+        "Esta vez el dueño de la casa salió corriendo a su encuentro: «¡Querido Nasreddin, qué honor! ¡Pasa, pasa! ¡No te quedes en la puerta! Siéntate aquí, a mi lado. ¡Chicos, traedle la sopa más caliente y el mejor arroz!».",
+        "Nasreddin se sentó, miró la sopa de lentejas, luego cogió con dos dedos la manga de la capa y la metió en el cuenco.\n– ¡Come, capa mía, come! – decía con dulzura. – Prueba también el arroz. ¡No tengas prisa!",
+        "Los invitados lo miraban boquiabiertos.\n– ¡Nasreddin, basta ya! ¿Qué haces?\n– No os preocupéis – respondió él con calma. – Hace una hora vine aquí con mi ropa y nadie me dijo «siéntate». Ahora llego con esta capa y me ofrecéis de todo. Así que el invitado es ella, no yo. ¡Dejadla comer!",
+        "En Turquía todo el mundo conoce esta historia, también los niños, con las palabras de Nasreddin: «Ye kürküm ye». En la versión turca la prenda elegante es un abrigo de piel, kürk. Los abuelos se la cuentan a los nietos cuando alguien se da demasiados aires por una ropa nueva. Y el consejo es siempre el mismo: no juzguéis a las personas por la ropa."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Hoje no vilarejo tem uma grande festa. Todos vão para a casa de um homem rico. Nasreddin Hodja também vai à festa. Mas ele vem direto do trabalho no campo: está com a roupa velha e suja.",
+        "Nasreddin entra. Ninguém olha para ele. Ninguém diz: «Bem-vindo!». Ninguém lhe dá uma cadeira. Nasreddin fica em pé num canto, sozinho.",
+        "Então Nasreddin sai e vai para casa. Toma banho e veste a sua capa mais bonita: é comprida, vermelha e dourada.",
+        "Depois volta para a festa. Agora todos olham para ele. O dono da casa vai logo até ele:\n– Bem-vindo, querido Nasreddin! Como vai? Venha, venha! Tem um lugar para você, aqui do meu lado.",
+        "Os criados lhe dão sopa de lentilha, arroz e doces. Todos sorriem. Agora todos sabem o nome dele.",
+        "Nasreddin pega a manga da capa e a coloca na sopa. Depois diz:\n– Coma, minha capa, coma!",
+        "Os convidados não entendem.\n– Nasreddin, o que você está fazendo?\n– Estou fazendo a coisa certa – diz ele. – Primeiro venho aqui com a roupa velha e vocês não me dão nada. Depois venho com a capa e me dão tudo. Vocês não convidam a mim: convidam a minha capa. Então ela que coma!"
+      ],
+      "b1": [
+        "Naquela noite o homem mais rico do vilarejo dava uma festa para o casamento da filha. Nasreddin Hodja voltava do campo, cansado e coberto de poeira, quando um vizinho lhe disse: «Anda logo! Vá do jeito que está, a festa já começou».",
+        "Nasreddin o escutou e entrou com a roupa de trabalho. Mas no salão ninguém o cumprimentou. Os criados passavam na frente dele com as bandejas e diziam aos outros convidados: «Fiquem à vontade! Peguem mais um pouco de arroz! Provem estes doces!». Para ele, nada. Depois de uma hora Nasreddin entendeu e saiu sem dizer uma palavra.",
+        "Em casa disse à mulher: «Me dê a capa nova, a vermelha com os bordados de ouro. E não me pergunte por quê». Lavou-se, vestiu-se e voltou para a festa.",
+        "Desta vez o dono da casa correu ao encontro dele: «Querido Nasreddin, que honra! Entre, entre! Não fique na porta! Sente-se aqui, do meu lado. Rapazes, tragam a sopa mais quente e o melhor arroz para ele!».",
+        "Nasreddin se sentou, olhou para a sopa de lentilha, depois pegou com dois dedos a manga da capa e a mergulhou na tigela.\n– Coma, minha capa, coma! – dizia com doçura. – Prove também o arroz. Não tenha pressa!",
+        "Os convidados o encaravam de boca aberta.\n– Nasreddin, para com isso! O que você está fazendo?\n– Não se preocupem – respondeu ele com calma. – Uma hora atrás eu vim aqui com a minha roupa e ninguém me disse «sente-se». Agora chego com esta capa e vocês me oferecem tudo. Então o convidado é ela, não eu. Deixem que ela coma!",
+        "Na Turquia todo mundo conhece esta história, até as crianças, com as palavras de Nasreddin: «Ye kürküm ye». Na versão turca a roupa elegante é um casaco de pele, kürk. Os avós a contam aos netos quando alguém se acha demais por causa de uma roupa nova. E o conselho é sempre o mesmo: não julguem as pessoas pela roupa."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Aujourd’hui, il y a une grande fête au village. Tout le monde va chez un homme riche. Nasreddin Hodja va à la fête, lui aussi. Mais il vient directement du travail dans les champs : ses vêtements sont vieux et sales.",
+        "Nasreddin entre. Personne ne le regarde. Personne ne dit : « Bienvenue ! ». Personne ne lui donne une chaise. Nasreddin reste debout dans un coin, tout seul.",
+        "Alors Nasreddin sort et rentre chez lui. Il prend un bain et met son plus beau manteau : il est long, rouge et or.",
+        "Puis il retourne à la fête. Maintenant, tout le monde le regarde. Le maître de maison vient tout de suite vers lui :\n– Bienvenue, cher Nasreddin ! Comment vas-tu ? Viens, viens ! Il y a une place pour toi, ici à côté de moi.",
+        "Les serviteurs lui donnent de la soupe de lentilles, du riz et des pâtisseries. Tout le monde sourit. Maintenant, tout le monde connaît son nom.",
+        "Nasreddin prend la manche de son manteau et la met dans la soupe. Puis il dit :\n– Mange, mon manteau, mange !",
+        "Les invités ne comprennent pas.\n– Nasreddin, qu’est-ce que tu fais ?\n– Je fais une chose juste – dit-il. – D’abord, je viens ici avec mes vieux vêtements et vous ne me donnez rien. Ensuite, je viens avec mon manteau et vous me donnez tout. Ce n’est pas moi que vous invitez : c’est mon manteau. Alors qu’il mange, lui !"
+      ],
+      "b1": [
+        "Ce soir-là, l’homme le plus riche du village donnait une fête pour le mariage de sa fille. Nasreddin Hodja revenait des champs, fatigué et couvert de poussière, quand un voisin lui a dit : « Dépêche-toi ! Vas-y comme tu es, la fête a déjà commencé ».",
+        "Nasreddin l’a écouté et il est entré avec ses vêtements de travail. Mais dans la salle, personne ne l’a salué. Les serviteurs passaient devant lui avec leurs plateaux et disaient aux autres invités : « Installez-vous ! Reprenez un peu de riz ! Goûtez ces pâtisseries ! ». À lui, rien. Au bout d’une heure, Nasreddin a compris et il est sorti sans dire un mot.",
+        "À la maison, il a dit à sa femme : « Donne-moi le manteau neuf, le rouge avec les broderies d’or. Et ne me demande pas pourquoi ». Il s’est lavé, s’est habillé et il est retourné à la fête.",
+        "Cette fois, le maître de maison a couru à sa rencontre : « Cher Nasreddin, quel honneur ! Entre, entre ! Ne reste pas sur le pas de la porte ! Assieds-toi ici, à côté de moi. Les garçons, apportez-lui la soupe la plus chaude et le meilleur riz ! ».",
+        "Nasreddin s’est assis, a regardé la soupe de lentilles, puis il a pris entre deux doigts la manche de son manteau et l’a plongée dans le bol.\n– Mange, mon manteau, mange ! – disait-il doucement. – Goûte aussi le riz. Ne te presse pas !",
+        "Les invités le fixaient bouche bée.\n– Nasreddin, arrête ! Qu’est-ce que tu fais ?\n– Ne vous inquiétez pas – a-t-il répondu calmement. – Il y a une heure, je suis venu ici avec mes vêtements et personne ne m’a dit « assieds-toi ». Maintenant, j’arrive avec ce manteau et vous m’offrez tout. Donc l’invité, c’est lui, pas moi. Laissez-le manger !",
+        "En Turquie, tout le monde connaît cette histoire, même les enfants, avec les mots de Nasreddin : « Ye kürküm ye ». Dans la version turque, le vêtement élégant est une fourrure, kürk. Les grands-parents la racontent à leurs petits-enfants quand quelqu’un se donne trop d’airs à cause d’un vêtement neuf. Et le conseil est toujours le même : ne jugez pas les gens sur leurs vêtements."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Dnes je ve vesnici velká oslava. Všichni jdou do domu jednoho bohatého muže. I Nasreddin Hodža jde na oslavu. Ale jde rovnou z práce na poli: má staré a špinavé oblečení.",
+        "Nasreddin vejde dovnitř. Nikdo se na něj nedívá. Nikdo neřekne: „Vítej!“. Nikdo mu nedá židli. Nasreddin stojí sám v koutě.",
+        "A tak Nasreddin odejde domů. Vykoupe se a oblékne si svůj nejkrásnější plášť: je dlouhý, červený a zlatý.",
+        "Pak se vrátí na oslavu. Teď se na něj všichni dívají. Hostitel k němu hned přijde:\n– Vítej, milý Nasreddine! Jak se máš? Pojď, pojď! Je tu pro tebe místo, tady vedle mě.",
+        "Sluhové mu dají čočkovou polévku, rýži a sladkosti. Všichni se usmívají. Teď všichni znají jeho jméno.",
+        "Nasreddin vezme rukáv pláště a dá ho do polévky. Pak řekne:\n– Jez, můj pláští, jez!",
+        "Hosté nerozumějí.\n– Nasreddine, co to děláš?\n– Dělám správnou věc, – říká on. – Nejdřív přijdu ve starém oblečení a vy mi nedáte nic. Pak přijdu v plášti a dáte mi všechno. Nezvete mě: zvete můj plášť. Tak ať jí on!"
+      ],
+      "b1": [
+        "Ten večer pořádal nejbohatší muž ve vesnici oslavu na svatbu své dcery. Nasreddin Hodža se vracel z pole, unavený a celý od prachu, když mu jeden soused řekl: „Pospěš si! Jdi tak, jak jsi, oslava už začala.“",
+        "Nasreddin ho poslechl a vešel v pracovním oblečení. Ale v sále ho nikdo nepozdravil. Sluhové chodili kolem něj s tácy a říkali ostatním hostům: „Posaďte se! Vezměte si ještě trochu rýže! Ochutnejte tyhle sladkosti!“. Jemu nic. Po hodině to Nasreddin pochopil a beze slova odešel.",
+        "Doma řekl ženě: „Dej mi ten nový plášť, ten červený se zlatými výšivkami. A neptej se proč.“ Umyl se, oblékl se a vrátil se na oslavu.",
+        "Tentokrát mu hostitel běžel naproti: „Milý Nasreddine, jaká čest! Pojď dál, pojď dál! Nestůj ve dveřích! Sedni si sem, vedle mě. Chlapci, přineste mu nejteplejší polévku a nejlepší rýži!“.",
+        "Nasreddin se posadil, podíval se na čočkovou polévku, pak vzal dvěma prsty rukáv pláště a namočil ho do misky.\n– Jez, můj pláští, jez! – říkal laskavě. – Ochutnej taky rýži. Nespěchej!",
+        "Hosté na něj zírali s otevřenou pusou.\n– Nasreddine, přestaň! Co to děláš?\n– Nedělejte si starosti, – odpověděl klidně. – Před hodinou jsem sem přišel ve svém oblečení a nikdo mi neřekl „posaď se“. Teď přijdu v tomhle plášti a nabízíte mi všechno. Takže hostem je on, ne já. Nechte ho jíst!",
+        "V Turecku tenhle příběh zná každý, i děti, s Nasreddinovými slovy: «Ye kürküm ye». V turecké verzi je tím elegantním oděvem kožich, kürk. Dědečkové a babičky ho vyprávějí vnoučatům, když se někdo kvůli novému oblečení moc vytahuje. A rada je vždycky stejná: nesuďte lidi podle oblečení."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Dziś w wiosce jest wielkie przyjęcie. Wszyscy idą do domu bogatego człowieka. Nasreddin Hodża też idzie na przyjęcie. Ale przychodzi prosto z pracy w polu: ma stare i brudne ubranie.",
+        "Nasreddin wchodzi. Nikt na niego nie patrzy. Nikt nie mówi: „Witaj!”. Nikt nie daje mu krzesła. Nasreddin stoi sam w kącie.",
+        "Więc Nasreddin wychodzi i idzie do domu. Bierze kąpiel i zakłada swój najpiękniejszy płaszcz: jest długi, czerwono-złoty.",
+        "Potem wraca na przyjęcie. Teraz wszyscy na niego patrzą. Gospodarz od razu do niego podchodzi:\n– Witaj, drogi Nasreddinie! Jak się masz? Chodź, chodź! Jest dla ciebie miejsce, tutaj obok mnie.",
+        "Służący dają mu zupę z soczewicy, ryż i słodycze. Wszyscy się uśmiechają. Teraz wszyscy znają jego imię.",
+        "Nasreddin bierze rękaw płaszcza i wkłada go do zupy. Potem mówi:\n– Jedz, mój płaszczu, jedz!",
+        "Goście nie rozumieją.\n– Nasreddinie, co robisz?\n– Robię to, co słuszne – mówi. – Najpierw przychodzę tu w starym ubraniu i nic mi nie dajecie. Potem przychodzę w płaszczu i dajecie mi wszystko. Nie zapraszacie mnie: zapraszacie mój płaszcz. To niech on je!"
+      ],
+      "b1": [
+        "Tego wieczoru najbogatszy człowiek w wiosce wydawał przyjęcie z okazji ślubu swojej córki. Nasreddin Hodża wracał z pola, zmęczony i pokryty kurzem, kiedy sąsiad powiedział mu: „Pospiesz się! Idź tak, jak jesteś, przyjęcie już się zaczęło”.",
+        "Nasreddin go posłuchał i wszedł w roboczym ubraniu. Ale w sali nikt go nie przywitał. Służący przechodzili obok niego z tacami i mówili do innych gości: „Rozgośćcie się! Weźcie jeszcze trochę ryżu! Spróbujcie tych słodyczy!”. Jemu nic. Po godzinie Nasreddin zrozumiał i wyszedł bez słowa.",
+        "W domu powiedział żonie: „Daj mi nowy płaszcz, ten czerwony ze złotymi haftami. I nie pytaj dlaczego”. Umył się, ubrał i wrócił na przyjęcie.",
+        "Tym razem gospodarz wybiegł mu naprzeciw: „Drogi Nasreddinie, co za zaszczyt! Wejdź, wejdź! Nie stój w drzwiach! Usiądź tutaj, obok mnie. Chłopcy, przynieście mu najgorętszą zupę i najlepszy ryż!”.",
+        "Nasreddin usiadł, popatrzył na zupę z soczewicy, potem wziął dwoma palcami rękaw płaszcza i zanurzył go w misce.\n– Jedz, mój płaszczu, jedz! – mówił łagodnie. – Spróbuj też ryżu. Nie spiesz się!",
+        "Goście wpatrywali się w niego z otwartymi ustami.\n– Nasreddinie, przestań! Co robisz?\n– Nie martwcie się – odpowiedział spokojnie. – Godzinę temu przyszedłem tu w swoim ubraniu i nikt mi nie powiedział „usiądź”. Teraz przychodzę w tym płaszczu i oferujecie mi wszystko. Więc gościem jest on, a nie ja. Pozwólcie mu jeść!",
+        "W Turcji wszyscy znają tę historię, także dzieci, ze słowami Nasreddina: «Ye kürküm ye». W tureckiej wersji eleganckim strojem jest futro, kürk. Dziadkowie opowiadają ją wnukom, kiedy ktoś zadziera nosa z powodu nowego ubrania. A rada jest zawsze ta sama: nie oceniajcie ludzi po ubraniu."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bugün köyde büyük bir şölen var. Herkes zengin bir adamın evine gidiyor. Nasreddin Hoca da şölene gidiyor. Ama doğrudan tarladaki işten geliyor: giysileri eski ve kirli.",
+        "Nasreddin içeri giriyor. Kimse ona bakmıyor. Kimse «Hoş geldin!» demiyor. Kimse ona sandalye vermiyor. Nasreddin bir köşede tek başına ayakta duruyor.",
+        "Bunun üzerine Nasreddin çıkıp eve gidiyor. Yıkanıyor ve en güzel kaftanını giyiyor: uzun, kırmızı ve altın renkli.",
+        "Sonra şölene geri dönüyor. Şimdi herkes ona bakıyor. Ev sahibi hemen yanına geliyor:\n– Hoş geldin, sevgili Nasreddin! Nasılsın? Gel, gel! Burada, yanımda sana bir yer var.",
+        "Hizmetkârlar ona mercimek çorbası, pilav ve tatlılar veriyor. Herkes gülümsüyor. Artık herkes onun adını biliyor.",
+        "Nasreddin kaftanının yenini alıp çorbaya batırıyor. Sonra diyor ki:\n– Ye kaftanım, ye!",
+        "Konuklar anlamıyor.\n– Nasreddin, ne yapıyorsun?\n– Doğru olanı yapıyorum – diyor. – Önce buraya eski giysilerimle geliyorum ve bana hiçbir şey vermiyorsunuz. Sonra kaftanımla geliyorum ve bana her şeyi veriyorsunuz. Siz beni değil, kaftanımı davet ediyorsunuz. O hâlde o yesin!"
+      ],
+      "b1": [
+        "O akşam köyün en zengin adamı kızının düğünü için bir şölen veriyordu. Nasreddin Hoca yorgun ve toza bulanmış hâlde tarladan dönerken bir komşusu ona dedi ki: «Acele et! Olduğun gibi git, düğün çoktan başladı».",
+        "Nasreddin onu dinledi ve iş giysileriyle içeri girdi. Ama salonda kimse onu selamlamadı. Hizmetkârlar tepsilerle önünden geçiyor, öteki konuklara «Buyurun, rahatınıza bakın! Biraz daha pilav alın! Bu tatlıların tadına bakın!» diyorlardı. Ona ise hiçbir şey. Bir saat sonra Nasreddin durumu anladı ve tek kelime etmeden çıktı.",
+        "Evde karısına dedi ki: «Yeni kürkümü ver, altın işlemeli kırmızı olanı. Ve nedenini sorma». Yıkandı, giyindi ve düğüne geri döndü.",
+        "Bu sefer ev sahibi onu karşılamaya koştu: «Sevgili Hocam, ne büyük şeref! Gir, gir! Kapıda durma! Buraya, yanıma otur. Çocuklar, ona en sıcak çorbayı ve en güzel pilavı getirin!».",
+        "Nasreddin oturdu, mercimek çorbasına baktı, sonra kürkünün yenini iki parmağıyla tutup kâseye batırdı.\n– Ye kürküm ye! – diyordu tatlı tatlı. – Pilavın da tadına bak. Acele etme!",
+        "Konuklar ağızları açık ona bakakaldı.\n– Hocam, yeter! Ne yapıyorsun?\n– Merak etmeyin – dedi sakin sakin. – Bir saat önce buraya kendi giysilerimle geldim ve kimse bana «otur» demedi. Şimdi bu kürkle geliyorum ve bana her şeyi ikram ediyorsunuz. Demek ki davetli o, ben değilim. Bırakın da yesin!",
+        "Türkiye'de bu fıkrayı çocuklar dâhil herkes, Hoca'nın şu sözüyle bilir: «Ye kürküm ye». Türk anlatımında şık giysi bir kürktür. Dedeler ve nineler bunu, biri yeni bir giysi yüzünden fazla hava attığında torunlarına anlatır. Ve öğüt hep aynıdır: insanları kılığına kıyafetine göre yargılamayın."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Heute gibt es im Dorf ein großes Fest. Alle gehen zum Haus eines reichen Mannes. Auch Nasreddin Hodscha geht zum Fest. Aber er kommt direkt von der Arbeit auf dem Feld: Seine Kleider sind alt und schmutzig.",
+        "Nasreddin geht hinein. Niemand schaut ihn an. Niemand sagt: „Willkommen!“. Niemand gibt ihm einen Stuhl. Nasreddin steht allein in einer Ecke.",
+        "Also geht Nasreddin hinaus und nach Hause. Er badet und zieht seinen schönsten Mantel an: Er ist lang, rot und golden.",
+        "Dann geht er zurück zum Fest. Jetzt schauen ihn alle an. Der Gastgeber kommt sofort zu ihm:\n– Willkommen, lieber Nasreddin! Wie geht es dir? Komm, komm! Hier neben mir ist ein Platz für dich.",
+        "Die Diener bringen ihm Linsensuppe, Reis und Süßigkeiten. Alle lächeln. Jetzt kennen alle seinen Namen.",
+        "Nasreddin nimmt den Ärmel seines Mantels und taucht ihn in die Suppe. Dann sagt er:\n– Iss, mein Mantel, iss!",
+        "Die Gäste verstehen nichts.\n– Nasreddin, was machst du da?\n– Ich tue das Richtige, – sagt er. – Zuerst komme ich in meinen alten Kleidern und ihr gebt mir nichts. Dann komme ich mit dem Mantel und ihr gebt mir alles. Ihr ladet nicht mich ein: Ihr ladet meinen Mantel ein. Also soll er essen!"
+      ],
+      "b1": [
+        "An jenem Abend gab der reichste Mann des Dorfes ein Fest zur Hochzeit seiner Tochter. Nasreddin Hodscha kam gerade vom Feld zurück, müde und voller Staub, als ein Nachbar zu ihm sagte: „Beeil dich! Geh so, wie du bist, das Fest hat schon angefangen.“",
+        "Nasreddin hörte auf ihn und ging in seinen Arbeitskleidern hinein. Aber im Saal grüßte ihn niemand. Die Diener liefen mit ihren Tabletts an ihm vorbei und sagten zu den anderen Gästen: „Nehmen Sie Platz! Nehmen Sie noch etwas Reis! Probieren Sie diese Süßigkeiten!“. Zu ihm nichts. Nach einer Stunde verstand Nasreddin und ging ohne ein Wort hinaus.",
+        "Zu Hause sagte er zu seiner Frau: „Gib mir den neuen Mantel, den roten mit der Goldstickerei. Und frag mich nicht, warum.“ Er wusch sich, zog sich an und ging zurück zum Fest.",
+        "Diesmal lief ihm der Gastgeber entgegen: „Lieber Nasreddin, welche Ehre! Komm herein, komm herein! Bleib nicht in der Tür stehen! Setz dich hierher, neben mich. Jungs, bringt ihm die heißeste Suppe und den besten Reis!“.",
+        "Nasreddin setzte sich, schaute auf die Linsensuppe, nahm dann den Ärmel seines Mantels zwischen zwei Finger und tauchte ihn in die Schale.\n– Iss, mein Mantel, iss! – sagte er sanft. – Probier auch den Reis. Lass dir Zeit!",
+        "Die Gäste starrten ihn mit offenem Mund an.\n– Nasreddin, hör auf! Was machst du da?\n– Macht euch keine Sorgen, – antwortete er ruhig. – Vor einer Stunde bin ich in meinen eigenen Kleidern gekommen, und niemand hat „setz dich“ zu mir gesagt. Jetzt komme ich in diesem Mantel, und ihr bietet mir alles an. Also ist der Gast er, nicht ich. Lasst ihn essen!",
+        "In der Türkei kennt jeder diese Geschichte, auch die Kinder, mit Nasreddins Worten: «Ye kürküm ye». In der türkischen Fassung ist das elegante Kleidungsstück ein Pelzmantel, kürk. Großeltern erzählen sie ihren Enkeln, wenn sich jemand wegen neuer Kleider zu sehr aufspielt. Und der Rat ist immer derselbe: Beurteilt die Menschen nicht nach ihrer Kleidung."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "今日、村では大きな宴会があります。みんなお金持ちの家へ行きます。ナスレッディン・ホジャも宴会へ行きます。でも、畑仕事からそのまま来たので、服は古くて汚れています。",
+        "ナスレッディンは中に入ります。だれも彼を見ません。だれも「ようこそ！」と言いません。だれもいすをくれません。ナスレッディンは隅に、ひとりで立っています。",
+        "そこでナスレッディンは外に出て、家に帰ります。おふろに入って、いちばんきれいな上着を着ます。長くて、赤と金色の上着です。",
+        "それから宴会にもどります。今度はみんなが彼を見ます。家の主人がすぐにやって来ます。\n「ようこそ、ナスレッディンさん！　お元気ですか？　さあ、さあ！　ここ、わたしのとなりに席がありますよ。」",
+        "召使いたちがレンズ豆のスープとピラフとお菓子を持ってきます。みんながにこにこしています。今では、みんなが彼の名前を知っています。",
+        "ナスレッディンは上着のそでを持って、スープにつけます。そして言います。\n「食べなさい、わたしの上着よ、食べなさい！」",
+        "客たちにはわけがわかりません。\n「ナスレッディンさん、何をしているんですか？」\n「正しいことをしているのです」と彼は言います。「さっき古い服で来たら、だれも何もくれなかった。今度は上着を着て来たら、何でもくれる。あなたたちが招いたのはわたしではなく、この上着です。だから、上着に食べさせるのです！」"
+      ],
+      "b1": [
+        "その晩、村いちばんのお金持ちが、娘の結婚式のお祝いをしていました。ナスレッディン・ホジャが疲れてほこりまみれで畑から帰ってくると、近所の人が言いました。「急いで！　そのままで行きなよ。宴会はもう始まっているよ。」",
+        "ナスレッディンはその言葉どおり、仕事着のまま中に入りました。でも広間では、だれもあいさつしてくれません。召使いたちはお盆を持って彼の前を通りすぎ、ほかの客には「どうぞおくつろぎください！　ピラフをもう少しどうぞ！　このお菓子を味見してください！」と言っていました。彼には何もありません。一時間後、ナスレッディンはわけがわかって、ひと言も言わずに出ていきました。",
+        "家に帰ると、奥さんに言いました。「新しい上着を出してくれ。金の刺しゅうのある赤いのだ。理由は聞かないでくれ。」　彼は体を洗い、着替えて、宴会にもどりました。",
+        "今度は家の主人が駆け寄ってきました。「ナスレッディンさん、なんと光栄な！　どうぞ、どうぞ！　入り口に立っていないで！　ここ、わたしのとなりにおすわりください。おい、いちばん熱いスープといちばんいいピラフをお持ちしろ！」",
+        "ナスレッディンはすわって、レンズ豆のスープを見ると、上着のそでを二本の指でつまんで、おわんにひたしました。\n「食べなさい、わたしの上着よ、食べなさい！」とやさしく言いました。「ピラフも味見しなさい。あわてなくていいよ！」",
+        "客たちは口をぽかんと開けて、彼を見つめました。\n「ナスレッディンさん、やめてください！　何をしているんですか？」\n「ご心配なく」と彼は落ちついて答えました。「一時間前、自分の服で来たときは、だれも『すわって』と言わなかった。今、この上着で来たら、何でもすすめてくれる。だから、招かれたのはわたしではなく、この上着なのです。食べさせてやってください！」",
+        "トルコでは、子どもも含めてだれもがこの話を、ナスレッディンの言葉 «Ye kürküm ye»（「食べろ、わが毛皮よ、食べろ」）とともに知っています。トルコの話では、りっぱな服は毛皮のコート（kürk）です。だれかが新しい服のせいでいばっているとき、おじいさんやおばあさんは孫にこの話をします。教えはいつも同じです。人を服装で判断してはいけません。"
+      ]
+    }
+  }
+}
