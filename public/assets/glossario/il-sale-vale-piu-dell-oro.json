@@ -1,0 +1,448 @@
+{
+  "id": "il-sale-vale-piu-dell-oro",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il regno",
+      "forme": ["regno"],
+      "esempi": ["Il regno di Napoli era molto grande.", "Il re vuole difendere il suo regno.", "Dopo la morte del re, il regno è passato al figlio."],
+      "traduzioni": { "en": "kingdom", "es": "reino", "pt": "reino", "fr": "royaume", "cs": "království", "pl": "królestwo", "tr": "krallık", "de": "Königreich", "ja": "王国" }
+    },
+    {
+      "parola": "il castello",
+      "forme": ["castello"],
+      "formeEsempi": ["castelli"],
+      "esempi": ["Il re vive in un grande castello.", "In Val d'Aosta ci sono molti castelli.", "Domenica visitiamo il castello medievale."],
+      "traduzioni": { "en": "castle", "es": "castillo", "pt": "castelo", "fr": "château", "cs": "hrad, zámek", "pl": "zamek", "tr": "şato, kale", "de": "Schloss, Burg", "ja": "お城" }
+    },
+    {
+      "parola": "la figlia",
+      "forme": ["figlie", "figlia"],
+      "esempi": ["Mia figlia ha otto anni.", "I vicini hanno due figlie.", "La figlia del vicino suona il pianoforte."],
+      "traduzioni": { "en": "daughter", "es": "hija", "pt": "filha", "fr": "fille", "cs": "dcera", "pl": "córka", "tr": "kız (evlat)", "de": "Tochter", "ja": "娘" }
+    },
+    {
+      "parola": "voler bene a",
+      "forme": ["volete", "voleva", "voglio", "vuoi"],
+      "formeEsempi": ["vogliono"],
+      "esempi": ["Ti voglio bene, mamma.", "I nonni ci vogliono molto bene.", "Voglio bene al mio cane."],
+      "traduzioni": { "en": "to love (family, friends: «ti voglio bene» = I love you, not romantic)", "es": "querer («ti voglio bene» = te quiero)", "pt": "gostar muito de, amar («ti voglio bene» = eu te amo, gosto muito de você)", "fr": "aimer («ti voglio bene» = je t’aime, sans sens amoureux)", "cs": "mít rád («ti voglio bene» = mám tě rád)", "pl": "kochać («ti voglio bene» = kocham cię, nie romantycznie)", "tr": "sevmek («ti voglio bene» = seni seviyorum, aile/arkadaş için)", "de": "lieb haben («ti voglio bene» = ich hab dich lieb)", "ja": "大好きだ、大切に思う" }
+    },
+    {
+      "parola": "l'oro",
+      "forme": ["oro"],
+      "esempi": ["Questo anello è d'oro.", "L'oro costa molto.", "Ha vinto la medaglia d'oro."],
+      "traduzioni": { "en": "gold", "es": "oro", "pt": "ouro", "fr": "or", "cs": "zlato", "pl": "złoto", "tr": "altın", "de": "Gold", "ja": "金" }
+    },
+    {
+      "parola": "il gioiello",
+      "forme": ["gioielli"],
+      "formeEsempi": ["gioiello"],
+      "esempi": ["La regina ha tanti gioielli.", "Tiene i gioielli in una scatola.", "Questo anello è un gioiello antico."],
+      "traduzioni": { "en": "jewel, piece of jewellery", "es": "joya", "pt": "joia", "fr": "bijou", "cs": "šperk", "pl": "klejnot, biżuteria", "tr": "mücevher", "de": "Schmuckstück, Juwel", "ja": "宝石" }
+    },
+    {
+      "parola": "il sale",
+      "forme": ["sale"],
+      "esempi": ["Aggiungi un pizzico di sale.", "Mi passi il sale, per favore?", "C'è troppo sale nella pasta."],
+      "traduzioni": { "en": "salt", "es": "sal", "pt": "sal", "fr": "sel", "cs": "sůl", "pl": "sól", "tr": "tuz", "de": "Salz", "ja": "塩" }
+    },
+    {
+      "parola": "valere",
+      "forme": ["vale"],
+      "formeEsempi": ["valgono"],
+      "esempi": ["Quanto vale questa moneta?", "Questo quadro vale molto.", "Fai la fatica: ne vale la pena!"],
+      "traduzioni": { "en": "to be worth", "es": "valer", "pt": "valer", "fr": "valoir", "cs": "mít cenu, stát za", "pl": "być wartym", "tr": "değmek, değerinde olmak", "de": "wert sein", "ja": "価値がある" }
+    },
+    {
+      "parola": "la pastora",
+      "forme": ["pastora"],
+      "formeEsempi": ["pastore"],
+      "esempi": ["La pastora porta le pecore al pascolo.", "Il pastore vive in montagna con il suo gregge.", "Il pastore e il cane controllano le pecore."],
+      "traduzioni": { "en": "shepherdess (il pastore = shepherd)", "es": "pastora", "pt": "pastora", "fr": "bergère", "cs": "pastýřka", "pl": "pasterka", "tr": "çoban (kadın)", "de": "Hirtin", "ja": "羊飼いの女の人" }
+    },
+    {
+      "parola": "l'inverno",
+      "forme": ["inverno"],
+      "esempi": ["In inverno nevica in montagna.", "L'inverno qui è lungo e freddo.", "Quest'inverno andiamo a sciare."],
+      "traduzioni": { "en": "winter", "es": "invierno", "pt": "inverno", "fr": "hiver", "cs": "zima", "pl": "zima", "tr": "kış", "de": "Winter", "ja": "冬" }
+    },
+    {
+      "parola": "la neve",
+      "forme": ["neve"],
+      "esempi": ["In montagna c'è molta neve.", "I bambini giocano con la neve.", "Domani è prevista neve."],
+      "traduzioni": { "en": "snow", "es": "nieve", "pt": "neve", "fr": "neige", "cs": "sníh", "pl": "śnieg", "tr": "kar", "de": "Schnee", "ja": "雪" }
+    },
+    {
+      "parola": "il carro",
+      "forme": ["carri"],
+      "formeEsempi": ["carro"],
+      "esempi": ["Il bue tira il carro.", "I carri portano il fieno.", "Al carnevale sfilano i carri colorati."],
+      "traduzioni": { "en": "cart, wagon", "es": "carro", "pt": "carroça", "fr": "charrette", "cs": "vůz", "pl": "wóz", "tr": "araba (at arabası)", "de": "Wagen, Karren", "ja": "荷車" }
+    },
+    {
+      "parola": "cattivo",
+      "forme": ["cattivo", "cattiva"],
+      "esempi": ["Questo caffè è cattivo.", "La minestra senza sale è cattiva.", "Che odore cattivo!"],
+      "traduzioni": { "en": "bad, awful (of taste)", "es": "malo (de sabor)", "pt": "ruim (de sabor)", "fr": "mauvais (au goût)", "cs": "špatný, nechutný", "pl": "niedobry, niesmaczny", "tr": "kötü, tatsız", "de": "schlecht, scheußlich (vom Geschmack)", "ja": "まずい" }
+    },
+    {
+      "parola": "avere ragione",
+      "forme": ["ragione"],
+      "esempi": ["Hai ragione, scusa.", "Mia madre ha sempre ragione!", "Chi ha ragione, tu o lui?"],
+      "traduzioni": { "en": "to be right", "es": "tener razón", "pt": "ter razão", "fr": "avoir raison", "cs": "mít pravdu", "pl": "mieć rację", "tr": "haklı olmak", "de": "recht haben", "ja": "正しい" }
+    },
+    {
+      "parola": "la slitta",
+      "forme": ["slitta"],
+      "formeEsempi": ["slitte"],
+      "esempi": ["I bambini scendono dalla collina con la slitta.", "La slitta scivola sulla neve.", "In Lapponia i cani tirano le slitte."],
+      "traduzioni": { "en": "sledge, sled", "es": "trineo", "pt": "trenó", "fr": "luge, traîneau", "cs": "sáně, saně", "pl": "sanie, sanki", "tr": "kızak", "de": "Schlitten", "ja": "そり" }
+    },
+    {
+      "parola": "il sacco",
+      "forme": ["sacco"],
+      "formeEsempi": ["sacchi"],
+      "esempi": ["Porto a casa un sacco di patate.", "In cantina ci sono sacchi di farina.", "Metti la spazzatura nel sacco."],
+      "traduzioni": { "en": "sack", "es": "saco", "pt": "saco", "fr": "sac", "cs": "pytel", "pl": "worek", "tr": "çuval", "de": "Sack", "ja": "袋" }
+    },
+    {
+      "parola": "abbracciare",
+      "forme": ["abbraccia"],
+      "formeEsempi": ["abbraccio", "abbracciati"],
+      "esempi": ["La mamma abbraccia il bambino.", "Ti abbraccio forte!", "Ci siamo abbracciati all'aeroporto."],
+      "traduzioni": { "en": "to hug", "es": "abrazar", "pt": "abraçar", "fr": "serrer dans ses bras", "cs": "obejmout", "pl": "przytulić", "tr": "sarılmak", "de": "umarmen", "ja": "抱きしめる" }
+    },
+    {
+      "parola": "perdonare",
+      "forme": ["perdonami"],
+      "formeEsempi": ["perdono", "perdona"],
+      "esempi": ["Perdonami, ho sbagliato.", "Ti perdono, ma non farlo più.", "La mamma perdona sempre i figli."],
+      "traduzioni": { "en": "to forgive («perdonami» = forgive me)", "es": "perdonar", "pt": "perdoar", "fr": "pardonner", "cs": "odpustit", "pl": "wybaczyć", "tr": "affetmek", "de": "verzeihen", "ja": "許す" }
+    },
+    {
+      "parola": "sincero",
+      "forme": ["sincera"],
+      "formeEsempi": ["sincero", "sinceri"],
+      "esempi": ["È una persona sincera: dice sempre la verità.", "Ti faccio i miei complimenti sinceri.", "Sii sincero con me."],
+      "traduzioni": { "en": "sincere, honest", "es": "sincero", "pt": "sincero", "fr": "sincère", "cs": "upřímný", "pl": "szczery", "tr": "dürüst, içten", "de": "aufrichtig, ehrlich", "ja": "正直な、誠実な" }
+    },
+    {
+      "parola": "semplice",
+      "forme": ["semplici", "semplice"],
+      "esempi": ["Mio nonno era un uomo semplice.", "Vivono una vita semplice in campagna.", "Le cose semplici sono spesso le più belle."],
+      "traduzioni": { "en": "simple", "es": "sencillo", "pt": "simples", "fr": "simple", "cs": "prostý, jednoduchý", "pl": "prosty", "tr": "basit, sade", "de": "einfach", "ja": "素朴な、ありふれた" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "dolce",
+      "forme": ["dolci"],
+      "formeEsempi": ["dolce"],
+      "esempi": ["Le dice sempre parole dolci.", "Il bambino ha un sorriso dolce.", "Mi piacciono le canzoni dolci."],
+      "traduzioni": { "en": "sweet (also of words: «parole dolci» = sweet talk)", "es": "dulce", "pt": "doce", "fr": "doux", "cs": "sladký, něžný", "pl": "słodki, czuły", "tr": "tatlı", "de": "süß, zärtlich", "ja": "甘い、やさしい" }
+    },
+    {
+      "parola": "piacere",
+      "forme": ["piacevano", "piaciuta", "piace", "piaceva"],
+      "formeEsempi": ["piacciono", "piaciuto"],
+      "esempi": ["Mi piace il gelato.", "Ti piacciono i gatti?", "Il film non mi è piaciuto."],
+      "traduzioni": { "en": "to be liked («mi piace» = I like it; «mi piacciono» = I like them)", "es": "gustar", "pt": "gostar de (it. «mi piace» = eu gosto)", "fr": "plaire («mi piace» = ça me plaît, j’aime)", "cs": "líbit se, chutnat", "pl": "podobać się, smakować", "tr": "hoşa gitmek, sevmek («mi piace» = hoşuma gidiyor)", "de": "gefallen, mögen («mi piace» = es gefällt mir)", "ja": "好きだ（«mi piace» = 気に入っている）" }
+    },
+    {
+      "parola": "furioso",
+      "forme": ["furioso"],
+      "formeEsempi": ["furiosa"],
+      "esempi": ["Quando ha visto il disordine, era furioso.", "La madre era furiosa con il figlio.", "Un vento furioso ha rotto gli alberi."],
+      "traduzioni": { "en": "furious", "es": "furioso", "pt": "furioso", "fr": "furieux", "cs": "zuřivý, rozzuřený", "pl": "wściekły", "tr": "öfkeli", "de": "wütend", "ja": "激怒した" }
+    },
+    {
+      "parola": "cacciare",
+      "forme": ["cacciato"],
+      "formeEsempi": ["caccia"],
+      "esempi": ["Il proprietario ha cacciato i clienti maleducati.", "L'hanno cacciato dalla squadra.", "Caccia via le mosche dalla cucina!"],
+      "traduzioni": { "en": "to throw out, to drive away (here not “to hunt”)", "es": "echar, expulsar", "pt": "expulsar", "fr": "chasser, mettre dehors", "cs": "vyhnat", "pl": "wypędzić", "tr": "kovmak", "de": "verjagen, rauswerfen", "ja": "追い出す" }
+    },
+    {
+      "parola": "dispiacere",
+      "forme": ["dispiaceva"],
+      "formeEsempi": ["dispiace"],
+      "esempi": ["Mi dispiace, sono in ritardo.", "Ti dispiace chiudere la finestra?", "Mi dispiace molto per tuo nonno."],
+      "traduzioni": { "en": "to be sorry («mi dispiace» = I'm sorry)", "es": "sentir («mi dispiace» = lo siento)", "pt": "lamentar («mi dispiace» = sinto muito)", "fr": "regretter («mi dispiace» = je suis désolé)", "cs": "mrzet («mi dispiace» = je mi líto)", "pl": "żałować («mi dispiace» = przykro mi)", "tr": "üzülmek («mi dispiace» = üzgünüm)", "de": "leidtun («mi dispiace» = es tut mir leid)", "ja": "残念に思う（«mi dispiace» = ごめんなさい）" }
+    },
+    {
+      "parola": "il rifugio",
+      "forme": ["rifugio"],
+      "esempi": ["In montagna dormiamo in un rifugio.", "La grotta è un rifugio per gli animali.", "Durante il temporale abbiamo trovato rifugio in un bar."],
+      "traduzioni": { "en": "shelter, refuge (also a mountain hut)", "es": "refugio", "pt": "abrigo, refúgio", "fr": "refuge, abri", "cs": "útočiště, chata", "pl": "schronienie, schronisko", "tr": "sığınak, barınak", "de": "Zuflucht, Hütte", "ja": "避難所、山小屋" }
+    },
+    {
+      "parola": "la pecora",
+      "forme": ["pecore"],
+      "formeEsempi": ["pecora"],
+      "esempi": ["Le pecore mangiano l'erba.", "Il pastore ha cento pecore.", "La pecora fa «bee»."],
+      "traduzioni": { "en": "sheep", "es": "oveja", "pt": "ovelha", "fr": "brebis, mouton", "cs": "ovce", "pl": "owca", "tr": "koyun", "de": "Schaf", "ja": "羊" }
+    },
+    {
+      "parola": "la serata",
+      "forme": ["serate"],
+      "formeEsempi": ["serata"],
+      "esempi": ["Abbiamo passato una bella serata.", "D'inverno le serate sono lunghe.", "Grazie per la serata!"],
+      "traduzioni": { "en": "evening (the whole evening, how it goes)", "es": "velada, noche", "pt": "noite, serão", "fr": "soirée", "cs": "večer", "pl": "wieczór", "tr": "akşam, gece (süresiyle)", "de": "Abend", "ja": "夜（のひととき）" }
+    },
+    {
+      "parola": "terribile",
+      "forme": ["terribile"],
+      "esempi": ["Ho un mal di testa terribile.", "È stato un viaggio terribile.", "Oggi fa un caldo terribile!"],
+      "traduzioni": { "en": "terrible", "es": "terrible", "pt": "terrível", "fr": "terrible", "cs": "hrozný", "pl": "straszny", "tr": "korkunç, berbat", "de": "schrecklich", "ja": "ひどい" }
+    },
+    {
+      "parola": "il sapore",
+      "forme": ["sapore"],
+      "esempi": ["Questa torta ha un sapore buonissimo.", "Non sento nessun sapore: ho il raffreddore.", "Il caffè ha un sapore amaro."],
+      "traduzioni": { "en": "taste, flavour", "es": "sabor", "pt": "sabor, gosto", "fr": "goût, saveur", "cs": "chuť", "pl": "smak", "tr": "tat", "de": "Geschmack", "ja": "味" }
+    },
+    {
+      "parola": "sapere di",
+      "forme": ["sapevano"],
+      "formeEsempi": ["sa"],
+      "esempi": ["Quest'acqua sa di cloro.", "La minestra sa di poco.", "Il pane sa di fumo."],
+      "traduzioni": { "en": "to taste of («sapere d'acqua» = to taste of nothing)", "es": "saber a", "pt": "ter gosto de", "fr": "avoir un goût de", "cs": "chutnat po", "pl": "smakować jak", "tr": "… tadı vermek", "de": "schmecken nach", "ja": "〜の味がする" }
+    },
+    {
+      "parola": "ammalarsi",
+      "forme": ["ammalava"],
+      "formeEsempi": ["ammalo", "ammalato", "ammali"],
+      "esempi": ["D'inverno mi ammalo spesso.", "Il nonno si è ammalato.", "Copriti bene, se no ti ammali!"],
+      "traduzioni": { "en": "to fall ill, to get sick", "es": "enfermar(se)", "pt": "adoecer, ficar doente", "fr": "tomber malade", "cs": "onemocnět", "pl": "zachorować", "tr": "hastalanmak", "de": "krank werden", "ja": "病気になる" }
+    },
+    {
+      "parola": "caricare",
+      "forme": ["caricato"],
+      "formeEsempi": ["carico", "carica"],
+      "esempi": ["Carico le valigie in macchina.", "Il contadino carica il fieno sul carro.", "Ho caricato la lavatrice."],
+      "traduzioni": { "en": "to load", "es": "cargar", "pt": "carregar", "fr": "charger", "cs": "naložit", "pl": "załadować", "tr": "yüklemek", "de": "laden, aufladen", "ja": "積む" }
+    },
+    {
+      "parola": "la scorta",
+      "forme": ["scorte"],
+      "formeEsempi": ["scorta"],
+      "esempi": ["Abbiamo scorte di cibo per l'inverno.", "La nonna ha sempre una scorta di biscotti.", "Le scorte d'acqua stanno finendo."],
+      "traduzioni": { "en": "supply, stock (le scorte = reserves)", "es": "provisión, reserva", "pt": "estoque, reserva", "fr": "provision, réserve", "cs": "zásoba", "pl": "zapas", "tr": "stok, erzak", "de": "Vorrat", "ja": "たくわえ" }
+    },
+    {
+      "parola": "scendere",
+      "forme": ["scesa"],
+      "formeEsempi": ["scendo", "sceso", "scendiamo"],
+      "esempi": ["Scendo dall'autobus alla prossima fermata.", "Il gatto è sceso dall'albero.", "Scendiamo a valle prima di sera."],
+      "traduzioni": { "en": "to go down, to come down", "es": "bajar", "pt": "descer", "fr": "descendre", "cs": "sjet, sejít dolů", "pl": "zjechać, zejść", "tr": "inmek", "de": "hinuntergehen, hinunterfahren", "ja": "下りる" }
+    },
+    {
+      "parola": "preparare",
+      "forme": ["preparato"],
+      "formeEsempi": ["preparo", "prepara"],
+      "esempi": ["Preparo la cena per tutti.", "La mamma ha preparato una torta.", "Prepara la valigia: partiamo!"],
+      "traduzioni": { "en": "to prepare, to make", "es": "preparar", "pt": "preparar", "fr": "préparer", "cs": "připravit, uvařit", "pl": "przygotować, ugotować", "tr": "hazırlamak", "de": "zubereiten, vorbereiten", "ja": "作る、準備する" }
+    },
+    {
+      "parola": "misterioso",
+      "forme": ["misterioso"],
+      "formeEsempi": ["misteriosa"],
+      "esempi": ["È successa una cosa misteriosa.", "Un uomo misterioso ha lasciato una lettera.", "Il gatto ha uno sguardo misterioso."],
+      "traduzioni": { "en": "mysterious", "es": "misterioso", "pt": "misterioso", "fr": "mystérieux", "cs": "záhadný", "pl": "tajemniczy", "tr": "gizemli", "de": "geheimnisvoll", "ja": "不思議な" }
+    },
+    {
+      "parola": "togliere",
+      "forme": ["togliere"],
+      "formeEsempi": ["togli", "tolto"],
+      "esempi": ["Togli le scarpe prima di entrare.", "Ho tolto il sale dalla ricetta.", "Togliere un dente fa male."],
+      "traduzioni": { "en": "to take away, to remove", "es": "quitar", "pt": "tirar", "fr": "enlever", "cs": "vzít, odstranit", "pl": "zabrać, usunąć", "tr": "almak, çıkarmak", "de": "wegnehmen, entfernen", "ja": "取り去る" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a faraway kingdom there is an old king. In the castle there are his three daughters. The youngest is called Maruška.",
+        "One day the king asks his daughters:\n– How much do you love me?\n– Like gold! – says the first.\n– Like jewels! – says the second.\n– Like salt, – says Maruška.",
+        "The king gets angry.\n– Like salt? Salt is worth nothing! Leave the castle!\nMaruška cries and goes away. In the woods there's a little house: an old shepherdess lives there. Maruška stays with her.",
+        "A long, cold winter comes. On the mountain roads there's lots of snow. The salt carts don't reach the castle any more.",
+        "In the king's kitchen there's no salt. The bread tastes awful, the soup tastes awful, everything tastes awful. In the castle there's gold and jewels, but you can't eat gold. The king is sad and understands: Maruška is right.",
+        "Maruška knows what is happening. With the shepherdess she takes a sack of salt from her house and goes to the castle by sledge. The king sees her, hugs her and cries.\n– Forgive me, my daughter. Now I know: salt is worth more than gold.",
+        "That's the moral of the fable: simple things, like salt or a sincere person, seem small to us. But without them we can't live."
+      ],
+      "a2": [
+        "Once upon a time there was an old king who had three daughters. The king liked sweet words, and one day he called his daughters to find out which of them loved him most.",
+        "– I love you like gold, – said the first. He liked the answer very much.\n– I love you like the most precious jewels, – said the second. He liked this one too.\n– And I love you like salt, – said Maruška, the youngest.",
+        "The king didn't like this answer at all. “Like salt? Nobody likes salt on its own!” Furious, he threw Maruška out of the castle. She wasn't crying for herself: she was sorry about only one thing, that her father hadn't understood her.",
+        "Maruška found shelter in the house of an old shepherdess, in the mountains. She liked that simple life: working with the sheep, the evenings by the fire, the home-made bread.",
+        "That year the winter was terrible. For months the snow closed the roads and the salt carts never reached the castle. The cooks tried everything, but the lords didn't like anything any more: the bread had no taste, the soups tasted of water. The king ate less and less and fell ill.",
+        "When Maruška heard about it, she loaded a sack of salt from the shepherdess's supplies onto the sledge and went down to the castle. With her own hands she made a vegetable soup and took it to her father. At the first spoonful the king understood everything.\n– My daughter, now I know how much you love me. Forgive me.",
+        "«Sůl nad zlato» (“Salt is worth more than gold”) is one of the best-loved fairy tales in the Czech Republic: Božena Němcová wrote it in the nineteenth century, and Czech children still know it by heart today. In the original version the salt disappears from the kingdom in a mysterious way; in this one, it's the winter that takes the salt away. The moral, though, is the same: the things that are worth the most are often the ones we never think about."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En un reino lejano hay un rey viejo. En el castillo están sus tres hijas. La más pequeña se llama Maruška.",
+        "Un día el rey pregunta a sus hijas:\n– ¿Cuánto me queréis?\n– ¡Como el oro! – dice la primera.\n– ¡Como las joyas! – dice la segunda.\n– Como la sal – dice Maruška.",
+        "El rey se enfada.\n– ¿Como la sal? ¡La sal no vale nada! ¡Vete del castillo!\nMaruška llora y se va. En el bosque hay una casita: allí vive una pastora anciana. Maruška se queda con ella.",
+        "Llega un invierno largo y frío. En los caminos de la montaña hay mucha nieve. Los carros de la sal ya no llegan al castillo.",
+        "En la cocina del rey no hay sal. El pan está malo, la sopa está mala, todo está malo. En el castillo hay oro y joyas, pero el oro no se come. El rey está triste y comprende: Maruška tiene razón.",
+        "Maruška sabe lo que pasa. Con la pastora coge un saco de sal de su casa y va al castillo en trineo. El rey la ve, la abraza y llora.\n– Perdóname, hija mía. Ahora lo sé: la sal vale más que el oro.",
+        "Es la moraleja de la fábula: las cosas sencillas, como la sal o una persona sincera, nos parecen pequeñas. Pero sin ellas no podemos vivir."
+      ],
+      "a2": [
+        "Érase una vez un rey viejo que tenía tres hijas. Al rey le gustaban las palabras dulces, y un día llamó a sus hijas para saber cuál de ellas lo quería más.",
+        "– Yo te quiero como al oro – dijo la primera. La respuesta le gustó mucho.\n– Yo, como a las joyas más preciosas – dijo la segunda. También esta le gustó.\n– Y yo te quiero como a la sal – dijo Maruška, la más joven.",
+        "Al rey la respuesta no le gustó nada. «¿Como a la sal? ¡A nadie le gusta la sal sola!» Furioso, echó a Maruška del castillo. Ella no lloraba por sí misma: solo le dolía una cosa, que su padre no la hubiera entendido.",
+        "Maruška encontró refugio en la casa de una pastora anciana, en la montaña. Le gustaba aquella vida sencilla: el trabajo con las ovejas, las veladas junto al fuego, el pan hecho en casa.",
+        "Aquel año el invierno fue terrible. Durante meses la nieve cerró los caminos y los carros de la sal ya no llegaron al castillo. Los cocineros lo probaron todo, pero a los señores ya no les gustaba nada: el pan no tenía sabor, las sopas sabían a agua. El rey comía cada vez menos y enfermó.",
+        "Cuando Maruška se enteró, cargó en el trineo un saco de sal de las provisiones de la pastora y bajó al castillo. Con sus propias manos preparó una sopa de verduras y se la llevó a su padre. A la primera cucharada el rey lo comprendió todo.\n– Hija mía, ahora sé cuánto me quieres. Perdóname.",
+        "«Sůl nad zlato» («La sal vale más que el oro») es uno de los cuentos más queridos de la República Checa: lo escribió Božena Němcová en el siglo XIX, y los niños checos todavía hoy se lo saben de memoria. En la versión original la sal desaparece del reino de manera misteriosa; en esta, es el invierno el que se lleva la sal. Pero la moraleja es la misma: las cosas que más valen son a menudo aquellas en las que nunca pensamos."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Num reino distante há um rei velho. No castelo estão as suas três filhas. A mais nova se chama Maruška.",
+        "Um dia o rei pergunta às filhas:\n– Quanto vocês gostam de mim?\n– Como o ouro! – diz a primeira.\n– Como as joias! – diz a segunda.\n– Como o sal – diz Maruška.",
+        "O rei fica bravo.\n– Como o sal? O sal não vale nada! Saia do castelo!\nMaruška chora e vai embora. No bosque há uma casinha: ali mora uma pastora idosa. Maruška fica com ela.",
+        "Chega um inverno longo e frio. Nas estradas da montanha há muita neve. As carroças de sal não chegam mais ao castelo.",
+        "Na cozinha do rei não tem sal. O pão está ruim, a sopa está ruim, tudo está ruim. No castelo há ouro e joias, mas ouro não se come. O rei fica triste e entende: Maruška tem razão.",
+        "Maruška sabe o que está acontecendo. Com a pastora, pega um saco de sal da casa dela e vai ao castelo de trenó. O rei a vê, a abraça e chora.\n– Me perdoe, minha filha. Agora eu sei: o sal vale mais do que o ouro.",
+        "Essa é a moral da fábula: as coisas simples, como o sal ou uma pessoa sincera, parecem pequenas para nós. Mas sem elas não podemos viver."
+      ],
+      "a2": [
+        "Era uma vez um rei velho que tinha três filhas. O rei gostava de palavras doces, e um dia chamou as filhas para saber qual delas gostava mais dele.",
+        "– Eu gosto de você como do ouro – disse a primeira. O rei gostou muito da resposta.\n– Eu, como das joias mais preciosas – disse a segunda. Ele gostou dessa também.\n– E eu gosto de você como do sal – disse Maruška, a mais nova.",
+        "O rei não gostou nada dessa resposta. «Como do sal? Ninguém gosta de sal sozinho!» Furioso, expulsou Maruška do castelo. Ela não chorava por si mesma: só lamentava uma coisa, que o pai não a tivesse entendido.",
+        "Maruška encontrou abrigo na casa de uma pastora idosa, na montanha. Gostava daquela vida simples: o trabalho com as ovelhas, as noites perto do fogo, o pão feito em casa.",
+        "Naquele ano o inverno foi terrível. Durante meses a neve fechou as estradas e as carroças de sal não chegaram mais ao castelo. Os cozinheiros tentaram de tudo, mas os senhores não gostavam de mais nada: o pão não tinha sabor, as sopas tinham gosto de água. O rei comia cada vez menos e adoeceu.",
+        "Quando Maruška soube, carregou no trenó um saco de sal do estoque da pastora e desceu até o castelo. Com as próprias mãos preparou uma sopa de legumes e levou para o pai. Na primeira colherada o rei entendeu tudo.\n– Minha filha, agora sei o quanto você gosta de mim. Me perdoe.",
+        "«Sůl nad zlato» («O sal vale mais que o ouro») é um dos contos mais amados da República Tcheca: foi escrito por Božena Němcová no século XIX, e até hoje as crianças tchecas o sabem de cor. Na versão original o sal some do reino de um jeito misterioso; nesta, quem leva embora o sal é o inverno. A moral, porém, é a mesma: as coisas que mais valem são muitas vezes aquelas em que nunca pensamos."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans un royaume lointain, il y a un vieux roi. Dans le château, il y a ses trois filles. La plus petite s’appelle Maruška.",
+        "Un jour, le roi demande à ses filles :\n– Combien est-ce que vous m’aimez ?\n– Comme l’or ! – dit la première.\n– Comme les bijoux ! – dit la deuxième.\n– Comme le sel – dit Maruška.",
+        "Le roi se fâche.\n– Comme le sel ? Le sel ne vaut rien ! Va-t’en du château !\nMaruška pleure et s’en va. Dans la forêt, il y a une petite maison : une vieille bergère y habite. Maruška reste avec elle.",
+        "Un hiver long et froid arrive. Sur les routes de montagne, il y a beaucoup de neige. Les charrettes de sel n’arrivent plus au château.",
+        "Dans la cuisine du roi, il n’y a pas de sel. Le pain est mauvais, la soupe est mauvaise, tout est mauvais. Dans le château, il y a de l’or et des bijoux, mais l’or ne se mange pas. Le roi est triste et il comprend : Maruška a raison.",
+        "Maruška sait ce qui se passe. Avec la bergère, elle prend un sac de sel chez elle et va au château en traîneau. Le roi la voit, la serre dans ses bras et pleure.\n– Pardonne-moi, ma fille. Maintenant je le sais : le sel vaut plus que l’or.",
+        "C’est la morale de la fable : les choses simples, comme le sel ou une personne sincère, nous semblent petites. Mais sans elles, nous ne pouvons pas vivre."
+      ],
+      "a2": [
+        "Il était une fois un vieux roi qui avait trois filles. Le roi aimait les mots doux, et un jour il a appelé ses filles pour savoir laquelle l’aimait le plus.",
+        "– Je t’aime comme l’or – a dit la première. La réponse lui a beaucoup plu.\n– Moi, comme les bijoux les plus précieux – a dit la deuxième. Celle-ci aussi lui a plu.\n– Et moi, je t’aime comme le sel – a dit Maruška, la plus jeune.",
+        "Cette réponse n’a pas plu du tout au roi. « Comme le sel ? Personne n’aime le sel tout seul ! » Furieux, il a chassé Maruška du château. Elle ne pleurait pas pour elle-même : une seule chose la peinait, son père ne l’avait pas comprise.",
+        "Maruška a trouvé refuge chez une vieille bergère, dans la montagne. Elle aimait cette vie simple : le travail avec les moutons, les soirées au coin du feu, le pain fait maison.",
+        "Cette année-là, l’hiver a été terrible. Pendant des mois, la neige a fermé les routes et les charrettes de sel ne sont plus arrivées au château. Les cuisiniers ont tout essayé, mais plus rien ne plaisait aux seigneurs : le pain n’avait pas de goût, les soupes avaient un goût d’eau. Le roi mangeait de moins en moins et il est tombé malade.",
+        "Quand Maruška l’a appris, elle a chargé sur le traîneau un sac de sel des réserves de la bergère et elle est descendue au château. De ses propres mains, elle a préparé une soupe de légumes et l’a apportée à son père. À la première cuillerée, le roi a tout compris.\n– Ma fille, maintenant je sais combien tu m’aimes. Pardonne-moi.",
+        "« Sůl nad zlato » (« Le sel vaut plus que l’or ») est l’un des contes les plus aimés de la République tchèque : Božena Němcová l’a écrit au XIXe siècle, et aujourd’hui encore les enfants tchèques le connaissent par cœur. Dans la version originale, le sel disparaît du royaume de façon mystérieuse ; dans celle-ci, c’est l’hiver qui enlève le sel. Mais la morale est la même : les choses qui valent le plus sont souvent celles auxquelles nous ne pensons jamais."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V dalekém království žije starý král. Na zámku má tři dcery. Ta nejmladší se jmenuje Maruška.",
+        "Jednoho dne se král dcer zeptá:\n– Jak moc mě máte rády?\n– Jako zlato! – říká první.\n– Jako drahokamy! – říká druhá.\n– Jako sůl, – říká Maruška.",
+        "Král se rozzlobí.\n– Jako sůl? Sůl nemá žádnou cenu! Odejdi ze zámku!\nMaruška pláče a odejde. V lese stojí malá chaloupka: bydlí v ní stará pastýřka. Maruška zůstane u ní.",
+        "Přijde dlouhá a studená zima. Na horských cestách je spousta sněhu. Vozy se solí už na zámek nepřijíždějí.",
+        "V královské kuchyni není sůl. Chleba je nechutný, polévka je nechutná, všechno je nechutné. Na zámku je zlato a drahokamy, ale zlato se jíst nedá. Král je smutný a pochopí: Maruška má pravdu.",
+        "Maruška ví, co se děje. S pastýřkou vezme z chaloupky pytel soli a jede na saních na zámek. Král ji uvidí, obejme ji a pláče.\n– Odpusť mi, dcero. Teď už to vím: sůl je nad zlato.",
+        "To je ponaučení z pohádky: obyčejné věci, jako sůl nebo upřímný člověk, se nám zdají malé. Ale bez nich nemůžeme žít."
+      ],
+      "a2": [
+        "Byl jednou jeden starý král a ten měl tři dcery. Král měl rád sladká slova, a tak si jednoho dne dcery zavolal, aby zjistil, která ho má nejradši.",
+        "– Mám tě ráda jako zlato, – řekla první. Ta odpověď se mu moc líbila.\n– Já jako nejvzácnější drahokamy, – řekla druhá. I ta se mu líbila.\n– A já tě mám ráda jako sůl, – řekla Maruška, ta nejmladší.",
+        "Ta odpověď se králi vůbec nelíbila. „Jako sůl? Samotná sůl nikomu nechutná!“ Rozzuřený vyhnal Marušku ze zámku. Neplakala kvůli sobě: mrzela ji jen jedna věc, že jí otec neporozuměl.",
+        "Maruška našla útočiště v chaloupce staré pastýřky v horách. Líbil se jí ten prostý život: práce s ovcemi, večery u ohně, chleba upečený doma.",
+        "Toho roku byla zima hrozná. Celé měsíce sníh zavíral cesty a vozy se solí už na zámek nedorazily. Kuchaři zkoušeli všechno možné, ale pánům už nechutnalo nic: chleba neměl chuť, polévky chutnaly jako voda. Král jedl čím dál méně a onemocněl.",
+        "Když se to Maruška dozvěděla, naložila na saně pytel soli z pastýřčiných zásob a sjela na zámek. Vlastníma rukama uvařila zeleninovou polévku a přinesla ji otci. Hned po první lžíci král všechno pochopil.\n– Dcero moje, teď vím, jak moc mě máš ráda. Odpusť mi.",
+        "«Sůl nad zlato» je jedna z nejoblíbenějších pohádek v Česku: napsala ji Božena Němcová v 19. století a české děti ji dodnes znají nazpaměť. V původní verzi sůl z království záhadně zmizí; v té naší sůl odnese zima. Ponaučení je ale stejné: věci, které mají největší cenu, jsou často ty, na které nikdy nemyslíme."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W dalekim królestwie żyje stary król. Na zamku mieszkają jego trzy córki. Najmłodsza ma na imię Maruška.",
+        "Pewnego dnia król pyta córki:\n– Jak bardzo mnie kochacie?\n– Jak złoto! – mówi pierwsza.\n– Jak klejnoty! – mówi druga.\n– Jak sól – mówi Maruška.",
+        "Król się złości.\n– Jak sól? Sól nic nie jest warta! Odejdź z zamku!\nMaruška płacze i odchodzi. W lesie stoi mały domek: mieszka w nim stara pasterka. Maruška zostaje u niej.",
+        "Przychodzi długa i mroźna zima. Na górskich drogach leży dużo śniegu. Wozy z solą już nie docierają do zamku.",
+        "W królewskiej kuchni nie ma soli. Chleb jest niedobry, zupa jest niedobra, wszystko jest niedobre. Na zamku jest złoto i klejnoty, ale złota się nie je. Król jest smutny i rozumie: Maruška ma rację.",
+        "Maruška wie, co się dzieje. Razem z pasterką bierze ze swojego domku worek soli i jedzie saniami do zamku. Król ją widzi, przytula ją i płacze.\n– Wybacz mi, córko. Teraz już wiem: sól jest cenniejsza niż złoto.",
+        "To jest morał bajki: proste rzeczy, jak sól albo szczery człowiek, wydają nam się małe. Ale bez nich nie możemy żyć."
+      ],
+      "a2": [
+        "Był sobie stary król, który miał trzy córki. Król lubił słodkie słowa i pewnego dnia zawołał córki, żeby się dowiedzieć, która z nich kocha go najbardziej.",
+        "– Kocham cię jak złoto – powiedziała pierwsza. Ta odpowiedź bardzo mu się spodobała.\n– Ja jak najcenniejsze klejnoty – powiedziała druga. Ta też mu się spodobała.\n– A ja kocham cię jak sól – powiedziała Maruška, najmłodsza.",
+        "Ta odpowiedź wcale się królowi nie spodobała. „Jak sól? Nikt nie lubi samej soli!” Wściekły, wypędził Maruškę z zamku. Nie płakała z powodu siebie: przykro jej było tylko z jednego powodu, że ojciec jej nie zrozumiał.",
+        "Maruška znalazła schronienie w domu starej pasterki, w górach. Podobało jej się to proste życie: praca z owcami, wieczory przy ogniu, domowy chleb.",
+        "Tego roku zima była straszna. Przez wiele miesięcy śnieg zamykał drogi i wozy z solą już nie dotarły do zamku. Kucharze próbowali wszystkiego, ale panom nic już nie smakowało: chleb nie miał smaku, zupy smakowały jak woda. Król jadł coraz mniej i zachorował.",
+        "Kiedy Maruška się o tym dowiedziała, załadowała na sanie worek soli z zapasów pasterki i zjechała do zamku. Własnymi rękami ugotowała zupę jarzynową i zaniosła ją ojcu. Po pierwszej łyżce król wszystko zrozumiał.\n– Córko, teraz wiem, jak bardzo mnie kochasz. Wybacz mi.",
+        "«Sůl nad zlato» („Sól cenniejsza od złota”) to jedna z najbardziej lubianych baśni w Czechach: napisała ją Božena Němcová w XIX wieku, a czeskie dzieci do dziś znają ją na pamięć. W oryginalnej wersji sól znika z królestwa w tajemniczy sposób; w tej zabiera ją zima. Morał jest jednak ten sam: rzeczy najcenniejsze to często te, o których nigdy nie myślimy."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Uzak bir krallıkta yaşlı bir kral var. Şatoda onun üç kızı var. En küçüğünün adı Maruška.",
+        "Bir gün kral kızlarına soruyor:\n– Beni ne kadar seviyorsunuz?\n– Altın kadar! – diyor birincisi.\n– Mücevherler kadar! – diyor ikincisi.\n– Tuz kadar – diyor Maruška.",
+        "Kral kızıyor.\n– Tuz kadar mı? Tuzun hiçbir değeri yok! Git şatodan!\nMaruška ağlıyor ve gidiyor. Ormanda küçük bir ev var: orada yaşlı bir çoban kadın yaşıyor. Maruška onun yanında kalıyor.",
+        "Uzun ve soğuk bir kış geliyor. Dağ yollarında çok kar var. Tuz arabaları artık şatoya ulaşmıyor.",
+        "Kralın mutfağında tuz yok. Ekmek tatsız, çorba tatsız, her şey tatsız. Şatoda altın ve mücevher var ama altın yenmez. Kral üzgün ve anlıyor: Maruška haklı.",
+        "Maruška neler olduğunu biliyor. Çoban kadınla birlikte evinden bir çuval tuz alıyor ve kızakla şatoya gidiyor. Kral onu görüyor, ona sarılıyor ve ağlıyor.\n– Affet beni kızım. Artık biliyorum: tuz altından değerlidir.",
+        "Masalın ana fikri şu: tuz ya da dürüst bir insan gibi basit şeyler bize küçük görünür. Ama onlar olmadan yaşayamayız."
+      ],
+      "a2": [
+        "Bir zamanlar üç kızı olan yaşlı bir kral varmış. Kral tatlı sözleri severmiş ve bir gün kızlarından hangisinin onu daha çok sevdiğini öğrenmek için onları çağırmış.",
+        "– Seni altın kadar seviyorum – demiş birincisi. Bu cevap kralın çok hoşuna gitmiş.\n– Ben de en değerli mücevherler kadar – demiş ikincisi. Bu da hoşuna gitmiş.\n– Ben de seni tuz kadar seviyorum – demiş en küçükleri Maruška.",
+        "Bu cevap kralın hiç hoşuna gitmemiş. «Tuz kadar mı? Tek başına tuzu kimse sevmez!» Öfkeyle Maruška'yı şatodan kovmuş. Maruška kendisi için ağlamıyormuş: onu üzen tek bir şey varmış, babasının onu anlamamış olması.",
+        "Maruška dağda yaşlı bir çoban kadının evinde sığınacak bir yer bulmuş. O sade hayat hoşuna gidiyormuş: koyunlarla çalışmak, ateşin başındaki akşamlar, evde yapılmış ekmek.",
+        "O yıl kış korkunç geçmiş. Aylarca kar yolları kapatmış ve tuz arabaları bir daha şatoya ulaşamamış. Aşçılar her şeyi denemiş ama beylerin artık hiçbir şey hoşuna gitmiyormuş: ekmeğin tadı yokmuş, çorbalar su gibiymiş. Kral gittikçe daha az yiyormuş ve hastalanmış.",
+        "Maruška bunu duyunca çoban kadının erzakından bir çuval tuzu kızağa yüklemiş ve şatoya inmiş. Kendi elleriyle bir sebze çorbası hazırlayıp babasına götürmüş. Kral ilk kaşıkta her şeyi anlamış.\n– Kızım, beni ne kadar sevdiğini şimdi anlıyorum. Affet beni.",
+        "«Sůl nad zlato» («Tuz altından değerlidir») Çek Cumhuriyeti'nin en sevilen masallarından biridir: onu 19. yüzyılda Božena Němcová yazmıştır ve Çek çocukları bugün hâlâ onu ezbere bilir. Asıl anlatımda tuz krallıktan gizemli bir şekilde kaybolur; bizim anlatımımızda ise tuzu alıp götüren kıştır. Ama ana fikir aynıdır: en değerli şeyler çoğu zaman hiç düşünmediğimiz şeylerdir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem fernen Königreich lebt ein alter König. Im Schloss wohnen seine drei Töchter. Die jüngste heißt Maruška.",
+        "Eines Tages fragt der König seine Töchter:\n– Wie lieb habt ihr mich?\n– Wie Gold! – sagt die erste.\n– Wie Juwelen! – sagt die zweite.\n– Wie Salz, – sagt Maruška.",
+        "Der König wird wütend.\n– Wie Salz? Salz ist nichts wert! Verlass das Schloss!\nMaruška weint und geht. Im Wald steht ein kleines Haus: Dort wohnt eine alte Hirtin. Maruška bleibt bei ihr.",
+        "Ein langer, kalter Winter kommt. Auf den Bergstraßen liegt viel Schnee. Die Salzwagen kommen nicht mehr zum Schloss.",
+        "In der Küche des Königs gibt es kein Salz. Das Brot schmeckt schlecht, die Suppe schmeckt schlecht, alles schmeckt schlecht. Im Schloss gibt es Gold und Juwelen, aber Gold kann man nicht essen. Der König ist traurig und versteht: Maruška hat recht.",
+        "Maruška weiß, was passiert. Mit der Hirtin nimmt sie einen Sack Salz aus ihrem Haus und fährt mit dem Schlitten zum Schloss. Der König sieht sie, umarmt sie und weint.\n– Verzeih mir, meine Tochter. Jetzt weiß ich es: Salz ist mehr wert als Gold.",
+        "Das ist die Moral der Fabel: Einfache Dinge, wie Salz oder ein aufrichtiger Mensch, scheinen uns klein. Aber ohne sie können wir nicht leben."
+      ],
+      "a2": [
+        "Es war einmal ein alter König, der hatte drei Töchter. Der König mochte süße Worte, und eines Tages rief er seine Töchter, um zu erfahren, welche ihn am meisten lieb hatte.",
+        "– Ich habe dich lieb wie Gold, – sagte die erste. Die Antwort gefiel ihm sehr.\n– Ich wie die kostbarsten Juwelen, – sagte die zweite. Auch diese gefiel ihm.\n– Und ich habe dich lieb wie Salz, – sagte Maruška, die jüngste.",
+        "Diese Antwort gefiel dem König überhaupt nicht. „Wie Salz? Salz allein mag doch niemand!“ Wütend jagte er Maruška aus dem Schloss. Sie weinte nicht um sich selbst: Nur eines tat ihr leid, dass ihr Vater sie nicht verstanden hatte.",
+        "Maruška fand Zuflucht im Haus einer alten Hirtin, in den Bergen. Ihr gefiel dieses einfache Leben: die Arbeit mit den Schafen, die Abende am Feuer, das selbst gebackene Brot.",
+        "In jenem Jahr war der Winter schrecklich. Monatelang versperrte der Schnee die Straßen, und die Salzwagen kamen nicht mehr ins Schloss. Die Köche probierten alles, aber den Herrschaften schmeckte nichts mehr: Das Brot hatte keinen Geschmack, die Suppen schmeckten nach Wasser. Der König aß immer weniger und wurde krank.",
+        "Als Maruška davon erfuhr, lud sie einen Sack Salz aus den Vorräten der Hirtin auf den Schlitten und fuhr hinunter zum Schloss. Mit eigenen Händen kochte sie eine Gemüsesuppe und brachte sie ihrem Vater. Beim ersten Löffel verstand der König alles.\n– Meine Tochter, jetzt weiß ich, wie lieb du mich hast. Verzeih mir.",
+        "«Sůl nad zlato» („Salz ist mehr wert als Gold“) ist eines der beliebtesten Märchen Tschechiens: Božena Němcová hat es im 19. Jahrhundert geschrieben, und tschechische Kinder kennen es noch heute auswendig. In der Originalfassung verschwindet das Salz auf geheimnisvolle Weise aus dem Königreich; in dieser hier nimmt der Winter das Salz weg. Die Moral ist aber dieselbe: Die Dinge, die am meisten wert sind, sind oft die, an die wir nie denken."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "遠い王国に、年をとった王さまがいます。お城には、三人の娘がいます。いちばん下の娘の名前はマルシュカです。",
+        "ある日、王さまは娘たちにたずねます。\n「わたしのことを、どのくらい大切に思っているかね？」\n「金のように！」と一番目の娘が言います。\n「宝石のように！」と二番目の娘が言います。\n「塩のように」とマルシュカが言います。",
+        "王さまは怒ります。\n「塩のように？　塩など何の値打ちもない！　城から出ていけ！」\nマルシュカは泣きながら出ていきます。森には小さな家があり、年をとった羊飼いの女の人が住んでいます。マルシュカはその人のところにとどまります。",
+        "長くて寒い冬がやって来ます。山の道には雪がたくさん積もります。塩を運ぶ荷車は、もうお城に着きません。",
+        "王さまの台所には塩がありません。パンはまずく、スープもまずく、何もかもまずいのです。お城には金も宝石もありますが、金は食べられません。王さまは悲しくなって、わかります。マルシュカが正しかったのです。",
+        "マルシュカは何が起きているか知っています。羊飼いの女の人といっしょに、家から塩をひと袋持って、そりでお城へ行きます。王さまはマルシュカを見ると、抱きしめて泣きます。\n「許しておくれ、娘よ。今ならわかる。塩は金よりも大切なのだ。」",
+        "これがこのお話の教訓です。塩や正直な人のような、ありふれたものは小さく見えます。でも、それがなければわたしたちは生きていけないのです。"
+      ],
+      "a2": [
+        "むかしむかし、三人の娘をもつ年老いた王さまがいました。王さまは甘い言葉が好きで、ある日、だれがいちばん自分を大切に思っているか知ろうと、娘たちを呼びました。",
+        "「わたしはお父さまを金のように大切に思っています」と一番目の娘が言いました。王さまはその答えがとても気に入りました。\n「わたしは、いちばん高価な宝石のように」と二番目の娘が言いました。王さまはこれも気に入りました。\n「そしてわたしは、お父さまを塩のように大切に思っています」と、いちばん下のマルシュカが言いました。",
+        "王さまはその答えがまったく気に入りませんでした。「塩のようにだと？　塩だけを好きな者などいるものか！」　王さまは激怒して、マルシュカを城から追い出しました。マルシュカは自分のために泣いていたのではありません。ただひとつ残念だったのは、父親にわかってもらえなかったことでした。",
+        "マルシュカは、山に住む年老いた羊飼いの女の人の家に身を寄せました。マルシュカはその素朴な暮らしが気に入りました。羊の世話、炉ばたで過ごす夜、家で焼いたパン。",
+        "その年の冬はひどいものでした。何か月も雪が道をふさぎ、塩を運ぶ荷車はもうお城に着きませんでした。料理人たちはあらゆることを試しましたが、殿さまたちはもう何も気に入りませんでした。パンには味がなく、スープは水の味しかしませんでした。王さまはだんだん食べなくなり、病気になってしまいました。",
+        "それを知ったマルシュカは、羊飼いの女の人のたくわえから塩をひと袋そりに積んで、お城へ下りていきました。自分の手で野菜のスープを作り、父親のところへ運びました。最初のひと口で、王さまはすべてがわかりました。\n「娘よ、おまえがどれほどわたしを大切に思っているか、今わかった。許しておくれ。」",
+        "「Sůl nad zlato（塩は金にまさる）」は、チェコでいちばん愛されている昔話の一つです。19世紀にボジェナ・ニェムツォヴァーが書き、今でもチェコの子どもたちはこの話を暗記しています。もとの話では、塩は不思議な方法で王国から消えてしまいますが、この話では塩を奪うのは冬です。けれども教訓は同じです。いちばん価値のあるものは、ふだん考えもしないものであることが多いのです。"
+      ]
+    }
+  }
+}
