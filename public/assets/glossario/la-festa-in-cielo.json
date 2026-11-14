@@ -1,0 +1,481 @@
+{
+  "id": "la-festa-in-cielo",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la notizia",
+      "forme": ["notizia"],
+      "formeEsempi": ["notizie"],
+      "esempi": ["Ho una bella notizia: mi sposo!", "Hai sentito le notizie di oggi?", "È una notizia triste."],
+      "traduzioni": { "en": "news, a piece of news", "es": "noticia", "pt": "notícia", "fr": "nouvelle", "cs": "zpráva", "pl": "wiadomość", "tr": "haber", "de": "Nachricht", "ja": "知らせ" }
+    },
+    {
+      "parola": "l'invitato",
+      "forme": ["invitati"],
+      "formeEsempi": ["invitato"],
+      "esempi": ["Al matrimonio ci sono cento invitati.", "Sei invitato alla mia festa!", "Tutti i vicini sono invitati."],
+      "traduzioni": { "en": "invited; guest", "es": "invitado", "pt": "convidado", "fr": "invité", "cs": "pozvaný, host", "pl": "zaproszony, gość", "tr": "davetli", "de": "eingeladen; Gast", "ja": "招待された、客" }
+    },
+    {
+      "parola": "il rospo",
+      "forme": ["rospo"],
+      "formeEsempi": ["rospi"],
+      "esempi": ["Il rospo vive vicino allo stagno.", "Di sera i rospi cantano.", "Il rospo ha la pelle piena di bozzi."],
+      "traduzioni": { "en": "toad", "es": "sapo", "pt": "sapo", "fr": "crapaud", "cs": "ropucha", "pl": "ropucha", "tr": "kara kurbağası", "de": "Kröte", "ja": "ヒキガエル" }
+    },
+    {
+      "parola": "l'ala",
+      "forme": ["ali"],
+      "formeEsempi": ["ala"],
+      "esempi": ["L'aquila apre le sue grandi ali.", "L'uccellino ha un'ala ferita.", "Le farfalle hanno ali coloratissime."],
+      "traduzioni": { "en": "wing (plural: le ali)", "es": "ala (plural: le ali)", "pt": "asa (plural: le ali)", "fr": "aile (pluriel : le ali)", "cs": "křídlo (množné číslo: le ali)", "pl": "skrzydło (l. mn.: le ali)", "tr": "kanat (çoğulu: le ali)", "de": "Flügel (Plural: le ali)", "ja": "つばさ（複数形は le ali）" }
+    },
+    {
+      "parola": "volare",
+      "forme": ["volare", "vola"],
+      "formeEsempi": ["volano"],
+      "esempi": ["In autunno gli uccelli volano verso sud.", "Ho paura di volare in aereo.", "Il palloncino vola via."],
+      "traduzioni": { "en": "to fly", "es": "volar", "pt": "voar", "fr": "voler", "cs": "létat, letět", "pl": "latać, lecieć", "tr": "uçmak", "de": "fliegen", "ja": "飛ぶ" }
+    },
+    {
+      "parola": "l'avvoltoio",
+      "forme": ["avvoltoio"],
+      "formeEsempi": ["avvoltoi"],
+      "esempi": ["L'avvoltoio vola in cerchio nel cielo.", "L'avvoltoio ha il collo senza piume.", "Sulle montagne vivono gli avvoltoi."],
+      "traduzioni": { "en": "vulture", "es": "buitre", "pt": "urubu", "fr": "vautour", "cs": "sup", "pl": "sęp", "tr": "akbaba", "de": "Geier", "ja": "ハゲワシ" }
+    },
+    {
+      "parola": "la viola",
+      "forme": ["viola"],
+      "esempi": ["Mio zio suona la viola.", "La viola è uno strumento a corde.", "In Brasile la viola caipira ha dieci corde."],
+      "traduzioni": { "en": "viola, a stringed instrument (here not the colour “violet”)", "es": "viola (instrumento de cuerda)", "pt": "viola (como a viola caipira)", "fr": "viole, instrument à cordes", "cs": "viola (strunný nástroj)", "pl": "altówka, instrument strunowy", "tr": "viyola (telli çalgı)", "de": "Bratsche, Saiteninstrument", "ja": "ビオラ（弦楽器）" }
+    },
+    {
+      "parola": "saltare",
+      "forme": ["salta"],
+      "formeEsempi": ["saltare"],
+      "esempi": ["Il bambino salta nelle pozzanghere.", "Il gatto salta sul tavolo.", "Mi piace saltare la corda."],
+      "traduzioni": { "en": "to jump", "es": "saltar", "pt": "pular", "fr": "sauter", "cs": "skočit", "pl": "skoczyć", "tr": "atlamak, zıplamak", "de": "springen", "ja": "とびこむ、跳ぶ" }
+    },
+    {
+      "parola": "la stanza",
+      "forme": ["stanza"],
+      "formeEsempi": ["stanze"],
+      "esempi": ["La mia stanza è piccola ma luminosa.", "In questa casa ci sono cinque stanze.", "Esco dalla stanza e chiudo la porta."],
+      "traduzioni": { "en": "room", "es": "habitación", "pt": "quarto, cômodo", "fr": "pièce, chambre", "cs": "pokoj, místnost", "pl": "pokój", "tr": "oda", "de": "Zimmer", "ja": "部屋" }
+    },
+    {
+      "parola": "stare zitto",
+      "forme": ["zitto"],
+      "formeEsempi": ["zitti"],
+      "esempi": ["Stai zitto, per favore: il film comincia!", "Il bambino è stato zitto tutta la lezione.", "Zitti! Sento un rumore."],
+      "traduzioni": { "en": "to keep quiet («zitto!» = quiet!)", "es": "callarse, quedarse callado", "pt": "ficar quieto, calado", "fr": "se taire", "cs": "být zticha", "pl": "być cicho, milczeć", "tr": "susmak, sessiz durmak", "de": "still sein, schweigen", "ja": "だまっている" }
+    },
+    {
+      "parola": "pesante",
+      "forme": ["pesante"],
+      "esempi": ["Questa valigia è pesante.", "Oggi ho mangiato un pranzo pesante.", "La neve pesante rompe i rami."],
+      "traduzioni": { "en": "heavy", "es": "pesado", "pt": "pesado", "fr": "lourd", "cs": "těžký", "pl": "ciężki", "tr": "ağır", "de": "schwer", "ja": "重い" }
+    },
+    {
+      "parola": "il tavolo",
+      "forme": ["tavolo"],
+      "esempi": ["Il pranzo è sul tavolo.", "In cucina abbiamo un tavolo di legno.", "Prenoto un tavolo al ristorante."],
+      "traduzioni": { "en": "table", "es": "mesa", "pt": "mesa", "fr": "table", "cs": "stůl", "pl": "stół", "tr": "masa", "de": "Tisch", "ja": "テーブル" }
+    },
+    {
+      "parola": "sorpreso",
+      "forme": ["sorpresi", "sorpreso"],
+      "formeEsempi": ["sorpresa"],
+      "esempi": ["Sono sorpreso: non ti aspettavo!", "Mia madre è rimasta sorpresa del regalo.", "Perché siete così sorpresi?"],
+      "traduzioni": { "en": "surprised", "es": "sorprendido", "pt": "surpreso", "fr": "surpris", "cs": "překvapený", "pl": "zaskoczony", "tr": "şaşırmış", "de": "überrascht", "ja": "びっくりした" }
+    },
+    {
+      "parola": "ballare",
+      "forme": ["balla", "ballavano", "ballare"],
+      "formeEsempi": ["ballano"],
+      "esempi": ["Mi piace ballare.", "Alla festa tutti ballano.", "Mia sorella balla il tango."],
+      "traduzioni": { "en": "to dance", "es": "bailar", "pt": "dançar", "fr": "danser", "cs": "tancovat", "pl": "tańczyć", "tr": "dans etmek", "de": "tanzen", "ja": "踊る" }
+    },
+    {
+      "parola": "il rumore",
+      "forme": ["rumore"],
+      "esempi": ["Che cos'è questo rumore?", "Di notte sento il rumore delle macchine.", "I bambini fanno troppo rumore."],
+      "traduzioni": { "en": "noise", "es": "ruido", "pt": "barulho", "fr": "bruit", "cs": "zvuk, hluk", "pl": "hałas, szmer", "tr": "ses, gürültü", "de": "Geräusch", "ja": "物音" }
+    },
+    {
+      "parola": "girare (capovolgere)",
+      "forme": ["gira", "girato"],
+      "formeEsempi": ["giro"],
+      "esempi": ["Gira la pagina, per favore.", "Ho girato il bicchiere per farlo asciugare.", "Gira il foglio: c'è un altro esercizio."],
+      "traduzioni": { "en": "to turn (over), to flip (upside down)", "es": "dar la vuelta, voltear", "pt": "virar (de cabeça para baixo)", "fr": "retourner", "cs": "otočit, obrátit", "pl": "odwrócić", "tr": "ters çevirmek", "de": "umdrehen", "ja": "ひっくり返す" }
+    },
+    {
+      "parola": "il sasso",
+      "forme": ["sassi"],
+      "formeEsempi": ["sasso"],
+      "esempi": ["I bambini tirano i sassi nel fiume.", "Sulla spiaggia ci sono tanti sassi.", "Ho un sasso nella scarpa."],
+      "traduzioni": { "en": "stone, pebble", "es": "piedra", "pt": "pedra", "fr": "caillou, pierre", "cs": "kámen", "pl": "kamień", "tr": "taş", "de": "Stein", "ja": "石" }
+    },
+    {
+      "parola": "il bozzo",
+      "forme": ["bozzi"],
+      "formeEsempi": ["bozzo"],
+      "esempi": ["La pelle del rospo è piena di bozzi.", "Dopo la caduta mi è venuto un bozzo in testa.", "Ho un bozzo sulla fronte."],
+      "traduzioni": { "en": "bump, lump", "es": "bulto, chichón", "pt": "calombo, galo", "fr": "bosse", "cs": "boule, hrbolek", "pl": "guz", "tr": "yumru, şişlik", "de": "Beule", "ja": "こぶ、でこぼこ" }
+    },
+    {
+      "parola": "l'inganno",
+      "forme": ["inganno"],
+      "esempi": ["Era tutto un inganno: il premio non esisteva.", "Ho capito l'inganno troppo tardi.", "Con un inganno, la volpe convince il corvo a cantare."],
+      "traduzioni": { "en": "trick, deception («con l'inganno» = by trickery)", "es": "engaño", "pt": "engano, trapaça", "fr": "ruse, tromperie", "cs": "lest, podvod", "pl": "podstęp", "tr": "hile", "de": "List, Betrug", "ja": "だまし、ずるい手" }
+    },
+    {
+      "parola": "il modo",
+      "forme": ["modo"],
+      "esempi": ["C'è un modo più facile per farlo.", "In che modo vai al lavoro?", "Non c'è modo di convincerlo."],
+      "traduzioni": { "en": "way, manner", "es": "modo, manera", "pt": "modo, jeito", "fr": "moyen, façon", "cs": "způsob", "pl": "sposób", "tr": "yol, yöntem", "de": "Weg, Art", "ja": "方法" }
+    },
+    {
+      "parola": "salire",
+      "forme": ["salire"],
+      "formeEsempi": ["sale", "saliamo", "saliva"],
+      "esempi": ["Il gatto sale sul tavolo.", "Saliamo sull'autobus.", "Il nonno saliva piano le scale."],
+      "traduzioni": { "en": "to go up, to climb", "es": "subir", "pt": "subir", "fr": "monter", "cs": "vystoupat, jít nahoru", "pl": "wejść, wznieść się", "tr": "çıkmak", "de": "hinaufsteigen", "ja": "のぼる" }
+    },
+    {
+      "parola": "scendere",
+      "forme": ["scendere"],
+      "formeEsempi": ["scendo", "sceso"],
+      "esempi": ["Scendo dall'autobus alla prossima fermata.", "Il gatto è sceso dall'albero.", "Prima di salire, pensa a come scendere!"],
+      "traduzioni": { "en": "to go down, to come down", "es": "bajar", "pt": "descer", "fr": "descendre", "cs": "sestoupit, slézt", "pl": "zejść", "tr": "inmek", "de": "hinuntergehen", "ja": "下りる" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "sapere (venire a sapere)",
+      "forme": ["saputo"],
+      "esempi": ["Ho saputo che ti sposi!", "Come hai saputo la notizia?", "L'abbiamo saputo ieri sera."],
+      "traduzioni": { "en": "to find out, to hear («ho saputo» = I heard)", "es": "enterarse («ho saputo» = me he enterado)", "pt": "ficar sabendo", "fr": "apprendre («ho saputo» = j’ai appris)", "cs": "dozvědět se", "pl": "dowiedzieć się", "tr": "öğrenmek, duymak", "de": "erfahren", "ja": "知る、聞く" }
+    },
+    {
+      "parola": "sentirsi",
+      "forme": ["sentiva"],
+      "formeEsempi": ["sento", "senti"],
+      "esempi": ["Oggi mi sento stanco.", "Come ti senti?", "La nonna non si sentiva bene."],
+      "traduzioni": { "en": "to feel", "es": "sentirse", "pt": "sentir-se", "fr": "se sentir", "cs": "cítit se", "pl": "czuć się", "tr": "hissetmek", "de": "sich fühlen", "ja": "（気持ちが）〜だ、感じる" }
+    },
+    {
+      "parola": "restare",
+      "forme": ["restare"],
+      "formeEsempi": ["resto", "restati"],
+      "esempi": ["Stasera resto a casa.", "Voglio restare qui ancora un po'.", "Siamo restati in montagna una settimana."],
+      "traduzioni": { "en": "to stay", "es": "quedarse", "pt": "ficar", "fr": "rester", "cs": "zůstat", "pl": "zostać", "tr": "kalmak", "de": "bleiben", "ja": "残る、いる" }
+    },
+    {
+      "parola": "il/la musicista",
+      "forme": ["musicista"],
+      "formeEsempi": ["musicisti"],
+      "esempi": ["Mio cugino è un musicista: suona la chitarra.", "In piazza ci sono dei musicisti di strada.", "Da grande voglio fare il musicista."],
+      "traduzioni": { "en": "musician", "es": "músico", "pt": "músico", "fr": "musicien", "cs": "muzikant, hudebník", "pl": "muzyk", "tr": "müzisyen", "de": "Musiker", "ja": "音楽家" }
+    },
+    {
+      "parola": "andare a trovare",
+      "forme": ["trovarlo"],
+      "formeEsempi": ["trovare", "trovarmi"],
+      "esempi": ["Domani vado a trovare la nonna.", "Vieni a trovarmi quando vuoi!", "Siamo andati a trovarlo in ospedale."],
+      "traduzioni": { "en": "to go and see, to visit (a person)", "es": "ir a ver, visitar", "pt": "visitar, ir ver", "fr": "aller voir, rendre visite à", "cs": "navštívit", "pl": "odwiedzić", "tr": "ziyaret etmek, görmeye gitmek", "de": "besuchen", "ja": "訪ねる" }
+    },
+    {
+      "parola": "la piuma",
+      "forme": ["piume"],
+      "formeEsempi": ["piuma"],
+      "esempi": ["Il pavone ha piume coloratissime.", "Questo cuscino è pieno di piume.", "Questa borsa è leggera come una piuma!"],
+      "traduzioni": { "en": "feather", "es": "pluma", "pt": "pena", "fr": "plume", "cs": "pero, peří", "pl": "pióro", "tr": "tüy", "de": "Feder", "ja": "羽" }
+    },
+    {
+      "parola": "prepararsi",
+      "forme": ["preparava"],
+      "formeEsempi": ["preparo", "preparati"],
+      "esempi": ["Mi preparo per uscire.", "Preparati, partiamo tra dieci minuti!", "Mentre si preparava, ha sentito il telefono."],
+      "traduzioni": { "en": "to get ready", "es": "prepararse", "pt": "preparar-se, se arrumar", "fr": "se préparer", "cs": "chystat se", "pl": "przygotowywać się", "tr": "hazırlanmak", "de": "sich fertig machen", "ja": "したくをする" }
+    },
+    {
+      "parola": "lo strumento",
+      "forme": ["strumento"],
+      "esempi": ["Suoni uno strumento?", "Il pianoforte è il mio strumento preferito.", "Questo strumento è molto antico."],
+      "traduzioni": { "en": "(musical) instrument", "es": "instrumento", "pt": "instrumento", "fr": "instrument", "cs": "nástroj", "pl": "instrument", "tr": "çalgı, enstrüman", "de": "Instrument", "ja": "楽器" }
+    },
+    {
+      "parola": "piano",
+      "forme": ["piano"],
+      "esempi": ["Parla più piano, per favore.", "Guida piano: c'è nebbia.", "Il nonno cammina piano."],
+      "traduzioni": { "en": "slowly (also: softly)", "es": "despacio", "pt": "devagar", "fr": "lentement, doucement", "cs": "pomalu", "pl": "powoli", "tr": "yavaşça", "de": "langsam", "ja": "ゆっくり" }
+    },
+    {
+      "parola": "la luce",
+      "forme": ["luci"],
+      "formeEsempi": ["luce"],
+      "esempi": ["Accendi la luce, per favore.", "Di sera la città è piena di luci.", "Dalla finestra entra molta luce."],
+      "traduzioni": { "en": "light", "es": "luz", "pt": "luz", "fr": "lumière", "cs": "světlo", "pl": "światło", "tr": "ışık", "de": "Licht", "ja": "明かり" }
+    },
+    {
+      "parola": "mettersi a",
+      "forme": ["messo"],
+      "formeEsempi": ["messa"],
+      "esempi": ["Quando l'ha visto, si è messo a ridere.", "Mi sono messa a studiare alle otto.", "Il bambino si è messo a piangere."],
+      "traduzioni": { "en": "to start (doing something)", "es": "ponerse a", "pt": "começar a, pôr-se a", "fr": "se mettre à", "cs": "dát se do", "pl": "zacząć", "tr": "-meye başlamak", "de": "anfangen zu", "ja": "〜しはじめる" }
+    },
+    {
+      "parola": "il segreto",
+      "forme": ["segreto"],
+      "esempi": ["Ti dico un segreto.", "È un segreto: non dirlo a nessuno!", "Qual è il segreto di questa torta?"],
+      "traduzioni": { "en": "secret", "es": "secreto", "pt": "segredo", "fr": "secret", "cs": "tajemství", "pl": "tajemnica", "tr": "sır", "de": "Geheimnis", "ja": "ひみつ" }
+    },
+    {
+      "parola": "tondo",
+      "forme": ["tondi"],
+      "formeEsempi": ["tondo", "tonda"],
+      "esempi": ["Stasera la luna è tonda.", "Il gatto ha gli occhi tondi.", "Abbiamo un tavolo tondo."],
+      "traduzioni": { "en": "round", "es": "redondo", "pt": "redondo", "fr": "rond", "cs": "kulatý", "pl": "okrągły", "tr": "yuvarlak", "de": "rund", "ja": "まるい" }
+    },
+    {
+      "parola": "salvarsi",
+      "forme": ["salvato"],
+      "formeEsempi": ["salvati"],
+      "esempi": ["Per fortuna si è salvato.", "Il gatto è caduto dal balcone, ma si è salvato.", "Tutti si sono salvati dal fuoco."],
+      "traduzioni": { "en": "to survive, to be saved", "es": "salvarse", "pt": "salvar-se", "fr": "s’en sortir, être sauvé", "cs": "zachránit se, přežít", "pl": "ocaleć, przeżyć", "tr": "kurtulmak", "de": "sich retten, überleben", "ja": "助かる" }
+    },
+    {
+      "parola": "esistere",
+      "forme": ["esistono"],
+      "formeEsempi": ["esiste"],
+      "esempi": ["Nel mondo esistono tante lingue.", "Secondo te, gli alieni esistono?", "Questo negozio esiste da cento anni."],
+      "traduzioni": { "en": "to exist («ne esistono molte» = there are many of them)", "es": "existir", "pt": "existir", "fr": "exister", "cs": "existovat", "pl": "istnieć", "tr": "var olmak", "de": "existieren, geben", "ja": "ある、存在する" }
+    },
+    {
+      "parola": "la versione",
+      "forme": ["versioni"],
+      "formeEsempi": ["versione"],
+      "esempi": ["Ho visto la versione originale del film.", "Esistono molte versioni di questa favola.", "Scarica l'ultima versione dell'app."],
+      "traduzioni": { "en": "version", "es": "versión", "pt": "versão", "fr": "version", "cs": "verze", "pl": "wersja", "tr": "anlatım, versiyon", "de": "Fassung", "ja": "話、バージョン" }
+    },
+    {
+      "parola": "la furbizia",
+      "forme": ["furbizia"],
+      "esempi": ["Con la furbizia la volpe prende il formaggio.", "La sua furbizia lo aiuta sempre.", "Ci vuole un po' di furbizia per vincere."],
+      "traduzioni": { "en": "cunning, cleverness", "es": "astucia", "pt": "esperteza, malandragem", "fr": "ruse", "cs": "chytrost, lstivost", "pl": "spryt", "tr": "kurnazlık", "de": "Schlauheit, List", "ja": "ずる賢さ" }
+    },
+    {
+      "parola": "riportare",
+      "forme": ["riporta"],
+      "formeEsempi": ["riporto", "riportato", "riporti"],
+      "esempi": ["Domani riporto il libro in biblioteca.", "Mi riporti a casa dopo la festa?", "Ho riportato la giacca al negozio."],
+      "traduzioni": { "en": "to bring back, to take back", "es": "devolver, llevar de vuelta", "pt": "trazer de volta, levar de volta", "fr": "ramener, rapporter", "cs": "přivést zpátky", "pl": "przyprowadzić z powrotem", "tr": "geri getirmek", "de": "zurückbringen", "ja": "連れもどす" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "One morning news arrives in the woods: there's a big party in the sky. All the birds are invited.",
+        "The toad is sad. The toad has no wings and can't fly, but he loves music and wants to go to the party.",
+        "The vulture plays the viola. The toad goes to the vulture's house and says: “Hi, friend! Shall we go to the party together?” The vulture laughs: “A toad in the sky? You can't come!”",
+        "The toad waits. When the vulture leaves the room, the toad jumps into the viola and keeps quiet.",
+        "The vulture takes the viola and flies towards the sky. The viola is heavy. “Today my viola is very heavy,” says the vulture.",
+        "At the party the toad comes out of the viola. The birds look at the toad on the table and are very surprised. The toad dances and sings all night. He's very happy.",
+        "In the morning the party ends. The toad jumps into the viola again and the vulture flies towards the earth. But now the vulture hears a noise in the viola, looks inside and sees the toad. The vulture turns the viola upside down.",
+        "The toad falls from the sky and shouts: “Move, stones! Move, stones!” But the stones don't move. The toad falls on the stones and doesn't die, but his back is full of bumps. Toads still have backs like that today.",
+        "That's the moral of the tale: whoever goes somewhere by trickery must also find a way to come back. Before you go up, think about how to come down!"
+      ],
+      "a2": [
+        "Long ago, in the north-east of Brazil, the birds heard that there was a big party in the sky. Everyone talked about nothing else. The toad listened and felt sad: he had no wings, but he loved music and didn't want to stay at home.",
+        "The vulture was the musician of the woods: he played the viola at every party. On the day of the party the toad went to see him.\n– So, friend, see you in the sky? – he said.\nThe vulture laughed so hard that he almost lost his feathers.",
+        "While the vulture was getting ready, the toad saw the viola on the table. He waited a moment, got into the instrument and didn't say another word. Shortly afterwards the vulture took the viola and began to fly. He climbed slowly, because the instrument was strange and heavy.",
+        "In the sky there were lights, music and good things. While everyone was dancing, the toad came out of the viola and started dancing with the others. The birds couldn't believe their eyes. The vulture was the most surprised of all.\n– And how did you get here? – he asked.\n– It's a secret, – answered the toad.",
+        "The next morning, while the birds were going home, the toad got into the viola again. This time, though, the vulture heard him. He looked into the instrument, saw two round eyes and understood everything. So he turned the viola upside down.",
+        "The toad fell down, faster and faster. As he fell, he saw the stones coming closer and shouted: “Move, stones! Move, stones!” Of course the stones stayed where they were. The toad survived, but since that day his back has been full of bumps.",
+        "In Brazil this story is very old and there are many versions of it. Luís da Câmara Cascudo collected it in Rio Grande do Norte; in other versions there's a tortoise instead of the toad. But the moral doesn't change: cunning can take you up high, but it doesn't always bring you back home."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Una mañana llega una noticia al bosque: hay una gran fiesta en el cielo. Todos los pájaros están invitados.",
+        "El sapo está triste. El sapo no tiene alas y no sabe volar, pero le encanta la música y quiere ir a la fiesta.",
+        "El buitre toca la viola. El sapo va a casa del buitre y dice: «¡Hola, amigo! ¿Vamos juntos a la fiesta?» El buitre se ríe: «¿Un sapo en el cielo? ¡Tú no puedes venir!»",
+        "El sapo espera. Cuando el buitre sale de la habitación, el sapo salta dentro de la viola y se queda callado.",
+        "El buitre coge la viola y vuela hacia el cielo. La viola pesa. «Hoy mi viola pesa mucho», dice el buitre.",
+        "En la fiesta el sapo sale de la viola. Los pájaros miran al sapo sobre la mesa y se quedan muy sorprendidos. El sapo baila y canta toda la noche. Está muy contento.",
+        "Por la mañana la fiesta termina. El sapo salta otra vez dentro de la viola y el buitre vuela hacia la tierra. Pero ahora el buitre oye un ruido en la viola, mira dentro y ve al sapo. El buitre le da la vuelta a la viola.",
+        "El sapo cae del cielo y grita: «¡Apartaos, piedras! ¡Apartaos, piedras!» Pero las piedras no se mueven. El sapo cae sobre las piedras y no se muere, pero tiene la espalda llena de bultos. Todavía hoy los sapos tienen la espalda así.",
+        "Es la moraleja del cuento: quien va a un sitio con engaños, luego también tiene que encontrar la manera de volver. Antes de subir, ¡piensa en cómo bajar!"
+      ],
+      "a2": [
+        "Hace mucho tiempo, en el noreste de Brasil, los pájaros se enteraron de que había una gran fiesta en el cielo. Todos hablaban solo de eso. El sapo escuchaba y se sentía triste: no tenía alas, pero le encantaba la música y no quería quedarse en casa.",
+        "El buitre era el músico del bosque: tocaba la viola en todas las fiestas. El día de la fiesta el sapo fue a verlo.\n– Bueno, amigo, ¿nos vemos en el cielo? – le dijo.\nEl buitre se rio tan fuerte que casi perdió las plumas.",
+        "Mientras el buitre se preparaba, el sapo vio la viola sobre la mesa. Esperó un momento, se metió en el instrumento y no dijo ni una palabra más. Poco después el buitre cogió la viola y empezó a volar. Subía despacio, porque el instrumento estaba raro y pesaba.",
+        "En el cielo había luces, música y cosas ricas. Mientras todos bailaban, el sapo salió de la viola y se puso a bailar con los demás. Los pájaros no daban crédito a sus ojos. El buitre era el más sorprendido de todos.\n– ¿Y tú cómo has llegado hasta aquí? – le preguntó.\n– Es un secreto – respondió el sapo.",
+        "A la mañana siguiente, mientras los pájaros volvían a casa, el sapo se metió otra vez en la viola. Pero esta vez el buitre lo oyó. Miró dentro del instrumento, vio dos ojos redondos y lo entendió todo. Entonces le dio la vuelta a la viola.",
+        "El sapo cayó, cada vez más rápido. Mientras caía, veía acercarse las piedras y gritaba: «¡Apartaos, piedras! ¡Apartaos, piedras!» Naturalmente, las piedras se quedaron en su sitio. El sapo se salvó, pero desde aquel día tiene la espalda llena de bultos.",
+        "En Brasil esta historia es muy antigua y existen muchas versiones. Luís da Câmara Cascudo la recogió en Rio Grande do Norte; en otras versiones, en lugar del sapo hay una tortuga. Pero la moraleja no cambia: la astucia te lleva muy alto, pero no siempre te devuelve a casa."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Uma manhã chega uma notícia na mata: vai ter uma grande festa no céu. Todos os pássaros estão convidados.",
+        "O sapo está triste. O sapo não tem asas e não sabe voar, mas adora música e quer ir à festa.",
+        "O urubu toca viola. O sapo vai à casa do urubu e diz: «Oi, amigo! Vamos juntos à festa?» O urubu ri: «Um sapo no céu? Você não pode ir!»",
+        "O sapo espera. Quando o urubu sai do quarto, o sapo pula dentro da viola e fica quietinho.",
+        "O urubu pega a viola e voa para o céu. A viola está pesada. «Hoje a minha viola está muito pesada», diz o urubu.",
+        "Na festa o sapo sai da viola. Os pássaros olham o sapo em cima da mesa e ficam muito surpresos. O sapo dança e canta a noite inteira. Está muito contente.",
+        "De manhã a festa acaba. O sapo pula de novo dentro da viola e o urubu voa para a terra. Mas agora o urubu ouve um barulho na viola, olha dentro e vê o sapo. O urubu vira a viola de cabeça para baixo.",
+        "O sapo cai do céu e grita: «Arreda, pedra! Arreda, pedra!» Mas as pedras não se mexem. O sapo cai em cima das pedras e não morre, mas fica com as costas cheias de calombos. Até hoje os sapos têm as costas assim.",
+        "Essa é a moral do conto: quem vai a um lugar com trapaça também precisa encontrar um jeito de voltar. Antes de subir, pense em como descer!"
+      ],
+      "a2": [
+        "Há muito tempo, no Nordeste do Brasil, os pássaros souberam que ia ter uma grande festa no céu. Todo mundo só falava disso. O sapo escutava e ficava triste: não tinha asas, mas adorava música e não queria ficar em casa.",
+        "O urubu era o músico da mata: tocava viola em todas as festas. No dia da festa o sapo foi visitá-lo.\n– E aí, amigo, a gente se vê no céu? – disse.\nO urubu riu tanto que quase perdeu as penas.",
+        "Enquanto o urubu se arrumava, o sapo viu a viola em cima da mesa. Esperou um momento, entrou no instrumento e não disse mais nenhuma palavra. Pouco depois o urubu pegou a viola e começou a voar. Subia devagar, porque o instrumento estava estranho e pesado.",
+        "No céu havia luzes, música e coisas gostosas. Enquanto todos dançavam, o sapo saiu da viola e começou a dançar com os outros. Os pássaros não acreditavam no que viam. O urubu era o mais surpreso de todos.\n– E você, como chegou aqui? – perguntou.\n– É segredo – respondeu o sapo.",
+        "Na manhã seguinte, enquanto os pássaros voltavam para casa, o sapo entrou de novo na viola. Desta vez, porém, o urubu o ouviu. Olhou dentro do instrumento, viu dois olhos redondos e entendeu tudo. Então virou a viola de cabeça para baixo.",
+        "O sapo caiu, cada vez mais rápido. Enquanto caía, via as pedras se aproximarem e gritava: «Arreda, pedra! Arreda, pedra!» Naturalmente as pedras ficaram no lugar. O sapo se salvou, mas desde aquele dia tem as costas cheias de calombos.",
+        "No Brasil esta história é muito antiga e existem muitas versões dela, como «A festa no céu». Luís da Câmara Cascudo a registrou no Rio Grande do Norte; em outras versões, no lugar do sapo há uma tartaruga (um jabuti). Mas a moral não muda: a esperteza leva você lá para cima, mas nem sempre traz você de volta para casa."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un matin, une nouvelle arrive dans la forêt : il y a une grande fête dans le ciel. Tous les oiseaux sont invités.",
+        "Le crapaud est triste. Le crapaud n’a pas d’ailes et ne sait pas voler, mais il aime la musique et il veut aller à la fête.",
+        "Le vautour joue de la viole. Le crapaud va chez le vautour et dit : « Salut, mon ami ! On va ensemble à la fête ? » Le vautour rit : « Un crapaud dans le ciel ? Tu ne peux pas venir ! »",
+        "Le crapaud attend. Quand le vautour sort de la pièce, le crapaud saute dans la viole et ne dit plus rien.",
+        "Le vautour prend la viole et vole vers le ciel. La viole est lourde. « Aujourd’hui, ma viole est très lourde », dit le vautour.",
+        "À la fête, le crapaud sort de la viole. Les oiseaux regardent le crapaud sur la table et ils sont très surpris. Le crapaud danse et chante toute la nuit. Il est très content.",
+        "Le matin, la fête se termine. Le crapaud saute de nouveau dans la viole et le vautour vole vers la terre. Mais maintenant, le vautour entend un bruit dans la viole, il regarde dedans et voit le crapaud. Le vautour retourne la viole.",
+        "Le crapaud tombe du ciel et crie : « Poussez-vous, cailloux ! Poussez-vous, cailloux ! » Mais les cailloux ne bougent pas. Le crapaud tombe sur les cailloux et ne meurt pas, mais il a le dos plein de bosses. Aujourd’hui encore, les crapauds ont le dos comme ça.",
+        "C’est la morale du conte : celui qui va quelque part par la ruse doit aussi trouver le moyen de revenir. Avant de monter, pense à la façon de descendre !"
+      ],
+      "a2": [
+        "Il y a très longtemps, dans le nord-est du Brésil, les oiseaux ont appris qu’il y avait une grande fête dans le ciel. Tout le monde ne parlait que de ça. Le crapaud écoutait et se sentait triste : il n’avait pas d’ailes, mais il aimait la musique et ne voulait pas rester à la maison.",
+        "Le vautour était le musicien de la forêt : il jouait de la viole à toutes les fêtes. Le jour de la fête, le crapaud est allé le voir.\n– Alors, mon ami, on se voit dans le ciel ? – a-t-il dit.\nLe vautour a ri si fort qu’il a presque perdu ses plumes.",
+        "Pendant que le vautour se préparait, le crapaud a vu la viole sur la table. Il a attendu un moment, il est entré dans l’instrument et n’a plus dit un mot. Peu après, le vautour a pris la viole et a commencé à voler. Il montait lentement, parce que l’instrument était étrange et lourd.",
+        "Dans le ciel, il y avait des lumières, de la musique et de bonnes choses. Pendant que tout le monde dansait, le crapaud est sorti de la viole et s’est mis à danser avec les autres. Les oiseaux n’en croyaient pas leurs yeux. Le vautour était le plus surpris de tous.\n– Et toi, comment tu es arrivé ici ? – a-t-il demandé.\n– C’est un secret – a répondu le crapaud.",
+        "Le lendemain matin, pendant que les oiseaux rentraient chez eux, le crapaud est de nouveau entré dans la viole. Mais cette fois, le vautour l’a entendu. Il a regardé dans l’instrument, il a vu deux yeux ronds et il a tout compris. Alors il a retourné la viole.",
+        "Le crapaud est tombé, de plus en plus vite. Pendant qu’il tombait, il voyait les cailloux s’approcher et il criait : « Poussez-vous, cailloux ! Poussez-vous, cailloux ! » Naturellement, les cailloux sont restés à leur place. Le crapaud s’en est sorti, mais depuis ce jour-là, il a le dos plein de bosses.",
+        "Au Brésil, cette histoire est très ancienne et il en existe beaucoup de versions. Luís da Câmara Cascudo l’a recueillie dans le Rio Grande do Norte ; dans d’autres versions, il y a une tortue à la place du crapaud. Mais la morale ne change pas : la ruse peut t’emmener très haut, mais elle ne te ramène pas toujours à la maison."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Jednoho rána přijde do lesa zpráva: v nebi bude velká slavnost. Všichni ptáci jsou pozvaní.",
+        "Ropucha je smutná. Nemá křídla a neumí létat, ale miluje hudbu a chce jít na slavnost.",
+        "Sup hraje na violu. Ropucha jde k supovi domů a říká: „Ahoj, kamaráde! Půjdeme na slavnost spolu?“ Sup se směje: „Ropucha v nebi? Ty jít nemůžeš!“",
+        "Ropucha čeká. Když sup odejde z pokoje, ropucha skočí do violy a je zticha.",
+        "Sup vezme violu a letí k nebi. Viola je těžká. „Dneska je moje viola nějak těžká,“ říká sup.",
+        "Na slavnosti ropucha vyleze z violy. Ptáci se dívají na ropuchu na stole a jsou moc překvapení. Ropucha tancuje a zpívá celou noc. Má velkou radost.",
+        "Ráno slavnost končí. Ropucha zase skočí do violy a sup letí k zemi. Ale teď sup uslyší ve viole zvuk, podívá se dovnitř a uvidí ropuchu. Sup violu otočí.",
+        "Ropucha padá z nebe a křičí: „Uhněte, kameny! Uhněte, kameny!“ Ale kameny se nehnou. Ropucha spadne na kameny a neumře, ale má záda plná hrbolků. Ropuchy mají taková záda dodnes.",
+        "To je ponaučení z pohádky: kdo jde někam lstí, musí taky najít způsob, jak se vrátit. Než vylezeš nahoru, mysli na to, jak slezeš dolů!"
+      ],
+      "a2": [
+        "Kdysi dávno se na severovýchodě Brazílie ptáci dozvěděli, že v nebi bude velká slavnost. Všichni mluvili jen o tom. Ropucha poslouchala a byla smutná: neměla křídla, ale milovala hudbu a nechtěla zůstat doma.",
+        "Sup byl lesní muzikant: hrál na violu na všech slavnostech. V den slavnosti ho ropucha šla navštívit.\n– Tak co, kamaráde, uvidíme se v nebi? – řekla.\nSup se tak smál, že málem ztratil peří.",
+        "Zatímco se sup chystal, ropucha uviděla na stole violu. Chvíli počkala, vlezla do nástroje a už neřekla ani slovo. Za chvíli sup vzal violu a začal letět. Stoupal pomalu, protože nástroj byl nějaký divný a těžký.",
+        "V nebi byla světla, hudba a dobroty. Zatímco všichni tancovali, ropucha vylezla z violy a dala se do tance s ostatními. Ptáci nevěřili svým očím. Sup byl ze všech nejvíc překvapený.\n– A jak ses sem dostala ty? – zeptal se.\n– To je tajemství, – odpověděla ropucha.",
+        "Druhý den ráno, když se ptáci vraceli domů, vlezla ropucha zase do violy. Tentokrát ji ale sup uslyšel. Podíval se do nástroje, uviděl dvě kulatá oči a všechno pochopil. Tak violu otočil.",
+        "Ropucha padala dolů, čím dál rychleji. Jak padala, viděla, jak se blíží kameny, a křičela: „Uhněte, kameny! Uhněte, kameny!“ Kameny samozřejmě zůstaly na svém místě. Ropucha přežila, ale od toho dne má záda plná hrbolků.",
+        "V Brazílii je tento příběh velmi starý a existuje mnoho jeho verzí. Luís da Câmara Cascudo ho zapsal ve státě Rio Grande do Norte; v jiných verzích je místo ropuchy želva. Ponaučení se ale nemění: chytrost tě dostane vysoko, ale ne vždycky tě dovede zpátky domů."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Pewnego ranka do lasu dociera wiadomość: w niebie jest wielkie przyjęcie. Wszystkie ptaki są zaproszone.",
+        "Ropucha jest smutna. Nie ma skrzydeł i nie umie latać, ale kocha muzykę i chce iść na przyjęcie.",
+        "Sęp gra na altówce. Ropucha idzie do domu sępa i mówi: „Cześć, przyjacielu! Pójdziemy razem na przyjęcie?” Sęp się śmieje: „Ropucha w niebie? Ty nie możesz iść!”",
+        "Ropucha czeka. Kiedy sęp wychodzi z pokoju, ropucha wskakuje do altówki i siedzi cicho.",
+        "Sęp bierze altówkę i leci do nieba. Altówka jest ciężka. „Dziś moja altówka jest bardzo ciężka” – mówi sęp.",
+        "Na przyjęciu ropucha wychodzi z altówki. Ptaki patrzą na ropuchę na stole i są bardzo zaskoczone. Ropucha tańczy i śpiewa przez całą noc. Jest bardzo zadowolona.",
+        "Rano przyjęcie się kończy. Ropucha znowu wskakuje do altówki, a sęp leci na ziemię. Ale teraz sęp słyszy jakiś szmer w altówce, zagląda do środka i widzi ropuchę. Sęp odwraca altówkę.",
+        "Ropucha spada z nieba i krzyczy: „Odsuńcie się, kamienie! Odsuńcie się, kamienie!” Ale kamienie się nie ruszają. Ropucha spada na kamienie i nie umiera, ale ma grzbiet pełen guzów. Do dziś ropuchy mają taki grzbiet.",
+        "To jest morał baśni: kto idzie gdzieś podstępem, musi też znaleźć sposób, żeby wrócić. Zanim wejdziesz na górę, pomyśl, jak zejdziesz!"
+      ],
+      "a2": [
+        "Dawno temu, na północnym wschodzie Brazylii, ptaki dowiedziały się, że w niebie będzie wielkie przyjęcie. Wszyscy mówili tylko o tym. Ropucha słuchała i czuła się smutna: nie miała skrzydeł, ale kochała muzykę i nie chciała zostać w domu.",
+        "Sęp był leśnym muzykantem: grał na altówce na wszystkich przyjęciach. W dniu przyjęcia ropucha poszła go odwiedzić.\n– No to co, przyjacielu, zobaczymy się w niebie? – powiedziała.\nSęp śmiał się tak mocno, że prawie zgubił pióra.",
+        "Kiedy sęp się szykował, ropucha zobaczyła altówkę na stole. Poczekała chwilę, weszła do instrumentu i nie powiedziała już ani słowa. Niedługo potem sęp wziął altówkę i zaczął lecieć. Wznosił się powoli, bo instrument był jakiś dziwny i ciężki.",
+        "W niebie były światła, muzyka i smakołyki. Kiedy wszyscy tańczyli, ropucha wyszła z altówki i zaczęła tańczyć z innymi. Ptaki nie wierzyły własnym oczom. Sęp był najbardziej zaskoczony ze wszystkich.\n– A ty jak się tu dostałaś? – zapytał.\n– To tajemnica – odpowiedziała ropucha.",
+        "Następnego ranka, kiedy ptaki wracały do domu, ropucha znowu weszła do altówki. Tym razem jednak sęp ją usłyszał. Zajrzał do instrumentu, zobaczył dwoje okrągłych oczu i wszystko zrozumiał. Wtedy odwrócił altówkę.",
+        "Ropucha spadała w dół, coraz szybciej. Spadając, widziała, jak zbliżają się kamienie, i krzyczała: „Odsuńcie się, kamienie! Odsuńcie się, kamienie!” Oczywiście kamienie zostały na swoim miejscu. Ropucha ocalała, ale od tego dnia ma grzbiet pełen guzów.",
+        "W Brazylii ta historia jest bardzo stara i istnieje wiele jej wersji. Luís da Câmara Cascudo zapisał ją w stanie Rio Grande do Norte; w innych wersjach zamiast ropuchy jest żółw. Morał się jednak nie zmienia: spryt może zaprowadzić cię wysoko, ale nie zawsze sprowadzi cię z powrotem do domu."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir sabah ormana bir haber gelir: gökyüzünde büyük bir şölen var. Bütün kuşlar davetli.",
+        "Kara kurbağası üzgündür. Kanatları yoktur ve uçamaz ama müziği çok sever ve şölene gitmek ister.",
+        "Akbaba viyola çalar. Kurbağa akbabanın evine gidip der ki: «Merhaba dostum! Şölene birlikte gidelim mi?» Akbaba güler: «Gökyüzünde bir kurbağa mı? Sen gelemezsin!»",
+        "Kurbağa bekler. Akbaba odadan çıkınca kurbağa viyolanın içine atlar ve sesini çıkarmaz.",
+        "Akbaba viyolayı alır ve gökyüzüne doğru uçar. Viyola ağırdır. «Bugün viyolam çok ağır», der akbaba.",
+        "Şölende kurbağa viyoladan çıkar. Kuşlar masanın üstündeki kurbağaya bakar ve çok şaşırırlar. Kurbağa bütün gece dans eder ve şarkı söyler. Çok mutludur.",
+        "Sabah şölen biter. Kurbağa yine viyolanın içine atlar ve akbaba yere doğru uçar. Ama bu sefer akbaba viyolada bir ses duyar, içine bakar ve kurbağayı görür. Akbaba viyolayı ters çevirir.",
+        "Kurbağa gökten düşer ve bağırır: «Çekilin taşlar! Çekilin taşlar!» Ama taşlar kıpırdamaz. Kurbağa taşların üstüne düşer ve ölmez ama sırtı yumrularla dolar. Kara kurbağalarının sırtı bugün hâlâ böyledir.",
+        "Masalın ana fikri şu: bir yere hileyle giden, geri dönmenin yolunu da bulmak zorundadır. Yukarı çıkmadan önce nasıl ineceğini düşün!"
+      ],
+      "a2": [
+        "Çok eskiden, Brezilya'nın kuzeydoğusunda, kuşlar gökyüzünde büyük bir şölen olacağını öğrenmişler. Herkes sadece bundan söz ediyormuş. Kara kurbağası dinliyor ve üzülüyormuş: kanatları yokmuş ama müziği çok seviyormuş ve evde kalmak istemiyormuş.",
+        "Akbaba ormanın müzisyeniymiş: bütün şölenlerde viyola çalarmış. Şölen günü kurbağa onu görmeye gitmiş.\n– Eee dostum, gökte görüşürüz, değil mi? – demiş.\nAkbaba öyle çok gülmüş ki neredeyse tüylerini döküyormuş.",
+        "Akbaba hazırlanırken kurbağa masanın üstünde viyolayı görmüş. Bir an beklemiş, çalgının içine girmiş ve bir daha tek kelime etmemiş. Biraz sonra akbaba viyolayı alıp uçmaya başlamış. Yavaş yavaş yükseliyormuş, çünkü çalgı tuhaf ve ağırmış.",
+        "Gökyüzünde ışıklar, müzik ve güzel yiyecekler varmış. Herkes dans ederken kurbağa viyoladan çıkmış ve ötekilerle dans etmeye başlamış. Kuşlar gözlerine inanamamış. En çok şaşıran da akbabaymış.\n– Sen buraya nasıl geldin? – diye sormuş.\n– Bu bir sır – demiş kurbağa.",
+        "Ertesi sabah kuşlar evlerine dönerken kurbağa yine viyolanın içine girmiş. Ama bu sefer akbaba onu duymuş. Çalgının içine bakmış, iki yuvarlak göz görmüş ve her şeyi anlamış. Bunun üzerine viyolayı ters çevirmiş.",
+        "Kurbağa gittikçe hızlanarak aşağı düşmüş. Düşerken taşların yaklaştığını görüyor ve bağırıyormuş: «Çekilin taşlar! Çekilin taşlar!» Elbette taşlar yerlerinde kalmış. Kurbağa kurtulmuş ama o günden beri sırtı yumrularla doluymuş.",
+        "Brezilya'da bu hikâye çok eskidir ve birçok anlatımı vardır. Luís da Câmara Cascudo onu Rio Grande do Norte'de derlemiştir; başka anlatımlarda kurbağanın yerinde bir kaplumbağa vardır. Ama ana fikir değişmez: kurnazlık seni yükseklere çıkarabilir ama her zaman evine geri götürmez."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Eines Morgens kommt eine Nachricht in den Wald: Im Himmel gibt es ein großes Fest. Alle Vögel sind eingeladen.",
+        "Die Kröte ist traurig. Sie hat keine Flügel und kann nicht fliegen, aber sie liebt Musik und will zum Fest.",
+        "Der Geier spielt die Viola. Die Kröte geht zum Haus des Geiers und sagt: „Hallo, Freund! Gehen wir zusammen zum Fest?“ Der Geier lacht: „Eine Kröte im Himmel? Du kannst nicht mitkommen!“",
+        "Die Kröte wartet. Als der Geier aus dem Zimmer geht, springt die Kröte in die Viola und ist ganz still.",
+        "Der Geier nimmt die Viola und fliegt zum Himmel. Die Viola ist schwer. „Heute ist meine Viola sehr schwer“, sagt der Geier.",
+        "Auf dem Fest kommt die Kröte aus der Viola. Die Vögel sehen die Kröte auf dem Tisch und sind sehr überrascht. Die Kröte tanzt und singt die ganze Nacht. Sie ist sehr froh.",
+        "Am Morgen ist das Fest zu Ende. Die Kröte springt wieder in die Viola, und der Geier fliegt zur Erde. Aber jetzt hört der Geier ein Geräusch in der Viola, schaut hinein und sieht die Kröte. Der Geier dreht die Viola um.",
+        "Die Kröte fällt vom Himmel und ruft: „Geht weg, Steine! Geht weg, Steine!“ Aber die Steine bewegen sich nicht. Die Kröte fällt auf die Steine und stirbt nicht, aber ihr Rücken ist voller Beulen. Noch heute haben Kröten so einen Rücken.",
+        "Das ist die Moral des Märchens: Wer mit einer List irgendwohin kommt, muss auch einen Weg zurück finden. Bevor du hinaufsteigst, denk daran, wie du wieder herunterkommst!"
+      ],
+      "a2": [
+        "Vor langer Zeit erfuhren die Vögel im Nordosten Brasiliens, dass im Himmel ein großes Fest stattfand. Alle sprachen nur noch davon. Die Kröte hörte zu und war traurig: Sie hatte keine Flügel, aber sie liebte Musik und wollte nicht zu Hause bleiben.",
+        "Der Geier war der Musiker des Waldes: Er spielte bei allen Festen die Viola. Am Tag des Festes besuchte ihn die Kröte.\n– Na, Freund, sehen wir uns im Himmel? – sagte sie.\nDer Geier lachte so laut, dass er fast seine Federn verlor.",
+        "Während sich der Geier fertig machte, sah die Kröte die Viola auf dem Tisch. Sie wartete einen Moment, kroch in das Instrument und sagte kein Wort mehr. Kurz darauf nahm der Geier die Viola und flog los. Er stieg langsam, denn das Instrument war seltsam und schwer.",
+        "Im Himmel gab es Lichter, Musik und gute Sachen. Während alle tanzten, kam die Kröte aus der Viola und fing an, mit den anderen zu tanzen. Die Vögel trauten ihren Augen nicht. Der Geier war am meisten überrascht.\n– Und wie bist du hierhergekommen? – fragte er.\n– Das ist ein Geheimnis, – antwortete die Kröte.",
+        "Am nächsten Morgen, während die Vögel nach Hause flogen, kroch die Kröte wieder in die Viola. Diesmal aber hörte der Geier sie. Er schaute in das Instrument, sah zwei runde Augen und verstand alles. Da drehte er die Viola um.",
+        "Die Kröte fiel hinunter, immer schneller. Während sie fiel, sah sie die Steine näher kommen und rief: „Geht weg, Steine! Geht weg, Steine!“ Natürlich blieben die Steine, wo sie waren. Die Kröte überlebte, aber seit jenem Tag ist ihr Rücken voller Beulen.",
+        "In Brasilien ist diese Geschichte sehr alt, und es gibt viele Fassungen davon. Luís da Câmara Cascudo hat sie in Rio Grande do Norte gesammelt; in anderen Fassungen kommt statt der Kröte eine Schildkröte vor. Die Moral bleibt aber gleich: Schlauheit bringt dich hoch hinaus, aber nicht immer wieder nach Hause."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ある朝、森に知らせが届きます。空で大きな宴会があるのです。鳥たちはみんな招待されています。",
+        "ヒキガエルは悲しくなります。つばさがなくて飛べないけれど、音楽が大好きで、宴会に行きたいのです。",
+        "ハゲワシはビオラをひきます。ヒキガエルはハゲワシの家へ行って言います。「やあ、きみ！　いっしょに宴会に行こうよ。」　ハゲワシは笑います。「空にヒキガエル？　きみは来られないよ！」",
+        "ヒキガエルは待ちます。ハゲワシが部屋から出ていくと、ヒキガエルはビオラの中にとびこんで、だまっています。",
+        "ハゲワシはビオラを持って、空へ飛んでいきます。ビオラは重いです。「今日はわたしのビオラがとても重いな」とハゲワシは言います。",
+        "宴会で、ヒキガエルはビオラから出てきます。鳥たちはテーブルの上のヒキガエルを見て、とてもびっくりします。ヒキガエルは一晩じゅう踊って歌います。とてもうれしいのです。",
+        "朝になって、宴会が終わります。ヒキガエルはまたビオラにとびこみ、ハゲワシは地上へ向かって飛びます。でも今度は、ハゲワシはビオラの中で音がするのを聞いて、中をのぞき、ヒキガエルを見つけます。ハゲワシはビオラをひっくり返します。",
+        "ヒキガエルは空から落ちながら叫びます。「どいて、石さん！　どいて、石さん！」　でも石は動きません。ヒキガエルは石の上に落ちます。死にはしませんが、背中がこぶだらけになってしまいます。今でもヒキガエルの背中はそうなっています。",
+        "これがこのお話の教訓です。ずるい方法でどこかへ行った者は、帰る方法も見つけなければなりません。のぼる前に、どうやって下りるか考えなさい！"
+      ],
+      "a2": [
+        "むかし、ブラジルの北東部で、鳥たちは空で大きな宴会があると知りました。みんなその話ばかりしていました。ヒキガエルはそれを聞いて、悲しくなりました。つばさはないけれど、音楽が大好きで、家にいたくなかったのです。",
+        "ハゲワシは森の音楽家で、どの宴会でもビオラをひいていました。宴会の日、ヒキガエルはハゲワシを訪ねました。\n「じゃあ、きみ、空で会おうね？」と言いました。\nハゲワシはあまりに大笑いしたので、羽が抜けそうになりました。",
+        "ハゲワシがしたくをしているあいだに、ヒキガエルはテーブルの上のビオラを見つけました。少し待ってから楽器の中に入り、ひと言もしゃべりませんでした。まもなくハゲワシはビオラを持って飛びはじめました。楽器が妙に重かったので、ゆっくりとのぼっていきました。",
+        "空には明かりと音楽とおいしいものがありました。みんなが踊っているあいだに、ヒキガエルはビオラから出て、ほかの者たちといっしょに踊りはじめました。鳥たちは自分の目が信じられませんでした。いちばん驚いたのはハゲワシでした。\n「きみ、どうやってここに来たんだい？」とたずねました。\n「ひみつだよ」とヒキガエルは答えました。",
+        "次の朝、鳥たちが家に帰るとき、ヒキガエルはまたビオラの中に入りました。でも今度はハゲワシが気づきました。楽器をのぞくと、まるい目が二つ見えて、すべてがわかりました。そこでハゲワシはビオラをひっくり返しました。",
+        "ヒキガエルはどんどん速く落ちていきました。落ちながら、石が近づいてくるのが見えて、叫びました。「どいて、石さん！　どいて、石さん！」　もちろん石は動きませんでした。ヒキガエルは助かりましたが、その日から背中がこぶだらけなのです。",
+        "ブラジルではこの話はとても古く、いろいろな話があります。ルイス・ダ・カマラ・カスクードがリオグランデ・ド・ノルテ州で記録しました。ヒキガエルのかわりにカメが出てくる話もあります。でも教訓は変わりません。ずる賢さは人を高いところへ連れていってくれますが、いつも家まで連れて帰ってくれるとはかぎらないのです。"
+      ]
+    }
+  }
+}
