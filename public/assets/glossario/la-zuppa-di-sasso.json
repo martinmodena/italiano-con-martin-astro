@@ -1,0 +1,490 @@
+{
+  "id": "la-zuppa-di-sasso",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il viaggiatore",
+      "forme": ["viaggiatore"],
+      "formeEsempi": ["viaggiatori", "viaggiatrice"],
+      "esempi": ["Mia zia è una grande viaggiatrice.", "I viaggiatori aspettano il treno.", "Marco Polo è stato un viaggiatore famoso."],
+      "traduzioni": { "en": "traveller", "es": "viajero", "pt": "viajante", "fr": "voyageur", "cs": "pocestný, cestovatel", "pl": "wędrowiec, podróżny", "tr": "yolcu", "de": "Reisender, Wanderer", "ja": "旅人" }
+    },
+    {
+      "parola": "stanco",
+      "forme": ["stanco"],
+      "formeEsempi": ["stanca", "stanchi"],
+      "esempi": ["Dopo il lavoro sono stanco.", "La mamma è stanca e va a letto.", "Siamo stanchi dopo il viaggio."],
+      "traduzioni": { "en": "tired", "es": "cansado", "pt": "cansado", "fr": "fatigué", "cs": "unavený", "pl": "zmęczony", "tr": "yorgun", "de": "müde", "ja": "疲れた" }
+    },
+    {
+      "parola": "la fame",
+      "forme": ["fame"],
+      "esempi": ["Ho fame: mangiamo?", "Dopo la palestra ho sempre molta fame.", "Non ho fame, grazie."],
+      "traduzioni": { "en": "hunger («avere fame» = to be hungry)", "es": "hambre («avere fame» = tener hambre)", "pt": "fome («avere fame» = estar com fome)", "fr": "faim («avere fame» = avoir faim)", "cs": "hlad («avere fame» = mít hlad)", "pl": "głód («avere fame» = być głodnym)", "tr": "açlık («avere fame» = acıkmak)", "de": "Hunger («avere fame» = Hunger haben)", "ja": "空腹（«avere fame» = おなかがすいた）" }
+    },
+    {
+      "parola": "bussare",
+      "forme": ["bussa", "bussato"],
+      "formeEsempi": ["busso"],
+      "esempi": ["Qualcuno bussa alla porta.", "Prima di entrare, bussa!", "Ho bussato, ma non ha risposto nessuno."],
+      "traduzioni": { "en": "to knock (on a door)", "es": "llamar a la puerta", "pt": "bater à porta", "fr": "frapper (à la porte)", "cs": "zaklepat", "pl": "pukać", "tr": "kapıyı çalmak", "de": "klopfen", "ja": "ノックする" }
+    },
+    {
+      "parola": "il sasso",
+      "forme": ["sasso"],
+      "formeEsempi": ["sassi"],
+      "esempi": ["I bambini tirano i sassi nel fiume.", "Sulla spiaggia ci sono tanti sassi.", "Ho un sasso nella scarpa."],
+      "traduzioni": { "en": "stone, pebble", "es": "piedra", "pt": "pedra", "fr": "caillou", "cs": "kámen", "pl": "kamień", "tr": "taş", "de": "Stein", "ja": "石" }
+    },
+    {
+      "parola": "lavare",
+      "forme": ["lava", "lavato"],
+      "formeEsempi": ["lavo"],
+      "esempi": ["Lavo i piatti dopo cena.", "Lava bene la frutta prima di mangiarla.", "Ho lavato la macchina."],
+      "traduzioni": { "en": "to wash", "es": "lavar", "pt": "lavar", "fr": "laver", "cs": "umýt", "pl": "umyć", "tr": "yıkamak", "de": "waschen", "ja": "洗う" }
+    },
+    {
+      "parola": "la zuppa",
+      "forme": ["zuppa"],
+      "esempi": ["D'inverno mangio la zuppa di verdure.", "La zuppa è troppo calda.", "Mia nonna fa una zuppa di fagioli buonissima."],
+      "traduzioni": { "en": "soup", "es": "sopa", "pt": "sopa", "fr": "soupe", "cs": "polévka", "pl": "zupa", "tr": "çorba", "de": "Suppe", "ja": "スープ" }
+    },
+    {
+      "parola": "curioso",
+      "forme": ["curiosa"],
+      "formeEsempi": ["curioso", "curiosi"],
+      "esempi": ["Il gatto è un animale curioso.", "Sono curiosa: che cosa c'è nel pacco?", "I bambini sono sempre curiosi."],
+      "traduzioni": { "en": "curious", "es": "curioso", "pt": "curioso", "fr": "curieux", "cs": "zvědavý", "pl": "ciekawy", "tr": "meraklı", "de": "neugierig", "ja": "好奇心の強い、知りたがる" }
+    },
+    {
+      "parola": "la pentola",
+      "forme": ["pentola"],
+      "esempi": ["Metti l'acqua nella pentola.", "La pentola bolle.", "Mia nonna ha una pentola enorme per la minestra."],
+      "traduzioni": { "en": "pot, saucepan", "es": "olla", "pt": "panela", "fr": "marmite", "cs": "hrnec", "pl": "garnek", "tr": "tencere", "de": "Topf", "ja": "なべ" }
+    },
+    {
+      "parola": "accendere",
+      "forme": ["accende", "acceso"],
+      "formeEsempi": ["accendo", "accendi"],
+      "esempi": ["Accendi la luce, per favore.", "Il nonno accende il camino.", "Ho acceso il fuoco per la cena."],
+      "traduzioni": { "en": "to light (a fire), to switch on", "es": "encender", "pt": "acender", "fr": "allumer", "cs": "zapálit, rozdělat", "pl": "rozpalić, zapalić", "tr": "yakmak", "de": "anzünden", "ja": "火をつける" }
+    },
+    {
+      "parola": "assaggiare",
+      "forme": ["assaggia", "assaggiato"],
+      "formeEsempi": ["assaggiare"],
+      "esempi": ["Assaggia questa torta!", "Posso assaggiare il vino?", "In Sicilia ho assaggiato un piatto tipico."],
+      "traduzioni": { "en": "to taste, to try (food)", "es": "probar", "pt": "provar", "fr": "goûter", "cs": "ochutnat", "pl": "spróbować", "tr": "tadına bakmak", "de": "probieren, kosten", "ja": "味見する" }
+    },
+    {
+      "parola": "il sale",
+      "forme": ["sale"],
+      "esempi": ["Aggiungi un pizzico di sale.", "Mi passi il sale, per favore?", "C'è troppo sale nella pasta."],
+      "traduzioni": { "en": "salt", "es": "sal", "pt": "sal", "fr": "sel", "cs": "sůl", "pl": "sól", "tr": "tuz", "de": "Salz", "ja": "塩" }
+    },
+    {
+      "parola": "la patata",
+      "forme": ["patate", "patata"],
+      "esempi": ["Mi piacciono le patate al forno.", "Pelo le patate per la cena.", "Compro un chilo di patate."],
+      "traduzioni": { "en": "potato", "es": "patata", "pt": "batata", "fr": "pomme de terre", "cs": "brambor", "pl": "ziemniak", "tr": "patates", "de": "Kartoffel", "ja": "じゃがいも" }
+    },
+    {
+      "parola": "il fagiolo",
+      "forme": ["fagioli"],
+      "formeEsempi": ["fagiolo"],
+      "esempi": ["La zuppa di fagioli è un piatto toscano.", "I fagioli sono ricchi di proteine.", "Metti i fagioli a bagno la sera prima."],
+      "traduzioni": { "en": "bean", "es": "judía, alubia", "pt": "feijão", "fr": "haricot", "cs": "fazole", "pl": "fasola", "tr": "fasulye", "de": "Bohne", "ja": "豆、いんげん豆" }
+    },
+    {
+      "parola": "la carota",
+      "forme": ["carote"],
+      "formeEsempi": ["carota"],
+      "esempi": ["Il coniglio mangia una carota.", "Taglio le carote a rondelle.", "Le carote fanno bene agli occhi."],
+      "traduzioni": { "en": "carrot", "es": "zanahoria", "pt": "cenoura", "fr": "carotte", "cs": "mrkev", "pl": "marchewka", "tr": "havuç", "de": "Karotte, Möhre", "ja": "にんじん" }
+    },
+    {
+      "parola": "il cavolo",
+      "forme": ["cavolo"],
+      "formeEsempi": ["cavoli"],
+      "esempi": ["Il cavolo è una verdura invernale.", "La nonna cucina il cavolo con le patate.", "Nel campo ci sono file di cavoli."],
+      "traduzioni": { "en": "cabbage", "es": "col, repollo", "pt": "couve, repolho", "fr": "chou", "cs": "zelí", "pl": "kapusta", "tr": "lahana", "de": "Kohl", "ja": "キャベツ" }
+    },
+    {
+      "parola": "l'olio",
+      "forme": ["olio"],
+      "esempi": ["Condisco l'insalata con olio e aceto.", "L'olio d'oliva italiano è famoso.", "Metti un po' d'olio nella padella."],
+      "traduzioni": { "en": "oil («olio d'oliva» = olive oil)", "es": "aceite", "pt": "azeite, óleo", "fr": "huile", "cs": "olej", "pl": "olej, oliwa", "tr": "yağ («olio d'oliva» = zeytinyağı)", "de": "Öl", "ja": "油（«olio d'oliva» = オリーブ油）" }
+    },
+    {
+      "parola": "davvero",
+      "forme": ["davvero"],
+      "esempi": ["È davvero buono!", "Davvero? Non ci credo!", "Oggi sono davvero stanco."],
+      "traduzioni": { "en": "really", "es": "de verdad, realmente", "pt": "de verdade, mesmo", "fr": "vraiment", "cs": "opravdu", "pl": "naprawdę", "tr": "gerçekten", "de": "wirklich", "ja": "本当に" }
+    },
+    {
+      "parola": "la tasca",
+      "forme": ["tasca"],
+      "formeEsempi": ["tasche"],
+      "esempi": ["Ho le chiavi in tasca.", "Questi pantaloni hanno quattro tasche.", "Metti il telefono in tasca."],
+      "traduzioni": { "en": "pocket", "es": "bolsillo", "pt": "bolso", "fr": "poche", "cs": "kapsa", "pl": "kieszeń", "tr": "cep", "de": "Tasche", "ja": "ポケット" }
+    },
+    {
+      "parola": "prossimo",
+      "forme": ["prossima", "prossimo"],
+      "esempi": ["Ci vediamo la prossima settimana.", "Scendo alla prossima fermata.", "Il prossimo treno parte alle dieci."],
+      "traduzioni": { "en": "next", "es": "próximo", "pt": "próximo", "fr": "prochain", "cs": "příští, další", "pl": "następny", "tr": "bir sonraki, gelecek", "de": "nächste", "ja": "次の" }
+    },
+    {
+      "parola": "ognuno",
+      "forme": ["ognuno"],
+      "esempi": ["Ognuno ha i suoi gusti.", "Ognuno porta qualcosa da mangiare.", "Ognuno di noi può aiutare."],
+      "traduzioni": { "en": "everyone, each one", "es": "cada uno", "pt": "cada um", "fr": "chacun", "cs": "každý", "pl": "każdy", "tr": "herkes, her biri", "de": "jeder", "ja": "それぞれ、一人ひとり" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "affamato",
+      "forme": ["affamato"],
+      "formeEsempi": ["affamati"],
+      "esempi": ["Dopo la gita i bambini sono affamati.", "Torno a casa stanco e affamato.", "Il gatto affamato miagola davanti al frigorifero."],
+      "traduzioni": { "en": "hungry, starving", "es": "hambriento", "pt": "faminto", "fr": "affamé", "cs": "hladový", "pl": "głodny", "tr": "aç", "de": "hungrig", "ja": "おなかをすかせた" }
+    },
+    {
+      "parola": "scoraggiarsi",
+      "forme": ["scoraggiato"],
+      "formeEsempi": ["scoraggiarti", "scoraggiarsi"],
+      "esempi": ["Non scoraggiarti: la prossima volta andrà meglio.", "Dopo l'esame si è scoraggiato.", "È facile scoraggiarsi quando si impara una lingua."],
+      "traduzioni": { "en": "to get discouraged, to lose heart", "es": "desanimarse", "pt": "desanimar", "fr": "se décourager", "cs": "nechat se odradit", "pl": "zniechęcić się", "tr": "cesareti kırılmak", "de": "den Mut verlieren", "ja": "がっかりする、あきらめる" }
+    },
+    {
+      "parola": "liscio",
+      "forme": ["liscio"],
+      "formeEsempi": ["lisci", "liscia"],
+      "esempi": ["Il sasso del fiume è liscio.", "Ha i capelli lisci.", "La superficie del tavolo è liscia."],
+      "traduzioni": { "en": "smooth", "es": "liso", "pt": "liso", "fr": "lisse", "cs": "hladký", "pl": "gładki", "tr": "pürüzsüz", "de": "glatt", "ja": "なめらかな" }
+    },
+    {
+      "parola": "ad alta voce",
+      "forme": ["voce"],
+      "esempi": ["Leggi la poesia ad alta voce.", "Il bambino conta ad alta voce.", "Non parlare ad alta voce in biblioteca."],
+      "traduzioni": { "en": "out loud, aloud", "es": "en voz alta", "pt": "em voz alta", "fr": "à voix haute", "cs": "nahlas", "pl": "na głos", "tr": "yüksek sesle", "de": "laut", "ja": "大きな声で" }
+    },
+    {
+      "parola": "la curiosità",
+      "forme": ["curiosità"],
+      "esempi": ["La curiosità è il primo passo per imparare.", "Per curiosità, quanti anni hai?", "Il bambino guarda tutto con curiosità."],
+      "traduzioni": { "en": "curiosity", "es": "curiosidad", "pt": "curiosidade", "fr": "curiosité", "cs": "zvědavost", "pl": "ciekawość", "tr": "merak", "de": "Neugier", "ja": "好奇心" }
+    },
+    {
+      "parola": "la diffidenza",
+      "forme": ["diffidenza"],
+      "esempi": ["All'inizio i vicini lo guardavano con diffidenza.", "Con il tempo la diffidenza è sparita.", "Non capisco la sua diffidenza verso di me."],
+      "traduzioni": { "en": "distrust, suspicion", "es": "desconfianza", "pt": "desconfiança", "fr": "méfiance", "cs": "nedůvěra", "pl": "nieufność", "tr": "güvensizlik, kuşku", "de": "Misstrauen", "ja": "警戒心、不信" }
+    },
+    {
+      "parola": "con cura",
+      "forme": ["cura"],
+      "esempi": ["Lava i bicchieri con cura.", "Ha scritto la lettera con cura.", "Tratta i libri con cura."],
+      "traduzioni": { "en": "carefully", "es": "con cuidado", "pt": "com cuidado", "fr": "avec soin", "cs": "pečlivě", "pl": "starannie", "tr": "özenle", "de": "sorgfältig", "ja": "ていねいに" }
+    },
+    {
+      "parola": "bollire",
+      "forme": ["bollire"],
+      "formeEsempi": ["bolle"],
+      "esempi": ["L'acqua bolle: butta la pasta!", "Lascia bollire la zuppa per un'ora.", "Il latte sta per bollire."],
+      "traduzioni": { "en": "to boil", "es": "hervir", "pt": "ferver", "fr": "bouillir", "cs": "vařit se", "pl": "gotować się, wrzeć", "tr": "kaynamak", "de": "kochen (Wasser)", "ja": "煮る、沸く" }
+    },
+    {
+      "parola": "mancare",
+      "forme": ["manca"],
+      "formeEsempi": ["mancano"],
+      "esempi": ["Alla minestra manca un po' di sale.", "Mancano due giorni alle vacanze.", "In questa frase manca una parola."],
+      "traduzioni": { "en": "to be missing, to lack («le manca il sale» = it needs salt)", "es": "faltar", "pt": "faltar", "fr": "manquer", "cs": "chybět", "pl": "brakować", "tr": "eksik olmak", "de": "fehlen", "ja": "足りない" }
+    },
+    {
+      "parola": "il pizzico",
+      "forme": ["pizzico"],
+      "esempi": ["Aggiungi un pizzico di sale.", "Ci vuole un pizzico di pepe.", "Con un pizzico di fortuna ce la facciamo."],
+      "traduzioni": { "en": "pinch", "es": "pizca", "pt": "pitada", "fr": "pincée", "cs": "špetka", "pl": "szczypta", "tr": "tutam", "de": "Prise", "ja": "ひとつまみ" }
+    },
+    {
+      "parola": "il paesano",
+      "forme": ["paesani"],
+      "formeEsempi": ["paesano"],
+      "esempi": ["La sera i paesani si incontrano in piazza.", "Il paesano conosce tutte le strade del bosco.", "Alla festa c'erano tutti i paesani."],
+      "traduzioni": { "en": "villager", "es": "aldeano, vecino del pueblo", "pt": "aldeão, morador do vilarejo", "fr": "villageois", "cs": "vesničan", "pl": "mieszkaniec wioski", "tr": "köylü", "de": "Dorfbewohner", "ja": "村人" }
+    },
+    {
+      "parola": "la cipolla",
+      "forme": ["cipolla"],
+      "formeEsempi": ["cipolle"],
+      "esempi": ["Taglio la cipolla e piango.", "Il sugo si fa con cipolla e pomodoro.", "Compro un chilo di cipolle."],
+      "traduzioni": { "en": "onion", "es": "cebolla", "pt": "cebola", "fr": "oignon", "cs": "cibule", "pl": "cebula", "tr": "soğan", "de": "Zwiebel", "ja": "玉ねぎ" }
+    },
+    {
+      "parola": "un filo di",
+      "forme": ["filo"],
+      "esempi": ["Aggiungi un filo d'olio sull'insalata.", "Parla con un filo di voce.", "C'è ancora un filo di speranza."],
+      "traduzioni": { "en": "a drizzle of, a thread of («un filo d'olio» = a drizzle of oil)", "es": "un chorrito de, un hilo de", "pt": "um fio de", "fr": "un filet de", "cs": "kapka, trocha", "pl": "odrobina, strużka", "tr": "biraz, bir damla", "de": "ein Schuss, ein Faden", "ja": "少し（«un filo d'olio» = 油を少したらす）" }
+    },
+    {
+      "parola": "mescolare",
+      "forme": ["mescolava"],
+      "formeEsempi": ["mescola", "mescolo"],
+      "esempi": ["Mescola bene il sugo.", "Mescolo lo zucchero nel caffè.", "La nonna mescolava la polenta per un'ora."],
+      "traduzioni": { "en": "to stir, to mix", "es": "remover, mezclar", "pt": "mexer, misturar", "fr": "remuer, mélanger", "cs": "míchat", "pl": "mieszać", "tr": "karıştırmak", "de": "umrühren, mischen", "ja": "かき混ぜる" }
+    },
+    {
+      "parola": "aggiungere",
+      "forme": ["aggiungete"],
+      "formeEsempi": ["aggiungi", "aggiungere", "aggiunto"],
+      "esempi": ["Aggiungi un po' di sale alla pasta.", "Vorrei aggiungere una cosa.", "Ho aggiunto il tuo nome alla lista."],
+      "traduzioni": { "en": "to add", "es": "añadir", "pt": "acrescentar", "fr": "ajouter", "cs": "přidat", "pl": "dodać", "tr": "eklemek", "de": "hinzufügen", "ja": "加える" }
+    },
+    {
+      "parola": "tagliare",
+      "forme": ["tagliate"],
+      "formeEsempi": ["taglio", "taglia"],
+      "esempi": ["Taglio il pane per tutti.", "Tagliate le verdure a pezzetti.", "Mi taglio i capelli una volta al mese."],
+      "traduzioni": { "en": "to cut, to slice", "es": "cortar", "pt": "cortar", "fr": "couper", "cs": "krájet, nakrájet", "pl": "kroić, pokroić", "tr": "kesmek, doğramak", "de": "schneiden", "ja": "切る" }
+    },
+    {
+      "parola": "sottile",
+      "forme": ["sottile"],
+      "formeEsempi": ["sottili"],
+      "esempi": ["Taglia le patate a fette sottili.", "Questo foglio è molto sottile.", "La neve forma uno strato sottile."],
+      "traduzioni": { "en": "thin («tagliare sottile» = to slice thinly)", "es": "fino, delgado", "pt": "fino", "fr": "fin", "cs": "tenký, na tenko", "pl": "cienki, cienko", "tr": "ince", "de": "dünn", "ja": "薄い" }
+    },
+    {
+      "parola": "sedersi",
+      "forme": ["sedetevi"],
+      "formeEsempi": ["siediti", "siedo"],
+      "esempi": ["Sedetevi, la lezione comincia!", "Siediti qui, c'è posto.", "Mi siedo vicino alla finestra."],
+      "traduzioni": { "en": "to sit down («sedetevi!» = sit down, all of you!)", "es": "sentarse («sedetevi!» = ¡sentaos!)", "pt": "sentar-se («sedetevi!» = sentem-se!)", "fr": "s’asseoir («sedetevi!» = asseyez-vous !)", "cs": "sednout si («sedetevi!» = sedněte si!)", "pl": "usiąść («sedetevi!» = siadajcie!)", "tr": "oturmak («sedetevi!» = oturun!)", "de": "sich setzen («sedetevi!» = setzt euch!)", "ja": "すわる（«sedetevi!» = みんなすわって！）" }
+    },
+    {
+      "parola": "la ricetta",
+      "forme": ["ricetta"],
+      "esempi": ["Mi dai la ricetta della torta?", "Questa ricetta è della nonna.", "Seguo la ricetta passo per passo."],
+      "traduzioni": { "en": "recipe", "es": "receta", "pt": "receita", "fr": "recette", "cs": "recept", "pl": "przepis", "tr": "tarif", "de": "Rezept", "ja": "作り方、レシピ" }
+    },
+    {
+      "parola": "servire (mi serve)",
+      "forme": ["serve"],
+      "esempi": ["Mi serve una penna.", "Ti serve aiuto?", "Questa chiave non serve più."],
+      "traduzioni": { "en": "to be needed («mi serve» = I need it)", "es": "hacer falta («mi serve» = lo necesito)", "pt": "precisar («mi serve» = eu preciso)", "fr": "servir («mi serve» = j’en ai besoin)", "cs": "hodit se («mi serve» = potřebuju)", "pl": "przydać się («mi serve» = potrzebuję)", "tr": "lazım olmak («mi serve» = bana lazım)", "de": "brauchen («mi serve» = ich brauche es)", "ja": "必要だ（«mi serve» = 要る）" }
+    },
+    {
+      "parola": "tipico",
+      "forme": ["tipico"],
+      "formeEsempi": ["tipica"],
+      "esempi": ["La pizza è un piatto tipico di Napoli.", "Questo è un dolce tipico del Natale.", "Oggi è una giornata tipica d'autunno."],
+      "traduzioni": { "en": "typical, traditional", "es": "típico", "pt": "típico", "fr": "typique", "cs": "typický, tradiční", "pl": "typowy, tradycyjny", "tr": "geleneksel, tipik", "de": "typisch", "ja": "名物の、典型的な" }
+    },
+    {
+      "parola": "simile",
+      "forme": ["simili"],
+      "formeEsempi": ["simile"],
+      "esempi": ["Le due sorelle sono molto simili.", "Ho un vestito simile al tuo.", "Esistono storie simili in molti Paesi."],
+      "traduzioni": { "en": "similar", "es": "parecido, similar", "pt": "parecido, semelhante", "fr": "semblable", "cs": "podobný", "pl": "podobny", "tr": "benzer", "de": "ähnlich", "ja": "似た" }
+    },
+    {
+      "parola": "il chiodo",
+      "forme": ["chiodo"],
+      "esempi": ["Appendo il quadro a un chiodo.", "Mi servono un martello e un chiodo.", "Attento, c'è un chiodo nel legno!"],
+      "traduzioni": { "en": "nail", "es": "clavo", "pt": "prego", "fr": "clou", "cs": "hřebík", "pl": "gwóźdź", "tr": "çivi", "de": "Nagel", "ja": "くぎ" }
+    },
+    {
+      "parola": "al posto di",
+      "forme": ["posto"],
+      "esempi": ["Al posto del burro uso l'olio.", "Vado io al posto tuo.", "Oggi c'è la zuppa al posto della pasta."],
+      "traduzioni": { "en": "instead of, in place of", "es": "en lugar de", "pt": "no lugar de", "fr": "à la place de", "cs": "místo", "pl": "zamiast", "tr": "yerine", "de": "statt, anstelle von", "ja": "〜のかわりに" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "A traveller arrives in a small village in Portugal. He's tired and hungry. He knocks on doors: “Do you have some bread, please?”. But nobody gives him anything.",
+        "So the traveller takes a stone from the road, washes it well and says loudly:\n– Today I'm making stone soup! It's delicious!",
+        "A woman is curious.\n– Stone soup? Here's a pot and some water.\nThe traveller puts the stone in the water, lights the fire and waits.",
+        "Other people arrive. The traveller tastes the soup.\n– Mmm, good. But with some salt it's better.\n– Here's some salt! – says a man.",
+        "– And with some potatoes it's perfect.\n– Here are some potatoes! – says a girl.\nThen come some beans, some carrots, some cabbage and some olive oil.",
+        "In the end the soup is ready, and it really is delicious! Everyone eats together. Only the stone is left in the pot. The traveller washes it and puts it in his pocket.\n– For the next soup! – he says, and smiles.",
+        "That's the moral of the fable: on our own we have little. But if everyone brings something, there's soup for everyone."
+      ],
+      "b1": [
+        "It was an autumn evening when a tired, hungry traveller arrived in a village in the Ribatejo, in Portugal. He knocked on many doors, but the answer was always the same: “I'm sorry, we have nothing”.",
+        "The traveller didn't lose heart. He picked up a smooth stone in the middle of the road, sat down in the square and said out loud:\n– Madam, would you lend me a pot, please? Tonight I'm making my famous stone soup!",
+        "Curiosity won over distrust. A woman brought him a pot full of water, a boy lit the fire. The traveller washed the stone carefully and put it in the pot.\n– Don't touch anything, – he said. – Let it boil.",
+        "After a while he tasted it with a serious air.\n– Good, but it needs a little salt. Bring me a pinch, please.\nSomeone ran to fetch it.\n– Ah, that's it. Of course, with a few potatoes it would be something else…",
+        "– Wait, I'll get them! – said a neighbour. And so, one after another, the villagers brought potatoes, beans, cabbage, carrots, an onion and a drizzle of olive oil. The traveller stirred and gave orders: “Add the beans! Slice the onion thinly! Don't put in too much oil!”.",
+        "When the soup was ready, the traveller said: “Get your bowls and sit down!”. The whole village ate together, and everyone said they had never tasted anything so good. At the bottom of the pot only the stone was left: the traveller washed it, put it in his pocket and said goodbye.\n– Keep the recipe. I need the stone for the next village.",
+        "In Portugal this story has been told for centuries, and in the town of Almeirim «sopa da pedra» has become a typical dish, still served with a stone at the bottom of the bowl. Similar stories exist all over Europe, with a nail, a button or an axe instead of the stone. The moral: when everyone puts something in, even a pot of water becomes a feast."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un viajero llega a un pueblecito de Portugal. Está cansado y tiene hambre. Llama a las puertas: «¿Tienen pan, por favor?». Pero nadie le da nada.",
+        "Entonces el viajero coge una piedra del camino, la lava bien y dice en voz alta:\n– ¡Hoy hago una sopa de piedra! ¡Está buenísima!",
+        "Una mujer siente curiosidad.\n– ¿Una sopa de piedra? Aquí tiene una olla y agua.\nEl viajero mete la piedra en el agua, enciende el fuego y espera.",
+        "Llegan otras personas. El viajero prueba la sopa.\n– Mmm, buena. Pero con un poco de sal está más rica.\n– ¡Aquí tiene sal! – dice un hombre.",
+        "– Y con unas patatas está perfecta.\n– ¡Aquí tiene patatas! – dice una chica.\nLuego llegan unas judías, unas zanahorias, un poco de col y un poco de aceite de oliva.",
+        "Al final la sopa está lista, ¡y de verdad está buenísima! Todos comen juntos. En la olla solo queda la piedra. El viajero la lava y se la mete en el bolsillo.\n– ¡Para la próxima sopa! – dice, y sonríe.",
+        "Es la moraleja de la fábula: solos tenemos poco. Pero si cada uno trae algo, hay sopa para todos."
+      ],
+      "b1": [
+        "Era una tarde de otoño cuando un viajero cansado y hambriento llegó a un pueblo del Ribatejo, en Portugal. Llamó a muchas puertas, pero la respuesta era siempre la misma: «Lo siento, no tenemos nada».",
+        "El viajero no se desanimó. Recogió una piedra lisa en medio del camino, se sentó en la plaza y dijo en voz alta:\n– Señora, ¿me presta una olla, por favor? ¡Esta noche preparo mi famosa sopa de piedra!",
+        "La curiosidad venció a la desconfianza. Una mujer le llevó una olla llena de agua, un chico encendió el fuego. El viajero lavó la piedra con cuidado y la metió en la olla.\n– No toquéis nada – dijo. – Dejadla hervir.",
+        "Al cabo de un rato la probó con aire serio.\n– Buena, pero le falta un poco de sal. Traedme una pizca, por favor.\nAlguien fue corriendo a buscarla.\n– Ah, así sí. Claro, con unas patatas sería otra cosa…",
+        "– ¡Espera, las traigo yo! – dijo una vecina. Y así, uno tras otro, los vecinos del pueblo trajeron patatas, judías, col, zanahorias, una cebolla y un chorrito de aceite de oliva. El viajero removía y daba órdenes: «¡Añadid las judías! ¡Cortad la cebolla fina! ¡No echéis demasiado aceite!».",
+        "Cuando la sopa estuvo lista, el viajero dijo: «¡Coged los cuencos y sentaos!». Todo el pueblo comió junto, y todos decían que nunca habían probado nada tan bueno. En el fondo de la olla solo quedó la piedra: el viajero la lavó, se la metió en el bolsillo y se despidió.\n– Quedaos con la receta. La piedra me hace falta para el próximo pueblo.",
+        "En Portugal esta historia se cuenta desde hace siglos, y en la ciudad de Almeirim la «sopa da pedra» se ha convertido en un plato típico, que todavía se sirve con una piedra en el fondo del plato. En toda Europa existen historias parecidas, con un clavo, un botón o un hacha en lugar de la piedra. La moraleja: cuando cada uno pone algo, hasta una olla de agua se convierte en una fiesta."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Um viajante chega a uma pequena aldeia de Portugal. Está cansado e com fome. Bate às portas: «Vocês têm pão, por favor?». Mas ninguém lhe dá nada.",
+        "Então o viajante pega uma pedra da estrada, lava bem e diz em voz alta:\n– Hoje vou fazer uma sopa de pedra! É uma delícia!",
+        "Uma mulher fica curiosa.\n– Uma sopa de pedra? Aqui está uma panela e água.\nO viajante coloca a pedra na água, acende o fogo e espera.",
+        "Chegam outras pessoas. O viajante prova a sopa.\n– Hum, boa. Mas com um pouco de sal fica melhor.\n– Aqui está o sal! – diz um homem.",
+        "– E com umas batatas fica perfeita.\n– Aqui estão as batatas! – diz uma moça.\nDepois chegam feijão, cenouras, couve e um pouco de azeite.",
+        "No fim a sopa fica pronta, e é uma delícia de verdade! Todos comem juntos. Na panela só sobra a pedra. O viajante a lava e a coloca no bolso.\n– Para a próxima sopa! – diz, e sorri.",
+        "Essa é a moral da fábula: sozinhos temos pouco. Mas se cada um traz alguma coisa, tem sopa para todos."
+      ],
+      "b1": [
+        "Era uma noite de outono quando um viajante cansado e faminto chegou a uma aldeia do Ribatejo, em Portugal. Bateu em muitas portas, mas a resposta era sempre a mesma: «Sinto muito, não temos nada».",
+        "O viajante não desanimou. Pegou uma pedra lisa no meio da estrada, sentou-se na praça e disse em voz alta:\n– Senhora, me empresta uma panela, por favor? Hoje à noite vou preparar a minha famosa sopa de pedra!",
+        "A curiosidade venceu a desconfiança. Uma mulher lhe trouxe uma panela cheia de água, um menino acendeu o fogo. O viajante lavou a pedra com cuidado e a colocou na panela.\n– Não toquem em nada – disse. – Deixem ferver.",
+        "Depois de um tempo, provou com ar sério.\n– Boa, mas está faltando um pouco de sal. Me tragam uma pitada, por favor.\nAlguém correu para buscar.\n– Ah, agora sim. Claro, com umas batatas seria outra coisa…",
+        "– Espere, eu vou buscar! – disse uma vizinha. E assim, um depois do outro, os moradores da aldeia trouxeram batatas, feijão, couve, cenouras, uma cebola e um fio de azeite. O viajante mexia e dava ordens: «Acrescentem o feijão! Cortem a cebola bem fininha! Não ponham azeite demais!».",
+        "Quando a sopa ficou pronta, o viajante disse: «Peguem as tigelas e sentem-se!». A aldeia inteira comeu junta, e todos diziam que nunca tinham provado nada tão gostoso. No fundo da panela só sobrou a pedra: o viajante a lavou, colocou no bolso e se despediu.\n– Fiquem com a receita. Eu preciso da pedra para a próxima aldeia.",
+        "Em Portugal esta história é contada há séculos, e na cidade de Almeirim a «sopa da pedra» virou um prato típico, servido até hoje com uma pedra no fundo do prato. Existem histórias parecidas em toda a Europa, com um prego, um botão ou um machado no lugar da pedra. A moral: quando cada um contribui com alguma coisa, até uma panela de água vira uma festa."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un voyageur arrive dans un petit village du Portugal. Il est fatigué et il a faim. Il frappe aux portes : « Vous avez du pain, s’il vous plaît ? ». Mais personne ne lui donne rien.",
+        "Alors le voyageur prend un caillou sur la route, le lave bien et dit à voix haute :\n– Aujourd’hui, je fais une soupe au caillou ! Elle est délicieuse !",
+        "Une femme est curieuse.\n– Une soupe au caillou ? Voici une marmite et de l’eau.\nLe voyageur met le caillou dans l’eau, allume le feu et attend.",
+        "D’autres personnes arrivent. Le voyageur goûte la soupe.\n– Mmm, bonne. Mais avec du sel, elle est meilleure.\n– Voici du sel ! – dit un homme.",
+        "– Et avec des pommes de terre, elle est parfaite.\n– Voici des pommes de terre ! – dit une jeune fille.\nPuis arrivent des haricots, des carottes, du chou et de l’huile d’olive.",
+        "À la fin, la soupe est prête, et elle est vraiment délicieuse ! Tout le monde mange ensemble. Dans la marmite, il ne reste que le caillou. Le voyageur le lave et le met dans sa poche.\n– Pour la prochaine soupe ! – dit-il en souriant.",
+        "C’est la morale de la fable : tout seuls, nous avons peu de choses. Mais si chacun apporte quelque chose, il y a de la soupe pour tout le monde."
+      ],
+      "b1": [
+        "C’était un soir d’automne quand un voyageur fatigué et affamé est arrivé dans un village du Ribatejo, au Portugal. Il a frappé à beaucoup de portes, mais la réponse était toujours la même : « Désolé, nous n’avons rien ».",
+        "Le voyageur ne s’est pas découragé. Il a ramassé un caillou lisse au milieu de la route, s’est assis sur la place et a dit à voix haute :\n– Madame, vous me prêtez une marmite, s’il vous plaît ? Ce soir, je prépare ma célèbre soupe au caillou !",
+        "La curiosité a été plus forte que la méfiance. Une femme lui a apporté une marmite pleine d’eau, un garçon a allumé le feu. Le voyageur a lavé le caillou avec soin et l’a mis dans la marmite.\n– Ne touchez à rien – a-t-il dit. – Laissez-la bouillir.",
+        "Au bout d’un moment, il a goûté d’un air sérieux.\n– Bonne, mais il lui manque un peu de sel. Apportez-m’en une pincée, s’il vous plaît.\nQuelqu’un a couru en chercher.\n– Ah, voilà. Bien sûr, avec quelques pommes de terre, ce serait autre chose…",
+        "– Attends, je vais les chercher ! – a dit une voisine. Et ainsi, l’un après l’autre, les villageois ont apporté des pommes de terre, des haricots, du chou, des carottes, un oignon et un filet d’huile d’olive. Le voyageur remuait et donnait des ordres : « Ajoutez les haricots ! Coupez l’oignon finement ! Ne mettez pas trop d’huile ! ».",
+        "Quand la soupe a été prête, le voyageur a dit : « Prenez vos bols et asseyez-vous ! ». Tout le village a mangé ensemble, et tout le monde disait n’avoir jamais rien goûté d’aussi bon. Au fond de la marmite, il ne restait que le caillou : le voyageur l’a lavé, l’a mis dans sa poche et a dit au revoir.\n– Gardez la recette. J’ai besoin du caillou pour le prochain village.",
+        "Au Portugal, on raconte cette histoire depuis des siècles, et dans la ville d’Almeirim, la « sopa da pedra » est devenue un plat typique, qu’on sert encore avec un caillou au fond de l’assiette. Des histoires semblables existent dans toute l’Europe, avec un clou, un bouton ou une hache à la place du caillou. La morale : quand chacun apporte quelque chose, même une marmite d’eau devient une fête."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Do malé vesnice v Portugalsku přijde pocestný. Je unavený a má hlad. Klepe na dveře: „Máte trochu chleba, prosím?“. Ale nikdo mu nic nedá.",
+        "A tak pocestný vezme z cesty kámen, dobře ho umyje a nahlas řekne:\n– Dnes uvařím polévku z kamene! Je výborná!",
+        "Jedna žena je zvědavá.\n– Polévka z kamene? Tady máte hrnec a vodu.\nPocestný dá kámen do vody, rozdělá oheň a čeká.",
+        "Přicházejí další lidé. Pocestný polévku ochutná.\n– Mmm, dobrá. Ale se solí je lepší.\n– Tady je sůl! – řekne jeden muž.",
+        "– A s brambory je dokonalá.\n– Tady jsou brambory! – řekne jedna dívka.\nPak přijdou fazole, mrkev, zelí a olivový olej.",
+        "Nakonec je polévka hotová a je opravdu výborná! Všichni jedí spolu. V hrnci zůstane jen kámen. Pocestný ho umyje a dá si ho do kapsy.\n– Na příští polévku! – řekne a usměje se.",
+        "To je ponaučení z bajky: každý sám máme málo. Ale když každý něco přinese, je polévka pro všechny."
+      ],
+      "b1": [
+        "Byl podzimní večer, když unavený a hladový pocestný dorazil do jedné vesnice v Ribateju v Portugalsku. Klepal na mnoho dveří, ale odpověď byla pořád stejná: „Je nám líto, nic nemáme.“",
+        "Pocestný se nenechal odradit. Uprostřed cesty sebral hladký kámen, posadil se na náměstí a nahlas řekl:\n– Paní, půjčíte mi prosím hrnec? Dnes večer uvařím svou slavnou polévku z kamene!",
+        "Zvědavost zvítězila nad nedůvěrou. Jedna žena mu přinesla hrnec plný vody, jeden chlapec rozdělal oheň. Pocestný kámen pečlivě umyl a dal ho do hrnce.\n– Na nic nesahejte, – řekl. – Nechte ji vařit.",
+        "Po chvíli s vážnou tváří ochutnal.\n– Dobrá, ale chybí jí trochu soli. Přineste mi špetku, prosím.\nNěkdo pro ni běžel.\n– Ach, tak. Jistě, s pár brambory by to bylo něco jiného…",
+        "– Počkej, přinesu je! – řekla jedna sousedka. A tak vesničané jeden po druhém přinesli brambory, fazole, zelí, mrkev, cibuli a kapku olivového oleje. Pocestný míchal a rozdával pokyny: „Přidejte fazole! Nakrájejte cibuli na tenko! Nedávejte moc oleje!“.",
+        "Když byla polévka hotová, pocestný řekl: „Vezměte si misky a posaďte se!“. Celá vesnice jedla spolu a všichni říkali, že nikdy nic tak dobrého neochutnali. Na dně hrnce zůstal jen kámen: pocestný ho umyl, dal si ho do kapsy a rozloučil se.\n– Recept si nechte. Kámen potřebuju do další vesnice.",
+        "V Portugalsku se tenhle příběh vypráví po staletí a ve městě Almeirim se z «sopa da pedra» stalo tradiční jídlo, které se dodnes podává s kamenem na dně talíře. Podobné příběhy existují po celé Evropě, s hřebíkem, knoflíkem nebo sekerou místo kamene. Ponaučení: když každý něco přidá, i hrnec vody se promění v hostinu."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Do małej wioski w Portugalii przychodzi wędrowiec. Jest zmęczony i głodny. Puka do drzwi: „Macie trochę chleba, proszę?”. Ale nikt nic mu nie daje.",
+        "Wtedy wędrowiec bierze kamień z drogi, dobrze go myje i mówi głośno:\n– Dziś ugotuję zupę z kamienia! Jest pyszna!",
+        "Pewna kobieta jest ciekawa.\n– Zupa z kamienia? Proszę, oto garnek i woda.\nWędrowiec wkłada kamień do wody, rozpala ogień i czeka.",
+        "Przychodzą inni ludzie. Wędrowiec próbuje zupy.\n– Mmm, dobra. Ale z solą jest lepsza.\n– Oto sól! – mówi pewien mężczyzna.",
+        "– A z ziemniakami jest idealna.\n– Oto ziemniaki! – mówi pewna dziewczyna.\nPotem przychodzą fasola, marchewka, kapusta i trochę oliwy.",
+        "W końcu zupa jest gotowa i jest naprawdę pyszna! Wszyscy jedzą razem. W garnku zostaje tylko kamień. Wędrowiec go myje i wkłada do kieszeni.\n– Na następną zupę! – mówi i się uśmiecha.",
+        "To jest morał bajki: sami mamy niewiele. Ale jeśli każdy coś przyniesie, wystarczy zupy dla wszystkich."
+      ],
+      "b1": [
+        "Był jesienny wieczór, kiedy zmęczony i głodny wędrowiec dotarł do wioski w regionie Ribatejo, w Portugalii. Pukał do wielu drzwi, ale odpowiedź była zawsze taka sama: „Przykro nam, nic nie mamy”.",
+        "Wędrowiec się nie zniechęcił. Podniósł gładki kamień na środku drogi, usiadł na placu i powiedział na głos:\n– Proszę pani, pożyczy mi pani garnek? Dziś wieczorem ugotuję moją słynną zupę z kamienia!",
+        "Ciekawość zwyciężyła nieufność. Pewna kobieta przyniosła mu garnek pełen wody, chłopiec rozpalił ogień. Wędrowiec starannie umył kamień i włożył go do garnka.\n– Niczego nie dotykajcie – powiedział. – Niech się gotuje.",
+        "Po chwili spróbował z poważną miną.\n– Dobra, ale brakuje jej trochę soli. Przynieście mi szczyptę, proszę.\nKtoś po nią pobiegł.\n– O, teraz lepiej. Oczywiście, z kilkoma ziemniakami to byłoby co innego…",
+        "– Poczekaj, ja przyniosę! – powiedziała sąsiadka. I tak, jeden po drugim, mieszkańcy wioski przynieśli ziemniaki, fasolę, kapustę, marchewkę, cebulę i odrobinę oliwy. Wędrowiec mieszał i wydawał polecenia: „Dodajcie fasolę! Pokrójcie cebulę cienko! Nie wlewajcie za dużo oliwy!”.",
+        "Kiedy zupa była gotowa, wędrowiec powiedział: „Weźcie miski i siadajcie!”. Cała wioska jadła razem i wszyscy mówili, że nigdy nie jedli nic tak dobrego. Na dnie garnka został tylko kamień: wędrowiec go umył, włożył do kieszeni i się pożegnał.\n– Zatrzymajcie przepis. Kamień jest mi potrzebny w następnej wiosce.",
+        "W Portugalii tę historię opowiada się od wieków, a w miasteczku Almeirim „sopa da pedra” stała się tradycyjnym daniem, które do dziś podaje się z kamieniem na dnie talerza. Podobne historie istnieją w całej Europie, z gwoździem, guzikiem albo siekierą zamiast kamienia. Morał: kiedy każdy coś doda, nawet garnek wody staje się ucztą."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir yolcu Portekiz'de küçük bir köye gelir. Yorgun ve açtır. Kapıları çalar: «Biraz ekmeğiniz var mı, lütfen?». Ama kimse ona hiçbir şey vermez.",
+        "Bunun üzerine yolcu yoldan bir taş alır, onu iyice yıkar ve yüksek sesle der ki:\n– Bugün taş çorbası yapıyorum! Çok lezzetlidir!",
+        "Bir kadın meraklanır.\n– Taş çorbası mı? İşte bir tencere ve su.\nYolcu taşı suya koyar, ateşi yakar ve bekler.",
+        "Başka insanlar da gelir. Yolcu çorbanın tadına bakar.\n– Mmm, güzel. Ama biraz tuzla daha güzel olur.\n– İşte tuz! – der bir adam.",
+        "– Biraz patatesle de mükemmel olur.\n– İşte patates! – der bir kız.\nSonra fasulye, havuç, lahana ve biraz zeytinyağı gelir.",
+        "Sonunda çorba hazırdır ve gerçekten çok lezzetlidir! Herkes birlikte yer. Tencerede sadece taş kalır. Yolcu onu yıkar ve cebine koyar.\n– Bir sonraki çorba için! – der ve gülümser.",
+        "Masalın ana fikri şu: tek başımıza elimizde az şey vardır. Ama herkes bir şey getirirse herkese yetecek çorba olur."
+      ],
+      "b1": [
+        "Bir sonbahar akşamıydı; yorgun ve aç bir yolcu Portekiz'in Ribatejo bölgesinde bir köye vardı. Birçok kapı çaldı ama cevap hep aynıydı: «Üzgünüz, hiçbir şeyimiz yok».",
+        "Yolcu cesaretini kaybetmedi. Yolun ortasından pürüzsüz bir taş aldı, meydana oturdu ve yüksek sesle dedi ki:\n– Hanımefendi, bana bir tencere ödünç verir misiniz lütfen? Bu akşam meşhur taş çorbamı yapacağım!",
+        "Merak, kuşkuya üstün geldi. Bir kadın ona su dolu bir tencere getirdi, bir oğlan ateşi yaktı. Yolcu taşı özenle yıkadı ve tencereye koydu.\n– Hiçbir şeye dokunmayın – dedi. – Bırakın kaynasın.",
+        "Bir süre sonra ciddi bir tavırla tadına baktı.\n– Güzel ama biraz tuzu eksik. Bana bir tutam getirin, lütfen.\nBiri koşup tuz getirdi.\n– Hah, işte böyle. Tabii birkaç patatesle bambaşka olurdu…",
+        "– Dur, ben getiririm! – dedi bir komşu kadın. Böylece köylüler birer birer patates, fasulye, lahana, havuç, bir soğan ve biraz zeytinyağı getirdiler. Yolcu karıştırıyor ve talimat veriyordu: «Fasulyeleri ekleyin! Soğanı ince doğrayın! Fazla yağ koymayın!».",
+        "Çorba hazır olunca yolcu dedi ki: «Kâselerinizi alın ve oturun!». Bütün köy birlikte yemek yedi ve herkes bu kadar güzel bir şeyi hiç tatmadığını söylüyordu. Tencerenin dibinde sadece taş kaldı: yolcu onu yıkadı, cebine koydu ve vedalaştı.\n– Tarif sizde kalsın. Taş bana bir sonraki köy için lazım.",
+        "Portekiz'de bu hikâye yüzyıllardır anlatılır ve Almeirim kasabasında «sopa da pedra» geleneksel bir yemek olmuştur; bugün hâlâ tabağın dibinde bir taşla servis edilir. Benzer hikâyeler bütün Avrupa'da vardır; taşın yerinde bir çivi, bir düğme ya da bir balta olur. Ana fikir: herkes bir şey koyunca bir tencere su bile bir şölene dönüşür."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Ein Wanderer kommt in ein kleines Dorf in Portugal. Er ist müde und hat Hunger. Er klopft an die Türen: „Habt ihr etwas Brot, bitte?“. Aber niemand gibt ihm etwas.",
+        "Also nimmt der Wanderer einen Stein von der Straße, wäscht ihn gut und sagt laut:\n– Heute koche ich eine Steinsuppe! Sie ist köstlich!",
+        "Eine Frau ist neugierig.\n– Eine Steinsuppe? Hier sind ein Topf und Wasser.\nDer Wanderer legt den Stein ins Wasser, zündet das Feuer an und wartet.",
+        "Andere Leute kommen. Der Wanderer probiert die Suppe.\n– Mmm, gut. Aber mit etwas Salz ist sie besser.\n– Hier ist Salz! – sagt ein Mann.",
+        "– Und mit ein paar Kartoffeln ist sie perfekt.\n– Hier sind Kartoffeln! – sagt ein Mädchen.\nDann kommen Bohnen, Karotten, Kohl und etwas Olivenöl.",
+        "Am Ende ist die Suppe fertig, und sie ist wirklich köstlich! Alle essen zusammen. Im Topf bleibt nur der Stein. Der Wanderer wäscht ihn und steckt ihn in die Tasche.\n– Für die nächste Suppe! – sagt er und lächelt.",
+        "Das ist die Moral der Fabel: Allein haben wir wenig. Aber wenn jeder etwas mitbringt, gibt es Suppe für alle."
+      ],
+      "b1": [
+        "Es war ein Herbstabend, als ein müder und hungriger Wanderer in ein Dorf im Ribatejo in Portugal kam. Er klopfte an viele Türen, aber die Antwort war immer dieselbe: „Tut mir leid, wir haben nichts.“",
+        "Der Wanderer verlor nicht den Mut. Er hob mitten auf der Straße einen glatten Stein auf, setzte sich auf den Platz und sagte laut:\n– Gnädige Frau, leihen Sie mir bitte einen Topf? Heute Abend koche ich meine berühmte Steinsuppe!",
+        "Die Neugier war stärker als das Misstrauen. Eine Frau brachte ihm einen Topf voll Wasser, ein Junge zündete das Feuer an. Der Wanderer wusch den Stein sorgfältig und legte ihn in den Topf.\n– Fasst nichts an, – sagte er. – Lasst sie kochen.",
+        "Nach einer Weile probierte er mit ernster Miene.\n– Gut, aber es fehlt ein bisschen Salz. Bringt mir bitte eine Prise.\nJemand lief los, um es zu holen.\n– Ah, so ist es gut. Natürlich, mit ein paar Kartoffeln wäre es etwas ganz anderes …",
+        "– Warte, ich hole sie! – sagte eine Nachbarin. Und so brachten die Dorfbewohner einer nach dem anderen Kartoffeln, Bohnen, Kohl, Karotten, eine Zwiebel und einen Schuss Olivenöl. Der Wanderer rührte um und gab Anweisungen: „Gebt die Bohnen dazu! Schneidet die Zwiebel fein! Nehmt nicht zu viel Öl!“.",
+        "Als die Suppe fertig war, sagte der Wanderer: „Holt eure Schalen und setzt euch!“. Das ganze Dorf aß zusammen, und alle sagten, sie hätten noch nie etwas so Gutes gegessen. Auf dem Boden des Topfes blieb nur der Stein: Der Wanderer wusch ihn, steckte ihn in die Tasche und verabschiedete sich.\n– Behaltet das Rezept. Den Stein brauche ich für das nächste Dorf.",
+        "In Portugal erzählt man diese Geschichte seit Jahrhunderten, und in der Stadt Almeirim ist die «sopa da pedra» zu einem typischen Gericht geworden, das noch heute mit einem Stein auf dem Boden des Tellers serviert wird. Ähnliche Geschichten gibt es in ganz Europa, mit einem Nagel, einem Knopf oder einer Axt statt des Steins. Die Moral: Wenn jeder etwas beiträgt, wird sogar ein Topf Wasser zu einem Festmahl."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ポルトガルの小さな村に、旅人がやって来ます。疲れていて、おなかがすいています。家々のドアをノックします。「パンを少しいただけませんか？」　でも、だれも何もくれません。",
+        "そこで旅人は道から石をひとつ拾い、よく洗って、大きな声で言います。\n「今日は石のスープを作るぞ！　とってもおいしいんだ！」",
+        "ひとりの女の人が興味を持ちます。\n「石のスープですって？　なべと水をどうぞ。」\n旅人は石を水に入れ、火をつけて、待ちます。",
+        "ほかの人たちもやって来ます。旅人はスープを味見します。\n「うーん、おいしい。でも塩を少し入れると、もっとおいしくなる。」\n「塩をどうぞ！」とひとりの男の人が言います。",
+        "「じゃがいもを入れたら完ぺきだ。」\n「じゃがいもをどうぞ！」とひとりの娘さんが言います。\nそれから、豆やにんじんやキャベツ、オリーブ油も届きます。",
+        "とうとうスープができあがります。本当にとてもおいしいのです！　みんなでいっしょに食べます。なべには石だけが残ります。旅人は石を洗ってポケットに入れます。\n「次のスープのためにね！」と言って、にっこりします。",
+        "これがこのお話の教訓です。ひとりひとりが持っているものは少しです。でも、みんなが何かを持ち寄れば、全員分のスープができるのです。"
+      ],
+      "b1": [
+        "ある秋の夕方、疲れておなかをすかせた旅人が、ポルトガルのリバテージョ地方の村にたどり着きました。たくさんのドアをノックしましたが、返事はいつも同じでした。「すみません、何もないんです。」",
+        "旅人はあきらめませんでした。道の真ん中でなめらかな石を拾い、広場にすわって、大きな声で言いました。\n「奥さん、なべを貸していただけませんか？　今夜は、わたしの名物の石のスープを作るんです！」",
+        "好奇心が警戒心に勝ちました。ひとりの女の人が水の入ったなべを持ってきて、ひとりの少年が火をおこしました。旅人は石をていねいに洗い、なべに入れました。\n「何もさわらないでください」と旅人は言いました。「煮立たせておきましょう。」",
+        "しばらくして、旅人はまじめな顔で味見をしました。\n「おいしい。でも、塩が少し足りないな。ひとつまみ持ってきてください。」\nだれかが走って取りに行きました。\n「ああ、これでよし。もちろん、じゃがいもがいくつかあれば、また格別なんだが……」",
+        "「待って、わたしが持ってくる！」と近所の女の人が言いました。こうして村人たちは次々に、じゃがいも、豆、キャベツ、にんじん、玉ねぎ、それにオリーブ油を少し持ってきました。旅人はかき混ぜながら指示を出しました。「豆を入れて！　玉ねぎは薄く切って！　油は入れすぎないで！」",
+        "スープができあがると、旅人は言いました。「おわんを持って、すわってください！」　村じゅうの人がいっしょに食べ、みんな、こんなにおいしいものは食べたことがないと言いました。なべの底には石だけが残りました。旅人はそれを洗ってポケットに入れ、別れを告げました。\n「作り方はさしあげます。石は次の村で要るので。」",
+        "ポルトガルではこの話が何世紀も語り継がれていて、アルメイリンの町では「ソパ・ダ・ペドラ（石のスープ）」が名物料理になり、今でも皿の底に石を入れて出されます。似た話はヨーロッパじゅうにあり、石のかわりに、くぎやボタンやおのが出てきます。教訓は、みんなが何かを持ち寄れば、なべ一杯の水でさえごちそうになる、ということです。"
+      ]
+    }
+  }
+}
