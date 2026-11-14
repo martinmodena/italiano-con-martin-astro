@@ -1,0 +1,460 @@
+{
+  "id": "il-galletto-e-la-gallina",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il galletto",
+      "forme": ["galletto"],
+      "esempi": ["Il galletto canta all'alba.", "Nel cortile c'è un galletto rosso.", "Il galletto è piccolo ma coraggioso."],
+      "traduzioni": { "en": "little rooster, cockerel (gallo + -etto)", "es": "gallito", "pt": "galinho", "fr": "petit coq", "cs": "kohoutek", "pl": "kogucik", "tr": "küçük horoz", "de": "Hähnchen", "ja": "おんどりくん" }
+    },
+    {
+      "parola": "la gallina",
+      "forme": ["gallina"],
+      "formeEsempi": ["galline"],
+      "esempi": ["La gallina fa le uova.", "Le galline beccano nel cortile.", "Mia nonna ha cinque galline."],
+      "traduzioni": { "en": "hen", "es": "gallina", "pt": "galinha", "fr": "poule", "cs": "slepička, slepice", "pl": "kurka, kura", "tr": "tavuk", "de": "Henne, Huhn", "ja": "めんどり" }
+    },
+    {
+      "parola": "il cortile",
+      "forme": ["cortile"],
+      "esempi": ["I bambini giocano nel cortile.", "La scuola ha un grande cortile.", "Lascio la bici in cortile."],
+      "traduzioni": { "en": "courtyard, farmyard", "es": "patio, corral", "pt": "quintal, pátio", "fr": "cour, basse-cour", "cs": "dvůr", "pl": "podwórko", "tr": "avlu", "de": "Hof", "ja": "中庭、庭" }
+    },
+    {
+      "parola": "il seme",
+      "forme": ["seme"],
+      "formeEsempi": ["semi"],
+      "esempi": ["Metto i semi nella terra.", "Gli uccelli mangiano i semi.", "Da un piccolo seme nasce un grande albero."],
+      "traduzioni": { "en": "seed", "es": "semilla, grano", "pt": "semente, grão", "fr": "graine", "cs": "zrnko, semínko", "pl": "ziarno", "tr": "tohum, tane", "de": "Korn, Samen", "ja": "種、粒" }
+    },
+    {
+      "parola": "la gola",
+      "forme": ["gola"],
+      "esempi": ["Mi fa male la gola.", "Ho il mal di gola e non posso parlare.", "Bevi un tè caldo per la gola."],
+      "traduzioni": { "en": "throat", "es": "garganta", "pt": "garganta", "fr": "gorge", "cs": "krk, hrdlo", "pl": "gardło", "tr": "boğaz", "de": "Hals, Kehle", "ja": "のど" }
+    },
+    {
+      "parola": "respirare",
+      "forme": ["respirare"],
+      "formeEsempi": ["respira"],
+      "esempi": ["Respira piano e rilassati.", "In montagna si respira aria pulita.", "Dopo la corsa non riesco a respirare."],
+      "traduzioni": { "en": "to breathe", "es": "respirar", "pt": "respirar", "fr": "respirer", "cs": "dýchat", "pl": "oddychać", "tr": "nefes almak", "de": "atmen", "ja": "息をする" }
+    },
+    {
+      "parola": "la sorgente",
+      "forme": ["sorgente"],
+      "esempi": ["L'acqua di questa sorgente è freschissima.", "Il fiume nasce da una sorgente in montagna.", "Beviamo alla sorgente."],
+      "traduzioni": { "en": "spring (of water)", "es": "manantial, fuente", "pt": "fonte, nascente", "fr": "source", "cs": "studánka, pramen", "pl": "źródło", "tr": "pınar, kaynak", "de": "Quelle", "ja": "泉" }
+    },
+    {
+      "parola": "il fazzoletto",
+      "forme": ["fazzoletto"],
+      "esempi": ["Hai un fazzoletto? Ho il raffreddore.", "La nonna porta un fazzoletto in testa.", "Metti il fazzoletto in tasca."],
+      "traduzioni": { "en": "handkerchief, headscarf", "es": "pañuelo", "pt": "lenço", "fr": "mouchoir, foulard", "cs": "šátek", "pl": "chusteczka", "tr": "mendil, yazma", "de": "Taschentuch, Tuch", "ja": "ハンカチ、スカーフ" }
+    },
+    {
+      "parola": "la sarta",
+      "forme": ["sarta"],
+      "formeEsempi": ["sarto"],
+      "esempi": ["La sarta accorcia i pantaloni.", "Mia zia fa la sarta.", "Il sarto cuce un vestito nuovo."],
+      "traduzioni": { "en": "seamstress (il sarto = tailor)", "es": "costurera", "pt": "costureira", "fr": "couturière", "cs": "švadlena", "pl": "krawcowa", "tr": "terzi (kadın)", "de": "Schneiderin", "ja": "お針子、仕立て屋" }
+    },
+    {
+      "parola": "il calzolaio",
+      "forme": ["calzolaio"],
+      "esempi": ["Il calzolaio ripara le mie scarpe.", "Porto gli stivali dal calzolaio.", "In questa via c'è un calzolaio bravissimo."],
+      "traduzioni": { "en": "shoemaker, cobbler", "es": "zapatero", "pt": "sapateiro", "fr": "cordonnier", "cs": "švec", "pl": "szewc", "tr": "ayakkabıcı", "de": "Schuster", "ja": "くつ屋" }
+    },
+    {
+      "parola": "la setola",
+      "forme": ["setole"],
+      "esempi": ["Lo spazzolino ha setole morbide.", "Il maiale ha le setole dure.", "Questo pennello ha setole naturali."],
+      "traduzioni": { "en": "bristle", "es": "cerda", "pt": "cerda", "fr": "soie (de porc)", "cs": "štětina", "pl": "szczecina", "tr": "kıl (domuz kılı)", "de": "Borste", "ja": "（ブタの）剛毛" }
+    },
+    {
+      "parola": "il latte",
+      "forme": ["latte"],
+      "esempi": ["La mattina bevo un bicchiere di latte.", "Nel caffè metto un po' di latte di avena.", "Il latte è finito: lo compro io."],
+      "traduzioni": { "en": "milk", "es": "leche", "pt": "leite", "fr": "lait", "cs": "mléko", "pl": "mleko", "tr": "süt", "de": "Milch", "ja": "牛乳、ミルク" }
+    },
+    {
+      "parola": "la mucca",
+      "forme": ["mucca"],
+      "formeEsempi": ["mucche"],
+      "esempi": ["La mucca mangia l'erba nel prato.", "In montagna ci sono tante mucche.", "La mucca fa «muu»."],
+      "traduzioni": { "en": "cow", "es": "vaca", "pt": "vaca", "fr": "vache", "cs": "kráva", "pl": "krowa", "tr": "inek", "de": "Kuh", "ja": "牛" }
+    },
+    {
+      "parola": "la rugiada",
+      "forme": ["rugiada"],
+      "esempi": ["La mattina l'erba è bagnata di rugiada.", "Le gocce di rugiada brillano al sole.", "All'alba il prato è pieno di rugiada."],
+      "traduzioni": { "en": "dew", "es": "rocío", "pt": "orvalho", "fr": "rosée", "cs": "rosa", "pl": "rosa", "tr": "çiy", "de": "Tau", "ja": "つゆ" }
+    },
+    {
+      "parola": "la lacrima",
+      "forme": ["lacrime"],
+      "formeEsempi": ["lacrima"],
+      "esempi": ["Ha gli occhi pieni di lacrime.", "Una lacrima scende sulla guancia.", "Piange lacrime di gioia."],
+      "traduzioni": { "en": "tear (from the eyes)", "es": "lágrima", "pt": "lágrima", "fr": "larme", "cs": "slza", "pl": "łza", "tr": "gözyaşı", "de": "Träne", "ja": "涙" }
+    },
+    {
+      "parola": "ti prego",
+      "forme": ["prego"],
+      "esempi": ["Ti prego, aiutami!", "Ti prego, non dirlo a nessuno.", "Vieni con me, ti prego!"],
+      "traduzioni": { "en": "please, I beg you (here not “you're welcome”)", "es": "por favor, te lo ruego", "pt": "por favor, eu te peço", "fr": "je t’en prie, s’il te plaît", "cs": "prosím tě", "pl": "proszę cię", "tr": "ne olur, yalvarırım", "de": "bitte, ich flehe dich an", "ja": "お願い" }
+    },
+    {
+      "parola": "indietro",
+      "forme": ["indietro"],
+      "esempi": ["Torna indietro, hai dimenticato le chiavi!", "Fai un passo indietro.", "Non guardare indietro."],
+      "traduzioni": { "en": "back («tornare indietro» = to go back)", "es": "atrás («tornare indietro» = volver atrás)", "pt": "para trás («tornare indietro» = voltar)", "fr": "en arrière («tornare indietro» = revenir)", "cs": "zpátky", "pl": "z powrotem", "tr": "geri", "de": "zurück", "ja": "もどって" }
+    },
+    {
+      "parola": "finalmente",
+      "forme": ["finalmente"],
+      "esempi": ["Finalmente è arrivata l'estate!", "Dopo due ore, finalmente il treno parte.", "Finalmente ho capito!"],
+      "traduzioni": { "en": "at last, finally", "es": "por fin", "pt": "finalmente", "fr": "enfin", "cs": "konečně", "pl": "nareszcie", "tr": "sonunda", "de": "endlich", "ja": "やっと" }
+    },
+    {
+      "parola": "troppo",
+      "forme": ["troppo"],
+      "esempi": ["Ho mangiato troppo.", "Questo caffè è troppo caldo.", "Lavori troppo, riposati!"],
+      "traduzioni": { "en": "too, too much", "es": "demasiado", "pt": "demais", "fr": "trop", "cs": "příliš", "pl": "za, zbyt", "tr": "fazla, çok", "de": "zu, zu viel", "ja": "〜すぎる" }
+    },
+    {
+      "parola": "la morale",
+      "forme": ["morale"],
+      "esempi": ["La morale della storia è: non dire bugie.", "Ogni favola di Esopo ha una morale.", "Qual è la morale di questo racconto?"],
+      "traduzioni": { "en": "moral (of a story)", "es": "moraleja", "pt": "moral (da história)", "fr": "morale (d’une histoire)", "cs": "ponaučení", "pl": "morał", "tr": "ana fikir, kıssadan hisse", "de": "Moral, Lehre", "ja": "教訓" }
+    },
+    {
+      "parola": "goloso",
+      "forme": ["goloso"],
+      "esempi": ["Sono goloso di cioccolato.", "Il gatto è goloso: ruba sempre il cibo.", "Mio fratello è molto goloso."],
+      "traduzioni": { "en": "greedy (for food), with a sweet tooth", "es": "goloso, glotón", "pt": "guloso", "fr": "gourmand", "cs": "mlsný, nenasytný", "pl": "łakomy", "tr": "obur, boğazına düşkün", "de": "gierig, naschhaft", "ja": "食いしんぼうの" }
+    },
+    {
+      "parola": "dividere",
+      "forme": ["dividere"],
+      "formeEsempi": ["dividiamo", "divido"],
+      "esempi": ["Dividiamo la pizza in quattro.", "Divido la camera con mia sorella.", "Il bambino non vuole dividere i giocattoli."],
+      "traduzioni": { "en": "to share, to divide", "es": "compartir, dividir", "pt": "dividir", "fr": "partager", "cs": "rozdělit se, dělit se", "pl": "dzielić się", "tr": "paylaşmak", "de": "teilen", "ja": "分ける" }
+    },
+    {
+      "parola": "inghiottire",
+      "forme": ["inghiottito"],
+      "formeEsempi": ["inghiottire"],
+      "esempi": ["Il bambino ha inghiottito una moneta!", "Mastica bene prima di inghiottire.", "Non riesco a inghiottire: mi fa male la gola."],
+      "traduzioni": { "en": "to swallow", "es": "tragar", "pt": "engolir", "fr": "avaler", "cs": "spolknout", "pl": "połknąć", "tr": "yutmak", "de": "verschlucken, schlucken", "ja": "飲みこむ" }
+    },
+    {
+      "parola": "intero",
+      "forme": ["intero"],
+      "formeEsempi": ["intera"],
+      "esempi": ["Ha mangiato una pizza intera.", "Ho letto il libro intero in un giorno.", "Ho dormito la notte intera."],
+      "traduzioni": { "en": "whole, entire («tutto intero» = whole)", "es": "entero", "pt": "inteiro", "fr": "entier", "cs": "celý", "pl": "cały", "tr": "bütün, tamamı", "de": "ganz", "ja": "まるごと、全部" }
+    },
+    {
+      "parola": "mormorare",
+      "forme": ["mormorato"],
+      "formeEsempi": ["mormora"],
+      "esempi": ["Ha mormorato qualcosa e se n'è andato.", "Il bambino mormora nel sonno.", "«Grazie», ha mormorato a bassa voce."],
+      "traduzioni": { "en": "to murmur", "es": "murmurar", "pt": "murmurar", "fr": "murmurer", "cs": "zašeptat, zamumlat", "pl": "wymamrotać", "tr": "mırıldanmak", "de": "murmeln", "ja": "つぶやく" }
+    },
+    {
+      "parola": "il sorso",
+      "forme": ["sorso"],
+      "esempi": ["Bevi un sorso d'acqua.", "Ho finito il caffè in un sorso.", "Mi dai un sorso del tuo succo?"],
+      "traduzioni": { "en": "sip", "es": "sorbo", "pt": "gole", "fr": "gorgée", "cs": "doušek", "pl": "łyk", "tr": "yudum", "de": "Schluck", "ja": "ひと口" }
+    },
+    {
+      "parola": "volentieri",
+      "forme": ["volentieri"],
+      "esempi": ["«Vieni al cinema?» «Volentieri!»", "Ti aiuto volentieri.", "Mangio volentieri la pizza."],
+      "traduzioni": { "en": "gladly", "es": "con mucho gusto", "pt": "com prazer", "fr": "volontiers", "cs": "rád, ochotně", "pl": "chętnie", "tr": "memnuniyetle", "de": "gern", "ja": "喜んで" }
+    },
+    {
+      "parola": "altrettanto",
+      "forme": ["altrettanto"],
+      "esempi": ["«Buon appetito!» «Grazie, altrettanto!»", "Lui è gentile, e la moglie è altrettanto gentile.", "Il secondo esame è stato altrettanto difficile."],
+      "traduzioni": { "en": "just as, equally («altrettanto!» = same to you)", "es": "igual de («altrettanto!» = ¡igualmente!)", "pt": "igualmente, tão … quanto", "fr": "tout aussi («altrettanto!» = pareillement !)", "cs": "stejně", "pl": "równie («altrettanto!» = nawzajem!)", "tr": "aynı derecede («altrettanto!» = size de!)", "de": "ebenso («altrettanto!» = gleichfalls!)", "ja": "同じくらい（«altrettanto!» = あなたも！）" }
+    },
+    {
+      "parola": "cucire",
+      "forme": ["cucirei"],
+      "formeEsempi": ["cuce", "cucire", "cuci"],
+      "esempi": ["La nonna cuce un bottone.", "So cucire a mano.", "Mi cuci l'orlo dei pantaloni?"],
+      "traduzioni": { "en": "to sew", "es": "coser", "pt": "costurar", "fr": "coudre", "cs": "ušít, šít", "pl": "szyć", "tr": "dikmek", "de": "nähen", "ja": "縫う" }
+    },
+    {
+      "parola": "a piedi nudi",
+      "forme": ["nudi"],
+      "esempi": ["D'estate cammino a piedi nudi in casa.", "I bambini corrono a piedi nudi sulla spiaggia.", "Non uscire a piedi nudi: fa freddo!"],
+      "traduzioni": { "en": "barefoot", "es": "descalzo", "pt": "descalço", "fr": "pieds nus", "cs": "bosý, naboso", "pl": "boso", "tr": "yalınayak", "de": "barfuß", "ja": "はだしで" }
+    },
+    {
+      "parola": "infine",
+      "forme": ["infine"],
+      "esempi": ["Prima studio, poi mangio e infine esco.", "Infine vorrei ringraziare tutti.", "Abbiamo visitato Roma, Napoli e infine Palermo."],
+      "traduzioni": { "en": "finally, lastly", "es": "por último, finalmente", "pt": "por fim", "fr": "enfin, pour finir", "cs": "nakonec", "pl": "w końcu, na koniec", "tr": "en sonunda", "de": "schließlich", "ja": "最後に" }
+    },
+    {
+      "parola": "sciogliersi",
+      "forme": ["sciolta"],
+      "formeEsempi": ["scioglie", "sciolto"],
+      "esempi": ["Il ghiaccio si scioglie al sole.", "Il nodo della scarpa si è sciolto.", "La neve si è sciolta in un giorno."],
+      "traduzioni": { "en": "to come undone, to melt (here: the chain unwinds)", "es": "deshacerse, derretirse", "pt": "desfazer-se, derreter", "fr": "se défaire, fondre", "cs": "rozplést se, roztát", "pl": "rozwiązać się, stopnieć", "tr": "çözülmek, erimek", "de": "sich lösen, schmelzen", "ja": "ほどける、とける" }
+    },
+    {
+      "parola": "al contrario",
+      "forme": ["contrario"],
+      "esempi": ["Hai messo la maglietta al contrario!", "Leggi questa parola al contrario.", "Al contrario di te, io amo l'inverno."],
+      "traduzioni": { "en": "backwards, the other way round", "es": "al revés", "pt": "ao contrário", "fr": "à l’envers, en sens inverse", "cs": "obráceně", "pl": "odwrotnie, na odwrót", "tr": "tersine, ters yönde", "de": "umgekehrt, rückwärts", "ja": "逆に" }
+    },
+    {
+      "parola": "insegnare",
+      "forme": ["insegna"],
+      "formeEsempi": ["insegni"],
+      "esempi": ["Mia madre insegna matematica.", "Mi insegni a nuotare?", "La vita insegna molte cose."],
+      "traduzioni": { "en": "to teach", "es": "enseñar", "pt": "ensinar", "fr": "apprendre, enseigner", "cs": "učit", "pl": "uczyć", "tr": "öğretmek", "de": "lehren, beibringen", "ja": "教える" }
+    },
+    {
+      "parola": "la richiesta",
+      "forme": ["richiesta"],
+      "esempi": ["Ho fatto una richiesta al direttore.", "La tua richiesta è stata accettata.", "Su richiesta, il ristorante prepara piatti senza glutine."],
+      "traduzioni": { "en": "request", "es": "petición", "pt": "pedido", "fr": "demande", "cs": "prosba, žádost", "pl": "prośba", "tr": "rica, istek", "de": "Bitte", "ja": "お願い、依頼" }
+    },
+    {
+      "parola": "l'ordine",
+      "forme": ["ordine"],
+      "formeEsempi": ["ordini"],
+      "esempi": ["Il capitano dà un ordine ai soldati.", "Non mi piace ricevere ordini.", "È un ordine: vai a dormire!"],
+      "traduzioni": { "en": "order, command (here not “tidiness”)", "es": "orden, mandato", "pt": "ordem, comando", "fr": "ordre", "cs": "rozkaz", "pl": "rozkaz", "tr": "emir", "de": "Befehl", "ja": "命令" }
+    },
+    {
+      "parola": "la catena",
+      "forme": ["catena"],
+      "esempi": ["Il cane è legato alla catena.", "Una catena di montagne attraversa il Paese.", "È stata una catena di errori."],
+      "traduzioni": { "en": "chain", "es": "cadena", "pt": "corrente, cadeia", "fr": "chaîne", "cs": "řetěz", "pl": "łańcuch", "tr": "zincir", "de": "Kette", "ja": "鎖、連鎖" }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a2": [
+        "A little rooster and a hen live together in a farmyard. One day they find a big seed. The rooster wants it all for himself: he eats it too fast and the seed gets stuck in his throat. He can't breathe, he can't sing.\n– Hen, you must help me! You must bring me some water!",
+        "The hen runs to the spring.\n– Spring, can you give me some water? My rooster can't breathe!\n– I can give you water, – says the spring, – but first you must bring me a handkerchief. I want the seamstress's handkerchief.",
+        "The hen runs to the seamstress.\n– Seamstress, can you give me a handkerchief?\n– I can give you the handkerchief, but first you must bring me shoes. I can't work without shoes.",
+        "The hen runs to the shoemaker.\n– Shoemaker, can you give me shoes?\n– I can give you shoes, but first you must bring me the pig's bristles.",
+        "The hen runs to the pig.\n– Pig, can you give me bristles?\n– I can give them to you, but first you must bring me the cow's milk.",
+        "The hen runs to the cow.\n– Cow, can you give me milk?\n– I can give you milk, but first you must bring me grass from the meadow.",
+        "The hen runs to the meadow.\n– Meadow, can you give me grass?\n– I can give you grass, but I want dew from the sky.",
+        "The hen looks up and cries:\n– Sky, please, you must help me!\nThe sky sees her tears and sends the dew.",
+        "Now the hen can go back. She takes the dew to the meadow, the grass to the cow, the milk to the pig, the bristles to the shoemaker, the shoes to the seamstress and the handkerchief to the spring. At last the spring gives her the water.",
+        "The hen flies to the rooster. He drinks, the seed goes down and… “Cock-a-doodle-doo!”. The rooster can sing again. That's the moral of the tale: you mustn't eat too fast, and nobody can do everything alone."
+      ],
+      "b1": [
+        "Czech children know this story well. A version of it can also be found in the tales of Božena Němcová, the writer who in the nineteenth century collected the folk tales of her country.",
+        "A very greedy little rooster, so as not to share a big seed with the hen, swallowed it whole. The seed got stuck in his throat.\n– Would you bring me some water? – he murmured. – I'd do anything for a sip!",
+        "The hen ran to the spring.\n– Would you give me some water for my rooster?\n– I'd gladly give it to you, – answered the spring, – but I'd like something in return. I'd love to have the seamstress's handkerchief. Could you bring it to me?",
+        "The seamstress was just as kind:\n– I'd sew it for you at once, but I can't go out barefoot. You should ask the shoemaker for shoes.",
+        "– I'd make them with pleasure, – said the shoemaker, – but I'd need the pig's bristles. Could you ask him for them?\nThe pig would have given the bristles, but he was thirsty, and the cow would have given her milk, but she was hungry. Finally the meadow sighed:\n– I'd give you all my grass, but without the dew from the sky I'm dry.",
+        "At that point the hen no longer knew whom to ask. She raised her eyes and said softly:\n– Sky, could you help me? I wouldn't ask you for anything if it weren't for him.\nThe sky, moved, sent the dew.",
+        "From there the chain came undone in reverse: the dew to the meadow, the grass to the cow, the milk to the pig, the bristles to the shoemaker, the shoes to the seamstress, the handkerchief to the spring. With the water in her beak, the hen hurried back. The rooster drank and began to sing again.",
+        "What does this chain teach us? That nobody lives alone: everyone needs someone else. And that a polite request opens more doors than an order."
+      ]
+    },
+    "es": {
+      "a2": [
+        "Un gallito y una gallina viven juntos en un corral. Un día encuentran un grano grande. El gallito lo quiere todo para él: se lo come demasiado deprisa y el grano se le queda en la garganta. No puede respirar, no puede cantar.\n– Gallina, ¡tienes que ayudarme! ¡Tienes que traerme un poco de agua!",
+        "La gallina corre al manantial.\n– Manantial, ¿puedes darme un poco de agua? ¡Mi gallito no puede respirar!\n– Puedo darte agua – dice el manantial –, pero primero tienes que traerme un pañuelo. Quiero el pañuelo de la costurera.",
+        "La gallina corre a ver a la costurera.\n– Costurera, ¿puedes darme un pañuelo?\n– Puedo darte el pañuelo, pero primero tienes que traerme unos zapatos. No puedo trabajar sin zapatos.",
+        "La gallina corre a ver al zapatero.\n– Zapatero, ¿puedes darme unos zapatos?\n– Puedo darte los zapatos, pero primero tienes que traerme las cerdas del cerdo.",
+        "La gallina corre a ver al cerdo.\n– Cerdo, ¿puedes darme unas cerdas?\n– Puedo dártelas, pero primero tienes que traerme la leche de la vaca.",
+        "La gallina corre a ver a la vaca.\n– Vaca, ¿puedes darme leche?\n– Puedo darte leche, pero primero tienes que traerme hierba del prado.",
+        "La gallina corre al prado.\n– Prado, ¿puedes darme hierba?\n– Puedo darte hierba, pero quiero el rocío del cielo.",
+        "La gallina mira hacia arriba y llora:\n– Cielo, te lo ruego, ¡tienes que ayudarme!\nEl cielo ve sus lágrimas y manda el rocío.",
+        "Ahora la gallina puede volver atrás. Lleva el rocío al prado, la hierba a la vaca, la leche al cerdo, las cerdas al zapatero, los zapatos a la costurera y el pañuelo al manantial. Por fin el manantial le da el agua.",
+        "La gallina vuela hasta el gallito. Él bebe, el grano baja y… «¡Quiquiriquí!». El gallito puede cantar otra vez. Es la moraleja del cuento: no hay que comer demasiado deprisa, y nadie puede hacerlo todo solo."
+      ],
+      "b1": [
+        "Los niños checos conocen bien esta historia. Hay una versión también en los cuentos de Božena Němcová, la escritora que en el siglo XIX recopiló los cuentos populares de su país.",
+        "Un gallito muy glotón, para no compartir un grano grande con la gallina, se lo tragó entero. El grano se le quedó en la garganta.\n– ¿Me traerías un poco de agua? – murmuró. – ¡Haría cualquier cosa por un sorbo!",
+        "La gallina corrió al manantial.\n– ¿Me darías un poco de agua para mi gallito?\n– Te la daría con mucho gusto – respondió el manantial –, pero querría algo a cambio. Me gustaría tener el pañuelo de la costurera. ¿Podrías traérmelo?",
+        "La costurera fue igual de amable:\n– Te lo cosería enseguida, pero no puedo salir descalza. Deberías pedirle los zapatos al zapatero.",
+        "– Los haría con mucho gusto – dijo el zapatero –, pero necesitaría las cerdas del cerdo. ¿Podrías pedírselas?\nEl cerdo habría dado las cerdas, pero tenía sed, y la vaca habría dado la leche, pero tenía hambre. Por último, el prado suspiró:\n– Te daría toda mi hierba, pero sin el rocío del cielo estoy seco.",
+        "Llegados a ese punto, la gallina ya no sabía a quién pedir. Levantó los ojos y dijo en voz baja:\n– Cielo, ¿podrías ayudarme? No te pediría nada si no fuera por él.\nEl cielo, conmovido, mandó el rocío.",
+        "A partir de ahí la cadena se deshizo al revés: el rocío al prado, la hierba a la vaca, la leche al cerdo, las cerdas al zapatero, los zapatos a la costurera, el pañuelo al manantial. Con el agua en el pico, la gallina volvió corriendo. El gallito bebió y volvió a cantar.",
+        "¿Qué nos enseña esta cadena? Que nadie vive solo: todos necesitamos a alguien. Y que una petición amable abre más puertas que una orden."
+      ]
+    },
+    "pt": {
+      "a2": [
+        "Um galinho e uma galinha vivem juntos num quintal. Um dia eles encontram um grão grande. O galinho quer o grão só para ele: come depressa demais e o grão fica preso na garganta. Ele não consegue respirar, não consegue cantar.\n– Galinha, você precisa me ajudar! Precisa me trazer um pouco de água!",
+        "A galinha corre até a fonte.\n– Fonte, você pode me dar um pouco de água? O meu galinho não consegue respirar!\n– Posso te dar água – diz a fonte –, mas primeiro você precisa me trazer um lenço. Quero o lenço da costureira.",
+        "A galinha corre até a costureira.\n– Costureira, você pode me dar um lenço?\n– Posso te dar o lenço, mas primeiro você precisa me trazer sapatos. Não posso trabalhar sem sapatos.",
+        "A galinha corre até o sapateiro.\n– Sapateiro, você pode me dar sapatos?\n– Posso te dar sapatos, mas primeiro você precisa me trazer as cerdas do porco.",
+        "A galinha corre até o porco.\n– Porco, você pode me dar cerdas?\n– Posso te dar, mas primeiro você precisa me trazer o leite da vaca.",
+        "A galinha corre até a vaca.\n– Vaca, você pode me dar leite?\n– Posso te dar leite, mas primeiro você precisa me trazer capim do prado.",
+        "A galinha corre até o prado.\n– Prado, você pode me dar capim?\n– Posso te dar capim, mas quero o orvalho do céu.",
+        "A galinha olha para cima e chora:\n– Céu, por favor, você precisa me ajudar!\nO céu vê as lágrimas dela e manda o orvalho.",
+        "Agora a galinha pode voltar. Leva o orvalho para o prado, o capim para a vaca, o leite para o porco, as cerdas para o sapateiro, os sapatos para a costureira e o lenço para a fonte. Finalmente a fonte lhe dá a água.",
+        "A galinha voa até o galinho. Ele bebe, o grão desce e… «Cocoricó!». O galinho pode cantar de novo. Essa é a moral do conto: não se deve comer depressa demais, e ninguém consegue fazer tudo sozinho."
+      ],
+      "b1": [
+        "As crianças tchecas conhecem bem esta história. Há uma versão dela também nos contos de Božena Němcová, a escritora que no século XIX reuniu os contos populares do seu país.",
+        "Um galinho muito guloso, para não dividir um grão grande com a galinha, engoliu-o inteiro. O grão ficou preso na garganta.\n– Você me traria um pouco de água? – murmurou. – Eu faria qualquer coisa por um gole!",
+        "A galinha correu até a fonte.\n– Você me daria um pouco de água para o meu galinho?\n– Eu te daria com prazer – respondeu a fonte –, mas queria algo em troca. Eu gostaria de ter o lenço da costureira. Você poderia trazê-lo para mim?",
+        "A costureira foi igualmente gentil:\n– Eu o costuraria na hora, mas não posso sair descalça. Você deveria pedir os sapatos ao sapateiro.",
+        "– Eu os faria com prazer – disse o sapateiro –, mas precisaria das cerdas do porco. Você poderia pedir a ele?\nO porco teria dado as cerdas, mas estava com sede, e a vaca teria dado o leite, mas estava com fome. Por fim, o prado suspirou:\n– Eu te daria todo o meu capim, mas sem o orvalho do céu estou seco.",
+        "A essa altura a galinha não sabia mais a quem pedir. Levantou os olhos e disse baixinho:\n– Céu, você poderia me ajudar? Eu não te pediria nada, se não fosse por ele.\nO céu, comovido, mandou o orvalho.",
+        "Dali em diante a corrente se desfez ao contrário: o orvalho para o prado, o capim para a vaca, o leite para o porco, as cerdas para o sapateiro, os sapatos para a costureira, o lenço para a fonte. Com a água no bico, a galinha voltou correndo. O galinho bebeu e voltou a cantar.",
+        "O que essa corrente nos ensina? Que ninguém vive sozinho: todo mundo precisa de alguém. E que um pedido gentil abre mais portas do que uma ordem."
+      ]
+    },
+    "fr": {
+      "a2": [
+        "Un petit coq et une poule vivent ensemble dans une basse-cour. Un jour, ils trouvent une grosse graine. Le petit coq la veut toute pour lui : il la mange trop vite et la graine reste coincée dans sa gorge. Il ne peut pas respirer, il ne peut pas chanter.\n– Poule, tu dois m’aider ! Tu dois m’apporter un peu d’eau !",
+        "La poule court à la source.\n– Source, tu peux me donner un peu d’eau ? Mon petit coq ne peut pas respirer !\n– Je peux te donner de l’eau, – dit la source, – mais d’abord tu dois m’apporter un foulard. Je veux le foulard de la couturière.",
+        "La poule court chez la couturière.\n– Couturière, tu peux me donner un foulard ?\n– Je peux te donner le foulard, mais d’abord tu dois m’apporter des souliers. Je ne peux pas travailler sans souliers.",
+        "La poule court chez le cordonnier.\n– Cordonnier, tu peux me donner des souliers ?\n– Je peux te donner des souliers, mais d’abord tu dois m’apporter les soies du cochon.",
+        "La poule court chez le cochon.\n– Cochon, tu peux me donner des soies ?\n– Je peux te les donner, mais d’abord tu dois m’apporter le lait de la vache.",
+        "La poule court chez la vache.\n– Vache, tu peux me donner du lait ?\n– Je peux te donner du lait, mais d’abord tu dois m’apporter l’herbe du pré.",
+        "La poule court au pré.\n– Pré, tu peux me donner de l’herbe ?\n– Je peux te donner de l’herbe, mais je veux la rosée du ciel.",
+        "La poule regarde en haut et pleure :\n– Ciel, je t’en prie, tu dois m’aider !\nLe ciel voit ses larmes et envoie la rosée.",
+        "Maintenant, la poule peut revenir. Elle apporte la rosée au pré, l’herbe à la vache, le lait au cochon, les soies au cordonnier, les souliers à la couturière et le foulard à la source. Enfin, la source lui donne l’eau.",
+        "La poule vole jusqu’au petit coq. Il boit, la graine descend et… « Cocorico ! ». Le petit coq peut chanter de nouveau. C’est la morale du conte : il ne faut pas manger trop vite, et personne ne peut tout faire tout seul."
+      ],
+      "b1": [
+        "Les enfants tchèques connaissent bien cette histoire. On en trouve aussi une version dans les contes de Božena Němcová, l’écrivaine qui, au XIXe siècle, a recueilli les contes populaires de son pays.",
+        "Un petit coq très gourmand, pour ne pas partager une grosse graine avec la poule, l’a avalée tout entière. La graine s’est coincée dans sa gorge.\n– Tu m’apporterais un peu d’eau ? – a-t-il murmuré. – Je ferais n’importe quoi pour une gorgée !",
+        "La poule a couru à la source.\n– Tu me donnerais un peu d’eau pour mon petit coq ?\n– Je te la donnerais volontiers, – a répondu la source, – mais je voudrais quelque chose en échange. J’aimerais avoir le foulard de la couturière. Tu pourrais me l’apporter ?",
+        "La couturière a été tout aussi gentille :\n– Je te le coudrais tout de suite, mais je ne peux pas sortir pieds nus. Tu devrais demander des souliers au cordonnier.",
+        "– Je les ferais avec plaisir, – a dit le cordonnier, – mais j’aurais besoin des soies du cochon. Tu pourrais les lui demander ?\nLe cochon aurait donné ses soies, mais il avait soif, et la vache aurait donné son lait, mais elle avait faim. Enfin, le pré a soupiré :\n– Je te donnerais toute mon herbe, mais sans la rosée du ciel, je suis sec.",
+        "À ce moment-là, la poule ne savait plus à qui demander. Elle a levé les yeux et a dit doucement :\n– Ciel, tu pourrais m’aider ? Je ne te demanderais rien, si ce n’était pas pour lui.\nLe ciel, ému, a envoyé la rosée.",
+        "À partir de là, la chaîne s’est défaite en sens inverse : la rosée au pré, l’herbe à la vache, le lait au cochon, les soies au cordonnier, les souliers à la couturière, le foulard à la source. L’eau dans le bec, la poule est revenue en courant. Le petit coq a bu et s’est remis à chanter.",
+        "Qu’est-ce que cette chaîne nous apprend ? Que personne ne vit seul : chacun a besoin de quelqu’un d’autre. Et qu’une demande polie ouvre plus de portes qu’un ordre."
+      ]
+    },
+    "cs": {
+      "a2": [
+        "Kohoutek a slepička žijí spolu na dvoře. Jednoho dne najdou velké zrno. Kohoutek ho chce celé pro sebe: sní ho moc rychle a zrno mu uvízne v krku. Nemůže dýchat, nemůže kokrhat.\n– Slepičko, musíš mi pomoct! Musíš mi přinést trochu vody!",
+        "Slepička běží ke studánce.\n– Studánko, můžeš mi dát trochu vody? Můj kohoutek nemůže dýchat!\n– Můžu ti dát vodu, – říká studánka, – ale nejdřív mi musíš přinést šátek. Chci šátek od švadleny.",
+        "Slepička běží ke švadleně.\n– Švadleno, můžeš mi dát šátek?\n– Můžu ti dát šátek, ale nejdřív mi musíš přinést střevíce. Bez střevíců nemůžu pracovat.",
+        "Slepička běží k ševci.\n– Ševče, můžeš mi dát střevíce?\n– Můžu ti dát střevíce, ale nejdřív mi musíš přinést štětiny od prasete.",
+        "Slepička běží k praseti.\n– Prase, můžeš mi dát štětiny?\n– Můžu ti je dát, ale nejdřív mi musíš přinést mléko od krávy.",
+        "Slepička běží ke krávě.\n– Kravičko, můžeš mi dát mléko?\n– Můžu ti dát mléko, ale nejdřív mi musíš přinést trávu z louky.",
+        "Slepička běží na louku.\n– Louko, můžeš mi dát trávu?\n– Můžu ti dát trávu, ale chci rosu z nebe.",
+        "Slepička se podívá nahoru a pláče:\n– Nebe, prosím tě, musíš mi pomoct!\nNebe vidí její slzy a pošle rosu.",
+        "Teď se slepička může vrátit. Nese rosu louce, trávu krávě, mléko praseti, štětiny ševci, střevíce švadleně a šátek studánce. Konečně jí studánka dá vodu.",
+        "Slepička letí ke kohoutkovi. Ten se napije, zrno sklouzne dolů a… „Kykyryký!“. Kohoutek může zase kokrhat. To je ponaučení z pohádky: nemáš jíst moc rychle a nikdo nezvládne všechno sám."
+      ],
+      "b1": [
+        "České děti tenhle příběh dobře znají – je to pohádka O kohoutkovi a slepičce. Jednu její verzi najdeme i v pohádkách Boženy Němcové, spisovatelky, která v 19. století sbírala lidové pohádky své země.",
+        "Velmi mlsný kohoutek, aby se nemusel dělit o velké zrno se slepičkou, ho spolkl celé. Zrno mu uvízlo v krku.\n– Přinesla bys mi trochu vody? – zašeptal. – Udělal bych cokoli za jeden doušek!",
+        "Slepička běžela ke studánce.\n– Dala bys mi trochu vody pro mého kohoutka?\n– Ráda bych ti ji dala, – odpověděla studánka, – ale chtěla bych něco na oplátku. Moc bych chtěla šátek od švadleny. Mohla bys mi ho přinést?",
+        "Švadlena byla stejně laskavá:\n– Hned bych ti ho ušila, ale nemůžu jít ven bosá. Měla bys poprosit ševce o střevíce.",
+        "– Rád bych je udělal, – řekl švec, – ale potřeboval bych štětiny od prasete. Mohla bys ho o ně poprosit?\nPrase by štětiny dalo, ale mělo žízeň, a kráva by dala mléko, ale měla hlad. Nakonec si louka povzdechla:\n– Dala bych ti všechnu svou trávu, ale bez rosy z nebe jsem suchá.",
+        "V tu chvíli už slepička nevěděla, koho poprosit. Zvedla oči a tiše řekla:\n– Nebe, mohlo bys mi pomoct? Nic bych tě nežádala, kdyby nešlo o něj.\nNebe bylo dojaté a poslalo rosu.",
+        "Odtud se řetěz rozplétal obráceně: rosa louce, tráva krávě, mléko praseti, štětiny ševci, střevíce švadleně, šátek studánce. S vodou v zobáčku se slepička rozběhla zpátky. Kohoutek se napil a zase začal kokrhat.",
+        "Co nás tenhle řetěz učí? Že nikdo nežije sám: každý potřebuje někoho dalšího. A že laskavá prosba otevře víc dveří než rozkaz."
+      ]
+    },
+    "pl": {
+      "a2": [
+        "Kogucik i kurka mieszkają razem na podwórku. Pewnego dnia znajdują duże ziarno. Kogucik chce je całe dla siebie: je je za szybko i ziarno staje mu w gardle. Nie może oddychać, nie może piać.\n– Kurko, musisz mi pomóc! Musisz mi przynieść trochę wody!",
+        "Kurka biegnie do źródła.\n– Źródło, możesz dać mi trochę wody? Mój kogucik nie może oddychać!\n– Mogę dać ci wodę – mówi źródło – ale najpierw musisz mi przynieść chusteczkę. Chcę chusteczkę od krawcowej.",
+        "Kurka biegnie do krawcowej.\n– Krawcowo, możesz dać mi chusteczkę?\n– Mogę dać ci chusteczkę, ale najpierw musisz mi przynieść buty. Nie mogę pracować bez butów.",
+        "Kurka biegnie do szewca.\n– Szewcze, możesz dać mi buty?\n– Mogę dać ci buty, ale najpierw musisz mi przynieść szczecinę od świni.",
+        "Kurka biegnie do świni.\n– Świnko, możesz dać mi szczecinę?\n– Mogę ci ją dać, ale najpierw musisz mi przynieść mleko od krowy.",
+        "Kurka biegnie do krowy.\n– Krowo, możesz dać mi mleko?\n– Mogę dać ci mleko, ale najpierw musisz mi przynieść trawę z łąki.",
+        "Kurka biegnie na łąkę.\n– Łąko, możesz dać mi trawę?\n– Mogę dać ci trawę, ale chcę rosę z nieba.",
+        "Kurka patrzy w górę i płacze:\n– Niebo, proszę cię, musisz mi pomóc!\nNiebo widzi jej łzy i zsyła rosę.",
+        "Teraz kurka może wrócić. Zanosi rosę łące, trawę krowie, mleko świni, szczecinę szewcowi, buty krawcowej i chusteczkę źródłu. Nareszcie źródło daje jej wodę.",
+        "Kurka leci do kogucika. On pije, ziarno przechodzi i… „Kukuryku!”. Kogucik znowu może piać. To jest morał baśni: nie wolno jeść za szybko i nikt nie zrobi wszystkiego sam."
+      ],
+      "b1": [
+        "Czeskie dzieci dobrze znają tę historię. Jedną jej wersję można znaleźć także w baśniach Boženy Němcovej, pisarki, która w XIX wieku zbierała ludowe opowieści swojego kraju.",
+        "Bardzo łakomy kogucik, żeby nie dzielić się dużym ziarnem z kurką, połknął je w całości. Ziarno stanęło mu w gardle.\n– Przyniosłabyś mi trochę wody? – wymamrotał. – Zrobiłbym wszystko za jeden łyk!",
+        "Kurka pobiegła do źródła.\n– Dałoby mi trochę wody dla mojego kogucika?\n– Chętnie bym ci ją dało – odpowiedziało źródło – ale chciałoby coś w zamian. Bardzo chciałoby mieć chusteczkę krawcowej. Mogłabyś mi ją przynieść?",
+        "Krawcowa była równie miła:\n– Od razu bym ci ją uszyła, ale nie mogę wyjść boso. Powinnaś poprosić szewca o buty.",
+        "– Zrobiłbym je z przyjemnością – powiedział szewc – ale potrzebowałbym szczeciny od świni. Mogłabyś ją o nią poprosić?\nŚwinia dałaby szczecinę, ale była spragniona, a krowa dałaby mleko, ale była głodna. W końcu łąka westchnęła:\n– Dałabym ci całą moją trawę, ale bez rosy z nieba jestem sucha.",
+        "W tym momencie kurka nie wiedziała już, kogo prosić. Podniosła oczy i powiedziała cicho:\n– Niebo, mogłobyś mi pomóc? Nie prosiłabym cię o nic, gdyby nie chodziło o niego.\nNiebo, wzruszone, zesłało rosę.",
+        "Od tej chwili łańcuch rozwinął się w odwrotną stronę: rosa dla łąki, trawa dla krowy, mleko dla świni, szczecina dla szewca, buty dla krawcowej, chusteczka dla źródła. Z wodą w dziobku kurka pobiegła z powrotem. Kogucik się napił i znowu zaczął piać.",
+        "Czego uczy nas ten łańcuch? Że nikt nie żyje sam: każdy potrzebuje kogoś innego. I że uprzejma prośba otwiera więcej drzwi niż rozkaz."
+      ]
+    },
+    "tr": {
+      "a2": [
+        "Küçük bir horozla bir tavuk bir avluda birlikte yaşar. Bir gün iri bir tane bulurlar. Küçük horoz taneyi tamamen kendine ister: onu çok hızlı yer ve tane boğazında kalır. Nefes alamaz, ötemez.\n– Tavuk, bana yardım etmelisin! Bana biraz su getirmelisin!",
+        "Tavuk pınara koşar.\n– Pınar, bana biraz su verebilir misin? Horozum nefes alamıyor!\n– Sana su verebilirim, – der pınar, – ama önce bana bir mendil getirmelisin. Terzi kadının mendilini istiyorum.",
+        "Tavuk terzi kadına koşar.\n– Terzi, bana bir mendil verebilir misin?\n– Sana mendili verebilirim ama önce bana ayakkabı getirmelisin. Ayakkabısız çalışamam.",
+        "Tavuk ayakkabıcıya koşar.\n– Ayakkabıcı, bana ayakkabı verebilir misin?\n– Sana ayakkabı verebilirim ama önce bana domuzun kıllarını getirmelisin.",
+        "Tavuk domuza koşar.\n– Domuz, bana kıl verebilir misin?\n– Sana verebilirim ama önce bana ineğin sütünü getirmelisin.",
+        "Tavuk ineğe koşar.\n– İnek, bana süt verebilir misin?\n– Sana süt verebilirim ama önce bana çayırdan ot getirmelisin.",
+        "Tavuk çayıra koşar.\n– Çayır, bana ot verebilir misin?\n– Sana ot verebilirim ama gökyüzünden çiy istiyorum.",
+        "Tavuk yukarı bakar ve ağlar:\n– Gökyüzü, ne olur, bana yardım etmelisin!\nGökyüzü onun gözyaşlarını görür ve çiyi gönderir.",
+        "Artık tavuk geri dönebilir. Çiyi çayıra, otu ineğe, sütü domuza, kılları ayakkabıcıya, ayakkabıları terziye ve mendili pınara götürür. Sonunda pınar ona suyu verir.",
+        "Tavuk horoza uçar. Horoz içer, tane aşağı iner ve… «Ü-ürü-üüü!». Küçük horoz yeniden ötebilir. Masalın ana fikri şu: çok hızlı yememelisin ve kimse her şeyi tek başına yapamaz."
+      ],
+      "b1": [
+        "Çek çocukları bu hikâyeyi iyi bilir. Bir versiyonu, 19. yüzyılda ülkesinin halk masallarını derleyen yazar Božena Němcová'nın masallarında da vardır.",
+        "Çok obur bir küçük horoz, iri bir taneyi tavukla paylaşmamak için onu bütün olarak yuttu. Tane boğazında kaldı.\n– Bana biraz su getirir misin? – diye mırıldandı. – Bir yudum için her şeyi yapardım!",
+        "Tavuk pınara koştu.\n– Horozum için bana biraz su verir misin?\n– Seve seve verirdim, – diye cevap verdi pınar, – ama karşılığında bir şey isterdim. Terzi kadının mendilini almak isterdim. Onu bana getirebilir misin?",
+        "Terzi kadın da aynı derecede kibardı:\n– Sana hemen dikerdim ama yalınayak dışarı çıkamam. Ayakkabıcıdan ayakkabı istemelisin.",
+        "– Seve seve yapardım, – dedi ayakkabıcı, – ama domuzun kıllarına ihtiyacım olurdu. Ondan isteyebilir misin?\nDomuz kıllarını verirdi ama susamıştı; inek sütünü verirdi ama acıkmıştı. Sonunda çayır iç çekti:\n– Sana bütün otumu verirdim ama gökyüzünün çiyi olmadan kupkuruyum.",
+        "O noktada tavuk artık kimden isteyeceğini bilmiyordu. Gözlerini kaldırdı ve usulca dedi ki:\n– Gökyüzü, bana yardım edebilir misin? Onun için olmasa senden hiçbir şey istemezdim.\nDuygulanan gökyüzü çiyi gönderdi.",
+        "Oradan sonra zincir tersine çözüldü: çiy çayıra, ot ineğe, süt domuza, kıllar ayakkabıcıya, ayakkabılar terziye, mendil pınara. Gagasında suyla tavuk koşarak geri döndü. Küçük horoz içti ve yeniden ötmeye başladı.",
+        "Bu zincir bize ne öğretiyor? Kimsenin tek başına yaşamadığını: herkesin bir başkasına ihtiyacı vardır. Ve kibar bir ricanın bir emirden daha çok kapı açtığını."
+      ]
+    },
+    "de": {
+      "a2": [
+        "Ein Hähnchen und ein Hühnchen leben zusammen auf einem Hof. Eines Tages finden sie ein großes Korn. Das Hähnchen will es ganz für sich: Es frisst es zu schnell, und das Korn bleibt ihm im Hals stecken. Es kann nicht atmen, es kann nicht krähen.\n– Hühnchen, du musst mir helfen! Du musst mir ein bisschen Wasser bringen!",
+        "Das Hühnchen läuft zur Quelle.\n– Quelle, kannst du mir ein bisschen Wasser geben? Mein Hähnchen kann nicht atmen!\n– Ich kann dir Wasser geben, – sagt die Quelle, – aber zuerst musst du mir ein Tuch bringen. Ich will das Tuch der Schneiderin.",
+        "Das Hühnchen läuft zur Schneiderin.\n– Schneiderin, kannst du mir ein Tuch geben?\n– Ich kann dir das Tuch geben, aber zuerst musst du mir Schuhe bringen. Ohne Schuhe kann ich nicht arbeiten.",
+        "Das Hühnchen läuft zum Schuster.\n– Schuster, kannst du mir Schuhe geben?\n– Ich kann dir Schuhe geben, aber zuerst musst du mir die Borsten vom Schwein bringen.",
+        "Das Hühnchen läuft zum Schwein.\n– Schwein, kannst du mir Borsten geben?\n– Ich kann sie dir geben, aber zuerst musst du mir die Milch der Kuh bringen.",
+        "Das Hühnchen läuft zur Kuh.\n– Kuh, kannst du mir Milch geben?\n– Ich kann dir Milch geben, aber zuerst musst du mir Gras von der Wiese bringen.",
+        "Das Hühnchen läuft zur Wiese.\n– Wiese, kannst du mir Gras geben?\n– Ich kann dir Gras geben, aber ich will den Tau vom Himmel.",
+        "Das Hühnchen schaut nach oben und weint:\n– Himmel, bitte, du musst mir helfen!\nDer Himmel sieht seine Tränen und schickt den Tau.",
+        "Jetzt kann das Hühnchen zurück. Es bringt den Tau zur Wiese, das Gras zur Kuh, die Milch zum Schwein, die Borsten zum Schuster, die Schuhe zur Schneiderin und das Tuch zur Quelle. Endlich gibt ihm die Quelle das Wasser.",
+        "Das Hühnchen fliegt zum Hähnchen. Es trinkt, das Korn rutscht hinunter und … „Kikeriki!“. Das Hähnchen kann wieder krähen. Das ist die Moral des Märchens: Man soll nicht zu schnell essen, und niemand kann alles allein schaffen."
+      ],
+      "b1": [
+        "Tschechische Kinder kennen diese Geschichte gut. Eine Fassung findet man auch in den Märchen von Božena Němcová, der Schriftstellerin, die im 19. Jahrhundert die Volksmärchen ihres Landes gesammelt hat.",
+        "Ein sehr gieriges Hähnchen hat ein großes Korn ganz verschluckt, um es nicht mit dem Hühnchen teilen zu müssen. Das Korn blieb ihm im Hals stecken.\n– Würdest du mir ein bisschen Wasser bringen? – murmelte es. – Ich würde alles für einen Schluck tun!",
+        "Das Hühnchen lief zur Quelle.\n– Würdest du mir ein bisschen Wasser für mein Hähnchen geben?\n– Ich würde es dir gern geben, – antwortete die Quelle, – aber ich hätte gern etwas dafür. Ich möchte das Tuch der Schneiderin haben. Könntest du es mir bringen?",
+        "Die Schneiderin war ebenso freundlich:\n– Ich würde es dir sofort nähen, aber ich kann nicht barfuß hinausgehen. Du solltest den Schuster um Schuhe bitten.",
+        "– Ich würde sie gern machen, – sagte der Schuster, – aber ich bräuchte die Borsten vom Schwein. Könntest du es darum bitten?\nDas Schwein hätte die Borsten gegeben, aber es hatte Durst, und die Kuh hätte die Milch gegeben, aber sie hatte Hunger. Schließlich seufzte die Wiese:\n– Ich würde dir mein ganzes Gras geben, aber ohne den Tau vom Himmel bin ich trocken.",
+        "Jetzt wusste das Hühnchen nicht mehr, wen es noch fragen sollte. Es hob die Augen und sagte leise:\n– Himmel, könntest du mir helfen? Ich würde dich um nichts bitten, wenn es nicht um ihn ginge.\nDer Himmel war gerührt und schickte den Tau.",
+        "Von da an löste sich die Kette rückwärts auf: der Tau zur Wiese, das Gras zur Kuh, die Milch zum Schwein, die Borsten zum Schuster, die Schuhe zur Schneiderin, das Tuch zur Quelle. Mit dem Wasser im Schnabel eilte das Hühnchen zurück. Das Hähnchen trank und fing wieder an zu krähen.",
+        "Was lehrt uns diese Kette? Dass niemand allein lebt: Jeder braucht jemand anderen. Und dass eine freundliche Bitte mehr Türen öffnet als ein Befehl."
+      ]
+    },
+    "ja": {
+      "a2": [
+        "おんどりくんとめんどりさんが、庭でいっしょに暮らしています。ある日、二羽は大きな粒を見つけます。おんどりくんはそれを独り占めしたくて、あわてて食べたので、粒がのどにつかえてしまいます。息ができず、鳴くこともできません。\n「めんどりさん、助けて！　水を少し持ってきて！」",
+        "めんどりさんは泉へ走ります。\n「泉さん、水を少しくれない？　おんどりくんが息ができないの！」\n「水はあげられるよ」と泉は言います。「でも、その前にハンカチを持ってきて。お針子さんのハンカチがほしいんだ。」",
+        "めんどりさんはお針子さんのところへ走ります。\n「お針子さん、ハンカチをくれない？」\n「ハンカチはあげられるけど、その前にくつを持ってきて。くつがないと仕事ができないの。」",
+        "めんどりさんはくつ屋さんのところへ走ります。\n「くつ屋さん、くつをくれない？」\n「くつはあげられるけど、その前にブタの毛を持ってきておくれ。」",
+        "めんどりさんはブタのところへ走ります。\n「ブタさん、毛をくれない？」\n「あげられるよ。でもその前に、牛のミルクを持ってきて。」",
+        "めんどりさんは牛のところへ走ります。\n「牛さん、ミルクをくれない？」\n「ミルクはあげられるよ。でもその前に、草地の草を持ってきて。」",
+        "めんどりさんは草地へ走ります。\n「草地さん、草をくれない？」\n「草はあげられるよ。でも、空のつゆがほしいんだ。」",
+        "めんどりさんは空を見上げて泣きます。\n「空さん、お願い、助けて！」\n空はめんどりさんの涙を見て、つゆを送ってくれます。",
+        "これで、めんどりさんはもどることができます。つゆを草地に、草を牛に、ミルクをブタに、毛をくつ屋さんに、くつをお針子さんに、ハンカチを泉に届けます。やっと泉が水をくれます。",
+        "めんどりさんはおんどりくんのところへ飛んでいきます。おんどりくんが水を飲むと、粒がすっと下りて……「コケコッコー！」　おんどりくんはまた鳴けるようになりました。これがこのお話の教訓です。あわてて食べてはいけません。そして、だれも何もかもひとりではできないのです。"
+      ],
+      "b1": [
+        "チェコの子どもたちは、この話をよく知っています。19世紀に自分の国の昔話を集めた作家、ボジェナ・ニェムツォヴァーの童話集にも、この話がおさめられています。",
+        "とても食いしんぼうなおんどりくんが、大きな粒をめんどりさんと分けたくなくて、丸のみにしてしまいました。粒はのどにつかえてしまいました。\n「水を少し持ってきてくれないかな？」とおんどりくんはつぶやきました。「ひと口のためなら、何だってするよ！」",
+        "めんどりさんは泉へ走りました。\n「おんどりくんのために、水を少しくれないかしら？」\n「喜んであげたいところだけど」と泉は答えました。「かわりに何かほしいな。お針子さんのハンカチがあるといいんだけど。持ってきてくれるかい？」",
+        "お針子さんも同じくらい親切でした。\n「すぐに縫ってあげたいけれど、はだしでは外に出られないの。くつ屋さんにくつをたのんでみたら？」",
+        "「喜んで作ってあげたいが」とくつ屋さんは言いました。「ブタの毛がいるんだ。ブタにたのんでくれるかい？」\nブタは毛をあげたかったのですが、のどがかわいていました。牛はミルクをあげたかったのですが、おなかがすいていました。最後に草地がため息をつきました。\n「草をみんなあげたいけれど、空のつゆがないと、からからなんだ。」",
+        "そこで、めんどりさんはもうだれにたのめばいいかわからなくなりました。目を上げて、小さな声で言いました。\n「空さん、助けてくれないかしら？　おんどりくんのためでなければ、何もお願いしないのだけれど。」\n空は胸を打たれて、つゆを送りました。",
+        "そこから、鎖は逆向きにほどけていきました。つゆは草地に、草は牛に、ミルクはブタに、毛はくつ屋さんに、くつはお針子さんに、ハンカチは泉に。水をくちばしにふくんで、めんどりさんは急いでもどりました。おんどりくんは水を飲み、また鳴きはじめました。",
+        "この鎖は何を教えてくれるでしょう？　だれもひとりでは生きていないということです。みんな、だれかを必要としています。そして、ていねいなお願いは、命令よりもたくさんの扉を開くのです。"
+      ]
+    }
+  }
+}
