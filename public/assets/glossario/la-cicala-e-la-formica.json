@@ -1,0 +1,1383 @@
+{
+  "id": "la-cicala-e-la-formica",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la cicala",
+      "forme": [
+        "cicala"
+      ],
+      "formeEsempi": [
+        "cicale"
+      ],
+      "esempi": [
+        "D'estate la cicala canta tutto il giorno.",
+        "In Toscana si sentono le cicale negli ulivi.",
+        "Il canto delle cicale è il suono dell'estate italiana."
+      ],
+      "traduzioni": {
+        "en": "cicada (in English the fable is “The Ant and the Grasshopper”)",
+        "es": "cigarra («La cigarra y la hormiga»)",
+        "pt": "cigarra («A cigarra e a formiga»)",
+        "fr": "cigale («La Cigale et la Fourmi», La Fontaine)",
+        "cs": "cikáda (česky bajka «O cvrčkovi a mravenci»)",
+        "pl": "cykada (po polsku bajka «Konik polny i mrówka»)",
+        "tr": "ağustos böceği",
+        "de": "Zikade (auf Deutsch meist «Die Grille und die Ameise»)",
+        "ja": "セミ（日本では「アリとキリギリス」）"
+      }
+    },
+    {
+      "parola": "la formica",
+      "forme": [
+        "formica"
+      ],
+      "formeEsempi": [
+        "formiche"
+      ],
+      "esempi": [
+        "Una formica cammina sul tavolo.",
+        "Le formiche lavorano insieme.",
+        "In cucina ci sono le formiche!"
+      ],
+      "traduzioni": {
+        "en": "ant",
+        "es": "hormiga",
+        "pt": "formiga",
+        "fr": "fourmi",
+        "cs": "mravenec",
+        "pl": "mrówka",
+        "tr": "karınca",
+        "de": "Ameise",
+        "ja": "アリ"
+      }
+    },
+    {
+      "parola": "cantare",
+      "forme": [
+        "canta",
+        "cantare",
+        "cantava"
+      ],
+      "formeEsempi": [
+        "canto"
+      ],
+      "esempi": [
+        "Mia figlia canta nel coro della scuola.",
+        "Ti piace cantare sotto la doccia?",
+        "Da giovane il nonno cantava in un gruppo."
+      ],
+      "traduzioni": {
+        "en": "to sing",
+        "es": "cantar",
+        "pt": "cantar",
+        "fr": "chanter",
+        "cs": "zpívat",
+        "pl": "śpiewać",
+        "tr": "şarkı söylemek, ötmek",
+        "de": "singen",
+        "ja": "歌う、鳴く"
+      }
+    },
+    {
+      "parola": "l'estate",
+      "forme": [
+        "estate"
+      ],
+      "esempi": [
+        "D'estate andiamo al mare.",
+        "L'estate in Sicilia è molto calda.",
+        "Quest'estate imparo a nuotare."
+      ],
+      "traduzioni": {
+        "en": "summer",
+        "es": "verano",
+        "pt": "verão",
+        "fr": "été",
+        "cs": "léto",
+        "pl": "lato",
+        "tr": "yaz",
+        "de": "Sommer",
+        "ja": "夏"
+      }
+    },
+    {
+      "parola": "l'inverno",
+      "forme": [
+        "inverno"
+      ],
+      "esempi": [
+        "D'inverno nevica in montagna.",
+        "L'inverno è la mia stagione preferita.",
+        "Questo inverno è stato molto freddo."
+      ],
+      "traduzioni": {
+        "en": "winter",
+        "es": "invierno",
+        "pt": "inverno",
+        "fr": "hiver",
+        "cs": "zima",
+        "pl": "zima",
+        "tr": "kış",
+        "de": "Winter",
+        "ja": "冬"
+      }
+    },
+    {
+      "parola": "pensare",
+      "forme": [
+        "pensa",
+        "pensare"
+      ],
+      "formeEsempi": [
+        "penso"
+      ],
+      "esempi": [
+        "Penso sempre a te.",
+        "Mio fratello pensa solo al calcio.",
+        "Devo pensare alle vacanze."
+      ],
+      "traduzioni": {
+        "en": "to think («pensare a» = to think about)",
+        "es": "pensar («pensare a» = pensar en)",
+        "pt": "pensar («pensare a» = pensar em)",
+        "fr": "penser («pensare a» = penser à)",
+        "cs": "myslet («pensare a» = myslet na)",
+        "pl": "myśleć («pensare a» = myśleć o)",
+        "tr": "düşünmek",
+        "de": "denken («pensare a» = denken an)",
+        "ja": "考える"
+      }
+    },
+    {
+      "parola": "cercare",
+      "forme": [
+        "cerca"
+      ],
+      "formeEsempi": [
+        "cerco"
+      ],
+      "esempi": [
+        "Cerco le chiavi da mezz'ora.",
+        "Il cane cerca la palla in giardino.",
+        "Mia sorella cerca lavoro."
+      ],
+      "traduzioni": {
+        "en": "to look for",
+        "es": "buscar",
+        "pt": "procurar",
+        "fr": "chercher",
+        "cs": "hledat",
+        "pl": "szukać",
+        "tr": "aramak",
+        "de": "suchen",
+        "ja": "さがす"
+      }
+    },
+    {
+      "parola": "il seme",
+      "forme": [
+        "semi"
+      ],
+      "formeEsempi": [
+        "seme"
+      ],
+      "esempi": [
+        "Gli uccellini mangiano i semi.",
+        "Metto i semi di girasole nell'insalata.",
+        "Da un seme nasce una pianta."
+      ],
+      "traduzioni": {
+        "en": "seed",
+        "es": "semilla",
+        "pt": "semente",
+        "fr": "graine",
+        "cs": "semínko",
+        "pl": "nasiono, ziarno",
+        "tr": "tohum",
+        "de": "Samen, Korn",
+        "ja": "種"
+      }
+    },
+    {
+      "parola": "il cibo",
+      "forme": [
+        "cibo"
+      ],
+      "esempi": [
+        "Il cibo italiano è famoso in tutto il mondo.",
+        "Non buttare il cibo!",
+        "Al gatto do il cibo due volte al giorno."
+      ],
+      "traduzioni": {
+        "en": "food",
+        "es": "comida",
+        "pt": "comida",
+        "fr": "nourriture",
+        "cs": "jídlo, potrava",
+        "pl": "jedzenie",
+        "tr": "yiyecek",
+        "de": "Essen, Nahrung",
+        "ja": "食べもの"
+      }
+    },
+    {
+      "parola": "rispondere",
+      "forme": [
+        "risponde"
+      ],
+      "formeEsempi": [
+        "rispondo",
+        "rispondi"
+      ],
+      "esempi": [
+        "Ti chiamo, ma non rispondi mai!",
+        "Lo studente risponde alla domanda.",
+        "Rispondo all'email domani."
+      ],
+      "traduzioni": {
+        "en": "to answer",
+        "es": "responder, contestar",
+        "pt": "responder",
+        "fr": "répondre",
+        "cs": "odpovědět",
+        "pl": "odpowiedzieć",
+        "tr": "cevap vermek",
+        "de": "antworten",
+        "ja": "答える"
+      }
+    },
+    {
+      "parola": "continuare",
+      "forme": [
+        "continua",
+        "continuato"
+      ],
+      "formeEsempi": [
+        "continuo"
+      ],
+      "esempi": [
+        "Il film continua dopo la pubblicità.",
+        "Continuo a studiare anche d'estate.",
+        "Ha continuato a piovere tutta la notte."
+      ],
+      "traduzioni": {
+        "en": "to continue, to keep (doing)",
+        "es": "seguir, continuar",
+        "pt": "continuar",
+        "fr": "continuer",
+        "cs": "pokračovat",
+        "pl": "kontynuować, dalej (coś robić)",
+        "tr": "devam etmek",
+        "de": "weitermachen, fortsetzen",
+        "ja": "続ける"
+      }
+    },
+    {
+      "parola": "freddo",
+      "forme": [
+        "freddo",
+        "freddi"
+      ],
+      "formeEsempi": [
+        "fredda"
+      ],
+      "esempi": [
+        "Chiudi la finestra, ho freddo.",
+        "A gennaio arriva il freddo.",
+        "Gli inverni in montagna sono freddi."
+      ],
+      "traduzioni": {
+        "en": "cold («il freddo» = the cold)",
+        "es": "frío",
+        "pt": "frio",
+        "fr": "froid",
+        "cs": "zima, chlad; studený",
+        "pl": "zimno, chłód; zimny",
+        "tr": "soğuk",
+        "de": "Kälte; kalt",
+        "ja": "寒さ、寒い"
+      }
+    },
+    {
+      "parola": "il campo",
+      "forme": [
+        "campi",
+        "campo"
+      ],
+      "esempi": [
+        "Il contadino lavora nei campi.",
+        "D'estate i campi di grano sono gialli.",
+        "I bambini giocano sul campo da calcio."
+      ],
+      "traduzioni": {
+        "en": "field",
+        "es": "campo",
+        "pt": "campo",
+        "fr": "champ",
+        "cs": "pole",
+        "pl": "pole",
+        "tr": "tarla",
+        "de": "Feld",
+        "ja": "畑、野原"
+      }
+    },
+    {
+      "parola": "la fame",
+      "forme": [
+        "fame"
+      ],
+      "esempi": [
+        "Ho fame: a che ora si mangia?",
+        "Dopo la piscina i bambini hanno sempre fame.",
+        "Non ho più fame, grazie."
+      ],
+      "traduzioni": {
+        "en": "hunger («avere fame» = to be hungry)",
+        "es": "hambre («avere fame» = tener hambre)",
+        "pt": "fome («avere fame» = estar com fome)",
+        "fr": "faim («avere fame» = avoir faim)",
+        "cs": "hlad («avere fame» = mít hlad)",
+        "pl": "głód («avere fame» = być głodnym)",
+        "tr": "açlık («avere fame» = acıkmak)",
+        "de": "Hunger («avere fame» = Hunger haben)",
+        "ja": "空腹（«avere fame» = おなかがすく）"
+      }
+    },
+    {
+      "parola": "le provviste",
+      "forme": [
+        "provviste"
+      ],
+      "esempi": [
+        "Prima della gita compriamo le provviste.",
+        "Lo scoiattolo nasconde le sue provviste.",
+        "In cantina teniamo le provviste per l'inverno."
+      ],
+      "traduzioni": {
+        "en": "supplies, provisions",
+        "es": "provisiones",
+        "pt": "provisões, mantimentos",
+        "fr": "provisions",
+        "cs": "zásoby",
+        "pl": "zapasy",
+        "tr": "erzak",
+        "de": "Vorräte",
+        "ja": "たくわえ、食料"
+      }
+    },
+    {
+      "parola": "divertirsi",
+      "forme": [
+        "divertirsi"
+      ],
+      "formeEsempi": [
+        "divertiti",
+        "diverto"
+      ],
+      "esempi": [
+        "Alla festa mi diverto sempre.",
+        "Ciao, divertiti in vacanza!",
+        "È importante anche divertirsi."
+      ],
+      "traduzioni": {
+        "en": "to have fun, to enjoy oneself",
+        "es": "divertirse",
+        "pt": "divertir-se",
+        "fr": "s’amuser",
+        "cs": "bavit se",
+        "pl": "bawić się",
+        "tr": "eğlenmek",
+        "de": "Spaß haben, sich amüsieren",
+        "ja": "楽しむ"
+      }
+    },
+    {
+      "parola": "importante",
+      "forme": [
+        "importante"
+      ],
+      "esempi": [
+        "Domani ho un esame importante.",
+        "È importante dormire bene.",
+        "La famiglia è la cosa più importante."
+      ],
+      "traduzioni": {
+        "en": "important",
+        "es": "importante",
+        "pt": "importante",
+        "fr": "important",
+        "cs": "důležitý",
+        "pl": "ważny",
+        "tr": "önemli",
+        "de": "wichtig",
+        "ja": "大切な"
+      }
+    },
+    {
+      "parola": "il futuro",
+      "forme": [
+        "futuro"
+      ],
+      "esempi": [
+        "Nel futuro vorrei vivere al mare.",
+        "Pensa al tuo futuro!",
+        "Nessuno conosce il futuro."
+      ],
+      "traduzioni": {
+        "en": "future",
+        "es": "futuro",
+        "pt": "futuro",
+        "fr": "avenir",
+        "cs": "budoucnost",
+        "pl": "przyszłość",
+        "tr": "gelecek",
+        "de": "Zukunft",
+        "ja": "将来、未来"
+      }
+    },
+    {
+      "parola": "raccogliere",
+      "forme": [
+        "raccoglieva",
+        "raccogliere"
+      ],
+      "formeEsempi": [
+        "raccolgo"
+      ],
+      "esempi": [
+        "In autunno raccolgo le castagne.",
+        "La nonna raccoglieva le olive a novembre.",
+        "Aiutami a raccogliere i giochi."
+      ],
+      "traduzioni": {
+        "en": "to gather, to collect, to pick",
+        "es": "recoger",
+        "pt": "colher, juntar",
+        "fr": "ramasser, récolter",
+        "cs": "sbírat",
+        "pl": "zbierać",
+        "tr": "toplamak",
+        "de": "sammeln",
+        "ja": "集める"
+      }
+    },
+    {
+      "parola": "il formicaio",
+      "forme": [
+        "formicaio"
+      ],
+      "esempi": [
+        "Nel giardino c'è un grande formicaio.",
+        "Le formiche tornano al formicaio.",
+        "La piazza la sera è un formicaio di gente."
+      ],
+      "traduzioni": {
+        "en": "anthill",
+        "es": "hormiguero",
+        "pt": "formigueiro",
+        "fr": "fourmilière",
+        "cs": "mraveniště",
+        "pl": "mrowisko",
+        "tr": "karınca yuvası",
+        "de": "Ameisenhaufen",
+        "ja": "アリの巣"
+      }
+    },
+    {
+      "parola": "invitare",
+      "forme": [
+        "invitata"
+      ],
+      "formeEsempi": [
+        "invito",
+        "invitato"
+      ],
+      "esempi": [
+        "Ti invito a cena sabato.",
+        "Marco mi ha invitata al suo matrimonio.",
+        "Abbiamo invitato tutti i vicini."
+      ],
+      "traduzioni": {
+        "en": "to invite",
+        "es": "invitar",
+        "pt": "convidar",
+        "fr": "inviter",
+        "cs": "pozvat",
+        "pl": "zaprosić",
+        "tr": "davet etmek",
+        "de": "einladen",
+        "ja": "さそう、招待する"
+      }
+    },
+    {
+      "parola": "riposarsi",
+      "forme": [
+        "riposarsi"
+      ],
+      "formeEsempi": [
+        "riposo",
+        "riposati"
+      ],
+      "esempi": [
+        "Dopo pranzo mi riposo un po'.",
+        "Sei stanco: riposati!",
+        "Il fine settimana serve per riposarsi."
+      ],
+      "traduzioni": {
+        "en": "to rest",
+        "es": "descansar",
+        "pt": "descansar",
+        "fr": "se reposer",
+        "cs": "odpočinout si",
+        "pl": "odpocząć",
+        "tr": "dinlenmek",
+        "de": "sich ausruhen",
+        "ja": "休む"
+      }
+    },
+    {
+      "parola": "lontano",
+      "forme": [
+        "lontano"
+      ],
+      "esempi": [
+        "Il Natale è ancora lontano.",
+        "Abito lontano dall'ufficio.",
+        "La stazione non è lontano da qui."
+      ],
+      "traduzioni": {
+        "en": "far, far away",
+        "es": "lejos, lejano",
+        "pt": "longe, distante",
+        "fr": "loin, lointain",
+        "cs": "daleko, vzdálený",
+        "pl": "daleko, odległy",
+        "tr": "uzak",
+        "de": "weit, fern",
+        "ja": "遠い、まだ先の"
+      }
+    },
+    {
+      "parola": "coprire",
+      "forme": [
+        "coperto"
+      ],
+      "formeEsempi": [
+        "copre",
+        "copro"
+      ],
+      "esempi": [
+        "Copro il bambino con una coperta.",
+        "La neve copre le montagne.",
+        "Il cielo è coperto: forse piove."
+      ],
+      "traduzioni": {
+        "en": "to cover",
+        "es": "cubrir",
+        "pt": "cobrir",
+        "fr": "couvrir",
+        "cs": "zakrýt, pokrýt",
+        "pl": "przykryć, pokryć",
+        "tr": "örtmek, kaplamak",
+        "de": "bedecken",
+        "ja": "おおう"
+      }
+    },
+    {
+      "parola": "la neve",
+      "forme": [
+        "neve"
+      ],
+      "esempi": [
+        "I bambini giocano con la neve.",
+        "Stanotte è caduta molta neve.",
+        "In montagna c'è la neve fino ad aprile."
+      ],
+      "traduzioni": {
+        "en": "snow",
+        "es": "nieve",
+        "pt": "neve",
+        "fr": "neige",
+        "cs": "sníh",
+        "pl": "śnieg",
+        "tr": "kar",
+        "de": "Schnee",
+        "ja": "雪"
+      }
+    },
+    {
+      "parola": "il terreno",
+      "forme": [
+        "terreno"
+      ],
+      "esempi": [
+        "Il terreno è bagnato dopo la pioggia.",
+        "Mio zio ha un terreno in campagna.",
+        "Il pallone rotola sul terreno."
+      ],
+      "traduzioni": {
+        "en": "ground, land",
+        "es": "suelo, terreno",
+        "pt": "terreno, chão",
+        "fr": "sol, terrain",
+        "cs": "půda, zem",
+        "pl": "ziemia, grunt",
+        "tr": "toprak, arazi",
+        "de": "Boden, Grundstück",
+        "ja": "地面、土地"
+      }
+    },
+    {
+      "parola": "nulla",
+      "forme": [
+        "nulla"
+      ],
+      "esempi": [
+        "Non ho capito nulla.",
+        "Nel frigo non c'è nulla.",
+        "Grazie! — Di nulla!"
+      ],
+      "traduzioni": {
+        "en": "nothing, anything («di nulla» = you're welcome)",
+        "es": "nada",
+        "pt": "nada",
+        "fr": "rien",
+        "cs": "nic",
+        "pl": "nic",
+        "tr": "hiçbir şey",
+        "de": "nichts",
+        "ja": "何も（〜ない）"
+      }
+    },
+    {
+      "parola": "ricordare",
+      "forme": [
+        "ricordato"
+      ],
+      "formeEsempi": [
+        "ricordo",
+        "ricordi"
+      ],
+      "esempi": [
+        "Ti ricordi di me?",
+        "Ricordo bene la mia prima maestra.",
+        "Mi hai ricordato di comprare il pane: grazie!"
+      ],
+      "traduzioni": {
+        "en": "to remind, to remember",
+        "es": "recordar",
+        "pt": "lembrar",
+        "fr": "rappeler, se souvenir",
+        "cs": "připomenout, pamatovat si",
+        "pl": "przypomnieć, pamiętać",
+        "tr": "hatırlatmak, hatırlamak",
+        "de": "erinnern",
+        "ja": "思い出させる、覚えている"
+      }
+    },
+    {
+      "parola": "estivo",
+      "forme": [
+        "estivi"
+      ],
+      "formeEsempi": [
+        "estivo",
+        "estiva"
+      ],
+      "esempi": [
+        "Ho comprato un vestito estivo.",
+        "I mesi estivi sono luglio e agosto.",
+        "La scuola fa la pausa estiva."
+      ],
+      "traduzioni": {
+        "en": "summer (adj.)",
+        "es": "veraniego, de verano",
+        "pt": "de verão",
+        "fr": "d’été, estival",
+        "cs": "letní",
+        "pl": "letni",
+        "tr": "yaz (sıfat)",
+        "de": "Sommer-, sommerlich",
+        "ja": "夏の"
+      }
+    },
+    {
+      "parola": "il presente",
+      "forme": [
+        "presente"
+      ],
+      "esempi": [
+        "Vivi il presente!",
+        "Il presente è più importante del passato.",
+        "In grammatica studiamo il presente dei verbi."
+      ],
+      "traduzioni": {
+        "en": "the present",
+        "es": "el presente",
+        "pt": "o presente",
+        "fr": "le présent",
+        "cs": "přítomnost",
+        "pl": "teraźniejszość",
+        "tr": "şimdiki zaman, şimdi",
+        "de": "die Gegenwart",
+        "ja": "今、現在"
+      }
+    },
+    {
+      "parola": "durare",
+      "forme": [
+        "dura"
+      ],
+      "formeEsempi": [
+        "durano"
+      ],
+      "esempi": [
+        "Il film dura due ore.",
+        "Le vacanze durano poco!",
+        "Quanto dura il viaggio?"
+      ],
+      "traduzioni": {
+        "en": "to last",
+        "es": "durar",
+        "pt": "durar",
+        "fr": "durer",
+        "cs": "trvat",
+        "pl": "trwać",
+        "tr": "sürmek",
+        "de": "dauern",
+        "ja": "続く"
+      }
+    },
+    {
+      "parola": "per sempre",
+      "forme": [
+        "sempre"
+      ],
+      "esempi": [
+        "Ti amerò per sempre.",
+        "Niente dura per sempre.",
+        "Mia madre si alza sempre alle sei."
+      ],
+      "traduzioni": {
+        "en": "forever («sempre» = always)",
+        "es": "para siempre",
+        "pt": "para sempre",
+        "fr": "pour toujours",
+        "cs": "navždy",
+        "pl": "na zawsze",
+        "tr": "sonsuza dek",
+        "de": "für immer",
+        "ja": "永遠に"
+      }
+    },
+    {
+      "parola": "la preparazione",
+      "forme": [
+        "preparazione"
+      ],
+      "esempi": [
+        "La preparazione della torta richiede un'ora.",
+        "Ha un'ottima preparazione in matematica.",
+        "Per la maratona serve una lunga preparazione."
+      ],
+      "traduzioni": {
+        "en": "preparation",
+        "es": "preparación",
+        "pt": "preparação",
+        "fr": "préparation",
+        "cs": "příprava",
+        "pl": "przygotowanie",
+        "tr": "hazırlık",
+        "de": "Vorbereitung",
+        "ja": "準備"
+      }
+    },
+    {
+      "parola": "il momento",
+      "forme": [
+        "momenti"
+      ],
+      "formeEsempi": [
+        "momento"
+      ],
+      "esempi": [
+        "Un momento, arrivo!",
+        "Abbiamo passato momenti bellissimi insieme.",
+        "In questo momento sono in ufficio."
+      ],
+      "traduzioni": {
+        "en": "moment, time",
+        "es": "momento",
+        "pt": "momento",
+        "fr": "moment",
+        "cs": "chvíle, okamžik",
+        "pl": "chwila, moment",
+        "tr": "an",
+        "de": "Moment, Augenblick",
+        "ja": "とき、瞬間"
+      }
+    },
+    {
+      "parola": "difficile",
+      "forme": [
+        "difficili"
+      ],
+      "formeEsempi": [
+        "difficile"
+      ],
+      "esempi": [
+        "L'esame è stato difficile.",
+        "Sono anni difficili per tutti.",
+        "Non è difficile, prova!"
+      ],
+      "traduzioni": {
+        "en": "difficult, hard",
+        "es": "difícil",
+        "pt": "difícil",
+        "fr": "difficile",
+        "cs": "těžký, obtížný",
+        "pl": "trudny",
+        "tr": "zor",
+        "de": "schwierig",
+        "ja": "むずかしい、つらい"
+      }
+    },
+    {
+      "parola": "riempire",
+      "forme": [
+        "riempito"
+      ],
+      "formeEsempi": [
+        "riempio",
+        "riempie"
+      ],
+      "esempi": [
+        "Riempio la bottiglia d'acqua.",
+        "La musica riempie la stanza.",
+        "Ho riempito il frigo per la settimana."
+      ],
+      "traduzioni": {
+        "en": "to fill",
+        "es": "llenar",
+        "pt": "encher",
+        "fr": "remplir",
+        "cs": "naplnit",
+        "pl": "wypełnić",
+        "tr": "doldurmak",
+        "de": "füllen",
+        "ja": "満たす、いっぱいにする"
+      }
+    },
+    {
+      "parola": "il canto",
+      "forme": [
+        "canto"
+      ],
+      "esempi": [
+        "La mattina sento il canto degli uccelli.",
+        "Mia figlia fa lezioni di canto.",
+        "Il canto delle cicale annuncia l'estate."
+      ],
+      "traduzioni": {
+        "en": "song, singing, chirping",
+        "es": "canto",
+        "pt": "canto",
+        "fr": "chant",
+        "cs": "zpěv, cvrkot",
+        "pl": "śpiew, granie",
+        "tr": "ötüş, şarkı",
+        "de": "Gesang, Zirpen",
+        "ja": "鳴き声、歌"
+      }
+    },
+    {
+      "parola": "trascorrere",
+      "forme": [
+        "trascorresse"
+      ],
+      "formeEsempi": [
+        "trascorro",
+        "trascorso"
+      ],
+      "esempi": [
+        "Trascorro le vacanze dai nonni.",
+        "Abbiamo trascorso una bella serata.",
+        "Non capivo perché trascorresse tanto tempo al telefono."
+      ],
+      "traduzioni": {
+        "en": "to spend (time)",
+        "es": "pasar (tiempo)",
+        "pt": "passar (tempo)",
+        "fr": "passer (du temps)",
+        "cs": "trávit (čas)",
+        "pl": "spędzać (czas)",
+        "tr": "geçirmek (zaman)",
+        "de": "verbringen",
+        "ja": "過ごす"
+      }
+    },
+    {
+      "parola": "la stagione",
+      "forme": [
+        "stagioni"
+      ],
+      "formeEsempi": [
+        "stagione"
+      ],
+      "esempi": [
+        "L'anno ha quattro stagioni.",
+        "La primavera è la mia stagione preferita.",
+        "Mangio la frutta di stagione."
+      ],
+      "traduzioni": {
+        "en": "season",
+        "es": "estación",
+        "pt": "estação",
+        "fr": "saison",
+        "cs": "roční období",
+        "pl": "pora roku",
+        "tr": "mevsim",
+        "de": "Jahreszeit",
+        "ja": "季節"
+      }
+    },
+    {
+      "parola": "rappresentare",
+      "forme": [
+        "rappresentava"
+      ],
+      "formeEsempi": [
+        "rappresenta"
+      ],
+      "esempi": [
+        "Questo quadro rappresenta Venezia.",
+        "Per me questa casa rappresenta la famiglia.",
+        "Quel lavoro rappresentava una grande occasione."
+      ],
+      "traduzioni": {
+        "en": "to represent, to mean",
+        "es": "representar, suponer",
+        "pt": "representar",
+        "fr": "représenter",
+        "cs": "představovat",
+        "pl": "stanowić, oznaczać",
+        "tr": "temsil etmek, anlamına gelmek",
+        "de": "darstellen, bedeuten",
+        "ja": "表す、意味する"
+      }
+    },
+    {
+      "parola": "la sicurezza",
+      "forme": [
+        "sicurezza"
+      ],
+      "esempi": [
+        "Allaccia la cintura di sicurezza.",
+        "Avere un lavoro fisso dà sicurezza.",
+        "La sicurezza dei bambini è importante."
+      ],
+      "traduzioni": {
+        "en": "security, safety",
+        "es": "seguridad",
+        "pt": "segurança",
+        "fr": "sécurité",
+        "cs": "jistota, bezpečí",
+        "pl": "bezpieczeństwo, pewność",
+        "tr": "güvence, güvenlik",
+        "de": "Sicherheit",
+        "ja": "安心、安全"
+      }
+    },
+    {
+      "parola": "rimandare",
+      "forme": [
+        "rimandato"
+      ],
+      "formeEsempi": [
+        "rimando",
+        "rimandare"
+      ],
+      "esempi": [
+        "Non rimandare a domani quello che puoi fare oggi.",
+        "Rimando sempre la visita dal dentista.",
+        "Hanno rimandato la partita per la pioggia."
+      ],
+      "traduzioni": {
+        "en": "to put off, to postpone",
+        "es": "aplazar, dejar para luego",
+        "pt": "adiar, deixar para depois",
+        "fr": "remettre à plus tard",
+        "cs": "odkládat",
+        "pl": "odkładać",
+        "tr": "ertelemek",
+        "de": "aufschieben",
+        "ja": "先のばしにする"
+      }
+    },
+    {
+      "parola": "il vento",
+      "forme": [
+        "vento"
+      ],
+      "esempi": [
+        "Oggi c'è molto vento.",
+        "Il vento ha portato via il mio cappello.",
+        "Sul lago di Garda c'è sempre vento."
+      ],
+      "traduzioni": {
+        "en": "wind",
+        "es": "viento",
+        "pt": "vento",
+        "fr": "vent",
+        "cs": "vítr",
+        "pl": "wiatr",
+        "tr": "rüzgâr",
+        "de": "Wind",
+        "ja": "風"
+      }
+    },
+    {
+      "parola": "l'occasione",
+      "forme": [
+        "occasioni"
+      ],
+      "formeEsempi": [
+        "occasione"
+      ],
+      "esempi": [
+        "È un'occasione da non perdere!",
+        "Ho avuto tante occasioni di viaggiare.",
+        "Questo vestito è un'occasione: costa poco."
+      ],
+      "traduzioni": {
+        "en": "opportunity, chance",
+        "es": "oportunidad",
+        "pt": "oportunidade",
+        "fr": "occasion",
+        "cs": "příležitost",
+        "pl": "okazja",
+        "tr": "fırsat",
+        "de": "Gelegenheit",
+        "ja": "機会、チャンス"
+      }
+    },
+    {
+      "parola": "il rifugio",
+      "forme": [
+        "rifugio"
+      ],
+      "esempi": [
+        "In montagna dormiamo in un rifugio.",
+        "Durante il temporale cerchiamo un rifugio.",
+        "Per i gatti di strada c'è un rifugio in città."
+      ],
+      "traduzioni": {
+        "en": "shelter, refuge",
+        "es": "refugio",
+        "pt": "abrigo, refúgio",
+        "fr": "abri, refuge",
+        "cs": "útočiště, úkryt",
+        "pl": "schronienie",
+        "tr": "sığınak",
+        "de": "Unterschlupf, Hütte",
+        "ja": "避難所、すみか"
+      }
+    },
+    {
+      "parola": "adeguato",
+      "forme": [
+        "adeguato"
+      ],
+      "formeEsempi": [
+        "adeguata"
+      ],
+      "esempi": [
+        "Per la montagna serve un abbigliamento adeguato.",
+        "Non è un posto adeguato per i bambini.",
+        "Cerco un lavoro adeguato alla mia esperienza."
+      ],
+      "traduzioni": {
+        "en": "suitable, adequate",
+        "es": "adecuado",
+        "pt": "adequado",
+        "fr": "adapté, adéquat",
+        "cs": "vhodný, odpovídající",
+        "pl": "odpowiedni",
+        "tr": "uygun, yeterli",
+        "de": "angemessen, geeignet",
+        "ja": "ふさわしい、十分な"
+      }
+    },
+    {
+      "parola": "mettere a confronto",
+      "forme": [
+        "confronto"
+      ],
+      "esempi": [
+        "Il libro mette a confronto due culture.",
+        "Ho messo a confronto i prezzi.",
+        "Il confronto tra le due città è interessante."
+      ],
+      "traduzioni": {
+        "en": "to compare, to contrast",
+        "es": "comparar, confrontar",
+        "pt": "comparar, confrontar",
+        "fr": "mettre en parallèle, comparer",
+        "cs": "porovnávat",
+        "pl": "zestawiać, porównywać",
+        "tr": "karşılaştırmak",
+        "de": "gegenüberstellen",
+        "ja": "比べる、対比する"
+      }
+    },
+    {
+      "parola": "la responsabilità",
+      "forme": [
+        "responsabilità"
+      ],
+      "esempi": [
+        "Avere un cane è una grande responsabilità.",
+        "È colpa mia: mi prendo la responsabilità.",
+        "I genitori hanno molte responsabilità."
+      ],
+      "traduzioni": {
+        "en": "responsibility",
+        "es": "responsabilidad",
+        "pt": "responsabilidade",
+        "fr": "responsabilité",
+        "cs": "zodpovědnost",
+        "pl": "odpowiedzialność",
+        "tr": "sorumluluk",
+        "de": "Verantwortung",
+        "ja": "責任"
+      }
+    },
+    {
+      "parola": "il piacere",
+      "forme": [
+        "piacere"
+      ],
+      "esempi": [
+        "Piacere, sono Martin!",
+        "Leggere è un grande piacere.",
+        "Lo faccio con piacere."
+      ],
+      "traduzioni": {
+        "en": "pleasure («piacere!» = nice to meet you)",
+        "es": "placer («piacere!» = ¡encantado!)",
+        "pt": "prazer («piacere!» = muito prazer!)",
+        "fr": "plaisir («piacere!» = enchanté !)",
+        "cs": "potěšení («piacere!» = těší mě!)",
+        "pl": "przyjemność («piacere!» = miło mi!)",
+        "tr": "zevk («piacere!» = memnun oldum!)",
+        "de": "Vergnügen («piacere!» = freut mich!)",
+        "ja": "楽しみ、喜び（«piacere!» = はじめまして）"
+      }
+    },
+    {
+      "parola": "la solidarietà",
+      "forme": [
+        "solidarietà"
+      ],
+      "esempi": [
+        "Dopo il terremoto c'è stata molta solidarietà.",
+        "La solidarietà tra vicini è importante.",
+        "Grazie per la vostra solidarietà."
+      ],
+      "traduzioni": {
+        "en": "solidarity, helping each other",
+        "es": "solidaridad",
+        "pt": "solidariedade",
+        "fr": "solidarité",
+        "cs": "solidarita, vzájemná pomoc",
+        "pl": "solidarność",
+        "tr": "dayanışma",
+        "de": "Solidarität",
+        "ja": "助け合い、連帯"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "It's summer. A cicada sings up in a tree and doesn't think about the winter.",
+        "Near the tree lives an ant. Every day she looks for seeds and carries the food into her home. The cicada says to her: “Come and sing with me.” The ant answers: “Right now I'm getting food ready for the winter.”",
+        "The cicada laughs and goes on singing. Then the cold comes. In the fields there's no more food and the cicada is hungry.",
+        "She goes to the ant. The ant has a warm home and lots of supplies. The cicada understands that it's nice to have fun, but it's also important to think about the future."
+      ],
+      "a2": [
+        "During the summer a cicada sang, while an ant gathered food and carried it into the anthill.",
+        "The cicada invited her to rest several times. She said winter was still far away. The ant, however, kept on working.",
+        "When winter came, snow covered the ground and the cicada found nothing to eat. She went to ask the ant for help.",
+        "The ant reminded her of the summer months. The cicada understood that the present doesn't last forever and that good preparation helps in difficult times."
+      ],
+      "b1": [
+        "All summer long the cicada filled the field with her song. She couldn't understand why the ant spent so many hours gathering supplies.",
+        "The ant knew that the seasons change. Every trip to the anthill meant a little security for the cold months.",
+        "The cicada kept putting things off. When the cold wind arrived, her chances were gone.",
+        "With no food and no proper shelter, she asked for help. The story sets responsibility, pleasure and solidarity side by side."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Es verano. Una cigarra canta en lo alto de un árbol y no piensa en el invierno.",
+        "Cerca del árbol vive una hormiga. Todos los días busca semillas y lleva la comida a su casa. La cigarra le dice: «Ven a cantar conmigo». La hormiga responde: «Ahora preparo la comida para el invierno».",
+        "La cigarra se ríe y sigue cantando. Luego llega el frío. En los campos ya no hay comida y la cigarra tiene hambre.",
+        "Va a ver a la hormiga. La hormiga tiene una casa caliente y muchas provisiones. La cigarra entiende que es bonito divertirse, pero que también es importante pensar en el futuro."
+      ],
+      "a2": [
+        "Durante el verano una cigarra cantaba, mientras una hormiga recogía comida y la llevaba al hormiguero.",
+        "La cigarra la invitó varias veces a descansar. Decía que el invierno aún estaba lejos. La hormiga, sin embargo, siguió trabajando.",
+        "Cuando llegó el invierno, la nieve cubrió el suelo y la cigarra no encontró nada que comer. Fue a pedirle ayuda a la hormiga.",
+        "La hormiga le recordó los meses de verano. La cigarra comprendió que el presente no dura para siempre y que una buena preparación ayuda en los momentos difíciles."
+      ],
+      "b1": [
+        "Durante todo el verano la cigarra llenó el campo con su canto. No entendía por qué la hormiga pasaba tantas horas recogiendo provisiones.",
+        "La hormiga sabía que las estaciones cambian. Cada viaje al hormiguero suponía una pequeña seguridad para los meses fríos.",
+        "La cigarra lo dejó todo para más tarde una y otra vez. Cuando llegó el viento frío, las oportunidades se habían acabado.",
+        "Sin comida y sin un refugio adecuado, pidió ayuda. La historia pone frente a frente la responsabilidad, el placer y la solidaridad."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "É verão. Uma cigarra canta no alto de uma árvore e não pensa no inverno.",
+        "Perto da árvore mora uma formiga. Todo dia ela procura sementes e leva a comida para a sua casa. A cigarra diz: «Venha cantar comigo». A formiga responde: «Agora estou preparando a comida para o inverno».",
+        "A cigarra ri e continua cantando. Depois chega o frio. Nos campos não tem mais comida e a cigarra está com fome.",
+        "Ela vai até a formiga. A formiga tem uma casa quentinha e muitas provisões. A cigarra entende que é bom se divertir, mas também é importante pensar no futuro."
+      ],
+      "a2": [
+        "Durante o verão uma cigarra cantava, enquanto uma formiga juntava comida e a levava para o formigueiro.",
+        "A cigarra a convidou várias vezes para descansar. Dizia que o inverno ainda estava longe. A formiga, porém, continuou trabalhando.",
+        "Quando o inverno chegou, a neve cobriu o chão e a cigarra não encontrou nada para comer. Foi pedir ajuda à formiga.",
+        "A formiga lembrou a cigarra dos meses de verão. A cigarra entendeu que o presente não dura para sempre e que uma boa preparação ajuda nos momentos difíceis."
+      ],
+      "b1": [
+        "Durante o verão inteiro a cigarra encheu o campo com o seu canto. Não entendia por que a formiga passava tantas horas juntando provisões.",
+        "A formiga sabia que as estações mudam. Cada viagem até o formigueiro representava um pouco de segurança para os meses frios.",
+        "A cigarra foi adiando sem parar. Quando o vento frio chegou, as oportunidades tinham acabado.",
+        "Sem comida e sem um abrigo adequado, pediu ajuda. A história coloca lado a lado responsabilidade, prazer e solidariedade."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "C’est l’été. Une cigale chante en haut d’un arbre et ne pense pas à l’hiver.",
+        "Près de l’arbre vit une fourmi. Tous les jours, elle cherche des graines et porte la nourriture dans sa maison. La cigale lui dit : « Viens chanter avec moi. » La fourmi répond : « Maintenant, je prépare la nourriture pour l’hiver. »",
+        "La cigale rit et continue à chanter. Puis le froid arrive. Dans les champs, il n’y a plus de nourriture et la cigale a faim.",
+        "Elle va chez la fourmi. La fourmi a une maison chaude et beaucoup de provisions. La cigale comprend que c’est bien de s’amuser, mais qu’il est aussi important de penser à l’avenir."
+      ],
+      "a2": [
+        "Pendant l’été, une cigale chantait, tandis qu’une fourmi ramassait de la nourriture et la portait à la fourmilière.",
+        "La cigale l’a invitée plusieurs fois à se reposer. Elle disait que l’hiver était encore loin. La fourmi, pourtant, a continué à travailler.",
+        "Quand l’hiver est arrivé, la neige a couvert le sol et la cigale n’a rien trouvé à manger. Elle est allée demander de l’aide à la fourmi.",
+        "La fourmi lui a rappelé les mois d’été. La cigale a compris que le présent ne dure pas toujours et qu’une bonne préparation aide dans les moments difficiles."
+      ],
+      "b1": [
+        "Tout l’été, la cigale a rempli le champ de son chant. Elle ne comprenait pas pourquoi la fourmi passait tant d’heures à ramasser des provisions.",
+        "La fourmi savait que les saisons changent. Chaque voyage vers la fourmilière représentait une petite sécurité pour les mois froids.",
+        "La cigale a sans cesse remis à plus tard. Quand le vent froid est arrivé, les occasions étaient passées.",
+        "Sans nourriture et sans abri convenable, elle a demandé de l’aide. L’histoire met en regard la responsabilité, le plaisir et la solidarité."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Je léto. Nahoře na stromě zpívá cikáda a nemyslí na zimu.",
+        "Blízko stromu žije mravenec. Každý den hledá semínka a nosí jídlo do svého domu. Cikáda mu říká: „Pojď zpívat se mnou.“ Mravenec odpoví: „Teď připravuju jídlo na zimu.“",
+        "Cikáda se směje a zpívá dál. Pak přijde zima. Na polích už není žádné jídlo a cikáda má hlad.",
+        "Jde k mravenci. Mravenec má teplý domov a hodně zásob. Cikáda pochopí, že je hezké se bavit, ale je také důležité myslet na budoucnost."
+      ],
+      "a2": [
+        "Během léta cikáda zpívala, zatímco mravenec sbíral jídlo a nosil ho do mraveniště.",
+        "Cikáda ho několikrát pozvala, ať si odpočine. Říkala, že zima je ještě daleko. Mravenec ale dál pracoval.",
+        "Když přišla zima, sníh pokryl zem a cikáda nenašla nic k jídlu. Šla poprosit mravence o pomoc.",
+        "Mravenec jí připomněl letní měsíce. Cikáda pochopila, že přítomnost netrvá věčně a že dobrá příprava pomáhá v těžkých chvílích."
+      ],
+      "b1": [
+        "Celé léto cikáda naplňovala pole svým zpěvem. Nechápala, proč mravenec tráví tolik hodin sbíráním zásob.",
+        "Mravenec věděl, že se roční období mění. Každá cesta do mraveniště pro něj představovala kousek jistoty na studené měsíce.",
+        "Cikáda všechno pořád odkládala. Když přišel studený vítr, příležitosti byly pryč.",
+        "Bez jídla a bez pořádného úkrytu poprosila o pomoc. Příběh staví proti sobě zodpovědnost, potěšení a solidaritu."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jest lato. Cykada śpiewa na drzewie i nie myśli o zimie.",
+        "Niedaleko drzewa mieszka mrówka. Codziennie szuka nasion i zanosi jedzenie do swojego domu. Cykada mówi do niej: „Chodź pośpiewać ze mną”. Mrówka odpowiada: „Teraz przygotowuję jedzenie na zimę”.",
+        "Cykada się śmieje i dalej śpiewa. Potem przychodzi zimno. Na polach nie ma już jedzenia i cykada jest głodna.",
+        "Idzie do mrówki. Mrówka ma ciepły dom i dużo zapasów. Cykada rozumie, że miło jest się bawić, ale ważne jest też myśleć o przyszłości."
+      ],
+      "a2": [
+        "Latem cykada śpiewała, a mrówka zbierała jedzenie i zanosiła je do mrowiska.",
+        "Cykada kilka razy zapraszała ją, żeby odpoczęła. Mówiła, że zima jest jeszcze daleko. Mrówka jednak dalej pracowała.",
+        "Kiedy przyszła zima, śnieg pokrył ziemię i cykada nie znalazła nic do jedzenia. Poszła poprosić mrówkę o pomoc.",
+        "Mrówka przypomniała jej letnie miesiące. Cykada zrozumiała, że teraźniejszość nie trwa wiecznie i że dobre przygotowanie pomaga w trudnych chwilach."
+      ],
+      "b1": [
+        "Przez całe lato cykada wypełniała pole swoim śpiewem. Nie rozumiała, dlaczego mrówka spędza tyle godzin na zbieraniu zapasów.",
+        "Mrówka wiedziała, że pory roku się zmieniają. Każda droga do mrowiska oznaczała odrobinę bezpieczeństwa na zimne miesiące.",
+        "Cykada ciągle wszystko odkładała. Kiedy przyszedł zimny wiatr, okazje już minęły.",
+        "Bez jedzenia i bez odpowiedniego schronienia poprosiła o pomoc. Ta historia zestawia ze sobą odpowiedzialność, przyjemność i solidarność."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Yaz mevsimi. Bir ağustos böceği bir ağacın üstünde şarkı söylüyor ve kışı düşünmüyor.",
+        "Ağacın yakınında bir karınca yaşıyor. Her gün tohum arıyor ve yiyecekleri evine taşıyor. Ağustos böceği ona «Gel, benimle şarkı söyle» diyor. Karınca «Şimdi kış için yiyecek hazırlıyorum» diye cevap veriyor.",
+        "Ağustos böceği gülüyor ve şarkı söylemeye devam ediyor. Sonra soğuk geliyor. Tarlalarda artık yiyecek yok ve ağustos böceği aç.",
+        "Karıncanın yanına gidiyor. Karıncanın sıcak bir evi ve bol erzakı var. Ağustos böceği eğlenmenin güzel olduğunu ama geleceği düşünmenin de önemli olduğunu anlıyor."
+      ],
+      "a2": [
+        "Yaz boyunca bir ağustos böceği şarkı söylüyordu; bir karınca ise yiyecek topluyor ve onu yuvaya taşıyordu.",
+        "Ağustos böceği onu birkaç kez dinlenmeye çağırdı. Kışın daha çok uzakta olduğunu söylüyordu. Karınca ise çalışmaya devam etti.",
+        "Kış gelince kar toprağı kapladı ve ağustos böceği yiyecek hiçbir şey bulamadı. Karıncadan yardım istemeye gitti.",
+        "Karınca ona yaz aylarını hatırlattı. Ağustos böceği, şimdiki zamanın sonsuza dek sürmediğini ve iyi bir hazırlığın zor anlarda işe yaradığını anladı."
+      ],
+      "b1": [
+        "Bütün yaz boyunca ağustos böceği tarlayı şarkısıyla doldurdu. Karıncanın neden erzak toplamak için o kadar çok saat harcadığını anlamıyordu.",
+        "Karınca mevsimlerin değiştiğini biliyordu. Yuvaya yaptığı her yolculuk, soğuk aylar için küçük bir güvence demekti.",
+        "Ağustos böceği durmadan erteledi. Soğuk rüzgâr geldiğinde fırsatlar bitmişti.",
+        "Yiyeceği ve uygun bir sığınağı olmadan yardım istedi. Bu hikâye sorumluluğu, zevki ve dayanışmayı karşı karşıya getirir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Es ist Sommer. Eine Zikade singt oben auf einem Baum und denkt nicht an den Winter.",
+        "In der Nähe des Baumes wohnt eine Ameise. Jeden Tag sucht sie Samen und trägt das Essen in ihr Haus. Die Zikade sagt zu ihr: „Komm, sing mit mir!“ Die Ameise antwortet: „Jetzt bereite ich das Essen für den Winter vor.“",
+        "Die Zikade lacht und singt weiter. Dann kommt die Kälte. Auf den Feldern gibt es kein Essen mehr und die Zikade hat Hunger.",
+        "Sie geht zur Ameise. Die Ameise hat ein warmes Haus und viele Vorräte. Die Zikade versteht, dass es schön ist, Spaß zu haben, aber dass es auch wichtig ist, an die Zukunft zu denken."
+      ],
+      "a2": [
+        "Den Sommer über sang eine Zikade, während eine Ameise Essen sammelte und es in den Ameisenhaufen trug.",
+        "Die Zikade lud sie mehrmals ein, sich auszuruhen. Sie sagte, der Winter sei noch weit weg. Die Ameise arbeitete aber weiter.",
+        "Als der Winter kam, bedeckte Schnee den Boden, und die Zikade fand nichts zu essen. Sie ging zur Ameise, um sie um Hilfe zu bitten.",
+        "Die Ameise erinnerte sie an die Sommermonate. Die Zikade verstand, dass die Gegenwart nicht ewig dauert und dass eine gute Vorbereitung in schwierigen Momenten hilft."
+      ],
+      "b1": [
+        "Den ganzen Sommer lang erfüllte die Zikade das Feld mit ihrem Gesang. Sie verstand nicht, warum die Ameise so viele Stunden damit verbrachte, Vorräte zu sammeln.",
+        "Die Ameise wusste, dass sich die Jahreszeiten ändern. Jeder Weg zum Ameisenhaufen bedeutete ein bisschen Sicherheit für die kalten Monate.",
+        "Die Zikade schob alles immer wieder auf. Als der kalte Wind kam, waren die Gelegenheiten vorbei.",
+        "Ohne Essen und ohne geeigneten Unterschlupf bat sie um Hilfe. Die Geschichte stellt Verantwortung, Vergnügen und Solidarität einander gegenüber."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "夏です。セミが木の上で歌っていて、冬のことは考えていません。",
+        "木の近くにアリが住んでいます。アリは毎日、種をさがして、食べものを家に運びます。セミはアリに「いっしょに歌おうよ」と言います。アリは「今は冬のための食べものを準備しているの」と答えます。",
+        "セミは笑って、歌い続けます。やがて寒さがやって来ます。畑にはもう食べものがなく、セミはおなかがすいています。",
+        "セミはアリのところへ行きます。アリには暖かい家と、たくさんのたくわえがあります。セミは、楽しむのはいいことだけれど、将来のことを考えるのも大切だとわかります。"
+      ],
+      "a2": [
+        "夏のあいだ、セミは歌っていました。そのあいだにアリは食べものを集めて、巣に運んでいました。",
+        "セミは何度もアリを、休もうよとさそいました。冬はまだまだ先だと言っていました。でもアリは、働き続けました。",
+        "冬が来ると、雪が地面をおおい、セミは食べるものを何も見つけられませんでした。セミはアリに助けを求めに行きました。",
+        "アリはセミに夏の月日のことを思い出させました。セミは、今がずっと続くわけではないこと、そしてよく準備しておけば、つらいときに役立つことがわかりました。"
+      ],
+      "b1": [
+        "夏のあいだずっと、セミは畑を自分の歌で満たしていました。アリがどうしてそんなに長い時間をかけて食料を集めているのか、セミには理解できませんでした。",
+        "アリは季節が変わることを知っていました。巣へ運ぶ一回一回が、寒い月日のための小さな安心だったのです。",
+        "セミはいつまでも先のばしにしていました。冷たい風が吹いてきたときには、もうチャンスは終わっていました。",
+        "食べものも、ちゃんとしたすみかもなく、セミは助けを求めました。この物語は、責任と楽しみと助け合いを並べて考えさせます。"
+      ]
+    }
+  }
+}
