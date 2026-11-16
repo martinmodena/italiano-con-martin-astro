@@ -1,0 +1,1438 @@
+{
+  "id": "il-pastorello-bugiardo",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la pecora",
+      "forme": [
+        "pecore"
+      ],
+      "formeEsempi": [
+        "pecora"
+      ],
+      "esempi": [
+        "In Sardegna ci sono tante pecore.",
+        "La pecora mangia l'erba.",
+        "Con la lana delle pecore si fanno i maglioni."
+      ],
+      "traduzioni": {
+        "en": "sheep",
+        "es": "oveja",
+        "pt": "ovelha",
+        "fr": "mouton, brebis",
+        "cs": "ovce",
+        "pl": "owca",
+        "tr": "koyun",
+        "de": "Schaf",
+        "ja": "羊"
+      }
+    },
+    {
+      "parola": "la collina",
+      "forme": [
+        "collina"
+      ],
+      "formeEsempi": [
+        "colline"
+      ],
+      "esempi": [
+        "La mia casa è in collina.",
+        "Le colline toscane sono bellissime.",
+        "Saliamo sulla collina per vedere il tramonto."
+      ],
+      "traduzioni": {
+        "en": "hill",
+        "es": "colina",
+        "pt": "colina, morro",
+        "fr": "colline",
+        "cs": "kopec",
+        "pl": "wzgórze",
+        "tr": "tepe",
+        "de": "Hügel",
+        "ja": "丘"
+      }
+    },
+    {
+      "parola": "il villaggio",
+      "forme": [
+        "villaggio"
+      ],
+      "esempi": [
+        "Mia nonna vive in un piccolo villaggio.",
+        "Nel villaggio tutti si conoscono.",
+        "Il villaggio è vicino al lago."
+      ],
+      "traduzioni": {
+        "en": "village",
+        "es": "pueblo, aldea",
+        "pt": "aldeia, vilarejo",
+        "fr": "village",
+        "cs": "vesnice",
+        "pl": "wioska",
+        "tr": "köy",
+        "de": "Dorf",
+        "ja": "村"
+      }
+    },
+    {
+      "parola": "guardare",
+      "forme": [
+        "guardare"
+      ],
+      "formeEsempi": [
+        "guarda",
+        "guardo"
+      ],
+      "esempi": [
+        "Puoi guardare il bambino per un'ora?",
+        "La sera guardo un film.",
+        "Guarda che bel cielo!"
+      ],
+      "traduzioni": {
+        "en": "to watch over, to look after; to look at",
+        "es": "vigilar, cuidar; mirar",
+        "pt": "vigiar, cuidar; olhar",
+        "fr": "garder, surveiller; regarder",
+        "cs": "hlídat; dívat se",
+        "pl": "pilnować; patrzeć",
+        "tr": "göz kulak olmak; bakmak",
+        "de": "hüten, aufpassen auf; anschauen",
+        "ja": "見張る、見守る、見る"
+      }
+    },
+    {
+      "parola": "il gregge",
+      "forme": [
+        "gregge"
+      ],
+      "esempi": [
+        "Il pastore porta il gregge in montagna.",
+        "Il cane protegge il gregge.",
+        "Un gregge di pecore attraversa la strada."
+      ],
+      "traduzioni": {
+        "en": "flock (of sheep)",
+        "es": "rebaño",
+        "pt": "rebanho",
+        "fr": "troupeau",
+        "cs": "stádo",
+        "pl": "stado",
+        "tr": "sürü",
+        "de": "Herde",
+        "ja": "（羊の）群れ"
+      }
+    },
+    {
+      "parola": "fare attenzione",
+      "forme": [
+        "attenzione"
+      ],
+      "esempi": [
+        "Fai attenzione quando attraversi la strada!",
+        "Attenzione: il pavimento è bagnato.",
+        "Grazie per l'attenzione."
+      ],
+      "traduzioni": {
+        "en": "to be careful, to watch out",
+        "es": "tener cuidado",
+        "pt": "prestar atenção, tomar cuidado",
+        "fr": "faire attention",
+        "cs": "dávat pozor",
+        "pl": "uważać",
+        "tr": "dikkat etmek",
+        "de": "aufpassen",
+        "ja": "気をつける"
+      }
+    },
+    {
+      "parola": "il lupo",
+      "forme": [
+        "lupo"
+      ],
+      "formeEsempi": [
+        "lupi"
+      ],
+      "esempi": [
+        "Il lupo vive nei boschi dell'Appennino.",
+        "Di notte i lupi ululano.",
+        "«Al lupo! Al lupo!» si dice per un falso allarme."
+      ],
+      "traduzioni": {
+        "en": "wolf («The Boy Who Cried Wolf»)",
+        "es": "lobo («Pedro y el lobo»)",
+        "pt": "lobo («Pedro e o lobo»)",
+        "fr": "loup («crier au loup»)",
+        "cs": "vlk",
+        "pl": "wilk",
+        "tr": "kurt («Yalancı Çoban»)",
+        "de": "Wolf",
+        "ja": "おおかみ（「オオカミ少年」）"
+      }
+    },
+    {
+      "parola": "annoiarsi",
+      "forme": [
+        "annoia",
+        "annoiava"
+      ],
+      "formeEsempi": [
+        "annoio",
+        "annoiavo"
+      ],
+      "esempi": [
+        "Quando piove mi annoio.",
+        "Il bambino si annoia senza amici.",
+        "In vacanza non mi annoiavo mai."
+      ],
+      "traduzioni": {
+        "en": "to get bored",
+        "es": "aburrirse",
+        "pt": "ficar entediado",
+        "fr": "s’ennuyer",
+        "cs": "nudit se",
+        "pl": "nudzić się",
+        "tr": "sıkılmak",
+        "de": "sich langweilen",
+        "ja": "退屈する"
+      }
+    },
+    {
+      "parola": "lo scherzo",
+      "forme": [
+        "scherzo"
+      ],
+      "formeEsempi": [
+        "scherzi"
+      ],
+      "esempi": [
+        "Era solo uno scherzo!",
+        "Il primo aprile si fanno gli scherzi.",
+        "Non mi piace questo scherzo."
+      ],
+      "traduzioni": {
+        "en": "joke, prank",
+        "es": "broma",
+        "pt": "brincadeira, pegadinha",
+        "fr": "blague, farce",
+        "cs": "vtip, žert",
+        "pl": "żart, psikus",
+        "tr": "şaka",
+        "de": "Streich, Scherz",
+        "ja": "いたずら、冗談"
+      }
+    },
+    {
+      "parola": "gridare",
+      "forme": [
+        "grida",
+        "gridato"
+      ],
+      "formeEsempi": [
+        "grido",
+        "gridare"
+      ],
+      "esempi": [
+        "Non gridare, ti sento!",
+        "Il bambino grida di gioia.",
+        "Ho gridato il suo nome, ma non mi ha sentito."
+      ],
+      "traduzioni": {
+        "en": "to shout («le grida» = the shouts)",
+        "es": "gritar («le grida» = los gritos)",
+        "pt": "gritar («le grida» = os gritos)",
+        "fr": "crier («le grida» = les cris)",
+        "cs": "křičet («le grida» = křik)",
+        "pl": "krzyczeć («le grida» = krzyki)",
+        "tr": "bağırmak («le grida» = bağırışlar)",
+        "de": "schreien, rufen («le grida» = die Schreie)",
+        "ja": "さけぶ（«le grida» = さけび声）"
+      }
+    },
+    {
+      "parola": "l'abitante",
+      "forme": [
+        "abitanti"
+      ],
+      "formeEsempi": [
+        "abitante"
+      ],
+      "esempi": [
+        "Roma ha quasi tre milioni di abitanti.",
+        "Gli abitanti del paese sono gentili.",
+        "Ogni abitante paga le tasse."
+      ],
+      "traduzioni": {
+        "en": "inhabitant, villager",
+        "es": "habitante, vecino",
+        "pt": "habitante, morador",
+        "fr": "habitant",
+        "cs": "obyvatel",
+        "pl": "mieszkaniec",
+        "tr": "köylü, sakin",
+        "de": "Einwohner, Bewohner",
+        "ja": "住民、村人"
+      }
+    },
+    {
+      "parola": "lasciare",
+      "forme": [
+        "lasciano"
+      ],
+      "formeEsempi": [
+        "lascio",
+        "lasciare"
+      ],
+      "esempi": [
+        "Lascio la macchina al parcheggio.",
+        "I bambini lasciano i giochi e vanno a tavola.",
+        "Non lasciare la luce accesa!"
+      ],
+      "traduzioni": {
+        "en": "to leave, to drop",
+        "es": "dejar",
+        "pt": "deixar, largar",
+        "fr": "laisser, quitter",
+        "cs": "nechat, opustit",
+        "pl": "zostawić, rzucić",
+        "tr": "bırakmak",
+        "de": "liegen lassen, verlassen",
+        "ja": "置いていく、やめる"
+      }
+    },
+    {
+      "parola": "di nuovo",
+      "forme": [
+        "nuovo"
+      ],
+      "esempi": [
+        "Puoi ripetere di nuovo, per favore?",
+        "Piove di nuovo!",
+        "Ci vediamo di nuovo la settimana prossima."
+      ],
+      "traduzioni": {
+        "en": "again",
+        "es": "de nuevo, otra vez",
+        "pt": "de novo",
+        "fr": "de nouveau, encore",
+        "cs": "znovu",
+        "pl": "znowu",
+        "tr": "yine, tekrar",
+        "de": "wieder",
+        "ja": "また、再び"
+      },
+      "livelli": [
+        "a1"
+      ]
+    },
+    {
+      "parola": "scoprire",
+      "forme": [
+        "scoprono"
+      ],
+      "formeEsempi": [
+        "scopro",
+        "scoperto"
+      ],
+      "esempi": [
+        "Ho scoperto un ristorante bellissimo.",
+        "Scopro sempre parole nuove.",
+        "I bambini scoprono il mondo giocando."
+      ],
+      "traduzioni": {
+        "en": "to discover, to find out",
+        "es": "descubrir",
+        "pt": "descobrir",
+        "fr": "découvrir",
+        "cs": "objevit, zjistit",
+        "pl": "odkryć, odkrywać",
+        "tr": "keşfetmek, fark etmek",
+        "de": "entdecken, herausfinden",
+        "ja": "発見する、気づく"
+      }
+    },
+    {
+      "parola": "la bugia",
+      "forme": [
+        "bugia"
+      ],
+      "formeEsempi": [
+        "bugie"
+      ],
+      "esempi": [
+        "Non dire bugie!",
+        "Ha detto una bugia alla maestra.",
+        "Le bugie hanno le gambe corte."
+      ],
+      "traduzioni": {
+        "en": "lie («dire una bugia» = to tell a lie)",
+        "es": "mentira",
+        "pt": "mentira",
+        "fr": "mensonge",
+        "cs": "lež",
+        "pl": "kłamstwo",
+        "tr": "yalan",
+        "de": "Lüge",
+        "ja": "うそ"
+      }
+    },
+    {
+      "parola": "davvero",
+      "forme": [
+        "davvero"
+      ],
+      "esempi": [
+        "Davvero? Non ci credo!",
+        "Questa pizza è davvero buona.",
+        "Sono davvero stanco."
+      ],
+      "traduzioni": {
+        "en": "really, for real",
+        "es": "de verdad",
+        "pt": "de verdade",
+        "fr": "vraiment, pour de vrai",
+        "cs": "opravdu, doopravdy",
+        "pl": "naprawdę",
+        "tr": "gerçekten",
+        "de": "wirklich",
+        "ja": "本当に"
+      }
+    },
+    {
+      "parola": "credere a",
+      "forme": [
+        "crede"
+      ],
+      "formeEsempi": [
+        "credo",
+        "credi"
+      ],
+      "esempi": [
+        "Non credo alle sue promesse.",
+        "Mi credi? È la verità!",
+        "Nessuno crede a questa storia."
+      ],
+      "traduzioni": {
+        "en": "to believe",
+        "es": "creer",
+        "pt": "acreditar em",
+        "fr": "croire",
+        "cs": "věřit",
+        "pl": "wierzyć",
+        "tr": "inanmak",
+        "de": "glauben",
+        "ja": "信じる"
+      }
+    },
+    {
+      "parola": "distruggere",
+      "forme": [
+        "distrugge"
+      ],
+      "formeEsempi": [
+        "distrutto"
+      ],
+      "esempi": [
+        "Il terremoto ha distrutto la chiesa.",
+        "Il fumo distrugge la salute.",
+        "Il bambino distrugge sempre i suoi giochi."
+      ],
+      "traduzioni": {
+        "en": "to destroy",
+        "es": "destruir",
+        "pt": "destruir",
+        "fr": "détruire",
+        "cs": "zničit",
+        "pl": "zniszczyć",
+        "tr": "yok etmek",
+        "de": "zerstören",
+        "ja": "こわす、失わせる"
+      }
+    },
+    {
+      "parola": "la fiducia",
+      "forme": [
+        "fiducia"
+      ],
+      "esempi": [
+        "Ho fiducia in te.",
+        "Ha perso la fiducia dei colleghi.",
+        "La fiducia è importante in un'amicizia."
+      ],
+      "traduzioni": {
+        "en": "trust",
+        "es": "confianza",
+        "pt": "confiança",
+        "fr": "confiance",
+        "cs": "důvěra",
+        "pl": "zaufanie",
+        "tr": "güven",
+        "de": "Vertrauen",
+        "ja": "信頼"
+      }
+    },
+    {
+      "parola": "il pastore",
+      "forme": [
+        "pastore"
+      ],
+      "formeEsempi": [
+        "pastorello"
+      ],
+      "esempi": [
+        "Il pastore vive in montagna con le pecore.",
+        "Il pastorello suona il flauto.",
+        "Il pastore tedesco è un cane intelligente."
+      ],
+      "traduzioni": {
+        "en": "shepherd («pastorello» = shepherd boy)",
+        "es": "pastor («pastorello» = pastorcillo)",
+        "pt": "pastor («pastorello» = pastorzinho)",
+        "fr": "berger («pastorello» = petit berger)",
+        "cs": "pastýř",
+        "pl": "pasterz",
+        "tr": "çoban",
+        "de": "Hirte («pastorello» = Hirtenjunge)",
+        "ja": "羊飼い"
+      }
+    },
+    {
+      "parola": "condurre",
+      "forme": [
+        "conduceva"
+      ],
+      "formeEsempi": [
+        "conduce"
+      ],
+      "esempi": [
+        "Questa strada conduce al mare.",
+        "La guida conduce i turisti al museo.",
+        "Il nonno conduceva le mucche al pascolo."
+      ],
+      "traduzioni": {
+        "en": "to lead, to take",
+        "es": "conducir, llevar",
+        "pt": "conduzir, levar",
+        "fr": "conduire, mener",
+        "cs": "vést, hnát",
+        "pl": "prowadzić",
+        "tr": "götürmek",
+        "de": "führen",
+        "ja": "連れていく"
+      }
+    },
+    {
+      "parola": "da solo",
+      "forme": [
+        "solo"
+      ],
+      "esempi": [
+        "Vivo da solo.",
+        "Il bambino mangia da solo.",
+        "Non lasciarmi da solo!"
+      ],
+      "traduzioni": {
+        "en": "alone, on one's own",
+        "es": "solo",
+        "pt": "sozinho",
+        "fr": "seul",
+        "cs": "sám",
+        "pl": "sam",
+        "tr": "tek başına",
+        "de": "allein",
+        "ja": "ひとりで"
+      }
+    },
+    {
+      "parola": "divertirsi",
+      "forme": [
+        "divertirsi"
+      ],
+      "formeEsempi": [
+        "diverto",
+        "divertiti"
+      ],
+      "esempi": [
+        "Alle feste mi diverto molto.",
+        "Ciao, divertiti!",
+        "I bambini vogliono solo divertirsi."
+      ],
+      "traduzioni": {
+        "en": "to have fun",
+        "es": "divertirse",
+        "pt": "se divertir",
+        "fr": "s’amuser",
+        "cs": "bavit se",
+        "pl": "bawić się",
+        "tr": "eğlenmek",
+        "de": "Spaß haben",
+        "ja": "楽しむ"
+      }
+    },
+    {
+      "parola": "attaccare",
+      "forme": [
+        "attaccando"
+      ],
+      "formeEsempi": [
+        "attacca"
+      ],
+      "esempi": [
+        "Il cane attacca solo se ha paura.",
+        "La squadra sta attaccando.",
+        "Il gatto attacca il topo."
+      ],
+      "traduzioni": {
+        "en": "to attack",
+        "es": "atacar",
+        "pt": "atacar",
+        "fr": "attaquer",
+        "cs": "útočit",
+        "pl": "atakować",
+        "tr": "saldırmak",
+        "de": "angreifen",
+        "ja": "おそう"
+      }
+    },
+    {
+      "parola": "soltanto",
+      "forme": [
+        "soltanto"
+      ],
+      "esempi": [
+        "Ho soltanto dieci euro.",
+        "Soltanto tu puoi aiutarmi.",
+        "È soltanto un gioco."
+      ],
+      "traduzioni": {
+        "en": "only, just",
+        "es": "solo, solamente",
+        "pt": "só, somente",
+        "fr": "seulement",
+        "cs": "jen, pouze",
+        "pl": "tylko",
+        "tr": "sadece",
+        "de": "nur",
+        "ja": "〜だけ"
+      }
+    },
+    {
+      "parola": "ripetere",
+      "forme": [
+        "ripetuto"
+      ],
+      "formeEsempi": [
+        "ripeto",
+        "ripetere"
+      ],
+      "esempi": [
+        "Può ripetere, per favore?",
+        "Ripeto le parole nuove ogni sera.",
+        "Te l'ho ripetuto mille volte!"
+      ],
+      "traduzioni": {
+        "en": "to repeat",
+        "es": "repetir",
+        "pt": "repetir",
+        "fr": "répéter",
+        "cs": "zopakovat",
+        "pl": "powtórzyć",
+        "tr": "tekrarlamak",
+        "de": "wiederholen",
+        "ja": "くり返す"
+      }
+    },
+    {
+      "parola": "arrabbiarsi",
+      "forme": [
+        "arrabbiate"
+      ],
+      "formeEsempi": [
+        "arrabbio",
+        "arrabbiato",
+        "arrabbiarti",
+        "arrabbiata"
+      ],
+      "esempi": [
+        "Non arrabbiarti, era uno scherzo!",
+        "Mi arrabbio quando arrivi tardi.",
+        "Mia madre si è arrabbiata con me."
+      ],
+      "traduzioni": {
+        "en": "to get angry",
+        "es": "enfadarse",
+        "pt": "ficar bravo, se zangar",
+        "fr": "se fâcher, se mettre en colère",
+        "cs": "rozzlobit se",
+        "pl": "zdenerwować się, rozzłościć się",
+        "tr": "kızmak",
+        "de": "sich ärgern, wütend werden",
+        "ja": "怒る"
+      }
+    },
+    {
+      "parola": "in tempo",
+      "forme": [
+        "tempo"
+      ],
+      "esempi": [
+        "Sono arrivato in tempo per il treno.",
+        "Non abbiamo tempo!",
+        "Corri, così arrivi in tempo."
+      ],
+      "traduzioni": {
+        "en": "in time",
+        "es": "a tiempo",
+        "pt": "a tempo",
+        "fr": "à temps",
+        "cs": "včas",
+        "pl": "na czas",
+        "tr": "zamanında",
+        "de": "rechtzeitig",
+        "ja": "間に合って"
+      }
+    },
+    {
+      "parola": "il compito",
+      "forme": [
+        "compito"
+      ],
+      "formeEsempi": [
+        "compiti"
+      ],
+      "esempi": [
+        "Il mio compito è preparare la cena.",
+        "Hai fatto i compiti?",
+        "Ogni persona ha un compito nel gruppo."
+      ],
+      "traduzioni": {
+        "en": "task, job («i compiti» = homework)",
+        "es": "tarea, deber",
+        "pt": "tarefa",
+        "fr": "tâche, mission",
+        "cs": "úkol",
+        "pl": "zadanie, obowiązek",
+        "tr": "görev",
+        "de": "Aufgabe",
+        "ja": "役目、仕事"
+      }
+    },
+    {
+      "parola": "sorvegliare",
+      "forme": [
+        "sorvegliare"
+      ],
+      "formeEsempi": [
+        "sorveglia"
+      ],
+      "esempi": [
+        "La guardia sorveglia il museo.",
+        "Devo sorvegliare i bambini in piscina.",
+        "Una telecamera sorveglia l'ingresso."
+      ],
+      "traduzioni": {
+        "en": "to watch over, to guard",
+        "es": "vigilar",
+        "pt": "vigiar",
+        "fr": "surveiller",
+        "cs": "hlídat",
+        "pl": "pilnować",
+        "tr": "gözetmek, korumak",
+        "de": "bewachen, beaufsichtigen",
+        "ja": "見張る"
+      }
+    },
+    {
+      "parola": "monotono",
+      "forme": [
+        "monotono"
+      ],
+      "formeEsempi": [
+        "monotona"
+      ],
+      "esempi": [
+        "Il mio lavoro è un po' monotono.",
+        "La lezione era monotona.",
+        "Il paesaggio diventa monotono dopo ore di viaggio."
+      ],
+      "traduzioni": {
+        "en": "monotonous, dull",
+        "es": "monótono",
+        "pt": "monótono",
+        "fr": "monotone",
+        "cs": "jednotvárný",
+        "pl": "monotonny",
+        "tr": "tekdüze",
+        "de": "eintönig",
+        "ja": "単調な"
+      }
+    },
+    {
+      "parola": "alla ricerca di",
+      "forme": [
+        "ricerca"
+      ],
+      "esempi": [
+        "Sono alla ricerca di un appartamento.",
+        "Il gatto va alla ricerca di cibo.",
+        "Faccio una ricerca su internet."
+      ],
+      "traduzioni": {
+        "en": "in search of, looking for",
+        "es": "en busca de",
+        "pt": "em busca de",
+        "fr": "à la recherche de",
+        "cs": "při hledání",
+        "pl": "w poszukiwaniu",
+        "tr": "arayışında",
+        "de": "auf der Suche nach",
+        "ja": "〜を求めて"
+      }
+    },
+    {
+      "parola": "il divertimento",
+      "forme": [
+        "divertimento"
+      ],
+      "esempi": [
+        "Buon divertimento!",
+        "Per me il divertimento è stare con gli amici.",
+        "Il parco è pieno di giochi e divertimento."
+      ],
+      "traduzioni": {
+        "en": "fun, amusement",
+        "es": "diversión",
+        "pt": "diversão",
+        "fr": "amusement, distraction",
+        "cs": "zábava",
+        "pl": "rozrywka, zabawa",
+        "tr": "eğlence",
+        "de": "Spaß, Vergnügen",
+        "ja": "楽しみ、気晴らし"
+      }
+    },
+    {
+      "parola": "inventare",
+      "forme": [
+        "inventato"
+      ],
+      "formeEsempi": [
+        "invento"
+      ],
+      "esempi": [
+        "Chi ha inventato il telefono?",
+        "Invento sempre storie per mio figlio.",
+        "Ha inventato una scusa per non venire."
+      ],
+      "traduzioni": {
+        "en": "to make up, to invent",
+        "es": "inventar",
+        "pt": "inventar",
+        "fr": "inventer",
+        "cs": "vymyslet",
+        "pl": "wymyślić",
+        "tr": "uydurmak, icat etmek",
+        "de": "erfinden, ausdenken",
+        "ja": "でっちあげる、発明する"
+      }
+    },
+    {
+      "parola": "il pericolo",
+      "forme": [
+        "pericolo"
+      ],
+      "esempi": [
+        "Attenzione, pericolo!",
+        "Il bambino non vede il pericolo.",
+        "Ora siamo fuori pericolo."
+      ],
+      "traduzioni": {
+        "en": "danger",
+        "es": "peligro",
+        "pt": "perigo",
+        "fr": "danger",
+        "cs": "nebezpečí",
+        "pl": "niebezpieczeństwo",
+        "tr": "tehlike",
+        "de": "Gefahr",
+        "ja": "危険"
+      }
+    },
+    {
+      "parola": "osservare",
+      "forme": [
+        "osservato"
+      ],
+      "formeEsempi": [
+        "osservo",
+        "osservare"
+      ],
+      "esempi": [
+        "Osservo gli uccelli con il binocolo.",
+        "Il medico ha osservato la ferita.",
+        "Mi piace osservare la gente al bar."
+      ],
+      "traduzioni": {
+        "en": "to watch, to observe",
+        "es": "observar",
+        "pt": "observar",
+        "fr": "observer",
+        "cs": "pozorovat",
+        "pl": "obserwować",
+        "tr": "gözlemlemek, izlemek",
+        "de": "beobachten",
+        "ja": "観察する、ながめる"
+      }
+    },
+    {
+      "parola": "preoccupato",
+      "forme": [
+        "preoccupati"
+      ],
+      "formeEsempi": [
+        "preoccupato",
+        "preoccupata"
+      ],
+      "esempi": [
+        "Sei preoccupato per l'esame?",
+        "La mamma è preoccupata: è tardi.",
+        "I genitori sono preoccupati per il figlio."
+      ],
+      "traduzioni": {
+        "en": "worried",
+        "es": "preocupado",
+        "pt": "preocupado",
+        "fr": "inquiet",
+        "cs": "ustaraný",
+        "pl": "zmartwiony",
+        "tr": "endişeli",
+        "de": "besorgt",
+        "ja": "心配した"
+      }
+    },
+    {
+      "parola": "scoppiare a ridere",
+      "forme": [
+        "scoppiato"
+      ],
+      "formeEsempi": [
+        "scoppia",
+        "scoppiata"
+      ],
+      "esempi": [
+        "Quando l'ho visto, sono scoppiato a ridere.",
+        "Il bambino scoppia a piangere.",
+        "È scoppiata a ridere davanti a tutti."
+      ],
+      "traduzioni": {
+        "en": "to burst out laughing",
+        "es": "echarse a reír",
+        "pt": "cair na risada",
+        "fr": "éclater de rire",
+        "cs": "vyprsknout smíchy",
+        "pl": "wybuchnąć śmiechem",
+        "tr": "kahkahayı basmak",
+        "de": "in Lachen ausbrechen",
+        "ja": "ふき出す、どっと笑う"
+      }
+    },
+    {
+      "parola": "nonostante",
+      "forme": [
+        "nonostante"
+      ],
+      "esempi": [
+        "Nonostante la pioggia, siamo usciti.",
+        "È venuto al lavoro nonostante la febbre.",
+        "Nonostante tutto, sono felice."
+      ],
+      "traduzioni": {
+        "en": "despite, in spite of",
+        "es": "a pesar de",
+        "pt": "apesar de",
+        "fr": "malgré",
+        "cs": "navzdory, i přes",
+        "pl": "mimo, pomimo",
+        "tr": "-e rağmen",
+        "de": "trotz",
+        "ja": "〜にもかかわらず"
+      }
+    },
+    {
+      "parola": "il rimprovero",
+      "forme": [
+        "rimproveri"
+      ],
+      "formeEsempi": [
+        "rimprovero"
+      ],
+      "esempi": [
+        "Il bambino ha ricevuto un rimprovero dalla maestra.",
+        "Non ascolta i rimproveri dei genitori.",
+        "Era un rimprovero gentile."
+      ],
+      "traduzioni": {
+        "en": "telling-off, reproach",
+        "es": "reprimenda, regañina",
+        "pt": "bronca, repreensão",
+        "fr": "reproche, réprimande",
+        "cs": "výtka",
+        "pl": "wymówka, nagana",
+        "tr": "azar",
+        "de": "Tadel, Vorwurf",
+        "ja": "しかること、小言"
+      }
+    },
+    {
+      "parola": "l'inganno",
+      "forme": [
+        "inganno"
+      ],
+      "esempi": [
+        "È caduto nell'inganno.",
+        "Questo prezzo è un inganno.",
+        "Ha scoperto l'inganno troppo tardi."
+      ],
+      "traduzioni": {
+        "en": "deception, trick",
+        "es": "engaño",
+        "pt": "engano, enganação",
+        "fr": "tromperie, ruse",
+        "cs": "podvod, lest",
+        "pl": "oszustwo, podstęp",
+        "tr": "aldatmaca, hile",
+        "de": "Täuschung, Betrug",
+        "ja": "だまし、ごまかし"
+      }
+    },
+    {
+      "parola": "reagire",
+      "forme": [
+        "reagire"
+      ],
+      "formeEsempi": [
+        "reagisce"
+      ],
+      "esempi": [
+        "Come reagisce tuo padre alla notizia?",
+        "Non so come reagire.",
+        "Il cane non reagisce ai rumori."
+      ],
+      "traduzioni": {
+        "en": "to react, to respond",
+        "es": "reaccionar",
+        "pt": "reagir",
+        "fr": "réagir",
+        "cs": "reagovat",
+        "pl": "reagować",
+        "tr": "tepki vermek",
+        "de": "reagieren",
+        "ja": "反応する"
+      }
+    },
+    {
+      "parola": "reale",
+      "forme": [
+        "reale"
+      ],
+      "esempi": [
+        "È una storia reale.",
+        "Il problema è reale, non è inventato.",
+        "Nella vita reale è diverso."
+      ],
+      "traduzioni": {
+        "en": "real",
+        "es": "real",
+        "pt": "real, verdadeiro",
+        "fr": "réel",
+        "cs": "skutečný",
+        "pl": "prawdziwy",
+        "tr": "gerçek",
+        "de": "echt, wirklich",
+        "ja": "本当の"
+      }
+    },
+    {
+      "parola": "distinguere",
+      "forme": [
+        "distinguere"
+      ],
+      "formeEsempi": [
+        "distinguo"
+      ],
+      "esempi": [
+        "Non distinguo i gemelli.",
+        "È difficile distinguere il vero dal falso.",
+        "Riesci a distinguere i colori al buio?"
+      ],
+      "traduzioni": {
+        "en": "to tell apart, to distinguish",
+        "es": "distinguir",
+        "pt": "distinguir",
+        "fr": "distinguer",
+        "cs": "rozlišit",
+        "pl": "odróżnić",
+        "tr": "ayırt etmek",
+        "de": "unterscheiden",
+        "ja": "見分ける"
+      }
+    },
+    {
+      "parola": "la verità",
+      "forme": [
+        "verità"
+      ],
+      "esempi": [
+        "Dimmi la verità!",
+        "La verità è che non ho studiato.",
+        "Prima o poi la verità viene fuori."
+      ],
+      "traduzioni": {
+        "en": "truth",
+        "es": "verdad",
+        "pt": "verdade",
+        "fr": "vérité",
+        "cs": "pravda",
+        "pl": "prawda",
+        "tr": "gerçek, doğru",
+        "de": "Wahrheit",
+        "ja": "真実、本当のこと"
+      }
+    },
+    {
+      "parola": "precedente",
+      "forme": [
+        "precedenti"
+      ],
+      "formeEsempi": [
+        "precedente"
+      ],
+      "esempi": [
+        "Il libro precedente era più bello.",
+        "Leggi la pagina precedente.",
+        "Le esperienze precedenti mi aiutano."
+      ],
+      "traduzioni": {
+        "en": "previous, earlier",
+        "es": "anterior",
+        "pt": "anterior",
+        "fr": "précédent",
+        "cs": "předchozí",
+        "pl": "poprzedni",
+        "tr": "önceki",
+        "de": "vorherig, früher",
+        "ja": "以前の"
+      }
+    },
+    {
+      "parola": "l'invenzione",
+      "forme": [
+        "invenzioni"
+      ],
+      "formeEsempi": [
+        "invenzione"
+      ],
+      "esempi": [
+        "La ruota è un'invenzione antica.",
+        "Questa storia è un'invenzione.",
+        "Le invenzioni di Leonardo sono famose."
+      ],
+      "traduzioni": {
+        "en": "made-up story; invention",
+        "es": "invento, invención",
+        "pt": "invenção, mentira",
+        "fr": "invention",
+        "cs": "výmysl, vynález",
+        "pl": "wymysł, wynalazek",
+        "tr": "uydurma, icat",
+        "de": "Erfindung",
+        "ja": "作り話、発明"
+      }
+    },
+    {
+      "parola": "la credibilità",
+      "forme": [
+        "credibilità"
+      ],
+      "esempi": [
+        "Il politico ha perso credibilità.",
+        "La credibilità di un giornale è importante.",
+        "Con le bugie perdi credibilità."
+      ],
+      "traduzioni": {
+        "en": "credibility",
+        "es": "credibilidad",
+        "pt": "credibilidade",
+        "fr": "crédibilité",
+        "cs": "důvěryhodnost",
+        "pl": "wiarygodność",
+        "tr": "inandırıcılık, güvenilirlik",
+        "de": "Glaubwürdigkeit",
+        "ja": "信用"
+      }
+    },
+    {
+      "parola": "costruire",
+      "forme": [
+        "costruisce"
+      ],
+      "formeEsempi": [
+        "costruito"
+      ],
+      "esempi": [
+        "Mio padre costruisce una casetta per gli uccelli.",
+        "Hanno costruito un ponte nuovo.",
+        "Un'amicizia si costruisce con il tempo."
+      ],
+      "traduzioni": {
+        "en": "to build",
+        "es": "construir",
+        "pt": "construir",
+        "fr": "construire",
+        "cs": "stavět, budovat",
+        "pl": "budować",
+        "tr": "inşa etmek, kurmak",
+        "de": "aufbauen, bauen",
+        "ja": "築く、建てる"
+      }
+    },
+    {
+      "parola": "lentamente",
+      "forme": [
+        "lentamente"
+      ],
+      "esempi": [
+        "Parla lentamente, per favore.",
+        "La tartaruga cammina lentamente.",
+        "Il sole scende lentamente."
+      ],
+      "traduzioni": {
+        "en": "slowly",
+        "es": "lentamente, despacio",
+        "pt": "lentamente, devagar",
+        "fr": "lentement",
+        "cs": "pomalu",
+        "pl": "powoli",
+        "tr": "yavaşça",
+        "de": "langsam",
+        "ja": "ゆっくりと"
+      }
+    },
+    {
+      "parola": "consumarsi",
+      "forme": [
+        "consuma"
+      ],
+      "formeEsempi": [
+        "consumato",
+        "consumate"
+      ],
+      "esempi": [
+        "La candela si consuma piano piano.",
+        "Le mie scarpe sono consumate.",
+        "Questa macchina consuma poca benzina."
+      ],
+      "traduzioni": {
+        "en": "to wear away, to be used up",
+        "es": "consumirse, gastarse",
+        "pt": "se desgastar, se consumir",
+        "fr": "s’user, se consumer",
+        "cs": "opotřebovat se, vyčerpat se",
+        "pl": "zużywać się, wyczerpywać się",
+        "tr": "tükenmek, aşınmak",
+        "de": "sich abnutzen, verbrauchen",
+        "ja": "すり減る、なくなる"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Every day a boy takes the sheep up a hill near the village. He has to watch the flock and look out for the wolf.",
+        "The days are long and the boy gets bored. One day he decides to play a trick. He shouts: “Help! There's a wolf!”",
+        "The villagers hear the shouts, leave their work and run up the hill. But there's no wolf. The boy laughs.",
+        "A few days later he plays the same trick. The people come again and discover another lie.",
+        "One afternoon the wolf really comes. The boy shouts, but nobody goes up the hill, because nobody believes his words any more. The boy understands that a lie destroys trust."
+      ],
+      "a2": [
+        "Every morning a young shepherd took the sheep up a hill. He spent many hours alone and often got bored.",
+        "For fun, one day he shouted that a wolf was attacking the flock. The villagers ran to help him, but they only found the boy laughing.",
+        "The shepherd played the trick again. When they realized it was another lie, people got angry.",
+        "A few days later a wolf came out of the woods. The boy called for help, but in the village they thought it was a new trick. Nobody arrived in time."
+      ],
+      "b1": [
+        "A boy had the job of watching over the flock. The work was important, but dull.",
+        "Looking for some fun, he invented a danger. He shouted that a wolf was coming and watched the villagers run towards him. When he saw how worried they were, he burst out laughing.",
+        "Despite being told off, he repeated the deception. The villagers decided not to react to his cries any more.",
+        "When the real danger came, nobody could tell the truth from his earlier inventions any longer. Credibility is built slowly and wears away with every deception."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un chico lleva cada día las ovejas a una colina cerca del pueblo. Tiene que vigilar el rebaño y tener cuidado con el lobo.",
+        "Los días son largos y el chico se aburre. Un día decide gastar una broma. Grita: «¡Socorro! ¡Que viene el lobo!».",
+        "Los vecinos oyen los gritos, dejan su trabajo y corren a la colina. Pero el lobo no está. El chico se ríe.",
+        "Unos días después gasta la misma broma. La gente llega otra vez y descubre otra mentira.",
+        "Una tarde el lobo llega de verdad. El chico grita, pero nadie sube a la colina, porque ya nadie cree sus palabras. El chico comprende que una mentira destruye la confianza."
+      ],
+      "a2": [
+        "Un joven pastor llevaba cada mañana las ovejas a una colina. Pasaba muchas horas solo y a menudo se aburría.",
+        "Para divertirse, un día gritó que un lobo estaba atacando el rebaño. Los vecinos corrieron a ayudarlo, pero solo encontraron al chico, que se reía.",
+        "El pastor repitió la broma. Cuando comprendieron que era otra mentira, la gente se enfadó.",
+        "Unos días después, un lobo salió del bosque. El chico pidió ayuda, pero en el pueblo pensaron que era otra broma. Nadie llegó a tiempo."
+      ],
+      "b1": [
+        "Un chico tenía la tarea de vigilar el rebaño. El trabajo era importante, pero monótono.",
+        "En busca de diversión, se inventó un peligro. Gritó que venía un lobo y observó a los vecinos correr hacia él. Cuando los vio preocupados, se echó a reír.",
+        "A pesar de las regañinas, repitió el engaño. Los vecinos decidieron no reaccionar más a sus gritos.",
+        "Cuando llegó el peligro real, ya nadie podía distinguir la verdad de sus invenciones anteriores. La credibilidad se construye despacio y se gasta con cada engaño."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Todo dia um menino leva as ovelhas para uma colina perto da aldeia. Ele tem que vigiar o rebanho e tomar cuidado com o lobo.",
+        "Os dias são longos e o menino fica entediado. Um dia ele decide fazer uma brincadeira. Grita: «Socorro! O lobo!».",
+        "Os moradores ouvem os gritos, largam o trabalho e correm para a colina. Mas o lobo não está lá. O menino ri.",
+        "Alguns dias depois ele faz a mesma brincadeira. As pessoas chegam de novo e descobrem outra mentira.",
+        "Uma tarde o lobo chega de verdade. O menino grita, mas ninguém sobe a colina, porque ninguém acredita mais nas palavras dele. O menino entende que uma mentira destrói a confiança."
+      ],
+      "a2": [
+        "Toda manhã um jovem pastor levava as ovelhas para uma colina. Passava muitas horas sozinho e muitas vezes ficava entediado.",
+        "Para se divertir, um dia gritou que um lobo estava atacando o rebanho. Os moradores correram para ajudá-lo, mas só encontraram o menino rindo.",
+        "O pastor repetiu a brincadeira. Quando perceberam que era outra mentira, as pessoas ficaram bravas.",
+        "Alguns dias depois, um lobo saiu do bosque. O menino pediu ajuda, mas na aldeia pensaram que era uma nova brincadeira. Ninguém chegou a tempo."
+      ],
+      "b1": [
+        "Um menino tinha a tarefa de vigiar o rebanho. O trabalho era importante, mas monótono.",
+        "Em busca de diversão, inventou um perigo. Gritou que um lobo estava chegando e ficou observando os moradores correrem na direção dele. Quando os viu preocupados, caiu na risada.",
+        "Apesar das broncas, repetiu a enganação. Os moradores decidiram não reagir mais aos gritos dele.",
+        "Quando o perigo real chegou, ninguém conseguia mais distinguir a verdade das invenções anteriores dele. A credibilidade se constrói devagar e se desgasta a cada enganação."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Tous les jours, un garçon emmène les moutons sur une colline près du village. Il doit garder le troupeau et faire attention au loup.",
+        "Les journées sont longues et le garçon s’ennuie. Un jour, il décide de faire une blague. Il crie : « Au secours ! Au loup ! »",
+        "Les habitants entendent les cris, laissent leur travail et courent sur la colline. Mais il n’y a pas de loup. Le garçon rit.",
+        "Quelques jours plus tard, il fait la même blague. Les gens arrivent encore et découvrent un autre mensonge.",
+        "Un après-midi, le loup arrive vraiment. Le garçon crie, mais personne ne monte sur la colline, parce que plus personne ne croit ses paroles. Le garçon comprend qu’un mensonge détruit la confiance."
+      ],
+      "a2": [
+        "Chaque matin, un jeune berger emmenait les moutons sur une colline. Il passait de longues heures seul et s’ennuyait souvent.",
+        "Pour s’amuser, un jour, il a crié qu’un loup attaquait le troupeau. Les habitants ont couru l’aider, mais ils n’ont trouvé que le garçon qui riait.",
+        "Le berger a recommencé la même blague. Quand ils ont compris que c’était un autre mensonge, les gens se sont fâchés.",
+        "Quelques jours plus tard, un loup est sorti du bois. Le garçon a appelé à l’aide, mais au village, on a pensé à une nouvelle blague. Personne n’est arrivé à temps."
+      ],
+      "b1": [
+        "Un garçon avait pour tâche de surveiller le troupeau. Le travail était important, mais monotone.",
+        "À la recherche d’une distraction, il a inventé un danger. Il a crié qu’un loup arrivait et a regardé les habitants courir vers lui. Quand il les a vus inquiets, il a éclaté de rire.",
+        "Malgré les reproches, il a recommencé sa ruse. Les habitants ont décidé de ne plus réagir à ses cris.",
+        "Quand le vrai danger est arrivé, plus personne ne pouvait distinguer la vérité de ses inventions précédentes. La crédibilité se construit lentement et s’use à chaque tromperie."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Jeden chlapec vodí každý den ovce na kopec blízko vesnice. Musí hlídat stádo a dávat pozor na vlka.",
+        "Dny jsou dlouhé a chlapec se nudí. Jednoho dne se rozhodne udělat si legraci. Křičí: „Pomoc! Je tu vlk!“",
+        "Vesničané uslyší křik, nechají práce a běží na kopec. Ale vlk tam není. Chlapec se směje.",
+        "O pár dní později udělá stejný žert. Lidé zase přiběhnou a zjistí, že je to další lež.",
+        "Jednoho odpoledne vlk opravdu přijde. Chlapec křičí, ale nikdo na kopec nejde, protože už nikdo nevěří jeho slovům. Chlapec pochopí, že lež ničí důvěru."
+      ],
+      "a2": [
+        "Mladý pastýř vodil každé ráno ovce na kopec. Trávil mnoho hodin sám a často se nudil.",
+        "Jednoho dne pro zábavu zakřičel, že vlk napadá stádo. Vesničané mu běželi na pomoc, ale našli jen chlapce, který se smál.",
+        "Pastýř ten žert zopakoval. Když lidé pochopili, že je to další lež, rozzlobili se.",
+        "O pár dní později vyšel z lesa vlk. Chlapec volal o pomoc, ale ve vesnici si mysleli, že je to nový žert. Nikdo nepřišel včas."
+      ],
+      "b1": [
+        "Jeden chlapec měl za úkol hlídat stádo. Ta práce byla důležitá, ale jednotvárná.",
+        "Protože hledal zábavu, vymyslel si nebezpečí. Zakřičel, že se blíží vlk, a díval se, jak k němu vesničané běží. Když viděl, jak jsou ustaraní, vyprskl smíchy.",
+        "Navzdory výtkám svůj podvod zopakoval. Vesničané se rozhodli, že už na jeho křik nebudou reagovat.",
+        "Když přišlo skutečné nebezpečí, nikdo už nedokázal rozlišit pravdu od jeho dřívějších výmyslů. Důvěryhodnost se buduje pomalu a s každým podvodem mizí."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Pewien chłopiec codziennie prowadzi owce na wzgórze niedaleko wioski. Musi pilnować stada i uważać na wilka.",
+        "Dni są długie i chłopiec się nudzi. Pewnego dnia postanawia zrobić żart. Krzyczy: „Pomocy! Wilk!”.",
+        "Mieszkańcy słyszą krzyki, zostawiają pracę i biegną na wzgórze. Ale wilka nie ma. Chłopiec się śmieje.",
+        "Kilka dni później robi ten sam żart. Ludzie znowu przybiegają i odkrywają kolejne kłamstwo.",
+        "Pewnego popołudnia wilk naprawdę przychodzi. Chłopiec krzyczy, ale nikt nie wchodzi na wzgórze, bo nikt już nie wierzy jego słowom. Chłopiec rozumie, że kłamstwo niszczy zaufanie."
+      ],
+      "a2": [
+        "Młody pasterz codziennie rano prowadził owce na wzgórze. Spędzał wiele godzin sam i często się nudził.",
+        "Pewnego dnia dla zabawy krzyknął, że wilk atakuje stado. Mieszkańcy pobiegli mu pomóc, ale znaleźli tylko śmiejącego się chłopca.",
+        "Pasterz powtórzył żart. Kiedy ludzie zrozumieli, że to kolejne kłamstwo, rozzłościli się.",
+        "Kilka dni później z lasu wyszedł wilk. Chłopiec wołał o pomoc, ale w wiosce pomyśleli, że to nowy żart. Nikt nie przyszedł na czas."
+      ],
+      "b1": [
+        "Pewien chłopiec miał za zadanie pilnować stada. Praca była ważna, ale monotonna.",
+        "W poszukiwaniu rozrywki wymyślił niebezpieczeństwo. Krzyknął, że nadchodzi wilk, i patrzył, jak mieszkańcy biegną w jego stronę. Kiedy zobaczył ich zmartwione miny, wybuchnął śmiechem.",
+        "Mimo wymówek powtórzył oszustwo. Mieszkańcy postanowili już nie reagować na jego krzyki.",
+        "Kiedy przyszło prawdziwe niebezpieczeństwo, nikt już nie potrafił odróżnić prawdy od jego wcześniejszych wymysłów. Wiarygodność buduje się powoli, a każde oszustwo ją wyczerpuje."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir çocuk her gün koyunları köyün yakınındaki bir tepeye götürüyor. Sürüye göz kulak olmalı ve kurda dikkat etmeli.",
+        "Günler uzun ve çocuk sıkılıyor. Bir gün bir şaka yapmaya karar veriyor. «İmdat! Kurt var!» diye bağırıyor.",
+        "Köylüler bağırışları duyuyor, işlerini bırakıyor ve tepeye koşuyor. Ama kurt yok. Çocuk gülüyor.",
+        "Birkaç gün sonra aynı şakayı yapıyor. İnsanlar yine geliyor ve bir yalan daha keşfediyor.",
+        "Bir öğleden sonra kurt gerçekten geliyor. Çocuk bağırıyor ama kimse tepeye çıkmıyor, çünkü artık kimse onun sözlerine inanmıyor. Çocuk, yalanın güveni yok ettiğini anlıyor."
+      ],
+      "a2": [
+        "Genç bir çoban her sabah koyunları bir tepeye götürürdü. Uzun saatler yalnız kalır ve sık sık sıkılırdı.",
+        "Bir gün eğlenmek için bir kurdun sürüye saldırdığını bağırdı. Köylüler ona yardım etmeye koştu ama sadece gülen çocuğu buldular.",
+        "Çoban şakayı tekrarladı. İnsanlar bunun bir yalan daha olduğunu anlayınca kızdılar.",
+        "Birkaç gün sonra ormandan bir kurt çıktı. Çocuk yardım istedi ama köyde bunun yeni bir şaka olduğunu düşündüler. Kimse zamanında gelmedi."
+      ],
+      "b1": [
+        "Bir çocuğun görevi sürüyü gözetmekti. İş önemliydi ama tekdüzeydi.",
+        "Eğlence arayışıyla bir tehlike uydurdu. Bir kurdun geldiğini bağırdı ve köylülerin ona doğru koşuşunu izledi. Onları endişeli görünce kahkahayı bastı.",
+        "Azarlara rağmen aldatmacasını tekrarladı. Köylüler artık onun bağırışlarına tepki vermemeye karar verdi.",
+        "Gerçek tehlike geldiğinde artık kimse doğruyu onun önceki uydurmalarından ayırt edemiyordu. Güvenilirlik yavaş yavaş kazanılır ve her aldatmacayla tükenir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Ein Junge bringt jeden Tag die Schafe auf einen Hügel in der Nähe des Dorfes. Er muss die Herde hüten und auf den Wolf aufpassen.",
+        "Die Tage sind lang und der Junge langweilt sich. Eines Tages beschließt er, einen Streich zu spielen. Er schreit: „Hilfe! Ein Wolf!“",
+        "Die Dorfbewohner hören die Schreie, lassen ihre Arbeit liegen und laufen auf den Hügel. Aber da ist kein Wolf. Der Junge lacht.",
+        "Ein paar Tage später spielt er denselben Streich. Die Leute kommen wieder und entdecken noch eine Lüge.",
+        "Eines Nachmittags kommt der Wolf wirklich. Der Junge schreit, aber niemand steigt auf den Hügel, weil niemand mehr seinen Worten glaubt. Der Junge versteht, dass eine Lüge das Vertrauen zerstört."
+      ],
+      "a2": [
+        "Ein junger Hirte brachte jeden Morgen die Schafe auf einen Hügel. Er verbrachte viele Stunden allein und langweilte sich oft.",
+        "Zum Spaß rief er eines Tages, ein Wolf greife die Herde an. Die Dorfbewohner liefen ihm zu Hilfe, aber sie fanden nur den Jungen, der lachte.",
+        "Der Hirte wiederholte den Streich. Als die Leute merkten, dass es wieder eine Lüge war, wurden sie wütend.",
+        "Ein paar Tage später kam ein Wolf aus dem Wald. Der Junge rief um Hilfe, aber im Dorf dachte man an einen neuen Streich. Niemand kam rechtzeitig."
+      ],
+      "b1": [
+        "Ein Junge hatte die Aufgabe, die Herde zu bewachen. Die Arbeit war wichtig, aber eintönig.",
+        "Auf der Suche nach Abwechslung erfand er eine Gefahr. Er rief, ein Wolf komme, und beobachtete, wie die Dorfbewohner zu ihm rannten. Als er sie so besorgt sah, brach er in Lachen aus.",
+        "Trotz der Vorwürfe wiederholte er die Täuschung. Die Dorfbewohner beschlossen, nicht mehr auf seine Rufe zu reagieren.",
+        "Als die echte Gefahr kam, konnte niemand mehr die Wahrheit von seinen früheren Erfindungen unterscheiden. Glaubwürdigkeit baut sich langsam auf und nutzt sich mit jeder Täuschung ab."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ひとりの少年が、毎日、村の近くの丘に羊を連れていきます。羊の群れを見張って、おおかみに気をつけなければなりません。",
+        "一日は長くて、少年は退屈します。ある日、いたずらをすることにします。「助けて！　おおかみだ！」とさけびます。",
+        "村人たちはさけび声を聞いて、仕事をやめ、丘へ走っていきます。でも、おおかみはいません。少年は笑います。",
+        "何日かあと、少年は同じいたずらをします。人々はまたやって来て、またうそだったとわかります。",
+        "ある午後、おおかみが本当に来ます。少年はさけびますが、だれも丘に上がってきません。もうだれも少年の言葉を信じないからです。少年は、うそが信頼をこわすことに気づきます。"
+      ],
+      "a2": [
+        "若い羊飼いが、毎朝、羊を丘に連れていっていました。何時間もひとりで過ごし、よく退屈していました。",
+        "ある日、少年はおもしろがって、おおかみが羊をおそっているとさけびました。村人たちは助けに駆けつけましたが、そこには笑っている少年がいるだけでした。",
+        "羊飼いは同じいたずらをくり返しました。またうそだとわかると、人々は怒りました。",
+        "何日かあと、おおかみが森から出てきました。少年は助けを求めましたが、村ではまたいたずらだと思われました。だれも間に合いませんでした。"
+      ],
+      "b1": [
+        "ある少年には、羊の群れを見張るという役目がありました。大切な仕事でしたが、単調でした。",
+        "楽しみを求めて、少年は危険をでっちあげました。おおかみが来るぞとさけび、村人たちが走ってくるのをながめていました。みんなが心配そうな顔をしているのを見て、少年はふき出しました。",
+        "しかられても、少年は同じうそをくり返しました。村人たちは、もう少年のさけび声には反応しないことにしました。",
+        "本当の危険がやって来たとき、もうだれも、真実と少年の以前の作り話とを見分けられませんでした。信用はゆっくり築かれ、うそをつくたびにすり減っていくのです。"
+      ]
+    }
+  }
+}
