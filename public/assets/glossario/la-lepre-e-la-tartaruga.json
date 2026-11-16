@@ -1,0 +1,1630 @@
+{
+  "id": "la-lepre-e-la-tartaruga",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la lepre",
+      "forme": [
+        "lepre"
+      ],
+      "formeEsempi": [
+        "lepri"
+      ],
+      "esempi": [
+        "La lepre ha le orecchie lunghe.",
+        "Nei campi abbiamo visto due lepri.",
+        "Corre veloce come una lepre."
+      ],
+      "traduzioni": {
+        "en": "hare",
+        "es": "liebre",
+        "pt": "lebre",
+        "fr": "lièvre",
+        "cs": "zajíc",
+        "pl": "zając",
+        "tr": "tavşan",
+        "de": "Hase",
+        "ja": "うさぎ"
+      }
+    },
+    {
+      "parola": "la tartaruga",
+      "forme": [
+        "tartaruga"
+      ],
+      "formeEsempi": [
+        "tartarughe"
+      ],
+      "esempi": [
+        "La tartaruga vive più di cento anni.",
+        "Mio figlio ha una tartaruga in giardino.",
+        "Sei lento come una tartaruga!"
+      ],
+      "traduzioni": {
+        "en": "tortoise («slow and steady wins the race»)",
+        "es": "tortuga",
+        "pt": "tartaruga",
+        "fr": "tortue («Rien ne sert de courir ; il faut partir à point», La Fontaine)",
+        "cs": "želva",
+        "pl": "żółw",
+        "tr": "kaplumbağa",
+        "de": "Schildkröte",
+        "ja": "かめ（「うさぎとかめ」）"
+      }
+    },
+    {
+      "parola": "veloce",
+      "forme": [
+        "veloce"
+      ],
+      "formeEsempi": [
+        "veloci"
+      ],
+      "esempi": [
+        "Il treno per Milano è molto veloce.",
+        "Mia figlia è veloce a fare i compiti.",
+        "I ghepardi sono gli animali più veloci."
+      ],
+      "traduzioni": {
+        "en": "fast, quick",
+        "es": "rápido",
+        "pt": "rápido, veloz",
+        "fr": "rapide",
+        "cs": "rychlý",
+        "pl": "szybki",
+        "tr": "hızlı",
+        "de": "schnell",
+        "ja": "速い"
+      }
+    },
+    {
+      "parola": "ridere di",
+      "forme": [
+        "ride"
+      ],
+      "formeEsempi": [
+        "rido",
+        "ridere"
+      ],
+      "esempi": [
+        "Non ridere di me!",
+        "Mio fratello ride sempre delle mie scarpe.",
+        "Rido di me stesso quando sbaglio."
+      ],
+      "traduzioni": {
+        "en": "to laugh at",
+        "es": "reírse de",
+        "pt": "rir de",
+        "fr": "se moquer de, rire de",
+        "cs": "smát se (komu)",
+        "pl": "śmiać się z",
+        "tr": "-e gülmek, alay etmek",
+        "de": "lachen über",
+        "ja": "〜を笑う、ばかにする"
+      }
+    },
+    {
+      "parola": "spesso",
+      "forme": [
+        "spesso"
+      ],
+      "esempi": [
+        "Vado spesso al cinema.",
+        "Mia madre mi chiama spesso.",
+        "In autunno piove spesso."
+      ],
+      "traduzioni": {
+        "en": "often",
+        "es": "a menudo",
+        "pt": "muitas vezes, com frequência",
+        "fr": "souvent",
+        "cs": "často",
+        "pl": "często",
+        "tr": "sık sık",
+        "de": "oft",
+        "ja": "よく、しばしば"
+      }
+    },
+    {
+      "parola": "piano",
+      "forme": [
+        "piano"
+      ],
+      "esempi": [
+        "Parla piano, il bambino dorme.",
+        "Guida piano, la strada è bagnata!",
+        "Chi va piano va sano e va lontano."
+      ],
+      "traduzioni": {
+        "en": "slowly; quietly",
+        "es": "despacio; bajito",
+        "pt": "devagar; baixinho",
+        "fr": "lentement; doucement",
+        "cs": "pomalu; potichu",
+        "pl": "powoli; cicho",
+        "tr": "yavaş; alçak sesle",
+        "de": "langsam; leise",
+        "ja": "ゆっくり、小声で"
+      }
+    },
+    {
+      "parola": "la gara",
+      "forme": [
+        "gara"
+      ],
+      "formeEsempi": [
+        "gare"
+      ],
+      "esempi": [
+        "Domenica c'è una gara di corsa in paese.",
+        "Ha vinto la gara di nuoto.",
+        "Facciamo una gara: chi arriva primo?"
+      ],
+      "traduzioni": {
+        "en": "race, competition",
+        "es": "carrera, competición",
+        "pt": "corrida, competição",
+        "fr": "course, compétition",
+        "cs": "závod",
+        "pl": "wyścig, zawody",
+        "tr": "yarış",
+        "de": "Wettrennen, Wettkampf",
+        "ja": "競走"
+      }
+    },
+    {
+      "parola": "accettare",
+      "forme": [
+        "accetta",
+        "accettato"
+      ],
+      "formeEsempi": [
+        "accetto"
+      ],
+      "esempi": [
+        "Accetto il tuo invito con piacere.",
+        "Il negozio accetta solo contanti.",
+        "Ha accettato il nuovo lavoro."
+      ],
+      "traduzioni": {
+        "en": "to accept",
+        "es": "aceptar",
+        "pt": "aceitar",
+        "fr": "accepter",
+        "cs": "přijmout",
+        "pl": "przyjąć, zgodzić się",
+        "tr": "kabul etmek",
+        "de": "annehmen, akzeptieren",
+        "ja": "受け入れる、引き受ける"
+      }
+    },
+    {
+      "parola": "scegliere",
+      "forme": [
+        "scelgono"
+      ],
+      "formeEsempi": [
+        "scelgo",
+        "scegli"
+      ],
+      "esempi": [
+        "Scelgo sempre il gelato al pistacchio.",
+        "Scegli tu il ristorante stasera.",
+        "Gli studenti scelgono un libro da leggere."
+      ],
+      "traduzioni": {
+        "en": "to choose",
+        "es": "elegir",
+        "pt": "escolher",
+        "fr": "choisir",
+        "cs": "vybrat",
+        "pl": "wybrać",
+        "tr": "seçmek",
+        "de": "auswählen",
+        "ja": "選ぶ"
+      }
+    },
+    {
+      "parola": "la partenza",
+      "forme": [
+        "partenza"
+      ],
+      "esempi": [
+        "La partenza del treno è alle otto.",
+        "Prima della partenza controllo il passaporto.",
+        "I corridori sono alla partenza."
+      ],
+      "traduzioni": {
+        "en": "start, departure",
+        "es": "salida",
+        "pt": "largada, partida",
+        "fr": "départ",
+        "cs": "start, odjezd",
+        "pl": "start, odjazd",
+        "tr": "başlangıç, kalkış",
+        "de": "Start, Abfahrt",
+        "ja": "スタート、出発"
+      }
+    },
+    {
+      "parola": "il traguardo",
+      "forme": [
+        "traguardo"
+      ],
+      "esempi": [
+        "Il ciclista taglia il traguardo per primo.",
+        "Il traguardo è vicino: forza!",
+        "Imparare una lingua è un traguardo importante."
+      ],
+      "traduzioni": {
+        "en": "finish line; goal",
+        "es": "meta",
+        "pt": "linha de chegada; meta",
+        "fr": "ligne d’arrivée; but",
+        "cs": "cíl",
+        "pl": "meta; cel",
+        "tr": "bitiş çizgisi; hedef",
+        "de": "Ziel",
+        "ja": "ゴール"
+      }
+    },
+    {
+      "parola": "rapidamente",
+      "forme": [
+        "rapidamente"
+      ],
+      "esempi": [
+        "Il tempo passa rapidamente.",
+        "Ho risposto rapidamente all'email.",
+        "Il bambino impara rapidamente."
+      ],
+      "traduzioni": {
+        "en": "quickly",
+        "es": "rápidamente",
+        "pt": "rapidamente",
+        "fr": "rapidement",
+        "cs": "rychle",
+        "pl": "szybko",
+        "tr": "hızla",
+        "de": "schnell",
+        "ja": "速く、すばやく"
+      }
+    },
+    {
+      "parola": "fermarsi",
+      "forme": [
+        "ferma",
+        "fermata"
+      ],
+      "formeEsempi": [
+        "fermo",
+        "fermo"
+      ],
+      "esempi": [
+        "L'autobus si ferma davanti alla scuola.",
+        "Mi fermo un attimo a bere un caffè.",
+        "La nonna si è fermata a dormire da noi."
+      ],
+      "traduzioni": {
+        "en": "to stop",
+        "es": "pararse, detenerse",
+        "pt": "parar",
+        "fr": "s’arrêter",
+        "cs": "zastavit se",
+        "pl": "zatrzymać się",
+        "tr": "durmak",
+        "de": "anhalten, stehen bleiben",
+        "ja": "止まる"
+      }
+    },
+    {
+      "parola": "chiudere",
+      "forme": [
+        "chiude"
+      ],
+      "formeEsempi": [
+        "chiudo",
+        "chiudi"
+      ],
+      "esempi": [
+        "Chiudi la porta, per favore.",
+        "Il negozio chiude alle otto.",
+        "Chiudo gli occhi e ascolto la musica."
+      ],
+      "traduzioni": {
+        "en": "to close, to shut",
+        "es": "cerrar",
+        "pt": "fechar",
+        "fr": "fermer",
+        "cs": "zavřít",
+        "pl": "zamknąć",
+        "tr": "kapamak",
+        "de": "schließen",
+        "ja": "閉じる"
+      }
+    },
+    {
+      "parola": "continuare",
+      "forme": [
+        "continua"
+      ],
+      "formeEsempi": [
+        "continuo",
+        "continui"
+      ],
+      "esempi": [
+        "Continua a piovere da tre giorni.",
+        "Continuo a studiare anche in vacanza.",
+        "Se continui così, ti stanchi."
+      ],
+      "traduzioni": {
+        "en": "to keep on, to continue",
+        "es": "seguir, continuar",
+        "pt": "continuar",
+        "fr": "continuer",
+        "cs": "pokračovat",
+        "pl": "dalej (coś robić), kontynuować",
+        "tr": "devam etmek",
+        "de": "weitermachen",
+        "ja": "〜し続ける"
+      }
+    },
+    {
+      "parola": "passare vicino a",
+      "forme": [
+        "passa"
+      ],
+      "formeEsempi": [
+        "passo"
+      ],
+      "esempi": [
+        "L'autobus passa vicino a casa mia.",
+        "Passo dal panificio prima di tornare.",
+        "Il fiume passa in mezzo alla città."
+      ],
+      "traduzioni": {
+        "en": "to pass (by)",
+        "es": "pasar (al lado de)",
+        "pt": "passar (perto de)",
+        "fr": "passer (près de)",
+        "cs": "projít (kolem)",
+        "pl": "przejść (obok)",
+        "tr": "yanından geçmek",
+        "de": "vorbeigehen an",
+        "ja": "そばを通る"
+      }
+    },
+    {
+      "parola": "con tutte le forze",
+      "forme": [
+        "forze"
+      ],
+      "esempi": [
+        "Ha spinto la porta con tutte le forze.",
+        "Corro con tutte le mie forze.",
+        "Non ho più forze, mi riposo."
+      ],
+      "traduzioni": {
+        "en": "with all one's strength, as hard as one can",
+        "es": "con todas sus fuerzas",
+        "pt": "com todas as forças",
+        "fr": "de toutes ses forces",
+        "cs": "ze všech sil",
+        "pl": "z całych sił",
+        "tr": "var gücüyle",
+        "de": "mit aller Kraft",
+        "ja": "力いっぱい"
+      }
+    },
+    {
+      "parola": "tardi",
+      "forme": [
+        "tardi"
+      ],
+      "esempi": [
+        "È tardi, devo andare.",
+        "Ieri sono andata a letto tardi.",
+        "Meglio tardi che mai!"
+      ],
+      "traduzioni": {
+        "en": "late",
+        "es": "tarde",
+        "pt": "tarde",
+        "fr": "tard",
+        "cs": "pozdě",
+        "pl": "późno",
+        "tr": "geç",
+        "de": "spät",
+        "ja": "遅い、遅く"
+      }
+    },
+    {
+      "parola": "vincere",
+      "forme": [
+        "vince",
+        "vincere"
+      ],
+      "formeEsempi": [
+        "vinto"
+      ],
+      "esempi": [
+        "Chi vince la partita?",
+        "Ho vinto un viaggio a Parigi!",
+        "L'importante non è vincere, ma partecipare."
+      ],
+      "traduzioni": {
+        "en": "to win",
+        "es": "ganar",
+        "pt": "ganhar, vencer",
+        "fr": "gagner",
+        "cs": "vyhrát",
+        "pl": "wygrać",
+        "tr": "kazanmak",
+        "de": "gewinnen",
+        "ja": "勝つ"
+      }
+    },
+    {
+      "parola": "vantarsi",
+      "forme": [
+        "vantava"
+      ],
+      "formeEsempi": [
+        "vanta",
+        "vantarti"
+      ],
+      "esempi": [
+        "Si vanta sempre della sua macchina.",
+        "Non vantarti, sii modesto!",
+        "Da giovane si vantava di correre veloce."
+      ],
+      "traduzioni": {
+        "en": "to boast, to brag",
+        "es": "presumir, jactarse",
+        "pt": "gabar-se, se gabar",
+        "fr": "se vanter",
+        "cs": "chlubit se",
+        "pl": "chwalić się",
+        "tr": "övünmek",
+        "de": "prahlen, angeben",
+        "ja": "自慢する"
+      }
+    },
+    {
+      "parola": "la velocità",
+      "forme": [
+        "velocità"
+      ],
+      "esempi": [
+        "In città la velocità massima è 50 km/h.",
+        "Il treno va a grande velocità.",
+        "Mi piace la velocità delle moto."
+      ],
+      "traduzioni": {
+        "en": "speed",
+        "es": "velocidad",
+        "pt": "velocidade",
+        "fr": "vitesse",
+        "cs": "rychlost",
+        "pl": "prędkość, szybkość",
+        "tr": "hız",
+        "de": "Geschwindigkeit",
+        "ja": "速さ"
+      }
+    },
+    {
+      "parola": "prendere in giro",
+      "forme": [
+        "giro"
+      ],
+      "esempi": [
+        "Non prendermi in giro!",
+        "I compagni lo prendono in giro per i suoi occhiali.",
+        "Stai scherzando o mi prendi in giro?"
+      ],
+      "traduzioni": {
+        "en": "to make fun of, to tease",
+        "es": "tomar el pelo, burlarse de",
+        "pt": "zoar, tirar sarro de",
+        "fr": "se moquer de",
+        "cs": "dělat si legraci z",
+        "pl": "nabijać się z, kpić",
+        "tr": "dalga geçmek",
+        "de": "sich lustig machen über, veräppeln",
+        "ja": "からかう"
+      }
+    },
+    {
+      "parola": "proporre",
+      "forme": [
+        "proposto"
+      ],
+      "formeEsempi": [
+        "propongo"
+      ],
+      "esempi": [
+        "Propongo di andare al mare.",
+        "Mi ha proposto un lavoro a Milano.",
+        "Il cameriere ci ha proposto il piatto del giorno."
+      ],
+      "traduzioni": {
+        "en": "to propose, to suggest",
+        "es": "proponer",
+        "pt": "propor",
+        "fr": "proposer",
+        "cs": "navrhnout",
+        "pl": "zaproponować",
+        "tr": "önermek",
+        "de": "vorschlagen",
+        "ja": "提案する"
+      }
+    },
+    {
+      "parola": "iniziare",
+      "forme": [
+        "iniziata"
+      ],
+      "formeEsempi": [
+        "inizia",
+        "iniziato"
+      ],
+      "esempi": [
+        "La lezione inizia alle nove.",
+        "Il film è già iniziato.",
+        "La festa è iniziata tardi."
+      ],
+      "traduzioni": {
+        "en": "to begin, to start",
+        "es": "empezar",
+        "pt": "começar",
+        "fr": "commencer",
+        "cs": "začít",
+        "pl": "zacząć się",
+        "tr": "başlamak",
+        "de": "beginnen",
+        "ja": "始まる"
+      }
+    },
+    {
+      "parola": "la corsa",
+      "forme": [
+        "corsa"
+      ],
+      "esempi": [
+        "Ogni mattina faccio una corsa nel parco.",
+        "La corsa è finita: chi ha vinto?",
+        "Sono arrivato di corsa."
+      ],
+      "traduzioni": {
+        "en": "race; run",
+        "es": "carrera",
+        "pt": "corrida",
+        "fr": "course",
+        "cs": "závod, běh",
+        "pl": "bieg, wyścig",
+        "tr": "koşu, yarış",
+        "de": "Rennen, Lauf",
+        "ja": "競走、ランニング"
+      }
+    },
+    {
+      "parola": "partire",
+      "forme": [
+        "partita"
+      ],
+      "formeEsempi": [
+        "parto",
+        "partito"
+      ],
+      "esempi": [
+        "Parto domani per Roma.",
+        "Il treno è partito in orario.",
+        "Mia sorella è partita per l'Australia."
+      ],
+      "traduzioni": {
+        "en": "to set off, to start",
+        "es": "salir, arrancar",
+        "pt": "partir, largar",
+        "fr": "partir, s’élancer",
+        "cs": "vyrazit, odjet",
+        "pl": "wyruszyć, wystartować",
+        "tr": "yola çıkmak, fırlamak",
+        "de": "losgehen, starten",
+        "ja": "出発する、スタートする"
+      }
+    },
+    {
+      "parola": "avanzare",
+      "forme": [
+        "avanzava"
+      ],
+      "formeEsempi": [
+        "avanza"
+      ],
+      "esempi": [
+        "La fila avanza lentamente.",
+        "Avanza di un passo, per favore.",
+        "La nave avanzava nella nebbia."
+      ],
+      "traduzioni": {
+        "en": "to move forward, to advance",
+        "es": "avanzar",
+        "pt": "avançar",
+        "fr": "avancer",
+        "cs": "postupovat",
+        "pl": "posuwać się naprzód",
+        "tr": "ilerlemek",
+        "de": "vorankommen",
+        "ja": "前に進む"
+      }
+    },
+    {
+      "parola": "il passo",
+      "forme": [
+        "passi",
+        "passo"
+      ],
+      "esempi": [
+        "Fai un passo avanti.",
+        "Il bambino fa i primi passi.",
+        "Cammina con passo veloce."
+      ],
+      "traduzioni": {
+        "en": "step; pace",
+        "es": "paso; ritmo",
+        "pt": "passo; ritmo",
+        "fr": "pas; rythme",
+        "cs": "krok; tempo",
+        "pl": "krok; tempo",
+        "tr": "adım; tempo",
+        "de": "Schritt; Tempo",
+        "ja": "歩み、ペース"
+      }
+    },
+    {
+      "parola": "regolare",
+      "forme": [
+        "regolari"
+      ],
+      "formeEsempi": [
+        "regolare"
+      ],
+      "esempi": [
+        "Faccio sport in modo regolare.",
+        "Il cuore ha un battito regolare.",
+        "I verbi regolari sono più facili."
+      ],
+      "traduzioni": {
+        "en": "steady, regular",
+        "es": "regular, constante",
+        "pt": "regular, constante",
+        "fr": "régulier",
+        "cs": "pravidelný",
+        "pl": "regularny, równy",
+        "tr": "düzenli",
+        "de": "gleichmäßig, regelmäßig",
+        "ja": "規則正しい"
+      }
+    },
+    {
+      "parola": "il vantaggio",
+      "forme": [
+        "vantaggio"
+      ],
+      "esempi": [
+        "La squadra ha un vantaggio di due gol.",
+        "Il nostro vantaggio è di dieci minuti.",
+        "Parlare due lingue è un vantaggio."
+      ],
+      "traduzioni": {
+        "en": "lead; advantage",
+        "es": "ventaja",
+        "pt": "vantagem",
+        "fr": "avance; avantage",
+        "cs": "náskok; výhoda",
+        "pl": "przewaga",
+        "tr": "avantaj, önde olma",
+        "de": "Vorsprung; Vorteil",
+        "ja": "リード、有利"
+      }
+    },
+    {
+      "parola": "sicuro",
+      "forme": [
+        "sicura"
+      ],
+      "formeEsempi": [
+        "sicuro"
+      ],
+      "esempi": [
+        "Sei sicuro? Controlla bene.",
+        "Sono sicura di aver chiuso la porta.",
+        "Questo quartiere è sicuro."
+      ],
+      "traduzioni": {
+        "en": "sure, certain; safe",
+        "es": "seguro",
+        "pt": "seguro, certo",
+        "fr": "sûr",
+        "cs": "jistý, bezpečný",
+        "pl": "pewny, bezpieczny",
+        "tr": "emin; güvenli",
+        "de": "sicher",
+        "ja": "確信した、安全な"
+      }
+    },
+    {
+      "parola": "sdraiarsi",
+      "forme": [
+        "sdraiata"
+      ],
+      "formeEsempi": [
+        "sdraio",
+        "sdraia"
+      ],
+      "esempi": [
+        "Mi sdraio sul divano dopo pranzo.",
+        "Al mare mi sono sdraiata sulla sabbia.",
+        "Il cane si sdraia ai miei piedi."
+      ],
+      "traduzioni": {
+        "en": "to lie down",
+        "es": "tumbarse, acostarse",
+        "pt": "deitar-se",
+        "fr": "s’allonger",
+        "cs": "lehnout si",
+        "pl": "położyć się",
+        "tr": "uzanmak",
+        "de": "sich hinlegen",
+        "ja": "横になる"
+      }
+    },
+    {
+      "parola": "l'ombra",
+      "forme": [
+        "ombra"
+      ],
+      "esempi": [
+        "Fa caldo: sediamoci all'ombra.",
+        "Il gatto dorme all'ombra della macchina.",
+        "Parcheggio sempre all'ombra."
+      ],
+      "traduzioni": {
+        "en": "shade («all'ombra» = in the shade)",
+        "es": "sombra («all'ombra» = a la sombra)",
+        "pt": "sombra («all'ombra» = na sombra)",
+        "fr": "ombre («all'ombra» = à l’ombre)",
+        "cs": "stín («all'ombra» = ve stínu)",
+        "pl": "cień («all'ombra» = w cieniu)",
+        "tr": "gölge («all'ombra» = gölgede)",
+        "de": "Schatten («all'ombra» = im Schatten)",
+        "ja": "日かげ"
+      }
+    },
+    {
+      "parola": "addormentarsi",
+      "forme": [
+        "addormentata"
+      ],
+      "formeEsempi": [
+        "addormento",
+        "addormenta"
+      ],
+      "esempi": [
+        "Mi addormento sempre leggendo.",
+        "Il bambino si addormenta in macchina.",
+        "Ieri mi sono addormentata davanti alla TV."
+      ],
+      "traduzioni": {
+        "en": "to fall asleep",
+        "es": "dormirse",
+        "pt": "adormecer, pegar no sono",
+        "fr": "s’endormir",
+        "cs": "usnout",
+        "pl": "zasnąć",
+        "tr": "uykuya dalmak",
+        "de": "einschlafen",
+        "ja": "寝入る"
+      }
+    },
+    {
+      "parola": "svegliarsi",
+      "forme": [
+        "sveglia",
+        "svegliata"
+      ],
+      "formeEsempi": [
+        "sveglio"
+      ],
+      "esempi": [
+        "Mi sveglio alle sette.",
+        "La mamma si sveglia sempre presto.",
+        "Stamattina mi sono svegliata tardi."
+      ],
+      "traduzioni": {
+        "en": "to wake up",
+        "es": "despertarse",
+        "pt": "acordar",
+        "fr": "se réveiller",
+        "cs": "probudit se",
+        "pl": "obudzić się",
+        "tr": "uyanmak",
+        "de": "aufwachen",
+        "ja": "目を覚ます"
+      }
+    },
+    {
+      "parola": "riuscire",
+      "forme": [
+        "riuscita"
+      ],
+      "formeEsempi": [
+        "riesco",
+        "riuscito"
+      ],
+      "esempi": [
+        "Non riesco a trovare le chiavi.",
+        "Sono riuscito a prendere il treno.",
+        "Finalmente è riuscita a parlare con il medico."
+      ],
+      "traduzioni": {
+        "en": "to manage, to succeed",
+        "es": "conseguir, lograr",
+        "pt": "conseguir",
+        "fr": "réussir à",
+        "cs": "podařit se, dokázat",
+        "pl": "zdołać, dać radę",
+        "tr": "başarmak, -ebilmek",
+        "de": "schaffen",
+        "ja": "〜できる"
+      }
+    },
+    {
+      "parola": "raggiungere",
+      "forme": [
+        "raggiungerla",
+        "raggiunto"
+      ],
+      "formeEsempi": [
+        "raggiungo"
+      ],
+      "esempi": [
+        "Vi raggiungo al ristorante.",
+        "Ha raggiunto la vetta della montagna.",
+        "Mia sorella corre troppo: non riesco a raggiungerla."
+      ],
+      "traduzioni": {
+        "en": "to catch up with, to reach",
+        "es": "alcanzar",
+        "pt": "alcançar",
+        "fr": "rattraper, atteindre",
+        "cs": "dohnat, dosáhnout",
+        "pl": "dogonić, dotrzeć",
+        "tr": "yetişmek, ulaşmak",
+        "de": "einholen, erreichen",
+        "ja": "追いつく、たどり着く"
+      }
+    },
+    {
+      "parola": "considerato",
+      "forme": [
+        "considerata"
+      ],
+      "formeEsempi": [
+        "considerato",
+        "considero"
+      ],
+      "esempi": [
+        "È considerato il miglior medico della città.",
+        "Venezia è considerata una delle città più belle.",
+        "Lo considero un amico."
+      ],
+      "traduzioni": {
+        "en": "considered, regarded as",
+        "es": "considerado",
+        "pt": "considerado",
+        "fr": "considéré comme",
+        "cs": "považovaný za",
+        "pl": "uważany za",
+        "tr": "kabul edilen, sayılan",
+        "de": "gilt als",
+        "ja": "〜とみなされている"
+      }
+    },
+    {
+      "parola": "la zona",
+      "forme": [
+        "zona"
+      ],
+      "esempi": [
+        "Abito in una zona tranquilla.",
+        "In questa zona ci sono molti ristoranti.",
+        "È la zona più fredda d'Italia."
+      ],
+      "traduzioni": {
+        "en": "area",
+        "es": "zona",
+        "pt": "região, área",
+        "fr": "région, coin",
+        "cs": "okolí, oblast",
+        "pl": "okolica",
+        "tr": "bölge, çevre",
+        "de": "Gegend",
+        "ja": "あたり、地域"
+      }
+    },
+    {
+      "parola": "perdere occasione",
+      "forme": [
+        "occasione"
+      ],
+      "esempi": [
+        "Non perde occasione per parlare di sé.",
+        "È un'occasione da non perdere!",
+        "Ho perso un'occasione importante."
+      ],
+      "traduzioni": {
+        "en": "to miss a chance («non perdere occasione» = never miss a chance)",
+        "es": "perder ocasión",
+        "pt": "perder a oportunidade",
+        "fr": "manquer une occasion",
+        "cs": "nevynechat příležitost",
+        "pl": "nie przepuścić okazji",
+        "tr": "fırsatı kaçırmak",
+        "de": "keine Gelegenheit auslassen",
+        "ja": "機会を逃す"
+      }
+    },
+    {
+      "parola": "divertirsi a",
+      "forme": [
+        "divertiva"
+      ],
+      "formeEsempi": [
+        "diverto",
+        "diverte"
+      ],
+      "esempi": [
+        "Mi diverto a cucinare.",
+        "Il bambino si diverte a saltare nelle pozzanghere.",
+        "Da piccola si divertiva a disegnare."
+      ],
+      "traduzioni": {
+        "en": "to enjoy (doing)",
+        "es": "divertirse (haciendo)",
+        "pt": "divertir-se a",
+        "fr": "s’amuser à",
+        "cs": "bavit se (něčím)",
+        "pl": "bawić się (czymś)",
+        "tr": "(bir şey yapmaktan) eğlenmek",
+        "de": "Spaß daran haben",
+        "ja": "〜して楽しむ"
+      }
+    },
+    {
+      "parola": "umiliare",
+      "forme": [
+        "umiliare"
+      ],
+      "formeEsempi": [
+        "umilia"
+      ],
+      "esempi": [
+        "Non devi umiliare nessuno.",
+        "Il capo umilia i dipendenti davanti a tutti.",
+        "È sbagliato umiliare chi è più debole."
+      ],
+      "traduzioni": {
+        "en": "to humiliate",
+        "es": "humillar",
+        "pt": "humilhar",
+        "fr": "humilier",
+        "cs": "ponižovat",
+        "pl": "upokarzać",
+        "tr": "aşağılamak",
+        "de": "demütigen",
+        "ja": "はずかしめる"
+      }
+    },
+    {
+      "parola": "convinto",
+      "forme": [
+        "convinta"
+      ],
+      "formeEsempi": [
+        "convinto"
+      ],
+      "esempi": [
+        "Sono convinto che hai ragione.",
+        "Era convinta di aver chiuso la porta.",
+        "Non sembri molto convinto."
+      ],
+      "traduzioni": {
+        "en": "convinced, sure",
+        "es": "convencido",
+        "pt": "convencido",
+        "fr": "convaincu",
+        "cs": "přesvědčený",
+        "pl": "przekonany",
+        "tr": "emin, ikna olmuş",
+        "de": "überzeugt",
+        "ja": "確信した"
+      }
+    },
+    {
+      "parola": "bastare",
+      "forme": [
+        "bastato"
+      ],
+      "formeEsempi": [
+        "basta"
+      ],
+      "esempi": [
+        "Basta un minuto.",
+        "Il pane non è bastato per tutti.",
+        "Basta, sono stanco!"
+      ],
+      "traduzioni": {
+        "en": "to be enough («basta!» = that's enough!)",
+        "es": "bastar («basta!» = ¡basta!)",
+        "pt": "bastar («basta!» = chega!)",
+        "fr": "suffire («basta!» = ça suffit !)",
+        "cs": "stačit («basta!» = dost!)",
+        "pl": "wystarczyć («basta!» = dość!)",
+        "tr": "yetmek («basta!» = yeter!)",
+        "de": "reichen, genügen («basta!» = genug!)",
+        "ja": "足りる（«basta!» = もういい！）"
+      }
+    },
+    {
+      "parola": "lo sforzo",
+      "forme": [
+        "sforzo"
+      ],
+      "esempi": [
+        "Con un piccolo sforzo ce la fai.",
+        "Grazie per lo sforzo!",
+        "Salire le scale è uno sforzo per il nonno."
+      ],
+      "traduzioni": {
+        "en": "effort",
+        "es": "esfuerzo",
+        "pt": "esforço",
+        "fr": "effort",
+        "cs": "úsilí, námaha",
+        "pl": "wysiłek",
+        "tr": "çaba",
+        "de": "Anstrengung",
+        "ja": "努力、骨折り"
+      }
+    },
+    {
+      "parola": "minimo",
+      "forme": [
+        "minimo"
+      ],
+      "formeEsempi": [
+        "minima"
+      ],
+      "esempi": [
+        "Il prezzo minimo è dieci euro.",
+        "Non ho il minimo dubbio.",
+        "La temperatura minima stanotte è zero gradi."
+      ],
+      "traduzioni": {
+        "en": "minimal, the least",
+        "es": "mínimo",
+        "pt": "mínimo",
+        "fr": "minimum, minime",
+        "cs": "minimální, nejmenší",
+        "pl": "minimalny, najmniejszy",
+        "tr": "en az, asgari",
+        "de": "minimal, geringste",
+        "ja": "最小の、わずかな"
+      }
+    },
+    {
+      "parola": "accumulare",
+      "forme": [
+        "accumulato"
+      ],
+      "formeEsempi": [
+        "accumula"
+      ],
+      "esempi": [
+        "Ho accumulato tanti libri negli anni.",
+        "La neve si accumula sul tetto.",
+        "La squadra ha accumulato dieci punti di vantaggio."
+      ],
+      "traduzioni": {
+        "en": "to build up, to pile up",
+        "es": "acumular",
+        "pt": "acumular",
+        "fr": "accumuler",
+        "cs": "nashromáždit, získat",
+        "pl": "zgromadzić, uzbierać",
+        "tr": "biriktirmek",
+        "de": "ansammeln, herausholen",
+        "ja": "ためる、積み上げる"
+      }
+    },
+    {
+      "parola": "enorme",
+      "forme": [
+        "enorme"
+      ],
+      "esempi": [
+        "La casa dei nonni è enorme.",
+        "Ho una fame enorme!",
+        "Un elefante è un animale enorme."
+      ],
+      "traduzioni": {
+        "en": "huge, enormous",
+        "es": "enorme",
+        "pt": "enorme",
+        "fr": "énorme",
+        "cs": "obrovský",
+        "pl": "ogromny",
+        "tr": "kocaman",
+        "de": "riesig",
+        "ja": "ばく大な、巨大な"
+      }
+    },
+    {
+      "parola": "il riposo",
+      "forme": [
+        "riposo"
+      ],
+      "formeEsempi": [
+        "riposare"
+      ],
+      "esempi": [
+        "Dopo il lavoro ho bisogno di riposo.",
+        "La domenica è il giorno di riposo.",
+        "Vado a riposare un'ora."
+      ],
+      "traduzioni": {
+        "en": "rest («riposare» = to rest)",
+        "es": "descanso («riposare» = descansar)",
+        "pt": "descanso («riposare» = descansar)",
+        "fr": "repos («riposare» = se reposer)",
+        "cs": "odpočinek («riposare» = odpočívat)",
+        "pl": "odpoczynek («riposare» = odpoczywać)",
+        "tr": "dinlenme («riposare» = dinlenmek)",
+        "de": "Ruhe, Pause («riposare» = ausruhen)",
+        "ja": "休み、休憩"
+      }
+    },
+    {
+      "parola": "il sonno",
+      "forme": [
+        "sonno"
+      ],
+      "esempi": [
+        "Ho sonno: vado a letto.",
+        "Il bambino ha un sonno tranquillo.",
+        "Dormire bene è importante: il sonno fa bene alla salute."
+      ],
+      "traduzioni": {
+        "en": "sleep («avere sonno» = to be sleepy)",
+        "es": "sueño",
+        "pt": "sono",
+        "fr": "sommeil",
+        "cs": "spánek",
+        "pl": "sen",
+        "tr": "uyku",
+        "de": "Schlaf",
+        "ja": "眠り"
+      }
+    },
+    {
+      "parola": "profondo",
+      "forme": [
+        "profondo"
+      ],
+      "formeEsempi": [
+        "profonda"
+      ],
+      "esempi": [
+        "Il lago è molto profondo.",
+        "Fai un respiro profondo.",
+        "Dorme in un sonno profondo."
+      ],
+      "traduzioni": {
+        "en": "deep",
+        "es": "profundo",
+        "pt": "profundo",
+        "fr": "profond",
+        "cs": "hluboký",
+        "pl": "głęboki",
+        "tr": "derin",
+        "de": "tief",
+        "ja": "深い"
+      }
+    },
+    {
+      "parola": "mantenere",
+      "forme": [
+        "mantenuto"
+      ],
+      "formeEsempi": [
+        "mantiene"
+      ],
+      "esempi": [
+        "Ha mantenuto la promessa.",
+        "Lo sport mantiene in forma.",
+        "Abbiamo mantenuto la stessa velocità per tutto il viaggio."
+      ],
+      "traduzioni": {
+        "en": "to keep, to maintain",
+        "es": "mantener",
+        "pt": "manter",
+        "fr": "garder, maintenir",
+        "cs": "udržet",
+        "pl": "utrzymać",
+        "tr": "korumak, sürdürmek",
+        "de": "halten, beibehalten",
+        "ja": "保つ"
+      }
+    },
+    {
+      "parola": "superare",
+      "forme": [
+        "superato"
+      ],
+      "formeEsempi": [
+        "supera"
+      ],
+      "esempi": [
+        "Ho superato l'esame!",
+        "La macchina supera il camion.",
+        "Il prezzo supera i cento euro."
+      ],
+      "traduzioni": {
+        "en": "to overtake, to pass",
+        "es": "adelantar, superar",
+        "pt": "ultrapassar, passar",
+        "fr": "dépasser, réussir",
+        "cs": "předběhnout, překonat",
+        "pl": "wyprzedzić, zdać",
+        "tr": "geçmek, aşmak",
+        "de": "überholen, bestehen",
+        "ja": "追い越す、合格する"
+      }
+    },
+    {
+      "parola": "l'avversario",
+      "forme": [
+        "avversaria"
+      ],
+      "formeEsempi": [
+        "avversario",
+        "avversari"
+      ],
+      "esempi": [
+        "L'avversario è molto forte.",
+        "Ha salutato la sua avversaria dopo la partita.",
+        "Rispettiamo sempre gli avversari."
+      ],
+      "traduzioni": {
+        "en": "opponent, rival",
+        "es": "adversario, rival",
+        "pt": "adversário",
+        "fr": "adversaire",
+        "cs": "soupeř, soupeřka",
+        "pl": "przeciwnik, przeciwniczka",
+        "tr": "rakip",
+        "de": "Gegner, Gegnerin",
+        "ja": "相手、ライバル"
+      }
+    },
+    {
+      "parola": "il talento",
+      "forme": [
+        "talento"
+      ],
+      "esempi": [
+        "Ha un grande talento per la musica.",
+        "Il talento non basta: serve lavoro.",
+        "Questa ragazza è un talento del tennis."
+      ],
+      "traduzioni": {
+        "en": "talent",
+        "es": "talento",
+        "pt": "talento",
+        "fr": "talent",
+        "cs": "talent",
+        "pl": "talent",
+        "tr": "yetenek",
+        "de": "Talent",
+        "ja": "才能"
+      }
+    },
+    {
+      "parola": "sufficiente",
+      "forme": [
+        "sufficiente"
+      ],
+      "esempi": [
+        "Il tempo non è sufficiente.",
+        "Due ore di studio sono sufficienti.",
+        "Hai preso un voto sufficiente."
+      ],
+      "traduzioni": {
+        "en": "enough, sufficient",
+        "es": "suficiente",
+        "pt": "suficiente",
+        "fr": "suffisant",
+        "cs": "dostatečný",
+        "pl": "wystarczający",
+        "tr": "yeterli",
+        "de": "ausreichend",
+        "ja": "十分な"
+      },
+      "formeEsempi": [
+        "sufficienti"
+      ]
+    },
+    {
+      "parola": "mancare",
+      "forme": [
+        "mancavano"
+      ],
+      "formeEsempi": [
+        "manca",
+        "mancano"
+      ],
+      "esempi": [
+        "Manca il sale nella pasta.",
+        "Mancano due giorni alle vacanze.",
+        "Mi mancavano le parole."
+      ],
+      "traduzioni": {
+        "en": "to be missing, to lack",
+        "es": "faltar",
+        "pt": "faltar",
+        "fr": "manquer",
+        "cs": "chybět",
+        "pl": "brakować",
+        "tr": "eksik olmak",
+        "de": "fehlen",
+        "ja": "欠けている、足りない"
+      }
+    },
+    {
+      "parola": "la disciplina",
+      "forme": [
+        "disciplina"
+      ],
+      "esempi": [
+        "Per suonare il piano ci vuole disciplina.",
+        "La disciplina è importante nello sport.",
+        "In questa scuola c'è molta disciplina."
+      ],
+      "traduzioni": {
+        "en": "discipline",
+        "es": "disciplina",
+        "pt": "disciplina",
+        "fr": "discipline",
+        "cs": "disciplína, kázeň",
+        "pl": "dyscyplina",
+        "tr": "disiplin",
+        "de": "Disziplin",
+        "ja": "規律、努力の積み重ね"
+      }
+    },
+    {
+      "parola": "il rispetto",
+      "forme": [
+        "rispetto"
+      ],
+      "esempi": [
+        "Parla con rispetto ai tuoi nonni.",
+        "Il rispetto è la base dell'amicizia.",
+        "Ho molto rispetto per il tuo lavoro."
+      ],
+      "traduzioni": {
+        "en": "respect",
+        "es": "respeto",
+        "pt": "respeito",
+        "fr": "respect",
+        "cs": "respekt, úcta",
+        "pl": "szacunek",
+        "tr": "saygı",
+        "de": "Respekt",
+        "ja": "敬意"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In the woods lives a very fast hare. He often laughs at the tortoise, because the tortoise walks slowly.",
+        "One day the tortoise says: “Let's have a race.” The hare laughs, but he accepts. The animals choose the start and the finish line.",
+        "The hare runs very fast and is soon far away. He thinks he has lots of time and stops under a tree. He closes his eyes and sleeps.",
+        "The tortoise keeps walking. She doesn't run and she doesn't stop. She passes near the hare and reaches the finish line.",
+        "The hare wakes up and runs as hard as he can, but it's too late. The tortoise wins the race."
+      ],
+      "a2": [
+        "A hare used to boast about his speed and make fun of a tortoise. The tortoise challenged him to a race.",
+        "As soon as the race began, the hare shot off at top speed, while the tortoise moved forward with small, steady steps.",
+        "The hare had a big lead. Sure he would win, he lay down in the shade and fell asleep.",
+        "The tortoise never stopped. When the hare woke up, she was already near the finish line. The hare ran, but he couldn't catch up with her."
+      ],
+      "b1": [
+        "The hare was considered the fastest animal in the area and never missed a chance to remind everyone. He enjoyed humiliating the tortoise.",
+        "The tortoise proposed a race. The hare accepted, convinced that the slightest effort would be enough.",
+        "After building up a huge lead, the hare decided to rest. The short rest turned into a deep sleep.",
+        "The tortoise kept the same pace, overtook her opponent and reached the finish line. The hare's talent wasn't enough, because he lacked discipline and respect."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En el bosque vive una liebre muy rápida. Se ríe a menudo de la tortuga, porque la tortuga camina despacio.",
+        "Un día la tortuga dice: «Hagamos una carrera». La liebre se ríe, pero acepta. Los animales eligen la salida y la meta.",
+        "La liebre corre muy rápido y enseguida está lejos. Piensa que tiene mucho tiempo y se para debajo de un árbol. Cierra los ojos y duerme.",
+        "La tortuga sigue caminando. No corre y no se para. Pasa al lado de la liebre y llega a la meta.",
+        "La liebre se despierta y corre con todas sus fuerzas, pero es demasiado tarde. La tortuga gana la carrera."
+      ],
+      "a2": [
+        "Una liebre presumía de su velocidad y se burlaba de una tortuga. La tortuga le propuso una carrera.",
+        "En cuanto empezó la carrera, la liebre salió rapidísima, mientras la tortuga avanzaba con pasos pequeños y regulares.",
+        "La liebre tenía mucha ventaja. Segura de ganar, se tumbó a la sombra y se quedó dormida.",
+        "La tortuga no se paró nunca. Cuando la liebre se despertó, la tortuga ya estaba cerca de la meta. La liebre corrió, pero no consiguió alcanzarla."
+      ],
+      "b1": [
+        "La liebre era considerada el animal más rápido de la zona y no perdía ocasión de recordarlo. Le divertía humillar a la tortuga.",
+        "La tortuga propuso una carrera. La liebre aceptó, convencida de que bastaría con un esfuerzo mínimo.",
+        "Después de acumular una ventaja enorme, la liebre decidió descansar. El breve descanso se convirtió en un sueño profundo.",
+        "La tortuga mantuvo el mismo ritmo, adelantó a su adversaria y llegó a la meta. El talento de la liebre no fue suficiente, porque le faltaban disciplina y respeto."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "No bosque mora uma lebre muito rápida. Ela ri muitas vezes da tartaruga, porque a tartaruga anda devagar.",
+        "Um dia a tartaruga diz: «Vamos fazer uma corrida». A lebre ri, mas aceita. Os animais escolhem a largada e a chegada.",
+        "A lebre corre muito rápido e logo fica longe. Pensa que tem muito tempo e para debaixo de uma árvore. Fecha os olhos e dorme.",
+        "A tartaruga continua andando. Não corre e não para. Passa perto da lebre e chega à linha de chegada.",
+        "A lebre acorda e corre com todas as forças, mas é tarde demais. A tartaruga ganha a corrida."
+      ],
+      "a2": [
+        "Uma lebre se gabava da sua velocidade e zoava uma tartaruga. A tartaruga propôs uma corrida.",
+        "Assim que a corrida começou, a lebre saiu disparada, enquanto a tartaruga avançava com passos pequenos e regulares.",
+        "A lebre tinha uma grande vantagem. Certa de que ia ganhar, deitou-se na sombra e pegou no sono.",
+        "A tartaruga nunca parou. Quando a lebre acordou, a tartaruga já estava perto da chegada. A lebre correu, mas não conseguiu alcançá-la."
+      ],
+      "b1": [
+        "A lebre era considerada o animal mais rápido da região e não perdia a oportunidade de lembrar isso. Ela se divertia humilhando a tartaruga.",
+        "A tartaruga propôs uma corrida. A lebre aceitou, convencida de que bastaria um esforço mínimo.",
+        "Depois de acumular uma vantagem enorme, a lebre decidiu descansar. O breve descanso virou um sono profundo.",
+        "A tartaruga manteve o mesmo ritmo, ultrapassou a adversária e chegou à linha de chegada. O talento da lebre não foi suficiente, porque faltavam disciplina e respeito."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans le bois vit un lièvre très rapide. Il se moque souvent de la tortue, parce que la tortue marche lentement.",
+        "Un jour, la tortue dit : « Faisons une course. » Le lièvre rit, mais il accepte. Les animaux choisissent le départ et l’arrivée.",
+        "Le lièvre court très vite et il est tout de suite loin. Il pense qu’il a beaucoup de temps et il s’arrête sous un arbre. Il ferme les yeux et il dort.",
+        "La tortue continue à marcher. Elle ne court pas et elle ne s’arrête pas. Elle passe près du lièvre et arrive à la ligne d’arrivée.",
+        "Le lièvre se réveille et court de toutes ses forces, mais c’est trop tard. La tortue gagne la course."
+      ],
+      "a2": [
+        "Un lièvre se vantait de sa vitesse et se moquait d’une tortue. La tortue lui a proposé une course.",
+        "Dès que la course a commencé, le lièvre est parti à toute vitesse, tandis que la tortue avançait à petits pas réguliers.",
+        "Le lièvre avait une grande avance. Sûr de gagner, il s’est allongé à l’ombre et il s’est endormi.",
+        "La tortue ne s’est jamais arrêtée. Quand le lièvre s’est réveillé, elle était déjà près de l’arrivée. Le lièvre a couru, mais il n’a pas réussi à la rattraper."
+      ],
+      "b1": [
+        "Le lièvre était considéré comme l’animal le plus rapide de la région et ne manquait pas une occasion de le rappeler. Il s’amusait à humilier la tortue.",
+        "La tortue a proposé une course. Le lièvre a accepté, convaincu qu’un effort minimum suffirait.",
+        "Après avoir accumulé une énorme avance, le lièvre a décidé de se reposer. Le court repos s’est transformé en un sommeil profond.",
+        "La tortue a gardé le même rythme, a dépassé son adversaire et a atteint la ligne d’arrivée. Le talent du lièvre n’a pas suffi, parce qu’il lui manquait la discipline et le respect."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V lese žije velmi rychlý zajíc. Často se směje želvě, protože želva chodí pomalu.",
+        "Jednoho dne želva řekne: „Uděláme si závod.“ Zajíc se směje, ale souhlasí. Zvířata vyberou start a cíl.",
+        "Zajíc běží velmi rychle a hned je daleko. Myslí si, že má hodně času, a zastaví se pod stromem. Zavře oči a spí.",
+        "Želva jde dál. Neběží a nezastavuje se. Projde kolem zajíce a dorazí do cíle.",
+        "Zajíc se probudí a běží ze všech sil, ale už je pozdě. Želva závod vyhraje."
+      ],
+      "a2": [
+        "Jeden zajíc se chlubil svou rychlostí a dělal si legraci z želvy. Želva mu navrhla závod.",
+        "Jakmile závod začal, zajíc vyrazil obrovskou rychlostí, zatímco želva postupovala malými pravidelnými kroky.",
+        "Zajíc měl velký náskok. Byl si jistý, že vyhraje, a tak si lehl do stínu a usnul.",
+        "Želva se ani jednou nezastavila. Když se zajíc probudil, byla už blízko cíle. Zajíc běžel, ale nedokázal ji dohnat."
+      ],
+      "b1": [
+        "Zajíc byl považován za nejrychlejší zvíře v okolí a nevynechal jedinou příležitost to připomenout. Bavilo ho ponižovat želvu.",
+        "Želva navrhla závod. Zajíc souhlasil, přesvědčený, že bude stačit minimální úsilí.",
+        "Když získal obrovský náskok, rozhodl se odpočinout si. Krátký odpočinek se změnil v hluboký spánek.",
+        "Želva si udržela stejné tempo, předběhla svého soupeře a dorazila do cíle. Zajícův talent nestačil, protože mu chyběla disciplína a respekt."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W lesie mieszka bardzo szybki zając. Często śmieje się z żółwia, bo żółw chodzi powoli.",
+        "Pewnego dnia żółw mówi: „Zróbmy wyścig”. Zając się śmieje, ale się zgadza. Zwierzęta wybierają start i metę.",
+        "Zając biegnie bardzo szybko i od razu jest daleko. Myśli, że ma dużo czasu, i zatrzymuje się pod drzewem. Zamyka oczy i śpi.",
+        "Żółw idzie dalej. Nie biegnie i się nie zatrzymuje. Przechodzi obok zająca i dociera do mety.",
+        "Zając się budzi i biegnie z całych sił, ale jest za późno. Żółw wygrywa wyścig."
+      ],
+      "a2": [
+        "Pewien zając chwalił się swoją szybkością i nabijał się z żółwia. Żółw zaproponował mu wyścig.",
+        "Gdy tylko wyścig się zaczął, zając wystartował bardzo szybko, a żółw posuwał się naprzód małymi, równymi krokami.",
+        "Zając miał dużą przewagę. Pewny zwycięstwa położył się w cieniu i zasnął.",
+        "Żółw ani razu się nie zatrzymał. Kiedy zając się obudził, żółw był już blisko mety. Zając biegł, ale nie zdołał go dogonić."
+      ],
+      "b1": [
+        "Zająca uważano za najszybsze zwierzę w okolicy i nie przepuszczał okazji, żeby o tym przypomnieć. Lubił upokarzać żółwia.",
+        "Żółw zaproponował wyścig. Zając się zgodził, przekonany, że wystarczy minimalny wysiłek.",
+        "Po zdobyciu ogromnej przewagi zając postanowił odpocząć. Krótki odpoczynek zamienił się w głęboki sen.",
+        "Żółw utrzymał to samo tempo, wyprzedził przeciwnika i dotarł do mety. Talent zająca nie wystarczył, bo zabrakło mu dyscypliny i szacunku."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Ormanda çok hızlı bir tavşan yaşıyor. Kaplumbağaya sık sık gülüyor, çünkü kaplumbağa yavaş yürüyor.",
+        "Bir gün kaplumbağa «Hadi yarışalım» diyor. Tavşan gülüyor ama kabul ediyor. Hayvanlar başlangıç ve bitiş çizgisini seçiyor.",
+        "Tavşan çok hızlı koşuyor ve hemen uzaklaşıyor. Çok vakti olduğunu düşünüyor ve bir ağacın altında duruyor. Gözlerini kapıyor ve uyuyor.",
+        "Kaplumbağa yürümeye devam ediyor. Koşmuyor ve durmuyor. Tavşanın yanından geçiyor ve bitiş çizgisine varıyor.",
+        "Tavşan uyanıyor ve var gücüyle koşuyor ama artık çok geç. Kaplumbağa yarışı kazanıyor."
+      ],
+      "a2": [
+        "Bir tavşan hızıyla övünür ve bir kaplumbağayla dalga geçerdi. Kaplumbağa ona bir yarış önerdi.",
+        "Yarış başlar başlamaz tavşan çok hızlı fırladı; kaplumbağa ise küçük ve düzenli adımlarla ilerliyordu.",
+        "Tavşan çok öndeydi. Kazanacağından emin olarak gölgeye uzandı ve uyuyakaldı.",
+        "Kaplumbağa hiç durmadı. Tavşan uyandığında kaplumbağa bitiş çizgisine yaklaşmıştı bile. Tavşan koştu ama ona yetişemedi."
+      ],
+      "b1": [
+        "Tavşan, bölgenin en hızlı hayvanı sayılırdı ve bunu hatırlatma fırsatını hiç kaçırmazdı. Kaplumbağayı aşağılamaktan zevk alırdı.",
+        "Kaplumbağa bir yarış önerdi. Tavşan, en küçük bir çabanın yeteceğinden emin olarak kabul etti.",
+        "Çok büyük bir fark açtıktan sonra tavşan dinlenmeye karar verdi. Kısa mola derin bir uykuya dönüştü.",
+        "Kaplumbağa aynı tempoyu korudu, rakibini geçti ve bitiş çizgisine ulaştı. Tavşanın yeteneği yetmedi, çünkü disiplini ve saygısı eksikti."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Im Wald lebt ein sehr schneller Hase. Er lacht oft über die Schildkröte, weil die Schildkröte langsam geht.",
+        "Eines Tages sagt die Schildkröte: „Machen wir ein Wettrennen.“ Der Hase lacht, aber er ist einverstanden. Die Tiere wählen den Start und das Ziel.",
+        "Der Hase rennt sehr schnell und ist sofort weit weg. Er denkt, dass er viel Zeit hat, und bleibt unter einem Baum stehen. Er schließt die Augen und schläft.",
+        "Die Schildkröte geht weiter. Sie rennt nicht und sie hält nicht an. Sie geht am Hasen vorbei und kommt ins Ziel.",
+        "Der Hase wacht auf und rennt mit aller Kraft, aber es ist zu spät. Die Schildkröte gewinnt das Rennen."
+      ],
+      "a2": [
+        "Ein Hase prahlte mit seiner Schnelligkeit und machte sich über eine Schildkröte lustig. Die Schildkröte schlug ihm ein Wettrennen vor.",
+        "Sobald das Rennen begann, schoss der Hase davon, während die Schildkröte mit kleinen, gleichmäßigen Schritten vorankam.",
+        "Der Hase hatte einen großen Vorsprung. Sicher, dass er gewinnen würde, legte er sich in den Schatten und schlief ein.",
+        "Die Schildkröte blieb nie stehen. Als der Hase aufwachte, war sie schon nahe am Ziel. Der Hase rannte, aber er konnte sie nicht mehr einholen."
+      ],
+      "b1": [
+        "Der Hase galt als das schnellste Tier der Gegend und ließ keine Gelegenheit aus, alle daran zu erinnern. Es machte ihm Spaß, die Schildkröte zu demütigen.",
+        "Die Schildkröte schlug ein Wettrennen vor. Der Hase nahm an, überzeugt, dass die kleinste Anstrengung genügen würde.",
+        "Nachdem er einen riesigen Vorsprung herausgeholt hatte, beschloss der Hase, sich auszuruhen. Aus der kurzen Pause wurde ein tiefer Schlaf.",
+        "Die Schildkröte hielt dasselbe Tempo, überholte ihren Gegner und erreichte das Ziel. Das Talent des Hasen reichte nicht aus, weil ihm Disziplin und Respekt fehlten."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "森に、とても足の速いうさぎが住んでいます。かめはゆっくり歩くので、うさぎはよくかめを笑います。",
+        "ある日、かめが言います。「競走しよう。」うさぎは笑いますが、引き受けます。動物たちがスタートとゴールを決めます。",
+        "うさぎはとても速く走り、すぐに遠くまで行きます。時間はたっぷりあると思って、木の下で止まります。目を閉じて、眠ります。",
+        "かめは歩き続けます。走りもしないし、止まりもしません。うさぎのそばを通って、ゴールに着きます。",
+        "うさぎは目を覚まし、力いっぱい走りますが、もう遅すぎます。かめが競走に勝ちます。"
+      ],
+      "a2": [
+        "うさぎは自分の足の速さを自慢して、かめをからかっていました。かめはうさぎに競走を申しこみました。",
+        "競走が始まるとすぐ、うさぎはものすごい速さで飛び出しました。かめは小さな歩幅で、規則正しく進んでいました。",
+        "うさぎは大きくリードしていました。勝つに決まっていると思って、日かげに寝ころび、眠ってしまいました。",
+        "かめは一度も止まりませんでした。うさぎが目を覚ましたとき、かめはもうゴールの近くにいました。うさぎは走りましたが、追いつけませんでした。"
+      ],
+      "b1": [
+        "うさぎはこのあたりでいちばん足の速い動物だと思われていて、それを言いふらす機会を逃しませんでした。かめをばかにして楽しんでいたのです。",
+        "かめが競走を提案しました。うさぎは、ほんの少しがんばれば十分だと思って、引き受けました。",
+        "大きなリードを広げたあと、うさぎは休むことにしました。少しの休憩のつもりが、ぐっすり眠ってしまいました。",
+        "かめは同じペースを保ち、相手を追い越して、ゴールにたどり着きました。うさぎの才能だけでは足りませんでした。努力を続ける心と、相手への敬意が欠けていたからです。"
+      ]
+    }
+  }
+}
