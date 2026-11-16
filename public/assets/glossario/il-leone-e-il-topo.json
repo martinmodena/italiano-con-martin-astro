@@ -1,0 +1,1437 @@
+{
+  "id": "il-leone-e-il-topo",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il leone",
+      "forme": [
+        "leone"
+      ],
+      "formeEsempi": [
+        "leoni"
+      ],
+      "esempi": [
+        "Il leone è il re della savana.",
+        "Allo zoo abbiamo visto due leoni.",
+        "Il leone dorme quasi tutto il giorno."
+      ],
+      "traduzioni": {
+        "en": "lion",
+        "es": "león",
+        "pt": "leão",
+        "fr": "lion",
+        "cs": "lev",
+        "pl": "lew",
+        "tr": "aslan",
+        "de": "Löwe",
+        "ja": "ライオン"
+      }
+    },
+    {
+      "parola": "il topo",
+      "forme": [
+        "topo",
+        "topolino"
+      ],
+      "formeEsempi": [
+        "topi"
+      ],
+      "esempi": [
+        "Il gatto corre dietro al topo.",
+        "Ho visto un topolino in cantina.",
+        "I topi mangiano il formaggio."
+      ],
+      "traduzioni": {
+        "en": "mouse («topolino» = little mouse)",
+        "es": "ratón («topolino» = ratoncito)",
+        "pt": "rato («topolino» = ratinho)",
+        "fr": "souris, rat («topolino» = petite souris)",
+        "cs": "myš («topolino» = myška)",
+        "pl": "mysz («topolino» = myszka)",
+        "tr": "fare («topolino» = minik fare)",
+        "de": "Maus («topolino» = Mäuschen)",
+        "ja": "ねずみ（«topolino» = 小さなねずみ）"
+      }
+    },
+    {
+      "parola": "la foglia",
+      "forme": [
+        "foglie"
+      ],
+      "formeEsempi": [
+        "foglia"
+      ],
+      "esempi": [
+        "In autunno le foglie cadono.",
+        "Il basilico ha foglie verdi e profumate.",
+        "Una foglia è caduta nel mio caffè."
+      ],
+      "traduzioni": {
+        "en": "leaf",
+        "es": "hoja",
+        "pt": "folha",
+        "fr": "feuille",
+        "cs": "list",
+        "pl": "liść",
+        "tr": "yaprak",
+        "de": "Blatt",
+        "ja": "葉っぱ"
+      }
+    },
+    {
+      "parola": "la schiena",
+      "forme": [
+        "schiena"
+      ],
+      "esempi": [
+        "Ho mal di schiena.",
+        "Il bambino sale sulla schiena del papà.",
+        "Stai dritto con la schiena!"
+      ],
+      "traduzioni": {
+        "en": "back (of the body)",
+        "es": "espalda",
+        "pt": "costas",
+        "fr": "dos",
+        "cs": "záda",
+        "pl": "plecy",
+        "tr": "sırt",
+        "de": "Rücken",
+        "ja": "背中"
+      }
+    },
+    {
+      "parola": "svegliarsi",
+      "forme": [
+        "sveglia",
+        "svegliato"
+      ],
+      "formeEsempi": [
+        "sveglio"
+      ],
+      "esempi": [
+        "Mi sveglio alle sette.",
+        "Il bambino si sveglia di notte.",
+        "Il rumore mi ha svegliato."
+      ],
+      "traduzioni": {
+        "en": "to wake up («svegliare» = to wake someone)",
+        "es": "despertarse, despertar",
+        "pt": "acordar",
+        "fr": "se réveiller, réveiller",
+        "cs": "probudit (se)",
+        "pl": "obudzić (się)",
+        "tr": "uyanmak, uyandırmak",
+        "de": "aufwachen, wecken",
+        "ja": "目を覚ます、起こす"
+      }
+    },
+    {
+      "parola": "la zampa",
+      "forme": [
+        "zampa"
+      ],
+      "formeEsempi": [
+        "zampe"
+      ],
+      "esempi": [
+        "Il cane mi dà la zampa.",
+        "Il gatto si lava con la zampa.",
+        "Il ragno ha otto zampe."
+      ],
+      "traduzioni": {
+        "en": "paw",
+        "es": "pata, zarpa",
+        "pt": "pata",
+        "fr": "patte",
+        "cs": "tlapa",
+        "pl": "łapa",
+        "tr": "pati, pençe",
+        "de": "Pfote, Tatze",
+        "ja": "前足"
+      }
+    },
+    {
+      "parola": "la paura",
+      "forme": [
+        "paura"
+      ],
+      "esempi": [
+        "Ho paura dei cani grandi.",
+        "Non avere paura, sono io!",
+        "Mio figlio ha paura del buio."
+      ],
+      "traduzioni": {
+        "en": "fear («avere paura» = to be afraid)",
+        "es": "miedo («avere paura» = tener miedo)",
+        "pt": "medo («avere paura» = ter medo)",
+        "fr": "peur («avere paura» = avoir peur)",
+        "cs": "strach («avere paura» = bát se)",
+        "pl": "strach («avere paura» = bać się)",
+        "tr": "korku («avere paura» = korkmak)",
+        "de": "Angst («avere paura» = Angst haben)",
+        "ja": "こわさ（«avere paura» = こわがる）"
+      }
+    },
+    {
+      "parola": "libero",
+      "forme": [
+        "libero"
+      ],
+      "formeEsempi": [
+        "libera"
+      ],
+      "esempi": [
+        "Domani sono libero: andiamo al cinema?",
+        "Scusi, questo posto è libero?",
+        "Dopo dieci anni il prigioniero è libero."
+      ],
+      "traduzioni": {
+        "en": "free",
+        "es": "libre",
+        "pt": "livre",
+        "fr": "libre",
+        "cs": "volný, svobodný",
+        "pl": "wolny",
+        "tr": "özgür, serbest",
+        "de": "frei",
+        "ja": "自由な"
+      }
+    },
+    {
+      "parola": "ridere",
+      "forme": [
+        "ride"
+      ],
+      "formeEsempi": [
+        "rido",
+        "ridere"
+      ],
+      "esempi": [
+        "Il bambino ride quando vede il cane.",
+        "Rido sempre ai film di Totò.",
+        "Non ridere, è una cosa seria!"
+      ],
+      "traduzioni": {
+        "en": "to laugh",
+        "es": "reír(se)",
+        "pt": "rir",
+        "fr": "rire",
+        "cs": "smát se",
+        "pl": "śmiać się",
+        "tr": "gülmek",
+        "de": "lachen",
+        "ja": "笑う"
+      }
+    },
+    {
+      "parola": "decidere",
+      "forme": [
+        "decide"
+      ],
+      "formeEsempi": [
+        "decido",
+        "deciso"
+      ],
+      "esempi": [
+        "Non decido mai cosa mangiare.",
+        "Marta decide di cambiare lavoro.",
+        "Abbiamo deciso di partire domani."
+      ],
+      "traduzioni": {
+        "en": "to decide",
+        "es": "decidir",
+        "pt": "decidir",
+        "fr": "décider",
+        "cs": "rozhodnout se",
+        "pl": "zdecydować",
+        "tr": "karar vermek",
+        "de": "beschließen, entscheiden",
+        "ja": "決める"
+      }
+    },
+    {
+      "parola": "il cacciatore",
+      "forme": [
+        "cacciatori"
+      ],
+      "formeEsempi": [
+        "cacciatore"
+      ],
+      "esempi": [
+        "Nelle fiabe il cacciatore vive nel bosco.",
+        "I cacciatori sono partiti all'alba.",
+        "Il cacciatore ha visto le orme del lupo."
+      ],
+      "traduzioni": {
+        "en": "hunter",
+        "es": "cazador",
+        "pt": "caçador",
+        "fr": "chasseur",
+        "cs": "lovec, myslivec",
+        "pl": "myśliwy",
+        "tr": "avcı",
+        "de": "Jäger",
+        "ja": "猟師"
+      }
+    },
+    {
+      "parola": "la rete",
+      "forme": [
+        "rete"
+      ],
+      "esempi": [
+        "Il pescatore getta la rete in mare.",
+        "La palla è finita nella rete.",
+        "Il ragno costruisce una rete sottile."
+      ],
+      "traduzioni": {
+        "en": "net",
+        "es": "red",
+        "pt": "rede",
+        "fr": "filet",
+        "cs": "síť",
+        "pl": "sieć",
+        "tr": "ağ",
+        "de": "Netz",
+        "ja": "網"
+      }
+    },
+    {
+      "parola": "riuscire",
+      "forme": [
+        "riesce"
+      ],
+      "formeEsempi": [
+        "riesco",
+        "riesci"
+      ],
+      "esempi": [
+        "Non riesco ad aprire la porta.",
+        "Mio figlio riesce già a leggere.",
+        "Riesci a venire stasera?"
+      ],
+      "traduzioni": {
+        "en": "to manage, to be able to",
+        "es": "lograr, conseguir",
+        "pt": "conseguir",
+        "fr": "réussir à, arriver à",
+        "cs": "podařit se, dokázat",
+        "pl": "dać radę, zdołać",
+        "tr": "başarmak, -ebilmek",
+        "de": "schaffen, können",
+        "ja": "〜できる"
+      }
+    },
+    {
+      "parola": "ruggire",
+      "forme": [
+        "ruggisce"
+      ],
+      "formeEsempi": [
+        "ruggire"
+      ],
+      "esempi": [
+        "Il leone ruggisce nella savana.",
+        "Allo zoo abbiamo sentito ruggire la tigre.",
+        "Il motore della moto ruggisce."
+      ],
+      "traduzioni": {
+        "en": "to roar",
+        "es": "rugir",
+        "pt": "rugir",
+        "fr": "rugir",
+        "cs": "řvát",
+        "pl": "ryczeć",
+        "tr": "kükremek",
+        "de": "brüllen",
+        "ja": "ほえる"
+      }
+    },
+    {
+      "parola": "forte",
+      "forme": [
+        "forte"
+      ],
+      "esempi": [
+        "Parla forte, non ti sento!",
+        "Mio padre è molto forte.",
+        "Fuori piove forte."
+      ],
+      "traduzioni": {
+        "en": "loudly; strong",
+        "es": "fuerte",
+        "pt": "forte, alto",
+        "fr": "fort",
+        "cs": "nahlas, silně; silný",
+        "pl": "głośno, mocno; silny",
+        "tr": "yüksek sesle; güçlü",
+        "de": "laut; stark",
+        "ja": "大きな声で、強い"
+      }
+    },
+    {
+      "parola": "mordere",
+      "forme": [
+        "morde",
+        "mordere"
+      ],
+      "formeEsempi": [
+        "mordo"
+      ],
+      "esempi": [
+        "Attento, il cane morde!",
+        "Mordo una mela.",
+        "Il bambino ha cominciato a mordere la matita."
+      ],
+      "traduzioni": {
+        "en": "to bite",
+        "es": "morder",
+        "pt": "morder",
+        "fr": "mordre",
+        "cs": "kousat",
+        "pl": "gryźć",
+        "tr": "ısırmak",
+        "de": "beißen",
+        "ja": "かむ"
+      }
+    },
+    {
+      "parola": "la corda",
+      "forme": [
+        "corde"
+      ],
+      "formeEsempi": [
+        "corda"
+      ],
+      "esempi": [
+        "Lego la barca con una corda.",
+        "La chitarra ha sei corde.",
+        "I bambini saltano la corda."
+      ],
+      "traduzioni": {
+        "en": "rope, cord",
+        "es": "cuerda",
+        "pt": "corda",
+        "fr": "corde",
+        "cs": "provaz",
+        "pl": "sznur, lina",
+        "tr": "ip",
+        "de": "Seil, Schnur",
+        "ja": "縄、ロープ"
+      }
+    },
+    {
+      "parola": "il dente",
+      "forme": [
+        "denti"
+      ],
+      "formeEsempi": [
+        "dente"
+      ],
+      "esempi": [
+        "Mi lavo i denti dopo cena.",
+        "Mi fa male un dente.",
+        "Il bambino ha perso il primo dente."
+      ],
+      "traduzioni": {
+        "en": "tooth",
+        "es": "diente",
+        "pt": "dente",
+        "fr": "dent",
+        "cs": "zub",
+        "pl": "ząb",
+        "tr": "diş",
+        "de": "Zahn",
+        "ja": "歯"
+      }
+    },
+    {
+      "parola": "il buco",
+      "forme": [
+        "buco"
+      ],
+      "esempi": [
+        "Ho un buco nella calza.",
+        "Il topo esce da un buco nel muro.",
+        "C'è un buco nella strada."
+      ],
+      "traduzioni": {
+        "en": "hole",
+        "es": "agujero",
+        "pt": "buraco",
+        "fr": "trou",
+        "cs": "díra",
+        "pl": "dziura",
+        "tr": "delik",
+        "de": "Loch",
+        "ja": "穴"
+      }
+    },
+    {
+      "parola": "ringraziare",
+      "forme": [
+        "ringrazia",
+        "ringraziato"
+      ],
+      "formeEsempi": [
+        "ringrazio"
+      ],
+      "esempi": [
+        "Ti ringrazio per il regalo.",
+        "Il cliente ringrazia il cameriere.",
+        "Ho ringraziato tutti per l'aiuto."
+      ],
+      "traduzioni": {
+        "en": "to thank",
+        "es": "dar las gracias, agradecer",
+        "pt": "agradecer",
+        "fr": "remercier",
+        "cs": "poděkovat",
+        "pl": "podziękować",
+        "tr": "teşekkür etmek",
+        "de": "danken, sich bedanken",
+        "ja": "お礼を言う"
+      }
+    },
+    {
+      "parola": "capire",
+      "forme": [
+        "capisce",
+        "capito"
+      ],
+      "formeEsempi": [
+        "capisco"
+      ],
+      "esempi": [
+        "Scusi, non capisco.",
+        "Mia madre capisce l'inglese.",
+        "Hai capito la domanda?"
+      ],
+      "traduzioni": {
+        "en": "to understand, to realize",
+        "es": "entender, comprender",
+        "pt": "entender, perceber",
+        "fr": "comprendre",
+        "cs": "pochopit",
+        "pl": "zrozumieć",
+        "tr": "anlamak",
+        "de": "verstehen, begreifen",
+        "ja": "わかる、気づく"
+      }
+    },
+    {
+      "parola": "l'ombra",
+      "forme": [
+        "ombra"
+      ],
+      "esempi": [
+        "Fa caldo: sediamoci all'ombra.",
+        "Il gatto dorme all'ombra della macchina.",
+        "Il cane cerca un po' d'ombra."
+      ],
+      "traduzioni": {
+        "en": "shade, shadow («all'ombra» = in the shade)",
+        "es": "sombra («all'ombra» = a la sombra)",
+        "pt": "sombra («all'ombra» = na sombra)",
+        "fr": "ombre («all'ombra» = à l’ombre)",
+        "cs": "stín («all'ombra» = ve stínu)",
+        "pl": "cień («all'ombra» = w cieniu)",
+        "tr": "gölge («all'ombra» = gölgede)",
+        "de": "Schatten («all'ombra» = im Schatten)",
+        "ja": "日かげ、かげ"
+      }
+    },
+    {
+      "parola": "per errore",
+      "forme": [
+        "errore"
+      ],
+      "esempi": [
+        "Ho preso il tuo ombrello per errore.",
+        "Scusa, ho chiamato per errore.",
+        "C'è un errore nel conto."
+      ],
+      "traduzioni": {
+        "en": "by mistake («errore» = mistake)",
+        "es": "por error",
+        "pt": "por engano",
+        "fr": "par erreur",
+        "cs": "omylem",
+        "pl": "przez pomyłkę",
+        "tr": "yanlışlıkla",
+        "de": "aus Versehen",
+        "ja": "まちがえて"
+      }
+    },
+    {
+      "parola": "bloccare",
+      "forme": [
+        "bloccato"
+      ],
+      "formeEsempi": [
+        "blocca"
+      ],
+      "esempi": [
+        "La neve ha bloccato la strada.",
+        "Il portiere blocca la palla.",
+        "Sono bloccato nel traffico."
+      ],
+      "traduzioni": {
+        "en": "to pin down, to block",
+        "es": "inmovilizar, bloquear",
+        "pt": "prender, bloquear",
+        "fr": "bloquer, immobiliser",
+        "cs": "zablokovat, přišpendlit",
+        "pl": "zablokować, przytrzymać",
+        "tr": "durdurmak, bastırmak",
+        "de": "festhalten, blockieren",
+        "ja": "押さえつける、ふさぐ"
+      }
+    },
+    {
+      "parola": "chiedere perdono",
+      "forme": [
+        "perdono"
+      ],
+      "esempi": [
+        "Ti chiedo perdono per le mie parole.",
+        "Il bambino chiede perdono alla mamma.",
+        "Ha chiesto perdono, ma lei è ancora arrabbiata."
+      ],
+      "traduzioni": {
+        "en": "to ask for forgiveness",
+        "es": "pedir perdón",
+        "pt": "pedir perdão",
+        "fr": "demander pardon",
+        "cs": "prosit o odpuštění",
+        "pl": "prosić o przebaczenie",
+        "tr": "af dilemek",
+        "de": "um Verzeihung bitten",
+        "ja": "許しを請う、あやまる"
+      }
+    },
+    {
+      "parola": "promettere",
+      "forme": [
+        "promesso"
+      ],
+      "formeEsempi": [
+        "prometto"
+      ],
+      "esempi": [
+        "Ti prometto che arrivo puntuale.",
+        "Mi hai promesso un gelato!",
+        "Ha promesso di chiamare stasera."
+      ],
+      "traduzioni": {
+        "en": "to promise",
+        "es": "prometer",
+        "pt": "prometer",
+        "fr": "promettre",
+        "cs": "slíbit",
+        "pl": "obiecać",
+        "tr": "söz vermek",
+        "de": "versprechen",
+        "ja": "約束する"
+      }
+    },
+    {
+      "parola": "divertente",
+      "forme": [
+        "divertente"
+      ],
+      "esempi": [
+        "Il film è molto divertente.",
+        "Mio zio racconta storie divertenti.",
+        "È divertente imparare una lingua!"
+      ],
+      "traduzioni": {
+        "en": "funny, amusing",
+        "es": "divertido, gracioso",
+        "pt": "divertido, engraçado",
+        "fr": "drôle, amusant",
+        "cs": "legrační, zábavný",
+        "pl": "zabawny",
+        "tr": "komik, eğlenceli",
+        "de": "lustig",
+        "ja": "おもしろい"
+      },
+      "formeEsempi": [
+        "divertenti"
+      ]
+    },
+    {
+      "parola": "avere pietà",
+      "forme": [
+        "pietà"
+      ],
+      "esempi": [
+        "Abbi pietà di me!",
+        "Il re ha avuto pietà del prigioniero.",
+        "Guardava il cane abbandonato con pietà."
+      ],
+      "traduzioni": {
+        "en": "to take pity",
+        "es": "tener piedad, compadecerse",
+        "pt": "ter pena, ter piedade",
+        "fr": "avoir pitié",
+        "cs": "slitovat se",
+        "pl": "zlitować się",
+        "tr": "acımak",
+        "de": "Mitleid haben",
+        "ja": "かわいそうに思う"
+      }
+    },
+    {
+      "parola": "lasciare",
+      "forme": [
+        "lasciato",
+        "lasciarlo",
+        "lasciami"
+      ],
+      "formeEsempi": [
+        "lascia"
+      ],
+      "esempi": [
+        "Lasciami in pace!",
+        "Ho lasciato la bici davanti a scuola.",
+        "Lascia andare il gatto, non vuole stare in braccio."
+      ],
+      "traduzioni": {
+        "en": "to let, to leave («lasciare andare» = to let go)",
+        "es": "dejar («lasciare andare» = soltar)",
+        "pt": "deixar («lasciare andare» = soltar)",
+        "fr": "laisser («lasciare andare» = relâcher)",
+        "cs": "nechat («lasciare andare» = pustit)",
+        "pl": "zostawić, puścić",
+        "tr": "bırakmak",
+        "de": "lassen («lasciare andare» = loslassen)",
+        "ja": "放す、〜させておく"
+      }
+    },
+    {
+      "parola": "liberare",
+      "forme": [
+        "liberarsi",
+        "liberato"
+      ],
+      "formeEsempi": [
+        "libera"
+      ],
+      "esempi": [
+        "Il pompiere ha liberato il gatto.",
+        "Libera la sedia, per favore: devo sedermi.",
+        "Il cane cerca di liberarsi dal guinzaglio."
+      ],
+      "traduzioni": {
+        "en": "to free, to release («liberarsi» = to break free)",
+        "es": "liberar («liberarsi» = soltarse)",
+        "pt": "libertar, soltar («liberarsi» = soltar-se)",
+        "fr": "libérer («liberarsi» = se libérer)",
+        "cs": "osvobodit («liberarsi» = vyprostit se)",
+        "pl": "uwolnić («liberarsi» = uwolnić się)",
+        "tr": "serbest bırakmak («liberarsi» = kurtulmak)",
+        "de": "befreien («liberarsi» = sich befreien)",
+        "ja": "自由にする（«liberarsi» = 抜け出す）"
+      }
+    },
+    {
+      "parola": "stringere",
+      "forme": [
+        "stringevano",
+        "stretti"
+      ],
+      "formeEsempi": [
+        "stringe",
+        "stretto",
+        "stringono"
+      ],
+      "esempi": [
+        "Queste scarpe mi stringono.",
+        "Il bambino stringe la mano della mamma.",
+        "Il nodo è troppo stretto."
+      ],
+      "traduzioni": {
+        "en": "to tighten, to squeeze («stretto» = tight)",
+        "es": "apretar («stretto» = apretado)",
+        "pt": "apertar («stretto» = apertado)",
+        "fr": "serrer («stretto» = serré)",
+        "cs": "utahovat se, svírat («stretto» = utažený)",
+        "pl": "zaciskać się («stretto» = ciasny)",
+        "tr": "sıkmak, sıkılaşmak («stretto» = sıkı)",
+        "de": "enger werden, drücken («stretto» = eng, fest)",
+        "ja": "締まる、締める（«stretto» = きつい）"
+      }
+    },
+    {
+      "parola": "riconoscere",
+      "forme": [
+        "riconosciuto"
+      ],
+      "formeEsempi": [
+        "riconosco"
+      ],
+      "esempi": [
+        "Non ti ho riconosciuto con gli occhiali!",
+        "Riconosco la voce di mia madre al telefono.",
+        "Il cane ha riconosciuto il padrone."
+      ],
+      "traduzioni": {
+        "en": "to recognize",
+        "es": "reconocer",
+        "pt": "reconhecer",
+        "fr": "reconnaître",
+        "cs": "poznat",
+        "pl": "rozpoznać",
+        "tr": "tanımak",
+        "de": "erkennen",
+        "ja": "わかる、気づく（声・顔を）"
+      }
+    },
+    {
+      "parola": "rosicchiare",
+      "forme": [
+        "rosicchiato"
+      ],
+      "formeEsempi": [
+        "rosicchia",
+        "rosicchiare"
+      ],
+      "esempi": [
+        "Il criceto rosicchia una carota.",
+        "Il cane ha rosicchiato le mie scarpe.",
+        "Non rosicchiare le unghie!"
+      ],
+      "traduzioni": {
+        "en": "to gnaw, to nibble",
+        "es": "roer",
+        "pt": "roer",
+        "fr": "ronger",
+        "cs": "hlodat, ohryzat",
+        "pl": "gryźć, ogryzać",
+        "tr": "kemirmek",
+        "de": "nagen, knabbern",
+        "ja": "かじる"
+      }
+    },
+    {
+      "parola": "utile",
+      "forme": [
+        "utile"
+      ],
+      "esempi": [
+        "Questo libro è molto utile.",
+        "Grazie, mi sei stato utile.",
+        "Un ombrello è sempre utile in autunno."
+      ],
+      "traduzioni": {
+        "en": "useful",
+        "es": "útil",
+        "pt": "útil",
+        "fr": "utile",
+        "cs": "užitečný",
+        "pl": "przydatny",
+        "tr": "yararlı, işe yarar",
+        "de": "nützlich",
+        "ja": "役に立つ"
+      }
+    },
+    {
+      "parola": "rispettato",
+      "forme": [
+        "rispettato"
+      ],
+      "formeEsempi": [
+        "rispetto",
+        "rispettata"
+      ],
+      "esempi": [
+        "Il medico del paese è molto rispettato.",
+        "È una professoressa rispettata da tutti.",
+        "Ho molto rispetto per il tuo lavoro."
+      ],
+      "traduzioni": {
+        "en": "respected",
+        "es": "respetado",
+        "pt": "respeitado",
+        "fr": "respecté",
+        "cs": "vážený",
+        "pl": "szanowany",
+        "tr": "saygı duyulan",
+        "de": "geachtet, respektiert",
+        "ja": "尊敬されている"
+      }
+    },
+    {
+      "parola": "addosso",
+      "forme": [
+        "addosso"
+      ],
+      "esempi": [
+        "Una macchina mi è venuta addosso!",
+        "Il cane mi salta addosso quando torno.",
+        "Ha addosso un cappotto rosso."
+      ],
+      "traduzioni": {
+        "en": "on, onto (someone) («correre addosso» = to run into)",
+        "es": "encima, contra («correre addosso» = chocar contra)",
+        "pt": "em cima, contra («correre addosso» = esbarrar em)",
+        "fr": "dessus, contre («correre addosso» = foncer sur)",
+        "cs": "na někoho («correre addosso» = vrazit do)",
+        "pl": "na kogoś («correre addosso» = wpaść na)",
+        "tr": "üstüne («correre addosso» = çarpmak)",
+        "de": "auf jemanden («correre addosso» = anrempeln)",
+        "ja": "〜の上に、ぶつかって"
+      }
+    },
+    {
+      "parola": "afferrare",
+      "forme": [
+        "afferrato"
+      ],
+      "formeEsempi": [
+        "afferra"
+      ],
+      "esempi": [
+        "Il portiere afferra la palla.",
+        "Ho afferrato la borsa e sono uscito.",
+        "Afferra la corda e tira!"
+      ],
+      "traduzioni": {
+        "en": "to grab, to seize",
+        "es": "agarrar",
+        "pt": "agarrar",
+        "fr": "attraper, saisir",
+        "cs": "chytit, popadnout",
+        "pl": "chwycić",
+        "tr": "yakalamak, kapmak",
+        "de": "packen, greifen",
+        "ja": "つかむ"
+      }
+    },
+    {
+      "parola": "tremare",
+      "forme": [
+        "tremando"
+      ],
+      "formeEsempi": [
+        "trema",
+        "tremo"
+      ],
+      "esempi": [
+        "Tremo dal freddo.",
+        "Il cane trema durante il temporale.",
+        "Ha parlato tremando di paura."
+      ],
+      "traduzioni": {
+        "en": "to tremble, to shake",
+        "es": "temblar",
+        "pt": "tremer",
+        "fr": "trembler",
+        "cs": "třást se",
+        "pl": "drżeć",
+        "tr": "titremek",
+        "de": "zittern",
+        "ja": "ふるえる"
+      }
+    },
+    {
+      "parola": "risparmiare",
+      "forme": [
+        "risparmiarlo"
+      ],
+      "formeEsempi": [
+        "risparmia",
+        "risparmio"
+      ],
+      "esempi": [
+        "Ti prego, risparmia il mio gatto!",
+        "Risparmio un po' di soldi ogni mese.",
+        "Il re ha deciso di risparmiarlo."
+      ],
+      "traduzioni": {
+        "en": "to spare (someone's life) (also: to save money)",
+        "es": "perdonar la vida (también: ahorrar)",
+        "pt": "poupar",
+        "fr": "épargner",
+        "cs": "ušetřit",
+        "pl": "oszczędzić",
+        "tr": "bağışlamak (canını) (ayrıca: biriktirmek)",
+        "de": "verschonen (auch: sparen)",
+        "ja": "命を助ける（貯金するの意味も）"
+      }
+    },
+    {
+      "parola": "apprezzare",
+      "forme": [
+        "apprezzato"
+      ],
+      "formeEsempi": [
+        "apprezzo"
+      ],
+      "esempi": [
+        "Apprezzo molto il tuo aiuto.",
+        "Il pubblico ha apprezzato il concerto.",
+        "Ho apprezzato la tua sincerità."
+      ],
+      "traduzioni": {
+        "en": "to appreciate",
+        "es": "apreciar, valorar",
+        "pt": "apreciar, valorizar",
+        "fr": "apprécier",
+        "cs": "ocenit",
+        "pl": "docenić",
+        "tr": "takdir etmek",
+        "de": "schätzen, anerkennen",
+        "ja": "高く評価する、ありがたく思う"
+      }
+    },
+    {
+      "parola": "il coraggio",
+      "forme": [
+        "coraggio"
+      ],
+      "esempi": [
+        "Ci vuole coraggio per dire la verità.",
+        "Coraggio, puoi farcela!",
+        "Non ho il coraggio di saltare."
+      ],
+      "traduzioni": {
+        "en": "courage",
+        "es": "valor, valentía",
+        "pt": "coragem",
+        "fr": "courage",
+        "cs": "odvaha",
+        "pl": "odwaga",
+        "tr": "cesaret",
+        "de": "Mut",
+        "ja": "勇気"
+      }
+    },
+    {
+      "parola": "tendere",
+      "forme": [
+        "teso"
+      ],
+      "formeEsempi": [
+        "tende"
+      ],
+      "esempi": [
+        "Il pescatore ha teso le reti.",
+        "Mi tende la mano per salutarmi.",
+        "Hanno teso una corda tra due alberi."
+      ],
+      "traduzioni": {
+        "en": "to set (a trap), to stretch out",
+        "es": "tender",
+        "pt": "estender, armar",
+        "fr": "tendre",
+        "cs": "nastražit, natáhnout",
+        "pl": "zastawić, rozciągnąć",
+        "tr": "germek, kurmak (tuzak)",
+        "de": "aufspannen, auslegen",
+        "ja": "張る、しかける"
+      }
+    },
+    {
+      "parola": "intrappolato",
+      "forme": [
+        "intrappolato"
+      ],
+      "formeEsempi": [
+        "intrappolata"
+      ],
+      "esempi": [
+        "Un uccellino è rimasto intrappolato in casa.",
+        "Mi sento intrappolato in questo lavoro.",
+        "La mosca è intrappolata nella ragnatela."
+      ],
+      "traduzioni": {
+        "en": "trapped",
+        "es": "atrapado",
+        "pt": "preso, encurralado",
+        "fr": "piégé, pris au piège",
+        "cs": "uvězněný, chycený",
+        "pl": "uwięziony, złapany",
+        "tr": "tuzağa düşmüş, mahsur",
+        "de": "gefangen",
+        "ja": "わなにかかった、閉じこめられた"
+      }
+    },
+    {
+      "parola": "la forza",
+      "forme": [
+        "forza"
+      ],
+      "esempi": [
+        "Non ho la forza di alzarmi.",
+        "Forza, ragazzi, manca poco!",
+        "La forza del vento ha rotto l'albero."
+      ],
+      "traduzioni": {
+        "en": "strength, force («forza!» = come on!)",
+        "es": "fuerza («forza!» = ¡ánimo!)",
+        "pt": "força («forza!» = vamos!)",
+        "fr": "force («forza!» = allez !)",
+        "cs": "síla («forza!» = do toho!)",
+        "pl": "siła («forza!» = dalej!)",
+        "tr": "güç («forza!» = hadi!)",
+        "de": "Kraft («forza!» = los!)",
+        "ja": "力（«forza!» = がんばれ！）"
+      }
+    },
+    {
+      "parola": "il movimento",
+      "forme": [
+        "movimento"
+      ],
+      "esempi": [
+        "Il medico mi consiglia più movimento.",
+        "Ho visto un movimento tra gli alberi.",
+        "Fai un movimento lento con il braccio."
+      ],
+      "traduzioni": {
+        "en": "movement",
+        "es": "movimiento",
+        "pt": "movimento",
+        "fr": "mouvement",
+        "cs": "pohyb",
+        "pl": "ruch",
+        "tr": "hareket",
+        "de": "Bewegung",
+        "ja": "動き"
+      }
+    },
+    {
+      "parola": "il nodo",
+      "forme": [
+        "nodi"
+      ],
+      "formeEsempi": [
+        "nodo"
+      ],
+      "esempi": [
+        "Faccio un nodo alla corda.",
+        "Non riesco a sciogliere questo nodo.",
+        "I marinai conoscono molti nodi."
+      ],
+      "traduzioni": {
+        "en": "knot",
+        "es": "nudo",
+        "pt": "nó",
+        "fr": "nœud",
+        "cs": "uzel",
+        "pl": "węzeł",
+        "tr": "düğüm",
+        "de": "Knoten",
+        "ja": "結び目"
+      }
+    },
+    {
+      "parola": "il richiamo",
+      "forme": [
+        "richiamo"
+      ],
+      "esempi": [
+        "Il cane torna al richiamo del padrone.",
+        "Si sente il richiamo degli uccelli.",
+        "Il richiamo del mare è forte d'estate."
+      ],
+      "traduzioni": {
+        "en": "call, cry",
+        "es": "llamada, grito",
+        "pt": "chamado, grito",
+        "fr": "appel",
+        "cs": "volání, zavolání",
+        "pl": "wołanie",
+        "tr": "çağrı, sesleniş",
+        "de": "Ruf",
+        "ja": "呼び声"
+      }
+    },
+    {
+      "parola": "l'apertura",
+      "forme": [
+        "apertura"
+      ],
+      "esempi": [
+        "Il gatto passa da un'apertura nella rete.",
+        "L'apertura del negozio è alle nove.",
+        "C'è un'apertura nel muro."
+      ],
+      "traduzioni": {
+        "en": "opening, gap",
+        "es": "abertura",
+        "pt": "abertura",
+        "fr": "ouverture",
+        "cs": "otvor",
+        "pl": "otwór",
+        "tr": "açıklık, delik",
+        "de": "Öffnung",
+        "ja": "すき間、開いたところ"
+      }
+    },
+    {
+      "parola": "abbastanza",
+      "forme": [
+        "abbastanza"
+      ],
+      "esempi": [
+        "Ho abbastanza tempo per un caffè.",
+        "Questa scatola non è abbastanza grande.",
+        "Parlo l'italiano abbastanza bene."
+      ],
+      "traduzioni": {
+        "en": "enough; fairly",
+        "es": "bastante, suficiente",
+        "pt": "suficiente, bastante",
+        "fr": "assez",
+        "cs": "dost, dostatečně",
+        "pl": "wystarczająco, dość",
+        "tr": "yeterince, oldukça",
+        "de": "genug, ziemlich",
+        "ja": "十分に、かなり"
+      }
+    },
+    {
+      "parola": "giudicare",
+      "forme": [
+        "giudicato"
+      ],
+      "formeEsempi": [
+        "giudicare",
+        "giudica"
+      ],
+      "esempi": [
+        "Non giudicare un libro dalla copertina.",
+        "Mia nonna non giudica mai nessuno.",
+        "L'ho giudicato male: è una persona gentile."
+      ],
+      "traduzioni": {
+        "en": "to judge",
+        "es": "juzgar",
+        "pt": "julgar",
+        "fr": "juger",
+        "cs": "soudit, posuzovat",
+        "pl": "oceniać, osądzać",
+        "tr": "yargılamak",
+        "de": "beurteilen",
+        "ja": "判断する"
+      }
+    },
+    {
+      "parola": "la grandezza",
+      "forme": [
+        "grandezza"
+      ],
+      "esempi": [
+        "Le due scatole hanno la stessa grandezza.",
+        "Non conta la grandezza, conta il cuore.",
+        "Hai una borsa di questa grandezza?"
+      ],
+      "traduzioni": {
+        "en": "size",
+        "es": "tamaño",
+        "pt": "tamanho",
+        "fr": "taille",
+        "cs": "velikost",
+        "pl": "wielkość",
+        "tr": "büyüklük",
+        "de": "Größe",
+        "ja": "大きさ"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "A big lion is sleeping under a tree. It's a hot day and the woods are quiet. A little mouse runs through the leaves and climbs onto his back.",
+        "The lion wakes up, catches the mouse with his paw and opens his mouth. The mouse is very frightened. He says: “Please, don't eat me. Let me go. One day I can help you.” The lion laughs, but he decides to let him go.",
+        "A few days later some hunters put a net in the woods. The lion walks into the net and can't get out. He roars loudly. The mouse hears the noise and runs to him.",
+        "The mouse bites the ropes with his little teeth. In the end he makes a hole in the net. The lion comes out and is free. He thanks the mouse and understands that even a small animal can do a big thing."
+      ],
+      "a2": [
+        "One day a lion was sleeping in the shade of a tree. A little mouse, as he was running through the grass, climbed onto his body by mistake. The lion woke up and pinned him down with his paw.",
+        "The mouse begged his forgiveness and promised that one day he might be able to help him. The lion found the idea funny, but he took pity on him and let him go.",
+        "A few days later the lion fell into a net that the hunters had set. He tried to break free, but the ropes got tighter and tighter.",
+        "The mouse recognized the lion's voice and ran towards him. He gnawed at the ropes until the net opened. The lion was saved and understood that nobody is too small to be useful."
+      ],
+      "b1": [
+        "In the heart of a forest there lived a strong, respected lion. One afternoon a young mouse ran into him and woke him up.",
+        "The lion grabbed him. Trembling, the mouse begged him to spare his life and promised that one day he might be of use to him. The lion appreciated his courage and set him free.",
+        "Not long afterwards some hunters set a net. The lion got caught in it. His strength was no use, and every movement pulled the knots tighter.",
+        "The mouse heard the cry, came along and started biting the ropes. After a long job he made an opening big enough. The lion got out and thanked his little friend.",
+        "From that day on he never again judged others by their size."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un león grande duerme debajo de un árbol. Es un día caluroso y el bosque está tranquilo. Un ratoncito corre entre las hojas y sube a su espalda.",
+        "El león se despierta, coge al ratón con una pata y abre la boca. El ratón tiene mucho miedo. Dice: «Por favor, no me comas. Déjame libre. Un día puedo ayudarte». El león se ríe, pero decide dejarlo ir.",
+        "Unos días después, unos cazadores ponen una red en el bosque. El león entra en la red y no consigue salir. Ruge fuerte. El ratón oye el ruido y corre hacia él.",
+        "El ratón muerde las cuerdas con sus dientecitos. Al final abre un agujero en la red. El león sale y es libre. Le da las gracias al ratón y entiende que también un animal pequeño puede hacer algo grande."
+      ],
+      "a2": [
+        "Un día un león dormía a la sombra de un árbol. Un ratoncito, mientras corría por la hierba, se le subió encima por error. El león se despertó y lo inmovilizó con una pata.",
+        "El ratón le pidió perdón y le prometió que un día podría ayudarlo. Al león la idea le pareció graciosa, pero tuvo piedad y lo dejó libre.",
+        "Unos días más tarde el león cayó en una red preparada por los cazadores. Intentó soltarse, pero las cuerdas se apretaban cada vez más.",
+        "El ratón reconoció la voz del león y corrió hacia él. Royó las cuerdas hasta que la red se abrió. El león se salvó y comprendió que nadie es demasiado pequeño para ser útil."
+      ],
+      "b1": [
+        "En el corazón de un bosque vivía un león fuerte y respetado. Una tarde, un ratón joven chocó contra él y lo despertó.",
+        "El león lo agarró. El ratón, temblando, le pidió que le perdonara la vida y le prometió que un día podría serle útil. Al león le gustó su valor y lo liberó.",
+        "Poco tiempo después, unos cazadores tendieron una red. El león quedó atrapado en ella. Su fuerza no servía de nada y cada movimiento apretaba más los nudos.",
+        "El ratón oyó la llamada, llegó y empezó a morder las cuerdas. Tras un largo trabajo, hizo una abertura lo bastante grande. El león salió y le dio las gracias a su pequeño amigo.",
+        "Desde aquel día no volvió a juzgar a los demás por su tamaño."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Um leão grande dorme debaixo de uma árvore. É um dia quente e o bosque está tranquilo. Um ratinho corre entre as folhas e sobe nas costas dele.",
+        "O leão acorda, pega o rato com a pata e abre a boca. O rato está com muito medo. Ele diz: «Por favor, não me coma. Me deixe ir. Um dia eu posso te ajudar». O leão ri, mas decide soltá-lo.",
+        "Alguns dias depois, uns caçadores colocam uma rede no bosque. O leão entra na rede e não consegue sair. Ele ruge alto. O rato ouve o barulho e corre até ele.",
+        "O rato morde as cordas com os seus dentinhos. No fim ele abre um buraco na rede. O leão sai e está livre. Agradece ao rato e entende que até um animal pequeno pode fazer uma coisa grande."
+      ],
+      "a2": [
+        "Um dia um leão dormia à sombra de uma árvore. Um ratinho, enquanto corria pela grama, subiu sem querer no corpo dele. O leão acordou e o prendeu com a pata.",
+        "O rato pediu perdão e prometeu que um dia poderia ajudá-lo. O leão achou a ideia engraçada, mas teve pena e o soltou.",
+        "Alguns dias depois, o leão caiu numa rede preparada pelos caçadores. Tentou se soltar, mas as cordas apertavam cada vez mais.",
+        "O rato reconheceu a voz do leão e correu até ele. Roeu as cordas até a rede se abrir. O leão se salvou e entendeu que ninguém é pequeno demais para ser útil."
+      ],
+      "b1": [
+        "No coração de uma floresta vivia um leão forte e respeitado. Uma tarde, um rato jovem esbarrou nele e o acordou.",
+        "O leão o agarrou. O rato, tremendo, pediu que o poupasse e prometeu que um dia poderia ser útil a ele. O leão admirou a coragem do rato e o libertou.",
+        "Pouco tempo depois, alguns caçadores armaram uma rede. O leão ficou preso nela. A sua força não adiantava, e cada movimento deixava os nós mais apertados.",
+        "O rato ouviu o chamado, chegou e começou a roer as cordas. Depois de um longo trabalho, abriu um buraco grande o suficiente. O leão saiu e agradeceu ao seu pequeno amigo.",
+        "A partir daquele dia, nunca mais julgou os outros pelo tamanho."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un grand lion dort sous un arbre. C’est une journée chaude et le bois est calme. Une petite souris court dans les feuilles et monte sur son dos.",
+        "Le lion se réveille, attrape la souris avec sa patte et ouvre la bouche. La souris a très peur. Elle dit : « S’il vous plaît, ne me mangez pas. Laissez-moi partir. Un jour, je peux vous aider. » Le lion rit, mais il décide de la laisser partir.",
+        "Quelques jours plus tard, des chasseurs mettent un filet dans le bois. Le lion entre dans le filet et n’arrive pas à sortir. Il rugit très fort. La souris entend le bruit et court vers lui.",
+        "La souris mord les cordes avec ses petites dents. À la fin, elle fait un trou dans le filet. Le lion sort et il est libre. Il remercie la souris et comprend que même un petit animal peut faire une grande chose."
+      ],
+      "a2": [
+        "Un jour, un lion dormait à l’ombre d’un arbre. Une petite souris, pendant qu’elle courait dans l’herbe, est montée sur lui par erreur. Le lion s’est réveillé et l’a bloquée avec sa patte.",
+        "La souris lui a demandé pardon et lui a promis qu’un jour, elle pourrait l’aider. Le lion a trouvé l’idée amusante, mais il a eu pitié et l’a laissée partir.",
+        "Quelques jours plus tard, le lion est tombé dans un filet préparé par des chasseurs. Il a essayé de se libérer, mais les cordes se serraient de plus en plus.",
+        "La souris a reconnu la voix du lion et elle a couru vers lui. Elle a rongé les cordes jusqu’à ce que le filet s’ouvre. Le lion a été sauvé et il a compris que personne n’est trop petit pour être utile."
+      ],
+      "b1": [
+        "Au cœur d’une forêt vivait un lion fort et respecté. Un après-midi, un jeune rat lui a couru dessus et l’a réveillé.",
+        "Le lion l’a attrapé. Le rat, tout tremblant, l’a supplié de l’épargner et lui a promis qu’un jour, il pourrait lui être utile. Le lion a apprécié son courage et l’a libéré.",
+        "Peu de temps après, des chasseurs ont tendu un filet. Le lion y est resté pris au piège. Sa force ne servait à rien et chaque mouvement serrait davantage les nœuds.",
+        "Le rat a entendu l’appel, il est arrivé et a commencé à ronger les cordes. Après un long travail, il a fait une ouverture assez grande. Le lion est sorti et a remercié son petit ami.",
+        "Depuis ce jour, il n’a plus jamais jugé les autres d’après leur taille."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Pod stromem spí velký lev. Je horký den a v lese je klid. Malá myška běží mezi listím a vyleze mu na záda.",
+        "Lev se probudí, chytí myšku tlapou a otevře tlamu. Myška se moc bojí. Říká: „Prosím, nejez mě. Pusť mě. Jednou ti můžu pomoct.“ Lev se zasměje, ale rozhodne se ji pustit.",
+        "O pár dní později dají lovci do lesa síť. Lev do sítě vleze a nemůže se dostat ven. Hlasitě řve. Myška uslyší ten hluk a běží k němu.",
+        "Myška kouše provazy svými malými zoubky. Nakonec udělá v síti díru. Lev vyleze ven a je volný. Poděkuje myšce a pochopí, že i malé zvíře může udělat velkou věc."
+      ],
+      "a2": [
+        "Jednoho dne spal lev ve stínu stromu. Myška, když běžela trávou, mu omylem vylezla na tělo. Lev se probudil a přišlápl ji tlapou.",
+        "Myška ho prosila o odpuštění a slíbila mu, že mu jednou bude moct pomoct. Lvovi to připadalo legrační, ale slitoval se nad ní a pustil ji.",
+        "O pár dní později se lev chytil do sítě, kterou připravili lovci. Snažil se vyprostit, ale provazy se utahovaly čím dál víc.",
+        "Myška poznala lvův hlas a běžela k němu. Hlodala provazy, dokud se síť neotevřela. Lev se zachránil a pochopil, že nikdo není tak malý, aby nemohl být užitečný."
+      ],
+      "b1": [
+        "Uprostřed lesa žil silný a vážený lev. Jednoho odpoledne do něj vrazila mladá myš a probudila ho.",
+        "Lev ji popadl. Myš se třásla, prosila ho, aby ji ušetřil, a slíbila, že mu jednou může být užitečná. Lev ocenil její odvahu a pustil ji.",
+        "Krátce nato lovci nastražili síť. Lev se do ní chytil. Jeho síla mu nebyla k ničemu a každý pohyb uzly ještě víc utahoval.",
+        "Myš uslyšela jeho volání, přiběhla a začala kousat provazy. Po dlouhé práci udělala dost velký otvor. Lev vylezl ven a poděkoval svému malému příteli.",
+        "Od toho dne už nikdy nesoudil druhé podle jejich velikosti."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Pod drzewem śpi duży lew. Jest gorący dzień i w lesie jest cicho. Mała myszka biega wśród liści i wchodzi mu na plecy.",
+        "Lew się budzi, łapie myszkę łapą i otwiera paszczę. Myszka bardzo się boi. Mówi: „Proszę, nie jedz mnie. Puść mnie. Kiedyś mogę ci pomóc”. Lew się śmieje, ale postanawia ją puścić.",
+        "Kilka dni później myśliwi rozkładają w lesie sieć. Lew wchodzi w sieć i nie może się wydostać. Głośno ryczy. Myszka słyszy hałas i biegnie do niego.",
+        "Myszka gryzie sznury swoimi małymi ząbkami. W końcu robi dziurę w sieci. Lew wychodzi i jest wolny. Dziękuje myszce i rozumie, że nawet małe zwierzę może zrobić wielką rzecz."
+      ],
+      "a2": [
+        "Pewnego dnia lew spał w cieniu drzewa. Myszka, biegnąc przez trawę, przez pomyłkę weszła na niego. Lew się obudził i przytrzymał ją łapą.",
+        "Myszka poprosiła go o przebaczenie i obiecała, że kiedyś może mu pomóc. Lwa rozbawił ten pomysł, ale zlitował się i ją puścił.",
+        "Kilka dni później lew wpadł w sieć zastawioną przez myśliwych. Próbował się uwolnić, ale sznury zaciskały się coraz mocniej.",
+        "Myszka rozpoznała głos lwa i pobiegła do niego. Gryzła sznury, aż sieć się otworzyła. Lew się uratował i zrozumiał, że nikt nie jest za mały, żeby się przydać."
+      ],
+      "b1": [
+        "W sercu lasu żył silny i szanowany lew. Pewnego popołudnia młoda mysz wpadła na niego i go obudziła.",
+        "Lew ją chwycił. Mysz, drżąc, poprosiła, żeby ją oszczędził, i obiecała, że kiedyś może mu się przydać. Lew docenił jej odwagę i ją uwolnił.",
+        "Niedługo potem myśliwi zastawili sieć. Lew został w niej uwięziony. Jego siła na nic się nie zdała, a każdy ruch jeszcze mocniej zaciskał węzły.",
+        "Mysz usłyszała wołanie, przybiegła i zaczęła gryźć sznury. Po długiej pracy zrobiła wystarczająco duży otwór. Lew wydostał się i podziękował swojej małej przyjaciółce.",
+        "Od tego dnia już nigdy nie oceniał innych po ich wielkości."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Büyük bir aslan bir ağacın altında uyuyor. Sıcak bir gün ve orman sakin. Küçük bir fare yaprakların arasında koşuyor ve aslanın sırtına çıkıyor.",
+        "Aslan uyanıyor, fareyi patisiyle yakalıyor ve ağzını açıyor. Fare çok korkuyor. «Lütfen beni yeme. Bırak beni. Bir gün sana yardım edebilirim» diyor. Aslan gülüyor ama onu bırakmaya karar veriyor.",
+        "Birkaç gün sonra birkaç avcı ormana bir ağ kuruyor. Aslan ağa giriyor ve çıkamıyor. Yüksek sesle kükrüyor. Fare sesi duyuyor ve ona koşuyor.",
+        "Fare küçük dişleriyle ipleri ısırıyor. Sonunda ağda bir delik açıyor. Aslan çıkıyor ve özgür kalıyor. Fareye teşekkür ediyor ve küçük bir hayvanın da büyük bir iş yapabileceğini anlıyor."
+      ],
+      "a2": [
+        "Bir gün bir aslan bir ağacın gölgesinde uyuyordu. Küçük bir fare çimenlerin arasında koşarken yanlışlıkla onun üstüne çıktı. Aslan uyandı ve onu patisiyle bastırdı.",
+        "Fare ondan af diledi ve bir gün ona yardım edebileceğine söz verdi. Aslan bu fikri komik buldu ama ona acıdı ve serbest bıraktı.",
+        "Birkaç gün sonra aslan, avcıların hazırladığı bir ağa düştü. Kurtulmaya çalıştı ama ipler gittikçe sıkılaşıyordu.",
+        "Fare aslanın sesini tanıdı ve ona doğru koştu. Ağ açılana kadar ipleri kemirdi. Aslan kurtuldu ve hiç kimsenin işe yaramayacak kadar küçük olmadığını anladı."
+      ],
+      "b1": [
+        "Bir ormanın kalbinde güçlü ve saygı duyulan bir aslan yaşardı. Bir öğleden sonra genç bir fare ona çarptı ve onu uyandırdı.",
+        "Aslan onu yakaladı. Fare titreyerek canını bağışlamasını rica etti ve bir gün onun işine yarayabileceğine söz verdi. Aslan onun cesaretini takdir etti ve onu serbest bıraktı.",
+        "Kısa bir süre sonra birkaç avcı bir ağ kurdu. Aslan ağa yakalandı. Gücü işe yaramıyordu ve her hareketi düğümleri daha da sıkıştırıyordu.",
+        "Fare çağrıyı duydu, geldi ve ipleri ısırmaya başladı. Uzun bir uğraştan sonra yeterince büyük bir delik açtı. Aslan dışarı çıktı ve küçük dostuna teşekkür etti.",
+        "O günden sonra başkalarını bir daha asla büyüklüklerine göre yargılamadı."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Ein großer Löwe schläft unter einem Baum. Es ist ein heißer Tag und im Wald ist es ruhig. Eine kleine Maus läuft durch die Blätter und klettert auf seinen Rücken.",
+        "Der Löwe wacht auf, fängt die Maus mit seiner Pfote und öffnet das Maul. Die Maus hat große Angst. Sie sagt: „Bitte friss mich nicht. Lass mich frei. Eines Tages kann ich dir helfen.“ Der Löwe lacht, aber er beschließt, sie gehen zu lassen.",
+        "Ein paar Tage später legen Jäger ein Netz im Wald aus. Der Löwe läuft in das Netz und kommt nicht mehr heraus. Er brüllt laut. Die Maus hört den Lärm und läuft zu ihm.",
+        "Die Maus beißt mit ihren kleinen Zähnen in die Seile. Am Ende macht sie ein Loch in das Netz. Der Löwe kommt heraus und ist frei. Er dankt der Maus und versteht, dass auch ein kleines Tier etwas Großes tun kann."
+      ],
+      "a2": [
+        "Eines Tages schlief ein Löwe im Schatten eines Baumes. Ein Mäuschen, das durchs Gras lief, kletterte aus Versehen auf seinen Körper. Der Löwe wachte auf und hielt es mit der Pfote fest.",
+        "Die Maus bat ihn um Verzeihung und versprach, dass sie ihm eines Tages helfen könnte. Der Löwe fand die Idee lustig, aber er hatte Mitleid und ließ sie frei.",
+        "Ein paar Tage später fiel der Löwe in ein Netz, das die Jäger vorbereitet hatten. Er versuchte, sich zu befreien, aber die Seile zogen sich immer fester zusammen.",
+        "Die Maus erkannte die Stimme des Löwen und lief zu ihm. Sie nagte an den Seilen, bis sich das Netz öffnete. Der Löwe war gerettet und verstand, dass niemand zu klein ist, um nützlich zu sein."
+      ],
+      "b1": [
+        "Mitten in einem Wald lebte ein starker und geachteter Löwe. Eines Nachmittags lief ihm eine junge Maus über den Körper und weckte ihn.",
+        "Der Löwe packte sie. Die Maus bat ihn zitternd, sie zu verschonen, und versprach, dass sie ihm eines Tages nützlich sein könnte. Der Löwe schätzte ihren Mut und ließ sie frei.",
+        "Kurze Zeit später spannten Jäger ein Netz auf. Der Löwe verfing sich darin. Seine Kraft nützte nichts, und jede Bewegung zog die Knoten noch fester.",
+        "Die Maus hörte sein Brüllen, kam herbei und begann, die Seile durchzubeißen. Nach langer Arbeit hatte sie eine Öffnung gemacht, die groß genug war. Der Löwe kam heraus und dankte seiner kleinen Freundin.",
+        "Von diesem Tag an beurteilte er andere nie wieder nach ihrer Größe."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "大きなライオンが木の下で寝ています。暑い日で、森は静かです。小さなねずみが葉っぱのあいだを走って、ライオンの背中に上ります。",
+        "ライオンは目を覚まし、前足でねずみをつかまえて、口を開けます。ねずみはとてもこわがっています。「お願いです、ぼくを食べないでください。放してください。いつか、あなたを助けられます」と言います。ライオンは笑いますが、放してやることにします。",
+        "何日かあと、猟師たちが森に網をしかけます。ライオンは網に入ってしまい、出られません。大きな声でほえます。ねずみはその声を聞いて、ライオンのところへ走って行きます。",
+        "ねずみは小さな歯で縄をかじります。とうとう網に穴をあけます。ライオンは外に出て、自由になります。ねずみにお礼を言い、小さな動物でも大きなことができるとわかります。"
+      ],
+      "a2": [
+        "ある日、ライオンが木かげで寝ていました。小さなねずみが草の中を走っているうちに、まちがえてライオンの体の上に乗ってしまいました。ライオンは目を覚まし、前足でねずみを押さえつけました。",
+        "ねずみは許してくださいとたのみ、いつかきっと助けてあげられると約束しました。ライオンはその考えをおもしろいと思いましたが、かわいそうになって、放してやりました。",
+        "何日かあと、ライオンは猟師たちがしかけた網にかかってしまいました。抜け出そうとしましたが、縄はどんどんきつくなりました。",
+        "ねずみはライオンの声に気づいて、そちらへ走って行きました。網が開くまで縄をかじりました。ライオンは助かり、役に立てないほど小さい者はいないとわかりました。"
+      ],
+      "b1": [
+        "森の奥に、強くて、みんなに尊敬されているライオンが住んでいました。ある午後、若いねずみがライオンにぶつかって、起こしてしまいました。",
+        "ライオンはねずみをつかみました。ねずみはふるえながら、命を助けてほしいとたのみ、いつか役に立てるかもしれないと約束しました。ライオンはその勇気に感心して、放してやりました。",
+        "まもなく、猟師たちが網を張りました。ライオンはその網にかかってしまいました。力はまったく役に立たず、動くたびに結び目はきつくなりました。",
+        "ねずみはその呼び声を聞いてやって来て、縄をかじり始めました。長い時間をかけて、十分な大きさの穴をあけました。ライオンは外に出て、小さな友だちにお礼を言いました。",
+        "その日から、ライオンは二度と、ほかの者を大きさで判断しませんでした。"
+      ]
+    }
+  }
+}
