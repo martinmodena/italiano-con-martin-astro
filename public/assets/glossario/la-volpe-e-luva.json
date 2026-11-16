@@ -1,0 +1,1450 @@
+{
+  "id": "la-volpe-e-luva",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la volpe",
+      "forme": [
+        "volpe"
+      ],
+      "esempi": [
+        "La volpe ha la coda lunga e rossa.",
+        "Di notte la volpe cerca da mangiare.",
+        "Sei furbo come una volpe!"
+      ],
+      "traduzioni": {
+        "en": "fox",
+        "es": "zorra, zorro",
+        "pt": "raposa",
+        "fr": "renard",
+        "cs": "liška",
+        "pl": "lis, lisica",
+        "tr": "tilki",
+        "de": "Fuchs",
+        "ja": "きつね"
+      }
+    },
+    {
+      "parola": "l'uva",
+      "forme": [
+        "uva"
+      ],
+      "esempi": [
+        "A settembre si raccoglie l'uva.",
+        "Mi piace l'uva bianca.",
+        "Con l'uva si fa il vino."
+      ],
+      "traduzioni": {
+        "en": "grapes («sour grapes» comes from this fable)",
+        "es": "uvas («están verdes», de esta fábula)",
+        "pt": "uvas («estão verdes», desta fábula)",
+        "fr": "raisin («ils sont trop verts», La Fontaine)",
+        "cs": "hrozny, víno («kyselé hrozny»)",
+        "pl": "winogrona («kwaśne winogrona»)",
+        "tr": "üzüm",
+        "de": "Trauben («saure Trauben»)",
+        "ja": "ぶどう（「すっぱいぶどう」はこの話から）"
+      }
+    },
+    {
+      "parola": "la sete",
+      "forme": [
+        "sete"
+      ],
+      "esempi": [
+        "Ho sete: mi dai un bicchiere d'acqua?",
+        "Dopo la corsa ho molta sete.",
+        "Il cane ha sete, gli do da bere."
+      ],
+      "traduzioni": {
+        "en": "thirst («avere sete» = to be thirsty)",
+        "es": "sed («avere sete» = tener sed)",
+        "pt": "sede («avere sete» = estar com sede)",
+        "fr": "soif («avere sete» = avoir soif)",
+        "cs": "žízeň («avere sete» = mít žízeň)",
+        "pl": "pragnienie («avere sete» = chcieć pić)",
+        "tr": "susuzluk («avere sete» = susamak)",
+        "de": "Durst («avere sete» = Durst haben)",
+        "ja": "のどのかわき（«avere sete» = のどがかわく）"
+      }
+    },
+    {
+      "parola": "niente",
+      "forme": [
+        "niente"
+      ],
+      "esempi": [
+        "Non ho mangiato niente oggi.",
+        "Grazie! — Di niente!",
+        "Nel frigo non c'è niente."
+      ],
+      "traduzioni": {
+        "en": "nothing, anything",
+        "es": "nada",
+        "pt": "nada",
+        "fr": "rien",
+        "cs": "nic",
+        "pl": "nic",
+        "tr": "hiçbir şey",
+        "de": "nichts",
+        "ja": "何も（〜ない）"
+      }
+    },
+    {
+      "parola": "la vite",
+      "forme": [
+        "vite"
+      ],
+      "esempi": [
+        "Sul muro della casa cresce una vite.",
+        "La vite produce l'uva.",
+        "Il nonno pota la vite in inverno."
+      ],
+      "traduzioni": {
+        "en": "vine, grapevine",
+        "es": "vid, parra",
+        "pt": "videira, parreira",
+        "fr": "vigne",
+        "cs": "vinná réva",
+        "pl": "winorośl",
+        "tr": "asma",
+        "de": "Weinrebe",
+        "ja": "ぶどうの木"
+      }
+    },
+    {
+      "parola": "il grappolo",
+      "forme": [
+        "grappolo"
+      ],
+      "formeEsempi": [
+        "grappoli"
+      ],
+      "esempi": [
+        "Ho mangiato un grappolo d'uva.",
+        "Sulla vite ci sono tanti grappoli.",
+        "Questo grappolo è dolcissimo."
+      ],
+      "traduzioni": {
+        "en": "bunch (of grapes)",
+        "es": "racimo",
+        "pt": "cacho",
+        "fr": "grappe",
+        "cs": "hrozen",
+        "pl": "kiść",
+        "tr": "salkım",
+        "de": "Traube",
+        "ja": "（ぶどうの）房"
+      }
+    },
+    {
+      "parola": "maturo",
+      "forme": [
+        "matura",
+        "maturo"
+      ],
+      "formeEsempi": [
+        "mature"
+      ],
+      "esempi": [
+        "La banana è matura: è gialla.",
+        "Queste pesche non sono ancora mature.",
+        "Mio figlio è molto maturo per la sua età."
+      ],
+      "traduzioni": {
+        "en": "ripe",
+        "es": "maduro",
+        "pt": "maduro",
+        "fr": "mûr",
+        "cs": "zralý",
+        "pl": "dojrzały",
+        "tr": "olgun",
+        "de": "reif",
+        "ja": "熟した"
+      }
+    },
+    {
+      "parola": "alto",
+      "forme": [
+        "alto"
+      ],
+      "formeEsempi": [
+        "alta"
+      ],
+      "esempi": [
+        "Il barattolo è troppo alto per me.",
+        "Mio fratello è più alto di me.",
+        "La torre è molto alta."
+      ],
+      "traduzioni": {
+        "en": "high, tall",
+        "es": "alto",
+        "pt": "alto",
+        "fr": "haut",
+        "cs": "vysoko, vysoký",
+        "pl": "wysoko, wysoki",
+        "tr": "yüksek",
+        "de": "hoch",
+        "ja": "高い"
+      }
+    },
+    {
+      "parola": "saltare",
+      "forme": [
+        "salta",
+        "saltare",
+        "saltato"
+      ],
+      "formeEsempi": [
+        "salto"
+      ],
+      "esempi": [
+        "Il gatto salta sul divano.",
+        "I bambini amano saltare nelle pozzanghere.",
+        "Ho saltato il pranzo: avevo troppo lavoro."
+      ],
+      "traduzioni": {
+        "en": "to jump",
+        "es": "saltar",
+        "pt": "pular, saltar",
+        "fr": "sauter",
+        "cs": "skákat, skočit",
+        "pl": "skakać, skoczyć",
+        "tr": "zıplamak, atlamak",
+        "de": "springen",
+        "ja": "跳ぶ"
+      }
+    },
+    {
+      "parola": "arrivare",
+      "forme": [
+        "arriva",
+        "arrivata"
+      ],
+      "formeEsempi": [
+        "arrivo"
+      ],
+      "esempi": [
+        "Il bambino non arriva al lavandino.",
+        "Arrivo tra cinque minuti!",
+        "La lettera è arrivata ieri."
+      ],
+      "traduzioni": {
+        "en": "to reach, to arrive",
+        "es": "llegar, alcanzar",
+        "pt": "alcançar, chegar",
+        "fr": "atteindre, arriver",
+        "cs": "dosáhnout, dorazit",
+        "pl": "dosięgnąć, dotrzeć",
+        "tr": "yetişmek, ulaşmak",
+        "de": "hinkommen, ankommen",
+        "ja": "届く、着く"
+      }
+    },
+    {
+      "parola": "il passo",
+      "forme": [
+        "passi"
+      ],
+      "formeEsempi": [
+        "passo"
+      ],
+      "esempi": [
+        "Fai due passi indietro, per favore.",
+        "Il bambino ha fatto i primi passi.",
+        "La stazione è a due passi da qui."
+      ],
+      "traduzioni": {
+        "en": "step",
+        "es": "paso",
+        "pt": "passo",
+        "fr": "pas",
+        "cs": "krok",
+        "pl": "krok",
+        "tr": "adım",
+        "de": "Schritt",
+        "ja": "歩、一歩"
+      }
+    },
+    {
+      "parola": "indietro",
+      "forme": [
+        "indietro"
+      ],
+      "esempi": [
+        "Torna indietro, hai dimenticato la borsa!",
+        "Fai un passo indietro.",
+        "L'orologio è indietro di cinque minuti."
+      ],
+      "traduzioni": {
+        "en": "back, backwards",
+        "es": "atrás",
+        "pt": "para trás",
+        "fr": "en arrière",
+        "cs": "dozadu, zpět",
+        "pl": "do tyłu",
+        "tr": "geri",
+        "de": "zurück",
+        "ja": "後ろへ"
+      }
+    },
+    {
+      "parola": "provare",
+      "forme": [
+        "prova",
+        "provato"
+      ],
+      "formeEsempi": [
+        "provo"
+      ],
+      "esempi": [
+        "Provo a chiamarlo di nuovo.",
+        "Prova questa torta!",
+        "Ho provato a capire, ma è difficile."
+      ],
+      "traduzioni": {
+        "en": "to try",
+        "es": "intentar, probar",
+        "pt": "tentar, provar",
+        "fr": "essayer",
+        "cs": "zkusit",
+        "pl": "spróbować",
+        "tr": "denemek",
+        "de": "versuchen",
+        "ja": "やってみる"
+      }
+    },
+    {
+      "parola": "smettere",
+      "forme": [
+        "smette"
+      ],
+      "formeEsempi": [
+        "smetto",
+        "smettila"
+      ],
+      "esempi": [
+        "Smetto di lavorare alle sei.",
+        "Mio padre smette di fumare: lo promette ogni anno!",
+        "Smettila di gridare!"
+      ],
+      "traduzioni": {
+        "en": "to stop (doing)",
+        "es": "dejar de",
+        "pt": "parar de",
+        "fr": "arrêter de",
+        "cs": "přestat",
+        "pl": "przestać",
+        "tr": "bırakmak, vazgeçmek",
+        "de": "aufhören",
+        "ja": "やめる"
+      }
+    },
+    {
+      "parola": "acerbo",
+      "forme": [
+        "acerba"
+      ],
+      "formeEsempi": [
+        "acerbo",
+        "acerbe"
+      ],
+      "esempi": [
+        "Non mangiare quella pera: è acerba.",
+        "Il melone è ancora acerbo.",
+        "Le albicocche acerbe sono dure."
+      ],
+      "traduzioni": {
+        "en": "unripe, sour",
+        "es": "verde, no maduro",
+        "pt": "verde, não maduro",
+        "fr": "vert, pas mûr",
+        "cs": "nezralý, kyselý",
+        "pl": "niedojrzały, kwaśny",
+        "tr": "ham",
+        "de": "unreif, sauer",
+        "ja": "熟していない、すっぱい"
+      }
+    },
+    {
+      "parola": "in realtà",
+      "forme": [
+        "realtà"
+      ],
+      "esempi": [
+        "Sembra facile, ma in realtà è difficile.",
+        "Dice di stare bene, ma in realtà è stanco.",
+        "In realtà non ho fame."
+      ],
+      "traduzioni": {
+        "en": "actually, in reality",
+        "es": "en realidad",
+        "pt": "na verdade",
+        "fr": "en réalité",
+        "cs": "ve skutečnosti",
+        "pl": "w rzeczywistości",
+        "tr": "aslında",
+        "de": "in Wirklichkeit, eigentlich",
+        "ja": "実は"
+      }
+    },
+    {
+      "parola": "desiderare",
+      "forme": [
+        "desidera",
+        "desiderava"
+      ],
+      "formeEsempi": [
+        "desidero",
+        "desideravo"
+      ],
+      "esempi": [
+        "Desidero visitare il Giappone.",
+        "Desidera un caffè, signora?",
+        "Da bambino desideravo un cane."
+      ],
+      "traduzioni": {
+        "en": "to want, to wish for",
+        "es": "desear",
+        "pt": "desejar",
+        "fr": "désirer",
+        "cs": "toužit, přát si",
+        "pl": "pragnąć",
+        "tr": "arzu etmek, istemek",
+        "de": "sich wünschen",
+        "ja": "ほしがる、望む"
+      }
+    },
+    {
+      "parola": "ammettere",
+      "forme": [
+        "ammettere"
+      ],
+      "formeEsempi": [
+        "ammetto"
+      ],
+      "esempi": [
+        "Ammetto che ho sbagliato.",
+        "Non vuole ammettere di avere paura.",
+        "Devi ammettere che è un bel film."
+      ],
+      "traduzioni": {
+        "en": "to admit",
+        "es": "admitir, reconocer",
+        "pt": "admitir",
+        "fr": "admettre, avouer",
+        "cs": "přiznat",
+        "pl": "przyznać",
+        "tr": "kabul etmek, itiraf etmek",
+        "de": "zugeben",
+        "ja": "認める"
+      }
+    },
+    {
+      "parola": "riuscire",
+      "forme": [
+        "riesce"
+      ],
+      "formeEsempi": [
+        "riesco"
+      ],
+      "esempi": [
+        "Non riesco a dormire.",
+        "Mia figlia riesce a nuotare da sola.",
+        "Riesco ad arrivare alle otto."
+      ],
+      "traduzioni": {
+        "en": "to manage, to be able to",
+        "es": "conseguir, lograr",
+        "pt": "conseguir",
+        "fr": "réussir à, arriver à",
+        "cs": "dokázat, podařit se",
+        "pl": "dać radę, zdołać",
+        "tr": "-ebilmek, başarmak",
+        "de": "schaffen",
+        "ja": "〜できる"
+      }
+    },
+    {
+      "parola": "affamato",
+      "forme": [
+        "affamata"
+      ],
+      "formeEsempi": [
+        "affamato"
+      ],
+      "esempi": [
+        "Torno dal lavoro affamato.",
+        "La gatta affamata miagola in cucina.",
+        "Il cane affamato aspetta la cena."
+      ],
+      "traduzioni": {
+        "en": "hungry, starving",
+        "es": "hambriento",
+        "pt": "faminto",
+        "fr": "affamé",
+        "cs": "hladový",
+        "pl": "głodny",
+        "tr": "aç",
+        "de": "hungrig",
+        "ja": "おなかをすかせた"
+      }
+    },
+    {
+      "parola": "a un certo punto",
+      "forme": [
+        "punto"
+      ],
+      "esempi": [
+        "A un certo punto è andata via la luce.",
+        "Camminavamo e a un certo punto ha cominciato a piovere.",
+        "A un certo punto devi decidere."
+      ],
+      "traduzioni": {
+        "en": "at some point, all of a sudden",
+        "es": "en un momento dado",
+        "pt": "a certa altura, de repente",
+        "fr": "à un moment donné",
+        "cs": "v jednu chvíli",
+        "pl": "w pewnym momencie",
+        "tr": "bir ara, bir noktada",
+        "de": "irgendwann, plötzlich",
+        "ja": "ある時、ふと"
+      }
+    },
+    {
+      "parola": "il vigneto",
+      "forme": [
+        "vigneto"
+      ],
+      "formeEsempi": [
+        "vigneti"
+      ],
+      "esempi": [
+        "In Piemonte ci sono tanti vigneti.",
+        "Mio zio lavora in un vigneto.",
+        "Il vigneto è sulla collina."
+      ],
+      "traduzioni": {
+        "en": "vineyard",
+        "es": "viñedo",
+        "pt": "vinhedo, vinha",
+        "fr": "vignoble",
+        "cs": "vinice",
+        "pl": "winnica",
+        "tr": "bağ",
+        "de": "Weinberg",
+        "ja": "ぶどう畑"
+      }
+    },
+    {
+      "parola": "raggiungere",
+      "forme": [
+        "raggiungerlo",
+        "raggiunto"
+      ],
+      "formeEsempi": [
+        "raggiungo"
+      ],
+      "esempi": [
+        "Vi raggiungo al bar tra dieci minuti.",
+        "Ho raggiunto il mio obiettivo.",
+        "Il libro è sullo scaffale alto: non riesco a raggiungerlo."
+      ],
+      "traduzioni": {
+        "en": "to reach",
+        "es": "alcanzar, llegar a",
+        "pt": "alcançar, chegar a",
+        "fr": "atteindre, rejoindre",
+        "cs": "dosáhnout, dorazit",
+        "pl": "dosięgnąć, dotrzeć",
+        "tr": "ulaşmak",
+        "de": "erreichen",
+        "ja": "届く、たどり着く"
+      }
+    },
+    {
+      "parola": "fermo",
+      "forme": [
+        "ferma"
+      ],
+      "formeEsempi": [
+        "fermo"
+      ],
+      "esempi": [
+        "Sta' fermo, ti faccio una foto!",
+        "Il treno è fermo in stazione.",
+        "La bambina è rimasta ferma davanti alla vetrina."
+      ],
+      "traduzioni": {
+        "en": "still, standing («da fermo» = from a standstill)",
+        "es": "quieto, parado",
+        "pt": "parado",
+        "fr": "immobile, arrêté («da fermo» = sans élan)",
+        "cs": "z místa, nehybný",
+        "pl": "z miejsca, nieruchomy",
+        "tr": "durduğu yerden, hareketsiz",
+        "de": "still, aus dem Stand",
+        "ja": "止まった、その場で"
+      }
+    },
+    {
+      "parola": "la rincorsa",
+      "forme": [
+        "rincorsa"
+      ],
+      "esempi": [
+        "Prendi la rincorsa e salta!",
+        "Il bambino ha preso la rincorsa per saltare il fosso.",
+        "Senza rincorsa non arrivo."
+      ],
+      "traduzioni": {
+        "en": "run-up («prendere la rincorsa» = to take a run-up)",
+        "es": "carrerilla («prendere la rincorsa» = coger carrerilla)",
+        "pt": "impulso, corrida («prendere la rincorsa» = pegar impulso)",
+        "fr": "élan («prendere la rincorsa» = prendre de l’élan)",
+        "cs": "rozběh («prendere la rincorsa» = rozběhnout se)",
+        "pl": "rozbieg («prendere la rincorsa» = wziąć rozbieg)",
+        "tr": "hız alma («prendere la rincorsa» = koşarak hız almak)",
+        "de": "Anlauf («prendere la rincorsa» = Anlauf nehmen)",
+        "ja": "助走（«prendere la rincorsa» = 助走をつける）"
+      }
+    },
+    {
+      "parola": "numeroso",
+      "forme": [
+        "numerosi"
+      ],
+      "formeEsempi": [
+        "numerosa",
+        "numerose"
+      ],
+      "esempi": [
+        "Abbiamo una famiglia numerosa.",
+        "Ho fatto numerosi viaggi in Italia.",
+        "Gli studenti sono numerosi quest'anno."
+      ],
+      "traduzioni": {
+        "en": "many, numerous",
+        "es": "numeroso",
+        "pt": "numeroso",
+        "fr": "nombreux",
+        "cs": "četný, mnoho",
+        "pl": "liczny",
+        "tr": "çok sayıda",
+        "de": "zahlreich",
+        "ja": "数多くの"
+      }
+    },
+    {
+      "parola": "il tentativo",
+      "forme": [
+        "tentativi",
+        "tentativo"
+      ],
+      "esempi": [
+        "Ho superato l'esame al secondo tentativo.",
+        "Dopo tanti tentativi ha trovato lavoro.",
+        "Facciamo un ultimo tentativo."
+      ],
+      "traduzioni": {
+        "en": "attempt, try",
+        "es": "intento",
+        "pt": "tentativa",
+        "fr": "tentative, essai",
+        "cs": "pokus",
+        "pl": "próba",
+        "tr": "deneme",
+        "de": "Versuch",
+        "ja": "試み"
+      }
+    },
+    {
+      "parola": "arrabbiato",
+      "forme": [
+        "arrabbiata"
+      ],
+      "formeEsempi": [
+        "arrabbiato"
+      ],
+      "esempi": [
+        "Perché sei arrabbiato con me?",
+        "La mamma è arrabbiata: ho rotto un piatto.",
+        "Il cliente arrabbiato vuole parlare con il direttore."
+      ],
+      "traduzioni": {
+        "en": "angry",
+        "es": "enfadado",
+        "pt": "bravo, irritado",
+        "fr": "fâché, en colère",
+        "cs": "naštvaný",
+        "pl": "zły",
+        "tr": "kızgın",
+        "de": "wütend, sauer",
+        "ja": "怒った"
+      }
+    },
+    {
+      "parola": "allontanarsi",
+      "forme": [
+        "allontanarsi",
+        "allontanata"
+      ],
+      "formeEsempi": [
+        "allontano",
+        "allontanarti"
+      ],
+      "esempi": [
+        "Non allontanarti dalla mamma!",
+        "Mi allontano un attimo per telefonare.",
+        "La barca si è allontanata dalla riva."
+      ],
+      "traduzioni": {
+        "en": "to move away, to walk off",
+        "es": "alejarse",
+        "pt": "afastar-se",
+        "fr": "s’éloigner",
+        "cs": "vzdálit se, odejít",
+        "pl": "oddalić się",
+        "tr": "uzaklaşmak",
+        "de": "sich entfernen, weggehen",
+        "ja": "離れる、立ち去る"
+      }
+    },
+    {
+      "parola": "valere la pena",
+      "forme": [
+        "pena"
+      ],
+      "esempi": [
+        "Vale la pena visitare Matera.",
+        "Non vale la pena arrabbiarsi.",
+        "È stato faticoso, ma ne è valsa la pena."
+      ],
+      "traduzioni": {
+        "en": "to be worth it",
+        "es": "valer la pena",
+        "pt": "valer a pena",
+        "fr": "valoir la peine",
+        "cs": "stát za to",
+        "pl": "być wartym zachodu",
+        "tr": "değmek",
+        "de": "sich lohnen",
+        "ja": "〜する価値がある"
+      }
+    },
+    {
+      "parola": "trasformare",
+      "forme": [
+        "trasformato",
+        "trasformata"
+      ],
+      "formeEsempi": [
+        "trasforma"
+      ],
+      "esempi": [
+        "Hanno trasformato la vecchia fabbrica in un museo.",
+        "Il bruco si trasforma in farfalla.",
+        "La sua paura si è trasformata in coraggio."
+      ],
+      "traduzioni": {
+        "en": "to turn into, to transform",
+        "es": "transformar, convertir",
+        "pt": "transformar",
+        "fr": "transformer",
+        "cs": "proměnit",
+        "pl": "przemienić, zamienić",
+        "tr": "dönüştürmek",
+        "de": "verwandeln",
+        "ja": "変える、変わる"
+      }
+    },
+    {
+      "parola": "la delusione",
+      "forme": [
+        "delusione"
+      ],
+      "esempi": [
+        "Il film è stato una delusione.",
+        "Che delusione: il negozio è chiuso!",
+        "Non riesce a nascondere la delusione."
+      ],
+      "traduzioni": {
+        "en": "disappointment",
+        "es": "decepción, desilusión",
+        "pt": "decepção",
+        "fr": "déception",
+        "cs": "zklamání",
+        "pl": "rozczarowanie",
+        "tr": "hayal kırıklığı",
+        "de": "Enttäuschung",
+        "ja": "失望、がっかり"
+      }
+    },
+    {
+      "parola": "il disprezzo",
+      "forme": [
+        "disprezzo"
+      ],
+      "esempi": [
+        "Lo guarda con disprezzo.",
+        "Non parlare con disprezzo degli altri.",
+        "Nella sua voce c'era disprezzo."
+      ],
+      "traduzioni": {
+        "en": "contempt, scorn",
+        "es": "desprecio",
+        "pt": "desprezo",
+        "fr": "mépris",
+        "cs": "pohrdání",
+        "pl": "pogarda",
+        "tr": "küçümseme",
+        "de": "Verachtung",
+        "ja": "軽べつ"
+      }
+    },
+    {
+      "parola": "ottenere",
+      "forme": [
+        "ottenuto"
+      ],
+      "formeEsempi": [
+        "ottiene",
+        "ottenere"
+      ],
+      "esempi": [
+        "Ho ottenuto il visto per il Canada.",
+        "Con l'impegno si ottiene tutto.",
+        "È difficile ottenere un appuntamento."
+      ],
+      "traduzioni": {
+        "en": "to get, to obtain",
+        "es": "conseguir, obtener",
+        "pt": "conseguir, obter",
+        "fr": "obtenir",
+        "cs": "získat",
+        "pl": "uzyskać, dostać",
+        "tr": "elde etmek",
+        "de": "bekommen, erreichen",
+        "ja": "手に入れる"
+      }
+    },
+    {
+      "parola": "convincersi",
+      "forme": [
+        "convincersi"
+      ],
+      "formeEsempi": [
+        "convinto",
+        "convinta"
+      ],
+      "esempi": [
+        "Sono convinto che hai ragione.",
+        "Cerca di convincersi che va tutto bene.",
+        "Alla fine si è convinta e ha accettato."
+      ],
+      "traduzioni": {
+        "en": "to convince oneself",
+        "es": "convencerse",
+        "pt": "convencer-se",
+        "fr": "se convaincre",
+        "cs": "přesvědčit sám sebe",
+        "pl": "przekonać samego siebie",
+        "tr": "kendini ikna etmek",
+        "de": "sich einreden",
+        "ja": "自分に言い聞かせる"
+      }
+    },
+    {
+      "parola": "pendere",
+      "forme": [
+        "pendeva"
+      ],
+      "formeEsempi": [
+        "pende"
+      ],
+      "esempi": [
+        "Dal soffitto pende una lampada.",
+        "La torre di Pisa pende da una parte.",
+        "Dall'albero pendeva una mela rossa."
+      ],
+      "traduzioni": {
+        "en": "to hang",
+        "es": "colgar, pender",
+        "pt": "pender, estar pendurado",
+        "fr": "pendre",
+        "cs": "viset",
+        "pl": "zwisać",
+        "tr": "sarkmak",
+        "de": "hängen",
+        "ja": "ぶら下がる"
+      }
+    },
+    {
+      "parola": "il ramo",
+      "forme": [
+        "ramo"
+      ],
+      "formeEsempi": [
+        "rami"
+      ],
+      "esempi": [
+        "Un uccello canta su un ramo.",
+        "Il vento ha rotto un ramo.",
+        "I rami dell'albero sono pieni di fiori."
+      ],
+      "traduzioni": {
+        "en": "branch",
+        "es": "rama",
+        "pt": "galho, ramo",
+        "fr": "branche",
+        "cs": "větev",
+        "pl": "gałąź",
+        "tr": "dal",
+        "de": "Ast, Zweig",
+        "ja": "枝"
+      }
+    },
+    {
+      "parola": "la posizione",
+      "forme": [
+        "posizione"
+      ],
+      "esempi": [
+        "Cambio posizione: così sto più comodo.",
+        "Mandami la tua posizione sul telefono.",
+        "La casa ha una bella posizione."
+      ],
+      "traduzioni": {
+        "en": "position",
+        "es": "posición",
+        "pt": "posição",
+        "fr": "position",
+        "cs": "poloha, pozice",
+        "pl": "pozycja",
+        "tr": "konum, pozisyon",
+        "de": "Position, Stellung",
+        "ja": "位置"
+      }
+    },
+    {
+      "parola": "fallire",
+      "forme": [
+        "fallito"
+      ],
+      "formeEsempi": [
+        "fallisce"
+      ],
+      "esempi": [
+        "Il progetto è fallito.",
+        "Il primo tentativo è fallito, ma riprovo.",
+        "Se l'azienda fallisce, perdo il lavoro."
+      ],
+      "traduzioni": {
+        "en": "to fail",
+        "es": "fracasar, fallar",
+        "pt": "falhar, fracassar",
+        "fr": "échouer",
+        "cs": "selhat, nevyjít",
+        "pl": "nie udać się",
+        "tr": "başarısız olmak",
+        "de": "scheitern",
+        "ja": "失敗する"
+      }
+    },
+    {
+      "parola": "l'irritazione",
+      "forme": [
+        "irritazione"
+      ],
+      "esempi": [
+        "Ha risposto con irritazione.",
+        "Il traffico mi provoca irritazione.",
+        "Si vedeva l'irritazione sul suo viso."
+      ],
+      "traduzioni": {
+        "en": "irritation, annoyance",
+        "es": "irritación, enfado",
+        "pt": "irritação",
+        "fr": "irritation, agacement",
+        "cs": "podráždění, rozladění",
+        "pl": "irytacja",
+        "tr": "sinir, rahatsızlık",
+        "de": "Ärger, Gereiztheit",
+        "ja": "いらだち"
+      }
+    },
+    {
+      "parola": "l'orgoglio",
+      "forme": [
+        "orgoglio"
+      ],
+      "esempi": [
+        "Mio figlio è il mio orgoglio.",
+        "Per orgoglio non chiede mai aiuto.",
+        "Parla del suo paese con orgoglio."
+      ],
+      "traduzioni": {
+        "en": "pride",
+        "es": "orgullo",
+        "pt": "orgulho",
+        "fr": "orgueil, fierté",
+        "cs": "pýcha, hrdost",
+        "pl": "duma",
+        "tr": "gurur",
+        "de": "Stolz",
+        "ja": "プライド、誇り"
+      }
+    },
+    {
+      "parola": "permettere",
+      "forme": [
+        "permetteva"
+      ],
+      "formeEsempi": [
+        "permette",
+        "permesso"
+      ],
+      "esempi": [
+        "Mi permette di entrare?",
+        "Il tempo non permette di uscire in barca.",
+        "Da piccolo mio padre non mi permetteva di uscire la sera."
+      ],
+      "traduzioni": {
+        "en": "to allow, to let",
+        "es": "permitir",
+        "pt": "permitir",
+        "fr": "permettre",
+        "cs": "dovolit",
+        "pl": "pozwolić",
+        "tr": "izin vermek",
+        "de": "erlauben",
+        "ja": "許す、〜させる"
+      }
+    },
+    {
+      "parola": "accettare",
+      "forme": [
+        "accettare"
+      ],
+      "formeEsempi": [
+        "accetto"
+      ],
+      "esempi": [
+        "Accetto volentieri il tuo invito.",
+        "È difficile accettare una sconfitta.",
+        "Il negozio non vuole accettare la carta di credito."
+      ],
+      "traduzioni": {
+        "en": "to accept",
+        "es": "aceptar",
+        "pt": "aceitar",
+        "fr": "accepter",
+        "cs": "přijmout",
+        "pl": "zaakceptować, przyjąć",
+        "tr": "kabul etmek",
+        "de": "akzeptieren, annehmen",
+        "ja": "受け入れる"
+      }
+    },
+    {
+      "parola": "il fallimento",
+      "forme": [
+        "fallimento"
+      ],
+      "esempi": [
+        "Il fallimento fa parte della vita.",
+        "Il negozio è chiuso per fallimento.",
+        "Non ho paura del fallimento."
+      ],
+      "traduzioni": {
+        "en": "failure",
+        "es": "fracaso",
+        "pt": "fracasso",
+        "fr": "échec",
+        "cs": "neúspěch",
+        "pl": "porażka",
+        "tr": "başarısızlık",
+        "de": "Misserfolg, Scheitern",
+        "ja": "失敗"
+      }
+    },
+    {
+      "parola": "proteggere",
+      "forme": [
+        "proteggere"
+      ],
+      "formeEsempi": [
+        "protegge"
+      ],
+      "esempi": [
+        "La crema protegge la pelle dal sole.",
+        "I genitori vogliono proteggere i figli.",
+        "Il casco protegge la testa."
+      ],
+      "traduzioni": {
+        "en": "to protect",
+        "es": "proteger",
+        "pt": "proteger",
+        "fr": "protéger",
+        "cs": "chránit",
+        "pl": "chronić",
+        "tr": "korumak",
+        "de": "schützen",
+        "ja": "守る"
+      }
+    },
+    {
+      "parola": "svalutare",
+      "forme": [
+        "svalutare"
+      ],
+      "formeEsempi": [
+        "svaluta"
+      ],
+      "esempi": [
+        "Non svalutare il tuo lavoro: è ottimo!",
+        "Chi perde spesso svaluta la gara.",
+        "È facile svalutare ciò che non si ha."
+      ],
+      "traduzioni": {
+        "en": "to belittle, to devalue",
+        "es": "menospreciar, quitar valor",
+        "pt": "desvalorizar",
+        "fr": "dévaloriser",
+        "cs": "znevážit, zlehčit",
+        "pl": "deprecjonować, umniejszać",
+        "tr": "değersizleştirmek, küçümsemek",
+        "de": "abwerten",
+        "ja": "価値を下げる、けなす"
+      }
+    },
+    {
+      "parola": "l'obiettivo",
+      "forme": [
+        "obiettivo"
+      ],
+      "esempi": [
+        "Il mio obiettivo è parlare bene l'italiano.",
+        "Hai raggiunto il tuo obiettivo?",
+        "Ci vuole tempo per arrivare all'obiettivo."
+      ],
+      "traduzioni": {
+        "en": "goal, target",
+        "es": "objetivo, meta",
+        "pt": "objetivo, meta",
+        "fr": "objectif, but",
+        "cs": "cíl",
+        "pl": "cel",
+        "tr": "hedef",
+        "de": "Ziel",
+        "ja": "目標"
+      }
+    },
+    {
+      "parola": "probabilmente",
+      "forme": [
+        "probabilmente"
+      ],
+      "esempi": [
+        "Domani probabilmente piove.",
+        "Probabilmente arrivo tardi.",
+        "È probabilmente il miglior ristorante della città."
+      ],
+      "traduzioni": {
+        "en": "probably",
+        "es": "probablemente",
+        "pt": "provavelmente",
+        "fr": "probablement",
+        "cs": "pravděpodobně",
+        "pl": "prawdopodobnie",
+        "tr": "muhtemelen",
+        "de": "wahrscheinlich",
+        "ja": "たぶん"
+      }
+    },
+    {
+      "parola": "il comportamento",
+      "forme": [
+        "comportamento"
+      ],
+      "esempi": [
+        "Il suo comportamento è strano oggi.",
+        "La maestra parla del comportamento dei bambini.",
+        "Gli scienziati studiano il comportamento degli animali."
+      ],
+      "traduzioni": {
+        "en": "behaviour",
+        "es": "comportamiento",
+        "pt": "comportamento",
+        "fr": "comportement",
+        "cs": "chování",
+        "pl": "zachowanie",
+        "tr": "davranış",
+        "de": "Verhalten",
+        "ja": "ふるまい、行動"
+      }
+    },
+    {
+      "parola": "fuori portata",
+      "forme": [
+        "portata"
+      ],
+      "esempi": [
+        "Tieni le medicine fuori dalla portata dei bambini.",
+        "Una casa a Venezia è fuori dalla mia portata.",
+        "Il telefono è a portata di mano."
+      ],
+      "traduzioni": {
+        "en": "out of reach («a portata di mano» = within reach)",
+        "es": "fuera del alcance",
+        "pt": "fora do alcance",
+        "fr": "hors de portée",
+        "cs": "mimo dosah",
+        "pl": "poza zasięgiem",
+        "tr": "erişilemez, ulaşılamaz",
+        "de": "außer Reichweite",
+        "ja": "手の届かない"
+      }
+    },
+    {
+      "parola": "ridurre",
+      "forme": [
+        "ridurne"
+      ],
+      "formeEsempi": [
+        "riduco",
+        "ridurre"
+      ],
+      "esempi": [
+        "Riduco lo zucchero nel caffè.",
+        "Dobbiamo ridurre le spese.",
+        "Il prezzo è alto: puoi ridurne un po'?"
+      ],
+      "traduzioni": {
+        "en": "to reduce, to lessen",
+        "es": "reducir",
+        "pt": "reduzir",
+        "fr": "réduire",
+        "cs": "snížit",
+        "pl": "zmniejszyć",
+        "tr": "azaltmak",
+        "de": "verringern",
+        "ja": "減らす、下げる"
+      }
+    },
+    {
+      "parola": "il valore",
+      "forme": [
+        "valore"
+      ],
+      "esempi": [
+        "Questo anello ha un grande valore per me.",
+        "Il valore della casa è aumentato.",
+        "L'amicizia è un valore importante."
+      ],
+      "traduzioni": {
+        "en": "value, worth",
+        "es": "valor",
+        "pt": "valor",
+        "fr": "valeur",
+        "cs": "hodnota",
+        "pl": "wartość",
+        "tr": "değer",
+        "de": "Wert",
+        "ja": "価値"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "It's a hot day. A fox is walking in the countryside and she's very thirsty. She looks for water and food, but she doesn't find anything.",
+        "Near a house she sees a vine. On the vine there's a big bunch of grapes. The grapes are beautiful and ripe. The fox thinks: “How tasty! I want to eat them.”",
+        "The bunch is very high. The fox jumps once, but she can't reach. She takes a few steps back, runs and jumps again. She tries many times. She's tired and she's still hungry.",
+        "In the end she stops jumping. She looks at the grapes and says: “I don't want them. They're sour.” Then she walks away. In reality she still wants the grapes, but she won't admit that she can't get them."
+      ],
+      "a2": [
+        "A hungry fox was walking in the sun. At some point she saw a vineyard and, among the leaves, a big, ripe bunch of grapes.",
+        "She tried to reach it at once. First she jumped from a standstill, then she took a run-up. Each time she got very close, but not close enough. After many attempts, she was tired and angry.",
+        "Before walking off she looked at the bunch and said: “Those grapes are still sour. They're not worth eating.”",
+        "So she turned her disappointment into contempt. She didn't get what she wanted, and she tried to convince herself that it didn't matter."
+      ],
+      "b1": [
+        "One summer afternoon a tired, hungry fox reached a vineyard. Through a small opening she saw a bunch of grapes hanging from a high branch.",
+        "She studied the distance, changed position and took a run-up. Every attempt, however, failed by just a few centimetres.",
+        "As time went by, her hunger turned into irritation. Her pride wouldn't let her accept failure.",
+        "To protect the image she had of herself, she decided to belittle the goal. She walked away saying that the grapes were sour and probably bad anyway.",
+        "The story describes a common kind of behaviour: when something stays out of our reach, we may play down its value instead of admitting our disappointment."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Es un día caluroso. Una zorra camina por el campo y tiene mucha sed. Busca agua y comida, pero no encuentra nada.",
+        "Cerca de una casa ve una parra. En la parra hay un racimo de uvas grande. Las uvas son bonitas y están maduras. La zorra piensa: «¡Qué ricas! Quiero comérmelas».",
+        "El racimo está muy alto. La zorra salta una vez, pero no llega. Da unos pasos atrás, corre y salta otra vez. Lo intenta muchas veces. Está cansada y todavía tiene hambre.",
+        "Al final deja de saltar. Mira las uvas y dice: «No las quiero. Están verdes». Luego se va. En realidad todavía desea las uvas, pero no quiere admitir que no consigue cogerlas."
+      ],
+      "a2": [
+        "Una zorra hambrienta caminaba bajo el sol. En un momento dado vio un viñedo y, entre las hojas, un racimo de uvas grande y maduro.",
+        "Intentó alcanzarlo enseguida. Primero saltó sin moverse, luego cogió carrerilla. Cada vez llegaba muy cerca, pero no lo suficiente. Después de muchos intentos, estaba cansada y enfadada.",
+        "Antes de alejarse, miró el racimo y dijo: «Esas uvas todavía están verdes. No vale la pena comerlas».",
+        "Así transformó la decepción en desprecio. No consiguió lo que deseaba e intentó convencerse de que no era importante."
+      ],
+      "b1": [
+        "Una tarde de verano, una zorra cansada y hambrienta llegó a un viñedo. A través de una pequeña abertura vio un racimo de uvas que colgaba de una rama alta.",
+        "Estudió la distancia, cambió de posición y cogió carrerilla. Sin embargo, cada intento fracasó por pocos centímetros.",
+        "Con el paso del tiempo, el hambre se convirtió en irritación. Su orgullo no le permitía aceptar el fracaso.",
+        "Para proteger la imagen que tenía de sí misma, decidió quitarle valor a su objetivo. Se alejó diciendo que las uvas estaban verdes y que probablemente eran malas.",
+        "La historia describe un comportamiento común: cuando algo queda fuera de nuestro alcance, podemos restarle valor en lugar de reconocer la decepción."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "É um dia quente. Uma raposa anda pelo campo e está com muita sede. Procura água e comida, mas não encontra nada.",
+        "Perto de uma casa ela vê uma parreira. Na parreira tem um cacho de uvas grande. As uvas são bonitas e maduras. A raposa pensa: «Que delícia! Quero comer».",
+        "O cacho está muito alto. A raposa pula uma vez, mas não alcança. Dá alguns passos para trás, corre e pula de novo. Tenta muitas vezes. Está cansada e ainda com fome.",
+        "No fim ela para de pular. Olha para as uvas e diz: «Não quero. Estão verdes». Depois vai embora. Na verdade ela ainda quer as uvas, mas não quer admitir que não consegue pegá-las."
+      ],
+      "a2": [
+        "Uma raposa faminta andava debaixo do sol. A certa altura viu um vinhedo e, entre as folhas, um cacho de uvas grande e maduro.",
+        "Tentou alcançá-lo na hora. Primeiro pulou parada, depois pegou impulso. Cada vez chegava bem perto, mas não o suficiente. Depois de muitas tentativas, estava cansada e irritada.",
+        "Antes de se afastar, olhou para o cacho e disse: «Essas uvas ainda estão verdes. Não vale a pena comê-las».",
+        "Assim transformou a decepção em desprezo. Não conseguiu o que desejava e tentou se convencer de que não era importante."
+      ],
+      "b1": [
+        "Numa tarde de verão, uma raposa cansada e faminta chegou a um vinhedo. Por uma pequena abertura viu um cacho de uvas pendurado num galho alto.",
+        "Estudou a distância, mudou de posição e pegou impulso. Mas cada tentativa falhou por poucos centímetros.",
+        "Com o passar do tempo, a fome virou irritação. O orgulho não deixava que ela aceitasse o fracasso.",
+        "Para proteger a imagem que tinha de si mesma, decidiu desvalorizar o objetivo. Afastou-se dizendo que as uvas estavam verdes e que provavelmente eram ruins.",
+        "A história descreve um comportamento comum: quando uma coisa fica fora do nosso alcance, podemos diminuir o valor dela em vez de reconhecer a decepção."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "C’est une journée chaude. Un renard marche dans la campagne et il a très soif. Il cherche de l’eau et de la nourriture, mais il ne trouve rien.",
+        "Près d’une maison, il voit une vigne. Sur la vigne, il y a une grande grappe de raisin. Le raisin est beau et mûr. Le renard pense : « Qu’il a l’air bon ! Je veux le manger. »",
+        "La grappe est très haute. Le renard saute une fois, mais il n’y arrive pas. Il fait quelques pas en arrière, court et saute encore. Il essaie beaucoup de fois. Il est fatigué et il a encore faim.",
+        "À la fin, il arrête de sauter. Il regarde le raisin et dit : « Je n’en veux pas. Il est trop vert. » Puis il s’en va. En réalité, il désire encore le raisin, mais il ne veut pas admettre qu’il n’arrive pas à l’attraper."
+      ],
+      "a2": [
+        "Un renard affamé marchait sous le soleil. À un moment donné, il a vu un vignoble et, entre les feuilles, une grappe de raisin grosse et mûre.",
+        "Il a tout de suite essayé de l’atteindre. D’abord, il a sauté sans élan, puis il a pris de l’élan. Chaque fois, il est arrivé tout près, mais pas assez. Après de nombreux essais, il était fatigué et en colère.",
+        "Avant de s’éloigner, il a regardé la grappe et a dit : « Ce raisin est encore trop vert. Ça ne vaut pas la peine de le manger. »",
+        "Ainsi, il a transformé sa déception en mépris. Il n’a pas obtenu ce qu’il désirait et il a essayé de se convaincre que ce n’était pas important."
+      ],
+      "b1": [
+        "Par un après-midi d’été, un renard fatigué et affamé est arrivé dans un vignoble. Par une petite ouverture, il a vu une grappe de raisin qui pendait d’une branche haute.",
+        "Il a étudié la distance, a changé de position et a pris de l’élan. Mais chaque tentative a échoué à quelques centimètres près.",
+        "Avec le temps, la faim s’est transformée en irritation. Son orgueil ne lui permettait pas d’accepter l’échec.",
+        "Pour protéger l’image qu’il avait de lui-même, il a décidé de dévaloriser son objectif. Il s’est éloigné en disant que le raisin était vert et sans doute mauvais.",
+        "L’histoire décrit un comportement courant : quand une chose reste hors de notre portée, nous pouvons en diminuer la valeur au lieu de reconnaître notre déception."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Je horký den. Liška jde krajinou a má velkou žízeň. Hledá vodu a jídlo, ale nic nenajde.",
+        "U jednoho domu uvidí vinnou révu. Na révě visí velký hrozen. Hrozny jsou krásné a zralé. Liška si myslí: „Ty jsou ale dobré! Chci je sníst.“",
+        "Hrozen je moc vysoko. Liška jednou skočí, ale nedosáhne. Udělá pár kroků dozadu, rozběhne se a skočí znovu. Zkouší to mnohokrát. Je unavená a pořád má hlad.",
+        "Nakonec přestane skákat. Podívá se na hrozny a řekne: „Nechci je. Jsou kyselé.“ Pak odejde. Ve skutečnosti ty hrozny pořád chce, ale nechce přiznat, že na ně nedosáhne."
+      ],
+      "a2": [
+        "Hladová liška šla na slunci. V jednu chvíli uviděla vinici a mezi listy velký zralý hrozen.",
+        "Hned se ho snažila dosáhnout. Nejdřív skočila z místa, pak se rozběhla. Pokaždé byla velmi blízko, ale ne dost. Po mnoha pokusech byla unavená a naštvaná.",
+        "Než odešla, podívala se na hrozen a řekla: „Ty hrozny jsou ještě nezralé. Nestojí za to je jíst.“",
+        "Tak proměnila zklamání v pohrdání. Nezískala, co chtěla, a snažila se sama sebe přesvědčit, že to není důležité."
+      ],
+      "b1": [
+        "Jednoho letního odpoledne dorazila unavená a hladová liška k vinici. Malým otvorem uviděla hrozen, který visel z vysoké větve.",
+        "Odhadla vzdálenost, změnila polohu a rozběhla se. Každý pokus ale nevyšel o pár centimetrů.",
+        "Jak čas plynul, hlad se změnil v rozladění. Pýcha jí nedovolila přijmout neúspěch.",
+        "Aby ochránila svou představu o sobě, rozhodla se svůj cíl zlehčit. Odešla s tím, že hrozny jsou nezralé a nejspíš i špatné.",
+        "Příběh popisuje běžné chování: když je něco mimo náš dosah, můžeme snížit jeho hodnotu, místo abychom přiznali zklamání."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jest gorący dzień. Lisica idzie przez pola i bardzo chce jej się pić. Szuka wody i jedzenia, ale nic nie znajduje.",
+        "Przy jednym domu widzi winorośl. Na winorośli wisi duża kiść winogron. Winogrona są piękne i dojrzałe. Lisica myśli: „Jakie pyszne! Chcę je zjeść”.",
+        "Kiść jest bardzo wysoko. Lisica skacze raz, ale nie sięga. Robi kilka kroków do tyłu, biegnie i skacze znowu. Próbuje wiele razy. Jest zmęczona i dalej jest głodna.",
+        "W końcu przestaje skakać. Patrzy na winogrona i mówi: „Nie chcę ich. Są kwaśne”. Potem odchodzi. W rzeczywistości dalej chce winogron, ale nie chce przyznać, że nie może ich dosięgnąć."
+      ],
+      "a2": [
+        "Głodna lisica szła w słońcu. W pewnym momencie zobaczyła winnicę, a wśród liści dużą, dojrzałą kiść winogron.",
+        "Od razu spróbowała jej dosięgnąć. Najpierw skoczyła z miejsca, potem wzięła rozbieg. Za każdym razem była bardzo blisko, ale nie dość blisko. Po wielu próbach była zmęczona i zła.",
+        "Zanim odeszła, spojrzała na kiść i powiedziała: „Te winogrona są jeszcze niedojrzałe. Nie warto ich jeść”.",
+        "Tak zamieniła rozczarowanie w pogardę. Nie dostała tego, czego pragnęła, i próbowała sama siebie przekonać, że to nieważne."
+      ],
+      "b1": [
+        "Pewnego letniego popołudnia zmęczona i głodna lisica dotarła do winnicy. Przez mały otwór zobaczyła kiść winogron zwisającą z wysokiej gałęzi.",
+        "Oceniła odległość, zmieniła pozycję i wzięła rozbieg. Każda próba jednak nie udała się o kilka centymetrów.",
+        "Z upływem czasu głód zamienił się w irytację. Duma nie pozwalała jej pogodzić się z porażką.",
+        "Żeby ochronić obraz samej siebie, postanowiła umniejszyć swój cel. Odeszła, mówiąc, że winogrona są kwaśne i pewnie niedobre.",
+        "Historia opisuje częste zachowanie: kiedy coś pozostaje poza naszym zasięgiem, możemy umniejszać jego wartość, zamiast przyznać się do rozczarowania."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Sıcak bir gün. Bir tilki kırlarda yürüyor ve çok susamış. Su ve yiyecek arıyor ama hiçbir şey bulamıyor.",
+        "Bir evin yakınında bir asma görüyor. Asmada büyük bir üzüm salkımı var. Üzümler güzel ve olgun. Tilki düşünüyor: «Ne lezzetli! Onları yemek istiyorum.»",
+        "Salkım çok yüksekte. Tilki bir kez zıplıyor ama yetişemiyor. Birkaç adım geri gidiyor, koşuyor ve yine zıplıyor. Birçok kez deniyor. Yorgun ve hâlâ aç.",
+        "Sonunda zıplamayı bırakıyor. Üzümlere bakıyor ve «İstemiyorum onları. Hamlar» diyor. Sonra gidiyor. Aslında üzümleri hâlâ istiyor ama onlara ulaşamadığını kabul etmek istemiyor."
+      ],
+      "a2": [
+        "Aç bir tilki güneşin altında yürüyordu. Bir ara bir bağ gördü ve yaprakların arasında büyük, olgun bir üzüm salkımı fark etti.",
+        "Hemen ona ulaşmaya çalıştı. Önce durduğu yerden zıpladı, sonra koşarak hız aldı. Her seferinde çok yaklaştı ama yeterince değil. Birçok denemeden sonra yorgun ve kızgındı.",
+        "Uzaklaşmadan önce salkıma baktı ve şöyle dedi: «O üzümler daha ham. Yemeye değmez.»",
+        "Böylece hayal kırıklığını küçümsemeye dönüştürdü. İstediğini elde edemedi ve bunun önemli olmadığına kendini inandırmaya çalıştı."
+      ],
+      "b1": [
+        "Bir yaz öğleden sonrası, yorgun ve aç bir tilki bir bağa ulaştı. Küçük bir açıklıktan, yüksek bir daldan sarkan bir üzüm salkımı gördü.",
+        "Mesafeyi inceledi, yerini değiştirdi ve koşarak hız aldı. Ama her denemesi birkaç santimle başarısız oldu.",
+        "Zaman geçtikçe açlığı sinire dönüştü. Gururu, başarısızlığı kabul etmesine izin vermiyordu.",
+        "Kendisi hakkındaki düşüncesini korumak için hedefini küçümsemeye karar verdi. Üzümlerin ham ve muhtemelen kötü olduğunu söyleyerek uzaklaştı.",
+        "Hikâye yaygın bir davranışı anlatır: bir şey ulaşamayacağımız yerde kaldığında, hayal kırıklığımızı kabul etmek yerine onun değerini küçültebiliriz."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Es ist ein heißer Tag. Ein Fuchs geht über das Land und hat großen Durst. Er sucht Wasser und Essen, aber er findet nichts.",
+        "In der Nähe eines Hauses sieht er eine Weinrebe. An der Rebe hängt eine große Traube. Die Trauben sind schön und reif. Der Fuchs denkt: „Wie lecker! Die will ich essen.“",
+        "Die Traube hängt sehr hoch. Der Fuchs springt einmal, aber er kommt nicht hin. Er geht ein paar Schritte zurück, läuft und springt noch einmal. Er versucht es viele Male. Er ist müde und hat immer noch Hunger.",
+        "Am Ende hört er auf zu springen. Er sieht die Trauben an und sagt: „Ich will sie nicht. Sie sind sauer.“ Dann geht er weg. In Wirklichkeit will er die Trauben immer noch, aber er will nicht zugeben, dass er sie nicht erreicht."
+      ],
+      "a2": [
+        "Ein hungriger Fuchs ging in der Sonne spazieren. Plötzlich sah er einen Weinberg und zwischen den Blättern eine große, reife Traube.",
+        "Er versuchte sofort, sie zu erreichen. Zuerst sprang er aus dem Stand, dann nahm er Anlauf. Jedes Mal kam er ganz nah heran, aber nicht nah genug. Nach vielen Versuchen war er müde und wütend.",
+        "Bevor er wegging, sah er die Traube an und sagte: „Diese Trauben sind noch sauer. Es lohnt sich nicht, sie zu essen.“",
+        "So verwandelte er seine Enttäuschung in Verachtung. Er bekam nicht, was er sich wünschte, und versuchte sich einzureden, dass es nicht wichtig sei."
+      ],
+      "b1": [
+        "An einem Sommernachmittag erreichte ein müder und hungriger Fuchs einen Weinberg. Durch eine kleine Öffnung sah er eine Traube, die von einem hohen Ast hing.",
+        "Er schätzte die Entfernung ab, änderte seine Position und nahm Anlauf. Doch jeder Versuch scheiterte um wenige Zentimeter.",
+        "Mit der Zeit verwandelte sich der Hunger in Ärger. Sein Stolz erlaubte ihm nicht, den Misserfolg zu akzeptieren.",
+        "Um das Bild zu schützen, das er von sich hatte, beschloss er, das Ziel abzuwerten. Er ging weg und sagte, die Trauben seien sauer und wahrscheinlich sowieso schlecht.",
+        "Die Geschichte beschreibt ein häufiges Verhalten: Wenn etwas außer Reichweite bleibt, setzen wir oft seinen Wert herab, statt die Enttäuschung zuzugeben."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "暑い日です。きつねがいなかを歩いていて、とてものどがかわいています。水と食べものをさがしますが、何も見つかりません。",
+        "ある家の近くで、ぶどうの木を見つけます。木には大きなぶどうの房がなっています。ぶどうはきれいで、よく熟しています。きつねは「おいしそう！　食べたいな」と思います。",
+        "房はとても高いところにあります。きつねは一回跳びますが、届きません。何歩か後ろに下がり、走って、また跳びます。何回もやってみます。疲れて、まだおなかがすいています。",
+        "とうとう、きつねは跳ぶのをやめます。ぶどうを見て「いらないよ。すっぱいんだ」と言います。そして行ってしまいます。本当はまだぶどうがほしいのですが、取れないことを認めたくないのです。"
+      ],
+      "a2": [
+        "おなかをすかせたきつねが、日なたを歩いていました。ふと、ぶどう畑が目に入り、葉っぱのあいだに、大きくて熟したぶどうの房が見えました。",
+        "きつねはすぐに取ろうとしました。最初はその場で跳び、次は助走をつけました。毎回すぐ近くまで届きましたが、あと少し足りません。何度もやってみたあと、きつねは疲れて、腹を立てていました。",
+        "立ち去る前に、きつねは房を見て言いました。「あのぶどうは、まだすっぱい。食べる価値なんかないさ。」",
+        "こうして、きつねはがっかりした気持ちを軽べつに変えました。ほしいものが手に入らなかったので、それは大したことではないと自分に言い聞かせようとしたのです。"
+      ],
+      "b1": [
+        "ある夏の午後、疲れておなかをすかせたきつねが、ぶどう畑にたどり着きました。小さなすき間から、高い枝にぶら下がっているぶどうの房が見えました。",
+        "きつねは距離をよく見て、位置を変え、助走をつけました。けれども、どの試みもあと数センチのところで失敗しました。",
+        "時間がたつにつれて、空腹はいらだちに変わりました。プライドが、失敗を受け入れることを許さなかったのです。",
+        "自分のイメージを守るために、きつねは目標をけなすことにしました。ぶどうはすっぱいし、たぶんまずいと言いながら、立ち去りました。",
+        "この物語は、よくあるふるまいを描いています。何かが手の届かないところにあると、がっかりした気持ちを認めるかわりに、その価値を下げてしまうことがあるのです。"
+      ]
+    }
+  }
+}
