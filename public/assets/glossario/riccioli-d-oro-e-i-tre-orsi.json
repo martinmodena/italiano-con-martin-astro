@@ -1,0 +1,1479 @@
+{
+  "id": "riccioli-d-oro-e-i-tre-orsi",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "l'orso",
+      "forme": [
+        "orsi",
+        "orso",
+        "orsa"
+      ],
+      "esempi": [
+        "L'orso dorme tutto l'inverno.",
+        "In Abruzzo vivono gli orsi marsicani.",
+        "Mamma orsa protegge i suoi piccoli."
+      ],
+      "traduzioni": {
+        "en": "bear («orsa» = she-bear)",
+        "es": "oso, osa",
+        "pt": "urso, ursa",
+        "fr": "ours, ourse",
+        "cs": "medvěd, medvědice",
+        "pl": "niedźwiedź, niedźwiedzica",
+        "tr": "ayı",
+        "de": "Bär, Bärin",
+        "ja": "くま"
+      }
+    },
+    {
+      "parola": "l'orsetto",
+      "forme": [
+        "orsetto"
+      ],
+      "esempi": [
+        "L'orsetto gioca con la mamma.",
+        "Mia figlia dorme con un orsetto di peluche.",
+        "L'orsetto è piccolo e curioso."
+      ],
+      "traduzioni": {
+        "en": "little bear, bear cub («orsetto di peluche» = teddy bear)",
+        "es": "osito",
+        "pt": "ursinho",
+        "fr": "ourson, petit ours",
+        "cs": "medvídek",
+        "pl": "miś, niedźwiadek",
+        "tr": "ayıcık, yavru ayı",
+        "de": "Bärchen, kleiner Bär",
+        "ja": "子ぐま"
+      }
+    },
+    {
+      "parola": "medio",
+      "forme": [
+        "media",
+        "medio"
+      ],
+      "esempi": [
+        "Vorrei un caffè medio, per favore.",
+        "Mio figlio è di statura media.",
+        "Prendo la taglia media."
+      ],
+      "traduzioni": {
+        "en": "medium, middle-sized",
+        "es": "mediano",
+        "pt": "médio",
+        "fr": "moyen",
+        "cs": "prostřední, střední",
+        "pl": "średni",
+        "tr": "orta boy",
+        "de": "mittelgroß, mittlere",
+        "ja": "中くらいの"
+      }
+    },
+    {
+      "parola": "la pappa",
+      "forme": [
+        "pappa"
+      ],
+      "esempi": [
+        "Il bambino mangia la pappa.",
+        "La pappa al pomodoro è un piatto toscano.",
+        "È ora della pappa!"
+      ],
+      "traduzioni": {
+        "en": "porridge, (baby) food",
+        "es": "papilla, gachas",
+        "pt": "mingau, papinha",
+        "fr": "bouillie",
+        "cs": "kaše",
+        "pl": "owsianka, papka",
+        "tr": "lapa, mama",
+        "de": "Brei",
+        "ja": "おかゆ"
+      }
+    },
+    {
+      "parola": "troppo",
+      "forme": [
+        "troppo"
+      ],
+      "esempi": [
+        "Il caffè è troppo caldo.",
+        "Questa giacca è troppo grande per me.",
+        "Non mangiare troppo!"
+      ],
+      "traduzioni": {
+        "en": "too, too much",
+        "es": "demasiado",
+        "pt": "demais, muito",
+        "fr": "trop",
+        "cs": "příliš, moc",
+        "pl": "za, zbyt",
+        "tr": "çok, fazla",
+        "de": "zu, zu viel",
+        "ja": "〜すぎる"
+      }
+    },
+    {
+      "parola": "fare una passeggiata",
+      "forme": [
+        "passeggiata"
+      ],
+      "esempi": [
+        "Dopo cena facciamo una passeggiata.",
+        "La domenica facciamo una passeggiata al lago.",
+        "È una bella giornata per una passeggiata."
+      ],
+      "traduzioni": {
+        "en": "to go for a walk",
+        "es": "dar un paseo",
+        "pt": "dar um passeio",
+        "fr": "faire une promenade",
+        "cs": "jít na procházku",
+        "pl": "iść na spacer",
+        "tr": "yürüyüşe çıkmak",
+        "de": "einen Spaziergang machen",
+        "ja": "散歩する"
+      }
+    },
+    {
+      "parola": "i capelli",
+      "forme": [
+        "capelli"
+      ],
+      "esempi": [
+        "Mia sorella ha i capelli lunghi.",
+        "Mi lavo i capelli ogni mattina.",
+        "Ha i capelli neri e gli occhi verdi."
+      ],
+      "traduzioni": {
+        "en": "hair (on the head)",
+        "es": "pelo, cabello",
+        "pt": "cabelo",
+        "fr": "cheveux",
+        "cs": "vlasy",
+        "pl": "włosy",
+        "tr": "saç",
+        "de": "Haare",
+        "ja": "髪"
+      }
+    },
+    {
+      "parola": "biondo",
+      "forme": [
+        "biondi"
+      ],
+      "formeEsempi": [
+        "biondo",
+        "bionda"
+      ],
+      "esempi": [
+        "Il bambino ha i capelli biondi.",
+        "Mia madre è bionda.",
+        "Ti piace la birra bionda?"
+      ],
+      "traduzioni": {
+        "en": "blond",
+        "es": "rubio",
+        "pt": "loiro",
+        "fr": "blond",
+        "cs": "blond, světlovlasý",
+        "pl": "blond, jasny",
+        "tr": "sarı (saç)",
+        "de": "blond",
+        "ja": "金髪の"
+      }
+    },
+    {
+      "parola": "riccio",
+      "forme": [
+        "ricci"
+      ],
+      "formeEsempi": [
+        "riccia",
+        "ricciolo"
+      ],
+      "esempi": [
+        "Ha i capelli ricci e scuri.",
+        "Mia figlia è riccia come il papà.",
+        "Le cade un ricciolo sulla fronte."
+      ],
+      "traduzioni": {
+        "en": "curly («ricciolo» = curl)",
+        "es": "rizado («ricciolo» = rizo)",
+        "pt": "cacheado («ricciolo» = cacho)",
+        "fr": "bouclé («ricciolo» = boucle)",
+        "cs": "kudrnatý",
+        "pl": "kręcony («ricciolo» = lok)",
+        "tr": "kıvırcık",
+        "de": "lockig («ricciolo» = Locke)",
+        "ja": "巻き毛の"
+      }
+    },
+    {
+      "parola": "aperto",
+      "forme": [
+        "aperta"
+      ],
+      "formeEsempi": [
+        "aperto"
+      ],
+      "esempi": [
+        "La finestra è aperta: ho freddo!",
+        "Il negozio è aperto anche la domenica.",
+        "Lascio la porta aperta per il gatto."
+      ],
+      "traduzioni": {
+        "en": "open",
+        "es": "abierto",
+        "pt": "aberto",
+        "fr": "ouvert",
+        "cs": "otevřený",
+        "pl": "otwarty",
+        "tr": "açık",
+        "de": "offen",
+        "ja": "開いている"
+      }
+    },
+    {
+      "parola": "vuoto",
+      "forme": [
+        "vuota",
+        "vuote"
+      ],
+      "formeEsempi": [
+        "vuoto"
+      ],
+      "esempi": [
+        "Il frigorifero è vuoto: andiamo a fare la spesa.",
+        "La strada è vuota di notte.",
+        "Butta le bottiglie vuote nel vetro."
+      ],
+      "traduzioni": {
+        "en": "empty",
+        "es": "vacío",
+        "pt": "vazio",
+        "fr": "vide",
+        "cs": "prázdný",
+        "pl": "pusty",
+        "tr": "boş",
+        "de": "leer",
+        "ja": "からの、だれもいない"
+      }
+    },
+    {
+      "parola": "la scodella",
+      "forme": [
+        "scodelle",
+        "scodella"
+      ],
+      "esempi": [
+        "Metto il latte nella scodella.",
+        "Il cane ha la sua scodella rossa.",
+        "A colazione mangio una scodella di cereali."
+      ],
+      "traduzioni": {
+        "en": "bowl",
+        "es": "cuenco, tazón",
+        "pt": "tigela",
+        "fr": "bol",
+        "cs": "miska",
+        "pl": "miseczka",
+        "tr": "kâse",
+        "de": "Schale, Schüssel",
+        "ja": "おわん、ボウル"
+      }
+    },
+    {
+      "parola": "freddo",
+      "forme": [
+        "fredda",
+        "freddo"
+      ],
+      "esempi": [
+        "L'acqua del mare è fredda.",
+        "Oggi fa freddo: metti la giacca.",
+        "Bevo un tè freddo."
+      ],
+      "traduzioni": {
+        "en": "cold",
+        "es": "frío",
+        "pt": "frio",
+        "fr": "froid",
+        "cs": "studený",
+        "pl": "zimny",
+        "tr": "soğuk",
+        "de": "kalt",
+        "ja": "冷たい、寒い"
+      }
+    },
+    {
+      "parola": "giusto",
+      "forme": [
+        "giusta"
+      ],
+      "formeEsempi": [
+        "giusto"
+      ],
+      "esempi": [
+        "Questa taglia è giusta per me.",
+        "Hai la risposta giusta!",
+        "L'acqua è giusta: né calda né fredda."
+      ],
+      "traduzioni": {
+        "en": "just right, right",
+        "es": "justo, perfecto",
+        "pt": "certo, no ponto",
+        "fr": "juste comme il faut",
+        "cs": "akorát, tak akorát",
+        "pl": "w sam raz",
+        "tr": "tam kıvamında, tam uygun",
+        "de": "genau richtig",
+        "ja": "ちょうどいい"
+      }
+    },
+    {
+      "parola": "la sedia",
+      "forme": [
+        "sedie",
+        "sedia"
+      ],
+      "esempi": [
+        "Prendi una sedia e siediti.",
+        "In cucina ci sono quattro sedie.",
+        "Questa sedia è molto comoda."
+      ],
+      "traduzioni": {
+        "en": "chair",
+        "es": "silla",
+        "pt": "cadeira",
+        "fr": "chaise",
+        "cs": "židle",
+        "pl": "krzesło",
+        "tr": "sandalye",
+        "de": "Stuhl",
+        "ja": "いす"
+      }
+    },
+    {
+      "parola": "duro",
+      "forme": [
+        "dura"
+      ],
+      "formeEsempi": [
+        "duro"
+      ],
+      "esempi": [
+        "Il pane di ieri è duro.",
+        "Questo letto è troppo duro.",
+        "È stata una settimana dura."
+      ],
+      "traduzioni": {
+        "en": "hard",
+        "es": "duro",
+        "pt": "duro",
+        "fr": "dur",
+        "cs": "tvrdý",
+        "pl": "twardy",
+        "tr": "sert",
+        "de": "hart",
+        "ja": "かたい"
+      }
+    },
+    {
+      "parola": "morbido",
+      "forme": [
+        "morbida"
+      ],
+      "formeEsempi": [
+        "morbido"
+      ],
+      "esempi": [
+        "Il gatto ha il pelo morbido.",
+        "Questo cuscino è morbido.",
+        "La torta è morbida dentro."
+      ],
+      "traduzioni": {
+        "en": "soft",
+        "es": "blando, suave",
+        "pt": "macio, mole",
+        "fr": "mou, moelleux",
+        "cs": "měkký",
+        "pl": "miękki",
+        "tr": "yumuşak",
+        "de": "weich",
+        "ja": "やわらかい"
+      }
+    },
+    {
+      "parola": "vecchio",
+      "forme": [
+        "vecchia"
+      ],
+      "formeEsempi": [
+        "vecchio"
+      ],
+      "esempi": [
+        "La mia macchina è vecchia.",
+        "Il nonno è vecchio, ma cammina molto.",
+        "Abito in una casa vecchia del centro."
+      ],
+      "traduzioni": {
+        "en": "old («una vecchia» = an old woman)",
+        "es": "viejo («una vecchia» = una anciana)",
+        "pt": "velho («una vecchia» = uma velha)",
+        "fr": "vieux («una vecchia» = une vieille femme)",
+        "cs": "starý («una vecchia» = stařena)",
+        "pl": "stary («una vecchia» = staruszka)",
+        "tr": "eski, yaşlı («una vecchia» = yaşlı kadın)",
+        "de": "alt («una vecchia» = eine alte Frau)",
+        "ja": "古い、年をとった（«una vecchia» = おばあさん）"
+      }
+    },
+    {
+      "parola": "rompere",
+      "forme": [
+        "rompe",
+        "rotto",
+        "rotta"
+      ],
+      "formeEsempi": [
+        "rotti"
+      ],
+      "esempi": [
+        "Attento, il bicchiere si rompe!",
+        "Ho rotto il telefono.",
+        "La lavatrice è rotta."
+      ],
+      "traduzioni": {
+        "en": "to break («si rompe» = it breaks; «rotto» = broken)",
+        "es": "romper",
+        "pt": "quebrar",
+        "fr": "casser",
+        "cs": "rozbít (se), zlomit (se)",
+        "pl": "złamać (się), zepsuć (się)",
+        "tr": "kırmak, kırılmak",
+        "de": "kaputtmachen, (zer)brechen",
+        "ja": "こわす、こわれる"
+      }
+    },
+    {
+      "parola": "stanco",
+      "forme": [
+        "stanca"
+      ],
+      "formeEsempi": [
+        "stanco"
+      ],
+      "esempi": [
+        "La sera sono stanca.",
+        "Dopo il viaggio mio padre è stanco.",
+        "Sei stanco? Riposati un po'."
+      ],
+      "traduzioni": {
+        "en": "tired",
+        "es": "cansado",
+        "pt": "cansado",
+        "fr": "fatigué",
+        "cs": "unavený",
+        "pl": "zmęczony",
+        "tr": "yorgun",
+        "de": "müde",
+        "ja": "疲れた"
+      }
+    },
+    {
+      "parola": "il piano di sopra",
+      "forme": [
+        "piano"
+      ],
+      "esempi": [
+        "La camera da letto è al piano di sopra.",
+        "Abito al secondo piano.",
+        "I vicini del piano di sopra fanno rumore."
+      ],
+      "traduzioni": {
+        "en": "upstairs, the floor above",
+        "es": "el piso de arriba",
+        "pt": "o andar de cima",
+        "fr": "l’étage du dessus",
+        "cs": "horní patro, nahoře",
+        "pl": "piętro wyżej, na górze",
+        "tr": "üst kat",
+        "de": "oben, das obere Stockwerk",
+        "ja": "上の階、二階"
+      }
+    },
+    {
+      "parola": "il letto",
+      "forme": [
+        "letti",
+        "letto"
+      ],
+      "esempi": [
+        "Vado a letto alle undici.",
+        "Il letto è troppo piccolo per due.",
+        "Nella camera ci sono due letti."
+      ],
+      "traduzioni": {
+        "en": "bed",
+        "es": "cama",
+        "pt": "cama",
+        "fr": "lit",
+        "cs": "postel",
+        "pl": "łóżko",
+        "tr": "yatak",
+        "de": "Bett",
+        "ja": "ベッド"
+      }
+    },
+    {
+      "parola": "alto",
+      "forme": [
+        "alto"
+      ],
+      "formeEsempi": [
+        "alta"
+      ],
+      "esempi": [
+        "Questo scaffale è troppo alto per me.",
+        "Mio fratello è alto due metri.",
+        "La montagna è molto alta."
+      ],
+      "traduzioni": {
+        "en": "high, tall",
+        "es": "alto",
+        "pt": "alto",
+        "fr": "haut",
+        "cs": "vysoký",
+        "pl": "wysoki",
+        "tr": "yüksek",
+        "de": "hoch",
+        "ja": "高い"
+      }
+    },
+    {
+      "parola": "basso",
+      "forme": [
+        "basso"
+      ],
+      "formeEsempi": [
+        "bassa"
+      ],
+      "esempi": [
+        "Il tavolino è basso.",
+        "Mia nonna è bassa.",
+        "Parla a voce bassa, il bambino dorme."
+      ],
+      "traduzioni": {
+        "en": "low, short",
+        "es": "bajo",
+        "pt": "baixo",
+        "fr": "bas",
+        "cs": "nízký",
+        "pl": "niski",
+        "tr": "alçak, kısa",
+        "de": "niedrig",
+        "ja": "低い"
+      }
+    },
+    {
+      "parola": "comodo",
+      "forme": [
+        "comodo"
+      ],
+      "formeEsempi": [
+        "comoda",
+        "comode"
+      ],
+      "esempi": [
+        "Questo divano è molto comodo.",
+        "Metto le scarpe comode per camminare.",
+        "Il treno è più comodo dell'autobus."
+      ],
+      "traduzioni": {
+        "en": "comfortable",
+        "es": "cómodo",
+        "pt": "confortável",
+        "fr": "confortable",
+        "cs": "pohodlný",
+        "pl": "wygodny",
+        "tr": "rahat",
+        "de": "bequem",
+        "ja": "快適な、寝心地がいい"
+      }
+    },
+    {
+      "parola": "addormentarsi",
+      "forme": [
+        "addormenta",
+        "addormentata"
+      ],
+      "formeEsempi": [
+        "addormento"
+      ],
+      "esempi": [
+        "Mi addormento sempre davanti alla TV.",
+        "Il bambino si addormenta subito.",
+        "Ieri sera mi sono addormentata presto."
+      ],
+      "traduzioni": {
+        "en": "to fall asleep",
+        "es": "dormirse",
+        "pt": "adormecer, pegar no sono",
+        "fr": "s’endormir",
+        "cs": "usnout",
+        "pl": "zasnąć",
+        "tr": "uykuya dalmak",
+        "de": "einschlafen",
+        "ja": "寝入る、眠ってしまう"
+      }
+    },
+    {
+      "parola": "tornare",
+      "forme": [
+        "tornano",
+        "tornati"
+      ],
+      "formeEsempi": [
+        "torno"
+      ],
+      "esempi": [
+        "Torno a casa alle sei.",
+        "I miei genitori tornano dalle vacanze domani.",
+        "Siamo tornati tardi dalla festa."
+      ],
+      "traduzioni": {
+        "en": "to come back, to return",
+        "es": "volver",
+        "pt": "voltar",
+        "fr": "rentrer, revenir",
+        "cs": "vrátit se",
+        "pl": "wrócić",
+        "tr": "dönmek",
+        "de": "zurückkommen",
+        "ja": "帰る、もどる"
+      }
+    },
+    {
+      "parola": "salire",
+      "forme": [
+        "salgono",
+        "salita",
+        "saliti"
+      ],
+      "formeEsempi": [
+        "salgo",
+        "sali"
+      ],
+      "esempi": [
+        "Salgo le scale a piedi.",
+        "Sali in macchina, ti porto io!",
+        "Siamo saliti in cima alla torre."
+      ],
+      "traduzioni": {
+        "en": "to go up, to climb",
+        "es": "subir",
+        "pt": "subir",
+        "fr": "monter",
+        "cs": "vyjít nahoru",
+        "pl": "wejść na górę",
+        "tr": "çıkmak",
+        "de": "hinaufgehen",
+        "ja": "上がる、のぼる"
+      }
+    },
+    {
+      "parola": "peloso",
+      "forme": [
+        "pelosi"
+      ],
+      "formeEsempi": [
+        "peloso",
+        "pelosa"
+      ],
+      "esempi": [
+        "Il mio cane è grande e peloso.",
+        "Il bruco è peloso.",
+        "I gatti persiani sono molto pelosi."
+      ],
+      "traduzioni": {
+        "en": "hairy, furry",
+        "es": "peludo",
+        "pt": "peludo",
+        "fr": "poilu",
+        "cs": "chlupatý",
+        "pl": "włochaty",
+        "tr": "tüylü",
+        "de": "pelzig, haarig",
+        "ja": "毛むくじゃらの"
+      }
+    },
+    {
+      "parola": "saltare",
+      "forme": [
+        "salta",
+        "saltata"
+      ],
+      "formeEsempi": [
+        "salto",
+        "saltano"
+      ],
+      "esempi": [
+        "Il gatto salta sul tavolo.",
+        "I bambini saltano sul letto.",
+        "Sono saltata giù dal muretto."
+      ],
+      "traduzioni": {
+        "en": "to jump",
+        "es": "saltar",
+        "pt": "pular, saltar",
+        "fr": "sauter",
+        "cs": "skočit",
+        "pl": "skoczyć",
+        "tr": "atlamak",
+        "de": "springen",
+        "ja": "飛ぶ、飛び出す"
+      }
+    },
+    {
+      "parola": "correre via",
+      "forme": [
+        "via"
+      ],
+      "esempi": [
+        "Il gatto ha visto il cane ed è corso via.",
+        "Ho finito, vado via!",
+        "Il ladro è scappato via."
+      ],
+      "traduzioni": {
+        "en": "to run away",
+        "es": "irse corriendo",
+        "pt": "sair correndo",
+        "fr": "s’enfuir en courant",
+        "cs": "utéct pryč",
+        "pl": "uciec",
+        "tr": "koşarak kaçmak",
+        "de": "weglaufen",
+        "ja": "走り去る"
+      }
+    },
+    {
+      "parola": "il permesso",
+      "forme": [
+        "permesso"
+      ],
+      "esempi": [
+        "Chiedi il permesso prima di prendere la macchina.",
+        "Permesso, posso entrare?",
+        "Ho il permesso di uscire fino a mezzanotte."
+      ],
+      "traduzioni": {
+        "en": "permission («permesso?» = may I come in?)",
+        "es": "permiso",
+        "pt": "permissão, licença",
+        "fr": "permission",
+        "cs": "svolení, dovolení",
+        "pl": "pozwolenie",
+        "tr": "izin",
+        "de": "Erlaubnis",
+        "ja": "許可（«permesso?» = おじゃまします）"
+      }
+    },
+    {
+      "parola": "lasciare",
+      "forme": [
+        "lasciato"
+      ],
+      "formeEsempi": [
+        "lascio",
+        "lascia"
+      ],
+      "esempi": [
+        "Ho lasciato le chiavi in macchina.",
+        "Lascio la bici davanti alla scuola.",
+        "Lascia la luce accesa, per favore."
+      ],
+      "traduzioni": {
+        "en": "to leave",
+        "es": "dejar",
+        "pt": "deixar",
+        "fr": "laisser",
+        "cs": "nechat",
+        "pl": "zostawić",
+        "tr": "bırakmak",
+        "de": "lassen",
+        "ja": "置いておく、〜したままにする"
+      }
+    },
+    {
+      "parola": "assaggiare",
+      "forme": [
+        "assaggiato"
+      ],
+      "formeEsempi": [
+        "assaggia",
+        "assaggio"
+      ],
+      "esempi": [
+        "Assaggia questo formaggio!",
+        "Assaggio la minestra: manca il sale.",
+        "In Puglia ho assaggiato le orecchiette."
+      ],
+      "traduzioni": {
+        "en": "to taste, to try",
+        "es": "probar",
+        "pt": "provar",
+        "fr": "goûter",
+        "cs": "ochutnat",
+        "pl": "spróbować",
+        "tr": "tadına bakmak",
+        "de": "probieren",
+        "ja": "味見する"
+      }
+    },
+    {
+      "parola": "finire",
+      "forme": [
+        "finito",
+        "finita"
+      ],
+      "formeEsempi": [
+        "finisco"
+      ],
+      "esempi": [
+        "Ho finito i compiti.",
+        "Chi ha finito il latte?",
+        "La pasta è finita: devo comprarla."
+      ],
+      "traduzioni": {
+        "en": "to finish (up)",
+        "es": "acabar, terminar",
+        "pt": "acabar, terminar",
+        "fr": "finir",
+        "cs": "dojíst, dokončit",
+        "pl": "skończyć, zjeść do końca",
+        "tr": "bitirmek",
+        "de": "aufessen, beenden",
+        "ja": "たいらげる、終える"
+      }
+    },
+    {
+      "parola": "sedersi",
+      "forme": [
+        "seduta",
+        "seduto"
+      ],
+      "formeEsempi": [
+        "siedo",
+        "siediti"
+      ],
+      "esempi": [
+        "Mi siedo vicino alla finestra.",
+        "Siediti, il caffè è pronto.",
+        "Mi sono seduta sulla panchina."
+      ],
+      "traduzioni": {
+        "en": "to sit down",
+        "es": "sentarse",
+        "pt": "sentar-se",
+        "fr": "s’asseoir",
+        "cs": "sednout si",
+        "pl": "usiąść",
+        "tr": "oturmak",
+        "de": "sich setzen",
+        "ja": "すわる"
+      }
+    },
+    {
+      "parola": "sdraiarsi",
+      "forme": [
+        "sdraiata"
+      ],
+      "formeEsempi": [
+        "sdraio",
+        "sdraiati"
+      ],
+      "esempi": [
+        "Mi sdraio sul divano.",
+        "Sdraiati un po', sei stanca.",
+        "Al mare mi sono sdraiata al sole."
+      ],
+      "traduzioni": {
+        "en": "to lie down",
+        "es": "tumbarse, acostarse",
+        "pt": "deitar-se",
+        "fr": "s’allonger",
+        "cs": "lehnout si",
+        "pl": "położyć się",
+        "tr": "uzanmak",
+        "de": "sich hinlegen",
+        "ja": "横になる"
+      }
+    },
+    {
+      "parola": "grosso",
+      "forme": [
+        "grossa"
+      ],
+      "formeEsempi": [
+        "grosso"
+      ],
+      "esempi": [
+        "Il papà ha una voce grossa.",
+        "Abbiamo un grosso problema.",
+        "Ho visto un cane grosso nel parco."
+      ],
+      "traduzioni": {
+        "en": "big («voce grossa» = deep, gruff voice)",
+        "es": "grueso, gordo («voce grossa» = vozarrón)",
+        "pt": "grosso («voce grossa» = voz grossa)",
+        "fr": "gros («voce grossa» = grosse voix)",
+        "cs": "velký, hrubý («voce grossa» = hluboký hlas)",
+        "pl": "gruby («voce grossa» = gruby głos)",
+        "tr": "kalın, iri («voce grossa» = kalın ses)",
+        "de": "dick, groß («voce grossa» = tiefe Stimme)",
+        "ja": "太い、大きい（«voce grossa» = 太い声）"
+      }
+    },
+    {
+      "parola": "cominciare",
+      "forme": [
+        "cominciato"
+      ],
+      "formeEsempi": [
+        "comincia",
+        "comincio"
+      ],
+      "esempi": [
+        "La lezione comincia alle nove.",
+        "Ha cominciato a piovere.",
+        "Comincio a capire l'italiano!"
+      ],
+      "traduzioni": {
+        "en": "to begin, to start",
+        "es": "empezar",
+        "pt": "começar",
+        "fr": "commencer",
+        "cs": "začít",
+        "pl": "zacząć",
+        "tr": "başlamak",
+        "de": "anfangen",
+        "ja": "始める、〜し始める"
+      }
+    },
+    {
+      "parola": "piangere",
+      "forme": [
+        "piangere"
+      ],
+      "formeEsempi": [
+        "piange"
+      ],
+      "esempi": [
+        "Il bambino piange perché ha fame.",
+        "Non piangere, va tutto bene.",
+        "Questo film mi fa piangere."
+      ],
+      "traduzioni": {
+        "en": "to cry",
+        "es": "llorar",
+        "pt": "chorar",
+        "fr": "pleurer",
+        "cs": "plakat",
+        "pl": "płakać",
+        "tr": "ağlamak",
+        "de": "weinen",
+        "ja": "泣く"
+      }
+    },
+    {
+      "parola": "svegliarsi",
+      "forme": [
+        "svegliata"
+      ],
+      "formeEsempi": [
+        "sveglio",
+        "svegliato"
+      ],
+      "esempi": [
+        "Mi sveglio alle sette.",
+        "Stamattina mi sono svegliata tardi.",
+        "Il bambino si è svegliato di notte."
+      ],
+      "traduzioni": {
+        "en": "to wake up",
+        "es": "despertarse",
+        "pt": "acordar",
+        "fr": "se réveiller",
+        "cs": "probudit se",
+        "pl": "obudzić się",
+        "tr": "uyanmak",
+        "de": "aufwachen",
+        "ja": "目を覚ます"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappata"
+      ],
+      "formeEsempi": [
+        "scappa",
+        "scappato"
+      ],
+      "esempi": [
+        "Il gatto è scappato in giardino.",
+        "Scappa, arriva il temporale!",
+        "La mucca è scappata dal recinto."
+      ],
+      "traduzioni": {
+        "en": "to run away, to escape",
+        "es": "escapar, huir",
+        "pt": "fugir",
+        "fr": "s’enfuir",
+        "cs": "utéct",
+        "pl": "uciec",
+        "tr": "kaçmak",
+        "de": "fliehen, weglaufen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "cambiare",
+      "forme": [
+        "cambiata"
+      ],
+      "formeEsempi": [
+        "cambia",
+        "cambiato"
+      ],
+      "esempi": [
+        "La città è molto cambiata.",
+        "Il tempo cambia in fretta in montagna.",
+        "Ho cambiato lavoro."
+      ],
+      "traduzioni": {
+        "en": "to change",
+        "es": "cambiar",
+        "pt": "mudar",
+        "fr": "changer",
+        "cs": "změnit se",
+        "pl": "zmienić się",
+        "tr": "değişmek",
+        "de": "sich verändern",
+        "ja": "変わる"
+      }
+    },
+    {
+      "parola": "maleducato",
+      "forme": [
+        "maleducata"
+      ],
+      "formeEsempi": [
+        "maleducato"
+      ],
+      "esempi": [
+        "Non essere maleducato: saluta!",
+        "È maleducato parlare con la bocca piena.",
+        "Una signora maleducata è passata davanti a tutti."
+      ],
+      "traduzioni": {
+        "en": "rude, ill-mannered",
+        "es": "maleducado",
+        "pt": "mal-educado",
+        "fr": "mal élevé, impoli",
+        "cs": "nevychovaný",
+        "pl": "niegrzeczny, źle wychowany",
+        "tr": "terbiyesiz, kaba",
+        "de": "unhöflich, unerzogen",
+        "ja": "行儀の悪い、失礼な"
+      }
+    },
+    {
+      "parola": "più tardi",
+      "forme": [
+        "tardi"
+      ],
+      "esempi": [
+        "Ci vediamo più tardi!",
+        "Ti chiamo più tardi, ora sono in riunione.",
+        "Ieri sono andato a letto tardi."
+      ],
+      "traduzioni": {
+        "en": "later («tardi» = late)",
+        "es": "más tarde",
+        "pt": "mais tarde",
+        "fr": "plus tard",
+        "cs": "později",
+        "pl": "później",
+        "tr": "daha sonra",
+        "de": "später",
+        "ja": "あとで、後になって"
+      }
+    },
+    {
+      "parola": "lo scienziato",
+      "forme": [
+        "scienziati"
+      ],
+      "formeEsempi": [
+        "scienziato",
+        "scienziata"
+      ],
+      "esempi": [
+        "Gli scienziati studiano il clima.",
+        "Mia figlia vuole fare la scienziata.",
+        "Galileo è stato un grande scienziato."
+      ],
+      "traduzioni": {
+        "en": "scientist",
+        "es": "científico",
+        "pt": "cientista",
+        "fr": "scientifique",
+        "cs": "vědec",
+        "pl": "naukowiec",
+        "tr": "bilim insanı",
+        "de": "Wissenschaftler",
+        "ja": "科学者"
+      }
+    },
+    {
+      "parola": "la distanza",
+      "forme": [
+        "distanza"
+      ],
+      "esempi": [
+        "Qual è la distanza tra Roma e Milano?",
+        "Mantieni la distanza dalla macchina davanti.",
+        "Da questa distanza non vedo bene."
+      ],
+      "traduzioni": {
+        "en": "distance",
+        "es": "distancia",
+        "pt": "distância",
+        "fr": "distance",
+        "cs": "vzdálenost",
+        "pl": "odległość",
+        "tr": "uzaklık, mesafe",
+        "de": "Entfernung, Abstand",
+        "ja": "距離"
+      }
+    },
+    {
+      "parola": "la stella",
+      "forme": [
+        "stella"
+      ],
+      "formeEsempi": [
+        "stelle"
+      ],
+      "esempi": [
+        "Stanotte il cielo è pieno di stelle.",
+        "Il Sole è una stella.",
+        "Questo albergo ha quattro stelle."
+      ],
+      "traduzioni": {
+        "en": "star",
+        "es": "estrella",
+        "pt": "estrela",
+        "fr": "étoile",
+        "cs": "hvězda",
+        "pl": "gwiazda",
+        "tr": "yıldız",
+        "de": "Stern",
+        "ja": "星、恒星"
+      }
+    },
+    {
+      "parola": "il pianeta",
+      "forme": [
+        "pianeta"
+      ],
+      "formeEsempi": [
+        "pianeti"
+      ],
+      "esempi": [
+        "La Terra è il nostro pianeta.",
+        "Marte è il pianeta rosso.",
+        "Nel sistema solare ci sono otto pianeti."
+      ],
+      "traduzioni": {
+        "en": "planet",
+        "es": "planeta",
+        "pt": "planeta",
+        "fr": "planète",
+        "cs": "planeta",
+        "pl": "planeta",
+        "tr": "gezegen",
+        "de": "Planet",
+        "ja": "惑星"
+      }
+    },
+    {
+      "parola": "restare",
+      "forme": [
+        "restare"
+      ],
+      "formeEsempi": [
+        "resto",
+        "resta"
+      ],
+      "esempi": [
+        "Stasera resto a casa.",
+        "Puoi restare a cena, se vuoi.",
+        "Il negozio resta chiuso ad agosto."
+      ],
+      "traduzioni": {
+        "en": "to stay, to remain",
+        "es": "quedarse, permanecer",
+        "pt": "ficar, permanecer",
+        "fr": "rester",
+        "cs": "zůstat",
+        "pl": "zostać, pozostać",
+        "tr": "kalmak",
+        "de": "bleiben",
+        "ja": "とどまる、〜のままでいる"
+      }
+    },
+    {
+      "parola": "liquido",
+      "forme": [
+        "liquida"
+      ],
+      "formeEsempi": [
+        "liquido"
+      ],
+      "esempi": [
+        "Il sapone liquido è in bagno.",
+        "Con il caldo il gelato diventa liquido.",
+        "L'acqua è liquida, il ghiaccio è solido."
+      ],
+      "traduzioni": {
+        "en": "liquid",
+        "es": "líquido",
+        "pt": "líquido",
+        "fr": "liquide",
+        "cs": "tekutý",
+        "pl": "ciekły, płynny",
+        "tr": "sıvı",
+        "de": "flüssig",
+        "ja": "液体の"
+      }
+    },
+    {
+      "parola": "proprio come",
+      "forme": [
+        "proprio"
+      ],
+      "esempi": [
+        "È proprio come sua madre.",
+        "Proprio come ieri, oggi piove.",
+        "Il film è finito proprio come pensavo."
+      ],
+      "traduzioni": {
+        "en": "just like, exactly like",
+        "es": "igual que, justo como",
+        "pt": "igualzinho a, exatamente como",
+        "fr": "exactement comme",
+        "cs": "přesně jako",
+        "pl": "dokładnie jak",
+        "tr": "tıpkı … gibi",
+        "de": "genau wie",
+        "ja": "ちょうど〜のように"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "In a little house in the woods live three bears: Father Bear is big, Mother Bear is middle-sized and Baby Bear is small.",
+        "One morning the porridge is too hot. The three bears go out and take a walk in the woods.",
+        "A little girl with blond, curly hair arrives. Her name is Goldilocks. The door is open, the house is empty and the girl goes in.",
+        "On the table there are three bowls. The big bowl is too hot. The middle bowl is too cold. The small bowl is just right! Goldilocks eats all the porridge.",
+        "Near the table there are three chairs. The big chair is too hard. The middle chair is too soft. The small chair is just right, but it's old and it breaks.",
+        "Goldilocks is tired. She goes upstairs, where there are three beds. The big bed is too high. The middle bed is too low. The small bed is comfortable. The girl falls asleep.",
+        "The bears come home. They see the empty bowls and the broken chair. Then they go upstairs and see the girl in the small bed. Goldilocks opens her eyes, sees three big, furry bears, jumps out of the window and runs away.",
+        "That's the moral of the tale: other people's homes are not our home. Before going in, we must ask for permission."
+      ],
+      "a2": [
+        "One morning three bears made their porridge, but it was too hot. They went out for a walk and left the door open.",
+        "Soon after, a little girl with golden hair arrived. She looked through the window, saw nobody and went in. She tasted the porridge in the three bowls and finished Baby Bear's. Then she sat on the three chairs and broke the smallest one. Finally she went upstairs, lay down on the beds and fell asleep in the small one.",
+        "After their walk the bears came home. Father Bear looked at his bowl.\n“Who's been eating my porridge?” he asked in his great, gruff voice.\n“Who's been eating my porridge?” asked Mother Bear.\n“Who's been eating my porridge?” cried Baby Bear. “And they've eaten it all up!”",
+        "Then they saw the chairs.\n“Who's been sitting in my chair?”\n“And who's broken mine?” asked Baby Bear, and he began to cry.",
+        "They went upstairs.\n“Who's been sleeping in my bed?” said Baby Bear. “She's still here!”\nGoldilocks woke up, saw the three bears, jumped out of the window and ran away into the woods. Nobody ever saw her again.",
+        "This story has changed a lot over time. When Robert Southey published it in England in 1837, it wasn't a little girl who went into the bears' house, but a rude old woman. The little girl only came later.",
+        "And scientists? They borrowed her name: the «Goldilocks zone» is the distance from a star at which a planet is neither too hot nor too cold, and water can stay liquid. Just like Baby Bear's porridge: just right."
+      ]
+    },
+    "es": {
+      "a1": [
+        "En una casita del bosque viven tres osos: papá oso es grande, mamá osa es mediana y el osito es pequeño.",
+        "Una mañana la papilla está demasiado caliente. Los tres osos salen y dan un paseo por el bosque.",
+        "Llega una niña con el pelo rubio y rizado. Se llama Ricitos de Oro. La puerta está abierta, la casa está vacía y la niña entra.",
+        "En la mesa hay tres cuencos. El cuenco grande está demasiado caliente. El cuenco mediano está demasiado frío. ¡El cuenco pequeño está perfecto! Ricitos de Oro se come toda la papilla.",
+        "Cerca de la mesa hay tres sillas. La silla grande es demasiado dura. La silla mediana es demasiado blanda. La silla pequeña es perfecta, pero es vieja y se rompe.",
+        "Ricitos de Oro está cansada. Sube al piso de arriba, donde hay tres camas. La cama grande es demasiado alta. La cama mediana es demasiado baja. La cama pequeña es cómoda. La niña se duerme.",
+        "Los osos vuelven a casa. Ven los cuencos vacíos y la silla rota. Luego suben y ven a la niña en la cama pequeña. Ricitos de Oro abre los ojos, ve tres osos grandes y peludos, salta por la ventana y se va corriendo.",
+        "Es la moraleja del cuento: la casa de los demás no es nuestra casa. Antes de entrar, tenemos que pedir permiso."
+      ],
+      "a2": [
+        "Una mañana tres osos prepararon la papilla, pero estaba demasiado caliente. Salieron de casa para dar un paseo y dejaron la puerta abierta.",
+        "Poco después llegó una niña con el pelo de oro. Miró por la ventana, no vio a nadie y entró. Probó la papilla de los tres cuencos y se acabó la del osito. Luego se sentó en las tres sillas y rompió la más pequeña. Al final subió al piso de arriba, se tumbó en las camas y se quedó dormida en la pequeña.",
+        "Después del paseo los osos volvieron a casa. Papá oso miró su cuenco.\n– ¿Quién se ha comido mi papilla? – preguntó con su vozarrón.\n– ¿Quién se ha comido mi papilla? – preguntó mamá osa.\n– ¿Quién se ha comido mi papilla? – gritó el osito. – ¡Y se la ha acabado toda!",
+        "Luego vieron las sillas.\n– ¿Quién se ha sentado en mi silla?\n– ¿Y quién ha roto la mía? – preguntó el osito, y se echó a llorar.",
+        "Subieron al piso de arriba.\n– ¿Quién ha dormido en mi cama? – dijo el osito. – ¡Todavía está aquí!\nRicitos de Oro se despertó, vio a los tres osos, saltó por la ventana y huyó al bosque. Nadie volvió a verla nunca.",
+        "Esta historia ha cambiado mucho con el tiempo. Cuando Robert Southey la publicó en Inglaterra, en 1837, en casa de los osos no entraba una niña, sino una vieja maleducada. La niña llegó solo más tarde.",
+        "¿Y los científicos? Le tomaron prestado el nombre: la «zona Ricitos de Oro» es la distancia a una estrella en la que un planeta no está ni demasiado caliente ni demasiado frío, y el agua puede seguir siendo líquida. Igual que la papilla del osito: perfecta."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Numa casinha no bosque moram três ursos: o papai urso é grande, a mamãe ursa é média e o ursinho é pequeno.",
+        "Uma manhã o mingau está quente demais. Os três ursos saem e dão um passeio no bosque.",
+        "Chega uma menina de cabelo loiro e cacheado. Ela se chama Cachinhos Dourados. A porta está aberta, a casa está vazia e a menina entra.",
+        "Na mesa tem três tigelas. A tigela grande está quente demais. A tigela média está fria demais. A tigela pequena está no ponto! Cachinhos Dourados come o mingau todo.",
+        "Perto da mesa tem três cadeiras. A cadeira grande é dura demais. A cadeira média é mole demais. A cadeira pequena é perfeita, mas é velha e quebra.",
+        "Cachinhos Dourados está cansada. Sobe para o andar de cima, onde tem três camas. A cama grande é alta demais. A cama média é baixa demais. A cama pequena é confortável. A menina pega no sono.",
+        "Os ursos voltam para casa. Veem as tigelas vazias e a cadeira quebrada. Depois sobem e veem a menina na cama pequena. Cachinhos Dourados abre os olhos, vê três ursos grandes e peludos, pula pela janela e sai correndo.",
+        "Essa é a moral da história: a casa dos outros não é a nossa casa. Antes de entrar, precisamos pedir licença."
+      ],
+      "a2": [
+        "Uma manhã três ursos prepararam o mingau, mas ele estava quente demais. Saíram de casa para dar um passeio e deixaram a porta aberta.",
+        "Pouco depois chegou uma menina de cabelos dourados. Olhou pela janela, não viu ninguém e entrou. Provou o mingau das três tigelas e acabou com o do ursinho. Depois se sentou nas três cadeiras e quebrou a menor. No fim subiu para o andar de cima, deitou nas camas e adormeceu na pequena.",
+        "Depois do passeio os ursos voltaram para casa. O papai urso olhou a sua tigela.\n– Quem comeu o meu mingau? – perguntou com o seu vozeirão.\n– Quem comeu o meu mingau? – perguntou a mamãe ursa.\n– Quem comeu o meu mingau? – gritou o ursinho. – E comeu tudo!",
+        "Depois viram as cadeiras.\n– Quem sentou na minha cadeira?\n– E quem quebrou a minha? – perguntou o ursinho, e começou a chorar.",
+        "Subiram para o andar de cima.\n– Quem dormiu na minha cama? – disse o ursinho. – Ela ainda está aqui!\nCachinhos Dourados acordou, viu os três ursos, pulou pela janela e fugiu para o bosque. Ninguém nunca mais a viu.",
+        "Esta história mudou muito com o tempo. Quando Robert Southey a publicou na Inglaterra, em 1837, quem entrava na casa dos ursos não era uma menina, mas uma velha mal-educada. A menina só apareceu mais tarde.",
+        "E os cientistas? Pegaram emprestado o nome dela: a «zona Cachinhos Dourados» é a distância de uma estrela em que um planeta não é nem quente demais nem frio demais, e a água pode continuar líquida. Igualzinho ao mingau do ursinho: no ponto."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Dans une petite maison du bois vivent trois ours : papa ours est grand, maman ourse est moyenne et le petit ours est petit.",
+        "Un matin, la bouillie est trop chaude. Les trois ours sortent et font une promenade dans le bois.",
+        "Une petite fille aux cheveux blonds et bouclés arrive. Elle s’appelle Boucle d’or. La porte est ouverte, la maison est vide et la petite fille entre.",
+        "Sur la table, il y a trois bols. Le grand bol est trop chaud. Le bol moyen est trop froid. Le petit bol est juste comme il faut ! Boucle d’or mange toute la bouillie.",
+        "Près de la table, il y a trois chaises. La grande chaise est trop dure. La chaise moyenne est trop molle. La petite chaise est juste comme il faut, mais elle est vieille et elle casse.",
+        "Boucle d’or est fatiguée. Elle monte à l’étage, où il y a trois lits. Le grand lit est trop haut. Le lit moyen est trop bas. Le petit lit est confortable. La petite fille s’endort.",
+        "Les ours rentrent à la maison. Ils voient les bols vides et la chaise cassée. Puis ils montent et voient la petite fille dans le petit lit. Boucle d’or ouvre les yeux, voit trois grands ours poilus, saute par la fenêtre et s’enfuit en courant.",
+        "C’est la morale du conte : la maison des autres n’est pas notre maison. Avant d’entrer, il faut demander la permission."
+      ],
+      "a2": [
+        "Un matin, trois ours ont préparé leur bouillie, mais elle était trop chaude. Ils sont sortis faire une promenade et ils ont laissé la porte ouverte.",
+        "Peu après, une petite fille aux cheveux d’or est arrivée. Elle a regardé par la fenêtre, n’a vu personne et elle est entrée. Elle a goûté la bouillie des trois bols et elle a fini celle du petit ours. Puis elle s’est assise sur les trois chaises et elle a cassé la plus petite. Enfin, elle est montée à l’étage, s’est allongée sur les lits et s’est endormie dans le petit.",
+        "Après la promenade, les ours sont rentrés à la maison. Papa ours a regardé son bol.\n– Qui a mangé ma bouillie ? – a-t-il demandé de sa grosse voix.\n– Qui a mangé ma bouillie ? – a demandé maman ourse.\n– Qui a mangé ma bouillie ? – a crié le petit ours. – Et il l’a toute finie !",
+        "Puis ils ont vu les chaises.\n– Qui s’est assis sur ma chaise ?\n– Et qui a cassé la mienne ? – a demandé le petit ours, et il s’est mis à pleurer.",
+        "Ils sont montés à l’étage.\n– Qui a dormi dans mon lit ? – a dit le petit ours. – Elle est encore là !\nBoucle d’or s’est réveillée, a vu les trois ours, a sauté par la fenêtre et s’est enfuie dans le bois. Personne ne l’a jamais revue.",
+        "Cette histoire a beaucoup changé avec le temps. Quand Robert Southey l’a publiée en Angleterre, en 1837, ce n’était pas une petite fille qui entrait chez les ours, mais une vieille femme mal élevée. La petite fille n’est arrivée que plus tard.",
+        "Et les scientifiques ? Ils lui ont emprunté son nom : la « zone Boucle d’or » est la distance à une étoile où une planète n’est ni trop chaude ni trop froide, et où l’eau peut rester liquide. Exactement comme la bouillie du petit ours : juste comme il faut."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V malém domku v lese bydlí tři medvědi: táta medvěd je velký, máma medvědice je prostřední a medvídek je malý.",
+        "Jednoho rána je kaše moc horká. Tři medvědi vyjdou ven a jdou na procházku do lesa.",
+        "Přijde holčička se světlými kudrnatými vlasy. Jmenuje se Zlatovláska. Dveře jsou otevřené, dům je prázdný a holčička vejde dovnitř.",
+        "Na stole jsou tři misky. Velká miska je moc horká. Prostřední miska je moc studená. Malá miska je tak akorát! Zlatovláska sní všechnu kaši.",
+        "U stolu jsou tři židle. Velká židle je moc tvrdá. Prostřední židle je moc měkká. Malá židle je tak akorát, ale je stará a rozbije se.",
+        "Zlatovláska je unavená. Jde nahoru, kde jsou tři postele. Velká postel je moc vysoká. Prostřední postel je moc nízká. Malá postel je pohodlná. Holčička usne.",
+        "Medvědi se vrátí domů. Vidí prázdné misky a rozbitou židli. Pak jdou nahoru a vidí holčičku v malé posteli. Zlatovláska otevře oči, uvidí tři velké chlupaté medvědy, vyskočí z okna a uteče pryč.",
+        "To je ponaučení z pohádky: cizí dům není náš dům. Než vejdeme, musíme požádat o svolení."
+      ],
+      "a2": [
+        "Jednoho rána si tři medvědi uvařili kaši, ale byla moc horká. Vyšli z domu na procházku a nechali dveře otevřené.",
+        "Brzy nato přišla holčička se zlatými vlasy. Podívala se oknem, nikoho neviděla, a tak vešla. Ochutnala kaši ze tří misek a medvídkovu snědla celou. Pak si sedla na tři židle a tu nejmenší rozbila. Nakonec šla nahoru, lehla si na postele a v té malé usnula.",
+        "Po procházce se medvědi vrátili domů. Táta medvěd se podíval na svou misku.\n– Kdo jedl z mé misky? – zeptal se svým hlubokým hlasem.\n– Kdo jedl z mé misky? – zeptala se máma medvědice.\n– Kdo jedl z mé misky? – vykřikl medvídek. – A snědl ji celou!",
+        "Pak uviděli židle.\n– Kdo seděl na mé židli?\n– A kdo rozbil tu mou? – zeptal se medvídek a dal se do pláče.",
+        "Šli nahoru.\n– Kdo spal v mé posteli? – řekl medvídek. – Pořád je tady!\nZlatovláska se probudila, uviděla tři medvědy, vyskočila z okna a utekla do lesa. Už ji nikdy nikdo neviděl.",
+        "Tenhle příběh se časem hodně změnil. Když ho Robert Southey v roce 1837 vydal v Anglii, do domu medvědů nevešla holčička, ale nevychovaná stařena. Holčička přišla až později.",
+        "A vědci? Vypůjčili si její jméno: „zóna Zlatovlásky“ (anglicky Goldilocks zone) je taková vzdálenost od hvězdy, ve které planeta není ani moc horká, ani moc studená, a voda může zůstat tekutá. Přesně jako medvídkova kaše: tak akorát."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W małym domku w lesie mieszkają trzy niedźwiedzie: tata niedźwiedź jest duży, mama niedźwiedzica jest średnia, a miś jest mały.",
+        "Pewnego ranka owsianka jest za gorąca. Trzy niedźwiedzie wychodzą i idą na spacer do lasu.",
+        "Przychodzi dziewczynka z jasnymi, kręconymi włosami. Nazywa się Złotowłosa. Drzwi są otwarte, dom jest pusty i dziewczynka wchodzi.",
+        "Na stole są trzy miseczki. Duża miseczka jest za gorąca. Średnia miseczka jest za zimna. Mała miseczka jest w sam raz! Złotowłosa zjada całą owsiankę.",
+        "Przy stole są trzy krzesła. Duże krzesło jest za twarde. Średnie krzesło jest za miękkie. Małe krzesło jest w sam raz, ale jest stare i się łamie.",
+        "Złotowłosa jest zmęczona. Idzie na górę, gdzie są trzy łóżka. Duże łóżko jest za wysokie. Średnie łóżko jest za niskie. Małe łóżko jest wygodne. Dziewczynka zasypia.",
+        "Niedźwiedzie wracają do domu. Widzą puste miseczki i złamane krzesło. Potem idą na górę i widzą dziewczynkę w małym łóżku. Złotowłosa otwiera oczy, widzi trzy duże, włochate niedźwiedzie, wyskakuje przez okno i ucieka.",
+        "To jest morał bajki: cudzy dom to nie nasz dom. Zanim wejdziemy, musimy poprosić o pozwolenie."
+      ],
+      "a2": [
+        "Pewnego ranka trzy niedźwiedzie ugotowały owsiankę, ale była za gorąca. Wyszły z domu na spacer i zostawiły otwarte drzwi.",
+        "Wkrótce potem przyszła dziewczynka o złotych włosach. Zajrzała przez okno, nikogo nie zobaczyła i weszła. Spróbowała owsianki z trzech miseczek i zjadła całą owsiankę misia. Potem usiadła na trzech krzesłach i złamała najmniejsze. Na koniec poszła na górę, położyła się na łóżkach i zasnęła w tym małym.",
+        "Po spacerze niedźwiedzie wróciły do domu. Tata niedźwiedź spojrzał na swoją miseczkę.\n– Kto jadł moją owsiankę? – zapytał swoim grubym głosem.\n– Kto jadł moją owsiankę? – zapytała mama niedźwiedzica.\n– Kto jadł moją owsiankę? – krzyknął miś. – I zjadł wszystko!",
+        "Potem zobaczyły krzesła.\n– Kto siedział na moim krześle?\n– A kto złamał moje? – zapytał miś i zaczął płakać.",
+        "Poszły na górę.\n– Kto spał w moim łóżku? – powiedział miś. – Ona tu jeszcze jest!\nZłotowłosa się obudziła, zobaczyła trzy niedźwiedzie, wyskoczyła przez okno i uciekła do lasu. Nikt jej już nigdy nie widział.",
+        "Ta historia bardzo się z czasem zmieniła. Kiedy Robert Southey opublikował ją w Anglii w 1837 roku, do domu niedźwiedzi wchodziła nie dziewczynka, tylko niegrzeczna staruszka. Dziewczynka pojawiła się dopiero później.",
+        "A naukowcy? Pożyczyli jej imię: „strefa Złotowłosej” to taka odległość od gwiazdy, w której planeta nie jest ani za gorąca, ani za zimna, a woda może pozostać w stanie ciekłym. Dokładnie jak owsianka misia: w sam raz."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Ormandaki küçük bir evde üç ayı yaşar: baba ayı büyüktür, anne ayı orta boydur, yavru ayı da küçüktür.",
+        "Bir sabah lapa çok sıcaktır. Üç ayı dışarı çıkar ve ormanda yürüyüşe gider.",
+        "Sarı, kıvırcık saçlı bir kız gelir. Adı Altın Bukle'dir. Kapı açıktır, ev boştur ve kız içeri girer.",
+        "Masada üç kâse vardır. Büyük kâse çok sıcaktır. Orta kâse çok soğuktur. Küçük kâse tam kıvamındadır! Altın Bukle lapanın hepsini yer.",
+        "Masanın yanında üç sandalye vardır. Büyük sandalye çok serttir. Orta sandalye çok yumuşaktır. Küçük sandalye tam uygundur ama eskidir ve kırılır.",
+        "Altın Bukle yorgundur. Üst kata çıkar; orada üç yatak vardır. Büyük yatak çok yüksektir. Orta yatak çok alçaktır. Küçük yatak rahattır. Kız uykuya dalar.",
+        "Ayılar eve döner. Boş kâseleri ve kırık sandalyeyi görürler. Sonra yukarı çıkarlar ve küçük yatakta kızı görürler. Altın Bukle gözlerini açar, üç büyük, tüylü ayıyı görür, pencereden atlar ve koşarak kaçar.",
+        "Masalın ana fikri şu: başkalarının evi bizim evimiz değildir. İçeri girmeden önce izin istemeliyiz."
+      ],
+      "a2": [
+        "Bir sabah üç ayı lapa yaptı ama lapa çok sıcaktı. Yürüyüşe çıkmak için evden çıktılar ve kapıyı açık bıraktılar.",
+        "Kısa bir süre sonra altın saçlı bir kız geldi. Pencereden baktı, kimseyi görmedi ve içeri girdi. Üç kâsedeki lapanın tadına baktı ve yavru ayınınkini bitirdi. Sonra üç sandalyeye oturdu ve en küçüğünü kırdı. En sonunda üst kata çıktı, yataklara uzandı ve küçük yatakta uyuyakaldı.",
+        "Yürüyüşten sonra ayılar eve döndü. Baba ayı kâsesine baktı.\n– Benim lapamı kim yedi? – diye sordu kalın sesiyle.\n– Benim lapamı kim yedi? – diye sordu anne ayı.\n– Benim lapamı kim yedi? – diye bağırdı yavru ayı. – Hem de hepsini bitirmiş!",
+        "Sonra sandalyeleri gördüler.\n– Benim sandalyeme kim oturdu?\n– Benimkini kim kırdı? – diye sordu yavru ayı ve ağlamaya başladı.",
+        "Üst kata çıktılar.\n– Benim yatağımda kim uyudu? – dedi yavru ayı. – Hâlâ burada!\nAltın Bukle uyandı, üç ayıyı gördü, pencereden atladı ve ormana kaçtı. Onu bir daha kimse görmedi.",
+        "Bu hikâye zamanla çok değişti. Robert Southey onu 1837'de İngiltere'de yayımladığında ayıların evine küçük bir kız değil, terbiyesiz yaşlı bir kadın giriyordu. Küçük kız ancak daha sonra ortaya çıktı.",
+        "Peki ya bilim insanları? Onun adını ödünç aldılar: «Goldilocks bölgesi», bir gezegenin ne çok sıcak ne çok soğuk olduğu ve suyun sıvı kalabildiği, bir yıldıza olan uzaklıktır. Tıpkı yavru ayının lapası gibi: tam kıvamında."
+      ]
+    },
+    "de": {
+      "a1": [
+        "In einem kleinen Haus im Wald wohnen drei Bären: Papa Bär ist groß, Mama Bär ist mittelgroß und das Bärchen ist klein.",
+        "Eines Morgens ist der Brei zu heiß. Die drei Bären gehen hinaus und machen einen Spaziergang im Wald.",
+        "Ein Mädchen mit blonden, lockigen Haaren kommt. Es heißt Goldlöckchen. Die Tür ist offen, das Haus ist leer und das Mädchen geht hinein.",
+        "Auf dem Tisch stehen drei Schalen. Die große Schale ist zu heiß. Die mittlere Schale ist zu kalt. Die kleine Schale ist genau richtig! Goldlöckchen isst den ganzen Brei.",
+        "Neben dem Tisch stehen drei Stühle. Der große Stuhl ist zu hart. Der mittlere Stuhl ist zu weich. Der kleine Stuhl ist genau richtig, aber er ist alt und geht kaputt.",
+        "Goldlöckchen ist müde. Sie geht nach oben, wo drei Betten stehen. Das große Bett ist zu hoch. Das mittlere Bett ist zu niedrig. Das kleine Bett ist bequem. Das Mädchen schläft ein.",
+        "Die Bären kommen nach Hause. Sie sehen die leeren Schalen und den kaputten Stuhl. Dann gehen sie nach oben und sehen das Mädchen im kleinen Bett. Goldlöckchen öffnet die Augen, sieht drei große, pelzige Bären, springt aus dem Fenster und läuft weg.",
+        "Das ist die Moral des Märchens: Das Haus der anderen ist nicht unser Haus. Bevor wir hineingehen, müssen wir um Erlaubnis bitten."
+      ],
+      "a2": [
+        "Eines Morgens kochten drei Bären ihren Brei, aber er war zu heiß. Sie gingen aus dem Haus, um einen Spaziergang zu machen, und ließen die Tür offen.",
+        "Kurz darauf kam ein Mädchen mit goldenen Haaren. Es schaute durchs Fenster, sah niemanden und ging hinein. Es probierte den Brei aus den drei Schalen und aß den des Bärchens auf. Dann setzte es sich auf die drei Stühle und machte den kleinsten kaputt. Zum Schluss ging es nach oben, legte sich auf die Betten und schlief im kleinen ein.",
+        "Nach dem Spaziergang kamen die Bären nach Hause. Papa Bär schaute auf seine Schale.\n„Wer hat von meinem Brei gegessen?“, fragte er mit seiner tiefen Stimme.\n„Wer hat von meinem Brei gegessen?“, fragte Mama Bär.\n„Wer hat von meinem Brei gegessen?“, rief das Bärchen. „Und hat ihn ganz aufgegessen!“",
+        "Dann sahen sie die Stühle.\n„Wer hat auf meinem Stuhl gesessen?“\n„Und wer hat meinen kaputt gemacht?“, fragte das Bärchen und fing an zu weinen.",
+        "Sie gingen nach oben.\n„Wer hat in meinem Bett geschlafen?“, sagte das Bärchen. „Sie ist ja noch da!“\nGoldlöckchen wachte auf, sah die drei Bären, sprang aus dem Fenster und lief in den Wald. Niemand hat sie je wiedergesehen.",
+        "Diese Geschichte hat sich im Lauf der Zeit stark verändert. Als Robert Southey sie 1837 in England veröffentlichte, ging nicht ein Mädchen in das Haus der Bären, sondern eine unhöfliche alte Frau. Das Mädchen kam erst später dazu.",
+        "Und die Wissenschaftler? Sie haben sich ihren Namen geliehen: Die «Goldlöckchen-Zone» ist der Abstand zu einem Stern, in dem ein Planet weder zu heiß noch zu kalt ist und Wasser flüssig bleiben kann. Genau wie der Brei des Bärchens: genau richtig."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "森の小さな家に、三びきのくまが住んでいます。お父さんぐまは大きく、お母さんぐまは中くらい、子ぐまは小さいです。",
+        "ある朝、おかゆが熱すぎます。三びきのくまは外に出て、森を散歩します。",
+        "金色の巻き毛の女の子がやって来ます。名前はゴルディロックスです。ドアが開いていて、家にはだれもいないので、女の子は中に入ります。",
+        "テーブルの上に、おわんが三つあります。大きいおわんは熱すぎます。中くらいのおわんは冷たすぎます。小さいおわんはちょうどいい！　ゴルディロックスはおかゆを全部食べます。",
+        "テーブルのそばに、いすが三つあります。大きいいすはかたすぎます。中くらいのいすはやわらかすぎます。小さいいすはちょうどいいけれど、古くて、こわれてしまいます。",
+        "ゴルディロックスは疲れています。二階に上がると、ベッドが三つあります。大きいベッドは高すぎます。中くらいのベッドは低すぎます。小さいベッドは寝心地がいいです。女の子は眠ってしまいます。",
+        "くまたちが家に帰ってきます。からっぽのおわんと、こわれたいすを見ます。それから二階に上がり、小さいベッドにいる女の子を見つけます。ゴルディロックスは目を開け、大きくて毛むくじゃらのくまを三びき見ると、窓から飛び出して走って逃げます。",
+        "これがこのお話の教訓です。ほかの人の家は、わたしたちの家ではありません。入る前に、許可をもらわなければなりません。"
+      ],
+      "a2": [
+        "ある朝、三びきのくまがおかゆを作りましたが、熱すぎました。くまたちは散歩に出かけ、ドアを開けたままにしておきました。",
+        "まもなく、金色の髪の女の子がやって来ました。窓からのぞき、だれもいないのを見て、中に入りました。三つのおわんのおかゆを味見して、子ぐまのを全部食べてしまいました。それから三つのいすにすわり、いちばん小さいのをこわしてしまいました。最後に二階に上がり、ベッドに横になって、小さいベッドで眠ってしまいました。",
+        "散歩のあと、くまたちは家に帰りました。お父さんぐまが自分のおわんを見ました。\n「だれかがわたしのおかゆを食べたぞ！」と太い声で言いました。\n「だれかがわたしのおかゆを食べたわ！」とお母さんぐまが言いました。\n「だれかがぼくのおかゆを食べた！」と子ぐまがさけびました。「しかも、全部食べちゃった！」",
+        "それから、いすを見ました。\n「だれかがわたしのいすにすわったぞ！」\n「ぼくのいすをこわしたのはだれ？」と子ぐまは言って、泣き出しました。",
+        "くまたちは二階に上がりました。\n「だれかがぼくのベッドで寝た！」と子ぐまが言いました。「まだここにいるよ！」\nゴルディロックスは目を覚まし、三びきのくまを見ると、窓から飛び出して森へ逃げていきました。それから二度と、だれもその子を見ませんでした。",
+        "このお話は時代とともに大きく変わりました。ロバート・サウジーが1837年にイギリスで出版したとき、くまの家に入ったのは女の子ではなく、行儀の悪いおばあさんでした。女の子が出てくるのは、もっとあとのことです。",
+        "では、科学者たちは？　その名前を借りました。「ゴルディロックスゾーン」とは、惑星が熱すぎも寒すぎもせず、水が液体のままでいられる、恒星からの距離のことです。ちょうど子ぐまのおかゆのように、ちょうどいいのです。"
+      ]
+    }
+  }
+}
