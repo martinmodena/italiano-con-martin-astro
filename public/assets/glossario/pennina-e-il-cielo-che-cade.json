@@ -1,0 +1,1557 @@
+{
+  "id": "pennina-e-il-cielo-che-cade",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la gallina",
+      "forme": [
+        "gallina"
+      ],
+      "formeEsempi": [
+        "galline"
+      ],
+      "esempi": [
+        "La gallina fa l'uovo ogni giorno.",
+        "Nel cortile ci sono tre galline.",
+        "La gallina cerca i semi per terra."
+      ],
+      "traduzioni": {
+        "en": "hen",
+        "es": "gallina",
+        "pt": "galinha",
+        "fr": "poule",
+        "cs": "slepice",
+        "pl": "kura",
+        "tr": "tavuk",
+        "de": "Huhn, Henne",
+        "ja": "めんどり"
+      }
+    },
+    {
+      "parola": "la campagna",
+      "forme": [
+        "campagna"
+      ],
+      "esempi": [
+        "I miei nonni vivono in campagna.",
+        "Domenica andiamo in campagna.",
+        "In campagna l'aria è pulita."
+      ],
+      "traduzioni": {
+        "en": "countryside («in campagna» = in the country)",
+        "es": "campo («in campagna» = en el campo)",
+        "pt": "campo, interior",
+        "fr": "campagne",
+        "cs": "venkov",
+        "pl": "wieś («in campagna» = na wsi)",
+        "tr": "kırsal, köy",
+        "de": "Land («in campagna» = auf dem Land)",
+        "ja": "いなか"
+      }
+    },
+    {
+      "parola": "la quercia",
+      "forme": [
+        "quercia"
+      ],
+      "formeEsempi": [
+        "querce"
+      ],
+      "esempi": [
+        "La quercia è un albero molto forte.",
+        "Ci sediamo all'ombra di una quercia.",
+        "Nel parco ci sono querce di cento anni."
+      ],
+      "traduzioni": {
+        "en": "oak (tree)",
+        "es": "roble",
+        "pt": "carvalho",
+        "fr": "chêne",
+        "cs": "dub",
+        "pl": "dąb",
+        "tr": "meşe",
+        "de": "Eiche",
+        "ja": "かしの木、オーク"
+      }
+    },
+    {
+      "parola": "la ghianda",
+      "forme": [
+        "ghianda"
+      ],
+      "formeEsempi": [
+        "ghiande"
+      ],
+      "esempi": [
+        "Lo scoiattolo mangia una ghianda.",
+        "In autunno le ghiande cadono dalla quercia.",
+        "Il bambino raccoglie le ghiande nel bosco."
+      ],
+      "traduzioni": {
+        "en": "acorn",
+        "es": "bellota",
+        "pt": "bolota, bolota de carvalho",
+        "fr": "gland",
+        "cs": "žalud",
+        "pl": "żołądź",
+        "tr": "meşe palamudu",
+        "de": "Eichel",
+        "ja": "どんぐり"
+      }
+    },
+    {
+      "parola": "cadere",
+      "forme": [
+        "cade",
+        "caduta",
+        "cadendo",
+        "caduto"
+      ],
+      "formeEsempi": [
+        "cadono"
+      ],
+      "esempi": [
+        "Attento, il bicchiere cade!",
+        "Sono caduto dalla bici.",
+        "In autunno le foglie cadono dagli alberi."
+      ],
+      "traduzioni": {
+        "en": "to fall («sta cadendo» = it's falling)",
+        "es": "caer",
+        "pt": "cair",
+        "fr": "tomber",
+        "cs": "padat, spadnout",
+        "pl": "spadać, upaść",
+        "tr": "düşmek",
+        "de": "fallen",
+        "ja": "落ちる"
+      }
+    },
+    {
+      "parola": "il cielo",
+      "forme": [
+        "cielo"
+      ],
+      "esempi": [
+        "Oggi il cielo è azzurro.",
+        "Di notte guardo le stelle nel cielo.",
+        "Il cielo è grigio: forse piove."
+      ],
+      "traduzioni": {
+        "en": "sky",
+        "es": "cielo",
+        "pt": "céu",
+        "fr": "ciel",
+        "cs": "nebe, obloha",
+        "pl": "niebo",
+        "tr": "gökyüzü",
+        "de": "Himmel",
+        "ja": "空"
+      }
+    },
+    {
+      "parola": "aiuto!",
+      "forme": [
+        "aiuto"
+      ],
+      "esempi": [
+        "Aiuto! Non so nuotare!",
+        "Ho bisogno del tuo aiuto.",
+        "Grazie per l'aiuto!"
+      ],
+      "traduzioni": {
+        "en": "help!",
+        "es": "¡socorro!, ayuda",
+        "pt": "socorro!, ajuda",
+        "fr": "au secours !, aide",
+        "cs": "pomoc!",
+        "pl": "pomocy!, pomoc",
+        "tr": "imdat!, yardım",
+        "de": "Hilfe!",
+        "ja": "助けて！、助け"
+      }
+    },
+    {
+      "parola": "il palazzo",
+      "forme": [
+        "palazzo"
+      ],
+      "esempi": [
+        "Il re vive in un grande palazzo.",
+        "Abito al terzo piano di un palazzo.",
+        "A Firenze visitiamo Palazzo Pitti."
+      ],
+      "traduzioni": {
+        "en": "palace (also: building)",
+        "es": "palacio (también: edificio)",
+        "pt": "palácio (também: prédio)",
+        "fr": "palais (aussi : immeuble)",
+        "cs": "palác (také: dům)",
+        "pl": "pałac (też: budynek)",
+        "tr": "saray (ayrıca: bina)",
+        "de": "Palast (auch: Wohnhaus)",
+        "ja": "宮殿（建物の意味も）"
+      }
+    },
+    {
+      "parola": "il re",
+      "forme": [
+        "re"
+      ],
+      "esempi": [
+        "Il re e la regina vivono nel castello.",
+        "Nelle fiabe il re ha sempre una figlia.",
+        "Il re parla al popolo."
+      ],
+      "traduzioni": {
+        "en": "king",
+        "es": "rey",
+        "pt": "rei",
+        "fr": "roi",
+        "cs": "král",
+        "pl": "król",
+        "tr": "kral",
+        "de": "König",
+        "ja": "王さま"
+      }
+    },
+    {
+      "parola": "sapere",
+      "forme": [
+        "sapere",
+        "saputo"
+      ],
+      "formeEsempi": [
+        "sai",
+        "so"
+      ],
+      "esempi": [
+        "Voglio sapere la verità.",
+        "Sai dov'è la stazione?",
+        "Non ho mai saputo il suo nome."
+      ],
+      "traduzioni": {
+        "en": "to know, to find out",
+        "es": "saber, enterarse",
+        "pt": "saber, ficar sabendo",
+        "fr": "savoir, apprendre",
+        "cs": "vědět, dozvědět se",
+        "pl": "wiedzieć, dowiedzieć się",
+        "tr": "bilmek, öğrenmek",
+        "de": "wissen, erfahren",
+        "ja": "知る"
+      }
+    },
+    {
+      "parola": "correre",
+      "forme": [
+        "corre",
+        "correre"
+      ],
+      "formeEsempi": [
+        "corro"
+      ],
+      "esempi": [
+        "Ogni mattina corro nel parco.",
+        "Il cane corre dietro alla palla.",
+        "Non correre, abbiamo tempo!"
+      ],
+      "traduzioni": {
+        "en": "to run, to rush",
+        "es": "correr",
+        "pt": "correr",
+        "fr": "courir",
+        "cs": "běžet",
+        "pl": "biec, biegać",
+        "tr": "koşmak",
+        "de": "laufen, rennen",
+        "ja": "走る、急いで行く"
+      }
+    },
+    {
+      "parola": "incontrare",
+      "forme": [
+        "incontra",
+        "incontrano",
+        "incontrato"
+      ],
+      "formeEsempi": [
+        "incontro"
+      ],
+      "esempi": [
+        "Ieri ho incontrato Paolo al supermercato.",
+        "Incontro i miei amici in piazza.",
+        "Per strada Anna incontra la sua vicina."
+      ],
+      "traduzioni": {
+        "en": "to meet, to run into",
+        "es": "encontrarse con",
+        "pt": "encontrar",
+        "fr": "rencontrer",
+        "cs": "potkat",
+        "pl": "spotkać",
+        "tr": "karşılaşmak",
+        "de": "treffen, begegnen",
+        "ja": "出会う、会う"
+      }
+    },
+    {
+      "parola": "il gallo",
+      "forme": [
+        "gallo"
+      ],
+      "esempi": [
+        "Il gallo canta la mattina presto.",
+        "Il gallo ha la cresta rossa.",
+        "In fattoria c'è un gallo e molte galline."
+      ],
+      "traduzioni": {
+        "en": "rooster, cockerel",
+        "es": "gallo",
+        "pt": "galo",
+        "fr": "coq",
+        "cs": "kohout",
+        "pl": "kogut",
+        "tr": "horoz",
+        "de": "Hahn",
+        "ja": "おんどり"
+      }
+    },
+    {
+      "parola": "l'anatra",
+      "forme": [
+        "anatra"
+      ],
+      "formeEsempi": [
+        "anatre"
+      ],
+      "esempi": [
+        "L'anatra nuota nello stagno.",
+        "Al parco i bambini guardano le anatre.",
+        "L'anatra fa «qua qua»."
+      ],
+      "traduzioni": {
+        "en": "duck",
+        "es": "pato, pata",
+        "pt": "pato, pata",
+        "fr": "canard, cane",
+        "cs": "kachna",
+        "pl": "kaczka",
+        "tr": "ördek",
+        "de": "Ente",
+        "ja": "あひる"
+      }
+    },
+    {
+      "parola": "l'oca",
+      "forme": [
+        "oca"
+      ],
+      "formeEsempi": [
+        "oche"
+      ],
+      "esempi": [
+        "L'oca ha il collo lungo.",
+        "Le oche volano in gruppo.",
+        "Il gioco dell'oca è un gioco da tavolo italiano."
+      ],
+      "traduzioni": {
+        "en": "goose",
+        "es": "oca, ganso",
+        "pt": "gansa, ganso",
+        "fr": "oie",
+        "cs": "husa",
+        "pl": "gęś",
+        "tr": "kaz",
+        "de": "Gans",
+        "ja": "がちょう"
+      }
+    },
+    {
+      "parola": "il tacchino",
+      "forme": [
+        "tacchino"
+      ],
+      "esempi": [
+        "Il tacchino è un uccello grande.",
+        "Nella fattoria c'è un tacchino molto rumoroso.",
+        "Il tacchino fa la ruota con le piume."
+      ],
+      "traduzioni": {
+        "en": "turkey",
+        "es": "pavo",
+        "pt": "peru",
+        "fr": "dindon",
+        "cs": "krocan",
+        "pl": "indyk",
+        "tr": "hindi",
+        "de": "Truthahn",
+        "ja": "七面鳥"
+      }
+    },
+    {
+      "parola": "la volpe",
+      "forme": [
+        "volpe"
+      ],
+      "esempi": [
+        "La volpe ha la coda lunga e rossa.",
+        "Di notte la volpe cerca da mangiare.",
+        "Marco è furbo come una volpe."
+      ],
+      "traduzioni": {
+        "en": "fox",
+        "es": "zorro, zorra",
+        "pt": "raposa",
+        "fr": "renard",
+        "cs": "liška",
+        "pl": "lis",
+        "tr": "tilki",
+        "de": "Fuchs",
+        "ja": "きつね"
+      }
+    },
+    {
+      "parola": "corto",
+      "forme": [
+        "corta"
+      ],
+      "formeEsempi": [
+        "corto",
+        "corti"
+      ],
+      "esempi": [
+        "Questa strada è più corta.",
+        "D'estate porto i pantaloni corti.",
+        "Il film è corto: dura un'ora."
+      ],
+      "traduzioni": {
+        "en": "short",
+        "es": "corto",
+        "pt": "curto",
+        "fr": "court",
+        "cs": "krátký",
+        "pl": "krótki",
+        "tr": "kısa",
+        "de": "kurz",
+        "ja": "短い、近い（道）"
+      }
+    },
+    {
+      "parola": "finire",
+      "forme": [
+        "finisce",
+        "finiva"
+      ],
+      "formeEsempi": [
+        "finisco"
+      ],
+      "esempi": [
+        "La lezione finisce alle cinque.",
+        "Questa strada finisce al mare.",
+        "Finisco il lavoro e arrivo."
+      ],
+      "traduzioni": {
+        "en": "to end, to finish",
+        "es": "terminar, acabar",
+        "pt": "terminar, acabar",
+        "fr": "finir, se terminer",
+        "cs": "končit",
+        "pl": "kończyć się",
+        "tr": "bitmek, son bulmak",
+        "de": "enden, aufhören",
+        "ja": "終わる、行き着く"
+      }
+    },
+    {
+      "parola": "la tana",
+      "forme": [
+        "tana"
+      ],
+      "esempi": [
+        "Il coniglio entra nella sua tana.",
+        "D'inverno l'orso dorme nella tana.",
+        "La volpe esce dalla tana di notte."
+      ],
+      "traduzioni": {
+        "en": "den, burrow",
+        "es": "madriguera",
+        "pt": "toca",
+        "fr": "terrier, tanière",
+        "cs": "nora, doupě",
+        "pl": "nora",
+        "tr": "in, yuva",
+        "de": "Bau, Höhle",
+        "ja": "巣穴"
+      }
+    },
+    {
+      "parola": "sentire",
+      "forme": [
+        "sente",
+        "sentito",
+        "sentirlo"
+      ],
+      "formeEsempi": [
+        "senti",
+        "sento"
+      ],
+      "esempi": [
+        "Senti questa musica?",
+        "Di notte sento un rumore strano.",
+        "Ho sentito il telefono, ma non ho risposto."
+      ],
+      "traduzioni": {
+        "en": "to hear",
+        "es": "oír",
+        "pt": "ouvir",
+        "fr": "entendre",
+        "cs": "slyšet",
+        "pl": "słyszeć",
+        "tr": "duymak",
+        "de": "hören",
+        "ja": "聞こえる"
+      }
+    },
+    {
+      "parola": "il rumore",
+      "forme": [
+        "rumore"
+      ],
+      "formeEsempi": [
+        "rumori"
+      ],
+      "esempi": [
+        "C'è troppo rumore in questa strada.",
+        "Ho sentito un rumore in cucina.",
+        "Non fare rumore, il bambino dorme."
+      ],
+      "traduzioni": {
+        "en": "noise",
+        "es": "ruido",
+        "pt": "barulho",
+        "fr": "bruit",
+        "cs": "hluk, zvuk",
+        "pl": "hałas, odgłos",
+        "tr": "ses, gürültü",
+        "de": "Geräusch, Lärm",
+        "ja": "物音"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappa"
+      ],
+      "formeEsempi": [
+        "scappo",
+        "scappato"
+      ],
+      "esempi": [
+        "Il gatto scappa quando vede il cane.",
+        "Scusa, scappo: ho il treno!",
+        "Il ladro è scappato dalla finestra."
+      ],
+      "traduzioni": {
+        "en": "to run away, to escape",
+        "es": "escapar, huir",
+        "pt": "fugir",
+        "fr": "s’enfuir, se sauver",
+        "cs": "utéct",
+        "pl": "uciekać",
+        "tr": "kaçmak",
+        "de": "weglaufen, fliehen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "sopra",
+      "forme": [
+        "sopra"
+      ],
+      "esempi": [
+        "Il libro è sopra il tavolo.",
+        "Abito sopra un bar.",
+        "Sopra le nuvole c'è sempre il sole."
+      ],
+      "traduzioni": {
+        "en": "above, on top of",
+        "es": "encima de, sobre",
+        "pt": "em cima de, sobre",
+        "fr": "au-dessus de, sur",
+        "cs": "nad",
+        "pl": "nad",
+        "tr": "üstünde",
+        "de": "über",
+        "ja": "〜の上に"
+      }
+    },
+    {
+      "parola": "la testa",
+      "forme": [
+        "testa"
+      ],
+      "esempi": [
+        "Ho mal di testa.",
+        "Mettiti il cappello in testa.",
+        "Il bambino dice di no con la testa."
+      ],
+      "traduzioni": {
+        "en": "head",
+        "es": "cabeza",
+        "pt": "cabeça",
+        "fr": "tête",
+        "cs": "hlava",
+        "pl": "głowa",
+        "tr": "baş, kafa",
+        "de": "Kopf",
+        "ja": "頭"
+      }
+    },
+    {
+      "parola": "credere",
+      "forme": [
+        "credere"
+      ],
+      "formeEsempi": [
+        "credo",
+        "credi"
+      ],
+      "esempi": [
+        "Non credo a quello che dice.",
+        "Mi credi? È vero!",
+        "Non devi credere a tutte le notizie di internet."
+      ],
+      "traduzioni": {
+        "en": "to believe",
+        "es": "creer",
+        "pt": "acreditar",
+        "fr": "croire",
+        "cs": "věřit",
+        "pl": "wierzyć",
+        "tr": "inanmak",
+        "de": "glauben",
+        "ja": "信じる"
+      }
+    },
+    {
+      "parola": "subito",
+      "forme": [
+        "subito"
+      ],
+      "esempi": [
+        "Arrivo subito!",
+        "Ha capito subito il problema.",
+        "Rispondi subito, è importante."
+      ],
+      "traduzioni": {
+        "en": "right away, immediately",
+        "es": "enseguida, en seguida",
+        "pt": "logo, imediatamente",
+        "fr": "tout de suite",
+        "cs": "hned",
+        "pl": "od razu",
+        "tr": "hemen",
+        "de": "sofort",
+        "ja": "すぐに"
+      }
+    },
+    {
+      "parola": "a volte",
+      "forme": [
+        "volte"
+      ],
+      "esempi": [
+        "A volte vado al lavoro in bici.",
+        "A volte è meglio stare zitti.",
+        "L'ho detto tre volte!"
+      ],
+      "traduzioni": {
+        "en": "sometimes («tre volte» = three times)",
+        "es": "a veces",
+        "pt": "às vezes",
+        "fr": "parfois",
+        "cs": "někdy",
+        "pl": "czasami",
+        "tr": "bazen",
+        "de": "manchmal",
+        "ja": "ときどき"
+      }
+    },
+    {
+      "parola": "beccare",
+      "forme": [
+        "beccava"
+      ],
+      "formeEsempi": [
+        "becca",
+        "beccano"
+      ],
+      "esempi": [
+        "La gallina becca il grano.",
+        "I piccioni beccano le briciole in piazza.",
+        "Il pulcino beccava i semi vicino alla mamma."
+      ],
+      "traduzioni": {
+        "en": "to peck",
+        "es": "picotear",
+        "pt": "bicar, ciscar",
+        "fr": "picorer",
+        "cs": "zobat",
+        "pl": "dziobać",
+        "tr": "gagalamak",
+        "de": "picken",
+        "ja": "ついばむ"
+      }
+    },
+    {
+      "parola": "tranquillo",
+      "forme": [
+        "tranquilla"
+      ],
+      "formeEsempi": [
+        "tranquillo"
+      ],
+      "esempi": [
+        "Stai tranquillo, va tutto bene.",
+        "È una ragazza tranquilla.",
+        "Abito in una strada tranquilla."
+      ],
+      "traduzioni": {
+        "en": "calm, peaceful",
+        "es": "tranquilo",
+        "pt": "tranquilo, sossegado",
+        "fr": "tranquille",
+        "cs": "klidný, v klidu",
+        "pl": "spokojny, spokojnie",
+        "tr": "sakin, huzur içinde",
+        "de": "ruhig",
+        "ja": "のんびりと、おだやかな"
+      }
+    },
+    {
+      "parola": "in alto",
+      "forme": [
+        "alto"
+      ],
+      "esempi": [
+        "Guarda in alto: c'è un aereo!",
+        "Il gatto è salito in alto sull'albero.",
+        "Metti i bicchieri in alto, nell'armadio."
+      ],
+      "traduzioni": {
+        "en": "up, upwards («guardare in alto» = to look up)",
+        "es": "arriba, hacia arriba",
+        "pt": "para cima, no alto",
+        "fr": "en haut, vers le haut",
+        "cs": "nahoru",
+        "pl": "w górę",
+        "tr": "yukarı",
+        "de": "nach oben",
+        "ja": "上を、上に"
+      }
+    },
+    {
+      "parola": "decidere",
+      "forme": [
+        "deciso"
+      ],
+      "formeEsempi": [
+        "decido"
+      ],
+      "esempi": [
+        "Ho deciso di imparare l'italiano.",
+        "Non decido mai cosa mangiare.",
+        "Abbiamo deciso: andiamo in Sicilia!"
+      ],
+      "traduzioni": {
+        "en": "to decide",
+        "es": "decidir",
+        "pt": "decidir",
+        "fr": "décider",
+        "cs": "rozhodnout se",
+        "pl": "zdecydować",
+        "tr": "karar vermek",
+        "de": "entscheiden, beschließen",
+        "ja": "決める"
+      }
+    },
+    {
+      "parola": "il disastro",
+      "forme": [
+        "disastro"
+      ],
+      "esempi": [
+        "Che disastro, ho perso il treno!",
+        "La mia cucina è un disastro.",
+        "La festa è stata un disastro: pioveva."
+      ],
+      "traduzioni": {
+        "en": "disaster",
+        "es": "desastre",
+        "pt": "desastre",
+        "fr": "catastrophe, désastre",
+        "cs": "katastrofa",
+        "pl": "katastrofa",
+        "tr": "felaket",
+        "de": "Katastrophe",
+        "ja": "大変なこと、大惨事"
+      }
+    },
+    {
+      "parola": "salvare",
+      "forme": [
+        "salvarci"
+      ],
+      "formeEsempi": [
+        "salva",
+        "salvato"
+      ],
+      "esempi": [
+        "Il medico ha salvato il bambino.",
+        "Il pompiere salva il gatto dall'albero.",
+        "Solo tu puoi salvarci!"
+      ],
+      "traduzioni": {
+        "en": "to save, to rescue",
+        "es": "salvar",
+        "pt": "salvar",
+        "fr": "sauver",
+        "cs": "zachránit",
+        "pl": "uratować",
+        "tr": "kurtarmak",
+        "de": "retten",
+        "ja": "救う、助ける"
+      }
+    },
+    {
+      "parola": "di fretta",
+      "forme": [
+        "fretta"
+      ],
+      "esempi": [
+        "Scusa, sono di fretta.",
+        "Ho mangiato di fretta.",
+        "Non ho fretta, aspetto."
+      ],
+      "traduzioni": {
+        "en": "in a hurry",
+        "es": "con prisa, deprisa",
+        "pt": "com pressa",
+        "fr": "pressé, à la hâte",
+        "cs": "ve spěchu",
+        "pl": "w pośpiechu",
+        "tr": "aceleyle",
+        "de": "in Eile",
+        "ja": "急いで"
+      }
+    },
+    {
+      "parola": "avvisare",
+      "forme": [
+        "avvisare"
+      ],
+      "formeEsempi": [
+        "avviso",
+        "avvisato",
+        "avvisami"
+      ],
+      "esempi": [
+        "Se arrivi tardi, avvisami.",
+        "Ho avvisato la scuola che mio figlio è malato.",
+        "Devo avvisare il capo."
+      ],
+      "traduzioni": {
+        "en": "to warn, to let know",
+        "es": "avisar",
+        "pt": "avisar",
+        "fr": "prévenir, avertir",
+        "cs": "varovat, dát vědět",
+        "pl": "ostrzec, uprzedzić",
+        "tr": "haber vermek, uyarmak",
+        "de": "warnen, Bescheid sagen",
+        "ja": "知らせる"
+      }
+    },
+    {
+      "parola": "spaventato",
+      "forme": [
+        "spaventato"
+      ],
+      "formeEsempi": [
+        "spaventata"
+      ],
+      "esempi": [
+        "Il cane è spaventato dai fuochi d'artificio.",
+        "Ho visto un ragno e sono spaventata.",
+        "Il bambino spaventato chiama la mamma."
+      ],
+      "traduzioni": {
+        "en": "frightened, scared",
+        "es": "asustado",
+        "pt": "assustado",
+        "fr": "effrayé",
+        "cs": "vyděšený",
+        "pl": "przestraszony",
+        "tr": "korkmuş",
+        "de": "erschrocken, verängstigt",
+        "ja": "こわがった"
+      }
+    },
+    {
+      "parola": "unirsi",
+      "forme": [
+        "uniti"
+      ],
+      "formeEsempi": [
+        "unisco",
+        "unirti"
+      ],
+      "esempi": [
+        "Vuoi unirti a noi per cena?",
+        "Mi unisco al gruppo più tardi.",
+        "Altri amici si sono uniti alla festa."
+      ],
+      "traduzioni": {
+        "en": "to join",
+        "es": "unirse",
+        "pt": "juntar-se",
+        "fr": "se joindre à",
+        "cs": "přidat se",
+        "pl": "przyłączyć się",
+        "tr": "katılmak",
+        "de": "sich anschließen",
+        "ja": "加わる"
+      }
+    },
+    {
+      "parola": "la prova",
+      "forme": [
+        "prove"
+      ],
+      "formeEsempi": [
+        "prova"
+      ],
+      "esempi": [
+        "La polizia cerca le prove.",
+        "Hai una prova di quello che dici?",
+        "Senza prove non posso crederti."
+      ],
+      "traduzioni": {
+        "en": "proof, evidence",
+        "es": "prueba",
+        "pt": "prova",
+        "fr": "preuve",
+        "cs": "důkaz",
+        "pl": "dowód",
+        "tr": "kanıt",
+        "de": "Beweis",
+        "ja": "証拠"
+      }
+    },
+    {
+      "parola": "il pezzo",
+      "forme": [
+        "pezzo"
+      ],
+      "esempi": [
+        "Vuoi un pezzo di torta?",
+        "Ho trovato un pezzo di vetro.",
+        "Il vaso è in mille pezzi."
+      ],
+      "traduzioni": {
+        "en": "piece",
+        "es": "trozo, pedazo",
+        "pt": "pedaço",
+        "fr": "morceau",
+        "cs": "kus",
+        "pl": "kawałek",
+        "tr": "parça",
+        "de": "Stück",
+        "ja": "かけら、一切れ"
+      },
+      "formeEsempi": [
+        "pezzi"
+      ]
+    },
+    {
+      "parola": "il bosco",
+      "forme": [
+        "bosco"
+      ],
+      "esempi": [
+        "Facciamo una passeggiata nel bosco.",
+        "Nel bosco ci sono i funghi.",
+        "Il bosco è pieno di uccelli."
+      ],
+      "traduzioni": {
+        "en": "woods, forest",
+        "es": "bosque",
+        "pt": "bosque, mata",
+        "fr": "bois, forêt",
+        "cs": "les",
+        "pl": "las",
+        "tr": "orman, koru",
+        "de": "Wald",
+        "ja": "森、林"
+      }
+    },
+    {
+      "parola": "il sorriso",
+      "forme": [
+        "sorriso"
+      ],
+      "esempi": [
+        "Ha un sorriso bellissimo.",
+        "Mi saluta sempre con un sorriso.",
+        "Il suo sorriso mi mette di buon umore."
+      ],
+      "traduzioni": {
+        "en": "smile",
+        "es": "sonrisa",
+        "pt": "sorriso",
+        "fr": "sourire",
+        "cs": "úsměv",
+        "pl": "uśmiech",
+        "tr": "gülümseme",
+        "de": "Lächeln",
+        "ja": "笑顔"
+      }
+    },
+    {
+      "parola": "gentile",
+      "forme": [
+        "gentile"
+      ],
+      "esempi": [
+        "Grazie, sei molto gentile.",
+        "La commessa è stata gentile con me.",
+        "Sii gentile con tua sorella."
+      ],
+      "traduzioni": {
+        "en": "kind, friendly",
+        "es": "amable",
+        "pt": "gentil, amável",
+        "fr": "gentil, aimable",
+        "cs": "laskavý, milý",
+        "pl": "uprzejmy, miły",
+        "tr": "nazik",
+        "de": "freundlich, nett",
+        "ja": "やさしい、親切な"
+      }
+    },
+    {
+      "parola": "mostrare",
+      "forme": [
+        "mostrarvi"
+      ],
+      "formeEsempi": [
+        "mostro",
+        "mostra"
+      ],
+      "esempi": [
+        "Ti mostro la mia nuova casa.",
+        "La guida mostra il museo ai turisti.",
+        "Posso mostrarvi le foto del viaggio?"
+      ],
+      "traduzioni": {
+        "en": "to show",
+        "es": "mostrar, enseñar",
+        "pt": "mostrar",
+        "fr": "montrer",
+        "cs": "ukázat",
+        "pl": "pokazać",
+        "tr": "göstermek",
+        "de": "zeigen",
+        "ja": "見せる、教える"
+      }
+    },
+    {
+      "parola": "la scorciatoia",
+      "forme": [
+        "scorciatoia"
+      ],
+      "esempi": [
+        "Prendiamo una scorciatoia per arrivare prima.",
+        "Conosco una scorciatoia nel parco.",
+        "Nella vita non ci sono scorciatoie."
+      ],
+      "traduzioni": {
+        "en": "shortcut",
+        "es": "atajo",
+        "pt": "atalho",
+        "fr": "raccourci",
+        "cs": "zkratka",
+        "pl": "skrót",
+        "tr": "kestirme yol",
+        "de": "Abkürzung",
+        "ja": "近道"
+      },
+      "formeEsempi": [
+        "scorciatoie"
+      ]
+    },
+    {
+      "parola": "la fortuna",
+      "forme": [
+        "fortuna"
+      ],
+      "esempi": [
+        "Buona fortuna per l'esame!",
+        "Che fortuna, il treno è in ritardo e lo prendo!",
+        "Ho avuto la fortuna di conoscerlo."
+      ],
+      "traduzioni": {
+        "en": "luck",
+        "es": "suerte",
+        "pt": "sorte",
+        "fr": "chance",
+        "cs": "štěstí",
+        "pl": "szczęście",
+        "tr": "şans",
+        "de": "Glück",
+        "ja": "運、幸運"
+      }
+    },
+    {
+      "parola": "seguire",
+      "forme": [
+        "seguita"
+      ],
+      "formeEsempi": [
+        "seguo",
+        "seguimi",
+        "segue",
+        "seguito"
+      ],
+      "esempi": [
+        "Seguimi, ti porto io.",
+        "Il cane mi segue dappertutto.",
+        "Ho seguito la guida per tutto il giro."
+      ],
+      "traduzioni": {
+        "en": "to follow",
+        "es": "seguir",
+        "pt": "seguir",
+        "fr": "suivre",
+        "cs": "následovat, jít za",
+        "pl": "iść za",
+        "tr": "peşinden gitmek",
+        "de": "folgen",
+        "ja": "ついて行く"
+      }
+    },
+    {
+      "parola": "uno dopo l'altro",
+      "forme": [
+        "altro"
+      ],
+      "esempi": [
+        "Gli ospiti arrivano uno dopo l'altro.",
+        "Ho letto i libri uno dopo l'altro.",
+        "I problemi arrivano uno dopo l'altro."
+      ],
+      "traduzioni": {
+        "en": "one after another",
+        "es": "uno tras otro",
+        "pt": "um depois do outro",
+        "fr": "l’un après l’autre",
+        "cs": "jeden po druhém",
+        "pl": "jeden po drugim",
+        "tr": "birbiri ardına",
+        "de": "einer nach dem anderen",
+        "ja": "次々に"
+      }
+    },
+    {
+      "parola": "l'ultimo",
+      "forme": [
+        "ultima"
+      ],
+      "formeEsempi": [
+        "ultimo"
+      ],
+      "esempi": [
+        "Sono l'ultimo della fila.",
+        "È l'ultima volta che te lo dico!",
+        "L'ultimo treno parte a mezzanotte."
+      ],
+      "traduzioni": {
+        "en": "the last (one)",
+        "es": "el último, la última",
+        "pt": "o último, a última",
+        "fr": "le dernier, la dernière",
+        "cs": "poslední",
+        "pl": "ostatni",
+        "tr": "sonuncu",
+        "de": "der/die Letzte",
+        "ja": "最後の"
+      }
+    },
+    {
+      "parola": "di corsa",
+      "forme": [
+        "corsa"
+      ],
+      "esempi": [
+        "Sono uscito di corsa: ero in ritardo.",
+        "Il bambino torna a casa di corsa.",
+        "Ho fatto colazione di corsa."
+      ],
+      "traduzioni": {
+        "en": "in a rush, running",
+        "es": "corriendo, a toda prisa",
+        "pt": "correndo, às pressas",
+        "fr": "en courant, à toute vitesse",
+        "cs": "během, utíkej",
+        "pl": "biegiem",
+        "tr": "koşarak",
+        "de": "im Laufschritt, eilig",
+        "ja": "走って、大急ぎで"
+      }
+    },
+    {
+      "parola": "naturalmente",
+      "forme": [
+        "naturalmente"
+      ],
+      "esempi": [
+        "Naturalmente puoi venire anche tu.",
+        "Il treno, naturalmente, era in ritardo.",
+        "Vieni alla festa? Naturalmente!"
+      ],
+      "traduzioni": {
+        "en": "of course, naturally",
+        "es": "naturalmente, por supuesto",
+        "pt": "naturalmente, claro",
+        "fr": "naturellement, bien sûr",
+        "cs": "samozřejmě",
+        "pl": "oczywiście",
+        "tr": "tabii ki, elbette",
+        "de": "natürlich",
+        "ja": "もちろん"
+      }
+    },
+    {
+      "parola": "la rima",
+      "forme": [
+        "rima"
+      ],
+      "esempi": [
+        "«Cuore» fa rima con «amore».",
+        "I bambini amano le poesie in rima.",
+        "Trova una parola in rima con «sole»."
+      ],
+      "traduzioni": {
+        "en": "rhyme («in rima» = rhyming)",
+        "es": "rima",
+        "pt": "rima",
+        "fr": "rime",
+        "cs": "rým",
+        "pl": "rym",
+        "tr": "kafiye",
+        "de": "Reim",
+        "ja": "韻"
+      }
+    },
+    {
+      "parola": "dappertutto",
+      "forme": [
+        "dappertutto"
+      ],
+      "esempi": [
+        "Ho cercato le chiavi dappertutto.",
+        "In primavera ci sono fiori dappertutto.",
+        "Il mio cane mi segue dappertutto."
+      ],
+      "traduzioni": {
+        "en": "everywhere",
+        "es": "por todas partes",
+        "pt": "por toda parte",
+        "fr": "partout",
+        "cs": "všude",
+        "pl": "wszędzie",
+        "tr": "her yerde",
+        "de": "überall",
+        "ja": "どこにでも"
+      }
+    },
+    {
+      "parola": "la notizia",
+      "forme": [
+        "notizia"
+      ],
+      "formeEsempi": [
+        "notizie"
+      ],
+      "esempi": [
+        "Ho una bella notizia: aspetto un bambino!",
+        "Leggo le notizie sul telefono.",
+        "Questa notizia è falsa."
+      ],
+      "traduzioni": {
+        "en": "piece of news",
+        "es": "noticia",
+        "pt": "notícia",
+        "fr": "nouvelle, information",
+        "cs": "zpráva",
+        "pl": "wiadomość",
+        "tr": "haber",
+        "de": "Nachricht",
+        "ja": "ニュース、知らせ"
+      }
+    },
+    {
+      "parola": "diffondere",
+      "forme": [
+        "diffonderla"
+      ],
+      "formeEsempi": [
+        "diffonde",
+        "diffondere"
+      ],
+      "esempi": [
+        "Non diffondere notizie false.",
+        "Internet diffonde le informazioni in pochi secondi.",
+        "Ho sentito una voce, ma non voglio diffonderla."
+      ],
+      "traduzioni": {
+        "en": "to spread",
+        "es": "difundir",
+        "pt": "espalhar, divulgar",
+        "fr": "diffuser, répandre",
+        "cs": "šířit",
+        "pl": "rozpowszechniać",
+        "tr": "yaymak",
+        "de": "verbreiten",
+        "ja": "広める"
+      }
+    },
+    {
+      "parola": "controllare",
+      "forme": [
+        "controllarla"
+      ],
+      "formeEsempi": [
+        "controllo",
+        "controlla"
+      ],
+      "esempi": [
+        "Controllo l'orario del treno.",
+        "Controlla bene prima di uscire!",
+        "È una notizia strana: dobbiamo controllarla."
+      ],
+      "traduzioni": {
+        "en": "to check",
+        "es": "comprobar, verificar",
+        "pt": "verificar, conferir",
+        "fr": "vérifier",
+        "cs": "ověřit, zkontrolovat",
+        "pl": "sprawdzić",
+        "tr": "kontrol etmek, doğrulamak",
+        "de": "überprüfen",
+        "ja": "確かめる"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Pennina is a hen. She lives on a farm, in the countryside. One day she's eating under an oak tree. Tock! An acorn falls on her.",
+        "“Help! The sky is falling!” cries Pennina. “I must go to the palace, to the king. The king must know!”",
+        "Pennina runs along the road. She meets Cristallo, the rooster.\n“Where are you going, Pennina?”\n“I'm going to the king. The sky is falling!”\n“I'll come with you!” says Cristallo.",
+        "Then they meet Patata, the duck, and Ocarina, the goose. Then Birichino, the turkey. They all go with Pennina: “Let's go to the king! The sky is falling!”",
+        "Among the trees there's a fox. Her name is Volpona.\n“Where are you going, friends?”\n“We're going to the palace, to the king. The sky is falling!”\n“I know a short way,” says Volpona. “Come with me!”",
+        "The animals go with the fox. But the short way ends in a den: it's Volpona's home. Birichino goes in, then Ocarina, then Patata, then Cristallo… and they never come out.",
+        "Pennina hears a noise and runs home, to the farm. She doesn't go to the king any more. And the sky? The sky is still there, above her head.",
+        "That's the moral of the fable: we mustn't believe everything straight away. Before running and shouting, it's better to look carefully: sometimes it's only an acorn."
+      ],
+      "a2": [
+        "One autumn morning the hen Pennina was pecking peacefully under a big oak tree, when an acorn fell on her head. Pennina didn't look up: she decided at once that the sky was falling.",
+        "“What a disaster!” she cried. “I must run to the king! The king must know everything, and he must save us!”",
+        "Along the road she met Cristallo the rooster.\n“Where are you going in such a hurry?”\n“The sky is falling! I must warn the king.”\n“Can I come with you?” asked Cristallo, frightened.",
+        "After a while Patata the duck, Ocarina the goose and Birichino the turkey joined them. Nobody asked for proof, nobody wanted to see the piece of sky that had fallen: they all just wanted to run to the king.",
+        "Near the woods Volpona the fox was waiting for them, with her kindest smile.\n“Where are you going, dear friends?”\n“The sky is falling and we must tell the king!”\n“But the road is long. If you like, I can show you a shortcut.”",
+        "The animals couldn't believe their luck and followed her. But the shortcut ended right in the fox's den. One after another, the turkey, the goose, the duck and the rooster went in, and nobody came out again.",
+        "Pennina was the last. She heard the rooster shout “Run!”, and she didn't need to hear it twice: she ran all the way home. The king never found out, and the sky, of course, never fell.",
+        "In English this fable is called «Henny Penny» or «Chicken Little», and the animals have rhyming names: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey and Foxy Loxy. Joseph Jacobs published it in 1890 in his English Fairy Tales. Even today, someone who sees catastrophes everywhere is «a Chicken Little». The moral: before believing a piece of news, and above all before spreading it, you should check it."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Pennina es una gallina. Vive en una granja, en el campo. Un día come debajo de un roble. ¡Toc! Una bellota le cae encima.",
+        "– ¡Socorro! ¡El cielo se cae! – grita Pennina. – Tengo que ir al palacio, a ver al rey. ¡El rey tiene que saberlo!",
+        "Pennina corre por el camino. Se encuentra con Cristallo, el gallo.\n– ¿Adónde vas, Pennina?\n– Voy a ver al rey. ¡El cielo se cae!\n– ¡Voy contigo! – dice Cristallo.",
+        "Luego se encuentran con Patata, la pata, y Ocarina, la oca. Luego con Birichino, el pavo. Todos van con Pennina: «¡Vamos a ver al rey! ¡El cielo se cae!».",
+        "Entre los árboles hay una zorra. Se llama Volpona.\n– ¿Adónde vais, amigos?\n– Vamos al palacio, a ver al rey. ¡El cielo se cae!\n– Conozco un camino corto – dice Volpona. – ¡Venid conmigo!",
+        "Los animales van con la zorra. Pero el camino corto termina en una madriguera: es la casa de Volpona. Entra Birichino, luego Ocarina, luego Patata, luego Cristallo… y ya no salen.",
+        "Pennina oye un ruido y escapa a casa, a la granja. Ya no va a ver al rey. ¿Y el cielo? El cielo sigue ahí, encima de su cabeza.",
+        "Es la moraleja de la fábula: no debemos creérnoslo todo enseguida. Antes de correr y gritar, es mejor mirar bien: a veces es solo una bellota."
+      ],
+      "a2": [
+        "Una mañana de otoño la gallina Pennina picoteaba tranquila debajo de un gran roble, cuando le cayó una bellota en la cabeza. Pennina no miró hacia arriba: decidió enseguida que el cielo se estaba cayendo.",
+        "– ¡Qué desastre! – gritó. – ¡Tengo que correr a ver al rey! El rey tiene que saberlo todo, ¡y tiene que salvarnos!",
+        "Por el camino se encontró con el gallo Cristallo.\n– ¿Adónde vas con tanta prisa?\n– ¡El cielo se está cayendo! Tengo que avisar al rey.\n– ¿Puedo ir contigo? – preguntó Cristallo, asustado.",
+        "Al cabo de un rato se les unieron la pata Patata, la oca Ocarina y el pavo Birichino. Nadie pidió pruebas, nadie quiso ver el trozo de cielo caído: todos solo querían correr a ver al rey.",
+        "Cerca del bosque los esperaba la zorra Volpona, con su sonrisa más amable.\n– ¿Adónde vais, queridos amigos?\n– ¡El cielo se está cayendo y tenemos que decírselo al rey!\n– Pero el camino es largo. Si queréis, puedo enseñaros un atajo.",
+        "Los animales no podían creerse su suerte y la siguieron. Pero el atajo terminaba directamente en la madriguera de la zorra. Uno tras otro, el pavo, la oca, la pata y el gallo entraron, y ninguno volvió a salir.",
+        "Pennina era la última. Oyó al gallo gritar «¡Huye!», y no tuvo que oírlo dos veces: volvió a casa corriendo. El rey nunca se enteró de nada, y el cielo, naturalmente, nunca se cayó.",
+        "En inglés esta fábula se llama «Henny Penny» o «Chicken Little», y los animales tienen nombres que riman: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey y Foxy Loxy. Joseph Jacobs la publicó en 1890 en sus English Fairy Tales. Todavía hoy, a quien ve catástrofes por todas partes se le llama «a Chicken Little». La moraleja: antes de creerse una noticia, y sobre todo antes de difundirla, hay que comprobarla."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Pennina é uma galinha. Mora numa fazenda, no campo. Um dia ela está comendo debaixo de um carvalho. Toc! Uma bolota cai em cima dela.",
+        "– Socorro! O céu está caindo! – grita Pennina. – Tenho que ir ao palácio, falar com o rei. O rei precisa saber!",
+        "Pennina corre pela estrada. Encontra Cristallo, o galo.\n– Aonde você vai, Pennina?\n– Vou falar com o rei. O céu está caindo!\n– Vou com você! – diz Cristallo.",
+        "Depois encontram Patata, a pata, e Ocarina, a gansa. Depois Birichino, o peru. Todos vão com Pennina: «Vamos falar com o rei! O céu está caindo!»",
+        "No meio das árvores tem uma raposa. Ela se chama Volpona.\n– Aonde vocês vão, amigos?\n– Vamos ao palácio, falar com o rei. O céu está caindo!\n– Conheço um caminho curto – diz Volpona. – Venham comigo!",
+        "Os animais vão com a raposa. Mas o caminho curto termina numa toca: é a casa da Volpona. Birichino entra, depois Ocarina, depois Patata, depois Cristallo… e eles não saem mais.",
+        "Pennina ouve um barulho e foge para casa, para a fazenda. Não vai mais falar com o rei. E o céu? O céu continua lá, em cima da cabeça dela.",
+        "Essa é a moral da fábula: não devemos acreditar em tudo logo de cara. Antes de correr e gritar, é melhor olhar bem: às vezes é só uma bolota."
+      ],
+      "a2": [
+        "Numa manhã de outono, a galinha Pennina ciscava tranquila debaixo de um grande carvalho, quando uma bolota caiu na cabeça dela. Pennina não olhou para cima: decidiu logo que o céu estava caindo.",
+        "– Que desastre! – gritou. – Tenho que correr até o rei! O rei precisa saber de tudo, e precisa nos salvar!",
+        "No caminho encontrou o galo Cristallo.\n– Aonde você vai com tanta pressa?\n– O céu está caindo! Tenho que avisar o rei.\n– Posso ir com você? – perguntou Cristallo, assustado.",
+        "Depois de um tempo, juntaram-se a eles a pata Patata, a gansa Ocarina e o peru Birichino. Ninguém pediu provas, ninguém quis ver o pedaço de céu que tinha caído: todos só queriam correr até o rei.",
+        "Perto do bosque, a raposa Volpona esperava por eles, com o seu sorriso mais gentil.\n– Aonde vocês vão, queridos amigos?\n– O céu está caindo e precisamos contar ao rei!\n– Mas o caminho é longo. Se quiserem, posso mostrar um atalho.",
+        "Os animais não acreditavam na própria sorte e foram atrás dela. Só que o atalho terminava direto na toca da raposa. Um depois do outro, o peru, a gansa, a pata e o galo entraram, e ninguém saiu mais.",
+        "Pennina era a última. Ouviu o galo gritar «Foge!», e não precisou ouvir duas vezes: voltou para casa correndo. O rei nunca ficou sabendo de nada, e o céu, naturalmente, nunca caiu.",
+        "Em inglês esta fábula se chama «Henny Penny» ou «Chicken Little», e os animais têm nomes que rimam: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey e Foxy Loxy. Joseph Jacobs a publicou em 1890 nos seus English Fairy Tales. Até hoje, quem vê catástrofe em tudo é chamado de «a Chicken Little». A moral: antes de acreditar numa notícia, e principalmente antes de espalhá-la, é preciso verificar."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Pennina est une poule. Elle vit dans une ferme, à la campagne. Un jour, elle mange sous un chêne. Toc ! Un gland tombe sur elle.",
+        "– Au secours ! Le ciel tombe ! – crie Pennina. – Je dois aller au palais, voir le roi. Le roi doit savoir !",
+        "Pennina court sur la route. Elle rencontre Cristallo, le coq.\n– Où vas-tu, Pennina ?\n– Je vais voir le roi. Le ciel tombe !\n– Je viens avec toi ! – dit Cristallo.",
+        "Puis ils rencontrent Patata, la cane, et Ocarina, l’oie. Puis Birichino, le dindon. Tous vont avec Pennina : « Allons voir le roi ! Le ciel tombe ! »",
+        "Entre les arbres, il y a une renarde. Elle s’appelle Volpona.\n– Où allez-vous, mes amis ?\n– Nous allons au palais, voir le roi. Le ciel tombe !\n– Je connais un chemin court – dit Volpona. – Venez avec moi !",
+        "Les animaux suivent la renarde. Mais le chemin court finit dans un terrier : c’est la maison de Volpona. Birichino entre, puis Ocarina, puis Patata, puis Cristallo… et ils ne ressortent plus.",
+        "Pennina entend un bruit et se sauve à la maison, à la ferme. Elle ne va plus voir le roi. Et le ciel ? Le ciel est toujours là, au-dessus de sa tête.",
+        "C’est la morale de la fable : il ne faut pas tout croire tout de suite. Avant de courir et de crier, il vaut mieux bien regarder : parfois, c’est seulement un gland."
+      ],
+      "a2": [
+        "Un matin d’automne, la poule Pennina picorait tranquillement sous un grand chêne, quand un gland lui est tombé sur la tête. Pennina n’a pas regardé en l’air : elle a tout de suite décidé que le ciel était en train de tomber.",
+        "– Quelle catastrophe ! – a-t-elle crié. – Je dois courir chez le roi ! Le roi doit tout savoir, et il doit nous sauver !",
+        "En chemin, elle a rencontré le coq Cristallo.\n– Où vas-tu si vite ?\n– Le ciel est en train de tomber ! Je dois prévenir le roi.\n– Je peux venir avec toi ? – a demandé Cristallo, effrayé.",
+        "Un peu plus tard, la cane Patata, l’oie Ocarina et le dindon Birichino se sont joints à eux. Personne n’a demandé de preuves, personne n’a voulu voir le morceau de ciel tombé : tous voulaient seulement courir chez le roi.",
+        "Près du bois, la renarde Volpona les attendait, avec son plus gentil sourire.\n– Où allez-vous, mes chers amis ?\n– Le ciel est en train de tomber et nous devons le dire au roi !\n– Mais la route est longue. Si vous voulez, je peux vous montrer un raccourci.",
+        "Les animaux n’en croyaient pas leur chance et l’ont suivie. Mais le raccourci finissait tout droit dans le terrier de la renarde. L’un après l’autre, le dindon, l’oie, la cane et le coq sont entrés, et personne n’est ressorti.",
+        "Pennina était la dernière. Elle a entendu le coq crier « Sauve-toi ! », et elle ne se l’est pas fait dire deux fois : elle est rentrée chez elle en courant. Le roi n’a jamais rien su, et le ciel, naturellement, n’est jamais tombé.",
+        "En anglais, cette fable s’appelle « Henny Penny » ou « Chicken Little », et les animaux ont des noms qui riment : Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey et Foxy Loxy. Joseph Jacobs l’a publiée en 1890 dans ses English Fairy Tales. Aujourd’hui encore, quelqu’un qui voit des catastrophes partout est « a Chicken Little ». La morale : avant de croire une nouvelle, et surtout avant de la répandre, il faut la vérifier."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Pennina je slepice. Žije na statku, na venkově. Jednoho dne jí pod dubem. Ťuk! Spadne na ni žalud.",
+        "– Pomoc! Nebe padá! – křičí Pennina. – Musím jít do paláce, za králem. Král to musí vědět!",
+        "Pennina běží po cestě. Potká Cristalla, kohouta.\n– Kam jdeš, Pennino?\n– Jdu za králem. Nebe padá!\n– Jdu s tebou! – řekne Cristallo.",
+        "Pak potkají Patatu, kachnu, a Ocarinu, husu. Potom Birichina, krocana. Všichni jdou s Penninou: „Jdeme za králem! Nebe padá!“",
+        "Mezi stromy je liška. Jmenuje se Volpona.\n– Kam jdete, přátelé?\n– Jdeme do paláce, za králem. Nebe padá!\n– Znám krátkou cestu, – řekne Volpona. – Pojďte se mnou!",
+        "Zvířata jdou s liškou. Ale krátká cesta končí v noře: je to Volponin domov. Birichino vejde, pak Ocarina, pak Patata, pak Cristallo… a už nevyjdou.",
+        "Pennina uslyší hluk a uteče domů, na statek. Za králem už nejde. A nebe? Nebe je pořád tam, nad její hlavou.",
+        "To je ponaučení z bajky: nemáme hned všemu věřit. Než začneme běhat a křičet, je lepší se dobře podívat: někdy je to jen žalud."
+      ],
+      "a2": [
+        "Jednoho podzimního rána slepice Pennina v klidu zobala pod velkým dubem, když jí na hlavu spadl žalud. Pennina se nepodívala nahoru: hned se rozhodla, že padá nebe.",
+        "– To je katastrofa! – vykřikla. – Musím běžet za králem! Král musí všechno vědět a musí nás zachránit!",
+        "Cestou potkala kohouta Cristalla.\n– Kam tak spěcháš?\n– Nebe padá! Musím varovat krále.\n– Můžu jít s tebou? – zeptal se vyděšený Cristallo.",
+        "Po chvíli se k nim přidali kachna Patata, husa Ocarina a krocan Birichino. Nikdo nechtěl důkazy, nikdo nechtěl vidět ten spadlý kus nebe: všichni chtěli jen běžet za králem.",
+        "U lesa na ně čekala liška Volpona se svým nejmilejším úsměvem.\n– Kampak jdete, milí přátelé?\n– Nebe padá a musíme to říct králi!\n– Ale cesta je dlouhá. Jestli chcete, můžu vám ukázat zkratku.",
+        "Zvířata nemohla uvěřit svému štěstí a šla za ní. Jenže zkratka vedla rovnou do liščí nory. Jeden po druhém vešli krocan, husa, kachna i kohout, a nikdo už nevyšel.",
+        "Pennina byla poslední. Slyšela kohouta křičet „Utíkej!“ a nemusela to slyšet dvakrát: běžela rychle domů. Král se nikdy nic nedozvěděl a nebe samozřejmě nikdy nespadlo.",
+        "Anglicky se tahle bajka jmenuje «Henny Penny» nebo «Chicken Little» a zvířata mají jména, která se rýmují: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey a Foxy Loxy. Joseph Jacobs ji vydal v roce 1890 ve svých English Fairy Tales. Dodnes se o někom, kdo všude vidí katastrofy, říká „a Chicken Little“. Ponaučení: než uvěříme nějaké zprávě, a hlavně než ji začneme šířit, musíme si ji ověřit."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Pennina to kura. Mieszka w gospodarstwie, na wsi. Pewnego dnia je pod dębem. Stuk! Spada na nią żołądź.",
+        "– Pomocy! Niebo spada! – krzyczy Pennina. – Muszę iść do pałacu, do króla. Król musi wiedzieć!",
+        "Pennina biegnie drogą. Spotyka Cristalla, koguta.\n– Dokąd idziesz, Pennino?\n– Idę do króla. Niebo spada!\n– Idę z tobą! – mówi Cristallo.",
+        "Potem spotykają Patatę, kaczkę, i Ocarinę, gęś. Potem Birichina, indyka. Wszyscy idą z Penniną: „Idziemy do króla! Niebo spada!”",
+        "Między drzewami jest lisica. Nazywa się Volpona.\n– Dokąd idziecie, przyjaciele?\n– Idziemy do pałacu, do króla. Niebo spada!\n– Znam krótką drogę – mówi Volpona. – Chodźcie ze mną!",
+        "Zwierzęta idą z lisicą. Ale krótka droga kończy się w norze: to dom Volpony. Wchodzi Birichino, potem Ocarina, potem Patata, potem Cristallo… i już nie wychodzą.",
+        "Pennina słyszy hałas i ucieka do domu, do gospodarstwa. Już nie idzie do króla. A niebo? Niebo jest wciąż na miejscu, nad jej głową.",
+        "To jest morał bajki: nie powinniśmy od razu we wszystko wierzyć. Zanim zaczniemy biegać i krzyczeć, lepiej dobrze się przyjrzeć: czasami to tylko żołądź."
+      ],
+      "a2": [
+        "Pewnego jesiennego ranka kura Pennina spokojnie dziobała pod wielkim dębem, kiedy na głowę spadł jej żołądź. Pennina nie spojrzała w górę: od razu uznała, że spada niebo.",
+        "– Co za katastrofa! – krzyknęła. – Muszę biec do króla! Król musi wszystko wiedzieć i musi nas uratować!",
+        "Po drodze spotkała koguta Cristalla.\n– Dokąd tak pędzisz?\n– Niebo spada! Muszę ostrzec króla.\n– Mogę iść z tobą? – zapytał przestraszony Cristallo.",
+        "Po chwili przyłączyli się do nich kaczka Patata, gęś Ocarina i indyk Birichino. Nikt nie poprosił o dowody, nikt nie chciał zobaczyć kawałka nieba, który spadł: wszyscy chcieli tylko biec do króla.",
+        "Przy lesie czekała na nich lisica Volpona ze swoim najmilszym uśmiechem.\n– Dokąd idziecie, drodzy przyjaciele?\n– Niebo spada i musimy powiedzieć o tym królowi!\n– Ale droga jest długa. Jeśli chcecie, mogę wam pokazać skrót.",
+        "Zwierzęta nie mogły uwierzyć w swoje szczęście i poszły za nią. Skrót jednak prowadził prosto do nory lisicy. Jeden po drugim weszli indyk, gęś, kaczka i kogut, i nikt już nie wyszedł.",
+        "Pennina była ostatnia. Usłyszała, jak kogut krzyczy „Uciekaj!”, i nie trzeba jej było dwa razy powtarzać: pobiegła do domu. Król nigdy się o niczym nie dowiedział, a niebo, oczywiście, nigdy nie spadło.",
+        "Po angielsku ta bajka nazywa się «Henny Penny» albo «Chicken Little», a zwierzęta mają rymujące się imiona: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey i Foxy Loxy. Joseph Jacobs opublikował ją w 1890 roku w swoich English Fairy Tales. Do dziś o kimś, kto wszędzie widzi katastrofy, mówi się „a Chicken Little”. Morał: zanim uwierzymy w jakąś wiadomość, a przede wszystkim zanim zaczniemy ją rozpowszechniać, trzeba ją sprawdzić."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Pennina bir tavuktur. Kırsalda, bir çiftlikte yaşar. Bir gün bir meşe ağacının altında yem yer. Tak! Üstüne bir meşe palamudu düşer.",
+        "– İmdat! Gökyüzü düşüyor! – diye bağırır Pennina. – Saraya, kralın yanına gitmeliyim. Kral bunu bilmeli!",
+        "Pennina yolda koşar. Horoz Cristallo ile karşılaşır.\n– Nereye gidiyorsun, Pennina?\n– Kralın yanına gidiyorum. Gökyüzü düşüyor!\n– Ben de seninle geliyorum! – der Cristallo.",
+        "Sonra ördek Patata ve kaz Ocarina ile karşılaşırlar. Sonra da hindi Birichino ile. Hepsi Pennina ile gider: «Kralın yanına gidelim! Gökyüzü düşüyor!»",
+        "Ağaçların arasında bir tilki vardır. Adı Volpona'dır.\n– Nereye gidiyorsunuz, dostlarım?\n– Saraya, kralın yanına gidiyoruz. Gökyüzü düşüyor!\n– Kısa bir yol biliyorum, – der Volpona. – Benimle gelin!",
+        "Hayvanlar tilkiyle gider. Ama kısa yol bir inde biter: burası Volpona'nın evidir. Önce Birichino girer, sonra Ocarina, sonra Patata, sonra Cristallo… ve bir daha çıkmazlar.",
+        "Pennina bir ses duyar ve çiftliğe, evine kaçar. Artık kralın yanına gitmez. Peki ya gökyüzü? Gökyüzü hâlâ orada, başının üstündedir.",
+        "Masalın ana fikri şu: her şeye hemen inanmamalıyız. Koşup bağırmadan önce iyice bakmak daha iyidir: bazen o sadece bir meşe palamududur."
+      ],
+      "a2": [
+        "Bir sonbahar sabahı tavuk Pennina büyük bir meşe ağacının altında huzur içinde yem gagalıyordu ki başına bir meşe palamudu düştü. Pennina yukarı bakmadı: hemen gökyüzünün düştüğüne karar verdi.",
+        "– Ne felaket! – diye bağırdı. – Hemen kralın yanına koşmalıyım! Kral her şeyi bilmeli ve bizi kurtarmalı!",
+        "Yolda horoz Cristallo ile karşılaştı.\n– Böyle aceleyle nereye gidiyorsun?\n– Gökyüzü düşüyor! Kralı uyarmalıyım.\n– Seninle gelebilir miyim? – diye sordu korkmuş Cristallo.",
+        "Bir süre sonra ördek Patata, kaz Ocarina ve hindi Birichino da onlara katıldı. Kimse kanıt istemedi, kimse düşen gökyüzü parçasını görmek istemedi: hepsi sadece kralın yanına koşmak istiyordu.",
+        "Ormanın yakınında tilki Volpona en nazik gülümsemesiyle onları bekliyordu.\n– Nereye gidiyorsunuz, sevgili dostlarım?\n– Gökyüzü düşüyor ve bunu krala söylemeliyiz!\n– Ama yol uzun. İsterseniz size kestirme bir yol gösterebilirim.",
+        "Hayvanlar şanslarına inanamadılar ve onun peşinden gittiler. Ama kestirme yol doğruca tilkinin inine çıkıyordu. Birbiri ardına hindi, kaz, ördek ve horoz içeri girdi ve hiçbiri bir daha çıkmadı.",
+        "Pennina en sondaydı. Horozun «Kaç!» diye bağırdığını duydu ve bunu iki kez duymasına gerek kalmadı: koşarak eve döndü. Kral hiçbir şey öğrenmedi ve gökyüzü, tabii ki, hiç düşmedi.",
+        "İngilizcede bu masalın adı «Henny Penny» ya da «Chicken Little»dır ve hayvanların kafiyeli isimleri vardır: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey ve Foxy Loxy. Joseph Jacobs onu 1890'da English Fairy Tales adlı kitabında yayımladı. Bugün bile her yerde felaket gören birine «a Chicken Little» denir. Ana fikir: bir habere inanmadan önce, hele onu yaymadan önce, doğrulamak gerekir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Pennina ist ein Huhn. Sie lebt auf einem Bauernhof, auf dem Land. Eines Tages frisst sie unter einer Eiche. Tock! Eine Eichel fällt auf sie.",
+        "„Hilfe! Der Himmel fällt herunter!“, ruft Pennina. „Ich muss zum Palast, zum König. Der König muss es wissen!“",
+        "Pennina läuft die Straße entlang. Sie trifft Cristallo, den Hahn.\n„Wohin gehst du, Pennina?“\n„Ich gehe zum König. Der Himmel fällt herunter!“\n„Ich komme mit!“, sagt Cristallo.",
+        "Dann treffen sie Patata, die Ente, und Ocarina, die Gans. Dann Birichino, den Truthahn. Alle gehen mit Pennina: „Gehen wir zum König! Der Himmel fällt herunter!“",
+        "Zwischen den Bäumen ist eine Füchsin. Sie heißt Volpona.\n„Wohin geht ihr, Freunde?“\n„Wir gehen zum Palast, zum König. Der Himmel fällt herunter!“\n„Ich kenne einen kurzen Weg“, sagt Volpona. „Kommt mit mir!“",
+        "Die Tiere gehen mit der Füchsin. Aber der kurze Weg endet in einem Bau: Es ist Volponas Zuhause. Birichino geht hinein, dann Ocarina, dann Patata, dann Cristallo … und sie kommen nie wieder heraus.",
+        "Pennina hört ein Geräusch und läuft nach Hause, auf den Bauernhof. Sie geht nicht mehr zum König. Und der Himmel? Der Himmel ist immer noch da, über ihrem Kopf.",
+        "Das ist die Moral der Fabel: Wir sollen nicht sofort alles glauben. Bevor man rennt und schreit, schaut man besser genau hin: Manchmal ist es nur eine Eichel."
+      ],
+      "a2": [
+        "An einem Herbstmorgen pickte das Huhn Pennina ruhig unter einer großen Eiche, als ihm eine Eichel auf den Kopf fiel. Pennina schaute nicht nach oben: Sie beschloss sofort, dass der Himmel herunterfiel.",
+        "„Was für eine Katastrophe!“, rief sie. „Ich muss zum König laufen! Der König muss alles wissen, und er muss uns retten!“",
+        "Unterwegs traf sie den Hahn Cristallo.\n„Wohin so eilig?“\n„Der Himmel fällt herunter! Ich muss den König warnen.“\n„Darf ich mitkommen?“, fragte Cristallo erschrocken.",
+        "Nach einer Weile schlossen sich ihnen die Ente Patata, die Gans Ocarina und der Truthahn Birichino an. Niemand fragte nach Beweisen, niemand wollte das heruntergefallene Stück Himmel sehen: Alle wollten nur zum König laufen.",
+        "Am Waldrand wartete die Füchsin Volpona auf sie, mit ihrem freundlichsten Lächeln.\n„Wohin geht ihr, liebe Freunde?“\n„Der Himmel fällt herunter, und wir müssen es dem König sagen!“\n„Aber der Weg ist lang. Wenn ihr wollt, kann ich euch eine Abkürzung zeigen.“",
+        "Die Tiere konnten ihr Glück kaum fassen und folgten ihr. Doch die Abkürzung endete direkt im Bau der Füchsin. Einer nach dem anderen gingen der Truthahn, die Gans, die Ente und der Hahn hinein, und keiner kam wieder heraus.",
+        "Pennina war die Letzte. Sie hörte den Hahn „Lauf weg!“ rufen, und das musste man ihr nicht zweimal sagen: Sie rannte nach Hause. Der König erfuhr nie etwas, und der Himmel ist natürlich nie heruntergefallen.",
+        "Auf Englisch heißt diese Fabel «Henny Penny» oder «Chicken Little», und die Tiere haben Reimnamen: Henny Penny, Cocky Locky, Ducky Lucky, Goosey Loosey, Turkey Lurkey und Foxy Loxy. Joseph Jacobs veröffentlichte sie 1890 in seinen English Fairy Tales. Noch heute nennt man jemanden, der überall Katastrophen sieht, «a Chicken Little». Die Moral: Bevor man einer Nachricht glaubt, und vor allem bevor man sie verbreitet, muss man sie überprüfen."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ペンニーナはめんどりです。いなかの農場に住んでいます。ある日、かしの木の下でえさを食べています。コツン！　どんぐりが頭の上に落ちてきます。",
+        "「助けて！　空が落ちてくる！」とペンニーナはさけびます。「お城の王さまのところへ行かなくちゃ。王さまに知らせなくちゃ！」",
+        "ペンニーナは道を走ります。おんどりのクリスタッロに会います。\n「どこへ行くの、ペンニーナ？」\n「王さまのところよ。空が落ちてくるの！」\n「ぼくもいっしょに行く！」とクリスタッロは言います。",
+        "それから、あひるのパタータと、がちょうのオカリーナに会います。それから七面鳥のビリキーノにも。みんなペンニーナといっしょに行きます。「王さまのところへ行こう！　空が落ちてくる！」",
+        "木のあいだに、きつねがいます。名前はヴォルポーナです。\n「みなさん、どこへ行くの？」\n「お城の王さまのところへ行くんだ。空が落ちてくる！」\n「近道を知っているわ」とヴォルポーナは言います。「いっしょにいらっしゃい！」",
+        "動物たちはきつねについて行きます。でも、その近道は巣穴で終わっています。そこはヴォルポーナの家なのです。ビリキーノが入り、次にオカリーナ、次にパタータ、次にクリスタッロ……そして、もう出てきません。",
+        "ペンニーナは物音を聞いて、農場の家へ逃げ帰ります。もう王さまのところへは行きません。それで、空は？　空は今も、ペンニーナの頭の上にあります。",
+        "これがこのお話の教訓です。なんでもすぐに信じてはいけません。走ったりさけんだりする前に、よく見たほうがいいのです。ときどき、それはただのどんぐりなのです。"
+      ],
+      "a2": [
+        "ある秋の朝、めんどりのペンニーナが大きなかしの木の下でのんびりえさをついばんでいると、どんぐりが頭に落ちてきました。ペンニーナは上を見ませんでした。すぐに、空が落ちてきているのだと決めつけたのです。",
+        "「大変だ！」とペンニーナはさけびました。「王さまのところへ走って行かなくちゃ！　王さまに全部知らせて、助けてもらわなくちゃ！」",
+        "道の途中で、おんどりのクリスタッロに会いました。\n「そんなに急いで、どこへ行くの？」\n「空が落ちてきているの！　王さまに知らせなくちゃ。」\n「ぼくもいっしょに行っていい？」とクリスタッロはこわがって聞きました。",
+        "しばらくすると、あひるのパタータ、がちょうのオカリーナ、七面鳥のビリキーノも加わりました。だれも証拠を求めず、だれも落ちてきた空のかけらを見ようとしませんでした。みんな、ただ王さまのところへ走って行きたかったのです。",
+        "森の近くで、きつねのヴォルポーナがいちばんやさしい笑顔で待っていました。\n「みなさん、どこへ行くの？」\n「空が落ちてきているから、王さまに知らせなくちゃいけないんだ！」\n「でも、道は長いわよ。よかったら、近道を教えてあげる。」",
+        "動物たちは自分たちの運のよさが信じられず、きつねについて行きました。ところが、その近道はまっすぐきつねの巣穴に続いていました。七面鳥、がちょう、あひる、おんどりが次々に中に入り、だれも二度と出てきませんでした。",
+        "ペンニーナは最後でした。おんどりが「逃げろ！」とさけぶのが聞こえ、二度言われるまでもありませんでした。ペンニーナは走って家に帰りました。王さまは何も知らないままで、空は、もちろん、一度も落ちませんでした。",
+        "英語ではこのお話は「ヘニー・ペニー」または「チキン・リトル」と呼ばれ、動物たちは韻をふんだ名前を持っています。ヘニー・ペニー、コッキー・ロッキー、ダッキー・ラッキー、グージー・ルージー、ターキー・ラーキー、フォクシー・ロクシーです。ジョーゼフ・ジェイコブズが1890年に『イギリス昔話集』で出版しました。今でも、どこにでも大惨事を見る人は「チキン・リトル」と呼ばれます。教訓は、ニュースを信じる前に、そしてとくに広める前に、確かめなければならない、ということです。"
+      ]
+    }
+  }
+}
