@@ -45,6 +45,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'italian-indirect-object-pronouns',
     'verbo-piacere': 'the-italian-verb-piacere',
     'trapassato-prossimo': 'the-italian-trapassato-prossimo',
+    'condizionale-passato': 'the-italian-condizionale-passato',
+    'congiuntivo-passato-e-trapassato': 'the-italian-congiuntivo-passato-and-trapassato',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -90,6 +92,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'pronombres-indirectos-en-italiano',
     'verbo-piacere': 'el-verbo-piacere-en-italiano',
     'trapassato-prossimo': 'el-trapassato-prossimo-en-italiano',
+    'condizionale-passato': 'el-condizionale-passato-en-italiano',
+    'congiuntivo-passato-e-trapassato': 'el-congiuntivo-passato-y-trapassato-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -135,6 +139,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'pronoms-indirects-en-italien',
     'verbo-piacere': 'le-verbe-piacere-en-italien',
     'trapassato-prossimo': 'le-trapassato-prossimo-en-italien',
+    'condizionale-passato': 'le-condizionale-passato-en-italien',
+    'congiuntivo-passato-e-trapassato': 'le-congiuntivo-passato-et-trapassato-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -180,6 +186,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'neprima-zajmena-v-italstine',
     'verbo-piacere': 'sloveso-piacere-v-italstine',
     'trapassato-prossimo': 'trapassato-prossimo-v-italstine',
+    'condizionale-passato': 'condizionale-passato-v-italstine',
+    'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-a-trapassato-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -225,6 +233,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'zaimki-dopelnienia-dalszego-po-wlosku',
     'verbo-piacere': 'czasownik-piacere-po-wlosku',
     'trapassato-prossimo': 'trapassato-prossimo-po-wlosku',
+    'condizionale-passato': 'condizionale-passato-po-wlosku',
+    'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-i-trapassato-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -270,6 +280,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'italyanca-dolayli-nesne-zamirleri',
     'verbo-piacere': 'italyanca-piacere-fiili',
     'trapassato-prossimo': 'italyanca-trapassato-prossimo',
+    'condizionale-passato': 'italyanca-condizionale-passato',
+    'congiuntivo-passato-e-trapassato': 'italyanca-congiuntivo-passato-ve-trapassato',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -315,6 +327,8 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'indirekte-pronomen-im-italienischen',
     'verbo-piacere': 'das-verb-piacere-im-italienischen',
     'trapassato-prossimo': 'das-trapassato-prossimo-im-italienischen',
+    'condizionale-passato': 'das-condizionale-passato-im-italienischen',
+    'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-und-trapassato-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -360,5 +374,7 @@ export const grammarSeoSlugs = {
     'pronomi-indiretti': 'イタリア語の間接目的語代名詞',
     'verbo-piacere': 'イタリア語の動詞piacere',
     'trapassato-prossimo': 'イタリア語の大過去',
+    'condizionale-passato': 'イタリア語の条件法過去',
+    'congiuntivo-passato-e-trapassato': 'イタリア語の接続法過去と大過去',
   },
 };

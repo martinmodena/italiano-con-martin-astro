@@ -43,6 +43,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Italian indirect object pronouns: mi, ti, gli, le',
     'verbo-piacere': 'The Italian verb piacere: mi piace, mi piacciono',
     'trapassato-prossimo': 'The Italian trapassato prossimo: avevo fatto, ero andato',
+    'condizionale-passato': 'The Italian condizionale passato: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'The Italian congiuntivo passato and trapassato: abbia fatto, avessi fatto',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -88,6 +90,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Pronombres indirectos en italiano: mi, ti, gli, le',
     'verbo-piacere': 'El verbo piacere en italiano: mi piace, mi piacciono',
     'trapassato-prossimo': 'El trapassato prossimo en italiano: avevo fatto, ero andato',
+    'condizionale-passato': 'El condizionale passato en italiano: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'El congiuntivo passato y trapassato en italiano: abbia fatto, avessi fatto',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -133,6 +137,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Pronoms indirects en italien : mi, ti, gli, le',
     'verbo-piacere': 'Le verbe piacere en italien : mi piace, mi piacciono',
     'trapassato-prossimo': 'Le trapassato prossimo en italien : avevo fatto, ero andato',
+    'condizionale-passato': 'Le condizionale passato en italien : avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'Le congiuntivo passato et trapassato en italien : abbia fatto, avessi fatto',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -178,6 +184,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Nepřímá zájmena v italštině: mi, ti, gli, le',
     'verbo-piacere': 'Sloveso piacere v italštině: mi piace, mi piacciono',
     'trapassato-prossimo': 'Trapassato prossimo v italštině: avevo fatto, ero andato',
+    'condizionale-passato': 'Condizionale passato v italštině: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'Congiuntivo passato a trapassato v italštině: abbia fatto, avessi fatto',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -223,6 +231,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Zaimki dopełnienia dalszego po włosku: mi, ti, gli, le',
     'verbo-piacere': 'Czasownik piacere po włosku: mi piace, mi piacciono',
     'trapassato-prossimo': 'Trapassato prossimo po włosku: avevo fatto, ero andato',
+    'condizionale-passato': 'Condizionale passato po włosku: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'Congiuntivo passato i trapassato po włosku: abbia fatto, avessi fatto',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -268,6 +278,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'İtalyanca dolaylı nesne zamirleri: mi, ti, gli, le',
     'verbo-piacere': 'İtalyancada piacere fiili: mi piace, mi piacciono',
     'trapassato-prossimo': 'İtalyancada trapassato prossimo: avevo fatto, ero andato',
+    'condizionale-passato': 'İtalyancada condizionale passato: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'İtalyancada congiuntivo passato ve trapassato: abbia fatto, avessi fatto',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -313,6 +325,8 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'Indirekte Pronomen im Italienischen: mi, ti, gli, le',
     'verbo-piacere': 'Das Verb piacere im Italienischen: mi piace, mi piacciono',
     'trapassato-prossimo': 'Das trapassato prossimo im Italienischen: avevo fatto, ero andato',
+    'condizionale-passato': 'Das condizionale passato im Italienischen: avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'Das congiuntivo passato und trapassato im Italienischen: abbia fatto, avessi fatto',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -358,5 +372,7 @@ export const grammarSeoTitles = {
     'pronomi-indiretti': 'イタリア語の間接目的語代名詞：mi, ti, gli, le',
     'verbo-piacere': 'イタリア語の動詞piacere：mi piace, mi piacciono',
     'trapassato-prossimo': 'イタリア語の大過去 trapassato prossimo：avevo fatto, ero andato',
+    'condizionale-passato': 'イタリア語の条件法過去 condizionale passato：avrei fatto, sarei andato',
+    'congiuntivo-passato-e-trapassato': 'イタリア語の接続法過去と大過去 congiuntivo passato・trapassato：abbia fatto, avessi fatto',
   },
 };

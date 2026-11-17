@@ -142,8 +142,13 @@ export const PAGES = [
   { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html' },
   { it: 'grammatica/b1/pronomi-combinati.html', pt: 'pt/gramatica/b1/pronomes-combinados-em-italiano.html' },
   { it: 'grammatica/b2/congiuntivo-presente.html', pt: 'pt/gramatica/b2/o-congiuntivo-presente-italiano.html' },
+  { it: 'grammatica/b2/condizionale-passato.html', pt: 'pt/gramatica/b2/o-condizionale-passato-em-italiano.html' },
   { it: 'grammatica/b2/periodo-ipotetico.html', pt: 'pt/gramatica/b2/o-periodo-ipotetico-em-italiano.html' },
   { it: 'grammatica/c1/congiuntivo-imperfetto.html', pt: 'pt/gramatica/c1/o-congiuntivo-imperfetto-italiano.html' },
+  {
+    it: 'grammatica/c1/congiuntivo-passato-e-trapassato.html',
+    pt: 'pt/gramatica/c1/o-congiuntivo-passato-e-trapassato-em-italiano.html',
+  },
   { it: 'grammatica/c1/forma-passiva.html', pt: 'pt/gramatica/c1/a-voz-passiva-em-italiano.html' },
 
   // Fase 4 (2026-10-09): vocabolario

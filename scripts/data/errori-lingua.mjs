@@ -33,6 +33,7 @@ import { ERRORS_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
 import { ERRORS_PARTITIVI } from './confronti-partitivi.mjs';
 import { ERRORS_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 import { ERRORS_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
+import { ERRORS_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1008,3 +1009,6 @@ Object.assign(ERRORS, ERRORS_PARTITIVI);
 // Lezione del 2026-11-10, in un file a parte.
 Object.assign(ERRORS, ERRORS_INDIRETTI);
 Object.assign(ERRORS, ERRORS_PIACERE_TRAPASSATO);
+
+// Lezioni del 2026-11-17, in un file a parte.
+Object.assign(ERRORS, ERRORS_CONDIZIONALE_CONGIUNTIVO);

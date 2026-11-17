@@ -24,6 +24,7 @@ import { NOTES_CONTRARI_ALTERATI } from './confronti-contrari-alterati.mjs';
 import { NOTES_PARTITIVI } from './confronti-partitivi.mjs';
 import { NOTES_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 import { NOTES_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
+import { NOTES_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3145,3 +3146,6 @@ Object.assign(NOTES, NOTES_PARTITIVI);
 // Lezione del 2026-11-10, in un file a parte.
 Object.assign(NOTES, NOTES_INDIRETTI);
 Object.assign(NOTES, NOTES_PIACERE_TRAPASSATO);
+
+// Lezioni del 2026-11-17, in un file a parte.
+Object.assign(NOTES, NOTES_CONDIZIONALE_CONGIUNTIVO);
