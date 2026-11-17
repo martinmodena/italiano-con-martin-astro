@@ -1,0 +1,1361 @@
+{
+  "id": "il-lupo-e-i-tre-porcellini",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il porcellino",
+      "forme": [
+        "porcellini",
+        "porcellino"
+      ],
+      "esempi": [
+        "Il porcellino rosa gioca nel fango.",
+        "Nella fattoria sono nati sei porcellini.",
+        "I bambini conoscono la storia dei tre porcellini."
+      ],
+      "traduzioni": {
+        "en": "little pig («The Three Little Pigs»)",
+        "es": "cerdito («Los tres cerditos»)",
+        "pt": "porquinho («Os três porquinhos»)",
+        "fr": "petit cochon («Les Trois Petits Cochons»)",
+        "cs": "prasátko («Tři malá prasátka»)",
+        "pl": "świnka, prosiaczek («Trzy małe świnki»)",
+        "tr": "küçük domuz («Üç Küçük Domuz»)",
+        "de": "Schweinchen («Die drei kleinen Schweinchen»)",
+        "ja": "こぶた（「三びきのこぶた」）"
+      }
+    },
+    {
+      "parola": "il lupo",
+      "forme": [
+        "lupo"
+      ],
+      "esempi": [
+        "Il lupo vive nei boschi.",
+        "Di notte si sente il lupo.",
+        "Chi ha paura del lupo cattivo?"
+      ],
+      "traduzioni": {
+        "en": "wolf",
+        "es": "lobo",
+        "pt": "lobo",
+        "fr": "loup",
+        "cs": "vlk",
+        "pl": "wilk",
+        "tr": "kurt",
+        "de": "Wolf",
+        "ja": "おおかみ"
+      }
+    },
+    {
+      "parola": "lasciare",
+      "forme": [
+        "lasciano"
+      ],
+      "formeEsempi": [
+        "lascio"
+      ],
+      "esempi": [
+        "A diciotto anni lascio la casa dei miei.",
+        "Gli studenti lasciano l'aula alle due.",
+        "Molti giovani lasciano il paese per lavoro."
+      ],
+      "traduzioni": {
+        "en": "to leave",
+        "es": "dejar, irse de",
+        "pt": "deixar, sair de",
+        "fr": "quitter",
+        "cs": "opustit",
+        "pl": "opuścić",
+        "tr": "terk etmek, ayrılmak",
+        "de": "verlassen",
+        "ja": "出る、離れる"
+      }
+    },
+    {
+      "parola": "il bosco",
+      "forme": [
+        "bosco"
+      ],
+      "esempi": [
+        "Facciamo una passeggiata nel bosco.",
+        "Nel bosco ci sono i funghi.",
+        "La casa è vicino al bosco."
+      ],
+      "traduzioni": {
+        "en": "woods, forest",
+        "es": "bosque",
+        "pt": "bosque, floresta",
+        "fr": "bois, forêt",
+        "cs": "les",
+        "pl": "las",
+        "tr": "orman",
+        "de": "Wald",
+        "ja": "森"
+      }
+    },
+    {
+      "parola": "costruire",
+      "forme": [
+        "costruire",
+        "costruisce",
+        "costruito",
+        "costruita"
+      ],
+      "formeEsempi": [
+        "costruisco"
+      ],
+      "esempi": [
+        "Mio padre costruisce una casetta per gli uccelli.",
+        "Hanno costruito un ponte nuovo.",
+        "Vogliamo costruire una casa al mare."
+      ],
+      "traduzioni": {
+        "en": "to build",
+        "es": "construir",
+        "pt": "construir",
+        "fr": "construire",
+        "cs": "postavit",
+        "pl": "zbudować",
+        "tr": "inşa etmek, yapmak",
+        "de": "bauen",
+        "ja": "建てる"
+      }
+    },
+    {
+      "parola": "la paglia",
+      "forme": [
+        "paglia"
+      ],
+      "esempi": [
+        "Il cavallo dorme sulla paglia.",
+        "Ho un cappello di paglia per l'estate.",
+        "La paglia brucia facilmente."
+      ],
+      "traduzioni": {
+        "en": "straw",
+        "es": "paja",
+        "pt": "palha",
+        "fr": "paille",
+        "cs": "sláma",
+        "pl": "słoma",
+        "tr": "saman",
+        "de": "Stroh",
+        "ja": "わら"
+      }
+    },
+    {
+      "parola": "debole",
+      "forme": [
+        "debole"
+      ],
+      "esempi": [
+        "Dopo l'influenza mi sento debole.",
+        "La luce è troppo debole per leggere.",
+        "Il ramo è debole: non salire!"
+      ],
+      "traduzioni": {
+        "en": "weak, flimsy",
+        "es": "débil, endeble",
+        "pt": "fraco",
+        "fr": "faible, fragile",
+        "cs": "slabý, chatrný",
+        "pl": "słaby",
+        "tr": "zayıf, dayanıksız",
+        "de": "schwach",
+        "ja": "弱い、もろい"
+      }
+    },
+    {
+      "parola": "il legno",
+      "forme": [
+        "legno"
+      ],
+      "esempi": [
+        "Il tavolo è di legno.",
+        "D'inverno bruciamo il legno nel camino.",
+        "Pinocchio è un burattino di legno."
+      ],
+      "traduzioni": {
+        "en": "wood",
+        "es": "madera",
+        "pt": "madeira",
+        "fr": "bois",
+        "cs": "dřevo",
+        "pl": "drewno",
+        "tr": "tahta, odun",
+        "de": "Holz",
+        "ja": "木、木材"
+      }
+    },
+    {
+      "parola": "forte",
+      "forme": [
+        "forte"
+      ],
+      "esempi": [
+        "Il ponte è forte e sicuro.",
+        "Mio fratello è molto forte.",
+        "Il vento soffia forte."
+      ],
+      "traduzioni": {
+        "en": "strong; hard (blow)",
+        "es": "fuerte",
+        "pt": "forte",
+        "fr": "fort, solide",
+        "cs": "silný, pevný",
+        "pl": "mocny, silny",
+        "tr": "güçlü, sağlam",
+        "de": "stark, fest",
+        "ja": "強い、じょうぶな"
+      }
+    },
+    {
+      "parola": "sicuro",
+      "forme": [
+        "sicura"
+      ],
+      "formeEsempi": [
+        "sicuro"
+      ],
+      "esempi": [
+        "Questa strada non è sicura di notte.",
+        "La macchina nuova è più sicura.",
+        "Qui sei al sicuro."
+      ],
+      "traduzioni": {
+        "en": "safe",
+        "es": "seguro",
+        "pt": "seguro",
+        "fr": "sûr, solide",
+        "cs": "bezpečný",
+        "pl": "bezpieczny",
+        "tr": "güvenli",
+        "de": "sicher",
+        "ja": "安全な"
+      }
+    },
+    {
+      "parola": "il mattone",
+      "forme": [
+        "mattoni"
+      ],
+      "formeEsempi": [
+        "mattone"
+      ],
+      "esempi": [
+        "La casa dei nonni è di mattoni rossi.",
+        "Il muratore mette un mattone sopra l'altro.",
+        "Questo libro è un mattone: è lunghissimo!"
+      ],
+      "traduzioni": {
+        "en": "brick",
+        "es": "ladrillo",
+        "pt": "tijolo",
+        "fr": "brique",
+        "cs": "cihla",
+        "pl": "cegła",
+        "tr": "tuğla",
+        "de": "Ziegelstein",
+        "ja": "れんが"
+      }
+    },
+    {
+      "parola": "il fratello",
+      "forme": [
+        "fratelli",
+        "fratello"
+      ],
+      "esempi": [
+        "Ho un fratello e una sorella.",
+        "I miei fratelli abitano a Milano.",
+        "Mio fratello è più grande di me."
+      ],
+      "traduzioni": {
+        "en": "brother",
+        "es": "hermano",
+        "pt": "irmão",
+        "fr": "frère",
+        "cs": "bratr",
+        "pl": "brat",
+        "tr": "kardeş",
+        "de": "Bruder",
+        "ja": "兄弟"
+      }
+    },
+    {
+      "parola": "ridere",
+      "forme": [
+        "ridono"
+      ],
+      "formeEsempi": [
+        "rido",
+        "ride"
+      ],
+      "esempi": [
+        "I bambini ridono al circo.",
+        "Rido sempre con i miei amici.",
+        "Perché ride? Non è divertente!"
+      ],
+      "traduzioni": {
+        "en": "to laugh",
+        "es": "reír(se)",
+        "pt": "rir",
+        "fr": "rire",
+        "cs": "smát se",
+        "pl": "śmiać się",
+        "tr": "gülmek",
+        "de": "lachen",
+        "ja": "笑う"
+      }
+    },
+    {
+      "parola": "tardi",
+      "forme": [
+        "tardi"
+      ],
+      "esempi": [
+        "È tardi, devo andare.",
+        "Arrivo più tardi.",
+        "Ieri sono tornato tardi."
+      ],
+      "traduzioni": {
+        "en": "late («più tardi» = later)",
+        "es": "tarde",
+        "pt": "tarde",
+        "fr": "tard",
+        "cs": "pozdě",
+        "pl": "późno",
+        "tr": "geç",
+        "de": "spät",
+        "ja": "遅く"
+      }
+    },
+    {
+      "parola": "soffiare",
+      "forme": [
+        "soffia",
+        "soffiato"
+      ],
+      "formeEsempi": [
+        "soffio"
+      ],
+      "esempi": [
+        "Soffio sulle candeline della torta.",
+        "Oggi il vento soffia forte.",
+        "Il bambino ha soffiato sul brodo caldo."
+      ],
+      "traduzioni": {
+        "en": "to blow («I'll huff and I'll puff…»)",
+        "es": "soplar",
+        "pt": "soprar",
+        "fr": "souffler",
+        "cs": "foukat",
+        "pl": "dmuchać",
+        "tr": "üflemek",
+        "de": "pusten, blasen",
+        "ja": "息を吹きかける"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappano"
+      ],
+      "formeEsempi": [
+        "scappa",
+        "scappato"
+      ],
+      "esempi": [
+        "I gatti scappano quando arriva il cane.",
+        "Scappa, sta piovendo!",
+        "Il cane è scappato dal giardino."
+      ],
+      "traduzioni": {
+        "en": "to run away",
+        "es": "escapar, huir",
+        "pt": "fugir",
+        "fr": "s’enfuir",
+        "cs": "utéct",
+        "pl": "uciec",
+        "tr": "kaçmak",
+        "de": "weglaufen, fliehen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "restare in piedi",
+      "forme": [
+        "resta"
+      ],
+      "formeEsempi": [
+        "resto",
+        "restare"
+      ],
+      "esempi": [
+        "Dopo il terremoto la chiesa resta in piedi.",
+        "Sull'autobus resto in piedi.",
+        "Il negozio resta aperto fino alle otto."
+      ],
+      "traduzioni": {
+        "en": "to stay standing («restare» = to stay)",
+        "es": "quedarse en pie",
+        "pt": "ficar de pé",
+        "fr": "rester debout",
+        "cs": "zůstat stát",
+        "pl": "ostać się, stać dalej",
+        "tr": "ayakta kalmak",
+        "de": "stehen bleiben",
+        "ja": "倒れずに残る"
+      }
+    },
+    {
+      "parola": "richiedere",
+      "forme": [
+        "richiede"
+      ],
+      "formeEsempi": [
+        "richiedono"
+      ],
+      "esempi": [
+        "Questo lavoro richiede pazienza.",
+        "Imparare una lingua richiede tempo.",
+        "Le piante richiedono acqua e luce."
+      ],
+      "traduzioni": {
+        "en": "to require, to take (time)",
+        "es": "requerir, exigir",
+        "pt": "exigir, levar (tempo)",
+        "fr": "demander, exiger",
+        "cs": "vyžadovat",
+        "pl": "wymagać",
+        "tr": "gerektirmek",
+        "de": "erfordern, brauchen",
+        "ja": "必要とする"
+      }
+    },
+    {
+      "parola": "proteggere",
+      "forme": [
+        "protegge"
+      ],
+      "formeEsempi": [
+        "proteggere"
+      ],
+      "esempi": [
+        "La crema protegge dal sole.",
+        "Il casco protegge la testa.",
+        "La mamma vuole proteggere i figli."
+      ],
+      "traduzioni": {
+        "en": "to protect",
+        "es": "proteger",
+        "pt": "proteger",
+        "fr": "protéger",
+        "cs": "chránit",
+        "pl": "chronić",
+        "tr": "korumak",
+        "de": "schützen",
+        "ja": "守る"
+      }
+    },
+    {
+      "parola": "ciascuno",
+      "forme": [
+        "ciascuno"
+      ],
+      "esempi": [
+        "Ciascuno porta qualcosa da mangiare.",
+        "I biglietti costano dieci euro ciascuno.",
+        "Ciascuno di noi ha un sogno."
+      ],
+      "traduzioni": {
+        "en": "each (one)",
+        "es": "cada uno",
+        "pt": "cada um",
+        "fr": "chacun",
+        "cs": "každý",
+        "pl": "każdy",
+        "tr": "her biri",
+        "de": "jeder",
+        "ja": "それぞれ"
+      }
+    },
+    {
+      "parola": "proprio",
+      "forme": [
+        "propria"
+      ],
+      "formeEsempi": [
+        "proprio"
+      ],
+      "esempi": [
+        "Ognuno ha la propria camera.",
+        "Ha aperto il proprio negozio.",
+        "Ognuno pensa alla propria famiglia."
+      ],
+      "traduzioni": {
+        "en": "one's own",
+        "es": "propio",
+        "pt": "próprio",
+        "fr": "propre (à soi)",
+        "cs": "vlastní",
+        "pl": "własny",
+        "tr": "kendi",
+        "de": "eigen",
+        "ja": "自分の"
+      }
+    },
+    {
+      "parola": "in fretta",
+      "forme": [
+        "fretta"
+      ],
+      "esempi": [
+        "Ho mangiato in fretta.",
+        "Scusa, ho fretta!",
+        "La fretta è cattiva consigliera."
+      ],
+      "traduzioni": {
+        "en": "in a hurry, quickly («la fretta» = haste)",
+        "es": "deprisa («la fretta» = la prisa)",
+        "pt": "às pressas («la fretta» = a pressa)",
+        "fr": "à la hâte («la fretta» = la hâte)",
+        "cs": "ve spěchu («la fretta» = spěch)",
+        "pl": "w pośpiechu («la fretta» = pośpiech)",
+        "tr": "aceleyle («la fretta» = acele)",
+        "de": "in Eile («la fretta» = die Eile)",
+        "ja": "急いで（«la fretta» = 急ぐこと）"
+      }
+    },
+    {
+      "parola": "scegliere",
+      "forme": [
+        "scelto"
+      ],
+      "formeEsempi": [
+        "scelgo"
+      ],
+      "esempi": [
+        "Scelgo il gelato al limone.",
+        "Hai scelto il vestito per la festa?",
+        "Abbiamo scelto un ristorante sul mare."
+      ],
+      "traduzioni": {
+        "en": "to choose",
+        "es": "elegir",
+        "pt": "escolher",
+        "fr": "choisir",
+        "cs": "vybrat si",
+        "pl": "wybrać",
+        "tr": "seçmek",
+        "de": "wählen",
+        "ja": "選ぶ"
+      }
+    },
+    {
+      "parola": "preferire",
+      "forme": [
+        "preferito"
+      ],
+      "formeEsempi": [
+        "preferisco"
+      ],
+      "esempi": [
+        "Preferisco il mare alla montagna.",
+        "Ho preferito restare a casa.",
+        "Qual è il tuo colore preferito?"
+      ],
+      "traduzioni": {
+        "en": "to prefer, to choose",
+        "es": "preferir",
+        "pt": "preferir",
+        "fr": "préférer",
+        "cs": "dát přednost",
+        "pl": "woleć",
+        "tr": "tercih etmek",
+        "de": "vorziehen",
+        "ja": "〜のほうを選ぶ"
+      }
+    },
+    {
+      "parola": "anche se",
+      "forme": [
+        "anche"
+      ],
+      "esempi": [
+        "Esco anche se piove.",
+        "Mia sorella vuole venire anche lei.",
+        "È felice anche se ha poco."
+      ],
+      "traduzioni": {
+        "en": "even if, even though («anche» = also)",
+        "es": "aunque",
+        "pt": "mesmo que, embora",
+        "fr": "même si",
+        "cs": "i když",
+        "pl": "chociaż, nawet jeśli",
+        "tr": "-se bile",
+        "de": "auch wenn",
+        "ja": "〜けれども"
+      }
+    },
+    {
+      "parola": "distruggere",
+      "forme": [
+        "distrutta"
+      ],
+      "formeEsempi": [
+        "distrugge",
+        "distrutto"
+      ],
+      "esempi": [
+        "La tempesta ha distrutto il raccolto.",
+        "Il bambino distrugge sempre i giochi.",
+        "La casa è stata distrutta dal fuoco."
+      ],
+      "traduzioni": {
+        "en": "to destroy",
+        "es": "destruir",
+        "pt": "destruir",
+        "fr": "détruire",
+        "cs": "zničit",
+        "pl": "zniszczyć",
+        "tr": "yıkmak, yok etmek",
+        "de": "zerstören",
+        "ja": "こわす"
+      }
+    },
+    {
+      "parola": "lo stesso",
+      "forme": [
+        "stesso"
+      ],
+      "esempi": [
+        "Abbiamo lo stesso vestito!",
+        "Fai lo stesso anche tu.",
+        "Abitiamo nello stesso palazzo."
+      ],
+      "traduzioni": {
+        "en": "the same (thing)",
+        "es": "lo mismo",
+        "pt": "o mesmo",
+        "fr": "la même chose",
+        "cs": "totéž",
+        "pl": "to samo",
+        "tr": "aynı şey",
+        "de": "dasselbe",
+        "ja": "同じこと"
+      }
+    },
+    {
+      "parola": "resistere",
+      "forme": [
+        "resistito"
+      ],
+      "formeEsempi": [
+        "resiste",
+        "resisto"
+      ],
+      "esempi": [
+        "Il ponte ha resistito al terremoto.",
+        "Non resisto al cioccolato!",
+        "Questa pianta resiste al freddo."
+      ],
+      "traduzioni": {
+        "en": "to hold out, to withstand",
+        "es": "resistir",
+        "pt": "resistir, aguentar",
+        "fr": "résister",
+        "cs": "odolat, vydržet",
+        "pl": "wytrzymać, oprzeć się",
+        "tr": "dayanmak",
+        "de": "standhalten",
+        "ja": "持ちこたえる"
+      }
+    },
+    {
+      "parola": "riuscire",
+      "forme": [
+        "riuscito"
+      ],
+      "formeEsempi": [
+        "riesco"
+      ],
+      "esempi": [
+        "Non riesco a dormire.",
+        "Sei riuscito a trovare il libro?",
+        "Finalmente sono riuscito a parlare con lei."
+      ],
+      "traduzioni": {
+        "en": "to manage, to succeed",
+        "es": "conseguir, lograr",
+        "pt": "conseguir",
+        "fr": "réussir à",
+        "cs": "podařit se, dokázat",
+        "pl": "zdołać, dać radę",
+        "tr": "başarmak, -ebilmek",
+        "de": "schaffen",
+        "ja": "〜できる"
+      }
+    },
+    {
+      "parola": "pericoloso",
+      "forme": [
+        "pericolosa"
+      ],
+      "formeEsempi": [
+        "pericoloso"
+      ],
+      "esempi": [
+        "Questa strada è pericolosa.",
+        "Guidare con la neve è pericoloso.",
+        "Il fuoco è pericoloso."
+      ],
+      "traduzioni": {
+        "en": "dangerous",
+        "es": "peligroso",
+        "pt": "perigoso",
+        "fr": "dangereux",
+        "cs": "nebezpečný",
+        "pl": "niebezpieczny",
+        "tr": "tehlikeli",
+        "de": "gefährlich",
+        "ja": "危険な"
+      }
+    },
+    {
+      "parola": "diverso",
+      "forme": [
+        "diverse"
+      ],
+      "formeEsempi": [
+        "diverso",
+        "diversa"
+      ],
+      "esempi": [
+        "Io e mia sorella siamo molto diverse.",
+        "Ogni giorno è diverso.",
+        "Abbiamo opinioni diverse."
+      ],
+      "traduzioni": {
+        "en": "different",
+        "es": "diferente, distinto",
+        "pt": "diferente",
+        "fr": "différent",
+        "cs": "různý, jiný",
+        "pl": "różny, inny",
+        "tr": "farklı",
+        "de": "verschieden",
+        "ja": "ちがう、別々の"
+      }
+    },
+    {
+      "parola": "soprattutto",
+      "forme": [
+        "soprattutto"
+      ],
+      "esempi": [
+        "Mi piace la frutta, soprattutto le fragole.",
+        "Studio soprattutto la sera.",
+        "Soprattutto, non dimenticare il passaporto!"
+      ],
+      "traduzioni": {
+        "en": "above all, mainly",
+        "es": "sobre todo",
+        "pt": "principalmente, sobretudo",
+        "fr": "surtout",
+        "cs": "hlavně",
+        "pl": "przede wszystkim",
+        "tr": "özellikle",
+        "de": "vor allem",
+        "ja": "とくに、何よりも"
+      }
+    },
+    {
+      "parola": "la velocità",
+      "forme": [
+        "velocità"
+      ],
+      "esempi": [
+        "Il treno va a grande velocità.",
+        "Rallenta, la velocità è troppo alta!",
+        "Nel lavoro conta la qualità, non solo la velocità."
+      ],
+      "traduzioni": {
+        "en": "speed",
+        "es": "velocidad, rapidez",
+        "pt": "velocidade, rapidez",
+        "fr": "vitesse, rapidité",
+        "cs": "rychlost",
+        "pl": "szybkość",
+        "tr": "hız",
+        "de": "Schnelligkeit",
+        "ja": "速さ"
+      }
+    },
+    {
+      "parola": "la soluzione",
+      "forme": [
+        "soluzioni"
+      ],
+      "formeEsempi": [
+        "soluzione"
+      ],
+      "esempi": [
+        "Ho trovato la soluzione!",
+        "Ci sono diverse soluzioni al problema.",
+        "Non è la soluzione migliore."
+      ],
+      "traduzioni": {
+        "en": "solution, option",
+        "es": "solución",
+        "pt": "solução",
+        "fr": "solution",
+        "cs": "řešení",
+        "pl": "rozwiązanie",
+        "tr": "çözüm",
+        "de": "Lösung",
+        "ja": "解決策"
+      }
+    },
+    {
+      "parola": "sufficiente",
+      "forme": [
+        "sufficienti"
+      ],
+      "formeEsempi": [
+        "sufficiente"
+      ],
+      "esempi": [
+        "Il tempo non è sufficiente.",
+        "Due ore sono sufficienti.",
+        "Hai preso un voto sufficiente."
+      ],
+      "traduzioni": {
+        "en": "enough, adequate",
+        "es": "suficiente",
+        "pt": "suficiente",
+        "fr": "suffisant",
+        "cs": "dostatečný",
+        "pl": "wystarczający",
+        "tr": "yeterli",
+        "de": "ausreichend",
+        "ja": "十分な"
+      }
+    },
+    {
+      "parola": "invece",
+      "forme": [
+        "invece"
+      ],
+      "esempi": [
+        "Io bevo il tè, mio marito invece il caffè.",
+        "Volevo uscire, invece sono rimasto a casa.",
+        "Invece di guardare la TV, leggi un libro."
+      ],
+      "traduzioni": {
+        "en": "instead, on the other hand",
+        "es": "en cambio",
+        "pt": "já, por outro lado",
+        "fr": "en revanche, au contraire",
+        "cs": "naopak, zato",
+        "pl": "natomiast, za to",
+        "tr": "ise, bunun yerine",
+        "de": "dagegen, stattdessen",
+        "ja": "それに対して、かわりに"
+      }
+    },
+    {
+      "parola": "a lungo",
+      "forme": [
+        "lungo"
+      ],
+      "esempi": [
+        "Ho aspettato a lungo.",
+        "Il viaggio è lungo.",
+        "Abbiamo parlato a lungo."
+      ],
+      "traduzioni": {
+        "en": "for a long time («lungo» = long)",
+        "es": "durante mucho tiempo",
+        "pt": "por muito tempo",
+        "fr": "longtemps",
+        "cs": "dlouho",
+        "pl": "długo",
+        "tr": "uzun süre",
+        "de": "lange",
+        "ja": "長いあいだ"
+      }
+    },
+    {
+      "parola": "sopportare",
+      "forme": [
+        "sopportato"
+      ],
+      "formeEsempi": [
+        "sopporto"
+      ],
+      "esempi": [
+        "Non sopporto il caldo.",
+        "Ha sopportato il dolore senza piangere.",
+        "Sopporto i rumori dei vicini."
+      ],
+      "traduzioni": {
+        "en": "to put up with, to bear",
+        "es": "soportar, aguantar",
+        "pt": "aguentar, suportar",
+        "fr": "supporter",
+        "cs": "snášet",
+        "pl": "znosić",
+        "tr": "katlanmak",
+        "de": "ertragen",
+        "ja": "がまんする"
+      }
+    },
+    {
+      "parola": "la risata",
+      "forme": [
+        "risate"
+      ],
+      "formeEsempi": [
+        "risata"
+      ],
+      "esempi": [
+        "Ha una risata contagiosa.",
+        "Con gli amici facciamo tante risate.",
+        "Si sentivano risate dalla cucina."
+      ],
+      "traduzioni": {
+        "en": "laugh, laughter",
+        "es": "risa, carcajada",
+        "pt": "risada",
+        "fr": "rire, éclat de rire",
+        "cs": "smích",
+        "pl": "śmiech",
+        "tr": "kahkaha",
+        "de": "Lachen, Gelächter",
+        "ja": "笑い声"
+      }
+    },
+    {
+      "parola": "esagerare",
+      "forme": [
+        "esagerando"
+      ],
+      "formeEsempi": [
+        "esageri",
+        "esagerato",
+        "esagerare"
+      ],
+      "esempi": [
+        "Non esagerare con il sale!",
+        "Stai esagerando: non è così grave.",
+        "Ho esagerato con il dolce."
+      ],
+      "traduzioni": {
+        "en": "to overdo it, to exaggerate",
+        "es": "exagerar",
+        "pt": "exagerar",
+        "fr": "exagérer",
+        "cs": "přehánět",
+        "pl": "przesadzać",
+        "tr": "abartmak",
+        "de": "übertreiben",
+        "ja": "やりすぎる、大げさにする"
+      }
+    },
+    {
+      "parola": "la prova",
+      "forme": [
+        "prova"
+      ],
+      "esempi": [
+        "Domani ho la prova di guida.",
+        "Il viaggio è stato una prova difficile.",
+        "Non hai prove!"
+      ],
+      "traduzioni": {
+        "en": "test, trial",
+        "es": "prueba",
+        "pt": "prova, teste",
+        "fr": "épreuve",
+        "cs": "zkouška",
+        "pl": "próba",
+        "tr": "sınav, deneme",
+        "de": "Probe, Prüfung",
+        "ja": "試練、試験"
+      },
+      "formeEsempi": [
+        "prove"
+      ]
+    },
+    {
+      "parola": "il soffio",
+      "forme": [
+        "soffio"
+      ],
+      "esempi": [
+        "Ha spento le candeline con un soffio.",
+        "Un soffio di vento ha chiuso la porta.",
+        "Le vacanze sono passate in un soffio."
+      ],
+      "traduzioni": {
+        "en": "breath, puff",
+        "es": "soplido",
+        "pt": "sopro",
+        "fr": "souffle",
+        "cs": "foukání, závan",
+        "pl": "dmuchnięcie, podmuch",
+        "tr": "üfleme",
+        "de": "Pusten, Hauch",
+        "ja": "ひと吹き、息"
+      }
+    },
+    {
+      "parola": "mostrare",
+      "forme": [
+        "mostrato"
+      ],
+      "formeEsempi": [
+        "mostro"
+      ],
+      "esempi": [
+        "Ti mostro la mia nuova casa.",
+        "L'esame ha mostrato i miei errori.",
+        "Mi ha mostrato la strada."
+      ],
+      "traduzioni": {
+        "en": "to show",
+        "es": "mostrar",
+        "pt": "mostrar",
+        "fr": "montrer",
+        "cs": "ukázat",
+        "pl": "pokazać",
+        "tr": "göstermek",
+        "de": "zeigen",
+        "ja": "示す"
+      }
+    },
+    {
+      "parola": "la debolezza",
+      "forme": [
+        "debolezza"
+      ],
+      "esempi": [
+        "Il cioccolato è la mia debolezza.",
+        "Dopo la febbre sento una grande debolezza.",
+        "Chiedere aiuto non è una debolezza."
+      ],
+      "traduzioni": {
+        "en": "weakness",
+        "es": "debilidad",
+        "pt": "fraqueza",
+        "fr": "faiblesse",
+        "cs": "slabost",
+        "pl": "słabość",
+        "tr": "zayıflık",
+        "de": "Schwäche",
+        "ja": "弱さ"
+      }
+    },
+    {
+      "parola": "la pazienza",
+      "forme": [
+        "pazienza"
+      ],
+      "esempi": [
+        "Abbi pazienza, arrivo!",
+        "Con i bambini ci vuole pazienza.",
+        "Ho perso la pazienza."
+      ],
+      "traduzioni": {
+        "en": "patience",
+        "es": "paciencia",
+        "pt": "paciência",
+        "fr": "patience",
+        "cs": "trpělivost",
+        "pl": "cierpliwość",
+        "tr": "sabır",
+        "de": "Geduld",
+        "ja": "忍耐、根気"
+      }
+    },
+    {
+      "parola": "comodo",
+      "forme": [
+        "comoda"
+      ],
+      "formeEsempi": [
+        "comodo"
+      ],
+      "esempi": [
+        "Questa sedia è molto comoda.",
+        "Abito in una zona comoda per il lavoro.",
+        "È più comodo andare in treno."
+      ],
+      "traduzioni": {
+        "en": "easy, convenient; comfortable",
+        "es": "cómodo",
+        "pt": "cômodo, prático",
+        "fr": "facile, pratique",
+        "cs": "pohodlný",
+        "pl": "wygodny",
+        "tr": "kolay, rahat",
+        "de": "bequem",
+        "ja": "楽な、便利な"
+      }
+    },
+    {
+      "parola": "intelligente",
+      "forme": [
+        "intelligente"
+      ],
+      "esempi": [
+        "Il mio cane è molto intelligente.",
+        "È stata una scelta intelligente.",
+        "Lei è una ragazza intelligente."
+      ],
+      "traduzioni": {
+        "en": "clever, smart",
+        "es": "inteligente",
+        "pt": "inteligente",
+        "fr": "intelligent",
+        "cs": "chytrý",
+        "pl": "mądry, inteligentny",
+        "tr": "akıllıca, zeki",
+        "de": "klug",
+        "ja": "かしこい"
+      }
+    },
+    {
+      "parola": "la qualità",
+      "forme": [
+        "qualità"
+      ],
+      "esempi": [
+        "Questo olio è di ottima qualità.",
+        "Preferisco la qualità alla quantità.",
+        "La qualità del lavoro è importante."
+      ],
+      "traduzioni": {
+        "en": "quality",
+        "es": "calidad",
+        "pt": "qualidade",
+        "fr": "qualité",
+        "cs": "kvalita",
+        "pl": "jakość",
+        "tr": "kalite",
+        "de": "Qualität",
+        "ja": "質"
+      }
+    },
+    {
+      "parola": "il momento",
+      "forme": [
+        "momenti"
+      ],
+      "formeEsempi": [
+        "momento"
+      ],
+      "esempi": [
+        "Un momento, per favore!",
+        "Ci sono momenti belli e momenti brutti.",
+        "Nei momenti difficili si vedono gli amici."
+      ],
+      "traduzioni": {
+        "en": "moment, time",
+        "es": "momento",
+        "pt": "momento",
+        "fr": "moment",
+        "cs": "chvíle",
+        "pl": "chwila",
+        "tr": "an",
+        "de": "Moment",
+        "ja": "とき"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Three little pigs leave their mother's house and go to live in the woods. They want to build a house.",
+        "The first little pig makes a house of straw. It's quick, but the house is weak. The second makes a house of wood. It's stronger, but not very safe.",
+        "The third little pig works harder and builds a house of bricks. His brothers laugh because he finishes later.",
+        "A wolf arrives. He blows on the straw house and then on the wooden one. The two little pigs run to their brother's house. The brick house stays standing. The three of them understand that doing a job well takes time, but it keeps you safe."
+      ],
+      "a2": [
+        "Three little pigs lived with their mother, but one day they decided to build a house each.",
+        "The first used straw because he wanted to finish quickly. The second chose wood, while the third preferred bricks, even though the work took longer.",
+        "When the wolf came, he blew hard against the straw house and destroyed it. Then he did the same with the wooden house.",
+        "The first two little pigs ran to their brother. The brick house held firm and the wolf couldn't get in. The three brothers understood that rushing can be dangerous."
+      ],
+      "b1": [
+        "The three little pigs wanted to live on their own and built three different houses. The first two thought mainly about speed: a house of straw and one of wood seemed good enough.",
+        "The third, on the other hand, chose bricks. He worked longer and put up with his brothers' laughter, as they were sure he was overdoing it.",
+        "The test came with the wolf. The force of his breath immediately showed how weak the first two houses were.",
+        "Only the house built with patience held out. The fable reminds us that an easy choice can look clever at first, but quality shows in difficult moments."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Tres cerditos dejan la casa de su mamá y se van a vivir al bosque. Quieren construir una casa.",
+        "El primer cerdito hace una casa de paja. Es rápido, pero la casa es débil. El segundo hace una casa de madera. Es más fuerte, pero no muy segura.",
+        "El tercer cerdito trabaja más y construye una casa de ladrillos. Sus hermanos se ríen porque él termina más tarde.",
+        "Llega un lobo. Sopla sobre la casa de paja y luego sobre la de madera. Los dos cerditos escapan a casa de su hermano. La casa de ladrillos sigue en pie. Los tres entienden que trabajar bien lleva tiempo, pero protege."
+      ],
+      "a2": [
+        "Tres cerditos vivían con su mamá, pero un día decidieron construir cada uno su propia casa.",
+        "El primero usó paja porque quería terminar deprisa. El segundo eligió la madera, mientras que el tercero prefirió los ladrillos, aunque el trabajo era más largo.",
+        "Cuando llegó el lobo, sopló fuerte contra la casa de paja y la destruyó. Luego hizo lo mismo con la casa de madera.",
+        "Los dos primeros cerditos corrieron a casa de su hermano. La casa de ladrillos resistió y el lobo no consiguió entrar. Los tres hermanos comprendieron que las prisas pueden ser peligrosas."
+      ],
+      "b1": [
+        "Los tres cerditos querían vivir solos y construyeron tres casas distintas. Los dos primeros pensaron sobre todo en la rapidez: una casa de paja y otra de madera parecían soluciones suficientes.",
+        "El tercero, en cambio, eligió los ladrillos. Trabajó durante más tiempo y aguantó las risas de sus hermanos, convencidos de que estaba exagerando.",
+        "La prueba llegó con el lobo. La fuerza de su soplido mostró enseguida la debilidad de las dos primeras casas.",
+        "Solo la casa construida con paciencia resistió. La fábula recuerda que una elección cómoda puede parecer inteligente al principio, pero la calidad se ve en los momentos difíciles."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Três porquinhos saem da casa da mamãe e vão morar no bosque. Eles querem construir uma casa.",
+        "O primeiro porquinho faz uma casa de palha. É rápido, mas a casa é fraca. O segundo faz uma casa de madeira. É mais forte, mas não muito segura.",
+        "O terceiro porquinho trabalha mais e constrói uma casa de tijolos. Os irmãos riem porque ele termina mais tarde.",
+        "Chega um lobo. Ele sopra a casa de palha e depois a de madeira. Os dois porquinhos fogem para a casa do irmão. A casa de tijolos fica de pé. Os três entendem que trabalhar bem leva tempo, mas protege."
+      ],
+      "a2": [
+        "Três porquinhos moravam com a mamãe, mas um dia decidiram construir cada um a própria casa.",
+        "O primeiro usou palha porque queria terminar depressa. O segundo escolheu madeira, enquanto o terceiro preferiu tijolos, mesmo que o trabalho fosse mais demorado.",
+        "Quando o lobo chegou, soprou forte contra a casa de palha e a destruiu. Depois fez o mesmo com a casa de madeira.",
+        "Os dois primeiros porquinhos correram para a casa do irmão. A casa de tijolos resistiu e o lobo não conseguiu entrar. Os três irmãos entenderam que a pressa pode ser perigosa."
+      ],
+      "b1": [
+        "Os três porquinhos queriam morar sozinhos e construíram três casas diferentes. Os dois primeiros pensaram principalmente na rapidez: uma casa de palha e uma de madeira pareciam soluções suficientes.",
+        "Já o terceiro escolheu tijolos. Trabalhou por mais tempo e aguentou as risadas dos irmãos, convencidos de que ele estava exagerando.",
+        "A prova chegou com o lobo. A força do sopro dele mostrou na hora a fraqueza das duas primeiras casas.",
+        "Só a casa construída com paciência resistiu. A fábula lembra que uma escolha cômoda pode parecer inteligente no começo, mas a qualidade aparece nos momentos difíceis."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Trois petits cochons quittent la maison de leur maman et vont vivre dans le bois. Ils veulent construire une maison.",
+        "Le premier petit cochon fait une maison de paille. C’est rapide, mais la maison est fragile. Le deuxième fait une maison de bois. Elle est plus solide, mais pas très sûre.",
+        "Le troisième petit cochon travaille plus et construit une maison de briques. Ses frères rient parce qu’il finit plus tard.",
+        "Un loup arrive. Il souffle sur la maison de paille, puis sur celle de bois. Les deux petits cochons se sauvent chez leur frère. La maison de briques reste debout. Les trois comprennent que bien travailler demande du temps, mais que ça protège."
+      ],
+      "a2": [
+        "Trois petits cochons vivaient avec leur maman, mais un jour, ils ont décidé de construire chacun leur propre maison.",
+        "Le premier a utilisé de la paille parce qu’il voulait finir vite. Le deuxième a choisi le bois, tandis que le troisième a préféré les briques, même si le travail était plus long.",
+        "Quand le loup est arrivé, il a soufflé fort contre la maison de paille et l’a détruite. Puis il a fait la même chose avec la maison de bois.",
+        "Les deux premiers petits cochons ont couru chez leur frère. La maison de briques a résisté et le loup n’a pas réussi à entrer. Les trois frères ont compris que la précipitation peut être dangereuse."
+      ],
+      "b1": [
+        "Les trois petits cochons voulaient vivre seuls et ont construit trois maisons différentes. Les deux premiers ont surtout pensé à la rapidité : une maison de paille et une de bois semblaient des solutions suffisantes.",
+        "Le troisième, en revanche, a choisi les briques. Il a travaillé plus longtemps et a supporté les rires de ses frères, convaincus qu’il exagérait.",
+        "L’épreuve est arrivée avec le loup. La force de son souffle a tout de suite montré la faiblesse des deux premières maisons.",
+        "Seule la maison construite avec patience a résisté. La fable rappelle qu’un choix facile peut sembler intelligent au début, mais que la qualité se voit dans les moments difficiles."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Tři prasátka opustí maminčin dům a jdou bydlet do lesa. Chtějí si postavit dům.",
+        "První prasátko udělá dům ze slámy. Je to rychlé, ale dům je slabý. Druhé udělá dům ze dřeva. Je pevnější, ale ne moc bezpečný.",
+        "Třetí prasátko pracuje víc a postaví dům z cihel. Bratři se smějí, protože skončí později.",
+        "Přijde vlk. Fouká na dům ze slámy a potom na ten ze dřeva. Obě prasátka utečou k bratrovi. Dům z cihel zůstane stát. Všichni tři pochopí, že dobrá práce chce čas, ale chrání."
+      ],
+      "a2": [
+        "Tři prasátka bydlela s maminkou, ale jednoho dne se rozhodla, že si každé postaví vlastní dům.",
+        "První použilo slámu, protože chtělo být rychle hotové. Druhé si vybralo dřevo, zatímco třetí dalo přednost cihlám, i když práce trvala déle.",
+        "Když přišel vlk, silně foukl do domu ze slámy a zničil ho. Pak udělal totéž s domem ze dřeva.",
+        "První dvě prasátka běžela k bratrovi. Dům z cihel vydržel a vlk se dovnitř nedostal. Tři bratři pochopili, že spěch může být nebezpečný."
+      ],
+      "b1": [
+        "Tři prasátka chtěla bydlet sama a postavila si tři různé domy. První dvě myslela hlavně na rychlost: dům ze slámy a dům ze dřeva se jim zdály jako dostatečné řešení.",
+        "Třetí si naopak vybralo cihly. Pracovalo déle a snášelo smích bratrů, kteří byli přesvědčení, že to přehání.",
+        "Zkouška přišla s vlkem. Síla jeho foukání hned ukázala slabost prvních dvou domů.",
+        "Odolal jen dům postavený s trpělivostí. Bajka připomíná, že pohodlná volba se může na začátku zdát chytrá, ale kvalita se pozná v těžkých chvílích."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Trzy małe świnki opuszczają dom mamy i idą mieszkać do lasu. Chcą zbudować dom.",
+        "Pierwsza świnka robi dom ze słomy. To szybkie, ale dom jest słaby. Druga robi dom z drewna. Jest mocniejszy, ale niezbyt bezpieczny.",
+        "Trzecia świnka pracuje więcej i buduje dom z cegieł. Bracia się śmieją, bo kończy później.",
+        "Przychodzi wilk. Dmucha na dom ze słomy, a potem na ten z drewna. Dwie świnki uciekają do brata. Dom z cegieł stoi dalej. Wszystkie trzy rozumieją, że dobra praca wymaga czasu, ale chroni."
+      ],
+      "a2": [
+        "Trzy małe świnki mieszkały z mamą, ale pewnego dnia postanowiły, że każda zbuduje własny dom.",
+        "Pierwsza użyła słomy, bo chciała szybko skończyć. Druga wybrała drewno, a trzecia wolała cegły, chociaż praca trwała dłużej.",
+        "Kiedy przyszedł wilk, mocno dmuchnął na dom ze słomy i go zniszczył. Potem zrobił to samo z domem z drewna.",
+        "Pierwsze dwie świnki pobiegły do brata. Dom z cegieł wytrzymał i wilk nie zdołał wejść do środka. Trzej bracia zrozumieli, że pośpiech może być niebezpieczny."
+      ],
+      "b1": [
+        "Trzy świnki chciały mieszkać same i zbudowały trzy różne domy. Dwie pierwsze myślały przede wszystkim o szybkości: dom ze słomy i dom z drewna wydawały się wystarczającym rozwiązaniem.",
+        "Trzecia natomiast wybrała cegły. Pracowała dłużej i znosiła śmiech braci, przekonanych, że przesadza.",
+        "Próba przyszła razem z wilkiem. Siła jego dmuchnięcia od razu pokazała słabość dwóch pierwszych domów.",
+        "Wytrzymał tylko dom zbudowany z cierpliwością. Bajka przypomina, że wygodny wybór może na początku wydawać się mądry, ale jakość widać w trudnych chwilach."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Üç küçük domuz annelerinin evinden ayrılıyor ve ormanda yaşamaya gidiyor. Bir ev yapmak istiyorlar.",
+        "Birinci küçük domuz samandan bir ev yapıyor. Hızlı oluyor ama ev dayanıksız. İkincisi tahtadan bir ev yapıyor. Daha sağlam ama pek güvenli değil.",
+        "Üçüncü küçük domuz daha çok çalışıyor ve tuğladan bir ev yapıyor. Kardeşleri gülüyor, çünkü o daha geç bitiriyor.",
+        "Bir kurt geliyor. Önce saman eve, sonra tahta eve üflüyor. İki küçük domuz kardeşlerinin evine kaçıyor. Tuğla ev ayakta kalıyor. Üçü de iyi çalışmanın zaman aldığını ama koruduğunu anlıyor."
+      ],
+      "a2": [
+        "Üç küçük domuz anneleriyle yaşıyordu ama bir gün her biri kendi evini yapmaya karar verdi.",
+        "Birincisi çabucak bitirmek istediği için saman kullandı. İkincisi tahtayı seçti; üçüncüsü ise iş daha uzun sürse de tuğlayı tercih etti.",
+        "Kurt geldiğinde saman eve kuvvetle üfledi ve onu yıktı. Sonra aynısını tahta eve yaptı.",
+        "İlk iki küçük domuz kardeşlerinin yanına koştu. Tuğla ev dayandı ve kurt içeri giremedi. Üç kardeş, aceleciliğin tehlikeli olabileceğini anladı."
+      ],
+      "b1": [
+        "Üç küçük domuz kendi başlarına yaşamak istiyordu ve üç farklı ev yaptılar. İlk ikisi özellikle hızı düşündü: samandan bir ev ve tahtadan bir ev yeterli çözümler gibi görünüyordu.",
+        "Üçüncüsü ise tuğlayı seçti. Daha uzun süre çalıştı ve abarttığından emin olan kardeşlerinin kahkahalarına katlandı.",
+        "Sınav kurtla birlikte geldi. Üflemesinin gücü, ilk iki evin ne kadar dayanıksız olduğunu hemen gösterdi.",
+        "Sadece sabırla yapılan ev dayandı. Masal, kolay bir seçimin başta akıllıca görünebileceğini ama kalitenin zor anlarda ortaya çıktığını hatırlatır."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Drei kleine Schweinchen verlassen das Haus ihrer Mama und ziehen in den Wald. Sie wollen ein Haus bauen.",
+        "Das erste Schweinchen baut ein Haus aus Stroh. Das geht schnell, aber das Haus ist schwach. Das zweite baut ein Haus aus Holz. Es ist stärker, aber nicht sehr sicher.",
+        "Das dritte Schweinchen arbeitet mehr und baut ein Haus aus Ziegelsteinen. Seine Brüder lachen, weil es später fertig wird.",
+        "Ein Wolf kommt. Er pustet gegen das Strohhaus und dann gegen das Holzhaus. Die zwei Schweinchen laufen zu ihrem Bruder. Das Ziegelhaus bleibt stehen. Die drei verstehen, dass gute Arbeit Zeit braucht, aber schützt."
+      ],
+      "a2": [
+        "Drei kleine Schweinchen wohnten bei ihrer Mama, aber eines Tages beschlossen sie, dass jedes sein eigenes Haus baut.",
+        "Das erste nahm Stroh, weil es schnell fertig sein wollte. Das zweite wählte Holz, während das dritte lieber Ziegelsteine nahm, auch wenn die Arbeit länger dauerte.",
+        "Als der Wolf kam, pustete er kräftig gegen das Strohhaus und zerstörte es. Dann machte er dasselbe mit dem Holzhaus.",
+        "Die ersten zwei Schweinchen rannten zu ihrem Bruder. Das Ziegelhaus hielt stand und der Wolf kam nicht hinein. Die drei Brüder verstanden, dass Eile gefährlich sein kann."
+      ],
+      "b1": [
+        "Die drei kleinen Schweinchen wollten allein leben und bauten drei verschiedene Häuser. Die ersten beiden dachten vor allem an die Schnelligkeit: Ein Haus aus Stroh und eines aus Holz schienen ausreichende Lösungen.",
+        "Das dritte dagegen wählte Ziegelsteine. Es arbeitete länger und ertrug das Gelächter seiner Brüder, die überzeugt waren, dass es übertreibe.",
+        "Die Probe kam mit dem Wolf. Die Kraft seines Pustens zeigte sofort die Schwäche der ersten beiden Häuser.",
+        "Nur das Haus, das mit Geduld gebaut worden war, hielt stand. Die Fabel erinnert daran, dass eine bequeme Wahl am Anfang klug wirken kann, aber Qualität zeigt sich in schwierigen Momenten."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "三びきのこぶたが、お母さんの家を出て、森で暮らすことにします。家を建てたいのです。",
+        "一ぴきめのこぶたは、わらの家を作ります。早くできますが、家は弱いです。二ひきめは、木の家を作ります。もっとじょうぶですが、あまり安全ではありません。",
+        "三びきめのこぶたは、もっと働いて、れんがの家を建てます。できあがるのが遅いので、兄弟たちは笑います。",
+        "おおかみがやって来ます。わらの家に息を吹きかけ、それから木の家にも吹きかけます。二ひきのこぶたは、兄弟の家へ逃げます。れんがの家は倒れません。三びきは、ていねいな仕事は時間がかかるけれど、身を守ってくれるとわかります。"
+      ],
+      "a2": [
+        "三びきのこぶたはお母さんと暮らしていましたが、ある日、それぞれ自分の家を建てることにしました。",
+        "一ぴきめは早く終わらせたかったので、わらを使いました。二ひきめは木を選び、三びきめは、仕事が長くかかってもれんがのほうを選びました。",
+        "おおかみが来ると、わらの家に強く息を吹きかけて、こわしてしまいました。それから、木の家にも同じことをしました。",
+        "はじめの二ひきは、兄弟のところへ走っていきました。れんがの家は持ちこたえ、おおかみは中に入れませんでした。三びきの兄弟は、急ぐことは危険になりうるとわかりました。"
+      ],
+      "b1": [
+        "三びきのこぶたは自分たちだけで暮らしたくて、三つのちがう家を建てました。はじめの二ひきは、何よりも速さを考えました。わらの家と木の家で十分だと思えたのです。",
+        "それに対して、三びきめはれんがを選びました。長い時間働き、やりすぎだと思っている兄弟たちの笑い声にもがまんしました。",
+        "試練は、おおかみとともにやって来ました。その息の強さで、はじめの二つの家の弱さがすぐにわかりました。",
+        "根気よく建てた家だけが持ちこたえました。この寓話は、楽な選択は最初はかしこく見えても、質のよさはつらいときにこそわかる、ということを思い出させてくれます。"
+      ]
+    }
+  }
+}
