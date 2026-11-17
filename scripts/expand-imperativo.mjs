@@ -225,7 +225,7 @@ const T = {
 
   de: (I) => ({
     lead: `Gib Anweisungen, Ratschläge und Einladungen mit allen Personen: ${I('ascolta')} (tu), ${I('andiamo')} (noi), ${I('entrate')} (voi), ${I('si accomodi')} (Lei). Mit einem Trick, um dir die Formen mühelos zu merken.`,
-    nav: ['Alle Personen', 'Der Trick', 'Unregelmäßige Verben'],
+    nav: ['Alle Personen', 'Der Trick', 'Unregelmäßige'],
     inf: 'Infinitiv',
     tabH2: `Die fünf Personen: ${I('tu, noi, voi, Lei, Loro')}`,
     tabP: `Der italienische Imperativ hat fünf Personen. Ein ${I('io')} gibt es nicht: Befehle an sich selbst gibt man nicht.`,
@@ -318,7 +318,7 @@ const T = {
 
   tr: (I) => ({
     lead: `Bütün şahıslarla talimat, öneri ve davet verin: ${I('ascolta')} (tu), ${I('andiamo')} (noi), ${I('entrate')} (voi), ${I('si accomodi')} (Lei). Biçimleri zahmetsizce akılda tutmak için bir yolla birlikte.`,
-    nav: ['Bütün şahıslar', 'Akılda tutma yolu', 'Düzensiz fiiller'],
+    nav: ['Bütün şahıslar', 'Akılda tutma yolu', 'Düzensizler'],
     inf: 'Mastar',
     tabH2: `Beş şahıs: ${I('tu, noi, voi, Lei, Loro')}`,
     tabP: `İtalyanca emir kipinin beş şahsı vardır. ${I('io')} yoktur: insan kendine emir vermez.`,
