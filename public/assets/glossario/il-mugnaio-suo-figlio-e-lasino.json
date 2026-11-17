@@ -1,0 +1,1415 @@
+{
+  "id": "il-mugnaio-suo-figlio-e-lasino",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il mugnaio",
+      "forme": [
+        "mugnaio"
+      ],
+      "esempi": [
+        "Il mugnaio macina il grano nel mulino.",
+        "Il figlio del mugnaio lavora con lui.",
+        "Il mugnaio ha le mani bianche di farina."
+      ],
+      "traduzioni": {
+        "en": "miller",
+        "es": "molinero",
+        "pt": "moleiro",
+        "fr": "meunier («Le Meunier, son Fils et l’Âne», La Fontaine)",
+        "cs": "mlynář",
+        "pl": "młynarz",
+        "tr": "değirmenci",
+        "de": "Müller",
+        "ja": "粉屋"
+      }
+    },
+    {
+      "parola": "il figlio",
+      "forme": [
+        "figlio"
+      ],
+      "formeEsempi": [
+        "figli"
+      ],
+      "esempi": [
+        "Mio figlio ha dieci anni.",
+        "Hanno due figli e una figlia.",
+        "Il figlio aiuta il padre in negozio."
+      ],
+      "traduzioni": {
+        "en": "son",
+        "es": "hijo",
+        "pt": "filho",
+        "fr": "fils",
+        "cs": "syn",
+        "pl": "syn",
+        "tr": "oğul",
+        "de": "Sohn",
+        "ja": "息子"
+      }
+    },
+    {
+      "parola": "l'asino",
+      "forme": [
+        "asino"
+      ],
+      "formeEsempi": [
+        "asini"
+      ],
+      "esempi": [
+        "L'asino porta i sacchi pesanti.",
+        "In montagna abbiamo visto due asini.",
+        "L'asino fa «i-oh»."
+      ],
+      "traduzioni": {
+        "en": "donkey",
+        "es": "burro, asno",
+        "pt": "burro, jumento",
+        "fr": "âne",
+        "cs": "osel",
+        "pl": "osioł",
+        "tr": "eşek",
+        "de": "Esel",
+        "ja": "ろば"
+      }
+    },
+    {
+      "parola": "il mercato",
+      "forme": [
+        "mercato"
+      ],
+      "esempi": [
+        "Il sabato vado al mercato.",
+        "Al mercato la frutta costa poco.",
+        "Il mercato di Palermo è famoso."
+      ],
+      "traduzioni": {
+        "en": "market",
+        "es": "mercado",
+        "pt": "mercado, feira",
+        "fr": "marché",
+        "cs": "trh",
+        "pl": "targ, rynek",
+        "tr": "pazar",
+        "de": "Markt",
+        "ja": "市場"
+      }
+    },
+    {
+      "parola": "all'inizio",
+      "forme": [
+        "inizio"
+      ],
+      "esempi": [
+        "All'inizio l'italiano mi sembrava difficile.",
+        "All'inizio del film c'è una canzone.",
+        "L'inizio della lezione è alle nove."
+      ],
+      "traduzioni": {
+        "en": "at first, at the beginning",
+        "es": "al principio",
+        "pt": "no começo",
+        "fr": "au début",
+        "cs": "na začátku",
+        "pl": "na początku",
+        "tr": "başta, ilk başta",
+        "de": "am Anfang",
+        "ja": "最初は"
+      }
+    },
+    {
+      "parola": "salire",
+      "forme": [
+        "sale",
+        "salire",
+        "salito",
+        "salirci"
+      ],
+      "formeEsempi": [
+        "salgo"
+      ],
+      "esempi": [
+        "Salgo sull'autobus davanti alla scuola.",
+        "Il gatto sale sul tavolo.",
+        "La moto è nuova: vuoi salirci?"
+      ],
+      "traduzioni": {
+        "en": "to get on, to climb on; to go up",
+        "es": "subir(se)",
+        "pt": "subir, montar",
+        "fr": "monter",
+        "cs": "nasednout, vylézt",
+        "pl": "wsiąść, wejść",
+        "tr": "binmek, çıkmak",
+        "de": "aufsteigen, einsteigen",
+        "ja": "乗る、上がる"
+      }
+    },
+    {
+      "parola": "più avanti",
+      "forme": [
+        "avanti"
+      ],
+      "esempi": [
+        "La farmacia è un po' più avanti.",
+        "Avanti, entra pure!",
+        "Ne parliamo più avanti."
+      ],
+      "traduzioni": {
+        "en": "further on; later",
+        "es": "más adelante",
+        "pt": "mais adiante, mais à frente",
+        "fr": "plus loin; plus tard",
+        "cs": "dál, kousek dál",
+        "pl": "dalej",
+        "tr": "ileride",
+        "de": "weiter vorne; später",
+        "ja": "もっと先で"
+      }
+    },
+    {
+      "parola": "giovane",
+      "forme": [
+        "giovane"
+      ],
+      "esempi": [
+        "Mia madre sembra molto giovane.",
+        "È un giovane medico.",
+        "Da giovane abitavo a Napoli."
+      ],
+      "traduzioni": {
+        "en": "young",
+        "es": "joven",
+        "pt": "jovem",
+        "fr": "jeune",
+        "cs": "mladý",
+        "pl": "młody",
+        "tr": "genç",
+        "de": "jung",
+        "ja": "若い"
+      }
+    },
+    {
+      "parola": "egoista",
+      "forme": [
+        "egoista"
+      ],
+      "esempi": [
+        "Non essere egoista: dividi la torta!",
+        "È un bambino un po' egoista.",
+        "Pensa solo a sé: è proprio egoista."
+      ],
+      "traduzioni": {
+        "en": "selfish",
+        "es": "egoísta",
+        "pt": "egoísta",
+        "fr": "égoïste",
+        "cs": "sobecký",
+        "pl": "samolubny, egoistyczny",
+        "tr": "bencil",
+        "de": "egoistisch",
+        "ja": "自分勝手な"
+      }
+    },
+    {
+      "parola": "a piedi",
+      "forme": [
+        "piedi"
+      ],
+      "esempi": [
+        "Vado al lavoro a piedi.",
+        "La stazione è a dieci minuti a piedi.",
+        "Mi fanno male i piedi."
+      ],
+      "traduzioni": {
+        "en": "on foot, walking",
+        "es": "a pie, andando",
+        "pt": "a pé",
+        "fr": "à pied",
+        "cs": "pěšky",
+        "pl": "pieszo, na piechotę",
+        "tr": "yürüyerek, yaya",
+        "de": "zu Fuß",
+        "ja": "歩いて"
+      }
+    },
+    {
+      "parola": "accontentare",
+      "forme": [
+        "accontentare"
+      ],
+      "formeEsempi": [
+        "accontento"
+      ],
+      "esempi": [
+        "È impossibile accontentare tutti.",
+        "Accontento sempre i miei figli.",
+        "Il cameriere cerca di accontentare i clienti."
+      ],
+      "traduzioni": {
+        "en": "to please, to satisfy («you can't please everyone»)",
+        "es": "contentar, complacer («nunca llueve a gusto de todos»)",
+        "pt": "agradar, contentar («não dá para agradar a todos»)",
+        "fr": "contenter, satisfaire («on ne peut pas plaire à tout le monde»)",
+        "cs": "vyhovět, zavděčit se («všem lidem se nezavděčíš»)",
+        "pl": "zadowolić, dogodzić («wszystkim nie dogodzisz»)",
+        "tr": "memnun etmek («herkesi memnun edemezsin»)",
+        "de": "zufriedenstellen («Allen Leuten recht getan ist eine Kunst, die niemand kann»)",
+        "ja": "満足させる（「みんなを喜ばせることはできない」）"
+      }
+    },
+    {
+      "parola": "cambiare idea",
+      "forme": [
+        "cambia",
+        "cambiato",
+        "cambiata"
+      ],
+      "formeEsempi": [
+        "cambio"
+      ],
+      "esempi": [
+        "Ho cambiato idea: vengo anch'io!",
+        "Mia figlia cambia idea ogni cinque minuti.",
+        "La città è molto cambiata."
+      ],
+      "traduzioni": {
+        "en": "to change one's mind («cambiare» = to change)",
+        "es": "cambiar de idea",
+        "pt": "mudar de ideia",
+        "fr": "changer d’avis",
+        "cs": "změnit názor",
+        "pl": "zmienić zdanie",
+        "tr": "fikrini değiştirmek",
+        "de": "seine Meinung ändern",
+        "ja": "考えを変える"
+      }
+    },
+    {
+      "parola": "criticare",
+      "forme": [
+        "critica"
+      ],
+      "formeEsempi": [
+        "critico",
+        "criticare",
+        "criticato"
+      ],
+      "esempi": [
+        "Mia suocera critica sempre la mia cucina.",
+        "Non criticare, aiuta!",
+        "Il film è stato criticato dai giornali."
+      ],
+      "traduzioni": {
+        "en": "to criticize",
+        "es": "criticar",
+        "pt": "criticar",
+        "fr": "critiquer",
+        "cs": "kritizovat",
+        "pl": "krytykować",
+        "tr": "eleştirmek",
+        "de": "kritisieren",
+        "ja": "批判する、けちをつける"
+      },
+      "livelli": [
+        "a1"
+      ]
+    },
+    {
+      "parola": "piacere a",
+      "forme": [
+        "piacere",
+        "piaciuta"
+      ],
+      "formeEsempi": [
+        "piace",
+        "piaciuto"
+      ],
+      "esempi": [
+        "Mi piace la pizza.",
+        "Il film non mi è piaciuto.",
+        "Vuole piacere a tutti."
+      ],
+      "traduzioni": {
+        "en": "to please, to be liked («mi piace» = I like it)",
+        "es": "gustar, caer bien",
+        "pt": "agradar, gostar",
+        "fr": "plaire",
+        "cs": "líbit se",
+        "pl": "podobać się",
+        "tr": "hoşa gitmek",
+        "de": "gefallen",
+        "ja": "気に入られる、好かれる"
+      }
+    },
+    {
+      "parola": "usare la propria testa",
+      "forme": [
+        "testa"
+      ],
+      "esempi": [
+        "Non copiare: usa la tua testa!",
+        "Ho mal di testa.",
+        "Quel ragazzo ha la testa sulle spalle."
+      ],
+      "traduzioni": {
+        "en": "to think for oneself («testa» = head)",
+        "es": "usar la cabeza, pensar por uno mismo",
+        "pt": "usar a cabeça, pensar por si",
+        "fr": "réfléchir par soi-même",
+        "cs": "myslet vlastní hlavou",
+        "pl": "myśleć samodzielnie",
+        "tr": "kendi kafasıyla düşünmek",
+        "de": "selbst denken",
+        "ja": "自分の頭で考える"
+      }
+    },
+    {
+      "parola": "proprio",
+      "forme": [
+        "propria",
+        "proprio"
+      ],
+      "esempi": [
+        "Ognuno ha la propria opinione.",
+        "Ha lasciato il proprio lavoro.",
+        "Ciascuno porta il proprio libro."
+      ],
+      "traduzioni": {
+        "en": "one's own",
+        "es": "propio",
+        "pt": "próprio",
+        "fr": "propre (à soi)",
+        "cs": "vlastní",
+        "pl": "własny",
+        "tr": "kendi",
+        "de": "eigen",
+        "ja": "自分の"
+      }
+    },
+    {
+      "parola": "la critica",
+      "forme": [
+        "critica",
+        "critiche"
+      ],
+      "livelli": [
+        "a2",
+        "b1"
+      ],
+      "esempi": [
+        "Ogni critica può aiutarti a migliorare.",
+        "Non accetta le critiche.",
+        "Il libro ha ricevuto una bella critica sul giornale."
+      ],
+      "traduzioni": {
+        "en": "criticism («una critica»)",
+        "es": "crítica",
+        "pt": "crítica",
+        "fr": "critique",
+        "cs": "kritika, výtka",
+        "pl": "krytyka",
+        "tr": "eleştiri",
+        "de": "Kritik",
+        "ja": "批判"
+      }
+    },
+    {
+      "parola": "viaggiare",
+      "forme": [
+        "viaggiare"
+      ],
+      "formeEsempi": [
+        "viaggio"
+      ],
+      "esempi": [
+        "Mi piace viaggiare in treno.",
+        "Viaggio spesso per lavoro.",
+        "Viaggiare apre la mente."
+      ],
+      "traduzioni": {
+        "en": "to travel",
+        "es": "viajar",
+        "pt": "viajar",
+        "fr": "voyager",
+        "cs": "cestovat",
+        "pl": "podróżować",
+        "tr": "yolculuk etmek",
+        "de": "reisen",
+        "ja": "移動する、旅をする"
+      }
+    },
+    {
+      "parola": "fare salire",
+      "forme": [
+        "fatto"
+      ],
+      "esempi": [
+        "Il papà ha fatto salire il bambino sulle spalle.",
+        "Mi hai fatto ridere!",
+        "L'autista ci ha fatto scendere in piazza."
+      ],
+      "traduzioni": {
+        "en": "to have (someone) get on, to let (someone) ride",
+        "es": "hacer subir",
+        "pt": "fazer subir, colocar em cima",
+        "fr": "faire monter",
+        "cs": "nechat nasednout",
+        "pl": "kazać wsiąść, posadzić",
+        "tr": "bindirmek",
+        "de": "aufsteigen lassen",
+        "ja": "乗らせる"
+      }
+    },
+    {
+      "parola": "il passante",
+      "forme": [
+        "passanti"
+      ],
+      "formeEsempi": [
+        "passante"
+      ],
+      "esempi": [
+        "Ho chiesto la strada a un passante.",
+        "I passanti si fermano a guardare.",
+        "Un passante ha chiamato l'ambulanza."
+      ],
+      "traduzioni": {
+        "en": "passer-by",
+        "es": "transeúnte, peatón",
+        "pt": "pedestre, transeunte",
+        "fr": "passant",
+        "cs": "kolemjdoucí",
+        "pl": "przechodzień",
+        "tr": "yoldan geçen",
+        "de": "Passant",
+        "ja": "通行人"
+      }
+    },
+    {
+      "parola": "rispettare",
+      "forme": [
+        "rispettava"
+      ],
+      "formeEsempi": [
+        "rispetta",
+        "rispettare"
+      ],
+      "esempi": [
+        "Bisogna rispettare gli anziani.",
+        "Mio figlio rispetta le regole.",
+        "Da giovane non rispettava nessuno."
+      ],
+      "traduzioni": {
+        "en": "to respect",
+        "es": "respetar",
+        "pt": "respeitar",
+        "fr": "respecter",
+        "cs": "respektovat, ctít",
+        "pl": "szanować",
+        "tr": "saygı göstermek",
+        "de": "respektieren",
+        "ja": "敬う"
+      }
+    },
+    {
+      "parola": "cavalcare",
+      "forme": [
+        "cavalcava"
+      ],
+      "formeEsempi": [
+        "cavalca",
+        "cavalcare"
+      ],
+      "esempi": [
+        "Mia figlia sa cavalcare.",
+        "Il principe cavalca un cavallo bianco.",
+        "Da piccolo cavalcava l'asino del nonno."
+      ],
+      "traduzioni": {
+        "en": "to ride",
+        "es": "montar, cabalgar",
+        "pt": "montar, cavalgar",
+        "fr": "chevaucher, monter",
+        "cs": "jet (na zvířeti)",
+        "pl": "jechać wierzchem",
+        "tr": "binmek (hayvana)",
+        "de": "reiten",
+        "ja": "（動物に）乗る"
+      }
+    },
+    {
+      "parola": "la scelta",
+      "forme": [
+        "scelta"
+      ],
+      "esempi": [
+        "È stata una scelta difficile.",
+        "Hai fatto la scelta giusta.",
+        "In questo negozio c'è molta scelta."
+      ],
+      "traduzioni": {
+        "en": "choice",
+        "es": "elección, decisión",
+        "pt": "escolha",
+        "fr": "choix",
+        "cs": "volba, rozhodnutí",
+        "pl": "wybór",
+        "tr": "seçim",
+        "de": "Wahl, Entscheidung",
+        "ja": "選択"
+      }
+    },
+    {
+      "parola": "giudicare",
+      "forme": [
+        "giudicato"
+      ],
+      "formeEsempi": [
+        "giudicare",
+        "giudica"
+      ],
+      "esempi": [
+        "Non giudicare senza conoscere.",
+        "La giuria giudica i cantanti.",
+        "Mi hanno giudicato male."
+      ],
+      "traduzioni": {
+        "en": "to judge, to consider",
+        "es": "juzgar",
+        "pt": "julgar",
+        "fr": "juger",
+        "cs": "soudit, posoudit",
+        "pl": "oceniać, osądzać",
+        "tr": "yargılamak",
+        "de": "beurteilen",
+        "ja": "判断する、決めつける"
+      }
+    },
+    {
+      "parola": "duro",
+      "forme": [
+        "duro"
+      ],
+      "formeEsempi": [
+        "dura"
+      ],
+      "esempi": [
+        "Il professore è duro con gli studenti.",
+        "Non essere così duro con te stesso.",
+        "È stato un anno duro."
+      ],
+      "traduzioni": {
+        "en": "hard, harsh, strict",
+        "es": "duro, severo",
+        "pt": "duro, severo",
+        "fr": "dur, sévère",
+        "cs": "přísný, tvrdý",
+        "pl": "surowy, twardy",
+        "tr": "sert, katı",
+        "de": "streng, hart",
+        "ja": "きびしい"
+      }
+    },
+    {
+      "parola": "l'opinione",
+      "forme": [
+        "opinioni",
+        "opinione"
+      ],
+      "esempi": [
+        "Qual è la tua opinione?",
+        "Rispetto le opinioni degli altri.",
+        "Secondo me è una buona idea, ma è solo un'opinione."
+      ],
+      "traduzioni": {
+        "en": "opinion",
+        "es": "opinión",
+        "pt": "opinião",
+        "fr": "opinion, avis",
+        "cs": "názor",
+        "pl": "opinia, zdanie",
+        "tr": "görüş, fikir",
+        "de": "Meinung",
+        "ja": "意見"
+      }
+    },
+    {
+      "parola": "la soluzione",
+      "forme": [
+        "soluzione"
+      ],
+      "esempi": [
+        "Ho trovato la soluzione!",
+        "Non c'è una soluzione facile.",
+        "La soluzione dell'esercizio è a pagina dieci."
+      ],
+      "traduzioni": {
+        "en": "solution",
+        "es": "solución",
+        "pt": "solução",
+        "fr": "solution",
+        "cs": "řešení",
+        "pl": "rozwiązanie",
+        "tr": "çözüm",
+        "de": "Lösung",
+        "ja": "解決策"
+      }
+    },
+    {
+      "parola": "creare",
+      "forme": [
+        "creava"
+      ],
+      "formeEsempi": [
+        "crea",
+        "creato"
+      ],
+      "esempi": [
+        "Questa decisione crea problemi.",
+        "Ha creato un'azienda dal nulla.",
+        "Il vento creava onde altissime."
+      ],
+      "traduzioni": {
+        "en": "to create, to cause",
+        "es": "crear, causar",
+        "pt": "criar, causar",
+        "fr": "créer, provoquer",
+        "cs": "vytvářet, způsobit",
+        "pl": "tworzyć, powodować",
+        "tr": "yaratmak, doğurmak",
+        "de": "schaffen, verursachen",
+        "ja": "生む、作り出す"
+      }
+    },
+    {
+      "parola": "il buon senso",
+      "forme": [
+        "senso"
+      ],
+      "esempi": [
+        "Usa il buon senso!",
+        "Non ha senso aspettare.",
+        "Questa frase non ha senso."
+      ],
+      "traduzioni": {
+        "en": "common sense («non ha senso» = it makes no sense)",
+        "es": "sentido común",
+        "pt": "bom senso",
+        "fr": "bon sens",
+        "cs": "zdravý rozum",
+        "pl": "zdrowy rozsądek",
+        "tr": "sağduyu",
+        "de": "gesunder Menschenverstand",
+        "ja": "常識、分別"
+      }
+    },
+    {
+      "parola": "perdere",
+      "forme": [
+        "perde"
+      ],
+      "formeEsempi": [
+        "perso",
+        "perdo"
+      ],
+      "esempi": [
+        "Perdo sempre le chiavi.",
+        "Ho perso il treno.",
+        "Chi si arrabbia perde la calma."
+      ],
+      "traduzioni": {
+        "en": "to lose",
+        "es": "perder",
+        "pt": "perder",
+        "fr": "perdre",
+        "cs": "ztratit",
+        "pl": "stracić",
+        "tr": "kaybetmek",
+        "de": "verlieren",
+        "ja": "失う"
+      }
+    },
+    {
+      "parola": "accanto a",
+      "forme": [
+        "accanto"
+      ],
+      "esempi": [
+        "Siediti accanto a me.",
+        "La farmacia è accanto alla banca.",
+        "Abito nella casa accanto."
+      ],
+      "traduzioni": {
+        "en": "next to, beside",
+        "es": "al lado de",
+        "pt": "ao lado de",
+        "fr": "à côté de",
+        "cs": "vedle",
+        "pl": "obok",
+        "tr": "yanında",
+        "de": "neben",
+        "ja": "〜のとなりに"
+      }
+    },
+    {
+      "parola": "prendere in giro",
+      "forme": [
+        "presi"
+      ],
+      "formeEsempi": [
+        "prende",
+        "prendono",
+        "prendermi"
+      ],
+      "esempi": [
+        "Non prendermi in giro!",
+        "Mi prendono in giro per il mio accento.",
+        "Lui prende sempre in giro la sorella."
+      ],
+      "traduzioni": {
+        "en": "to make fun of",
+        "es": "burlarse de, tomar el pelo",
+        "pt": "zoar, tirar sarro",
+        "fr": "se moquer de",
+        "cs": "dělat si legraci z",
+        "pl": "naśmiewać się z",
+        "tr": "dalga geçmek",
+        "de": "sich lustig machen über",
+        "ja": "からかう"
+      }
+    },
+    {
+      "parola": "secondo",
+      "forme": [
+        "secondo"
+      ],
+      "esempi": [
+        "Secondo me hai ragione.",
+        "Secondo il medico devo riposare.",
+        "Secondo te, che tempo farà domani?"
+      ],
+      "traduzioni": {
+        "en": "according to, in (someone's) opinion",
+        "es": "según",
+        "pt": "segundo, para",
+        "fr": "selon, d’après",
+        "cs": "podle",
+        "pl": "według",
+        "tr": "-e göre",
+        "de": "laut, nach Meinung von",
+        "ja": "〜によれば"
+      }
+    },
+    {
+      "parola": "assurdo",
+      "forme": [
+        "assurdo"
+      ],
+      "formeEsempi": [
+        "assurda"
+      ],
+      "esempi": [
+        "È assurdo pagare così tanto!",
+        "Che storia assurda!",
+        "Mi sembra un'idea assurda."
+      ],
+      "traduzioni": {
+        "en": "absurd, ridiculous",
+        "es": "absurdo",
+        "pt": "absurdo",
+        "fr": "absurde",
+        "cs": "absurdní, nesmyslný",
+        "pl": "absurdalny",
+        "tr": "saçma",
+        "de": "absurd, lächerlich",
+        "ja": "ばかげた"
+      }
+    },
+    {
+      "parola": "evitare",
+      "forme": [
+        "evitare"
+      ],
+      "formeEsempi": [
+        "evito"
+      ],
+      "esempi": [
+        "Evito il centro all'ora di punta.",
+        "Per evitare il traffico parto presto.",
+        "Cerca di evitare gli errori."
+      ],
+      "traduzioni": {
+        "en": "to avoid",
+        "es": "evitar",
+        "pt": "evitar",
+        "fr": "éviter",
+        "cs": "vyhnout se",
+        "pl": "uniknąć",
+        "tr": "kaçınmak",
+        "de": "vermeiden",
+        "ja": "避ける"
+      }
+    },
+    {
+      "parola": "montare",
+      "forme": [
+        "montare"
+      ],
+      "formeEsempi": [
+        "monta"
+      ],
+      "esempi": [
+        "Il cavaliere monta a cavallo.",
+        "Ti aiuto a montare sulla bici.",
+        "Mia figlia impara a montare a cavallo."
+      ],
+      "traduzioni": {
+        "en": "to mount, to get on (an animal)",
+        "es": "montar",
+        "pt": "montar",
+        "fr": "monter (à cheval)",
+        "cs": "nasednout",
+        "pl": "dosiąść",
+        "tr": "binmek",
+        "de": "aufsitzen, reiten",
+        "ja": "（動物に）乗る"
+      }
+    },
+    {
+      "parola": "la scena",
+      "forme": [
+        "scena"
+      ],
+      "esempi": [
+        "L'ultima scena del film è bellissima.",
+        "Ho visto una scena divertente in piazza.",
+        "Non fare scene!"
+      ],
+      "traduzioni": {
+        "en": "scene, sight",
+        "es": "escena",
+        "pt": "cena",
+        "fr": "scène",
+        "cs": "výjev, scéna",
+        "pl": "scena, widok",
+        "tr": "sahne, manzara",
+        "de": "Szene, Anblick",
+        "ja": "光景、場面"
+      },
+      "formeEsempi": [
+        "scene"
+      ]
+    },
+    {
+      "parola": "opposto",
+      "forme": [
+        "opposto"
+      ],
+      "formeEsempi": [
+        "opposta",
+        "opposte"
+      ],
+      "esempi": [
+        "Abbiamo idee opposte.",
+        "Il negozio è dalla parte opposta della strada.",
+        "Io penso l'opposto."
+      ],
+      "traduzioni": {
+        "en": "opposite",
+        "es": "opuesto",
+        "pt": "oposto",
+        "fr": "opposé",
+        "cs": "opačný",
+        "pl": "przeciwny",
+        "tr": "zıt, ters",
+        "de": "entgegengesetzt",
+        "ja": "正反対の"
+      }
+    },
+    {
+      "parola": "comodo",
+      "forme": [
+        "comodo"
+      ],
+      "esempi": [
+        "Questo divano è comodo.",
+        "Il treno è più comodo della macchina.",
+        "Mettiti comodo!"
+      ],
+      "traduzioni": {
+        "en": "comfortable",
+        "es": "cómodo",
+        "pt": "confortável, à vontade",
+        "fr": "à l’aise, confortable",
+        "cs": "pohodlný",
+        "pl": "wygodny",
+        "tr": "rahat",
+        "de": "bequem",
+        "ja": "楽な、快適な"
+      }
+    },
+    {
+      "parola": "trascurato",
+      "forme": [
+        "trascurato"
+      ],
+      "formeEsempi": [
+        "trascurata"
+      ],
+      "esempi": [
+        "Il giardino è un po' trascurato.",
+        "Si sente trascurata dagli amici.",
+        "Era un bambino trascurato dai genitori."
+      ],
+      "traduzioni": {
+        "en": "neglected",
+        "es": "descuidado, desatendido",
+        "pt": "negligenciado, largado",
+        "fr": "négligé, délaissé",
+        "cs": "zanedbaný",
+        "pl": "zaniedbany",
+        "tr": "ihmal edilmiş",
+        "de": "vernachlässigt",
+        "ja": "ないがしろにされた"
+      }
+    },
+    {
+      "parola": "la decisione",
+      "forme": [
+        "decisione"
+      ],
+      "esempi": [
+        "È una decisione importante.",
+        "Ho preso una decisione: cambio casa.",
+        "Rispetto la tua decisione."
+      ],
+      "traduzioni": {
+        "en": "decision",
+        "es": "decisión",
+        "pt": "decisão",
+        "fr": "décision",
+        "cs": "rozhodnutí",
+        "pl": "decyzja",
+        "tr": "karar",
+        "de": "Entscheidung",
+        "ja": "決断"
+      }
+    },
+    {
+      "parola": "il gruppo",
+      "forme": [
+        "gruppo"
+      ],
+      "esempi": [
+        "Viaggio con un gruppo di amici.",
+        "La guida aspetta il gruppo davanti al museo.",
+        "Lavoriamo in gruppo."
+      ],
+      "traduzioni": {
+        "en": "group",
+        "es": "grupo",
+        "pt": "grupo",
+        "fr": "groupe",
+        "cs": "skupina",
+        "pl": "grupa",
+        "tr": "grup",
+        "de": "Gruppe",
+        "ja": "グループ、一団"
+      }
+    },
+    {
+      "parola": "il rimprovero",
+      "forme": [
+        "rimprovero"
+      ],
+      "esempi": [
+        "Ho ricevuto un rimprovero dal capo.",
+        "Il suo sguardo era un rimprovero.",
+        "Non merito questo rimprovero."
+      ],
+      "traduzioni": {
+        "en": "reproach, telling-off",
+        "es": "reproche, regañina",
+        "pt": "repreensão, bronca",
+        "fr": "reproche",
+        "cs": "výtka",
+        "pl": "wyrzut, nagana",
+        "tr": "sitem, azar",
+        "de": "Vorwurf, Tadel",
+        "ja": "非難、小言"
+      }
+    },
+    {
+      "parola": "mostrare",
+      "forme": [
+        "mostra"
+      ],
+      "formeEsempi": [
+        "mostro"
+      ],
+      "esempi": [
+        "Ti mostro le foto delle vacanze.",
+        "Il film mostra la vita in Sicilia.",
+        "La guida mostra la strada ai turisti."
+      ],
+      "traduzioni": {
+        "en": "to show",
+        "es": "mostrar",
+        "pt": "mostrar",
+        "fr": "montrer",
+        "cs": "ukázat",
+        "pl": "pokazać",
+        "tr": "göstermek",
+        "de": "zeigen",
+        "ja": "示す、見せる"
+      }
+    },
+    {
+      "parola": "il pericolo",
+      "forme": [
+        "pericolo"
+      ],
+      "esempi": [
+        "Attenzione: pericolo!",
+        "Il pericolo è passato.",
+        "Non vede il pericolo."
+      ],
+      "traduzioni": {
+        "en": "danger",
+        "es": "peligro",
+        "pt": "perigo",
+        "fr": "danger",
+        "cs": "nebezpečí",
+        "pl": "niebezpieczeństwo",
+        "tr": "tehlike",
+        "de": "Gefahr",
+        "ja": "危険"
+      }
+    },
+    {
+      "parola": "lo sguardo",
+      "forme": [
+        "sguardo"
+      ],
+      "esempi": [
+        "Ha uno sguardo dolce.",
+        "Ho sentito il suo sguardo su di me.",
+        "Con uno sguardo ha capito tutto."
+      ],
+      "traduzioni": {
+        "en": "gaze, look, eyes («lo sguardo degli altri» = what others think)",
+        "es": "mirada",
+        "pt": "olhar",
+        "fr": "regard",
+        "cs": "pohled",
+        "pl": "spojrzenie",
+        "tr": "bakış",
+        "de": "Blick",
+        "ja": "まなざし、人の目"
+      }
+    },
+    {
+      "parola": "ascoltare",
+      "forme": [
+        "ascoltare"
+      ],
+      "formeEsempi": [
+        "ascolto"
+      ],
+      "esempi": [
+        "Ascolto la radio in macchina.",
+        "Bisogna ascoltare i bambini.",
+        "Mi piace ascoltare la musica italiana."
+      ],
+      "traduzioni": {
+        "en": "to listen",
+        "es": "escuchar",
+        "pt": "escutar, ouvir",
+        "fr": "écouter",
+        "cs": "poslouchat",
+        "pl": "słuchać",
+        "tr": "dinlemek",
+        "de": "zuhören",
+        "ja": "聞く、耳を傾ける"
+      }
+    },
+    {
+      "parola": "utile",
+      "forme": [
+        "utile"
+      ],
+      "esempi": [
+        "Questo consiglio è molto utile.",
+        "Un dizionario è sempre utile.",
+        "Posso esserti utile?"
+      ],
+      "traduzioni": {
+        "en": "useful",
+        "es": "útil",
+        "pt": "útil",
+        "fr": "utile",
+        "cs": "užitečný",
+        "pl": "przydatny",
+        "tr": "yararlı",
+        "de": "nützlich",
+        "ja": "役に立つ"
+      }
+    },
+    {
+      "parola": "rinunciare a",
+      "forme": [
+        "rinunciare"
+      ],
+      "formeEsempi": [
+        "rinuncio"
+      ],
+      "esempi": [
+        "Non voglio rinunciare alle vacanze.",
+        "Rinuncio al dolce: sono pieno.",
+        "Ha dovuto rinunciare al viaggio."
+      ],
+      "traduzioni": {
+        "en": "to give up",
+        "es": "renunciar a",
+        "pt": "renunciar a, abrir mão de",
+        "fr": "renoncer à",
+        "cs": "vzdát se",
+        "pl": "zrezygnować z",
+        "tr": "vazgeçmek",
+        "de": "verzichten auf, aufgeben",
+        "ja": "あきらめる、手放す"
+      }
+    },
+    {
+      "parola": "il giudizio",
+      "forme": [
+        "giudizio"
+      ],
+      "esempi": [
+        "Mi fido del tuo giudizio.",
+        "Non dare giudizi troppo presto.",
+        "È una persona di buon giudizio."
+      ],
+      "traduzioni": {
+        "en": "judgement",
+        "es": "juicio, criterio",
+        "pt": "juízo, discernimento",
+        "fr": "jugement",
+        "cs": "úsudek",
+        "pl": "osąd, rozsądek",
+        "tr": "muhakeme, yargı",
+        "de": "Urteil, Urteilsvermögen",
+        "ja": "判断力"
+      },
+      "formeEsempi": [
+        "giudizi"
+      ]
+    },
+    {
+      "parola": "la confusione",
+      "forme": [
+        "confusione"
+      ],
+      "esempi": [
+        "In casa c'è una gran confusione.",
+        "Scusa, ho fatto confusione con le date.",
+        "Troppe informazioni creano confusione."
+      ],
+      "traduzioni": {
+        "en": "confusion, mess",
+        "es": "confusión, lío",
+        "pt": "confusão",
+        "fr": "confusion, désordre",
+        "cs": "zmatek",
+        "pl": "zamieszanie, zamęt",
+        "tr": "karışıklık",
+        "de": "Verwirrung, Durcheinander",
+        "ja": "混乱"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "A miller goes to the market with his son and a donkey. At first all three of them walk along the road.",
+        "Some people see them and say: “Why doesn't anyone ride the donkey?” So the son gets on the donkey.",
+        "Further on, other people say: “The boy is young and the father is walking!” So the father gets on. Soon after, someone says: “The father is selfish and leaves his son on foot!”",
+        "The miller wants to please everyone. He changes his mind many times, but every person criticizes something. In the end he understands that he can't please everyone and must think for himself."
+      ],
+      "a2": [
+        "A miller was going to the market with his son and a donkey. They were walking along calmly, but some people criticized them because nobody was using the animal to travel.",
+        "The miller let his son ride. A little later, however, other passers-by said that the boy had no respect for his father, because he was riding while the man was walking.",
+        "So the miller got on, but people didn't like this choice either. Someone thought the father was too hard on his son.",
+        "The miller tried to follow every opinion, but each solution led to a new criticism. He understood that when you try to please everyone, you often lose your common sense."
+      ],
+      "b1": [
+        "The miller and his son were taking the donkey to the market. Since they were walking beside the animal, the first passers-by made fun of them: in their view it was absurd to have a donkey and not ride it.",
+        "To avoid that criticism, the father let the boy ride. Straight afterwards, however, other people judged the scene the opposite way: the son looked comfortable and the father looked neglected.",
+        "The miller changed his decision again. Then he changed it once more, because each group of people had a new opinion and a new reproach.",
+        "The fable shows the danger of living by what others think. Listening can be useful, but giving up your own judgement only leads to confusion."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un molinero va al mercado con su hijo y con un burro. Al principio caminan los tres por el camino.",
+        "Algunas personas los ven y dicen: «¿Por qué nadie se sube al burro?». Entonces el hijo se sube al burro.",
+        "Más adelante, otras personas dicen: «¡El chico es joven y el padre va andando!». Entonces se sube el padre. Poco después, alguien dice: «¡El padre es egoísta y deja al hijo a pie!».",
+        "El molinero quiere contentar a todos. Cambia de idea muchas veces, pero cada persona critica algo. Al final entiende que no puede gustar a todos y que debe pensar con su propia cabeza."
+      ],
+      "a2": [
+        "Un molinero iba al mercado con su hijo y con un burro. Caminaban tranquilos, pero algunas personas los criticaron porque nadie usaba el animal para viajar.",
+        "El molinero hizo subir a su hijo. Poco después, sin embargo, otros transeúntes dijeron que el chico no respetaba a su padre, porque él iba montado mientras el hombre caminaba.",
+        "Entonces se subió el molinero, pero esta decisión tampoco gustó. Alguien pensó que el padre era demasiado duro con su hijo.",
+        "El molinero intentó seguir todas las opiniones, pero cada solución creaba una nueva crítica. Comprendió que, cuando se intenta contentar a todos, a menudo se pierde el sentido común."
+      ],
+      "b1": [
+        "El molinero y su hijo llevaban el burro al mercado. Como caminaban al lado del animal, los primeros transeúntes se burlaron de ellos: según ellos, era absurdo tener un burro y no subirse.",
+        "Para evitar esas críticas, el padre hizo montar al chico. Pero justo después, otras personas juzgaron aquella escena al revés: el hijo parecía cómodo y el padre, desatendido.",
+        "El molinero volvió a cambiar de decisión. Luego la cambió otra vez, porque cada grupo de personas tenía una nueva opinión y un nuevo reproche.",
+        "La fábula muestra el peligro de vivir según la mirada de los demás. Escuchar puede ser útil, pero renunciar al propio juicio solo trae confusión."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Um moleiro vai ao mercado com o filho e com um burro. No começo os três andam pela estrada.",
+        "Algumas pessoas os veem e dizem: «Por que ninguém monta no burro?». Então o filho sobe no burro.",
+        "Mais adiante, outras pessoas dizem: «O menino é jovem e o pai está a pé!». Então o pai sobe. Logo depois, alguém diz: «O pai é egoísta e deixa o filho a pé!».",
+        "O moleiro quer agradar a todos. Muda de ideia muitas vezes, mas cada pessoa critica alguma coisa. No fim ele entende que não dá para agradar a todos e que precisa usar a própria cabeça."
+      ],
+      "a2": [
+        "Um moleiro estava indo ao mercado com o filho e com um burro. Andavam tranquilos, mas algumas pessoas os criticaram porque ninguém usava o animal para viajar.",
+        "O moleiro colocou o filho em cima do burro. Pouco depois, porém, outros pedestres disseram que o menino não respeitava o pai, porque ele ia montado enquanto o homem andava.",
+        "Então o moleiro subiu, mas essa escolha também não agradou. Alguém achou que o pai era duro demais com o filho.",
+        "O moleiro tentou seguir todas as opiniões, mas cada solução criava uma nova crítica. Entendeu que, quando a gente tenta agradar a todos, muitas vezes perde o bom senso."
+      ],
+      "b1": [
+        "O moleiro e o filho estavam levando o burro ao mercado. Como andavam ao lado do animal, os primeiros pedestres zoaram deles: para eles, era absurdo ter um burro e não montar nele.",
+        "Para evitar essas críticas, o pai fez o menino montar. Logo depois, porém, outras pessoas julgaram a cena do jeito oposto: o filho parecia confortável e o pai parecia largado.",
+        "O moleiro mudou de decisão de novo. Depois mudou mais uma vez, porque cada grupo de pessoas tinha uma nova opinião e uma nova bronca.",
+        "A fábula mostra o perigo de viver de acordo com o olhar dos outros. Escutar pode ser útil, mas abrir mão do próprio juízo só traz confusão."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un meunier va au marché avec son fils et avec un âne. Au début, ils marchent tous les trois sur la route.",
+        "Des gens les voient et disent : « Pourquoi personne ne monte sur l’âne ? » Alors le fils monte sur l’âne.",
+        "Plus loin, d’autres gens disent : « Le garçon est jeune et le père marche ! » Alors le père monte. Peu après, quelqu’un dit : « Le père est égoïste et laisse son fils à pied ! »",
+        "Le meunier veut contenter tout le monde. Il change d’avis plusieurs fois, mais chaque personne critique quelque chose. À la fin, il comprend qu’il ne peut pas plaire à tout le monde et qu’il doit réfléchir par lui-même."
+      ],
+      "a2": [
+        "Un meunier allait au marché avec son fils et avec un âne. Ils marchaient tranquillement, mais des gens les ont critiqués parce que personne n’utilisait l’animal pour voyager.",
+        "Le meunier a fait monter son fils. Peu après, pourtant, d’autres passants ont dit que le garçon ne respectait pas son père, parce qu’il était à dos d’âne pendant que l’homme marchait.",
+        "Alors le meunier est monté, mais ce choix n’a pas plu non plus. Quelqu’un a trouvé le père trop dur avec son fils.",
+        "Le meunier a essayé de suivre tous les avis, mais chaque solution créait une nouvelle critique. Il a compris que, quand on cherche à contenter tout le monde, on perd souvent le bon sens."
+      ],
+      "b1": [
+        "Le meunier et son fils menaient l’âne au marché. Comme ils marchaient à côté de l’animal, les premiers passants se sont moqués d’eux : selon eux, il était absurde d’avoir un âne et de ne pas monter dessus.",
+        "Pour éviter ces critiques, le père a fait monter le garçon. Juste après, pourtant, d’autres gens ont jugé la scène de manière opposée : le fils semblait à son aise et le père semblait délaissé.",
+        "Le meunier a de nouveau changé de décision. Puis il en a changé encore, parce que chaque groupe de personnes avait un nouvel avis et un nouveau reproche.",
+        "La fable montre le danger de vivre selon le regard des autres. Écouter peut être utile, mais renoncer à son propre jugement n’apporte que de la confusion."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Mlynář jde na trh se synem a s oslem. Na začátku jdou všichni tři pěšky po cestě.",
+        "Nějací lidé je uvidí a říkají: „Proč nikdo nesedí na oslovi?“ Tak syn na osla nasedne.",
+        "O kus dál jiní lidé říkají: „Kluk je mladý a otec jde pěšky!“ Tak nasedne otec. Za chvíli někdo řekne: „Otec je sobecký a nechá syna jít pěšky!“",
+        "Mlynář chce vyhovět všem. Mnohokrát změní názor, ale každý něco kritizuje. Nakonec pochopí, že se nemůže zavděčit všem a musí myslet vlastní hlavou."
+      ],
+      "a2": [
+        "Mlynář šel se synem a s oslem na trh. Šli v klidu, ale nějací lidé je kritizovali, protože nikdo zvíře nevyužíval k cestě.",
+        "Mlynář nechal syna nasednout. Za chvíli ale jiní kolemjdoucí řekli, že kluk nemá úctu k otci, protože jede, zatímco muž jde pěšky.",
+        "Tak nasedl mlynář, ale ani tohle rozhodnutí se nelíbilo. Někdo usoudil, že otec je na syna příliš přísný.",
+        "Mlynář se snažil řídit všemi názory, ale každé řešení vyvolalo novou kritiku. Pochopil, že když se člověk snaží vyhovět všem, často ztratí zdravý rozum."
+      ],
+      "b1": [
+        "Mlynář se synem vedli osla na trh. Protože šli vedle zvířete, první kolemjdoucí si z nich dělali legraci: podle nich bylo absurdní mít osla a nejet na něm.",
+        "Aby se otec vyhnul té kritice, nechal kluka nasednout. Hned nato ale jiní lidé posoudili ten výjev opačně: syn vypadal pohodlně a otec zanedbaně.",
+        "Mlynář znovu změnil rozhodnutí. Pak ho změnil ještě jednou, protože každá skupina lidí měla nový názor a novou výtku.",
+        "Bajka ukazuje, jak nebezpečné je žít podle toho, co si myslí druzí. Naslouchat může být užitečné, ale vzdát se vlastního úsudku přináší jen zmatek."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Młynarz idzie na targ z synem i z osłem. Na początku wszyscy trzej idą drogą.",
+        "Jacyś ludzie ich widzą i mówią: „Dlaczego nikt nie jedzie na ośle?”. Wtedy syn wsiada na osła.",
+        "Dalej inni ludzie mówią: „Chłopak jest młody, a ojciec idzie pieszo!”. Wtedy wsiada ojciec. Chwilę później ktoś mówi: „Ojciec jest samolubny i zostawia syna pieszo!”.",
+        "Młynarz chce zadowolić wszystkich. Wiele razy zmienia zdanie, ale każdy coś krytykuje. W końcu rozumie, że nie może podobać się wszystkim i musi myśleć samodzielnie."
+      ],
+      "a2": [
+        "Młynarz szedł na targ z synem i z osłem. Szli spokojnie, ale jacyś ludzie ich skrytykowali, bo nikt nie jechał na zwierzęciu.",
+        "Młynarz posadził syna na osła. Niedługo potem jednak inni przechodnie powiedzieli, że chłopak nie szanuje ojca, bo jedzie, a mężczyzna idzie pieszo.",
+        "Wtedy wsiadł młynarz, ale ten wybór też się nie spodobał. Ktoś uznał, że ojciec jest zbyt surowy dla syna.",
+        "Młynarz próbował słuchać wszystkich opinii, ale każde rozwiązanie wywoływało nową krytykę. Zrozumiał, że kiedy próbuje się dogodzić wszystkim, często traci się zdrowy rozsądek."
+      ],
+      "b1": [
+        "Młynarz z synem prowadzili osła na targ. Ponieważ szli obok zwierzęcia, pierwsi przechodnie zaczęli się z nich naśmiewać: według nich mieć osła i na nim nie jechać było absurdem.",
+        "Żeby uniknąć tych uwag, ojciec kazał chłopcu wsiąść. Zaraz potem jednak inni ludzie ocenili tę scenę zupełnie odwrotnie: syn wyglądał na wygodnie usadowionego, a ojciec na zaniedbanego.",
+        "Młynarz znowu zmienił decyzję. Potem zmienił ją jeszcze raz, bo każda grupa ludzi miała nową opinię i nowy zarzut.",
+        "Bajka pokazuje niebezpieczeństwo życia według tego, co myślą inni. Słuchanie może być przydatne, ale rezygnacja z własnego osądu prowadzi tylko do zamętu."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir değirmenci, oğlu ve bir eşekle pazara gidiyor. Başta üçü de yolda yürüyor.",
+        "Bazı insanlar onları görüyor ve «Neden kimse eşeğe binmiyor?» diyor. Bunun üzerine oğul eşeğe biniyor.",
+        "Biraz ileride başka insanlar «Çocuk genç, babası yürüyor!» diyor. Bunun üzerine baba biniyor. Biraz sonra biri «Baba bencil, oğlunu yaya bırakıyor!» diyor.",
+        "Değirmenci herkesi memnun etmek istiyor. Birçok kez fikrini değiştiriyor ama herkes bir şeyi eleştiriyor. Sonunda herkesin hoşuna gidemeyeceğini ve kendi kafasıyla düşünmesi gerektiğini anlıyor."
+      ],
+      "a2": [
+        "Bir değirmenci oğlu ve bir eşekle pazara gidiyordu. Sakin sakin yürüyorlardı ama bazı insanlar, kimse yolculuk için hayvanı kullanmadığı için onları eleştirdi.",
+        "Değirmenci oğlunu eşeğe bindirdi. Ama biraz sonra başka yoldan geçenler, adam yürürken çocuğun eşeğe bindiğini, yani babasına saygı göstermediğini söyledi.",
+        "Bunun üzerine değirmenci bindi ama bu seçim de beğenilmedi. Biri babanın oğluna karşı fazla sert olduğunu düşündü.",
+        "Değirmenci bütün görüşlere uymaya çalıştı ama her çözüm yeni bir eleştiri doğurdu. Herkesi memnun etmeye çalışınca çoğu zaman sağduyunun kaybolduğunu anladı."
+      ],
+      "b1": [
+        "Değirmenci ile oğlu eşeği pazara götürüyordu. Hayvanın yanında yürüdükleri için ilk yoldan geçenler onlarla dalga geçti: onlara göre bir eşeğin olup ona binmemek saçmaydı.",
+        "Bu eleştirilerden kaçınmak için baba oğlunu eşeğe bindirdi. Ama hemen ardından başka insanlar bu sahneyi tam tersi şekilde yorumladı: oğul rahat, baba ise ihmal edilmiş görünüyordu.",
+        "Değirmenci kararını yine değiştirdi. Sonra bir kez daha değiştirdi, çünkü her grubun yeni bir görüşü ve yeni bir sitemi vardı.",
+        "Masal, başkalarının bakışına göre yaşamanın tehlikesini gösterir. Dinlemek yararlı olabilir ama kendi muhakemesinden vazgeçmek sadece karışıklık getirir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Ein Müller geht mit seinem Sohn und einem Esel zum Markt. Am Anfang gehen alle drei zu Fuß auf der Straße.",
+        "Ein paar Leute sehen sie und sagen: „Warum reitet niemand auf dem Esel?“ Also steigt der Sohn auf den Esel.",
+        "Weiter vorne sagen andere Leute: „Der Junge ist jung und der Vater geht zu Fuß!“ Also steigt der Vater auf. Kurz danach sagt jemand: „Der Vater ist egoistisch und lässt seinen Sohn laufen!“",
+        "Der Müller will es allen recht machen. Er ändert viele Male seine Meinung, aber jeder kritisiert etwas. Am Ende versteht er, dass er nicht allen gefallen kann und selbst denken muss."
+      ],
+      "a2": [
+        "Ein Müller ging mit seinem Sohn und einem Esel zum Markt. Sie gingen ruhig ihres Weges, aber ein paar Leute kritisierten sie, weil niemand das Tier zum Reisen nutzte.",
+        "Der Müller ließ seinen Sohn aufsteigen. Kurz darauf sagten aber andere Passanten, der Junge habe keinen Respekt vor seinem Vater, weil er ritt, während der Mann zu Fuß ging.",
+        "Also stieg der Müller auf, aber auch diese Entscheidung gefiel nicht. Jemand fand den Vater zu streng mit seinem Sohn.",
+        "Der Müller versuchte, allen Meinungen zu folgen, aber jede Lösung brachte neue Kritik. Er verstand: Wenn man es allen recht machen will, verliert man oft den gesunden Menschenverstand."
+      ],
+      "b1": [
+        "Der Müller und sein Sohn führten den Esel zum Markt. Weil sie neben dem Tier hergingen, machten sich die ersten Passanten über sie lustig: Ihrer Meinung nach war es absurd, einen Esel zu haben und nicht auf ihm zu reiten.",
+        "Um diese Kritik zu vermeiden, ließ der Vater den Jungen aufsitzen. Gleich danach beurteilten andere Leute die Szene aber genau umgekehrt: Der Sohn wirkte bequem, der Vater vernachlässigt.",
+        "Der Müller änderte seine Entscheidung erneut. Dann änderte er sie noch einmal, weil jede Gruppe von Leuten eine neue Meinung und einen neuen Vorwurf hatte.",
+        "Die Fabel zeigt, wie gefährlich es ist, nach dem Urteil der anderen zu leben. Zuhören kann nützlich sein, aber das eigene Urteil aufzugeben, führt nur zu Verwirrung."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "粉屋が息子といっしょに、ろばを連れて市場へ行きます。最初は、三人とも道を歩いています。",
+        "それを見た人たちが言います。「どうしてだれもろばに乗らないんだ？」そこで息子がろばに乗ります。",
+        "もっと先で、ほかの人たちが言います。「息子は若いのに、父親が歩いている！」そこで父親が乗ります。しばらくすると、だれかが言います。「父親は自分勝手だ。息子を歩かせている！」",
+        "粉屋はみんなを満足させたいと思います。何度も考えを変えますが、だれもが何かに文句を言います。最後に粉屋は、みんなに好かれることはできない、自分の頭で考えなければならないとわかります。"
+      ],
+      "a2": [
+        "粉屋が息子といっしょに、ろばを連れて市場へ向かっていました。のんびり歩いていましたが、だれも動物を使って移動していないので、文句を言う人たちがいました。",
+        "粉屋は息子をろばに乗せました。ところがまもなく、別の通行人たちが、男の人が歩いているのに息子が乗っている、あの子は父親を敬っていないと言いました。",
+        "そこで粉屋が乗りましたが、これも気に入られませんでした。父親は息子にきびしすぎると言う人がいたのです。",
+        "粉屋はすべての意見に従おうとしましたが、どの解決策も新しい批判を生みました。みんなを満足させようとすると、たいてい分別を失ってしまうのだと、粉屋はわかりました。"
+      ],
+      "b1": [
+        "粉屋と息子は、ろばを市場へ連れていくところでした。二人がろばのそばを歩いていたので、最初に出会った通行人たちはからかいました。ろばがいるのに乗らないなんてばかげている、というのです。",
+        "その批判を避けるために、父親は息子をろばに乗せました。けれどもすぐに、別の人たちがその光景を正反対に判断しました。息子は楽をしていて、父親はないがしろにされているように見えたのです。",
+        "粉屋はまた決断を変えました。そして、さらにもう一度変えました。どのグループの人たちも、新しい意見と新しい小言を持っていたからです。",
+        "この寓話は、人の目を気にして生きることの危うさを示しています。人の話を聞くのは役に立つこともありますが、自分の判断を手放すと、混乱するだけなのです。"
+      ]
+    }
+  }
+}
