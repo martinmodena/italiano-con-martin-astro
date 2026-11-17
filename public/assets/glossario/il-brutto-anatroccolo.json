@@ -1,0 +1,1917 @@
+{
+  "id": "il-brutto-anatroccolo",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "l'anatroccolo",
+      "forme": [
+        "anatroccolo",
+        "anatroccoli"
+      ],
+      "esempi": [
+        "L'anatroccolo segue la mamma nell'acqua.",
+        "Nel parco abbiamo visto cinque anatroccoli.",
+        "L'anatroccolo è piccolo e giallo."
+      ],
+      "traduzioni": {
+        "en": "duckling («The Ugly Duckling»)",
+        "es": "patito («El patito feo»)",
+        "pt": "patinho («O patinho feio»)",
+        "fr": "caneton («Le Vilain Petit Canard»)",
+        "cs": "káčátko («Ošklivé káčátko»)",
+        "pl": "kaczątko («Brzydkie kaczątko»)",
+        "tr": "ördek yavrusu («Çirkin Ördek Yavrusu»)",
+        "de": "Entlein («Das hässliche Entlein»)",
+        "ja": "アヒルの子（「みにくいアヒルの子」）"
+      }
+    },
+    {
+      "parola": "il lago",
+      "forme": [
+        "lago"
+      ],
+      "esempi": [
+        "D'estate nuotiamo nel lago.",
+        "Il lago di Como è famoso.",
+        "Sul lago ci sono le barche."
+      ],
+      "traduzioni": {
+        "en": "lake",
+        "es": "lago",
+        "pt": "lago",
+        "fr": "lac",
+        "cs": "jezero",
+        "pl": "jezioro",
+        "tr": "göl",
+        "de": "See",
+        "ja": "湖、池"
+      }
+    },
+    {
+      "parola": "la fattoria",
+      "forme": [
+        "fattoria"
+      ],
+      "esempi": [
+        "I nonni hanno una fattoria con le mucche.",
+        "Domenica visitiamo una fattoria.",
+        "Nella fattoria ci sono molti animali."
+      ],
+      "traduzioni": {
+        "en": "farm",
+        "es": "granja",
+        "pt": "fazenda, sítio",
+        "fr": "ferme",
+        "cs": "statek",
+        "pl": "gospodarstwo",
+        "tr": "çiftlik",
+        "de": "Bauernhof",
+        "ja": "農場"
+      }
+    },
+    {
+      "parola": "l'anatra",
+      "forme": [
+        "anatra",
+        "anatre"
+      ],
+      "esempi": [
+        "L'anatra nuota nello stagno.",
+        "Al parco i bambini guardano le anatre.",
+        "L'anatra fa «qua qua»."
+      ],
+      "traduzioni": {
+        "en": "duck",
+        "es": "pata, pato",
+        "pt": "pata, pato",
+        "fr": "cane, canard",
+        "cs": "kachna",
+        "pl": "kaczka",
+        "tr": "ördek",
+        "de": "Ente",
+        "ja": "アヒル、カモ"
+      }
+    },
+    {
+      "parola": "l'uovo",
+      "forme": [
+        "uova",
+        "uovo"
+      ],
+      "esempi": [
+        "A colazione mangio un uovo.",
+        "La gallina fa le uova.",
+        "Compro sei uova al mercato."
+      ],
+      "traduzioni": {
+        "en": "egg (pl. «le uova»)",
+        "es": "huevo",
+        "pt": "ovo",
+        "fr": "œuf",
+        "cs": "vejce",
+        "pl": "jajko",
+        "tr": "yumurta",
+        "de": "Ei",
+        "ja": "たまご"
+      }
+    },
+    {
+      "parola": "aprirsi",
+      "forme": [
+        "aprono",
+        "apre",
+        "aperto",
+        "aprirsi"
+      ],
+      "formeEsempi": [
+        "apro"
+      ],
+      "esempi": [
+        "La porta si apre da sola.",
+        "In primavera i fiori si aprono.",
+        "Ho aperto la finestra."
+      ],
+      "traduzioni": {
+        "en": "to open, to hatch (eggs)",
+        "es": "abrirse, romperse (huevos)",
+        "pt": "abrir-se, chocar (ovos)",
+        "fr": "s’ouvrir, éclore",
+        "cs": "otevřít se, vylíhnout se",
+        "pl": "otworzyć się, pęknąć (jajko)",
+        "tr": "açılmak, kırılmak (yumurta)",
+        "de": "sich öffnen, aufbrechen (Ei)",
+        "ja": "開く、（たまごが）かえる"
+      }
+    },
+    {
+      "parola": "strano",
+      "forme": [
+        "strano"
+      ],
+      "formeEsempi": [
+        "strana"
+      ],
+      "esempi": [
+        "Ho sentito un rumore strano.",
+        "Che tempo strano oggi!",
+        "È una persona un po' strana."
+      ],
+      "traduzioni": {
+        "en": "strange, odd",
+        "es": "extraño, raro",
+        "pt": "estranho",
+        "fr": "étrange, bizarre",
+        "cs": "zvláštní, divný",
+        "pl": "dziwny",
+        "tr": "garip, tuhaf",
+        "de": "seltsam",
+        "ja": "変な、ふしぎな"
+      }
+    },
+    {
+      "parola": "finalmente",
+      "forme": [
+        "finalmente"
+      ],
+      "esempi": [
+        "Finalmente sei arrivato!",
+        "Finalmente è venerdì.",
+        "Dopo tre ore il treno finalmente parte."
+      ],
+      "traduzioni": {
+        "en": "at last, finally",
+        "es": "por fin",
+        "pt": "finalmente, enfim",
+        "fr": "enfin",
+        "cs": "konečně",
+        "pl": "wreszcie",
+        "tr": "sonunda",
+        "de": "endlich",
+        "ja": "やっと"
+      }
+    },
+    {
+      "parola": "grigio",
+      "forme": [
+        "grigio",
+        "grigie"
+      ],
+      "formeEsempi": [
+        "grigia"
+      ],
+      "esempi": [
+        "Oggi il cielo è grigio.",
+        "Mio nonno ha la barba grigia.",
+        "Ho comprato delle scarpe grigie."
+      ],
+      "traduzioni": {
+        "en": "grey",
+        "es": "gris",
+        "pt": "cinza",
+        "fr": "gris",
+        "cs": "šedý",
+        "pl": "szary",
+        "tr": "gri",
+        "de": "grau",
+        "ja": "灰色の"
+      }
+    },
+    {
+      "parola": "goffo",
+      "forme": [
+        "goffo"
+      ],
+      "formeEsempi": [
+        "goffa"
+      ],
+      "esempi": [
+        "Il cucciolo è ancora goffo quando corre.",
+        "Mi sento goffo quando ballo.",
+        "Ha fatto un gesto goffo e ha rotto il bicchiere."
+      ],
+      "traduzioni": {
+        "en": "clumsy, awkward",
+        "es": "torpe, desgarbado",
+        "pt": "desajeitado",
+        "fr": "maladroit, gauche",
+        "cs": "nemotorný",
+        "pl": "niezgrabny",
+        "tr": "beceriksiz, sakar",
+        "de": "unbeholfen, tollpatschig",
+        "ja": "ぶかっこうな"
+      }
+    },
+    {
+      "parola": "brutto",
+      "forme": [
+        "brutto"
+      ],
+      "formeEsempi": [
+        "brutta"
+      ],
+      "esempi": [
+        "Che brutto tempo oggi!",
+        "Questo vestito è brutto.",
+        "Ho fatto un brutto sogno."
+      ],
+      "traduzioni": {
+        "en": "ugly; bad",
+        "es": "feo",
+        "pt": "feio",
+        "fr": "laid, vilain",
+        "cs": "ošklivý",
+        "pl": "brzydki",
+        "tr": "çirkin",
+        "de": "hässlich",
+        "ja": "みにくい、いやな"
+      }
+    },
+    {
+      "parola": "triste",
+      "forme": [
+        "triste"
+      ],
+      "esempi": [
+        "Oggi sono un po' triste.",
+        "È un film molto triste.",
+        "Il cane è triste quando esco."
+      ],
+      "traduzioni": {
+        "en": "sad",
+        "es": "triste",
+        "pt": "triste",
+        "fr": "triste",
+        "cs": "smutný",
+        "pl": "smutny",
+        "tr": "üzgün",
+        "de": "traurig",
+        "ja": "悲しい"
+      }
+    },
+    {
+      "parola": "solo",
+      "forme": [
+        "solo",
+        "sola"
+      ],
+      "esempi": [
+        "Vivo da solo.",
+        "Ho una sola domanda.",
+        "Il bambino non vuole stare solo."
+      ],
+      "traduzioni": {
+        "en": "alone; only (one)",
+        "es": "solo",
+        "pt": "sozinho; só",
+        "fr": "seul",
+        "cs": "sám; jediný",
+        "pl": "sam; jedyny",
+        "tr": "yalnız; tek",
+        "de": "allein; einzig",
+        "ja": "ひとりで、ただ一つの"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappa",
+        "scappato"
+      ],
+      "formeEsempi": [
+        "scappo"
+      ],
+      "esempi": [
+        "Il gatto scappa sotto il letto.",
+        "Il cane è scappato dal giardino.",
+        "Scappo, ho il treno tra dieci minuti!"
+      ],
+      "traduzioni": {
+        "en": "to run away",
+        "es": "escapar(se), huir",
+        "pt": "fugir",
+        "fr": "s’enfuir",
+        "cs": "utéct",
+        "pl": "uciec",
+        "tr": "kaçmak",
+        "de": "weglaufen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "buio",
+      "forme": [
+        "buie"
+      ],
+      "formeEsempi": [
+        "buio",
+        "buia"
+      ],
+      "esempi": [
+        "D'inverno alle cinque è già buio.",
+        "La stanza è buia: accendi la luce.",
+        "Le strade di campagna sono buie di notte."
+      ],
+      "traduzioni": {
+        "en": "dark",
+        "es": "oscuro",
+        "pt": "escuro",
+        "fr": "sombre, obscur",
+        "cs": "tmavý, temný",
+        "pl": "ciemny",
+        "tr": "karanlık",
+        "de": "dunkel",
+        "ja": "暗い"
+      }
+    },
+    {
+      "parola": "il cigno",
+      "forme": [
+        "cigni",
+        "cigno"
+      ],
+      "esempi": [
+        "Sul lago nuota un cigno bianco.",
+        "I cigni hanno il collo lungo.",
+        "Il cigno è un uccello elegante."
+      ],
+      "traduzioni": {
+        "en": "swan",
+        "es": "cisne",
+        "pt": "cisne",
+        "fr": "cygne",
+        "cs": "labuť",
+        "pl": "łabędź",
+        "tr": "kuğu",
+        "de": "Schwan",
+        "ja": "白鳥"
+      }
+    },
+    {
+      "parola": "il collo",
+      "forme": [
+        "collo"
+      ],
+      "esempi": [
+        "La giraffa ha il collo lungo.",
+        "Mi fa male il collo.",
+        "Porto una sciarpa intorno al collo."
+      ],
+      "traduzioni": {
+        "en": "neck",
+        "es": "cuello",
+        "pt": "pescoço",
+        "fr": "cou",
+        "cs": "krk",
+        "pl": "szyja",
+        "tr": "boyun",
+        "de": "Hals",
+        "ja": "首"
+      }
+    },
+    {
+      "parola": "invece",
+      "forme": [
+        "invece"
+      ],
+      "esempi": [
+        "Io amo il mare, mia moglie invece la montagna.",
+        "Pensavo di uscire, invece resto a casa.",
+        "Invece del caffè prendo un tè."
+      ],
+      "traduzioni": {
+        "en": "on the other hand, instead",
+        "es": "en cambio",
+        "pt": "já, ao contrário",
+        "fr": "par contre, au contraire",
+        "cs": "naopak",
+        "pl": "natomiast",
+        "tr": "ise, oysa",
+        "de": "dagegen",
+        "ja": "それに対して"
+      }
+    },
+    {
+      "parola": "la primavera",
+      "forme": [
+        "primavera"
+      ],
+      "esempi": [
+        "In primavera gli alberi fioriscono.",
+        "La primavera è la mia stagione preferita.",
+        "Questa primavera vado in Sicilia."
+      ],
+      "traduzioni": {
+        "en": "spring",
+        "es": "primavera",
+        "pt": "primavera",
+        "fr": "printemps",
+        "cs": "jaro",
+        "pl": "wiosna",
+        "tr": "ilkbahar",
+        "de": "Frühling",
+        "ja": "春"
+      }
+    },
+    {
+      "parola": "calmo",
+      "forme": [
+        "calmo"
+      ],
+      "formeEsempi": [
+        "calma"
+      ],
+      "esempi": [
+        "Oggi il mare è calmo.",
+        "Stai calmo, va tutto bene.",
+        "È una persona molto calma."
+      ],
+      "traduzioni": {
+        "en": "calm, still",
+        "es": "tranquilo, en calma",
+        "pt": "calmo",
+        "fr": "calme",
+        "cs": "klidný",
+        "pl": "spokojny",
+        "tr": "sakin",
+        "de": "ruhig",
+        "ja": "静かな"
+      }
+    },
+    {
+      "parola": "l'ala",
+      "forme": [
+        "ali"
+      ],
+      "formeEsempi": [
+        "ala"
+      ],
+      "esempi": [
+        "L'uccello apre le ali e vola.",
+        "La farfalla ha le ali colorate.",
+        "L'aereo ha due ali."
+      ],
+      "traduzioni": {
+        "en": "wing (pl. «le ali»)",
+        "es": "ala",
+        "pt": "asa",
+        "fr": "aile",
+        "cs": "křídlo",
+        "pl": "skrzydło",
+        "tr": "kanat",
+        "de": "Flügel",
+        "ja": "つばさ"
+      }
+    },
+    {
+      "parola": "nuotare",
+      "forme": [
+        "nuota",
+        "nuotare",
+        "nuotavano"
+      ],
+      "formeEsempi": [
+        "nuoto"
+      ],
+      "esempi": [
+        "Nuoto in piscina due volte a settimana.",
+        "Mio figlio impara a nuotare.",
+        "Da bambini nuotavano nel fiume."
+      ],
+      "traduzioni": {
+        "en": "to swim",
+        "es": "nadar",
+        "pt": "nadar",
+        "fr": "nager",
+        "cs": "plavat",
+        "pl": "pływać",
+        "tr": "yüzmek",
+        "de": "schwimmen",
+        "ja": "泳ぐ"
+      }
+    },
+    {
+      "parola": "abbassare",
+      "forme": [
+        "abbassa",
+        "abbassato"
+      ],
+      "formeEsempi": [
+        "abbasso"
+      ],
+      "esempi": [
+        "Abbassa la voce, il bambino dorme.",
+        "Ho abbassato il volume della musica.",
+        "Abbasso gli occhi per la vergogna."
+      ],
+      "traduzioni": {
+        "en": "to lower («abbassare la testa» = to bow one's head)",
+        "es": "bajar",
+        "pt": "abaixar",
+        "fr": "baisser",
+        "cs": "sklopit, ztišit",
+        "pl": "spuścić, obniżyć",
+        "tr": "eğmek, indirmek",
+        "de": "senken",
+        "ja": "下げる"
+      }
+    },
+    {
+      "parola": "elegante",
+      "forme": [
+        "elegante"
+      ],
+      "esempi": [
+        "Stasera mi vesto elegante.",
+        "Il gatto cammina in modo elegante.",
+        "È un ristorante elegante."
+      ],
+      "traduzioni": {
+        "en": "elegant, graceful",
+        "es": "elegante",
+        "pt": "elegante",
+        "fr": "élégant",
+        "cs": "elegantní",
+        "pl": "elegancki",
+        "tr": "zarif",
+        "de": "elegant",
+        "ja": "優雅な"
+      }
+    },
+    {
+      "parola": "la piuma",
+      "forme": [
+        "piume"
+      ],
+      "formeEsempi": [
+        "piuma"
+      ],
+      "esempi": [
+        "Il pappagallo ha piume colorate.",
+        "Il cuscino è pieno di piume.",
+        "Questa borsa è leggera come una piuma."
+      ],
+      "traduzioni": {
+        "en": "feather",
+        "es": "pluma",
+        "pt": "pena",
+        "fr": "plume",
+        "cs": "peří, pírko",
+        "pl": "pióro, pióra",
+        "tr": "tüy",
+        "de": "Feder",
+        "ja": "羽"
+      }
+    },
+    {
+      "parola": "prendere in giro",
+      "forme": [
+        "giro"
+      ],
+      "esempi": [
+        "Non prendermi in giro!",
+        "I compagni lo prendono in giro per il suo nome.",
+        "Stai scherzando o mi prendi in giro?"
+      ],
+      "traduzioni": {
+        "en": "to make fun of",
+        "es": "burlarse de",
+        "pt": "zoar, caçoar de",
+        "fr": "se moquer de",
+        "cs": "posmívat se",
+        "pl": "naśmiewać się z",
+        "tr": "dalga geçmek",
+        "de": "sich lustig machen über",
+        "ja": "からかう"
+      }
+    },
+    {
+      "parola": "beccare",
+      "forme": [
+        "beccavano",
+        "beccati"
+      ],
+      "formeEsempi": [
+        "becca",
+        "beccano"
+      ],
+      "esempi": [
+        "La gallina becca i semi.",
+        "I piccioni beccavano le briciole.",
+        "Gli uccellini beccano il pane sul balcone."
+      ],
+      "traduzioni": {
+        "en": "to peck",
+        "es": "picotear, dar picotazos",
+        "pt": "bicar",
+        "fr": "donner des coups de bec",
+        "cs": "klovat",
+        "pl": "dziobać",
+        "tr": "gagalamak",
+        "de": "picken, hacken",
+        "ja": "くちばしでつつく"
+      }
+    },
+    {
+      "parola": "spingere",
+      "forme": [
+        "spingevano"
+      ],
+      "formeEsempi": [
+        "spinge",
+        "spingere"
+      ],
+      "esempi": [
+        "Non spingere, c'è posto per tutti!",
+        "Il papà spinge il passeggino.",
+        "I ragazzi spingevano la macchina in salita."
+      ],
+      "traduzioni": {
+        "en": "to push",
+        "es": "empujar",
+        "pt": "empurrar",
+        "fr": "pousser",
+        "cs": "strkat",
+        "pl": "popychać",
+        "tr": "itmek",
+        "de": "schubsen, schieben",
+        "ja": "押す"
+      }
+    },
+    {
+      "parola": "cacciare",
+      "forme": [
+        "cacciava",
+        "cacciano"
+      ],
+      "formeEsempi": [
+        "caccia"
+      ],
+      "esempi": [
+        "Il negoziante caccia il cane dal negozio.",
+        "Se fai rumore, ti cacciano dalla biblioteca.",
+        "La nonna cacciava le galline dalla cucina."
+      ],
+      "traduzioni": {
+        "en": "to chase away, to throw out",
+        "es": "echar, ahuyentar",
+        "pt": "enxotar, expulsar",
+        "fr": "chasser",
+        "cs": "vyhnat",
+        "pl": "przegonić, wyrzucić",
+        "tr": "kovmak",
+        "de": "verjagen, rauswerfen",
+        "ja": "追い払う"
+      }
+    },
+    {
+      "parola": "non farcela più",
+      "forme": [
+        "fatta"
+      ],
+      "esempi": [
+        "Basta, non ce la faccio più!",
+        "Alla fine ce l'ha fatta: ha trovato lavoro.",
+        "Dopo dieci chilometri non ce l'ho fatta più."
+      ],
+      "traduzioni": {
+        "en": "to be unable to take any more («ce l'ha fatta» = he made it)",
+        "es": "no poder más",
+        "pt": "não aguentar mais",
+        "fr": "ne plus en pouvoir",
+        "cs": "už nemoct",
+        "pl": "nie dać już rady",
+        "tr": "artık dayanamamak",
+        "de": "nicht mehr können",
+        "ja": "もう耐えられない"
+      },
+      "formeEsempi": [
+        "faccio"
+      ]
+    },
+    {
+      "parola": "la siepe",
+      "forme": [
+        "siepe"
+      ],
+      "esempi": [
+        "Il giardino è chiuso da una siepe.",
+        "Il gatto si nasconde nella siepe.",
+        "Mio padre taglia la siepe ogni mese."
+      ],
+      "traduzioni": {
+        "en": "hedge",
+        "es": "seto",
+        "pt": "cerca viva",
+        "fr": "haie",
+        "cs": "živý plot",
+        "pl": "żywopłot",
+        "tr": "çit",
+        "de": "Hecke",
+        "ja": "生け垣"
+      }
+    },
+    {
+      "parola": "fare le fusa",
+      "forme": [
+        "fusa"
+      ],
+      "esempi": [
+        "Il gatto fa le fusa quando lo accarezzo.",
+        "Sento il gatto che fa le fusa sul divano.",
+        "Le fusa del gatto mi rilassano."
+      ],
+      "traduzioni": {
+        "en": "to purr",
+        "es": "ronronear",
+        "pt": "ronronar",
+        "fr": "ronronner",
+        "cs": "příst",
+        "pl": "mruczeć",
+        "tr": "mırlamak",
+        "de": "schnurren",
+        "ja": "（ねこが）のどを鳴らす"
+      }
+    },
+    {
+      "parola": "orgoglioso",
+      "forme": [
+        "orgogliosi"
+      ],
+      "formeEsempi": [
+        "orgoglioso",
+        "orgogliosa"
+      ],
+      "esempi": [
+        "Sono orgogliosa di mia figlia.",
+        "Il papà è orgoglioso del suo lavoro.",
+        "I miei genitori sono orgogliosi di me."
+      ],
+      "traduzioni": {
+        "en": "proud",
+        "es": "orgulloso",
+        "pt": "orgulhoso",
+        "fr": "fier",
+        "cs": "hrdý, pyšný",
+        "pl": "dumny",
+        "tr": "gururlu",
+        "de": "stolz",
+        "ja": "得意な、誇らしい"
+      }
+    },
+    {
+      "parola": "servire a",
+      "forme": [
+        "servi"
+      ],
+      "formeEsempi": [
+        "serve"
+      ],
+      "esempi": [
+        "A che cosa serve questo bottone?",
+        "Non piangere, non serve a niente.",
+        "Mi servi in cucina, vieni!"
+      ],
+      "traduzioni": {
+        "en": "to be useful for («non servi a niente» = you're good for nothing)",
+        "es": "servir para",
+        "pt": "servir para",
+        "fr": "servir à",
+        "cs": "být k něčemu",
+        "pl": "przydawać się",
+        "tr": "işe yaramak",
+        "de": "nützen, gut sein für",
+        "ja": "役に立つ"
+      }
+    },
+    {
+      "parola": "sognare",
+      "forme": [
+        "sognava"
+      ],
+      "formeEsempi": [
+        "sogno",
+        "sognato"
+      ],
+      "esempi": [
+        "Sogno una casa al mare.",
+        "Da piccola sognava di fare la pilota.",
+        "Stanotte ho sognato mia nonna."
+      ],
+      "traduzioni": {
+        "en": "to dream (of)",
+        "es": "soñar con",
+        "pt": "sonhar com",
+        "fr": "rêver de",
+        "cs": "snít o",
+        "pl": "marzyć o",
+        "tr": "hayal etmek",
+        "de": "träumen von",
+        "ja": "夢見る"
+      }
+    },
+    {
+      "parola": "ghiacciato",
+      "forme": [
+        "ghiacciato"
+      ],
+      "formeEsempi": [
+        "ghiacciata"
+      ],
+      "esempi": [
+        "D'inverno il lago è ghiacciato.",
+        "Attenzione, la strada è ghiacciata!",
+        "Bevo un tè ghiacciato."
+      ],
+      "traduzioni": {
+        "en": "frozen, icy",
+        "es": "helado, congelado",
+        "pt": "congelado",
+        "fr": "gelé",
+        "cs": "zamrzlý",
+        "pl": "zamarznięty",
+        "tr": "donmuş",
+        "de": "zugefroren",
+        "ja": "凍った"
+      }
+    },
+    {
+      "parola": "il ghiaccio",
+      "forme": [
+        "ghiaccio"
+      ],
+      "esempi": [
+        "Vuoi il ghiaccio nella bibita?",
+        "I bambini pattinano sul ghiaccio.",
+        "Ho le mani fredde come il ghiaccio."
+      ],
+      "traduzioni": {
+        "en": "ice",
+        "es": "hielo",
+        "pt": "gelo",
+        "fr": "glace",
+        "cs": "led",
+        "pl": "lód",
+        "tr": "buz",
+        "de": "Eis",
+        "ja": "氷"
+      }
+    },
+    {
+      "parola": "bloccato",
+      "forme": [
+        "bloccato"
+      ],
+      "formeEsempi": [
+        "bloccata"
+      ],
+      "esempi": [
+        "Sono bloccato nel traffico.",
+        "La porta è bloccata.",
+        "Il treno è bloccato dalla neve."
+      ],
+      "traduzioni": {
+        "en": "stuck, trapped",
+        "es": "atrapado, bloqueado",
+        "pt": "preso, bloqueado",
+        "fr": "bloqué, coincé",
+        "cs": "uvězněný, zaseklý",
+        "pl": "uwięziony, zablokowany",
+        "tr": "sıkışmış",
+        "de": "festgefroren, stecken geblieben",
+        "ja": "動けなくなった"
+      }
+    },
+    {
+      "parola": "il contadino",
+      "forme": [
+        "contadino"
+      ],
+      "formeEsempi": [
+        "contadini"
+      ],
+      "esempi": [
+        "Il contadino lavora nei campi.",
+        "Compro le uova da un contadino.",
+        "I contadini si alzano presto."
+      ],
+      "traduzioni": {
+        "en": "farmer",
+        "es": "campesino",
+        "pt": "camponês, lavrador",
+        "fr": "paysan",
+        "cs": "sedlák, rolník",
+        "pl": "rolnik",
+        "tr": "çiftçi",
+        "de": "Bauer",
+        "ja": "農夫、お百姓さん"
+      }
+    },
+    {
+      "parola": "spaventato",
+      "forme": [
+        "spaventato"
+      ],
+      "formeEsempi": [
+        "spaventata"
+      ],
+      "esempi": [
+        "Il cane è spaventato dal temporale.",
+        "Mi sono svegliata spaventata.",
+        "Il bambino spaventato chiama la mamma."
+      ],
+      "traduzioni": {
+        "en": "frightened",
+        "es": "asustado",
+        "pt": "assustado",
+        "fr": "effrayé",
+        "cs": "vyděšený",
+        "pl": "przestraszony",
+        "tr": "korkmuş",
+        "de": "erschrocken",
+        "ja": "おびえた"
+      }
+    },
+    {
+      "parola": "il fiore",
+      "forme": [
+        "fiori"
+      ],
+      "formeEsempi": [
+        "fiore"
+      ],
+      "esempi": [
+        "Ti ho portato dei fiori.",
+        "In primavera il prato è pieno di fiori.",
+        "Il girasole è un fiore giallo."
+      ],
+      "traduzioni": {
+        "en": "flower",
+        "es": "flor",
+        "pt": "flor",
+        "fr": "fleur",
+        "cs": "květ, květina",
+        "pl": "kwiat",
+        "tr": "çiçek",
+        "de": "Blume, Blüte",
+        "ja": "花"
+      }
+    },
+    {
+      "parola": "volare",
+      "forme": [
+        "volato"
+      ],
+      "formeEsempi": [
+        "vola",
+        "volare"
+      ],
+      "esempi": [
+        "L'uccellino vola sul ramo.",
+        "Sono volato a Londra per lavoro.",
+        "Mi piacerebbe volare come un gabbiano."
+      ],
+      "traduzioni": {
+        "en": "to fly",
+        "es": "volar",
+        "pt": "voar",
+        "fr": "voler",
+        "cs": "letět",
+        "pl": "polecieć",
+        "tr": "uçmak",
+        "de": "fliegen",
+        "ja": "飛ぶ"
+      }
+    },
+    {
+      "parola": "l'immagine",
+      "forme": [
+        "immagine"
+      ],
+      "esempi": [
+        "Guarda la tua immagine nello specchio.",
+        "Questa immagine è molto bella.",
+        "Nel libro c'è un'immagine di Roma."
+      ],
+      "traduzioni": {
+        "en": "reflection, image",
+        "es": "imagen, reflejo",
+        "pt": "imagem, reflexo",
+        "fr": "image, reflet",
+        "cs": "obraz, odraz",
+        "pl": "odbicie, obraz",
+        "tr": "yansıma, görüntü",
+        "de": "Spiegelbild, Bild",
+        "ja": "姿、映った像"
+      }
+    },
+    {
+      "parola": "accarezzare",
+      "forme": [
+        "accarezzato"
+      ],
+      "formeEsempi": [
+        "accarezzo",
+        "accarezza"
+      ],
+      "esempi": [
+        "Accarezzo il gatto sulla testa.",
+        "La mamma accarezza il bambino.",
+        "Ho accarezzato un cavallo per la prima volta."
+      ],
+      "traduzioni": {
+        "en": "to stroke, to caress",
+        "es": "acariciar",
+        "pt": "acariciar",
+        "fr": "caresser",
+        "cs": "pohladit",
+        "pl": "pogłaskać",
+        "tr": "okşamak",
+        "de": "streicheln",
+        "ja": "なでる"
+      }
+    },
+    {
+      "parola": "il becco",
+      "forme": [
+        "becco"
+      ],
+      "esempi": [
+        "Il pappagallo ha il becco curvo.",
+        "L'uccello porta un rametto nel becco.",
+        "Il pulcino apre il becco: ha fame."
+      ],
+      "traduzioni": {
+        "en": "beak, bill",
+        "es": "pico",
+        "pt": "bico",
+        "fr": "bec",
+        "cs": "zobák",
+        "pl": "dziób",
+        "tr": "gaga",
+        "de": "Schnabel",
+        "ja": "くちばし"
+      }
+    },
+    {
+      "parola": "covare",
+      "forme": [
+        "covava"
+      ],
+      "formeEsempi": [
+        "cova"
+      ],
+      "esempi": [
+        "La gallina cova le uova per tre settimane.",
+        "La mamma uccello covava nel nido.",
+        "Il cigno cova le uova sulla riva."
+      ],
+      "traduzioni": {
+        "en": "to sit on (eggs), to brood",
+        "es": "empollar, incubar",
+        "pt": "chocar",
+        "fr": "couver",
+        "cs": "sedět na vejcích",
+        "pl": "wysiadywać",
+        "tr": "kuluçkaya yatmak",
+        "de": "brüten",
+        "ja": "（たまごを）温める"
+      }
+    },
+    {
+      "parola": "difendere",
+      "forme": [
+        "difendeva"
+      ],
+      "formeEsempi": [
+        "difende",
+        "difendo"
+      ],
+      "esempi": [
+        "Il cane difende la casa.",
+        "Difendo sempre mio fratello.",
+        "La mamma difendeva i figli da tutti."
+      ],
+      "traduzioni": {
+        "en": "to defend, to stand up for",
+        "es": "defender",
+        "pt": "defender",
+        "fr": "défendre",
+        "cs": "bránit",
+        "pl": "bronić",
+        "tr": "savunmak, korumak",
+        "de": "verteidigen",
+        "ja": "かばう、守る"
+      }
+    },
+    {
+      "parola": "disprezzato",
+      "forme": [
+        "disprezzato"
+      ],
+      "formeEsempi": [
+        "disprezzata",
+        "disprezzo"
+      ],
+      "esempi": [
+        "Si sentiva disprezzato da tutti.",
+        "Era un lavoro disprezzato, ma utile.",
+        "Non disprezzo nessuno."
+      ],
+      "traduzioni": {
+        "en": "despised, scorned",
+        "es": "despreciado",
+        "pt": "desprezado",
+        "fr": "méprisé",
+        "cs": "opovrhovaný",
+        "pl": "pogardzany",
+        "tr": "hor görülen",
+        "de": "verachtet",
+        "ja": "見下された"
+      }
+    },
+    {
+      "parola": "stupido",
+      "forme": [
+        "stupido"
+      ],
+      "formeEsempi": [
+        "stupida"
+      ],
+      "esempi": [
+        "Non è una domanda stupida.",
+        "Che errore stupido!",
+        "Mi sento stupido quando sbaglio."
+      ],
+      "traduzioni": {
+        "en": "stupid",
+        "es": "tonto, estúpido",
+        "pt": "bobo, burro",
+        "fr": "bête, stupide",
+        "cs": "hloupý",
+        "pl": "głupi",
+        "tr": "aptal",
+        "de": "dumm",
+        "ja": "ばかな"
+      }
+    },
+    {
+      "parola": "sospirare",
+      "forme": [
+        "sospirato"
+      ],
+      "formeEsempi": [
+        "sospira",
+        "sospiri"
+      ],
+      "esempi": [
+        "La nonna sospira guardando le foto.",
+        "Ha sospirato e ha detto di sì.",
+        "Perché sospiri? Sei stanco?"
+      ],
+      "traduzioni": {
+        "en": "to sigh",
+        "es": "suspirar",
+        "pt": "suspirar",
+        "fr": "soupirer",
+        "cs": "povzdechnout si",
+        "pl": "westchnąć",
+        "tr": "iç çekmek",
+        "de": "seufzen",
+        "ja": "ため息をつく"
+      }
+    },
+    {
+      "parola": "la padrona",
+      "forme": [
+        "padrona"
+      ],
+      "formeEsempi": [
+        "padrone"
+      ],
+      "esempi": [
+        "La padrona di casa è molto gentile.",
+        "Il cane aspetta il padrone alla porta.",
+        "La padrona del gatto è mia vicina."
+      ],
+      "traduzioni": {
+        "en": "mistress, owner («padrona di casa» = landlady)",
+        "es": "dueña, ama",
+        "pt": "dona",
+        "fr": "maîtresse, propriétaire",
+        "cs": "paní, majitelka",
+        "pl": "pani, właścicielka",
+        "tr": "sahip, ev sahibi",
+        "de": "Herrin, Besitzerin",
+        "ja": "女主人、飼い主"
+      }
+    },
+    {
+      "parola": "tuffarsi",
+      "forme": [
+        "tuffarsi"
+      ],
+      "formeEsempi": [
+        "tuffo",
+        "tuffano"
+      ],
+      "esempi": [
+        "Mi tuffo in mare dal molo.",
+        "È bello tuffarsi in piscina d'estate.",
+        "I ragazzi si tuffano dagli scogli."
+      ],
+      "traduzioni": {
+        "en": "to dive (in)",
+        "es": "zambullirse, tirarse al agua",
+        "pt": "mergulhar",
+        "fr": "plonger",
+        "cs": "skočit do vody, ponořit se",
+        "pl": "zanurkować, wskoczyć do wody",
+        "tr": "dalmak",
+        "de": "eintauchen, springen",
+        "ja": "飛びこむ"
+      }
+    },
+    {
+      "parola": "pazzo",
+      "forme": [
+        "pazzo"
+      ],
+      "formeEsempi": [
+        "pazza"
+      ],
+      "esempi": [
+        "Sei pazzo? Fuori piove!",
+        "Vado pazza per il gelato.",
+        "Mi guardava come se fossi pazzo."
+      ],
+      "traduzioni": {
+        "en": "mad, crazy",
+        "es": "loco",
+        "pt": "louco, doido",
+        "fr": "fou",
+        "cs": "blázen, šílený",
+        "pl": "szalony, wariat",
+        "tr": "deli",
+        "de": "verrückt",
+        "ja": "頭がおかしい"
+      }
+    },
+    {
+      "parola": "lo stormo",
+      "forme": [
+        "stormo"
+      ],
+      "esempi": [
+        "Uno stormo di uccelli vola sopra la città.",
+        "In autunno passano stormi di rondini.",
+        "Lo stormo cambia direzione insieme."
+      ],
+      "traduzioni": {
+        "en": "flock (of birds)",
+        "es": "bandada",
+        "pt": "bando",
+        "fr": "vol, nuée",
+        "cs": "hejno",
+        "pl": "stado (ptaków)",
+        "tr": "kuş sürüsü",
+        "de": "Schwarm",
+        "ja": "（鳥の）群れ"
+      },
+      "formeEsempi": [
+        "stormi"
+      ]
+    },
+    {
+      "parola": "il sentimento",
+      "forme": [
+        "sentimento"
+      ],
+      "esempi": [
+        "L'amicizia è un sentimento importante.",
+        "Non so spiegare questo sentimento.",
+        "Ha paura di mostrare i suoi sentimenti."
+      ],
+      "traduzioni": {
+        "en": "feeling",
+        "es": "sentimiento",
+        "pt": "sentimento",
+        "fr": "sentiment",
+        "cs": "cit, pocit",
+        "pl": "uczucie",
+        "tr": "duygu",
+        "de": "Gefühl",
+        "ja": "気持ち"
+      },
+      "formeEsempi": [
+        "sentimenti"
+      ]
+    },
+    {
+      "parola": "l'invidia",
+      "forme": [
+        "invidia"
+      ],
+      "esempi": [
+        "L'invidia rovina le amicizie.",
+        "Che invidia, vai in vacanza!",
+        "Non provo invidia per nessuno."
+      ],
+      "traduzioni": {
+        "en": "envy",
+        "es": "envidia",
+        "pt": "inveja",
+        "fr": "envie, jalousie",
+        "cs": "závist",
+        "pl": "zazdrość",
+        "tr": "kıskançlık",
+        "de": "Neid",
+        "ja": "うらやましさ、ねたみ"
+      }
+    },
+    {
+      "parola": "crudele",
+      "forme": [
+        "crudele"
+      ],
+      "esempi": [
+        "È stato crudele con il suo cane.",
+        "La vita a volte è crudele.",
+        "Non dire parole così crudeli."
+      ],
+      "traduzioni": {
+        "en": "cruel",
+        "es": "cruel",
+        "pt": "cruel",
+        "fr": "cruel",
+        "cs": "krutý",
+        "pl": "okrutny",
+        "tr": "acımasız",
+        "de": "grausam",
+        "ja": "残酷な"
+      },
+      "formeEsempi": [
+        "crudeli"
+      ]
+    },
+    {
+      "parola": "uccidere",
+      "forme": [
+        "ucciso",
+        "uccisi"
+      ],
+      "formeEsempi": [
+        "uccide",
+        "uccidere"
+      ],
+      "esempi": [
+        "Il freddo ha ucciso le piante del balcone.",
+        "Il fumo uccide.",
+        "Il gelo può uccidere gli uccelli piccoli."
+      ],
+      "traduzioni": {
+        "en": "to kill",
+        "es": "matar",
+        "pt": "matar",
+        "fr": "tuer",
+        "cs": "zabít",
+        "pl": "zabić",
+        "tr": "öldürmek",
+        "de": "töten",
+        "ja": "殺す、命を奪う"
+      }
+    },
+    {
+      "parola": "il calzolaio",
+      "forme": [
+        "calzolaio"
+      ],
+      "esempi": [
+        "Porto le scarpe rotte dal calzolaio.",
+        "Il calzolaio ripara le borse e le scarpe.",
+        "Mio nonno faceva il calzolaio."
+      ],
+      "traduzioni": {
+        "en": "shoemaker",
+        "es": "zapatero",
+        "pt": "sapateiro",
+        "fr": "cordonnier",
+        "cs": "obuvník, švec",
+        "pl": "szewc",
+        "tr": "ayakkabıcı",
+        "de": "Schuhmacher, Schuster",
+        "ja": "くつ屋"
+      }
+    },
+    {
+      "parola": "magro",
+      "forme": [
+        "magro"
+      ],
+      "formeEsempi": [
+        "magra"
+      ],
+      "esempi": [
+        "Sei dimagrito: sei molto magro!",
+        "La mia gatta è piccola e magra.",
+        "Mangia poco ed è magro."
+      ],
+      "traduzioni": {
+        "en": "thin, skinny",
+        "es": "delgado, flaco",
+        "pt": "magro",
+        "fr": "maigre, mince",
+        "cs": "hubený",
+        "pl": "chudy",
+        "tr": "zayıf",
+        "de": "dünn, mager",
+        "ja": "やせた"
+      }
+    },
+    {
+      "parola": "il naso",
+      "forme": [
+        "naso"
+      ],
+      "esempi": [
+        "Ho il naso chiuso: sono raffreddato.",
+        "Pinocchio ha il naso lungo.",
+        "Si soffia il naso con il fazzoletto."
+      ],
+      "traduzioni": {
+        "en": "nose",
+        "es": "nariz",
+        "pt": "nariz",
+        "fr": "nez",
+        "cs": "nos",
+        "pl": "nos",
+        "tr": "burun",
+        "de": "Nase",
+        "ja": "鼻"
+      }
+    },
+    {
+      "parola": "il compagno",
+      "forme": [
+        "compagni"
+      ],
+      "formeEsempi": [
+        "compagno",
+        "compagna"
+      ],
+      "esempi": [
+        "I miei compagni di classe sono simpatici.",
+        "Il mio compagno di banco si chiama Luca.",
+        "Gioco a calcio con i compagni."
+      ],
+      "traduzioni": {
+        "en": "classmate, companion",
+        "es": "compañero",
+        "pt": "colega",
+        "fr": "camarade",
+        "cs": "spolužák",
+        "pl": "kolega (z klasy)",
+        "tr": "arkadaş, sınıf arkadaşı",
+        "de": "Mitschüler, Kamerad",
+        "ja": "仲間、同級生"
+      }
+    },
+    {
+      "parola": "diventare",
+      "forme": [
+        "diventare",
+        "diventato"
+      ],
+      "formeEsempi": [
+        "diventa"
+      ],
+      "esempi": [
+        "Mio figlio vuole diventare medico.",
+        "Il cielo diventa grigio: arriva la pioggia.",
+        "È diventato famoso con una canzone."
+      ],
+      "traduzioni": {
+        "en": "to become",
+        "es": "convertirse en, llegar a ser",
+        "pt": "tornar-se, virar",
+        "fr": "devenir",
+        "cs": "stát se",
+        "pl": "stać się, zostać",
+        "tr": "olmak",
+        "de": "werden",
+        "ja": "〜になる"
+      }
+    },
+    {
+      "parola": "lo scrittore",
+      "forme": [
+        "scrittore"
+      ],
+      "formeEsempi": [
+        "scrittrice"
+      ],
+      "esempi": [
+        "Italo Calvino è uno scrittore famoso.",
+        "Mia figlia vuole fare la scrittrice.",
+        "Lo scrittore firma il suo libro."
+      ],
+      "traduzioni": {
+        "en": "writer",
+        "es": "escritor",
+        "pt": "escritor",
+        "fr": "écrivain",
+        "cs": "spisovatel",
+        "pl": "pisarz",
+        "tr": "yazar",
+        "de": "Schriftsteller",
+        "ja": "作家"
+      }
+    },
+    {
+      "parola": "il lettore",
+      "forme": [
+        "lettori"
+      ],
+      "formeEsempi": [
+        "lettore",
+        "lettrice"
+      ],
+      "esempi": [
+        "Sono un lettore appassionato.",
+        "Il libro piace ai lettori giovani.",
+        "Mia madre è una grande lettrice."
+      ],
+      "traduzioni": {
+        "en": "reader",
+        "es": "lector",
+        "pt": "leitor",
+        "fr": "lecteur",
+        "cs": "čtenář",
+        "pl": "czytelnik",
+        "tr": "okur",
+        "de": "Leser",
+        "ja": "読者"
+      }
+    },
+    {
+      "parola": "perfino",
+      "forme": [
+        "perfino"
+      ],
+      "esempi": [
+        "Ha mangiato tutto, perfino le verdure!",
+        "Perfino il gatto ha paura del temporale.",
+        "Ride perfino quando è triste."
+      ],
+      "traduzioni": {
+        "en": "even",
+        "es": "incluso, hasta",
+        "pt": "até, mesmo",
+        "fr": "même",
+        "cs": "dokonce",
+        "pl": "nawet",
+        "tr": "bile",
+        "de": "sogar",
+        "ja": "〜さえ"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "It's summer. Near an old lake there's a farm. Among the plants a mother duck is waiting: under her there are six eggs.",
+        "One morning the eggs open. Five small yellow ducklings come out. They're very pretty. But one egg is still closed. It's a big, strange egg.",
+        "At last the last egg opens too. Out comes a big, grey and rather clumsy duckling.\n“How ugly you are!” say his brothers and sisters.",
+        "The farm hens laugh. The cat laughs. Even his mother is tired and says: “Go away!” The duckling is sad and always alone.",
+        "One night the duckling runs away. The world is big and the water is cold. Winter comes. The days are short, the nights are long and dark. The duckling is hungry and cold.",
+        "One evening some beautiful birds fly across the sky: they're big and white, with long necks. They're swans. The duckling looks at them and thinks: “How beautiful they are! But I'm ugly.”",
+        "Then spring comes. The sun is warm, the grass is green, the lake is calm. Now the duckling is big and his wings are strong.",
+        "On the lake there are three white swans. The duckling swims towards them. He's afraid. He lowers his head and looks into the water.",
+        "In the water there's a white, elegant bird with a long neck. It isn't a grey duckling. It's a swan!",
+        "Some children come to the lake and shout: “Look! There's a new swan! He's the most beautiful of all!” The young swan says nothing. He's happy."
+      ],
+      "a2": [
+        "When he hatched, the duckling was different from his brothers and sisters: he was bigger, he had grey feathers and he walked clumsily. On the farm everyone made fun of him. The ducks pecked him, the hens pushed him, and the girl who fed the animals chased him away with her foot.",
+        "One day the duckling couldn't take it any more and ran away. He went under the hedge and walked for many days.",
+        "One evening he came to a little house. An old lady lived there with a cat and a hen. The cat could purr and the hen could lay eggs. They were very proud.\n“Can you lay eggs?” asked the hen.\n“No.”\n“Can you purr?” asked the cat.\n“No.”\n“Then you're good for nothing!”",
+        "The duckling dreamed of only one thing: swimming. But when he said so, the hen laughed. So one morning he left again.",
+        "Autumn passed and winter came. It was very cold, the lake was almost completely frozen and the duckling had nothing to eat. One night he got stuck in the ice. In the morning a farmer saw him, broke the ice and took him home. But the children wanted to play with him and the duckling, frightened, ran away again.",
+        "When spring came back, the sun was warm and the trees were full of flowers. The duckling opened his wings: they were big and strong. He flew to a garden with a lake. On the water there were three white swans.",
+        "The duckling thought: “Now they'll chase me away too.” As the swans swam towards him, he lowered his head. And in the water he saw his reflection: he was no longer a grey duckling. He was a swan.",
+        "The three swans stroked his neck with their beaks. At that moment he was happy for the first time. He had never been an ugly duckling: he had always been a swan, but he didn't know it."
+      ],
+      "b1": [
+        "Of all the eggs the mother duck was sitting on, the last was the biggest and the slowest to open. When it finally cracked, out came a chick much bigger than his brothers and sisters, grey and clumsy. “I've never seen one so ugly,” said an old duck. At first his mother defended him: “He isn't as pretty as the others, but he swims better than any of them.”",
+        "On the farm, though, nobody was more despised than he was. The ducks pecked him, his brothers and sisters said he was the stupidest in the family, and in the end even his mother sighed: “You'd be happier far away from here.”",
+        "So he ran away. In an old lady's house he met a cat and a hen who thought they were the cleverest animals in the world, cleverer even than their mistress. When the duckling explained that for him nothing was more wonderful than diving into the water, they looked at him as if he were mad.",
+        "One autumn afternoon he saw a flock of brilliant white birds with very long necks fly across the sky. They were the most beautiful birds in the world, and he watched them with a feeling stronger than envy: it was love. The winter that followed was the hardest time of his life: the cold was crueller than hunger, and one night the ice almost killed him.",
+        "In spring, stronger and bigger than ever, he came to a lake where three swans were swimming. “Better to be killed by them than pecked by the ducks,” he thought, and he swam towards them with his head bowed. But in the water there was no longer a clumsy grey bird: there was a swan, as white as the others. The children in the park shouted: “The new one is the most beautiful of all!”",
+        "The biggest surprise, however, isn't in the fairy tale. Hans Christian Andersen published it in 1843. He was the son of a poor shoemaker from Odense, in Denmark; as a boy he was taller and thinner than his classmates, he had a big nose and everyone made fun of him. At fourteen he left alone for Copenhagen, determined to become somebody. When he wrote this story he was already a writer known outside Denmark too.",
+        "That's why many readers see Andersen's own life in the tale: not a duckling who became a swan, but a swan who for years didn't know he was one."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Es verano. Cerca de un viejo lago hay una granja. Entre las plantas, una mamá pata espera: debajo de ella hay seis huevos.",
+        "Una mañana los huevos se abren. Salen cinco patitos pequeños y amarillos. Son muy bonitos. Pero un huevo todavía está cerrado. Es un huevo grande y extraño.",
+        "Por fin también se abre el último huevo. Sale un patito grande, gris y un poco torpe.\n– ¡Qué feo eres! – dicen sus hermanos.",
+        "Las gallinas de la granja se ríen. El gato se ríe. También la mamá está cansada y dice: «¡Vete!». El patito está triste y siempre solo.",
+        "Una noche el patito se escapa. El mundo es grande y el agua está fría. Llega el invierno. Los días son cortos, las noches son largas y oscuras. El patito tiene hambre y frío.",
+        "Una tarde pasan por el cielo unos pájaros preciosos: son grandes y blancos, con el cuello largo. Son cisnes. El patito los mira y piensa: «¡Qué bonitos son! Yo, en cambio, soy feo».",
+        "Luego llega la primavera. El sol calienta, la hierba es verde, el lago está tranquilo. Ahora el patito es grande y sus alas son fuertes.",
+        "En el lago hay tres cisnes blancos. El patito nada hacia ellos. Tiene miedo. Baja la cabeza y mira el agua.",
+        "En el agua hay un pájaro blanco y elegante, con el cuello largo. No es un patito gris. ¡Es un cisne!",
+        "Unos niños llegan al lago y gritan: «¡Mira! ¡Hay un cisne nuevo! ¡Es el más bonito de todos!». El joven cisne no dice nada. Es feliz."
+      ],
+      "a2": [
+        "Cuando nació, el patito era diferente de sus hermanos: era más grande, tenía las plumas grises y caminaba de forma torpe. En la granja todos se burlaban de él. Los patos lo picoteaban, las gallinas lo empujaban y la chica que daba de comer a los animales lo echaba con el pie.",
+        "Un día el patito no pudo más y se escapó. Pasó por debajo del seto y caminó durante muchos días.",
+        "Una tarde llegó a una casita. Allí vivía una anciana con un gato y una gallina. El gato sabía ronronear y la gallina ponía huevos. Estaban muy orgullosos.\n– ¿Sabes poner huevos? – preguntó la gallina.\n– No.\n– ¿Sabes ronronear? – preguntó el gato.\n– No.\n– ¡Entonces no sirves para nada!",
+        "El patito soñaba con una sola cosa: nadar. Pero cuando lo dijo, la gallina se rio. Así que una mañana se marchó otra vez.",
+        "Pasó el otoño y llegó el invierno. Hacía mucho frío, el lago estaba casi todo helado y el patito no tenía nada que comer. Una noche se quedó atrapado en el hielo. Por la mañana un campesino lo vio, rompió el hielo y se lo llevó a su casa. Pero los niños querían jugar con él y el patito, asustado, volvió a escaparse.",
+        "Cuando volvió la primavera, el sol calentaba y los árboles estaban llenos de flores. El patito abrió las alas: eran grandes y fuertes. Voló hasta un jardín con un lago. En el agua había tres cisnes blancos.",
+        "El patito pensaba: «Ahora ellos también me echarán». Mientras los cisnes nadaban hacia él, bajó la cabeza. Y en el agua vio su imagen: ya no era un patito gris. Era un cisne.",
+        "Los tres cisnes le acariciaron el cuello con el pico. En ese momento fue feliz por primera vez. Nunca había sido un patito feo: siempre había sido un cisne, pero no lo sabía."
+      ],
+      "b1": [
+        "De todos los huevos que la mamá pata incubaba, el último era el más grande y el que más tardaba en abrirse. Cuando por fin se rompió, salió un polluelo mucho más grande que sus hermanos, gris y torpe. «Nunca he visto uno tan feo», dijo una pata vieja. Al principio la madre lo defendía: «No es tan bonito como los demás, pero nada mejor que todos».",
+        "En la granja, sin embargo, nadie era más despreciado que él. Los patos lo picoteaban, sus hermanos decían que era el más tonto de la familia y al final hasta la madre suspiró: «Serías más feliz lejos de aquí».",
+        "Así que se escapó. En casa de una anciana conoció a un gato y una gallina que se creían los animales más inteligentes del mundo, más inteligentes incluso que su dueña. Cuando el patito explicó que para él no había nada más bonito que zambullirse en el agua, lo miraron como a un loco.",
+        "Una tarde de otoño vio pasar por el cielo una bandada de pájaros blanquísimos, con el cuello larguísimo. Eran los pájaros más bonitos del mundo, y él los miró con un sentimiento más fuerte que la envidia: era amor. El invierno que vino después fue la época más dura de su vida: el frío era más cruel que el hambre, y una noche el hielo casi lo mató.",
+        "En primavera, más fuerte y más grande que nunca, llegó a un lago donde nadaban tres cisnes. «Mejor que me maten ellos que ser picoteado por los patos», pensó, y nadó hacia ellos con la cabeza baja. Pero en el agua ya no había un pájaro torpe y gris: había un cisne, blanco como los demás. Los niños del parque gritaban: «¡El nuevo es el más bonito de todos!».",
+        "La mayor sorpresa, sin embargo, no está en el cuento. Hans Christian Andersen lo publicó en 1843. Era hijo de un zapatero pobre de Odense, en Dinamarca; de chico era más alto y más delgado que sus compañeros, tenía la nariz grande y todos se burlaban de él. A los catorce años se fue solo a Copenhague, decidido a llegar a ser alguien. Cuando escribió esta historia ya era un escritor conocido también fuera de Dinamarca.",
+        "Por eso muchos lectores ven en el cuento la vida de Andersen: no un patito que se convirtió en cisne, sino un cisne que durante años no sabía que lo era."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "É verão. Perto de um lago antigo tem uma fazenda. No meio das plantas, uma mamãe pata espera: debaixo dela tem seis ovos.",
+        "Uma manhã os ovos se abrem. Saem cinco patinhos pequenos e amarelos. Eles são muito bonitos. Mas um ovo ainda está fechado. É um ovo grande e estranho.",
+        "Finalmente o último ovo também se abre. Sai um patinho grande, cinza e um pouco desajeitado.\n– Como você é feio! – dizem os irmãos.",
+        "As galinhas da fazenda riem. O gato ri. Até a mamãe está cansada e diz: «Vá embora!». O patinho está triste e sempre sozinho.",
+        "Uma noite o patinho foge. O mundo é grande e a água é fria. Chega o inverno. Os dias são curtos, as noites são longas e escuras. O patinho está com fome e com frio.",
+        "Uma tarde passam no céu uns pássaros lindos: são grandes e brancos, com o pescoço comprido. São cisnes. O patinho olha para eles e pensa: «Como eles são bonitos! Já eu sou feio».",
+        "Depois chega a primavera. O sol está quente, a grama está verde, o lago está calmo. Agora o patinho é grande e as asas dele são fortes.",
+        "No lago tem três cisnes brancos. O patinho nada na direção deles. Está com medo. Abaixa a cabeça e olha para a água.",
+        "Na água tem um pássaro branco e elegante, com o pescoço comprido. Não é um patinho cinza. É um cisne!",
+        "Algumas crianças chegam ao lago e gritam: «Olha! Tem um cisne novo! É o mais bonito de todos!». O jovem cisne não diz nada. Ele está feliz."
+      ],
+      "a2": [
+        "Quando nasceu, o patinho era diferente dos irmãos: era maior, tinha as penas cinza e andava de um jeito desajeitado. Na fazenda todos zoavam dele. Os patos o bicavam, as galinhas o empurravam e a moça que dava comida aos animais o enxotava com o pé.",
+        "Um dia o patinho não aguentou mais e fugiu. Passou por baixo da cerca viva e andou por muitos dias.",
+        "Uma tarde chegou a uma casinha. Lá morava uma senhora idosa com um gato e uma galinha. O gato sabia ronronar e a galinha botava ovos. Eles eram muito orgulhosos.\n– Você sabe botar ovos? – perguntou a galinha.\n– Não.\n– Sabe ronronar? – perguntou o gato.\n– Não.\n– Então você não serve para nada!",
+        "O patinho sonhava com uma coisa só: nadar. Mas quando disse isso, a galinha riu. Então, uma manhã, ele partiu de novo.",
+        "O outono passou e chegou o inverno. Fazia muito frio, o lago estava quase todo congelado e o patinho não tinha nada para comer. Uma noite ficou preso no gelo. De manhã um camponês o viu, quebrou o gelo e o levou para casa. Mas as crianças queriam brincar com ele e o patinho, assustado, fugiu de novo.",
+        "Quando a primavera voltou, o sol estava quente e as árvores estavam cheias de flores. O patinho abriu as asas: eram grandes e fortes. Voou até um jardim com um lago. Na água tinha três cisnes brancos.",
+        "O patinho pensava: «Agora eles também vão me enxotar». Enquanto os cisnes nadavam na direção dele, ele abaixou a cabeça. E na água viu a própria imagem: não era mais um patinho cinza. Era um cisne.",
+        "Os três cisnes acariciaram o pescoço dele com o bico. Naquele momento ele ficou feliz pela primeira vez. Nunca tinha sido um patinho feio: sempre tinha sido um cisne, mas não sabia."
+      ],
+      "b1": [
+        "De todos os ovos que a mamãe pata chocava, o último era o maior e o mais demorado para abrir. Quando finalmente se quebrou, saiu um filhote muito maior que os irmãos, cinza e desajeitado. «Nunca vi um tão feio», disse uma pata velha. No começo a mãe o defendia: «Não é bonito como os outros, mas nada melhor que todos».",
+        "Na fazenda, porém, ninguém era mais desprezado do que ele. Os patos o bicavam, os irmãos diziam que ele era o mais bobo da família e, no fim, até a mãe suspirou: «Você seria mais feliz longe daqui».",
+        "Então ele fugiu. Na casa de uma senhora idosa conheceu um gato e uma galinha que se achavam os animais mais inteligentes do mundo, mais inteligentes até que a dona deles. Quando o patinho explicou que para ele nada era mais gostoso do que mergulhar na água, olharam para ele como se fosse louco.",
+        "Numa tarde de outono ele viu passar no céu um bando de pássaros branquíssimos, com o pescoço compridíssimo. Eram os pássaros mais bonitos do mundo, e ele os olhou com um sentimento mais forte que a inveja: era amor. O inverno que veio depois foi a época mais difícil da vida dele: o frio era mais cruel que a fome, e uma noite o gelo quase o matou.",
+        "Na primavera, mais forte e maior do que nunca, chegou a um lago onde nadavam três cisnes. «Melhor ser morto por eles do que ser bicado pelos patos», pensou, e nadou na direção deles com a cabeça baixa. Mas na água não havia mais um pássaro desajeitado e cinza: havia um cisne, branco como os outros. As crianças do parque gritavam: «O novo é o mais bonito de todos!».",
+        "A maior surpresa, porém, não está no conto. Hans Christian Andersen o publicou em 1843. Ele era filho de um sapateiro pobre de Odense, na Dinamarca; quando menino, era mais alto e mais magro que os colegas, tinha o nariz grande e todos zoavam dele. Aos catorze anos partiu sozinho para Copenhague, decidido a ser alguém. Quando escreveu esta história, já era um escritor conhecido também fora da Dinamarca.",
+        "Por isso muitos leitores veem no conto a vida de Andersen: não um patinho que virou cisne, mas um cisne que durante anos não sabia que era um."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "C’est l’été. Près d’un vieux lac, il y a une ferme. Au milieu des plantes, une maman cane attend : sous elle, il y a six œufs.",
+        "Un matin, les œufs s’ouvrent. Cinq petits canetons jaunes sortent. Ils sont très beaux. Mais un œuf est encore fermé. C’est un œuf grand et bizarre.",
+        "Enfin, le dernier œuf s’ouvre aussi. Un caneton grand, gris et un peu maladroit sort.\n– Comme tu es laid ! – disent ses frères et sœurs.",
+        "Les poules de la ferme rient. Le chat rit. Même la maman est fatiguée et dit : « Va-t’en ! » Le caneton est triste et toujours seul.",
+        "Une nuit, le caneton s’enfuit. Le monde est grand et l’eau est froide. L’hiver arrive. Les journées sont courtes, les nuits sont longues et sombres. Le caneton a faim et il a froid.",
+        "Un soir, des oiseaux magnifiques passent dans le ciel : ils sont grands et blancs, avec un long cou. Ce sont des cygnes. Le caneton les regarde et pense : « Comme ils sont beaux ! Moi, au contraire, je suis laid. »",
+        "Puis le printemps arrive. Le soleil est chaud, l’herbe est verte, le lac est calme. Maintenant, le caneton est grand et ses ailes sont fortes.",
+        "Sur le lac, il y a trois cygnes blancs. Le caneton nage vers eux. Il a peur. Il baisse la tête et regarde dans l’eau.",
+        "Dans l’eau, il y a un oiseau blanc et élégant, avec un long cou. Ce n’est pas un caneton gris. C’est un cygne !",
+        "Des enfants arrivent au lac et crient : « Regarde ! Il y a un nouveau cygne ! C’est le plus beau de tous ! » Le jeune cygne ne dit rien. Il est heureux."
+      ],
+      "a2": [
+        "Quand il est né, le caneton était différent de ses frères et sœurs : il était plus grand, il avait des plumes grises et il marchait de façon maladroite. À la ferme, tout le monde se moquait de lui. Les canards lui donnaient des coups de bec, les poules le poussaient et la fille qui nourrissait les animaux le chassait du pied.",
+        "Un jour, le caneton n’en a plus pu et il s’est enfui. Il est passé sous la haie et il a marché pendant de longs jours.",
+        "Un soir, il est arrivé à une petite maison. Là vivait une vieille dame avec un chat et une poule. Le chat savait ronronner et la poule pondait des œufs. Ils étaient très fiers.\n– Tu sais pondre des œufs ? – a demandé la poule.\n– Non.\n– Tu sais ronronner ? – a demandé le chat.\n– Non.\n– Alors tu ne sers à rien !",
+        "Le caneton ne rêvait que d’une chose : nager. Mais quand il l’a dit, la poule a ri. Alors un matin, il est reparti.",
+        "L’automne est passé et l’hiver est arrivé. Il faisait très froid, le lac était presque entièrement gelé et le caneton n’avait rien à manger. Une nuit, il est resté pris dans la glace. Le matin, un paysan l’a vu, a cassé la glace et l’a emmené chez lui. Mais les enfants voulaient jouer avec lui et le caneton, effrayé, s’est encore enfui.",
+        "Quand le printemps est revenu, le soleil était chaud et les arbres étaient couverts de fleurs. Le caneton a ouvert ses ailes : elles étaient grandes et fortes. Il a volé jusqu’à un jardin avec un lac. Sur l’eau, il y avait trois cygnes blancs.",
+        "Le caneton pensait : « Maintenant, eux aussi vont me chasser. » Pendant que les cygnes nageaient vers lui, il a baissé la tête. Et dans l’eau, il a vu son reflet : ce n’était plus un caneton gris. C’était un cygne.",
+        "Les trois cygnes lui ont caressé le cou avec leur bec. À ce moment-là, il a été heureux pour la première fois. Il n’avait jamais été un vilain petit canard : il avait toujours été un cygne, mais il ne le savait pas."
+      ],
+      "b1": [
+        "De tous les œufs que la maman cane couvait, le dernier était le plus gros et le plus lent à s’ouvrir. Quand il s’est enfin cassé, il en est sorti un petit beaucoup plus gros que ses frères et sœurs, gris et maladroit. « Je n’en ai jamais vu un aussi laid », a dit une vieille cane. Au début, sa mère le défendait : « Il n’est pas aussi beau que les autres, mais il nage mieux que tous. »",
+        "À la ferme, pourtant, personne n’était plus méprisé que lui. Les canards lui donnaient des coups de bec, ses frères et sœurs disaient qu’il était le plus bête de la famille et, à la fin, même sa mère a soupiré : « Tu serais plus heureux loin d’ici. »",
+        "Alors il s’est enfui. Chez une vieille dame, il a rencontré un chat et une poule qui se croyaient les animaux les plus intelligents du monde, plus intelligents même que leur maîtresse. Quand le caneton a expliqué que, pour lui, rien n’était plus beau que de plonger dans l’eau, ils l’ont regardé comme un fou.",
+        "Un après-midi d’automne, il a vu passer dans le ciel un vol d’oiseaux tout blancs, au cou très long. C’étaient les plus beaux oiseaux du monde, et il les a regardés avec un sentiment plus fort que l’envie : c’était de l’amour. L’hiver qui a suivi a été la période la plus dure de sa vie : le froid était plus cruel que la faim, et une nuit, la glace a failli le tuer.",
+        "Au printemps, plus fort et plus grand que jamais, il est arrivé à un lac où nageaient trois cygnes. « Mieux vaut être tué par eux qu’être piqué par les canards », a-t-il pensé, et il a nagé vers eux, la tête baissée. Mais dans l’eau, il n’y avait plus un oiseau gris et maladroit : il y avait un cygne, blanc comme les autres. Les enfants du parc criaient : « Le nouveau est le plus beau de tous ! »",
+        "La plus grande surprise, pourtant, n’est pas dans le conte. Hans Christian Andersen l’a publié en 1843. Il était le fils d’un pauvre cordonnier d’Odense, au Danemark ; enfant, il était plus grand et plus maigre que ses camarades, il avait un grand nez et tout le monde se moquait de lui. À quatorze ans, il est parti seul pour Copenhague, décidé à devenir quelqu’un. Quand il a écrit cette histoire, il était déjà un écrivain connu même hors du Danemark.",
+        "C’est pourquoi beaucoup de lecteurs voient dans ce conte la vie d’Andersen : non pas un caneton devenu cygne, mais un cygne qui, pendant des années, ne savait pas qu’il en était un."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Je léto. U starého jezera je statek. Mezi rostlinami čeká maminka kachna: pod ní je šest vajec.",
+        "Jednoho rána se vejce otevřou. Vylezou pět malých žlutých káčátek. Jsou moc hezká. Ale jedno vejce je pořád zavřené. Je to velké a divné vejce.",
+        "Konečně se otevře i poslední vejce. Vyleze velké, šedé a trochu nemotorné káče.\n– Ty jsi ale ošklivý! – říkají sourozenci.",
+        "Slepice na statku se smějí. Kočka se směje. I maminka je unavená a říká: „Jdi pryč!“ Káčátko je smutné a pořád samo.",
+        "Jedné noci káčátko uteče. Svět je velký a voda je studená. Přijde zima. Dny jsou krátké, noci dlouhé a tmavé. Káčátko má hlad a je mu zima.",
+        "Jednoho večera letí po nebi nádherní ptáci: jsou velcí a bílí, s dlouhým krkem. Jsou to labutě. Káčátko se na ně dívá a myslí si: „Ty jsou krásné! Já jsem naopak ošklivý.“",
+        "Pak přijde jaro. Slunce hřeje, tráva je zelená, jezero je klidné. Teď je káčátko velké a jeho křídla jsou silná.",
+        "Na jezeře jsou tři bílé labutě. Káčátko k nim plave. Bojí se. Sklopí hlavu a dívá se do vody.",
+        "Ve vodě je bílý, elegantní pták s dlouhým krkem. Není to šedé káčátko. Je to labuť!",
+        "K jezeru přijdou děti a křičí: „Podívej! Je tu nová labuť! Je nejkrásnější ze všech!“ Mladá labuť nic neříká. Je šťastná."
+      ],
+      "a2": [
+        "Když se káčátko vylíhlo, bylo jiné než jeho sourozenci: bylo větší, mělo šedé peří a chodilo nemotorně. Na statku se mu všichni posmívali. Kachny ho klovaly, slepice ho strkaly a dívka, která krmila zvířata, ho odháněla nohou.",
+        "Jednoho dne už to káčátko nevydrželo a uteklo. Prolezlo pod živým plotem a šlo mnoho dní.",
+        "Jednoho večera došlo k malému domku. Tam bydlela stará paní s kocourem a slepicí. Kocour uměl příst a slepice snášela vejce. Byli na to moc pyšní.\n– Umíš snášet vejce? – zeptala se slepice.\n– Ne.\n– Umíš příst? – zeptal se kocour.\n– Ne.\n– Tak nejsi k ničemu!",
+        "Káčátko snilo jen o jedné věci: o plavání. Ale když to řeklo, slepice se zasmála. A tak jednoho rána zase odešlo.",
+        "Podzim minul a přišla zima. Byla velká zima, jezero skoro celé zamrzlo a káčátko nemělo co jíst. Jedné noci zamrzlo v ledu. Ráno ho uviděl sedlák, rozbil led a odnesl si ho domů. Ale děti si s ním chtěly hrát a káčátko vyděšeně zase uteklo.",
+        "Když se vrátilo jaro, slunce hřálo a stromy byly plné květů. Káčátko roztáhlo křídla: byla velká a silná. Doletělo do zahrady s jezerem. Na vodě byly tři bílé labutě.",
+        "Káčátko si myslelo: „Teď mě vyženou i ony.“ Zatímco labutě plavaly k němu, sklopilo hlavu. A ve vodě uvidělo svůj obraz: už nebylo šedé káče. Byla to labuť.",
+        "Tři labutě ho pohladily zobákem po krku. V tu chvíli bylo poprvé šťastné. Nikdy nebylo ošklivé káčátko: vždycky bylo labuť, jen to nevědělo."
+      ],
+      "b1": [
+        "Ze všech vajec, na kterých maminka kachna seděla, bylo to poslední největší a nejpomaleji se otevíralo. Když konečně prasklo, vylezlo z něj mládě mnohem větší než sourozenci, šedé a nemotorné. „Tak ošklivé jsem ještě neviděla,“ řekla jedna stará kachna. Matka ho zpočátku bránila: „Není tak hezké jako ostatní, ale plave lépe než všichni.“",
+        "Na statku ale nebyl nikdo tak opovrhovaný jako on. Kachny ho klovaly, sourozenci říkali, že je nejhloupější v rodině, a nakonec si povzdechla i matka: „Byl bys šťastnější daleko odsud.“",
+        "A tak utekl. V domě jedné staré paní poznal kocoura a slepici, kteří se považovali za nejchytřejší zvířata na světě, chytřejší dokonce i než jejich paní. Když káčátko vysvětlilo, že pro něj není nic krásnějšího, než se ponořit do vody, dívali se na něj jako na blázna.",
+        "Jednoho podzimního odpoledne uviděl, jak po nebi letí hejno sněhobílých ptáků s předlouhým krkem. Byli to nejkrásnější ptáci na světě a on se na ně díval s pocitem silnějším než závist: byla to láska. Zima, která přišla potom, byla nejtěžším obdobím jeho života: mráz byl krutější než hlad a jedné noci ho led skoro zabil.",
+        "Na jaře, silnější a větší než kdykoli předtím, doplul k jezeru, kde plavaly tři labutě. „Raději ať mě zabijí ony, než aby mě klovaly kachny,“ pomyslel si a plaval k nim se sklopenou hlavou. Ale ve vodě už nebyl nemotorný šedý pták: byla tam labuť, bílá jako ostatní. Děti v parku křičely: „Ta nová je nejkrásnější ze všech!“",
+        "Největší překvapení ale není v pohádce. Hans Christian Andersen ji vydal v roce 1843. Byl synem chudého obuvníka z Odense v Dánsku; jako kluk byl vyšší a hubenější než spolužáci, měl velký nos a všichni se mu posmívali. Ve čtrnácti letech odešel sám do Kodaně, odhodlaný stát se někým. Když tento příběh psal, byl už spisovatelem známým i mimo Dánsko.",
+        "Proto mnoho čtenářů vidí v pohádce Andersenův život: ne káčátko, ze kterého se stala labuť, ale labuť, která léta nevěděla, že labutí je."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Jest lato. Obok starego jeziora jest gospodarstwo. Wśród roślin czeka mama kaczka: pod nią jest sześć jajek.",
+        "Pewnego ranka jajka pękają. Wychodzi pięć małych żółtych kaczątek. Są bardzo ładne. Ale jedno jajko jest wciąż zamknięte. To duże i dziwne jajko.",
+        "W końcu otwiera się też ostatnie jajko. Wychodzi kaczątko duże, szare i trochę niezgrabne.\n– Ale jesteś brzydki! – mówi rodzeństwo.",
+        "Kury z gospodarstwa się śmieją. Kot się śmieje. Nawet mama jest zmęczona i mówi: „Idź sobie!”. Kaczątko jest smutne i zawsze samo.",
+        "Pewnej nocy kaczątko ucieka. Świat jest wielki, a woda zimna. Przychodzi zima. Dni są krótkie, noce długie i ciemne. Kaczątko jest głodne i zmarznięte.",
+        "Pewnego wieczoru po niebie lecą piękne ptaki: są duże i białe, mają długie szyje. To łabędzie. Kaczątko patrzy na nie i myśli: „Jakie one piękne! A ja jestem brzydki”.",
+        "Potem przychodzi wiosna. Słońce grzeje, trawa jest zielona, jezioro jest spokojne. Teraz kaczątko jest duże i ma mocne skrzydła.",
+        "Na jeziorze są trzy białe łabędzie. Kaczątko płynie w ich stronę. Boi się. Spuszcza głowę i patrzy w wodę.",
+        "W wodzie jest biały, elegancki ptak z długą szyją. To nie jest szare kaczątko. To łabędź!",
+        "Nad jezioro przychodzą dzieci i krzyczą: „Patrz! Jest nowy łabędź! Jest najpiękniejszy ze wszystkich!”. Młody łabędź nic nie mówi. Jest szczęśliwy."
+      ],
+      "a2": [
+        "Kiedy kaczątko się wykluło, było inne niż rodzeństwo: było większe, miało szare pióra i chodziło niezgrabnie. W gospodarstwie wszyscy się z niego naśmiewali. Kaczki je dziobały, kury je popychały, a dziewczyna, która karmiła zwierzęta, przeganiała je nogą.",
+        "Pewnego dnia kaczątko nie wytrzymało i uciekło. Przeszło pod żywopłotem i szło przez wiele dni.",
+        "Pewnego wieczoru doszło do małego domku. Mieszkała tam starsza pani z kotem i kurą. Kot umiał mruczeć, a kura znosiła jajka. Byli bardzo dumni.\n– Umiesz znosić jajka? – zapytała kura.\n– Nie.\n– Umiesz mruczeć? – zapytał kot.\n– Nie.\n– To do niczego się nie nadajesz!",
+        "Kaczątko marzyło tylko o jednym: o pływaniu. Ale kiedy to powiedziało, kura się roześmiała. Więc pewnego ranka znowu odeszło.",
+        "Minęła jesień i przyszła zima. Było bardzo zimno, jezioro prawie całe zamarzło, a kaczątko nie miało nic do jedzenia. Pewnej nocy utknęło w lodzie. Rano zobaczył je rolnik, rozbił lód i zabrał je do domu. Ale dzieci chciały się z nim bawić i kaczątko, przestraszone, znowu uciekło.",
+        "Kiedy wróciła wiosna, słońce grzało, a drzewa były pełne kwiatów. Kaczątko rozłożyło skrzydła: były duże i mocne. Doleciało do ogrodu z jeziorem. Na wodzie były trzy białe łabędzie.",
+        "Kaczątko myślało: „Teraz one też mnie przegonią”. Kiedy łabędzie płynęły w jego stronę, spuściło głowę. I w wodzie zobaczyło swoje odbicie: nie było już szarym kaczątkiem. Było łabędziem.",
+        "Trzy łabędzie pogłaskały je dziobami po szyi. W tej chwili po raz pierwszy było szczęśliwe. Nigdy nie było brzydkim kaczątkiem: zawsze było łabędziem, tylko o tym nie wiedziało."
+      ],
+      "b1": [
+        "Ze wszystkich jajek, które wysiadywała mama kaczka, ostatnie było największe i najdłużej się otwierało. Kiedy w końcu pękło, wyszło z niego pisklę dużo większe od rodzeństwa, szare i niezgrabne. „Nigdy nie widziałam takiego brzydala”, powiedziała stara kaczka. Na początku matka go broniła: „Nie jest taki ładny jak inne, ale pływa najlepiej ze wszystkich”.",
+        "W gospodarstwie jednak nikt nie był tak pogardzany jak on. Kaczki go dziobały, rodzeństwo mówiło, że jest najgłupszy w rodzinie, a w końcu nawet matka westchnęła: „Byłbyś szczęśliwszy daleko stąd”.",
+        "Więc uciekł. W domu starszej pani poznał kota i kurę, którzy uważali się za najmądrzejsze zwierzęta na świecie, mądrzejsze nawet od swojej pani. Kiedy kaczątko wyjaśniło, że dla niego nie ma nic piękniejszego niż zanurkować w wodzie, patrzyli na nie jak na wariata.",
+        "Pewnego jesiennego popołudnia zobaczył na niebie stado śnieżnobiałych ptaków o bardzo długich szyjach. Były to najpiękniejsze ptaki na świecie, a on patrzył na nie z uczuciem silniejszym niż zazdrość: to była miłość. Zima, która przyszła potem, była najtrudniejszym okresem jego życia: mróz był okrutniejszy od głodu, a pewnej nocy lód prawie go zabił.",
+        "Wiosną, silniejszy i większy niż kiedykolwiek, dotarł do jeziora, po którym pływały trzy łabędzie. „Lepiej, żeby one mnie zabiły, niż żeby dziobały mnie kaczki”, pomyślał i popłynął w ich stronę ze spuszczoną głową. Ale w wodzie nie było już niezgrabnego szarego ptaka: był łabędź, biały jak pozostałe. Dzieci w parku krzyczały: „Ten nowy jest najpiękniejszy ze wszystkich!”.",
+        "Największa niespodzianka nie kryje się jednak w baśni. Hans Christian Andersen opublikował ją w 1843 roku. Był synem biednego szewca z Odense w Danii; jako chłopiec był wyższy i chudszy od kolegów, miał duży nos i wszyscy się z niego śmiali. W wieku czternastu lat wyjechał sam do Kopenhagi, zdecydowany, żeby zostać kimś. Kiedy pisał tę historię, był już pisarzem znanym także poza Danią.",
+        "Dlatego wielu czytelników widzi w tej baśni życie Andersena: nie kaczątko, które stało się łabędziem, ale łabędzia, który przez lata nie wiedział, że nim jest."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Yaz mevsimi. Eski bir gölün yakınında bir çiftlik var. Bitkilerin arasında bir anne ördek bekliyor: altında altı yumurta var.",
+        "Bir sabah yumurtalar açılıyor. Beş küçük, sarı ördek yavrusu çıkıyor. Çok güzeller. Ama bir yumurta hâlâ kapalı. Büyük ve garip bir yumurta.",
+        "Sonunda son yumurta da açılıyor. Büyük, gri ve biraz beceriksiz bir ördek yavrusu çıkıyor.\n– Ne kadar çirkinsin! – diyor kardeşleri.",
+        "Çiftliğin tavukları gülüyor. Kedi gülüyor. Annesi bile yorgun ve «Git buradan!» diyor. Ördek yavrusu üzgün ve hep yalnız.",
+        "Bir gece ördek yavrusu kaçıyor. Dünya büyük, su soğuk. Kış geliyor. Günler kısa, geceler uzun ve karanlık. Ördek yavrusu aç ve üşüyor.",
+        "Bir akşam gökyüzünden çok güzel kuşlar geçiyor: büyük ve beyazlar, uzun boyunları var. Bunlar kuğu. Ördek yavrusu onlara bakıyor ve düşünüyor: «Ne kadar güzeller! Bense çirkinim.»",
+        "Sonra ilkbahar geliyor. Güneş sıcak, çimen yeşil, göl sakin. Artık ördek yavrusu büyük ve kanatları güçlü.",
+        "Gölde üç beyaz kuğu var. Ördek yavrusu onlara doğru yüzüyor. Korkuyor. Başını eğiyor ve suya bakıyor.",
+        "Suda beyaz, zarif, uzun boyunlu bir kuş var. Bu gri bir ördek yavrusu değil. Bir kuğu!",
+        "Birkaç çocuk göle geliyor ve bağırıyor: «Bak! Yeni bir kuğu var! Hepsinden güzeli o!» Genç kuğu hiçbir şey söylemiyor. Mutlu."
+      ],
+      "a2": [
+        "Ördek yavrusu yumurtadan çıktığında kardeşlerinden farklıydı: daha büyüktü, tüyleri griydi ve beceriksizce yürüyordu. Çiftlikte herkes onunla dalga geçiyordu. Ördekler onu gagalıyor, tavuklar itiyor, hayvanlara yem veren kız da onu ayağıyla kovuyordu.",
+        "Bir gün ördek yavrusu artık dayanamadı ve kaçtı. Çitin altından geçti ve günlerce yürüdü.",
+        "Bir akşam küçük bir eve vardı. Orada bir kedi ve bir tavukla birlikte yaşlı bir kadın oturuyordu. Kedi mırlamayı biliyordu, tavuk da yumurtluyordu. Çok gururluydular.\n– Yumurtlayabiliyor musun? – diye sordu tavuk.\n– Hayır.\n– Mırlayabiliyor musun? – diye sordu kedi.\n– Hayır.\n– O zaman hiçbir işe yaramıyorsun!",
+        "Ördek yavrusu tek bir şeyin hayalini kuruyordu: yüzmek. Ama bunu söyleyince tavuk güldü. Böylece bir sabah yine yola çıktı.",
+        "Sonbahar geçti ve kış geldi. Hava çok soğuktu, göl neredeyse tamamen donmuştu ve ördek yavrusunun yiyecek hiçbir şeyi yoktu. Bir gece buzun içinde sıkışıp kaldı. Sabah bir çiftçi onu gördü, buzu kırdı ve evine götürdü. Ama çocuklar onunla oynamak istedi ve korkan ördek yavrusu yine kaçtı.",
+        "İlkbahar geri geldiğinde güneş sıcaktı ve ağaçlar çiçeklerle doluydu. Ördek yavrusu kanatlarını açtı: büyük ve güçlüydüler. İçinde göl olan bir bahçeye kadar uçtu. Suyun üstünde üç beyaz kuğu vardı.",
+        "Ördek yavrusu düşündü: «Şimdi onlar da beni kovacak.» Kuğular ona doğru yüzerken başını eğdi. Ve suda kendi görüntüsünü gördü: artık gri bir ördek yavrusu değildi. Bir kuğuydu.",
+        "Üç kuğu gagalarıyla onun boynunu okşadı. O an ilk kez mutlu oldu. Hiçbir zaman çirkin bir ördek yavrusu olmamıştı: her zaman bir kuğuydu ama bunu bilmiyordu."
+      ],
+      "b1": [
+        "Anne ördeğin kuluçkaya yattığı bütün yumurtalar arasında sonuncusu en büyüğüydü ve açılması en uzun süren oydu. Sonunda kırıldığında içinden kardeşlerinden çok daha iri, gri ve beceriksiz bir yavru çıktı. «Hiç bu kadar çirkinini görmedim», dedi yaşlı bir ördek. Annesi başta onu savunuyordu: «Ötekiler kadar güzel değil ama hepsinden iyi yüzüyor.»",
+        "Ama çiftlikte hiç kimse ondan daha fazla hor görülmüyordu. Ördekler onu gagalıyor, kardeşleri ailenin en aptalı olduğunu söylüyordu; sonunda annesi bile iç çekti: «Buradan uzakta daha mutlu olurdun.»",
+        "Böylece kaçtı. Yaşlı bir kadının evinde, kendilerini dünyanın en akıllı hayvanları, hatta sahiplerinden bile daha akıllı sanan bir kedi ve bir tavukla tanıştı. Ördek yavrusu, onun için suya dalmaktan daha güzel bir şey olmadığını anlatınca ona deliymiş gibi baktılar.",
+        "Bir sonbahar öğleden sonrası, gökyüzünden bembeyaz, upuzun boyunlu bir kuş sürüsünün geçtiğini gördü. Dünyanın en güzel kuşlarıydı ve o, onlara kıskançlıktan daha güçlü bir duyguyla baktı: bu sevgiydi. Ardından gelen kış hayatının en zor dönemi oldu: soğuk açlıktan daha acımasızdı ve bir gece buz onu neredeyse öldürüyordu.",
+        "İlkbaharda, hiç olmadığı kadar güçlü ve büyük, üç kuğunun yüzdüğü bir göle vardı. «Ördeklerin gagalamasındansa onların beni öldürmesi daha iyi», diye düşündü ve başı önünde onlara doğru yüzdü. Ama suda artık beceriksiz, gri bir kuş yoktu: ötekiler gibi beyaz bir kuğu vardı. Parktaki çocuklar bağırıyordu: «Yeni gelen hepsinden güzel!»",
+        "Ama en büyük sürpriz masalın içinde değil. Hans Christian Andersen bu masalı 1843'te yayımladı. Danimarka'nın Odense kentinden yoksul bir ayakkabıcının oğluydu; çocukken arkadaşlarından daha uzun boylu ve daha zayıftı, burnu büyüktü ve herkes onunla dalga geçiyordu. On dört yaşında, önemli biri olmaya kararlı olarak tek başına Kopenhag'a gitti. Bu hikâyeyi yazdığında Danimarka dışında da tanınan bir yazardı.",
+        "Bu yüzden birçok okur masalda Andersen'in hayatını görür: kuğuya dönüşen bir ördek yavrusunu değil, yıllarca kuğu olduğunu bilmeyen bir kuğuyu."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Es ist Sommer. An einem alten See liegt ein Bauernhof. Zwischen den Pflanzen wartet eine Entenmama: Unter ihr liegen sechs Eier.",
+        "Eines Morgens gehen die Eier auf. Fünf kleine gelbe Entenküken kommen heraus. Sie sind sehr hübsch. Aber ein Ei ist noch zu. Es ist ein großes, seltsames Ei.",
+        "Endlich geht auch das letzte Ei auf. Heraus kommt ein großes, graues und etwas unbeholfenes Entlein.\n„Wie hässlich du bist!“, sagen die Geschwister.",
+        "Die Hühner auf dem Hof lachen. Die Katze lacht. Auch die Mama ist müde und sagt: „Geh weg!“ Das Entlein ist traurig und immer allein.",
+        "Eines Nachts läuft das Entlein weg. Die Welt ist groß und das Wasser ist kalt. Der Winter kommt. Die Tage sind kurz, die Nächte sind lang und dunkel. Das Entlein hat Hunger und friert.",
+        "Eines Abends fliegen wunderschöne Vögel über den Himmel: Sie sind groß und weiß und haben einen langen Hals. Es sind Schwäne. Das Entlein sieht sie an und denkt: „Wie schön sie sind! Ich dagegen bin hässlich.“",
+        "Dann kommt der Frühling. Die Sonne ist warm, das Gras ist grün, der See ist ruhig. Jetzt ist das Entlein groß und seine Flügel sind stark.",
+        "Auf dem See sind drei weiße Schwäne. Das Entlein schwimmt zu ihnen. Es hat Angst. Es senkt den Kopf und schaut ins Wasser.",
+        "Im Wasser ist ein weißer, eleganter Vogel mit einem langen Hals. Es ist kein graues Entlein. Es ist ein Schwan!",
+        "Ein paar Kinder kommen an den See und rufen: „Schau! Da ist ein neuer Schwan! Er ist der schönste von allen!“ Der junge Schwan sagt nichts. Er ist glücklich."
+      ],
+      "a2": [
+        "Als das Entlein schlüpfte, war es anders als seine Geschwister: Es war größer, hatte graue Federn und lief unbeholfen. Auf dem Bauernhof machten sich alle über es lustig. Die Enten hackten nach ihm, die Hühner schubsten es, und das Mädchen, das die Tiere fütterte, trat mit dem Fuß nach ihm.",
+        "Eines Tages hielt das Entlein es nicht mehr aus und lief weg. Es schlüpfte unter der Hecke hindurch und wanderte viele Tage.",
+        "Eines Abends kam es zu einem kleinen Haus. Dort wohnte eine alte Frau mit einem Kater und einem Huhn. Der Kater konnte schnurren und das Huhn konnte Eier legen. Sie waren sehr stolz.\n„Kannst du Eier legen?“, fragte das Huhn.\n„Nein.“\n„Kannst du schnurren?“, fragte der Kater.\n„Nein.“\n„Dann bist du zu nichts nütze!“",
+        "Das Entlein träumte nur von einer Sache: vom Schwimmen. Aber als es das sagte, lachte das Huhn. Also zog es eines Morgens wieder los.",
+        "Der Herbst ging vorbei und der Winter kam. Es war sehr kalt, der See war fast ganz zugefroren und das Entlein hatte nichts zu essen. Eines Nachts fror es im Eis fest. Am Morgen sah es ein Bauer, brach das Eis auf und nahm es mit nach Hause. Aber die Kinder wollten mit ihm spielen, und das Entlein lief erschrocken wieder weg.",
+        "Als der Frühling zurückkam, war die Sonne warm und die Bäume waren voller Blüten. Das Entlein breitete die Flügel aus: Sie waren groß und stark. Es flog bis zu einem Garten mit einem See. Auf dem Wasser schwammen drei weiße Schwäne.",
+        "Das Entlein dachte: „Jetzt jagen sie mich auch weg.“ Während die Schwäne auf es zuschwammen, senkte es den Kopf. Und im Wasser sah es sein Spiegelbild: Es war kein graues Entlein mehr. Es war ein Schwan.",
+        "Die drei Schwäne streichelten ihm mit dem Schnabel über den Hals. In diesem Moment war es zum ersten Mal glücklich. Es war nie ein hässliches Entlein gewesen: Es war immer ein Schwan gewesen, aber es hatte es nicht gewusst."
+      ],
+      "b1": [
+        "Von allen Eiern, die die Entenmama ausbrütete, war das letzte das größte und brauchte am längsten, um sich zu öffnen. Als es endlich aufbrach, kam ein Junges heraus, das viel größer war als seine Geschwister, grau und unbeholfen. „So ein hässliches habe ich noch nie gesehen“, sagte eine alte Ente. Am Anfang verteidigte die Mutter es: „Es ist nicht so hübsch wie die anderen, aber es schwimmt besser als alle.“",
+        "Auf dem Hof wurde aber niemand so verachtet wie das Entlein. Die Enten hackten nach ihm, die Geschwister sagten, es sei das Dümmste der Familie, und am Ende seufzte sogar die Mutter: „Weit weg von hier wärst du glücklicher.“",
+        "Also lief es weg. Im Haus einer alten Frau lernte es einen Kater und ein Huhn kennen, die sich für die klügsten Tiere der Welt hielten, klüger sogar als ihre Herrin. Als das Entlein erklärte, dass es für es nichts Schöneres gebe, als ins Wasser einzutauchen, sahen sie es an wie einen Verrückten.",
+        "An einem Herbstnachmittag sah es einen Schwarm schneeweißer Vögel mit sehr langen Hälsen über den Himmel ziehen. Es waren die schönsten Vögel der Welt, und es sah sie mit einem Gefühl an, das stärker war als Neid: Es war Liebe. Der Winter danach war die härteste Zeit seines Lebens: Die Kälte war grausamer als der Hunger, und eines Nachts hätte das Eis es fast getötet.",
+        "Im Frühling, stärker und größer als je zuvor, kam es an einen See, auf dem drei Schwäne schwammen. „Lieber von ihnen getötet werden, als von den Enten gehackt“, dachte es und schwamm mit gesenktem Kopf auf sie zu. Aber im Wasser war kein unbeholfener grauer Vogel mehr: Da war ein Schwan, weiß wie die anderen. Die Kinder im Park riefen: „Der Neue ist der schönste von allen!“",
+        "Die größte Überraschung steht aber nicht im Märchen. Hans Christian Andersen veröffentlichte es 1843. Er war der Sohn eines armen Schuhmachers aus Odense in Dänemark; als Junge war er größer und dünner als seine Mitschüler, hatte eine große Nase, und alle machten sich über ihn lustig. Mit vierzehn Jahren ging er allein nach Kopenhagen, fest entschlossen, jemand zu werden. Als er diese Geschichte schrieb, war er schon ein Schriftsteller, den man auch außerhalb Dänemarks kannte.",
+        "Deshalb sehen viele Leser in dem Märchen Andersens eigenes Leben: kein Entlein, das ein Schwan wurde, sondern ein Schwan, der jahrelang nicht wusste, dass er einer war."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "夏です。古い湖のそばに農場があります。草のあいだで、お母さんアヒルが待っています。お母さんの下には、たまごが六つあります。",
+        "ある朝、たまごがかえります。小さくて黄色いアヒルの子が五羽出てきます。とてもかわいいです。でも、たまごがひとつ、まだ閉じています。大きくて、ふしぎなたまごです。",
+        "やっと最後のたまごもかえります。大きくて、灰色で、ちょっとぶかっこうなアヒルの子が出てきます。\n「なんてみにくいんだ！」と兄弟たちが言います。",
+        "農場のにわとりたちが笑います。ねこも笑います。お母さんも疲れていて、「あっちへ行って！」と言います。アヒルの子は悲しくて、いつもひとりぼっちです。",
+        "ある夜、アヒルの子は逃げ出します。世界は広くて、水は冷たいです。冬が来ます。昼は短く、夜は長くて暗いです。アヒルの子はおなかがすいて、寒いです。",
+        "ある晩、空をとても美しい鳥たちが飛んでいきます。大きくて白く、首が長い鳥です。白鳥です。アヒルの子は白鳥を見て思います。「なんてきれいなんだろう！　それにくらべて、ぼくはみにくい。」",
+        "それから春が来ます。日ざしは暖かく、草は緑で、湖は静かです。アヒルの子はもう大きくなって、つばさも強くなっています。",
+        "湖に白い白鳥が三羽います。アヒルの子は白鳥のほうへ泳いでいきます。こわいです。頭を下げて、水の中を見ます。",
+        "水の中に、首の長い、白くて優雅な鳥がいます。灰色のアヒルの子ではありません。白鳥です！",
+        "子どもたちが湖にやって来て、さけびます。「見て！　新しい白鳥がいるよ！　いちばんきれい！」若い白鳥は何も言いません。幸せです。"
+      ],
+      "a2": [
+        "生まれたとき、アヒルの子は兄弟たちとちがっていました。体が大きく、羽は灰色で、歩き方もぶかっこうでした。農場ではみんながからかいました。アヒルたちはくちばしでつつき、にわとりたちは押しのけ、動物にえさをやる女の子は足で追い払いました。",
+        "ある日、アヒルの子はもう耐えられなくなって、逃げ出しました。生け垣の下をくぐり、何日も歩きました。",
+        "ある晩、小さな家にたどり着きました。そこには、おばあさんが、ねことにわとりといっしょに住んでいました。ねこはのどを鳴らすことができ、にわとりはたまごを産むことができました。二ひきはとても得意になっていました。\n「たまごを産める？」とにわとりが聞きました。\n「ううん。」\n「のどを鳴らせる？」とねこが聞きました。\n「ううん。」\n「じゃあ、なんの役にも立たないね！」",
+        "アヒルの子が夢見ていたのは、ただひとつ、泳ぐことでした。でも、それを言うと、にわとりは笑いました。そこである朝、アヒルの子はまた旅に出ました。",
+        "秋が過ぎて、冬が来ました。とても寒く、湖はほとんど凍っていて、アヒルの子には食べるものが何もありませんでした。ある夜、氷にはさまれて動けなくなりました。朝になって、お百姓さんがアヒルの子を見つけ、氷を割って家に連れて帰りました。でも、子どもたちがいっしょに遊びたがったので、アヒルの子はこわくなって、また逃げ出しました。",
+        "春がもどってくると、日ざしは暖かく、木々は花でいっぱいでした。アヒルの子がつばさを広げると、大きくて強いつばさでした。湖のある庭まで飛んでいくと、水の上に白い白鳥が三羽いました。",
+        "アヒルの子は思いました。「きっと、あの白鳥たちにも追い払われる。」白鳥たちが泳いでくると、アヒルの子は頭を下げました。そして水の中に、自分の姿を見たのです。もう灰色のアヒルの子ではありませんでした。白鳥でした。",
+        "三羽の白鳥は、くちばしでアヒルの子の首をなでました。そのとき、アヒルの子は初めて幸せを感じました。みにくいアヒルの子だったことなど、一度もなかったのです。ずっと白鳥だったのに、それを知らなかっただけなのです。"
+      ],
+      "b1": [
+        "お母さんアヒルが温めていたたまごのうち、最後のひとつがいちばん大きく、かえるのもいちばん遅いたまごでした。やっと割れると、兄弟たちよりずっと大きな、灰色でぶかっこうなひなが出てきました。「こんなにみにくい子は見たことがないよ」と年寄りのアヒルが言いました。最初、お母さんはかばっていました。「ほかの子ほどかわいくはないけれど、だれよりも上手に泳ぐのよ。」",
+        "けれども農場では、この子ほど見下された者はいませんでした。アヒルたちはつつき、兄弟たちは家族でいちばんばかだと言い、とうとうお母さんまでため息をつきました。「ここから遠く離れたほうが、あなたは幸せになれるでしょうね。」",
+        "そこでアヒルの子は逃げ出しました。あるおばあさんの家で、ねことにわとりに出会いました。二ひきは自分たちこそ世界でいちばんかしこい動物で、飼い主のおばあさんよりもかしこいと思っていました。アヒルの子が、水に飛びこむことほどすてきなことはないと話すと、二ひきは頭がおかしい者を見るような目で見ました。",
+        "ある秋の午後、真っ白で首のとても長い鳥の群れが空を飛んでいくのが見えました。世界でいちばん美しい鳥たちでした。アヒルの子は、うらやましさよりも強い気持ちで見つめていました。それは愛でした。そのあとに来た冬は、生涯でいちばんつらい時期でした。寒さは空腹よりも残酷で、ある夜、氷に命を奪われそうになりました。",
+        "春になると、これまでになく強く大きくなったアヒルの子は、三羽の白鳥が泳ぐ湖にたどり着きました。「アヒルたちにつつかれるより、あの白鳥たちに殺されたほうがいい」と思い、頭を下げて白鳥のほうへ泳いでいきました。けれども水の中には、もうぶかっこうな灰色の鳥はいませんでした。ほかの白鳥と同じように白い、一羽の白鳥がいたのです。公園の子どもたちがさけびました。「新しい白鳥が、いちばんきれいだ！」",
+        "けれども、いちばんの驚きはお話の中にはありません。ハンス・クリスチャン・アンデルセンがこのお話を出版したのは1843年です。アンデルセンは、デンマークのオーデンセに住む貧しいくつ屋の息子でした。少年のころ、同級生よりも背が高くやせていて、鼻が大きく、みんなにからかわれていました。十四歳のとき、ひとかどの人間になると決めて、ひとりでコペンハーゲンへ向かいました。このお話を書いたころには、デンマークの外でも知られる作家になっていました。",
+        "だから多くの読者は、このお話の中にアンデルセン自身の人生を見るのです。白鳥になったアヒルの子ではなく、何年ものあいだ自分が白鳥だと知らなかった白鳥の姿を。"
+      ]
+    }
+  }
+}
