@@ -71,6 +71,8 @@ import condPassato from './data/lezioni-b2/condizionale-passato.mjs';
 import condPassatoI18n from './data/lezioni-b2/condizionale-passato-i18n.mjs';
 import congPassato from './data/lezioni-c1/congiuntivo-passato-e-trapassato.mjs';
 import congPassatoI18n from './data/lezioni-c1/congiuntivo-passato-e-trapassato-i18n.mjs';
+import ipotetico from './data/lezioni-b2/periodo-ipotetico.mjs';
+import ipoteticoI18n from './data/lezioni-b2/periodo-ipotetico-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -276,6 +278,7 @@ const lessons = [
   { ...trapassato, strings: { it: trapassato.it, ...trapassatoI18n } },
   { ...condPassato, strings: { it: condPassato.it, ...condPassatoI18n } },
   { ...congPassato, strings: { it: congPassato.it, ...congPassatoI18n } },
+  { ...ipotetico, strings: { it: ipotetico.it, ...ipoteticoI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

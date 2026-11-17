@@ -34,6 +34,7 @@ import { ERRORS_PARTITIVI } from './confronti-partitivi.mjs';
 import { ERRORS_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 import { ERRORS_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
 import { ERRORS_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
+import { ERRORS_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1012,3 +1013,5 @@ Object.assign(ERRORS, ERRORS_PIACERE_TRAPASSATO);
 
 // Lezioni del 2026-11-17, in un file a parte.
 Object.assign(ERRORS, ERRORS_CONDIZIONALE_CONGIUNTIVO);
+
+Object.assign(ERRORS, ERRORS_PERIODO_IPOTETICO);
