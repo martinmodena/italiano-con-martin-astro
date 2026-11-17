@@ -1,0 +1,1592 @@
+{
+  "id": "il-topo-di-citta-e-il-topo-di-campagna",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il topo",
+      "forme": [
+        "topo",
+        "topi"
+      ],
+      "esempi": [
+        "Il gatto corre dietro al topo.",
+        "In cantina ci sono i topi.",
+        "Topolino è il topo più famoso del mondo."
+      ],
+      "traduzioni": {
+        "en": "mouse («The Town Mouse and the Country Mouse»)",
+        "es": "ratón («El ratón de campo y el ratón de ciudad»)",
+        "pt": "rato («O rato do campo e o rato da cidade»)",
+        "fr": "rat, souris («Le Rat de ville et le Rat des champs», La Fontaine)",
+        "cs": "myš",
+        "pl": "mysz",
+        "tr": "fare",
+        "de": "Maus («Die Stadtmaus und die Feldmaus»)",
+        "ja": "ねずみ（「いなかのネズミと町のネズミ」）"
+      }
+    },
+    {
+      "parola": "la campagna",
+      "forme": [
+        "campagna"
+      ],
+      "esempi": [
+        "I miei nonni abitano in campagna.",
+        "Il fine settimana andiamo in campagna.",
+        "In campagna si dorme bene."
+      ],
+      "traduzioni": {
+        "en": "country, countryside",
+        "es": "campo",
+        "pt": "campo, interior",
+        "fr": "campagne",
+        "cs": "venkov",
+        "pl": "wieś",
+        "tr": "kırsal, köy",
+        "de": "Land",
+        "ja": "いなか"
+      }
+    },
+    {
+      "parola": "la città",
+      "forme": [
+        "città"
+      ],
+      "esempi": [
+        "Firenze è una città bellissima.",
+        "Lavoro in città, ma vivo in campagna.",
+        "In città c'è sempre traffico."
+      ],
+      "traduzioni": {
+        "en": "town, city",
+        "es": "ciudad",
+        "pt": "cidade",
+        "fr": "ville",
+        "cs": "město",
+        "pl": "miasto",
+        "tr": "şehir",
+        "de": "Stadt",
+        "ja": "町、都会"
+      }
+    },
+    {
+      "parola": "il campo",
+      "forme": [
+        "campo"
+      ],
+      "esempi": [
+        "Il contadino lavora nel campo.",
+        "Dietro la casa c'è un campo di grano.",
+        "I bambini corrono nel campo."
+      ],
+      "traduzioni": {
+        "en": "field",
+        "es": "campo",
+        "pt": "campo",
+        "fr": "champ",
+        "cs": "pole",
+        "pl": "pole",
+        "tr": "tarla",
+        "de": "Feld",
+        "ja": "畑、野原"
+      }
+    },
+    {
+      "parola": "il seme",
+      "forme": [
+        "semi"
+      ],
+      "formeEsempi": [
+        "seme"
+      ],
+      "esempi": [
+        "I semi di girasole sono buoni.",
+        "Pianto un seme in un vaso.",
+        "Gli uccellini mangiano i semi."
+      ],
+      "traduzioni": {
+        "en": "seed",
+        "es": "semilla",
+        "pt": "semente",
+        "fr": "graine",
+        "cs": "semínko",
+        "pl": "nasiono, ziarno",
+        "tr": "tohum",
+        "de": "Samen, Korn",
+        "ja": "種"
+      }
+    },
+    {
+      "parola": "la frutta",
+      "forme": [
+        "frutta"
+      ],
+      "esempi": [
+        "Mangio frutta ogni mattina.",
+        "La frutta d'estate è dolcissima.",
+        "Compro la frutta al mercato."
+      ],
+      "traduzioni": {
+        "en": "fruit",
+        "es": "fruta",
+        "pt": "fruta",
+        "fr": "fruits",
+        "cs": "ovoce",
+        "pl": "owoce",
+        "tr": "meyve",
+        "de": "Obst",
+        "ja": "果物"
+      }
+    },
+    {
+      "parola": "semplice",
+      "forme": [
+        "semplice"
+      ],
+      "esempi": [
+        "Questo esercizio è semplice.",
+        "Preferisco una cena semplice con gli amici.",
+        "La ricetta è molto semplice."
+      ],
+      "traduzioni": {
+        "en": "simple",
+        "es": "sencillo",
+        "pt": "simples",
+        "fr": "simple",
+        "cs": "jednoduchý, prostý",
+        "pl": "prosty",
+        "tr": "sade, basit",
+        "de": "einfach",
+        "ja": "質素な、簡単な"
+      }
+    },
+    {
+      "parola": "tranquillo",
+      "forme": [
+        "tranquilla",
+        "tranquillo"
+      ],
+      "esempi": [
+        "Abito in una strada tranquilla.",
+        "Stai tranquillo, va tutto bene.",
+        "Il mare oggi è tranquillo."
+      ],
+      "traduzioni": {
+        "en": "calm, peaceful",
+        "es": "tranquilo",
+        "pt": "tranquilo",
+        "fr": "tranquille, calme",
+        "cs": "klidný",
+        "pl": "spokojny",
+        "tr": "sakin, huzurlu",
+        "de": "ruhig",
+        "ja": "おだやかな、静かな"
+      }
+    },
+    {
+      "parola": "il cugino",
+      "forme": [
+        "cugino"
+      ],
+      "formeEsempi": [
+        "cugina",
+        "cugini"
+      ],
+      "esempi": [
+        "Mio cugino abita a Torino.",
+        "Ho tanti cugini in Sicilia.",
+        "Mia cugina si sposa a giugno."
+      ],
+      "traduzioni": {
+        "en": "cousin",
+        "es": "primo",
+        "pt": "primo",
+        "fr": "cousin",
+        "cs": "bratranec",
+        "pl": "kuzyn",
+        "tr": "kuzen",
+        "de": "Cousin, Vetter",
+        "ja": "いとこ"
+      }
+    },
+    {
+      "parola": "il cibo",
+      "forme": [
+        "cibo",
+        "cibi"
+      ],
+      "esempi": [
+        "Il cibo italiano è famoso.",
+        "Non sprecare il cibo!",
+        "In questo mercato ci sono cibi di tutto il mondo."
+      ],
+      "traduzioni": {
+        "en": "food",
+        "es": "comida",
+        "pt": "comida",
+        "fr": "nourriture",
+        "cs": "jídlo",
+        "pl": "jedzenie",
+        "tr": "yiyecek, yemek",
+        "de": "Essen",
+        "ja": "食べもの"
+      }
+    },
+    {
+      "parola": "il formaggio",
+      "forme": [
+        "formaggio",
+        "formaggi"
+      ],
+      "esempi": [
+        "Il parmigiano è un formaggio italiano.",
+        "Vuoi formaggio sulla pasta?",
+        "In Italia ci sono centinaia di formaggi."
+      ],
+      "traduzioni": {
+        "en": "cheese",
+        "es": "queso",
+        "pt": "queijo",
+        "fr": "fromage",
+        "cs": "sýr",
+        "pl": "ser",
+        "tr": "peynir",
+        "de": "Käse",
+        "ja": "チーズ"
+      }
+    },
+    {
+      "parola": "il dolce",
+      "forme": [
+        "dolci"
+      ],
+      "formeEsempi": [
+        "dolce"
+      ],
+      "esempi": [
+        "Mi piacciono i dolci al cioccolato.",
+        "Il tiramisù è un dolce italiano.",
+        "Per dolce prendo un gelato."
+      ],
+      "traduzioni": {
+        "en": "dessert, sweet",
+        "es": "dulce, postre",
+        "pt": "doce, sobremesa",
+        "fr": "dessert, gâteau",
+        "cs": "sladkost, dezert",
+        "pl": "słodycze, deser",
+        "tr": "tatlı",
+        "de": "Süßigkeit, Nachtisch",
+        "ja": "お菓子、デザート"
+      }
+    },
+    {
+      "parola": "iniziare",
+      "forme": [
+        "iniziano"
+      ],
+      "formeEsempi": [
+        "inizia",
+        "inizio"
+      ],
+      "esempi": [
+        "Le lezioni iniziano a settembre.",
+        "Il film inizia alle nove.",
+        "Inizio a lavorare alle otto."
+      ],
+      "traduzioni": {
+        "en": "to begin, to start",
+        "es": "empezar",
+        "pt": "começar",
+        "fr": "commencer",
+        "cs": "začít",
+        "pl": "zacząć",
+        "tr": "başlamak",
+        "de": "anfangen",
+        "ja": "始める"
+      }
+    },
+    {
+      "parola": "il rumore",
+      "forme": [
+        "rumore"
+      ],
+      "esempi": [
+        "C'è troppo rumore qui.",
+        "Ho sentito un rumore strano.",
+        "Non fare rumore, il bambino dorme."
+      ],
+      "traduzioni": {
+        "en": "noise",
+        "es": "ruido",
+        "pt": "barulho",
+        "fr": "bruit",
+        "cs": "hluk, zvuk",
+        "pl": "hałas, odgłos",
+        "tr": "ses, gürültü",
+        "de": "Geräusch, Lärm",
+        "ja": "物音"
+      }
+    },
+    {
+      "parola": "scappare",
+      "forme": [
+        "scappano"
+      ],
+      "formeEsempi": [
+        "scappa",
+        "scappo"
+      ],
+      "esempi": [
+        "Il gatto scappa sotto il letto.",
+        "Scusa, scappo: il treno parte!",
+        "Quando arriva il cane, gli uccelli scappano."
+      ],
+      "traduzioni": {
+        "en": "to run away",
+        "es": "escapar, huir",
+        "pt": "fugir",
+        "fr": "s’enfuir, se sauver",
+        "cs": "utéct",
+        "pl": "uciec",
+        "tr": "kaçmak",
+        "de": "weglaufen",
+        "ja": "逃げる"
+      }
+    },
+    {
+      "parola": "la paura",
+      "forme": [
+        "paura"
+      ],
+      "esempi": [
+        "Ho paura del buio.",
+        "Non avere paura, sono qui.",
+        "Che paura quel film!"
+      ],
+      "traduzioni": {
+        "en": "fear («avere paura» = to be afraid)",
+        "es": "miedo («avere paura» = tener miedo)",
+        "pt": "medo («avere paura» = ter medo)",
+        "fr": "peur («avere paura» = avoir peur)",
+        "cs": "strach («avere paura» = bát se)",
+        "pl": "strach («avere paura» = bać się)",
+        "tr": "korku («avere paura» = korkmak)",
+        "de": "Angst («avere paura» = Angst haben)",
+        "ja": "こわさ（«avere paura» = こわがる）"
+      }
+    },
+    {
+      "parola": "preferire",
+      "forme": [
+        "preferisco",
+        "preferito"
+      ],
+      "formeEsempi": [
+        "preferisci"
+      ],
+      "esempi": [
+        "Preferisco il tè al caffè.",
+        "Preferisci il mare o la montagna?",
+        "Ho preferito restare a casa."
+      ],
+      "traduzioni": {
+        "en": "to prefer, to choose",
+        "es": "preferir",
+        "pt": "preferir",
+        "fr": "préférer",
+        "cs": "dát přednost, raději",
+        "pl": "woleć",
+        "tr": "tercih etmek",
+        "de": "lieber mögen, vorziehen",
+        "ja": "〜のほうがいい"
+      }
+    },
+    {
+      "parola": "la pace",
+      "forme": [
+        "pace"
+      ],
+      "esempi": [
+        "Lasciami in pace!",
+        "Al mare trovo un po' di pace.",
+        "Tutti vogliamo la pace nel mondo."
+      ],
+      "traduzioni": {
+        "en": "peace",
+        "es": "paz",
+        "pt": "paz",
+        "fr": "paix",
+        "cs": "klid, mír",
+        "pl": "spokój, pokój",
+        "tr": "huzur, barış",
+        "de": "Ruhe, Frieden",
+        "ja": "平和、安らぎ"
+      }
+    },
+    {
+      "parola": "felice",
+      "forme": [
+        "felice"
+      ],
+      "esempi": [
+        "Sono felice di vederti!",
+        "Il bambino è felice con il suo cane.",
+        "Buon compleanno, ti auguro una vita felice."
+      ],
+      "traduzioni": {
+        "en": "happy",
+        "es": "feliz",
+        "pt": "feliz",
+        "fr": "heureux",
+        "cs": "šťastný",
+        "pl": "szczęśliwy",
+        "tr": "mutlu",
+        "de": "glücklich",
+        "ja": "幸せな"
+      }
+    },
+    {
+      "parola": "sereno",
+      "forme": [
+        "sereno"
+      ],
+      "formeEsempi": [
+        "serena"
+      ],
+      "esempi": [
+        "Oggi il cielo è sereno.",
+        "Dopo le vacanze sono più sereno.",
+        "Mia nonna ha un carattere sereno."
+      ],
+      "traduzioni": {
+        "en": "calm, content; clear (sky)",
+        "es": "sereno, tranquilo",
+        "pt": "sereno, tranquilo",
+        "fr": "serein",
+        "cs": "klidný, vyrovnaný",
+        "pl": "pogodny, spokojny",
+        "tr": "huzurlu; açık (hava)",
+        "de": "gelassen, zufrieden; heiter",
+        "ja": "心おだやかな、晴れた"
+      }
+    },
+    {
+      "parola": "ricevere",
+      "forme": [
+        "ricevuto"
+      ],
+      "formeEsempi": [
+        "ricevo"
+      ],
+      "esempi": [
+        "Ho ricevuto il tuo messaggio.",
+        "Ricevo molte email ogni giorno.",
+        "Abbiamo ricevuto la visita dei nonni."
+      ],
+      "traduzioni": {
+        "en": "to receive, to get",
+        "es": "recibir",
+        "pt": "receber",
+        "fr": "recevoir",
+        "cs": "dostat, přijmout",
+        "pl": "otrzymać, dostać",
+        "tr": "almak, kabul etmek",
+        "de": "bekommen, empfangen",
+        "ja": "受け取る、迎える"
+      }
+    },
+    {
+      "parola": "la visita",
+      "forme": [
+        "visita"
+      ],
+      "esempi": [
+        "Domani vado in visita dai nonni.",
+        "Grazie per la visita!",
+        "Ho una visita dal medico alle tre."
+      ],
+      "traduzioni": {
+        "en": "visit",
+        "es": "visita",
+        "pt": "visita",
+        "fr": "visite",
+        "cs": "návštěva",
+        "pl": "wizyta, odwiedziny",
+        "tr": "ziyaret",
+        "de": "Besuch",
+        "ja": "訪問"
+      }
+    },
+    {
+      "parola": "offrire",
+      "forme": [
+        "offerto"
+      ],
+      "formeEsempi": [
+        "offro",
+        "offre"
+      ],
+      "esempi": [
+        "Ti offro un caffè.",
+        "Mi ha offerto un passaggio in macchina.",
+        "La signora offre biscotti a tutti."
+      ],
+      "traduzioni": {
+        "en": "to offer, to treat",
+        "es": "ofrecer, invitar",
+        "pt": "oferecer",
+        "fr": "offrir",
+        "cs": "nabídnout",
+        "pl": "zaproponować, poczęstować",
+        "tr": "ikram etmek, sunmak",
+        "de": "anbieten",
+        "ja": "すすめる、ごちそうする"
+      }
+    },
+    {
+      "parola": "secco",
+      "forme": [
+        "secco"
+      ],
+      "formeEsempi": [
+        "secca"
+      ],
+      "esempi": [
+        "Il pane di ieri è secco.",
+        "D'estate l'erba diventa secca.",
+        "Preferisco il vino secco."
+      ],
+      "traduzioni": {
+        "en": "dry, stale",
+        "es": "seco, duro",
+        "pt": "seco, duro",
+        "fr": "sec, rassis",
+        "cs": "suchý, okoralý",
+        "pl": "suchy, czerstwy",
+        "tr": "kuru, bayat",
+        "de": "trocken, altbacken",
+        "ja": "かたくなった、乾いた"
+      }
+    },
+    {
+      "parola": "abituato",
+      "forme": [
+        "abituato"
+      ],
+      "formeEsempi": [
+        "abituata"
+      ],
+      "esempi": [
+        "Sono abituato ad alzarmi presto.",
+        "Non è abituata al freddo.",
+        "Il cane è abituato a dormire sul divano."
+      ],
+      "traduzioni": {
+        "en": "used to",
+        "es": "acostumbrado",
+        "pt": "acostumado",
+        "fr": "habitué",
+        "cs": "zvyklý",
+        "pl": "przyzwyczajony",
+        "tr": "alışkın",
+        "de": "gewöhnt",
+        "ja": "慣れている"
+      }
+    },
+    {
+      "parola": "povero",
+      "forme": [
+        "povero"
+      ],
+      "formeEsempi": [
+        "povera",
+        "poveri"
+      ],
+      "esempi": [
+        "È un paese povero.",
+        "Povero gatto, ha fame!",
+        "La cena era povera: solo pane e acqua."
+      ],
+      "traduzioni": {
+        "en": "poor, meagre",
+        "es": "pobre",
+        "pt": "pobre",
+        "fr": "pauvre, maigre",
+        "cs": "chudý, skromný",
+        "pl": "biedny, ubogi",
+        "tr": "fakir, yoksul",
+        "de": "arm, ärmlich",
+        "ja": "貧しい、粗末な"
+      }
+    },
+    {
+      "parola": "la torta",
+      "forme": [
+        "torte"
+      ],
+      "formeEsempi": [
+        "torta"
+      ],
+      "esempi": [
+        "Mia madre fa una torta di mele.",
+        "In pasticceria ci sono tante torte.",
+        "Una fetta di torta, per favore."
+      ],
+      "traduzioni": {
+        "en": "cake",
+        "es": "tarta, pastel",
+        "pt": "bolo, torta",
+        "fr": "gâteau, tarte",
+        "cs": "dort, koláč",
+        "pl": "ciasto, tort",
+        "tr": "pasta",
+        "de": "Kuchen, Torte",
+        "ja": "ケーキ"
+      }
+    },
+    {
+      "parola": "gli avanzi",
+      "forme": [
+        "avanzi"
+      ],
+      "esempi": [
+        "Stasera mangiamo gli avanzi di ieri.",
+        "Non buttare gli avanzi: domani li mangiamo.",
+        "Con gli avanzi faccio una frittata."
+      ],
+      "traduzioni": {
+        "en": "leftovers",
+        "es": "sobras",
+        "pt": "sobras, restos",
+        "fr": "restes",
+        "cs": "zbytky",
+        "pl": "resztki",
+        "tr": "artıklar",
+        "de": "Reste",
+        "ja": "残りもの"
+      }
+    },
+    {
+      "parola": "delizioso",
+      "forme": [
+        "deliziosi"
+      ],
+      "formeEsempi": [
+        "delizioso",
+        "deliziosa"
+      ],
+      "esempi": [
+        "Questa torta è deliziosa.",
+        "Il pranzo era delizioso.",
+        "In Puglia ho mangiato piatti deliziosi."
+      ],
+      "traduzioni": {
+        "en": "delicious",
+        "es": "delicioso",
+        "pt": "delicioso",
+        "fr": "délicieux",
+        "cs": "lahodný",
+        "pl": "pyszny",
+        "tr": "çok lezzetli",
+        "de": "köstlich",
+        "ja": "とてもおいしい"
+      }
+    },
+    {
+      "parola": "seguire",
+      "forme": [
+        "seguirlo"
+      ],
+      "formeEsempi": [
+        "segue",
+        "seguimi"
+      ],
+      "esempi": [
+        "Seguimi, ti mostro la strada.",
+        "Il cane segue il padrone dappertutto.",
+        "Parla troppo veloce: non riesco a seguirlo."
+      ],
+      "traduzioni": {
+        "en": "to follow",
+        "es": "seguir",
+        "pt": "seguir",
+        "fr": "suivre",
+        "cs": "následovat",
+        "pl": "pójść za",
+        "tr": "peşinden gitmek",
+        "de": "folgen",
+        "ja": "ついて行く"
+      }
+    },
+    {
+      "parola": "la tavola",
+      "forme": [
+        "tavola"
+      ],
+      "esempi": [
+        "A tavola, la cena è pronta!",
+        "Apparecchio la tavola per sei.",
+        "La tavola è piena di cose buone."
+      ],
+      "traduzioni": {
+        "en": "table (set for a meal)",
+        "es": "mesa",
+        "pt": "mesa",
+        "fr": "table",
+        "cs": "stůl, tabule",
+        "pl": "stół",
+        "tr": "sofra",
+        "de": "Tisch, Tafel",
+        "ja": "食卓"
+      }
+    },
+    {
+      "parola": "pieno",
+      "forme": [
+        "piena"
+      ],
+      "formeEsempi": [
+        "pieno"
+      ],
+      "esempi": [
+        "Il bicchiere è pieno.",
+        "La piazza è piena di gente.",
+        "Grazie, sono pieno: non mangio più."
+      ],
+      "traduzioni": {
+        "en": "full",
+        "es": "lleno",
+        "pt": "cheio",
+        "fr": "plein",
+        "cs": "plný",
+        "pl": "pełny",
+        "tr": "dolu",
+        "de": "voll",
+        "ja": "いっぱいの"
+      }
+    },
+    {
+      "parola": "appena",
+      "forme": [
+        "appena"
+      ],
+      "esempi": [
+        "Appena arrivo, ti chiamo.",
+        "Sono appena tornato dal lavoro.",
+        "Appena ha visto il cane, è scappato."
+      ],
+      "traduzioni": {
+        "en": "as soon as; just",
+        "es": "en cuanto; acabar de",
+        "pt": "assim que; acabar de",
+        "fr": "dès que; juste",
+        "cs": "jakmile; právě",
+        "pl": "jak tylko; właśnie",
+        "tr": "-ir -mez; az önce",
+        "de": "sobald; gerade",
+        "ja": "〜するとすぐ、〜したばかり"
+      }
+    },
+    {
+      "parola": "la stanza",
+      "forme": [
+        "stanza"
+      ],
+      "esempi": [
+        "La mia stanza è piccola ma luminosa.",
+        "Esco dalla stanza un attimo.",
+        "Questa stanza è troppo calda."
+      ],
+      "traduzioni": {
+        "en": "room",
+        "es": "habitación",
+        "pt": "quarto, cômodo",
+        "fr": "pièce, chambre",
+        "cs": "pokoj, místnost",
+        "pl": "pokój",
+        "tr": "oda",
+        "de": "Zimmer, Raum",
+        "ja": "部屋"
+      }
+    },
+    {
+      "parola": "nascondersi",
+      "forme": [
+        "nascondersi"
+      ],
+      "formeEsempi": [
+        "nascondo",
+        "nasconde",
+        "nascondi"
+      ],
+      "esempi": [
+        "Il gatto si nasconde sotto il letto.",
+        "Dove ti nascondi?",
+        "I bambini giocano a nascondersi in giardino."
+      ],
+      "traduzioni": {
+        "en": "to hide",
+        "es": "esconderse",
+        "pt": "esconder-se",
+        "fr": "se cacher",
+        "cs": "schovat se",
+        "pl": "schować się",
+        "tr": "saklanmak",
+        "de": "sich verstecken",
+        "ja": "かくれる"
+      }
+    },
+    {
+      "parola": "modesto",
+      "forme": [
+        "modesto"
+      ],
+      "formeEsempi": [
+        "modesta"
+      ],
+      "esempi": [
+        "Vive in una casa modesta.",
+        "Ha uno stipendio modesto.",
+        "È famoso, ma è una persona modesta."
+      ],
+      "traduzioni": {
+        "en": "modest, simple",
+        "es": "modesto, sencillo",
+        "pt": "modesto, simples",
+        "fr": "modeste",
+        "cs": "skromný",
+        "pl": "skromny",
+        "tr": "mütevazı, sade",
+        "de": "bescheiden",
+        "ja": "ささやかな、つつましい"
+      }
+    },
+    {
+      "parola": "il cuore",
+      "forme": [
+        "cuore"
+      ],
+      "esempi": [
+        "Ti ringrazio di cuore.",
+        "Il cuore batte forte.",
+        "Ha un cuore d'oro."
+      ],
+      "traduzioni": {
+        "en": "heart",
+        "es": "corazón",
+        "pt": "coração",
+        "fr": "cœur",
+        "cs": "srdce",
+        "pl": "serce",
+        "tr": "kalp, gönül",
+        "de": "Herz",
+        "ja": "心"
+      }
+    },
+    {
+      "parola": "giudicare",
+      "forme": [
+        "giudicato"
+      ],
+      "formeEsempi": [
+        "giudicare"
+      ],
+      "esempi": [
+        "Non giudicare le persone dall'aspetto.",
+        "L'ho giudicato antipatico, ma mi sbagliavo.",
+        "Il pubblico ha giudicato il film noioso."
+      ],
+      "traduzioni": {
+        "en": "to judge, to consider",
+        "es": "juzgar, considerar",
+        "pt": "julgar, considerar",
+        "fr": "juger",
+        "cs": "posoudit, považovat",
+        "pl": "ocenić, uznać",
+        "tr": "yargılamak, saymak",
+        "de": "beurteilen, halten für",
+        "ja": "判断する、決めつける"
+      }
+    },
+    {
+      "parola": "il modo di vivere",
+      "forme": [
+        "modo"
+      ],
+      "esempi": [
+        "Mi piace il modo di vivere italiano.",
+        "Ognuno ha il suo modo di vivere.",
+        "Non c'è modo di convincerlo."
+      ],
+      "traduzioni": {
+        "en": "way of life («modo» = way)",
+        "es": "modo de vida, forma de vivir",
+        "pt": "modo de vida",
+        "fr": "mode de vie",
+        "cs": "způsob života",
+        "pl": "styl życia",
+        "tr": "yaşam tarzı",
+        "de": "Lebensweise",
+        "ja": "暮らし方"
+      }
+    },
+    {
+      "parola": "il pasto",
+      "forme": [
+        "pasto"
+      ],
+      "esempi": [
+        "La colazione è il pasto più importante.",
+        "Bevo un bicchiere d'acqua prima del pasto.",
+        "Facciamo tre pasti al giorno."
+      ],
+      "traduzioni": {
+        "en": "meal",
+        "es": "comida",
+        "pt": "refeição",
+        "fr": "repas",
+        "cs": "jídlo",
+        "pl": "posiłek",
+        "tr": "öğün, yemek",
+        "de": "Mahlzeit",
+        "ja": "食事"
+      },
+      "formeEsempi": [
+        "pasti"
+      ]
+    },
+    {
+      "parola": "duro",
+      "forme": [
+        "duro"
+      ],
+      "formeEsempi": [
+        "dura"
+      ],
+      "esempi": [
+        "Il pane è duro: è di tre giorni fa.",
+        "Questo letto è troppo duro.",
+        "È stata una giornata dura."
+      ],
+      "traduzioni": {
+        "en": "hard, stale",
+        "es": "duro",
+        "pt": "duro",
+        "fr": "dur, rassis",
+        "cs": "tvrdý",
+        "pl": "twardy",
+        "tr": "sert, bayat",
+        "de": "hart",
+        "ja": "かたい"
+      }
+    },
+    {
+      "parola": "competere",
+      "forme": [
+        "competere"
+      ],
+      "formeEsempi": [
+        "compete"
+      ],
+      "esempi": [
+        "Il nostro negozio non può competere con internet.",
+        "Mio figlio vuole competere alle Olimpiadi.",
+        "Nessun dolce può competere con la torta della nonna."
+      ],
+      "traduzioni": {
+        "en": "to compete",
+        "es": "competir",
+        "pt": "competir",
+        "fr": "rivaliser, concourir",
+        "cs": "konkurovat, soupeřit",
+        "pl": "konkurować",
+        "tr": "rekabet etmek",
+        "de": "mithalten, konkurrieren",
+        "ja": "張り合う"
+      }
+    },
+    {
+      "parola": "la ricchezza",
+      "forme": [
+        "ricchezze"
+      ],
+      "formeEsempi": [
+        "ricchezza"
+      ],
+      "esempi": [
+        "La salute è la vera ricchezza.",
+        "Il museo mostra le ricchezze dei re.",
+        "La sua ricchezza non lo rende felice."
+      ],
+      "traduzioni": {
+        "en": "wealth, riches",
+        "es": "riqueza",
+        "pt": "riqueza",
+        "fr": "richesse",
+        "cs": "bohatství",
+        "pl": "bogactwo",
+        "tr": "zenginlik",
+        "de": "Reichtum",
+        "ja": "富、ぜいたく"
+      }
+    },
+    {
+      "parola": "accompagnare",
+      "forme": [
+        "accompagnato"
+      ],
+      "formeEsempi": [
+        "accompagno",
+        "accompagnata"
+      ],
+      "esempi": [
+        "Ti accompagno alla stazione.",
+        "Mio padre mi ha accompagnato a scuola.",
+        "La pasta è accompagnata da un'insalata."
+      ],
+      "traduzioni": {
+        "en": "to go with, to accompany",
+        "es": "acompañar",
+        "pt": "acompanhar",
+        "fr": "accompagner",
+        "cs": "doprovodit",
+        "pl": "towarzyszyć, odprowadzić",
+        "tr": "eşlik etmek",
+        "de": "begleiten",
+        "ja": "連れていく、ともなう"
+      }
+    },
+    {
+      "parola": "elegante",
+      "forme": [
+        "elegante"
+      ],
+      "esempi": [
+        "Stasera mi vesto elegante.",
+        "È un ristorante molto elegante.",
+        "Mia zia è sempre elegante."
+      ],
+      "traduzioni": {
+        "en": "elegant, smart",
+        "es": "elegante",
+        "pt": "elegante, chique",
+        "fr": "élégant",
+        "cs": "elegantní",
+        "pl": "elegancki",
+        "tr": "şık, zarif",
+        "de": "elegant",
+        "ja": "上品な、豪華な"
+      }
+    },
+    {
+      "parola": "assaggiare",
+      "forme": [
+        "assaggiato"
+      ],
+      "formeEsempi": [
+        "assaggia"
+      ],
+      "esempi": [
+        "Assaggia questo vino!",
+        "Non ho mai assaggiato la cucina giapponese.",
+        "Hai assaggiato il pesto?"
+      ],
+      "traduzioni": {
+        "en": "to taste, to try",
+        "es": "probar",
+        "pt": "provar",
+        "fr": "goûter",
+        "cs": "ochutnat",
+        "pl": "spróbować",
+        "tr": "tatmak",
+        "de": "probieren, kosten",
+        "ja": "味わう"
+      }
+    },
+    {
+      "parola": "la meraviglia",
+      "forme": [
+        "meraviglia"
+      ],
+      "esempi": [
+        "Che meraviglia questo panorama!",
+        "I bambini guardano con meraviglia.",
+        "Venezia è una meraviglia."
+      ],
+      "traduzioni": {
+        "en": "wonder, amazement",
+        "es": "maravilla, asombro",
+        "pt": "maravilha, encanto",
+        "fr": "émerveillement, merveille",
+        "cs": "úžas, nádhera",
+        "pl": "zachwyt, cud",
+        "tr": "hayranlık, harika",
+        "de": "Staunen, Wunder",
+        "ja": "驚き、すばらしさ"
+      }
+    },
+    {
+      "parola": "durare",
+      "forme": [
+        "durata"
+      ],
+      "formeEsempi": [
+        "dura"
+      ],
+      "esempi": [
+        "Il film dura due ore.",
+        "La festa è durata fino a mezzanotte.",
+        "La gioia è durata poco."
+      ],
+      "traduzioni": {
+        "en": "to last",
+        "es": "durar",
+        "pt": "durar",
+        "fr": "durer",
+        "cs": "trvat",
+        "pl": "trwać",
+        "tr": "sürmek",
+        "de": "dauern",
+        "ja": "続く"
+      }
+    },
+    {
+      "parola": "improvviso",
+      "forme": [
+        "improvviso"
+      ],
+      "formeEsempi": [
+        "improvvisa"
+      ],
+      "esempi": [
+        "È arrivato un temporale improvviso.",
+        "All'improvviso è andata via la luce.",
+        "Ho avuto un'idea improvvisa."
+      ],
+      "traduzioni": {
+        "en": "sudden («all'improvviso» = suddenly)",
+        "es": "repentino, de repente",
+        "pt": "repentino, de repente",
+        "fr": "soudain",
+        "cs": "náhlý",
+        "pl": "nagły",
+        "tr": "ani",
+        "de": "plötzlich",
+        "ja": "突然の"
+      }
+    },
+    {
+      "parola": "pesante",
+      "forme": [
+        "pesanti"
+      ],
+      "formeEsempi": [
+        "pesante"
+      ],
+      "esempi": [
+        "Questa valigia è pesante.",
+        "Ho sentito passi pesanti sulle scale.",
+        "Le lasagne sono un piatto pesante."
+      ],
+      "traduzioni": {
+        "en": "heavy",
+        "es": "pesado",
+        "pt": "pesado",
+        "fr": "lourd",
+        "cs": "těžký",
+        "pl": "ciężki",
+        "tr": "ağır",
+        "de": "schwer",
+        "ja": "重い"
+      }
+    },
+    {
+      "parola": "il banchetto",
+      "forme": [
+        "banchetto"
+      ],
+      "esempi": [
+        "Al matrimonio c'era un grande banchetto.",
+        "Il re ha preparato un banchetto per gli ospiti.",
+        "Che banchetto: c'è cibo per cento persone!"
+      ],
+      "traduzioni": {
+        "en": "feast, banquet",
+        "es": "banquete, festín",
+        "pt": "banquete",
+        "fr": "festin, banquet",
+        "cs": "hostina",
+        "pl": "uczta, bankiet",
+        "tr": "ziyafet",
+        "de": "Festmahl",
+        "ja": "ごちそう、宴会"
+      }
+    },
+    {
+      "parola": "la fuga",
+      "forme": [
+        "fuga"
+      ],
+      "esempi": [
+        "Il ladro è in fuga.",
+        "Una fuga romantica a Parigi!",
+        "Il gatto ha visto il cane ed è stata una fuga."
+      ],
+      "traduzioni": {
+        "en": "escape, flight",
+        "es": "huida, fuga",
+        "pt": "fuga",
+        "fr": "fuite",
+        "cs": "útěk",
+        "pl": "ucieczka",
+        "tr": "kaçış",
+        "de": "Flucht",
+        "ja": "逃走"
+      }
+    },
+    {
+      "parola": "il lusso",
+      "forme": [
+        "lusso"
+      ],
+      "esempi": [
+        "Dormiamo in un albergo di lusso.",
+        "Un caffè al bar è il mio piccolo lusso.",
+        "Non ho bisogno di lusso per essere felice."
+      ],
+      "traduzioni": {
+        "en": "luxury",
+        "es": "lujo",
+        "pt": "luxo",
+        "fr": "luxe",
+        "cs": "přepych, luxus",
+        "pl": "luksus",
+        "tr": "lüks",
+        "de": "Luxus",
+        "ja": "ぜいたく"
+      }
+    },
+    {
+      "parola": "il valore",
+      "forme": [
+        "valore"
+      ],
+      "esempi": [
+        "Questo anello ha un grande valore.",
+        "L'amicizia è un valore importante.",
+        "La casa ha perso valore."
+      ],
+      "traduzioni": {
+        "en": "value, worth",
+        "es": "valor",
+        "pt": "valor",
+        "fr": "valeur",
+        "cs": "hodnota",
+        "pl": "wartość",
+        "tr": "değer",
+        "de": "Wert",
+        "ja": "価値"
+      }
+    },
+    {
+      "parola": "scegliere",
+      "forme": [
+        "scelto"
+      ],
+      "formeEsempi": [
+        "scelgo"
+      ],
+      "esempi": [
+        "Scelgo il gelato al limone.",
+        "Hai scelto il regalo?",
+        "Ho scelto di vivere al mare."
+      ],
+      "traduzioni": {
+        "en": "to choose",
+        "es": "elegir",
+        "pt": "escolher",
+        "fr": "choisir",
+        "cs": "zvolit, vybrat si",
+        "pl": "wybrać",
+        "tr": "seçmek",
+        "de": "wählen, sich entscheiden",
+        "ja": "選ぶ"
+      }
+    },
+    {
+      "parola": "il rifugio",
+      "forme": [
+        "rifugio"
+      ],
+      "esempi": [
+        "In montagna dormiamo in un rifugio.",
+        "La mia camera è il mio rifugio.",
+        "Durante la pioggia cerchiamo un rifugio."
+      ],
+      "traduzioni": {
+        "en": "refuge, shelter",
+        "es": "refugio",
+        "pt": "refúgio, abrigo",
+        "fr": "refuge, abri",
+        "cs": "útočiště",
+        "pl": "schronienie",
+        "tr": "sığınak, yuva",
+        "de": "Zufluchtsort",
+        "ja": "すみか、避難所"
+      }
+    },
+    {
+      "parola": "la semplicità",
+      "forme": [
+        "semplicità"
+      ],
+      "esempi": [
+        "Mi piace la semplicità di questa casa.",
+        "Spiega le cose con semplicità.",
+        "La semplicità è la vera eleganza."
+      ],
+      "traduzioni": {
+        "en": "simplicity",
+        "es": "sencillez",
+        "pt": "simplicidade",
+        "fr": "simplicité",
+        "cs": "jednoduchost, prostota",
+        "pl": "prostota",
+        "tr": "sadelik",
+        "de": "Einfachheit",
+        "ja": "質素さ、シンプルさ"
+      }
+    },
+    {
+      "parola": "garantire",
+      "forme": [
+        "garantiva"
+      ],
+      "formeEsempi": [
+        "garantisco",
+        "garantisce"
+      ],
+      "esempi": [
+        "Ti garantisco che è vero.",
+        "Questa assicurazione garantisce un aiuto in viaggio.",
+        "Il vecchio lavoro mi garantiva uno stipendio sicuro."
+      ],
+      "traduzioni": {
+        "en": "to guarantee, to ensure",
+        "es": "garantizar",
+        "pt": "garantir",
+        "fr": "garantir",
+        "cs": "zaručit",
+        "pl": "zapewnić, gwarantować",
+        "tr": "garanti etmek, sağlamak",
+        "de": "garantieren, sichern",
+        "ja": "保証する、もたらす"
+      }
+    },
+    {
+      "parola": "la sicurezza",
+      "forme": [
+        "sicurezza"
+      ],
+      "esempi": [
+        "La sicurezza dei bambini è importante.",
+        "Allaccia la cintura di sicurezza.",
+        "Un lavoro fisso dà sicurezza."
+      ],
+      "traduzioni": {
+        "en": "safety, security",
+        "es": "seguridad",
+        "pt": "segurança",
+        "fr": "sécurité",
+        "cs": "bezpečí, jistota",
+        "pl": "bezpieczeństwo",
+        "tr": "güvenlik, güvence",
+        "de": "Sicherheit",
+        "ja": "安全、安心"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "A country mouse lives in a little house in a field. He eats bread, seeds and fruit. His life is simple and peaceful.",
+        "One day his cousin, the town mouse, arrives. He looks at the food and says: “In town I eat much better things. Come with me.”",
+        "The country mouse goes to town. In the big house he finds cheese, cakes and fruit. The two mice start eating, but they hear a noise. Someone comes in and the mice run away.",
+        "The country mouse is scared. He says: “I prefer a little food, but in peace.” He goes back to the field and understands that a simple life can be a happy one."
+      ],
+      "a2": [
+        "The country mouse lived on very little, but he was content. One day the town mouse came to visit, and he offered him dry bread, seeds and some fruit.",
+        "The town mouse wasn't used to such a poor lunch. He told him that in his house there were cheeses, cakes and lots of delicious leftovers.",
+        "The country mouse decided to follow him. When they got to town, they found a table full of food. But as soon as they started eating, someone came into the room.",
+        "The two mice ran off to hide. After that fright, the country mouse chose to go back to his simple life, where the food was modest but his heart was at peace."
+      ],
+      "b1": [
+        "The town mouse visited his cousin in the country and immediately judged his way of life to be poor. To him, a meal of seeds and hard bread could not compete with the riches of the town.",
+        "Won over by his words, the country mouse went with him to a big house. There he saw an elegant table, with food he had never tasted.",
+        "The wonder, however, didn't last long. A sudden noise, a door opening and heavy footsteps turned the feast into a flight.",
+        "The country mouse understood that luxury loses its value when it comes with fear. He chose to go back to his refuge, where simplicity gave him safety."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un ratón de campo vive en una casita en el campo. Come pan, semillas y fruta. Su vida es sencilla y tranquila.",
+        "Un día llega su primo, el ratón de ciudad. Mira la comida y dice: «En la ciudad como cosas mucho más ricas. Ven conmigo».",
+        "El ratón de campo va a la ciudad. En la casa grande encuentra queso, dulces y fruta. Los dos ratones empiezan a comer, pero oyen un ruido. Llega una persona y los ratones escapan.",
+        "El ratón de campo tiene miedo. Dice: «Prefiero poca comida, pero con paz». Vuelve al campo y entiende que una vida sencilla puede ser feliz."
+      ],
+      "a2": [
+        "El ratón de campo vivía con poco, pero estaba tranquilo. Un día recibió la visita del ratón de ciudad y le ofreció pan duro, semillas y alguna fruta.",
+        "El ratón de ciudad no estaba acostumbrado a una comida tan pobre. Le contó que en su casa había quesos, tartas y muchas sobras deliciosas.",
+        "El ratón de campo decidió seguirlo. Cuando llegaron a la ciudad, encontraron una mesa llena de comida. Pero, en cuanto empezaron a comer, alguien entró en la habitación.",
+        "Los dos ratones corrieron a esconderse. Después de aquel susto, el ratón de campo prefirió volver a su vida sencilla, donde la comida era modesta pero el corazón estaba tranquilo."
+      ],
+      "b1": [
+        "El ratón de ciudad visitó a su primo del campo y enseguida juzgó pobre su forma de vivir. Para él, una comida de semillas y pan duro no podía competir con las riquezas de la ciudad.",
+        "Convencido por sus palabras, el ratón de campo lo acompañó a una casa grande. Allí vio una mesa elegante, con comidas que nunca había probado.",
+        "La maravilla, sin embargo, duró poco. Un ruido repentino, una puerta abierta y unos pasos pesados convirtieron el banquete en una huida.",
+        "El ratón de campo comprendió que el lujo pierde valor cuando va acompañado del miedo. Eligió volver a su refugio, donde la sencillez le garantizaba seguridad."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Um rato do campo mora numa casinha no campo. Come pão, sementes e frutas. A vida dele é simples e tranquila.",
+        "Um dia chega o primo dele, o rato da cidade. Ele olha a comida e diz: «Na cidade eu como coisas muito mais gostosas. Venha comigo».",
+        "O rato do campo vai para a cidade. Na casa grande encontra queijo, doces e frutas. Os dois ratos começam a comer, mas ouvem um barulho. Chega uma pessoa e os ratos fogem.",
+        "O rato do campo fica com medo. Diz: «Prefiro pouca comida, mas com paz». Volta para o campo e entende que uma vida simples pode ser feliz."
+      ],
+      "a2": [
+        "O rato do campo vivia com pouco, mas era sereno. Um dia recebeu a visita do rato da cidade e ofereceu pão seco, sementes e algumas frutas.",
+        "O rato da cidade não estava acostumado a um almoço tão pobre. Contou que na casa dele havia queijos, bolos e muitas sobras deliciosas.",
+        "O rato do campo decidiu segui-lo. Quando chegaram à cidade, encontraram uma mesa cheia de comida. Mas, assim que começaram a comer, alguém entrou na sala.",
+        "Os dois ratos correram para se esconder. Depois daquele susto, o rato do campo preferiu voltar para a sua vida simples, onde a comida era modesta, mas o coração ficava tranquilo."
+      ],
+      "b1": [
+        "O rato da cidade visitou o primo do campo e logo julgou pobre o modo de vida dele. Para ele, uma refeição de sementes e pão duro não podia competir com as riquezas da cidade.",
+        "Convencido pelas palavras dele, o rato do campo o acompanhou até uma casa grande. Lá viu uma mesa elegante, com comidas que nunca tinha provado.",
+        "O encanto, porém, durou pouco. Um barulho repentino, uma porta aberta e passos pesados transformaram o banquete numa fuga.",
+        "O rato do campo entendeu que o luxo perde valor quando vem acompanhado do medo. Escolheu voltar para o seu refúgio, onde a simplicidade lhe garantia segurança."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un rat des champs vit dans une petite maison dans un champ. Il mange du pain, des graines et des fruits. Sa vie est simple et tranquille.",
+        "Un jour, son cousin, le rat de ville, arrive. Il regarde la nourriture et dit : « En ville, je mange des choses bien meilleures. Viens avec moi. »",
+        "Le rat des champs va en ville. Dans la grande maison, il trouve du fromage, des gâteaux et des fruits. Les deux rats commencent à manger, mais ils entendent un bruit. Quelqu’un arrive et les rats s’enfuient.",
+        "Le rat des champs a peur. Il dit : « Je préfère peu de nourriture, mais en paix. » Il retourne dans son champ et comprend qu’une vie simple peut être heureuse."
+      ],
+      "a2": [
+        "Le rat des champs vivait avec peu, mais il était serein. Un jour, il a reçu la visite du rat de ville et lui a offert du pain sec, des graines et quelques fruits.",
+        "Le rat de ville n’était pas habitué à un repas si pauvre. Il a raconté que chez lui, il y avait des fromages, des gâteaux et beaucoup de restes délicieux.",
+        "Le rat des champs a décidé de le suivre. Quand ils sont arrivés en ville, ils ont trouvé une table pleine de nourriture. Mais dès qu’ils ont commencé à manger, quelqu’un est entré dans la pièce.",
+        "Les deux rats ont couru se cacher. Après cette peur, le rat des champs a préféré retourner à sa vie simple, où la nourriture était modeste mais le cœur tranquille."
+      ],
+      "b1": [
+        "Le rat de ville a rendu visite à son cousin des champs et a tout de suite jugé pauvre sa façon de vivre. Pour lui, un repas de graines et de pain dur ne pouvait pas rivaliser avec les richesses de la ville.",
+        "Convaincu par ses paroles, le rat des champs l’a accompagné dans une grande maison. Là, il a vu une table élégante, avec des plats qu’il n’avait jamais goûtés.",
+        "L’émerveillement, pourtant, a été de courte durée. Un bruit soudain, une porte ouverte et des pas lourds ont transformé le festin en fuite.",
+        "Le rat des champs a compris que le luxe perd sa valeur quand il est accompagné de la peur. Il a choisi de retourner à son refuge, où la simplicité lui garantissait la sécurité."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Venkovská myš bydlí v malém domku na poli. Jí chleba, semínka a ovoce. Její život je jednoduchý a klidný.",
+        "Jednoho dne přijde její bratranec, městská myš. Podívá se na jídlo a řekne: „Ve městě jím mnohem lepší věci. Pojď se mnou.“",
+        "Venkovská myš jde do města. Ve velkém domě najde sýr, sladkosti a ovoce. Obě myši začnou jíst, ale uslyší nějaký zvuk. Přijde člověk a myši utečou.",
+        "Venkovská myš má strach. Říká: „Radši budu mít málo jídla, ale v klidu.“ Vrátí se na pole a pochopí, že jednoduchý život může být šťastný."
+      ],
+      "a2": [
+        "Venkovská myš žila skromně, ale byla spokojená. Jednoho dne ji navštívila městská myš a ona jí nabídla suchý chleba, semínka a trochu ovoce.",
+        "Městská myš nebyla zvyklá na tak chudý oběd. Vyprávěla, že u ní doma jsou sýry, dorty a spousta lahodných zbytků.",
+        "Venkovská myš se rozhodla jít s ní. Když dorazily do města, našly stůl plný jídla. Jenže jakmile začaly jíst, někdo vešel do místnosti.",
+        "Obě myši běžely se schovat. Po tom leknutí se venkovská myš raději vrátila ke svému jednoduchému životu, kde bylo jídlo skromné, ale srdce klidné."
+      ],
+      "b1": [
+        "Městská myš navštívila svou venkovskou příbuznou a hned usoudila, že žije chudě. Podle ní se jídlo ze semínek a tvrdého chleba nemohlo rovnat bohatství města.",
+        "Venkovská myš se nechala přesvědčit a doprovodila ji do velkého domu. Tam uviděla elegantní stůl s jídly, která nikdy neochutnala.",
+        "Úžas ale netrval dlouho. Náhlý zvuk, otevřené dveře a těžké kroky proměnily hostinu v útěk.",
+        "Venkovská myš pochopila, že přepych ztrácí hodnotu, když ho provází strach. Rozhodla se vrátit do svého útočiště, kde jí prostota zaručovala bezpečí."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Mysz polna mieszka w małym domku na polu. Je chleb, ziarna i owoce. Jej życie jest proste i spokojne.",
+        "Pewnego dnia przychodzi jej kuzynka, mysz miejska. Patrzy na jedzenie i mówi: „W mieście jem dużo lepsze rzeczy. Chodź ze mną”.",
+        "Mysz polna idzie do miasta. W dużym domu znajduje ser, słodycze i owoce. Dwie myszy zaczynają jeść, ale słyszą hałas. Przychodzi człowiek i myszy uciekają.",
+        "Mysz polna się boi. Mówi: „Wolę mało jedzenia, ale w spokoju”. Wraca na pole i rozumie, że proste życie może być szczęśliwe."
+      ],
+      "a2": [
+        "Mysz polna żyła skromnie, ale była spokojna. Pewnego dnia odwiedziła ją mysz miejska, a ona poczęstowała ją suchym chlebem, ziarnami i kilkoma owocami.",
+        "Mysz miejska nie była przyzwyczajona do tak ubogiego obiadu. Opowiedziała, że w jej domu są sery, ciasta i mnóstwo pysznych resztek.",
+        "Mysz polna postanowiła pójść za nią. Kiedy dotarły do miasta, znalazły stół pełen jedzenia. Ale gdy tylko zaczęły jeść, ktoś wszedł do pokoju.",
+        "Dwie myszy pobiegły się schować. Po tym strachu mysz polna wolała wrócić do swojego prostego życia, gdzie jedzenie było skromne, ale serce spokojne."
+      ],
+      "b1": [
+        "Mysz miejska odwiedziła swoją kuzynkę ze wsi i od razu uznała jej styl życia za ubogi. Według niej posiłek z ziaren i twardego chleba nie mógł konkurować z bogactwami miasta.",
+        "Przekonana jej słowami mysz polna poszła z nią do wielkiego domu. Tam zobaczyła elegancki stół z potrawami, których nigdy nie próbowała.",
+        "Zachwyt jednak nie trwał długo. Nagły hałas, otwarte drzwi i ciężkie kroki zamieniły ucztę w ucieczkę.",
+        "Mysz polna zrozumiała, że luksus traci wartość, kiedy towarzyszy mu strach. Wybrała powrót do swojego schronienia, gdzie prostota zapewniała jej bezpieczeństwo."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir köy faresi tarladaki küçük bir evde yaşıyor. Ekmek, tohum ve meyve yiyor. Hayatı sade ve huzurlu.",
+        "Bir gün kuzeni, şehir faresi geliyor. Yiyeceklere bakıyor ve «Şehirde çok daha güzel şeyler yiyorum. Benimle gel» diyor.",
+        "Köy faresi şehre gidiyor. Büyük evde peynir, tatlılar ve meyve buluyor. İki fare yemeye başlıyor ama bir ses duyuyorlar. Biri geliyor ve fareler kaçıyor.",
+        "Köy faresi korkuyor. «Az yiyecek olsun ama huzurlu olsun, bunu tercih ederim» diyor. Tarlasına dönüyor ve sade bir hayatın mutlu olabileceğini anlıyor."
+      ],
+      "a2": [
+        "Köy faresi azla yaşardı ama huzurluydu. Bir gün şehir faresi onu ziyarete geldi; o da ona kuru ekmek, tohum ve biraz meyve ikram etti.",
+        "Şehir faresi böyle yoksul bir öğle yemeğine alışkın değildi. Kendi evinde peynirler, pastalar ve bir sürü lezzetli artık olduğunu anlattı.",
+        "Köy faresi onun peşinden gitmeye karar verdi. Şehre vardıklarında yiyecek dolu bir sofra buldular. Ama yemeye başlar başlamaz odaya biri girdi.",
+        "İki fare saklanmaya koştu. O korkudan sonra köy faresi, yiyeceğin mütevazı ama gönlünün huzurlu olduğu sade hayatına dönmeyi tercih etti."
+      ],
+      "b1": [
+        "Şehir faresi köydeki kuzenini ziyaret etti ve onun yaşam tarzını hemen yoksul buldu. Ona göre tohum ve bayat ekmekten oluşan bir öğün, şehrin zenginlikleriyle yarışamazdı.",
+        "Onun sözlerine ikna olan köy faresi, onunla büyük bir eve gitti. Orada, daha önce hiç tatmadığı yiyeceklerle dolu şık bir sofra gördü.",
+        "Ama hayranlık uzun sürmedi. Ani bir ses, açılan bir kapı ve ağır adımlar ziyafeti bir kaçışa dönüştürdü.",
+        "Köy faresi, lüksün korkuyla birlikte geldiğinde değerini kaybettiğini anladı. Sadeliğin ona güvenlik sağladığı yuvasına dönmeyi seçti."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Eine Feldmaus wohnt in einem kleinen Haus auf dem Feld. Sie isst Brot, Samen und Obst. Ihr Leben ist einfach und ruhig.",
+        "Eines Tages kommt ihre Cousine, die Stadtmaus. Sie sieht das Essen an und sagt: „In der Stadt esse ich viel bessere Sachen. Komm mit mir.“",
+        "Die Feldmaus geht in die Stadt. In dem großen Haus findet sie Käse, Süßigkeiten und Obst. Die zwei Mäuse fangen an zu essen, aber sie hören ein Geräusch. Ein Mensch kommt und die Mäuse laufen weg.",
+        "Die Feldmaus hat Angst. Sie sagt: „Lieber wenig Essen, aber in Ruhe.“ Sie geht zurück auf ihr Feld und versteht, dass ein einfaches Leben glücklich sein kann."
+      ],
+      "a2": [
+        "Die Feldmaus lebte bescheiden, aber zufrieden. Eines Tages bekam sie Besuch von der Stadtmaus und bot ihr trockenes Brot, Samen und etwas Obst an.",
+        "Die Stadtmaus war an ein so ärmliches Mittagessen nicht gewöhnt. Sie erzählte, dass es bei ihr zu Hause Käse, Kuchen und viele köstliche Reste gebe.",
+        "Die Feldmaus beschloss, ihr zu folgen. Als sie in der Stadt ankamen, fanden sie einen Tisch voller Essen. Doch sobald sie zu essen begannen, kam jemand ins Zimmer.",
+        "Die zwei Mäuse rannten weg, um sich zu verstecken. Nach diesem Schreck ging die Feldmaus lieber zu ihrem einfachen Leben zurück, wo das Essen bescheiden, aber das Herz ruhig war."
+      ],
+      "b1": [
+        "Die Stadtmaus besuchte ihre Cousine auf dem Land und hielt ihre Lebensweise sofort für ärmlich. Für sie konnte eine Mahlzeit aus Samen und hartem Brot nicht mit den Reichtümern der Stadt mithalten.",
+        "Von ihren Worten überzeugt, begleitete die Feldmaus sie in ein großes Haus. Dort sah sie eine elegante Tafel mit Speisen, die sie noch nie probiert hatte.",
+        "Das Staunen dauerte jedoch nicht lange. Ein plötzliches Geräusch, eine offene Tür und schwere Schritte verwandelten das Festmahl in eine Flucht.",
+        "Die Feldmaus verstand, dass Luxus seinen Wert verliert, wenn er mit Angst einhergeht. Sie entschied sich, in ihren Zufluchtsort zurückzukehren, wo die Einfachheit ihr Sicherheit gab."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "いなかのねずみが、畑の小さな家に住んでいます。パンや種や果物を食べています。暮らしは質素で、おだやかです。",
+        "ある日、いとこの町のねずみがやって来ます。食べものを見て言います。「町では、ずっとおいしいものを食べているよ。いっしょにおいで。」",
+        "いなかのねずみは町へ行きます。大きな家で、チーズやお菓子や果物を見つけます。二匹のねずみは食べ始めますが、物音が聞こえます。人が来て、ねずみたちは逃げます。",
+        "いなかのねずみはこわくなります。「食べものは少なくても、安心して暮らせるほうがいい」と言います。畑に帰って、質素な暮らしでも幸せになれるとわかります。"
+      ],
+      "a2": [
+        "いなかのねずみは、わずかなもので暮らしていましたが、心はおだやかでした。ある日、町のねずみが訪ねてきたので、かたくなったパンと種と果物を少し出しました。",
+        "町のねずみは、こんなに粗末な食事には慣れていませんでした。自分の家にはチーズやケーキ、それにおいしい残りものがたくさんあると話しました。",
+        "いなかのねずみはついて行くことにしました。町に着くと、食べものでいっぱいの食卓がありました。ところが、食べ始めたとたん、だれかが部屋に入ってきました。",
+        "二匹のねずみは走ってかくれました。そのこわい思いのあと、いなかのねずみは、食べものはささやかでも心が落ち着く、質素な暮らしにもどることにしました。"
+      ],
+      "b1": [
+        "町のねずみは、いなかのいとこを訪ね、その暮らし方をすぐに貧しいと決めつけました。町のねずみにとって、種とかたいパンの食事は、町のぜいたくとは比べものにならなかったのです。",
+        "その言葉に説得されて、いなかのねずみは大きな家までついて行きました。そこには、食べたことのない料理が並んだ、豪華な食卓がありました。",
+        "けれども、その驚きは長く続きませんでした。突然の物音、開いたドア、重い足音で、ごちそうは逃走に変わりました。",
+        "いなかのねずみは、ぜいたくもこわさといっしょなら価値がなくなるとわかりました。そして、質素さが安心をくれる、自分のすみかへ帰ることを選びました。"
+      ]
+    }
+  }
+}
