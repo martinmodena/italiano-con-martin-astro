@@ -139,7 +139,8 @@ export const PAGES = [
   { it: 'grammatica/b1/trapassato-prossimo.html', pt: 'pt/gramatica/b1/o-trapassato-prossimo-em-italiano.html' },
   { it: 'grammatica/b1/connettivi.html', pt: 'pt/gramatica/b1/conectivos-em-italiano.html' },
   { it: 'grammatica/b1/nomi-alterati.html', pt: 'pt/gramatica/b1/diminutivos-e-aumentativos-em-italiano.html' },
-  { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html' },
+  // L'imperativo (2026-11-17): noi, Lei, Loro e il trucco aggiunti da scripts/expand-imperativo.mjs, non tradotti dallo spagnolo.
+  { it: 'grammatica/b1/imperativo.html', pt: 'pt/gramatica/b1/o-imperativo-italiano.html', own: true },
   { it: 'grammatica/b1/pronomi-combinati.html', pt: 'pt/gramatica/b1/pronomes-combinados-em-italiano.html' },
   { it: 'grammatica/b2/congiuntivo-presente.html', pt: 'pt/gramatica/b2/o-congiuntivo-presente-italiano.html' },
   { it: 'grammatica/b2/condizionale-passato.html', pt: 'pt/gramatica/b2/o-condizionale-passato-em-italiano.html' },
