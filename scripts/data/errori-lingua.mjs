@@ -34,6 +34,7 @@ import { ERRORS_PARTITIVI } from './confronti-partitivi.mjs';
 import { ERRORS_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 import { ERRORS_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
 import { ERRORS_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
+import { ERRORS_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { ERRORS_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 
 export const ERRORS = {
@@ -1015,3 +1016,4 @@ Object.assign(ERRORS, ERRORS_PIACERE_TRAPASSATO);
 Object.assign(ERRORS, ERRORS_CONDIZIONALE_CONGIUNTIVO);
 
 Object.assign(ERRORS, ERRORS_PERIODO_IPOTETICO);
+Object.assign(ERRORS, ERRORS_FUTURO_ANTERIORE);

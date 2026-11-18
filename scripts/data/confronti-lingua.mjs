@@ -25,6 +25,7 @@ import { NOTES_PARTITIVI } from './confronti-partitivi.mjs';
 import { NOTES_INDIRETTI } from './confronti-pronomi-indiretti.mjs';
 import { NOTES_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
 import { NOTES_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
+import { NOTES_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { NOTES_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 
 export const NOTES = {
@@ -3152,3 +3153,4 @@ Object.assign(NOTES, NOTES_PIACERE_TRAPASSATO);
 Object.assign(NOTES, NOTES_CONDIZIONALE_CONGIUNTIVO);
 
 Object.assign(NOTES, NOTES_PERIODO_IPOTETICO);
+Object.assign(NOTES, NOTES_FUTURO_ANTERIORE);

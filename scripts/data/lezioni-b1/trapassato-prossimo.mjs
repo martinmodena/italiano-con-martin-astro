@@ -6,12 +6,12 @@
 // essere o avere e gli accordi, le parole spia (già, non ancora, mai, appena, dopo che), il trapassato nel
 // racconto con passato prossimo e imperfetto, le trappole (in ordine si usa il passato prossimo, imperfetto o
 // trapassato, serve un altro momento passato). Nell'indice B1 sta dopo «Il condizionale presente»; il pulsante
-// finale porta ai pronomi combinati. Confronto ed errori per lingua in confronti-piacere-trapassato.mjs.
+// finale porta al futuro anteriore (dal 2026-11-18; prima ai pronomi combinati). Confronto ed errori per lingua in confronti-piacere-trapassato.mjs.
 
 export default {
   slug: 'trapassato-prossimo',
   level: 'b1',
-  next: 'pronomi-combinati',
+  next: 'futuro-anteriore',
   after: 'condizionale-presente',
   minutes: 20,
   hero: { src: 'grammatica/trapassato-prossimo-hero.webp', width: 1280, height: 720 },

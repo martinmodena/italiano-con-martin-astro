@@ -1663,4 +1663,15 @@ export const NAV_LABELS = {
     de: 'Gesprochen',
     ja: '話し言葉',
   },
+  // Futuro anteriore (B1), 2026-11-18.
+  'Ipotesi sul passato': {
+    en: 'Guesses about the past',
+    es: 'Suposiciones sobre el pasado',
+    fr: 'Suppositions sur le passé',
+    cs: 'Domněnky o minulosti',
+    pl: 'Przypuszczenia o przeszłości',
+    tr: 'Geçmişle ilgili tahminler',
+    de: 'Vermutungen über die Vergangenheit',
+    ja: '過去の推量',
+  },
 };

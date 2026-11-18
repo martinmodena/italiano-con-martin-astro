@@ -137,6 +137,7 @@ export const PAGES = [
   },
   { it: 'grammatica/b1/condizionale-presente.html', pt: 'pt/gramatica/b1/o-condizionale-presente-italiano.html' },
   { it: 'grammatica/b1/trapassato-prossimo.html', pt: 'pt/gramatica/b1/o-trapassato-prossimo-em-italiano.html' },
+  { it: 'grammatica/b1/futuro-anteriore.html', pt: 'pt/gramatica/b1/o-futuro-anteriore-em-italiano.html' },
   { it: 'grammatica/b1/connettivi.html', pt: 'pt/gramatica/b1/conectivos-em-italiano.html' },
   { it: 'grammatica/b1/nomi-alterati.html', pt: 'pt/gramatica/b1/diminutivos-e-aumentativos-em-italiano.html' },
   // L'imperativo (2026-11-17): noi, Lei, Loro e il trucco aggiunti da scripts/expand-imperativo.mjs, non tradotti dallo spagnolo.
