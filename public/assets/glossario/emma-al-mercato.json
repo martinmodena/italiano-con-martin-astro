@@ -1,0 +1,1116 @@
+{
+  "id": "emma-al-mercato",
+  "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "il mercato",
+      "forme": [
+        "mercato"
+      ],
+      "esempi": [
+        "Il sabato vado al mercato.",
+        "Al mercato la frutta è fresca.",
+        "Il mercato di Sant'Ambrogio è a Firenze."
+      ],
+      "traduzioni": {
+        "en": "market",
+        "es": "mercado",
+        "pt": "feira, mercado",
+        "fr": "marché",
+        "cs": "trh",
+        "pl": "targ, targowisko",
+        "tr": "pazar",
+        "de": "Markt",
+        "ja": "市場"
+      }
+    },
+    {
+      "parola": "pieno di",
+      "forme": [
+        "pieno",
+        "piena"
+      ],
+      "esempi": [
+        "Il bicchiere è pieno d'acqua.",
+        "La piazza è piena di gente.",
+        "Torno a casa con la borsa piena."
+      ],
+      "traduzioni": {
+        "en": "full (of)",
+        "es": "lleno (de)",
+        "pt": "cheio (de)",
+        "fr": "plein (de)",
+        "cs": "plný",
+        "pl": "pełny",
+        "tr": "dolu",
+        "de": "voll (von)",
+        "ja": "〜でいっぱいの"
+      }
+    },
+    {
+      "parola": "il colore",
+      "forme": [
+        "colori"
+      ],
+      "formeEsempi": [
+        "colore"
+      ],
+      "esempi": [
+        "Il mio colore preferito è il verde.",
+        "In autunno gli alberi hanno tanti colori.",
+        "Di che colore è la tua macchina?"
+      ],
+      "traduzioni": {
+        "en": "colour",
+        "es": "color",
+        "pt": "cor",
+        "fr": "couleur",
+        "cs": "barva",
+        "pl": "kolor",
+        "tr": "renk",
+        "de": "Farbe",
+        "ja": "色"
+      }
+    },
+    {
+      "parola": "il banco",
+      "forme": [
+        "banchi",
+        "banco"
+      ],
+      "esempi": [
+        "Il banco del pesce è vicino all'ingresso.",
+        "Al mercato ci sono tanti banchi.",
+        "Compro il pane al banco della signora Rita."
+      ],
+      "traduzioni": {
+        "en": "stall (at a market)",
+        "es": "puesto",
+        "pt": "barraca, banca",
+        "fr": "étal, stand",
+        "cs": "stánek",
+        "pl": "stragan, stoisko",
+        "tr": "tezgâh",
+        "de": "Stand",
+        "ja": "売り台、屋台"
+      }
+    },
+    {
+      "parola": "la verdura",
+      "forme": [
+        "verdura"
+      ],
+      "esempi": [
+        "Mangio verdura ogni giorno.",
+        "La zuppa di verdura è calda e buona.",
+        "Compro la verdura al mercato."
+      ],
+      "traduzioni": {
+        "en": "vegetables",
+        "es": "verdura",
+        "pt": "verdura, legumes",
+        "fr": "légumes",
+        "cs": "zelenina",
+        "pl": "warzywa",
+        "tr": "sebze",
+        "de": "Gemüse",
+        "ja": "野菜"
+      }
+    },
+    {
+      "parola": "il formaggio",
+      "forme": [
+        "formaggi"
+      ],
+      "formeEsempi": [
+        "formaggio"
+      ],
+      "esempi": [
+        "Il parmigiano è un formaggio famoso.",
+        "In Italia ci sono tanti formaggi.",
+        "Vuoi un po' di formaggio sulla pasta?"
+      ],
+      "traduzioni": {
+        "en": "cheese",
+        "es": "queso",
+        "pt": "queijo",
+        "fr": "fromage",
+        "cs": "sýr",
+        "pl": "ser",
+        "tr": "peynir",
+        "de": "Käse",
+        "ja": "チーズ"
+      }
+    },
+    {
+      "parola": "il fiore",
+      "forme": [
+        "fiori"
+      ],
+      "formeEsempi": [
+        "fiore"
+      ],
+      "esempi": [
+        "Ti ho portato dei fiori.",
+        "In primavera il giardino è pieno di fiori.",
+        "La rosa è il mio fiore preferito."
+      ],
+      "traduzioni": {
+        "en": "flower",
+        "es": "flor",
+        "pt": "flor",
+        "fr": "fleur",
+        "cs": "květina",
+        "pl": "kwiat",
+        "tr": "çiçek",
+        "de": "Blume",
+        "ja": "花"
+      }
+    },
+    {
+      "parola": "la gente",
+      "forme": [
+        "gente"
+      ],
+      "esempi": [
+        "In centro c'è tanta gente.",
+        "La gente qui è molto gentile.",
+        "Mi piace conoscere gente nuova."
+      ],
+      "traduzioni": {
+        "en": "people (singular in Italian: «c'è molta gente»)",
+        "es": "gente",
+        "pt": "gente, pessoas",
+        "fr": "monde, gens («c’è molta gente» = il y a beaucoup de monde)",
+        "cs": "lidé",
+        "pl": "ludzie",
+        "tr": "insanlar",
+        "de": "Leute",
+        "ja": "人々、人"
+      }
+    },
+    {
+      "parola": "il profumo",
+      "forme": [
+        "profumo"
+      ],
+      "esempi": [
+        "Che buon profumo di caffè!",
+        "Il profumo del pane arriva dalla cucina.",
+        "Questo profumo è francese."
+      ],
+      "traduzioni": {
+        "en": "smell, scent; perfume",
+        "es": "olor, aroma; perfume",
+        "pt": "cheiro; perfume",
+        "fr": "odeur, parfum",
+        "cs": "vůně",
+        "pl": "zapach",
+        "tr": "koku; parfüm",
+        "de": "Duft; Parfüm",
+        "ja": "いい香り"
+      }
+    },
+    {
+      "parola": "la fragola",
+      "forme": [
+        "fragole",
+        "fragola"
+      ],
+      "esempi": [
+        "Le fragole sono rosse e dolci.",
+        "Mi piace il gelato alla fragola.",
+        "A maggio compro le fragole al mercato."
+      ],
+      "traduzioni": {
+        "en": "strawberry",
+        "es": "fresa",
+        "pt": "morango",
+        "fr": "fraise",
+        "cs": "jahoda",
+        "pl": "truskawka",
+        "tr": "çilek",
+        "de": "Erdbeere",
+        "ja": "いちご"
+      }
+    },
+    {
+      "parola": "il basilico",
+      "forme": [
+        "basilico"
+      ],
+      "esempi": [
+        "Il pesto si fa con il basilico.",
+        "Ho una pianta di basilico sul balcone.",
+        "Metti un po' di basilico sulla pizza."
+      ],
+      "traduzioni": {
+        "en": "basil",
+        "es": "albahaca",
+        "pt": "manjericão",
+        "fr": "basilic",
+        "cs": "bazalka",
+        "pl": "bazylia",
+        "tr": "fesleğen",
+        "de": "Basilikum",
+        "ja": "バジル"
+      }
+    },
+    {
+      "parola": "fermarsi",
+      "forme": [
+        "ferma"
+      ],
+      "formeEsempi": [
+        "fermo"
+      ],
+      "esempi": [
+        "L'autobus si ferma davanti alla scuola.",
+        "Mi fermo un attimo a guardare la vetrina.",
+        "Il treno non si ferma a questa stazione."
+      ],
+      "traduzioni": {
+        "en": "to stop",
+        "es": "pararse",
+        "pt": "parar",
+        "fr": "s’arrêter",
+        "cs": "zastavit se",
+        "pl": "zatrzymać się",
+        "tr": "durmak",
+        "de": "stehen bleiben",
+        "ja": "立ち止まる"
+      }
+    },
+    {
+      "parola": "davanti a",
+      "forme": [
+        "davanti"
+      ],
+      "esempi": [
+        "Ti aspetto davanti al cinema.",
+        "Davanti a casa mia c'è un parco.",
+        "Il bambino si siede davanti alla TV."
+      ],
+      "traduzioni": {
+        "en": "in front of",
+        "es": "delante de",
+        "pt": "na frente de",
+        "fr": "devant",
+        "cs": "před",
+        "pl": "przed",
+        "tr": "önünde",
+        "de": "vor",
+        "ja": "〜の前に"
+      }
+    },
+    {
+      "parola": "la mela",
+      "forme": [
+        "mele"
+      ],
+      "formeEsempi": [
+        "mela"
+      ],
+      "esempi": [
+        "Mangio una mela ogni mattina.",
+        "Le mele del Trentino sono famose.",
+        "La nonna fa la torta di mele."
+      ],
+      "traduzioni": {
+        "en": "apple",
+        "es": "manzana",
+        "pt": "maçã",
+        "fr": "pomme",
+        "cs": "jablko",
+        "pl": "jabłko",
+        "tr": "elma",
+        "de": "Apfel",
+        "ja": "りんご"
+      }
+    },
+    {
+      "parola": "la pera",
+      "forme": [
+        "pere"
+      ],
+      "formeEsempi": [
+        "pera"
+      ],
+      "esempi": [
+        "Questa pera è molto dolce.",
+        "Compro un chilo di pere.",
+        "Formaggio e pere sono buoni insieme."
+      ],
+      "traduzioni": {
+        "en": "pear",
+        "es": "pera",
+        "pt": "pera",
+        "fr": "poire",
+        "cs": "hruška",
+        "pl": "gruszka",
+        "tr": "armut",
+        "de": "Birne",
+        "ja": "洋なし"
+      }
+    },
+    {
+      "parola": "l'arancia",
+      "forme": [
+        "arance"
+      ],
+      "formeEsempi": [
+        "arancia"
+      ],
+      "esempi": [
+        "Le arance della Sicilia sono buonissime.",
+        "Bevo una spremuta d'arancia a colazione.",
+        "D'inverno mangio tante arance."
+      ],
+      "traduzioni": {
+        "en": "orange (fruit)",
+        "es": "naranja",
+        "pt": "laranja",
+        "fr": "orange",
+        "cs": "pomeranč",
+        "pl": "pomarańcza",
+        "tr": "portakal",
+        "de": "Orange",
+        "ja": "オレンジ"
+      }
+    },
+    {
+      "parola": "prendere in mano",
+      "forme": [
+        "prende"
+      ],
+      "formeEsempi": [
+        "prendo"
+      ],
+      "esempi": [
+        "Prendo il libro in mano e comincio a leggere.",
+        "Il bambino prende la mano della mamma.",
+        "Lei prende il telefono e chiama."
+      ],
+      "traduzioni": {
+        "en": "to pick up, to take in one's hand",
+        "es": "coger, tomar en la mano",
+        "pt": "pegar na mão",
+        "fr": "prendre en main",
+        "cs": "vzít do ruky",
+        "pl": "wziąć do ręki",
+        "tr": "eline almak",
+        "de": "in die Hand nehmen",
+        "ja": "手に取る"
+      }
+    },
+    {
+      "parola": "meglio",
+      "forme": [
+        "meglio"
+      ],
+      "esempi": [
+        "Oggi sto meglio, grazie.",
+        "Parla piano, così capisco meglio.",
+        "È meglio prendere il treno."
+      ],
+      "traduzioni": {
+        "en": "better",
+        "es": "mejor",
+        "pt": "melhor",
+        "fr": "mieux",
+        "cs": "lépe",
+        "pl": "lepiej",
+        "tr": "daha iyi",
+        "de": "besser",
+        "ja": "もっとよく"
+      }
+    },
+    {
+      "parola": "non si tocca",
+      "forme": [
+        "tocca"
+      ],
+      "esempi": [
+        "Non si tocca la frutta al mercato: la sceglie il venditore.",
+        "Il bambino tocca tutto nel negozio.",
+        "Non toccare, è caldo!"
+      ],
+      "traduzioni": {
+        "en": "you mustn't touch («toccare» = to touch). In Italian markets the seller picks the fruit for you",
+        "es": "no se toca. En los mercados italianos la fruta la elige el vendedor",
+        "pt": "não se toca. Nas feiras italianas quem escolhe a fruta é o vendedor",
+        "fr": "on ne touche pas. Sur les marchés italiens, c’est le vendeur qui choisit les fruits",
+        "cs": "nesahá se. Na italských trzích vybírá ovoce prodavač",
+        "pl": "nie dotyka się. Na włoskich targach owoce wybiera sprzedawca",
+        "tr": "dokunulmaz. İtalyan pazarlarında meyveyi satıcı seçer",
+        "de": "nicht anfassen! Auf italienischen Märkten wählt der Verkäufer das Obst aus",
+        "ja": "さわってはいけません。イタリアの市場では果物は店の人が選びます"
+      },
+      "formeEsempi": [
+        "toccare"
+      ]
+    },
+    {
+      "parola": "il fruttivendolo",
+      "forme": [
+        "fruttivendolo"
+      ],
+      "esempi": [
+        "Il fruttivendolo sotto casa è simpatico.",
+        "Compro le mele dal fruttivendolo.",
+        "Il fruttivendolo apre alle sette."
+      ],
+      "traduzioni": {
+        "en": "greengrocer, fruit seller",
+        "es": "frutero",
+        "pt": "feirante, quitandeiro",
+        "fr": "marchand de fruits et légumes",
+        "cs": "zelinář",
+        "pl": "sprzedawca owoców",
+        "tr": "manav",
+        "de": "Obsthändler",
+        "ja": "八百屋さん"
+      }
+    },
+    {
+      "parola": "rimettere",
+      "forme": [
+        "rimette"
+      ],
+      "formeEsempi": [
+        "rimetto",
+        "rimetti"
+      ],
+      "esempi": [
+        "Rimetto il libro sullo scaffale.",
+        "Il bambino rimette i giochi nella scatola.",
+        "Rimetti il latte in frigo, per favore."
+      ],
+      "traduzioni": {
+        "en": "to put back",
+        "es": "volver a poner, devolver",
+        "pt": "colocar de volta",
+        "fr": "remettre",
+        "cs": "vrátit zpět",
+        "pl": "odłożyć z powrotem",
+        "tr": "yerine koymak",
+        "de": "zurücklegen",
+        "ja": "元にもどす"
+      }
+    },
+    {
+      "parola": "il posto",
+      "forme": [
+        "posto"
+      ],
+      "esempi": [
+        "Rimetti le chiavi al loro posto.",
+        "Questo posto è libero?",
+        "Roma è un posto bellissimo."
+      ],
+      "traduzioni": {
+        "en": "place, spot; seat",
+        "es": "sitio, lugar",
+        "pt": "lugar",
+        "fr": "place",
+        "cs": "místo",
+        "pl": "miejsce",
+        "tr": "yer",
+        "de": "Platz",
+        "ja": "場所、席"
+      }
+    },
+    {
+      "parola": "rosso",
+      "forme": [
+        "rossa",
+        "rosse",
+        "rossi"
+      ],
+      "formeEsempi": [
+        "rosso"
+      ],
+      "esempi": [
+        "Ho comprato una macchina rossa.",
+        "Le ciliegie sono rosse.",
+        "Quando ha vergogna, diventa rosso."
+      ],
+      "traduzioni": {
+        "en": "red («diventare rosso» = to blush)",
+        "es": "rojo («ponerse rojo» = sonrojarse)",
+        "pt": "vermelho («ficar vermelho» = corar)",
+        "fr": "rouge («devenir rouge» = rougir)",
+        "cs": "červený («zčervenat»)",
+        "pl": "czerwony («zaczerwienić się»)",
+        "tr": "kırmızı («kızarmak»)",
+        "de": "rot («rot werden»)",
+        "ja": "赤い（赤くなる）"
+      }
+    },
+    {
+      "parola": "scusi",
+      "forme": [
+        "scusi"
+      ],
+      "esempi": [
+        "Scusi, dov'è la stazione?",
+        "Scusi, posso passare?",
+        "Scusi, non ho capito."
+      ],
+      "traduzioni": {
+        "en": "excuse me, sorry (formal, to one person)",
+        "es": "perdone, disculpe",
+        "pt": "com licença, desculpe (formal)",
+        "fr": "excusez-moi, pardon",
+        "cs": "promiňte",
+        "pl": "przepraszam (pana/panią)",
+        "tr": "affedersiniz",
+        "de": "Entschuldigung",
+        "ja": "すみません（ていねい）"
+      }
+    },
+    {
+      "parola": "preoccuparsi",
+      "forme": [
+        "preoccupi"
+      ],
+      "formeEsempi": [
+        "preoccupo",
+        "preoccupare"
+      ],
+      "esempi": [
+        "Non si preoccupi, signora: è tutto a posto.",
+        "Non ti preoccupare, arrivo subito.",
+        "Mi preoccupo sempre per i miei figli."
+      ],
+      "traduzioni": {
+        "en": "to worry («non si preoccupi» = don't worry, formal)",
+        "es": "preocuparse («no se preocupe»)",
+        "pt": "preocupar-se («não se preocupe»)",
+        "fr": "s’inquiéter («ne vous inquiétez pas»)",
+        "cs": "dělat si starosti («nedělejte si starosti»)",
+        "pl": "martwić się («proszę się nie martwić»)",
+        "tr": "endişelenmek («merak etmeyin»)",
+        "de": "sich Sorgen machen («keine Sorge»)",
+        "ja": "心配する（«non si preoccupi» = ご心配なく）"
+      }
+    },
+    {
+      "parola": "scegliere",
+      "forme": [
+        "sceglie"
+      ],
+      "formeEsempi": [
+        "scelgo"
+      ],
+      "esempi": [
+        "Scelgo sempre il gelato al limone.",
+        "Mia figlia sceglie il vestito per la festa.",
+        "Chi sceglie il ristorante stasera?"
+      ],
+      "traduzioni": {
+        "en": "to choose, to pick",
+        "es": "elegir, escoger",
+        "pt": "escolher",
+        "fr": "choisir",
+        "cs": "vybrat",
+        "pl": "wybrać",
+        "tr": "seçmek",
+        "de": "aussuchen, wählen",
+        "ja": "選ぶ"
+      }
+    },
+    {
+      "parola": "desiderare",
+      "forme": [
+        "desidera"
+      ],
+      "formeEsempi": [
+        "desidero"
+      ],
+      "esempi": [
+        "Buongiorno, che cosa desidera?",
+        "Desidera un caffè, signore?",
+        "Desidero visitare la Sicilia."
+      ],
+      "traduzioni": {
+        "en": "to want, to wish («Che cosa desidera?» = What would you like?, polite)",
+        "es": "desear («¿Qué desea?»)",
+        "pt": "desejar («O que deseja?»)",
+        "fr": "désirer («Vous désirez ?»)",
+        "cs": "přát si («Co si přejete?»)",
+        "pl": "życzyć sobie («Co podać?»)",
+        "tr": "istemek («Ne arzu edersiniz?»)",
+        "de": "wünschen («Was darf es sein?»)",
+        "ja": "望む（«Che cosa desidera?» = 何になさいますか）"
+      }
+    },
+    {
+      "parola": "vorrei",
+      "forme": [
+        "vorrei"
+      ],
+      "esempi": [
+        "Vorrei un caffè, per favore.",
+        "Vorrei prenotare un tavolo per due.",
+        "Vorrei imparare a cucinare."
+      ],
+      "traduzioni": {
+        "en": "I would like (polite)",
+        "es": "quisiera, me gustaría",
+        "pt": "eu queria, gostaria",
+        "fr": "je voudrais",
+        "cs": "chtěl/a bych",
+        "pl": "chciałbym/chciałabym",
+        "tr": "… istiyorum (kibarca)",
+        "de": "ich möchte",
+        "ja": "〜がほしいのですが"
+      }
+    },
+    {
+      "parola": "mezzo chilo",
+      "forme": [
+        "chilo"
+      ],
+      "formeEsempi": [
+        "chili"
+      ],
+      "esempi": [
+        "Vorrei mezzo chilo di pane.",
+        "Un chilo di mele costa due euro.",
+        "Il gatto pesa cinque chili."
+      ],
+      "traduzioni": {
+        "en": "half a kilo («un chilo» = a kilo)",
+        "es": "medio kilo",
+        "pt": "meio quilo",
+        "fr": "un demi-kilo",
+        "cs": "půl kila",
+        "pl": "pół kilo",
+        "tr": "yarım kilo",
+        "de": "ein halbes Kilo",
+        "ja": "500グラム（«un chilo» = 1キロ）"
+      }
+    },
+    {
+      "parola": "ecco",
+      "forme": [
+        "ecco"
+      ],
+      "esempi": [
+        "Ecco il tuo caffè!",
+        "Ecco, finalmente arriva l'autobus.",
+        "Ecco le chiavi, signora."
+      ],
+      "traduzioni": {
+        "en": "here you are, here is",
+        "es": "aquí tiene, aquí está",
+        "pt": "aqui está, pronto",
+        "fr": "voici, voilà",
+        "cs": "tady je, prosím",
+        "pl": "proszę, oto",
+        "tr": "işte, buyurun",
+        "de": "hier, bitte schön",
+        "ja": "はい、どうぞ"
+      }
+    },
+    {
+      "parola": "altro?",
+      "forme": [
+        "altro"
+      ],
+      "esempi": [
+        "Altro? — No, grazie, basta così.",
+        "Vuole altro, signora?",
+        "Non ho altro da dire."
+      ],
+      "traduzioni": {
+        "en": "anything else?",
+        "es": "¿algo más?",
+        "pt": "mais alguma coisa?",
+        "fr": "autre chose ?",
+        "cs": "ještě něco?",
+        "pl": "coś jeszcze?",
+        "tr": "başka?",
+        "de": "sonst noch etwas?",
+        "ja": "ほかには？"
+      }
+    },
+    {
+      "parola": "il pomodoro",
+      "forme": [
+        "pomodori"
+      ],
+      "formeEsempi": [
+        "pomodoro"
+      ],
+      "esempi": [
+        "I pomodori d'estate sono buonissimi.",
+        "Faccio un'insalata di pomodori.",
+        "Il pomodoro è rosso e maturo."
+      ],
+      "traduzioni": {
+        "en": "tomato",
+        "es": "tomate",
+        "pt": "tomate",
+        "fr": "tomate",
+        "cs": "rajče",
+        "pl": "pomidor",
+        "tr": "domates",
+        "de": "Tomate",
+        "ja": "トマト"
+      }
+    },
+    {
+      "parola": "il sugo",
+      "forme": [
+        "sugo"
+      ],
+      "esempi": [
+        "La nonna fa il sugo la domenica.",
+        "Il sugo di pomodoro è semplice e buono.",
+        "Metti il sugo sulla pasta."
+      ],
+      "traduzioni": {
+        "en": "(pasta) sauce",
+        "es": "salsa (para la pasta)",
+        "pt": "molho (de macarrão)",
+        "fr": "sauce (pour les pâtes)",
+        "cs": "omáčka (na těstoviny)",
+        "pl": "sos (do makaronu)",
+        "tr": "makarna sosu",
+        "de": "Soße (für Nudeln)",
+        "ja": "（パスタの）ソース"
+      }
+    },
+    {
+      "parola": "certo",
+      "forme": [
+        "certo"
+      ],
+      "esempi": [
+        "Vieni alla festa? — Certo!",
+        "Certo che ti aiuto.",
+        "Posso entrare? — Certo, prego."
+      ],
+      "traduzioni": {
+        "en": "of course, sure",
+        "es": "claro, por supuesto",
+        "pt": "claro",
+        "fr": "bien sûr",
+        "cs": "jistě, samozřejmě",
+        "pl": "oczywiście",
+        "tr": "tabii",
+        "de": "natürlich, klar",
+        "ja": "もちろん"
+      }
+    },
+    {
+      "parola": "di oggi",
+      "forme": [
+        "oggi"
+      ],
+      "esempi": [
+        "Il pane è di oggi: è fresco.",
+        "Oggi piove.",
+        "Il giornale di oggi è sul tavolo."
+      ],
+      "traduzioni": {
+        "en": "today's, fresh today",
+        "es": "de hoy",
+        "pt": "de hoje, fresquinho",
+        "fr": "du jour",
+        "cs": "dnešní, čerstvý",
+        "pl": "dzisiejszy, świeży",
+        "tr": "bugünkü, taze",
+        "de": "von heute, frisch",
+        "ja": "今日の、とれたての"
+      }
+    },
+    {
+      "parola": "uno per uno",
+      "forme": [
+        "uno"
+      ],
+      "esempi": [
+        "La maestra chiama i bambini uno per uno.",
+        "Controllo i documenti uno per uno.",
+        "Assaggio i biscotti uno per uno."
+      ],
+      "traduzioni": {
+        "en": "one by one",
+        "es": "uno por uno",
+        "pt": "um por um",
+        "fr": "un par un",
+        "cs": "jeden po druhém",
+        "pl": "jeden po drugim",
+        "tr": "tek tek",
+        "de": "einzeln, einen nach dem anderen",
+        "ja": "一つずつ"
+      }
+    },
+    {
+      "parola": "il mazzetto",
+      "forme": [
+        "mazzetto"
+      ],
+      "formeEsempi": [
+        "mazzo"
+      ],
+      "esempi": [
+        "Compro un mazzetto di prezzemolo.",
+        "Mi ha regalato un mazzo di fiori.",
+        "Ho un mazzetto di chiavi in tasca."
+      ],
+      "traduzioni": {
+        "en": "small bunch",
+        "es": "manojo, ramito",
+        "pt": "maço, ramo",
+        "fr": "petit bouquet, botte",
+        "cs": "svazeček",
+        "pl": "pęczek",
+        "tr": "küçük demet",
+        "de": "kleiner Bund, Sträußchen",
+        "ja": "小さな束"
+      }
+    },
+    {
+      "parola": "la borsa",
+      "forme": [
+        "borsa"
+      ],
+      "esempi": [
+        "Ho le chiavi nella borsa.",
+        "La borsa della spesa è pesante.",
+        "Mi piace la tua borsa nuova."
+      ],
+      "traduzioni": {
+        "en": "bag",
+        "es": "bolsa, bolso",
+        "pt": "sacola, bolsa",
+        "fr": "sac",
+        "cs": "taška",
+        "pl": "torba",
+        "tr": "çanta",
+        "de": "Tasche",
+        "ja": "バッグ、買いもの袋"
+      }
+    },
+    {
+      "parola": "il regalo",
+      "forme": [
+        "regalo"
+      ],
+      "esempi": [
+        "Questo è un regalo per te.",
+        "Che bel regalo, grazie!",
+        "Compro un regalo per il compleanno di Marco."
+      ],
+      "traduzioni": {
+        "en": "present, gift («È un regalo» = it's on the house)",
+        "es": "regalo",
+        "pt": "presente",
+        "fr": "cadeau",
+        "cs": "dárek",
+        "pl": "prezent",
+        "tr": "hediye",
+        "de": "Geschenk",
+        "ja": "プレゼント、おまけ"
+      }
+    },
+    {
+      "parola": "pagare",
+      "forme": [
+        "paga"
+      ],
+      "formeEsempi": [
+        "pago"
+      ],
+      "esempi": [
+        "Pago con la carta.",
+        "Chi paga il caffè oggi?",
+        "Mio padre paga il conto."
+      ],
+      "traduzioni": {
+        "en": "to pay",
+        "es": "pagar",
+        "pt": "pagar",
+        "fr": "payer",
+        "cs": "zaplatit",
+        "pl": "zapłacić",
+        "tr": "ödemek",
+        "de": "bezahlen",
+        "ja": "払う"
+      }
+    },
+    {
+      "parola": "camminare",
+      "forme": [
+        "cammina"
+      ],
+      "formeEsempi": [
+        "cammino"
+      ],
+      "esempi": [
+        "Cammino un'ora ogni giorno.",
+        "Il bambino cammina già da solo.",
+        "Lei cammina veloce."
+      ],
+      "traduzioni": {
+        "en": "to walk",
+        "es": "caminar, andar",
+        "pt": "andar, caminhar",
+        "fr": "marcher",
+        "cs": "chodit, procházet se",
+        "pl": "chodzić",
+        "tr": "yürümek",
+        "de": "gehen, laufen",
+        "ja": "歩く"
+      }
+    },
+    {
+      "parola": "con gli occhi, non con le mani",
+      "forme": [
+        "mani"
+      ],
+      "formeEsempi": [
+        "mano"
+      ],
+      "esempi": [
+        "Lavati le mani prima di mangiare!",
+        "Al museo si guarda con gli occhi, non con le mani.",
+        "Ho le mani fredde."
+      ],
+      "traduzioni": {
+        "en": "with the eyes, not the hands («la mano», pl. «le mani» = hand)",
+        "es": "con los ojos, no con las manos",
+        "pt": "com os olhos, não com as mãos",
+        "fr": "avec les yeux, pas avec les mains",
+        "cs": "očima, ne rukama",
+        "pl": "oczami, nie rękami",
+        "tr": "gözle, elle değil",
+        "de": "mit den Augen, nicht mit den Händen",
+        "ja": "手ではなく目で"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "On Saturday morning Emma goes to the Sant'Ambrogio market in Florence. The market is big and full of colours.",
+        "There are stalls selling fruit, vegetables, cheese and flowers. There are lots of people. There's a nice smell too: of bread, of strawberries, of basil.",
+        "Emma stops in front of a fruit stall. There are apples, pears, oranges and strawberries. The strawberries are big and red. Emma picks up a strawberry to look at it more closely.",
+        "“No, no, miss! Don't touch!” says the fruit seller.",
+        "Emma puts the strawberry back at once. Now she's red too, like the strawberries.",
+        "“Sorry…”\n“Don't worry. Here the fruit seller picks the fruit. What would you like?”\n“I'd like half a kilo of strawberries, please.”\n“Here you are. Look how lovely they are! Anything else?”\n“Yes. Have you got tomatoes for sauce?”\n“Of course. There are these: they came in today. How many?”\n“A kilo, thanks.”",
+        "The fruit seller picks the reddest tomatoes, one by one. Then he takes a little bunch of basil and puts it in Emma's bag.",
+        "“But I don't want the basil…”\n“It's a present, miss! Sauce without basil isn't sauce.”",
+        "Emma pays six euros and walks among the stalls with her full bag. There are still lots of lovely things to see. But now Emma looks at them with her eyes, not with her hands."
+      ]
+    },
+    "es": {
+      "a1": [
+        "El sábado por la mañana Emma va al mercado de Sant'Ambrogio, en Florencia. El mercado es grande y está lleno de colores.",
+        "Hay puestos de fruta, de verdura, de quesos y de flores. Hay mucha gente. También hay un olor muy rico: a pan, a fresas, a albahaca.",
+        "Emma se para delante de un puesto de fruta. Hay manzanas, peras, naranjas y fresas. Las fresas son rojas y grandes. Emma coge una fresa con la mano para verla mejor.",
+        "– ¡No, no, señorita! ¡No se toca! – dice el frutero.",
+        "Emma vuelve a poner enseguida la fresa en su sitio. Ahora ella también está roja, como las fresas.",
+        "– Perdone…\n– No se preocupe. Aquí la fruta la elige el frutero. ¿Qué desea?\n– Quería medio kilo de fresas, por favor.\n– Aquí tiene. ¡Mire qué bonitas! ¿Algo más?\n– Sí. ¿Tiene tomates para la salsa?\n– Claro. Tengo estos: son de hoy. ¿Cuántos?\n– Un kilo, gracias.",
+        "El frutero elige los tomates más rojos, uno por uno. Luego coge un manojo de albahaca y lo mete en la bolsa de Emma.",
+        "– Pero yo no quiero la albahaca…\n– ¡Es un regalo, señorita! Una salsa sin albahaca no es salsa.",
+        "Emma paga seis euros y camina entre los puestos con la bolsa llena. Todavía hay muchas cosas bonitas que ver. Pero ahora Emma las mira con los ojos, no con las manos."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "No sábado de manhã Emma vai ao mercado de Sant'Ambrogio, em Florença. O mercado é grande e cheio de cores.",
+        "Tem barracas de frutas, de verduras, de queijos e de flores. Tem muita gente. Tem também um cheiro bom: de pão, de morango, de manjericão.",
+        "Emma para na frente de uma barraca de frutas. Tem maçãs, peras, laranjas e morangos. Os morangos são vermelhos e grandes. Emma pega um morango na mão para olhar melhor.",
+        "– Não, não, moça! Não pode tocar! – diz o feirante.",
+        "Emma coloca o morango de volta no lugar na hora. Agora ela também está vermelha, como os morangos.",
+        "– Desculpe…\n– Não se preocupe. Aqui quem escolhe a fruta é o feirante. O que a senhora deseja?\n– Eu queria meio quilo de morangos, por favor.\n– Aqui está. Olha que lindos! Mais alguma coisa?\n– Sim. Tem tomate para o molho?\n– Claro. Tem estes: chegaram hoje. Quantos?\n– Um quilo, obrigada.",
+        "O feirante escolhe os tomates mais vermelhos, um por um. Depois pega um maço de manjericão e coloca na sacola de Emma.",
+        "– Mas eu não quero o manjericão…\n– É presente, moça! Molho sem manjericão não é molho.",
+        "Emma paga seis euros e anda entre as barracas com a sacola cheia. Ainda tem muitas coisas bonitas para ver. Mas agora Emma olha para elas com os olhos, não com as mãos."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Le samedi matin, Emma va au marché de Sant’Ambrogio, à Florence. Le marché est grand et plein de couleurs.",
+        "Il y a des étals de fruits, de légumes, de fromages et de fleurs. Il y a beaucoup de monde. Il y a aussi une bonne odeur : de pain, de fraises, de basilic.",
+        "Emma s’arrête devant un étal de fruits. Il y a des pommes, des poires, des oranges et des fraises. Les fraises sont rouges et grosses. Emma prend une fraise dans sa main pour mieux la regarder.",
+        "– Non, non, mademoiselle ! On ne touche pas ! – dit le marchand.",
+        "Emma remet tout de suite la fraise à sa place. Maintenant, elle aussi est rouge, comme les fraises.",
+        "– Excusez-moi…\n– Ne vous inquiétez pas. Ici, c’est le marchand qui choisit les fruits. Vous désirez ?\n– Je voudrais un demi-kilo de fraises, s’il vous plaît.\n– Voilà. Regardez comme elles sont belles ! Autre chose ?\n– Oui. Vous avez des tomates pour la sauce ?\n– Bien sûr. Il y a celles-ci : elles sont du jour. Combien ?\n– Un kilo, merci.",
+        "Le marchand choisit les tomates les plus rouges, une par une. Puis il prend un petit bouquet de basilic et le met dans le sac d’Emma.",
+        "– Mais je ne veux pas de basilic…\n– C’est un cadeau, mademoiselle ! Une sauce sans basilic, ce n’est pas une sauce.",
+        "Emma paie six euros et marche entre les étals avec son sac plein. Il y a encore beaucoup de belles choses à voir. Mais maintenant, Emma les regarde avec les yeux, pas avec les mains."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "V sobotu ráno jde Emma na trh Sant'Ambrogio ve Florencii. Trh je velký a plný barev.",
+        "Jsou tam stánky s ovocem, se zeleninou, se sýry a s květinami. Je tam hodně lidí. Je tam taky krásná vůně: chleba, jahod, bazalky.",
+        "Emma se zastaví před stánkem s ovocem. Jsou tam jablka, hrušky, pomeranče a jahody. Jahody jsou červené a velké. Emma vezme jednu jahodu do ruky, aby se na ni líp podívala.",
+        "– Ne, ne, slečno! Nesahat! – říká prodavač ovoce.",
+        "Emma jahodu hned vrátí na místo. Teď je červená i ona, jako ty jahody.",
+        "– Promiňte…\n– Nic se neděje. Tady ovoce vybírá prodavač. Co si přejete?\n– Chtěla bych půl kila jahod, prosím.\n– Tady máte. Podívejte, jak jsou krásné! Ještě něco?\n– Ano. Máte rajčata na omáčku?\n– Jistě. Mám tyhle: jsou dnešní. Kolik?\n– Kilo, děkuju.",
+        "Prodavač vybírá ta nejčervenější rajčata, jedno po druhém. Pak vezme svazeček bazalky a dá ho Emmě do tašky.",
+        "– Ale já bazalku nechci…\n– To je dárek, slečno! Omáčka bez bazalky není omáčka.",
+        "Emma zaplatí šest eur a prochází mezi stánky s plnou taškou. Je tu ještě spousta krásných věcí. Ale teď se na ně Emma dívá očima, ne rukama."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "W sobotę rano Emma idzie na targ Sant'Ambrogio we Florencji. Targ jest duży i pełen kolorów.",
+        "Są tam stragany z owocami, warzywami, serami i kwiatami. Jest dużo ludzi. Jest też ładny zapach: chleba, truskawek, bazylii.",
+        "Emma zatrzymuje się przed straganem z owocami. Są jabłka, gruszki, pomarańcze i truskawki. Truskawki są czerwone i duże. Emma bierze truskawkę do ręki, żeby lepiej ją obejrzeć.",
+        "– Nie, nie, proszę pani! Nie wolno dotykać! – mówi sprzedawca owoców.",
+        "Emma od razu odkłada truskawkę na miejsce. Teraz ona też jest czerwona, jak truskawki.",
+        "– Przepraszam…\n– Nic nie szkodzi. Tutaj owoce wybiera sprzedawca. Co podać?\n– Poproszę pół kilo truskawek.\n– Proszę. Niech pani zobaczy, jakie ładne! Coś jeszcze?\n– Tak. Są pomidory na sos?\n– Oczywiście. Są te: dzisiejsze. Ile?\n– Kilo, dziękuję.",
+        "Sprzedawca wybiera najczerwieńsze pomidory, jeden po drugim. Potem bierze pęczek bazylii i wkłada go do torby Emmy.",
+        "– Ale ja nie chcę bazylii…\n– To prezent, proszę pani! Sos bez bazylii to nie sos.",
+        "Emma płaci sześć euro i chodzi między straganami z pełną torbą. Jest jeszcze dużo pięknych rzeczy do obejrzenia. Ale teraz Emma patrzy na nie oczami, a nie rękami."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Cumartesi sabahı Emma, Floransa'daki Sant'Ambrogio pazarına gidiyor. Pazar büyük ve rengârenk.",
+        "Meyve, sebze, peynir ve çiçek tezgâhları var. Çok kalabalık. Güzel bir koku da var: ekmek, çilek, fesleğen kokusu.",
+        "Emma bir meyve tezgâhının önünde duruyor. Elmalar, armutlar, portakallar ve çilekler var. Çilekler kırmızı ve iri. Emma daha iyi bakmak için bir çileği eline alıyor.",
+        "– Hayır, hayır, hanımefendi! Dokunulmaz! – diyor manav.",
+        "Emma çileği hemen yerine koyuyor. Şimdi o da kıpkırmızı, tıpkı çilekler gibi.",
+        "– Affedersiniz…\n– Merak etmeyin. Burada meyveyi manav seçer. Ne arzu edersiniz?\n– Yarım kilo çilek istiyorum, lütfen.\n– Buyurun. Bakın ne güzeller! Başka?\n– Evet. Sos için domates var mı?\n– Tabii. Şunlar var: bugün geldi. Kaç tane?\n– Bir kilo, teşekkürler.",
+        "Manav en kırmızı domatesleri tek tek seçiyor. Sonra küçük bir demet fesleğen alıp Emma'nın çantasına koyuyor.",
+        "– Ama ben fesleğen istemiyorum…\n– Hediye, hanımefendi! Fesleğensiz sos, sos değildir.",
+        "Emma altı avro ödüyor ve dolu çantasıyla tezgâhların arasında yürüyor. Görülecek daha çok güzel şey var. Ama Emma artık onlara elleriyle değil, gözleriyle bakıyor."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Am Samstagmorgen geht Emma auf den Markt von Sant'Ambrogio in Florenz. Der Markt ist groß und voller Farben.",
+        "Es gibt Stände mit Obst, Gemüse, Käse und Blumen. Es sind viele Leute da. Es duftet auch gut: nach Brot, nach Erdbeeren, nach Basilikum.",
+        "Emma bleibt vor einem Obststand stehen. Es gibt Äpfel, Birnen, Orangen und Erdbeeren. Die Erdbeeren sind rot und groß. Emma nimmt eine Erdbeere in die Hand, um sie besser anzuschauen.",
+        "„Nein, nein, junge Frau! Nicht anfassen!“, sagt der Obsthändler.",
+        "Emma legt die Erdbeere sofort zurück. Jetzt ist auch sie rot, wie die Erdbeeren.",
+        "„Entschuldigung …“\n„Keine Sorge. Hier sucht der Händler das Obst aus. Was darf es sein?“\n„Ich hätte gern ein halbes Kilo Erdbeeren, bitte.“\n„Bitte schön. Schauen Sie, wie schön sie sind! Sonst noch etwas?“\n„Ja. Haben Sie Tomaten für die Soße?“\n„Natürlich. Diese hier: Die sind von heute. Wie viele?“\n„Ein Kilo, danke.“",
+        "Der Obsthändler sucht die rötesten Tomaten aus, eine nach der anderen. Dann nimmt er einen kleinen Bund Basilikum und steckt ihn in Emmas Tasche.",
+        "„Aber ich will kein Basilikum …“\n„Das ist ein Geschenk, junge Frau! Soße ohne Basilikum ist keine Soße.“",
+        "Emma bezahlt sechs Euro und geht mit der vollen Tasche zwischen den Ständen herum. Es gibt noch viele schöne Dinge zu sehen. Aber jetzt schaut Emma sie mit den Augen an, nicht mit den Händen."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "土曜日の朝、エマはフィレンツェのサンタンブロージョ市場に行きます。市場は大きくて、色であふれています。",
+        "果物や野菜、チーズ、花の売り台があります。人がたくさんいます。いい香りもします。パンやいちご、バジルの香りです。",
+        "エマは果物の売り台の前で立ち止まります。りんご、洋なし、オレンジ、いちごがあります。いちごは赤くて大きいです。エマはよく見ようとして、いちごを一つ手に取ります。",
+        "「だめ、だめ、お嬢さん！　さわっちゃいけませんよ！」と八百屋さんが言います。",
+        "エマはすぐにいちごを元の場所にもどします。今度はエマも、いちごのように赤くなっています。",
+        "「すみません……」\n「ご心配なく。ここでは果物は八百屋が選ぶんです。何になさいますか？」\n「いちごを500グラムください。」\n「はい、どうぞ。きれいでしょう！　ほかには？」\n「はい。ソース用のトマトはありますか？」\n「もちろん。これがありますよ。今日入ったものです。いくつ？」\n「1キロ、お願いします。」",
+        "八百屋さんは、いちばん赤いトマトを一つずつ選びます。それからバジルを一束取って、エマのバッグに入れます。",
+        "「でも、バジルはいらないんですけど……」\n「プレゼントですよ、お嬢さん！　バジルのないソースはソースじゃありません。」",
+        "エマは6ユーロ払って、いっぱいのバッグを持って売り台のあいだを歩きます。見たいすてきなものがまだたくさんあります。でも今は、エマは手ではなく目で見ています。"
+      ]
+    }
+  }
+}
