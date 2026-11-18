@@ -1,0 +1,11 @@
+// Pubblicazione su Cloudflare (Workers con file statici). Vedi DECISIONI_SITO.md, 2026-11-18.
+// La build resta quella di Astro: si carica solo la cartella dist/.
+{
+  "name": "italianoconmartin",
+  "compatibility_date": "2026-11-17",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "none"
+  }
+}

@@ -15,7 +15,7 @@ italianoconmartin.com offre materiali gratuiti per chi studia italiano (letture 
 
 ## Architettura (dal 2026-08-25)
 
-Il sito pubblicato su GitHub Pages è la **build Astro**: `npm run build` produce `dist/`, che viene pubblicata.
+Il sito pubblicato è la **build Astro**: `npm run build` produce `dist/`, che viene pubblicata su GitHub Pages e, dal 2026-11-18, anche su **Cloudflare** (`wrangler.jsonc`, `scripts/cloudflare-redirects.mjs`; trasloco in corso, stato in DECISIONI_SITO.md). Il codice resta sempre su GitHub.
 
 | Cartella                       | Contenuto                                                                                                                                |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
