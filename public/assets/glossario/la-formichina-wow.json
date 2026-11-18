@@ -1,0 +1,1324 @@
+{
+  "id": "la-formichina-wow",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "la formica",
+      "forme": [
+        "formiche",
+        "formica",
+        "formichina"
+      ],
+      "esempi": [
+        "Una formica cammina sul tavolo.",
+        "Le formiche lavorano sempre insieme.",
+        "La formichina porta una briciola di pane."
+      ],
+      "traduzioni": {
+        "en": "ant («formichina» = little ant)",
+        "es": "hormiga («formichina» = hormiguita)",
+        "pt": "formiga («formichina» = formiguinha)",
+        "fr": "fourmi («formichina» = petite fourmi)",
+        "cs": "mravenec («formichina» = mravenečka)",
+        "pl": "mrówka («formichina» = mróweczka)",
+        "tr": "karınca («formichina» = minik karınca)",
+        "de": "Ameise («formichina» = kleine Ameise)",
+        "ja": "アリ（«formichina» = 小さなアリ）"
+      }
+    },
+    {
+      "parola": "lavorare",
+      "forme": [
+        "lavorano",
+        "lavora"
+      ],
+      "formeEsempi": [
+        "lavoro"
+      ],
+      "esempi": [
+        "Lavoro in un negozio in centro.",
+        "Mia madre lavora anche il sabato.",
+        "I contadini lavorano nei campi."
+      ],
+      "traduzioni": {
+        "en": "to work",
+        "es": "trabajar",
+        "pt": "trabalhar",
+        "fr": "travailler",
+        "cs": "pracovat",
+        "pl": "pracować",
+        "tr": "çalışmak",
+        "de": "arbeiten",
+        "ja": "働く"
+      }
+    },
+    {
+      "parola": "il cibo",
+      "forme": [
+        "cibo"
+      ],
+      "esempi": [
+        "Il cibo italiano è buonissimo.",
+        "Do il cibo al gatto due volte al giorno.",
+        "Non buttare il cibo!"
+      ],
+      "traduzioni": {
+        "en": "food",
+        "es": "comida",
+        "pt": "comida",
+        "fr": "nourriture",
+        "cs": "jídlo, potrava",
+        "pl": "jedzenie",
+        "tr": "yiyecek",
+        "de": "Essen, Futter",
+        "ja": "食べもの"
+      }
+    },
+    {
+      "parola": "il nido",
+      "forme": [
+        "nido"
+      ],
+      "esempi": [
+        "Gli uccellini sono nel nido.",
+        "Sul tetto c'è un nido di rondini.",
+        "Mio figlio va all'asilo nido."
+      ],
+      "traduzioni": {
+        "en": "nest",
+        "es": "nido",
+        "pt": "ninho",
+        "fr": "nid",
+        "cs": "hnízdo",
+        "pl": "gniazdo",
+        "tr": "yuva",
+        "de": "Nest",
+        "ja": "巣"
+      }
+    },
+    {
+      "parola": "fermarsi",
+      "forme": [
+        "fermarsi",
+        "ferma",
+        "fermano"
+      ],
+      "formeEsempi": [
+        "fermo"
+      ],
+      "esempi": [
+        "Il treno si ferma a Firenze.",
+        "Mi fermo un attimo a bere un caffè.",
+        "Le macchine si fermano al semaforo rosso."
+      ],
+      "traduzioni": {
+        "en": "to stop",
+        "es": "pararse, detenerse",
+        "pt": "parar",
+        "fr": "s’arrêter",
+        "cs": "zastavit se",
+        "pl": "zatrzymać się",
+        "tr": "durmak",
+        "de": "anhalten, stehen bleiben",
+        "ja": "止まる"
+      }
+    },
+    {
+      "parola": "in alto",
+      "forme": [
+        "alto"
+      ],
+      "esempi": [
+        "Guarda in alto: c'è un arcobaleno!",
+        "Il gatto è salito in alto sull'albero.",
+        "Metto i bicchieri in alto, nell'armadio."
+      ],
+      "traduzioni": {
+        "en": "up, upwards",
+        "es": "arriba, hacia arriba",
+        "pt": "para cima",
+        "fr": "en haut, vers le haut",
+        "cs": "nahoru",
+        "pl": "w górę",
+        "tr": "yukarı",
+        "de": "nach oben",
+        "ja": "上を"
+      }
+    },
+    {
+      "parola": "alzare",
+      "forme": [
+        "alza"
+      ],
+      "formeEsempi": [
+        "alzo"
+      ],
+      "esempi": [
+        "Alzo la mano per fare una domanda.",
+        "Il bambino alza la testa e sorride.",
+        "Alza il volume, non sento!"
+      ],
+      "traduzioni": {
+        "en": "to raise, to lift",
+        "es": "levantar",
+        "pt": "levantar",
+        "fr": "lever",
+        "cs": "zvednout",
+        "pl": "podnieść",
+        "tr": "kaldırmak",
+        "de": "heben",
+        "ja": "上げる"
+      }
+    },
+    {
+      "parola": "la testa",
+      "forme": [
+        "testa"
+      ],
+      "esempi": [
+        "Ho mal di testa.",
+        "Il cane mette la testa sulle mie gambe.",
+        "Gira la testa e guarda!"
+      ],
+      "traduzioni": {
+        "en": "head",
+        "es": "cabeza",
+        "pt": "cabeça",
+        "fr": "tête",
+        "cs": "hlava",
+        "pl": "głowa",
+        "tr": "baş",
+        "de": "Kopf",
+        "ja": "頭"
+      }
+    },
+    {
+      "parola": "l'aquila",
+      "forme": [
+        "aquila"
+      ],
+      "esempi": [
+        "L'aquila vola sopra le montagne.",
+        "L'aquila ha gli occhi molto buoni.",
+        "Sulle Alpi vive l'aquila reale."
+      ],
+      "traduzioni": {
+        "en": "eagle",
+        "es": "águila",
+        "pt": "águia",
+        "fr": "aigle",
+        "cs": "orel",
+        "pl": "orzeł",
+        "tr": "kartal",
+        "de": "Adler",
+        "ja": "ワシ"
+      }
+    },
+    {
+      "parola": "volare",
+      "forme": [
+        "vola",
+        "volato"
+      ],
+      "formeEsempi": [
+        "volano"
+      ],
+      "esempi": [
+        "L'uccellino vola sul ramo.",
+        "Gli aerei volano sopra la città.",
+        "Sei mai volato in elicottero?"
+      ],
+      "traduzioni": {
+        "en": "to fly",
+        "es": "volar",
+        "pt": "voar",
+        "fr": "voler",
+        "cs": "letět",
+        "pl": "latać, polecieć",
+        "tr": "uçmak",
+        "de": "fliegen",
+        "ja": "飛ぶ"
+      }
+    },
+    {
+      "parola": "il cielo",
+      "forme": [
+        "cielo"
+      ],
+      "esempi": [
+        "Oggi il cielo è azzurro.",
+        "Di notte il cielo è pieno di stelle.",
+        "Il cielo è grigio: forse piove."
+      ],
+      "traduzioni": {
+        "en": "sky",
+        "es": "cielo",
+        "pt": "céu",
+        "fr": "ciel",
+        "cs": "nebe, obloha",
+        "pl": "niebo",
+        "tr": "gökyüzü",
+        "de": "Himmel",
+        "ja": "空"
+      }
+    },
+    {
+      "parola": "il momento",
+      "forme": [
+        "momento"
+      ],
+      "esempi": [
+        "Un momento, arrivo!",
+        "In questo momento sono in ufficio.",
+        "È stato un momento bellissimo."
+      ],
+      "traduzioni": {
+        "en": "moment",
+        "es": "momento",
+        "pt": "momento",
+        "fr": "moment",
+        "cs": "chvíle, okamžik",
+        "pl": "chwila",
+        "tr": "an",
+        "de": "Moment",
+        "ja": "少しのあいだ"
+      }
+    },
+    {
+      "parola": "importante",
+      "forme": [
+        "importante"
+      ],
+      "esempi": [
+        "Domani ho un esame importante.",
+        "La famiglia è importante per me.",
+        "È importante bere tanta acqua."
+      ],
+      "traduzioni": {
+        "en": "important",
+        "es": "importante",
+        "pt": "importante",
+        "fr": "important",
+        "cs": "důležitý",
+        "pl": "ważny",
+        "tr": "önemli",
+        "de": "wichtig",
+        "ja": "大切な"
+      }
+    },
+    {
+      "parola": "la bocca aperta",
+      "forme": [
+        "bocca"
+      ],
+      "esempi": [
+        "Il bambino guarda i fuochi d'artificio a bocca aperta.",
+        "Non parlare con la bocca piena!",
+        "Apri la bocca, dice il dentista."
+      ],
+      "traduzioni": {
+        "en": "open mouth («a bocca aperta» = open-mouthed, amazed)",
+        "es": "boca abierta («con la boca abierta»)",
+        "pt": "boca aberta («de boca aberta»)",
+        "fr": "bouche ouverte («bouche bée»)",
+        "cs": "otevřená pusa («s otevřenou pusou»)",
+        "pl": "otwarte usta («z otwartymi ustami»)",
+        "tr": "açık ağız («ağzı açık»)",
+        "de": "offener Mund («mit offenem Mund»)",
+        "ja": "ぽかんと開いた口"
+      }
+    },
+    {
+      "parola": "piano piano",
+      "forme": [
+        "piano"
+      ],
+      "esempi": [
+        "Parla piano: il bambino dorme.",
+        "Piano piano imparo l'italiano.",
+        "Guida piano, c'è nebbia."
+      ],
+      "traduzioni": {
+        "en": "softly, quietly; little by little",
+        "es": "bajito; poco a poco",
+        "pt": "baixinho; pouco a pouco",
+        "fr": "tout doucement; petit à petit",
+        "cs": "potichu; pomalu",
+        "pl": "cichutko; powoli",
+        "tr": "usulca, yavaş yavaş",
+        "de": "ganz leise; langsam",
+        "ja": "小さな声で、ゆっくり"
+      }
+    },
+    {
+      "parola": "forte",
+      "forme": [
+        "forte"
+      ],
+      "esempi": [
+        "Parla forte, non ti sento!",
+        "Mio fratello è molto forte.",
+        "Oggi il vento è forte."
+      ],
+      "traduzioni": {
+        "en": "loudly; strong",
+        "es": "fuerte, alto",
+        "pt": "alto; forte",
+        "fr": "fort",
+        "cs": "nahlas; silný",
+        "pl": "głośno; silny",
+        "tr": "yüksek sesle; güçlü",
+        "de": "laut; stark",
+        "ja": "大きな声で、強い"
+      }
+    },
+    {
+      "parola": "lo stupore",
+      "forme": [
+        "stupore"
+      ],
+      "esempi": [
+        "I bambini guardano la neve con stupore.",
+        "Con stupore ho visto che era lui.",
+        "Lo stupore è il primo passo per imparare."
+      ],
+      "traduzioni": {
+        "en": "wonder, amazement",
+        "es": "asombro",
+        "pt": "espanto, encantamento",
+        "fr": "émerveillement, stupeur",
+        "cs": "úžas",
+        "pl": "zdumienie, zachwyt",
+        "tr": "hayret, hayranlık",
+        "de": "Staunen",
+        "ja": "驚き"
+      }
+    },
+    {
+      "parola": "sentire",
+      "forme": [
+        "sente"
+      ],
+      "formeEsempi": [
+        "sento"
+      ],
+      "esempi": [
+        "Sento freddo: chiudi la finestra.",
+        "Mia figlia sente la mancanza della nonna.",
+        "Sente una grande gioia dentro di sé."
+      ],
+      "traduzioni": {
+        "en": "to feel",
+        "es": "sentir",
+        "pt": "sentir",
+        "fr": "ressentir, sentir",
+        "cs": "cítit",
+        "pl": "czuć",
+        "tr": "hissetmek",
+        "de": "fühlen, spüren",
+        "ja": "感じる"
+      }
+    },
+    {
+      "parola": "dentro di sé",
+      "forme": [
+        "dentro"
+      ],
+      "esempi": [
+        "Ha sentito una grande gioia dentro di sé.",
+        "Le chiavi sono dentro la borsa.",
+        "Vieni dentro, fa freddo!"
+      ],
+      "traduzioni": {
+        "en": "inside oneself («dentro» = inside)",
+        "es": "dentro de sí",
+        "pt": "dentro de si",
+        "fr": "en soi",
+        "cs": "v sobě",
+        "pl": "w sobie",
+        "tr": "içinde",
+        "de": "in sich",
+        "ja": "心の中で"
+      }
+    },
+    {
+      "parola": "il formicaio",
+      "forme": [
+        "formicaio"
+      ],
+      "esempi": [
+        "Nel giardino c'è un grande formicaio.",
+        "Le formiche tornano al formicaio.",
+        "Il mercato la mattina è un formicaio di gente."
+      ],
+      "traduzioni": {
+        "en": "anthill, ant colony",
+        "es": "hormiguero",
+        "pt": "formigueiro",
+        "fr": "fourmilière",
+        "cs": "mraveniště",
+        "pl": "mrowisko",
+        "tr": "karınca yuvası",
+        "de": "Ameisenhaufen",
+        "ja": "アリの巣"
+      }
+    },
+    {
+      "parola": "rispettare",
+      "forme": [
+        "rispettano"
+      ],
+      "formeEsempi": [
+        "rispetto",
+        "rispettare"
+      ],
+      "esempi": [
+        "I ragazzi rispettano il loro allenatore.",
+        "Rispetto le idee degli altri.",
+        "Bisogna rispettare le regole."
+      ],
+      "traduzioni": {
+        "en": "to respect",
+        "es": "respetar",
+        "pt": "respeitar",
+        "fr": "respecter",
+        "cs": "respektovat, vážit si",
+        "pl": "szanować",
+        "tr": "saygı duymak",
+        "de": "respektieren",
+        "ja": "尊敬する"
+      }
+    },
+    {
+      "parola": "ammirare",
+      "forme": [
+        "ammirano"
+      ],
+      "formeEsempi": [
+        "ammiro"
+      ],
+      "esempi": [
+        "Ammiro mia madre: è molto coraggiosa.",
+        "I turisti ammirano il Duomo.",
+        "I bambini ammirano i giocatori di calcio."
+      ],
+      "traduzioni": {
+        "en": "to admire, to look up to",
+        "es": "admirar",
+        "pt": "admirar",
+        "fr": "admirer",
+        "cs": "obdivovat",
+        "pl": "podziwiać",
+        "tr": "hayran olmak",
+        "de": "bewundern",
+        "ja": "あこがれる、感心する"
+      }
+    },
+    {
+      "parola": "ridere",
+      "forme": [
+        "ride",
+        "ridono"
+      ],
+      "formeEsempi": [
+        "rido"
+      ],
+      "esempi": [
+        "Rido sempre con i miei amici.",
+        "Il bambino ride quando vede il cane.",
+        "Perché ridono tutti?"
+      ],
+      "traduzioni": {
+        "en": "to laugh",
+        "es": "reír(se)",
+        "pt": "rir",
+        "fr": "rire",
+        "cs": "smát se",
+        "pl": "śmiać się",
+        "tr": "gülmek",
+        "de": "lachen",
+        "ja": "笑う"
+      }
+    },
+    {
+      "parola": "stupido",
+      "forme": [
+        "stupida",
+        "stupide"
+      ],
+      "formeEsempi": [
+        "stupido"
+      ],
+      "esempi": [
+        "Non è una domanda stupida.",
+        "Mi sento stupido quando sbaglio.",
+        "Le parole stupide fanno male."
+      ],
+      "traduzioni": {
+        "en": "stupid",
+        "es": "tonta, estúpida",
+        "pt": "boba, burra",
+        "fr": "idiote, bête",
+        "cs": "hloupá",
+        "pl": "głupia",
+        "tr": "aptal",
+        "de": "dumm",
+        "ja": "ばか、まぬけ"
+      }
+    },
+    {
+      "parola": "chiamare",
+      "forme": [
+        "chiamano"
+      ],
+      "formeEsempi": [
+        "chiamo",
+        "chiama"
+      ],
+      "esempi": [
+        "Mi chiamo Anna, ma tutti mi chiamano Annina.",
+        "Ti chiamo stasera.",
+        "Gli amici lo chiamano «il professore»."
+      ],
+      "traduzioni": {
+        "en": "to call (by a name)",
+        "es": "llamar",
+        "pt": "chamar",
+        "fr": "appeler",
+        "cs": "říkat (komu), volat",
+        "pl": "nazywać, wołać",
+        "tr": "adını koymak, çağırmak",
+        "de": "nennen",
+        "ja": "呼ぶ"
+      }
+    },
+    {
+      "parola": "volere dire",
+      "forme": [
+        "vuol"
+      ],
+      "esempi": [
+        "Che cosa vuol dire questa parola?",
+        "«Ciao» vuol dire «hello».",
+        "Un sorriso vuol dire tante cose."
+      ],
+      "traduzioni": {
+        "en": "to mean",
+        "es": "querer decir, significar",
+        "pt": "querer dizer, significar",
+        "fr": "vouloir dire",
+        "cs": "znamenat",
+        "pl": "znaczyć",
+        "tr": "anlamına gelmek",
+        "de": "bedeuten",
+        "ja": "意味する"
+      }
+    },
+    {
+      "parola": "triste",
+      "forme": [
+        "triste",
+        "tristi"
+      ],
+      "esempi": [
+        "Oggi sono un po' triste.",
+        "È un film molto triste.",
+        "I bambini sono tristi: è finita la vacanza."
+      ],
+      "traduzioni": {
+        "en": "sad",
+        "es": "triste",
+        "pt": "triste",
+        "fr": "triste",
+        "cs": "smutný",
+        "pl": "smutny",
+        "tr": "üzgün",
+        "de": "traurig",
+        "ja": "悲しい"
+      }
+    },
+    {
+      "parola": "lo stesso",
+      "forme": [
+        "stesso"
+      ],
+      "esempi": [
+        "Piove, ma esco lo stesso.",
+        "È stanco, ma lavora lo stesso.",
+        "Abbiamo lo stesso telefono!"
+      ],
+      "traduzioni": {
+        "en": "anyway, all the same",
+        "es": "igualmente, de todas formas",
+        "pt": "mesmo assim",
+        "fr": "quand même",
+        "cs": "stejně, i tak",
+        "pl": "i tak, mimo to",
+        "tr": "yine de",
+        "de": "trotzdem",
+        "ja": "それでも"
+      }
+    },
+    {
+      "parola": "insieme",
+      "forme": [
+        "insieme"
+      ],
+      "esempi": [
+        "Ceniamo insieme stasera?",
+        "Io e mia sorella andiamo a scuola insieme.",
+        "Insieme è più facile."
+      ],
+      "traduzioni": {
+        "en": "together",
+        "es": "juntos",
+        "pt": "juntos",
+        "fr": "ensemble",
+        "cs": "spolu",
+        "pl": "razem",
+        "tr": "birlikte",
+        "de": "zusammen",
+        "ja": "いっしょに"
+      }
+    },
+    {
+      "parola": "due («in due»)",
+      "forme": [
+        "due"
+      ],
+      "esempi": [
+        "Adesso siamo in due: io e il mio cane.",
+        "Siamo in due a cena, grazie.",
+        "Ho due fratelli."
+      ],
+      "traduzioni": {
+        "en": "two («siamo in due» = there are two of us)",
+        "es": "dos («somos dos»)",
+        "pt": "dois, duas («somos duas»)",
+        "fr": "deux («nous sommes deux»)",
+        "cs": "dva, dvě («jsme ve dvou»)",
+        "pl": "dwa, dwie («jesteśmy we dwie»)",
+        "tr": "iki («iki kişiyiz»)",
+        "de": "zwei («wir sind zu zweit»)",
+        "ja": "二、ふたり（«in due» = ふたりで）"
+      }
+    },
+    {
+      "parola": "continuare a",
+      "forme": [
+        "continuano"
+      ],
+      "formeEsempi": [
+        "continuo",
+        "continua"
+      ],
+      "esempi": [
+        "Continuo a studiare anche d'estate.",
+        "I bambini continuano a giocare sotto la pioggia.",
+        "Continua a piovere da ieri."
+      ],
+      "traduzioni": {
+        "en": "to keep on (doing)",
+        "es": "seguir (haciendo)",
+        "pt": "continuar a",
+        "fr": "continuer à",
+        "cs": "pokračovat v",
+        "pl": "nadal (coś robić)",
+        "tr": "devam etmek",
+        "de": "weitermachen",
+        "ja": "〜し続ける"
+      }
+    },
+    {
+      "parola": "aspettare",
+      "forme": [
+        "aspettano"
+      ],
+      "formeEsempi": [
+        "aspetto"
+      ],
+      "esempi": [
+        "Ti aspetto davanti al cinema.",
+        "I passeggeri aspettano il treno.",
+        "Aspettano la primavera con pazienza."
+      ],
+      "traduzioni": {
+        "en": "to wait",
+        "es": "esperar",
+        "pt": "esperar",
+        "fr": "attendre",
+        "cs": "čekat",
+        "pl": "czekać",
+        "tr": "beklemek",
+        "de": "warten",
+        "ja": "待つ"
+      }
+    },
+    {
+      "parola": "la zampa",
+      "forme": [
+        "zampe"
+      ],
+      "formeEsempi": [
+        "zampa"
+      ],
+      "esempi": [
+        "Il cane mi dà la zampa.",
+        "L'uccello tiene un ramo con le zampe.",
+        "Il gatto si lava le zampe."
+      ],
+      "traduzioni": {
+        "en": "foot, claw (of an animal)",
+        "es": "pata, garra",
+        "pt": "pata, garra",
+        "fr": "patte, serre",
+        "cs": "noha, pařát",
+        "pl": "łapa, szpon",
+        "tr": "pençe, ayak",
+        "de": "Fuß, Kralle",
+        "ja": "足、つめ"
+      }
+    },
+    {
+      "parola": "salire",
+      "forme": [
+        "salgono"
+      ],
+      "formeEsempi": [
+        "salgo",
+        "sale"
+      ],
+      "esempi": [
+        "Salgo sull'autobus davanti a casa.",
+        "I bambini salgono sull'albero.",
+        "Il gatto sale sul tavolo."
+      ],
+      "traduzioni": {
+        "en": "to climb onto, to get on",
+        "es": "subir(se)",
+        "pt": "subir",
+        "fr": "monter",
+        "cs": "vylézt, nastoupit",
+        "pl": "wejść, wspiąć się",
+        "tr": "çıkmak, binmek",
+        "de": "hinaufklettern, aufsteigen",
+        "ja": "上がる、乗る"
+      }
+    },
+    {
+      "parola": "il vento",
+      "forme": [
+        "vento"
+      ],
+      "esempi": [
+        "Oggi c'è molto vento.",
+        "Il vento muove le foglie.",
+        "Ho perso il cappello per il vento."
+      ],
+      "traduzioni": {
+        "en": "wind",
+        "es": "viento",
+        "pt": "vento",
+        "fr": "vent",
+        "cs": "vítr",
+        "pl": "wiatr",
+        "tr": "rüzgâr",
+        "de": "Wind",
+        "ja": "風"
+      }
+    },
+    {
+      "parola": "in basso",
+      "forme": [
+        "basso"
+      ],
+      "esempi": [
+        "Guarda in basso: c'è un gattino!",
+        "Il paese è là in basso, nella valle.",
+        "Il libro è sullo scaffale in basso."
+      ],
+      "traduzioni": {
+        "en": "down below",
+        "es": "abajo",
+        "pt": "lá embaixo",
+        "fr": "en bas",
+        "cs": "dole",
+        "pl": "na dole",
+        "tr": "aşağıda",
+        "de": "unten",
+        "ja": "下のほうに"
+      }
+    },
+    {
+      "parola": "la paura",
+      "forme": [
+        "paura"
+      ],
+      "esempi": [
+        "Ho paura dei ragni.",
+        "Non avere paura, sono qui.",
+        "Che paura, questo film!"
+      ],
+      "traduzioni": {
+        "en": "fear («avere paura» = to be afraid)",
+        "es": "miedo («avere paura» = tener miedo)",
+        "pt": "medo («avere paura» = ter medo)",
+        "fr": "peur («avere paura» = avoir peur)",
+        "cs": "strach («avere paura» = bát se)",
+        "pl": "strach («avere paura» = bać się)",
+        "tr": "korku («avere paura» = korkmak)",
+        "de": "Angst («avere paura» = Angst haben)",
+        "ja": "こわさ（«avere paura» = こわい）"
+      }
+    },
+    {
+      "parola": "tornare",
+      "forme": [
+        "torna"
+      ],
+      "formeEsempi": [
+        "torno"
+      ],
+      "esempi": [
+        "Torno a casa alle sei.",
+        "Mio padre torna dal lavoro tardi.",
+        "Dopo le vacanze si torna a scuola."
+      ],
+      "traduzioni": {
+        "en": "to go back, to return",
+        "es": "volver",
+        "pt": "voltar",
+        "fr": "revenir, retourner",
+        "cs": "vrátit se",
+        "pl": "wrócić",
+        "tr": "dönmek",
+        "de": "zurückkehren",
+        "ja": "もどる"
+      }
+    },
+    {
+      "parola": "speciale",
+      "forme": [
+        "speciale"
+      ],
+      "esempi": [
+        "Oggi è un giorno speciale.",
+        "Per me sei una persona speciale.",
+        "Non ho fatto niente di speciale."
+      ],
+      "traduzioni": {
+        "en": "special",
+        "es": "especial",
+        "pt": "especial",
+        "fr": "spécial, extraordinaire",
+        "cs": "zvláštní, výjimečný",
+        "pl": "wyjątkowy",
+        "tr": "özel",
+        "de": "besonders",
+        "ja": "特別な"
+      }
+    },
+    {
+      "parola": "tranquillo",
+      "forme": [
+        "tranquilla"
+      ],
+      "formeEsempi": [
+        "tranquillo"
+      ],
+      "esempi": [
+        "Stai tranquillo, va tutto bene.",
+        "Lei risponde tranquilla, senza arrabbiarsi.",
+        "È una serata tranquilla."
+      ],
+      "traduzioni": {
+        "en": "calm",
+        "es": "tranquila",
+        "pt": "tranquila",
+        "fr": "calme, sereine",
+        "cs": "klidná",
+        "pl": "spokojna",
+        "tr": "sakin",
+        "de": "ruhig, gelassen",
+        "ja": "落ち着いて"
+      }
+    },
+    {
+      "parola": "non importa",
+      "forme": [
+        "importa"
+      ],
+      "esempi": [
+        "Non importa, lo faccio domani.",
+        "Non mi importa cosa dicono gli altri.",
+        "Hai perso il treno? Non importa!"
+      ],
+      "traduzioni": {
+        "en": "it doesn't matter",
+        "es": "no importa",
+        "pt": "não importa",
+        "fr": "peu importe, ça ne fait rien",
+        "cs": "to nevadí",
+        "pl": "nieważne",
+        "tr": "fark etmez, önemli değil",
+        "de": "macht nichts, egal",
+        "ja": "かまわない"
+      }
+    },
+    {
+      "parola": "il silenzio",
+      "forme": [
+        "silenzio"
+      ],
+      "esempi": [
+        "In biblioteca c'è silenzio.",
+        "Mangiamo in silenzio.",
+        "Silenzio, per favore!"
+      ],
+      "traduzioni": {
+        "en": "silence («in silenzio» = in silence)",
+        "es": "silencio",
+        "pt": "silêncio",
+        "fr": "silence",
+        "cs": "ticho («in silenzio» = mlčky)",
+        "pl": "cisza («in silenzio» = w milczeniu)",
+        "tr": "sessizlik («in silenzio» = sessizce)",
+        "de": "Stille («in silenzio» = schweigend)",
+        "ja": "静けさ（«in silenzio» = だまって）"
+      }
+    },
+    {
+      "parola": "felice",
+      "forme": [
+        "felici"
+      ],
+      "formeEsempi": [
+        "felice"
+      ],
+      "esempi": [
+        "Sono felice di vederti!",
+        "I bambini sono felici al mare.",
+        "Buon compleanno, sii felice!"
+      ],
+      "traduzioni": {
+        "en": "happy",
+        "es": "feliz",
+        "pt": "feliz",
+        "fr": "heureux",
+        "cs": "šťastný",
+        "pl": "szczęśliwy",
+        "tr": "mutlu",
+        "de": "glücklich",
+        "ja": "幸せな"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Every day the ants work. They carry food to the nest, without stopping, without looking up.",
+        "A little ant works like the others. But one day she raises her head and sees the eagle flying in the sky.",
+        "The next day she stops for a moment and watches the eagle.",
+        "The other ants don't stop. They don't look at the sky. For them the sky isn't important.",
+        "Every day, after work, the little ant watches the eagle with her mouth open.",
+        "One day she says very softly: “Wow.” The next day she says it out loud: “Wow!”",
+        "The little ant doesn't know the word “wonder”. But she feels something inside her, and she says: “Wow!”",
+        "In the anthill there's Max. Max is a strong, handsome ant. He always carries lots of food. The old ants respect him, the young ants admire him. Max always knows what to say.",
+        "One day Max sees the little ant looking at the sky and saying “wow”. Max laughs and says: “Stupid.”",
+        "The other ants laugh with him. From that day on they call her Wow. For everyone, “wow” now means “stupid”.",
+        "But every evening, after work, Wow still looks at the sky. She's sad because of the other ants' words. But she looks all the same, and says: “Wow.”",
+        "One day another ant stops next to her. She watches the eagle together with Wow. She says “Wow!” too.",
+        "The ants call her Wow Wow.",
+        "Now every evening there are two of them. They look at the sky together and say: “Wow!”",
+        "Max walks past and says: “Stupid.” The other ants repeat: “Stupid.”",
+        "Wow and Wow Wow are sad. But every evening they keep on looking at the sky.",
+        "One day they walk all the way to the eagle's nest. They wait.",
+        "The eagle arrives. She looks at the two little ants. Then she opens her claws.",
+        "Wow and Wow Wow climb slowly onto the eagle's foot.",
+        "The eagle flies.",
+        "The wind is strong, the sky is big, the anthill is small, tiny, far down below.",
+        "Wow is scared. Wow Wow is scared. Then they laugh, together, out loud: “Wow!”",
+        "Afterwards the eagle goes back to the ants' nest.",
+        "The other ants run to look. Max comes too.",
+        "Max says: “You didn't fly. You were just on the eagle's foot. You didn't do anything special.”",
+        "The other ants repeat: “Nothing special.”",
+        "Wow looks at Max, calmly. She says: “It doesn't matter. I saw the sky.”",
+        "Wow Wow says: “Me too.”",
+        "Max doesn't say anything else. For a moment, he looks up too. Then he goes back to work, in silence.",
+        "Wow and Wow Wow are happy."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Todos los días las hormigas trabajan. Llevan comida al nido, sin pararse, sin mirar hacia arriba.",
+        "Una hormiguita trabaja como las demás. Pero un día levanta la cabeza y ve el águila que vuela en el cielo.",
+        "Al día siguiente se para un momento y mira el águila.",
+        "Las otras hormigas no se paran. No miran el cielo. Para ellas el cielo no es importante.",
+        "Todos los días, después del trabajo, la hormiguita mira el águila con la boca abierta.",
+        "Un día dice muy bajito: «Guau». Al día siguiente lo dice fuerte: «¡Guau!»",
+        "La hormiguita no conoce la palabra «asombro». Pero siente algo dentro de sí, y dice: «¡Wow!»",
+        "En el hormiguero está Max. Max es una hormiga fuerte y guapa. Siempre lleva mucha comida. Las hormigas viejas lo respetan, las hormigas jóvenes lo admiran. Max siempre sabe qué decir.",
+        "Un día Max ve a la hormiguita que mira el cielo y dice «wow». Max se ríe y dice: «Tonta».",
+        "Las otras hormigas se ríen con él. Desde ese día la llaman Wow. Para todos, «wow» ahora quiere decir «tonta».",
+        "Pero todas las tardes, después del trabajo, Wow sigue mirando el cielo. Está triste por las palabras de las otras hormigas. Pero mira igualmente, y dice: «Wow».",
+        "Un día otra hormiga se para a su lado. Mira el águila junto con Wow. Ella también dice: «¡Wow!»",
+        "Las hormigas la llaman Wow Wow.",
+        "Ahora todas las tardes son dos. Miran el cielo juntas y dicen: «¡Wow!»",
+        "Max pasa cerca y dice: «Tontas». Las otras hormigas repiten: «Tontas».",
+        "Wow y Wow Wow están tristes. Pero siguen, todas las tardes, mirando el cielo.",
+        "Un día caminan hasta el nido del águila. Esperan.",
+        "El águila llega. Mira a las dos hormigas pequeñas. Luego abre las garras.",
+        "Wow y Wow Wow suben despacio a las patas del águila.",
+        "El águila vuela.",
+        "El viento es fuerte, el cielo es grande, el hormiguero es pequeño, pequeñísimo, allá abajo.",
+        "Wow tiene miedo. Wow Wow tiene miedo. Luego se ríen, juntas, fuerte: «¡Wow!»",
+        "Después, el águila vuelve al nido de las hormigas.",
+        "Las otras hormigas corren a mirar. También llega Max.",
+        "Max dice: «No habéis volado vosotras. Solo estáis en las patas del águila. No habéis hecho nada especial».",
+        "Las otras hormigas repiten: «Nada especial».",
+        "Wow mira a Max, tranquila. Dice: «No importa. Yo he visto el cielo».",
+        "Wow Wow dice: «Yo también».",
+        "Max ya no dice nada. Por un momento, él también mira hacia arriba. Luego vuelve al trabajo, en silencio.",
+        "Wow y Wow Wow son felices."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Todos os dias as formigas trabalham. Levam comida para o ninho, sem parar, sem olhar para cima.",
+        "Uma formiguinha trabalha como as outras. Mas um dia ela levanta a cabeça e vê a águia voando no céu.",
+        "No dia seguinte ela para um momento e olha a águia.",
+        "As outras formigas não param. Não olham para o céu. Para elas o céu não é importante.",
+        "Todos os dias, depois do trabalho, a formiguinha olha a águia de boca aberta.",
+        "Um dia ela diz bem baixinho: «Uau». No dia seguinte diz alto: «Uau!»",
+        "A formiguinha não conhece a palavra «encantamento». Mas sente alguma coisa dentro de si, e diz: «Wow!»",
+        "No formigueiro tem o Max. O Max é uma formiga forte e bonita. Sempre leva muita comida. As formigas velhas o respeitam, as formigas jovens o admiram. O Max sempre sabe o que dizer.",
+        "Um dia o Max vê a formiguinha olhando o céu e dizendo «wow». O Max ri e diz: «Boba».",
+        "As outras formigas riem com ele. Desde aquele dia, chamam a formiguinha de Wow. Para todos, «wow» agora quer dizer «boba».",
+        "Mas toda noite, depois do trabalho, Wow continua olhando o céu. Está triste por causa das palavras das outras formigas. Mas olha mesmo assim, e diz: «Wow».",
+        "Um dia outra formiga para perto dela. Olha a águia junto com a Wow. Ela também diz: «Wow!»",
+        "As formigas a chamam de Wow Wow.",
+        "Agora toda noite elas são duas. Olham o céu juntas e dizem: «Wow!»",
+        "O Max passa perto e diz: «Bobas». As outras formigas repetem: «Bobas».",
+        "Wow e Wow Wow estão tristes. Mas continuam, toda noite, a olhar o céu.",
+        "Um dia elas andam até o ninho da águia. Esperam.",
+        "A águia chega. Olha para as duas formigas pequenas. Depois abre as garras.",
+        "Wow e Wow Wow sobem devagar nas patas da águia.",
+        "A águia voa.",
+        "O vento é forte, o céu é grande, o formigueiro é pequeno, pequenininho, lá embaixo.",
+        "Wow está com medo. Wow Wow está com medo. Depois elas riem, juntas, alto: «Wow!»",
+        "Depois, a águia volta para o ninho das formigas.",
+        "As outras formigas correm para olhar. O Max também chega.",
+        "O Max diz: «Não foram vocês que voaram. Vocês só estavam nas patas da águia. Não fizeram nada de especial».",
+        "As outras formigas repetem: «Nada de especial».",
+        "Wow olha para o Max, tranquila. Diz: «Não importa. Eu vi o céu».",
+        "Wow Wow diz: «Eu também».",
+        "O Max não diz mais nada. Por um momento, ele também olha para cima. Depois volta ao trabalho, em silêncio.",
+        "Wow e Wow Wow estão felizes."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Tous les jours, les fourmis travaillent. Elles portent de la nourriture au nid, sans s’arrêter, sans regarder en haut.",
+        "Une petite fourmi travaille comme les autres. Mais un jour, elle lève la tête et voit l’aigle qui vole dans le ciel.",
+        "Le lendemain, elle s’arrête un moment et regarde l’aigle.",
+        "Les autres fourmis ne s’arrêtent pas. Elles ne regardent pas le ciel. Pour elles, le ciel n’est pas important.",
+        "Tous les jours, après le travail, la petite fourmi regarde l’aigle, bouche bée.",
+        "Un jour, elle dit tout doucement : « Waouh. » Le lendemain, elle le dit fort : « Waouh ! »",
+        "La petite fourmi ne connaît pas le mot « émerveillement ». Mais elle sent quelque chose en elle, et elle dit : « Wow ! »",
+        "Dans la fourmilière, il y a Max. Max est une fourmi forte et belle. Il porte toujours beaucoup de nourriture. Les vieilles fourmis le respectent, les jeunes fourmis l’admirent. Max sait toujours quoi dire.",
+        "Un jour, Max voit la petite fourmi qui regarde le ciel et qui dit « wow ». Max rit et dit : « Idiote. »",
+        "Les autres fourmis rient avec lui. Depuis ce jour, elles l’appellent Wow. Pour tout le monde, « wow » veut maintenant dire « idiote ».",
+        "Mais chaque soir, après le travail, Wow regarde encore le ciel. Elle est triste à cause des mots des autres fourmis. Mais elle regarde quand même, et elle dit : « Wow. »",
+        "Un jour, une autre fourmi s’arrête près d’elle. Elle regarde l’aigle avec Wow. Elle aussi dit : « Wow ! »",
+        "Les fourmis l’appellent Wow Wow.",
+        "Maintenant, chaque soir, elles sont deux. Elles regardent le ciel ensemble et disent : « Wow ! »",
+        "Max passe à côté et dit : « Idiotes. » Les autres fourmis répètent : « Idiotes. »",
+        "Wow et Wow Wow sont tristes. Mais elles continuent, chaque soir, à regarder le ciel.",
+        "Un jour, elles marchent jusqu’au nid de l’aigle. Elles attendent.",
+        "L’aigle arrive. Il regarde les deux petites fourmis. Puis il ouvre ses serres.",
+        "Wow et Wow Wow montent doucement sur les pattes de l’aigle.",
+        "L’aigle vole.",
+        "Le vent est fort, le ciel est grand, la fourmilière est petite, toute petite, là en bas.",
+        "Wow a peur. Wow Wow a peur. Puis elles rient, ensemble, fort : « Wow ! »",
+        "Après, l’aigle revient au nid des fourmis.",
+        "Les autres fourmis courent voir. Max arrive aussi.",
+        "Max dit : « Ce n’est pas vous qui avez volé. Vous étiez seulement sur les pattes de l’aigle. Vous n’avez rien fait de spécial. »",
+        "Les autres fourmis répètent : « Rien de spécial. »",
+        "Wow regarde Max, calme. Elle dit : « Peu importe. Moi, j’ai vu le ciel. »",
+        "Wow Wow dit : « Moi aussi. »",
+        "Max ne dit plus rien. Pendant un moment, il regarde en haut, lui aussi. Puis il retourne au travail, en silence.",
+        "Wow et Wow Wow sont heureuses."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Mravenci každý den pracují. Nosí jídlo do hnízda, bez zastavení, bez pohledu nahoru.",
+        "Jedna malá mravenečka pracuje jako ostatní. Ale jednoho dne zvedne hlavu a uvidí orla, který letí po nebi.",
+        "Druhý den se na chvíli zastaví a dívá se na orla.",
+        "Ostatní mravenci se nezastavují. Nedívají se na nebe. Pro ně nebe není důležité.",
+        "Každý den po práci se mravenečka dívá na orla s otevřenou pusou.",
+        "Jednoho dne řekne úplně potichu: „Páni.“ Druhý den to řekne nahlas: „Páni!“",
+        "Mravenečka nezná slovo „úžas“. Ale cítí něco v sobě a říká: „Wow!“",
+        "V mraveništi je Max. Max je silný a hezký mravenec. Vždycky nosí hodně jídla. Staří mravenci si ho váží, mladí mravenci ho obdivují. Max vždycky ví, co říct.",
+        "Jednoho dne Max uvidí mravenečku, jak se dívá na nebe a říká „wow“. Max se zasměje a řekne: „Hloupá.“",
+        "Ostatní mravenci se smějí s ním. Od toho dne jí říkají Wow. Pro všechny teď „wow“ znamená „hloupá“.",
+        "Ale každý večer po práci se Wow pořád dívá na nebe. Je smutná ze slov ostatních mravenců. Ale dívá se stejně a říká: „Wow.“",
+        "Jednoho dne se vedle ní zastaví jiná mravenečka. Dívá se na orla spolu s Wow. I ona řekne: „Wow!“",
+        "Mravenci jí říkají Wow Wow.",
+        "Teď jsou každý večer dvě. Dívají se spolu na nebe a říkají: „Wow!“",
+        "Max jde kolem a říká: „Hloupé.“ Ostatní mravenci opakují: „Hloupé.“",
+        "Wow a Wow Wow jsou smutné. Ale každý večer se dál dívají na nebe.",
+        "Jednoho dne dojdou až k orlímu hnízdu. Čekají.",
+        "Orel přiletí. Podívá se na dvě malé mravenečky. Pak otevře pařáty.",
+        "Wow a Wow Wow pomalu vylezou orlovi na nohy.",
+        "Orel letí.",
+        "Vítr je silný, nebe je velké, mraveniště je malé, maličké, tam dole.",
+        "Wow se bojí. Wow Wow se bojí. Pak se spolu nahlas zasmějí: „Wow!“",
+        "Potom se orel vrátí k hnízdu mravenců.",
+        "Ostatní mravenci se běží podívat. Přijde i Max.",
+        "Max říká: „Neletěly jste vy. Jen jste seděly orlovi na nohou. Neudělaly jste nic zvláštního.“",
+        "Ostatní mravenci opakují: „Nic zvláštního.“",
+        "Wow se klidně podívá na Maxe. Říká: „To nevadí. Já jsem viděla nebe.“",
+        "Wow Wow říká: „Já taky.“",
+        "Max už nic neříká. Na chvíli se i on podívá nahoru. Pak se mlčky vrátí k práci.",
+        "Wow a Wow Wow jsou šťastné."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Codziennie mrówki pracują. Noszą jedzenie do gniazda, bez zatrzymywania się, bez patrzenia w górę.",
+        "Pewna mróweczka pracuje jak inne. Ale pewnego dnia podnosi głowę i widzi orła, który leci po niebie.",
+        "Następnego dnia zatrzymuje się na chwilę i patrzy na orła.",
+        "Inne mrówki się nie zatrzymują. Nie patrzą na niebo. Dla nich niebo nie jest ważne.",
+        "Codziennie po pracy mróweczka patrzy na orła z otwartymi ustami.",
+        "Pewnego dnia mówi cichutko: „Wow”. Następnego dnia mówi to głośno: „Wow!”",
+        "Mróweczka nie zna słowa „zachwyt”. Ale czuje coś w sobie i mówi: „Wow!”",
+        "W mrowisku jest Max. Max to silna i ładna mrówka. Zawsze nosi dużo jedzenia. Stare mrówki go szanują, młode mrówki go podziwiają. Max zawsze wie, co powiedzieć.",
+        "Pewnego dnia Max widzi mróweczkę, która patrzy w niebo i mówi „wow”. Max się śmieje i mówi: „Głupia”.",
+        "Inne mrówki śmieją się razem z nim. Od tego dnia nazywają ją Wow. Dla wszystkich „wow” znaczy teraz „głupia”.",
+        "Ale każdego wieczoru, po pracy, Wow dalej patrzy w niebo. Jest smutna przez słowa innych mrówek. Ale i tak patrzy i mówi: „Wow”.",
+        "Pewnego dnia obok niej zatrzymuje się inna mrówka. Patrzy na orła razem z Wow. Ona też mówi: „Wow!”",
+        "Mrówki nazywają ją Wow Wow.",
+        "Teraz każdego wieczoru są we dwie. Razem patrzą w niebo i mówią: „Wow!”",
+        "Max przechodzi obok i mówi: „Głupie”. Inne mrówki powtarzają: „Głupie”.",
+        "Wow i Wow Wow są smutne. Ale dalej, każdego wieczoru, patrzą w niebo.",
+        "Pewnego dnia idą aż do gniazda orła. Czekają.",
+        "Orzeł przylatuje. Patrzy na dwie małe mrówki. Potem otwiera szpony.",
+        "Wow i Wow Wow powoli wchodzą na łapy orła.",
+        "Orzeł leci.",
+        "Wiatr jest silny, niebo jest wielkie, mrowisko jest małe, malutkie, tam na dole.",
+        "Wow się boi. Wow Wow się boi. Potem śmieją się, razem, głośno: „Wow!”",
+        "Potem orzeł wraca do gniazda mrówek.",
+        "Inne mrówki biegną popatrzeć. Przychodzi też Max.",
+        "Max mówi: „To nie wy latałyście. Byłyście tylko na łapach orła. Nie zrobiłyście nic wyjątkowego”.",
+        "Inne mrówki powtarzają: „Nic wyjątkowego”.",
+        "Wow patrzy na Maxa spokojnie. Mówi: „Nieważne. Ja widziałam niebo”.",
+        "Wow Wow mówi: „Ja też”.",
+        "Max już nic nie mówi. Przez chwilę on też patrzy w górę. Potem w milczeniu wraca do pracy.",
+        "Wow i Wow Wow są szczęśliwe."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Karıncalar her gün çalışır. Durmadan, yukarı bakmadan yuvaya yiyecek taşırlar.",
+        "Minik bir karınca da ötekiler gibi çalışır. Ama bir gün başını kaldırır ve gökyüzünde uçan kartalı görür.",
+        "Ertesi gün bir an durur ve kartala bakar.",
+        "Öteki karıncalar durmaz. Gökyüzüne bakmazlar. Onlar için gökyüzü önemli değildir.",
+        "Minik karınca her gün işten sonra ağzı açık kartala bakar.",
+        "Bir gün usulca «Vay» der. Ertesi gün yüksek sesle söyler: «Vay!»",
+        "Minik karınca «hayranlık» kelimesini bilmez. Ama içinde bir şey hisseder ve «Wow!» der.",
+        "Karınca yuvasında Max vardır. Max güçlü ve yakışıklı bir karıncadır. Her zaman çok yiyecek taşır. Yaşlı karıncalar ona saygı duyar, genç karıncalar ona hayrandır. Max her zaman ne diyeceğini bilir.",
+        "Bir gün Max, minik karıncanın gökyüzüne bakıp «wow» dediğini görür. Max güler ve «Aptal» der.",
+        "Öteki karıncalar da onunla birlikte güler. O günden sonra ona Wow derler. Artık herkes için «wow», «aptal» demektir.",
+        "Ama Wow her akşam işten sonra hâlâ gökyüzüne bakar. Öteki karıncaların sözlerine üzülür. Ama yine de bakar ve «Wow» der.",
+        "Bir gün başka bir karınca onun yanında durur. Wow'la birlikte kartala bakar. O da «Wow!» der.",
+        "Karıncalar ona Wow Wow der.",
+        "Artık her akşam iki kişiler. Birlikte gökyüzüne bakıp «Wow!» derler.",
+        "Max yanlarından geçer ve «Aptallar» der. Öteki karıncalar tekrarlar: «Aptallar.»",
+        "Wow ve Wow Wow üzgündür. Ama her akşam gökyüzüne bakmaya devam ederler.",
+        "Bir gün kartalın yuvasına kadar yürürler. Beklerler.",
+        "Kartal gelir. İki küçük karıncaya bakar. Sonra pençelerini açar.",
+        "Wow ve Wow Wow yavaşça kartalın ayaklarına çıkar.",
+        "Kartal uçar.",
+        "Rüzgâr güçlü, gökyüzü büyük, karınca yuvası küçük, minicik, orada aşağıda.",
+        "Wow korkar. Wow Wow korkar. Sonra birlikte yüksek sesle gülerler: «Wow!»",
+        "Sonra kartal karıncaların yuvasına geri döner.",
+        "Öteki karıncalar bakmaya koşar. Max de gelir.",
+        "Max der ki: «Siz uçmadınız. Sadece kartalın ayaklarındaydınız. Özel hiçbir şey yapmadınız.»",
+        "Öteki karıncalar tekrarlar: «Özel hiçbir şey.»",
+        "Wow sakin sakin Max'e bakar. «Fark etmez. Ben gökyüzünü gördüm» der.",
+        "Wow Wow «Ben de» der.",
+        "Max artık hiçbir şey söylemez. Bir an o da yukarı bakar. Sonra sessizce işine döner.",
+        "Wow ve Wow Wow mutludur."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Jeden Tag arbeiten die Ameisen. Sie tragen Futter zum Nest, ohne anzuhalten, ohne nach oben zu schauen.",
+        "Eine kleine Ameise arbeitet wie die anderen. Aber eines Tages hebt sie den Kopf und sieht den Adler, der am Himmel fliegt.",
+        "Am nächsten Tag bleibt sie einen Moment stehen und schaut den Adler an.",
+        "Die anderen Ameisen bleiben nicht stehen. Sie schauen nicht zum Himmel. Für sie ist der Himmel nicht wichtig.",
+        "Jeden Tag nach der Arbeit schaut die kleine Ameise mit offenem Mund den Adler an.",
+        "Eines Tages sagt sie ganz leise: „Wow.“ Am nächsten Tag sagt sie es laut: „Wow!“",
+        "Die kleine Ameise kennt das Wort „Staunen“ nicht. Aber sie fühlt etwas in sich und sagt: „Wow!“",
+        "Im Ameisenhaufen gibt es Max. Max ist eine starke und schöne Ameise. Er trägt immer viel Futter. Die alten Ameisen respektieren ihn, die jungen Ameisen bewundern ihn. Max weiß immer, was er sagen soll.",
+        "Eines Tages sieht Max die kleine Ameise, die zum Himmel schaut und „wow“ sagt. Max lacht und sagt: „Dumm.“",
+        "Die anderen Ameisen lachen mit ihm. Von diesem Tag an nennen sie sie Wow. Für alle bedeutet „wow“ jetzt „dumm“.",
+        "Aber jeden Abend nach der Arbeit schaut Wow immer noch zum Himmel. Sie ist traurig wegen der Worte der anderen Ameisen. Aber sie schaut trotzdem und sagt: „Wow.“",
+        "Eines Tages bleibt eine andere Ameise neben ihr stehen. Sie schaut zusammen mit Wow den Adler an. Auch sie sagt: „Wow!“",
+        "Die Ameisen nennen sie Wow Wow.",
+        "Jetzt sind sie jeden Abend zu zweit. Sie schauen zusammen zum Himmel und sagen: „Wow!“",
+        "Max geht vorbei und sagt: „Dumm.“ Die anderen Ameisen wiederholen: „Dumm.“",
+        "Wow und Wow Wow sind traurig. Aber sie schauen weiter jeden Abend zum Himmel.",
+        "Eines Tages gehen sie bis zum Nest des Adlers. Sie warten.",
+        "Der Adler kommt. Er schaut die zwei kleinen Ameisen an. Dann öffnet er seine Krallen.",
+        "Wow und Wow Wow klettern langsam auf die Füße des Adlers.",
+        "Der Adler fliegt.",
+        "Der Wind ist stark, der Himmel ist groß, der Ameisenhaufen ist klein, winzig klein, da unten.",
+        "Wow hat Angst. Wow Wow hat Angst. Dann lachen sie, zusammen, laut: „Wow!“",
+        "Danach kehrt der Adler zum Nest der Ameisen zurück.",
+        "Die anderen Ameisen laufen hin, um zu schauen. Auch Max kommt.",
+        "Max sagt: „Ihr seid nicht geflogen. Ihr wart nur auf den Füßen des Adlers. Ihr habt nichts Besonderes gemacht.“",
+        "Die anderen Ameisen wiederholen: „Nichts Besonderes.“",
+        "Wow sieht Max ruhig an. Sie sagt: „Macht nichts. Ich habe den Himmel gesehen.“",
+        "Wow Wow sagt: „Ich auch.“",
+        "Max sagt nichts mehr. Einen Moment lang schaut auch er nach oben. Dann geht er schweigend zurück an die Arbeit.",
+        "Wow und Wow Wow sind glücklich."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "アリたちは毎日働きます。止まらずに、上を見ないで、食べものを巣に運びます。",
+        "一ぴきの小さなアリも、ほかのアリと同じように働いています。でもある日、頭を上げて、空を飛ぶワシを見ます。",
+        "次の日、小さなアリは少しのあいだ止まって、ワシを見ます。",
+        "ほかのアリたちは止まりません。空を見ません。ほかのアリたちにとって、空は大切ではないのです。",
+        "毎日、仕事のあと、小さなアリは口をぽかんと開けてワシを見ます。",
+        "ある日、小さな声で「わあ」と言います。次の日は大きな声で「わあ！」と言います。",
+        "小さなアリは「驚き」という言葉を知りません。でも、心の中で何かを感じて、「ワオ！」と言います。",
+        "アリの巣にはマックスがいます。マックスは強くてかっこいいアリです。いつもたくさん食べものを運びます。年寄りのアリたちはマックスを尊敬し、若いアリたちはあこがれています。マックスはいつも、何を言えばいいかわかっています。",
+        "ある日、マックスは、小さなアリが空を見て「ワオ」と言っているのを見ます。マックスは笑って「ばかだな」と言います。",
+        "ほかのアリたちもいっしょに笑います。その日から、みんなは小さなアリを「ワオ」と呼びます。みんなにとって、「ワオ」は今「ばか」という意味です。",
+        "でも毎晩、仕事のあと、ワオはやっぱり空を見ます。ほかのアリたちの言葉が悲しいです。でも、それでも空を見て、「ワオ」と言います。",
+        "ある日、別のアリがワオのそばで止まります。ワオといっしょにワシを見ます。そのアリも「ワオ！」と言います。",
+        "アリたちはそのアリを「ワオワオ」と呼びます。",
+        "今では毎晩、ふたりでいます。いっしょに空を見て、「ワオ！」と言います。",
+        "マックスがそばを通って「ばかだな」と言います。ほかのアリたちもくり返します。「ばかだな。」",
+        "ワオとワオワオは悲しいです。でも毎晩、空を見続けます。",
+        "ある日、ふたりはワシの巣まで歩いていきます。そして待ちます。",
+        "ワシがやって来ます。二ひきの小さなアリを見ます。それから足のつめを開きます。",
+        "ワオとワオワオは、ゆっくりワシの足に上がります。",
+        "ワシが飛びます。",
+        "風は強く、空は広く、アリの巣は小さく、とても小さく、ずっと下のほうに見えます。",
+        "ワオはこわいです。ワオワオもこわいです。それから、ふたりはいっしょに大きな声で笑います。「ワオ！」",
+        "そのあと、ワシはアリの巣にもどります。",
+        "ほかのアリたちが見に走ってきます。マックスも来ます。",
+        "マックスは言います。「きみたちが飛んだんじゃない。ワシの足に乗っていただけだ。特別なことは何もしていない。」",
+        "ほかのアリたちもくり返します。「特別なことは何も。」",
+        "ワオは落ち着いてマックスを見ます。そして言います。「かまわない。わたしは空を見たから。」",
+        "ワオワオも言います。「わたしも。」",
+        "マックスはもう何も言いません。少しのあいだ、マックスも上を見ます。それから、だまって仕事にもどります。",
+        "ワオとワオワオは幸せです。"
+      ]
+    }
+  }
+}
