@@ -1,0 +1,1499 @@
+{
+  "id": "emma-il-biglietto-del-treno",
+  "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "abitare",
+      "forme": [
+        "abita"
+      ],
+      "formeEsempi": [
+        "abito",
+        "abiti"
+      ],
+      "esempi": [
+        "Abito a Roma da due anni.",
+        "Dove abiti?",
+        "Mia sorella abita vicino al mare."
+      ],
+      "traduzioni": {
+        "en": "to live (in a place)",
+        "es": "vivir",
+        "pt": "morar",
+        "fr": "habiter",
+        "cs": "bydlet",
+        "pl": "mieszkać",
+        "tr": "oturmak, yaşamak",
+        "de": "wohnen",
+        "ja": "住む"
+      }
+    },
+    {
+      "parola": "la settimana",
+      "forme": [
+        "settimana"
+      ],
+      "esempi": [
+        "Lavoro cinque giorni alla settimana.",
+        "La settimana prossima vado a Milano.",
+        "Una settimana ha sette giorni."
+      ],
+      "traduzioni": {
+        "en": "week",
+        "es": "semana",
+        "pt": "semana",
+        "fr": "semaine",
+        "cs": "týden",
+        "pl": "tydzień",
+        "tr": "hafta",
+        "de": "Woche",
+        "ja": "週"
+      }
+    },
+    {
+      "parola": "volere",
+      "forme": [
+        "vuole"
+      ],
+      "formeEsempi": [
+        "voglio",
+        "vuoi"
+      ],
+      "esempi": [
+        "Voglio un gelato.",
+        "Vuoi un caffè?",
+        "Mia figlia vuole un cane."
+      ],
+      "traduzioni": {
+        "en": "to want",
+        "es": "querer",
+        "pt": "querer",
+        "fr": "vouloir",
+        "cs": "chtít",
+        "pl": "chcieć",
+        "tr": "istemek",
+        "de": "wollen",
+        "ja": "〜したい、ほしい"
+      }
+    },
+    {
+      "parola": "vedere",
+      "forme": [
+        "vedere"
+      ],
+      "formeEsempi": [
+        "vedo",
+        "vedi"
+      ],
+      "esempi": [
+        "Voglio vedere il Colosseo.",
+        "Vedo il mare dalla finestra.",
+        "Vedi quella casa?"
+      ],
+      "traduzioni": {
+        "en": "to see",
+        "es": "ver",
+        "pt": "ver",
+        "fr": "voir",
+        "cs": "vidět",
+        "pl": "zobaczyć, widzieć",
+        "tr": "görmek",
+        "de": "sehen",
+        "ja": "見る"
+      }
+    },
+    {
+      "parola": "il treno",
+      "forme": [
+        "treno"
+      ],
+      "esempi": [
+        "Il treno è in ritardo.",
+        "Vado a Bologna in treno.",
+        "Prendo il treno delle otto."
+      ],
+      "traduzioni": {
+        "en": "train",
+        "es": "tren",
+        "pt": "trem",
+        "fr": "train",
+        "cs": "vlak",
+        "pl": "pociąg",
+        "tr": "tren",
+        "de": "Zug",
+        "ja": "電車、列車"
+      }
+    },
+    {
+      "parola": "la torre",
+      "forme": [
+        "torre"
+      ],
+      "esempi": [
+        "La torre di Pisa è famosa.",
+        "Dalla torre si vede tutta la città.",
+        "In centro c'è una torre antica."
+      ],
+      "traduzioni": {
+        "en": "tower",
+        "es": "torre",
+        "pt": "torre",
+        "fr": "tour",
+        "cs": "věž",
+        "pl": "wieża",
+        "tr": "kule",
+        "de": "Turm",
+        "ja": "塔"
+      }
+    },
+    {
+      "parola": "la stazione",
+      "forme": [
+        "stazione"
+      ],
+      "esempi": [
+        "La stazione è lontana dal centro?",
+        "Ci vediamo alla stazione alle sei.",
+        "Scusi, dov'è la stazione?"
+      ],
+      "traduzioni": {
+        "en": "station",
+        "es": "estación",
+        "pt": "estação",
+        "fr": "gare",
+        "cs": "nádraží",
+        "pl": "dworzec",
+        "tr": "istasyon",
+        "de": "Bahnhof",
+        "ja": "駅"
+      }
+    },
+    {
+      "parola": "la biglietteria",
+      "forme": [
+        "biglietteria"
+      ],
+      "esempi": [
+        "La biglietteria apre alle sette.",
+        "C'è la fila alla biglietteria.",
+        "Compro i biglietti alla biglietteria del museo."
+      ],
+      "traduzioni": {
+        "en": "ticket office",
+        "es": "taquilla",
+        "pt": "bilheteria",
+        "fr": "guichet",
+        "cs": "pokladna",
+        "pl": "kasa biletowa",
+        "tr": "bilet gişesi",
+        "de": "Fahrkartenschalter",
+        "ja": "切符売り場"
+      }
+    },
+    {
+      "parola": "il biglietto",
+      "forme": [
+        "biglietto",
+        "biglietti"
+      ],
+      "esempi": [
+        "Ho due biglietti per il concerto.",
+        "Quanto costa il biglietto dell'autobus?",
+        "Il biglietto è nella borsa."
+      ],
+      "traduzioni": {
+        "en": "ticket",
+        "es": "billete",
+        "pt": "passagem, bilhete",
+        "fr": "billet",
+        "cs": "jízdenka, lístek",
+        "pl": "bilet",
+        "tr": "bilet",
+        "de": "Fahrkarte, Ticket",
+        "ja": "切符"
+      }
+    },
+    {
+      "parola": "per favore",
+      "forme": [
+        "favore"
+      ],
+      "esempi": [
+        "Un caffè, per favore.",
+        "Per favore, parla piano.",
+        "Mi aiuti, per favore?"
+      ],
+      "traduzioni": {
+        "en": "please",
+        "es": "por favor",
+        "pt": "por favor",
+        "fr": "s'il vous plaît",
+        "cs": "prosím",
+        "pl": "proszę",
+        "tr": "lütfen",
+        "de": "bitte",
+        "ja": "お願いします"
+      }
+    },
+    {
+      "parola": "l'andata e il ritorno",
+      "forme": [
+        "andata",
+        "ritorno"
+      ],
+      "esempi": [
+        "Un biglietto di andata e ritorno, per favore.",
+        "Solo andata: torno in macchina con un amico.",
+        "Il ritorno è domenica sera."
+      ],
+      "traduzioni": {
+        "en": "single (solo andata) / return (andata e ritorno)",
+        "es": "ida / vuelta",
+        "pt": "ida / volta",
+        "fr": "aller / retour",
+        "cs": "cesta tam / zpáteční",
+        "pl": "w jedną stronę / w obie strony",
+        "tr": "gidiş / dönüş",
+        "de": "Hinfahrt / Rückfahrt",
+        "ja": "片道（行き）／往復（帰り）"
+      }
+    },
+    {
+      "parola": "pagare",
+      "forme": [
+        "paga"
+      ],
+      "formeEsempi": [
+        "pago",
+        "pagare"
+      ],
+      "esempi": [
+        "Pago io il caffè.",
+        "Posso pagare in contanti?",
+        "Chi paga il conto?"
+      ],
+      "traduzioni": {
+        "en": "to pay",
+        "es": "pagar",
+        "pt": "pagar",
+        "fr": "payer",
+        "cs": "platit",
+        "pl": "płacić",
+        "tr": "ödemek",
+        "de": "bezahlen",
+        "ja": "払う"
+      }
+    },
+    {
+      "parola": "prendere",
+      "forme": [
+        "prende",
+        "prendo"
+      ],
+      "formeEsempi": [
+        "prendi"
+      ],
+      "esempi": [
+        "Prendo l'autobus ogni mattina.",
+        "Luca prende il libro dallo zaino.",
+        "Prendi tu le chiavi?"
+      ],
+      "traduzioni": {
+        "en": "to take; to catch (a train)",
+        "es": "coger, tomar",
+        "pt": "pegar",
+        "fr": "prendre",
+        "cs": "vzít; jezdit (vlakem)",
+        "pl": "brać; jeździć (pociągiem)",
+        "tr": "almak; (trene) binmek",
+        "de": "nehmen",
+        "ja": "取る；（電車に）乗る"
+      }
+    },
+    {
+      "parola": "la carta",
+      "forme": [
+        "carta"
+      ],
+      "esempi": [
+        "Ho un quaderno di carta riciclata.",
+        "Scrivo il numero su un pezzo di carta.",
+        "Le borse di carta sono meglio di quelle di plastica."
+      ],
+      "traduzioni": {
+        "en": "paper",
+        "es": "papel",
+        "pt": "papel",
+        "fr": "papier",
+        "cs": "papír",
+        "pl": "papier",
+        "tr": "kâğıt",
+        "de": "Papier",
+        "ja": "紙"
+      }
+    },
+    {
+      "parola": "partire",
+      "forme": [
+        "parte"
+      ],
+      "formeEsempi": [
+        "parto"
+      ],
+      "esempi": [
+        "Il treno parte alle otto.",
+        "Domani parto per la Spagna.",
+        "A che ora parte l'autobus?"
+      ],
+      "traduzioni": {
+        "en": "to leave, to depart",
+        "es": "salir",
+        "pt": "partir, sair",
+        "fr": "partir",
+        "cs": "odjíždět",
+        "pl": "odjeżdżać",
+        "tr": "kalkmak, hareket etmek",
+        "de": "abfahren",
+        "ja": "出発する、出る"
+      }
+    },
+    {
+      "parola": "il binario",
+      "forme": [
+        "binario"
+      ],
+      "esempi": [
+        "Il treno per Roma parte dal binario tre.",
+        "Aspetto sul binario due.",
+        "Da quale binario parte il treno?"
+      ],
+      "traduzioni": {
+        "en": "platform, track",
+        "es": "andén, vía",
+        "pt": "plataforma",
+        "fr": "quai, voie",
+        "cs": "kolej, nástupiště",
+        "pl": "peron, tor",
+        "tr": "peron",
+        "de": "Gleis",
+        "ja": "〜番線、ホーム"
+      }
+    },
+    {
+      "parola": "camminare",
+      "forme": [
+        "cammina"
+      ],
+      "formeEsempi": [
+        "cammino",
+        "camminiamo"
+      ],
+      "esempi": [
+        "Cammino ogni giorno per mezz'ora.",
+        "Il bambino cammina piano.",
+        "Camminiamo fino al parco?"
+      ],
+      "traduzioni": {
+        "en": "to walk",
+        "es": "caminar",
+        "pt": "caminhar, andar",
+        "fr": "marcher",
+        "cs": "jít pěšky, chodit",
+        "pl": "iść, chodzić",
+        "tr": "yürümek",
+        "de": "gehen, laufen",
+        "ja": "歩く"
+      }
+    },
+    {
+      "parola": "verso",
+      "forme": [
+        "verso"
+      ],
+      "esempi": [
+        "Il gatto corre verso la porta.",
+        "Camminiamo verso il centro.",
+        "La macchina va verso il mare."
+      ],
+      "traduzioni": {
+        "en": "towards",
+        "es": "hacia",
+        "pt": "em direção a",
+        "fr": "vers",
+        "cs": "k, směrem k",
+        "pl": "w stronę",
+        "tr": "-e doğru",
+        "de": "zu, in Richtung",
+        "ja": "〜のほうへ"
+      }
+    },
+    {
+      "parola": "in mano",
+      "forme": [
+        "mano"
+      ],
+      "esempi": [
+        "Ha un caffè in mano.",
+        "Esco con l'ombrello in mano.",
+        "Cosa hai in mano?"
+      ],
+      "traduzioni": {
+        "en": "in (one's) hand",
+        "es": "en la mano",
+        "pt": "na mão",
+        "fr": "à la main",
+        "cs": "v ruce",
+        "pl": "w ręce",
+        "tr": "elinde",
+        "de": "in der Hand",
+        "ja": "手に"
+      }
+    },
+    {
+      "parola": "il signore",
+      "forme": [
+        "signore"
+      ],
+      "esempi": [
+        "Un signore mi chiede l'ora.",
+        "Il signore del terzo piano è molto gentile.",
+        "Chi è quel signore con il cappello?"
+      ],
+      "traduzioni": {
+        "en": "gentleman, man",
+        "es": "señor",
+        "pt": "senhor",
+        "fr": "monsieur",
+        "cs": "pán",
+        "pl": "pan",
+        "tr": "bey, beyefendi",
+        "de": "Herr",
+        "ja": "男の人、紳士"
+      }
+    },
+    {
+      "parola": "il cane",
+      "forme": [
+        "cane"
+      ],
+      "esempi": [
+        "Il mio cane si chiama Bobo.",
+        "Porto fuori il cane ogni sera.",
+        "Il cane dorme sul divano."
+      ],
+      "traduzioni": {
+        "en": "dog",
+        "es": "perro",
+        "pt": "cachorro",
+        "fr": "chien",
+        "cs": "pes",
+        "pl": "pies",
+        "tr": "köpek",
+        "de": "Hund",
+        "ja": "犬"
+      }
+    },
+    {
+      "parola": "guardare",
+      "forme": [
+        "guarda"
+      ],
+      "formeEsempi": [
+        "guardo",
+        "guardi"
+      ],
+      "esempi": [
+        "Guardo il mare dalla finestra.",
+        "Perché mi guardi così?",
+        "La bambina guarda le foto."
+      ],
+      "traduzioni": {
+        "en": "to look at",
+        "es": "mirar",
+        "pt": "olhar",
+        "fr": "regarder",
+        "cs": "dívat se",
+        "pl": "patrzeć",
+        "tr": "bakmak",
+        "de": "ansehen, schauen",
+        "ja": "見る"
+      }
+    },
+    {
+      "parola": "dovere",
+      "forme": [
+        "deve"
+      ],
+      "formeEsempi": [
+        "devo",
+        "devi"
+      ],
+      "esempi": [
+        "Devo lavorare fino alle sei.",
+        "Devi studiare di più.",
+        "Marco deve prendere il treno delle sette."
+      ],
+      "traduzioni": {
+        "en": "must, to have to",
+        "es": "tener que",
+        "pt": "precisar, ter que",
+        "fr": "devoir, il faut",
+        "cs": "muset",
+        "pl": "musieć, trzeba",
+        "tr": "zorunda olmak, -meli",
+        "de": "müssen",
+        "ja": "〜しなければならない"
+      }
+    },
+    {
+      "parola": "timbrare (il biglietto)",
+      "forme": [
+        "timbrare",
+        "timbrato"
+      ],
+      "formeEsempi": [
+        "timbro"
+      ],
+      "esempi": [
+        "In Italia devi timbrare il biglietto prima di salire sul treno.",
+        "Hai timbrato il biglietto dell'autobus?",
+        "Timbro il biglietto alla macchinetta gialla."
+      ],
+      "traduzioni": {
+        "en": "to validate (a ticket, in the machine)",
+        "es": "validar (el billete)",
+        "pt": "validar (a passagem)",
+        "fr": "composter",
+        "cs": "označit (jízdenku)",
+        "pl": "skasować (bilet)",
+        "tr": "(bileti) damgalamak",
+        "de": "entwerten",
+        "ja": "（切符に）刻印する"
+      }
+    },
+    {
+      "parola": "indicare",
+      "forme": [
+        "indica"
+      ],
+      "formeEsempi": [
+        "indico"
+      ],
+      "esempi": [
+        "Il bambino indica il cielo.",
+        "La guida indica la chiesa con la mano.",
+        "Indico la mappa con il dito."
+      ],
+      "traduzioni": {
+        "en": "to point at, to point to",
+        "es": "señalar",
+        "pt": "apontar",
+        "fr": "montrer (du doigt)",
+        "cs": "ukázat (na)",
+        "pl": "wskazywać",
+        "tr": "göstermek",
+        "de": "zeigen (auf)",
+        "ja": "指さす"
+      }
+    },
+    {
+      "parola": "piccolo",
+      "forme": [
+        "piccola"
+      ],
+      "formeEsempi": [
+        "piccolo",
+        "piccoli"
+      ],
+      "esempi": [
+        "Abito in una casa piccola.",
+        "Ho un piccolo problema.",
+        "I bambini piccoli dormono molto."
+      ],
+      "traduzioni": {
+        "en": "small",
+        "es": "pequeño",
+        "pt": "pequeno",
+        "fr": "petit",
+        "cs": "malý",
+        "pl": "mały",
+        "tr": "küçük",
+        "de": "klein",
+        "ja": "小さい"
+      }
+    },
+    {
+      "parola": "la macchina",
+      "forme": [
+        "macchina"
+      ],
+      "esempi": [
+        "Alla stazione c'è una macchina per i biglietti.",
+        "Questa macchina fa il pane.",
+        "La macchina del caffè è rotta."
+      ],
+      "traduzioni": {
+        "en": "machine",
+        "es": "máquina",
+        "pt": "máquina",
+        "fr": "machine",
+        "cs": "strojek, automat",
+        "pl": "automat, maszyna",
+        "tr": "makine",
+        "de": "Maschine, Automat",
+        "ja": "機械"
+      }
+    },
+    {
+      "parola": "vicino a",
+      "forme": [
+        "vicino"
+      ],
+      "esempi": [
+        "Abito vicino alla stazione.",
+        "Il bar è vicino al parco.",
+        "Siediti vicino a me!"
+      ],
+      "traduzioni": {
+        "en": "near, next to",
+        "es": "cerca de, junto a",
+        "pt": "perto de",
+        "fr": "près de",
+        "cs": "u, blízko",
+        "pl": "blisko, przy",
+        "tr": "yanında, yakınında",
+        "de": "neben, in der Nähe von",
+        "ja": "〜の近くに"
+      }
+    },
+    {
+      "parola": "mettere",
+      "forme": [
+        "mette"
+      ],
+      "formeEsempi": [
+        "metto",
+        "metti"
+      ],
+      "esempi": [
+        "Metto il latte nel frigo.",
+        "Dove metti le chiavi?",
+        "Marta mette i libri nello zaino."
+      ],
+      "traduzioni": {
+        "en": "to put",
+        "es": "meter, poner",
+        "pt": "colocar, pôr",
+        "fr": "mettre",
+        "cs": "dát, vložit",
+        "pl": "wkładać, kłaść",
+        "tr": "koymak",
+        "de": "stecken, legen",
+        "ja": "入れる、置く"
+      }
+    },
+    {
+      "parola": "adesso",
+      "forme": [
+        "adesso"
+      ],
+      "esempi": [
+        "Adesso sono a casa.",
+        "Non posso parlare adesso.",
+        "Adesso capisco!"
+      ],
+      "traduzioni": {
+        "en": "now",
+        "es": "ahora",
+        "pt": "agora",
+        "fr": "maintenant",
+        "cs": "teď",
+        "pl": "teraz",
+        "tr": "şimdi",
+        "de": "jetzt",
+        "ja": "今"
+      }
+    },
+    {
+      "parola": "la data",
+      "forme": [
+        "data"
+      ],
+      "esempi": [
+        "Qual è la data di oggi?",
+        "Scrivi la data sul quaderno.",
+        "La data del concerto è il 3 maggio."
+      ],
+      "traduzioni": {
+        "en": "date",
+        "es": "fecha",
+        "pt": "data",
+        "fr": "date",
+        "cs": "datum",
+        "pl": "data",
+        "tr": "tarih",
+        "de": "Datum",
+        "ja": "日付"
+      }
+    },
+    {
+      "parola": "l'ora",
+      "forme": [
+        "ora"
+      ],
+      "esempi": [
+        "Che ora è?",
+        "Scusi, sa l'ora?",
+        "A che ora parte il treno?"
+      ],
+      "traduzioni": {
+        "en": "time (of day)",
+        "es": "hora",
+        "pt": "hora",
+        "fr": "heure",
+        "cs": "čas",
+        "pl": "godzina",
+        "tr": "saat",
+        "de": "Uhrzeit",
+        "ja": "時刻"
+      }
+    },
+    {
+      "parola": "grazie mille",
+      "forme": [
+        "mille"
+      ],
+      "esempi": [
+        "Grazie mille per l'aiuto!",
+        "– Ecco il tuo caffè. – Grazie mille!",
+        "Grazie mille, sei molto gentile."
+      ],
+      "traduzioni": {
+        "en": "thank you so much",
+        "es": "muchas gracias",
+        "pt": "muito obrigado",
+        "fr": "merci beaucoup",
+        "cs": "moc děkuju",
+        "pl": "bardzo dziękuję",
+        "tr": "çok teşekkürler",
+        "de": "vielen Dank",
+        "ja": "どうもありがとう"
+      }
+    },
+    {
+      "parola": "prego",
+      "forme": [
+        "prego"
+      ],
+      "esempi": [
+        "– Grazie! – Prego!",
+        "Prego, si accomodi.",
+        "– Grazie per il caffè. – Prego!"
+      ],
+      "traduzioni": {
+        "en": "you're welcome; please (polite)",
+        "es": "de nada; por favor",
+        "pt": "de nada; por favor",
+        "fr": "de rien ; je vous en prie",
+        "cs": "není zač; prosím",
+        "pl": "proszę bardzo; proszę",
+        "tr": "rica ederim; lütfen",
+        "de": "bitte (gern geschehen)",
+        "ja": "どういたしまして；どうぞ"
+      }
+    },
+    {
+      "parola": "buon viaggio",
+      "forme": [
+        "viaggio"
+      ],
+      "esempi": [
+        "Buon viaggio e a presto!",
+        "Il viaggio in treno dura due ore.",
+        "Com'è andato il viaggio?"
+      ],
+      "traduzioni": {
+        "en": "trip, journey (Buon viaggio! = Have a good trip!)",
+        "es": "viaje",
+        "pt": "viagem",
+        "fr": "voyage",
+        "cs": "cesta",
+        "pl": "podróż",
+        "tr": "yolculuk",
+        "de": "Reise",
+        "ja": "旅行、旅"
+      }
+    },
+    {
+      "parola": "trovare",
+      "forme": [
+        "trova"
+      ],
+      "formeEsempi": [
+        "trovo",
+        "trovi"
+      ],
+      "esempi": [
+        "Non trovo le chiavi!",
+        "Trovi sempre parcheggio in centro?",
+        "Anna trova un portafoglio per strada."
+      ],
+      "traduzioni": {
+        "en": "to find",
+        "es": "encontrar",
+        "pt": "encontrar",
+        "fr": "trouver",
+        "cs": "najít",
+        "pl": "znaleźć",
+        "tr": "bulmak",
+        "de": "finden",
+        "ja": "見つける"
+      }
+    },
+    {
+      "parola": "il posto",
+      "forme": [
+        "posto"
+      ],
+      "esempi": [
+        "Questo posto è libero?",
+        "Al cinema ho il posto numero 12.",
+        "Sull'autobus non c'è un posto libero."
+      ],
+      "traduzioni": {
+        "en": "seat",
+        "es": "asiento",
+        "pt": "lugar, assento",
+        "fr": "place",
+        "cs": "místo",
+        "pl": "miejsce",
+        "tr": "yer, koltuk",
+        "de": "Platz",
+        "ja": "席"
+      }
+    },
+    {
+      "parola": "il finestrino",
+      "forme": [
+        "finestrino"
+      ],
+      "esempi": [
+        "Apro il finestrino della macchina.",
+        "Sul treno mi piace stare vicino al finestrino.",
+        "Il bambino guarda fuori dal finestrino."
+      ],
+      "traduzioni": {
+        "en": "window (of a train, car)",
+        "es": "ventanilla",
+        "pt": "janela (do trem, do carro)",
+        "fr": "fenêtre, vitre",
+        "cs": "okno (ve vlaku, v autě)",
+        "pl": "okno (w pociągu, w samochodzie)",
+        "tr": "(araç) pencere",
+        "de": "Fenster (im Zug, im Auto)",
+        "ja": "（乗り物の）窓"
+      }
+    },
+    {
+      "parola": "di fronte a",
+      "forme": [
+        "fronte"
+      ],
+      "esempi": [
+        "Di fronte a casa mia c'è un bar.",
+        "Mi siedo di fronte a te.",
+        "La farmacia è di fronte alla stazione."
+      ],
+      "traduzioni": {
+        "en": "opposite, in front of",
+        "es": "enfrente de",
+        "pt": "em frente a",
+        "fr": "en face de",
+        "cs": "naproti",
+        "pl": "naprzeciwko",
+        "tr": "karşısında",
+        "de": "gegenüber",
+        "ja": "〜の向かいに"
+      }
+    },
+    {
+      "parola": "il ragazzo",
+      "forme": [
+        "ragazzo"
+      ],
+      "esempi": [
+        "Un ragazzo mi chiede la strada.",
+        "Quel ragazzo studia medicina.",
+        "Il ragazzo ha diciotto anni."
+      ],
+      "traduzioni": {
+        "en": "boy, young man",
+        "es": "chico",
+        "pt": "rapaz, moço",
+        "fr": "garçon, jeune homme",
+        "cs": "kluk, mladík",
+        "pl": "chłopak",
+        "tr": "genç",
+        "de": "junger Mann, Junge",
+        "ja": "若者、男の子"
+      }
+    },
+    {
+      "parola": "lo zaino",
+      "forme": [
+        "zaino"
+      ],
+      "esempi": [
+        "Nello zaino ho l'acqua e un libro.",
+        "Lo zaino è pesante.",
+        "Vado a scuola con lo zaino rosso."
+      ],
+      "traduzioni": {
+        "en": "backpack",
+        "es": "mochila",
+        "pt": "mochila",
+        "fr": "sac à dos",
+        "cs": "batoh",
+        "pl": "plecak",
+        "tr": "sırt çantası",
+        "de": "Rucksack",
+        "ja": "リュック"
+      }
+    },
+    {
+      "parola": "dopo",
+      "forme": [
+        "dopo"
+      ],
+      "esempi": [
+        "Dopo cena guardo un film.",
+        "Ci vediamo dopo la lezione.",
+        "Dopo dieci minuti arriva l'autobus."
+      ],
+      "traduzioni": {
+        "en": "after",
+        "es": "después de",
+        "pt": "depois de",
+        "fr": "après, au bout de",
+        "cs": "po",
+        "pl": "po",
+        "tr": "sonra",
+        "de": "nach",
+        "ja": "〜の後"
+      }
+    },
+    {
+      "parola": "arrivare",
+      "forme": [
+        "arriva"
+      ],
+      "formeEsempi": [
+        "arrivo",
+        "arrivi"
+      ],
+      "esempi": [
+        "Arrivo tra cinque minuti.",
+        "Quando arriva l'autobus?",
+        "A che ora arrivi a casa?"
+      ],
+      "traduzioni": {
+        "en": "to arrive, to come",
+        "es": "llegar",
+        "pt": "chegar",
+        "fr": "arriver",
+        "cs": "přijít, přijet",
+        "pl": "przychodzić, przyjeżdżać",
+        "tr": "gelmek, varmak",
+        "de": "kommen, ankommen",
+        "ja": "着く、来る"
+      }
+    },
+    {
+      "parola": "il controllore",
+      "forme": [
+        "controllore"
+      ],
+      "esempi": [
+        "Il controllore controlla i biglietti.",
+        "Sull'autobus oggi c'è il controllore.",
+        "Il controllore è gentile con i turisti."
+      ],
+      "traduzioni": {
+        "en": "ticket inspector",
+        "es": "revisor",
+        "pt": "fiscal, cobrador",
+        "fr": "contrôleur",
+        "cs": "průvodčí, revizor",
+        "pl": "konduktor, kontroler",
+        "tr": "kondüktör, kontrolör",
+        "de": "Schaffner, Kontrolleur",
+        "ja": "車掌"
+      }
+    },
+    {
+      "parola": "poi",
+      "forme": [
+        "poi"
+      ],
+      "esempi": [
+        "Prima mangio, poi studio.",
+        "Vado al bar e poi a casa.",
+        "Poi Marco chiama la mamma."
+      ],
+      "traduzioni": {
+        "en": "then, afterwards",
+        "es": "luego, después",
+        "pt": "depois",
+        "fr": "puis, ensuite",
+        "cs": "pak, potom",
+        "pl": "potem",
+        "tr": "sonra",
+        "de": "dann",
+        "ja": "それから"
+      }
+    },
+    {
+      "parola": "la multa",
+      "forme": [
+        "multa"
+      ],
+      "esempi": [
+        "Se parcheggi qui, prendi una multa.",
+        "La multa costa cinquanta euro.",
+        "Il vigile mi fa la multa."
+      ],
+      "traduzioni": {
+        "en": "fine (to pay)",
+        "es": "multa",
+        "pt": "multa",
+        "fr": "amende",
+        "cs": "pokuta",
+        "pl": "mandat",
+        "tr": "(para) cezası",
+        "de": "Strafe, Bußgeld",
+        "ja": "罰金"
+      }
+    },
+    {
+      "parola": "diventare rosso",
+      "forme": [
+        "diventa",
+        "rosso"
+      ],
+      "formeEsempi": [
+        "divento",
+        "diventi",
+        "rossa"
+      ],
+      "esempi": [
+        "Quando parlo in pubblico divento rosso.",
+        "Perché diventi rossa?",
+        "Marco diventa rosso quando vede Giulia."
+      ],
+      "traduzioni": {
+        "en": "to blush, to go red",
+        "es": "ponerse rojo",
+        "pt": "ficar vermelho",
+        "fr": "rougir",
+        "cs": "zčervenat",
+        "pl": "zaczerwienić się",
+        "tr": "kızarmak",
+        "de": "rot werden",
+        "ja": "赤くなる"
+      }
+    },
+    {
+      "parola": "pensare",
+      "forme": [
+        "pensa"
+      ],
+      "formeEsempi": [
+        "penso",
+        "pensi"
+      ],
+      "esempi": [
+        "Penso sempre a te.",
+        "Cosa pensi di questo film?",
+        "Luca pensa: «Che bella giornata!»"
+      ],
+      "traduzioni": {
+        "en": "to think (of)",
+        "es": "pensar (en)",
+        "pt": "pensar (em)",
+        "fr": "penser (à)",
+        "cs": "myslet (si), myslet na",
+        "pl": "myśleć (o)",
+        "tr": "düşünmek",
+        "de": "denken (an)",
+        "ja": "思う、考える"
+      }
+    },
+    {
+      "parola": "povero",
+      "forme": [
+        "povero"
+      ],
+      "formeEsempi": [
+        "povera"
+      ],
+      "esempi": [
+        "Povero gatto, ha fame!",
+        "Povera Anna, è sempre stanca.",
+        "Povero Luca: ha perso le chiavi."
+      ],
+      "traduzioni": {
+        "en": "poor (to be pitied)",
+        "es": "pobre",
+        "pt": "coitado, pobre",
+        "fr": "pauvre",
+        "cs": "chudák",
+        "pl": "biedny",
+        "tr": "zavallı",
+        "de": "arm",
+        "ja": "かわいそうな"
+      }
+    },
+    {
+      "parola": "ogni",
+      "forme": [
+        "ogni"
+      ],
+      "esempi": [
+        "Vado in palestra ogni lunedì.",
+        "Ogni mattina bevo un tè.",
+        "Ogni bambino ha un libro."
+      ],
+      "traduzioni": {
+        "en": "every",
+        "es": "cada, todos los",
+        "pt": "todo, cada",
+        "fr": "chaque, tous les",
+        "cs": "každý",
+        "pl": "każdy, co",
+        "tr": "her",
+        "de": "jeder, jede",
+        "ja": "毎〜、それぞれの"
+      }
+    },
+    {
+      "parola": "allora",
+      "forme": [
+        "allora"
+      ],
+      "esempi": [
+        "– Piove. – Allora prendo l'ombrello.",
+        "Sei stanco? Allora vai a letto.",
+        "Non hai fame? Allora mangio io."
+      ],
+      "traduzioni": {
+        "en": "then, so (in that case)",
+        "es": "entonces",
+        "pt": "então",
+        "fr": "alors",
+        "cs": "tak, takže",
+        "pl": "to, więc",
+        "tr": "o zaman",
+        "de": "dann, also",
+        "ja": "それなら"
+      }
+    },
+    {
+      "parola": "sapere",
+      "forme": [
+        "sa"
+      ],
+      "formeEsempi": [
+        "so",
+        "sai"
+      ],
+      "esempi": [
+        "Non so dov'è la stazione.",
+        "Sai che domani è festa?",
+        "Marco sa che il treno è in ritardo."
+      ],
+      "traduzioni": {
+        "en": "to know",
+        "es": "saber",
+        "pt": "saber",
+        "fr": "savoir",
+        "cs": "vědět",
+        "pl": "wiedzieć",
+        "tr": "bilmek",
+        "de": "wissen",
+        "ja": "知っている"
+      }
+    },
+    {
+      "parola": "rispondere",
+      "forme": [
+        "risponde"
+      ],
+      "formeEsempi": [
+        "rispondo",
+        "rispondi"
+      ],
+      "esempi": [
+        "Rispondo subito al messaggio.",
+        "Perché non rispondi al telefono?",
+        "Il professore risponde alle domande."
+      ],
+      "traduzioni": {
+        "en": "to answer, to reply",
+        "es": "responder",
+        "pt": "responder",
+        "fr": "répondre",
+        "cs": "odpovědět",
+        "pl": "odpowiadać",
+        "tr": "cevap vermek",
+        "de": "antworten",
+        "ja": "答える"
+      }
+    },
+    {
+      "parola": "scrivere",
+      "forme": [
+        "scrive"
+      ],
+      "formeEsempi": [
+        "scrivo"
+      ],
+      "esempi": [
+        "Scrivo una lettera alla nonna.",
+        "Il medico scrive la ricetta.",
+        "Anna scrive il suo nome sul quaderno."
+      ],
+      "traduzioni": {
+        "en": "to write",
+        "es": "escribir",
+        "pt": "escrever",
+        "fr": "écrire",
+        "cs": "napsat",
+        "pl": "pisać, wypisywać",
+        "tr": "yazmak",
+        "de": "schreiben",
+        "ja": "書く"
+      }
+    },
+    {
+      "parola": "fuori",
+      "forme": [
+        "fuori"
+      ],
+      "esempi": [
+        "Guardo fuori dalla finestra.",
+        "I bambini giocano fuori.",
+        "Fuori piove."
+      ],
+      "traduzioni": {
+        "en": "outside, out",
+        "es": "fuera",
+        "pt": "fora",
+        "fr": "dehors",
+        "cs": "ven, venku",
+        "pl": "na zewnątrz",
+        "tr": "dışarı",
+        "de": "draußen, hinaus",
+        "ja": "外"
+      }
+    },
+    {
+      "parola": "sorridere",
+      "forme": [
+        "sorride"
+      ],
+      "formeEsempi": [
+        "sorrido",
+        "sorridi"
+      ],
+      "esempi": [
+        "La bambina sorride alla mamma.",
+        "Sorridi! Facciamo una foto.",
+        "Quando sono felice sorrido."
+      ],
+      "traduzioni": {
+        "en": "to smile",
+        "es": "sonreír",
+        "pt": "sorrir",
+        "fr": "sourire",
+        "cs": "usmát se",
+        "pl": "uśmiechać się",
+        "tr": "gülümsemek",
+        "de": "lächeln",
+        "ja": "ほほえむ"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "Emma has been living in Florence for a week. Today is Saturday: she's going to Pisa by train. She wants to see the tower.",
+        "At nine Emma is at the station. She goes to the ticket office.",
+        "– Good morning. A ticket to Pisa, please.\n– Return?\n– No, just a single.\n– Nine euros, thank you.",
+        "Emma pays and takes the ticket. It's a paper ticket. The train to Pisa leaves at twenty past nine from platform seven.",
+        "Emma walks towards the platform with the ticket in her hand. A man with a dog looks at her and says:",
+        "– Miss! Your ticket! You have to validate it!\n– Validate it?",
+        "The man points to a small green and white machine near the platform. Emma puts the ticket in the machine. Click! Now the date and time are printed on the ticket.",
+        "– Thank you so much!\n– You're welcome. Have a good trip!",
+        "On the train Emma finds a window seat. Opposite her there's a young man with a backpack. After twenty minutes the ticket inspector arrives.",
+        "– Tickets, please.",
+        "Emma gives him her ticket. The inspector looks at the date and says: – Thank you, that's fine.",
+        "Then he takes the young man's ticket.\n– This ticket hasn't been validated. You have to pay a fine.",
+        "The young man goes red. Emma thinks: “Poor tourist…”",
+        "– But I'm from Pisa! – says the young man. – I take this train every week!\n– Then you know you have to validate it, – replies the inspector, and he writes out the fine.",
+        "Emma looks out of the window. She thinks of the man with the dog and smiles: thanks to him, today the fine isn't for her."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Emma vive en Florencia desde hace una semana. Hoy es sábado: va a Pisa en tren. Quiere ver la torre.",
+        "A las nueve Emma está en la estación. Va a la taquilla.",
+        "– Buenos días. Un billete para Pisa, por favor.\n– ¿Ida y vuelta?\n– No, solo ida.\n– Nueve euros, gracias.",
+        "Emma paga y coge el billete. Es un billete de papel. El tren para Pisa sale a las nueve y veinte del andén siete.",
+        "Emma camina hacia el andén con el billete en la mano. Un señor con un perro la mira y dice:",
+        "– ¡Señorita! ¡El billete! ¡Tiene que validarlo!\n– ¿Validarlo?",
+        "El señor señala una pequeña máquina verde y blanca cerca del andén. Emma mete el billete en la máquina. ¡Clac! Ahora en el billete están la fecha y la hora.",
+        "– ¡Muchas gracias!\n– De nada. ¡Buen viaje!",
+        "En el tren Emma encuentra un asiento junto a la ventanilla. Enfrente de ella hay un chico con una mochila. A los veinte minutos llega el revisor.",
+        "– Billetes, por favor.",
+        "Emma le da su billete. El revisor mira la fecha y dice: – Gracias, está bien.",
+        "Luego coge el billete del chico.\n– Este billete no está validado. Tiene que pagar una multa.",
+        "El chico se pone rojo. Emma piensa: «Pobre turista…».",
+        "– ¡Pero yo soy de Pisa! – dice el chico. – ¡Cojo este tren todas las semanas!\n– Entonces sabe que tiene que validarlo – responde el revisor, y le pone la multa.",
+        "Emma mira por la ventanilla. Piensa en el señor del perro y sonríe: gracias a él, hoy la multa no es para ella."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Emma mora em Florença há uma semana. Hoje é sábado: ela vai a Pisa de trem. Quer ver a torre.",
+        "Às nove Emma está na estação. Vai à bilheteria.",
+        "– Bom dia. Uma passagem para Pisa, por favor.\n– Ida e volta?\n– Não, só ida.\n– Nove euros, obrigado.",
+        "Emma paga e pega a passagem. É uma passagem de papel. O trem para Pisa sai às nove e vinte da plataforma sete.",
+        "Emma caminha em direção à plataforma com a passagem na mão. Um senhor com um cachorro olha para ela e diz:",
+        "– Moça! A passagem! Precisa validar!\n– Validar?",
+        "O senhor aponta para uma pequena máquina verde e branca perto da plataforma. Emma coloca a passagem na máquina. Tac! Agora na passagem estão a data e a hora.",
+        "– Muito obrigada!\n– De nada. Boa viagem!",
+        "No trem Emma encontra um lugar na janela. Na frente dela tem um rapaz com uma mochila. Depois de vinte minutos chega o fiscal.",
+        "– Passagens, por favor.",
+        "Emma entrega a passagem dela. O fiscal olha a data e diz: – Obrigado, está certo.",
+        "Depois pega a passagem do rapaz.\n– Esta passagem não foi validada. O senhor precisa pagar uma multa.",
+        "O rapaz fica vermelho. Emma pensa: «Coitado do turista…».",
+        "– Mas eu sou de Pisa! – diz o rapaz. – Pego este trem toda semana!\n– Então o senhor sabe que precisa validar – responde o fiscal, e escreve a multa.",
+        "Emma olha pela janela. Pensa no senhor do cachorro e sorri: graças a ele, hoje a multa não é para ela."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Emma habite à Florence depuis une semaine. Aujourd'hui, c'est samedi : elle va à Pise en train. Elle veut voir la tour.",
+        "À neuf heures, Emma est à la gare. Elle va au guichet.",
+        "– Bonjour. Un billet pour Pise, s'il vous plaît.\n– Aller-retour ?\n– Non, aller simple.\n– Neuf euros, merci.",
+        "Emma paie et prend le billet. C'est un billet en papier. Le train pour Pise part à neuf heures vingt, voie sept.",
+        "Emma marche vers le quai, le billet à la main. Un monsieur avec un chien la regarde et dit :",
+        "– Mademoiselle ! Le billet ! Il faut le composter !\n– Le composter ?",
+        "Le monsieur montre une petite machine verte et blanche près du quai. Emma met le billet dans la machine. Clac ! Maintenant, il y a la date et l'heure sur le billet.",
+        "– Merci beaucoup !\n– De rien. Bon voyage !",
+        "Dans le train, Emma trouve une place côté fenêtre. En face d'elle, il y a un jeune homme avec un sac à dos. Au bout de vingt minutes, le contrôleur arrive.",
+        "– Billets, s'il vous plaît.",
+        "Emma donne son billet. Le contrôleur regarde la date et dit : – Merci, c'est bon.",
+        "Puis il prend le billet du jeune homme.\n– Ce billet n'est pas composté. Vous devez payer une amende.",
+        "Le jeune homme devient tout rouge. Emma pense : « Pauvre touriste… »",
+        "– Mais je suis de Pise ! – dit le jeune homme. – Je prends ce train toutes les semaines !\n– Alors vous savez qu'il faut composter, – répond le contrôleur, et il écrit l'amende.",
+        "Emma regarde par la fenêtre. Elle pense au monsieur avec le chien et sourit : grâce à lui, aujourd'hui, l'amende n'est pas pour elle."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Emma bydlí ve Florencii už týden. Dnes je sobota: jede vlakem do Pisy. Chce vidět věž.",
+        "V devět je Emma na nádraží. Jde k pokladně.",
+        "– Dobrý den. Jednu jízdenku do Pisy, prosím.\n– Zpáteční?\n– Ne, jen tam.\n– Devět eur, děkuji.",
+        "Emma zaplatí a vezme si jízdenku. Je to papírová jízdenka. Vlak do Pisy odjíždí v devět dvacet z koleje sedm.",
+        "Emma jde k nástupišti s jízdenkou v ruce. Jeden pán se psem se na ni podívá a říká:",
+        "– Slečno! Jízdenka! Musíte si ji označit!\n– Označit?",
+        "Pán ukáže na malý zeleno-bílý strojek u koleje. Emma vloží jízdenku do strojku. Cvak! Teď je na jízdence datum a čas.",
+        "– Moc děkuju!\n– Není zač. Šťastnou cestu!",
+        "Ve vlaku si Emma najde místo u okna. Naproti ní sedí mladík s batohem. Po dvaceti minutách přijde průvodčí.",
+        "– Jízdenky, prosím.",
+        "Emma mu dá svou jízdenku. Průvodčí se podívá na datum a říká: – Děkuji, v pořádku.",
+        "Pak vezme jízdenku toho mladíka.\n– Tahle jízdenka není označená. Musíte zaplatit pokutu.",
+        "Mladík zčervená. Emma si myslí: „Chudák turista…“",
+        "– Ale já jsem z Pisy! – říká mladík. – Jezdím tímhle vlakem každý týden!\n– Tak víte, že si ji musíte označit, – odpoví průvodčí a napíše pokutu.",
+        "Emma se dívá z okna. Myslí na pána se psem a usmívá se: díky němu dnes pokuta není pro ni."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Emma mieszka we Florencji od tygodnia. Dziś jest sobota: jedzie pociągiem do Pizy. Chce zobaczyć wieżę.",
+        "O dziewiątej Emma jest na dworcu. Idzie do kasy biletowej.",
+        "– Dzień dobry. Poproszę bilet do Pizy.\n– W obie strony?\n– Nie, tylko w jedną.\n– Dziewięć euro, dziękuję.",
+        "Emma płaci i bierze bilet. To papierowy bilet. Pociąg do Pizy odjeżdża o dziewiątej dwadzieścia z peronu siódmego.",
+        "Emma idzie w stronę peronu z biletem w ręce. Pewien pan z psem patrzy na nią i mówi:",
+        "– Proszę pani! Bilet! Trzeba go skasować!\n– Skasować?",
+        "Pan pokazuje mały zielono-biały kasownik przy peronie. Emma wkłada bilet do kasownika. Klik! Teraz na bilecie jest data i godzina.",
+        "– Bardzo dziękuję!\n– Proszę bardzo. Szczęśliwej podróży!",
+        "W pociągu Emma znajduje miejsce przy oknie. Naprzeciwko niej siedzi chłopak z plecakiem. Po dwudziestu minutach przychodzi konduktor.",
+        "– Bilety do kontroli, proszę.",
+        "Emma daje mu swój bilet. Konduktor patrzy na datę i mówi: – Dziękuję, w porządku.",
+        "Potem bierze bilet chłopaka.\n– Ten bilet nie jest skasowany. Musi pan zapłacić mandat.",
+        "Chłopak robi się czerwony. Emma myśli: „Biedny turysta…”",
+        "– Ale ja jestem z Pizy! – mówi chłopak. – Jeżdżę tym pociągiem co tydzień!\n– To wie pan, że trzeba skasować bilet – odpowiada konduktor i wypisuje mandat.",
+        "Emma patrzy przez okno. Myśli o panu z psem i się uśmiecha: dzięki niemu dziś mandat nie jest dla niej."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Emma bir haftadır Floransa'da oturuyor. Bugün cumartesi: trenle Pisa'ya gidiyor. Kuleyi görmek istiyor.",
+        "Saat dokuzda Emma istasyonda. Bilet gişesine gidiyor.",
+        "– Günaydın. Pisa'ya bir bilet, lütfen.\n– Gidiş-dönüş mü?\n– Hayır, sadece gidiş.\n– Dokuz euro, teşekkürler.",
+        "Emma parayı ödüyor ve bileti alıyor. Kâğıt bir bilet. Pisa treni dokuzu yirmi geçe yedinci perondan kalkıyor.",
+        "Emma elinde biletle perona doğru yürüyor. Köpekli bir bey ona bakıyor ve diyor ki:",
+        "– Hanımefendi! Bilet! Bileti damgalamanız lazım!\n– Damgalamak mı?",
+        "Bey, peronun yanındaki küçük, yeşil-beyaz bir makineyi gösteriyor. Emma bileti makineye sokuyor. Tak! Şimdi biletin üstünde tarih ve saat var.",
+        "– Çok teşekkürler!\n– Rica ederim. İyi yolculuklar!",
+        "Trende Emma pencere kenarında bir yer buluyor. Karşısında sırt çantalı bir genç var. Yirmi dakika sonra kondüktör geliyor.",
+        "– Biletler, lütfen.",
+        "Emma biletini veriyor. Kondüktör tarihe bakıyor ve diyor ki: – Teşekkürler, tamam.",
+        "Sonra gencin biletini alıyor.\n– Bu bilet damgalanmamış. Ceza ödemeniz gerekiyor.",
+        "Genç kıpkırmızı oluyor. Emma düşünüyor: «Zavallı turist…»",
+        "– Ama ben Pisalıyım! – diyor genç. – Her hafta bu trene biniyorum!\n– O zaman damgalamanız gerektiğini biliyorsunuz, – diye cevap veriyor kondüktör ve cezayı yazıyor.",
+        "Emma pencereden dışarı bakıyor. Köpekli beyi düşünüyor ve gülümsüyor: onun sayesinde bugün ceza ona değil."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Emma wohnt seit einer Woche in Florenz. Heute ist Samstag: Sie fährt mit dem Zug nach Pisa. Sie will den Turm sehen.",
+        "Um neun ist Emma am Bahnhof. Sie geht zum Fahrkartenschalter.",
+        "– Guten Morgen. Eine Fahrkarte nach Pisa, bitte.\n– Hin und zurück?\n– Nein, nur einfach.\n– Neun Euro, danke.",
+        "Emma bezahlt und nimmt die Fahrkarte. Es ist eine Fahrkarte aus Papier. Der Zug nach Pisa fährt um neun Uhr zwanzig von Gleis sieben ab.",
+        "Emma geht mit der Fahrkarte in der Hand zum Gleis. Ein Herr mit einem Hund sieht sie an und sagt:",
+        "– Junge Frau! Die Fahrkarte! Sie müssen sie entwerten!\n– Entwerten?",
+        "Der Herr zeigt auf eine kleine grün-weiße Maschine neben dem Gleis. Emma steckt die Fahrkarte in die Maschine. Klack! Jetzt stehen Datum und Uhrzeit auf der Fahrkarte.",
+        "– Vielen Dank!\n– Bitte schön. Gute Reise!",
+        "Im Zug findet Emma einen Fensterplatz. Ihr gegenüber sitzt ein junger Mann mit einem Rucksack. Nach zwanzig Minuten kommt der Schaffner.",
+        "– Die Fahrkarten, bitte.",
+        "Emma gibt ihm ihre Fahrkarte. Der Schaffner sieht auf das Datum und sagt: – Danke, in Ordnung.",
+        "Dann nimmt er die Fahrkarte des jungen Mannes.\n– Diese Fahrkarte ist nicht entwertet. Sie müssen eine Strafe zahlen.",
+        "Der junge Mann wird rot. Emma denkt: „Armer Tourist …“",
+        "– Aber ich bin aus Pisa! – sagt der junge Mann. – Ich nehme diesen Zug jede Woche!\n– Dann wissen Sie ja, dass man entwerten muss, – antwortet der Schaffner und schreibt die Strafe aus.",
+        "Emma schaut aus dem Fenster. Sie denkt an den Herrn mit dem Hund und lächelt: Dank ihm ist die Strafe heute nicht für sie."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "エマはフィレンツェに住んで一週間です。今日は土曜日。電車でピサへ行きます。塔を見たいのです。",
+        "9時、エマは駅にいます。切符売り場へ行きます。",
+        "「おはようございます。ピサまで切符を一枚お願いします。」\n「往復ですか？」\n「いいえ、片道だけです。」\n「9ユーロです。ありがとうございます。」",
+        "エマはお金を払って、切符を受け取ります。紙の切符です。ピサ行きの電車は9時20分に7番線から出ます。",
+        "エマは切符を手に持って、ホームのほうへ歩きます。犬を連れた男の人がエマを見て言います。",
+        "「お嬢さん！切符！刻印しないとだめですよ！」\n「刻印？」",
+        "男の人はホームの近くにある緑と白の小さな機械を指さします。エマは切符を機械に入れます。カチャ！これで切符に日付と時刻が入りました。",
+        "「どうもありがとうございます！」\n「どういたしまして。よい旅を！」",
+        "電車の中で、エマは窓側の席を見つけます。向かいにはリュックを持った若者がいます。20分後、車掌が来ます。",
+        "「切符を拝見します。」",
+        "エマは自分の切符を渡します。車掌は日付を見て言います。「ありがとうございます。大丈夫です。」",
+        "それから若者の切符を手に取ります。\n「この切符は刻印されていませんね。罰金を払ってください。」",
+        "若者は顔が真っ赤になります。エマは思います。「かわいそうな観光客…」",
+        "「でも、ぼくはピサの人間ですよ！」と若者は言います。「毎週この電車に乗っているんです！」\n「それなら、刻印が必要なことは知っていますね」と車掌は答えて、罰金の紙を書きます。",
+        "エマは窓の外を見ます。犬を連れた男の人のことを思い出して、ほほえみます。あの人のおかげで、今日の罰金は自分のものではありません。"
+      ]
+    }
+  }
+}
