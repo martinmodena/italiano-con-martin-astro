@@ -1,0 +1,1925 @@
+{
+  "id": "i-vestiti-nuovi-dellimperatore",
+  "nota": "Glossario e traduzione della favola: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+  "voci": [
+    {
+      "parola": "l'imperatore",
+      "forme": [
+        "imperatore"
+      ],
+      "esempi": [
+        "Augusto è stato il primo imperatore romano.",
+        "L'imperatore vive in un grande palazzo.",
+        "Il Giappone ha ancora un imperatore."
+      ],
+      "traduzioni": {
+        "en": "emperor («The Emperor's New Clothes»)",
+        "es": "emperador («El traje nuevo del emperador»)",
+        "pt": "imperador («A roupa nova do imperador»)",
+        "fr": "empereur («Les Habits neufs de l’empereur»)",
+        "cs": "císař («Císařovy nové šaty»)",
+        "pl": "cesarz («Nowe szaty cesarza»)",
+        "tr": "imparator («İmparatorun Yeni Giysileri»)",
+        "de": "Kaiser («Des Kaisers neue Kleider»)",
+        "ja": "皇帝、王さま（「はだかの王様」）"
+      }
+    },
+    {
+      "parola": "il vestito",
+      "forme": [
+        "vestiti"
+      ],
+      "formeEsempi": [
+        "vestito"
+      ],
+      "esempi": [
+        "Ho comprato un vestito nuovo per la festa.",
+        "Metto i vestiti nell'armadio.",
+        "Questo vestito rosso ti sta bene."
+      ],
+      "traduzioni": {
+        "en": "clothes («i vestiti»); dress, suit",
+        "es": "ropa («i vestiti»); vestido, traje",
+        "pt": "roupas («i vestiti»); vestido, terno",
+        "fr": "vêtements («i vestiti»); robe, costume",
+        "cs": "šaty, oblečení",
+        "pl": "ubrania («i vestiti»); sukienka, garnitur",
+        "tr": "giysiler («i vestiti»); elbise",
+        "de": "Kleider («i vestiti»); Kleid, Anzug",
+        "ja": "服"
+      }
+    },
+    {
+      "parola": "l'abito",
+      "forme": [
+        "abiti",
+        "abito"
+      ],
+      "esempi": [
+        "Per il matrimonio indosso un abito blu.",
+        "L'abito non fa il monaco.",
+        "In questo negozio vendono abiti da sera."
+      ],
+      "traduzioni": {
+        "en": "outfit, suit, garment («L'abito non fa il monaco» = clothes don't make the man)",
+        "es": "traje, prenda",
+        "pt": "traje, roupa",
+        "fr": "habit, costume",
+        "cs": "šat, oblek",
+        "pl": "strój, szata",
+        "tr": "kıyafet, elbise",
+        "de": "Gewand, Anzug",
+        "ja": "衣装、服"
+      }
+    },
+    {
+      "parola": "elegante",
+      "forme": [
+        "elegante"
+      ],
+      "esempi": [
+        "Stasera mi vesto elegante.",
+        "Mia nonna è sempre elegante.",
+        "È un ristorante molto elegante."
+      ],
+      "traduzioni": {
+        "en": "elegant, smart",
+        "es": "elegante",
+        "pt": "elegante",
+        "fr": "élégant",
+        "cs": "elegantní",
+        "pl": "elegancki",
+        "tr": "şık",
+        "de": "elegant",
+        "ja": "おしゃれな"
+      }
+    },
+    {
+      "parola": "il tessuto",
+      "forme": [
+        "tessuto"
+      ],
+      "esempi": [
+        "Questo tessuto è molto morbido.",
+        "Compro il tessuto per fare le tende.",
+        "Il lino è un tessuto fresco."
+      ],
+      "traduzioni": {
+        "en": "fabric, cloth",
+        "es": "tela, tejido",
+        "pt": "tecido",
+        "fr": "tissu",
+        "cs": "látka",
+        "pl": "tkanina, materiał",
+        "tr": "kumaş",
+        "de": "Stoff",
+        "ja": "布"
+      }
+    },
+    {
+      "parola": "stupido",
+      "forme": [
+        "stupide",
+        "stupido"
+      ],
+      "formeEsempi": [
+        "stupida"
+      ],
+      "esempi": [
+        "Non è una domanda stupida.",
+        "Che errore stupido ho fatto!",
+        "Mi sento stupida quando non capisco."
+      ],
+      "traduzioni": {
+        "en": "stupid",
+        "es": "tonto, estúpido",
+        "pt": "burro, bobo",
+        "fr": "bête, idiot",
+        "cs": "hloupý",
+        "pl": "głupi",
+        "tr": "aptal",
+        "de": "dumm",
+        "ja": "ばかな、おろかな"
+      }
+    },
+    {
+      "parola": "in realtà",
+      "forme": [
+        "realtà"
+      ],
+      "esempi": [
+        "Sembra facile, ma in realtà è difficile.",
+        "In realtà non mi piace il caffè.",
+        "Il film racconta la realtà della guerra."
+      ],
+      "traduzioni": {
+        "en": "actually, in reality («la realtà» = reality)",
+        "es": "en realidad",
+        "pt": "na verdade",
+        "fr": "en réalité",
+        "cs": "ve skutečnosti",
+        "pl": "w rzeczywistości",
+        "tr": "aslında",
+        "de": "in Wirklichkeit",
+        "ja": "実は、現実"
+      }
+    },
+    {
+      "parola": "l'imbroglione",
+      "forme": [
+        "imbroglioni"
+      ],
+      "formeEsempi": [
+        "imbroglione"
+      ],
+      "esempi": [
+        "Attento, quel venditore è un imbroglione!",
+        "Gli imbroglioni vendono orologi falsi.",
+        "Non fidarti degli imbroglioni su internet."
+      ],
+      "traduzioni": {
+        "en": "swindler, cheat",
+        "es": "estafador, tramposo",
+        "pt": "trapaceiro, vigarista",
+        "fr": "escroc, filou",
+        "cs": "podvodník",
+        "pl": "oszust, kanciarz",
+        "tr": "dolandırıcı",
+        "de": "Betrüger",
+        "ja": "ペテン師"
+      }
+    },
+    {
+      "parola": "mandare",
+      "forme": [
+        "manda"
+      ],
+      "formeEsempi": [
+        "mando"
+      ],
+      "esempi": [
+        "Ti mando un messaggio stasera.",
+        "La mamma manda il figlio a comprare il pane.",
+        "Il capo manda un collega a Roma."
+      ],
+      "traduzioni": {
+        "en": "to send",
+        "es": "enviar, mandar",
+        "pt": "mandar, enviar",
+        "fr": "envoyer",
+        "cs": "poslat",
+        "pl": "wysłać",
+        "tr": "göndermek",
+        "de": "schicken",
+        "ja": "送る、行かせる"
+      }
+    },
+    {
+      "parola": "il ministro",
+      "forme": [
+        "ministro",
+        "ministri"
+      ],
+      "esempi": [
+        "Il ministro parla in televisione.",
+        "Il re ascolta i suoi ministri.",
+        "Il nuovo ministro della scuola è giovane."
+      ],
+      "traduzioni": {
+        "en": "minister",
+        "es": "ministro",
+        "pt": "ministro",
+        "fr": "ministre",
+        "cs": "ministr",
+        "pl": "minister",
+        "tr": "bakan, vezir",
+        "de": "Minister",
+        "ja": "大臣"
+      }
+    },
+    {
+      "parola": "controllare",
+      "forme": [
+        "controllare"
+      ],
+      "formeEsempi": [
+        "controllo"
+      ],
+      "esempi": [
+        "Devo controllare l'orario del treno.",
+        "Controllo sempre la posta la mattina.",
+        "Il medico vuole controllare la ferita."
+      ],
+      "traduzioni": {
+        "en": "to check, to inspect",
+        "es": "comprobar, revisar",
+        "pt": "verificar, conferir",
+        "fr": "vérifier, contrôler",
+        "cs": "zkontrolovat",
+        "pl": "sprawdzić",
+        "tr": "kontrol etmek",
+        "de": "kontrollieren, prüfen",
+        "ja": "確かめる"
+      }
+    },
+    {
+      "parola": "sembrare",
+      "forme": [
+        "sembrare"
+      ],
+      "formeEsempi": [
+        "sembra"
+      ],
+      "esempi": [
+        "Sembra una brava persona.",
+        "Non voglio sembrare maleducato.",
+        "Oggi sembra estate!"
+      ],
+      "traduzioni": {
+        "en": "to seem, to look",
+        "es": "parecer",
+        "pt": "parecer",
+        "fr": "sembler, paraître",
+        "cs": "zdát se, vypadat",
+        "pl": "wydawać się, wyglądać",
+        "tr": "görünmek, gibi durmak",
+        "de": "scheinen, wirken",
+        "ja": "〜に見える"
+      }
+    },
+    {
+      "parola": "fingere",
+      "forme": [
+        "finge"
+      ],
+      "formeEsempi": [
+        "fingo",
+        "fingere"
+      ],
+      "esempi": [
+        "Il bambino finge di dormire.",
+        "Fingo di non sentire.",
+        "Non fingere, so che sei arrabbiato."
+      ],
+      "traduzioni": {
+        "en": "to pretend",
+        "es": "fingir",
+        "pt": "fingir",
+        "fr": "faire semblant",
+        "cs": "předstírat",
+        "pl": "udawać",
+        "tr": "-mış gibi yapmak",
+        "de": "so tun, als ob",
+        "ja": "ふりをする"
+      }
+    },
+    {
+      "parola": "fare finta di",
+      "forme": [
+        "finta"
+      ],
+      "esempi": [
+        "Fa finta di non vedermi.",
+        "I bambini fanno finta di essere pirati.",
+        "Ho fatto finta di niente."
+      ],
+      "traduzioni": {
+        "en": "to pretend",
+        "es": "hacer como que, fingir",
+        "pt": "fazer de conta, fingir",
+        "fr": "faire semblant de",
+        "cs": "dělat, že",
+        "pl": "udawać, że",
+        "tr": "-mış gibi yapmak",
+        "de": "so tun, als ob",
+        "ja": "ふりをする"
+      }
+    },
+    {
+      "parola": "la sfilata",
+      "forme": [
+        "sfilata"
+      ],
+      "esempi": [
+        "A Milano c'è la sfilata di moda.",
+        "Il 2 giugno guardiamo la sfilata in TV.",
+        "Dopo la sfilata i modelli salutano il pubblico."
+      ],
+      "traduzioni": {
+        "en": "parade, procession; fashion show",
+        "es": "desfile",
+        "pt": "desfile",
+        "fr": "défilé",
+        "cs": "průvod, přehlídka",
+        "pl": "parada, pokaz",
+        "tr": "geçit töreni, defile",
+        "de": "Umzug, Parade",
+        "ja": "行列、パレード"
+      }
+    },
+    {
+      "parola": "il cortigiano",
+      "forme": [
+        "cortigiani"
+      ],
+      "formeEsempi": [
+        "cortigiano"
+      ],
+      "esempi": [
+        "Il re era sempre circondato dai cortigiani.",
+        "Il cortigiano dice sempre di sì al re.",
+        "I cortigiani applaudono ogni parola del principe."
+      ],
+      "traduzioni": {
+        "en": "courtier",
+        "es": "cortesano",
+        "pt": "cortesão",
+        "fr": "courtisan",
+        "cs": "dvořan",
+        "pl": "dworzanin",
+        "tr": "saray adamı",
+        "de": "Höfling",
+        "ja": "家来、廷臣"
+      }
+    },
+    {
+      "parola": "ammirare",
+      "forme": [
+        "ammirano"
+      ],
+      "formeEsempi": [
+        "ammiro",
+        "ammira"
+      ],
+      "esempi": [
+        "I turisti ammirano il Colosseo.",
+        "Ammiro molto il tuo coraggio.",
+        "Dal balcone ammira il tramonto."
+      ],
+      "traduzioni": {
+        "en": "to admire",
+        "es": "admirar",
+        "pt": "admirar",
+        "fr": "admirer",
+        "cs": "obdivovat",
+        "pl": "podziwiać",
+        "tr": "hayranlıkla bakmak",
+        "de": "bewundern",
+        "ja": "感心して見る"
+      }
+    },
+    {
+      "parola": "esistere",
+      "forme": [
+        "esistono"
+      ],
+      "formeEsempi": [
+        "esiste"
+      ],
+      "esempi": [
+        "I draghi non esistono.",
+        "Esiste una parola per questo?",
+        "Esistono molte lingue nel mondo."
+      ],
+      "traduzioni": {
+        "en": "to exist",
+        "es": "existir",
+        "pt": "existir",
+        "fr": "exister",
+        "cs": "existovat",
+        "pl": "istnieć",
+        "tr": "var olmak",
+        "de": "existieren, geben",
+        "ja": "存在する"
+      }
+    },
+    {
+      "parola": "la gente",
+      "forme": [
+        "gente"
+      ],
+      "esempi": [
+        "In piazza c'è tanta gente.",
+        "La gente parla troppo.",
+        "Mi piace conoscere gente nuova."
+      ],
+      "traduzioni": {
+        "en": "people (singular in Italian: «la gente è»)",
+        "es": "gente",
+        "pt": "gente, pessoas",
+        "fr": "gens",
+        "cs": "lidé",
+        "pl": "ludzie",
+        "tr": "insanlar, halk",
+        "de": "Leute",
+        "ja": "人々"
+      }
+    },
+    {
+      "parola": "all'improvviso",
+      "forme": [
+        "improvviso"
+      ],
+      "esempi": [
+        "All'improvviso è andata via la luce.",
+        "Ha cominciato a piovere all'improvviso.",
+        "È arrivato all'improvviso, senza avvisare."
+      ],
+      "traduzioni": {
+        "en": "suddenly",
+        "es": "de repente",
+        "pt": "de repente",
+        "fr": "soudain, tout à coup",
+        "cs": "najednou",
+        "pl": "nagle",
+        "tr": "birdenbire",
+        "de": "plötzlich",
+        "ja": "突然"
+      }
+    },
+    {
+      "parola": "vergognarsi",
+      "forme": [
+        "vergogna"
+      ],
+      "formeEsempi": [
+        "vergogno",
+        "vergognarti"
+      ],
+      "esempi": [
+        "Mi vergogno quando parlo in pubblico.",
+        "Il bambino si vergogna e diventa rosso.",
+        "Non devi vergognarti dei tuoi errori."
+      ],
+      "traduzioni": {
+        "en": "to be ashamed, to be embarrassed",
+        "es": "avergonzarse, darle vergüenza",
+        "pt": "ter vergonha",
+        "fr": "avoir honte",
+        "cs": "stydět se",
+        "pl": "wstydzić się",
+        "tr": "utanmak",
+        "de": "sich schämen",
+        "ja": "恥ずかしく思う"
+      }
+    },
+    {
+      "parola": "l'orgoglio",
+      "forme": [
+        "orgoglio"
+      ],
+      "esempi": [
+        "Per orgoglio non chiede mai scusa.",
+        "Mia figlia è il mio orgoglio.",
+        "Parla del suo lavoro con orgoglio."
+      ],
+      "traduzioni": {
+        "en": "pride",
+        "es": "orgullo",
+        "pt": "orgulho",
+        "fr": "orgueil, fierté",
+        "cs": "pýcha",
+        "pl": "duma",
+        "tr": "gurur",
+        "de": "Stolz",
+        "ja": "プライド、うぬぼれ"
+      }
+    },
+    {
+      "parola": "la verità",
+      "forme": [
+        "verità"
+      ],
+      "esempi": [
+        "Dimmi la verità!",
+        "La verità è che sono stanco.",
+        "Prima o poi la verità viene fuori."
+      ],
+      "traduzioni": {
+        "en": "truth",
+        "es": "verdad",
+        "pt": "verdade",
+        "fr": "vérité",
+        "cs": "pravda",
+        "pl": "prawda",
+        "tr": "gerçek",
+        "de": "Wahrheit",
+        "ja": "真実"
+      }
+    },
+    {
+      "parola": "spendere",
+      "forme": [
+        "spendeva"
+      ],
+      "formeEsempi": [
+        "spendo",
+        "speso"
+      ],
+      "esempi": [
+        "Spendo troppo per i vestiti.",
+        "Quanto hai speso per il viaggio?",
+        "Da giovane spendeva tutto in libri."
+      ],
+      "traduzioni": {
+        "en": "to spend (money)",
+        "es": "gastar",
+        "pt": "gastar",
+        "fr": "dépenser",
+        "cs": "utrácet",
+        "pl": "wydawać (pieniądze)",
+        "tr": "harcamak",
+        "de": "ausgeben",
+        "ja": "（お金を）使う"
+      }
+    },
+    {
+      "parola": "il denaro",
+      "forme": [
+        "denaro"
+      ],
+      "esempi": [
+        "Il denaro non fa la felicità.",
+        "Ho prelevato denaro al bancomat.",
+        "Non sprecare il denaro."
+      ],
+      "traduzioni": {
+        "en": "money",
+        "es": "dinero",
+        "pt": "dinheiro",
+        "fr": "argent",
+        "cs": "peníze",
+        "pl": "pieniądze",
+        "tr": "para",
+        "de": "Geld",
+        "ja": "お金"
+      }
+    },
+    {
+      "parola": "falso",
+      "forme": [
+        "falsi"
+      ],
+      "formeEsempi": [
+        "falso",
+        "falsa",
+        "false"
+      ],
+      "esempi": [
+        "Questa notizia è falsa.",
+        "Al mercato vendono borse false.",
+        "Non mi piacciono le persone false."
+      ],
+      "traduzioni": {
+        "en": "fake, false",
+        "es": "falso",
+        "pt": "falso",
+        "fr": "faux",
+        "cs": "falešný",
+        "pl": "fałszywy",
+        "tr": "sahte",
+        "de": "falsch, unecht",
+        "ja": "にせの"
+      }
+    },
+    {
+      "parola": "il tessitore",
+      "forme": [
+        "tessitori"
+      ],
+      "formeEsempi": [
+        "tessitore",
+        "tessitrice"
+      ],
+      "esempi": [
+        "Il tessitore lavora al telaio.",
+        "In questo paese c'erano molti tessitori.",
+        "Mia nonna era una tessitrice."
+      ],
+      "traduzioni": {
+        "en": "weaver",
+        "es": "tejedor",
+        "pt": "tecelão",
+        "fr": "tisserand",
+        "cs": "tkadlec",
+        "pl": "tkacz",
+        "tr": "dokumacı",
+        "de": "Weber",
+        "ja": "はた織り職人"
+      }
+    },
+    {
+      "parola": "promettere",
+      "forme": [
+        "promesso"
+      ],
+      "formeEsempi": [
+        "prometto"
+      ],
+      "esempi": [
+        "Ti prometto che torno presto.",
+        "Mi ha promesso un regalo.",
+        "Hai promesso di aiutarmi!"
+      ],
+      "traduzioni": {
+        "en": "to promise",
+        "es": "prometer",
+        "pt": "prometer",
+        "fr": "promettre",
+        "cs": "slíbit",
+        "pl": "obiecać",
+        "tr": "söz vermek",
+        "de": "versprechen",
+        "ja": "約束する"
+      }
+    },
+    {
+      "parola": "la stoffa",
+      "forme": [
+        "stoffa"
+      ],
+      "esempi": [
+        "Questa stoffa è di seta.",
+        "Compro la stoffa per un vestito.",
+        "Ha la stoffa del campione."
+      ],
+      "traduzioni": {
+        "en": "cloth, fabric («avere la stoffa» = to have what it takes)",
+        "es": "tela",
+        "pt": "pano, tecido",
+        "fr": "étoffe, tissu",
+        "cs": "látka",
+        "pl": "materiał, tkanina",
+        "tr": "kumaş",
+        "de": "Stoff",
+        "ja": "布地"
+      }
+    },
+    {
+      "parola": "straordinario",
+      "forme": [
+        "straordinaria"
+      ],
+      "formeEsempi": [
+        "straordinario"
+      ],
+      "esempi": [
+        "È stata una giornata straordinaria.",
+        "Ha una voce straordinaria.",
+        "Questo panorama è straordinario."
+      ],
+      "traduzioni": {
+        "en": "extraordinary, amazing",
+        "es": "extraordinario",
+        "pt": "extraordinário",
+        "fr": "extraordinaire",
+        "cs": "mimořádný",
+        "pl": "niezwykły",
+        "tr": "olağanüstü",
+        "de": "außergewöhnlich",
+        "ja": "すばらしい、並外れた"
+      }
+    },
+    {
+      "parola": "invisibile",
+      "forme": [
+        "invisibile"
+      ],
+      "esempi": [
+        "L'aria è invisibile.",
+        "Mi sento invisibile in questa città.",
+        "Il gatto nero è quasi invisibile di notte."
+      ],
+      "traduzioni": {
+        "en": "invisible",
+        "es": "invisible",
+        "pt": "invisível",
+        "fr": "invisible",
+        "cs": "neviditelný",
+        "pl": "niewidzialny",
+        "tr": "görünmez",
+        "de": "unsichtbar",
+        "ja": "目に見えない"
+      }
+    },
+    {
+      "parola": "incapace",
+      "forme": [
+        "incapaci",
+        "incapace"
+      ],
+      "esempi": [
+        "Sono incapace di cucinare.",
+        "Il capo dice che i nuovi colleghi sono incapaci.",
+        "Era incapace di dire di no."
+      ],
+      "traduzioni": {
+        "en": "incompetent, unable",
+        "es": "incapaz, inepto",
+        "pt": "incapaz, incompetente",
+        "fr": "incapable",
+        "cs": "neschopný",
+        "pl": "niezdolny, nieudolny",
+        "tr": "beceriksiz, yeteneksiz",
+        "de": "unfähig",
+        "ja": "無能な、できない"
+      }
+    },
+    {
+      "parola": "svolgere",
+      "forme": [
+        "svolgere"
+      ],
+      "formeEsempi": [
+        "svolge"
+      ],
+      "esempi": [
+        "Svolge un lavoro molto importante.",
+        "Gli studenti devono svolgere gli esercizi.",
+        "La riunione si svolge in sala grande."
+      ],
+      "traduzioni": {
+        "en": "to carry out, to do (a job)",
+        "es": "desempeñar, realizar",
+        "pt": "desempenhar, realizar",
+        "fr": "accomplir, exercer",
+        "cs": "vykonávat",
+        "pl": "wykonywać",
+        "tr": "yapmak, yürütmek",
+        "de": "ausüben, erledigen",
+        "ja": "（仕事を）こなす"
+      }
+    },
+    {
+      "parola": "prezioso",
+      "forme": [
+        "preziosi"
+      ],
+      "formeEsempi": [
+        "prezioso",
+        "preziosa"
+      ],
+      "esempi": [
+        "L'oro è un metallo prezioso.",
+        "Il tempo è prezioso.",
+        "Mi hai dato consigli preziosi."
+      ],
+      "traduzioni": {
+        "en": "precious, valuable",
+        "es": "precioso, valioso",
+        "pt": "precioso, valioso",
+        "fr": "précieux",
+        "cs": "drahocenný, vzácný",
+        "pl": "cenny, drogocenny",
+        "tr": "değerli",
+        "de": "kostbar, wertvoll",
+        "ja": "貴重な"
+      }
+    },
+    {
+      "parola": "il telaio",
+      "forme": [
+        "telai"
+      ],
+      "formeEsempi": [
+        "telaio"
+      ],
+      "esempi": [
+        "La nonna tesseva al telaio.",
+        "Nel museo ci sono antichi telai.",
+        "Il telaio della bici è rotto."
+      ],
+      "traduzioni": {
+        "en": "loom; frame",
+        "es": "telar",
+        "pt": "tear",
+        "fr": "métier à tisser",
+        "cs": "tkalcovský stav",
+        "pl": "krosno",
+        "tr": "dokuma tezgâhı",
+        "de": "Webstuhl",
+        "ja": "はた織り機"
+      }
+    },
+    {
+      "parola": "vuoto",
+      "forme": [
+        "vuoti"
+      ],
+      "formeEsempi": [
+        "vuoto",
+        "vuota"
+      ],
+      "esempi": [
+        "Il frigo è vuoto.",
+        "La strada è vuota di notte.",
+        "Butta i bicchieri vuoti."
+      ],
+      "traduzioni": {
+        "en": "empty",
+        "es": "vacío",
+        "pt": "vazio",
+        "fr": "vide",
+        "cs": "prázdný",
+        "pl": "pusty",
+        "tr": "boş",
+        "de": "leer",
+        "ja": "からの"
+      }
+    },
+    {
+      "parola": "tuttavia",
+      "forme": [
+        "tuttavia"
+      ],
+      "esempi": [
+        "È caro, tuttavia lo compro.",
+        "Era stanco; tuttavia ha finito il lavoro.",
+        "Piove, tuttavia usciamo."
+      ],
+      "traduzioni": {
+        "en": "however, nevertheless",
+        "es": "sin embargo",
+        "pt": "no entanto, contudo",
+        "fr": "cependant, pourtant",
+        "cs": "přesto, však",
+        "pl": "jednak, mimo to",
+        "tr": "yine de, ancak",
+        "de": "dennoch, jedoch",
+        "ja": "しかしながら"
+      }
+    },
+    {
+      "parola": "l'incarico",
+      "forme": [
+        "incarico"
+      ],
+      "esempi": [
+        "Ho un nuovo incarico in ufficio.",
+        "Il sindaco gli ha dato un incarico importante.",
+        "Ha lasciato l'incarico dopo tre anni."
+      ],
+      "traduzioni": {
+        "en": "post, position, task",
+        "es": "cargo, puesto",
+        "pt": "cargo, função",
+        "fr": "poste, charge",
+        "cs": "úřad, funkce",
+        "pl": "stanowisko, funkcja",
+        "tr": "görev, makam",
+        "de": "Amt, Posten",
+        "ja": "役職、職務"
+      }
+    },
+    {
+      "parola": "descrivere",
+      "forme": [
+        "descritto",
+        "descrivere"
+      ],
+      "formeEsempi": [
+        "descrivo"
+      ],
+      "esempi": [
+        "Descrivo la mia casa in italiano.",
+        "Puoi descrivere l'uomo che hai visto?",
+        "Ha descritto il viaggio nei dettagli."
+      ],
+      "traduzioni": {
+        "en": "to describe",
+        "es": "describir",
+        "pt": "descrever",
+        "fr": "décrire",
+        "cs": "popsat",
+        "pl": "opisać",
+        "tr": "tarif etmek, anlatmak",
+        "de": "beschreiben",
+        "ja": "説明する、描写する"
+      }
+    },
+    {
+      "parola": "ammettere",
+      "forme": [
+        "ammetterlo"
+      ],
+      "formeEsempi": [
+        "ammetto",
+        "ammettere"
+      ],
+      "esempi": [
+        "Ammetto di aver sbagliato.",
+        "Ha paura, ma non vuole ammetterlo.",
+        "Devi ammettere che è bello."
+      ],
+      "traduzioni": {
+        "en": "to admit",
+        "es": "admitir, reconocer",
+        "pt": "admitir",
+        "fr": "admettre, avouer",
+        "cs": "přiznat",
+        "pl": "przyznać",
+        "tr": "kabul etmek",
+        "de": "zugeben",
+        "ja": "認める"
+      }
+    },
+    {
+      "parola": "magnifico",
+      "forme": [
+        "magnifica"
+      ],
+      "formeEsempi": [
+        "magnifico"
+      ],
+      "esempi": [
+        "Che giornata magnifica!",
+        "Il panorama è magnifico.",
+        "Hai fatto un lavoro magnifico."
+      ],
+      "traduzioni": {
+        "en": "magnificent, wonderful",
+        "es": "magnífico",
+        "pt": "magnífico",
+        "fr": "magnifique",
+        "cs": "nádherný",
+        "pl": "wspaniały",
+        "tr": "muhteşem",
+        "de": "prächtig, herrlich",
+        "ja": "すばらしい"
+      }
+    },
+    {
+      "parola": "addosso",
+      "forme": [
+        "addosso"
+      ],
+      "esempi": [
+        "Ha addosso un cappotto rosso.",
+        "Mettiti addosso qualcosa di caldo.",
+        "Mi è caduto il caffè addosso!"
+      ],
+      "traduzioni": {
+        "en": "on (one's body) («mettere addosso» = to put on someone)",
+        "es": "encima, puesto",
+        "pt": "no corpo, em cima",
+        "fr": "sur soi",
+        "cs": "na sobě",
+        "pl": "na sobie",
+        "tr": "üstünde",
+        "de": "am Leib",
+        "ja": "身につけて"
+      }
+    },
+    {
+      "parola": "la parata",
+      "forme": [
+        "parata"
+      ],
+      "esempi": [
+        "Il 2 giugno c'è la parata a Roma.",
+        "I bambini guardano la parata di carnevale.",
+        "La parata passa sotto casa mia."
+      ],
+      "traduzioni": {
+        "en": "parade",
+        "es": "desfile",
+        "pt": "desfile",
+        "fr": "défilé, parade",
+        "cs": "průvod",
+        "pl": "parada",
+        "tr": "geçit töreni",
+        "de": "Parade, Umzug",
+        "ja": "パレード"
+      }
+    },
+    {
+      "parola": "applaudire",
+      "forme": [
+        "applaudivano",
+        "applaudito"
+      ],
+      "formeEsempi": [
+        "applaude"
+      ],
+      "esempi": [
+        "Il pubblico applaude il cantante.",
+        "Alla fine del concerto tutti hanno applaudito.",
+        "I bambini applaudivano felici."
+      ],
+      "traduzioni": {
+        "en": "to applaud, to clap",
+        "es": "aplaudir",
+        "pt": "aplaudir",
+        "fr": "applaudir",
+        "cs": "tleskat",
+        "pl": "klaskać, oklaskiwać",
+        "tr": "alkışlamak",
+        "de": "klatschen, applaudieren",
+        "ja": "拍手する"
+      }
+    },
+    {
+      "parola": "ad alta voce",
+      "forme": [
+        "voce"
+      ],
+      "esempi": [
+        "Leggi ad alta voce, per favore.",
+        "Ha detto ad alta voce quello che pensava.",
+        "Non parlare ad alta voce in biblioteca."
+      ],
+      "traduzioni": {
+        "en": "out loud",
+        "es": "en voz alta",
+        "pt": "em voz alta",
+        "fr": "à voix haute",
+        "cs": "nahlas",
+        "pl": "na głos",
+        "tr": "yüksek sesle",
+        "de": "laut",
+        "ja": "大きな声で"
+      }
+    },
+    {
+      "parola": "indossare",
+      "forme": [
+        "indossa"
+      ],
+      "formeEsempi": [
+        "indosso"
+      ],
+      "esempi": [
+        "Oggi indosso una giacca blu.",
+        "La sposa indossa un abito bianco.",
+        "Indossa sempre gli occhiali da sole."
+      ],
+      "traduzioni": {
+        "en": "to wear, to have on",
+        "es": "llevar puesto",
+        "pt": "vestir, usar",
+        "fr": "porter (un vêtement)",
+        "cs": "mít na sobě",
+        "pl": "mieć na sobie",
+        "tr": "giymek",
+        "de": "tragen, anhaben",
+        "ja": "着ている"
+      }
+    },
+    {
+      "parola": "ingannare",
+      "forme": [
+        "ingannato"
+      ],
+      "formeEsempi": [
+        "inganna",
+        "ingannano"
+      ],
+      "esempi": [
+        "Mi hanno ingannato: il telefono era rotto.",
+        "Le apparenze ingannano.",
+        "Il venditore inganna i turisti."
+      ],
+      "traduzioni": {
+        "en": "to deceive, to fool",
+        "es": "engañar",
+        "pt": "enganar",
+        "fr": "tromper",
+        "cs": "oklamat",
+        "pl": "oszukać",
+        "tr": "kandırmak",
+        "de": "täuschen, betrügen",
+        "ja": "だます"
+      }
+    },
+    {
+      "parola": "imbarazzato",
+      "forme": [
+        "imbarazzato"
+      ],
+      "formeEsempi": [
+        "imbarazzata"
+      ],
+      "esempi": [
+        "Ero imbarazzato e non sapevo cosa dire.",
+        "È diventata rossa: era imbarazzata.",
+        "Ha sorriso in modo imbarazzato."
+      ],
+      "traduzioni": {
+        "en": "embarrassed",
+        "es": "avergonzado, incómodo",
+        "pt": "envergonhado, sem graça",
+        "fr": "gêné",
+        "cs": "rozpačitý, v rozpacích",
+        "pl": "zakłopotany",
+        "tr": "utanmış, mahcup",
+        "de": "verlegen",
+        "ja": "気まずい、恥ずかしい"
+      }
+    },
+    {
+      "parola": "terminare",
+      "forme": [
+        "terminato"
+      ],
+      "formeEsempi": [
+        "termina"
+      ],
+      "esempi": [
+        "La lezione termina alle sei.",
+        "Ho terminato il lavoro.",
+        "Il film è terminato tardi."
+      ],
+      "traduzioni": {
+        "en": "to finish, to end",
+        "es": "terminar",
+        "pt": "terminar",
+        "fr": "terminer",
+        "cs": "dokončit",
+        "pl": "zakończyć",
+        "tr": "bitirmek",
+        "de": "beenden",
+        "ja": "終える"
+      }
+    },
+    {
+      "parola": "il giudizio",
+      "forme": [
+        "giudizio"
+      ],
+      "esempi": [
+        "Ho paura del giudizio degli altri.",
+        "Mi fido del tuo giudizio.",
+        "Non dare un giudizio troppo presto."
+      ],
+      "traduzioni": {
+        "en": "judgement, opinion",
+        "es": "juicio, opinión",
+        "pt": "julgamento, opinião",
+        "fr": "jugement",
+        "cs": "soud, úsudek",
+        "pl": "ocena, osąd",
+        "tr": "yargı, görüş",
+        "de": "Urteil",
+        "ja": "評価、人の目"
+      }
+    },
+    {
+      "parola": "il regno",
+      "forme": [
+        "regno"
+      ],
+      "esempi": [
+        "Il Regno Unito è in Europa.",
+        "Il re governa il suo regno.",
+        "In un regno lontano viveva una principessa."
+      ],
+      "traduzioni": {
+        "en": "kingdom",
+        "es": "reino",
+        "pt": "reino",
+        "fr": "royaume",
+        "cs": "království",
+        "pl": "królestwo",
+        "tr": "krallık",
+        "de": "Königreich, Reich",
+        "ja": "王国"
+      }
+    },
+    {
+      "parola": "ossessionato",
+      "forme": [
+        "ossessionato"
+      ],
+      "formeEsempi": [
+        "ossessionata"
+      ],
+      "esempi": [
+        "È ossessionato dal calcio.",
+        "Mia sorella è ossessionata dalla pulizia.",
+        "Non essere ossessionato dal lavoro."
+      ],
+      "traduzioni": {
+        "en": "obsessed",
+        "es": "obsesionado",
+        "pt": "obcecado",
+        "fr": "obsédé",
+        "cs": "posedlý",
+        "pl": "mający obsesję",
+        "tr": "takıntılı",
+        "de": "besessen",
+        "ja": "とりつかれた"
+      }
+    },
+    {
+      "parola": "dedicare",
+      "forme": [
+        "dedicava"
+      ],
+      "formeEsempi": [
+        "dedico",
+        "dedicato"
+      ],
+      "esempi": [
+        "Dedico un'ora al giorno all'italiano.",
+        "Ha dedicato il libro alla madre.",
+        "Da giovane dedicava tutto il tempo allo sport."
+      ],
+      "traduzioni": {
+        "en": "to devote, to dedicate",
+        "es": "dedicar",
+        "pt": "dedicar",
+        "fr": "consacrer",
+        "cs": "věnovat",
+        "pl": "poświęcać",
+        "tr": "ayırmak, adamak",
+        "de": "widmen",
+        "ja": "ささげる、費やす"
+      }
+    },
+    {
+      "parola": "il truffatore",
+      "forme": [
+        "truffatori"
+      ],
+      "formeEsempi": [
+        "truffatore"
+      ],
+      "esempi": [
+        "La polizia ha arrestato due truffatori.",
+        "Il truffatore ha venduto una casa che non esiste.",
+        "Attenzione ai truffatori al telefono."
+      ],
+      "traduzioni": {
+        "en": "con man, fraudster",
+        "es": "estafador",
+        "pt": "golpista, trapaceiro",
+        "fr": "escroc",
+        "cs": "podvodník",
+        "pl": "oszust",
+        "tr": "dolandırıcı",
+        "de": "Betrüger",
+        "ja": "詐欺師"
+      }
+    },
+    {
+      "parola": "la corte",
+      "forme": [
+        "corte"
+      ],
+      "esempi": [
+        "A corte tutti obbedivano al re.",
+        "Il pittore lavorava alla corte dei Medici.",
+        "La corte del castello è molto grande."
+      ],
+      "traduzioni": {
+        "en": "(royal) court",
+        "es": "corte",
+        "pt": "corte",
+        "fr": "cour",
+        "cs": "dvůr",
+        "pl": "dwór",
+        "tr": "saray",
+        "de": "Hof",
+        "ja": "宮廷"
+      }
+    },
+    {
+      "parola": "dichiarare",
+      "forme": [
+        "dichiarato"
+      ],
+      "formeEsempi": [
+        "dichiara",
+        "dichiarare"
+      ],
+      "esempi": [
+        "Ha dichiarato di essere innocente.",
+        "Il sindaco dichiara la festa aperta.",
+        "Alla dogana devi dichiarare cosa porti."
+      ],
+      "traduzioni": {
+        "en": "to declare, to claim",
+        "es": "declarar, afirmar",
+        "pt": "declarar, afirmar",
+        "fr": "déclarer, affirmer",
+        "cs": "prohlásit",
+        "pl": "oświadczyć",
+        "tr": "beyan etmek, iddia etmek",
+        "de": "erklären, behaupten",
+        "ja": "宣言する、言い張る"
+      }
+    },
+    {
+      "parola": "eccezionale",
+      "forme": [
+        "eccezionale"
+      ],
+      "esempi": [
+        "È un medico eccezionale.",
+        "Questa pizza è eccezionale!",
+        "Oggi è una giornata eccezionale."
+      ],
+      "traduzioni": {
+        "en": "exceptional",
+        "es": "excepcional",
+        "pt": "excepcional",
+        "fr": "exceptionnel",
+        "cs": "výjimečný",
+        "pl": "wyjątkowy",
+        "tr": "olağanüstü",
+        "de": "außergewöhnlich",
+        "ja": "並外れた"
+      }
+    },
+    {
+      "parola": "inadatto",
+      "forme": [
+        "inadatto"
+      ],
+      "formeEsempi": [
+        "inadatta",
+        "inadatte"
+      ],
+      "esempi": [
+        "Questo film è inadatto ai bambini.",
+        "Si sente inadatto al nuovo lavoro.",
+        "Queste scarpe sono inadatte alla montagna."
+      ],
+      "traduzioni": {
+        "en": "unfit, unsuitable",
+        "es": "no apto, inadecuado",
+        "pt": "inadequado, inapto",
+        "fr": "inapte, inadapté",
+        "cs": "nezpůsobilý, nevhodný",
+        "pl": "nienadający się",
+        "tr": "uygun olmayan",
+        "de": "ungeeignet",
+        "ja": "ふさわしくない"
+      }
+    },
+    {
+      "parola": "il funzionario",
+      "forme": [
+        "funzionari"
+      ],
+      "formeEsempi": [
+        "funzionario"
+      ],
+      "esempi": [
+        "Un funzionario del comune controlla i documenti.",
+        "I funzionari lavorano in ministero.",
+        "Ho parlato con un funzionario della banca."
+      ],
+      "traduzioni": {
+        "en": "official, civil servant",
+        "es": "funcionario",
+        "pt": "funcionário (público)",
+        "fr": "fonctionnaire",
+        "cs": "úředník",
+        "pl": "urzędnik",
+        "tr": "memur",
+        "de": "Beamter",
+        "ja": "役人"
+      }
+    },
+    {
+      "parola": "consegnare",
+      "forme": [
+        "consegnato"
+      ],
+      "formeEsempi": [
+        "consegna"
+      ],
+      "esempi": [
+        "Il postino consegna i pacchi.",
+        "Ho consegnato il compito al professore.",
+        "Mi hanno consegnato le chiavi della casa."
+      ],
+      "traduzioni": {
+        "en": "to hand over, to deliver",
+        "es": "entregar",
+        "pt": "entregar",
+        "fr": "remettre, livrer",
+        "cs": "předat",
+        "pl": "przekazać, dostarczyć",
+        "tr": "teslim etmek",
+        "de": "übergeben, liefern",
+        "ja": "渡す"
+      }
+    },
+    {
+      "parola": "la seta",
+      "forme": [
+        "seta"
+      ],
+      "esempi": [
+        "La sciarpa è di seta.",
+        "Como è famosa per la seta.",
+        "La seta è morbida e leggera."
+      ],
+      "traduzioni": {
+        "en": "silk",
+        "es": "seda",
+        "pt": "seda",
+        "fr": "soie",
+        "cs": "hedvábí",
+        "pl": "jedwab",
+        "tr": "ipek",
+        "de": "Seide",
+        "ja": "絹"
+      }
+    },
+    {
+      "parola": "nascondere",
+      "forme": [
+        "nascosto"
+      ],
+      "formeEsempi": [
+        "nascondo"
+      ],
+      "esempi": [
+        "Nascondo il regalo nell'armadio.",
+        "Il gatto ha nascosto il topolino di pezza.",
+        "Dove hai nascosto le chiavi?"
+      ],
+      "traduzioni": {
+        "en": "to hide",
+        "es": "esconder",
+        "pt": "esconder",
+        "fr": "cacher",
+        "cs": "schovat",
+        "pl": "schować",
+        "tr": "saklamak",
+        "de": "verstecken",
+        "ja": "かくす"
+      }
+    },
+    {
+      "parola": "temere",
+      "forme": [
+        "temuto"
+      ],
+      "formeEsempi": [
+        "temo",
+        "temere"
+      ],
+      "esempi": [
+        "Temo di arrivare tardi.",
+        "Ho temuto il peggio.",
+        "Non temere, ti aiuto io."
+      ],
+      "traduzioni": {
+        "en": "to fear, to be afraid",
+        "es": "temer",
+        "pt": "temer",
+        "fr": "craindre",
+        "cs": "obávat se",
+        "pl": "obawiać się",
+        "tr": "korkmak, endişe etmek",
+        "de": "fürchten",
+        "ja": "恐れる"
+      }
+    },
+    {
+      "parola": "lodare",
+      "forme": [
+        "lodato"
+      ],
+      "formeEsempi": [
+        "loda",
+        "lodano"
+      ],
+      "esempi": [
+        "Il professore loda gli studenti bravi.",
+        "Hanno lodato il suo coraggio.",
+        "Tutti lodano la cucina di mia madre."
+      ],
+      "traduzioni": {
+        "en": "to praise",
+        "es": "elogiar, alabar",
+        "pt": "elogiar, louvar",
+        "fr": "louer, faire l’éloge",
+        "cs": "chválit",
+        "pl": "chwalić",
+        "tr": "övmek",
+        "de": "loben",
+        "ja": "ほめる"
+      }
+    },
+    {
+      "parola": "mentire",
+      "forme": [
+        "mentire"
+      ],
+      "formeEsempi": [
+        "mente"
+      ],
+      "esempi": [
+        "Non devi mentire ai tuoi genitori.",
+        "Lui mente sempre sull'età.",
+        "Ha preferito mentire che dire la verità."
+      ],
+      "traduzioni": {
+        "en": "to lie",
+        "es": "mentir",
+        "pt": "mentir",
+        "fr": "mentir",
+        "cs": "lhát",
+        "pl": "kłamać",
+        "tr": "yalan söylemek",
+        "de": "lügen",
+        "ja": "うそをつく"
+      }
+    },
+    {
+      "parola": "la folla",
+      "forme": [
+        "folla"
+      ],
+      "esempi": [
+        "C'è una folla davanti allo stadio.",
+        "Il cantante saluta la folla.",
+        "Ho perso mio figlio tra la folla."
+      ],
+      "traduzioni": {
+        "en": "crowd",
+        "es": "multitud",
+        "pt": "multidão",
+        "fr": "foule",
+        "cs": "dav",
+        "pl": "tłum",
+        "tr": "kalabalık",
+        "de": "Menge",
+        "ja": "群衆"
+      }
+    },
+    {
+      "parola": "il prestigio",
+      "forme": [
+        "prestigio"
+      ],
+      "esempi": [
+        "È una scuola di grande prestigio.",
+        "Ha perso prestigio dopo lo scandalo.",
+        "Questo premio dà prestigio."
+      ],
+      "traduzioni": {
+        "en": "prestige, standing",
+        "es": "prestigio",
+        "pt": "prestígio",
+        "fr": "prestige",
+        "cs": "prestiž",
+        "pl": "prestiż",
+        "tr": "itibar, saygınlık",
+        "de": "Ansehen",
+        "ja": "体面、威信"
+      }
+    },
+    {
+      "parola": "la truffa",
+      "forme": [
+        "truffa"
+      ],
+      "esempi": [
+        "Questo prezzo è una truffa!",
+        "La polizia ha scoperto una truffa.",
+        "Ho capito tardi che era una truffa."
+      ],
+      "traduzioni": {
+        "en": "scam, fraud",
+        "es": "estafa",
+        "pt": "golpe, fraude",
+        "fr": "arnaque, escroquerie",
+        "cs": "podvod",
+        "pl": "oszustwo",
+        "tr": "dolandırıcılık",
+        "de": "Betrug",
+        "ja": "詐欺"
+      }
+    },
+    {
+      "parola": "la menzogna",
+      "forme": [
+        "menzogna"
+      ],
+      "esempi": [
+        "Era tutta una menzogna.",
+        "La verità è meglio di una menzogna.",
+        "Ha raccontato una menzogna per proteggersi."
+      ],
+      "traduzioni": {
+        "en": "lie, falsehood",
+        "es": "mentira",
+        "pt": "mentira",
+        "fr": "mensonge",
+        "cs": "lež",
+        "pl": "kłamstwo",
+        "tr": "yalan",
+        "de": "Lüge",
+        "ja": "うそ"
+      }
+    },
+    {
+      "parola": "osare",
+      "forme": [
+        "osa"
+      ],
+      "formeEsempi": [
+        "oso",
+        "osi"
+      ],
+      "esempi": [
+        "Non oso chiedere un aumento.",
+        "Nessuno osa dire di no al capo.",
+        "Come osi parlarmi così?"
+      ],
+      "traduzioni": {
+        "en": "to dare",
+        "es": "atreverse",
+        "pt": "ousar, ter coragem",
+        "fr": "oser",
+        "cs": "odvážit se",
+        "pl": "odważyć się",
+        "tr": "cesaret etmek",
+        "de": "wagen",
+        "ja": "あえて〜する"
+      }
+    }
+  ],
+  "testo": {
+    "en": {
+      "a1": [
+        "An emperor loves clothes very much. He buys new outfits every day and always wants to look elegant.",
+        "One day two men arrive. They say: “We know how to make a magic cloth. Clever people can see it, but stupid people can't.” In reality the two men are swindlers and they don't make any cloth.",
+        "The emperor sends a minister to check the work. The minister sees nothing, but he's afraid of looking stupid. He says: “The cloth is beautiful!” The emperor sees nothing either, but he pretends to see wonderful colours.",
+        "On the day of the great parade, the two swindlers pretend to dress the emperor. All the courtiers admire clothes that don't exist.",
+        "The emperor walks through the city. People are afraid to tell the truth. Suddenly a child shouts: “The emperor has no clothes!”",
+        "Everyone understands and repeats the child's words. The emperor is ashamed, but he keeps on walking. Now he understands something: pride stops you from seeing the truth."
+      ],
+      "a2": [
+        "Once upon a time there was an emperor who thought about almost nothing but his clothes. He spent a lot of money so that he always had a new outfit.",
+        "One day two fake weavers arrived. They promised to create an extraordinary cloth: according to them, it was invisible to people who were stupid or unfit for their job. The emperor gave them money and precious materials.",
+        "The two men worked at empty looms. When a minister came into the room, he saw nothing. However, for fear of losing his post, he described beautiful colours and patterns.",
+        "The emperor didn't see the cloth either. He didn't want to admit it and said it was magnificent. Before the parade, the weavers pretended to put the new outfit on him.",
+        "During the parade everyone clapped, because nobody wanted to look stupid. Then a child said out loud: “But the emperor isn't wearing anything!” The truth passed quickly from one person to the next.",
+        "The emperor understood that he had been fooled. He was very embarrassed, but he finished the parade. He had finally discovered how dangerous the fear of other people's judgement can be."
+      ],
+      "b1": [
+        "In a faraway kingdom there lived an emperor obsessed with elegance. He took little interest in the affairs of the country and devoted most of his time to choosing new clothes.",
+        "Two con men heard about this passion and presented themselves at court as weavers. They declared that they could produce an exceptional cloth, invisible to anyone who was stupid or unfit for their post.",
+        "The emperor thought this cloth would let him identify incompetent officials. He ordered the two men to start at once and handed over silk and gold. The con men hid the materials and sat down at completely empty looms.",
+        "The ministers sent to watch the work saw nothing. Each of them, however, feared being judged incompetent and praised the non-existent cloth. When the emperor visited the workshop, he found himself in the same situation and chose to lie.",
+        "On the day of the parade the con men mimed every gesture: they lifted, cut and sewed a cloth that wasn't there. The emperor went out before the crowd and everyone clapped so as not to stand out from the rest.",
+        "Only a child, free from the fear of losing face, said what he saw. His words gave the crowd courage. The emperor understood the scam, but he carried on with the parade out of pride. The fairy tale shows that a collective lie can last until someone dares to describe reality."
+      ]
+    },
+    "es": {
+      "a1": [
+        "Un emperador quiere mucho la ropa. Compra trajes nuevos todos los días y quiere estar siempre elegante.",
+        "Un día llegan dos hombres. Dicen: «Sabemos hacer una tela mágica. Las personas inteligentes la ven, pero las personas tontas no la ven». En realidad, los dos hombres son estafadores y no hacen ninguna tela.",
+        "El emperador manda a un ministro a revisar el trabajo. El ministro no ve nada, pero tiene miedo de parecer tonto. Dice: «¡La tela es preciosa!». El emperador tampoco ve nada, pero finge ver colores maravillosos.",
+        "El día del gran desfile, los dos estafadores hacen como que visten al emperador. Todos los cortesanos admiran unos trajes que no existen.",
+        "El emperador camina por la ciudad. La gente tiene miedo de decir la verdad. De repente, un niño grita: «¡El emperador no lleva ropa!».",
+        "Todos entienden y repiten las palabras del niño. El emperador se avergüenza, pero sigue caminando. Ahora entiende una cosa: el orgullo no deja ver la verdad."
+      ],
+      "a2": [
+        "Había una vez un emperador que pensaba casi solo en su ropa. Gastaba mucho dinero para tener siempre un traje nuevo.",
+        "Un día llegaron dos falsos tejedores. Prometieron crear una tela extraordinaria: según ellos, era invisible para las personas tontas o incapaces de hacer su trabajo. El emperador les dio dinero y materiales preciosos.",
+        "Los dos hombres trabajaban delante de telares vacíos. Cuando un ministro entró en la sala, no vio nada. Sin embargo, por miedo a perder su cargo, describió colores y dibujos preciosos.",
+        "El emperador tampoco vio la tela. No quería admitirlo y dijo que era magnífica. Antes del desfile, los tejedores hicieron como que le ponían el traje nuevo.",
+        "Durante el desfile todos aplaudían, porque nadie quería parecer tonto. Luego un niño dijo en voz alta: «¡Pero si el emperador no lleva nada!». La verdad pasó rápidamente de una persona a otra.",
+        "El emperador comprendió que lo habían engañado. Estaba muy avergonzado, pero terminó el desfile. Por fin había descubierto lo peligroso que puede ser el miedo al juicio de los demás."
+      ],
+      "b1": [
+        "En un reino lejano vivía un emperador obsesionado con la elegancia. Se interesaba poco por los asuntos del país y dedicaba gran parte de su tiempo a elegir trajes nuevos.",
+        "Dos estafadores se enteraron de esta pasión y se presentaron en la corte como tejedores. Declararon que sabían fabricar una tela excepcional, invisible para quien fuera tonto o no fuera apto para su cargo.",
+        "El emperador pensó que esa tela le permitiría reconocer a los funcionarios incapaces. Ordenó a los dos hombres que empezaran enseguida y les entregó seda y oro. Los estafadores escondieron los materiales y se sentaron delante de telares completamente vacíos.",
+        "Los ministros enviados a observar el trabajo no vieron nada. Pero cada uno temió que lo consideraran incompetente y elogió la tela inexistente. Cuando el emperador visitó el taller, se encontró en la misma situación y prefirió mentir.",
+        "El día del desfile, los estafadores imitaron cada gesto: levantaron, cortaron y cosieron una tela que no existía. El emperador salió ante la multitud y todos aplaudieron para no distinguirse de los demás.",
+        "Solo un niño, libre del miedo a perder prestigio, dijo lo que veía. Sus palabras le dieron valor a la multitud. El emperador comprendió el engaño, pero siguió con el desfile por orgullo. El cuento muestra que una mentira colectiva puede durar hasta que alguien se atreve a describir la realidad."
+      ]
+    },
+    "pt": {
+      "a1": [
+        "Um imperador gosta muito de roupas. Compra trajes novos todos os dias e quer estar sempre elegante.",
+        "Um dia chegam dois homens. Eles dizem: «Sabemos fazer um tecido mágico. As pessoas inteligentes conseguem vê-lo, mas as pessoas burras não». Na verdade, os dois homens são vigaristas e não fazem tecido nenhum.",
+        "O imperador manda um ministro verificar o trabalho. O ministro não vê nada, mas tem medo de parecer burro. Diz: «O tecido é lindo!». O imperador também não vê nada, mas finge ver cores maravilhosas.",
+        "No dia do grande desfile, os dois vigaristas fingem vestir o imperador. Todos os cortesãos admiram roupas que não existem.",
+        "O imperador anda pela cidade. As pessoas têm medo de dizer a verdade. De repente, uma criança grita: «O imperador está sem roupa!».",
+        "Todos entendem e repetem as palavras da criança. O imperador fica com vergonha, mas continua andando. Agora ele entende uma coisa: o orgulho não deixa ver a verdade."
+      ],
+      "a2": [
+        "Era uma vez um imperador que pensava quase só nas suas roupas. Gastava muito dinheiro para ter sempre um traje novo.",
+        "Um dia chegaram dois falsos tecelões. Prometeram criar um tecido extraordinário: segundo eles, era invisível para as pessoas burras ou incapazes de fazer o próprio trabalho. O imperador deu a eles dinheiro e materiais preciosos.",
+        "Os dois homens trabalhavam diante de teares vazios. Quando um ministro entrou na sala, não viu nada. Mesmo assim, com medo de perder o cargo, descreveu cores e desenhos lindíssimos.",
+        "O imperador também não viu o tecido. Não queria admitir e disse que era magnífico. Antes do desfile, os tecelões fingiram vestir nele a roupa nova.",
+        "Durante o desfile todos aplaudiam, porque ninguém queria parecer burro. Então uma criança disse em voz alta: «Mas o imperador não está vestindo nada!». A verdade passou rapidamente de uma pessoa para outra.",
+        "O imperador entendeu que tinha sido enganado. Estava muito sem graça, mas terminou o desfile. Finalmente tinha descoberto como o medo do julgamento dos outros pode ser perigoso."
+      ],
+      "b1": [
+        "Num reino distante vivia um imperador obcecado pela elegância. Interessava-se pouco pelos assuntos do país e dedicava grande parte do seu tempo à escolha de roupas novas.",
+        "Dois golpistas souberam dessa paixão e se apresentaram na corte como tecelões. Declararam saber produzir um tecido excepcional, invisível para quem fosse burro ou inapto para o próprio cargo.",
+        "O imperador pensou que aquele tecido lhe permitiria reconhecer os funcionários incompetentes. Mandou os dois homens começarem imediatamente e lhes entregou seda e ouro. Os golpistas esconderam os materiais e se sentaram diante de teares completamente vazios.",
+        "Os ministros enviados para observar o trabalho não viram nada. Cada um, porém, teve medo de ser considerado incompetente e elogiou o tecido inexistente. Quando o imperador visitou a oficina, ficou na mesma situação e preferiu mentir.",
+        "No dia do desfile, os golpistas imitaram cada gesto: levantaram, cortaram e costuraram um tecido que não existia. O imperador saiu diante da multidão e todos aplaudiram para não se diferenciar dos outros.",
+        "Só uma criança, livre do medo de perder prestígio, disse o que via. As palavras dela deram coragem à multidão. O imperador entendeu o golpe, mas continuou o desfile por orgulho. O conto mostra que uma mentira coletiva pode durar até que alguém tenha coragem de descrever a realidade."
+      ]
+    },
+    "fr": {
+      "a1": [
+        "Un empereur aime beaucoup les vêtements. Il achète des habits neufs tous les jours et veut toujours être élégant.",
+        "Un jour, deux hommes arrivent. Ils disent : « Nous savons fabriquer un tissu magique. Les gens intelligents le voient, mais les gens bêtes ne le voient pas. » En réalité, les deux hommes sont des escrocs et ils ne fabriquent aucun tissu.",
+        "L’empereur envoie un ministre vérifier le travail. Le ministre ne voit rien, mais il a peur de paraître bête. Il dit : « Le tissu est magnifique ! » L’empereur non plus ne voit rien, mais il fait semblant de voir des couleurs merveilleuses.",
+        "Le jour du grand défilé, les deux escrocs font semblant d’habiller l’empereur. Tous les courtisans admirent des habits qui n’existent pas.",
+        "L’empereur marche dans la ville. Les gens ont peur de dire la vérité. Tout à coup, un enfant crie : « L’empereur n’a pas de vêtements ! »",
+        "Tout le monde comprend et répète les mots de l’enfant. L’empereur a honte, mais il continue à marcher. Maintenant, il comprend une chose : l’orgueil empêche de voir la vérité."
+      ],
+      "a2": [
+        "Il était une fois un empereur qui ne pensait presque qu’à ses vêtements. Il dépensait beaucoup d’argent pour avoir toujours un habit neuf.",
+        "Un jour, deux faux tisserands sont arrivés. Ils ont promis de créer une étoffe extraordinaire : selon eux, elle était invisible pour les gens bêtes ou incapables de faire leur travail. L’empereur leur a donné de l’argent et des matériaux précieux.",
+        "Les deux hommes travaillaient devant des métiers à tisser vides. Quand un ministre est entré dans la pièce, il n’a rien vu. Pourtant, par peur de perdre son poste, il a décrit des couleurs et des motifs magnifiques.",
+        "L’empereur non plus n’a pas vu l’étoffe. Il ne voulait pas l’admettre et il a dit qu’elle était magnifique. Avant le défilé, les tisserands ont fait semblant de lui mettre son nouvel habit.",
+        "Pendant la parade, tout le monde applaudissait, parce que personne ne voulait paraître bête. Puis un enfant a dit à voix haute : « Mais l’empereur ne porte rien ! » La vérité est passée rapidement d’une personne à l’autre.",
+        "L’empereur a compris qu’il avait été trompé. Il était très gêné, mais il a terminé le défilé. Il avait enfin découvert à quel point la peur du jugement des autres peut être dangereuse."
+      ],
+      "b1": [
+        "Dans un royaume lointain vivait un empereur obsédé par l’élégance. Il s’intéressait peu aux affaires du pays et consacrait une grande partie de son temps au choix de nouveaux habits.",
+        "Deux escrocs ont appris cette passion et se sont présentés à la cour comme tisserands. Ils ont déclaré savoir produire une étoffe exceptionnelle, invisible pour quiconque était bête ou inapte à sa charge.",
+        "L’empereur a pensé que ce tissu lui permettrait de reconnaître les fonctionnaires incapables. Il a ordonné aux deux hommes de commencer tout de suite et leur a remis de la soie et de l’or. Les escrocs ont caché les matériaux et se sont assis devant des métiers à tisser complètement vides.",
+        "Les ministres envoyés observer le travail n’ont rien vu. Chacun, pourtant, a craint d’être jugé incompétent et a fait l’éloge de l’étoffe inexistante. Quand l’empereur a visité l’atelier, il s’est trouvé dans la même situation et a préféré mentir.",
+        "Le jour du défilé, les escrocs ont mimé chaque geste : ils ont soulevé, coupé et cousu un tissu qui n’existait pas. L’empereur est sorti devant la foule et tous ont applaudi pour ne pas se distinguer des autres.",
+        "Seul un enfant, libre de la peur de perdre son prestige, a dit ce qu’il voyait. Ses paroles ont donné du courage à la foule. L’empereur a compris l’escroquerie, mais il a continué le défilé par orgueil. Le conte montre qu’un mensonge collectif peut durer jusqu’à ce que quelqu’un ose décrire la réalité."
+      ]
+    },
+    "cs": {
+      "a1": [
+        "Jeden císař má moc rád šaty. Každý den si kupuje nové oblečení a chce být pořád elegantní.",
+        "Jednoho dne přijdou dva muži. Říkají: „Umíme udělat kouzelnou látku. Chytří lidé ji vidí, ale hloupí lidé ji nevidí.“ Ve skutečnosti jsou ti dva muži podvodníci a žádnou látku nedělají.",
+        "Císař pošle ministra, aby práci zkontroloval. Ministr nevidí nic, ale bojí se, že bude vypadat hloupě. Říká: „Ta látka je nádherná!“ Ani císař nic nevidí, ale předstírá, že vidí překrásné barvy.",
+        "V den velkého průvodu dělají ti dva podvodníci, že císaře oblékají. Všichni dvořané obdivují šaty, které neexistují.",
+        "Císař jde městem. Lidé se bojí říct pravdu. Najednou jedno dítě vykřikne: „Císař nemá žádné šaty!“",
+        "Všichni pochopí a opakují slova dítěte. Císař se stydí, ale jde dál. Teď chápe jednu věc: pýcha nenechá vidět pravdu."
+      ],
+      "a2": [
+        "Byl jednou jeden císař, který myslel skoro jen na své šaty. Utrácel spoustu peněz, aby měl pořád nový oblek.",
+        "Jednoho dne přišli dva falešní tkalci. Slíbili, že vytvoří mimořádnou látku: podle nich byla neviditelná pro hloupé lidi nebo pro ty, kdo se nehodí pro svou práci. Císař jim dal peníze a drahocenné materiály.",
+        "Ti dva muži pracovali u prázdných tkalcovských stavů. Když do místnosti vešel ministr, neviděl nic. Přesto ze strachu, že přijde o svůj úřad, popsal nádherné barvy a vzory.",
+        "Ani císař látku neviděl. Nechtěl to přiznat a řekl, že je nádherná. Před průvodem dělali tkalci, že mu oblékají nové šaty.",
+        "Během průvodu všichni tleskali, protože nikdo nechtěl vypadat hloupě. Pak jedno dítě řeklo nahlas: „Ale císař nemá nic na sobě!“ Pravda rychle přešla od jednoho člověka k druhému.",
+        "Císař pochopil, že ho oklamali. Byl velmi v rozpacích, ale průvod dokončil. Konečně zjistil, jak nebezpečný může být strach z toho, co si myslí druzí."
+      ],
+      "b1": [
+        "V dalekém království žil císař posedlý elegancí. O záležitosti země se moc nezajímal a velkou část času věnoval výběru nových šatů.",
+        "Dva podvodníci se o této vášni dozvěděli a představili se u dvora jako tkalci. Prohlásili, že umějí vyrobit výjimečnou látku, neviditelnou pro každého, kdo je hloupý nebo nezpůsobilý pro svůj úřad.",
+        "Císař si pomyslel, že díky té látce pozná neschopné úředníky. Nařídil oběma mužům, aby hned začali, a předal jim hedvábí a zlato. Podvodníci materiály schovali a posadili se k úplně prázdným stavům.",
+        "Ministři, kteří měli práci sledovat, neviděli nic. Každý se ale bál, že bude považován za neschopného, a chválil neexistující látku. Když císař navštívil dílnu, ocitl se ve stejné situaci a raději lhal.",
+        "V den průvodu podvodníci předváděli každý pohyb: zvedali, stříhali a šili látku, která tam nebyla. Císař vyšel před dav a všichni tleskali, aby se neodlišovali od ostatních.",
+        "Jen jedno dítě, které se nebálo ztratit prestiž, řeklo, co vidí. Jeho slova dodala davu odvahu. Císař podvod pochopil, ale z pýchy v průvodu pokračoval. Pohádka ukazuje, že společná lež může trvat tak dlouho, dokud se někdo neodváží popsat skutečnost."
+      ]
+    },
+    "pl": {
+      "a1": [
+        "Pewien cesarz bardzo lubi ubrania. Codziennie kupuje nowe stroje i chce być zawsze elegancki.",
+        "Pewnego dnia przychodzi dwóch mężczyzn. Mówią: „Umiemy zrobić magiczną tkaninę. Mądrzy ludzie ją widzą, ale głupi ludzie jej nie widzą”. W rzeczywistości ci dwaj mężczyźni to oszuści i nie robią żadnej tkaniny.",
+        "Cesarz wysyła ministra, żeby sprawdził pracę. Minister nic nie widzi, ale boi się, że wyjdzie na głupiego. Mówi: „Tkanina jest piękna!”. Cesarz też nic nie widzi, ale udaje, że widzi cudowne kolory.",
+        "W dniu wielkiej parady dwaj oszuści udają, że ubierają cesarza. Wszyscy dworzanie podziwiają stroje, które nie istnieją.",
+        "Cesarz idzie przez miasto. Ludzie boją się powiedzieć prawdę. Nagle jakieś dziecko krzyczy: „Cesarz jest nagi!”.",
+        "Wszyscy rozumieją i powtarzają słowa dziecka. Cesarz się wstydzi, ale idzie dalej. Teraz rozumie jedno: duma nie pozwala zobaczyć prawdy."
+      ],
+      "a2": [
+        "Był sobie raz cesarz, który myślał prawie tylko o swoich ubraniach. Wydawał dużo pieniędzy, żeby zawsze mieć nowy strój.",
+        "Pewnego dnia przyszło dwóch fałszywych tkaczy. Obiecali stworzyć niezwykły materiał: według nich był niewidzialny dla ludzi głupich albo nienadających się do swojej pracy. Cesarz dał im pieniądze i cenne materiały.",
+        "Dwaj mężczyźni pracowali przy pustych krosnach. Kiedy do pokoju wszedł minister, nic nie zobaczył. Jednak ze strachu, że straci stanowisko, opisał piękne kolory i wzory.",
+        "Cesarz też nie zobaczył materiału. Nie chciał się do tego przyznać i powiedział, że jest wspaniały. Przed paradą tkacze udawali, że zakładają mu nowy strój.",
+        "Podczas parady wszyscy klaskali, bo nikt nie chciał wyjść na głupiego. Potem jakieś dziecko powiedziało na głos: „Ależ cesarz nie ma nic na sobie!”. Prawda szybko przeszła od jednej osoby do drugiej.",
+        "Cesarz zrozumiał, że go oszukano. Był bardzo zakłopotany, ale dokończył paradę. W końcu odkrył, jak niebezpieczny może być strach przed oceną innych."
+      ],
+      "b1": [
+        "W odległym królestwie żył cesarz, który miał obsesję na punkcie elegancji. Mało interesował się sprawami kraju i większość czasu poświęcał na wybieranie nowych strojów.",
+        "Dwaj oszuści dowiedzieli się o tej pasji i przedstawili się na dworze jako tkacze. Oświadczyli, że potrafią wyprodukować wyjątkowy materiał, niewidzialny dla każdego, kto jest głupi albo nie nadaje się do swojej funkcji.",
+        "Cesarz pomyślał, że dzięki tej tkaninie rozpozna nieudolnych urzędników. Kazał obu mężczyznom natychmiast zacząć i przekazał im jedwab i złoto. Oszuści schowali materiały i usiedli przy zupełnie pustych krosnach.",
+        "Ministrowie wysłani, żeby obserwować pracę, nic nie zobaczyli. Każdy jednak bał się, że zostanie uznany za niekompetentnego, i chwalił nieistniejącą tkaninę. Kiedy cesarz odwiedził warsztat, znalazł się w tej samej sytuacji i wolał skłamać.",
+        "W dniu parady oszuści naśladowali każdy ruch: podnosili, cięli i szyli tkaninę, której nie było. Cesarz wyszedł przed tłum i wszyscy klaskali, żeby nie wyróżniać się spośród innych.",
+        "Tylko dziecko, wolne od strachu przed utratą prestiżu, powiedziało, co widzi. Jego słowa dodały tłumowi odwagi. Cesarz zrozumiał oszustwo, ale z dumy kontynuował paradę. Baśń pokazuje, że zbiorowe kłamstwo może trwać, dopóki ktoś nie odważy się opisać rzeczywistości."
+      ]
+    },
+    "tr": {
+      "a1": [
+        "Bir imparator giysileri çok seviyor. Her gün yeni kıyafetler alıyor ve hep şık olmak istiyor.",
+        "Bir gün iki adam geliyor. «Sihirli bir kumaş yapmayı biliyoruz. Akıllı insanlar onu görür ama aptal insanlar göremez» diyorlar. Aslında bu iki adam dolandırıcı ve hiçbir kumaş yapmıyorlar.",
+        "İmparator işi kontrol etmek için bir bakan gönderiyor. Bakan hiçbir şey görmüyor ama aptal görünmekten korkuyor. «Kumaş çok güzel!» diyor. İmparator da hiçbir şey görmüyor ama harika renkler görüyormuş gibi yapıyor.",
+        "Büyük geçit töreni günü iki dolandırıcı imparatoru giydiriyormuş gibi yapıyor. Bütün saray adamları var olmayan giysilere hayranlıkla bakıyor.",
+        "İmparator şehirde yürüyor. İnsanlar gerçeği söylemekten korkuyor. Birden bir çocuk bağırıyor: «İmparatorun üstünde giysi yok!»",
+        "Herkes anlıyor ve çocuğun sözlerini tekrarlıyor. İmparator utanıyor ama yürümeye devam ediyor. Artık bir şeyi anlıyor: gurur, gerçeği görmeye izin vermez."
+      ],
+      "a2": [
+        "Bir zamanlar neredeyse sadece giysilerini düşünen bir imparator varmış. Hep yeni bir kıyafeti olsun diye çok para harcarmış.",
+        "Bir gün iki sahte dokumacı geldi. Olağanüstü bir kumaş yaratacaklarına söz verdiler: onlara göre bu kumaş, aptal ya da işini yapamayacak kadar beceriksiz insanlara görünmüyordu. İmparator onlara para ve değerli malzemeler verdi.",
+        "İki adam boş dokuma tezgâhlarının başında çalışıyordu. Bir bakan odaya girdiğinde hiçbir şey görmedi. Yine de makamını kaybetmekten korktuğu için çok güzel renkler ve desenler anlattı.",
+        "İmparator da kumaşı görmedi. Bunu kabul etmek istemedi ve kumaşın muhteşem olduğunu söyledi. Geçit töreninden önce dokumacılar ona yeni kıyafeti giydiriyormuş gibi yaptılar.",
+        "Geçit töreni sırasında herkes alkışlıyordu, çünkü kimse aptal görünmek istemiyordu. Sonra bir çocuk yüksek sesle «Ama imparatorun üstünde hiçbir şey yok!» dedi. Gerçek hızla bir kişiden ötekine geçti.",
+        "İmparator kandırıldığını anladı. Çok mahcuptu ama geçit törenini bitirdi. Başkalarının yargısından korkmanın ne kadar tehlikeli olabileceğini sonunda keşfetmişti."
+      ],
+      "b1": [
+        "Uzak bir krallıkta şıklığa takıntılı bir imparator yaşardı. Ülkenin işleriyle pek ilgilenmez, zamanının büyük kısmını yeni kıyafetler seçmeye ayırırdı.",
+        "İki dolandırıcı bu tutkuyu duydu ve sarayda kendilerini dokumacı olarak tanıttı. Aptal olan ya da görevine uygun olmayan herkese görünmeyen olağanüstü bir kumaş üretebildiklerini iddia ettiler.",
+        "İmparator bu kumaş sayesinde beceriksiz memurları tanıyabileceğini düşündü. İki adama hemen başlamalarını emretti ve onlara ipek ve altın teslim etti. Dolandırıcılar malzemeleri sakladılar ve tamamen boş tezgâhların başına oturdular.",
+        "İşi gözlemlemeye gönderilen bakanlar hiçbir şey görmedi. Ama her biri yeteneksiz sayılmaktan korktu ve var olmayan kumaşı övdü. İmparator atölyeyi ziyaret ettiğinde aynı durumda kaldı ve yalan söylemeyi tercih etti.",
+        "Geçit töreni günü dolandırıcılar her hareketi taklit ettiler: orada olmayan bir kumaşı kaldırdılar, kestiler ve diktiler. İmparator kalabalığın önüne çıktı ve herkes ötekilerden farklı görünmemek için alkışladı.",
+        "Sadece itibarını kaybetme korkusu olmayan bir çocuk gördüğünü söyledi. Onun sözleri kalabalığa cesaret verdi. İmparator dolandırıcılığı anladı ama gururundan geçit törenine devam etti. Masal, ortak bir yalanın biri gerçeği anlatmaya cesaret edene kadar sürebileceğini gösterir."
+      ]
+    },
+    "de": {
+      "a1": [
+        "Ein Kaiser liebt Kleider sehr. Er kauft jeden Tag neue Gewänder und will immer elegant sein.",
+        "Eines Tages kommen zwei Männer. Sie sagen: „Wir können einen magischen Stoff machen. Kluge Menschen sehen ihn, aber dumme Menschen sehen ihn nicht.“ In Wirklichkeit sind die zwei Männer Betrüger und machen gar keinen Stoff.",
+        "Der Kaiser schickt einen Minister, um die Arbeit zu kontrollieren. Der Minister sieht nichts, aber er hat Angst, dumm zu wirken. Er sagt: „Der Stoff ist wunderschön!“ Auch der Kaiser sieht nichts, aber er tut so, als sähe er wunderbare Farben.",
+        "Am Tag des großen Umzugs tun die zwei Betrüger so, als würden sie den Kaiser anziehen. Alle Höflinge bewundern Kleider, die es nicht gibt.",
+        "Der Kaiser geht durch die Stadt. Die Leute haben Angst, die Wahrheit zu sagen. Plötzlich ruft ein Kind: „Der Kaiser hat ja gar nichts an!“",
+        "Alle verstehen und wiederholen die Worte des Kindes. Der Kaiser schämt sich, aber er geht weiter. Jetzt versteht er eines: Stolz lässt einen die Wahrheit nicht sehen."
+      ],
+      "a2": [
+        "Es war einmal ein Kaiser, der fast nur an seine Kleider dachte. Er gab viel Geld aus, um immer ein neues Gewand zu haben.",
+        "Eines Tages kamen zwei falsche Weber. Sie versprachen, einen außergewöhnlichen Stoff herzustellen: Ihrer Aussage nach war er unsichtbar für Menschen, die dumm oder für ihre Arbeit ungeeignet waren. Der Kaiser gab ihnen Geld und kostbare Materialien.",
+        "Die zwei Männer arbeiteten an leeren Webstühlen. Als ein Minister in den Raum kam, sah er nichts. Aus Angst, sein Amt zu verlieren, beschrieb er trotzdem wunderschöne Farben und Muster.",
+        "Auch der Kaiser sah den Stoff nicht. Er wollte es nicht zugeben und sagte, er sei prächtig. Vor dem Umzug taten die Weber so, als würden sie ihm das neue Gewand anlegen.",
+        "Während der Parade klatschten alle, weil niemand dumm wirken wollte. Dann sagte ein Kind laut: „Aber der Kaiser hat ja gar nichts an!“ Die Wahrheit ging schnell von einem Menschen zum nächsten.",
+        "Der Kaiser verstand, dass er betrogen worden war. Er war sehr verlegen, aber er beendete den Umzug. Endlich hatte er erkannt, wie gefährlich die Angst vor dem Urteil der anderen sein kann."
+      ],
+      "b1": [
+        "In einem fernen Reich lebte ein Kaiser, der von Eleganz besessen war. Für die Angelegenheiten des Landes interessierte er sich kaum und widmete einen großen Teil seiner Zeit der Auswahl neuer Gewänder.",
+        "Zwei Betrüger erfuhren von dieser Leidenschaft und stellten sich am Hof als Weber vor. Sie erklärten, sie könnten einen außergewöhnlichen Stoff herstellen, der für jeden unsichtbar sei, der dumm oder für sein Amt ungeeignet sei.",
+        "Der Kaiser dachte, mit diesem Stoff könne er unfähige Beamte erkennen. Er befahl den beiden Männern, sofort anzufangen, und übergab ihnen Seide und Gold. Die Betrüger versteckten die Materialien und setzten sich an völlig leere Webstühle.",
+        "Die Minister, die die Arbeit beobachten sollten, sahen nichts. Doch jeder fürchtete, für unfähig gehalten zu werden, und lobte den nicht vorhandenen Stoff. Als der Kaiser die Werkstatt besuchte, fand er sich in derselben Lage wieder und zog es vor zu lügen.",
+        "Am Tag des Umzugs machten die Betrüger jede Bewegung nach: Sie hoben, schnitten und nähten einen Stoff, den es nicht gab. Der Kaiser trat vor die Menge, und alle klatschten, um sich nicht von den anderen zu unterscheiden.",
+        "Nur ein Kind, frei von der Angst, sein Ansehen zu verlieren, sprach aus, was es sah. Seine Worte gaben der Menge Mut. Der Kaiser durchschaute den Betrug, setzte den Umzug aber aus Stolz fort. Das Märchen zeigt, dass eine gemeinsame Lüge so lange dauern kann, bis jemand wagt, die Wirklichkeit zu beschreiben."
+      ]
+    },
+    "ja": {
+      "a1": [
+        "ある皇帝は服が大好きです。毎日新しい衣装を買い、いつもおしゃれでいたいと思っています。",
+        "ある日、二人の男がやって来ます。「わたしたちは魔法の布を作れます。かしこい人には見えますが、おろかな人には見えません」と言います。実は、二人はペテン師で、布なんて何も作っていません。",
+        "皇帝は仕事を確かめるために大臣を送ります。大臣には何も見えませんが、おろかだと思われるのがこわいのです。「すばらしい布です！」と言います。皇帝にも何も見えませんが、すてきな色が見えるふりをします。",
+        "大パレードの日、二人のペテン師は皇帝に服を着せるふりをします。家来たちはみんな、ありもしない衣装をほめます。",
+        "皇帝は町を歩きます。人々は本当のことを言うのがこわいのです。突然、ひとりの子どもがさけびます。「王さまは何も着ていない！」",
+        "みんなが気づいて、子どもの言葉をくり返します。皇帝は恥ずかしく思いますが、歩き続けます。今、皇帝はひとつのことがわかります。プライドがあると、本当のことが見えなくなるのです。"
+      ],
+      "a2": [
+        "昔々、ほとんど服のことしか考えていない皇帝がいました。いつも新しい衣装を持っているために、たくさんのお金を使っていました。",
+        "ある日、にせのはた織り職人が二人やって来ました。二人は、すばらしい布を作ると約束しました。その布は、おろかな人や、自分の仕事にふさわしくない人には見えないというのです。皇帝は二人にお金と高価な材料を渡しました。",
+        "二人の男は、からのはた織り機の前で働いていました。大臣が部屋に入ってきましたが、何も見えませんでした。けれども、役職を失うのがこわくて、美しい色や模様を説明しました。",
+        "皇帝にも布は見えませんでした。それを認めたくなくて、すばらしいと言いました。パレードの前、職人たちは新しい衣装を皇帝に着せるふりをしました。",
+        "パレードのあいだ、みんなが拍手していました。だれも、おろかに見られたくなかったからです。すると、ひとりの子どもが大きな声で言いました。「でも、王さまは何も着ていないよ！」本当のことは、あっという間に人から人へ伝わりました。",
+        "皇帝は自分がだまされていたことに気づきました。とても恥ずかしかったのですが、パレードを最後まで続けました。人の目を恐れることがどれほど危ないか、ようやくわかったのです。"
+      ],
+      "b1": [
+        "遠い王国に、おしゃれにとりつかれた皇帝が住んでいました。国の仕事にはあまり関心がなく、時間の大部分を新しい衣装選びに費やしていました。",
+        "二人の詐欺師がこのことを聞きつけ、はた織り職人として宮廷にあらわれました。おろかな者や、自分の役職にふさわしくない者には見えない、並外れた布を作れると言い張ったのです。",
+        "皇帝は、その布があれば無能な役人を見分けられると考えました。二人にすぐ仕事を始めるよう命じ、絹と金を渡しました。詐欺師たちは材料をかくし、まったくからのはた織り機の前にすわりました。",
+        "仕事を見に行かされた大臣たちには、何も見えませんでした。けれども、だれもが無能だと思われるのを恐れて、ありもしない布をほめました。皇帝が仕事場を訪れたときも同じことになり、皇帝はうそをつくほうを選びました。",
+        "パレードの日、詐欺師たちは一つ一つの動作をまねてみせました。そこにない布を持ち上げ、切り、ぬったのです。皇帝が群衆の前に出ると、みんなはほかの人と違って見えないように拍手しました。",
+        "体面を失うことを恐れていない、ひとりの子どもだけが、見たままを口にしました。その言葉が群衆に勇気をあたえました。皇帝は詐欺に気づきましたが、プライドのためにパレードを続けました。このお話は、みんなでつくうそも、だれかが現実を口にする勇気を持つまでは続いてしまう、ということを教えてくれます。"
+      ]
+    }
+  }
+}
