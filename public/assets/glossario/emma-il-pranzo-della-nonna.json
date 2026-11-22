@@ -1,0 +1,1471 @@
+{
+ "id": "emma-il-pranzo-della-nonna",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "nuovo",
+   "forme": [
+    "nuova"
+   ],
+   "formeEsempi": [
+    "nuovo"
+   ],
+   "esempi": [
+    "Ho un telefono nuovo.",
+    "Marta è la nuova insegnante.",
+    "Questa è la mia nuova casa."
+   ],
+   "traduzioni": {
+    "en": "new",
+    "es": "nuevo",
+    "pt": "novo",
+    "fr": "nouveau",
+    "cs": "nový",
+    "pl": "nowy",
+    "tr": "yeni",
+    "de": "neu",
+    "ja": "新しい"
+   }
+  },
+  {
+   "parola": "l'amica",
+   "forme": [
+    "amica"
+   ],
+   "formeEsempi": [
+    "amico"
+   ],
+   "esempi": [
+    "Giulia è la mia migliore amica.",
+    "Stasera esco con un'amica.",
+    "Luca è un amico di scuola."
+   ],
+   "traduzioni": {
+    "en": "friend (female)",
+    "es": "amiga",
+    "pt": "amiga",
+    "fr": "amie",
+    "cs": "kamarádka",
+    "pl": "przyjaciółka, koleżanka",
+    "tr": "arkadaş (kız)",
+    "de": "Freundin",
+    "ja": "友だち（女性）"
+   }
+  },
+  {
+   "parola": "la nonna",
+   "forme": [
+    "nonna"
+   ],
+   "esempi": [
+    "La nonna fa una torta buonissima.",
+    "Vado dalla nonna la domenica.",
+    "Mia nonna ha ottant'anni."
+   ],
+   "traduzioni": {
+    "en": "grandmother, grandma",
+    "es": "abuela",
+    "pt": "avó",
+    "fr": "grand-mère",
+    "cs": "babička",
+    "pl": "babcia",
+    "tr": "büyükanne, nine",
+    "de": "Großmutter, Oma",
+    "ja": "おばあさん、祖母"
+   }
+  },
+  {
+   "parola": "venire",
+   "forme": [
+    "vieni"
+   ],
+   "formeEsempi": [
+    "vengo"
+   ],
+   "esempi": [
+    "Vieni al cinema con me?",
+    "Domani vengo a casa tua.",
+    "Da dove vieni?"
+   ],
+   "traduzioni": {
+    "en": "to come («vieni?» = are you coming?)",
+    "es": "venir",
+    "pt": "vir",
+    "fr": "venir",
+    "cs": "přijít",
+    "pl": "przyjść",
+    "tr": "gelmek",
+    "de": "kommen",
+    "ja": "来る"
+   }
+  },
+  {
+   "parola": "il pranzo",
+   "forme": [
+    "pranzo"
+   ],
+   "esempi": [
+    "Il pranzo è all'una.",
+    "Che cosa mangi a pranzo?",
+    "Domenica facciamo un grande pranzo."
+   ],
+   "traduzioni": {
+    "en": "lunch («a pranzo» = for lunch)",
+    "es": "comida, almuerzo",
+    "pt": "almoço",
+    "fr": "déjeuner",
+    "cs": "oběd",
+    "pl": "obiad",
+    "tr": "öğle yemeği",
+    "de": "Mittagessen",
+    "ja": "昼ごはん、昼食"
+   }
+  },
+  {
+   "parola": "cucinare",
+   "forme": [
+    "cucina"
+   ],
+   "formeEsempi": [
+    "cucino",
+    "cucinare"
+   ],
+   "esempi": [
+    "Mio padre cucina molto bene.",
+    "Stasera cucino io!",
+    "Mi piace cucinare per gli amici."
+   ],
+   "traduzioni": {
+    "en": "to cook",
+    "es": "cocinar",
+    "pt": "cozinhar",
+    "fr": "cuisiner",
+    "cs": "vařit",
+    "pl": "gotować",
+    "tr": "yemek pişirmek",
+    "de": "kochen",
+    "ja": "料理する"
+   }
+  },
+  {
+   "parola": "benissimo",
+   "forme": [
+    "benissimo"
+   ],
+   "esempi": [
+    "Parli italiano benissimo!",
+    "– Come stai? – Benissimo, grazie.",
+    "Questa pizza è cotta benissimo."
+   ],
+   "traduzioni": {
+    "en": "very well, really well",
+    "es": "muy bien",
+    "pt": "muito bem",
+    "fr": "très bien",
+    "cs": "výborně, moc dobře",
+    "pl": "bardzo dobrze",
+    "tr": "çok iyi",
+    "de": "sehr gut",
+    "ja": "とても上手に、とてもよく"
+   }
+  },
+  {
+   "parola": "piccolo",
+   "forme": [
+    "piccola",
+    "piccole"
+   ],
+   "formeEsempi": [
+    "piccolo"
+   ],
+   "esempi": [
+    "Abito in una casa piccola.",
+    "Vorrei un caffè piccolo.",
+    "Ho due figlie piccole."
+   ],
+   "traduzioni": {
+    "en": "small, little",
+    "es": "pequeño",
+    "pt": "pequeno",
+    "fr": "petit",
+    "cs": "malý",
+    "pl": "mały",
+    "tr": "küçük",
+    "de": "klein",
+    "ja": "小さい"
+   }
+  },
+  {
+   "parola": "pieno di",
+   "forme": [
+    "piena"
+   ],
+   "contesto": "foto",
+   "formeEsempi": [
+    "pieno",
+    "piene"
+   ],
+   "esempi": [
+    "Il bicchiere è pieno d'acqua.",
+    "La piazza è piena di gente.",
+    "Le pareti sono piene di quadri."
+   ],
+   "traduzioni": {
+    "en": "full of",
+    "es": "lleno de",
+    "pt": "cheio de",
+    "fr": "plein de",
+    "cs": "plný (čeho)",
+    "pl": "pełen (czegoś)",
+    "tr": "… dolu",
+    "de": "voll mit, voller",
+    "ja": "〜でいっぱいの"
+   }
+  },
+  {
+   "parola": "essere pieno",
+   "forme": [
+    "piena"
+   ],
+   "formeEsempi": [
+    "pieno"
+   ],
+   "esempi": [
+    "Basta, grazie: sono pieno!",
+    "Dopo la pizza sono piena.",
+    "Non mangio il dolce, sono pieno."
+   ],
+   "traduzioni": {
+    "en": "to be full (after eating)",
+    "es": "estar lleno",
+    "pt": "estar satisfeito, estar cheio",
+    "fr": "ne plus avoir faim, être repu",
+    "cs": "být najedený, mít dost",
+    "pl": "być najedzonym",
+    "tr": "doymak, tok olmak",
+    "de": "satt sein",
+    "ja": "お腹がいっぱいだ"
+   }
+  },
+  {
+   "parola": "la foto",
+   "forme": [
+    "foto"
+   ],
+   "esempi": [
+    "Guardo le foto delle vacanze.",
+    "Sul tavolo c'è una foto dei nonni.",
+    "Facciamo una foto insieme?"
+   ],
+   "traduzioni": {
+    "en": "photo",
+    "es": "foto",
+    "pt": "foto",
+    "fr": "photo",
+    "cs": "fotka",
+    "pl": "zdjęcie",
+    "tr": "fotoğraf",
+    "de": "Foto",
+    "ja": "写真"
+   }
+  },
+  {
+   "parola": "presentare",
+   "forme": [
+    "presenta"
+   ],
+   "formeEsempi": [
+    "presento"
+   ],
+   "esempi": [
+    "Ti presento mia sorella.",
+    "Il professore presenta il nuovo studente.",
+    "Marco mi presenta i suoi amici."
+   ],
+   "traduzioni": {
+    "en": "to introduce (a person)",
+    "es": "presentar",
+    "pt": "apresentar",
+    "fr": "présenter",
+    "cs": "představit",
+    "pl": "przedstawić",
+    "tr": "tanıştırmak",
+    "de": "vorstellen",
+    "ja": "紹介する"
+   }
+  },
+  {
+   "parola": "il nonno",
+   "forme": [
+    "nonno"
+   ],
+   "formeEsempi": [
+    "nonni"
+   ],
+   "esempi": [
+    "Il nonno legge il giornale.",
+    "I miei nonni abitano in campagna.",
+    "Mio nonno ha un orto."
+   ],
+   "traduzioni": {
+    "en": "grandfather, grandpa",
+    "es": "abuelo",
+    "pt": "avô",
+    "fr": "grand-père",
+    "cs": "dědeček",
+    "pl": "dziadek",
+    "tr": "büyükbaba, dede",
+    "de": "Großvater, Opa",
+    "ja": "おじいさん、祖父"
+   }
+  },
+  {
+   "parola": "i genitori",
+   "forme": [
+    "genitori"
+   ],
+   "esempi": [
+    "I miei genitori vivono a Napoli.",
+    "Domenica pranzo dai miei genitori.",
+    "I genitori di Sara sono molto simpatici."
+   ],
+   "traduzioni": {
+    "en": "parents (NOT “relatives”)",
+    "es": "padres",
+    "pt": "pais",
+    "fr": "parents (père et mère)",
+    "cs": "rodiče",
+    "pl": "rodzice",
+    "tr": "anne baba, ebeveynler",
+    "de": "Eltern",
+    "ja": "両親"
+   }
+  },
+  {
+   "parola": "il fratello",
+   "forme": [
+    "fratello"
+   ],
+   "esempi": [
+    "Ho un fratello e una sorella.",
+    "Mio fratello è più grande di me.",
+    "Il fratello di Luca studia a Bologna."
+   ],
+   "traduzioni": {
+    "en": "brother",
+    "es": "hermano",
+    "pt": "irmão",
+    "fr": "frère",
+    "cs": "bratr",
+    "pl": "brat",
+    "tr": "erkek kardeş, ağabey",
+    "de": "Bruder",
+    "ja": "兄弟（兄、弟）"
+   }
+  },
+  {
+   "parola": "la moglie",
+   "forme": [
+    "moglie"
+   ],
+   "esempi": [
+    "Paolo vive a Roma con sua moglie.",
+    "Mia moglie lavora in ospedale.",
+    "Ti presento mia moglie, Anna."
+   ],
+   "traduzioni": {
+    "en": "wife",
+    "es": "esposa, mujer",
+    "pt": "esposa, mulher",
+    "fr": "femme, épouse",
+    "cs": "manželka",
+    "pl": "żona",
+    "tr": "eş, karısı",
+    "de": "Ehefrau, Frau",
+    "ja": "妻"
+   }
+  },
+  {
+   "parola": "abbracciare",
+   "forme": [
+    "abbraccia"
+   ],
+   "formeEsempi": [
+    "abbraccio",
+    "abbracciamo"
+   ],
+   "esempi": [
+    "Quando arrivo, abbraccio mia madre.",
+    "Il bambino abbraccia il cane.",
+    "Ci abbracciamo alla stazione."
+   ],
+   "traduzioni": {
+    "en": "to hug",
+    "es": "abrazar",
+    "pt": "abraçar",
+    "fr": "prendre dans ses bras, embrasser",
+    "cs": "obejmout",
+    "pl": "przytulić",
+    "tr": "sarılmak",
+    "de": "umarmen",
+    "ja": "抱きしめる、ハグする"
+   }
+  },
+  {
+   "parola": "la nipote",
+   "forme": [
+    "nipote"
+   ],
+   "esempi": [
+    "La nonna gioca con la nipote.",
+    "Ho un nipote di tre anni.",
+    "Mia nipote si chiama Sofia."
+   ],
+   "traduzioni": {
+    "en": "granddaughter (also niece)",
+    "es": "nieta (también sobrina)",
+    "pt": "neta (também sobrinha)",
+    "fr": "petite-fille (aussi nièce)",
+    "cs": "vnučka (i neteř)",
+    "pl": "wnuczka (też siostrzenica, bratanica)",
+    "tr": "torun (kız), yeğen",
+    "de": "Enkelin (auch Nichte)",
+    "ja": "孫娘（姪のことも）"
+   }
+  },
+  {
+   "parola": "benvenuto",
+   "forme": [
+    "benvenuta"
+   ],
+   "formeEsempi": [
+    "benvenuto",
+    "benvenuti"
+   ],
+   "esempi": [
+    "Benvenuto a Roma!",
+    "Benvenuta nella nostra famiglia!",
+    "Benvenuti a tutti!"
+   ],
+   "traduzioni": {
+    "en": "welcome",
+    "es": "bienvenido",
+    "pt": "bem-vindo",
+    "fr": "bienvenue",
+    "cs": "vítej, vítejte",
+    "pl": "witaj, witamy",
+    "tr": "hoş geldin",
+    "de": "willkommen",
+    "ja": "ようこそ"
+   }
+  },
+  {
+   "parola": "il posto",
+   "forme": [
+    "posto"
+   ],
+   "esempi": [
+    "Questo posto è libero?",
+    "Il mio posto è vicino alla finestra.",
+    "In treno cerco un posto a sedere."
+   ],
+   "traduzioni": {
+    "en": "seat, place",
+    "es": "sitio, asiento",
+    "pt": "lugar",
+    "fr": "place",
+    "cs": "místo",
+    "pl": "miejsce",
+    "tr": "yer",
+    "de": "Platz",
+    "ja": "席"
+   }
+  },
+  {
+   "parola": "vicino a",
+   "forme": [
+    "vicino"
+   ],
+   "esempi": [
+    "La scuola è vicino a casa mia.",
+    "Siediti vicino a me!",
+    "C'è un bar qui vicino?"
+   ],
+   "traduzioni": {
+    "en": "next to, near",
+    "es": "cerca de, al lado de",
+    "pt": "perto de, ao lado de",
+    "fr": "près de, à côté de",
+    "cs": "vedle, blízko",
+    "pl": "obok, blisko",
+    "tr": "yanında, yakınında",
+    "de": "neben, in der Nähe von",
+    "ja": "〜の近くに、〜のそばに"
+   }
+  },
+  {
+   "parola": "la tavola",
+   "forme": [
+    "tavola"
+   ],
+   "esempi": [
+    "A tavola! Il pranzo è pronto.",
+    "Metto i piatti sulla tavola.",
+    "La domenica tutta la famiglia è a tavola."
+   ],
+   "traduzioni": {
+    "en": "(dinner) table («in tavola» = on the table)",
+    "es": "mesa",
+    "pt": "mesa",
+    "fr": "table",
+    "cs": "stůl",
+    "pl": "stół",
+    "tr": "sofra",
+    "de": "(Ess)tisch",
+    "ja": "食卓"
+   }
+  },
+  {
+   "parola": "le tagliatelle",
+   "forme": [
+    "tagliatelle"
+   ],
+   "esempi": [
+    "Le tagliatelle sono una pasta lunga e piatta.",
+    "Oggi mangiamo tagliatelle al ragù.",
+    "La nonna fa le tagliatelle a mano."
+   ],
+   "traduzioni": {
+    "en": "tagliatelle (long flat egg pasta)",
+    "es": "tallarines, tagliatelle",
+    "pt": "talharim",
+    "fr": "tagliatelles",
+    "cs": "tagliatelle (široké nudle)",
+    "pl": "tagliatelle (szeroki makaron)",
+    "tr": "tagliatelle (yassı uzun makarna)",
+    "de": "Tagliatelle (Bandnudeln)",
+    "ja": "タリアテッレ（平たい卵麺）"
+   }
+  },
+  {
+   "parola": "il pomodoro",
+   "forme": [
+    "pomodoro"
+   ],
+   "esempi": [
+    "Mi piace la pasta al pomodoro.",
+    "Compro un chilo di pomodori.",
+    "Il pomodoro è rosso e maturo."
+   ],
+   "traduzioni": {
+    "en": "tomato («al pomodoro» = with tomato sauce)",
+    "es": "tomate",
+    "pt": "tomate",
+    "fr": "tomate",
+    "cs": "rajče",
+    "pl": "pomidor",
+    "tr": "domates",
+    "de": "Tomate",
+    "ja": "トマト"
+   },
+   "formeEsempi": [
+    "pomodori"
+   ]
+  },
+  {
+   "parola": "fatto in casa",
+   "forme": [
+    "fatte"
+   ],
+   "formeEsempi": [
+    "fatto",
+    "fatta"
+   ],
+   "esempi": [
+    "Il pane fatto in casa è il più buono.",
+    "È una torta fatta in casa.",
+    "Queste marmellate sono fatte in casa."
+   ],
+   "traduzioni": {
+    "en": "homemade",
+    "es": "casero, hecho en casa",
+    "pt": "caseiro, feito em casa",
+    "fr": "fait maison",
+    "cs": "domácí",
+    "pl": "domowej roboty",
+    "tr": "ev yapımı",
+    "de": "hausgemacht",
+    "ja": "手作りの、自家製の"
+   }
+  },
+  {
+   "parola": "buonissimo",
+   "forme": [
+    "buonissime"
+   ],
+   "formeEsempi": [
+    "buonissimo",
+    "buonissima"
+   ],
+   "esempi": [
+    "Questo gelato è buonissimo!",
+    "La pizza di Napoli è buonissima.",
+    "Le fragole oggi sono buonissime."
+   ],
+   "traduzioni": {
+    "en": "delicious, really good",
+    "es": "buenísimo, riquísimo",
+    "pt": "delicioso, ótimo",
+    "fr": "délicieux, très bon",
+    "cs": "výborný, moc dobrý",
+    "pl": "pyszny, bardzo dobry",
+    "tr": "çok lezzetli",
+    "de": "sehr lecker",
+    "ja": "とてもおいしい"
+   }
+  },
+  {
+   "parola": "contento",
+   "forme": [
+    "contenta"
+   ],
+   "formeEsempi": [
+    "contento"
+   ],
+   "esempi": [
+    "Sono contento di vederti.",
+    "La maestra è contenta dei bambini.",
+    "Sei contenta del regalo?"
+   ],
+   "traduzioni": {
+    "en": "happy, pleased",
+    "es": "contento",
+    "pt": "contente",
+    "fr": "content",
+    "cs": "spokojený, rád",
+    "pl": "zadowolony",
+    "tr": "memnun",
+    "de": "zufrieden, froh",
+    "ja": "うれしい、満足した"
+   }
+  },
+  {
+   "parola": "il secondo piatto",
+   "forme": [
+    "secondo"
+   ],
+   "contesto": "piatto",
+   "esempi": [
+    "Mangio un secondo piatto di pasta.",
+    "Vuoi un secondo bicchiere d'acqua?",
+    "Questo è il secondo caffè di oggi."
+   ],
+   "traduzioni": {
+    "en": "a second plate, a second helping",
+    "es": "un segundo plato (repetir)",
+    "pt": "um segundo prato (repetir)",
+    "fr": "une deuxième assiette (se resservir)",
+    "cs": "druhý talíř (přídavek)",
+    "pl": "drugi talerz (dokładka)",
+    "tr": "ikinci tabak",
+    "de": "ein zweiter Teller (Nachschlag)",
+    "ja": "（同じ料理の）2皿目、おかわり"
+   }
+  },
+  {
+   "parola": "il secondo",
+   "forme": [
+    "secondo"
+   ],
+   "esempi": [
+    "Come secondo prendo il pesce.",
+    "Dopo la pasta c'è il secondo.",
+    "Il secondo è carne o pesce?"
+   ],
+   "traduzioni": {
+    "en": "main course (after the pasta)",
+    "es": "segundo plato",
+    "pt": "prato principal (depois da massa)",
+    "fr": "plat principal (après les pâtes)",
+    "cs": "hlavní chod (po těstovinách)",
+    "pl": "drugie danie",
+    "tr": "ana yemek (makarnadan sonra)",
+    "de": "Hauptgang (nach der Pasta)",
+    "ja": "メインの料理（セコンド）"
+   }
+  },
+  {
+   "parola": "il primo",
+   "forme": [
+    "primo"
+   ],
+   "esempi": [
+    "Come primo c'è la lasagna.",
+    "Il primo è la pasta, poi viene il secondo.",
+    "Oggi prendo solo un primo."
+   ],
+   "traduzioni": {
+    "en": "first course (usually pasta or rice)",
+    "es": "primer plato",
+    "pt": "primeiro prato (massa ou arroz)",
+    "fr": "premier plat (pâtes ou riz)",
+    "cs": "první chod (těstoviny, rizoto)",
+    "pl": "pierwsze danie (makaron, risotto)",
+    "tr": "ilk yemek (genelde makarna)",
+    "de": "erster Gang (meist Pasta)",
+    "ja": "第一の皿（プリモ、パスタなど）"
+   }
+  },
+  {
+   "parola": "appoggiare",
+   "forme": [
+    "appoggia"
+   ],
+   "formeEsempi": [
+    "appoggio"
+   ],
+   "esempi": [
+    "Appoggio la borsa sulla sedia.",
+    "Il cameriere appoggia i piatti sul tavolo.",
+    "Appoggia il bicchiere, per favore."
+   ],
+   "traduzioni": {
+    "en": "to put down, to rest",
+    "es": "dejar, apoyar",
+    "pt": "apoiar, pousar",
+    "fr": "poser",
+    "cs": "položit",
+    "pl": "odłożyć, położyć",
+    "tr": "bırakmak, koymak",
+    "de": "ablegen, hinlegen",
+    "ja": "置く"
+   }
+  },
+  {
+   "parola": "la forchetta",
+   "forme": [
+    "forchetta"
+   ],
+   "esempi": [
+    "Mangio gli spaghetti con la forchetta.",
+    "Mi porti una forchetta, per favore?",
+    "Il coltello è a destra, la forchetta a sinistra."
+   ],
+   "traduzioni": {
+    "en": "fork",
+    "es": "tenedor",
+    "pt": "garfo",
+    "fr": "fourchette",
+    "cs": "vidlička",
+    "pl": "widelec",
+    "tr": "çatal",
+    "de": "Gabel",
+    "ja": "フォーク"
+   }
+  },
+  {
+   "parola": "portare",
+   "forme": [
+    "porta"
+   ],
+   "contesto": "tavola",
+   "formeEsempi": [
+    "porto"
+   ],
+   "esempi": [
+    "Il cameriere porta il caffè.",
+    "Porto il vino alla festa.",
+    "La mamma porta in tavola la pizza."
+   ],
+   "traduzioni": {
+    "en": "to bring («portare in tavola» = to serve)",
+    "es": "traer, llevar («portare in tavola» = servir)",
+    "pt": "trazer, levar («portare in tavola» = servir)",
+    "fr": "apporter («portare in tavola» = servir)",
+    "cs": "přinést («portare in tavola» = podávat)",
+    "pl": "przynieść («portare in tavola» = podać do stołu)",
+    "tr": "getirmek («portare in tavola» = sofraya koymak)",
+    "de": "bringen («portare in tavola» = auftischen)",
+    "ja": "持ってくる（portare in tavola＝食卓に出す）"
+   }
+  },
+  {
+   "parola": "la porta",
+   "forme": [
+    "porta"
+   ],
+   "esempi": [
+    "Chiudi la porta, per favore.",
+    "Qualcuno bussa alla porta.",
+    "Ci salutiamo sulla porta."
+   ],
+   "traduzioni": {
+    "en": "door («sulla porta» = at the door)",
+    "es": "puerta",
+    "pt": "porta",
+    "fr": "porte",
+    "cs": "dveře",
+    "pl": "drzwi",
+    "tr": "kapı",
+    "de": "Tür",
+    "ja": "ドア、戸口"
+   }
+  },
+  {
+   "parola": "la teglia",
+   "forme": [
+    "teglia"
+   ],
+   "esempi": [
+    "Metto la lasagna nella teglia.",
+    "La teglia è calda: attenzione!",
+    "Compro una teglia per le torte."
+   ],
+   "traduzioni": {
+    "en": "baking dish, oven tray",
+    "es": "fuente (de horno)",
+    "pt": "assadeira, travessa",
+    "fr": "plat à four",
+    "cs": "zapékací mísa, pekáč",
+    "pl": "brytfanna, naczynie do zapiekania",
+    "tr": "fırın tepsisi",
+    "de": "Auflaufform, Backblech",
+    "ja": "オーブン皿"
+   }
+  },
+  {
+   "parola": "la parmigiana",
+   "forme": [
+    "parmigiana"
+   ],
+   "esempi": [
+    "La parmigiana è un piatto del Sud.",
+    "Mia madre fa la parmigiana la domenica.",
+    "Vorrei un'altra fetta di parmigiana."
+   ],
+   "traduzioni": {
+    "en": "parmigiana (baked aubergine with tomato and cheese)",
+    "es": "parmigiana (berenjenas al horno con tomate y queso)",
+    "pt": "parmigiana (berinjela ao forno com tomate e queijo)",
+    "fr": "parmigiana (gratin d'aubergines, tomate et fromage)",
+    "cs": "parmigiana (zapečený lilek s rajčaty a sýrem)",
+    "pl": "parmigiana (zapiekany bakłażan z pomidorami i serem)",
+    "tr": "parmigiana (domates ve peynirli fırın patlıcan)",
+    "de": "Parmigiana (überbackene Auberginen mit Tomate und Käse)",
+    "ja": "パルミジャーナ（なすのトマトとチーズのオーブン焼き）"
+   }
+  },
+  {
+   "parola": "la melanzana",
+   "forme": [
+    "melanzane"
+   ],
+   "formeEsempi": [
+    "melanzana"
+   ],
+   "esempi": [
+    "Al mercato compro due melanzane.",
+    "La melanzana è viola.",
+    "Le melanzane fritte sono buonissime."
+   ],
+   "traduzioni": {
+    "en": "aubergine, eggplant",
+    "es": "berenjena",
+    "pt": "berinjela",
+    "fr": "aubergine",
+    "cs": "lilek",
+    "pl": "bakłażan",
+    "tr": "patlıcan",
+    "de": "Aubergine",
+    "ja": "なす"
+   }
+  },
+  {
+   "parola": "la patata",
+   "forme": [
+    "patate"
+   ],
+   "formeEsempi": [
+    "patata"
+   ],
+   "esempi": [
+    "Compro un chilo di patate.",
+    "Mi piacciono le patate fritte.",
+    "La patata è nel forno."
+   ],
+   "traduzioni": {
+    "en": "potato",
+    "es": "patata",
+    "pt": "batata",
+    "fr": "pomme de terre",
+    "cs": "brambora",
+    "pl": "ziemniak",
+    "tr": "patates",
+    "de": "Kartoffel",
+    "ja": "じゃがいも"
+   }
+  },
+  {
+   "parola": "il forno",
+   "forme": [
+    "forno"
+   ],
+   "esempi": [
+    "La pizza cuoce nel forno.",
+    "Accendo il forno a 200 gradi.",
+    "Stasera facciamo il pesce al forno."
+   ],
+   "traduzioni": {
+    "en": "oven («al forno» = baked, roast)",
+    "es": "horno («al forno» = al horno)",
+    "pt": "forno («al forno» = assado)",
+    "fr": "four («al forno» = au four)",
+    "cs": "trouba («al forno» = pečený)",
+    "pl": "piekarnik («al forno» = pieczony)",
+    "tr": "fırın («al forno» = fırında)",
+    "de": "Ofen («al forno» = aus dem Ofen)",
+    "ja": "オーブン（al forno＝オーブン焼き）"
+   }
+  },
+  {
+   "parola": "l'insalata",
+   "forme": [
+    "insalata"
+   ],
+   "esempi": [
+    "Mangio un'insalata con il tonno.",
+    "L'insalata è fresca.",
+    "Metto olio e sale sull'insalata."
+   ],
+   "traduzioni": {
+    "en": "salad",
+    "es": "ensalada",
+    "pt": "salada",
+    "fr": "salade",
+    "cs": "salát",
+    "pl": "sałatka",
+    "tr": "salata",
+    "de": "Salat",
+    "ja": "サラダ"
+   }
+  },
+  {
+   "parola": "la frutta",
+   "forme": [
+    "frutta"
+   ],
+   "esempi": [
+    "Dopo pranzo mangio la frutta.",
+    "La frutta di stagione è più buona.",
+    "Compro la frutta al mercato."
+   ],
+   "traduzioni": {
+    "en": "fruit",
+    "es": "fruta",
+    "pt": "fruta",
+    "fr": "fruits",
+    "cs": "ovoce",
+    "pl": "owoce",
+    "tr": "meyve",
+    "de": "Obst",
+    "ja": "果物"
+   }
+  },
+  {
+   "parola": "il dolce",
+   "forme": [
+    "dolce"
+   ],
+   "esempi": [
+    "Come dolce c'è il tiramisù.",
+    "Non mangio il dolce, grazie.",
+    "Il dolce della nonna è famoso."
+   ],
+   "traduzioni": {
+    "en": "dessert",
+    "es": "postre",
+    "pt": "sobremesa, doce",
+    "fr": "dessert",
+    "cs": "dezert, sladké",
+    "pl": "deser",
+    "tr": "tatlı",
+    "de": "Nachtisch",
+    "ja": "デザート"
+   }
+  },
+  {
+   "parola": "mettere",
+   "forme": [
+    "mette"
+   ],
+   "formeEsempi": [
+    "metto"
+   ],
+   "esempi": [
+    "Metto lo zucchero nel caffè.",
+    "Lui mette i libri nella borsa.",
+    "Dove metto le chiavi?"
+   ],
+   "traduzioni": {
+    "en": "to put",
+    "es": "poner",
+    "pt": "pôr, colocar",
+    "fr": "mettre",
+    "cs": "dát, položit",
+    "pl": "położyć, nałożyć",
+    "tr": "koymak",
+    "de": "legen, tun",
+    "ja": "置く、入れる"
+   }
+  },
+  {
+   "parola": "il pezzo",
+   "forme": [
+    "pezzo"
+   ],
+   "esempi": [
+    "Vuoi un pezzo di torta?",
+    "Mangio un pezzo di pane.",
+    "Taglio la pizza in otto pezzi."
+   ],
+   "traduzioni": {
+    "en": "piece",
+    "es": "trozo, pedazo",
+    "pt": "pedaço",
+    "fr": "morceau",
+    "cs": "kus",
+    "pl": "kawałek",
+    "tr": "parça, dilim",
+    "de": "Stück",
+    "ja": "一切れ、かけら"
+   },
+   "formeEsempi": [
+    "pezzi"
+   ]
+  },
+  {
+   "parola": "enorme",
+   "forme": [
+    "enorme"
+   ],
+   "esempi": [
+    "La casa ha un giardino enorme.",
+    "Il cane di Paolo è enorme.",
+    "Ho una fame enorme!"
+   ],
+   "traduzioni": {
+    "en": "huge",
+    "es": "enorme",
+    "pt": "enorme",
+    "fr": "énorme",
+    "cs": "obrovský",
+    "pl": "ogromny",
+    "tr": "kocaman",
+    "de": "riesig",
+    "ja": "巨大な、すごく大きい"
+   }
+  },
+  {
+   "parola": "troppo",
+   "forme": [
+    "troppo"
+   ],
+   "esempi": [
+    "Questo caffè è troppo dolce.",
+    "Lavori troppo!",
+    "La valigia è troppo pesante."
+   ],
+   "traduzioni": {
+    "en": "too (much)",
+    "es": "demasiado",
+    "pt": "demais, muito",
+    "fr": "trop",
+    "cs": "příliš",
+    "pl": "za, zbyt",
+    "tr": "fazla, çok",
+    "de": "zu (viel)",
+    "ja": "〜すぎる"
+   }
+  },
+  {
+   "parola": "magro",
+   "forme": [
+    "magra"
+   ],
+   "formeEsempi": [
+    "magro"
+   ],
+   "esempi": [
+    "Il gatto è magro.",
+    "Sei troppo magra, mangia!",
+    "Compro la carne magra."
+   ],
+   "traduzioni": {
+    "en": "thin, skinny",
+    "es": "delgado, flaco",
+    "pt": "magro",
+    "fr": "mince, maigre",
+    "cs": "hubený",
+    "pl": "chudy",
+    "tr": "zayıf",
+    "de": "dünn, mager",
+    "ja": "やせた"
+   }
+  },
+  {
+   "parola": "piano",
+   "forme": [
+    "piano"
+   ],
+   "esempi": [
+    "Parla piano: il bambino dorme.",
+    "Il nonno cammina piano.",
+    "Puoi parlare più piano, per favore?"
+   ],
+   "traduzioni": {
+    "en": "quietly, softly (also: slowly)",
+    "es": "bajito, en voz baja (también: despacio)",
+    "pt": "baixinho (também: devagar)",
+    "fr": "doucement, à voix basse",
+    "cs": "potichu (i: pomalu)",
+    "pl": "cicho (też: powoli)",
+    "tr": "alçak sesle (ayrıca: yavaşça)",
+    "de": "leise (auch: langsam)",
+    "ja": "小声で（ゆっくり、の意味も）"
+   }
+  },
+  {
+   "parola": "il consiglio",
+   "forme": [
+    "consiglio"
+   ],
+   "esempi": [
+    "Ti do un consiglio: studia ogni giorno.",
+    "Grazie del consiglio!",
+    "Ho bisogno di un consiglio."
+   ],
+   "traduzioni": {
+    "en": "piece of advice, tip",
+    "es": "consejo",
+    "pt": "conselho, dica",
+    "fr": "conseil",
+    "cs": "rada",
+    "pl": "rada",
+    "tr": "tavsiye",
+    "de": "Rat, Tipp",
+    "ja": "アドバイス"
+   }
+  },
+  {
+   "parola": "la porzione",
+   "forme": [
+    "porzioni"
+   ],
+   "formeEsempi": [
+    "porzione"
+   ],
+   "esempi": [
+    "In questo ristorante le porzioni sono grandi.",
+    "Vorrei una porzione piccola.",
+    "Due porzioni di patatine, per favore."
+   ],
+   "traduzioni": {
+    "en": "portion",
+    "es": "ración, porción",
+    "pt": "porção",
+    "fr": "portion",
+    "cs": "porce",
+    "pl": "porcja",
+    "tr": "porsiyon",
+    "de": "Portion",
+    "ja": "（一人分の）量、ポーション"
+   }
+  },
+  {
+   "parola": "la persona",
+   "forme": [
+    "persone"
+   ],
+   "formeEsempi": [
+    "persona"
+   ],
+   "esempi": [
+    "Alla festa ci sono trenta persone.",
+    "È una persona molto gentile.",
+    "Un tavolo per quattro persone, per favore."
+   ],
+   "traduzioni": {
+    "en": "person, people",
+    "es": "persona",
+    "pt": "pessoa",
+    "fr": "personne",
+    "cs": "osoba, člověk",
+    "pl": "osoba",
+    "tr": "kişi",
+    "de": "Person",
+    "ja": "人"
+   }
+  },
+  {
+   "parola": "finire",
+   "forme": [
+    "finisce"
+   ],
+   "formeEsempi": [
+    "finisco"
+   ],
+   "esempi": [
+    "La lezione finisce alle sei.",
+    "Finisco il lavoro e arrivo.",
+    "Il film finisce bene."
+   ],
+   "traduzioni": {
+    "en": "to end, to finish",
+    "es": "terminar, acabar",
+    "pt": "terminar, acabar",
+    "fr": "finir, se terminer",
+    "cs": "skončit",
+    "pl": "skończyć się",
+    "tr": "bitmek",
+    "de": "enden, aufhören",
+    "ja": "終わる"
+   }
+  },
+  {
+   "parola": "muoversi",
+   "forme": [
+    "muoversi"
+   ],
+   "formeEsempi": [
+    "muovo",
+    "muovi",
+    "muovermi",
+    "muovere"
+   ],
+   "esempi": [
+    "Dopo la palestra non riesco a muovermi.",
+    "Non ti muovere: faccio una foto!",
+    "Ho mangiato troppo: non mi muovo più."
+   ],
+   "traduzioni": {
+    "en": "to move (oneself)",
+    "es": "moverse",
+    "pt": "mexer-se, mover-se",
+    "fr": "bouger",
+    "cs": "hýbat se",
+    "pl": "ruszać się",
+    "tr": "kıpırdamak, hareket etmek",
+    "de": "sich bewegen",
+    "ja": "動く"
+   }
+  },
+  {
+   "parola": "non … più",
+   "forme": [
+    "più"
+   ],
+   "esempi": [
+    "Non fumo più.",
+    "Non abito più a Milano.",
+    "Il negozio non c'è più."
+   ],
+   "traduzioni": {
+    "en": "no longer, not any more",
+    "es": "ya no",
+    "pt": "não … mais",
+    "fr": "ne … plus",
+    "cs": "už ne",
+    "pl": "już nie",
+    "tr": "artık … değil",
+    "de": "nicht mehr",
+    "ja": "もう〜ない"
+   }
+  },
+  {
+   "parola": "dare",
+   "forme": [
+    "dà"
+   ],
+   "formeEsempi": [
+    "do",
+    "dai"
+   ],
+   "esempi": [
+    "Ti do il mio numero.",
+    "Mi dai un bicchiere d'acqua?",
+    "Il nonno dà un regalo al nipote."
+   ],
+   "traduzioni": {
+    "en": "to give",
+    "es": "dar",
+    "pt": "dar",
+    "fr": "donner",
+    "cs": "dát",
+    "pl": "dać",
+    "tr": "vermek",
+    "de": "geben",
+    "ja": "あげる、渡す"
+   },
+   "contesto": "borsa"
+  },
+  {
+   "parola": "stasera",
+   "forme": [
+    "stasera"
+   ],
+   "esempi": [
+    "Stasera vado al cinema.",
+    "Che cosa mangiamo stasera?",
+    "Ci vediamo stasera alle otto."
+   ],
+   "traduzioni": {
+    "en": "this evening, tonight",
+    "es": "esta noche",
+    "pt": "hoje à noite",
+    "fr": "ce soir",
+    "cs": "dnes večer",
+    "pl": "dziś wieczorem",
+    "tr": "bu akşam",
+    "de": "heute Abend",
+    "ja": "今晩"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "Giulia is Emma's new friend. One Sunday Giulia says: – Will you come to lunch at my grandmother's? She's a wonderful cook!",
+    "Grandma's house is small and full of photos. Giulia introduces her family:\n– This is my grandma Rosa. This is my grandpa Pietro. These are my parents, and this is my brother Luca with his wife Sara.",
+    "Grandma hugs Emma like a granddaughter.\n– Welcome! Here's your seat, next to me.",
+    "A big plate of homemade tagliatelle with tomato sauce arrives on the table. It's delicious. Emma eats everything. Grandma is pleased.\n– A little more?\n– Yes, please!",
+    "Emma eats the second plate of tagliatelle. Now she's full. She thinks: «What a lovely lunch!» Then she puts down her fork.",
+    "But Grandma brings a big dish of aubergine parmigiana to the table. And roast potatoes. And salad.",
+    "Emma looks at Giulia. Giulia laughs:\n– Emma, the tagliatelle are only the first course! Now there's the main course. Then fruit, dessert and coffee.\n– The first course?!",
+    "Grandma puts a huge piece of parmigiana on Emma's plate.\n– Eat, eat! You're too thin!",
+    "Giulia's grandpa speaks quietly to Emma:\n– A tip: with the first course, small portions. My Rosa always cooks for twenty people.",
+    "Lunch ends at four. Emma can't move any more. At the door Grandma gives her a bag:\n– This is for you: parmigiana for this evening!",
+    "Emma laughs and hugs Grandma. Now she has an Italian grandmother too."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Giulia es la nueva amiga de Emma. Un domingo Giulia le dice: – ¿Vienes a comer a casa de mi abuela? ¡Cocina de maravilla!",
+    "La casa de la abuela es pequeña y está llena de fotos. Giulia le presenta a su familia:\n– Esta es mi abuela Rosa. Este es mi abuelo Pietro. Estos son mis padres, y este es mi hermano Luca con su mujer, Sara.",
+    "La abuela abraza a Emma como a una nieta.\n– ¡Bienvenida! Aquí tienes tu sitio, a mi lado.",
+    "A la mesa llega una gran fuente de tallarines con tomate, hechos en casa. Están buenísimos. Emma se lo come todo. La abuela está contenta.\n– ¿Un poco más?\n– ¡Sí, gracias!",
+    "Emma se come el segundo plato de tallarines. Ahora está llena. Piensa: «¡Qué comida tan rica!». Luego deja el tenedor.",
+    "Pero la abuela trae a la mesa una gran fuente de parmigiana de berenjenas. Y patatas al horno. Y ensalada.",
+    "Emma mira a Giulia. Giulia se ríe:\n– Emma, ¡los tallarines son solo el primer plato! Ahora viene el segundo. Luego la fruta, el postre y el café.\n– ¡¿El primero?!",
+    "La abuela le pone a Emma en el plato un trozo enorme de parmigiana.\n– ¡Come, come! ¡Estás demasiado delgada!",
+    "El abuelo de Giulia le dice a Emma en voz baja:\n– Un consejo: con el primero, raciones pequeñas. Mi Rosa siempre cocina para veinte personas.",
+    "La comida termina a las cuatro. Emma ya no se puede mover. En la puerta, la abuela le da una bolsa:\n– Esto es para ti: ¡la parmigiana para esta noche!",
+    "Emma se ríe y abraza a la abuela. Ahora ella también tiene una abuela italiana."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Giulia é a nova amiga de Emma. Num domingo, Giulia diz: – Você vem almoçar na casa da minha avó? Ela cozinha muito bem!",
+    "A casa da avó é pequena e cheia de fotos. Giulia apresenta a família:\n– Esta é a minha avó Rosa. Este é o meu avô Pietro. Estes são os meus pais, e este é o meu irmão Luca com a esposa dele, Sara.",
+    "A avó abraça Emma como se fosse uma neta.\n– Bem-vinda! Aqui está o seu lugar, do meu lado.",
+    "Chega à mesa um grande prato de talharim ao molho de tomate, feito em casa. Está delicioso. Emma come tudo. A avó fica contente.\n– Mais um pouquinho?\n– Sim, obrigada!",
+    "Emma come o segundo prato de talharim. Agora está satisfeita. Pensa: «Que almoço gostoso!». Depois pousa o garfo.",
+    "Mas a avó traz para a mesa uma grande travessa de parmigiana de berinjela. E batatas assadas. E salada.",
+    "Emma olha para Giulia. Giulia ri:\n– Emma, o talharim é só o primeiro prato! Agora vem o segundo. Depois a fruta, a sobremesa e o café.\n– O primeiro?!",
+    "A avó coloca no prato de Emma um pedaço enorme de parmigiana.\n– Come, come! Você está magra demais!",
+    "O avô de Giulia fala baixinho com Emma:\n– Um conselho: no primeiro prato, porções pequenas. A minha Rosa sempre cozinha para vinte pessoas.",
+    "O almoço termina às quatro. Emma não consegue mais se mexer. Na porta, a avó lhe dá uma sacola:\n– Isto é para você: a parmigiana para hoje à noite!",
+    "Emma ri e abraça a avó. Agora ela também tem uma avó italiana."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Giulia est la nouvelle amie d'Emma. Un dimanche, Giulia lui dit : – Tu viens déjeuner chez ma grand-mère ? Elle cuisine merveilleusement bien !",
+    "La maison de la grand-mère est petite et pleine de photos. Giulia présente sa famille :\n– Voici ma grand-mère Rosa. Voici mon grand-père Pietro. Voici mes parents, et voici mon frère Luca avec sa femme Sara.",
+    "La grand-mère serre Emma dans ses bras comme une petite-fille.\n– Bienvenue ! Voici ta place, à côté de moi.",
+    "Sur la table arrive un grand plat de tagliatelles à la tomate, faites maison. Elles sont délicieuses. Emma mange tout. La grand-mère est contente.\n– Encore un peu ?\n– Oui, merci !",
+    "Emma mange une deuxième assiette de tagliatelles. Maintenant, elle n'a plus faim. Elle pense : « Quel bon repas ! ». Puis elle pose sa fourchette.",
+    "Mais la grand-mère apporte à table un grand plat de parmigiana d'aubergines. Et des pommes de terre au four. Et de la salade.",
+    "Emma regarde Giulia. Giulia rit :\n– Emma, les tagliatelles, c'est seulement le premier plat ! Maintenant, il y a le plat principal. Puis les fruits, le dessert et le café.\n– Le premier plat ?!",
+    "La grand-mère met dans l'assiette d'Emma un énorme morceau de parmigiana.\n– Mange, mange ! Tu es trop mince !",
+    "Le grand-père de Giulia dit tout bas à Emma :\n– Un conseil : au premier plat, des petites portions. Ma Rosa cuisine toujours pour vingt personnes.",
+    "Le repas se termine à quatre heures. Emma ne peut plus bouger. Sur le pas de la porte, la grand-mère lui donne un sac :\n– C'est pour toi : la parmigiana pour ce soir !",
+    "Emma rit et serre la grand-mère dans ses bras. Maintenant, elle aussi a une grand-mère italienne."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Giulia je Emmina nová kamarádka. Jednou v neděli jí Giulia řekne: – Přijdeš k mojí babičce na oběd? Vaří úžasně!",
+    "Babiččin dům je malý a plný fotek. Giulia představí svou rodinu:\n– Tohle je moje babička Rosa. Tohle je můj dědeček Pietro. Tohle jsou moji rodiče a tohle je můj bratr Luca se svou ženou Sarou.",
+    "Babička obejme Emmu jako vnučku.\n– Vítej! Tady máš místo, vedle mě.",
+    "Na stůl přijde velká mísa domácích tagliatelle s rajčatovou omáčkou. Jsou výborné. Emma sní všechno. Babička je spokojená.\n– Ještě trochu?\n– Ano, děkuju!",
+    "Emma sní druhý talíř tagliatelle. Teď je najedená. Myslí si: „To je ale krásný oběd!“ Pak odloží vidličku.",
+    "Jenže babička přinese na stůl velký pekáč parmigiany z lilku. A pečené brambory. A salát.",
+    "Emma se podívá na Giulii. Giulia se směje:\n– Emmo, tagliatelle jsou jen první chod! Teď přijde hlavní chod. Pak ovoce, dezert a káva.\n– První chod?!",
+    "Babička dá Emmě na talíř obrovský kus parmigiany.\n– Jez, jez! Jsi moc hubená!",
+    "Giuliin dědeček řekne Emmě potichu:\n– Jedna rada: u prvního chodu malé porce. Moje Rosa vaří vždycky pro dvacet lidí.",
+    "Oběd skončí ve čtyři. Emma se už nemůže ani pohnout. Ve dveřích jí babička dá tašku:\n– Tohle je pro tebe: parmigiana na večer!",
+    "Emma se směje a obejme babičku. Teď má i ona italskou babičku."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Giulia jest nową przyjaciółką Emmy. Pewnej niedzieli Giulia mówi: – Przyjdziesz na obiad do mojej babci? Wspaniale gotuje!",
+    "Dom babci jest mały i pełen zdjęć. Giulia przedstawia swoją rodzinę:\n– To jest moja babcia Rosa. To jest mój dziadek Pietro. To są moi rodzice, a to mój brat Luca z żoną Sarą.",
+    "Babcia przytula Emmę jak wnuczkę.\n– Witaj! Tu jest twoje miejsce, obok mnie.",
+    "Na stół trafia duży półmisek domowego makaronu tagliatelle z sosem pomidorowym. Jest pyszny. Emma zjada wszystko. Babcia jest zadowolona.\n– Jeszcze trochę?\n– Tak, poproszę!",
+    "Emma zjada drugi talerz tagliatelle. Teraz jest najedzona. Myśli: „Co za wspaniały obiad!”. Potem odkłada widelec.",
+    "Ale babcia przynosi na stół dużą brytfannę parmigiany z bakłażanów. I pieczone ziemniaki. I sałatkę.",
+    "Emma patrzy na Giulię. Giulia się śmieje:\n– Emma, tagliatelle to tylko pierwsze danie! Teraz jest drugie. Potem owoce, deser i kawa.\n– Pierwsze?!",
+    "Babcia nakłada Emmie na talerz ogromny kawałek parmigiany.\n– Jedz, jedz! Jesteś za chuda!",
+    "Dziadek Giulii mówi cicho do Emmy:\n– Rada: przy pierwszym daniu małe porcje. Moja Rosa zawsze gotuje dla dwudziestu osób.",
+    "Obiad kończy się o czwartej. Emma nie może się już ruszyć. W drzwiach babcia daje jej torbę:\n– To dla ciebie: parmigiana na wieczór!",
+    "Emma się śmieje i przytula babcię. Teraz ona też ma włoską babcię."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Giulia, Emma'nın yeni arkadaşı. Bir pazar günü Giulia diyor ki: – Öğle yemeğine anneanneme gelir misin? Harika yemek yapar!",
+    "Anneannenin evi küçük ve fotoğraflarla dolu. Giulia ailesini tanıştırıyor:\n– Bu anneannem Rosa. Bu dedem Pietro. Bunlar annemle babam, bu da ağabeyim Luca ve eşi Sara.",
+    "Anneanne Emma'ya torunuymuş gibi sarılıyor.\n– Hoş geldin! İşte senin yerin, benim yanımda.",
+    "Sofraya büyük bir tabak ev yapımı, domatesli tagliatelle geliyor. Çok lezzetli. Emma hepsini yiyor. Anneanne çok memnun.\n– Biraz daha?\n– Evet, teşekkürler!",
+    "Emma ikinci tabak tagliatelleyi de yiyor. Artık doydu. «Ne güzel bir yemek!» diye düşünüyor. Sonra çatalını bırakıyor.",
+    "Ama anneanne sofraya büyük bir tepsi patlıcan parmigiana getiriyor. Bir de fırında patates. Bir de salata.",
+    "Emma Giulia'ya bakıyor. Giulia gülüyor:\n– Emma, tagliatelle sadece ilk yemek! Şimdi ana yemek var. Sonra meyve, tatlı ve kahve.\n– İlk yemek mi?!",
+    "Anneanne Emma'nın tabağına kocaman bir parça parmigiana koyuyor.\n– Ye, ye! Çok zayıfsın!",
+    "Giulia'nın dedesi Emma'ya alçak sesle diyor ki:\n– Bir tavsiye: ilk yemekte küçük porsiyonlar al. Benim Rosa'm hep yirmi kişilik yemek yapar.",
+    "Yemek saat dörtte bitiyor. Emma artık kıpırdayamıyor. Kapıda anneanne ona bir çanta veriyor:\n– Bu senin için: bu akşam için parmigiana!",
+    "Emma gülüyor ve anneanneye sarılıyor. Artık onun da bir İtalyan anneannesi var."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Giulia ist Emmas neue Freundin. An einem Sonntag sagt Giulia: – Kommst du mit zum Mittagessen bei meiner Oma? Sie kocht fantastisch!",
+    "Omas Haus ist klein und voller Fotos. Giulia stellt ihre Familie vor:\n– Das ist meine Oma Rosa. Das ist mein Opa Pietro. Das sind meine Eltern, und das ist mein Bruder Luca mit seiner Frau Sara.",
+    "Die Oma umarmt Emma wie eine Enkelin.\n– Willkommen! Hier ist dein Platz, neben mir.",
+    "Auf den Tisch kommt ein großer Teller hausgemachte Tagliatelle mit Tomatensoße. Sie sind köstlich. Emma isst alles auf. Die Oma ist zufrieden.\n– Noch ein bisschen?\n– Ja, gern!",
+    "Emma isst einen zweiten Teller Tagliatelle. Jetzt ist sie satt. Sie denkt: „Was für ein schönes Mittagessen!“ Dann legt sie die Gabel weg.",
+    "Aber die Oma bringt eine große Form Auberginen-Parmigiana auf den Tisch. Und Ofenkartoffeln. Und Salat.",
+    "Emma schaut Giulia an. Giulia lacht:\n– Emma, die Tagliatelle sind nur der erste Gang! Jetzt kommt der Hauptgang. Dann Obst, Nachtisch und Kaffee.\n– Der erste Gang?!",
+    "Die Oma legt Emma ein riesiges Stück Parmigiana auf den Teller.\n– Iss, iss! Du bist zu dünn!",
+    "Giulias Opa sagt leise zu Emma:\n– Ein Tipp: beim ersten Gang kleine Portionen. Meine Rosa kocht immer für zwanzig Personen.",
+    "Das Mittagessen endet um vier. Emma kann sich nicht mehr bewegen. An der Tür gibt ihr die Oma eine Tüte:\n– Die ist für dich: Parmigiana für heute Abend!",
+    "Emma lacht und umarmt die Oma. Jetzt hat auch sie eine italienische Oma."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "ジュリアはエマの新しい友だちだ。ある日曜日、ジュリアが言う。「おばあちゃんの家にお昼ごはんを食べに来ない？料理がすごく上手なの！」",
+    "おばあさんの家は小さくて、写真がいっぱいだ。ジュリアが家族を紹介する。\n「これがおばあちゃんのローザ。これがおじいちゃんのピエトロ。これが両親で、これが兄のルカと奥さんのサラ。」",
+    "おばあさんはエマを孫娘のように抱きしめる。\n「ようこそ！あなたの席はここ、私のとなりよ。」",
+    "食卓に、手作りのトマトソースのタリアテッレが大皿で出てくる。とてもおいしい。エマは全部食べる。おばあさんはうれしそうだ。\n「もう少しどう？」\n「はい、いただきます！」",
+    "エマはタリアテッレを2皿目も食べる。もうお腹がいっぱいだ。「なんてすてきなお昼ごはん！」と思う。そしてフォークを置く。",
+    "ところが、おばあさんは食卓に、なすのパルミジャーナを大きなオーブン皿で持ってくる。それにローストポテト。それにサラダも。",
+    "エマはジュリアを見る。ジュリアは笑う。\n「エマ、タリアテッレはただのプリモ（第一の皿）だよ！今からセコンド（メイン）。そのあと果物、デザート、コーヒー。」\n「プリモ？！」",
+    "おばあさんはエマのお皿に、パルミジャーナを大きく一切れのせる。\n「食べて、食べて！やせすぎよ！」",
+    "ジュリアのおじいさんが小声でエマに言う。\n「アドバイスだよ。プリモは少なめにね。うちのローザはいつも20人分作るんだ。」",
+    "お昼ごはんは4時に終わる。エマはもう動けない。玄関で、おばあさんが袋を渡す。\n「これはあなたに。今晩のパルミジャーナよ！」",
+    "エマは笑って、おばあさんを抱きしめる。これでエマにもイタリアのおばあちゃんができた。"
+   ]
+  }
+ }
+}
