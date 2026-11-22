@@ -1,0 +1,1416 @@
+{
+ "id": "emma-cena-da-amici",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "venerdì",
+   "forme": [
+    "venerdì"
+   ],
+   "esempi": [
+    "Venerdì sera andiamo al cinema.",
+    "Il venerdì lavoro fino alle due.",
+    "Ci vediamo venerdì?"
+   ],
+   "traduzioni": {
+    "en": "Friday («venerdì» = on Friday)",
+    "es": "viernes",
+    "pt": "sexta-feira",
+    "fr": "vendredi",
+    "cs": "pátek",
+    "pl": "piątek",
+    "tr": "cuma",
+    "de": "Freitag",
+    "ja": "金曜日"
+   }
+  },
+  {
+   "parola": "invitato",
+   "forme": [
+    "invitata"
+   ],
+   "formeEsempi": [
+    "invitato",
+    "invitati"
+   ],
+   "esempi": [
+    "Sono invitato a una festa.",
+    "Sei invitata anche tu!",
+    "Siamo invitati a cena dai vicini."
+   ],
+   "traduzioni": {
+    "en": "invited",
+    "es": "invitado",
+    "pt": "convidado",
+    "fr": "invité",
+    "cs": "pozvaný",
+    "pl": "zaproszony",
+    "tr": "davetli",
+    "de": "eingeladen",
+    "ja": "招待された"
+   }
+  },
+  {
+   "parola": "la cena",
+   "forme": [
+    "cena"
+   ],
+   "esempi": [
+    "La cena è alle otto.",
+    "Stasera preparo la cena io.",
+    "Vieni a cena da noi?"
+   ],
+   "traduzioni": {
+    "en": "dinner («a cena» = for dinner)",
+    "es": "cena",
+    "pt": "jantar",
+    "fr": "dîner",
+    "cs": "večeře",
+    "pl": "kolacja",
+    "tr": "akşam yemeği",
+    "de": "Abendessen",
+    "ja": "夕食、晩ごはん"
+   }
+  },
+  {
+   "parola": "portare",
+   "forme": [
+    "portare",
+    "portano"
+   ],
+   "formeEsempi": [
+    "porto"
+   ],
+   "esempi": [
+    "Porto il dolce alla festa.",
+    "Non portare niente, c'è tutto!",
+    "I fiori portano allegria in casa."
+   ],
+   "traduzioni": {
+    "en": "to bring",
+    "es": "traer, llevar",
+    "pt": "trazer, levar",
+    "fr": "apporter",
+    "cs": "přinést",
+    "pl": "przynieść",
+    "tr": "getirmek",
+    "de": "mitbringen, bringen",
+    "ja": "持ってくる、もたらす"
+   }
+  },
+  {
+   "parola": "arrivare",
+   "forme": [
+    "arrivare",
+    "arrivano"
+   ],
+   "formeEsempi": [
+    "arrivo"
+   ],
+   "esempi": [
+    "Arrivo a casa alle sette.",
+    "Gli ospiti arrivano tra poco.",
+    "Non voglio arrivare tardi."
+   ],
+   "traduzioni": {
+    "en": "to arrive, to get (somewhere)",
+    "es": "llegar",
+    "pt": "chegar",
+    "fr": "arriver",
+    "cs": "přijít, dorazit",
+    "pl": "przyjść, przybyć",
+    "tr": "varmak, gelmek",
+    "de": "ankommen",
+    "ja": "着く、来る"
+   }
+  },
+  {
+   "parola": "la mano",
+   "forme": [
+    "mani"
+   ],
+   "formeEsempi": [
+    "mano"
+   ],
+   "esempi": [
+    "Lavati le mani prima di mangiare.",
+    "Non vado a una cena con le mani vuote.",
+    "Ho un libro in mano."
+   ],
+   "traduzioni": {
+    "en": "hand («con le mani vuote» = empty-handed)",
+    "es": "mano («con le mani vuote» = con las manos vacías)",
+    "pt": "mão («con le mani vuote» = de mãos vazias)",
+    "fr": "main («con le mani vuote» = les mains vides)",
+    "cs": "ruka («con le mani vuote» = s prázdnou)",
+    "pl": "ręka («con le mani vuote» = z pustymi rękami)",
+    "tr": "el («con le mani vuote» = eli boş)",
+    "de": "Hand («con le mani vuote» = mit leeren Händen)",
+    "ja": "手（con le mani vuote＝手ぶらで）"
+   }
+  },
+  {
+   "parola": "vuoto",
+   "forme": [
+    "vuote"
+   ],
+   "formeEsempi": [
+    "vuoto",
+    "vuota"
+   ],
+   "esempi": [
+    "Il bicchiere è vuoto.",
+    "Le bottiglie vuote vanno nel vetro.",
+    "La casa è vuota."
+   ],
+   "traduzioni": {
+    "en": "empty",
+    "es": "vacío",
+    "pt": "vazio",
+    "fr": "vide",
+    "cs": "prázdný",
+    "pl": "pusty",
+    "tr": "boş",
+    "de": "leer",
+    "ja": "空の"
+   }
+  },
+  {
+   "parola": "la fioraia",
+   "forme": [
+    "fioraia"
+   ],
+   "formeEsempi": [
+    "fioraio"
+   ],
+   "esempi": [
+    "Compro le rose dalla fioraia.",
+    "La fioraia prepara un mazzo di fiori.",
+    "Il fioraio sotto casa apre alle otto."
+   ],
+   "traduzioni": {
+    "en": "florist (woman); also the flower shop",
+    "es": "florista, floristería",
+    "pt": "florista, floricultura",
+    "fr": "fleuriste",
+    "cs": "květinářka, květinářství",
+    "pl": "kwiaciarka, kwiaciarnia",
+    "tr": "çiçekçi",
+    "de": "Floristin, Blumenladen",
+    "ja": "花屋（の女性）"
+   }
+  },
+  {
+   "parola": "la rosa",
+   "forme": [
+    "rose"
+   ],
+   "formeEsempi": [
+    "rosa"
+   ],
+   "esempi": [
+    "Le rose rosse sono per l'amore.",
+    "In giardino c'è una rosa gialla.",
+    "Ti regalo una rosa."
+   ],
+   "traduzioni": {
+    "en": "rose",
+    "es": "rosa",
+    "pt": "rosa",
+    "fr": "rose",
+    "cs": "růže",
+    "pl": "róża",
+    "tr": "gül",
+    "de": "Rose",
+    "ja": "バラ"
+   }
+  },
+  {
+   "parola": "il tulipano",
+   "forme": [
+    "tulipani"
+   ],
+   "formeEsempi": [
+    "tulipano"
+   ],
+   "esempi": [
+    "I tulipani sono fiori di primavera.",
+    "Compro dieci tulipani rossi.",
+    "Il tulipano arriva dall'Olanda."
+   ],
+   "traduzioni": {
+    "en": "tulip",
+    "es": "tulipán",
+    "pt": "tulipa",
+    "fr": "tulipe",
+    "cs": "tulipán",
+    "pl": "tulipan",
+    "tr": "lale",
+    "de": "Tulpe",
+    "ja": "チューリップ"
+   }
+  },
+  {
+   "parola": "il girasole",
+   "forme": [
+    "girasoli"
+   ],
+   "formeEsempi": [
+    "girasole"
+   ],
+   "esempi": [
+    "In Toscana ci sono campi di girasoli.",
+    "Il girasole è giallo e alto.",
+    "Porto dei girasoli alla nonna."
+   ],
+   "traduzioni": {
+    "en": "sunflower",
+    "es": "girasol",
+    "pt": "girassol",
+    "fr": "tournesol",
+    "cs": "slunečnice",
+    "pl": "słonecznik",
+    "tr": "ayçiçeği",
+    "de": "Sonnenblume",
+    "ja": "ひまわり"
+   }
+  },
+  {
+   "parola": "il fiore",
+   "forme": [
+    "fiori"
+   ],
+   "formeEsempi": [
+    "fiore"
+   ],
+   "esempi": [
+    "Mi piacciono i fiori.",
+    "Sul balcone ci sono tanti fiori.",
+    "Questo fiore ha un profumo buonissimo."
+   ],
+   "traduzioni": {
+    "en": "flower",
+    "es": "flor",
+    "pt": "flor",
+    "fr": "fleur",
+    "cs": "květina",
+    "pl": "kwiat",
+    "tr": "çiçek",
+    "de": "Blume",
+    "ja": "花"
+   }
+  },
+  {
+   "parola": "bianco",
+   "forme": [
+    "bianchi"
+   ],
+   "formeEsempi": [
+    "bianco",
+    "bianca"
+   ],
+   "esempi": [
+    "Ho una camicia bianca.",
+    "Il latte è bianco.",
+    "Vorrei due fiori bianchi."
+   ],
+   "traduzioni": {
+    "en": "white",
+    "es": "blanco",
+    "pt": "branco",
+    "fr": "blanc",
+    "cs": "bílý",
+    "pl": "biały",
+    "tr": "beyaz",
+    "de": "weiß",
+    "ja": "白い"
+   }
+  },
+  {
+   "parola": "giallo",
+   "forme": [
+    "gialli"
+   ],
+   "formeEsempi": [
+    "giallo",
+    "gialla"
+   ],
+   "esempi": [
+    "Il limone è giallo.",
+    "Mi piace la tua giacca gialla.",
+    "Compro dei tulipani gialli."
+   ],
+   "traduzioni": {
+    "en": "yellow",
+    "es": "amarillo",
+    "pt": "amarelo",
+    "fr": "jaune",
+    "cs": "žlutý",
+    "pl": "żółty",
+    "tr": "sarı",
+    "de": "gelb",
+    "ja": "黄色い"
+   }
+  },
+  {
+   "parola": "elegante",
+   "forme": [
+    "eleganti"
+   ],
+   "formeEsempi": [
+    "elegante"
+   ],
+   "esempi": [
+    "Stasera metto un vestito elegante.",
+    "È un ristorante molto elegante.",
+    "Le scarpe nere sono più eleganti."
+   ],
+   "traduzioni": {
+    "en": "elegant, smart",
+    "es": "elegante",
+    "pt": "elegante",
+    "fr": "élégant",
+    "cs": "elegantní",
+    "pl": "elegancki",
+    "tr": "şık, zarif",
+    "de": "elegant",
+    "ja": "上品な、おしゃれな"
+   }
+  },
+  {
+   "parola": "l'occhio",
+   "forme": [
+    "occhi"
+   ],
+   "formeEsempi": [
+    "occhio"
+   ],
+   "esempi": [
+    "Ha gli occhi azzurri.",
+    "Chiudi gli occhi e dormi.",
+    "Mi fa male un occhio."
+   ],
+   "traduzioni": {
+    "en": "eye («con gli occhi grandi» = wide-eyed, surprised)",
+    "es": "ojo",
+    "pt": "olho",
+    "fr": "œil, yeux",
+    "cs": "oko",
+    "pl": "oko",
+    "tr": "göz",
+    "de": "Auge",
+    "ja": "目"
+   }
+  },
+  {
+   "parola": "il crisantemo",
+   "forme": [
+    "crisantemi"
+   ],
+   "formeEsempi": [
+    "crisantemo"
+   ],
+   "esempi": [
+    "In Italia i crisantemi si portano al cimitero.",
+    "Il crisantemo fiorisce in autunno.",
+    "A novembre ci sono crisantemi dappertutto."
+   ],
+   "traduzioni": {
+    "en": "chrysanthemum (in Italy: the flower for graves)",
+    "es": "crisantemo (en Italia: la flor de los cementerios)",
+    "pt": "crisântemo (na Itália: a flor dos cemitérios)",
+    "fr": "chrysanthème (fleur des tombes, comme en France)",
+    "cs": "chryzantéma (v Itálii květina na hroby)",
+    "pl": "chryzantema (we Włoszech kwiat na groby)",
+    "tr": "kasımpatı (İtalya'da mezar çiçeği)",
+    "de": "Chrysantheme (in Italien Grabblume)",
+    "ja": "菊（イタリアではお墓の花）"
+   }
+  },
+  {
+   "parola": "il cimitero",
+   "forme": [
+    "cimiteri"
+   ],
+   "formeEsempi": [
+    "cimitero"
+   ],
+   "esempi": [
+    "Il cimitero è fuori dal paese.",
+    "A novembre la gente va al cimitero.",
+    "Nel cimitero c'è molto silenzio."
+   ],
+   "traduzioni": {
+    "en": "cemetery",
+    "es": "cementerio",
+    "pt": "cemitério",
+    "fr": "cimetière",
+    "cs": "hřbitov",
+    "pl": "cmentarz",
+    "tr": "mezarlık",
+    "de": "Friedhof",
+    "ja": "墓地"
+   }
+  },
+  {
+   "parola": "brava!",
+   "forme": [
+    "brava"
+   ],
+   "formeEsempi": [
+    "bravo"
+   ],
+   "esempi": [
+    "Hai fatto tutto? Brava!",
+    "Bravo, la risposta è giusta!",
+    "Marta è molto brava in matematica."
+   ],
+   "traduzioni": {
+    "en": "well done! good choice!",
+    "es": "¡muy bien!, ¡bien hecho!",
+    "pt": "muito bem!",
+    "fr": "bravo !, bien joué !",
+    "cs": "šikovná!, výborně!",
+    "pl": "brawo!, dobrze!",
+    "tr": "aferin!",
+    "de": "gut gemacht!",
+    "ja": "えらい！、いいね！"
+   }
+  },
+  {
+   "parola": "l'allegria",
+   "forme": [
+    "allegria"
+   ],
+   "esempi": [
+    "Con i bambini in casa c'è allegria.",
+    "La musica porta allegria.",
+    "Ride con allegria."
+   ],
+   "traduzioni": {
+    "en": "cheerfulness, joy",
+    "es": "alegría",
+    "pt": "alegria",
+    "fr": "gaieté, joie",
+    "cs": "radost, veselí",
+    "pl": "radość, wesołość",
+    "tr": "neşe",
+    "de": "Fröhlichkeit, gute Laune",
+    "ja": "明るさ、楽しい気分"
+   }
+  },
+  {
+   "parola": "in punto",
+   "forme": [
+    "punto"
+   ],
+   "esempi": [
+    "Il treno parte alle sei in punto.",
+    "Arrivo alle otto in punto.",
+    "Sono le dieci in punto."
+   ],
+   "traduzioni": {
+    "en": "sharp («alle otto in punto» = at eight sharp)",
+    "es": "en punto",
+    "pt": "em ponto",
+    "fr": "pile (à huit heures pile)",
+    "cs": "přesně",
+    "pl": "punktualnie, równo",
+    "tr": "tam (saat tam sekizde)",
+    "de": "punkt (Punkt acht)",
+    "ja": "ちょうど"
+   }
+  },
+  {
+   "parola": "suonare",
+   "forme": [
+    "suona"
+   ],
+   "formeEsempi": [
+    "suono",
+    "suonare"
+   ],
+   "esempi": [
+    "Suono il campanello e aspetto.",
+    "Il telefono suona.",
+    "Mio fratello sa suonare la chitarra."
+   ],
+   "traduzioni": {
+    "en": "to ring (a bell); to play (music)",
+    "es": "tocar (el timbre)",
+    "pt": "tocar (a campainha)",
+    "fr": "sonner",
+    "cs": "zazvonit",
+    "pl": "zadzwonić (do drzwi)",
+    "tr": "(zili) çalmak",
+    "de": "klingeln",
+    "ja": "（ベルを）鳴らす"
+   }
+  },
+  {
+   "parola": "il campanello",
+   "forme": [
+    "campanello"
+   ],
+   "esempi": [
+    "Suona il campanello: chi è?",
+    "Il campanello non funziona.",
+    "Sul campanello c'è scritto «Rossi»."
+   ],
+   "traduzioni": {
+    "en": "doorbell",
+    "es": "timbre",
+    "pt": "campainha",
+    "fr": "sonnette",
+    "cs": "zvonek",
+    "pl": "dzwonek",
+    "tr": "kapı zili",
+    "de": "Klingel",
+    "ja": "呼び鈴、インターホン"
+   }
+  },
+  {
+   "parola": "aprire",
+   "forme": [
+    "apre"
+   ],
+   "formeEsempi": [
+    "apro",
+    "apri"
+   ],
+   "esempi": [
+    "Apro la finestra: fa caldo.",
+    "Chi apre la porta?",
+    "Mi apri, per favore?"
+   ],
+   "traduzioni": {
+    "en": "to open",
+    "es": "abrir",
+    "pt": "abrir",
+    "fr": "ouvrir",
+    "cs": "otevřít",
+    "pl": "otworzyć",
+    "tr": "açmak",
+    "de": "öffnen, aufmachen",
+    "ja": "開ける"
+   }
+  },
+  {
+   "parola": "la maglietta",
+   "forme": [
+    "maglietta"
+   ],
+   "esempi": [
+    "D'estate porto una maglietta e i pantaloncini.",
+    "Questa maglietta è troppo grande.",
+    "Ho una maglietta con un gatto."
+   ],
+   "traduzioni": {
+    "en": "T-shirt",
+    "es": "camiseta",
+    "pt": "camiseta",
+    "fr": "tee-shirt",
+    "cs": "tričko",
+    "pl": "koszulka, T-shirt",
+    "tr": "tişört",
+    "de": "T-Shirt",
+    "ja": "Tシャツ"
+   }
+  },
+  {
+   "parola": "vecchio",
+   "forme": [
+    "vecchia"
+   ],
+   "formeEsempi": [
+    "vecchio"
+   ],
+   "esempi": [
+    "Ho una macchina vecchia.",
+    "Questo telefono è vecchio.",
+    "In casa metto una maglia vecchia."
+   ],
+   "traduzioni": {
+    "en": "old",
+    "es": "viejo",
+    "pt": "velho",
+    "fr": "vieux",
+    "cs": "starý",
+    "pl": "stary",
+    "tr": "eski",
+    "de": "alt",
+    "ja": "古い"
+   }
+  },
+  {
+   "parola": "già",
+   "forme": [
+    "già"
+   ],
+   "esempi": [
+    "Sei già a casa?",
+    "Ho già mangiato, grazie.",
+    "Sono già le dieci!"
+   ],
+   "traduzioni": {
+    "en": "already",
+    "es": "ya",
+    "pt": "já",
+    "fr": "déjà",
+    "cs": "už",
+    "pl": "już",
+    "tr": "zaten, şimdiden",
+    "de": "schon",
+    "ja": "もう"
+   }
+  },
+  {
+   "parola": "la cucina",
+   "forme": [
+    "cucina"
+   ],
+   "esempi": [
+    "La cucina è piccola ma luminosa.",
+    "Mangiamo in cucina.",
+    "La mamma è in cucina."
+   ],
+   "traduzioni": {
+    "en": "kitchen",
+    "es": "cocina",
+    "pt": "cozinha",
+    "fr": "cuisine",
+    "cs": "kuchyně",
+    "pl": "kuchnia",
+    "tr": "mutfak",
+    "de": "Küche",
+    "ja": "台所、キッチン"
+   }
+  },
+  {
+   "parola": "nessuno",
+   "forme": [
+    "nessuno"
+   ],
+   "esempi": [
+    "In ufficio non c'è nessuno.",
+    "Nessuno risponde al telefono.",
+    "Non conosco nessuno qui."
+   ],
+   "traduzioni": {
+    "en": "nobody, no one",
+    "es": "nadie",
+    "pt": "ninguém",
+    "fr": "personne",
+    "cs": "nikdo",
+    "pl": "nikt",
+    "tr": "kimse",
+    "de": "niemand",
+    "ja": "誰も（〜ない）"
+   }
+  },
+  {
+   "parola": "il piatto",
+   "forme": [
+    "piatti"
+   ],
+   "formeEsempi": [
+    "piatto"
+   ],
+   "esempi": [
+    "Metto i piatti sul tavolo.",
+    "Dopo cena lavo i piatti.",
+    "Mi passi un piatto?"
+   ],
+   "traduzioni": {
+    "en": "plate",
+    "es": "plato",
+    "pt": "prato",
+    "fr": "assiette",
+    "cs": "talíř",
+    "pl": "talerz",
+    "tr": "tabak",
+    "de": "Teller",
+    "ja": "皿"
+   }
+  },
+  {
+   "parola": "il bicchiere",
+   "forme": [
+    "bicchieri"
+   ],
+   "formeEsempi": [
+    "bicchiere"
+   ],
+   "esempi": [
+    "Vorrei un bicchiere d'acqua.",
+    "I bicchieri sono nell'armadio.",
+    "Riempio il bicchiere di vino."
+   ],
+   "traduzioni": {
+    "en": "glass",
+    "es": "vaso, copa",
+    "pt": "copo",
+    "fr": "verre",
+    "cs": "sklenice",
+    "pl": "szklanka, kieliszek",
+    "tr": "bardak",
+    "de": "Glas",
+    "ja": "コップ、グラス"
+   }
+  },
+  {
+   "parola": "la forchetta",
+   "forme": [
+    "forchette"
+   ],
+   "formeEsempi": [
+    "forchetta"
+   ],
+   "esempi": [
+    "Le forchette sono nel cassetto.",
+    "Mi porti una forchetta?",
+    "Metto coltelli e forchette sul tavolo."
+   ],
+   "traduzioni": {
+    "en": "fork",
+    "es": "tenedor",
+    "pt": "garfo",
+    "fr": "fourchette",
+    "cs": "vidlička",
+    "pl": "widelec",
+    "tr": "çatal",
+    "de": "Gabel",
+    "ja": "フォーク"
+   }
+  },
+  {
+   "parola": "il fuoco",
+   "forme": [
+    "fuoco"
+   ],
+   "esempi": [
+    "Metto l'acqua sul fuoco.",
+    "Il sugo è sul fuoco da un'ora.",
+    "Spegni il fuoco, la pasta è pronta!"
+   ],
+   "traduzioni": {
+    "en": "heat, (stove) burner («sul fuoco» = on the stove)",
+    "es": "fuego («sul fuoco» = al fuego)",
+    "pt": "fogo («sul fuoco» = no fogo)",
+    "fr": "feu («sul fuoco» = sur le feu)",
+    "cs": "plotna, oheň («sul fuoco» = na plotně)",
+    "pl": "ogień («sul fuoco» = na kuchence)",
+    "tr": "ocak («sul fuoco» = ocakta)",
+    "de": "Herd, Feuer («sul fuoco» = auf dem Herd)",
+    "ja": "火（sul fuoco＝火にかけて）"
+   }
+  },
+  {
+   "parola": "la pentola",
+   "forme": [
+    "pentola"
+   ],
+   "esempi": [
+    "La pasta si cuoce in una pentola grande.",
+    "La pentola è sul fuoco.",
+    "Lavo la pentola dopo cena."
+   ],
+   "traduzioni": {
+    "en": "pot, saucepan",
+    "es": "olla, cazuela",
+    "pt": "panela",
+    "fr": "casserole, marmite",
+    "cs": "hrnec",
+    "pl": "garnek",
+    "tr": "tencere",
+    "de": "Topf",
+    "ja": "鍋"
+   }
+  },
+  {
+   "parola": "freddo",
+   "forme": [
+    "fredda"
+   ],
+   "formeEsempi": [
+    "freddo"
+   ],
+   "esempi": [
+    "L'acqua del mare è fredda.",
+    "Vorrei una birra fredda.",
+    "Il caffè è già freddo."
+   ],
+   "traduzioni": {
+    "en": "cold",
+    "es": "frío",
+    "pt": "frio",
+    "fr": "froid",
+    "cs": "studený",
+    "pl": "zimny",
+    "tr": "soğuk",
+    "de": "kalt",
+    "ja": "冷たい"
+   }
+  },
+  {
+   "parola": "gli altri",
+   "forme": [
+    "altri"
+   ],
+   "esempi": [
+    "Gli altri arrivano dopo.",
+    "Io resto, gli altri vanno via.",
+    "Aspettiamo gli altri amici?"
+   ],
+   "traduzioni": {
+    "en": "the others, the other …",
+    "es": "los otros, los demás",
+    "pt": "os outros",
+    "fr": "les autres",
+    "cs": "ostatní",
+    "pl": "inni, pozostali",
+    "tr": "diğerleri",
+    "de": "die anderen",
+    "ja": "ほかの人たち"
+   }
+  },
+  {
+   "parola": "la ragazza",
+   "forme": [
+    "ragazza"
+   ],
+   "esempi": [
+    "Quella ragazza è mia cugina.",
+    "Una ragazza mi chiede la strada.",
+    "La ragazza di Paolo si chiama Lia."
+   ],
+   "traduzioni": {
+    "en": "girl, young woman",
+    "es": "chica",
+    "pt": "moça, menina",
+    "fr": "fille, jeune femme",
+    "cs": "dívka, holka",
+    "pl": "dziewczyna",
+    "tr": "kız, genç kadın",
+    "de": "Mädchen, junge Frau",
+    "ja": "女の子、若い女性"
+   }
+  },
+  {
+   "parola": "il ragazzo",
+   "forme": [
+    "ragazzo"
+   ],
+   "esempi": [
+    "Il ragazzo del bar è molto simpatico.",
+    "C'è un ragazzo alla porta.",
+    "Mio figlio è un ragazzo tranquillo."
+   ],
+   "traduzioni": {
+    "en": "boy, young man",
+    "es": "chico",
+    "pt": "rapaz, menino",
+    "fr": "garçon, jeune homme",
+    "cs": "kluk, mladík",
+    "pl": "chłopak",
+    "tr": "oğlan, genç adam",
+    "de": "Junge, junger Mann",
+    "ja": "男の子、若い男性"
+   }
+  },
+  {
+   "parola": "la torta",
+   "forme": [
+    "torta"
+   ],
+   "esempi": [
+    "Per il compleanno faccio una torta.",
+    "Vuoi una fetta di torta?",
+    "La torta al cioccolato è la mia preferita."
+   ],
+   "traduzioni": {
+    "en": "cake",
+    "es": "tarta, pastel",
+    "pt": "bolo, torta",
+    "fr": "gâteau",
+    "cs": "dort",
+    "pl": "ciasto, tort",
+    "tr": "pasta",
+    "de": "Kuchen, Torte",
+    "ja": "ケーキ"
+   }
+  },
+  {
+   "parola": "la bottiglia",
+   "forme": [
+    "bottiglia"
+   ],
+   "esempi": [
+    "Compro una bottiglia d'acqua.",
+    "La bottiglia è vuota.",
+    "Apriamo una bottiglia di vino?"
+   ],
+   "traduzioni": {
+    "en": "bottle",
+    "es": "botella",
+    "pt": "garrafa",
+    "fr": "bouteille",
+    "cs": "láhev",
+    "pl": "butelka",
+    "tr": "şişe",
+    "de": "Flasche",
+    "ja": "びん、ボトル"
+   }
+  },
+  {
+   "parola": "il vino",
+   "forme": [
+    "vino"
+   ],
+   "esempi": [
+    "Preferisci vino rosso o bianco?",
+    "Il vino toscano è famoso.",
+    "A cena beviamo un bicchiere di vino."
+   ],
+   "traduzioni": {
+    "en": "wine",
+    "es": "vino",
+    "pt": "vinho",
+    "fr": "vin",
+    "cs": "víno",
+    "pl": "wino",
+    "tr": "şarap",
+    "de": "Wein",
+    "ja": "ワイン"
+   }
+  },
+  {
+   "parola": "il gelato",
+   "forme": [
+    "gelato"
+   ],
+   "esempi": [
+    "D'estate mangio un gelato ogni giorno.",
+    "Vorrei un gelato al limone.",
+    "Il gelato italiano è famoso."
+   ],
+   "traduzioni": {
+    "en": "ice cream",
+    "es": "helado",
+    "pt": "sorvete",
+    "fr": "glace",
+    "cs": "zmrzlina",
+    "pl": "lody",
+    "tr": "dondurma",
+    "de": "Eis",
+    "ja": "アイスクリーム、ジェラート"
+   }
+  },
+  {
+   "parola": "scusate il ritardo",
+   "forme": [
+    "ritardo"
+   ],
+   "esempi": [
+    "Scusate il ritardo, c'era traffico.",
+    "Il treno è in ritardo.",
+    "Arrivo sempre in ritardo."
+   ],
+   "traduzioni": {
+    "en": "sorry I'm late («il ritardo» = the delay)",
+    "es": "perdonad el retraso («il ritardo» = el retraso)",
+    "pt": "desculpem o atraso («il ritardo» = o atraso)",
+    "fr": "excusez le retard",
+    "cs": "promiňte to zpoždění («il ritardo» = zpoždění)",
+    "pl": "przepraszam za spóźnienie",
+    "tr": "geciktiğim için kusura bakmayın («il ritardo» = gecikme)",
+    "de": "Entschuldigt die Verspätung",
+    "ja": "遅れてごめんなさい（il ritardo＝遅れ）"
+   }
+  },
+  {
+   "parola": "tardi",
+   "forme": [
+    "tardi"
+   ],
+   "esempi": [
+    "È tardi: vado a dormire.",
+    "Domenica mi sveglio tardi.",
+    "Scusa, arrivo un po' tardi."
+   ],
+   "traduzioni": {
+    "en": "late",
+    "es": "tarde",
+    "pt": "tarde",
+    "fr": "tard",
+    "cs": "pozdě",
+    "pl": "późno",
+    "tr": "geç",
+    "de": "spät",
+    "ja": "遅く"
+   }
+  },
+  {
+   "parola": "l'ora",
+   "forme": [
+    "ora"
+   ],
+   "esempi": [
+    "È l'ora di pranzo.",
+    "A che ora comincia il film?",
+    "Ho studiato un'ora."
+   ],
+   "traduzioni": {
+    "en": "time, hour («l'ora giusta» = the right time)",
+    "es": "hora",
+    "pt": "hora",
+    "fr": "heure",
+    "cs": "hodina, čas",
+    "pl": "godzina, pora",
+    "tr": "saat, vakit",
+    "de": "Uhrzeit, Stunde",
+    "ja": "時間、時刻"
+   }
+  },
+  {
+   "parola": "giusto",
+   "forme": [
+    "giusta"
+   ],
+   "formeEsempi": [
+    "giusto"
+   ],
+   "esempi": [
+    "La risposta è giusta.",
+    "È il momento giusto per partire.",
+    "Hai la taglia giusta?"
+   ],
+   "traduzioni": {
+    "en": "right, correct",
+    "es": "justo, correcto",
+    "pt": "certo, correto",
+    "fr": "juste, bon",
+    "cs": "správný",
+    "pl": "właściwy, dobry",
+    "tr": "doğru",
+    "de": "richtig",
+    "ja": "正しい、ちょうどいい"
+   }
+  },
+  {
+   "parola": "finalmente",
+   "forme": [
+    "finalmente"
+   ],
+   "esempi": [
+    "Finalmente è venerdì!",
+    "Il treno arriva finalmente.",
+    "Finalmente sei qui!"
+   ],
+   "traduzioni": {
+    "en": "at last, finally",
+    "es": "por fin",
+    "pt": "finalmente, enfim",
+    "fr": "enfin",
+    "cs": "konečně",
+    "pl": "wreszcie, nareszcie",
+    "tr": "nihayet, sonunda",
+    "de": "endlich",
+    "ja": "やっと、ついに"
+   }
+  },
+  {
+   "parola": "pronto",
+   "forme": [
+    "pronta"
+   ],
+   "formeEsempi": [
+    "pronto"
+   ],
+   "esempi": [
+    "La cena è pronta!",
+    "Sei pronto? Usciamo.",
+    "Il caffè è pronto."
+   ],
+   "traduzioni": {
+    "en": "ready",
+    "es": "listo",
+    "pt": "pronto",
+    "fr": "prêt",
+    "cs": "hotový, připravený",
+    "pl": "gotowy",
+    "tr": "hazır",
+    "de": "fertig, bereit",
+    "ja": "できている、準備ができた"
+   }
+  },
+  {
+   "parola": "insieme",
+   "forme": [
+    "insieme"
+   ],
+   "esempi": [
+    "Studiamo insieme?",
+    "Pranziamo sempre insieme.",
+    "Parlano tutti insieme."
+   ],
+   "traduzioni": {
+    "en": "together («tutti insieme» = all at once)",
+    "es": "juntos",
+    "pt": "juntos",
+    "fr": "ensemble",
+    "cs": "spolu, najednou",
+    "pl": "razem",
+    "tr": "birlikte",
+    "de": "zusammen",
+    "ja": "一緒に"
+   }
+  },
+  {
+   "parola": "il centro",
+   "forme": [
+    "centro"
+   ],
+   "esempi": [
+    "Metto i fiori al centro del tavolo.",
+    "Il bambino è al centro della foto.",
+    "Abito in centro."
+   ],
+   "traduzioni": {
+    "en": "centre, middle",
+    "es": "centro",
+    "pt": "centro, meio",
+    "fr": "centre, milieu",
+    "cs": "střed",
+    "pl": "środek",
+    "tr": "orta",
+    "de": "Mitte",
+    "ja": "真ん中、中心"
+   }
+  },
+  {
+   "parola": "sorridere",
+   "forme": [
+    "sorride"
+   ],
+   "formeEsempi": [
+    "sorrido",
+    "sorridi"
+   ],
+   "esempi": [
+    "Quando sono felice sorrido.",
+    "Il bambino sorride alla mamma.",
+    "Sorridi! Faccio una foto."
+   ],
+   "traduzioni": {
+    "en": "to smile",
+    "es": "sonreír",
+    "pt": "sorrir",
+    "fr": "sourire",
+    "cs": "usmívat se",
+    "pl": "uśmiechać się",
+    "tr": "gülümsemek",
+    "de": "lächeln",
+    "ja": "ほほえむ"
+   }
+  },
+  {
+   "parola": "la storia",
+   "forme": [
+    "storia"
+   ],
+   "esempi": [
+    "Ti racconto una storia divertente.",
+    "È una storia vera.",
+    "Conosci la storia di Pinocchio?"
+   ],
+   "traduzioni": {
+    "en": "story",
+    "es": "historia",
+    "pt": "história",
+    "fr": "histoire",
+    "cs": "příběh",
+    "pl": "historia",
+    "tr": "hikâye",
+    "de": "Geschichte",
+    "ja": "話、出来事"
+   }
+  },
+  {
+   "parola": "sapere",
+   "forme": [
+    "sanno"
+   ],
+   "formeEsempi": [
+    "so",
+    "sai"
+   ],
+   "esempi": [
+    "Non so dov'è la stazione.",
+    "Sai che ore sono?",
+    "I bambini sanno già leggere."
+   ],
+   "traduzioni": {
+    "en": "to know",
+    "es": "saber",
+    "pt": "saber",
+    "fr": "savoir",
+    "cs": "vědět",
+    "pl": "wiedzieć",
+    "tr": "bilmek",
+    "de": "wissen",
+    "ja": "知っている"
+   }
+  },
+  {
+   "parola": "solo",
+   "forme": [
+    "solo"
+   ],
+   "esempi": [
+    "Ho solo dieci euro.",
+    "Parlo solo un po' di italiano.",
+    "Lo sa solo mia madre."
+   ],
+   "traduzioni": {
+    "en": "only",
+    "es": "solo",
+    "pt": "só, apenas",
+    "fr": "seulement",
+    "cs": "jen",
+    "pl": "tylko",
+    "tr": "sadece",
+    "de": "nur",
+    "ja": "〜だけ"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "On Friday Emma is invited to dinner at Marco's, a friend of Giulia's. Marco says: – At eight, at my place. And don't bring anything!",
+    "But Emma doesn't want to arrive empty-handed. At seven she goes into a florist's. There are roses, tulips, sunflowers and some very elegant white and yellow flowers.",
+    "– Good evening. I'd like these white and yellow flowers, please. They're for a dinner.",
+    "The florist looks at her wide-eyed.\n– Chrysanthemums? For a dinner? No, miss! In Italy chrysanthemums are the flowers for cemeteries.\n– Oh no! Then… I'll take the sunflowers.\n– Good choice. Sunflowers bring cheer.",
+    "At eight o'clock sharp Emma rings the doorbell. Marco opens the door. His hair is wet and he's wearing an old T-shirt.\n– Emma! You're here already? Come in, come in!",
+    "There's nobody in the kitchen. On the table there are plates, glasses and forks. On the stove there's a pot of cold water.",
+    "At half past eight the other friends arrive: a girl with a cake, a young man with a bottle of wine, two friends with ice cream. Nobody says «Sorry we're late». For them it isn't late: it's the right time!",
+    "At nine, at last, the pasta is ready. The friends eat, laugh and all talk at once. Marco puts the sunflowers in the middle of the table.",
+    "– What lovely sunflowers! – says a girl.",
+    "Emma smiles and says nothing. Only two people know the story of the chrysanthemums: she and the florist."
+   ]
+  },
+  "es": {
+   "a1": [
+    "El viernes Emma está invitada a cenar en casa de Marco, un amigo de Giulia. Marco le dice: – A las ocho, en mi casa. ¡Y no traigas nada!",
+    "Pero Emma no quiere llegar con las manos vacías. A las siete entra en una floristería. Hay rosas, tulipanes, girasoles y unas flores blancas y amarillas muy elegantes.",
+    "– Buenas tardes. Quisiera estas flores blancas y amarillas, por favor. Son para una cena.",
+    "La florista la mira con los ojos muy abiertos.\n– ¿Crisantemos? ¿Para una cena? ¡No, señorita! En Italia los crisantemos son las flores de los cementerios.\n– ¡Ay, no! Entonces… me llevo los girasoles.\n– Muy bien. Los girasoles traen alegría.",
+    "A las ocho en punto Emma llama al timbre. Marco abre la puerta. Tiene el pelo mojado y una camiseta vieja.\n– ¡Emma! ¿Ya estás aquí? ¡Pasa, pasa!",
+    "En la cocina no hay nadie. En la mesa están los platos, los vasos y los tenedores. En el fuego hay una olla con agua fría.",
+    "A las ocho y media llegan los demás amigos: una chica con una tarta, un chico con una botella de vino, dos amigas con helado. Nadie dice «Perdonad el retraso». Para ellos no es tarde: ¡es la hora justa!",
+    "A las nueve, por fin, la pasta está lista. Los amigos comen, se ríen y hablan todos a la vez. Marco pone los girasoles en el centro de la mesa.",
+    "– ¡Qué girasoles tan bonitos! –dice una chica.",
+    "Emma sonríe y no dice nada. La historia de los crisantemos solo la saben dos personas: ella y la florista."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Na sexta-feira, Emma é convidada para jantar na casa de Marco, um amigo de Giulia. Marco diz: – Às oito, na minha casa. E não traga nada!",
+    "Mas Emma não quer chegar de mãos vazias. Às sete entra numa floricultura. Há rosas, tulipas, girassóis e umas flores brancas e amarelas muito elegantes.",
+    "– Boa noite. Eu queria estas flores brancas e amarelas, por favor. São para um jantar.",
+    "A florista olha para ela com os olhos arregalados.\n– Crisântemos? Para um jantar? Não, moça! Na Itália os crisântemos são as flores dos cemitérios.\n– Ah, não! Então… vou levar os girassóis.\n– Muito bem. Girassol traz alegria.",
+    "Às oito em ponto, Emma toca a campainha. Marco abre a porta. Está com o cabelo molhado e uma camiseta velha.\n– Emma! Já chegou? Entra, entra!",
+    "Na cozinha não há ninguém. Na mesa estão os pratos, os copos e os garfos. No fogo há uma panela com água fria.",
+    "Às oito e meia chegam os outros amigos: uma moça com um bolo, um rapaz com uma garrafa de vinho, duas amigas com sorvete. Ninguém diz «Desculpem o atraso». Para eles não é tarde: é a hora certa!",
+    "Às nove, finalmente, a massa está pronta. Os amigos comem, riem e falam todos ao mesmo tempo. Marco coloca os girassóis no meio da mesa.",
+    "– Que girassóis lindos! – diz uma moça.",
+    "Emma sorri e não diz nada. A história dos crisântemos só duas pessoas conhecem: ela e a florista."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Vendredi, Emma est invitée à dîner chez Marco, un ami de Giulia. Marco lui dit : – À huit heures, chez moi. Et n'apporte rien !",
+    "Mais Emma ne veut pas arriver les mains vides. À sept heures, elle entre chez une fleuriste. Il y a des roses, des tulipes, des tournesols et des fleurs blanches et jaunes très élégantes.",
+    "– Bonsoir. Je voudrais ces fleurs blanches et jaunes, s'il vous plaît. C'est pour un dîner.",
+    "La fleuriste la regarde avec de grands yeux.\n– Des chrysanthèmes ? Pour un dîner ? Non, mademoiselle ! En Italie, les chrysanthèmes sont les fleurs des cimetières.\n– Oh non ! Alors… je prends les tournesols.\n– Bon choix. Les tournesols, ça apporte de la gaieté.",
+    "À huit heures pile, Emma sonne. Marco ouvre la porte. Il a les cheveux mouillés et un vieux tee-shirt.\n– Emma ! Tu es déjà là ? Entre, entre !",
+    "Dans la cuisine, il n'y a personne. Sur la table, il y a les assiettes, les verres et les fourchettes. Sur le feu, il y a une casserole d'eau froide.",
+    "À huit heures et demie, les autres amis arrivent : une fille avec un gâteau, un garçon avec une bouteille de vin, deux amies avec de la glace. Personne ne dit « Excusez le retard ». Pour eux, ce n'est pas tard : c'est la bonne heure !",
+    "À neuf heures, enfin, les pâtes sont prêtes. Les amis mangent, rient et parlent tous en même temps. Marco met les tournesols au milieu de la table.",
+    "– Quels beaux tournesols ! dit une fille.",
+    "Emma sourit et ne dit rien. L'histoire des chrysanthèmes, seules deux personnes la connaissent : elle et la fleuriste."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "V pátek je Emma pozvaná na večeři k Markovi, Giuliinu kamarádovi. Marco říká: – V osm, u mě. A nic nenos!",
+    "Ale Emma nechce přijít s prázdnou. V sedm vejde do květinářství. Jsou tam růže, tulipány, slunečnice a nějaké moc elegantní bílé a žluté květiny.",
+    "– Dobrý večer. Chtěla bych tyhle bílé a žluté květiny, prosím. Jsou na večeři.",
+    "Květinářka na ni vykulí oči.\n– Chryzantémy? Na večeři? Ne, slečno! V Itálii jsou chryzantémy květiny na hřbitov.\n– Ach ne! Tak… vezmu si slunečnice.\n– Dobrá volba. Slunečnice přinášejí radost.",
+    "Přesně v osm Emma zazvoní. Marco otevře dveře. Má mokré vlasy a staré tričko.\n– Emmo! Ty už jsi tady? Pojď dál, pojď dál!",
+    "V kuchyni nikdo není. Na stole jsou talíře, sklenice a vidličky. Na plotně stojí hrnec se studenou vodou.",
+    "V půl deváté přijdou ostatní kamarádi: holka s dortem, kluk s lahví vína, dvě kamarádky se zmrzlinou. Nikdo neřekne „Promiňte, že jdeme pozdě“. Pro ně to není pozdě: je to ta správná hodina!",
+    "V devět jsou konečně těstoviny hotové. Kamarádi jedí, smějí se a mluví všichni najednou. Marco dá slunečnice doprostřed stolu.",
+    "– To jsou ale krásné slunečnice! – řekne jedna holka.",
+    "Emma se usměje a nic neříká. Příběh o chryzantémách znají jen dva lidé: ona a květinářka."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "W piątek Emma jest zaproszona na kolację do Marca, kolegi Giulii. Marco mówi: – O ósmej, u mnie. I nic nie przynoś!",
+    "Ale Emma nie chce przyjść z pustymi rękami. O siódmej wchodzi do kwiaciarni. Są tam róże, tulipany, słoneczniki i jakieś bardzo eleganckie białe i żółte kwiaty.",
+    "– Dobry wieczór. Poproszę te białe i żółte kwiaty. Są na kolację.",
+    "Kwiaciarka patrzy na nią wielkimi oczami.\n– Chryzantemy? Na kolację? Nie, proszę pani! We Włoszech chryzantemy to kwiaty na cmentarz.\n– O nie! To… wezmę słoneczniki.\n– Brawo. Słoneczniki przynoszą radość.",
+    "Punktualnie o ósmej Emma dzwoni do drzwi. Marco otwiera. Ma mokre włosy i starą koszulkę.\n– Emma! Już jesteś? Wchodź, wchodź!",
+    "W kuchni nie ma nikogo. Na stole są talerze, szklanki i widelce. Na kuchence stoi garnek z zimną wodą.",
+    "O wpół do dziewiątej przychodzą inni znajomi: dziewczyna z ciastem, chłopak z butelką wina, dwie koleżanki z lodami. Nikt nie mówi „Przepraszamy za spóźnienie”. Dla nich to nie jest późno: to właściwa pora!",
+    "O dziewiątej makaron jest wreszcie gotowy. Przyjaciele jedzą, śmieją się i mówią wszyscy naraz. Marco stawia słoneczniki na środku stołu.",
+    "– Jakie piękne słoneczniki! – mówi jedna dziewczyna.",
+    "Emma się uśmiecha i nic nie mówi. Historię chryzantem znają tylko dwie osoby: ona i kwiaciarka."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Cuma günü Emma, Giulia'nın arkadaşı Marco'nun evine akşam yemeğine davetli. Marco diyor ki: – Saat sekizde, bende. Sakın bir şey getirme!",
+    "Ama Emma eli boş gitmek istemiyor. Saat yedide bir çiçekçiye giriyor. Güller, laleler, ayçiçekleri ve çok şık beyaz ve sarı çiçekler var.",
+    "– İyi akşamlar. Şu beyaz ve sarı çiçeklerden istiyorum lütfen. Bir akşam yemeği için.",
+    "Çiçekçi kadın ona gözlerini kocaman açarak bakıyor.\n– Kasımpatı mı? Akşam yemeğine mi? Olmaz hanımefendi! İtalya'da kasımpatı mezarlık çiçeğidir.\n– Eyvah! O zaman… ayçiçeklerini alayım.\n– Aferin. Ayçiçeği neşe getirir.",
+    "Saat tam sekizde Emma zili çalıyor. Marco kapıyı açıyor. Saçları ıslak, üstünde de eski bir tişört var.\n– Emma! Geldin mi bile? Gir, gir!",
+    "Mutfakta kimse yok. Masada tabaklar, bardaklar ve çatallar var. Ocakta soğuk suyla dolu bir tencere duruyor.",
+    "Sekiz buçukta diğer arkadaşlar geliyor: pastalı bir kız, bir şişe şaraplı bir delikanlı, dondurmalı iki kız arkadaş. Kimse «Geç kaldığımız için kusura bakma» demiyor. Onlara göre geç değil: tam vakti!",
+    "Saat dokuzda nihayet makarna hazır. Arkadaşlar yiyor, gülüyor ve hep bir ağızdan konuşuyor. Marco ayçiçeklerini masanın ortasına koyuyor.",
+    "– Ne güzel ayçiçekleri! – diyor kızlardan biri.",
+    "Emma gülümsüyor ve hiçbir şey söylemiyor. Kasımpatı hikâyesini sadece iki kişi biliyor: kendisi ve çiçekçi kadın."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Am Freitag ist Emma bei Marco, einem Freund von Giulia, zum Abendessen eingeladen. Marco sagt: – Um acht, bei mir. Und bring nichts mit!",
+    "Aber Emma will nicht mit leeren Händen kommen. Um sieben geht sie in einen Blumenladen. Es gibt Rosen, Tulpen, Sonnenblumen und sehr elegante weiße und gelbe Blumen.",
+    "– Guten Abend. Ich hätte gern diese weißen und gelben Blumen, bitte. Sie sind für ein Abendessen.",
+    "Die Floristin schaut sie mit großen Augen an.\n– Chrysanthemen? Für ein Abendessen? Nein, junge Frau! In Italien sind Chrysanthemen Friedhofsblumen.\n– Oh nein! Dann … nehme ich die Sonnenblumen.\n– Gute Wahl. Sonnenblumen bringen gute Laune.",
+    "Punkt acht klingelt Emma. Marco macht die Tür auf. Er hat nasse Haare und ein altes T-Shirt an.\n– Emma! Du bist schon da? Komm rein, komm rein!",
+    "In der Küche ist niemand. Auf dem Tisch stehen Teller, Gläser und Gabeln. Auf dem Herd steht ein Topf mit kaltem Wasser.",
+    "Um halb neun kommen die anderen Freunde: ein Mädchen mit einem Kuchen, ein junger Mann mit einer Flasche Wein, zwei Freundinnen mit Eis. Niemand sagt „Entschuldigt die Verspätung“. Für sie ist es nicht spät: Es ist genau die richtige Zeit!",
+    "Um neun ist die Pasta endlich fertig. Die Freunde essen, lachen und reden alle durcheinander. Marco stellt die Sonnenblumen in die Mitte des Tisches.",
+    "– Was für schöne Sonnenblumen! – sagt ein Mädchen.",
+    "Emma lächelt und sagt nichts. Die Geschichte mit den Chrysanthemen kennen nur zwei Menschen: sie und die Floristin."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "金曜日、エマはジュリアの友だちのマルコの家に、夕食に招待されている。マルコは言う。「8時に、うちで。何も持ってこなくていいからね！」",
+    "でも、エマは手ぶらで行きたくない。7時に花屋に入る。バラ、チューリップ、ひまわり、それにとても上品な白と黄色の花がある。",
+    "「こんばんは。この白と黄色の花をください。夕食会に持っていくんです。」",
+    "花屋の女性は目を丸くしてエマを見る。\n「菊？夕食会に？だめですよ、お嬢さん！イタリアでは、菊はお墓の花なんです。」\n「えっ、そうなんですか！じゃあ……ひまわりにします。」\n「いいですね。ひまわりは明るい気分にしてくれますよ。」",
+    "8時ちょうどに、エマは呼び鈴を鳴らす。マルコがドアを開ける。髪はぬれていて、古いTシャツを着ている。\n「エマ！もう来たの？入って、入って！」",
+    "台所には誰もいない。テーブルには皿とグラスとフォークが並んでいる。コンロの上には、冷たい水が入った鍋がある。",
+    "8時半に、ほかの友だちがやって来る。ケーキを持った女の子、ワインを1本持った男の子、ジェラートを持った女友だち二人。誰も「遅れてごめん」と言わない。みんなにとって遅くはない。ちょうどいい時間なのだ！",
+    "9時に、やっとパスタができる。友だちは食べて、笑って、みんな一緒にしゃべる。マルコはひまわりをテーブルの真ん中に飾る。",
+    "「すてきなひまわりね！」と女の子が言う。",
+    "エマはほほえんで、何も言わない。菊の話を知っているのは二人だけ。エマと花屋の女性だ。"
+   ]
+  }
+ }
+}
