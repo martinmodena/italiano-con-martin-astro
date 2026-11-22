@@ -7,7 +7,7 @@ import { join } from 'node:path';
 const ROOT = process.env.SITE_ROOT || 'dist';
 const MB = 1e6;
 const SITE_WARN = 900 * MB;
-const PDF_WARN = 1.6 * MB; // il più grande, il libro di grammatica giapponese, sta sotto
+const PDF_WARN = 2.5 * MB; // i più grandi: raccolta giapponese delle letture A1 (circa 1,7 MB) e libri di grammatica
 
 let total = 0;
 let pdfs = 0;

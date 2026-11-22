@@ -1292,3 +1292,10 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Controlli**: su 10 pagine tipo × 6 schermi nessuna immagine più sfocata di prima (il controllo tiene conto di `object-fit: cover`), CLS 0, nessuna immagine rotta né pagina più larga dello schermo; audit tutti verdi. `sizes="auto"` non si usa: Chrome prenderebbe la larghezza del riquadro anche dove la foto è ritagliata in altezza.
 - **Peso del sito**: +18 MB di versioni ridotte (circa 3.100 file), totale sotto 800 MB.
 - **Risultato** (stesse 10 pagine, versione prima e dopo servite in locale e misurate allo stesso modo, scorrendo tutta la pagina): computer −37…−79 % (/favole/ 2.135 → 879 KB, /vocabolario/ 2.627 → 545 KB, /vocabolario/verbi-animali.html 4.041 → 1.916 KB); telefono −5…−28 % (/favole/ 2.135 → 1.536 KB): gli schermi dei telefoni (3 pixel per punto) vogliono davvero le foto grandi. All'apertura della pagina i KB sono molti meno: le immagini lontane si caricano solo scorrendo.
+
+## 2026-11-22 — Raccolte PDF delle letture per livello
+
+- **Martin**: «facciamo la raccolta» (idea del 2026-11-19, rimandata a dopo il trasloco: in Search Console la prima ricerca non di marca è «letture italiano per stranieri a1 pdf»).
+- **Cosa**: 50 PDF, uno per livello (A1–C1) in ognuna delle 10 lingue, con tutti i testi dell'indice di quel livello, letture e favole, nello stesso ordine: A1 54 testi (112 pagine), A2 50, B1 40, B2 13, C1 9. Il testo italiano è lo stesso in tutte le lingue; cambiano titoli, indice, parole utili tradotte e domande come nei PDF delle singole letture.
+- **Peso**: 45 MB in tutto (A1 italiano 1,3 MB, giapponese 1,7 MB per i caratteri); immagini a 480 px JPEG 55 e senza la codifica ASCII85 di ReportLab. Sito sotto 850 MB.
+- **Dove**: riquadro sotto i livelli in ogni indice di livello e riquadro con i cinque livelli nell'indice generale delle letture, nelle 10 lingue. Indicizzabili come gli altri PDF delle storie (vedi 2026-11-19).

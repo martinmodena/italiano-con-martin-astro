@@ -30,7 +30,7 @@ PDF_OUT = Path(os.environ.get("PDF_OUT", ROOT / "public" / "pdf"))
 # in tutte le lingue e per tutti i livelli. Ripetibile.
 # --help / -h: stampa le opzioni ed esce (prima un --help faceva partire il giro completo).
 if "--help" in sys.argv or "-h" in sys.argv:
-    print("Uso: python scripts/generate-pdfs.py [--only <file-italiano>] [--lang <codice>] [--book]")
+    print("Uso: python scripts/generate-pdfs.py [--only <file-italiano>] [--lang <codice>] [--book] [--readers]")
     print("Senza opzioni rigenera TUTTI i PDF (lungo).")
     raise SystemExit(0)
 ONLY =[sys.argv[i + 1] for i, a in enumerate(sys.argv) if a == "--only" and i + 1 < len(sys.argv)]
@@ -978,6 +978,153 @@ def build_book(language):
     return output
 
 
+# Raccolte delle letture per livello (2026-11-22, Martin: «facciamo la raccolta»): tutti i testi
+# dell'indice di un livello (letture e favole) in un PDF, per chi cerca «letture italiano a1 pdf».
+# python scripts/generate-pdfs.py --readers [--lang xx]; si rifanno anche alla fine del giro completo.
+READER_STRINGS = {
+    "it": {"title": "Letture in italiano {lv}", "subtitle": "Racconti, favole e articoli di livello {lv}, con parole utili e domande", "texts": "{n} testi", "toc": "Indice", "file": "letture-in-italiano-{lv}.pdf"},
+    "en": {"title": "Italian Graded Readers {lv}", "subtitle": "Level {lv} stories, fables and articles in Italian, with useful words and questions", "texts": "{n} texts", "toc": "Contents", "file": "italian-graded-readers-{lv}.pdf"},
+    "es": {"title": "Lecturas en italiano {lv}", "subtitle": "Relatos, fábulas y artículos en italiano de nivel {lv}, con palabras útiles y preguntas", "texts": "{n} textos", "toc": "Índice", "file": "lecturas-en-italiano-{lv}.pdf"},
+    "pt": {"title": "Leituras em italiano {lv}", "subtitle": "Contos, fábulas e artigos em italiano de nível {lv}, com palavras úteis e perguntas", "texts": "{n} textos", "toc": "Sumário", "file": "leituras-em-italiano-{lv}.pdf"},
+    "fr": {"title": "Lectures en italien {lv}", "subtitle": "Récits, fables et articles en italien de niveau {lv}, avec mots utiles et questions", "texts": "{n} textes", "toc": "Sommaire", "file": "lectures-en-italien-{lv}.pdf"},
+    "cs": {"title": "Čtení v italštině {lv}", "subtitle": "Příběhy, bajky a články v italštině na úrovni {lv}, s užitečnými slovíčky a otázkami", "texts": "{n} textů", "toc": "Obsah", "file": "cteni-v-italstine-{lv}.pdf"},
+    "pl": {"title": "Czytanki po włosku {lv}", "subtitle": "Opowiadania, bajki i artykuły po włosku na poziomie {lv}, z przydatnymi słowami i pytaniami", "texts": "{n} tekstów", "toc": "Spis treści", "file": "czytanki-po-wlosku-{lv}.pdf"},
+    "tr": {"title": "İtalyanca okuma metinleri {lv}", "subtitle": "{lv} seviyesinde İtalyanca hikâyeler, masallar ve yazılar; faydalı kelimeler ve sorularla", "texts": "{n} metin", "toc": "İçindekiler", "file": "italyanca-okuma-metinleri-{lv}.pdf"},
+    "de": {"title": "Italienische Lesetexte {lv}", "subtitle": "Geschichten, Fabeln und Artikel auf Italienisch, Niveau {lv}, mit nützlichen Wörtern und Fragen", "texts": "{n} Texte", "toc": "Inhalt", "file": "italienische-lesetexte-{lv}.pdf"},
+    "ja": {"title": "イタリア語の読み物 {lv}", "subtitle": "{lv}レベルのイタリア語の物語・寓話・記事。役立つ単語と質問つき", "texts": "{n}本", "toc": "目次", "file": "italian-reading-{lv}.pdf"},
+}
+
+
+def reader_index(language, level):
+    """Testi dell'indice /letture/<livello>/ di quella lingua: ([(titolo, pagina, id del blocco)], canonical)."""
+    italian = SITE / "letture" / level / "index.html"
+    if not italian.exists():
+        return [], None
+    if language == "it":
+        index = italian
+    else:
+        source = html.fromstring(italian.read_text(encoding="utf-8"))
+        alternates = {node.get("hreflang"): node.get("href") for node in source.xpath('//link[@rel="alternate"]')}
+        href = alternates.get(OPTIONAL_LANGUAGES.get(language, language))
+        if not href:
+            return [], None
+        index = SITE / unquote(urlparse(href).path.lstrip("/")) / "index.html"
+    if not index.exists():
+        return [], None
+    document = html.fromstring(index.read_text(encoding="utf-8"))
+    canonical = next(iter(document.xpath('//link[@rel="canonical"]/@href')), "")
+    texts, seen = [], set()
+    for tile in document.xpath('//main//a[contains(concat(" ", normalize-space(@class), " "), " story-tile ")]'):
+        parsed = urlparse(urljoin("https://italianoconmartin.com/", tile.get("href")))
+        page = SITE / unquote(parsed.path).lstrip("/")
+        block = parsed.fragment or level
+        if (page, block) in seen or not page.exists():
+            continue
+        seen.add((page, block))
+        title = clean("".join(tile.xpath(".//h2[1]//text()")))
+        texts.append((title, page, block))
+    return texts, canonical
+
+
+@lru_cache(maxsize=512)
+def reader_image_bytes(image_path):
+    source = PILImage.open(image_path).convert("RGB")
+    source = ImageOps.fit(source, (480, 270), method=PILImage.Resampling.LANCZOS)
+    output = BytesIO()
+    source.save(output, format="JPEG", quality=55, optimize=True, progressive=True)
+    return output.getvalue()
+
+
+def reader_image(document, page):
+    candidates = document.xpath('//figure[contains(concat(" ", normalize-space(@class), " "), " story-figure ")]//img[1]/@src')
+    if not candidates:
+        return None
+    parsed = urlparse(candidates[0])
+    image_path = SITE / "assets" / Path(parsed.path).name if parsed.scheme else (page.parent / unquote(parsed.path)).resolve()
+    if not image_path.exists():
+        return None
+    image = Image(BytesIO(reader_image_bytes(str(image_path))), width=120 * mm, height=67.5 * mm)
+    image.hAlign = "LEFT"
+    return image
+
+
+def reader_cover(story, style, language, level, count, canonical):
+    r = READER_STRINGS.get(language, READER_STRINGS["en"])
+    white = ParagraphStyle("RCoverW", parent=style["g_title"], fontSize=36, leading=42)
+    sub = ParagraphStyle("RCoverS", parent=style["g_lead"], fontSize=13, leading=19)
+    eyebrow = ParagraphStyle("RCoverE", parent=style["g_eyebrow"], fontSize=10, leading=14)
+    story.append(Spacer(1, 38 * mm))
+    story.append(Paragraph("ITALIANO CON MARTIN", eyebrow))
+    story.append(Spacer(1, 5 * mm))
+    story.append(Paragraph(safe_markup(r["title"].format(lv=level.upper())), white))
+    story.append(Spacer(1, 8 * mm))
+    story.append(Paragraph(safe_markup(r["subtitle"].format(lv=level.upper())), sub))
+    story.append(Spacer(1, 3 * mm))
+    story.append(Paragraph(safe_markup(r["texts"].format(n=count)), sub))
+    if canonical:
+        story.append(Spacer(1, 3 * mm))
+        story.append(Paragraph(f'<link href="{canonical}" color="#f2c9a8">{safe_markup(canonical.replace("https://", ""))}</link>', sub))
+    story.append(Spacer(1, 34 * mm))
+    photos = Table([[
+        Image(BytesIO(circular_photo("martin-portrait.webp")), width=26 * mm, height=26 * mm, mask="auto"),
+        Image(BytesIO(circular_photo("licia-portrait.webp")), width=26 * mm, height=26 * mm, mask="auto"),
+        Paragraph('<b>Martin &amp; Licia</b><br/><link href="https://italianoconmartin.com/" color="#f2c9a8">italianoconmartin.com</link>', sub),
+    ]], colWidths=[30 * mm, 30 * mm, 100 * mm], hAlign="LEFT")
+    photos.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("LEFTPADDING", (0, 0), (-1, -1), 0)]))
+    story.extend([photos, PageBreak()])
+
+
+def build_reader(language, level):
+    texts, canonical = reader_index(language, level)
+    if not texts:
+        return None
+    r = READER_STRINGS.get(language, READER_STRINGS["en"])
+    style = grammar_styles(language)
+    story = []
+    reader_cover(story, style, language, level, len(texts), canonical)
+    toc = TableOfContents()
+    toc.levelStyles = [ParagraphStyle("RToc0", parent=style["body"], fontSize=9.8, leading=13, spaceAfter=1.5)]
+    story.extend([Paragraph(safe_markup(r["toc"]), style["g_h2"]), HRFlowable(width="100%", thickness=1.2, color=RED, spaceAfter=4), toc, PageBreak()])
+    for number, (title, page, block) in enumerate(texts):
+        document = html.fromstring(page.read_text(encoding="utf-8"))
+        articles = document.xpath(f'//article[@id="{block}"]')
+        if not articles:
+            raise SystemExit(f"--readers: {page} non ha il blocco #{block}")
+        page_title = clean("".join(document.xpath("//h1[1]//text()"))) or title
+        story.append(Marker(page_title, 0, f"text-{number}"))
+        story.append(Paragraph(safe_markup(page_title), style["g_h2"]))
+        image = reader_image(document, page)
+        if image:
+            story.extend([Spacer(1, 1 * mm), image, Spacer(1, 3 * mm)])
+        render_article(story, articles[0], style, language)
+        story.append(PageBreak())
+    story.pop()
+    story.append(closing_block(style, language))
+    output = PDF_OUT / language / r["file"].format(lv=level)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    pdf = BookTemplate(
+        str(output), pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm, topMargin=17 * mm, bottomMargin=17 * mm,
+        title=f'{r["title"].format(lv=level.upper())} (PDF) - Italiano con Martin', author="Italiano con Martin",
+        subject=r["subtitle"].format(lv=level.upper()),
+    )
+    pdf.multiBuild(story, onFirstPage=cover_background, onLaterPages=footer)
+    compress_photos(output)
+    return output
+
+
+def build_readers():
+    # Le immagini JPEG senza la codifica ASCII85 di ReportLab (+25 % di peso, inutile nei PDF moderni).
+    from reportlab import rl_config
+    rl_config.useA85 = 0
+    for language in [*LANGUAGES, *OPTIONAL_LANGUAGES]:
+        if LANG_ONLY and language not in LANG_ONLY:
+            continue
+        for level in LEVELS:
+            output = build_reader(language, level)
+            if output:
+                print(f"Raccolta di letture: {output.relative_to(ROOT) if output.is_relative_to(ROOT) else output} ({output.stat().st_size // 1000} KB)")
+
+
 def build_pdf(page, language, level, output):
     document = html.fromstring(page.read_text(encoding="utf-8"))
     style = styles_for(language)
@@ -1058,6 +1205,10 @@ if BOOK_ONLY or not ONLY:
         build_books()
         raise SystemExit(0)
 
+if "--readers" in sys.argv:
+    build_readers()
+    raise SystemExit(0)
+
 jobs = list(localized_pages())
 for index, (page, language, level) in enumerate(jobs, 1):
     output = PDF_OUT / language / f"{page.stem}-{level}.pdf"
@@ -1067,3 +1218,4 @@ for index, (page, language, level) in enumerate(jobs, 1):
 print(f"Generated {len(jobs)} PDFs")
 if not ONLY:
     build_books()
+    build_readers()

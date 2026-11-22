@@ -125,3 +125,5 @@ a.preply-signup{display:inline-flex;align-items:center;gap:14px}.preply-tag{posi
 @media(prefers-reduced-motion:reduce){.preply-tag,a.preply-signup:hover .preply-tag{animation:none}}
 /* Favole lette da Martin (2026-11-05): lettore audio sopra il testo del livello, lo mette scripts/add-fable-audio.mjs. */
 .fable-audio{margin:0 0 22px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--cream)}.fable-audio p{margin:0 0 10px;font-weight:700;color:var(--dark)}.fable-audio audio{display:block;width:100%;max-width:460px;height:40px}
+.reading-book{display:grid;grid-template-columns:1.1fr .9fr;gap:20px 24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:24px;padding:22px 24px;margin-top:24px}.reading-book p{color:var(--muted);margin:.25em 0 0}.reading-book>.button{justify-self:end}.reading-book-levels{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}.reading-book-levels .button{min-width:58px;justify-content:center}
+@media(max-width:700px){.reading-book{grid-template-columns:1fr}.reading-book>.button{justify-self:stretch;text-align:center}.reading-book-levels{justify-content:flex-start}}
