@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && node scripts/migrate/flatten-html.mjs",
+    "build": "astro build && node scripts/migrate/flatten-html.mjs && node scripts/optimize-dist.mjs",
     "verify:parity": "node scripts/migrate/verify-parity.mjs",
     "audit:site": "node scripts/audit-site.mjs",
     "audit:links": "node scripts/audit-links.mjs",

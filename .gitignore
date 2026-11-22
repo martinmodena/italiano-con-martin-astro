@@ -5,6 +5,9 @@ dist/
 # dependencies
 node_modules/
 
+# versioni ridotte delle immagini (scripts/optimize-dist.mjs)
+.cache/
+
 # logs
 npm-debug.log*
 yarn-debug.log*

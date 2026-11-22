@@ -34,6 +34,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Versioni ridotte delle immagini già fatte (scripts/optimize-dist.mjs): la build crea solo le nuove.
+      - name: Cache responsive images
+        uses: actions/cache@v4
+        with:
+          path: .cache/responsive-images
+          key: responsive-images-${{ hashFiles('scripts/optimize-dist.mjs') }}-${{ github.run_id }}
+          restore-keys: responsive-images-${{ hashFiles('scripts/optimize-dist.mjs') }}-
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

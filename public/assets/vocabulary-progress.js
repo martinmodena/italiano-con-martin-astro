@@ -54,14 +54,17 @@
 
   function createSummary(label, done, total, className) {
     const percent = total ? Math.round((done / total) * 100) : 0;
+    // total null = segnaposto mentre arrivano i totali: stessa altezza, così la pagina non salta (CLS).
     const wrapper = document.createElement('div');
     wrapper.className = className;
     wrapper.classList.toggle('is-complete', total > 0 && percent === 100);
-    wrapper.innerHTML = `<div class="progress-heading"><strong>${label}</strong> <span>${text.done(done, total)} · ${percent}%</span></div><progress max="100" value="${percent}"></progress>`;
+    const detail = total === null ? '…' : `${text.done(done, total)} · ${percent}%`;
+    wrapper.innerHTML = `<div class="progress-heading"><strong>${label}</strong> <span>${detail}</span></div><progress max="100" value="${percent}"></progress>`;
     return wrapper;
   }
 
   function render(totals) {
+    const pending = totals === null;
     let courseDone = 0;
     let courseTotal = 0;
     cards.forEach((card) => {
@@ -73,26 +76,30 @@
       } catch {
         // Un indirizzo non decodificabile resta com'è.
       }
-      const total = totals[path] || 0;
-      if (!total) return;
-      const done = Math.min(completed(lessonId), total);
+      const body = card.querySelector('.vocabulary-category-body') || card;
+      const total = pending ? null : totals[path] || 0;
+      if (!pending && !total) {
+        body.querySelector('.lesson-link-progress')?.remove();
+        return;
+      }
+      const done = pending ? 0 : Math.min(completed(lessonId), total);
       courseDone += done;
       courseTotal += total;
       const summary = createSummary(text.lesson, done, total, 'lesson-link-progress');
       summary.style.marginTop = 'auto';
       summary.style.paddingTop = '14px';
-      const body = card.querySelector('.vocabulary-category-body') || card;
       body.querySelector('.lesson-link-progress')?.remove();
       body.appendChild(summary);
     });
-    if (!courseTotal) return;
     document.querySelector('.course-progress-container')?.remove();
+    if (!pending && !courseTotal) return;
     const container = document.createElement('div');
     container.className = 'course-progress-container';
-    container.appendChild(createSummary(text.course, courseDone, courseTotal, 'course-progress-summary'));
+    container.appendChild(createSummary(text.course, courseDone, pending ? null : courseTotal, 'course-progress-summary'));
     grid.insertAdjacentElement('beforebegin', container);
   }
 
+  render(null);
   const script = document.currentScript;
   const totalsUrl = new URL('vocabulary-totals.json', script ? script.src : location.href);
   fetch(totalsUrl)
