@@ -1,0 +1,1342 @@
+{
+ "id": "emma-il-piano-perfetto",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "lunedì",
+   "forme": [
+    "lunedì"
+   ],
+   "esempi": [
+    "Lunedì comincio un lavoro nuovo.",
+    "Il lunedì il museo è chiuso.",
+    "Ci vediamo lunedì mattina."
+   ],
+   "traduzioni": {
+    "en": "Monday",
+    "es": "lunes",
+    "pt": "segunda-feira",
+    "fr": "lundi",
+    "cs": "pondělí",
+    "pl": "poniedziałek",
+    "tr": "pazartesi",
+    "de": "Montag",
+    "ja": "月曜日"
+   }
+  },
+  {
+   "parola": "il quaderno",
+   "forme": [
+    "quaderno"
+   ],
+   "esempi": [
+    "Scrivo le parole nuove sul quaderno.",
+    "Ho un quaderno rosso per l'italiano.",
+    "Apri il quaderno a pagina dieci."
+   ],
+   "traduzioni": {
+    "en": "notebook, exercise book",
+    "es": "cuaderno",
+    "pt": "caderno",
+    "fr": "cahier",
+    "cs": "sešit",
+    "pl": "zeszyt",
+    "tr": "defter",
+    "de": "Heft",
+    "ja": "ノート"
+   }
+  },
+  {
+   "parola": "l'idea",
+   "forme": [
+    "idea"
+   ],
+   "esempi": [
+    "Ho un'idea: andiamo al mare!",
+    "È una buona idea.",
+    "Non ho idea di dove sia."
+   ],
+   "traduzioni": {
+    "en": "idea",
+    "es": "idea",
+    "pt": "ideia",
+    "fr": "idée",
+    "cs": "nápad",
+    "pl": "pomysł",
+    "tr": "fikir",
+    "de": "Idee",
+    "ja": "アイデア、考え"
+   }
+  },
+  {
+   "parola": "il fine settimana",
+   "forme": [
+    "settimana"
+   ],
+   "esempi": [
+    "Che cosa fai il fine settimana?",
+    "Questo fine settimana resto a casa.",
+    "Partiamo per un fine settimana in montagna."
+   ],
+   "traduzioni": {
+    "en": "weekend",
+    "es": "fin de semana",
+    "pt": "fim de semana",
+    "fr": "week-end",
+    "cs": "víkend",
+    "pl": "weekend",
+    "tr": "hafta sonu",
+    "de": "Wochenende",
+    "ja": "週末"
+   }
+  },
+  {
+   "parola": "scrivere",
+   "forme": [
+    "scritto",
+    "scrive"
+   ],
+   "formeEsempi": [
+    "scrivo"
+   ],
+   "esempi": [
+    "Ogni sera scrivo un messaggio a mia madre.",
+    "Ho già scritto la lettera.",
+    "Marco scrive molto bene."
+   ],
+   "traduzioni": {
+    "en": "to write («ha scritto» = she has written)",
+    "es": "escribir",
+    "pt": "escrever",
+    "fr": "écrire",
+    "cs": "psát, napsat",
+    "pl": "pisać, napisać",
+    "tr": "yazmak",
+    "de": "schreiben",
+    "ja": "書く"
+   }
+  },
+  {
+   "parola": "il programma",
+   "forme": [
+    "programma"
+   ],
+   "esempi": [
+    "Qual è il programma per domani?",
+    "Ho cambiato programma: resto a casa.",
+    "Il programma della gita è sul sito."
+   ],
+   "traduzioni": {
+    "en": "plan, itinerary",
+    "es": "plan, programa",
+    "pt": "programa, roteiro",
+    "fr": "programme",
+    "cs": "program, plán",
+    "pl": "plan, program",
+    "tr": "plan, program",
+    "de": "Programm, Plan",
+    "ja": "予定、プラン"
+   }
+  },
+  {
+   "parola": "ascoltare",
+   "forme": [
+    "ascolta"
+   ],
+   "formeEsempi": [
+    "ascolto"
+   ],
+   "esempi": [
+    "Ascolta, ho una domanda.",
+    "La sera ascolto la radio.",
+    "Il bambino non ascolta la mamma."
+   ],
+   "traduzioni": {
+    "en": "to listen («ascolta!» = listen!)",
+    "es": "escuchar",
+    "pt": "escutar, ouvir",
+    "fr": "écouter",
+    "cs": "poslouchat",
+    "pl": "słuchać",
+    "tr": "dinlemek",
+    "de": "zuhören",
+    "ja": "聞く"
+   }
+  },
+  {
+   "parola": "prenderemo (prendere)",
+   "forme": [
+    "prenderemo"
+   ],
+   "formeEsempi": [
+    "prenderò",
+    "prenderai"
+   ],
+   "esempi": [
+    "Domani prenderemo l'autobus delle otto.",
+    "Prenderò un caffè al bar.",
+    "Che cosa prenderai da mangiare?"
+   ],
+   "traduzioni": {
+    "en": "we will take (future of «prendere»)",
+    "es": "tomaremos, cogeremos",
+    "pt": "pegaremos",
+    "fr": "nous prendrons",
+    "cs": "vezmeme, pojedeme (čím)",
+    "pl": "weźmiemy, pojedziemy (czymś)",
+    "tr": "bineceğiz, alacağız",
+    "de": "wir werden nehmen",
+    "ja": "乗る、取る（prendereの未来形）"
+   }
+  },
+  {
+   "parola": "il treno",
+   "forme": [
+    "treno",
+    "treni"
+   ],
+   "esempi": [
+    "Il treno parte dal binario tre.",
+    "Vado a Milano in treno.",
+    "I treni regionali costano poco."
+   ],
+   "traduzioni": {
+    "en": "train",
+    "es": "tren",
+    "pt": "trem",
+    "fr": "train",
+    "cs": "vlak",
+    "pl": "pociąg",
+    "tr": "tren",
+    "de": "Zug",
+    "ja": "電車、列車"
+   }
+  },
+  {
+   "parola": "arriveremo (arrivare)",
+   "forme": [
+    "arriveremo",
+    "arriverà"
+   ],
+   "formeEsempi": [
+    "arriverò"
+   ],
+   "esempi": [
+    "Arriveremo a Roma alle nove.",
+    "Il pacco arriverà domani.",
+    "Arriverò un po' tardi."
+   ],
+   "traduzioni": {
+    "en": "we will arrive (future of «arrivare»)",
+    "es": "llegaremos",
+    "pt": "chegaremos",
+    "fr": "nous arriverons",
+    "cs": "dorazíme, přijedeme",
+    "pl": "przyjedziemy, dotrzemy",
+    "tr": "varacağız",
+    "de": "wir werden ankommen",
+    "ja": "着く（arrivareの未来形）"
+   }
+  },
+  {
+   "parola": "lasciare",
+   "forme": [
+    "lasceremo"
+   ],
+   "formeEsempi": [
+    "lascio",
+    "lascerò"
+   ],
+   "esempi": [
+    "Lascio le chiavi sul tavolo.",
+    "Lasceremo la macchina al parcheggio.",
+    "Ti lascerò un messaggio."
+   ],
+   "traduzioni": {
+    "en": "to leave (something somewhere)",
+    "es": "dejar",
+    "pt": "deixar",
+    "fr": "laisser, déposer",
+    "cs": "nechat",
+    "pl": "zostawić",
+    "tr": "bırakmak",
+    "de": "lassen, abstellen",
+    "ja": "置いていく、預ける"
+   }
+  },
+  {
+   "parola": "la valigia",
+   "forme": [
+    "valigie"
+   ],
+   "formeEsempi": [
+    "valigia"
+   ],
+   "esempi": [
+    "La mia valigia è troppo pesante.",
+    "Preparo la valigia per il viaggio.",
+    "Le valigie sono in macchina."
+   ],
+   "traduzioni": {
+    "en": "suitcase",
+    "es": "maleta",
+    "pt": "mala",
+    "fr": "valise",
+    "cs": "kufr",
+    "pl": "walizka",
+    "tr": "bavul",
+    "de": "Koffer",
+    "ja": "スーツケース"
+   }
+  },
+  {
+   "parola": "l'albergo",
+   "forme": [
+    "albergo"
+   ],
+   "esempi": [
+    "L'albergo è vicino alla stazione.",
+    "Abbiamo prenotato un albergo in centro.",
+    "La colazione in albergo è alle sette."
+   ],
+   "traduzioni": {
+    "en": "hotel",
+    "es": "hotel",
+    "pt": "hotel",
+    "fr": "hôtel",
+    "cs": "hotel",
+    "pl": "hotel",
+    "tr": "otel",
+    "de": "Hotel",
+    "ja": "ホテル"
+   }
+  },
+  {
+   "parola": "andremo (andare)",
+   "forme": [
+    "andremo"
+   ],
+   "formeEsempi": [
+    "andrò",
+    "andrai"
+   ],
+   "esempi": [
+    "L'estate prossima andremo in Sicilia.",
+    "Domani andrò dal medico.",
+    "Andrai alla festa?"
+   ],
+   "traduzioni": {
+    "en": "we will go (future of «andare»)",
+    "es": "iremos",
+    "pt": "iremos, vamos",
+    "fr": "nous irons",
+    "cs": "půjdeme, pojedeme",
+    "pl": "pójdziemy, pojedziemy",
+    "tr": "gideceğiz",
+    "de": "wir werden gehen/fahren",
+    "ja": "行く（andareの未来形）"
+   }
+  },
+  {
+   "parola": "l'osteria",
+   "forme": [
+    "osteria"
+   ],
+   "esempi": [
+    "In questa osteria si mangia bene.",
+    "L'osteria è piccola ma sempre piena.",
+    "Ceniamo in un'osteria del centro."
+   ],
+   "traduzioni": {
+    "en": "osteria (simple, traditional restaurant)",
+    "es": "osteria (restaurante sencillo y tradicional)",
+    "pt": "osteria (restaurante simples e tradicional)",
+    "fr": "osteria (petit restaurant traditionnel)",
+    "cs": "osteria (prostá tradiční restaurace)",
+    "pl": "osteria (prosta, tradycyjna restauracja)",
+    "tr": "osteria (sade, geleneksel lokanta)",
+    "de": "Osteria (einfaches, traditionelles Lokal)",
+    "ja": "オステリア（気軽な伝統料理の食堂）"
+   }
+  },
+  {
+   "parola": "mangeremo (mangiare)",
+   "forme": [
+    "mangeremo"
+   ],
+   "formeEsempi": [
+    "mangerò"
+   ],
+   "esempi": [
+    "Stasera mangeremo la pizza.",
+    "Domani mangerò meno dolci.",
+    "A Natale mangeremo dai nonni."
+   ],
+   "traduzioni": {
+    "en": "we will eat (future of «mangiare»)",
+    "es": "comeremos",
+    "pt": "comeremos",
+    "fr": "nous mangerons",
+    "cs": "budeme jíst, najíme se",
+    "pl": "zjemy",
+    "tr": "yiyeceğiz",
+    "de": "wir werden essen",
+    "ja": "食べる（mangiareの未来形）"
+   }
+  },
+  {
+   "parola": "fare un giro",
+   "forme": [
+    "giro"
+   ],
+   "formeEsempi": [
+    "faremo"
+   ],
+   "esempi": [
+    "Facciamo un giro in centro?",
+    "Domani faremo un giro in bicicletta.",
+    "Dopo cena faccio un giro con il cane."
+   ],
+   "traduzioni": {
+    "en": "to go for a ride, a walk («faremo un giro in vaporetto» = we'll take a boat ride)",
+    "es": "dar una vuelta",
+    "pt": "dar uma volta, passear",
+    "fr": "faire un tour",
+    "cs": "projet se, projít se",
+    "pl": "przejechać się, przejść się",
+    "tr": "tur atmak, gezmek",
+    "de": "eine Runde drehen, eine Fahrt machen",
+    "ja": "ひと回りする（ボートで一周する）"
+   }
+  },
+  {
+   "parola": "il vaporetto",
+   "forme": [
+    "vaporetto"
+   ],
+   "esempi": [
+    "A Venezia si va in vaporetto.",
+    "Il vaporetto passa ogni dieci minuti.",
+    "Compro il biglietto del vaporetto."
+   ],
+   "traduzioni": {
+    "en": "vaporetto (Venice water bus)",
+    "es": "vaporetto (autobús acuático de Venecia)",
+    "pt": "vaporetto (ônibus aquático de Veneza)",
+    "fr": "vaporetto (bateau-bus de Venise)",
+    "cs": "vaporetto (benátská vodní tramvaj)",
+    "pl": "vaporetto (wodny tramwaj w Wenecji)",
+    "tr": "vaporetto (Venedik'in deniz otobüsü)",
+    "de": "Vaporetto (Wasserbus in Venedig)",
+    "ja": "ヴァポレット（ヴェネツィアの水上バス）"
+   }
+  },
+  {
+   "parola": "fare una faccia strana",
+   "forme": [
+    "faccia"
+   ],
+   "esempi": [
+    "Quando assaggia il limone, fa una faccia strana.",
+    "Perché fai quella faccia?",
+    "Ha una faccia stanca."
+   ],
+   "traduzioni": {
+    "en": "to pull a funny face (expression)",
+    "es": "poner una cara rara",
+    "pt": "fazer uma cara estranha",
+    "fr": "faire une drôle de tête",
+    "cs": "udělat divný obličej",
+    "pl": "zrobić dziwną minę",
+    "tr": "garip bir surat yapmak",
+    "de": "ein komisches Gesicht machen",
+    "ja": "変な顔をする"
+   }
+  },
+  {
+   "parola": "strano",
+   "forme": [
+    "strana"
+   ],
+   "formeEsempi": [
+    "strano"
+   ],
+   "esempi": [
+    "Oggi il cielo ha un colore strano.",
+    "Che strano: la porta è aperta!",
+    "Ho fatto un sogno strano."
+   ],
+   "traduzioni": {
+    "en": "strange, funny",
+    "es": "raro",
+    "pt": "estranho",
+    "fr": "bizarre, drôle",
+    "cs": "divný",
+    "pl": "dziwny",
+    "tr": "garip",
+    "de": "komisch, seltsam",
+    "ja": "変な"
+   }
+  },
+  {
+   "parola": "partire",
+   "forme": [
+    "partiremo",
+    "partirà"
+   ],
+   "formeEsempi": [
+    "parto"
+   ],
+   "esempi": [
+    "Domani parto per Londra.",
+    "Il treno partirà in ritardo.",
+    "Partiremo all'alba."
+   ],
+   "traduzioni": {
+    "en": "to leave, to depart",
+    "es": "salir, irse",
+    "pt": "partir, sair",
+    "fr": "partir",
+    "cs": "odjet",
+    "pl": "wyjechać, odjechać",
+    "tr": "yola çıkmak, kalkmak",
+    "de": "abfahren, losfahren",
+    "ja": "出発する"
+   }
+  },
+  {
+   "parola": "ci sarà (essere)",
+   "forme": [
+    "sarà",
+    "saremo"
+   ],
+   "formeEsempi": [
+    "sarò"
+   ],
+   "esempi": [
+    "Domani ci sarà il sole.",
+    "Saremo a casa alle otto.",
+    "Sarò lì tra cinque minuti."
+   ],
+   "traduzioni": {
+    "en": "there will be; will be (future of «essere»); «sarà in ritardo» = it's probably late",
+    "es": "habrá; será, estará",
+    "pt": "haverá; será, estará",
+    "fr": "il y aura ; sera",
+    "cs": "bude",
+    "pl": "będzie",
+    "tr": "olacak",
+    "de": "es wird geben; wird sein",
+    "ja": "〜がある（だろう）、〜だろう"
+   }
+  },
+  {
+   "parola": "lo sciopero",
+   "forme": [
+    "sciopero",
+    "scioperi"
+   ],
+   "esempi": [
+    "Domani c'è lo sciopero degli autobus.",
+    "Gli insegnanti sono in sciopero.",
+    "In Italia gli scioperi si annunciano prima."
+   ],
+   "traduzioni": {
+    "en": "strike",
+    "es": "huelga",
+    "pt": "greve",
+    "fr": "grève",
+    "cs": "stávka",
+    "pl": "strajk",
+    "tr": "grev",
+    "de": "Streik",
+    "ja": "ストライキ"
+   }
+  },
+  {
+   "parola": "fra",
+   "forme": [
+    "fra"
+   ],
+   "esempi": [
+    "Ci vediamo fra un'ora.",
+    "Il film comincia fra dieci minuti.",
+    "Fra due giorni è il mio compleanno."
+   ],
+   "traduzioni": {
+    "en": "in (time from now)",
+    "es": "dentro de",
+    "pt": "daqui a",
+    "fr": "dans",
+    "cs": "za",
+    "pl": "za",
+    "tr": "… sonra",
+    "de": "in",
+    "ja": "〜後に"
+   }
+  },
+  {
+   "parola": "annunciare",
+   "forme": [
+    "annunciano"
+   ],
+   "formeEsempi": [
+    "annuncia"
+   ],
+   "esempi": [
+    "Il capotreno annuncia un ritardo.",
+    "Alla radio annunciano pioggia.",
+    "Gli scioperi si annunciano dieci giorni prima."
+   ],
+   "traduzioni": {
+    "en": "to announce («si annunciano» = they are announced)",
+    "es": "anunciar",
+    "pt": "anunciar",
+    "fr": "annoncer",
+    "cs": "oznámit, ohlásit",
+    "pl": "ogłaszać",
+    "tr": "duyurmak",
+    "de": "ankündigen",
+    "ja": "知らせる、予告する"
+   }
+  },
+  {
+   "parola": "almeno",
+   "forme": [
+    "almeno"
+   ],
+   "esempi": [
+    "Dormo almeno otto ore.",
+    "Studia almeno mezz'ora al giorno.",
+    "Almeno oggi non piove."
+   ],
+   "traduzioni": {
+    "en": "at least",
+    "es": "al menos",
+    "pt": "pelo menos",
+    "fr": "au moins",
+    "cs": "aspoň",
+    "pl": "co najmniej, przynajmniej",
+    "tr": "en az",
+    "de": "mindestens",
+    "ja": "少なくとも"
+   }
+  },
+  {
+   "parola": "la legge",
+   "forme": [
+    "legge"
+   ],
+   "esempi": [
+    "Lo dice la legge.",
+    "È una legge del 1990.",
+    "Nessuno è sopra la legge."
+   ],
+   "traduzioni": {
+    "en": "law",
+    "es": "ley",
+    "pt": "lei",
+    "fr": "loi",
+    "cs": "zákon",
+    "pl": "prawo",
+    "tr": "yasa, kanun",
+    "de": "Gesetz",
+    "ja": "法律"
+   }
+  },
+  {
+   "parola": "nazionale",
+   "forme": [
+    "nazionale"
+   ],
+   "esempi": [
+    "Oggi c'è uno sciopero nazionale.",
+    "La squadra nazionale gioca stasera.",
+    "È una festa nazionale."
+   ],
+   "traduzioni": {
+    "en": "national, nationwide",
+    "es": "nacional",
+    "pt": "nacional",
+    "fr": "national",
+    "cs": "celostátní",
+    "pl": "ogólnokrajowy",
+    "tr": "ulusal",
+    "de": "landesweit",
+    "ja": "全国的な"
+   }
+  },
+  {
+   "parola": "chiudere",
+   "forme": [
+    "chiude"
+   ],
+   "formeEsempi": [
+    "chiudo"
+   ],
+   "esempi": [
+    "Chiudo la finestra: fa freddo.",
+    "Il negozio chiude alle otto.",
+    "Emma chiude il libro."
+   ],
+   "traduzioni": {
+    "en": "to close",
+    "es": "cerrar",
+    "pt": "fechar",
+    "fr": "fermer",
+    "cs": "zavřít",
+    "pl": "zamknąć",
+    "tr": "kapatmak",
+    "de": "schließen",
+    "ja": "閉じる"
+   }
+  },
+  {
+   "parola": "triste",
+   "forme": [
+    "triste"
+   ],
+   "esempi": [
+    "Oggi sono un po' triste.",
+    "È un film triste.",
+    "Perché sei triste?"
+   ],
+   "traduzioni": {
+    "en": "sad",
+    "es": "triste",
+    "pt": "triste",
+    "fr": "triste",
+    "cs": "smutný",
+    "pl": "smutny",
+    "tr": "üzgün",
+    "de": "traurig",
+    "ja": "悲しい"
+   }
+  },
+  {
+   "parola": "durante",
+   "forme": [
+    "durante"
+   ],
+   "esempi": [
+    "Durante il film non si parla.",
+    "Ho dormito durante il viaggio.",
+    "Durante la settimana lavoro molto."
+   ],
+   "traduzioni": {
+    "en": "during",
+    "es": "durante",
+    "pt": "durante",
+    "fr": "pendant",
+    "cs": "během",
+    "pl": "podczas",
+    "tr": "sırasında",
+    "de": "während",
+    "ja": "〜の間"
+   }
+  },
+  {
+   "parola": "alcuni",
+   "forme": [
+    "alcuni"
+   ],
+   "esempi": [
+    "Alcuni amici arrivano stasera.",
+    "Ho letto alcuni libri italiani.",
+    "Alcuni negozi sono chiusi."
+   ],
+   "traduzioni": {
+    "en": "some, a few",
+    "es": "algunos",
+    "pt": "alguns",
+    "fr": "quelques, certains",
+    "cs": "některé, pár",
+    "pl": "niektóre, kilka",
+    "tr": "bazı",
+    "de": "einige",
+    "ja": "いくつかの"
+   }
+  },
+  {
+   "parola": "regionale",
+   "forme": [
+    "regionali",
+    "regionale"
+   ],
+   "esempi": [
+    "Prendo il regionale per Firenze.",
+    "I treni regionali fermano in tutte le stazioni.",
+    "È una specialità regionale."
+   ],
+   "traduzioni": {
+    "en": "regional, local (train)",
+    "es": "regional",
+    "pt": "regional",
+    "fr": "régional (TER)",
+    "cs": "regionální, osobní (vlak)",
+    "pl": "regionalny",
+    "tr": "bölgesel (banliyö treni)",
+    "de": "Regional- (Regionalzug)",
+    "ja": "普通列車、地域の"
+   }
+  },
+  {
+   "parola": "viaggiare",
+   "forme": [
+    "viaggiano"
+   ],
+   "formeEsempi": [
+    "viaggio",
+    "viaggiare"
+   ],
+   "esempi": [
+    "Mi piace viaggiare in treno.",
+    "I treni viaggiano anche di notte.",
+    "Viaggio spesso per lavoro."
+   ],
+   "traduzioni": {
+    "en": "to travel, to run (trains)",
+    "es": "viajar, circular",
+    "pt": "viajar, circular",
+    "fr": "voyager, circuler",
+    "cs": "cestovat, jezdit",
+    "pl": "podróżować, kursować",
+    "tr": "seyahat etmek, çalışmak (trenler)",
+    "de": "reisen, fahren",
+    "ja": "移動する、運行する"
+   }
+  },
+  {
+   "parola": "lo stesso",
+   "forme": [
+    "stesso"
+   ],
+   "esempi": [
+    "Piove, ma esco lo stesso.",
+    "È stanco, ma lavora lo stesso.",
+    "Non ho fame, ma mangio lo stesso."
+   ],
+   "traduzioni": {
+    "en": "all the same, anyway",
+    "es": "igualmente, de todos modos",
+    "pt": "mesmo assim",
+    "fr": "quand même",
+    "cs": "stejně, i tak",
+    "pl": "mimo to",
+    "tr": "yine de",
+    "de": "trotzdem",
+    "ja": "それでも"
+   }
+  },
+  {
+   "parola": "la fascia di garanzia",
+   "forme": [
+    "garanzia"
+   ],
+   "esempi": [
+    "Durante lo sciopero ci sono le fasce di garanzia.",
+    "Il mio treno è nella fascia di garanzia.",
+    "Controlla gli orari di garanzia sul sito."
+   ],
+   "traduzioni": {
+    "en": "guaranteed service hours (during a strike)",
+    "es": "franja de servicios mínimos",
+    "pt": "faixa de serviço garantido",
+    "fr": "plage de service minimum",
+    "cs": "hodiny garantovaného provozu",
+    "pl": "godziny gwarantowanych kursów",
+    "tr": "zorunlu hizmet saatleri",
+    "de": "garantierte Fahrzeiten (beim Streik)",
+    "ja": "（スト中の）運行保証時間帯"
+   }
+  },
+  {
+   "parola": "lento",
+   "forme": [
+    "lento"
+   ],
+   "esempi": [
+    "Questo computer è lento.",
+    "Il regionale è più lento della Freccia.",
+    "Parla in modo lento e chiaro."
+   ],
+   "traduzioni": {
+    "en": "slow",
+    "es": "lento",
+    "pt": "lento, devagar",
+    "fr": "lent",
+    "cs": "pomalý",
+    "pl": "wolny",
+    "tr": "yavaş",
+    "de": "langsam",
+    "ja": "遅い、ゆっくりの"
+   }
+  },
+  {
+   "parola": "cambiare",
+   "forme": [
+    "cambieremo"
+   ],
+   "formeEsempi": [
+    "cambio",
+    "cambiato"
+   ],
+   "esempi": [
+    "Per andare a Lecce cambio a Bari.",
+    "Cambieremo treno a Bologna.",
+    "Hai cambiato casa?"
+   ],
+   "traduzioni": {
+    "en": "to change («cambiare a Bologna» = to change trains in Bologna)",
+    "es": "cambiar, hacer transbordo",
+    "pt": "trocar, fazer baldeação",
+    "fr": "changer (de train)",
+    "cs": "přestoupit",
+    "pl": "przesiąść się",
+    "tr": "aktarma yapmak",
+    "de": "umsteigen",
+    "ja": "乗り換える"
+   }
+  },
+  {
+   "parola": "dormire",
+   "forme": [
+    "dormo"
+   ],
+   "formeEsempi": [
+    "dorme"
+   ],
+   "esempi": [
+    "La domenica dormo fino a tardi.",
+    "Il gatto dorme sul divano.",
+    "Dormo poco quando sono nervosa."
+   ],
+   "traduzioni": {
+    "en": "to sleep",
+    "es": "dormir",
+    "pt": "dormir",
+    "fr": "dormir",
+    "cs": "spát",
+    "pl": "spać",
+    "tr": "uyumak",
+    "de": "schlafen",
+    "ja": "眠っている、寝る"
+   }
+  },
+  {
+   "parola": "mettere la sveglia",
+   "forme": [
+    "sveglia"
+   ],
+   "formeEsempi": [
+    "metterai"
+   ],
+   "esempi": [
+    "Metto la sveglia alle sette.",
+    "Non sento mai la sveglia!",
+    "Metterai la sveglia domani?"
+   ],
+   "traduzioni": {
+    "en": "to set the alarm («la sveglia» = alarm clock)",
+    "es": "poner el despertador",
+    "pt": "pôr o despertador",
+    "fr": "mettre le réveil",
+    "cs": "nastavit budík",
+    "pl": "nastawić budzik",
+    "tr": "alarm kurmak",
+    "de": "den Wecker stellen",
+    "ja": "目覚ましをかける"
+   }
+  },
+  {
+   "parola": "un quarto",
+   "forme": [
+    "quarto"
+   ],
+   "esempi": [
+    "Sono le sei e un quarto.",
+    "Ci vediamo alle otto meno un quarto.",
+    "Aspetto da un quarto d'ora."
+   ],
+   "traduzioni": {
+    "en": "a quarter («le sei e un quarto» = quarter past six)",
+    "es": "cuarto («las seis y cuarto»)",
+    "pt": "quarto («seis e quinze»)",
+    "fr": "quart («six heures et quart»)",
+    "cs": "čtvrt («čtvrt na sedm»)",
+    "pl": "kwadrans («kwadrans po szóstej»)",
+    "tr": "çeyrek («altıyı çeyrek geçe»)",
+    "de": "Viertel («Viertel nach sechs»)",
+    "ja": "15分（le sei e un quarto＝6時15分）"
+   }
+  },
+  {
+   "parola": "la stazione",
+   "forme": [
+    "stazione"
+   ],
+   "esempi": [
+    "La stazione è a dieci minuti da qui.",
+    "Ti aspetto in stazione.",
+    "Scusi, dov'è la stazione?"
+   ],
+   "traduzioni": {
+    "en": "station",
+    "es": "estación",
+    "pt": "estação",
+    "fr": "gare",
+    "cs": "nádraží",
+    "pl": "dworzec",
+    "tr": "istasyon",
+    "de": "Bahnhof",
+    "ja": "駅"
+   }
+  },
+  {
+   "parola": "in mano",
+   "forme": [
+    "mano"
+   ],
+   "esempi": [
+    "Ha sempre il telefono in mano.",
+    "Esco con l'ombrello in mano.",
+    "Il bambino ha un gelato in mano."
+   ],
+   "traduzioni": {
+    "en": "in one's hand",
+    "es": "en la mano",
+    "pt": "na mão",
+    "fr": "à la main",
+    "cs": "v ruce",
+    "pl": "w ręce",
+    "tr": "elinde",
+    "de": "in der Hand",
+    "ja": "手に持って"
+   }
+  },
+  {
+   "parola": "chiedere",
+   "forme": [
+    "chiede"
+   ],
+   "formeEsempi": [
+    "chiedo"
+   ],
+   "esempi": [
+    "Chiedo un'informazione al vigile.",
+    "Il bambino chiede un gelato.",
+    "Emma chiede dov'è il treno."
+   ],
+   "traduzioni": {
+    "en": "to ask",
+    "es": "preguntar, pedir",
+    "pt": "perguntar, pedir",
+    "fr": "demander",
+    "cs": "zeptat se",
+    "pl": "zapytać",
+    "tr": "sormak",
+    "de": "fragen",
+    "ja": "たずねる"
+   }
+  },
+  {
+   "parola": "preoccupato",
+   "forme": [
+    "preoccupata"
+   ],
+   "formeEsempi": [
+    "preoccupato"
+   ],
+   "esempi": [
+    "Sono preoccupato per l'esame.",
+    "La mamma è preoccupata: è tardi.",
+    "Non essere preoccupata, andrà bene."
+   ],
+   "traduzioni": {
+    "en": "worried",
+    "es": "preocupado",
+    "pt": "preocupado",
+    "fr": "inquiet",
+    "cs": "ustaraný",
+    "pl": "zmartwiony",
+    "tr": "endişeli",
+    "de": "besorgt",
+    "ja": "心配して"
+   }
+  },
+  {
+   "parola": "in ritardo",
+   "forme": [
+    "ritardo"
+   ],
+   "esempi": [
+    "Il treno è in ritardo di dieci minuti.",
+    "Scusa, sono in ritardo!",
+    "Arriva sempre in ritardo."
+   ],
+   "traduzioni": {
+    "en": "late, delayed",
+    "es": "con retraso",
+    "pt": "atrasado",
+    "fr": "en retard",
+    "cs": "zpožděný, pozdě",
+    "pl": "spóźniony, opóźniony",
+    "tr": "gecikmeli, geç",
+    "de": "verspätet",
+    "ja": "遅れて"
+   }
+  },
+  {
+   "parola": "tranquillo",
+   "forme": [
+    "tranquilla"
+   ],
+   "formeEsempi": [
+    "tranquillo"
+   ],
+   "esempi": [
+    "Stai tranquilla, è tutto a posto.",
+    "Mio padre è una persona tranquilla.",
+    "Il mare oggi è tranquillo."
+   ],
+   "traduzioni": {
+    "en": "calm, relaxed",
+    "es": "tranquilo",
+    "pt": "tranquilo",
+    "fr": "calme, tranquille",
+    "cs": "klidný",
+    "pl": "spokojny",
+    "tr": "sakin",
+    "de": "ruhig, gelassen",
+    "ja": "落ち着いた"
+   }
+  },
+  {
+   "parola": "la regola",
+   "forme": [
+    "regola"
+   ],
+   "esempi": [
+    "La prima regola è: non correre.",
+    "Ogni gioco ha le sue regole.",
+    "È una regola importante."
+   ],
+   "traduzioni": {
+    "en": "rule",
+    "es": "regla",
+    "pt": "regra",
+    "fr": "règle",
+    "cs": "pravidlo",
+    "pl": "zasada",
+    "tr": "kural",
+    "de": "Regel",
+    "ja": "ルール"
+   },
+   "formeEsempi": [
+    "regole"
+   ]
+  },
+  {
+   "parola": "il piano",
+   "forme": [
+    "piano"
+   ],
+   "esempi": [
+    "Ho un piano per le vacanze.",
+    "Il nostro piano è semplice.",
+    "Cambio piano: resto a casa."
+   ],
+   "traduzioni": {
+    "en": "plan",
+    "es": "plan",
+    "pt": "plano",
+    "fr": "plan, projet",
+    "cs": "plán",
+    "pl": "plan",
+    "tr": "plan",
+    "de": "Plan",
+    "ja": "計画"
+   }
+  },
+  {
+   "parola": "perfetto",
+   "forme": [
+    "perfetto"
+   ],
+   "esempi": [
+    "Il tuo italiano è perfetto.",
+    "È il giorno perfetto per il mare.",
+    "Perfetto, ci vediamo alle otto!"
+   ],
+   "traduzioni": {
+    "en": "perfect",
+    "es": "perfecto",
+    "pt": "perfeito",
+    "fr": "parfait",
+    "cs": "dokonalý",
+    "pl": "idealny",
+    "tr": "mükemmel",
+    "de": "perfekt",
+    "ja": "完璧な"
+   }
+  },
+  {
+   "parola": "controllare",
+   "forme": [
+    "controllerò"
+   ],
+   "formeEsempi": [
+    "controllo",
+    "controlla"
+   ],
+   "esempi": [
+    "Controllo l'orario del treno.",
+    "Controllerò la mail stasera.",
+    "Controlla di avere il biglietto!"
+   ],
+   "traduzioni": {
+    "en": "to check («controllerò» = I will check)",
+    "es": "comprobar, mirar",
+    "pt": "verificar, conferir",
+    "fr": "vérifier",
+    "cs": "zkontrolovat",
+    "pl": "sprawdzić",
+    "tr": "kontrol etmek",
+    "de": "überprüfen, nachsehen",
+    "ja": "確認する"
+   }
+  },
+  {
+   "parola": "prima",
+   "forme": [
+    "prima"
+   ],
+   "esempi": [
+    "Il treno è partito un'ora prima.",
+    "Prima di uscire, chiudi la finestra.",
+    "Lo dico sempre prima."
+   ],
+   "traduzioni": {
+    "en": "before, beforehand, in advance",
+    "es": "antes",
+    "pt": "antes",
+    "fr": "avant, à l'avance",
+    "cs": "předem, dřív",
+    "pl": "wcześniej, przed",
+    "tr": "önce, önceden",
+    "de": "vorher, vor",
+    "ja": "前もって、〜の前に"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "It's Monday evening. Emma has a new notebook and a great idea: a weekend in Venice with Chiara. She has already written down the whole plan.",
+    "– Listen, Chiara. On Friday morning we'll take the 7.10 train and we'll get to Venice at half past ten. We'll leave our suitcases at the hotel and go straight to St Mark's Square. For lunch we'll eat at a little osteria, then we'll take a ride on a vaporetto. In the evening…",
+    "Chiara looks at her phone and makes a funny face.\n– Emma… on Friday we won't leave at 7.10.\n– Why not?\n– Because on Friday there will be a train strike.",
+    "– A strike? And how do you know? Friday is four days away!\n– In Italy train strikes are announced in advance: at least ten days before, the law says so. Look: «National strike from 9 p.m. on Thursday to 9 p.m. on Friday».",
+    "Emma closes her notebook, sad.\n– Then we won't go to Venice.\n– Of course we will! During the strike some regional trains run all the same: in the morning from six to nine and in the evening from six to nine. They're called «guaranteed service hours». We'll take the 6.20 regional train: it'll be slower and we'll change in Bologna, but it'll leave.",
+    "– At twenty past six? But at that time I'm asleep!\n– Not on Friday, – Chiara laughs. – You'll set your alarm for five.",
+    "On Friday morning, at a quarter past six, Emma is at the station with a coffee in her hand. The train isn't there yet.\n– Where's the train? – Emma asks, worried.\n– It's probably late, – Chiara answers calmly. – But it'll come. And we'll be in Venice by lunchtime.",
+    "Emma opens her notebook and writes a new rule: «In Italy, before I make a perfect plan, I'll always check for strikes»."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Es lunes por la noche. Emma tiene un cuaderno nuevo y una gran idea: un fin de semana en Venecia con Chiara. Ya ha escrito todo el plan.",
+    "– Escucha, Chiara. El viernes por la mañana cogeremos el tren de las 7.10 y llegaremos a Venecia a las diez y media. Dejaremos las maletas en el hotel e iremos enseguida a la plaza de San Marcos. A mediodía comeremos en una pequeña osteria y luego daremos una vuelta en vaporetto. Por la noche…",
+    "Chiara mira el móvil y pone una cara rara.\n– Emma… el viernes no saldremos a las 7.10.\n– ¿Por qué?\n– Porque el viernes habrá huelga de trenes.",
+    "– ¿Huelga? ¿Y cómo lo sabes? ¡El viernes es dentro de cuatro días!\n– En Italia las huelgas de trenes se anuncian antes: al menos diez días antes, lo dice la ley. Mira: «Huelga nacional desde las 21 h del jueves hasta las 21 h del viernes».",
+    "Emma cierra el cuaderno, triste.\n– Entonces no iremos a Venecia.\n– ¡Que sí! Durante la huelga algunos trenes regionales circulan igualmente: por la mañana de seis a nueve y por la tarde de seis a nueve. Se llaman «franjas de garantía». Cogeremos el regional de las 6.20: será más lento y haremos transbordo en Bolonia, pero saldrá.",
+    "– ¿A las seis y veinte? ¡Pero a esa hora yo duermo!\n– El viernes no –se ríe Chiara–. Pondrás el despertador a las cinco.",
+    "El viernes por la mañana, a las seis y cuarto, Emma está en la estación con un café en la mano. El tren todavía no ha llegado.\n– ¿Dónde está el tren? –pregunta Emma, preocupada.\n– Llevará retraso –responde Chiara, tranquila–. Pero llegará. Y a la hora de comer estaremos en Venecia.",
+    "Emma abre el cuaderno y escribe una nueva regla: «En Italia, antes de hacer un plan perfecto, siempre comprobaré las huelgas»."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "É segunda-feira à noite. Emma tem um caderno novo e uma grande ideia: um fim de semana em Veneza com Chiara. Ela já escreveu todo o roteiro.",
+    "– Escuta, Chiara. Na sexta de manhã pegaremos o trem das 7h10 e chegaremos a Veneza às dez e meia. Deixaremos as malas no hotel e iremos direto para a Praça São Marcos. No almoço comeremos numa pequena osteria, depois faremos um passeio de vaporetto. À noite…",
+    "Chiara olha o celular e faz uma cara estranha.\n– Emma… na sexta não vamos partir às 7h10.\n– Por quê?\n– Porque na sexta vai ter greve de trens.",
+    "– Greve? E como você sabe? Sexta é daqui a quatro dias!\n– Na Itália as greves de trem são anunciadas com antecedência: pelo menos dez dias antes, é a lei. Olha: «Greve nacional das 21h de quinta às 21h de sexta».",
+    "Emma fecha o caderno, triste.\n– Então não vamos a Veneza.\n– Vamos sim! Durante a greve alguns trens regionais circulam mesmo assim: de manhã das seis às nove e à noite das seis às nove. Chamam-se «faixas de garantia». Pegaremos o regional das 6h20: será mais lento e vamos trocar de trem em Bolonha, mas ele vai partir.",
+    "– Às seis e vinte? Mas nessa hora eu estou dormindo!\n– Na sexta, não – ri Chiara. – Você vai pôr o despertador para as cinco.",
+    "Na sexta de manhã, às seis e quinze, Emma está na estação com um café na mão. O trem ainda não chegou.\n– Cadê o trem? – pergunta Emma, preocupada.\n– Deve estar atrasado – responde Chiara, tranquila. – Mas vai chegar. E na hora do almoço estaremos em Veneza.",
+    "Emma abre o caderno e escreve uma nova regra: «Na Itália, antes de fazer um plano perfeito, sempre vou verificar as greves»."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "C'est lundi soir. Emma a un cahier neuf et une grande idée : un week-end à Venise avec Chiara. Elle a déjà écrit tout le programme.",
+    "– Écoute, Chiara. Vendredi matin, nous prendrons le train de 7h10 et nous arriverons à Venise à dix heures et demie. Nous laisserons les valises à l'hôtel et nous irons tout de suite place Saint-Marc. À midi, nous mangerons dans une petite osteria, puis nous ferons un tour en vaporetto. Le soir…",
+    "Chiara regarde son téléphone et fait une drôle de tête.\n– Emma… vendredi, nous ne partirons pas à 7h10.\n– Pourquoi ?\n– Parce que vendredi il y aura une grève des trains.",
+    "– Une grève ? Et comment tu le sais ? Vendredi, c'est dans quatre jours !\n– En Italie, les grèves de trains sont annoncées à l'avance : au moins dix jours avant, c'est la loi. Regarde : « Grève nationale de 21 h jeudi à 21 h vendredi ».",
+    "Emma ferme son cahier, triste.\n– Alors nous n'irons pas à Venise.\n– Mais si ! Pendant la grève, certains trains régionaux circulent quand même : le matin de six à neuf heures et le soir de six à neuf heures. On les appelle les « tranches garanties ». Nous prendrons le régional de 6h20 : il sera plus lent et nous changerons à Bologne, mais il partira.",
+    "– À six heures vingt ? Mais à cette heure-là, je dors !\n– Pas vendredi, rit Chiara. Tu mettras ton réveil à cinq heures.",
+    "Vendredi matin, à six heures et quart, Emma est à la gare avec un café à la main. Le train n'est pas encore là.\n– Où est le train ? demande Emma, inquiète.\n– Il doit avoir du retard, répond Chiara, tranquille. Mais il arrivera. Et à midi, nous serons à Venise.",
+    "Emma ouvre son cahier et écrit une nouvelle règle : « En Italie, avant de faire un plan parfait, je vérifierai toujours les grèves »."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Je pondělí večer. Emma má nový sešit a skvělý nápad: víkend v Benátkách s Chiarou. Celý program už má sepsaný.",
+    "– Poslouchej, Chiaro. V pátek ráno pojedeme vlakem v 7.10 a do Benátek dorazíme v půl jedenácté. Necháme kufry v hotelu a půjdeme hned na náměstí svatého Marka. K obědu se najíme v malé osterii, pak se projedeme vaporettem. Večer…",
+    "Chiara se podívá do telefonu a udělá divný obličej.\n– Emmo… v pátek v 7.10 nepojedeme.\n– Proč?\n– Protože v pátek bude stávka na železnici.",
+    "– Stávka? A jak to víš? Pátek je až za čtyři dny!\n– V Itálii se stávky na železnici ohlašují předem: aspoň deset dní dopředu, tak to říká zákon. Podívej: „Celostátní stávka od 21 hodin ve čtvrtek do 21 hodin v pátek“.",
+    "Emma smutně zavře sešit.\n– Tak do Benátek nepojedeme.\n– Ale pojedeme! Během stávky některé regionální vlaky jezdí i tak: ráno od šesti do devíti a večer od šesti do devíti. Říká se tomu „hodiny garantovaného provozu“. Pojedeme regionálem v 6.20: bude pomalejší a v Bologni přestoupíme, ale pojede.",
+    "– V šest dvacet? Vždyť v tu dobu spím!\n– V pátek ne, – směje se Chiara. – Nastavíš si budík na pátou.",
+    "V pátek ráno ve čtvrt na sedm je Emma na nádraží s kávou v ruce. Vlak tu ještě není.\n– Kde je ten vlak? – ptá se Emma ustaraně.\n– Asi má zpoždění, – odpoví Chiara v klidu. – Ale přijede. A k obědu budeme v Benátkách.",
+    "Emma otevře sešit a napíše nové pravidlo: „V Itálii si před dokonalým plánem vždycky zkontroluju stávky.“"
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Jest poniedziałkowy wieczór. Emma ma nowy zeszyt i świetny pomysł: weekend w Wenecji z Chiarą. Ma już rozpisany cały plan.",
+    "– Słuchaj, Chiara. W piątek rano pojedziemy pociągiem o 7.10 i dotrzemy do Wenecji o wpół do jedenastej. Zostawimy walizki w hotelu i od razu pójdziemy na plac Świętego Marka. Na obiad zjemy w małej osterii, potem przepłyniemy się vaporetto. Wieczorem…",
+    "Chiara patrzy w telefon i robi dziwną minę.\n– Emma… w piątek nie pojedziemy o 7.10.\n– Dlaczego?\n– Bo w piątek będzie strajk kolei.",
+    "– Strajk? A skąd wiesz? Piątek jest za cztery dni!\n– We Włoszech strajki kolei ogłasza się wcześniej: co najmniej dziesięć dni przed, tak mówi prawo. Zobacz: „Strajk ogólnokrajowy od 21:00 w czwartek do 21:00 w piątek”.",
+    "Emma smutno zamyka zeszyt.\n– To nie pojedziemy do Wenecji.\n– Ależ pojedziemy! W czasie strajku niektóre pociągi regionalne i tak kursują: rano od szóstej do dziewiątej i wieczorem od szóstej do dziewiątej. Nazywa się to „godziny gwarantowane”. Pojedziemy regionalnym o 6.20: będzie wolniejszy i przesiądziemy się w Bolonii, ale odjedzie.",
+    "– O szóstej dwadzieścia? Przecież o tej porze śpię!\n– W piątek nie – śmieje się Chiara. – Nastawisz budzik na piątą.",
+    "W piątek rano, kwadrans po szóstej, Emma jest na dworcu z kawą w ręce. Pociągu jeszcze nie ma.\n– Gdzie jest pociąg? – pyta Emma zmartwiona.\n– Pewnie jest opóźniony – odpowiada spokojnie Chiara. – Ale przyjedzie. A na obiad będziemy w Wenecji.",
+    "Emma otwiera zeszyt i zapisuje nową zasadę: „We Włoszech, zanim ułożę idealny plan, zawsze sprawdzę strajki”."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Pazartesi akşamı. Emma'nın yeni bir defteri ve harika bir fikri var: Chiara ile Venedik'te bir hafta sonu. Bütün planı çoktan yazmış.",
+    "– Dinle Chiara. Cuma sabahı 7.10 trenine bineceğiz ve on buçukta Venedik'e varacağız. Bavulları otele bırakıp hemen San Marco Meydanı'na gideceğiz. Öğlen küçük bir osteria'da yemek yiyeceğiz, sonra vaporetto ile bir tur atacağız. Akşam…",
+    "Chiara telefonuna bakıyor ve garip bir surat yapıyor.\n– Emma… cuma günü 7.10'da yola çıkmayacağız.\n– Neden?\n– Çünkü cuma günü tren grevi olacak.",
+    "– Grev mi? Peki sen nereden biliyorsun? Cumaya daha dört gün var!\n– İtalya'da tren grevleri önceden duyurulur: en az on gün önce, yasa öyle diyor. Bak: «Perşembe saat 21'den cuma saat 21'e kadar ulusal grev».",
+    "Emma üzgün bir şekilde defterini kapatıyor.\n– O zaman Venedik'e gitmeyeceğiz.\n– Gideceğiz tabii! Grev sırasında bazı bölgesel trenler yine de çalışır: sabah altıdan dokuza, akşam da altıdan dokuza kadar. Bunlara «garanti saatleri» denir. 6.20 bölgesel trenine bineceğiz: daha yavaş olacak ve Bologna'da aktarma yapacağız ama kalkacak.",
+    "– Altıyı yirmi geçe mi? Ama ben o saatte uyuyorum!\n– Cuma günü uyumuyorsun, – diye gülüyor Chiara. – Alarmı beşe kuracaksın.",
+    "Cuma sabahı, altıyı çeyrek geçe, Emma elinde bir kahveyle istasyonda. Tren daha gelmedi.\n– Tren nerede? – diye soruyor Emma endişeyle.\n– Gecikmiştir, – diye cevap veriyor Chiara sakin sakin. – Ama gelecek. Öğle yemeğinde de Venedik'te olacağız.",
+    "Emma defterini açıyor ve yeni bir kural yazıyor: «İtalya'da mükemmel bir plan yapmadan önce grevleri her zaman kontrol edeceğim»."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Es ist Montagabend. Emma hat ein neues Heft und eine tolle Idee: ein Wochenende in Venedig mit Chiara. Sie hat schon das ganze Programm aufgeschrieben.",
+    "– Hör zu, Chiara. Am Freitagmorgen nehmen wir den Zug um 7.10 Uhr und kommen um halb elf in Venedig an. Wir lassen die Koffer im Hotel und gehen sofort zum Markusplatz. Zu Mittag essen wir in einer kleinen Osteria, dann machen wir eine Fahrt mit dem Vaporetto. Am Abend …",
+    "Chiara schaut auf ihr Handy und macht ein komisches Gesicht.\n– Emma … am Freitag fahren wir nicht um 7.10 Uhr.\n– Warum nicht?\n– Weil am Freitag Bahnstreik ist.",
+    "– Ein Streik? Und woher weißt du das? Freitag ist erst in vier Tagen!\n– In Italien werden Bahnstreiks vorher angekündigt: mindestens zehn Tage vorher, so will es das Gesetz. Schau: „Landesweiter Streik von Donnerstag 21 Uhr bis Freitag 21 Uhr“.",
+    "Emma klappt traurig ihr Heft zu.\n– Dann fahren wir nicht nach Venedig.\n– Doch! Während des Streiks fahren einige Regionalzüge trotzdem: morgens von sechs bis neun und abends von sechs bis neun. Das nennt man „garantierte Fahrzeiten“. Wir nehmen den Regionalzug um 6.20 Uhr: Er ist langsamer und wir steigen in Bologna um, aber er fährt.",
+    "– Um zwanzig nach sechs? Um die Zeit schlafe ich doch!\n– Am Freitag nicht, – lacht Chiara. – Du stellst den Wecker auf fünf.",
+    "Am Freitagmorgen um Viertel nach sechs steht Emma mit einem Kaffee in der Hand am Bahnhof. Der Zug ist noch nicht da.\n– Wo ist der Zug? – fragt Emma besorgt.\n– Er hat wohl Verspätung, – antwortet Chiara gelassen. – Aber er kommt. Und zum Mittagessen sind wir in Venedig.",
+    "Emma schlägt ihr Heft auf und schreibt eine neue Regel: „In Italien prüfe ich immer die Streiks, bevor ich einen perfekten Plan mache.“"
+   ]
+  },
+  "ja": {
+   "a2": [
+    "月曜日の夜。エマには新しいノートと、すばらしいアイデアがある。キアラと一緒に、ヴェネツィアで週末を過ごすのだ。予定はもう全部書いてある。",
+    "「聞いて、キアラ。金曜の朝、7時10分の電車に乗って、10時半にヴェネツィアに着く。ホテルにスーツケースを預けて、すぐサン・マルコ広場へ行く。お昼は小さなオステリアで食べて、それからヴァポレットでひと回りする。夜は……」",
+    "キアラは携帯を見て、変な顔をする。\n「エマ……金曜は7時10分には出発できないよ。」\n「どうして？」\n「金曜は鉄道のストライキがあるから。」",
+    "「ストライキ？どうしてわかるの？金曜は4日も先だよ！」\n「イタリアでは、鉄道のストは前もって知らされるの。少なくとも10日前にね。法律でそう決まってるの。見て。『木曜21時から金曜21時まで全国ストライキ』」",
+    "エマは悲しそうにノートを閉じる。\n「じゃあ、ヴェネツィアには行けないね。」\n「そんなことない！ストの間も、一部の普通列車はちゃんと走るの。朝6時から9時までと、夜6時から9時まで。『保証時間帯』っていうの。6時20分の普通列車に乗ろう。遅いし、ボローニャで乗り換えだけど、ちゃんと出発するから。」",
+    "「6時20分？その時間、私は寝てるよ！」\n「金曜は寝てないよ」とキアラは笑う。「目覚ましを5時にかけるんだから。」",
+    "金曜の朝6時15分、エマはコーヒーを手に駅にいる。電車はまだ来ていない。\n「電車はどこ？」とエマは心配そうに聞く。\n「遅れてるんでしょ」とキアラは落ち着いて答える。「でも来るよ。お昼にはヴェネツィアに着いてるから。」",
+    "エマはノートを開いて、新しいルールを書く。「イタリアでは、完璧な計画を立てる前に、必ずストライキを確認すること。」"
+   ]
+  }
+ }
+}
