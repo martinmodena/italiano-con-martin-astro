@@ -1,0 +1,1443 @@
+{
+ "id": "emma-le-foto-dei-nonni",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "portare (qualcuno)",
+   "forme": [
+    "porta"
+   ],
+   "formeEsempi": [
+    "porto"
+   ],
+   "esempi": [
+    "Domani ti porto al mare.",
+    "Il papà porta i bambini a scuola.",
+    "Chi porta la nonna dal medico?"
+   ],
+   "traduzioni": {
+    "en": "to take (someone somewhere)",
+    "es": "llevar (a alguien)",
+    "pt": "levar (alguém)",
+    "fr": "emmener",
+    "cs": "vzít (někoho někam)",
+    "pl": "zabrać (kogoś)",
+    "tr": "götürmek",
+    "de": "mitnehmen, bringen",
+    "ja": "連れていく"
+   }
+  },
+  {
+   "parola": "i nonni",
+   "forme": [
+    "nonni"
+   ],
+   "esempi": [
+    "La domenica pranzo dai nonni.",
+    "I miei nonni abitano in Sicilia.",
+    "Telefono spesso ai nonni."
+   ],
+   "traduzioni": {
+    "en": "grandparents",
+    "es": "abuelos",
+    "pt": "avós",
+    "fr": "grands-parents",
+    "cs": "prarodiče, babička s dědou",
+    "pl": "dziadkowie",
+    "tr": "büyükanne ve büyükbaba",
+    "de": "Großeltern",
+    "ja": "祖父母"
+   }
+  },
+  {
+   "parola": "l'armadio",
+   "forme": [
+    "armadio"
+   ],
+   "esempi": [
+    "I vestiti sono nell'armadio.",
+    "L'armadio della camera è molto grande.",
+    "Prendo la giacca dall'armadio."
+   ],
+   "traduzioni": {
+    "en": "wardrobe, cupboard",
+    "es": "armario",
+    "pt": "armário, guarda-roupa",
+    "fr": "armoire",
+    "cs": "skříň",
+    "pl": "szafa",
+    "tr": "dolap, gardırop",
+    "de": "Schrank",
+    "ja": "たんす、クローゼット"
+   }
+  },
+  {
+   "parola": "vecchio",
+   "forme": [
+    "vecchia"
+   ],
+   "formeEsempi": [
+    "vecchio",
+    "vecchie"
+   ],
+   "esempi": [
+    "In soffitta c'è una vecchia valigia.",
+    "Guardiamo le vecchie foto di famiglia.",
+    "Questo libro è molto vecchio."
+   ],
+   "traduzioni": {
+    "en": "old",
+    "es": "viejo",
+    "pt": "velho, antigo",
+    "fr": "vieux",
+    "cs": "starý",
+    "pl": "stary",
+    "tr": "eski",
+    "de": "alt",
+    "ja": "古い"
+   }
+  },
+  {
+   "parola": "la scatola",
+   "forme": [
+    "scatola"
+   ],
+   "esempi": [
+    "Metto le foto in una scatola.",
+    "La scatola è vuota.",
+    "Nella scatola ci sono le lettere del nonno."
+   ],
+   "traduzioni": {
+    "en": "box",
+    "es": "caja",
+    "pt": "caixa",
+    "fr": "boîte",
+    "cs": "krabice",
+    "pl": "pudełko",
+    "tr": "kutu",
+    "de": "Schachtel, Karton",
+    "ja": "箱"
+   }
+  },
+  {
+   "parola": "nero",
+   "forme": [
+    "nero"
+   ],
+   "esempi": [
+    "Ho un gatto nero.",
+    "Le foto dei nonni sono in bianco e nero.",
+    "Metto le scarpe nere."
+   ],
+   "traduzioni": {
+    "en": "black («in bianco e nero» = black and white)",
+    "es": "negro («in bianco e nero» = en blanco y negro)",
+    "pt": "preto («in bianco e nero» = em preto e branco)",
+    "fr": "noir («in bianco e nero» = en noir et blanc)",
+    "cs": "černý («in bianco e nero» = černobílý)",
+    "pl": "czarny («in bianco e nero» = czarno-biały)",
+    "tr": "siyah («in bianco e nero» = siyah beyaz)",
+    "de": "schwarz («in bianco e nero» = schwarz-weiß)",
+    "ja": "黒い（in bianco e nero＝白黒）"
+   },
+   "formeEsempi": [
+    "nere"
+   ]
+  },
+  {
+   "parola": "bianco",
+   "forme": [
+    "bianco"
+   ],
+   "esempi": [
+    "La neve è bianca.",
+    "Ho una camicia bianca.",
+    "Vorrei un vino bianco."
+   ],
+   "traduzioni": {
+    "en": "white",
+    "es": "blanco",
+    "pt": "branco",
+    "fr": "blanc",
+    "cs": "bílý",
+    "pl": "biały",
+    "tr": "beyaz",
+    "de": "weiß",
+    "ja": "白い"
+   },
+   "formeEsempi": [
+    "bianca"
+   ]
+  },
+  {
+   "parola": "era (essere)",
+   "forme": [
+    "era",
+    "eravate",
+    "erano"
+   ],
+   "formeEsempi": [
+    "ero"
+   ],
+   "esempi": [
+    "Da piccolo ero molto timido.",
+    "La casa dei nonni era grande.",
+    "Eravate a casa ieri sera?"
+   ],
+   "traduzioni": {
+    "en": "was, were (imperfect of «essere»)",
+    "es": "era, eran (imperfecto de «essere»)",
+    "pt": "era, eram (imperfeito de «essere»)",
+    "fr": "était, étaient (imparfait de «essere»)",
+    "cs": "byl, byli (imperfektum slovesa «essere»)",
+    "pl": "był, były (imperfetto czasownika «essere»)",
+    "tr": "idi, -di (essere fiilinin imperfetto hâli)",
+    "de": "war, waren (Imperfekt von «essere»)",
+    "ja": "〜だった（essereの半過去）"
+   }
+  },
+  {
+   "parola": "la scuola",
+   "forme": [
+    "scuola"
+   ],
+   "esempi": [
+    "Vado a scuola a piedi.",
+    "La scuola comincia a settembre.",
+    "A scuola studio l'inglese."
+   ],
+   "traduzioni": {
+    "en": "school",
+    "es": "escuela",
+    "pt": "escola",
+    "fr": "école",
+    "cs": "škola",
+    "pl": "szkoła",
+    "tr": "okul",
+    "de": "Schule",
+    "ja": "学校"
+   }
+  },
+  {
+   "parola": "avevo (avere)",
+   "forme": [
+    "avevo",
+    "aveva"
+   ],
+   "formeEsempi": [
+    "avevamo"
+   ],
+   "esempi": [
+    "A dieci anni avevo un cane.",
+    "La nonna aveva i capelli lunghi.",
+    "Non avevamo la macchina."
+   ],
+   "traduzioni": {
+    "en": "I had, he/she had (imperfect of «avere»)",
+    "es": "tenía (imperfecto de «avere»)",
+    "pt": "tinha (imperfeito de «avere»)",
+    "fr": "j'avais, il avait (imparfait de «avere»)",
+    "cs": "měl(a) jsem, měl(a) (imperfektum «avere»)",
+    "pl": "miałem/miałam, miał/miała (imperfetto «avere»)",
+    "tr": "vardı (avere fiilinin imperfetto hâli)",
+    "de": "ich hatte, er/sie hatte (Imperfekt von «avere»)",
+    "ja": "持っていた、〜だった（avereの半過去）"
+   }
+  },
+  {
+   "parola": "vestito",
+   "forme": [
+    "vestiti"
+   ],
+   "formeEsempi": [
+    "vestito"
+   ],
+   "esempi": [
+    "I bambini sono vestiti da pirati.",
+    "Ho comprato un vestito nuovo.",
+    "I miei vestiti sono nell'armadio."
+   ],
+   "traduzioni": {
+    "en": "dressed; (noun) clothes («i vestiti» = clothes)",
+    "es": "vestido; (sustantivo) ropa",
+    "pt": "vestido; (substantivo) roupas",
+    "fr": "habillé ; (nom) vêtements",
+    "cs": "oblečený; (podst. jm.) oblečení",
+    "pl": "ubrany; (rzeczownik) ubrania",
+    "tr": "giyinmiş; (isim) giysiler",
+    "de": "angezogen; (Nomen) Kleider",
+    "ja": "服を着た；（名詞）服"
+   }
+  },
+  {
+   "parola": "uguale",
+   "forme": [
+    "uguali"
+   ],
+   "formeEsempi": [
+    "uguale"
+   ],
+   "esempi": [
+    "Le due sorelle sono uguali.",
+    "Per me è uguale: decidi tu.",
+    "Abbiamo due magliette uguali."
+   ],
+   "traduzioni": {
+    "en": "the same, alike, equal",
+    "es": "igual",
+    "pt": "igual",
+    "fr": "pareil, égal",
+    "cs": "stejný",
+    "pl": "taki sam, równy",
+    "tr": "aynı, eşit",
+    "de": "gleich",
+    "ja": "同じ"
+   }
+  },
+  {
+   "parola": "il grembiule",
+   "forme": [
+    "grembiule"
+   ],
+   "esempi": [
+    "In cucina metto il grembiule.",
+    "Una volta i bambini andavano a scuola con il grembiule.",
+    "Il grembiule della maestra era blu."
+   ],
+   "traduzioni": {
+    "en": "school smock; apron",
+    "es": "babi, guardapolvo; delantal",
+    "pt": "avental, guarda-pó (escolar)",
+    "fr": "blouse (d'écolier) ; tablier",
+    "cs": "zástěra (školní)",
+    "pl": "fartuszek (szkolny)",
+    "tr": "önlük",
+    "de": "Kittel, Schürze",
+    "ja": "（学校の）スモック、エプロン"
+   }
+  },
+  {
+   "parola": "il fiocco",
+   "forme": [
+    "fiocco"
+   ],
+   "esempi": [
+    "Il regalo ha un fiocco rosso.",
+    "La bambina ha un fiocco nei capelli.",
+    "Faccio un fiocco alle scarpe."
+   ],
+   "traduzioni": {
+    "en": "bow (ribbon)",
+    "es": "lazo",
+    "pt": "laço",
+    "fr": "nœud",
+    "cs": "mašle",
+    "pl": "kokarda",
+    "tr": "fiyonk",
+    "de": "Schleife",
+    "ja": "リボン、ちょう結び"
+   }
+  },
+  {
+   "parola": "il collo",
+   "forme": [
+    "collo"
+   ],
+   "esempi": [
+    "Ho una sciarpa al collo.",
+    "La giraffa ha il collo lungo.",
+    "Mi fa male il collo."
+   ],
+   "traduzioni": {
+    "en": "neck",
+    "es": "cuello",
+    "pt": "pescoço",
+    "fr": "cou",
+    "cs": "krk",
+    "pl": "szyja",
+    "tr": "boyun",
+    "de": "Hals",
+    "ja": "首"
+   }
+  },
+  {
+   "parola": "sorpreso",
+   "forme": [
+    "sorpresa"
+   ],
+   "formeEsempi": [
+    "sorpreso"
+   ],
+   "esempi": [
+    "Sono sorpreso: non ti aspettavo!",
+    "Marta è sorpresa del regalo.",
+    "Perché sei così sorpresa?"
+   ],
+   "traduzioni": {
+    "en": "surprised",
+    "es": "sorprendido",
+    "pt": "surpreso",
+    "fr": "surpris",
+    "cs": "překvapený",
+    "pl": "zaskoczony",
+    "tr": "şaşırmış",
+    "de": "überrascht",
+    "ja": "驚いた"
+   }
+  },
+  {
+   "parola": "l'ospedale",
+   "forme": [
+    "ospedale"
+   ],
+   "esempi": [
+    "Mia madre lavora in ospedale.",
+    "L'ospedale è vicino alla stazione.",
+    "Il nonno è in ospedale da due giorni."
+   ],
+   "traduzioni": {
+    "en": "hospital",
+    "es": "hospital",
+    "pt": "hospital",
+    "fr": "hôpital",
+    "cs": "nemocnice",
+    "pl": "szpital",
+    "tr": "hastane",
+    "de": "Krankenhaus",
+    "ja": "病院"
+   }
+  },
+  {
+   "parola": "portare (un vestito)",
+   "forme": [
+    "portavano"
+   ],
+   "formeEsempi": [
+    "porto",
+    "portava"
+   ],
+   "esempi": [
+    "Porto sempre gli occhiali.",
+    "Da giovane il nonno portava la barba.",
+    "Oggi porto una giacca leggera."
+   ],
+   "traduzioni": {
+    "en": "to wear («portavano» = they used to wear)",
+    "es": "llevar (ropa)",
+    "pt": "usar (roupa)",
+    "fr": "porter (un vêtement)",
+    "cs": "nosit (oblečení)",
+    "pl": "nosić (ubranie)",
+    "tr": "giymek, takmak",
+    "de": "tragen (Kleidung)",
+    "ja": "身につける、着ている"
+   }
+  },
+  {
+   "parola": "ricco",
+   "forme": [
+    "ricchi"
+   ],
+   "formeEsempi": [
+    "ricco",
+    "ricca"
+   ],
+   "esempi": [
+    "È una famiglia molto ricca.",
+    "I ricchi abitavano in centro.",
+    "Non sono ricco, ma sono felice."
+   ],
+   "traduzioni": {
+    "en": "rich («i ricchi» = rich people)",
+    "es": "rico",
+    "pt": "rico",
+    "fr": "riche",
+    "cs": "bohatý",
+    "pl": "bogaty",
+    "tr": "zengin",
+    "de": "reich",
+    "ja": "金持ちの（i ricchi＝お金持ち）"
+   }
+  },
+  {
+   "parola": "povero",
+   "forme": [
+    "poveri"
+   ],
+   "formeEsempi": [
+    "povero",
+    "povera"
+   ],
+   "esempi": [
+    "Era una famiglia povera.",
+    "Aiutiamo i poveri.",
+    "Povero gatto, ha freddo!"
+   ],
+   "traduzioni": {
+    "en": "poor («i poveri» = poor people)",
+    "es": "pobre",
+    "pt": "pobre",
+    "fr": "pauvre",
+    "cs": "chudý",
+    "pl": "biedny",
+    "tr": "fakir",
+    "de": "arm",
+    "ja": "貧しい（i poveri＝貧しい人）"
+   }
+  },
+  {
+   "parola": "sporcarsi",
+   "forme": [
+    "sporcavano"
+   ],
+   "formeEsempi": [
+    "sporco",
+    "sporcano",
+    "sporcarti"
+   ],
+   "esempi": [
+    "Mangio il gelato e mi sporco la maglia.",
+    "Attento a non sporcarti le mani!",
+    "In giardino i bambini si sporcano sempre."
+   ],
+   "traduzioni": {
+    "en": "to get dirty",
+    "es": "ensuciarse",
+    "pt": "sujar-se",
+    "fr": "se salir",
+    "cs": "ušpinit se",
+    "pl": "pobrudzić się",
+    "tr": "kirlenmek",
+    "de": "sich schmutzig machen",
+    "ja": "汚れる"
+   }
+  },
+  {
+   "parola": "l'inchiostro",
+   "forme": [
+    "inchiostro"
+   ],
+   "esempi": [
+    "Una volta si scriveva con penna e inchiostro.",
+    "Ho le dita blu di inchiostro.",
+    "La stampante non ha più inchiostro."
+   ],
+   "traduzioni": {
+    "en": "ink",
+    "es": "tinta",
+    "pt": "tinta",
+    "fr": "encre",
+    "cs": "inkoust",
+    "pl": "atrament, tusz",
+    "tr": "mürekkep",
+    "de": "Tinte",
+    "ja": "インク"
+   }
+  },
+  {
+   "parola": "un'altra",
+   "forme": [
+    "altra"
+   ],
+   "formeEsempi": [
+    "altro"
+   ],
+   "esempi": [
+    "Vorrei un'altra fetta di torta.",
+    "Prendi un altro caffè?",
+    "Ci vediamo un'altra volta."
+   ],
+   "traduzioni": {
+    "en": "another",
+    "es": "otra",
+    "pt": "outra",
+    "fr": "une autre",
+    "cs": "další, jiná",
+    "pl": "inna, kolejna",
+    "tr": "başka bir",
+    "de": "eine andere, noch eine",
+    "ja": "もう一つの、別の"
+   }
+  },
+  {
+   "parola": "la gente",
+   "forme": [
+    "gente"
+   ],
+   "esempi": [
+    "In piazza c'è tanta gente.",
+    "La gente aspetta l'autobus.",
+    "Qui la gente è molto gentile."
+   ],
+   "traduzioni": {
+    "en": "people (singular in Italian)",
+    "es": "gente",
+    "pt": "gente, pessoas",
+    "fr": "les gens, du monde",
+    "cs": "lidé",
+    "pl": "ludzie",
+    "tr": "insanlar",
+    "de": "Leute",
+    "ja": "人々"
+   }
+  },
+  {
+   "parola": "davanti a",
+   "forme": [
+    "davanti"
+   ],
+   "esempi": [
+    "Ci vediamo davanti al cinema.",
+    "La macchina è davanti a casa.",
+    "Davanti alla scuola c'è un parco."
+   ],
+   "traduzioni": {
+    "en": "in front of",
+    "es": "delante de",
+    "pt": "na frente de",
+    "fr": "devant",
+    "cs": "před",
+    "pl": "przed",
+    "tr": "önünde",
+    "de": "vor",
+    "ja": "〜の前に"
+   }
+  },
+  {
+   "parola": "la televisione",
+   "forme": [
+    "televisione"
+   ],
+   "esempi": [
+    "La sera guardo la televisione.",
+    "Alla televisione c'è un bel film.",
+    "I nonni non avevano la televisione."
+   ],
+   "traduzioni": {
+    "en": "television, TV",
+    "es": "televisión",
+    "pt": "televisão",
+    "fr": "télévision",
+    "cs": "televize",
+    "pl": "telewizja, telewizor",
+    "tr": "televizyon",
+    "de": "Fernsehen, Fernseher",
+    "ja": "テレビ"
+   }
+  },
+  {
+   "parola": "il giovedì",
+   "forme": [
+    "giovedì"
+   ],
+   "esempi": [
+    "Il giovedì vado in palestra.",
+    "Giovedì sera sono libera.",
+    "Il mercato c'è ogni giovedì."
+   ],
+   "traduzioni": {
+    "en": "Thursday («il giovedì» = on Thursdays)",
+    "es": "jueves («il giovedì» = los jueves)",
+    "pt": "quinta-feira («il giovedì» = às quintas)",
+    "fr": "jeudi («il giovedì» = le jeudi)",
+    "cs": "čtvrtek («il giovedì» = ve čtvrtek)",
+    "pl": "czwartek («il giovedì» = w czwartki)",
+    "tr": "perşembe («il giovedì» = perşembeleri)",
+    "de": "Donnerstag («il giovedì» = donnerstags)",
+    "ja": "木曜日（il giovedì＝毎週木曜日）"
+   }
+  },
+  {
+   "parola": "andava (andare)",
+   "forme": [
+    "andava",
+    "andavate"
+   ],
+   "formeEsempi": [
+    "andavo",
+    "andavamo"
+   ],
+   "esempi": [
+    "Da piccolo andavo al mare con i nonni.",
+    "Ogni estate andavamo in montagna.",
+    "Dove andavate in vacanza?"
+   ],
+   "traduzioni": {
+    "en": "used to go, went (imperfect of «andare»)",
+    "es": "iba (imperfecto de «andare»)",
+    "pt": "ia (imperfeito de «andare»)",
+    "fr": "allait (imparfait de «andare»)",
+    "cs": "chodil, jezdil (imperfektum «andare»)",
+    "pl": "chodził, jeździł (imperfetto «andare»)",
+    "tr": "giderdi (andare fiilinin imperfetto hâli)",
+    "de": "ging (Imperfekt von «andare»)",
+    "ja": "行っていた（andareの半過去）"
+   }
+  },
+  {
+   "parola": "il programma",
+   "forme": [
+    "programma"
+   ],
+   "esempi": [
+    "Stasera c'è un bel programma in televisione.",
+    "Il mio programma preferito comincia alle nove.",
+    "Che programma guardi?"
+   ],
+   "traduzioni": {
+    "en": "(TV) programme, show",
+    "es": "programa",
+    "pt": "programa",
+    "fr": "émission",
+    "cs": "pořad",
+    "pl": "program",
+    "tr": "program",
+    "de": "Sendung",
+    "ja": "番組"
+   }
+  },
+  {
+   "parola": "sedersi",
+   "forme": [
+    "sedevamo"
+   ],
+   "formeEsempi": [
+    "siedo",
+    "sedevo"
+   ],
+   "esempi": [
+    "A scuola mi sedevo vicino alla finestra.",
+    "La sera ci sedevamo in giardino.",
+    "Mi siedo qui, va bene?"
+   ],
+   "traduzioni": {
+    "en": "to sit (down) («ci sedevamo» = we used to sit)",
+    "es": "sentarse",
+    "pt": "sentar-se",
+    "fr": "s'asseoir",
+    "cs": "sedat si",
+    "pl": "siadać",
+    "tr": "oturmak",
+    "de": "sich setzen",
+    "ja": "座る"
+   }
+  },
+  {
+   "parola": "per terra",
+   "forme": [
+    "terra"
+   ],
+   "esempi": [
+    "I bambini giocano per terra.",
+    "Il libro è caduto per terra.",
+    "Non lasciare le scarpe per terra!"
+   ],
+   "traduzioni": {
+    "en": "on the floor, on the ground",
+    "es": "en el suelo",
+    "pt": "no chão",
+    "fr": "par terre",
+    "cs": "na zemi, na podlaze",
+    "pl": "na ziemi, na podłodze",
+    "tr": "yerde",
+    "de": "auf dem Boden",
+    "ja": "床に、地面に"
+   }
+  },
+  {
+   "parola": "comprare",
+   "forme": [
+    "comprato"
+   ],
+   "formeEsempi": [
+    "compro"
+   ],
+   "esempi": [
+    "Ieri ho comprato un libro.",
+    "Avete comprato il pane?",
+    "Compro sempre la frutta al mercato."
+   ],
+   "traduzioni": {
+    "en": "to buy («avete comprato» = did you buy)",
+    "es": "comprar",
+    "pt": "comprar",
+    "fr": "acheter",
+    "cs": "koupit",
+    "pl": "kupić",
+    "tr": "satın almak",
+    "de": "kaufen",
+    "ja": "買う"
+   }
+  },
+  {
+   "parola": "qualche",
+   "forme": [
+    "qualche"
+   ],
+   "esempi": [
+    "Ho qualche amico a Milano.",
+    "Torno tra qualche giorno.",
+    "Qualche volta vado al cinema."
+   ],
+   "traduzioni": {
+    "en": "some, a few («qualche anno dopo» = a few years later)",
+    "es": "algún, algunos",
+    "pt": "algum, alguns",
+    "fr": "quelques",
+    "cs": "pár, několik",
+    "pl": "kilka, parę",
+    "tr": "birkaç",
+    "de": "einige, ein paar",
+    "ja": "いくつかの、何〜か"
+   }
+  },
+  {
+   "parola": "la regola",
+   "forme": [
+    "regola"
+   ],
+   "esempi": [
+    "A casa nostra c'è una regola: niente telefono a tavola.",
+    "Conosci le regole del gioco?",
+    "È una regola importante."
+   ],
+   "traduzioni": {
+    "en": "rule",
+    "es": "regla",
+    "pt": "regra",
+    "fr": "règle",
+    "cs": "pravidlo",
+    "pl": "zasada, reguła",
+    "tr": "kural",
+    "de": "Regel",
+    "ja": "ルール、決まり"
+   },
+   "formeEsempi": [
+    "regole"
+   ]
+  },
+  {
+   "parola": "guardavamo (guardare)",
+   "forme": [
+    "guardavamo"
+   ],
+   "formeEsempi": [
+    "guardavo",
+    "guardo"
+   ],
+   "esempi": [
+    "Da bambino guardavo i cartoni animati.",
+    "La sera guardavamo la televisione insieme.",
+    "Guardo un film e poi dormo."
+   ],
+   "traduzioni": {
+    "en": "we used to watch (imperfect of «guardare»)",
+    "es": "veíamos (imperfecto de «guardare»)",
+    "pt": "assistíamos (imperfeito de «guardare»)",
+    "fr": "nous regardions",
+    "cs": "dívali jsme se (imperfektum)",
+    "pl": "oglądaliśmy (imperfetto)",
+    "tr": "seyrederdik (imperfetto)",
+    "de": "wir sahen (Imperfekt)",
+    "ja": "見ていた（guardareの半過去）"
+   }
+  },
+  {
+   "parola": "la pubblicità",
+   "forme": [
+    "pubblicità"
+   ],
+   "esempi": [
+    "In televisione c'è troppa pubblicità.",
+    "Questa pubblicità è molto divertente.",
+    "Durante la pubblicità vado in cucina."
+   ],
+   "traduzioni": {
+    "en": "advertisement(s), ads",
+    "es": "publicidad, anuncios",
+    "pt": "propaganda, publicidade",
+    "fr": "publicité",
+    "cs": "reklama",
+    "pl": "reklama",
+    "tr": "reklam",
+    "de": "Werbung",
+    "ja": "広告、コマーシャル"
+   }
+  },
+  {
+   "parola": "i cartoni animati",
+   "forme": [
+    "cartoni"
+   ],
+   "esempi": [
+    "I bambini guardano i cartoni animati.",
+    "Da piccola amavo i cartoni giapponesi.",
+    "Il sabato mattina c'erano i cartoni."
+   ],
+   "traduzioni": {
+    "en": "cartoons",
+    "es": "dibujos animados",
+    "pt": "desenhos animados",
+    "fr": "dessins animés",
+    "cs": "kreslené filmy, animáky",
+    "pl": "kreskówki",
+    "tr": "çizgi film",
+    "de": "Zeichentrickfilme",
+    "ja": "アニメ、漫画映画"
+   }
+  },
+  {
+   "parola": "a letto",
+   "forme": [
+    "letto"
+   ],
+   "esempi": [
+    "Alle dieci vado a letto.",
+    "Il bambino è già a letto.",
+    "Resto a letto perché ho la febbre."
+   ],
+   "traduzioni": {
+    "en": "to bed, in bed («tutti a letto!» = off to bed, everyone!)",
+    "es": "a la cama",
+    "pt": "para a cama",
+    "fr": "au lit",
+    "cs": "do postele, spát",
+    "pl": "do łóżka",
+    "tr": "yatağa",
+    "de": "ins Bett",
+    "ja": "ベッドへ、寝る"
+   }
+  },
+  {
+   "parola": "dicevano (dire)",
+   "forme": [
+    "dicevano"
+   ],
+   "formeEsempi": [
+    "diceva"
+   ],
+   "esempi": [
+    "I nonni dicevano sempre: «Mangia la verdura!».",
+    "La maestra diceva di stare zitti.",
+    "Che cosa dicevano i tuoi genitori?"
+   ],
+   "traduzioni": {
+    "en": "they used to say (imperfect of «dire»)",
+    "es": "decían",
+    "pt": "diziam",
+    "fr": "ils disaient",
+    "cs": "říkali",
+    "pl": "mówili",
+    "tr": "derlerdi",
+    "de": "sie sagten",
+    "ja": "言っていた（direの半過去）"
+   }
+  },
+  {
+   "parola": "la mamma",
+   "forme": [
+    "mamme"
+   ],
+   "formeEsempi": [
+    "mamma"
+   ],
+   "esempi": [
+    "La mamma prepara la cena.",
+    "Tutte le mamme aspettano davanti alla scuola.",
+    "Ciao mamma, arrivo!"
+   ],
+   "traduzioni": {
+    "en": "mum, mom",
+    "es": "mamá",
+    "pt": "mãe, mamãe",
+    "fr": "maman",
+    "cs": "maminka",
+    "pl": "mama",
+    "tr": "anne",
+    "de": "Mama",
+    "ja": "お母さん"
+   }
+  },
+  {
+   "parola": "decidere",
+   "forme": [
+    "decideva"
+   ],
+   "formeEsempi": [
+    "decido",
+    "decidi"
+   ],
+   "esempi": [
+    "Decido io dove andiamo.",
+    "Da piccolo mio padre decideva tutto.",
+    "Decidi tu: pizza o pasta?"
+   ],
+   "traduzioni": {
+    "en": "to decide",
+    "es": "decidir",
+    "pt": "decidir",
+    "fr": "décider",
+    "cs": "rozhodovat",
+    "pl": "decydować",
+    "tr": "karar vermek",
+    "de": "entscheiden",
+    "ja": "決める"
+   }
+  },
+  {
+   "parola": "dormire",
+   "forme": [
+    "dormire"
+   ],
+   "formeEsempi": [
+    "dormo"
+   ],
+   "esempi": [
+    "Vado a dormire presto.",
+    "Dormo otto ore ogni notte.",
+    "Non riesco a dormire."
+   ],
+   "traduzioni": {
+    "en": "to sleep («andare a dormire» = to go to bed)",
+    "es": "dormir",
+    "pt": "dormir",
+    "fr": "dormir",
+    "cs": "spát",
+    "pl": "spać",
+    "tr": "uyumak",
+    "de": "schlafen",
+    "ja": "眠る、寝る"
+   }
+  },
+  {
+   "parola": "ultimo",
+   "forme": [
+    "ultima"
+   ],
+   "formeEsempi": [
+    "ultimo"
+   ],
+   "esempi": [
+    "È l'ultima pagina del libro.",
+    "Prendo l'ultimo treno.",
+    "Chi è l'ultimo della fila?"
+   ],
+   "traduzioni": {
+    "en": "last",
+    "es": "último",
+    "pt": "último",
+    "fr": "dernier",
+    "cs": "poslední",
+    "pl": "ostatni",
+    "tr": "son",
+    "de": "letzte",
+    "ja": "最後の"
+   }
+  },
+  {
+   "parola": "la classe",
+   "forme": [
+    "classe"
+   ],
+   "esempi": [
+    "Nella mia classe ci sono venti studenti.",
+    "Questa è la foto di classe.",
+    "La classe va in gita a Roma."
+   ],
+   "traduzioni": {
+    "en": "class (pupils)",
+    "es": "clase",
+    "pt": "turma, classe",
+    "fr": "classe",
+    "cs": "třída",
+    "pl": "klasa",
+    "tr": "sınıf",
+    "de": "Klasse",
+    "ja": "クラス"
+   }
+  },
+  {
+   "parola": "la fila",
+   "forme": [
+    "fila"
+   ],
+   "esempi": [
+    "Al cinema mi siedo in prima fila.",
+    "C'è una lunga fila alla posta.",
+    "I bambini sono in fila per due."
+   ],
+   "traduzioni": {
+    "en": "row; queue («in prima fila» = in the front row)",
+    "es": "fila («in prima fila» = en primera fila)",
+    "pt": "fila («in prima fila» = na primeira fila)",
+    "fr": "rang, file («in prima fila» = au premier rang)",
+    "cs": "řada («in prima fila» = v první řadě)",
+    "pl": "rząd («in prima fila» = w pierwszym rzędzie)",
+    "tr": "sıra («in prima fila» = ön sırada)",
+    "de": "Reihe («in prima fila» = in der ersten Reihe)",
+    "ja": "列（in prima fila＝最前列に）"
+   }
+  },
+  {
+   "parola": "storto",
+   "forme": [
+    "storto"
+   ],
+   "esempi": [
+    "Il quadro è storto.",
+    "Hai la cravatta storta.",
+    "Questa riga è un po' storta."
+   ],
+   "traduzioni": {
+    "en": "crooked, lopsided",
+    "es": "torcido",
+    "pt": "torto",
+    "fr": "de travers",
+    "cs": "křivý, nakřivo",
+    "pl": "krzywy",
+    "tr": "eğri, yamuk",
+    "de": "schief",
+    "ja": "曲がった、ゆがんだ"
+   },
+   "formeEsempi": [
+    "storta"
+   ]
+  },
+  {
+   "parola": "il ginocchio",
+   "forme": [
+    "ginocchia"
+   ],
+   "formeEsempi": [
+    "ginocchio"
+   ],
+   "esempi": [
+    "Mi fa male il ginocchio.",
+    "Il bambino ha le ginocchia sporche.",
+    "Cado e mi faccio male a un ginocchio."
+   ],
+   "traduzioni": {
+    "en": "knee (plural «le ginocchia»)",
+    "es": "rodilla",
+    "pt": "joelho",
+    "fr": "genou",
+    "cs": "koleno",
+    "pl": "kolano",
+    "tr": "diz",
+    "de": "Knie",
+    "ja": "ひざ"
+   }
+  },
+  {
+   "parola": "sporco",
+   "forme": [
+    "sporche"
+   ],
+   "formeEsempi": [
+    "sporco",
+    "sporca"
+   ],
+   "esempi": [
+    "Le scarpe sono sporche di fango.",
+    "Il piatto è ancora sporco.",
+    "Lava la maglietta: è sporca!"
+   ],
+   "traduzioni": {
+    "en": "dirty",
+    "es": "sucio",
+    "pt": "sujo",
+    "fr": "sale",
+    "cs": "špinavý",
+    "pl": "brudny",
+    "tr": "kirli",
+    "de": "schmutzig",
+    "ja": "汚れた"
+   }
+  },
+  {
+   "parola": "sembrare",
+   "forme": [
+    "sembra"
+   ],
+   "formeEsempi": [
+    "sembri"
+   ],
+   "esempi": [
+    "Sembra facile, ma non lo è.",
+    "Oggi sembri stanca.",
+    "Questo cane sembra un orso!"
+   ],
+   "traduzioni": {
+    "en": "to seem, to look like",
+    "es": "parecer",
+    "pt": "parecer",
+    "fr": "sembler, avoir l'air",
+    "cs": "vypadat, zdát se",
+    "pl": "wyglądać na, wydawać się",
+    "tr": "gibi görünmek",
+    "de": "scheinen, aussehen wie",
+    "ja": "〜のように見える"
+   }
+  },
+  {
+   "parola": "il disastro",
+   "forme": [
+    "disastro"
+   ],
+   "esempi": [
+    "La mia camera è un disastro!",
+    "In cucina sono un disastro.",
+    "Che disastro: ho perso il treno!"
+   ],
+   "traduzioni": {
+    "en": "disaster («un piccolo disastro» = a little troublemaker)",
+    "es": "desastre",
+    "pt": "desastre",
+    "fr": "catastrophe",
+    "cs": "katastrofa",
+    "pl": "katastrofa",
+    "tr": "felaket",
+    "de": "Katastrophe",
+    "ja": "めちゃくちゃ、大失敗"
+   }
+  },
+  {
+   "parola": "il compagno di banco",
+   "forme": [
+    "compagno"
+   ],
+   "esempi": [
+    "Il mio compagno di banco si chiamava Paolo.",
+    "Sara è una mia compagna di classe.",
+    "Ho incontrato un vecchio compagno di scuola."
+   ],
+   "traduzioni": {
+    "en": "deskmate («compagno di banco» = the classmate who sits next to you)",
+    "es": "compañero de pupitre",
+    "pt": "colega de carteira",
+    "fr": "voisin de table, camarade",
+    "cs": "spolužák z lavice",
+    "pl": "kolega z ławki",
+    "tr": "sıra arkadaşı",
+    "de": "Banknachbar",
+    "ja": "隣の席の同級生"
+   },
+   "formeEsempi": [
+    "compagna"
+   ]
+  },
+  {
+   "parola": "tirare",
+   "forme": [
+    "tirava"
+   ],
+   "formeEsempi": [
+    "tiro",
+    "tirare"
+   ],
+   "esempi": [
+    "Mio fratello mi tirava sempre i capelli.",
+    "Non tirare la coda al gatto!",
+    "Tiro la porta e la chiudo."
+   ],
+   "traduzioni": {
+    "en": "to pull",
+    "es": "tirar (de)",
+    "pt": "puxar",
+    "fr": "tirer",
+    "cs": "tahat",
+    "pl": "ciągnąć",
+    "tr": "çekmek",
+    "de": "ziehen",
+    "ja": "引っぱる"
+   }
+  },
+  {
+   "parola": "la treccia",
+   "forme": [
+    "trecce"
+   ],
+   "formeEsempi": [
+    "treccia"
+   ],
+   "esempi": [
+    "Da piccola avevo due trecce.",
+    "Mi fai una treccia?",
+    "La bambina ha una treccia lunga."
+   ],
+   "traduzioni": {
+    "en": "plait, braid",
+    "es": "trenza",
+    "pt": "trança",
+    "fr": "tresse, natte",
+    "cs": "cop",
+    "pl": "warkocz",
+    "tr": "örgü",
+    "de": "Zopf",
+    "ja": "三つ編み"
+   }
+  },
+  {
+   "parola": "stare fermo",
+   "forme": [
+    "fermo"
+   ],
+   "esempi": [
+    "Stai fermo, ti faccio una foto!",
+    "Il bambino non sta mai fermo.",
+    "L'autobus è fermo al semaforo."
+   ],
+   "traduzioni": {
+    "en": "to keep still («non stava mai fermo» = he could never sit still)",
+    "es": "estarse quieto",
+    "pt": "ficar parado, ficar quieto",
+    "fr": "rester tranquille, ne pas bouger",
+    "cs": "být v klidu, nehýbat se",
+    "pl": "siedzieć spokojnie",
+    "tr": "yerinde durmak, kıpırdamamak",
+    "de": "stillhalten, ruhig sitzen",
+    "ja": "じっとしている"
+   }
+  },
+  {
+   "parola": "fa (= tempo fa)",
+   "forme": [
+    "fa"
+   ],
+   "esempi": [
+    "Sono arrivato due anni fa.",
+    "Ho visto Marco un'ora fa.",
+    "Molto tempo fa qui c'era un bosco."
+   ],
+   "traduzioni": {
+    "en": "ago («sessant'anni fa» = sixty years ago)",
+    "es": "hace («sessant'anni fa» = hace sesenta años)",
+    "pt": "atrás, há («sessant'anni fa» = há sessenta anos)",
+    "fr": "il y a («sessant'anni fa» = il y a soixante ans)",
+    "cs": "před («sessant'anni fa» = před šedesáti lety)",
+    "pl": "temu («sessant'anni fa» = sześćdziesiąt lat temu)",
+    "tr": "önce («sessant'anni fa» = altmış yıl önce)",
+    "de": "vor («sessant'anni fa» = vor sechzig Jahren)",
+    "ja": "〜前（sessant'anni fa＝60年前）"
+   }
+  },
+  {
+   "parola": "sposare",
+   "forme": [
+    "sposato"
+   ],
+   "formeEsempi": [
+    "sposo",
+    "sposa"
+   ],
+   "esempi": [
+    "Mio fratello ha sposato una ragazza spagnola.",
+    "Paolo sposa Anna a giugno.",
+    "Mi sposo l'anno prossimo!"
+   ],
+   "traduzioni": {
+    "en": "to marry («l'ho sposato» = I married him)",
+    "es": "casarse con («l'ho sposato» = me casé con él)",
+    "pt": "casar com («l'ho sposato» = casei com ele)",
+    "fr": "épouser («l'ho sposato» = je l'ai épousé)",
+    "cs": "vzít si («l'ho sposato» = vzala jsem si ho)",
+    "pl": "poślubić («l'ho sposato» = wyszłam za niego)",
+    "tr": "evlenmek («l'ho sposato» = onunla evlendim)",
+    "de": "heiraten («l'ho sposato» = ich habe ihn geheiratet)",
+    "ja": "結婚する（l'ho sposato＝彼と結婚した）"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "On Sunday Chiara takes Emma to lunch at her grandparents', in a small village near Siena. After coffee Grandma Lucia takes an old box full of black-and-white photos out of the wardrobe.",
+    "– Look, Emma: this was my school. I was six.\nIn the photo there are thirty children, all dressed the same: a black smock and a big white bow at the neck. Emma is surprised.\n– But… were you in hospital?\nEveryone laughs.\n– No! At school all the children wore a smock. That way the rich and the poor were the same, and their clothes didn't get dirty with ink.",
+    "Grandpa Beppe takes another photo: a square full of people in front of a bar.\n– And this one? It was 1956. In the village nobody had a television at home: there was only one, at the bar. On Thursday evenings the whole village went there to watch a quiz show. We children used to sit on the floor, in front of everybody.",
+    "– And when did you buy a television?\n– A few years later. But there was a rule: every evening we watched Carosello, a little programme with adverts and cartoons. And after Carosello, everyone off to bed! All the mums in Italy said it.\nEmma laughs.\n– So an advert decided when you went to sleep!",
+    "Then Emma takes the last photo from the box: Grandma's class. In the front row there's a little boy with a crooked bow and dirty knees.\n– And who was this? He looks like a little disaster!",
+    "Grandma smiles and looks at Grandpa.\n– This one? He was my deskmate. He was always pulling my plaits and he could never sit still… And sixty years ago I married him."
+   ]
+  },
+  "es": {
+   "a2": [
+    "El domingo Chiara lleva a Emma a comer a casa de sus abuelos, en un pueblecito cerca de Siena. Después del café, la abuela Lucia saca del armario una caja vieja llena de fotos en blanco y negro.",
+    "– Mira, Emma: esta era mi escuela. Tenía seis años.\nEn la foto hay treinta niños, todos vestidos igual: un babi negro y un gran lazo blanco al cuello. Emma se sorprende.\n– Pero… ¿estabais en el hospital?\nTodos se ríen.\n– ¡No! En la escuela todos los niños llevaban babi. Así los ricos y los pobres eran iguales, y la ropa no se manchaba de tinta.",
+    "El abuelo Beppe coge otra foto: una plaza llena de gente delante de un bar.\n– ¿Y esta? Era 1956. En el pueblo nadie tenía televisión en casa: solo había una, en el bar. Los jueves por la noche todo el pueblo iba allí a ver un concurso. Los niños nos sentábamos en el suelo, delante de todos.",
+    "– ¿Y cuándo comprasteis la televisión?\n– Unos años después. Pero había una regla: cada noche veíamos Carosello, un programa cortito con anuncios y dibujos animados. ¡Y después de Carosello, todos a la cama! Lo decían todas las madres de Italia.\nEmma se ríe.\n– ¡Entonces un anuncio decidía cuándo os ibais a dormir!",
+    "Luego Emma saca la última foto de la caja: la clase de la abuela. En primera fila hay un niño con el lazo torcido y las rodillas sucias.\n– ¿Y este quién era? ¡Parece un pequeño desastre!",
+    "La abuela sonríe y mira al abuelo.\n– ¿Este? Era mi compañero de pupitre. Siempre me tiraba de las trenzas y nunca se estaba quieto… Y hace sesenta años me casé con él."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "No domingo, Chiara leva Emma para almoçar na casa dos avós, numa cidadezinha perto de Siena. Depois do café, a avó Lucia tira do armário uma caixa velha cheia de fotos em preto e branco.",
+    "– Olha, Emma: esta era a minha escola. Eu tinha seis anos.\nNa foto há trinta crianças, todas vestidas iguais: um avental preto e um grande laço branco no pescoço. Emma fica surpresa.\n– Mas… vocês estavam no hospital?\nTodos riem.\n– Não! Na escola todas as crianças usavam avental. Assim os ricos e os pobres eram iguais, e as roupas não se sujavam de tinta.",
+    "O avô Beppe pega outra foto: uma praça cheia de gente em frente a um bar.\n– E esta? Era 1956. No vilarejo ninguém tinha televisão em casa: só havia uma, no bar. Às quintas à noite o vilarejo inteiro ia lá ver um programa de perguntas. Nós, crianças, sentávamos no chão, na frente de todo mundo.",
+    "– E quando vocês compraram a televisão?\n– Alguns anos depois. Mas havia uma regra: toda noite víamos Carosello, um programinha com propagandas e desenhos animados. E depois do Carosello, todo mundo para a cama! Todas as mães da Itália diziam isso.\nEmma ri.\n– Então uma propaganda decidia a hora de vocês irem dormir!",
+    "Depois Emma pega a última foto da caixa: a turma da avó. Na primeira fila há um menino com o laço torto e os joelhos sujos.\n– E este, quem era? Parece um pequeno desastre!",
+    "A avó sorri e olha para o avô.\n– Este? Era o meu colega de carteira. Vivia puxando as minhas tranças e nunca ficava quieto… E há sessenta anos eu me casei com ele."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Dimanche, Chiara emmène Emma déjeuner chez ses grands-parents, dans un petit village près de Sienne. Après le café, grand-mère Lucia sort de l'armoire une vieille boîte pleine de photos en noir et blanc.",
+    "– Regarde, Emma : c'était mon école. J'avais six ans.\nSur la photo, il y a trente enfants, tous habillés pareil : une blouse noire et un grand nœud blanc au cou. Emma est surprise.\n– Mais… vous étiez à l'hôpital ?\nTout le monde rit.\n– Non ! À l'école, tous les enfants portaient une blouse. Comme ça, les riches et les pauvres étaient pareils, et les vêtements ne se salissaient pas avec l'encre.",
+    "Grand-père Beppe prend une autre photo : une place pleine de monde devant un bar.\n– Et celle-ci ? C'était en 1956. Au village, personne n'avait la télévision à la maison : il n'y en avait qu'une, au bar. Le jeudi soir, tout le village allait là-bas regarder un jeu télévisé. Nous, les enfants, on s'asseyait par terre, devant tout le monde.",
+    "– Et quand est-ce que vous avez acheté la télévision ?\n– Quelques années plus tard. Mais il y avait une règle : chaque soir, on regardait Carosello, une petite émission avec des publicités et des dessins animés. Et après Carosello, tout le monde au lit ! Toutes les mamans d'Italie le disaient.\nEmma rit.\n– Alors c'était une publicité qui décidait de l'heure du coucher !",
+    "Puis Emma prend la dernière photo de la boîte : la classe de grand-mère. Au premier rang, il y a un petit garçon avec le nœud de travers et les genoux sales.\n– Et lui, c'était qui ? On dirait une petite catastrophe !",
+    "Grand-mère sourit et regarde grand-père.\n– Lui ? C'était mon voisin de table. Il me tirait toujours les tresses et il ne tenait jamais en place… Et il y a soixante ans, je l'ai épousé."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "V neděli vezme Chiara Emmu na oběd k babičce a dědovi do malého městečka u Sieny. Po kávě vytáhne babička Lucia ze skříně starou krabici plnou černobílých fotek.",
+    "– Podívej, Emmo: tohle byla moje škola. Bylo mi šest.\nNa fotce je třicet dětí, všechny oblečené stejně: černá zástěra a velká bílá mašle u krku. Emma je překvapená.\n– Ale… to jste byli v nemocnici?\nVšichni se smějí.\n– Ne! Ve škole nosily všechny děti zástěru. Tak byli bohatí a chudí stejní a oblečení se neušpinilo od inkoustu.",
+    "Děda Beppe vezme další fotku: náměstí plné lidí před barem.\n– A tahle? To byl rok 1956. V městečku nikdo neměl doma televizi: byla jen v baru. Ve čtvrtek večer tam chodilo celé městečko na soutěžní pořad. My děti jsme sedávali na zemi, úplně vepředu.",
+    "– A kdy jste si koupili televizi?\n– O pár let později. Ale platilo pravidlo: každý večer jsme se dívali na Carosello, krátký pořad s reklamami a kreslenými filmy. A po Carosellu všichni do postele! Říkaly to všechny maminky v Itálii.\nEmma se směje.\n– Takže reklama rozhodovala, kdy půjdete spát!",
+    "Pak Emma vytáhne z krabice poslední fotku: babiččinu třídu. V první řadě je kluk s křivou mašlí a špinavými koleny.\n– A kdo byl tohle? Vypadá jako malá pohroma!",
+    "Babička se usměje a podívá se na dědu.\n– Tenhle? To byl můj spolužák z lavice. Pořád mě tahal za copy a nikdy neposeděl… A před šedesáti lety jsem si ho vzala."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "W niedzielę Chiara zabiera Emmę na obiad do dziadków, do małego miasteczka niedaleko Sieny. Po kawie babcia Lucia wyjmuje z szafy stare pudełko pełne czarno-białych zdjęć.",
+    "– Popatrz, Emma: to była moja szkoła. Miałam sześć lat.\nNa zdjęciu jest trzydzieścioro dzieci, wszystkie ubrane tak samo: czarny fartuszek i duża biała kokarda pod szyją. Emma jest zaskoczona.\n– Ale… byliście w szpitalu?\nWszyscy się śmieją.\n– Nie! W szkole wszystkie dzieci nosiły fartuszki. Dzięki temu bogaci i biedni byli tacy sami, a ubrania nie brudziły się atramentem.",
+    "Dziadek Beppe bierze inne zdjęcie: plac pełen ludzi przed barem.\n– A to? To był rok 1956. W miasteczku nikt nie miał telewizora w domu: był tylko w barze. W czwartkowe wieczory całe miasteczko chodziło tam oglądać teleturniej. My, dzieci, siadaliśmy na ziemi, przed wszystkimi.",
+    "– A kiedy kupiliście telewizor?\n– Kilka lat później. Ale była zasada: co wieczór oglądaliśmy Carosello, krótki program z reklamami i kreskówkami. A po Carosello – wszyscy do łóżek! Mówiły tak wszystkie mamy we Włoszech.\nEmma się śmieje.\n– Czyli reklama decydowała, kiedy szliście spać!",
+    "Potem Emma wyjmuje z pudełka ostatnie zdjęcie: klasę babci. W pierwszym rzędzie siedzi chłopiec z krzywą kokardą i brudnymi kolanami.\n– A kto to był? Wygląda jak mała katastrofa!",
+    "Babcia się uśmiecha i patrzy na dziadka.\n– Ten? To był mój kolega z ławki. Ciągle ciągnął mnie za warkocze i nigdy nie mógł usiedzieć w miejscu… A sześćdziesiąt lat temu wyszłam za niego."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Pazar günü Chiara, Emma'yı öğle yemeği için Siena yakınlarındaki küçük bir kasabada oturan büyükanne ve büyükbabasına götürüyor. Kahveden sonra Lucia nine dolaptan siyah beyaz fotoğraflarla dolu eski bir kutu çıkarıyor.",
+    "– Bak Emma: bu benim okulumdu. Altı yaşındaydım.\nFotoğrafta otuz çocuk var, hepsi aynı giyinmiş: siyah bir önlük ve boyunda kocaman beyaz bir fiyonk. Emma şaşırıyor.\n– Ama… hastanede miydiniz?\nHerkes gülüyor.\n– Hayır! Okulda bütün çocuklar önlük giyerdi. Böylece zenginler de fakirler de eşit olurdu, giysiler de mürekkeple kirlenmezdi.",
+    "Beppe dede başka bir fotoğraf alıyor: bir barın önünde insanlarla dolu bir meydan.\n– Ya bu? 1956 yılıydı. Kasabada kimsenin evinde televizyon yoktu: sadece barda vardı. Perşembe akşamları bütün kasaba oraya bir bilgi yarışması seyretmeye giderdi. Biz çocuklar herkesin önünde yere otururduk.",
+    "– Peki siz televizyonu ne zaman aldınız?\n– Birkaç yıl sonra. Ama bir kural vardı: her akşam Carosello'yu seyrederdik; reklamlar ve çizgi filmlerden oluşan kısa bir program. Carosello'dan sonra da herkes yatağa! İtalya'daki bütün anneler bunu söylerdi.\nEmma gülüyor.\n– Yani ne zaman yatacağınıza bir reklam karar veriyordu!",
+    "Sonra Emma kutudaki son fotoğrafı alıyor: ninenin sınıfı. Ön sırada fiyonku yamuk, dizleri kirli bir oğlan var.\n– Peki bu kimdi? Küçük bir felakete benziyor!",
+    "Nine gülümsüyor ve dedeye bakıyor.\n– Bu mu? Sıra arkadaşımdı. Hep örgülerimi çekerdi ve yerinde hiç duramazdı… Altmış yıl önce de onunla evlendim."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Am Sonntag nimmt Chiara Emma zum Mittagessen zu ihren Großeltern mit, in ein kleines Dorf bei Siena. Nach dem Kaffee holt Oma Lucia eine alte Schachtel voller Schwarz-Weiß-Fotos aus dem Schrank.",
+    "– Schau, Emma: Das war meine Schule. Ich war sechs.\nAuf dem Foto sind dreißig Kinder, alle gleich angezogen: ein schwarzer Kittel und eine große weiße Schleife am Hals. Emma ist überrascht.\n– Aber … wart ihr im Krankenhaus?\nAlle lachen.\n– Nein! In der Schule trugen alle Kinder einen Kittel. So waren die Reichen und die Armen gleich, und die Kleider wurden nicht mit Tinte schmutzig.",
+    "Opa Beppe nimmt ein anderes Foto: ein Platz voller Leute vor einer Bar.\n– Und das hier? Das war 1956. Im Dorf hatte niemand einen Fernseher zu Hause: Es gab nur einen, in der Bar. Am Donnerstagabend ging das ganze Dorf dorthin, um eine Quizsendung zu sehen. Wir Kinder saßen auf dem Boden, vor allen anderen.",
+    "– Und wann habt ihr einen Fernseher gekauft?\n– Ein paar Jahre später. Aber es gab eine Regel: Jeden Abend sahen wir Carosello, eine kleine Sendung mit Werbung und Zeichentrickfilmen. Und nach Carosello: alle ins Bett! Das sagten alle Mütter in Italien.\nEmma lacht.\n– Dann hat also eine Werbung entschieden, wann ihr schlafen gegangen seid!",
+    "Dann nimmt Emma das letzte Foto aus der Schachtel: Omas Klasse. In der ersten Reihe sitzt ein kleiner Junge mit schiefer Schleife und schmutzigen Knien.\n– Und wer war das? Er sieht aus wie eine kleine Katastrophe!",
+    "Die Oma lächelt und schaut den Opa an.\n– Der? Das war mein Banknachbar. Er zog mich immer an den Zöpfen und konnte nie still sitzen … Und vor sechzig Jahren habe ich ihn geheiratet."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "日曜日、キアラはエマを、シエナの近くの小さな町に住む祖父母の家へ、お昼ごはんに連れていく。コーヒーのあと、ルチアおばあさんがたんすから、白黒写真でいっぱいの古い箱を取り出す。",
+    "「見て、エマ。これが私の学校だったの。6歳だったわ。」\n写真には30人の子どもが写っていて、みんな同じ格好をしている。黒いスモックに、首元の大きな白いリボン。エマは驚く。\n「でも……みんな病院にいたんですか？」\nみんなが笑う。\n「違うわよ！学校では子どもはみんなスモックを着ていたの。そうすればお金持ちも貧しい子も同じに見えたし、服がインクで汚れなかったのよ。」",
+    "ベッペおじいさんが別の写真を取る。バールの前の、人でいっぱいの広場だ。\n「これは？1956年だった。町では家にテレビがある人なんていなかった。テレビはバールにしかなかったんだ。木曜の夜には町じゅうの人がそこへクイズ番組を見に行った。わしら子どもは、みんなの前の床に座っていたよ。」",
+    "「じゃあ、テレビはいつ買ったんですか？」\n「何年かあとだね。でも決まりがあった。毎晩カロゼッロを見たんだ。コマーシャルとアニメの短い番組さ。そしてカロゼッロが終わったら、みんな寝る！イタリアじゅうのお母さんがそう言っていたんだよ。」\nエマは笑う。\n「じゃあ、寝る時間をコマーシャルが決めていたんですね！」",
+    "それからエマは箱の最後の写真を手に取る。おばあさんのクラスだ。最前列に、リボンが曲がっていて、ひざが汚れた男の子がいる。\n「この子は誰だったんですか？小さないたずらっ子みたい！」",
+    "おばあさんはほほえんで、おじいさんを見る。\n「この子？隣の席の子だったの。いつも私の三つ編みを引っぱって、少しもじっとしていなかった……。そして60年前、私はこの人と結婚したのよ。」"
+   ]
+  }
+ }
+}
