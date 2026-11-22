@@ -3,6 +3,10 @@
 {
   "name": "italianoconmartin",
   "compatibility_date": "2026-11-17",
+  // Copia di riserva (noindex in public/_headers). Le anteprime di ogni versione restano
+  // chiuse: sarebbero doppioni indicizzabili, quelle vecchie senza noindex.
+  "workers_dev": true,
+  "preview_urls": false,
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page",

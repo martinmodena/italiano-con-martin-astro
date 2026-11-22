@@ -15,7 +15,7 @@ italianoconmartin.com offre materiali gratuiti per chi studia italiano (letture 
 
 ## Architettura (dal 2026-08-25)
 
-Il sito pubblicato è la **build Astro**: `npm run build` produce `dist/`, che viene pubblicata su **GitHub Pages** (il sito vero: il trasloco a Cloudflare è stato annullato il 2026-11-22) e in copia di riserva su Cloudflare (`wrangler.jsonc`, `scripts/cloudflare-redirects.mjs`; i DNS restano su register.it). **Il sito deve restare sotto 1 GB**: `node scripts/audit-size.mjs` ne dice il peso e avvisa da 900 MB (anche nel deploy, senza bloccarlo).
+Il sito pubblicato è la **build Astro**: `npm run build` produce `dist/`, che viene pubblicata su **GitHub Pages** (il sito vero: il trasloco a Cloudflare è stato annullato il 2026-11-22) e in copia di riserva su Cloudflare (`wrangler.jsonc`, `scripts/cloudflare-redirects.mjs`; i DNS restano su register.it). La copia è `noindex` con una regola **legata al suo host** in `public/_headers`: non scriverla mai come `/*`, e non bloccarla in `robots.txt` (Google deve poter leggere il noindex; il file è comune al sito vero). **Il sito deve restare sotto 1 GB**: `node scripts/audit-size.mjs` ne dice il peso e avvisa da 900 MB (anche nel deploy, senza bloccarlo).
 
 | Cartella                       | Contenuto                                                                                                                                |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |

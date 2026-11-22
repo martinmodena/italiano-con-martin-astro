@@ -1,2 +1,6 @@
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Solo la copia di riserva su workers.dev: mai una regola noindex senza host (varrebbe anche per italianoconmartin.com).
+https://italianoconmartin.astro-pages-site.workers.dev/*
+  X-Robots-Tag: noindex
