@@ -1,0 +1,1459 @@
+{
+ "id": "emma-il-lavandino-misterioso",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "adesso",
+   "forme": [
+    "adesso"
+   ],
+   "esempi": [
+    "Adesso abito a Roma.",
+    "Non posso parlare adesso.",
+    "Adesso è tutto chiaro!"
+   ],
+   "traduzioni": {
+    "en": "now",
+    "es": "ahora",
+    "pt": "agora",
+    "fr": "maintenant",
+    "cs": "teď",
+    "pl": "teraz",
+    "tr": "şimdi",
+    "de": "jetzt",
+    "ja": "今"
+   }
+  },
+  {
+   "parola": "abitare",
+   "forme": [
+    "abita"
+   ],
+   "formeEsempi": [
+    "abito",
+    "abiti"
+   ],
+   "esempi": [
+    "Abito in via Garibaldi.",
+    "Dove abiti?",
+    "Mia sorella abita con due amiche."
+   ],
+   "traduzioni": {
+    "en": "to live (somewhere)",
+    "es": "vivir",
+    "pt": "morar",
+    "fr": "habiter",
+    "cs": "bydlet",
+    "pl": "mieszkać",
+    "tr": "oturmak, yaşamak",
+    "de": "wohnen",
+    "ja": "住む"
+   }
+  },
+  {
+   "parola": "la studentessa",
+   "forme": [
+    "studentessa"
+   ],
+   "formeEsempi": [
+    "studente"
+   ],
+   "esempi": [
+    "Sono una studentessa di medicina.",
+    "La studentessa fa una domanda.",
+    "Lo studente arriva in ritardo."
+   ],
+   "traduzioni": {
+    "en": "student (female)",
+    "es": "estudiante",
+    "pt": "estudante",
+    "fr": "étudiante",
+    "cs": "studentka",
+    "pl": "studentka",
+    "tr": "öğrenci (kız)",
+    "de": "Studentin",
+    "ja": "学生（女性）"
+   }
+  },
+  {
+   "parola": "l'appartamento",
+   "forme": [
+    "appartamento"
+   ],
+   "esempi": [
+    "Cerco un appartamento in centro.",
+    "L'appartamento ha un balcone.",
+    "Il mio appartamento è al terzo piano."
+   ],
+   "traduzioni": {
+    "en": "flat, apartment",
+    "es": "piso, apartamento",
+    "pt": "apartamento",
+    "fr": "appartement",
+    "cs": "byt",
+    "pl": "mieszkanie",
+    "tr": "daire",
+    "de": "Wohnung",
+    "ja": "アパート、マンション"
+   }
+  },
+  {
+   "parola": "la camera",
+   "forme": [
+    "camere"
+   ],
+   "formeEsempi": [
+    "camera"
+   ],
+   "esempi": [
+    "La mia camera è piccola.",
+    "La casa ha tre camere.",
+    "Il letto è in camera."
+   ],
+   "traduzioni": {
+    "en": "bedroom, room",
+    "es": "habitación, dormitorio",
+    "pt": "quarto",
+    "fr": "chambre",
+    "cs": "pokoj, ložnice",
+    "pl": "pokój, sypialnia",
+    "tr": "oda, yatak odası",
+    "de": "Zimmer, Schlafzimmer",
+    "ja": "部屋、寝室"
+   }
+  },
+  {
+   "parola": "il bagno",
+   "forme": [
+    "bagno"
+   ],
+   "esempi": [
+    "Il bagno è in fondo al corridoio.",
+    "Scusi, dov'è il bagno?",
+    "La mattina il bagno è sempre occupato."
+   ],
+   "traduzioni": {
+    "en": "bathroom",
+    "es": "baño",
+    "pt": "banheiro",
+    "fr": "salle de bains, toilettes",
+    "cs": "koupelna",
+    "pl": "łazienka",
+    "tr": "banyo",
+    "de": "Bad, Badezimmer",
+    "ja": "浴室、トイレ"
+   }
+  },
+  {
+   "parola": "svegliarsi",
+   "forme": [
+    "sveglia"
+   ],
+   "formeEsempi": [
+    "sveglio",
+    "svegliamo"
+   ],
+   "esempi": [
+    "Mi sveglio presto anche la domenica.",
+    "Il gatto si sveglia alle cinque.",
+    "Ci svegliamo con il sole."
+   ],
+   "traduzioni": {
+    "en": "to wake up",
+    "es": "despertarse",
+    "pt": "acordar",
+    "fr": "se réveiller",
+    "cs": "probudit se",
+    "pl": "budzić się",
+    "tr": "uyanmak",
+    "de": "aufwachen",
+    "ja": "目を覚ます"
+   }
+  },
+  {
+   "parola": "alzarsi",
+   "forme": [
+    "alza"
+   ],
+   "formeEsempi": [
+    "alzo",
+    "alzi"
+   ],
+   "esempi": [
+    "Mi alzo alle sette.",
+    "A che ora ti alzi?",
+    "Il nonno si alza molto presto."
+   ],
+   "traduzioni": {
+    "en": "to get up",
+    "es": "levantarse",
+    "pt": "levantar-se",
+    "fr": "se lever",
+    "cs": "vstát",
+    "pl": "wstawać",
+    "tr": "kalkmak",
+    "de": "aufstehen",
+    "ja": "起き上がる、起きる"
+   }
+  },
+  {
+   "parola": "subito",
+   "forme": [
+    "subito"
+   ],
+   "esempi": [
+    "Arrivo subito!",
+    "Rispondo subito al messaggio.",
+    "Dopo cena vado subito a letto."
+   ],
+   "traduzioni": {
+    "en": "straight away, immediately",
+    "es": "enseguida",
+    "pt": "logo, imediatamente",
+    "fr": "tout de suite",
+    "cs": "hned",
+    "pl": "od razu",
+    "tr": "hemen",
+    "de": "sofort",
+    "ja": "すぐに"
+   }
+  },
+  {
+   "parola": "lavarsi",
+   "forme": [
+    "lava",
+    "lavo",
+    "lavarsi"
+   ],
+   "formeEsempi": [
+    "lavi"
+   ],
+   "esempi": [
+    "Mi lavo le mani prima di mangiare.",
+    "Il bambino non si lava volentieri.",
+    "Ti lavi i denti dopo colazione?"
+   ],
+   "traduzioni": {
+    "en": "to wash (oneself)",
+    "es": "lavarse",
+    "pt": "lavar-se",
+    "fr": "se laver",
+    "cs": "umýt se",
+    "pl": "myć się",
+    "tr": "yıkanmak",
+    "de": "sich waschen",
+    "ja": "（自分の体を）洗う"
+   }
+  },
+  {
+   "parola": "la faccia",
+   "forme": [
+    "faccia"
+   ],
+   "esempi": [
+    "La mattina mi lavo la faccia con l'acqua fredda.",
+    "Ha la faccia stanca.",
+    "Che faccia triste!"
+   ],
+   "traduzioni": {
+    "en": "face",
+    "es": "cara",
+    "pt": "rosto, cara",
+    "fr": "visage, figure",
+    "cs": "obličej",
+    "pl": "twarz",
+    "tr": "yüz",
+    "de": "Gesicht",
+    "ja": "顔"
+   }
+  },
+  {
+   "parola": "la doccia",
+   "forme": [
+    "doccia"
+   ],
+   "esempi": [
+    "Faccio la doccia ogni mattina.",
+    "La doccia è fredda!",
+    "Dopo la palestra faccio subito la doccia."
+   ],
+   "traduzioni": {
+    "en": "shower («farsi la doccia» = to have a shower)",
+    "es": "ducha («farsi la doccia» = ducharse)",
+    "pt": "banho de chuveiro («farsi la doccia» = tomar banho)",
+    "fr": "douche («farsi la doccia» = prendre une douche)",
+    "cs": "sprcha («farsi la doccia» = osprchovat se)",
+    "pl": "prysznic («farsi la doccia» = brać prysznic)",
+    "tr": "duş («farsi la doccia» = duş almak)",
+    "de": "Dusche («farsi la doccia» = duschen)",
+    "ja": "シャワー（farsi la doccia＝シャワーを浴びる）"
+   }
+  },
+  {
+   "parola": "vestirsi",
+   "forme": [
+    "veste"
+   ],
+   "formeEsempi": [
+    "vesto",
+    "vesti"
+   ],
+   "esempi": [
+    "Mi vesto in cinque minuti.",
+    "Luca si veste sempre di nero.",
+    "Ti vesti? Usciamo tra poco."
+   ],
+   "traduzioni": {
+    "en": "to get dressed",
+    "es": "vestirse",
+    "pt": "vestir-se",
+    "fr": "s'habiller",
+    "cs": "obléknout se",
+    "pl": "ubierać się",
+    "tr": "giyinmek",
+    "de": "sich anziehen",
+    "ja": "服を着る"
+   }
+  },
+  {
+   "parola": "pettinarsi",
+   "forme": [
+    "pettina"
+   ],
+   "formeEsempi": [
+    "pettino",
+    "pettinati"
+   ],
+   "esempi": [
+    "Mi pettino davanti allo specchio.",
+    "La bambina si pettina da sola.",
+    "Pettinati, sei tutta in disordine!"
+   ],
+   "traduzioni": {
+    "en": "to comb one's hair",
+    "es": "peinarse",
+    "pt": "pentear-se",
+    "fr": "se coiffer, se peigner",
+    "cs": "učesat se",
+    "pl": "czesać się",
+    "tr": "saçını taramak",
+    "de": "sich kämmen",
+    "ja": "髪をとかす"
+   }
+  },
+  {
+   "parola": "la colazione",
+   "forme": [
+    "colazione"
+   ],
+   "esempi": [
+    "Faccio colazione alle otto.",
+    "A colazione mangio pane e marmellata.",
+    "La colazione italiana è dolce."
+   ],
+   "traduzioni": {
+    "en": "breakfast («fare colazione» = to have breakfast)",
+    "es": "desayuno («fare colazione» = desayunar)",
+    "pt": "café da manhã («fare colazione» = tomar café da manhã)",
+    "fr": "petit-déjeuner («fare colazione» = prendre le petit-déjeuner)",
+    "cs": "snídaně («fare colazione» = snídat)",
+    "pl": "śniadanie («fare colazione» = jeść śniadanie)",
+    "tr": "kahvaltı («fare colazione» = kahvaltı yapmak)",
+    "de": "Frühstück («fare colazione» = frühstücken)",
+    "ja": "朝食（fare colazione＝朝ごはんを食べる）"
+   }
+  },
+  {
+   "parola": "con calma",
+   "forme": [
+    "calma"
+   ],
+   "esempi": [
+    "La domenica mangio con calma.",
+    "Parla con calma, ti ascolto.",
+    "Non c'è fretta: fai con calma."
+   ],
+   "traduzioni": {
+    "en": "calmly, without hurrying",
+    "es": "con calma, tranquilamente",
+    "pt": "com calma",
+    "fr": "tranquillement, sans se presser",
+    "cs": "v klidu",
+    "pl": "spokojnie, bez pośpiechu",
+    "tr": "acele etmeden, sakince",
+    "de": "in Ruhe",
+    "ja": "ゆっくり、落ち着いて"
+   }
+  },
+  {
+   "parola": "il pane",
+   "forme": [
+    "pane"
+   ],
+   "esempi": [
+    "Compro il pane fresco.",
+    "A cena mangiamo pane e formaggio.",
+    "Il pane toscano non ha sale."
+   ],
+   "traduzioni": {
+    "en": "bread",
+    "es": "pan",
+    "pt": "pão",
+    "fr": "pain",
+    "cs": "chleba",
+    "pl": "chleb",
+    "tr": "ekmek",
+    "de": "Brot",
+    "ja": "パン"
+   }
+  },
+  {
+   "parola": "la marmellata",
+   "forme": [
+    "marmellata"
+   ],
+   "esempi": [
+    "Mi piace la marmellata di fragole.",
+    "Metto la marmellata sul pane.",
+    "La nonna fa la marmellata in estate."
+   ],
+   "traduzioni": {
+    "en": "jam",
+    "es": "mermelada",
+    "pt": "geleia",
+    "fr": "confiture",
+    "cs": "marmeláda, džem",
+    "pl": "dżem",
+    "tr": "reçel",
+    "de": "Marmelade",
+    "ja": "ジャム"
+   }
+  },
+  {
+   "parola": "il tè",
+   "forme": [
+    "tè"
+   ],
+   "esempi": [
+    "Vorrei un tè caldo.",
+    "Bevi il tè con il latte?",
+    "Il pomeriggio prendo un tè."
+   ],
+   "traduzioni": {
+    "en": "tea",
+    "es": "té",
+    "pt": "chá",
+    "fr": "thé",
+    "cs": "čaj",
+    "pl": "herbata",
+    "tr": "çay",
+    "de": "Tee",
+    "ja": "紅茶、お茶"
+   }
+  },
+  {
+   "parola": "invece",
+   "forme": [
+    "invece"
+   ],
+   "esempi": [
+    "Io bevo caffè, mio fratello invece beve tè.",
+    "Pensavo di uscire, invece resto a casa.",
+    "Lei è alta, lui invece è basso."
+   ],
+   "traduzioni": {
+    "en": "on the other hand, instead",
+    "es": "en cambio",
+    "pt": "já, por outro lado",
+    "fr": "en revanche, par contre",
+    "cs": "naopak, zato",
+    "pl": "natomiast, za to",
+    "tr": "ise, buna karşılık",
+    "de": "dagegen, stattdessen",
+    "ja": "一方、それに対して"
+   }
+  },
+  {
+   "parola": "mai",
+   "forme": [
+    "mai"
+   ],
+   "esempi": [
+    "Non bevo mai il caffè la sera.",
+    "Non sono mai stato a Venezia.",
+    "Luca non arriva mai in orario."
+   ],
+   "traduzioni": {
+    "en": "never («non … mai»)",
+    "es": "nunca",
+    "pt": "nunca",
+    "fr": "jamais («ne … jamais»)",
+    "cs": "nikdy",
+    "pl": "nigdy",
+    "tr": "asla, hiç",
+    "de": "nie",
+    "ja": "決して〜ない"
+   }
+  },
+  {
+   "parola": "prima di",
+   "forme": [
+    "prima"
+   ],
+   "esempi": [
+    "Mi lavo le mani prima di mangiare.",
+    "Torno prima delle dieci.",
+    "Prima di uscire chiudo la finestra."
+   ],
+   "traduzioni": {
+    "en": "before",
+    "es": "antes de",
+    "pt": "antes de",
+    "fr": "avant",
+    "cs": "před",
+    "pl": "przed",
+    "tr": "-den önce",
+    "de": "vor",
+    "ja": "〜の前に"
+   }
+  },
+  {
+   "parola": "il cappuccino",
+   "forme": [
+    "cappuccino"
+   ],
+   "esempi": [
+    "A colazione prendo un cappuccino.",
+    "In Italia il cappuccino si beve la mattina.",
+    "Un cappuccino e un cornetto, per favore."
+   ],
+   "traduzioni": {
+    "en": "cappuccino",
+    "es": "capuchino",
+    "pt": "cappuccino",
+    "fr": "cappuccino",
+    "cs": "cappuccino",
+    "pl": "cappuccino",
+    "tr": "kapuçino",
+    "de": "Cappuccino",
+    "ja": "カプチーノ"
+   }
+  },
+  {
+   "parola": "sotto casa",
+   "forme": [
+    "sotto"
+   ],
+   "esempi": [
+    "Il bar sotto casa apre alle sei.",
+    "Ti aspetto sotto casa.",
+    "Il gatto dorme sotto il tavolo."
+   ],
+   "traduzioni": {
+    "en": "under («sotto casa» = right outside my building, downstairs)",
+    "es": "debajo («sotto casa» = abajo, en mi portal)",
+    "pt": "embaixo («sotto casa» = aqui embaixo do prédio)",
+    "fr": "sous («sotto casa» = en bas de chez moi)",
+    "cs": "pod («sotto casa» = dole u domu)",
+    "pl": "pod («sotto casa» = pod domem)",
+    "tr": "altında («sotto casa» = evin hemen altında)",
+    "de": "unter («sotto casa» = unten im Haus, vor der Tür)",
+    "ja": "下に（sotto casa＝家のすぐ下・近く）"
+   }
+  },
+  {
+   "parola": "strano",
+   "forme": [
+    "strana"
+   ],
+   "formeEsempi": [
+    "strano"
+   ],
+   "esempi": [
+    "Che rumore strano!",
+    "Oggi Marco è un po' strano.",
+    "È una storia strana."
+   ],
+   "traduzioni": {
+    "en": "strange, odd",
+    "es": "raro, extraño",
+    "pt": "estranho",
+    "fr": "bizarre, étrange",
+    "cs": "divný, zvláštní",
+    "pl": "dziwny",
+    "tr": "garip, tuhaf",
+    "de": "seltsam, komisch",
+    "ja": "変な、不思議な"
+   }
+  },
+  {
+   "parola": "il gabinetto",
+   "forme": [
+    "gabinetto"
+   ],
+   "esempi": [
+    "Il gabinetto è in fondo al corridoio.",
+    "Dopo il gabinetto ci si lava le mani.",
+    "Il gabinetto del treno è sporco."
+   ],
+   "traduzioni": {
+    "en": "toilet, WC",
+    "es": "váter, inodoro",
+    "pt": "vaso sanitário, privada",
+    "fr": "toilettes, cuvette",
+    "cs": "záchod",
+    "pl": "sedes, toaleta",
+    "tr": "tuvalet (klozet)",
+    "de": "Toilette, Klo",
+    "ja": "便器、トイレ"
+   }
+  },
+  {
+   "parola": "il lavandino",
+   "forme": [
+    "lavandino"
+   ],
+   "esempi": [
+    "Mi lavo le mani al lavandino.",
+    "Il lavandino della cucina è pieno di piatti.",
+    "Il lavandino perde acqua."
+   ],
+   "traduzioni": {
+    "en": "sink, washbasin",
+    "es": "lavabo, lavamanos",
+    "pt": "pia",
+    "fr": "lavabo, évier",
+    "cs": "umyvadlo",
+    "pl": "umywalka",
+    "tr": "lavabo",
+    "de": "Waschbecken",
+    "ja": "洗面台"
+   }
+  },
+  {
+   "parola": "basso",
+   "forme": [
+    "basso"
+   ],
+   "esempi": [
+    "Il tavolino è molto basso.",
+    "Mio fratello è basso.",
+    "Parla a voce bassa."
+   ],
+   "traduzioni": {
+    "en": "low; short",
+    "es": "bajo",
+    "pt": "baixo",
+    "fr": "bas",
+    "cs": "nízký",
+    "pl": "niski",
+    "tr": "alçak, kısa",
+    "de": "niedrig",
+    "ja": "低い"
+   },
+   "formeEsempi": [
+    "bassa"
+   ]
+  },
+  {
+   "parola": "il rubinetto",
+   "forme": [
+    "rubinetto"
+   ],
+   "esempi": [
+    "Chiudi il rubinetto, per favore!",
+    "Il rubinetto perde.",
+    "L'acqua del rubinetto è buona."
+   ],
+   "traduzioni": {
+    "en": "tap, faucet",
+    "es": "grifo",
+    "pt": "torneira",
+    "fr": "robinet",
+    "cs": "kohoutek",
+    "pl": "kran",
+    "tr": "musluk",
+    "de": "Wasserhahn",
+    "ja": "蛇口"
+   }
+  },
+  {
+   "parola": "chiedersi",
+   "forme": [
+    "chiede"
+   ],
+   "formeEsempi": [
+    "chiedo",
+    "chiedi"
+   ],
+   "esempi": [
+    "Mi chiedo dove sono le chiavi.",
+    "Luca si chiede perché è solo.",
+    "Ti chiedi mai che cosa fa?"
+   ],
+   "traduzioni": {
+    "en": "to wonder («si chiede» = she wonders)",
+    "es": "preguntarse",
+    "pt": "perguntar-se",
+    "fr": "se demander",
+    "cs": "ptát se sám sebe, přemýšlet",
+    "pl": "zastanawiać się",
+    "tr": "merak etmek",
+    "de": "sich fragen",
+    "ja": "不思議に思う、自問する"
+   }
+  },
+  {
+   "parola": "il bambino",
+   "forme": [
+    "bambini"
+   ],
+   "formeEsempi": [
+    "bambino"
+   ],
+   "esempi": [
+    "I bambini giocano in giardino.",
+    "Il bambino dorme.",
+    "Hai bambini?"
+   ],
+   "traduzioni": {
+    "en": "child",
+    "es": "niño",
+    "pt": "criança",
+    "fr": "enfant",
+    "cs": "dítě",
+    "pl": "dziecko",
+    "tr": "çocuk",
+    "de": "Kind",
+    "ja": "子ども"
+   }
+  },
+  {
+   "parola": "il cane",
+   "forme": [
+    "cane"
+   ],
+   "esempi": [
+    "Il cane abbaia.",
+    "Porto fuori il cane la sera.",
+    "Hai un cane o un gatto?"
+   ],
+   "traduzioni": {
+    "en": "dog",
+    "es": "perro",
+    "pt": "cachorro",
+    "fr": "chien",
+    "cs": "pes",
+    "pl": "pies",
+    "tr": "köpek",
+    "de": "Hund",
+    "ja": "犬"
+   }
+  },
+  {
+   "parola": "la sera",
+   "forme": [
+    "sera"
+   ],
+   "esempi": [
+    "La sera guardo un film.",
+    "Ci vediamo domani sera.",
+    "Di sera fa fresco."
+   ],
+   "traduzioni": {
+    "en": "evening («la sera» = in the evening)",
+    "es": "tarde, noche",
+    "pt": "noite",
+    "fr": "soir",
+    "cs": "večer",
+    "pl": "wieczór",
+    "tr": "akşam",
+    "de": "Abend",
+    "ja": "夕方、晩"
+   }
+  },
+  {
+   "parola": "stanco",
+   "forme": [
+    "stanca"
+   ],
+   "formeEsempi": [
+    "stanco"
+   ],
+   "esempi": [
+    "Dopo il lavoro sono stanco.",
+    "Sei stanca? Riposati.",
+    "Il bambino è stanco e dorme."
+   ],
+   "traduzioni": {
+    "en": "tired",
+    "es": "cansado",
+    "pt": "cansado",
+    "fr": "fatigué",
+    "cs": "unavený",
+    "pl": "zmęczony",
+    "tr": "yorgun",
+    "de": "müde",
+    "ja": "疲れた"
+   }
+  },
+  {
+   "parola": "avere male a",
+   "forme": [
+    "male"
+   ],
+   "esempi": [
+    "Ho male ai piedi.",
+    "Hai male alla testa?",
+    "Dopo la palestra ho male alle gambe."
+   ],
+   "traduzioni": {
+    "en": "to have a pain in, to hurt («ha male ai piedi» = her feet hurt)",
+    "es": "tener dolor de, doler",
+    "pt": "estar com dor em",
+    "fr": "avoir mal à",
+    "cs": "bolet (bolí ji nohy)",
+    "pl": "boleć (bolą ją stopy)",
+    "tr": "ağrımak (ayakları ağrıyor)",
+    "de": "Schmerzen haben (ihr tun die Füße weh)",
+    "ja": "〜が痛い"
+   }
+  },
+  {
+   "parola": "il piede",
+   "forme": [
+    "piedi"
+   ],
+   "formeEsempi": [
+    "piede"
+   ],
+   "esempi": [
+    "Vado a scuola a piedi.",
+    "Ho i piedi freddi.",
+    "Mi fa male un piede."
+   ],
+   "traduzioni": {
+    "en": "foot",
+    "es": "pie",
+    "pt": "pé",
+    "fr": "pied",
+    "cs": "chodidlo, noha",
+    "pl": "stopa",
+    "tr": "ayak",
+    "de": "Fuß",
+    "ja": "足"
+   }
+  },
+  {
+   "parola": "sedersi",
+   "forme": [
+    "siede"
+   ],
+   "formeEsempi": [
+    "siedo",
+    "siediti"
+   ],
+   "esempi": [
+    "Mi siedo vicino alla finestra.",
+    "Il nonno si siede in poltrona.",
+    "Siediti, per favore!"
+   ],
+   "traduzioni": {
+    "en": "to sit down",
+    "es": "sentarse",
+    "pt": "sentar-se",
+    "fr": "s'asseoir",
+    "cs": "sednout si",
+    "pl": "usiąść",
+    "tr": "oturmak",
+    "de": "sich setzen",
+    "ja": "座る"
+   }
+  },
+  {
+   "parola": "il bordo",
+   "forme": [
+    "bordo"
+   ],
+   "esempi": [
+    "Il bicchiere è sul bordo del tavolo.",
+    "Mi siedo sul bordo del letto.",
+    "Non camminare sul bordo della strada."
+   ],
+   "traduzioni": {
+    "en": "edge",
+    "es": "borde",
+    "pt": "beira, borda",
+    "fr": "bord",
+    "cs": "okraj",
+    "pl": "brzeg, krawędź",
+    "tr": "kenar",
+    "de": "Rand",
+    "ja": "ふち、へり"
+   }
+  },
+  {
+   "parola": "la vasca",
+   "forme": [
+    "vasca"
+   ],
+   "esempi": [
+    "Il bambino gioca nella vasca.",
+    "Faccio il bagno nella vasca.",
+    "La vasca è piena d'acqua."
+   ],
+   "traduzioni": {
+    "en": "bathtub",
+    "es": "bañera",
+    "pt": "banheira",
+    "fr": "baignoire",
+    "cs": "vana",
+    "pl": "wanna",
+    "tr": "küvet",
+    "de": "Badewanne",
+    "ja": "浴槽、バスタブ"
+   }
+  },
+  {
+   "parola": "l'acqua",
+   "forme": [
+    "acqua"
+   ],
+   "esempi": [
+    "Bevo molta acqua.",
+    "L'acqua è fredda.",
+    "Un bicchiere d'acqua, per favore."
+   ],
+   "traduzioni": {
+    "en": "water",
+    "es": "agua",
+    "pt": "água",
+    "fr": "eau",
+    "cs": "voda",
+    "pl": "woda",
+    "tr": "su",
+    "de": "Wasser",
+    "ja": "水、お湯"
+   }
+  },
+  {
+   "parola": "caldo",
+   "forme": [
+    "calda"
+   ],
+   "formeEsempi": [
+    "caldo"
+   ],
+   "esempi": [
+    "Faccio un bagno con l'acqua calda.",
+    "Il tè è troppo caldo.",
+    "La pizza è ancora calda."
+   ],
+   "traduzioni": {
+    "en": "hot, warm",
+    "es": "caliente",
+    "pt": "quente",
+    "fr": "chaud",
+    "cs": "teplý, horký",
+    "pl": "ciepły, gorący",
+    "tr": "sıcak",
+    "de": "warm, heiß",
+    "ja": "温かい"
+   }
+  },
+  {
+   "parola": "che bello!",
+   "forme": [
+    "bello"
+   ],
+   "esempi": [
+    "Che bello, domani è festa!",
+    "Andiamo al mare? Che bello!",
+    "Che bello rivederti!"
+   ],
+   "traduzioni": {
+    "en": "how nice! how lovely!",
+    "es": "¡qué bien!, ¡qué gusto!",
+    "pt": "que bom!, que delícia!",
+    "fr": "que c'est bon !, génial !",
+    "cs": "to je paráda!",
+    "pl": "jak fajnie!, jak przyjemnie!",
+    "tr": "ne güzel!",
+    "de": "wie schön!",
+    "ja": "気持ちいい！、いいね！"
+   }
+  },
+  {
+   "parola": "il momento",
+   "forme": [
+    "momento"
+   ],
+   "esempi": [
+    "Un momento, arrivo!",
+    "In questo momento sono al lavoro.",
+    "È il momento giusto."
+   ],
+   "traduzioni": {
+    "en": "moment («in quel momento» = just then)",
+    "es": "momento",
+    "pt": "momento",
+    "fr": "moment",
+    "cs": "chvíle, okamžik",
+    "pl": "chwila, moment",
+    "tr": "an («in quel momento» = tam o sırada)",
+    "de": "Moment, Augenblick",
+    "ja": "瞬間（in quel momento＝ちょうどその時）"
+   }
+  },
+  {
+   "parola": "perfetto",
+   "forme": [
+    "perfetto"
+   ],
+   "esempi": [
+    "Il tuo italiano è perfetto!",
+    "Domani alle cinque? Perfetto.",
+    "È il regalo perfetto per lei."
+   ],
+   "traduzioni": {
+    "en": "perfect",
+    "es": "perfecto",
+    "pt": "perfeito",
+    "fr": "parfait",
+    "cs": "dokonalý, perfektní",
+    "pl": "idealny",
+    "tr": "mükemmel",
+    "de": "perfekt",
+    "ja": "完璧な、ぴったりの"
+   }
+  },
+  {
+   "parola": "il pavimento",
+   "forme": [
+    "pavimento"
+   ],
+   "esempi": [
+    "Il bambino gioca sul pavimento.",
+    "Lavo il pavimento della cucina.",
+    "Il pavimento è freddo."
+   ],
+   "traduzioni": {
+    "en": "floor",
+    "es": "suelo",
+    "pt": "chão",
+    "fr": "sol, carrelage",
+    "cs": "podlaha",
+    "pl": "podłoga",
+    "tr": "yer, zemin",
+    "de": "Fußboden",
+    "ja": "床"
+   }
+  },
+  {
+   "parola": "fermarsi",
+   "forme": [
+    "ferma"
+   ],
+   "formeEsempi": [
+    "fermo"
+   ],
+   "esempi": [
+    "L'autobus si ferma davanti alla scuola.",
+    "Mi fermo un attimo al bar.",
+    "Non si ferma mai: lavora sempre!"
+   ],
+   "traduzioni": {
+    "en": "to stop",
+    "es": "pararse, detenerse",
+    "pt": "parar",
+    "fr": "s'arrêter",
+    "cs": "zastavit se, přestat",
+    "pl": "zatrzymać się, przestać",
+    "tr": "durmak",
+    "de": "aufhören, anhalten",
+    "ja": "止まる、やめる"
+   }
+  },
+  {
+   "parola": "il bidet",
+   "forme": [
+    "bidet"
+   ],
+   "esempi": [
+    "In Italia quasi ogni bagno ha il bidet.",
+    "Il bidet è vicino al gabinetto.",
+    "All'estero gli italiani cercano il bidet."
+   ],
+   "traduzioni": {
+    "en": "bidet",
+    "es": "bidé",
+    "pt": "bidê",
+    "fr": "bidet",
+    "cs": "bidet",
+    "pl": "bidet",
+    "tr": "bide",
+    "de": "Bidet",
+    "ja": "ビデ"
+   }
+  },
+  {
+   "parola": "usare",
+   "forme": [
+    "usa",
+    "usiamo",
+    "usi",
+    "uso"
+   ],
+   "esempi": [
+    "Uso il computer per lavorare.",
+    "Come si usa questa macchina?",
+    "Usiamo il treno per andare a Milano."
+   ],
+   "traduzioni": {
+    "en": "to use",
+    "es": "usar",
+    "pt": "usar",
+    "fr": "utiliser",
+    "cs": "používat",
+    "pl": "używać",
+    "tr": "kullanmak",
+    "de": "benutzen",
+    "ja": "使う"
+   }
+  },
+  {
+   "parola": "diventare",
+   "forme": [
+    "diventa"
+   ],
+   "formeEsempi": [
+    "divento",
+    "diventare"
+   ],
+   "esempi": [
+    "Quando sono nervoso divento rosso.",
+    "L'acqua diventa ghiaccio.",
+    "Mio figlio vuole diventare medico."
+   ],
+   "traduzioni": {
+    "en": "to become, to turn",
+    "es": "ponerse, volverse",
+    "pt": "ficar, tornar-se",
+    "fr": "devenir",
+    "cs": "stát se, zčervenat",
+    "pl": "stać się, zrobić się",
+    "tr": "olmak (kıpkırmızı olmak)",
+    "de": "werden",
+    "ja": "〜になる"
+   }
+  },
+  {
+   "parola": "rosso",
+   "forme": [
+    "rossa"
+   ],
+   "formeEsempi": [
+    "rosso"
+   ],
+   "esempi": [
+    "Ho una macchina rossa.",
+    "Il semaforo è rosso.",
+    "Quando ride diventa tutta rossa."
+   ],
+   "traduzioni": {
+    "en": "red («rossa come un pomodoro» = as red as a beetroot)",
+    "es": "rojo («roja como un tomate»)",
+    "pt": "vermelho («vermelha como um tomate»)",
+    "fr": "rouge («rouge comme une tomate»)",
+    "cs": "červený («rudá jako rak»)",
+    "pl": "czerwony («czerwona jak burak»)",
+    "tr": "kırmızı («domates gibi kıpkırmızı»)",
+    "de": "rot («rot wie eine Tomate»)",
+    "ja": "赤い（トマトのように真っ赤）"
+   }
+  },
+  {
+   "parola": "il pomodoro",
+   "forme": [
+    "pomodoro"
+   ],
+   "esempi": [
+    "Metto il pomodoro nell'insalata.",
+    "Il pomodoro è maturo.",
+    "Pasta al pomodoro per tutti!"
+   ],
+   "traduzioni": {
+    "en": "tomato",
+    "es": "tomate",
+    "pt": "tomate",
+    "fr": "tomate",
+    "cs": "rajče",
+    "pl": "pomidor",
+    "tr": "domates",
+    "de": "Tomate",
+    "ja": "トマト"
+   }
+  },
+  {
+   "parola": "telefonare",
+   "forme": [
+    "telefona"
+   ],
+   "formeEsempi": [
+    "telefono"
+   ],
+   "esempi": [
+    "Telefono a mia sorella ogni giorno.",
+    "Chi telefona a quest'ora?",
+    "Ti telefono stasera."
+   ],
+   "traduzioni": {
+    "en": "to phone, to call («telefonare a» qualcuno)",
+    "es": "llamar por teléfono",
+    "pt": "telefonar, ligar",
+    "fr": "téléphoner",
+    "cs": "telefonovat, zavolat",
+    "pl": "dzwonić",
+    "tr": "telefon etmek",
+    "de": "anrufen, telefonieren",
+    "ja": "電話する"
+   }
+  },
+  {
+   "parola": "la legge",
+   "forme": [
+    "legge"
+   ],
+   "esempi": [
+    "È una legge nuova.",
+    "Fumare qui è contro la legge.",
+    "La legge è uguale per tutti."
+   ],
+   "traduzioni": {
+    "en": "law",
+    "es": "ley",
+    "pt": "lei",
+    "fr": "loi",
+    "cs": "zákon",
+    "pl": "prawo, ustawa",
+    "tr": "yasa, kanun",
+    "de": "Gesetz",
+    "ja": "法律"
+   }
+  },
+  {
+   "parola": "dovere",
+   "forme": [
+    "deve"
+   ],
+   "formeEsempi": [
+    "devo",
+    "devi"
+   ],
+   "esempi": [
+    "Devo studiare stasera.",
+    "Devi prendere l'autobus delle otto.",
+    "Ogni studente deve avere un libro."
+   ],
+   "traduzioni": {
+    "en": "must, to have to",
+    "es": "deber, tener que",
+    "pt": "dever, ter que",
+    "fr": "devoir",
+    "cs": "muset",
+    "pl": "musieć",
+    "tr": "zorunda olmak, -meli",
+    "de": "müssen",
+    "ja": "〜しなければならない"
+   }
+  },
+  {
+   "parola": "davvero",
+   "forme": [
+    "davvero"
+   ],
+   "esempi": [
+    "Davvero? Non lo sapevo!",
+    "Sono davvero stanca.",
+    "Questo film è davvero bello."
+   ],
+   "traduzioni": {
+    "en": "really",
+    "es": "¿de verdad?, realmente",
+    "pt": "sério?, de verdade",
+    "fr": "vraiment",
+    "cs": "opravdu",
+    "pl": "naprawdę",
+    "tr": "gerçekten",
+    "de": "wirklich",
+    "ja": "本当に"
+   }
+  },
+  {
+   "parola": "rispondere",
+   "forme": [
+    "risponde"
+   ],
+   "formeEsempi": [
+    "rispondo"
+   ],
+   "esempi": [
+    "Rispondo al telefono.",
+    "Il bambino non risponde.",
+    "Chi risponde alla domanda?"
+   ],
+   "traduzioni": {
+    "en": "to answer, to reply",
+    "es": "responder, contestar",
+    "pt": "responder",
+    "fr": "répondre",
+    "cs": "odpovědět",
+    "pl": "odpowiedzieć",
+    "tr": "cevap vermek",
+    "de": "antworten",
+    "ja": "答える"
+   }
+  },
+  {
+   "parola": "oggi",
+   "forme": [
+    "oggi"
+   ],
+   "esempi": [
+    "Oggi è lunedì.",
+    "Che cosa fai oggi?",
+    "Da oggi studio di più."
+   ],
+   "traduzioni": {
+    "en": "today («da oggi» = from today on)",
+    "es": "hoy («da oggi» = desde hoy)",
+    "pt": "hoje («da oggi» = a partir de hoje)",
+    "fr": "aujourd'hui («da oggi» = à partir d'aujourd'hui)",
+    "cs": "dnes («da oggi» = ode dneška)",
+    "pl": "dziś («da oggi» = od dziś)",
+    "tr": "bugün («da oggi» = bugünden itibaren)",
+    "de": "heute («da oggi» = ab heute)",
+    "ja": "今日（da oggi＝今日から）"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "Emma now lives with Chiara, a student from Florence. The flat is small: two bedrooms, a kitchen and only one bathroom.",
+    "Emma always wakes up at seven. She gets up straight away, washes her face and has a shower. Then she gets dressed, combs her hair and has breakfast in the kitchen without hurrying: bread, jam and a cup of tea.",
+    "Chiara, on the other hand, never gets up before eight. She washes in five minutes, gets dressed in three and never has breakfast at home: she has a cappuccino at the bar downstairs.",
+    "In the bathroom there's something strange. Next to the toilet there's a second sink, a low one, with a little tap. Every morning Emma looks at it and wonders: «What is it? A sink for children? For the dog?»",
+    "One Saturday Emma walks around Florence all day. In the evening she's tired and her feet hurt. So she sits on the edge of the bath and puts her feet in the low sink. Warm water… how lovely!",
+    "Just then Chiara comes in.\n– Emma! What are you doing?\n– I'm washing my feet in the little sink. It's perfect!",
+    "Chiara laughs and laughs and laughs. She sits on the floor and can't stop.\n– Emma, that's not a sink! It's the bidet!\n– The bi… what?\n– The bidet. You use it after the toilet, to wash. We Italians use it every day.",
+    "Emma turns as red as a tomato. Then she laughs too.",
+    "On Sunday Emma phones her mother.\n– Mum, did you know there's a law in Italy? Every home has to have a bidet!\n– Really? And do you use it?\n– Now I do, – Emma answers. – But from today, for my feet, I use the shower."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Ahora Emma vive con Chiara, una estudiante de Florencia. El piso es pequeño: dos habitaciones, una cocina y un solo baño.",
+    "Emma se despierta siempre a las siete. Se levanta enseguida, se lava la cara y se ducha. Luego se viste, se peina y desayuna en la cocina con calma: pan, mermelada y un té.",
+    "Chiara, en cambio, nunca se levanta antes de las ocho. Se lava en cinco minutos, se viste en tres y nunca desayuna en casa: se toma un capuchino en el bar de abajo.",
+    "En el baño hay algo raro. Al lado del váter hay un segundo lavabo, bajo, con un grifo pequeño. Cada mañana Emma lo mira y se pregunta: «¿Qué es? ¿Un lavabo para niños? ¿Para el perro?»",
+    "Un sábado Emma camina todo el día por Florencia. Por la noche está cansada y le duelen los pies. Entonces se sienta en el borde de la bañera y mete los pies en el lavabo bajo. El agua caliente… ¡qué gusto!",
+    "En ese momento entra Chiara.\n– ¡Emma! ¿Qué haces?\n– Me lavo los pies en el lavabo pequeño. ¡Es perfecto!",
+    "Chiara se ríe, se ríe y se ríe. Se sienta en el suelo y no puede parar.\n– Emma, ¡eso no es un lavabo! ¡Es el bidé!\n– ¿El bi… qué?\n– El bidé. Se usa después del váter, para lavarse. Los italianos lo usamos todos los días.",
+    "Emma se pone roja como un tomate. Luego ella también se ríe.",
+    "El domingo Emma llama a su madre.\n– Mamá, ¿sabes que en Italia hay una ley? ¡Toda casa tiene que tener un bidé!\n– ¿De verdad? ¿Y tú lo usas?\n– Ahora sí –responde Emma–. Pero para los pies, desde hoy, uso la ducha."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Agora Emma mora com Chiara, uma estudante de Florença. O apartamento é pequeno: dois quartos, uma cozinha e um banheiro só.",
+    "Emma sempre acorda às sete. Levanta-se logo, lava o rosto e toma banho. Depois se veste, se penteia e toma café da manhã na cozinha com calma: pão, geleia e um chá.",
+    "Já Chiara nunca se levanta antes das oito. Toma banho em cinco minutos, se veste em três e nunca toma café da manhã em casa: toma um cappuccino no bar embaixo do prédio.",
+    "No banheiro há uma coisa estranha. Ao lado do vaso sanitário há uma segunda pia, baixa, com uma torneirinha. Toda manhã Emma olha para ela e se pergunta: «O que é isso? Uma pia para crianças? Para o cachorro?»",
+    "Num sábado, Emma anda o dia inteiro por Florença. À noite está cansada e com dor nos pés. Então se senta na beira da banheira e coloca os pés na pia baixa. A água quente… que delícia!",
+    "Nesse momento Chiara entra.\n– Emma! O que você está fazendo?\n– Estou lavando os pés na pia pequena. É perfeita!",
+    "Chiara ri, ri, ri. Senta-se no chão e não consegue parar.\n– Emma, isso não é uma pia! É o bidê!\n– O bi… o quê?\n– O bidê. Usa-se depois do vaso, para se lavar. Nós, italianos, usamos todos os dias.",
+    "Emma fica vermelha como um tomate. Depois ri também.",
+    "No domingo Emma telefona para a mãe.\n– Mãe, sabia que na Itália existe uma lei? Toda casa tem que ter um bidê!\n– Sério? E você usa?\n– Agora sim – responde Emma. – Mas para os pés, a partir de hoje, uso o chuveiro."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Maintenant, Emma habite avec Chiara, une étudiante de Florence. L'appartement est petit : deux chambres, une cuisine et une seule salle de bains.",
+    "Emma se réveille toujours à sept heures. Elle se lève tout de suite, se lave le visage et prend une douche. Puis elle s'habille, se coiffe et prend son petit-déjeuner dans la cuisine, tranquillement : du pain, de la confiture et un thé.",
+    "Chiara, en revanche, ne se lève jamais avant huit heures. Elle se lave en cinq minutes, s'habille en trois et ne prend jamais son petit-déjeuner à la maison : elle prend un cappuccino au bar en bas de chez elle.",
+    "Dans la salle de bains, il y a une chose bizarre. À côté des toilettes, il y a un deuxième lavabo, bas, avec un petit robinet. Chaque matin, Emma le regarde et se demande : « Qu'est-ce que c'est ? Un lavabo pour les enfants ? Pour le chien ? »",
+    "Un samedi, Emma marche toute la journée dans Florence. Le soir, elle est fatiguée et elle a mal aux pieds. Alors elle s'assoit sur le bord de la baignoire et met les pieds dans le lavabo bas. L'eau chaude… que c'est bon !",
+    "À ce moment-là, Chiara entre.\n– Emma ! Qu'est-ce que tu fais ?\n– Je me lave les pieds dans le petit lavabo. Il est parfait !",
+    "Chiara rit, rit, rit. Elle s'assoit par terre et n'arrive plus à s'arrêter.\n– Emma, ce n'est pas un lavabo ! C'est le bidet !\n– Le bi… quoi ?\n– Le bidet. On l'utilise après les toilettes, pour se laver. Nous, les Italiens, on l'utilise tous les jours.",
+    "Emma devient rouge comme une tomate. Puis elle rit, elle aussi.",
+    "Le dimanche, Emma téléphone à sa mère.\n– Maman, tu sais qu'en Italie il y a une loi ? Chaque logement doit avoir un bidet !\n– C'est vrai ? Et toi, tu l'utilises ?\n– Maintenant, oui, répond Emma. Mais pour les pieds, à partir d'aujourd'hui, j'utilise la douche."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Emma teď bydlí s Chiarou, studentkou z Florencie. Byt je malý: dva pokoje, kuchyň a jen jedna koupelna.",
+    "Emma se vždycky budí v sedm. Hned vstane, umyje si obličej a osprchuje se. Potom se oblékne, učeše a v klidu snídá v kuchyni: chleba, marmeládu a čaj.",
+    "Chiara naopak nikdy nevstává před osmou. Umyje se za pět minut, oblékne se za tři a doma nikdy nesnídá: dá si cappuccino v baru dole pod domem.",
+    "V koupelně je něco divného. Vedle záchodu je druhé umyvadlo, nízké, s malým kohoutkem. Každé ráno se na něj Emma dívá a říká si: „Co to je? Umyvadlo pro děti? Pro psa?“",
+    "Jednu sobotu chodí Emma celý den po Florencii. Večer je unavená a bolí ji nohy. Tak si sedne na okraj vany a dá nohy do nízkého umyvadla. Teplá voda… to je paráda!",
+    "V tu chvíli vejde Chiara.\n– Emmo! Co to děláš?\n– Myju si nohy v tom malém umyvadle. Je perfektní!",
+    "Chiara se směje a směje a směje. Sedne si na podlahu a nemůže přestat.\n– Emmo, to není umyvadlo! To je bidet!\n– Bi… co?\n– Bidet. Používá se po záchodě, na umytí. My Italové ho používáme každý den.",
+    "Emma zrudne jako rajče. Pak se směje i ona.",
+    "V neděli Emma volá mamince.\n– Mami, víš, že v Itálii je na to zákon? Každý byt musí mít bidet!\n– Opravdu? A ty ho používáš?\n– Teď už ano, – odpoví Emma. – Ale na nohy budu ode dneška používat sprchu."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Emma mieszka teraz z Chiarą, studentką z Florencji. Mieszkanie jest małe: dwa pokoje, kuchnia i tylko jedna łazienka.",
+    "Emma zawsze budzi się o siódmej. Od razu wstaje, myje twarz i bierze prysznic. Potem się ubiera, czesze i spokojnie je śniadanie w kuchni: chleb, dżem i herbatę.",
+    "Chiara natomiast nigdy nie wstaje przed ósmą. Myje się w pięć minut, ubiera w trzy i nigdy nie je śniadania w domu: pije cappuccino w barze pod domem.",
+    "W łazience jest coś dziwnego. Obok sedesu stoi druga umywalka, niska, z małym kranem. Każdego ranka Emma na nią patrzy i zastanawia się: „Co to jest? Umywalka dla dzieci? Dla psa?”",
+    "Pewnej soboty Emma cały dzień chodzi po Florencji. Wieczorem jest zmęczona i bolą ją stopy. Siada więc na brzegu wanny i wkłada stopy do niskiej umywalki. Ciepła woda… jak przyjemnie!",
+    "W tym momencie wchodzi Chiara.\n– Emma! Co ty robisz?\n– Myję stopy w małej umywalce. Jest idealna!",
+    "Chiara śmieje się, śmieje i śmieje. Siada na podłodze i nie może przestać.\n– Emma, to nie jest umywalka! To bidet!\n– Bi… co?\n– Bidet. Używa się go po toalecie, żeby się umyć. My, Włosi, używamy go codziennie.",
+    "Emma robi się czerwona jak burak. Potem też się śmieje.",
+    "W niedzielę Emma dzwoni do mamy.\n– Mamo, wiesz, że we Włoszech jest takie prawo? Każde mieszkanie musi mieć bidet!\n– Naprawdę? A ty go używasz?\n– Teraz tak – odpowiada Emma. – Ale do stóp od dziś używam prysznica."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Emma artık Floransalı bir öğrenci olan Chiara ile oturuyor. Daire küçük: iki oda, bir mutfak ve sadece bir banyo.",
+    "Emma her zaman yedide uyanıyor. Hemen kalkıyor, yüzünü yıkıyor ve duş alıyor. Sonra giyiniyor, saçını tarıyor ve mutfakta acele etmeden kahvaltı yapıyor: ekmek, reçel ve bir çay.",
+    "Chiara ise asla sekizden önce kalkmıyor. Beş dakikada yıkanıyor, üç dakikada giyiniyor ve evde hiç kahvaltı yapmıyor: evin hemen altındaki barda bir kapuçino içiyor.",
+    "Banyoda garip bir şey var. Klozetin yanında ikinci bir lavabo var; alçak, küçük bir musluğu olan. Emma her sabah ona bakıyor ve merak ediyor: «Bu ne? Çocuklar için bir lavabo mu? Köpek için mi?»",
+    "Bir cumartesi Emma bütün gün Floransa'yı geziyor. Akşam yorgun ve ayakları ağrıyor. O zaman küvetin kenarına oturuyor ve ayaklarını alçak lavaboya koyuyor. Sıcak su… ne güzel!",
+    "Tam o sırada Chiara içeri giriyor.\n– Emma! Ne yapıyorsun?\n– Küçük lavaboda ayaklarımı yıkıyorum. Mükemmel!",
+    "Chiara gülüyor, gülüyor, gülüyor. Yere oturuyor ve bir türlü duramıyor.\n– Emma, o lavabo değil! O bide!\n– Bi… ne?\n– Bide. Tuvaletten sonra yıkanmak için kullanılır. Biz İtalyanlar her gün kullanırız.",
+    "Emma domates gibi kıpkırmızı oluyor. Sonra o da gülüyor.",
+    "Pazar günü Emma annesini arıyor.\n– Anne, İtalya'da bir yasa olduğunu biliyor musun? Her evde bide olmak zorunda!\n– Gerçekten mi? Peki sen kullanıyor musun?\n– Artık evet, – diye cevap veriyor Emma. – Ama ayaklarım için bugünden itibaren duşu kullanıyorum."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Emma wohnt jetzt mit Chiara zusammen, einer Studentin aus Florenz. Die Wohnung ist klein: zwei Zimmer, eine Küche und nur ein Bad.",
+    "Emma wacht immer um sieben auf. Sie steht sofort auf, wäscht sich das Gesicht und duscht. Dann zieht sie sich an, kämmt sich und frühstückt in Ruhe in der Küche: Brot, Marmelade und einen Tee.",
+    "Chiara dagegen steht nie vor acht auf. Sie wäscht sich in fünf Minuten, zieht sich in drei an und frühstückt nie zu Hause: Sie trinkt einen Cappuccino in der Bar unten im Haus.",
+    "Im Bad gibt es etwas Seltsames. Neben der Toilette steht ein zweites Waschbecken, ein niedriges, mit einem kleinen Wasserhahn. Jeden Morgen schaut Emma es an und fragt sich: „Was ist das? Ein Waschbecken für Kinder? Für den Hund?“",
+    "An einem Samstag läuft Emma den ganzen Tag durch Florenz. Am Abend ist sie müde und ihr tun die Füße weh. Also setzt sie sich auf den Rand der Badewanne und stellt die Füße in das niedrige Waschbecken. Warmes Wasser … wie schön!",
+    "In diesem Moment kommt Chiara herein.\n– Emma! Was machst du da?\n– Ich wasche mir die Füße im kleinen Waschbecken. Es ist perfekt!",
+    "Chiara lacht und lacht und lacht. Sie setzt sich auf den Boden und kann nicht mehr aufhören.\n– Emma, das ist kein Waschbecken! Das ist das Bidet!\n– Das Bi… was?\n– Das Bidet. Man benutzt es nach der Toilette, um sich zu waschen. Wir Italiener benutzen es jeden Tag.",
+    "Emma wird rot wie eine Tomate. Dann lacht sie auch.",
+    "Am Sonntag ruft Emma ihre Mutter an.\n– Mama, weißt du, dass es in Italien ein Gesetz gibt? Jede Wohnung muss ein Bidet haben!\n– Wirklich? Und benutzt du es?\n– Jetzt schon, – antwortet Emma. – Aber für die Füße nehme ich ab heute die Dusche."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "エマは今、フィレンツェ出身の学生キアラと一緒に住んでいる。アパートは小さい。部屋が二つ、台所が一つ、浴室は一つだけだ。",
+    "エマはいつも7時に目を覚ます。すぐに起きて、顔を洗い、シャワーを浴びる。それから服を着て、髪をとかし、台所でゆっくり朝ごはんを食べる。パンとジャムと紅茶だ。",
+    "一方キアラは、8時前に起きることは絶対にない。5分で体を洗い、3分で服を着て、家では朝ごはんを食べない。家のすぐ下のバールでカプチーノを飲むのだ。",
+    "浴室に不思議なものがある。トイレの横に、低い二つ目の洗面台があって、小さな蛇口がついている。エマは毎朝それを見て、首をかしげる。「これは何だろう？子ども用の洗面台？犬用？」",
+    "ある土曜日、エマは一日中フィレンツェを歩き回る。夜には疲れて、足が痛い。そこで浴槽のふちに座り、低い洗面台に足を入れる。温かいお湯……気持ちいい！",
+    "ちょうどその時、キアラが入ってくる。\n「エマ！何してるの？」\n「小さい洗面台で足を洗ってるの。ぴったりなのよ！」",
+    "キアラは笑って、笑って、笑う。床に座りこんで、笑いが止まらない。\n「エマ、それは洗面台じゃないよ！ビデだよ！」\n「ビ……何？」\n「ビデ。トイレのあと、体を洗うのに使うの。私たちイタリア人は毎日使うんだよ。」",
+    "エマはトマトのように真っ赤になる。それから、エマも笑う。",
+    "日曜日、エマはお母さんに電話する。\n「ママ、イタリアには法律があるって知ってた？どの家にもビデがなきゃいけないの！」\n「本当？それで、あなたは使ってるの？」\n「今は使ってるよ」とエマは答える。「でも足を洗うのは、今日からシャワーにする。」"
+   ]
+  }
+ }
+}
