@@ -1,0 +1,1261 @@
+{
+ "id": "emma-in-farmacia",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "svegliarsi",
+   "forme": [
+    "sveglia"
+   ],
+   "formeEsempi": [
+    "sveglio",
+    "svegliamo"
+   ],
+   "esempi": [
+    "La mattina mi sveglio alle sette.",
+    "Il bambino si sveglia presto.",
+    "La domenica ci svegliamo tardi."
+   ],
+   "traduzioni": {
+    "en": "to wake up",
+    "es": "despertarse",
+    "pt": "acordar",
+    "fr": "se réveiller",
+    "cs": "probudit se",
+    "pl": "obudzić się",
+    "tr": "uyanmak",
+    "de": "aufwachen",
+    "ja": "目を覚ます、起きる"
+   }
+  },
+  {
+   "parola": "stare",
+   "forme": [
+    "sta",
+    "stai"
+   ],
+   "formeEsempi": [
+    "sto"
+   ],
+   "esempi": [
+    "Ciao Marco, come stai?",
+    "Oggi non sto bene.",
+    "La nonna sta meglio."
+   ],
+   "traduzioni": {
+    "en": "to be, to feel (health) («come stai?» = how are you?)",
+    "es": "estar, encontrarse («come stai?» = ¿cómo estás?)",
+    "pt": "estar, sentir-se («come stai?» = como você está?)",
+    "fr": "aller, se sentir («come stai?» = comment ça va ?)",
+    "cs": "mít se, cítit se («come stai?» = jak se máš?)",
+    "pl": "czuć się, mieć się («come stai?» = jak się masz?)",
+    "tr": "olmak, hissetmek («come stai?» = nasılsın?)",
+    "de": "sich fühlen, gehen («come stai?» = wie geht's?)",
+    "ja": "（体調が）〜だ（come stai?＝元気？）"
+   }
+  },
+  {
+   "parola": "bene",
+   "forme": [
+    "bene"
+   ],
+   "esempi": [
+    "Sto bene, grazie.",
+    "Non mi sento bene oggi.",
+    "Luca parla bene l'italiano."
+   ],
+   "traduzioni": {
+    "en": "well, fine",
+    "es": "bien",
+    "pt": "bem",
+    "fr": "bien",
+    "cs": "dobře",
+    "pl": "dobrze",
+    "tr": "iyi",
+    "de": "gut",
+    "ja": "元気に、よく"
+   }
+  },
+  {
+   "parola": "il mal di …",
+   "forme": [
+    "mal"
+   ],
+   "esempi": [
+    "Ho mal di testa.",
+    "Il bambino ha mal di pancia.",
+    "Con il freddo ho sempre mal di gola."
+   ],
+   "traduzioni": {
+    "en": "ache, pain («mal di gola» = sore throat)",
+    "es": "dolor («mal di gola» = dolor de garganta)",
+    "pt": "dor («mal di gola» = dor de garganta)",
+    "fr": "mal («mal di gola» = mal à la gorge)",
+    "cs": "bolest («mal di gola» = bolest v krku)",
+    "pl": "ból («mal di gola» = ból gardła)",
+    "tr": "ağrı («mal di gola» = boğaz ağrısı)",
+    "de": "Schmerzen («mal di gola» = Halsschmerzen)",
+    "ja": "〜の痛み（mal di gola＝のどの痛み）"
+   }
+  },
+  {
+   "parola": "la gola",
+   "forme": [
+    "gola"
+   ],
+   "esempi": [
+    "Mi fa male la gola.",
+    "Bevo un tè per la gola.",
+    "Il dottore guarda la gola del bambino."
+   ],
+   "traduzioni": {
+    "en": "throat",
+    "es": "garganta",
+    "pt": "garganta",
+    "fr": "gorge",
+    "cs": "krk",
+    "pl": "gardło",
+    "tr": "boğaz",
+    "de": "Hals",
+    "ja": "のど"
+   }
+  },
+  {
+   "parola": "la febbre",
+   "forme": [
+    "febbre"
+   ],
+   "esempi": [
+    "Ho la febbre a 38.",
+    "Con la febbre resto a letto.",
+    "Il bambino non ha più la febbre."
+   ],
+   "traduzioni": {
+    "en": "fever, temperature",
+    "es": "fiebre",
+    "pt": "febre",
+    "fr": "fièvre",
+    "cs": "horečka",
+    "pl": "gorączka",
+    "tr": "ateş",
+    "de": "Fieber",
+    "ja": "熱"
+   }
+  },
+  {
+   "parola": "avere freddo",
+   "forme": [
+    "freddo"
+   ],
+   "contesto": "febbre",
+   "esempi": [
+    "Ho freddo: chiudi la finestra?",
+    "Hai freddo? Ecco una coperta.",
+    "In inverno i bambini hanno freddo."
+   ],
+   "traduzioni": {
+    "en": "to feel cold («ha freddo» = she's cold)",
+    "es": "tener frío",
+    "pt": "estar com frio",
+    "fr": "avoir froid",
+    "cs": "být zima (je jí zima)",
+    "pl": "marznąć (jest jej zimno)",
+    "tr": "üşümek",
+    "de": "frieren (ihr ist kalt)",
+    "ja": "寒い（と感じる）"
+   }
+  },
+  {
+   "parola": "prendere freddo",
+   "forme": [
+    "freddo"
+   ],
+   "contesto": "prendi",
+   "esempi": [
+    "Copriti, se no prendi freddo!",
+    "Ieri ho preso freddo in montagna.",
+    "Con la finestra aperta prendi freddo."
+   ],
+   "traduzioni": {
+    "en": "to catch a chill",
+    "es": "coger frío, resfriarse",
+    "pt": "pegar friagem, resfriar-se",
+    "fr": "prendre froid",
+    "cs": "nastydnout",
+    "pl": "przeziębić się, zmarznąć",
+    "tr": "üşütmek",
+    "de": "sich erkälten",
+    "ja": "体を冷やす、風邪をひく"
+   }
+  },
+  {
+   "parola": "avere bisogno di",
+   "forme": [
+    "bisogno"
+   ],
+   "esempi": [
+    "Ho bisogno di aiuto.",
+    "Hai bisogno di qualcosa?",
+    "Non ho bisogno della macchina oggi."
+   ],
+   "traduzioni": {
+    "en": "to need",
+    "es": "necesitar",
+    "pt": "precisar de",
+    "fr": "avoir besoin de",
+    "cs": "potřebovat",
+    "pl": "potrzebować",
+    "tr": "ihtiyacı olmak",
+    "de": "brauchen",
+    "ja": "〜が必要だ"
+   }
+  },
+  {
+   "parola": "la medicina",
+   "forme": [
+    "medicina",
+    "medicine"
+   ],
+   "esempi": [
+    "Prendo la medicina dopo pranzo.",
+    "Le medicine sono in bagno.",
+    "Questa medicina è per la tosse."
+   ],
+   "traduzioni": {
+    "en": "medicine",
+    "es": "medicina, medicamento",
+    "pt": "remédio",
+    "fr": "médicament",
+    "cs": "lék",
+    "pl": "lekarstwo, lek",
+    "tr": "ilaç",
+    "de": "Medikament",
+    "ja": "薬"
+   }
+  },
+  {
+   "parola": "la borsa",
+   "forme": [
+    "borsa"
+   ],
+   "esempi": [
+    "Le chiavi sono nella borsa.",
+    "Ho una borsa nuova.",
+    "Metto il libro nella borsa."
+   ],
+   "traduzioni": {
+    "en": "bag, handbag",
+    "es": "bolso",
+    "pt": "bolsa",
+    "fr": "sac",
+    "cs": "kabelka, taška",
+    "pl": "torebka, torba",
+    "tr": "çanta",
+    "de": "Tasche",
+    "ja": "かばん、バッグ"
+   }
+  },
+  {
+   "parola": "niente",
+   "forme": [
+    "niente"
+   ],
+   "esempi": [
+    "Nel frigo non c'è niente.",
+    "Non capisco niente.",
+    "– Che cosa vuoi? – Niente, grazie."
+   ],
+   "traduzioni": {
+    "en": "nothing",
+    "es": "nada",
+    "pt": "nada",
+    "fr": "rien",
+    "cs": "nic",
+    "pl": "nic",
+    "tr": "hiçbir şey",
+    "de": "nichts",
+    "ja": "何も（ない）"
+   }
+  },
+  {
+   "parola": "allora",
+   "forme": [
+    "allora"
+   ],
+   "esempi": [
+    "Piove. Allora prendo l'ombrello.",
+    "Non hai fame? Allora mangio io.",
+    "Allora, che cosa facciamo stasera?"
+   ],
+   "traduzioni": {
+    "en": "so, then",
+    "es": "entonces",
+    "pt": "então",
+    "fr": "alors",
+    "cs": "tak, pak",
+    "pl": "więc, to",
+    "tr": "o zaman, öyleyse",
+    "de": "also, dann",
+    "ja": "それで、じゃあ"
+   }
+  },
+  {
+   "parola": "il supermercato",
+   "forme": [
+    "supermercato"
+   ],
+   "esempi": [
+    "Vado al supermercato a comprare il latte.",
+    "Il supermercato chiude alle nove.",
+    "Lavoro in un supermercato."
+   ],
+   "traduzioni": {
+    "en": "supermarket",
+    "es": "supermercado",
+    "pt": "supermercado",
+    "fr": "supermarché",
+    "cs": "supermarket",
+    "pl": "supermarket",
+    "tr": "süpermarket",
+    "de": "Supermarkt",
+    "ja": "スーパー"
+   }
+  },
+  {
+   "parola": "lo scaffale",
+   "forme": [
+    "scaffali"
+   ],
+   "formeEsempi": [
+    "scaffale"
+   ],
+   "esempi": [
+    "Il pane è sullo scaffale in alto.",
+    "Gli scaffali sono pieni di libri.",
+    "Metto i barattoli sullo scaffale."
+   ],
+   "traduzioni": {
+    "en": "shelf",
+    "es": "estantería, estante",
+    "pt": "prateleira",
+    "fr": "rayon, étagère",
+    "cs": "regál, police",
+    "pl": "półka",
+    "tr": "raf",
+    "de": "Regal",
+    "ja": "棚"
+   }
+  },
+  {
+   "parola": "la caramella",
+   "forme": [
+    "caramelle"
+   ],
+   "formeEsempi": [
+    "caramella"
+   ],
+   "esempi": [
+    "Vuoi una caramella?",
+    "I bambini amano le caramelle.",
+    "Ho sempre caramelle in borsa."
+   ],
+   "traduzioni": {
+    "en": "sweet, candy",
+    "es": "caramelo",
+    "pt": "bala",
+    "fr": "bonbon",
+    "cs": "bonbon",
+    "pl": "cukierek",
+    "tr": "şeker",
+    "de": "Bonbon",
+    "ja": "あめ"
+   }
+  },
+  {
+   "parola": "il miele",
+   "forme": [
+    "miele"
+   ],
+   "esempi": [
+    "Metto il miele nel tè.",
+    "Il miele è buono per la gola.",
+    "Compro il miele al mercato."
+   ],
+   "traduzioni": {
+    "en": "honey",
+    "es": "miel",
+    "pt": "mel",
+    "fr": "miel",
+    "cs": "med",
+    "pl": "miód",
+    "tr": "bal",
+    "de": "Honig",
+    "ja": "はちみつ"
+   }
+  },
+  {
+   "parola": "scusi",
+   "forme": [
+    "scusi"
+   ],
+   "esempi": [
+    "Scusi, dov'è la stazione?",
+    "Scusi, che ore sono?",
+    "Scusi, è libero questo posto?"
+   ],
+   "traduzioni": {
+    "en": "excuse me (polite)",
+    "es": "disculpe, perdone",
+    "pt": "com licença, desculpe",
+    "fr": "excusez-moi",
+    "cs": "promiňte",
+    "pl": "przepraszam (pana/panią)",
+    "tr": "affedersiniz",
+    "de": "Entschuldigung",
+    "ja": "すみません"
+   }
+  },
+  {
+   "parola": "il foglio",
+   "forme": [
+    "foglio"
+   ],
+   "esempi": [
+    "Scrivo il numero su un foglio.",
+    "Sulla porta c'è un foglio con l'orario.",
+    "Mi dai un foglio, per favore?"
+   ],
+   "traduzioni": {
+    "en": "sheet of paper, notice",
+    "es": "hoja (de papel)",
+    "pt": "folha (de papel), aviso",
+    "fr": "feuille (de papier)",
+    "cs": "papír, list",
+    "pl": "kartka",
+    "tr": "kâğıt",
+    "de": "Zettel, Blatt",
+    "ja": "紙、貼り紙"
+   }
+  },
+  {
+   "parola": "di turno",
+   "forme": [
+    "turno"
+   ],
+   "esempi": [
+    "Di notte c'è sempre una farmacia di turno.",
+    "Oggi il medico di turno è il dottor Bassi.",
+    "Domenica sono di turno al lavoro."
+   ],
+   "traduzioni": {
+    "en": "on duty («farmacia di turno» = duty pharmacy, open on Sundays and at night)",
+    "es": "de guardia («farmacia di turno» = farmacia de guardia)",
+    "pt": "de plantão («farmacia di turno» = farmácia de plantão)",
+    "fr": "de garde («farmacia di turno» = pharmacie de garde)",
+    "cs": "pohotovostní («farmacia di turno» = pohotovostní lékárna)",
+    "pl": "dyżurny («farmacia di turno» = apteka dyżurna)",
+    "tr": "nöbetçi («farmacia di turno» = nöbetçi eczane)",
+    "de": "Not- («farmacia di turno» = Notdienst-Apotheke)",
+    "ja": "当番の（farmacia di turno＝当番薬局）"
+   }
+  },
+  {
+   "parola": "camminare",
+   "forme": [
+    "cammina"
+   ],
+   "formeEsempi": [
+    "cammino",
+    "camminare"
+   ],
+   "esempi": [
+    "Cammino molto ogni giorno.",
+    "Mi piace camminare in centro.",
+    "Il nonno cammina piano."
+   ],
+   "traduzioni": {
+    "en": "to walk",
+    "es": "caminar",
+    "pt": "caminhar, andar",
+    "fr": "marcher",
+    "cs": "jít pěšky, chodit",
+    "pl": "iść, spacerować",
+    "tr": "yürümek",
+    "de": "(zu Fuß) gehen",
+    "ja": "歩く"
+   }
+  },
+  {
+   "parola": "lontano",
+   "forme": [
+    "lontano"
+   ],
+   "esempi": [
+    "La stazione è lontano da qui.",
+    "Da lontano vedo il mare.",
+    "Abito lontano dal centro."
+   ],
+   "traduzioni": {
+    "en": "far (away) («da lontano» = from a distance)",
+    "es": "lejos («da lontano» = de lejos)",
+    "pt": "longe («da lontano» = de longe)",
+    "fr": "loin («da lontano» = de loin)",
+    "cs": "daleko («da lontano» = zdálky)",
+    "pl": "daleko («da lontano» = z daleka)",
+    "tr": "uzak («da lontano» = uzaktan)",
+    "de": "weit («da lontano» = von Weitem)",
+    "ja": "遠く（da lontano＝遠くから）"
+   }
+  },
+  {
+   "parola": "la croce",
+   "forme": [
+    "croce"
+   ],
+   "esempi": [
+    "La croce verde vuol dire «farmacia».",
+    "Sulla mappa c'è una croce rossa.",
+    "Disegno una croce sul foglio."
+   ],
+   "traduzioni": {
+    "en": "cross (here: the green pharmacy sign)",
+    "es": "cruz",
+    "pt": "cruz",
+    "fr": "croix",
+    "cs": "kříž",
+    "pl": "krzyż",
+    "tr": "artı işareti (eczane tabelası)",
+    "de": "Kreuz",
+    "ja": "十字（薬局の緑の十字の看板）"
+   }
+  },
+  {
+   "parola": "verde",
+   "forme": [
+    "verde"
+   ],
+   "esempi": [
+    "Il semaforo è verde.",
+    "Ho una giacca verde.",
+    "D'estate il parco è tutto verde."
+   ],
+   "traduzioni": {
+    "en": "green",
+    "es": "verde",
+    "pt": "verde",
+    "fr": "vert",
+    "cs": "zelený",
+    "pl": "zielony",
+    "tr": "yeşil",
+    "de": "grün",
+    "ja": "緑の"
+   }
+  },
+  {
+   "parola": "acceso",
+   "forme": [
+    "accesa"
+   ],
+   "formeEsempi": [
+    "acceso",
+    "accese"
+   ],
+   "esempi": [
+    "La luce in cucina è accesa.",
+    "Il computer è ancora acceso.",
+    "Di notte le insegne sono accese."
+   ],
+   "traduzioni": {
+    "en": "lit, switched on",
+    "es": "encendido",
+    "pt": "aceso, ligado",
+    "fr": "allumé",
+    "cs": "rozsvícený, zapnutý",
+    "pl": "zapalony, włączony",
+    "tr": "yanık, açık",
+    "de": "eingeschaltet, leuchtend",
+    "ja": "（明かりが）ついている"
+   }
+  },
+  {
+   "parola": "mi dica",
+   "forme": [
+    "dica"
+   ],
+   "esempi": [
+    "Buongiorno, mi dica.",
+    "Mi dica, che cosa desidera?",
+    "– Scusi… – Sì, mi dica!"
+   ],
+   "traduzioni": {
+    "en": "how can I help you? (polite, in shops)",
+    "es": "dígame",
+    "pt": "pois não?, em que posso ajudar?",
+    "fr": "je vous écoute",
+    "cs": "co si přejete?",
+    "pl": "słucham pana/panią",
+    "tr": "buyurun",
+    "de": "Was darf es sein?",
+    "ja": "いらっしゃいませ、どうなさいましたか"
+   }
+  },
+  {
+   "parola": "da quando?",
+   "forme": [
+    "quando"
+   ],
+   "esempi": [
+    "Da quando abiti a Roma?",
+    "Da quando hai la febbre?",
+    "Da quando studi l'italiano?"
+   ],
+   "traduzioni": {
+    "en": "since when? how long?",
+    "es": "¿desde cuándo?",
+    "pt": "desde quando?",
+    "fr": "depuis quand ?",
+    "cs": "od kdy?",
+    "pl": "od kiedy?",
+    "tr": "ne zamandan beri?",
+    "de": "seit wann?",
+    "ja": "いつから？"
+   }
+  },
+  {
+   "parola": "stamattina",
+   "forme": [
+    "stamattina"
+   ],
+   "esempi": [
+    "Stamattina piove.",
+    "Ho visto Paolo stamattina.",
+    "Stamattina non ho fatto colazione."
+   ],
+   "traduzioni": {
+    "en": "this morning",
+    "es": "esta mañana",
+    "pt": "hoje de manhã",
+    "fr": "ce matin",
+    "cs": "dnes ráno",
+    "pl": "dziś rano",
+    "tr": "bu sabah",
+    "de": "heute Morgen",
+    "ja": "今朝"
+   }
+  },
+  {
+   "parola": "la tosse",
+   "forme": [
+    "tosse"
+   ],
+   "esempi": [
+    "Ho la tosse da tre giorni.",
+    "Questo sciroppo è per la tosse.",
+    "Di notte la tosse è più forte."
+   ],
+   "traduzioni": {
+    "en": "cough",
+    "es": "tos",
+    "pt": "tosse",
+    "fr": "toux",
+    "cs": "kašel",
+    "pl": "kaszel",
+    "tr": "öksürük",
+    "de": "Husten",
+    "ja": "せき"
+   }
+  },
+  {
+   "parola": "ecco",
+   "forme": [
+    "ecco"
+   ],
+   "esempi": [
+    "Ecco il tuo caffè!",
+    "Ecco l'autobus, finalmente!",
+    "Sei stanca? Ecco perché dormi tanto."
+   ],
+   "traduzioni": {
+    "en": "here (it is), there you go («ecco perché» = that's why)",
+    "es": "aquí tiene, he aquí («ecco perché» = por eso)",
+    "pt": "aqui está, eis («ecco perché» = é por isso)",
+    "fr": "voici, voilà («ecco perché» = voilà pourquoi)",
+    "cs": "tady je, hle («ecco perché» = proto)",
+    "pl": "oto, proszę («ecco perché» = właśnie dlatego)",
+    "tr": "işte («ecco perché» = işte bu yüzden)",
+    "de": "hier, da («ecco perché» = deshalb)",
+    "ja": "はい、これです（ecco perché＝だからだ）"
+   }
+  },
+  {
+   "parola": "la pastiglia",
+   "forme": [
+    "pastiglie"
+   ],
+   "formeEsempi": [
+    "pastiglia"
+   ],
+   "esempi": [
+    "Prendo una pastiglia per il mal di testa.",
+    "Queste pastiglie sono alla menta.",
+    "Una pastiglia ogni otto ore."
+   ],
+   "traduzioni": {
+    "en": "tablet, lozenge",
+    "es": "pastilla",
+    "pt": "pastilha, comprimido",
+    "fr": "pastille, comprimé",
+    "cs": "pastilka, tableta",
+    "pl": "tabletka, pastylka",
+    "tr": "pastil, tablet",
+    "de": "Tablette, Lutschtablette",
+    "ja": "錠剤、トローチ"
+   }
+  },
+  {
+   "parola": "tra",
+   "forme": [
+    "tra"
+   ],
+   "esempi": [
+    "Il treno parte tra dieci minuti.",
+    "Ci vediamo tra una settimana.",
+    "Tra due giorni è il mio compleanno."
+   ],
+   "traduzioni": {
+    "en": "in (time from now)",
+    "es": "dentro de",
+    "pt": "daqui a",
+    "fr": "dans (temps)",
+    "cs": "za (čas)",
+    "pl": "za (czas)",
+    "tr": "… sonra",
+    "de": "in (Zeit)",
+    "ja": "〜後に"
+   }
+  },
+  {
+   "parola": "ancora",
+   "forme": [
+    "ancora"
+   ],
+   "esempi": [
+    "Sei ancora a casa?",
+    "Il negozio è ancora aperto.",
+    "Ho ancora fame."
+   ],
+   "traduzioni": {
+    "en": "still",
+    "es": "todavía",
+    "pt": "ainda",
+    "fr": "encore, toujours",
+    "cs": "ještě, stále",
+    "pl": "jeszcze, wciąż",
+    "tr": "hâlâ",
+    "de": "noch",
+    "ja": "まだ"
+   }
+  },
+  {
+   "parola": "il medico",
+   "forme": [
+    "medico"
+   ],
+   "esempi": [
+    "Domani vado dal medico.",
+    "Il medico dice che sto bene.",
+    "Mia sorella è medico."
+   ],
+   "traduzioni": {
+    "en": "doctor («andare dal medico» = to go to the doctor's)",
+    "es": "médico",
+    "pt": "médico",
+    "fr": "médecin",
+    "cs": "lékař",
+    "pl": "lekarz",
+    "tr": "doktor",
+    "de": "Arzt",
+    "ja": "医者"
+   }
+  },
+  {
+   "parola": "la ricetta",
+   "forme": [
+    "ricetta"
+   ],
+   "esempi": [
+    "Per questo farmaco serve la ricetta.",
+    "Il medico mi fa la ricetta.",
+    "In farmacia do la ricetta e prendo la medicina."
+   ],
+   "traduzioni": {
+    "en": "prescription (here NOT “recipe”)",
+    "es": "receta (médica)",
+    "pt": "receita (médica)",
+    "fr": "ordonnance",
+    "cs": "recept (od lékaře)",
+    "pl": "recepta",
+    "tr": "reçete",
+    "de": "Rezept (vom Arzt)",
+    "ja": "処方箋"
+   }
+  },
+  {
+   "parola": "l'antibiotico",
+   "forme": [
+    "antibiotici"
+   ],
+   "formeEsempi": [
+    "antibiotico"
+   ],
+   "esempi": [
+    "Il medico mi dà un antibiotico.",
+    "Gli antibiotici non servono per il raffreddore.",
+    "Prendo l'antibiotico per sette giorni."
+   ],
+   "traduzioni": {
+    "en": "antibiotic",
+    "es": "antibiótico",
+    "pt": "antibiótico",
+    "fr": "antibiotique",
+    "cs": "antibiotikum",
+    "pl": "antybiotyk",
+    "tr": "antibiyotik",
+    "de": "Antibiotikum",
+    "ja": "抗生物質"
+   }
+  },
+  {
+   "parola": "pagare",
+   "forme": [
+    "paga"
+   ],
+   "formeEsempi": [
+    "pago",
+    "paghiamo"
+   ],
+   "esempi": [
+    "Pago con la carta.",
+    "Chi paga il caffè oggi?",
+    "Paghiamo alla cassa."
+   ],
+   "traduzioni": {
+    "en": "to pay",
+    "es": "pagar",
+    "pt": "pagar",
+    "fr": "payer",
+    "cs": "zaplatit",
+    "pl": "zapłacić",
+    "tr": "ödemek",
+    "de": "bezahlen",
+    "ja": "払う"
+   }
+  },
+  {
+   "parola": "tornare",
+   "forme": [
+    "torna"
+   ],
+   "formeEsempi": [
+    "torno",
+    "torni"
+   ],
+   "esempi": [
+    "Torno a casa alle sei.",
+    "Marco torna domani da Milano.",
+    "Quando torni?"
+   ],
+   "traduzioni": {
+    "en": "to go back, to come back",
+    "es": "volver",
+    "pt": "voltar",
+    "fr": "rentrer, revenir",
+    "cs": "vrátit se",
+    "pl": "wrócić",
+    "tr": "dönmek",
+    "de": "zurückkommen, zurückgehen",
+    "ja": "帰る、戻る"
+   }
+  },
+  {
+   "parola": "caldo",
+   "forme": [
+    "caldo"
+   ],
+   "esempi": [
+    "Bevo un latte caldo.",
+    "La zuppa è ancora calda.",
+    "D'inverno mi piace il tè caldo."
+   ],
+   "traduzioni": {
+    "en": "hot, warm",
+    "es": "caliente",
+    "pt": "quente",
+    "fr": "chaud",
+    "cs": "horký, teplý",
+    "pl": "gorący, ciepły",
+    "tr": "sıcak",
+    "de": "heiß, warm",
+    "ja": "温かい、熱い"
+   },
+   "formeEsempi": [
+    "calda"
+   ]
+  },
+  {
+   "parola": "il pomeriggio",
+   "forme": [
+    "pomeriggio"
+   ],
+   "esempi": [
+    "Nel pomeriggio studio.",
+    "Ci vediamo domani pomeriggio?",
+    "Il pomeriggio il negozio apre alle quattro."
+   ],
+   "traduzioni": {
+    "en": "afternoon",
+    "es": "tarde",
+    "pt": "tarde",
+    "fr": "après-midi",
+    "cs": "odpoledne",
+    "pl": "popołudnie",
+    "tr": "öğleden sonra",
+    "de": "Nachmittag",
+    "ja": "午後"
+   }
+  },
+  {
+   "parola": "chiamare",
+   "forme": [
+    "chiama"
+   ],
+   "formeEsempi": [
+    "chiamo",
+    "chiamami"
+   ],
+   "esempi": [
+    "Stasera chiamo mia madre.",
+    "Mi chiama un amico dalla Spagna.",
+    "Chiamami quando arrivi!"
+   ],
+   "traduzioni": {
+    "en": "to call, to phone",
+    "es": "llamar",
+    "pt": "ligar, telefonar",
+    "fr": "appeler",
+    "cs": "zavolat",
+    "pl": "zadzwonić",
+    "tr": "aramak",
+    "de": "anrufen",
+    "ja": "電話をかける"
+   }
+  },
+  {
+   "parola": "uscire",
+   "forme": [
+    "esci",
+    "esce"
+   ],
+   "formeEsempi": [
+    "esco"
+   ],
+   "esempi": [
+    "Esco di casa alle otto.",
+    "Stasera esci con Giulia?",
+    "Il gatto esce in giardino."
+   ],
+   "traduzioni": {
+    "en": "to go out, to leave",
+    "es": "salir",
+    "pt": "sair",
+    "fr": "sortir",
+    "cs": "vyjít, jít ven",
+    "pl": "wyjść",
+    "tr": "dışarı çıkmak",
+    "de": "hinausgehen, ausgehen",
+    "ja": "出かける、外に出る"
+   }
+  },
+  {
+   "parola": "i capelli",
+   "forme": [
+    "capelli"
+   ],
+   "esempi": [
+    "Ho i capelli lunghi.",
+    "La mattina lavo i capelli.",
+    "Mia sorella ha i capelli rossi."
+   ],
+   "traduzioni": {
+    "en": "hair",
+    "es": "pelo, cabello",
+    "pt": "cabelo",
+    "fr": "cheveux",
+    "cs": "vlasy",
+    "pl": "włosy",
+    "tr": "saç",
+    "de": "Haare",
+    "ja": "髪"
+   }
+  },
+  {
+   "parola": "bagnato",
+   "forme": [
+    "bagnati"
+   ],
+   "formeEsempi": [
+    "bagnato",
+    "bagnata"
+   ],
+   "esempi": [
+    "Piove e sono tutto bagnato.",
+    "Non uscire con i capelli bagnati!",
+    "La strada è bagnata."
+   ],
+   "traduzioni": {
+    "en": "wet",
+    "es": "mojado",
+    "pt": "molhado",
+    "fr": "mouillé",
+    "cs": "mokrý",
+    "pl": "mokry",
+    "tr": "ıslak",
+    "de": "nass",
+    "ja": "ぬれた"
+   }
+  },
+  {
+   "parola": "la sciarpa",
+   "forme": [
+    "sciarpa"
+   ],
+   "esempi": [
+    "D'inverno porto la sciarpa.",
+    "Ho una sciarpa di lana.",
+    "Metti la sciarpa: fa freddo!"
+   ],
+   "traduzioni": {
+    "en": "scarf",
+    "es": "bufanda",
+    "pt": "cachecol",
+    "fr": "écharpe",
+    "cs": "šála",
+    "pl": "szalik",
+    "tr": "atkı",
+    "de": "Schal",
+    "ja": "マフラー"
+   }
+  },
+  {
+   "parola": "settembre",
+   "forme": [
+    "settembre"
+   ],
+   "esempi": [
+    "La scuola comincia a settembre.",
+    "A settembre fa ancora caldo.",
+    "Il mio compleanno è il tre settembre."
+   ],
+   "traduzioni": {
+    "en": "September",
+    "es": "septiembre",
+    "pt": "setembro",
+    "fr": "septembre",
+    "cs": "září",
+    "pl": "wrzesień",
+    "tr": "eylül",
+    "de": "September",
+    "ja": "9月"
+   }
+  },
+  {
+   "parola": "dopo",
+   "forme": [
+    "dopo"
+   ],
+   "esempi": [
+    "Il giorno dopo piove.",
+    "Ci vediamo dopo pranzo.",
+    "Prima studio, dopo esco."
+   ],
+   "traduzioni": {
+    "en": "after, later («il giorno dopo» = the next day)",
+    "es": "después («il giorno dopo» = al día siguiente)",
+    "pt": "depois («il giorno dopo» = no dia seguinte)",
+    "fr": "après («il giorno dopo» = le lendemain)",
+    "cs": "potom, po («il giorno dopo» = druhý den)",
+    "pl": "potem, po («il giorno dopo» = następnego dnia)",
+    "tr": "sonra («il giorno dopo» = ertesi gün)",
+    "de": "danach, nach («il giorno dopo» = am nächsten Tag)",
+    "ja": "後で（il giorno dopo＝翌日）"
+   }
+  },
+  {
+   "parola": "asciutto",
+   "forme": [
+    "asciutti"
+   ],
+   "formeEsempi": [
+    "asciutto",
+    "asciutta"
+   ],
+   "esempi": [
+    "Il bucato è asciutto.",
+    "Esco solo con i capelli asciutti.",
+    "La strada adesso è asciutta."
+   ],
+   "traduzioni": {
+    "en": "dry",
+    "es": "seco",
+    "pt": "seco",
+    "fr": "sec",
+    "cs": "suchý",
+    "pl": "suchy",
+    "tr": "kuru",
+    "de": "trocken",
+    "ja": "乾いた"
+   }
+  },
+  {
+   "parola": "non si sa mai",
+   "forme": [
+    "mai"
+   ],
+   "esempi": [
+    "Porto l'ombrello: non si sa mai.",
+    "Prendo un panino in più, non si sa mai.",
+    "Non si sa mai: chiudi la porta a chiave."
+   ],
+   "traduzioni": {
+    "en": "you never know («mai» = never)",
+    "es": "nunca se sabe",
+    "pt": "nunca se sabe",
+    "fr": "on ne sait jamais",
+    "cs": "člověk nikdy neví",
+    "pl": "nigdy nie wiadomo",
+    "tr": "ne olur ne olmaz",
+    "de": "man weiß ja nie",
+    "ja": "念のため、何があるかわからない"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "It's Sunday morning. Emma wakes up and doesn't feel well. She has a sore throat, a bit of a temperature and she's cold.",
+    "«I need some medicine», she thinks. There's nothing in her bag. So she goes to the supermarket near her home.",
+    "The supermarket is open, but there's no medicine on the shelves. There are only honey sweets.\n– Excuse me, where's the medicine?\n– There isn't any here, miss. Medicine is at the pharmacy.",
+    "Emma goes to the pharmacy on her street. It's closed: today is Sunday. On the door there's a notice: «Duty pharmacy: Farmacia Centrale, Piazza della Repubblica».",
+    "Emma walks for ten minutes. From a distance she sees a green cross lit up. The duty pharmacy is open!",
+    "– Good morning, how can I help?\n– Good morning. I have a sore throat and a bit of a temperature.\n– Since when?\n– Since this morning.\n– Do you have a cough too?\n– No, I don't have a cough.\n– Then here you are: these lozenges are for your throat and this medicine is for the fever. If you still have a temperature in three days, go to the doctor.\n– Don't I need a prescription?\n– Not for these medicines. For antibiotics, yes.",
+    "Emma pays, goes home and drinks a hot tea with honey.",
+    "In the afternoon Giulia, her Italian friend, calls her.\n– Emma, how are you?\n– Not well. I've got a sore throat.\n– A sore throat? Do you go out with wet hair?\n– Yes, every morning. Why?\n– That's why! With wet hair you catch a chill! And a scarf? Do you have a scarf?\n– Giulia… it's September!",
+    "Emma laughs. But the next day she goes out with dry hair. And with a scarf. You never know."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Es domingo por la mañana. Emma se despierta y no se encuentra bien. Le duele la garganta, tiene un poco de fiebre y tiene frío.",
+    "«Necesito una medicina», piensa. En el bolso no tiene nada. Entonces va al supermercado cerca de casa.",
+    "El supermercado está abierto, pero en las estanterías no hay medicinas. Solo hay caramelos de miel.\n– Disculpe, ¿dónde están las medicinas?\n– Aquí no hay, señorita. Las medicinas están en la farmacia.",
+    "Emma va a la farmacia de su calle. Está cerrada: hoy es domingo. En la puerta hay una hoja: «Farmacia de guardia: Farmacia Centrale, piazza della Repubblica».",
+    "Emma camina diez minutos. De lejos ve una cruz verde encendida. ¡La farmacia de guardia está abierta!",
+    "– Buenos días, dígame.\n– Buenos días. Me duele la garganta y tengo un poco de fiebre.\n– ¿Desde cuándo?\n– Desde esta mañana.\n– ¿Tiene también tos?\n– No, no tengo tos.\n– Entonces, aquí tiene: estas pastillas son para la garganta y esta medicina es para la fiebre. Si dentro de tres días todavía tiene fiebre, vaya al médico.\n– ¿No necesito receta?\n– Para estas medicinas, no. Para los antibióticos, sí.",
+    "Emma paga, vuelve a casa y se toma un té caliente con miel.",
+    "Por la tarde la llama Giulia, su amiga italiana.\n– Emma, ¿cómo estás?\n– No muy bien. Me duele la garganta.\n– ¿Te duele la garganta? ¿Pero tú sales con el pelo mojado?\n– Sí, todas las mañanas. ¿Por qué?\n– ¡Por eso! ¡Con el pelo mojado coges frío! ¿Y la bufanda? ¿Tienes bufanda?\n– Giulia… ¡estamos en septiembre!",
+    "Emma se ríe. Pero al día siguiente sale con el pelo seco. Y con bufanda. Nunca se sabe."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "É domingo de manhã. Emma acorda e não está bem. Está com dor de garganta, um pouco de febre e com frio.",
+    "«Preciso de um remédio», pensa. Na bolsa não tem nada. Então vai ao supermercado perto de casa.",
+    "O supermercado está aberto, mas nas prateleiras não há remédios. Só há balas de mel.\n– Com licença, onde estão os remédios?\n– Aqui não tem, moça. Os remédios ficam na farmácia.",
+    "Emma vai à farmácia da sua rua. Está fechada: hoje é domingo. Na porta há uma folha: «Farmácia de plantão: Farmacia Centrale, piazza della Repubblica».",
+    "Emma anda dez minutos. De longe vê uma cruz verde acesa. A farmácia de plantão está aberta!",
+    "– Bom dia, pois não?\n– Bom dia. Estou com dor de garganta e um pouco de febre.\n– Desde quando?\n– Desde hoje de manhã.\n– Também está com tosse?\n– Não, não estou com tosse.\n– Então aqui está: estas pastilhas são para a garganta e este remédio é para a febre. Se daqui a três dias ainda estiver com febre, vá ao médico.\n– Não preciso de receita?\n– Para estes remédios, não. Para antibióticos, sim.",
+    "Emma paga, volta para casa e toma um chá quente com mel.",
+    "À tarde Giulia, a amiga italiana dela, liga.\n– Emma, como você está?\n– Não muito bem. Estou com dor de garganta.\n– Dor de garganta? Mas você sai com o cabelo molhado?\n– Sim, todas as manhãs. Por quê?\n– É por isso! Com o cabelo molhado você pega friagem! E o cachecol? Você tem cachecol?\n– Giulia… estamos em setembro!",
+    "Emma ri. Mas no dia seguinte sai com o cabelo seco. E de cachecol. Nunca se sabe."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "C'est dimanche matin. Emma se réveille et ne se sent pas bien. Elle a mal à la gorge, un peu de fièvre et elle a froid.",
+    "« J'ai besoin d'un médicament », pense-t-elle. Dans son sac, elle n'a rien. Alors elle va au supermarché près de chez elle.",
+    "Le supermarché est ouvert, mais dans les rayons il n'y a pas de médicaments. Il y a seulement des bonbons au miel.\n– Excusez-moi, où sont les médicaments ?\n– Ici, il n'y en a pas, mademoiselle. Les médicaments, c'est en pharmacie.",
+    "Emma va à la pharmacie de sa rue. Elle est fermée : aujourd'hui, c'est dimanche. Sur la porte, il y a une feuille : « Pharmacie de garde : Farmacia Centrale, piazza della Repubblica ».",
+    "Emma marche dix minutes. De loin, elle voit une croix verte allumée. La pharmacie de garde est ouverte !",
+    "– Bonjour, je vous écoute.\n– Bonjour. J'ai mal à la gorge et un peu de fièvre.\n– Depuis quand ?\n– Depuis ce matin.\n– Vous toussez aussi ?\n– Non, je ne tousse pas.\n– Alors voilà : ces pastilles sont pour la gorge et ce médicament est pour la fièvre. Si dans trois jours vous avez encore de la fièvre, allez chez le médecin.\n– Je n'ai pas besoin d'ordonnance ?\n– Pour ces médicaments, non. Pour les antibiotiques, oui.",
+    "Emma paie, rentre chez elle et boit un thé chaud au miel.",
+    "L'après-midi, Giulia, son amie italienne, l'appelle.\n– Emma, comment ça va ?\n– Pas bien. J'ai mal à la gorge.\n– Mal à la gorge ? Mais tu sors avec les cheveux mouillés ?\n– Oui, tous les matins. Pourquoi ?\n– Voilà pourquoi ! Avec les cheveux mouillés, on prend froid ! Et l'écharpe ? Tu as une écharpe ?\n– Giulia… on est en septembre !",
+    "Emma rit. Mais le lendemain, elle sort avec les cheveux secs. Et avec une écharpe. On ne sait jamais."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Je neděle ráno. Emma se probudí a není jí dobře. Bolí ji v krku, má trochu horečku a je jí zima.",
+    "„Potřebuju nějaký lék,“ myslí si. V kabelce nemá nic. Tak jde do supermarketu blízko domu.",
+    "Supermarket je otevřený, ale v regálech žádné léky nejsou. Jsou tam jen medové bonbony.\n– Promiňte, kde jsou léky?\n– Tady nejsou, slečno. Léky jsou v lékárně.",
+    "Emma jde do lékárny ve své ulici. Je zavřená: dnes je neděle. Na dveřích je papír: „Pohotovostní lékárna: Farmacia Centrale, piazza della Repubblica“.",
+    "Emma jde deset minut. Zdálky vidí rozsvícený zelený kříž. Pohotovostní lékárna je otevřená!",
+    "– Dobrý den, co si přejete?\n– Dobrý den. Bolí mě v krku a mám trochu horečku.\n– Od kdy?\n– Od dnešního rána.\n– Máte i kašel?\n– Ne, kašel nemám.\n– Tak tady to je: tyhle pastilky jsou na krk a tenhle lék je na horečku. Jestli budete mít za tři dny pořád horečku, jděte k lékaři.\n– Nepotřebuju recept?\n– Na tyhle léky ne. Na antibiotika ano.",
+    "Emma zaplatí, vrátí se domů a vypije horký čaj s medem.",
+    "Odpoledne jí zavolá Giulia, její italská kamarádka.\n– Emmo, jak se máš?\n– Nic moc. Bolí mě v krku.\n– V krku? Ty chodíš ven s mokrými vlasy?\n– Jo, každé ráno. Proč?\n– No proto! S mokrými vlasy nastydneš! A šála? Máš šálu?\n– Giulio… je září!",
+    "Emma se směje. Ale druhý den jde ven se suchými vlasy. A se šálou. Člověk nikdy neví."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jest niedziela rano. Emma się budzi i źle się czuje. Boli ją gardło, ma lekką gorączkę i jest jej zimno.",
+    "„Potrzebuję jakiegoś lekarstwa” – myśli. W torebce nie ma nic. Idzie więc do supermarketu niedaleko domu.",
+    "Supermarket jest otwarty, ale na półkach nie ma lekarstw. Są tylko miodowe cukierki.\n– Przepraszam, gdzie są lekarstwa?\n– Tu ich nie ma, proszę pani. Lekarstwa są w aptece.",
+    "Emma idzie do apteki na swojej ulicy. Jest zamknięta: dziś niedziela. Na drzwiach wisi kartka: „Apteka dyżurna: Farmacia Centrale, piazza della Repubblica”.",
+    "Emma idzie dziesięć minut. Z daleka widzi zapalony zielony krzyż. Apteka dyżurna jest otwarta!",
+    "– Dzień dobry, słucham panią.\n– Dzień dobry. Boli mnie gardło i mam lekką gorączkę.\n– Od kiedy?\n– Od dziś rana.\n– Ma pani też kaszel?\n– Nie, nie mam kaszlu.\n– To proszę: te pastylki są na gardło, a to lekarstwo na gorączkę. Jeśli za trzy dni nadal będzie pani miała gorączkę, proszę iść do lekarza.\n– Nie potrzebuję recepty?\n– Na te lekarstwa nie. Na antybiotyki tak.",
+    "Emma płaci, wraca do domu i pije gorącą herbatę z miodem.",
+    "Po południu dzwoni do niej Giulia, jej włoska przyjaciółka.\n– Emma, jak się masz?\n– Kiepsko. Boli mnie gardło.\n– Gardło? A ty wychodzisz z mokrymi włosami?\n– Tak, co rano. Dlaczego?\n– No właśnie dlatego! Z mokrymi włosami łatwo się przeziębić! A szalik? Masz szalik?\n– Giulia… jest wrzesień!",
+    "Emma się śmieje. Ale następnego dnia wychodzi z suchymi włosami. I w szaliku. Nigdy nie wiadomo."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Pazar sabahı. Emma uyanıyor ve kendini iyi hissetmiyor. Boğazı ağrıyor, biraz ateşi var ve üşüyor.",
+    "«Bir ilaca ihtiyacım var» diye düşünüyor. Çantasında hiçbir şey yok. O zaman evinin yakınındaki süpermarkete gidiyor.",
+    "Süpermarket açık ama raflarda ilaç yok. Sadece ballı şekerler var.\n– Affedersiniz, ilaçlar nerede?\n– Burada yok hanımefendi. İlaçlar eczanede.",
+    "Emma kendi sokağındaki eczaneye gidiyor. Kapalı: bugün pazar. Kapıda bir kâğıt var: «Nöbetçi eczane: Farmacia Centrale, piazza della Repubblica».",
+    "Emma on dakika yürüyor. Uzaktan yanan yeşil bir artı işareti görüyor. Nöbetçi eczane açık!",
+    "– Günaydın, buyurun.\n– Günaydın. Boğazım ağrıyor ve biraz ateşim var.\n– Ne zamandan beri?\n– Bu sabahtan beri.\n– Öksürüğünüz de var mı?\n– Hayır, öksürüğüm yok.\n– O zaman buyurun: bu pastiller boğaz için, bu ilaç da ateş için. Üç gün sonra hâlâ ateşiniz varsa doktora gidin.\n– Reçeteye ihtiyacım yok mu?\n– Bu ilaçlar için yok. Antibiyotikler için var.",
+    "Emma ödüyor, eve dönüyor ve ballı sıcak bir çay içiyor.",
+    "Öğleden sonra İtalyan arkadaşı Giulia onu arıyor.\n– Emma, nasılsın?\n– İyi değilim. Boğazım ağrıyor.\n– Boğazın mı? Sen ıslak saçla mı dışarı çıkıyorsun?\n– Evet, her sabah. Neden?\n– İşte bu yüzden! Islak saçla üşütürsün! Peki atkı? Atkın var mı?\n– Giulia… eylül ayındayız!",
+    "Emma gülüyor. Ama ertesi gün kuru saçla çıkıyor. Bir de atkıyla. Ne olur ne olmaz."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Es ist Sonntagmorgen. Emma wacht auf und fühlt sich nicht gut. Sie hat Halsschmerzen, ein bisschen Fieber und ihr ist kalt.",
+    "„Ich brauche ein Medikament“, denkt sie. In der Tasche hat sie nichts. Also geht sie in den Supermarkt in der Nähe.",
+    "Der Supermarkt ist geöffnet, aber in den Regalen gibt es keine Medikamente. Es gibt nur Honigbonbons.\n– Entschuldigung, wo sind die Medikamente?\n– Hier gibt es keine. Medikamente bekommen Sie in der Apotheke.",
+    "Emma geht zur Apotheke in ihrer Straße. Sie ist geschlossen: Heute ist Sonntag. An der Tür hängt ein Zettel: „Notdienst-Apotheke: Farmacia Centrale, Piazza della Repubblica“.",
+    "Emma geht zehn Minuten zu Fuß. Von Weitem sieht sie ein leuchtendes grünes Kreuz. Die Notdienst-Apotheke ist geöffnet!",
+    "– Guten Morgen, was darf es sein?\n– Guten Morgen. Ich habe Halsschmerzen und ein bisschen Fieber.\n– Seit wann?\n– Seit heute Morgen.\n– Haben Sie auch Husten?\n– Nein, ich habe keinen Husten.\n– Dann bitte: Diese Lutschtabletten sind für den Hals und dieses Medikament ist gegen das Fieber. Wenn Sie in drei Tagen noch Fieber haben, gehen Sie zum Arzt.\n– Brauche ich kein Rezept?\n– Für diese Medikamente nicht. Für Antibiotika schon.",
+    "Emma bezahlt, geht nach Hause und trinkt einen heißen Tee mit Honig.",
+    "Am Nachmittag ruft Giulia an, ihre italienische Freundin.\n– Emma, wie geht's dir?\n– Nicht gut. Ich habe Halsschmerzen.\n– Halsschmerzen? Gehst du etwa mit nassen Haaren raus?\n– Ja, jeden Morgen. Warum?\n– Na, deshalb! Mit nassen Haaren erkältet man sich! Und ein Schal? Hast du einen Schal?\n– Giulia … es ist September!",
+    "Emma lacht. Aber am nächsten Tag geht sie mit trockenen Haaren aus dem Haus. Und mit Schal. Man weiß ja nie."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "日曜日の朝。エマは目を覚ますが、体調がよくない。のどが痛くて、少し熱があって、寒気がする。",
+    "「薬がいる」とエマは思う。かばんの中には何もない。そこで家の近くのスーパーへ行く。",
+    "スーパーは開いているが、棚に薬はない。あるのは、はちみつのあめだけだ。\n「すみません、薬はどこですか？」\n「ここにはありませんよ。薬は薬局です。」",
+    "エマは家の通りにある薬局へ行く。閉まっている。今日は日曜日だ。ドアに紙が貼ってある。「当番薬局：ファルマチア・チェントラーレ、レプッブリカ広場」",
+    "エマは10分歩く。遠くに、光っている緑の十字が見える。当番薬局が開いている！",
+    "「おはようございます。どうなさいましたか？」\n「おはようございます。のどが痛くて、少し熱があります。」\n「いつからですか？」\n「今朝からです。」\n「せきも出ますか？」\n「いいえ、せきは出ません。」\n「では、こちらです。このトローチはのど用、この薬は熱用です。3日たってもまだ熱があったら、お医者さんに行ってください。」\n「処方箋はいりませんか？」\n「この薬はいりません。抗生物質ならいります。」",
+    "エマはお金を払って家に帰り、はちみつ入りの温かい紅茶を飲む。",
+    "午後、イタリア人の友だちのジュリアから電話がかかってくる。\n「エマ、元気？」\n「あまり元気じゃない。のどが痛いの。」\n「のど？もしかして、髪がぬれたまま外に出てる？」\n「うん、毎朝。どうして？」\n「だからよ！髪がぬれたままだと体が冷えるの！それにマフラーは？マフラー持ってる？」\n「ジュリア……まだ9月だよ！」",
+    "エマは笑う。でも次の日、エマは髪を乾かしてから出かける。マフラーもして。念のためにね。"
+   ]
+  }
+ }
+}
