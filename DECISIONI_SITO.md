@@ -1255,7 +1255,7 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Trappole per lingua** (`scripts/data/confronti-futuro-anteriore.mjs`): inglese e tedesco mettono il presente dopo «when / wenn»; spagnolo e portoghese il congiuntivo («cuando haya terminado», «quando tiver terminado» → mai *quando abbia finito*); il francese funziona come l'italiano ma sceglie avoir dove l'italiano vuole essere (été, coûté, semblé); ceco e polacco usano l'aspetto perfettivo («až dodělám», «jak skończę», e il semplice «promluvím» resta futuro semplice); turco «-ince» e «-mıştır»; giapponese «〜たら» e «〜ただろう».
 - Testata gratis con Hugging Face (`docs/prompt-immagini-futuro-anteriore.md`); voce di menu nuova «Ipotesi sul passato» in `labels.mjs`; frasi portoghesi in `work/pt-traduzioni-futuro-anteriore.txt`; libro della grammatica a 46 lezioni.
 
-## 2026-11-18 — Trasloco da GitHub Pages a Cloudflare (in corso)
+## 2026-11-18 — Trasloco da GitHub Pages a Cloudflare (annullato il 2026-11-22, vedi sotto)
 
 - **Richiesta di Martin**: «il sito comincia ad avere circa 300 visite al giorno, vale la pena trasferirlo su un account che non sia github? sempre però avendo la copia di github».
 - **Motivo vero: il peso, non le visite.** `dist/` pesa 2,2 GB (2,1 GB sono i 3.150 PDF), oltre il limite di 1 GB di GitHub Pages; 8.095 file. Cloudflare (Workers con file statici, piano gratuito): nessun limite di peso totale, 20.000 file, 25 MB per file, traffico senza limiti.
@@ -1272,3 +1272,13 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Regola**: ogni storia, lettura e favola nuova ha il suo PDF, indicizzabile e linkato dalla pagina; la parola «PDF» nei title e negli indici delle letture si cura come per la grammatica. Mai `noindex` né spostamento su un altro dominio per i PDF delle storie.
 - **Idea da valutare**: una raccolta in PDF delle letture per livello (A1, A2, B1…), come il libro di grammatica, per le ricerche «letture … a1 pdf».
 - **Passaggio**: finché il segreto `CLOUDFLARE_API_TOKEN` non esiste i passi Cloudflare vengono saltati; quando c'è, il workflow pubblica su GitHub Pages **e** su Cloudflare (un errore Cloudflare non blocca GitHub). Ultimo passo: i DNS del dominio (oggi `ns1/ns2.register.it`) passano a Cloudflare, **copiando prima i record della posta (MX)**; poi si toglie la pubblicazione su GitHub Pages.
+
+## 2026-11-22 — Si resta su GitHub Pages: PDF alleggeriti
+
+- **Martin**: «potrei restare su github se è più veloce», poi «Sì, alleggerisci». Il trasloco del 2026-11-18 è annullato: nameserver, DNSSEC e Lock su register.it non sono stati toccati.
+- **Velocità**: la copia su `workers.dev` era più lenta (Pingdom da Londra 869 ms contro 396, una prova; dalla Bolivia mediana del primo byte della home 638 ms contro 235).
+- **Pagare non serve**: nessun piano GitHub alza i limiti di Pages (sito 1 GB, banda indicativa 100 GB al mese, pubblicazione 10 minuti). Un limite al numero di file non è documentato.
+- **Causa del peso**: dal 2026-10-29 le due foto rotonde della chiusura erano salvate senza perdita, circa 580 KB in ogni PDF.
+- **Correzione**: `scripts/pdf_photos.py` (JPEG q90, maschera identica), chiamato dal generatore e passato una volta su tutti i PDF: 2.180 → 639 MB, 2.950 file cambiati su 3.150 (gli altri 200 non avevano le foto). Verificati tutti: testo, pagine, link, segnalibri, caratteri, maschere e altre immagini identici. Indirizzi invariati. Niente R2.
+- **Guardia**: `scripts/audit-size.mjs` nel deploy avvisa da 900 MB o se un PDF supera 1,6 MB; non blocca.
+- **Cloudflare** resta copia di riserva, aggiornata dal workflow. GitHub Pages non ammette siti rivolti soprattutto alle vendite: il sito è didattico e gratuito ma promuove lezioni, zona grigia.

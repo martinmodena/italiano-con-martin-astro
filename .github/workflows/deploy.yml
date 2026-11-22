@@ -64,13 +64,16 @@ jobs:
       - name: Audit grammar SEO (dist)
         run: node scripts/audit-grammar-seo.mjs
 
+      - name: Audit site size (dist, warning only)
+        run: node scripts/audit-size.mjs
+
       - name: Upload static site files
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
-      # Cloudflare (dal 2026-11-18, vedi DECISIONI_SITO.md). Durante il passaggio
-      # GitHub Pages resta attivo; un errore qui non blocca la pubblicazione su GitHub.
+      # Copia di riserva su Cloudflare (vedi DECISIONI_SITO.md, 2026-11-22): il sito vero
+      # è GitHub Pages; un errore qui non blocca la pubblicazione su GitHub.
       - name: Prepare dist for Cloudflare (301 redirects)
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
         continue-on-error: true

@@ -19,6 +19,8 @@ from reportlab.platypus import Image, KeepTogether, PageBreak, Paragraph, Simple
 from reportlab.platypus.flowables import HRFlowable
 from reportlab.platypus.tableofcontents import TableOfContents
 
+from pdf_photos import compress_photos
+
 ROOT = Path(__file__).resolve().parents[1]
 # La sorgente e la build Astro (dist/), non piu legacy-html/ che e congelato.
 # I PDF prodotti finiscono in public/pdf/, da dove la build li ripubblica.
@@ -268,6 +270,7 @@ def circular_photo(name="martin-portrait.webp"):
     # PNG con la trasparenza e il bordo smussato: la maschera si disegna a 4x e
     # poi si riduce. Prima era un JPEG su fondo color crema, e la compressione
     # lasciava dei quadratini grigi ai lati del cerchio (Martin, 2026-10-29).
+    # Nel PDF finito i colori passano in JPEG e la maschera resta: pdf_photos.py.
     source = SITE / "assets" / name
     size = 360
     photo = PILImage.open(source).convert("RGB")
@@ -971,6 +974,7 @@ def build_book(language):
         title=f'{g["book_title"]} A1-C1 (PDF) - Italiano con Martin', author="Italiano con Martin", subject=g["book_subtitle"],
     )
     pdf.multiBuild(story, onFirstPage=cover_background, onLaterPages=footer)
+    compress_photos(output)
     return output
 
 
@@ -1005,6 +1009,7 @@ def build_pdf(page, language, level, output):
         title=title, author="Italiano con Martin", subject=strings(language)["kind"],
     )
     pdf.build(story, onFirstPage=footer, onLaterPages=footer)
+    compress_photos(output)
 
 
 def localized_pages():
