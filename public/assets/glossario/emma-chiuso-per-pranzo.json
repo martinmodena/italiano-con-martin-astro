@@ -1,0 +1,1309 @@
+{
+ "id": "emma-chiuso-per-pranzo",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "il paese",
+   "forme": [
+    "paese",
+    "paesi"
+   ],
+   "esempi": [
+    "Mia nonna vive in un piccolo paese.",
+    "Nel paese c'è solo un bar.",
+    "Il paese è vicino al mare."
+   ],
+   "traduzioni": {
+    "en": "village, small town (NOT “country” here)",
+    "es": "pueblo",
+    "pt": "cidadezinha, vilarejo",
+    "fr": "village",
+    "cs": "městečko, vesnice",
+    "pl": "miasteczko, wieś",
+    "tr": "kasaba, köy",
+    "de": "Dorf, Städtchen",
+    "ja": "町、村"
+   }
+  },
+  {
+   "parola": "antico",
+   "forme": [
+    "antico"
+   ],
+   "formeEsempi": [
+    "antica"
+   ],
+   "esempi": [
+    "Roma è una città antica.",
+    "Questo ponte è molto antico.",
+    "Abitiamo in una casa antica."
+   ],
+   "traduzioni": {
+    "en": "old, historic",
+    "es": "antiguo",
+    "pt": "antigo",
+    "fr": "ancien",
+    "cs": "starobylý",
+    "pl": "stary, zabytkowy",
+    "tr": "eski, tarihi",
+    "de": "alt, historisch",
+    "ja": "古い、歴史のある"
+   }
+  },
+  {
+   "parola": "tranquillo",
+   "forme": [
+    "tranquillo"
+   ],
+   "esempi": [
+    "La domenica il quartiere è tranquillo.",
+    "Cerco un posto tranquillo per studiare.",
+    "Il mare oggi è tranquillo."
+   ],
+   "traduzioni": {
+    "en": "quiet, peaceful",
+    "es": "tranquilo",
+    "pt": "tranquilo",
+    "fr": "calme, tranquille",
+    "cs": "klidný",
+    "pl": "spokojny, cichy",
+    "tr": "sakin",
+    "de": "ruhig",
+    "ja": "静かな、のんびりした"
+   }
+  },
+  {
+   "parola": "comprare",
+   "forme": [
+    "comprare"
+   ],
+   "formeEsempi": [
+    "compro"
+   ],
+   "esempi": [
+    "Devo comprare il pane.",
+    "Dove posso comprare un biglietto?",
+    "Oggi compro le mele."
+   ],
+   "traduzioni": {
+    "en": "to buy",
+    "es": "comprar",
+    "pt": "comprar",
+    "fr": "acheter",
+    "cs": "koupit",
+    "pl": "kupić",
+    "tr": "satın almak",
+    "de": "kaufen",
+    "ja": "買う"
+   }
+  },
+  {
+   "parola": "il regalo",
+   "forme": [
+    "regalo"
+   ],
+   "esempi": [
+    "Questo regalo è per te.",
+    "Che regalo compri per Marco?",
+    "Grazie per il regalo!"
+   ],
+   "traduzioni": {
+    "en": "present, gift",
+    "es": "regalo",
+    "pt": "presente",
+    "fr": "cadeau",
+    "cs": "dárek",
+    "pl": "prezent",
+    "tr": "hediye",
+    "de": "Geschenk",
+    "ja": "プレゼント、贈り物"
+   }
+  },
+  {
+   "parola": "la madre",
+   "forme": [
+    "madre"
+   ],
+   "esempi": [
+    "Mia madre si chiama Anna.",
+    "Telefono a mia madre ogni domenica.",
+    "La madre di Luca è medico."
+   ],
+   "traduzioni": {
+    "en": "mother",
+    "es": "madre",
+    "pt": "mãe",
+    "fr": "mère",
+    "cs": "matka",
+    "pl": "matka",
+    "tr": "anne",
+    "de": "Mutter",
+    "ja": "母"
+   }
+  },
+  {
+   "parola": "la tazza",
+   "forme": [
+    "tazza"
+   ],
+   "esempi": [
+    "Vorrei una tazza di tè.",
+    "La tazza è sul tavolo.",
+    "Ho una tazza rossa per il caffè."
+   ],
+   "traduzioni": {
+    "en": "cup, mug",
+    "es": "taza",
+    "pt": "xícara, caneca",
+    "fr": "tasse",
+    "cs": "hrnek, šálek",
+    "pl": "filiżanka, kubek",
+    "tr": "fincan, kupa",
+    "de": "Tasse",
+    "ja": "カップ"
+   }
+  },
+  {
+   "parola": "dipinto a mano",
+   "forme": [
+    "dipinta"
+   ],
+   "formeEsempi": [
+    "dipinto",
+    "dipinte"
+   ],
+   "esempi": [
+    "Questo piatto è dipinto a mano.",
+    "Le tazze dipinte a mano costano di più.",
+    "È un vaso dipinto a mano."
+   ],
+   "traduzioni": {
+    "en": "hand-painted",
+    "es": "pintado a mano",
+    "pt": "pintado à mão",
+    "fr": "peint à la main",
+    "cs": "ručně malovaný",
+    "pl": "ręcznie malowany",
+    "tr": "el boyaması",
+    "de": "handbemalt",
+    "ja": "手描きの"
+   }
+  },
+  {
+   "parola": "la vetrina",
+   "forme": [
+    "vetrine"
+   ],
+   "formeEsempi": [
+    "vetrina"
+   ],
+   "esempi": [
+    "Guardo le scarpe in vetrina.",
+    "La vetrina del negozio è bellissima.",
+    "In vetrina c'è un vestito rosso."
+   ],
+   "traduzioni": {
+    "en": "shop window",
+    "es": "escaparate, vitrina",
+    "pt": "vitrine",
+    "fr": "vitrine",
+    "cs": "výloha",
+    "pl": "wystawa sklepowa, witryna",
+    "tr": "vitrin",
+    "de": "Schaufenster",
+    "ja": "ショーウィンドウ"
+   }
+  },
+  {
+   "parola": "la foto",
+   "forme": [
+    "foto"
+   ],
+   "esempi": [
+    "Posso fare una foto?",
+    "Faccio una foto alla piazza.",
+    "Facciamo una foto insieme!"
+   ],
+   "traduzioni": {
+    "en": "photo («fare una foto» = to take a photo)",
+    "es": "foto («fare una foto» = hacer una foto)",
+    "pt": "foto («fare una foto» = tirar uma foto)",
+    "fr": "photo («fare una foto» = prendre une photo)",
+    "cs": "fotka («fare una foto» = vyfotit)",
+    "pl": "zdjęcie («fare una foto» = zrobić zdjęcie)",
+    "tr": "fotoğraf («fare una foto» = fotoğraf çekmek)",
+    "de": "Foto («fare una foto» = ein Foto machen)",
+    "ja": "写真（fare una foto＝写真を撮る）"
+   }
+  },
+  {
+   "parola": "l'orologio",
+   "forme": [
+    "orologio"
+   ],
+   "esempi": [
+    "Che ore sono? Guardo l'orologio.",
+    "Il mio orologio è nuovo.",
+    "In cucina c'è un orologio grande."
+   ],
+   "traduzioni": {
+    "en": "watch, clock",
+    "es": "reloj",
+    "pt": "relógio",
+    "fr": "montre, horloge",
+    "cs": "hodinky, hodiny",
+    "pl": "zegarek, zegar",
+    "tr": "saat",
+    "de": "Uhr",
+    "ja": "時計"
+   }
+  },
+  {
+   "parola": "chiuso",
+   "forme": [
+    "chiusa",
+    "chiuso"
+   ],
+   "esempi": [
+    "Il museo è chiuso il lunedì.",
+    "La banca è chiusa.",
+    "Oggi il bar è chiuso."
+   ],
+   "traduzioni": {
+    "en": "closed",
+    "es": "cerrado",
+    "pt": "fechado",
+    "fr": "fermé",
+    "cs": "zavřený",
+    "pl": "zamknięty",
+    "tr": "kapalı",
+    "de": "geschlossen",
+    "ja": "閉まっている"
+   }
+  },
+  {
+   "parola": "il cartello",
+   "forme": [
+    "cartello"
+   ],
+   "esempi": [
+    "Sul cartello c'è scritto «Aperto».",
+    "Leggi il cartello sulla porta!",
+    "Il cartello dice: «Vietato fumare»."
+   ],
+   "traduzioni": {
+    "en": "sign, notice",
+    "es": "cartel, letrero",
+    "pt": "placa, aviso",
+    "fr": "panneau, pancarte",
+    "cs": "cedule",
+    "pl": "tabliczka, kartka",
+    "tr": "tabela, levha",
+    "de": "Schild",
+    "ja": "貼り紙、看板"
+   }
+  },
+  {
+   "parola": "l'orario",
+   "forme": [
+    "orario"
+   ],
+   "esempi": [
+    "Qual è l'orario del museo?",
+    "L'orario del negozio è sulla porta.",
+    "L'orario della banca è dalle 8.30 alle 13.30."
+   ],
+   "traduzioni": {
+    "en": "opening hours",
+    "es": "horario",
+    "pt": "horário (de funcionamento)",
+    "fr": "horaires (d'ouverture)",
+    "cs": "otevírací doba",
+    "pl": "godziny otwarcia",
+    "tr": "çalışma saatleri",
+    "de": "Öffnungszeiten",
+    "ja": "営業時間"
+   }
+  },
+  {
+   "parola": "fino a",
+   "forme": [
+    "fino"
+   ],
+   "esempi": [
+    "Lavoro fino alle sei.",
+    "Il bar è aperto fino a mezzanotte.",
+    "La domenica dormo fino alle nove."
+   ],
+   "traduzioni": {
+    "en": "until",
+    "es": "hasta",
+    "pt": "até",
+    "fr": "jusqu'à",
+    "cs": "až do",
+    "pl": "do (godziny)",
+    "tr": "-e kadar",
+    "de": "bis",
+    "ja": "〜まで"
+   }
+  },
+  {
+   "parola": "camminare",
+   "forme": [
+    "cammina"
+   ],
+   "formeEsempi": [
+    "cammino",
+    "camminiamo",
+    "camminare"
+   ],
+   "esempi": [
+    "Cammino molto ogni giorno.",
+    "Camminiamo fino al parco.",
+    "Mi piace camminare in centro."
+   ],
+   "traduzioni": {
+    "en": "to walk",
+    "es": "caminar",
+    "pt": "caminhar, andar",
+    "fr": "marcher",
+    "cs": "chodit, jít pěšky",
+    "pl": "iść, spacerować",
+    "tr": "yürümek",
+    "de": "(zu Fuß) gehen",
+    "ja": "歩く"
+   }
+  },
+  {
+   "parola": "la strada",
+   "forme": [
+    "strada"
+   ],
+   "esempi": [
+    "La mia casa è in questa strada.",
+    "Attraversa la strada con attenzione.",
+    "La strada è piena di negozi."
+   ],
+   "traduzioni": {
+    "en": "street, road",
+    "es": "calle",
+    "pt": "rua",
+    "fr": "rue",
+    "cs": "ulice",
+    "pl": "ulica",
+    "tr": "sokak, cadde",
+    "de": "Straße",
+    "ja": "通り、道"
+   }
+  },
+  {
+   "parola": "principale",
+   "forme": [
+    "principale"
+   ],
+   "esempi": [
+    "La piazza principale è vicina.",
+    "Questa è l'entrata principale.",
+    "Il corso principale è pieno di gente."
+   ],
+   "traduzioni": {
+    "en": "main",
+    "es": "principal",
+    "pt": "principal",
+    "fr": "principal",
+    "cs": "hlavní",
+    "pl": "główny",
+    "tr": "ana",
+    "de": "Haupt- (die Hauptstraße)",
+    "ja": "メインの、大〜（大通り）"
+   }
+  },
+  {
+   "parola": "la farmacia",
+   "forme": [
+    "farmacia"
+   ],
+   "esempi": [
+    "La farmacia è aperta anche la domenica?",
+    "Compro l'aspirina in farmacia.",
+    "C'è una farmacia qui vicino?"
+   ],
+   "traduzioni": {
+    "en": "pharmacy, chemist's",
+    "es": "farmacia",
+    "pt": "farmácia",
+    "fr": "pharmacie",
+    "cs": "lékárna",
+    "pl": "apteka",
+    "tr": "eczane",
+    "de": "Apotheke",
+    "ja": "薬局"
+   }
+  },
+  {
+   "parola": "la scarpa",
+   "forme": [
+    "scarpe"
+   ],
+   "esempi": [
+    "Queste scarpe sono comode.",
+    "Compro un paio di scarpe nuove.",
+    "Dove sono le mie scarpe?"
+   ],
+   "traduzioni": {
+    "en": "shoe",
+    "es": "zapato",
+    "pt": "sapato",
+    "fr": "chaussure",
+    "cs": "bota",
+    "pl": "but",
+    "tr": "ayakkabı",
+    "de": "Schuh",
+    "ja": "靴"
+   }
+  },
+  {
+   "parola": "la cartoleria",
+   "forme": [
+    "cartoleria"
+   ],
+   "esempi": [
+    "Compro un quaderno in cartoleria.",
+    "La cartoleria vende penne e matite.",
+    "Vicino alla scuola c'è una cartoleria."
+   ],
+   "traduzioni": {
+    "en": "stationery shop",
+    "es": "papelería",
+    "pt": "papelaria",
+    "fr": "papeterie",
+    "cs": "papírnictví",
+    "pl": "sklep papierniczy",
+    "tr": "kırtasiye",
+    "de": "Schreibwarenladen",
+    "ja": "文房具店"
+   }
+  },
+  {
+   "parola": "vuoto",
+   "forme": [
+    "vuota"
+   ],
+   "formeEsempi": [
+    "vuoto"
+   ],
+   "esempi": [
+    "Il frigorifero è vuoto.",
+    "Alle due la piazza è vuota.",
+    "La bottiglia è vuota."
+   ],
+   "traduzioni": {
+    "en": "empty",
+    "es": "vacío",
+    "pt": "vazio",
+    "fr": "vide",
+    "cs": "prázdný",
+    "pl": "pusty",
+    "tr": "boş",
+    "de": "leer",
+    "ja": "空っぽの、人けのない"
+   }
+  },
+  {
+   "parola": "avere fame",
+   "forme": [
+    "fame"
+   ],
+   "esempi": [
+    "Ho fame: mangiamo?",
+    "I bambini hanno fame.",
+    "Hai fame? C'è la pizza."
+   ],
+   "traduzioni": {
+    "en": "to be hungry",
+    "es": "tener hambre",
+    "pt": "estar com fome",
+    "fr": "avoir faim",
+    "cs": "mít hlad",
+    "pl": "być głodnym",
+    "tr": "acıkmak, aç olmak",
+    "de": "Hunger haben",
+    "ja": "お腹がすいている"
+   }
+  },
+  {
+   "parola": "la piazza",
+   "forme": [
+    "piazza"
+   ],
+   "esempi": [
+    "Ci vediamo in piazza alle otto.",
+    "In piazza c'è un mercato.",
+    "La piazza del paese è piccola."
+   ],
+   "traduzioni": {
+    "en": "square (in a town)",
+    "es": "plaza",
+    "pt": "praça",
+    "fr": "place",
+    "cs": "náměstí",
+    "pl": "plac, rynek",
+    "tr": "meydan",
+    "de": "Platz",
+    "ja": "広場"
+   }
+  },
+  {
+   "parola": "aperto",
+   "forme": [
+    "aperta"
+   ],
+   "formeEsempi": [
+    "aperto"
+   ],
+   "esempi": [
+    "Il supermercato è aperto fino alle nove.",
+    "La finestra è aperta.",
+    "La farmacia è aperta la domenica."
+   ],
+   "traduzioni": {
+    "en": "open",
+    "es": "abierto",
+    "pt": "aberto",
+    "fr": "ouvert",
+    "cs": "otevřený",
+    "pl": "otwarty",
+    "tr": "açık",
+    "de": "geöffnet, offen",
+    "ja": "開いている"
+   }
+  },
+  {
+   "parola": "dentro",
+   "forme": [
+    "dentro"
+   ],
+   "esempi": [
+    "Fa freddo: andiamo dentro.",
+    "Dentro la borsa c'è il telefono.",
+    "Il gatto è dentro casa."
+   ],
+   "traduzioni": {
+    "en": "inside",
+    "es": "dentro",
+    "pt": "dentro",
+    "fr": "dedans, à l'intérieur",
+    "cs": "uvnitř",
+    "pl": "w środku",
+    "tr": "içeride",
+    "de": "drinnen",
+    "ja": "中に"
+   }
+  },
+  {
+   "parola": "la famiglia",
+   "forme": [
+    "famiglie"
+   ],
+   "formeEsempi": [
+    "famiglia"
+   ],
+   "esempi": [
+    "La mia famiglia è grande.",
+    "Molte famiglie vanno al mare ad agosto.",
+    "Vivo con la mia famiglia."
+   ],
+   "traduzioni": {
+    "en": "family",
+    "es": "familia",
+    "pt": "família",
+    "fr": "famille",
+    "cs": "rodina",
+    "pl": "rodzina",
+    "tr": "aile",
+    "de": "Familie",
+    "ja": "家族"
+   }
+  },
+  {
+   "parola": "l'operaio",
+   "forme": [
+    "operai"
+   ],
+   "formeEsempi": [
+    "operaio"
+   ],
+   "esempi": [
+    "Gli operai lavorano in strada.",
+    "Mio padre è operaio.",
+    "L'operaio mangia un panino."
+   ],
+   "traduzioni": {
+    "en": "worker, workman",
+    "es": "obrero",
+    "pt": "operário",
+    "fr": "ouvrier",
+    "cs": "dělník",
+    "pl": "robotnik",
+    "tr": "işçi",
+    "de": "Arbeiter",
+    "ja": "作業員、職人"
+   }
+  },
+  {
+   "parola": "il cappello",
+   "forme": [
+    "cappello"
+   ],
+   "esempi": [
+    "Il nonno porta sempre il cappello.",
+    "D'estate metto un cappello.",
+    "Ho un cappello nero."
+   ],
+   "traduzioni": {
+    "en": "hat",
+    "es": "sombrero",
+    "pt": "chapéu",
+    "fr": "chapeau",
+    "cs": "klobouk",
+    "pl": "kapelusz",
+    "tr": "şapka",
+    "de": "Hut",
+    "ja": "帽子"
+   }
+  },
+  {
+   "parola": "ad alta voce",
+   "forme": [
+    "voce"
+   ],
+   "esempi": [
+    "Leggi il testo ad alta voce.",
+    "In treno non parlare ad alta voce.",
+    "I bambini ridono ad alta voce."
+   ],
+   "traduzioni": {
+    "en": "loudly, out loud",
+    "es": "en voz alta",
+    "pt": "em voz alta",
+    "fr": "à voix haute, fort",
+    "cs": "nahlas",
+    "pl": "głośno",
+    "tr": "yüksek sesle",
+    "de": "laut",
+    "ja": "大きな声で"
+   }
+  },
+  {
+   "parola": "il tavolo",
+   "forme": [
+    "tavolo"
+   ],
+   "esempi": [
+    "Un tavolo per due, per favore.",
+    "Il tavolo vicino alla finestra è libero.",
+    "Prenoto un tavolo per stasera."
+   ],
+   "traduzioni": {
+    "en": "table (in a restaurant)",
+    "es": "mesa",
+    "pt": "mesa",
+    "fr": "table",
+    "cs": "stůl",
+    "pl": "stolik",
+    "tr": "masa",
+    "de": "Tisch",
+    "ja": "テーブル、席"
+   }
+  },
+  {
+   "parola": "si accomodi",
+   "forme": [
+    "accomodi"
+   ],
+   "esempi": [
+    "Prego, si accomodi!",
+    "Si accomodi, il dottore arriva subito.",
+    "Si accomodi pure a questo tavolo."
+   ],
+   "traduzioni": {
+    "en": "please come in / have a seat (polite)",
+    "es": "pase, siéntese (de usted)",
+    "pt": "fique à vontade, pode sentar",
+    "fr": "installez-vous, entrez",
+    "cs": "pojďte dál, posaďte se",
+    "pl": "proszę usiąść, zapraszam",
+    "tr": "buyurun, oturun",
+    "de": "nehmen Sie Platz, kommen Sie herein",
+    "ja": "どうぞお座りください"
+   }
+  },
+  {
+   "parola": "il piatto",
+   "forme": [
+    "piatto"
+   ],
+   "esempi": [
+    "La pizza è il mio piatto preferito.",
+    "Un piatto di pasta, per favore.",
+    "Questo piatto è tipico di Napoli."
+   ],
+   "traduzioni": {
+    "en": "dish, plate (of food)",
+    "es": "plato",
+    "pt": "prato",
+    "fr": "plat, assiette",
+    "cs": "jídlo, talíř (jídla)",
+    "pl": "danie, talerz",
+    "tr": "yemek, tabak",
+    "de": "Gericht, Teller",
+    "ja": "料理、一皿"
+   }
+  },
+  {
+   "parola": "i pici",
+   "forme": [
+    "pici"
+   ],
+   "esempi": [
+    "I pici sono una pasta lunga e grossa.",
+    "In Toscana mangio sempre i pici.",
+    "Mia nonna fa i pici a mano."
+   ],
+   "traduzioni": {
+    "en": "pici (thick hand-rolled pasta from Siena)",
+    "es": "pici (pasta gruesa hecha a mano, de Siena)",
+    "pt": "pici (massa grossa feita à mão, de Siena)",
+    "fr": "pici (grosses pâtes roulées à la main, de Sienne)",
+    "cs": "pici (silné ručně válené těstoviny ze Sieny)",
+    "pl": "pici (grube, ręcznie robione makarony ze Sieny)",
+    "tr": "pici (Siena'ya özgü, elde açılan kalın makarna)",
+    "de": "Pici (dicke handgerollte Nudeln aus Siena)",
+    "ja": "ピチ（シエナの手打ちの太いパスタ）"
+   }
+  },
+  {
+   "parola": "tipico",
+   "forme": [
+    "tipica"
+   ],
+   "formeEsempi": [
+    "tipico"
+   ],
+   "esempi": [
+    "Il pesto è un piatto tipico di Genova.",
+    "Mangiamo in un ristorante tipico.",
+    "La ribollita è una zuppa tipica toscana."
+   ],
+   "traduzioni": {
+    "en": "typical, traditional (of a place)",
+    "es": "típico",
+    "pt": "típico",
+    "fr": "typique, traditionnel",
+    "cs": "typický, tradiční",
+    "pl": "typowy, tradycyjny",
+    "tr": "yöresel",
+    "de": "typisch",
+    "ja": "名物の、郷土の"
+   }
+  },
+  {
+   "parola": "prendere (un caffè)",
+   "forme": [
+    "prende"
+   ],
+   "formeEsempi": [
+    "prendiamo",
+    "prendo"
+   ],
+   "esempi": [
+    "Prendiamo un caffè al bar?",
+    "La mattina prendo un caffè.",
+    "Dopo pranzo prende sempre un caffè."
+   ],
+   "traduzioni": {
+    "en": "to have a coffee",
+    "es": "tomar un café",
+    "pt": "tomar um café",
+    "fr": "prendre un café",
+    "cs": "dát si kávu",
+    "pl": "napić się kawy",
+    "tr": "kahve içmek",
+    "de": "einen Kaffee trinken",
+    "ja": "コーヒーを飲む"
+   },
+   "contesto": "caffè"
+  },
+  {
+   "parola": "leggere",
+   "forme": [
+    "legge"
+   ],
+   "formeEsempi": [
+    "leggo",
+    "leggere"
+   ],
+   "esempi": [
+    "La sera leggo un libro.",
+    "Mi piace leggere in treno.",
+    "Marta legge il giornale al bar."
+   ],
+   "traduzioni": {
+    "en": "to read",
+    "es": "leer",
+    "pt": "ler",
+    "fr": "lire",
+    "cs": "číst",
+    "pl": "czytać",
+    "tr": "okumak",
+    "de": "lesen",
+    "ja": "読む"
+   }
+  },
+  {
+   "parola": "il conto",
+   "forme": [
+    "conto"
+   ],
+   "esempi": [
+    "Scusi, possiamo chiedere il conto?",
+    "Alla fine della cena chiedo il conto.",
+    "Il conto, per favore!"
+   ],
+   "traduzioni": {
+    "en": "bill, check («chiedere il conto» = to ask for the bill)",
+    "es": "cuenta («chiedere il conto» = pedir la cuenta)",
+    "pt": "conta («chiedere il conto» = pedir a conta)",
+    "fr": "addition («chiedere il conto» = demander l'addition)",
+    "cs": "účet («chiedere il conto» = požádat o účet)",
+    "pl": "rachunek («chiedere il conto» = poprosić o rachunek)",
+    "tr": "hesap («chiedere il conto» = hesabı istemek)",
+    "de": "Rechnung («chiedere il conto» = um die Rechnung bitten)",
+    "ja": "お会計（chiedere il conto＝お会計を頼む）"
+   }
+  },
+  {
+   "parola": "prendere (in mano)",
+   "forme": [
+    "prende"
+   ],
+   "contesto": "chiavi",
+   "formeEsempi": [
+    "prendo",
+    "prendi"
+   ],
+   "esempi": [
+    "Prendo il telefono e chiamo Luca.",
+    "Prendi le chiavi, per favore!",
+    "Marco prende la borsa ed esce."
+   ],
+   "traduzioni": {
+    "en": "to pick up, to take",
+    "es": "coger, tomar",
+    "pt": "pegar",
+    "fr": "prendre",
+    "cs": "vzít",
+    "pl": "wziąć",
+    "tr": "almak, eline almak",
+    "de": "nehmen",
+    "ja": "手に取る"
+   }
+  },
+  {
+   "parola": "il mazzo di chiavi",
+   "forme": [
+    "mazzo"
+   ],
+   "esempi": [
+    "Non trovo il mazzo di chiavi.",
+    "Il portiere ha un grande mazzo di chiavi.",
+    "Lascio il mazzo di chiavi sul tavolo."
+   ],
+   "traduzioni": {
+    "en": "bunch of keys",
+    "es": "manojo de llaves",
+    "pt": "molho de chaves",
+    "fr": "trousseau de clés",
+    "cs": "svazek klíčů",
+    "pl": "pęk kluczy",
+    "tr": "anahtar destesi",
+    "de": "Schlüsselbund",
+    "ja": "鍵の束"
+   }
+  },
+  {
+   "parola": "salutare",
+   "forme": [
+    "saluta"
+   ],
+   "formeEsempi": [
+    "saluto",
+    "salutami"
+   ],
+   "esempi": [
+    "Saluto i colleghi e vado a casa.",
+    "Esce e saluta tutti.",
+    "Salutami tua sorella!"
+   ],
+   "traduzioni": {
+    "en": "to say goodbye (or hello) to",
+    "es": "despedirse de, saludar",
+    "pt": "despedir-se de, cumprimentar",
+    "fr": "dire au revoir, saluer",
+    "cs": "rozloučit se, pozdravit",
+    "pl": "pożegnać się, pozdrowić",
+    "tr": "vedalaşmak, selam vermek",
+    "de": "sich verabschieden, grüßen",
+    "ja": "あいさつする"
+   }
+  },
+  {
+   "parola": "il cameriere",
+   "forme": [
+    "cameriere"
+   ],
+   "esempi": [
+    "Il cameriere porta il menù.",
+    "Chiedo un bicchiere d'acqua al cameriere.",
+    "Il cameriere è molto gentile."
+   ],
+   "traduzioni": {
+    "en": "waiter",
+    "es": "camarero",
+    "pt": "garçom",
+    "fr": "serveur",
+    "cs": "číšník",
+    "pl": "kelner",
+    "tr": "garson",
+    "de": "Kellner",
+    "ja": "ウェイター"
+   }
+  },
+  {
+   "parola": "attraversare",
+   "forme": [
+    "attraversa"
+   ],
+   "formeEsempi": [
+    "attraversiamo",
+    "attraverso"
+   ],
+   "esempi": [
+    "Attraversa la strada sulle strisce.",
+    "Attraversiamo il ponte a piedi.",
+    "Per andare in stazione attraverso il parco."
+   ],
+   "traduzioni": {
+    "en": "to cross",
+    "es": "cruzar, atravesar",
+    "pt": "atravessar",
+    "fr": "traverser",
+    "cs": "přejít",
+    "pl": "przejść (przez)",
+    "tr": "karşıya geçmek, geçmek",
+    "de": "überqueren",
+    "ja": "渡る、横切る"
+   }
+  },
+  {
+   "parola": "in punto",
+   "forme": [
+    "punto"
+   ],
+   "esempi": [
+    "Il film comincia alle nove in punto.",
+    "Arrivo alle otto in punto.",
+    "Sono le tre in punto."
+   ],
+   "traduzioni": {
+    "en": "sharp (four o'clock sharp)",
+    "es": "en punto",
+    "pt": "em ponto",
+    "fr": "pile (quatre heures pile)",
+    "cs": "přesně",
+    "pl": "punktualnie, równo",
+    "tr": "tam (saat tam dört)",
+    "de": "punkt (Punkt vier Uhr)",
+    "ja": "ちょうど"
+   }
+  },
+  {
+   "parola": "entrare",
+   "forme": [
+    "entra"
+   ],
+   "formeEsempi": [
+    "entro",
+    "entriamo"
+   ],
+   "esempi": [
+    "Entro in casa e accendo la luce.",
+    "Entriamo? Fa freddo.",
+    "Il professore entra in classe."
+   ],
+   "traduzioni": {
+    "en": "to go in, to enter",
+    "es": "entrar",
+    "pt": "entrar",
+    "fr": "entrer",
+    "cs": "vejít, vstoupit",
+    "pl": "wejść",
+    "tr": "girmek",
+    "de": "hineingehen, eintreten",
+    "ja": "入る"
+   }
+  },
+  {
+   "parola": "dietro",
+   "forme": [
+    "dietro"
+   ],
+   "esempi": [
+    "Il bagno è dietro la cucina.",
+    "C'è un giardino dietro la casa.",
+    "Cammino dietro di te."
+   ],
+   "traduzioni": {
+    "en": "behind",
+    "es": "detrás (de)",
+    "pt": "atrás (de)",
+    "fr": "derrière",
+    "cs": "za",
+    "pl": "za",
+    "tr": "arkasında, arkasından",
+    "de": "hinter",
+    "ja": "後ろに"
+   }
+  },
+  {
+   "parola": "vorrei",
+   "forme": [
+    "vorrei"
+   ],
+   "esempi": [
+    "Vorrei un caffè, per favore.",
+    "Vorrei vedere quella borsa.",
+    "Vorrei prenotare un tavolo."
+   ],
+   "traduzioni": {
+    "en": "I would like",
+    "es": "quisiera, me gustaría",
+    "pt": "eu queria, eu gostaria",
+    "fr": "je voudrais",
+    "cs": "chtěl(a) bych",
+    "pl": "chciał(a)bym",
+    "tr": "… istiyorum (kibar)",
+    "de": "ich hätte gern",
+    "ja": "〜をください、〜したいのですが"
+   }
+  },
+  {
+   "parola": "ridere",
+   "forme": [
+    "ride"
+   ],
+   "formeEsempi": [
+    "rido",
+    "ridono"
+   ],
+   "esempi": [
+    "Quando sono felice rido molto.",
+    "Il bambino ride.",
+    "Ridono tutti insieme."
+   ],
+   "traduzioni": {
+    "en": "to laugh",
+    "es": "reír",
+    "pt": "rir",
+    "fr": "rire",
+    "cs": "smát se",
+    "pl": "śmiać się",
+    "tr": "gülmek",
+    "de": "lachen",
+    "ja": "笑う"
+   }
+  },
+  {
+   "parola": "guardare",
+   "forme": [
+    "guardi"
+   ],
+   "esempi": [
+    "Prego, guardi pure!",
+    "Guardi pure, non c'è problema.",
+    "– Posso guardare? – Certo, guardi pure!"
+   ],
+   "traduzioni": {
+    "en": "to look («guardi pure» = please, have a look — polite)",
+    "es": "mirar («guardi pure» = mire con tranquilidad)",
+    "pt": "olhar («guardi pure» = fique à vontade para olhar)",
+    "fr": "regarder («guardi pure» = regardez, je vous en prie)",
+    "cs": "dívat se («guardi pure» = jen se klidně podívejte)",
+    "pl": "oglądać («guardi pure» = proszę śmiało oglądać)",
+    "tr": "bakmak («guardi pure» = buyurun, rahatça bakın)",
+    "de": "schauen («guardi pure» = schauen Sie sich ruhig um)",
+    "ja": "見る（guardi pure＝どうぞご覧ください）"
+   }
+  },
+  {
+   "parola": "il negozio",
+   "forme": [
+    "negozio",
+    "negozi"
+   ],
+   "esempi": [
+    "Il negozio apre alle nove.",
+    "In centro ci sono tanti negozi.",
+    "Lavoro in un negozio di vestiti."
+   ],
+   "traduzioni": {
+    "en": "shop",
+    "es": "tienda",
+    "pt": "loja",
+    "fr": "magasin, boutique",
+    "cs": "obchod",
+    "pl": "sklep",
+    "tr": "dükkân, mağaza",
+    "de": "Geschäft, Laden",
+    "ja": "店"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "It's Tuesday. Emma is in a small village in Tuscany, near Siena. The village is old, quiet and very beautiful.",
+    "Emma wants to buy a present for her mother: a hand-painted ceramic mug.",
+    "It's half past twelve. Emma looks in the shop windows, takes a few photos and has a coffee at the bar. Then she goes to the ceramics shop. She looks at her watch: it's five past one.",
+    "The door is closed. On the door there's a sign: «Opening hours: 9.00 – 13.00 / 16.00 – 19.30».",
+    "«Closed until four?» Emma thinks. She walks along the main street. The pharmacy is closed too. The shoe shop too. The stationery shop too. The street is empty. Where is everybody?",
+    "Emma is hungry. In the square there's a trattoria that's open. Inside there are lots of people: families, workmen, a gentleman with a hat. Everyone is eating and talking loudly.",
+    "– A table for one?\n– Of course, come in and sit down!",
+    "Emma eats a plate of pici all'aglione, a typical pasta from Siena. At half past two she has a coffee. At three she reads a book. At ten to four she asks for the bill.",
+    "The gentleman with the hat asks for the bill too. Then he picks up a bunch of keys, says goodbye to the waiter and crosses the square. He opens the door… of the ceramics shop! It's exactly four o'clock.",
+    "Emma goes in behind him.\n– Good afternoon! I'd like a mug for my mother.\n– Ah, the pici lady! – the gentleman laughs. – Please, have a look.",
+    "Now Emma knows something new: in many Italian villages, from one to four, the shops go to lunch too."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Es martes. Emma está en un pueblo pequeño de la Toscana, cerca de Siena. El pueblo es antiguo, tranquilo y muy bonito.",
+    "Emma quiere comprar un regalo para su madre: una taza de cerámica pintada a mano.",
+    "Son las doce y media. Emma mira los escaparates, hace algunas fotos y se toma un café en el bar. Después va a la tienda de cerámica. Mira el reloj: es la una y cinco.",
+    "La puerta está cerrada. En la puerta hay un cartel: «Horario: 9.00 – 13.00 / 16.00 – 19.30».",
+    "«¿Cerrado hasta las cuatro?», piensa Emma. Camina por la calle principal. La farmacia también está cerrada. Y la zapatería. Y la papelería. La calle está vacía. ¿Dónde está todo el mundo?",
+    "Emma tiene hambre. En la plaza hay una trattoria abierta. Dentro hay mucha gente: familias, obreros, un señor con sombrero. Todos comen y hablan en voz alta.",
+    "– ¿Una mesa para una persona?\n– ¡Claro, pase y siéntese!",
+    "Emma come un plato de pici all'aglione, una pasta típica de Siena. A las dos y media toma un café. A las tres lee un libro. A las cuatro menos diez pide la cuenta.",
+    "El señor del sombrero también pide la cuenta. Luego coge un manojo de llaves, se despide del camarero y cruza la plaza. Abre la puerta… ¡de la tienda de cerámica! Son las cuatro en punto.",
+    "Emma entra detrás de él.\n– ¡Buenas tardes! Quisiera una taza para mi madre.\n– ¡Ah, la señorita de los pici! –se ríe el señor–. Mire, mire con tranquilidad.",
+    "Ahora Emma sabe algo nuevo: en muchos pueblos italianos, de la una a las cuatro, también las tiendas se van a comer."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "É terça-feira. Emma está numa cidadezinha da Toscana, perto de Siena. A cidadezinha é antiga, tranquila e muito bonita.",
+    "Emma quer comprar um presente para a mãe: uma caneca de cerâmica pintada à mão.",
+    "É meio-dia e meia. Emma olha as vitrines, tira algumas fotos e toma um café no bar. Depois vai à loja de cerâmica. Olha o relógio: é uma e cinco.",
+    "A porta está fechada. Na porta há uma placa: «Horário: 9h00 – 13h00 / 16h00 – 19h30».",
+    "«Fechado até as quatro?», pensa Emma. Ela anda pela rua principal. A farmácia também está fechada. A loja de sapatos também. A papelaria também. A rua está vazia. Onde está todo mundo?",
+    "Emma está com fome. Na praça há uma trattoria aberta. Lá dentro há muita gente: famílias, operários, um senhor de chapéu. Todos comem e falam alto.",
+    "– Uma mesa para uma pessoa?\n– Claro, fique à vontade!",
+    "Emma come um prato de pici all'aglione, uma massa típica de Siena. Às duas e meia toma um café. Às três lê um livro. Às quatro menos dez pede a conta.",
+    "O senhor de chapéu também pede a conta. Depois pega um molho de chaves, se despede do garçom e atravessa a praça. Abre a porta… da loja de cerâmica! São quatro em ponto.",
+    "Emma entra atrás dele.\n– Boa tarde! Eu queria uma caneca para a minha mãe.\n– Ah, a moça dos pici! – ri o senhor. – Por favor, fique à vontade para olhar.",
+    "Agora Emma sabe uma coisa nova: em muitas cidadezinhas italianas, da uma às quatro, as lojas também vão almoçar."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "C'est mardi. Emma est dans un petit village de Toscane, près de Sienne. Le village est ancien, calme et très beau.",
+    "Emma veut acheter un cadeau pour sa mère : une tasse en céramique peinte à la main.",
+    "Il est midi et demi. Emma regarde les vitrines, prend quelques photos et boit un café au bar. Puis elle va au magasin de céramiques. Elle regarde sa montre : il est une heure cinq.",
+    "La porte est fermée. Sur la porte, il y a une pancarte : « Horaires : 9h00 – 13h00 / 16h00 – 19h30 ».",
+    "« Fermé jusqu'à quatre heures ? » pense Emma. Elle marche dans la rue principale. La pharmacie aussi est fermée. Le magasin de chaussures aussi. La papeterie aussi. La rue est vide. Où sont-ils tous ?",
+    "Emma a faim. Sur la place, il y a une trattoria ouverte. Dedans, il y a beaucoup de monde : des familles, des ouvriers, un monsieur avec un chapeau. Tout le monde mange et parle fort.",
+    "– Une table pour une personne ?\n– Bien sûr, installez-vous !",
+    "Emma mange une assiette de pici all'aglione, des pâtes typiques de Sienne. À deux heures et demie, elle prend un café. À trois heures, elle lit un livre. À quatre heures moins dix, elle demande l'addition.",
+    "Le monsieur au chapeau demande lui aussi l'addition. Puis il prend un trousseau de clés, dit au revoir au serveur et traverse la place. Il ouvre la porte… du magasin de céramiques ! Il est quatre heures pile.",
+    "Emma entre derrière lui.\n– Bonjour ! Je voudrais une tasse pour ma mère.\n– Ah, la demoiselle des pici ! rit le monsieur. Regardez, je vous en prie.",
+    "Maintenant, Emma sait quelque chose de nouveau : dans beaucoup de villages italiens, d'une heure à quatre heures, les magasins aussi vont déjeuner."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Je úterý. Emma je v malém městečku v Toskánsku, nedaleko Sieny. Městečko je starobylé, klidné a moc hezké.",
+    "Emma chce koupit dárek pro maminku: ručně malovaný keramický hrnek.",
+    "Je půl jedné. Emma si prohlíží výlohy, udělá pár fotek a v baru si dá kávu. Potom jde do obchodu s keramikou. Podívá se na hodinky: je jedna a pět minut.",
+    "Dveře jsou zavřené. Na dveřích visí cedule: „Otevírací doba: 9.00 – 13.00 / 16.00 – 19.30“.",
+    "„Zavřeno až do čtyř?“ myslí si Emma. Jde hlavní ulicí. Lékárna je taky zavřená. Obchod s botami taky. Papírnictví taky. Ulice je prázdná. Kde jsou všichni?",
+    "Emma má hlad. Na náměstí je otevřená trattoria. Uvnitř je spousta lidí: rodiny, dělníci, pán s kloboukem. Všichni jedí a mluví nahlas.",
+    "– Stůl pro jednoho?\n– Samozřejmě, posaďte se!",
+    "Emma jí talíř pici all'aglione, typických těstovin ze Sieny. V půl třetí si dá kávu. Ve tři čte knížku. Za deset minut čtyři požádá o účet.",
+    "Pán s kloboukem taky požádá o účet. Pak vezme svazek klíčů, rozloučí se s číšníkem a přejde náměstí. Otevře dveře… obchodu s keramikou! Jsou přesně čtyři hodiny.",
+    "Emma vejde za ním.\n– Dobrý den! Chtěla bych hrnek pro maminku.\n– Á, slečna od pici! – směje se pán. – Prosím, jen se klidně podívejte.",
+    "Teď Emma ví něco nového: v mnoha italských městečkách chodí od jedné do čtyř na oběd i obchody."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jest wtorek. Emma jest w małym miasteczku w Toskanii, niedaleko Sieny. Miasteczko jest stare, spokojne i bardzo ładne.",
+    "Emma chce kupić prezent dla mamy: ręcznie malowany ceramiczny kubek.",
+    "Jest wpół do pierwszej. Emma ogląda wystawy sklepowe, robi kilka zdjęć i pije kawę w barze. Potem idzie do sklepu z ceramiką. Patrzy na zegarek: jest pięć po pierwszej.",
+    "Drzwi są zamknięte. Na drzwiach wisi kartka: „Godziny otwarcia: 9.00 – 13.00 / 16.00 – 19.30”.",
+    "„Zamknięte do czwartej?” – myśli Emma. Idzie główną ulicą. Apteka też jest zamknięta. Sklep z butami też. Sklep papierniczy też. Ulica jest pusta. Gdzie są wszyscy?",
+    "Emma jest głodna. Na placu jest otwarta trattoria. W środku jest mnóstwo ludzi: rodziny, robotnicy, pan w kapeluszu. Wszyscy jedzą i głośno rozmawiają.",
+    "– Stolik dla jednej osoby?\n– Oczywiście, zapraszam!",
+    "Emma je talerz pici all'aglione, typowego makaronu ze Sieny. O wpół do trzeciej pije kawę. O trzeciej czyta książkę. Za dziesięć czwarta prosi o rachunek.",
+    "Pan w kapeluszu też prosi o rachunek. Potem bierze pęk kluczy, żegna się z kelnerem i przechodzi przez plac. Otwiera drzwi… sklepu z ceramiką! Jest punktualnie czwarta.",
+    "Emma wchodzi za nim.\n– Dzień dobry! Chciałabym kubek dla mamy.\n– A, to pani od pici! – śmieje się pan. – Proszę, niech pani śmiało ogląda.",
+    "Teraz Emma wie coś nowego: w wielu włoskich miasteczkach od pierwszej do czwartej na obiad idą także sklepy."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Salı günü. Emma, Toskana'da, Siena'nın yakınında küçük bir kasabada. Kasaba eski, sakin ve çok güzel.",
+    "Emma annesine bir hediye almak istiyor: elde boyanmış seramik bir kupa.",
+    "Saat on iki buçuk. Emma vitrinlere bakıyor, birkaç fotoğraf çekiyor ve barda bir kahve içiyor. Sonra seramik dükkânına gidiyor. Saatine bakıyor: biri beş geçiyor.",
+    "Kapı kapalı. Kapıda bir tabela var: «Çalışma saatleri: 9.00 – 13.00 / 16.00 – 19.30».",
+    "«Saat dörde kadar kapalı mı?» diye düşünüyor Emma. Ana caddede yürüyor. Eczane de kapalı. Ayakkabıcı da. Kırtasiye de. Cadde bomboş. Herkes nerede?",
+    "Emma acıkıyor. Meydanda açık bir lokanta var. İçeride çok kalabalık: aileler, işçiler, şapkalı bir bey. Herkes yemek yiyor ve yüksek sesle konuşuyor.",
+    "– Bir kişilik masa var mı?\n– Tabii, buyurun oturun!",
+    "Emma bir tabak pici all'aglione yiyor; Siena'ya özgü bir makarna. İki buçukta bir kahve içiyor. Üçte kitap okuyor. Dörde on kala hesabı istiyor.",
+    "Şapkalı bey de hesabı istiyor. Sonra bir deste anahtar alıyor, garsonla vedalaşıyor ve meydanı geçiyor. Kapıyı açıyor… seramik dükkânının kapısını! Saat tam dört.",
+    "Emma onun arkasından içeri giriyor.\n– İyi akşamlar! Annem için bir kupa istiyorum.\n– Aa, pici yiyen hanımefendi! – diye gülüyor bey. – Buyurun, rahatça bakın.",
+    "Artık Emma yeni bir şey biliyor: birçok İtalyan kasabasında, saat birden dörde kadar dükkânlar da öğle yemeğine gidiyor."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Es ist Dienstag. Emma ist in einem kleinen Dorf in der Toskana, in der Nähe von Siena. Das Dorf ist alt, ruhig und sehr schön.",
+    "Emma will ein Geschenk für ihre Mutter kaufen: eine handbemalte Keramiktasse.",
+    "Es ist halb eins. Emma schaut sich die Schaufenster an, macht ein paar Fotos und trinkt in der Bar einen Kaffee. Dann geht sie zum Keramikladen. Sie schaut auf die Uhr: Es ist fünf nach eins.",
+    "Die Tür ist geschlossen. An der Tür hängt ein Schild: „Öffnungszeiten: 9.00 – 13.00 / 16.00 – 19.30“.",
+    "„Geschlossen bis vier?“, denkt Emma. Sie geht die Hauptstraße entlang. Auch die Apotheke ist geschlossen. Auch das Schuhgeschäft. Auch der Schreibwarenladen. Die Straße ist leer. Wo sind denn alle?",
+    "Emma hat Hunger. Auf dem Platz gibt es eine geöffnete Trattoria. Drinnen sind viele Leute: Familien, Arbeiter, ein Herr mit Hut. Alle essen und reden laut.",
+    "– Ein Tisch für eine Person?\n– Natürlich, nehmen Sie Platz!",
+    "Emma isst einen Teller Pici all'aglione, eine typische Nudelsorte aus Siena. Um halb drei trinkt sie einen Kaffee. Um drei liest sie ein Buch. Um zehn vor vier bittet sie um die Rechnung.",
+    "Auch der Herr mit dem Hut bittet um die Rechnung. Dann nimmt er einen Schlüsselbund, verabschiedet sich vom Kellner und überquert den Platz. Er öffnet die Tür … des Keramikladens! Es ist Punkt vier Uhr.",
+    "Emma geht hinter ihm hinein.\n– Guten Tag! Ich hätte gern eine Tasse für meine Mutter.\n– Ah, die junge Frau mit den Pici! – lacht der Herr. – Bitte, schauen Sie sich ruhig um.",
+    "Jetzt weiß Emma etwas Neues: In vielen italienischen Dörfern machen von eins bis vier auch die Geschäfte Mittagspause."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "火曜日。エマはトスカーナ州の小さな町にいる。シエナの近くだ。町は古くて静かで、とてもきれいだ。",
+    "エマはお母さんへのプレゼントを買いたい。手描きの陶器のマグカップだ。",
+    "12時半。エマはショーウィンドウを見て、写真を何枚か撮り、バールでコーヒーを飲む。それから陶器の店へ行く。時計を見ると、1時5分だ。",
+    "ドアは閉まっている。ドアに貼り紙がある。「営業時間：9:00〜13:00／16:00〜19:30」",
+    "「4時まで閉まっているの？」とエマは思う。大通りを歩く。薬局も閉まっている。靴屋も。文房具店も。通りには誰もいない。みんな、どこにいるの？",
+    "エマはお腹がすいている。広場に開いているトラットリアがある。中には人がたくさんいる。家族連れ、作業員、帽子をかぶったおじさん。みんな食べながら、大きな声で話している。",
+    "「一人なんですが、席はありますか？」\n「もちろん、どうぞお座りください！」",
+    "エマはピチ・アッラリオーネを一皿食べる。シエナ名物のパスタだ。2時半にコーヒーを飲む。3時に本を読む。4時10分前にお会計を頼む。",
+    "帽子のおじさんもお会計を頼む。それから鍵の束を手に取り、ウェイターにあいさつして広場を横切る。そしてドアを開ける……陶器の店のドアを！ちょうど4時だ。",
+    "エマはおじさんの後ろから店に入る。\n「こんにちは！母にマグカップがほしいんですが。」\n「ああ、ピチのお嬢さん！」とおじさんは笑う。「どうぞ、ゆっくりご覧ください。」",
+    "エマは新しいことを知った。イタリアの多くの町では、1時から4時まで、お店もお昼ごはんの時間なのだ。"
+   ]
+  }
+ }
+}
