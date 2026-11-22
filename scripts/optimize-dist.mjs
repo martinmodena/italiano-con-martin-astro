@@ -173,6 +173,16 @@ for (const page of htmlFiles(DIST)) {
   }
   for (const [index, from, to] of replacements.reverse()) html = html.slice(0, index) + to + html.slice(index + from.length);
 
+  // Indici del vocabolario: le barre del progresso (vocabulary-progress.js) arrivano dopo il primo
+  // disegno e spostavano la griglia (CLS). Qui si mettono già vuote; lo script le sostituisce.
+  if (html.includes('vocabulary-progress.js') && html.includes('<div class="vocabulary-grid') && !html.includes('course-progress-container')) {
+    const bar = (cls, style = '') =>
+      `<div class="${cls}"${style}><div class="progress-heading"><strong>&nbsp;</strong> <span>…</span></div><progress max="100" value="0"></progress></div>`;
+    html = html.replace('<div class="vocabulary-grid', `<div class="course-progress-container">${bar('course-progress-summary')}</div><div class="vocabulary-grid`);
+    html = html.replace(/(<a class="vocabulary-category[^"]*" href="[^"]+"[^>]*>(?:(?!<\/a>)[\s\S])*?)(<\/div><\/a>)/g,
+      (all, start, end) => `${start}${bar('lesson-link-progress', ' style="margin-top:auto;padding-top:14px"')}${end}`);
+  }
+
   // CSS e JS locali.
   html = html.replace(/(<(?:link[^>]*\shref|script[^>]*\ssrc)=")([^"]+\.(?:css|js))(?:\?v=[^"]*)?(")/g, (all, start, url, end) => {
     if (/^(https?:|\/\/)/.test(url)) return all;
