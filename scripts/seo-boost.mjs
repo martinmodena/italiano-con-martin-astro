@@ -602,16 +602,6 @@ const GRAMMAR_DESCRIPTIONS = {
     de: "Lernen Sie, wann man im Italienischen un, uno, una und un' verwendet – mit einfachen Erklärungen, vollständiger Tabelle und interaktiven Übungen mit sofortiger Korrektur.",
     ja: "イタリア語の不定冠詞 un、uno、una、un' の使い分けを、やさしい説明、一覧表、すぐに答え合わせできる練習問題で学びます。",
   },
-  'presente-verbi-irregolari': {
-    en: 'Learn the Italian irregular verbs in the present tense – andare, fare, stare, dare, venire, uscire and sapere – with tables and exercises.',
-    es: 'Aprende los verbos irregulares italianos en presente: andare, fare, stare, dare, venire, uscire y sapere, con tablas y ejercicios.',
-    fr: 'Apprenez les verbes irréguliers italiens au présent : andare, fare, stare, dare, venire, uscire et sapere, avec des tableaux et des exercices.',
-    cs: 'Naučte se italská nepravidelná slovesa v přítomném čase: andare, fare, stare, dare, venire, uscire a sapere, s tabulkami a cvičeními.',
-    pl: 'Naucz się włoskich czasowników nieregularnych w czasie teraźniejszym: andare, fare, stare, dare, venire, uscire i sapere, z tabelami i ćwiczeniami.',
-    tr: 'İtalyanca düzensiz fiillerin şimdiki zamanı: andare, fare, stare, dare, venire, uscire ve sapere, tablolar ve alıştırmalarla.',
-    de: 'Lernen Sie die unregelmäßigen italienischen Verben im Präsens: andare, fare, stare, dare, venire, uscire und sapere, mit Tabellen und Übungen.',
-    ja: 'イタリア語の不規則動詞の現在形（andare、fare、stare、dare、venire、uscire、sapere）を表と練習問題で学びます。',
-  },
   'aggettivi-e-pronomi-possessivi': {
     en: 'Learn the Italian possessives mio, tuo, suo, nostro, vostro and loro with tables, examples, common mistakes and interactive exercises.',
     es: 'Aprende los posesivos italianos mio, tuo, suo, nostro, vostro y loro con tablas, ejemplos, errores comunes y ejercicios interactivos.',
@@ -675,24 +665,9 @@ const CHOOSE = {
   de: (a, b) => `Lerne, zwischen ${a} und ${b} zu wählen.`,
   ja: (a, b) => `${a} と ${b} の使い分けを学びましょう。`,
 };
-const IRREGULAR = {
-  en: (a, b) => `Some very common verbs do not fully follow the rule. Learn them in small groups: ${a} and ${b}.`,
-  es: (a, b) => `Algunos verbos muy comunes no siguen del todo la regla. Apréndelos en pequeños grupos: ${a} y ${b}.`,
-  fr: (a, b) =>
-    `Certains verbes très courants ne suivent pas complètement la règle. Apprenez-les par petits groupes : ${a} et ${b}.`,
-  cs: (a, b) => `Některá velmi běžná slovesa se pravidlem neřídí úplně. Naučte se je po malých skupinách: ${a} a ${b}.`,
-  pl: (a, b) =>
-    `Niektóre bardzo częste czasowniki nie do końca trzymają się reguły. Ucz się ich w małych grupach: ${a} i ${b}.`,
-  tr: (a, b) =>
-    `Çok sık kullanılan bazı fiiller kurala tam olarak uymaz. Onları küçük gruplar hâlinde öğrenin: ${a} ve ${b}.`,
-  de: (a, b) =>
-    `Einige sehr häufige Verben folgen der Regel nicht ganz. Lerne sie in kleinen Gruppen: ${a} und ${b}.`,
-  ja: (a, b) =>
-    `よく使う動詞の中には、規則どおりに活用しないものがあります。少しずつグループで覚えましょう：${a}、${b}。`,
-};
 const GRAMMAR_LEADS = {
   'articoli-indeterminativi': (l) => CHOOSE[l](it('un, uno, una'), it('un’')),
-  'presente-verbi-irregolari': (l) => IRREGULAR[l](it('andare, fare, stare, dare, venire, uscire'), it('sapere')),
+  // «presente-verbi-irregolari» tolto il 2026-11-23: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
 };
 
 // --------------------------------------------------------------- indici e home

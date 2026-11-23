@@ -40,6 +40,7 @@ import { ERRORS_CONDIZIONALE_PRESENTE } from './confronti-condizionale-presente.
 import { ERRORS_IMPERATIVO } from './confronti-imperativo.mjs';
 import { ERRORS_GENERE_NUMERO } from './confronti-genere-numero.mjs';
 import { ERRORS_PRESENTE_REGOLARE } from './confronti-presente-regolare.mjs';
+import { ERRORS_PRESENTE_IRREGOLARE } from './confronti-presente-irregolare.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1029,3 +1030,4 @@ Object.assign(ERRORS, ERRORS_IMPERATIVO);
 // Genere e numero rifatta il 2026-11-23: prima non aveva errori per lingua.
 Object.assign(ERRORS, ERRORS_GENERE_NUMERO);
 Object.assign(ERRORS, ERRORS_PRESENTE_REGOLARE);
+Object.assign(ERRORS, ERRORS_PRESENTE_IRREGOLARE);

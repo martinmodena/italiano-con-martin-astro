@@ -1738,4 +1738,15 @@ export const NAV_LABELS = {
     de: 'Rechtschreibung',
     ja: 'つづり',
   },
+  // Presente dei verbi irregolari (A1), 2026-11-23.
+  'Sapere o conoscere?': {
+    en: 'Sapere or conoscere?',
+    es: '¿Sapere o conoscere?',
+    fr: 'Sapere ou conoscere ?',
+    cs: 'Sapere, nebo conoscere?',
+    pl: 'Sapere czy conoscere?',
+    tr: 'Sapere mi, conoscere mi?',
+    de: 'Sapere oder conoscere?',
+    ja: 'sapere と conoscere',
+  },
 };

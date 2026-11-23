@@ -13,7 +13,8 @@
 // Il 2026-11-23 «Il condizionale presente» (B1, rifatta agli stessi URL: prima aveva 10 esercizi);
 // lo stesso giorno «L'imperativo» (B1, rifatta agli stessi URL: prima aveva 20 esercizi)
 // e «Genere e numero dei nomi» (A1, rifatta agli stessi URL: prima aveva 8 esercizi), poi «Il presente dei
-// verbi regolari» (A1, rifatta agli stessi URL: prima aveva 12 esercizi).
+// verbi regolari» (A1, rifatta agli stessi URL: prima aveva 12 esercizi) e «Il presente dei verbi irregolari»
+// (A1, rifatta agli stessi URL: prima aveva 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -88,6 +89,8 @@ import genereNumero from './data/lezioni-a1/genere-e-numero.mjs';
 import genereNumeroI18n from './data/lezioni-a1/genere-e-numero-i18n.mjs';
 import presReg from './data/lezioni-a1/presente-indicativo-verbi-regolari.mjs';
 import presRegI18n from './data/lezioni-a1/presente-indicativo-verbi-regolari-i18n.mjs';
+import presIrr from './data/lezioni-a1/presente-verbi-irregolari.mjs';
+import presIrrI18n from './data/lezioni-a1/presente-verbi-irregolari-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -299,6 +302,7 @@ const lessons = [
   { ...imperativo, strings: { it: imperativo.it, ...imperativoI18n } },
   { ...genereNumero, strings: { it: genereNumero.it, ...genereNumeroI18n } },
   { ...presReg, strings: { it: presReg.it, ...presRegI18n } },
+  { ...presIrr, strings: { it: presIrr.it, ...presIrrI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
