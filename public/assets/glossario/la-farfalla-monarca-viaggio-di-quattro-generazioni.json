@@ -1,0 +1,1379 @@
+{
+ "id": "la-farfalla-monarca-viaggio-di-quattro-generazioni",
+ "nota": "Glossario e traduzione della lettura (A2 e B1 tradotti; B2 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "la farfalla",
+   "forme": [
+    "farfalle",
+    "farfalla"
+   ],
+   "esempi": [
+    "Una farfalla bianca vola nel giardino.",
+    "Le farfalle amano i fiori.",
+    "Il bruco diventa farfalla."
+   ],
+   "traduzioni": {
+    "en": "butterfly",
+    "es": "mariposa",
+    "pt": "borboleta",
+    "fr": "papillon",
+    "cs": "motýl",
+    "pl": "motyl",
+    "tr": "kelebek",
+    "de": "Schmetterling",
+    "ja": "チョウ"
+   }
+  },
+  {
+   "parola": "l'albero",
+   "forme": [
+    "alberi"
+   ],
+   "formeEsempi": [
+    "albero"
+   ],
+   "esempi": [
+    "Nel parco ci sono alberi altissimi.",
+    "Il gatto è salito sull'albero.",
+    "Piantiamo un albero."
+   ],
+   "traduzioni": {
+    "en": "tree",
+    "es": "árbol",
+    "pt": "árvore",
+    "fr": "arbre",
+    "cs": "strom",
+    "pl": "drzewo",
+    "tr": "ağaç",
+    "de": "Baum",
+    "ja": "木"
+   }
+  },
+  {
+   "parola": "la primavera",
+   "forme": [
+    "primavera"
+   ],
+   "esempi": [
+    "In primavera ci sono tanti fiori.",
+    "La primavera comincia a marzo.",
+    "Amo la primavera."
+   ],
+   "traduzioni": {
+    "en": "spring",
+    "es": "primavera",
+    "pt": "primavera",
+    "fr": "printemps",
+    "cs": "jaro",
+    "pl": "wiosna",
+    "tr": "ilkbahar",
+    "de": "Frühling",
+    "ja": "春"
+   }
+  },
+  {
+   "parola": "deporre",
+   "forme": [
+    "deporranno",
+    "deporrà"
+   ],
+   "formeEsempi": [
+    "depone"
+   ],
+   "esempi": [
+    "La gallina depone un uovo al giorno.",
+    "La tartaruga depone le uova nella sabbia.",
+    "La farfalla deporrà le uova su una foglia."
+   ],
+   "traduzioni": {
+    "en": "to lay (eggs)",
+    "es": "poner (huevos), depositar",
+    "pt": "botar, depositar (ovos)",
+    "fr": "pondre",
+    "cs": "naklást (vajíčka)",
+    "pl": "złożyć (jaja)",
+    "tr": "yumurtlamak",
+    "de": "(Eier) legen",
+    "ja": "（卵を）産む"
+   }
+  },
+  {
+   "parola": "morire",
+   "forme": [
+    "moriranno",
+    "morirà"
+   ],
+   "formeEsempi": [
+    "muore",
+    "morire",
+    "morto",
+    "morendo"
+   ],
+   "esempi": [
+    "Senza acqua la pianta muore.",
+    "Mio nonno è morto due anni fa.",
+    "Sto morendo di fame!"
+   ],
+   "traduzioni": {
+    "en": "to die",
+    "es": "morir",
+    "pt": "morrer",
+    "fr": "mourir",
+    "cs": "zemřít",
+    "pl": "umrzeć",
+    "tr": "ölmek",
+    "de": "sterben",
+    "ja": "死ぬ"
+   }
+  },
+  {
+   "parola": "il bruco",
+   "forme": [
+    "bruchi",
+    "bruco"
+   ],
+   "esempi": [
+    "Il bruco mangia le foglie.",
+    "I bruchi diventano farfalle.",
+    "Sulla lattuga c'è un bruco verde."
+   ],
+   "traduzioni": {
+    "en": "caterpillar",
+    "es": "oruga",
+    "pt": "lagarta",
+    "fr": "chenille",
+    "cs": "housenka",
+    "pl": "gąsienica",
+    "tr": "tırtıl",
+    "de": "Raupe",
+    "ja": "イモムシ、毛虫"
+   }
+  },
+  {
+   "parola": "velenoso",
+   "forme": [
+    "velenosa"
+   ],
+   "formeEsempi": [
+    "velenoso"
+   ],
+   "esempi": [
+    "Questo fungo è velenoso.",
+    "Attenzione: è una pianta velenosa.",
+    "Il serpente non è velenoso."
+   ],
+   "traduzioni": {
+    "en": "poisonous",
+    "es": "venenoso",
+    "pt": "venenoso",
+    "fr": "toxique, vénéneux",
+    "cs": "jedovatý",
+    "pl": "trujący, jadowity",
+    "tr": "zehirli",
+    "de": "giftig",
+    "ja": "毒のある"
+   }
+  },
+  {
+   "parola": "il veleno",
+   "forme": [
+    "veleno"
+   ],
+   "esempi": [
+    "Il veleno del serpente è pericoloso.",
+    "Lo zucchero per me è un veleno.",
+    "Non usare veleno contro le formiche."
+   ],
+   "traduzioni": {
+    "en": "poison, venom",
+    "es": "veneno",
+    "pt": "veneno",
+    "fr": "poison, venin",
+    "cs": "jed",
+    "pl": "trucizna, jad",
+    "tr": "zehir",
+    "de": "Gift",
+    "ja": "毒"
+   }
+  },
+  {
+   "parola": "il sapore",
+   "forme": [
+    "sapore"
+   ],
+   "esempi": [
+    "Questa torta ha un sapore buonissimo.",
+    "Il caffè ha un sapore amaro.",
+    "Non sento il sapore."
+   ],
+   "traduzioni": {
+    "en": "taste, flavour",
+    "es": "sabor",
+    "pt": "sabor, gosto",
+    "fr": "goût, saveur",
+    "cs": "chuť",
+    "pl": "smak",
+    "tr": "tat",
+    "de": "Geschmack",
+    "ja": "味"
+   }
+  },
+  {
+   "parola": "la generazione",
+   "forme": [
+    "generazioni"
+   ],
+   "formeEsempi": [
+    "generazione"
+   ],
+   "esempi": [
+    "Nella mia famiglia vivono tre generazioni.",
+    "La nuova generazione usa molto il telefono.",
+    "La ricetta passa di generazione in generazione."
+   ],
+   "traduzioni": {
+    "en": "generation",
+    "es": "generación",
+    "pt": "geração",
+    "fr": "génération",
+    "cs": "generace",
+    "pl": "pokolenie",
+    "tr": "kuşak, nesil",
+    "de": "Generation",
+    "ja": "世代"
+   }
+  },
+  {
+   "parola": "mostrare",
+   "forme": [
+    "mostrerà",
+    "mostra",
+    "mostrano"
+   ],
+   "formeEsempi": [
+    "mostro"
+   ],
+   "esempi": [
+    "Ti mostro la mia casa.",
+    "La guida ci mostra il museo.",
+    "I dati mostrano un problema."
+   ],
+   "traduzioni": {
+    "en": "to show",
+    "es": "mostrar, enseñar",
+    "pt": "mostrar",
+    "fr": "montrer",
+    "cs": "ukázat",
+    "pl": "pokazać",
+    "tr": "göstermek",
+    "de": "zeigen",
+    "ja": "見せる、示す"
+   }
+  },
+  {
+   "parola": "eppure",
+   "forme": [
+    "eppure"
+   ],
+   "esempi": [
+    "È ricco, eppure non è felice.",
+    "Ho studiato tanto, eppure non ricordo niente.",
+    "Sembra impossibile, eppure è vero."
+   ],
+   "traduzioni": {
+    "en": "and yet, still",
+    "es": "y sin embargo",
+    "pt": "e no entanto",
+    "fr": "et pourtant",
+    "cs": "a přece",
+    "pl": "a jednak",
+    "tr": "yine de",
+    "de": "und doch",
+    "ja": "それなのに、それでも"
+   }
+  },
+  {
+   "parola": "prossimo",
+   "forme": [
+    "prossima"
+   ],
+   "formeEsempi": [
+    "prossimo"
+   ],
+   "esempi": [
+    "Ci vediamo la prossima settimana.",
+    "Il prossimo treno parte alle otto.",
+    "Scendo alla prossima fermata."
+   ],
+   "traduzioni": {
+    "en": "next",
+    "es": "próximo",
+    "pt": "próximo",
+    "fr": "prochain",
+    "cs": "příští",
+    "pl": "następny",
+    "tr": "gelecek, bir sonraki",
+    "de": "nächste",
+    "ja": "次の"
+   }
+  },
+  {
+   "parola": "il secolo",
+   "forme": [
+    "secoli"
+   ],
+   "formeEsempi": [
+    "secolo"
+   ],
+   "esempi": [
+    "Questo palazzo ha tre secoli.",
+    "Viviamo nel ventunesimo secolo.",
+    "Non ti vedo da secoli!"
+   ],
+   "traduzioni": {
+    "en": "century",
+    "es": "siglo",
+    "pt": "século",
+    "fr": "siècle",
+    "cs": "století",
+    "pl": "wiek, stulecie",
+    "tr": "yüzyıl",
+    "de": "Jahrhundert",
+    "ja": "世紀"
+   }
+  },
+  {
+   "parola": "l'autunno",
+   "forme": [
+    "autunno"
+   ],
+   "esempi": [
+    "In autunno cadono le foglie.",
+    "L'autunno è la mia stagione preferita.",
+    "Partiamo in autunno."
+   ],
+   "traduzioni": {
+    "en": "autumn, fall",
+    "es": "otoño",
+    "pt": "outono",
+    "fr": "automne",
+    "cs": "podzim",
+    "pl": "jesień",
+    "tr": "sonbahar",
+    "de": "Herbst",
+    "ja": "秋"
+   }
+  },
+  {
+   "parola": "il volontario",
+   "forme": [
+    "volontari"
+   ],
+   "formeEsempi": [
+    "volontario"
+   ],
+   "esempi": [
+    "Faccio il volontario in un canile.",
+    "Cerchiamo volontari per la festa.",
+    "I volontari puliscono la spiaggia."
+   ],
+   "traduzioni": {
+    "en": "volunteer",
+    "es": "voluntario",
+    "pt": "voluntário",
+    "fr": "bénévole, volontaire",
+    "cs": "dobrovolník",
+    "pl": "wolontariusz",
+    "tr": "gönüllü",
+    "de": "Freiwilliger",
+    "ja": "ボランティア"
+   }
+  },
+  {
+   "parola": "catturare",
+   "forme": [
+    "catturavano"
+   ],
+   "formeEsempi": [
+    "cattura",
+    "catturato",
+    "catturavamo"
+   ],
+   "esempi": [
+    "Il gatto cattura un topo.",
+    "La polizia ha catturato il ladro.",
+    "Da bambini catturavamo le lucciole."
+   ],
+   "traduzioni": {
+    "en": "to catch, to capture",
+    "es": "capturar, atrapar",
+    "pt": "capturar, pegar",
+    "fr": "capturer, attraper",
+    "cs": "chytit",
+    "pl": "złapać",
+    "tr": "yakalamak",
+    "de": "fangen",
+    "ja": "捕まえる"
+   }
+  },
+  {
+   "parola": "la retina",
+   "forme": [
+    "retina"
+   ],
+   "esempi": [
+    "Il bambino prende i pesci con la retina.",
+    "Le arance sono in una retina.",
+    "Porta la retina per le farfalle!"
+   ],
+   "traduzioni": {
+    "en": "small net",
+    "es": "red pequeña, cazamariposas",
+    "pt": "redinha, puçá",
+    "fr": "filet, épuisette",
+    "cs": "síťka",
+    "pl": "siatka",
+    "tr": "küçük ağ, kelebek ağı",
+    "de": "Netz, Kescher",
+    "ja": "小さな網、虫取り網"
+   }
+  },
+  {
+   "parola": "l'etichetta",
+   "forme": [
+    "etichetta"
+   ],
+   "esempi": [
+    "Leggi l'etichetta prima di comprare.",
+    "Ho tolto l'etichetta dalla maglia.",
+    "Sull'etichetta c'è il prezzo."
+   ],
+   "traduzioni": {
+    "en": "label, tag",
+    "es": "etiqueta",
+    "pt": "etiqueta",
+    "fr": "étiquette",
+    "cs": "štítek",
+    "pl": "etykieta",
+    "tr": "etiket",
+    "de": "Etikett",
+    "ja": "ラベル、札"
+   }
+  },
+  {
+   "parola": "spedire",
+   "forme": [
+    "spedirla"
+   ],
+   "formeEsempi": [
+    "spedisco",
+    "spedito",
+    "spedire"
+   ],
+   "esempi": [
+    "Spedisco un pacco a mia sorella.",
+    "Ho spedito la lettera ieri.",
+    "Devo spedire questo documento."
+   ],
+   "traduzioni": {
+    "en": "to send, to post",
+    "es": "enviar",
+    "pt": "enviar, mandar",
+    "fr": "envoyer, expédier",
+    "cs": "poslat",
+    "pl": "wysłać",
+    "tr": "göndermek",
+    "de": "schicken, versenden",
+    "ja": "送る"
+   }
+  },
+  {
+   "parola": "la carta geografica",
+   "forme": [
+    "carta"
+   ],
+   "contesto": "geografica",
+   "esempi": [
+    "Guardiamo la carta geografica dell'Italia.",
+    "Sulla carta geografica le montagne sono marroni.",
+    "Ho appeso una carta geografica in camera."
+   ],
+   "traduzioni": {
+    "en": "map",
+    "es": "mapa",
+    "pt": "mapa",
+    "fr": "carte (géographique)",
+    "cs": "mapa",
+    "pl": "mapa",
+    "tr": "harita",
+    "de": "Landkarte",
+    "ja": "地図"
+   }
+  },
+  {
+   "parola": "l'annuncio",
+   "forme": [
+    "annuncio"
+   ],
+   "esempi": [
+    "Ho letto un annuncio di lavoro.",
+    "Metto un annuncio per vendere la bici.",
+    "Ascoltate l'annuncio in stazione."
+   ],
+   "traduzioni": {
+    "en": "advert, announcement",
+    "es": "anuncio",
+    "pt": "anúncio",
+    "fr": "annonce",
+    "cs": "inzerát, oznámení",
+    "pl": "ogłoszenie",
+    "tr": "ilan, duyuru",
+    "de": "Anzeige, Durchsage",
+    "ja": "広告、お知らせ"
+   }
+  },
+  {
+   "parola": "girare",
+   "forme": [
+    "girato",
+    "girerebbe",
+    "girate"
+   ],
+   "formeEsempi": [
+    "giro",
+    "gira"
+   ],
+   "esempi": [
+    "Ho girato tutta la città a piedi.",
+    "Gira a destra al semaforo.",
+    "La Terra gira intorno al Sole."
+   ],
+   "traduzioni": {
+    "en": "to go around, to tour; to turn",
+    "es": "recorrer; girar",
+    "pt": "percorrer, rodar; virar",
+    "fr": "parcourir; tourner",
+    "cs": "projezdit; otáčet se",
+    "pl": "objechać, krążyć; obracać się",
+    "tr": "dolaşmak; dönmek",
+    "de": "herumfahren; drehen",
+    "ja": "回る、歩き回る"
+   }
+  },
+  {
+   "parola": "l'abete",
+   "forme": [
+    "abeti"
+   ],
+   "formeEsempi": [
+    "abete"
+   ],
+   "esempi": [
+    "L'abete è verde anche d'inverno.",
+    "In montagna ci sono boschi di abeti.",
+    "A Natale decoriamo un abete."
+   ],
+   "traduzioni": {
+    "en": "fir (tree)",
+    "es": "abeto",
+    "pt": "abeto",
+    "fr": "sapin",
+    "cs": "jedle",
+    "pl": "jodła",
+    "tr": "köknar",
+    "de": "Tanne",
+    "ja": "モミの木"
+   }
+  },
+  {
+   "parola": "il tronco",
+   "forme": [
+    "tronchi"
+   ],
+   "formeEsempi": [
+    "tronco"
+   ],
+   "esempi": [
+    "Il tronco dell'albero è grosso.",
+    "Ci sediamo su un tronco.",
+    "Sui tronchi c'è il muschio."
+   ],
+   "traduzioni": {
+    "en": "trunk (of a tree)",
+    "es": "tronco",
+    "pt": "tronco",
+    "fr": "tronc",
+    "cs": "kmen",
+    "pl": "pień",
+    "tr": "ağaç gövdesi",
+    "de": "Stamm",
+    "ja": "幹"
+   }
+  },
+  {
+   "parola": "il peso",
+   "forme": [
+    "peso"
+   ],
+   "esempi": [
+    "Il ramo si è rotto sotto il peso della neve.",
+    "Qual è il tuo peso?",
+    "Non dare peso alle sue parole."
+   ],
+   "traduzioni": {
+    "en": "weight",
+    "es": "peso",
+    "pt": "peso",
+    "fr": "poids",
+    "cs": "váha",
+    "pl": "ciężar, waga",
+    "tr": "ağırlık",
+    "de": "Gewicht",
+    "ja": "重さ"
+   }
+  },
+  {
+   "parola": "chinarsi",
+   "forme": [
+    "chinato"
+   ],
+   "formeEsempi": [
+    "china",
+    "chinarti"
+   ],
+   "esempi": [
+    "Mi sono chinato per prendere la penna.",
+    "Si china per accarezzare il cane.",
+    "Non chinarti troppo!"
+   ],
+   "traduzioni": {
+    "en": "to bend down, to stoop",
+    "es": "agacharse, inclinarse",
+    "pt": "abaixar-se, inclinar-se",
+    "fr": "se pencher",
+    "cs": "sklonit se",
+    "pl": "schylić się",
+    "tr": "eğilmek",
+    "de": "sich bücken",
+    "ja": "かがむ"
+   }
+  },
+  {
+   "parola": "la distanza",
+   "forme": [
+    "distanza"
+   ],
+   "esempi": [
+    "La distanza tra Roma e Milano è di 600 chilometri.",
+    "Mantieni la distanza di sicurezza.",
+    "Abitiamo a poca distanza."
+   ],
+   "traduzioni": {
+    "en": "distance",
+    "es": "distancia",
+    "pt": "distância",
+    "fr": "distance",
+    "cs": "vzdálenost",
+    "pl": "odległość",
+    "tr": "mesafe",
+    "de": "Entfernung",
+    "ja": "距離"
+   }
+  },
+  {
+   "parola": "il mistero",
+   "forme": [
+    "mistero"
+   ],
+   "esempi": [
+    "Dove sono le mie chiavi? È un mistero.",
+    "Mi piacciono i libri di mistero.",
+    "Il mistero è stato risolto."
+   ],
+   "traduzioni": {
+    "en": "mystery",
+    "es": "misterio",
+    "pt": "mistério",
+    "fr": "mystère",
+    "cs": "záhada",
+    "pl": "tajemnica, zagadka",
+    "tr": "gizem",
+    "de": "Rätsel, Geheimnis",
+    "ja": "なぞ"
+   }
+  },
+  {
+   "parola": "l'antenato",
+   "forme": [
+    "antenate"
+   ],
+   "formeEsempi": [
+    "antenati",
+    "antenato"
+   ],
+   "esempi": [
+    "I miei antenati erano contadini.",
+    "Il lupo è l'antenato del cane.",
+    "Le sue antenate venivano dalla Sicilia."
+   ],
+   "traduzioni": {
+    "en": "ancestor",
+    "es": "antepasado",
+    "pt": "antepassado",
+    "fr": "ancêtre",
+    "cs": "předek",
+    "pl": "przodek",
+    "tr": "ata",
+    "de": "Vorfahr",
+    "ja": "祖先"
+   }
+  },
+  {
+   "parola": "la posizione",
+   "forme": [
+    "posizione"
+   ],
+   "esempi": [
+    "Mandami la tua posizione.",
+    "Cambia posizione sul divano.",
+    "La casa è in una bella posizione."
+   ],
+   "traduzioni": {
+    "en": "position, location",
+    "es": "posición, ubicación",
+    "pt": "posição, localização",
+    "fr": "position",
+    "cs": "poloha, pozice",
+    "pl": "pozycja, położenie",
+    "tr": "konum",
+    "de": "Position, Lage",
+    "ja": "位置"
+   }
+  },
+  {
+   "parola": "rispetto a",
+   "forme": [
+    "rispetto"
+   ],
+   "esempi": [
+    "Rispetto a ieri fa più caldo.",
+    "Ho rispetto per gli anziani.",
+    "Rispetto a te sono più alto."
+   ],
+   "traduzioni": {
+    "en": "compared to, in relation to (also: respect)",
+    "es": "respecto a, en comparación con",
+    "pt": "em relação a, comparado com",
+    "fr": "par rapport à",
+    "cs": "vzhledem k, oproti",
+    "pl": "w stosunku do, w porównaniu z",
+    "tr": "-e göre, -e kıyasla",
+    "de": "im Verhältnis zu, im Vergleich zu",
+    "ja": "…に対して、…と比べて"
+   }
+  },
+  {
+   "parola": "l'orologio",
+   "forme": [
+    "orologio",
+    "orologi"
+   ],
+   "esempi": [
+    "Che ore sono? Non ho l'orologio.",
+    "L'orologio della cucina è fermo.",
+    "Ha un orologio d'oro."
+   ],
+   "traduzioni": {
+    "en": "clock, watch",
+    "es": "reloj",
+    "pt": "relógio",
+    "fr": "horloge, montre",
+    "cs": "hodiny, hodinky",
+    "pl": "zegar, zegarek",
+    "tr": "saat",
+    "de": "Uhr",
+    "ja": "時計"
+   }
+  },
+  {
+   "parola": "il cervello",
+   "forme": [
+    "cervello"
+   ],
+   "esempi": [
+    "Il cervello consuma molta energia.",
+    "Usa il cervello!",
+    "Ha un cervello brillante."
+   ],
+   "traduzioni": {
+    "en": "brain",
+    "es": "cerebro",
+    "pt": "cérebro",
+    "fr": "cerveau",
+    "cs": "mozek",
+    "pl": "mózg",
+    "tr": "beyin",
+    "de": "Gehirn",
+    "ja": "脳"
+   }
+  },
+  {
+   "parola": "l'antenna",
+   "forme": [
+    "antenne",
+    "antenna"
+   ],
+   "esempi": [
+    "La farfalla ha due antenne.",
+    "Sul tetto c'è un'antenna.",
+    "Le formiche si toccano con le antenne."
+   ],
+   "traduzioni": {
+    "en": "antenna, feeler",
+    "es": "antena",
+    "pt": "antena",
+    "fr": "antenne",
+    "cs": "tykadlo, anténa",
+    "pl": "czułek, antena",
+    "tr": "anten, duyarga",
+    "de": "Fühler, Antenne",
+    "ja": "触角、アンテナ"
+   }
+  },
+  {
+   "parola": "il volo",
+   "forme": [
+    "volo"
+   ],
+   "esempi": [
+    "Il volo parte alle dieci.",
+    "Il mio volo è in ritardo.",
+    "Guarda il volo delle rondini."
+   ],
+   "traduzioni": {
+    "en": "flight",
+    "es": "vuelo",
+    "pt": "voo",
+    "fr": "vol",
+    "cs": "let",
+    "pl": "lot",
+    "tr": "uçuş",
+    "de": "Flug",
+    "ja": "飛行、便"
+   }
+  },
+  {
+   "parola": "correggere",
+   "forme": [
+    "correggere"
+   ],
+   "formeEsempi": [
+    "corregge"
+   ],
+   "esempi": [
+    "La maestra corregge i compiti.",
+    "Puoi correggere il mio testo?",
+    "Devo correggere un errore."
+   ],
+   "traduzioni": {
+    "en": "to correct",
+    "es": "corregir",
+    "pt": "corrigir",
+    "fr": "corriger",
+    "cs": "opravit",
+    "pl": "poprawić",
+    "tr": "düzeltmek",
+    "de": "korrigieren",
+    "ja": "直す、修正する"
+   }
+  },
+  {
+   "parola": "la rotta",
+   "forme": [
+    "rotta"
+   ],
+   "esempi": [
+    "La nave cambia rotta.",
+    "Il pilota segue la rotta.",
+    "Siamo fuori rotta."
+   ],
+   "traduzioni": {
+    "en": "course, route",
+    "es": "rumbo, ruta",
+    "pt": "rota, rumo",
+    "fr": "cap, route",
+    "cs": "kurz",
+    "pl": "kurs",
+    "tr": "rota",
+    "de": "Kurs",
+    "ja": "針路、航路"
+   }
+  },
+  {
+   "parola": "la vernice",
+   "forme": [
+    "vernice"
+   ],
+   "esempi": [
+    "Attenzione: vernice fresca!",
+    "Ho comprato la vernice per la porta.",
+    "La vernice blu è finita."
+   ],
+   "traduzioni": {
+    "en": "paint, varnish",
+    "es": "pintura, barniz",
+    "pt": "tinta, verniz",
+    "fr": "peinture, vernis",
+    "cs": "barva, lak",
+    "pl": "farba, lakier",
+    "tr": "boya, vernik",
+    "de": "Farbe, Lack",
+    "ja": "塗料、ペンキ"
+   }
+  },
+  {
+   "parola": "orientarsi",
+   "forme": [
+    "orientavano"
+   ],
+   "formeEsempi": [
+    "oriento",
+    "orientano",
+    "orienti"
+   ],
+   "esempi": [
+    "In una città nuova non mi oriento.",
+    "Gli uccelli si orientano con le stelle.",
+    "Ti orienti bene con la mappa?"
+   ],
+   "traduzioni": {
+    "en": "to find one's way, to orient oneself",
+    "es": "orientarse",
+    "pt": "orientar-se",
+    "fr": "s'orienter",
+    "cs": "orientovat se",
+    "pl": "orientować się",
+    "tr": "yön bulmak",
+    "de": "sich orientieren",
+    "ja": "方向がわかる"
+   }
+  },
+  {
+   "parola": "dipingere",
+   "forme": [
+    "dipingere",
+    "dipinto"
+   ],
+   "formeEsempi": [
+    "dipinge"
+   ],
+   "esempi": [
+    "Mia sorella dipinge quadri.",
+    "Abbiamo dipinto la camera di giallo.",
+    "Mi piace dipingere al mare."
+   ],
+   "traduzioni": {
+    "en": "to paint",
+    "es": "pintar",
+    "pt": "pintar",
+    "fr": "peindre",
+    "cs": "malovat, natřít",
+    "pl": "malować",
+    "tr": "boyamak, resim yapmak",
+    "de": "malen, streichen",
+    "ja": "塗る、描く"
+   }
+  },
+  {
+   "parola": "il polso",
+   "forme": [
+    "polso"
+   ],
+   "esempi": [
+    "Porto l'orologio al polso.",
+    "Mi fa male il polso.",
+    "Il medico sente il polso."
+   ],
+   "traduzioni": {
+    "en": "wrist (also: pulse)",
+    "es": "muñeca (también: pulso)",
+    "pt": "pulso",
+    "fr": "poignet (aussi : pouls)",
+    "cs": "zápěstí (i: tep)",
+    "pl": "nadgarstek (też: puls)",
+    "tr": "bilek (ayrıca: nabız)",
+    "de": "Handgelenk (auch: Puls)",
+    "ja": "手首（脈、の意味も）"
+   }
+  },
+  {
+   "parola": "la bussola",
+   "forme": [
+    "bussola"
+   ],
+   "esempi": [
+    "Con la bussola trovo il nord.",
+    "In montagna porto sempre la bussola.",
+    "Ho perso la bussola!"
+   ],
+   "traduzioni": {
+    "en": "compass",
+    "es": "brújula",
+    "pt": "bússola",
+    "fr": "boussole",
+    "cs": "kompas",
+    "pl": "kompas",
+    "tr": "pusula",
+    "de": "Kompass",
+    "ja": "方位磁針"
+   }
+  },
+  {
+   "parola": "magnetico",
+   "forme": [
+    "magnetico"
+   ],
+   "esempi": [
+    "La Terra ha un campo magnetico.",
+    "Questa lavagna è magnetica.",
+    "Ho una carta magnetica per entrare."
+   ],
+   "traduzioni": {
+    "en": "magnetic",
+    "es": "magnético",
+    "pt": "magnético",
+    "fr": "magnétique",
+    "cs": "magnetický",
+    "pl": "magnetyczny",
+    "tr": "manyetik",
+    "de": "magnetisch",
+    "ja": "磁気の"
+   },
+   "formeEsempi": [
+    "magnetica"
+   ]
+  },
+  {
+   "parola": "l'ettaro",
+   "forme": [
+    "ettari"
+   ],
+   "formeEsempi": [
+    "ettaro"
+   ],
+   "esempi": [
+    "La fattoria ha venti ettari di terra.",
+    "Un ettaro è diecimila metri quadrati.",
+    "Il bosco copre cento ettari."
+   ],
+   "traduzioni": {
+    "en": "hectare",
+    "es": "hectárea",
+    "pt": "hectare",
+    "fr": "hectare",
+    "cs": "hektar",
+    "pl": "hektar",
+    "tr": "hektar",
+    "de": "Hektar",
+    "ja": "ヘクタール"
+   }
+  },
+  {
+   "parola": "la ripresa",
+   "forme": [
+    "ripresa"
+   ],
+   "esempi": [
+    "Dopo la crisi c'è stata una ripresa.",
+    "La ripresa è lenta.",
+    "Il secondo tempo è una ripresa."
+   ],
+   "traduzioni": {
+    "en": "recovery",
+    "es": "recuperación",
+    "pt": "recuperação, retomada",
+    "fr": "reprise",
+    "cs": "zotavení, oživení",
+    "pl": "ożywienie, poprawa",
+    "tr": "toparlanma",
+    "de": "Erholung",
+    "ja": "回復"
+   }
+  },
+  {
+   "parola": "la riserva",
+   "forme": [
+    "riserva"
+   ],
+   "esempi": [
+    "Ho una ruota di riserva in macchina.",
+    "È una riserva naturale.",
+    "Teniamo un po' di cibo di riserva."
+   ],
+   "traduzioni": {
+    "en": "reserve, spare («di riserva» = spare, backup)",
+    "es": "reserva, repuesto",
+    "pt": "reserva, de reserva",
+    "fr": "réserve, de secours",
+    "cs": "rezerva, náhradní",
+    "pl": "rezerwa, zapasowy",
+    "tr": "yedek, rezerv",
+    "de": "Reserve, Ersatz-",
+    "ja": "予備、保護区"
+   }
+  },
+  {
+   "parola": "fragile",
+   "forme": [
+    "fragili"
+   ],
+   "formeEsempi": [
+    "fragile"
+   ],
+   "esempi": [
+    "Attenzione, il pacco è fragile.",
+    "I bicchieri sono fragili.",
+    "È una persona fragile."
+   ],
+   "traduzioni": {
+    "en": "fragile, vulnerable",
+    "es": "frágil",
+    "pt": "frágil",
+    "fr": "fragile",
+    "cs": "křehký",
+    "pl": "kruchy",
+    "tr": "kırılgan",
+    "de": "zerbrechlich, empfindlich",
+    "ja": "壊れやすい、もろい"
+   }
+  },
+  {
+   "parola": "mite",
+   "forme": [
+    "miti"
+   ],
+   "formeEsempi": [
+    "mite"
+   ],
+   "esempi": [
+    "Oggi il tempo è mite.",
+    "In Sicilia gli inverni sono miti.",
+    "È un uomo mite e gentile."
+   ],
+   "traduzioni": {
+    "en": "mild",
+    "es": "templado, suave",
+    "pt": "ameno, suave",
+    "fr": "doux",
+    "cs": "mírný",
+    "pl": "łagodny",
+    "tr": "ılıman, yumuşak",
+    "de": "mild",
+    "ja": "穏やかな"
+   }
+  },
+  {
+   "parola": "il segnale",
+   "forme": [
+    "segnale"
+   ],
+   "esempi": [
+    "Qui il telefono non ha segnale.",
+    "Il segnale stradale dice di fermarsi.",
+    "Aspetto un tuo segnale."
+   ],
+   "traduzioni": {
+    "en": "signal, sign",
+    "es": "señal",
+    "pt": "sinal",
+    "fr": "signal",
+    "cs": "signál",
+    "pl": "sygnał",
+    "tr": "sinyal, işaret",
+    "de": "Signal, Zeichen",
+    "ja": "信号、合図"
+   }
+  },
+  {
+   "parola": "proteggere",
+   "forme": [
+    "proteggere"
+   ],
+   "formeEsempi": [
+    "protegge"
+   ],
+   "esempi": [
+    "La crema protegge la pelle dal sole.",
+    "Dobbiamo proteggere la natura.",
+    "Il cane protegge la casa."
+   ],
+   "traduzioni": {
+    "en": "to protect",
+    "es": "proteger",
+    "pt": "proteger",
+    "fr": "protéger",
+    "cs": "chránit",
+    "pl": "chronić",
+    "tr": "korumak",
+    "de": "schützen",
+    "ja": "守る"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "It's February. In the mountains of Mexico, at three thousand metres, there are millions of monarch butterflies. They sleep all together on the trees, one next to the other, and the branches look orange. Soon spring will arrive and the butterflies will leave for the north.",
+    "But be careful: none of them will go back to Canada. The journey is too long. The butterflies will fly as far as Texas, they will lay their eggs on the leaves of a plant, milkweed, and then they will die.",
+    "Caterpillars will be born from the eggs. The caterpillars will eat only milkweed leaves. It's a poisonous plant, but the caterpillars won't have problems: on the contrary, the poison will stay in their body. Birds will soon learn that these orange butterflies taste terrible.",
+    "Then each caterpillar will become a butterfly and continue the journey north. It will live about a month, lay its eggs and die. Its daughter will do the same, and then its granddaughter. It will take three or four generations to reach Canada.",
+    "At the end of the summer, though, a different butterfly will be born. It will be a super butterfly: it won't lay eggs straight away and it will live up to eight months. In September it will leave for the south and fly for thousands of kilometres, as far as the same mountains in Mexico. It has never been there, nobody will show it the way… and yet it will find it.",
+    "And you? Where will you go next summer? Will you find the way without your phone?"
+   ],
+   "b1": [
+    "For centuries, in Canada and the United States, people saw the monarch butterflies leave every autumn, but nobody knew where they went. The Canadian zoologist Fred Urquhart had been thinking about it since he was a child. In 1952, with his wife Norah, he started a project that at the time seemed almost impossible.",
+    "The idea was simple. Thousands of volunteers caught the butterflies with a net and stuck a tiny label on their wings, with a number and an address at the University of Toronto. Whoever found a butterfly with a label had to send it to Toronto. So, year after year, the Urquharts drew the butterflies' routes on a map: they were all heading towards Mexico. But where, exactly?",
+    "In 1972 Norah put an advert in Mexican newspapers: she was looking for volunteers. Ken Brugger, an American who lived in Mexico City, answered. For almost three years Ken travelled around the mountains with Catalina Aguado, who later became his wife, and with his dog. They asked farmers questions, followed the butterflies, went back. At the beginning of January 1975, in a fir forest in the state of Michoacán, at more than three thousand metres, they finally found what they were looking for: millions of butterflies covering the trunks and branches.",
+    "A year later Fred Urquhart, who was by then sixty-four, climbed up to the forest. While he was looking at the butterflies, a branch broke under their weight and fell to the ground. Urquhart bent down and among the fallen butterflies he saw one with a white label. A volunteer, Jim Gilbert, had put it on in Chaska, Minnesota, more than three thousand kilometres away.",
+    "For the newspapers it was the end of a mystery. But for the local people there was no mystery: the farmers of Michoacán had always seen the butterflies arrive every year, and they waited for them at the beginning of November. The mystery was only ours."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Es febrero. En las montañas de México, a tres mil metros, hay millones de mariposas monarca. Duermen todas juntas en los árboles, una al lado de la otra, y las ramas parecen naranjas. Pronto llegará la primavera y las mariposas partirán hacia el norte.",
+    "Pero atención: ninguna de ellas volverá a Canadá. El viaje es demasiado largo. Las mariposas volarán hasta Texas, pondrán los huevos en las hojas de una planta, el algodoncillo, y luego morirán.",
+    "De los huevos nacerán unas orugas. Las orugas comerán solo hojas de algodoncillo. Es una planta venenosa, pero las orugas no tendrán problemas: al contrario, el veneno se quedará en su cuerpo. Los pájaros aprenderán pronto que estas mariposas naranjas tienen un sabor horrible.",
+    "Después cada oruga se convertirá en mariposa y continuará el viaje hacia el norte. Vivirá más o menos un mes, pondrá los huevos y morirá. Su hija hará lo mismo, y luego su nieta. Harán falta tres o cuatro generaciones para llegar a Canadá.",
+    "Al final del verano, sin embargo, nacerá una mariposa diferente. Será una supermariposa: no pondrá los huevos enseguida y vivirá hasta ocho meses. En septiembre partirá hacia el sur y volará miles de kilómetros, hasta las mismas montañas de México. Nunca ha estado allí, nadie le enseñará el camino… y sin embargo lo encontrará.",
+    "¿Y tú? ¿Adónde irás el próximo verano? ¿Encontrarás el camino sin el teléfono?"
+   ],
+   "b1": [
+    "Durante siglos, en Canadá y en Estados Unidos, la gente veía partir a las mariposas monarca cada otoño, pero nadie sabía adónde iban. El zoólogo canadiense Fred Urquhart pensaba en ello desde que era niño. En 1952, con su esposa Norah, empezó un proyecto que entonces parecía casi imposible.",
+    "La idea era sencilla. Miles de voluntarios atrapaban las mariposas con una red y les pegaban en las alas una etiqueta pequeñísima, con un número y una dirección de la Universidad de Toronto. Quien encontraba una mariposa con la etiqueta tenía que enviarla a Toronto. Así, año tras año, los Urquhart dibujaron en un mapa los caminos de las mariposas: todas iban hacia México. Pero ¿adónde, exactamente?",
+    "En 1972 Norah puso un anuncio en los periódicos mexicanos: buscaba voluntarios. Respondió Ken Brugger, un estadounidense que vivía en Ciudad de México. Durante casi tres años Ken recorrió las montañas con Catalina Aguado, que después se convirtió en su esposa, y con su perro. Hacían preguntas a los campesinos, seguían a las mariposas, volvían atrás. A principios de enero de 1975, en un bosque de abetos del estado de Michoacán, a más de tres mil metros, por fin encontraron lo que buscaban: millones de mariposas que cubrían los troncos y las ramas.",
+    "Un año después Fred Urquhart, que ya tenía sesenta y cuatro años, subió hasta el bosque. Mientras miraba las mariposas, una rama se rompió bajo su peso y cayó al suelo. Urquhart se agachó y entre las mariposas caídas vio una con una etiqueta blanca. La había puesto un voluntario, Jim Gilbert, en Chaska, Minnesota, a más de tres mil kilómetros de distancia.",
+    "Para los periódicos era el final de un misterio. Pero para la gente del lugar no había ningún misterio: los campesinos de Michoacán veían llegar las mariposas cada año, desde siempre, y las esperaban a principios de noviembre. El misterio era solo nuestro."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "É fevereiro. Nas montanhas do México, a três mil metros, há milhões de borboletas-monarca. Elas dormem todas juntas nas árvores, uma ao lado da outra, e os galhos parecem laranja. Daqui a pouco chegará a primavera e as borboletas partirão para o norte.",
+    "Mas atenção: nenhuma delas voltará ao Canadá. A viagem é longa demais. As borboletas voarão até o Texas, botarão os ovos nas folhas de uma planta, a asclépia, e depois morrerão.",
+    "Dos ovos nascerão lagartas. As lagartas comerão só folhas de asclépia. É uma planta venenosa, mas as lagartas não terão problemas: pelo contrário, o veneno ficará no corpo delas. Os pássaros aprenderão logo que essas borboletas laranja têm um gosto horrível.",
+    "Depois cada lagarta virará borboleta e continuará a viagem para o norte. Viverá mais ou menos um mês, botará os ovos e morrerá. A filha fará o mesmo, e depois a neta. Serão necessárias três ou quatro gerações para chegar ao Canadá.",
+    "No fim do verão, porém, nascerá uma borboleta diferente. Será uma superborboleta: não botará os ovos logo e viverá até oito meses. Em setembro partirá para o sul e voará milhares de quilômetros, até as mesmas montanhas do México. Ela nunca esteve lá, ninguém lhe mostrará o caminho… e mesmo assim ela o encontrará.",
+    "E você? Aonde vai no próximo verão? Vai encontrar o caminho sem o celular?"
+   ],
+   "b1": [
+    "Durante séculos, no Canadá e nos Estados Unidos, as pessoas viam as borboletas-monarca partir todo outono, mas ninguém sabia para onde iam. O zoólogo canadense Fred Urquhart pensava nisso desde criança. Em 1952, com a esposa Norah, começou um projeto que na época parecia quase impossível.",
+    "A ideia era simples. Milhares de voluntários capturavam as borboletas com uma redinha e colavam nas asas uma etiqueta minúscula, com um número e um endereço da Universidade de Toronto. Quem encontrava uma borboleta com a etiqueta tinha de enviá-la para Toronto. Assim, ano após ano, os Urquhart desenharam num mapa os caminhos das borboletas: todas iam em direção ao México. Mas para onde, exatamente?",
+    "Em 1972 Norah publicou um anúncio nos jornais mexicanos: procurava voluntários. Respondeu Ken Brugger, um americano que morava na Cidade do México. Durante quase três anos Ken percorreu as montanhas com Catalina Aguado, que depois se tornou sua esposa, e com o seu cachorro. Faziam perguntas aos camponeses, seguiam as borboletas, voltavam atrás. No começo de janeiro de 1975, num bosque de abetos do estado de Michoacán, a mais de três mil metros, finalmente encontraram o que procuravam: milhões de borboletas que cobriam os troncos e os galhos.",
+    "Um ano depois Fred Urquhart, que já tinha sessenta e quatro anos, subiu até o bosque. Enquanto olhava as borboletas, um galho quebrou com o peso delas e caiu no chão. Urquhart se abaixou e, entre as borboletas caídas, viu uma com uma etiqueta branca. Quem a tinha colocado era um voluntário, Jim Gilbert, em Chaska, Minnesota, a mais de três mil quilômetros de distância.",
+    "Para os jornais era o fim de um mistério. Mas para as pessoas do lugar não havia mistério nenhum: os camponeses de Michoacán viam as borboletas chegarem todo ano, desde sempre, e esperavam por elas no começo de novembro. O mistério era só nosso."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Nous sommes en février. Dans les montagnes du Mexique, à trois mille mètres, il y a des millions de papillons monarques. Ils dorment tous ensemble sur les arbres, les uns contre les autres, et les branches semblent orange. Bientôt, le printemps arrivera et les papillons partiront vers le nord.",
+    "Mais attention : aucun d'eux ne retournera au Canada. Le voyage est trop long. Les papillons voleront jusqu'au Texas, ils pondront leurs œufs sur les feuilles d'une plante, l'asclépiade, puis ils mourront.",
+    "Des œufs naîtront des chenilles. Les chenilles mangeront seulement des feuilles d'asclépiade. C'est une plante toxique, mais les chenilles n'auront pas de problèmes : au contraire, le poison restera dans leur corps. Les oiseaux apprendront vite que ces papillons orange ont un goût horrible.",
+    "Ensuite, chaque chenille deviendra un papillon et continuera le voyage vers le nord. Elle vivra environ un mois, pondra ses œufs et mourra. Sa fille fera la même chose, puis sa petite-fille. Il faudra trois ou quatre générations pour arriver au Canada.",
+    "À la fin de l'été, pourtant, naîtra un papillon différent. Ce sera un super papillon : il ne pondra pas tout de suite et il vivra jusqu'à huit mois. En septembre, il partira vers le sud et volera pendant des milliers de kilomètres, jusqu'aux mêmes montagnes du Mexique. Il n'y est jamais allé, personne ne lui montrera le chemin… et pourtant, il le trouvera.",
+    "Et toi ? Où iras-tu l'été prochain ? Tu trouveras le chemin sans ton téléphone ?"
+   ],
+   "b1": [
+    "Pendant des siècles, au Canada et aux États-Unis, les gens voyaient partir les papillons monarques chaque automne, mais personne ne savait où ils allaient. Le zoologiste canadien Fred Urquhart y pensait depuis qu'il était enfant. En 1952, avec sa femme Norah, il a commencé un projet qui semblait alors presque impossible.",
+    "L'idée était simple. Des milliers de bénévoles attrapaient les papillons avec un filet et collaient sur leurs ailes une toute petite étiquette, avec un numéro et une adresse de l'Université de Toronto. Celui qui trouvait un papillon avec une étiquette devait l'envoyer à Toronto. Ainsi, année après année, les Urquhart ont tracé sur une carte les routes des papillons : tous allaient vers le Mexique. Mais où, exactement ?",
+    "En 1972, Norah a passé une annonce dans les journaux mexicains : elle cherchait des bénévoles. Ken Brugger, un Américain qui vivait à Mexico, a répondu. Pendant presque trois ans, Ken a parcouru les montagnes avec Catalina Aguado, qui est ensuite devenue sa femme, et avec son chien. Ils posaient des questions aux paysans, suivaient les papillons, revenaient sur leurs pas. Début janvier 1975, dans une forêt de sapins de l'État du Michoacán, à plus de trois mille mètres, ils ont enfin trouvé ce qu'ils cherchaient : des millions de papillons qui couvraient les troncs et les branches.",
+    "Un an plus tard, Fred Urquhart, qui avait alors soixante-quatre ans, est monté jusqu'à la forêt. Pendant qu'il regardait les papillons, une branche s'est cassée sous leur poids et est tombée par terre. Urquhart s'est penché et, parmi les papillons tombés, il en a vu un avec une étiquette blanche. C'était un bénévole, Jim Gilbert, qui l'avait posée à Chaska, dans le Minnesota, à plus de trois mille kilomètres de là.",
+    "Pour les journaux, c'était la fin d'un mystère. Mais pour les gens de l'endroit, il n'y avait aucun mystère : les paysans du Michoacán voyaient arriver les papillons chaque année, depuis toujours, et ils les attendaient début novembre. Le mystère n'existait que pour nous."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Je únor. V horách Mexika, ve výšce tři tisíce metrů, jsou miliony motýlů monarchů. Spí všichni pohromadě na stromech, jeden vedle druhého, a větve vypadají oranžově. Brzy přijde jaro a motýli odletí na sever.",
+    "Ale pozor: žádný z nich se nevrátí do Kanady. Cesta je příliš dlouhá. Motýli doletí až do Texasu, nakladou vajíčka na listy jedné rostliny, klejichy, a pak zemřou.",
+    "Z vajíček se vylíhnou housenky. Housenky budou jíst jen listy klejichy. Je to jedovatá rostlina, ale housenky nebudou mít problémy: naopak, jed jim zůstane v těle. Ptáci se brzy naučí, že tihle oranžoví motýli chutnají hrozně.",
+    "Potom se z každé housenky stane motýl a bude pokračovat v cestě na sever. Bude žít asi měsíc, naklade vajíčka a zemře. Jeho dcera udělá totéž, a pak jeho vnučka. Budou potřeba tři nebo čtyři generace, aby se dostaly do Kanady.",
+    "Na konci léta se ale narodí jiný motýl. Bude to supermotýl: nebude hned klást vajíčka a bude žít až osm měsíců. V září odletí na jih a poletí tisíce kilometrů, až do stejných hor v Mexiku. Nikdy tam nebyl, nikdo mu neukáže cestu… a přece ji najde.",
+    "A ty? Kam pojedeš příští léto? Najdeš cestu bez telefonu?"
+   ],
+   "b1": [
+    "Po staletí lidé v Kanadě a ve Spojených státech viděli každý podzim odlétat motýly monarchy, ale nikdo nevěděl, kam letí. Kanadský zoolog Fred Urquhart o tom přemýšlel už od dětství. V roce 1952 začal se svou ženou Norah projekt, který tehdy vypadal skoro nemožně.",
+    "Myšlenka byla jednoduchá. Tisíce dobrovolníků chytaly motýly do síťky a lepily jim na křídla malinký štítek s číslem a adresou Torontské univerzity. Kdo našel motýla se štítkem, měl ho poslat do Toronta. Tak Urquhartovi rok co rok zakreslovali do mapy cesty motýlů: všechny vedly do Mexika. Ale kam přesně?",
+    "V roce 1972 dala Norah inzerát do mexických novin: hledala dobrovolníky. Ozval se Ken Brugger, Američan, který žil v Mexico City. Skoro tři roky Ken projížděl hory s Catalinou Aguado, která se pak stala jeho ženou, a se svým psem. Vyptávali se rolníků, sledovali motýly, vraceli se. Začátkem ledna 1975 v jedlovém lese ve státě Michoacán, ve výšce přes tři tisíce metrů, konečně našli, co hledali: miliony motýlů, kteří pokrývali kmeny i větve.",
+    "O rok později vystoupal Fred Urquhart, kterému tehdy bylo už šedesát čtyři let, až do lesa. Když se díval na motýly, pod jejich váhou se ulomila větev a spadla na zem. Urquhart se sklonil a mezi spadlými motýly uviděl jednoho s bílým štítkem. Připevnil ho dobrovolník Jim Gilbert v Chasce v Minnesotě, víc než tři tisíce kilometrů odtud.",
+    "Pro noviny to byl konec záhady. Ale pro místní lidi žádná záhada nebyla: rolníci z Michoacánu odjakživa vídali motýly přilétat každý rok a čekali na ně začátkem listopadu. Záhada byla jen naše."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Jest luty. W górach Meksyku, na wysokości trzech tysięcy metrów, są miliony motyli monarchów. Śpią wszystkie razem na drzewach, jeden obok drugiego, i gałęzie wyglądają na pomarańczowe. Niedługo przyjdzie wiosna i motyle odlecą na północ.",
+    "Ale uwaga: żaden z nich nie wróci do Kanady. Podróż jest za długa. Motyle dolecą do Teksasu, złożą jaja na liściach pewnej rośliny, trojeści, a potem umrą.",
+    "Z jaj wyklują się gąsienice. Gąsienice będą jeść tylko liście trojeści. To trująca roślina, ale gąsienice nie będą miały problemów: przeciwnie, trucizna zostanie w ich ciele. Ptaki szybko się nauczą, że te pomarańczowe motyle mają okropny smak.",
+    "Potem każda gąsienica zmieni się w motyla i będzie kontynuować podróż na północ. Będzie żyć mniej więcej miesiąc, złoży jaja i umrze. Jej córka zrobi to samo, a potem wnuczka. Trzeba będzie trzech albo czterech pokoleń, żeby dotrzeć do Kanady.",
+    "Pod koniec lata jednak urodzi się inny motyl. To będzie supermotyl: nie złoży od razu jaj i będzie żyć nawet osiem miesięcy. We wrześniu odleci na południe i będzie lecieć tysiące kilometrów, aż do tych samych gór w Meksyku. Nigdy tam nie był, nikt mu nie pokaże drogi… a jednak ją znajdzie.",
+    "A ty? Dokąd pojedziesz w przyszłe lato? Znajdziesz drogę bez telefonu?"
+   ],
+   "b1": [
+    "Przez stulecia ludzie w Kanadzie i w Stanach Zjednoczonych widzieli, jak każdej jesieni odlatują motyle monarchy, ale nikt nie wiedział, dokąd lecą. Kanadyjski zoolog Fred Urquhart myślał o tym od dziecka. W 1952 roku razem z żoną Norah rozpoczął projekt, który wtedy wydawał się prawie niemożliwy.",
+    "Pomysł był prosty. Tysiące wolontariuszy łapały motyle siatką i przyklejały im na skrzydłach malutką etykietę z numerem i adresem Uniwersytetu w Toronto. Kto znalazł motyla z etykietą, miał go wysłać do Toronto. W ten sposób, rok po roku, Urquhartowie rysowali na mapie trasy motyli: wszystkie prowadziły do Meksyku. Ale dokąd dokładnie?",
+    "W 1972 roku Norah dała ogłoszenie do meksykańskich gazet: szukała wolontariuszy. Odpowiedział Ken Brugger, Amerykanin, który mieszkał w mieście Meksyk. Przez prawie trzy lata Ken objeżdżał góry razem z Cataliną Aguado, która potem została jego żoną, i ze swoim psem. Wypytywali chłopów, szli za motylami, zawracali. Na początku stycznia 1975 roku, w lesie jodłowym w stanie Michoacán, na wysokości ponad trzech tysięcy metrów, w końcu znaleźli to, czego szukali: miliony motyli, które pokrywały pnie i gałęzie.",
+    "Rok później Fred Urquhart, który miał już sześćdziesiąt cztery lata, wspiął się aż do lasu. Kiedy patrzył na motyle, gałąź złamała się pod ich ciężarem i spadła na ziemię. Urquhart się schylił i wśród opadłych motyli zobaczył jednego z białą etykietą. Przykleił ją wolontariusz Jim Gilbert w Chaska w Minnesocie, ponad trzy tysiące kilometrów stamtąd.",
+    "Dla gazet był to koniec tajemnicy. Ale dla miejscowych nie było żadnej tajemnicy: chłopi z Michoacán od zawsze widzieli, jak motyle przylatują co roku, i czekali na nie na początku listopada. Tajemnica była tylko nasza."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Şubat ayı. Meksika'nın dağlarında, üç bin metre yükseklikte milyonlarca kral kelebeği var. Hepsi ağaçların üstünde, yan yana uyuyor ve dallar turuncu görünüyor. Yakında ilkbahar gelecek ve kelebekler kuzeye doğru yola çıkacak.",
+    "Ama dikkat: hiçbiri Kanada'ya dönmeyecek. Yolculuk çok uzun. Kelebekler Teksas'a kadar uçacak, ipek otu adlı bir bitkinin yapraklarına yumurtalarını bırakacak ve sonra ölecekler.",
+    "Yumurtalardan tırtıllar çıkacak. Tırtıllar sadece ipek otu yaprağı yiyecek. Zehirli bir bitki ama tırtıllar sorun yaşamayacak: tam tersine, zehir onların vücudunda kalacak. Kuşlar bu turuncu kelebeklerin tadının berbat olduğunu çabucak öğrenecek.",
+    "Sonra her tırtıl bir kelebeğe dönüşecek ve kuzeye doğru yolculuğa devam edecek. Yaklaşık bir ay yaşayacak, yumurtalarını bırakacak ve ölecek. Kızı da aynısını yapacak, sonra da torunu. Kanada'ya varmak için üç ya da dört kuşak gerekecek.",
+    "Ama yazın sonunda farklı bir kelebek doğacak. Bu bir süper kelebek olacak: yumurtalarını hemen bırakmayacak ve sekiz aya kadar yaşayacak. Eylülde güneye doğru yola çıkacak ve binlerce kilometre uçarak Meksika'daki aynı dağlara varacak. Oraya hiç gitmedi, kimse ona yolu göstermeyecek… yine de yolu bulacak.",
+    "Ya sen? Gelecek yaz nereye gideceksin? Telefonsuz yolu bulabilecek misin?"
+   ],
+   "b1": [
+    "Yüzyıllar boyunca Kanada'da ve Amerika Birleşik Devletleri'nde insanlar her sonbahar kral kelebeklerinin gittiğini görüyordu, ama kimse nereye gittiklerini bilmiyordu. Kanadalı zoolog Fred Urquhart çocukluğundan beri bunu düşünüyordu. 1952'de eşi Norah ile birlikte o zamanlar neredeyse imkânsız görünen bir projeye başladı.",
+    "Fikir basitti. Binlerce gönüllü kelebekleri bir ağla yakalıyor ve kanatlarına, üzerinde bir numara ve Toronto Üniversitesi'nin bir adresi olan minicik bir etiket yapıştırıyordu. Etiketli bir kelebek bulan kişi onu Toronto'ya göndermeliydi. Böylece Urquhart çifti yıllar içinde kelebeklerin yollarını bir haritaya çizdi: hepsi Meksika'ya doğru gidiyordu. Ama tam olarak nereye?",
+    "1972'de Norah Meksika gazetelerine bir ilan verdi: gönüllü arıyordu. Mexico City'de yaşayan Amerikalı Ken Brugger cevap verdi. Ken neredeyse üç yıl boyunca, sonradan eşi olan Catalina Aguado ve köpeğiyle dağları dolaştı. Köylülere sorular soruyor, kelebekleri takip ediyor, geri dönüyorlardı. Ocak 1975'in başında, Michoacán eyaletinde üç bin metreden yüksek bir köknar ormanında sonunda aradıklarını buldular: ağaç gövdelerini ve dalları kaplayan milyonlarca kelebek.",
+    "Bir yıl sonra, o sırada altmış dört yaşında olan Fred Urquhart ormana kadar tırmandı. Kelebeklere bakarken bir dal onların ağırlığı altında kırılıp yere düştü. Urquhart eğildi ve düşen kelebeklerin arasında beyaz etiketli birini gördü. Etiketi, oradan üç bin kilometreden daha uzakta, Minnesota'daki Chaska'da Jim Gilbert adlı bir gönüllü takmıştı.",
+    "Gazeteler için bu bir gizemin sonuydu. Ama yöre halkı için ortada hiçbir gizem yoktu: Michoacán köylüleri kelebeklerin her yıl geldiğini öteden beri görüyor ve onları kasım başında bekliyordu. Gizem yalnızca bizim içindi."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Es ist Februar. In den Bergen Mexikos, auf dreitausend Metern Höhe, gibt es Millionen von Monarchfaltern. Sie schlafen alle zusammen auf den Bäumen, einer neben dem anderen, und die Äste sehen orange aus. Bald wird der Frühling kommen, und die Schmetterlinge werden nach Norden aufbrechen.",
+    "Aber Achtung: Keiner von ihnen wird nach Kanada zurückkehren. Die Reise ist zu lang. Die Schmetterlinge werden bis nach Texas fliegen, ihre Eier auf die Blätter einer Pflanze legen, der Seidenpflanze, und dann sterben.",
+    "Aus den Eiern werden Raupen schlüpfen. Die Raupen werden nur Blätter der Seidenpflanze fressen. Es ist eine giftige Pflanze, aber die Raupen werden keine Probleme haben: Im Gegenteil, das Gift wird in ihrem Körper bleiben. Die Vögel werden schnell lernen, dass diese orangefarbenen Schmetterlinge schrecklich schmecken.",
+    "Dann wird jede Raupe zu einem Schmetterling werden und die Reise nach Norden fortsetzen. Sie wird etwa einen Monat leben, Eier legen und sterben. Ihre Tochter wird dasselbe tun, und dann ihre Enkelin. Es wird drei oder vier Generationen brauchen, um bis nach Kanada zu kommen.",
+    "Am Ende des Sommers aber wird ein anderer Schmetterling schlüpfen. Er wird ein Superfalter sein: Er wird nicht sofort Eier legen und bis zu acht Monate leben. Im September wird er nach Süden aufbrechen und Tausende Kilometer weit fliegen, bis zu denselben Bergen in Mexiko. Er war nie dort, niemand wird ihm den Weg zeigen… und doch wird er ihn finden.",
+    "Und du? Wohin fährst du nächsten Sommer? Wirst du den Weg ohne Handy finden?"
+   ],
+   "b1": [
+    "Jahrhundertelang sahen die Menschen in Kanada und in den USA jeden Herbst die Monarchfalter wegziehen, aber niemand wusste, wohin sie flogen. Der kanadische Zoologe Fred Urquhart dachte darüber nach, seit er ein Kind war. 1952 begann er mit seiner Frau Norah ein Projekt, das damals fast unmöglich schien.",
+    "Die Idee war einfach. Tausende Freiwillige fingen die Schmetterlinge mit einem Netz und klebten ihnen ein winziges Etikett auf die Flügel, mit einer Nummer und einer Adresse der Universität Toronto. Wer einen Schmetterling mit Etikett fand, musste ihn nach Toronto schicken. So zeichneten die Urquharts Jahr für Jahr die Wege der Schmetterlinge auf eine Landkarte: Alle führten nach Mexiko. Aber wohin genau?",
+    "1972 gab Norah eine Anzeige in mexikanischen Zeitungen auf: Sie suchte Freiwillige. Es meldete sich Ken Brugger, ein Amerikaner, der in Mexiko-Stadt lebte. Fast drei Jahre lang fuhr Ken mit Catalina Aguado, die später seine Frau wurde, und mit seinem Hund durch die Berge. Sie fragten die Bauern, folgten den Schmetterlingen, kehrten um. Anfang Januar 1975 fanden sie in einem Tannenwald im Bundesstaat Michoacán, auf über dreitausend Metern, endlich, was sie suchten: Millionen von Schmetterlingen, die die Stämme und Äste bedeckten.",
+    "Ein Jahr später stieg Fred Urquhart, der inzwischen vierundsechzig Jahre alt war, bis zum Wald hinauf. Während er die Schmetterlinge betrachtete, brach ein Ast unter ihrem Gewicht ab und fiel zu Boden. Urquhart bückte sich und sah unter den heruntergefallenen Schmetterlingen einen mit einem weißen Etikett. Ein Freiwilliger, Jim Gilbert, hatte es in Chaska in Minnesota angebracht, mehr als dreitausend Kilometer entfernt.",
+    "Für die Zeitungen war es das Ende eines Rätsels. Aber für die Menschen vor Ort gab es kein Rätsel: Die Bauern von Michoacán sahen die Schmetterlinge seit jeher jedes Jahr ankommen und warteten Anfang November auf sie. Das Rätsel war nur unseres."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "2月です。メキシコの山の上、標高3000メートルの場所に、何百万匹ものオオカバマダラがいます。みんな木の上でいっしょに、すぐ隣どうしで眠っていて、枝がオレンジ色に見えます。もうすぐ春が来て、チョウたちは北へ旅立つでしょう。",
+    "でも、注意してください。カナダにもどるチョウは1匹もいません。旅が長すぎるのです。チョウたちはテキサスまで飛び、トウワタという植物の葉に卵を産んで、それから死ぬでしょう。",
+    "卵からはイモムシが生まれます。イモムシはトウワタの葉しか食べません。毒のある植物ですが、イモムシは平気です。それどころか、毒は体の中に残ります。鳥たちは、このオレンジ色のチョウはひどい味だと、すぐに覚えるでしょう。",
+    "それから、イモムシはそれぞれチョウになって、北へ旅を続けます。1か月くらい生きて、卵を産み、死にます。娘も同じことをし、それから孫も同じことをします。カナダに着くまでに、3世代か4世代かかるのです。",
+    "でも夏の終わりには、ちがうチョウが生まれます。スーパーチョウです。すぐには卵を産まず、8か月まで生きます。9月に南へ旅立ち、何千キロも飛んで、メキシコの同じ山までたどり着きます。一度も行ったことがなく、だれも道を教えてくれません……それなのに、道を見つけるのです。",
+    "あなたは？次の夏、どこへ行きますか？スマホなしで道を見つけられますか？"
+   ],
+   "b1": [
+    "何世紀ものあいだ、カナダとアメリカの人々は、毎年秋にオオカバマダラが飛び立つのを見ていたが、どこへ行くのかはだれも知らなかった。カナダの動物学者フレッド・アーカートは、子どものころからそのことを考えていた。1952年、彼は妻のノラとともに、当時はほとんど不可能に思えたプロジェクトを始めた。",
+    "アイデアは簡単だった。何千人ものボランティアが網でチョウを捕まえ、羽にとても小さなラベルをはった。ラベルには番号とトロント大学の住所が書いてあった。ラベルのついたチョウを見つけた人は、それをトロントへ送ることになっていた。こうして、アーカート夫妻は年を追って、チョウの道筋を地図に描いていった。すべてメキシコへ向かっていた。でも、正確にはどこなのか？",
+    "1972年、ノラはメキシコの新聞に広告を出した。ボランティアを探していたのだ。それに応えたのが、メキシコシティに住んでいたアメリカ人のケン・ブルガーだった。3年近く、ケンは、のちに妻になるカタリーナ・アグアドと自分の犬といっしょに山々を歩き回った。農民たちに話を聞き、チョウのあとを追い、引き返した。1975年1月のはじめ、ミチョアカン州の標高3000メートルを超えるモミの森で、二人はついに探していたものを見つけた。幹や枝をおおいつくす何百万匹ものチョウである。",
+    "1年後、もう64歳になっていたフレッド・アーカートが、その森まで登ってきた。彼がチョウを見ているあいだに、1本の枝がチョウの重さで折れ、地面に落ちた。アーカートはかがみこみ、落ちたチョウの中に、白いラベルのついた1匹を見つけた。それをつけたのは、3000キロ以上離れたミネソタ州チャスカのボランティア、ジム・ギルバートだった。",
+    "新聞にとって、それはなぞの終わりだった。しかし地元の人々にとって、なぞなどなかった。ミチョアカンの農民たちは、ずっと昔から毎年チョウがやって来るのを見ていて、11月のはじめにはチョウを待っていたのだ。なぞだったのは、わたしたちにとってだけだった。"
+   ]
+  }
+ }
+}
