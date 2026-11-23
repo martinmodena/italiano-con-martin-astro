@@ -1,0 +1,1236 @@
+{
+ "id": "latte-materno",
+ "nota": "Glossario della lettura (solo B2 e C1: niente traduzione dei paragrafi): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "materno",
+   "forme": [
+    "materno"
+   ],
+   "formeEsempi": [
+    "materna"
+   ],
+   "esempi": [
+    "Il latte materno è il primo alimento.",
+    "La lingua materna di Ana è lo spagnolo.",
+    "È un gesto materno."
+   ],
+   "traduzioni": {
+    "en": "maternal («latte materno» = breast milk)",
+    "es": "materno («leche materna»)",
+    "pt": "materno («leite materno»)",
+    "fr": "maternel («lait maternel»)",
+    "cs": "mateřský («mateřské mléko»)",
+    "pl": "matczyny («mleko matki»)",
+    "tr": "anne («anne sütü»)",
+    "de": "mütterlich («Muttermilch»)",
+    "ja": "母の（latte materno＝母乳）"
+   }
+  },
+  {
+   "parola": "la sostanza",
+   "forme": [
+    "sostanze"
+   ],
+   "formeEsempi": [
+    "sostanza"
+   ],
+   "esempi": [
+    "Questa sostanza è tossica.",
+    "Il latte contiene molte sostanze.",
+    "Nella sostanza, hai ragione."
+   ],
+   "traduzioni": {
+    "en": "substance",
+    "es": "sustancia",
+    "pt": "substância",
+    "fr": "substance",
+    "cs": "látka",
+    "pl": "substancja",
+    "tr": "madde",
+    "de": "Stoff, Substanz",
+    "ja": "物質"
+   }
+  },
+  {
+   "parola": "restante",
+   "forme": [
+    "restanti"
+   ],
+   "formeEsempi": [
+    "restante"
+   ],
+   "esempi": [
+    "Pago il restante domani.",
+    "Le persone restanti aspettano fuori.",
+    "Il restante 13 per cento è diverso."
+   ],
+   "traduzioni": {
+    "en": "remaining",
+    "es": "restante",
+    "pt": "restante",
+    "fr": "restant",
+    "cs": "zbývající",
+    "pl": "pozostały",
+    "tr": "kalan",
+    "de": "übrig, restlich",
+    "ja": "残りの"
+   }
+  },
+  {
+   "parola": "la proporzione",
+   "forme": [
+    "proporzione"
+   ],
+   "esempi": [
+    "La proporzione tra acqua e farina è importante.",
+    "Il disegno non rispetta le proporzioni.",
+    "In proporzione, costa meno."
+   ],
+   "traduzioni": {
+    "en": "proportion",
+    "es": "proporción",
+    "pt": "proporção",
+    "fr": "proportion",
+    "cs": "poměr",
+    "pl": "proporcja",
+    "tr": "oran",
+    "de": "Verhältnis",
+    "ja": "割合"
+   },
+   "formeEsempi": [
+    "proporzioni"
+   ]
+  },
+  {
+   "parola": "la composizione",
+   "forme": [
+    "composizione"
+   ],
+   "esempi": [
+    "Qual è la composizione di questo farmaco?",
+    "La composizione del latte cambia.",
+    "Studio la composizione dell'aria."
+   ],
+   "traduzioni": {
+    "en": "composition",
+    "es": "composición",
+    "pt": "composição",
+    "fr": "composition",
+    "cs": "složení",
+    "pl": "skład",
+    "tr": "bileşim",
+    "de": "Zusammensetzung",
+    "ja": "成分、組成"
+   }
+  },
+  {
+   "parola": "nel corso di",
+   "forme": [
+    "corso"
+   ],
+   "esempi": [
+    "Nel corso della giornata piove.",
+    "Nel corso degli anni è cambiato.",
+    "Ci vediamo nel corso della settimana."
+   ],
+   "traduzioni": {
+    "en": "during, in the course of",
+    "es": "en el transcurso de, durante",
+    "pt": "no decorrer de",
+    "fr": "au cours de",
+    "cs": "během",
+    "pl": "w trakcie",
+    "tr": "boyunca, sırasında",
+    "de": "im Laufe von",
+    "ja": "〜の間に"
+   }
+  },
+  {
+   "parola": "la poppata",
+   "forme": [
+    "poppata"
+   ],
+   "esempi": [
+    "Il neonato fa una poppata ogni tre ore.",
+    "Dopo la poppata il bambino dorme.",
+    "La prima poppata è importante."
+   ],
+   "traduzioni": {
+    "en": "feed (breastfeeding session)",
+    "es": "toma (de pecho)",
+    "pt": "mamada",
+    "fr": "tétée",
+    "cs": "kojení (jedno nakrmení)",
+    "pl": "karmienie (piersią)",
+    "tr": "emzirme",
+    "de": "Stillmahlzeit",
+    "ja": "授乳（1回分）"
+   }
+  },
+  {
+   "parola": "il grasso",
+   "forme": [
+    "grassi"
+   ],
+   "formeEsempi": [
+    "grasso"
+   ],
+   "esempi": [
+    "Questo formaggio ha pochi grassi.",
+    "L'olio è un grasso sano.",
+    "Evito i cibi ricchi di grassi."
+   ],
+   "traduzioni": {
+    "en": "fat",
+    "es": "grasa",
+    "pt": "gordura",
+    "fr": "matière grasse, graisse",
+    "cs": "tuk",
+    "pl": "tłuszcz",
+    "tr": "yağ",
+    "de": "Fett",
+    "ja": "脂肪"
+   }
+  },
+  {
+   "parola": "la sazietà",
+   "forme": [
+    "sazietà"
+   ],
+   "esempi": [
+    "Le fibre danno un senso di sazietà.",
+    "Mangia lentamente fino alla sazietà.",
+    "La sazietà arriva dopo venti minuti."
+   ],
+   "traduzioni": {
+    "en": "feeling of fullness, satiety",
+    "es": "saciedad",
+    "pt": "saciedade",
+    "fr": "satiété",
+    "cs": "sytost",
+    "pl": "sytość",
+    "tr": "tokluk",
+    "de": "Sättigung",
+    "ja": "満腹感"
+   }
+  },
+  {
+   "parola": "quindi",
+   "forme": [
+    "quindi"
+   ],
+   "esempi": [
+    "Piove, quindi resto a casa.",
+    "Sono stanco, quindi vado a letto.",
+    "Quindi, che cosa facciamo?"
+   ],
+   "traduzioni": {
+    "en": "so, therefore",
+    "es": "por lo tanto, así que",
+    "pt": "portanto, então",
+    "fr": "donc",
+    "cs": "takže, proto",
+    "pl": "więc, zatem",
+    "tr": "bu yüzden",
+    "de": "also, deshalb",
+    "ja": "したがって"
+   }
+  },
+  {
+   "parola": "il volume",
+   "forme": [
+    "volume"
+   ],
+   "esempi": [
+    "Abbassa il volume della TV!",
+    "Il volume della bottiglia è un litro.",
+    "Non conta il volume, conta la qualità."
+   ],
+   "traduzioni": {
+    "en": "volume, amount",
+    "es": "volumen",
+    "pt": "volume",
+    "fr": "volume",
+    "cs": "objem",
+    "pl": "objętość",
+    "tr": "hacim, miktar",
+    "de": "Menge, Volumen",
+    "ja": "量"
+   }
+  },
+  {
+   "parola": "aumentare",
+   "forme": [
+    "aumenta"
+   ],
+   "formeEsempi": [
+    "aumentano"
+   ],
+   "esempi": [
+    "D'estate aumenta il caldo.",
+    "I prezzi aumentano ogni anno.",
+    "Lo sport aumenta l'energia."
+   ],
+   "traduzioni": {
+    "en": "to increase, to rise",
+    "es": "aumentar",
+    "pt": "aumentar",
+    "fr": "augmenter",
+    "cs": "zvyšovat se, stoupat",
+    "pl": "wzrastać",
+    "tr": "artmak",
+    "de": "steigen, zunehmen",
+    "ja": "増える"
+   }
+  },
+  {
+   "parola": "l'ormone",
+   "forme": [
+    "ormone"
+   ],
+   "formeEsempi": [
+    "ormoni"
+   ],
+   "esempi": [
+    "L'insulina è un ormone.",
+    "Gli ormoni cambiano durante la giornata.",
+    "La melatonina è l'ormone del sonno."
+   ],
+   "traduzioni": {
+    "en": "hormone",
+    "es": "hormona",
+    "pt": "hormônio",
+    "fr": "hormone",
+    "cs": "hormon",
+    "pl": "hormon",
+    "tr": "hormon",
+    "de": "Hormon",
+    "ja": "ホルモン"
+   }
+  },
+  {
+   "parola": "prevalere",
+   "forme": [
+    "prevale"
+   ],
+   "esempi": [
+    "Alla fine prevale il buon senso.",
+    "Di giorno prevale il cortisolo.",
+    "In questa zona prevale il vento da nord."
+   ],
+   "traduzioni": {
+    "en": "to prevail, to predominate",
+    "es": "prevalecer, predominar",
+    "pt": "prevalecer, predominar",
+    "fr": "prévaloir, dominer",
+    "cs": "převládat",
+    "pl": "przeważać",
+    "tr": "baskın olmak",
+    "de": "überwiegen",
+    "ja": "優勢である"
+   }
+  },
+  {
+   "parola": "associato a",
+   "forme": [
+    "associato"
+   ],
+   "formeEsempi": [
+    "associata"
+   ],
+   "esempi": [
+    "Il caffè è associato al mattino.",
+    "Il rischio è associato al fumo.",
+    "È un colore associato alla calma."
+   ],
+   "traduzioni": {
+    "en": "associated with",
+    "es": "asociado a",
+    "pt": "associado a",
+    "fr": "associé à",
+    "cs": "spojený s",
+    "pl": "powiązany z",
+    "tr": "ile ilişkili",
+    "de": "verbunden mit",
+    "ja": "〜と関連した"
+   }
+  },
+  {
+   "parola": "la veglia",
+   "forme": [
+    "veglia"
+   ],
+   "esempi": [
+    "Il ritmo tra sonno e veglia è importante.",
+    "Durante la veglia il cervello lavora.",
+    "Ha passato la notte in veglia."
+   ],
+   "traduzioni": {
+    "en": "wakefulness, being awake",
+    "es": "vigilia",
+    "pt": "vigília",
+    "fr": "veille, éveil",
+    "cs": "bdění",
+    "pl": "czuwanie, stan czuwania",
+    "tr": "uyanıklık",
+    "de": "Wachsein",
+    "ja": "覚醒、起きている状態"
+   }
+  },
+  {
+   "parola": "trasmettere",
+   "forme": [
+    "trasmette",
+    "trasmettere"
+   ],
+   "esempi": [
+    "La radio trasmette musica tutto il giorno.",
+    "I genitori trasmettono valori.",
+    "Il latte trasmette informazioni."
+   ],
+   "traduzioni": {
+    "en": "to transmit, to pass on",
+    "es": "transmitir",
+    "pt": "transmitir",
+    "fr": "transmettre",
+    "cs": "přenášet, předávat",
+    "pl": "przekazywać",
+    "tr": "iletmek, aktarmak",
+    "de": "übertragen, vermitteln",
+    "ja": "伝える"
+   },
+   "formeEsempi": [
+    "trasmettono"
+   ]
+  },
+  {
+   "parola": "il nutrimento",
+   "forme": [
+    "nutrimento"
+   ],
+   "esempi": [
+    "Le piante prendono nutrimento dal terreno.",
+    "Il latte è nutrimento e difesa.",
+    "La lettura è nutrimento per la mente."
+   ],
+   "traduzioni": {
+    "en": "nourishment",
+    "es": "nutrición, alimento",
+    "pt": "nutrição, alimento",
+    "fr": "nourriture, nutriment",
+    "cs": "výživa",
+    "pl": "pożywienie",
+    "tr": "besin",
+    "de": "Nahrung",
+    "ja": "栄養"
+   }
+  },
+  {
+   "parola": "lo zucchero",
+   "forme": [
+    "zuccheri"
+   ],
+   "formeEsempi": [
+    "zucchero"
+   ],
+   "esempi": [
+    "Bevo il caffè senza zucchero.",
+    "La frutta contiene zuccheri.",
+    "Troppo zucchero fa male."
+   ],
+   "traduzioni": {
+    "en": "sugar",
+    "es": "azúcar",
+    "pt": "açúcar",
+    "fr": "sucre",
+    "cs": "cukr",
+    "pl": "cukier",
+    "tr": "şeker",
+    "de": "Zucker",
+    "ja": "糖、砂糖"
+   }
+  },
+  {
+   "parola": "l'intestino",
+   "forme": [
+    "intestino"
+   ],
+   "esempi": [
+    "L'intestino è lungo circa sette metri.",
+    "Ho problemi all'intestino.",
+    "Nell'intestino vivono miliardi di batteri."
+   ],
+   "traduzioni": {
+    "en": "gut, intestine",
+    "es": "intestino",
+    "pt": "intestino",
+    "fr": "intestin",
+    "cs": "střevo",
+    "pl": "jelito",
+    "tr": "bağırsak",
+    "de": "Darm",
+    "ja": "腸"
+   }
+  },
+  {
+   "parola": "digerire",
+   "forme": [
+    "digeriti",
+    "digerire"
+   ],
+   "formeEsempi": [
+    "digerisco"
+   ],
+   "esempi": [
+    "Non digerisco bene il latte.",
+    "Una cena pesante è difficile da digerire.",
+    "Questi zuccheri non vengono digeriti."
+   ],
+   "traduzioni": {
+    "en": "to digest («digeriti» = digested)",
+    "es": "digerir",
+    "pt": "digerir",
+    "fr": "digérer",
+    "cs": "strávit",
+    "pl": "trawić",
+    "tr": "sindirmek",
+    "de": "verdauen",
+    "ja": "消化する"
+   }
+  },
+  {
+   "parola": "destinato a",
+   "forme": [
+    "destinati"
+   ],
+   "formeEsempi": [
+    "destinato"
+   ],
+   "esempi": [
+    "Il regalo è destinato a te.",
+    "Questi soldi sono destinati alla scuola.",
+    "Era destinato a diventare famoso."
+   ],
+   "traduzioni": {
+    "en": "intended for, meant for",
+    "es": "destinado a",
+    "pt": "destinado a",
+    "fr": "destiné à",
+    "cs": "určený pro",
+    "pl": "przeznaczony dla",
+    "tr": "-e yönelik",
+    "de": "bestimmt für",
+    "ja": "〜向けの"
+   }
+  },
+  {
+   "parola": "il batterio",
+   "forme": [
+    "batteri"
+   ],
+   "formeEsempi": [
+    "batterio"
+   ],
+   "esempi": [
+    "Alcuni batteri sono utili.",
+    "Lavati le mani contro i batteri.",
+    "Questo batterio causa infezioni."
+   ],
+   "traduzioni": {
+    "en": "bacterium (pl. bacteria)",
+    "es": "bacteria",
+    "pt": "bactéria",
+    "fr": "bactérie",
+    "cs": "bakterie",
+    "pl": "bakteria",
+    "tr": "bakteri",
+    "de": "Bakterie",
+    "ja": "細菌"
+   }
+  },
+  {
+   "parola": "popolare (verbo)",
+   "forme": [
+    "popolano"
+   ],
+   "esempi": [
+    "Molti uccelli popolano il bosco.",
+    "I batteri popolano l'intestino.",
+    "Strane creature popolano i suoi racconti."
+   ],
+   "traduzioni": {
+    "en": "to inhabit, to populate",
+    "es": "poblar, habitar",
+    "pt": "povoar, habitar",
+    "fr": "peupler",
+    "cs": "obývat",
+    "pl": "zamieszkiwać",
+    "tr": "yaşamak, doldurmak",
+    "de": "bevölkern",
+    "ja": "生息する、住む"
+   }
+  },
+  {
+   "parola": "assomigliare a",
+   "forme": [
+    "assomigliano"
+   ],
+   "formeEsempi": [
+    "assomiglia",
+    "assomigli"
+   ],
+   "esempi": [
+    "Assomigli molto a tua madre.",
+    "Queste due parole si assomigliano.",
+    "Gli zuccheri assomigliano ai punti di aggancio."
+   ],
+   "traduzioni": {
+    "en": "to resemble, to look like",
+    "es": "parecerse a",
+    "pt": "parecer-se com",
+    "fr": "ressembler à",
+    "cs": "podobat se",
+    "pl": "przypominać",
+    "tr": "benzemek",
+    "de": "ähneln",
+    "ja": "〜に似ている"
+   }
+  },
+  {
+   "parola": "l'aggancio",
+   "forme": [
+    "aggancio"
+   ],
+   "esempi": [
+    "Il punto di aggancio del rimorchio è rotto.",
+    "Cerco un aggancio per iniziare la conversazione.",
+    "I germi cercano un punto di aggancio."
+   ],
+   "traduzioni": {
+    "en": "attachment point, hook («punti di aggancio» = binding sites)",
+    "es": "punto de anclaje, enganche",
+    "pt": "ponto de fixação, encaixe",
+    "fr": "point d'ancrage, accroche",
+    "cs": "úchyt, místo uchycení",
+    "pl": "punkt zaczepienia",
+    "tr": "tutunma noktası",
+    "de": "Andockstelle, Haken",
+    "ja": "結合部位、引っかかる所"
+   }
+  },
+  {
+   "parola": "il germe",
+   "forme": [
+    "germi"
+   ],
+   "formeEsempi": [
+    "germe"
+   ],
+   "esempi": [
+    "Lava le mani per eliminare i germi.",
+    "I germi si diffondono con la tosse.",
+    "È il germe di una nuova idea."
+   ],
+   "traduzioni": {
+    "en": "germ",
+    "es": "germen",
+    "pt": "germe",
+    "fr": "germe, microbe",
+    "cs": "zárodek, choroboplodný zárodek",
+    "pl": "zarazek",
+    "tr": "mikrop",
+    "de": "Keim",
+    "ja": "病原菌"
+   }
+  },
+  {
+   "parola": "legarsi a",
+   "forme": [
+    "legano"
+   ],
+   "formeEsempi": [
+    "lega"
+   ],
+   "esempi": [
+    "Il cane si lega molto al padrone.",
+    "Le molecole si legano tra loro.",
+    "I germi si legano agli zuccheri."
+   ],
+   "traduzioni": {
+    "en": "to bind to, to attach to",
+    "es": "unirse a, ligarse a",
+    "pt": "ligar-se a",
+    "fr": "se lier à, se fixer à",
+    "cs": "navázat se na",
+    "pl": "wiązać się z",
+    "tr": "bağlanmak",
+    "de": "sich binden an",
+    "ja": "〜に結合する"
+   }
+  },
+  {
+   "parola": "la cellula",
+   "forme": [
+    "cellule"
+   ],
+   "formeEsempi": [
+    "cellula"
+   ],
+   "esempi": [
+    "Il corpo è fatto di cellule.",
+    "La cellula è l'unità della vita.",
+    "Le cellule si dividono."
+   ],
+   "traduzioni": {
+    "en": "cell",
+    "es": "célula",
+    "pt": "célula",
+    "fr": "cellule",
+    "cs": "buňka",
+    "pl": "komórka",
+    "tr": "hücre",
+    "de": "Zelle",
+    "ja": "細胞"
+   }
+  },
+  {
+   "parola": "netto",
+   "forme": [
+    "netto"
+   ],
+   "esempi": [
+    "C'è stato un netto miglioramento.",
+    "La differenza è netta.",
+    "Lo stipendio netto è più basso."
+   ],
+   "traduzioni": {
+    "en": "clear, sharp, marked (also: net)",
+    "es": "claro, marcado (también: neto)",
+    "pt": "nítido, claro (também: líquido)",
+    "fr": "net, marqué",
+    "cs": "výrazný, jasný (i: čistý)",
+    "pl": "wyraźny (też: netto)",
+    "tr": "belirgin, net",
+    "de": "deutlich (auch: netto)",
+    "ja": "はっきりした"
+   },
+   "formeEsempi": [
+    "netta"
+   ]
+  },
+  {
+   "parola": "la difesa",
+   "forme": [
+    "difese",
+    "difesa"
+   ],
+   "esempi": [
+    "Il corpo ha le sue difese.",
+    "La vitamina C aiuta le difese.",
+    "È una difesa naturale."
+   ],
+   "traduzioni": {
+    "en": "defence («le difese» = immune defences)",
+    "es": "defensa",
+    "pt": "defesa",
+    "fr": "défense",
+    "cs": "obrana",
+    "pl": "obrona",
+    "tr": "savunma",
+    "de": "Abwehr",
+    "ja": "防御、免疫"
+   }
+  },
+  {
+   "parola": "il globulo bianco",
+   "forme": [
+    "globuli"
+   ],
+   "esempi": [
+    "I globuli bianchi combattono le infezioni.",
+    "Le analisi mostrano molti globuli bianchi.",
+    "I globuli rossi portano ossigeno."
+   ],
+   "traduzioni": {
+    "en": "white blood cell",
+    "es": "glóbulo blanco",
+    "pt": "glóbulo branco",
+    "fr": "globule blanc",
+    "cs": "bílá krvinka",
+    "pl": "białe krwinki",
+    "tr": "akyuvar",
+    "de": "weißes Blutkörperchen",
+    "ja": "白血球"
+   }
+  },
+  {
+   "parola": "l'infezione",
+   "forme": [
+    "infezione"
+   ],
+   "esempi": [
+    "Ho un'infezione all'orecchio.",
+    "Gli antibiotici curano alcune infezioni.",
+    "Durante un'infezione il latte cambia."
+   ],
+   "traduzioni": {
+    "en": "infection",
+    "es": "infección",
+    "pt": "infecção",
+    "fr": "infection",
+    "cs": "infekce",
+    "pl": "infekcja",
+    "tr": "enfeksiyon",
+    "de": "Infektion",
+    "ja": "感染症"
+   },
+   "formeEsempi": [
+    "infezioni"
+   ]
+  },
+  {
+   "parola": "la quota",
+   "forme": [
+    "quota"
+   ],
+   "esempi": [
+    "La quota di iscrizione è di cinquanta euro.",
+    "Siamo a mille metri di quota.",
+    "La quota di globuli bianchi sale."
+   ],
+   "traduzioni": {
+    "en": "share, proportion (also: fee; altitude)",
+    "es": "cuota, proporción",
+    "pt": "cota, proporção",
+    "fr": "part, proportion",
+    "cs": "podíl",
+    "pl": "udział, odsetek",
+    "tr": "pay, oran",
+    "de": "Anteil",
+    "ja": "割合（会費・標高の意味も）"
+   }
+  },
+  {
+   "parola": "il colostro",
+   "forme": [
+    "colostro"
+   ],
+   "esempi": [
+    "Il colostro è il primo latte.",
+    "Il colostro è ricco di difese.",
+    "Nei primi giorni la madre produce colostro."
+   ],
+   "traduzioni": {
+    "en": "colostrum",
+    "es": "calostro",
+    "pt": "colostro",
+    "fr": "colostrum",
+    "cs": "mlezivo",
+    "pl": "siara",
+    "tr": "ağız sütü",
+    "de": "Kolostrum, Vormilch",
+    "ja": "初乳"
+   }
+  },
+  {
+   "parola": "quotidiano",
+   "forme": [
+    "quotidiani"
+   ],
+   "formeEsempi": [
+    "quotidiano",
+    "quotidiana"
+   ],
+   "esempi": [
+    "Faccio una passeggiata quotidiana.",
+    "Leggo il quotidiano al bar.",
+    "Bevo due litri d'acqua quotidiani."
+   ],
+   "traduzioni": {
+    "en": "daily (also noun: daily newspaper)",
+    "es": "diario, cotidiano",
+    "pt": "diário, cotidiano",
+    "fr": "quotidien",
+    "cs": "denní",
+    "pl": "dzienny, codzienny",
+    "tr": "günlük",
+    "de": "täglich",
+    "ja": "毎日の"
+   }
+  },
+  {
+   "parola": "il neonato",
+   "forme": [
+    "neonato"
+   ],
+   "esempi": [
+    "Il neonato dorme molte ore.",
+    "È nato un neonato di tre chili.",
+    "I neonati piangono per comunicare."
+   ],
+   "traduzioni": {
+    "en": "newborn (baby)",
+    "es": "recién nacido",
+    "pt": "recém-nascido",
+    "fr": "nouveau-né",
+    "cs": "novorozenec",
+    "pl": "noworodek",
+    "tr": "yenidoğan",
+    "de": "Neugeborenes",
+    "ja": "新生児"
+   },
+   "formeEsempi": [
+    "neonati"
+   ]
+  },
+  {
+   "parola": "scarso",
+   "forme": [
+    "scarsa"
+   ],
+   "formeEsempi": [
+    "scarso"
+   ],
+   "esempi": [
+    "La luce è scarsa.",
+    "Ho una scarsa conoscenza del tema.",
+    "Quest'anno la pioggia è scarsa."
+   ],
+   "traduzioni": {
+    "en": "scarce, meagre, insufficient",
+    "es": "escaso",
+    "pt": "escasso",
+    "fr": "faible, rare",
+    "cs": "nedostatečný, skrovný",
+    "pl": "skąpy, niewystarczający",
+    "tr": "az, yetersiz",
+    "de": "knapp, gering",
+    "ja": "乏しい"
+   }
+  },
+  {
+   "parola": "calibrato",
+   "forme": [
+    "calibrata"
+   ],
+   "formeEsempi": [
+    "calibrato"
+   ],
+   "esempi": [
+    "La dose è calibrata sul peso.",
+    "È una risposta ben calibrata.",
+    "Lo strumento è calibrato."
+   ],
+   "traduzioni": {
+    "en": "calibrated, finely adjusted",
+    "es": "calibrado, ajustado",
+    "pt": "calibrado",
+    "fr": "calibré, dosé",
+    "cs": "přesně odměřený",
+    "pl": "dobrze dobrany",
+    "tr": "ayarlı",
+    "de": "abgestimmt",
+    "ja": "ちょうどよく調整された"
+   }
+  },
+  {
+   "parola": "riduttivo",
+   "forme": [
+    "riduttivo"
+   ],
+   "esempi": [
+    "Dire che è solo un gioco è riduttivo.",
+    "È una lettura riduttiva del testo.",
+    "Chiamarlo amico è riduttivo."
+   ],
+   "traduzioni": {
+    "en": "reductive, too simplistic",
+    "es": "reduccionista, limitado",
+    "pt": "redutor, simplista",
+    "fr": "réducteur",
+    "cs": "zjednodušující",
+    "pl": "upraszczający",
+    "tr": "indirgemeci",
+    "de": "verkürzt, zu einfach",
+    "ja": "単純化しすぎた"
+   },
+   "formeEsempi": [
+    "riduttiva"
+   ]
+  },
+  {
+   "parola": "costituire",
+   "forme": [
+    "costituisce"
+   ],
+   "esempi": [
+    "L'acqua costituisce gran parte del corpo.",
+    "Questo costituisce un problema.",
+    "Il gruppo costituisce una squadra."
+   ],
+   "traduzioni": {
+    "en": "to make up, to constitute",
+    "es": "constituir",
+    "pt": "constituir",
+    "fr": "constituer",
+    "cs": "tvořit",
+    "pl": "stanowić",
+    "tr": "oluşturmak",
+    "de": "ausmachen, bilden",
+    "ja": "構成する、占める"
+   }
+  },
+  {
+   "parola": "svolgere",
+   "forme": [
+    "svolgono"
+   ],
+   "formeEsempi": [
+    "svolge"
+   ],
+   "esempi": [
+    "Svolge un lavoro importante.",
+    "Le api svolgono compiti diversi.",
+    "La riunione si svolge alle nove."
+   ],
+   "traduzioni": {
+    "en": "to carry out, to perform",
+    "es": "desempeñar, realizar",
+    "pt": "desempenhar, realizar",
+    "fr": "accomplir, remplir",
+    "cs": "vykonávat, plnit",
+    "pl": "pełnić, wykonywać",
+    "tr": "yerine getirmek",
+    "de": "erfüllen, ausüben",
+    "ja": "果たす、行う"
+   }
+  },
+  {
+   "parola": "subentrare",
+   "forme": [
+    "subentra"
+   ],
+   "esempi": [
+    "Al vecchio direttore subentra una donna.",
+    "Alla paura subentra la calma.",
+    "Al liquido leggero subentra una parte grassa."
+   ],
+   "traduzioni": {
+    "en": "to take over, to follow on",
+    "es": "sustituir, suceder",
+    "pt": "suceder, substituir",
+    "fr": "prendre le relais, succéder",
+    "cs": "nastoupit, vystřídat",
+    "pl": "zastąpić, przyjść po",
+    "tr": "yerini almak",
+    "de": "folgen, an die Stelle treten",
+    "ja": "取って代わる"
+   }
+  },
+  {
+   "parola": "la frazione",
+   "forme": [
+    "frazione"
+   ],
+   "esempi": [
+    "Una frazione di secondo.",
+    "Abito in una frazione del comune.",
+    "Solo una piccola frazione è grassa."
+   ],
+   "traduzioni": {
+    "en": "fraction, portion (also: hamlet)",
+    "es": "fracción",
+    "pt": "fração",
+    "fr": "fraction",
+    "cs": "zlomek, část",
+    "pl": "frakcja, ułamek",
+    "tr": "kısım, kesir",
+    "de": "Bruchteil, Anteil",
+    "ja": "部分、割合"
+   }
+  },
+  {
+   "parola": "il ritmo",
+   "forme": [
+    "ritmo"
+   ],
+   "esempi": [
+    "Questa canzone ha un bel ritmo.",
+    "Ognuno impara con il suo ritmo.",
+    "Il ritmo del sonno cambia con l'età."
+   ],
+   "traduzioni": {
+    "en": "rhythm, pace",
+    "es": "ritmo",
+    "pt": "ritmo",
+    "fr": "rythme",
+    "cs": "rytmus",
+    "pl": "rytm",
+    "tr": "ritim",
+    "de": "Rhythmus",
+    "ja": "リズム"
+   }
+  },
+  {
+   "parola": "la flora",
+   "forme": [
+    "flora"
+   ],
+   "esempi": [
+    "La flora intestinale aiuta la digestione.",
+    "La flora di quest'isola è unica.",
+    "Studio la flora delle Alpi."
+   ],
+   "traduzioni": {
+    "en": "flora («flora intestinale» = gut flora)",
+    "es": "flora",
+    "pt": "flora",
+    "fr": "flore",
+    "cs": "flóra, mikroflóra",
+    "pl": "flora",
+    "tr": "flora",
+    "de": "Flora",
+    "ja": "細菌叢、植物相"
+   }
+  },
+  {
+   "parola": "l'esca",
+   "forme": [
+    "esche"
+   ],
+   "formeEsempi": [
+    "esca"
+   ],
+   "esempi": [
+    "Il pescatore mette l'esca sull'amo.",
+    "Usa il pane come esca.",
+    "Gli zuccheri fanno da esche per i germi."
+   ],
+   "traduzioni": {
+    "en": "bait, decoy",
+    "es": "cebo, señuelo",
+    "pt": "isca",
+    "fr": "appât, leurre",
+    "cs": "návnada",
+    "pl": "przynęta",
+    "tr": "yem",
+    "de": "Köder",
+    "ja": "おとり、えさ"
+   }
+  },
+  {
+   "parola": "immunitario",
+   "forme": [
+    "immunitaria"
+   ],
+   "formeEsempi": [
+    "immunitario"
+   ],
+   "esempi": [
+    "Il sistema immunitario ci difende.",
+    "È una risposta immunitaria forte.",
+    "Lo sport rafforza il sistema immunitario."
+   ],
+   "traduzioni": {
+    "en": "immune",
+    "es": "inmunitario",
+    "pt": "imunológico",
+    "fr": "immunitaire",
+    "cs": "imunitní",
+    "pl": "odpornościowy",
+    "tr": "bağışıklık",
+    "de": "Immun-",
+    "ja": "免疫の"
+   }
+  },
+  {
+   "parola": "la guarigione",
+   "forme": [
+    "guarigione"
+   ],
+   "esempi": [
+    "Auguri di pronta guarigione!",
+    "La guarigione richiede tempo.",
+    "Dopo la guarigione è tornato al lavoro."
+   ],
+   "traduzioni": {
+    "en": "recovery, healing",
+    "es": "curación, recuperación",
+    "pt": "cura, recuperação",
+    "fr": "guérison",
+    "cs": "uzdravení",
+    "pl": "wyzdrowienie",
+    "tr": "iyileşme",
+    "de": "Genesung, Heilung",
+    "ja": "回復、治癒"
+   }
+  },
+  {
+   "parola": "su richiesta",
+   "forme": [
+    "richiesta"
+   ],
+   "esempi": [
+    "Il menù vegano è disponibile su richiesta.",
+    "Ho fatto una richiesta al comune.",
+    "La difesa si accende su richiesta."
+   ],
+   "traduzioni": {
+    "en": "on demand, on request",
+    "es": "a petición",
+    "pt": "sob demanda, a pedido",
+    "fr": "sur demande",
+    "cs": "na požádání",
+    "pl": "na żądanie",
+    "tr": "istek üzerine",
+    "de": "auf Anfrage, bei Bedarf",
+    "ja": "必要に応じて"
+   }
+  },
+  {
+   "parola": "la scarsità",
+   "forme": [
+    "scarsità"
+   ],
+   "esempi": [
+    "La scarsità d'acqua è un problema.",
+    "C'è scarsità di medici.",
+    "La scarsità iniziale è calcolata."
+   ],
+   "traduzioni": {
+    "en": "scarcity, shortage",
+    "es": "escasez",
+    "pt": "escassez",
+    "fr": "pénurie, rareté",
+    "cs": "nedostatek",
+    "pl": "niedobór",
+    "tr": "kıtlık",
+    "de": "Knappheit",
+    "ja": "不足"
+   }
+  },
+  {
+   "parola": "la dinamica",
+   "forme": [
+    "dinamica"
+   ],
+   "esempi": [
+    "La dinamica dell'incidente non è chiara.",
+    "Studio la dinamica del gruppo.",
+    "È una dinamica complessa."
+   ],
+   "traduzioni": {
+    "en": "dynamic, how something works",
+    "es": "dinámica",
+    "pt": "dinâmica",
+    "fr": "dynamique",
+    "cs": "dynamika, průběh",
+    "pl": "dynamika, przebieg",
+    "tr": "dinamik, işleyiş",
+    "de": "Dynamik, Ablauf",
+    "ja": "力学、動き方"
+   }
+  }
+ ]
+}
