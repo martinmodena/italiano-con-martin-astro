@@ -1,0 +1,1400 @@
+{
+ "id": "tecniche-di-memoria",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "lo studente",
+   "forme": [
+    "studenti"
+   ],
+   "formeEsempi": [
+    "studente",
+    "studentessa"
+   ],
+   "esempi": [
+    "Nella classe ci sono venti studenti.",
+    "Sono uno studente di medicina.",
+    "La studentessa fa una domanda."
+   ],
+   "traduzioni": {
+    "en": "student",
+    "es": "estudiante",
+    "pt": "estudante",
+    "fr": "étudiant, élève",
+    "cs": "student",
+    "pl": "uczeń, student",
+    "tr": "öğrenci",
+    "de": "Schüler, Student",
+    "ja": "学生、学習者"
+   }
+  },
+  {
+   "parola": "la lista",
+   "forme": [
+    "liste",
+    "lista"
+   ],
+   "esempi": [
+    "Faccio la lista della spesa.",
+    "Ho una lista di parole nuove.",
+    "Il tuo nome è sulla lista."
+   ],
+   "traduzioni": {
+    "en": "list",
+    "es": "lista",
+    "pt": "lista",
+    "fr": "liste",
+    "cs": "seznam",
+    "pl": "lista",
+    "tr": "liste",
+    "de": "Liste",
+    "ja": "リスト、一覧"
+   }
+  },
+  {
+   "parola": "la memoria",
+   "forme": [
+    "memoria"
+   ],
+   "esempi": [
+    "Ho una buona memoria.",
+    "Con l'età la memoria cambia.",
+    "Imparo la poesia a memoria."
+   ],
+   "traduzioni": {
+    "en": "memory",
+    "es": "memoria",
+    "pt": "memória",
+    "fr": "mémoire",
+    "cs": "paměť",
+    "pl": "pamięć",
+    "tr": "hafıza",
+    "de": "Gedächtnis",
+    "ja": "記憶"
+   }
+  },
+  {
+   "parola": "funzionare",
+   "forme": [
+    "funziona"
+   ],
+   "formeEsempi": [
+    "funzionano"
+   ],
+   "esempi": [
+    "Il computer non funziona.",
+    "Questo metodo funziona bene.",
+    "Come funziona la lavatrice?"
+   ],
+   "traduzioni": {
+    "en": "to work, to function",
+    "es": "funcionar",
+    "pt": "funcionar",
+    "fr": "fonctionner, marcher",
+    "cs": "fungovat",
+    "pl": "działać",
+    "tr": "çalışmak, işe yaramak",
+    "de": "funktionieren",
+    "ja": "機能する、うまくいく"
+   }
+  },
+  {
+   "parola": "l'attenzione",
+   "forme": [
+    "attenzione"
+   ],
+   "esempi": [
+    "Fai attenzione alla strada!",
+    "Ascolto con attenzione.",
+    "Il bambino cerca attenzione."
+   ],
+   "traduzioni": {
+    "en": "attention",
+    "es": "atención",
+    "pt": "atenção",
+    "fr": "attention",
+    "cs": "pozornost",
+    "pl": "uwaga",
+    "tr": "dikkat",
+    "de": "Aufmerksamkeit",
+    "ja": "注意、集中"
+   }
+  },
+  {
+   "parola": "attivo",
+   "forme": [
+    "attiva",
+    "attivo"
+   ],
+   "esempi": [
+    "Mia nonna è ancora molto attiva.",
+    "Imparo meglio con un metodo attivo.",
+    "È un vulcano attivo."
+   ],
+   "traduzioni": {
+    "en": "active",
+    "es": "activo",
+    "pt": "ativo",
+    "fr": "actif",
+    "cs": "aktivní",
+    "pl": "aktywny",
+    "tr": "aktif, etkin",
+    "de": "aktiv",
+    "ja": "能動的な、活発な"
+   }
+  },
+  {
+   "parola": "lungo",
+   "forme": [
+    "lunga"
+   ],
+   "formeEsempi": [
+    "lungo"
+   ],
+   "esempi": [
+    "È una strada lunga.",
+    "Il film è troppo lungo.",
+    "Ho fatto una lunga passeggiata."
+   ],
+   "traduzioni": {
+    "en": "long",
+    "es": "largo",
+    "pt": "longo, comprido",
+    "fr": "long",
+    "cs": "dlouhý",
+    "pl": "długi",
+    "tr": "uzun",
+    "de": "lang",
+    "ja": "長い"
+   }
+  },
+  {
+   "parola": "fragile",
+   "forme": [
+    "fragile"
+   ],
+   "esempi": [
+    "Attenzione: il vaso è fragile.",
+    "Un ricordo senza ripasso è fragile.",
+    "È una persona fragile."
+   ],
+   "traduzioni": {
+    "en": "fragile, weak",
+    "es": "frágil",
+    "pt": "frágil",
+    "fr": "fragile",
+    "cs": "křehký",
+    "pl": "kruchy",
+    "tr": "kırılgan",
+    "de": "zerbrechlich, schwach",
+    "ja": "もろい、壊れやすい"
+   }
+  },
+  {
+   "parola": "il ripasso",
+   "forme": [
+    "ripasso"
+   ],
+   "esempi": [
+    "Prima dell'esame faccio un ripasso.",
+    "Il ripasso è importante.",
+    "Facciamo un ripasso dei verbi?"
+   ],
+   "traduzioni": {
+    "en": "review, revision («ripasso distribuito» = spaced repetition)",
+    "es": "repaso («repaso espaciado»)",
+    "pt": "revisão («revisão espaçada»)",
+    "fr": "révision («répétition espacée»)",
+    "cs": "opakování («rozložené opakování»)",
+    "pl": "powtórka («powtórki rozłożone w czasie»)",
+    "tr": "tekrar («aralıklı tekrar»)",
+    "de": "Wiederholung («verteiltes Wiederholen»)",
+    "ja": "復習（ripasso distribuito＝間隔反復）"
+   }
+  },
+  {
+   "parola": "efficace",
+   "forme": [
+    "efficace"
+   ],
+   "esempi": [
+    "È una medicina efficace.",
+    "Questo metodo è più efficace.",
+    "Una spiegazione semplice è spesso efficace."
+   ],
+   "traduzioni": {
+    "en": "effective",
+    "es": "eficaz",
+    "pt": "eficaz",
+    "fr": "efficace",
+    "cs": "účinný",
+    "pl": "skuteczny",
+    "tr": "etkili",
+    "de": "wirksam, effektiv",
+    "ja": "効果的な"
+   }
+  },
+  {
+   "parola": "ripassare",
+   "forme": [
+    "ripassi"
+   ],
+   "formeEsempi": [
+    "ripasso",
+    "ripassare"
+   ],
+   "esempi": [
+    "Stasera ripasso la lezione.",
+    "Ripassi i verbi prima del test?",
+    "È utile ripassare ogni giorno."
+   ],
+   "traduzioni": {
+    "en": "to review, to go over",
+    "es": "repasar",
+    "pt": "revisar",
+    "fr": "réviser",
+    "cs": "opakovat (si)",
+    "pl": "powtarzać",
+    "tr": "tekrar etmek",
+    "de": "wiederholen",
+    "ja": "復習する"
+   }
+  },
+  {
+   "parola": "recuperare",
+   "forme": [
+    "recuperi"
+   ],
+   "formeEsempi": [
+    "recupero",
+    "recuperare"
+   ],
+   "esempi": [
+    "Recupero la parola dalla memoria.",
+    "Se recuperi una parola, la ricordi meglio.",
+    "Devo recuperare le ore di sonno."
+   ],
+   "traduzioni": {
+    "en": "to retrieve, to recall",
+    "es": "recuperar, evocar",
+    "pt": "recuperar, lembrar",
+    "fr": "récupérer, retrouver",
+    "cs": "vybavit si, získat zpět",
+    "pl": "przypomnieć sobie, odzyskać",
+    "tr": "hatırlamak, geri getirmek",
+    "de": "abrufen",
+    "ja": "思い出す、取り出す"
+   }
+  },
+  {
+   "parola": "il ricordo",
+   "forme": [
+    "ricordo"
+   ],
+   "esempi": [
+    "Ho un bel ricordo di quel viaggio.",
+    "È un ricordo d'infanzia.",
+    "Ogni ripasso rende il ricordo più forte."
+   ],
+   "traduzioni": {
+    "en": "memory (of something)",
+    "es": "recuerdo",
+    "pt": "lembrança",
+    "fr": "souvenir",
+    "cs": "vzpomínka",
+    "pl": "wspomnienie",
+    "tr": "anı",
+    "de": "Erinnerung",
+    "ja": "記憶、思い出"
+   }
+  },
+  {
+   "parola": "stabile",
+   "forme": [
+    "stabile"
+   ],
+   "esempi": [
+    "Il tavolo non è stabile.",
+    "Ha un lavoro stabile.",
+    "Il tempo oggi è stabile."
+   ],
+   "traduzioni": {
+    "en": "stable, solid",
+    "es": "estable",
+    "pt": "estável",
+    "fr": "stable",
+    "cs": "stabilní",
+    "pl": "stabilny",
+    "tr": "sağlam, kalıcı",
+    "de": "stabil",
+    "ja": "安定した"
+   }
+  },
+  {
+   "parola": "la tecnica",
+   "forme": [
+    "tecnica",
+    "tecniche"
+   ],
+   "esempi": [
+    "Ho una tecnica per studiare.",
+    "Questa tecnica è semplice.",
+    "Ci sono molte tecniche di memoria."
+   ],
+   "traduzioni": {
+    "en": "technique",
+    "es": "técnica",
+    "pt": "técnica",
+    "fr": "technique",
+    "cs": "technika",
+    "pl": "technika",
+    "tr": "teknik",
+    "de": "Technik",
+    "ja": "テクニック、方法"
+   }
+  },
+  {
+   "parola": "il recupero",
+   "forme": [
+    "recupero"
+   ],
+   "esempi": [
+    "Il recupero attivo aiuta la memoria.",
+    "Il recupero di una parola richiede sforzo.",
+    "Dopo la malattia il recupero è lento."
+   ],
+   "traduzioni": {
+    "en": "retrieval («recupero attivo» = active recall)",
+    "es": "recuperación («recuperación activa»)",
+    "pt": "recuperação («recuperação ativa»)",
+    "fr": "récupération («rappel actif»)",
+    "cs": "vybavování («aktivní vybavování»)",
+    "pl": "przypominanie («aktywne przypominanie»)",
+    "tr": "hatırlama («aktif hatırlama»)",
+    "de": "Abruf («aktives Abrufen»)",
+    "ja": "想起（recupero attivo＝アクティブリコール）"
+   }
+  },
+  {
+   "parola": "invece di",
+   "forme": [
+    "invece"
+   ],
+   "esempi": [
+    "Invece di guardare la TV, leggo.",
+    "Prendo il tè invece del caffè.",
+    "Invece di correre, cammina."
+   ],
+   "traduzioni": {
+    "en": "instead of",
+    "es": "en lugar de",
+    "pt": "em vez de",
+    "fr": "au lieu de",
+    "cs": "místo",
+    "pl": "zamiast",
+    "tr": "yerine",
+    "de": "statt",
+    "ja": "〜の代わりに"
+   }
+  },
+  {
+   "parola": "la risposta",
+   "forme": [
+    "risposta"
+   ],
+   "esempi": [
+    "Qual è la risposta giusta?",
+    "Aspetto una risposta.",
+    "Non so la risposta."
+   ],
+   "traduzioni": {
+    "en": "answer",
+    "es": "respuesta",
+    "pt": "resposta",
+    "fr": "réponse",
+    "cs": "odpověď",
+    "pl": "odpowiedź",
+    "tr": "cevap",
+    "de": "Antwort",
+    "ja": "答え"
+   }
+  },
+  {
+   "parola": "provare a",
+   "forme": [
+    "prova"
+   ],
+   "formeEsempi": [
+    "provo"
+   ],
+   "esempi": [
+    "Provo a dormire un po'.",
+    "Prova a ricordare la parola.",
+    "Prova questa torta!"
+   ],
+   "traduzioni": {
+    "en": "to try to",
+    "es": "intentar",
+    "pt": "tentar",
+    "fr": "essayer de",
+    "cs": "zkusit",
+    "pl": "spróbować",
+    "tr": "denemek, -meye çalışmak",
+    "de": "versuchen",
+    "ja": "〜してみる"
+   }
+  },
+  {
+   "parola": "ricordare",
+   "forme": [
+    "ricordare"
+   ],
+   "formeEsempi": [
+    "ricordo",
+    "ricordi"
+   ],
+   "esempi": [
+    "Non ricordo il suo nome.",
+    "Ricordi dove abbiamo parcheggiato?",
+    "È difficile ricordare tutto."
+   ],
+   "traduzioni": {
+    "en": "to remember",
+    "es": "recordar",
+    "pt": "lembrar",
+    "fr": "se souvenir, se rappeler",
+    "cs": "pamatovat si",
+    "pl": "pamiętać",
+    "tr": "hatırlamak",
+    "de": "sich erinnern",
+    "ja": "思い出す、覚えている"
+   }
+  },
+  {
+   "parola": "sbagliare",
+   "forme": [
+    "sbagli"
+   ],
+   "formeEsempi": [
+    "sbaglio",
+    "sbagliano"
+   ],
+   "esempi": [
+    "Se sbagli, non importa.",
+    "Sbaglio sempre questa parola.",
+    "Tutti sbagliano qualche volta."
+   ],
+   "traduzioni": {
+    "en": "to make a mistake, to get it wrong",
+    "es": "equivocarse",
+    "pt": "errar",
+    "fr": "se tromper",
+    "cs": "splést se, udělat chybu",
+    "pl": "pomylić się",
+    "tr": "yanılmak, hata yapmak",
+    "de": "einen Fehler machen",
+    "ja": "間違える"
+   }
+  },
+  {
+   "parola": "il tentativo",
+   "forme": [
+    "tentativo"
+   ],
+   "esempi": [
+    "Al primo tentativo non ci sono riuscito.",
+    "Ogni tentativo è utile.",
+    "Facciamo un altro tentativo."
+   ],
+   "traduzioni": {
+    "en": "attempt, try",
+    "es": "intento",
+    "pt": "tentativa",
+    "fr": "tentative, essai",
+    "cs": "pokus",
+    "pl": "próba",
+    "tr": "deneme",
+    "de": "Versuch",
+    "ja": "試み"
+   }
+  },
+  {
+   "parola": "il cervello",
+   "forme": [
+    "cervello"
+   ],
+   "esempi": [
+    "Il cervello ha bisogno di sonno.",
+    "Usa il cervello!",
+    "Il cervello umano è complesso."
+   ],
+   "traduzioni": {
+    "en": "brain",
+    "es": "cerebro",
+    "pt": "cérebro",
+    "fr": "cerveau",
+    "cs": "mozek",
+    "pl": "mózg",
+    "tr": "beyin",
+    "de": "Gehirn",
+    "ja": "脳"
+   }
+  },
+  {
+   "parola": "imparare",
+   "forme": [
+    "imparare"
+   ],
+   "formeEsempi": [
+    "imparo"
+   ],
+   "esempi": [
+    "Voglio imparare l'italiano.",
+    "Imparo dieci parole al giorno.",
+    "Non è mai tardi per imparare."
+   ],
+   "traduzioni": {
+    "en": "to learn",
+    "es": "aprender",
+    "pt": "aprender",
+    "fr": "apprendre",
+    "cs": "učit se, naučit se",
+    "pl": "uczyć się",
+    "tr": "öğrenmek",
+    "de": "lernen",
+    "ja": "学ぶ、覚える"
+   }
+  },
+  {
+   "parola": "l'immagine",
+   "forme": [
+    "immagini",
+    "immagine"
+   ],
+   "esempi": [
+    "Questa immagine è bellissima.",
+    "Le immagini aiutano a ricordare.",
+    "Nel libro ci sono molte immagini."
+   ],
+   "traduzioni": {
+    "en": "image, picture",
+    "es": "imagen",
+    "pt": "imagem",
+    "fr": "image",
+    "cs": "obrázek, představa",
+    "pl": "obraz, obrazek",
+    "tr": "görüntü, resim",
+    "de": "Bild",
+    "ja": "イメージ、画像"
+   }
+  },
+  {
+   "parola": "la scena",
+   "forme": [
+    "scena"
+   ],
+   "esempi": [
+    "È la scena più bella del film.",
+    "Immagina una scena divertente.",
+    "Che scena strana!"
+   ],
+   "traduzioni": {
+    "en": "scene",
+    "es": "escena",
+    "pt": "cena",
+    "fr": "scène",
+    "cs": "scéna",
+    "pl": "scena",
+    "tr": "sahne",
+    "de": "Szene",
+    "ja": "場面"
+   }
+  },
+  {
+   "parola": "buffo",
+   "forme": [
+    "buffa"
+   ],
+   "formeEsempi": [
+    "buffo"
+   ],
+   "esempi": [
+    "Che cappello buffo!",
+    "È una storia buffa.",
+    "Il cane fa una faccia buffa."
+   ],
+   "traduzioni": {
+    "en": "funny, comical",
+    "es": "gracioso, cómico",
+    "pt": "engraçado",
+    "fr": "drôle, comique",
+    "cs": "legrační",
+    "pl": "zabawny, śmieszny",
+    "tr": "komik",
+    "de": "lustig, komisch",
+    "ja": "おかしな、おもしろい"
+   }
+  },
+  {
+   "parola": "esagerato",
+   "forme": [
+    "esagerata"
+   ],
+   "formeEsempi": [
+    "esagerato"
+   ],
+   "esempi": [
+    "Il prezzo è esagerato.",
+    "Non essere esagerato!",
+    "È una reazione esagerata."
+   ],
+   "traduzioni": {
+    "en": "exaggerated, over the top",
+    "es": "exagerado",
+    "pt": "exagerado",
+    "fr": "exagéré",
+    "cs": "přehnaný",
+    "pl": "przesadny",
+    "tr": "abartılı",
+    "de": "übertrieben",
+    "ja": "大げさな"
+   }
+  },
+  {
+   "parola": "facilmente",
+   "forme": [
+    "facilmente"
+   ],
+   "esempi": [
+    "Mi stanco facilmente.",
+    "Si trova facilmente la strada.",
+    "Le storie si ricordano facilmente."
+   ],
+   "traduzioni": {
+    "en": "easily",
+    "es": "fácilmente",
+    "pt": "facilmente",
+    "fr": "facilement",
+    "cs": "snadno",
+    "pl": "łatwo",
+    "tr": "kolayca",
+    "de": "leicht",
+    "ja": "簡単に"
+   }
+  },
+  {
+   "parola": "astratto",
+   "forme": [
+    "astratta"
+   ],
+   "formeEsempi": [
+    "astratto"
+   ],
+   "esempi": [
+    "È un concetto astratto.",
+    "Non mi piace l'arte astratta.",
+    "Una regola astratta si dimentica presto."
+   ],
+   "traduzioni": {
+    "en": "abstract",
+    "es": "abstracto",
+    "pt": "abstrato",
+    "fr": "abstrait",
+    "cs": "abstraktní",
+    "pl": "abstrakcyjny",
+    "tr": "soyut",
+    "de": "abstrakt",
+    "ja": "抽象的な"
+   }
+  },
+  {
+   "parola": "la frase",
+   "forme": [
+    "frasi",
+    "frase"
+   ],
+   "esempi": [
+    "Scrivi una frase con questa parola.",
+    "Questa frase è troppo lunga.",
+    "Imparo frasi utili per il viaggio."
+   ],
+   "traduzioni": {
+    "en": "sentence, phrase",
+    "es": "frase",
+    "pt": "frase",
+    "fr": "phrase",
+    "cs": "věta",
+    "pl": "zdanie",
+    "tr": "cümle",
+    "de": "Satz",
+    "ja": "文、フレーズ"
+   }
+  },
+  {
+   "parola": "la passeggiata",
+   "forme": [
+    "passeggiata"
+   ],
+   "esempi": [
+    "Dopo cena facciamo una passeggiata.",
+    "È una bella passeggiata al mare.",
+    "La passeggiata dura un'ora."
+   ],
+   "traduzioni": {
+    "en": "walk, stroll («fare una passeggiata» = to go for a walk)",
+    "es": "paseo («dar un paseo»)",
+    "pt": "passeio («dar um passeio»)",
+    "fr": "promenade («faire une promenade»)",
+    "cs": "procházka («jít na procházku»)",
+    "pl": "spacer («iść na spacer»)",
+    "tr": "yürüyüş («yürüyüşe çıkmak»)",
+    "de": "Spaziergang («spazieren gehen»)",
+    "ja": "散歩（fare una passeggiata＝散歩する）"
+   }
+  },
+  {
+   "parola": "il gruppo",
+   "forme": [
+    "gruppi"
+   ],
+   "formeEsempi": [
+    "gruppo"
+   ],
+   "esempi": [
+    "Lavoriamo in gruppi di tre.",
+    "Il gruppo parte alle nove.",
+    "Impara i verbi in gruppi."
+   ],
+   "traduzioni": {
+    "en": "group",
+    "es": "grupo",
+    "pt": "grupo",
+    "fr": "groupe",
+    "cs": "skupina",
+    "pl": "grupa",
+    "tr": "grup",
+    "de": "Gruppe",
+    "ja": "グループ、まとまり"
+   }
+  },
+  {
+   "parola": "creare",
+   "forme": [
+    "creare"
+   ],
+   "formeEsempi": [
+    "crea",
+    "creano"
+   ],
+   "esempi": [
+    "Voglio creare un sito internet.",
+    "L'artista crea una statua.",
+    "Le storie creano collegamenti."
+   ],
+   "traduzioni": {
+    "en": "to create",
+    "es": "crear",
+    "pt": "criar",
+    "fr": "créer",
+    "cs": "vytvořit",
+    "pl": "tworzyć",
+    "tr": "oluşturmak",
+    "de": "schaffen, erstellen",
+    "ja": "作る、生み出す"
+   }
+  },
+  {
+   "parola": "collegato",
+   "forme": [
+    "collegata"
+   ],
+   "formeEsempi": [
+    "collegato"
+   ],
+   "esempi": [
+    "Il computer è collegato alla stampante.",
+    "Questa idea è collegata alla prima.",
+    "La stazione è ben collegata al centro."
+   ],
+   "traduzioni": {
+    "en": "connected, linked",
+    "es": "conectado, relacionado",
+    "pt": "ligado, conectado",
+    "fr": "lié, relié",
+    "cs": "spojený, propojený",
+    "pl": "połączony, powiązany",
+    "tr": "bağlı, bağlantılı",
+    "de": "verbunden, verknüpft",
+    "ja": "結びついた"
+   }
+  },
+  {
+   "parola": "il suono",
+   "forme": [
+    "suono"
+   ],
+   "esempi": [
+    "Mi piace il suono della pioggia.",
+    "Questa parola ha un suono strano.",
+    "Il suono arriva da lontano."
+   ],
+   "traduzioni": {
+    "en": "sound",
+    "es": "sonido",
+    "pt": "som",
+    "fr": "son",
+    "cs": "zvuk",
+    "pl": "dźwięk",
+    "tr": "ses",
+    "de": "Klang",
+    "ja": "音"
+   }
+  },
+  {
+   "parola": "il gesto",
+   "forme": [
+    "gesto"
+   ],
+   "esempi": [
+    "Gli italiani parlano anche con i gesti.",
+    "È stato un bel gesto.",
+    "Fa un gesto con la mano."
+   ],
+   "traduzioni": {
+    "en": "gesture",
+    "es": "gesto",
+    "pt": "gesto",
+    "fr": "geste",
+    "cs": "gesto",
+    "pl": "gest",
+    "tr": "jest, el hareketi",
+    "de": "Geste",
+    "ja": "身ぶり、ジェスチャー"
+   },
+   "formeEsempi": [
+    "gesti"
+   ]
+  },
+  {
+   "parola": "l'emozione",
+   "forme": [
+    "emozione"
+   ],
+   "esempi": [
+    "È stata una grande emozione.",
+    "La musica mi dà emozione.",
+    "Un'emozione forte si ricorda a lungo."
+   ],
+   "traduzioni": {
+    "en": "emotion, feeling",
+    "es": "emoción",
+    "pt": "emoção",
+    "fr": "émotion",
+    "cs": "emoce, pocit",
+    "pl": "emocja",
+    "tr": "duygu",
+    "de": "Gefühl, Emotion",
+    "ja": "感情"
+   }
+  },
+  {
+   "parola": "obbligare",
+   "forme": [
+    "obbliga"
+   ],
+   "esempi": [
+    "Nessuno ti obbliga a venire.",
+    "La legge obbliga a usare il casco.",
+    "Il test obbliga a ricordare."
+   ],
+   "traduzioni": {
+    "en": "to force, to oblige",
+    "es": "obligar",
+    "pt": "obrigar",
+    "fr": "obliger",
+    "cs": "nutit",
+    "pl": "zmuszać",
+    "tr": "zorlamak",
+    "de": "zwingen",
+    "ja": "〜させる、強いる"
+   }
+  },
+  {
+   "parola": "rileggere",
+   "forme": [
+    "rileggere"
+   ],
+   "formeEsempi": [
+    "rileggo"
+   ],
+   "esempi": [
+    "Rileggo la lettera prima di spedirla.",
+    "Mi piace rileggere i vecchi libri.",
+    "Rileggere non basta per ricordare."
+   ],
+   "traduzioni": {
+    "en": "to reread",
+    "es": "releer",
+    "pt": "reler",
+    "fr": "relire",
+    "cs": "znovu přečíst",
+    "pl": "przeczytać ponownie",
+    "tr": "yeniden okumak",
+    "de": "noch einmal lesen",
+    "ja": "読み返す"
+   }
+  },
+  {
+   "parola": "la sensazione",
+   "forme": [
+    "sensazione"
+   ],
+   "esempi": [
+    "Ho la sensazione di conoscerlo.",
+    "È una bella sensazione.",
+    "Ho una strana sensazione."
+   ],
+   "traduzioni": {
+    "en": "feeling, sensation",
+    "es": "sensación",
+    "pt": "sensação",
+    "fr": "sensation, impression",
+    "cs": "pocit",
+    "pl": "uczucie, wrażenie",
+    "tr": "his, duygu",
+    "de": "Gefühl, Eindruck",
+    "ja": "感じ"
+   }
+  },
+  {
+   "parola": "la familiarità",
+   "forme": [
+    "familiarità"
+   ],
+   "esempi": [
+    "Questa città mi dà un senso di familiarità.",
+    "Con il tempo cresce la familiarità.",
+    "La familiarità non è memoria."
+   ],
+   "traduzioni": {
+    "en": "familiarity",
+    "es": "familiaridad",
+    "pt": "familiaridade",
+    "fr": "familiarité",
+    "cs": "povědomost, důvěrnost",
+    "pl": "poczucie znajomości",
+    "tr": "aşinalık",
+    "de": "Vertrautheit",
+    "ja": "見覚え、なじみ"
+   }
+  },
+  {
+   "parola": "l'allenamento",
+   "forme": [
+    "allenamento"
+   ],
+   "esempi": [
+    "L'allenamento comincia alle sei.",
+    "Dopo l'allenamento sono stanco.",
+    "Studiare è un allenamento per il cervello."
+   ],
+   "traduzioni": {
+    "en": "training, workout",
+    "es": "entrenamiento",
+    "pt": "treino",
+    "fr": "entraînement",
+    "cs": "trénink",
+    "pl": "trening",
+    "tr": "antrenman",
+    "de": "Training",
+    "ja": "トレーニング"
+   }
+  },
+  {
+   "parola": "profondo",
+   "forme": [
+    "profondo"
+   ],
+   "esempi": [
+    "Il lago è molto profondo.",
+    "Ho fatto un respiro profondo.",
+    "È un pensiero profondo."
+   ],
+   "traduzioni": {
+    "en": "deep",
+    "es": "profundo",
+    "pt": "profundo",
+    "fr": "profond",
+    "cs": "hluboký",
+    "pl": "głęboki",
+    "tr": "derin",
+    "de": "tief",
+    "ja": "深い"
+   }
+  },
+  {
+   "parola": "sfruttare",
+   "forme": [
+    "sfrutta"
+   ],
+   "formeEsempi": [
+    "sfruttare"
+   ],
+   "esempi": [
+    "Sfrutta bene il tempo libero.",
+    "Bisogna sfruttare il sole d'inverno.",
+    "Il metodo sfrutta un fatto semplice."
+   ],
+   "traduzioni": {
+    "en": "to make use of, to exploit",
+    "es": "aprovechar",
+    "pt": "aproveitar",
+    "fr": "exploiter, profiter de",
+    "cs": "využít",
+    "pl": "wykorzystać",
+    "tr": "yararlanmak",
+    "de": "ausnutzen, nutzen",
+    "ja": "活用する"
+   }
+  },
+  {
+   "parola": "dimenticare",
+   "forme": [
+    "dimenticare"
+   ],
+   "formeEsempi": [
+    "dimentico"
+   ],
+   "esempi": [
+    "Dimentico sempre le chiavi.",
+    "Non dimenticare il passaporto!",
+    "Dimenticare è normale."
+   ],
+   "traduzioni": {
+    "en": "to forget",
+    "es": "olvidar",
+    "pt": "esquecer",
+    "fr": "oublier",
+    "cs": "zapomenout",
+    "pl": "zapomnieć",
+    "tr": "unutmak",
+    "de": "vergessen",
+    "ja": "忘れる"
+   }
+  },
+  {
+   "parola": "rafforzare",
+   "forme": [
+    "rafforzi"
+   ],
+   "formeEsempi": [
+    "rafforza",
+    "rafforzare"
+   ],
+   "esempi": [
+    "Lo sport rafforza i muscoli.",
+    "Se ripassi, rafforzi il ricordo.",
+    "Dobbiamo rafforzare la squadra."
+   ],
+   "traduzioni": {
+    "en": "to strengthen",
+    "es": "reforzar",
+    "pt": "reforçar",
+    "fr": "renforcer",
+    "cs": "posílit",
+    "pl": "wzmocnić",
+    "tr": "güçlendirmek",
+    "de": "stärken",
+    "ja": "強める"
+   }
+  },
+  {
+   "parola": "riuscire a",
+   "forme": [
+    "riesci"
+   ],
+   "formeEsempi": [
+    "riesco"
+   ],
+   "esempi": [
+    "Non riesco a dormire.",
+    "Riesci a vedere il mare?",
+    "Finalmente riesco a capire tutto."
+   ],
+   "traduzioni": {
+    "en": "to manage to, to be able to",
+    "es": "conseguir, lograr",
+    "pt": "conseguir",
+    "fr": "réussir à, arriver à",
+    "cs": "dokázat, podařit se",
+    "pl": "dać radę, zdołać",
+    "tr": "-ebilmek, başarmak",
+    "de": "schaffen, es gelingt",
+    "ja": "〜できる"
+   }
+  },
+  {
+   "parola": "costruire",
+   "forme": [
+    "costruendo"
+   ],
+   "formeEsempi": [
+    "costruisce",
+    "costruire"
+   ],
+   "esempi": [
+    "Stanno costruendo una casa nuova.",
+    "Il castoro costruisce una diga.",
+    "Ci vuole tempo per costruire un'abitudine."
+   ],
+   "traduzioni": {
+    "en": "to build («stai costruendo» = you are building)",
+    "es": "construir",
+    "pt": "construir",
+    "fr": "construire",
+    "cs": "budovat, stavět",
+    "pl": "budować",
+    "tr": "inşa etmek, kurmak",
+    "de": "aufbauen",
+    "ja": "築く、作り上げる"
+   }
+  },
+  {
+   "parola": "la competenza",
+   "forme": [
+    "competenza"
+   ],
+   "esempi": [
+    "Ha una grande competenza in informatica.",
+    "La competenza si costruisce con la pratica.",
+    "Questo lavoro richiede competenza."
+   ],
+   "traduzioni": {
+    "en": "skill, competence",
+    "es": "competencia, dominio",
+    "pt": "competência, domínio",
+    "fr": "compétence",
+    "cs": "dovednost, kompetence",
+    "pl": "kompetencja, umiejętność",
+    "tr": "yetkinlik, beceri",
+    "de": "Kompetenz",
+    "ja": "能力、使いこなす力"
+   }
+  },
+  {
+   "parola": "alternare",
+   "forme": [
+    "alterna"
+   ],
+   "formeEsempi": [
+    "alterno"
+   ],
+   "esempi": [
+    "Alterno studio e pause.",
+    "Il clima alterna sole e pioggia.",
+    "Un buon metodo alterna teoria e pratica."
+   ],
+   "traduzioni": {
+    "en": "to alternate",
+    "es": "alternar",
+    "pt": "alternar",
+    "fr": "alterner",
+    "cs": "střídat",
+    "pl": "przeplatać, zmieniać",
+    "tr": "dönüşümlü yapmak",
+    "de": "abwechseln",
+    "ja": "交互に行う"
+   }
+  },
+  {
+   "parola": "l'incontro",
+   "forme": [
+    "incontro"
+   ],
+   "esempi": [
+    "Il primo incontro è sempre importante.",
+    "Abbiamo un incontro alle tre.",
+    "È stato un incontro casuale."
+   ],
+   "traduzioni": {
+    "en": "encounter, meeting",
+    "es": "encuentro",
+    "pt": "encontro",
+    "fr": "rencontre",
+    "cs": "setkání",
+    "pl": "spotkanie",
+    "tr": "karşılaşma",
+    "de": "Begegnung",
+    "ja": "出会い"
+   }
+  },
+  {
+   "parola": "reale",
+   "forme": [
+    "reale"
+   ],
+   "esempi": [
+    "È una storia reale.",
+    "Usa la parola in una situazione reale.",
+    "Il problema è reale."
+   ],
+   "traduzioni": {
+    "en": "real",
+    "es": "real",
+    "pt": "real",
+    "fr": "réel",
+    "cs": "skutečný",
+    "pl": "prawdziwy, rzeczywisty",
+    "tr": "gerçek",
+    "de": "echt, real",
+    "ja": "実際の"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Many students read lists of words, but memory works better when your attention is active. A long list seems useful, but it often stays fragile.",
+    "Spaced repetition is more effective: you study a word today, review it tomorrow and then recall it after a few days. Each return makes the memory more stable.",
+    "Another technique is active recall. Instead of looking at the answer straight away, close your notebook and try to remember. Even if you get it wrong, the attempt prepares your brain to learn better.",
+    "Images help a lot. A funny, exaggerated or personal scene stays in your memory more easily than an abstract definition.",
+    "For Italian, don't just study «words». Study short phrases: «prendere un caffè», «fare una passeggiata», «avere bisogno di». Language lives in groups of words."
+   ],
+   "b1": [
+    "Memory techniques are there to create more roads leading to the same piece of information. A word can be linked to its sound, an image, a gesture, a sentence and an emotion.",
+    "Active recall works because it forces your brain to look for the information. Rereading gives a feeling of familiarity, but remembering without looking is deeper training.",
+    "Spaced repetition makes use of a simple fact: forgetting is normal. If you recall a word just when it's becoming difficult, you strengthen it.",
+    "A little-used technique is explaining a word out loud. If you can explain «comunque», «anzi» or «magari» with your own examples, you aren't just memorising: you're building real skill.",
+    "That's why a good method alternates three moments: meeting the word, trying to recall it, using it in a real sentence. Memory and communication work together."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Muchos estudiantes leen listas de palabras, pero la memoria funciona mejor cuando la atención está activa. Una lista larga parece útil, pero a menudo queda frágil.",
+    "El repaso espaciado es más eficaz: estudias una palabra hoy, la repasas mañana y luego la recuperas al cabo de unos días. Cada vuelta hace el recuerdo más estable.",
+    "Otra técnica es la recuperación activa. En lugar de mirar enseguida la respuesta, cierra el cuaderno e intenta recordar. Aunque te equivoques, el intento prepara el cerebro para aprender mejor.",
+    "Las imágenes ayudan mucho. Una escena graciosa, exagerada o personal se queda en la memoria más fácilmente que una definición abstracta.",
+    "Para el italiano, no estudies solo «palabras». Estudia frases cortas: «prendere un caffè», «fare una passeggiata», «avere bisogno di». La lengua vive en los grupos de palabras."
+   ],
+   "b1": [
+    "Las técnicas de memoria sirven para crear más caminos que lleven a la misma información. Una palabra puede relacionarse con su sonido, una imagen, un gesto, una frase y una emoción.",
+    "La recuperación activa funciona porque obliga al cerebro a buscar la información. Releer da una sensación de familiaridad, pero recordar sin mirar es un entrenamiento más profundo.",
+    "El repaso espaciado aprovecha un hecho sencillo: olvidar es normal. Si recuperas una palabra justo cuando se está volviendo difícil, la refuerzas.",
+    "Una técnica poco usada es explicar una palabra en voz alta. Si consigues explicar «comunque», «anzi» o «magari» con ejemplos tuyos, no solo estás memorizando: estás construyendo competencia.",
+    "Por eso un buen método alterna tres momentos: encuentro con la palabra, intento de recuperación y uso en una frase real. La memoria y la comunicación trabajan juntas."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "Muitos estudantes leem listas de palavras, mas a memória funciona melhor quando a atenção está ativa. Uma lista longa parece útil, mas muitas vezes fica frágil.",
+    "A revisão espaçada é mais eficaz: você estuda uma palavra hoje, revisa amanhã e depois a recupera alguns dias mais tarde. Cada retorno deixa a lembrança mais estável.",
+    "Outra técnica é a recuperação ativa. Em vez de olhar logo a resposta, feche o caderno e tente lembrar. Mesmo que você erre, a tentativa prepara o cérebro para aprender melhor.",
+    "As imagens ajudam muito. Uma cena engraçada, exagerada ou pessoal fica na memória mais facilmente do que uma definição abstrata.",
+    "Para o italiano, não estude só «palavras». Estude frases curtas: «prendere un caffè», «fare una passeggiata», «avere bisogno di». A língua vive nos grupos de palavras."
+   ],
+   "b1": [
+    "As técnicas de memória servem para criar mais caminhos que levam à mesma informação. Uma palavra pode estar ligada ao som, a uma imagem, a um gesto, a uma frase e a uma emoção.",
+    "A recuperação ativa funciona porque obriga o cérebro a procurar a informação. Reler dá uma sensação de familiaridade, mas lembrar sem olhar é um treino mais profundo.",
+    "A revisão espaçada aproveita um fato simples: esquecer é normal. Se você recupera uma palavra justamente quando ela está ficando difícil, você a reforça.",
+    "Uma técnica pouco usada é explicar uma palavra em voz alta. Se você consegue explicar «comunque», «anzi» ou «magari» com exemplos seus, não está só memorizando: está construindo competência.",
+    "Por isso um bom método alterna três momentos: encontro com a palavra, tentativa de recuperação e uso numa frase real. A memória e a comunicação trabalham juntas."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Beaucoup d'étudiants lisent des listes de mots, mais la mémoire fonctionne mieux quand l'attention est active. Une longue liste semble utile, mais elle reste souvent fragile.",
+    "La répétition espacée est plus efficace : tu étudies un mot aujourd'hui, tu le révises demain, puis tu le retrouves quelques jours plus tard. Chaque retour rend le souvenir plus stable.",
+    "Une autre technique est le rappel actif. Au lieu de regarder tout de suite la réponse, ferme ton cahier et essaie de te souvenir. Même si tu te trompes, l'essai prépare le cerveau à mieux apprendre.",
+    "Les images aident beaucoup. Une scène drôle, exagérée ou personnelle reste plus facilement en mémoire qu'une définition abstraite.",
+    "Pour l'italien, n'étudie pas seulement des « mots ». Étudie de petites expressions : « prendere un caffè », « fare una passeggiata », « avere bisogno di ». La langue vit dans les groupes de mots."
+   ],
+   "b1": [
+    "Les techniques de mémoire servent à créer plusieurs chemins vers la même information. Un mot peut être relié à un son, une image, un geste, une phrase et une émotion.",
+    "Le rappel actif fonctionne parce qu'il oblige le cerveau à chercher l'information. Relire donne une impression de familiarité, mais se souvenir sans regarder est un entraînement plus profond.",
+    "La répétition espacée exploite un fait simple : oublier est normal. Si tu retrouves un mot juste au moment où il devient difficile, tu le renforces.",
+    "Une technique peu utilisée consiste à expliquer un mot à voix haute. Si tu arrives à expliquer « comunque », « anzi » ou « magari » avec tes propres exemples, tu ne fais pas que mémoriser : tu construis une vraie compétence.",
+    "C'est pourquoi une bonne méthode alterne trois moments : la rencontre avec le mot, la tentative de rappel, l'usage dans une vraie phrase. La mémoire et la communication travaillent ensemble."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Mnoho studentů čte seznamy slov, ale paměť funguje lépe, když je pozornost aktivní. Dlouhý seznam vypadá užitečně, ale často zůstane křehký.",
+    "Rozložené opakování je účinnější: slovo se naučíš dnes, zopakuješ si ho zítra a pak si ho za pár dní znovu vybavíš. Každý návrat dělá vzpomínku stabilnější.",
+    "Další technikou je aktivní vybavování. Místo abys hned koukl na odpověď, zavři sešit a zkus si vzpomenout. I když se spleteš, pokus připraví mozek, aby se učil lépe.",
+    "Obrázky moc pomáhají. Legrační, přehnaná nebo osobní scéna zůstane v paměti snáz než abstraktní definice.",
+    "U italštiny se neuč jen „slovíčka“. Uč se krátká spojení: „prendere un caffè“, „fare una passeggiata“, „avere bisogno di“. Jazyk žije ve skupinách slov."
+   ],
+   "b1": [
+    "Paměťové techniky vytvářejí víc cest ke stejné informaci. Slovo lze propojit se zvukem, obrázkem, gestem, větou a emocí.",
+    "Aktivní vybavování funguje, protože nutí mozek informaci hledat. Opakované čtení dává pocit povědomosti, ale vzpomínat bez dívání je hlubší trénink.",
+    "Rozložené opakování využívá jednoduchý fakt: zapomínání je normální. Když si slovo vybavíš právě ve chvíli, kdy začíná být těžké, posílíš ho.",
+    "Málo používanou technikou je vysvětlit slovo nahlas. Když dokážeš vysvětlit „comunque“, „anzi“ nebo „magari“ na vlastních příkladech, neučíš se jen nazpaměť: buduješ skutečnou dovednost.",
+    "Proto dobrá metoda střídá tři fáze: setkání se slovem, pokus o vybavení a použití ve skutečné větě. Paměť a komunikace pracují společně."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Wielu uczniów czyta listy słówek, ale pamięć działa lepiej, kiedy uwaga jest aktywna. Długa lista wydaje się przydatna, ale często pozostaje krucha.",
+    "Powtórki rozłożone w czasie są skuteczniejsze: uczysz się słowa dziś, powtarzasz je jutro, a potem przypominasz sobie po kilku dniach. Każdy powrót sprawia, że wspomnienie jest trwalsze.",
+    "Inną techniką jest aktywne przypominanie. Zamiast od razu patrzeć na odpowiedź, zamknij zeszyt i spróbuj sobie przypomnieć. Nawet jeśli się pomylisz, próba przygotowuje mózg do lepszej nauki.",
+    "Obrazy bardzo pomagają. Zabawna, przesadzona albo osobista scena zostaje w pamięci łatwiej niż abstrakcyjna definicja.",
+    "Ucząc się włoskiego, nie ucz się tylko „słówek”. Ucz się krótkich wyrażeń: „prendere un caffè”, „fare una passeggiata”, „avere bisogno di”. Język żyje w grupach słów."
+   ],
+   "b1": [
+    "Techniki pamięciowe służą do tworzenia wielu dróg prowadzących do tej samej informacji. Słowo można połączyć z dźwiękiem, obrazem, gestem, zdaniem i emocją.",
+    "Aktywne przypominanie działa, bo zmusza mózg do szukania informacji. Ponowne czytanie daje poczucie znajomości, ale przypominanie sobie bez patrzenia to głębszy trening.",
+    "Powtórki rozłożone w czasie wykorzystują prosty fakt: zapominanie jest normalne. Jeśli przypomnisz sobie słowo właśnie wtedy, gdy zaczyna być trudne, wzmocnisz je.",
+    "Rzadko stosowaną techniką jest objaśnianie słowa na głos. Jeśli potrafisz wyjaśnić „comunque”, „anzi” albo „magari” na własnych przykładach, nie tylko zapamiętujesz: budujesz prawdziwą umiejętność.",
+    "Dlatego dobra metoda przeplata trzy etapy: spotkanie ze słowem, próbę przypomnienia i użycie w prawdziwym zdaniu. Pamięć i komunikacja pracują razem."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Birçok öğrenci kelime listeleri okur, ama hafıza dikkat aktif olduğunda daha iyi çalışır. Uzun bir liste faydalı görünür ama çoğu zaman kırılgan kalır.",
+    "Aralıklı tekrar daha etkilidir: bir kelimeyi bugün çalışırsın, yarın tekrar edersin, sonra birkaç gün sonra yeniden hatırlarsın. Her dönüş, hatırayı daha kalıcı yapar.",
+    "Bir başka teknik aktif hatırlamadır. Cevaba hemen bakmak yerine defteri kapat ve hatırlamaya çalış. Yanılsan bile deneme, beyni daha iyi öğrenmeye hazırlar.",
+    "Görüntüler çok yardımcı olur. Komik, abartılı ya da kişisel bir sahne, soyut bir tanımdan daha kolay akılda kalır.",
+    "İtalyanca için sadece «kelime» çalışma. Kısa kalıplar çalış: «prendere un caffè», «fare una passeggiata», «avere bisogno di». Dil, kelime gruplarında yaşar."
+   ],
+   "b1": [
+    "Hafıza teknikleri, aynı bilgiye giden daha fazla yol oluşturmaya yarar. Bir kelime sese, bir görüntüye, bir harekete, bir cümleye ve bir duyguya bağlanabilir.",
+    "Aktif hatırlama işe yarar, çünkü beyni bilgiyi aramaya zorlar. Yeniden okumak bir aşinalık hissi verir ama bakmadan hatırlamak daha derin bir antrenmandır.",
+    "Aralıklı tekrar basit bir gerçekten yararlanır: unutmak normaldir. Bir kelimeyi tam zorlaşmaya başladığı anda hatırlarsan, onu güçlendirirsin.",
+    "Az kullanılan bir teknik, bir kelimeyi yüksek sesle açıklamaktır. «comunque», «anzi» ya da «magari» kelimelerini kendi örneklerinle açıklayabiliyorsan, sadece ezberlemiyorsun: gerçek bir beceri kuruyorsun.",
+    "Bu yüzden iyi bir yöntem üç aşamayı dönüşümlü kullanır: kelimeyle karşılaşma, hatırlama denemesi ve gerçek bir cümlede kullanma. Hafıza ve iletişim birlikte çalışır."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Viele Lernende lesen Wortlisten, aber das Gedächtnis funktioniert besser, wenn die Aufmerksamkeit aktiv ist. Eine lange Liste wirkt nützlich, bleibt aber oft schwach.",
+    "Verteiltes Wiederholen ist wirksamer: Du lernst ein Wort heute, wiederholst es morgen und rufst es dann nach ein paar Tagen wieder ab. Jede Rückkehr macht die Erinnerung stabiler.",
+    "Eine andere Technik ist das aktive Abrufen. Statt sofort auf die Antwort zu schauen, mach das Heft zu und versuch dich zu erinnern. Auch wenn du dich irrst, bereitet der Versuch das Gehirn darauf vor, besser zu lernen.",
+    "Bilder helfen sehr. Eine lustige, übertriebene oder persönliche Szene bleibt leichter im Gedächtnis als eine abstrakte Definition.",
+    "Lerne fürs Italienische nicht nur „Wörter“. Lerne kurze Wendungen: „prendere un caffè“, „fare una passeggiata“, „avere bisogno di“. Sprache lebt in Wortgruppen."
+   ],
+   "b1": [
+    "Gedächtnistechniken schaffen mehrere Wege zur selben Information. Ein Wort kann mit seinem Klang, einem Bild, einer Geste, einem Satz und einem Gefühl verknüpft werden.",
+    "Aktives Abrufen funktioniert, weil es das Gehirn zwingt, die Information zu suchen. Noch einmal lesen gibt ein Gefühl von Vertrautheit, aber sich ohne Hinschauen zu erinnern ist ein tieferes Training.",
+    "Verteiltes Wiederholen nutzt eine einfache Tatsache: Vergessen ist normal. Wenn du ein Wort genau dann abrufst, wenn es schwierig wird, stärkst du es.",
+    "Eine wenig genutzte Technik ist, ein Wort laut zu erklären. Wenn du „comunque“, „anzi“ oder „magari“ mit eigenen Beispielen erklären kannst, lernst du nicht nur auswendig: Du baust echte Kompetenz auf.",
+    "Deshalb wechselt eine gute Methode drei Momente ab: die Begegnung mit dem Wort, den Versuch, es abzurufen, und den Gebrauch in einem echten Satz. Gedächtnis und Kommunikation arbeiten zusammen."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "多くの学習者は単語リストを読むが、記憶は注意が能動的なときのほうがよく働く。長いリストは役に立ちそうに見えるが、すぐに忘れやすいことが多い。",
+    "間隔をあけた復習のほうが効果的だ。今日単語を覚え、明日復習し、数日後にもう一度思い出す。戻ってくるたびに、記憶はしっかりしていく。",
+    "もう一つの方法はアクティブリコール（自分で思い出すこと）だ。すぐに答えを見るのではなく、ノートを閉じて思い出してみる。間違えても、その試みが脳をよりよく学べる状態にする。",
+    "イメージはとても役立つ。おかしな場面、大げさな場面、自分に関係のある場面は、抽象的な定義よりも記憶に残りやすい。",
+    "イタリア語では、「単語」だけを覚えないこと。短いフレーズで覚えよう。prendere un caffè、fare una passeggiata、avere bisogno di。言葉は単語のまとまりの中で生きている。"
+   ],
+   "b1": [
+    "記憶術は、同じ情報にたどり着く道をいくつも作るためのものだ。一つの単語を、音、イメージ、身ぶり、文、感情と結びつけることができる。",
+    "アクティブリコールが効くのは、脳に情報を探させるからだ。読み返すと見覚えのある感じはするが、見ないで思い出すほうが深いトレーニングになる。",
+    "間隔をあけた復習は、簡単な事実を活用している。忘れるのは当たり前だということだ。ちょうど思い出しにくくなってきたときに思い出すと、その単語は強く定着する。",
+    "あまり使われない方法に、単語を声に出して説明するというものがある。comunque、anzi、magari を自分の例文で説明できれば、ただ暗記しているのではなく、使いこなす力を築いているのだ。",
+    "だから、よい学習法は三つの段階を交互に行う。単語に出会うこと、思い出そうとすること、実際の文で使うこと。記憶とコミュニケーションは一緒に働くのだ。"
+   ]
+  }
+ }
+}
