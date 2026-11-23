@@ -1,0 +1,2030 @@
+{
+ "id": "la-tela-del-ragno-piu-forte-dell-acciaio",
+ "nota": "Glossario e traduzione della lettura (A1 e B1 tradotti; C1 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il giardino",
+   "forme": [
+    "giardino"
+   ],
+   "esempi": [
+    "I bambini giocano in giardino.",
+    "Il nonno cura il giardino.",
+    "Nel giardino ci sono le rose."
+   ],
+   "traduzioni": {
+    "en": "garden",
+    "es": "jardín",
+    "pt": "jardim",
+    "fr": "jardin",
+    "cs": "zahrada",
+    "pl": "ogród",
+    "tr": "bahçe",
+    "de": "Garten",
+    "ja": "庭"
+   }
+  },
+  {
+   "parola": "bagnato",
+   "forme": [
+    "bagnato"
+   ],
+   "formeEsempi": [
+    "bagnata",
+    "bagnati"
+   ],
+   "esempi": [
+    "L'erba è bagnata.",
+    "Ho i capelli bagnati.",
+    "Il cane è tutto bagnato."
+   ],
+   "traduzioni": {
+    "en": "wet",
+    "es": "mojado",
+    "pt": "molhado",
+    "fr": "mouillé",
+    "cs": "mokrý",
+    "pl": "mokry",
+    "tr": "ıslak",
+    "de": "nass",
+    "ja": "濡れた"
+   }
+  },
+  {
+   "parola": "la tela",
+   "forme": [
+    "tela"
+   ],
+   "esempi": [
+    "Il ragno fa la tela.",
+    "C'è una tela di ragno nell'angolo.",
+    "Il quadro è dipinto su tela."
+   ],
+   "traduzioni": {
+    "en": "web (also: canvas, cloth)",
+    "es": "tela de araña, telaraña",
+    "pt": "teia",
+    "fr": "toile",
+    "cs": "pavučina (i: plátno)",
+    "pl": "pajęczyna (też: płótno)",
+    "tr": "ağ (örümcek ağı)",
+    "de": "Netz (auch: Leinwand)",
+    "ja": "クモの巣（キャンバス、の意味も）"
+   }
+  },
+  {
+   "parola": "rotondo",
+   "forme": [
+    "rotonda"
+   ],
+   "formeEsempi": [
+    "rotondo"
+   ],
+   "esempi": [
+    "Il tavolo è rotondo.",
+    "La Terra è rotonda.",
+    "Ha una faccia rotonda."
+   ],
+   "traduzioni": {
+    "en": "round",
+    "es": "redondo",
+    "pt": "redondo",
+    "fr": "rond",
+    "cs": "kulatý",
+    "pl": "okrągły",
+    "tr": "yuvarlak",
+    "de": "rund",
+    "ja": "丸い"
+   }
+  },
+  {
+   "parola": "la goccia",
+   "forme": [
+    "gocce"
+   ],
+   "formeEsempi": [
+    "goccia"
+   ],
+   "esempi": [
+    "Cadono le prime gocce di pioggia.",
+    "Una goccia d'acqua sulla foglia.",
+    "Metti due gocce di olio."
+   ],
+   "traduzioni": {
+    "en": "drop",
+    "es": "gota",
+    "pt": "gota",
+    "fr": "goutte",
+    "cs": "kapka",
+    "pl": "kropla",
+    "tr": "damla",
+    "de": "Tropfen",
+    "ja": "しずく"
+   }
+  },
+  {
+   "parola": "lucido",
+   "forme": [
+    "lucide"
+   ],
+   "formeEsempi": [
+    "lucido",
+    "lucidi"
+   ],
+   "esempi": [
+    "Le scarpe sono lucide.",
+    "Il pavimento è lucido.",
+    "Ha gli occhi lucidi."
+   ],
+   "traduzioni": {
+    "en": "shiny",
+    "es": "brillante, reluciente",
+    "pt": "brilhante, lustroso",
+    "fr": "brillant",
+    "cs": "lesklý",
+    "pl": "błyszczący",
+    "tr": "parlak",
+    "de": "glänzend",
+    "ja": "光った、つやのある"
+   }
+  },
+  {
+   "parola": "il ragno",
+   "forme": [
+    "ragno",
+    "ragni"
+   ],
+   "esempi": [
+    "Ho paura dei ragni.",
+    "Il ragno ha otto zampe.",
+    "C'è un ragno nella vasca."
+   ],
+   "traduzioni": {
+    "en": "spider",
+    "es": "araña",
+    "pt": "aranha",
+    "fr": "araignée",
+    "cs": "pavouk",
+    "pl": "pająk",
+    "tr": "örümcek",
+    "de": "Spinne",
+    "ja": "クモ"
+   }
+  },
+  {
+   "parola": "il filo",
+   "forme": [
+    "filo",
+    "fili"
+   ],
+   "esempi": [
+    "Mi serve ago e filo.",
+    "Il filo del telefono è troppo corto.",
+    "I fili della tela sono sottili."
+   ],
+   "traduzioni": {
+    "en": "thread",
+    "es": "hilo",
+    "pt": "fio",
+    "fr": "fil",
+    "cs": "vlákno, nit",
+    "pl": "nić",
+    "tr": "iplik, tel",
+    "de": "Faden",
+    "ja": "糸"
+   }
+  },
+  {
+   "parola": "sottile",
+   "forme": [
+    "sottile"
+   ],
+   "formeEsempi": [
+    "sottili"
+   ],
+   "esempi": [
+    "Questa fetta di pane è sottile.",
+    "Il ghiaccio è sottile, non camminare!",
+    "Ha le dita sottili."
+   ],
+   "traduzioni": {
+    "en": "thin, fine",
+    "es": "fino, delgado",
+    "pt": "fino",
+    "fr": "fin, mince",
+    "cs": "tenký",
+    "pl": "cienki",
+    "tr": "ince",
+    "de": "dünn, fein",
+    "ja": "細い、薄い"
+   }
+  },
+  {
+   "parola": "invisibile",
+   "forme": [
+    "invisibile"
+   ],
+   "esempi": [
+    "L'aria è invisibile.",
+    "Il filo è quasi invisibile.",
+    "Vorrei essere invisibile!"
+   ],
+   "traduzioni": {
+    "en": "invisible",
+    "es": "invisible",
+    "pt": "invisível",
+    "fr": "invisible",
+    "cs": "neviditelný",
+    "pl": "niewidoczny",
+    "tr": "görünmez",
+    "de": "unsichtbar",
+    "ja": "目に見えない"
+   }
+  },
+  {
+   "parola": "debole",
+   "forme": [
+    "debole"
+   ],
+   "esempi": [
+    "Dopo l'influenza mi sento debole.",
+    "Il caffè è troppo debole.",
+    "Il segnale è debole."
+   ],
+   "traduzioni": {
+    "en": "weak",
+    "es": "débil",
+    "pt": "fraco",
+    "fr": "faible",
+    "cs": "slabý",
+    "pl": "słaby",
+    "tr": "zayıf",
+    "de": "schwach",
+    "ja": "弱い"
+   }
+  },
+  {
+   "parola": "elastico",
+   "forme": [
+    "elastico",
+    "elastica"
+   ],
+   "esempi": [
+    "Questi pantaloni sono elastici.",
+    "La gomma è elastica.",
+    "Lega i capelli con un elastico."
+   ],
+   "traduzioni": {
+    "en": "elastic, stretchy",
+    "es": "elástico",
+    "pt": "elástico",
+    "fr": "élastique",
+    "cs": "pružný",
+    "pl": "elastyczny",
+    "tr": "esnek",
+    "de": "elastisch, dehnbar",
+    "ja": "伸び縮みする"
+   },
+   "formeEsempi": [
+    "elastici"
+   ]
+  },
+  {
+   "parola": "grosso",
+   "forme": [
+    "grossi"
+   ],
+   "formeEsempi": [
+    "grosso"
+   ],
+   "esempi": [
+    "È un libro molto grosso.",
+    "Ho comprato due meloni grossi.",
+    "Che grosso problema!"
+   ],
+   "traduzioni": {
+    "en": "thick, big",
+    "es": "grueso, gordo",
+    "pt": "grosso, grande",
+    "fr": "gros, épais",
+    "cs": "tlustý, velký",
+    "pl": "gruby, duży",
+    "tr": "kalın, büyük",
+    "de": "dick, groß",
+    "ja": "太い、大きい"
+   }
+  },
+  {
+   "parola": "appiccicoso",
+   "forme": [
+    "appiccicosa"
+   ],
+   "formeEsempi": [
+    "appiccicoso",
+    "appiccicose"
+   ],
+   "esempi": [
+    "Ho le mani appiccicose di miele.",
+    "Il tavolo è appiccicoso.",
+    "La caramella è appiccicosa."
+   ],
+   "traduzioni": {
+    "en": "sticky",
+    "es": "pegajoso",
+    "pt": "grudento, pegajoso",
+    "fr": "collant",
+    "cs": "lepkavý",
+    "pl": "lepki",
+    "tr": "yapışkan",
+    "de": "klebrig",
+    "ja": "べたべたした"
+   }
+  },
+  {
+   "parola": "scappare",
+   "forme": [
+    "scappa"
+   ],
+   "formeEsempi": [
+    "scappato",
+    "scappare"
+   ],
+   "esempi": [
+    "Il gatto scappa dal cane.",
+    "Il ladro è scappato.",
+    "Scusa, devo scappare!"
+   ],
+   "traduzioni": {
+    "en": "to escape, to run away",
+    "es": "escaparse",
+    "pt": "fugir",
+    "fr": "s'échapper",
+    "cs": "utéct",
+    "pl": "uciec",
+    "tr": "kaçmak",
+    "de": "entkommen",
+    "ja": "逃げる"
+   }
+  },
+  {
+   "parola": "silenzioso",
+   "forme": [
+    "silenzioso"
+   ],
+   "formeEsempi": [
+    "silenziosa"
+   ],
+   "esempi": [
+    "La biblioteca è silenziosa.",
+    "È un bambino silenzioso.",
+    "La nuova lavatrice è silenziosa."
+   ],
+   "traduzioni": {
+    "en": "silent, quiet",
+    "es": "silencioso",
+    "pt": "silencioso",
+    "fr": "silencieux",
+    "cs": "tichý",
+    "pl": "cichy",
+    "tr": "sessiz",
+    "de": "leise, still",
+    "ja": "静かな"
+   }
+  },
+  {
+   "parola": "che schifo!",
+   "forme": [
+    "schifo"
+   ],
+   "esempi": [
+    "Che schifo, c'è un capello nella zuppa!",
+    "Questo film fa schifo.",
+    "Mi fa schifo il latte caldo."
+   ],
+   "traduzioni": {
+    "en": "yuck!, how disgusting!",
+    "es": "¡qué asco!",
+    "pt": "que nojo!",
+    "fr": "beurk !, c'est dégoûtant !",
+    "cs": "fuj!",
+    "pl": "fuj!, obrzydliwe!",
+    "tr": "iğrenç!",
+    "de": "igitt!, wie eklig!",
+    "ja": "気持ち悪い！"
+   }
+  },
+  {
+   "parola": "la seta",
+   "forme": [
+    "seta"
+   ],
+   "esempi": [
+    "La camicia è di seta.",
+    "Il baco fa la seta.",
+    "La seta è morbida."
+   ],
+   "traduzioni": {
+    "en": "silk",
+    "es": "seda",
+    "pt": "seda",
+    "fr": "soie",
+    "cs": "hedvábí",
+    "pl": "jedwab",
+    "tr": "ipek",
+    "de": "Seide",
+    "ja": "絹、クモの糸"
+   }
+  },
+  {
+   "parola": "prezioso",
+   "forme": [
+    "preziosa"
+   ],
+   "formeEsempi": [
+    "prezioso"
+   ],
+   "esempi": [
+    "L'acqua è preziosa.",
+    "È un anello prezioso.",
+    "Il tuo aiuto è prezioso."
+   ],
+   "traduzioni": {
+    "en": "precious, valuable",
+    "es": "precioso, valioso",
+    "pt": "precioso, valioso",
+    "fr": "précieux",
+    "cs": "cenný, vzácný",
+    "pl": "cenny",
+    "tr": "değerli",
+    "de": "wertvoll",
+    "ja": "貴重な"
+   }
+  },
+  {
+   "parola": "sprecare",
+   "forme": [
+    "spreca"
+   ],
+   "formeEsempi": [
+    "sprecare"
+   ],
+   "esempi": [
+    "Non sprecare l'acqua!",
+    "Chi spreca il cibo?",
+    "Non voglio sprecare tempo."
+   ],
+   "traduzioni": {
+    "en": "to waste",
+    "es": "desperdiciar, malgastar",
+    "pt": "desperdiçar",
+    "fr": "gaspiller",
+    "cs": "plýtvat",
+    "pl": "marnować",
+    "tr": "israf etmek",
+    "de": "verschwenden",
+    "ja": "無駄にする"
+   }
+  },
+  {
+   "parola": "il ragnetto",
+   "forme": [
+    "ragnetto",
+    "ragnetti"
+   ],
+   "esempi": [
+    "Un ragnetto cammina sul muro.",
+    "I ragnetti sono appena nati.",
+    "Che carino quel ragnetto!"
+   ],
+   "traduzioni": {
+    "en": "little spider, spiderling",
+    "es": "arañita",
+    "pt": "aranhazinha",
+    "fr": "petite araignée",
+    "cs": "pavoučík",
+    "pl": "pajączek",
+    "tr": "küçük örümcek",
+    "de": "kleine Spinne",
+    "ja": "子グモ"
+   }
+  },
+  {
+   "parola": "salire",
+   "forme": [
+    "salgono"
+   ],
+   "formeEsempi": [
+    "salgo"
+   ],
+   "esempi": [
+    "Salgo le scale a piedi.",
+    "I bambini salgono sull'autobus.",
+    "I prezzi salgono."
+   ],
+   "traduzioni": {
+    "en": "to climb, to go up, to get on",
+    "es": "subir",
+    "pt": "subir",
+    "fr": "monter",
+    "cs": "vylézt, nastoupit",
+    "pl": "wchodzić",
+    "tr": "çıkmak, binmek",
+    "de": "hinaufsteigen",
+    "ja": "登る、乗る"
+   }
+  },
+  {
+   "parola": "coraggioso",
+   "forme": [
+    "coraggioso"
+   ],
+   "formeEsempi": [
+    "coraggiosa"
+   ],
+   "esempi": [
+    "Sei stato molto coraggioso.",
+    "È una donna coraggiosa.",
+    "Il pompiere è coraggioso."
+   ],
+   "traduzioni": {
+    "en": "brave",
+    "es": "valiente",
+    "pt": "corajoso",
+    "fr": "courageux",
+    "cs": "statečný",
+    "pl": "odważny",
+    "tr": "cesur",
+    "de": "mutig",
+    "ja": "勇敢な"
+   }
+  },
+  {
+   "parola": "lassù",
+   "forme": [
+    "lassù"
+   ],
+   "esempi": [
+    "Guarda lassù, c'è un aereo!",
+    "Lassù in montagna fa freddo.",
+    "Il gatto è lassù sull'albero."
+   ],
+   "traduzioni": {
+    "en": "up there",
+    "es": "allí arriba",
+    "pt": "lá em cima",
+    "fr": "là-haut",
+    "cs": "tam nahoře",
+    "pl": "tam w górze",
+    "tr": "orada yukarıda",
+    "de": "da oben",
+    "ja": "あの上の方に"
+   }
+  },
+  {
+   "parola": "la resistenza",
+   "forme": [
+    "resistenza"
+   ],
+   "esempi": [
+    "Questo materiale ha una grande resistenza.",
+    "Correre aumenta la resistenza.",
+    "La resistenza al freddo."
+   ],
+   "traduzioni": {
+    "en": "strength, resistance",
+    "es": "resistencia",
+    "pt": "resistência",
+    "fr": "résistance",
+    "cs": "pevnost, odolnost",
+    "pl": "wytrzymałość",
+    "tr": "dayanıklılık, direnç",
+    "de": "Festigkeit, Widerstand",
+    "ja": "強度、抵抗力"
+   }
+  },
+  {
+   "parola": "spezzare",
+   "forme": [
+    "spezzare",
+    "spezzerebbe"
+   ],
+   "formeEsempi": [
+    "spezza",
+    "spezzato"
+   ],
+   "esempi": [
+    "Spezza il pane con le mani.",
+    "Il vento ha spezzato un ramo.",
+    "Attento, così si spezza!"
+   ],
+   "traduzioni": {
+    "en": "to break, to snap",
+    "es": "romper, partir",
+    "pt": "partir, quebrar",
+    "fr": "casser, briser",
+    "cs": "zlomit, přetrhnout",
+    "pl": "złamać, przerwać",
+    "tr": "kırmak, koparmak",
+    "de": "brechen, zerreißen",
+    "ja": "折る、切る"
+   }
+  },
+  {
+   "parola": "lo spessore",
+   "forme": [
+    "spessore"
+   ],
+   "esempi": [
+    "Lo spessore del muro è di trenta centimetri.",
+    "Il vetro ha uno spessore di pochi millimetri.",
+    "È una persona di grande spessore."
+   ],
+   "traduzioni": {
+    "en": "thickness",
+    "es": "grosor, espesor",
+    "pt": "espessura",
+    "fr": "épaisseur",
+    "cs": "tloušťka",
+    "pl": "grubość",
+    "tr": "kalınlık",
+    "de": "Dicke",
+    "ja": "厚さ、太さ"
+   }
+  },
+  {
+   "parola": "a parità di",
+   "forme": [
+    "parità"
+   ],
+   "esempi": [
+    "A parità di prezzo, scelgo il prodotto italiano.",
+    "La partita è finita in parità.",
+    "Parità tra uomini e donne."
+   ],
+   "traduzioni": {
+    "en": "for the same…, at equal… (also: equality, draw)",
+    "es": "a igualdad de",
+    "pt": "em igualdade de",
+    "fr": "à … égal",
+    "cs": "při stejném…",
+    "pl": "przy tym samym…",
+    "tr": "aynı … için, eşitlik",
+    "de": "bei gleichem…",
+    "ja": "…が同じなら"
+   }
+  },
+  {
+   "parola": "resistente",
+   "forme": [
+    "resistente"
+   ],
+   "esempi": [
+    "Questo zaino è molto resistente.",
+    "È una pianta resistente al freddo.",
+    "Il vetro è resistente agli urti."
+   ],
+   "traduzioni": {
+    "en": "strong, tough, resistant",
+    "es": "resistente",
+    "pt": "resistente",
+    "fr": "résistant",
+    "cs": "odolný",
+    "pl": "wytrzymały",
+    "tr": "dayanıklı",
+    "de": "widerstandsfähig, fest",
+    "ja": "丈夫な"
+   }
+  },
+  {
+   "parola": "confrontare",
+   "forme": [
+    "confrontano"
+   ],
+   "formeEsempi": [
+    "confronto",
+    "confrontare"
+   ],
+   "esempi": [
+    "Confronto i prezzi prima di comprare.",
+    "Gli studenti confrontano le risposte.",
+    "Non confrontare i tuoi figli!"
+   ],
+   "traduzioni": {
+    "en": "to compare",
+    "es": "comparar",
+    "pt": "comparar",
+    "fr": "comparer",
+    "cs": "porovnat",
+    "pl": "porównać",
+    "tr": "karşılaştırmak",
+    "de": "vergleichen",
+    "ja": "比べる"
+   }
+  },
+  {
+   "parola": "la tenacità",
+   "forme": [
+    "tenacità"
+   ],
+   "esempi": [
+    "Con la tenacità ha raggiunto il suo obiettivo.",
+    "La tenacità della seta è incredibile.",
+    "Ammiro la sua tenacità."
+   ],
+   "traduzioni": {
+    "en": "toughness (also: tenacity)",
+    "es": "tenacidad",
+    "pt": "tenacidade",
+    "fr": "ténacité",
+    "cs": "houževnatost",
+    "pl": "wytrzymałość, nieustępliwość",
+    "tr": "tokluk, azim",
+    "de": "Zähigkeit",
+    "ja": "じん性、粘り強さ"
+   }
+  },
+  {
+   "parola": "il proiettile",
+   "forme": [
+    "proiettile"
+   ],
+   "esempi": [
+    "Il proiettile ha colpito il muro.",
+    "Il pallone arriva come un proiettile.",
+    "Il giubbotto ferma i proiettili."
+   ],
+   "traduzioni": {
+    "en": "bullet, projectile",
+    "es": "proyectil, bala",
+    "pt": "projétil, bala",
+    "fr": "projectile, balle",
+    "cs": "projektil, kulka",
+    "pl": "pocisk",
+    "tr": "mermi",
+    "de": "Geschoss, Kugel",
+    "ja": "弾丸"
+   },
+   "formeEsempi": [
+    "proiettili"
+   ]
+  },
+  {
+   "parola": "rigido",
+   "forme": [
+    "rigido"
+   ],
+   "formeEsempi": [
+    "rigida",
+    "rigide"
+   ],
+   "esempi": [
+    "Questa valigia è rigida.",
+    "L'inverno qui è rigido.",
+    "Ha regole molto rigide."
+   ],
+   "traduzioni": {
+    "en": "rigid, stiff",
+    "es": "rígido",
+    "pt": "rígido",
+    "fr": "rigide",
+    "cs": "tuhý",
+    "pl": "sztywny",
+    "tr": "sert, katı",
+    "de": "starr, steif",
+    "ja": "かたい、しなやかでない"
+   }
+  },
+  {
+   "parola": "allungarsi",
+   "forme": [
+    "allunga"
+   ],
+   "formeEsempi": [
+    "allungato",
+    "allungano"
+   ],
+   "esempi": [
+    "In primavera le giornate si allungano.",
+    "L'elastico si allunga.",
+    "Il viaggio si è allungato di un'ora."
+   ],
+   "traduzioni": {
+    "en": "to stretch, to get longer",
+    "es": "alargarse, estirarse",
+    "pt": "alongar-se, esticar",
+    "fr": "s'allonger, s'étirer",
+    "cs": "natáhnout se, prodloužit se",
+    "pl": "wydłużać się, rozciągać się",
+    "tr": "uzamak",
+    "de": "sich dehnen, länger werden",
+    "ja": "伸びる"
+   }
+  },
+  {
+   "parola": "il calore",
+   "forme": [
+    "calore"
+   ],
+   "esempi": [
+    "Il sole dà calore.",
+    "Sento il calore del fuoco.",
+    "Mi hanno accolto con calore."
+   ],
+   "traduzioni": {
+    "en": "heat, warmth",
+    "es": "calor",
+    "pt": "calor",
+    "fr": "chaleur",
+    "cs": "teplo",
+    "pl": "ciepło",
+    "tr": "ısı, sıcaklık",
+    "de": "Wärme",
+    "ja": "熱、温かさ"
+   }
+  },
+  {
+   "parola": "tenace",
+   "forme": [
+    "tenace"
+   ],
+   "esempi": [
+    "È una ragazza tenace.",
+    "Questo materiale è molto tenace.",
+    "Con un lavoro tenace ce l'ha fatta."
+   ],
+   "traduzioni": {
+    "en": "tough (also: tenacious)",
+    "es": "tenaz",
+    "pt": "tenaz",
+    "fr": "tenace",
+    "cs": "houževnatý",
+    "pl": "wytrzymały, wytrwały",
+    "tr": "dayanıklı, azimli",
+    "de": "zäh",
+    "ja": "粘り強い、じん性のある"
+   }
+  },
+  {
+   "parola": "la fibra",
+   "forme": [
+    "fibra"
+   ],
+   "esempi": [
+    "La maglia è di fibra sintetica.",
+    "Le verdure sono ricche di fibra.",
+    "Abbiamo internet con la fibra."
+   ],
+   "traduzioni": {
+    "en": "fibre",
+    "es": "fibra",
+    "pt": "fibra",
+    "fr": "fibre",
+    "cs": "vlákno",
+    "pl": "włókno",
+    "tr": "lif",
+    "de": "Faser",
+    "ja": "繊維"
+   }
+  },
+  {
+   "parola": "il giubbotto",
+   "forme": [
+    "giubbotti"
+   ],
+   "formeEsempi": [
+    "giubbotto"
+   ],
+   "esempi": [
+    "Metti il giubbotto, fa freddo.",
+    "Il giubbotto di pelle è nero.",
+    "I poliziotti portano giubbotti antiproiettile."
+   ],
+   "traduzioni": {
+    "en": "jacket («giubbotto antiproiettile» = bulletproof vest)",
+    "es": "chaqueta, chaleco",
+    "pt": "jaqueta, colete",
+    "fr": "blouson, gilet",
+    "cs": "bunda, vesta",
+    "pl": "kurtka, kamizelka",
+    "tr": "mont, yelek",
+    "de": "Jacke, Weste",
+    "ja": "ジャンパー、ベスト"
+   }
+  },
+  {
+   "parola": "la corteccia",
+   "forme": [
+    "corteccia"
+   ],
+   "esempi": [
+    "La corteccia dell'albero è dura.",
+    "Sulla corteccia c'è un insetto.",
+    "Questo ragno ha il colore della corteccia."
+   ],
+   "traduzioni": {
+    "en": "bark",
+    "es": "corteza",
+    "pt": "casca (de árvore)",
+    "fr": "écorce",
+    "cs": "kůra",
+    "pl": "kora",
+    "tr": "ağaç kabuğu",
+    "de": "Rinde",
+    "ja": "樹皮"
+   }
+  },
+  {
+   "parola": "appeso",
+   "forme": [
+    "appese"
+   ],
+   "formeEsempi": [
+    "appeso",
+    "appesa"
+   ],
+   "esempi": [
+    "Il quadro è appeso al muro.",
+    "Le giacche sono appese all'ingresso.",
+    "La lampada è appesa al soffitto."
+   ],
+   "traduzioni": {
+    "en": "hanging",
+    "es": "colgado",
+    "pt": "pendurado",
+    "fr": "suspendu, accroché",
+    "cs": "zavěšený",
+    "pl": "wiszący, powieszony",
+    "tr": "asılı",
+    "de": "aufgehängt",
+    "ja": "ぶら下がった"
+   }
+  },
+  {
+   "parola": "la corda",
+   "forme": [
+    "corde"
+   ],
+   "formeEsempi": [
+    "corda"
+   ],
+   "esempi": [
+    "Lega la barca con la corda.",
+    "Le corde della chitarra sono nuove.",
+    "I bambini saltano la corda."
+   ],
+   "traduzioni": {
+    "en": "rope (also: string)",
+    "es": "cuerda",
+    "pt": "corda",
+    "fr": "corde",
+    "cs": "lano (i: struna)",
+    "pl": "lina (też: struna)",
+    "tr": "ip, halat",
+    "de": "Seil (auch: Saite)",
+    "ja": "ロープ、弦"
+   }
+  },
+  {
+   "parola": "il baco da seta",
+   "forme": [
+    "bachi"
+   ],
+   "formeEsempi": [
+    "baco"
+   ],
+   "esempi": [
+    "Il baco da seta mangia foglie di gelso.",
+    "In Cina allevano i bachi da seta.",
+    "Il baco fa un bozzolo."
+   ],
+   "traduzioni": {
+    "en": "silkworm",
+    "es": "gusano de seda",
+    "pt": "bicho-da-seda",
+    "fr": "ver à soie",
+    "cs": "bourec morušový",
+    "pl": "jedwabnik",
+    "tr": "ipek böceği",
+    "de": "Seidenraupe",
+    "ja": "カイコ"
+   }
+  },
+  {
+   "parola": "il batterio",
+   "forme": [
+    "batteri"
+   ],
+   "formeEsempi": [
+    "batterio"
+   ],
+   "esempi": [
+    "Lavati le mani per togliere i batteri.",
+    "Alcuni batteri sono utili.",
+    "Lo yogurt contiene batteri buoni."
+   ],
+   "traduzioni": {
+    "en": "bacterium",
+    "es": "bacteria",
+    "pt": "bactéria",
+    "fr": "bactérie",
+    "cs": "bakterie",
+    "pl": "bakteria",
+    "tr": "bakteri",
+    "de": "Bakterie",
+    "ja": "細菌"
+   }
+  },
+  {
+   "parola": "costoso",
+   "forme": [
+    "costosa"
+   ],
+   "formeEsempi": [
+    "costoso"
+   ],
+   "esempi": [
+    "Questo ristorante è costoso.",
+    "La vita in città è costosa.",
+    "È un regalo troppo costoso."
+   ],
+   "traduzioni": {
+    "en": "expensive",
+    "es": "caro, costoso",
+    "pt": "caro",
+    "fr": "cher, coûteux",
+    "cs": "drahý",
+    "pl": "drogi, kosztowny",
+    "tr": "pahalı",
+    "de": "teuer",
+    "ja": "高価な"
+   }
+  },
+  {
+   "parola": "spettacolare",
+   "forme": [
+    "spettacolare"
+   ],
+   "esempi": [
+    "Il panorama è spettacolare.",
+    "È stata una partita spettacolare.",
+    "Un tramonto spettacolare."
+   ],
+   "traduzioni": {
+    "en": "spectacular",
+    "es": "espectacular",
+    "pt": "espetacular",
+    "fr": "spectaculaire",
+    "cs": "velkolepý",
+    "pl": "spektakularny",
+    "tr": "muhteşem",
+    "de": "spektakulär",
+    "ja": "見事な"
+   }
+  },
+  {
+   "parola": "l'unghia",
+   "forme": [
+    "unghia"
+   ],
+   "esempi": [
+    "Mi sono rotto un'unghia.",
+    "Non mangiarti le unghie!",
+    "Il gatto ha unghie affilate."
+   ],
+   "traduzioni": {
+    "en": "fingernail, nail",
+    "es": "uña",
+    "pt": "unha",
+    "fr": "ongle",
+    "cs": "nehet",
+    "pl": "paznokieć",
+    "tr": "tırnak",
+    "de": "Fingernagel",
+    "ja": "爪"
+   },
+   "formeEsempi": [
+    "unghie"
+   ]
+  },
+  {
+   "parola": "la foce",
+   "forme": [
+    "foce"
+   ],
+   "esempi": [
+    "La foce del Po è nel mare Adriatico.",
+    "Alla foce del fiume ci sono molti uccelli.",
+    "La città è vicino alla foce."
+   ],
+   "traduzioni": {
+    "en": "mouth (of a river), estuary",
+    "es": "desembocadura",
+    "pt": "foz",
+    "fr": "embouchure",
+    "cs": "ústí",
+    "pl": "ujście",
+    "tr": "nehir ağzı",
+    "de": "Mündung",
+    "ja": "河口"
+   }
+  },
+  {
+   "parola": "la costa",
+   "forme": [
+    "costa"
+   ],
+   "esempi": [
+    "Andiamo in vacanza sulla costa.",
+    "La costa ligure è bellissima.",
+    "La nave è lontana dalla costa."
+   ],
+   "traduzioni": {
+    "en": "coast",
+    "es": "costa",
+    "pt": "costa, litoral",
+    "fr": "côte",
+    "cs": "pobřeží",
+    "pl": "wybrzeże",
+    "tr": "kıyı, sahil",
+    "de": "Küste",
+    "ja": "海岸"
+   }
+  },
+  {
+   "parola": "annotare",
+   "forme": [
+    "annotò"
+   ],
+   "formeEsempi": [
+    "annoto",
+    "annota"
+   ],
+   "esempi": [
+    "Annoto tutto sul quaderno.",
+    "Il medico annota i sintomi.",
+    "Annotò la data sul diario."
+   ],
+   "traduzioni": {
+    "en": "to note down, to record",
+    "es": "anotar",
+    "pt": "anotar",
+    "fr": "noter",
+    "cs": "zaznamenat, poznamenat si",
+    "pl": "zanotować",
+    "tr": "not etmek",
+    "de": "notieren",
+    "ja": "書き留める"
+   }
+  },
+  {
+   "parola": "rossastro",
+   "forme": [
+    "rossastri"
+   ],
+   "formeEsempi": [
+    "rossastro",
+    "rossastra"
+   ],
+   "esempi": [
+    "Il cielo è rossastro al tramonto.",
+    "Ha i capelli rossastri.",
+    "Una terra rossastra."
+   ],
+   "traduzioni": {
+    "en": "reddish",
+    "es": "rojizo",
+    "pt": "avermelhado",
+    "fr": "rougeâtre",
+    "cs": "načervenalý",
+    "pl": "czerwonawy",
+    "tr": "kırmızımsı",
+    "de": "rötlich",
+    "ja": "赤みがかった"
+   }
+  },
+  {
+   "parola": "soffiare",
+   "forme": [
+    "soffiava"
+   ],
+   "formeEsempi": [
+    "soffia"
+   ],
+   "esempi": [
+    "Oggi soffia un vento freddo.",
+    "Soffia sulle candeline!",
+    "Il bambino soffia sulla zuppa calda."
+   ],
+   "traduzioni": {
+    "en": "to blow",
+    "es": "soplar",
+    "pt": "soprar",
+    "fr": "souffler",
+    "cs": "foukat",
+    "pl": "wiać, dmuchać",
+    "tr": "esmek, üflemek",
+    "de": "wehen, blasen",
+    "ja": "吹く"
+   }
+  },
+  {
+   "parola": "l'addome",
+   "forme": [
+    "addome"
+   ],
+   "esempi": [
+    "Ho un dolore all'addome.",
+    "L'insetto ha testa, torace e addome.",
+    "Il medico tocca l'addome."
+   ],
+   "traduzioni": {
+    "en": "abdomen",
+    "es": "abdomen",
+    "pt": "abdômen",
+    "fr": "abdomen",
+    "cs": "zadeček, břicho",
+    "pl": "odwłok, brzuch",
+    "tr": "karın",
+    "de": "Hinterleib, Bauch",
+    "ja": "腹部"
+   }
+  },
+  {
+   "parola": "emettere",
+   "forme": [
+    "emetteva",
+    "emettevano"
+   ],
+   "formeEsempi": [
+    "emette",
+    "emettono"
+   ],
+   "esempi": [
+    "Il telefono emette un suono.",
+    "Le auto emettono gas.",
+    "Il ragno emette un filo di seta."
+   ],
+   "traduzioni": {
+    "en": "to emit, to give off, to produce",
+    "es": "emitir",
+    "pt": "emitir",
+    "fr": "émettre",
+    "cs": "vypouštět",
+    "pl": "wydzielać, wypuszczać",
+    "tr": "salmak, çıkarmak",
+    "de": "abgeben, ausstoßen",
+    "ja": "出す、放つ"
+   }
+  },
+  {
+   "parola": "il comportamento",
+   "forme": [
+    "comportamento"
+   ],
+   "esempi": [
+    "Il suo comportamento è strano.",
+    "Studio il comportamento degli animali.",
+    "Il comportamento in classe è importante."
+   ],
+   "traduzioni": {
+    "en": "behaviour",
+    "es": "comportamiento",
+    "pt": "comportamento",
+    "fr": "comportement",
+    "cs": "chování",
+    "pl": "zachowanie",
+    "tr": "davranış",
+    "de": "Verhalten",
+    "ja": "行動"
+   }
+  },
+  {
+   "parola": "colonizzare",
+   "forme": [
+    "colonizzate"
+   ],
+   "formeEsempi": [
+    "colonizzato",
+    "colonizzata",
+    "colonizzano"
+   ],
+   "esempi": [
+    "Le piante hanno colonizzato il muro.",
+    "L'isola è stata colonizzata dagli uccelli.",
+    "Le alghe colonizzano le rocce."
+   ],
+   "traduzioni": {
+    "en": "to colonise",
+    "es": "colonizar",
+    "pt": "colonizar",
+    "fr": "coloniser",
+    "cs": "osídlit, kolonizovat",
+    "pl": "zasiedlić, skolonizować",
+    "tr": "koloni kurmak, yerleşmek",
+    "de": "besiedeln",
+    "ja": "定着する、入植する"
+   }
+  },
+  {
+   "parola": "l'eruzione",
+   "forme": [
+    "eruzione"
+   ],
+   "esempi": [
+    "L'eruzione del Vesuvio ha distrutto Pompei.",
+    "Dopo l'eruzione c'era cenere ovunque.",
+    "L'Etna è in eruzione."
+   ],
+   "traduzioni": {
+    "en": "eruption",
+    "es": "erupción",
+    "pt": "erupção",
+    "fr": "éruption",
+    "cs": "erupce, výbuch",
+    "pl": "erupcja",
+    "tr": "patlama (yanardağ)",
+    "de": "Ausbruch",
+    "ja": "噴火"
+   }
+  },
+  {
+   "parola": "cancellare",
+   "forme": [
+    "cancellato"
+   ],
+   "formeEsempi": [
+    "cancello",
+    "cancella"
+   ],
+   "esempi": [
+    "Ho cancellato il messaggio.",
+    "Il volo è stato cancellato.",
+    "Cancella la lavagna, per favore."
+   ],
+   "traduzioni": {
+    "en": "to wipe out, to delete, to cancel",
+    "es": "borrar, cancelar",
+    "pt": "apagar, cancelar",
+    "fr": "effacer, annuler",
+    "cs": "vymazat, zrušit",
+    "pl": "wymazać, odwołać",
+    "tr": "silmek, iptal etmek",
+    "de": "löschen, auslöschen",
+    "ja": "消す、取り消す"
+   }
+  },
+  {
+   "parola": "tessere",
+   "forme": [
+    "tessere"
+   ],
+   "formeEsempi": [
+    "tesse"
+   ],
+   "esempi": [
+    "La nonna sa tessere la lana.",
+    "Il ragno tesse la sua tela.",
+    "Tessere un tappeto richiede mesi."
+   ],
+   "traduzioni": {
+    "en": "to weave, to spin (a web)",
+    "es": "tejer",
+    "pt": "tecer",
+    "fr": "tisser",
+    "cs": "tkát, spřádat",
+    "pl": "tkać, snuć",
+    "tr": "örmek, dokumak",
+    "de": "weben, spinnen",
+    "ja": "織る、（巣を）張る"
+   }
+  },
+  {
+   "parola": "attrezzare",
+   "forme": [
+    "attrezzati"
+   ],
+   "formeEsempi": [
+    "attrezzata",
+    "attrezzato"
+   ],
+   "esempi": [
+    "La cucina è ben attrezzata.",
+    "Siamo attrezzati per la montagna.",
+    "Hanno attrezzato una palestra."
+   ],
+   "traduzioni": {
+    "en": "to equip, to fit out",
+    "es": "equipar",
+    "pt": "equipar",
+    "fr": "équiper",
+    "cs": "vybavit",
+    "pl": "wyposażyć",
+    "tr": "donatmak",
+    "de": "ausrüsten",
+    "ja": "装備する"
+   }
+  },
+  {
+   "parola": "la quota",
+   "forme": [
+    "quota"
+   ],
+   "esempi": [
+    "L'aereo vola a diecimila metri di quota.",
+    "Il rifugio è a quota duemila.",
+    "Ho pagato la mia quota."
+   ],
+   "traduzioni": {
+    "en": "altitude, height (also: share, fee)",
+    "es": "altitud, altura (también: cuota)",
+    "pt": "altitude (também: cota)",
+    "fr": "altitude (aussi : quote-part)",
+    "cs": "výška, nadmořská výška (i: podíl)",
+    "pl": "wysokość (też: składka)",
+    "tr": "irtifa (ayrıca: pay, aidat)",
+    "de": "Höhe (auch: Anteil)",
+    "ja": "高度（分担金、の意味も）"
+   }
+  },
+  {
+   "parola": "il fenomeno",
+   "forme": [
+    "fenomeno"
+   ],
+   "esempi": [
+    "L'arcobaleno è un fenomeno naturale.",
+    "È un fenomeno molto raro.",
+    "Quel calciatore è un fenomeno!"
+   ],
+   "traduzioni": {
+    "en": "phenomenon",
+    "es": "fenómeno",
+    "pt": "fenômeno",
+    "fr": "phénomène",
+    "cs": "jev",
+    "pl": "zjawisko",
+    "tr": "olgu, fenomen",
+    "de": "Phänomen",
+    "ja": "現象"
+   }
+  },
+  {
+   "parola": "l'esemplare",
+   "forme": [
+    "esemplari"
+   ],
+   "formeEsempi": [
+    "esemplare"
+   ],
+   "esempi": [
+    "Al museo c'è un esemplare raro di farfalla.",
+    "Restano pochi esemplari di questa specie.",
+    "È un comportamento esemplare."
+   ],
+   "traduzioni": {
+    "en": "specimen, individual (also: exemplary)",
+    "es": "ejemplar",
+    "pt": "exemplar",
+    "fr": "spécimen, individu",
+    "cs": "exemplář, jedinec",
+    "pl": "okaz",
+    "tr": "örnek, birey",
+    "de": "Exemplar",
+    "ja": "個体、標本"
+   }
+  },
+  {
+   "parola": "il paracadute",
+   "forme": [
+    "paracadute"
+   ],
+   "esempi": [
+    "Si è lanciato con il paracadute.",
+    "Il paracadute si è aperto.",
+    "I semi del tarassaco hanno un piccolo paracadute."
+   ],
+   "traduzioni": {
+    "en": "parachute",
+    "es": "paracaídas",
+    "pt": "paraquedas",
+    "fr": "parachute",
+    "cs": "padák",
+    "pl": "spadochron",
+    "tr": "paraşüt",
+    "de": "Fallschirm",
+    "ja": "パラシュート"
+   }
+  },
+  {
+   "parola": "sollevare",
+   "forme": [
+    "sollevati",
+    "sollevavano",
+    "sollevare"
+   ],
+   "formeEsempi": [
+    "solleva"
+   ],
+   "esempi": [
+    "Non riesco a sollevare questa valigia.",
+    "Il vento solleva le foglie.",
+    "Solleva la mano se hai una domanda."
+   ],
+   "traduzioni": {
+    "en": "to lift, to raise",
+    "es": "levantar",
+    "pt": "levantar, erguer",
+    "fr": "soulever",
+    "cs": "zvednout",
+    "pl": "podnieść",
+    "tr": "kaldırmak",
+    "de": "anheben",
+    "ja": "持ち上げる"
+   }
+  },
+  {
+   "parola": "la corrente",
+   "forme": [
+    "correnti",
+    "corrente"
+   ],
+   "esempi": [
+    "Chiudi la finestra, c'è corrente.",
+    "Nel fiume la corrente è forte.",
+    "È andata via la corrente."
+   ],
+   "traduzioni": {
+    "en": "current, draught (also: electricity)",
+    "es": "corriente",
+    "pt": "corrente",
+    "fr": "courant",
+    "cs": "proud, průvan",
+    "pl": "prąd, przeciąg",
+    "tr": "akıntı, cereyan, akım",
+    "de": "Strömung, Luftzug, Strom",
+    "ja": "流れ、すきま風、電流"
+   }
+  },
+  {
+   "parola": "giustificare",
+   "forme": [
+    "giustificare"
+   ],
+   "formeEsempi": [
+    "giustifica",
+    "giustifichi"
+   ],
+   "esempi": [
+    "Come giustifichi il ritardo?",
+    "Niente giustifica la violenza.",
+    "Devo giustificare l'assenza."
+   ],
+   "traduzioni": {
+    "en": "to justify, to account for",
+    "es": "justificar",
+    "pt": "justificar",
+    "fr": "justifier",
+    "cs": "zdůvodnit, ospravedlnit",
+    "pl": "uzasadnić, usprawiedliwić",
+    "tr": "açıklamak, haklı çıkarmak",
+    "de": "rechtfertigen, erklären",
+    "ja": "正当化する、説明する"
+   }
+  },
+  {
+   "parola": "verificare",
+   "forme": [
+    "verificata"
+   ],
+   "formeEsempi": [
+    "verifico",
+    "verificare"
+   ],
+   "esempi": [
+    "Verifico l'orario del treno.",
+    "La notizia non è verificata.",
+    "Dobbiamo verificare i dati."
+   ],
+   "traduzioni": {
+    "en": "to verify, to check",
+    "es": "verificar",
+    "pt": "verificar",
+    "fr": "vérifier",
+    "cs": "ověřit",
+    "pl": "sprawdzić, zweryfikować",
+    "tr": "doğrulamak",
+    "de": "überprüfen",
+    "ja": "確かめる"
+   }
+  },
+  {
+   "parola": "sereno",
+   "forme": [
+    "serena"
+   ],
+   "formeEsempi": [
+    "sereno"
+   ],
+   "esempi": [
+    "Oggi il cielo è sereno.",
+    "È una persona serena.",
+    "Ho passato una giornata serena."
+   ],
+   "traduzioni": {
+    "en": "clear (sky), calm",
+    "es": "despejado, sereno",
+    "pt": "limpo (céu), sereno",
+    "fr": "dégagé, serein",
+    "cs": "jasný, klidný",
+    "pl": "bezchmurny, pogodny",
+    "tr": "açık (hava), sakin",
+    "de": "klar, heiter",
+    "ja": "晴れた、穏やかな"
+   }
+  },
+  {
+   "parola": "caricarsi",
+   "forme": [
+    "caricarsi"
+   ],
+   "formeEsempi": [
+    "carica",
+    "carico"
+   ],
+   "esempi": [
+    "Il telefono si carica in un'ora.",
+    "Il maglione si carica di elettricità.",
+    "Prima della gara mi carico con la musica."
+   ],
+   "traduzioni": {
+    "en": "to become charged (also: to charge up)",
+    "es": "cargarse",
+    "pt": "carregar-se",
+    "fr": "se charger",
+    "cs": "nabít se",
+    "pl": "naładować się",
+    "tr": "şarj olmak, yüklenmek",
+    "de": "sich aufladen",
+    "ja": "帯電する、充電される"
+   }
+  },
+  {
+   "parola": "il pelo",
+   "forme": [
+    "peli"
+   ],
+   "formeEsempi": [
+    "pelo"
+   ],
+   "esempi": [
+    "Il gatto perde il pelo.",
+    "Ci sono peli di cane sul divano.",
+    "Il ragno ha peli sulle zampe."
+   ],
+   "traduzioni": {
+    "en": "hair (on body, animals), fur",
+    "es": "pelo, vello",
+    "pt": "pelo",
+    "fr": "poil",
+    "cs": "chlup, srst",
+    "pl": "włos, sierść",
+    "tr": "kıl, tüy",
+    "de": "Haar, Fell",
+    "ja": "毛"
+   }
+  },
+  {
+   "parola": "percepire",
+   "forme": [
+    "percepirebbe"
+   ],
+   "formeEsempi": [
+    "percepisce",
+    "percepisco",
+    "percepiscono"
+   ],
+   "esempi": [
+    "Il cane percepisce i suoni lontani.",
+    "Percepisco un po' di tensione.",
+    "Gli animali percepiscono il terremoto prima di noi."
+   ],
+   "traduzioni": {
+    "en": "to perceive, to sense",
+    "es": "percibir",
+    "pt": "perceber, sentir",
+    "fr": "percevoir",
+    "cs": "vnímat",
+    "pl": "odczuwać, postrzegać",
+    "tr": "algılamak",
+    "de": "wahrnehmen",
+    "ja": "感じ取る"
+   }
+  },
+  {
+   "parola": "favorevole",
+   "forme": [
+    "favorevoli"
+   ],
+   "formeEsempi": [
+    "favorevole"
+   ],
+   "esempi": [
+    "Il tempo è favorevole per partire.",
+    "Sono favorevole alla proposta.",
+    "Le condizioni sono favorevoli."
+   ],
+   "traduzioni": {
+    "en": "favourable",
+    "es": "favorable",
+    "pt": "favorável",
+    "fr": "favorable",
+    "cs": "příznivý",
+    "pl": "sprzyjający",
+    "tr": "elverişli",
+    "de": "günstig",
+    "ja": "好都合な"
+   }
+  },
+  {
+   "parola": "escludersi",
+   "forme": [
+    "escludono"
+   ],
+   "formeEsempi": [
+    "esclude",
+    "escludo"
+   ],
+   "esempi": [
+    "Le due ipotesi non si escludono.",
+    "Il medico esclude un problema grave.",
+    "Non escludo di venire."
+   ],
+   "traduzioni": {
+    "en": "to exclude (each other), to rule out",
+    "es": "excluirse",
+    "pt": "excluir-se",
+    "fr": "s'exclure",
+    "cs": "vylučovat se",
+    "pl": "wykluczać się",
+    "tr": "birbirini dışlamak",
+    "de": "sich ausschließen",
+    "ja": "排除し合う、除外する"
+   }
+  },
+  {
+   "parola": "agire",
+   "forme": [
+    "agiscono"
+   ],
+   "formeEsempi": [
+    "agisce",
+    "agire"
+   ],
+   "esempi": [
+    "Dobbiamo agire subito.",
+    "Il farmaco agisce in un'ora.",
+    "Agisce sempre senza pensare."
+   ],
+   "traduzioni": {
+    "en": "to act",
+    "es": "actuar",
+    "pt": "agir",
+    "fr": "agir",
+    "cs": "jednat, působit",
+    "pl": "działać",
+    "tr": "harekete geçmek, etki etmek",
+    "de": "handeln, wirken",
+    "ja": "作用する、行動する"
+   }
+  },
+  {
+   "parola": "la vela",
+   "forme": [
+    "vela"
+   ],
+   "esempi": [
+    "La barca a vela è nel porto.",
+    "D'estate faccio vela.",
+    "Il vento gonfia la vela."
+   ],
+   "traduzioni": {
+    "en": "sail",
+    "es": "vela",
+    "pt": "vela",
+    "fr": "voile",
+    "cs": "plachta",
+    "pl": "żagiel",
+    "tr": "yelken",
+    "de": "Segel",
+    "ja": "帆"
+   }
+  },
+  {
+   "parola": "entusiasta",
+   "forme": [
+    "entusiasta"
+   ],
+   "esempi": [
+    "Sono entusiasta del nuovo lavoro.",
+    "I bambini sono entusiasti della gita.",
+    "È un'insegnante entusiasta."
+   ],
+   "traduzioni": {
+    "en": "enthusiastic, thrilled",
+    "es": "entusiasmado",
+    "pt": "entusiasmado",
+    "fr": "enthousiaste",
+    "cs": "nadšený",
+    "pl": "zachwycony",
+    "tr": "hevesli, coşkulu",
+    "de": "begeistert",
+    "ja": "夢中の、大喜びの"
+   },
+   "formeEsempi": [
+    "entusiasti"
+   ]
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "It's early morning. The garden is green and wet. Between two branches there is a big, round web. On the web there are lots of small, shiny drops.",
+    "– Grandad, look! A beautiful web! – says Marco.\n– Yes. And in the middle there's the spider. It's small and brown. It isn't dangerous.",
+    "Marco touches a thread with his finger. The thread is thin, light, almost invisible. But it doesn't break.\n– Is the thread weak, Grandad?\n– No. It's thin, but it's strong and stretchy.",
+    "– Is it true that it's stronger than steel?\n– A bit yes and a bit no. A spider's thread and a steel wire of the same thickness are more or less equally strong. But the spider's thread is much lighter. And when a fast insect hits the web, the thread doesn't break: it gets long and then goes back to how it was.",
+    "A small black insect flies towards the web. Zap! The web is sticky: the insect can't escape. The spider arrives, fast and silent.",
+    "In the evening the web is old and broken. And the spider… eats its web!\n– Yuck! – says Marco.\n– No, it's clever, – says Grandad. – Silk is precious. The spider eats the old web, so it doesn't waste anything. The next morning there's a new web, beautiful and clean.",
+    "– And the little spiders? – asks Marco.\n– The baby spiders are incredible. They climb up a tall flower, make a long thread and… they fly! The air carries them far away, even over the sea.",
+    "Marco looks at the blue sky. Maybe up there there's a small, brave little spider."
+   ],
+   "b1": [
+    "You've probably heard that spider silk is stronger than steel. It's one of those sentences everybody likes, but as often happens, the truth is more complicated and also more interesting.",
+    "Let's start with strength, that is the force needed to break a thread. If we take a silk thread and a steel wire of the same thickness, the best silk is more or less as strong as good steel: no more. But silk is about six times lighter than steel. So, for the same weight, it is much stronger. That's where the famous sentence comes from: it's true, but only if you compare threads of the same weight.",
+    "The real record of silk, though, is another one: toughness, that is the ability to absorb the energy of an impact without breaking. An insect flying fast hits the web like a small bullet. A rigid thread would snap; the spider's thread instead stretches, absorbs the energy and turns it into heat. Because of this quality silk is tougher than steel and even than Kevlar, the fibre used in bulletproof vests.",
+    "And which is the toughest silk in the world? That of Darwin's bark spider, described in 2010 in Madagascar. Its silk is about twice as tough as that of any other spider studied and more than ten times tougher than Kevlar. It needs it: this spider builds the biggest webs in the world over rivers, hanging from threads that can be up to twenty-five metres long.",
+    "So why don't we make ropes out of spider silk? Because spiders are much harder to breed than silkworms: if you put them together, they eat each other. That's why scientists are trying to produce silk in the laboratory, with bacteria and other organisms. So far, however, artificial silk is almost always less tough than natural silk, and much more expensive.",
+    "In the end, the right sentence would be: «Spider silk isn't stronger than steel, but it's lighter, more elastic and much tougher.» Less spectacular, maybe. But it remains the most extraordinary natural material we know, and it's produced by an animal often smaller than a fingernail."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Es temprano por la mañana. El jardín está verde y mojado. Entre dos ramas hay una telaraña grande y redonda. En la telaraña hay muchas gotas pequeñas y brillantes.",
+    "– ¡Abuelo, mira! ¡Una telaraña preciosa! – dice Marco.\n– Sí. Y en el centro está la araña. Es pequeña y marrón. No es peligrosa.",
+    "Marco toca un hilo con un dedo. El hilo es fino, ligero, casi invisible. Pero no se rompe.\n– ¿El hilo es débil, abuelo?\n– No. Es fino, pero es fuerte y elástico.",
+    "– ¿Es verdad que es más fuerte que el acero?\n– Un poco sí y un poco no. Un hilo de araña y un hilo de acero del mismo grosor son más o menos igual de fuertes. Pero el hilo de la araña es mucho más ligero. Y cuando un insecto rápido llega a la telaraña, el hilo no se rompe: se alarga y luego vuelve a ser como antes.",
+    "Un insecto pequeño y negro vuela hacia la telaraña. ¡Zas! La telaraña es pegajosa: el insecto no se escapa. La araña llega, rápida y silenciosa.",
+    "Por la tarde la telaraña está vieja y rota. Y la araña… ¡se come su telaraña!\n– ¡Qué asco! – dice Marco.\n– No, es inteligente, – dice el abuelo. – La seda es valiosa. La araña se come la telaraña vieja y así no desperdicia nada. A la mañana siguiente hay una telaraña nueva, bonita y limpia.",
+    "– ¿Y las arañas pequeñas? – pregunta Marco.\n– Las arañitas son increíbles. Suben a una flor alta, hacen un hilo largo y… ¡vuelan! El aire las lleva lejos, incluso sobre el mar.",
+    "Marco mira el cielo azul. Quizás allí arriba hay una arañita pequeña y valiente."
+   ],
+   "b1": [
+    "Seguramente habrás oído decir que la seda de araña es más fuerte que el acero. Es una de esas frases que gustan a todos, pero, como pasa a menudo, la verdad es más complicada y también más interesante.",
+    "Empecemos por la resistencia, es decir, la fuerza necesaria para romper un hilo. Si tomamos un hilo de seda y un hilo de acero del mismo grosor, la mejor seda es más o menos tan fuerte como un buen acero: no más. Pero la seda es unas seis veces más ligera que el acero. Por lo tanto, a igualdad de peso, es mucho más resistente. De ahí viene la famosa frase: es verdad, pero solo si se comparan hilos del mismo peso.",
+    "El verdadero récord de la seda, sin embargo, es otro: la tenacidad, es decir, la capacidad de absorber la energía de un golpe sin romperse. Un insecto que vuela rápido golpea la telaraña como un pequeño proyectil. Un hilo rígido se rompería; el hilo de la araña, en cambio, se alarga, absorbe la energía y la transforma en calor. Por esta cualidad la seda es más tenaz que el acero e incluso que el Kevlar, la fibra de los chalecos antibalas.",
+    "¿Y cuál es la seda más tenaz del mundo? La de la araña de corteza de Darwin, descrita en 2010 en Madagascar. Su seda es unas dos veces más tenaz que la de cualquier otra araña estudiada y más de diez veces más tenaz que el Kevlar. La necesita: esta araña construye las telarañas más grandes del mundo sobre los ríos, colgadas de hilos que pueden medir hasta veinticinco metros.",
+    "Entonces, ¿por qué no hacemos cuerdas con seda de araña? Porque las arañas son mucho más difíciles de criar que los gusanos de seda: si las pones juntas, se comen entre ellas. Por eso los científicos intentan producir la seda en el laboratorio, con bacterias y otros organismos. Hasta ahora, sin embargo, la seda artificial es casi siempre menos tenaz que la natural, y mucho más cara.",
+    "Al final, la frase correcta sería: «La seda de araña no es más fuerte que el acero, pero es más ligera, más elástica y mucho más tenaz». Menos espectacular, quizás. Pero sigue siendo el material natural más extraordinario que conocemos, y lo produce un animal a menudo más pequeño que una uña."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "É de manhã cedo. O jardim está verde e molhado. Entre dois galhos há uma teia grande e redonda. Na teia há muitas gotas pequenas e brilhantes.",
+    "– Vovô, olha! Uma teia lindíssima! – diz o Marco.\n– Sim. E no centro está a aranha. É pequena e marrom. Não é perigosa.",
+    "O Marco toca um fio com o dedo. O fio é fino, leve, quase invisível. Mas não arrebenta.\n– O fio é fraco, vovô?\n– Não. É fino, mas é forte e elástico.",
+    "– É verdade que é mais forte que o aço?\n– Um pouco sim e um pouco não. Um fio de aranha e um fio de aço da mesma grossura são mais ou menos igualmente fortes. Mas o fio da aranha é muito mais leve. E quando um inseto rápido chega na teia, o fio não arrebenta: estica e depois volta a ser como antes.",
+    "Um inseto pequeno e preto voa em direção à teia. Zás! A teia é grudenta: o inseto não escapa. A aranha chega, rápida e silenciosa.",
+    "À noite a teia está velha e rasgada. E a aranha… come a sua teia!\n– Que nojo! – diz o Marco.\n– Não, ela é inteligente, – diz o avô. – A seda é preciosa. A aranha come a teia velha e assim não desperdiça nada. Na manhã seguinte há uma teia nova, bonita e limpa.",
+    "– E as aranhas pequenas? – pergunta o Marco.\n– As aranhazinhas são incríveis. Sobem numa flor alta, fazem um fio comprido e… voam! O ar leva elas para longe, até por cima do mar.",
+    "O Marco olha o céu azul. Talvez lá em cima haja uma aranhazinha pequena e corajosa."
+   ],
+   "b1": [
+    "Você já deve ter ouvido dizer que a seda de aranha é mais forte que o aço. É uma daquelas frases de que todo mundo gosta, mas, como acontece muitas vezes, a verdade é mais complicada e também mais interessante.",
+    "Vamos começar pela resistência, ou seja, pela força necessária para romper um fio. Se pegarmos um fio de seda e um fio de aço da mesma espessura, a melhor seda é mais ou menos tão forte quanto um bom aço: não mais. Mas a seda é cerca de seis vezes mais leve que o aço. Portanto, com o mesmo peso, ela é muito mais resistente. É daí que vem a frase famosa: é verdade, mas só se compararmos fios do mesmo peso.",
+    "O verdadeiro recorde da seda, porém, é outro: a tenacidade, ou seja, a capacidade de absorver a energia de um impacto sem se romper. Um inseto que voa rápido bate na teia como um pequeno projétil. Um fio rígido se partiria; o fio da aranha, ao contrário, se alonga, absorve a energia e a transforma em calor. Por essa qualidade a seda é mais tenaz que o aço e até que o Kevlar, a fibra dos coletes à prova de balas.",
+    "E qual é a seda mais tenaz do mundo? A da aranha-de-casca-de-darwin, descrita em 2010 em Madagascar. A sua seda é cerca de duas vezes mais tenaz que a de qualquer outra aranha estudada e mais de dez vezes mais tenaz que o Kevlar. Ela precisa disso: essa aranha constrói as maiores teias do mundo sobre os rios, presas a fios que podem ter até vinte e cinco metros.",
+    "Então por que não fazemos cordas com seda de aranha? Porque as aranhas são muito mais difíceis de criar que os bichos-da-seda: se você as coloca juntas, elas se comem. Por isso os cientistas tentam produzir a seda em laboratório, com bactérias e outros organismos. Até agora, porém, a seda artificial é quase sempre menos tenaz que a natural, e muito mais cara.",
+    "No fim, a frase certa seria: «A seda de aranha não é mais forte que o aço, mas é mais leve, mais elástica e muito mais tenaz». Menos espetacular, talvez. Mas continua sendo o material natural mais extraordinário que conhecemos, e quem o produz é um animal muitas vezes menor que uma unha."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "C'est tôt le matin. Le jardin est vert et mouillé. Entre deux branches, il y a une grande toile ronde. Sur la toile, il y a beaucoup de petites gouttes brillantes.",
+    "– Papi, regarde ! Une toile magnifique ! – dit Marco.\n– Oui. Et au centre, il y a l'araignée. Elle est petite et marron. Elle n'est pas dangereuse.",
+    "Marco touche un fil avec un doigt. Le fil est fin, léger, presque invisible. Mais il ne se casse pas.\n– Le fil est faible, papi ?\n– Non. Il est fin, mais il est solide et élastique.",
+    "– C'est vrai qu'il est plus solide que l'acier ?\n– Un peu oui et un peu non. Un fil d'araignée et un fil d'acier de la même épaisseur sont à peu près aussi solides l'un que l'autre. Mais le fil de l'araignée est beaucoup plus léger. Et quand un insecte rapide arrive sur la toile, le fil ne se casse pas : il s'allonge et puis il redevient comme avant.",
+    "Un petit insecte noir vole vers la toile. Zac ! La toile est collante : l'insecte ne s'échappe pas. L'araignée arrive, rapide et silencieuse.",
+    "Le soir, la toile est vieille et déchirée. Et l'araignée… mange sa toile !\n– Beurk ! – dit Marco.\n– Non, elle est intelligente, – dit papi. – La soie est précieuse. L'araignée mange la vieille toile et comme ça, elle ne gaspille rien. Le lendemain matin, il y a une nouvelle toile, belle et propre.",
+    "– Et les petites araignées ? – demande Marco.\n– Les bébés araignées sont incroyables. Ils montent sur une fleur haute, font un long fil et… ils volent ! L'air les emporte loin, même au-dessus de la mer.",
+    "Marco regarde le ciel bleu. Peut-être que là-haut, il y a une petite araignée courageuse."
+   ],
+   "b1": [
+    "Tu as sûrement entendu dire que la soie d'araignée est plus résistante que l'acier. C'est une de ces phrases qui plaisent à tout le monde, mais, comme souvent, la vérité est plus compliquée et aussi plus intéressante.",
+    "Commençons par la résistance, c'est-à-dire la force nécessaire pour casser un fil. Si on prend un fil de soie et un fil d'acier de la même épaisseur, la meilleure soie est à peu près aussi résistante qu'un bon acier : pas plus. Mais la soie est environ six fois plus légère que l'acier. Donc, à poids égal, elle est beaucoup plus résistante. Voilà d'où vient la phrase célèbre : elle est vraie, mais seulement si on compare des fils de même poids.",
+    "Le vrai record de la soie, pourtant, est ailleurs : la ténacité, c'est-à-dire la capacité d'absorber l'énergie d'un choc sans se casser. Un insecte qui vole vite frappe la toile comme un petit projectile. Un fil rigide se casserait ; le fil de l'araignée, au contraire, s'allonge, absorbe l'énergie et la transforme en chaleur. Grâce à cette qualité, la soie est plus tenace que l'acier et même que le Kevlar, la fibre des gilets pare-balles.",
+    "Et quelle est la soie la plus tenace du monde ? Celle de l'araignée écorce de Darwin, décrite en 2010 à Madagascar. Sa soie est environ deux fois plus tenace que celle de n'importe quelle autre araignée étudiée et plus de dix fois plus tenace que le Kevlar. Elle en a besoin : cette araignée construit les plus grandes toiles du monde au-dessus des rivières, suspendues à des fils qui peuvent mesurer jusqu'à vingt-cinq mètres.",
+    "Alors pourquoi on ne fabrique pas de cordes en soie d'araignée ? Parce que les araignées sont beaucoup moins faciles à élever que les vers à soie : si on les met ensemble, elles se mangent entre elles. C'est pourquoi les scientifiques essaient de produire la soie en laboratoire, avec des bactéries et d'autres organismes. Jusqu'à présent, cependant, la soie artificielle est presque toujours moins tenace que la soie naturelle, et beaucoup plus chère.",
+    "Au fond, la phrase juste serait : « La soie d'araignée n'est pas plus résistante que l'acier, mais elle est plus légère, plus élastique et beaucoup plus tenace ». Moins spectaculaire, peut-être. Mais elle reste le matériau naturel le plus extraordinaire que nous connaissions, et c'est un animal souvent plus petit qu'un ongle qui la produit."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Je časně ráno. Zahrada je zelená a mokrá. Mezi dvěma větvemi je velká kulatá pavučina. Na pavučině je spousta malých lesklých kapek.",
+    "– Dědo, podívej! Krásná pavučina! – říká Marco.\n– Ano. A uprostřed je pavouk. Je malý a hnědý. Není nebezpečný.",
+    "Marco se prstem dotkne vlákna. Vlákno je tenké, lehké, skoro neviditelné. Ale nepřetrhne se.\n– Je to vlákno slabé, dědo?\n– Ne. Je tenké, ale je pevné a pružné.",
+    "– Je pravda, že je pevnější než ocel?\n– Trochu ano a trochu ne. Pavoučí vlákno a ocelový drát stejné tloušťky jsou zhruba stejně pevné. Ale pavoučí vlákno je mnohem lehčí. A když do pavučiny narazí rychlý hmyz, vlákno se nepřetrhne: natáhne se a pak se vrátí do původního stavu.",
+    "Malý černý hmyz letí k pavučině. Šup! Pavučina je lepkavá: hmyz neuteče. Pavouk přiběhne, rychle a tiše.",
+    "Večer je pavučina stará a roztrhaná. A pavouk… sní svou pavučinu!\n– Fuj! – říká Marco.\n– Ne, je chytrý, – říká děda. – Hedvábí je vzácné. Pavouk sní starou pavučinu, a tak nic nevyplýtvá. Druhý den ráno je tu nová pavučina, krásná a čistá.",
+    "– A malí pavouci? – ptá se Marco.\n– Malí pavoučci jsou neuvěřitelní. Vylezou na vysokou květinu, udělají dlouhé vlákno a… letí! Vzduch je odnese daleko, i nad moře.",
+    "Marco se dívá na modré nebe. Možná je tam nahoře malý statečný pavouček."
+   ],
+   "b1": [
+    "Asi jsi slyšel, že pavoučí hedvábí je pevnější než ocel. Je to jedna z těch vět, které se líbí všem, ale jak to často bývá, pravda je složitější a taky zajímavější.",
+    "Začněme pevností, tedy silou, kterou potřebujeme k přetržení vlákna. Když vezmeme hedvábné vlákno a ocelový drát stejné tloušťky, nejlepší hedvábí je zhruba stejně pevné jako dobrá ocel: ne víc. Jenže hedvábí je asi šestkrát lehčí než ocel. Při stejné hmotnosti je tedy mnohem pevnější. Odtud pochází ta slavná věta: je pravdivá, ale jen když porovnáváme vlákna stejné hmotnosti.",
+    "Skutečný rekord hedvábí je ale jiný: houževnatost, tedy schopnost pohltit energii nárazu, aniž se vlákno přetrhne. Hmyz, který letí rychle, narazí do pavučiny jako malý projektil. Tuhé vlákno by prasklo; pavoučí vlákno se naopak natáhne, pohltí energii a přemění ji v teplo. Díky této vlastnosti je hedvábí houževnatější než ocel, a dokonce i než kevlar, vlákno neprůstřelných vest.",
+    "A které hedvábí je nejhouževnatější na světě? Hedvábí pavouka Caerostris darwini, popsaného v roce 2010 na Madagaskaru. Jeho hedvábí je zhruba dvakrát houževnatější než u kteréhokoli jiného zkoumaného pavouka a víc než desetkrát houževnatější než kevlar. Potřebuje to: tento pavouk staví největší pavučiny na světě nad řekami, zavěšené na vláknech, která mohou být dlouhá až dvacet pět metrů.",
+    "Proč tedy neděláme lana z pavoučího hedvábí? Protože pavouky je mnohem těžší chovat než bource morušové: když je dáte dohromady, sežerou se navzájem. Proto se vědci snaží vyrábět hedvábí v laboratoři pomocí bakterií a jiných organismů. Zatím je ale umělé hedvábí skoro vždycky méně houževnaté než přírodní a mnohem dražší.",
+    "Nakonec by správná věta zněla: „Pavoučí hedvábí není pevnější než ocel, ale je lehčí, pružnější a mnohem houževnatější.“ Možná méně efektní. Ale pořád je to nejpozoruhodnější přírodní materiál, jaký známe, a vyrábí ho zvíře často menší než nehet."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jest wczesny ranek. Ogród jest zielony i mokry. Między dwiema gałęziami wisi duża, okrągła pajęczyna. Na pajęczynie jest dużo małych, błyszczących kropel.",
+    "– Dziadku, zobacz! Piękna pajęczyna! – mówi Marco.\n– Tak. A na środku siedzi pająk. Jest mały i brązowy. Nie jest groźny.",
+    "Marco dotyka palcem nici. Nić jest cienka, lekka, prawie niewidoczna. Ale się nie zrywa.\n– Ta nić jest słaba, dziadku?\n– Nie. Jest cienka, ale mocna i elastyczna.",
+    "– To prawda, że jest mocniejsza niż stal?\n– Trochę tak, a trochę nie. Nić pająka i stalowy drut tej samej grubości są mniej więcej tak samo mocne. Ale nić pająka jest dużo lżejsza. A kiedy szybki owad wpada na pajęczynę, nić się nie zrywa: wydłuża się, a potem wraca do poprzedniego kształtu.",
+    "Mały czarny owad leci w stronę pajęczyny. Bach! Pajęczyna jest lepka: owad nie ucieka. Pająk przybiega, szybki i cichy.",
+    "Wieczorem pajęczyna jest stara i podarta. A pająk… zjada swoją pajęczynę!\n– Fuj! – mówi Marco.\n– Nie, on jest mądry, – mówi dziadek. – Jedwab jest cenny. Pająk zjada starą pajęczynę i w ten sposób niczego nie marnuje. Następnego ranka jest nowa pajęczyna, piękna i czysta.",
+    "– A małe pająki? – pyta Marco.\n– Małe pajączki są niesamowite. Wchodzą na wysoki kwiat, robią długą nić i… latają! Powietrze niesie je daleko, nawet nad morze.",
+    "Marco patrzy na niebieskie niebo. Może tam w górze jest mały, odważny pajączek."
+   ],
+   "b1": [
+    "Pewnie słyszałeś, że jedwab pająka jest mocniejszy od stali. To jedno z tych zdań, które wszystkim się podobają, ale jak to często bywa, prawda jest bardziej skomplikowana i ciekawsza.",
+    "Zacznijmy od wytrzymałości, czyli siły potrzebnej do zerwania nici. Jeśli weźmiemy nić jedwabiu i stalowy drut tej samej grubości, najlepszy jedwab jest mniej więcej tak mocny jak dobra stal: nie bardziej. Ale jedwab jest około sześć razy lżejszy od stali. Przy tej samej wadze jest więc dużo bardziej wytrzymały. Stąd bierze się to słynne zdanie: jest prawdziwe, ale tylko wtedy, gdy porównujemy nici o tej samej wadze.",
+    "Prawdziwy rekord jedwabiu jest jednak inny: udarność, czyli zdolność pochłaniania energii uderzenia bez zerwania. Owad, który leci szybko, uderza w pajęczynę jak mały pocisk. Sztywna nić by pękła; nić pająka natomiast się wydłuża, pochłania energię i zamienia ją w ciepło. Dzięki tej cesze jedwab jest bardziej wytrzymały na uderzenia niż stal, a nawet niż kevlar, włókno kamizelek kuloodpornych.",
+    "A który jedwab jest najwytrzymalszy na świecie? Jedwab pająka Caerostris darwini, opisanego w 2010 roku na Madagaskarze. Jego jedwab jest mniej więcej dwa razy wytrzymalszy niż jedwab jakiegokolwiek innego zbadanego pająka i ponad dziesięć razy wytrzymalszy niż kevlar. Potrzebuje tego: ten pająk buduje największe pajęczyny na świecie nad rzekami, zawieszone na niciach, które mogą mieć nawet dwadzieścia pięć metrów.",
+    "To dlaczego nie robimy lin z jedwabiu pająków? Bo pająki dużo trudniej hodować niż jedwabniki: jeśli umieścisz je razem, zjadają się nawzajem. Dlatego naukowcy próbują produkować jedwab w laboratorium, za pomocą bakterii i innych organizmów. Jak dotąd jednak sztuczny jedwab jest prawie zawsze mniej wytrzymały niż naturalny i dużo droższy.",
+    "W końcu właściwe zdanie brzmiałoby: „Jedwab pająka nie jest mocniejszy od stali, ale jest lżejszy, bardziej elastyczny i dużo bardziej wytrzymały na uderzenia”. Może mniej efektowne. Ale to wciąż najbardziej niezwykły naturalny materiał, jaki znamy, a wytwarza go zwierzę często mniejsze od paznokcia."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Sabahın erken saatleri. Bahçe yeşil ve ıslak. İki dalın arasında büyük, yuvarlak bir ağ var. Ağın üstünde bir sürü küçük, parlak damla var.",
+    "– Dede, bak! Çok güzel bir ağ! – der Marco.\n– Evet. Ortasında da örümcek var. Küçük ve kahverengi. Tehlikeli değil.",
+    "Marco parmağıyla bir ipliğe dokunur. İplik ince, hafif, neredeyse görünmez. Ama kopmaz.\n– İplik zayıf mı, dede?\n– Hayır. İnce ama güçlü ve esnek.",
+    "– Çelikten daha güçlü olduğu doğru mu?\n– Biraz evet, biraz hayır. Aynı kalınlıkta bir örümcek ipliği ile bir çelik tel aşağı yukarı aynı güçtedir. Ama örümcek ipliği çok daha hafiftir. Hızlı bir böcek ağa çarpınca iplik kopmaz: uzar ve sonra eski hâline döner.",
+    "Küçük siyah bir böcek ağa doğru uçar. Hop! Ağ yapışkandır: böcek kaçamaz. Örümcek gelir, hızlı ve sessiz.",
+    "Akşam ağ eskimiş ve yırtılmıştır. Ve örümcek… ağını yer!\n– İğrenç! – der Marco.\n– Hayır, akıllıca, – der dede. – İpek değerlidir. Örümcek eski ağı yer ve böylece hiçbir şeyi israf etmez. Ertesi sabah yeni, güzel ve temiz bir ağ vardır.",
+    "– Peki küçük örümcekler? – diye sorar Marco.\n– Yavru örümcekler inanılmazdır. Yüksek bir çiçeğe tırmanır, uzun bir iplik yapar ve… uçarlar! Hava onları uzaklara, denizin üstüne bile taşır.",
+    "Marco mavi gökyüzüne bakar. Belki orada yukarıda küçük, cesur bir örümcek vardır."
+   ],
+   "b1": [
+    "Örümcek ipeğinin çelikten daha güçlü olduğunu duymuşsundur. Bu, herkesin sevdiği cümlelerden biridir ama sık sık olduğu gibi, gerçek daha karmaşık ve aynı zamanda daha ilginçtir.",
+    "Dayanıklılıkla, yani bir ipliği koparmak için gereken kuvvetle başlayalım. Aynı kalınlıkta bir ipek iplik ile bir çelik tel alırsak, en iyi ipek iyi bir çelik kadar güçlüdür: daha fazla değil. Ama ipek çelikten yaklaşık altı kat daha hafiftir. Yani aynı ağırlıkta çok daha dayanıklıdır. O ünlü cümle buradan gelir: doğrudur, ama sadece aynı ağırlıktaki iplikler karşılaştırılırsa.",
+    "Ama ipeğin asıl rekoru başkadır: tokluk, yani bir darbenin enerjisini kopmadan emebilme yeteneği. Hızlı uçan bir böcek ağa küçük bir mermi gibi çarpar. Sert bir iplik koparırdı; örümcek ipliği ise uzar, enerjiyi emer ve ısıya dönüştürür. Bu özelliği sayesinde ipek çelikten, hatta çelik yeleklerin lifi olan Kevlar'dan bile daha toktur.",
+    "Peki dünyanın en tok ipeği hangisi? 2010'da Madagaskar'da tanımlanan Darwin ağaç kabuğu örümceğinin ipeği. Bu ipek, incelenen başka herhangi bir örümceğinkinden yaklaşık iki kat, Kevlar'dan ise on kattan fazla daha toktur. Buna ihtiyacı var: bu örümcek dünyanın en büyük ağlarını nehirlerin üstüne, yirmi beş metreye kadar uzunluktaki ipliklere asılı olarak kurar.",
+    "O hâlde neden örümcek ipeğinden halat yapmıyoruz? Çünkü örümcekleri yetiştirmek ipek böceklerinden çok daha zordur: onları bir araya koyarsan birbirlerini yerler. Bu yüzden bilim insanları ipeği laboratuvarda bakteriler ve başka organizmalarla üretmeye çalışıyor. Ama şimdiye kadar yapay ipek neredeyse her zaman doğal ipekten daha az tok ve çok daha pahalı.",
+    "Sonuçta doğru cümle şu olurdu: «Örümcek ipeği çelikten daha güçlü değildir, ama daha hafif, daha esnek ve çok daha toktur.» Belki daha az etkileyici. Ama yine de bildiğimiz en olağanüstü doğal malzemedir ve onu çoğu zaman bir tırnaktan daha küçük bir hayvan üretir."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Es ist früh am Morgen. Der Garten ist grün und nass. Zwischen zwei Ästen hängt ein großes, rundes Netz. Auf dem Netz sind viele kleine, glänzende Tropfen.",
+    "– Opa, schau mal! Ein wunderschönes Netz! – sagt Marco.\n– Ja. Und in der Mitte sitzt die Spinne. Sie ist klein und braun. Sie ist nicht gefährlich.",
+    "Marco berührt einen Faden mit dem Finger. Der Faden ist dünn, leicht, fast unsichtbar. Aber er reißt nicht.\n– Ist der Faden schwach, Opa?\n– Nein. Er ist dünn, aber stark und elastisch.",
+    "– Stimmt es, dass er stärker als Stahl ist?\n– Ein bisschen ja und ein bisschen nein. Ein Spinnfaden und ein Stahldraht gleicher Dicke sind ungefähr gleich stark. Aber der Faden der Spinne ist viel leichter. Und wenn ein schnelles Insekt ins Netz fliegt, reißt der Faden nicht: Er wird länger und geht dann wieder in seine alte Form zurück.",
+    "Ein kleines schwarzes Insekt fliegt auf das Netz zu. Zack! Das Netz ist klebrig: Das Insekt kommt nicht weg. Die Spinne kommt, schnell und leise.",
+    "Am Abend ist das Netz alt und kaputt. Und die Spinne… frisst ihr Netz!\n– Igitt! – sagt Marco.\n– Nein, das ist klug, – sagt Opa. – Die Seide ist wertvoll. Die Spinne frisst das alte Netz und verschwendet so nichts. Am nächsten Morgen gibt es ein neues Netz, schön und sauber.",
+    "– Und die kleinen Spinnen? – fragt Marco.\n– Die Spinnenbabys sind unglaublich. Sie klettern auf eine hohe Blume, machen einen langen Faden und… fliegen! Die Luft trägt sie weit weg, sogar übers Meer.",
+    "Marco schaut in den blauen Himmel. Vielleicht ist da oben eine kleine, mutige Spinne."
+   ],
+   "b1": [
+    "Du hast bestimmt schon gehört, dass Spinnenseide stärker als Stahl ist. Das ist einer dieser Sätze, die allen gefallen, aber wie so oft ist die Wahrheit komplizierter und auch interessanter.",
+    "Fangen wir mit der Festigkeit an, also mit der Kraft, die man braucht, um einen Faden zu zerreißen. Wenn wir einen Seidenfaden und einen Stahldraht gleicher Dicke nehmen, ist die beste Seide ungefähr so fest wie guter Stahl: nicht mehr. Aber Seide ist etwa sechsmal leichter als Stahl. Bei gleichem Gewicht ist sie also viel fester. Daher kommt der berühmte Satz: Er stimmt, aber nur, wenn man Fäden mit gleichem Gewicht vergleicht.",
+    "Der eigentliche Rekord der Seide ist aber ein anderer: die Zähigkeit, also die Fähigkeit, die Energie eines Aufpralls aufzunehmen, ohne zu reißen. Ein schnell fliegendes Insekt trifft das Netz wie ein kleines Geschoss. Ein starrer Faden würde reißen; der Faden der Spinne dagegen dehnt sich, nimmt die Energie auf und verwandelt sie in Wärme. Wegen dieser Eigenschaft ist Seide zäher als Stahl und sogar als Kevlar, die Faser der schusssicheren Westen.",
+    "Und welche Seide ist die zäheste der Welt? Die der Darwin-Rindenspinne, die 2010 auf Madagaskar beschrieben wurde. Ihre Seide ist etwa doppelt so zäh wie die jeder anderen untersuchten Spinne und mehr als zehnmal zäher als Kevlar. Sie braucht das: Diese Spinne baut die größten Netze der Welt über Flüssen, aufgehängt an Fäden, die bis zu fünfundzwanzig Meter lang sein können.",
+    "Warum machen wir dann keine Seile aus Spinnenseide? Weil Spinnen viel schwerer zu züchten sind als Seidenraupen: Wenn man sie zusammensetzt, fressen sie sich gegenseitig. Deshalb versuchen Wissenschaftler, die Seide im Labor herzustellen, mit Bakterien und anderen Organismen. Bisher ist künstliche Seide aber fast immer weniger zäh als natürliche und viel teurer.",
+    "Am Ende müsste der richtige Satz lauten: „Spinnenseide ist nicht stärker als Stahl, aber leichter, elastischer und viel zäher.“ Weniger spektakulär, vielleicht. Aber sie bleibt das erstaunlichste natürliche Material, das wir kennen, und sie wird von einem Tier hergestellt, das oft kleiner ist als ein Fingernagel."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "朝早くです。庭は緑で、濡れています。2本の枝のあいだに、大きくて丸いクモの巣があります。巣には、小さく光るしずくがたくさんついています。",
+    "「おじいちゃん、見て！すごくきれいなクモの巣！」とマルコが言います。\n「うん。真ん中にクモがいるね。小さくて茶色いクモだ。危なくないよ。」",
+    "マルコは指で糸にさわります。糸は細くて軽くて、ほとんど見えません。でも切れません。\n「この糸、弱いの、おじいちゃん？」\n「いいや。細いけど、強くて伸び縮みするんだ。」",
+    "「鉄より強いって本当？」\n「本当でもあるし、本当でもない。同じ太さのクモの糸と鋼鉄の線は、だいたい同じくらいの強さなんだ。でもクモの糸のほうがずっと軽い。それに、速い虫が巣にぶつかっても、糸は切れない。長く伸びて、それからもとにもどるんだよ。」",
+    "小さな黒い虫が巣に向かって飛んできます。ピタッ！巣はべたべたしているので、虫は逃げられません。クモがすばやく、音もなくやって来ます。",
+    "夕方、巣は古くなって破れています。するとクモは……自分の巣を食べてしまいます！\n「気持ち悪い！」とマルコが言います。\n「いいや、かしこいんだよ」とおじいちゃんが言います。「クモの糸は貴重なんだ。古い巣を食べれば、何もむだにしない。次の朝には、新しくてきれいな巣ができているよ。」",
+    "「小さいクモは？」とマルコがききます。\n「子グモはすごいんだよ。高い花に登って、長い糸を出して……空を飛ぶんだ！風に乗って遠くまで、海の上までも運ばれていくんだよ。」",
+    "マルコは青い空を見上げます。あの上の方に、小さくて勇敢な子グモがいるかもしれません。"
+   ],
+   "b1": [
+    "クモの糸は鋼鉄より強い、と聞いたことがあるだろう。だれもが好きな言葉の一つだが、よくあるように、本当のところはもっと複雑で、もっとおもしろい。",
+    "まずは強度、つまり糸を切るのに必要な力から始めよう。同じ太さのクモの糸と鋼鉄の線を比べると、最高のクモの糸は、よい鋼鉄とだいたい同じくらいの強さだ。それ以上ではない。ところが、クモの糸は鋼鉄より約6倍軽い。だから、同じ重さで比べれば、ずっと丈夫なのだ。あの有名な言葉はここから来ている。正しいのだが、それは同じ重さの糸を比べた場合だけである。",
+    "しかし、クモの糸の本当の記録は別のところにある。じん性、つまり切れずに衝撃のエネルギーを吸収する力だ。速く飛ぶ虫は、小さな弾丸のように巣にぶつかる。かたい糸ならぷつりと切れてしまうだろう。ところがクモの糸は伸びて、エネルギーを吸収し、それを熱に変える。この性質のおかげで、クモの糸は鋼鉄よりも、さらには防弾チョッキの繊維であるケブラーよりも粘り強いのだ。",
+    "では、世界でいちばん粘り強いクモの糸は何だろう？2010年にマダガスカルで発見されたダーウィンズ・バーク・スパイダーの糸だ。その糸は、これまで調べられたほかのどのクモの糸より約2倍、ケブラーより10倍以上も粘り強い。そうでなければ困るのだ。このクモは、長さ25メートルにもなる糸にぶら下げて、川の上に世界最大の巣を張るのだから。",
+    "それなら、なぜクモの糸でロープを作らないのだろう？クモはカイコよりずっと飼いにくいからだ。いっしょにすると、共食いしてしまう。そのため科学者たちは、細菌やほかの生き物を使って、研究室でクモの糸を作ろうとしている。しかし今のところ、人工の糸はほとんどいつも天然の糸より粘り強さが劣り、値段もずっと高い。",
+    "結局、正しい言い方はこうなるだろう。「クモの糸は鋼鉄より強いわけではないが、より軽く、より伸びやすく、ずっと粘り強い」。それほど派手ではないかもしれない。それでも、わたしたちが知る中でもっともすばらしい天然の素材であることに変わりはない。しかもそれを作るのは、しばしば爪よりも小さな動物なのだ。"
+   ]
+  }
+ }
+}
