@@ -1,0 +1,1791 @@
+{
+ "id": "storia-della-mafia-in-italia",
+ "nota": "Glossario e traduzione della lettura (B1 tradotto; B2 e C1 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il feudalesimo",
+   "forme": [
+    "feudalesimo"
+   ],
+   "formeEsempi": [
+    "feudale"
+   ],
+   "esempi": [
+    "Il feudalesimo è finito in Sicilia nel 1812.",
+    "Nel feudalesimo la terra era dei signori.",
+    "Studiamo il feudalesimo a scuola."
+   ],
+   "traduzioni": {
+    "en": "feudalism",
+    "es": "feudalismo",
+    "pt": "feudalismo",
+    "fr": "féodalité",
+    "cs": "feudalismus",
+    "pl": "feudalizm",
+    "tr": "feodalizm",
+    "de": "Feudalismus",
+    "ja": "封建制"
+   }
+  },
+  {
+   "parola": "il padrone",
+   "forme": [
+    "padrone"
+   ],
+   "esempi": [
+    "Il cane aspetta il suo padrone.",
+    "La casa ha cambiato padrone.",
+    "Il padrone del bar è gentile."
+   ],
+   "traduzioni": {
+    "en": "owner, master",
+    "es": "dueño, amo",
+    "pt": "dono, patrão",
+    "fr": "propriétaire, maître",
+    "cs": "majitel, pán",
+    "pl": "właściciel, pan",
+    "tr": "sahip",
+    "de": "Besitzer, Herr",
+    "ja": "持ち主、主人"
+   }
+  },
+  {
+   "parola": "garantire",
+   "forme": [
+    "garantisce"
+   ],
+   "formeEsempi": [
+    "garantisco"
+   ],
+   "esempi": [
+    "Il negozio garantisce il prodotto.",
+    "Ti garantisco che è vero.",
+    "Nessuno garantisce la sicurezza."
+   ],
+   "traduzioni": {
+    "en": "to guarantee, to enforce",
+    "es": "garantizar",
+    "pt": "garantir",
+    "fr": "garantir",
+    "cs": "zaručit",
+    "pl": "gwarantować",
+    "tr": "garanti etmek",
+    "de": "garantieren",
+    "ja": "保証する"
+   }
+  },
+  {
+   "parola": "il contratto",
+   "forme": [
+    "contratti",
+    "contratto"
+   ],
+   "esempi": [
+    "Ho firmato il contratto di lavoro.",
+    "Il contratto dura un anno.",
+    "Leggi bene il contratto!"
+   ],
+   "traduzioni": {
+    "en": "contract",
+    "es": "contrato",
+    "pt": "contrato",
+    "fr": "contrat",
+    "cs": "smlouva",
+    "pl": "umowa",
+    "tr": "sözleşme",
+    "de": "Vertrag",
+    "ja": "契約"
+   }
+  },
+  {
+   "parola": "possedere",
+   "forme": [
+    "possiede"
+   ],
+   "formeEsempi": [
+    "possiedo"
+   ],
+   "esempi": [
+    "Possiede due case al mare.",
+    "Non possiedo una macchina.",
+    "La famiglia possiede molti terreni."
+   ],
+   "traduzioni": {
+    "en": "to own, to possess",
+    "es": "poseer",
+    "pt": "possuir",
+    "fr": "posséder",
+    "cs": "vlastnit",
+    "pl": "posiadać",
+    "tr": "sahip olmak",
+    "de": "besitzen",
+    "ja": "所有する"
+   }
+  },
+  {
+   "parola": "custodire",
+   "forme": [
+    "custodisce"
+   ],
+   "formeEsempi": [
+    "custodire"
+   ],
+   "esempi": [
+    "Il guardiano custodisce il museo.",
+    "Custodisce le chiavi della chiesa.",
+    "Chi custodisce il campo diventa indispensabile."
+   ],
+   "traduzioni": {
+    "en": "to guard, to look after",
+    "es": "custodiar, vigilar",
+    "pt": "guardar, vigiar",
+    "fr": "garder, surveiller",
+    "cs": "hlídat, střežit",
+    "pl": "pilnować, strzec",
+    "tr": "korumak, bekçilik etmek",
+    "de": "bewachen, hüten",
+    "ja": "見張る、守る"
+   }
+  },
+  {
+   "parola": "la forza",
+   "forme": [
+    "forza"
+   ],
+   "esempi": [
+    "Ha molta forza nelle braccia.",
+    "Non usare la forza!",
+    "Forza, ce la fai!"
+   ],
+   "traduzioni": {
+    "en": "force, strength («con la forza» = by force)",
+    "es": "fuerza",
+    "pt": "força",
+    "fr": "force",
+    "cs": "síla",
+    "pl": "siła",
+    "tr": "güç, kuvvet",
+    "de": "Gewalt, Kraft",
+    "ja": "力"
+   }
+  },
+  {
+   "parola": "indispensabile",
+   "forme": [
+    "indispensabile"
+   ],
+   "esempi": [
+    "Il passaporto è indispensabile.",
+    "Sei indispensabile per il gruppo.",
+    "L'acqua è indispensabile alla vita."
+   ],
+   "traduzioni": {
+    "en": "indispensable, essential",
+    "es": "indispensable",
+    "pt": "indispensável",
+    "fr": "indispensable",
+    "cs": "nezbytný",
+    "pl": "niezbędny",
+    "tr": "vazgeçilmez",
+    "de": "unentbehrlich",
+    "ja": "欠かせない"
+   }
+  },
+  {
+   "parola": "il prefetto",
+   "forme": [
+    "prefetto"
+   ],
+   "esempi": [
+    "Il prefetto rappresenta lo Stato nella provincia.",
+    "Il prefetto ha firmato l'ordinanza.",
+    "Incontro con il prefetto di Palermo."
+   ],
+   "traduzioni": {
+    "en": "prefect (State representative in a province)",
+    "es": "prefecto, delegado del Gobierno",
+    "pt": "prefeito (representante do Estado na província)",
+    "fr": "préfet",
+    "cs": "prefekt (zástupce státu v provincii)",
+    "pl": "prefekt (przedstawiciel państwa)",
+    "tr": "vali",
+    "de": "Präfekt",
+    "ja": "県知事（国の代表）"
+   }
+  },
+  {
+   "parola": "la relazione",
+   "forme": [
+    "relazione"
+   ],
+   "esempi": [
+    "Scrivo una relazione sul viaggio.",
+    "La relazione arriva al ministero.",
+    "Hanno una relazione da due anni."
+   ],
+   "traduzioni": {
+    "en": "report (also: relationship)",
+    "es": "informe (también: relación)",
+    "pt": "relatório (também: relação)",
+    "fr": "rapport (aussi : relation)",
+    "cs": "zpráva (i: vztah)",
+    "pl": "raport (też: związek)",
+    "tr": "rapor (ayrıca: ilişki)",
+    "de": "Bericht (auch: Beziehung)",
+    "ja": "報告書（関係、の意味も）"
+   }
+  },
+  {
+   "parola": "la povertà",
+   "forme": [
+    "povertà"
+   ],
+   "esempi": [
+    "La povertà è ancora un problema.",
+    "Vive in povertà.",
+    "Combattiamo la povertà."
+   ],
+   "traduzioni": {
+    "en": "poverty",
+    "es": "pobreza",
+    "pt": "pobreza",
+    "fr": "pauvreté",
+    "cs": "chudoba",
+    "pl": "bieda, ubóstwo",
+    "tr": "yoksulluk",
+    "de": "Armut",
+    "ja": "貧困"
+   }
+  },
+  {
+   "parola": "il denaro",
+   "forme": [
+    "denaro"
+   ],
+   "esempi": [
+    "Il denaro non fa la felicità.",
+    "Ha guadagnato molto denaro.",
+    "Dove c'è denaro, c'è interesse."
+   ],
+   "traduzioni": {
+    "en": "money",
+    "es": "dinero",
+    "pt": "dinheiro",
+    "fr": "argent",
+    "cs": "peníze",
+    "pl": "pieniądze",
+    "tr": "para",
+    "de": "Geld",
+    "ja": "お金"
+   }
+  },
+  {
+   "parola": "incrociare",
+   "forme": [
+    "incrociato"
+   ],
+   "formeEsempi": [
+    "incrocio",
+    "incrocia"
+   ],
+   "esempi": [
+    "Ho incrociato Marco per strada.",
+    "Lo studio ha incrociato due archivi.",
+    "Incrocia le braccia."
+   ],
+   "traduzioni": {
+    "en": "to cross-reference, to combine (also: to cross paths)",
+    "es": "cruzar",
+    "pt": "cruzar",
+    "fr": "croiser",
+    "cs": "porovnat, zkřížit",
+    "pl": "zestawić, skrzyżować",
+    "tr": "karşılaştırmak, kesiştirmek",
+    "de": "abgleichen, kreuzen",
+    "ja": "照合する、交差させる"
+   }
+  },
+  {
+   "parola": "l'inchiesta",
+   "forme": [
+    "inchiesta"
+   ],
+   "esempi": [
+    "Il giornale pubblica un'inchiesta.",
+    "Il parlamento apre un'inchiesta.",
+    "L'inchiesta dura due anni."
+   ],
+   "traduzioni": {
+    "en": "inquiry, investigation",
+    "es": "investigación, encuesta",
+    "pt": "inquérito, investigação",
+    "fr": "enquête",
+    "cs": "vyšetřování, šetření",
+    "pl": "dochodzenie, śledztwo",
+    "tr": "soruşturma",
+    "de": "Untersuchung",
+    "ja": "調査"
+   }
+  },
+  {
+   "parola": "il comune",
+   "forme": [
+    "comuni"
+   ],
+   "formeEsempi": [
+    "comune"
+   ],
+   "esempi": [
+    "Il comune organizza la festa.",
+    "In Italia ci sono quasi ottomila comuni.",
+    "Vado in comune per un documento."
+   ],
+   "traduzioni": {
+    "en": "municipality, town (council)",
+    "es": "municipio, ayuntamiento",
+    "pt": "município, prefeitura",
+    "fr": "commune, mairie",
+    "cs": "obec",
+    "pl": "gmina",
+    "tr": "belediye, ilçe",
+    "de": "Gemeinde",
+    "ja": "市町村、役所"
+   }
+  },
+  {
+   "parola": "la coltura",
+   "forme": [
+    "coltura"
+   ],
+   "esempi": [
+    "Il grano è una coltura antica.",
+    "In questa zona c'è la coltura del riso.",
+    "È una coltura molto redditizia."
+   ],
+   "traduzioni": {
+    "en": "crop, cultivation",
+    "es": "cultivo",
+    "pt": "cultura, cultivo",
+    "fr": "culture",
+    "cs": "plodina",
+    "pl": "uprawa",
+    "tr": "ekin, tarım ürünü",
+    "de": "Anbaukultur",
+    "ja": "作物、栽培"
+   }
+  },
+  {
+   "parola": "rendere",
+   "forme": [
+    "rendeva"
+   ],
+   "formeEsempi": [
+    "rende"
+   ],
+   "esempi": [
+    "Questo investimento rende poco.",
+    "Un tempo il limone rendeva molto.",
+    "Il terreno rende bene."
+   ],
+   "traduzioni": {
+    "en": "to yield, to pay (here: to bring in money)",
+    "es": "rendir, producir",
+    "pt": "render",
+    "fr": "rapporter",
+    "cs": "vynášet",
+    "pl": "przynosić zysk",
+    "tr": "getiri sağlamak",
+    "de": "einbringen, abwerfen",
+    "ja": "利益を生む"
+   }
+  },
+  {
+   "parola": "la media",
+   "forme": [
+    "media"
+   ],
+   "esempi": [
+    "La media dei voti è sette.",
+    "Sopra la media.",
+    "In media dormo sette ore."
+   ],
+   "traduzioni": {
+    "en": "average",
+    "es": "media, promedio",
+    "pt": "média",
+    "fr": "moyenne",
+    "cs": "průměr",
+    "pl": "średnia",
+    "tr": "ortalama",
+    "de": "Durchschnitt",
+    "ja": "平均"
+   }
+  },
+  {
+   "parola": "la violenza",
+   "forme": [
+    "violenza"
+   ],
+   "esempi": [
+    "La violenza non è mai la soluzione.",
+    "Il film ha troppa violenza.",
+    "Combattere la violenza contro le donne."
+   ],
+   "traduzioni": {
+    "en": "violence",
+    "es": "violencia",
+    "pt": "violência",
+    "fr": "violence",
+    "cs": "násilí",
+    "pl": "przemoc",
+    "tr": "şiddet",
+    "de": "Gewalt",
+    "ja": "暴力"
+   }
+  },
+  {
+   "parola": "la protezione",
+   "forme": [
+    "protezione"
+   ],
+   "esempi": [
+    "Metti la crema di protezione solare.",
+    "Chiede protezione alla polizia.",
+    "La mafia vende protezione."
+   ],
+   "traduzioni": {
+    "en": "protection",
+    "es": "protección",
+    "pt": "proteção",
+    "fr": "protection",
+    "cs": "ochrana",
+    "pl": "ochrona",
+    "tr": "koruma",
+    "de": "Schutz",
+    "ja": "保護"
+   }
+  },
+  {
+   "parola": "il diritto",
+   "forme": [
+    "diritto"
+   ],
+   "esempi": [
+    "L'istruzione è un diritto.",
+    "Hai il diritto di parlare.",
+    "Studio diritto all'università."
+   ],
+   "traduzioni": {
+    "en": "right (also: law as a subject)",
+    "es": "derecho",
+    "pt": "direito",
+    "fr": "droit",
+    "cs": "právo",
+    "pl": "prawo",
+    "tr": "hak (ayrıca: hukuk)",
+    "de": "Recht",
+    "ja": "権利（法学、の意味も）"
+   }
+  },
+  {
+   "parola": "colpire",
+   "forme": [
+    "colpito",
+    "colpire"
+   ],
+   "esempi": [
+    "La palla ha colpito il vetro.",
+    "La crisi ha colpito molte famiglie.",
+    "È difficile colpire un'organizzazione ricca."
+   ],
+   "traduzioni": {
+    "en": "to hit, to strike, to target",
+    "es": "golpear, afectar",
+    "pt": "atingir, golpear",
+    "fr": "frapper, toucher",
+    "cs": "zasáhnout",
+    "pl": "uderzyć, dotknąć",
+    "tr": "vurmak, darbe indirmek",
+    "de": "treffen, schlagen",
+    "ja": "打撃を与える"
+   }
+  },
+  {
+   "parola": "il contadino",
+   "forme": [
+    "contadini"
+   ],
+   "formeEsempi": [
+    "contadino"
+   ],
+   "esempi": [
+    "Il contadino lavora nei campi.",
+    "I contadini raccolgono le olive.",
+    "Mio nonno era contadino."
+   ],
+   "traduzioni": {
+    "en": "farmer, peasant",
+    "es": "campesino",
+    "pt": "camponês, agricultor",
+    "fr": "paysan",
+    "cs": "rolník, sedlák",
+    "pl": "chłop, rolnik",
+    "tr": "köylü, çiftçi",
+    "de": "Bauer",
+    "ja": "農民"
+   }
+  },
+  {
+   "parola": "reggere",
+   "forme": [
+    "regge"
+   ],
+   "esempi": [
+    "Questa sedia non regge il mio peso.",
+    "La tua scusa non regge.",
+    "La teoria regge alla prova dei fatti."
+   ],
+   "traduzioni": {
+    "en": "to hold up, to stand up (an idea)",
+    "es": "sostenerse, aguantar",
+    "pt": "se sustentar",
+    "fr": "tenir (la route)",
+    "cs": "obstát",
+    "pl": "trzymać się, wytrzymać",
+    "tr": "ayakta kalmak, tutarlı olmak",
+    "de": "standhalten, halten",
+    "ja": "成り立つ、もちこたえる"
+   }
+  },
+  {
+   "parola": "uccidere",
+   "forme": [
+    "uccise",
+    "ucciso"
+   ],
+   "esempi": [
+    "Nel film il ladro viene ucciso.",
+    "Il gatto uccide un topo.",
+    "Undici persone furono uccise."
+   ],
+   "traduzioni": {
+    "en": "to kill («uccise» = killed)",
+    "es": "matar",
+    "pt": "matar",
+    "fr": "tuer",
+    "cs": "zabít",
+    "pl": "zabić",
+    "tr": "öldürmek",
+    "de": "töten",
+    "ja": "殺す"
+   },
+   "formeEsempi": [
+    "uccide"
+   ]
+  },
+  {
+   "parola": "ferito",
+   "forme": [
+    "ferite",
+    "feriti"
+   ],
+   "formeEsempi": [
+    "ferito"
+   ],
+   "esempi": [
+    "Nell'incidente ci sono due feriti.",
+    "È ferito a una gamba.",
+    "Le persone ferite vanno in ospedale."
+   ],
+   "traduzioni": {
+    "en": "injured, wounded",
+    "es": "herido",
+    "pt": "ferido",
+    "fr": "blessé",
+    "cs": "zraněný",
+    "pl": "ranny",
+    "tr": "yaralı",
+    "de": "verletzt",
+    "ja": "負傷した"
+   }
+  },
+  {
+   "parola": "il sindacalista",
+   "forme": [
+    "sindacalista"
+   ],
+   "esempi": [
+    "Il sindacalista difende i lavoratori.",
+    "Era un sindacalista coraggioso.",
+    "Il sindacalista parla in piazza."
+   ],
+   "traduzioni": {
+    "en": "trade unionist",
+    "es": "sindicalista",
+    "pt": "sindicalista",
+    "fr": "syndicaliste",
+    "cs": "odborář",
+    "pl": "związkowiec",
+    "tr": "sendikacı",
+    "de": "Gewerkschafter",
+    "ja": "労働組合の活動家"
+   }
+  },
+  {
+   "parola": "rapire",
+   "forme": [
+    "rapito"
+   ],
+   "esempi": [
+    "Il bambino è stato rapito.",
+    "Lo hanno rapito per soldi.",
+    "Nel film rapiscono il principe."
+   ],
+   "traduzioni": {
+    "en": "to kidnap («rapito» = kidnapped)",
+    "es": "secuestrar",
+    "pt": "sequestrar",
+    "fr": "enlever, kidnapper",
+    "cs": "unést",
+    "pl": "porwać",
+    "tr": "kaçırmak",
+    "de": "entführen",
+    "ja": "誘拐する"
+   },
+   "formeEsempi": [
+    "rapiscono"
+   ]
+  },
+  {
+   "parola": "la vittima",
+   "forme": [
+    "vittime"
+   ],
+   "formeEsempi": [
+    "vittima"
+   ],
+   "esempi": [
+    "La vittima è in ospedale.",
+    "Ricordiamo le vittime della mafia.",
+    "È stato vittima di una truffa."
+   ],
+   "traduzioni": {
+    "en": "victim",
+    "es": "víctima",
+    "pt": "vítima",
+    "fr": "victime",
+    "cs": "oběť",
+    "pl": "ofiara",
+    "tr": "kurban",
+    "de": "Opfer",
+    "ja": "犠牲者"
+   }
+  },
+  {
+   "parola": "il bracciante",
+   "forme": [
+    "braccianti"
+   ],
+   "formeEsempi": [
+    "bracciante"
+   ],
+   "esempi": [
+    "I braccianti raccolgono i pomodori.",
+    "Il bracciante lavora a giornata.",
+    "La paga dei braccianti è bassa."
+   ],
+   "traduzioni": {
+    "en": "farm labourer, day labourer",
+    "es": "jornalero, bracero",
+    "pt": "trabalhador rural, boia-fria",
+    "fr": "ouvrier agricole",
+    "cs": "zemědělský nádeník",
+    "pl": "robotnik rolny",
+    "tr": "tarım işçisi",
+    "de": "Landarbeiter, Tagelöhner",
+    "ja": "農業労働者"
+   }
+  },
+  {
+   "parola": "il proprietario",
+   "forme": [
+    "proprietari"
+   ],
+   "formeEsempi": [
+    "proprietario"
+   ],
+   "esempi": [
+    "Il proprietario della casa vive a Roma.",
+    "Chi è il proprietario di questo cane?",
+    "I proprietari terrieri erano ricchi."
+   ],
+   "traduzioni": {
+    "en": "owner, landowner",
+    "es": "propietario",
+    "pt": "proprietário",
+    "fr": "propriétaire",
+    "cs": "vlastník",
+    "pl": "właściciel",
+    "tr": "mal sahibi",
+    "de": "Eigentümer",
+    "ja": "所有者、地主"
+   }
+  },
+  {
+   "parola": "l'organizzazione",
+   "forme": [
+    "organizzazioni"
+   ],
+   "formeEsempi": [
+    "organizzazione"
+   ],
+   "esempi": [
+    "Lavora per un'organizzazione umanitaria.",
+    "Le organizzazioni criminali sono pericolose.",
+    "Serve una buona organizzazione."
+   ],
+   "traduzioni": {
+    "en": "organisation",
+    "es": "organización",
+    "pt": "organização",
+    "fr": "organisation",
+    "cs": "organizace",
+    "pl": "organizacja",
+    "tr": "örgüt",
+    "de": "Organisation",
+    "ja": "組織"
+   }
+  },
+  {
+   "parola": "il sangue",
+   "forme": [
+    "sangue"
+   ],
+   "esempi": [
+    "Ho donato il sangue.",
+    "Sono famiglie di sangue.",
+    "Il sangue è rosso."
+   ],
+   "traduzioni": {
+    "en": "blood («famiglie di sangue» = blood relatives)",
+    "es": "sangre",
+    "pt": "sangue",
+    "fr": "sang",
+    "cs": "krev",
+    "pl": "krew",
+    "tr": "kan",
+    "de": "Blut",
+    "ja": "血"
+   }
+  },
+  {
+   "parola": "fondare",
+   "forme": [
+    "fondata"
+   ],
+   "formeEsempi": [
+    "fondato"
+   ],
+   "esempi": [
+    "Roma è stata fondata nel 753 a.C.",
+    "Ha fondato un'azienda.",
+    "La scuola fu fondata da un prete."
+   ],
+   "traduzioni": {
+    "en": "to found («fondata» = founded)",
+    "es": "fundar",
+    "pt": "fundar",
+    "fr": "fonder",
+    "cs": "založit",
+    "pl": "założyć",
+    "tr": "kurmak",
+    "de": "gründen",
+    "ja": "創設する"
+   }
+  },
+  {
+   "parola": "il carcere",
+   "forme": [
+    "carcere"
+   ],
+   "esempi": [
+    "È stato in carcere tre anni.",
+    "Il carcere è fuori città.",
+    "Lo hanno condannato al carcere."
+   ],
+   "traduzioni": {
+    "en": "prison, jail",
+    "es": "cárcel",
+    "pt": "prisão, cadeia",
+    "fr": "prison",
+    "cs": "vězení",
+    "pl": "więzienie",
+    "tr": "cezaevi",
+    "de": "Gefängnis",
+    "ja": "刑務所"
+   }
+  },
+  {
+   "parola": "il traffico",
+   "forme": [
+    "traffici"
+   ],
+   "formeEsempi": [
+    "traffico"
+   ],
+   "esempi": [
+    "C'è molto traffico in centro.",
+    "La polizia combatte il traffico di droga.",
+    "I traffici illegali passano dal porto."
+   ],
+   "traduzioni": {
+    "en": "traffic (also: illegal trade, trafficking)",
+    "es": "tráfico",
+    "pt": "trânsito; tráfico",
+    "fr": "circulation ; trafic",
+    "cs": "doprava; nelegální obchod",
+    "pl": "ruch; nielegalny handel",
+    "tr": "trafik; kaçakçılık",
+    "de": "Verkehr; Schmuggel, Handel",
+    "ja": "交通；密売"
+   }
+  },
+  {
+   "parola": "l'operazione",
+   "forme": [
+    "operazione"
+   ],
+   "esempi": [
+    "La polizia ha fatto un'operazione antidroga.",
+    "Il nonno ha avuto un'operazione al cuore.",
+    "È un'operazione semplice."
+   ],
+   "traduzioni": {
+    "en": "operation (police, surgery…)",
+    "es": "operación",
+    "pt": "operação",
+    "fr": "opération",
+    "cs": "operace, akce",
+    "pl": "operacja, akcja",
+    "tr": "operasyon, ameliyat",
+    "de": "Einsatz, Operation",
+    "ja": "作戦、手術"
+   }
+  },
+  {
+   "parola": "l'arresto",
+   "forme": [
+    "arresti"
+   ],
+   "formeEsempi": [
+    "arresto"
+   ],
+   "esempi": [
+    "La polizia ha fatto dieci arresti.",
+    "È agli arresti domiciliari.",
+    "L'arresto è avvenuto all'alba."
+   ],
+   "traduzioni": {
+    "en": "arrest",
+    "es": "detención, arresto",
+    "pt": "prisão, detenção",
+    "fr": "arrestation",
+    "cs": "zatčení",
+    "pl": "aresztowanie",
+    "tr": "tutuklama",
+    "de": "Festnahme",
+    "ja": "逮捕"
+   }
+  },
+  {
+   "parola": "sequestrare",
+   "forme": [
+    "sequestrate"
+   ],
+   "formeEsempi": [
+    "sequestrato"
+   ],
+   "esempi": [
+    "La polizia ha sequestrato la droga.",
+    "Sono state sequestrate due auto.",
+    "Hanno sequestrato i beni del boss."
+   ],
+   "traduzioni": {
+    "en": "to seize, to confiscate («sequestrate» = seized)",
+    "es": "incautar, decomisar",
+    "pt": "apreender",
+    "fr": "saisir",
+    "cs": "zabavit",
+    "pl": "zarekwirować, przejąć",
+    "tr": "el koymak",
+    "de": "beschlagnahmen",
+    "ja": "押収する"
+   }
+  },
+  {
+   "parola": "urgente",
+   "forme": [
+    "urgenti"
+   ],
+   "formeEsempi": [
+    "urgente"
+   ],
+   "esempi": [
+    "È una questione urgente.",
+    "Ho un messaggio urgente.",
+    "I problemi più urgenti sono il lavoro e la sanità."
+   ],
+   "traduzioni": {
+    "en": "urgent, pressing",
+    "es": "urgente",
+    "pt": "urgente",
+    "fr": "urgent",
+    "cs": "naléhavý",
+    "pl": "pilny",
+    "tr": "acil",
+    "de": "dringend",
+    "ja": "緊急の"
+   }
+  },
+  {
+   "parola": "l'uomo d'affari",
+   "forme": [
+    "affari"
+   ],
+   "esempi": [
+    "È un uomo d'affari importante.",
+    "Gli affari vanno bene.",
+    "Non sono affari tuoi!"
+   ],
+   "traduzioni": {
+    "en": "businessman («gli affari» = business)",
+    "es": "hombre de negocios",
+    "pt": "homem de negócios",
+    "fr": "homme d'affaires",
+    "cs": "obchodník, podnikatel",
+    "pl": "biznesmen",
+    "tr": "iş adamı",
+    "de": "Geschäftsmann",
+    "ja": "実業家（affari＝ビジネス）"
+   }
+  },
+  {
+   "parola": "il sondaggio",
+   "forme": [
+    "sondaggio"
+   ],
+   "esempi": [
+    "Il sondaggio dice che vince la sinistra.",
+    "Rispondi a un breve sondaggio.",
+    "Secondo un sondaggio, molti sono d'accordo."
+   ],
+   "traduzioni": {
+    "en": "poll, survey",
+    "es": "encuesta, sondeo",
+    "pt": "pesquisa, sondagem",
+    "fr": "sondage",
+    "cs": "průzkum",
+    "pl": "sondaż",
+    "tr": "anket",
+    "de": "Umfrage",
+    "ja": "世論調査"
+   }
+  },
+  {
+   "parola": "la sfiducia",
+   "forme": [
+    "sfiducia"
+   ],
+   "esempi": [
+    "C'è sfiducia verso i politici.",
+    "La sfiducia cresce.",
+    "Il governo ha ricevuto un voto di sfiducia."
+   ],
+   "traduzioni": {
+    "en": "distrust, lack of confidence",
+    "es": "desconfianza",
+    "pt": "desconfiança",
+    "fr": "défiance, méfiance",
+    "cs": "nedůvěra",
+    "pl": "nieufność",
+    "tr": "güvensizlik",
+    "de": "Misstrauen",
+    "ja": "不信"
+   }
+  },
+  {
+   "parola": "l'ammirazione",
+   "forme": [
+    "ammirazione"
+   ],
+   "esempi": [
+    "Ho grande ammirazione per lei.",
+    "Guarda il quadro con ammirazione.",
+    "Non c'è ammirazione per i clan."
+   ],
+   "traduzioni": {
+    "en": "admiration",
+    "es": "admiración",
+    "pt": "admiração",
+    "fr": "admiration",
+    "cs": "obdiv",
+    "pl": "podziw",
+    "tr": "hayranlık",
+    "de": "Bewunderung",
+    "ja": "称賛"
+   }
+  },
+  {
+   "parola": "concreto",
+   "forme": [
+    "concreti"
+   ],
+   "formeEsempi": [
+    "concreto",
+    "concreta"
+   ],
+   "esempi": [
+    "Mi serve un esempio concreto.",
+    "Vogliamo risultati concreti.",
+    "È una proposta concreta."
+   ],
+   "traduzioni": {
+    "en": "concrete, tangible",
+    "es": "concreto",
+    "pt": "concreto",
+    "fr": "concret",
+    "cs": "konkrétní",
+    "pl": "konkretny",
+    "tr": "somut",
+    "de": "konkret",
+    "ja": "具体的な"
+   }
+  },
+  {
+   "parola": "l'imputato",
+   "forme": [
+    "imputati"
+   ],
+   "formeEsempi": [
+    "imputato"
+   ],
+   "esempi": [
+    "L'imputato entra in aula.",
+    "Gli imputati sono più di cento.",
+    "L'imputato si dichiara innocente."
+   ],
+   "traduzioni": {
+    "en": "defendant, accused",
+    "es": "acusado, imputado",
+    "pt": "réu, acusado",
+    "fr": "accusé, prévenu",
+    "cs": "obžalovaný",
+    "pl": "oskarżony",
+    "tr": "sanık",
+    "de": "Angeklagter",
+    "ja": "被告人"
+   }
+  },
+  {
+   "parola": "la condanna",
+   "forme": [
+    "condanne"
+   ],
+   "formeEsempi": [
+    "condanna"
+   ],
+   "esempi": [
+    "La condanna è di cinque anni.",
+    "Il processo si chiude con molte condanne.",
+    "Esprimo la mia condanna per la violenza."
+   ],
+   "traduzioni": {
+    "en": "conviction, sentence",
+    "es": "condena",
+    "pt": "condenação",
+    "fr": "condamnation",
+    "cs": "odsouzení, trest",
+    "pl": "wyrok skazujący",
+    "tr": "mahkûmiyet",
+    "de": "Verurteilung",
+    "ja": "有罪判決"
+   }
+  },
+  {
+   "parola": "l'ergastolo",
+   "forme": [
+    "ergastoli"
+   ],
+   "formeEsempi": [
+    "ergastolo"
+   ],
+   "esempi": [
+    "È stato condannato all'ergastolo.",
+    "L'ergastolo dura tutta la vita.",
+    "Il giudice ha dato tre ergastoli."
+   ],
+   "traduzioni": {
+    "en": "life sentence",
+    "es": "cadena perpetua",
+    "pt": "prisão perpétua",
+    "fr": "réclusion à perpétuité",
+    "cs": "doživotí",
+    "pl": "dożywocie",
+    "tr": "ömür boyu hapis",
+    "de": "lebenslange Haft",
+    "ja": "終身刑"
+   }
+  },
+  {
+   "parola": "confiscato",
+   "forme": [
+    "confiscati"
+   ],
+   "formeEsempi": [
+    "confiscato",
+    "confiscata"
+   ],
+   "esempi": [
+    "La villa confiscata è diventata una scuola.",
+    "I beni confiscati tornano alla società.",
+    "Hanno confiscato il terreno."
+   ],
+   "traduzioni": {
+    "en": "confiscated",
+    "es": "confiscado",
+    "pt": "confiscado",
+    "fr": "confisqué",
+    "cs": "zabavený",
+    "pl": "skonfiskowany",
+    "tr": "el konulmuş",
+    "de": "beschlagnahmt",
+    "ja": "没収された"
+   }
+  },
+  {
+   "parola": "all'improvviso",
+   "forme": [
+    "improvviso"
+   ],
+   "esempi": [
+    "All'improvviso è andata via la luce.",
+    "Ha cominciato a piovere all'improvviso.",
+    "Non è successo all'improvviso."
+   ],
+   "traduzioni": {
+    "en": "suddenly, out of nowhere",
+    "es": "de repente",
+    "pt": "de repente",
+    "fr": "soudain, tout à coup",
+    "cs": "najednou",
+    "pl": "nagle",
+    "tr": "aniden",
+    "de": "plötzlich",
+    "ja": "突然"
+   }
+  },
+  {
+   "parola": "il vuoto",
+   "forme": [
+    "vuoto"
+   ],
+   "esempi": [
+    "Ho un vuoto di memoria.",
+    "La sua partenza ha lasciato un vuoto.",
+    "In quel vuoto si inserisce la mafia."
+   ],
+   "traduzioni": {
+    "en": "void, gap, vacuum",
+    "es": "vacío",
+    "pt": "vazio",
+    "fr": "vide",
+    "cs": "prázdnota, mezera",
+    "pl": "pustka, luka",
+    "tr": "boşluk",
+    "de": "Leere, Lücke",
+    "ja": "空白、空き"
+   }
+  },
+  {
+   "parola": "smentire",
+   "forme": [
+    "smentisce"
+   ],
+   "esempi": [
+    "Il ministro smentisce la notizia.",
+    "I fatti smentiscono la teoria.",
+    "Non smentisco niente."
+   ],
+   "traduzioni": {
+    "en": "to disprove, to deny",
+    "es": "desmentir",
+    "pt": "desmentir",
+    "fr": "démentir",
+    "cs": "vyvrátit, popřít",
+    "pl": "zaprzeczyć, obalić",
+    "tr": "yalanlamak, çürütmek",
+    "de": "widerlegen, dementieren",
+    "ja": "否定する、覆す"
+   },
+   "formeEsempi": [
+    "smentiscono",
+    "smentisco"
+   ]
+  },
+  {
+   "parola": "la miseria",
+   "forme": [
+    "miseria"
+   ],
+   "esempi": [
+    "Molte famiglie vivevano nella miseria.",
+    "Guadagna una miseria.",
+    "La guerra ha portato miseria."
+   ],
+   "traduzioni": {
+    "en": "poverty, destitution",
+    "es": "miseria",
+    "pt": "miséria",
+    "fr": "misère",
+    "cs": "bída",
+    "pl": "nędza",
+    "tr": "sefalet",
+    "de": "Elend",
+    "ja": "極貧、悲惨"
+   }
+  },
+  {
+   "parola": "la minaccia",
+   "forme": [
+    "minaccia"
+   ],
+   "esempi": [
+    "Ha ricevuto una minaccia.",
+    "Il cambiamento climatico è una minaccia.",
+    "Non ho paura delle tue minacce."
+   ],
+   "traduzioni": {
+    "en": "threat",
+    "es": "amenaza",
+    "pt": "ameaça",
+    "fr": "menace",
+    "cs": "hrozba",
+    "pl": "groźba",
+    "tr": "tehdit",
+    "de": "Drohung, Bedrohung",
+    "ja": "脅威、脅し"
+   },
+   "formeEsempi": [
+    "minacce"
+   ]
+  },
+  {
+   "parola": "scontrarsi",
+   "forme": [
+    "scontra"
+   ],
+   "esempi": [
+    "Due auto si scontrano all'incrocio.",
+    "La sua idea si scontra con la realtà.",
+    "I due partiti si scontrano spesso."
+   ],
+   "traduzioni": {
+    "en": "to clash, to collide",
+    "es": "chocar",
+    "pt": "chocar-se",
+    "fr": "se heurter",
+    "cs": "střetnout se",
+    "pl": "zderzyć się",
+    "tr": "çarpışmak, çatışmak",
+    "de": "zusammenstoßen, kollidieren",
+    "ja": "衝突する"
+   },
+   "formeEsempi": [
+    "scontrano"
+   ]
+  },
+  {
+   "parola": "il dopoguerra",
+   "forme": [
+    "dopoguerra"
+   ],
+   "esempi": [
+    "Nel dopoguerra l'Italia è cambiata.",
+    "I miei nonni sono nati nel dopoguerra.",
+    "Il dopoguerra fu un periodo difficile."
+   ],
+   "traduzioni": {
+    "en": "post-war period",
+    "es": "posguerra",
+    "pt": "pós-guerra",
+    "fr": "après-guerre",
+    "cs": "poválečné období",
+    "pl": "okres powojenny",
+    "tr": "savaş sonrası",
+    "de": "Nachkriegszeit",
+    "ja": "戦後"
+   }
+  },
+  {
+   "parola": "la folla",
+   "forme": [
+    "folla"
+   ],
+   "esempi": [
+    "In piazza c'è una folla enorme.",
+    "Mi sono perso tra la folla.",
+    "La folla applaude."
+   ],
+   "traduzioni": {
+    "en": "crowd",
+    "es": "multitud",
+    "pt": "multidão",
+    "fr": "foule",
+    "cs": "dav",
+    "pl": "tłum",
+    "tr": "kalabalık",
+    "de": "Menge",
+    "ja": "群衆"
+   }
+  },
+  {
+   "parola": "il legame",
+   "forme": [
+    "legami"
+   ],
+   "formeEsempi": [
+    "legame"
+   ],
+   "esempi": [
+    "Ho un forte legame con la mia città.",
+    "I legami familiari sono importanti.",
+    "Non c'è legame tra i due fatti."
+   ],
+   "traduzioni": {
+    "en": "tie, bond, link",
+    "es": "vínculo, lazo",
+    "pt": "vínculo, laço",
+    "fr": "lien",
+    "cs": "pouto, vazba",
+    "pl": "więź",
+    "tr": "bağ",
+    "de": "Bindung, Verbindung",
+    "ja": "絆、つながり"
+   }
+  },
+  {
+   "parola": "il collaboratore di giustizia",
+   "forme": [
+    "collaboratori"
+   ],
+   "formeEsempi": [
+    "collaboratore"
+   ],
+   "esempi": [
+    "Il collaboratore di giustizia ha parlato con i giudici.",
+    "I collaboratori di giustizia vivono protetti.",
+    "È un collaboratore prezioso."
+   ],
+   "traduzioni": {
+    "en": "State witness, informer (ex-mafioso who cooperates)",
+    "es": "colaborador de la justicia, arrepentido",
+    "pt": "colaborador da justiça, delator",
+    "fr": "collaborateur de justice, repenti",
+    "cs": "korunní svědek",
+    "pl": "świadek koronny",
+    "tr": "itirafçı",
+    "de": "Kronzeuge",
+    "ja": "司法協力者（協力するマフィア）"
+   }
+  },
+  {
+   "parola": "il sequestro",
+   "forme": [
+    "sequestro"
+   ],
+   "esempi": [
+    "Il sequestro dei beni è stato ordinato dal giudice.",
+    "Il sequestro di persona è un reato grave.",
+    "Hanno fatto un sequestro di droga."
+   ],
+   "traduzioni": {
+    "en": "seizure (also: kidnapping)",
+    "es": "incautación (también: secuestro)",
+    "pt": "apreensão (também: sequestro)",
+    "fr": "saisie (aussi : enlèvement)",
+    "cs": "zabavení (i: únos)",
+    "pl": "zajęcie (też: porwanie)",
+    "tr": "el koyma (ayrıca: adam kaçırma)",
+    "de": "Beschlagnahme (auch: Entführung)",
+    "ja": "押収（誘拐、の意味も）"
+   }
+  },
+  {
+   "parola": "il risentimento",
+   "forme": [
+    "risentimento"
+   ],
+   "esempi": [
+    "Prova risentimento verso il fratello.",
+    "Il risentimento non aiuta.",
+    "C'è risentimento verso le istituzioni."
+   ],
+   "traduzioni": {
+    "en": "resentment",
+    "es": "resentimiento",
+    "pt": "ressentimento",
+    "fr": "ressentiment",
+    "cs": "zášť, rozhořčení",
+    "pl": "uraza",
+    "tr": "kırgınlık, kin",
+    "de": "Groll, Unmut",
+    "ja": "恨み、反感"
+   }
+  },
+  {
+   "parola": "il bene",
+   "forme": [
+    "beni"
+   ],
+   "formeEsempi": [
+    "bene"
+   ],
+   "esempi": [
+    "I beni del boss sono stati confiscati.",
+    "La casa è il suo unico bene.",
+    "I beni culturali vanno protetti."
+   ],
+   "traduzioni": {
+    "en": "asset, property («i beni» = assets, goods)",
+    "es": "bien, bienes",
+    "pt": "bem, bens",
+    "fr": "bien, biens",
+    "cs": "majetek",
+    "pl": "dobra, majątek",
+    "tr": "mal varlığı",
+    "de": "Gut, Vermögen",
+    "ja": "財産"
+   }
+  },
+  {
+   "parola": "arcaico",
+   "forme": [
+    "arcaica"
+   ],
+   "formeEsempi": [
+    "arcaico"
+   ],
+   "esempi": [
+    "È una parola arcaica.",
+    "Il sistema è arcaico.",
+    "Hanno una mentalità arcaica."
+   ],
+   "traduzioni": {
+    "en": "archaic, outdated",
+    "es": "arcaico",
+    "pt": "arcaico",
+    "fr": "archaïque",
+    "cs": "archaický",
+    "pl": "archaiczny",
+    "tr": "arkaik, köhne",
+    "de": "archaisch",
+    "ja": "古風な、時代遅れの"
+   }
+  },
+  {
+   "parola": "radicarsi",
+   "forme": [
+    "radica"
+   ],
+   "esempi": [
+    "La pianta si radica bene.",
+    "L'abitudine si radica col tempo.",
+    "La mafia si radica dove c'è valore."
+   ],
+   "traduzioni": {
+    "en": "to take root",
+    "es": "arraigarse",
+    "pt": "enraizar-se",
+    "fr": "s'enraciner",
+    "cs": "zakořenit",
+    "pl": "zakorzenić się",
+    "tr": "kök salmak",
+    "de": "Wurzeln schlagen",
+    "ja": "根付く"
+   }
+  },
+  {
+   "parola": "ricattabile",
+   "forme": [
+    "ricattabile"
+   ],
+   "esempi": [
+    "Un politico ricattabile è pericoloso.",
+    "Chi ha segreti è ricattabile.",
+    "Il raccolto era facilmente ricattabile."
+   ],
+   "traduzioni": {
+    "en": "open to blackmail, vulnerable to extortion",
+    "es": "chantajeable",
+    "pt": "chantageável",
+    "fr": "susceptible d'être rançonné",
+    "cs": "vydíratelný",
+    "pl": "podatny na szantaż",
+    "tr": "şantaja açık",
+    "de": "erpressbar",
+    "ja": "ゆすられやすい"
+   }
+  },
+  {
+   "parola": "la strage",
+   "forme": [
+    "strage"
+   ],
+   "esempi": [
+    "La strage di Capaci è del 1992.",
+    "Il terremoto ha fatto una strage.",
+    "Ricordiamo le vittime della strage."
+   ],
+   "traduzioni": {
+    "en": "massacre",
+    "es": "masacre, matanza",
+    "pt": "massacre, chacina",
+    "fr": "massacre, tuerie",
+    "cs": "masakr",
+    "pl": "masakra, rzeź",
+    "tr": "katliam",
+    "de": "Massaker",
+    "ja": "虐殺"
+   }
+  },
+  {
+   "parola": "il mandante",
+   "forme": [
+    "mandanti"
+   ],
+   "formeEsempi": [
+    "mandante"
+   ],
+   "esempi": [
+    "La polizia cerca il mandante dell'omicidio.",
+    "I mandanti non sono mai stati trovati.",
+    "Chi è il vero mandante?"
+   ],
+   "traduzioni": {
+    "en": "person who orders a crime, mastermind",
+    "es": "autor intelectual, instigador",
+    "pt": "mandante",
+    "fr": "commanditaire",
+    "cs": "objednavatel (zločinu)",
+    "pl": "zleceniodawca",
+    "tr": "azmettirici",
+    "de": "Auftraggeber",
+    "ja": "首謀者、黒幕"
+   }
+  },
+  {
+   "parola": "il pentito",
+   "forme": [
+    "pentiti"
+   ],
+   "formeEsempi": [
+    "pentito"
+   ],
+   "esempi": [
+    "Il pentito ha raccontato tutto ai giudici.",
+    "Grazie ai pentiti molti boss sono in carcere.",
+    "È un pentito di camorra."
+   ],
+   "traduzioni": {
+    "en": "«pentito», mafia turncoat who cooperates with justice",
+    "es": "arrepentido",
+    "pt": "arrependido, delator",
+    "fr": "repenti",
+    "cs": "kajícník (bývalý mafián, který spolupracuje)",
+    "pl": "skruszony mafioso, świadek koronny",
+    "tr": "itirafçı",
+    "de": "Pentito, Aussteiger",
+    "ja": "改悛者（捜査に協力する元マフィア）"
+   }
+  },
+  {
+   "parola": "il reato",
+   "forme": [
+    "reato"
+   ],
+   "esempi": [
+    "Rubare è un reato.",
+    "Il reato è stato commesso di notte.",
+    "È accusato di un reato grave."
+   ],
+   "traduzioni": {
+    "en": "crime, offence",
+    "es": "delito",
+    "pt": "crime",
+    "fr": "délit, infraction",
+    "cs": "trestný čin",
+    "pl": "przestępstwo",
+    "tr": "suç",
+    "de": "Straftat",
+    "ja": "犯罪"
+   }
+  },
+  {
+   "parola": "il patrimonio",
+   "forme": [
+    "patrimoni"
+   ],
+   "formeEsempi": [
+    "patrimonio"
+   ],
+   "esempi": [
+    "Ha un patrimonio di milioni di euro.",
+    "Venezia è patrimonio dell'umanità.",
+    "Lo Stato colpisce i patrimoni dei clan."
+   ],
+   "traduzioni": {
+    "en": "assets, wealth (also: heritage)",
+    "es": "patrimonio",
+    "pt": "patrimônio",
+    "fr": "patrimoine",
+    "cs": "majetek (i: dědictví)",
+    "pl": "majątek (też: dziedzictwo)",
+    "tr": "servet (ayrıca: miras)",
+    "de": "Vermögen (auch: Erbe)",
+    "ja": "資産（遺産、の意味も）"
+   }
+  },
+  {
+   "parola": "la restituzione",
+   "forme": [
+    "restituzione"
+   ],
+   "esempi": [
+    "Chiedo la restituzione dei soldi.",
+    "La restituzione del libro è entro lunedì.",
+    "La sanzione è diventata restituzione."
+   ],
+   "traduzioni": {
+    "en": "return, giving back",
+    "es": "devolución, restitución",
+    "pt": "devolução, restituição",
+    "fr": "restitution",
+    "cs": "vrácení",
+    "pl": "zwrot",
+    "tr": "iade",
+    "de": "Rückgabe",
+    "ja": "返還"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "b1": [
+    "The mafia was born in 19th-century Sicily, at a precise moment: when feudalism ended, land changed hands and nobody enforced contracts. Those who owned a field often lived in town, and those who guarded it by force became indispensable. The word appeared early: on 25 April 1865 the prefect of Palermo wrote «maffia» in a report to the ministry.",
+    "It wasn't born where there was most poverty, but where there was most money to protect. A study published in 2017 cross-referenced the data of a parliamentary inquiry from 1881-1886 on 143 Sicilian municipalities: the mafia was strongest in the lemon-growing areas, a crop that yielded about 60 times the island's average.",
+    "Leopoldo Franchetti had already described the mechanism in 1876: the mafia is an industry of violence, that is, it sells protection against a danger it creates itself. Those who pay aren't buying security; they're buying the right not to be hit.",
+    "That's why the idea of a mafia that defended peasants doesn't stand up. On 1 May 1947, at Portella della Ginestra, eleven people celebrating May Day were killed and twenty-seven wounded; on 10 March 1948 the trade unionist Placido Rizzotto was kidnapped and murdered in Corleone. The victims were on the side of the farm labourers, not of the landowners.",
+    "In Italy there isn't one single mafia, but four different organisations: the Neapolitan camorra, the oldest, already mentioned in a document from 1735; Cosa Nostra in Sicily; the Calabrian 'ndrangheta, today the richest and the hardest to strike because it is made up of blood families; and the Sacra Corona Unita, founded in Apulia in 1983 in Bari prison.",
+    "The mafias followed the traffics beyond the borders. The 'ndrangheta is present in more than thirty countries and controls a large part of the cocaine entering Europe: in May 2023 an operation carried out in eight European countries ended with over a hundred arrests and three tonnes of cocaine seized.",
+    "What do Italians think? In 2026, 50 per cent named the mafias among the country's most urgent problems, and 73 per cent agreed that today's mafiosi aren't peasants but businessmen. Another poll shows that 83 per cent believe politics has favoured the mafias: the distrust is aimed at the State, not admiration for the clans.",
+    "And the State has achieved concrete results. The Palermo maxi-trial, which opened on 10 February 1986, ended on 16 December 1987 with 475 defendants, 346 convictions and 19 life sentences. Today 1,132 social organisations manage land, houses and businesses confiscated from the mafias."
+   ]
+  },
+  "es": {
+   "b1": [
+    "La mafia nace en la Sicilia del siglo XIX, en un momento preciso: cuando termina el feudalismo, la tierra cambia de dueño y nadie garantiza los contratos. Quien posee un campo vive a menudo en la ciudad, y quien lo vigila por la fuerza se vuelve indispensable. La palabra aparece pronto: el 25 de abril de 1865 el prefecto de Palermo escribe «maffia» en un informe al ministerio.",
+    "No nace donde hay más pobreza, sino donde hay más dinero que proteger. Un estudio publicado en 2017 cruzó los datos de una investigación parlamentaria de 1881-1886 sobre 143 municipios sicilianos: la mafia era más fuerte en las zonas de los limones, un cultivo que rendía unas 60 veces la media de la isla.",
+    "El mecanismo ya lo había descrito Leopoldo Franchetti en 1876: la mafia es una industria de la violencia, es decir, vende protección contra un peligro que ella misma crea. Quien paga no compra seguridad, compra el derecho a no ser atacado.",
+    "Por eso la idea de una mafia que defendía a los campesinos no se sostiene. El 1 de mayo de 1947, en Portella della Ginestra, once personas que celebraban el Primero de Mayo fueron asesinadas y veintisiete resultaron heridas; el 10 de marzo de 1948 el sindicalista Placido Rizzotto fue secuestrado y asesinado en Corleone. Las víctimas estaban del lado de los jornaleros, no de los propietarios.",
+    "En Italia no existe una sola mafia, sino cuatro organizaciones distintas: la camorra napolitana, la más antigua, ya citada en un documento de 1735; Cosa Nostra en Sicilia; la 'ndrangheta calabresa, hoy la más rica y la más difícil de golpear porque está formada por familias de sangre; y la Sacra Corona Unita, fundada en Apulia en 1983 en la cárcel de Bari.",
+    "Las mafias siguieron los tráficos más allá de las fronteras. La 'ndrangheta está presente en más de treinta países y controla una parte importante de la cocaína que entra en Europa: en mayo de 2023 una operación realizada en ocho países europeos terminó con más de cien detenciones y tres toneladas de cocaína incautadas.",
+    "¿Qué piensan los italianos? En 2026 el 50 % situaba las mafias entre los problemas más urgentes del país y el 73 % estaba de acuerdo en que los mafiosos de hoy no son campesinos, sino hombres de negocios. Otra encuesta muestra que el 83 % cree que la política ha favorecido a las mafias: la desconfianza se dirige al Estado, no hay admiración por los clanes.",
+    "Y el Estado ha obtenido resultados concretos. El maxiproceso de Palermo, abierto el 10 de febrero de 1986, se cerró el 16 de diciembre de 1987 con 475 acusados, 346 condenas y 19 cadenas perpetuas. Hoy 1.132 entidades sociales gestionan tierras, casas y empresas confiscadas a las mafias."
+   ]
+  },
+  "pt": {
+   "b1": [
+    "A máfia nasce na Sicília do século XIX, num momento preciso: quando o feudalismo acaba, a terra muda de dono e ninguém garante os contratos. Quem possui um campo muitas vezes mora na cidade, e quem o vigia à força se torna indispensável. A palavra aparece cedo: em 25 de abril de 1865 o prefeito de Palermo escreve «maffia» num relatório ao ministério.",
+    "Ela não nasce onde há mais pobreza, mas onde há mais dinheiro para proteger. Um estudo publicado em 2017 cruzou os dados de um inquérito parlamentar de 1881-1886 sobre 143 municípios sicilianos: a máfia era mais forte nas zonas dos limões, uma cultura que rendia cerca de 60 vezes a média da ilha.",
+    "O mecanismo já tinha sido descrito por Leopoldo Franchetti em 1876: a máfia é uma indústria da violência, ou seja, vende proteção contra um perigo que ela mesma cria. Quem paga não compra segurança, compra o direito de não ser atingido.",
+    "Por isso a ideia de uma máfia que defendia os camponeses não se sustenta. Em 1º de maio de 1947, em Portella della Ginestra, onze pessoas que comemoravam o Dia do Trabalho foram mortas e vinte e sete ficaram feridas; em 10 de março de 1948 o sindicalista Placido Rizzotto foi sequestrado e assassinado em Corleone. As vítimas estavam do lado dos trabalhadores rurais, não dos proprietários.",
+    "Na Itália não existe uma só máfia, mas quatro organizações diferentes: a camorra napolitana, a mais antiga, já citada num documento de 1735; a Cosa Nostra na Sicília; a 'ndrangheta calabresa, hoje a mais rica e a mais difícil de atingir porque é formada por famílias de sangue; e a Sacra Corona Unita, fundada na Apúlia em 1983, na prisão de Bari.",
+    "As máfias seguiram os tráficos além das fronteiras. A 'ndrangheta está presente em mais de trinta países e controla uma parte importante da cocaína que entra na Europa: em maio de 2023 uma operação realizada em oito países europeus terminou com mais de cem prisões e três toneladas de cocaína apreendidas.",
+    "O que pensam os italianos? Em 2026, 50% apontavam as máfias entre os problemas mais urgentes do país e 73% concordavam que os mafiosos de hoje não são camponeses, mas homens de negócios. Outra pesquisa mostra que 83% acham que a política favoreceu as máfias: a desconfiança é em relação ao Estado, não há admiração pelos clãs.",
+    "E o Estado obteve resultados concretos. O maxiprocesso de Palermo, aberto em 10 de fevereiro de 1986, terminou em 16 de dezembro de 1987 com 475 réus, 346 condenações e 19 prisões perpétuas. Hoje 1.132 entidades sociais administram terras, casas e empresas confiscadas das máfias."
+   ]
+  },
+  "fr": {
+   "b1": [
+    "La mafia naît dans la Sicile du XIXe siècle, à un moment précis : quand la féodalité prend fin, la terre change de propriétaire et personne ne garantit les contrats. Celui qui possède un champ vit souvent en ville, et celui qui le garde par la force devient indispensable. Le mot apparaît tôt : le 25 avril 1865, le préfet de Palerme écrit « maffia » dans un rapport au ministère.",
+    "Elle ne naît pas là où il y a le plus de pauvreté, mais là où il y a le plus d'argent à protéger. Une étude publiée en 2017 a croisé les données d'une enquête parlementaire de 1881-1886 sur 143 communes siciliennes : la mafia était plus forte dans les zones des citronniers, une culture qui rapportait environ 60 fois la moyenne de l'île.",
+    "Leopoldo Franchetti avait déjà décrit le mécanisme en 1876 : la mafia est une industrie de la violence, c'est-à-dire qu'elle vend une protection contre un danger qu'elle crée elle-même. Celui qui paie n'achète pas la sécurité, il achète le droit de ne pas être frappé.",
+    "C'est pourquoi l'idée d'une mafia qui défendait les paysans ne tient pas. Le 1er mai 1947, à Portella della Ginestra, onze personnes qui fêtaient le 1er Mai ont été tuées et vingt-sept blessées ; le 10 mars 1948, le syndicaliste Placido Rizzotto a été enlevé et assassiné à Corleone. Les victimes étaient du côté des ouvriers agricoles, pas des propriétaires.",
+    "En Italie, il n'existe pas une seule mafia, mais quatre organisations différentes : la camorra napolitaine, la plus ancienne, déjà citée dans un document de 1735 ; Cosa Nostra en Sicile ; la 'ndrangheta calabraise, aujourd'hui la plus riche et la plus difficile à frapper parce qu'elle est formée de familles de sang ; et la Sacra Corona Unita, fondée dans les Pouilles en 1983, dans la prison de Bari.",
+    "Les mafias ont suivi les trafics au-delà des frontières. La 'ndrangheta est présente dans plus de trente pays et contrôle une part importante de la cocaïne qui entre en Europe : en mai 2023, une opération menée dans huit pays européens s'est terminée par plus de cent arrestations et trois tonnes de cocaïne saisies.",
+    "Que pensent les Italiens ? En 2026, 50 % plaçaient les mafias parmi les problèmes les plus urgents du pays et 73 % étaient d'accord pour dire que les mafieux d'aujourd'hui ne sont pas des paysans, mais des hommes d'affaires. Un autre sondage montre que 83 % estiment que la politique a favorisé les mafias : la défiance vise l'État, ce n'est pas de l'admiration pour les clans.",
+    "Et l'État a obtenu des résultats concrets. Le maxi-procès de Palerme, ouvert le 10 février 1986, s'est terminé le 16 décembre 1987 avec 475 accusés, 346 condamnations et 19 peines de réclusion à perpétuité. Aujourd'hui, 1 132 structures sociales gèrent des terres, des maisons et des entreprises confisquées aux mafias."
+   ]
+  },
+  "cs": {
+   "b1": [
+    "Mafie vzniká na Sicílii v 19. století, v přesném okamžiku: když končí feudalismus, půda mění majitele a nikdo nezaručuje dodržování smluv. Kdo vlastní pole, často žije ve městě, a kdo ho silou hlídá, stává se nepostradatelným. Slovo se objeví brzy: 25. dubna 1865 napíše palermský prefekt „maffia“ do zprávy pro ministerstvo.",
+    "Nevzniká tam, kde je největší chudoba, ale tam, kde je nejvíc peněz k ochraně. Studie zveřejněná v roce 2017 porovnala údaje parlamentního šetření z let 1881–1886 o 143 sicilských obcích: mafie byla nejsilnější v oblastech citronů, plodiny, která vynášela asi šedesátkrát víc než ostrovní průměr.",
+    "Ten mechanismus popsal už Leopoldo Franchetti v roce 1876: mafie je průmysl násilí, tedy prodává ochranu před nebezpečím, které sama vytváří. Kdo platí, nekupuje si bezpečí, kupuje si právo, aby na něj nikdo nezaútočil.",
+    "Proto představa mafie, která bránila rolníky, neobstojí. 1. května 1947 bylo v Portella della Ginestra zabito jedenáct lidí, kteří slavili svátek práce, a dvacet sedm zraněno; 10. března 1948 byl v Corleone unesen a zavražděn odborář Placido Rizzotto. Oběti stály na straně zemědělských nádeníků, ne vlastníků půdy.",
+    "V Itálii neexistuje jedna mafie, ale čtyři různé organizace: neapolská camorra, nejstarší, zmíněná už v dokumentu z roku 1735; Cosa Nostra na Sicílii; kalábrijská 'ndrangheta, dnes nejbohatší a nejhůře postižitelná, protože ji tvoří pokrevní rodiny; a Sacra Corona Unita, založená v Apulii v roce 1983 ve vězení v Bari.",
+    "Mafie následovaly nelegální obchody i za hranice. 'Ndrangheta působí ve více než třiceti zemích a ovládá velkou část kokainu, který přichází do Evropy: v květnu 2023 skončila akce provedená v osmi evropských zemích více než stovkou zatčení a zabavením tří tun kokainu.",
+    "Co si myslí Italové? V roce 2026 řadilo 50 procent lidí mafie mezi nejnaléhavější problémy země a 73 procent souhlasilo s tím, že dnešní mafiáni nejsou rolníci, ale obchodníci. Další průzkum ukazuje, že 83 procent si myslí, že politika mafiím nadržovala: nedůvěra míří ke státu, nejde o obdiv ke klanům.",
+    "A stát dosáhl konkrétních výsledků. Velký proces v Palermu, zahájený 10. února 1986, skončil 16. prosince 1987: 475 obžalovaných, 346 odsouzení a 19 doživotních trestů. Dnes spravuje 1 132 společenských organizací pozemky, domy a firmy zabavené mafiím."
+   ]
+  },
+  "pl": {
+   "b1": [
+    "Mafia rodzi się na XIX-wiecznej Sycylii, w konkretnym momencie: kiedy kończy się feudalizm, ziemia zmienia właściciela i nikt nie gwarantuje przestrzegania umów. Kto posiada pole, często mieszka w mieście, a kto pilnuje go siłą, staje się niezbędny. Słowo pojawia się szybko: 25 kwietnia 1865 roku prefekt Palermo pisze „maffia” w raporcie dla ministerstwa.",
+    "Nie rodzi się tam, gdzie jest największa bieda, ale tam, gdzie jest najwięcej pieniędzy do ochrony. Badanie opublikowane w 2017 roku zestawiło dane z dochodzenia parlamentarnego z lat 1881–1886 dotyczącego 143 sycylijskich gmin: mafia była najsilniejsza w strefach upraw cytryn, które przynosiły około 60 razy więcej niż średnia na wyspie.",
+    "Mechanizm opisał już Leopoldo Franchetti w 1876 roku: mafia to przemysł przemocy, czyli sprzedaje ochronę przed zagrożeniem, które sama tworzy. Kto płaci, nie kupuje bezpieczeństwa, tylko prawo do tego, żeby nie zostać zaatakowanym.",
+    "Dlatego idea mafii broniącej chłopów się nie trzyma. 1 maja 1947 roku w Portella della Ginestra zginęło jedenaście osób świętujących Święto Pracy, a dwadzieścia siedem zostało rannych; 10 marca 1948 roku w Corleone porwano i zamordowano związkowca Placida Rizzotta. Ofiary stały po stronie robotników rolnych, nie właścicieli ziemskich.",
+    "We Włoszech nie istnieje jedna mafia, tylko cztery różne organizacje: neapolitańska camorra, najstarsza, wspomniana już w dokumencie z 1735 roku; Cosa Nostra na Sycylii; kalabryjska 'ndrangheta, dziś najbogatsza i najtrudniejsza do rozbicia, bo tworzą ją rodziny związane krwią; oraz Sacra Corona Unita, założona w Apulii w 1983 roku w więzieniu w Bari.",
+    "Mafie poszły za nielegalnym handlem poza granice. 'Ndrangheta działa w ponad trzydziestu krajach i kontroluje dużą część kokainy trafiającej do Europy: w maju 2023 roku akcja przeprowadzona w ośmiu krajach europejskich zakończyła się ponad setką aresztowań i przejęciem trzech ton kokainy.",
+    "Co myślą Włosi? W 2026 roku 50 procent wymieniało mafie wśród najpilniejszych problemów kraju, a 73 procent zgadzało się, że dzisiejsi mafiosi to nie chłopi, ale biznesmeni. Inny sondaż pokazuje, że 83 procent uważa, iż polityka sprzyjała mafiom: nieufność dotyczy państwa, a nie podziwu dla klanów.",
+    "A państwo osiągnęło konkretne wyniki. Maxiproces w Palermo, otwarty 10 lutego 1986 roku, zakończył się 16 grudnia 1987 roku: 475 oskarżonych, 346 wyroków skazujących i 19 dożywoci. Dziś 1132 organizacje społeczne zarządzają ziemią, domami i firmami skonfiskowanymi mafiom."
+   ]
+  },
+  "tr": {
+   "b1": [
+    "Mafya, 19. yüzyıl Sicilya'sında belli bir anda doğar: feodalizm sona erdiğinde toprak el değiştirir ve kimse sözleşmeleri güvence altına almaz. Tarla sahibi çoğu zaman şehirde yaşar; tarlayı zorla koruyan kişi ise vazgeçilmez hâle gelir. Kelime erkenden ortaya çıkar: 25 Nisan 1865'te Palermo valisi bakanlığa yazdığı bir raporda «maffia» kelimesini kullanır.",
+    "Mafya yoksulluğun en çok olduğu yerde değil, korunacak paranın en çok olduğu yerde doğar. 2017'de yayımlanan bir çalışma, 1881-1886 yıllarında 143 Sicilya kasabası üzerine yapılmış bir meclis soruşturmasının verilerini karşılaştırdı: mafya, adanın ortalamasının yaklaşık 60 katı getiri sağlayan limon bahçelerinin olduğu bölgelerde en güçlüydü.",
+    "Bu mekanizmayı Leopoldo Franchetti 1876'da zaten anlatmıştı: mafya bir şiddet endüstrisidir, yani kendi yarattığı bir tehlikeye karşı koruma satar. Para ödeyen kişi güvenlik satın almaz, saldırıya uğramama hakkını satın alır.",
+    "Bu yüzden köylüleri koruyan bir mafya fikri tutarlı değildir. 1 Mayıs 1947'de Portella della Ginestra'da İşçi Bayramı'nı kutlayan on bir kişi öldürüldü, yirmi yedi kişi yaralandı; 10 Mart 1948'de sendikacı Placido Rizzotto, Corleone'de kaçırılıp öldürüldü. Kurbanlar toprak sahiplerinin değil, tarım işçilerinin tarafındaydı.",
+    "İtalya'da tek bir mafya yoktur, dört farklı örgüt vardır: 1735 tarihli bir belgede bile adı geçen, en eskisi olan Napoli camorrası; Sicilya'da Cosa Nostra; kan bağıyla bağlı ailelerden oluştuğu için bugün en zengin ve darbe vurulması en zor olan Kalabriya 'ndranghetası; ve 1983'te Puglia'da, Bari cezaevinde kurulan Sacra Corona Unita.",
+    "Mafyalar kaçakçılığın peşinden sınırların ötesine geçti. 'Ndrangheta otuzdan fazla ülkede faaliyet gösteriyor ve Avrupa'ya giren kokainin önemli bir kısmını kontrol ediyor: Mayıs 2023'te sekiz Avrupa ülkesinde yürütülen bir operasyon yüzden fazla tutuklama ve üç ton kokainin ele geçirilmesiyle sonuçlandı.",
+    "İtalyanlar ne düşünüyor? 2026'da yüzde 50'si mafyaları ülkenin en acil sorunları arasında sayıyordu; yüzde 73'ü bugünün mafyacılarının köylü değil iş adamı olduğu konusunda hemfikirdi. Başka bir anket, yüzde 83'ün siyasetin mafyaları kayırdığını düşündüğünü gösteriyor: güvensizlik devlete yönelik, klanlara hayranlık yok.",
+    "Ve devlet somut sonuçlar elde etti. 10 Şubat 1986'da açılan Palermo büyük davası, 16 Aralık 1987'de 475 sanık, 346 mahkûmiyet ve 19 ömür boyu hapisle sonuçlandı. Bugün 1.132 sivil toplum kuruluşu, mafyalardan el konulan arazileri, evleri ve şirketleri yönetiyor."
+   ]
+  },
+  "de": {
+   "b1": [
+    "Die Mafia entsteht im Sizilien des 19. Jahrhunderts, in einem genauen Moment: Als der Feudalismus endet, wechselt das Land den Besitzer, und niemand sorgt dafür, dass Verträge eingehalten werden. Wer ein Feld besitzt, lebt oft in der Stadt, und wer es mit Gewalt bewacht, wird unentbehrlich. Das Wort taucht früh auf: Am 25. April 1865 schreibt der Präfekt von Palermo „maffia“ in einen Bericht an das Ministerium.",
+    "Sie entsteht nicht dort, wo die Armut am größten ist, sondern dort, wo es am meisten Geld zu schützen gibt. Eine 2017 veröffentlichte Studie hat die Daten einer parlamentarischen Untersuchung von 1881–1886 über 143 sizilianische Gemeinden abgeglichen: Die Mafia war in den Zitronengebieten am stärksten, einer Kultur, die etwa das Sechzigfache des Inseldurchschnitts einbrachte.",
+    "Den Mechanismus hatte Leopoldo Franchetti schon 1876 beschrieben: Die Mafia ist eine Industrie der Gewalt, das heißt, sie verkauft Schutz vor einer Gefahr, die sie selbst schafft. Wer zahlt, kauft keine Sicherheit, sondern das Recht, nicht angegriffen zu werden.",
+    "Deshalb hält die Vorstellung einer Mafia, die die Bauern verteidigte, nicht stand. Am 1. Mai 1947 wurden in Portella della Ginestra elf Menschen, die den Tag der Arbeit feierten, getötet und siebenundzwanzig verletzt; am 10. März 1948 wurde der Gewerkschafter Placido Rizzotto in Corleone entführt und ermordet. Die Opfer standen auf der Seite der Landarbeiter, nicht der Grundbesitzer.",
+    "In Italien gibt es nicht eine einzige Mafia, sondern vier verschiedene Organisationen: die neapolitanische Camorra, die älteste, schon in einem Dokument von 1735 erwähnt; Cosa Nostra auf Sizilien; die kalabrische 'Ndrangheta, heute die reichste und am schwersten zu treffende, weil sie aus Blutsfamilien besteht; und die Sacra Corona Unita, 1983 in Apulien im Gefängnis von Bari gegründet.",
+    "Die Mafias sind den Schmuggelrouten über die Grenzen gefolgt. Die 'Ndrangheta ist in mehr als dreißig Ländern präsent und kontrolliert einen großen Teil des Kokains, das nach Europa kommt: Im Mai 2023 endete eine Operation in acht europäischen Ländern mit über hundert Festnahmen und drei Tonnen beschlagnahmtem Kokain.",
+    "Was denken die Italiener? 2026 zählten 50 Prozent die Mafias zu den dringendsten Problemen des Landes, und 73 Prozent stimmten zu, dass die Mafiosi von heute keine Bauern, sondern Geschäftsleute sind. Eine andere Umfrage zeigt, dass 83 Prozent glauben, die Politik habe die Mafias begünstigt: Das Misstrauen richtet sich gegen den Staat, es ist keine Bewunderung für die Clans.",
+    "Und der Staat hat konkrete Ergebnisse erzielt. Der Maxi-Prozess von Palermo, eröffnet am 10. Februar 1986, endete am 16. Dezember 1987 mit 475 Angeklagten, 346 Verurteilungen und 19 lebenslangen Haftstrafen. Heute verwalten 1.132 soziale Einrichtungen Grundstücke, Häuser und Betriebe, die den Mafias beschlagnahmt wurden."
+   ]
+  },
+  "ja": {
+   "b1": [
+    "マフィアは19世紀のシチリアで、ある決まった時期に生まれた。封建制が終わり、土地の持ち主が変わり、契約を守らせる者が誰もいなかった時期だ。畑の持ち主はたいてい町に住んでいて、力ずくで畑を守る者が欠かせない存在になった。この言葉は早くから登場する。1865年4月25日、パレルモの県知事が省への報告書に「maffia」と書いている。",
+    "マフィアが生まれたのは、貧しさが最もひどい場所ではなく、守るべきお金が最も多い場所だった。2017年に発表された研究は、1881〜1886年にシチリアの143の町について行われた議会調査のデータを照合した。マフィアが最も強かったのはレモンの産地で、レモンは島の平均の約60倍の利益を生んでいたのだ。",
+    "その仕組みは、1876年にレオポルド・フランケッティがすでに説明していた。マフィアは暴力の産業だ。つまり、自分たちが生み出す危険から守るという「保護」を売るのである。お金を払う人が買っているのは安全ではなく、襲われない権利なのだ。",
+    "だから、農民を守るマフィアという考えは成り立たない。1947年5月1日、ポルテッラ・デッラ・ジネストラでメーデーを祝っていた11人が殺され、27人が負傷した。1948年3月10日には、労働組合の活動家プラチド・リッツォットがコルレオーネで誘拐され、殺された。犠牲者は地主の側ではなく、農業労働者の側にいた人々だった。",
+    "イタリアには一つのマフィアがあるのではなく、四つの異なる組織がある。最も古く、1735年の文書にすでに登場するナポリのカモッラ。シチリアのコーザ・ノストラ。血縁の家族で成り立っているため、今日最も裕福で最も打撃を与えにくいカラブリアのンドランゲタ。そして1983年にプーリア州バーリの刑務所で結成されたサクラ・コローナ・ウニータである。",
+    "マフィアは密売を追って国境の外へも広がった。ンドランゲタは30か国以上で活動し、ヨーロッパに入るコカインの大部分を支配している。2023年5月、ヨーロッパ8か国で行われた作戦では、100人以上が逮捕され、3トンのコカインが押収された。",
+    "イタリア人はどう考えているのか。2026年、50%の人がマフィアを国の最も緊急な問題の一つに挙げ、73%が「今日のマフィアは農民ではなく実業家だ」という意見に賛成した。別の調査では、83%が政治がマフィアに有利に働いてきたと考えている。不信の矛先は国家に向いており、マフィアの一族を称賛しているわけではない。",
+    "そして国家は具体的な成果をあげてきた。1986年2月10日に始まったパレルモの大裁判は、1987年12月16日に終わり、被告475人のうち346人が有罪、19人が終身刑となった。今日では1132の社会団体が、マフィアから没収された土地や家、会社を運営している。"
+   ]
+  }
+ }
+}
