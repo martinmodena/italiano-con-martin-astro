@@ -1696,4 +1696,25 @@ export const NAV_LABELS = {
     de: 'Mit Pronomen',
     ja: '代名詞と',
   },
+  // Genere e numero (A1), 2026-11-23.
+  'Il plurale': {
+    en: 'The plural',
+    es: 'El plural',
+    fr: 'Le pluriel',
+    cs: 'Množné číslo',
+    pl: 'Liczba mnoga',
+    tr: 'Çoğul',
+    de: 'Der Plural',
+    ja: '複数形',
+  },
+  'Nomi invariabili': {
+    en: 'Invariable nouns',
+    es: 'Sustantivos invariables',
+    fr: 'Noms invariables',
+    cs: 'Nesklonná jména',
+    pl: 'Rzeczowniki nieodmienne',
+    tr: 'Değişmeyen isimler',
+    de: 'Unveränderliche Nomen',
+    ja: '変わらない名詞',
+  },
 };

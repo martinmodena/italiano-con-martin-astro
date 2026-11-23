@@ -27,6 +27,7 @@ import { NOTES_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
 import { NOTES_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
 import { NOTES_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { NOTES_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
+import { NOTES_GENERE_NUMERO } from './confronti-genere-numero.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3154,3 +3155,5 @@ Object.assign(NOTES, NOTES_CONDIZIONALE_CONGIUNTIVO);
 
 Object.assign(NOTES, NOTES_PERIODO_IPOTETICO);
 Object.assign(NOTES, NOTES_FUTURO_ANTERIORE);
+// Genere e numero (A1), rifatta il 2026-11-23: prima non aveva il confronto.
+Object.assign(NOTES, NOTES_GENERE_NUMERO);

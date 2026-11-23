@@ -38,6 +38,7 @@ import { ERRORS_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { ERRORS_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 import { ERRORS_CONDIZIONALE_PRESENTE } from './confronti-condizionale-presente.mjs';
 import { ERRORS_IMPERATIVO } from './confronti-imperativo.mjs';
+import { ERRORS_GENERE_NUMERO } from './confronti-genere-numero.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1024,3 +1025,5 @@ Object.assign(ERRORS, ERRORS_FUTURO_ANTERIORE);
 Object.assign(ERRORS, ERRORS_CONDIZIONALE_PRESENTE);
 // Imperativo rifatto il 2026-11-23: cinque errori per lingua.
 Object.assign(ERRORS, ERRORS_IMPERATIVO);
+// Genere e numero rifatta il 2026-11-23: prima non aveva errori per lingua.
+Object.assign(ERRORS, ERRORS_GENERE_NUMERO);
