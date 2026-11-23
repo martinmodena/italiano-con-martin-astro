@@ -1,0 +1,1456 @@
+{
+ "id": "il-polpo-tre-cuori-nove-cervelli",
+ "nota": "Glossario e traduzione della lettura (A1 e A2 tradotti): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il polpo",
+   "forme": [
+    "polpo",
+    "polpi"
+   ],
+   "esempi": [
+    "Il polpo ha otto braccia.",
+    "Nell'acquario ci sono due polpi.",
+    "Il polpo cambia colore."
+   ],
+   "traduzioni": {
+    "en": "octopus",
+    "es": "pulpo",
+    "pt": "polvo",
+    "fr": "pieuvre, poulpe",
+    "cs": "chobotnice",
+    "pl": "ośmiornica",
+    "tr": "ahtapot",
+    "de": "Krake, Oktopus",
+    "ja": "タコ"
+   }
+  },
+  {
+   "parola": "la vasca",
+   "forme": [
+    "vasca",
+    "vasche"
+   ],
+   "esempi": [
+    "I pesci nuotano nella vasca.",
+    "La vasca da bagno è piena.",
+    "L'acquario ha tante vasche."
+   ],
+   "traduzioni": {
+    "en": "tank, tub",
+    "es": "tanque, bañera",
+    "pt": "tanque, banheira",
+    "fr": "bassin, bac, baignoire",
+    "cs": "nádrž, vana",
+    "pl": "zbiornik, wanna",
+    "tr": "havuz, küvet",
+    "de": "Becken, Wanne",
+    "ja": "水槽、浴槽"
+   }
+  },
+  {
+   "parola": "la guida",
+   "forme": [
+    "guida"
+   ],
+   "esempi": [
+    "La guida spiega la storia del museo.",
+    "Ho comprato una guida di Roma.",
+    "La guida parla tre lingue."
+   ],
+   "traduzioni": {
+    "en": "guide",
+    "es": "guía",
+    "pt": "guia",
+    "fr": "guide",
+    "cs": "průvodce",
+    "pl": "przewodnik",
+    "tr": "rehber",
+    "de": "Führer(in), Reiseführer",
+    "ja": "ガイド"
+   }
+  },
+  {
+   "parola": "il cuore",
+   "forme": [
+    "cuori",
+    "cuore"
+   ],
+   "esempi": [
+    "Il cuore batte forte.",
+    "Il polpo ha tre cuori.",
+    "Ti ringrazio di cuore."
+   ],
+   "traduzioni": {
+    "en": "heart",
+    "es": "corazón",
+    "pt": "coração",
+    "fr": "cœur",
+    "cs": "srdce",
+    "pl": "serce",
+    "tr": "kalp",
+    "de": "Herz",
+    "ja": "心臓、心"
+   }
+  },
+  {
+   "parola": "il sangue",
+   "forme": [
+    "sangue"
+   ],
+   "esempi": [
+    "Il sangue è rosso.",
+    "Ho fatto le analisi del sangue.",
+    "Il polpo ha il sangue blu."
+   ],
+   "traduzioni": {
+    "en": "blood",
+    "es": "sangre",
+    "pt": "sangue",
+    "fr": "sang",
+    "cs": "krev",
+    "pl": "krew",
+    "tr": "kan",
+    "de": "Blut",
+    "ja": "血"
+   }
+  },
+  {
+   "parola": "le branchie",
+   "forme": [
+    "branchie"
+   ],
+   "esempi": [
+    "I pesci respirano con le branchie.",
+    "Le branchie sono rosse.",
+    "Noi non abbiamo branchie."
+   ],
+   "traduzioni": {
+    "en": "gills",
+    "es": "branquias",
+    "pt": "brânquias, guelras",
+    "fr": "branchies",
+    "cs": "žábry",
+    "pl": "skrzela",
+    "tr": "solungaçlar",
+    "de": "Kiemen",
+    "ja": "えら"
+   }
+  },
+  {
+   "parola": "mandare",
+   "forme": [
+    "mandano",
+    "manda"
+   ],
+   "formeEsempi": [
+    "mando"
+   ],
+   "esempi": [
+    "Ti mando un messaggio.",
+    "La mamma manda il figlio a scuola.",
+    "Il cuore manda il sangue al corpo."
+   ],
+   "traduzioni": {
+    "en": "to send, to pump",
+    "es": "mandar, enviar",
+    "pt": "mandar, enviar",
+    "fr": "envoyer",
+    "cs": "poslat",
+    "pl": "wysyłać",
+    "tr": "göndermek",
+    "de": "schicken",
+    "ja": "送る"
+   }
+  },
+  {
+   "parola": "diventare",
+   "forme": [
+    "diventa",
+    "diventato"
+   ],
+   "esempi": [
+    "Il cielo diventa nero.",
+    "Mio figlio vuole diventare medico.",
+    "È diventato famoso."
+   ],
+   "traduzioni": {
+    "en": "to become, to turn",
+    "es": "volverse, convertirse",
+    "pt": "ficar, tornar-se",
+    "fr": "devenir",
+    "cs": "stát se",
+    "pl": "stać się",
+    "tr": "olmak, dönüşmek",
+    "de": "werden",
+    "ja": "…になる"
+   },
+   "formeEsempi": [
+    "diventare"
+   ]
+  },
+  {
+   "parola": "la domanda",
+   "forme": [
+    "domanda"
+   ],
+   "esempi": [
+    "Posso fare una domanda?",
+    "È una domanda difficile.",
+    "Rispondi alla domanda!"
+   ],
+   "traduzioni": {
+    "en": "question",
+    "es": "pregunta",
+    "pt": "pergunta",
+    "fr": "question",
+    "cs": "otázka",
+    "pl": "pytanie",
+    "tr": "soru",
+    "de": "Frage",
+    "ja": "質問"
+   }
+  },
+  {
+   "parola": "il cervello",
+   "forme": [
+    "cervelli",
+    "cervello"
+   ],
+   "esempi": [
+    "Il cervello controlla il corpo.",
+    "Usa il cervello!",
+    "Il polpo ha nove cervelli."
+   ],
+   "traduzioni": {
+    "en": "brain",
+    "es": "cerebro",
+    "pt": "cérebro",
+    "fr": "cerveau",
+    "cs": "mozek",
+    "pl": "mózg",
+    "tr": "beyin",
+    "de": "Gehirn",
+    "ja": "脳"
+   }
+  },
+  {
+   "parola": "il braccio (le braccia)",
+   "forme": [
+    "braccia",
+    "braccio"
+   ],
+   "esempi": [
+    "Mi fa male il braccio.",
+    "Il bambino corre tra le braccia della mamma.",
+    "Alza il braccio!"
+   ],
+   "traduzioni": {
+    "en": "arm (pl. «le braccia»)",
+    "es": "brazo",
+    "pt": "braço",
+    "fr": "bras",
+    "cs": "paže, ruka",
+    "pl": "ramię, ręka",
+    "tr": "kol",
+    "de": "Arm",
+    "ja": "腕"
+   }
+  },
+  {
+   "parola": "il sasso",
+   "forme": [
+    "sasso"
+   ],
+   "esempi": [
+    "Il bambino tira un sasso nel lago.",
+    "Ho un sasso nella scarpa.",
+    "Il sentiero è pieno di sassi."
+   ],
+   "traduzioni": {
+    "en": "stone, pebble",
+    "es": "piedra",
+    "pt": "pedra",
+    "fr": "caillou, pierre",
+    "cs": "kámen",
+    "pl": "kamień",
+    "tr": "taş",
+    "de": "Stein",
+    "ja": "石"
+   },
+   "formeEsempi": [
+    "sassi"
+   ]
+  },
+  {
+   "parola": "il sapore",
+   "forme": [
+    "sapore"
+   ],
+   "esempi": [
+    "Che sapore ha?",
+    "Questa pizza ha un buon sapore.",
+    "Non sento nessun sapore."
+   ],
+   "traduzioni": {
+    "en": "taste, flavour",
+    "es": "sabor",
+    "pt": "sabor, gosto",
+    "fr": "goût",
+    "cs": "chuť",
+    "pl": "smak",
+    "tr": "tat",
+    "de": "Geschmack",
+    "ja": "味"
+   }
+  },
+  {
+   "parola": "decidere",
+   "forme": [
+    "decide"
+   ],
+   "formeEsempi": [
+    "decido",
+    "decidere"
+   ],
+   "esempi": [
+    "Decido io!",
+    "Il gruppo decide dove andare.",
+    "Non riesco a decidere."
+   ],
+   "traduzioni": {
+    "en": "to decide",
+    "es": "decidir",
+    "pt": "decidir",
+    "fr": "décider",
+    "cs": "rozhodnout",
+    "pl": "decydować",
+    "tr": "karar vermek",
+    "de": "entscheiden",
+    "ja": "決める"
+   }
+  },
+  {
+   "parola": "la mano (le mani)",
+   "forme": [
+    "mani"
+   ],
+   "formeEsempi": [
+    "mano"
+   ],
+   "esempi": [
+    "Lavati le mani!",
+    "Dammi la mano.",
+    "Ho le mani fredde."
+   ],
+   "traduzioni": {
+    "en": "hand (pl. «le mani»)",
+    "es": "mano",
+    "pt": "mão",
+    "fr": "main",
+    "cs": "ruka",
+    "pl": "ręka, dłoń",
+    "tr": "el",
+    "de": "Hand",
+    "ja": "手"
+   }
+  },
+  {
+   "parola": "ridere",
+   "forme": [
+    "ride"
+   ],
+   "formeEsempi": [
+    "rido",
+    "ridere"
+   ],
+   "esempi": [
+    "Il bambino ride sempre.",
+    "Rido quando sono nervoso.",
+    "Questo film fa ridere."
+   ],
+   "traduzioni": {
+    "en": "to laugh",
+    "es": "reír",
+    "pt": "rir",
+    "fr": "rire",
+    "cs": "smát se",
+    "pl": "śmiać się",
+    "tr": "gülmek",
+    "de": "lachen",
+    "ja": "笑う"
+   }
+  },
+  {
+   "parola": "l'osso (le ossa)",
+   "forme": [
+    "ossa"
+   ],
+   "formeEsempi": [
+    "osso"
+   ],
+   "esempi": [
+    "Il cane mangia un osso.",
+    "Il latte fa bene alle ossa.",
+    "Si è rotto un osso."
+   ],
+   "traduzioni": {
+    "en": "bone (pl. «le ossa»)",
+    "es": "hueso",
+    "pt": "osso",
+    "fr": "os",
+    "cs": "kost",
+    "pl": "kość",
+    "tr": "kemik",
+    "de": "Knochen",
+    "ja": "骨"
+   }
+  },
+  {
+   "parola": "morbido",
+   "forme": [
+    "morbido"
+   ],
+   "formeEsempi": [
+    "morbida"
+   ],
+   "esempi": [
+    "Il cuscino è morbido.",
+    "Questo pane è morbido.",
+    "Il gatto ha il pelo morbido."
+   ],
+   "traduzioni": {
+    "en": "soft",
+    "es": "blando, suave",
+    "pt": "macio, mole",
+    "fr": "mou, doux",
+    "cs": "měkký",
+    "pl": "miękki",
+    "tr": "yumuşak",
+    "de": "weich",
+    "ja": "柔らかい"
+   }
+  },
+  {
+   "parola": "il buco",
+   "forme": [
+    "buco"
+   ],
+   "esempi": [
+    "Ho un buco nella maglia.",
+    "Il topo entra nel buco.",
+    "C'è un buco nel muro."
+   ],
+   "traduzioni": {
+    "en": "hole",
+    "es": "agujero",
+    "pt": "buraco",
+    "fr": "trou",
+    "cs": "díra",
+    "pl": "dziura",
+    "tr": "delik",
+    "de": "Loch",
+    "ja": "穴"
+   }
+  },
+  {
+   "parola": "vuoto",
+   "forme": [
+    "vuota"
+   ],
+   "formeEsempi": [
+    "vuoto"
+   ],
+   "esempi": [
+    "Il frigorifero è vuoto.",
+    "La strada è vuota.",
+    "Ho la testa vuota."
+   ],
+   "traduzioni": {
+    "en": "empty",
+    "es": "vacío",
+    "pt": "vazio",
+    "fr": "vide",
+    "cs": "prázdný",
+    "pl": "pusty",
+    "tr": "boş",
+    "de": "leer",
+    "ja": "空っぽの"
+   }
+  },
+  {
+   "parola": "indicare",
+   "forme": [
+    "indica"
+   ],
+   "formeEsempi": [
+    "indico"
+   ],
+   "esempi": [
+    "Il bambino indica il cane.",
+    "Mi indica la strada per la stazione?",
+    "Non si indica con il dito!"
+   ],
+   "traduzioni": {
+    "en": "to point (at), to show",
+    "es": "señalar, indicar",
+    "pt": "apontar, indicar",
+    "fr": "montrer du doigt, indiquer",
+    "cs": "ukázat",
+    "pl": "wskazać",
+    "tr": "göstermek, işaret etmek",
+    "de": "zeigen auf",
+    "ja": "指さす、示す"
+   }
+  },
+  {
+   "parola": "il vaso",
+   "forme": [
+    "vaso"
+   ],
+   "esempi": [
+    "Metto i fiori nel vaso.",
+    "Il vaso è caduto e si è rotto.",
+    "Sul balcone c'è un vaso di basilico."
+   ],
+   "traduzioni": {
+    "en": "pot, vase, jar",
+    "es": "jarrón, maceta",
+    "pt": "vaso, pote",
+    "fr": "vase, pot",
+    "cs": "váza, nádoba",
+    "pl": "wazon, doniczka",
+    "tr": "vazo, saksı, kavanoz",
+    "de": "Vase, Topf",
+    "ja": "つぼ、花びん"
+   }
+  },
+  {
+   "parola": "il fondo",
+   "forme": [
+    "fondo"
+   ],
+   "esempi": [
+    "Il sasso va sul fondo.",
+    "In fondo alla strada c'è il bar.",
+    "Il bagno è in fondo a destra."
+   ],
+   "traduzioni": {
+    "en": "bottom, end",
+    "es": "fondo",
+    "pt": "fundo",
+    "fr": "fond",
+    "cs": "dno, konec",
+    "pl": "dno, koniec",
+    "tr": "dip",
+    "de": "Grund, Ende",
+    "ja": "底、奥"
+   }
+  },
+  {
+   "parola": "vincere",
+   "forme": [
+    "vince"
+   ],
+   "formeEsempi": [
+    "vinto"
+   ],
+   "esempi": [
+    "Chi vince la partita?",
+    "Ho vinto una bicicletta!",
+    "Vince sempre mio fratello."
+   ],
+   "traduzioni": {
+    "en": "to win",
+    "es": "ganar",
+    "pt": "ganhar, vencer",
+    "fr": "gagner",
+    "cs": "vyhrát",
+    "pl": "wygrać",
+    "tr": "kazanmak",
+    "de": "gewinnen",
+    "ja": "勝つ"
+   }
+  },
+  {
+   "parola": "il re",
+   "forme": [
+    "re"
+   ],
+   "esempi": [
+    "Il re vive nel castello.",
+    "Il leone è il re degli animali.",
+    "Il re e la regina salutano."
+   ],
+   "traduzioni": {
+    "en": "king («sangue blu» = blue blood, nobility)",
+    "es": "rey",
+    "pt": "rei",
+    "fr": "roi",
+    "cs": "král",
+    "pl": "król",
+    "tr": "kral",
+    "de": "König",
+    "ja": "王様"
+   }
+  },
+  {
+   "parola": "il protagonista",
+   "forme": [
+    "protagonista"
+   ],
+   "esempi": [
+    "Il protagonista del film è un bambino.",
+    "Chi è la protagonista del libro?",
+    "Oggi sei tu il protagonista!"
+   ],
+   "traduzioni": {
+    "en": "main character, protagonist",
+    "es": "protagonista",
+    "pt": "protagonista",
+    "fr": "personnage principal, héros",
+    "cs": "hlavní postava",
+    "pl": "bohater, główna postać",
+    "tr": "baş kahraman",
+    "de": "Hauptfigur",
+    "ja": "主人公"
+   }
+  },
+  {
+   "parola": "il pescatore",
+   "forme": [
+    "pescatore"
+   ],
+   "esempi": [
+    "Il pescatore esce in barca all'alba.",
+    "Mio nonno era pescatore.",
+    "Il pescatore vende il pesce al porto."
+   ],
+   "traduzioni": {
+    "en": "fisherman",
+    "es": "pescador",
+    "pt": "pescador",
+    "fr": "pêcheur",
+    "cs": "rybář",
+    "pl": "rybak",
+    "tr": "balıkçı",
+    "de": "Fischer",
+    "ja": "漁師"
+   }
+  },
+  {
+   "parola": "la trappola",
+   "forme": [
+    "trappola"
+   ],
+   "esempi": [
+    "Il topo è nella trappola.",
+    "Attenzione, è una trappola!",
+    "Hanno messo una trappola in cantina."
+   ],
+   "traduzioni": {
+    "en": "trap",
+    "es": "trampa",
+    "pt": "armadilha",
+    "fr": "piège",
+    "cs": "past",
+    "pl": "pułapka",
+    "tr": "tuzak",
+    "de": "Falle",
+    "ja": "わな"
+   }
+  },
+  {
+   "parola": "l'aragosta",
+   "forme": [
+    "aragoste"
+   ],
+   "formeEsempi": [
+    "aragosta"
+   ],
+   "esempi": [
+    "L'aragosta vive sul fondo del mare.",
+    "Le aragoste sono rosse quando sono cotte.",
+    "Il pescatore cerca aragoste."
+   ],
+   "traduzioni": {
+    "en": "lobster",
+    "es": "langosta",
+    "pt": "lagosta",
+    "fr": "langouste, homard",
+    "cs": "langusta",
+    "pl": "langusta, homar",
+    "tr": "ıstakoz",
+    "de": "Languste, Hummer",
+    "ja": "イセエビ、ロブスター"
+   }
+  },
+  {
+   "parola": "ferito",
+   "forme": [
+    "ferito"
+   ],
+   "formeEsempi": [
+    "ferita"
+   ],
+   "esempi": [
+    "L'uccello ferito non vola.",
+    "È ferito a una gamba.",
+    "Portiamo il cane ferito dal veterinario."
+   ],
+   "traduzioni": {
+    "en": "injured, hurt",
+    "es": "herido",
+    "pt": "ferido",
+    "fr": "blessé",
+    "cs": "zraněný",
+    "pl": "ranny",
+    "tr": "yaralı",
+    "de": "verletzt",
+    "ja": "けがをした"
+   }
+  },
+  {
+   "parola": "guarire",
+   "forme": [
+    "guarito"
+   ],
+   "formeEsempi": [
+    "guarire"
+   ],
+   "esempi": [
+    "Sono guarito dall'influenza.",
+    "Spero di guarire presto.",
+    "Il gatto è guarito."
+   ],
+   "traduzioni": {
+    "en": "to heal, to get better",
+    "es": "curarse",
+    "pt": "sarar, curar-se",
+    "fr": "guérir",
+    "cs": "uzdravit se",
+    "pl": "wyzdrowieć",
+    "tr": "iyileşmek",
+    "de": "gesund werden",
+    "ja": "治る"
+   }
+  },
+  {
+   "parola": "il visitatore",
+   "forme": [
+    "visitatori"
+   ],
+   "formeEsempi": [
+    "visitatore"
+   ],
+   "esempi": [
+    "Il museo ha molti visitatori.",
+    "I visitatori fanno foto.",
+    "Ogni visitatore paga dieci euro."
+   ],
+   "traduzioni": {
+    "en": "visitor",
+    "es": "visitante",
+    "pt": "visitante",
+    "fr": "visiteur",
+    "cs": "návštěvník",
+    "pl": "zwiedzający",
+    "tr": "ziyaretçi",
+    "de": "Besucher",
+    "ja": "来館者、訪問者"
+   }
+  },
+  {
+   "parola": "il carattere",
+   "forme": [
+    "carattere"
+   ],
+   "esempi": [
+    "Ha un carattere allegro.",
+    "Mio padre ha un carattere difficile.",
+    "Il gatto ha carattere."
+   ],
+   "traduzioni": {
+    "en": "character, personality",
+    "es": "carácter",
+    "pt": "caráter, personalidade",
+    "fr": "caractère",
+    "cs": "povaha",
+    "pl": "charakter",
+    "tr": "karakter, mizaç",
+    "de": "Charakter",
+    "ja": "性格"
+   }
+  },
+  {
+   "parola": "curioso",
+   "forme": [
+    "curioso"
+   ],
+   "formeEsempi": [
+    "curiosa",
+    "curiosi"
+   ],
+   "esempi": [
+    "I bambini sono curiosi.",
+    "Sono curioso di vedere il film.",
+    "È una storia curiosa."
+   ],
+   "traduzioni": {
+    "en": "curious",
+    "es": "curioso",
+    "pt": "curioso",
+    "fr": "curieux",
+    "cs": "zvědavý",
+    "pl": "ciekawski, ciekawy",
+    "tr": "meraklı",
+    "de": "neugierig",
+    "ja": "好奇心の強い"
+   }
+  },
+  {
+   "parola": "lo spazio",
+   "forme": [
+    "spazio"
+   ],
+   "esempi": [
+    "In macchina non c'è spazio.",
+    "Fammi spazio sul divano.",
+    "Gli astronauti vanno nello spazio."
+   ],
+   "traduzioni": {
+    "en": "space, gap",
+    "es": "espacio",
+    "pt": "espaço",
+    "fr": "espace, place",
+    "cs": "prostor, místo",
+    "pl": "miejsce, przestrzeń",
+    "tr": "alan, boşluk",
+    "de": "Platz, Raum",
+    "ja": "すき間、空間"
+   }
+  },
+  {
+   "parola": "il pavimento",
+   "forme": [
+    "pavimento"
+   ],
+   "esempi": [
+    "Il pavimento è bagnato.",
+    "Il bambino gioca sul pavimento.",
+    "Lavo il pavimento ogni sabato."
+   ],
+   "traduzioni": {
+    "en": "floor",
+    "es": "suelo, piso",
+    "pt": "chão, piso",
+    "fr": "sol, plancher",
+    "cs": "podlaha",
+    "pl": "podłoga",
+    "tr": "zemin, yer",
+    "de": "Fußboden",
+    "ja": "床"
+   }
+  },
+  {
+   "parola": "attraversare",
+   "forme": [
+    "attraversato"
+   ],
+   "formeEsempi": [
+    "attraversa",
+    "attraversare"
+   ],
+   "esempi": [
+    "Attraversa la strada sulle strisce.",
+    "Abbiamo attraversato il ponte.",
+    "Il fiume attraversa la città."
+   ],
+   "traduzioni": {
+    "en": "to cross",
+    "es": "cruzar, atravesar",
+    "pt": "atravessar",
+    "fr": "traverser",
+    "cs": "přejít",
+    "pl": "przejść przez",
+    "tr": "karşıdan karşıya geçmek",
+    "de": "überqueren",
+    "ja": "横切る、渡る"
+   }
+  },
+  {
+   "parola": "il tubo",
+   "forme": [
+    "tubo"
+   ],
+   "esempi": [
+    "Il tubo dell'acqua è rotto.",
+    "Bagno il giardino con il tubo.",
+    "L'acqua passa nel tubo."
+   ],
+   "traduzioni": {
+    "en": "pipe, tube, hose",
+    "es": "tubo",
+    "pt": "cano, tubo",
+    "fr": "tuyau",
+    "cs": "trubka, hadice",
+    "pl": "rura, wąż",
+    "tr": "boru, hortum",
+    "de": "Rohr, Schlauch",
+    "ja": "管、パイプ"
+   }
+  },
+  {
+   "parola": "finire",
+   "forme": [
+    "finiva"
+   ],
+   "formeEsempi": [
+    "finisce",
+    "finito"
+   ],
+   "esempi": [
+    "La lezione finisce alle dieci.",
+    "La strada finiva al mare.",
+    "Hai finito i compiti?"
+   ],
+   "traduzioni": {
+    "en": "to end, to finish",
+    "es": "terminar, acabar",
+    "pt": "terminar, acabar",
+    "fr": "finir",
+    "cs": "končit",
+    "pl": "kończyć się",
+    "tr": "bitmek",
+    "de": "enden",
+    "ja": "終わる"
+   }
+  },
+  {
+   "parola": "il custode",
+   "forme": [
+    "custodi"
+   ],
+   "formeEsempi": [
+    "custode"
+   ],
+   "esempi": [
+    "Il custode apre il museo alle nove.",
+    "Chiedi al custode le chiavi.",
+    "I custodi controllano le sale."
+   ],
+   "traduzioni": {
+    "en": "keeper, caretaker",
+    "es": "cuidador, guarda",
+    "pt": "zelador, tratador",
+    "fr": "gardien",
+    "cs": "správce, ošetřovatel",
+    "pl": "opiekun, dozorca",
+    "tr": "bekçi, bakıcı",
+    "de": "Wärter, Hausmeister",
+    "ja": "管理人、飼育係"
+   }
+  },
+  {
+   "parola": "la traccia",
+   "forme": [
+    "tracce"
+   ],
+   "formeEsempi": [
+    "traccia"
+   ],
+   "esempi": [
+    "Sulla neve ci sono tracce di animali.",
+    "Il ladro non ha lasciato tracce.",
+    "Segui la traccia!"
+   ],
+   "traduzioni": {
+    "en": "trace, track, mark",
+    "es": "huella, rastro",
+    "pt": "rastro, marca",
+    "fr": "trace",
+    "cs": "stopa",
+    "pl": "ślad",
+    "tr": "iz",
+    "de": "Spur",
+    "ja": "跡、痕跡"
+   }
+  },
+  {
+   "parola": "bagnato",
+   "forme": [
+    "bagnate"
+   ],
+   "formeEsempi": [
+    "bagnato",
+    "bagnata",
+    "bagnati"
+   ],
+   "esempi": [
+    "Ho i capelli bagnati.",
+    "Il pavimento è bagnato.",
+    "La strada è bagnata dalla pioggia."
+   ],
+   "traduzioni": {
+    "en": "wet",
+    "es": "mojado",
+    "pt": "molhado",
+    "fr": "mouillé",
+    "cs": "mokrý",
+    "pl": "mokry",
+    "tr": "ıslak",
+    "de": "nass",
+    "ja": "濡れた"
+   }
+  },
+  {
+   "parola": "dappertutto",
+   "forme": [
+    "dappertutto"
+   ],
+   "esempi": [
+    "Ho cercato le chiavi dappertutto.",
+    "C'è sabbia dappertutto.",
+    "Lo conoscono dappertutto."
+   ],
+   "traduzioni": {
+    "en": "everywhere",
+    "es": "por todas partes",
+    "pt": "em toda parte",
+    "fr": "partout",
+    "cs": "všude",
+    "pl": "wszędzie",
+    "tr": "her yerde",
+    "de": "überall",
+    "ja": "どこでも、至る所に"
+   }
+  },
+  {
+   "parola": "scappare",
+   "forme": [
+    "scappato"
+   ],
+   "formeEsempi": [
+    "scappa",
+    "scappare"
+   ],
+   "esempi": [
+    "Il cane è scappato dal giardino.",
+    "Scusa, devo scappare!",
+    "Il gatto scappa quando vede il cane."
+   ],
+   "traduzioni": {
+    "en": "to escape, to run away",
+    "es": "escaparse",
+    "pt": "fugir",
+    "fr": "s'échapper, s'enfuir",
+    "cs": "utéct",
+    "pl": "uciec",
+    "tr": "kaçmak",
+    "de": "entkommen, weglaufen",
+    "ja": "逃げる"
+   }
+  },
+  {
+   "parola": "stretto",
+   "forme": [
+    "stretto"
+   ],
+   "formeEsempi": [
+    "stretta",
+    "stretti"
+   ],
+   "esempi": [
+    "La strada è stretta.",
+    "Questi pantaloni sono stretti.",
+    "Il passaggio è molto stretto."
+   ],
+   "traduzioni": {
+    "en": "narrow, tight",
+    "es": "estrecho",
+    "pt": "estreito, apertado",
+    "fr": "étroit, serré",
+    "cs": "úzký, těsný",
+    "pl": "wąski, ciasny",
+    "tr": "dar",
+    "de": "eng, schmal",
+    "ja": "狭い、きつい"
+   }
+  },
+  {
+   "parola": "duro",
+   "forme": [
+    "dura"
+   ],
+   "formeEsempi": [
+    "duro"
+   ],
+   "esempi": [
+    "Il pane di ieri è duro.",
+    "È una giornata dura.",
+    "La sedia è troppo dura."
+   ],
+   "traduzioni": {
+    "en": "hard",
+    "es": "duro",
+    "pt": "duro",
+    "fr": "dur",
+    "cs": "tvrdý",
+    "pl": "twardy",
+    "tr": "sert",
+    "de": "hart",
+    "ja": "かたい"
+   }
+  },
+  {
+   "parola": "il becco",
+   "forme": [
+    "becco"
+   ],
+   "esempi": [
+    "L'uccello ha il becco giallo.",
+    "La gallina apre il becco.",
+    "Il pappagallo ha un becco forte."
+   ],
+   "traduzioni": {
+    "en": "beak",
+    "es": "pico",
+    "pt": "bico",
+    "fr": "bec",
+    "cs": "zobák",
+    "pl": "dziób",
+    "tr": "gaga",
+    "de": "Schnabel",
+    "ja": "くちばし"
+   }
+  },
+  {
+   "parola": "il barattolo",
+   "forme": [
+    "barattoli"
+   ],
+   "formeEsempi": [
+    "barattolo"
+   ],
+   "esempi": [
+    "Apri il barattolo di marmellata.",
+    "Il caffè è in quel barattolo.",
+    "Ho dei barattoli vuoti."
+   ],
+   "traduzioni": {
+    "en": "jar",
+    "es": "tarro, bote",
+    "pt": "pote",
+    "fr": "pot, bocal",
+    "cs": "sklenice, dóza",
+    "pl": "słoik",
+    "tr": "kavanoz",
+    "de": "Glas, Dose",
+    "ja": "びん、容器"
+   }
+  },
+  {
+   "parola": "rubare",
+   "forme": [
+    "rubato"
+   ],
+   "formeEsempi": [
+    "ruba"
+   ],
+   "esempi": [
+    "Mi hanno rubato la bici.",
+    "Il gatto ruba il pesce.",
+    "Non si ruba!"
+   ],
+   "traduzioni": {
+    "en": "to steal",
+    "es": "robar",
+    "pt": "roubar",
+    "fr": "voler",
+    "cs": "ukrást",
+    "pl": "ukraść",
+    "tr": "çalmak",
+    "de": "stehlen",
+    "ja": "盗む"
+   }
+  },
+  {
+   "parola": "spegnere",
+   "forme": [
+    "spento"
+   ],
+   "formeEsempi": [
+    "spegni"
+   ],
+   "esempi": [
+    "Spegni la luce, per favore.",
+    "Ho spento il telefono.",
+    "Chi ha spento la TV?"
+   ],
+   "traduzioni": {
+    "en": "to switch off, to put out",
+    "es": "apagar",
+    "pt": "desligar, apagar",
+    "fr": "éteindre",
+    "cs": "vypnout, zhasnout",
+    "pl": "wyłączyć, zgasić",
+    "tr": "kapatmak, söndürmek",
+    "de": "ausschalten",
+    "ja": "消す"
+   }
+  },
+  {
+   "parola": "lo spruzzo",
+   "forme": [
+    "spruzzo"
+   ],
+   "esempi": [
+    "Uno spruzzo d'acqua mi ha bagnato.",
+    "Metti uno spruzzo di profumo.",
+    "Il delfino fa uno spruzzo."
+   ],
+   "traduzioni": {
+    "en": "spray, squirt",
+    "es": "chorro, rociada",
+    "pt": "esguicho, jato",
+    "fr": "jet, giclée",
+    "cs": "postřik, stříknutí",
+    "pl": "strumień, bryzg",
+    "tr": "fışkırtma",
+    "de": "Spritzer",
+    "ja": "しぶき、噴射"
+   }
+  },
+  {
+   "parola": "probabilmente",
+   "forme": [
+    "probabilmente"
+   ],
+   "esempi": [
+    "Domani probabilmente piove.",
+    "Probabilmente arrivo tardi.",
+    "È probabilmente il migliore."
+   ],
+   "traduzioni": {
+    "en": "probably",
+    "es": "probablemente",
+    "pt": "provavelmente",
+    "fr": "probablement",
+    "cs": "pravděpodobně",
+    "pl": "prawdopodobnie",
+    "tr": "muhtemelen",
+    "de": "wahrscheinlich",
+    "ja": "たぶん"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "Luca is eight. Today he's at the Genoa Aquarium with his grandmother. In front of a big tank there is a guide.",
+    "– Children, how many hearts do you have? – asks the guide.\n– One! – answers Luca.\n– Right. You have one heart, I have one heart, Grandma has one heart. And the octopus? The octopus has three hearts!\n– Three? Why?",
+    "– Two hearts send blood to the gills: that's how the octopus breathes underwater. The third heart sends blood to the whole body.",
+    "Luca looks at the octopus. The octopus is red. Then it turns white. Then it turns brown.",
+    "– Does it have red blood too, like us?\n– No. We have red blood. The octopus has blue blood!",
+    "– And now a difficult question, – says the guide. – How many brains does the octopus have?\n– One? – says Luca.\n– The octopus has a brain in its head. But it has eight arms, and each arm has a little «brain». The arm touches a stone, feels the taste and decides by itself. That's why many people say: the octopus has nine brains.",
+    "Luca looks at his hands.\n– I have two hands, but my hands don't have a brain!\n– No, – laughs the guide. – And the octopus has no bones. Its body is soft: it can even get through a very small hole.",
+    "At that moment the octopus isn't there any more. The tank looks empty.\n– Where is it? – asks Grandma.",
+    "Luca points at an old pot on the bottom. An arm comes out of it. Then another one.",
+    "– Grandma, I have one heart and one brain. The octopus has three hearts and nine brains. Who wins?\nGrandma smiles:\n– I don't know. But it has blue blood: it's a king!"
+   ],
+   "a2": [
+    "In 2016 newspapers all over the world told a true story. The main character is an octopus called Inky.",
+    "A few years earlier a fisherman found Inky in a lobster trap, in New Zealand. The octopus was injured, and the fisherman took it to the aquarium in the town of Napier. There Inky got better and became famous: visitors loved its curious character.",
+    "One night, though, someone left a small gap open above its tank. Inky got out of the water. It went down onto the floor and crossed the room. On the other side it found the opening of a pipe and went in. The pipe was about fifty metres long and ended in the sea.",
+    "The next morning the keepers found the tank empty. On the floor they saw wet marks. They looked for Inky everywhere, but they never found it again. Inky had escaped.",
+    "How did it get through such a narrow pipe? The octopus has no bones: its soft body can get through almost any hole. The only hard part is the beak, that is, the mouth. If the beak gets through, the whole octopus gets through.",
+    "And how did it understand where to go? Nobody knows. But the octopus is very intelligent: it has a brain in its head and a kind of little brain in each arm. In aquariums all over the world octopuses have opened jars, stolen food from other tanks and even switched off the lights with a squirt of water.",
+    "Today nobody knows where Inky is. But it probably did the simplest thing in the world: it went home, to the sea."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Luca tiene ocho años. Hoy está en el Acuario de Génova con su abuela. Delante de un tanque grande hay una guía.",
+    "– Niños, ¿cuántos corazones tenéis? – pregunta la guía.\n– ¡Uno! – responde Luca.\n– Correcto. Tú tienes un corazón, yo tengo un corazón, la abuela tiene un corazón. ¿Y el pulpo? ¡El pulpo tiene tres corazones!\n– ¿Tres? ¿Por qué?",
+    "– Dos corazones mandan la sangre a las branquias: así el pulpo respira bajo el agua. El tercer corazón manda la sangre a todo el cuerpo.",
+    "Luca mira el pulpo. El pulpo es rojo. Luego se vuelve blanco. Luego se vuelve marrón.",
+    "– ¿También tiene la sangre roja, como nosotros?\n– No. Nosotros tenemos la sangre roja. ¡El pulpo tiene la sangre azul!",
+    "– Y ahora una pregunta difícil, – dice la guía. – ¿Cuántos cerebros tiene el pulpo?\n– ¿Uno? – dice Luca.\n– El pulpo tiene un cerebro en la cabeza. Pero tiene ocho brazos, y cada brazo tiene un pequeño «cerebro». El brazo toca una piedra, siente el sabor y decide solo. Por eso mucha gente dice: el pulpo tiene nueve cerebros.",
+    "Luca se mira las manos.\n– Yo tengo dos manos, ¡pero mis manos no tienen cerebro!\n– No, – se ríe la guía. – Y el pulpo no tiene huesos. Su cuerpo es blando: pasa incluso por un agujero muy pequeño.",
+    "En ese momento el pulpo ya no está. El tanque parece vacío.\n– ¿Dónde está? – pregunta la abuela.",
+    "Luca señala un jarrón viejo en el fondo. De ahí sale un brazo. Luego otro.",
+    "– Abuela, yo tengo un corazón y un cerebro. El pulpo tiene tres corazones y nueve cerebros. ¿Quién gana?\nLa abuela sonríe:\n– No lo sé. Pero él tiene la sangre azul: ¡es un rey!"
+   ],
+   "a2": [
+    "En 2016 los periódicos de todo el mundo contaron una historia real. El protagonista es un pulpo que se llama Inky.",
+    "Unos años antes, un pescador encontró a Inky en una trampa para langostas, en Nueva Zelanda. El pulpo estaba herido, y el pescador lo llevó al acuario de la ciudad de Napier. Allí Inky se curó y se hizo famoso: a los visitantes les encantó su carácter curioso.",
+    "Una noche, sin embargo, alguien dejó un pequeño espacio abierto encima de su tanque. Inky salió del agua. Bajó al suelo y cruzó la sala. Al otro lado encontró el agujero de un tubo y entró. El tubo medía unos cincuenta metros y terminaba en el mar.",
+    "A la mañana siguiente los cuidadores encontraron el tanque vacío. En el suelo vieron unas huellas mojadas. Buscaron a Inky por todas partes, pero no lo encontraron nunca más. Inky se había escapado.",
+    "¿Cómo pudo pasar por un tubo tan estrecho? El pulpo no tiene huesos: su cuerpo blando pasa por casi cualquier agujero. La única parte dura es el pico, es decir, la boca. Si pasa el pico, pasa todo el pulpo.",
+    "¿Y cómo entendió adónde ir? Nadie lo sabe. Pero el pulpo es muy inteligente: tiene un cerebro en la cabeza y una especie de pequeño cerebro en cada brazo. En acuarios de todo el mundo los pulpos han abierto tarros, han robado comida de otros tanques y hasta han apagado las luces con un chorro de agua.",
+    "Hoy nadie sabe dónde está Inky. Pero probablemente hizo la cosa más sencilla del mundo: volvió a casa, al mar."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "O Luca tem oito anos. Hoje ele está no Aquário de Gênova com a avó. Diante de um tanque grande há uma guia.",
+    "– Crianças, quantos corações vocês têm? – pergunta a guia.\n– Um! – responde o Luca.\n– Certo. Você tem um coração, eu tenho um coração, a vovó tem um coração. E o polvo? O polvo tem três corações!\n– Três? Por quê?",
+    "– Dois corações mandam o sangue para as brânquias: assim o polvo respira debaixo d'água. O terceiro coração manda o sangue para o corpo todo.",
+    "O Luca olha o polvo. O polvo é vermelho. Depois fica branco. Depois fica marrom.",
+    "– Ele também tem sangue vermelho, como nós?\n– Não. Nós temos sangue vermelho. O polvo tem sangue azul!",
+    "– E agora uma pergunta difícil, – diz a guia. – Quantos cérebros tem o polvo?\n– Um? – diz o Luca.\n– O polvo tem um cérebro na cabeça. Mas tem oito braços, e cada braço tem um pequeno «cérebro». O braço toca uma pedra, sente o gosto e decide sozinho. Por isso muita gente diz: o polvo tem nove cérebros.",
+    "O Luca olha as próprias mãos.\n– Eu tenho duas mãos, mas as minhas mãos não têm cérebro!\n– Não, – ri a guia. – E o polvo não tem ossos. O corpo dele é mole: passa até por um buraco muito pequeno.",
+    "Nesse momento o polvo não está mais lá. O tanque parece vazio.\n– Cadê ele? – pergunta a avó.",
+    "O Luca aponta um vaso velho no fundo. Dali sai um braço. Depois outro.",
+    "– Vovó, eu tenho um coração e um cérebro. O polvo tem três corações e nove cérebros. Quem ganha?\nA avó sorri:\n– Não sei. Mas ele tem sangue azul: é um rei!"
+   ],
+   "a2": [
+    "Em 2016 os jornais do mundo todo contaram uma história verdadeira. O protagonista é um polvo chamado Inky.",
+    "Alguns anos antes, um pescador encontrou o Inky numa armadilha para lagostas, na Nova Zelândia. O polvo estava ferido, e o pescador o levou ao aquário da cidade de Napier. Lá o Inky sarou e ficou famoso: os visitantes adoraram o seu jeito curioso.",
+    "Uma noite, porém, alguém deixou um pequeno espaço aberto em cima do tanque dele. O Inky saiu da água. Desceu até o chão e atravessou a sala. Do outro lado encontrou a abertura de um cano e entrou. O cano tinha uns cinquenta metros e terminava no mar.",
+    "Na manhã seguinte os tratadores encontraram o tanque vazio. No chão viram umas marcas molhadas. Procuraram o Inky em toda parte, mas nunca mais o encontraram. O Inky tinha fugido.",
+    "Como ele conseguiu passar por um cano tão estreito? O polvo não tem ossos: o seu corpo mole passa por quase qualquer buraco. A única parte dura é o bico, ou seja, a boca. Se o bico passa, o polvo inteiro passa.",
+    "E como ele entendeu para onde ir? Ninguém sabe. Mas o polvo é muito inteligente: tem um cérebro na cabeça e uma espécie de pequeno cérebro em cada braço. Em aquários do mundo todo, os polvos já abriram potes, roubaram comida de outros tanques e até apagaram as luzes com um esguicho de água.",
+    "Hoje ninguém sabe onde o Inky está. Mas provavelmente ele fez a coisa mais simples do mundo: voltou para casa, para o mar."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Luca a huit ans. Aujourd'hui, il est à l'Aquarium de Gênes avec sa grand-mère. Devant un grand bassin, il y a une guide.",
+    "– Les enfants, combien de cœurs avez-vous ? – demande la guide.\n– Un ! – répond Luca.\n– C'est juste. Tu as un cœur, j'ai un cœur, ta mamie a un cœur. Et la pieuvre ? La pieuvre a trois cœurs !\n– Trois ? Pourquoi ?",
+    "– Deux cœurs envoient le sang aux branchies : comme ça, la pieuvre respire sous l'eau. Le troisième cœur envoie le sang dans tout le corps.",
+    "Luca regarde la pieuvre. La pieuvre est rouge. Puis elle devient blanche. Puis elle devient marron.",
+    "– Elle a le sang rouge aussi, comme nous ?\n– Non. Nous, nous avons le sang rouge. La pieuvre a le sang bleu !",
+    "– Et maintenant, une question difficile, – dit la guide. – Combien de cerveaux a la pieuvre ?\n– Un ? – dit Luca.\n– La pieuvre a un cerveau dans la tête. Mais elle a huit bras, et chaque bras a un petit « cerveau ». Le bras touche un caillou, sent le goût et décide tout seul. C'est pour ça que beaucoup de gens disent : la pieuvre a neuf cerveaux.",
+    "Luca regarde ses mains.\n– Moi, j'ai deux mains, mais mes mains n'ont pas de cerveau !\n– Non, – rit la guide. – Et la pieuvre n'a pas d'os. Son corps est mou : il passe même dans un tout petit trou.",
+    "À ce moment-là, la pieuvre n'est plus là. Le bassin a l'air vide.\n– Où est-elle ? – demande la grand-mère.",
+    "Luca montre du doigt un vieux vase au fond. Un bras en sort. Puis un autre.",
+    "– Mamie, j'ai un cœur et un cerveau. La pieuvre a trois cœurs et neuf cerveaux. Qui gagne ?\nLa grand-mère sourit :\n– Je ne sais pas. Mais elle a le sang bleu : c'est une reine !"
+   ],
+   "a2": [
+    "En 2016, les journaux du monde entier ont raconté une histoire vraie. Le héros est un poulpe qui s'appelle Inky.",
+    "Quelques années plus tôt, un pêcheur avait trouvé Inky dans un casier à langoustes, en Nouvelle-Zélande. Le poulpe était blessé, et le pêcheur l'a apporté à l'aquarium de la ville de Napier. Là, Inky a guéri et il est devenu célèbre : les visiteurs ont adoré son caractère curieux.",
+    "Une nuit, pourtant, quelqu'un a laissé un petit espace ouvert au-dessus de son bassin. Inky est sorti de l'eau. Il est descendu sur le sol et il a traversé la pièce. De l'autre côté, il a trouvé l'ouverture d'un tuyau et il est entré. Le tuyau mesurait environ cinquante mètres et finissait dans la mer.",
+    "Le lendemain matin, les gardiens ont trouvé le bassin vide. Sur le sol, ils ont vu des traces mouillées. Ils ont cherché Inky partout, mais ils ne l'ont jamais retrouvé. Inky s'était échappé.",
+    "Comment a-t-il fait pour passer dans un tuyau aussi étroit ? Le poulpe n'a pas d'os : son corps mou passe dans presque n'importe quel trou. La seule partie dure, c'est le bec, c'est-à-dire la bouche. Si le bec passe, tout le poulpe passe.",
+    "Et comment a-t-il compris où aller ? Personne ne le sait. Mais le poulpe est très intelligent : il a un cerveau dans la tête et une sorte de petit cerveau dans chaque bras. Dans les aquariums du monde entier, des poulpes ont ouvert des bocaux, volé la nourriture des autres bassins et même éteint les lumières avec un jet d'eau.",
+    "Aujourd'hui, personne ne sait où est Inky. Mais il a probablement fait la chose la plus simple du monde : il est rentré chez lui, dans la mer."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Lukovi je osm let. Dnes je s babičkou v akváriu v Janově. Před velkou nádrží stojí průvodkyně.",
+    "– Děti, kolik máte srdcí? – ptá se průvodkyně.\n– Jedno! – odpoví Luca.\n– Správně. Ty máš jedno srdce, já mám jedno srdce, babička má jedno srdce. A chobotnice? Chobotnice má tři srdce!\n– Tři? Proč?",
+    "– Dvě srdce posílají krev do žaber: tak chobotnice dýchá pod vodou. Třetí srdce posílá krev do celého těla.",
+    "Luca se dívá na chobotnici. Chobotnice je červená. Pak zbělá. Pak zhnědne.",
+    "– Má taky červenou krev jako my?\n– Ne. My máme červenou krev. Chobotnice má modrou krev!",
+    "– A teď těžká otázka, – říká průvodkyně. – Kolik mozků má chobotnice?\n– Jeden? – říká Luca.\n– Chobotnice má mozek v hlavě. Ale má osm ramen a každé rameno má malý „mozek“. Rameno se dotkne kamene, ucítí chuť a rozhodne se samo. Proto hodně lidí říká: chobotnice má devět mozků.",
+    "Luca se podívá na své ruce.\n– Já mám dvě ruce, ale moje ruce nemají mozek!\n– Nemají, – směje se průvodkyně. – A chobotnice nemá kosti. Její tělo je měkké: projde i velmi malou dírou.",
+    "V tu chvíli už chobotnice není vidět. Nádrž vypadá prázdná.\n– Kde je? – ptá se babička.",
+    "Luca ukáže na starou nádobu na dně. Odtud vyleze jedno rameno. Pak další.",
+    "– Babi, já mám jedno srdce a jeden mozek. Chobotnice má tři srdce a devět mozků. Kdo vyhraje?\nBabička se usměje:\n– Nevím. Ale ona má modrou krev: je to královna!"
+   ],
+   "a2": [
+    "V roce 2016 vyprávěly noviny po celém světě skutečný příběh. Hlavní postavou je chobotnice jménem Inky.",
+    "O několik let dřív našel jeden rybář Inkyho v pasti na langusty na Novém Zélandu. Chobotnice byla zraněná a rybář ji odnesl do akvária ve městě Napier. Tam se Inky uzdravil a stal se slavným: návštěvníci si zamilovali jeho zvědavou povahu.",
+    "Jedné noci ale někdo nechal nad jeho nádrží malou mezeru. Inky vylezl z vody. Slezl na podlahu a přešel místnost. Na druhé straně našel otvor trubky a vlezl do něj. Trubka byla dlouhá asi padesát metrů a končila v moři.",
+    "Druhý den ráno našli ošetřovatelé nádrž prázdnou. Na podlaze viděli mokré stopy. Hledali Inkyho všude, ale už ho nikdy nenašli. Inky utekl.",
+    "Jak dokázal projít tak úzkou trubkou? Chobotnice nemá kosti: její měkké tělo projde skoro každou dírou. Jediná tvrdá část je zobák, tedy ústa. Když projde zobák, projde celá chobotnice.",
+    "A jak věděl, kam jít? To nikdo neví. Ale chobotnice je velmi inteligentní: má mozek v hlavě a jakýsi malý mozek v každém rameni. V akváriích po celém světě chobotnice otevíraly sklenice, kradly jídlo z jiných nádrží a dokonce zhasínaly světla stříknutím vody.",
+    "Dnes nikdo neví, kde Inky je. Ale nejspíš udělal tu nejjednodušší věc na světě: vrátil se domů, do moře."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Luca ma osiem lat. Dziś jest z babcią w Akwarium w Genui. Przed dużym zbiornikiem stoi przewodniczka.",
+    "– Dzieci, ile macie serc? – pyta przewodniczka.\n– Jedno! – odpowiada Luca.\n– Dobrze. Ty masz jedno serce, ja mam jedno serce, babcia ma jedno serce. A ośmiornica? Ośmiornica ma trzy serca!\n– Trzy? Dlaczego?",
+    "– Dwa serca wysyłają krew do skrzeli: dzięki temu ośmiornica oddycha pod wodą. Trzecie serce wysyła krew do całego ciała.",
+    "Luca patrzy na ośmiornicę. Ośmiornica jest czerwona. Potem robi się biała. Potem robi się brązowa.",
+    "– Ma też czerwoną krew, tak jak my?\n– Nie. My mamy czerwoną krew. Ośmiornica ma niebieską krew!",
+    "– A teraz trudne pytanie, – mówi przewodniczka. – Ile mózgów ma ośmiornica?\n– Jeden? – mówi Luca.\n– Ośmiornica ma mózg w głowie. Ale ma osiem ramion, a każde ramię ma mały „mózg”. Ramię dotyka kamienia, czuje smak i samo decyduje. Dlatego wiele osób mówi: ośmiornica ma dziewięć mózgów.",
+    "Luca patrzy na swoje ręce.\n– Ja mam dwie ręce, ale moje ręce nie mają mózgu!\n– Nie, – śmieje się przewodniczka. – A ośmiornica nie ma kości. Jej ciało jest miękkie: przechodzi nawet przez bardzo małą dziurę.",
+    "W tym momencie ośmiornicy już nie ma. Zbiornik wygląda na pusty.\n– Gdzie ona jest? – pyta babcia.",
+    "Luca wskazuje stary dzban na dnie. Stamtąd wychodzi jedno ramię. Potem drugie.",
+    "– Babciu, ja mam jedno serce i jeden mózg. Ośmiornica ma trzy serca i dziewięć mózgów. Kto wygrywa?\nBabcia się uśmiecha:\n– Nie wiem. Ale ona ma niebieską krew: to królowa!"
+   ],
+   "a2": [
+    "W 2016 roku gazety na całym świecie opowiedziały prawdziwą historię. Jej bohaterem jest ośmiornica o imieniu Inky.",
+    "Kilka lat wcześniej pewien rybak znalazł Inky'ego w pułapce na langusty w Nowej Zelandii. Ośmiornica była ranna, a rybak zaniósł ją do akwarium w mieście Napier. Tam Inky wyzdrowiał i stał się sławny: zwiedzający pokochali jego ciekawski charakter.",
+    "Pewnej nocy jednak ktoś zostawił małą szczelinę nad jego zbiornikiem. Inky wyszedł z wody. Zszedł na podłogę i przeszedł przez pokój. Po drugiej stronie znalazł otwór rury i wszedł do środka. Rura miała około pięćdziesięciu metrów i kończyła się w morzu.",
+    "Następnego ranka opiekunowie znaleźli pusty zbiornik. Na podłodze zobaczyli mokre ślady. Szukali Inky'ego wszędzie, ale już nigdy go nie znaleźli. Inky uciekł.",
+    "Jak udało mu się przejść przez tak wąską rurę? Ośmiornica nie ma kości: jej miękkie ciało przechodzi przez prawie każdą dziurę. Jedyna twarda część to dziób, czyli pyszczek. Jeśli przejdzie dziób, przejdzie cała ośmiornica.",
+    "A skąd wiedział, dokąd iść? Nikt tego nie wie. Ale ośmiornica jest bardzo inteligentna: ma mózg w głowie i coś w rodzaju małego mózgu w każdym ramieniu. W akwariach na całym świecie ośmiornice otwierały słoiki, kradły jedzenie z innych zbiorników, a nawet gasiły światło strumieniem wody.",
+    "Dziś nikt nie wie, gdzie jest Inky. Ale prawdopodobnie zrobił najprostszą rzecz na świecie: wrócił do domu, do morza."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Luca sekiz yaşında. Bugün büyükannesiyle Cenova Akvaryumu'nda. Büyük bir havuzun önünde bir rehber var.",
+    "– Çocuklar, kaç tane kalbiniz var? – diye sorar rehber.\n– Bir! – diye cevap verir Luca.\n– Doğru. Senin bir kalbin var, benim bir kalbim var, büyükannenin bir kalbi var. Ya ahtapot? Ahtapotun üç kalbi var!\n– Üç mü? Neden?",
+    "– İki kalp kanı solungaçlara gönderir: ahtapot böyle su altında nefes alır. Üçüncü kalp kanı bütün vücuda gönderir.",
+    "Luca ahtapota bakar. Ahtapot kırmızı. Sonra beyaz olur. Sonra kahverengi olur.",
+    "– Onun da bizim gibi kanı kırmızı mı?\n– Hayır. Bizim kanımız kırmızı. Ahtapotun kanı mavi!",
+    "– Ve şimdi zor bir soru, – der rehber. – Ahtapotun kaç beyni var?\n– Bir mi? – der Luca.\n– Ahtapotun başında bir beyni var. Ama sekiz kolu var ve her kolun küçük bir «beyni» var. Kol bir taşa dokunur, tadını alır ve kendi başına karar verir. Bu yüzden pek çok kişi şöyle der: ahtapotun dokuz beyni var.",
+    "Luca ellerine bakar.\n– Benim iki elim var, ama ellerimin beyni yok!\n– Yok, – diye güler rehber. – Ahtapotun kemikleri de yok. Vücudu yumuşak: çok küçük bir delikten bile geçer.",
+    "O anda ahtapot ortada yok. Havuz boş görünüyor.\n– Nerede? – diye sorar büyükanne.",
+    "Luca dipteki eski bir küpü gösterir. Oradan bir kol çıkar. Sonra bir tane daha.",
+    "– Büyükanne, benim bir kalbim ve bir beynim var. Ahtapotun üç kalbi ve dokuz beyni var. Kim kazanır?\nBüyükanne gülümser:\n– Bilmiyorum. Ama onun kanı mavi: o bir kral!"
+   ],
+   "a2": [
+    "2016'da dünyanın her yerindeki gazeteler gerçek bir hikâye anlattı. Hikâyenin kahramanı Inky adında bir ahtapot.",
+    "Birkaç yıl önce bir balıkçı, Yeni Zelanda'da Inky'yi bir ıstakoz tuzağında bulmuştu. Ahtapot yaralıydı ve balıkçı onu Napier şehrindeki akvaryuma götürdü. Inky orada iyileşti ve ünlü oldu: ziyaretçiler onun meraklı karakterini çok sevdi.",
+    "Ama bir gece biri, havuzunun üstünde küçük bir boşluk açık bıraktı. Inky sudan çıktı. Yere indi ve odayı geçti. Öbür tarafta bir borunun ağzını buldu ve içine girdi. Boru yaklaşık elli metre uzunluğundaydı ve denize çıkıyordu.",
+    "Ertesi sabah bakıcılar havuzu boş buldu. Yerde ıslak izler gördüler. Inky'yi her yerde aradılar ama bir daha bulamadılar. Inky kaçmıştı.",
+    "Bu kadar dar bir borudan nasıl geçebildi? Ahtapotun kemikleri yok: yumuşak vücudu neredeyse her delikten geçer. Tek sert kısmı gagası, yani ağzıdır. Gaga geçerse bütün ahtapot geçer.",
+    "Peki nereye gideceğini nasıl anladı? Kimse bilmiyor. Ama ahtapot çok zekidir: başında bir beyni ve her kolunda bir çeşit küçük beyni vardır. Dünyanın dört bir yanındaki akvaryumlarda ahtapotlar kavanoz açtı, başka havuzlardan yiyecek çaldı ve hatta bir su fışkırtmasıyla ışıkları söndürdü.",
+    "Bugün kimse Inky'nin nerede olduğunu bilmiyor. Ama muhtemelen dünyanın en basit şeyini yaptı: evine, denize döndü."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Luca ist acht Jahre alt. Heute ist er mit seiner Oma im Aquarium von Genua. Vor einem großen Becken steht eine Führerin.",
+    "– Kinder, wie viele Herzen habt ihr? – fragt die Führerin.\n– Eins! – antwortet Luca.\n– Richtig. Du hast ein Herz, ich habe ein Herz, die Oma hat ein Herz. Und der Krake? Der Krake hat drei Herzen!\n– Drei? Warum?",
+    "– Zwei Herzen schicken das Blut zu den Kiemen: So atmet der Krake unter Wasser. Das dritte Herz schickt das Blut in den ganzen Körper.",
+    "Luca schaut den Kraken an. Der Krake ist rot. Dann wird er weiß. Dann wird er braun.",
+    "– Hat er auch rotes Blut, wie wir?\n– Nein. Wir haben rotes Blut. Der Krake hat blaues Blut!",
+    "– Und jetzt eine schwierige Frage, – sagt die Führerin. – Wie viele Gehirne hat der Krake?\n– Eins? – sagt Luca.\n– Der Krake hat ein Gehirn im Kopf. Aber er hat acht Arme, und jeder Arm hat ein kleines „Gehirn“. Der Arm berührt einen Stein, spürt den Geschmack und entscheidet allein. Deshalb sagen viele Leute: Der Krake hat neun Gehirne.",
+    "Luca schaut seine Hände an.\n– Ich habe zwei Hände, aber meine Hände haben kein Gehirn!\n– Nein, – lacht die Führerin. – Und der Krake hat keine Knochen. Sein Körper ist weich: Er passt sogar durch ein sehr kleines Loch.",
+    "In diesem Moment ist der Krake nicht mehr da. Das Becken sieht leer aus.\n– Wo ist er? – fragt die Oma.",
+    "Luca zeigt auf eine alte Vase auf dem Grund. Daraus kommt ein Arm. Dann noch einer.",
+    "– Oma, ich habe ein Herz und ein Gehirn. Der Krake hat drei Herzen und neun Gehirne. Wer gewinnt?\nDie Oma lächelt:\n– Ich weiß es nicht. Aber er hat blaues Blut: Er ist ein König!"
+   ],
+   "a2": [
+    "2016 erzählten Zeitungen auf der ganzen Welt eine wahre Geschichte. Die Hauptfigur ist ein Oktopus namens Inky.",
+    "Ein paar Jahre vorher hatte ein Fischer Inky in einer Hummerfalle in Neuseeland gefunden. Der Oktopus war verletzt, und der Fischer brachte ihn ins Aquarium der Stadt Napier. Dort wurde Inky gesund und berühmt: Die Besucher liebten seinen neugierigen Charakter.",
+    "Eines Nachts aber ließ jemand über seinem Becken einen kleinen Spalt offen. Inky stieg aus dem Wasser. Er kletterte auf den Boden hinunter und durchquerte den Raum. Auf der anderen Seite fand er die Öffnung eines Rohrs und kroch hinein. Das Rohr war etwa fünfzig Meter lang und endete im Meer.",
+    "Am nächsten Morgen fanden die Pfleger das Becken leer. Auf dem Boden sahen sie nasse Spuren. Sie suchten Inky überall, aber sie fanden ihn nie wieder. Inky war entkommen.",
+    "Wie konnte er durch ein so enges Rohr passen? Der Oktopus hat keine Knochen: Sein weicher Körper passt durch fast jedes Loch. Der einzige harte Teil ist der Schnabel, also der Mund. Wenn der Schnabel durchpasst, passt der ganze Oktopus durch.",
+    "Und wie hat er verstanden, wohin er gehen musste? Niemand weiß es. Aber der Oktopus ist sehr intelligent: Er hat ein Gehirn im Kopf und eine Art kleines Gehirn in jedem Arm. In Aquarien auf der ganzen Welt haben Kraken Gläser geöffnet, Futter aus anderen Becken gestohlen und sogar mit einem Wasserstrahl das Licht ausgeschaltet.",
+    "Heute weiß niemand, wo Inky ist. Aber wahrscheinlich hat er das Einfachste der Welt getan: Er ist nach Hause zurückgekehrt, ins Meer."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "ルカは8歳です。今日はおばあちゃんといっしょにジェノヴァ水族館に来ています。大きな水槽の前に、ガイドさんがいます。",
+    "「みんな、心臓はいくつある？」とガイドさんがききます。\n「1つ！」とルカが答えます。\n「そのとおり。きみも心臓は1つ、わたしも1つ、おばあちゃんも1つ。じゃあタコは？タコは心臓が3つあるのよ！」\n「3つ？どうして？」",
+    "「2つの心臓は、えらに血を送るの。そうやってタコは水の中で呼吸するのよ。3つ目の心臓は、体じゅうに血を送るの。」",
+    "ルカはタコを見ます。タコは赤いです。それから白くなります。それから茶色くなります。",
+    "「タコも、ぼくたちみたいに血が赤いの？」\n「いいえ。わたしたちの血は赤いけど、タコの血は青いのよ！」",
+    "「じゃあ、こんどはむずかしい質問よ」とガイドさんが言います。「タコには脳がいくつある？」\n「1つ？」とルカが言います。\n「タコは頭に脳が1つあるの。でも腕が8本あって、腕の1本1本に小さな『脳』があるのよ。腕が石にさわると、味を感じて、自分で決めるの。だから、タコには脳が9つあるって言う人がたくさんいるのよ。」",
+    "ルカは自分の手を見ます。\n「ぼくは手が2つあるけど、ぼくの手には脳がないよ！」\n「ないわね」とガイドさんが笑います。「それに、タコには骨がないの。体がやわらかいから、とても小さな穴でも通れるのよ。」",
+    "そのとき、タコがいなくなりました。水槽は空っぽに見えます。\n「どこ？」とおばあちゃんがききます。",
+    "ルカは底にある古いつぼを指さします。そこから腕が1本出てきます。それから、もう1本。",
+    "「おばあちゃん、ぼくは心臓が1つで脳が1つ。タコは心臓が3つで脳が9つ。どっちが勝ち？」\nおばあちゃんはほほえみます。\n「わからないわ。でも、タコは青い血だから、王様ね！」"
+   ],
+   "a2": [
+    "2016年、世界中の新聞が本当にあった話を伝えました。主人公は、インキーという名前のタコです。",
+    "その何年か前、ニュージーランドで、漁師がイセエビ用のわなの中にインキーを見つけました。タコはけがをしていたので、漁師はネーピアという町の水族館に連れていきました。そこでインキーは元気になり、有名になりました。来館者たちは、その好奇心いっぱいの性格が大好きになったのです。",
+    "ところがある夜、だれかが水槽の上に小さなすき間を開けたままにしました。インキーは水から出ました。床におりて、部屋を横切りました。反対側でパイプの穴を見つけて、中に入りました。パイプの長さは約50メートルで、海につながっていました。",
+    "次の朝、飼育係たちは水槽が空っぽなのを見つけました。床には濡れた跡が残っていました。みんなでインキーをあちこちさがしましたが、二度と見つかりませんでした。インキーは逃げたのです。",
+    "あんなに細いパイプを、どうやって通ったのでしょう？タコには骨がありません。やわらかい体は、ほとんどどんな穴でも通れます。かたいところは、くちばし、つまり口だけです。くちばしが通れば、タコ全体が通れるのです。",
+    "では、どこへ行けばいいか、どうしてわかったのでしょう？だれにもわかりません。でもタコはとても頭がいいのです。頭に脳が1つあり、それぞれの腕にも小さな脳のようなものがあります。世界中の水族館で、タコはびんのふたを開けたり、ほかの水槽から食べ物を盗んだり、水を吹きかけて電気を消したりしてきました。",
+    "今、インキーがどこにいるのかはだれも知りません。でもたぶん、世界でいちばん簡単なことをしたのでしょう。家に、つまり海に帰ったのです。"
+   ]
+  }
+ }
+}
