@@ -1,0 +1,1255 @@
+{
+ "id": "i-corvi-non-dimenticano-una-faccia",
+ "nota": "Glossario e traduzione della lettura (A2 e B1 tradotti): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il corvo",
+   "forme": [
+    "corvi",
+    "corvo"
+   ],
+   "esempi": [
+    "Il corvo è un uccello nero.",
+    "Sul tetto ci sono tre corvi.",
+    "I corvi sono molto intelligenti."
+   ],
+   "traduzioni": {
+    "en": "crow",
+    "es": "cuervo",
+    "pt": "corvo",
+    "fr": "corbeau, corneille",
+    "cs": "vrána, havran",
+    "pl": "wrona, kruk",
+    "tr": "karga",
+    "de": "Krähe",
+    "ja": "カラス"
+   }
+  },
+  {
+   "parola": "la maschera",
+   "forme": [
+    "maschera",
+    "maschere"
+   ],
+   "esempi": [
+    "A Carnevale metto una maschera.",
+    "La maschera copre la faccia.",
+    "Le maschere di Venezia sono famose."
+   ],
+   "traduzioni": {
+    "en": "mask",
+    "es": "máscara",
+    "pt": "máscara",
+    "fr": "masque",
+    "cs": "maska",
+    "pl": "maska",
+    "tr": "maske",
+    "de": "Maske",
+    "ja": "お面、マスク"
+   }
+  },
+  {
+   "parola": "la gomma",
+   "forme": [
+    "gomma"
+   ],
+   "esempi": [
+    "Gli stivali sono di gomma.",
+    "Mi presti la gomma?",
+    "Una maschera di gomma."
+   ],
+   "traduzioni": {
+    "en": "rubber (also: eraser)",
+    "es": "goma",
+    "pt": "borracha",
+    "fr": "caoutchouc",
+    "cs": "guma",
+    "pl": "guma",
+    "tr": "lastik, kauçuk",
+    "de": "Gummi",
+    "ja": "ゴム"
+   }
+  },
+  {
+   "parola": "brutto",
+   "forme": [
+    "brutta"
+   ],
+   "formeEsempi": [
+    "brutto"
+   ],
+   "esempi": [
+    "Che brutto tempo oggi!",
+    "Ho fatto un brutto sogno.",
+    "La maschera è brutta."
+   ],
+   "traduzioni": {
+    "en": "ugly, bad",
+    "es": "feo",
+    "pt": "feio",
+    "fr": "laid, moche",
+    "cs": "ošklivý",
+    "pl": "brzydki",
+    "tr": "çirkin, kötü",
+    "de": "hässlich, schlecht",
+    "ja": "醜い、いやな"
+   }
+  },
+  {
+   "parola": "spaventoso",
+   "forme": [
+    "spaventosa"
+   ],
+   "formeEsempi": [
+    "spaventoso"
+   ],
+   "esempi": [
+    "È un film spaventoso.",
+    "La casa è buia e spaventosa.",
+    "Ha un urlo spaventoso."
+   ],
+   "traduzioni": {
+    "en": "scary, frightening",
+    "es": "espantoso, aterrador",
+    "pt": "assustador",
+    "fr": "effrayant",
+    "cs": "strašidelný, děsivý",
+    "pl": "straszny",
+    "tr": "korkunç",
+    "de": "furchterregend, gruselig",
+    "ja": "恐ろしい"
+   }
+  },
+  {
+   "parola": "la rete",
+   "forme": [
+    "rete"
+   ],
+   "esempi": [
+    "Il pescatore getta la rete.",
+    "La palla è finita nella rete.",
+    "Non c'è rete qui."
+   ],
+   "traduzioni": {
+    "en": "net (also: network)",
+    "es": "red",
+    "pt": "rede",
+    "fr": "filet (aussi : réseau)",
+    "cs": "síť",
+    "pl": "sieć",
+    "tr": "ağ",
+    "de": "Netz",
+    "ja": "網（ネットワーク、の意味も）"
+   }
+  },
+  {
+   "parola": "catturare",
+   "forme": [
+    "cattura",
+    "catturati",
+    "catturare",
+    "catturarli"
+   ],
+   "esempi": [
+    "Il gatto cattura un topo.",
+    "La polizia ha catturato il ladro.",
+    "È difficile catturare un corvo."
+   ],
+   "traduzioni": {
+    "en": "to catch, to capture",
+    "es": "capturar, atrapar",
+    "pt": "capturar, pegar",
+    "fr": "capturer, attraper",
+    "cs": "chytit",
+    "pl": "złapać",
+    "tr": "yakalamak",
+    "de": "fangen",
+    "ja": "捕まえる"
+   },
+   "formeEsempi": [
+    "catturato"
+   ]
+  },
+  {
+   "parola": "ferire",
+   "forme": [
+    "ferisce"
+   ],
+   "formeEsempi": [
+    "ferito",
+    "feriscono"
+   ],
+   "esempi": [
+    "Le tue parole mi feriscono.",
+    "Si è ferito con il coltello.",
+    "Il professore non ferisce i corvi."
+   ],
+   "traduzioni": {
+    "en": "to hurt, to injure",
+    "es": "herir",
+    "pt": "ferir, machucar",
+    "fr": "blesser",
+    "cs": "zranit",
+    "pl": "zranić",
+    "tr": "yaralamak",
+    "de": "verletzen",
+    "ja": "傷つける"
+   }
+  },
+  {
+   "parola": "l'anello",
+   "forme": [
+    "anello"
+   ],
+   "esempi": [
+    "Porta un anello d'oro.",
+    "Gli uccelli hanno un anello alla zampa.",
+    "Ho perso l'anello."
+   ],
+   "traduzioni": {
+    "en": "ring (also: bird band)",
+    "es": "anillo",
+    "pt": "anel, anilha",
+    "fr": "bague, anneau",
+    "cs": "prsten, kroužek",
+    "pl": "pierścionek, obrączka",
+    "tr": "yüzük, halka",
+    "de": "Ring",
+    "ja": "指輪、足輪"
+   }
+  },
+  {
+   "parola": "colorato",
+   "forme": [
+    "colorato"
+   ],
+   "formeEsempi": [
+    "colorata",
+    "colorati"
+   ],
+   "esempi": [
+    "Ho un ombrello colorato.",
+    "La casa è tutta colorata.",
+    "I bambini fanno disegni colorati."
+   ],
+   "traduzioni": {
+    "en": "colourful, coloured",
+    "es": "colorido, de colores",
+    "pt": "colorido",
+    "fr": "coloré",
+    "cs": "barevný",
+    "pl": "kolorowy",
+    "tr": "renkli",
+    "de": "bunt",
+    "ja": "色とりどりの"
+   }
+  },
+  {
+   "parola": "lasciare",
+   "forme": [
+    "lascia"
+   ],
+   "formeEsempi": [
+    "lascio",
+    "lasciami"
+   ],
+   "esempi": [
+    "Lascio le chiavi sul tavolo.",
+    "Lasciami in pace!",
+    "Il professore lascia andare i corvi."
+   ],
+   "traduzioni": {
+    "en": "to leave, to let («lasciare andare» = to let go)",
+    "es": "dejar («dejar ir» = soltar)",
+    "pt": "deixar («deixar ir» = soltar)",
+    "fr": "laisser («laisser partir»)",
+    "cs": "nechat («pustit»)",
+    "pl": "zostawić («wypuścić»)",
+    "tr": "bırakmak",
+    "de": "lassen («freilassen»)",
+    "ja": "置いていく、…させる（lasciare andare＝放す）"
+   }
+  },
+  {
+   "parola": "seguire",
+   "forme": [
+    "seguono",
+    "seguito"
+   ],
+   "formeEsempi": [
+    "seguo",
+    "seguimi",
+    "segue"
+   ],
+   "esempi": [
+    "Seguimi, ti mostro la strada.",
+    "Il cane segue il padrone.",
+    "Mi sento seguito."
+   ],
+   "traduzioni": {
+    "en": "to follow",
+    "es": "seguir",
+    "pt": "seguir",
+    "fr": "suivre",
+    "cs": "sledovat, jít za",
+    "pl": "iść za, śledzić",
+    "tr": "takip etmek",
+    "de": "folgen",
+    "ja": "ついて行く"
+   }
+  },
+  {
+   "parola": "sgridare",
+   "forme": [
+    "sgridano",
+    "sgridato",
+    "sgridavano"
+   ],
+   "formeEsempi": [
+    "sgrida",
+    "sgridarmi"
+   ],
+   "esempi": [
+    "La mamma sgrida il bambino.",
+    "Il capo mi ha sgridato.",
+    "Non sgridarmi, non è colpa mia!"
+   ],
+   "traduzioni": {
+    "en": "to scold, to tell off",
+    "es": "regañar, reñir",
+    "pt": "repreender, dar bronca",
+    "fr": "gronder",
+    "cs": "vynadat",
+    "pl": "skrzyczeć, zbesztać",
+    "tr": "azarlamak",
+    "de": "ausschimpfen",
+    "ja": "しかる"
+   }
+  },
+  {
+   "parola": "riconoscere",
+   "forme": [
+    "riconoscono",
+    "riconoscerlo"
+   ],
+   "formeEsempi": [
+    "riconosco"
+   ],
+   "esempi": [
+    "Non ti riconosco con gli occhiali!",
+    "Riconosco la sua voce.",
+    "I cani riconoscono il padrone."
+   ],
+   "traduzioni": {
+    "en": "to recognise",
+    "es": "reconocer",
+    "pt": "reconhecer",
+    "fr": "reconnaître",
+    "cs": "poznat",
+    "pl": "rozpoznać",
+    "tr": "tanımak",
+    "de": "wiedererkennen",
+    "ja": "見分ける、だれだかわかる"
+   }
+  },
+  {
+   "parola": "ignorare",
+   "forme": [
+    "ignorano"
+   ],
+   "formeEsempi": [
+    "ignora",
+    "ignorare"
+   ],
+   "esempi": [
+    "Mi ignora sempre.",
+    "I gatti ignorano i nostri ordini.",
+    "Non ignorare il problema."
+   ],
+   "traduzioni": {
+    "en": "to ignore",
+    "es": "ignorar",
+    "pt": "ignorar",
+    "fr": "ignorer",
+    "cs": "ignorovat",
+    "pl": "ignorować",
+    "tr": "görmezden gelmek",
+    "de": "ignorieren",
+    "ja": "無視する"
+   }
+  },
+  {
+   "parola": "il nemico",
+   "forme": [
+    "nemici"
+   ],
+   "formeEsempi": [
+    "nemico"
+   ],
+   "esempi": [
+    "Il gatto è il nemico del topo.",
+    "Non ho nemici.",
+    "Il tempo è il nemico della bellezza."
+   ],
+   "traduzioni": {
+    "en": "enemy",
+    "es": "enemigo",
+    "pt": "inimigo",
+    "fr": "ennemi",
+    "cs": "nepřítel",
+    "pl": "wróg",
+    "tr": "düşman",
+    "de": "Feind",
+    "ja": "敵"
+   }
+  },
+  {
+   "parola": "arrabbiato",
+   "forme": [
+    "arrabbiati"
+   ],
+   "formeEsempi": [
+    "arrabbiato",
+    "arrabbiata"
+   ],
+   "esempi": [
+    "Perché sei arrabbiato?",
+    "La mamma è arrabbiata con me.",
+    "I clienti sono arrabbiati."
+   ],
+   "traduzioni": {
+    "en": "angry",
+    "es": "enfadado",
+    "pt": "bravo, irritado",
+    "fr": "fâché, en colère",
+    "cs": "naštvaný",
+    "pl": "zły, zdenerwowany",
+    "tr": "kızgın",
+    "de": "wütend",
+    "ja": "怒った"
+   }
+  },
+  {
+   "parola": "imitare",
+   "forme": [
+    "imitati"
+   ],
+   "formeEsempi": [
+    "imita",
+    "imitare"
+   ],
+   "esempi": [
+    "Il bambino imita il papà.",
+    "Il pappagallo imita la voce umana.",
+    "Sa imitare molti attori."
+   ],
+   "traduzioni": {
+    "en": "to imitate, to copy",
+    "es": "imitar",
+    "pt": "imitar",
+    "fr": "imiter",
+    "cs": "napodobit",
+    "pl": "naśladować",
+    "tr": "taklit etmek",
+    "de": "nachahmen",
+    "ja": "まねる"
+   }
+  },
+  {
+   "parola": "perdonare",
+   "forme": [
+    "perdonato"
+   ],
+   "formeEsempi": [
+    "perdono",
+    "perdonare"
+   ],
+   "esempi": [
+    "Ti perdono.",
+    "Mi hai perdonato?",
+    "È difficile perdonare."
+   ],
+   "traduzioni": {
+    "en": "to forgive",
+    "es": "perdonar",
+    "pt": "perdoar",
+    "fr": "pardonner",
+    "cs": "odpustit",
+    "pl": "wybaczyć",
+    "tr": "affetmek",
+    "de": "verzeihen",
+    "ja": "許す"
+   }
+  },
+  {
+   "parola": "dimenticare",
+   "forme": [
+    "dimenticato"
+   ],
+   "formeEsempi": [
+    "dimentico",
+    "dimentica"
+   ],
+   "esempi": [
+    "Ho dimenticato le chiavi.",
+    "Non dimentico mai una faccia.",
+    "Dimentica tutto!"
+   ],
+   "traduzioni": {
+    "en": "to forget",
+    "es": "olvidar",
+    "pt": "esquecer",
+    "fr": "oublier",
+    "cs": "zapomenout",
+    "pl": "zapomnieć",
+    "tr": "unutmak",
+    "de": "vergessen",
+    "ja": "忘れる"
+   }
+  },
+  {
+   "parola": "la passeggiata",
+   "forme": [
+    "passeggiata"
+   ],
+   "esempi": [
+    "Facciamo una passeggiata al parco?",
+    "Dopo cena faccio una passeggiata.",
+    "La passeggiata sul mare è bellissima."
+   ],
+   "traduzioni": {
+    "en": "walk, stroll",
+    "es": "paseo",
+    "pt": "passeio",
+    "fr": "promenade",
+    "cs": "procházka",
+    "pl": "spacer",
+    "tr": "yürüyüş",
+    "de": "Spaziergang",
+    "ja": "散歩"
+   }
+  },
+  {
+   "parola": "i genitori",
+   "forme": [
+    "genitori"
+   ],
+   "esempi": [
+    "I miei genitori vivono a Roma.",
+    "I genitori aspettano fuori dalla scuola.",
+    "Chiamo i genitori ogni domenica."
+   ],
+   "traduzioni": {
+    "en": "parents (false friend: not «relatives»)",
+    "es": "padres",
+    "pt": "pais",
+    "fr": "parents",
+    "cs": "rodiče",
+    "pl": "rodzice",
+    "tr": "anne baba",
+    "de": "Eltern",
+    "ja": "両親"
+   }
+  },
+  {
+   "parola": "cattivo",
+   "forme": [
+    "cattiva"
+   ],
+   "formeEsempi": [
+    "cattivo"
+   ],
+   "esempi": [
+    "Il lupo cattivo.",
+    "Questo latte ha un cattivo odore.",
+    "Ha una cattiva fama."
+   ],
+   "traduzioni": {
+    "en": "bad, nasty",
+    "es": "malo",
+    "pt": "mau, ruim",
+    "fr": "mauvais, méchant",
+    "cs": "zlý, špatný",
+    "pl": "zły",
+    "tr": "kötü",
+    "de": "böse, schlecht",
+    "ja": "悪い"
+   }
+  },
+  {
+   "parola": "la fama",
+   "forme": [
+    "fama"
+   ],
+   "esempi": [
+    "Il ristorante ha una buona fama.",
+    "Ha raggiunto la fama da giovane.",
+    "I corvi hanno una cattiva fama."
+   ],
+   "traduzioni": {
+    "en": "reputation, fame",
+    "es": "fama",
+    "pt": "fama",
+    "fr": "réputation",
+    "cs": "pověst",
+    "pl": "sława, opinia",
+    "tr": "ün, şöhret",
+    "de": "Ruf",
+    "ja": "評判"
+   }
+  },
+  {
+   "parola": "il malaugurio",
+   "forme": [
+    "malaugurio"
+   ],
+   "esempi": [
+    "Il gatto nero è considerato di malaugurio.",
+    "Non dire così, porta malaugurio!",
+    "Per alcuni il corvo è un uccello del malaugurio."
+   ],
+   "traduzioni": {
+    "en": "bad omen",
+    "es": "mal agüero",
+    "pt": "mau agouro",
+    "fr": "mauvais augure",
+    "cs": "zlé znamení",
+    "pl": "zły omen",
+    "tr": "uğursuzluk",
+    "de": "böses Omen",
+    "ja": "不吉"
+   }
+  },
+  {
+   "parola": "la disgrazia",
+   "forme": [
+    "disgrazia"
+   ],
+   "esempi": [
+    "È successa una disgrazia.",
+    "Che disgrazia!",
+    "Per fortuna non è stata una disgrazia."
+   ],
+   "traduzioni": {
+    "en": "misfortune, disaster (false friend: not «disgrace»)",
+    "es": "desgracia",
+    "pt": "desgraça",
+    "fr": "malheur",
+    "cs": "neštěstí",
+    "pl": "nieszczęście",
+    "tr": "felaket, talihsizlik",
+    "de": "Unglück",
+    "ja": "不幸、災難"
+   }
+  },
+  {
+   "parola": "il pianeta",
+   "forme": [
+    "pianeta"
+   ],
+   "esempi": [
+    "La Terra è il nostro pianeta.",
+    "Marte è un pianeta rosso.",
+    "Dobbiamo proteggere il pianeta."
+   ],
+   "traduzioni": {
+    "en": "planet",
+    "es": "planeta",
+    "pt": "planeta",
+    "fr": "planète",
+    "cs": "planeta",
+    "pl": "planeta",
+    "tr": "gezegen",
+    "de": "Planet",
+    "ja": "惑星、地球"
+   }
+  },
+  {
+   "parola": "la memoria",
+   "forme": [
+    "memoria"
+   ],
+   "esempi": [
+    "Ho poca memoria per i nomi.",
+    "Il telefono non ha più memoria.",
+    "Impara la poesia a memoria."
+   ],
+   "traduzioni": {
+    "en": "memory",
+    "es": "memoria",
+    "pt": "memória",
+    "fr": "mémoire",
+    "cs": "paměť",
+    "pl": "pamięć",
+    "tr": "hafıza",
+    "de": "Gedächtnis",
+    "ja": "記憶力"
+   }
+  },
+  {
+   "parola": "notare",
+   "forme": [
+    "notato"
+   ],
+   "formeEsempi": [
+    "noto"
+   ],
+   "esempi": [
+    "Hai notato qualcosa di strano?",
+    "Noto che sei stanco.",
+    "Nessuno ha notato il cambiamento."
+   ],
+   "traduzioni": {
+    "en": "to notice",
+    "es": "notar",
+    "pt": "notar, perceber",
+    "fr": "remarquer",
+    "cs": "všimnout si",
+    "pl": "zauważyć",
+    "tr": "fark etmek",
+    "de": "bemerken",
+    "ja": "気づく"
+   }
+  },
+  {
+   "parola": "indossare",
+   "forme": [
+    "indossato"
+   ],
+   "formeEsempi": [
+    "indossa",
+    "indossare"
+   ],
+   "esempi": [
+    "Indossa un vestito rosso.",
+    "Ho indossato la giacca nuova.",
+    "Bisogna indossare il casco."
+   ],
+   "traduzioni": {
+    "en": "to wear, to put on",
+    "es": "llevar puesto, ponerse",
+    "pt": "vestir, usar",
+    "fr": "porter, mettre",
+    "cs": "mít na sobě, obléct si",
+    "pl": "nosić, włożyć",
+    "tr": "giymek, takmak",
+    "de": "tragen, anziehen",
+    "ja": "身につける"
+   }
+  },
+  {
+   "parola": "il confronto",
+   "forme": [
+    "confronto"
+   ],
+   "esempi": [
+    "Facciamo un confronto tra i prezzi.",
+    "In confronto a lui sono basso.",
+    "Il confronto è utile."
+   ],
+   "traduzioni": {
+    "en": "comparison («come confronto» = as a control)",
+    "es": "comparación",
+    "pt": "comparação",
+    "fr": "comparaison",
+    "cs": "srovnání",
+    "pl": "porównanie",
+    "tr": "karşılaştırma",
+    "de": "Vergleich",
+    "ja": "比較"
+   }
+  },
+  {
+   "parola": "provocare",
+   "forme": [
+    "provocava"
+   ],
+   "formeEsempi": [
+    "provoca",
+    "provocato",
+    "provocarmi"
+   ],
+   "esempi": [
+    "Il fumo provoca il cancro.",
+    "La pioggia ha provocato danni.",
+    "Non provocarmi!"
+   ],
+   "traduzioni": {
+    "en": "to cause, to provoke",
+    "es": "provocar, causar",
+    "pt": "provocar, causar",
+    "fr": "provoquer",
+    "cs": "způsobit, vyprovokovat",
+    "pl": "powodować, prowokować",
+    "tr": "neden olmak, kışkırtmak",
+    "de": "verursachen, provozieren",
+    "ja": "引き起こす"
+   }
+  },
+  {
+   "parola": "la reazione",
+   "forme": [
+    "reazione"
+   ],
+   "esempi": [
+    "Qual è stata la sua reazione?",
+    "Ho avuto una reazione allergica.",
+    "Nessuna reazione."
+   ],
+   "traduzioni": {
+    "en": "reaction",
+    "es": "reacción",
+    "pt": "reação",
+    "fr": "réaction",
+    "cs": "reakce",
+    "pl": "reakcja",
+    "tr": "tepki",
+    "de": "Reaktion",
+    "ja": "反応"
+   }
+  },
+  {
+   "parola": "aumentare",
+   "forme": [
+    "aumentato"
+   ],
+   "formeEsempi": [
+    "aumenta",
+    "aumentare"
+   ],
+   "esempi": [
+    "Il prezzo del pane è aumentato.",
+    "La temperatura aumenta.",
+    "Vogliono aumentare gli stipendi."
+   ],
+   "traduzioni": {
+    "en": "to increase, to rise",
+    "es": "aumentar",
+    "pt": "aumentar",
+    "fr": "augmenter",
+    "cs": "zvýšit se, růst",
+    "pl": "wzrosnąć",
+    "tr": "artmak",
+    "de": "steigen, zunehmen",
+    "ja": "増える"
+   }
+  },
+  {
+   "parola": "il grido",
+   "forme": [
+    "grido"
+   ],
+   "esempi": [
+    "Ho sentito un grido nella notte.",
+    "Lancia un grido di gioia.",
+    "È l'ultimo grido della moda."
+   ],
+   "traduzioni": {
+    "en": "cry, shout, call",
+    "es": "grito",
+    "pt": "grito",
+    "fr": "cri",
+    "cs": "výkřik",
+    "pl": "krzyk",
+    "tr": "çığlık",
+    "de": "Schrei, Ruf",
+    "ja": "叫び声"
+   }
+  },
+  {
+   "parola": "l'allarme",
+   "forme": [
+    "allarme"
+   ],
+   "esempi": [
+    "È suonato l'allarme.",
+    "Metti l'allarme alla macchina.",
+    "Non c'è motivo di allarme."
+   ],
+   "traduzioni": {
+    "en": "alarm",
+    "es": "alarma",
+    "pt": "alarme",
+    "fr": "alarme",
+    "cs": "poplach",
+    "pl": "alarm",
+    "tr": "alarm",
+    "de": "Alarm",
+    "ja": "警報"
+   }
+  },
+  {
+   "parola": "avvicinarsi",
+   "forme": [
+    "avvicinano"
+   ],
+   "formeEsempi": [
+    "avvicina",
+    "avvicinati"
+   ],
+   "esempi": [
+    "Si avvicina l'estate.",
+    "Avvicinati, non ti sento.",
+    "Il gatto si avvicina piano."
+   ],
+   "traduzioni": {
+    "en": "to come closer, to approach",
+    "es": "acercarse",
+    "pt": "aproximar-se",
+    "fr": "s'approcher",
+    "cs": "přiblížit se",
+    "pl": "zbliżać się",
+    "tr": "yaklaşmak",
+    "de": "sich nähern",
+    "ja": "近づく"
+   }
+  },
+  {
+   "parola": "l'apprendimento",
+   "forme": [
+    "apprendimento"
+   ],
+   "esempi": [
+    "Il gioco aiuta l'apprendimento.",
+    "L'apprendimento di una lingua richiede tempo.",
+    "Ha difficoltà di apprendimento."
+   ],
+   "traduzioni": {
+    "en": "learning",
+    "es": "aprendizaje",
+    "pt": "aprendizagem",
+    "fr": "apprentissage",
+    "cs": "učení",
+    "pl": "uczenie się",
+    "tr": "öğrenme",
+    "de": "Lernen",
+    "ja": "学習"
+   }
+  },
+  {
+   "parola": "attivare",
+   "forme": [
+    "attivava"
+   ],
+   "formeEsempi": [
+    "attiva",
+    "attivato"
+   ],
+   "esempi": [
+    "Attiva il Bluetooth.",
+    "Ho attivato l'allarme.",
+    "La musica attiva il cervello."
+   ],
+   "traduzioni": {
+    "en": "to activate, to switch on",
+    "es": "activar",
+    "pt": "ativar",
+    "fr": "activer",
+    "cs": "aktivovat",
+    "pl": "aktywować, włączyć",
+    "tr": "etkinleştirmek",
+    "de": "aktivieren",
+    "ja": "作動させる、活性化する"
+   }
+  },
+  {
+   "parola": "la paura",
+   "forme": [
+    "paura"
+   ],
+   "esempi": [
+    "Ho paura del buio.",
+    "Non avere paura!",
+    "Il cane ha paura dei temporali."
+   ],
+   "traduzioni": {
+    "en": "fear («avere paura» = to be afraid)",
+    "es": "miedo",
+    "pt": "medo",
+    "fr": "peur",
+    "cs": "strach",
+    "pl": "strach",
+    "tr": "korku",
+    "de": "Angst",
+    "ja": "恐怖"
+   }
+  },
+  {
+   "parola": "eccezionale",
+   "forme": [
+    "eccezionale"
+   ],
+   "esempi": [
+    "È un cuoco eccezionale.",
+    "Oggi c'è un caldo eccezionale.",
+    "Ha una memoria eccezionale."
+   ],
+   "traduzioni": {
+    "en": "exceptional, outstanding",
+    "es": "excepcional",
+    "pt": "excepcional",
+    "fr": "exceptionnel",
+    "cs": "výjimečný",
+    "pl": "wyjątkowy",
+    "tr": "olağanüstü",
+    "de": "außergewöhnlich",
+    "ja": "並外れた"
+   }
+  },
+  {
+   "parola": "eterno",
+   "forme": [
+    "eterna"
+   ],
+   "formeEsempi": [
+    "eterno"
+   ],
+   "esempi": [
+    "Niente è eterno.",
+    "Roma è la città eterna.",
+    "Ti giuro amore eterno."
+   ],
+   "traduzioni": {
+    "en": "eternal",
+    "es": "eterno",
+    "pt": "eterno",
+    "fr": "éternel",
+    "cs": "věčný",
+    "pl": "wieczny",
+    "tr": "sonsuz",
+    "de": "ewig",
+    "ja": "永遠の"
+   }
+  },
+  {
+   "parola": "il rancore",
+   "forme": [
+    "rancore"
+   ],
+   "esempi": [
+    "Non porto rancore.",
+    "Prova rancore verso il fratello.",
+    "Il rancore fa male."
+   ],
+   "traduzioni": {
+    "en": "grudge, resentment",
+    "es": "rencor",
+    "pt": "rancor",
+    "fr": "rancune",
+    "cs": "zášť",
+    "pl": "uraza",
+    "tr": "kin",
+    "de": "Groll",
+    "ja": "恨み"
+   }
+  },
+  {
+   "parola": "trattare",
+   "forme": [
+    "trattarlo"
+   ],
+   "formeEsempi": [
+    "tratta",
+    "trattarmi"
+   ],
+   "esempi": [
+    "Tratta bene i suoi dipendenti.",
+    "Non trattarmi così!",
+    "Il libro tratta di storia."
+   ],
+   "traduzioni": {
+    "en": "to treat",
+    "es": "tratar",
+    "pt": "tratar",
+    "fr": "traiter",
+    "cs": "zacházet",
+    "pl": "traktować",
+    "tr": "davranmak",
+    "de": "behandeln",
+    "ja": "扱う"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Seattle, United States, 2006. On the university campus live lots of crows. They are black, intelligent and curious. Professor John Marzluff has been studying them for years.",
+    "One day the professor takes a rubber mask, ugly and a bit scary. He puts it on his face and goes out into the university park. With a net he catches seven crows. He doesn't hurt them: he puts a coloured ring on their leg and then lets them go.",
+    "From that day on something strange happens. Every time someone puts on the mask and walks across the campus, the crows see them straight away. They follow them from one tree to another, watch them from above and scold them: «Caw! Caw! Caw!»",
+    "The person with the mask does nothing wrong: they just walk. But the crows recognise them. And if the same person walks without the mask? The crows don't even look at them.",
+    "The professor also does a test: he puts on another mask, with the face of a famous politician. The crows look at it and then ignore it. The problem isn't just any mask: it's that particular mask.",
+    "The years go by. The seven crows from the first day are old, and some are perhaps dead. But the mask has more and more enemies: one day 47 crows out of 53 scold it! Many of them weren't born in 2006. How do they know it? Probably they saw their parents and the other crows angry, and copied them.",
+    "And today? In 2023, seventeen years later, the professor put the mask on again and went for his walk. No crow scolded him. Maybe the crows have forgiven him. Or maybe, after so many years, they've simply forgotten him."
+   ],
+   "b1": [
+    "Crows have a bad reputation: in many cultures they are birds of ill omen, and in films they always arrive just before a disaster. And yet those who study them closely tell a different story: crows are among the most intelligent animals on the planet and, above all, they have an excellent memory for faces.",
+    "This was shown by an experiment begun in 2006 at the University of Washington, in Seattle. The biologist John Marzluff was studying the crows on campus; to do so, however, he had to catch them and put a ring on their leg. He had noticed that after being caught the crows seemed to recognise him, so he decided to do a test: to catch them he wore a rubber mask.",
+    "The result was crystal clear. From that moment on, in fact, anyone walking across the campus with that mask was followed and scolded by the crows, while a different mask, used as a control, caused no reaction at all. What's more, the number of angry crows didn't go down over time: on the contrary, it went up. Years later, during a walk, 47 crows out of 53 scolded the mask.",
+    "How is that possible, given that only seven crows had been caught? The most likely explanation is that crows learn from one another. When a crow sees a danger, it gives an alarm call; as a result the other crows come closer, observe the «dangerous» person and remember their face. So the information passes from one bird to another, and even from parents to young. In fact many of the crows that scolded the mask hadn't even been born in 2006.",
+    "A few years later Marzluff's group also looked at the crows' brains while they were watching the masks, with a technique similar to those used in hospitals. The «dangerous» face activated areas of the brain that in humans are linked to fear and learning.",
+    "Even though crows' memory is exceptional, it isn't eternal. In September 2023, seventeen years after the start of the experiment, Marzluff went for another walk with the mask, and no crow scolded him. Since a crow lives on average seven or eight years, the «grudge» lasted much longer than the crows that had felt it first.",
+    "So, next time a crow looks at you from a branch, remember that it's watching you carefully too. So it's better to treat it well: after all, it might tell the whole family about it."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Seattle, Estados Unidos, 2006. En el campus de la universidad viven muchos cuervos. Son negros, inteligentes y curiosos. El profesor John Marzluff los estudia desde hace años.",
+    "Un día el profesor coge una máscara de goma, fea y un poco espantosa. Se la pone en la cara y sale al parque de la universidad. Con una red captura siete cuervos. No les hace daño: les pone un anillo de color en la pata y luego los suelta.",
+    "Desde ese día pasa algo raro. Cada vez que una persona se pone la máscara y camina por el campus, los cuervos la ven enseguida. La siguen de un árbol a otro, la miran desde arriba y la regañan: «¡Cra! ¡Cra! ¡Cra!»",
+    "La persona con la máscara no hace nada malo: solo camina. Pero los cuervos la reconocen. ¿Y si la misma persona camina sin máscara? Los cuervos ni la miran.",
+    "El profesor también hace una prueba: se pone otra máscara, con la cara de un político famoso. Los cuervos la miran y luego la ignoran. El problema no es una máscara cualquiera: es justo esa máscara.",
+    "Pasan los años. Los siete cuervos del primer día son viejos, y algunos quizás han muerto. Pero la máscara tiene cada vez más enemigos: ¡un día 47 cuervos de 53 la regañan! Muchos de ellos no habían nacido en 2006. ¿Cómo la conocen? Probablemente vieron a sus padres y a los otros cuervos enfadados, y los imitaron.",
+    "¿Y hoy? En 2023, diecisiete años después, el profesor se puso otra vez la máscara y dio su paseo. Ningún cuervo lo regañó. Quizás los cuervos lo han perdonado. O quizás, después de tantos años, simplemente lo han olvidado."
+   ],
+   "b1": [
+    "Los cuervos tienen mala fama: en muchas culturas son aves de mal agüero, y en las películas siempre llegan justo antes de una desgracia. Sin embargo, quienes los estudian de cerca cuentan otra historia: los cuervos están entre los animales más inteligentes del planeta y, sobre todo, tienen una memoria excelente para las caras.",
+    "Lo demostró un experimento que empezó en 2006 en la Universidad de Washington, en Seattle. El biólogo John Marzluff estudiaba los cuervos del campus; para hacerlo, sin embargo, tenía que capturarlos y ponerles un anillo en la pata. Había notado que después de la captura los cuervos parecían reconocerlo, así que decidió hacer una prueba: para capturarlos se puso una máscara de goma.",
+    "El resultado fue clarísimo. Desde ese momento, de hecho, quien caminaba por el campus con esa máscara era seguido y regañado por los cuervos, mientras que una máscara distinta, usada como comparación, no provocaba ninguna reacción. Además, el número de cuervos enfadados no disminuyó con el tiempo: al contrario, aumentó. Años después, durante un paseo, 47 cuervos de 53 regañaron a la máscara.",
+    "¿Cómo es posible, si los cuervos capturados eran solo siete? La explicación más probable es que los cuervos aprenden unos de otros. Cuando un cuervo ve un peligro, lanza un grito de alarma; como consecuencia, los otros cuervos se acercan, observan a la persona «peligrosa» y recuerdan su cara. Así la información pasa de un pájaro a otro, e incluso de los padres a los hijos. De hecho, muchos de los cuervos que regañaban a la máscara aún no habían nacido en 2006.",
+    "Unos años más tarde el grupo de Marzluff observó también el cerebro de los cuervos mientras miraban las máscaras, con una técnica parecida a las que se usan en los hospitales. La cara «peligrosa» activaba zonas del cerebro que en los seres humanos están relacionadas con el miedo y el aprendizaje.",
+    "Aunque la memoria de los cuervos es excepcional, no es eterna. En septiembre de 2023, diecisiete años después del inicio del experimento, Marzluff dio otro paseo con la máscara, y ningún cuervo lo regañó. Como un cuervo vive de media siete u ocho años, el «rencor» duró mucho más que los cuervos que lo habían sentido primero.",
+    "En resumen, la próxima vez que un cuervo te mire desde una rama, recuerda que él también te está observando con atención. Así que conviene tratarlo bien: al fin y al cabo, podría contárselo a toda la familia."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "Seattle, Estados Unidos, 2006. No campus da universidade vivem muitos corvos. São pretos, inteligentes e curiosos. O professor John Marzluff os estuda há anos.",
+    "Um dia o professor pega uma máscara de borracha, feia e um pouco assustadora. Coloca no rosto e sai pelo parque da universidade. Com uma rede captura sete corvos. Não os machuca: coloca uma anilha colorida na pata deles e depois os solta.",
+    "Desde aquele dia acontece uma coisa estranha. Toda vez que uma pessoa põe a máscara e anda pelo campus, os corvos a veem na hora. Seguem a pessoa de uma árvore para outra, olham de cima e dão bronca: «Cróc! Cróc! Cróc!»",
+    "A pessoa com a máscara não faz nada de mal: só anda. Mas os corvos a reconhecem. E se a mesma pessoa andar sem máscara? Os corvos nem olham para ela.",
+    "O professor também faz um teste: põe outra máscara, com o rosto de um político famoso. Os corvos olham e depois ignoram. O problema não é uma máscara qualquer: é justamente aquela máscara.",
+    "Os anos passam. Os sete corvos do primeiro dia estão velhos, e alguns talvez já tenham morrido. Mas a máscara tem cada vez mais inimigos: um dia 47 corvos de 53 dão bronca nela! Muitos deles não tinham nascido em 2006. Como a conhecem? Provavelmente viram os pais e os outros corvos bravos, e os imitaram.",
+    "E hoje? Em 2023, dezessete anos depois, o professor pôs de novo a máscara e deu o seu passeio. Nenhum corvo deu bronca nele. Talvez os corvos o tenham perdoado. Ou talvez, depois de tantos anos, simplesmente o tenham esquecido."
+   ],
+   "b1": [
+    "Os corvos têm má fama: em muitas culturas são aves de mau agouro, e nos filmes sempre chegam logo antes de uma desgraça. No entanto, quem os estuda de perto conta outra história: os corvos estão entre os animais mais inteligentes do planeta e, sobretudo, têm uma ótima memória para rostos.",
+    "Quem demonstrou isso foi um experimento iniciado em 2006 na Universidade de Washington, em Seattle. O biólogo John Marzluff estudava os corvos do campus; para isso, porém, precisava capturá-los e colocar uma anilha na pata deles. Ele tinha notado que, depois da captura, os corvos pareciam reconhecê-lo, então decidiu fazer um teste: para capturá-los, usou uma máscara de borracha.",
+    "O resultado foi claríssimo. A partir daquele momento, de fato, quem andava pelo campus com aquela máscara era seguido e repreendido pelos corvos, enquanto uma máscara diferente, usada como comparação, não provocava nenhuma reação. Além disso, o número de corvos irritados não diminuiu com o tempo: pelo contrário, aumentou. Anos depois, durante um passeio, 47 corvos de 53 deram bronca na máscara.",
+    "Como é possível, se os corvos capturados eram só sete? A explicação mais provável é que os corvos aprendem uns com os outros. Quando um corvo vê um perigo, solta um grito de alarme; em consequência, os outros corvos se aproximam, observam a pessoa «perigosa» e se lembram do rosto dela. Assim a informação passa de um pássaro para outro, e até dos pais para os filhotes. De fato, muitos dos corvos que davam bronca na máscara ainda não tinham nascido em 2006.",
+    "Alguns anos depois o grupo de Marzluff também observou o cérebro dos corvos enquanto olhavam as máscaras, com uma técnica parecida com as usadas nos hospitais. O rosto «perigoso» ativava áreas do cérebro que, nos seres humanos, estão ligadas ao medo e à aprendizagem.",
+    "Mesmo que a memória dos corvos seja excepcional, ela não é eterna. Em setembro de 2023, dezessete anos depois do início do experimento, Marzluff fez outro passeio com a máscara, e nenhum corvo deu bronca nele. Como um corvo vive em média sete ou oito anos, o «rancor» durou muito mais do que os corvos que o tinham sentido primeiro.",
+    "Enfim, da próxima vez que um corvo olhar para você de um galho, lembre-se de que ele também está te observando com atenção. Então vale a pena tratá-lo bem: afinal, ele poderia contar para a família inteira."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Seattle, États-Unis, 2006. Sur le campus de l'université vivent beaucoup de corneilles. Elles sont noires, intelligentes et curieuses. Le professeur John Marzluff les étudie depuis des années.",
+    "Un jour, le professeur prend un masque en caoutchouc, laid et un peu effrayant. Il le met sur son visage et sort dans le parc de l'université. Avec un filet, il capture sept corneilles. Il ne les blesse pas : il leur met une bague de couleur à la patte, puis il les relâche.",
+    "À partir de ce jour, il se passe une chose étrange. Chaque fois qu'une personne met le masque et marche sur le campus, les corneilles la voient tout de suite. Elles la suivent d'un arbre à l'autre, la regardent d'en haut et la grondent : « Croa ! Croa ! Croa ! »",
+    "La personne avec le masque ne fait rien de mal : elle marche, c'est tout. Mais les corneilles la reconnaissent. Et si la même personne marche sans masque ? Les corneilles ne la regardent même pas.",
+    "Le professeur fait aussi un test : il met un autre masque, avec le visage d'un homme politique célèbre. Les corneilles le regardent, puis l'ignorent. Le problème, ce n'est pas n'importe quel masque : c'est justement ce masque-là.",
+    "Les années passent. Les sept corneilles du premier jour sont vieilles, et certaines sont peut-être mortes. Mais le masque a de plus en plus d'ennemis : un jour, 47 corneilles sur 53 le grondent ! Beaucoup d'entre elles n'étaient pas nées en 2006. Comment le connaissent-elles ? Elles ont probablement vu leurs parents et les autres corneilles en colère, et elles les ont imités.",
+    "Et aujourd'hui ? En 2023, dix-sept ans plus tard, le professeur a remis le masque et a fait sa promenade. Aucune corneille ne l'a grondé. Peut-être que les corneilles lui ont pardonné. Ou peut-être que, après tant d'années, elles l'ont simplement oublié."
+   ],
+   "b1": [
+    "Les corbeaux ont mauvaise réputation : dans beaucoup de cultures, ce sont des oiseaux de mauvais augure, et dans les films ils arrivent toujours juste avant un malheur. Pourtant, ceux qui les étudient de près racontent une autre histoire : les corvidés sont parmi les animaux les plus intelligents de la planète et, surtout, ils ont une excellente mémoire des visages.",
+    "C'est ce qu'a montré une expérience commencée en 2006 à l'Université de Washington, à Seattle. Le biologiste John Marzluff étudiait les corneilles du campus ; pour cela, cependant, il devait les capturer et leur mettre une bague à la patte. Il avait remarqué qu'après la capture, les corneilles semblaient le reconnaître, alors il a décidé de faire un test : pour les capturer, il a porté un masque en caoutchouc.",
+    "Le résultat a été très clair. À partir de ce moment, en effet, toute personne qui marchait sur le campus avec ce masque était suivie et grondée par les corneilles, alors qu'un autre masque, utilisé comme point de comparaison, ne provoquait aucune réaction. De plus, le nombre de corneilles en colère n'a pas diminué avec le temps : au contraire, il a augmenté. Des années plus tard, pendant une promenade, 47 corneilles sur 53 ont grondé le masque.",
+    "Comment est-ce possible, puisque seulement sept corneilles avaient été capturées ? L'explication la plus probable est que les corneilles apprennent les unes des autres. Quand une corneille voit un danger, elle pousse un cri d'alarme ; par conséquent, les autres s'approchent, observent la personne « dangereuse » et se souviennent de son visage. Ainsi, l'information passe d'un oiseau à l'autre, et même des parents aux petits. D'ailleurs, beaucoup des corneilles qui grondaient le masque n'étaient pas encore nées en 2006.",
+    "Quelques années plus tard, l'équipe de Marzluff a aussi observé le cerveau des corneilles pendant qu'elles regardaient les masques, avec une technique semblable à celles utilisées dans les hôpitaux. Le visage « dangereux » activait des zones du cerveau qui, chez les êtres humains, sont liées à la peur et à l'apprentissage.",
+    "Même si la mémoire des corneilles est exceptionnelle, elle n'est pas éternelle. En septembre 2023, dix-sept ans après le début de l'expérience, Marzluff a fait une autre promenade avec le masque, et aucune corneille ne l'a grondé. Comme une corneille vit en moyenne sept ou huit ans, la « rancune » a duré bien plus longtemps que les corneilles qui l'avaient éprouvée en premier.",
+    "Bref, la prochaine fois qu'une corneille te regarde depuis une branche, souviens-toi qu'elle aussi t'observe attentivement. Mieux vaut donc bien la traiter : après tout, elle pourrait le raconter à toute la famille."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Seattle, Spojené státy, 2006. V univerzitním kampusu žije hodně vran. Jsou černé, inteligentní a zvědavé. Profesor John Marzluff je studuje už roky.",
+    "Jednoho dne si profesor vezme gumovou masku, ošklivou a trochu strašidelnou. Nasadí si ji na obličej a vyjde do univerzitního parku. Sítí chytí sedm vran. Neublíží jim: dá jim na nohu barevný kroužek a pak je pustí.",
+    "Od toho dne se děje něco zvláštního. Pokaždé, když si někdo nasadí masku a jde kampusem, vrány ho hned uvidí. Sledují ho ze stromu na strom, dívají se na něj shora a nadávají mu: „Krá! Krá! Krá!“",
+    "Člověk s maskou nedělá nic špatného: jen jde. Ale vrány ho poznají. A když stejný člověk jde bez masky? Vrány se na něj ani nepodívají.",
+    "Profesor udělá i pokus: nasadí si jinou masku, s obličejem slavného politika. Vrány se na ni podívají a pak ji ignorují. Problém není jakákoli maska: je to právě ta jedna maska.",
+    "Roky plynou. Těch sedm vran z prvního dne je starých a některé možná uhynuly. Ale maska má čím dál víc nepřátel: jednoho dne jí nadává 47 vran z 53! Mnohé z nich se v roce 2006 ještě nenarodily. Jak ji znají? Nejspíš viděly rodiče a ostatní vrány rozzlobené a napodobily je.",
+    "A dnes? V roce 2023, o sedmnáct let později, si profesor znovu nasadil masku a šel na procházku. Žádná vrána mu nenadávala. Možná mu vrány odpustily. Nebo ho po tolika letech prostě zapomněly."
+   ],
+   "b1": [
+    "Vrány mají špatnou pověst: v mnoha kulturách jsou to ptáci zlého znamení a ve filmech se objevují vždycky těsně před neštěstím. Kdo je ale studuje zblízka, vypráví jiný příběh: krkavcovití patří mezi nejinteligentnější zvířata na planetě a hlavně mají výbornou paměť na obličeje.",
+    "Ukázal to pokus, který začal v roce 2006 na Washingtonské univerzitě v Seattlu. Biolog John Marzluff studoval vrány v kampusu; k tomu je ale musel chytat a dávat jim kroužek na nohu. Všiml si, že po odchytu ho vrány zřejmě poznávají, a tak se rozhodl udělat pokus: při chytání si nasadil gumovou masku.",
+    "Výsledek byl naprosto jasný. Od té chvíle totiž každého, kdo šel kampusem s touto maskou, vrány sledovaly a nadávaly mu, zatímco jiná maska, použitá pro srovnání, nevyvolávala žádnou reakci. Navíc počet rozzlobených vran časem neklesal: naopak rostl. O roky později na jedné procházce nadávalo masce 47 vran z 53.",
+    "Jak je to možné, když chycených vran bylo jen sedm? Nejpravděpodobnější vysvětlení je, že se vrány učí jedna od druhé. Když vrána uvidí nebezpečí, vydá poplašný křik; ostatní vrány se proto přiblíží, prohlédnou si „nebezpečného“ člověka a zapamatují si jeho obličej. Tak informace přechází z ptáka na ptáka, a dokonce z rodičů na mláďata. Mnoho vran, které masce nadávaly, se totiž v roce 2006 ještě nenarodilo.",
+    "O několik let později Marzluffova skupina pozorovala i mozek vran, zatímco se dívaly na masky, a to technikou podobnou těm, které se používají v nemocnicích. „Nebezpečný“ obličej aktivoval oblasti mozku, které jsou u lidí spojené se strachem a s učením.",
+    "Přestože je paměť vran výjimečná, není věčná. V září 2023, sedmnáct let po začátku pokusu, šel Marzluff s maskou na další procházku a žádná vrána mu nenadávala. Protože vrána žije v průměru sedm nebo osm let, „zášť“ trvala mnohem déle než vrány, které ji pocítily jako první.",
+    "Zkrátka, až se na tebe příště bude vrána dívat z větve, vzpomeň si, že tě taky pozorně sleduje. Vyplatí se s ní tedy zacházet slušně: koneckonců by to mohla vyprávět celé rodině."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Seattle, Stany Zjednoczone, 2006 rok. Na kampusie uniwersytetu żyje dużo wron. Są czarne, inteligentne i ciekawskie. Profesor John Marzluff bada je od lat.",
+    "Pewnego dnia profesor bierze gumową maskę, brzydką i trochę straszną. Zakłada ją na twarz i wychodzi do parku uniwersyteckiego. Siecią łapie siedem wron. Nie robi im krzywdy: zakłada im na nogę kolorową obrączkę, a potem je wypuszcza.",
+    "Od tego dnia dzieje się coś dziwnego. Za każdym razem, gdy ktoś zakłada maskę i chodzi po kampusie, wrony od razu go widzą. Lecą za nim z drzewa na drzewo, patrzą na niego z góry i na niego wrzeszczą: „Kra! Kra! Kra!”",
+    "Osoba w masce nie robi nic złego: po prostu idzie. Ale wrony ją rozpoznają. A jeśli ta sama osoba idzie bez maski? Wrony nawet na nią nie patrzą.",
+    "Profesor robi też próbę: zakłada inną maskę, z twarzą znanego polityka. Wrony na nią patrzą, a potem ją ignorują. Problemem nie jest byle jaka maska: jest nim właśnie ta maska.",
+    "Mijają lata. Siedem wron z pierwszego dnia jest starych, a niektóre może już nie żyją. Ale maska ma coraz więcej wrogów: pewnego dnia wrzeszczy na nią 47 wron na 53! Wiele z nich nie było jeszcze na świecie w 2006 roku. Skąd ją znają? Prawdopodobnie widziały rodziców i inne wrony rozzłoszczone i je naśladowały.",
+    "A dziś? W 2023 roku, siedemnaście lat później, profesor znowu założył maskę i poszedł na spacer. Żadna wrona na niego nie wrzeszczała. Może wrony mu wybaczyły. A może po tylu latach po prostu o nim zapomniały."
+   ],
+   "b1": [
+    "Wrony mają złą sławę: w wielu kulturach to ptaki złej wróżby, a w filmach pojawiają się zawsze tuż przed nieszczęściem. A jednak ci, którzy badają je z bliska, opowiadają inną historię: krukowate należą do najinteligentniejszych zwierząt na planecie, a przede wszystkim mają świetną pamięć do twarzy.",
+    "Pokazał to eksperyment rozpoczęty w 2006 roku na Uniwersytecie Waszyngtońskim w Seattle. Biolog John Marzluff badał wrony z kampusu; żeby to robić, musiał je jednak łapać i zakładać im obrączkę na nogę. Zauważył, że po złapaniu wrony chyba go rozpoznają, więc postanowił zrobić próbę: do łapania założył gumową maskę.",
+    "Wynik był bardzo jasny. Od tej chwili każdy, kto chodził po kampusie w tej masce, był śledzony i obkrzykiwany przez wrony, a inna maska, użyta dla porównania, nie wywoływała żadnej reakcji. Co więcej, liczba rozzłoszczonych wron z czasem nie zmalała: przeciwnie, wzrosła. Po latach, podczas jednego spaceru, na maskę wrzeszczało 47 wron na 53.",
+    "Jak to możliwe, skoro złapano tylko siedem wron? Najbardziej prawdopodobne wyjaśnienie jest takie, że wrony uczą się od siebie nawzajem. Kiedy wrona widzi niebezpieczeństwo, wydaje krzyk alarmowy; w efekcie inne wrony się zbliżają, obserwują „niebezpieczną” osobę i zapamiętują jej twarz. W ten sposób informacja przechodzi od ptaka do ptaka, a nawet od rodziców do młodych. Rzeczywiście, wiele wron, które wrzeszczały na maskę, w 2006 roku jeszcze się nie urodziło.",
+    "Kilka lat później grupa Marzluffa obserwowała też mózgi wron, gdy patrzyły na maski, za pomocą techniki podobnej do tych stosowanych w szpitalach. „Niebezpieczna” twarz aktywowała obszary mózgu, które u ludzi są związane ze strachem i uczeniem się.",
+    "Chociaż pamięć wron jest wyjątkowa, nie jest wieczna. We wrześniu 2023 roku, siedemnaście lat po rozpoczęciu eksperymentu, Marzluff poszedł na kolejny spacer w masce i żadna wrona na niego nie wrzeszczała. Ponieważ wrona żyje średnio siedem albo osiem lat, „uraza” trwała dużo dłużej niż wrony, które poczuły ją jako pierwsze.",
+    "Krótko mówiąc, następnym razem, gdy wrona będzie na ciebie patrzeć z gałęzi, pamiętaj, że ona też uważnie cię obserwuje. Lepiej więc dobrze ją traktować: w końcu mogłaby opowiedzieć o tym całej rodzinie."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Seattle, Amerika Birleşik Devletleri, 2006. Üniversite kampüsünde çok sayıda karga yaşıyor. Siyah, zeki ve meraklılar. Profesör John Marzluff yıllardır onları inceliyor.",
+    "Bir gün profesör çirkin ve biraz korkunç, lastik bir maske alır. Maskeyi yüzüne takar ve üniversitenin parkına çıkar. Bir ağla yedi karga yakalar. Onlara zarar vermez: bacaklarına renkli bir halka takar ve sonra onları serbest bırakır.",
+    "O günden sonra garip bir şey olur. Biri maskeyi takıp kampüste her yürüdüğünde, kargalar onu hemen görür. Onu ağaçtan ağaca takip eder, yukarıdan bakar ve azarlarlar: «Gak! Gak! Gak!»",
+    "Maskeli kişi kötü bir şey yapmaz: sadece yürür. Ama kargalar onu tanır. Peki aynı kişi maskesiz yürürse? Kargalar ona bakmaz bile.",
+    "Profesör bir deneme daha yapar: ünlü bir politikacının yüzü olan başka bir maske takar. Kargalar ona bakar ve sonra görmezden gelir. Sorun herhangi bir maske değil: tam olarak o maske.",
+    "Yıllar geçer. İlk günkü yedi karga yaşlanmıştır, bazıları belki ölmüştür. Ama maskenin gittikçe daha fazla düşmanı vardır: bir gün 53 kargadan 47'si onu azarlar! Çoğu 2006'da henüz doğmamıştı. Maskeyi nasıl tanıyorlar? Muhtemelen anne babalarının ve diğer kargaların kızgın olduğunu gördüler ve onları taklit ettiler.",
+    "Ya bugün? 2023'te, on yedi yıl sonra, profesör maskeyi yeniden taktı ve yürüyüşe çıktı. Hiçbir karga onu azarlamadı. Belki kargalar onu affetti. Ya da belki, bu kadar yıldan sonra, onu sadece unuttular."
+   ],
+   "b1": [
+    "Kargaların kötü bir ünü vardır: pek çok kültürde uğursuzluk kuşlarıdır ve filmlerde hep bir felaketten hemen önce ortaya çıkarlar. Yine de onları yakından inceleyenler başka bir hikâye anlatır: kargalar gezegenin en zeki hayvanları arasındadır ve hepsinden önemlisi yüzler için çok iyi bir hafızaları vardır.",
+    "Bunu, 2006'da Seattle'daki Washington Üniversitesi'nde başlayan bir deney gösterdi. Biyolog John Marzluff kampüsteki kargaları inceliyordu; bunun için onları yakalayıp bacaklarına halka takması gerekiyordu. Yakalandıktan sonra kargaların onu tanıyor gibi göründüğünü fark etmişti, bu yüzden bir deneme yapmaya karar verdi: onları yakalamak için lastik bir maske taktı.",
+    "Sonuç çok netti. O andan itibaren, kampüste o maskeyle yürüyen herkes kargalar tarafından takip edilip azarlandı; karşılaştırma için kullanılan farklı bir maske ise hiçbir tepkiye yol açmadı. Üstelik kızgın kargaların sayısı zamanla azalmadı: tam tersine arttı. Yıllar sonra, bir yürüyüş sırasında 53 kargadan 47'si maskeyi azarladı.",
+    "Yakalanan kargalar sadece yedi tane olduğuna göre bu nasıl mümkün? En olası açıklama, kargaların birbirlerinden öğrenmesidir. Bir karga bir tehlike gördüğünde alarm çığlığı atar; bunun sonucunda diğer kargalar yaklaşır, «tehlikeli» kişiyi gözlemler ve yüzünü hatırlar. Böylece bilgi bir kuştan diğerine, hatta anne babadan yavrulara geçer. Nitekim maskeyi azarlayan kargaların çoğu 2006'da henüz doğmamıştı.",
+    "Birkaç yıl sonra Marzluff'un ekibi, kargalar maskelere bakarken beyinlerini de hastanelerde kullanılanlara benzer bir teknikle inceledi. «Tehlikeli» yüz, insanlarda korku ve öğrenmeyle bağlantılı olan beyin bölgelerini etkinleştiriyordu.",
+    "Kargaların hafızası olağanüstü olsa da sonsuz değildir. Eylül 2023'te, deneyin başlamasından on yedi yıl sonra, Marzluff maskeyle bir yürüyüş daha yaptı ve hiçbir karga onu azarlamadı. Bir karga ortalama yedi sekiz yıl yaşadığına göre, «kin» onu ilk hisseden kargalardan çok daha uzun sürmüş oldu.",
+    "Kısacası, bir dahaki sefere bir karga sana bir dalın üstünden baktığında, onun da seni dikkatle gözlemlediğini unutma. O yüzden ona iyi davranmak iyi olur: ne de olsa bunu bütün ailesine anlatabilir."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Seattle, USA, 2006. Auf dem Campus der Universität leben viele Krähen. Sie sind schwarz, intelligent und neugierig. Professor John Marzluff erforscht sie seit Jahren.",
+    "Eines Tages nimmt der Professor eine Gummimaske, hässlich und ein bisschen gruselig. Er setzt sie auf und geht in den Park der Universität. Mit einem Netz fängt er sieben Krähen. Er tut ihnen nicht weh: Er macht ihnen einen bunten Ring ans Bein und lässt sie dann frei.",
+    "Von diesem Tag an passiert etwas Seltsames. Jedes Mal, wenn jemand die Maske aufsetzt und über den Campus geht, sehen die Krähen ihn sofort. Sie folgen ihm von Baum zu Baum, beobachten ihn von oben und schimpfen: „Krah! Krah! Krah!“",
+    "Die Person mit der Maske tut nichts Böses: Sie geht nur spazieren. Aber die Krähen erkennen sie. Und wenn dieselbe Person ohne Maske geht? Dann schauen die Krähen sie nicht einmal an.",
+    "Der Professor macht auch einen Test: Er setzt eine andere Maske auf, mit dem Gesicht eines bekannten Politikers. Die Krähen schauen sie an und ignorieren sie dann. Das Problem ist nicht irgendeine Maske: Es ist genau diese Maske.",
+    "Die Jahre vergehen. Die sieben Krähen vom ersten Tag sind alt, und einige sind vielleicht schon tot. Aber die Maske hat immer mehr Feinde: Eines Tages schimpfen 47 von 53 Krähen! Viele von ihnen waren 2006 noch nicht geboren. Woher kennen sie die Maske? Wahrscheinlich haben sie gesehen, wie ihre Eltern und die anderen Krähen wütend waren, und sie nachgeahmt.",
+    "Und heute? 2023, siebzehn Jahre später, hat der Professor die Maske wieder aufgesetzt und seinen Spaziergang gemacht. Keine Krähe hat ihn beschimpft. Vielleicht haben die Krähen ihm verziehen. Oder vielleicht haben sie ihn nach so vielen Jahren einfach vergessen."
+   ],
+   "b1": [
+    "Krähen haben einen schlechten Ruf: In vielen Kulturen sind sie Unglücksvögel, und in Filmen tauchen sie immer kurz vor einem Unglück auf. Doch wer sie aus der Nähe erforscht, erzählt eine andere Geschichte: Krähen gehören zu den intelligentesten Tieren der Erde und haben vor allem ein hervorragendes Gedächtnis für Gesichter.",
+    "Das zeigte ein Experiment, das 2006 an der University of Washington in Seattle begann. Der Biologe John Marzluff erforschte die Krähen auf dem Campus; dafür musste er sie aber fangen und ihnen einen Ring ans Bein machen. Er hatte bemerkt, dass die Krähen ihn nach dem Fang wiederzuerkennen schienen, und beschloss deshalb einen Test: Zum Fangen setzte er eine Gummimaske auf.",
+    "Das Ergebnis war eindeutig. Von da an wurde nämlich jeder, der mit dieser Maske über den Campus ging, von den Krähen verfolgt und beschimpft, während eine andere Maske, die zum Vergleich benutzt wurde, keinerlei Reaktion auslöste. Außerdem nahm die Zahl der wütenden Krähen mit der Zeit nicht ab: Im Gegenteil, sie stieg. Jahre später schimpften bei einem Spaziergang 47 von 53 Krähen auf die Maske.",
+    "Wie ist das möglich, wo doch nur sieben Krähen gefangen worden waren? Die wahrscheinlichste Erklärung ist, dass Krähen voneinander lernen. Wenn eine Krähe eine Gefahr sieht, stößt sie einen Warnruf aus; daraufhin kommen die anderen Krähen näher, beobachten die „gefährliche“ Person und merken sich ihr Gesicht. So geht die Information von Vogel zu Vogel weiter, und sogar von den Eltern an die Jungen. Tatsächlich waren viele der Krähen, die die Maske beschimpften, 2006 noch gar nicht geboren.",
+    "Einige Jahre später beobachtete Marzluffs Gruppe auch das Gehirn der Krähen, während sie die Masken ansahen, mit einer Technik ähnlich denen, die in Krankenhäusern verwendet werden. Das „gefährliche“ Gesicht aktivierte Hirnbereiche, die beim Menschen mit Angst und Lernen verbunden sind.",
+    "Auch wenn das Gedächtnis der Krähen außergewöhnlich ist, ist es nicht ewig. Im September 2023, siebzehn Jahre nach Beginn des Experiments, machte Marzluff noch einen Spaziergang mit der Maske, und keine Krähe beschimpfte ihn. Da eine Krähe im Durchschnitt sieben oder acht Jahre lebt, hat der „Groll“ viel länger gedauert als die Krähen, die ihn zuerst empfunden hatten.",
+    "Kurz gesagt: Wenn dich das nächste Mal eine Krähe von einem Ast aus ansieht, denk daran, dass auch sie dich aufmerksam beobachtet. Es lohnt sich also, sie gut zu behandeln: Schließlich könnte sie es der ganzen Familie erzählen."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "アメリカのシアトル、2006年。大学のキャンパスには、たくさんのカラスがすんでいます。黒くて、頭がよくて、好奇心が強いのです。ジョン・マーズラフ教授は、何年も前からカラスを研究しています。",
+    "ある日、教授はゴムのお面を手に取ります。みにくくて、少し怖いお面です。それを顔につけて、大学の公園に出ます。網で7羽のカラスを捕まえます。けがはさせません。足に色のついた輪をつけて、それから放してやります。",
+    "その日から、ふしぎなことが起こります。だれかがお面をつけてキャンパスを歩くたびに、カラスはすぐにその人を見つけます。木から木へとついてきて、上から見下ろし、しかりつけるのです。「カー！カー！カー！」",
+    "お面をつけた人は何も悪いことをしていません。ただ歩いているだけです。でもカラスはその人を見分けます。では、同じ人がお面なしで歩いたら？カラスは見向きもしません。",
+    "教授は別の実験もします。有名な政治家の顔の、別のお面をつけるのです。カラスはそれを見て、それから無視します。問題は、どんなお面でもいいわけではありません。まさにあのお面なのです。",
+    "年月がたちます。最初の日の7羽のカラスは年をとり、何羽かはもう死んでしまったかもしれません。でもお面の敵はどんどん増えていきます。ある日、53羽のうち47羽がお面をしかりつけたのです！その多くは、2006年にはまだ生まれていませんでした。どうしてお面を知っているのでしょう？たぶん、親やほかのカラスが怒っているのを見て、まねをしたのでしょう。",
+    "そして今は？2023年、17年後に、教授はもう一度お面をつけて散歩をしました。しかりつけるカラスは1羽もいませんでした。カラスたちは教授を許したのかもしれません。それとも、何年もたったので、ただ忘れてしまったのかもしれません。"
+   ],
+   "b1": [
+    "カラスは評判がよくない。多くの文化で不吉な鳥とされ、映画ではいつも災難の直前に現れる。けれども、カラスを間近で研究する人たちは、別の話をする。カラスは地球でもっとも頭のいい動物の一つで、何よりも、顔をとてもよく覚えているのだ。",
+    "それを示したのが、2006年にシアトルのワシントン大学で始まった実験だ。生物学者ジョン・マーズラフはキャンパスのカラスを研究していたが、そのためにはカラスを捕まえて足に輪をつけなければならなかった。捕まえたあと、カラスが自分を見分けているらしいことに気づいた彼は、実験をすることにした。カラスを捕まえるときに、ゴムのお面をかぶったのだ。",
+    "結果ははっきりしていた。その時から、そのお面をつけてキャンパスを歩く人は、だれでもカラスに追いかけられ、しかりつけられた。一方、比較のために使った別のお面には、何の反応もなかった。しかも、怒るカラスの数は時がたっても減らなかった。それどころか増えたのだ。数年後のある散歩では、53羽のうち47羽がお面をしかりつけた。",
+    "捕まえたカラスは7羽だけだったのに、どうしてそんなことが起こるのだろう？いちばんありそうな説明は、カラスが互いに学び合うということだ。カラスは危険を見つけると、警戒の鳴き声をあげる。すると、ほかのカラスが近づいてきて、「危険な」人物を観察し、その顔を覚える。こうして情報は鳥から鳥へ、さらには親から子へと伝わっていく。実際、お面をしかりつけていたカラスの多くは、2006年にはまだ生まれていなかった。",
+    "数年後、マーズラフのグループは、カラスがお面を見ているときの脳も、病院で使われるのと似た技術で観察した。「危険な」顔は、人間では恐怖や学習に関係する脳の部分を活性化させていた。",
+    "カラスの記憶力は並外れているが、永遠ではない。実験の開始から17年後の2023年9月、マーズラフはもう一度お面をつけて散歩をしたが、しかりつけるカラスは1羽もいなかった。カラスの寿命は平均7〜8年なので、その「恨み」は、最初にそれを抱いたカラスたちよりずっと長く続いたことになる。",
+    "要するに、今度カラスが枝の上からあなたを見ていたら、カラスもまた、あなたを注意深く観察していることを思い出してほしい。だから、カラスには親切にしておくほうがいい。なにしろ、家族みんなにそのことを話すかもしれないのだから。"
+   ]
+  }
+ }
+}
