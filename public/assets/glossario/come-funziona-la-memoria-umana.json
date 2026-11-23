@@ -1,0 +1,1020 @@
+{
+ "id": "come-funziona-la-memoria-umana",
+ "nota": "Glossario della lettura (solo B2 e C1: niente traduzione dei paragrafi): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "comprendere",
+   "forme": [
+    "comprende"
+   ],
+   "esempi": [
+    "Il prezzo comprende la colazione.",
+    "Il corso comprende dieci lezioni.",
+    "La memoria comprende sistemi diversi."
+   ],
+   "traduzioni": {
+    "en": "to include, to comprise (here NOT “to understand”)",
+    "es": "comprender, incluir",
+    "pt": "compreender, incluir",
+    "fr": "comprendre, inclure",
+    "cs": "zahrnovat",
+    "pl": "obejmować, zawierać",
+    "tr": "kapsamak, içermek",
+    "de": "umfassen",
+    "ja": "含む"
+   }
+  },
+  {
+   "parola": "sensoriale",
+   "forme": [
+    "sensoriale"
+   ],
+   "esempi": [
+    "La memoria sensoriale dura pochi secondi.",
+    "È un'esperienza sensoriale intensa.",
+    "I bambini imparano con stimoli sensoriali."
+   ],
+   "traduzioni": {
+    "en": "sensory",
+    "es": "sensorial",
+    "pt": "sensorial",
+    "fr": "sensoriel",
+    "cs": "smyslový",
+    "pl": "sensoryczny",
+    "tr": "duyusal",
+    "de": "sensorisch",
+    "ja": "感覚の"
+   },
+   "formeEsempi": [
+    "sensoriali"
+   ]
+  },
+  {
+   "parola": "episodico",
+   "forme": [
+    "episodica"
+   ],
+   "formeEsempi": [
+    "episodico"
+   ],
+   "esempi": [
+    "La memoria episodica conserva eventi personali.",
+    "Ricordare il primo giorno di scuola è memoria episodica.",
+    "È un contatto solo episodico."
+   ],
+   "traduzioni": {
+    "en": "episodic",
+    "es": "episódico",
+    "pt": "episódico",
+    "fr": "épisodique",
+    "cs": "epizodický",
+    "pl": "epizodyczny",
+    "tr": "epizodik, olaysal",
+    "de": "episodisch",
+    "ja": "エピソードの"
+   }
+  },
+  {
+   "parola": "semantico",
+   "forme": [
+    "semantica"
+   ],
+   "formeEsempi": [
+    "semantico"
+   ],
+   "esempi": [
+    "La memoria semantica contiene i significati.",
+    "Sapere che Roma è la capitale è memoria semantica.",
+    "È una differenza semantica sottile."
+   ],
+   "traduzioni": {
+    "en": "semantic",
+    "es": "semántico",
+    "pt": "semântico",
+    "fr": "sémantique",
+    "cs": "sémantický",
+    "pl": "semantyczny",
+    "tr": "anlamsal",
+    "de": "semantisch",
+    "ja": "意味の"
+   }
+  },
+  {
+   "parola": "procedurale",
+   "forme": [
+    "procedurali"
+   ],
+   "formeEsempi": [
+    "procedurale"
+   ],
+   "esempi": [
+    "Andare in bicicletta è un'abilità procedurale.",
+    "La memoria procedurale lavora senza parole.",
+    "Segui le regole procedurali."
+   ],
+   "traduzioni": {
+    "en": "procedural",
+    "es": "procedimental",
+    "pt": "procedural",
+    "fr": "procédural",
+    "cs": "procedurální",
+    "pl": "proceduralny",
+    "tr": "işlemsel, prosedürel",
+    "de": "prozedural",
+    "ja": "手続きの"
+   }
+  },
+  {
+   "parola": "l'abilità",
+   "forme": [
+    "abilità"
+   ],
+   "esempi": [
+    "Ha una grande abilità nel disegno.",
+    "Nuotare è un'abilità utile.",
+    "Le abilità si allenano con la pratica."
+   ],
+   "traduzioni": {
+    "en": "skill, ability",
+    "es": "habilidad",
+    "pt": "habilidade",
+    "fr": "habileté, compétence",
+    "cs": "dovednost",
+    "pl": "umiejętność",
+    "tr": "beceri",
+    "de": "Fähigkeit",
+    "ja": "技能、能力"
+   }
+  },
+  {
+   "parola": "tuttavia",
+   "forme": [
+    "tuttavia"
+   ],
+   "esempi": [
+    "Era stanco, tuttavia ha continuato.",
+    "Il piano è buono; tuttavia è caro.",
+    "Sembra facile e tuttavia non lo è."
+   ],
+   "traduzioni": {
+    "en": "however, nevertheless",
+    "es": "sin embargo",
+    "pt": "no entanto, contudo",
+    "fr": "cependant, pourtant",
+    "cs": "přesto, avšak",
+    "pl": "jednak, mimo to",
+    "tr": "yine de, ancak",
+    "de": "dennoch, jedoch",
+    "ja": "しかしながら"
+   }
+  },
+  {
+   "parola": "incompleto",
+   "forme": [
+    "incompleto"
+   ],
+   "formeEsempi": [
+    "incompleti"
+   ],
+   "esempi": [
+    "Il modulo è incompleto.",
+    "Ho solo un ricordo incompleto di quella sera.",
+    "Con dati incompleti la risposta è sbagliata."
+   ],
+   "traduzioni": {
+    "en": "incomplete",
+    "es": "incompleto",
+    "pt": "incompleto",
+    "fr": "incomplet",
+    "cs": "neúplný",
+    "pl": "niekompletny",
+    "tr": "eksik",
+    "de": "unvollständig",
+    "ja": "不完全な"
+   }
+  },
+  {
+   "parola": "ricostruire",
+   "forme": [
+    "ricostruire"
+   ],
+   "formeEsempi": [
+    "ricostruisce"
+   ],
+   "esempi": [
+    "Dopo il terremoto bisogna ricostruire la città.",
+    "La polizia ricostruisce i fatti.",
+    "Ricordare significa ricostruire."
+   ],
+   "traduzioni": {
+    "en": "to reconstruct, to rebuild",
+    "es": "reconstruir",
+    "pt": "reconstruir",
+    "fr": "reconstruire",
+    "cs": "rekonstruovat, znovu sestavit",
+    "pl": "odtwarzać, rekonstruować",
+    "tr": "yeniden kurmak",
+    "de": "rekonstruieren",
+    "ja": "再構成する"
+   }
+  },
+  {
+   "parola": "il dettaglio",
+   "forme": [
+    "dettagli",
+    "dettaglio"
+   ],
+   "esempi": [
+    "Raccontami tutti i dettagli!",
+    "È un dettaglio importante.",
+    "Mi ricordo ogni dettaglio."
+   ],
+   "traduzioni": {
+    "en": "detail",
+    "es": "detalle",
+    "pt": "detalhe",
+    "fr": "détail",
+    "cs": "detail, podrobnost",
+    "pl": "szczegół",
+    "tr": "ayrıntı",
+    "de": "Detail",
+    "ja": "細部"
+   }
+  },
+  {
+   "parola": "la conoscenza",
+   "forme": [
+    "conoscenze"
+   ],
+   "formeEsempi": [
+    "conoscenza"
+   ],
+   "esempi": [
+    "Ha buone conoscenze di informatica.",
+    "La conoscenza è potere.",
+    "Usiamo conoscenze generali per capire."
+   ],
+   "traduzioni": {
+    "en": "knowledge",
+    "es": "conocimiento",
+    "pt": "conhecimento",
+    "fr": "connaissance",
+    "cs": "znalost",
+    "pl": "wiedza",
+    "tr": "bilgi",
+    "de": "Kenntnis, Wissen",
+    "ja": "知識"
+   }
+  },
+  {
+   "parola": "l'aspettativa",
+   "forme": [
+    "aspettative"
+   ],
+   "formeEsempi": [
+    "aspettativa"
+   ],
+   "esempi": [
+    "Le mie aspettative erano alte.",
+    "Il film non ha rispettato le aspettative.",
+    "Le aspettative cambiano il ricordo."
+   ],
+   "traduzioni": {
+    "en": "expectation",
+    "es": "expectativa",
+    "pt": "expectativa",
+    "fr": "attente",
+    "cs": "očekávání",
+    "pl": "oczekiwanie",
+    "tr": "beklenti",
+    "de": "Erwartung",
+    "ja": "期待、予想"
+   }
+  },
+  {
+   "parola": "l'evento",
+   "forme": [
+    "evento"
+   ],
+   "esempi": [
+    "È stato un evento importante.",
+    "Organizziamo un evento in piazza.",
+    "Ricordiamo lo stesso evento in modo diverso."
+   ],
+   "traduzioni": {
+    "en": "event",
+    "es": "evento, acontecimiento",
+    "pt": "evento, acontecimento",
+    "fr": "événement",
+    "cs": "událost",
+    "pl": "wydarzenie",
+    "tr": "olay",
+    "de": "Ereignis",
+    "ja": "出来事"
+   }
+  },
+  {
+   "parola": "emotivo",
+   "forme": [
+    "emotiva"
+   ],
+   "formeEsempi": [
+    "emotivo"
+   ],
+   "esempi": [
+    "È una persona molto emotiva.",
+    "Il film ha un forte impatto emotivo.",
+    "La memoria emotiva è intensa."
+   ],
+   "traduzioni": {
+    "en": "emotional",
+    "es": "emocional, emotivo",
+    "pt": "emocional",
+    "fr": "émotionnel",
+    "cs": "emoční",
+    "pl": "emocjonalny",
+    "tr": "duygusal",
+    "de": "emotional",
+    "ja": "感情の"
+   }
+  },
+  {
+   "parola": "vivido",
+   "forme": [
+    "vivida"
+   ],
+   "formeEsempi": [
+    "vivido",
+    "vividi"
+   ],
+   "esempi": [
+    "Ho un ricordo vivido di quel giorno.",
+    "Il quadro ha colori vividi.",
+    "È un sogno molto vivido."
+   ],
+   "traduzioni": {
+    "en": "vivid",
+    "es": "vívido",
+    "pt": "vívido",
+    "fr": "vif, vivace",
+    "cs": "živý",
+    "pl": "żywy",
+    "tr": "canlı",
+    "de": "lebhaft",
+    "ja": "鮮やかな"
+   }
+  },
+  {
+   "parola": "modificabile",
+   "forme": [
+    "modificabile"
+   ],
+   "esempi": [
+    "Il documento non è modificabile.",
+    "La prenotazione è modificabile fino a domani.",
+    "Anche un ricordo è modificabile."
+   ],
+   "traduzioni": {
+    "en": "modifiable, changeable",
+    "es": "modificable",
+    "pt": "modificável",
+    "fr": "modifiable",
+    "cs": "změnitelný",
+    "pl": "modyfikowalny, zmienny",
+    "tr": "değiştirilebilir",
+    "de": "veränderbar",
+    "ja": "変えられる"
+   }
+  },
+  {
+   "parola": "garantire",
+   "forme": [
+    "garantisce"
+   ],
+   "formeEsempi": [
+    "garantire",
+    "garantisco"
+   ],
+   "esempi": [
+    "Il negozio garantisce il prodotto per due anni.",
+    "Studiare non garantisce il successo.",
+    "Ti garantisco che è vero."
+   ],
+   "traduzioni": {
+    "en": "to guarantee",
+    "es": "garantizar",
+    "pt": "garantir",
+    "fr": "garantir",
+    "cs": "zaručit",
+    "pl": "gwarantować",
+    "tr": "garanti etmek",
+    "de": "garantieren",
+    "ja": "保証する"
+   }
+  },
+  {
+   "parola": "comparire",
+   "forme": [
+    "compare"
+   ],
+   "esempi": [
+    "Il suo nome compare nella lista.",
+    "La parola compare tre volte nel testo.",
+    "Il sole compare tra le nuvole."
+   ],
+   "traduzioni": {
+    "en": "to appear",
+    "es": "aparecer",
+    "pt": "aparecer",
+    "fr": "apparaître",
+    "cs": "objevit se",
+    "pl": "pojawić się",
+    "tr": "görünmek, geçmek",
+    "de": "erscheinen, vorkommen",
+    "ja": "現れる、出てくる"
+   }
+  },
+  {
+   "parola": "il contesto",
+   "forme": [
+    "contesti"
+   ],
+   "formeEsempi": [
+    "contesto"
+   ],
+   "esempi": [
+    "Capisco la parola dal contesto.",
+    "In contesti diversi cambia significato.",
+    "Bisogna leggere la frase nel suo contesto."
+   ],
+   "traduzioni": {
+    "en": "context",
+    "es": "contexto",
+    "pt": "contexto",
+    "fr": "contexte",
+    "cs": "kontext, souvislost",
+    "pl": "kontekst",
+    "tr": "bağlam",
+    "de": "Kontext, Zusammenhang",
+    "ja": "文脈"
+   }
+  },
+  {
+   "parola": "isolato",
+   "forme": [
+    "isolata"
+   ],
+   "formeEsempi": [
+    "isolato"
+   ],
+   "esempi": [
+    "Vive in una casa isolata.",
+    "È un caso isolato.",
+    "Una parola isolata si dimentica presto."
+   ],
+   "traduzioni": {
+    "en": "isolated",
+    "es": "aislado",
+    "pt": "isolado",
+    "fr": "isolé",
+    "cs": "izolovaný, osamocený",
+    "pl": "odizolowany, pojedynczy",
+    "tr": "tek başına, yalıtılmış",
+    "de": "isoliert, einzeln",
+    "ja": "孤立した"
+   }
+  },
+  {
+   "parola": "selettivo",
+   "forme": [
+    "selettiva"
+   ],
+   "formeEsempi": [
+    "selettivo"
+   ],
+   "esempi": [
+    "La memoria è selettiva.",
+    "È un ascolto selettivo.",
+    "L'università ha un esame molto selettivo."
+   ],
+   "traduzioni": {
+    "en": "selective",
+    "es": "selectivo",
+    "pt": "seletivo",
+    "fr": "sélectif",
+    "cs": "selektivní",
+    "pl": "wybiórczy",
+    "tr": "seçici",
+    "de": "selektiv",
+    "ja": "選択的な"
+   }
+  },
+  {
+   "parola": "ricostruttivo",
+   "forme": [
+    "ricostruttiva"
+   ],
+   "esempi": [
+    "La memoria è un processo ricostruttivo.",
+    "Fa un intervento di chirurgia ricostruttiva.",
+    "È una lettura ricostruttiva della storia."
+   ],
+   "traduzioni": {
+    "en": "reconstructive",
+    "es": "reconstructivo",
+    "pt": "reconstrutivo",
+    "fr": "reconstructif",
+    "cs": "rekonstruktivní",
+    "pl": "rekonstrukcyjny",
+    "tr": "yeniden yapılandırıcı",
+    "de": "rekonstruktiv",
+    "ja": "再構成的な"
+   },
+   "formeEsempi": [
+    "ricostruttivo"
+   ]
+  },
+  {
+   "parola": "legato a",
+   "forme": [
+    "legata"
+   ],
+   "formeEsempi": [
+    "legato"
+   ],
+   "esempi": [
+    "È un ricordo legato all'infanzia.",
+    "Sono molto legato alla mia città.",
+    "Il problema è legato al traffico."
+   ],
+   "traduzioni": {
+    "en": "linked to, connected with",
+    "es": "ligado a, vinculado a",
+    "pt": "ligado a",
+    "fr": "lié à",
+    "cs": "spojený s",
+    "pl": "związany z",
+    "tr": "-e bağlı",
+    "de": "verbunden mit",
+    "ja": "〜と結びついた"
+   }
+  },
+  {
+   "parola": "l'identità",
+   "forme": [
+    "identità"
+   ],
+   "esempi": [
+    "La lingua fa parte della nostra identità.",
+    "Mostri un documento d'identità.",
+    "È una questione di identità."
+   ],
+   "traduzioni": {
+    "en": "identity",
+    "es": "identidad",
+    "pt": "identidade",
+    "fr": "identité",
+    "cs": "identita",
+    "pl": "tożsamość",
+    "tr": "kimlik",
+    "de": "Identität",
+    "ja": "アイデンティティ"
+   }
+  },
+  {
+   "parola": "l'archivio",
+   "forme": [
+    "archivio"
+   ],
+   "esempi": [
+    "I vecchi documenti sono nell'archivio.",
+    "La biblioteca ha un archivio enorme.",
+    "La mente non è un archivio."
+   ],
+   "traduzioni": {
+    "en": "archive",
+    "es": "archivo",
+    "pt": "arquivo",
+    "fr": "archive",
+    "cs": "archiv",
+    "pl": "archiwum",
+    "tr": "arşiv",
+    "de": "Archiv",
+    "ja": "保管庫、アーカイブ"
+   }
+  },
+  {
+   "parola": "riorganizzare",
+   "forme": [
+    "riorganizza"
+   ],
+   "formeEsempi": [
+    "riorganizzare",
+    "riorganizzo"
+   ],
+   "esempi": [
+    "Riorganizzo l'armadio ogni primavera.",
+    "Il capo riorganizza il lavoro.",
+    "Dobbiamo riorganizzare il programma."
+   ],
+   "traduzioni": {
+    "en": "to reorganise",
+    "es": "reorganizar",
+    "pt": "reorganizar",
+    "fr": "réorganiser",
+    "cs": "přeorganizovat",
+    "pl": "reorganizować",
+    "tr": "yeniden düzenlemek",
+    "de": "neu ordnen",
+    "ja": "整理し直す"
+   }
+  },
+  {
+   "parola": "in funzione di",
+   "forme": [
+    "funzione"
+   ],
+   "esempi": [
+    "Scelgo il vestito in funzione del tempo.",
+    "Il prezzo cambia in funzione della stagione.",
+    "Ogni organo ha una funzione."
+   ],
+   "traduzioni": {
+    "en": "according to, depending on (also: function)",
+    "es": "en función de",
+    "pt": "em função de",
+    "fr": "en fonction de",
+    "cs": "v závislosti na (i: funkce)",
+    "pl": "w zależności od (też: funkcja)",
+    "tr": "-e göre (ayrıca: işlev)",
+    "de": "je nach (auch: Funktion)",
+    "ja": "〜に応じて（機能、の意味も）"
+   }
+  },
+  {
+   "parola": "implicare",
+   "forme": [
+    "implica"
+   ],
+   "esempi": [
+    "Questo lavoro implica molti viaggi.",
+    "Una scelta implica una rinuncia.",
+    "Ricordare implica tre fasi."
+   ],
+   "traduzioni": {
+    "en": "to involve, to imply",
+    "es": "implicar",
+    "pt": "implicar",
+    "fr": "impliquer",
+    "cs": "zahrnovat, znamenat",
+    "pl": "pociągać za sobą, oznaczać",
+    "tr": "gerektirmek, içermek",
+    "de": "beinhalten, bedeuten",
+    "ja": "伴う、含む"
+   }
+  },
+  {
+   "parola": "la codifica",
+   "forme": [
+    "codifica"
+   ],
+   "esempi": [
+    "La codifica è la prima fase della memoria.",
+    "Senza attenzione la codifica è debole.",
+    "La codifica dei dati richiede tempo."
+   ],
+   "traduzioni": {
+    "en": "encoding",
+    "es": "codificación",
+    "pt": "codificação",
+    "fr": "encodage",
+    "cs": "kódování",
+    "pl": "kodowanie",
+    "tr": "kodlama",
+    "de": "Kodierung",
+    "ja": "符号化、記銘"
+   }
+  },
+  {
+   "parola": "il consolidamento",
+   "forme": [
+    "consolidamento"
+   ],
+   "esempi": [
+    "Il sonno aiuta il consolidamento dei ricordi.",
+    "È una fase di consolidamento.",
+    "Il consolidamento richiede ore."
+   ],
+   "traduzioni": {
+    "en": "consolidation",
+    "es": "consolidación",
+    "pt": "consolidação",
+    "fr": "consolidation",
+    "cs": "konsolidace, upevnění",
+    "pl": "konsolidacja, utrwalenie",
+    "tr": "pekiştirme",
+    "de": "Festigung, Konsolidierung",
+    "ja": "定着"
+   }
+  },
+  {
+   "parola": "la fragilità",
+   "forme": [
+    "fragilità"
+   ],
+   "esempi": [
+    "La fragilità del vetro è nota.",
+    "Non nascondere la tua fragilità.",
+    "La fragilità di un passaggio rende incerto il ricordo."
+   ],
+   "traduzioni": {
+    "en": "fragility, weakness",
+    "es": "fragilidad",
+    "pt": "fragilidade",
+    "fr": "fragilité",
+    "cs": "křehkost",
+    "pl": "kruchość",
+    "tr": "kırılganlık",
+    "de": "Zerbrechlichkeit, Schwäche",
+    "ja": "もろさ"
+   }
+  },
+  {
+   "parola": "incerto",
+   "forme": [
+    "incerto"
+   ],
+   "esempi": [
+    "Il tempo è incerto.",
+    "Sono incerto se partire.",
+    "Il risultato è ancora incerto."
+   ],
+   "traduzioni": {
+    "en": "uncertain",
+    "es": "incierto",
+    "pt": "incerto",
+    "fr": "incertain",
+    "cs": "nejistý",
+    "pl": "niepewny",
+    "tr": "belirsiz",
+    "de": "unsicher",
+    "ja": "不確かな"
+   }
+  },
+  {
+   "parola": "distrattamente",
+   "forme": [
+    "distrattamente"
+   ],
+   "esempi": [
+    "Ho letto la mail distrattamente.",
+    "Guarda la TV distrattamente.",
+    "Annuisce distrattamente."
+   ],
+   "traduzioni": {
+    "en": "absent-mindedly, without paying attention",
+    "es": "distraídamente",
+    "pt": "distraidamente",
+    "fr": "distraitement",
+    "cs": "roztržitě",
+    "pl": "w roztargnieniu",
+    "tr": "dalgın dalgın",
+    "de": "zerstreut, nebenbei",
+    "ja": "ぼんやりと"
+   }
+  },
+  {
+   "parola": "l'ippocampo",
+   "forme": [
+    "ippocampo"
+   ],
+   "esempi": [
+    "L'ippocampo è una parte del cervello.",
+    "L'ippocampo ha la forma di un cavalluccio marino.",
+    "Lo studio riguarda l'ippocampo."
+   ],
+   "traduzioni": {
+    "en": "hippocampus",
+    "es": "hipocampo",
+    "pt": "hipocampo",
+    "fr": "hippocampe",
+    "cs": "hipokampus",
+    "pl": "hipokamp",
+    "tr": "hipokampus",
+    "de": "Hippocampus",
+    "ja": "海馬"
+   }
+  },
+  {
+   "parola": "a lungo termine",
+   "forme": [
+    "termine"
+   ],
+   "esempi": [
+    "È un investimento a lungo termine.",
+    "La memoria a lungo termine conserva i ricordi per anni.",
+    "Pensiamo a un piano a lungo termine."
+   ],
+   "traduzioni": {
+    "en": "long-term («a lungo termine»)",
+    "es": "a largo plazo",
+    "pt": "de longo prazo",
+    "fr": "à long terme",
+    "cs": "dlouhodobý",
+    "pl": "długoterminowy",
+    "tr": "uzun süreli",
+    "de": "langfristig",
+    "ja": "長期の"
+   }
+  },
+  {
+   "parola": "sfumato",
+   "forme": [
+    "sfumata"
+   ],
+   "formeEsempi": [
+    "sfumato",
+    "sfumati"
+   ],
+   "esempi": [
+    "Il confine tra i due concetti è sfumato.",
+    "Il cielo ha colori sfumati.",
+    "È una distinzione sfumata."
+   ],
+   "traduzioni": {
+    "en": "blurred, subtle, nuanced",
+    "es": "difuso, matizado",
+    "pt": "tênue, sutil",
+    "fr": "flou, nuancé",
+    "cs": "neostrý, jemný",
+    "pl": "niewyraźny, płynny",
+    "tr": "belirsiz, ince",
+    "de": "fließend, unscharf",
+    "ja": "あいまいな、境目のはっきりしない"
+   }
+  },
+  {
+   "parola": "la dimenticanza",
+   "forme": [
+    "dimenticanza"
+   ],
+   "esempi": [
+    "Scusa, è stata una dimenticanza.",
+    "La dimenticanza non è sempre un difetto.",
+    "Per una dimenticanza ho perso il treno."
+   ],
+   "traduzioni": {
+    "en": "forgetting, oversight",
+    "es": "olvido",
+    "pt": "esquecimento",
+    "fr": "oubli",
+    "cs": "zapomnění, opomenutí",
+    "pl": "zapominanie, przeoczenie",
+    "tr": "unutkanlık, unutma",
+    "de": "Vergessen, Versehen",
+    "ja": "忘却、うっかり忘れ"
+   }
+  },
+  {
+   "parola": "il fallimento",
+   "forme": [
+    "fallimento"
+   ],
+   "esempi": [
+    "Il progetto è stato un fallimento.",
+    "Non aver paura del fallimento.",
+    "L'azienda è in fallimento."
+   ],
+   "traduzioni": {
+    "en": "failure",
+    "es": "fracaso",
+    "pt": "fracasso",
+    "fr": "échec",
+    "cs": "neúspěch, selhání",
+    "pl": "porażka",
+    "tr": "başarısızlık",
+    "de": "Scheitern",
+    "ja": "失敗"
+   }
+  },
+  {
+   "parola": "adattivo",
+   "forme": [
+    "adattiva"
+   ],
+   "esempi": [
+    "Il comportamento ha una funzione adattiva.",
+    "È una strategia adattiva.",
+    "Gli animali hanno risposte adattive."
+   ],
+   "traduzioni": {
+    "en": "adaptive",
+    "es": "adaptativo",
+    "pt": "adaptativo",
+    "fr": "adaptatif",
+    "cs": "adaptivní",
+    "pl": "adaptacyjny",
+    "tr": "uyumsal",
+    "de": "anpassungsfähig, adaptiv",
+    "ja": "適応的な"
+   },
+   "formeEsempi": [
+    "adattive"
+   ]
+  },
+  {
+   "parola": "sommerso",
+   "forme": [
+    "sommersi"
+   ],
+   "formeEsempi": [
+    "sommerso"
+   ],
+   "esempi": [
+    "Sono sommerso dal lavoro.",
+    "Il paese è stato sommerso dall'acqua.",
+    "Siamo sommersi da informazioni."
+   ],
+   "traduzioni": {
+    "en": "overwhelmed, swamped (also: submerged)",
+    "es": "abrumado, sumergido",
+    "pt": "sobrecarregado, submerso",
+    "fr": "submergé",
+    "cs": "zavalený, zaplavený",
+    "pl": "przytłoczony, zalany",
+    "tr": "boğulmuş, gömülmüş",
+    "de": "überschwemmt, überhäuft",
+    "ja": "埋もれた、圧倒された"
+   }
+  },
+  {
+   "parola": "irrilevante",
+   "forme": [
+    "irrilevanti"
+   ],
+   "formeEsempi": [
+    "irrilevante"
+   ],
+   "esempi": [
+    "È un dettaglio irrilevante.",
+    "Le tue domande non sono irrilevanti.",
+    "Questo per me è irrilevante."
+   ],
+   "traduzioni": {
+    "en": "irrelevant",
+    "es": "irrelevante",
+    "pt": "irrelevante",
+    "fr": "insignifiant, sans importance",
+    "cs": "nepodstatný",
+    "pl": "nieistotny",
+    "tr": "önemsiz",
+    "de": "unwichtig, irrelevant",
+    "ja": "どうでもいい、無関係な"
+   }
+  },
+  {
+   "parola": "l'apprendimento",
+   "forme": [
+    "apprendimento"
+   ],
+   "esempi": [
+    "Il gioco aiuta l'apprendimento.",
+    "L'apprendimento di una lingua richiede tempo.",
+    "Ogni bambino ha il suo ritmo di apprendimento."
+   ],
+   "traduzioni": {
+    "en": "learning",
+    "es": "aprendizaje",
+    "pt": "aprendizagem",
+    "fr": "apprentissage",
+    "cs": "učení",
+    "pl": "uczenie się",
+    "tr": "öğrenme",
+    "de": "Lernen",
+    "ja": "学習"
+   }
+  },
+  {
+   "parola": "la prospettiva",
+   "forme": [
+    "prospettiva"
+   ],
+   "esempi": [
+    "Da questa prospettiva il problema è diverso.",
+    "Ho cambiato prospettiva.",
+    "È una prospettiva interessante."
+   ],
+   "traduzioni": {
+    "en": "perspective, point of view",
+    "es": "perspectiva",
+    "pt": "perspectiva",
+    "fr": "perspective",
+    "cs": "pohled, perspektiva",
+    "pl": "perspektywa",
+    "tr": "bakış açısı",
+    "de": "Perspektive",
+    "ja": "視点"
+   }
+  }
+ ]
+}
