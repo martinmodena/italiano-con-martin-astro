@@ -216,6 +216,8 @@ Aggiungere una pagina nuova significa creare il frammento in `src/html/` e la pa
 
   **La stessa parola non ha sempre lo stesso significato**: la glossa e gli esempi devono dare il senso che la parola ha _in questo testo_, non il primo del dizionario (nel lago di yogurt «girare» è mescolare, «paese» è villaggio e non Stato, «secondo» è «according to»). Se un testo usa la stessa parola in due sensi si scrivono due voci, distinte da `contesto` (una parola vicina che deve comparire nello stesso paragrafo) o da `livelli` (per esempio `["c1"]`). Nella favola del cane «superficie» è il pelo dell'acqua nel primo paragrafo e «solo da fuori» nell'ultimo. Dove il senso ovvio sarebbe quello sbagliato conviene dirlo dentro la traduzione stessa: `apparentemente` → «seemingly, only in appearance (NOT “apparently”)».
 
+  **Forme di una parola sola** (2026-11-22): `forme` e `formeEsempi` contengono solo parole singole: «ad alta voce» o «chiede il conto» non vengono mai trovate. Per un'espressione si mette la parola che la regge (`voce`, `conto`, `fame`) e l'espressione va nella testata e nella traduzione («fame» → «avere fame»). Il `contesto` si cerca nell'intero **paragrafo**, non nella frase: va scelta una parola che c'è solo nel paragrafo giusto. Gli accenti non contano nel confronto: `dà` trova anche ogni `da`, quindi serve un `contesto`. Emma in Italia: tutti gli 11 episodi fatti il 2026-11-22.
+
 - **Prima di pubblicare** devono passare, nell'ordine:
 
   ```
