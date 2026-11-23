@@ -2,7 +2,7 @@ export const grammarSeoTitles = {
   en: {
     'aggettivi-e-pronomi-possessivi': 'Italian possessive adjectives and pronouns',
     'aggettivi-qualificativi': 'Italian qualifying adjectives',
-    'articoli-determinativi': 'Italian definite articles',
+    'articoli-determinativi': 'Italian definite articles: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Italian indefinite articles',
     'ce-ci-sono': 'Italian c’è and ci sono',
     'genere-e-numero': 'Gender and number of Italian nouns: il libro, i libri',
@@ -50,7 +50,7 @@ export const grammarSeoTitles = {
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
     'aggettivi-qualificativi': 'Adjetivos calificativos en italiano',
-    'articoli-determinativi': 'Artículos determinados en italiano',
+    'articoli-determinativi': 'Artículos determinados en italiano: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Artículos indeterminados en italiano',
     'ce-ci-sono': 'C’è y ci sono en italiano',
     'genere-e-numero': 'Género y número de los sustantivos italianos: il libro, i libri',
@@ -98,7 +98,7 @@ export const grammarSeoTitles = {
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
     'aggettivi-qualificativi': 'Adjectifs qualificatifs en italien',
-    'articoli-determinativi': 'Articles définis en italien',
+    'articoli-determinativi': 'Articles définis en italien : il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Articles indéfinis en italien',
     'ce-ci-sono': 'C’è et ci sono en italien',
     'genere-e-numero': 'Genre et nombre des noms italiens : il libro, i libri',
@@ -146,7 +146,7 @@ export const grammarSeoTitles = {
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
     'aggettivi-qualificativi': 'Italská přídavná jména',
-    'articoli-determinativi': 'Určité členy v italštině',
+    'articoli-determinativi': 'Určité členy v italštině: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Neurčité členy v italštině',
     'ce-ci-sono': 'Italské c’è a ci sono',
     'genere-e-numero': 'Rod a číslo italských podstatných jmen: il libro, i libri',
@@ -194,7 +194,7 @@ export const grammarSeoTitles = {
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
     'aggettivi-qualificativi': 'Włoskie przymiotniki kwalifikujące',
-    'articoli-determinativi': 'Rodzajniki określone w języku włoskim',
+    'articoli-determinativi': 'Rodzajniki określone w języku włoskim: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Rodzajniki nieokreślone w języku włoskim',
     'ce-ci-sono': 'Włoskie c’è i ci sono',
     'genere-e-numero': 'Rodzaj i liczba włoskich rzeczowników: il libro, i libri',
@@ -242,7 +242,7 @@ export const grammarSeoTitles = {
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
     'aggettivi-qualificativi': 'İtalyanca niteleme sıfatları',
-    'articoli-determinativi': 'İtalyanca belirli artikeller',
+    'articoli-determinativi': 'İtalyanca belirli artikeller: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'İtalyanca belirsiz artikeller',
     'ce-ci-sono': 'İtalyancada c’è ve ci sono',
     'genere-e-numero': 'İtalyanca isimlerde cinsiyet ve çoğul: il libro, i libri',
@@ -290,7 +290,7 @@ export const grammarSeoTitles = {
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
     'aggettivi-qualificativi': 'Italienische Adjektive',
-    'articoli-determinativi': 'Bestimmte Artikel im Italienischen',
+    'articoli-determinativi': 'Bestimmte Artikel im Italienischen: il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'Unbestimmte Artikel im Italienischen',
     'ce-ci-sono': 'C’è und ci sono im Italienischen',
     'genere-e-numero': 'Geschlecht und Zahl italienischer Substantive: il libro, i libri',
@@ -338,7 +338,7 @@ export const grammarSeoTitles = {
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
     'aggettivi-qualificativi': 'イタリア語の形容詞',
-    'articoli-determinativi': 'イタリア語の定冠詞',
+    'articoli-determinativi': 'イタリア語の定冠詞：il, lo, la, i, gli, le',
     'articoli-indeterminativi': 'イタリア語の不定冠詞',
     'ce-ci-sono': 'イタリア語の c’è と ci sono',
     'genere-e-numero': 'イタリア語の名詞の性と数：il libro, i libri',

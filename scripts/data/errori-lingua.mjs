@@ -41,6 +41,7 @@ import { ERRORS_IMPERATIVO } from './confronti-imperativo.mjs';
 import { ERRORS_GENERE_NUMERO } from './confronti-genere-numero.mjs';
 import { ERRORS_PRESENTE_REGOLARE } from './confronti-presente-regolare.mjs';
 import { ERRORS_PRESENTE_IRREGOLARE } from './confronti-presente-irregolare.mjs';
+import { ERRORS_ARTICOLI_DETERMINATIVI } from './confronti-articoli-determinativi.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1031,3 +1032,4 @@ Object.assign(ERRORS, ERRORS_IMPERATIVO);
 Object.assign(ERRORS, ERRORS_GENERE_NUMERO);
 Object.assign(ERRORS, ERRORS_PRESENTE_REGOLARE);
 Object.assign(ERRORS, ERRORS_PRESENTE_IRREGOLARE);
+Object.assign(ERRORS, ERRORS_ARTICOLI_DETERMINATIVI);

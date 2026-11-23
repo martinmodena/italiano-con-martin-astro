@@ -1749,4 +1749,25 @@ export const NAV_LABELS = {
     de: 'Sapere oder conoscere?',
     ja: 'sapere と conoscere',
   },
+  // Articoli determinativi (A1), 2026-11-23.
+  'Lo e gli': {
+    en: 'Lo and gli',
+    es: 'Lo y gli',
+    fr: 'Lo et gli',
+    cs: 'Lo a gli',
+    pl: 'Lo i gli',
+    tr: 'Lo ve gli',
+    de: 'Lo und gli',
+    ja: 'lo と gli',
+  },
+  'Senza articolo': {
+    en: 'Without the article',
+    es: 'Sin artículo',
+    fr: 'Sans article',
+    cs: 'Bez členu',
+    pl: 'Bez rodzajnika',
+    tr: 'Artikelsiz',
+    de: 'Ohne Artikel',
+    ja: '冠詞なし',
+  },
 };
