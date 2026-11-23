@@ -1,0 +1,1948 @@
+{
+ "id": "storia-del-caffe-in-italia",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "la mattina",
+   "forme": [
+    "mattina"
+   ],
+   "esempi": [
+    "La mattina bevo un caffè.",
+    "Sono le sette di mattina.",
+    "Domani mattina parto presto."
+   ],
+   "traduzioni": {
+    "en": "morning («di mattina» = in the morning)",
+    "es": "mañana",
+    "pt": "manhã",
+    "fr": "matin",
+    "cs": "ráno",
+    "pl": "rano, poranek",
+    "tr": "sabah",
+    "de": "Morgen",
+    "ja": "朝"
+   }
+  },
+  {
+   "parola": "la volta",
+   "forme": [
+    "volta"
+   ],
+   "esempi": [
+    "È la prima volta che vengo in Italia.",
+    "Ci vediamo la prossima volta.",
+    "Una volta al mese vado a teatro."
+   ],
+   "traduzioni": {
+    "en": "time (occasion) («per la prima volta» = for the first time)",
+    "es": "vez («por primera vez»)",
+    "pt": "vez («pela primeira vez»)",
+    "fr": "fois («pour la première fois»)",
+    "cs": "-krát, poprvé («per la prima volta»)",
+    "pl": "raz («po raz pierwszy»)",
+    "tr": "kez, defa («ilk kez»)",
+    "de": "Mal («zum ersten Mal»)",
+    "ja": "回、度（per la prima volta＝初めて）"
+   }
+  },
+  {
+   "parola": "avere sonno",
+   "forme": [
+    "sonno"
+   ],
+   "esempi": [
+    "Ho sonno: vado a letto.",
+    "Dopo pranzo ho sempre sonno.",
+    "Hai sonno? Prendi un caffè!"
+   ],
+   "traduzioni": {
+    "en": "to be sleepy",
+    "es": "tener sueño",
+    "pt": "estar com sono",
+    "fr": "avoir sommeil",
+    "cs": "být ospalý",
+    "pl": "być śpiącym",
+    "tr": "uykusu olmak",
+    "de": "müde sein",
+    "ja": "眠い"
+   }
+  },
+  {
+   "parola": "avere fame",
+   "forme": [
+    "fame"
+   ],
+   "esempi": [
+    "Ho fame: c'è qualcosa da mangiare?",
+    "I ragazzi hanno sempre fame.",
+    "Non ho fame, grazie."
+   ],
+   "traduzioni": {
+    "en": "to be hungry",
+    "es": "tener hambre",
+    "pt": "estar com fome",
+    "fr": "avoir faim",
+    "cs": "mít hlad",
+    "pl": "być głodnym",
+    "tr": "acıkmak",
+    "de": "Hunger haben",
+    "ja": "お腹がすいている"
+   }
+  },
+  {
+   "parola": "entrare",
+   "forme": [
+    "entra",
+    "entrata"
+   ],
+   "formeEsempi": [
+    "entro"
+   ],
+   "esempi": [
+    "Entro in un negozio di scarpe.",
+    "Il professore entra in classe.",
+    "Sono entrata e ho salutato tutti."
+   ],
+   "traduzioni": {
+    "en": "to go in, to enter («sono entrata» = I went in)",
+    "es": "entrar",
+    "pt": "entrar",
+    "fr": "entrer",
+    "cs": "vejít",
+    "pl": "wejść",
+    "tr": "girmek",
+    "de": "hineingehen",
+    "ja": "入る"
+   }
+  },
+  {
+   "parola": "il bar",
+   "forme": [
+    "bar"
+   ],
+   "esempi": [
+    "Ci vediamo al bar sotto casa.",
+    "In Italia il bar apre presto.",
+    "Al bar prendo un cornetto."
+   ],
+   "traduzioni": {
+    "en": "café, coffee bar (in Italy: coffee and pastries, not just alcohol)",
+    "es": "bar, cafetería",
+    "pt": "bar, café (lanchonete)",
+    "fr": "bar, café",
+    "cs": "kavárna, bar",
+    "pl": "kawiarnia, bar",
+    "tr": "kafe, bar (İtalya'da kahve ve hamur işi)",
+    "de": "Café, Bar",
+    "ja": "バール（イタリアの喫茶店）"
+   }
+  },
+  {
+   "parola": "il banco",
+   "forme": [
+    "banco"
+   ],
+   "esempi": [
+    "Bevo il caffè al banco.",
+    "Lo scontrino si porta al banco.",
+    "Al banco c'è sempre tanta gente."
+   ],
+   "traduzioni": {
+    "en": "counter, bar («al banco» = standing at the counter)",
+    "es": "barra («al banco» = en la barra)",
+    "pt": "balcão («al banco» = no balcão)",
+    "fr": "comptoir («al banco» = au comptoir)",
+    "cs": "pult, bar («al banco» = u baru)",
+    "pl": "lada («al banco» = przy ladzie)",
+    "tr": "tezgâh («al banco» = tezgâhta, ayakta)",
+    "de": "Theke («al banco» = an der Theke)",
+    "ja": "カウンター（al banco＝カウンターで立って）"
+   }
+  },
+  {
+   "parola": "il barista",
+   "forme": [
+    "barista"
+   ],
+   "esempi": [
+    "Il barista prepara un cappuccino.",
+    "Chiedo un bicchiere d'acqua al barista.",
+    "La barista è molto simpatica."
+   ],
+   "traduzioni": {
+    "en": "barista, person behind the bar",
+    "es": "camarero, barista",
+    "pt": "barista, atendente",
+    "fr": "barman, barista",
+    "cs": "barman, barista",
+    "pl": "barman, barista",
+    "tr": "barmen, barista",
+    "de": "Barista, Barmann",
+    "ja": "バリスタ、店員"
+   }
+  },
+  {
+   "parola": "prendere (al bar)",
+   "forme": [
+    "prende",
+    "prendo",
+    "preso",
+    "prendono"
+   ],
+   "formeEsempi": [
+    "prendiamo",
+    "prendi"
+   ],
+   "esempi": [
+    "– Che cosa prendi? – Un caffè, grazie.",
+    "Al bar prendo sempre un cappuccino.",
+    "Prendiamo un gelato?"
+   ],
+   "traduzioni": {
+    "en": "to have, to order («che cosa prende?» = what would you like?)",
+    "es": "tomar, pedir («¿qué va a tomar?»)",
+    "pt": "tomar, pedir («o que vai querer?»)",
+    "fr": "prendre («qu'est-ce que vous prenez ?»)",
+    "cs": "dát si («co si dáte?»)",
+    "pl": "wziąć, zamówić («co pani podać?»)",
+    "tr": "almak, içmek («ne alırsınız?»)",
+    "de": "nehmen, bestellen («was darf's sein?»)",
+    "ja": "注文する、飲む（che cosa prende?＝何になさいますか）"
+   }
+  },
+  {
+   "parola": "prendere (in mano)",
+   "forme": [
+    "prende"
+   ],
+   "contesto": "bicchiere",
+   "esempi": [
+    "Prende un bicchiere dallo scaffale.",
+    "Prendo la borsa ed esco.",
+    "Il bambino prende la palla."
+   ],
+   "traduzioni": {
+    "en": "to take, to pick up",
+    "es": "coger, tomar",
+    "pt": "pegar",
+    "fr": "prendre",
+    "cs": "vzít",
+    "pl": "wziąć",
+    "tr": "almak",
+    "de": "nehmen",
+    "ja": "取る、手に取る"
+   },
+   "formeEsempi": [
+    "prendo"
+   ]
+  },
+  {
+   "parola": "vorrei",
+   "forme": [
+    "vorrei"
+   ],
+   "esempi": [
+    "Vorrei un caffè, per favore.",
+    "Vorrei pagare con la carta.",
+    "Vorrei un tavolo per due."
+   ],
+   "traduzioni": {
+    "en": "I'd like",
+    "es": "quisiera",
+    "pt": "eu queria, eu gostaria",
+    "fr": "je voudrais",
+    "cs": "chtěl(a) bych",
+    "pl": "chciał(a)bym, poproszę",
+    "tr": "… istiyorum (kibar)",
+    "de": "ich hätte gern",
+    "ja": "〜をください"
+   }
+  },
+  {
+   "parola": "il latte",
+   "forme": [
+    "latte"
+   ],
+   "esempi": [
+    "Bevo il latte con i biscotti.",
+    "Il latte è nel frigorifero.",
+    "Vorrei un caffè con un po' di latte."
+   ],
+   "traduzioni": {
+    "en": "milk (in Italy «un latte» = a glass of milk!)",
+    "es": "leche (en Italia «un latte» = un vaso de leche)",
+    "pt": "leite (na Itália «un latte» = um copo de leite)",
+    "fr": "lait (en Italie «un latte» = un verre de lait)",
+    "cs": "mléko («un latte» = sklenice mléka!)",
+    "pl": "mleko («un latte» = szklanka mleka!)",
+    "tr": "süt (İtalya'da «un latte» = bir bardak süt)",
+    "de": "Milch (in Italien «un latte» = ein Glas Milch)",
+    "ja": "牛乳（イタリアで un latte＝牛乳一杯）"
+   }
+  },
+  {
+   "parola": "per favore",
+   "forme": [
+    "favore"
+   ],
+   "esempi": [
+    "Un caffè, per favore.",
+    "Mi passi il sale, per favore?",
+    "Per favore, parla piano."
+   ],
+   "traduzioni": {
+    "en": "please",
+    "es": "por favor",
+    "pt": "por favor",
+    "fr": "s'il vous plaît",
+    "cs": "prosím",
+    "pl": "proszę",
+    "tr": "lütfen",
+    "de": "bitte",
+    "ja": "お願いします"
+   }
+  },
+  {
+   "parola": "il bicchiere",
+   "forme": [
+    "bicchiere"
+   ],
+   "esempi": [
+    "Vorrei un bicchiere d'acqua.",
+    "Il bicchiere è pieno.",
+    "Metto il bicchiere sul tavolo."
+   ],
+   "traduzioni": {
+    "en": "glass",
+    "es": "vaso",
+    "pt": "copo",
+    "fr": "verre",
+    "cs": "sklenice",
+    "pl": "szklanka",
+    "tr": "bardak",
+    "de": "Glas",
+    "ja": "コップ、グラス"
+   }
+  },
+  {
+   "parola": "mettere",
+   "forme": [
+    "mette"
+   ],
+   "formeEsempi": [
+    "metto"
+   ],
+   "esempi": [
+    "Metto lo zucchero nel caffè.",
+    "Il barista mette il latte nel bicchiere.",
+    "Dove metto la giacca?"
+   ],
+   "traduzioni": {
+    "en": "to put",
+    "es": "poner, echar",
+    "pt": "pôr, colocar",
+    "fr": "mettre, verser",
+    "cs": "dát, nalít",
+    "pl": "włożyć, nalać",
+    "tr": "koymak",
+    "de": "geben, tun",
+    "ja": "入れる、置く"
+   }
+  },
+  {
+   "parola": "dentro",
+   "forme": [
+    "dentro"
+   ],
+   "esempi": [
+    "Apri la scatola: che cosa c'è dentro?",
+    "Metti dentro il latte.",
+    "Piove, restiamo dentro."
+   ],
+   "traduzioni": {
+    "en": "inside, in",
+    "es": "dentro",
+    "pt": "dentro",
+    "fr": "dedans",
+    "cs": "dovnitř, uvnitř",
+    "pl": "do środka, w środku",
+    "tr": "içine, içeride",
+    "de": "hinein, drinnen",
+    "ja": "中に"
+   }
+  },
+  {
+   "parola": "freddo",
+   "forme": [
+    "freddo"
+   ],
+   "esempi": [
+    "D'estate bevo il tè freddo.",
+    "Il caffè è già freddo.",
+    "Vorrei un latte freddo."
+   ],
+   "traduzioni": {
+    "en": "cold",
+    "es": "frío",
+    "pt": "frio",
+    "fr": "froid",
+    "cs": "studený",
+    "pl": "zimny",
+    "tr": "soğuk",
+    "de": "kalt",
+    "ja": "冷たい"
+   }
+  },
+  {
+   "parola": "solo",
+   "forme": [
+    "solo"
+   ],
+   "esempi": [
+    "Prendo solo un caffè.",
+    "È solo acqua.",
+    "Parlo solo un po' di italiano."
+   ],
+   "traduzioni": {
+    "en": "only, just",
+    "es": "solo",
+    "pt": "só, apenas",
+    "fr": "seulement",
+    "cs": "jen",
+    "pl": "tylko",
+    "tr": "sadece",
+    "de": "nur",
+    "ja": "〜だけ"
+   }
+  },
+  {
+   "parola": "capire",
+   "forme": [
+    "capisce",
+    "capito"
+   ],
+   "formeEsempi": [
+    "capisco"
+   ],
+   "esempi": [
+    "Scusi, non capisco.",
+    "Il bambino capisce tutto.",
+    "Adesso ho capito!"
+   ],
+   "traduzioni": {
+    "en": "to understand («ho capito» = I see, I got it)",
+    "es": "entender",
+    "pt": "entender",
+    "fr": "comprendre",
+    "cs": "rozumět, pochopit",
+    "pl": "rozumieć, zrozumieć",
+    "tr": "anlamak",
+    "de": "verstehen",
+    "ja": "わかる、理解する"
+   }
+  },
+  {
+   "parola": "scusi",
+   "forme": [
+    "scusi"
+   ],
+   "esempi": [
+    "Scusi, dov'è il bagno?",
+    "Scusi, posso passare?",
+    "Scusi, quanto costa?"
+   ],
+   "traduzioni": {
+    "en": "excuse me (polite)",
+    "es": "disculpe",
+    "pt": "com licença, desculpe",
+    "fr": "excusez-moi",
+    "cs": "promiňte",
+    "pl": "przepraszam",
+    "tr": "affedersiniz",
+    "de": "Entschuldigung",
+    "ja": "すみません"
+   }
+  },
+  {
+   "parola": "il caffè",
+   "forme": [
+    "caffè"
+   ],
+   "esempi": [
+    "In Italia «un caffè» è un espresso.",
+    "Prendiamo un caffè dopo pranzo?",
+    "Il caffè è troppo forte."
+   ],
+   "traduzioni": {
+    "en": "coffee (in Italy «un caffè» = an espresso)",
+    "es": "café (en Italia «un caffè» = un expreso)",
+    "pt": "café (na Itália «un caffè» = um expresso)",
+    "fr": "café (en Italie «un caffè» = un expresso)",
+    "cs": "káva (v Itálii «un caffè» = espresso)",
+    "pl": "kawa (we Włoszech «un caffè» = espresso)",
+    "tr": "kahve (İtalya'da «un caffè» = espresso)",
+    "de": "Kaffee (in Italien «un caffè» = ein Espresso)",
+    "ja": "コーヒー（イタリアで un caffè＝エスプレッソ）"
+   }
+  },
+  {
+   "parola": "caldo",
+   "forme": [
+    "caldo"
+   ],
+   "esempi": [
+    "Il cornetto è ancora caldo.",
+    "Vorrei un tè caldo.",
+    "Oggi fa caldo."
+   ],
+   "traduzioni": {
+    "en": "hot, warm",
+    "es": "caliente",
+    "pt": "quente",
+    "fr": "chaud",
+    "cs": "teplý, horký",
+    "pl": "ciepły, gorący",
+    "tr": "sıcak",
+    "de": "warm, heiß",
+    "ja": "温かい"
+   }
+  },
+  {
+   "parola": "il cappuccino",
+   "forme": [
+    "cappuccino"
+   ],
+   "esempi": [
+    "La mattina prendo un cappuccino.",
+    "Il cappuccino è caffè con latte e schiuma.",
+    "Dopo pranzo gli italiani non bevono il cappuccino."
+   ],
+   "traduzioni": {
+    "en": "cappuccino",
+    "es": "capuchino",
+    "pt": "cappuccino",
+    "fr": "cappuccino",
+    "cs": "cappuccino",
+    "pl": "cappuccino",
+    "tr": "kapuçino",
+    "de": "Cappuccino",
+    "ja": "カプチーノ"
+   }
+  },
+  {
+   "parola": "dare",
+   "forme": [
+    "dà",
+    "dato"
+   ],
+   "esempi": [
+    "Mi dà un cornetto, per favore?",
+    "Il barista mi ha dato un bicchiere di latte.",
+    "Ho dato lo scontrino al barista."
+   ],
+   "traduzioni": {
+    "en": "to give («mi dà…?» = can I have…?)",
+    "es": "dar («¿me da…?» = ¿me pone…?)",
+    "pt": "dar («mi dà…?» = me vê…?)",
+    "fr": "donner («mi dà… ?» = vous me donnez… ?)",
+    "cs": "dát («mi dà…?» = dal byste mi…?)",
+    "pl": "dać («mi dà…?» = poproszę…)",
+    "tr": "vermek («mi dà…?» = … verir misiniz?)",
+    "de": "geben («mi dà…?» = geben Sie mir…?)",
+    "ja": "くれる（mi dà…?＝〜をください）"
+   }
+  },
+  {
+   "parola": "il cornetto",
+   "forme": [
+    "cornetto"
+   ],
+   "esempi": [
+    "A colazione mangio un cornetto.",
+    "Vorrei un cornetto alla crema.",
+    "Il cornetto è ancora caldo."
+   ],
+   "traduzioni": {
+    "en": "cornetto (Italian croissant)",
+    "es": "cornetto (cruasán italiano)",
+    "pt": "cornetto (croissant italiano)",
+    "fr": "cornetto (croissant italien)",
+    "cs": "cornetto (italský croissant)",
+    "pl": "cornetto (włoski rogalik)",
+    "tr": "cornetto (İtalyan kruvasanı)",
+    "de": "Cornetto (italienisches Croissant)",
+    "ja": "コルネット（イタリアのクロワッサン）"
+   }
+  },
+  {
+   "parola": "vuoto (cornetto)",
+   "forme": [
+    "vuoto"
+   ],
+   "esempi": [
+    "Un cornetto vuoto, per favore.",
+    "Preferisco il cornetto vuoto.",
+    "Il cornetto vuoto è senza crema."
+   ],
+   "traduzioni": {
+    "en": "plain (a cornetto with no filling)",
+    "es": "sin relleno",
+    "pt": "simples, sem recheio",
+    "fr": "nature, sans garniture",
+    "cs": "bez náplně",
+    "pl": "bez nadzienia",
+    "tr": "sade, içi boş",
+    "de": "ohne Füllung",
+    "ja": "プレーンの（中身なし）"
+   }
+  },
+  {
+   "parola": "la crema",
+   "forme": [
+    "crema"
+   ],
+   "esempi": [
+    "Il cornetto alla crema è il mio preferito.",
+    "Questa torta ha tanta crema.",
+    "Vorrei un gelato alla crema."
+   ],
+   "traduzioni": {
+    "en": "custard, cream filling",
+    "es": "crema pastelera",
+    "pt": "creme",
+    "fr": "crème pâtissière",
+    "cs": "krém, pudink",
+    "pl": "krem budyniowy",
+    "tr": "krema",
+    "de": "Vanillecreme",
+    "ja": "カスタードクリーム"
+   }
+  },
+  {
+   "parola": "la marmellata",
+   "forme": [
+    "marmellata"
+   ],
+   "esempi": [
+    "Mi piace il cornetto alla marmellata.",
+    "Metto la marmellata sul pane.",
+    "Questa marmellata è di albicocche."
+   ],
+   "traduzioni": {
+    "en": "jam",
+    "es": "mermelada",
+    "pt": "geleia",
+    "fr": "confiture",
+    "cs": "marmeláda",
+    "pl": "dżem",
+    "tr": "reçel",
+    "de": "Marmelade",
+    "ja": "ジャム"
+   }
+  },
+  {
+   "parola": "bere",
+   "forme": [
+    "beve",
+    "bevono"
+   ],
+   "formeEsempi": [
+    "bevo"
+   ],
+   "esempi": [
+    "Bevo due litri d'acqua al giorno.",
+    "Marco beve il caffè senza zucchero.",
+    "Gli italiani bevono il caffè in piedi."
+   ],
+   "traduzioni": {
+    "en": "to drink",
+    "es": "beber, tomar",
+    "pt": "beber, tomar",
+    "fr": "boire",
+    "cs": "pít",
+    "pl": "pić",
+    "tr": "içmek",
+    "de": "trinken",
+    "ja": "飲む"
+   }
+  },
+  {
+   "parola": "in piedi",
+   "forme": [
+    "piedi"
+   ],
+   "esempi": [
+    "Al bar molti bevono il caffè in piedi.",
+    "In autobus sto in piedi.",
+    "Siamo in piedi da due ore."
+   ],
+   "traduzioni": {
+    "en": "standing (up)",
+    "es": "de pie",
+    "pt": "em pé",
+    "fr": "debout",
+    "cs": "vestoje",
+    "pl": "na stojąco",
+    "tr": "ayakta",
+    "de": "im Stehen",
+    "ja": "立って"
+   }
+  },
+  {
+   "parola": "molti",
+   "forme": [
+    "molti"
+   ],
+   "esempi": [
+    "Molti italiani fanno colazione al bar.",
+    "In centro ci sono molti negozi.",
+    "Ho molti amici a Roma."
+   ],
+   "traduzioni": {
+    "en": "many",
+    "es": "muchos",
+    "pt": "muitos",
+    "fr": "beaucoup de",
+    "cs": "mnoho",
+    "pl": "wielu, wiele",
+    "tr": "birçok",
+    "de": "viele",
+    "ja": "多くの"
+   }
+  },
+  {
+   "parola": "buono",
+   "forme": [
+    "buono"
+   ],
+   "esempi": [
+    "Questo caffè è buono.",
+    "Il gelato è molto buono.",
+    "È un buono ristorante? No: un buon ristorante!"
+   ],
+   "traduzioni": {
+    "en": "good, tasty",
+    "es": "bueno, rico",
+    "pt": "bom, gostoso",
+    "fr": "bon",
+    "cs": "dobrý",
+    "pl": "dobry, smaczny",
+    "tr": "güzel, lezzetli",
+    "de": "gut, lecker",
+    "ja": "おいしい"
+   }
+  },
+  {
+   "parola": "chiedere",
+   "forme": [
+    "chiede",
+    "chiesto"
+   ],
+   "formeEsempi": [
+    "chiedo"
+   ],
+   "esempi": [
+    "Chiedo il conto al cameriere.",
+    "Il turista chiede la strada.",
+    "Nessuno mi ha chiesto niente."
+   ],
+   "traduzioni": {
+    "en": "to ask («ha chiesto» = he asked)",
+    "es": "preguntar, pedir",
+    "pt": "perguntar, pedir",
+    "fr": "demander",
+    "cs": "zeptat se",
+    "pl": "zapytać",
+    "tr": "sormak",
+    "de": "fragen",
+    "ja": "たずねる、頼む"
+   }
+  },
+  {
+   "parola": "quanto costa?",
+   "forme": [
+    "costa",
+    "costano"
+   ],
+   "esempi": [
+    "Quanto costa un caffè?",
+    "Questo libro costa dieci euro.",
+    "Le fragole costano poco."
+   ],
+   "traduzioni": {
+    "en": "how much is it? («costare» = to cost)",
+    "es": "¿cuánto cuesta?",
+    "pt": "quanto custa?",
+    "fr": "combien ça coûte ?",
+    "cs": "kolik to stojí?",
+    "pl": "ile to kosztuje?",
+    "tr": "ne kadar?",
+    "de": "was kostet das?",
+    "ja": "いくらですか（costare＝値段が〜だ）"
+   }
+  },
+  {
+   "parola": "pagare",
+   "forme": [
+    "paga",
+    "pagato",
+    "paghi"
+   ],
+   "formeEsempi": [
+    "pago"
+   ],
+   "esempi": [
+    "Pago con la carta.",
+    "Abbiamo pagato il conto.",
+    "Se ti siedi, paghi di più."
+   ],
+   "traduzioni": {
+    "en": "to pay",
+    "es": "pagar",
+    "pt": "pagar",
+    "fr": "payer",
+    "cs": "zaplatit",
+    "pl": "zapłacić",
+    "tr": "ödemek",
+    "de": "bezahlen",
+    "ja": "払う"
+   }
+  },
+  {
+   "parola": "uscire",
+   "forme": [
+    "esce"
+   ],
+   "formeEsempi": [
+    "esco"
+   ],
+   "esempi": [
+    "Esco di casa alle otto.",
+    "Emma paga ed esce.",
+    "Il sabato esco con gli amici."
+   ],
+   "traduzioni": {
+    "en": "to go out, to leave",
+    "es": "salir",
+    "pt": "sair",
+    "fr": "sortir",
+    "cs": "vyjít",
+    "pl": "wyjść",
+    "tr": "çıkmak",
+    "de": "hinausgehen",
+    "ja": "出る"
+   }
+  },
+  {
+   "parola": "sapere",
+   "forme": [
+    "sa"
+   ],
+   "formeEsempi": [
+    "so",
+    "sai"
+   ],
+   "esempi": [
+    "Lei sa parlare tre lingue.",
+    "Non so dov'è la stazione.",
+    "Sai che ore sono?"
+   ],
+   "traduzioni": {
+    "en": "to know",
+    "es": "saber",
+    "pt": "saber",
+    "fr": "savoir",
+    "cs": "vědět",
+    "pl": "wiedzieć",
+    "tr": "bilmek",
+    "de": "wissen",
+    "ja": "知っている"
+   }
+  },
+  {
+   "parola": "la cosa",
+   "forme": [
+    "cose"
+   ],
+   "formeEsempi": [
+    "cosa"
+   ],
+   "esempi": [
+    "Ho imparato due cose nuove.",
+    "In borsa ho tante cose.",
+    "È una cosa importante."
+   ],
+   "traduzioni": {
+    "en": "thing",
+    "es": "cosa",
+    "pt": "coisa",
+    "fr": "chose",
+    "cs": "věc",
+    "pl": "rzecz",
+    "tr": "şey",
+    "de": "Sache, Ding",
+    "ja": "こと、もの"
+   }
+  },
+  {
+   "parola": "sempre",
+   "forme": [
+    "sempre"
+   ],
+   "esempi": [
+    "La mattina bevo sempre un caffè.",
+    "Arrivi sempre in ritardo!",
+    "Il bar è sempre pieno."
+   ],
+   "traduzioni": {
+    "en": "always",
+    "es": "siempre",
+    "pt": "sempre",
+    "fr": "toujours",
+    "cs": "vždycky",
+    "pl": "zawsze",
+    "tr": "her zaman",
+    "de": "immer",
+    "ja": "いつも"
+   }
+  },
+  {
+   "parola": "l'espresso",
+   "forme": [
+    "espresso"
+   ],
+   "esempi": [
+    "L'espresso si beve in un attimo.",
+    "Un espresso, per favore.",
+    "L'espresso è piccolo e forte."
+   ],
+   "traduzioni": {
+    "en": "espresso",
+    "es": "expreso, café solo",
+    "pt": "expresso",
+    "fr": "expresso",
+    "cs": "espresso",
+    "pl": "espresso",
+    "tr": "espresso",
+    "de": "Espresso",
+    "ja": "エスプレッソ"
+   }
+  },
+  {
+   "parola": "forte",
+   "forme": [
+    "forte"
+   ],
+   "esempi": [
+    "Mi piace il caffè forte.",
+    "Questo tè è troppo forte.",
+    "Mio fratello è molto forte."
+   ],
+   "traduzioni": {
+    "en": "strong",
+    "es": "fuerte, cargado",
+    "pt": "forte",
+    "fr": "fort, serré",
+    "cs": "silný",
+    "pl": "mocny",
+    "tr": "sert, güçlü",
+    "de": "stark",
+    "ja": "濃い、強い"
+   }
+  },
+  {
+   "parola": "tornare",
+   "forme": [
+    "torna"
+   ],
+   "formeEsempi": [
+    "torno",
+    "torni"
+   ],
+   "esempi": [
+    "Domani torno nello stesso ristorante.",
+    "Quando torni a casa?",
+    "Emma torna al bar."
+   ],
+   "traduzioni": {
+    "en": "to go back, to come back",
+    "es": "volver",
+    "pt": "voltar",
+    "fr": "retourner, revenir",
+    "cs": "vrátit se",
+    "pl": "wrócić",
+    "tr": "dönmek, geri gelmek",
+    "de": "zurückkehren, wiederkommen",
+    "ja": "戻る、また行く"
+   }
+  },
+  {
+   "parola": "lo stesso",
+   "forme": [
+    "stesso"
+   ],
+   "esempi": [
+    "Andiamo sempre nello stesso bar.",
+    "Abbiamo lo stesso telefono.",
+    "Abito nello stesso palazzo di Marco."
+   ],
+   "traduzioni": {
+    "en": "the same",
+    "es": "el mismo",
+    "pt": "o mesmo",
+    "fr": "le même",
+    "cs": "stejný, tentýž",
+    "pl": "ten sam",
+    "tr": "aynı",
+    "de": "derselbe, dasselbe",
+    "ja": "同じ"
+   }
+  },
+  {
+   "parola": "l'acqua",
+   "forme": [
+    "acqua"
+   ],
+   "esempi": [
+    "Mi dà un bicchiere d'acqua?",
+    "Al bar l'acqua del rubinetto è gratis.",
+    "Bevo molta acqua."
+   ],
+   "traduzioni": {
+    "en": "water",
+    "es": "agua",
+    "pt": "água",
+    "fr": "eau",
+    "cs": "voda",
+    "pl": "woda",
+    "tr": "su",
+    "de": "Wasser",
+    "ja": "水"
+   }
+  },
+  {
+   "parola": "certo",
+   "forme": [
+    "certo"
+   ],
+   "esempi": [
+    "– Posso entrare? – Certo!",
+    "Certo che vengo alla festa.",
+    "– Mi aiuti? – Certo, subito."
+   ],
+   "traduzioni": {
+    "en": "of course, sure",
+    "es": "¡claro!",
+    "pt": "claro!",
+    "fr": "bien sûr",
+    "cs": "jistě, samozřejmě",
+    "pl": "oczywiście",
+    "tr": "tabii, elbette",
+    "de": "natürlich, klar",
+    "ja": "もちろん"
+   }
+  },
+  {
+   "parola": "rispondere",
+   "forme": [
+    "risponde"
+   ],
+   "formeEsempi": [
+    "rispondo"
+   ],
+   "esempi": [
+    "Rispondo subito al messaggio.",
+    "Il barista risponde e sorride.",
+    "Chi risponde al telefono?"
+   ],
+   "traduzioni": {
+    "en": "to answer, to reply",
+    "es": "responder",
+    "pt": "responder",
+    "fr": "répondre",
+    "cs": "odpovědět",
+    "pl": "odpowiedzieć",
+    "tr": "cevap vermek",
+    "de": "antworten",
+    "ja": "答える"
+   }
+  },
+  {
+   "parola": "sorridere",
+   "forme": [
+    "sorride",
+    "sorriso"
+   ],
+   "formeEsempi": [
+    "sorrido"
+   ],
+   "esempi": [
+    "Quando lo vedo, sorrido.",
+    "La barista sorride a tutti.",
+    "Ha alzato gli occhi e ha sorriso."
+   ],
+   "traduzioni": {
+    "en": "to smile («ha sorriso» = he smiled)",
+    "es": "sonreír",
+    "pt": "sorrir",
+    "fr": "sourire",
+    "cs": "usmát se",
+    "pl": "uśmiechnąć się",
+    "tr": "gülümsemek",
+    "de": "lächeln",
+    "ja": "ほほえむ"
+   }
+  },
+  {
+   "parola": "il turista",
+   "forme": [
+    "turista"
+   ],
+   "esempi": [
+    "D'estate Roma è piena di turisti.",
+    "Un turista mi chiede la strada.",
+    "La turista fa molte foto."
+   ],
+   "traduzioni": {
+    "en": "tourist",
+    "es": "turista",
+    "pt": "turista",
+    "fr": "touriste",
+    "cs": "turista",
+    "pl": "turysta",
+    "tr": "turist",
+    "de": "Tourist",
+    "ja": "観光客"
+   },
+   "formeEsempi": [
+    "turisti"
+   ]
+  },
+  {
+   "parola": "la valigia",
+   "forme": [
+    "valigia"
+   ],
+   "esempi": [
+    "La valigia è molto pesante.",
+    "Preparo la valigia per il viaggio.",
+    "Il turista ha una valigia rossa."
+   ],
+   "traduzioni": {
+    "en": "suitcase",
+    "es": "maleta",
+    "pt": "mala",
+    "fr": "valise",
+    "cs": "kufr",
+    "pl": "walizka",
+    "tr": "bavul",
+    "de": "Koffer",
+    "ja": "スーツケース"
+   }
+  },
+  {
+   "parola": "arrivare",
+   "forme": [
+    "arriva"
+   ],
+   "formeEsempi": [
+    "arrivo"
+   ],
+   "esempi": [
+    "L'autobus arriva tra cinque minuti.",
+    "Arrivo subito!",
+    "Lei sa che cosa arriva."
+   ],
+   "traduzioni": {
+    "en": "to arrive, to come («che cosa arriva» = what's coming)",
+    "es": "llegar",
+    "pt": "chegar",
+    "fr": "arriver",
+    "cs": "přijít, dorazit",
+    "pl": "przyjść, nadejść",
+    "tr": "gelmek",
+    "de": "kommen, ankommen",
+    "ja": "来る、着く"
+   }
+  },
+  {
+   "parola": "caro",
+   "forme": [
+    "cara"
+   ],
+   "formeEsempi": [
+    "caro",
+    "cari"
+   ],
+   "esempi": [
+    "Cara Sara, come stai?",
+    "Caro Marco, grazie della lettera.",
+    "Cari amici, benvenuti!"
+   ],
+   "traduzioni": {
+    "en": "dear (in letters)",
+    "es": "querida (en cartas)",
+    "pt": "querida (em cartas)",
+    "fr": "chère (dans une lettre)",
+    "cs": "milá (v dopise)",
+    "pl": "droga (w liście)",
+    "tr": "sevgili (mektupta)",
+    "de": "liebe (im Brief)",
+    "ja": "親愛なる（手紙の書き出し）"
+   },
+   "livelli": [
+    "a2"
+   ]
+  },
+  {
+   "parola": "scoprire",
+   "forme": [
+    "scoperto"
+   ],
+   "formeEsempi": [
+    "scopro"
+   ],
+   "esempi": [
+    "Ho scoperto un bar bellissimo.",
+    "Ogni giorno scopro una parola nuova.",
+    "Abbiamo scoperto che il negozio è chiuso."
+   ],
+   "traduzioni": {
+    "en": "to discover, to find out («ho scoperto» = I found out)",
+    "es": "descubrir",
+    "pt": "descobrir",
+    "fr": "découvrir",
+    "cs": "objevit, zjistit",
+    "pl": "odkryć, dowiedzieć się",
+    "tr": "keşfetmek, öğrenmek",
+    "de": "entdecken, herausfinden",
+    "ja": "発見する、気づく"
+   }
+  },
+  {
+   "parola": "ordinare",
+   "forme": [
+    "ordinare",
+    "ordinato",
+    "ordina"
+   ],
+   "formeEsempi": [
+    "ordino"
+   ],
+   "esempi": [
+    "Ordino una pizza margherita.",
+    "Abbiamo ordinato due caffè.",
+    "Come si ordina al bar?"
+   ],
+   "traduzioni": {
+    "en": "to order",
+    "es": "pedir",
+    "pt": "pedir",
+    "fr": "commander",
+    "cs": "objednat si",
+    "pl": "zamówić",
+    "tr": "sipariş vermek",
+    "de": "bestellen",
+    "ja": "注文する"
+   }
+  },
+  {
+   "parola": "l'esame",
+   "forme": [
+    "esame"
+   ],
+   "esempi": [
+    "Domani ho l'esame di italiano.",
+    "L'esame è andato bene.",
+    "Ordinare al bar è un piccolo esame!"
+   ],
+   "traduzioni": {
+    "en": "exam, test",
+    "es": "examen",
+    "pt": "prova, exame",
+    "fr": "examen",
+    "cs": "zkouška",
+    "pl": "egzamin",
+    "tr": "sınav",
+    "de": "Prüfung",
+    "ja": "試験"
+   }
+  },
+  {
+   "parola": "aspettare",
+   "forme": [
+    "aspettato"
+   ],
+   "formeEsempi": [
+    "aspetto"
+   ],
+   "esempi": [
+    "Ho aspettato l'autobus mezz'ora.",
+    "Ti aspetto davanti al bar.",
+    "Abbiamo aspettato tanto."
+   ],
+   "traduzioni": {
+    "en": "to wait (for)",
+    "es": "esperar",
+    "pt": "esperar",
+    "fr": "attendre",
+    "cs": "čekat",
+    "pl": "czekać",
+    "tr": "beklemek",
+    "de": "warten",
+    "ja": "待つ"
+   }
+  },
+  {
+   "parola": "spiegare",
+   "forme": [
+    "spiegato"
+   ],
+   "formeEsempi": [
+    "spiego",
+    "spiega"
+   ],
+   "esempi": [
+    "L'insegnante spiega la grammatica.",
+    "Mi ha spiegato la strada.",
+    "Ti spiego come funziona."
+   ],
+   "traduzioni": {
+    "en": "to explain",
+    "es": "explicar",
+    "pt": "explicar",
+    "fr": "expliquer",
+    "cs": "vysvětlit",
+    "pl": "wyjaśnić",
+    "tr": "açıklamak",
+    "de": "erklären",
+    "ja": "説明する"
+   }
+  },
+  {
+   "parola": "il segreto",
+   "forme": [
+    "segreto"
+   ],
+   "esempi": [
+    "Ti dico un segreto.",
+    "Qual è il segreto di questa torta?",
+    "È un segreto: non dirlo a nessuno!"
+   ],
+   "traduzioni": {
+    "en": "secret",
+    "es": "secreto",
+    "pt": "segredo",
+    "fr": "secret",
+    "cs": "tajemství",
+    "pl": "sekret, tajemnica",
+    "tr": "sır",
+    "de": "Geheimnis",
+    "ja": "秘密、コツ"
+   }
+  },
+  {
+   "parola": "la cassa",
+   "forme": [
+    "cassa"
+   ],
+   "esempi": [
+    "Si paga alla cassa.",
+    "La cassa è vicino alla porta.",
+    "C'è una fila lunga alla cassa."
+   ],
+   "traduzioni": {
+    "en": "till, cash desk",
+    "es": "caja",
+    "pt": "caixa",
+    "fr": "caisse",
+    "cs": "pokladna",
+    "pl": "kasa",
+    "tr": "kasa",
+    "de": "Kasse",
+    "ja": "レジ"
+   }
+  },
+  {
+   "parola": "lo scontrino",
+   "forme": [
+    "scontrino"
+   ],
+   "esempi": [
+    "Porta lo scontrino al banco.",
+    "Vuole lo scontrino?",
+    "Ho perso lo scontrino."
+   ],
+   "traduzioni": {
+    "en": "receipt",
+    "es": "tique, recibo",
+    "pt": "nota fiscal, recibo",
+    "fr": "ticket de caisse",
+    "cs": "účtenka",
+    "pl": "paragon",
+    "tr": "fiş",
+    "de": "Kassenbon",
+    "ja": "レシート"
+   }
+  },
+  {
+   "parola": "sedersi",
+   "forme": [
+    "seduta",
+    "siedi"
+   ],
+   "formeEsempi": [
+    "siedo"
+   ],
+   "esempi": [
+    "Mi sono seduta vicino alla finestra.",
+    "Se ti siedi al tavolino, paghi di più.",
+    "Mi siedo un momento."
+   ],
+   "traduzioni": {
+    "en": "to sit down",
+    "es": "sentarse",
+    "pt": "sentar-se",
+    "fr": "s'asseoir",
+    "cs": "sednout si",
+    "pl": "usiąść",
+    "tr": "oturmak",
+    "de": "sich setzen",
+    "ja": "座る"
+   }
+  },
+  {
+   "parola": "il tavolino",
+   "forme": [
+    "tavolino"
+   ],
+   "esempi": [
+    "Ci sediamo a un tavolino fuori?",
+    "Il tavolino è libero.",
+    "Sul tavolino ci sono due caffè."
+   ],
+   "traduzioni": {
+    "en": "small table (at a café)",
+    "es": "mesa (de terraza)",
+    "pt": "mesinha",
+    "fr": "petite table (en terrasse)",
+    "cs": "stolek",
+    "pl": "stolik",
+    "tr": "küçük masa",
+    "de": "Tischchen",
+    "ja": "小さなテーブル"
+   }
+  },
+  {
+   "parola": "meno",
+   "forme": [
+    "meno"
+   ],
+   "esempi": [
+    "Al banco il caffè costa meno.",
+    "Oggi lavoro meno.",
+    "Questo è meno caro."
+   ],
+   "traduzioni": {
+    "en": "less («meno della metà» = less than half)",
+    "es": "menos",
+    "pt": "menos",
+    "fr": "moins",
+    "cs": "méně",
+    "pl": "mniej",
+    "tr": "daha az",
+    "de": "weniger",
+    "ja": "より少なく"
+   }
+  },
+  {
+   "parola": "la metà",
+   "forme": [
+    "metà"
+   ],
+   "esempi": [
+    "Mangio metà della pizza.",
+    "La metà degli studenti è straniera.",
+    "Costa la metà."
+   ],
+   "traduzioni": {
+    "en": "half",
+    "es": "mitad",
+    "pt": "metade",
+    "fr": "moitié",
+    "cs": "polovina",
+    "pl": "połowa",
+    "tr": "yarı",
+    "de": "Hälfte",
+    "ja": "半分"
+   }
+  },
+  {
+   "parola": "il servizio",
+   "forme": [
+    "servizio"
+   ],
+   "esempi": [
+    "Al tavolo si paga anche il servizio.",
+    "Il servizio è compreso nel prezzo.",
+    "In questo bar il servizio è veloce."
+   ],
+   "traduzioni": {
+    "en": "service (charge)",
+    "es": "servicio",
+    "pt": "serviço (taxa)",
+    "fr": "service",
+    "cs": "obsluha, poplatek za obsluhu",
+    "pl": "obsługa (opłata)",
+    "tr": "servis (ücreti)",
+    "de": "Bedienung (Aufschlag)",
+    "ja": "サービス料"
+   }
+  },
+  {
+   "parola": "alzare gli occhi",
+   "forme": [
+    "alzato"
+   ],
+   "formeEsempi": [
+    "alza"
+   ],
+   "esempi": [
+    "Ha alzato gli occhi al cielo.",
+    "Il bambino alza la mano.",
+    "Ho alzato il volume."
+   ],
+   "traduzioni": {
+    "en": "to raise («alzare gli occhi (al cielo)» = to roll one's eyes, to look up)",
+    "es": "levantar («levantar los ojos»)",
+    "pt": "levantar («revirar os olhos»)",
+    "fr": "lever («lever les yeux au ciel»)",
+    "cs": "zvednout («obrátit oči v sloup»)",
+    "pl": "podnieść («przewrócić oczami»)",
+    "tr": "kaldırmak («gözlerini devirmek»)",
+    "de": "heben («die Augen verdrehen»)",
+    "ja": "上げる（目を上に向ける、あきれる）"
+   }
+  },
+  {
+   "parola": "di solito",
+   "forme": [
+    "solito"
+   ],
+   "esempi": [
+    "Di solito mi alzo alle sette.",
+    "Di solito ceno alle otto.",
+    "Il sabato di solito vado al mercato."
+   ],
+   "traduzioni": {
+    "en": "usually",
+    "es": "normalmente",
+    "pt": "geralmente",
+    "fr": "d'habitude",
+    "cs": "obvykle",
+    "pl": "zwykle",
+    "tr": "genellikle",
+    "de": "normalerweise",
+    "ja": "ふつうは"
+   }
+  },
+  {
+   "parola": "l'esperimento",
+   "forme": [
+    "esperimento"
+   ],
+   "esempi": [
+    "A scuola facciamo un esperimento.",
+    "Ho fatto un esperimento in cucina.",
+    "È stato un esperimento divertente."
+   ],
+   "traduzioni": {
+    "en": "experiment",
+    "es": "experimento",
+    "pt": "experimento, experiência",
+    "fr": "expérience",
+    "cs": "pokus",
+    "pl": "eksperyment",
+    "tr": "deney",
+    "de": "Experiment",
+    "ja": "実験"
+   }
+  },
+  {
+   "parola": "macchiato",
+   "forme": [
+    "macchiato"
+   ],
+   "esempi": [
+    "Un caffè macchiato, per favore.",
+    "Il latte macchiato si beve in un bicchiere.",
+    "Preferisco il macchiato caldo."
+   ],
+   "traduzioni": {
+    "en": "«stained»: «caffè macchiato» = espresso with a dash of milk; «latte macchiato» = milk with a dash of coffee",
+    "es": "«caffè macchiato» = cortado; «latte macchiato» = leche manchada",
+    "pt": "«caffè macchiato» = pingado; «latte macchiato» = leite com um pouco de café",
+    "fr": "«caffè macchiato» = noisette ; «latte macchiato» = lait avec un peu de café",
+    "cs": "«caffè macchiato» = espresso s kapkou mléka; «latte macchiato» = mléko s trochou kávy",
+    "pl": "«caffè macchiato» = espresso z odrobiną mleka; «latte macchiato» = mleko z odrobiną kawy",
+    "tr": "«caffè macchiato» = biraz sütlü espresso; «latte macchiato» = biraz kahveli süt",
+    "de": "«caffè macchiato» = Espresso mit wenig Milch; «latte macchiato» = Milch mit wenig Kaffee",
+    "ja": "caffè macchiato＝ミルク少量入りのエスプレッソ、latte macchiato＝少しコーヒーを入れた牛乳"
+   }
+  },
+  {
+   "parola": "diverso",
+   "forme": [
+    "diverse"
+   ],
+   "formeEsempi": [
+    "diverso",
+    "diversi"
+   ],
+   "esempi": [
+    "Sono due cose molto diverse.",
+    "Mio fratello è diverso da me.",
+    "Ogni regione ha piatti diversi."
+   ],
+   "traduzioni": {
+    "en": "different",
+    "es": "diferente, distinto",
+    "pt": "diferente",
+    "fr": "différent",
+    "cs": "odlišný, jiný",
+    "pl": "różny, inny",
+    "tr": "farklı",
+    "de": "verschieden, anders",
+    "ja": "違う、異なる"
+   }
+  },
+  {
+   "parola": "la tazzina",
+   "forme": [
+    "tazzina"
+   ],
+   "esempi": [
+    "Il caffè si beve nella tazzina.",
+    "La tazzina è calda.",
+    "Ho comprato sei tazzine colorate."
+   ],
+   "traduzioni": {
+    "en": "small cup (espresso cup)",
+    "es": "tacita (de café)",
+    "pt": "xicrinha (de café)",
+    "fr": "petite tasse",
+    "cs": "šálek (na espresso)",
+    "pl": "filiżanka (do espresso)",
+    "tr": "küçük fincan",
+    "de": "Espressotasse",
+    "ja": "小さなカップ（エスプレッソ用）"
+   },
+   "formeEsempi": [
+    "tazzine"
+   ]
+  },
+  {
+   "parola": "un po' di",
+   "forme": [
+    "po"
+   ],
+   "esempi": [
+    "Vorrei un po' di latte.",
+    "Parlo un po' di italiano.",
+    "Aspetta un po'!"
+   ],
+   "traduzioni": {
+    "en": "a little, a bit of",
+    "es": "un poco de",
+    "pt": "um pouco de",
+    "fr": "un peu de",
+    "cs": "trochu",
+    "pl": "trochę",
+    "tr": "biraz",
+    "de": "ein bisschen",
+    "ja": "少し"
+   }
+  },
+  {
+   "parola": "finalmente",
+   "forme": [
+    "finalmente"
+   ],
+   "esempi": [
+    "Finalmente ho capito!",
+    "Il treno è arrivato finalmente.",
+    "Finalmente siamo in vacanza."
+   ],
+   "traduzioni": {
+    "en": "at last, finally",
+    "es": "por fin",
+    "pt": "finalmente",
+    "fr": "enfin",
+    "cs": "konečně",
+    "pl": "wreszcie",
+    "tr": "nihayet",
+    "de": "endlich",
+    "ja": "やっと"
+   }
+  },
+  {
+   "parola": "l'abbraccio",
+   "forme": [
+    "abbraccio"
+   ],
+   "esempi": [
+    "Un abbraccio a tutti!",
+    "Mi ha dato un grande abbraccio.",
+    "Ti mando un abbraccio forte."
+   ],
+   "traduzioni": {
+    "en": "hug («un abbraccio» at the end of a letter = love, hugs)",
+    "es": "abrazo («un abrazo»)",
+    "pt": "abraço («um abraço»)",
+    "fr": "câlin («je t'embrasse»)",
+    "cs": "objetí («objímám tě»)",
+    "pl": "uścisk («ściskam»)",
+    "tr": "kucaklama («sevgiler»)",
+    "de": "Umarmung («liebe Grüße»)",
+    "ja": "ハグ（手紙の結び＝心をこめて）"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "It's eight in the morning. Emma is in Rome for the first time. She's sleepy and hungry. She goes into a bar and walks up to the counter.",
+    "– Good morning! What would you like? – asks the barista.\n– Good morning. I'd like a latte, please.",
+    "The barista takes a glass and pours milk into it. Cold milk. Just milk. Emma looks at the glass and doesn't understand.",
+    "– Excuse me… I'd like a coffee with milk. Hot.\n– Ah, a cappuccino!\n– Yes, a cappuccino, thanks. And can I have a cornetto too?\n– Plain, custard or jam?\n– Jam.",
+    "Emma drinks her cappuccino at the counter, standing up, like many Italians. The cappuccino is good and the cornetto is warm. Then she asks:",
+    "– How much is it?\n– Two euros fifty.",
+    "Emma pays and leaves. Now she knows two things: in Italy «un latte» is just milk, and «un caffè» is always an espresso, small and strong.",
+    "The next day Emma goes back to the same bar.",
+    "– Good morning! I'll have a coffee and a cornetto. And could I have a glass of water too, please?\n– Of course! – the barista answers, and smiles.",
+    "Next to Emma there's a tourist with a big suitcase. He says to the barista:",
+    "– I'd like a latte, please.",
+    "Emma looks at the tourist and smiles. She knows what's coming."
+   ],
+   "a2": [
+    "Dear Sara,\nhow are you? I'm fine, but this week I found something out: in Italy, ordering at a bar is a little exam!",
+    "On Monday I asked for «un latte» and the barista gave me a glass of cold milk. I wanted a cappuccino!",
+    "On Tuesday I went to a bar near the station. I waited at the counter for ten minutes, but nobody asked me anything. In the end a lady explained the secret: in many bars you first pay at the till, then you take the receipt to the counter.",
+    "On Wednesday I sat down at a little table in the square with a friend. We had two coffees and we paid six euros! At the counter they cost less than half: if you sit down, you pay for table service too.",
+    "On Thursday, after lunch, I ordered a cappuccino. The barista didn't say anything, but he rolled his eyes and smiled. Then I understood: Italians usually drink cappuccino only in the morning. After lunch they have an espresso.",
+    "On Friday I did an experiment: I ordered a «caffè macchiato» and then a «latte macchiato». They're two very different things! The first is a small cup of espresso with a little milk. The second is a glass of milk with a little coffee.",
+    "Today, at last, everything went well. I went in, paid at the till, gave the receipt to the barista and said: «Un caffè, per favore». Then a tourist asked me: «Excuse me, how do you order here?». And I explained everything to him. In Italian!",
+    "Love,\nEmma"
+   ]
+  },
+  "es": {
+   "a1": [
+    "Son las ocho de la mañana. Emma está en Roma por primera vez. Tiene sueño y tiene hambre. Entra en un bar y va a la barra.",
+    "– ¡Buenos días! ¿Qué va a tomar? –pregunta el camarero.\n– Buenos días. Quisiera un latte, por favor.",
+    "El camarero coge un vaso y le echa leche. Leche fría. Solo leche. Emma mira el vaso y no entiende.",
+    "– Perdone… yo quería un café con leche. Caliente.\n– ¡Ah, un capuchino!\n– Sí, un capuchino, gracias. ¿Y me pone también un cornetto?\n– ¿Sin relleno, de crema o de mermelada?\n– De mermelada.",
+    "Emma se toma el capuchino en la barra, de pie, como muchos italianos. El capuchino está bueno y el cornetto está caliente. Luego pregunta:",
+    "– ¿Cuánto es?\n– Dos euros con cincuenta.",
+    "Emma paga y sale. Ahora sabe dos cosas: en Italia «un latte» es solo leche, y «un caffè» es siempre un expreso, pequeño y fuerte.",
+    "Al día siguiente Emma vuelve al mismo bar.",
+    "– ¡Buenos días! Un café y un cornetto. ¿Y me pone también un vaso de agua, por favor?\n– ¡Claro! –responde el camarero, y sonríe.",
+    "Al lado de Emma hay un turista con una maleta grande. Le dice al camarero:",
+    "– Quisiera un latte, por favor.",
+    "Emma mira al turista y sonríe. Ella sabe lo que va a llegar."
+   ],
+   "a2": [
+    "Querida Sara:\n¿cómo estás? Yo estoy bien, pero esta semana he descubierto una cosa: ¡en Italia pedir en el bar es un pequeño examen!",
+    "El lunes pedí «un latte» y el camarero me dio un vaso de leche fría. ¡Yo quería un capuchino!",
+    "El martes fui a un bar cerca de la estación. Esperé en la barra diez minutos, pero nadie me preguntó nada. Al final una señora me explicó el secreto: en muchos bares primero se paga en la caja y luego se lleva el tique a la barra.",
+    "El miércoles me senté en una mesita de la plaza con una amiga. Tomamos dos cafés y pagamos seis euros. En la barra cuestan menos de la mitad: si te sientas, pagas también el servicio.",
+    "El jueves, después de comer, pedí un capuchino. El camarero no dijo nada, pero levantó los ojos al cielo y sonrió. Luego lo entendí: normalmente los italianos solo toman capuchino por la mañana. Después de comer toman un café.",
+    "El viernes hice un experimento: pedí un «caffè macchiato» y luego un «latte macchiato». ¡Son dos cosas muy distintas! El primero es una tacita de café con un poco de leche. El segundo es un vaso de leche con un poco de café.",
+    "Hoy, por fin, todo ha ido bien. He entrado, he pagado en la caja, le he dado el tique al camarero y he dicho: «Un caffè, per favore». Luego un turista me ha preguntado: «Perdone, ¿cómo se pide aquí?». Y yo se lo he explicado todo. ¡En italiano!",
+    "Un abrazo,\nEmma"
+   ]
+  },
+  "pt": {
+   "a1": [
+    "São oito da manhã. Emma está em Roma pela primeira vez. Está com sono e com fome. Entra num bar e vai ao balcão.",
+    "– Bom dia! O que vai querer? – pergunta o barista.\n– Bom dia. Eu queria um latte, por favor.",
+    "O barista pega um copo e coloca leite dentro. Leite frio. Só leite. Emma olha o copo e não entende.",
+    "– Desculpe… eu queria um café com leite. Quente.\n– Ah, um cappuccino!\n– Sim, um cappuccino, obrigada. E me vê também um cornetto?\n– Simples, de creme ou de geleia?\n– De geleia.",
+    "Emma toma o cappuccino no balcão, em pé, como muitos italianos. O cappuccino está bom e o cornetto está quentinho. Depois pergunta:",
+    "– Quanto é?\n– Dois euros e cinquenta.",
+    "Emma paga e sai. Agora ela sabe duas coisas: na Itália «un latte» é só leite, e «un caffè» é sempre um expresso, pequeno e forte.",
+    "No dia seguinte Emma volta ao mesmo bar.",
+    "– Bom dia! Vou querer um café e um cornetto. E me vê também um copo de água, por favor?\n– Claro! – responde o barista, sorrindo.",
+    "Ao lado de Emma há um turista com uma mala grande. Ele diz ao barista:",
+    "– Eu queria um latte, por favor.",
+    "Emma olha para o turista e sorri. Ela sabe o que vem por aí."
+   ],
+   "a2": [
+    "Querida Sara,\ntudo bem? Eu estou bem, mas esta semana descobri uma coisa: na Itália, pedir no bar é uma pequena prova!",
+    "Na segunda pedi «un latte» e o barista me deu um copo de leite frio. Eu queria um cappuccino!",
+    "Na terça fui a um bar perto da estação. Esperei no balcão dez minutos, mas ninguém me perguntou nada. No fim uma senhora me explicou o segredo: em muitos bares primeiro se paga no caixa, depois se leva o recibo ao balcão.",
+    "Na quarta me sentei a uma mesinha na praça com uma amiga. Tomamos dois cafés e pagamos seis euros! No balcão custam menos da metade: se você se senta, paga também o serviço.",
+    "Na quinta, depois do almoço, pedi um cappuccino. O barista não disse nada, mas revirou os olhos e sorriu. Depois entendi: os italianos geralmente só tomam cappuccino de manhã. Depois do almoço tomam um café.",
+    "Na sexta fiz um experimento: pedi um «caffè macchiato» e depois um «latte macchiato». São duas coisas bem diferentes! O primeiro é uma xicrinha de café com um pouco de leite. O segundo é um copo de leite com um pouco de café.",
+    "Hoje, finalmente, deu tudo certo. Entrei, paguei no caixa, dei o recibo ao barista e disse: «Un caffè, per favore». Depois um turista me perguntou: «Com licença, como se pede aqui?». E eu expliquei tudo para ele. Em italiano!",
+    "Um abraço,\nEmma"
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Il est huit heures du matin. Emma est à Rome pour la première fois. Elle a sommeil et elle a faim. Elle entre dans un bar et va au comptoir.",
+    "– Bonjour ! Qu'est-ce que vous prenez ? demande le barman.\n– Bonjour. Je voudrais un latte, s'il vous plaît.",
+    "Le barman prend un verre et verse du lait dedans. Du lait froid. Seulement du lait. Emma regarde le verre et ne comprend pas.",
+    "– Excusez-moi… je voudrais un café avec du lait. Chaud.\n– Ah, un cappuccino !\n– Oui, un cappuccino, merci. Et vous me donnez aussi un cornetto ?\n– Nature, à la crème ou à la confiture ?\n– À la confiture.",
+    "Emma boit son cappuccino au comptoir, debout, comme beaucoup d'Italiens. Le cappuccino est bon et le cornetto est chaud. Puis elle demande :",
+    "– Ça fait combien ?\n– Deux euros cinquante.",
+    "Emma paie et sort. Maintenant, elle sait deux choses : en Italie, « un latte », c'est seulement du lait, et « un caffè », c'est toujours un expresso, petit et fort.",
+    "Le lendemain, Emma retourne dans le même bar.",
+    "– Bonjour ! Je prends un café et un cornetto. Et vous me donnez aussi un verre d'eau, s'il vous plaît ?\n– Bien sûr ! répond le barman en souriant.",
+    "À côté d'Emma, il y a un touriste avec une grande valise. Il dit au barman :",
+    "– Je voudrais un latte, s'il vous plaît.",
+    "Emma regarde le touriste et sourit. Elle sait ce qui va arriver."
+   ],
+   "a2": [
+    "Chère Sara,\ncomment vas-tu ? Moi, je vais bien, mais cette semaine j'ai découvert une chose : en Italie, commander au bar, c'est un petit examen !",
+    "Lundi, j'ai demandé « un latte » et le barman m'a donné un verre de lait froid. Moi, je voulais un cappuccino !",
+    "Mardi, je suis allée dans un bar près de la gare. J'ai attendu au comptoir dix minutes, mais personne ne m'a rien demandé. À la fin, une dame m'a expliqué le secret : dans beaucoup de bars, on paie d'abord à la caisse, puis on apporte le ticket au comptoir.",
+    "Mercredi, je me suis assise à une petite table sur la place avec une amie. Nous avons pris deux cafés et nous avons payé six euros ! Au comptoir, ils coûtent moins de la moitié : si tu t'assois, tu paies aussi le service.",
+    "Jeudi, après le déjeuner, j'ai commandé un cappuccino. Le barman n'a rien dit, mais il a levé les yeux au ciel et il a souri. Puis j'ai compris : d'habitude, les Italiens boivent le cappuccino seulement le matin. Après le déjeuner, ils prennent un café.",
+    "Vendredi, j'ai fait une expérience : j'ai commandé un « caffè macchiato » puis un « latte macchiato ». Ce sont deux choses très différentes ! Le premier est une petite tasse de café avec un peu de lait. Le second est un verre de lait avec un peu de café.",
+    "Aujourd'hui, enfin, tout s'est bien passé. Je suis entrée, j'ai payé à la caisse, j'ai donné le ticket au barman et j'ai dit : « Un caffè, per favore ». Puis un touriste m'a demandé : « Excusez-moi, comment on commande ici ? ». Et je lui ai tout expliqué. En italien !",
+    "Je t'embrasse,\nEmma"
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Je osm hodin ráno. Emma je v Římě poprvé. Je ospalá a má hlad. Vejde do baru a jde k pultu.",
+    "– Dobré ráno! Co si dáte? – ptá se barman.\n– Dobré ráno. Chtěla bych latte, prosím.",
+    "Barman vezme sklenici a nalije do ní mléko. Studené mléko. Jen mléko. Emma se dívá na sklenici a nerozumí.",
+    "– Promiňte… chtěla bych kávu s mlékem. Teplou.\n– Aha, cappuccino!\n– Ano, cappuccino, děkuju. A dal byste mi i cornetto?\n– Bez náplně, s krémem, nebo s marmeládou?\n– S marmeládou.",
+    "Emma pije cappuccino u pultu, vestoje, jako mnoho Italů. Cappuccino je dobré a cornetto je teplé. Pak se zeptá:",
+    "– Kolik to stojí?\n– Dvě eura padesát.",
+    "Emma zaplatí a odejde. Teď ví dvě věci: v Itálii je „un latte“ jen mléko a „un caffè“ je vždycky espresso, malé a silné.",
+    "Druhý den se Emma vrátí do stejného baru.",
+    "– Dobré ráno! Dám si kávu a cornetto. A dal byste mi taky sklenici vody, prosím?\n– Jistě! – odpoví barman a usměje se.",
+    "Vedle Emmy stojí turista s velkým kufrem. Řekne barmanovi:",
+    "– Chtěl bych latte, prosím.",
+    "Emma se podívá na turistu a usměje se. Ví, co přijde."
+   ],
+   "a2": [
+    "Milá Saro,\njak se máš? Já se mám dobře, ale tento týden jsem zjistila jednu věc: v Itálii je objednávání v baru malá zkouška!",
+    "V pondělí jsem si řekla o „un latte“ a barman mi dal sklenici studeného mléka. A já chtěla cappuccino!",
+    "V úterý jsem šla do baru u nádraží. Deset minut jsem čekala u pultu, ale nikdo se mě na nic nezeptal. Nakonec mi jedna paní prozradila tajemství: v mnoha barech se nejdřív platí u pokladny a pak se účtenka nese k pultu.",
+    "Ve středu jsem si s kamarádkou sedla ke stolku na náměstí. Daly jsme si dvě kávy a zaplatily jsme šest eur! U pultu stojí méně než polovinu: když si sedneš, platíš i obsluhu.",
+    "Ve čtvrtek po obědě jsem si objednala cappuccino. Barman nic neřekl, ale obrátil oči v sloup a usmál se. Pak mi to došlo: Italové obvykle pijí cappuccino jen ráno. Po obědě si dávají espresso.",
+    "V pátek jsem udělala pokus: objednala jsem si „caffè macchiato“ a pak „latte macchiato“. To jsou dvě úplně různé věci! To první je šálek kávy s trochou mléka. To druhé je sklenice mléka s trochou kávy.",
+    "Dnes konečně všechno dopadlo dobře. Vešla jsem, zaplatila u pokladny, dala účtenku barmanovi a řekla: „Un caffè, per favore“. Pak se mě jeden turista zeptal: „Promiňte, jak se tady objednává?“. A já mu všechno vysvětlila. Italsky!",
+    "Objímám tě,\nEmma"
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jest ósma rano. Emma jest w Rzymie po raz pierwszy. Jest śpiąca i głodna. Wchodzi do baru i podchodzi do lady.",
+    "– Dzień dobry! Co dla pani? – pyta barman.\n– Dzień dobry. Poproszę latte.",
+    "Barman bierze szklankę i nalewa do niej mleko. Zimne mleko. Tylko mleko. Emma patrzy na szklankę i nie rozumie.",
+    "– Przepraszam… chciałam kawę z mlekiem. Ciepłą.\n– Aha, cappuccino!\n– Tak, cappuccino, dziękuję. I poproszę jeszcze cornetto.\n– Bez nadzienia, z kremem czy z dżemem?\n– Z dżemem.",
+    "Emma pije cappuccino przy ladzie, na stojąco, jak wielu Włochów. Cappuccino jest dobre, a cornetto ciepłe. Potem pyta:",
+    "– Ile płacę?\n– Dwa euro pięćdziesiąt.",
+    "Emma płaci i wychodzi. Teraz wie dwie rzeczy: we Włoszech „un latte” to tylko mleko, a „un caffè” to zawsze espresso, małe i mocne.",
+    "Następnego dnia Emma wraca do tego samego baru.",
+    "– Dzień dobry! Poproszę kawę i cornetto. I jeszcze szklankę wody, jeśli można.\n– Oczywiście! – odpowiada barman z uśmiechem.",
+    "Obok Emmy stoi turysta z dużą walizką. Mówi do barmana:",
+    "– Poproszę latte.",
+    "Emma patrzy na turystę i się uśmiecha. Wie, co zaraz nastąpi."
+   ],
+   "a2": [
+    "Droga Saro,\njak się masz? U mnie wszystko dobrze, ale w tym tygodniu odkryłam jedną rzecz: we Włoszech zamawianie w barze to mały egzamin!",
+    "W poniedziałek poprosiłam o „un latte”, a barman dał mi szklankę zimnego mleka. A ja chciałam cappuccino!",
+    "We wtorek poszłam do baru niedaleko dworca. Czekałam przy ladzie dziesięć minut, ale nikt mnie o nic nie zapytał. W końcu pewna pani wyjaśniła mi sekret: w wielu barach najpierw płaci się przy kasie, a potem zanosi się paragon do lady.",
+    "W środę usiadłam z koleżanką przy stoliku na placu. Zamówiłyśmy dwie kawy i zapłaciłyśmy sześć euro! Przy ladzie kosztują mniej niż połowę: jeśli siadasz, płacisz też za obsługę.",
+    "W czwartek po obiedzie zamówiłam cappuccino. Barman nic nie powiedział, ale przewrócił oczami i się uśmiechnął. Potem zrozumiałam: Włosi zwykle piją cappuccino tylko rano. Po obiedzie piją espresso.",
+    "W piątek zrobiłam eksperyment: zamówiłam „caffè macchiato”, a potem „latte macchiato”. To dwie zupełnie różne rzeczy! Pierwsze to filiżanka kawy z odrobiną mleka. Drugie to szklanka mleka z odrobiną kawy.",
+    "Dziś wreszcie wszystko poszło dobrze. Weszłam, zapłaciłam przy kasie, dałam paragon barmanowi i powiedziałam: „Un caffè, per favore”. Potem pewien turysta zapytał mnie: „Przepraszam, jak się tu zamawia?”. I wszystko mu wyjaśniłam. Po włosku!",
+    "Ściskam,\nEmma"
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Saat sabahın sekizi. Emma ilk kez Roma'da. Uykusu var ve acıkmış. Bir bara giriyor ve tezgâha gidiyor.",
+    "– Günaydın! Ne alırsınız? – diye soruyor barmen.\n– Günaydın. Bir latte istiyorum, lütfen.",
+    "Barmen bir bardak alıp içine süt koyuyor. Soğuk süt. Sadece süt. Emma bardağa bakıyor ve anlamıyor.",
+    "– Affedersiniz… ben sütlü bir kahve istiyorum. Sıcak.\n– Ha, bir kapuçino!\n– Evet, bir kapuçino, teşekkürler. Bir de cornetto verir misiniz?\n– Sade mi, kremalı mı, reçelli mi?\n– Reçelli.",
+    "Emma kapuçinosunu birçok İtalyan gibi tezgâhta, ayakta içiyor. Kapuçino güzel, cornetto da sıcacık. Sonra soruyor:",
+    "– Ne kadar?\n– İki buçuk avro.",
+    "Emma ödüyor ve çıkıyor. Artık iki şey biliyor: İtalya'da «un latte» sadece süttür, «un caffè» ise her zaman küçük ve sert bir espressodur.",
+    "Ertesi gün Emma aynı bara geri dönüyor.",
+    "– Günaydın! Bir kahve ve bir cornetto alayım. Bir de bir bardak su verir misiniz, lütfen?\n– Tabii! – diye cevap veriyor barmen ve gülümsüyor.",
+    "Emma'nın yanında büyük bavullu bir turist var. Barmene diyor ki:",
+    "– Bir latte istiyorum, lütfen.",
+    "Emma turiste bakıp gülümsüyor. Ne geleceğini biliyor."
+   ],
+   "a2": [
+    "Sevgili Sara,\nnasılsın? Ben iyiyim, ama bu hafta bir şey keşfettim: İtalya'da barda sipariş vermek küçük bir sınav!",
+    "Pazartesi «un latte» istedim, barmen bana bir bardak soğuk süt verdi. Ben kapuçino istiyordum!",
+    "Salı günü istasyonun yakınındaki bir bara gittim. Tezgâhta on dakika bekledim ama kimse bana bir şey sormadı. Sonunda bir hanım bana sırrı açıkladı: birçok barda önce kasada ödeme yapılıyor, sonra fiş tezgâha götürülüyor.",
+    "Çarşamba günü bir arkadaşımla meydanda küçük bir masaya oturdum. İki kahve içtik ve altı avro ödedik! Tezgâhta bunun yarısından da az tutuyor: oturursan servis ücreti de ödüyorsun.",
+    "Perşembe günü öğle yemeğinden sonra bir kapuçino sipariş ettim. Barmen hiçbir şey demedi ama gözlerini devirip gülümsedi. Sonra anladım: İtalyanlar kapuçinoyu genellikle sadece sabah içer. Öğle yemeğinden sonra espresso içerler.",
+    "Cuma günü bir deney yaptım: önce bir «caffè macchiato», sonra bir «latte macchiato» istedim. İkisi çok farklı şeyler! Birincisi biraz sütlü küçük bir fincan kahve. İkincisi biraz kahveli bir bardak süt.",
+    "Bugün nihayet her şey yolunda gitti. İçeri girdim, kasada ödedim, fişi barmene verdim ve «Un caffè, per favore» dedim. Sonra bir turist bana sordu: «Affedersiniz, burada nasıl sipariş veriliyor?». Ben de ona her şeyi anlattım. İtalyanca!",
+    "Sevgiler,\nEmma"
+   ]
+  },
+  "de": {
+   "a1": [
+    "Es ist acht Uhr morgens. Emma ist zum ersten Mal in Rom. Sie ist müde und hat Hunger. Sie geht in eine Bar und stellt sich an die Theke.",
+    "– Guten Morgen! Was darf's sein? – fragt der Barista.\n– Guten Morgen. Ich hätte gern einen Latte, bitte.",
+    "Der Barista nimmt ein Glas und gießt Milch hinein. Kalte Milch. Nur Milch. Emma schaut das Glas an und versteht nichts.",
+    "– Entschuldigung … ich möchte einen Kaffee mit Milch. Heiß.\n– Ah, einen Cappuccino!\n– Ja, einen Cappuccino, danke. Und geben Sie mir auch ein Cornetto?\n– Ohne Füllung, mit Creme oder mit Marmelade?\n– Mit Marmelade.",
+    "Emma trinkt den Cappuccino an der Theke, im Stehen, wie viele Italiener. Der Cappuccino ist gut und das Cornetto ist warm. Dann fragt sie:",
+    "– Was kostet das?\n– Zwei Euro fünfzig.",
+    "Emma bezahlt und geht hinaus. Jetzt weiß sie zwei Dinge: In Italien ist „un latte“ nur Milch, und „un caffè“ ist immer ein Espresso, klein und stark.",
+    "Am nächsten Tag geht Emma wieder in dieselbe Bar.",
+    "– Guten Morgen! Ich nehme einen Kaffee und ein Cornetto. Und könnte ich auch ein Glas Wasser haben, bitte?\n– Natürlich! – antwortet der Barista und lächelt.",
+    "Neben Emma steht ein Tourist mit einem großen Koffer. Er sagt zum Barista:",
+    "– Ich hätte gern einen Latte, bitte.",
+    "Emma schaut den Touristen an und lächelt. Sie weiß, was jetzt kommt."
+   ],
+   "a2": [
+    "Liebe Sara,\nwie geht's dir? Mir geht's gut, aber diese Woche habe ich etwas herausgefunden: In Italien ist Bestellen in der Bar eine kleine Prüfung!",
+    "Am Montag habe ich „un latte“ bestellt und der Barista hat mir ein Glas kalte Milch gegeben. Ich wollte einen Cappuccino!",
+    "Am Dienstag bin ich in eine Bar in der Nähe vom Bahnhof gegangen. Ich habe zehn Minuten an der Theke gewartet, aber niemand hat mich etwas gefragt. Am Ende hat mir eine Frau das Geheimnis erklärt: In vielen Bars zahlt man zuerst an der Kasse und bringt dann den Kassenbon zur Theke.",
+    "Am Mittwoch habe ich mich mit einer Freundin an ein Tischchen auf dem Platz gesetzt. Wir haben zwei Kaffee getrunken und sechs Euro bezahlt! An der Theke kosten sie weniger als die Hälfte: Wenn du dich setzt, zahlst du auch die Bedienung.",
+    "Am Donnerstag habe ich nach dem Mittagessen einen Cappuccino bestellt. Der Barista hat nichts gesagt, aber er hat die Augen verdreht und gelächelt. Dann habe ich es verstanden: Italiener trinken Cappuccino normalerweise nur morgens. Nach dem Mittagessen nehmen sie einen Espresso.",
+    "Am Freitag habe ich ein Experiment gemacht: Ich habe einen „caffè macchiato“ und dann einen „latte macchiato“ bestellt. Das sind zwei ganz verschiedene Dinge! Das Erste ist ein Tässchen Kaffee mit ein bisschen Milch. Das Zweite ist ein Glas Milch mit ein bisschen Kaffee.",
+    "Heute hat endlich alles geklappt. Ich bin hineingegangen, habe an der Kasse bezahlt, dem Barista den Kassenbon gegeben und gesagt: „Un caffè, per favore“. Dann hat mich ein Tourist gefragt: „Entschuldigung, wie bestellt man hier?“. Und ich habe ihm alles erklärt. Auf Italienisch!",
+    "Liebe Grüße,\nEmma"
+   ]
+  },
+  "ja": {
+   "a1": [
+    "朝の8時。エマは初めてローマに来ている。眠くて、お腹もすいている。バールに入って、カウンターへ行く。",
+    "「おはようございます！何になさいますか？」とバリスタが聞く。\n「おはようございます。ラッテをお願いします。」",
+    "バリスタはグラスを取って、牛乳を注ぐ。冷たい牛乳。牛乳だけだ。エマはグラスを見て、わけがわからない。",
+    "「すみません……ミルク入りのコーヒーがほしいんです。温かいの。」\n「ああ、カプチーノですね！」\n「はい、カプチーノをお願いします。それとコルネットもください。」\n「プレーン、カスタード、ジャム、どれにしますか？」\n「ジャムで。」",
+    "エマは、多くのイタリア人と同じように、カウンターで立ったままカプチーノを飲む。カプチーノはおいしく、コルネットは温かい。それから聞く。",
+    "「おいくらですか？」\n「2ユーロ50です。」",
+    "エマはお金を払って店を出る。これで二つのことがわかった。イタリアで「ウン・ラッテ」はただの牛乳、「ウン・カッフェ」はいつも小さくて濃いエスプレッソなのだ。",
+    "次の日、エマは同じバールにまた行く。",
+    "「おはようございます！コーヒーとコルネットをください。それから、お水を一杯いただけますか？」\n「もちろん！」とバリスタは答えて、ほほえむ。",
+    "エマの隣に、大きなスーツケースを持った観光客がいる。彼はバリスタに言う。",
+    "「ラッテをお願いします。」",
+    "エマは観光客を見て、ほほえむ。何が出てくるか、エマは知っているのだ。"
+   ],
+   "a2": [
+    "サラへ\n元気？私は元気だけど、今週あることに気づいたの。イタリアでは、バールで注文するのはちょっとした試験なんだよ！",
+    "月曜日、「ウン・ラッテ」と頼んだら、バリスタは冷たい牛乳を一杯くれた。私はカプチーノがほしかったのに！",
+    "火曜日は駅の近くのバールに行った。カウンターで10分待ったけど、誰も何も聞いてくれなかった。最後に、ある女性が秘密を教えてくれた。多くのバールでは、まずレジで払って、それからレシートをカウンターに持っていくんだって。",
+    "水曜日は友だちと広場の小さなテーブルに座った。コーヒーを二つ頼んで、6ユーロ払ったの！カウンターなら半分以下。座るとサービス料も払うんだよ。",
+    "木曜日、お昼のあとにカプチーノを注文した。バリスタは何も言わなかったけど、あきれた顔をして笑った。それでわかったの。イタリア人はふつう、カプチーノは朝しか飲まないんだって。お昼のあとはエスプレッソを飲むの。",
+    "金曜日は実験をした。「カッフェ・マッキアート」を頼んで、そのあと「ラッテ・マッキアート」を頼んだの。まったく違うものだった！一つ目は、ミルクが少し入った小さなカップのコーヒー。二つ目は、コーヒーが少し入ったグラスの牛乳。",
+    "今日、やっと全部うまくいった。店に入って、レジで払って、バリスタにレシートを渡して、「ウン・カッフェ、ペル・ファヴォーレ」と言った。そうしたら観光客に「すみません、ここではどうやって注文するんですか？」と聞かれて、私が全部説明したの。イタリア語で！",
+    "ハグを送るね\nエマ"
+   ]
+  }
+ }
+}
