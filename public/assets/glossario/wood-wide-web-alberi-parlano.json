@@ -1,0 +1,1320 @@
+{
+ "id": "wood-wide-web-alberi-parlano",
+ "nota": "Glossario della lettura (solo B2 e C1: niente traduzione dei paragrafi): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il bosco",
+   "forme": [
+    "bosco"
+   ],
+   "esempi": [
+    "La domenica passeggiamo nel bosco.",
+    "Nel bosco ci sono molti funghi.",
+    "Il bosco è pieno di uccelli."
+   ],
+   "traduzioni": {
+    "en": "wood, forest",
+    "es": "bosque",
+    "pt": "bosque, floresta",
+    "fr": "bois, forêt",
+    "cs": "les",
+    "pl": "las",
+    "tr": "orman, koru",
+    "de": "Wald",
+    "ja": "森、林"
+   }
+  },
+  {
+   "parola": "per conto suo",
+   "forme": [
+    "conto"
+   ],
+   "esempi": [
+    "Il gatto vive per conto suo.",
+    "Preferisco lavorare per conto mio.",
+    "Ognuno va per conto suo."
+   ],
+   "traduzioni": {
+    "en": "on its own, independently",
+    "es": "por su cuenta",
+    "pt": "por conta própria",
+    "fr": "de son côté, tout seul",
+    "cs": "sám za sebe",
+    "pl": "na własną rękę",
+    "tr": "kendi başına",
+    "de": "für sich allein",
+    "ja": "単独で、自分だけで"
+   }
+  },
+  {
+   "parola": "la gara",
+   "forme": [
+    "gara"
+   ],
+   "esempi": [
+    "Domenica c'è una gara di corsa.",
+    "Ha vinto la gara.",
+    "I fratelli sono sempre in gara tra loro."
+   ],
+   "traduzioni": {
+    "en": "race, competition («in gara» = competing)",
+    "es": "carrera, competición",
+    "pt": "corrida, competição",
+    "fr": "course, compétition",
+    "cs": "závod, soutěž",
+    "pl": "wyścig, rywalizacja",
+    "tr": "yarış",
+    "de": "Wettkampf",
+    "ja": "競争"
+   }
+  },
+  {
+   "parola": "eppure",
+   "forme": [
+    "eppure"
+   ],
+   "esempi": [
+    "È ricco, eppure non è felice.",
+    "Ho studiato, eppure non ricordo niente.",
+    "Sembra impossibile, eppure è vero."
+   ],
+   "traduzioni": {
+    "en": "and yet, nevertheless",
+    "es": "y sin embargo",
+    "pt": "e no entanto",
+    "fr": "et pourtant",
+    "cs": "a přece",
+    "pl": "a jednak",
+    "tr": "yine de",
+    "de": "und doch",
+    "ja": "それなのに"
+   }
+  },
+  {
+   "parola": "la manciata",
+   "forme": [
+    "manciata"
+   ],
+   "esempi": [
+    "Aggiungi una manciata di sale.",
+    "Ho una manciata di monete.",
+    "Arrivano solo una manciata di persone."
+   ],
+   "traduzioni": {
+    "en": "handful",
+    "es": "puñado",
+    "pt": "punhado",
+    "fr": "poignée",
+    "cs": "hrst",
+    "pl": "garść",
+    "tr": "avuç",
+    "de": "Handvoll",
+    "ja": "ひとつかみ"
+   }
+  },
+  {
+   "parola": "il filo",
+   "forme": [
+    "fili"
+   ],
+   "formeEsempi": [
+    "filo"
+   ],
+   "esempi": [
+    "Mi serve ago e filo.",
+    "Il filo del telefono è troppo corto.",
+    "Sotto terra ci sono fili bianchi."
+   ],
+   "traduzioni": {
+    "en": "thread, filament",
+    "es": "hilo",
+    "pt": "fio",
+    "fr": "fil",
+    "cs": "vlákno, nit",
+    "pl": "nitka, włókno",
+    "tr": "iplik, ince lif",
+    "de": "Faden",
+    "ja": "糸"
+   }
+  },
+  {
+   "parola": "la radice",
+   "forme": [
+    "radici"
+   ],
+   "formeEsempi": [
+    "radice"
+   ],
+   "esempi": [
+    "Le radici dell'albero sono profonde.",
+    "Ho le radici in Sicilia.",
+    "La radice della pianta è malata."
+   ],
+   "traduzioni": {
+    "en": "root",
+    "es": "raíz",
+    "pt": "raiz",
+    "fr": "racine",
+    "cs": "kořen",
+    "pl": "korzeń",
+    "tr": "kök",
+    "de": "Wurzel",
+    "ja": "根"
+   }
+  },
+  {
+   "parola": "il fungo",
+   "forme": [
+    "funghi",
+    "fungo"
+   ],
+   "esempi": [
+    "In autunno raccogliamo i funghi.",
+    "Questo fungo è velenoso.",
+    "Mi piace il risotto ai funghi."
+   ],
+   "traduzioni": {
+    "en": "fungus, mushroom",
+    "es": "hongo, seta",
+    "pt": "fungo, cogumelo",
+    "fr": "champignon",
+    "cs": "houba",
+    "pl": "grzyb",
+    "tr": "mantar",
+    "de": "Pilz",
+    "ja": "菌類、キノコ"
+   }
+  },
+  {
+   "parola": "sottoterra",
+   "forme": [
+    "sottoterra"
+   ],
+   "esempi": [
+    "Le talpe vivono sottoterra.",
+    "La metropolitana corre sottoterra.",
+    "La parte più grande del fungo è sottoterra."
+   ],
+   "traduzioni": {
+    "en": "underground",
+    "es": "bajo tierra",
+    "pt": "debaixo da terra",
+    "fr": "sous terre",
+    "cs": "pod zemí",
+    "pl": "pod ziemią",
+    "tr": "yer altında",
+    "de": "unter der Erde",
+    "ja": "地下に"
+   }
+  },
+  {
+   "parola": "la rete",
+   "forme": [
+    "rete",
+    "reti"
+   ],
+   "esempi": [
+    "Il pescatore ripara la rete.",
+    "Non c'è rete qui: il telefono non funziona.",
+    "È una rete di amici."
+   ],
+   "traduzioni": {
+    "en": "network, net",
+    "es": "red",
+    "pt": "rede",
+    "fr": "réseau, filet",
+    "cs": "síť",
+    "pl": "sieć",
+    "tr": "ağ",
+    "de": "Netz",
+    "ja": "網、ネットワーク"
+   }
+  },
+  {
+   "parola": "lo scambio",
+   "forme": [
+    "scambio"
+   ],
+   "esempi": [
+    "Facciamo uno scambio di libri?",
+    "È uno scambio di idee.",
+    "Faccio uno scambio linguistico con Ana."
+   ],
+   "traduzioni": {
+    "en": "exchange, swap",
+    "es": "intercambio",
+    "pt": "troca",
+    "fr": "échange",
+    "cs": "výměna",
+    "pl": "wymiana",
+    "tr": "değiş tokuş",
+    "de": "Austausch",
+    "ja": "交換"
+   }
+  },
+  {
+   "parola": "i sali minerali",
+   "forme": [
+    "sali"
+   ],
+   "esempi": [
+    "L'acqua contiene sali minerali.",
+    "Dopo lo sport servono sali minerali.",
+    "Le piante prendono i sali dal terreno."
+   ],
+   "traduzioni": {
+    "en": "minerals, mineral salts",
+    "es": "sales minerales",
+    "pt": "sais minerais",
+    "fr": "sels minéraux",
+    "cs": "minerální látky",
+    "pl": "sole mineralne",
+    "tr": "mineraller",
+    "de": "Mineralstoffe",
+    "ja": "ミネラル"
+   }
+  },
+  {
+   "parola": "l'alleanza",
+   "forme": [
+    "alleanza"
+   ],
+   "esempi": [
+    "I due paesi firmano un'alleanza.",
+    "È un'alleanza tra scuola e famiglia.",
+    "Tra piante e funghi c'è un'alleanza."
+   ],
+   "traduzioni": {
+    "en": "alliance, partnership",
+    "es": "alianza",
+    "pt": "aliança",
+    "fr": "alliance",
+    "cs": "spojenectví",
+    "pl": "sojusz",
+    "tr": "ittifak",
+    "de": "Bündnis",
+    "ja": "同盟、協力関係"
+   }
+  },
+  {
+   "parola": "la ricercatrice",
+   "forme": [
+    "ricercatrice",
+    "ricercatori"
+   ],
+   "formeEsempi": [
+    "ricercatore"
+   ],
+   "esempi": [
+    "Mia sorella è ricercatrice in biologia.",
+    "I ricercatori studiano il clima.",
+    "Il ricercatore pubblica un articolo."
+   ],
+   "traduzioni": {
+    "en": "researcher (female; pl. «ricercatori»)",
+    "es": "investigadora",
+    "pt": "pesquisadora",
+    "fr": "chercheuse",
+    "cs": "výzkumnice",
+    "pl": "badaczka",
+    "tr": "araştırmacı",
+    "de": "Forscherin",
+    "ja": "研究者"
+   }
+  },
+  {
+   "parola": "pubblicare",
+   "forme": [
+    "pubblicato",
+    "pubblicate"
+   ],
+   "formeEsempi": [
+    "pubblica"
+   ],
+   "esempi": [
+    "Ha pubblicato un libro di ricette.",
+    "Il giornale pubblica la notizia.",
+    "Le foto sono state pubblicate online."
+   ],
+   "traduzioni": {
+    "en": "to publish",
+    "es": "publicar",
+    "pt": "publicar",
+    "fr": "publier",
+    "cs": "publikovat, vydat",
+    "pl": "opublikować",
+    "tr": "yayımlamak",
+    "de": "veröffentlichen",
+    "ja": "発表する、出版する"
+   }
+  },
+  {
+   "parola": "la betulla",
+   "forme": [
+    "betulle",
+    "betulla"
+   ],
+   "esempi": [
+    "La betulla ha la corteccia bianca.",
+    "Nel parco ci sono molte betulle.",
+    "Le betulle crescono al nord."
+   ],
+   "traduzioni": {
+    "en": "birch",
+    "es": "abedul",
+    "pt": "bétula",
+    "fr": "bouleau",
+    "cs": "bříza",
+    "pl": "brzoza",
+    "tr": "huş ağacı",
+    "de": "Birke",
+    "ja": "シラカバ"
+   }
+  },
+  {
+   "parola": "l'abete",
+   "forme": [
+    "abeti",
+    "abete"
+   ],
+   "esempi": [
+    "A Natale facciamo l'albero con un abete.",
+    "In montagna ci sono boschi di abeti.",
+    "L'abete resta verde d'inverno."
+   ],
+   "traduzioni": {
+    "en": "fir (tree)",
+    "es": "abeto",
+    "pt": "abeto",
+    "fr": "sapin",
+    "cs": "jedle",
+    "pl": "jodła",
+    "tr": "köknar",
+    "de": "Tanne",
+    "ja": "モミ"
+   }
+  },
+  {
+   "parola": "il carbonio",
+   "forme": [
+    "carbonio"
+   ],
+   "esempi": [
+    "Il carbonio è un elemento chimico.",
+    "Gli alberi assorbono carbonio.",
+    "Il diamante è fatto di carbonio."
+   ],
+   "traduzioni": {
+    "en": "carbon",
+    "es": "carbono",
+    "pt": "carbono",
+    "fr": "carbone",
+    "cs": "uhlík",
+    "pl": "węgiel (pierwiastek)",
+    "tr": "karbon",
+    "de": "Kohlenstoff",
+    "ja": "炭素"
+   }
+  },
+  {
+   "parola": "la copertina",
+   "forme": [
+    "copertina"
+   ],
+   "esempi": [
+    "La copertina del libro è rossa.",
+    "È finito in copertina sulla rivista.",
+    "Mi piace la copertina di questo disco."
+   ],
+   "traduzioni": {
+    "en": "cover (of a book or magazine)",
+    "es": "portada",
+    "pt": "capa",
+    "fr": "couverture",
+    "cs": "obálka",
+    "pl": "okładka",
+    "tr": "kapak",
+    "de": "Titelseite, Umschlag",
+    "ja": "表紙"
+   }
+  },
+  {
+   "parola": "fare il giro del mondo",
+   "forme": [
+    "giro"
+   ],
+   "esempi": [
+    "La notizia ha fatto il giro del mondo.",
+    "Sogno di fare il giro del mondo.",
+    "Il video ha fatto il giro del web."
+   ],
+   "traduzioni": {
+    "en": "to go around the world, to spread everywhere",
+    "es": "dar la vuelta al mundo",
+    "pt": "dar a volta ao mundo",
+    "fr": "faire le tour du monde",
+    "cs": "obletět svět",
+    "pl": "obiec świat",
+    "tr": "dünyayı dolaşmak",
+    "de": "um die Welt gehen",
+    "ja": "世界中に広まる"
+   }
+  },
+  {
+   "parola": "nutrire",
+   "forme": [
+    "nutrano",
+    "nutrono"
+   ],
+   "formeEsempi": [
+    "nutre"
+   ],
+   "esempi": [
+    "Gli uccelli nutrono i piccoli.",
+    "La madre nutre il bambino.",
+    "Leggere nutre la mente."
+   ],
+   "traduzioni": {
+    "en": "to feed, to nourish",
+    "es": "alimentar, nutrir",
+    "pt": "alimentar, nutrir",
+    "fr": "nourrir",
+    "cs": "živit, krmit",
+    "pl": "karmić, żywić",
+    "tr": "beslemek",
+    "de": "ernähren, füttern",
+    "ja": "養う、栄養を与える"
+   }
+  },
+  {
+   "parola": "l'ombra",
+   "forme": [
+    "ombra"
+   ],
+   "esempi": [
+    "Mi siedo all'ombra di un albero.",
+    "D'estate cerco l'ombra.",
+    "Vedo la mia ombra sul muro."
+   ],
+   "traduzioni": {
+    "en": "shade, shadow",
+    "es": "sombra",
+    "pt": "sombra",
+    "fr": "ombre",
+    "cs": "stín",
+    "pl": "cień",
+    "tr": "gölge",
+    "de": "Schatten",
+    "ja": "日陰、影"
+   }
+  },
+  {
+   "parola": "il pericolo",
+   "forme": [
+    "pericolo"
+   ],
+   "esempi": [
+    "Attenzione: pericolo!",
+    "Il cane sente il pericolo.",
+    "Non c'è pericolo, puoi passare."
+   ],
+   "traduzioni": {
+    "en": "danger",
+    "es": "peligro",
+    "pt": "perigo",
+    "fr": "danger",
+    "cs": "nebezpečí",
+    "pl": "niebezpieczeństwo",
+    "tr": "tehlike",
+    "de": "Gefahr",
+    "ja": "危険"
+   }
+  },
+  {
+   "parola": "solidale",
+   "forme": [
+    "solidale"
+   ],
+   "esempi": [
+    "È una comunità molto solidale.",
+    "Sono solidale con i lavoratori.",
+    "Compro al mercato solidale."
+   ],
+   "traduzioni": {
+    "en": "supportive, caring, in solidarity",
+    "es": "solidario",
+    "pt": "solidário",
+    "fr": "solidaire",
+    "cs": "solidární",
+    "pl": "solidarny",
+    "tr": "dayanışmacı",
+    "de": "solidarisch",
+    "ja": "助け合う、連帯した"
+   }
+  },
+  {
+   "parola": "non è detto che",
+   "forme": [
+    "detto"
+   ],
+   "esempi": [
+    "Non è detto che piova.",
+    "Non è detto che sia vero.",
+    "Non è detto che arrivi in tempo."
+   ],
+   "traduzioni": {
+    "en": "it's not certain that, not necessarily",
+    "es": "no es seguro que",
+    "pt": "não é certo que",
+    "fr": "rien ne dit que",
+    "cs": "není jisté, že",
+    "pl": "nie jest powiedziane, że",
+    "tr": "kesin değil",
+    "de": "es ist nicht gesagt, dass",
+    "ja": "〜とは限らない"
+   }
+  },
+  {
+   "parola": "la prova",
+   "forme": [
+    "prove",
+    "prova"
+   ],
+   "esempi": [
+    "Non ci sono prove contro di lui.",
+    "Questa è la prova che avevo ragione.",
+    "Mettiamo alla prova la teoria."
+   ],
+   "traduzioni": {
+    "en": "evidence, proof («mettere alla prova» = to put to the test)",
+    "es": "prueba",
+    "pt": "prova",
+    "fr": "preuve («mettre à l'épreuve»)",
+    "cs": "důkaz",
+    "pl": "dowód",
+    "tr": "kanıt",
+    "de": "Beweis («auf die Probe stellen»)",
+    "ja": "証拠"
+   }
+  },
+  {
+   "parola": "debole",
+   "forme": [
+    "deboli"
+   ],
+   "formeEsempi": [
+    "debole"
+   ],
+   "esempi": [
+    "Mi sento debole dopo la febbre.",
+    "La luce è troppo debole.",
+    "Gli argomenti sono deboli."
+   ],
+   "traduzioni": {
+    "en": "weak",
+    "es": "débil",
+    "pt": "fraco",
+    "fr": "faible",
+    "cs": "slabý",
+    "pl": "słaby",
+    "tr": "zayıf",
+    "de": "schwach",
+    "ja": "弱い"
+   }
+  },
+  {
+   "parola": "dimostrare",
+   "forme": [
+    "dimostrata"
+   ],
+   "formeEsempi": [
+    "dimostra",
+    "dimostrare"
+   ],
+   "esempi": [
+    "Devi dimostrare quello che dici.",
+    "Lo studio dimostra che è utile.",
+    "La teoria non è ancora dimostrata."
+   ],
+   "traduzioni": {
+    "en": "to prove, to demonstrate",
+    "es": "demostrar",
+    "pt": "demonstrar, provar",
+    "fr": "démontrer, prouver",
+    "cs": "dokázat",
+    "pl": "udowodnić",
+    "tr": "kanıtlamak",
+    "de": "beweisen",
+    "ja": "証明する"
+   }
+  },
+  {
+   "parola": "l'ipotesi",
+   "forme": [
+    "ipotesi"
+   ],
+   "esempi": [
+    "È solo un'ipotesi.",
+    "Gli scienziati verificano l'ipotesi.",
+    "Ci sono due ipotesi diverse."
+   ],
+   "traduzioni": {
+    "en": "hypothesis",
+    "es": "hipótesis",
+    "pt": "hipótese",
+    "fr": "hypothèse",
+    "cs": "hypotéza",
+    "pl": "hipoteza",
+    "tr": "hipotez",
+    "de": "Hypothese",
+    "ja": "仮説"
+   }
+  },
+  {
+   "parola": "affascinante",
+   "forme": [
+    "affascinante"
+   ],
+   "esempi": [
+    "È una città affascinante.",
+    "Ha una voce affascinante.",
+    "L'idea è affascinante ma non provata."
+   ],
+   "traduzioni": {
+    "en": "fascinating",
+    "es": "fascinante",
+    "pt": "fascinante",
+    "fr": "fascinant",
+    "cs": "fascinující",
+    "pl": "fascynujący",
+    "tr": "büyüleyici",
+    "de": "faszinierend",
+    "ja": "魅力的な"
+   }
+  },
+  {
+   "parola": "coniare",
+   "forme": [
+    "coniata"
+   ],
+   "esempi": [
+    "Chi ha coniato questa parola?",
+    "L'espressione fu coniata nel 1997.",
+    "Hanno coniato una nuova moneta."
+   ],
+   "traduzioni": {
+    "en": "to coin (a word)",
+    "es": "acuñar",
+    "pt": "cunhar",
+    "fr": "forger, inventer (un mot)",
+    "cs": "razit (výraz)",
+    "pl": "ukuć (termin)",
+    "tr": "türetmek (bir terim)",
+    "de": "prägen",
+    "ja": "（言葉を）作り出す"
+   },
+   "formeEsempi": [
+    "coniato"
+   ]
+  },
+  {
+   "parola": "il saggio",
+   "forme": [
+    "saggi"
+   ],
+   "formeEsempi": [
+    "saggio"
+   ],
+   "esempi": [
+    "Ho letto un saggio sulla storia d'Italia.",
+    "Scrive saggi e romanzi.",
+    "È un saggio di filosofia."
+   ],
+   "traduzioni": {
+    "en": "essay, non-fiction book",
+    "es": "ensayo",
+    "pt": "ensaio",
+    "fr": "essai",
+    "cs": "esej, odborná kniha",
+    "pl": "esej",
+    "tr": "deneme, inceleme",
+    "de": "Essay, Sachbuch",
+    "ja": "評論、ノンフィクション"
+   }
+  },
+  {
+   "parola": "assorbire",
+   "forme": [
+    "assorbire"
+   ],
+   "formeEsempi": [
+    "assorbe",
+    "assorbono"
+   ],
+   "esempi": [
+    "La spugna assorbe l'acqua.",
+    "Le piante assorbono anidride carbonica.",
+    "Il corpo deve assorbire il ferro."
+   ],
+   "traduzioni": {
+    "en": "to absorb",
+    "es": "absorber",
+    "pt": "absorver",
+    "fr": "absorber",
+    "cs": "vstřebat, pohlcovat",
+    "pl": "wchłaniać",
+    "tr": "emmek",
+    "de": "aufnehmen",
+    "ja": "吸収する"
+   }
+  },
+  {
+   "parola": "l'anidride carbonica",
+   "forme": [
+    "anidride"
+   ],
+   "esempi": [
+    "Le auto producono anidride carbonica.",
+    "Le piante assorbono anidride carbonica.",
+    "L'anidride carbonica scalda il pianeta."
+   ],
+   "traduzioni": {
+    "en": "carbon dioxide",
+    "es": "dióxido de carbono",
+    "pt": "dióxido de carbono",
+    "fr": "dioxyde de carbone",
+    "cs": "oxid uhličitý",
+    "pl": "dwutlenek węgla",
+    "tr": "karbondioksit",
+    "de": "Kohlendioxid",
+    "ja": "二酸化炭素"
+   }
+  },
+  {
+   "parola": "marcato",
+   "forme": [
+    "marcata"
+   ],
+   "esempi": [
+    "Usano acqua marcata per l'esperimento.",
+    "Ha un accento molto marcato.",
+    "C'è una differenza marcata."
+   ],
+   "traduzioni": {
+    "en": "labelled, tagged (also: marked, strong)",
+    "es": "marcado",
+    "pt": "marcado",
+    "fr": "marqué",
+    "cs": "označený (i: výrazný)",
+    "pl": "znakowany (też: wyraźny)",
+    "tr": "işaretli",
+    "de": "markiert (auch: ausgeprägt)",
+    "ja": "標識された（目立つ、の意味も）"
+   },
+   "formeEsempi": [
+    "marcato"
+   ]
+  },
+  {
+   "parola": "il tessuto",
+   "forme": [
+    "tessuti"
+   ],
+   "formeEsempi": [
+    "tessuto"
+   ],
+   "esempi": [
+    "Questo tessuto è di cotone.",
+    "I tessuti della pianta contengono acqua.",
+    "Compro un tessuto per le tende."
+   ],
+   "traduzioni": {
+    "en": "tissue (also: fabric)",
+    "es": "tejido",
+    "pt": "tecido",
+    "fr": "tissu",
+    "cs": "tkáň (i: látka)",
+    "pl": "tkanka (też: tkanina)",
+    "tr": "doku (ayrıca: kumaş)",
+    "de": "Gewebe (auch: Stoff)",
+    "ja": "組織（布、の意味も）"
+   }
+  },
+  {
+   "parola": "interpretare",
+   "forme": [
+    "interpretato"
+   ],
+   "formeEsempi": [
+    "interpreta",
+    "interpreti"
+   ],
+   "esempi": [
+    "Come interpreti questa frase?",
+    "L'attore interpreta un medico.",
+    "Il risultato va interpretato con attenzione."
+   ],
+   "traduzioni": {
+    "en": "to interpret",
+    "es": "interpretar",
+    "pt": "interpretar",
+    "fr": "interpréter",
+    "cs": "vyložit, interpretovat",
+    "pl": "interpretować",
+    "tr": "yorumlamak",
+    "de": "deuten, interpretieren",
+    "ja": "解釈する"
+   }
+  },
+  {
+   "parola": "trasferire",
+   "forme": [
+    "trasferita"
+   ],
+   "formeEsempi": [
+    "trasferisco",
+    "trasferito"
+   ],
+   "esempi": [
+    "Mi trasferisco a Milano.",
+    "Hanno trasferito i soldi sul conto.",
+    "La quantità trasferita è piccola."
+   ],
+   "traduzioni": {
+    "en": "to transfer («trasferita» = transferred)",
+    "es": "transferir",
+    "pt": "transferir",
+    "fr": "transférer",
+    "cs": "přenést, převést",
+    "pl": "przenieść, przekazać",
+    "tr": "aktarmak",
+    "de": "übertragen",
+    "ja": "移す、移動させる"
+   }
+  },
+  {
+   "parola": "in secondo piano",
+   "forme": [
+    "piano"
+   ],
+   "esempi": [
+    "I problemi personali passano in secondo piano.",
+    "Nella foto la casa è in secondo piano.",
+    "La salute non va messa in secondo piano."
+   ],
+   "traduzioni": {
+    "en": "in the background, secondary",
+    "es": "en segundo plano",
+    "pt": "em segundo plano",
+    "fr": "au second plan",
+    "cs": "v pozadí, na vedlejší kolej",
+    "pl": "na dalszy plan",
+    "tr": "ikinci planda",
+    "de": "in den Hintergrund",
+    "ja": "後回しに、背景に"
+   }
+  },
+  {
+   "parola": "condurre",
+   "forme": [
+    "condotti"
+   ],
+   "formeEsempi": [
+    "conduce"
+   ],
+   "esempi": [
+    "Gli studi sono stati condotti in Canada.",
+    "Il professore conduce una ricerca.",
+    "Chi conduce il programma?"
+   ],
+   "traduzioni": {
+    "en": "to carry out, to conduct («condotti» = conducted)",
+    "es": "realizar, llevar a cabo",
+    "pt": "conduzir, realizar",
+    "fr": "mener, conduire",
+    "cs": "provádět",
+    "pl": "prowadzić (badania)",
+    "tr": "yürütmek",
+    "de": "durchführen",
+    "ja": "行う、実施する"
+   }
+  },
+  {
+   "parola": "l'affermazione",
+   "forme": [
+    "affermazioni"
+   ],
+   "formeEsempi": [
+    "affermazione"
+   ],
+   "esempi": [
+    "È un'affermazione molto forte.",
+    "Controlliamo le affermazioni del politico.",
+    "Non sono d'accordo con questa affermazione."
+   ],
+   "traduzioni": {
+    "en": "claim, statement",
+    "es": "afirmación",
+    "pt": "afirmação",
+    "fr": "affirmation",
+    "cs": "tvrzení",
+    "pl": "twierdzenie",
+    "tr": "iddia",
+    "de": "Behauptung",
+    "ja": "主張"
+   }
+  },
+  {
+   "parola": "a vicenda",
+   "forme": [
+    "vicenda"
+   ],
+   "esempi": [
+    "I due fratelli si aiutano a vicenda.",
+    "Si rispettano a vicenda.",
+    "Gli alberi si avvisano a vicenda?"
+   ],
+   "traduzioni": {
+    "en": "each other, mutually",
+    "es": "mutuamente, el uno al otro",
+    "pt": "mutuamente, um ao outro",
+    "fr": "mutuellement, l'un l'autre",
+    "cs": "navzájem",
+    "pl": "nawzajem, wzajemnie",
+    "tr": "birbirine, karşılıklı",
+    "de": "gegenseitig",
+    "ja": "お互いに"
+   }
+  },
+  {
+   "parola": "solido",
+   "forme": [
+    "solide"
+   ],
+   "formeEsempi": [
+    "solido",
+    "solida"
+   ],
+   "esempi": [
+    "È una casa solida.",
+    "Ha una solida preparazione.",
+    "Servono prove solide."
+   ],
+   "traduzioni": {
+    "en": "solid, strong",
+    "es": "sólido",
+    "pt": "sólido",
+    "fr": "solide",
+    "cs": "pevný, solidní",
+    "pl": "solidny",
+    "tr": "sağlam",
+    "de": "solide, belastbar",
+    "ja": "しっかりした、確かな"
+   }
+  },
+  {
+   "parola": "sul campo",
+   "forme": [
+    "campo"
+   ],
+   "esempi": [
+    "Gli antropologi lavorano sul campo.",
+    "I dati sono raccolti sul campo.",
+    "Ha imparato il mestiere sul campo."
+   ],
+   "traduzioni": {
+    "en": "in the field (real-world conditions)",
+    "es": "sobre el terreno, en el campo",
+    "pt": "em campo",
+    "fr": "sur le terrain",
+    "cs": "v terénu",
+    "pl": "w terenie",
+    "tr": "sahada",
+    "de": "im Feld, vor Ort",
+    "ja": "現地で、野外で"
+   }
+  },
+  {
+   "parola": "citare",
+   "forme": [
+    "citavano",
+    "citata"
+   ],
+   "formeEsempi": [
+    "cita"
+   ],
+   "esempi": [
+    "Cita sempre i suoi autori preferiti.",
+    "L'articolo cita tre studi.",
+    "Questa frase è citata spesso."
+   ],
+   "traduzioni": {
+    "en": "to cite, to quote",
+    "es": "citar",
+    "pt": "citar",
+    "fr": "citer",
+    "cs": "citovat",
+    "pl": "cytować",
+    "tr": "alıntı yapmak, atıfta bulunmak",
+    "de": "zitieren",
+    "ja": "引用する"
+   }
+  },
+  {
+   "parola": "il meccanismo",
+   "forme": [
+    "meccanismo"
+   ],
+   "esempi": [
+    "Il meccanismo dell'orologio è delicato.",
+    "Non capisco il meccanismo.",
+    "È un meccanismo psicologico comune."
+   ],
+   "traduzioni": {
+    "en": "mechanism",
+    "es": "mecanismo",
+    "pt": "mecanismo",
+    "fr": "mécanisme",
+    "cs": "mechanismus",
+    "pl": "mechanizm",
+    "tr": "mekanizma",
+    "de": "Mechanismus",
+    "ja": "仕組み"
+   }
+  },
+  {
+   "parola": "gestire",
+   "forme": [
+    "gestire"
+   ],
+   "formeEsempi": [
+    "gestisce"
+   ],
+   "esempi": [
+    "Gestisce un ristorante in centro.",
+    "Non so gestire lo stress.",
+    "Come gestire le foreste?"
+   ],
+   "traduzioni": {
+    "en": "to manage",
+    "es": "gestionar",
+    "pt": "gerir, administrar",
+    "fr": "gérer",
+    "cs": "spravovat, řídit",
+    "pl": "zarządzać",
+    "tr": "yönetmek",
+    "de": "bewirtschaften, verwalten",
+    "ja": "管理する"
+   }
+  },
+  {
+   "parola": "avviare",
+   "forme": [
+    "avviato"
+   ],
+   "formeEsempi": [
+    "avvia"
+   ],
+   "esempi": [
+    "Ha avviato un'attività in proprio.",
+    "Il comune avvia un nuovo progetto.",
+    "Avvia il computer."
+   ],
+   "traduzioni": {
+    "en": "to launch, to start",
+    "es": "poner en marcha, iniciar",
+    "pt": "iniciar, lançar",
+    "fr": "lancer, démarrer",
+    "cs": "zahájit, spustit",
+    "pl": "rozpocząć, uruchomić",
+    "tr": "başlatmak",
+    "de": "starten, in Gang setzen",
+    "ja": "始める、開始する"
+   }
+  },
+  {
+   "parola": "avvertire",
+   "forme": [
+    "avvertito"
+   ],
+   "formeEsempi": [
+    "avverte",
+    "avverto"
+   ],
+   "esempi": [
+    "Ti avverto: la strada è chiusa.",
+    "Mi hanno avvertito del ritardo.",
+    "Il medico avverte dei rischi."
+   ],
+   "traduzioni": {
+    "en": "to warn",
+    "es": "advertir",
+    "pt": "advertir, avisar",
+    "fr": "avertir",
+    "cs": "varovat",
+    "pl": "ostrzec",
+    "tr": "uyarmak",
+    "de": "warnen",
+    "ja": "警告する"
+   }
+  },
+  {
+   "parola": "la certezza",
+   "forme": [
+    "certezza"
+   ],
+   "esempi": [
+    "Non ho la certezza che venga.",
+    "Con certezza, è il migliore.",
+    "Un'ipotesi non è una certezza."
+   ],
+   "traduzioni": {
+    "en": "certainty",
+    "es": "certeza",
+    "pt": "certeza",
+    "fr": "certitude",
+    "cs": "jistota",
+    "pl": "pewność",
+    "tr": "kesinlik",
+    "de": "Gewissheit",
+    "ja": "確実さ"
+   }
+  },
+  {
+   "parola": "l'assenza",
+   "forme": [
+    "assenza"
+   ],
+   "esempi": [
+    "Ho notato la tua assenza.",
+    "In assenza del capo decido io.",
+    "L'assenza di prove non è la prova dell'assenza."
+   ],
+   "traduzioni": {
+    "en": "absence",
+    "es": "ausencia",
+    "pt": "ausência",
+    "fr": "absence",
+    "cs": "nepřítomnost, absence",
+    "pl": "brak, nieobecność",
+    "tr": "yokluk",
+    "de": "Fehlen, Abwesenheit",
+    "ja": "不在、ないこと"
+   }
+  },
+  {
+   "parola": "la contrattazione",
+   "forme": [
+    "contrattazione"
+   ],
+   "esempi": [
+    "La contrattazione sullo stipendio è difficile.",
+    "Al mercato c'è sempre una contrattazione.",
+    "Lo scambio funziona come una contrattazione."
+   ],
+   "traduzioni": {
+    "en": "bargaining, negotiation",
+    "es": "negociación, regateo",
+    "pt": "negociação, barganha",
+    "fr": "négociation, marchandage",
+    "cs": "vyjednávání",
+    "pl": "negocjacje, targowanie się",
+    "tr": "pazarlık",
+    "de": "Verhandlung, Feilschen",
+    "ja": "交渉、駆け引き"
+   }
+  },
+  {
+   "parola": "fornire",
+   "forme": [
+    "forniscono"
+   ],
+   "formeEsempi": [
+    "fornisce",
+    "fornire"
+   ],
+   "esempi": [
+    "L'hotel fornisce gli asciugamani.",
+    "Il fungo fornisce acqua alla pianta.",
+    "Mi può fornire più informazioni?"
+   ],
+   "traduzioni": {
+    "en": "to supply, to provide",
+    "es": "proporcionar, suministrar",
+    "pt": "fornecer",
+    "fr": "fournir",
+    "cs": "dodávat, poskytovat",
+    "pl": "dostarczać",
+    "tr": "sağlamak",
+    "de": "liefern, bereitstellen",
+    "ja": "供給する、提供する"
+   }
+  },
+  {
+   "parola": "dal canto loro",
+   "forme": [
+    "canto"
+   ],
+   "esempi": [
+    "I genitori, dal canto loro, sono d'accordo.",
+    "Io ho fatto la mia parte; lui, dal canto suo, no.",
+    "I funghi, dal canto loro, spostano il fosforo."
+   ],
+   "traduzioni": {
+    "en": "for their part, on their side",
+    "es": "por su parte",
+    "pt": "por sua vez",
+    "fr": "de leur côté",
+    "cs": "ze své strany",
+    "pl": "ze swojej strony",
+    "tr": "kendi açılarından",
+    "de": "ihrerseits",
+    "ja": "彼らのほうでは"
+   }
+  },
+  {
+   "parola": "il fosforo",
+   "forme": [
+    "fosforo"
+   ],
+   "esempi": [
+    "Il pesce contiene fosforo.",
+    "Il fosforo serve alle piante.",
+    "Il fosforo è un minerale importante."
+   ],
+   "traduzioni": {
+    "en": "phosphorus",
+    "es": "fósforo",
+    "pt": "fósforo",
+    "fr": "phosphore",
+    "cs": "fosfor",
+    "pl": "fosfor",
+    "tr": "fosfor",
+    "de": "Phosphor",
+    "ja": "リン"
+   }
+  },
+  {
+   "parola": "il rigore",
+   "forme": [
+    "rigore"
+   ],
+   "esempi": [
+    "Lavora con grande rigore.",
+    "La scienza richiede rigore.",
+    "L'arbitro dà un calcio di rigore."
+   ],
+   "traduzioni": {
+    "en": "rigour, strictness (also: penalty kick)",
+    "es": "rigor",
+    "pt": "rigor",
+    "fr": "rigueur",
+    "cs": "přísnost, důslednost",
+    "pl": "rygor, dokładność",
+    "tr": "titizlik",
+    "de": "Strenge, Genauigkeit",
+    "ja": "厳密さ"
+   }
+  }
+ ]
+}
