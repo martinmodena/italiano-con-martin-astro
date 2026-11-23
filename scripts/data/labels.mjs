@@ -1674,4 +1674,15 @@ export const NAV_LABELS = {
     de: 'Vermutungen über die Vergangenheit',
     ja: '過去の推量',
   },
+  // Condizionale presente (B1), 2026-11-23.
+  Consigli: {
+    en: 'Advice',
+    es: 'Consejos',
+    fr: 'Conseils',
+    cs: 'Rady',
+    pl: 'Rady',
+    tr: 'Tavsiyeler',
+    de: 'Ratschläge',
+    ja: 'アドバイス',
+  },
 };

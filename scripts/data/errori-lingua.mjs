@@ -36,6 +36,7 @@ import { ERRORS_PIACERE_TRAPASSATO } from './confronti-piacere-trapassato.mjs';
 import { ERRORS_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiuntivo.mjs';
 import { ERRORS_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { ERRORS_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
+import { ERRORS_CONDIZIONALE_PRESENTE } from './confronti-condizionale-presente.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1017,3 +1018,6 @@ Object.assign(ERRORS, ERRORS_CONDIZIONALE_CONGIUNTIVO);
 
 Object.assign(ERRORS, ERRORS_PERIODO_IPOTETICO);
 Object.assign(ERRORS, ERRORS_FUTURO_ANTERIORE);
+
+// Condizionale presente rifatto il 2026-11-23: cinque errori per lingua al posto dei tre di agosto.
+Object.assign(ERRORS, ERRORS_CONDIZIONALE_PRESENTE);

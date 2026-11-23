@@ -1299,3 +1299,11 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Cosa**: 50 PDF, uno per livello (A1–C1) in ognuna delle 10 lingue, con tutti i testi dell'indice di quel livello, letture e favole, nello stesso ordine: A1 54 testi (112 pagine), A2 50, B1 40, B2 13, C1 9. Il testo italiano è lo stesso in tutte le lingue; cambiano titoli, indice, parole utili tradotte e domande come nei PDF delle singole letture.
 - **Peso**: 45 MB in tutto (A1 italiano 1,3 MB, giapponese 1,7 MB per i caratteri); immagini a 480 px JPEG 55 e senza la codifica ASCII85 di ReportLab. Sito sotto 850 MB.
 - **Dove**: riquadro sotto i livelli in ogni indice di livello e riquadro con i cinque livelli nell'indice generale delle letture, nelle 10 lingue. Indicizzabili come gli altri PDF delle storie (vedi 2026-11-19).
+
+## 2026-11-23 — Lezioni di grammatica con pochi esercizi: si rifanno una alla volta
+
+- **Martin**: «attenzione che ci sono lezioni con pochi esercizi come il condizionale presente», poi «inizia dal condizionale presente, fai una alla volta».
+- **Conteggio**: 19 lezioni hanno da 8 a 20 esercizi, contro i 30 (o 50) delle lezioni fatte col generatore dal 2026-09. Elenco in AGENTS.md, sotto il condizionale presente.
+- **Scelta**: non aggiungere solo esercizi, ma rifare ogni lezione agli stessi URL con `create-a1-numbers-time-lessons.mjs` (come preposizioni semplici e periodo ipotetico): spiegazioni più ricche, confronto ed errori per lingua, 30 esercizi, testata.
+- **Fatto oggi**: «Il condizionale presente» (B1), 10 → 30 esercizi, nelle 10 lingue, PDF e libro di grammatica rifatti.
+
