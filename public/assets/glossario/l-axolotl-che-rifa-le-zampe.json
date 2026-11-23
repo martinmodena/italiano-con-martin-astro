@@ -1,0 +1,1588 @@
+{
+ "id": "l-axolotl-che-rifa-le-zampe",
+ "nota": "Glossario e traduzione della lettura (A1 e A2 tradotti; B2 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il canale",
+   "forme": [
+    "canali"
+   ],
+   "formeEsempi": [
+    "canale"
+   ],
+   "esempi": [
+    "Venezia ha tanti canali.",
+    "Il canale è lungo e stretto.",
+    "Andiamo in barca sul canale."
+   ],
+   "traduzioni": {
+    "en": "canal",
+    "es": "canal",
+    "pt": "canal",
+    "fr": "canal",
+    "cs": "kanál",
+    "pl": "kanał",
+    "tr": "kanal",
+    "de": "Kanal",
+    "ja": "運河、水路"
+   }
+  },
+  {
+   "parola": "il lago",
+   "forme": [
+    "lago"
+   ],
+   "esempi": [
+    "D'estate nuoto nel lago.",
+    "Il lago di Garda è grande.",
+    "Abitiamo vicino a un lago."
+   ],
+   "traduzioni": {
+    "en": "lake",
+    "es": "lago",
+    "pt": "lago",
+    "fr": "lac",
+    "cs": "jezero",
+    "pl": "jezioro",
+    "tr": "göl",
+    "de": "See",
+    "ja": "湖"
+   }
+  },
+  {
+   "parola": "lungo",
+   "forme": [
+    "lungo"
+   ],
+   "formeEsempi": [
+    "lunga",
+    "lunghi"
+   ],
+   "esempi": [
+    "Il fiume è molto lungo.",
+    "Ho i capelli lunghi.",
+    "È stata una giornata lunga."
+   ],
+   "traduzioni": {
+    "en": "long",
+    "es": "largo",
+    "pt": "comprido, longo",
+    "fr": "long",
+    "cs": "dlouhý",
+    "pl": "długi",
+    "tr": "uzun",
+    "de": "lang",
+    "ja": "長い"
+   }
+  },
+  {
+   "parola": "l'anfibio",
+   "forme": [
+    "anfibio"
+   ],
+   "esempi": [
+    "La rana è un anfibio.",
+    "L'anfibio vive in acqua e sulla terra.",
+    "Questo anfibio è molto raro."
+   ],
+   "traduzioni": {
+    "en": "amphibian",
+    "es": "anfibio",
+    "pt": "anfíbio",
+    "fr": "amphibien",
+    "cs": "obojživelník",
+    "pl": "płaz",
+    "tr": "amfibi",
+    "de": "Amphibie",
+    "ja": "両生類"
+   }
+  },
+  {
+   "parola": "la faccia",
+   "forme": [
+    "faccia"
+   ],
+   "esempi": [
+    "Lavati la faccia!",
+    "Ha una faccia simpatica.",
+    "Perché fai quella faccia?"
+   ],
+   "traduzioni": {
+    "en": "face",
+    "es": "cara",
+    "pt": "rosto, cara",
+    "fr": "visage",
+    "cs": "obličej",
+    "pl": "twarz",
+    "tr": "yüz",
+    "de": "Gesicht",
+    "ja": "顔"
+   }
+  },
+  {
+   "parola": "la bocca",
+   "forme": [
+    "bocca"
+   ],
+   "esempi": [
+    "Apri la bocca, per favore.",
+    "Non parlare con la bocca piena!",
+    "Ha la bocca piccola."
+   ],
+   "traduzioni": {
+    "en": "mouth",
+    "es": "boca",
+    "pt": "boca",
+    "fr": "bouche",
+    "cs": "ústa",
+    "pl": "usta",
+    "tr": "ağız",
+    "de": "Mund",
+    "ja": "口"
+   }
+  },
+  {
+   "parola": "sorridere",
+   "forme": [
+    "sorride",
+    "sorridi"
+   ],
+   "esempi": [
+    "Mia nonna sorride sempre.",
+    "Sorridi, siamo in foto!",
+    "Il bambino sorride alla mamma."
+   ],
+   "traduzioni": {
+    "en": "to smile",
+    "es": "sonreír",
+    "pt": "sorrir",
+    "fr": "sourire",
+    "cs": "usmívat se",
+    "pl": "uśmiechać się",
+    "tr": "gülümsemek",
+    "de": "lächeln",
+    "ja": "ほほえむ"
+   }
+  },
+  {
+   "parola": "le branchie",
+   "forme": [
+    "branchie"
+   ],
+   "esempi": [
+    "I pesci respirano con le branchie.",
+    "Le branchie dell'axolotl sono rosa.",
+    "Noi non abbiamo le branchie."
+   ],
+   "traduzioni": {
+    "en": "gills",
+    "es": "branquias",
+    "pt": "brânquias, guelras",
+    "fr": "branchies",
+    "cs": "žábry",
+    "pl": "skrzela",
+    "tr": "solungaçlar",
+    "de": "Kiemen",
+    "ja": "えら"
+   }
+  },
+  {
+   "parola": "respirare",
+   "forme": [
+    "respira"
+   ],
+   "formeEsempi": [
+    "respiro",
+    "respirare"
+   ],
+   "esempi": [
+    "Respira piano e calmati.",
+    "Quando corro respiro male.",
+    "Il pesce respira sott'acqua."
+   ],
+   "traduzioni": {
+    "en": "to breathe",
+    "es": "respirar",
+    "pt": "respirar",
+    "fr": "respirer",
+    "cs": "dýchat",
+    "pl": "oddychać",
+    "tr": "nefes almak",
+    "de": "atmen",
+    "ja": "呼吸する"
+   }
+  },
+  {
+   "parola": "crescere",
+   "forme": [
+    "crescono",
+    "crescere",
+    "cresce"
+   ],
+   "esempi": [
+    "I bambini crescono in fretta.",
+    "Il pane cresce nel forno.",
+    "Voglio crescere in campagna."
+   ],
+   "traduzioni": {
+    "en": "to grow, to grow up",
+    "es": "crecer",
+    "pt": "crescer",
+    "fr": "grandir, pousser",
+    "cs": "růst",
+    "pl": "rosnąć",
+    "tr": "büyümek",
+    "de": "wachsen",
+    "ja": "成長する、育つ"
+   }
+  },
+  {
+   "parola": "perdere",
+   "forme": [
+    "perdono",
+    "perde",
+    "perso",
+    "perdere"
+   ],
+   "esempi": [
+    "Ho perso le chiavi.",
+    "D'autunno gli alberi perdono le foglie.",
+    "Non voglio perdere il treno."
+   ],
+   "traduzioni": {
+    "en": "to lose",
+    "es": "perder",
+    "pt": "perder",
+    "fr": "perdre",
+    "cs": "ztratit",
+    "pl": "stracić, gubić",
+    "tr": "kaybetmek",
+    "de": "verlieren",
+    "ja": "失う、なくす"
+   }
+  },
+  {
+   "parola": "uscire",
+   "forme": [
+    "escono",
+    "esce",
+    "usciti"
+   ],
+   "esempi": [
+    "Esco di casa alle otto.",
+    "I ragazzi escono il sabato sera.",
+    "Siamo usciti tardi."
+   ],
+   "traduzioni": {
+    "en": "to go out, to come out",
+    "es": "salir",
+    "pt": "sair",
+    "fr": "sortir",
+    "cs": "vyjít, vycházet",
+    "pl": "wychodzić",
+    "tr": "çıkmak",
+    "de": "hinausgehen, herauskommen",
+    "ja": "出る"
+   },
+   "formeEsempi": [
+    "esco"
+   ]
+  },
+  {
+   "parola": "restare",
+   "forme": [
+    "resta",
+    "resti",
+    "restino"
+   ],
+   "formeEsempi": [
+    "resto",
+    "restare"
+   ],
+   "esempi": [
+    "Oggi resto a casa.",
+    "Resta qui con me!",
+    "Il negozio resta chiuso la domenica."
+   ],
+   "traduzioni": {
+    "en": "to stay, to remain",
+    "es": "quedarse, permanecer",
+    "pt": "ficar, permanecer",
+    "fr": "rester",
+    "cs": "zůstat",
+    "pl": "zostać",
+    "tr": "kalmak",
+    "de": "bleiben",
+    "ja": "とどまる、…のままでいる"
+   }
+  },
+  {
+   "parola": "il verme",
+   "forme": [
+    "vermi"
+   ],
+   "formeEsempi": [
+    "verme"
+   ],
+   "esempi": [
+    "Il merlo mangia un verme.",
+    "Dopo la pioggia ci sono tanti vermi.",
+    "Il pescatore usa i vermi."
+   ],
+   "traduzioni": {
+    "en": "worm",
+    "es": "gusano",
+    "pt": "minhoca, verme",
+    "fr": "ver",
+    "cs": "červ",
+    "pl": "robak",
+    "tr": "solucan",
+    "de": "Wurm",
+    "ja": "虫（ミミズなど）"
+   }
+  },
+  {
+   "parola": "il fondo",
+   "forme": [
+    "fondo"
+   ],
+   "esempi": [
+    "Il sasso va sul fondo del lago.",
+    "La mia camera è in fondo al corridoio.",
+    "C'è caffè sul fondo della tazza."
+   ],
+   "traduzioni": {
+    "en": "bottom",
+    "es": "fondo",
+    "pt": "fundo",
+    "fr": "fond",
+    "cs": "dno",
+    "pl": "dno",
+    "tr": "dip",
+    "de": "Grund, Boden",
+    "ja": "底"
+   }
+  },
+  {
+   "parola": "riposare",
+   "forme": [
+    "riposa"
+   ],
+   "formeEsempi": [
+    "riposo",
+    "riposare"
+   ],
+   "esempi": [
+    "Il nonno riposa dopo pranzo.",
+    "Domenica riposo tutto il giorno.",
+    "Devi riposare un po'."
+   ],
+   "traduzioni": {
+    "en": "to rest",
+    "es": "descansar",
+    "pt": "descansar",
+    "fr": "se reposer",
+    "cs": "odpočívat",
+    "pl": "odpoczywać",
+    "tr": "dinlenmek",
+    "de": "sich ausruhen",
+    "ja": "休む"
+   }
+  },
+  {
+   "parola": "la zampa",
+   "forme": [
+    "zampa",
+    "zampe"
+   ],
+   "esempi": [
+    "Il cane mi dà la zampa.",
+    "Il gatto ha quattro zampe.",
+    "Il ragno ha otto zampe."
+   ],
+   "traduzioni": {
+    "en": "leg, paw (of an animal)",
+    "es": "pata",
+    "pt": "pata",
+    "fr": "patte",
+    "cs": "noha, tlapka",
+    "pl": "łapa, noga",
+    "tr": "pati, bacak",
+    "de": "Pfote, Bein",
+    "ja": "（動物の）足"
+   }
+  },
+  {
+   "parola": "ricrescere",
+   "forme": [
+    "ricresce",
+    "ricrescere"
+   ],
+   "esempi": [
+    "L'erba ricresce in fretta.",
+    "I capelli ricrescono.",
+    "La coda della lucertola può ricrescere."
+   ],
+   "traduzioni": {
+    "en": "to grow back",
+    "es": "volver a crecer",
+    "pt": "crescer de novo",
+    "fr": "repousser",
+    "cs": "dorůst",
+    "pl": "odrosnąć",
+    "tr": "yeniden büyümek",
+    "de": "nachwachsen",
+    "ja": "再び生える"
+   },
+   "formeEsempi": [
+    "ricrescono"
+   ]
+  },
+  {
+   "parola": "l'osso (le ossa)",
+   "forme": [
+    "ossa"
+   ],
+   "formeEsempi": [
+    "osso"
+   ],
+   "esempi": [
+    "Il cane ha un osso.",
+    "Il latte fa bene alle ossa.",
+    "Mi sono rotto un osso del piede."
+   ],
+   "traduzioni": {
+    "en": "bone (pl. «le ossa»)",
+    "es": "hueso",
+    "pt": "osso",
+    "fr": "os",
+    "cs": "kost",
+    "pl": "kość",
+    "tr": "kemik",
+    "de": "Knochen",
+    "ja": "骨"
+   }
+  },
+  {
+   "parola": "il dito (le dita)",
+   "forme": [
+    "dita",
+    "dito"
+   ],
+   "esempi": [
+    "Ho cinque dita in ogni mano.",
+    "Mi sono tagliato un dito.",
+    "Non indicare con il dito!"
+   ],
+   "traduzioni": {
+    "en": "finger, toe (pl. «le dita»)",
+    "es": "dedo",
+    "pt": "dedo",
+    "fr": "doigt",
+    "cs": "prst",
+    "pl": "palec",
+    "tr": "parmak",
+    "de": "Finger, Zehe",
+    "ja": "指"
+   }
+  },
+  {
+   "parola": "la coda",
+   "forme": [
+    "coda"
+   ],
+   "esempi": [
+    "Il cane muove la coda.",
+    "C'è una lunga coda alla cassa.",
+    "Il gatto ha la coda nera."
+   ],
+   "traduzioni": {
+    "en": "tail (also: queue)",
+    "es": "cola",
+    "pt": "rabo, cauda (também: fila)",
+    "fr": "queue",
+    "cs": "ocas (i: fronta)",
+    "pl": "ogon (też: kolejka)",
+    "tr": "kuyruk",
+    "de": "Schwanz (auch: Schlange)",
+    "ja": "しっぽ（行列、の意味も）"
+   }
+  },
+  {
+   "parola": "perfino",
+   "forme": [
+    "perfino"
+   ],
+   "esempi": [
+    "Ha mangiato perfino il piatto di verdure!",
+    "Lo sanno tutti, perfino i bambini.",
+    "Fa caldo perfino di notte."
+   ],
+   "traduzioni": {
+    "en": "even",
+    "es": "incluso, hasta",
+    "pt": "até mesmo",
+    "fr": "même",
+    "cs": "dokonce",
+    "pl": "nawet",
+    "tr": "bile",
+    "de": "sogar",
+    "ja": "…さえ"
+   }
+  },
+  {
+   "parola": "raramente",
+   "forme": [
+    "raramente"
+   ],
+   "esempi": [
+    "Raramente guardo la TV.",
+    "Qui nevica raramente.",
+    "Lo vedo raramente."
+   ],
+   "traduzioni": {
+    "en": "rarely",
+    "es": "raramente",
+    "pt": "raramente",
+    "fr": "rarement",
+    "cs": "zřídka",
+    "pl": "rzadko",
+    "tr": "nadiren",
+    "de": "selten",
+    "ja": "めったに…ない"
+   }
+  },
+  {
+   "parola": "l'acquario",
+   "forme": [
+    "acquari"
+   ],
+   "formeEsempi": [
+    "acquario"
+   ],
+   "esempi": [
+    "L'acquario di Genova è famoso.",
+    "Ho un piccolo acquario in camera.",
+    "Negli acquari ci sono pesci colorati."
+   ],
+   "traduzioni": {
+    "en": "aquarium, fish tank",
+    "es": "acuario",
+    "pt": "aquário",
+    "fr": "aquarium",
+    "cs": "akvárium",
+    "pl": "akwarium",
+    "tr": "akvaryum",
+    "de": "Aquarium",
+    "ja": "水族館、水槽"
+   }
+  },
+  {
+   "parola": "il laboratorio",
+   "forme": [
+    "laboratorio",
+    "laboratori"
+   ],
+   "esempi": [
+    "La scienziata lavora in laboratorio.",
+    "La scuola ha un laboratorio di chimica.",
+    "Gli esami del sangue vanno al laboratorio."
+   ],
+   "traduzioni": {
+    "en": "laboratory, lab",
+    "es": "laboratorio",
+    "pt": "laboratório",
+    "fr": "laboratoire",
+    "cs": "laboratoř",
+    "pl": "laboratorium",
+    "tr": "laboratuvar",
+    "de": "Labor",
+    "ja": "研究室、実験室"
+   }
+  },
+  {
+   "parola": "la vasca",
+   "forme": [
+    "vasca"
+   ],
+   "esempi": [
+    "Faccio il bagno nella vasca.",
+    "I pesci nuotano nella vasca.",
+    "La vasca è piena d'acqua."
+   ],
+   "traduzioni": {
+    "en": "tank, tub, basin",
+    "es": "tanque, bañera",
+    "pt": "tanque, banheira",
+    "fr": "bac, bassin, baignoire",
+    "cs": "nádrž, vana",
+    "pl": "zbiornik, wanna",
+    "tr": "havuz, küvet",
+    "de": "Becken, Wanne",
+    "ja": "水槽、浴槽"
+   }
+  },
+  {
+   "parola": "osservare",
+   "forme": [
+    "osservati"
+   ],
+   "formeEsempi": [
+    "osservo",
+    "osservare"
+   ],
+   "esempi": [
+    "Osservo gli uccelli con il binocolo.",
+    "Mi piace osservare le persone al bar.",
+    "Li abbiamo osservati per ore."
+   ],
+   "traduzioni": {
+    "en": "to observe, to watch",
+    "es": "observar",
+    "pt": "observar",
+    "fr": "observer",
+    "cs": "pozorovat",
+    "pl": "obserwować",
+    "tr": "gözlemlemek",
+    "de": "beobachten",
+    "ja": "観察する"
+   }
+  },
+  {
+   "parola": "l'uovo (le uova)",
+   "forme": [
+    "uova"
+   ],
+   "formeEsempi": [
+    "uovo"
+   ],
+   "esempi": [
+    "La gallina fa le uova.",
+    "Le uova della rana sono in acqua.",
+    "Nel nido ci sono tre uova."
+   ],
+   "traduzioni": {
+    "en": "egg (pl. «le uova»)",
+    "es": "huevo",
+    "pt": "ovo",
+    "fr": "œuf",
+    "cs": "vejce",
+    "pl": "jajo",
+    "tr": "yumurta",
+    "de": "Ei",
+    "ja": "卵"
+   }
+  },
+  {
+   "parola": "strano",
+   "forme": [
+    "strano"
+   ],
+   "formeEsempi": [
+    "strana"
+   ],
+   "esempi": [
+    "Che strano, non c'è nessuno!",
+    "Ho fatto un sogno strano.",
+    "È una persona un po' strana."
+   ],
+   "traduzioni": {
+    "en": "strange, odd",
+    "es": "raro, extraño",
+    "pt": "estranho",
+    "fr": "étrange, bizarre",
+    "cs": "divný",
+    "pl": "dziwny",
+    "tr": "garip",
+    "de": "seltsam",
+    "ja": "変な、奇妙な"
+   }
+  },
+  {
+   "parola": "credere",
+   "forme": [
+    "creduto"
+   ],
+   "formeEsempi": [
+    "credo"
+   ],
+   "esempi": [
+    "Non ci credo!",
+    "Ho creduto alla sua storia.",
+    "Credo che domani piova."
+   ],
+   "traduzioni": {
+    "en": "to believe («non credere ai propri occhi» = not to believe one's eyes)",
+    "es": "creer",
+    "pt": "acreditar",
+    "fr": "croire",
+    "cs": "věřit",
+    "pl": "wierzyć",
+    "tr": "inanmak",
+    "de": "glauben",
+    "ja": "信じる"
+   }
+  },
+  {
+   "parola": "la specie",
+   "forme": [
+    "specie"
+   ],
+   "esempi": [
+    "Ci sono molte specie di uccelli.",
+    "È una specie nuova.",
+    "Questa specie è in pericolo."
+   ],
+   "traduzioni": {
+    "en": "species",
+    "es": "especie",
+    "pt": "espécie",
+    "fr": "espèce",
+    "cs": "druh",
+    "pl": "gatunek",
+    "tr": "tür",
+    "de": "Art",
+    "ja": "種（しゅ）"
+   }
+  },
+  {
+   "parola": "scoprire",
+   "forme": [
+    "scoperto",
+    "scopra"
+   ],
+   "formeEsempi": [
+    "scopro"
+   ],
+   "esempi": [
+    "Ho scoperto un bel ristorante.",
+    "Colombo ha scoperto l'America.",
+    "Spero che nessuno scopra il segreto."
+   ],
+   "traduzioni": {
+    "en": "to discover, to find out",
+    "es": "descubrir",
+    "pt": "descobrir",
+    "fr": "découvrir",
+    "cs": "objevit, zjistit",
+    "pl": "odkryć",
+    "tr": "keşfetmek",
+    "de": "entdecken",
+    "ja": "発見する"
+   }
+  },
+  {
+   "parola": "l'ormone",
+   "forme": [
+    "ormone"
+   ],
+   "esempi": [
+    "L'insulina è un ormone.",
+    "Questo ormone regola la crescita.",
+    "Il medico controlla un ormone nel sangue."
+   ],
+   "traduzioni": {
+    "en": "hormone",
+    "es": "hormona",
+    "pt": "hormônio",
+    "fr": "hormone",
+    "cs": "hormon",
+    "pl": "hormon",
+    "tr": "hormon",
+    "de": "Hormon",
+    "ja": "ホルモン"
+   }
+  },
+  {
+   "parola": "trasformato",
+   "forme": [
+    "trasformato"
+   ],
+   "formeEsempi": [
+    "trasformata"
+   ],
+   "esempi": [
+    "Il bruco si è trasformato in farfalla.",
+    "La vecchia stazione è stata trasformata in museo.",
+    "Dopo il viaggio è un uomo trasformato."
+   ],
+   "traduzioni": {
+    "en": "transformed",
+    "es": "transformado",
+    "pt": "transformado",
+    "fr": "transformé",
+    "cs": "proměněný",
+    "pl": "przekształcony",
+    "tr": "dönüşmüş",
+    "de": "verwandelt",
+    "ja": "変身した、変化した"
+   }
+  },
+  {
+   "parola": "ammalarsi",
+   "forme": [
+    "ammala"
+   ],
+   "formeEsempi": [
+    "ammalato",
+    "ammalo"
+   ],
+   "esempi": [
+    "D'inverno mi ammalo spesso.",
+    "Chi non dorme si ammala.",
+    "Si è ammalato prima delle vacanze."
+   ],
+   "traduzioni": {
+    "en": "to fall ill, to get sick",
+    "es": "enfermar(se)",
+    "pt": "adoecer",
+    "fr": "tomber malade",
+    "cs": "onemocnět",
+    "pl": "zachorować",
+    "tr": "hastalanmak",
+    "de": "krank werden",
+    "ja": "病気になる"
+   }
+  },
+  {
+   "parola": "il sorriso",
+   "forme": [
+    "sorriso"
+   ],
+   "esempi": [
+    "Ha un sorriso bellissimo.",
+    "Mi ha salutato con un sorriso.",
+    "Un sorriso non costa niente."
+   ],
+   "traduzioni": {
+    "en": "smile",
+    "es": "sonrisa",
+    "pt": "sorriso",
+    "fr": "sourire",
+    "cs": "úsměv",
+    "pl": "uśmiech",
+    "tr": "gülümseme",
+    "de": "Lächeln",
+    "ja": "笑顔"
+   }
+  },
+  {
+   "parola": "la ferita",
+   "forme": [
+    "ferita"
+   ],
+   "esempi": [
+    "Disinfetta la ferita.",
+    "La ferita guarisce piano.",
+    "Ha una ferita al ginocchio."
+   ],
+   "traduzioni": {
+    "en": "wound",
+    "es": "herida",
+    "pt": "ferida",
+    "fr": "blessure, plaie",
+    "cs": "rána",
+    "pl": "rana",
+    "tr": "yara",
+    "de": "Wunde",
+    "ja": "傷"
+   }
+  },
+  {
+   "parola": "la cicatrice",
+   "forme": [
+    "cicatrice",
+    "cicatrici"
+   ],
+   "esempi": [
+    "Ho una cicatrice sul braccio.",
+    "La cicatrice è quasi sparita.",
+    "Le cicatrici raccontano una storia."
+   ],
+   "traduzioni": {
+    "en": "scar",
+    "es": "cicatriz",
+    "pt": "cicatriz",
+    "fr": "cicatrice",
+    "cs": "jizva",
+    "pl": "blizna",
+    "tr": "yara izi",
+    "de": "Narbe",
+    "ja": "傷跡"
+   }
+  },
+  {
+   "parola": "lo strato",
+   "forme": [
+    "strato"
+   ],
+   "esempi": [
+    "C'è uno strato di neve sulla macchina.",
+    "La torta ha tre strati.",
+    "Metti uno strato di crema."
+   ],
+   "traduzioni": {
+    "en": "layer",
+    "es": "capa",
+    "pt": "camada",
+    "fr": "couche",
+    "cs": "vrstva",
+    "pl": "warstwa",
+    "tr": "katman",
+    "de": "Schicht",
+    "ja": "層"
+   },
+   "formeEsempi": [
+    "strati"
+   ]
+  },
+  {
+   "parola": "la pelle",
+   "forme": [
+    "pelle"
+   ],
+   "esempi": [
+    "Ho la pelle secca.",
+    "Il sole fa male alla pelle.",
+    "Questa borsa non è di pelle."
+   ],
+   "traduzioni": {
+    "en": "skin",
+    "es": "piel",
+    "pt": "pele",
+    "fr": "peau",
+    "cs": "kůže",
+    "pl": "skóra",
+    "tr": "deri, cilt",
+    "de": "Haut",
+    "ja": "皮膚"
+   }
+  },
+  {
+   "parola": "la cellula",
+   "forme": [
+    "cellule"
+   ],
+   "formeEsempi": [
+    "cellula"
+   ],
+   "esempi": [
+    "Il corpo è fatto di cellule.",
+    "La cellula ha un nucleo.",
+    "Le cellule si dividono."
+   ],
+   "traduzioni": {
+    "en": "cell",
+    "es": "célula",
+    "pt": "célula",
+    "fr": "cellule",
+    "cs": "buňka",
+    "pl": "komórka",
+    "tr": "hücre",
+    "de": "Zelle",
+    "ja": "細胞"
+   }
+  },
+  {
+   "parola": "il midollo spinale",
+   "forme": [
+    "midollo"
+   ],
+   "esempi": [
+    "Il midollo spinale è dentro la colonna.",
+    "Il midollo porta i messaggi del cervello.",
+    "Una lesione al midollo è grave."
+   ],
+   "traduzioni": {
+    "en": "spinal cord",
+    "es": "médula espinal",
+    "pt": "medula espinhal",
+    "fr": "moelle épinière",
+    "cs": "mícha",
+    "pl": "rdzeń kręgowy",
+    "tr": "omurilik",
+    "de": "Rückenmark",
+    "ja": "脊髄"
+   }
+  },
+  {
+   "parola": "allevare",
+   "forme": [
+    "allevino"
+   ],
+   "formeEsempi": [
+    "alleva",
+    "allevare",
+    "allevano"
+   ],
+   "esempi": [
+    "Mio zio alleva api.",
+    "È difficile allevare quattro figli.",
+    "In questa fattoria allevano cavalli."
+   ],
+   "traduzioni": {
+    "en": "to breed, to raise",
+    "es": "criar",
+    "pt": "criar",
+    "fr": "élever",
+    "cs": "chovat",
+    "pl": "hodować",
+    "tr": "yetiştirmek",
+    "de": "züchten, aufziehen",
+    "ja": "飼育する、育てる"
+   }
+  },
+  {
+   "parola": "guarire",
+   "forme": [
+    "guarire"
+   ],
+   "formeEsempi": [
+    "guarisce"
+   ],
+   "esempi": [
+    "Spero di guarire presto.",
+    "La ferita guarisce in una settimana.",
+    "Il medico l'ha aiutato a guarire."
+   ],
+   "traduzioni": {
+    "en": "to heal, to recover",
+    "es": "curar(se), sanar",
+    "pt": "sarar, curar-se",
+    "fr": "guérir",
+    "cs": "uzdravit se, zahojit se",
+    "pl": "wyzdrowieć, zagoić się",
+    "tr": "iyileşmek",
+    "de": "heilen, gesund werden",
+    "ja": "治る"
+   }
+  },
+  {
+   "parola": "il genoma",
+   "forme": [
+    "genoma"
+   ],
+   "esempi": [
+    "Il genoma umano è stato letto nel 2003.",
+    "Il genoma contiene tutti i geni.",
+    "Studiano il genoma del grano."
+   ],
+   "traduzioni": {
+    "en": "genome",
+    "es": "genoma",
+    "pt": "genoma",
+    "fr": "génome",
+    "cs": "genom",
+    "pl": "genom",
+    "tr": "genom",
+    "de": "Genom",
+    "ja": "ゲノム"
+   }
+  },
+  {
+   "parola": "il gene",
+   "forme": [
+    "geni"
+   ],
+   "formeEsempi": [
+    "gene"
+   ],
+   "esempi": [
+    "Il colore degli occhi dipende dai geni.",
+    "Questo gene è molto antico.",
+    "Abbiamo molti geni in comune con i topi."
+   ],
+   "traduzioni": {
+    "en": "gene",
+    "es": "gen",
+    "pt": "gene",
+    "fr": "gène",
+    "cs": "gen",
+    "pl": "gen",
+    "tr": "gen",
+    "de": "Gen",
+    "ja": "遺伝子"
+   }
+  },
+  {
+   "parola": "risvegliare",
+   "forme": [
+    "risvegliare"
+   ],
+   "formeEsempi": [
+    "risveglia"
+   ],
+   "esempi": [
+    "Il caffè mi risveglia.",
+    "La primavera risveglia la natura.",
+    "Vuole risvegliare la passione per la lettura."
+   ],
+   "traduzioni": {
+    "en": "to reawaken, to revive",
+    "es": "despertar, reactivar",
+    "pt": "despertar, reativar",
+    "fr": "réveiller",
+    "cs": "probudit",
+    "pl": "obudzić, rozbudzić",
+    "tr": "uyandırmak, canlandırmak",
+    "de": "wiedererwecken",
+    "ja": "目覚めさせる"
+   }
+  },
+  {
+   "parola": "la punta",
+   "forme": [
+    "punta"
+   ],
+   "esempi": [
+    "Cammina in punta di piedi.",
+    "La punta della matita è rotta.",
+    "Ce l'ho sulla punta della lingua."
+   ],
+   "traduzioni": {
+    "en": "tip, point",
+    "es": "punta",
+    "pt": "ponta",
+    "fr": "bout, pointe",
+    "cs": "špička",
+    "pl": "czubek",
+    "tr": "uç",
+    "de": "Spitze",
+    "ja": "先端"
+   }
+  },
+  {
+   "parola": "scomparire",
+   "forme": [
+    "scomparso",
+    "scomparendo"
+   ],
+   "formeEsempi": [
+    "scomparsa",
+    "scompare"
+   ],
+   "esempi": [
+    "Il gatto è scomparso da due giorni.",
+    "Molte lingue stanno scomparendo.",
+    "Il sole scompare dietro le nuvole."
+   ],
+   "traduzioni": {
+    "en": "to disappear, to vanish",
+    "es": "desaparecer",
+    "pt": "desaparecer",
+    "fr": "disparaître",
+    "cs": "zmizet, vymírat",
+    "pl": "znikać, wymierać",
+    "tr": "yok olmak",
+    "de": "verschwinden",
+    "ja": "消える、姿を消す"
+   }
+  },
+  {
+   "parola": "sorgere",
+   "forme": [
+    "sorgeva"
+   ],
+   "formeEsempi": [
+    "sorge"
+   ],
+   "esempi": [
+    "Il sole sorge alle sei.",
+    "Qui sorgeva un antico castello.",
+    "Il paese sorge su una collina."
+   ],
+   "traduzioni": {
+    "en": "to stand, to rise (a city, the sun)",
+    "es": "alzarse, levantarse",
+    "pt": "erguer-se, nascer (o sol)",
+    "fr": "se dresser, se lever",
+    "cs": "stát, vycházet (slunce)",
+    "pl": "stać, wschodzić (słońce)",
+    "tr": "yükselmek, doğmak (güneş)",
+    "de": "stehen, aufgehen (Sonne)",
+    "ja": "そびえる、昇る"
+   }
+  },
+  {
+   "parola": "inquinato",
+   "forme": [
+    "inquinata"
+   ],
+   "formeEsempi": [
+    "inquinato"
+   ],
+   "esempi": [
+    "L'aria in città è inquinata.",
+    "Non bere l'acqua del fiume: è inquinata.",
+    "È un mare molto inquinato."
+   ],
+   "traduzioni": {
+    "en": "polluted",
+    "es": "contaminado",
+    "pt": "poluído",
+    "fr": "pollué",
+    "cs": "znečištěný",
+    "pl": "zanieczyszczony",
+    "tr": "kirli, kirlenmiş",
+    "de": "verschmutzt",
+    "ja": "汚染された"
+   }
+  },
+  {
+   "parola": "il rifugio",
+   "forme": [
+    "rifugio"
+   ],
+   "esempi": [
+    "In montagna dormiamo in un rifugio.",
+    "Il bosco è un rifugio per gli animali.",
+    "Cerchiamo rifugio dalla pioggia."
+   ],
+   "traduzioni": {
+    "en": "refuge, shelter",
+    "es": "refugio",
+    "pt": "refúgio, abrigo",
+    "fr": "refuge, abri",
+    "cs": "útočiště",
+    "pl": "schronienie",
+    "tr": "sığınak",
+    "de": "Zuflucht, Hütte",
+    "ja": "避難所、隠れ家"
+   }
+  },
+  {
+   "parola": "filtrare",
+   "forme": [
+    "filtrata"
+   ],
+   "formeEsempi": [
+    "filtrare",
+    "filtra"
+   ],
+   "esempi": [
+    "Bevo solo acqua filtrata.",
+    "Bisogna filtrare il tè.",
+    "La luce filtra dalle tende."
+   ],
+   "traduzioni": {
+    "en": "to filter («filtrata» = filtered)",
+    "es": "filtrar",
+    "pt": "filtrar",
+    "fr": "filtrer",
+    "cs": "filtrovat",
+    "pl": "filtrować",
+    "tr": "süzmek, filtrelemek",
+    "de": "filtern",
+    "ja": "ろ過する"
+   }
+  },
+  {
+   "parola": "estraneo",
+   "forme": [
+    "estranei"
+   ],
+   "formeEsempi": [
+    "estraneo"
+   ],
+   "esempi": [
+    "Non aprire la porta agli estranei.",
+    "Mi sento un estraneo in questa città.",
+    "C'è un corpo estraneo nell'occhio."
+   ],
+   "traduzioni": {
+    "en": "foreign, outside (also: stranger)",
+    "es": "extraño, ajeno",
+    "pt": "estranho, alheio",
+    "fr": "étranger, extérieur",
+    "cs": "cizí",
+    "pl": "obcy",
+    "tr": "yabancı",
+    "de": "fremd",
+    "ja": "外来の、見知らぬ"
+   }
+  },
+  {
+   "parola": "la banconota",
+   "forme": [
+    "banconota"
+   ],
+   "esempi": [
+    "Ho solo una banconota da venti euro.",
+    "La banconota è nuova.",
+    "Hai spiccioli? Ho solo banconote."
+   ],
+   "traduzioni": {
+    "en": "banknote",
+    "es": "billete",
+    "pt": "cédula, nota",
+    "fr": "billet de banque",
+    "cs": "bankovka",
+    "pl": "banknot",
+    "tr": "banknot",
+    "de": "Banknote, Geldschein",
+    "ja": "紙幣"
+   },
+   "formeEsempi": [
+    "banconote"
+   ]
+  },
+  {
+   "parola": "la fama",
+   "forme": [
+    "fama"
+   ],
+   "esempi": [
+    "La fama non è tutto.",
+    "Il ristorante ha una buona fama.",
+    "Ha raggiunto la fama da giovane."
+   ],
+   "traduzioni": {
+    "en": "fame",
+    "es": "fama",
+    "pt": "fama",
+    "fr": "célébrité, renommée",
+    "cs": "sláva",
+    "pl": "sława",
+    "tr": "şöhret",
+    "de": "Ruhm",
+    "ja": "名声"
+   }
+  },
+  {
+   "parola": "diffuso",
+   "forme": [
+    "diffuso"
+   ],
+   "formeEsempi": [
+    "diffusa"
+   ],
+   "esempi": [
+    "È un nome molto diffuso.",
+    "L'influenza è diffusa in inverno.",
+    "Il telefono è diffuso in tutto il mondo."
+   ],
+   "traduzioni": {
+    "en": "widespread, common",
+    "es": "difundido, extendido",
+    "pt": "difundido, comum",
+    "fr": "répandu",
+    "cs": "rozšířený",
+    "pl": "rozpowszechniony",
+    "tr": "yaygın",
+    "de": "verbreitet",
+    "ja": "広まった、普及した"
+   }
+  },
+  {
+   "parola": "il peccato",
+   "forme": [
+    "peccato"
+   ],
+   "esempi": [
+    "Che peccato, è chiuso!",
+    "Sarebbe un peccato non venire.",
+    "Peccato che piova."
+   ],
+   "traduzioni": {
+    "en": "pity, shame («che peccato!» = what a pity!)",
+    "es": "lástima, pena",
+    "pt": "pena («que pena!»)",
+    "fr": "dommage",
+    "cs": "škoda",
+    "pl": "szkoda",
+    "tr": "yazık",
+    "de": "schade",
+    "ja": "残念なこと"
+   }
+  },
+  {
+   "parola": "ricostruire",
+   "forme": [
+    "ricostruire"
+   ],
+   "formeEsempi": [
+    "ricostruito"
+   ],
+   "esempi": [
+    "Dopo il terremoto hanno ricostruito la città.",
+    "Vogliamo ricostruire il ponte.",
+    "È difficile ricostruire la fiducia."
+   ],
+   "traduzioni": {
+    "en": "to rebuild, to reconstruct",
+    "es": "reconstruir",
+    "pt": "reconstruir",
+    "fr": "reconstruire",
+    "cs": "znovu postavit, obnovit",
+    "pl": "odbudować",
+    "tr": "yeniden inşa etmek",
+    "de": "wiederaufbauen",
+    "ja": "再建する、作り直す"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "This is the axolotl. It lives in Mexico, in the canals of a lake near Mexico City. It is about twenty-five centimetres long. It looks like a fish, but it isn't a fish: it's an amphibian, like the frog.",
+    "The axolotl has a friendly face: its mouth always smiles. On its head it has six small feathery «branches»: they are its gills. With its gills it breathes underwater.",
+    "Usually frogs and salamanders change when they grow: they lose their gills and come out of the water. Not the axolotl. It never leaves the water and never loses its gills. It always stays like a child, all its life.",
+    "The axolotl usually eats at night: worms, insects and small fish. During the day it often rests on the bottom of the lake.",
+    "But the most incredible thing is something else. Sometimes an axolotl loses a leg. For us that's a big problem. Not for it: the leg grows back! In a few weeks there is a new leg, perfect, with bones and toes. The axolotl also regrows its tail and even pieces of its heart.",
+    "Today there are very few axolotls in their lake, and people rarely see them. But they live in lots of aquariums and laboratories all over the world.",
+    "And you? Do you always smile, like the axolotl?"
+   ],
+   "a2": [
+    "In 1864 a few live axolotls arrived in Paris from Mexico. Six stayed at the Natural History Museum, in the laboratory of the zoologist Auguste Duméril. Duméril put them in a tank and watched them carefully.",
+    "At the beginning of 1865 the axolotls laid eggs, and many babies were born from the eggs. Nothing strange so far. But at the end of the year Duméril saw something incredible: some young axolotls lost their gills, changed colour and shape and came out of the water.",
+    "Duméril couldn't believe his eyes. Those animals looked like another species: a land salamander. Scientists already knew that salamander, but for them it was a different animal, with another name. Instead it was the same animal: an axolotl that had become an adult!",
+    "What happened in Duméril's tank? Many years later scientists found the answer. The axolotl usually stays a «child» all its life, but inside it still has the instructions for growing up. In 1920 the English biologist Julian Huxley gave axolotls a hormone, the thyroid hormone, and in a few weeks the animals lost their gills and took the shape of a salamander.",
+    "But it isn't a good idea: a transformed axolotl often gets sick and lives less. That's why anyone who has an axolotl at home must never try to «make it grow up». It's fine as it is: small, in the water, with its smile."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Este es el ajolote. Vive en México, en los canales de un lago cerca de Ciudad de México. Mide unos veinticinco centímetros. Parece un pez, pero no es un pez: es un anfibio, como la rana.",
+    "El ajolote tiene una cara simpática: su boca siempre sonríe. En la cabeza tiene seis pequeñas «ramas» con plumas: son las branquias. Con las branquias respira bajo el agua.",
+    "Normalmente las ranas y las salamandras cambian cuando crecen: pierden las branquias y salen del agua. El ajolote no. Nunca sale del agua y nunca pierde las branquias. Se queda siempre como un niño, toda la vida.",
+    "El ajolote normalmente come de noche: gusanos, insectos y peces pequeños. De día a menudo descansa en el fondo del lago.",
+    "Pero lo más increíble es otra cosa. A veces un ajolote pierde una pata. Para nosotros es un gran problema. Para él no: ¡la pata vuelve a crecer! En pocas semanas hay una pata nueva, perfecta, con huesos y dedos. El ajolote también rehace la cola e incluso trozos del corazón.",
+    "Hoy en su lago quedan muy pocos ajolotes, y casi nadie los ve. Pero viven en muchos acuarios y laboratorios de todo el mundo.",
+    "¿Y tú? ¿Sonríes siempre, como el ajolote?"
+   ],
+   "a2": [
+    "En 1864 llegaron a París, desde México, algunos ajolotes vivos. Seis se quedaron en el Museo de Historia Natural, en el laboratorio del zoólogo Auguste Duméril. Duméril los puso en un tanque y los observó con atención.",
+    "A principios de 1865 los ajolotes pusieron huevos, y de los huevos nacieron muchas crías. Hasta aquí, nada raro. Pero a finales de año Duméril vio algo increíble: algunos ajolotes jóvenes perdieron las branquias, cambiaron de color y de forma y salieron del agua.",
+    "Duméril no podía creer lo que veía. Esos animales parecían otra especie: una salamandra de tierra. Los científicos ya conocían esa salamandra, pero para ellos era un animal diferente, con otro nombre. ¡En cambio era el mismo animal: un ajolote que se había hecho adulto!",
+    "¿Qué pasó en el tanque de Duméril? Muchos años después los científicos descubrieron la respuesta. El ajolote normalmente se queda «niño» toda la vida, pero dentro de sí todavía tiene las instrucciones para crecer. En 1920 el biólogo inglés Julian Huxley dio a los ajolotes una hormona, la de la tiroides, y en pocas semanas los animales perdieron las branquias y tomaron la forma de una salamandra.",
+    "Pero no es buena idea: un ajolote transformado a menudo enferma y vive menos. Por eso quien tiene un ajolote en casa no debe intentar nunca «hacerlo crecer». Él está bien así: pequeño, en el agua, con su sonrisa."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Este é o axolote. Ele vive no México, nos canais de um lago perto da Cidade do México. Tem cerca de vinte e cinco centímetros. Parece um peixe, mas não é um peixe: é um anfíbio, como a rã.",
+    "O axolote tem uma cara simpática: a boca dele está sempre sorrindo. Na cabeça ele tem seis pequenos «galhos» com penugem: são as brânquias. Com as brânquias ele respira debaixo d'água.",
+    "Normalmente as rãs e as salamandras mudam quando crescem: perdem as brânquias e saem da água. O axolote não. Ele nunca sai da água e nunca perde as brânquias. Fica sempre como uma criança, a vida toda.",
+    "O axolote normalmente come à noite: minhocas, insetos e peixinhos. De dia muitas vezes descansa no fundo do lago.",
+    "Mas a coisa mais incrível é outra. Às vezes um axolote perde uma pata. Para nós é um grande problema. Para ele não: a pata cresce de novo! Em poucas semanas há uma pata nova, perfeita, com ossos e dedos. O axolote refaz também o rabo e até pedaços do coração.",
+    "Hoje no seu lago há pouquíssimos axolotes, e raramente alguém os vê. Mas eles vivem em muitos aquários e laboratórios do mundo todo.",
+    "E você? Sorri sempre, como o axolote?"
+   ],
+   "a2": [
+    "Em 1864 chegaram a Paris, vindos do México, alguns axolotes vivos. Seis ficaram no Museu de História Natural, no laboratório do zoólogo Auguste Duméril. Duméril os colocou num tanque e os observou com atenção.",
+    "No começo de 1865 os axolotes botaram ovos, e dos ovos nasceram muitos filhotes. Até aqui, nada de estranho. Mas no fim do ano Duméril viu uma coisa incrível: alguns axolotes jovens perderam as brânquias, mudaram de cor e de forma e saíram da água.",
+    "Duméril não acreditou nos próprios olhos. Aqueles animais pareciam outra espécie: uma salamandra terrestre. Os cientistas já conheciam essa salamandra, mas para eles era um animal diferente, com outro nome. Mas era o mesmo animal: um axolote que tinha virado adulto!",
+    "O que aconteceu no tanque de Duméril? Muitos anos depois os cientistas descobriram a resposta. O axolote normalmente continua «criança» a vida toda, mas dentro de si ainda tem as instruções para crescer. Em 1920 o biólogo inglês Julian Huxley deu aos axolotes um hormônio, o da tireoide, e em poucas semanas os animais perderam as brânquias e tomaram a forma de uma salamandra.",
+    "Mas não é uma boa ideia: um axolote transformado muitas vezes adoece e vive menos. Por isso quem tem um axolote em casa nunca deve tentar «fazê-lo crescer». Ele está bem assim: pequeno, na água, com o seu sorriso."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Voici l'axolotl. Il vit au Mexique, dans les canaux d'un lac près de Mexico. Il mesure environ vingt-cinq centimètres. Il ressemble à un poisson, mais ce n'est pas un poisson : c'est un amphibien, comme la grenouille.",
+    "L'axolotl a une tête sympathique : sa bouche sourit toujours. Sur la tête, il a six petites « branches » plumeuses : ce sont ses branchies. Avec ses branchies, il respire sous l'eau.",
+    "D'habitude, les grenouilles et les salamandres changent quand elles grandissent : elles perdent leurs branchies et sortent de l'eau. Pas l'axolotl. Il ne sort jamais de l'eau et ne perd jamais ses branchies. Il reste toujours comme un enfant, toute sa vie.",
+    "L'axolotl mange d'habitude la nuit : des vers, des insectes et des petits poissons. Le jour, il se repose souvent au fond du lac.",
+    "Mais le plus incroyable, c'est autre chose. Parfois, un axolotl perd une patte. Pour nous, c'est un gros problème. Pour lui, non : la patte repousse ! En quelques semaines, il y a une nouvelle patte, parfaite, avec les os et les doigts. L'axolotl refait aussi sa queue et même des morceaux de son cœur.",
+    "Aujourd'hui, dans son lac, les axolotls sont très peu nombreux, et on les voit rarement. Mais ils vivent dans beaucoup d'aquariums et de laboratoires du monde entier.",
+    "Et toi ? Tu souris toujours, comme l'axolotl ?"
+   ],
+   "a2": [
+    "En 1864, quelques axolotls vivants sont arrivés du Mexique à Paris. Six sont restés au Muséum d'histoire naturelle, dans le laboratoire du zoologiste Auguste Duméril. Duméril les a mis dans un bac et les a observés attentivement.",
+    "Au début de 1865, les axolotls ont pondu des œufs, et de ces œufs sont nés beaucoup de petits. Jusque-là, rien d'étrange. Mais à la fin de l'année, Duméril a vu une chose incroyable : quelques jeunes axolotls ont perdu leurs branchies, ont changé de couleur et de forme et sont sortis de l'eau.",
+    "Duméril n'en a pas cru ses yeux. Ces animaux ressemblaient à une autre espèce : une salamandre terrestre. Les scientifiques connaissaient déjà cette salamandre, mais pour eux c'était un animal différent, avec un autre nom. Et pourtant, c'était le même animal : un axolotl devenu adulte !",
+    "Que s'est-il passé dans le bac de Duméril ? Bien des années plus tard, les scientifiques ont trouvé la réponse. L'axolotl reste d'habitude « enfant » toute sa vie, mais il a encore en lui les instructions pour grandir. En 1920, le biologiste anglais Julian Huxley a donné aux axolotls une hormone, celle de la thyroïde, et en quelques semaines les animaux ont perdu leurs branchies et ont pris la forme d'une salamandre.",
+    "Mais ce n'est pas une bonne idée : un axolotl transformé tombe souvent malade et vit moins longtemps. C'est pourquoi celui qui a un axolotl chez lui ne doit jamais essayer de « le faire grandir ». Il est bien comme ça : petit, dans l'eau, avec son sourire."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Tohle je axolotl. Žije v Mexiku, v kanálech jednoho jezera blízko Mexico City. Je dlouhý asi dvacet pět centimetrů. Vypadá jako ryba, ale není to ryba: je to obojživelník, jako žába.",
+    "Axolotl má sympatický obličej: jeho ústa se pořád usmívají. Na hlavě má šest malých „větviček“ jako peříčka: to jsou žábry. Žábrami dýchá pod vodou.",
+    "Žáby a mloci se obvykle mění, když rostou: ztratí žábry a vylezou z vody. Axolotl ne. Nikdy nevyleze z vody a nikdy neztratí žábry. Zůstává pořád jako dítě, celý život.",
+    "Axolotl obvykle jí v noci: červy, hmyz a malé rybky. Ve dne často odpočívá na dně jezera.",
+    "Ale nejneuvěřitelnější je něco jiného. Někdy axolotl přijde o nohu. Pro nás je to velký problém. Pro něj ne: noha doroste! Za pár týdnů má novou nohu, dokonalou, s kostmi i prsty. Axolotl si dokáže obnovit i ocas, a dokonce i kousky srdce.",
+    "Dnes je v jeho jezeře axolotlů velmi málo a málokdo je uvidí. Ale žijí v mnoha akváriích a laboratořích po celém světě.",
+    "A ty? Usmíváš se pořád, jako axolotl?"
+   ],
+   "a2": [
+    "V roce 1864 přijelo z Mexika do Paříže několik živých axolotlů. Šest jich zůstalo v Přírodovědném muzeu, v laboratoři zoologa Auguste Duméril. Duméril je dal do nádrže a pozorně je sledoval.",
+    "Na začátku roku 1865 axolotlové nakladli vajíčka a z nich se vylíhlo mnoho mláďat. Zatím nic zvláštního. Ale na konci roku Duméril uviděl něco neuvěřitelného: několik mladých axolotlů ztratilo žábry, změnilo barvu i tvar a vylezlo z vody.",
+    "Duméril nevěřil vlastním očím. Ta zvířata vypadala jako jiný druh: suchozemský mlok. Vědci toho mloka už znali, ale pro ně to bylo jiné zvíře s jiným jménem. Ve skutečnosti to bylo totéž zvíře: axolotl, který dospěl!",
+    "Co se stalo v Dumérilově nádrži? O mnoho let později vědci našli odpověď. Axolotl obvykle zůstává celý život „dítětem“, ale uvnitř má pořád instrukce, jak dospět. V roce 1920 dal anglický biolog Julian Huxley axolotlům hormon štítné žlázy a za pár týdnů zvířata ztratila žábry a získala podobu mloka.",
+    "Ale není to dobrý nápad: proměněný axolotl často onemocní a žije kratší dobu. Proto kdo má axolotla doma, nikdy by se neměl snažit „nechat ho dospět“. Je mu dobře takhle: malý, ve vodě, se svým úsměvem."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "To jest aksolotl. Żyje w Meksyku, w kanałach jeziora niedaleko miasta Meksyk. Ma około dwudziestu pięciu centymetrów długości. Wygląda jak ryba, ale to nie ryba: to płaz, jak żaba.",
+    "Aksolotl ma sympatyczną twarz: jego pyszczek zawsze się uśmiecha. Na głowie ma sześć małych pierzastych „gałązek”: to skrzela. Dzięki skrzelom oddycha pod wodą.",
+    "Zwykle żaby i salamandry zmieniają się, kiedy rosną: tracą skrzela i wychodzą z wody. Aksolotl nie. Nigdy nie wychodzi z wody i nigdy nie traci skrzeli. Zostaje zawsze jak dziecko, przez całe życie.",
+    "Aksolotl zwykle je w nocy: robaki, owady i małe rybki. W dzień często odpoczywa na dnie jeziora.",
+    "Ale najbardziej niesamowite jest coś innego. Czasem aksolotl traci nogę. Dla nas to duży problem. Dla niego nie: noga odrasta! W kilka tygodni jest nowa noga, idealna, z kośćmi i palcami. Aksolotl odbudowuje też ogon, a nawet kawałki serca.",
+    "Dziś w jego jeziorze aksolotli jest bardzo mało i rzadko ktoś je widzi. Ale żyją w wielu akwariach i laboratoriach na całym świecie.",
+    "A ty? Zawsze się uśmiechasz, jak aksolotl?"
+   ],
+   "a2": [
+    "W 1864 roku do Paryża przypłynęło z Meksyku kilka żywych aksolotli. Sześć zostało w Muzeum Historii Naturalnej, w laboratorium zoologa Auguste'a Duméril. Duméril włożył je do zbiornika i uważnie je obserwował.",
+    "Na początku 1865 roku aksolotle złożyły jaja i z jaj wykluło się dużo młodych. Na razie nic dziwnego. Ale pod koniec roku Duméril zobaczył coś niesamowitego: kilka młodych aksolotli straciło skrzela, zmieniło kolor i kształt i wyszło z wody.",
+    "Duméril nie wierzył własnym oczom. Te zwierzęta wyglądały jak inny gatunek: salamandra lądowa. Naukowcy znali już tę salamandrę, ale dla nich było to inne zwierzę, z inną nazwą. A to było to samo zwierzę: aksolotl, który stał się dorosły!",
+    "Co się stało w zbiorniku Duméril? Wiele lat później naukowcy znaleźli odpowiedź. Aksolotl zwykle przez całe życie zostaje „dzieckiem”, ale w środku wciąż ma instrukcje, jak dorosnąć. W 1920 roku angielski biolog Julian Huxley podał aksolotlom hormon tarczycy i w kilka tygodni zwierzęta straciły skrzela i przybrały kształt salamandry.",
+    "Ale to nie jest dobry pomysł: przemieniony aksolotl często choruje i żyje krócej. Dlatego kto ma aksolotla w domu, nigdy nie powinien próbować „zmusić go do dorośnięcia”. Jest mu dobrze tak, jak jest: mały, w wodzie, ze swoim uśmiechem."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Bu, aksolotl. Meksika'da, Mexico City yakınındaki bir gölün kanallarında yaşar. Yaklaşık yirmi beş santimetre uzunluğundadır. Balığa benzer ama balık değildir: kurbağa gibi bir amfibidir.",
+    "Aksolotlun sevimli bir yüzü vardır: ağzı hep gülümser. Başında tüy gibi altı küçük «dal» vardır: bunlar solungaçlarıdır. Solungaçlarıyla su altında nefes alır.",
+    "Kurbağalar ve semenderler genellikle büyüdükçe değişir: solungaçlarını kaybeder ve sudan çıkarlar. Aksolotl öyle değil. Sudan hiç çıkmaz ve solungaçlarını hiç kaybetmez. Hayatı boyunca hep bir çocuk gibi kalır.",
+    "Aksolotl genellikle geceleri yemek yer: solucanlar, böcekler ve küçük balıklar. Gündüzleri çoğu zaman gölün dibinde dinlenir.",
+    "Ama en inanılmaz şey başka. Bazen bir aksolotl bacağını kaybeder. Bizim için bu büyük bir sorundur. Onun için değil: bacak yeniden çıkar! Birkaç hafta içinde kemikleri ve parmaklarıyla kusursuz, yeni bir bacak olur. Aksolotl kuyruğunu ve hatta kalbinin parçalarını da yeniler.",
+    "Bugün kendi gölünde çok az aksolotl var ve onları nadiren biri görür. Ama dünyanın her yerinde pek çok akvaryumda ve laboratuvarda yaşarlar.",
+    "Ya sen? Aksolotl gibi hep gülümser misin?"
+   ],
+   "a2": [
+    "1864'te Meksika'dan Paris'e birkaç canlı aksolotl geldi. Altısı Doğa Tarihi Müzesi'nde, zoolog Auguste Duméril'in laboratuvarında kaldı. Duméril onları bir havuza koydu ve dikkatle gözlemledi.",
+    "1865'in başında aksolotllar yumurtladı ve yumurtalardan pek çok yavru çıktı. Buraya kadar garip bir şey yok. Ama yılın sonunda Duméril inanılmaz bir şey gördü: bazı genç aksolotllar solungaçlarını kaybetti, renk ve biçim değiştirdi ve sudan çıktı.",
+    "Duméril gözlerine inanamadı. Bu hayvanlar başka bir türe benziyordu: bir kara semenderine. Bilim insanları bu semenderi zaten tanıyordu, ama onlara göre bu başka bir hayvandı, başka bir adı vardı. Oysa aynı hayvandı: yetişkin olmuş bir aksolotl!",
+    "Duméril'in havuzunda ne oldu? Uzun yıllar sonra bilim insanları cevabı buldu. Aksolotl genellikle hayatı boyunca «çocuk» kalır, ama içinde büyümek için gereken talimatlar hâlâ vardır. 1920'de İngiliz biyolog Julian Huxley aksolotllara tiroid hormonu verdi ve birkaç hafta içinde hayvanlar solungaçlarını kaybedip bir semender biçimini aldı.",
+    "Ama bu iyi bir fikir değil: dönüşmüş bir aksolotl sık sık hastalanır ve daha kısa yaşar. Bu yüzden evinde aksolotl olan biri onu asla «büyütmeye» çalışmamalı. O böyle iyi: küçük, suyun içinde, gülümsemesiyle."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Das ist der Axolotl. Er lebt in Mexiko, in den Kanälen eines Sees bei Mexiko-Stadt. Er ist etwa fünfundzwanzig Zentimeter lang. Er sieht aus wie ein Fisch, aber er ist kein Fisch: Er ist eine Amphibie, wie der Frosch.",
+    "Der Axolotl hat ein freundliches Gesicht: Sein Mund lächelt immer. Auf dem Kopf hat er sechs kleine, fedrige „Äste“: Das sind die Kiemen. Mit den Kiemen atmet er unter Wasser.",
+    "Normalerweise verändern sich Frösche und Salamander, wenn sie wachsen: Sie verlieren die Kiemen und kommen aus dem Wasser. Der Axolotl nicht. Er kommt nie aus dem Wasser und verliert nie die Kiemen. Er bleibt immer wie ein Kind, sein ganzes Leben lang.",
+    "Der Axolotl frisst normalerweise nachts: Würmer, Insekten und kleine Fische. Am Tag ruht er oft auf dem Grund des Sees.",
+    "Aber das Unglaublichste ist etwas anderes. Manchmal verliert ein Axolotl ein Bein. Für uns ist das ein großes Problem. Für ihn nicht: Das Bein wächst nach! In wenigen Wochen ist ein neues Bein da, perfekt, mit Knochen und Zehen. Der Axolotl erneuert auch den Schwanz und sogar Teile des Herzens.",
+    "Heute gibt es in seinem See nur noch sehr wenige Axolotl, und man sieht sie selten. Aber sie leben in vielen Aquarien und Laboren auf der ganzen Welt.",
+    "Und du? Lächelst du immer, wie der Axolotl?"
+   ],
+   "a2": [
+    "1864 kamen aus Mexiko einige lebende Axolotl nach Paris. Sechs blieben im Naturkundemuseum, im Labor des Zoologen Auguste Duméril. Duméril setzte sie in ein Becken und beobachtete sie genau.",
+    "Anfang 1865 legten die Axolotl Eier, und aus den Eiern schlüpften viele Junge. Bis hierher nichts Seltsames. Aber am Ende des Jahres sah Duméril etwas Unglaubliches: Einige junge Axolotl verloren ihre Kiemen, änderten Farbe und Form und kamen aus dem Wasser.",
+    "Duméril traute seinen Augen nicht. Diese Tiere sahen aus wie eine andere Art: ein Landsalamander. Die Wissenschaftler kannten diesen Salamander schon, aber für sie war er ein anderes Tier, mit einem anderen Namen. Dabei war es dasselbe Tier: ein erwachsen gewordener Axolotl!",
+    "Was war in Dumérils Becken passiert? Viele Jahre später fanden die Wissenschaftler die Antwort. Der Axolotl bleibt normalerweise sein ganzes Leben lang ein „Kind“, aber in sich trägt er noch die Anleitung zum Erwachsenwerden. 1920 gab der englische Biologe Julian Huxley Axolotln ein Hormon, das Schilddrüsenhormon, und in wenigen Wochen verloren die Tiere ihre Kiemen und nahmen die Gestalt eines Salamanders an.",
+    "Aber das ist keine gute Idee: Ein verwandelter Axolotl wird oft krank und lebt kürzer. Deshalb darf, wer einen Axolotl zu Hause hat, nie versuchen, „ihn erwachsen werden zu lassen“. Ihm geht es gut so: klein, im Wasser, mit seinem Lächeln."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "これはアホロートルです。メキシコの、メキシコシティの近くにある湖の水路に住んでいます。長さは約25センチです。魚のように見えますが、魚ではありません。カエルと同じ両生類です。",
+    "アホロートルはかわいい顔をしています。口はいつも笑っています。頭には羽のような小さな「枝」が6本あります。これはえらです。えらで水の中で呼吸します。",
+    "ふつう、カエルやサンショウウオは大きくなると変わります。えらがなくなって、水から出ます。でもアホロートルはちがいます。水から一度も出ないし、えらも一度もなくなりません。一生、ずっと子どものままです。",
+    "アホロートルはふつう夜に食べます。虫や昆虫、小さな魚です。昼はよく湖の底で休んでいます。",
+    "でも、いちばんすごいことは別にあります。アホロートルはときどき足をなくします。わたしたちにとっては大問題です。でもアホロートルにとってはちがいます。足がまた生えてくるのです！数週間で、骨も指もある、完ぺきな新しい足ができます。アホロートルはしっぽも、心臓の一部さえも作り直します。",
+    "今、ふるさとの湖にはアホロートルがとても少なく、見かける人もめったにいません。でも世界中のたくさんの水槽や研究室で暮らしています。",
+    "あなたは？アホロートルのように、いつも笑っていますか？"
+   ],
+   "a2": [
+    "1864年、メキシコからパリに、生きたアホロートルが何匹か届きました。そのうち6匹は自然史博物館の、動物学者オーギュスト・デュメリルの研究室に残りました。デュメリルはそれを水槽に入れて、注意深く観察しました。",
+    "1865年のはじめ、アホロートルは卵を産み、卵からたくさんの子どもが生まれました。ここまでは何も変なことはありません。でも、その年の終わりに、デュメリルは信じられないものを見ました。何匹かの若いアホロートルがえらをなくし、色と形を変えて、水から出てきたのです。",
+    "デュメリルは自分の目が信じられませんでした。その動物たちは別の種のように見えました。陸にすむサンショウウオです。科学者たちはそのサンショウウオをもう知っていましたが、彼らにとっては別の名前の、別の動物でした。ところが、それは同じ動物だったのです。大人になったアホロートルでした！",
+    "デュメリルの水槽で何が起きたのでしょう？何年もあとに、科学者たちは答えを見つけました。アホロートルはふつう一生「子ども」のままですが、体の中には大人になるための指示がまだ残っています。1920年、イギリスの生物学者ジュリアン・ハクスリーはアホロートルに甲状腺のホルモンを与えました。すると数週間で、動物たちはえらをなくし、サンショウウオの形になりました。",
+    "でも、それはいい考えではありません。変身したアホロートルはよく病気になり、寿命も短くなります。だから、家でアホロートルを飼っている人は、決して「大人にしよう」としてはいけません。アホロートルは今のままで幸せです。小さくて、水の中で、笑顔のままで。"
+   ]
+  }
+ }
+}
