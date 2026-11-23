@@ -1,0 +1,1591 @@
+{
+ "id": "il-mistero-dell-anguilla",
+ "nota": "Glossario e traduzione della lettura (A2 tradotto; C1 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "l'anguilla",
+   "forme": [
+    "anguille",
+    "anguilla"
+   ],
+   "esempi": [
+    "L'anguilla sembra un serpente.",
+    "A Comacchio si pescano le anguille.",
+    "L'anguilla vive nei fiumi e nel mare."
+   ],
+   "traduzioni": {
+    "en": "eel",
+    "es": "anguila",
+    "pt": "enguia",
+    "fr": "anguille",
+    "cs": "úhoř",
+    "pl": "węgorz",
+    "tr": "yılan balığı",
+    "de": "Aal",
+    "ja": "ウナギ"
+   }
+  },
+  {
+   "parola": "il fiume",
+   "forme": [
+    "fiumi"
+   ],
+   "formeEsempi": [
+    "fiume"
+   ],
+   "esempi": [
+    "Il Po è il fiume più lungo d'Italia.",
+    "Facciamo una passeggiata lungo il fiume.",
+    "I fiumi portano l'acqua al mare."
+   ],
+   "traduzioni": {
+    "en": "river",
+    "es": "río",
+    "pt": "rio",
+    "fr": "fleuve, rivière",
+    "cs": "řeka",
+    "pl": "rzeka",
+    "tr": "nehir",
+    "de": "Fluss",
+    "ja": "川"
+   }
+  },
+  {
+   "parola": "il lago",
+   "forme": [
+    "laghi"
+   ],
+   "formeEsempi": [
+    "lago"
+   ],
+   "esempi": [
+    "Il lago di Garda è grande.",
+    "Nel Nord ci sono molti laghi.",
+    "D'estate nuotiamo nel lago."
+   ],
+   "traduzioni": {
+    "en": "lake",
+    "es": "lago",
+    "pt": "lago",
+    "fr": "lac",
+    "cs": "jezero",
+    "pl": "jezioro",
+    "tr": "göl",
+    "de": "See",
+    "ja": "湖"
+   }
+  },
+  {
+   "parola": "la laguna",
+   "forme": [
+    "lagune"
+   ],
+   "formeEsempi": [
+    "laguna"
+   ],
+   "esempi": [
+    "Venezia è nella laguna.",
+    "Nelle lagune vivono molti uccelli.",
+    "La laguna è poco profonda."
+   ],
+   "traduzioni": {
+    "en": "lagoon",
+    "es": "laguna",
+    "pt": "laguna",
+    "fr": "lagune",
+    "cs": "laguna",
+    "pl": "laguna",
+    "tr": "lagün",
+    "de": "Lagune",
+    "ja": "潟、ラグーン"
+   }
+  },
+  {
+   "parola": "il pescatore",
+   "forme": [
+    "pescatori"
+   ],
+   "formeEsempi": [
+    "pescatore"
+   ],
+   "esempi": [
+    "Il pescatore esce in barca all'alba.",
+    "I pescatori vendono il pesce al porto.",
+    "Mio nonno era pescatore."
+   ],
+   "traduzioni": {
+    "en": "fisherman",
+    "es": "pescador",
+    "pt": "pescador",
+    "fr": "pêcheur",
+    "cs": "rybář",
+    "pl": "rybak",
+    "tr": "balıkçı",
+    "de": "Fischer",
+    "ja": "漁師"
+   }
+  },
+  {
+   "parola": "scivolare",
+   "forme": [
+    "scivolare"
+   ],
+   "formeEsempi": [
+    "scivola",
+    "scivolato"
+   ],
+   "esempi": [
+    "Attenzione, il pavimento fa scivolare!",
+    "La barca scivola sull'acqua.",
+    "Sono scivolato sul ghiaccio."
+   ],
+   "traduzioni": {
+    "en": "to slide, to slip",
+    "es": "deslizarse, resbalar",
+    "pt": "deslizar, escorregar",
+    "fr": "glisser",
+    "cs": "klouzat",
+    "pl": "ślizgać się",
+    "tr": "kaymak, süzülmek",
+    "de": "gleiten, rutschen",
+    "ja": "滑る"
+   }
+  },
+  {
+   "parola": "il serpente",
+   "forme": [
+    "serpenti"
+   ],
+   "formeEsempi": [
+    "serpente"
+   ],
+   "esempi": [
+    "Ho paura dei serpenti.",
+    "Il serpente dorme al sole.",
+    "Nel bosco ho visto un serpente."
+   ],
+   "traduzioni": {
+    "en": "snake",
+    "es": "serpiente",
+    "pt": "serpente, cobra",
+    "fr": "serpent",
+    "cs": "had",
+    "pl": "wąż",
+    "tr": "yılan",
+    "de": "Schlange",
+    "ja": "ヘビ"
+   }
+  },
+  {
+   "parola": "il mistero",
+   "forme": [
+    "mistero"
+   ],
+   "esempi": [
+    "La sua partenza è un mistero.",
+    "È un mistero che nessuno ha risolto.",
+    "Mi piacciono i libri di mistero."
+   ],
+   "traduzioni": {
+    "en": "mystery",
+    "es": "misterio",
+    "pt": "mistério",
+    "fr": "mystère",
+    "cs": "záhada",
+    "pl": "tajemnica",
+    "tr": "gizem",
+    "de": "Rätsel, Geheimnis",
+    "ja": "謎"
+   }
+  },
+  {
+   "parola": "nascere",
+   "forme": [
+    "nasceva",
+    "nascevano"
+   ],
+   "formeEsempi": [
+    "nasce",
+    "nato",
+    "nascessero"
+   ],
+   "esempi": [
+    "Dove sei nato?",
+    "Il bambino nasce a maggio.",
+    "Una volta si pensava che le anguille nascessero dal fango."
+   ],
+   "traduzioni": {
+    "en": "to be born («nasceva» = was born, came into being)",
+    "es": "nacer",
+    "pt": "nascer",
+    "fr": "naître",
+    "cs": "narodit se",
+    "pl": "urodzić się",
+    "tr": "doğmak",
+    "de": "geboren werden, entstehen",
+    "ja": "生まれる"
+   }
+  },
+  {
+   "parola": "l'uovo",
+   "forme": [
+    "uova"
+   ],
+   "formeEsempi": [
+    "uovo"
+   ],
+   "esempi": [
+    "La gallina fa le uova.",
+    "Compro sei uova.",
+    "L'uccello cova le uova."
+   ],
+   "traduzioni": {
+    "en": "egg (plural «le uova»)",
+    "es": "huevo",
+    "pt": "ovo",
+    "fr": "œuf",
+    "cs": "vejce",
+    "pl": "jajo",
+    "tr": "yumurta",
+    "de": "Ei",
+    "ja": "卵"
+   }
+  },
+  {
+   "parola": "appena nato",
+   "forme": [
+    "appena"
+   ],
+   "esempi": [
+    "Il gattino è appena nato.",
+    "Sono appena arrivato.",
+    "Il pane è appena uscito dal forno."
+   ],
+   "traduzioni": {
+    "en": "just born, newborn («appena» = just)",
+    "es": "recién nacido («appena» = acabar de)",
+    "pt": "recém-nascido («appena» = acabar de)",
+    "fr": "qui vient de naître («appena» = à peine, juste)",
+    "cs": "právě narozený («appena» = právě)",
+    "pl": "dopiero co urodzony («appena» = dopiero co)",
+    "tr": "yeni doğmuş («appena» = henüz)",
+    "de": "gerade geboren («appena» = gerade erst)",
+    "ja": "生まれたばかりの（appena＝〜したばかり）"
+   }
+  },
+  {
+   "parola": "il filosofo",
+   "forme": [
+    "filosofo"
+   ],
+   "esempi": [
+    "Platone era un filosofo greco.",
+    "Il filosofo si fa molte domande.",
+    "Mio figlio vuole fare il filosofo."
+   ],
+   "traduzioni": {
+    "en": "philosopher",
+    "es": "filósofo",
+    "pt": "filósofo",
+    "fr": "philosophe",
+    "cs": "filozof",
+    "pl": "filozof",
+    "tr": "filozof",
+    "de": "Philosoph",
+    "ja": "哲学者"
+   }
+  },
+  {
+   "parola": "il fango",
+   "forme": [
+    "fango"
+   ],
+   "esempi": [
+    "Dopo la pioggia c'è tanto fango.",
+    "Ho le scarpe piene di fango.",
+    "I maiali amano il fango."
+   ],
+   "traduzioni": {
+    "en": "mud",
+    "es": "barro, fango",
+    "pt": "lama",
+    "fr": "boue",
+    "cs": "bláto",
+    "pl": "błoto",
+    "tr": "çamur",
+    "de": "Schlamm",
+    "ja": "泥"
+   }
+  },
+  {
+   "parola": "la rugiada",
+   "forme": [
+    "rugiada"
+   ],
+   "esempi": [
+    "La mattina l'erba è bagnata di rugiada.",
+    "La rugiada brilla al sole.",
+    "Le gocce di rugiada sono fresche."
+   ],
+   "traduzioni": {
+    "en": "dew",
+    "es": "rocío",
+    "pt": "orvalho",
+    "fr": "rosée",
+    "cs": "rosa",
+    "pl": "rosa",
+    "tr": "çiy",
+    "de": "Tau",
+    "ja": "露"
+   }
+  },
+  {
+   "parola": "il cavallo",
+   "forme": [
+    "cavallo"
+   ],
+   "esempi": [
+    "Il cavallo corre nel prato.",
+    "Mi piace andare a cavallo.",
+    "Il cavallo mangia il fieno."
+   ],
+   "traduzioni": {
+    "en": "horse",
+    "es": "caballo",
+    "pt": "cavalo",
+    "fr": "cheval",
+    "cs": "kůň",
+    "pl": "koń",
+    "tr": "at",
+    "de": "Pferd",
+    "ja": "馬"
+   }
+  },
+  {
+   "parola": "cadere",
+   "forme": [
+    "caduto",
+    "caduti"
+   ],
+   "formeEsempi": [
+    "cade",
+    "cadi",
+    "cadono"
+   ],
+   "esempi": [
+    "Il bicchiere è caduto per terra.",
+    "Attento, se no cadi!",
+    "D'autunno cadono le foglie."
+   ],
+   "traduzioni": {
+    "en": "to fall («caduto» = fallen)",
+    "es": "caer",
+    "pt": "cair",
+    "fr": "tomber",
+    "cs": "spadnout",
+    "pl": "spaść",
+    "tr": "düşmek",
+    "de": "fallen",
+    "ja": "落ちる"
+   }
+  },
+  {
+   "parola": "il laboratorio",
+   "forme": [
+    "laboratorio"
+   ],
+   "esempi": [
+    "Lavoro in un laboratorio di chimica.",
+    "Il laboratorio è al secondo piano.",
+    "Facciamo l'esperimento in laboratorio."
+   ],
+   "traduzioni": {
+    "en": "laboratory, lab",
+    "es": "laboratorio",
+    "pt": "laboratório",
+    "fr": "laboratoire",
+    "cs": "laboratoř",
+    "pl": "laboratorium",
+    "tr": "laboratuvar",
+    "de": "Labor",
+    "ja": "研究室、実験室"
+   }
+  },
+  {
+   "parola": "l'organo",
+   "forme": [
+    "organi"
+   ],
+   "formeEsempi": [
+    "organo"
+   ],
+   "esempi": [
+    "Il cuore è un organo vitale.",
+    "Gli organi del corpo lavorano insieme.",
+    "In chiesa suonano l'organo."
+   ],
+   "traduzioni": {
+    "en": "organ",
+    "es": "órgano",
+    "pt": "órgão",
+    "fr": "organe",
+    "cs": "orgán",
+    "pl": "narząd",
+    "tr": "organ",
+    "de": "Organ",
+    "ja": "器官"
+   }
+  },
+  {
+   "parola": "maschile",
+   "forme": [
+    "maschili"
+   ],
+   "formeEsempi": [
+    "maschile"
+   ],
+   "esempi": [
+    "«Libro» è una parola maschile.",
+    "È una squadra maschile.",
+    "Gli organi maschili sono difficili da trovare."
+   ],
+   "traduzioni": {
+    "en": "male, masculine",
+    "es": "masculino",
+    "pt": "masculino",
+    "fr": "masculin, mâle",
+    "cs": "mužský, samčí",
+    "pl": "męski",
+    "tr": "erkek, eril",
+    "de": "männlich",
+    "ja": "雄の、男性の"
+   }
+  },
+  {
+   "parola": "cambiare strada",
+   "forme": [
+    "strada"
+   ],
+   "esempi": [
+    "Dopo l'università ha cambiato strada.",
+    "C'è traffico: cambiamo strada.",
+    "Ognuno ha la sua strada."
+   ],
+   "traduzioni": {
+    "en": "to change direction (in life), to take another road",
+    "es": "cambiar de camino",
+    "pt": "mudar de rumo",
+    "fr": "changer de voie",
+    "cs": "změnit směr",
+    "pl": "zmienić drogę",
+    "tr": "yol değiştirmek",
+    "de": "einen anderen Weg einschlagen",
+    "ja": "進路を変える"
+   }
+  },
+  {
+   "parola": "la mente",
+   "forme": [
+    "mente"
+   ],
+   "esempi": [
+    "Ho in mente un'idea.",
+    "La mente umana è complessa.",
+    "Leggere allena la mente."
+   ],
+   "traduzioni": {
+    "en": "mind",
+    "es": "mente",
+    "pt": "mente",
+    "fr": "esprit",
+    "cs": "mysl",
+    "pl": "umysł",
+    "tr": "zihin",
+    "de": "Geist, Verstand",
+    "ja": "心、精神"
+   }
+  },
+  {
+   "parola": "lo stretto",
+   "forme": [
+    "stretto"
+   ],
+   "esempi": [
+    "Lo Stretto di Messina separa la Sicilia dalla Calabria.",
+    "Attraversiamo lo stretto in traghetto.",
+    "Lo stretto ha correnti forti."
+   ],
+   "traduzioni": {
+    "en": "strait («Stretto di Messina» = Strait of Messina)",
+    "es": "estrecho",
+    "pt": "estreito",
+    "fr": "détroit",
+    "cs": "průliv",
+    "pl": "cieśnina",
+    "tr": "boğaz (deniz)",
+    "de": "Meerenge",
+    "ja": "海峡"
+   }
+  },
+  {
+   "parola": "piatto",
+   "forme": [
+    "piatto"
+   ],
+   "esempi": [
+    "La strada è piatta.",
+    "Questo pesce è piatto come una foglia.",
+    "Ho uno schermo piatto."
+   ],
+   "traduzioni": {
+    "en": "flat",
+    "es": "plano",
+    "pt": "plano, achatado",
+    "fr": "plat",
+    "cs": "plochý",
+    "pl": "płaski",
+    "tr": "yassı, düz",
+    "de": "flach",
+    "ja": "平らな"
+   },
+   "formeEsempi": [
+    "piatta"
+   ]
+  },
+  {
+   "parola": "la foglia",
+   "forme": [
+    "foglia"
+   ],
+   "esempi": [
+    "In autunno la foglia diventa gialla.",
+    "Metto una foglia di basilico.",
+    "Il vento muove le foglie."
+   ],
+   "traduzioni": {
+    "en": "leaf",
+    "es": "hoja",
+    "pt": "folha",
+    "fr": "feuille",
+    "cs": "list",
+    "pl": "liść",
+    "tr": "yaprak",
+    "de": "Blatt",
+    "ja": "葉"
+   },
+   "formeEsempi": [
+    "foglie"
+   ]
+  },
+  {
+   "parola": "la specie",
+   "forme": [
+    "specie"
+   ],
+   "esempi": [
+    "Questa specie è in pericolo.",
+    "Ci sono molte specie di uccelli.",
+    "È una nuova specie di pesce."
+   ],
+   "traduzioni": {
+    "en": "species",
+    "es": "especie",
+    "pt": "espécie",
+    "fr": "espèce",
+    "cs": "druh",
+    "pl": "gatunek",
+    "tr": "tür",
+    "de": "Art",
+    "ja": "種"
+   }
+  },
+  {
+   "parola": "la vasca",
+   "forme": [
+    "vasca"
+   ],
+   "esempi": [
+    "I pesci nuotano nella vasca.",
+    "La vasca da bagno è piena.",
+    "Al museo c'è una vasca enorme."
+   ],
+   "traduzioni": {
+    "en": "tank, tub",
+    "es": "tanque, pila",
+    "pt": "tanque",
+    "fr": "bassin, cuve",
+    "cs": "nádrž, vana",
+    "pl": "zbiornik, basen",
+    "tr": "havuz, tank",
+    "de": "Becken",
+    "ja": "水槽"
+   }
+  },
+  {
+   "parola": "la forma",
+   "forme": [
+    "forma"
+   ],
+   "esempi": [
+    "Il biscotto ha la forma di un cuore.",
+    "Il pesce ha cambiato forma.",
+    "Sono in forma!"
+   ],
+   "traduzioni": {
+    "en": "shape, form",
+    "es": "forma",
+    "pt": "forma",
+    "fr": "forme",
+    "cs": "tvar",
+    "pl": "kształt",
+    "tr": "şekil",
+    "de": "Form",
+    "ja": "形"
+   }
+  },
+  {
+   "parola": "la larva",
+   "forme": [
+    "larva",
+    "larve"
+   ],
+   "esempi": [
+    "Il bruco è la larva della farfalla.",
+    "Le larve sono trasparenti.",
+    "La larva diventa un adulto."
+   ],
+   "traduzioni": {
+    "en": "larva",
+    "es": "larva",
+    "pt": "larva",
+    "fr": "larve",
+    "cs": "larva",
+    "pl": "larwa",
+    "tr": "larva",
+    "de": "Larve",
+    "ja": "幼生"
+   }
+  },
+  {
+   "parola": "il biologo",
+   "forme": [
+    "biologo"
+   ],
+   "esempi": [
+    "Il biologo studia gli animali marini.",
+    "Mia madre è biologa.",
+    "Il biologo lavora in laboratorio."
+   ],
+   "traduzioni": {
+    "en": "biologist",
+    "es": "biólogo",
+    "pt": "biólogo",
+    "fr": "biologiste",
+    "cs": "biolog",
+    "pl": "biolog",
+    "tr": "biyolog",
+    "de": "Biologe",
+    "ja": "生物学者"
+   },
+   "formeEsempi": [
+    "biologa"
+   ]
+  },
+  {
+   "parola": "l'oceano",
+   "forme": [
+    "oceano"
+   ],
+   "esempi": [
+    "L'oceano Atlantico è enorme.",
+    "Le balene vivono nell'oceano.",
+    "Ha attraversato l'oceano in barca."
+   ],
+   "traduzioni": {
+    "en": "ocean",
+    "es": "océano",
+    "pt": "oceano",
+    "fr": "océan",
+    "cs": "oceán",
+    "pl": "ocean",
+    "tr": "okyanus",
+    "de": "Ozean",
+    "ja": "大洋、海"
+   }
+  },
+  {
+   "parola": "l'ovest",
+   "forme": [
+    "ovest"
+   ],
+   "esempi": [
+    "Il sole tramonta a ovest.",
+    "La casa guarda a ovest.",
+    "Andiamo verso ovest."
+   ],
+   "traduzioni": {
+    "en": "west",
+    "es": "oeste",
+    "pt": "oeste",
+    "fr": "ouest",
+    "cs": "západ",
+    "pl": "zachód",
+    "tr": "batı",
+    "de": "Westen",
+    "ja": "西"
+   }
+  },
+  {
+   "parola": "annunciare",
+   "forme": [
+    "annunciato",
+    "annunciò"
+   ],
+   "esempi": [
+    "Il governo ha annunciato nuove regole.",
+    "Mi ha annunciato che si sposa.",
+    "Il treno viene annunciato al binario tre."
+   ],
+   "traduzioni": {
+    "en": "to announce",
+    "es": "anunciar",
+    "pt": "anunciar",
+    "fr": "annoncer",
+    "cs": "oznámit",
+    "pl": "ogłosić",
+    "tr": "duyurmak",
+    "de": "verkünden",
+    "ja": "発表する"
+   }
+  },
+  {
+   "parola": "risolto",
+   "forme": [
+    "risolto"
+   ],
+   "esempi": [
+    "Il problema è risolto.",
+    "Ho risolto l'esercizio.",
+    "Il caso non è ancora risolto."
+   ],
+   "traduzioni": {
+    "en": "solved",
+    "es": "resuelto",
+    "pt": "resolvido",
+    "fr": "résolu",
+    "cs": "vyřešený",
+    "pl": "rozwiązany",
+    "tr": "çözülmüş",
+    "de": "gelöst",
+    "ja": "解決した"
+   }
+  },
+  {
+   "parola": "non del tutto",
+   "forme": [
+    "tutto"
+   ],
+   "esempi": [
+    "Hai finito? Non del tutto.",
+    "Non sono del tutto d'accordo.",
+    "Il problema non è del tutto chiaro."
+   ],
+   "traduzioni": {
+    "en": "not entirely, not completely",
+    "es": "no del todo",
+    "pt": "não totalmente",
+    "fr": "pas tout à fait",
+    "cs": "ne úplně",
+    "pl": "nie do końca",
+    "tr": "tam olarak değil",
+    "de": "nicht ganz",
+    "ja": "完全にではない"
+   },
+   "contesto": "risolto"
+  },
+  {
+   "parola": "deporre le uova",
+   "forme": [
+    "deporre",
+    "deposto"
+   ],
+   "esempi": [
+    "La tartaruga va sulla spiaggia a deporre le uova.",
+    "Gli uccelli depongono le uova in primavera.",
+    "Le anguille muoiono dopo aver deposto le uova."
+   ],
+   "traduzioni": {
+    "en": "to lay eggs",
+    "es": "poner huevos, desovar",
+    "pt": "pôr ovos, desovar",
+    "fr": "pondre",
+    "cs": "klást vajíčka",
+    "pl": "składać jaja",
+    "tr": "yumurtlamak",
+    "de": "Eier ablegen",
+    "ja": "卵を産む"
+   },
+   "formeEsempi": [
+    "depongono"
+   ]
+  },
+  {
+   "parola": "l'enigma",
+   "forme": [
+    "enigmi"
+   ],
+   "formeEsempi": [
+    "enigma"
+   ],
+   "esempi": [
+    "Per me resta un enigma.",
+    "Ama risolvere enigmi.",
+    "È uno degli enigmi della storia."
+   ],
+   "traduzioni": {
+    "en": "enigma, riddle",
+    "es": "enigma",
+    "pt": "enigma",
+    "fr": "énigme",
+    "cs": "záhada",
+    "pl": "zagadka",
+    "tr": "bilmece, gizem",
+    "de": "Rätsel",
+    "ja": "謎"
+   }
+  },
+  {
+   "parola": "ostinato",
+   "forme": [
+    "ostinati"
+   ],
+   "formeEsempi": [
+    "ostinato",
+    "ostinata"
+   ],
+   "esempi": [
+    "È un bambino molto ostinato.",
+    "C'è una macchia ostinata sulla camicia.",
+    "Un silenzio ostinato."
+   ],
+   "traduzioni": {
+    "en": "stubborn, persistent",
+    "es": "obstinado, persistente",
+    "pt": "obstinado, persistente",
+    "fr": "tenace, obstiné",
+    "cs": "tvrdohlavý, vytrvalý",
+    "pl": "uparty, uporczywy",
+    "tr": "inatçı",
+    "de": "hartnäckig",
+    "ja": "しつこい、頑固な"
+   }
+  },
+  {
+   "parola": "l'esemplare",
+   "forme": [
+    "esemplare",
+    "esemplari"
+   ],
+   "esempi": [
+    "Al museo c'è un esemplare raro.",
+    "Hanno catturato tre esemplari.",
+    "È un esemplare unico."
+   ],
+   "traduzioni": {
+    "en": "specimen, individual (animal)",
+    "es": "ejemplar",
+    "pt": "exemplar",
+    "fr": "spécimen",
+    "cs": "exemplář, jedinec",
+    "pl": "okaz",
+    "tr": "örnek, numune",
+    "de": "Exemplar",
+    "ja": "個体、標本"
+   }
+  },
+  {
+   "parola": "spontaneamente",
+   "forme": [
+    "spontaneamente"
+   ],
+   "esempi": [
+    "Ha sorriso spontaneamente.",
+    "Le piante crescono spontaneamente.",
+    "Gli studenti partecipano spontaneamente."
+   ],
+   "traduzioni": {
+    "en": "spontaneously, on their own",
+    "es": "espontáneamente",
+    "pt": "espontaneamente",
+    "fr": "spontanément",
+    "cs": "samovolně, spontánně",
+    "pl": "spontanicznie, samorzutnie",
+    "tr": "kendiliğinden",
+    "de": "spontan, von selbst",
+    "ja": "自然に、ひとりでに"
+   }
+  },
+  {
+   "parola": "strofinare",
+   "forme": [
+    "strofinassero"
+   ],
+   "formeEsempi": [
+    "strofino",
+    "strofina",
+    "strofinare"
+   ],
+   "esempi": [
+    "Strofino il tavolo con un panno.",
+    "Il gatto si strofina contro le mie gambe.",
+    "Non strofinare gli occhi!"
+   ],
+   "traduzioni": {
+    "en": "to rub",
+    "es": "frotar",
+    "pt": "esfregar",
+    "fr": "frotter",
+    "cs": "třít",
+    "pl": "pocierać",
+    "tr": "sürtmek",
+    "de": "reiben",
+    "ja": "こする"
+   }
+  },
+  {
+   "parola": "fantasioso",
+   "forme": [
+    "fantasiose"
+   ],
+   "formeEsempi": [
+    "fantasioso",
+    "fantasiosa"
+   ],
+   "esempi": [
+    "È un bambino molto fantasioso.",
+    "Ha dato una spiegazione fantasiosa.",
+    "Le ipotesi erano fantasiose."
+   ],
+   "traduzioni": {
+    "en": "imaginative, fanciful",
+    "es": "fantasioso",
+    "pt": "fantasioso",
+    "fr": "fantaisiste",
+    "cs": "fantazijní, smyšlený",
+    "pl": "fantazyjny",
+    "tr": "hayalî, uçuk",
+    "de": "fantasievoll, abenteuerlich",
+    "ja": "空想的な"
+   }
+  },
+  {
+   "parola": "la sfida",
+   "forme": [
+    "sfida"
+   ],
+   "esempi": [
+    "Imparare il giapponese è una sfida.",
+    "Accetto la sfida!",
+    "La partita è una sfida importante."
+   ],
+   "traduzioni": {
+    "en": "challenge",
+    "es": "desafío, reto",
+    "pt": "desafio",
+    "fr": "défi",
+    "cs": "výzva",
+    "pl": "wyzwanie",
+    "tr": "meydan okuma, zorluk",
+    "de": "Herausforderung",
+    "ja": "挑戦"
+   }
+  },
+  {
+   "parola": "sezionare",
+   "forme": [
+    "sezionò"
+   ],
+   "formeEsempi": [
+    "seziona",
+    "sezioniamo"
+   ],
+   "esempi": [
+    "A biologia sezioniamo una rana.",
+    "Il medico seziona il tessuto.",
+    "Lo studente sezionò quattrocento anguille."
+   ],
+   "traduzioni": {
+    "en": "to dissect («sezionò» = he dissected)",
+    "es": "diseccionar",
+    "pt": "dissecar",
+    "fr": "disséquer",
+    "cs": "pitvat",
+    "pl": "sekcjonować",
+    "tr": "teşrih etmek, kesip incelemek",
+    "de": "sezieren",
+    "ja": "解剖する"
+   }
+  },
+  {
+   "parola": "fino in fondo",
+   "forme": [
+    "fondo"
+   ],
+   "esempi": [
+    "Voglio capire la cosa fino in fondo.",
+    "Leggi il contratto fino in fondo.",
+    "Non ci credo fino in fondo."
+   ],
+   "traduzioni": {
+    "en": "completely, all the way",
+    "es": "hasta el fondo, del todo",
+    "pt": "até o fim, totalmente",
+    "fr": "jusqu'au bout",
+    "cs": "úplně, do důsledků",
+    "pl": "do końca",
+    "tr": "sonuna kadar",
+    "de": "ganz, bis zum Ende",
+    "ja": "完全に、とことん"
+   }
+  },
+  {
+   "parola": "sciogliersi",
+   "forme": [
+    "sciogliersi"
+   ],
+   "formeEsempi": [
+    "scioglie"
+   ],
+   "esempi": [
+    "Il ghiaccio comincia a sciogliersi.",
+    "Il nodo si scioglie facilmente.",
+    "Il mistero cominciò a sciogliersi."
+   ],
+   "traduzioni": {
+    "en": "to melt; to be solved, to unravel",
+    "es": "derretirse; resolverse",
+    "pt": "derreter; resolver-se",
+    "fr": "fondre ; se dénouer",
+    "cs": "roztát; rozuzlit se",
+    "pl": "topnieć; wyjaśniać się",
+    "tr": "erimek; çözülmek",
+    "de": "schmelzen; sich lösen",
+    "ja": "溶ける；解ける"
+   }
+  },
+  {
+   "parola": "la corrente",
+   "forme": [
+    "correnti",
+    "corrente"
+   ],
+   "esempi": [
+    "La corrente del fiume è forte.",
+    "Non nuotare: ci sono correnti.",
+    "È andata via la corrente."
+   ],
+   "traduzioni": {
+    "en": "current (also: electricity)",
+    "es": "corriente",
+    "pt": "corrente",
+    "fr": "courant",
+    "cs": "proud",
+    "pl": "prąd",
+    "tr": "akıntı (ayrıca: elektrik)",
+    "de": "Strömung (auch: Strom)",
+    "ja": "海流、流れ（電気、の意味も）"
+   }
+  },
+  {
+   "parola": "l'allievo",
+   "forme": [
+    "allievo"
+   ],
+   "formeEsempi": [
+    "allieva",
+    "allievi"
+   ],
+   "esempi": [
+    "Il maestro ha venti allievi.",
+    "Era il suo allievo migliore.",
+    "L'allieva supera il maestro."
+   ],
+   "traduzioni": {
+    "en": "pupil, student",
+    "es": "alumno, discípulo",
+    "pt": "aluno, discípulo",
+    "fr": "élève, disciple",
+    "cs": "žák",
+    "pl": "uczeń",
+    "tr": "öğrenci",
+    "de": "Schüler",
+    "ja": "弟子、生徒"
+   }
+  },
+  {
+   "parola": "scambiare per",
+   "forme": [
+    "scambiata"
+   ],
+   "formeEsempi": [
+    "scambiato"
+   ],
+   "esempi": [
+    "Mi hanno scambiato per mio fratello.",
+    "L'ho scambiata per una turista.",
+    "La larva fu scambiata per un altro animale."
+   ],
+   "traduzioni": {
+    "en": "to mistake for",
+    "es": "confundir con",
+    "pt": "confundir com",
+    "fr": "prendre pour",
+    "cs": "splést si s",
+    "pl": "pomylić z",
+    "tr": "başkasıyla karıştırmak",
+    "de": "verwechseln mit",
+    "ja": "〜と取り違える"
+   }
+  },
+  {
+   "parola": "trasportare",
+   "forme": [
+    "trasportate"
+   ],
+   "formeEsempi": [
+    "trasporta"
+   ],
+   "esempi": [
+    "Il camion trasporta la frutta.",
+    "Le merci sono trasportate in nave.",
+    "Il vento trasporta i semi."
+   ],
+   "traduzioni": {
+    "en": "to carry, to transport",
+    "es": "transportar",
+    "pt": "transportar",
+    "fr": "transporter",
+    "cs": "přepravovat, unášet",
+    "pl": "przenosić, transportować",
+    "tr": "taşımak",
+    "de": "transportieren, tragen",
+    "ja": "運ぶ"
+   }
+  },
+  {
+   "parola": "impiegare",
+   "forme": [
+    "impiegano"
+   ],
+   "formeEsempi": [
+    "impiego",
+    "impieghi"
+   ],
+   "esempi": [
+    "Impiego un'ora per andare al lavoro.",
+    "Quanto tempo impieghi?",
+    "Le larve impiegano mesi."
+   ],
+   "traduzioni": {
+    "en": "to take (time)",
+    "es": "tardar, emplear",
+    "pt": "levar (tempo)",
+    "fr": "mettre (du temps)",
+    "cs": "trvat (komu), potřebovat čas",
+    "pl": "potrzebować (czasu)",
+    "tr": "(zaman) harcamak, sürmek",
+    "de": "brauchen (Zeit)",
+    "ja": "（時間が）かかる"
+   }
+  },
+  {
+   "parola": "la costa",
+   "forme": [
+    "coste"
+   ],
+   "formeEsempi": [
+    "costa"
+   ],
+   "esempi": [
+    "Andiamo in vacanza sulla costa.",
+    "Le coste della Sardegna sono bellissime.",
+    "La nave segue la costa."
+   ],
+   "traduzioni": {
+    "en": "coast",
+    "es": "costa",
+    "pt": "costa",
+    "fr": "côte",
+    "cs": "pobřeží",
+    "pl": "wybrzeże",
+    "tr": "kıyı",
+    "de": "Küste",
+    "ja": "海岸"
+   }
+  },
+  {
+   "parola": "risalire",
+   "forme": [
+    "risalgono"
+   ],
+   "formeEsempi": [
+    "risale",
+    "risaliamo"
+   ],
+   "esempi": [
+    "I salmoni risalgono i fiumi.",
+    "Risaliamo la collina a piedi.",
+    "La chiesa risale al Trecento."
+   ],
+   "traduzioni": {
+    "en": "to go back up, to swim upstream (also: to date back)",
+    "es": "remontar, subir",
+    "pt": "subir (o rio)",
+    "fr": "remonter",
+    "cs": "táhnout proti proudu, stoupat",
+    "pl": "wpływać w górę rzeki",
+    "tr": "yukarı çıkmak",
+    "de": "hinaufwandern",
+    "ja": "さかのぼる"
+   }
+  },
+  {
+   "parola": "si ritiene che",
+   "forme": [
+    "ritiene"
+   ],
+   "esempi": [
+    "Si ritiene che sia una buona idea.",
+    "Ritiene che tu abbia ragione.",
+    "Si ritiene che muoiano dopo."
+   ],
+   "traduzioni": {
+    "en": "it is believed that",
+    "es": "se cree que",
+    "pt": "acredita-se que",
+    "fr": "on estime que",
+    "cs": "má se za to, že",
+    "pl": "uważa się, że",
+    "tr": "-dığı düşünülüyor",
+    "de": "man nimmt an, dass",
+    "ja": "〜と考えられている"
+   }
+  },
+  {
+   "parola": "sebbene",
+   "forme": [
+    "sebbene"
+   ],
+   "esempi": [
+    "Sebbene piova, esco.",
+    "Sebbene sia stanco, lavora.",
+    "È uscita sebbene avesse la febbre."
+   ],
+   "traduzioni": {
+    "en": "although (+ subjunctive)",
+    "es": "aunque",
+    "pt": "embora",
+    "fr": "bien que",
+    "cs": "ačkoli",
+    "pl": "chociaż",
+    "tr": "-e rağmen",
+    "de": "obwohl",
+    "ja": "〜にもかかわらず"
+   }
+  },
+  {
+   "parola": "il trasmettitore",
+   "forme": [
+    "trasmettitori"
+   ],
+   "formeEsempi": [
+    "trasmettitore"
+   ],
+   "esempi": [
+    "Il trasmettitore invia un segnale.",
+    "Gli uccelli portano piccoli trasmettitori.",
+    "Il trasmettitore è satellitare."
+   ],
+   "traduzioni": {
+    "en": "transmitter, tracker",
+    "es": "transmisor",
+    "pt": "transmissor",
+    "fr": "émetteur",
+    "cs": "vysílač",
+    "pl": "nadajnik",
+    "tr": "verici",
+    "de": "Sender",
+    "ja": "発信機"
+   }
+  },
+  {
+   "parola": "il tempo stringe",
+   "forme": [
+    "stringe"
+   ],
+   "esempi": [
+    "Il tempo stringe: dobbiamo decidere.",
+    "Il treno parte tra poco, il tempo stringe!",
+    "Queste scarpe stringono."
+   ],
+   "traduzioni": {
+    "en": "time is running out («stringere» = to squeeze, to be tight)",
+    "es": "el tiempo apremia",
+    "pt": "o tempo está acabando",
+    "fr": "le temps presse",
+    "cs": "čas tlačí",
+    "pl": "czas nagli",
+    "tr": "zaman daralıyor",
+    "de": "die Zeit drängt",
+    "ja": "時間がない"
+   },
+   "formeEsempi": [
+    "stringono"
+   ]
+  },
+  {
+   "parola": "l'estinzione",
+   "forme": [
+    "estinzione"
+   ],
+   "esempi": [
+    "Molti animali sono a rischio di estinzione.",
+    "L'estinzione dei dinosauri è un mistero.",
+    "La specie è vicina all'estinzione."
+   ],
+   "traduzioni": {
+    "en": "extinction",
+    "es": "extinción",
+    "pt": "extinção",
+    "fr": "extinction",
+    "cs": "vyhynutí",
+    "pl": "wyginięcie",
+    "tr": "nesli tükenme",
+    "de": "Aussterben",
+    "ja": "絶滅"
+   }
+  },
+  {
+   "parola": "la diga",
+   "forme": [
+    "dighe"
+   ],
+   "formeEsempi": [
+    "diga"
+   ],
+   "esempi": [
+    "La diga produce energia.",
+    "Le dighe bloccano i pesci.",
+    "Il castoro costruisce una diga."
+   ],
+   "traduzioni": {
+    "en": "dam",
+    "es": "presa, dique",
+    "pt": "barragem, represa",
+    "fr": "barrage",
+    "cs": "přehrada",
+    "pl": "tama, zapora",
+    "tr": "baraj",
+    "de": "Staudamm",
+    "ja": "ダム"
+   }
+  },
+  {
+   "parola": "l'inquinamento",
+   "forme": [
+    "inquinamento"
+   ],
+   "esempi": [
+    "L'inquinamento dell'aria è un problema.",
+    "In città c'è molto inquinamento.",
+    "L'inquinamento minaccia i fiumi."
+   ],
+   "traduzioni": {
+    "en": "pollution",
+    "es": "contaminación",
+    "pt": "poluição",
+    "fr": "pollution",
+    "cs": "znečištění",
+    "pl": "zanieczyszczenie",
+    "tr": "kirlilik",
+    "de": "Verschmutzung",
+    "ja": "汚染"
+   }
+  },
+  {
+   "parola": "scandire",
+   "forme": [
+    "scandito"
+   ],
+   "formeEsempi": [
+    "scandisce",
+    "scandiscono",
+    "scandisci"
+   ],
+   "esempi": [
+    "Le campane scandiscono le ore.",
+    "Scandisci bene le parole!",
+    "La pesca ha scandito la vita del paese."
+   ],
+   "traduzioni": {
+    "en": "to mark (time), to set the rhythm of; to articulate",
+    "es": "marcar, pautar",
+    "pt": "marcar, ritmar",
+    "fr": "rythmer, scander",
+    "cs": "udávat rytmus, vyznačovat",
+    "pl": "wyznaczać rytm",
+    "tr": "ritmini belirlemek",
+    "de": "prägen, den Takt angeben",
+    "ja": "（時を）刻む、区切る"
+   }
+  },
+  {
+   "parola": "la scomparsa",
+   "forme": [
+    "scomparsa"
+   ],
+   "esempi": [
+    "La scomparsa del cane ci ha preoccupato.",
+    "Temiamo la scomparsa delle api.",
+    "La sua scomparsa è un mistero."
+   ],
+   "traduzioni": {
+    "en": "disappearance",
+    "es": "desaparición",
+    "pt": "desaparecimento",
+    "fr": "disparition",
+    "cs": "zmizení, vymizení",
+    "pl": "zniknięcie",
+    "tr": "yok olma, kaybolma",
+    "de": "Verschwinden",
+    "ja": "消滅、失踪"
+   }
+  },
+  {
+   "parola": "amaro",
+   "forme": [
+    "amaro"
+   ],
+   "esempi": [
+    "Il caffè senza zucchero è amaro.",
+    "È stata una sconfitta amara.",
+    "Ho un sapore amaro in bocca."
+   ],
+   "traduzioni": {
+    "en": "bitter",
+    "es": "amargo",
+    "pt": "amargo",
+    "fr": "amer",
+    "cs": "hořký",
+    "pl": "gorzki",
+    "tr": "acı",
+    "de": "bitter",
+    "ja": "苦い"
+   },
+   "formeEsempi": [
+    "amara"
+   ]
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Once upon a time, in the rivers, lakes and lagoons of Italy, there were lots of eels. Fishermen caught them at night, and children watched them slide through the water like snakes.",
+    "But there was a mystery. Everyone knew the eel, and nobody knew how it was born. Fishermen opened thousands of eels, but they never found eggs inside. And there were no tiny, newborn eels. Where did they come from?",
+    "More than two thousand years ago the Greek philosopher Aristotle had an answer: eels were born from mud, all by themselves. Others said they were born from dew, or from a horse hair that had fallen into the water.",
+    "In 1876 a nineteen-year-old medical student was working in a laboratory in Trieste. His task was to find the eel's male organs. Every day he opened one eel after another: in the end he had opened more than four hundred, but he found nothing certain. The student was called Sigmund Freud. Later he changed direction: he started studying the human mind.",
+    "The first real answer came from Sicily. In 1896 the Italian zoologist Giovanni Battista Grassi was studying, in the Strait of Messina, a small transparent fish, flat as a leaf. Everyone thought it was a different species. Grassi kept it in a tank and watched it every day. One day the little fish changed shape and became a tiny eel! It was the eel's larva.",
+    "But where were the larvae born? The Danish biologist Johannes Schmidt looked for them in the ocean for almost twenty years. The further west he went, the smaller the larvae were. In 1922 he announced that the smallest ones lived in the Sargasso Sea, near Bermuda, thousands of kilometres from Europe.",
+    "Was the mystery solved? Not completely. Even today nobody has ever seen a European eel lay its eggs."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Antes, en los ríos, los lagos y las lagunas de Italia, había muchísimas anguilas. Los pescadores las cogían de noche, y los niños las miraban deslizarse por el agua como serpientes.",
+    "Pero había un misterio. Todo el mundo conocía la anguila, y nadie sabía cómo nacía. Los pescadores abrían miles de anguilas, pero dentro nunca encontraban huevos. Y no había anguilas pequeñísimas, recién nacidas. ¿De dónde venían?",
+    "Hace más de dos mil años el filósofo griego Aristóteles tenía una respuesta: las anguilas nacían del barro, solas. Otros decían que nacían del rocío, o de un pelo de caballo caído al agua.",
+    "En 1876 un estudiante de medicina de diecinueve años trabajaba en un laboratorio de Trieste. Su tarea era encontrar los órganos masculinos de la anguila. Cada día abría una anguila tras otra: al final abrió más de cuatrocientas, pero no encontró nada seguro. El estudiante se llamaba Sigmund Freud. Más tarde cambió de camino: empezó a estudiar la mente humana.",
+    "La primera respuesta verdadera llegó de Sicilia. En 1896 el zoólogo italiano Giovanni Battista Grassi estudiaba, en el estrecho de Mesina, un pez pequeño y transparente, plano como una hoja. Para todos era otra especie. Grassi lo tenía en un tanque y lo miraba cada día. ¡Un día el pececito cambió de forma y se convirtió en una anguila pequeña! Era la larva de la anguila.",
+    "Pero ¿dónde nacían las larvas? El biólogo danés Johannes Schmidt las buscó en el océano durante casi veinte años. Cuanto más iba hacia el oeste, más pequeñas eran las larvas. En 1922 anunció que las más pequeñas vivían en el mar de los Sargazos, cerca de las Bermudas, a miles de kilómetros de Europa.",
+    "¿Estaba resuelto el misterio? No del todo. Todavía hoy nadie ha visto nunca a una anguila europea poner los huevos."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "Antigamente, nos rios, nos lagos e nas lagunas da Itália, havia muitíssimas enguias. Os pescadores as pegavam à noite, e as crianças as viam deslizar na água como cobras.",
+    "Mas havia um mistério. Todo mundo conhecia a enguia, e ninguém sabia como ela nascia. Os pescadores abriam milhares de enguias, mas nunca encontravam ovos dentro delas. E não havia enguias pequenininhas, recém-nascidas. De onde elas vinham?",
+    "Há mais de dois mil anos o filósofo grego Aristóteles tinha uma resposta: as enguias nasciam da lama, sozinhas. Outros diziam que nasciam do orvalho, ou de um fio de crina de cavalo caído na água.",
+    "Em 1876 um estudante de medicina de dezenove anos trabalhava num laboratório em Trieste. A tarefa dele era encontrar os órgãos masculinos da enguia. Todo dia ele abria uma enguia atrás da outra: no fim, abriu mais de quatrocentas, mas não encontrou nada certo. O estudante se chamava Sigmund Freud. Mais tarde ele mudou de rumo: começou a estudar a mente humana.",
+    "A primeira resposta verdadeira chegou da Sicília. Em 1896 o zoólogo italiano Giovanni Battista Grassi estudava, no estreito de Messina, um peixinho transparente, achatado como uma folha. Para todos era outra espécie. Grassi o mantinha num tanque e o observava todos os dias. Um dia o peixinho mudou de forma e virou uma enguia pequenininha! Era a larva da enguia.",
+    "Mas onde nasciam as larvas? O biólogo dinamarquês Johannes Schmidt as procurou no oceano por quase vinte anos. Quanto mais ia para o oeste, menores eram as larvas. Em 1922 anunciou que as menores viviam no mar dos Sargaços, perto das Bermudas, a milhares de quilômetros da Europa.",
+    "O mistério estava resolvido? Não totalmente. Até hoje ninguém nunca viu uma enguia europeia pôr os ovos."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Autrefois, dans les fleuves, les lacs et les lagunes d'Italie, il y avait énormément d'anguilles. Les pêcheurs les attrapaient la nuit, et les enfants les regardaient glisser dans l'eau comme des serpents.",
+    "Mais il y avait un mystère. Tout le monde connaissait l'anguille, et personne ne savait comment elle naissait. Les pêcheurs ouvraient des milliers d'anguilles, mais ils ne trouvaient jamais d'œufs à l'intérieur. Et il n'y avait pas de toutes petites anguilles, qui venaient de naître. D'où venaient-elles ?",
+    "Il y a plus de deux mille ans, le philosophe grec Aristote avait une réponse : les anguilles naissaient de la boue, toutes seules. D'autres disaient qu'elles naissaient de la rosée, ou d'un crin de cheval tombé dans l'eau.",
+    "En 1876, un étudiant en médecine de dix-neuf ans travaillait dans un laboratoire à Trieste. Sa tâche était de trouver les organes mâles de l'anguille. Chaque jour, il ouvrait une anguille après l'autre : à la fin, il en avait ouvert plus de quatre cents, mais il n'a rien trouvé de sûr. L'étudiant s'appelait Sigmund Freud. Plus tard, il a changé de voie : il a commencé à étudier l'esprit humain.",
+    "La première vraie réponse est venue de Sicile. En 1896, le zoologiste italien Giovanni Battista Grassi étudiait, dans le détroit de Messine, un petit poisson transparent, plat comme une feuille. Pour tout le monde, c'était une autre espèce. Grassi le gardait dans un bassin et l'observait chaque jour. Un jour, le petit poisson a changé de forme et il est devenu une petite anguille ! C'était la larve de l'anguille.",
+    "Mais où naissaient les larves ? Le biologiste danois Johannes Schmidt les a cherchées dans l'océan pendant presque vingt ans. Plus il allait vers l'ouest, plus les larves étaient petites. En 1922, il a annoncé que les plus petites vivaient dans la mer des Sargasses, près des Bermudes, à des milliers de kilomètres de l'Europe.",
+    "Le mystère était-il résolu ? Pas tout à fait. Aujourd'hui encore, personne n'a jamais vu une anguille européenne pondre ses œufs."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Kdysi bylo v italských řekách, jezerech a lagunách spousta úhořů. Rybáři je chytali v noci a děti se dívaly, jak kloužou vodou jako hadi.",
+    "Ale byla tu záhada. Úhoře znal každý, a nikdo nevěděl, jak se rodí. Rybáři otevřeli tisíce úhořů, ale nikdy v nich nenašli vajíčka. A neexistovali ani malinkatí, čerstvě narození úhoři. Odkud se brali?",
+    "Před více než dvěma tisíci lety měl řecký filozof Aristoteles odpověď: úhoři se rodí z bahna, sami od sebe. Jiní říkali, že se rodí z rosy nebo z koňské žíně, která spadla do vody.",
+    "V roce 1876 pracoval v laboratoři v Terstu devatenáctiletý student medicíny. Jeho úkolem bylo najít úhořovy samčí orgány. Každý den otevřel jednoho úhoře za druhým: nakonec jich otevřel přes čtyři sta, ale nic jistého nenašel. Ten student se jmenoval Sigmund Freud. Později změnil směr: začal studovat lidskou mysl.",
+    "První skutečná odpověď přišla ze Sicílie. V roce 1896 zkoumal italský zoolog Giovanni Battista Grassi v Messinském průlivu malou průhlednou rybku, plochou jako list. Všichni ji považovali za jiný druh. Grassi ji choval v nádrži a každý den ji pozoroval. Jednoho dne rybka změnila tvar a proměnila se v malého úhoře! Byla to úhoří larva.",
+    "Ale kde se larvy rodily? Dánský biolog Johannes Schmidt je hledal v oceánu skoro dvacet let. Čím dál na západ plul, tím byly larvy menší. V roce 1922 oznámil, že ty nejmenší žijí v Sargasovém moři, nedaleko Bermud, tisíce kilometrů od Evropy.",
+    "Byla záhada vyřešená? Ne úplně. Ještě dnes nikdo nikdy neviděl, jak úhoř říční klade vajíčka."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Kiedyś w rzekach, jeziorach i lagunach Włoch było mnóstwo węgorzy. Rybacy łowili je nocą, a dzieci patrzyły, jak suną w wodzie niczym węże.",
+    "Ale istniała pewna tajemnica. Wszyscy znali węgorza, a nikt nie wiedział, jak się rodzi. Rybacy rozcinali tysiące węgorzy, ale nigdy nie znajdowali w środku jaj. Nie było też maleńkich, dopiero co urodzonych węgorzy. Skąd się brały?",
+    "Ponad dwa tysiące lat temu grecki filozof Arystoteles miał odpowiedź: węgorze rodziły się z błota, same z siebie. Inni mówili, że rodzą się z rosy albo z końskiego włosa, który wpadł do wody.",
+    "W 1876 roku dziewiętnastoletni student medycyny pracował w laboratorium w Trieście. Jego zadaniem było znaleźć męskie narządy węgorza. Codziennie rozcinał jednego węgorza za drugim: w końcu rozciął ich ponad czterysta, ale nie znalazł nic pewnego. Ten student nazywał się Sigmund Freud. Później zmienił drogę: zaczął badać ludzki umysł.",
+    "Pierwsza prawdziwa odpowiedź przyszła z Sycylii. W 1896 roku włoski zoolog Giovanni Battista Grassi badał w Cieśninie Mesyńskiej małą, przezroczystą rybkę, płaską jak liść. Wszyscy uważali ją za inny gatunek. Grassi trzymał ją w zbiorniku i obserwował codziennie. Pewnego dnia rybka zmieniła kształt i stała się małym węgorzem! To była larwa węgorza.",
+    "Ale gdzie rodziły się larwy? Duński biolog Johannes Schmidt szukał ich w oceanie przez prawie dwadzieścia lat. Im dalej na zachód płynął, tym mniejsze były larwy. W 1922 roku ogłosił, że najmniejsze żyją w Morzu Sargassowym, niedaleko Bermudów, tysiące kilometrów od Europy.",
+    "Czy tajemnica została rozwiązana? Nie do końca. Do dziś nikt nigdy nie widział, jak węgorz europejski składa jaja."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Eskiden İtalya'nın nehirlerinde, göllerinde ve lagünlerinde çok sayıda yılan balığı vardı. Balıkçılar onları gece tutardı, çocuklar da suda yılanlar gibi süzülüşlerini seyrederdi.",
+    "Ama bir gizem vardı. Herkes yılan balığını tanıyordu, ama kimse nasıl doğduğunu bilmiyordu. Balıkçılar binlerce yılan balığını açıyordu, ama içinde asla yumurta bulamıyorlardı. Minicik, yeni doğmuş yılan balıkları da yoktu. Nereden geliyorlardı?",
+    "İki bin yıldan fazla önce Yunan filozof Aristoteles'in bir cevabı vardı: yılan balıkları çamurdan, kendiliğinden doğuyordu. Başkaları çiyden ya da suya düşmüş bir at kılından doğduklarını söylüyordu.",
+    "1876'da on dokuz yaşında bir tıp öğrencisi Trieste'de bir laboratuvarda çalışıyordu. Görevi, yılan balığının erkek organlarını bulmaktı. Her gün bir yılan balığını ardından bir diğerini açıyordu: sonunda dört yüzden fazlasını açtı ama kesin bir şey bulamadı. Bu öğrencinin adı Sigmund Freud'du. Daha sonra yol değiştirdi: insan zihnini incelemeye başladı.",
+    "İlk gerçek cevap Sicilya'dan geldi. 1896'da İtalyan zoolog Giovanni Battista Grassi, Messina Boğazı'nda yaprak gibi yassı, şeffaf küçük bir balığı inceliyordu. Herkese göre bu başka bir türdü. Grassi onu bir havuzda tutuyor ve her gün gözlemliyordu. Bir gün küçük balık şekil değiştirdi ve minik bir yılan balığına dönüştü! Bu, yılan balığının larvasıydı.",
+    "Peki larvalar nerede doğuyordu? Danimarkalı biyolog Johannes Schmidt onları yaklaşık yirmi yıl boyunca okyanusta aradı. Batıya doğru gittikçe larvalar küçülüyordu. 1922'de en küçüklerin Avrupa'dan binlerce kilometre uzakta, Bermuda yakınlarındaki Sargasso Denizi'nde yaşadığını duyurdu.",
+    "Gizem çözülmüş müydü? Tam olarak değil. Bugün bile hiç kimse bir Avrupa yılan balığının yumurtladığını görmedi."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Früher gab es in den Flüssen, Seen und Lagunen Italiens unglaublich viele Aale. Die Fischer fingen sie nachts, und die Kinder sahen zu, wie sie wie Schlangen durchs Wasser glitten.",
+    "Aber es gab ein Rätsel. Jeder kannte den Aal, und niemand wusste, wie er geboren wurde. Die Fischer öffneten Tausende Aale, aber darin fanden sie nie Eier. Und es gab keine winzigen, gerade geborenen Aale. Woher kamen sie?",
+    "Vor mehr als zweitausend Jahren hatte der griechische Philosoph Aristoteles eine Antwort: Die Aale entstanden aus dem Schlamm, ganz von selbst. Andere sagten, sie entstünden aus dem Tau oder aus einem Pferdehaar, das ins Wasser gefallen war.",
+    "1876 arbeitete ein neunzehnjähriger Medizinstudent in einem Labor in Triest. Seine Aufgabe war es, die männlichen Organe des Aals zu finden. Jeden Tag öffnete er einen Aal nach dem anderen: Am Ende hatte er über vierhundert geöffnet, aber nichts Sicheres gefunden. Der Student hieß Sigmund Freud. Später schlug er einen anderen Weg ein: Er begann, den menschlichen Geist zu erforschen.",
+    "Die erste echte Antwort kam aus Sizilien. 1896 untersuchte der italienische Zoologe Giovanni Battista Grassi in der Straße von Messina einen kleinen durchsichtigen Fisch, flach wie ein Blatt. Für alle war das eine andere Art. Grassi hielt ihn in einem Becken und beobachtete ihn jeden Tag. Eines Tages veränderte das Fischchen seine Form und wurde zu einem kleinen Aal! Es war die Larve des Aals.",
+    "Aber wo wurden die Larven geboren? Der dänische Biologe Johannes Schmidt suchte fast zwanzig Jahre lang im Ozean nach ihnen. Je weiter er nach Westen kam, desto kleiner waren die Larven. 1922 verkündete er, dass die kleinsten in der Sargassosee lebten, in der Nähe der Bermudas, Tausende Kilometer von Europa entfernt.",
+    "War das Rätsel gelöst? Nicht ganz. Bis heute hat noch niemand einen Europäischen Aal beim Eierlegen gesehen."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "昔、イタリアの川や湖や潟には、ウナギがたくさんいた。漁師たちは夜にウナギをとり、子どもたちはヘビのように水の中をすべっていくウナギを眺めていた。",
+    "でも、ひとつ謎があった。ウナギは誰もが知っていたのに、どうやって生まれるのか誰も知らなかったのだ。漁師たちは何千匹ものウナギを開いたが、中に卵が見つかることは一度もなかった。生まれたばかりの小さなウナギもいなかった。いったいどこから来るのだろう？",
+    "二千年以上前、ギリシャの哲学者アリストテレスは答えを出していた。ウナギは泥から、ひとりでに生まれるというのだ。ほかの人たちは、露から生まれるとか、水に落ちた馬の毛から生まれるとか言っていた。",
+    "1876年、19歳の医学生がトリエステの研究室で働いていた。彼の仕事は、ウナギの雄の器官を見つけることだった。毎日、ウナギを次々と開いた。最後には400匹以上を開いたが、確かなものは何も見つからなかった。この学生の名前はジークムント・フロイト。のちに彼は進路を変え、人間の心を研究し始めた。",
+    "最初の本当の答えはシチリアから来た。1896年、イタリアの動物学者ジョヴァンニ・バッティスタ・グラッシは、メッシーナ海峡で、葉っぱのように平らな、透明な小さい魚を調べていた。誰もがそれは別の種類の魚だと思っていた。グラッシはそれを水槽で飼い、毎日観察した。ある日、その小魚は形を変えて、小さなウナギになった！それはウナギの幼生だったのだ。",
+    "では、幼生はどこで生まれるのか？デンマークの生物学者ヨハネス・シュミットは、20年近く海で幼生を探した。西へ行けば行くほど、幼生は小さくなった。1922年、彼は、いちばん小さい幼生がヨーロッパから何千キロも離れた、バミューダ近くのサルガッソー海にいると発表した。",
+    "謎は解けたのだろうか？完全にではない。今でも、ヨーロッパウナギが卵を産むところを見た人は誰もいないのだ。"
+   ]
+  }
+ }
+}
