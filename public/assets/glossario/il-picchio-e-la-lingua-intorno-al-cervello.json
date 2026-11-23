@@ -1,0 +1,1680 @@
+{
+ "id": "il-picchio-e-la-lingua-intorno-al-cervello",
+ "nota": "Glossario e traduzione della lettura (A1 e A2 tradotti; B2 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il parco",
+   "forme": [
+    "parco"
+   ],
+   "esempi": [
+    "La domenica andiamo al parco.",
+    "Nel parco ci sono molti alberi.",
+    "Il cane corre nel parco."
+   ],
+   "traduzioni": {
+    "en": "park",
+    "es": "parque",
+    "pt": "parque",
+    "fr": "parc",
+    "cs": "park",
+    "pl": "park",
+    "tr": "park",
+    "de": "Park",
+    "ja": "公園"
+   }
+  },
+  {
+   "parola": "il rumore",
+   "forme": [
+    "rumore"
+   ],
+   "esempi": [
+    "Che cos'è questo rumore?",
+    "Di notte sento un rumore strano.",
+    "Non fare rumore, il bambino dorme!"
+   ],
+   "traduzioni": {
+    "en": "noise",
+    "es": "ruido",
+    "pt": "barulho",
+    "fr": "bruit",
+    "cs": "hluk, zvuk",
+    "pl": "hałas, dźwięk",
+    "tr": "gürültü, ses",
+    "de": "Geräusch, Lärm",
+    "ja": "音、物音"
+   }
+  },
+  {
+   "parola": "bussare",
+   "forme": [
+    "bussa"
+   ],
+   "formeEsempi": [
+    "busso"
+   ],
+   "esempi": [
+    "Qualcuno bussa alla porta.",
+    "Busso prima di entrare.",
+    "Bussa, per favore!"
+   ],
+   "traduzioni": {
+    "en": "to knock",
+    "es": "llamar (a la puerta)",
+    "pt": "bater (à porta)",
+    "fr": "frapper",
+    "cs": "klepat",
+    "pl": "pukać",
+    "tr": "kapıyı çalmak",
+    "de": "klopfen",
+    "ja": "ノックする"
+   }
+  },
+  {
+   "parola": "la macchia",
+   "forme": [
+    "macchia"
+   ],
+   "esempi": [
+    "Ho una macchia di caffè sulla camicia.",
+    "Il cane ha una macchia nera sull'occhio.",
+    "Questa macchia non va via."
+   ],
+   "traduzioni": {
+    "en": "spot, stain, patch",
+    "es": "mancha",
+    "pt": "mancha",
+    "fr": "tache",
+    "cs": "skvrna",
+    "pl": "plama",
+    "tr": "leke",
+    "de": "Fleck",
+    "ja": "しみ、斑点"
+   }
+  },
+  {
+   "parola": "il picchio",
+   "forme": [
+    "picchio",
+    "picchi"
+   ],
+   "esempi": [
+    "Il picchio batte sul tronco.",
+    "Ho visto un picchio nel bosco.",
+    "I picchi mangiano insetti."
+   ],
+   "traduzioni": {
+    "en": "woodpecker",
+    "es": "pájaro carpintero",
+    "pt": "pica-pau",
+    "fr": "pic, pivert",
+    "cs": "datel, strakapoud",
+    "pl": "dzięcioł",
+    "tr": "ağaçkakan",
+    "de": "Specht",
+    "ja": "キツツキ"
+   }
+  },
+  {
+   "parola": "il becco",
+   "forme": [
+    "becco"
+   ],
+   "esempi": [
+    "L'uccello ha il becco giallo.",
+    "Il picchio usa il becco come un martello.",
+    "Il pulcino apre il becco."
+   ],
+   "traduzioni": {
+    "en": "beak",
+    "es": "pico",
+    "pt": "bico",
+    "fr": "bec",
+    "cs": "zobák",
+    "pl": "dziób",
+    "tr": "gaga",
+    "de": "Schnabel",
+    "ja": "くちばし"
+   }
+  },
+  {
+   "parola": "il legno",
+   "forme": [
+    "legno"
+   ],
+   "esempi": [
+    "Il tavolo è di legno.",
+    "Il picchio fa un buco nel legno.",
+    "Mettiamo il legno nel camino."
+   ],
+   "traduzioni": {
+    "en": "wood",
+    "es": "madera",
+    "pt": "madeira",
+    "fr": "bois",
+    "cs": "dřevo",
+    "pl": "drewno",
+    "tr": "tahta, odun",
+    "de": "Holz",
+    "ja": "木材"
+   }
+  },
+  {
+   "parola": "battere",
+   "forme": [
+    "batte",
+    "batteva",
+    "battere",
+    "batti",
+    "batto"
+   ],
+   "esempi": [
+    "Il cuore batte forte.",
+    "Ho battuto la testa contro la porta.",
+    "La pioggia batte sui vetri."
+   ],
+   "traduzioni": {
+    "en": "to hit, to bang, to beat",
+    "es": "golpear, dar",
+    "pt": "bater",
+    "fr": "frapper, cogner",
+    "cs": "bušit, bouchnout",
+    "pl": "uderzać, stukać",
+    "tr": "vurmak, çarpmak",
+    "de": "schlagen, stoßen",
+    "ja": "打つ、ぶつける"
+   },
+   "formeEsempi": [
+    "battuto"
+   ]
+  },
+  {
+   "parola": "il colpo",
+   "forme": [
+    "colpi",
+    "colpo"
+   ],
+   "esempi": [
+    "Ho sentito un colpo alla porta.",
+    "Ha preso un colpo in testa.",
+    "Si è fermato di colpo."
+   ],
+   "traduzioni": {
+    "en": "blow, knock, hit («di colpo» = suddenly)",
+    "es": "golpe",
+    "pt": "golpe, batida",
+    "fr": "coup",
+    "cs": "úder",
+    "pl": "uderzenie, cios",
+    "tr": "darbe, vuruş",
+    "de": "Schlag, Stoß",
+    "ja": "一撃、打撃"
+   }
+  },
+  {
+   "parola": "la lingua",
+   "forme": [
+    "lingua"
+   ],
+   "esempi": [
+    "Il cane ha la lingua fuori.",
+    "Mi sono morso la lingua.",
+    "L'italiano è una bella lingua."
+   ],
+   "traduzioni": {
+    "en": "tongue (also: language)",
+    "es": "lengua",
+    "pt": "língua",
+    "fr": "langue",
+    "cs": "jazyk",
+    "pl": "język",
+    "tr": "dil",
+    "de": "Zunge (auch: Sprache)",
+    "ja": "舌（言語、の意味も）"
+   }
+  },
+  {
+   "parola": "infilare",
+   "forme": [
+    "infila"
+   ],
+   "formeEsempi": [
+    "infilo"
+   ],
+   "esempi": [
+    "Infilo la chiave nella porta.",
+    "Infila le mani in tasca.",
+    "Il bambino infila il dito nel buco."
+   ],
+   "traduzioni": {
+    "en": "to stick in, to slip in, to insert",
+    "es": "meter, introducir",
+    "pt": "enfiar",
+    "fr": "glisser, enfiler",
+    "cs": "strčit, vsunout",
+    "pl": "wsunąć, włożyć",
+    "tr": "sokmak",
+    "de": "hineinstecken",
+    "ja": "差し込む"
+   }
+  },
+  {
+   "parola": "la formica",
+   "forme": [
+    "formiche"
+   ],
+   "formeEsempi": [
+    "formica"
+   ],
+   "esempi": [
+    "Le formiche lavorano insieme.",
+    "C'è una formica sul tavolo.",
+    "Il picchio mangia le formiche."
+   ],
+   "traduzioni": {
+    "en": "ant",
+    "es": "hormiga",
+    "pt": "formiga",
+    "fr": "fourmi",
+    "cs": "mravenec",
+    "pl": "mrówka",
+    "tr": "karınca",
+    "de": "Ameise",
+    "ja": "アリ"
+   }
+  },
+  {
+   "parola": "la cintura",
+   "forme": [
+    "cintura"
+   ],
+   "esempi": [
+    "Metti la cintura di sicurezza!",
+    "Questa cintura è di pelle.",
+    "I pantaloni sono larghi: mi serve una cintura."
+   ],
+   "traduzioni": {
+    "en": "belt («cintura di sicurezza» = seatbelt)",
+    "es": "cinturón",
+    "pt": "cinto",
+    "fr": "ceinture",
+    "cs": "pásek, pás",
+    "pl": "pasek, pas",
+    "tr": "kemer",
+    "de": "Gürtel, Gurt",
+    "ja": "ベルト"
+   }
+  },
+  {
+   "parola": "leggero",
+   "forme": [
+    "leggero"
+   ],
+   "formeEsempi": [
+    "leggera"
+   ],
+   "esempi": [
+    "La valigia è leggera.",
+    "Stasera mangio qualcosa di leggero.",
+    "La piuma è molto leggera."
+   ],
+   "traduzioni": {
+    "en": "light",
+    "es": "ligero",
+    "pt": "leve",
+    "fr": "léger",
+    "cs": "lehký",
+    "pl": "lekki",
+    "tr": "hafif",
+    "de": "leicht",
+    "ja": "軽い"
+   }
+  },
+  {
+   "parola": "resistere",
+   "forme": [
+    "resiste"
+   ],
+   "formeEsempi": [
+    "resisto"
+   ],
+   "esempi": [
+    "Questo vetro resiste agli urti.",
+    "Non resisto al cioccolato!",
+    "La pianta resiste al freddo."
+   ],
+   "traduzioni": {
+    "en": "to withstand, to resist",
+    "es": "resistir",
+    "pt": "resistir",
+    "fr": "résister",
+    "cs": "odolat",
+    "pl": "wytrzymać, opierać się",
+    "tr": "dayanmak",
+    "de": "widerstehen, standhalten",
+    "ja": "耐える"
+   }
+  },
+  {
+   "parola": "il gelato",
+   "forme": [
+    "gelato"
+   ],
+   "esempi": [
+    "Vorrei un gelato al limone.",
+    "D'estate mangio tanti gelati.",
+    "Il gelato si scioglie al sole."
+   ],
+   "traduzioni": {
+    "en": "ice cream",
+    "es": "helado",
+    "pt": "sorvete",
+    "fr": "glace",
+    "cs": "zmrzlina",
+    "pl": "lody",
+    "tr": "dondurma",
+    "de": "Eis",
+    "ja": "アイスクリーム"
+   },
+   "formeEsempi": [
+    "gelati"
+   ]
+  },
+  {
+   "parola": "d'accordo",
+   "forme": [
+    "accordo"
+   ],
+   "esempi": [
+    "Sono d'accordo con te.",
+    "D'accordo, ci vediamo alle otto.",
+    "Non siamo d'accordo."
+   ],
+   "traduzioni": {
+    "en": "agreed, in agreement; OK",
+    "es": "de acuerdo",
+    "pt": "de acordo",
+    "fr": "d'accord",
+    "cs": "souhlasit; dobře",
+    "pl": "zgoda; zgadzać się",
+    "tr": "anlaşmış; tamam",
+    "de": "einverstanden",
+    "ja": "賛成して、了解"
+   }
+  },
+  {
+   "parola": "farsi male",
+   "forme": [
+    "male"
+   ],
+   "esempi": [
+    "Sono caduto, ma non mi sono fatto male.",
+    "Attento, ti fai male!",
+    "Mi fa male la testa."
+   ],
+   "traduzioni": {
+    "en": "to hurt oneself («mi fa male» = it hurts)",
+    "es": "hacerse daño",
+    "pt": "machucar-se",
+    "fr": "se faire mal",
+    "cs": "ublížit si",
+    "pl": "zrobić sobie krzywdę",
+    "tr": "canını yakmak",
+    "de": "sich wehtun",
+    "ja": "けがをする、痛める"
+   }
+  },
+  {
+   "parola": "il cranio",
+   "forme": [
+    "cranio"
+   ],
+   "esempi": [
+    "Il cranio protegge il cervello.",
+    "Al museo c'è un cranio di dinosauro.",
+    "Il medico guarda la radiografia del cranio."
+   ],
+   "traduzioni": {
+    "en": "skull",
+    "es": "cráneo",
+    "pt": "crânio",
+    "fr": "crâne",
+    "cs": "lebka",
+    "pl": "czaszka",
+    "tr": "kafatası",
+    "de": "Schädel",
+    "ja": "頭蓋骨"
+   }
+  },
+  {
+   "parola": "la sicurezza",
+   "forme": [
+    "sicurezza"
+   ],
+   "esempi": [
+    "La sicurezza prima di tutto!",
+    "Allaccia la cintura di sicurezza.",
+    "Parla con sicurezza."
+   ],
+   "traduzioni": {
+    "en": "safety, security",
+    "es": "seguridad",
+    "pt": "segurança",
+    "fr": "sécurité",
+    "cs": "bezpečnost",
+    "pl": "bezpieczeństwo",
+    "tr": "güvenlik",
+    "de": "Sicherheit",
+    "ja": "安全"
+   }
+  },
+  {
+   "parola": "il casco",
+   "forme": [
+    "casco",
+    "caschi"
+   ],
+   "esempi": [
+    "In moto metto sempre il casco.",
+    "I caschi proteggono la testa.",
+    "Il casco della bici è rosso."
+   ],
+   "traduzioni": {
+    "en": "helmet",
+    "es": "casco",
+    "pt": "capacete",
+    "fr": "casque",
+    "cs": "helma, přilba",
+    "pl": "kask",
+    "tr": "kask",
+    "de": "Helm",
+    "ja": "ヘルメット"
+   }
+  },
+  {
+   "parola": "l'urto",
+   "forme": [
+    "urti",
+    "urto"
+   ],
+   "esempi": [
+    "Il telefono non resiste agli urti.",
+    "Nell'urto si è rotto il vetro.",
+    "Questa custodia protegge dagli urti."
+   ],
+   "traduzioni": {
+    "en": "impact, bump, shock",
+    "es": "golpe, choque",
+    "pt": "impacto, batida",
+    "fr": "choc",
+    "cs": "náraz",
+    "pl": "uderzenie, wstrząs",
+    "tr": "darbe, çarpma",
+    "de": "Stoß, Aufprall",
+    "ja": "衝撃"
+   }
+  },
+  {
+   "parola": "controllare",
+   "forme": [
+    "controllare"
+   ],
+   "formeEsempi": [
+    "controllo",
+    "controlla"
+   ],
+   "esempi": [
+    "Devo controllare la posta.",
+    "Controllo se la porta è chiusa.",
+    "Il medico controlla la pressione."
+   ],
+   "traduzioni": {
+    "en": "to check",
+    "es": "comprobar, revisar",
+    "pt": "verificar, conferir",
+    "fr": "vérifier",
+    "cs": "zkontrolovat",
+    "pl": "sprawdzić",
+    "tr": "kontrol etmek",
+    "de": "überprüfen",
+    "ja": "確かめる"
+   }
+  },
+  {
+   "parola": "filmare",
+   "forme": [
+    "filmato"
+   ],
+   "formeEsempi": [
+    "filmo",
+    "filmare"
+   ],
+   "esempi": [
+    "Ho filmato la festa con il telefono.",
+    "Filmo il concerto.",
+    "Non si può filmare nel museo."
+   ],
+   "traduzioni": {
+    "en": "to film",
+    "es": "filmar, grabar",
+    "pt": "filmar",
+    "fr": "filmer",
+    "cs": "natočit",
+    "pl": "filmować, nagrać",
+    "tr": "filme almak",
+    "de": "filmen",
+    "ja": "撮影する"
+   }
+  },
+  {
+   "parola": "la sorpresa",
+   "forme": [
+    "sorpresa"
+   ],
+   "esempi": [
+    "Che bella sorpresa!",
+    "È stata una sorpresa per tutti.",
+    "Ti ho preparato una sorpresa."
+   ],
+   "traduzioni": {
+    "en": "surprise",
+    "es": "sorpresa",
+    "pt": "surpresa",
+    "fr": "surprise",
+    "cs": "překvapení",
+    "pl": "niespodzianka",
+    "tr": "sürpriz",
+    "de": "Überraschung",
+    "ja": "驚き"
+   }
+  },
+  {
+   "parola": "assorbire",
+   "forme": [
+    "assorbiva",
+    "assorbisse"
+   ],
+   "formeEsempi": [
+    "assorbe",
+    "assorbono"
+   ],
+   "esempi": [
+    "La spugna assorbe l'acqua.",
+    "Questo tappeto assorbe il rumore.",
+    "Le scarpe da corsa assorbono i colpi."
+   ],
+   "traduzioni": {
+    "en": "to absorb",
+    "es": "absorber",
+    "pt": "absorver",
+    "fr": "absorber",
+    "cs": "pohltit, absorbovat",
+    "pl": "pochłaniać",
+    "tr": "emmek, sönümlemek",
+    "de": "aufnehmen, abfangen",
+    "ja": "吸収する"
+   }
+  },
+  {
+   "parola": "il martello",
+   "forme": [
+    "martello"
+   ],
+   "esempi": [
+    "Mi passi il martello?",
+    "Batto il chiodo con il martello.",
+    "Il martello è nella cassetta degli attrezzi."
+   ],
+   "traduzioni": {
+    "en": "hammer",
+    "es": "martillo",
+    "pt": "martelo",
+    "fr": "marteau",
+    "cs": "kladivo",
+    "pl": "młotek",
+    "tr": "çekiç",
+    "de": "Hammer",
+    "ja": "ハンマー"
+   }
+  },
+  {
+   "parola": "togliere",
+   "forme": [
+    "toglie"
+   ],
+   "formeEsempi": [
+    "tolgo",
+    "togli"
+   ],
+   "esempi": [
+    "Tolgo le scarpe quando entro in casa.",
+    "Il caffè mi toglie il sonno.",
+    "Togli il piatto dal tavolo."
+   ],
+   "traduzioni": {
+    "en": "to take away, to remove",
+    "es": "quitar",
+    "pt": "tirar",
+    "fr": "enlever, ôter",
+    "cs": "sundat, vzít",
+    "pl": "zdjąć, zabrać",
+    "tr": "çıkarmak, almak",
+    "de": "wegnehmen, ausziehen",
+    "ja": "取る、取り除く"
+   }
+  },
+  {
+   "parola": "la misura",
+   "forme": [
+    "misura"
+   ],
+   "esempi": [
+    "Che misura di scarpe porti?",
+    "Questa giacca non è della mia misura.",
+    "Il segreto è la misura."
+   ],
+   "traduzioni": {
+    "en": "size, measure",
+    "es": "tamaño, talla, medida",
+    "pt": "tamanho, medida",
+    "fr": "taille, mesure",
+    "cs": "velikost, míra",
+    "pl": "rozmiar",
+    "tr": "boyut, ölçü",
+    "de": "Größe, Maß",
+    "ja": "サイズ、大きさ"
+   }
+  },
+  {
+   "parola": "sopportare",
+   "forme": [
+    "sopporta"
+   ],
+   "formeEsempi": [
+    "sopporto",
+    "sopporti"
+   ],
+   "esempi": [
+    "Non sopporto il rumore.",
+    "Il ponte sopporta camion pesanti.",
+    "Come sopporti questo caldo?"
+   ],
+   "traduzioni": {
+    "en": "to bear, to withstand",
+    "es": "soportar, aguantar",
+    "pt": "suportar, aguentar",
+    "fr": "supporter",
+    "cs": "snést, vydržet",
+    "pl": "znosić, wytrzymać",
+    "tr": "dayanmak",
+    "de": "aushalten",
+    "ja": "耐える"
+   }
+  },
+  {
+   "parola": "principale",
+   "forme": [
+    "principale"
+   ],
+   "esempi": [
+    "La piazza principale è in centro.",
+    "Il motivo principale è il prezzo.",
+    "È il personaggio principale."
+   ],
+   "traduzioni": {
+    "en": "main, principal",
+    "es": "principal",
+    "pt": "principal",
+    "fr": "principal",
+    "cs": "hlavní",
+    "pl": "główny",
+    "tr": "ana, başlıca",
+    "de": "Haupt-",
+    "ja": "主な"
+   }
+  },
+  {
+   "parola": "il pronto soccorso",
+   "forme": [
+    "soccorso"
+   ],
+   "esempi": [
+    "Mi sono tagliato e sono andato al pronto soccorso.",
+    "Il pronto soccorso è aperto tutta la notte.",
+    "Chiamiamo il soccorso alpino."
+   ],
+   "traduzioni": {
+    "en": "A&E, emergency room («soccorso» = help, rescue)",
+    "es": "urgencias",
+    "pt": "pronto-socorro",
+    "fr": "urgences",
+    "cs": "pohotovost",
+    "pl": "ostry dyżur, SOR",
+    "tr": "acil servis",
+    "de": "Notaufnahme",
+    "ja": "救急外来"
+   }
+  },
+  {
+   "parola": "tamburellare",
+   "forme": [
+    "tamburella"
+   ],
+   "esempi": [
+    "Tamburella le dita sul tavolo.",
+    "La pioggia tamburella sul tetto.",
+    "Il picchio tamburella sui rami."
+   ],
+   "traduzioni": {
+    "en": "to drum, to tap",
+    "es": "tamborilear",
+    "pt": "tamborilar",
+    "fr": "tambouriner",
+    "cs": "bubnovat",
+    "pl": "bębnić",
+    "tr": "parmaklarını tıkırdatmak, tıkırdamak",
+    "de": "trommeln",
+    "ja": "トントンたたく"
+   }
+  },
+  {
+   "parola": "il territorio",
+   "forme": [
+    "territorio"
+   ],
+   "esempi": [
+    "Il cane difende il suo territorio.",
+    "Il territorio della regione è montuoso.",
+    "Gli uccelli cantano per segnare il territorio."
+   ],
+   "traduzioni": {
+    "en": "territory",
+    "es": "territorio",
+    "pt": "território",
+    "fr": "territoire",
+    "cs": "území, teritorium",
+    "pl": "terytorium",
+    "tr": "bölge",
+    "de": "Revier, Gebiet",
+    "ja": "なわばり、領域"
+   }
+  },
+  {
+   "parola": "la frenata",
+   "forme": [
+    "frenata"
+   ],
+   "esempi": [
+    "Ho sentito una frenata in strada.",
+    "Con la frenata è caduto il caffè.",
+    "Una frenata improvvisa."
+   ],
+   "traduzioni": {
+    "en": "braking, sudden stop",
+    "es": "frenazo",
+    "pt": "freada",
+    "fr": "freinage",
+    "cs": "brzdění",
+    "pl": "hamowanie",
+    "tr": "fren, ani duruş",
+    "de": "Bremsung",
+    "ja": "急ブレーキ、減速"
+   }
+  },
+  {
+   "parola": "brusco",
+   "forme": [
+    "brusca",
+    "brusche"
+   ],
+   "formeEsempi": [
+    "brusco"
+   ],
+   "esempi": [
+    "Il treno si è fermato in modo brusco.",
+    "Mi ha risposto in modo brusco.",
+    "Le frenate brusche sono pericolose."
+   ],
+   "traduzioni": {
+    "en": "sudden, abrupt",
+    "es": "brusco",
+    "pt": "brusco",
+    "fr": "brusque",
+    "cs": "prudký, náhlý",
+    "pl": "gwałtowny",
+    "tr": "ani, sert",
+    "de": "abrupt, heftig",
+    "ja": "急な、ぶっきらぼうな"
+   }
+  },
+  {
+   "parola": "la commozione cerebrale",
+   "forme": [
+    "commozione"
+   ],
+   "esempi": [
+    "Dopo la caduta ha avuto una commozione cerebrale.",
+    "I pugili rischiano la commozione cerebrale.",
+    "Con il casco eviti la commozione."
+   ],
+   "traduzioni": {
+    "en": "concussion",
+    "es": "conmoción cerebral",
+    "pt": "concussão cerebral",
+    "fr": "commotion cérébrale",
+    "cs": "otřes mozku",
+    "pl": "wstrząśnienie mózgu",
+    "tr": "beyin sarsıntısı",
+    "de": "Gehirnerschütterung",
+    "ja": "脳しんとう"
+   }
+  },
+  {
+   "parola": "il decennio",
+   "forme": [
+    "decenni"
+   ],
+   "formeEsempi": [
+    "decennio"
+   ],
+   "esempi": [
+    "La città è cambiata negli ultimi decenni.",
+    "È il miglior film del decennio.",
+    "Per decenni nessuno ha capito."
+   ],
+   "traduzioni": {
+    "en": "decade",
+    "es": "década",
+    "pt": "década",
+    "fr": "décennie",
+    "cs": "desetiletí",
+    "pl": "dekada",
+    "tr": "on yıl",
+    "de": "Jahrzehnt",
+    "ja": "10年間"
+   }
+  },
+  {
+   "parola": "il riposo",
+   "forme": [
+    "riposo"
+   ],
+   "esempi": [
+    "Il medico mi ha detto: riposo assoluto.",
+    "Oggi è il mio giorno di riposo.",
+    "A riposo il cuore batte piano."
+   ],
+   "traduzioni": {
+    "en": "rest («a riposo» = at rest)",
+    "es": "descanso, reposo",
+    "pt": "descanso, repouso",
+    "fr": "repos",
+    "cs": "odpočinek",
+    "pl": "odpoczynek, spoczynek",
+    "tr": "dinlenme",
+    "de": "Ruhe",
+    "ja": "休息"
+   }
+  },
+  {
+   "parola": "sostenere",
+   "forme": [
+    "sostenuta"
+   ],
+   "formeEsempi": [
+    "sostiene",
+    "sostengono",
+    "sostenuto"
+   ],
+   "esempi": [
+    "Le colonne sostengono il tetto.",
+    "Mia madre mi sostiene sempre.",
+    "Il ponte è sostenuto da cavi."
+   ],
+   "traduzioni": {
+    "en": "to support, to hold up",
+    "es": "sostener",
+    "pt": "sustentar, apoiar",
+    "fr": "soutenir",
+    "cs": "podpírat, podporovat",
+    "pl": "podtrzymywać, wspierać",
+    "tr": "taşımak, desteklemek",
+    "de": "stützen, tragen",
+    "ja": "支える"
+   }
+  },
+  {
+   "parola": "la gola",
+   "forme": [
+    "gola"
+   ],
+   "esempi": [
+    "Ho mal di gola.",
+    "Ho la gola secca.",
+    "Il cibo mi è andato di traverso in gola."
+   ],
+   "traduzioni": {
+    "en": "throat",
+    "es": "garganta",
+    "pt": "garganta",
+    "fr": "gorge",
+    "cs": "krk, hrdlo",
+    "pl": "gardło",
+    "tr": "boğaz",
+    "de": "Hals, Kehle",
+    "ja": "のど"
+   }
+  },
+  {
+   "parola": "la nuca",
+   "forme": [
+    "nuca"
+   ],
+   "esempi": [
+    "Ho un dolore alla nuca.",
+    "Il sole mi brucia la nuca.",
+    "Si gratta la nuca."
+   ],
+   "traduzioni": {
+    "en": "nape (of the neck)",
+    "es": "nuca",
+    "pt": "nuca",
+    "fr": "nuque",
+    "cs": "zátylek",
+    "pl": "kark",
+    "tr": "ense",
+    "de": "Nacken",
+    "ja": "うなじ"
+   }
+  },
+  {
+   "parola": "la narice",
+   "forme": [
+    "narice"
+   ],
+   "esempi": [
+    "Ho la narice destra chiusa.",
+    "Respira da una narice.",
+    "Il cavallo ha grandi narici."
+   ],
+   "traduzioni": {
+    "en": "nostril",
+    "es": "fosa nasal",
+    "pt": "narina",
+    "fr": "narine",
+    "cs": "nosní dírka",
+    "pl": "nozdrze",
+    "tr": "burun deliği",
+    "de": "Nasenloch",
+    "ja": "鼻の穴"
+   },
+   "formeEsempi": [
+    "narici"
+   ]
+  },
+  {
+   "parola": "avvolto",
+   "forme": [
+    "avvolta"
+   ],
+   "formeEsempi": [
+    "avvolto"
+   ],
+   "esempi": [
+    "Il bambino dorme avvolto in una coperta.",
+    "La città è avvolta dalla nebbia.",
+    "Il regalo è avvolto nella carta."
+   ],
+   "traduzioni": {
+    "en": "wrapped",
+    "es": "envuelto",
+    "pt": "envolvido, embrulhado",
+    "fr": "enveloppé",
+    "cs": "zabalený",
+    "pl": "owinięty",
+    "tr": "sarılmış",
+    "de": "eingehüllt",
+    "ja": "包まれた"
+   }
+  },
+  {
+   "parola": "ammortizzare",
+   "forme": [
+    "ammortizzati",
+    "ammortizzasse"
+   ],
+   "formeEsempi": [
+    "ammortizza",
+    "ammortizzano"
+   ],
+   "esempi": [
+    "Le scarpe ammortizzano i salti.",
+    "Il materasso ammortizza il peso.",
+    "I colpi vengono ammortizzati dalle gomme."
+   ],
+   "traduzioni": {
+    "en": "to cushion, to absorb (shocks)",
+    "es": "amortiguar",
+    "pt": "amortecer",
+    "fr": "amortir",
+    "cs": "tlumit",
+    "pl": "amortyzować",
+    "tr": "darbeyi emmek",
+    "de": "dämpfen, abfedern",
+    "ja": "衝撃を和らげる"
+   }
+  },
+  {
+   "parola": "spugnoso",
+   "forme": [
+    "spugnoso"
+   ],
+   "formeEsempi": [
+    "spugnosa"
+   ],
+   "esempi": [
+    "Il pane è morbido e spugnoso.",
+    "Questo terreno è spugnoso.",
+    "L'osso spugnoso è leggero."
+   ],
+   "traduzioni": {
+    "en": "spongy",
+    "es": "esponjoso",
+    "pt": "esponjoso",
+    "fr": "spongieux",
+    "cs": "houbovitý",
+    "pl": "gąbczasty",
+    "tr": "süngerimsi",
+    "de": "schwammig",
+    "ja": "スポンジ状の"
+   }
+  },
+  {
+   "parola": "ispirare",
+   "forme": [
+    "ispirato"
+   ],
+   "formeEsempi": [
+    "ispira"
+   ],
+   "esempi": [
+    "Il mare mi ispira.",
+    "Il film è ispirato a una storia vera.",
+    "Questo luogo ispira tranquillità."
+   ],
+   "traduzioni": {
+    "en": "to inspire",
+    "es": "inspirar",
+    "pt": "inspirar",
+    "fr": "inspirer",
+    "cs": "inspirovat",
+    "pl": "inspirować",
+    "tr": "ilham vermek",
+    "de": "inspirieren",
+    "ja": "着想を与える"
+   }
+  },
+  {
+   "parola": "spaccare",
+   "forme": [
+    "spaccare"
+   ],
+   "formeEsempi": [
+    "spacca",
+    "spaccato"
+   ],
+   "esempi": [
+    "Il nonno spacca la legna.",
+    "Il ghiaccio ha spaccato la roccia.",
+    "Attento a non spaccare il vetro!"
+   ],
+   "traduzioni": {
+    "en": "to split, to break, to crack",
+    "es": "partir, romper",
+    "pt": "rachar, quebrar",
+    "fr": "fendre, casser",
+    "cs": "štípat, rozbít",
+    "pl": "rozłupać, rozbić",
+    "tr": "yarmak, kırmak",
+    "de": "spalten",
+    "ja": "割る"
+   }
+  },
+  {
+   "parola": "lo spreco",
+   "forme": [
+    "spreco"
+   ],
+   "esempi": [
+    "Buttare il pane è uno spreco.",
+    "Che spreco di tempo!",
+    "Combattiamo lo spreco di cibo."
+   ],
+   "traduzioni": {
+    "en": "waste",
+    "es": "derroche, desperdicio",
+    "pt": "desperdício",
+    "fr": "gaspillage",
+    "cs": "plýtvání",
+    "pl": "marnotrawstwo",
+    "tr": "israf",
+    "de": "Verschwendung",
+    "ja": "無駄"
+   }
+  },
+  {
+   "parola": "la fatica",
+   "forme": [
+    "fatica"
+   ],
+   "esempi": [
+    "Che fatica salire le scale!",
+    "Faccio fatica a capire.",
+    "Dopo il lavoro sento la fatica."
+   ],
+   "traduzioni": {
+    "en": "effort, tiredness («fare fatica» = to struggle)",
+    "es": "esfuerzo, cansancio",
+    "pt": "esforço, cansaço",
+    "fr": "effort, fatigue",
+    "cs": "námaha, únava",
+    "pl": "wysiłek, zmęczenie",
+    "tr": "zahmet, yorgunluk",
+    "de": "Mühe, Anstrengung",
+    "ja": "苦労、疲れ"
+   }
+  },
+  {
+   "parola": "la gomma",
+   "forme": [
+    "gomma"
+   ],
+   "esempi": [
+    "Mi presti la gomma per cancellare?",
+    "Gli stivali sono di gomma.",
+    "Ho bucato una gomma della bici."
+   ],
+   "traduzioni": {
+    "en": "rubber (also: eraser, tyre)",
+    "es": "goma",
+    "pt": "borracha",
+    "fr": "caoutchouc (aussi : gomme, pneu)",
+    "cs": "guma",
+    "pl": "guma",
+    "tr": "lastik, silgi",
+    "de": "Gummi (auch: Radiergummi, Reifen)",
+    "ja": "ゴム（消しゴム、タイヤ、の意味も）"
+   }
+  },
+  {
+   "parola": "il chiodo",
+   "forme": [
+    "chiodo"
+   ],
+   "esempi": [
+    "Metto un chiodo nel muro per il quadro.",
+    "Ho pestato un chiodo.",
+    "Mi serve un martello e un chiodo."
+   ],
+   "traduzioni": {
+    "en": "nail",
+    "es": "clavo",
+    "pt": "prego",
+    "fr": "clou",
+    "cs": "hřebík",
+    "pl": "gwóźdź",
+    "tr": "çivi",
+    "de": "Nagel",
+    "ja": "くぎ"
+   }
+  },
+  {
+   "parola": "la dimensione",
+   "forme": [
+    "dimensioni"
+   ],
+   "formeEsempi": [
+    "dimensione"
+   ],
+   "esempi": [
+    "Quali sono le dimensioni del tavolo?",
+    "Il problema ha grandi dimensioni.",
+    "Conta la dimensione del cervello."
+   ],
+   "traduzioni": {
+    "en": "size, dimension",
+    "es": "tamaño, dimensión",
+    "pt": "tamanho, dimensão",
+    "fr": "taille, dimension",
+    "cs": "velikost, rozměr",
+    "pl": "rozmiar, wymiar",
+    "tr": "boyut",
+    "de": "Größe, Abmessung",
+    "ja": "大きさ、寸法"
+   }
+  },
+  {
+   "parola": "la soglia",
+   "forme": [
+    "soglia"
+   ],
+   "esempi": [
+    "Si è fermato sulla soglia di casa.",
+    "Abbiamo superato la soglia dei cento clienti.",
+    "La soglia del dolore cambia da persona a persona."
+   ],
+   "traduzioni": {
+    "en": "threshold",
+    "es": "umbral",
+    "pt": "limiar, soleira",
+    "fr": "seuil",
+    "cs": "práh",
+    "pl": "próg",
+    "tr": "eşik",
+    "de": "Schwelle",
+    "ja": "しきい値、敷居"
+   }
+  },
+  {
+   "parola": "il palo",
+   "forme": [
+    "palo"
+   ],
+   "esempi": [
+    "La palla ha colpito il palo.",
+    "C'è un uccello sul palo della luce.",
+    "Il cane è legato a un palo."
+   ],
+   "traduzioni": {
+    "en": "pole, post",
+    "es": "poste, palo",
+    "pt": "poste, estaca",
+    "fr": "poteau",
+    "cs": "sloup, tyč",
+    "pl": "słup",
+    "tr": "direk",
+    "de": "Pfahl, Mast",
+    "ja": "柱、ポール"
+   }
+  },
+  {
+   "parola": "l'aquila",
+   "forme": [
+    "aquile"
+   ],
+   "formeEsempi": [
+    "aquila"
+   ],
+   "esempi": [
+    "L'aquila vola sopra le montagne.",
+    "Le aquile hanno una vista eccellente.",
+    "L'aquila è il simbolo di molti paesi."
+   ],
+   "traduzioni": {
+    "en": "eagle",
+    "es": "águila",
+    "pt": "águia",
+    "fr": "aigle",
+    "cs": "orel",
+    "pl": "orzeł",
+    "tr": "kartal",
+    "de": "Adler",
+    "ja": "ワシ"
+   }
+  },
+  {
+   "parola": "inutile",
+   "forme": [
+    "inutile"
+   ],
+   "esempi": [
+    "È inutile piangere.",
+    "Questo oggetto è inutile.",
+    "Non fare domande inutili."
+   ],
+   "traduzioni": {
+    "en": "useless, pointless",
+    "es": "inútil",
+    "pt": "inútil",
+    "fr": "inutile",
+    "cs": "zbytečný",
+    "pl": "bezużyteczny",
+    "tr": "gereksiz, işe yaramaz",
+    "de": "nutzlos",
+    "ja": "役に立たない"
+   },
+   "formeEsempi": [
+    "inutili"
+   ]
+  },
+  {
+   "parola": "il collo",
+   "forme": [
+    "collo"
+   ],
+   "esempi": [
+    "Mi fa male il collo.",
+    "La giraffa ha il collo lungo.",
+    "Porta una sciarpa al collo."
+   ],
+   "traduzioni": {
+    "en": "neck",
+    "es": "cuello",
+    "pt": "pescoço",
+    "fr": "cou",
+    "cs": "krk",
+    "pl": "szyja",
+    "tr": "boyun",
+    "de": "Hals",
+    "ja": "首"
+   }
+  },
+  {
+   "parola": "la galleria",
+   "forme": [
+    "gallerie"
+   ],
+   "formeEsempi": [
+    "galleria"
+   ],
+   "esempi": [
+    "Il treno entra in galleria.",
+    "Le formiche scavano gallerie.",
+    "Visitiamo una galleria d'arte."
+   ],
+   "traduzioni": {
+    "en": "tunnel (also: gallery)",
+    "es": "túnel, galería",
+    "pt": "túnel, galeria",
+    "fr": "tunnel, galerie",
+    "cs": "tunel, chodba (i: galerie)",
+    "pl": "tunel, korytarz (też: galeria)",
+    "tr": "tünel, galeri",
+    "de": "Tunnel, Gang (auch: Galerie)",
+    "ja": "トンネル（ギャラリー、の意味も）"
+   }
+  },
+  {
+   "parola": "l'accumulo",
+   "forme": [
+    "accumuli"
+   ],
+   "formeEsempi": [
+    "accumulo"
+   ],
+   "esempi": [
+    "C'è un accumulo di neve sul tetto.",
+    "Gli accumuli di grasso fanno male al cuore.",
+    "Ho un accumulo di lavoro."
+   ],
+   "traduzioni": {
+    "en": "build-up, accumulation",
+    "es": "acumulación",
+    "pt": "acúmulo",
+    "fr": "accumulation",
+    "cs": "nahromadění",
+    "pl": "nagromadzenie",
+    "tr": "birikim",
+    "de": "Ansammlung",
+    "ja": "蓄積"
+   }
+  },
+  {
+   "parola": "il trauma",
+   "forme": [
+    "traumi"
+   ],
+   "formeEsempi": [
+    "trauma"
+   ],
+   "esempi": [
+    "Ha avuto un trauma cranico.",
+    "Lo sport può causare traumi.",
+    "Quell'incidente è stato un trauma."
+   ],
+   "traduzioni": {
+    "en": "trauma, injury",
+    "es": "traumatismo, trauma",
+    "pt": "trauma, traumatismo",
+    "fr": "traumatisme",
+    "cs": "úraz, trauma",
+    "pl": "uraz, trauma",
+    "tr": "travma",
+    "de": "Trauma, Verletzung",
+    "ja": "外傷、トラウマ"
+   }
+  },
+  {
+   "parola": "addirittura",
+   "forme": [
+    "addirittura"
+   ],
+   "esempi": [
+    "Ha mangiato addirittura tre pizze!",
+    "Costa addirittura mille euro.",
+    "È venuto addirittura il sindaco."
+   ],
+   "traduzioni": {
+    "en": "even, actually (emphatic)",
+    "es": "incluso, hasta",
+    "pt": "até mesmo",
+    "fr": "même, carrément",
+    "cs": "dokonce",
+    "pl": "wręcz, nawet",
+    "tr": "hatta",
+    "de": "sogar",
+    "ja": "なんと、…さえ"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "It's Sunday. Sara and her dad are walking in the park. Suddenly Sara hears a noise: tock tock tock tock!\n– Dad, who's knocking? There are no doors here!",
+    "Dad looks up and points at a tree. On the trunk there's a black and white bird, with a red spot on its head.\n– It's a woodpecker, – says Dad. – The woodpecker hits its beak on the wood.",
+    "– Why does it bang its head against the tree? Doesn't it get a headache?\n– No. The woodpecker is working. With its beak it makes a hole in the wood. In the hole it looks for insects and eats them. In spring it also gets the house ready for its babies.",
+    "Sara counts the blows: one, two, three… Too fast! The woodpecker hits its beak up to twenty times a second.",
+    "– And do you know the strangest thing? – asks Dad. – The woodpecker's tongue. It's very, very long! The green woodpecker has a tongue ten centimetres long. The woodpecker sticks its tongue into holes and catches ants.",
+    "– And when it isn't eating? Where does it put its tongue?\n– In its head! The tongue goes into the beak, goes round the back of the head and passes over the brain, like a belt.",
+    "– So the tongue protects the brain!\n– Lots of people think so. But today scientists study woodpeckers with super-fast cameras, and the secret is something else: the woodpecker's brain is small and light. A small brain can withstand blows. A big brain, like ours, can't.",
+    "Sara touches her head with her hand.\n– So I don't bang my head against trees!\n– No, – laughs Dad. – You don't bang your head. You eat an ice cream. The woodpecker eats ants.",
+    "Tock tock tock. The woodpecker goes on working. Sara and Dad listen, and then walk towards the park café."
+   ],
+   "a2": [
+    "For many years everyone agreed: the woodpecker had a secret. It hit its beak against trees lots of times a day, even twenty times a second, but it didn't hurt itself. How was that possible?",
+    "The answer seemed easy: the tongue. The woodpecker's tongue is very long. The green woodpecker's reaches ten centimetres, a third of its body. When the woodpecker isn't eating, the tongue and its little bones go round the back of the head and pass over the skull, as far as the beak.",
+    "For many scientists this tongue was a sort of seatbelt: it held the brain still during the blows. And the head, they said, was like a soft helmet. Some engineers studied the woodpecker to build helmets and protection against impacts. It was a nice story, and everyone told it.",
+    "Then, in 2022, a group of researchers led by the Belgian biologist Sam Van Wassenbergh decided to check. They filmed six woodpeckers with super-fast cameras that take thousands of pictures a second. They watched 109 videos, blow by blow.",
+    "The result was a surprise. In the videos the woodpecker's head didn't absorb the blows: the beak and the brain stopped together, at the same moment. The head wasn't a soft helmet. It was a hard hammer.",
+    "The researchers also explained why. A soft head takes force away from the blow, and the woodpecker would have to hit much harder to make its hole. A soft hammer is useless!",
+    "So how does it protect its brain? The secret is size. The woodpecker's brain is small and light, and a small brain can withstand much stronger blows than a big brain like ours.",
+    "And the tongue? It really is long and it really does go round the head. Maybe it helps a little, but its main job is something else: catching ants at the bottom of holes."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Es domingo. Sara y su papá pasean por el parque. De repente Sara oye un ruido: ¡toc toc toc toc!\n– Papá, ¿quién llama? ¡Aquí no hay puertas!",
+    "El papá mira hacia arriba y señala un árbol. En el tronco hay un pájaro blanco y negro, con una mancha roja en la cabeza.\n– Es un pájaro carpintero, – dice el papá. – El pájaro carpintero golpea el pico contra la madera.",
+    "– ¿Por qué se da golpes en la cabeza contra el árbol? ¿No le duele la cabeza?\n– No. El pájaro carpintero trabaja. Con el pico abre un agujero en la madera. En el agujero busca insectos y se los come. En primavera también prepara la casa para sus crías.",
+    "Sara cuenta los golpes: uno, dos, tres… ¡Demasiado rápido! El pájaro carpintero golpea el pico hasta veinte veces por segundo.",
+    "– ¿Y sabes qué es lo más raro? – pregunta el papá. – La lengua del pájaro carpintero. ¡Es larguísima! El pito real tiene una lengua de diez centímetros. El pájaro carpintero mete la lengua en los agujeros y atrapa hormigas.",
+    "– ¿Y cuando no come? ¿Dónde pone la lengua?\n– ¡En la cabeza! La lengua entra en el pico, da la vuelta por detrás de la cabeza y pasa por encima del cerebro, como un cinturón.",
+    "– ¡Entonces la lengua protege el cerebro!\n– Mucha gente lo piensa. Pero hoy los científicos estudian a los pájaros carpinteros con cámaras rapidísimas, y el secreto es otro: el cerebro del pájaro carpintero es pequeño y ligero. Un cerebro pequeño resiste los golpes. Un cerebro grande, como el nuestro, no.",
+    "Sara se toca la cabeza con la mano.\n– ¡Entonces yo no me doy golpes contra los árboles!\n– No, – se ríe el papá. – Tú no te das golpes en la cabeza. Tú te comes un helado. El pájaro carpintero se come las hormigas.",
+    "Toc toc toc. El pájaro carpintero sigue trabajando. Sara y su papá escuchan, y luego caminan hacia el bar del parque."
+   ],
+   "a2": [
+    "Durante muchos años todos estaban de acuerdo: el pájaro carpintero tenía un secreto. Golpeaba el pico contra los árboles muchísimas veces al día, incluso veinte veces por segundo, pero no se hacía daño. ¿Cómo era posible?",
+    "La respuesta parecía fácil: la lengua. La lengua del pájaro carpintero es larguísima. La del pito real llega a diez centímetros, un tercio de su cuerpo. Cuando el pájaro carpintero no come, la lengua y sus pequeños huesos dan la vuelta por detrás de la cabeza y pasan por encima del cráneo, hasta el pico.",
+    "Para muchos científicos esta lengua era una especie de cinturón de seguridad: sujetaba el cerebro durante los golpes. Y la cabeza, decían, era como un casco blando. Algunos ingenieros estudiaron al pájaro carpintero para fabricar cascos y protecciones contra los golpes. Era una historia bonita, y todos la contaban.",
+    "Luego, en 2022, un grupo de investigadores dirigido por el biólogo belga Sam Van Wassenbergh decidió comprobarlo. Filmaron a seis pájaros carpinteros con cámaras rapidísimas, que hacen miles de imágenes por segundo. Vieron 109 vídeos, golpe a golpe.",
+    "El resultado fue una sorpresa. En los vídeos la cabeza del pájaro carpintero no absorbía los golpes: el pico y el cerebro se paraban juntos, en el mismo momento. La cabeza no era un casco blando. Era un martillo duro.",
+    "Los investigadores explicaron también por qué. Una cabeza blanda le quita fuerza al golpe, y el pájaro carpintero tendría que golpear mucho más fuerte para hacer su agujero. ¡Un martillo blando no sirve para nada!",
+    "Entonces, ¿cómo se protege el cerebro? El secreto es el tamaño. El cerebro del pájaro carpintero es pequeño y ligero, y un cerebro pequeño soporta golpes mucho más fuertes que un cerebro grande como el nuestro.",
+    "¿Y la lengua? Es de verdad larga y de verdad rodea la cabeza. Quizás ayude un poco, pero su trabajo principal es otro: atrapar hormigas en el fondo de los agujeros."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "É domingo. A Sara e o pai estão passeando no parque. De repente a Sara ouve um barulho: toc toc toc toc!\n– Pai, quem está batendo? Aqui não tem porta!",
+    "O pai olha para cima e aponta uma árvore. No tronco há um pássaro branco e preto, com uma mancha vermelha na cabeça.\n– É um pica-pau, – diz o pai. – O pica-pau bate o bico na madeira.",
+    "– Por que ele bate a cabeça contra a árvore? Não fica com dor de cabeça?\n– Não. O pica-pau está trabalhando. Com o bico ele abre um buraco na madeira. No buraco procura insetos e come. Na primavera também prepara a casa para os filhotes.",
+    "A Sara conta as batidas: uma, duas, três… Rápido demais! O pica-pau bate o bico até vinte vezes por segundo.",
+    "– E sabe qual é a coisa mais estranha? – pergunta o pai. – A língua do pica-pau. É compridíssima! O peto-verde tem uma língua de dez centímetros. O pica-pau enfia a língua nos buracos e pega as formigas.",
+    "– E quando ele não está comendo? Onde põe a língua?\n– Na cabeça! A língua entra no bico, dá a volta atrás da cabeça e passa por cima do cérebro, como um cinto.",
+    "– Então a língua protege o cérebro!\n– Muita gente pensa isso. Mas hoje os cientistas estudam os pica-paus com câmeras rapidíssimas, e o segredo é outro: o cérebro do pica-pau é pequeno e leve. Um cérebro pequeno resiste às batidas. Um cérebro grande, como o nosso, não.",
+    "A Sara toca a cabeça com a mão.\n– Então eu não bato a cabeça nas árvores!\n– Não, – ri o pai. – Você não bate a cabeça. Você toma um sorvete. O pica-pau come formigas.",
+    "Toc toc toc. O pica-pau continua trabalhando. A Sara e o pai escutam, e depois caminham até o café do parque."
+   ],
+   "a2": [
+    "Durante muitos anos todo mundo concordava: o pica-pau tinha um segredo. Ele batia o bico nas árvores muitíssimas vezes por dia, até vinte vezes por segundo, mas não se machucava. Como era possível?",
+    "A resposta parecia fácil: a língua. A língua do pica-pau é compridíssima. A do peto-verde chega a dez centímetros, um terço do corpo. Quando o pica-pau não está comendo, a língua e os seus pequenos ossos dão a volta atrás da cabeça e passam por cima do crânio, até o bico.",
+    "Para muitos cientistas essa língua era uma espécie de cinto de segurança: segurava o cérebro durante as batidas. E a cabeça, diziam, era como um capacete macio. Alguns engenheiros estudaram o pica-pau para fazer capacetes e proteções contra impactos. Era uma bela história, e todo mundo a contava.",
+    "Depois, em 2022, um grupo de pesquisadores liderado pelo biólogo belga Sam Van Wassenbergh decidiu verificar. Eles filmaram seis pica-paus com câmeras rapidíssimas, que fazem milhares de imagens por segundo. Assistiram a 109 vídeos, batida por batida.",
+    "O resultado foi uma surpresa. Nos vídeos a cabeça do pica-pau não absorvia as batidas: o bico e o cérebro paravam juntos, no mesmo momento. A cabeça não era um capacete macio. Era um martelo duro.",
+    "Os pesquisadores explicaram também o porquê. Uma cabeça macia tira força da batida, e o pica-pau teria de bater com muito mais força para fazer o seu buraco. Um martelo macio não serve para nada!",
+    "Então, como ele protege o cérebro? O segredo é o tamanho. O cérebro do pica-pau é pequeno e leve, e um cérebro pequeno aguenta batidas muito mais fortes que um cérebro grande como o nosso.",
+    "E a língua? Ela é mesmo comprida e dá mesmo a volta na cabeça. Talvez ajude um pouco, mas o seu trabalho principal é outro: pegar formigas no fundo dos buracos."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "C'est dimanche. Sara et son papa se promènent dans le parc. Tout à coup, Sara entend un bruit : toc toc toc toc !\n– Papa, qui frappe ? Il n'y a pas de portes ici !",
+    "Papa regarde en l'air et montre un arbre. Sur le tronc, il y a un oiseau noir et blanc, avec une tache rouge sur la tête.\n– C'est un pic, – dit papa. – Le pic frappe le bois avec son bec.",
+    "– Pourquoi il se cogne la tête contre l'arbre ? Il n'a pas mal à la tête ?\n– Non. Le pic travaille. Avec son bec, il fait un trou dans le bois. Dans le trou, il cherche des insectes et il les mange. Au printemps, il prépare aussi la maison pour ses petits.",
+    "Sara compte les coups : un, deux, trois… Trop rapide ! Le pic frappe avec son bec jusqu'à vingt fois par seconde.",
+    "– Et tu sais quelle est la chose la plus bizarre ? – demande papa. – La langue du pic. Elle est super longue ! Le pic vert a une langue de dix centimètres. Le pic glisse sa langue dans les trous et attrape les fourmis.",
+    "– Et quand il ne mange pas ? Où il met sa langue ?\n– Dans sa tête ! La langue entre dans le bec, fait le tour derrière la tête et passe au-dessus du cerveau, comme une ceinture.",
+    "– Alors la langue protège le cerveau !\n– Beaucoup de gens le pensent. Mais aujourd'hui, les scientifiques étudient les pics avec des caméras ultrarapides, et le secret est ailleurs : le cerveau du pic est petit et léger. Un petit cerveau résiste aux coups. Un gros cerveau, comme le nôtre, non.",
+    "Sara touche sa tête avec sa main.\n– Alors moi, je ne me cogne pas la tête contre les arbres !\n– Non, – rit papa. – Toi, tu ne te cognes pas la tête. Toi, tu manges une glace. Le pic mange des fourmis.",
+    "Toc toc toc. Le pic continue à travailler. Sara et son papa écoutent, puis ils marchent vers le café du parc."
+   ],
+   "a2": [
+    "Pendant de nombreuses années, tout le monde était d'accord : le pic avait un secret. Il frappait son bec contre les arbres un très grand nombre de fois par jour, jusqu'à vingt fois par seconde, mais il ne se faisait pas mal. Comment était-ce possible ?",
+    "La réponse semblait facile : la langue. La langue du pic est très longue. Celle du pic vert atteint dix centimètres, un tiers de son corps. Quand le pic ne mange pas, la langue et ses petits os font le tour derrière la tête et passent au-dessus du crâne, jusqu'au bec.",
+    "Pour beaucoup de scientifiques, cette langue était une sorte de ceinture de sécurité : elle tenait le cerveau immobile pendant les coups. Et la tête, disaient-ils, était comme un casque mou. Certains ingénieurs ont étudié le pic pour fabriquer des casques et des protections contre les chocs. C'était une belle histoire, et tout le monde la racontait.",
+    "Puis, en 2022, un groupe de chercheurs dirigé par le biologiste belge Sam Van Wassenbergh a décidé de vérifier. Ils ont filmé six pics avec des caméras ultrarapides, qui prennent des milliers d'images par seconde. Ils ont regardé 109 vidéos, coup par coup.",
+    "Le résultat a été une surprise. Dans les vidéos, la tête du pic n'absorbait pas les coups : le bec et le cerveau s'arrêtaient ensemble, au même moment. La tête n'était pas un casque mou. C'était un marteau dur.",
+    "Les chercheurs ont aussi expliqué pourquoi. Une tête molle enlève de la force au coup, et le pic devrait frapper beaucoup plus fort pour faire son trou. Un marteau mou ne sert à rien !",
+    "Alors, comment le pic protège-t-il son cerveau ? Le secret, c'est la taille. Le cerveau du pic est petit et léger, et un petit cerveau supporte des coups beaucoup plus forts qu'un gros cerveau comme le nôtre.",
+    "Et la langue ? Elle est vraiment longue et elle fait vraiment le tour de la tête. Elle aide peut-être un peu, mais son travail principal est autre : attraper les fourmis au fond des trous."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Je neděle. Sára a táta se procházejí v parku. Najednou Sára uslyší zvuk: ťuk ťuk ťuk ťuk!\n– Tati, kdo klepe? Tady nejsou žádné dveře!",
+    "Táta se podívá nahoru a ukáže na strom. Na kmeni sedí černobílý pták s červenou skvrnou na hlavě.\n– To je strakapoud, – říká táta. – Strakapoud buší zobákem do dřeva.",
+    "– Proč tluče hlavou o strom? Nebolí ho hlava?\n– Ne. Strakapoud pracuje. Zobákem dělá ve dřevě díru. V díře hledá hmyz a jí ho. Na jaře taky připravuje domov pro mláďata.",
+    "Sára počítá údery: jedna, dva, tři… Moc rychle! Strakapoud buší zobákem až dvacetkrát za sekundu.",
+    "– A víš, co je na něm nejdivnější? – ptá se táta. – Jazyk datlovitých ptáků. Je strašně dlouhý! Žluna zelená má jazyk dlouhý deset centimetrů. Strká jazyk do děr a chytá mravence.",
+    "– A když nejí? Kam si dá jazyk?\n– Do hlavy! Jazyk vede do zobáku, obtočí se kolem zadní části hlavy a vede přes mozek, jako pásek.",
+    "– Takže jazyk chrání mozek!\n– Hodně lidí si to myslí. Ale dnes vědci studují tyhle ptáky velmi rychlými kamerami a tajemství je jinde: mozek strakapouda je malý a lehký. Malý mozek údery vydrží. Velký mozek, jako je ten náš, ne.",
+    "Sára si sáhne rukou na hlavu.\n– Tak já nebudu tlouct hlavou o stromy!\n– Ne, – směje se táta. – Ty nebuš hlavou. Ty si dáš zmrzlinu. Strakapoud jí mravence.",
+    "Ťuk ťuk ťuk. Strakapoud pracuje dál. Sára a táta poslouchají a pak jdou ke kavárně v parku."
+   ],
+   "a2": [
+    "Dlouhá léta se všichni shodovali: datlovití ptáci mají tajemství. Buší zobákem do stromů mnohokrát denně, i dvacetkrát za sekundu, a nic se jim nestane. Jak je to možné?",
+    "Odpověď vypadala snadná: jazyk. Jazyk těchto ptáků je velmi dlouhý. U žluny zelené měří až deset centimetrů, třetinu těla. Když pták nejí, jazyk a jeho malé kůstky se obtáčejí kolem zadní části hlavy a vedou přes lebku až k zobáku.",
+    "Pro mnoho vědců byl ten jazyk něco jako bezpečnostní pás: držel mozek při úderech na místě. A hlava byla podle nich jako měkká helma. Někteří inženýři ptáky studovali, aby vyrobili helmy a ochrany proti nárazům. Byl to hezký příběh a všichni ho vyprávěli.",
+    "Pak se v roce 2022 skupina výzkumníků vedená belgickým biologem Samem Van Wassenberghem rozhodla to ověřit. Natočili šest ptáků velmi rychlými kamerami, které pořídí tisíce snímků za sekundu. Prohlédli si 109 videí, úder po úderu.",
+    "Výsledek byl překvapením. Na videích hlava údery nepohlcovala: zobák i mozek se zastavily současně, ve stejném okamžiku. Hlava nebyla měkká helma. Bylo to tvrdé kladivo.",
+    "Výzkumníci vysvětlili i proč. Měkká hlava ubírá úderu sílu a pták by musel bušit mnohem silněji, aby udělal díru. Měkké kladivo je k ničemu!",
+    "Jak si tedy chrání mozek? Tajemství je ve velikosti. Mozek těchto ptáků je malý a lehký a malý mozek snese mnohem silnější údery než velký mozek, jako je ten náš.",
+    "A jazyk? Je opravdu dlouhý a opravdu se obtáčí kolem hlavy. Možná trochu pomáhá, ale jeho hlavní úkol je jiný: chytat mravence na dně děr."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jest niedziela. Sara i tata spacerują po parku. Nagle Sara słyszy dźwięk: puk puk puk puk!\n– Tato, kto puka? Tu nie ma drzwi!",
+    "Tata patrzy w górę i wskazuje drzewo. Na pniu siedzi biało-czarny ptak z czerwoną plamą na głowie.\n– To dzięcioł, – mówi tata. – Dzięcioł stuka dziobem w drewno.",
+    "– Dlaczego uderza głową w drzewo? Nie boli go głowa?\n– Nie. Dzięcioł pracuje. Dziobem robi dziurę w drewnie. W dziurze szuka owadów i je zjada. Wiosną przygotowuje też dom dla piskląt.",
+    "Sara liczy uderzenia: jeden, dwa, trzy… Za szybko! Dzięcioł stuka dziobem nawet dwadzieścia razy na sekundę.",
+    "– A wiesz, co jest najdziwniejsze? – pyta tata. – Język dzięcioła. Jest bardzo długi! Dzięcioł zielony ma język długości dziesięciu centymetrów. Dzięcioł wsuwa język do dziur i łapie mrówki.",
+    "– A kiedy nie je? Gdzie chowa język?\n– W głowie! Język wchodzi do dzioba, okrąża tył głowy i przechodzi nad mózgiem, jak pasek.",
+    "– To język chroni mózg!\n– Wiele osób tak myśli. Ale dziś naukowcy badają dzięcioły bardzo szybkimi kamerami i sekret jest gdzie indziej: mózg dzięcioła jest mały i lekki. Mały mózg wytrzymuje uderzenia. Duży mózg, taki jak nasz, nie.",
+    "Sara dotyka ręką głowy.\n– To ja nie będę walić głową w drzewa!\n– Nie, – śmieje się tata. – Ty nie walisz głową. Ty jesz lody. Dzięcioł je mrówki.",
+    "Puk puk puk. Dzięcioł dalej pracuje. Sara i tata słuchają, a potem idą do kawiarni w parku."
+   ],
+   "a2": [
+    "Przez wiele lat wszyscy się zgadzali: dzięcioł miał sekret. Uderzał dziobem w drzewa bardzo wiele razy dziennie, nawet dwadzieścia razy na sekundę, ale nie robił sobie krzywdy. Jak to możliwe?",
+    "Odpowiedź wydawała się łatwa: język. Język dzięcioła jest bardzo długi. U dzięcioła zielonego ma nawet dziesięć centymetrów, jedną trzecią ciała. Kiedy dzięcioł nie je, język i jego małe kości okrążają tył głowy i przechodzą nad czaszką, aż do dzioba.",
+    "Dla wielu naukowców ten język był czymś w rodzaju pasa bezpieczeństwa: trzymał mózg nieruchomo podczas uderzeń. A głowa, mówili, była jak miękki kask. Niektórzy inżynierowie badali dzięcioła, żeby budować kaski i zabezpieczenia przed uderzeniami. To była piękna historia i wszyscy ją opowiadali.",
+    "Potem, w 2022 roku, grupa badaczy pod kierunkiem belgijskiego biologa Sama Van Wassenbergha postanowiła to sprawdzić. Sfilmowali sześć dzięciołów bardzo szybkimi kamerami, które robią tysiące zdjęć na sekundę. Obejrzeli 109 filmów, uderzenie po uderzeniu.",
+    "Wynik był niespodzianką. Na filmach głowa dzięcioła nie pochłaniała uderzeń: dziób i mózg zatrzymywały się razem, w tej samej chwili. Głowa nie była miękkim kaskiem. Była twardym młotkiem.",
+    "Badacze wyjaśnili też dlaczego. Miękka głowa odbiera uderzeniu siłę i dzięcioł musiałby uderzać dużo mocniej, żeby zrobić dziurę. Miękki młotek do niczego się nie nadaje!",
+    "To jak dzięcioł chroni mózg? Sekretem jest rozmiar. Mózg dzięcioła jest mały i lekki, a mały mózg wytrzymuje dużo silniejsze uderzenia niż duży mózg taki jak nasz.",
+    "A język? Naprawdę jest długi i naprawdę okrąża głowę. Może trochę pomaga, ale jego główne zadanie jest inne: łapać mrówki na dnie dziur."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Pazar günü. Sara ile babası parkta yürüyor. Birden Sara bir ses duyar: tak tak tak tak!\n– Baba, kapıyı kim çalıyor? Burada kapı yok ki!",
+    "Babası yukarı bakar ve bir ağacı gösterir. Gövdenin üstünde siyah beyaz, başında kırmızı bir leke olan bir kuş var.\n– Bu bir ağaçkakan, – der babası. – Ağaçkakan gagasını tahtaya vurur.",
+    "– Neden kafasını ağaca vuruyor? Başı ağrımıyor mu?\n– Hayır. Ağaçkakan çalışıyor. Gagasıyla tahtada bir delik açar. Delikte böcek arar ve onları yer. İlkbaharda yavruları için ev de hazırlar.",
+    "Sara vuruşları sayar: bir, iki, üç… Çok hızlı! Ağaçkakan gagasını saniyede yirmi kereye kadar vurur.",
+    "– Peki en garip şey ne, biliyor musun? – diye sorar babası. – Ağaçkakanın dili. Upuzun! Yeşil ağaçkakanın dili on santimetredir. Ağaçkakan dilini deliklere sokar ve karıncaları yakalar.",
+    "– Peki yemek yemediği zaman? Dilini nereye koyar?\n– Kafasının içine! Dil gagaya girer, başın arkasından dolaşır ve bir kemer gibi beynin üstünden geçer.",
+    "– O zaman dil beyni koruyor!\n– Pek çok kişi böyle düşünür. Ama bugün bilim insanları ağaçkakanları çok hızlı kameralarla inceliyor ve sır başka: ağaçkakanın beyni küçük ve hafif. Küçük bir beyin darbelere dayanır. Bizimki gibi büyük bir beyin dayanamaz.",
+    "Sara eliyle başına dokunur.\n– O zaman ben kafamı ağaçlara vurmam!\n– Vurmazsın, – diye güler babası. – Sen kafanı vurmazsın. Sen dondurma yersin. Ağaçkakan da karınca yer.",
+    "Tak tak tak. Ağaçkakan çalışmaya devam eder. Sara ile babası dinler, sonra parktaki kafeye doğru yürürler."
+   ],
+   "a2": [
+    "Uzun yıllar boyunca herkes hemfikirdi: ağaçkakanın bir sırrı vardı. Gagasını günde çok kez, saniyede yirmi kereye kadar ağaçlara vuruyordu ama canı yanmıyordu. Bu nasıl mümkündü?",
+    "Cevap kolay görünüyordu: dil. Ağaçkakanın dili çok uzundur. Yeşil ağaçkakanınki on santimetreye, vücudunun üçte birine ulaşır. Ağaçkakan yemek yemediği zaman dili ve küçük kemikleri başın arkasından dolaşır ve kafatasının üstünden gagaya kadar uzanır.",
+    "Birçok bilim insanına göre bu dil bir tür emniyet kemeriydi: darbeler sırasında beyni sabit tutuyordu. Kafanın da yumuşak bir kask gibi olduğunu söylüyorlardı. Bazı mühendisler kask ve darbelere karşı koruyucular yapmak için ağaçkakanı inceledi. Güzel bir hikâyeydi ve herkes bunu anlatıyordu.",
+    "Sonra 2022'de Belçikalı biyolog Sam Van Wassenbergh'in yönettiği bir araştırma grubu bunu kontrol etmeye karar verdi. Saniyede binlerce görüntü çeken çok hızlı kameralarla altı ağaçkakanı filme aldılar. 109 videoyu darbe darbe izlediler.",
+    "Sonuç sürpriz oldu. Videolarda ağaçkakanın kafası darbeleri emmiyordu: gaga ve beyin aynı anda, birlikte duruyordu. Kafa yumuşak bir kask değildi. Sert bir çekiçti.",
+    "Araştırmacılar nedenini de açıkladı. Yumuşak bir kafa darbenin gücünü azaltır ve ağaçkakan deliğini açmak için çok daha sert vurmak zorunda kalırdı. Yumuşak bir çekiç hiçbir işe yaramaz!",
+    "Peki beynini nasıl korur? Sır boyuttadır. Ağaçkakanın beyni küçük ve hafiftir; küçük bir beyin, bizimki gibi büyük bir beyinden çok daha güçlü darbelere dayanır.",
+    "Ya dil? Gerçekten uzundur ve gerçekten başın etrafından dolaşır. Belki biraz yardımcı olur, ama asıl görevi başkadır: deliklerin dibindeki karıncaları yakalamak."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Es ist Sonntag. Sara und ihr Papa gehen im Park spazieren. Plötzlich hört Sara ein Geräusch: tock tock tock tock!\n– Papa, wer klopft da? Hier gibt es keine Türen!",
+    "Papa schaut nach oben und zeigt auf einen Baum. Am Stamm sitzt ein schwarz-weißer Vogel mit einem roten Fleck auf dem Kopf.\n– Das ist ein Specht, – sagt Papa. – Der Specht schlägt mit dem Schnabel aufs Holz.",
+    "– Warum schlägt er mit dem Kopf gegen den Baum? Bekommt er keine Kopfschmerzen?\n– Nein. Der Specht arbeitet. Mit dem Schnabel macht er ein Loch ins Holz. Im Loch sucht er Insekten und frisst sie. Im Frühling baut er auch ein Zuhause für seine Jungen.",
+    "Sara zählt die Schläge: eins, zwei, drei… Zu schnell! Der Specht schlägt bis zu zwanzigmal in der Sekunde mit dem Schnabel.",
+    "– Und weißt du, was das Seltsamste ist? – fragt Papa. – Die Zunge des Spechts. Sie ist superlang! Der Grünspecht hat eine zehn Zentimeter lange Zunge. Der Specht steckt die Zunge in Löcher und fängt Ameisen.",
+    "– Und wenn er nicht frisst? Wo tut er die Zunge hin?\n– In den Kopf! Die Zunge geht in den Schnabel, läuft hinten um den Kopf herum und über das Gehirn, wie ein Gürtel.",
+    "– Dann schützt die Zunge das Gehirn!\n– Das denken viele Leute. Aber heute untersuchen Wissenschaftler Spechte mit superschnellen Kameras, und das Geheimnis ist ein anderes: Das Gehirn des Spechts ist klein und leicht. Ein kleines Gehirn hält Schläge aus. Ein großes Gehirn wie unseres nicht.",
+    "Sara fasst sich mit der Hand an den Kopf.\n– Dann schlage ich nicht mit dem Kopf gegen Bäume!\n– Nein, – lacht Papa. – Du schlägst nicht mit dem Kopf. Du isst ein Eis. Der Specht frisst Ameisen.",
+    "Tock tock tock. Der Specht arbeitet weiter. Sara und Papa hören zu und gehen dann zum Café im Park."
+   ],
+   "a2": [
+    "Viele Jahre lang waren sich alle einig: Der Specht hatte ein Geheimnis. Er schlug den Schnabel sehr oft am Tag gegen Bäume, sogar zwanzigmal in der Sekunde, aber er tat sich nicht weh. Wie war das möglich?",
+    "Die Antwort schien einfach: die Zunge. Die Zunge des Spechts ist sehr lang. Die des Grünspechts erreicht zehn Zentimeter, ein Drittel seines Körpers. Wenn der Specht nicht frisst, laufen die Zunge und ihre kleinen Knochen hinten um den Kopf herum und über den Schädel bis zum Schnabel.",
+    "Für viele Wissenschaftler war diese Zunge eine Art Sicherheitsgurt: Sie hielt das Gehirn während der Schläge fest. Und der Kopf, sagten sie, sei wie ein weicher Helm. Einige Ingenieure haben den Specht studiert, um Helme und Stoßschutz zu bauen. Es war eine schöne Geschichte, und alle erzählten sie.",
+    "Dann, 2022, beschloss eine Forschergruppe unter der Leitung des belgischen Biologen Sam Van Wassenbergh, das zu überprüfen. Sie filmten sechs Spechte mit superschnellen Kameras, die Tausende Bilder pro Sekunde machen. Sie sahen sich 109 Videos an, Schlag für Schlag.",
+    "Das Ergebnis war eine Überraschung. In den Videos fing der Kopf des Spechts die Schläge nicht ab: Schnabel und Gehirn hielten zusammen an, im selben Moment. Der Kopf war kein weicher Helm. Er war ein harter Hammer.",
+    "Die Forscher erklärten auch, warum. Ein weicher Kopf nimmt dem Schlag Kraft, und der Specht müsste viel fester schlagen, um sein Loch zu machen. Ein weicher Hammer nützt nichts!",
+    "Wie schützt er dann sein Gehirn? Das Geheimnis ist die Größe. Das Gehirn des Spechts ist klein und leicht, und ein kleines Gehirn verträgt viel stärkere Schläge als ein großes Gehirn wie unseres.",
+    "Und die Zunge? Sie ist wirklich lang und läuft wirklich um den Kopf herum. Vielleicht hilft sie ein bisschen, aber ihre Hauptaufgabe ist eine andere: Ameisen tief in den Löchern zu fangen."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "日曜日です。サラとお父さんが公園を歩いています。突然、サラは音を聞きます。コンコンコンコン！\n「パパ、だれがノックしてるの？ここにはドアなんてないよ！」",
+    "お父さんは上を見て、1本の木を指さします。幹に、白と黒の鳥がいます。頭には赤い模様があります。\n「キツツキだよ」とお父さんが言います。「キツツキは、くちばしで木をたたくんだ。」",
+    "「どうして頭を木にぶつけるの？頭が痛くならないの？」\n「ならないよ。キツツキは仕事をしているんだ。くちばしで木に穴をあける。穴の中で虫をさがして食べるんだよ。春には、ひなのための家も作るんだ。」",
+    "サラはたたく回数を数えます。1、2、3……速すぎます！キツツキは1秒に20回もくちばしでたたくのです。",
+    "「それに、いちばん変わっているのは何か知ってる？」とお父さんがききます。「キツツキの舌だよ。すごく長いんだ！ヨーロッパアオゲラの舌は10センチもある。キツツキは舌を穴に差し込んで、アリをつかまえるんだ。」",
+    "「じゃあ、食べていないときは？舌をどこにしまうの？」\n「頭の中だよ！舌はくちばしに入って、頭の後ろをぐるっと回って、ベルトみたいに脳の上を通っているんだ。」",
+    "「じゃあ、舌が脳を守ってるんだ！」\n「そう考える人はたくさんいるね。でも今、科学者たちはすごく速いカメラでキツツキを調べていて、秘密は別のところにあるんだ。キツツキの脳は小さくて軽い。小さい脳は、衝撃に強いんだよ。ぼくたちみたいな大きい脳は、そうはいかない。」",
+    "サラは手で自分の頭にさわります。\n「じゃあ、わたしは木に頭をぶつけない！」\n「そうだね」とお父さんが笑います。「サラは頭をぶつけない。アイスを食べるんだ。キツツキはアリを食べる。」",
+    "コンコンコン。キツツキは仕事を続けます。サラとお父さんはその音を聞いて、それから公園のカフェの方へ歩いていきます。"
+   ],
+   "a2": [
+    "何年ものあいだ、みんなの意見は一致していました。キツツキには秘密がある、と。キツツキは1日にとてもたくさん、1秒に20回もくちばしで木をたたきますが、けがをしません。どうしてそんなことができるのでしょう？",
+    "答えは簡単そうに見えました。舌です。キツツキの舌はとても長いのです。ヨーロッパアオゲラの舌は10センチ、つまり体の3分の1もあります。キツツキが食べていないとき、舌とその小さな骨は頭の後ろをぐるっと回り、頭蓋骨の上を通って、くちばしまで続いています。",
+    "多くの科学者にとって、この舌は一種のシートベルトでした。たたくあいだ、脳をしっかり押さえている、と考えられていたのです。そして頭は、やわらかいヘルメットのようなものだと言われていました。キツツキを研究して、ヘルメットや衝撃から守る道具を作ろうとしたエンジニアもいました。すてきな話で、みんながこの話をしていました。",
+    "ところが2022年、ベルギーの生物学者サム・ファン・ワッセンベルフが率いる研究者のグループが、確かめてみることにしました。1秒に何千枚も撮影できるとても速いカメラで、6羽のキツツキを撮影したのです。そして109本の動画を、1回1回の打撃ごとに見ていきました。",
+    "結果は驚きでした。動画では、キツツキの頭は衝撃を吸収していませんでした。くちばしと脳は同時に、同じ瞬間に止まっていたのです。頭はやわらかいヘルメットではありませんでした。かたいハンマーだったのです。",
+    "研究者たちは、その理由も説明しました。頭がやわらかいと、打撃の力が弱まってしまいます。そうなると、キツツキは穴をあけるために、もっとずっと強くたたかなければなりません。やわらかいハンマーでは役に立たないのです！",
+    "では、キツツキはどうやって脳を守っているのでしょう？秘密は大きさです。キツツキの脳は小さくて軽く、小さい脳は、わたしたちのような大きい脳よりずっと強い衝撃に耐えられるのです。",
+    "では舌は？本当に長く、本当に頭のまわりを回っています。少しは役に立っているのかもしれません。でも、舌のいちばんの仕事は別のことです。穴の奥にいるアリをつかまえることなのです。"
+   ]
+  }
+ }
+}
