@@ -1,0 +1,1337 @@
+{
+ "id": "futuro-intelligenza-artificiale",
+ "nota": "Glossario e traduzione della lettura (B1 tradotto; B2 e C1 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il futuro",
+   "forme": [
+    "futuro"
+   ],
+   "esempi": [
+    "Nessuno conosce il futuro.",
+    "Che progetti hai per il futuro?",
+    "Il futuro dipende da noi."
+   ],
+   "traduzioni": {
+    "en": "future",
+    "es": "futuro",
+    "pt": "futuro",
+    "fr": "avenir, futur",
+    "cs": "budoucnost",
+    "pl": "przyszłość",
+    "tr": "gelecek",
+    "de": "Zukunft",
+    "ja": "未来"
+   }
+  },
+  {
+   "parola": "l'intelligenza artificiale (IA)",
+   "forme": [
+    "intelligenza",
+    "IA"
+   ],
+   "esempi": [
+    "L'intelligenza artificiale scrive testi.",
+    "Uso l'IA per tradurre.",
+    "L'IA cambia il mondo del lavoro."
+   ],
+   "traduzioni": {
+    "en": "artificial intelligence (AI)",
+    "es": "inteligencia artificial (IA)",
+    "pt": "inteligência artificial (IA)",
+    "fr": "intelligence artificielle (IA)",
+    "cs": "umělá inteligence (AI)",
+    "pl": "sztuczna inteligencja (SI)",
+    "tr": "yapay zekâ (YZ)",
+    "de": "künstliche Intelligenz (KI)",
+    "ja": "人工知能（AI）"
+   }
+  },
+  {
+   "parola": "dipendere da",
+   "forme": [
+    "dipenderà"
+   ],
+   "formeEsempi": [
+    "dipende"
+   ],
+   "esempi": [
+    "Dipende dal tempo.",
+    "Il risultato dipenderà da te.",
+    "Tutto dipende dalle scelte di oggi."
+   ],
+   "traduzioni": {
+    "en": "to depend on («dipenderà» = will depend)",
+    "es": "depender de",
+    "pt": "depender de",
+    "fr": "dépendre de",
+    "cs": "záviset na",
+    "pl": "zależeć od",
+    "tr": "-e bağlı olmak",
+    "de": "abhängen von",
+    "ja": "〜次第だ"
+   }
+  },
+  {
+   "parola": "la scelta",
+   "forme": [
+    "scelte"
+   ],
+   "formeEsempi": [
+    "scelta"
+   ],
+   "esempi": [
+    "È una scelta difficile.",
+    "Le nostre scelte hanno conseguenze.",
+    "Non ho scelta."
+   ],
+   "traduzioni": {
+    "en": "choice",
+    "es": "elección, decisión",
+    "pt": "escolha",
+    "fr": "choix",
+    "cs": "volba, rozhodnutí",
+    "pl": "wybór",
+    "tr": "seçim",
+    "de": "Entscheidung, Wahl",
+    "ja": "選択"
+   }
+  },
+  {
+   "parola": "esistere",
+   "forme": [
+    "esiste",
+    "esistono"
+   ],
+   "esempi": [
+    "Esiste una soluzione semplice.",
+    "I fantasmi non esistono.",
+    "Esistono molti tipi di caffè."
+   ],
+   "traduzioni": {
+    "en": "to exist («non esiste» = there is no)",
+    "es": "existir",
+    "pt": "existir",
+    "fr": "exister",
+    "cs": "existovat",
+    "pl": "istnieć",
+    "tr": "var olmak",
+    "de": "existieren, es gibt",
+    "ja": "存在する"
+   }
+  },
+  {
+   "parola": "da una parte… dall'altra",
+   "forme": [
+    "parte"
+   ],
+   "esempi": [
+    "Da una parte è comodo, dall'altra è caro.",
+    "Da una parte voglio partire, dall'altra ho paura.",
+    "Una parte del lavoro è finita."
+   ],
+   "traduzioni": {
+    "en": "on the one hand… on the other",
+    "es": "por un lado… por otro",
+    "pt": "por um lado… por outro",
+    "fr": "d'un côté… de l'autre",
+    "cs": "na jednu stranu… na druhou",
+    "pl": "z jednej strony… z drugiej",
+    "tr": "bir yandan… öte yandan",
+    "de": "einerseits… andererseits",
+    "ja": "一方では…他方では"
+   }
+  },
+  {
+   "parola": "rapido",
+   "forme": [
+    "rapido"
+   ],
+   "esempi": [
+    "È un treno rapido.",
+    "Ho bisogno di una risposta rapida.",
+    "Il computer rende il lavoro più rapido."
+   ],
+   "traduzioni": {
+    "en": "quick, fast",
+    "es": "rápido",
+    "pt": "rápido",
+    "fr": "rapide",
+    "cs": "rychlý",
+    "pl": "szybki",
+    "tr": "hızlı",
+    "de": "schnell",
+    "ja": "速い"
+   },
+   "formeEsempi": [
+    "rapida"
+   ]
+  },
+  {
+   "parola": "la ricerca",
+   "forme": [
+    "ricerca"
+   ],
+   "esempi": [
+    "Lavora nella ricerca medica.",
+    "La ricerca ha bisogno di fondi.",
+    "Faccio una ricerca per la scuola."
+   ],
+   "traduzioni": {
+    "en": "research",
+    "es": "investigación",
+    "pt": "pesquisa",
+    "fr": "recherche",
+    "cs": "výzkum",
+    "pl": "badania",
+    "tr": "araştırma",
+    "de": "Forschung",
+    "ja": "研究"
+   }
+  },
+  {
+   "parola": "offrire",
+   "forme": [
+    "offrire"
+   ],
+   "formeEsempi": [
+    "offre",
+    "offro"
+   ],
+   "esempi": [
+    "Ti offro un caffè.",
+    "Il corso offre molte possibilità.",
+    "Questo sito offre esercizi gratis."
+   ],
+   "traduzioni": {
+    "en": "to offer",
+    "es": "ofrecer",
+    "pt": "oferecer",
+    "fr": "offrir",
+    "cs": "nabídnout",
+    "pl": "oferować",
+    "tr": "sunmak",
+    "de": "bieten",
+    "ja": "提供する"
+   }
+  },
+  {
+   "parola": "lo strumento",
+   "forme": [
+    "strumenti"
+   ],
+   "formeEsempi": [
+    "strumento"
+   ],
+   "esempi": [
+    "Il computer è uno strumento di lavoro.",
+    "Suono uno strumento musicale.",
+    "Usiamo strumenti digitali."
+   ],
+   "traduzioni": {
+    "en": "tool (also: instrument)",
+    "es": "herramienta, instrumento",
+    "pt": "ferramenta, instrumento",
+    "fr": "outil, instrument",
+    "cs": "nástroj",
+    "pl": "narzędzie",
+    "tr": "araç",
+    "de": "Werkzeug",
+    "ja": "道具、ツール"
+   }
+  },
+  {
+   "parola": "personalizzato",
+   "forme": [
+    "personalizzati"
+   ],
+   "formeEsempi": [
+    "personalizzato",
+    "personalizzate"
+   ],
+   "esempi": [
+    "Ho un piano di allenamento personalizzato.",
+    "Sono lezioni personalizzate per te.",
+    "Il regalo è personalizzato con il tuo nome."
+   ],
+   "traduzioni": {
+    "en": "personalised, tailored",
+    "es": "personalizado",
+    "pt": "personalizado",
+    "fr": "personnalisé",
+    "cs": "na míru, přizpůsobený",
+    "pl": "spersonalizowany",
+    "tr": "kişiye özel",
+    "de": "personalisiert",
+    "ja": "個人に合わせた"
+   }
+  },
+  {
+   "parola": "l'istruzione",
+   "forme": [
+    "istruzione"
+   ],
+   "esempi": [
+    "L'istruzione è un diritto.",
+    "Il paese investe nell'istruzione.",
+    "Ha un'istruzione universitaria."
+   ],
+   "traduzioni": {
+    "en": "education",
+    "es": "educación, enseñanza",
+    "pt": "educação, ensino",
+    "fr": "éducation, enseignement",
+    "cs": "vzdělávání",
+    "pl": "edukacja",
+    "tr": "eğitim",
+    "de": "Bildung",
+    "ja": "教育"
+   }
+  },
+  {
+   "parola": "il rischio",
+   "forme": [
+    "rischi",
+    "rischio"
+   ],
+   "esempi": [
+    "Ogni scelta ha dei rischi.",
+    "C'è il rischio di pioggia.",
+    "Non voglio correre rischi."
+   ],
+   "traduzioni": {
+    "en": "risk",
+    "es": "riesgo",
+    "pt": "risco",
+    "fr": "risque",
+    "cs": "riziko",
+    "pl": "ryzyko",
+    "tr": "risk",
+    "de": "Risiko",
+    "ja": "危険、リスク"
+   }
+  },
+  {
+   "parola": "la perdita",
+   "forme": [
+    "perdita"
+   ],
+   "esempi": [
+    "La perdita del lavoro è un problema.",
+    "È una perdita di tempo.",
+    "C'è una perdita d'acqua in cucina."
+   ],
+   "traduzioni": {
+    "en": "loss",
+    "es": "pérdida",
+    "pt": "perda",
+    "fr": "perte",
+    "cs": "ztráta",
+    "pl": "utrata",
+    "tr": "kayıp",
+    "de": "Verlust",
+    "ja": "失うこと、損失"
+   }
+  },
+  {
+   "parola": "la dipendenza",
+   "forme": [
+    "dipendenza"
+   ],
+   "esempi": [
+    "La dipendenza dal telefono è un problema.",
+    "Il fumo crea dipendenza.",
+    "Non voglio una dipendenza dagli strumenti."
+   ],
+   "traduzioni": {
+    "en": "dependence, addiction",
+    "es": "dependencia",
+    "pt": "dependência",
+    "fr": "dépendance",
+    "cs": "závislost",
+    "pl": "uzależnienie, zależność",
+    "tr": "bağımlılık",
+    "de": "Abhängigkeit",
+    "ja": "依存"
+   }
+  },
+  {
+   "parola": "automatico",
+   "forme": [
+    "automatici"
+   ],
+   "formeEsempi": [
+    "automatica",
+    "automatico"
+   ],
+   "esempi": [
+    "La porta è automatica.",
+    "Ho il cambio automatico.",
+    "I sistemi automatici sbagliano."
+   ],
+   "traduzioni": {
+    "en": "automatic",
+    "es": "automático",
+    "pt": "automático",
+    "fr": "automatique",
+    "cs": "automatický",
+    "pl": "automatyczny",
+    "tr": "otomatik",
+    "de": "automatisch",
+    "ja": "自動の"
+   }
+  },
+  {
+   "parola": "la diffusione",
+   "forme": [
+    "diffusione"
+   ],
+   "esempi": [
+    "La diffusione di internet è rapida.",
+    "Il giornale ha una grande diffusione.",
+    "Bisogna fermare la diffusione di notizie false."
+   ],
+   "traduzioni": {
+    "en": "spread",
+    "es": "difusión, propagación",
+    "pt": "difusão, disseminação",
+    "fr": "diffusion, propagation",
+    "cs": "šíření",
+    "pl": "rozpowszechnianie",
+    "tr": "yayılma",
+    "de": "Verbreitung",
+    "ja": "拡散、普及"
+   }
+  },
+  {
+   "parola": "il contenuto",
+   "forme": [
+    "contenuti"
+   ],
+   "formeEsempi": [
+    "contenuto"
+   ],
+   "esempi": [
+    "Il sito ha contenuti gratuiti.",
+    "Il contenuto del libro è interessante.",
+    "Controllo il contenuto della valigia."
+   ],
+   "traduzioni": {
+    "en": "content",
+    "es": "contenido",
+    "pt": "conteúdo",
+    "fr": "contenu",
+    "cs": "obsah",
+    "pl": "treść",
+    "tr": "içerik",
+    "de": "Inhalt",
+    "ja": "コンテンツ、内容"
+   }
+  },
+  {
+   "parola": "falso",
+   "forme": [
+    "falsi"
+   ],
+   "formeEsempi": [
+    "falso",
+    "falsa"
+   ],
+   "esempi": [
+    "È una notizia falsa.",
+    "Questo quadro è falso.",
+    "Non credere ai profili falsi."
+   ],
+   "traduzioni": {
+    "en": "false, fake",
+    "es": "falso",
+    "pt": "falso",
+    "fr": "faux",
+    "cs": "falešný, nepravdivý",
+    "pl": "fałszywy",
+    "tr": "sahte, yanlış",
+    "de": "falsch, gefälscht",
+    "ja": "偽の"
+   }
+  },
+  {
+   "parola": "automatizzato",
+   "forme": [
+    "automatizzati"
+   ],
+   "formeEsempi": [
+    "automatizzato"
+   ],
+   "esempi": [
+    "Il magazzino è automatizzato.",
+    "Molti processi sono già automatizzati.",
+    "È un controllo automatizzato."
+   ],
+   "traduzioni": {
+    "en": "automated",
+    "es": "automatizado",
+    "pt": "automatizado",
+    "fr": "automatisé",
+    "cs": "automatizovaný",
+    "pl": "zautomatyzowany",
+    "tr": "otomatikleştirilmiş",
+    "de": "automatisiert",
+    "ja": "自動化された"
+   }
+  },
+  {
+   "parola": "mentre",
+   "forme": [
+    "mentre"
+   ],
+   "esempi": [
+    "Io lavoro, mentre lui dorme.",
+    "Mentre cucino, ascolto la radio.",
+    "Alcuni sono felici, mentre altri no."
+   ],
+   "traduzioni": {
+    "en": "while, whereas",
+    "es": "mientras",
+    "pt": "enquanto",
+    "fr": "tandis que, pendant que",
+    "cs": "zatímco",
+    "pl": "podczas gdy",
+    "tr": "-ken, oysa",
+    "de": "während",
+    "ja": "〜する一方で、〜の間"
+   }
+  },
+  {
+   "parola": "creativo",
+   "forme": [
+    "creativi"
+   ],
+   "formeEsempi": [
+    "creativo",
+    "creativa"
+   ],
+   "esempi": [
+    "È una persona molto creativa.",
+    "Fa un lavoro creativo.",
+    "I bambini sono creativi."
+   ],
+   "traduzioni": {
+    "en": "creative",
+    "es": "creativo",
+    "pt": "criativo",
+    "fr": "créatif",
+    "cs": "tvořivý",
+    "pl": "kreatywny",
+    "tr": "yaratıcı",
+    "de": "kreativ",
+    "ja": "創造的な"
+   }
+  },
+  {
+   "parola": "trasparente",
+   "forme": [
+    "trasparente"
+   ],
+   "esempi": [
+    "Il vetro è trasparente.",
+    "Vogliamo un governo trasparente.",
+    "Usa l'IA in modo trasparente."
+   ],
+   "traduzioni": {
+    "en": "transparent, open",
+    "es": "transparente",
+    "pt": "transparente",
+    "fr": "transparent",
+    "cs": "průhledný, transparentní",
+    "pl": "przejrzysty",
+    "tr": "şeffaf",
+    "de": "transparent",
+    "ja": "透明な、透明性のある"
+   }
+  },
+  {
+   "parola": "controllabile",
+   "forme": [
+    "controllabile"
+   ],
+   "esempi": [
+    "Il rischio è controllabile.",
+    "Un sistema deve essere controllabile.",
+    "La situazione è ancora controllabile."
+   ],
+   "traduzioni": {
+    "en": "controllable, checkable",
+    "es": "controlable",
+    "pt": "controlável",
+    "fr": "contrôlable",
+    "cs": "kontrolovatelný",
+    "pl": "kontrolowalny",
+    "tr": "denetlenebilir",
+    "de": "kontrollierbar",
+    "ja": "管理できる、検証できる"
+   }
+  },
+  {
+   "parola": "l'impatto",
+   "forme": [
+    "impatto"
+   ],
+   "esempi": [
+    "La legge ha un grande impatto.",
+    "Qual è l'impatto sull'ambiente?",
+    "Il film ha avuto un forte impatto su di me."
+   ],
+   "traduzioni": {
+    "en": "impact",
+    "es": "impacto",
+    "pt": "impacto",
+    "fr": "impact",
+    "cs": "dopad",
+    "pl": "wpływ",
+    "tr": "etki",
+    "de": "Auswirkung",
+    "ja": "影響"
+   }
+  },
+  {
+   "parola": "il settore",
+   "forme": [
+    "settori"
+   ],
+   "formeEsempi": [
+    "settore"
+   ],
+   "esempi": [
+    "Lavoro nel settore turistico.",
+    "Il settore cresce ogni anno.",
+    "In tutti i settori servono competenze digitali."
+   ],
+   "traduzioni": {
+    "en": "sector, field",
+    "es": "sector",
+    "pt": "setor",
+    "fr": "secteur",
+    "cs": "odvětví",
+    "pl": "sektor, branża",
+    "tr": "sektör",
+    "de": "Branche, Bereich",
+    "ja": "分野、業界"
+   }
+  },
+  {
+   "parola": "il beneficio",
+   "forme": [
+    "benefici"
+   ],
+   "formeEsempi": [
+    "beneficio"
+   ],
+   "esempi": [
+    "Lo sport ha molti benefici.",
+    "Il beneficio è evidente.",
+    "Ne trarrai beneficio."
+   ],
+   "traduzioni": {
+    "en": "benefit",
+    "es": "beneficio",
+    "pt": "benefício",
+    "fr": "bénéfice, avantage",
+    "cs": "přínos, výhoda",
+    "pl": "korzyść",
+    "tr": "fayda",
+    "de": "Nutzen, Vorteil",
+    "ja": "利点"
+   }
+  },
+  {
+   "parola": "ripetitivo",
+   "forme": [
+    "ripetitivi",
+    "ripetitive"
+   ],
+   "formeEsempi": [
+    "ripetitivo"
+   ],
+   "esempi": [
+    "È un lavoro ripetitivo.",
+    "Questi esercizi sono ripetitivi.",
+    "Le attività ripetitive mi annoiano."
+   ],
+   "traduzioni": {
+    "en": "repetitive",
+    "es": "repetitivo",
+    "pt": "repetitivo",
+    "fr": "répétitif",
+    "cs": "opakující se, monotónní",
+    "pl": "powtarzalny",
+    "tr": "tekrarlayan",
+    "de": "eintönig, repetitiv",
+    "ja": "繰り返しの"
+   }
+  },
+  {
+   "parola": "i dati",
+   "forme": [
+    "dati"
+   ],
+   "esempi": [
+    "I dati sono nel computer.",
+    "Analizziamo i dati della ricerca.",
+    "Proteggi i tuoi dati personali."
+   ],
+   "traduzioni": {
+    "en": "data",
+    "es": "datos",
+    "pt": "dados",
+    "fr": "données",
+    "cs": "data, údaje",
+    "pl": "dane",
+    "tr": "veriler",
+    "de": "Daten",
+    "ja": "データ"
+   }
+  },
+  {
+   "parola": "liberare",
+   "forme": [
+    "liberare"
+   ],
+   "formeEsempi": [
+    "libera",
+    "liberato"
+   ],
+   "esempi": [
+    "Devo liberare la scrivania.",
+    "La lavastoviglie libera tempo.",
+    "Hanno liberato gli ostaggi."
+   ],
+   "traduzioni": {
+    "en": "to free (up)",
+    "es": "liberar",
+    "pt": "liberar",
+    "fr": "libérer",
+    "cs": "uvolnit",
+    "pl": "uwolnić, zwolnić",
+    "tr": "serbest bırakmak, açmak",
+    "de": "freimachen, befreien",
+    "ja": "解放する、空ける"
+   }
+  },
+  {
+   "parola": "potente",
+   "forme": [
+    "potente"
+   ],
+   "esempi": [
+    "È un computer molto potente.",
+    "Un uomo potente.",
+    "La musica è un mezzo potente."
+   ],
+   "traduzioni": {
+    "en": "powerful",
+    "es": "potente, poderoso",
+    "pt": "poderoso, potente",
+    "fr": "puissant",
+    "cs": "mocný, výkonný",
+    "pl": "potężny",
+    "tr": "güçlü",
+    "de": "mächtig, leistungsstark",
+    "ja": "強力な"
+   }
+  },
+  {
+   "parola": "amplificare",
+   "forme": [
+    "amplificare"
+   ],
+   "esempi": [
+    "Il microfono amplifica la voce.",
+    "I social possono amplificare le notizie false.",
+    "Non vogliamo amplificare il problema."
+   ],
+   "traduzioni": {
+    "en": "to amplify, to magnify",
+    "es": "amplificar",
+    "pt": "amplificar",
+    "fr": "amplifier",
+    "cs": "zesílit",
+    "pl": "wzmacniać",
+    "tr": "büyütmek, artırmak",
+    "de": "verstärken",
+    "ja": "増幅する"
+   },
+   "formeEsempi": [
+    "amplifica"
+   ]
+  },
+  {
+   "parola": "la disuguaglianza",
+   "forme": [
+    "disuguaglianze"
+   ],
+   "formeEsempi": [
+    "disuguaglianza"
+   ],
+   "esempi": [
+    "La disuguaglianza sociale cresce.",
+    "Combattiamo le disuguaglianze.",
+    "C'è una forte disuguaglianza tra Nord e Sud."
+   ],
+   "traduzioni": {
+    "en": "inequality",
+    "es": "desigualdad",
+    "pt": "desigualdade",
+    "fr": "inégalité",
+    "cs": "nerovnost",
+    "pl": "nierówność",
+    "tr": "eşitsizlik",
+    "de": "Ungleichheit",
+    "ja": "不平等"
+   }
+  },
+  {
+   "parola": "il pregiudizio",
+   "forme": [
+    "pregiudizi"
+   ],
+   "formeEsempi": [
+    "pregiudizio"
+   ],
+   "esempi": [
+    "Non avere pregiudizi.",
+    "È un pregiudizio comune.",
+    "I dati possono contenere pregiudizi."
+   ],
+   "traduzioni": {
+    "en": "prejudice, bias",
+    "es": "prejuicio, sesgo",
+    "pt": "preconceito, viés",
+    "fr": "préjugé, biais",
+    "cs": "předsudek",
+    "pl": "uprzedzenie",
+    "tr": "önyargı",
+    "de": "Vorurteil",
+    "ja": "偏見"
+   }
+  },
+  {
+   "parola": "distorto",
+   "forme": [
+    "distorti"
+   ],
+   "formeEsempi": [
+    "distorto",
+    "distorta"
+   ],
+   "esempi": [
+    "L'immagine è distorta.",
+    "È una visione distorta della realtà.",
+    "Dati distorti danno risultati sbagliati."
+   ],
+   "traduzioni": {
+    "en": "distorted, skewed",
+    "es": "distorsionado, sesgado",
+    "pt": "distorcido",
+    "fr": "faussé, déformé",
+    "cs": "zkreslený",
+    "pl": "zniekształcony",
+    "tr": "çarpık",
+    "de": "verzerrt",
+    "ja": "ゆがんだ"
+   }
+  },
+  {
+   "parola": "raccogliere",
+   "forme": [
+    "raccolti"
+   ],
+   "formeEsempi": [
+    "raccolgo",
+    "raccolto"
+   ],
+   "esempi": [
+    "Raccolgo le mele in giardino.",
+    "I dati sono raccolti online.",
+    "Abbiamo raccolto soldi per la scuola."
+   ],
+   "traduzioni": {
+    "en": "to collect, to gather («raccolti» = collected)",
+    "es": "recoger, recopilar",
+    "pt": "coletar, recolher",
+    "fr": "recueillir, collecter",
+    "cs": "sbírat",
+    "pl": "zbierać",
+    "tr": "toplamak",
+    "de": "sammeln",
+    "ja": "集める"
+   }
+  },
+  {
+   "parola": "educativo",
+   "forme": [
+    "educativo"
+   ],
+   "esempi": [
+    "È un gioco educativo.",
+    "Il campo educativo cambia.",
+    "Il programma ha uno scopo educativo."
+   ],
+   "traduzioni": {
+    "en": "educational («campo educativo» = education)",
+    "es": "educativo",
+    "pt": "educativo",
+    "fr": "éducatif",
+    "cs": "vzdělávací",
+    "pl": "edukacyjny",
+    "tr": "eğitimsel",
+    "de": "Bildungs-, pädagogisch",
+    "ja": "教育の"
+   }
+  },
+  {
+   "parola": "indebolire",
+   "forme": [
+    "indebolire"
+   ],
+   "esempi": [
+    "Lo stress può indebolire il corpo.",
+    "La pioggia ha indebolito il ponte.",
+    "Delegare tutto può indebolire la memoria."
+   ],
+   "traduzioni": {
+    "en": "to weaken",
+    "es": "debilitar",
+    "pt": "enfraquecer",
+    "fr": "affaiblir",
+    "cs": "oslabit",
+    "pl": "osłabić",
+    "tr": "zayıflatmak",
+    "de": "schwächen",
+    "ja": "弱める"
+   },
+   "formeEsempi": [
+    "indebolito"
+   ]
+  },
+  {
+   "parola": "delegare",
+   "forme": [
+    "delegano"
+   ],
+   "formeEsempi": [
+    "delego",
+    "delega"
+   ],
+   "esempi": [
+    "Il capo delega molti compiti.",
+    "Non delego mai le cose importanti.",
+    "Gli studenti delegano lo sforzo alla macchina."
+   ],
+   "traduzioni": {
+    "en": "to delegate, to hand over",
+    "es": "delegar",
+    "pt": "delegar",
+    "fr": "déléguer",
+    "cs": "delegovat, přenechat",
+    "pl": "delegować, zlecać",
+    "tr": "devretmek",
+    "de": "delegieren, abgeben",
+    "ja": "任せる、委ねる"
+   }
+  },
+  {
+   "parola": "lo sforzo",
+   "forme": [
+    "sforzo"
+   ],
+   "esempi": [
+    "Fa uno sforzo per capire.",
+    "Senza sforzo non si impara.",
+    "Grazie per lo sforzo!"
+   ],
+   "traduzioni": {
+    "en": "effort",
+    "es": "esfuerzo",
+    "pt": "esforço",
+    "fr": "effort",
+    "cs": "úsilí",
+    "pl": "wysiłek",
+    "tr": "çaba",
+    "de": "Anstrengung",
+    "ja": "努力"
+   }
+  },
+  {
+   "parola": "smettere di",
+   "forme": [
+    "smettere"
+   ],
+   "formeEsempi": [
+    "smetto"
+   ],
+   "esempi": [
+    "Voglio smettere di fumare.",
+    "Smetto di lavorare alle sei.",
+    "Non smettere di studiare!"
+   ],
+   "traduzioni": {
+    "en": "to stop (doing)",
+    "es": "dejar de",
+    "pt": "parar de",
+    "fr": "arrêter de",
+    "cs": "přestat",
+    "pl": "przestać",
+    "tr": "-meyi bırakmak",
+    "de": "aufhören zu",
+    "ja": "〜するのをやめる"
+   }
+  },
+  {
+   "parola": "il dibattito",
+   "forme": [
+    "dibattito"
+   ],
+   "esempi": [
+    "Stasera c'è un dibattito in TV.",
+    "Il dibattito è molto acceso.",
+    "Partecipo al dibattito."
+   ],
+   "traduzioni": {
+    "en": "debate",
+    "es": "debate",
+    "pt": "debate",
+    "fr": "débat",
+    "cs": "debata",
+    "pl": "debata",
+    "tr": "tartışma",
+    "de": "Debatte",
+    "ja": "議論、討論"
+   }
+  },
+  {
+   "parola": "progettare",
+   "forme": [
+    "progetta"
+   ],
+   "formeEsempi": [
+    "progetto"
+   ],
+   "esempi": [
+    "L'architetto progetta una casa.",
+    "Progetto un viaggio in Giappone.",
+    "Chi progetta questi sistemi?"
+   ],
+   "traduzioni": {
+    "en": "to design, to plan",
+    "es": "diseñar, proyectar",
+    "pt": "projetar",
+    "fr": "concevoir",
+    "cs": "navrhovat",
+    "pl": "projektować",
+    "tr": "tasarlamak",
+    "de": "entwerfen, planen",
+    "ja": "設計する"
+   }
+  },
+  {
+   "parola": "opaco",
+   "forme": [
+    "opachi"
+   ],
+   "formeEsempi": [
+    "opaco",
+    "opache"
+   ],
+   "esempi": [
+    "Il vetro della doccia è opaco.",
+    "È un processo opaco.",
+    "Le decisioni sono rimaste opache."
+   ],
+   "traduzioni": {
+    "en": "opaque, unclear",
+    "es": "opaco",
+    "pt": "opaco",
+    "fr": "opaque",
+    "cs": "neprůhledný",
+    "pl": "nieprzejrzysty",
+    "tr": "opak, belirsiz",
+    "de": "undurchsichtig",
+    "ja": "不透明な"
+   }
+  },
+  {
+   "parola": "sottile",
+   "forme": [
+    "sottile"
+   ],
+   "esempi": [
+    "Il foglio è sottile.",
+    "È una differenza sottile.",
+    "Ha un'ironia sottile."
+   ],
+   "traduzioni": {
+    "en": "subtle (also: thin)",
+    "es": "sutil (también: delgado)",
+    "pt": "sutil (também: fino)",
+    "fr": "subtil (aussi : fin)",
+    "cs": "jemný, nenápadný (i: tenký)",
+    "pl": "subtelny (też: cienki)",
+    "tr": "ince, belli belirsiz",
+    "de": "subtil (auch: dünn)",
+    "ja": "微妙な（薄い、の意味も）"
+   }
+  },
+  {
+   "parola": "il giudizio",
+   "forme": [
+    "giudizio"
+   ],
+   "esempi": [
+    "Mi fido del tuo giudizio.",
+    "Non dare giudizi affrettati.",
+    "Il giudizio finale spetta a te."
+   ],
+   "traduzioni": {
+    "en": "judgement",
+    "es": "juicio",
+    "pt": "julgamento, juízo",
+    "fr": "jugement",
+    "cs": "úsudek",
+    "pl": "osąd",
+    "tr": "yargı",
+    "de": "Urteil",
+    "ja": "判断"
+   },
+   "formeEsempi": [
+    "giudizi"
+   ]
+  },
+  {
+   "parola": "neutrale",
+   "forme": [
+    "neutrale"
+   ],
+   "esempi": [
+    "La Svizzera è un paese neutrale.",
+    "Cerco di restare neutrale.",
+    "Nessuna tecnologia è neutrale."
+   ],
+   "traduzioni": {
+    "en": "neutral",
+    "es": "neutral",
+    "pt": "neutro",
+    "fr": "neutre",
+    "cs": "neutrální",
+    "pl": "neutralny",
+    "tr": "tarafsız",
+    "de": "neutral",
+    "ja": "中立の"
+   }
+  },
+  {
+   "parola": "generativo",
+   "forme": [
+    "generativa"
+   ],
+   "esempi": [
+    "L'IA generativa crea immagini.",
+    "È un modello generativo.",
+    "L'IA generativa scrive testi."
+   ],
+   "traduzioni": {
+    "en": "generative",
+    "es": "generativo",
+    "pt": "generativo",
+    "fr": "générative",
+    "cs": "generativní",
+    "pl": "generatywny",
+    "tr": "üretken",
+    "de": "generativ",
+    "ja": "生成の"
+   },
+   "formeEsempi": [
+    "generativo"
+   ]
+  },
+  {
+   "parola": "desiderabile",
+   "forme": [
+    "desiderabile"
+   ],
+   "esempi": [
+    "È un risultato desiderabile.",
+    "Una vita tranquilla è desiderabile.",
+    "Non è un cambiamento desiderabile."
+   ],
+   "traduzioni": {
+    "en": "desirable",
+    "es": "deseable",
+    "pt": "desejável",
+    "fr": "souhaitable",
+    "cs": "žádoucí",
+    "pl": "pożądany",
+    "tr": "arzu edilen",
+    "de": "wünschenswert",
+    "ja": "望ましい"
+   }
+  },
+  {
+   "parola": "critico",
+   "forme": [
+    "critica"
+   ],
+   "formeEsempi": [
+    "critico"
+   ],
+   "esempi": [
+    "Serve uno spirito critico.",
+    "È una situazione critica.",
+    "Leggo le notizie con occhio critico."
+   ],
+   "traduzioni": {
+    "en": "critical",
+    "es": "crítico",
+    "pt": "crítico",
+    "fr": "critique",
+    "cs": "kritický",
+    "pl": "krytyczny",
+    "tr": "eleştirel",
+    "de": "kritisch",
+    "ja": "批判的な"
+   }
+  },
+  {
+   "parola": "l'incentivo",
+   "forme": [
+    "incentivi"
+   ],
+   "formeEsempi": [
+    "incentivo"
+   ],
+   "esempi": [
+    "Lo Stato offre incentivi per le auto elettriche.",
+    "Un premio è un buon incentivo.",
+    "Bisogna capire gli incentivi economici."
+   ],
+   "traduzioni": {
+    "en": "incentive",
+    "es": "incentivo",
+    "pt": "incentivo",
+    "fr": "incitation",
+    "cs": "pobídka",
+    "pl": "zachęta",
+    "tr": "teşvik",
+    "de": "Anreiz",
+    "ja": "誘因、インセンティブ"
+   }
+  },
+  {
+   "parola": "la conseguenza",
+   "forme": [
+    "conseguenze"
+   ],
+   "formeEsempi": [
+    "conseguenza"
+   ],
+   "esempi": [
+    "Ogni azione ha conseguenze.",
+    "Di conseguenza siamo partiti.",
+    "Le conseguenze sono gravi."
+   ],
+   "traduzioni": {
+    "en": "consequence",
+    "es": "consecuencia",
+    "pt": "consequência",
+    "fr": "conséquence",
+    "cs": "důsledek",
+    "pl": "konsekwencja",
+    "tr": "sonuç",
+    "de": "Folge",
+    "ja": "結果、影響"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "b1": [
+    "The future of artificial intelligence will depend on the choices we make today. There isn't just one possible future.",
+    "On the one hand, AI can make work quicker, help research and offer personalised tools for education.",
+    "On the other hand, there are real risks: loss of privacy, dependence on automatic tools, errors that are hard to see and the spread of fake content.",
+    "At work, some tasks could be automated, while others could become more creative thanks to cooperation with intelligent systems.",
+    "The central question isn't whether to use AI, but how to use it in a way that is transparent, checkable and useful to people."
+   ]
+  },
+  "es": {
+   "b1": [
+    "El futuro de la inteligencia artificial dependerá de las decisiones que tomemos hoy. No existe un único futuro posible.",
+    "Por un lado, la IA puede hacer el trabajo más rápido, ayudar a la investigación y ofrecer herramientas personalizadas para la educación.",
+    "Por otro lado, existen riesgos reales: pérdida de privacidad, dependencia de las herramientas automáticas, errores difíciles de ver y difusión de contenidos falsos.",
+    "En el trabajo, algunas tareas podrían automatizarse, mientras que otras podrían volverse más creativas gracias a la colaboración con sistemas inteligentes.",
+    "La pregunta central no es si usar la IA, sino cómo usarla de forma transparente, controlable y útil para las personas."
+   ]
+  },
+  "pt": {
+   "b1": [
+    "O futuro da inteligência artificial vai depender das escolhas que fazemos hoje. Não existe um único futuro possível.",
+    "Por um lado, a IA pode deixar o trabalho mais rápido, ajudar a pesquisa e oferecer ferramentas personalizadas para a educação.",
+    "Por outro lado, existem riscos reais: perda de privacidade, dependência das ferramentas automáticas, erros difíceis de ver e disseminação de conteúdos falsos.",
+    "No trabalho, algumas tarefas poderiam ser automatizadas, enquanto outras poderiam se tornar mais criativas graças à colaboração com sistemas inteligentes.",
+    "A pergunta central não é se usar a IA, mas como usá-la de forma transparente, controlável e útil para as pessoas."
+   ]
+  },
+  "fr": {
+   "b1": [
+    "L'avenir de l'intelligence artificielle dépendra des choix que nous faisons aujourd'hui. Il n'existe pas un seul avenir possible.",
+    "D'un côté, l'IA peut rendre le travail plus rapide, aider la recherche et offrir des outils personnalisés pour l'éducation.",
+    "De l'autre, il existe des risques réels : perte de la vie privée, dépendance aux outils automatiques, erreurs difficiles à voir et diffusion de faux contenus.",
+    "Au travail, certaines tâches pourraient être automatisées, tandis que d'autres pourraient devenir plus créatives grâce à la collaboration avec des systèmes intelligents.",
+    "La question centrale n'est pas de savoir s'il faut utiliser l'IA, mais comment l'utiliser de manière transparente, contrôlable et utile aux personnes."
+   ]
+  },
+  "cs": {
+   "b1": [
+    "Budoucnost umělé inteligence bude záviset na rozhodnutích, která děláme dnes. Neexistuje jen jedna možná budoucnost.",
+    "Na jednu stranu může AI zrychlit práci, pomáhat výzkumu a nabídnout nástroje na míru pro vzdělávání.",
+    "Na druhou stranu existují skutečná rizika: ztráta soukromí, závislost na automatických nástrojích, chyby, které jsou těžko vidět, a šíření falešného obsahu.",
+    "V práci by některé úkoly mohly být automatizovány, zatímco jiné by se díky spolupráci s inteligentními systémy mohly stát tvořivějšími.",
+    "Hlavní otázkou není, zda AI používat, ale jak ji používat průhledně, kontrolovatelně a užitečně pro lidi."
+   ]
+  },
+  "pl": {
+   "b1": [
+    "Przyszłość sztucznej inteligencji będzie zależeć od wyborów, których dokonujemy dziś. Nie istnieje tylko jedna możliwa przyszłość.",
+    "Z jednej strony SI może przyspieszyć pracę, pomóc badaniom i zaoferować spersonalizowane narzędzia do nauki.",
+    "Z drugiej strony istnieją realne zagrożenia: utrata prywatności, uzależnienie od automatycznych narzędzi, trudne do zauważenia błędy i rozpowszechnianie fałszywych treści.",
+    "W pracy niektóre zadania mogłyby zostać zautomatyzowane, a inne mogłyby stać się bardziej kreatywne dzięki współpracy z inteligentnymi systemami.",
+    "Główne pytanie nie brzmi, czy używać SI, ale jak używać jej w sposób przejrzysty, kontrolowalny i pożyteczny dla ludzi."
+   ]
+  },
+  "tr": {
+   "b1": [
+    "Yapay zekânın geleceği, bugün yaptığımız seçimlere bağlı olacak. Tek bir olası gelecek yok.",
+    "Bir yandan yapay zekâ işi hızlandırabilir, araştırmaya yardım edebilir ve eğitim için kişiye özel araçlar sunabilir.",
+    "Öte yandan gerçek riskler var: mahremiyetin kaybı, otomatik araçlara bağımlılık, fark edilmesi zor hatalar ve sahte içeriklerin yayılması.",
+    "İş hayatında bazı görevler otomatikleştirilebilir, bazıları ise akıllı sistemlerle işbirliği sayesinde daha yaratıcı hâle gelebilir.",
+    "Asıl soru yapay zekâyı kullanıp kullanmamak değil, onu şeffaf, denetlenebilir ve insanlara faydalı bir şekilde nasıl kullanacağımızdır."
+   ]
+  },
+  "de": {
+   "b1": [
+    "Die Zukunft der künstlichen Intelligenz wird von den Entscheidungen abhängen, die wir heute treffen. Es gibt nicht nur eine mögliche Zukunft.",
+    "Einerseits kann KI die Arbeit schneller machen, der Forschung helfen und personalisierte Werkzeuge für die Bildung bieten.",
+    "Andererseits gibt es echte Risiken: Verlust der Privatsphäre, Abhängigkeit von automatischen Werkzeugen, schwer erkennbare Fehler und die Verbreitung falscher Inhalte.",
+    "Bei der Arbeit könnten manche Aufgaben automatisiert werden, während andere dank der Zusammenarbeit mit intelligenten Systemen kreativer werden könnten.",
+    "Die zentrale Frage ist nicht, ob wir KI nutzen, sondern wie wir sie transparent, kontrollierbar und zum Nutzen der Menschen einsetzen."
+   ]
+  },
+  "ja": {
+   "b1": [
+    "人工知能の未来は、私たちが今日する選択によって決まる。ありうる未来は一つではない。",
+    "一方では、AIは仕事を速くし、研究を助け、一人ひとりに合わせた教育の道具を提供できる。",
+    "他方では、現実のリスクもある。プライバシーが失われること、自動の道具に頼りすぎること、気づきにくい間違い、そして偽の情報が広がることだ。",
+    "仕事では、自動化される作業がある一方で、賢いシステムと協力することで、より創造的になる作業もあるだろう。",
+    "大切なのは、AIを使うかどうかではなく、透明で、検証でき、人の役に立つ形でどう使うかである。"
+   ]
+  }
+ }
+}
