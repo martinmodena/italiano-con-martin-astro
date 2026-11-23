@@ -1,0 +1,1487 @@
+{
+ "id": "come-preparare-una-pizza",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "preparare",
+   "forme": [
+    "preparare",
+    "prepari",
+    "prepara"
+   ],
+   "formeEsempi": [
+    "preparo"
+   ],
+   "esempi": [
+    "Stasera preparo la cena io.",
+    "Prepari tu il caffè?",
+    "La nonna prepara la pasta fresca."
+   ],
+   "traduzioni": {
+    "en": "to prepare, to make",
+    "es": "preparar",
+    "pt": "preparar",
+    "fr": "préparer",
+    "cs": "připravit",
+    "pl": "przygotować",
+    "tr": "hazırlamak",
+    "de": "zubereiten",
+    "ja": "準備する、作る"
+   }
+  },
+  {
+   "parola": "servire",
+   "forme": [
+    "servono",
+    "serve"
+   ],
+   "esempi": [
+    "Per la torta servono tre uova.",
+    "Che cosa serve per la pizza?",
+    "A casa serve più tempo."
+   ],
+   "traduzioni": {
+    "en": "to be needed («servono» = you need)",
+    "es": "hacer falta, necesitarse",
+    "pt": "precisar-se de, ser necessário",
+    "fr": "falloir («servono» = il faut)",
+    "cs": "být potřeba",
+    "pl": "być potrzebnym («servono» = potrzeba)",
+    "tr": "gerekmek",
+    "de": "brauchen («servono» = man braucht)",
+    "ja": "必要だ"
+   }
+  },
+  {
+   "parola": "la farina",
+   "forme": [
+    "farina"
+   ],
+   "esempi": [
+    "Compro un chilo di farina.",
+    "Per il pane serve la farina.",
+    "Ho le mani bianche di farina."
+   ],
+   "traduzioni": {
+    "en": "flour",
+    "es": "harina",
+    "pt": "farinha",
+    "fr": "farine",
+    "cs": "mouka",
+    "pl": "mąka",
+    "tr": "un",
+    "de": "Mehl",
+    "ja": "小麦粉"
+   }
+  },
+  {
+   "parola": "l'acqua",
+   "forme": [
+    "acqua"
+   ],
+   "esempi": [
+    "Aggiungo un bicchiere d'acqua.",
+    "L'acqua deve essere tiepida.",
+    "Bevo molta acqua."
+   ],
+   "traduzioni": {
+    "en": "water",
+    "es": "agua",
+    "pt": "água",
+    "fr": "eau",
+    "cs": "voda",
+    "pl": "woda",
+    "tr": "su",
+    "de": "Wasser",
+    "ja": "水"
+   }
+  },
+  {
+   "parola": "il lievito",
+   "forme": [
+    "lievito"
+   ],
+   "esempi": [
+    "Senza lievito il pane non cresce.",
+    "Metto un po' di lievito nella farina.",
+    "Il lievito è nel frigorifero."
+   ],
+   "traduzioni": {
+    "en": "yeast",
+    "es": "levadura",
+    "pt": "fermento",
+    "fr": "levure",
+    "cs": "droždí",
+    "pl": "drożdże",
+    "tr": "maya",
+    "de": "Hefe",
+    "ja": "イースト、酵母"
+   }
+  },
+  {
+   "parola": "il sale",
+   "forme": [
+    "sale"
+   ],
+   "esempi": [
+    "Mi passi il sale?",
+    "Metto poco sale nella pasta.",
+    "Il pane toscano è senza sale."
+   ],
+   "traduzioni": {
+    "en": "salt",
+    "es": "sal",
+    "pt": "sal",
+    "fr": "sel",
+    "cs": "sůl",
+    "pl": "sól",
+    "tr": "tuz",
+    "de": "Salz",
+    "ja": "塩"
+   }
+  },
+  {
+   "parola": "il pomodoro",
+   "forme": [
+    "pomodoro"
+   ],
+   "esempi": [
+    "La salsa di pomodoro è pronta.",
+    "Metto il pomodoro sulla pizza.",
+    "Questo pomodoro è molto dolce."
+   ],
+   "traduzioni": {
+    "en": "tomato (here: tomato sauce)",
+    "es": "tomate",
+    "pt": "tomate, molho de tomate",
+    "fr": "tomate, sauce tomate",
+    "cs": "rajče, rajčatová omáčka",
+    "pl": "pomidor, sos pomidorowy",
+    "tr": "domates, domates sosu",
+    "de": "Tomate, Tomatensoße",
+    "ja": "トマト（トマトソース）"
+   }
+  },
+  {
+   "parola": "la mozzarella",
+   "forme": [
+    "mozzarella"
+   ],
+   "esempi": [
+    "La mozzarella di bufala è famosa.",
+    "Taglio la mozzarella a pezzi.",
+    "Vorrei un'insalata con la mozzarella."
+   ],
+   "traduzioni": {
+    "en": "mozzarella",
+    "es": "mozzarella",
+    "pt": "muçarela",
+    "fr": "mozzarella",
+    "cs": "mozzarella",
+    "pl": "mozzarella",
+    "tr": "mozzarella",
+    "de": "Mozzarella",
+    "ja": "モッツァレラ"
+   }
+  },
+  {
+   "parola": "il basilico",
+   "forme": [
+    "basilico"
+   ],
+   "esempi": [
+    "Il basilico ha un profumo forte.",
+    "Metto qualche foglia di basilico.",
+    "Sul balcone coltivo il basilico."
+   ],
+   "traduzioni": {
+    "en": "basil",
+    "es": "albahaca",
+    "pt": "manjericão",
+    "fr": "basilic",
+    "cs": "bazalka",
+    "pl": "bazylia",
+    "tr": "fesleğen",
+    "de": "Basilikum",
+    "ja": "バジル"
+   }
+  },
+  {
+   "parola": "l'impasto",
+   "forme": [
+    "impasto"
+   ],
+   "esempi": [
+    "L'impasto deve riposare due ore.",
+    "Questo impasto è troppo duro.",
+    "Lavoro l'impasto con le mani."
+   ],
+   "traduzioni": {
+    "en": "dough",
+    "es": "masa",
+    "pt": "massa",
+    "fr": "pâte",
+    "cs": "těsto",
+    "pl": "ciasto",
+    "tr": "hamur",
+    "de": "Teig",
+    "ja": "生地"
+   }
+  },
+  {
+   "parola": "mettere",
+   "forme": [
+    "metti"
+   ],
+   "formeEsempi": [
+    "metto"
+   ],
+   "esempi": [
+    "Metti lo zucchero nel caffè?",
+    "Metto la farina in una ciotola.",
+    "Metti la pizza in forno!"
+   ],
+   "traduzioni": {
+    "en": "to put",
+    "es": "poner",
+    "pt": "pôr, colocar",
+    "fr": "mettre",
+    "cs": "dát",
+    "pl": "włożyć, położyć",
+    "tr": "koymak",
+    "de": "geben, legen",
+    "ja": "入れる、のせる"
+   }
+  },
+  {
+   "parola": "la ciotola",
+   "forme": [
+    "ciotola"
+   ],
+   "esempi": [
+    "Metto l'insalata in una ciotola.",
+    "Il gatto beve dalla sua ciotola.",
+    "Prendi una ciotola grande."
+   ],
+   "traduzioni": {
+    "en": "bowl",
+    "es": "cuenco, bol",
+    "pt": "tigela",
+    "fr": "bol, saladier",
+    "cs": "miska",
+    "pl": "miska",
+    "tr": "kâse",
+    "de": "Schüssel",
+    "ja": "ボウル"
+   }
+  },
+  {
+   "parola": "lavorare (l'impasto)",
+   "forme": [
+    "lavori"
+   ],
+   "formeEsempi": [
+    "lavoro"
+   ],
+   "esempi": [
+    "Lavoro l'impasto per dieci minuti.",
+    "Lavori la pasta con le mani?",
+    "Più lavori l'impasto, più diventa liscio."
+   ],
+   "traduzioni": {
+    "en": "to knead, to work (the dough)",
+    "es": "amasar, trabajar la masa",
+    "pt": "sovar, trabalhar a massa",
+    "fr": "pétrir",
+    "cs": "hníst, zpracovat",
+    "pl": "wyrabiać (ciasto)",
+    "tr": "yoğurmak",
+    "de": "kneten",
+    "ja": "こねる"
+   }
+  },
+  {
+   "parola": "la mano",
+   "forme": [
+    "mani"
+   ],
+   "formeEsempi": [
+    "mano"
+   ],
+   "esempi": [
+    "Lavati le mani prima di cucinare.",
+    "Stendo la pizza con le mani.",
+    "Ho una mano sporca di farina."
+   ],
+   "traduzioni": {
+    "en": "hand («con le mani» = by hand)",
+    "es": "mano",
+    "pt": "mão",
+    "fr": "main",
+    "cs": "ruka",
+    "pl": "ręka",
+    "tr": "el",
+    "de": "Hand",
+    "ja": "手"
+   }
+  },
+  {
+   "parola": "riposare",
+   "forme": [
+    "riposare"
+   ],
+   "formeEsempi": [
+    "riposa"
+   ],
+   "esempi": [
+    "Dopo pranzo mi piace riposare.",
+    "Lascia riposare l'impasto.",
+    "La carne riposa cinque minuti."
+   ],
+   "traduzioni": {
+    "en": "to rest («deve riposare» = it has to rest)",
+    "es": "reposar",
+    "pt": "descansar",
+    "fr": "reposer",
+    "cs": "odpočinout si, nechat odležet",
+    "pl": "odpoczywać, odstać",
+    "tr": "dinlenmek",
+    "de": "ruhen",
+    "ja": "寝かせる、休む"
+   }
+  },
+  {
+   "parola": "il riposo",
+   "forme": [
+    "riposo"
+   ],
+   "esempi": [
+    "Il riposo dell'impasto dura due ore.",
+    "Domenica è il mio giorno di riposo.",
+    "Dopo il lavoro ho bisogno di riposo."
+   ],
+   "traduzioni": {
+    "en": "rest, resting (time)",
+    "es": "reposo, descanso",
+    "pt": "descanso",
+    "fr": "repos",
+    "cs": "odpočinek, kynutí",
+    "pl": "odpoczynek, czas na wyrośnięcie",
+    "tr": "dinlenme",
+    "de": "Ruhe, Ruhezeit",
+    "ja": "寝かせる時間、休息"
+   }
+  },
+  {
+   "parola": "alcuni",
+   "forme": [
+    "alcune"
+   ],
+   "formeEsempi": [
+    "alcuni"
+   ],
+   "esempi": [
+    "Ho alcune domande.",
+    "Dopo alcune ore l'impasto cresce.",
+    "Alcuni amici arrivano stasera."
+   ],
+   "traduzioni": {
+    "en": "some, a few",
+    "es": "algunos",
+    "pt": "algumas, alguns",
+    "fr": "quelques",
+    "cs": "několik",
+    "pl": "kilka",
+    "tr": "birkaç",
+    "de": "einige",
+    "ja": "いくつかの"
+   }
+  },
+  {
+   "parola": "l'ora",
+   "forme": [
+    "ore"
+   ],
+   "formeEsempi": [
+    "ora"
+   ],
+   "esempi": [
+    "Il film dura due ore.",
+    "Lavoro otto ore al giorno.",
+    "Ci vediamo tra un'ora."
+   ],
+   "traduzioni": {
+    "en": "hour",
+    "es": "hora",
+    "pt": "hora",
+    "fr": "heure",
+    "cs": "hodina",
+    "pl": "godzina",
+    "tr": "saat",
+    "de": "Stunde",
+    "ja": "時間"
+   }
+  },
+  {
+   "parola": "morbido",
+   "forme": [
+    "morbido"
+   ],
+   "esempi": [
+    "Il pane fresco è morbido.",
+    "Questo cuscino è molto morbido.",
+    "L'impasto diventa morbido."
+   ],
+   "traduzioni": {
+    "en": "soft",
+    "es": "blando, suave",
+    "pt": "macio",
+    "fr": "mou, moelleux",
+    "cs": "měkký",
+    "pl": "miękki",
+    "tr": "yumuşak",
+    "de": "weich",
+    "ja": "柔らかい"
+   }
+  },
+  {
+   "parola": "crescere",
+   "forme": [
+    "cresce"
+   ],
+   "esempi": [
+    "L'impasto cresce al caldo.",
+    "Il basilico cresce bene al sole.",
+    "Il bambino cresce in fretta."
+   ],
+   "traduzioni": {
+    "en": "to grow, to rise",
+    "es": "crecer, subir",
+    "pt": "crescer",
+    "fr": "lever, pousser",
+    "cs": "kynout, růst",
+    "pl": "rosnąć, wyrastać",
+    "tr": "kabarmak, büyümek",
+    "de": "aufgehen, wachsen",
+    "ja": "膨らむ、育つ"
+   }
+  },
+  {
+   "parola": "pronto",
+   "forme": [
+    "pronto"
+   ],
+   "esempi": [
+    "La cena è pronta? No, non ancora.",
+    "L'impasto è pronto.",
+    "Sei pronto? Andiamo!"
+   ],
+   "traduzioni": {
+    "en": "ready",
+    "es": "listo",
+    "pt": "pronto",
+    "fr": "prêt",
+    "cs": "hotový",
+    "pl": "gotowy",
+    "tr": "hazır",
+    "de": "fertig",
+    "ja": "できている"
+   },
+   "formeEsempi": [
+    "pronta"
+   ]
+  },
+  {
+   "parola": "stendere",
+   "forme": [
+    "stendi",
+    "stende"
+   ],
+   "formeEsempi": [
+    "stendo"
+   ],
+   "esempi": [
+    "Stendo la pasta con il mattarello.",
+    "Stendi bene l'impasto.",
+    "Il pizzaiolo stende la pizza con le mani."
+   ],
+   "traduzioni": {
+    "en": "to roll out, to stretch (dough)",
+    "es": "estirar",
+    "pt": "abrir (a massa)",
+    "fr": "étaler",
+    "cs": "rozválet, roztáhnout",
+    "pl": "rozwałkować, rozciągnąć",
+    "tr": "açmak (hamur)",
+    "de": "ausrollen, ausziehen",
+    "ja": "（生地を）のばす"
+   }
+  },
+  {
+   "parola": "la base",
+   "forme": [
+    "base"
+   ],
+   "esempi": [
+    "La base della pizza è sottile.",
+    "Preparo la base della torta.",
+    "Il sapore della base è importante."
+   ],
+   "traduzioni": {
+    "en": "base",
+    "es": "base",
+    "pt": "base, massa",
+    "fr": "base, pâte",
+    "cs": "základ, korpus",
+    "pl": "spód",
+    "tr": "taban, hamur",
+    "de": "Boden",
+    "ja": "生地、台"
+   }
+  },
+  {
+   "parola": "con attenzione",
+   "forme": [
+    "attenzione"
+   ],
+   "esempi": [
+    "Leggi la domanda con attenzione.",
+    "Attraversa la strada con attenzione.",
+    "Taglio il pane con attenzione."
+   ],
+   "traduzioni": {
+    "en": "carefully",
+    "es": "con cuidado",
+    "pt": "com cuidado",
+    "fr": "avec soin, attentivement",
+    "cs": "opatrně, pozorně",
+    "pl": "ostrożnie, uważnie",
+    "tr": "dikkatle",
+    "de": "vorsichtig, aufmerksam",
+    "ja": "注意して、丁寧に"
+   }
+  },
+  {
+   "parola": "schiacciare",
+   "forme": [
+    "schiacciare"
+   ],
+   "formeEsempi": [
+    "schiaccio"
+   ],
+   "esempi": [
+    "Non schiacciare il pane!",
+    "Schiaccio l'aglio con il coltello.",
+    "Attento a non schiacciare le uova."
+   ],
+   "traduzioni": {
+    "en": "to squash, to press down",
+    "es": "aplastar",
+    "pt": "apertar, amassar",
+    "fr": "écraser",
+    "cs": "zmáčknout, rozmáčknout",
+    "pl": "zgnieść",
+    "tr": "ezmek, bastırmak",
+    "de": "zerdrücken, plattdrücken",
+    "ja": "押しつぶす"
+   }
+  },
+  {
+   "parola": "troppo",
+   "forme": [
+    "troppo",
+    "troppi"
+   ],
+   "esempi": [
+    "Non mangiare troppo!",
+    "C'è troppo sale nella zuppa.",
+    "Troppi ingredienti rovinano la pizza."
+   ],
+   "traduzioni": {
+    "en": "too much, too many",
+    "es": "demasiado",
+    "pt": "demais, muito",
+    "fr": "trop",
+    "cs": "příliš (moc)",
+    "pl": "za dużo",
+    "tr": "fazla, çok fazla",
+    "de": "zu viel, zu viele",
+    "ja": "〜すぎる"
+   }
+  },
+  {
+   "parola": "il bordo",
+   "forme": [
+    "bordo"
+   ],
+   "esempi": [
+    "Il bordo della pizza è croccante.",
+    "Non mangio mai il bordo.",
+    "Il bicchiere è sul bordo del tavolo."
+   ],
+   "traduzioni": {
+    "en": "edge, crust",
+    "es": "borde",
+    "pt": "borda",
+    "fr": "bord",
+    "cs": "okraj",
+    "pl": "brzeg",
+    "tr": "kenar",
+    "de": "Rand",
+    "ja": "ふち、耳"
+   }
+  },
+  {
+   "parola": "alla fine",
+   "forme": [
+    "fine"
+   ],
+   "esempi": [
+    "Alla fine metto il basilico.",
+    "Alla fine del film piango sempre.",
+    "Alla fine abbiamo mangiato la pizza."
+   ],
+   "traduzioni": {
+    "en": "at the end, finally",
+    "es": "al final",
+    "pt": "no final",
+    "fr": "à la fin",
+    "cs": "nakonec",
+    "pl": "na koniec",
+    "tr": "sonunda",
+    "de": "am Ende",
+    "ja": "最後に"
+   }
+  },
+  {
+   "parola": "il forno",
+   "forme": [
+    "forno"
+   ],
+   "esempi": [
+    "Accendo il forno a 250 gradi.",
+    "La pizza è nel forno.",
+    "Il pane esce dal forno."
+   ],
+   "traduzioni": {
+    "en": "oven",
+    "es": "horno",
+    "pt": "forno",
+    "fr": "four",
+    "cs": "trouba, pec",
+    "pl": "piekarnik, piec",
+    "tr": "fırın",
+    "de": "Ofen",
+    "ja": "オーブン、かまど"
+   }
+  },
+  {
+   "parola": "caldo",
+   "forme": [
+    "caldo"
+   ],
+   "esempi": [
+    "Il forno deve essere molto caldo.",
+    "Bevo un tè caldo.",
+    "Oggi fa caldo."
+   ],
+   "traduzioni": {
+    "en": "hot",
+    "es": "caliente",
+    "pt": "quente",
+    "fr": "chaud",
+    "cs": "horký",
+    "pl": "gorący",
+    "tr": "sıcak",
+    "de": "heiß",
+    "ja": "熱い"
+   }
+  },
+  {
+   "parola": "subito",
+   "forme": [
+    "subito"
+   ],
+   "esempi": [
+    "La pizza si mangia subito.",
+    "Arrivo subito!",
+    "Rispondo subito al messaggio."
+   ],
+   "traduzioni": {
+    "en": "straight away, immediately",
+    "es": "enseguida",
+    "pt": "logo, na hora",
+    "fr": "tout de suite",
+    "cs": "hned",
+    "pl": "od razu",
+    "tr": "hemen",
+    "de": "sofort",
+    "ja": "すぐに"
+   }
+  },
+  {
+   "parola": "richiedere",
+   "forme": [
+    "richiede"
+   ],
+   "esempi": [
+    "Questo lavoro richiede pazienza.",
+    "La pizza richiede tempo.",
+    "Il viaggio richiede un passaporto."
+   ],
+   "traduzioni": {
+    "en": "to require, to take (time)",
+    "es": "requerir, necesitar",
+    "pt": "exigir, requerer",
+    "fr": "demander, exiger",
+    "cs": "vyžadovat",
+    "pl": "wymagać",
+    "tr": "gerektirmek",
+    "de": "erfordern, brauchen",
+    "ja": "必要とする"
+   }
+  },
+  {
+   "parola": "il passaggio",
+   "forme": [
+    "passaggi"
+   ],
+   "formeEsempi": [
+    "passaggio"
+   ],
+   "esempi": [
+    "La ricetta ha cinque passaggi.",
+    "Il primo passaggio è il più facile.",
+    "Segui tutti i passaggi."
+   ],
+   "traduzioni": {
+    "en": "step, stage",
+    "es": "paso",
+    "pt": "etapa, passo",
+    "fr": "étape",
+    "cs": "krok",
+    "pl": "krok, etap",
+    "tr": "adım",
+    "de": "Schritt",
+    "ja": "手順、工程"
+   }
+  },
+  {
+   "parola": "chiaro",
+   "forme": [
+    "chiari"
+   ],
+   "formeEsempi": [
+    "chiaro",
+    "chiara",
+    "chiare"
+   ],
+   "esempi": [
+    "La spiegazione è chiara.",
+    "Le istruzioni sono chiare.",
+    "È tutto chiaro?"
+   ],
+   "traduzioni": {
+    "en": "clear",
+    "es": "claro",
+    "pt": "claro",
+    "fr": "clair",
+    "cs": "jasný",
+    "pl": "jasny",
+    "tr": "açık, net",
+    "de": "klar",
+    "ja": "わかりやすい、明確な"
+   }
+  },
+  {
+   "parola": "lasciare",
+   "forme": [
+    "lascia"
+   ],
+   "formeEsempi": [
+    "lascio"
+   ],
+   "esempi": [
+    "Lascio riposare l'impasto.",
+    "Lascia il pane sul tavolo.",
+    "Si lascia cuocere per dieci minuti."
+   ],
+   "traduzioni": {
+    "en": "to let, to leave («si lascia riposare» = you let it rest)",
+    "es": "dejar",
+    "pt": "deixar",
+    "fr": "laisser",
+    "cs": "nechat",
+    "pl": "zostawić, pozwolić",
+    "tr": "bırakmak",
+    "de": "lassen",
+    "ja": "〜させておく、置いておく"
+   }
+  },
+  {
+   "parola": "infine",
+   "forme": [
+    "infine"
+   ],
+   "esempi": [
+    "Infine aggiungo il formaggio.",
+    "Prima studio, poi mangio, infine esco.",
+    "Infine, grazie a tutti!"
+   ],
+   "traduzioni": {
+    "en": "finally, lastly",
+    "es": "por último",
+    "pt": "por fim",
+    "fr": "enfin, pour finir",
+    "cs": "nakonec",
+    "pl": "na koniec",
+    "tr": "son olarak",
+    "de": "schließlich",
+    "ja": "最後に"
+   }
+  },
+  {
+   "parola": "condire",
+   "forme": [
+    "condisce"
+   ],
+   "formeEsempi": [
+    "condisco",
+    "condisci"
+   ],
+   "esempi": [
+    "Condisco l'insalata con olio e sale.",
+    "La pizza si condisce con il pomodoro.",
+    "Come condisci la pasta?"
+   ],
+   "traduzioni": {
+    "en": "to dress, to top, to season",
+    "es": "aliñar, condimentar",
+    "pt": "temperar",
+    "fr": "assaisonner, garnir",
+    "cs": "dochutit, ozdobit (pizzu)",
+    "pl": "przyprawić, dodać dodatki",
+    "tr": "malzemelerini koymak, soslamak",
+    "de": "würzen, belegen",
+    "ja": "味付けする、具をのせる"
+   }
+  },
+  {
+   "parola": "cuocere",
+   "forme": [
+    "cuoce"
+   ],
+   "formeEsempi": [
+    "cuocio"
+   ],
+   "esempi": [
+    "La pasta cuoce in dieci minuti.",
+    "Cuocio le verdure in forno.",
+    "La pizza si cuoce a 300 gradi."
+   ],
+   "traduzioni": {
+    "en": "to cook, to bake",
+    "es": "cocer, hornear",
+    "pt": "cozinhar, assar",
+    "fr": "cuire",
+    "cs": "péct, vařit",
+    "pl": "piec, gotować",
+    "tr": "pişmek, pişirmek",
+    "de": "backen, garen",
+    "ja": "焼く、焼ける"
+   }
+  },
+  {
+   "parola": "importante",
+   "forme": [
+    "importante"
+   ],
+   "esempi": [
+    "È importante dormire bene.",
+    "Domani ho una riunione importante.",
+    "Il riposo dell'impasto è importante."
+   ],
+   "traduzioni": {
+    "en": "important",
+    "es": "importante",
+    "pt": "importante",
+    "fr": "important",
+    "cs": "důležitý",
+    "pl": "ważny",
+    "tr": "önemli",
+    "de": "wichtig",
+    "ja": "大切な"
+   }
+  },
+  {
+   "parola": "produrre",
+   "forme": [
+    "produce"
+   ],
+   "esempi": [
+    "Le api producono il miele.",
+    "Questa regione produce molto vino.",
+    "Il lievito produce gas."
+   ],
+   "traduzioni": {
+    "en": "to produce",
+    "es": "producir",
+    "pt": "produzir",
+    "fr": "produire",
+    "cs": "vytvářet, vyrábět",
+    "pl": "wytwarzać",
+    "tr": "üretmek",
+    "de": "erzeugen, produzieren",
+    "ja": "生み出す"
+   },
+   "formeEsempi": [
+    "producono"
+   ]
+  },
+  {
+   "parola": "rendere",
+   "forme": [
+    "rende"
+   ],
+   "esempi": [
+    "Il sole mi rende felice.",
+    "Il lievito rende il pane leggero.",
+    "Questa musica rende tutto più bello."
+   ],
+   "traduzioni": {
+    "en": "to make (something + adjective)",
+    "es": "hacer, volver (más ligero)",
+    "pt": "tornar, deixar (mais leve)",
+    "fr": "rendre",
+    "cs": "udělat (lehčím)",
+    "pl": "czynić, sprawiać (że jest lżejsze)",
+    "tr": "… yapmak (hafif yapmak)",
+    "de": "machen (leichter machen)",
+    "ja": "〜にする"
+   }
+  },
+  {
+   "parola": "leggero",
+   "forme": [
+    "leggero"
+   ],
+   "esempi": [
+    "Stasera mangio qualcosa di leggero.",
+    "La valigia è leggera.",
+    "Questo impasto è più leggero."
+   ],
+   "traduzioni": {
+    "en": "light",
+    "es": "ligero",
+    "pt": "leve",
+    "fr": "léger",
+    "cs": "lehký",
+    "pl": "lekki",
+    "tr": "hafif",
+    "de": "leicht, locker",
+    "ja": "軽い"
+   },
+   "formeEsempi": [
+    "leggera"
+   ]
+  },
+  {
+   "parola": "napoletano",
+   "forme": [
+    "napoletana"
+   ],
+   "formeEsempi": [
+    "napoletano"
+   ],
+   "esempi": [
+    "La pizza napoletana ha il bordo alto.",
+    "Il caffè napoletano è forte.",
+    "Mio nonno è napoletano."
+   ],
+   "traduzioni": {
+    "en": "Neapolitan, from Naples",
+    "es": "napolitano",
+    "pt": "napolitano",
+    "fr": "napolitain",
+    "cs": "neapolský",
+    "pl": "neapolitański",
+    "tr": "Napoli usulü",
+    "de": "neapolitanisch",
+    "ja": "ナポリの"
+   }
+  },
+  {
+   "parola": "alto",
+   "forme": [
+    "alto"
+   ],
+   "esempi": [
+    "Mio fratello è molto alto.",
+    "Il bordo della pizza è alto e morbido.",
+    "La torre è alta cinquanta metri."
+   ],
+   "traduzioni": {
+    "en": "high, thick (crust); tall",
+    "es": "alto, grueso",
+    "pt": "alto, grosso",
+    "fr": "haut, épais",
+    "cs": "vysoký, silný",
+    "pl": "wysoki, gruby",
+    "tr": "yüksek, kalın",
+    "de": "hoch, dick",
+    "ja": "高い、厚い"
+   },
+   "formeEsempi": [
+    "alta"
+   ]
+  },
+  {
+   "parola": "il cornicione",
+   "forme": [
+    "cornicione"
+   ],
+   "esempi": [
+    "Il cornicione della pizza è gonfio.",
+    "Mi piace il cornicione croccante.",
+    "Un buon cornicione è morbido dentro."
+   ],
+   "traduzioni": {
+    "en": "cornicione (the puffy crust of a Neapolitan pizza)",
+    "es": "cornicione (el borde hinchado de la pizza napolitana)",
+    "pt": "cornicione (a borda alta da pizza napolitana)",
+    "fr": "cornicione (bord gonflé de la pizza napolitaine)",
+    "cs": "cornicione (nadýchaný okraj neapolské pizzy)",
+    "pl": "cornicione (puszysty brzeg pizzy neapolitańskiej)",
+    "tr": "cornicione (Napoli pizzasının kabarık kenarı)",
+    "de": "Cornicione (der luftige Rand der neapolitanischen Pizza)",
+    "ja": "コルニチョーネ（ナポリピッツァのふくらんだ縁）"
+   }
+  },
+  {
+   "parola": "il condimento",
+   "forme": [
+    "condimento"
+   ],
+   "esempi": [
+    "Il condimento della pasta è il pesto.",
+    "Quale condimento preferisci?",
+    "Un condimento semplice è il migliore."
+   ],
+   "traduzioni": {
+    "en": "topping, dressing",
+    "es": "condimento, ingredientes",
+    "pt": "cobertura, tempero",
+    "fr": "garniture, assaisonnement",
+    "cs": "obložení, omáčka",
+    "pl": "dodatki, sos",
+    "tr": "malzeme, sos",
+    "de": "Belag, Soße",
+    "ja": "トッピング、味付け"
+   }
+  },
+  {
+   "parola": "classico",
+   "forme": [
+    "classico"
+   ],
+   "esempi": [
+    "La margherita è la pizza classica.",
+    "Mi piace la musica classica.",
+    "È un errore classico."
+   ],
+   "traduzioni": {
+    "en": "classic, traditional",
+    "es": "clásico",
+    "pt": "clássico",
+    "fr": "classique",
+    "cs": "klasický",
+    "pl": "klasyczny",
+    "tr": "klasik",
+    "de": "klassisch",
+    "ja": "定番の"
+   },
+   "formeEsempi": [
+    "classica"
+   ]
+  },
+  {
+   "parola": "semplice",
+   "forme": [
+    "semplice"
+   ],
+   "esempi": [
+    "La ricetta è semplice.",
+    "È una domanda semplice.",
+    "Mi piacciono le cose semplici."
+   ],
+   "traduzioni": {
+    "en": "simple",
+    "es": "sencillo",
+    "pt": "simples",
+    "fr": "simple",
+    "cs": "jednoduchý",
+    "pl": "prosty",
+    "tr": "basit, sade",
+    "de": "einfach",
+    "ja": "シンプルな"
+   },
+   "formeEsempi": [
+    "semplici"
+   ]
+  },
+  {
+   "parola": "l'olio",
+   "forme": [
+    "olio"
+   ],
+   "esempi": [
+    "Metto un filo d'olio sulla pizza.",
+    "L'olio d'oliva italiano è famoso.",
+    "Cucino con poco olio."
+   ],
+   "traduzioni": {
+    "en": "(olive) oil",
+    "es": "aceite",
+    "pt": "azeite",
+    "fr": "huile",
+    "cs": "olej",
+    "pl": "oliwa, olej",
+    "tr": "zeytinyağı, yağ",
+    "de": "Öl",
+    "ja": "オリーブオイル、油"
+   }
+  },
+  {
+   "parola": "l'ingrediente",
+   "forme": [
+    "ingredienti"
+   ],
+   "formeEsempi": [
+    "ingrediente"
+   ],
+   "esempi": [
+    "Quali ingredienti servono?",
+    "Il basilico è un ingrediente importante.",
+    "Compro gli ingredienti al mercato."
+   ],
+   "traduzioni": {
+    "en": "ingredient",
+    "es": "ingrediente",
+    "pt": "ingrediente",
+    "fr": "ingrédient",
+    "cs": "přísada",
+    "pl": "składnik",
+    "tr": "malzeme",
+    "de": "Zutat",
+    "ja": "材料"
+   }
+  },
+  {
+   "parola": "coprire",
+   "forme": [
+    "coprire"
+   ],
+   "formeEsempi": [
+    "copro",
+    "copre"
+   ],
+   "esempi": [
+    "Copro l'impasto con un panno.",
+    "Troppo sale può coprire il sapore.",
+    "La neve copre le montagne."
+   ],
+   "traduzioni": {
+    "en": "to cover, to hide (a taste)",
+    "es": "tapar, ocultar",
+    "pt": "cobrir, esconder",
+    "fr": "couvrir, masquer",
+    "cs": "zakrýt, přebít (chuť)",
+    "pl": "przykryć, zagłuszyć (smak)",
+    "tr": "örtmek, bastırmak (tadı)",
+    "de": "zudecken, überdecken",
+    "ja": "覆う、（味を）消す"
+   }
+  },
+  {
+   "parola": "il sapore",
+   "forme": [
+    "sapore"
+   ],
+   "esempi": [
+    "Questo gelato ha un sapore di fragola.",
+    "Mi piace il sapore del caffè.",
+    "Il sapore della base è buono."
+   ],
+   "traduzioni": {
+    "en": "taste, flavour",
+    "es": "sabor",
+    "pt": "sabor",
+    "fr": "goût, saveur",
+    "cs": "chuť",
+    "pl": "smak",
+    "tr": "tat",
+    "de": "Geschmack",
+    "ja": "味"
+   }
+  },
+  {
+   "parola": "meglio",
+   "forme": [
+    "meglio"
+   ],
+   "esempi": [
+    "Oggi sto meglio.",
+    "La pizza cuoce meglio nel forno a legna.",
+    "È meglio partire presto."
+   ],
+   "traduzioni": {
+    "en": "better",
+    "es": "mejor",
+    "pt": "melhor",
+    "fr": "mieux",
+    "cs": "lépe",
+    "pl": "lepiej",
+    "tr": "daha iyi",
+    "de": "besser",
+    "ja": "よりよく"
+   }
+  },
+  {
+   "parola": "il calore",
+   "forme": [
+    "calore"
+   ],
+   "esempi": [
+    "Il calore del sole è forte.",
+    "La pizza ha bisogno di molto calore.",
+    "Sento il calore del fuoco."
+   ],
+   "traduzioni": {
+    "en": "heat",
+    "es": "calor",
+    "pt": "calor",
+    "fr": "chaleur",
+    "cs": "teplo, žár",
+    "pl": "ciepło, żar",
+    "tr": "ısı, sıcaklık",
+    "de": "Hitze",
+    "ja": "熱"
+   }
+  },
+  {
+   "parola": "la legna",
+   "forme": [
+    "legna"
+   ],
+   "esempi": [
+    "La pizzeria ha un forno a legna.",
+    "D'inverno brucio la legna nel camino.",
+    "Il nonno taglia la legna."
+   ],
+   "traduzioni": {
+    "en": "firewood («forno a legna» = wood-fired oven)",
+    "es": "leña («horno de leña»)",
+    "pt": "lenha («forno a lenha»)",
+    "fr": "bois («four à bois»)",
+    "cs": "dřevo («pec na dřevo»)",
+    "pl": "drewno («piec opalany drewnem»)",
+    "tr": "odun («odun fırını»)",
+    "de": "Holz («Holzofen»)",
+    "ja": "薪（forno a legna＝薪窯）"
+   }
+  },
+  {
+   "parola": "la cottura",
+   "forme": [
+    "cottura"
+   ],
+   "esempi": [
+    "La cottura dura novanta secondi.",
+    "Controlla la cottura della pasta.",
+    "La cottura lenta rende la carne morbida."
+   ],
+   "traduzioni": {
+    "en": "cooking, baking (time)",
+    "es": "cocción",
+    "pt": "cozimento",
+    "fr": "cuisson",
+    "cs": "pečení, vaření",
+    "pl": "pieczenie, gotowanie",
+    "tr": "pişirme",
+    "de": "Backzeit, Garen",
+    "ja": "焼き時間、加熱"
+   }
+  },
+  {
+   "parola": "rapido",
+   "forme": [
+    "rapida"
+   ],
+   "formeEsempi": [
+    "rapido"
+   ],
+   "esempi": [
+    "Ho fatto una doccia rapida.",
+    "Il treno rapido arriva prima.",
+    "È stata una cena rapida."
+   ],
+   "traduzioni": {
+    "en": "quick, fast",
+    "es": "rápido",
+    "pt": "rápido",
+    "fr": "rapide",
+    "cs": "rychlý",
+    "pl": "szybki",
+    "tr": "hızlı",
+    "de": "schnell",
+    "ja": "速い"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "To make a pizza you need flour, water, yeast, salt, tomato, mozzarella and basil.",
+    "First you make the dough. You put flour, water, yeast and salt in a bowl and work it with your hands.",
+    "Then the dough has to rest. After a few hours it becomes softer and rises.",
+    "When it's ready, you stretch out the base carefully. Don't press down the edge too much.",
+    "Finally you add tomato and mozzarella. The pizza goes into a very hot oven and you eat it straight away."
+   ],
+   "a2": [
+    "Making a pizza takes time, but the steps are clear. First you make the dough, then you let it rest, and finally you add the topping and bake it.",
+    "The resting time is important because the yeast produces gas and makes the dough lighter.",
+    "When the dough is ready, you stretch it out by hand. In Neapolitan pizza the high edge is called the «cornicione».",
+    "The classic topping is simple: tomato, mozzarella, basil and olive oil. Too many ingredients can cover the taste of the base.",
+    "Pizza bakes best with a lot of heat. In a wood-fired oven baking is very quick; at home it takes longer."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Para preparar una pizza hacen falta harina, agua, levadura, sal, tomate, mozzarella y albahaca.",
+    "Primero preparas la masa. Pones harina, agua, levadura y sal en un cuenco y amasas con las manos.",
+    "Luego la masa tiene que reposar. Después de unas horas se vuelve más blanda y sube.",
+    "Cuando está lista, estiras la base con cuidado. No aplastes demasiado el borde.",
+    "Al final pones tomate y mozzarella. La pizza va al horno muy caliente y se come enseguida."
+   ],
+   "a2": [
+    "Preparar una pizza lleva tiempo, pero los pasos son claros. Primero se prepara la masa, luego se deja reposar y por último se pone el condimento y se hornea.",
+    "El reposo es importante porque la levadura produce gas y hace la masa más ligera.",
+    "Cuando la masa está lista, se estira con las manos. En la pizza napolitana el borde alto se llama «cornicione».",
+    "El condimento clásico es sencillo: tomate, mozzarella, albahaca y aceite. Demasiados ingredientes pueden tapar el sabor de la base.",
+    "La pizza se cuece mejor con mucho calor. En un horno de leña la cocción es muy rápida; en casa hace falta más tiempo."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Para fazer uma pizza você precisa de farinha, água, fermento, sal, tomate, muçarela e manjericão.",
+    "Primeiro você prepara a massa. Coloca farinha, água, fermento e sal numa tigela e sova com as mãos.",
+    "Depois a massa precisa descansar. Depois de algumas horas ela fica mais macia e cresce.",
+    "Quando está pronta, você abre a base com cuidado. Não aperte demais a borda.",
+    "No final você coloca tomate e muçarela. A pizza vai ao forno bem quente e se come na hora."
+   ],
+   "a2": [
+    "Fazer uma pizza leva tempo, mas as etapas são claras. Primeiro se prepara a massa, depois se deixa descansar e por fim se coloca a cobertura e se assa.",
+    "O descanso é importante porque o fermento produz gás e deixa a massa mais leve.",
+    "Quando a massa está pronta, ela é aberta com as mãos. Na pizza napolitana a borda alta se chama «cornicione».",
+    "A cobertura clássica é simples: tomate, muçarela, manjericão e azeite. Ingredientes demais podem esconder o sabor da base.",
+    "A pizza assa melhor com muito calor. Num forno a lenha o cozimento é muito rápido; em casa leva mais tempo."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Pour faire une pizza, il faut de la farine, de l'eau, de la levure, du sel, de la tomate, de la mozzarella et du basilic.",
+    "D'abord, tu prépares la pâte. Tu mets la farine, l'eau, la levure et le sel dans un bol et tu pétris avec les mains.",
+    "Ensuite, la pâte doit reposer. Après quelques heures, elle devient plus souple et elle lève.",
+    "Quand elle est prête, tu étales la base avec soin. N'écrase pas trop le bord.",
+    "À la fin, tu mets la tomate et la mozzarella. La pizza va dans un four très chaud et on la mange tout de suite."
+   ],
+   "a2": [
+    "Faire une pizza demande du temps, mais les étapes sont claires. D'abord on prépare la pâte, puis on la laisse reposer, enfin on la garnit et on la fait cuire.",
+    "Le repos est important parce que la levure produit du gaz et rend la pâte plus légère.",
+    "Quand la pâte est prête, on l'étale à la main. Dans la pizza napolitaine, le bord épais s'appelle le « cornicione ».",
+    "La garniture classique est simple : tomate, mozzarella, basilic et huile d'olive. Trop d'ingrédients peuvent masquer le goût de la pâte.",
+    "La pizza cuit mieux avec beaucoup de chaleur. Dans un four à bois, la cuisson est très rapide ; à la maison, il faut plus de temps."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Na pizzu potřebuješ mouku, vodu, droždí, sůl, rajčata, mozzarellu a bazalku.",
+    "Nejdřív připravíš těsto. Dáš mouku, vodu, droždí a sůl do misky a hněteš rukama.",
+    "Potom musí těsto odpočívat. Po několika hodinách je měkčí a nakyne.",
+    "Když je hotové, opatrně roztáhneš základ. Okraj moc nezmáčkni.",
+    "Nakonec přidáš rajčata a mozzarellu. Pizza jde do hodně horké trouby a jí se hned."
+   ],
+   "a2": [
+    "Příprava pizzy vyžaduje čas, ale kroky jsou jasné. Nejdřív se připraví těsto, pak se nechá odpočinout a nakonec se obloží a upeče.",
+    "Kynutí je důležité, protože droždí vytváří plyn a těsto je díky tomu lehčí.",
+    "Když je těsto hotové, roztáhne se rukama. U neapolské pizzy se vysokému okraji říká „cornicione“.",
+    "Klasické obložení je jednoduché: rajčata, mozzarella, bazalka a olivový olej. Příliš mnoho přísad může přebít chuť základu.",
+    "Pizza se nejlépe peče ve velkém žáru. V peci na dřevo je pečení velmi rychlé; doma to trvá déle."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Do zrobienia pizzy potrzebujesz mąki, wody, drożdży, soli, pomidorów, mozzarelli i bazylii.",
+    "Najpierw przygotowujesz ciasto. Wsypujesz mąkę, wlewasz wodę, dodajesz drożdże i sól do miski i wyrabiasz rękami.",
+    "Potem ciasto musi odpocząć. Po kilku godzinach robi się bardziej miękkie i rośnie.",
+    "Kiedy jest gotowe, ostrożnie rozciągasz spód. Nie gnieć za mocno brzegu.",
+    "Na koniec dodajesz pomidory i mozzarellę. Pizza idzie do bardzo gorącego pieca i je się ją od razu."
+   ],
+   "a2": [
+    "Przygotowanie pizzy wymaga czasu, ale etapy są jasne. Najpierw robi się ciasto, potem zostawia się je do wyrośnięcia, a na koniec dodaje się składniki i piecze.",
+    "Czas na wyrośnięcie jest ważny, bo drożdże wytwarzają gaz i ciasto staje się lżejsze.",
+    "Kiedy ciasto jest gotowe, rozciąga się je rękami. W pizzy neapolitańskiej wysoki brzeg nazywa się „cornicione”.",
+    "Klasyczne dodatki są proste: pomidory, mozzarella, bazylia i oliwa. Zbyt wiele składników może zagłuszyć smak spodu.",
+    "Pizza najlepiej piecze się w dużej temperaturze. W piecu opalanym drewnem pieczenie jest bardzo szybkie; w domu trwa dłużej."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Pizza yapmak için un, su, maya, tuz, domates, mozzarella ve fesleğen gerekir.",
+    "Önce hamuru hazırlarsın. Unu, suyu, mayayı ve tuzu bir kâseye koyup elinle yoğurursun.",
+    "Sonra hamur dinlenmeli. Birkaç saat sonra daha yumuşak olur ve kabarır.",
+    "Hazır olunca tabanı dikkatle açarsın. Kenarı fazla bastırma.",
+    "Son olarak domates ve mozzarella koyarsın. Pizza çok sıcak fırına girer ve hemen yenir."
+   ],
+   "a2": [
+    "Pizza yapmak zaman ister ama adımlar nettir. Önce hamur hazırlanır, sonra dinlenmeye bırakılır, en son da malzemeleri konup pişirilir.",
+    "Dinlenme önemlidir, çünkü maya gaz üretir ve hamuru daha hafif yapar.",
+    "Hamur hazır olunca elle açılır. Napoli pizzasında yüksek kenara «cornicione» denir.",
+    "Klasik malzemeler basittir: domates, mozzarella, fesleğen ve zeytinyağı. Fazla malzeme tabanın tadını bastırabilir.",
+    "Pizza en iyi çok yüksek ısıda pişer. Odun fırınında pişirme çok hızlıdır; evde daha fazla zaman gerekir."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Für eine Pizza braucht man Mehl, Wasser, Hefe, Salz, Tomaten, Mozzarella und Basilikum.",
+    "Zuerst machst du den Teig. Du gibst Mehl, Wasser, Hefe und Salz in eine Schüssel und knetest mit den Händen.",
+    "Dann muss der Teig ruhen. Nach ein paar Stunden wird er weicher und geht auf.",
+    "Wenn er fertig ist, ziehst du den Boden vorsichtig aus. Drück den Rand nicht zu sehr platt.",
+    "Zum Schluss kommen Tomaten und Mozzarella darauf. Die Pizza kommt in einen sehr heißen Ofen und wird sofort gegessen."
+   ],
+   "a2": [
+    "Eine Pizza zu machen braucht Zeit, aber die Schritte sind klar. Zuerst macht man den Teig, dann lässt man ihn ruhen, und schließlich belegt und backt man ihn.",
+    "Das Ruhen ist wichtig, weil die Hefe Gas erzeugt und den Teig lockerer macht.",
+    "Wenn der Teig fertig ist, zieht man ihn mit den Händen aus. Bei der neapolitanischen Pizza heißt der hohe Rand „Cornicione“.",
+    "Der klassische Belag ist einfach: Tomaten, Mozzarella, Basilikum und Olivenöl. Zu viele Zutaten können den Geschmack des Bodens überdecken.",
+    "Pizza backt am besten bei großer Hitze. Im Holzofen geht das Backen sehr schnell; zu Hause braucht es länger."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "ピッツァを作るには、小麦粉、水、イースト、塩、トマト、モッツァレラ、バジルが必要だ。",
+    "まず生地を作る。小麦粉、水、イースト、塩をボウルに入れて、手でこねる。",
+    "それから生地を休ませる。数時間たつと、柔らかくなって膨らむ。",
+    "生地ができたら、丁寧に台をのばす。縁を押しつぶしすぎないように。",
+    "最後にトマトとモッツァレラをのせる。ピッツァはとても熱いオーブンに入れて、焼けたらすぐに食べる。"
+   ],
+   "a2": [
+    "ピッツァ作りには時間がかかるが、手順ははっきりしている。まず生地を作り、次に休ませ、最後に具をのせて焼く。",
+    "生地を休ませることは大切だ。イーストがガスを出して、生地を軽くしてくれるからだ。",
+    "生地ができたら、手でのばす。ナポリピッツァでは、高くふくらんだ縁を「コルニチョーネ」と呼ぶ。",
+    "定番の具はシンプルだ。トマト、モッツァレラ、バジル、オリーブオイル。具が多すぎると、生地の味が消えてしまう。",
+    "ピッツァは高い熱でいちばんよく焼ける。薪窯なら焼くのはとても速いが、家ではもっと時間がかかる。"
+   ]
+  }
+ }
+}
