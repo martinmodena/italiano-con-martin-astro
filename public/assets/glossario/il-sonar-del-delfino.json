@@ -1,0 +1,1349 @@
+{
+ "id": "il-sonar-del-delfino",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "il delfino",
+   "forme": [
+    "delfini",
+    "delfino"
+   ],
+   "esempi": [
+    "Il delfino è un animale intelligente.",
+    "Dalla barca vediamo tre delfini.",
+    "I delfini vivono in gruppo."
+   ],
+   "traduzioni": {
+    "en": "dolphin",
+    "es": "delfín",
+    "pt": "golfinho",
+    "fr": "dauphin",
+    "cs": "delfín",
+    "pl": "delfin",
+    "tr": "yunus",
+    "de": "Delfin",
+    "ja": "イルカ"
+   }
+  },
+  {
+   "parola": "produrre",
+   "forme": [
+    "producono"
+   ],
+   "formeEsempi": [
+    "produce"
+   ],
+   "esempi": [
+    "Le mucche producono latte.",
+    "Il delfino produce suoni brevissimi.",
+    "Questa fabbrica produce scarpe."
+   ],
+   "traduzioni": {
+    "en": "to produce, to make",
+    "es": "producir",
+    "pt": "produzir",
+    "fr": "produire",
+    "cs": "vydávat, vytvářet",
+    "pl": "wydawać, wytwarzać",
+    "tr": "üretmek, çıkarmak",
+    "de": "erzeugen",
+    "ja": "出す、生み出す"
+   }
+  },
+  {
+   "parola": "il click",
+   "forme": [
+    "click"
+   ],
+   "esempi": [
+    "Si sente il click della porta.",
+    "Con un click apri il file.",
+    "Il delfino fa dei click molto rapidi."
+   ],
+   "traduzioni": {
+    "en": "click",
+    "es": "clic",
+    "pt": "clique",
+    "fr": "clic",
+    "cs": "cvaknutí",
+    "pl": "kliknięcie, trzask",
+    "tr": "tık sesi",
+    "de": "Klicklaut",
+    "ja": "クリック音"
+   }
+  },
+  {
+   "parola": "breve",
+   "forme": [
+    "brevi"
+   ],
+   "formeEsempi": [
+    "breve"
+   ],
+   "esempi": [
+    "È un viaggio breve.",
+    "Scrivi una risposta breve.",
+    "Le vacanze sono state brevi."
+   ],
+   "traduzioni": {
+    "en": "short, brief",
+    "es": "breve, corto",
+    "pt": "breve, curto",
+    "fr": "bref, court",
+    "cs": "krátký",
+    "pl": "krótki",
+    "tr": "kısa",
+    "de": "kurz",
+    "ja": "短い"
+   }
+  },
+  {
+   "parola": "ascoltare",
+   "forme": [
+    "ascoltano"
+   ],
+   "formeEsempi": [
+    "ascolto",
+    "ascolta"
+   ],
+   "esempi": [
+    "Ascolto la radio in macchina.",
+    "Gli studenti ascoltano la lezione.",
+    "Il delfino ascolta l'eco."
+   ],
+   "traduzioni": {
+    "en": "to listen (to)",
+    "es": "escuchar",
+    "pt": "escutar, ouvir",
+    "fr": "écouter",
+    "cs": "poslouchat",
+    "pl": "słuchać",
+    "tr": "dinlemek",
+    "de": "hören, zuhören",
+    "ja": "聞く"
+   }
+  },
+  {
+   "parola": "l'eco",
+   "forme": [
+    "eco"
+   ],
+   "esempi": [
+    "In montagna si sente l'eco.",
+    "Gridi e torna l'eco.",
+    "L'eco arriva dopo un secondo."
+   ],
+   "traduzioni": {
+    "en": "echo",
+    "es": "eco",
+    "pt": "eco",
+    "fr": "écho",
+    "cs": "ozvěna",
+    "pl": "echo",
+    "tr": "yankı",
+    "de": "Echo",
+    "ja": "反響、こだま"
+   }
+  },
+  {
+   "parola": "ritornare",
+   "forme": [
+    "ritorna"
+   ],
+   "formeEsempi": [
+    "ritorno"
+   ],
+   "esempi": [
+    "Il suono ritorna dopo un secondo.",
+    "Ritorno a casa domani.",
+    "La primavera ritorna ogni anno."
+   ],
+   "traduzioni": {
+    "en": "to come back, to return",
+    "es": "volver, regresar",
+    "pt": "voltar, retornar",
+    "fr": "revenir",
+    "cs": "vrátit se",
+    "pl": "wracać",
+    "tr": "geri dönmek",
+    "de": "zurückkommen",
+    "ja": "戻ってくる"
+   }
+  },
+  {
+   "parola": "il ritorno",
+   "forme": [
+    "ritorno"
+   ],
+   "esempi": [
+    "Il viaggio di ritorno è più lungo.",
+    "Aspetto il tuo ritorno.",
+    "Dal ritorno dell'eco capisce la distanza."
+   ],
+   "traduzioni": {
+    "en": "return («tempo di ritorno» = return time)",
+    "es": "regreso, retorno",
+    "pt": "retorno, volta",
+    "fr": "retour",
+    "cs": "návrat",
+    "pl": "powrót",
+    "tr": "geri dönüş",
+    "de": "Rückkehr",
+    "ja": "戻り、帰り"
+   }
+  },
+  {
+   "parola": "capire",
+   "forme": [
+    "capiscono"
+   ],
+   "formeEsempi": [
+    "capisco"
+   ],
+   "esempi": [
+    "Non capisco questa parola.",
+    "I bambini capiscono tutto.",
+    "Capisco la distanza dall'eco."
+   ],
+   "traduzioni": {
+    "en": "to understand, to work out",
+    "es": "entender",
+    "pt": "entender",
+    "fr": "comprendre",
+    "cs": "pochopit, poznat",
+    "pl": "rozumieć, rozpoznawać",
+    "tr": "anlamak",
+    "de": "verstehen, erkennen",
+    "ja": "わかる"
+   }
+  },
+  {
+   "parola": "la distanza",
+   "forme": [
+    "distanza"
+   ],
+   "esempi": [
+    "Qual è la distanza fino alla stazione?",
+    "Lo vedo a distanza.",
+    "Teniamo una distanza di sicurezza."
+   ],
+   "traduzioni": {
+    "en": "distance",
+    "es": "distancia",
+    "pt": "distância",
+    "fr": "distance",
+    "cs": "vzdálenost",
+    "pl": "odległość",
+    "tr": "mesafe",
+    "de": "Entfernung",
+    "ja": "距離"
+   }
+  },
+  {
+   "parola": "la direzione",
+   "forme": [
+    "direzione"
+   ],
+   "esempi": [
+    "In che direzione vai?",
+    "Il suono arriva da questa direzione.",
+    "Hai sbagliato direzione."
+   ],
+   "traduzioni": {
+    "en": "direction",
+    "es": "dirección",
+    "pt": "direção",
+    "fr": "direction",
+    "cs": "směr",
+    "pl": "kierunek",
+    "tr": "yön",
+    "de": "Richtung",
+    "ja": "方向"
+   }
+  },
+  {
+   "parola": "la grandezza",
+   "forme": [
+    "grandezza"
+   ],
+   "esempi": [
+    "Qual è la grandezza della stanza?",
+    "La grandezza del pesce è incredibile.",
+    "Le scarpe hanno grandezze diverse."
+   ],
+   "traduzioni": {
+    "en": "size",
+    "es": "tamaño",
+    "pt": "tamanho",
+    "fr": "taille",
+    "cs": "velikost",
+    "pl": "wielkość",
+    "tr": "büyüklük",
+    "de": "Größe",
+    "ja": "大きさ"
+   },
+   "formeEsempi": [
+    "grandezze"
+   ]
+  },
+  {
+   "parola": "l'oggetto",
+   "forme": [
+    "oggetto",
+    "oggetti"
+   ],
+   "esempi": [
+    "Che oggetto è questo?",
+    "Sul tavolo ci sono molti oggetti.",
+    "Ho perso un oggetto prezioso."
+   ],
+   "traduzioni": {
+    "en": "object",
+    "es": "objeto",
+    "pt": "objeto",
+    "fr": "objet",
+    "cs": "předmět",
+    "pl": "przedmiot",
+    "tr": "nesne, eşya",
+    "de": "Gegenstand",
+    "ja": "物、物体"
+   }
+  },
+  {
+   "parola": "sorprendente",
+   "forme": [
+    "sorprendente"
+   ],
+   "esempi": [
+    "Il finale del film è sorprendente.",
+    "È una scoperta sorprendente.",
+    "Ha una forza sorprendente."
+   ],
+   "traduzioni": {
+    "en": "surprising, amazing",
+    "es": "sorprendente",
+    "pt": "surpreendente",
+    "fr": "surprenant",
+    "cs": "překvapivý",
+    "pl": "zaskakujący",
+    "tr": "şaşırtıcı",
+    "de": "erstaunlich",
+    "ja": "驚くべき"
+   }
+  },
+  {
+   "parola": "sentire",
+   "forme": [
+    "sente"
+   ],
+   "formeEsempi": [
+    "sento",
+    "senti"
+   ],
+   "esempi": [
+    "Senti questo rumore?",
+    "Non sento bene: parla più forte.",
+    "Il delfino sente anche piccole differenze."
+   ],
+   "traduzioni": {
+    "en": "to hear, to sense",
+    "es": "oír, percibir",
+    "pt": "ouvir, perceber",
+    "fr": "entendre, percevoir",
+    "cs": "slyšet, vnímat",
+    "pl": "słyszeć, wyczuwać",
+    "tr": "duymak, algılamak",
+    "de": "hören, wahrnehmen",
+    "ja": "聞こえる、感じ取る"
+   }
+  },
+  {
+   "parola": "la differenza",
+   "forme": [
+    "differenze",
+    "differenza"
+   ],
+   "esempi": [
+    "Qual è la differenza tra i due?",
+    "Non vedo nessuna differenza.",
+    "Ci sono differenze importanti."
+   ],
+   "traduzioni": {
+    "en": "difference",
+    "es": "diferencia",
+    "pt": "diferença",
+    "fr": "différence",
+    "cs": "rozdíl",
+    "pl": "różnica",
+    "tr": "fark",
+    "de": "Unterschied",
+    "ja": "違い"
+   }
+  },
+  {
+   "parola": "simile",
+   "forme": [
+    "simili"
+   ],
+   "formeEsempi": [
+    "simile"
+   ],
+   "esempi": [
+    "Le due sorelle sono molto simili.",
+    "Ho una borsa simile alla tua.",
+    "Sono parole simili ma diverse."
+   ],
+   "traduzioni": {
+    "en": "similar",
+    "es": "parecido, similar",
+    "pt": "parecido, semelhante",
+    "fr": "semblable, similaire",
+    "cs": "podobný",
+    "pl": "podobny",
+    "tr": "benzer",
+    "de": "ähnlich",
+    "ja": "似ている"
+   }
+  },
+  {
+   "parola": "l'esperimento",
+   "forme": [
+    "esperimenti"
+   ],
+   "formeEsempi": [
+    "esperimento"
+   ],
+   "esempi": [
+    "A scuola facciamo un esperimento.",
+    "Gli esperimenti durano mesi.",
+    "L'esperimento è riuscito."
+   ],
+   "traduzioni": {
+    "en": "experiment",
+    "es": "experimento",
+    "pt": "experimento",
+    "fr": "expérience",
+    "cs": "pokus",
+    "pl": "eksperyment",
+    "tr": "deney",
+    "de": "Experiment",
+    "ja": "実験"
+   }
+  },
+  {
+   "parola": "riconoscere",
+   "forme": [
+    "riconosciuto"
+   ],
+   "formeEsempi": [
+    "riconosco",
+    "riconosce"
+   ],
+   "esempi": [
+    "Non ti ho riconosciuto con gli occhiali!",
+    "Riconosco la sua voce.",
+    "Il cane riconosce il padrone."
+   ],
+   "traduzioni": {
+    "en": "to recognise («hanno riconosciuto» = they recognised)",
+    "es": "reconocer",
+    "pt": "reconhecer",
+    "fr": "reconnaître",
+    "cs": "poznat, rozpoznat",
+    "pl": "rozpoznać",
+    "tr": "tanımak, ayırt etmek",
+    "de": "erkennen",
+    "ja": "見分ける、認識する"
+   }
+  },
+  {
+   "parola": "il cilindro",
+   "forme": [
+    "cilindri"
+   ],
+   "formeEsempi": [
+    "cilindro"
+   ],
+   "esempi": [
+    "Un barattolo ha la forma di un cilindro.",
+    "Nell'esperimento ci sono due cilindri.",
+    "Il motore ha quattro cilindri."
+   ],
+   "traduzioni": {
+    "en": "cylinder",
+    "es": "cilindro",
+    "pt": "cilindro",
+    "fr": "cylindre",
+    "cs": "válec",
+    "pl": "walec, cylinder",
+    "tr": "silindir",
+    "de": "Zylinder",
+    "ja": "円筒"
+   }
+  },
+  {
+   "parola": "la parete",
+   "forme": [
+    "pareti"
+   ],
+   "formeEsempi": [
+    "parete"
+   ],
+   "esempi": [
+    "Appendo un quadro alla parete.",
+    "Le pareti sono bianche.",
+    "La parete del cilindro è sottile."
+   ],
+   "traduzioni": {
+    "en": "wall (side)",
+    "es": "pared",
+    "pt": "parede",
+    "fr": "paroi, mur",
+    "cs": "stěna",
+    "pl": "ścianka, ściana",
+    "tr": "duvar, çeper",
+    "de": "Wand",
+    "ja": "壁"
+   }
+  },
+  {
+   "parola": "lo spessore",
+   "forme": [
+    "spessore"
+   ],
+   "esempi": [
+    "Il ghiaccio ha uno spessore di dieci centimetri.",
+    "Misura lo spessore del libro.",
+    "Le pareti hanno spessori diversi."
+   ],
+   "traduzioni": {
+    "en": "thickness",
+    "es": "grosor, espesor",
+    "pt": "espessura",
+    "fr": "épaisseur",
+    "cs": "tloušťka",
+    "pl": "grubość",
+    "tr": "kalınlık",
+    "de": "Dicke",
+    "ja": "厚さ"
+   },
+   "formeEsempi": [
+    "spessori"
+   ]
+  },
+  {
+   "parola": "inferiore a",
+   "forme": [
+    "inferiore"
+   ],
+   "esempi": [
+    "La temperatura è inferiore a zero.",
+    "Il prezzo è inferiore a dieci euro.",
+    "La differenza era inferiore a un millimetro."
+   ],
+   "traduzioni": {
+    "en": "lower than, less than",
+    "es": "inferior a, menor que",
+    "pt": "inferior a, menor que",
+    "fr": "inférieur à",
+    "cs": "nižší než, menší než",
+    "pl": "mniejszy niż, niższy niż",
+    "tr": "-den az, -den düşük",
+    "de": "geringer als, unter",
+    "ja": "〜より小さい、〜未満"
+   }
+  },
+  {
+   "parola": "il millimetro",
+   "forme": [
+    "millimetro"
+   ],
+   "esempi": [
+    "La differenza è di un millimetro.",
+    "Questo foglio è spesso un millimetro.",
+    "Non si muove di un millimetro."
+   ],
+   "traduzioni": {
+    "en": "millimetre",
+    "es": "milímetro",
+    "pt": "milímetro",
+    "fr": "millimètre",
+    "cs": "milimetr",
+    "pl": "milimetr",
+    "tr": "milimetre",
+    "de": "Millimeter",
+    "ja": "ミリメートル"
+   }
+  },
+  {
+   "parola": "preciso",
+   "forme": [
+    "preciso"
+   ],
+   "esempi": [
+    "Questo orologio è molto preciso.",
+    "Mi serve un numero preciso.",
+    "Il suo lavoro è sempre preciso."
+   ],
+   "traduzioni": {
+    "en": "precise, accurate",
+    "es": "preciso",
+    "pt": "preciso",
+    "fr": "précis",
+    "cs": "přesný",
+    "pl": "precyzyjny",
+    "tr": "hassas, kesin",
+    "de": "präzise, genau",
+    "ja": "正確な"
+   }
+  },
+  {
+   "parola": "immaginare",
+   "forme": [
+    "immaginiamo"
+   ],
+   "formeEsempi": [
+    "immagino",
+    "immagini"
+   ],
+   "esempi": [
+    "Immagino che tu sia stanco.",
+    "Immaginiamo di essere al mare.",
+    "È più facile di quanto immagini."
+   ],
+   "traduzioni": {
+    "en": "to imagine («di quanto immaginiamo» = than we imagine)",
+    "es": "imaginar",
+    "pt": "imaginar",
+    "fr": "imaginer",
+    "cs": "představit si",
+    "pl": "wyobrażać sobie",
+    "tr": "hayal etmek, sanmak",
+    "de": "sich vorstellen",
+    "ja": "想像する"
+   }
+  },
+  {
+   "parola": "l'ecolocalizzazione",
+   "forme": [
+    "ecolocalizzazione"
+   ],
+   "esempi": [
+    "Anche i pipistrelli usano l'ecolocalizzazione.",
+    "L'ecolocalizzazione funziona con i suoni.",
+    "Studiamo l'ecolocalizzazione dei delfini."
+   ],
+   "traduzioni": {
+    "en": "echolocation",
+    "es": "ecolocalización",
+    "pt": "ecolocalização",
+    "fr": "écholocation",
+    "cs": "echolokace",
+    "pl": "echolokacja",
+    "tr": "ekolokasyon",
+    "de": "Echoortung",
+    "ja": "エコーロケーション（反響定位）"
+   }
+  },
+  {
+   "parola": "grazie a",
+   "forme": [
+    "grazie"
+   ],
+   "esempi": [
+    "Grazie a te ho trovato lavoro.",
+    "Il sonar funziona grazie ai suoni.",
+    "Siamo arrivati in tempo grazie al taxi."
+   ],
+   "traduzioni": {
+    "en": "thanks to",
+    "es": "gracias a",
+    "pt": "graças a",
+    "fr": "grâce à",
+    "cs": "díky",
+    "pl": "dzięki",
+    "tr": "sayesinde",
+    "de": "dank",
+    "ja": "〜のおかげで"
+   }
+  },
+  {
+   "parola": "la frequenza",
+   "forme": [
+    "frequenza"
+   ],
+   "esempi": [
+    "Questa radio trasmette su un'altra frequenza.",
+    "Il delfino usa suoni ad alta frequenza.",
+    "Con quale frequenza vai in palestra?"
+   ],
+   "traduzioni": {
+    "en": "frequency («ad alta frequenza» = high-frequency)",
+    "es": "frecuencia",
+    "pt": "frequência",
+    "fr": "fréquence",
+    "cs": "frekvence",
+    "pl": "częstotliwość",
+    "tr": "frekans, sıklık",
+    "de": "Frequenz",
+    "ja": "周波数、頻度"
+   }
+  },
+  {
+   "parola": "attraversare",
+   "forme": [
+    "attraversano"
+   ],
+   "formeEsempi": [
+    "attraversa",
+    "attraverso"
+   ],
+   "esempi": [
+    "Attraverso la strada con attenzione.",
+    "Le onde attraversano l'oceano.",
+    "Il suono attraversa l'acqua."
+   ],
+   "traduzioni": {
+    "en": "to cross, to travel through",
+    "es": "atravesar",
+    "pt": "atravessar",
+    "fr": "traverser",
+    "cs": "procházet",
+    "pl": "przechodzić przez",
+    "tr": "içinden geçmek",
+    "de": "durchqueren",
+    "ja": "通り抜ける"
+   }
+  },
+  {
+   "parola": "colpire",
+   "forme": [
+    "colpiscono"
+   ],
+   "formeEsempi": [
+    "colpisce",
+    "colpito"
+   ],
+   "esempi": [
+    "La palla colpisce la finestra.",
+    "Il suono colpisce un oggetto e torna.",
+    "Mi ha colpito la sua gentilezza."
+   ],
+   "traduzioni": {
+    "en": "to hit, to strike",
+    "es": "golpear, chocar contra",
+    "pt": "atingir, bater em",
+    "fr": "frapper, heurter",
+    "cs": "narazit do, zasáhnout",
+    "pl": "uderzać",
+    "tr": "çarpmak",
+    "de": "treffen, auftreffen",
+    "ja": "当たる"
+   }
+  },
+  {
+   "parola": "sotto forma di",
+   "forme": [
+    "forma"
+   ],
+   "esempi": [
+    "L'acqua torna sotto forma di pioggia.",
+    "Il medicinale è sotto forma di pastiglie.",
+    "Il suono ritorna sotto forma di eco."
+   ],
+   "traduzioni": {
+    "en": "in the form of",
+    "es": "en forma de",
+    "pt": "na forma de",
+    "fr": "sous forme de",
+    "cs": "ve formě",
+    "pl": "w postaci",
+    "tr": "şeklinde",
+    "de": "in Form von",
+    "ja": "〜の形で"
+   }
+  },
+  {
+   "parola": "ricevere",
+   "forme": [
+    "riceve"
+   ],
+   "formeEsempi": [
+    "ricevo",
+    "ricevuto"
+   ],
+   "esempi": [
+    "Ricevo molte mail ogni giorno.",
+    "Il delfino riceve informazioni.",
+    "Hai ricevuto il mio messaggio?"
+   ],
+   "traduzioni": {
+    "en": "to receive, to get",
+    "es": "recibir",
+    "pt": "receber",
+    "fr": "recevoir",
+    "cs": "dostat, přijmout",
+    "pl": "otrzymywać",
+    "tr": "almak",
+    "de": "empfangen, bekommen",
+    "ja": "受け取る"
+   }
+  },
+  {
+   "parola": "acustico",
+   "forme": [
+    "acustiche"
+   ],
+   "formeEsempi": [
+    "acustico",
+    "acustica",
+    "acustici"
+   ],
+   "esempi": [
+    "La sala ha un'acustica perfetta.",
+    "Suono una chitarra acustica.",
+    "Sono segnali acustici."
+   ],
+   "traduzioni": {
+    "en": "acoustic, sound (adj.)",
+    "es": "acústico",
+    "pt": "acústico",
+    "fr": "acoustique",
+    "cs": "akustický",
+    "pl": "akustyczny",
+    "tr": "akustik, sesle ilgili",
+    "de": "akustisch",
+    "ja": "音の、音響の"
+   }
+  },
+  {
+   "parola": "l'intensità",
+   "forme": [
+    "intensità"
+   ],
+   "esempi": [
+    "L'intensità della luce è forte.",
+    "Aumenta l'intensità dell'allenamento.",
+    "Misurano l'intensità del suono."
+   ],
+   "traduzioni": {
+    "en": "intensity, strength",
+    "es": "intensidad",
+    "pt": "intensidade",
+    "fr": "intensité",
+    "cs": "intenzita, síla",
+    "pl": "natężenie, intensywność",
+    "tr": "yoğunluk, şiddet",
+    "de": "Stärke, Intensität",
+    "ja": "強さ"
+   }
+  },
+  {
+   "parola": "la qualità",
+   "forme": [
+    "qualità"
+   ],
+   "esempi": [
+    "È un prodotto di qualità.",
+    "La qualità del suono è ottima.",
+    "Preferisco la qualità alla quantità."
+   ],
+   "traduzioni": {
+    "en": "quality",
+    "es": "calidad",
+    "pt": "qualidade",
+    "fr": "qualité",
+    "cs": "kvalita",
+    "pl": "jakość",
+    "tr": "kalite, nitelik",
+    "de": "Qualität",
+    "ja": "質"
+   }
+  },
+  {
+   "parola": "mostrare",
+   "forme": [
+    "mostrano"
+   ],
+   "formeEsempi": [
+    "mostra",
+    "mostro"
+   ],
+   "esempi": [
+    "Ti mostro le foto delle vacanze.",
+    "I dati mostrano un aumento.",
+    "Gli esperimenti mostrano che è vero."
+   ],
+   "traduzioni": {
+    "en": "to show",
+    "es": "mostrar",
+    "pt": "mostrar",
+    "fr": "montrer",
+    "cs": "ukázat",
+    "pl": "pokazywać",
+    "tr": "göstermek",
+    "de": "zeigen",
+    "ja": "示す"
+   }
+  },
+  {
+   "parola": "artificiale",
+   "forme": [
+    "artificiali"
+   ],
+   "formeEsempi": [
+    "artificiale"
+   ],
+   "esempi": [
+    "Questi fiori sono artificiali.",
+    "Il lago è artificiale.",
+    "Si parla molto di intelligenza artificiale."
+   ],
+   "traduzioni": {
+    "en": "artificial, man-made",
+    "es": "artificial",
+    "pt": "artificial",
+    "fr": "artificiel",
+    "cs": "umělý",
+    "pl": "sztuczny",
+    "tr": "yapay",
+    "de": "künstlich",
+    "ja": "人工の"
+   }
+  },
+  {
+   "parola": "distinguere",
+   "forme": [
+    "distinguere"
+   ],
+   "formeEsempi": [
+    "distinguo"
+   ],
+   "esempi": [
+    "Non distinguo i due gemelli.",
+    "È difficile distinguere i colori al buio.",
+    "Il delfino sa distinguere i materiali."
+   ],
+   "traduzioni": {
+    "en": "to distinguish, to tell apart",
+    "es": "distinguir",
+    "pt": "distinguir",
+    "fr": "distinguer",
+    "cs": "rozlišit",
+    "pl": "rozróżniać",
+    "tr": "ayırt etmek",
+    "de": "unterscheiden",
+    "ja": "見分ける"
+   }
+  },
+  {
+   "parola": "il materiale",
+   "forme": [
+    "materiali"
+   ],
+   "formeEsempi": [
+    "materiale"
+   ],
+   "esempi": [
+    "Di che materiale è questa borsa?",
+    "Usiamo materiali naturali.",
+    "Il legno è un materiale caldo."
+   ],
+   "traduzioni": {
+    "en": "material",
+    "es": "material",
+    "pt": "material",
+    "fr": "matériau",
+    "cs": "materiál",
+    "pl": "materiał",
+    "tr": "malzeme",
+    "de": "Material",
+    "ja": "素材、材料"
+   }
+  },
+  {
+   "parola": "rivestito",
+   "forme": [
+    "rivestiti"
+   ],
+   "formeEsempi": [
+    "rivestito",
+    "rivestita"
+   ],
+   "esempi": [
+    "La sedia è rivestita di pelle.",
+    "Il muro è rivestito di legno.",
+    "Sono oggetti rivestiti di plastica."
+   ],
+   "traduzioni": {
+    "en": "covered, coated",
+    "es": "revestido, forrado",
+    "pt": "revestido",
+    "fr": "recouvert, revêtu",
+    "cs": "potažený, obalený",
+    "pl": "pokryty, obity",
+    "tr": "kaplı",
+    "de": "überzogen, beschichtet",
+    "ja": "覆われた、張られた"
+   }
+  },
+  {
+   "parola": "la schiuma",
+   "forme": [
+    "schiuma"
+   ],
+   "esempi": [
+    "Il cappuccino ha tanta schiuma.",
+    "Il sapone fa la schiuma.",
+    "Il materasso è di schiuma."
+   ],
+   "traduzioni": {
+    "en": "foam",
+    "es": "espuma",
+    "pt": "espuma",
+    "fr": "mousse",
+    "cs": "pěna",
+    "pl": "pianka, piana",
+    "tr": "köpük",
+    "de": "Schaum",
+    "ja": "泡、フォーム"
+   }
+  },
+  {
+   "parola": "la ricerca",
+   "forme": [
+    "ricerche"
+   ],
+   "formeEsempi": [
+    "ricerca"
+   ],
+   "esempi": [
+    "Lavoro nella ricerca scientifica.",
+    "Le ricerche continuano.",
+    "Faccio una ricerca su internet."
+   ],
+   "traduzioni": {
+    "en": "research, study",
+    "es": "investigación",
+    "pt": "pesquisa",
+    "fr": "recherche",
+    "cs": "výzkum",
+    "pl": "badanie",
+    "tr": "araştırma",
+    "de": "Forschung, Studie",
+    "ja": "研究"
+   }
+  },
+  {
+   "parola": "individuare",
+   "forme": [
+    "individuato"
+   ],
+   "formeEsempi": [
+    "individua"
+   ],
+   "esempi": [
+    "La polizia ha individuato il ladro.",
+    "Ho individuato l'errore.",
+    "Il sonar individua gli oggetti."
+   ],
+   "traduzioni": {
+    "en": "to locate, to detect, to spot",
+    "es": "localizar, detectar",
+    "pt": "localizar, identificar",
+    "fr": "repérer, localiser",
+    "cs": "najít, zjistit polohu",
+    "pl": "zlokalizować, wykryć",
+    "tr": "tespit etmek",
+    "de": "orten, ausfindig machen",
+    "ja": "見つけ出す、探知する"
+   }
+  },
+  {
+   "parola": "la sfera",
+   "forme": [
+    "sfere",
+    "sfera"
+   ],
+   "esempi": [
+    "La Terra ha la forma di una sfera.",
+    "Le sfere di vetro sono fragili.",
+    "Il bambino gioca con una sfera."
+   ],
+   "traduzioni": {
+    "en": "sphere, ball",
+    "es": "esfera",
+    "pt": "esfera",
+    "fr": "sphère",
+    "cs": "koule",
+    "pl": "kula",
+    "tr": "küre",
+    "de": "Kugel",
+    "ja": "球"
+   }
+  },
+  {
+   "parola": "metallico",
+   "forme": [
+    "metalliche"
+   ],
+   "formeEsempi": [
+    "metallico",
+    "metallica"
+   ],
+   "esempi": [
+    "Si sente un rumore metallico.",
+    "È una scatola metallica.",
+    "Le sedie metalliche sono fredde."
+   ],
+   "traduzioni": {
+    "en": "metal, metallic",
+    "es": "metálico",
+    "pt": "metálico",
+    "fr": "métallique",
+    "cs": "kovový",
+    "pl": "metalowy",
+    "tr": "metal",
+    "de": "metallisch, aus Metall",
+    "ja": "金属の"
+   }
+  },
+  {
+   "parola": "decine di",
+   "forme": [
+    "decine"
+   ],
+   "esempi": [
+    "Ho decine di messaggi da leggere.",
+    "Decine di persone aspettano l'autobus.",
+    "La sfera era a decine di metri."
+   ],
+   "traduzioni": {
+    "en": "dozens of, tens of",
+    "es": "decenas de",
+    "pt": "dezenas de",
+    "fr": "des dizaines de",
+    "cs": "desítky",
+    "pl": "dziesiątki",
+    "tr": "onlarca",
+    "de": "Dutzende, mehrere zehn",
+    "ja": "何十もの"
+   }
+  },
+  {
+   "parola": "l'acciaio",
+   "forme": [
+    "acciaio"
+   ],
+   "esempi": [
+    "Il coltello è di acciaio.",
+    "Il ponte è fatto di acciaio.",
+    "L'acciaio è molto resistente."
+   ],
+   "traduzioni": {
+    "en": "steel",
+    "es": "acero",
+    "pt": "aço",
+    "fr": "acier",
+    "cs": "ocel",
+    "pl": "stal",
+    "tr": "çelik",
+    "de": "Stahl",
+    "ja": "鋼鉄"
+   }
+  },
+  {
+   "parola": "rilevare",
+   "forme": [
+    "rilevata"
+   ],
+   "formeEsempi": [
+    "rileva"
+   ],
+   "esempi": [
+    "Il sensore rileva il movimento.",
+    "La febbre è stata rilevata alle otto.",
+    "Il radar rileva gli aerei."
+   ],
+   "traduzioni": {
+    "en": "to detect («è stata rilevata» = it was detected)",
+    "es": "detectar",
+    "pt": "detectar",
+    "fr": "détecter",
+    "cs": "zachytit, zjistit",
+    "pl": "wykryć",
+    "tr": "algılamak, tespit etmek",
+    "de": "erfassen, entdecken",
+    "ja": "検出する"
+   }
+  },
+  {
+   "parola": "oltre",
+   "forme": [
+    "oltre"
+   ],
+   "esempi": [
+    "Ci sono oltre cento persone.",
+    "Il negozio è oltre il ponte.",
+    "Ho aspettato oltre un'ora."
+   ],
+   "traduzioni": {
+    "en": "over, more than; beyond",
+    "es": "más de; más allá de",
+    "pt": "mais de; além de",
+    "fr": "plus de ; au-delà de",
+    "cs": "přes, více než",
+    "pl": "ponad, za",
+    "tr": "-den fazla; ötesinde",
+    "de": "über, mehr als",
+    "ja": "〜以上、〜を超えて"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Dolphins produce very short clicks and listen to the echo that comes back.",
+    "From this return they work out the distance, the direction and the size of an object.",
+    "The amazing thing is that the dolphin doesn't just sense «there's something there». It also senses differences between similar objects.",
+    "In some experiments, dolphins recognised cylinders with walls of different thickness. The difference was less than a millimetre.",
+    "That's why the dolphin's sonar is much more precise than we imagine."
+   ],
+   "b1": [
+    "The dolphin's sonar, also called echolocation, works thanks to high-frequency clicks.",
+    "These sounds travel through the water, hit an object and come back to the dolphin in the form of an echo.",
+    "The dolphin doesn't receive a photograph, but acoustic information: intensity, return time and the quality of the sound.",
+    "Experiments with artificial objects show that a dolphin can distinguish different materials, for example objects filled with air or water, or coated with foam.",
+    "In other studies, some dolphins located small metal spheres tens of metres away. A steel sphere 2.54 centimetres wide was detected at over 70 metres."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Los delfines producen clics muy breves y escuchan el eco que vuelve.",
+    "Por este retorno entienden la distancia, la dirección y el tamaño de un objeto.",
+    "Lo sorprendente es que el delfín no percibe solo «hay algo». Percibe también diferencias entre objetos parecidos.",
+    "En algunos experimentos, los delfines reconocieron cilindros con paredes de distinto grosor. La diferencia era inferior a un milímetro.",
+    "Por eso el sonar del delfín es mucho más preciso de lo que imaginamos."
+   ],
+   "b1": [
+    "El sonar del delfín, también llamado ecolocalización, funciona gracias a clics de alta frecuencia.",
+    "Estos sonidos atraviesan el agua, chocan contra un objeto y vuelven al delfín en forma de eco.",
+    "El delfín no recibe una fotografía, sino información acústica: intensidad, tiempo de retorno y calidad del sonido.",
+    "Los experimentos con objetos artificiales muestran que un delfín puede distinguir materiales diferentes, por ejemplo objetos llenos de aire o de agua, o revestidos de espuma.",
+    "En otras investigaciones, algunos delfines localizaron pequeñas esferas metálicas a decenas de metros de distancia. Una esfera de acero de 2,54 centímetros fue detectada a más de 70 metros."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "Os golfinhos produzem cliques muito breves e escutam o eco que volta.",
+    "Por esse retorno eles entendem a distância, a direção e o tamanho de um objeto.",
+    "O surpreendente é que o golfinho não percebe só «tem alguma coisa». Ele percebe também diferenças entre objetos parecidos.",
+    "Em alguns experimentos, os golfinhos reconheceram cilindros com paredes de espessuras diferentes. A diferença era menor que um milímetro.",
+    "Por isso o sonar do golfinho é muito mais preciso do que imaginamos."
+   ],
+   "b1": [
+    "O sonar do golfinho, também chamado de ecolocalização, funciona graças a cliques de alta frequência.",
+    "Esses sons atravessam a água, atingem um objeto e voltam ao golfinho na forma de eco.",
+    "O golfinho não recebe uma fotografia, mas informações acústicas: intensidade, tempo de retorno e qualidade do som.",
+    "Experimentos com objetos artificiais mostram que um golfinho consegue distinguir materiais diferentes, por exemplo objetos cheios de ar, de água ou revestidos de espuma.",
+    "Em outras pesquisas, alguns golfinhos localizaram pequenas esferas metálicas a dezenas de metros de distância. Uma esfera de aço de 2,54 centímetros foi detectada a mais de 70 metros."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Les dauphins produisent des clics très courts et écoutent l'écho qui revient.",
+    "Grâce à ce retour, ils comprennent la distance, la direction et la taille d'un objet.",
+    "Ce qui est surprenant, c'est que le dauphin ne perçoit pas seulement « il y a quelque chose ». Il perçoit aussi des différences entre des objets semblables.",
+    "Dans certaines expériences, des dauphins ont reconnu des cylindres dont les parois avaient des épaisseurs différentes. La différence était inférieure à un millimètre.",
+    "C'est pourquoi le sonar du dauphin est beaucoup plus précis qu'on ne l'imagine."
+   ],
+   "b1": [
+    "Le sonar du dauphin, aussi appelé écholocation, fonctionne grâce à des clics à haute fréquence.",
+    "Ces sons traversent l'eau, heurtent un objet et reviennent au dauphin sous forme d'écho.",
+    "Le dauphin ne reçoit pas une photographie, mais des informations acoustiques : l'intensité, le temps de retour et la qualité du son.",
+    "Des expériences avec des objets artificiels montrent qu'un dauphin peut distinguer des matériaux différents, par exemple des objets remplis d'air ou d'eau, ou recouverts de mousse.",
+    "Dans d'autres recherches, des dauphins ont repéré de petites sphères métalliques à des dizaines de mètres. Une sphère en acier de 2,54 centimètres a été détectée à plus de 70 mètres."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Delfíni vydávají velmi krátká cvaknutí a poslouchají ozvěnu, která se vrací.",
+    "Podle tohoto návratu poznají vzdálenost, směr a velikost předmětu.",
+    "Překvapivé je, že delfín nevnímá jen „něco tam je“. Vnímá i rozdíly mezi podobnými předměty.",
+    "V některých pokusech delfíni rozpoznali válce se stěnami různé tloušťky. Rozdíl byl menší než milimetr.",
+    "Proto je delfíní sonar mnohem přesnější, než si představujeme."
+   ],
+   "b1": [
+    "Delfíní sonar, kterému se říká také echolokace, funguje díky vysokofrekvenčním cvaknutím.",
+    "Tyto zvuky procházejí vodou, narazí do předmětu a vrátí se k delfínovi ve formě ozvěny.",
+    "Delfín nedostává fotografii, ale akustické informace: intenzitu, dobu návratu a kvalitu zvuku.",
+    "Pokusy s umělými předměty ukazují, že delfín dokáže rozlišit různé materiály, například předměty naplněné vzduchem nebo vodou či potažené pěnou.",
+    "V jiných výzkumech delfíni zjistili polohu malých kovových koulí na desítky metrů. Ocelová koule o průměru 2,54 centimetru byla zachycena na více než 70 metrů."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Delfiny wydają bardzo krótkie kliknięcia i słuchają echa, które wraca.",
+    "Na podstawie tego powrotu rozpoznają odległość, kierunek i wielkość przedmiotu.",
+    "Zaskakujące jest to, że delfin nie wyczuwa tylko, że „coś tam jest”. Wyczuwa też różnice między podobnymi przedmiotami.",
+    "W niektórych eksperymentach delfiny rozpoznały walce o ściankach różnej grubości. Różnica była mniejsza niż milimetr.",
+    "Dlatego sonar delfina jest o wiele bardziej precyzyjny, niż sobie wyobrażamy."
+   ],
+   "b1": [
+    "Sonar delfina, nazywany też echolokacją, działa dzięki kliknięciom o wysokiej częstotliwości.",
+    "Te dźwięki przechodzą przez wodę, uderzają w przedmiot i wracają do delfina w postaci echa.",
+    "Delfin nie dostaje fotografii, tylko informacje akustyczne: natężenie, czas powrotu i jakość dźwięku.",
+    "Eksperymenty ze sztucznymi przedmiotami pokazują, że delfin potrafi rozróżnić różne materiały, na przykład przedmioty wypełnione powietrzem lub wodą albo pokryte pianką.",
+    "W innych badaniach niektóre delfiny wykryły małe metalowe kule z odległości kilkudziesięciu metrów. Stalową kulę o średnicy 2,54 centymetra wykryto z ponad 70 metrów."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Yunuslar çok kısa tık sesleri çıkarır ve geri dönen yankıyı dinler.",
+    "Bu dönüşten bir nesnenin uzaklığını, yönünü ve büyüklüğünü anlarlar.",
+    "Şaşırtıcı olan, yunusun sadece «orada bir şey var» diye algılamaması. Benzer nesneler arasındaki farkları da algılar.",
+    "Bazı deneylerde yunuslar, duvar kalınlıkları farklı olan silindirleri ayırt etti. Fark bir milimetreden azdı.",
+    "Bu yüzden yunusun sonarı, sandığımızdan çok daha hassastır."
+   ],
+   "b1": [
+    "Ekolokasyon da denilen yunus sonarı, yüksek frekanslı tık sesleri sayesinde çalışır.",
+    "Bu sesler suyun içinden geçer, bir nesneye çarpar ve yankı şeklinde yunusa geri döner.",
+    "Yunus bir fotoğraf almaz; ses bilgisi alır: şiddet, dönüş süresi ve sesin niteliği.",
+    "Yapay nesnelerle yapılan deneyler, bir yunusun farklı malzemeleri ayırt edebildiğini gösteriyor; örneğin hava ya da su dolu veya köpükle kaplı nesneleri.",
+    "Başka araştırmalarda bazı yunuslar küçük metal küreleri onlarca metre uzaktan tespit etti. 2,54 santimetrelik bir çelik küre 70 metreden fazla uzaklıktan algılandı."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Delfine erzeugen sehr kurze Klicklaute und hören auf das Echo, das zurückkommt.",
+    "Aus dieser Rückkehr erkennen sie die Entfernung, die Richtung und die Größe eines Gegenstands.",
+    "Das Erstaunliche ist, dass der Delfin nicht nur „da ist etwas“ wahrnimmt. Er nimmt auch Unterschiede zwischen ähnlichen Gegenständen wahr.",
+    "In einigen Experimenten erkannten Delfine Zylinder mit unterschiedlich dicken Wänden. Der Unterschied war kleiner als ein Millimeter.",
+    "Deshalb ist das Sonar des Delfins viel präziser, als wir uns vorstellen."
+   ],
+   "b1": [
+    "Das Sonar des Delfins, auch Echoortung genannt, funktioniert dank hochfrequenter Klicklaute.",
+    "Diese Laute durchqueren das Wasser, treffen auf einen Gegenstand und kehren als Echo zum Delfin zurück.",
+    "Der Delfin bekommt kein Foto, sondern akustische Informationen: Stärke, Laufzeit und Klangqualität.",
+    "Experimente mit künstlichen Gegenständen zeigen, dass ein Delfin verschiedene Materialien unterscheiden kann, zum Beispiel Gegenstände, die mit Luft oder Wasser gefüllt oder mit Schaum überzogen sind.",
+    "In anderen Studien orteten Delfine kleine Metallkugeln aus mehreren Dutzend Metern Entfernung. Eine Stahlkugel von 2,54 Zentimetern wurde aus über 70 Metern erfasst."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "イルカはとても短いクリック音を出し、はね返ってくる反響を聞く。",
+    "その戻ってきた音から、物までの距離、方向、大きさがわかる。",
+    "驚くべきことに、イルカは「何かがある」とわかるだけではない。似た物どうしの違いまで感じ取るのだ。",
+    "ある実験では、イルカは壁の厚さが違う円筒を見分けた。その差は1ミリより小さかった。",
+    "だから、イルカのソナーは私たちが想像するよりずっと正確なのだ。"
+   ],
+   "b1": [
+    "イルカのソナーはエコーロケーション（反響定位）とも呼ばれ、高い周波数のクリック音によって働く。",
+    "この音は水の中を進み、物に当たって、反響としてイルカのところへ戻ってくる。",
+    "イルカが受け取るのは写真ではなく、音の情報だ。音の強さ、戻ってくるまでの時間、音の質である。",
+    "人工の物を使った実験では、イルカが違う素材を見分けられることがわかっている。たとえば、空気や水が入った物や、フォームで覆われた物だ。",
+    "別の研究では、何頭かのイルカが何十メートルも離れた小さな金属の球を見つけた。直径2.54センチの鋼鉄の球が、70メートル以上先から探知されたのだ。"
+   ]
+  }
+ }
+}
