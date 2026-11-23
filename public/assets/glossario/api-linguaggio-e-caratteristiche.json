@@ -1,0 +1,1387 @@
+{
+ "id": "api-linguaggio-e-caratteristiche",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "l'ape",
+   "forme": [
+    "api",
+    "ape"
+   ],
+   "esempi": [
+    "Un'ape vola sui fiori.",
+    "Le api fanno il miele.",
+    "Ho paura delle api."
+   ],
+   "traduzioni": {
+    "en": "bee",
+    "es": "abeja",
+    "pt": "abelha",
+    "fr": "abeille",
+    "cs": "včela",
+    "pl": "pszczoła",
+    "tr": "arı",
+    "de": "Biene",
+    "ja": "ミツバチ"
+   }
+  },
+  {
+   "parola": "l'insetto",
+   "forme": [
+    "insetti"
+   ],
+   "formeEsempi": [
+    "insetto"
+   ],
+   "esempi": [
+    "La formica è un insetto.",
+    "D'estate ci sono tanti insetti.",
+    "Questo insetto è molto piccolo."
+   ],
+   "traduzioni": {
+    "en": "insect",
+    "es": "insecto",
+    "pt": "inseto",
+    "fr": "insecte",
+    "cs": "hmyz",
+    "pl": "owad",
+    "tr": "böcek",
+    "de": "Insekt",
+    "ja": "昆虫"
+   }
+  },
+  {
+   "parola": "sociale",
+   "forme": [
+    "sociali"
+   ],
+   "formeEsempi": [
+    "sociale"
+   ],
+   "esempi": [
+    "L'uomo è un animale sociale.",
+    "Le formiche sono insetti sociali.",
+    "Il lupo è un animale sociale."
+   ],
+   "traduzioni": {
+    "en": "social (living in groups)",
+    "es": "social",
+    "pt": "social",
+    "fr": "social",
+    "cs": "společenský, sociální",
+    "pl": "społeczny",
+    "tr": "sosyal",
+    "de": "sozial",
+    "ja": "社会性の、群れで暮らす"
+   }
+  },
+  {
+   "parola": "la comunità",
+   "forme": [
+    "comunità"
+   ],
+   "esempi": [
+    "Nel paese c'è una comunità piccola.",
+    "L'alveare è una comunità.",
+    "Ogni comunità ha le sue regole."
+   ],
+   "traduzioni": {
+    "en": "community",
+    "es": "comunidad",
+    "pt": "comunidade",
+    "fr": "communauté",
+    "cs": "společenství, komunita",
+    "pl": "społeczność",
+    "tr": "topluluk",
+    "de": "Gemeinschaft",
+    "ja": "共同体、コミュニティ"
+   }
+  },
+  {
+   "parola": "organizzato",
+   "forme": [
+    "organizzata"
+   ],
+   "formeEsempi": [
+    "organizzato"
+   ],
+   "esempi": [
+    "È una persona molto organizzata.",
+    "Il viaggio è ben organizzato.",
+    "L'ufficio è organizzato bene."
+   ],
+   "traduzioni": {
+    "en": "organised",
+    "es": "organizado",
+    "pt": "organizado",
+    "fr": "organisé",
+    "cs": "organizovaný",
+    "pl": "zorganizowany",
+    "tr": "düzenli, örgütlü",
+    "de": "organisiert",
+    "ja": "組織された、整った"
+   }
+  },
+  {
+   "parola": "il compito",
+   "forme": [
+    "compito"
+   ],
+   "esempi": [
+    "Ognuno ha un compito preciso.",
+    "Il mio compito è preparare il caffè.",
+    "È un compito difficile."
+   ],
+   "traduzioni": {
+    "en": "task, job (also: homework)",
+    "es": "tarea, función",
+    "pt": "tarefa, função",
+    "fr": "tâche, rôle",
+    "cs": "úkol",
+    "pl": "zadanie",
+    "tr": "görev",
+    "de": "Aufgabe",
+    "ja": "役目、仕事"
+   }
+  },
+  {
+   "parola": "cercare",
+   "forme": [
+    "cercano"
+   ],
+   "formeEsempi": [
+    "cerco",
+    "cerchiamo"
+   ],
+   "esempi": [
+    "Cerco le chiavi.",
+    "Le api cercano i fiori.",
+    "Cerchiamo un ristorante tipico."
+   ],
+   "traduzioni": {
+    "en": "to look for",
+    "es": "buscar",
+    "pt": "procurar",
+    "fr": "chercher",
+    "cs": "hledat",
+    "pl": "szukać",
+    "tr": "aramak",
+    "de": "suchen",
+    "ja": "探す"
+   }
+  },
+  {
+   "parola": "il nettare",
+   "forme": [
+    "nettare"
+   ],
+   "esempi": [
+    "Le api raccolgono il nettare dei fiori.",
+    "Il nettare è dolce.",
+    "Con il nettare le api fanno il miele."
+   ],
+   "traduzioni": {
+    "en": "nectar",
+    "es": "néctar",
+    "pt": "néctar",
+    "fr": "nectar",
+    "cs": "nektar",
+    "pl": "nektar",
+    "tr": "nektar, bal özü",
+    "de": "Nektar",
+    "ja": "花の蜜"
+   }
+  },
+  {
+   "parola": "il polline",
+   "forme": [
+    "polline"
+   ],
+   "esempi": [
+    "In primavera c'è tanto polline nell'aria.",
+    "Sono allergico al polline.",
+    "L'ape porta il polline all'alveare."
+   ],
+   "traduzioni": {
+    "en": "pollen",
+    "es": "polen",
+    "pt": "pólen",
+    "fr": "pollen",
+    "cs": "pyl",
+    "pl": "pyłek",
+    "tr": "polen",
+    "de": "Pollen",
+    "ja": "花粉"
+   }
+  },
+  {
+   "parola": "proteggere",
+   "forme": [
+    "proteggono",
+    "proteggere"
+   ],
+   "formeEsempi": [
+    "proteggo",
+    "protegge"
+   ],
+   "esempi": [
+    "La mamma protegge i bambini.",
+    "Le api proteggono l'alveare.",
+    "Dobbiamo proteggere la natura."
+   ],
+   "traduzioni": {
+    "en": "to protect",
+    "es": "proteger",
+    "pt": "proteger",
+    "fr": "protéger",
+    "cs": "chránit",
+    "pl": "chronić",
+    "tr": "korumak",
+    "de": "schützen",
+    "ja": "守る"
+   }
+  },
+  {
+   "parola": "l'alveare",
+   "forme": [
+    "alveare"
+   ],
+   "esempi": [
+    "L'alveare è pieno di miele.",
+    "Nell'alveare vivono migliaia di api.",
+    "L'apicoltore apre l'alveare."
+   ],
+   "traduzioni": {
+    "en": "beehive, hive",
+    "es": "colmena",
+    "pt": "colmeia",
+    "fr": "ruche",
+    "cs": "úl",
+    "pl": "ul",
+    "tr": "arı kovanı",
+    "de": "Bienenstock",
+    "ja": "巣箱、ミツバチの巣"
+   }
+  },
+  {
+   "parola": "pulire",
+   "forme": [
+    "puliscono"
+   ],
+   "formeEsempi": [
+    "pulisco",
+    "pulisce"
+   ],
+   "esempi": [
+    "Il sabato pulisco la casa.",
+    "Le api puliscono l'alveare.",
+    "Chi pulisce la cucina?"
+   ],
+   "traduzioni": {
+    "en": "to clean",
+    "es": "limpiar",
+    "pt": "limpar",
+    "fr": "nettoyer",
+    "cs": "uklízet, čistit",
+    "pl": "sprzątać, czyścić",
+    "tr": "temizlemek",
+    "de": "putzen, sauber machen",
+    "ja": "掃除する"
+   }
+  },
+  {
+   "parola": "curare",
+   "forme": [
+    "curano"
+   ],
+   "formeEsempi": [
+    "cura",
+    "curo"
+   ],
+   "esempi": [
+    "L'infermiera cura i malati.",
+    "Le api curano le larve.",
+    "Mia nonna cura il giardino."
+   ],
+   "traduzioni": {
+    "en": "to look after, to care for",
+    "es": "cuidar",
+    "pt": "cuidar de",
+    "fr": "soigner, s'occuper de",
+    "cs": "pečovat o",
+    "pl": "opiekować się",
+    "tr": "bakmak, ilgilenmek",
+    "de": "pflegen, sich kümmern um",
+    "ja": "世話をする"
+   }
+  },
+  {
+   "parola": "la larva",
+   "forme": [
+    "larve"
+   ],
+   "formeEsempi": [
+    "larva"
+   ],
+   "esempi": [
+    "La farfalla nasce da una larva.",
+    "Le larve mangiano molto.",
+    "La larva diventa un'ape adulta."
+   ],
+   "traduzioni": {
+    "en": "larva",
+    "es": "larva",
+    "pt": "larva",
+    "fr": "larve",
+    "cs": "larva",
+    "pl": "larwa",
+    "tr": "larva",
+    "de": "Larve",
+    "ja": "幼虫"
+   }
+  },
+  {
+   "parola": "la danza",
+   "forme": [
+    "danza",
+    "danze"
+   ],
+   "esempi": [
+    "La danza delle api è un linguaggio.",
+    "Mi piace la danza moderna.",
+    "Le danze popolari sono allegre."
+   ],
+   "traduzioni": {
+    "en": "dance",
+    "es": "danza, baile",
+    "pt": "dança",
+    "fr": "danse",
+    "cs": "tanec",
+    "pl": "taniec",
+    "tr": "dans",
+    "de": "Tanz",
+    "ja": "ダンス、踊り"
+   }
+  },
+  {
+   "parola": "sorprendente",
+   "forme": [
+    "sorprendente"
+   ],
+   "esempi": [
+    "È una notizia sorprendente!",
+    "Il risultato è sorprendente.",
+    "Hai una memoria sorprendente."
+   ],
+   "traduzioni": {
+    "en": "surprising, amazing",
+    "es": "sorprendente",
+    "pt": "surpreendente",
+    "fr": "surprenant",
+    "cs": "překvapivý",
+    "pl": "zaskakujący",
+    "tr": "şaşırtıcı",
+    "de": "erstaunlich",
+    "ja": "驚くべき"
+   }
+  },
+  {
+   "parola": "il movimento",
+   "forme": [
+    "movimenti",
+    "movimento"
+   ],
+   "esempi": [
+    "Fa un movimento con la mano.",
+    "I movimenti dell'ape sono precisi.",
+    "Il movimento fa bene alla salute."
+   ],
+   "traduzioni": {
+    "en": "movement",
+    "es": "movimiento",
+    "pt": "movimento",
+    "fr": "mouvement",
+    "cs": "pohyb",
+    "pl": "ruch",
+    "tr": "hareket",
+    "de": "Bewegung",
+    "ja": "動き"
+   }
+  },
+  {
+   "parola": "preciso",
+   "forme": [
+    "precisi"
+   ],
+   "formeEsempi": [
+    "preciso",
+    "precisa"
+   ],
+   "esempi": [
+    "È un orologio molto preciso.",
+    "Mi serve un'informazione precisa.",
+    "I suoi movimenti sono precisi."
+   ],
+   "traduzioni": {
+    "en": "precise, exact",
+    "es": "preciso",
+    "pt": "preciso",
+    "fr": "précis",
+    "cs": "přesný",
+    "pl": "precyzyjny, dokładny",
+    "tr": "kesin, hassas",
+    "de": "präzise, genau",
+    "ja": "正確な"
+   }
+  },
+  {
+   "parola": "informare",
+   "forme": [
+    "informa"
+   ],
+   "formeEsempi": [
+    "informo"
+   ],
+   "esempi": [
+    "Ti informo che domani c'è sciopero.",
+    "Il cartello informa i clienti.",
+    "L'ape informa le altre api."
+   ],
+   "traduzioni": {
+    "en": "to inform, to tell",
+    "es": "informar",
+    "pt": "informar",
+    "fr": "informer",
+    "cs": "informovat",
+    "pl": "informować",
+    "tr": "bilgi vermek",
+    "de": "informieren",
+    "ja": "知らせる"
+   }
+  },
+  {
+   "parola": "la compagna",
+   "forme": [
+    "compagne"
+   ],
+   "formeEsempi": [
+    "compagna"
+   ],
+   "esempi": [
+    "Studio con una compagna di classe.",
+    "L'ape aiuta le compagne.",
+    "Le mie compagne di squadra sono simpatiche."
+   ],
+   "traduzioni": {
+    "en": "companion, fellow (bee)",
+    "es": "compañera",
+    "pt": "companheira",
+    "fr": "compagne",
+    "cs": "družka, kolegyně",
+    "pl": "towarzyszka",
+    "tr": "arkadaş, yoldaş",
+    "de": "Gefährtin, Artgenossin",
+    "ja": "仲間"
+   }
+  },
+  {
+   "parola": "la direzione",
+   "forme": [
+    "direzione"
+   ],
+   "esempi": [
+    "Qual è la direzione per la stazione?",
+    "Il vento cambia direzione.",
+    "Vado nella direzione sbagliata."
+   ],
+   "traduzioni": {
+    "en": "direction",
+    "es": "dirección",
+    "pt": "direção",
+    "fr": "direction",
+    "cs": "směr",
+    "pl": "kierunek",
+    "tr": "yön",
+    "de": "Richtung",
+    "ja": "方向"
+   }
+  },
+  {
+   "parola": "la distanza",
+   "forme": [
+    "distanza"
+   ],
+   "esempi": [
+    "Qual è la distanza tra Roma e Milano?",
+    "Tieni la distanza!",
+    "A questa distanza non vedo niente."
+   ],
+   "traduzioni": {
+    "en": "distance",
+    "es": "distancia",
+    "pt": "distância",
+    "fr": "distance",
+    "cs": "vzdálenost",
+    "pl": "odległość",
+    "tr": "mesafe, uzaklık",
+    "de": "Entfernung",
+    "ja": "距離"
+   }
+  },
+  {
+   "parola": "il cibo",
+   "forme": [
+    "cibo"
+   ],
+   "esempi": [
+    "Il cibo italiano è famoso.",
+    "Il cane cerca il cibo.",
+    "Compro il cibo per il gatto."
+   ],
+   "traduzioni": {
+    "en": "food",
+    "es": "comida",
+    "pt": "comida",
+    "fr": "nourriture",
+    "cs": "jídlo, potrava",
+    "pl": "jedzenie, pokarm",
+    "tr": "yiyecek, besin",
+    "de": "Nahrung, Essen",
+    "ja": "食べ物"
+   }
+  },
+  {
+   "parola": "complesso",
+   "forme": [
+    "complessa"
+   ],
+   "formeEsempi": [
+    "complesso"
+   ],
+   "esempi": [
+    "È una situazione complessa.",
+    "Il cervello è un organo complesso.",
+    "La domanda è complessa."
+   ],
+   "traduzioni": {
+    "en": "complex, complicated",
+    "es": "complejo",
+    "pt": "complexo",
+    "fr": "complexe",
+    "cs": "složitý",
+    "pl": "złożony",
+    "tr": "karmaşık",
+    "de": "komplex",
+    "ja": "複雑な"
+   }
+  },
+  {
+   "parola": "somigliare a",
+   "forme": [
+    "somiglia"
+   ],
+   "formeEsempi": [
+    "somiglio",
+    "somigli"
+   ],
+   "esempi": [
+    "Luca somiglia a suo padre.",
+    "Questa nuvola somiglia a un cane.",
+    "A chi somigli, a tua madre?"
+   ],
+   "traduzioni": {
+    "en": "to look like, to resemble",
+    "es": "parecerse a",
+    "pt": "parecer-se com",
+    "fr": "ressembler à",
+    "cs": "podobat se",
+    "pl": "przypominać, być podobnym do",
+    "tr": "benzemek",
+    "de": "ähneln",
+    "ja": "〜に似ている"
+   }
+  },
+  {
+   "parola": "fondamentale",
+   "forme": [
+    "fondamentali"
+   ],
+   "formeEsempi": [
+    "fondamentale"
+   ],
+   "esempi": [
+    "L'acqua è fondamentale per la vita.",
+    "Il sonno è fondamentale.",
+    "Ci sono tre regole fondamentali."
+   ],
+   "traduzioni": {
+    "en": "essential, vital",
+    "es": "fundamental",
+    "pt": "fundamental",
+    "fr": "fondamental, essentiel",
+    "cs": "zásadní, nezbytný",
+    "pl": "podstawowy, kluczowy",
+    "tr": "temel, hayati",
+    "de": "grundlegend, unverzichtbar",
+    "ja": "欠かせない、基本的な"
+   }
+  },
+  {
+   "parola": "l'ambiente",
+   "forme": [
+    "ambiente"
+   ],
+   "esempi": [
+    "Dobbiamo rispettare l'ambiente.",
+    "La plastica fa male all'ambiente.",
+    "È un ambiente di lavoro tranquillo."
+   ],
+   "traduzioni": {
+    "en": "environment",
+    "es": "medio ambiente",
+    "pt": "meio ambiente",
+    "fr": "environnement",
+    "cs": "životní prostředí",
+    "pl": "środowisko",
+    "tr": "çevre",
+    "de": "Umwelt",
+    "ja": "環境"
+   }
+  },
+  {
+   "parola": "la pianta",
+   "forme": [
+    "piante"
+   ],
+   "formeEsempi": [
+    "pianta"
+   ],
+   "esempi": [
+    "Ho tante piante sul balcone.",
+    "Questa pianta ha bisogno di acqua.",
+    "Le piante crescono al sole."
+   ],
+   "traduzioni": {
+    "en": "plant",
+    "es": "planta",
+    "pt": "planta",
+    "fr": "plante",
+    "cs": "rostlina",
+    "pl": "roślina",
+    "tr": "bitki",
+    "de": "Pflanze",
+    "ja": "植物"
+   }
+  },
+  {
+   "parola": "riprodursi",
+   "forme": [
+    "riprodursi"
+   ],
+   "esempi": [
+    "Molte piante hanno bisogno degli insetti per riprodursi.",
+    "I conigli si riproducono velocemente.",
+    "Questi pesci si riproducono in primavera."
+   ],
+   "traduzioni": {
+    "en": "to reproduce",
+    "es": "reproducirse",
+    "pt": "reproduzir-se",
+    "fr": "se reproduire",
+    "cs": "rozmnožovat se",
+    "pl": "rozmnażać się",
+    "tr": "çoğalmak, üremek",
+    "de": "sich fortpflanzen",
+    "ja": "繁殖する"
+   },
+   "formeEsempi": [
+    "riproducono"
+   ]
+  },
+  {
+   "parola": "sostenere",
+   "forme": [
+    "sostengono"
+   ],
+   "formeEsempi": [
+    "sostiene"
+   ],
+   "esempi": [
+    "Le colonne sostengono il tetto.",
+    "Le api sostengono l'agricoltura.",
+    "La famiglia mi sostiene sempre."
+   ],
+   "traduzioni": {
+    "en": "to support, to sustain",
+    "es": "sostener, apoyar",
+    "pt": "sustentar, apoiar",
+    "fr": "soutenir",
+    "cs": "podporovat, nést",
+    "pl": "wspierać, podtrzymywać",
+    "tr": "desteklemek",
+    "de": "stützen, tragen",
+    "ja": "支える"
+   }
+  },
+  {
+   "parola": "l'agricoltura",
+   "forme": [
+    "agricoltura"
+   ],
+   "esempi": [
+    "In questa zona si vive di agricoltura.",
+    "L'agricoltura ha bisogno di acqua.",
+    "Mio nonno lavorava nell'agricoltura."
+   ],
+   "traduzioni": {
+    "en": "agriculture, farming",
+    "es": "agricultura",
+    "pt": "agricultura",
+    "fr": "agriculture",
+    "cs": "zemědělství",
+    "pl": "rolnictwo",
+    "tr": "tarım",
+    "de": "Landwirtschaft",
+    "ja": "農業"
+   }
+  },
+  {
+   "parola": "l'organizzazione",
+   "forme": [
+    "organizzazione"
+   ],
+   "esempi": [
+    "L'organizzazione della festa è perfetta.",
+    "Serve una buona organizzazione.",
+    "Lavoro per un'organizzazione internazionale."
+   ],
+   "traduzioni": {
+    "en": "organisation",
+    "es": "organización",
+    "pt": "organização",
+    "fr": "organisation",
+    "cs": "organizace",
+    "pl": "organizacja",
+    "tr": "düzen, örgütlenme",
+    "de": "Organisation",
+    "ja": "組織、仕組み"
+   }
+  },
+  {
+   "parola": "la collaborazione",
+   "forme": [
+    "collaborazione"
+   ],
+   "esempi": [
+    "Grazie per la collaborazione!",
+    "Il progetto nasce dalla collaborazione di molti.",
+    "La collaborazione è importante nel lavoro."
+   ],
+   "traduzioni": {
+    "en": "cooperation, teamwork",
+    "es": "colaboración",
+    "pt": "colaboração",
+    "fr": "collaboration",
+    "cs": "spolupráce",
+    "pl": "współpraca",
+    "tr": "işbirliği",
+    "de": "Zusammenarbeit",
+    "ja": "協力"
+   }
+  },
+  {
+   "parola": "migliaia",
+   "forme": [
+    "migliaia"
+   ],
+   "esempi": [
+    "Al concerto ci sono migliaia di persone.",
+    "Ho migliaia di foto sul telefono.",
+    "Migliaia di api vivono insieme."
+   ],
+   "traduzioni": {
+    "en": "thousands",
+    "es": "miles",
+    "pt": "milhares",
+    "fr": "des milliers",
+    "cs": "tisíce",
+    "pl": "tysiące",
+    "tr": "binlerce",
+    "de": "Tausende",
+    "ja": "何千もの"
+   }
+  },
+  {
+   "parola": "l'individuo",
+   "forme": [
+    "individui",
+    "individuo"
+   ],
+   "esempi": [
+    "Ogni individuo è diverso.",
+    "Nel gruppo ci sono venti individui.",
+    "Il rispetto dell'individuo è importante."
+   ],
+   "traduzioni": {
+    "en": "individual",
+    "es": "individuo",
+    "pt": "indivíduo",
+    "fr": "individu",
+    "cs": "jedinec",
+    "pl": "osobnik, jednostka",
+    "tr": "birey",
+    "de": "Individuum, Tier",
+    "ja": "個体、個人"
+   }
+  },
+  {
+   "parola": "l'addome",
+   "forme": [
+    "addome"
+   ],
+   "esempi": [
+    "L'ape muove l'addome.",
+    "Ho un dolore all'addome.",
+    "L'addome dell'insetto è a strisce."
+   ],
+   "traduzioni": {
+    "en": "abdomen («danza dell'addome» = waggle dance)",
+    "es": "abdomen («danza del abdomen» = danza de meneo)",
+    "pt": "abdômen («dança do abdômen» = dança do requebrado)",
+    "fr": "abdomen («danse frétillante»)",
+    "cs": "zadeček («kmitavý tanec»)",
+    "pl": "odwłok («taniec wywijany»)",
+    "tr": "karın («kuyruk sallama dansı»)",
+    "de": "Hinterleib («Schwänzeltanz»)",
+    "ja": "腹部（尻振りダンス）"
+   }
+  },
+  {
+   "parola": "il sistema",
+   "forme": [
+    "sistemi"
+   ],
+   "formeEsempi": [
+    "sistema"
+   ],
+   "esempi": [
+    "Il sistema funziona bene.",
+    "Ci sono vari sistemi di trasporto.",
+    "È un sistema semplice."
+   ],
+   "traduzioni": {
+    "en": "system",
+    "es": "sistema",
+    "pt": "sistema",
+    "fr": "système",
+    "cs": "systém",
+    "pl": "system",
+    "tr": "sistem",
+    "de": "System",
+    "ja": "仕組み、システム"
+   }
+  },
+  {
+   "parola": "la comunicazione",
+   "forme": [
+    "comunicazione"
+   ],
+   "esempi": [
+    "La comunicazione è la base di tutto.",
+    "Studio scienze della comunicazione.",
+    "Tra noi c'è poca comunicazione."
+   ],
+   "traduzioni": {
+    "en": "communication",
+    "es": "comunicación",
+    "pt": "comunicação",
+    "fr": "communication",
+    "cs": "komunikace",
+    "pl": "komunikacja",
+    "tr": "iletişim",
+    "de": "Kommunikation",
+    "ja": "コミュニケーション"
+   }
+  },
+  {
+   "parola": "casuale",
+   "forme": [
+    "casuale"
+   ],
+   "esempi": [
+    "Non è un errore casuale.",
+    "È stato un incontro casuale.",
+    "Scegli un numero casuale."
+   ],
+   "traduzioni": {
+    "en": "random, accidental (NOT “casual”)",
+    "es": "casual, aleatorio",
+    "pt": "casual, aleatório",
+    "fr": "aléatoire, dû au hasard",
+    "cs": "náhodný",
+    "pl": "przypadkowy",
+    "tr": "rastgele, tesadüfi",
+    "de": "zufällig",
+    "ja": "偶然の、でたらめな"
+   }
+  },
+  {
+   "parola": "contenere",
+   "forme": [
+    "contiene"
+   ],
+   "esempi": [
+    "Questa scatola contiene libri.",
+    "Il messaggio contiene informazioni utili.",
+    "Il caffè contiene caffeina."
+   ],
+   "traduzioni": {
+    "en": "to contain",
+    "es": "contener",
+    "pt": "conter",
+    "fr": "contenir",
+    "cs": "obsahovat",
+    "pl": "zawierać",
+    "tr": "içermek",
+    "de": "enthalten",
+    "ja": "含む"
+   }
+  },
+  {
+   "parola": "dritto",
+   "forme": [
+    "dritta"
+   ],
+   "formeEsempi": [
+    "dritto"
+   ],
+   "esempi": [
+    "Vai sempre dritto.",
+    "La strada è dritta.",
+    "Stai con la schiena dritta."
+   ],
+   "traduzioni": {
+    "en": "straight",
+    "es": "recto",
+    "pt": "reto",
+    "fr": "droit",
+    "cs": "rovný",
+    "pl": "prosty",
+    "tr": "düz",
+    "de": "gerade",
+    "ja": "まっすぐな"
+   }
+  },
+  {
+   "parola": "indicare",
+   "forme": [
+    "indica",
+    "indicano"
+   ],
+   "formeEsempi": [
+    "indico"
+   ],
+   "esempi": [
+    "Il cartello indica la stazione.",
+    "Mi indica la strada, per favore?",
+    "Le frecce indicano l'uscita."
+   ],
+   "traduzioni": {
+    "en": "to indicate, to show",
+    "es": "indicar",
+    "pt": "indicar",
+    "fr": "indiquer",
+    "cs": "ukazovat, udávat",
+    "pl": "wskazywać",
+    "tr": "göstermek",
+    "de": "anzeigen, zeigen",
+    "ja": "示す"
+   }
+  },
+  {
+   "parola": "l'angolo",
+   "forme": [
+    "angolo"
+   ],
+   "esempi": [
+    "Il bar è all'angolo della strada.",
+    "Un angolo di novanta gradi.",
+    "Metto la pianta nell'angolo."
+   ],
+   "traduzioni": {
+    "en": "angle (also: corner)",
+    "es": "ángulo (también: esquina)",
+    "pt": "ângulo (também: esquina)",
+    "fr": "angle (aussi : coin)",
+    "cs": "úhel (i: roh)",
+    "pl": "kąt (też: róg)",
+    "tr": "açı (ayrıca: köşe)",
+    "de": "Winkel (auch: Ecke)",
+    "ja": "角度（角、とも）"
+   }
+  },
+  {
+   "parola": "rispetto a",
+   "forme": [
+    "rispetto"
+   ],
+   "esempi": [
+    "Oggi fa più caldo rispetto a ieri.",
+    "Rispetto a Roma, Firenze è piccola.",
+    "La direzione è calcolata rispetto al sole."
+   ],
+   "traduzioni": {
+    "en": "compared to, in relation to",
+    "es": "respecto a, en comparación con",
+    "pt": "em relação a",
+    "fr": "par rapport à",
+    "cs": "vzhledem k, oproti",
+    "pl": "w stosunku do",
+    "tr": "-e göre",
+    "de": "im Verhältnis zu",
+    "ja": "〜に対して、〜と比べて"
+   }
+  },
+  {
+   "parola": "la durata",
+   "forme": [
+    "durata"
+   ],
+   "esempi": [
+    "Qual è la durata del film?",
+    "La durata del corso è di tre mesi.",
+    "La durata della danza cambia."
+   ],
+   "traduzioni": {
+    "en": "length (of time), duration",
+    "es": "duración",
+    "pt": "duração",
+    "fr": "durée",
+    "cs": "délka, trvání",
+    "pl": "czas trwania",
+    "tr": "süre",
+    "de": "Dauer",
+    "ja": "長さ、時間"
+   }
+  },
+  {
+   "parola": "la fonte",
+   "forme": [
+    "fonte"
+   ],
+   "esempi": [
+    "L'acqua di questa fonte è fresca.",
+    "Il sole è una fonte di energia.",
+    "Qual è la fonte di questa notizia?"
+   ],
+   "traduzioni": {
+    "en": "source",
+    "es": "fuente",
+    "pt": "fonte",
+    "fr": "source",
+    "cs": "zdroj",
+    "pl": "źródło",
+    "tr": "kaynak",
+    "de": "Quelle",
+    "ja": "源、（花の）場所"
+   }
+  },
+  {
+   "parola": "ricco",
+   "forme": [
+    "ricca"
+   ],
+   "formeEsempi": [
+    "ricco"
+   ],
+   "esempi": [
+    "È una zona ricca di acqua.",
+    "Questo cibo è ricco di vitamine.",
+    "Un signore molto ricco."
+   ],
+   "traduzioni": {
+    "en": "rich",
+    "es": "rico",
+    "pt": "rico",
+    "fr": "riche",
+    "cs": "bohatý",
+    "pl": "bogaty",
+    "tr": "zengin",
+    "de": "reich, ergiebig",
+    "ja": "豊かな"
+   }
+  },
+  {
+   "parola": "ripetuto",
+   "forme": [
+    "ripetute"
+   ],
+   "formeEsempi": [
+    "ripetuto",
+    "ripetuti"
+   ],
+   "esempi": [
+    "Dopo tentativi ripetuti ha capito.",
+    "Le danze ripetute attirano altre api.",
+    "È un errore ripetuto."
+   ],
+   "traduzioni": {
+    "en": "repeated",
+    "es": "repetido",
+    "pt": "repetido",
+    "fr": "répété",
+    "cs": "opakovaný",
+    "pl": "powtarzany",
+    "tr": "tekrarlanan",
+    "de": "wiederholt",
+    "ja": "繰り返された"
+   }
+  },
+  {
+   "parola": "il seme",
+   "forme": [
+    "semi"
+   ],
+   "formeEsempi": [
+    "seme"
+   ],
+   "esempi": [
+    "Pianto i semi in primavera.",
+    "L'uva senza semi è comoda.",
+    "Da un piccolo seme nasce un albero."
+   ],
+   "traduzioni": {
+    "en": "seed",
+    "es": "semilla",
+    "pt": "semente",
+    "fr": "graine",
+    "cs": "semeno",
+    "pl": "nasiono",
+    "tr": "tohum",
+    "de": "Samen",
+    "ja": "種"
+   }
+  },
+  {
+   "parola": "la coltivazione",
+   "forme": [
+    "coltivazioni"
+   ],
+   "formeEsempi": [
+    "coltivazione"
+   ],
+   "esempi": [
+    "In questa valle ci sono coltivazioni di mele.",
+    "La coltivazione del riso richiede acqua.",
+    "Molte coltivazioni dipendono dalle api."
+   ],
+   "traduzioni": {
+    "en": "crop, cultivation",
+    "es": "cultivo",
+    "pt": "cultivo, plantação",
+    "fr": "culture",
+    "cs": "plodina, pěstování",
+    "pl": "uprawa",
+    "tr": "ekin, tarım ürünü",
+    "de": "Anbau, Kultur",
+    "ja": "作物、栽培"
+   }
+  },
+  {
+   "parola": "dipendere da",
+   "forme": [
+    "dipendono"
+   ],
+   "formeEsempi": [
+    "dipende"
+   ],
+   "esempi": [
+    "Dipende dal tempo.",
+    "I bambini dipendono dai genitori.",
+    "Molte piante dipendono dagli insetti."
+   ],
+   "traduzioni": {
+    "en": "to depend on",
+    "es": "depender de",
+    "pt": "depender de",
+    "fr": "dépendre de",
+    "cs": "záviset na",
+    "pl": "zależeć od",
+    "tr": "-e bağlı olmak",
+    "de": "abhängen von",
+    "ja": "〜に頼る、〜次第だ"
+   }
+  },
+  {
+   "parola": "l'impollinatore",
+   "forme": [
+    "impollinatori"
+   ],
+   "formeEsempi": [
+    "impollinatore"
+   ],
+   "esempi": [
+    "Le api sono i principali impollinatori.",
+    "Anche le farfalle sono impollinatori.",
+    "Senza impollinatori avremmo poca frutta."
+   ],
+   "traduzioni": {
+    "en": "pollinator",
+    "es": "polinizador",
+    "pt": "polinizador",
+    "fr": "pollinisateur",
+    "cs": "opylovač",
+    "pl": "zapylacz",
+    "tr": "tozlayıcı",
+    "de": "Bestäuber",
+    "ja": "花粉を運ぶ生き物、送粉者"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Bees are social insects: they live in an organised community, where every individual has a task.",
+    "Some bees look for nectar and pollen, others protect the hive, others clean or look after the larvae.",
+    "The bees' dance is amazing. With precise movements, a bee tells its companions the direction and the distance of the flowers.",
+    "If the food is close, the dance is simpler. If the food is far away, the dance becomes more complex and looks like a figure eight.",
+    "Bees are essential for the environment because they help many plants reproduce and support an important part of agriculture."
+   ],
+   "b1": [
+    "Bees show an amazing form of organisation. The hive works thanks to the cooperation of thousands of individuals.",
+    "The waggle dance is one of the most studied systems of animal communication. It isn't a random gesture: it contains useful information for the other bees.",
+    "The direction of the straight part of the dance indicates the angle in relation to the sun. The duration of the movement communicates information about the distance.",
+    "Bees don't only say «there's food». They can also communicate how interesting a source is, because a rich source produces more intense or more repeated dances.",
+    "Protecting bees also means protecting biodiversity, fruit, seeds and many crops that depend on pollinators."
+   ]
+  },
+  "es": {
+   "a2": [
+    "Las abejas son insectos sociales: viven en una comunidad organizada, donde cada individuo tiene una tarea.",
+    "Algunas abejas buscan néctar y polen, otras protegen la colmena, otras limpian o cuidan las larvas.",
+    "La danza de las abejas es sorprendente. Con movimientos precisos, una abeja informa a sus compañeras sobre la dirección y la distancia de las flores.",
+    "Si la comida está cerca, la danza es más sencilla. Si la comida está lejos, la danza se vuelve más compleja y se parece a un ocho.",
+    "Las abejas son fundamentales para el medio ambiente porque ayudan a muchas plantas a reproducirse y sostienen una parte importante de la agricultura."
+   ],
+   "b1": [
+    "Las abejas muestran una forma de organización sorprendente. La colmena funciona gracias a la colaboración de miles de individuos.",
+    "La danza del abdomen es uno de los sistemas de comunicación animal más estudiados. No es un gesto casual: contiene información útil para las demás abejas.",
+    "La dirección de la parte recta de la danza indica el ángulo respecto al sol. La duración del movimiento comunica información sobre la distancia.",
+    "Las abejas no indican solo «hay comida». También pueden comunicar lo interesante que es una fuente, porque una fuente rica produce danzas más intensas o más repetidas.",
+    "Proteger a las abejas significa proteger también la biodiversidad, la fruta, las semillas y muchos cultivos que dependen de los polinizadores."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "As abelhas são insetos sociais: vivem numa comunidade organizada, onde cada indivíduo tem uma tarefa.",
+    "Algumas abelhas procuram néctar e pólen, outras protegem a colmeia, outras limpam ou cuidam das larvas.",
+    "A dança das abelhas é surpreendente. Com movimentos precisos, uma abelha informa as companheiras sobre a direção e a distância das flores.",
+    "Se a comida está perto, a dança é mais simples. Se a comida está longe, a dança fica mais complexa e parece um oito.",
+    "As abelhas são fundamentais para o meio ambiente porque ajudam muitas plantas a se reproduzir e sustentam uma parte importante da agricultura."
+   ],
+   "b1": [
+    "As abelhas mostram uma forma de organização surpreendente. A colmeia funciona graças à colaboração de milhares de indivíduos.",
+    "A dança do abdômen é um dos sistemas de comunicação animal mais estudados. Não é um gesto casual: contém informações úteis para as outras abelhas.",
+    "A direção da parte reta da dança indica o ângulo em relação ao sol. A duração do movimento comunica informações sobre a distância.",
+    "As abelhas não indicam só «tem comida». Também podem comunicar quanto uma fonte é interessante, porque uma fonte rica produz danças mais intensas ou mais repetidas.",
+    "Proteger as abelhas significa proteger também a biodiversidade, as frutas, as sementes e muitos cultivos que dependem dos polinizadores."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "Les abeilles sont des insectes sociaux : elles vivent dans une communauté organisée, où chaque individu a une tâche.",
+    "Certaines abeilles cherchent du nectar et du pollen, d'autres protègent la ruche, d'autres nettoient ou s'occupent des larves.",
+    "La danse des abeilles est surprenante. Avec des mouvements précis, une abeille informe ses compagnes de la direction et de la distance des fleurs.",
+    "Si la nourriture est proche, la danse est plus simple. Si la nourriture est loin, la danse devient plus complexe et ressemble à un huit.",
+    "Les abeilles sont essentielles pour l'environnement parce qu'elles aident beaucoup de plantes à se reproduire et soutiennent une partie importante de l'agriculture."
+   ],
+   "b1": [
+    "Les abeilles montrent une forme d'organisation surprenante. La ruche fonctionne grâce à la collaboration de milliers d'individus.",
+    "La danse frétillante est l'un des systèmes de communication animale les plus étudiés. Ce n'est pas un geste dû au hasard : elle contient des informations utiles pour les autres abeilles.",
+    "La direction de la partie droite de la danse indique l'angle par rapport au soleil. La durée du mouvement donne des informations sur la distance.",
+    "Les abeilles n'indiquent pas seulement « il y a de la nourriture ». Elles peuvent aussi dire à quel point une source est intéressante, car une source riche produit des danses plus intenses ou plus répétées.",
+    "Protéger les abeilles, c'est aussi protéger la biodiversité, les fruits, les graines et beaucoup de cultures qui dépendent des pollinisateurs."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Včely jsou společenský hmyz: žijí v organizovaném společenství, kde má každý jedinec svůj úkol.",
+    "Některé včely hledají nektar a pyl, jiné chrání úl, další uklízejí nebo pečují o larvy.",
+    "Včelí tanec je překvapivý. Přesnými pohyby včela sdělí družkám směr a vzdálenost květů.",
+    "Když je potrava blízko, tanec je jednodušší. Když je daleko, tanec je složitější a připomíná osmičku.",
+    "Včely jsou pro životní prostředí nezbytné, protože pomáhají mnoha rostlinám se rozmnožovat a podporují velkou část zemědělství."
+   ],
+   "b1": [
+    "Včely mají překvapivou organizaci. Úl funguje díky spolupráci tisíců jedinců.",
+    "Kmitavý tanec je jeden z nejprostudovanějších systémů komunikace zvířat. Není to náhodné gesto: obsahuje užitečné informace pro ostatní včely.",
+    "Směr rovné části tance udává úhel vzhledem ke slunci. Délka pohybu sděluje informace o vzdálenosti.",
+    "Včely nesdělují jen „tady je potrava“. Dokážou také vyjádřit, jak zajímavý zdroj je, protože bohatý zdroj vyvolává intenzivnější nebo častěji opakované tance.",
+    "Chránit včely znamená chránit i biodiverzitu, ovoce, semena a mnoho plodin, které závisejí na opylovačích."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Pszczoły to owady społeczne: żyją w zorganizowanej społeczności, w której każdy osobnik ma swoje zadanie.",
+    "Niektóre pszczoły szukają nektaru i pyłku, inne chronią ul, jeszcze inne sprzątają lub opiekują się larwami.",
+    "Taniec pszczół jest zaskakujący. Precyzyjnymi ruchami pszczoła informuje towarzyszki o kierunku i odległości kwiatów.",
+    "Jeśli pokarm jest blisko, taniec jest prostszy. Jeśli jest daleko, taniec staje się bardziej złożony i przypomina ósemkę.",
+    "Pszczoły są kluczowe dla środowiska, bo pomagają wielu roślinom się rozmnażać i wspierają ważną część rolnictwa."
+   ],
+   "b1": [
+    "Pszczoły wykazują zaskakującą formę organizacji. Ul działa dzięki współpracy tysięcy osobników.",
+    "Taniec wywijany to jeden z najlepiej zbadanych systemów komunikacji zwierząt. To nie przypadkowy gest: zawiera przydatne informacje dla innych pszczół.",
+    "Kierunek prostej części tańca wskazuje kąt w stosunku do słońca. Czas trwania ruchu przekazuje informacje o odległości.",
+    "Pszczoły nie mówią tylko „jest jedzenie”. Mogą też przekazać, jak atrakcyjne jest źródło, bo bogate źródło wywołuje bardziej intensywne albo częściej powtarzane tańce.",
+    "Chronić pszczoły to chronić także bioróżnorodność, owoce, nasiona i wiele upraw, które zależą od zapylaczy."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Arılar sosyal böceklerdir: her bireyin bir görevi olduğu düzenli bir toplulukta yaşarlar.",
+    "Bazı arılar nektar ve polen arar, bazıları kovanı korur, bazıları da temizlik yapar ya da larvalara bakar.",
+    "Arıların dansı şaşırtıcıdır. Bir arı, hassas hareketlerle arkadaşlarına çiçeklerin yönünü ve uzaklığını bildirir.",
+    "Yiyecek yakındaysa dans daha basittir. Yiyecek uzaktaysa dans daha karmaşık olur ve sekiz rakamına benzer.",
+    "Arılar çevre için hayati önemdedir, çünkü birçok bitkinin çoğalmasına yardım eder ve tarımın önemli bir kısmını destekler."
+   ],
+   "b1": [
+    "Arılar şaşırtıcı bir düzen gösterir. Kovan, binlerce bireyin işbirliği sayesinde işler.",
+    "Kuyruk sallama dansı, en çok incelenen hayvan iletişim sistemlerinden biridir. Rastgele bir hareket değildir: diğer arılar için faydalı bilgiler içerir.",
+    "Dansın düz kısmının yönü, güneşe göre açıyı gösterir. Hareketin süresi de uzaklık hakkında bilgi verir.",
+    "Arılar sadece «yiyecek var» demez. Bir kaynağın ne kadar ilginç olduğunu da bildirebilirler, çünkü zengin bir kaynak daha yoğun ya da daha çok tekrarlanan danslara yol açar.",
+    "Arıları korumak; biyolojik çeşitliliği, meyveleri, tohumları ve tozlayıcılara bağlı birçok ekini de korumak demektir."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Bienen sind soziale Insekten: Sie leben in einer organisierten Gemeinschaft, in der jedes Tier eine Aufgabe hat.",
+    "Manche Bienen suchen Nektar und Pollen, andere schützen den Bienenstock, wieder andere putzen oder kümmern sich um die Larven.",
+    "Der Tanz der Bienen ist erstaunlich. Mit präzisen Bewegungen informiert eine Biene ihre Artgenossinnen über die Richtung und die Entfernung der Blüten.",
+    "Wenn das Futter nah ist, ist der Tanz einfacher. Wenn es weit weg ist, wird der Tanz komplexer und ähnelt einer Acht.",
+    "Bienen sind für die Umwelt unverzichtbar, weil sie vielen Pflanzen bei der Fortpflanzung helfen und einen wichtigen Teil der Landwirtschaft tragen."
+   ],
+   "b1": [
+    "Bienen zeigen eine erstaunliche Form der Organisation. Der Bienenstock funktioniert dank der Zusammenarbeit von Tausenden von Tieren.",
+    "Der Schwänzeltanz ist eines der am besten erforschten Kommunikationssysteme im Tierreich. Er ist keine zufällige Geste: Er enthält nützliche Informationen für die anderen Bienen.",
+    "Die Richtung des geraden Teils des Tanzes zeigt den Winkel zur Sonne an. Die Dauer der Bewegung gibt Auskunft über die Entfernung.",
+    "Bienen sagen nicht nur „hier gibt es Futter“. Sie können auch mitteilen, wie interessant eine Quelle ist, denn eine ergiebige Quelle führt zu intensiveren oder häufiger wiederholten Tänzen.",
+    "Bienen zu schützen heißt auch, die Artenvielfalt, Obst, Samen und viele Kulturen zu schützen, die von Bestäubern abhängen."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "ミツバチは社会性の昆虫だ。組織された共同体の中で暮らし、それぞれに役目がある。",
+    "花の蜜や花粉を探すハチもいれば、巣を守るハチ、掃除をしたり幼虫の世話をしたりするハチもいる。",
+    "ミツバチのダンスは驚くべきものだ。1匹のハチが正確な動きで、仲間に花のある方向と距離を伝える。",
+    "えさが近いとき、ダンスは簡単だ。えさが遠いと、ダンスは複雑になり、8の字のような形になる。",
+    "ミツバチは環境にとって欠かせない。多くの植物が子孫を残すのを助け、農業の大切な部分を支えているからだ。"
+   ],
+   "b1": [
+    "ミツバチは驚くほど組織的だ。巣は何千匹もの協力によって成り立っている。",
+    "尻振りダンスは、動物のコミュニケーションの中でも特によく研究されている仕組みの一つだ。でたらめな動きではない。ほかのハチにとって役立つ情報が含まれている。",
+    "ダンスのまっすぐな部分の向きは、太陽に対する角度を示す。動きの長さは、距離についての情報を伝える。",
+    "ミツバチは「えさがある」と伝えるだけではない。その場所がどれくらい魅力的かも伝えられる。豊かな場所ほど、ダンスが激しくなったり、何度も繰り返されたりするからだ。",
+    "ミツバチを守ることは、生物多様性や果物、種、そして花粉を運ぶ生き物に頼る多くの作物を守ることでもある。"
+   ]
+  }
+ }
+}
