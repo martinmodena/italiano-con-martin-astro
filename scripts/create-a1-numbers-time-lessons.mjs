@@ -10,7 +10,8 @@
 // Il 2026-11-12 «Il verbo piacere» (A2, dopo i pronomi indiretti) e «Il trapassato prossimo» (B1, dopo il condizionale).
 // Il 2026-11-17 «Il condizionale passato» (B2, dopo il congiuntivo presente) e «Il congiuntivo passato e trapassato» (C1).
 // Il 2026-11-18 «Il futuro anteriore» (B1, dopo il trapassato prossimo).
-// Il 2026-11-23 «Il condizionale presente» (B1, rifatta agli stessi URL: prima aveva 10 esercizi).
+// Il 2026-11-23 «Il condizionale presente» (B1, rifatta agli stessi URL: prima aveva 10 esercizi);
+// lo stesso giorno «L'imperativo» (B1, rifatta agli stessi URL: prima aveva 20 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -79,6 +80,8 @@ import futAnt from './data/lezioni-b1/futuro-anteriore.mjs';
 import futAntI18n from './data/lezioni-b1/futuro-anteriore-i18n.mjs';
 import condPres from './data/lezioni-b1/condizionale-presente.mjs';
 import condPresI18n from './data/lezioni-b1/condizionale-presente-i18n.mjs';
+import imperativo from './data/lezioni-b1/imperativo.mjs';
+import imperativoI18n from './data/lezioni-b1/imperativo-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -287,6 +290,7 @@ const lessons = [
   { ...ipotetico, strings: { it: ipotetico.it, ...ipoteticoI18n } },
   { ...futAnt, strings: { it: futAnt.it, ...futAntI18n } },
   { ...condPres, strings: { it: condPres.it, ...condPresI18n } },
+  { ...imperativo, strings: { it: imperativo.it, ...imperativoI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

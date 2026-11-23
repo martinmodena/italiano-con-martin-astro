@@ -1685,4 +1685,15 @@ export const NAV_LABELS = {
     de: 'Ratschläge',
     ja: 'アドバイス',
   },
+  // Imperativo (B1), 2026-11-23.
+  'Con i pronomi': {
+    en: 'With pronouns',
+    es: 'Con los pronombres',
+    fr: 'Avec les pronoms',
+    cs: 'Se zájmeny',
+    pl: 'Z zaimkami',
+    tr: 'Zamirlerle',
+    de: 'Mit Pronomen',
+    ja: '代名詞と',
+  },
 };

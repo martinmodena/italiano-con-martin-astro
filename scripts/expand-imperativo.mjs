@@ -5,6 +5,8 @@
 //
 // Uso: node scripts/expand-imperativo.mjs
 // Idempotente: se la pagina ha già il riquadro #trucco la salta.
+// SUPERATO il 2026-11-23: la lezione ora la costruisce create-a1-numbers-time-lessons.mjs
+// (dati in scripts/data/lezioni-b1/imperativo*.mjs). Non rilanciarlo.
 
 import { readFileSync, writeFileSync } from 'node:fs';
 

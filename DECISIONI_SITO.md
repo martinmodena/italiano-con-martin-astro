@@ -1306,4 +1306,4 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Conteggio**: 19 lezioni hanno da 8 a 20 esercizi, contro i 30 (o 50) delle lezioni fatte col generatore dal 2026-09. Elenco in AGENTS.md, sotto il condizionale presente.
 - **Scelta**: non aggiungere solo esercizi, ma rifare ogni lezione agli stessi URL con `create-a1-numbers-time-lessons.mjs` (come preposizioni semplici e periodo ipotetico): spiegazioni più ricche, confronto ed errori per lingua, 30 esercizi, testata.
 - **Fatto oggi**: «Il condizionale presente» (B1), 10 → 30 esercizi, nelle 10 lingue, PDF e libro di grammatica rifatti.
-
+- **Fatto lo stesso giorno**: «L'imperativo» (B1), 20 → 30 esercizi, con il negativo per tutte le persone, i pronomi doppi e le parole del parlato; la versione portoghese non è più scritta a parte ma tradotta dalla spagnola.
