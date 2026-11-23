@@ -1,0 +1,1415 @@
+{
+ "id": "il-colibri-cuore-velocissimo",
+ "nota": "Glossario e traduzione della lettura (A1 e A2 tradotti): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "l'uccello",
+   "forme": [
+    "uccello"
+   ],
+   "esempi": [
+    "Un uccello canta sull'albero.",
+    "Il pinguino è un uccello che non vola.",
+    "Ho visto un uccello blu."
+   ],
+   "traduzioni": {
+    "en": "bird",
+    "es": "pájaro, ave",
+    "pt": "pássaro, ave",
+    "fr": "oiseau",
+    "cs": "pták",
+    "pl": "ptak",
+    "tr": "kuş",
+    "de": "Vogel",
+    "ja": "鳥"
+   }
+  },
+  {
+   "parola": "pesare",
+   "forme": [
+    "pesa"
+   ],
+   "formeEsempi": [
+    "peso"
+   ],
+   "esempi": [
+    "Quanto pesa la valigia?",
+    "Il gatto pesa quattro chili.",
+    "Peso settanta chili."
+   ],
+   "traduzioni": {
+    "en": "to weigh",
+    "es": "pesar",
+    "pt": "pesar",
+    "fr": "peser",
+    "cs": "vážit",
+    "pl": "ważyć",
+    "tr": "ağırlığında olmak, tartmak",
+    "de": "wiegen",
+    "ja": "重さが…ある"
+   }
+  },
+  {
+   "parola": "il grammo",
+   "forme": [
+    "grammi"
+   ],
+   "formeEsempi": [
+    "grammo"
+   ],
+   "esempi": [
+    "Mi dà duecento grammi di formaggio?",
+    "Una lettera pesa venti grammi.",
+    "Ogni grammo conta."
+   ],
+   "traduzioni": {
+    "en": "gram",
+    "es": "gramo",
+    "pt": "grama",
+    "fr": "gramme",
+    "cs": "gram",
+    "pl": "gram",
+    "tr": "gram",
+    "de": "Gramm",
+    "ja": "グラム"
+   }
+  },
+  {
+   "parola": "la moneta",
+   "forme": [
+    "moneta"
+   ],
+   "esempi": [
+    "Ho una moneta da due euro.",
+    "La moneta è caduta sotto il tavolo.",
+    "Il bambino colleziona monete."
+   ],
+   "traduzioni": {
+    "en": "coin",
+    "es": "moneda",
+    "pt": "moeda",
+    "fr": "pièce de monnaie",
+    "cs": "mince",
+    "pl": "moneta",
+    "tr": "madeni para",
+    "de": "Münze",
+    "ja": "硬貨"
+   },
+   "formeEsempi": [
+    "monete"
+   ]
+  },
+  {
+   "parola": "il centesimo",
+   "forme": [
+    "centesimo"
+   ],
+   "esempi": [
+    "Costa due euro e cinquanta centesimi.",
+    "Non ho un centesimo!",
+    "Il resto è di dieci centesimi."
+   ],
+   "traduzioni": {
+    "en": "cent",
+    "es": "céntimo",
+    "pt": "centavo",
+    "fr": "centime",
+    "cs": "cent",
+    "pl": "cent",
+    "tr": "sent",
+    "de": "Cent",
+    "ja": "セント"
+   },
+   "formeEsempi": [
+    "centesimi"
+   ]
+  },
+  {
+   "parola": "volare",
+   "forme": [
+    "vola",
+    "volando"
+   ],
+   "formeEsempi": [
+    "volano",
+    "volare"
+   ],
+   "esempi": [
+    "L'aereo vola sopra le nuvole.",
+    "Gli uccelli volano verso sud.",
+    "Vorrei volare come un uccello."
+   ],
+   "traduzioni": {
+    "en": "to fly",
+    "es": "volar",
+    "pt": "voar",
+    "fr": "voler",
+    "cs": "létat",
+    "pl": "latać",
+    "tr": "uçmak",
+    "de": "fliegen",
+    "ja": "飛ぶ"
+   }
+  },
+  {
+   "parola": "il fiore",
+   "forme": [
+    "fiori",
+    "fiore"
+   ],
+   "esempi": [
+    "Ti ho portato dei fiori.",
+    "Questo fiore è profumato.",
+    "In primavera ci sono tanti fiori."
+   ],
+   "traduzioni": {
+    "en": "flower",
+    "es": "flor",
+    "pt": "flor",
+    "fr": "fleur",
+    "cs": "květina",
+    "pl": "kwiat",
+    "tr": "çiçek",
+    "de": "Blume",
+    "ja": "花"
+   }
+  },
+  {
+   "parola": "il nettare",
+   "forme": [
+    "nettare"
+   ],
+   "esempi": [
+    "Le api bevono il nettare dei fiori.",
+    "Il nettare è molto dolce.",
+    "Con il nettare le api fanno il miele."
+   ],
+   "traduzioni": {
+    "en": "nectar",
+    "es": "néctar",
+    "pt": "néctar",
+    "fr": "nectar",
+    "cs": "nektar",
+    "pl": "nektar",
+    "tr": "nektar, çiçek özü",
+    "de": "Nektar",
+    "ja": "花のみつ"
+   }
+  },
+  {
+   "parola": "il liquido",
+   "forme": [
+    "liquido"
+   ],
+   "esempi": [
+    "L'acqua è un liquido.",
+    "In aereo non puoi portare liquidi.",
+    "Il liquido è caldo."
+   ],
+   "traduzioni": {
+    "en": "liquid",
+    "es": "líquido",
+    "pt": "líquido",
+    "fr": "liquide",
+    "cs": "tekutina",
+    "pl": "płyn",
+    "tr": "sıvı",
+    "de": "Flüssigkeit",
+    "ja": "液体"
+   },
+   "formeEsempi": [
+    "liquidi"
+   ]
+  },
+  {
+   "parola": "dolce",
+   "forme": [
+    "dolce"
+   ],
+   "esempi": [
+    "Il miele è dolce.",
+    "Che bambino dolce!",
+    "Come dolce prendo il tiramisù."
+   ],
+   "traduzioni": {
+    "en": "sweet (also: dessert)",
+    "es": "dulce (también: postre)",
+    "pt": "doce",
+    "fr": "sucré, doux (aussi : dessert)",
+    "cs": "sladký (i: dezert)",
+    "pl": "słodki (też: deser)",
+    "tr": "tatlı",
+    "de": "süß (auch: Nachtisch)",
+    "ja": "甘い（デザート、の意味も）"
+   }
+  },
+  {
+   "parola": "l'ala (le ali)",
+   "forme": [
+    "ali"
+   ],
+   "formeEsempi": [
+    "ala"
+   ],
+   "esempi": [
+    "La farfalla ha le ali colorate.",
+    "L'uccello apre le ali.",
+    "Un'ala dell'aereo è bianca."
+   ],
+   "traduzioni": {
+    "en": "wing",
+    "es": "ala",
+    "pt": "asa",
+    "fr": "aile",
+    "cs": "křídlo",
+    "pl": "skrzydło",
+    "tr": "kanat",
+    "de": "Flügel",
+    "ja": "翼、羽"
+   }
+  },
+  {
+   "parola": "battere",
+   "forme": [
+    "battono",
+    "batte",
+    "battere"
+   ],
+   "esempi": [
+    "Il mio cuore batte forte.",
+    "La pioggia batte sulla finestra.",
+    "Le ali della farfalla battono piano."
+   ],
+   "traduzioni": {
+    "en": "to beat",
+    "es": "latir, batir",
+    "pt": "bater",
+    "fr": "battre",
+    "cs": "bít, tlouct",
+    "pl": "bić, uderzać",
+    "tr": "atmak (kalp), çırpmak (kanat)",
+    "de": "schlagen",
+    "ja": "打つ、（心臓が）鼓動する"
+   }
+  },
+  {
+   "parola": "la nuvola",
+   "forme": [
+    "nuvola"
+   ],
+   "esempi": [
+    "Il cielo è pieno di nuvole.",
+    "Quella nuvola sembra un cane.",
+    "È arrivata una nuvola nera."
+   ],
+   "traduzioni": {
+    "en": "cloud",
+    "es": "nube",
+    "pt": "nuvem",
+    "fr": "nuage",
+    "cs": "mrak",
+    "pl": "chmura",
+    "tr": "bulut",
+    "de": "Wolke",
+    "ja": "雲"
+   },
+   "formeEsempi": [
+    "nuvole"
+   ]
+  },
+  {
+   "parola": "il cuore",
+   "forme": [
+    "cuore"
+   ],
+   "esempi": [
+    "Il cuore batte più forte quando corro.",
+    "Ti ringrazio di cuore.",
+    "Ha un cuore d'oro."
+   ],
+   "traduzioni": {
+    "en": "heart",
+    "es": "corazón",
+    "pt": "coração",
+    "fr": "cœur",
+    "cs": "srdce",
+    "pl": "serce",
+    "tr": "kalp",
+    "de": "Herz",
+    "ja": "心臓、心"
+   }
+  },
+  {
+   "parola": "la fame",
+   "forme": [
+    "fame"
+   ],
+   "esempi": [
+    "Ho fame, mangiamo?",
+    "Dopo lo sport ho sempre fame.",
+    "Il cane ha fame."
+   ],
+   "traduzioni": {
+    "en": "hunger («avere fame» = to be hungry)",
+    "es": "hambre («tener hambre»)",
+    "pt": "fome («estar com fome»)",
+    "fr": "faim («avoir faim»)",
+    "cs": "hlad («mít hlad»)",
+    "pl": "głód («być głodnym»)",
+    "tr": "açlık («acıkmak»)",
+    "de": "Hunger («Hunger haben»)",
+    "ja": "空腹（avere fame＝おなかがすいている）"
+   }
+  },
+  {
+   "parola": "visitare",
+   "forme": [
+    "visita"
+   ],
+   "formeEsempi": [
+    "visito"
+   ],
+   "esempi": [
+    "Domani visito il museo.",
+    "Il medico visita un paziente.",
+    "Ogni estate visita la nonna."
+   ],
+   "traduzioni": {
+    "en": "to visit",
+    "es": "visitar",
+    "pt": "visitar",
+    "fr": "visiter, rendre visite",
+    "cs": "navštívit",
+    "pl": "odwiedzać",
+    "tr": "ziyaret etmek",
+    "de": "besuchen",
+    "ja": "訪れる"
+   }
+  },
+  {
+   "parola": "le centinaia",
+   "forme": [
+    "centinaia"
+   ],
+   "esempi": [
+    "Centinaia di persone aspettano il treno.",
+    "Ho centinaia di foto sul telefono.",
+    "Ci sono centinaia di libri."
+   ],
+   "traduzioni": {
+    "en": "hundreds",
+    "es": "cientos, centenares",
+    "pt": "centenas",
+    "fr": "centaines",
+    "cs": "stovky",
+    "pl": "setki",
+    "tr": "yüzlerce",
+    "de": "Hunderte",
+    "ja": "何百もの"
+   }
+  },
+  {
+   "parola": "il buio",
+   "forme": [
+    "buio"
+   ],
+   "esempi": [
+    "D'inverno alle cinque è già buio.",
+    "Il bambino ha paura del buio.",
+    "Accendi la luce, è buio!"
+   ],
+   "traduzioni": {
+    "en": "dark, darkness («è buio» = it's dark)",
+    "es": "oscuridad («está oscuro»)",
+    "pt": "escuro («está escuro»)",
+    "fr": "obscurité («il fait noir»)",
+    "cs": "tma («je tma»)",
+    "pl": "ciemność («jest ciemno»)",
+    "tr": "karanlık",
+    "de": "Dunkelheit («es ist dunkel»)",
+    "ja": "暗やみ（è buio＝暗い）"
+   }
+  },
+  {
+   "parola": "spegnersi",
+   "forme": [
+    "spegne",
+    "spegnendo"
+   ],
+   "formeEsempi": [
+    "spegni"
+   ],
+   "esempi": [
+    "Spegni la luce, per favore.",
+    "Il telefono si spegne da solo.",
+    "Il fuoco si sta spegnendo."
+   ],
+   "traduzioni": {
+    "en": "to switch off, to go out (light, fire)",
+    "es": "apagarse",
+    "pt": "desligar-se, apagar-se",
+    "fr": "s'éteindre",
+    "cs": "vypnout se, zhasnout",
+    "pl": "wyłączyć się, zgasnąć",
+    "tr": "kapanmak, sönmek",
+    "de": "sich ausschalten, erlöschen",
+    "ja": "消える、電源が切れる"
+   }
+  },
+  {
+   "parola": "spento",
+   "forme": [
+    "spento"
+   ],
+   "formeEsempi": [
+    "spenta"
+   ],
+   "esempi": [
+    "Il computer è spento.",
+    "La luce è spenta.",
+    "Oggi mi sento un po' spento."
+   ],
+   "traduzioni": {
+    "en": "switched off, out",
+    "es": "apagado",
+    "pt": "desligado, apagado",
+    "fr": "éteint",
+    "cs": "vypnutý, zhasnutý",
+    "pl": "wyłączony, zgaszony",
+    "tr": "kapalı, sönük",
+    "de": "ausgeschaltet",
+    "ja": "消えた、電源の切れた"
+   }
+  },
+  {
+   "parola": "il grado",
+   "forme": [
+    "gradi",
+    "grado"
+   ],
+   "esempi": [
+    "Oggi ci sono trenta gradi.",
+    "L'acqua bolle a cento gradi.",
+    "Ho trentotto gradi di febbre."
+   ],
+   "traduzioni": {
+    "en": "degree",
+    "es": "grado",
+    "pt": "grau",
+    "fr": "degré",
+    "cs": "stupeň",
+    "pl": "stopień",
+    "tr": "derece",
+    "de": "Grad",
+    "ja": "度（温度）"
+   }
+  },
+  {
+   "parola": "morto",
+   "forme": [
+    "morto"
+   ],
+   "esempi": [
+    "Il pesce è morto.",
+    "Sono stanco morto!",
+    "La pianta sembra morta."
+   ],
+   "traduzioni": {
+    "en": "dead",
+    "es": "muerto",
+    "pt": "morto",
+    "fr": "mort",
+    "cs": "mrtvý",
+    "pl": "martwy",
+    "tr": "ölü",
+    "de": "tot",
+    "ja": "死んだ"
+   },
+   "formeEsempi": [
+    "morta"
+   ]
+  },
+  {
+   "parola": "vivo",
+   "forme": [
+    "vivo"
+   ],
+   "esempi": [
+    "Il pesce è ancora vivo!",
+    "Mi piace la musica dal vivo.",
+    "È un ricordo molto vivo."
+   ],
+   "traduzioni": {
+    "en": "alive, living",
+    "es": "vivo",
+    "pt": "vivo",
+    "fr": "vivant",
+    "cs": "živý",
+    "pl": "żywy",
+    "tr": "canlı",
+    "de": "lebendig",
+    "ja": "生きている"
+   }
+  },
+  {
+   "parola": "il battito",
+   "forme": [
+    "battiti"
+   ],
+   "formeEsempi": [
+    "battito"
+   ],
+   "esempi": [
+    "Il medico ascolta il battito del cuore.",
+    "Ho il battito veloce.",
+    "Settanta battiti al minuto sono normali."
+   ],
+   "traduzioni": {
+    "en": "beat, heartbeat",
+    "es": "latido",
+    "pt": "batimento",
+    "fr": "battement",
+    "cs": "tep",
+    "pl": "uderzenie serca, tętno",
+    "tr": "kalp atışı",
+    "de": "Herzschlag",
+    "ja": "鼓動、心拍"
+   }
+  },
+  {
+   "parola": "tramontare",
+   "forme": [
+    "tramontando"
+   ],
+   "formeEsempi": [
+    "tramonta"
+   ],
+   "esempi": [
+    "Il sole tramonta dietro il mare.",
+    "D'estate il sole tramonta tardi.",
+    "Guarda, il sole sta tramontando!"
+   ],
+   "traduzioni": {
+    "en": "to set (the sun)",
+    "es": "ponerse (el sol)",
+    "pt": "pôr-se (o sol)",
+    "fr": "se coucher (le soleil)",
+    "cs": "zapadat (slunce)",
+    "pl": "zachodzić (słońce)",
+    "tr": "batmak (güneş)",
+    "de": "untergehen (Sonne)",
+    "ja": "（日が）沈む"
+   }
+  },
+  {
+   "parola": "l'altezza",
+   "forme": [
+    "altezza"
+   ],
+   "esempi": [
+    "Il paese è a mille metri di altezza.",
+    "Qual è la tua altezza?",
+    "Ho paura dell'altezza."
+   ],
+   "traduzioni": {
+    "en": "height, altitude",
+    "es": "altura",
+    "pt": "altura, altitude",
+    "fr": "hauteur, altitude",
+    "cs": "výška",
+    "pl": "wysokość",
+    "tr": "yükseklik, rakım",
+    "de": "Höhe",
+    "ja": "高さ、標高"
+   }
+  },
+  {
+   "parola": "freddo",
+   "forme": [
+    "fredda",
+    "freddo"
+   ],
+   "esempi": [
+    "Oggi fa freddo.",
+    "L'acqua del mare è fredda.",
+    "Ho freddo alle mani."
+   ],
+   "traduzioni": {
+    "en": "cold",
+    "es": "frío",
+    "pt": "frio",
+    "fr": "froid",
+    "cs": "studený; zima",
+    "pl": "zimny; zimno",
+    "tr": "soğuk",
+    "de": "kalt; Kälte",
+    "ja": "寒い、冷たい"
+   }
+  },
+  {
+   "parola": "la goccia",
+   "forme": [
+    "gocce"
+   ],
+   "formeEsempi": [
+    "goccia"
+   ],
+   "esempi": [
+    "Cadono le prime gocce di pioggia.",
+    "Metti due gocce di limone.",
+    "Una goccia d'acqua sul vetro."
+   ],
+   "traduzioni": {
+    "en": "drop",
+    "es": "gota",
+    "pt": "gota",
+    "fr": "goutte",
+    "cs": "kapka",
+    "pl": "kropla",
+    "tr": "damla",
+    "de": "Tropfen",
+    "ja": "しずく、一滴"
+   }
+  },
+  {
+   "parola": "la fretta",
+   "forme": [
+    "fretta"
+   ],
+   "esempi": [
+    "Scusa, ho fretta!",
+    "Non c'è fretta.",
+    "Ha mangiato in fretta."
+   ],
+   "traduzioni": {
+    "en": "hurry, rush («avere fretta» = to be in a hurry)",
+    "es": "prisa («tener prisa»)",
+    "pt": "pressa («estar com pressa»)",
+    "fr": "hâte («être pressé»)",
+    "cs": "spěch («spěchat»)",
+    "pl": "pośpiech («spieszyć się»)",
+    "tr": "acele",
+    "de": "Eile («es eilig haben»)",
+    "ja": "急ぎ（avere fretta＝急いでいる）"
+   }
+  },
+  {
+   "parola": "consumare",
+   "forme": [
+    "consuma"
+   ],
+   "formeEsempi": [
+    "consumo",
+    "consumiamo"
+   ],
+   "esempi": [
+    "Questa macchina consuma poco.",
+    "Correre consuma molta energia.",
+    "In casa consumiamo troppa acqua."
+   ],
+   "traduzioni": {
+    "en": "to consume, to use up",
+    "es": "consumir, gastar",
+    "pt": "consumir, gastar",
+    "fr": "consommer",
+    "cs": "spotřebovat",
+    "pl": "zużywać",
+    "tr": "tüketmek",
+    "de": "verbrauchen",
+    "ja": "消費する"
+   }
+  },
+  {
+   "parola": "la decina",
+   "forme": [
+    "decine"
+   ],
+   "formeEsempi": [
+    "decina"
+   ],
+   "esempi": [
+    "Ci sono decine di negozi in centro.",
+    "Arrivo tra una decina di minuti.",
+    "Ho letto decine di libri."
+   ],
+   "traduzioni": {
+    "en": "about ten («decine» = dozens, tens)",
+    "es": "decena",
+    "pt": "dezena",
+    "fr": "dizaine",
+    "cs": "desítka",
+    "pl": "dziesiątka («dziesiątki»)",
+    "tr": "onlarca",
+    "de": "etwa zehn («Dutzende»)",
+    "ja": "十ほど（decine＝何十も）"
+   }
+  },
+  {
+   "parola": "il ritmo",
+   "forme": [
+    "ritmo"
+   ],
+   "esempi": [
+    "Balla a ritmo di musica.",
+    "Il ritmo di lavoro è alto.",
+    "Cammina con un ritmo tranquillo."
+   ],
+   "traduzioni": {
+    "en": "rhythm, pace",
+    "es": "ritmo",
+    "pt": "ritmo",
+    "fr": "rythme",
+    "cs": "rytmus, tempo",
+    "pl": "rytm, tempo",
+    "tr": "ritim, tempo",
+    "de": "Rhythmus, Tempo",
+    "ja": "リズム、ペース"
+   }
+  },
+  {
+   "parola": "rischiare",
+   "forme": [
+    "rischia"
+   ],
+   "formeEsempi": [
+    "rischio",
+    "rischi",
+    "rischiare"
+   ],
+   "esempi": [
+    "Se non corri, rischi di perdere il treno.",
+    "Non voglio rischiare.",
+    "Chi non rischia non vince."
+   ],
+   "traduzioni": {
+    "en": "to risk",
+    "es": "arriesgar, correr el riesgo",
+    "pt": "arriscar, correr o risco",
+    "fr": "risquer",
+    "cs": "riskovat",
+    "pl": "ryzykować",
+    "tr": "riske girmek",
+    "de": "riskieren",
+    "ja": "危険をおかす、…のおそれがある"
+   }
+  },
+  {
+   "parola": "l'alba",
+   "forme": [
+    "alba"
+   ],
+   "esempi": [
+    "Ci alziamo all'alba.",
+    "L'alba sul mare è bellissima.",
+    "Siamo tornati a casa all'alba."
+   ],
+   "traduzioni": {
+    "en": "dawn",
+    "es": "amanecer, alba",
+    "pt": "amanhecer, alvorada",
+    "fr": "aube",
+    "cs": "úsvit",
+    "pl": "świt",
+    "tr": "şafak",
+    "de": "Morgendämmerung",
+    "ja": "夜明け"
+   }
+  },
+  {
+   "parola": "il ramo",
+   "forme": [
+    "ramo"
+   ],
+   "esempi": [
+    "L'uccello è sul ramo.",
+    "Il vento ha rotto un ramo.",
+    "Il gatto sale sul ramo più alto."
+   ],
+   "traduzioni": {
+    "en": "branch",
+    "es": "rama",
+    "pt": "galho, ramo",
+    "fr": "branche",
+    "cs": "větev",
+    "pl": "gałąź",
+    "tr": "dal",
+    "de": "Ast, Zweig",
+    "ja": "枝"
+   }
+  },
+  {
+   "parola": "la temperatura",
+   "forme": [
+    "temperatura"
+   ],
+   "esempi": [
+    "La temperatura scende di notte.",
+    "Misuro la temperatura al bambino.",
+    "Che temperatura c'è fuori?"
+   ],
+   "traduzioni": {
+    "en": "temperature",
+    "es": "temperatura",
+    "pt": "temperatura",
+    "fr": "température",
+    "cs": "teplota",
+    "pl": "temperatura",
+    "tr": "sıcaklık",
+    "de": "Temperatur",
+    "ja": "温度、体温"
+   }
+  },
+  {
+   "parola": "scendere",
+   "forme": [
+    "scendendo",
+    "sceso"
+   ],
+   "formeEsempi": [
+    "scende"
+   ],
+   "esempi": [
+    "La temperatura scende di sera.",
+    "Sono sceso dal treno.",
+    "I prezzi stanno scendendo."
+   ],
+   "traduzioni": {
+    "en": "to go down, to drop",
+    "es": "bajar",
+    "pt": "descer, baixar",
+    "fr": "descendre, baisser",
+    "cs": "klesat, sestoupit",
+    "pl": "spadać, schodzić",
+    "tr": "düşmek, inmek",
+    "de": "sinken, hinuntergehen",
+    "ja": "下がる、降りる"
+   }
+  },
+  {
+   "parola": "rallentare",
+   "forme": [
+    "rallentando"
+   ],
+   "formeEsempi": [
+    "rallenta"
+   ],
+   "esempi": [
+    "La macchina sta rallentando.",
+    "Rallenta, per favore!",
+    "Il cuore rallenta quando dormiamo."
+   ],
+   "traduzioni": {
+    "en": "to slow down",
+    "es": "ir más despacio, frenar",
+    "pt": "desacelerar",
+    "fr": "ralentir",
+    "cs": "zpomalit",
+    "pl": "zwalniać",
+    "tr": "yavaşlamak",
+    "de": "langsamer werden",
+    "ja": "遅くなる"
+   }
+  },
+  {
+   "parola": "misurare",
+   "forme": [
+    "misurato",
+    "misurata"
+   ],
+   "formeEsempi": [
+    "misuro"
+   ],
+   "esempi": [
+    "Il medico ha misurato la pressione.",
+    "Misuro la stanza.",
+    "È la temperatura più bassa mai misurata."
+   ],
+   "traduzioni": {
+    "en": "to measure",
+    "es": "medir",
+    "pt": "medir",
+    "fr": "mesurer",
+    "cs": "měřit",
+    "pl": "mierzyć",
+    "tr": "ölçmek",
+    "de": "messen",
+    "ja": "測る"
+   }
+  },
+  {
+   "parola": "il campione",
+   "forme": [
+    "campione"
+   ],
+   "esempi": [
+    "È il campione del mondo di tennis.",
+    "Il campione della gara è un ragazzo di sedici anni.",
+    "Il laboratorio analizza un campione di sangue."
+   ],
+   "traduzioni": {
+    "en": "champion (also: sample)",
+    "es": "campeón (también: muestra)",
+    "pt": "campeão (também: amostra)",
+    "fr": "champion (aussi : échantillon)",
+    "cs": "šampion (i: vzorek)",
+    "pl": "mistrz (też: próbka)",
+    "tr": "şampiyon (ayrıca: numune)",
+    "de": "Champion, Sieger (auch: Probe)",
+    "ja": "チャンピオン（サンプル、の意味も）"
+   }
+  },
+  {
+   "parola": "il torpore",
+   "forme": [
+    "torpore"
+   ],
+   "esempi": [
+    "Dopo pranzo sento un po' di torpore.",
+    "Alcuni animali entrano in torpore d'inverno.",
+    "Il torpore fa risparmiare energia."
+   ],
+   "traduzioni": {
+    "en": "torpor, drowsiness",
+    "es": "letargo, sopor",
+    "pt": "torpor",
+    "fr": "torpeur",
+    "cs": "strnulost, útlum",
+    "pl": "odrętwienie",
+    "tr": "uyuşukluk, torpor",
+    "de": "Starre, Benommenheit",
+    "ja": "休眠状態、けだるさ"
+   }
+  },
+  {
+   "parola": "il risparmio",
+   "forme": [
+    "risparmio"
+   ],
+   "esempi": [
+    "Metto i soldi in un conto di risparmio.",
+    "Il telefono è in risparmio energetico.",
+    "Questo è un bel risparmio!"
+   ],
+   "traduzioni": {
+    "en": "saving(s)",
+    "es": "ahorro",
+    "pt": "economia, poupança",
+    "fr": "économie, épargne",
+    "cs": "úspora",
+    "pl": "oszczędność",
+    "tr": "tasarruf",
+    "de": "Ersparnis, Sparen",
+    "ja": "節約、貯金"
+   }
+  },
+  {
+   "parola": "lo stato",
+   "forme": [
+    "stato"
+   ],
+   "contesto": "questo",
+   "esempi": [
+    "Il telefono è in uno stato di risparmio.",
+    "La casa è in buono stato.",
+    "Lo stato dell'acqua può essere liquido o solido."
+   ],
+   "traduzioni": {
+    "en": "state, condition",
+    "es": "estado",
+    "pt": "estado",
+    "fr": "état",
+    "cs": "stav",
+    "pl": "stan",
+    "tr": "durum, hâl",
+    "de": "Zustand",
+    "ja": "状態"
+   }
+  },
+  {
+   "parola": "scaldarsi",
+   "forme": [
+    "scaldandosi"
+   ],
+   "formeEsempi": [
+    "scalda",
+    "scaldo",
+    "scaldiamo"
+   ],
+   "esempi": [
+    "Mi scaldo le mani vicino al fuoco.",
+    "Prima della corsa ci scaldiamo.",
+    "Il gatto si scalda al sole."
+   ],
+   "traduzioni": {
+    "en": "to warm up",
+    "es": "calentarse",
+    "pt": "aquecer-se",
+    "fr": "se réchauffer",
+    "cs": "zahřát se",
+    "pl": "rozgrzać się",
+    "tr": "ısınmak",
+    "de": "sich aufwärmen",
+    "ja": "温まる"
+   }
+  },
+  {
+   "parola": "tremare",
+   "forme": [
+    "tremare"
+   ],
+   "formeEsempi": [
+    "tremo"
+   ],
+   "esempi": [
+    "Tremo dal freddo.",
+    "La terra ha cominciato a tremare.",
+    "Le mani mi fanno tremare."
+   ],
+   "traduzioni": {
+    "en": "to shiver, to shake («far tremare» = to make shake)",
+    "es": "temblar",
+    "pt": "tremer",
+    "fr": "trembler",
+    "cs": "třást se",
+    "pl": "drżeć",
+    "tr": "titremek",
+    "de": "zittern",
+    "ja": "震える"
+   }
+  },
+  {
+   "parola": "il muscolo",
+   "forme": [
+    "muscoli"
+   ],
+   "formeEsempi": [
+    "muscolo"
+   ],
+   "esempi": [
+    "Dopo la palestra mi fanno male i muscoli.",
+    "Il cuore è un muscolo.",
+    "Ha muscoli forti."
+   ],
+   "traduzioni": {
+    "en": "muscle",
+    "es": "músculo",
+    "pt": "músculo",
+    "fr": "muscle",
+    "cs": "sval",
+    "pl": "mięsień",
+    "tr": "kas",
+    "de": "Muskel",
+    "ja": "筋肉"
+   }
+  },
+  {
+   "parola": "accelerare",
+   "forme": [
+    "accelerando"
+   ],
+   "formeEsempi": [
+    "accelera",
+    "accelerare"
+   ],
+   "esempi": [
+    "La macchina accelera in autostrada.",
+    "Il mio cuore sta accelerando.",
+    "Dobbiamo accelerare il lavoro."
+   ],
+   "traduzioni": {
+    "en": "to speed up, to accelerate",
+    "es": "acelerar",
+    "pt": "acelerar",
+    "fr": "accélérer",
+    "cs": "zrychlit",
+    "pl": "przyspieszyć",
+    "tr": "hızlanmak",
+    "de": "beschleunigen",
+    "ja": "速くなる、加速する"
+   }
+  },
+  {
+   "parola": "il cielo",
+   "forme": [
+    "cielo"
+   ],
+   "esempi": [
+    "Oggi il cielo è azzurro.",
+    "Di notte guardo le stelle in cielo.",
+    "Il cielo è pieno di nuvole."
+   ],
+   "traduzioni": {
+    "en": "sky",
+    "es": "cielo",
+    "pt": "céu",
+    "fr": "ciel",
+    "cs": "nebe, obloha",
+    "pl": "niebo",
+    "tr": "gökyüzü",
+    "de": "Himmel",
+    "ja": "空"
+   }
+  },
+  {
+   "parola": "chiaro",
+   "forme": [
+    "chiaro"
+   ],
+   "esempi": [
+    "La stanza è chiara e luminosa.",
+    "È tutto chiaro?",
+    "Ho gli occhi chiari."
+   ],
+   "traduzioni": {
+    "en": "light, bright; clear",
+    "es": "claro",
+    "pt": "claro",
+    "fr": "clair",
+    "cs": "světlý, jasný",
+    "pl": "jasny",
+    "tr": "aydınlık, açık",
+    "de": "hell; klar",
+    "ja": "明るい、はっきりした"
+   },
+   "formeEsempi": [
+    "chiara",
+    "chiari"
+   ]
+  },
+  {
+   "parola": "il raggio",
+   "forme": [
+    "raggio"
+   ],
+   "esempi": [
+    "Entra un raggio di sole dalla finestra.",
+    "Il raggio del cerchio è dieci centimetri.",
+    "Non c'è un negozio nel raggio di un chilometro."
+   ],
+   "traduzioni": {
+    "en": "ray, beam (also: radius)",
+    "es": "rayo (también: radio)",
+    "pt": "raio",
+    "fr": "rayon",
+    "cs": "paprsek (i: poloměr)",
+    "pl": "promień",
+    "tr": "ışın (ayrıca: yarıçap)",
+    "de": "Strahl (auch: Radius)",
+    "ja": "光線（半径、の意味も）"
+   }
+  },
+  {
+   "parola": "il frigorifero",
+   "forme": [
+    "frigorifero"
+   ],
+   "esempi": [
+    "Il latte è nel frigorifero.",
+    "Il frigorifero è vuoto!",
+    "Chiudi il frigorifero."
+   ],
+   "traduzioni": {
+    "en": "fridge, refrigerator",
+    "es": "nevera, frigorífico",
+    "pt": "geladeira",
+    "fr": "réfrigérateur, frigo",
+    "cs": "lednice",
+    "pl": "lodówka",
+    "tr": "buzdolabı",
+    "de": "Kühlschrank",
+    "ja": "冷蔵庫"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "This is a hummingbird. It is a very small bird and it lives in America.",
+    "The smallest hummingbird in the world lives in Cuba. It is five or six centimetres long and weighs about two grams: less than a one-cent coin!",
+    "The hummingbird flies in front of flowers and drinks nectar, a sweet liquid. When it flies, its wings beat fifty, sixty, sometimes eighty times in a second. We can't see the wings: we only see a little cloud.",
+    "And its heart? Our heart beats sixty, seventy times a minute. The hummingbird's heart beats one thousand two hundred times a minute!",
+    "That's why the hummingbird is always hungry. Every day it visits hundreds of flowers.",
+    "But at night there's a problem: it's dark and the hummingbird doesn't eat for ten, twelve hours. What does it do?",
+    "It does something special: it «switches off». During the day its body is at forty degrees. At night, in the mountains, a hummingbird of the Andes gets down to three degrees! Its heart beats only forty times a minute. The hummingbird doesn't move. It looks dead, but it's alive.",
+    "In the morning the sun comes out. In less than an hour its body goes back to forty degrees, its heart goes back to a thousand beats, and the hummingbird flies again towards a flower. Good morning!"
+   ],
+   "a2": [
+    "It's six in the evening in the Andes of Peru, more than three thousand metres high. The sun is setting and the air is getting cold. A black hummingbird, as small as a finger, is still flying from one flower to another: it is drinking the last drops of nectar of the day.",
+    "Why is it in such a hurry? Because the hummingbird uses energy at an incredible rate. Its heart can beat more than a thousand times a minute and its wings move dozens of times a second. If it doesn't eat all night at this pace, it risks starving to death before dawn.",
+    "Now it's dark. The hummingbird has stopped on a branch and is doing something extraordinary: it is switching off. The temperature of its body is dropping, degree after degree. Its heart is slowing down: a hundred beats a minute, sixty, forty.",
+    "In 2020 a group of researchers led by the American biologist Blair Wolf measured the temperature of 26 hummingbirds of six species during the night. The champion was precisely a black hummingbird of the Andes: its body went down from about 40 degrees to 3.26 degrees. It's the lowest temperature ever measured in a bird.",
+    "What is happening inside it? It's called torpor. The hummingbird isn't sleeping like we do: it is almost switched off, like a phone in energy-saving mode. In this state it can use up to 95 per cent less energy. If a researcher takes it in their hand, the hummingbird doesn't move: it looks dead.",
+    "At five in the morning, when the sky is getting light, the hummingbird is already warming up: it makes its muscles shiver, and its heart is speeding up.",
+    "When the first ray of sunshine arrives, the hummingbird is already flying towards the first flower. It spent the night in the cold of a fridge. And now it is very hungry."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Este es un colibrí. Es un pájaro muy pequeño y vive en América.",
+    "El colibrí más pequeño del mundo vive en Cuba. Mide cinco o seis centímetros y pesa unos dos gramos: ¡menos que una moneda de un céntimo!",
+    "El colibrí vuela delante de las flores y bebe el néctar, un líquido dulce. Cuando vuela, sus alas baten cincuenta, sesenta, a veces ochenta veces en un segundo. Nosotros no vemos las alas: solo vemos una pequeña nube.",
+    "¿Y el corazón? Nuestro corazón late sesenta, setenta veces por minuto. ¡El corazón del colibrí late mil doscientas veces por minuto!",
+    "Por eso el colibrí siempre tiene hambre. Cada día visita cientos de flores.",
+    "Pero por la noche hay un problema: está oscuro y el colibrí no come durante diez, doce horas. ¿Qué hace?",
+    "Hace algo especial: se «apaga». De día su cuerpo está a cuarenta grados. De noche, en la montaña, ¡un colibrí de los Andes llega a tres grados! El corazón late solo cuarenta veces por minuto. El colibrí no se mueve. Parece muerto, pero está vivo.",
+    "Por la mañana sale el sol. En menos de una hora el cuerpo vuelve a cuarenta grados, el corazón vuelve a mil latidos, y el colibrí vuela otra vez hacia una flor. ¡Buenos días!"
+   ],
+   "a2": [
+    "Son las seis de la tarde en los Andes de Perú, a más de tres mil metros de altura. El sol se está poniendo y el aire se está volviendo frío. Un colibrí negro, pequeño como un dedo, todavía está volando de una flor a otra: está bebiendo las últimas gotas de néctar del día.",
+    "¿Por qué tiene tanta prisa? Porque el colibrí consume energía de una forma increíble. Su corazón puede latir más de mil veces por minuto y las alas se mueven decenas de veces por segundo. Si no come en toda la noche con este ritmo, corre el riesgo de morir de hambre antes del amanecer.",
+    "Ahora está oscuro. El colibrí se ha parado en una rama y está haciendo algo extraordinario: se está apagando. La temperatura de su cuerpo está bajando, grado a grado. El corazón está frenando: cien latidos por minuto, sesenta, cuarenta.",
+    "En 2020 un grupo de investigadores dirigido por el biólogo estadounidense Blair Wolf midió la temperatura de 26 colibríes de seis especies durante la noche. El campeón fue justamente un colibrí negro de los Andes: su cuerpo bajó de unos 40 grados a 3,26 grados. Es la temperatura más baja jamás medida en un ave.",
+    "¿Qué está pasando dentro de él? Se llama torpor. El colibrí no está durmiendo como nosotros: está casi apagado, como un teléfono en modo de ahorro de energía. En este estado puede gastar hasta un 95 por ciento menos de energía. Si un investigador lo toma en la mano, el colibrí no se mueve: parece muerto.",
+    "A las cinco de la mañana, cuando el cielo se está aclarando, el colibrí ya se está calentando: hace temblar los músculos, y el corazón está acelerando.",
+    "Cuando llega el primer rayo de sol, el colibrí ya está volando hacia la primera flor. Ha pasado la noche con el frío de una nevera. Y ahora tiene muchísima hambre."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Este é um beija-flor. É um pássaro muito pequeno e vive na América.",
+    "O menor beija-flor do mundo vive em Cuba. Tem cinco ou seis centímetros e pesa cerca de dois gramas: menos que uma moeda de um centavo!",
+    "O beija-flor voa diante das flores e bebe o néctar, um líquido doce. Quando voa, suas asas batem cinquenta, sessenta, às vezes oitenta vezes por segundo. Nós não vemos as asas: vemos só uma nuvenzinha.",
+    "E o coração? O nosso coração bate sessenta, setenta vezes por minuto. O coração do beija-flor bate mil e duzentas vezes por minuto!",
+    "Por isso o beija-flor está sempre com fome. Todo dia ele visita centenas de flores.",
+    "Mas à noite há um problema: está escuro e o beija-flor não come por dez, doze horas. O que ele faz?",
+    "Faz uma coisa especial: ele «se desliga». De dia o seu corpo está a quarenta graus. À noite, na montanha, um beija-flor dos Andes chega a três graus! O coração bate só quarenta vezes por minuto. O beija-flor não se mexe. Parece morto, mas está vivo.",
+    "De manhã chega o sol. Em menos de uma hora o corpo volta a quarenta graus, o coração volta a mil batimentos, e o beija-flor voa de novo para uma flor. Bom dia!"
+   ],
+   "a2": [
+    "São seis da tarde nos Andes do Peru, a mais de três mil metros de altitude. O sol está se pondo e o ar está ficando frio. Um beija-flor preto, pequeno como um dedo, ainda está voando de uma flor para outra: está bebendo as últimas gotas de néctar do dia.",
+    "Por que tanta pressa? Porque o beija-flor consome energia de um jeito incrível. O coração dele pode bater mais de mil vezes por minuto e as asas se movem dezenas de vezes por segundo. Se ele não comer a noite toda nesse ritmo, corre o risco de morrer de fome antes do amanhecer.",
+    "Agora está escuro. O beija-flor parou num galho e está fazendo uma coisa extraordinária: está se desligando. A temperatura do corpo dele está baixando, grau após grau. O coração está desacelerando: cem batimentos por minuto, sessenta, quarenta.",
+    "Em 2020 um grupo de pesquisadores liderado pelo biólogo americano Blair Wolf mediu a temperatura de 26 beija-flores de seis espécies durante a noite. O campeão foi justamente um beija-flor preto dos Andes: o corpo dele desceu de cerca de 40 graus para 3,26 graus. É a temperatura mais baixa já medida numa ave.",
+    "O que está acontecendo dentro dele? Chama-se torpor. O beija-flor não está dormindo como nós: está quase desligado, como um celular no modo de economia de energia. Nesse estado ele pode gastar até 95% menos energia. Se um pesquisador o pega na mão, o beija-flor não se mexe: parece morto.",
+    "Às cinco da manhã, quando o céu está clareando, o beija-flor já está se aquecendo: faz os músculos tremerem, e o coração está acelerando.",
+    "Quando chega o primeiro raio de sol, o beija-flor já está voando para a primeira flor. Passou a noite no frio de uma geladeira. E agora está com uma fome enorme."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Voici un colibri. C'est un oiseau très petit et il vit en Amérique.",
+    "Le plus petit colibri du monde vit à Cuba. Il mesure cinq ou six centimètres et pèse environ deux grammes : moins qu'une pièce d'un centime !",
+    "Le colibri vole devant les fleurs et boit le nectar, un liquide sucré. Quand il vole, ses ailes battent cinquante, soixante, parfois quatre-vingts fois par seconde. Nous ne voyons pas les ailes : nous voyons seulement un petit nuage.",
+    "Et le cœur ? Notre cœur bat soixante, soixante-dix fois par minute. Le cœur du colibri bat mille deux cents fois par minute !",
+    "C'est pour ça que le colibri a toujours faim. Chaque jour, il visite des centaines de fleurs.",
+    "Mais la nuit, il y a un problème : il fait noir et le colibri ne mange pas pendant dix, douze heures. Que fait-il ?",
+    "Il fait une chose spéciale : il « s'éteint ». Le jour, son corps est à quarante degrés. La nuit, en montagne, un colibri des Andes descend jusqu'à trois degrés ! Le cœur bat seulement quarante fois par minute. Le colibri ne bouge pas. Il a l'air mort, mais il est vivant.",
+    "Le matin, le soleil arrive. En moins d'une heure, le corps revient à quarante degrés, le cœur revient à mille battements, et le colibri vole de nouveau vers une fleur. Bonjour !"
+   ],
+   "a2": [
+    "Il est six heures du soir dans les Andes du Pérou, à plus de trois mille mètres d'altitude. Le soleil est en train de se coucher et l'air devient froid. Un colibri noir, petit comme un doigt, est encore en train de voler d'une fleur à l'autre : il boit les dernières gouttes de nectar de la journée.",
+    "Pourquoi est-il si pressé ? Parce que le colibri consomme de l'énergie de façon incroyable. Son cœur peut battre plus de mille fois par minute et ses ailes bougent des dizaines de fois par seconde. S'il ne mange pas de toute la nuit à ce rythme, il risque de mourir de faim avant l'aube.",
+    "Maintenant, il fait noir. Le colibri s'est arrêté sur une branche et il est en train de faire une chose extraordinaire : il s'éteint. La température de son corps descend, degré après degré. Le cœur ralentit : cent battements par minute, soixante, quarante.",
+    "En 2020, un groupe de chercheurs dirigé par le biologiste américain Blair Wolf a mesuré la température de 26 colibris de six espèces pendant la nuit. Le champion était justement un colibri noir des Andes : son corps est descendu d'environ 40 degrés à 3,26 degrés. C'est la température la plus basse jamais mesurée chez un oiseau.",
+    "Que se passe-t-il à l'intérieur de lui ? Cela s'appelle la torpeur. Le colibri ne dort pas comme nous : il est presque éteint, comme un téléphone en mode économie d'énergie. Dans cet état, il peut utiliser jusqu'à 95 % d'énergie en moins. Si un chercheur le prend dans sa main, le colibri ne bouge pas : il a l'air mort.",
+    "À cinq heures du matin, quand le ciel s'éclaircit, le colibri est déjà en train de se réchauffer : il fait trembler ses muscles, et son cœur accélère.",
+    "Quand arrive le premier rayon de soleil, le colibri est déjà en train de voler vers la première fleur. Il a passé la nuit dans le froid d'un réfrigérateur. Et maintenant, il a une faim de loup."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Tohle je kolibřík. Je to velmi malý pták a žije v Americe.",
+    "Nejmenší kolibřík na světě žije na Kubě. Je dlouhý pět nebo šest centimetrů a váží asi dva gramy: méně než mince za jeden cent!",
+    "Kolibřík létá před květinami a pije nektar, sladkou tekutinu. Když letí, jeho křídla mávnou padesátkrát, šedesátkrát, někdy osmdesátkrát za sekundu. My křídla nevidíme: vidíme jen malý obláček.",
+    "A srdce? Naše srdce bije šedesátkrát, sedmdesátkrát za minutu. Srdce kolibříka bije tisíc dvěstěkrát za minutu!",
+    "Proto má kolibřík pořád hlad. Každý den navštíví stovky květin.",
+    "Ale v noci je problém: je tma a kolibřík deset, dvanáct hodin nejí. Co udělá?",
+    "Udělá něco zvláštního: „vypne se“. Ve dne má jeho tělo čtyřicet stupňů. V noci v horách klesne kolibřík z And až na tři stupně! Srdce bije jen čtyřicetkrát za minutu. Kolibřík se nehýbe. Vypadá jako mrtvý, ale je živý.",
+    "Ráno vyjde slunce. Za necelou hodinu má tělo zase čtyřicet stupňů, srdce zase tisíc tepů a kolibřík znovu letí ke květině. Dobré ráno!"
+   ],
+   "a2": [
+    "Je šest hodin večer v peruánských Andách, ve výšce přes tři tisíce metrů. Slunce zapadá a vzduch se ochlazuje. Černý kolibřík, malý jako prst, pořád ještě létá od jedné květiny k druhé: pije poslední kapky nektaru toho dne.",
+    "Proč tolik spěchá? Protože kolibřík spotřebovává energii neuvěřitelným způsobem. Jeho srdce může bít víc než tisíckrát za minutu a křídla se pohybují desítkykrát za sekundu. Kdyby celou noc nejedl a měl tohle tempo, hrozilo by mu, že umře hlady před úsvitem.",
+    "Teď je tma. Kolibřík se zastavil na větvi a dělá něco mimořádného: vypíná se. Teplota jeho těla klesá stupeň po stupni. Srdce zpomaluje: sto tepů za minutu, šedesát, čtyřicet.",
+    "V roce 2020 změřila skupina výzkumníků vedená americkým biologem Blairem Wolfem v noci teplotu 26 kolibříků šesti druhů. Šampionem byl právě černý kolibřík z And: jeho tělo kleslo z asi 40 stupňů na 3,26 stupně. Je to nejnižší teplota, jaká kdy byla u ptáka naměřena.",
+    "Co se v něm děje? Říká se tomu strnulost (torpor). Kolibřík nespí jako my: je skoro vypnutý, jako telefon v úsporném režimu. V tomhle stavu může spotřebovat až o 95 procent méně energie. Když ho výzkumník vezme do ruky, kolibřík se nehýbe: vypadá jako mrtvý.",
+    "V pět hodin ráno, když se obloha rozjasňuje, se kolibřík už zahřívá: rozechvěje svaly a srdce zrychluje.",
+    "Když přijde první sluneční paprsek, kolibřík už letí k první květině. Strávil noc v zimě jako v lednici. A teď má obrovský hlad."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "To jest koliber. To bardzo mały ptak i żyje w Ameryce.",
+    "Najmniejszy koliber na świecie żyje na Kubie. Ma pięć albo sześć centymetrów długości i waży około dwóch gramów: mniej niż moneta jednocentowa!",
+    "Koliber lata przed kwiatami i pije nektar, słodki płyn. Kiedy leci, jego skrzydła uderzają pięćdziesiąt, sześćdziesiąt, czasem osiemdziesiąt razy na sekundę. My nie widzimy skrzydeł: widzimy tylko małą chmurkę.",
+    "A serce? Nasze serce bije sześćdziesiąt, siedemdziesiąt razy na minutę. Serce kolibra bije tysiąc dwieście razy na minutę!",
+    "Dlatego koliber jest zawsze głodny. Każdego dnia odwiedza setki kwiatów.",
+    "Ale w nocy jest problem: jest ciemno i koliber nie je przez dziesięć, dwanaście godzin. Co robi?",
+    "Robi coś wyjątkowego: „wyłącza się”. W dzień jego ciało ma czterdzieści stopni. W nocy, w górach, koliber z Andów schodzi do trzech stopni! Serce bije tylko czterdzieści razy na minutę. Koliber się nie rusza. Wygląda na martwego, ale żyje.",
+    "Rano wychodzi słońce. W niecałą godzinę ciało wraca do czterdziestu stopni, serce wraca do tysiąca uderzeń, a koliber znowu leci do kwiatu. Dzień dobry!"
+   ],
+   "a2": [
+    "Jest szósta wieczorem w peruwiańskich Andach, ponad trzy tysiące metrów nad ziemią. Słońce zachodzi i powietrze robi się zimne. Czarny koliber, mały jak palec, wciąż lata od jednego kwiatu do drugiego: pije ostatnie krople nektaru tego dnia.",
+    "Dlaczego tak się spieszy? Bo koliber zużywa energię w niesamowitym tempie. Jego serce może bić ponad tysiąc razy na minutę, a skrzydła poruszają się dziesiątki razy na sekundę. Jeśli przez całą noc nic nie zje przy tym rytmie, ryzykuje, że umrze z głodu przed świtem.",
+    "Teraz jest ciemno. Koliber zatrzymał się na gałęzi i robi coś niezwykłego: wyłącza się. Temperatura jego ciała spada, stopień po stopniu. Serce zwalnia: sto uderzeń na minutę, sześćdziesiąt, czterdzieści.",
+    "W 2020 roku grupa badaczy pod kierunkiem amerykańskiego biologa Blaira Wolfa zmierzyła w nocy temperaturę 26 kolibrów z sześciu gatunków. Mistrzem był właśnie czarny koliber z Andów: jego ciało ochłodziło się z około 40 stopni do 3,26 stopnia. To najniższa temperatura, jaką kiedykolwiek zmierzono u ptaka.",
+    "Co się w nim dzieje? To się nazywa odrętwienie (torpor). Koliber nie śpi tak jak my: jest prawie wyłączony, jak telefon w trybie oszczędzania energii. W tym stanie może zużywać nawet o 95 procent mniej energii. Jeśli badacz weźmie go do ręki, koliber się nie rusza: wygląda na martwego.",
+    "O piątej rano, kiedy niebo się rozjaśnia, koliber już się rozgrzewa: wprawia mięśnie w drżenie, a serce przyspiesza.",
+    "Kiedy przychodzi pierwszy promień słońca, koliber już leci do pierwszego kwiatu. Spędził noc w zimnie jak w lodówce. A teraz jest strasznie głodny."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Bu bir sinekkuşu. Çok küçük bir kuştur ve Amerika'da yaşar.",
+    "Dünyanın en küçük sinekkuşu Küba'da yaşar. Beş altı santimetre uzunluğundadır ve yaklaşık iki gram ağırlığındadır: bir sentlik bozuk paradan bile hafif!",
+    "Sinekkuşu çiçeklerin önünde uçar ve tatlı bir sıvı olan nektarı içer. Uçarken kanatları saniyede elli, altmış, bazen seksen kez çırpar. Biz kanatları göremeyiz: sadece küçük bir bulut görürüz.",
+    "Peki ya kalbi? Bizim kalbimiz dakikada altmış, yetmiş kez atar. Sinekkuşunun kalbi dakikada bin iki yüz kez atar!",
+    "Bu yüzden sinekkuşu hep açtır. Her gün yüzlerce çiçeği ziyaret eder.",
+    "Ama gece bir sorun var: hava karanlıktır ve sinekkuşu on, on iki saat boyunca yemek yemez. Ne yapar?",
+    "Özel bir şey yapar: «kapanır». Gündüz vücudu kırk derecedir. Gece dağlarda, And Dağları'ndaki bir sinekkuşunun vücudu üç dereceye kadar iner! Kalbi dakikada sadece kırk kez atar. Sinekkuşu kıpırdamaz. Ölü gibi görünür ama canlıdır.",
+    "Sabah güneş doğar. Bir saatten kısa sürede vücut yeniden kırk dereceye çıkar, kalp yeniden dakikada bin kez atmaya başlar ve sinekkuşu yine bir çiçeğe doğru uçar. Günaydın!"
+   ],
+   "a2": [
+    "Peru'daki And Dağları'nda akşam saat altı, üç bin metreden fazla yükseklikte. Güneş batıyor ve hava soğuyor. Bir parmak kadar küçük siyah bir sinekkuşu hâlâ bir çiçekten ötekine uçuyor: günün son nektar damlalarını içiyor.",
+    "Neden bu kadar acelesi var? Çünkü sinekkuşu inanılmaz bir hızla enerji tüketir. Kalbi dakikada binden fazla atabilir ve kanatları saniyede onlarca kez hareket eder. Bu tempoyla bütün gece yemek yemezse, şafaktan önce açlıktan ölme riskiyle karşı karşıya kalır.",
+    "Şimdi hava karanlık. Sinekkuşu bir dalın üstünde durdu ve olağanüstü bir şey yapıyor: kapanıyor. Vücut sıcaklığı derece derece düşüyor. Kalbi yavaşlıyor: dakikada yüz atış, altmış, kırk.",
+    "2020'de Amerikalı biyolog Blair Wolf'un yönettiği bir araştırma grubu, gece boyunca altı türden 26 sinekkuşunun vücut sıcaklığını ölçtü. Şampiyon tam da And Dağları'ndan bir siyah sinekkuşuydu: vücudu yaklaşık 40 dereceden 3,26 dereceye düştü. Bu, bir kuşta şimdiye kadar ölçülen en düşük sıcaklık.",
+    "İçinde neler oluyor? Buna torpor denir. Sinekkuşu bizim gibi uyumuyor: tasarruf modundaki bir telefon gibi neredeyse kapalı. Bu durumda yüzde 95'e kadar daha az enerji kullanabilir. Bir araştırmacı onu eline alırsa sinekkuşu kıpırdamaz: ölü gibi görünür.",
+    "Sabah saat beşte, gökyüzü aydınlanırken sinekkuşu çoktan ısınmaya başlamıştır: kaslarını titretir ve kalbi hızlanır.",
+    "Güneşin ilk ışını geldiğinde sinekkuşu çoktan ilk çiçeğe doğru uçuyordur. Geceyi bir buzdolabının soğuğunda geçirdi. Ve şimdi çok aç."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Das ist ein Kolibri. Er ist ein sehr kleiner Vogel und lebt in Amerika.",
+    "Der kleinste Kolibri der Welt lebt auf Kuba. Er ist fünf oder sechs Zentimeter lang und wiegt etwa zwei Gramm: weniger als eine Ein-Cent-Münze!",
+    "Der Kolibri fliegt vor den Blüten und trinkt Nektar, eine süße Flüssigkeit. Wenn er fliegt, schlagen seine Flügel fünfzig-, sechzig-, manchmal achtzigmal in einer Sekunde. Wir sehen die Flügel nicht: Wir sehen nur eine kleine Wolke.",
+    "Und das Herz? Unser Herz schlägt sechzig-, siebzigmal in der Minute. Das Herz des Kolibris schlägt zwölfhundertmal in der Minute!",
+    "Deshalb hat der Kolibri immer Hunger. Jeden Tag besucht er Hunderte von Blüten.",
+    "Aber nachts gibt es ein Problem: Es ist dunkel, und der Kolibri isst zehn, zwölf Stunden lang nichts. Was macht er?",
+    "Er macht etwas Besonderes: Er „schaltet sich aus“. Am Tag hat sein Körper vierzig Grad. Nachts, in den Bergen, kommt ein Kolibri aus den Anden auf drei Grad herunter! Das Herz schlägt nur vierzigmal in der Minute. Der Kolibri bewegt sich nicht. Er sieht tot aus, aber er lebt.",
+    "Am Morgen kommt die Sonne. In weniger als einer Stunde hat der Körper wieder vierzig Grad, das Herz schlägt wieder tausendmal, und der Kolibri fliegt wieder zu einer Blüte. Guten Morgen!"
+   ],
+   "a2": [
+    "Es ist sechs Uhr abends in den Anden von Peru, auf mehr als dreitausend Metern Höhe. Die Sonne geht gerade unter, und die Luft wird kalt. Ein schwarzer Kolibri, klein wie ein Finger, fliegt immer noch von einer Blüte zur anderen: Er trinkt die letzten Tropfen Nektar des Tages.",
+    "Warum hat er es so eilig? Weil der Kolibri unglaublich viel Energie verbraucht. Sein Herz kann mehr als tausendmal in der Minute schlagen, und die Flügel bewegen sich Dutzende Male in der Sekunde. Wenn er bei diesem Tempo die ganze Nacht nichts frisst, riskiert er, vor dem Morgengrauen zu verhungern.",
+    "Jetzt ist es dunkel. Der Kolibri hat sich auf einen Ast gesetzt und tut etwas Außergewöhnliches: Er schaltet sich gerade aus. Seine Körpertemperatur sinkt Grad um Grad. Das Herz wird langsamer: hundert Schläge pro Minute, sechzig, vierzig.",
+    "2020 hat eine Forschergruppe unter der Leitung des amerikanischen Biologen Blair Wolf nachts die Temperatur von 26 Kolibris aus sechs Arten gemessen. Der Rekordhalter war genau ein schwarzer Kolibri aus den Anden: Sein Körper sank von etwa 40 auf 3,26 Grad. Das ist die niedrigste Temperatur, die je bei einem Vogel gemessen wurde.",
+    "Was passiert gerade in ihm? Man nennt es Torpor, eine Kältestarre. Der Kolibri schläft nicht wie wir: Er ist fast ausgeschaltet, wie ein Handy im Energiesparmodus. In diesem Zustand kann er bis zu 95 Prozent weniger Energie verbrauchen. Wenn ein Forscher ihn in die Hand nimmt, bewegt sich der Kolibri nicht: Er sieht tot aus.",
+    "Um fünf Uhr morgens, wenn der Himmel hell wird, wärmt sich der Kolibri schon auf: Er lässt seine Muskeln zittern, und das Herz schlägt schneller.",
+    "Wenn der erste Sonnenstrahl kommt, fliegt der Kolibri schon zur ersten Blüte. Er hat die Nacht in der Kälte eines Kühlschranks verbracht. Und jetzt hat er großen Hunger."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "これはハチドリです。とても小さな鳥で、アメリカ大陸に住んでいます。",
+    "世界でいちばん小さいハチドリはキューバに住んでいます。長さは5〜6センチで、重さは約2グラムです。1セント玉より軽いのです！",
+    "ハチドリは花の前で飛びながら、甘い液体の花のみつを飲みます。飛ぶとき、羽は1秒に50回、60回、ときには80回も動きます。わたしたちには羽が見えません。小さな雲のようなものが見えるだけです。",
+    "心臓はどうでしょう？わたしたちの心臓は1分に60回、70回打ちます。ハチドリの心臓は1分に1200回も打つのです！",
+    "だからハチドリはいつもおなかをすかせています。毎日、何百もの花をたずねます。",
+    "でも夜には問題があります。暗くて、ハチドリは10時間、12時間も何も食べられません。どうするのでしょう？",
+    "特別なことをします。「スイッチを切る」のです。昼、体の温度は40度です。夜、山の上で、アンデスのハチドリは3度まで下がります！心臓は1分に40回しか打ちません。ハチドリは動きません。死んでいるように見えますが、生きています。",
+    "朝になると、太陽が出ます。1時間もしないうちに体は40度にもどり、心臓は1000回の鼓動にもどって、ハチドリはまた花に向かって飛んでいきます。おはよう！"
+   ],
+   "a2": [
+    "ペルーのアンデス山脈、標高3000メートル以上の場所で、夕方の6時です。太陽が沈みかけていて、空気が冷たくなってきています。指ほどの大きさの黒いハチドリが、まだ花から花へと飛んでいます。その日最後の花のみつのしずくを飲んでいるのです。",
+    "なぜそんなに急いでいるのでしょう？ハチドリはものすごい勢いでエネルギーを使うからです。心臓は1分に1000回以上打つことができ、羽は1秒に何十回も動きます。このペースで一晩じゅう何も食べなければ、夜明け前に飢え死にしてしまうおそれがあります。",
+    "もう暗くなりました。ハチドリは枝の上に止まって、すごいことをしています。スイッチを切っているのです。体の温度が1度、また1度と下がっています。心臓はゆっくりになっています。1分に100回、60回、40回。",
+    "2020年、アメリカの生物学者ブレア・ウルフが率いる研究者のグループが、夜のあいだに6種26羽のハチドリの体温を測りました。チャンピオンはまさにアンデスの黒いハチドリでした。体温が約40度から3.26度まで下がったのです。これは鳥で測られた中で、いちばん低い体温です。",
+    "体の中では何が起きているのでしょう？これは「休眠状態（トーパー）」と呼ばれます。ハチドリはわたしたちのように眠っているのではありません。省エネモードの電話のように、ほとんど電源が切れているのです。この状態では、エネルギーを最大95パーセントも少なくできます。研究者が手に取っても、ハチドリは動きません。死んでいるように見えます。",
+    "朝の5時、空が明るくなってくるころ、ハチドリはもう体を温め始めています。筋肉を震わせ、心臓は速くなっていきます。",
+    "最初の太陽の光が届くとき、ハチドリはもう最初の花に向かって飛んでいます。冷蔵庫のような寒さの中で夜を過ごしました。そして今、とてもおなかがすいているのです。"
+   ]
+  }
+ }
+}
