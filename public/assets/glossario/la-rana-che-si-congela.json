@@ -1,0 +1,1538 @@
+{
+ "id": "la-rana-che-si-congela",
+ "nota": "Glossario e traduzione della lettura (A1 e B1 tradotti): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "il bosco",
+   "forme": [
+    "bosco",
+    "boschi"
+   ],
+   "esempi": [
+    "Facciamo una passeggiata nel bosco.",
+    "Nel bosco ci sono funghi.",
+    "I boschi dell'Alaska sono enormi."
+   ],
+   "traduzioni": {
+    "en": "wood(s), forest",
+    "es": "bosque",
+    "pt": "bosque, mata",
+    "fr": "bois, forêt",
+    "cs": "les",
+    "pl": "las",
+    "tr": "orman",
+    "de": "Wald",
+    "ja": "森"
+   }
+  },
+  {
+   "parola": "la neve",
+   "forme": [
+    "neve"
+   ],
+   "esempi": [
+    "In montagna c'è la neve.",
+    "I bambini giocano con la neve.",
+    "La neve è bianca e fredda."
+   ],
+   "traduzioni": {
+    "en": "snow",
+    "es": "nieve",
+    "pt": "neve",
+    "fr": "neige",
+    "cs": "sníh",
+    "pl": "śnieg",
+    "tr": "kar",
+    "de": "Schnee",
+    "ja": "雪"
+   }
+  },
+  {
+   "parola": "la rana",
+   "forme": [
+    "rana",
+    "rane"
+   ],
+   "esempi": [
+    "La rana salta nello stagno.",
+    "Di notte le rane cantano.",
+    "La rana è verde."
+   ],
+   "traduzioni": {
+    "en": "frog",
+    "es": "rana",
+    "pt": "rã, sapo",
+    "fr": "grenouille",
+    "cs": "žába",
+    "pl": "żaba",
+    "tr": "kurbağa",
+    "de": "Frosch",
+    "ja": "カエル"
+   }
+  },
+  {
+   "parola": "la foglia",
+   "forme": [
+    "foglie"
+   ],
+   "formeEsempi": [
+    "foglia"
+   ],
+   "esempi": [
+    "In autunno cadono le foglie.",
+    "La foglia è gialla.",
+    "Sotto le foglie c'è un insetto."
+   ],
+   "traduzioni": {
+    "en": "leaf",
+    "es": "hoja",
+    "pt": "folha",
+    "fr": "feuille",
+    "cs": "list",
+    "pl": "liść",
+    "tr": "yaprak",
+    "de": "Blatt",
+    "ja": "葉"
+   }
+  },
+  {
+   "parola": "fermo",
+   "forme": [
+    "ferma",
+    "fermo"
+   ],
+   "esempi": [
+    "Stai fermo un attimo!",
+    "L'orologio è fermo.",
+    "La macchina è ferma al semaforo."
+   ],
+   "traduzioni": {
+    "en": "still, stopped",
+    "es": "quieto, parado",
+    "pt": "parado, quieto",
+    "fr": "immobile, arrêté",
+    "cs": "nehybný, zastavený",
+    "pl": "nieruchomy",
+    "tr": "hareketsiz, durmuş",
+    "de": "still, stehend",
+    "ja": "止まった、じっとした"
+   }
+  },
+  {
+   "parola": "duro",
+   "forme": [
+    "dura"
+   ],
+   "formeEsempi": [
+    "duro"
+   ],
+   "esempi": [
+    "Il letto è troppo duro.",
+    "Questa pera è ancora dura.",
+    "È stata una settimana dura."
+   ],
+   "traduzioni": {
+    "en": "hard, stiff",
+    "es": "duro",
+    "pt": "duro",
+    "fr": "dur",
+    "cs": "tvrdý",
+    "pl": "twardy",
+    "tr": "sert",
+    "de": "hart",
+    "ja": "かたい"
+   }
+  },
+  {
+   "parola": "il sasso",
+   "forme": [
+    "sasso"
+   ],
+   "esempi": [
+    "Ho un sasso nella scarpa.",
+    "Freddo come un sasso.",
+    "Il bambino tira un sasso."
+   ],
+   "traduzioni": {
+    "en": "stone",
+    "es": "piedra",
+    "pt": "pedra",
+    "fr": "caillou, pierre",
+    "cs": "kámen",
+    "pl": "kamień",
+    "tr": "taş",
+    "de": "Stein",
+    "ja": "石"
+   }
+  },
+  {
+   "parola": "morto",
+   "forme": [
+    "morta"
+   ],
+   "formeEsempi": [
+    "morto"
+   ],
+   "esempi": [
+    "La pianta è morta.",
+    "Il pesce è morto.",
+    "Sono stanco morto."
+   ],
+   "traduzioni": {
+    "en": "dead",
+    "es": "muerto",
+    "pt": "morto",
+    "fr": "mort",
+    "cs": "mrtvý",
+    "pl": "martwy",
+    "tr": "ölü",
+    "de": "tot",
+    "ja": "死んだ"
+   }
+  },
+  {
+   "parola": "vivo",
+   "forme": [
+    "viva"
+   ],
+   "formeEsempi": [
+    "vivo"
+   ],
+   "esempi": [
+    "La pianta è ancora viva.",
+    "Il pesce è vivo!",
+    "Mi piace la musica dal vivo."
+   ],
+   "traduzioni": {
+    "en": "alive",
+    "es": "vivo",
+    "pt": "vivo",
+    "fr": "vivant",
+    "cs": "živý",
+    "pl": "żywy",
+    "tr": "canlı",
+    "de": "lebendig",
+    "ja": "生きている"
+   }
+  },
+  {
+   "parola": "il ghiaccio",
+   "forme": [
+    "ghiaccio"
+   ],
+   "esempi": [
+    "Vuoi il ghiaccio nella bibita?",
+    "Il lago è coperto di ghiaccio.",
+    "Attenzione, c'è ghiaccio sulla strada!"
+   ],
+   "traduzioni": {
+    "en": "ice",
+    "es": "hielo",
+    "pt": "gelo",
+    "fr": "glace",
+    "cs": "led",
+    "pl": "lód",
+    "tr": "buz",
+    "de": "Eis",
+    "ja": "氷"
+   }
+  },
+  {
+   "parola": "respirare",
+   "forme": [
+    "respira"
+   ],
+   "formeEsempi": [
+    "respiro"
+   ],
+   "esempi": [
+    "Respira piano.",
+    "Il bambino respira bene.",
+    "Quando corro respiro forte."
+   ],
+   "traduzioni": {
+    "en": "to breathe",
+    "es": "respirar",
+    "pt": "respirar",
+    "fr": "respirer",
+    "cs": "dýchat",
+    "pl": "oddychać",
+    "tr": "nefes almak",
+    "de": "atmen",
+    "ja": "呼吸する"
+   }
+  },
+  {
+   "parola": "il segreto",
+   "forme": [
+    "segreto"
+   ],
+   "esempi": [
+    "Ti dico un segreto.",
+    "Qual è il segreto di questa torta?",
+    "Non è un segreto."
+   ],
+   "traduzioni": {
+    "en": "secret",
+    "es": "secreto",
+    "pt": "segredo",
+    "fr": "secret",
+    "cs": "tajemství",
+    "pl": "sekret, tajemnica",
+    "tr": "sır",
+    "de": "Geheimnis",
+    "ja": "秘密"
+   }
+  },
+  {
+   "parola": "lo zucchero",
+   "forme": [
+    "zucchero"
+   ],
+   "esempi": [
+    "Prendi il caffè con lo zucchero?",
+    "Lo zucchero è dolce.",
+    "Metti poco zucchero."
+   ],
+   "traduzioni": {
+    "en": "sugar",
+    "es": "azúcar",
+    "pt": "açúcar",
+    "fr": "sucre",
+    "cs": "cukr",
+    "pl": "cukier",
+    "tr": "şeker",
+    "de": "Zucker",
+    "ja": "砂糖、糖"
+   }
+  },
+  {
+   "parola": "la cellula",
+   "forme": [
+    "cellule"
+   ],
+   "formeEsempi": [
+    "cellula"
+   ],
+   "esempi": [
+    "Il corpo è fatto di cellule.",
+    "Ogni cellula ha un nucleo.",
+    "Le cellule hanno bisogno di ossigeno."
+   ],
+   "traduzioni": {
+    "en": "cell",
+    "es": "célula",
+    "pt": "célula",
+    "fr": "cellule",
+    "cs": "buňka",
+    "pl": "komórka",
+    "tr": "hücre",
+    "de": "Zelle",
+    "ja": "細胞"
+   }
+  },
+  {
+   "parola": "proteggere",
+   "forme": [
+    "protegge"
+   ],
+   "formeEsempi": [
+    "proteggere"
+   ],
+   "esempi": [
+    "La crema protegge la pelle.",
+    "Il casco protegge la testa.",
+    "Dobbiamo proteggere gli animali."
+   ],
+   "traduzioni": {
+    "en": "to protect",
+    "es": "proteger",
+    "pt": "proteger",
+    "fr": "protéger",
+    "cs": "chránit",
+    "pl": "chronić",
+    "tr": "korumak",
+    "de": "schützen",
+    "ja": "守る"
+   }
+  },
+  {
+   "parola": "l'antigelo",
+   "forme": [
+    "antigelo"
+   ],
+   "esempi": [
+    "D'inverno metto l'antigelo nella macchina.",
+    "L'antigelo protegge il motore.",
+    "Hai comprato l'antigelo?"
+   ],
+   "traduzioni": {
+    "en": "antifreeze",
+    "es": "anticongelante",
+    "pt": "anticongelante",
+    "fr": "antigel",
+    "cs": "nemrznoucí směs",
+    "pl": "płyn niezamarzający",
+    "tr": "antifriz",
+    "de": "Frostschutzmittel",
+    "ja": "不凍液"
+   }
+  },
+  {
+   "parola": "lo zero",
+   "forme": [
+    "zero"
+   ],
+   "esempi": [
+    "Fuori ci sono cinque gradi sotto zero.",
+    "L'acqua gela a zero gradi.",
+    "Ho preso zero all'esame!"
+   ],
+   "traduzioni": {
+    "en": "zero («sotto zero» = below zero)",
+    "es": "cero («bajo cero»)",
+    "pt": "zero («abaixo de zero»)",
+    "fr": "zéro («au-dessous de zéro»)",
+    "cs": "nula («pod nulou»)",
+    "pl": "zero («poniżej zera»)",
+    "tr": "sıfır («sıfırın altında»)",
+    "de": "null («unter null»)",
+    "ja": "ゼロ（sotto zero＝氷点下）"
+   }
+  },
+  {
+   "parola": "la primavera",
+   "forme": [
+    "primavera"
+   ],
+   "esempi": [
+    "In primavera fioriscono gli alberi.",
+    "La primavera arriva a marzo.",
+    "Che bella giornata di primavera!"
+   ],
+   "traduzioni": {
+    "en": "spring",
+    "es": "primavera",
+    "pt": "primavera",
+    "fr": "printemps",
+    "cs": "jaro",
+    "pl": "wiosna",
+    "tr": "ilkbahar",
+    "de": "Frühling",
+    "ja": "春"
+   }
+  },
+  {
+   "parola": "ripartire",
+   "forme": [
+    "riparte"
+   ],
+   "formeEsempi": [
+    "ripartiamo"
+   ],
+   "esempi": [
+    "Il treno riparte tra cinque minuti.",
+    "Dopo la pausa ripartiamo.",
+    "Il motore non riparte."
+   ],
+   "traduzioni": {
+    "en": "to start again, to leave again",
+    "es": "volver a arrancar, volver a partir",
+    "pt": "voltar a funcionar, partir de novo",
+    "fr": "repartir, redémarrer",
+    "cs": "znovu se rozjet, znovu naskočit",
+    "pl": "ruszyć ponownie",
+    "tr": "yeniden çalışmak, yeniden yola çıkmak",
+    "de": "wieder anspringen, weiterfahren",
+    "ja": "再び動き出す"
+   }
+  },
+  {
+   "parola": "pronto",
+   "forme": [
+    "pronta"
+   ],
+   "formeEsempi": [
+    "pronto"
+   ],
+   "esempi": [
+    "La cena è pronta!",
+    "Sei pronto? Andiamo.",
+    "Pronto? Chi parla?"
+   ],
+   "traduzioni": {
+    "en": "ready (on the phone: hello?)",
+    "es": "listo",
+    "pt": "pronto",
+    "fr": "prêt",
+    "cs": "připravený",
+    "pl": "gotowy",
+    "tr": "hazır",
+    "de": "fertig, bereit",
+    "ja": "準備のできた"
+   }
+  },
+  {
+   "parola": "cantare",
+   "forme": [
+    "cantare"
+   ],
+   "formeEsempi": [
+    "canta"
+   ],
+   "esempi": [
+    "Mi piace cantare sotto la doccia.",
+    "L'uccello canta la mattina.",
+    "Canta una canzone!"
+   ],
+   "traduzioni": {
+    "en": "to sing",
+    "es": "cantar",
+    "pt": "cantar",
+    "fr": "chanter",
+    "cs": "zpívat",
+    "pl": "śpiewać",
+    "tr": "şarkı söylemek, ötmek",
+    "de": "singen",
+    "ja": "歌う、鳴く"
+   }
+  },
+  {
+   "parola": "il mucchio",
+   "forme": [
+    "mucchio"
+   ],
+   "esempi": [
+    "C'è un mucchio di vestiti sulla sedia.",
+    "Ho un mucchio di cose da fare.",
+    "Il gatto dorme su un mucchio di foglie."
+   ],
+   "traduzioni": {
+    "en": "pile, heap",
+    "es": "montón",
+    "pt": "monte, pilha",
+    "fr": "tas",
+    "cs": "hromada",
+    "pl": "sterta, kupa",
+    "tr": "yığın",
+    "de": "Haufen",
+    "ja": "山、たくさん"
+   }
+  },
+  {
+   "parola": "il riparo",
+   "forme": [
+    "riparo"
+   ],
+   "esempi": [
+    "Cerchiamo un riparo dalla pioggia.",
+    "Il bosco offre riparo agli animali.",
+    "Siamo al riparo sotto il ponte."
+   ],
+   "traduzioni": {
+    "en": "shelter",
+    "es": "refugio, resguardo",
+    "pt": "abrigo",
+    "fr": "abri",
+    "cs": "úkryt",
+    "pl": "schronienie",
+    "tr": "sığınak, korunak",
+    "de": "Unterschlupf",
+    "ja": "避難場所、雨宿りの場所"
+   }
+  },
+  {
+   "parola": "umano",
+   "forme": [
+    "umano",
+    "umani"
+   ],
+   "esempi": [
+    "Il corpo umano è fatto per lo più di acqua.",
+    "Gli esseri umani hanno bisogno di dormire.",
+    "È un errore umano."
+   ],
+   "traduzioni": {
+    "en": "human («essere umano» = human being)",
+    "es": "humano",
+    "pt": "humano",
+    "fr": "humain",
+    "cs": "lidský («lidská bytost»)",
+    "pl": "ludzki («człowiek»)",
+    "tr": "insan(i)",
+    "de": "menschlich («Mensch»)",
+    "ja": "人間の"
+   }
+  },
+  {
+   "parola": "scavare",
+   "forme": [
+    "scava"
+   ],
+   "formeEsempi": [
+    "scavano"
+   ],
+   "esempi": [
+    "Il cane scava una buca in giardino.",
+    "I bambini scavano nella sabbia.",
+    "La talpa scava gallerie."
+   ],
+   "traduzioni": {
+    "en": "to dig",
+    "es": "cavar, excavar",
+    "pt": "cavar",
+    "fr": "creuser",
+    "cs": "kopat, hrabat",
+    "pl": "kopać",
+    "tr": "kazmak",
+    "de": "graben",
+    "ja": "掘る"
+   }
+  },
+  {
+   "parola": "la tana",
+   "forme": [
+    "tane"
+   ],
+   "formeEsempi": [
+    "tana"
+   ],
+   "esempi": [
+    "La volpe torna nella sua tana.",
+    "Il coniglio scava la tana.",
+    "Le tane sono sotto terra."
+   ],
+   "traduzioni": {
+    "en": "den, burrow",
+    "es": "madriguera",
+    "pt": "toca",
+    "fr": "terrier, tanière",
+    "cs": "nora, doupě",
+    "pl": "nora",
+    "tr": "in, yuva",
+    "de": "Bau, Höhle",
+    "ja": "巣穴"
+   }
+  },
+  {
+   "parola": "profondo",
+   "forme": [
+    "profonde"
+   ],
+   "formeEsempi": [
+    "profondo"
+   ],
+   "esempi": [
+    "Il lago è molto profondo.",
+    "Fai un respiro profondo.",
+    "Le radici sono profonde."
+   ],
+   "traduzioni": {
+    "en": "deep",
+    "es": "profundo",
+    "pt": "profundo, fundo",
+    "fr": "profond",
+    "cs": "hluboký",
+    "pl": "głęboki",
+    "tr": "derin",
+    "de": "tief",
+    "ja": "深い"
+   }
+  },
+  {
+   "parola": "nascondersi",
+   "forme": [
+    "nasconde"
+   ],
+   "formeEsempi": [
+    "nascondo",
+    "nascondi"
+   ],
+   "esempi": [
+    "Il gatto si nasconde sotto il letto.",
+    "Mi nascondo dietro la porta.",
+    "Dove ti nascondi?"
+   ],
+   "traduzioni": {
+    "en": "to hide",
+    "es": "esconderse",
+    "pt": "esconder-se",
+    "fr": "se cacher",
+    "cs": "schovat se",
+    "pl": "chować się",
+    "tr": "saklanmak",
+    "de": "sich verstecken",
+    "ja": "隠れる"
+   }
+  },
+  {
+   "parola": "congelarsi",
+   "forme": [
+    "congela",
+    "congelate",
+    "congelare"
+   ],
+   "formeEsempi": [
+    "congelato",
+    "congelarlo"
+   ],
+   "esempi": [
+    "D'inverno il lago si congela.",
+    "Metto il pane nel freezer per congelarlo.",
+    "Ho le mani congelate!"
+   ],
+   "traduzioni": {
+    "en": "to freeze",
+    "es": "congelarse",
+    "pt": "congelar",
+    "fr": "geler, congeler",
+    "cs": "zmrznout",
+    "pl": "zamarznąć",
+    "tr": "donmak",
+    "de": "einfrieren, gefrieren",
+    "ja": "凍る"
+   }
+  },
+  {
+   "parola": "la pelle",
+   "forme": [
+    "pelle"
+   ],
+   "esempi": [
+    "Ho la pelle chiara.",
+    "La crema fa bene alla pelle.",
+    "La rana respira anche con la pelle."
+   ],
+   "traduzioni": {
+    "en": "skin",
+    "es": "piel",
+    "pt": "pele",
+    "fr": "peau",
+    "cs": "kůže",
+    "pl": "skóra",
+    "tr": "deri",
+    "de": "Haut",
+    "ja": "皮膚"
+   }
+  },
+  {
+   "parola": "il fegato",
+   "forme": [
+    "fegato"
+   ],
+   "esempi": [
+    "L'alcol fa male al fegato.",
+    "Il fegato pulisce il sangue.",
+    "Ho un problema al fegato."
+   ],
+   "traduzioni": {
+    "en": "liver",
+    "es": "hígado",
+    "pt": "fígado",
+    "fr": "foie",
+    "cs": "játra",
+    "pl": "wątroba",
+    "tr": "karaciğer",
+    "de": "Leber",
+    "ja": "肝臓"
+   }
+  },
+  {
+   "parola": "la riserva",
+   "forme": [
+    "riserve"
+   ],
+   "formeEsempi": [
+    "riserva"
+   ],
+   "esempi": [
+    "Abbiamo riserve d'acqua per tre giorni.",
+    "Il corpo ha riserve di energia.",
+    "Ho una batteria di riserva."
+   ],
+   "traduzioni": {
+    "en": "reserve, store",
+    "es": "reserva",
+    "pt": "reserva",
+    "fr": "réserve",
+    "cs": "zásoba",
+    "pl": "zapas",
+    "tr": "yedek, rezerv",
+    "de": "Vorrat, Reserve",
+    "ja": "蓄え"
+   }
+  },
+  {
+   "parola": "smettere",
+   "forme": [
+    "smette"
+   ],
+   "formeEsempi": [
+    "smetto",
+    "smettila"
+   ],
+   "esempi": [
+    "Smetto di fumare.",
+    "La pioggia non smette.",
+    "Smettila di gridare!"
+   ],
+   "traduzioni": {
+    "en": "to stop (doing something)",
+    "es": "dejar de",
+    "pt": "parar de",
+    "fr": "arrêter de",
+    "cs": "přestat",
+    "pl": "przestać",
+    "tr": "bırakmak, durmak",
+    "de": "aufhören",
+    "ja": "やめる"
+   }
+  },
+  {
+   "parola": "gelare",
+   "forme": [
+    "gelasse",
+    "gelano"
+   ],
+   "formeEsempi": [
+    "gela"
+   ],
+   "esempi": [
+    "Stanotte gela.",
+    "D'inverno le strade gelano.",
+    "L'acqua gela a zero gradi."
+   ],
+   "traduzioni": {
+    "en": "to freeze",
+    "es": "helar(se)",
+    "pt": "gelar, congelar",
+    "fr": "geler",
+    "cs": "mrznout",
+    "pl": "zamarzać",
+    "tr": "donmak",
+    "de": "gefrieren",
+    "ja": "凍る"
+   }
+  },
+  {
+   "parola": "il cristallo",
+   "forme": [
+    "cristalli"
+   ],
+   "formeEsempi": [
+    "cristallo"
+   ],
+   "esempi": [
+    "I fiocchi di neve sono cristalli di ghiaccio.",
+    "Il bicchiere è di cristallo.",
+    "Il sale forma piccoli cristalli."
+   ],
+   "traduzioni": {
+    "en": "crystal",
+    "es": "cristal",
+    "pt": "cristal",
+    "fr": "cristal",
+    "cs": "krystal",
+    "pl": "kryształ",
+    "tr": "kristal",
+    "de": "Kristall",
+    "ja": "結晶"
+   }
+  },
+  {
+   "parola": "rompere",
+   "forme": [
+    "romperebbero"
+   ],
+   "formeEsempi": [
+    "rotto",
+    "rompe"
+   ],
+   "esempi": [
+    "Ho rotto un bicchiere.",
+    "Attenzione, si rompe!",
+    "Il vento ha rotto la finestra."
+   ],
+   "traduzioni": {
+    "en": "to break",
+    "es": "romper",
+    "pt": "quebrar, romper",
+    "fr": "casser",
+    "cs": "rozbít",
+    "pl": "rozbić, złamać",
+    "tr": "kırmak",
+    "de": "zerbrechen",
+    "ja": "壊す"
+   }
+  },
+  {
+   "parola": "il coltello",
+   "forme": [
+    "coltelli"
+   ],
+   "formeEsempi": [
+    "coltello"
+   ],
+   "esempi": [
+    "Taglio il pane con il coltello.",
+    "I coltelli sono nel cassetto.",
+    "Questo coltello non taglia."
+   ],
+   "traduzioni": {
+    "en": "knife",
+    "es": "cuchillo",
+    "pt": "faca",
+    "fr": "couteau",
+    "cs": "nůž",
+    "pl": "nóż",
+    "tr": "bıçak",
+    "de": "Messer",
+    "ja": "ナイフ"
+   }
+  },
+  {
+   "parola": "il tessuto",
+   "forme": [
+    "tessuti"
+   ],
+   "formeEsempi": [
+    "tessuto"
+   ],
+   "esempi": [
+    "Il cuore è fatto di tessuto muscolare.",
+    "Questo tessuto è di cotone.",
+    "I tessuti del corpo hanno bisogno di ossigeno."
+   ],
+   "traduzioni": {
+    "en": "tissue (also: fabric)",
+    "es": "tejido",
+    "pt": "tecido",
+    "fr": "tissu",
+    "cs": "tkáň (i: látka)",
+    "pl": "tkanka (też: tkanina)",
+    "tr": "doku (ayrıca: kumaş)",
+    "de": "Gewebe (auch: Stoff)",
+    "ja": "組織（布、の意味も）"
+   }
+  },
+  {
+   "parola": "distruggere",
+   "forme": [
+    "distruggerebbero"
+   ],
+   "formeEsempi": [
+    "distrutto",
+    "distrugge",
+    "distruggere"
+   ],
+   "esempi": [
+    "Il terremoto ha distrutto il paese.",
+    "Il fuoco distrugge il bosco.",
+    "Non distruggere il mio lavoro!"
+   ],
+   "traduzioni": {
+    "en": "to destroy",
+    "es": "destruir",
+    "pt": "destruir",
+    "fr": "détruire",
+    "cs": "zničit",
+    "pl": "zniszczyć",
+    "tr": "yok etmek",
+    "de": "zerstören",
+    "ja": "破壊する"
+   }
+  },
+  {
+   "parola": "l'ossigeno",
+   "forme": [
+    "ossigeno"
+   ],
+   "esempi": [
+    "Le piante producono ossigeno.",
+    "In montagna c'è meno ossigeno.",
+    "Il malato ha bisogno di ossigeno."
+   ],
+   "traduzioni": {
+    "en": "oxygen",
+    "es": "oxígeno",
+    "pt": "oxigênio",
+    "fr": "oxygène",
+    "cs": "kyslík",
+    "pl": "tlen",
+    "tr": "oksijen",
+    "de": "Sauerstoff",
+    "ja": "酸素"
+   }
+  },
+  {
+   "parola": "il danno",
+   "forme": [
+    "danni"
+   ],
+   "formeEsempi": [
+    "danno"
+   ],
+   "esempi": [
+    "La grandine ha fatto molti danni.",
+    "Il fumo fa danni ai polmoni.",
+    "Chi paga il danno?"
+   ],
+   "traduzioni": {
+    "en": "damage",
+    "es": "daño",
+    "pt": "dano",
+    "fr": "dommage, dégât",
+    "cs": "škoda, poškození",
+    "pl": "szkoda, uszkodzenie",
+    "tr": "hasar, zarar",
+    "de": "Schaden",
+    "ja": "損傷、被害"
+   }
+  },
+  {
+   "parola": "sopportare",
+   "forme": [
+    "sopporta"
+   ],
+   "formeEsempi": [
+    "sopporto",
+    "sopportarlo"
+   ],
+   "esempi": [
+    "Non sopporto il caldo.",
+    "Il cactus sopporta la siccità.",
+    "Come fai a sopportarlo?"
+   ],
+   "traduzioni": {
+    "en": "to bear, to withstand, to stand",
+    "es": "soportar, aguantar",
+    "pt": "suportar, aguentar",
+    "fr": "supporter",
+    "cs": "snést, vydržet",
+    "pl": "znosić, wytrzymać",
+    "tr": "dayanmak",
+    "de": "ertragen, aushalten",
+    "ja": "耐える"
+   }
+  },
+  {
+   "parola": "il nascondiglio",
+   "forme": [
+    "nascondigli"
+   ],
+   "formeEsempi": [
+    "nascondiglio"
+   ],
+   "esempi": [
+    "Il gatto ha un nascondiglio sotto il letto.",
+    "Ho trovato il tuo nascondiglio!",
+    "Gli animali cercano nascondigli per l'inverno."
+   ],
+   "traduzioni": {
+    "en": "hiding place",
+    "es": "escondite",
+    "pt": "esconderijo",
+    "fr": "cachette",
+    "cs": "úkryt, skrýš",
+    "pl": "kryjówka",
+    "tr": "saklanma yeri",
+    "de": "Versteck",
+    "ja": "隠れ場所"
+   }
+  },
+  {
+   "parola": "sorprendere",
+   "forme": [
+    "sorpreso"
+   ],
+   "formeEsempi": [
+    "sorprende"
+   ],
+   "esempi": [
+    "La notizia mi ha sorpreso.",
+    "Mi sorprende sempre.",
+    "Sono rimasto sorpreso."
+   ],
+   "traduzioni": {
+    "en": "to surprise",
+    "es": "sorprender",
+    "pt": "surpreender",
+    "fr": "surprendre",
+    "cs": "překvapit",
+    "pl": "zaskoczyć",
+    "tr": "şaşırtmak",
+    "de": "überraschen",
+    "ja": "驚かせる"
+   }
+  },
+  {
+   "parola": "sopravvivere",
+   "forme": [
+    "sopravviveva"
+   ],
+   "formeEsempi": [
+    "sopravvive",
+    "sopravvissuto",
+    "sopravvissuti"
+   ],
+   "esempi": [
+    "Il cactus sopravvive nel deserto.",
+    "Tutti sono sopravvissuti all'incidente.",
+    "Senza acqua non si sopravvive."
+   ],
+   "traduzioni": {
+    "en": "to survive",
+    "es": "sobrevivir",
+    "pt": "sobreviver",
+    "fr": "survivre",
+    "cs": "přežít",
+    "pl": "przeżyć",
+    "tr": "hayatta kalmak",
+    "de": "überleben",
+    "ja": "生き延びる"
+   }
+  },
+  {
+   "parola": "sgelarsi",
+   "forme": [
+    "sgelano"
+   ],
+   "formeEsempi": [
+    "sgela",
+    "sgelare"
+   ],
+   "esempi": [
+    "In primavera il lago si sgela.",
+    "Le strade si sgelano al sole.",
+    "Lascia sgelare il pane."
+   ],
+   "traduzioni": {
+    "en": "to thaw",
+    "es": "descongelarse, deshelarse",
+    "pt": "descongelar, degelar",
+    "fr": "dégeler",
+    "cs": "roztát",
+    "pl": "rozmarzać",
+    "tr": "çözülmek (buz)",
+    "de": "auftauen",
+    "ja": "解ける"
+   }
+  },
+  {
+   "parola": "accumulare",
+   "forme": [
+    "accumulano"
+   ],
+   "formeEsempi": [
+    "accumula",
+    "accumulo"
+   ],
+   "esempi": [
+    "Lo scoiattolo accumula noci per l'inverno.",
+    "Accumulo troppe cose in casa.",
+    "Gli orsi accumulano grasso."
+   ],
+   "traduzioni": {
+    "en": "to accumulate, to store up",
+    "es": "acumular",
+    "pt": "acumular",
+    "fr": "accumuler",
+    "cs": "hromadit",
+    "pl": "gromadzić",
+    "tr": "biriktirmek",
+    "de": "ansammeln",
+    "ja": "ためこむ"
+   }
+  },
+  {
+   "parola": "l'organo",
+   "forme": [
+    "organi"
+   ],
+   "formeEsempi": [
+    "organo"
+   ],
+   "esempi": [
+    "Il cuore è un organo.",
+    "Ha donato gli organi.",
+    "Gli organi interni sono protetti dalle ossa."
+   ],
+   "traduzioni": {
+    "en": "organ",
+    "es": "órgano",
+    "pt": "órgão",
+    "fr": "organe",
+    "cs": "orgán",
+    "pl": "narząd, organ",
+    "tr": "organ",
+    "de": "Organ",
+    "ja": "臓器"
+   }
+  },
+  {
+   "parola": "danneggiare",
+   "forme": [
+    "danneggiarli"
+   ],
+   "formeEsempi": [
+    "danneggiato",
+    "danneggiare"
+   ],
+   "esempi": [
+    "La pioggia ha danneggiato il tetto.",
+    "Il sole può danneggiare gli occhi.",
+    "Non voglio danneggiare nessuno."
+   ],
+   "traduzioni": {
+    "en": "to damage",
+    "es": "dañar",
+    "pt": "danificar",
+    "fr": "endommager",
+    "cs": "poškodit",
+    "pl": "uszkodzić",
+    "tr": "zarar vermek",
+    "de": "beschädigen",
+    "ja": "損なう、傷つける"
+   }
+  },
+  {
+   "parola": "conservare",
+   "forme": [
+    "conservarli"
+   ],
+   "formeEsempi": [
+    "conservo",
+    "conservare"
+   ],
+   "esempi": [
+    "Conservo le foto di quando ero piccolo.",
+    "Conservare in frigorifero.",
+    "Il sale aiuta a conservare il cibo."
+   ],
+   "traduzioni": {
+    "en": "to keep, to preserve",
+    "es": "conservar",
+    "pt": "conservar, guardar",
+    "fr": "conserver",
+    "cs": "uchovat",
+    "pl": "przechowywać",
+    "tr": "saklamak, korumak",
+    "de": "aufbewahren, konservieren",
+    "ja": "保存する"
+   }
+  },
+  {
+   "parola": "il rene",
+   "forme": [
+    "rene"
+   ],
+   "esempi": [
+    "Abbiamo due reni.",
+    "Ha donato un rene al fratello.",
+    "Il rene pulisce il sangue."
+   ],
+   "traduzioni": {
+    "en": "kidney",
+    "es": "riñón",
+    "pt": "rim",
+    "fr": "rein",
+    "cs": "ledvina",
+    "pl": "nerka",
+    "tr": "böbrek",
+    "de": "Niere",
+    "ja": "腎臓"
+   },
+   "formeEsempi": [
+    "reni"
+   ]
+  },
+  {
+   "parola": "donato",
+   "forme": [
+    "donato"
+   ],
+   "formeEsempi": [
+    "donare"
+   ],
+   "esempi": [
+    "Ho donato il sangue.",
+    "Un rene donato salva una vita.",
+    "È importante donare gli organi."
+   ],
+   "traduzioni": {
+    "en": "donated",
+    "es": "donado",
+    "pt": "doado",
+    "fr": "donné, offert",
+    "cs": "darovaný",
+    "pl": "oddany, podarowany",
+    "tr": "bağışlanmış",
+    "de": "gespendet",
+    "ja": "提供された"
+   }
+  },
+  {
+   "parola": "trapiantare",
+   "forme": [
+    "trapiantato"
+   ],
+   "formeEsempi": [
+    "trapianto"
+   ],
+   "esempi": [
+    "Gli hanno trapiantato un cuore nuovo.",
+    "Ho trapiantato i pomodori nell'orto.",
+    "Il trapianto è andato bene."
+   ],
+   "traduzioni": {
+    "en": "to transplant",
+    "es": "trasplantar",
+    "pt": "transplantar",
+    "fr": "transplanter, greffer",
+    "cs": "transplantovat, přesadit",
+    "pl": "przeszczepić",
+    "tr": "nakletmek",
+    "de": "transplantieren",
+    "ja": "移植する"
+   }
+  },
+  {
+   "parola": "l'obiettivo",
+   "forme": [
+    "obiettivo"
+   ],
+   "esempi": [
+    "Il mio obiettivo è parlare bene l'italiano.",
+    "Abbiamo raggiunto l'obiettivo.",
+    "Qual è il tuo obiettivo?"
+   ],
+   "traduzioni": {
+    "en": "goal, aim",
+    "es": "objetivo",
+    "pt": "objetivo",
+    "fr": "objectif",
+    "cs": "cíl",
+    "pl": "cel",
+    "tr": "hedef",
+    "de": "Ziel",
+    "ja": "目標"
+   }
+  },
+  {
+   "parola": "riscaldato",
+   "forme": [
+    "riscaldata"
+   ],
+   "formeEsempi": [
+    "riscaldato"
+   ],
+   "esempi": [
+    "La piscina è riscaldata.",
+    "Mangio la pasta riscaldata.",
+    "La stanza non è riscaldata."
+   ],
+   "traduzioni": {
+    "en": "heated",
+    "es": "con calefacción, calentado",
+    "pt": "aquecido",
+    "fr": "chauffé",
+    "cs": "vytápěný",
+    "pl": "ogrzewany",
+    "tr": "ısıtılmış",
+    "de": "beheizt",
+    "ja": "暖房のきいた"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "We are in Alaska. It's November. The forest is white and cold. The trees are tall and black, and there is snow everywhere.",
+    "Under the leaves there is a frog. It is small and brown. It's a wood frog. But… it's still. It's hard. It's as cold as a stone.",
+    "Is it dead? No! It's alive. But now its body is almost all ice. Its heart has stopped. The frog doesn't breathe. Its eyes are white.",
+    "I am a person. For me, ice in my body is the end. You are a person: for you too it's the end. We are very different from the frog.",
+    "What is the frog's secret? It's sugar. When the ice comes, the frog's body makes a lot of sugar. The sugar is inside the cells and protects them, like antifreeze for a car.",
+    "Winter in Alaska is long: six, seven months. The frog is always there, under the leaves and the snow. Sometimes it's eighteen degrees below zero.",
+    "Then spring comes. The sun is warm, the snow is gone. The frog isn't hard any more. After a few hours its heart starts again, the frog breathes, opens its eyes… and it's ready. It's spring: time to sing!",
+    "– Are you a superhero? – asks a bird.\n– No, – says the frog. – I'm just a wood frog."
+   ],
+   "b1": [
+    "Imagine spending the winter under a pile of leaves, in a forest in Alaska, at fifteen degrees below zero. No clothes, no food, no shelter. For a human being it would be the end within a few hours. For the wood frog it's simply winter.",
+    "This little frog lives in much of North America, even beyond the Arctic Circle. It doesn't dig deep burrows like other animals: it hides just under the leaves, where the temperature drops well below zero. And there it freezes.",
+    "When ice starts to form on its skin, the liver quickly turns its reserves into glucose, a sugar, which the blood carries to all the cells. Outside the cells the water turns into ice; inside, thanks to the sugar, it stays liquid. In the end about two thirds of the water in the body is frozen, the heart stops beating and the frog no longer breathes.",
+    "Why would it be impossible for us? If our body froze, the water inside the cells would turn into ice, the crystals would break them like little knives and the tissues would be destroyed. Besides, without a heartbeat, the brain would be left without oxygen, and after a few minutes the damage would be very serious. The frog, on the other hand, can bear months without a single heartbeat.",
+    "In 2014 a group of researchers from the University of Alaska Fairbanks followed the frogs in their natural hiding places, outdoors. The results surprised everyone: the frogs stayed frozen for an average of 193 days in a row, more than six months, at temperatures down to almost eighteen degrees below zero, and in spring they all woke up. Before, in the laboratory, no frog had survived much below six degrees below zero. The secret? In the Alaskan autumn the frogs freeze and thaw several times, and each time they build up more sugar.",
+    "Scientists also study it for a practical reason. If we managed to freeze human organs without damaging them, we could keep them much longer: a donated kidney or heart would no longer have to be transplanted within a few hours, and many more people could receive one. For now it's a distant goal, but the little Alaskan frog shows that in nature it is possible.",
+    "And you, what would you do if you had to spend the winter under the leaves? You'd probably look for a heated house. The frog doesn't need one: a little sugar is enough for it."
+   ]
+  },
+  "es": {
+   "a1": [
+    "Estamos en Alaska. Es noviembre. El bosque está blanco y frío. Los árboles son altos y negros, y hay nieve por todas partes.",
+    "Debajo de las hojas hay una rana. Es pequeña y marrón. Es una rana de bosque. Pero… está quieta. Está dura. Está fría como una piedra.",
+    "¿Está muerta? ¡No! Está viva. Pero ahora su cuerpo es casi todo hielo. El corazón está parado. La rana no respira. Los ojos están blancos.",
+    "Yo soy una persona. Para mí, el hielo en el cuerpo es el final. Tú eres una persona: también para ti es el final. Nosotros somos muy diferentes de la rana.",
+    "¿Cuál es el secreto de la rana? Es el azúcar. Cuando llega el hielo, el cuerpo de la rana produce mucho azúcar. El azúcar está dentro de las células y las protege, como el anticongelante del coche.",
+    "El invierno en Alaska es largo: son seis, siete meses. La rana está siempre allí, debajo de las hojas y la nieve. A veces hay dieciocho grados bajo cero.",
+    "Luego llega la primavera. El sol calienta, ya no hay nieve. La rana ya no está dura. Después de unas horas el corazón vuelve a latir, la rana respira, abre los ojos… y está lista. Es primavera: ¡es el momento de cantar!",
+    "– ¿Eres una superheroína? – pregunta un pájaro.\n– No, – dice la rana. – Solo soy una rana de bosque."
+   ],
+   "b1": [
+    "Imagina pasar el invierno bajo un montón de hojas, en un bosque de Alaska, a quince grados bajo cero. Sin ropa, sin comida, sin refugio. Para un ser humano sería el final en pocas horas. Para la rana de bosque es simplemente el invierno.",
+    "Esta pequeña rana vive en gran parte de América del Norte, incluso más allá del Círculo Polar Ártico. No excava madrigueras profundas como otros animales: se esconde justo debajo de las hojas, donde la temperatura baja mucho por debajo de cero. Y allí se congela.",
+    "Cuando el hielo empieza a formarse en la piel, el hígado transforma rápidamente sus reservas en glucosa, un azúcar que la sangre lleva a todas las células. Fuera de las células el agua se convierte en hielo; dentro, gracias al azúcar, sigue líquida. Al final, unos dos tercios del agua del cuerpo están congelados, el corazón deja de latir y la rana ya no respira.",
+    "¿Por qué para nosotros sería imposible? Si nuestro cuerpo se congelara, el agua dentro de las células se convertiría en hielo, los cristales las romperían como pequeños cuchillos y los tejidos se destruirían. Además, sin latido, el cerebro se quedaría sin oxígeno, y después de pocos minutos los daños serían gravísimos. La rana, en cambio, soporta meses sin un solo latido.",
+    "En 2014 un grupo de investigadores de la Universidad de Alaska en Fairbanks siguió a las ranas en sus escondites naturales, al aire libre. Los resultados sorprendieron a todos: las ranas estuvieron congeladas una media de 193 días seguidos, más de seis meses, a temperaturas de hasta casi dieciocho grados bajo cero, y en primavera se despertaron todas. Antes, en el laboratorio, ninguna rana sobrevivía mucho por debajo de seis grados bajo cero. ¿El secreto? En el otoño de Alaska las ranas se congelan y se descongelan varias veces, y cada vez acumulan más azúcar.",
+    "Los científicos la estudian también por un motivo práctico. Si consiguiéramos congelar órganos humanos sin dañarlos, podríamos conservarlos mucho más tiempo: un riñón o un corazón donado ya no tendría que trasplantarse en pocas horas, y muchas más personas podrían recibirlo. Por ahora es un objetivo lejano, pero la pequeña rana de Alaska demuestra que en la naturaleza es posible.",
+    "Y tú, ¿qué harías si tuvieras que pasar el invierno bajo las hojas? Probablemente buscarías una casa con calefacción. La rana no la necesita: le basta un poco de azúcar."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Estamos no Alasca. É novembro. O bosque está branco e frio. As árvores são altas e pretas, e há neve por toda parte.",
+    "Debaixo das folhas há uma rã. É pequena e marrom. É uma rã-da-floresta. Mas… está parada. Está dura. Está fria como uma pedra.",
+    "Está morta? Não! Está viva. Mas agora o corpo dela é quase todo gelo. O coração está parado. A rã não respira. Os olhos estão brancos.",
+    "Eu sou uma pessoa. Para mim, gelo no corpo é o fim. Você é uma pessoa: para você também é o fim. Nós somos muito diferentes da rã.",
+    "Qual é o segredo da rã? É o açúcar. Quando chega o gelo, o corpo da rã produz muito açúcar. O açúcar fica dentro das células e as protege, como o anticongelante do carro.",
+    "O inverno no Alasca é longo: são seis, sete meses. A rã está sempre lá, debaixo das folhas e da neve. Às vezes faz dezoito graus abaixo de zero.",
+    "Depois chega a primavera. O sol esquenta, a neve não existe mais. A rã não está mais dura. Depois de algumas horas o coração volta a bater, a rã respira, abre os olhos… e está pronta. É primavera: é hora de cantar!",
+    "– Você é uma super-heroína? – pergunta um pássaro.\n– Não, – diz a rã. – Sou só uma rã-da-floresta."
+   ],
+   "b1": [
+    "Imagine passar o inverno debaixo de um monte de folhas, num bosque do Alasca, a quinze graus abaixo de zero. Sem roupa, sem comida, sem abrigo. Para um ser humano seria o fim em poucas horas. Para a rã-da-floresta é simplesmente o inverno.",
+    "Essa pequena rã vive em grande parte da América do Norte, até além do Círculo Polar Ártico. Ela não cava tocas profundas como outros animais: se esconde logo abaixo das folhas, onde a temperatura cai muito abaixo de zero. E ali ela congela.",
+    "Quando o gelo começa a se formar na pele, o fígado transforma rapidamente as suas reservas em glicose, um açúcar que o sangue leva a todas as células. Fora das células a água vira gelo; dentro, graças ao açúcar, continua líquida. No fim, cerca de dois terços da água do corpo estão congelados, o coração para de bater e a rã não respira mais.",
+    "Por que para nós seria impossível? Se o nosso corpo congelasse, a água dentro das células viraria gelo, os cristais as romperiam como pequenas facas e os tecidos seriam destruídos. Além disso, sem batimentos, o cérebro ficaria sem oxigênio, e depois de poucos minutos os danos seriam gravíssimos. A rã, ao contrário, aguenta meses sem um único batimento.",
+    "Em 2014 um grupo de pesquisadores da Universidade do Alasca em Fairbanks acompanhou as rãs nos seus esconderijos naturais, ao ar livre. Os resultados surpreenderam a todos: as rãs ficaram congeladas em média 193 dias seguidos, mais de seis meses, a temperaturas de até quase dezoito graus abaixo de zero, e na primavera todas acordaram. Antes, no laboratório, nenhuma rã sobrevivia muito abaixo de seis graus negativos. O segredo? No outono do Alasca as rãs congelam e descongelam várias vezes, e a cada vez acumulam mais açúcar.",
+    "Os cientistas a estudam também por um motivo prático. Se conseguíssemos congelar órgãos humanos sem danificá-los, poderíamos conservá-los por muito mais tempo: um rim ou um coração doado não precisaria mais ser transplantado em poucas horas, e muito mais pessoas poderiam recebê-lo. Por enquanto é um objetivo distante, mas a pequena rã do Alasca mostra que na natureza é possível.",
+    "E você, o que faria se tivesse de passar o inverno debaixo das folhas? Provavelmente procuraria uma casa aquecida. A rã não precisa disso: basta um pouco de açúcar."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Nous sommes en Alaska. C'est novembre. La forêt est blanche et froide. Les arbres sont hauts et noirs, et il y a de la neige partout.",
+    "Sous les feuilles, il y a une grenouille. Elle est petite et marron. C'est une grenouille des bois. Mais… elle est immobile. Elle est dure. Elle est froide comme une pierre.",
+    "Elle est morte ? Non ! Elle est vivante. Mais maintenant, son corps est presque entièrement de la glace. Son cœur est arrêté. La grenouille ne respire pas. Ses yeux sont blancs.",
+    "Moi, je suis une personne. Pour moi, de la glace dans le corps, c'est la fin. Toi, tu es une personne : pour toi aussi, c'est la fin. Nous sommes très différents de la grenouille.",
+    "Quel est le secret de la grenouille ? C'est le sucre. Quand la glace arrive, le corps de la grenouille fabrique beaucoup de sucre. Le sucre est dans les cellules et les protège, comme l'antigel pour la voiture.",
+    "L'hiver en Alaska est long : six, sept mois. La grenouille est toujours là, sous les feuilles et la neige. Parfois, il fait moins dix-huit degrés.",
+    "Puis le printemps arrive. Le soleil est chaud, il n'y a plus de neige. La grenouille n'est plus dure. Après quelques heures, son cœur repart, la grenouille respire, ouvre les yeux… et elle est prête. C'est le printemps : c'est le moment de chanter !",
+    "– Tu es une super-héroïne ? – demande un oiseau.\n– Non, – dit la grenouille. – Je suis juste une grenouille des bois."
+   ],
+   "b1": [
+    "Imagine passer l'hiver sous un tas de feuilles, dans une forêt d'Alaska, à moins quinze degrés. Sans vêtements, sans nourriture, sans abri. Pour un être humain, ce serait la fin en quelques heures. Pour la grenouille des bois, c'est simplement l'hiver.",
+    "Cette petite grenouille vit dans une grande partie de l'Amérique du Nord, jusqu'au-delà du cercle polaire arctique. Elle ne creuse pas de terriers profonds comme d'autres animaux : elle se cache juste sous les feuilles, là où la température descend bien en dessous de zéro. Et là, elle gèle.",
+    "Quand la glace commence à se former sur sa peau, le foie transforme rapidement ses réserves en glucose, un sucre que le sang transporte dans toutes les cellules. Hors des cellules, l'eau devient de la glace ; à l'intérieur, grâce au sucre, elle reste liquide. À la fin, environ deux tiers de l'eau du corps sont gelés, le cœur arrête de battre et la grenouille ne respire plus.",
+    "Pourquoi est-ce que ce serait impossible pour nous ? Si notre corps gelait, l'eau à l'intérieur des cellules deviendrait de la glace, les cristaux les casseraient comme de petits couteaux et les tissus seraient détruits. En plus, sans battements, le cerveau resterait sans oxygène, et après quelques minutes les dégâts seraient très graves. La grenouille, elle, supporte des mois sans un seul battement.",
+    "En 2014, une équipe de chercheurs de l'Université d'Alaska à Fairbanks a suivi les grenouilles dans leurs cachettes naturelles, en plein air. Les résultats ont surpris tout le monde : les grenouilles sont restées gelées en moyenne 193 jours d'affilée, plus de six mois, à des températures allant presque jusqu'à moins dix-huit degrés, et au printemps elles se sont toutes réveillées. Avant, en laboratoire, aucune grenouille ne survivait beaucoup en dessous de moins six degrés. Le secret ? Pendant l'automne en Alaska, les grenouilles gèlent et dégèlent plusieurs fois, et chaque fois elles accumulent plus de sucre.",
+    "Les scientifiques l'étudient aussi pour une raison pratique. Si nous réussissions à congeler des organes humains sans les abîmer, nous pourrions les conserver beaucoup plus longtemps : un rein ou un cœur donné ne devrait plus être greffé en quelques heures, et beaucoup plus de personnes pourraient en recevoir un. Pour l'instant, c'est un objectif lointain, mais la petite grenouille d'Alaska montre que dans la nature, c'est possible.",
+    "Et toi, que ferais-tu si tu devais passer l'hiver sous les feuilles ? Tu chercherais probablement une maison chauffée. La grenouille n'en a pas besoin : un peu de sucre lui suffit."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "Jsme na Aljašce. Je listopad. Les je bílý a studený. Stromy jsou vysoké a černé a všude je sníh.",
+    "Pod listím je žába. Je malá a hnědá. Je to skokan lesní. Ale… nehýbe se. Je tvrdá. Je studená jako kámen.",
+    "Je mrtvá? Ne! Je živá. Ale teď je její tělo skoro celé z ledu. Srdce stojí. Žába nedýchá. Oči má bílé.",
+    "Já jsem člověk. Pro mě je led v těle konec. Ty jsi člověk: i pro tebe je to konec. My jsme od žáby hodně jiní.",
+    "Jaké je tajemství žáby? Je to cukr. Když přijde led, tělo žáby vyrobí hodně cukru. Cukr je uvnitř buněk a chrání je, jako nemrznoucí směs v autě.",
+    "Zima na Aljašce je dlouhá: šest, sedm měsíců. Žába je pořád tam, pod listím a sněhem. Někdy je osmnáct stupňů pod nulou.",
+    "Pak přijde jaro. Slunce hřeje, sníh už není. Žába už není tvrdá. Po pár hodinách se srdce znovu rozbuší, žába dýchá, otevře oči… a je připravená. Je jaro: je čas zpívat!",
+    "– Ty jsi superhrdinka? – ptá se pták.\n– Ne, – říká žába. – Jsem jen skokan lesní."
+   ],
+   "b1": [
+    "Představ si, že trávíš zimu pod hromadou listí v lese na Aljašce, při patnácti stupních pod nulou. Bez oblečení, bez jídla, bez úkrytu. Pro člověka by to byl konec během pár hodin. Pro skokana lesního je to prostě zima.",
+    "Tahle malá žába žije ve velké části Severní Ameriky, až za severním polárním kruhem. Nehrabe si hluboké nory jako jiná zvířata: schová se těsně pod listí, kde teplota klesá hluboko pod nulu. A tam zmrzne.",
+    "Když se jí na kůži začne tvořit led, játra rychle přemění své zásoby na glukózu, cukr, který krev roznese do všech buněk. Mimo buňky se voda mění v led; uvnitř díky cukru zůstává tekutá. Nakonec jsou asi dvě třetiny vody v těle zmrzlé, srdce přestane bít a žába už nedýchá.",
+    "Proč by to pro nás bylo nemožné? Kdyby naše tělo zmrzlo, voda uvnitř buněk by se změnila v led, krystaly by je rozbily jako malé nože a tkáně by se zničily. Navíc by bez tepu zůstal mozek bez kyslíku a po pár minutách by škody byly velmi vážné. Žába naopak vydrží měsíce bez jediného úderu srdce.",
+    "V roce 2014 sledovala skupina výzkumníků z Aljašské univerzity ve Fairbanks žáby v jejich přirozených úkrytech venku. Výsledky všechny překvapily: žáby zůstaly zmrzlé v průměru 193 dní v kuse, víc než šest měsíců, při teplotách až skoro osmnáct stupňů pod nulou, a na jaře se všechny probudily. Předtím v laboratoři žádná žába nepřežila o moc víc než šest stupňů pod nulou. Tajemství? Na aljašském podzimu žáby několikrát zmrznou a roztají a pokaždé si nahromadí víc cukru.",
+    "Vědci ji studují i z praktického důvodu. Kdybychom dokázali zmrazit lidské orgány, aniž bychom je poškodili, mohli bychom je uchovávat mnohem déle: darovaná ledvina nebo srdce by se už nemusely transplantovat během pár hodin a mnohem víc lidí by je mohlo dostat. Zatím je to vzdálený cíl, ale malá aljašská žába ukazuje, že v přírodě je to možné.",
+    "A ty, co bys dělal, kdybys musel strávit zimu pod listím? Asi bys hledal vytápěný dům. Žába ho nepotřebuje: stačí jí trochu cukru."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "Jesteśmy na Alasce. Jest listopad. Las jest biały i zimny. Drzewa są wysokie i czarne, a śnieg jest wszędzie.",
+    "Pod liśćmi jest żaba. Jest mała i brązowa. To żaba leśna. Ale… jest nieruchoma. Jest twarda. Jest zimna jak kamień.",
+    "Czy jest martwa? Nie! Żyje. Ale teraz jej ciało to prawie sam lód. Serce stoi. Żaba nie oddycha. Oczy są białe.",
+    "Ja jestem człowiekiem. Dla mnie lód w ciele to koniec. Ty jesteś człowiekiem: dla ciebie też to koniec. Bardzo różnimy się od żaby.",
+    "Jaki jest sekret żaby? To cukier. Kiedy przychodzi lód, ciało żaby robi dużo cukru. Cukier jest w komórkach i je chroni, jak płyn niezamarzający w samochodzie.",
+    "Zima na Alasce jest długa: sześć, siedem miesięcy. Żaba jest cały czas tam, pod liśćmi i śniegiem. Czasem jest osiemnaście stopni poniżej zera.",
+    "Potem przychodzi wiosna. Słońce grzeje, śniegu już nie ma. Żaba nie jest już twarda. Po kilku godzinach serce znowu zaczyna bić, żaba oddycha, otwiera oczy… i jest gotowa. Jest wiosna: czas śpiewać!",
+    "– Jesteś superbohaterką? – pyta ptak.\n– Nie, – mówi żaba. – Jestem tylko żabą leśną."
+   ],
+   "b1": [
+    "Wyobraź sobie, że spędzasz zimę pod stertą liści w lesie na Alasce, przy piętnastu stopniach poniżej zera. Bez ubrań, bez jedzenia, bez schronienia. Dla człowieka byłby to koniec w ciągu kilku godzin. Dla żaby leśnej to po prostu zima.",
+    "Ta mała żaba żyje na dużej części Ameryki Północnej, aż za kołem podbiegunowym. Nie kopie głębokich nor jak inne zwierzęta: chowa się tuż pod liśćmi, gdzie temperatura spada dużo poniżej zera. I tam zamarza.",
+    "Kiedy na skórze zaczyna tworzyć się lód, wątroba szybko zamienia swoje zapasy w glukozę, cukier, który krew roznosi do wszystkich komórek. Poza komórkami woda zamienia się w lód; w środku, dzięki cukrowi, zostaje płynna. W końcu około dwóch trzecich wody w ciele jest zamarznięte, serce przestaje bić, a żaba już nie oddycha.",
+    "Dlaczego dla nas byłoby to niemożliwe? Gdyby nasze ciało zamarzło, woda w komórkach zamieniłaby się w lód, kryształy rozbiłyby je jak małe noże, a tkanki zostałyby zniszczone. Poza tym bez bicia serca mózg zostałby bez tlenu i po kilku minutach szkody byłyby bardzo poważne. Żaba natomiast wytrzymuje miesiące bez jednego uderzenia serca.",
+    "W 2014 roku grupa badaczy z Uniwersytetu Alaski w Fairbanks obserwowała żaby w ich naturalnych kryjówkach, na zewnątrz. Wyniki wszystkich zaskoczyły: żaby pozostawały zamarznięte średnio 193 dni z rzędu, ponad sześć miesięcy, w temperaturach do prawie osiemnastu stopni poniżej zera, a wiosną wszystkie się obudziły. Wcześniej w laboratorium żadna żaba nie przeżyła dużo poniżej minus sześciu stopni. Sekret? Jesienią na Alasce żaby kilka razy zamarzają i rozmarzają, i za każdym razem gromadzą więcej cukru.",
+    "Naukowcy badają ją też z praktycznego powodu. Gdyby udało nam się zamrozić ludzkie narządy bez ich uszkodzenia, moglibyśmy je przechowywać dużo dłużej: oddana nerka albo serce nie musiałyby już być przeszczepione w ciągu kilku godzin, i znacznie więcej osób mogłoby je otrzymać. Na razie to odległy cel, ale mała żaba z Alaski pokazuje, że w naturze jest to możliwe.",
+    "A ty, co byś zrobił, gdybyś musiał spędzić zimę pod liśćmi? Pewnie szukałbyś ogrzewanego domu. Żaba go nie potrzebuje: wystarczy jej trochę cukru."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Alaska'dayız. Kasım ayı. Orman beyaz ve soğuk. Ağaçlar uzun ve siyah, her yer kar.",
+    "Yaprakların altında bir kurbağa var. Küçük ve kahverengi. Bir orman kurbağası. Ama… hareketsiz. Sert. Bir taş gibi soğuk.",
+    "Ölü mü? Hayır! Canlı. Ama şimdi vücudu neredeyse tamamen buz. Kalbi durmuş. Kurbağa nefes almıyor. Gözleri beyaz.",
+    "Ben bir insanım. Benim için vücutta buz demek son demek. Sen de bir insansın: senin için de son. Biz kurbağadan çok farklıyız.",
+    "Kurbağanın sırrı ne? Şeker. Buz gelince kurbağanın vücudu çok şeker üretir. Şeker hücrelerin içindedir ve onları korur, arabadaki antifriz gibi.",
+    "Alaska'da kış uzundur: altı, yedi ay. Kurbağa hep orada, yaprakların ve karın altındadır. Bazen sıfırın altında on sekiz derece olur.",
+    "Sonra ilkbahar gelir. Güneş ısıtır, kar kalmaz. Kurbağa artık sert değildir. Birkaç saat sonra kalbi yeniden atmaya başlar, kurbağa nefes alır, gözlerini açar… ve hazırdır. İlkbahar geldi: şarkı söyleme zamanı!",
+    "– Sen bir süper kahraman mısın? – diye sorar bir kuş.\n– Hayır, – der kurbağa. – Ben sadece bir orman kurbağasıyım."
+   ],
+   "b1": [
+    "Kışı Alaska'da bir ormanda, sıfırın altında on beş derecede, bir yaprak yığınının altında geçirdiğini düşün. Kıyafet yok, yiyecek yok, sığınak yok. Bir insan için bu birkaç saat içinde son olurdu. Orman kurbağası için ise sadece kıştır.",
+    "Bu küçük kurbağa Kuzey Amerika'nın büyük bir bölümünde, Kuzey Kutup Dairesi'nin ötesine kadar yaşar. Başka hayvanlar gibi derin yuvalar kazmaz: sıcaklığın sıfırın çok altına düştüğü yaprakların hemen altına saklanır. Ve orada donar.",
+    "Derisinde buz oluşmaya başlayınca karaciğer, depoladıklarını hızla bir şeker olan glikoza dönüştürür; kan da bu şekeri bütün hücrelere taşır. Hücrelerin dışında su buza dönüşür; içeride ise şeker sayesinde sıvı kalır. Sonunda vücuttaki suyun yaklaşık üçte ikisi donmuştur, kalp atmayı bırakır ve kurbağa artık nefes almaz.",
+    "Bu neden bizim için imkânsız olurdu? Vücudumuz donsaydı, hücrelerin içindeki su buza dönüşürdü, kristaller onları küçük bıçaklar gibi parçalardı ve dokular yok olurdu. Ayrıca kalp atışı olmadan beyin oksijensiz kalırdı ve birkaç dakika sonra hasar çok ağır olurdu. Kurbağa ise tek bir kalp atışı olmadan aylarca dayanır.",
+    "2014'te Fairbanks'teki Alaska Üniversitesi'nden bir araştırma grubu kurbağaları açık havada, doğal saklanma yerlerinde izledi. Sonuçlar herkesi şaşırttı: kurbağalar ortalama 193 gün art arda, altı aydan fazla, sıfırın altında neredeyse on sekiz dereceye varan sıcaklıklarda donmuş hâlde kaldı ve ilkbaharda hepsi uyandı. Daha önce laboratuvarda hiçbir kurbağa eksi altı derecenin çok altında hayatta kalamamıştı. Sır ne? Alaska sonbaharında kurbağalar birkaç kez donup çözülür ve her seferinde daha fazla şeker biriktirir.",
+    "Bilim insanları onu pratik bir nedenle de inceliyor. İnsan organlarını zarar vermeden dondurabilseydik, onları çok daha uzun süre saklayabilirdik: bağışlanan bir böbreğin ya da kalbin artık birkaç saat içinde nakledilmesi gerekmezdi ve çok daha fazla kişi organ alabilirdi. Şimdilik bu uzak bir hedef, ama Alaska'nın küçük kurbağası bunun doğada mümkün olduğunu gösteriyor.",
+    "Peki sen kışı yaprakların altında geçirmek zorunda kalsan ne yapardın? Muhtemelen ısıtmalı bir ev arardın. Kurbağanın buna ihtiyacı yok: ona biraz şeker yeter."
+   ]
+  },
+  "de": {
+   "a1": [
+    "Wir sind in Alaska. Es ist November. Der Wald ist weiß und kalt. Die Bäume sind hoch und schwarz, und überall liegt Schnee.",
+    "Unter den Blättern sitzt ein Frosch. Er ist klein und braun. Es ist ein Waldfrosch. Aber… er bewegt sich nicht. Er ist hart. Er ist kalt wie ein Stein.",
+    "Ist er tot? Nein! Er lebt. Aber jetzt ist sein Körper fast ganz aus Eis. Das Herz steht still. Der Frosch atmet nicht. Die Augen sind weiß.",
+    "Ich bin ein Mensch. Für mich ist Eis im Körper das Ende. Du bist ein Mensch: Auch für dich ist es das Ende. Wir sind ganz anders als der Frosch.",
+    "Was ist das Geheimnis des Frosches? Es ist Zucker. Wenn das Eis kommt, macht der Körper des Frosches viel Zucker. Der Zucker ist in den Zellen und schützt sie, wie Frostschutzmittel im Auto.",
+    "Der Winter in Alaska ist lang: sechs, sieben Monate. Der Frosch ist die ganze Zeit dort, unter den Blättern und dem Schnee. Manchmal sind es achtzehn Grad unter null.",
+    "Dann kommt der Frühling. Die Sonne ist warm, der Schnee ist weg. Der Frosch ist nicht mehr hart. Nach ein paar Stunden schlägt das Herz wieder, der Frosch atmet, öffnet die Augen… und ist bereit. Es ist Frühling: Zeit zu singen!",
+    "– Bist du ein Superheld? – fragt ein Vogel.\n– Nein, – sagt der Frosch. – Ich bin nur ein Waldfrosch."
+   ],
+   "b1": [
+    "Stell dir vor, du verbringst den Winter unter einem Laubhaufen in einem Wald in Alaska, bei fünfzehn Grad unter null. Ohne Kleidung, ohne Essen, ohne Unterschlupf. Für einen Menschen wäre das in wenigen Stunden das Ende. Für den Waldfrosch ist es einfach Winter.",
+    "Dieser kleine Frosch lebt in einem großen Teil Nordamerikas, bis jenseits des Polarkreises. Er gräbt keine tiefen Höhlen wie andere Tiere: Er versteckt sich direkt unter dem Laub, wo die Temperatur weit unter null fällt. Und dort friert er ein.",
+    "Wenn sich auf seiner Haut Eis zu bilden beginnt, verwandelt die Leber ihre Vorräte schnell in Glukose, einen Zucker, den das Blut in alle Zellen bringt. Außerhalb der Zellen wird das Wasser zu Eis; drinnen bleibt es dank des Zuckers flüssig. Am Ende sind etwa zwei Drittel des Wassers im Körper gefroren, das Herz hört auf zu schlagen, und der Frosch atmet nicht mehr.",
+    "Warum wäre das für uns unmöglich? Wenn unser Körper gefröre, würde das Wasser in den Zellen zu Eis, die Kristalle würden sie wie kleine Messer zerstechen, und das Gewebe würde zerstört. Außerdem bliebe das Gehirn ohne Herzschlag ohne Sauerstoff, und nach wenigen Minuten wären die Schäden sehr schwer. Der Frosch dagegen hält monatelang ohne einen einzigen Herzschlag durch.",
+    "2014 hat eine Forschergruppe der Universität von Alaska in Fairbanks die Frösche in ihren natürlichen Verstecken im Freien beobachtet. Die Ergebnisse überraschten alle: Die Frösche blieben im Durchschnitt 193 Tage am Stück gefroren, mehr als sechs Monate, bei Temperaturen bis fast achtzehn Grad unter null, und im Frühling wachten alle wieder auf. Vorher hatte im Labor kein Frosch viel weniger als minus sechs Grad überlebt. Das Geheimnis? Im Herbst in Alaska frieren die Frösche mehrmals ein und tauen wieder auf, und jedes Mal sammeln sie mehr Zucker an.",
+    "Die Wissenschaftler erforschen ihn auch aus einem praktischen Grund. Wenn es uns gelänge, menschliche Organe einzufrieren, ohne sie zu beschädigen, könnten wir sie viel länger aufbewahren: Eine gespendete Niere oder ein gespendetes Herz müsste nicht mehr innerhalb weniger Stunden transplantiert werden, und viel mehr Menschen könnten eines bekommen. Noch ist das ein fernes Ziel, aber der kleine Frosch aus Alaska zeigt, dass es in der Natur möglich ist.",
+    "Und du, was würdest du tun, wenn du den Winter unter dem Laub verbringen müsstest? Wahrscheinlich würdest du ein beheiztes Haus suchen. Der Frosch braucht keins: Ihm genügt ein bisschen Zucker."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "ここはアラスカです。11月です。森は白くて寒いです。木は高くて黒く、どこも雪だらけです。",
+    "葉っぱの下に、カエルが1匹います。小さくて茶色いです。アメリカアカガエルです。でも……動きません。かたいです。石のように冷たいです。",
+    "死んでいるのでしょうか？いいえ！生きています。でも今、体はほとんど全部が氷です。心臓は止まっています。カエルは息をしていません。目は白くなっています。",
+    "わたしは人間です。わたしにとって、体の中の氷は終わりを意味します。あなたも人間です。あなたにとっても終わりです。わたしたちはカエルとは大ちがいです。",
+    "カエルの秘密は何でしょう？それは砂糖（糖）です。氷がやってくると、カエルの体はたくさんの糖を作ります。糖は細胞の中にあって、細胞を守ります。車の不凍液のようなものです。",
+    "アラスカの冬は長いです。6か月、7か月もあります。カエルはずっとそこに、葉っぱと雪の下にいます。ときにはマイナス18度にもなります。",
+    "それから春が来ます。太陽が暖かく、雪はもうありません。カエルはもうかたくありません。何時間かすると、心臓がまた動き出し、カエルは息をして、目を開けます……そして準備完了です。春です。歌う時間です！",
+    "「きみはスーパーヒーローなの？」と鳥がききます。\n「ちがうよ」とカエルは言います。「ただのアメリカアカガエルだよ。」"
+   ],
+   "b1": [
+    "アラスカの森で、マイナス15度の中、落ち葉の山の下で冬を過ごすところを想像してみてほしい。服もなく、食べ物もなく、身を守る場所もない。人間なら数時間で命が終わってしまうだろう。でもアメリカアカガエルにとっては、ただの冬なのだ。",
+    "この小さなカエルは、北アメリカの広い地域に住んでいて、北極圏の向こうにまでいる。ほかの動物のように深い巣穴を掘ることはしない。気温が0度よりずっと下がる落ち葉のすぐ下に隠れる。そして、そこで凍るのだ。",
+    "皮膚に氷ができ始めると、肝臓が蓄えをすばやくブドウ糖という糖に変え、血液がそれを全身の細胞に運ぶ。細胞の外では水が氷になるが、中では糖のおかげで液体のままだ。最後には体の水の約3分の2が凍り、心臓は鼓動をやめ、カエルは呼吸をしなくなる。",
+    "なぜわたしたちには不可能なのだろうか。もしわたしたちの体が凍ったら、細胞の中の水が氷になり、結晶が小さなナイフのように細胞を壊し、組織はだめになってしまう。さらに、心臓が止まれば脳には酸素が届かず、数分で深刻な損傷が起きる。ところがカエルは、一度も心臓が動かないまま何か月も耐えるのだ。",
+    "2014年、フェアバンクスにあるアラスカ大学の研究者グループが、野外の自然の隠れ場所にいるカエルを観察した。結果はみんなを驚かせた。カエルたちは平均193日、つまり6か月以上も続けて凍ったままで、気温はマイナス18度近くまで下がったが、春にはすべてのカエルが目を覚ましたのだ。それまで研究室では、マイナス6度よりずっと低い温度で生き延びたカエルはいなかった。秘密は何か？アラスカの秋に、カエルは何度も凍っては解け、そのたびに糖をためこんでいくのだ。",
+    "科学者がこのカエルを研究するのには、実用的な理由もある。もし人間の臓器を傷つけずに凍らせることができれば、ずっと長く保存できるだろう。提供された腎臓や心臓を数時間以内に移植しなくてもよくなり、もっと多くの人が受け取れるようになる。今のところそれは遠い目標だが、アラスカの小さなカエルは、自然の中ではそれが可能だと示している。",
+    "あなたなら、落ち葉の下で冬を過ごさなければならないとしたら、どうするだろう？たぶん暖房のきいた家をさがすだろう。カエルにはそんなものはいらない。少しの糖があれば十分なのだ。"
+   ]
+  }
+ }
+}
