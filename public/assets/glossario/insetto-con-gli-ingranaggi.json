@@ -1,0 +1,1597 @@
+{
+ "id": "insetto-con-gli-ingranaggi",
+ "nota": "Glossario e traduzione della lettura (A2 e B1 tradotti): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "l'insetto",
+   "forme": [
+    "insetto"
+   ],
+   "esempi": [
+    "La formica è un insetto.",
+    "C'è un insetto sul muro.",
+    "Questo insetto non punge."
+   ],
+   "traduzioni": {
+    "en": "insect",
+    "es": "insecto",
+    "pt": "inseto",
+    "fr": "insecte",
+    "cs": "hmyz",
+    "pl": "owad",
+    "tr": "böcek",
+    "de": "Insekt",
+    "ja": "昆虫"
+   }
+  },
+  {
+   "parola": "la cicalina",
+   "forme": [
+    "cicalina"
+   ],
+   "esempi": [
+    "La cicalina è un insetto molto piccolo.",
+    "La cicalina salta da una foglia all'altra.",
+    "In giardino c'è una cicalina verde."
+   ],
+   "traduzioni": {
+    "en": "planthopper, leafhopper",
+    "es": "chicharrita",
+    "pt": "cigarrinha",
+    "fr": "cicadelle",
+    "cs": "křísek",
+    "pl": "skoczek",
+    "tr": "yaprak piresi",
+    "de": "Zikade, Zirpe",
+    "ja": "ウンカ、ヨコバイ"
+   }
+  },
+  {
+   "parola": "l'adulto",
+   "forme": [
+    "adulto",
+    "adulta"
+   ],
+   "esempi": [
+    "Il biglietto per un adulto costa dieci euro.",
+    "Da adulta vuole fare la dottoressa.",
+    "Il bruco diventa adulto."
+   ],
+   "traduzioni": {
+    "en": "adult",
+    "es": "adulto",
+    "pt": "adulto",
+    "fr": "adulte",
+    "cs": "dospělý",
+    "pl": "dorosły",
+    "tr": "yetişkin",
+    "de": "Erwachsener, erwachsen",
+    "ja": "大人、成虫"
+   }
+  },
+  {
+   "parola": "misurare",
+   "forme": [
+    "misura"
+   ],
+   "formeEsempi": [
+    "misuro"
+   ],
+   "esempi": [
+    "Il tavolo misura due metri.",
+    "Misuro la temperatura.",
+    "Quanto misura la stanza?"
+   ],
+   "traduzioni": {
+    "en": "to measure, to be (… long)",
+    "es": "medir",
+    "pt": "medir",
+    "fr": "mesurer",
+    "cs": "měřit",
+    "pl": "mierzyć",
+    "tr": "ölçmek",
+    "de": "messen",
+    "ja": "測る、（長さが）…ある"
+   }
+  },
+  {
+   "parola": "volare",
+   "forme": [
+    "volare",
+    "vola"
+   ],
+   "esempi": [
+    "Le galline non sanno volare.",
+    "L'aereo vola alto.",
+    "Il tempo vola!"
+   ],
+   "traduzioni": {
+    "en": "to fly",
+    "es": "volar",
+    "pt": "voar",
+    "fr": "voler",
+    "cs": "létat",
+    "pl": "latać",
+    "tr": "uçmak",
+    "de": "fliegen",
+    "ja": "飛ぶ"
+   }
+  },
+  {
+   "parola": "l'edera",
+   "forme": [
+    "edera"
+   ],
+   "esempi": [
+    "L'edera copre il muro della casa.",
+    "L'edera è verde tutto l'anno.",
+    "Sull'albero cresce l'edera."
+   ],
+   "traduzioni": {
+    "en": "ivy",
+    "es": "hiedra",
+    "pt": "hera",
+    "fr": "lierre",
+    "cs": "břečťan",
+    "pl": "bluszcz",
+    "tr": "sarmaşık",
+    "de": "Efeu",
+    "ja": "ツタ"
+   }
+  },
+  {
+   "parola": "la linfa",
+   "forme": [
+    "linfa"
+   ],
+   "esempi": [
+    "Gli insetti bevono la linfa delle piante.",
+    "La linfa scorre nel tronco.",
+    "In primavera sale la linfa."
+   ],
+   "traduzioni": {
+    "en": "sap",
+    "es": "savia",
+    "pt": "seiva",
+    "fr": "sève",
+    "cs": "míza",
+    "pl": "sok roślinny",
+    "tr": "bitki özsuyu",
+    "de": "Pflanzensaft",
+    "ja": "樹液"
+   }
+  },
+  {
+   "parola": "il microscopio",
+   "forme": [
+    "microscopio"
+   ],
+   "esempi": [
+    "Guardiamo le cellule al microscopio.",
+    "Il microscopio è in laboratorio.",
+    "Al microscopio si vedono i batteri."
+   ],
+   "traduzioni": {
+    "en": "microscope",
+    "es": "microscopio",
+    "pt": "microscópio",
+    "fr": "microscope",
+    "cs": "mikroskop",
+    "pl": "mikroskop",
+    "tr": "mikroskop",
+    "de": "Mikroskop",
+    "ja": "顕微鏡"
+   }
+  },
+  {
+   "parola": "la zampa",
+   "forme": [
+    "zampe"
+   ],
+   "formeEsempi": [
+    "zampa"
+   ],
+   "esempi": [
+    "Il ragno ha otto zampe.",
+    "Il cane mi dà la zampa.",
+    "L'insetto ha sei zampe."
+   ],
+   "traduzioni": {
+    "en": "leg (of an animal)",
+    "es": "pata",
+    "pt": "pata",
+    "fr": "patte",
+    "cs": "noha",
+    "pl": "noga, łapa",
+    "tr": "bacak",
+    "de": "Bein",
+    "ja": "（動物の）脚"
+   }
+  },
+  {
+   "parola": "l'ingranaggio",
+   "forme": [
+    "ingranaggi",
+    "ingranaggio"
+   ],
+   "esempi": [
+    "Gli ingranaggi dell'orologio girano.",
+    "Un ingranaggio si è rotto.",
+    "La bicicletta ha degli ingranaggi."
+   ],
+   "traduzioni": {
+    "en": "gear",
+    "es": "engranaje",
+    "pt": "engrenagem",
+    "fr": "engrenage",
+    "cs": "ozubené kolo, soukolí",
+    "pl": "przekładnia, koło zębate",
+    "tr": "dişli",
+    "de": "Zahnrad, Getriebe",
+    "ja": "歯車"
+   }
+  },
+  {
+   "parola": "dentato",
+   "forme": [
+    "dentati",
+    "dentate"
+   ],
+   "formeEsempi": [
+    "dentata",
+    "dentato"
+   ],
+   "esempi": [
+    "La ruota dentata gira.",
+    "Usa un coltello dentato per il pane.",
+    "Le foglie hanno il bordo dentato."
+   ],
+   "traduzioni": {
+    "en": "toothed («ruota dentata» = cogwheel)",
+    "es": "dentado",
+    "pt": "dentado",
+    "fr": "denté",
+    "cs": "ozubený",
+    "pl": "zębaty",
+    "tr": "dişli",
+    "de": "gezahnt",
+    "ja": "歯のついた"
+   }
+  },
+  {
+   "parola": "incastrarsi",
+   "forme": [
+    "incastrano"
+   ],
+   "formeEsempi": [
+    "incastra"
+   ],
+   "esempi": [
+    "I pezzi del puzzle si incastrano.",
+    "La porta si incastra.",
+    "Questi mattoncini si incastrano bene."
+   ],
+   "traduzioni": {
+    "en": "to fit together, to interlock (also: to get stuck)",
+    "es": "encajar",
+    "pt": "encaixar-se",
+    "fr": "s'emboîter",
+    "cs": "zapadnout do sebe",
+    "pl": "zazębiać się, pasować",
+    "tr": "birbirine geçmek",
+    "de": "ineinandergreifen",
+    "ja": "かみ合う、はまる"
+   }
+  },
+  {
+   "parola": "la striscia",
+   "forme": [
+    "striscia",
+    "strisce"
+   ],
+   "esempi": [
+    "La zebra ha strisce bianche e nere.",
+    "Attraversa sulle strisce!",
+    "Una striscia di carta."
+   ],
+   "traduzioni": {
+    "en": "strip, stripe",
+    "es": "tira, franja",
+    "pt": "tira, faixa",
+    "fr": "bande, rayure",
+    "cs": "pruh, proužek",
+    "pl": "pasek",
+    "tr": "şerit",
+    "de": "Streifen",
+    "ja": "細長い帯、しま"
+   }
+  },
+  {
+   "parola": "curvo / la curva",
+   "forme": [
+    "curva"
+   ],
+   "esempi": [
+    "La strada fa una curva.",
+    "Rallenta prima della curva!",
+    "Il ramo ha una forma curva."
+   ],
+   "traduzioni": {
+    "en": "curved; curve, bend",
+    "es": "curvo; curva",
+    "pt": "curvo; curva",
+    "fr": "courbe; virage",
+    "cs": "zakřivený; zatáčka, oblouk",
+    "pl": "zakrzywiony; zakręt, łuk",
+    "tr": "eğri; viraj",
+    "de": "gebogen; Kurve",
+    "ja": "曲がった、カーブ"
+   }
+  },
+  {
+   "parola": "il dente",
+   "forme": [
+    "denti",
+    "dente"
+   ],
+   "esempi": [
+    "Lavati i denti!",
+    "Mi fa male un dente.",
+    "Il bambino ha perso il primo dente."
+   ],
+   "traduzioni": {
+    "en": "tooth",
+    "es": "diente",
+    "pt": "dente",
+    "fr": "dent",
+    "cs": "zub",
+    "pl": "ząb",
+    "tr": "diş",
+    "de": "Zahn",
+    "ja": "歯"
+   }
+  },
+  {
+   "parola": "il salto",
+   "forme": [
+    "salto"
+   ],
+   "esempi": [
+    "Ha fatto un salto altissimo.",
+    "Faccio un salto al supermercato.",
+    "Il salto in lungo è il mio sport."
+   ],
+   "traduzioni": {
+    "en": "jump",
+    "es": "salto",
+    "pt": "salto, pulo",
+    "fr": "saut",
+    "cs": "skok",
+    "pl": "skok",
+    "tr": "sıçrama, atlama",
+    "de": "Sprung",
+    "ja": "ジャンプ"
+   }
+  },
+  {
+   "parola": "la telecamera",
+   "forme": [
+    "telecamera"
+   ],
+   "esempi": [
+    "C'è una telecamera all'ingresso.",
+    "Filmiamo con la telecamera.",
+    "La telecamera registra tutto."
+   ],
+   "traduzioni": {
+    "en": "video camera",
+    "es": "cámara de vídeo",
+    "pt": "câmera de vídeo",
+    "fr": "caméra",
+    "cs": "kamera",
+    "pl": "kamera",
+    "tr": "kamera",
+    "de": "Kamera",
+    "ja": "ビデオカメラ"
+   }
+  },
+  {
+   "parola": "posteriore",
+   "forme": [
+    "posteriori"
+   ],
+   "formeEsempi": [
+    "posteriore"
+   ],
+   "esempi": [
+    "Siediti sul sedile posteriore.",
+    "La ruota posteriore è bucata.",
+    "Le zampe posteriori sono più lunghe."
+   ],
+   "traduzioni": {
+    "en": "back, hind, rear",
+    "es": "trasero, posterior",
+    "pt": "traseiro, posterior",
+    "fr": "arrière, postérieur",
+    "cs": "zadní",
+    "pl": "tylny",
+    "tr": "arka",
+    "de": "hinter, Hinter-",
+    "ja": "後ろの"
+   }
+  },
+  {
+   "parola": "la differenza",
+   "forme": [
+    "differenza"
+   ],
+   "esempi": [
+    "Qual è la differenza?",
+    "Non vedo nessuna differenza.",
+    "C'è una grande differenza di prezzo."
+   ],
+   "traduzioni": {
+    "en": "difference",
+    "es": "diferencia",
+    "pt": "diferença",
+    "fr": "différence",
+    "cs": "rozdíl",
+    "pl": "różnica",
+    "tr": "fark",
+    "de": "Unterschied",
+    "ja": "違い、差"
+   }
+  },
+  {
+   "parola": "la precisione",
+   "forme": [
+    "precisione"
+   ],
+   "esempi": [
+    "Lavora con grande precisione.",
+    "L'orologio svizzero ha molta precisione.",
+    "Serve precisione."
+   ],
+   "traduzioni": {
+    "en": "precision, accuracy",
+    "es": "precisión",
+    "pt": "precisão",
+    "fr": "précision",
+    "cs": "přesnost",
+    "pl": "precyzja",
+    "tr": "hassasiyet",
+    "de": "Präzision, Genauigkeit",
+    "ja": "精密さ"
+   }
+  },
+  {
+   "parola": "la spinta",
+   "forme": [
+    "spinta"
+   ],
+   "esempi": [
+    "Dammi una spinta sull'altalena!",
+    "La macchina parte con una spinta.",
+    "Mi serve una spinta per cominciare."
+   ],
+   "traduzioni": {
+    "en": "push, thrust",
+    "es": "empuje, empujón",
+    "pt": "impulso, empurrão",
+    "fr": "poussée",
+    "cs": "tah, postrčení",
+    "pl": "pchnięcie, siła odbicia",
+    "tr": "itiş",
+    "de": "Schub, Stoß",
+    "ja": "押す力、推進力"
+   }
+  },
+  {
+   "parola": "raggiungere",
+   "forme": [
+    "raggiunto",
+    "raggiunge"
+   ],
+   "formeEsempi": [
+    "raggiungo"
+   ],
+   "esempi": [
+    "Ti raggiungo al bar.",
+    "Abbiamo raggiunto la cima.",
+    "La macchina raggiunge i 200 all'ora."
+   ],
+   "traduzioni": {
+    "en": "to reach",
+    "es": "alcanzar, llegar a",
+    "pt": "alcançar, atingir",
+    "fr": "atteindre, rejoindre",
+    "cs": "dosáhnout",
+    "pl": "osiągnąć, dotrzeć",
+    "tr": "ulaşmak",
+    "de": "erreichen",
+    "ja": "到達する、追いつく"
+   }
+  },
+  {
+   "parola": "la gravità",
+   "forme": [
+    "gravità"
+   ],
+   "esempi": [
+    "Sulla Luna la gravità è minore.",
+    "Newton ha studiato la gravità.",
+    "La gravità fa cadere la mela."
+   ],
+   "traduzioni": {
+    "en": "gravity",
+    "es": "gravedad",
+    "pt": "gravidade",
+    "fr": "gravité, pesanteur",
+    "cs": "gravitace",
+    "pl": "grawitacja",
+    "tr": "yer çekimi",
+    "de": "Schwerkraft",
+    "ja": "重力"
+   }
+  },
+  {
+   "parola": "il nervo",
+   "forme": [
+    "nervi"
+   ],
+   "formeEsempi": [
+    "nervo"
+   ],
+   "esempi": [
+    "I nervi portano i messaggi al cervello.",
+    "Mi fa male un nervo.",
+    "Ho i nervi a pezzi!"
+   ],
+   "traduzioni": {
+    "en": "nerve",
+    "es": "nervio",
+    "pt": "nervo",
+    "fr": "nerf",
+    "cs": "nerv",
+    "pl": "nerw",
+    "tr": "sinir",
+    "de": "Nerv",
+    "ja": "神経"
+   }
+  },
+  {
+   "parola": "nervoso",
+   "forme": [
+    "nervoso"
+   ],
+   "formeEsempi": [
+    "nervosa"
+   ],
+   "esempi": [
+    "Il sistema nervoso controlla i muscoli.",
+    "Prima dell'esame sono nervoso.",
+    "Perché sei così nervosa?"
+   ],
+   "traduzioni": {
+    "en": "nervous («sistema nervoso» = nervous system)",
+    "es": "nervioso",
+    "pt": "nervoso",
+    "fr": "nerveux",
+    "cs": "nervový; nervózní",
+    "pl": "nerwowy",
+    "tr": "sinir (sistemi); sinirli",
+    "de": "Nerven-; nervös",
+    "ja": "神経の、いらいらした"
+   }
+  },
+  {
+   "parola": "l'impulso",
+   "forme": [
+    "impulsi",
+    "impulso"
+   ],
+   "esempi": [
+    "Il cervello manda impulsi ai muscoli.",
+    "Ho avuto l'impulso di ridere.",
+    "Un impulso elettrico accende la luce."
+   ],
+   "traduzioni": {
+    "en": "impulse, signal",
+    "es": "impulso",
+    "pt": "impulso",
+    "fr": "impulsion",
+    "cs": "vzruch, impulz",
+    "pl": "impuls",
+    "tr": "uyarı, dürtü",
+    "de": "Impuls",
+    "ja": "インパルス、衝動"
+   }
+  },
+  {
+   "parola": "lento",
+   "forme": [
+    "lenti"
+   ],
+   "formeEsempi": [
+    "lento",
+    "lenta"
+   ],
+   "esempi": [
+    "La tartaruga è lenta.",
+    "Internet oggi è lento.",
+    "Parla più lento, per favore."
+   ],
+   "traduzioni": {
+    "en": "slow",
+    "es": "lento",
+    "pt": "lento, devagar",
+    "fr": "lent",
+    "cs": "pomalý",
+    "pl": "wolny, powolny",
+    "tr": "yavaş",
+    "de": "langsam",
+    "ja": "遅い"
+   }
+  },
+  {
+   "parola": "risolvere",
+   "forme": [
+    "risolto"
+   ],
+   "formeEsempi": [
+    "risolvo",
+    "risolviamo",
+    "risolve"
+   ],
+   "esempi": [
+    "Ho risolto il problema!",
+    "Come risolviamo questa situazione?",
+    "Il detective risolve il caso."
+   ],
+   "traduzioni": {
+    "en": "to solve",
+    "es": "resolver",
+    "pt": "resolver",
+    "fr": "résoudre",
+    "cs": "vyřešit",
+    "pl": "rozwiązać",
+    "tr": "çözmek",
+    "de": "lösen",
+    "ja": "解決する"
+   }
+  },
+  {
+   "parola": "la meccanica",
+   "forme": [
+    "meccanica"
+   ],
+   "esempi": [
+    "Studia meccanica all'università.",
+    "La meccanica della bicicletta è semplice.",
+    "È un problema di meccanica."
+   ],
+   "traduzioni": {
+    "en": "mechanics",
+    "es": "mecánica",
+    "pt": "mecânica",
+    "fr": "mécanique",
+    "cs": "mechanika",
+    "pl": "mechanika",
+    "tr": "mekanik",
+    "de": "Mechanik",
+    "ja": "力学、仕組み"
+   }
+  },
+  {
+   "parola": "l'ingegnere",
+   "forme": [
+    "ingegneri"
+   ],
+   "formeEsempi": [
+    "ingegnere"
+   ],
+   "esempi": [
+    "Mio padre fa l'ingegnere.",
+    "Gli ingegneri progettano il ponte.",
+    "Vuole diventare ingegnere."
+   ],
+   "traduzioni": {
+    "en": "engineer",
+    "es": "ingeniero",
+    "pt": "engenheiro",
+    "fr": "ingénieur",
+    "cs": "inženýr",
+    "pl": "inżynier",
+    "tr": "mühendis",
+    "de": "Ingenieur",
+    "ja": "エンジニア"
+   }
+  },
+  {
+   "parola": "la ruota",
+   "forme": [
+    "ruote"
+   ],
+   "formeEsempi": [
+    "ruota"
+   ],
+   "esempi": [
+    "La bici ha due ruote.",
+    "Ho bucato una ruota.",
+    "Le ruote del treno sono di acciaio."
+   ],
+   "traduzioni": {
+    "en": "wheel",
+    "es": "rueda",
+    "pt": "roda",
+    "fr": "roue",
+    "cs": "kolo",
+    "pl": "koło",
+    "tr": "tekerlek",
+    "de": "Rad",
+    "ja": "車輪"
+   }
+  },
+  {
+   "parola": "spezzarsi",
+   "forme": [
+    "spezza"
+   ],
+   "formeEsempi": [
+    "spezzato",
+    "spezzata"
+   ],
+   "esempi": [
+    "Il ramo si spezza sotto la neve.",
+    "La matita si è spezzata.",
+    "Attenzione, la corda si spezza!"
+   ],
+   "traduzioni": {
+    "en": "to snap, to break",
+    "es": "partirse, romperse",
+    "pt": "partir-se, quebrar-se",
+    "fr": "se briser, casser",
+    "cs": "zlomit se, prasknout",
+    "pl": "złamać się, pęknąć",
+    "tr": "kırılmak, kopmak",
+    "de": "brechen",
+    "ja": "折れる"
+   }
+  },
+  {
+   "parola": "la muta",
+   "forme": [
+    "muta"
+   ],
+   "esempi": [
+    "Dopo la muta il serpente ha la pelle nuova.",
+    "Gli uccelli cambiano le piume durante la muta.",
+    "Il ragno fa la muta."
+   ],
+   "traduzioni": {
+    "en": "moult",
+    "es": "muda",
+    "pt": "muda",
+    "fr": "mue",
+    "cs": "svlékání, línání",
+    "pl": "linienie",
+    "tr": "deri değiştirme",
+    "de": "Häutung",
+    "ja": "脱皮"
+   }
+  },
+  {
+   "parola": "liscio",
+   "forme": [
+    "lisce"
+   ],
+   "formeEsempi": [
+    "liscio",
+    "lisci",
+    "liscia"
+   ],
+   "esempi": [
+    "Ho i capelli lisci.",
+    "Il tavolo è liscio.",
+    "Un'acqua liscia, senza gas, per favore."
+   ],
+   "traduzioni": {
+    "en": "smooth (also: still water, straight hair)",
+    "es": "liso",
+    "pt": "liso",
+    "fr": "lisse",
+    "cs": "hladký",
+    "pl": "gładki",
+    "tr": "pürüzsüz, düz",
+    "de": "glatt",
+    "ja": "なめらかな"
+   }
+  },
+  {
+   "parola": "l'attrito",
+   "forme": [
+    "attrito"
+   ],
+   "esempi": [
+    "L'attrito rallenta la palla.",
+    "Senza attrito non potremmo camminare.",
+    "Le gomme fanno attrito sulla strada."
+   ],
+   "traduzioni": {
+    "en": "friction",
+    "es": "fricción, rozamiento",
+    "pt": "atrito",
+    "fr": "frottement",
+    "cs": "tření",
+    "pl": "tarcie",
+    "tr": "sürtünme",
+    "de": "Reibung",
+    "ja": "摩擦"
+   }
+  },
+  {
+   "parola": "la rivista",
+   "forme": [
+    "rivista"
+   ],
+   "esempi": [
+    "Leggo una rivista di cucina.",
+    "L'articolo è uscito su una rivista.",
+    "Compro la rivista ogni mese."
+   ],
+   "traduzioni": {
+    "en": "magazine, journal",
+    "es": "revista",
+    "pt": "revista",
+    "fr": "revue, magazine",
+    "cs": "časopis",
+    "pl": "czasopismo",
+    "tr": "dergi",
+    "de": "Zeitschrift",
+    "ja": "雑誌"
+   }
+  },
+  {
+   "parola": "diffuso",
+   "forme": [
+    "diffusa"
+   ],
+   "formeEsempi": [
+    "diffuso"
+   ],
+   "esempi": [
+    "È una pianta diffusa in Italia.",
+    "L'inglese è molto diffuso.",
+    "È un'idea molto diffusa."
+   ],
+   "traduzioni": {
+    "en": "common, widespread",
+    "es": "extendido, común",
+    "pt": "difundido, comum",
+    "fr": "répandu",
+    "cs": "rozšířený",
+    "pl": "rozpowszechniony",
+    "tr": "yaygın",
+    "de": "verbreitet",
+    "ja": "広く分布した"
+   }
+  },
+  {
+   "parola": "spostarsi",
+   "forme": [
+    "sposta"
+   ],
+   "formeEsempi": [
+    "sposto",
+    "sposti"
+   ],
+   "esempi": [
+    "In città mi sposto in bici.",
+    "Ti sposti un po'?",
+    "La tartaruga si sposta piano."
+   ],
+   "traduzioni": {
+    "en": "to move around, to get about",
+    "es": "desplazarse, moverse",
+    "pt": "deslocar-se",
+    "fr": "se déplacer",
+    "cs": "přesouvat se",
+    "pl": "przemieszczać się",
+    "tr": "yer değiştirmek, hareket etmek",
+    "de": "sich fortbewegen",
+    "ja": "移動する"
+   }
+  },
+  {
+   "parola": "saltare",
+   "forme": [
+    "saltando",
+    "salta"
+   ],
+   "formeEsempi": [
+    "salto"
+   ],
+   "esempi": [
+    "Il gatto salta sul tavolo.",
+    "I bambini giocano saltando.",
+    "Salto la colazione."
+   ],
+   "traduzioni": {
+    "en": "to jump (also: to skip)",
+    "es": "saltar",
+    "pt": "pular, saltar",
+    "fr": "sauter",
+    "cs": "skákat",
+    "pl": "skakać",
+    "tr": "zıplamak",
+    "de": "springen",
+    "ja": "跳ぶ"
+   }
+  },
+  {
+   "parola": "la ninfa",
+   "forme": [
+    "ninfe",
+    "ninfa"
+   ],
+   "esempi": [
+    "La ninfa vive nell'acqua.",
+    "Le ninfe non hanno ancora le ali.",
+    "La ninfa diventa adulta dopo la muta."
+   ],
+   "traduzioni": {
+    "en": "nymph (young insect)",
+    "es": "ninfa",
+    "pt": "ninfa",
+    "fr": "nymphe, larve",
+    "cs": "nymfa",
+    "pl": "nimfa",
+    "tr": "nimf (böcek yavrusu)",
+    "de": "Nymphe, Larve",
+    "ja": "幼虫（若虫）"
+   }
+  },
+  {
+   "parola": "sempreverde",
+   "forme": [
+    "sempreverdi"
+   ],
+   "formeEsempi": [
+    "sempreverde"
+   ],
+   "esempi": [
+    "Il pino è un albero sempreverde.",
+    "Le piante sempreverdi non perdono le foglie.",
+    "In giardino ho solo sempreverdi."
+   ],
+   "traduzioni": {
+    "en": "evergreen",
+    "es": "de hoja perenne",
+    "pt": "perene, sempre-verde",
+    "fr": "à feuillage persistant",
+    "cs": "stálezelený",
+    "pl": "zimozielony",
+    "tr": "her dem yeşil",
+    "de": "immergrün",
+    "ja": "常緑の"
+   }
+  },
+  {
+   "parola": "l'istante",
+   "forme": [
+    "istante"
+   ],
+   "esempi": [
+    "Arrivo in un istante.",
+    "In quell'istante è entrata la maestra.",
+    "Aspetta un istante!"
+   ],
+   "traduzioni": {
+    "en": "instant, moment",
+    "es": "instante",
+    "pt": "instante",
+    "fr": "instant",
+    "cs": "okamžik",
+    "pl": "chwila",
+    "tr": "an",
+    "de": "Augenblick",
+    "ja": "瞬間"
+   }
+  },
+  {
+   "parola": "lo scarto",
+   "forme": [
+    "scarto"
+   ],
+   "esempi": [
+    "Tra i due tempi c'è uno scarto di un secondo.",
+    "Ha vinto con uno scarto minimo.",
+    "Gli scarti della cucina vanno nell'umido."
+   ],
+   "traduzioni": {
+    "en": "gap, difference (also: waste)",
+    "es": "diferencia, margen",
+    "pt": "diferença, margem",
+    "fr": "écart",
+    "cs": "rozdíl",
+    "pl": "różnica",
+    "tr": "fark",
+    "de": "Abstand, Unterschied",
+    "ja": "差、ずれ"
+   },
+   "formeEsempi": [
+    "scarti"
+   ]
+  },
+  {
+   "parola": "spingere",
+   "forme": [
+    "spingesse"
+   ],
+   "formeEsempi": [
+    "spinge",
+    "spingere",
+    "spingi",
+    "spinto"
+   ],
+   "esempi": [
+    "Spingi la porta, non tirare!",
+    "Mi ha spinto in piscina.",
+    "Il vento spinge la barca."
+   ],
+   "traduzioni": {
+    "en": "to push",
+    "es": "empujar",
+    "pt": "empurrar",
+    "fr": "pousser",
+    "cs": "tlačit",
+    "pl": "pchać",
+    "tr": "itmek",
+    "de": "drücken, schieben",
+    "ja": "押す"
+   }
+  },
+  {
+   "parola": "il lato",
+   "forme": [
+    "lato"
+   ],
+   "esempi": [
+    "Siediti a quel lato del tavolo.",
+    "Il quadrato ha quattro lati.",
+    "Dormo sul lato destro."
+   ],
+   "traduzioni": {
+    "en": "side («di lato» = sideways)",
+    "es": "lado",
+    "pt": "lado",
+    "fr": "côté",
+    "cs": "strana",
+    "pl": "bok, strona",
+    "tr": "yan, kenar",
+    "de": "Seite",
+    "ja": "側、横"
+   },
+   "formeEsempi": [
+    "lati"
+   ]
+  },
+  {
+   "parola": "occuparsi di",
+   "forme": [
+    "occupa"
+   ],
+   "formeEsempi": [
+    "occupo"
+   ],
+   "esempi": [
+    "Mi occupo io della cena.",
+    "Chi si occupa del cane?",
+    "Si occupa di marketing."
+   ],
+   "traduzioni": {
+    "en": "to take care of, to deal with",
+    "es": "ocuparse de",
+    "pt": "cuidar de, ocupar-se de",
+    "fr": "s'occuper de",
+    "cs": "starat se o",
+    "pl": "zajmować się",
+    "tr": "ilgilenmek",
+    "de": "sich kümmern um",
+    "ja": "担当する、世話をする"
+   }
+  },
+  {
+   "parola": "richiedere",
+   "forme": [
+    "richiede"
+   ],
+   "esempi": [
+    "Questo lavoro richiede pazienza.",
+    "La ricetta richiede due ore.",
+    "Imparare una lingua richiede tempo."
+   ],
+   "traduzioni": {
+    "en": "to require, to take",
+    "es": "requerir",
+    "pt": "exigir, requerer",
+    "fr": "exiger, demander",
+    "cs": "vyžadovat",
+    "pl": "wymagać",
+    "tr": "gerektirmek",
+    "de": "erfordern",
+    "ja": "必要とする"
+   }
+  },
+  {
+   "parola": "garantire",
+   "forme": [
+    "garantisce"
+   ],
+   "formeEsempi": [
+    "garantisco"
+   ],
+   "esempi": [
+    "Ti garantisco che è vero.",
+    "Il casco garantisce la sicurezza.",
+    "Il negozio garantisce il prodotto per due anni."
+   ],
+   "traduzioni": {
+    "en": "to guarantee, to ensure",
+    "es": "garantizar",
+    "pt": "garantir",
+    "fr": "garantir",
+    "cs": "zaručit",
+    "pl": "gwarantować",
+    "tr": "garanti etmek",
+    "de": "garantieren",
+    "ja": "保証する"
+   }
+  },
+  {
+   "parola": "sorprendente",
+   "forme": [
+    "sorprendente"
+   ],
+   "esempi": [
+    "Il risultato è sorprendente.",
+    "È una notizia sorprendente.",
+    "Ha una voce sorprendente."
+   ],
+   "traduzioni": {
+    "en": "surprising, amazing",
+    "es": "sorprendente",
+    "pt": "surpreendente",
+    "fr": "surprenant",
+    "cs": "překvapivý",
+    "pl": "zaskakujący",
+    "tr": "şaşırtıcı",
+    "de": "überraschend",
+    "ja": "驚くべき"
+   }
+  },
+  {
+   "parola": "adottare",
+   "forme": [
+    "adottano"
+   ],
+   "formeEsempi": [
+    "adottato",
+    "adottiamo"
+   ],
+   "esempi": [
+    "Hanno adottato un cane.",
+    "Molte scuole adottano questo libro.",
+    "Adottiamo una nuova strategia."
+   ],
+   "traduzioni": {
+    "en": "to adopt, to use",
+    "es": "adoptar",
+    "pt": "adotar",
+    "fr": "adopter",
+    "cs": "přijmout, osvojit si",
+    "pl": "przyjąć, adoptować",
+    "tr": "benimsemek, evlat edinmek",
+    "de": "übernehmen, adoptieren",
+    "ja": "採用する"
+   }
+  },
+  {
+   "parola": "l'acciaio",
+   "forme": [
+    "acciaio"
+   ],
+   "esempi": [
+    "Il coltello è d'acciaio.",
+    "Il ponte è fatto di acciaio.",
+    "Ha nervi d'acciaio."
+   ],
+   "traduzioni": {
+    "en": "steel",
+    "es": "acero",
+    "pt": "aço",
+    "fr": "acier",
+    "cs": "ocel",
+    "pl": "stal",
+    "tr": "çelik",
+    "de": "Stahl",
+    "ja": "鋼鉄"
+   }
+  },
+  {
+   "parola": "sparire",
+   "forme": [
+    "spariscono"
+   ],
+   "formeEsempi": [
+    "sparito",
+    "sparite",
+    "sparisce"
+   ],
+   "esempi": [
+    "Le mie chiavi sono sparite!",
+    "Il sole sparisce dietro la montagna.",
+    "I biscotti spariscono in un minuto."
+   ],
+   "traduzioni": {
+    "en": "to disappear",
+    "es": "desaparecer",
+    "pt": "desaparecer, sumir",
+    "fr": "disparaître",
+    "cs": "zmizet",
+    "pl": "zniknąć",
+    "tr": "kaybolmak",
+    "de": "verschwinden",
+    "ja": "消える"
+   }
+  },
+  {
+   "parola": "appoggiarsi",
+   "forme": [
+    "appoggiandosi"
+   ],
+   "formeEsempi": [
+    "appoggio",
+    "appoggiarti"
+   ],
+   "esempi": [
+    "Mi appoggio al muro.",
+    "Il nonno cammina appoggiandosi al bastone.",
+    "Puoi appoggiarti a me."
+   ],
+   "traduzioni": {
+    "en": "to lean (on)",
+    "es": "apoyarse",
+    "pt": "apoiar-se",
+    "fr": "s'appuyer",
+    "cs": "opřít se",
+    "pl": "opierać się",
+    "tr": "yaslanmak",
+    "de": "sich anlehnen",
+    "ja": "寄りかかる"
+   }
+  },
+  {
+   "parola": "l'ipotesi",
+   "forme": [
+    "ipotesi"
+   ],
+   "esempi": [
+    "È solo un'ipotesi.",
+    "Gli scienziati verificano l'ipotesi.",
+    "Ho un'ipotesi su chi è stato."
+   ],
+   "traduzioni": {
+    "en": "hypothesis, theory",
+    "es": "hipótesis",
+    "pt": "hipótese",
+    "fr": "hypothèse",
+    "cs": "hypotéza",
+    "pl": "hipoteza",
+    "tr": "varsayım",
+    "de": "Hypothese",
+    "ja": "仮説"
+   }
+  },
+  {
+   "parola": "il guaio",
+   "forme": [
+    "guaio"
+   ],
+   "esempi": [
+    "Sono nei guai!",
+    "Che guaio, ho perso il treno.",
+    "Non fare guai!"
+   ],
+   "traduzioni": {
+    "en": "trouble, mess",
+    "es": "lío, problema",
+    "pt": "encrenca, problema",
+    "fr": "ennui, pétrin",
+    "cs": "malér, potíž",
+    "pl": "kłopot",
+    "tr": "dert, bela",
+    "de": "Ärger, Schlamassel",
+    "ja": "困ったこと、厄介ごと"
+   },
+   "formeEsempi": [
+    "guai"
+   ]
+  },
+  {
+   "parola": "permanente",
+   "forme": [
+    "permanente"
+   ],
+   "esempi": [
+    "È un lavoro permanente?",
+    "Il danno è permanente.",
+    "Ha una mostra permanente."
+   ],
+   "traduzioni": {
+    "en": "permanent",
+    "es": "permanente",
+    "pt": "permanente",
+    "fr": "permanent",
+    "cs": "trvalý",
+    "pl": "trwały, stały",
+    "tr": "kalıcı",
+    "de": "dauerhaft",
+    "ja": "永久的な"
+   }
+  },
+  {
+   "parola": "la scoperta",
+   "forme": [
+    "scoperta"
+   ],
+   "esempi": [
+    "È una scoperta importante.",
+    "La scoperta della penicillina ha salvato milioni di persone.",
+    "Che bella scoperta!"
+   ],
+   "traduzioni": {
+    "en": "discovery",
+    "es": "descubrimiento",
+    "pt": "descoberta",
+    "fr": "découverte",
+    "cs": "objev",
+    "pl": "odkrycie",
+    "tr": "keşif",
+    "de": "Entdeckung",
+    "ja": "発見"
+   }
+  },
+  {
+   "parola": "funzionante",
+   "forme": [
+    "funzionante"
+   ],
+   "esempi": [
+    "Il frigorifero è vecchio ma funzionante.",
+    "Cerco un telefono usato funzionante.",
+    "La macchina non è funzionante."
+   ],
+   "traduzioni": {
+    "en": "working, functioning",
+    "es": "que funciona, operativo",
+    "pt": "funcionando, em funcionamento",
+    "fr": "en état de marche",
+    "cs": "funkční",
+    "pl": "działający",
+    "tr": "çalışan",
+    "de": "funktionsfähig",
+    "ja": "作動する"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "Issus coleoptratus is a small European planthopper: as an adult it measures between 5 and 7 millimetres and it can't fly. It lives on ivy and on tree leaves, where it drinks the sap.",
+    "In 2013 two researchers from the University of Cambridge, Malcolm Burrows and Gregory Sutton, looked at the legs of the young insects under a microscope and found something nobody had ever seen in an animal: two toothed gears that fit together.",
+    "Each gear is a curved strip about 400 micrometres long, that is four tenths of a millimetre, with 10 or 12 teeth.",
+    "The scientists filmed the jump with a very fast camera. The two back legs started together, with a difference of only 30 microseconds: 30 millionths of a second.",
+    "This precision is needed because the push is enormous: the insect reached 3.9 metres per second in 2 thousandths of a second, almost 200 times the acceleration of gravity. If one leg starts before the other, the body spins round.",
+    "The nervous system can't do this job: nerve impulses are too slow for such a small difference. Nature solved the problem with mechanics, not with the brain.",
+    "The teeth don't end with a sharp angle at the base, but with a smooth curve. Engineers use the same shape in the cogwheels of machines, because that way the tooth doesn't break.",
+    "As an adult the insect no longer has the gears: after the last moult its legs are smooth and work only with friction.",
+    "The research was published in the journal «Science» on 13 September 2013."
+   ],
+   "b1": [
+    "Issus coleoptratus is a planthopper common in Europe: the adult measures between 5 and 7 millimetres, doesn't fly and gets around mainly by jumping. The young, which scientists call nymphs, spend the winter on ivy and on evergreen plants.",
+    "At the base of its back legs the nymph has two curved strips of teeth that interlock like the cogwheels of a clock. Each strip is about 400 micrometres long — four tenths of a millimetre — and carries ten to twelve teeth.",
+    "What is a gear inside a leg for? To make the two legs start at the same instant. When the insect jumps, the two legs move with a gap of 30 microseconds, that is thirty millionths of a second: if one pushed even slightly before the other, the body would start spinning round and the jump would end up sideways.",
+    "The precision is needed because the push is extremely violent: the nymph reaches 3.9 metres per second in two thousandths of a second, an acceleration of almost two hundred times that of gravity.",
+    "The interesting point is why the nervous system doesn't take care of this, as happens in large animals. The answer is time: a nerve impulse has to start, pass from one cell to another and reach the muscle, and all this takes much more than thirty millionths of a second. The insect doesn't wait for an order: it's the very shape of its legs that guarantees they move in sync.",
+    "The design of the teeth is surprising too. At the base, each tooth doesn't form a sharp angle, but a smooth curve. It's exactly the solution that engineers use in steel cogwheels, because a sharp angle is the point where the metal breaks.",
+    "Then comes the paradox: the adult doesn't have the gears. They disappear with the last moult, and the legs synchronise only through friction, by pressing against each other. One hypothesis is that a broken tooth would be permanent trouble: the nymph changes its skin and rebuilds everything, the adult doesn't.",
+    "The discovery was made by Malcolm Burrows and Gregory Sutton, of the University of Cambridge, and was published in «Science» on 13 September 2013. It's the first working gear ever found in a living being."
+   ]
+  },
+  "es": {
+   "a2": [
+    "El Issus coleoptratus es una pequeña chicharrita europea: de adulta mide entre 5 y 7 milímetros y no sabe volar. Vive en la hiedra y en las hojas de los árboles, donde bebe la savia.",
+    "En 2013 dos investigadores de la Universidad de Cambridge, Malcolm Burrows y Gregory Sutton, miraron al microscopio las patas de las crías y encontraron algo que nadie había visto nunca en un animal: dos engranajes dentados que encajan.",
+    "Cada engranaje es una tira curva de unos 400 micrómetros, es decir, cuatro décimas de milímetro, con 10 o 12 dientes.",
+    "Los científicos filmaron el salto con una cámara rapidísima. Las dos patas traseras salieron juntas, con una diferencia de solo 30 microsegundos: 30 millonésimas de segundo.",
+    "Esta precisión hace falta porque el empuje es enorme: el insecto alcanzó 3,9 metros por segundo en 2 milésimas de segundo, casi 200 veces la aceleración de la gravedad. Si una pata sale antes que la otra, el cuerpo gira sobre sí mismo.",
+    "El sistema nervioso no puede hacer este trabajo: los impulsos de los nervios son demasiado lentos para una diferencia tan pequeña. La naturaleza resolvió el problema con la mecánica, no con el cerebro.",
+    "Los dientes no terminan con un ángulo vivo en la base, sino con una curva suave. Los ingenieros usan la misma forma en las ruedas dentadas de las máquinas, porque así el diente no se rompe.",
+    "De adulto el insecto ya no tiene los engranajes: después de la última muda las patas son lisas y funcionan solo por fricción.",
+    "La investigación se publicó en la revista «Science» el 13 de septiembre de 2013."
+   ],
+   "b1": [
+    "El Issus coleoptratus es una chicharrita extendida por Europa: el adulto mide entre 5 y 7 milímetros, no vuela y se desplaza sobre todo saltando. Las crías, que los especialistas llaman ninfas, pasan el invierno en la hiedra y en las plantas de hoja perenne.",
+    "La ninfa tiene en la base de las patas traseras dos tiras curvas de dientes que encajan entre sí como las ruedas dentadas de un reloj. Cada tira mide unos 400 micrómetros — cuatro décimas de milímetro — y lleva de diez a doce dientes.",
+    "¿Para qué sirve un engranaje dentro de una pata? Para que las dos patas salgan en el mismo instante. Cuando el insecto salta, las dos patas se mueven con una diferencia de 30 microsegundos, es decir, treinta millonésimas de segundo: si una empujara aunque fuera un poco antes que la otra, el cuerpo empezaría a girar sobre sí mismo y el salto acabaría de lado.",
+    "La precisión hace falta porque el empuje es violentísimo: la ninfa alcanza 3,9 metros por segundo en dos milésimas de segundo, una aceleración de casi doscientas veces la de la gravedad.",
+    "Lo interesante es por qué de esto no se ocupa el sistema nervioso, como pasa en los animales grandes. La respuesta es el tiempo: un impulso nervioso tiene que nacer, pasar de una célula a otra y llegar al músculo, y todo eso requiere mucho más de treinta millonésimas de segundo. El insecto no espera una orden: es la propia forma de las patas la que garantiza la sincronía.",
+    "También el diseño de los dientes es sorprendente. En la base, cada diente no forma un ángulo vivo, sino una curva suave. Es exactamente la solución que adoptan los ingenieros en las ruedas dentadas de acero, porque el ángulo vivo es el punto donde el metal se rompe.",
+    "Luego llega la paradoja: el adulto no tiene engranajes. Desaparecen con la última muda, y las patas se sincronizan solo por fricción, apoyándose una en la otra. Una hipótesis es que un diente roto sería un problema permanente: la ninfa cambia de piel y lo reconstruye todo, el adulto no.",
+    "El descubrimiento es de Malcolm Burrows y Gregory Sutton, de la Universidad de Cambridge, y se publicó en «Science» el 13 de septiembre de 2013. Es el primer engranaje funcional jamás encontrado en un ser vivo."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "O Issus coleoptratus é uma pequena cigarrinha europeia: quando adulta mede entre 5 e 7 milímetros e não sabe voar. Vive na hera e nas folhas das árvores, onde bebe a seiva.",
+    "Em 2013 dois pesquisadores da Universidade de Cambridge, Malcolm Burrows e Gregory Sutton, olharam no microscópio as patas dos filhotes e encontraram uma coisa que ninguém nunca tinha visto num animal: duas engrenagens dentadas que se encaixam.",
+    "Cada engrenagem é uma tira curva de uns 400 micrômetros, ou seja, quatro décimos de milímetro, com 10 ou 12 dentes.",
+    "Os cientistas filmaram o salto com uma câmera rapidíssima. As duas patas traseiras partiram juntas, com uma diferença de só 30 microssegundos: 30 milionésimos de segundo.",
+    "Essa precisão é necessária porque o impulso é enorme: o inseto atingiu 3,9 metros por segundo em 2 milésimos de segundo, quase 200 vezes a aceleração da gravidade. Se uma pata parte antes da outra, o corpo gira em torno de si mesmo.",
+    "O sistema nervoso não consegue fazer esse trabalho: os impulsos dos nervos são lentos demais para uma diferença tão pequena. A natureza resolveu o problema com a mecânica, não com o cérebro.",
+    "Os dentes não terminam com um ângulo vivo na base, mas com uma curva suave. Os engenheiros usam a mesma forma nas rodas dentadas das máquinas, porque assim o dente não quebra.",
+    "Quando adulto o inseto não tem mais as engrenagens: depois da última muda as patas são lisas e funcionam só com o atrito.",
+    "A pesquisa saiu na revista «Science» em 13 de setembro de 2013."
+   ],
+   "b1": [
+    "O Issus coleoptratus é uma cigarrinha comum na Europa: o adulto mede entre 5 e 7 milímetros, não voa e se desloca sobretudo pulando. Os filhotes, que os estudiosos chamam de ninfas, passam o inverno na hera e nas plantas perenes.",
+    "A ninfa tem na base das patas traseiras duas tiras curvas de dentes que se encaixam entre si como as rodas dentadas de um relógio. Cada tira tem uns 400 micrômetros — quatro décimos de milímetro — e leva de dez a doze dentes.",
+    "Para que serve uma engrenagem dentro de uma pata? Para fazer as duas pernas partirem no mesmo instante. Quando o inseto pula, as duas patas se movem com uma diferença de 30 microssegundos, ou seja, trinta milionésimos de segundo: se uma empurrasse mesmo que só um pouco antes da outra, o corpo começaria a girar em torno de si mesmo e o salto terminaria de lado.",
+    "A precisão é necessária porque o impulso é violentíssimo: a ninfa atinge 3,9 metros por segundo em dois milésimos de segundo, uma aceleração de quase duzentas vezes a da gravidade.",
+    "O ponto interessante é por que não é o sistema nervoso que cuida disso, como acontece nos animais grandes. A resposta é o tempo: um impulso nervoso precisa nascer, passar de uma célula para outra e chegar ao músculo, e tudo isso exige muito mais que trinta milionésimos de segundo. O inseto não espera uma ordem: é a própria forma das patas que garante a sincronia.",
+    "O desenho dos dentes também é surpreendente. Na base, cada dente não forma um ângulo vivo, mas uma curva suave. É exatamente a solução que os engenheiros adotam nas rodas dentadas de aço, porque o ângulo vivo é o ponto onde o metal se quebra.",
+    "Depois vem o paradoxo: o adulto não tem as engrenagens. Elas desaparecem com a última muda, e as patas se sincronizam só por atrito, apoiando-se uma na outra. Uma hipótese é que um dente quebrado seria um problema permanente: a ninfa troca de pele e reconstrói tudo, o adulto não.",
+    "A descoberta é de Malcolm Burrows e Gregory Sutton, da Universidade de Cambridge, e foi publicada na «Science» em 13 de setembro de 2013. É a primeira engrenagem funcionando já encontrada num ser vivo."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "L'Issus coleoptratus est une petite cicadelle européenne : adulte, elle mesure entre 5 et 7 millimètres et ne sait pas voler. Elle vit sur le lierre et sur les feuilles des arbres, où elle boit la sève.",
+    "En 2013, deux chercheurs de l'Université de Cambridge, Malcolm Burrows et Gregory Sutton, ont observé au microscope les pattes des jeunes et ont trouvé une chose que personne n'avait jamais vue chez un animal : deux engrenages dentés qui s'emboîtent.",
+    "Chaque engrenage est une bande courbe d'environ 400 micromètres, c'est-à-dire quatre dixièmes de millimètre, avec 10 ou 12 dents.",
+    "Les scientifiques ont filmé le saut avec une caméra ultrarapide. Les deux pattes arrière sont parties ensemble, avec une différence de seulement 30 microsecondes : 30 millionièmes de seconde.",
+    "Cette précision est nécessaire parce que la poussée est énorme : l'insecte a atteint 3,9 mètres par seconde en 2 millièmes de seconde, presque 200 fois l'accélération de la pesanteur. Si une patte part avant l'autre, le corps tourne sur lui-même.",
+    "Le système nerveux ne peut pas faire ce travail : les impulsions des nerfs sont trop lentes pour une différence aussi petite. La nature a résolu le problème avec la mécanique, pas avec le cerveau.",
+    "Les dents ne se terminent pas par un angle vif à la base, mais par une courbe douce. Les ingénieurs utilisent la même forme dans les roues dentées des machines, parce qu'ainsi la dent ne se casse pas.",
+    "Adulte, l'insecte n'a plus d'engrenages : après la dernière mue, ses pattes sont lisses et ne fonctionnent qu'avec le frottement.",
+    "La recherche a été publiée dans la revue « Science » le 13 septembre 2013."
+   ],
+   "b1": [
+    "L'Issus coleoptratus est une cicadelle répandue en Europe : l'adulte mesure entre 5 et 7 millimètres, ne vole pas et se déplace surtout en sautant. Les jeunes, que les spécialistes appellent nymphes, passent l'hiver sur le lierre et sur les plantes à feuillage persistant.",
+    "À la base de ses pattes arrière, la nymphe a deux bandes courbes de dents qui s'emboîtent comme les roues dentées d'une horloge. Chaque bande mesure environ 400 micromètres — quatre dixièmes de millimètre — et porte dix à douze dents.",
+    "À quoi sert un engrenage dans une patte ? À faire partir les deux pattes au même instant. Quand l'insecte saute, les deux pattes bougent avec un écart de 30 microsecondes, soit trente millionièmes de seconde : si l'une poussait ne serait-ce qu'un peu avant l'autre, le corps commencerait à tourner sur lui-même et le saut finirait de travers.",
+    "La précision est nécessaire parce que la poussée est extrêmement violente : la nymphe atteint 3,9 mètres par seconde en deux millièmes de seconde, une accélération de presque deux cents fois celle de la pesanteur.",
+    "Le point intéressant, c'est pourquoi ce n'est pas le système nerveux qui s'en occupe, comme chez les grands animaux. La réponse, c'est le temps : une impulsion nerveuse doit naître, passer d'une cellule à l'autre et arriver au muscle, et tout cela demande bien plus que trente millionièmes de seconde. L'insecte n'attend pas un ordre : c'est la forme même des pattes qui garantit la synchronisation.",
+    "Le dessin des dents aussi est surprenant. À la base, chaque dent ne forme pas un angle vif, mais une courbe douce. C'est exactement la solution qu'adoptent les ingénieurs pour les roues dentées en acier, parce que l'angle vif est l'endroit où le métal se casse.",
+    "Puis vient le paradoxe : l'adulte n'a pas d'engrenages. Ils disparaissent avec la dernière mue, et les pattes ne se synchronisent plus que par frottement, en s'appuyant l'une contre l'autre. Une hypothèse est qu'une dent cassée serait un ennui permanent : la nymphe change de peau et reconstruit tout, l'adulte non.",
+    "La découverte est due à Malcolm Burrows et Gregory Sutton, de l'Université de Cambridge, et a été publiée dans « Science » le 13 septembre 2013. C'est le premier engrenage fonctionnel jamais trouvé chez un être vivant."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Issus coleoptratus je malý evropský křísek: dospělý měří mezi 5 a 7 milimetry a neumí létat. Žije na břečťanu a na listech stromů, kde pije mízu.",
+    "V roce 2013 se dva výzkumníci z Cambridgeské univerzity, Malcolm Burrows a Gregory Sutton, podívali mikroskopem na nohy mláďat a našli něco, co nikdo nikdy u zvířete neviděl: dvě ozubená kolečka, která do sebe zapadají.",
+    "Každé kolečko je zakřivený proužek dlouhý asi 400 mikrometrů, tedy čtyři desetiny milimetru, s 10 nebo 12 zuby.",
+    "Vědci natočili skok velmi rychlou kamerou. Obě zadní nohy se odrazily společně, s rozdílem jen 30 mikrosekund: 30 miliontin sekundy.",
+    "Tahle přesnost je potřeba, protože odraz je obrovský: hmyz dosáhl rychlosti 3,9 metru za sekundu za 2 tisíciny sekundy, skoro 200násobku tíhového zrychlení. Kdyby se jedna noha odrazila dřív než druhá, tělo by se roztočilo.",
+    "Nervová soustava tuhle práci zvládnout nemůže: nervové vzruchy jsou na tak malý rozdíl příliš pomalé. Příroda vyřešila problém mechanikou, ne mozkem.",
+    "Zuby nekončí u základny ostrým úhlem, ale měkkým obloukem. Inženýři používají stejný tvar u ozubených kol strojů, protože tak se zub nezlomí.",
+    "Dospělý hmyz už kolečka nemá: po posledním svlékání jsou nohy hladké a fungují jen díky tření.",
+    "Výzkum vyšel v časopise „Science“ 13. září 2013."
+   ],
+   "b1": [
+    "Issus coleoptratus je křísek rozšířený v Evropě: dospělec měří mezi 5 a 7 milimetry, nelétá a pohybuje se hlavně skoky. Mláďata, kterým odborníci říkají nymfy, přezimují na břečťanu a na stálezelených rostlinách.",
+    "Nymfa má u základny zadních nohou dva zakřivené proužky zubů, které do sebe zapadají jako ozubená kolečka hodin. Každý proužek je dlouhý asi 400 mikrometrů — čtyři desetiny milimetru — a nese deset až dvanáct zubů.",
+    "K čemu je ozubené kolo v noze? K tomu, aby se obě nohy odrazily ve stejném okamžiku. Když hmyz skočí, obě nohy se pohnou s rozdílem 30 mikrosekund, tedy třiceti miliontin sekundy: kdyby jedna tlačila jen o trochu dřív než druhá, tělo by se začalo točit a skok by skončil bokem.",
+    "Přesnost je potřeba, protože odraz je nesmírně prudký: nymfa dosáhne 3,9 metru za sekundu za dvě tisíciny sekundy, což je zrychlení skoro dvousetnásobku tíhového zrychlení.",
+    "Zajímavé je, proč se o to nestará nervová soustava, jak je to u velkých zvířat. Odpovědí je čas: nervový vzruch musí vzniknout, přejít z jedné buňky na druhou a dorazit do svalu, a to všechno vyžaduje mnohem víc než třicet miliontin sekundy. Hmyz nečeká na rozkaz: synchronizaci zaručuje samotný tvar nohou.",
+    "Překvapivý je i tvar zubů. U základny netvoří žádný zub ostrý úhel, ale měkký oblouk. Je to přesně řešení, které inženýři používají u ocelových ozubených kol, protože ostrý úhel je místo, kde kov praská.",
+    "Pak přichází paradox: dospělec kolečka nemá. Zmizí při posledním svlékání a nohy se pak sladí jen třením, když se o sebe opírají. Jedna hypotéza říká, že zlomený zub by byl trvalý problém: nymfa mění kůži a všechno si znovu postaví, dospělec ne.",
+    "Objev pochází od Malcolma Burrowse a Gregoryho Suttona z Cambridgeské univerzity a byl zveřejněn v časopise „Science“ 13. září 2013. Je to první funkční ozubené soukolí, jaké kdy bylo nalezeno u živého tvora."
+   ]
+  },
+  "pl": {
+   "a2": [
+    "Issus coleoptratus to mały europejski skoczek: dorosły ma od 5 do 7 milimetrów i nie umie latać. Żyje na bluszczu i na liściach drzew, gdzie pije sok roślinny.",
+    "W 2013 roku dwaj badacze z Uniwersytetu w Cambridge, Malcolm Burrows i Gregory Sutton, obejrzeli pod mikroskopem nogi młodych owadów i znaleźli coś, czego nikt nigdy nie widział u zwierzęcia: dwa zębate koła, które się zazębiają.",
+    "Każde koło to zakrzywiony pasek długi na około 400 mikrometrów, czyli cztery dziesiąte milimetra, z 10 albo 12 zębami.",
+    "Naukowcy sfilmowali skok bardzo szybką kamerą. Obie tylne nogi ruszyły razem, z różnicą zaledwie 30 mikrosekund: 30 milionowych części sekundy.",
+    "Ta precyzja jest potrzebna, bo siła odbicia jest ogromna: owad osiągnął 3,9 metra na sekundę w 2 tysięczne sekundy, prawie 200 razy więcej niż przyspieszenie ziemskie. Jeśli jedna noga ruszy przed drugą, ciało obraca się wokół siebie.",
+    "Układ nerwowy nie może wykonać tej pracy: impulsy nerwów są za wolne na tak małą różnicę. Natura rozwiązała problem mechaniką, a nie mózgiem.",
+    "Zęby nie kończą się u podstawy ostrym kątem, ale łagodnym łukiem. Inżynierowie używają tego samego kształtu w kołach zębatych maszyn, bo wtedy ząb się nie łamie.",
+    "Dorosły owad nie ma już zębatych kół: po ostatnim linieniu nogi są gładkie i działają tylko dzięki tarciu.",
+    "Badanie ukazało się w czasopiśmie „Science” 13 września 2013 roku."
+   ],
+   "b1": [
+    "Issus coleoptratus to skoczek rozpowszechniony w Europie: dorosły osobnik ma od 5 do 7 milimetrów, nie lata i porusza się głównie skacząc. Młode, które naukowcy nazywają nimfami, spędzają zimę na bluszczu i na roślinach zimozielonych.",
+    "Nimfa ma u nasady tylnych nóg dwa zakrzywione paski zębów, które zazębiają się jak koła zębate zegara. Każdy pasek ma około 400 mikrometrów — cztery dziesiąte milimetra — i od dziesięciu do dwunastu zębów.",
+    "Do czego służy przekładnia w nodze? Do tego, żeby obie nogi ruszyły w tej samej chwili. Kiedy owad skacze, obie nogi poruszają się z różnicą 30 mikrosekund, czyli trzydziestu milionowych części sekundy: gdyby jedna pchnęła choćby trochę wcześniej niż druga, ciało zaczęłoby się obracać i skok skończyłby się w bok.",
+    "Precyzja jest potrzebna, bo odbicie jest niezwykle gwałtowne: nimfa osiąga 3,9 metra na sekundę w dwie tysięczne sekundy, czyli przyspieszenie prawie dwieście razy większe od ziemskiego.",
+    "Ciekawe jest to, dlaczego nie zajmuje się tym układ nerwowy, jak u dużych zwierząt. Odpowiedzią jest czas: impuls nerwowy musi powstać, przejść z jednej komórki do drugiej i dotrzeć do mięśnia, a to wszystko wymaga dużo więcej niż trzydziestu milionowych sekundy. Owad nie czeka na rozkaz: to sam kształt nóg gwarantuje synchronizację.",
+    "Zaskakujący jest też kształt zębów. U podstawy żaden ząb nie tworzy ostrego kąta, tylko łagodny łuk. To dokładnie to rozwiązanie, które inżynierowie stosują w stalowych kołach zębatych, bo ostry kąt to miejsce, w którym metal pęka.",
+    "Potem pojawia się paradoks: dorosły owad nie ma zębatych kół. Znikają przy ostatnim linieniu, a nogi synchronizują się już tylko przez tarcie, opierając się jedna o drugą. Jedna z hipotez mówi, że złamany ząb byłby trwałym kłopotem: nimfa zmienia skórę i wszystko odbudowuje, dorosły nie.",
+    "Odkrycia dokonali Malcolm Burrows i Gregory Sutton z Uniwersytetu w Cambridge, a opublikowano je w „Science” 13 września 2013 roku. To pierwsza działająca przekładnia zębata, jaką kiedykolwiek znaleziono u żywej istoty."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Issus coleoptratus küçük bir Avrupa yaprak piresidir: yetişkinken 5 ile 7 milimetre arasındadır ve uçamaz. Sarmaşıkların ve ağaç yapraklarının üstünde yaşar, orada bitki özsuyu içer.",
+    "2013'te Cambridge Üniversitesi'nden iki araştırmacı, Malcolm Burrows ve Gregory Sutton, yavruların bacaklarına mikroskopla baktı ve bir hayvanda daha önce kimsenin görmediği bir şey buldu: birbirine geçen iki dişli çark.",
+    "Her dişli, yaklaşık 400 mikrometre yani milimetrenin onda dördü uzunluğunda, 10 ya da 12 dişi olan kavisli bir şerittir.",
+    "Bilim insanları sıçramayı çok hızlı bir kamerayla çekti. İki arka bacak birlikte harekete geçti, aralarında sadece 30 mikrosaniye fark vardı: saniyenin 30 milyonda biri.",
+    "Bu hassasiyet gerekli, çünkü itiş gücü muazzam: böcek saniyenin binde 2'sinde saniyede 3,9 metre hıza ulaştı, bu yer çekimi ivmesinin neredeyse 200 katı. Bir bacak diğerinden önce harekete geçerse vücut kendi etrafında döner.",
+    "Sinir sistemi bu işi yapamaz: sinir uyarıları bu kadar küçük bir fark için fazla yavaştır. Doğa bu sorunu beyinle değil, mekanikle çözdü.",
+    "Dişler tabanda keskin bir köşeyle değil, yumuşak bir kavisle biter. Mühendisler makinelerin dişli çarklarında aynı biçimi kullanır, çünkü böylece diş kırılmaz.",
+    "Yetişkin böceğin artık dişlileri yoktur: son deri değiştirmeden sonra bacakları pürüzsüzdür ve yalnızca sürtünmeyle çalışır.",
+    "Araştırma 13 Eylül 2013'te «Science» dergisinde yayımlandı."
+   ],
+   "b1": [
+    "Issus coleoptratus Avrupa'da yaygın bir yaprak piresidir: yetişkini 5 ile 7 milimetre arasındadır, uçmaz ve çoğunlukla sıçrayarak hareket eder. Uzmanların nimf dediği yavrular kışı sarmaşıklarda ve her dem yeşil bitkilerde geçirir.",
+    "Nimfin arka bacaklarının dibinde, bir saatin dişli çarkları gibi birbirine geçen iki kavisli diş şeridi vardır. Her şerit yaklaşık 400 mikrometre — milimetrenin onda dördü — uzunluğundadır ve on ila on iki diş taşır.",
+    "Bir bacağın içinde dişli ne işe yarar? İki bacağı aynı anda harekete geçirmeye. Böcek sıçradığında iki bacak 30 mikrosaniye, yani saniyenin otuz milyonda biri farkla hareket eder: biri diğerinden azıcık bile önce itseydi, vücut kendi etrafında dönmeye başlar ve sıçrama yana doğru biterdi.",
+    "Hassasiyet gerekli, çünkü itiş son derece şiddetli: nimf saniyenin binde ikisinde saniyede 3,9 metreye ulaşır; bu, yer çekimi ivmesinin neredeyse iki yüz katıdır.",
+    "İlginç olan, bu işle neden büyük hayvanlarda olduğu gibi sinir sisteminin ilgilenmediğidir. Cevap zamandır: bir sinir uyarısı doğmalı, bir hücreden ötekine geçmeli ve kasa ulaşmalıdır; bütün bunlar saniyenin otuz milyonda birinden çok daha fazla zaman gerektirir. Böcek bir emir beklemez: eşzamanlılığı garanti eden, bacakların biçiminin ta kendisidir.",
+    "Dişlerin tasarımı da şaşırtıcıdır. Her diş tabanda keskin bir köşe değil, yumuşak bir kavis oluşturur. Bu, mühendislerin çelik dişli çarklarda kullandığı çözümün aynısıdır, çünkü keskin köşe metalin kırıldığı noktadır.",
+    "Sonra paradoks gelir: yetişkinde dişliler yoktur. Son deri değiştirmeyle kaybolurlar ve bacaklar artık sadece sürtünmeyle, birbirine dayanarak eşzamanlı çalışır. Bir varsayıma göre kırık bir diş kalıcı bir dert olurdu: nimf deri değiştirir ve her şeyi yeniden yapar, yetişkin yapamaz.",
+    "Keşif, Cambridge Üniversitesi'nden Malcolm Burrows ve Gregory Sutton'a aittir ve 13 Eylül 2013'te «Science» dergisinde yayımlanmıştır. Bu, canlı bir varlıkta şimdiye kadar bulunmuş ilk çalışan dişlidir."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Issus coleoptratus ist eine kleine europäische Zikade: Erwachsen misst sie zwischen 5 und 7 Millimetern und kann nicht fliegen. Sie lebt auf Efeu und auf den Blättern von Bäumen, wo sie Pflanzensaft trinkt.",
+    "2013 haben zwei Forscher der Universität Cambridge, Malcolm Burrows und Gregory Sutton, die Beine der Jungtiere unter dem Mikroskop betrachtet und etwas gefunden, was noch niemand bei einem Tier gesehen hatte: zwei gezahnte Zahnräder, die ineinandergreifen.",
+    "Jedes Zahnrad ist ein gebogener Streifen von etwa 400 Mikrometern, also vier Zehntel Millimetern, mit 10 oder 12 Zähnen.",
+    "Die Wissenschaftler haben den Sprung mit einer superschnellen Kamera gefilmt. Die beiden Hinterbeine starteten zusammen, mit einem Unterschied von nur 30 Mikrosekunden: 30 Millionstel einer Sekunde.",
+    "Diese Präzision ist nötig, weil der Schub enorm ist: Das Insekt erreichte 3,9 Meter pro Sekunde in 2 Tausendstelsekunden, fast das 200-Fache der Erdbeschleunigung. Wenn ein Bein vor dem anderen startet, dreht sich der Körper um sich selbst.",
+    "Das Nervensystem kann diese Arbeit nicht leisten: Die Nervenimpulse sind für einen so kleinen Unterschied zu langsam. Die Natur hat das Problem mit Mechanik gelöst, nicht mit dem Gehirn.",
+    "Die Zähne enden an der Basis nicht mit einer scharfen Ecke, sondern mit einer weichen Rundung. Ingenieure verwenden dieselbe Form bei den Zahnrädern von Maschinen, weil der Zahn so nicht bricht.",
+    "Als Erwachsenes hat das Insekt keine Zahnräder mehr: Nach der letzten Häutung sind seine Beine glatt und arbeiten nur mit Reibung.",
+    "Die Studie erschien am 13. September 2013 in der Zeitschrift „Science“."
+   ],
+   "b1": [
+    "Issus coleoptratus ist eine in Europa verbreitete Zikade: Das erwachsene Tier misst zwischen 5 und 7 Millimetern, fliegt nicht und bewegt sich vor allem springend fort. Die Jungtiere, die Fachleute Nymphen nennen, verbringen den Winter auf Efeu und auf immergrünen Pflanzen.",
+    "Die Nymphe hat an der Basis der Hinterbeine zwei gebogene Zahnstreifen, die ineinandergreifen wie die Zahnräder einer Uhr. Jeder Streifen ist etwa 400 Mikrometer lang — vier Zehntel Millimeter — und trägt zehn bis zwölf Zähne.",
+    "Wozu dient ein Zahnrad in einem Bein? Dazu, dass beide Beine im selben Augenblick starten. Wenn das Insekt springt, bewegen sich die beiden Beine mit einem Abstand von 30 Mikrosekunden, also dreißig Millionstelsekunden: Würde eines auch nur ein wenig früher drücken als das andere, würde der Körper anfangen, sich um sich selbst zu drehen, und der Sprung ginge zur Seite.",
+    "Die Präzision ist nötig, weil der Schub äußerst heftig ist: Die Nymphe erreicht 3,9 Meter pro Sekunde in zwei Tausendstelsekunden, eine Beschleunigung von fast dem Zweihundertfachen der Erdbeschleunigung.",
+    "Interessant ist, warum sich nicht das Nervensystem darum kümmert, wie bei großen Tieren. Die Antwort ist die Zeit: Ein Nervenimpuls muss entstehen, von einer Zelle zur nächsten gelangen und den Muskel erreichen, und all das braucht viel mehr als dreißig Millionstelsekunden. Das Insekt wartet nicht auf einen Befehl: Die Form der Beine selbst garantiert den Gleichtakt.",
+    "Auch die Gestalt der Zähne ist überraschend. An der Basis bildet jeder Zahn keine scharfe Ecke, sondern eine weiche Rundung. Das ist genau die Lösung, die Ingenieure bei Zahnrädern aus Stahl anwenden, weil die scharfe Ecke die Stelle ist, an der das Metall bricht.",
+    "Dann kommt das Paradox: Das erwachsene Tier hat keine Zahnräder. Sie verschwinden mit der letzten Häutung, und die Beine stimmen sich nur noch durch Reibung ab, indem sie sich aneinander abstützen. Eine Hypothese lautet, dass ein abgebrochener Zahn ein dauerhaftes Problem wäre: Die Nymphe wechselt die Haut und baut alles neu, das erwachsene Tier nicht.",
+    "Die Entdeckung stammt von Malcolm Burrows und Gregory Sutton von der Universität Cambridge und wurde am 13. September 2013 in „Science“ veröffentlicht. Es ist das erste funktionierende Zahnradgetriebe, das je bei einem Lebewesen gefunden wurde."
+   ]
+  },
+  "ja": {
+   "a2": [
+    "イッスス・コレオプトラトゥスは、ヨーロッパにすむ小さなウンカの仲間です。大人になると体長5〜7ミリで、飛ぶことはできません。ツタや木の葉の上で暮らし、そこで樹液を吸います。",
+    "2013年、ケンブリッジ大学の研究者マルコム・バローズとグレゴリー・サットンが、幼虫の脚を顕微鏡で見て、動物ではだれも見たことのないものを見つけました。かみ合う2つの歯車です。",
+    "それぞれの歯車は長さ約400マイクロメートル、つまり0.4ミリの曲がった帯で、歯が10〜12本あります。",
+    "科学者たちは、とても速いカメラでジャンプを撮影しました。2本の後ろ脚はいっしょに動き出し、その差はわずか30マイクロ秒、つまり3000万分の1秒でした。",
+    "この正確さが必要なのは、押す力がものすごく大きいからです。この虫は1000分の2秒で秒速3.9メートルに達しました。重力加速度のほぼ200倍です。もし片方の脚がもう片方より先に動くと、体がくるくる回ってしまいます。",
+    "神経系にはこの仕事はできません。神経の信号は、こんなに小さな差に対しては遅すぎるのです。自然はこの問題を、脳ではなく機械の仕組みで解決しました。",
+    "歯は根元が鋭い角ではなく、なめらかなカーブで終わっています。エンジニアも機械の歯車に同じ形を使います。そうすると歯が折れないからです。",
+    "大人になると、この虫にはもう歯車がありません。最後の脱皮のあと、脚はなめらかになり、摩擦だけで動きます。",
+    "この研究は、2013年9月13日に雑誌『サイエンス』に発表されました。"
+   ],
+   "b1": [
+    "イッスス・コレオプトラトゥスはヨーロッパに広く分布するウンカの仲間だ。成虫は体長5〜7ミリで、飛ばずに、おもにジャンプして移動する。研究者が「若虫」と呼ぶ幼虫は、ツタや常緑植物の上で冬を越す。",
+    "若虫の後ろ脚の付け根には、時計の歯車のようにかみ合う、曲がった2本の歯の帯がある。帯の長さはそれぞれ約400マイクロメートル（0.4ミリ）で、10〜12本の歯がついている。",
+    "脚の中の歯車は何の役に立つのか。2本の脚を同じ瞬間に動かすためだ。虫がジャンプするとき、2本の脚は30マイクロ秒、つまり3000万分の1秒の差で動く。もし片方がほんの少しでも早く押したら、体は回転し始め、ジャンプは横にそれてしまうだろう。",
+    "これほどの正確さが必要なのは、押す力がすさまじいからだ。若虫は1000分の2秒で秒速3.9メートルに達する。重力加速度のほぼ200倍の加速だ。",
+    "興味深いのは、なぜ大きな動物のように神経系がこれを担当しないのかという点だ。答えは時間である。神経の信号は、生まれ、細胞から細胞へ伝わり、筋肉に届かなければならない。そのすべてには3000万分の1秒よりずっと長い時間がかかる。虫は命令を待たない。脚の形そのものが、動きのタイミングをそろえているのだ。",
+    "歯の形もまた驚きだ。根元で、どの歯も鋭い角ではなく、なめらかなカーブを描いている。これはまさに、エンジニアが鋼鉄の歯車に採用している解決策だ。鋭い角は金属が折れやすい場所だからである。",
+    "そして矛盾が現れる。成虫には歯車がないのだ。最後の脱皮で歯車は消え、脚は互いに寄りかかり合い、摩擦だけで動きをそろえる。一つの仮説では、歯が折れたら取り返しのつかない問題になるからだという。若虫は脱皮してすべてを作り直せるが、成虫にはそれができない。",
+    "この発見はケンブリッジ大学のマルコム・バローズとグレゴリー・サットンによるもので、2013年9月13日に『サイエンス』に発表された。生き物で見つかった、初めての実際に働く歯車である。"
+   ]
+  }
+ }
+}
