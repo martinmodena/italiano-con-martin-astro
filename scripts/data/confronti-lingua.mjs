@@ -28,6 +28,7 @@ import { NOTES_CONDIZIONALE_CONGIUNTIVO } from './confronti-condizionale-congiun
 import { NOTES_FUTURO_ANTERIORE } from './confronti-futuro-anteriore.mjs';
 import { NOTES_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 import { NOTES_GENERE_NUMERO } from './confronti-genere-numero.mjs';
+import { NOTES_PRESENTE_REGOLARE } from './confronti-presente-regolare.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3157,3 +3158,5 @@ Object.assign(NOTES, NOTES_PERIODO_IPOTETICO);
 Object.assign(NOTES, NOTES_FUTURO_ANTERIORE);
 // Genere e numero (A1), rifatta il 2026-11-23: prima non aveva il confronto.
 Object.assign(NOTES, NOTES_GENERE_NUMERO);
+// Presente dei verbi regolari (A1), rifatta il 2026-11-23: prima non aveva il confronto.
+Object.assign(NOTES, NOTES_PRESENTE_REGOLARE);

@@ -1308,3 +1308,4 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Fatto oggi**: «Il condizionale presente» (B1), 10 → 30 esercizi, nelle 10 lingue, PDF e libro di grammatica rifatti.
 - **Fatto lo stesso giorno**: «L'imperativo» (B1), 20 → 30 esercizi, con il negativo per tutte le persone, i pronomi doppi e le parole del parlato; la versione portoghese non è più scritta a parte ma tradotta dalla spagnola.
 - **Fatto lo stesso giorno**: «Genere e numero dei nomi» (A1), 8 → 30 esercizi, con confronto ed errori per lingua che prima mancavano del tutto.
+- **Fatto lo stesso giorno**: «Il presente dei verbi regolari» (A1), 12 → 30 esercizi, con confronto ed errori per lingua che prima mancavano.

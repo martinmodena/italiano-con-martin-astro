@@ -1717,4 +1717,25 @@ export const NAV_LABELS = {
     de: 'Unveränderliche Nomen',
     ja: '変わらない名詞',
   },
+  // Presente dei verbi regolari (A1), 2026-11-23.
+  'Verbi in -isc-': {
+    en: 'Verbs in -isc-',
+    es: 'Verbos en -isc-',
+    fr: 'Verbes en -isc-',
+    cs: 'Slovesa s -isc-',
+    pl: 'Czasowniki z -isc-',
+    tr: '-isc- alan fiiller',
+    de: 'Verben mit -isc-',
+    ja: '-isc- 型の動詞',
+  },
+  Ortografia: {
+    en: 'Spelling',
+    es: 'Ortografía',
+    fr: 'Orthographe',
+    cs: 'Pravopis',
+    pl: 'Pisownia',
+    tr: 'Yazım',
+    de: 'Rechtschreibung',
+    ja: 'つづり',
+  },
 };
