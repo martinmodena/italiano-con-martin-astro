@@ -1,0 +1,1596 @@
+{
+ "id": "le-formiche-che-costruiscono-ponti",
+ "nota": "Glossario e traduzione della lettura (A1 e B1 tradotti; B2 solo glossario): formato descritto in AGENTS.md.",
+ "voci": [
+  {
+   "parola": "la foresta",
+   "forme": [
+    "foreste",
+    "foresta"
+   ],
+   "esempi": [
+    "La foresta amazzonica è enorme.",
+    "Nella foresta vivono tanti animali.",
+    "Le foreste sono importanti per l'aria."
+   ],
+   "traduzioni": {
+    "en": "forest",
+    "es": "selva, bosque",
+    "pt": "floresta",
+    "fr": "forêt",
+    "cs": "les, prales",
+    "pl": "las",
+    "tr": "orman",
+    "de": "Wald",
+    "ja": "森"
+   }
+  },
+  {
+   "parola": "fisso",
+   "forme": [
+    "fissa",
+    "fisso"
+   ],
+   "esempi": [
+    "Ho un lavoro fisso.",
+    "Non abbiamo una casa fissa.",
+    "Il prezzo è fisso."
+   ],
+   "traduzioni": {
+    "en": "fixed, permanent",
+    "es": "fijo",
+    "pt": "fixo",
+    "fr": "fixe",
+    "cs": "stálý, pevný",
+    "pl": "stały",
+    "tr": "sabit",
+    "de": "fest",
+    "ja": "決まった、固定の"
+   }
+  },
+  {
+   "parola": "la fila",
+   "forme": [
+    "fila"
+   ],
+   "esempi": [
+    "C'è una lunga fila alla posta.",
+    "I bambini camminano in fila.",
+    "Mettetevi in fila, per favore."
+   ],
+   "traduzioni": {
+    "en": "line, row, queue",
+    "es": "fila",
+    "pt": "fila",
+    "fr": "file, rang",
+    "cs": "řada, fronta",
+    "pl": "rząd, kolejka",
+    "tr": "sıra, kuyruk",
+    "de": "Reihe, Schlange",
+    "ja": "列"
+   }
+  },
+  {
+   "parola": "le migliaia",
+   "forme": [
+    "migliaia"
+   ],
+   "esempi": [
+    "Migliaia di persone sono in piazza.",
+    "Ci sono migliaia di stelle.",
+    "Ha speso migliaia di euro."
+   ],
+   "traduzioni": {
+    "en": "thousands",
+    "es": "miles",
+    "pt": "milhares",
+    "fr": "milliers",
+    "cs": "tisíce",
+    "pl": "tysiące",
+    "tr": "binlerce",
+    "de": "Tausende",
+    "ja": "何千もの"
+   }
+  },
+  {
+   "parola": "il cibo",
+   "forme": [
+    "cibo"
+   ],
+   "esempi": [
+    "Il cibo italiano è buono.",
+    "Il gatto cerca cibo.",
+    "Non buttare il cibo!"
+   ],
+   "traduzioni": {
+    "en": "food",
+    "es": "comida",
+    "pt": "comida",
+    "fr": "nourriture",
+    "cs": "jídlo, potrava",
+    "pl": "jedzenie",
+    "tr": "yiyecek",
+    "de": "Essen, Nahrung",
+    "ja": "食べ物"
+   }
+  },
+  {
+   "parola": "l'odore",
+   "forme": [
+    "odori"
+   ],
+   "formeEsempi": [
+    "odore"
+   ],
+   "esempi": [
+    "Che buon odore di pane!",
+    "Il cane riconosce gli odori.",
+    "Non mi piace questo odore."
+   ],
+   "traduzioni": {
+    "en": "smell",
+    "es": "olor",
+    "pt": "cheiro",
+    "fr": "odeur",
+    "cs": "pach, vůně",
+    "pl": "zapach",
+    "tr": "koku",
+    "de": "Geruch",
+    "ja": "におい"
+   }
+  },
+  {
+   "parola": "toccare",
+   "forme": [
+    "toccano",
+    "tocca"
+   ],
+   "formeEsempi": [
+    "tocco",
+    "toccare"
+   ],
+   "esempi": [
+    "Non toccare il forno!",
+    "Il bambino tocca tutto.",
+    "Tocca a te!"
+   ],
+   "traduzioni": {
+    "en": "to touch («tocca a te» = it's your turn)",
+    "es": "tocar",
+    "pt": "tocar",
+    "fr": "toucher",
+    "cs": "dotýkat se",
+    "pl": "dotykać",
+    "tr": "dokunmak",
+    "de": "berühren",
+    "ja": "触る"
+   }
+  },
+  {
+   "parola": "seguire",
+   "forme": [
+    "seguono",
+    "segua"
+   ],
+   "formeEsempi": [
+    "seguo",
+    "segui",
+    "seguimi"
+   ],
+   "esempi": [
+    "Seguimi, ti mostro la strada.",
+    "Seguo un corso d'italiano.",
+    "I pulcini seguono la mamma."
+   ],
+   "traduzioni": {
+    "en": "to follow",
+    "es": "seguir",
+    "pt": "seguir",
+    "fr": "suivre",
+    "cs": "následovat",
+    "pl": "iść za, śledzić",
+    "tr": "takip etmek",
+    "de": "folgen",
+    "ja": "ついて行く、従う"
+   }
+  },
+  {
+   "parola": "il buco",
+   "forme": [
+    "buco"
+   ],
+   "esempi": [
+    "Ho un buco nella calza.",
+    "Il topo entra nel buco.",
+    "C'è un buco nella strada."
+   ],
+   "traduzioni": {
+    "en": "hole, gap",
+    "es": "agujero, hueco",
+    "pt": "buraco",
+    "fr": "trou",
+    "cs": "díra",
+    "pl": "dziura",
+    "tr": "delik, boşluk",
+    "de": "Loch",
+    "ja": "穴、すき間"
+   }
+  },
+  {
+   "parola": "la foglia",
+   "forme": [
+    "foglie",
+    "foglia"
+   ],
+   "esempi": [
+    "In autunno cadono le foglie.",
+    "La foglia è verde.",
+    "Il bruco mangia una foglia."
+   ],
+   "traduzioni": {
+    "en": "leaf",
+    "es": "hoja",
+    "pt": "folha",
+    "fr": "feuille",
+    "cs": "list",
+    "pl": "liść",
+    "tr": "yaprak",
+    "de": "Blatt",
+    "ja": "葉"
+   }
+  },
+  {
+   "parola": "aggrapparsi",
+   "forme": [
+    "aggrappa",
+    "aggrappate"
+   ],
+   "formeEsempi": [
+    "aggrappo"
+   ],
+   "esempi": [
+    "Il bambino si aggrappa alla mamma.",
+    "Mi aggrappo alla corda.",
+    "Le scimmie stanno aggrappate ai rami."
+   ],
+   "traduzioni": {
+    "en": "to cling, to hold on",
+    "es": "agarrarse, aferrarse",
+    "pt": "agarrar-se",
+    "fr": "s'accrocher, s'agripper",
+    "cs": "chytit se, držet se",
+    "pl": "uczepić się",
+    "tr": "tutunmak",
+    "de": "sich festklammern",
+    "ja": "しがみつく"
+   }
+  },
+  {
+   "parola": "il bordo",
+   "forme": [
+    "bordo",
+    "bordi"
+   ],
+   "esempi": [
+    "Non stare sul bordo della piscina!",
+    "Il bicchiere è pieno fino al bordo.",
+    "I bordi del tavolo sono rotondi."
+   ],
+   "traduzioni": {
+    "en": "edge, rim",
+    "es": "borde",
+    "pt": "borda, beira",
+    "fr": "bord",
+    "cs": "okraj",
+    "pl": "brzeg, krawędź",
+    "tr": "kenar",
+    "de": "Rand",
+    "ja": "縁、へり"
+   }
+  },
+  {
+   "parola": "staccarsi",
+   "forme": [
+    "staccano",
+    "staccati"
+   ],
+   "formeEsempi": [
+    "stacca"
+   ],
+   "esempi": [
+    "Il bottone si stacca dalla giacca.",
+    "Staccati dal telefono e vieni a cena!",
+    "Le foglie si staccano dai rami."
+   ],
+   "traduzioni": {
+    "en": "to come off, to let go, to detach",
+    "es": "soltarse, desprenderse",
+    "pt": "soltar-se, desprender-se",
+    "fr": "se détacher",
+    "cs": "odpojit se, odtrhnout se",
+    "pl": "odczepić się",
+    "tr": "ayrılmak, kopmak",
+    "de": "sich lösen",
+    "ja": "離れる、外れる"
+   }
+  },
+  {
+   "parola": "il capo",
+   "forme": [
+    "capo"
+   ],
+   "esempi": [
+    "Il mio capo è molto gentile.",
+    "Chi è il capo qui?",
+    "Il capo del gruppo decide."
+   ],
+   "traduzioni": {
+    "en": "boss, leader",
+    "es": "jefe",
+    "pt": "chefe, líder",
+    "fr": "chef",
+    "cs": "šéf, vůdce",
+    "pl": "szef, przywódca",
+    "tr": "patron, lider",
+    "de": "Chef, Anführer",
+    "ja": "リーダー、上司"
+   }
+  },
+  {
+   "parola": "fidarsi",
+   "forme": [
+    "fidi"
+   ],
+   "formeEsempi": [
+    "fido",
+    "fidarti"
+   ],
+   "esempi": [
+    "Mi fido di te.",
+    "Non ti fidi di nessuno?",
+    "Puoi fidarti di lei."
+   ],
+   "traduzioni": {
+    "en": "to trust",
+    "es": "fiarse, confiar",
+    "pt": "confiar",
+    "fr": "faire confiance",
+    "cs": "důvěřovat",
+    "pl": "ufać",
+    "tr": "güvenmek",
+    "de": "vertrauen",
+    "ja": "信頼する"
+   }
+  },
+  {
+   "parola": "il ricercatore",
+   "forme": [
+    "ricercatori"
+   ],
+   "formeEsempi": [
+    "ricercatore",
+    "ricercatrice"
+   ],
+   "esempi": [
+    "Mia sorella fa la ricercatrice.",
+    "I ricercatori hanno scoperto un nuovo farmaco.",
+    "Il ricercatore scrive un articolo."
+   ],
+   "traduzioni": {
+    "en": "researcher",
+    "es": "investigador",
+    "pt": "pesquisador",
+    "fr": "chercheur",
+    "cs": "výzkumník",
+    "pl": "badacz",
+    "tr": "araştırmacı",
+    "de": "Forscher",
+    "ja": "研究者"
+   }
+  },
+  {
+   "parola": "il sentiero",
+   "forme": [
+    "sentiero"
+   ],
+   "esempi": [
+    "Il sentiero porta al lago.",
+    "Camminiamo sul sentiero di montagna.",
+    "Non uscire dal sentiero!"
+   ],
+   "traduzioni": {
+    "en": "path, trail",
+    "es": "sendero",
+    "pt": "trilha",
+    "fr": "sentier",
+    "cs": "stezka",
+    "pl": "ścieżka",
+    "tr": "patika",
+    "de": "Pfad",
+    "ja": "小道"
+   }
+  },
+  {
+   "parola": "l'ostacolo",
+   "forme": [
+    "ostacolo"
+   ],
+   "esempi": [
+    "C'è un ostacolo sulla strada.",
+    "La lingua non è un ostacolo.",
+    "Il cavallo salta l'ostacolo."
+   ],
+   "traduzioni": {
+    "en": "obstacle",
+    "es": "obstáculo",
+    "pt": "obstáculo",
+    "fr": "obstacle",
+    "cs": "překážka",
+    "pl": "przeszkoda",
+    "tr": "engel",
+    "de": "Hindernis",
+    "ja": "障害物"
+   }
+  },
+  {
+   "parola": "il pannello",
+   "forme": [
+    "pannelli"
+   ],
+   "formeEsempi": [
+    "pannello"
+   ],
+   "esempi": [
+    "Sul tetto ci sono pannelli solari.",
+    "Il pannello è di legno.",
+    "Leggi il pannello all'ingresso del museo."
+   ],
+   "traduzioni": {
+    "en": "panel, board",
+    "es": "panel",
+    "pt": "painel",
+    "fr": "panneau",
+    "cs": "panel, deska",
+    "pl": "panel, płyta",
+    "tr": "panel",
+    "de": "Platte, Tafel",
+    "ja": "パネル、板"
+   }
+  },
+  {
+   "parola": "l'angolo",
+   "forme": [
+    "angolo",
+    "angoli"
+   ],
+   "esempi": [
+    "Il bar è all'angolo.",
+    "Metti la pianta in quell'angolo.",
+    "Un triangolo ha tre angoli."
+   ],
+   "traduzioni": {
+    "en": "corner, angle",
+    "es": "esquina, rincón, ángulo",
+    "pt": "canto, esquina, ângulo",
+    "fr": "coin, angle",
+    "cs": "roh, úhel",
+    "pl": "róg, kąt",
+    "tr": "köşe, açı",
+    "de": "Ecke, Winkel",
+    "ja": "角、角度"
+   }
+  },
+  {
+   "parola": "costruire",
+   "forme": [
+    "costruito",
+    "costruirla",
+    "costruire"
+   ],
+   "esempi": [
+    "Hanno costruito una casa nuova.",
+    "Vogliamo costruire un ponte.",
+    "Il nonno ha costruito questo tavolo."
+   ],
+   "traduzioni": {
+    "en": "to build",
+    "es": "construir",
+    "pt": "construir",
+    "fr": "construire",
+    "cs": "stavět, postavit",
+    "pl": "budować",
+    "tr": "inşa etmek",
+    "de": "bauen",
+    "ja": "作る、建てる"
+   }
+  },
+  {
+   "parola": "spostarsi",
+   "forme": [
+    "spostato",
+    "sposta"
+   ],
+   "formeEsempi": [
+    "sposto",
+    "sposti",
+    "spostata"
+   ],
+   "esempi": [
+    "Ti sposti un po'? Non vedo.",
+    "La riunione si è spostata a lunedì.",
+    "Mi sposto in bici."
+   ],
+   "traduzioni": {
+    "en": "to move, to shift",
+    "es": "moverse, desplazarse",
+    "pt": "deslocar-se, mover-se",
+    "fr": "se déplacer",
+    "cs": "posunout se, přesunout se",
+    "pl": "przesunąć się",
+    "tr": "kaymak, yer değiştirmek",
+    "de": "sich verschieben, sich bewegen",
+    "ja": "移動する、ずれる"
+   }
+  },
+  {
+   "parola": "l'apertura",
+   "forme": [
+    "apertura"
+   ],
+   "esempi": [
+    "L'apertura del negozio è alle nove.",
+    "C'è un'apertura nel muro.",
+    "Mi piace la sua apertura mentale."
+   ],
+   "traduzioni": {
+    "en": "opening",
+    "es": "apertura, abertura",
+    "pt": "abertura",
+    "fr": "ouverture",
+    "cs": "otvor, otevření",
+    "pl": "otwór, otwarcie",
+    "tr": "açıklık, açılış",
+    "de": "Öffnung",
+    "ja": "開口部、開くこと"
+   }
+  },
+  {
+   "parola": "il percorso",
+   "forme": [
+    "percorso"
+   ],
+   "esempi": [
+    "Il percorso è lungo dieci chilometri.",
+    "Conosco un percorso più breve.",
+    "Seguite il percorso segnato."
+   ],
+   "traduzioni": {
+    "en": "route, path",
+    "es": "recorrido",
+    "pt": "percurso",
+    "fr": "parcours",
+    "cs": "trasa",
+    "pl": "trasa",
+    "tr": "güzergâh",
+    "de": "Strecke, Weg",
+    "ja": "道のり、コース"
+   }
+  },
+  {
+   "parola": "corto",
+   "forme": [
+    "corto",
+    "corta"
+   ],
+   "esempi": [
+    "Ho i capelli corti.",
+    "Questa strada è più corta.",
+    "Il film è troppo corto."
+   ],
+   "traduzioni": {
+    "en": "short",
+    "es": "corto",
+    "pt": "curto",
+    "fr": "court",
+    "cs": "krátký",
+    "pl": "krótki",
+    "tr": "kısa",
+    "de": "kurz",
+    "ja": "短い"
+   },
+   "formeEsempi": [
+    "corti"
+   ]
+  },
+  {
+   "parola": "accorciare",
+   "forme": [
+    "accorciare"
+   ],
+   "formeEsempi": [
+    "accorcia"
+   ],
+   "esempi": [
+    "Devo accorciare i pantaloni.",
+    "Questa strada accorcia il viaggio.",
+    "Vuole accorciare il testo."
+   ],
+   "traduzioni": {
+    "en": "to shorten",
+    "es": "acortar",
+    "pt": "encurtar",
+    "fr": "raccourcir",
+    "cs": "zkrátit",
+    "pl": "skrócić",
+    "tr": "kısaltmak",
+    "de": "verkürzen",
+    "ja": "短くする"
+   }
+  },
+  {
+   "parola": "la prova",
+   "forme": [
+    "prova"
+   ],
+   "esempi": [
+    "Facciamo una prova!",
+    "Domani ho una prova di matematica.",
+    "Non c'è nessuna prova."
+   ],
+   "traduzioni": {
+    "en": "test, trial (also: proof)",
+    "es": "prueba",
+    "pt": "teste, prova",
+    "fr": "essai, épreuve (aussi : preuve)",
+    "cs": "pokus, zkouška (i: důkaz)",
+    "pl": "próba (też: dowód)",
+    "tr": "deneme, sınav (ayrıca: kanıt)",
+    "de": "Versuch, Probe (auch: Beweis)",
+    "ja": "試し、テスト（証拠、の意味も）"
+   }
+  },
+  {
+   "parola": "il prezzo",
+   "forme": [
+    "prezzo"
+   ],
+   "esempi": [
+    "Qual è il prezzo?",
+    "Il prezzo della benzina è salito.",
+    "Ogni scelta ha un prezzo."
+   ],
+   "traduzioni": {
+    "en": "price, cost",
+    "es": "precio",
+    "pt": "preço",
+    "fr": "prix",
+    "cs": "cena",
+    "pl": "cena",
+    "tr": "fiyat, bedel",
+    "de": "Preis",
+    "ja": "値段、代償"
+   }
+  },
+  {
+   "parola": "la colonia",
+   "forme": [
+    "colonia"
+   ],
+   "esempi": [
+    "La colonia di formiche è enorme.",
+    "Le api vivono in colonia.",
+    "In una colonia ci sono migliaia di insetti."
+   ],
+   "traduzioni": {
+    "en": "colony",
+    "es": "colonia",
+    "pt": "colônia",
+    "fr": "colonie",
+    "cs": "kolonie",
+    "pl": "kolonia",
+    "tr": "koloni",
+    "de": "Kolonie",
+    "ja": "コロニー、群れ"
+   }
+  },
+  {
+   "parola": "bloccato",
+   "forme": [
+    "bloccate"
+   ],
+   "formeEsempi": [
+    "bloccato",
+    "bloccati",
+    "bloccata"
+   ],
+   "esempi": [
+    "Siamo bloccati nel traffico.",
+    "La porta è bloccata.",
+    "Il computer è di nuovo bloccato."
+   ],
+   "traduzioni": {
+    "en": "stuck, blocked",
+    "es": "bloqueado, atascado",
+    "pt": "bloqueado, preso",
+    "fr": "bloqué",
+    "cs": "zablokovaný, uvězněný",
+    "pl": "zablokowany",
+    "tr": "sıkışmış, kilitlenmiş",
+    "de": "blockiert, festgesteckt",
+    "ja": "動けない、ふさがれた"
+   }
+  },
+  {
+   "parola": "cieco",
+   "forme": [
+    "cieche",
+    "cieco"
+   ],
+   "esempi": [
+    "Il nonno è quasi cieco.",
+    "Le talpe sono quasi cieche.",
+    "Il cane aiuta un uomo cieco."
+   ],
+   "traduzioni": {
+    "en": "blind",
+    "es": "ciego",
+    "pt": "cego",
+    "fr": "aveugle",
+    "cs": "slepý",
+    "pl": "ślepy, niewidomy",
+    "tr": "kör",
+    "de": "blind",
+    "ja": "目の見えない"
+   }
+  },
+  {
+   "parola": "il compromesso",
+   "forme": [
+    "compromesso"
+   ],
+   "esempi": [
+    "Abbiamo trovato un compromesso.",
+    "Non accetto compromessi.",
+    "Un buon compromesso aiuta tutti."
+   ],
+   "traduzioni": {
+    "en": "compromise",
+    "es": "compromiso, término medio",
+    "pt": "meio-termo, acordo",
+    "fr": "compromis",
+    "cs": "kompromis",
+    "pl": "kompromis",
+    "tr": "uzlaşma",
+    "de": "Kompromiss",
+    "ja": "妥協"
+   },
+   "formeEsempi": [
+    "compromessi"
+   ]
+  },
+  {
+   "parola": "conveniente",
+   "forme": [
+    "conveniente"
+   ],
+   "esempi": [
+    "Il treno è più conveniente dell'aereo.",
+    "Questo negozio è conveniente.",
+    "Non è conveniente partire adesso."
+   ],
+   "traduzioni": {
+    "en": "worthwhile, cheap, advantageous (false friend: not «convenient»)",
+    "es": "conveniente, ventajoso",
+    "pt": "vantajoso, conveniente",
+    "fr": "avantageux (faux ami : pas « convenable »)",
+    "cs": "výhodný",
+    "pl": "opłacalny",
+    "tr": "avantajlı, ekonomik",
+    "de": "günstig, vorteilhaft",
+    "ja": "得な、割安な"
+   }
+  },
+  {
+   "parola": "il prato",
+   "forme": [
+    "prato"
+   ],
+   "esempi": [
+    "I bambini giocano sul prato.",
+    "Non calpestare il prato!",
+    "Facciamo un picnic sul prato."
+   ],
+   "traduzioni": {
+    "en": "lawn, meadow",
+    "es": "césped, prado",
+    "pt": "gramado, prado",
+    "fr": "pelouse, pré",
+    "cs": "trávník, louka",
+    "pl": "trawnik, łąka",
+    "tr": "çimen, çayır",
+    "de": "Wiese, Rasen",
+    "ja": "芝生、草地"
+   }
+  },
+  {
+   "parola": "il fango",
+   "forme": [
+    "fango"
+   ],
+   "esempi": [
+    "Le scarpe sono piene di fango.",
+    "Dopo la pioggia c'è fango.",
+    "I maiali amano il fango."
+   ],
+   "traduzioni": {
+    "en": "mud",
+    "es": "barro",
+    "pt": "lama",
+    "fr": "boue",
+    "cs": "bláto",
+    "pl": "błoto",
+    "tr": "çamur",
+    "de": "Schlamm",
+    "ja": "泥"
+   }
+  },
+  {
+   "parola": "la scorciatoia",
+   "forme": [
+    "scorciatoia"
+   ],
+   "esempi": [
+    "Prendiamo la scorciatoia!",
+    "Non esistono scorciatoie per imparare.",
+    "Questa scorciatoia passa dal bosco."
+   ],
+   "traduzioni": {
+    "en": "shortcut",
+    "es": "atajo",
+    "pt": "atalho",
+    "fr": "raccourci",
+    "cs": "zkratka",
+    "pl": "skrót",
+    "tr": "kestirme",
+    "de": "Abkürzung",
+    "ja": "近道"
+   },
+   "formeEsempi": [
+    "scorciatoie"
+   ]
+  },
+  {
+   "parola": "insomma",
+   "forme": [
+    "insomma"
+   ],
+   "esempi": [
+    "Insomma, cosa vuoi fare?",
+    "Era stanco, aveva fame... insomma, era di cattivo umore.",
+    "Com'è andata? Insomma..."
+   ],
+   "traduzioni": {
+    "en": "in short, so, well",
+    "es": "en resumen, en fin",
+    "pt": "enfim, em resumo",
+    "fr": "bref, en somme",
+    "cs": "zkrátka, no",
+    "pl": "krótko mówiąc, no",
+    "tr": "kısacası",
+    "de": "kurz gesagt, also",
+    "ja": "要するに"
+   }
+  },
+  {
+   "parola": "finché",
+   "forme": [
+    "finché"
+   ],
+   "esempi": [
+    "Aspetto finché non arrivi.",
+    "Resta qui finché vuoi.",
+    "Gioca finché non è stanco."
+   ],
+   "traduzioni": {
+    "en": "until, as long as",
+    "es": "hasta que, mientras",
+    "pt": "até que, enquanto",
+    "fr": "jusqu'à ce que, tant que",
+    "cs": "dokud, dokud ne",
+    "pl": "dopóki, aż",
+    "tr": "-e kadar, sürece",
+    "de": "bis, solange",
+    "ja": "…まで、…する限り"
+   }
+  },
+  {
+   "parola": "spontaneo",
+   "forme": [
+    "spontaneo"
+   ],
+   "esempi": [
+    "È un sorriso spontaneo.",
+    "Mi è venuto spontaneo ridere.",
+    "È una persona molto spontanea."
+   ],
+   "traduzioni": {
+    "en": "spontaneous, natural («viene spontaneo» = it's natural to…)",
+    "es": "espontáneo",
+    "pt": "espontâneo",
+    "fr": "spontané",
+    "cs": "spontánní",
+    "pl": "spontaniczny",
+    "tr": "kendiliğinden, doğal",
+    "de": "spontan",
+    "ja": "自然な、自発的な"
+   },
+   "formeEsempi": [
+    "spontanea"
+   ]
+  },
+  {
+   "parola": "il terreno",
+   "forme": [
+    "terreno"
+   ],
+   "esempi": [
+    "Il terreno è bagnato.",
+    "Hanno comprato un terreno in campagna.",
+    "Il terreno qui è molto fertile."
+   ],
+   "traduzioni": {
+    "en": "ground, terrain, land",
+    "es": "terreno, suelo",
+    "pt": "terreno, solo",
+    "fr": "terrain, sol",
+    "cs": "terén, půda",
+    "pl": "teren, grunt",
+    "tr": "zemin, arazi",
+    "de": "Boden, Gelände",
+    "ja": "地面、土地"
+   }
+  },
+  {
+   "parola": "misurare",
+   "forme": [
+    "misuri"
+   ],
+   "formeEsempi": [
+    "misuro",
+    "misurare"
+   ],
+   "esempi": [
+    "Misuro la stanza con il metro.",
+    "Devi misurare la febbre.",
+    "Quanto misuri?"
+   ],
+   "traduzioni": {
+    "en": "to measure",
+    "es": "medir",
+    "pt": "medir",
+    "fr": "mesurer",
+    "cs": "měřit",
+    "pl": "mierzyć",
+    "tr": "ölçmek",
+    "de": "messen",
+    "ja": "測る"
+   }
+  },
+  {
+   "parola": "la schiena",
+   "forme": [
+    "schiena"
+   ],
+   "esempi": [
+    "Ho mal di schiena.",
+    "Dorme sulla schiena.",
+    "Porta lo zaino sulla schiena."
+   ],
+   "traduzioni": {
+    "en": "back (of the body)",
+    "es": "espalda",
+    "pt": "costas",
+    "fr": "dos",
+    "cs": "záda",
+    "pl": "plecy",
+    "tr": "sırt",
+    "de": "Rücken",
+    "ja": "背中"
+   }
+  },
+  {
+   "parola": "rallentare",
+   "forme": [
+    "rallenti"
+   ],
+   "formeEsempi": [
+    "rallenta",
+    "rallentare"
+   ],
+   "esempi": [
+    "Rallenta, c'è una curva!",
+    "Il treno rallenta prima della stazione.",
+    "Bisogna rallentare un po'."
+   ],
+   "traduzioni": {
+    "en": "to slow down",
+    "es": "reducir la velocidad, frenar",
+    "pt": "desacelerar, ir mais devagar",
+    "fr": "ralentir",
+    "cs": "zpomalit",
+    "pl": "zwolnić",
+    "tr": "yavaşlamak",
+    "de": "langsamer werden, bremsen",
+    "ja": "減速する"
+   }
+  },
+  {
+   "parola": "sospeso",
+   "forme": [
+    "sospesa"
+   ],
+   "formeEsempi": [
+    "sospeso"
+   ],
+   "esempi": [
+    "La lampada è sospesa sopra il tavolo.",
+    "Il ponte è sospeso sul fiume.",
+    "La partita è stata sospesa per la pioggia."
+   ],
+   "traduzioni": {
+    "en": "suspended, hanging",
+    "es": "suspendido, colgado",
+    "pt": "suspenso",
+    "fr": "suspendu",
+    "cs": "zavěšený, visící",
+    "pl": "zawieszony",
+    "tr": "asılı, askıda",
+    "de": "hängend, schwebend",
+    "ja": "宙づりの、つるされた"
+   }
+  },
+  {
+   "parola": "diminuire",
+   "forme": [
+    "diminuisce"
+   ],
+   "esempi": [
+    "La febbre diminuisce.",
+    "Il traffico diminuisce di notte.",
+    "Il prezzo non diminuisce mai."
+   ],
+   "traduzioni": {
+    "en": "to decrease, to drop",
+    "es": "disminuir",
+    "pt": "diminuir",
+    "fr": "diminuer",
+    "cs": "klesat, ubývat",
+    "pl": "zmniejszać się",
+    "tr": "azalmak",
+    "de": "abnehmen, sinken",
+    "ja": "減る"
+   }
+  },
+  {
+   "parola": "sciogliersi",
+   "forme": [
+    "sciolgono"
+   ],
+   "formeEsempi": [
+    "scioglie"
+   ],
+   "esempi": [
+    "Il gelato si scioglie al sole.",
+    "I ghiacci si sciolgono.",
+    "La folla si scioglie dopo il concerto."
+   ],
+   "traduzioni": {
+    "en": "to melt, to break up, to dissolve",
+    "es": "derretirse, disolverse",
+    "pt": "derreter, desfazer-se",
+    "fr": "fondre, se disperser",
+    "cs": "tát, rozpustit se, rozpadnout se",
+    "pl": "topnieć, rozpaść się",
+    "tr": "erimek, dağılmak",
+    "de": "schmelzen, sich auflösen",
+    "ja": "溶ける、解散する"
+   }
+  },
+  {
+   "parola": "il nido",
+   "forme": [
+    "nido"
+   ],
+   "esempi": [
+    "L'uccello costruisce il nido.",
+    "Nel nido ci sono tre uova.",
+    "Mio figlio va all'asilo nido."
+   ],
+   "traduzioni": {
+    "en": "nest",
+    "es": "nido",
+    "pt": "ninho",
+    "fr": "nid",
+    "cs": "hnízdo",
+    "pl": "gniazdo",
+    "tr": "yuva",
+    "de": "Nest",
+    "ja": "巣"
+   }
+  },
+  {
+   "parola": "la regina",
+   "forme": [
+    "regina"
+   ],
+   "esempi": [
+    "La regina vive nel castello.",
+    "L'ape regina fa le uova.",
+    "È la regina della festa."
+   ],
+   "traduzioni": {
+    "en": "queen",
+    "es": "reina",
+    "pt": "rainha",
+    "fr": "reine",
+    "cs": "královna",
+    "pl": "królowa",
+    "tr": "kraliçe",
+    "de": "Königin",
+    "ja": "女王"
+   }
+  },
+  {
+   "parola": "la larva",
+   "forme": [
+    "larve"
+   ],
+   "formeEsempi": [
+    "larva"
+   ],
+   "esempi": [
+    "La larva diventa farfalla.",
+    "Le larve vivono nell'acqua.",
+    "Gli uccelli mangiano le larve."
+   ],
+   "traduzioni": {
+    "en": "larva",
+    "es": "larva",
+    "pt": "larva",
+    "fr": "larve",
+    "cs": "larva",
+    "pl": "larwa",
+    "tr": "larva",
+    "de": "Larve",
+    "ja": "幼虫"
+   }
+  },
+  {
+   "parola": "l'operaia",
+   "forme": [
+    "operaie"
+   ],
+   "formeEsempi": [
+    "operaia"
+   ],
+   "esempi": [
+    "Le api operaie cercano il nettare.",
+    "L'operaia lavora in fabbrica.",
+    "Le formiche operaie portano il cibo."
+   ],
+   "traduzioni": {
+    "en": "worker (ant, bee; also factory worker)",
+    "es": "obrera",
+    "pt": "operária",
+    "fr": "ouvrière",
+    "cs": "dělnice",
+    "pl": "robotnica",
+    "tr": "işçi",
+    "de": "Arbeiterin",
+    "ja": "働きアリ・働きバチ、労働者"
+   }
+  },
+  {
+   "parola": "sdraiarsi",
+   "forme": [
+    "sdraiano"
+   ],
+   "formeEsempi": [
+    "sdraio",
+    "sdraiati"
+   ],
+   "esempi": [
+    "Mi sdraio sul divano.",
+    "I turisti si sdraiano al sole.",
+    "Sdraiati, sei stanco."
+   ],
+   "traduzioni": {
+    "en": "to lie down",
+    "es": "tumbarse, acostarse",
+    "pt": "deitar-se",
+    "fr": "s'allonger",
+    "cs": "lehnout si",
+    "pl": "położyć się",
+    "tr": "uzanmak",
+    "de": "sich hinlegen",
+    "ja": "横になる"
+   }
+  },
+  {
+   "parola": "l'alluvione",
+   "forme": [
+    "alluvione"
+   ],
+   "esempi": [
+    "L'alluvione ha distrutto il paese.",
+    "Dopo l'alluvione le strade erano piene di fango.",
+    "C'è rischio di alluvione."
+   ],
+   "traduzioni": {
+    "en": "flood",
+    "es": "inundación",
+    "pt": "enchente, inundação",
+    "fr": "inondation",
+    "cs": "povodeň",
+    "pl": "powódź",
+    "tr": "sel",
+    "de": "Überschwemmung",
+    "ja": "洪水"
+   }
+  },
+  {
+   "parola": "allagare",
+   "forme": [
+    "allaga"
+   ],
+   "formeEsempi": [
+    "allagato",
+    "allagata"
+   ],
+   "esempi": [
+    "La pioggia allaga la strada.",
+    "La cantina è allagata.",
+    "Il fiume allaga i campi."
+   ],
+   "traduzioni": {
+    "en": "to flood",
+    "es": "inundar",
+    "pt": "alagar, inundar",
+    "fr": "inonder",
+    "cs": "zaplavit",
+    "pl": "zalać",
+    "tr": "su basmak",
+    "de": "überfluten",
+    "ja": "水浸しにする"
+   }
+  },
+  {
+   "parola": "la zattera",
+   "forme": [
+    "zattera"
+   ],
+   "esempi": [
+    "Hanno costruito una zattera di legno.",
+    "La zattera galleggia sul fiume.",
+    "Sono arrivati sull'isola con una zattera."
+   ],
+   "traduzioni": {
+    "en": "raft",
+    "es": "balsa",
+    "pt": "jangada, balsa",
+    "fr": "radeau",
+    "cs": "vor",
+    "pl": "tratwa",
+    "tr": "sal",
+    "de": "Floß",
+    "ja": "いかだ"
+   }
+  },
+  {
+   "parola": "impermeabile",
+   "forme": [
+    "impermeabile"
+   ],
+   "esempi": [
+    "Ho una giacca impermeabile.",
+    "Metti l'impermeabile, piove!",
+    "Questo orologio è impermeabile."
+   ],
+   "traduzioni": {
+    "en": "waterproof (also: raincoat)",
+    "es": "impermeable",
+    "pt": "impermeável",
+    "fr": "imperméable",
+    "cs": "nepromokavý",
+    "pl": "wodoodporny",
+    "tr": "su geçirmez",
+    "de": "wasserdicht",
+    "ja": "防水の（レインコート、の意味も）"
+   }
+  },
+  {
+   "parola": "galleggiare",
+   "forme": [
+    "galleggia"
+   ],
+   "esempi": [
+    "Il legno galleggia.",
+    "Il pallone galleggia nella piscina.",
+    "Il ghiaccio galleggia sull'acqua."
+   ],
+   "traduzioni": {
+    "en": "to float",
+    "es": "flotar",
+    "pt": "flutuar, boiar",
+    "fr": "flotter",
+    "cs": "plavat (na hladině)",
+    "pl": "unosić się na wodzie",
+    "tr": "yüzmek (su üstünde)",
+    "de": "schwimmen, treiben",
+    "ja": "浮く"
+   }
+  },
+  {
+   "parola": "lo sciame",
+   "forme": [
+    "sciami"
+   ],
+   "formeEsempi": [
+    "sciame"
+   ],
+   "esempi": [
+    "Uno sciame di api è sull'albero.",
+    "Gli sciami di locuste mangiano tutto.",
+    "È arrivato uno sciame di turisti."
+   ],
+   "traduzioni": {
+    "en": "swarm",
+    "es": "enjambre",
+    "pt": "enxame",
+    "fr": "essaim",
+    "cs": "roj",
+    "pl": "rój",
+    "tr": "sürü, oğul (arı)",
+    "de": "Schwarm",
+    "ja": "群れ"
+   }
+  },
+  {
+   "parola": "la frana",
+   "forme": [
+    "frana"
+   ],
+   "esempi": [
+    "Una frana ha chiuso la strada.",
+    "Dopo la pioggia c'è pericolo di frana.",
+    "La frana ha distrutto due case."
+   ],
+   "traduzioni": {
+    "en": "landslide",
+    "es": "corrimiento de tierra, alud",
+    "pt": "deslizamento de terra",
+    "fr": "glissement de terrain",
+    "cs": "sesuv půdy",
+    "pl": "osuwisko",
+    "tr": "heyelan",
+    "de": "Erdrutsch",
+    "ja": "地すべり、土砂崩れ"
+   }
+  },
+  {
+   "parola": "il terremoto",
+   "forme": [
+    "terremoto"
+   ],
+   "esempi": [
+    "Il terremoto è durato pochi secondi.",
+    "In Italia ci sono spesso terremoti.",
+    "Dopo il terremoto hanno ricostruito la città."
+   ],
+   "traduzioni": {
+    "en": "earthquake",
+    "es": "terremoto",
+    "pt": "terremoto",
+    "fr": "tremblement de terre",
+    "cs": "zemětřesení",
+    "pl": "trzęsienie ziemi",
+    "tr": "deprem",
+    "de": "Erdbeben",
+    "ja": "地震"
+   },
+   "formeEsempi": [
+    "terremoti"
+   ]
+  },
+  {
+   "parola": "comandare",
+   "forme": [
+    "comandarli",
+    "comanda"
+   ],
+   "formeEsempi": [
+    "comando"
+   ],
+   "esempi": [
+    "In questa casa comanda la nonna.",
+    "Non mi piace chi comanda sempre.",
+    "Comando io!"
+   ],
+   "traduzioni": {
+    "en": "to command, to be in charge",
+    "es": "mandar",
+    "pt": "mandar, comandar",
+    "fr": "commander, diriger",
+    "cs": "velet, poroučet",
+    "pl": "rządzić, dowodzić",
+    "tr": "komuta etmek, emretmek",
+    "de": "befehlen, das Sagen haben",
+    "ja": "命令する、仕切る"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a1": [
+    "In the forests of Central America live some special ants. They are called army ants. They don't have a fixed home: every day they move in a long line of thousands and thousands of ants, and they look for food.",
+    "Army ants can see almost nothing. But they talk to each other with smells and with their legs: they touch each other, follow each other and never get lost.",
+    "One day the line arrives in front of a gap between two leaves. What do the ants do? They don't stop and they don't go back. The first ant holds on to the edge of the leaf. The second holds on to the first. Then the third arrives, then the fourth…",
+    "In a few minutes the ants hold each other by the legs and become a bridge: a living bridge! The other ants walk over the bridge and continue their journey.",
+    "When the whole line has passed, the bridge opens: the ants let go one at a time and get back in line. No ant is the boss. Each one does a small thing, but together they do a big thing.",
+    "And you? When you work in a group, do you trust the others?"
+   ],
+   "b1": [
+    "At first sight, a bridge of ants looks like just a nice photo. In fact it's a small problem of economics. To understand it, a group of researchers led by Chris Reid and Simon Garnier went to the island of Barro Colorado, in Panama, where army ants of the species Eciton hamatum live.",
+    "On the ants' trail, the scientists put an obstacle: two V-shaped panels with a gap in the middle. So the ants, arriving from one side, had to go the long way round the edges of the V. But after a short time something curious happened. Some ants stopped right in the corner and built a tiny bridge. Then, while their companions walked across it, the bridge slowly moved towards the opening of the V, and so the route became shorter and shorter.",
+    "So far, everything is logical: a shorter route means more time to look for food. And yet, at a certain point, the bridge stopped, even though it could have gone further and shortened the route even more. The scientists repeated the test many times, with different angles, and the result was always the same. Why?",
+    "The answer lies in the price of the bridge. Every ant that acts as a bridge, in fact, can't carry food to the colony. So the longer the bridge, the more ants are stuck. The bridge therefore stops at the point where the shorter route is no longer worth the ants needed to build it.",
+    "The beauty of it is that no ant does this calculation. Army ants, in fact, are almost blind, and each one only knows what happens around it. And yet, all together, they find a good compromise: not the shortest route, but the most worthwhile one.",
+    "It happens to us too, after all. To get to work sooner we cut through the park; but if the lawn is full of mud, we go the long way round. A shortcut, in short, is only worth it as long as it doesn't cost too much."
+   ]
+  },
+  "es": {
+   "a1": [
+    "En las selvas de América Central viven unas hormigas especiales. Se llaman hormigas legionarias. No tienen una casa fija: cada día se mueven en una larga fila de miles y miles de hormigas y buscan comida.",
+    "Las hormigas legionarias casi no ven nada. Pero se hablan con los olores y con las patas: se tocan, se siguen y nunca se pierden.",
+    "Un día la fila llega delante de un hueco entre dos hojas. ¿Qué hacen las hormigas? No se paran y no vuelven atrás. La primera hormiga se agarra al borde de la hoja. La segunda se agarra a la primera. Luego llega la tercera, luego la cuarta…",
+    "En pocos minutos las hormigas se sujetan por las patas y se convierten en un puente: ¡un puente vivo! Las otras hormigas pasan por encima del puente y siguen el viaje.",
+    "Cuando toda la fila ha pasado, el puente se abre: las hormigas se sueltan una a una y se ponen otra vez en fila. Ninguna hormiga es la jefa. Cada una hace una cosa pequeña, pero juntas hacen una cosa grande.",
+    "¿Y tú? Cuando trabajas en grupo, ¿te fías de los demás?"
+   ],
+   "b1": [
+    "A primera vista, un puente de hormigas parece solo una bonita fotografía. En realidad es un pequeño problema de economía. Para entenderlo, un grupo de investigadores dirigido por Chris Reid y Simon Garnier fue a la isla de Barro Colorado, en Panamá, donde viven las hormigas legionarias de la especie Eciton hamatum.",
+    "En el sendero de las hormigas, los científicos pusieron un obstáculo: dos paneles en forma de V, con un hueco en medio. Las hormigas, que llegaban por un lado, tenían que dar la vuelta por los bordes de la V. Pero al poco tiempo pasó algo curioso. Algunas hormigas se pararon justo en el ángulo y construyeron un puente pequeñísimo. Luego, mientras sus compañeras pasaban por encima, el puente se desplazó poco a poco hacia la abertura de la V, y así el recorrido se hizo cada vez más corto.",
+    "Hasta aquí, todo lógico: un camino más corto significa más tiempo para buscar comida. Sin embargo, en cierto momento, el puente se paró, aunque podía avanzar más y acortar todavía más el camino. Los científicos repitieron la prueba muchas veces, con ángulos distintos, y el resultado era siempre el mismo. ¿Por qué?",
+    "La respuesta está en el precio del puente. Cada hormiga que hace de puente, de hecho, no puede llevar comida a la colonia. Por lo tanto, cuanto más largo es el puente, más hormigas quedan bloqueadas. Así que el puente se para en el punto en que el camino más corto ya no compensa las hormigas que hacen falta para construirlo.",
+    "Lo bonito es que ninguna hormiga hace este cálculo. Las hormigas legionarias, de hecho, son casi ciegas, y cada una sabe solo lo que pasa a su alrededor. Sin embargo, todas juntas, encuentran un buen término medio: no el camino más corto, sino el más conveniente.",
+    "Al fin y al cabo, a nosotros también nos pasa. Para llegar antes al trabajo atajamos por el parque; pero, si el césped está lleno de barro, damos la vuelta larga. Un atajo, en resumen, solo compensa mientras no cueste demasiado."
+   ]
+  },
+  "pt": {
+   "a1": [
+    "Nas florestas da América Central vivem umas formigas especiais. Elas se chamam formigas-correição. Não têm uma casa fixa: todo dia se movem numa longa fila de milhares e milhares de formigas e procuram comida.",
+    "As formigas-correição quase não enxergam nada. Mas elas se comunicam com os cheiros e com as patas: se tocam, se seguem e nunca se perdem.",
+    "Um dia a fila chega diante de um buraco entre duas folhas. O que as formigas fazem? Não param e não voltam atrás. A primeira formiga se agarra à borda da folha. A segunda se agarra à primeira. Depois chega a terceira, depois a quarta…",
+    "Em poucos minutos as formigas se seguram pelas patas e viram uma ponte: uma ponte viva! As outras formigas passam por cima da ponte e continuam a viagem.",
+    "Quando a fila inteira já passou, a ponte se abre: as formigas se soltam uma de cada vez e voltam a ficar em fila. Nenhuma formiga é a chefe. Cada uma faz uma coisa pequena, mas juntas fazem uma coisa grande.",
+    "E você? Quando trabalha em grupo, confia nos outros?"
+   ],
+   "b1": [
+    "À primeira vista, uma ponte de formigas parece só uma bela fotografia. Na verdade, é um pequeno problema de economia. Para entendê-lo, um grupo de pesquisadores liderado por Chris Reid e Simon Garnier foi à ilha de Barro Colorado, no Panamá, onde vivem as formigas-correição da espécie Eciton hamatum.",
+    "Na trilha das formigas, os cientistas colocaram um obstáculo: dois painéis em forma de V, com um vão no meio. As formigas, que chegavam de um lado, tinham então de dar a volta pelas bordas do V. Mas pouco tempo depois aconteceu uma coisa curiosa. Algumas formigas pararam bem no canto e construíram uma ponte pequenininha. Depois, enquanto as companheiras passavam por cima, a ponte foi se deslocando devagar em direção à abertura do V, e assim o percurso ficou cada vez mais curto.",
+    "Até aqui, tudo lógico: um caminho mais curto quer dizer mais tempo para procurar comida. No entanto, a certa altura, a ponte parou, mesmo podendo avançar mais e encurtar ainda mais o caminho. Os cientistas repetiram o teste muitas vezes, com ângulos diferentes, e o resultado era sempre o mesmo. Por quê?",
+    "A resposta está no preço da ponte. Cada formiga que faz de ponte, de fato, não pode levar comida para a colônia. Portanto, quanto mais longa a ponte, mais formigas ficam presas. A ponte, então, para no ponto em que o caminho mais curto já não compensa as formigas necessárias para construí-lo.",
+    "O mais bonito é que nenhuma formiga faz esse cálculo. As formigas-correição, de fato, são quase cegas, e cada uma só sabe o que acontece ao seu redor. Mesmo assim, todas juntas, encontram um bom meio-termo: não o caminho mais curto, mas o mais vantajoso.",
+    "Acontece com a gente também, afinal. Para chegar mais cedo ao trabalho cortamos caminho pelo parque; mas, se o gramado estiver cheio de lama, damos a volta longa. Um atalho, enfim, só compensa enquanto não custar demais."
+   ]
+  },
+  "fr": {
+   "a1": [
+    "Dans les forêts d'Amérique centrale vivent des fourmis spéciales. On les appelle les fourmis légionnaires. Elles n'ont pas de maison fixe : chaque jour, elles se déplacent en une longue file de milliers et de milliers de fourmis et elles cherchent de la nourriture.",
+    "Les fourmis légionnaires ne voient presque rien. Mais elles se parlent avec les odeurs et avec les pattes : elles se touchent, se suivent et ne se perdent jamais.",
+    "Un jour, la file arrive devant un trou entre deux feuilles. Que font les fourmis ? Elles ne s'arrêtent pas et ne font pas demi-tour. La première fourmi s'accroche au bord de la feuille. La deuxième s'accroche à la première. Puis arrive la troisième, puis la quatrième…",
+    "En quelques minutes, les fourmis se tiennent par les pattes et deviennent un pont : un pont vivant ! Les autres fourmis passent sur le pont et continuent leur voyage.",
+    "Quand toute la file est passée, le pont s'ouvre : les fourmis se détachent une à une et se remettent en file. Aucune fourmi n'est le chef. Chacune fait une petite chose, mais ensemble elles font une grande chose.",
+    "Et toi ? Quand tu travailles en groupe, tu fais confiance aux autres ?"
+   ],
+   "b1": [
+    "À première vue, un pont de fourmis ressemble seulement à une jolie photo. En réalité, c'est un petit problème d'économie. Pour le comprendre, une équipe de chercheurs dirigée par Chris Reid et Simon Garnier est allée sur l'île de Barro Colorado, au Panama, où vivent les fourmis légionnaires de l'espèce Eciton hamatum.",
+    "Sur le sentier des fourmis, les scientifiques ont placé un obstacle : deux panneaux en forme de V, avec un vide au milieu. Les fourmis, qui arrivaient d'un côté, devaient donc faire le tour par les bords du V. Mais peu de temps après, il s'est passé une chose curieuse. Quelques fourmis se sont arrêtées juste dans l'angle et ont construit un tout petit pont. Puis, pendant que leurs compagnes passaient dessus, le pont s'est déplacé tout doucement vers l'ouverture du V, et ainsi le parcours est devenu de plus en plus court.",
+    "Jusque-là, tout est logique : un chemin plus court veut dire plus de temps pour chercher de la nourriture. Pourtant, à un certain moment, le pont s'est arrêté, alors qu'il pouvait aller encore plus loin et raccourcir encore le chemin. Les scientifiques ont répété l'expérience de nombreuses fois, avec des angles différents, et le résultat était toujours le même. Pourquoi ?",
+    "La réponse se trouve dans le prix du pont. Chaque fourmi qui sert de pont, en effet, ne peut pas apporter de nourriture à la colonie. Donc, plus le pont est long, plus il y a de fourmis bloquées. Le pont s'arrête donc à l'endroit où le chemin plus court ne vaut plus les fourmis nécessaires pour le construire.",
+    "Le plus beau, c'est qu'aucune fourmi ne fait ce calcul. Les fourmis légionnaires, en effet, sont presque aveugles, et chacune sait seulement ce qui se passe autour d'elle. Pourtant, toutes ensemble, elles trouvent un bon compromis : pas le chemin le plus court, mais le plus avantageux.",
+    "Cela nous arrive aussi, d'ailleurs. Pour arriver plus tôt au travail, nous coupons par le parc ; mais si la pelouse est pleine de boue, nous faisons le grand tour. Un raccourci, en somme, ne vaut la peine que tant qu'il ne coûte pas trop."
+   ]
+  },
+  "cs": {
+   "a1": [
+    "V lesích Střední Ameriky žijí zvláštní mravenci. Jmenují se mravenci kočovní. Nemají stálý domov: každý den se pohybují v dlouhé řadě tisíců a tisíců mravenců a hledají potravu.",
+    "Kočovní mravenci skoro nic nevidí. Ale dorozumívají se pachy a nohama: dotýkají se, následují jeden druhého a nikdy se neztratí.",
+    "Jednoho dne dorazí řada k díře mezi dvěma listy. Co mravenci udělají? Nezastaví se a nevrátí se. První mravenec se chytí okraje listu. Druhý se chytí prvního. Pak přijde třetí, pak čtvrtý…",
+    "Za pár minut se mravenci drží za nohy a vytvoří most: živý most! Ostatní mravenci přejdou po mostě a pokračují v cestě.",
+    "Když celá řada přejde, most se rozpojí: mravenci se jeden po druhém pustí a znovu se zařadí do řady. Žádný mravenec není šéf. Každý udělá malou věc, ale společně udělají velkou věc.",
+    "A ty? Když pracuješ ve skupině, důvěřuješ ostatním?"
+   ],
+   "b1": [
+    "Na první pohled vypadá most z mravenců jen jako pěkná fotografie. Ve skutečnosti je to malý ekonomický problém. Aby ho pochopila, vydala se skupina výzkumníků vedená Chrisem Reidem a Simonem Garnierem na ostrov Barro Colorado v Panamě, kde žijí kočovní mravenci druhu Eciton hamatum.",
+    "Na mravenčí stezku vědci položili překážku: dva panely ve tvaru V s mezerou uprostřed. Mravenci, kteří přicházeli z jedné strany, tedy museli obcházet okraje písmene V. Ale za chvíli se stalo něco zajímavého. Několik mravenců se zastavilo přímo v rohu a postavilo malinký most. Potom, zatímco po něm přecházeli jejich druhové, se most pomalu posouval k otvoru písmene V, a tak byla cesta stále kratší.",
+    "Zatím je všechno logické: kratší cesta znamená víc času na hledání potravy. A přece se most v určitém okamžiku zastavil, i když mohl jít ještě dál a cestu ještě víc zkrátit. Vědci pokus mnohokrát zopakovali s různými úhly a výsledek byl vždycky stejný. Proč?",
+    "Odpověď je v ceně mostu. Každý mravenec, který dělá most, totiž nemůže nosit potravu do kolonie. Čím delší je tedy most, tím víc mravenců je zablokovaných. Most se proto zastaví v místě, kde se kratší cesta už nevyplatí kvůli mravencům, kteří jsou potřeba na jeho stavbu.",
+    "Nejkrásnější je, že tenhle výpočet nedělá žádný mravenec. Kočovní mravenci jsou totiž skoro slepí a každý ví jen to, co se děje kolem něj. A přece všichni dohromady najdou dobrý kompromis: ne nejkratší cestu, ale tu nejvýhodnější.",
+    "Vždyť se to stává i nám. Abychom byli dřív v práci, zkrátíme si to přes park; ale když je trávník plný bláta, jdeme delší cestou. Zkratka se zkrátka vyplatí jen do té doby, dokud nestojí moc."
+   ]
+  },
+  "pl": {
+   "a1": [
+    "W lasach Ameryki Środkowej żyją wyjątkowe mrówki. Nazywają się mrówki wędrowne. Nie mają stałego domu: każdego dnia przemieszczają się w długim rzędzie tysięcy i tysięcy mrówek i szukają jedzenia.",
+    "Mrówki wędrowne prawie nic nie widzą. Ale porozumiewają się zapachami i nogami: dotykają się, idą jedna za drugą i nigdy się nie gubią.",
+    "Pewnego dnia rząd dochodzi do dziury między dwoma liśćmi. Co robią mrówki? Nie zatrzymują się i nie zawracają. Pierwsza mrówka czepia się brzegu liścia. Druga czepia się pierwszej. Potem przychodzi trzecia, potem czwarta…",
+    "W kilka minut mrówki trzymają się za nogi i stają się mostem: żywym mostem! Inne mrówki przechodzą po moście i idą dalej.",
+    "Kiedy cały rząd przejdzie, most się otwiera: mrówki odczepiają się jedna po drugiej i znowu ustawiają się w rzędzie. Żadna mrówka nie jest szefem. Każda robi małą rzecz, ale razem robią wielką rzecz.",
+    "A ty? Kiedy pracujesz w grupie, ufasz innym?"
+   ],
+   "b1": [
+    "Na pierwszy rzut oka most z mrówek wygląda tylko jak ładne zdjęcie. W rzeczywistości to mały problem ekonomiczny. Żeby go zrozumieć, grupa badaczy pod kierunkiem Chrisa Reida i Simona Garniera pojechała na wyspę Barro Colorado w Panamie, gdzie żyją mrówki wędrowne z gatunku Eciton hamatum.",
+    "Na ścieżce mrówek naukowcy postawili przeszkodę: dwa panele w kształcie litery V z pustą przestrzenią pośrodku. Mrówki, które przychodziły z jednej strony, musiały więc obchodzić brzegi litery V. Ale po krótkim czasie stało się coś ciekawego. Kilka mrówek zatrzymało się dokładnie w rogu i zbudowało malutki most. Potem, gdy towarzyszki po nim przechodziły, most powoli przesuwał się w stronę otworu litery V, i w ten sposób trasa stawała się coraz krótsza.",
+    "Do tej pory wszystko jest logiczne: krótsza droga oznacza więcej czasu na szukanie jedzenia. A jednak w pewnym momencie most się zatrzymał, chociaż mógł iść dalej i jeszcze bardziej skrócić drogę. Naukowcy wiele razy powtórzyli próbę, z różnymi kątami, i wynik był zawsze taki sam. Dlaczego?",
+    "Odpowiedź leży w cenie mostu. Każda mrówka, która jest częścią mostu, nie może bowiem nosić jedzenia do kolonii. Im dłuższy most, tym więcej mrówek jest zablokowanych. Dlatego most zatrzymuje się w miejscu, w którym krótsza droga nie jest już warta mrówek potrzebnych do jej zbudowania.",
+    "Najpiękniejsze jest to, że żadna mrówka nie robi tego obliczenia. Mrówki wędrowne są bowiem prawie ślepe i każda wie tylko to, co dzieje się wokół niej. A jednak wszystkie razem znajdują dobry kompromis: nie najkrótszą drogę, ale najbardziej opłacalną.",
+    "Zresztą nam też się to zdarza. Żeby szybciej dojść do pracy, idziemy na skróty przez park; ale jeśli trawnik jest pełen błota, idziemy dłuższą drogą. Skrót, krótko mówiąc, opłaca się tylko dopóty, dopóki nie kosztuje za dużo."
+   ]
+  },
+  "tr": {
+   "a1": [
+    "Orta Amerika'nın ormanlarında özel karıncalar yaşar. Bunlara lejyoner karıncalar denir. Sabit bir evleri yoktur: her gün binlerce ve binlerce karıncadan oluşan uzun bir sıra hâlinde hareket eder ve yiyecek ararlar.",
+    "Lejyoner karıncalar neredeyse hiçbir şey görmez. Ama kokularla ve bacaklarıyla konuşurlar: birbirlerine dokunur, birbirlerini takip eder ve hiç kaybolmazlar.",
+    "Bir gün sıra, iki yaprak arasındaki bir boşluğun önüne gelir. Karıncalar ne yapar? Durmazlar ve geri dönmezler. İlk karınca yaprağın kenarına tutunur. İkincisi birinciye tutunur. Sonra üçüncüsü gelir, sonra dördüncüsü…",
+    "Birkaç dakika içinde karıncalar birbirlerini bacaklarından tutar ve bir köprü olurlar: canlı bir köprü! Diğer karıncalar köprünün üstünden geçer ve yolculuklarına devam eder.",
+    "Bütün sıra geçince köprü açılır: karıncalar teker teker ayrılır ve yeniden sıraya girer. Hiçbir karınca lider değildir. Her biri küçük bir şey yapar, ama birlikte büyük bir şey yaparlar.",
+    "Ya sen? Grupla çalışırken başkalarına güvenir misin?"
+   ],
+   "b1": [
+    "İlk bakışta karıncalardan oluşan bir köprü sadece güzel bir fotoğraf gibi görünür. Oysa küçük bir ekonomi sorunudur. Bunu anlamak için Chris Reid ve Simon Garnier'nin yönettiği bir araştırma grubu, Eciton hamatum türü lejyoner karıncaların yaşadığı Panama'daki Barro Colorado adasına gitti.",
+    "Bilim insanları karıncaların yolunun üstüne bir engel koydu: ortasında boşluk olan V biçiminde iki panel. Bir taraftan gelen karıncalar bu yüzden V'nin kenarlarından dolaşmak zorundaydı. Ama kısa bir süre sonra ilginç bir şey oldu. Bazı karıncalar tam köşede durdu ve minicik bir köprü kurdu. Sonra arkadaşları üstünden geçerken köprü yavaş yavaş V'nin açık ucuna doğru kaydı ve böylece yol giderek kısaldı.",
+    "Buraya kadar her şey mantıklı: daha kısa bir yol, yiyecek aramak için daha fazla zaman demektir. Yine de belli bir noktada, daha ileri gidip yolu daha da kısaltabilecekken köprü durdu. Bilim insanları deneyi farklı açılarla pek çok kez tekrarladı ve sonuç hep aynıydı. Neden?",
+    "Cevap köprünün bedelinde yatıyor. Köprü olan her karınca, aslında koloniye yiyecek taşıyamaz. Yani köprü ne kadar uzunsa, o kadar çok karınca orada sıkışıp kalır. Bu yüzden köprü, kısa yolun onu kurmak için gereken karıncalara artık değmediği noktada durur.",
+    "İşin güzel yanı, hiçbir karıncanın bu hesabı yapmamasıdır. Çünkü lejyoner karıncalar neredeyse kördür ve her biri yalnızca çevresinde olanı bilir. Yine de hep birlikte iyi bir uzlaşma bulurlar: en kısa yolu değil, en avantajlı yolu.",
+    "Aslında bu bizim de başımıza gelir. İşe daha erken varmak için parktan kestirme yaparız; ama çimen çamurla doluysa uzun yoldan dolaşırız. Kısacası bir kestirme, ancak çok pahalıya mal olmadığı sürece işe yarar."
+   ]
+  },
+  "de": {
+   "a1": [
+    "In den Wäldern Mittelamerikas leben besondere Ameisen. Sie heißen Wanderameisen. Sie haben kein festes Zuhause: Jeden Tag ziehen sie in einer langen Reihe aus Tausenden und Abertausenden Ameisen umher und suchen Nahrung.",
+    "Wanderameisen sehen fast nichts. Aber sie sprechen miteinander mit Gerüchen und mit den Beinen: Sie berühren sich, folgen einander und verlieren sich nie.",
+    "Eines Tages kommt die Reihe an ein Loch zwischen zwei Blättern. Was machen die Ameisen? Sie bleiben nicht stehen und gehen nicht zurück. Die erste Ameise klammert sich an den Rand des Blattes. Die zweite klammert sich an die erste. Dann kommt die dritte, dann die vierte…",
+    "In wenigen Minuten halten sich die Ameisen an den Beinen fest und werden zu einer Brücke: einer lebendigen Brücke! Die anderen Ameisen laufen über die Brücke und setzen ihre Reise fort.",
+    "Wenn die ganze Reihe vorbei ist, öffnet sich die Brücke: Die Ameisen lösen sich eine nach der anderen und stellen sich wieder in die Reihe. Keine Ameise ist der Chef. Jede macht eine kleine Sache, aber zusammen machen sie eine große Sache.",
+    "Und du? Wenn du in einer Gruppe arbeitest, vertraust du den anderen?"
+   ],
+   "b1": [
+    "Auf den ersten Blick sieht eine Ameisenbrücke nur wie ein schönes Foto aus. In Wirklichkeit ist sie ein kleines wirtschaftliches Problem. Um es zu verstehen, reiste eine Forschergruppe unter der Leitung von Chris Reid und Simon Garnier auf die Insel Barro Colorado in Panama, wo Wanderameisen der Art Eciton hamatum leben.",
+    "Auf den Pfad der Ameisen stellten die Wissenschaftler ein Hindernis: zwei V-förmige Platten mit einer Lücke in der Mitte. Die Ameisen, die von einer Seite kamen, mussten also den Umweg über die Ränder des V nehmen. Doch nach kurzer Zeit geschah etwas Merkwürdiges. Einige Ameisen blieben genau in der Ecke stehen und bauten eine winzige Brücke. Dann, während die Gefährtinnen darüberliefen, verschob sich die Brücke ganz langsam zur Öffnung des V hin, und so wurde der Weg immer kürzer.",
+    "Bis hierhin ist alles logisch: Ein kürzerer Weg bedeutet mehr Zeit für die Nahrungssuche. Und doch blieb die Brücke an einem bestimmten Punkt stehen, obwohl sie noch weiter hätte wandern und den Weg noch mehr verkürzen können. Die Wissenschaftler wiederholten den Versuch viele Male mit verschiedenen Winkeln, und das Ergebnis war immer dasselbe. Warum?",
+    "Die Antwort liegt im Preis der Brücke. Jede Ameise, die als Brücke dient, kann nämlich keine Nahrung zur Kolonie tragen. Je länger also die Brücke, desto mehr Ameisen sind blockiert. Die Brücke hält deshalb an dem Punkt an, an dem der kürzere Weg die Ameisen, die man für den Bau braucht, nicht mehr wert ist.",
+    "Das Schöne daran ist, dass keine Ameise diese Rechnung anstellt. Wanderameisen sind nämlich fast blind, und jede weiß nur, was um sie herum passiert. Und doch finden sie alle zusammen einen guten Kompromiss: nicht den kürzesten Weg, sondern den günstigsten.",
+    "Uns geht es übrigens genauso. Um schneller zur Arbeit zu kommen, kürzen wir durch den Park ab; aber wenn die Wiese voller Schlamm ist, nehmen wir den längeren Weg. Eine Abkürzung lohnt sich also nur, solange sie nicht zu viel kostet."
+   ]
+  },
+  "ja": {
+   "a1": [
+    "中央アメリカの森に、特別なアリがすんでいます。グンタイアリといいます。決まった家はありません。毎日、何千何万ものアリが長い列になって移動し、食べ物をさがします。",
+    "グンタイアリはほとんど何も見えません。でも、においと足で話し合います。体にふれ合い、あとについて行き、決して迷子になりません。",
+    "ある日、列が2枚の葉っぱのあいだのすき間の前に着きます。アリたちはどうするでしょう？止まりませんし、引き返しもしません。1匹目のアリが葉っぱの縁にしがみつきます。2匹目は1匹目にしがみつきます。それから3匹目が来て、4匹目が来て……",
+    "数分で、アリたちは足と足でつかまり合って、橋になります。生きている橋です！ほかのアリたちは橋の上を通って、旅を続けます。",
+    "列が全部通り終わると、橋はほどけます。アリたちは1匹ずつ離れて、また列にもどります。リーダーのアリはいません。1匹1匹は小さなことをしますが、みんなで大きなことをするのです。",
+    "あなたは？グループで仕事をするとき、ほかの人を信頼していますか？"
+   ],
+   "b1": [
+    "ひと目見ただけでは、アリの橋はきれいな写真にすぎないように思える。ところが実は、小さな経済の問題なのだ。それを理解するために、クリス・リードとサイモン・ガルニエが率いる研究者のグループが、パナマのバロ・コロラド島へ行った。そこには、Eciton hamatum という種のグンタイアリがすんでいる。",
+    "科学者たちはアリの通り道に障害物を置いた。V字形をした2枚の板で、真ん中にすき間がある。片側から来るアリたちは、V字の縁に沿って遠回りしなければならなかった。ところが少しすると、おもしろいことが起きた。何匹かのアリがちょうど角のところで止まり、ごく小さな橋を作ったのだ。そして、仲間たちがその上を渡っているあいだに、橋は少しずつV字の開いている方へ移動していき、こうして道はどんどん短くなった。",
+    "ここまでは、すべて理屈どおりだ。道が短ければ、食べ物をさがす時間が増える。それなのに、ある地点で橋は止まった。もっと先へ進んで、道をさらに短くすることもできたのに。科学者たちは角度を変えて何度も実験をくり返したが、結果はいつも同じだった。なぜだろうか。",
+    "答えは橋の「値段」にある。橋になっているアリは、コロニーに食べ物を運ぶことができない。つまり、橋が長くなればなるほど、動けないアリが増える。だから橋は、短い道がそれを作るのに必要なアリに見合わなくなる地点で止まるのだ。",
+    "すばらしいのは、どのアリもこの計算をしていないことだ。グンタイアリはほとんど目が見えず、1匹1匹は自分のまわりで起きていることしか知らない。それでも、みんなで力を合わせると、うまい妥協点を見つける。いちばん短い道ではなく、いちばん得な道を。",
+    "考えてみれば、わたしたちも同じだ。早く職場に着くために公園を突っ切るが、芝生が泥だらけなら遠回りする。要するに、近道が得なのは、それが高くつかないあいだだけなのだ。"
+   ]
+  }
+ }
+}
