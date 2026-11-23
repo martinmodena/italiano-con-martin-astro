@@ -1,0 +1,1605 @@
+{
+ "id": "emma-perse-a-venezia",
+ "nota": "Glossario e traduzione della lettura: formato descritto in AGENTS.md (vedi anche il-lago-di-yogurt.json).",
+ "voci": [
+  {
+   "parola": "fermarsi",
+   "forme": [
+    "fermato",
+    "fermata"
+   ],
+   "formeEsempi": [
+    "fermo",
+    "fermati"
+   ],
+   "esempi": [
+    "L'autobus si è fermato davanti alla scuola.",
+    "Mi sono fermata a comprare il pane.",
+    "Ci siamo fermati un'ora al bar."
+   ],
+   "traduzioni": {
+    "en": "to stop («si è fermato» = it stopped)",
+    "es": "pararse, detenerse",
+    "pt": "parar",
+    "fr": "s'arrêter",
+    "cs": "zastavit (se)",
+    "pl": "zatrzymać się",
+    "tr": "durmak",
+    "de": "anhalten, stehen bleiben",
+    "ja": "止まる"
+   }
+  },
+  {
+   "parola": "finalmente",
+   "forme": [
+    "finalmente"
+   ],
+   "esempi": [
+    "Finalmente siamo arrivati!",
+    "Il sole è uscito finalmente.",
+    "Finalmente è sabato."
+   ],
+   "traduzioni": {
+    "en": "at last, finally",
+    "es": "por fin",
+    "pt": "finalmente, enfim",
+    "fr": "enfin",
+    "cs": "konečně",
+    "pl": "wreszcie",
+    "tr": "nihayet",
+    "de": "endlich",
+    "ja": "やっと"
+   }
+  },
+  {
+   "parola": "svegliarsi",
+   "forme": [
+    "svegliate"
+   ],
+   "formeEsempi": [
+    "svegliata",
+    "svegliato",
+    "sveglio"
+   ],
+   "esempi": [
+    "Stamattina mi sono svegliata tardi.",
+    "Ci siamo svegliate con il sole.",
+    "Si è svegliato alle sei."
+   ],
+   "traduzioni": {
+    "en": "to wake up («si sono svegliate» = they woke up)",
+    "es": "despertarse",
+    "pt": "acordar",
+    "fr": "se réveiller",
+    "cs": "probudit se",
+    "pl": "obudzić się",
+    "tr": "uyanmak",
+    "de": "aufwachen",
+    "ja": "目を覚ます"
+   }
+  },
+  {
+   "parola": "stanco",
+   "forme": [
+    "stanche",
+    "stanca"
+   ],
+   "formeEsempi": [
+    "stanco"
+   ],
+   "esempi": [
+    "Dopo il viaggio eravamo stanche.",
+    "Sono stanco, vado a letto.",
+    "Sei stanca? Ci sediamo un po'?"
+   ],
+   "traduzioni": {
+    "en": "tired",
+    "es": "cansado",
+    "pt": "cansado",
+    "fr": "fatigué",
+    "cs": "unavený",
+    "pl": "zmęczony",
+    "tr": "yorgun",
+    "de": "müde",
+    "ja": "疲れた"
+   }
+  },
+  {
+   "parola": "uscire",
+   "forme": [
+    "uscite"
+   ],
+   "formeEsempi": [
+    "uscita",
+    "uscito",
+    "esco"
+   ],
+   "esempi": [
+    "Sono uscita di casa alle otto.",
+    "Ieri sera siamo uscite con le amiche.",
+    "Esco un attimo, torno subito."
+   ],
+   "traduzioni": {
+    "en": "to go out, to come out («sono uscite» = they went out)",
+    "es": "salir",
+    "pt": "sair",
+    "fr": "sortir",
+    "cs": "vyjít",
+    "pl": "wyjść",
+    "tr": "çıkmak",
+    "de": "hinausgehen",
+    "ja": "出る"
+   }
+  },
+  {
+   "parola": "vedere",
+   "forme": [
+    "visto"
+   ],
+   "formeEsempi": [
+    "vedo"
+   ],
+   "esempi": [
+    "Hai visto il nuovo film?",
+    "Ieri ho visto Marco al bar.",
+    "Da qui vedo il mare."
+   ],
+   "traduzioni": {
+    "en": "to see («hanno visto» = they saw)",
+    "es": "ver",
+    "pt": "ver",
+    "fr": "voir",
+    "cs": "vidět",
+    "pl": "zobaczyć",
+    "tr": "görmek",
+    "de": "sehen",
+    "ja": "見る"
+   }
+  },
+  {
+   "parola": "il canale",
+   "forme": [
+    "canal",
+    "canale"
+   ],
+   "esempi": [
+    "A Venezia ci sono più di cento canali.",
+    "Il Canal Grande è il canale più famoso.",
+    "La gondola passa sul canale."
+   ],
+   "traduzioni": {
+    "en": "canal («il Canal Grande» = the Grand Canal)",
+    "es": "canal («il Canal Grande» = el Gran Canal)",
+    "pt": "canal («il Canal Grande» = o Grande Canal)",
+    "fr": "canal («il Canal Grande» = le Grand Canal)",
+    "cs": "kanál («il Canal Grande» = Canal Grande)",
+    "pl": "kanał («il Canal Grande» = Canal Grande)",
+    "tr": "kanal («il Canal Grande» = Büyük Kanal)",
+    "de": "Kanal («il Canal Grande» = der Canal Grande)",
+    "ja": "運河（il Canal Grande＝大運河）"
+   },
+   "formeEsempi": [
+    "canali"
+   ]
+  },
+  {
+   "parola": "la stanchezza",
+   "forme": [
+    "stanchezza"
+   ],
+   "esempi": [
+    "Dopo la palestra sento la stanchezza.",
+    "Con un caffè la stanchezza passa.",
+    "Ho dormito tanto, ma la stanchezza è ancora qui."
+   ],
+   "traduzioni": {
+    "en": "tiredness",
+    "es": "cansancio",
+    "pt": "cansaço",
+    "fr": "fatigue",
+    "cs": "únava",
+    "pl": "zmęczenie",
+    "tr": "yorgunluk",
+    "de": "Müdigkeit",
+    "ja": "疲れ"
+   }
+  },
+  {
+   "parola": "sparire",
+   "forme": [
+    "sparita"
+   ],
+   "formeEsempi": [
+    "sparito",
+    "sparisce"
+   ],
+   "esempi": [
+    "Il mio telefono è sparito!",
+    "Dopo il tè il mal di testa è sparito.",
+    "Il sole sparisce dietro le nuvole."
+   ],
+   "traduzioni": {
+    "en": "to disappear, to vanish",
+    "es": "desaparecer",
+    "pt": "sumir, desaparecer",
+    "fr": "disparaître",
+    "cs": "zmizet",
+    "pl": "zniknąć",
+    "tr": "kaybolmak, geçmek",
+    "de": "verschwinden",
+    "ja": "消える"
+   }
+  },
+  {
+   "parola": "l'albergo",
+   "forme": [
+    "albergo"
+   ],
+   "esempi": [
+    "L'albergo ha una bella terrazza.",
+    "Torniamo in albergo a piedi.",
+    "Cerco un albergo economico."
+   ],
+   "traduzioni": {
+    "en": "hotel",
+    "es": "hotel",
+    "pt": "hotel",
+    "fr": "hôtel",
+    "cs": "hotel",
+    "pl": "hotel",
+    "tr": "otel",
+    "de": "Hotel",
+    "ja": "ホテル"
+   }
+  },
+  {
+   "parola": "la via",
+   "forme": [
+    "via"
+   ],
+   "esempi": [
+    "Abito in via Roma, numero 12.",
+    "In che via è il ristorante?",
+    "Questa via è molto lunga."
+   ],
+   "traduzioni": {
+    "en": "street",
+    "es": "calle",
+    "pt": "rua",
+    "fr": "rue",
+    "cs": "ulice",
+    "pl": "ulica",
+    "tr": "sokak, cadde",
+    "de": "Straße",
+    "ja": "通り"
+   }
+  },
+  {
+   "parola": "aspettare",
+   "forme": [
+    "aspetta"
+   ],
+   "formeEsempi": [
+    "aspetto",
+    "aspettiamo"
+   ],
+   "esempi": [
+    "Aspetta, arrivo subito!",
+    "Ti aspetto davanti al cinema.",
+    "Aspettiamo l'autobus da mezz'ora."
+   ],
+   "traduzioni": {
+    "en": "to wait («aspetta!» = wait!)",
+    "es": "esperar («¡espera!»)",
+    "pt": "esperar («espera!»)",
+    "fr": "attendre («attends !»)",
+    "cs": "čekat («počkej!»)",
+    "pl": "czekać («czekaj!»)",
+    "tr": "beklemek («bekle!»)",
+    "de": "warten («warte!»)",
+    "ja": "待つ（aspetta!＝ちょっと待って！）"
+   }
+  },
+  {
+   "parola": "la prenotazione",
+   "forme": [
+    "prenotazione"
+   ],
+   "esempi": [
+    "Ho una prenotazione per due persone.",
+    "La prenotazione è sul telefono.",
+    "Senza prenotazione non c'è posto."
+   ],
+   "traduzioni": {
+    "en": "booking, reservation",
+    "es": "reserva",
+    "pt": "reserva",
+    "fr": "réservation",
+    "cs": "rezervace",
+    "pl": "rezerwacja",
+    "tr": "rezervasyon",
+    "de": "Buchung, Reservierung",
+    "ja": "予約"
+   }
+  },
+  {
+   "parola": "scrivere",
+   "forme": [
+    "scritto"
+   ],
+   "formeEsempi": [
+    "scrivo"
+   ],
+   "esempi": [
+    "Sul cartello c'è scritto «Chiuso».",
+    "Ieri ho scritto una lettera.",
+    "Scrivo le parole nuove sul quaderno."
+   ],
+   "traduzioni": {
+    "en": "to write («c'è scritto» = it says; «ha scritto» = she wrote)",
+    "es": "escribir («c'è scritto» = pone)",
+    "pt": "escrever («c'è scritto» = está escrito)",
+    "fr": "écrire («c'è scritto» = il est écrit)",
+    "cs": "psát («c'è scritto» = je tam napsáno)",
+    "pl": "pisać («c'è scritto» = jest napisane)",
+    "tr": "yazmak («c'è scritto» = … yazıyor)",
+    "de": "schreiben («c'è scritto» = da steht)",
+    "ja": "書く（c'è scritto＝〜と書いてある）"
+   }
+  },
+  {
+   "parola": "non importa",
+   "forme": [
+    "importa"
+   ],
+   "esempi": [
+    "– Ho dimenticato il libro. – Non importa.",
+    "Non importa se arrivi tardi.",
+    "Non importa, lo facciamo domani."
+   ],
+   "traduzioni": {
+    "en": "never mind, it doesn't matter",
+    "es": "no importa",
+    "pt": "não importa, tudo bem",
+    "fr": "ce n'est pas grave",
+    "cs": "to nevadí",
+    "pl": "nieważne, nic nie szkodzi",
+    "tr": "önemli değil",
+    "de": "macht nichts",
+    "ja": "かまわない、大丈夫"
+   }
+  },
+  {
+   "parola": "aiutare",
+   "forme": [
+    "aiuta"
+   ],
+   "formeEsempi": [
+    "aiuto",
+    "aiutato",
+    "aiuti"
+   ],
+   "esempi": [
+    "Mi aiuti con la valigia?",
+    "Il telefono ci aiuta a trovare la strada.",
+    "Un signore mi ha aiutato."
+   ],
+   "traduzioni": {
+    "en": "to help",
+    "es": "ayudar",
+    "pt": "ajudar",
+    "fr": "aider",
+    "cs": "pomoci",
+    "pl": "pomóc",
+    "tr": "yardım etmek",
+    "de": "helfen",
+    "ja": "助ける、手伝う"
+   }
+  },
+  {
+   "parola": "camminare",
+   "forme": [
+    "camminato"
+   ],
+   "formeEsempi": [
+    "cammino"
+   ],
+   "esempi": [
+    "Abbiamo camminato tutto il giorno.",
+    "Ieri ho camminato dieci chilometri.",
+    "Cammino sempre per andare al lavoro."
+   ],
+   "traduzioni": {
+    "en": "to walk («hanno camminato» = they walked)",
+    "es": "caminar",
+    "pt": "caminhar, andar",
+    "fr": "marcher",
+    "cs": "chodit, jít",
+    "pl": "iść, chodzić",
+    "tr": "yürümek",
+    "de": "laufen, gehen",
+    "ja": "歩く"
+   }
+  },
+  {
+   "parola": "la calle",
+   "forme": [
+    "calli"
+   ],
+   "formeEsempi": [
+    "calle"
+   ],
+   "esempi": [
+    "A Venezia le strade si chiamano calli.",
+    "Questa calle è strettissima.",
+    "Ci siamo perse nelle calli."
+   ],
+   "traduzioni": {
+    "en": "calle (narrow street in Venice)",
+    "es": "calle (callejón veneciano)",
+    "pt": "calle (ruela de Veneza)",
+    "fr": "calle (ruelle vénitienne)",
+    "cs": "calle (benátská ulička)",
+    "pl": "calle (wenecka uliczka)",
+    "tr": "calle (Venedik'in dar sokakları)",
+    "de": "Calle (venezianische Gasse)",
+    "ja": "カッレ（ヴェネツィアの細い路地）"
+   }
+  },
+  {
+   "parola": "stretto",
+   "forme": [
+    "strette"
+   ],
+   "formeEsempi": [
+    "stretto",
+    "stretta",
+    "stretti"
+   ],
+   "esempi": [
+    "La strada è stretta: le macchine non passano.",
+    "Questi pantaloni sono troppo stretti.",
+    "Le scale sono strette e ripide."
+   ],
+   "traduzioni": {
+    "en": "narrow",
+    "es": "estrecho",
+    "pt": "estreito",
+    "fr": "étroit",
+    "cs": "úzký",
+    "pl": "wąski",
+    "tr": "dar",
+    "de": "eng, schmal",
+    "ja": "狭い"
+   }
+  },
+  {
+   "parola": "il ponte",
+   "forme": [
+    "ponti",
+    "ponte"
+   ],
+   "esempi": [
+    "Il ponte di Rialto è molto famoso.",
+    "A Venezia ci sono più di quattrocento ponti.",
+    "Ci vediamo sul ponte."
+   ],
+   "traduzioni": {
+    "en": "bridge",
+    "es": "puente",
+    "pt": "ponte",
+    "fr": "pont",
+    "cs": "most",
+    "pl": "most",
+    "tr": "köprü",
+    "de": "Brücke",
+    "ja": "橋"
+   }
+  },
+  {
+   "parola": "uguale",
+   "forme": [
+    "uguali"
+   ],
+   "formeEsempi": [
+    "uguale"
+   ],
+   "esempi": [
+    "Queste due case sono uguali.",
+    "Per me è uguale.",
+    "Tutte le strade sembrano uguali."
+   ],
+   "traduzioni": {
+    "en": "the same, identical",
+    "es": "igual",
+    "pt": "igual",
+    "fr": "pareil, identique",
+    "cs": "stejný",
+    "pl": "taki sam",
+    "tr": "aynı",
+    "de": "gleich",
+    "ja": "同じ"
+   }
+  },
+  {
+   "parola": "girare",
+   "forme": [
+    "gira"
+   ],
+   "formeEsempi": [
+    "giri",
+    "giro"
+   ],
+   "esempi": [
+    "Al semaforo gira a sinistra.",
+    "Giri a destra dopo la farmacia.",
+    "Giro sempre per la piazza."
+   ],
+   "traduzioni": {
+    "en": "to turn («gira a destra» = turn right)",
+    "es": "girar",
+    "pt": "virar",
+    "fr": "tourner",
+    "cs": "zahnout",
+    "pl": "skręcić",
+    "tr": "dönmek",
+    "de": "abbiegen",
+    "ja": "曲がる"
+   }
+  },
+  {
+   "parola": "a destra",
+   "forme": [
+    "destra"
+   ],
+   "esempi": [
+    "La farmacia è a destra.",
+    "Gira a destra, poi sempre dritto.",
+    "Sulla destra c'è la chiesa."
+   ],
+   "traduzioni": {
+    "en": "on the right, to the right",
+    "es": "a la derecha",
+    "pt": "à direita",
+    "fr": "à droite",
+    "cs": "vpravo, doprava",
+    "pl": "w prawo, po prawej",
+    "tr": "sağa, sağda",
+    "de": "rechts",
+    "ja": "右に"
+   }
+  },
+  {
+   "parola": "la volta",
+   "forme": [
+    "volte",
+    "volta"
+   ],
+   "esempi": [
+    "Sono stata a Roma tre volte.",
+    "Questa volta paghiamo noi.",
+    "Una volta alla settimana vado in piscina."
+   ],
+   "traduzioni": {
+    "en": "time (occasion) («due volte» = twice; «questa volta» = this time)",
+    "es": "vez",
+    "pt": "vez",
+    "fr": "fois",
+    "cs": "krát, (tento)krát",
+    "pl": "raz",
+    "tr": "kez, defa",
+    "de": "Mal",
+    "ja": "回、度"
+   }
+  },
+  {
+   "parola": "trovarsi",
+   "forme": [
+    "trovate"
+   ],
+   "formeEsempi": [
+    "trovata",
+    "trovati"
+   ],
+   "esempi": [
+    "Ci siamo trovate davanti al museo.",
+    "Mi sono trovata in una strada senza uscita.",
+    "Ci siamo trovati bene in quell'albergo."
+   ],
+   "traduzioni": {
+    "en": "to find oneself, to end up",
+    "es": "encontrarse, acabar (en un sitio)",
+    "pt": "encontrar-se, ir parar",
+    "fr": "se retrouver",
+    "cs": "ocitnout se",
+    "pl": "znaleźć się",
+    "tr": "kendini bir yerde bulmak",
+    "de": "landen, sich wiederfinden",
+    "ja": "（気がつくと）〜にいる"
+   }
+  },
+  {
+   "parola": "la chiesa",
+   "forme": [
+    "chiesa"
+   ],
+   "esempi": [
+    "In piazza c'è una chiesa antica.",
+    "La chiesa è aperta la mattina.",
+    "Ci incontriamo davanti alla chiesa."
+   ],
+   "traduzioni": {
+    "en": "church",
+    "es": "iglesia",
+    "pt": "igreja",
+    "fr": "église",
+    "cs": "kostel",
+    "pl": "kościół",
+    "tr": "kilise",
+    "de": "Kirche",
+    "ja": "教会"
+   }
+  },
+  {
+   "parola": "perdersi",
+   "forme": [
+    "perse",
+    "perdersi"
+   ],
+   "formeEsempi": [
+    "perso",
+    "persa"
+   ],
+   "esempi": [
+    "Ci siamo perse nel centro storico.",
+    "Il bambino si è perso al mercato.",
+    "A Venezia è facile perdersi."
+   ],
+   "traduzioni": {
+    "en": "to get lost («ci siamo perse» = we got lost)",
+    "es": "perderse",
+    "pt": "perder-se",
+    "fr": "se perdre",
+    "cs": "ztratit se, zabloudit",
+    "pl": "zgubić się",
+    "tr": "kaybolmak",
+    "de": "sich verlaufen",
+    "ja": "道に迷う"
+   }
+  },
+  {
+   "parola": "mettersi a",
+   "forme": [
+    "messa"
+   ],
+   "formeEsempi": [
+    "messo",
+    "messi"
+   ],
+   "esempi": [
+    "Il bambino si è messo a piangere.",
+    "Quando ha visto la foto, si è messa a ridere.",
+    "Ci siamo messi a correre."
+   ],
+   "traduzioni": {
+    "en": "to start (doing) («si è messa a ridere» = she burst out laughing)",
+    "es": "ponerse a",
+    "pt": "começar a, pôr-se a",
+    "fr": "se mettre à",
+    "cs": "dát se do (smíchu)",
+    "pl": "zacząć (się śmiać)",
+    "tr": "-meye başlamak",
+    "de": "anfangen zu",
+    "ja": "〜し始める"
+   }
+  },
+  {
+   "parola": "invece",
+   "forme": [
+    "invece"
+   ],
+   "esempi": [
+    "Io ho riso, lei invece si è arrabbiata.",
+    "Volevo il tè, invece ho preso un caffè.",
+    "Il treno era in ritardo; il bus invece era puntuale."
+   ],
+   "traduzioni": {
+    "en": "on the other hand, instead",
+    "es": "en cambio",
+    "pt": "já, por outro lado",
+    "fr": "en revanche",
+    "cs": "naopak",
+    "pl": "natomiast",
+    "tr": "ise",
+    "de": "dagegen",
+    "ja": "一方"
+   }
+  },
+  {
+   "parola": "arrabbiarsi",
+   "forme": [
+    "arrabbiata",
+    "arrabbiate"
+   ],
+   "formeEsempi": [
+    "arrabbiato",
+    "arrabbiare"
+   ],
+   "esempi": [
+    "Mia madre si è arrabbiata con me.",
+    "Non ti arrabbiare, è solo un gioco!",
+    "Si è arrabbiato perché il treno era in ritardo."
+   ],
+   "traduzioni": {
+    "en": "to get angry («si è arrabbiata» = she got angry)",
+    "es": "enfadarse",
+    "pt": "ficar com raiva, irritar-se",
+    "fr": "se fâcher, s'énerver",
+    "cs": "rozzlobit se",
+    "pl": "zdenerwować się",
+    "tr": "sinirlenmek",
+    "de": "sich ärgern, wütend werden",
+    "ja": "怒る"
+   }
+  },
+  {
+   "parola": "divertente",
+   "forme": [
+    "divertente"
+   ],
+   "esempi": [
+    "È un film molto divertente.",
+    "Il tuo amico è divertente!",
+    "Non è divertente, è un problema!"
+   ],
+   "traduzioni": {
+    "en": "funny, fun",
+    "es": "divertido",
+    "pt": "divertido, engraçado",
+    "fr": "drôle, amusant",
+    "cs": "zábavný, vtipný",
+    "pl": "zabawny",
+    "tr": "eğlenceli, komik",
+    "de": "lustig",
+    "ja": "おもしろい"
+   }
+  },
+  {
+   "parola": "la valigia",
+   "forme": [
+    "valigia"
+   ],
+   "esempi": [
+    "La valigia è nella stanza.",
+    "Ho una valigia piccola.",
+    "Mi aiuti a chiudere la valigia?"
+   ],
+   "traduzioni": {
+    "en": "suitcase",
+    "es": "maleta",
+    "pt": "mala",
+    "fr": "valise",
+    "cs": "kufr",
+    "pl": "walizka",
+    "tr": "bavul",
+    "de": "Koffer",
+    "ja": "スーツケース"
+   }
+  },
+  {
+   "parola": "pesare",
+   "forme": [
+    "pesa"
+   ],
+   "formeEsempi": [
+    "peso"
+   ],
+   "esempi": [
+    "Quanto pesa il pacco?",
+    "La valigia pesa troppo.",
+    "Il bambino pesa venti chili."
+   ],
+   "traduzioni": {
+    "en": "to weigh",
+    "es": "pesar",
+    "pt": "pesar",
+    "fr": "peser",
+    "cs": "vážit",
+    "pl": "ważyć",
+    "tr": "ağırlığında olmak",
+    "de": "wiegen",
+    "ja": "重さが〜ある"
+   }
+  },
+  {
+   "parola": "il chilo",
+   "forme": [
+    "chili"
+   ],
+   "formeEsempi": [
+    "chilo"
+   ],
+   "esempi": [
+    "Un chilo di mele, per favore.",
+    "La valigia pesa venti chili.",
+    "Ho perso due chili."
+   ],
+   "traduzioni": {
+    "en": "kilo",
+    "es": "kilo",
+    "pt": "quilo",
+    "fr": "kilo",
+    "cs": "kilo",
+    "pl": "kilogram",
+    "tr": "kilo",
+    "de": "Kilo",
+    "ja": "キロ"
+   }
+  },
+  {
+   "parola": "sedersi",
+   "forme": [
+    "sedute"
+   ],
+   "formeEsempi": [
+    "seduta",
+    "seduti"
+   ],
+   "esempi": [
+    "Ci siamo sedute al tavolino del bar.",
+    "Si è seduta vicino alla finestra.",
+    "Ci siamo seduti sull'erba."
+   ],
+   "traduzioni": {
+    "en": "to sit down («si sono sedute» = they sat down)",
+    "es": "sentarse",
+    "pt": "sentar-se",
+    "fr": "s'asseoir",
+    "cs": "sednout si",
+    "pl": "usiąść",
+    "tr": "oturmak",
+    "de": "sich setzen",
+    "ja": "座る"
+   }
+  },
+  {
+   "parola": "il gradino",
+   "forme": [
+    "gradini"
+   ],
+   "formeEsempi": [
+    "gradino"
+   ],
+   "esempi": [
+    "Attenzione al gradino!",
+    "I bambini sono seduti sui gradini della chiesa.",
+    "La scala ha venti gradini."
+   ],
+   "traduzioni": {
+    "en": "step",
+    "es": "escalón",
+    "pt": "degrau",
+    "fr": "marche",
+    "cs": "schod",
+    "pl": "stopień, schodek",
+    "tr": "basamak",
+    "de": "Stufe",
+    "ja": "段、階段の段"
+   }
+  },
+  {
+   "parola": "anziano",
+   "forme": [
+    "anziano"
+   ],
+   "formeEsempi": [
+    "anziana",
+    "anziani"
+   ],
+   "esempi": [
+    "Un signore anziano legge il giornale.",
+    "Mia nonna è anziana ma molto attiva.",
+    "Sull'autobus lascio il posto agli anziani."
+   ],
+   "traduzioni": {
+    "en": "elderly, old",
+    "es": "mayor, anciano",
+    "pt": "idoso",
+    "fr": "âgé",
+    "cs": "starší, postarší",
+    "pl": "starszy (wiekiem)",
+    "tr": "yaşlı",
+    "de": "älter, betagt",
+    "ja": "年配の、高齢の"
+   }
+  },
+  {
+   "parola": "avvicinarsi",
+   "forme": [
+    "avvicinato"
+   ],
+   "formeEsempi": [
+    "avvicinata",
+    "avvicina"
+   ],
+   "esempi": [
+    "Il cane si è avvicinato al bambino.",
+    "Una ragazza si è avvicinata e mi ha chiesto l'ora.",
+    "L'estate si avvicina."
+   ],
+   "traduzioni": {
+    "en": "to come up (to), to approach",
+    "es": "acercarse",
+    "pt": "aproximar-se",
+    "fr": "s'approcher",
+    "cs": "přiblížit se, přistoupit",
+    "pl": "podejść, zbliżyć się",
+    "tr": "yaklaşmak",
+    "de": "sich nähern, herankommen",
+    "ja": "近づく"
+   }
+  },
+  {
+   "parola": "cercare",
+   "forme": [
+    "cercate"
+   ],
+   "formeEsempi": [
+    "cerco",
+    "cerchi"
+   ],
+   "esempi": [
+    "Cerco le chiavi da mezz'ora.",
+    "Che cosa cerchi?",
+    "Cercate un albergo in centro?"
+   ],
+   "traduzioni": {
+    "en": "to look for",
+    "es": "buscar",
+    "pt": "procurar",
+    "fr": "chercher",
+    "cs": "hledat",
+    "pl": "szukać",
+    "tr": "aramak",
+    "de": "suchen",
+    "ja": "探す"
+   }
+  },
+  {
+   "parola": "sapere",
+   "forme": [
+    "sappiamo"
+   ],
+   "formeEsempi": [
+    "so",
+    "sai"
+   ],
+   "esempi": [
+    "Non sappiamo dove andare.",
+    "Sai dov'è la stazione?",
+    "Non so il suo numero."
+   ],
+   "traduzioni": {
+    "en": "to know",
+    "es": "saber",
+    "pt": "saber",
+    "fr": "savoir",
+    "cs": "vědět",
+    "pl": "wiedzieć",
+    "tr": "bilmek",
+    "de": "wissen",
+    "ja": "知っている"
+   }
+  },
+  {
+   "parola": "sorridere",
+   "forme": [
+    "sorriso"
+   ],
+   "formeEsempi": [
+    "sorride"
+   ],
+   "esempi": [
+    "Mi ha guardato e ha sorriso.",
+    "La bambina sorride sempre.",
+    "Quando ha visto il regalo, ha sorriso."
+   ],
+   "traduzioni": {
+    "en": "to smile («ha sorriso» = he smiled)",
+    "es": "sonreír",
+    "pt": "sorrir",
+    "fr": "sourire",
+    "cs": "usmát se",
+    "pl": "uśmiechnąć się",
+    "tr": "gülümsemek",
+    "de": "lächeln",
+    "ja": "ほほえむ"
+   }
+  },
+  {
+   "parola": "il numero",
+   "forme": [
+    "numero",
+    "numeri"
+   ],
+   "esempi": [
+    "Qual è il tuo numero di telefono?",
+    "Abito al numero 15.",
+    "I numeri delle case sono sulla porta."
+   ],
+   "traduzioni": {
+    "en": "number (here: house number)",
+    "es": "número",
+    "pt": "número",
+    "fr": "numéro",
+    "cs": "číslo",
+    "pl": "numer",
+    "tr": "numara",
+    "de": "Nummer, Hausnummer",
+    "ja": "番号、番地"
+   }
+  },
+  {
+   "parola": "il sestiere",
+   "forme": [
+    "sestiere"
+   ],
+   "esempi": [
+    "Venezia ha sei sestieri.",
+    "Castello è il sestiere più grande.",
+    "In quale sestiere è il tuo albergo?"
+   ],
+   "traduzioni": {
+    "en": "sestiere (one of the six districts of Venice)",
+    "es": "sestiere (uno de los seis barrios de Venecia)",
+    "pt": "sestiere (um dos seis bairros de Veneza)",
+    "fr": "sestiere (un des six quartiers de Venise)",
+    "cs": "sestiere (jedna ze šesti benátských čtvrtí)",
+    "pl": "sestiere (jedna z sześciu dzielnic Wenecji)",
+    "tr": "sestiere (Venedik'in altı semtinden biri)",
+    "de": "Sestiere (einer der sechs Stadtteile Venedigs)",
+    "ja": "セスティエーレ（ヴェネツィアの6つの地区の一つ）"
+   },
+   "formeEsempi": [
+    "sestieri"
+   ]
+  },
+  {
+   "parola": "cioè",
+   "forme": [
+    "cioè"
+   ],
+   "esempi": [
+    "Arrivo dopodomani, cioè giovedì.",
+    "È mio cugino, cioè il figlio di mio zio.",
+    "Costa poco, cioè cinque euro."
+   ],
+   "traduzioni": {
+    "en": "that is, I mean",
+    "es": "es decir",
+    "pt": "ou seja, isto é",
+    "fr": "c'est-à-dire",
+    "cs": "to jest, tedy",
+    "pl": "czyli, to znaczy",
+    "tr": "yani",
+    "de": "das heißt",
+    "ja": "つまり"
+   }
+  },
+  {
+   "parola": "il quartiere",
+   "forme": [
+    "quartiere"
+   ],
+   "esempi": [
+    "Il mio quartiere è tranquillo.",
+    "In questo quartiere ci sono tanti ristoranti.",
+    "Abitiamo in un quartiere vicino al centro."
+   ],
+   "traduzioni": {
+    "en": "neighbourhood, district",
+    "es": "barrio",
+    "pt": "bairro",
+    "fr": "quartier",
+    "cs": "čtvrť",
+    "pl": "dzielnica",
+    "tr": "mahalle, semt",
+    "de": "Viertel, Stadtteil",
+    "ja": "地区、界隈"
+   }
+  },
+  {
+   "parola": "quasi",
+   "forme": [
+    "quasi"
+   ],
+   "esempi": [
+    "Sono quasi le otto.",
+    "Ho quasi finito.",
+    "Il bicchiere è quasi vuoto."
+   ],
+   "traduzioni": {
+    "en": "almost, nearly",
+    "es": "casi",
+    "pt": "quase",
+    "fr": "presque",
+    "cs": "skoro, téměř",
+    "pl": "prawie",
+    "tr": "neredeyse",
+    "de": "fast",
+    "ja": "ほとんど、もう少しで"
+   }
+  },
+  {
+   "parola": "accompagnare",
+   "forme": [
+    "accompagnate"
+   ],
+   "formeEsempi": [
+    "accompagno",
+    "accompagnato"
+   ],
+   "esempi": [
+    "Ti accompagno alla stazione.",
+    "Mio padre mi ha accompagnato a scuola.",
+    "Ci ha accompagnate fino all'albergo."
+   ],
+   "traduzioni": {
+    "en": "to take, to walk (someone somewhere)",
+    "es": "acompañar",
+    "pt": "acompanhar, levar",
+    "fr": "accompagner",
+    "cs": "doprovodit",
+    "pl": "odprowadzić",
+    "tr": "eşlik etmek, götürmek",
+    "de": "begleiten",
+    "ja": "送っていく、付き添う"
+   }
+  },
+  {
+   "parola": "a piedi",
+   "forme": [
+    "piedi"
+   ],
+   "esempi": [
+    "Vado al lavoro a piedi.",
+    "La stazione è a cinque minuti a piedi.",
+    "A Venezia si va a piedi o in barca."
+   ],
+   "traduzioni": {
+    "en": "on foot",
+    "es": "a pie, andando",
+    "pt": "a pé",
+    "fr": "à pied",
+    "cs": "pěšky",
+    "pl": "pieszo, na piechotę",
+    "tr": "yürüyerek",
+    "de": "zu Fuß",
+    "ja": "歩いて"
+   }
+  },
+  {
+   "parola": "salutarsi",
+   "forme": [
+    "salutati"
+   ],
+   "formeEsempi": [
+    "salutate",
+    "salutiamo"
+   ],
+   "esempi": [
+    "Ci siamo salutati alla stazione.",
+    "Ci salutiamo con un bacio.",
+    "Si sono salutate davanti alla scuola."
+   ],
+   "traduzioni": {
+    "en": "to say goodbye to each other",
+    "es": "despedirse",
+    "pt": "despedir-se",
+    "fr": "se dire au revoir",
+    "cs": "rozloučit se",
+    "pl": "pożegnać się",
+    "tr": "vedalaşmak",
+    "de": "sich verabschieden",
+    "ja": "あいさつを交わす、別れる"
+   }
+  },
+  {
+   "parola": "andarsene",
+   "forme": [
+    "andato"
+   ],
+   "formeEsempi": [
+    "andata",
+    "vado"
+   ],
+   "esempi": [
+    "È tardi, me ne vado.",
+    "Il signore se n'è andato con il cane.",
+    "Lei se n'è andata senza salutare."
+   ],
+   "traduzioni": {
+    "en": "to leave, to go away («se n'è andato» = he left)",
+    "es": "irse, marcharse",
+    "pt": "ir embora",
+    "fr": "s'en aller, partir",
+    "cs": "odejít",
+    "pl": "odejść, pójść sobie",
+    "tr": "gidip gitmek, ayrılmak",
+    "de": "weggehen",
+    "ja": "立ち去る"
+   }
+  },
+  {
+   "parola": "farsi la doccia",
+   "forme": [
+    "doccia"
+   ],
+   "formeEsempi": [
+    "fatte",
+    "faccio"
+   ],
+   "esempi": [
+    "Dopo la corsa mi faccio la doccia.",
+    "Si sono fatte la doccia e sono uscite.",
+    "La doccia calda è il momento migliore della giornata."
+   ],
+   "traduzioni": {
+    "en": "to have a shower",
+    "es": "ducharse",
+    "pt": "tomar banho",
+    "fr": "prendre une douche",
+    "cs": "osprchovat se",
+    "pl": "wziąć prysznic",
+    "tr": "duş almak",
+    "de": "duschen",
+    "ja": "シャワーを浴びる"
+   }
+  },
+  {
+   "parola": "rilassarsi",
+   "forme": [
+    "rilassate"
+   ],
+   "formeEsempi": [
+    "rilassato",
+    "rilasso"
+   ],
+   "esempi": [
+    "La domenica mi rilasso sul divano.",
+    "In vacanza ci siamo rilassate.",
+    "Si è rilassato con un bel libro."
+   ],
+   "traduzioni": {
+    "en": "to relax",
+    "es": "relajarse",
+    "pt": "relaxar",
+    "fr": "se détendre",
+    "cs": "odpočinout si",
+    "pl": "odpocząć, zrelaksować się",
+    "tr": "dinlenmek, rahatlamak",
+    "de": "sich entspannen",
+    "ja": "くつろぐ"
+   }
+  },
+  {
+   "parola": "di nuovo",
+   "forme": [
+    "nuovo"
+   ],
+   "esempi": [
+    "Domani piove di nuovo.",
+    "Ho perso di nuovo le chiavi!",
+    "Ci vediamo di nuovo la settimana prossima."
+   ],
+   "traduzioni": {
+    "en": "again",
+    "es": "de nuevo, otra vez",
+    "pt": "de novo",
+    "fr": "de nouveau, encore",
+    "cs": "znovu",
+    "pl": "znowu",
+    "tr": "yine, tekrar",
+    "de": "wieder",
+    "ja": "また、再び"
+   }
+  },
+  {
+   "parola": "senza",
+   "forme": [
+    "senza"
+   ],
+   "esempi": [
+    "Bevo il caffè senza zucchero.",
+    "Sono uscita senza ombrello.",
+    "Non posso vivere senza musica."
+   ],
+   "traduzioni": {
+    "en": "without",
+    "es": "sin",
+    "pt": "sem",
+    "fr": "sans",
+    "cs": "bez",
+    "pl": "bez",
+    "tr": "-sız, -meden",
+    "de": "ohne",
+    "ja": "〜なしで"
+   }
+  },
+  {
+   "parola": "divertirsi",
+   "forme": [
+    "divertite"
+   ],
+   "formeEsempi": [
+    "divertito",
+    "diverto"
+   ],
+   "esempi": [
+    "Alla festa ci siamo divertite molto.",
+    "Ti sei divertito in vacanza?",
+    "Mi diverto con i miei amici."
+   ],
+   "traduzioni": {
+    "en": "to have fun, to enjoy oneself",
+    "es": "divertirse",
+    "pt": "divertir-se",
+    "fr": "s'amuser",
+    "cs": "bavit se",
+    "pl": "dobrze się bawić",
+    "tr": "eğlenmek",
+    "de": "Spaß haben",
+    "ja": "楽しむ"
+   }
+  },
+  {
+   "parola": "il quaderno",
+   "forme": [
+    "quaderno"
+   ],
+   "esempi": [
+    "Scrivo tutto nel mio quaderno.",
+    "Ho dimenticato il quaderno a casa.",
+    "Il quaderno di Emma è pieno di regole."
+   ],
+   "traduzioni": {
+    "en": "notebook",
+    "es": "cuaderno",
+    "pt": "caderno",
+    "fr": "cahier",
+    "cs": "sešit",
+    "pl": "zeszyt",
+    "tr": "defter",
+    "de": "Heft",
+    "ja": "ノート"
+   }
+  },
+  {
+   "parola": "la mappa",
+   "forme": [
+    "mappa"
+   ],
+   "esempi": [
+    "Guardo la mappa della città.",
+    "Con questa mappa non trovo niente!",
+    "Sulla mappa c'è il nostro albergo."
+   ],
+   "traduzioni": {
+    "en": "map",
+    "es": "mapa",
+    "pt": "mapa",
+    "fr": "plan, carte",
+    "cs": "mapa",
+    "pl": "mapa",
+    "tr": "harita",
+    "de": "Karte, Stadtplan",
+    "ja": "地図"
+   }
+  },
+  {
+   "parola": "servire",
+   "forme": [
+    "serve"
+   ],
+   "formeEsempi": [
+    "servono"
+   ],
+   "esempi": [
+    "Per entrare serve il biglietto.",
+    "Non mi serve niente, grazie.",
+    "A che cosa servono queste chiavi?"
+   ],
+   "traduzioni": {
+    "en": "to be needed, to be useful («la mappa non serve» = the map is no use)",
+    "es": "servir, hacer falta",
+    "pt": "servir, ser útil",
+    "fr": "servir, être utile",
+    "cs": "být k něčemu, být potřeba",
+    "pl": "być potrzebnym, przydać się",
+    "tr": "işe yaramak, gerekmek",
+    "de": "nützen, gebraucht werden",
+    "ja": "役に立つ、必要だ"
+   }
+  },
+  {
+   "parola": "il modo",
+   "forme": [
+    "modo"
+   ],
+   "esempi": [
+    "Qual è il modo più veloce per arrivare?",
+    "Lo faccio a modo mio.",
+    "C'è un modo semplice per impararlo."
+   ],
+   "traduzioni": {
+    "en": "way",
+    "es": "manera, modo",
+    "pt": "maneira, modo",
+    "fr": "façon, moyen",
+    "cs": "způsob",
+    "pl": "sposób",
+    "tr": "yol, yöntem",
+    "de": "Art, Weg",
+    "ja": "方法、やり方"
+   }
+  },
+  {
+   "parola": "migliore",
+   "forme": [
+    "migliore"
+   ],
+   "esempi": [
+    "È il mio migliore amico.",
+    "Questa è la pizzeria migliore della città.",
+    "La soluzione migliore è aspettare."
+   ],
+   "traduzioni": {
+    "en": "best, better",
+    "es": "mejor",
+    "pt": "melhor",
+    "fr": "meilleur",
+    "cs": "nejlepší, lepší",
+    "pl": "najlepszy, lepszy",
+    "tr": "en iyi",
+    "de": "beste, besser",
+    "ja": "いちばんよい"
+   }
+  },
+  {
+   "parola": "conoscere",
+   "forme": [
+    "conoscerla"
+   ],
+   "formeEsempi": [
+    "conosco",
+    "conoscere"
+   ],
+   "esempi": [
+    "Conosco bene questa città.",
+    "Voglio conoscere la tua famiglia.",
+    "Non conosco nessuno qui."
+   ],
+   "traduzioni": {
+    "en": "to get to know («conoscerla» = to get to know it)",
+    "es": "conocer",
+    "pt": "conhecer",
+    "fr": "connaître, découvrir",
+    "cs": "poznat",
+    "pl": "poznać",
+    "tr": "tanımak",
+    "de": "kennenlernen",
+    "ja": "知る、よく知るようになる"
+   }
+  }
+ ],
+ "testo": {
+  "en": {
+   "a2": [
+    "At two in the afternoon the regional train finally stopped in Venice. Emma and Chiara had woken up at five and they were tired, but when they came out of the station and saw the Grand Canal, their tiredness vanished.",
+    "– Right, – said Emma, – our hotel is in Via… wait.\nShe looked at the booking on her phone and stopped.\n– It only says «Castello 5312» here. Where's the street?\n– Never mind, – Chiara answered. – The phone will help us.",
+    "They walked for an hour. The calli were narrow and the bridges all looked the same. The phone said «turn right», but on the right there was a canal. Twice they ended up in front of the same church.",
+    "– We're lost, – said Chiara, and she burst out laughing.\nEmma, on the other hand, got angry.\n– It's not funny! I'm tired, I'm hungry and my suitcase weighs twenty kilos!",
+    "They sat down on the steps of a bridge. An elderly man with a dog came up to them.\n– Are you lost, young ladies? What number are you looking for?\n– Castello 5312. But we don't know the street!\nThe man smiled.\n– There's no street. In Venice the house number doesn't belong to the street but to the sestiere, that is, the district. Here in Castello the numbers go up to almost seven thousand!",
+    "The man walked them all the way to the hotel door: ten minutes on foot. They said goodbye and he went off with his dog.",
+    "In the evening Emma and Chiara had a shower, relaxed for a while and went out again, this time without a phone. They got lost three more times, but they didn't get angry: they had fun.",
+    "Before going to sleep Emma wrote in her notebook: «In Venice a map is no use. Getting lost is the best way to get to know it»."
+   ]
+  },
+  "es": {
+   "a2": [
+    "A las dos de la tarde el tren regional por fin se detuvo en Venecia. Emma y Chiara se habían despertado a las cinco y estaban cansadas, pero cuando salieron de la estación y vieron el Gran Canal, el cansancio desapareció.",
+    "– Bueno –dijo Emma–, nuestro hotel está en la calle… espera.\nMiró la reserva en el móvil y se detuvo.\n– Aquí solo pone «Castello 5312». ¿Dónde está la calle?\n– No importa –respondió Chiara–. Nos ayuda el móvil.",
+    "Caminaron durante una hora. Las calli eran estrechas y los puentes eran todos iguales. El móvil decía «gira a la derecha», pero a la derecha había un canal. Dos veces acabaron delante de la misma iglesia.",
+    "– Nos hemos perdido –dijo Chiara, y se echó a reír.\nEmma, en cambio, se enfadó.\n– ¡No tiene gracia! ¡Estoy cansada, tengo hambre y la maleta pesa veinte kilos!",
+    "Se sentaron en los escalones de un puente. Un señor mayor con un perro se acercó.\n– ¿Se han perdido, señoritas? ¿Qué número buscan?\n– Castello 5312. ¡Pero no sabemos la calle!\nEl señor sonrió.\n– No hay calle. En Venecia el número de la casa no es de la calle, sino del sestiere, es decir, del barrio. ¡Aquí en Castello los números llegan casi a siete mil!",
+    "El señor las acompañó hasta la puerta del hotel: diez minutos a pie. Se despidieron y él se fue con su perro.",
+    "Por la noche Emma y Chiara se ducharon, se relajaron un poco y volvieron a salir, esta vez sin móvil. Se perdieron otras tres veces, pero no se enfadaron: se divirtieron.",
+    "Antes de dormir, Emma escribió en su cuaderno: «En Venecia el mapa no sirve. Perderse es la mejor manera de conocerla»."
+   ]
+  },
+  "pt": {
+   "a2": [
+    "Às duas da tarde o trem regional finalmente parou em Veneza. Emma e Chiara tinham acordado às cinco e estavam cansadas, mas quando saíram da estação e viram o Grande Canal, o cansaço sumiu.",
+    "– Bom – disse Emma –, o nosso hotel fica na rua… espera.\nOlhou a reserva no celular e parou.\n– Aqui só está escrito «Castello 5312». Cadê a rua?\n– Não importa – respondeu Chiara. – O celular ajuda a gente.",
+    "Andaram por uma hora. As calli eram estreitas e as pontes eram todas iguais. O celular dizia «vire à direita», mas à direita havia um canal. Duas vezes foram parar na frente da mesma igreja.",
+    "– A gente se perdeu – disse Chiara, e começou a rir.\nJá Emma ficou com raiva.\n– Não tem graça! Estou cansada, estou com fome e a mala pesa vinte quilos!",
+    "Sentaram-se nos degraus de uma ponte. Um senhor idoso com um cachorro se aproximou.\n– Vocês se perderam, moças? Que número estão procurando?\n– Castello 5312. Mas não sabemos a rua!\nO senhor sorriu.\n– Não tem rua. Em Veneza o número da casa não é da rua, mas do sestiere, ou seja, do bairro. Aqui em Castello os números chegam a quase sete mil!",
+    "O senhor as acompanhou até a porta do hotel: dez minutos a pé. Despediram-se e ele foi embora com o cachorro.",
+    "À noite Emma e Chiara tomaram banho, relaxaram um pouco e saíram de novo, desta vez sem celular. Perderam-se mais três vezes, mas não ficaram com raiva: se divertiram.",
+    "Antes de dormir, Emma escreveu no caderno: «Em Veneza o mapa não serve. Perder-se é a melhor maneira de conhecê-la»."
+   ]
+  },
+  "fr": {
+   "a2": [
+    "À deux heures de l'après-midi, le train régional s'est enfin arrêté à Venise. Emma et Chiara s'étaient réveillées à cinq heures et elles étaient fatiguées, mais quand elles sont sorties de la gare et qu'elles ont vu le Grand Canal, la fatigue a disparu.",
+    "– Bon, a dit Emma, notre hôtel est rue… attends.\nElle a regardé la réservation sur son téléphone et elle s'est arrêtée.\n– Ici, il est seulement écrit « Castello 5312 ». Où est la rue ?\n– Ce n'est pas grave, a répondu Chiara. Le téléphone va nous aider.",
+    "Elles ont marché pendant une heure. Les calli étaient étroites et les ponts étaient tous pareils. Le téléphone disait « tournez à droite », mais à droite il y avait un canal. Deux fois, elles se sont retrouvées devant la même église.",
+    "– On s'est perdues, a dit Chiara, et elle s'est mise à rire.\nEmma, elle, s'est fâchée.\n– Ce n'est pas drôle ! Je suis fatiguée, j'ai faim et ma valise pèse vingt kilos !",
+    "Elles se sont assises sur les marches d'un pont. Un monsieur âgé avec un chien s'est approché.\n– Vous vous êtes perdues, mesdemoiselles ? Quel numéro cherchez-vous ?\n– Castello 5312. Mais on ne connaît pas la rue !\nLe monsieur a souri.\n– Il n'y a pas de rue. À Venise, le numéro de la maison n'appartient pas à la rue, mais au sestiere, c'est-à-dire au quartier. Ici, à Castello, les numéros vont presque jusqu'à sept mille !",
+    "Le monsieur les a accompagnées jusqu'à la porte de l'hôtel : dix minutes à pied. Ils se sont dit au revoir et il est parti avec son chien.",
+    "Le soir, Emma et Chiara ont pris une douche, se sont un peu détendues et sont ressorties, cette fois sans téléphone. Elles se sont perdues encore trois fois, mais elles ne se sont pas fâchées : elles se sont amusées.",
+    "Avant de dormir, Emma a écrit dans son cahier : « À Venise, le plan ne sert à rien. Se perdre est la meilleure façon de la connaître »."
+   ]
+  },
+  "cs": {
+   "a2": [
+    "Ve dvě odpoledne regionální vlak konečně zastavil v Benátkách. Emma a Chiara vstávaly v pět a byly unavené, ale když vyšly z nádraží a uviděly Canal Grande, únava zmizela.",
+    "– Tak, – řekla Emma, – náš hotel je v ulici… počkej.\nPodívala se na rezervaci v telefonu a zarazila se.\n– Tady je napsáno jen „Castello 5312“. Kde je ulice?\n– To nevadí, – odpověděla Chiara. – Pomůže nám telefon.",
+    "Chodily hodinu. Calli byly úzké a mosty všechny stejné. Telefon říkal „odbočte doprava“, ale vpravo byl kanál. Dvakrát se ocitly před stejným kostelem.",
+    "– Zabloudily jsme, – řekla Chiara a dala se do smíchu.\nEmma se naopak rozzlobila.\n– To není legrace! Jsem unavená, mám hlad a kufr váží dvacet kilo!",
+    "Sedly si na schody jednoho mostu. Přišel k nim starší pán se psem.\n– Zabloudila jste, slečny? Jaké číslo hledáte?\n– Castello 5312. Ale nevíme ulici!\nPán se usmál.\n– Ulice tu není. V Benátkách číslo domu nepatří k ulici, ale k sestiere, tedy ke čtvrti. Tady v Castellu jdou čísla skoro až k sedmi tisícům!",
+    "Pán je doprovodil až ke dveřím hotelu: deset minut pěšky. Rozloučili se a on odešel se svým psem.",
+    "Večer se Emma a Chiara osprchovaly, chvíli si odpočinuly a znovu vyšly ven, tentokrát bez telefonu. Ještě třikrát zabloudily, ale nezlobily se: bavily se.",
+    "Před spaním Emma napsala do sešitu: „V Benátkách mapa k ničemu není. Zabloudit je nejlepší způsob, jak je poznat.“"
+   ]
+  },
+  "pl": {
+   "a2": [
+    "O drugiej po południu pociąg regionalny wreszcie zatrzymał się w Wenecji. Emma i Chiara wstały o piątej i były zmęczone, ale kiedy wyszły z dworca i zobaczyły Canal Grande, zmęczenie zniknęło.",
+    "– No dobrze – powiedziała Emma – nasz hotel jest na ulicy… czekaj.\nSpojrzała na rezerwację w telefonie i zatrzymała się.\n– Tu jest napisane tylko „Castello 5312”. Gdzie jest ulica?\n– Nieważne – odpowiedziała Chiara. – Pomoże nam telefon.",
+    "Szły przez godzinę. Calli były wąskie, a mosty wszystkie takie same. Telefon mówił „skręć w prawo”, ale po prawej był kanał. Dwa razy znalazły się przed tym samym kościołem.",
+    "– Zgubiłyśmy się – powiedziała Chiara i zaczęła się śmiać.\nEmma natomiast się zdenerwowała.\n– To nie jest śmieszne! Jestem zmęczona, głodna, a walizka waży dwadzieścia kilo!",
+    "Usiadły na schodkach mostu. Podszedł do nich starszy pan z psem.\n– Zgubiły się panie? Jakiego numeru szukacie?\n– Castello 5312. Ale nie znamy ulicy!\nPan się uśmiechnął.\n– Nie ma ulicy. W Wenecji numer domu nie należy do ulicy, tylko do sestiere, czyli dzielnicy. Tu, w Castello, numery dochodzą prawie do siedmiu tysięcy!",
+    "Pan odprowadził je aż pod drzwi hotelu: dziesięć minut pieszo. Pożegnali się i odszedł ze swoim psem.",
+    "Wieczorem Emma i Chiara wzięły prysznic, trochę odpoczęły i znowu wyszły, tym razem bez telefonu. Zgubiły się jeszcze trzy razy, ale się nie denerwowały: świetnie się bawiły.",
+    "Przed snem Emma zapisała w zeszycie: „W Wenecji mapa się nie przydaje. Zgubić się to najlepszy sposób, żeby ją poznać”."
+   ]
+  },
+  "tr": {
+   "a2": [
+    "Öğleden sonra saat ikide bölgesel tren nihayet Venedik'te durdu. Emma ile Chiara saat beşte uyanmışlardı ve yorgundular, ama istasyondan çıkıp Büyük Kanal'ı görünce yorgunlukları geçti.",
+    "– Evet, – dedi Emma, – otelimiz … sokağında… bekle.\nTelefonundaki rezervasyona baktı ve durdu.\n– Burada sadece «Castello 5312» yazıyor. Sokak nerede?\n– Önemli değil, – diye cevap verdi Chiara. – Telefon bize yardım eder.",
+    "Bir saat yürüdüler. Calli'ler dardı, köprülerin hepsi birbirine benziyordu. Telefon «sağa dönün» diyordu ama sağda bir kanal vardı. İki kere kendilerini aynı kilisenin önünde buldular.",
+    "– Kaybolduk, – dedi Chiara ve gülmeye başladı.\nEmma ise sinirlendi.\n– Hiç komik değil! Yorgunum, açım ve bavul yirmi kilo!",
+    "Bir köprünün basamaklarına oturdular. Köpekli yaşlı bir bey yanlarına geldi.\n– Kayboldunuz mu, hanımlar? Hangi numarayı arıyorsunuz?\n– Castello 5312. Ama sokağı bilmiyoruz!\nBey gülümsedi.\n– Sokak yok. Venedik'te ev numarası sokağa değil, sestiere'ye, yani semte aittir. Burada, Castello'da numaralar neredeyse yedi bine kadar gider!",
+    "Bey onları otelin kapısına kadar götürdü: yürüyerek on dakika. Vedalaştılar ve o, köpeğiyle gitti.",
+    "Akşam Emma ile Chiara duş aldılar, biraz dinlendiler ve bu sefer telefonsuz yeniden dışarı çıktılar. Üç kere daha kayboldular ama sinirlenmediler: eğlendiler.",
+    "Uyumadan önce Emma defterine şunu yazdı: «Venedik'te harita işe yaramaz. Kaybolmak, onu tanımanın en iyi yoludur»."
+   ]
+  },
+  "de": {
+   "a2": [
+    "Um zwei Uhr nachmittags hielt der Regionalzug endlich in Venedig. Emma und Chiara waren um fünf aufgewacht und müde, aber als sie aus dem Bahnhof kamen und den Canal Grande sahen, war die Müdigkeit verschwunden.",
+    "– Also, – sagte Emma, – unser Hotel ist in der Via … warte.\nSie schaute auf die Buchung im Handy und blieb stehen.\n– Hier steht nur „Castello 5312“. Wo ist die Straße?\n– Macht nichts, – antwortete Chiara. – Das Handy hilft uns.",
+    "Sie liefen eine Stunde lang. Die Calli waren eng und die Brücken sahen alle gleich aus. Das Handy sagte „rechts abbiegen“, aber rechts war ein Kanal. Zweimal landeten sie vor derselben Kirche.",
+    "– Wir haben uns verlaufen, – sagte Chiara und fing an zu lachen.\nEmma dagegen ärgerte sich.\n– Das ist nicht lustig! Ich bin müde, ich habe Hunger und der Koffer wiegt zwanzig Kilo!",
+    "Sie setzten sich auf die Stufen einer Brücke. Ein älterer Herr mit einem Hund kam zu ihnen.\n– Haben Sie sich verlaufen, meine Damen? Welche Nummer suchen Sie?\n– Castello 5312. Aber wir kennen die Straße nicht!\nDer Herr lächelte.\n– Es gibt keine Straße. In Venedig gehört die Hausnummer nicht zur Straße, sondern zum Sestiere, also zum Stadtteil. Hier in Castello gehen die Nummern bis fast siebentausend!",
+    "Der Herr begleitete sie bis zur Hoteltür: zehn Minuten zu Fuß. Sie verabschiedeten sich, und er ging mit seinem Hund davon.",
+    "Am Abend duschten Emma und Chiara, entspannten sich ein bisschen und gingen wieder hinaus, diesmal ohne Handy. Sie verliefen sich noch dreimal, aber sie ärgerten sich nicht: Sie hatten Spaß.",
+    "Vor dem Schlafen schrieb Emma in ihr Heft: „In Venedig nützt die Karte nichts. Sich zu verlaufen ist die beste Art, die Stadt kennenzulernen.“"
+   ]
+  },
+  "ja": {
+   "a2": [
+    "午後2時、普通列車はやっとヴェネツィアに止まった。エマとキアラは5時に起きたので疲れていたが、駅を出て大運河を見たとたん、疲れは消えてしまった。",
+    "「さてと」とエマは言った。「ホテルは……通りの……ちょっと待って。」\nエマは携帯で予約を見て、立ち止まった。\n「ここには『カステッロ5312』としか書いてない。通りはどこ？」\n「大丈夫」とキアラは答えた。「携帯が案内してくれるよ。」",
+    "二人は1時間歩いた。カッレ（路地）は狭く、橋はどれも同じに見えた。携帯は「右に曲がってください」と言うが、右には運河があった。二回も、同じ教会の前に出てしまった。",
+    "「迷っちゃったね」とキアラは言って、笑い出した。\n一方エマは怒った。\n「笑いごとじゃないよ！疲れたし、お腹もすいたし、スーツケースは20キロもあるんだよ！」",
+    "二人は橋の階段に座った。犬を連れた年配の男性が近づいてきた。\n「迷ったのかい、お嬢さんたち？何番地を探してるの？」\n「カステッロ5312です。でも通りの名前がわからなくて！」\n男性はほほえんだ。\n「通りはないんだよ。ヴェネツィアでは、家の番号は通りじゃなくてセスティエーレ、つまり地区のものなんだ。ここカステッロでは、番号が7000近くまであるんだよ！」",
+    "男性はホテルのドアの前まで二人を送ってくれた。歩いて10分だった。三人はあいさつを交わし、男性は犬と一緒に帰っていった。",
+    "夜、エマとキアラはシャワーを浴びて少しくつろぎ、また出かけた。今度は携帯なしで。さらに3回迷ったが、もう怒らなかった。二人は楽しんだ。",
+    "寝る前に、エマはノートに書いた。「ヴェネツィアでは地図は役に立たない。迷うことが、この町を知るいちばんの方法だ。」"
+   ]
+  }
+ }
+}
