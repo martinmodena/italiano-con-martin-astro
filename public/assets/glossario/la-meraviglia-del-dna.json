@@ -1,0 +1,1472 @@
+{
+ "id": "la-meraviglia-del-dna",
+ "nota": "Glossario della lettura (solo B2 e C1: niente traduzione dei paragrafi): formato descritto in AGENTS.md. Parole utili anche fuori dalla biologia.",
+ "voci": [
+  {
+   "parola": "il capolavoro",
+   "forme": [
+    "capolavoro"
+   ],
+   "esempi": [
+    "La Gioconda è un capolavoro.",
+    "Questa torta è un capolavoro!",
+    "Il romanzo è considerato un capolavoro."
+   ],
+   "traduzioni": {
+    "en": "masterpiece",
+    "es": "obra maestra",
+    "pt": "obra-prima",
+    "fr": "chef-d'œuvre",
+    "cs": "mistrovské dílo",
+    "pl": "arcydzieło",
+    "tr": "başyapıt",
+    "de": "Meisterwerk",
+    "ja": "傑作"
+   }
+  },
+  {
+   "parola": "custodire",
+   "forme": [
+    "custodisce"
+   ],
+   "formeEsempi": [
+    "custodire",
+    "custodisco"
+   ],
+   "esempi": [
+    "Il museo custodisce opere antiche.",
+    "Custodisco le sue lettere in un cassetto.",
+    "La banca custodisce i gioielli."
+   ],
+   "traduzioni": {
+    "en": "to keep, to safeguard",
+    "es": "custodiar, guardar",
+    "pt": "guardar, custodiar",
+    "fr": "garder, conserver",
+    "cs": "uchovávat, střežit",
+    "pl": "przechowywać, strzec",
+    "tr": "saklamak, korumak",
+    "de": "bewahren, hüten",
+    "ja": "保管する、守る"
+   }
+  },
+  {
+   "parola": "il compromesso",
+   "forme": [
+    "compromesso"
+   ],
+   "esempi": [
+    "Abbiamo trovato un compromesso.",
+    "È un buon compromesso tra prezzo e qualità.",
+    "Non accetto compromessi."
+   ],
+   "traduzioni": {
+    "en": "compromise, trade-off",
+    "es": "compromiso, término medio",
+    "pt": "meio-termo, compromisso",
+    "fr": "compromis",
+    "cs": "kompromis",
+    "pl": "kompromis",
+    "tr": "uzlaşma, denge",
+    "de": "Kompromiss",
+    "ja": "妥協、折り合い"
+   },
+   "formeEsempi": [
+    "compromessi"
+   ]
+  },
+  {
+   "parola": "la lunghezza",
+   "forme": [
+    "lunghezza"
+   ],
+   "esempi": [
+    "Qual è la lunghezza del tavolo?",
+    "La lunghezza del fiume è di 600 km.",
+    "Misuro la lunghezza della stanza."
+   ],
+   "traduzioni": {
+    "en": "length",
+    "es": "longitud",
+    "pt": "comprimento",
+    "fr": "longueur",
+    "cs": "délka",
+    "pl": "długość",
+    "tr": "uzunluk",
+    "de": "Länge",
+    "ja": "長さ"
+   }
+  },
+  {
+   "parola": "il nucleo",
+   "forme": [
+    "nucleo",
+    "nuclei"
+   ],
+   "esempi": [
+    "Il DNA si trova nel nucleo della cellula.",
+    "Il nucleo familiare è piccolo.",
+    "Il nucleo della città è antico."
+   ],
+   "traduzioni": {
+    "en": "nucleus, core",
+    "es": "núcleo",
+    "pt": "núcleo",
+    "fr": "noyau",
+    "cs": "jádro",
+    "pl": "jądro",
+    "tr": "çekirdek",
+    "de": "Kern",
+    "ja": "核"
+   }
+  },
+  {
+   "parola": "il diametro",
+   "forme": [
+    "diametro"
+   ],
+   "esempi": [
+    "Il diametro del tubo è di due centimetri.",
+    "Misura il diametro del cerchio.",
+    "Il nucleo ha un diametro piccolissimo."
+   ],
+   "traduzioni": {
+    "en": "diameter",
+    "es": "diámetro",
+    "pt": "diâmetro",
+    "fr": "diamètre",
+    "cs": "průměr",
+    "pl": "średnica",
+    "tr": "çap",
+    "de": "Durchmesser",
+    "ja": "直径"
+   }
+  },
+  {
+   "parola": "la coppia",
+   "forme": [
+    "coppie",
+    "coppia"
+   ],
+   "esempi": [
+    "Sono una coppia felice.",
+    "Lavoriamo a coppie.",
+    "Il DNA ha miliardi di coppie di basi."
+   ],
+   "traduzioni": {
+    "en": "pair, couple",
+    "es": "pareja, par",
+    "pt": "par, casal",
+    "fr": "paire, couple",
+    "cs": "pár, dvojice",
+    "pl": "para",
+    "tr": "çift",
+    "de": "Paar",
+    "ja": "対、ペア"
+   }
+  },
+  {
+   "parola": "l'imballaggio",
+   "forme": [
+    "imballaggi"
+   ],
+   "formeEsempi": [
+    "imballaggio"
+   ],
+   "esempi": [
+    "Ricicla gli imballaggi di plastica.",
+    "L'imballaggio protegge il vaso.",
+    "Troppi imballaggi inquinano."
+   ],
+   "traduzioni": {
+    "en": "packaging, wrapping",
+    "es": "embalaje, envoltorio",
+    "pt": "embalagem",
+    "fr": "emballage",
+    "cs": "obal",
+    "pl": "opakowanie",
+    "tr": "ambalaj",
+    "de": "Verpackung",
+    "ja": "包装"
+   }
+  },
+  {
+   "parola": "influenzare",
+   "forme": [
+    "influenzano"
+   ],
+   "formeEsempi": [
+    "influenza"
+   ],
+   "esempi": [
+    "Il tempo influenza il mio umore.",
+    "Gli amici ti influenzano molto.",
+    "La pubblicità influenza le scelte."
+   ],
+   "traduzioni": {
+    "en": "to influence, to affect",
+    "es": "influir en",
+    "pt": "influenciar",
+    "fr": "influencer",
+    "cs": "ovlivňovat",
+    "pl": "wpływać na",
+    "tr": "etkilemek",
+    "de": "beeinflussen",
+    "ja": "影響を与える"
+   }
+  },
+  {
+   "parola": "raggiungere",
+   "forme": [
+    "raggiungere",
+    "raggiunge"
+   ],
+   "esempi": [
+    "Come posso raggiungere la stazione?",
+    "Il paese si raggiunge solo a piedi.",
+    "Ha raggiunto il suo obiettivo."
+   ],
+   "traduzioni": {
+    "en": "to reach",
+    "es": "alcanzar, llegar a",
+    "pt": "alcançar, chegar a",
+    "fr": "atteindre",
+    "cs": "dosáhnout, dostat se k",
+    "pl": "osiągnąć, dotrzeć do",
+    "tr": "ulaşmak",
+    "de": "erreichen",
+    "ja": "到達する"
+   },
+   "formeEsempi": [
+    "raggiunto"
+   ]
+  },
+  {
+   "parola": "la sequenza",
+   "forme": [
+    "sequenza",
+    "sequenze"
+   ],
+   "esempi": [
+    "Ricorda la sequenza dei numeri.",
+    "È una sequenza di immagini.",
+    "Il film ha una sequenza bellissima."
+   ],
+   "traduzioni": {
+    "en": "sequence",
+    "es": "secuencia",
+    "pt": "sequência",
+    "fr": "séquence",
+    "cs": "sekvence, posloupnost",
+    "pl": "sekwencja",
+    "tr": "dizi, sıra",
+    "de": "Sequenz, Abfolge",
+    "ja": "配列、順序"
+   }
+  },
+  {
+   "parola": "il confine",
+   "forme": [
+    "confini",
+    "confine"
+   ],
+   "esempi": [
+    "Il confine tra Italia e Francia è sulle Alpi.",
+    "Non superare il confine!",
+    "Ogni cosa ha i suoi confini."
+   ],
+   "traduzioni": {
+    "en": "border, boundary",
+    "es": "frontera, límite",
+    "pt": "fronteira, limite",
+    "fr": "frontière, limite",
+    "cs": "hranice",
+    "pl": "granica",
+    "tr": "sınır",
+    "de": "Grenze",
+    "ja": "境界"
+   }
+  },
+  {
+   "parola": "rigido",
+   "forme": [
+    "rigida"
+   ],
+   "formeEsempi": [
+    "rigido"
+   ],
+   "esempi": [
+    "Ha un orario di lavoro rigido.",
+    "Il cartone è rigido.",
+    "Non essere così rigido!"
+   ],
+   "traduzioni": {
+    "en": "rigid, inflexible",
+    "es": "rígido",
+    "pt": "rígido",
+    "fr": "rigide",
+    "cs": "pevný, strnulý",
+    "pl": "sztywny",
+    "tr": "katı",
+    "de": "starr",
+    "ja": "硬直した"
+   }
+  },
+  {
+   "parola": "riparare",
+   "forme": [
+    "ripara",
+    "riparano"
+   ],
+   "formeEsempi": [
+    "riparare"
+   ],
+   "esempi": [
+    "Il meccanico ripara la macchina.",
+    "Devo riparare la bicicletta.",
+    "La cellula ripara il DNA danneggiato."
+   ],
+   "traduzioni": {
+    "en": "to repair, to fix",
+    "es": "reparar, arreglar",
+    "pt": "consertar, reparar",
+    "fr": "réparer",
+    "cs": "opravit",
+    "pl": "naprawić",
+    "tr": "onarmak, tamir etmek",
+    "de": "reparieren",
+    "ja": "修理する、修復する"
+   }
+  },
+  {
+   "parola": "il danno",
+   "forme": [
+    "danno"
+   ],
+   "esempi": [
+    "La grandine ha fatto molti danni.",
+    "Il fumo fa danni ai polmoni.",
+    "Chi paga il danno?"
+   ],
+   "traduzioni": {
+    "en": "damage",
+    "es": "daño",
+    "pt": "dano",
+    "fr": "dommage, dégât",
+    "cs": "poškození, škoda",
+    "pl": "szkoda, uszkodzenie",
+    "tr": "hasar",
+    "de": "Schaden",
+    "ja": "損傷、損害"
+   },
+   "formeEsempi": [
+    "danni"
+   ]
+  },
+  {
+   "parola": "la metafora",
+   "forme": [
+    "metafora"
+   ],
+   "esempi": [
+    "«Un mare di gente» è una metafora.",
+    "Usa una metafora per spiegare.",
+    "Non prendere la metafora alla lettera."
+   ],
+   "traduzioni": {
+    "en": "metaphor",
+    "es": "metáfora",
+    "pt": "metáfora",
+    "fr": "métaphore",
+    "cs": "metafora",
+    "pl": "metafora",
+    "tr": "mecaz",
+    "de": "Metapher",
+    "ja": "比喩"
+   }
+  },
+  {
+   "parola": "la precisazione",
+   "forme": [
+    "precisazione"
+   ],
+   "esempi": [
+    "Faccio una piccola precisazione.",
+    "Grazie per la precisazione.",
+    "La frase richiede una precisazione."
+   ],
+   "traduzioni": {
+    "en": "clarification",
+    "es": "aclaración, precisión",
+    "pt": "esclarecimento",
+    "fr": "précision",
+    "cs": "upřesnění",
+    "pl": "doprecyzowanie",
+    "tr": "açıklama, düzeltme",
+    "de": "Präzisierung",
+    "ja": "補足説明"
+   }
+  },
+  {
+   "parola": "ottenere",
+   "forme": [
+    "ottenere",
+    "ottiene"
+   ],
+   "esempi": [
+    "Ho ottenuto il visto.",
+    "Come si ottiene il permesso?",
+    "Con questo calcolo si ottiene un metro."
+   ],
+   "traduzioni": {
+    "en": "to obtain, to get",
+    "es": "obtener",
+    "pt": "obter",
+    "fr": "obtenir",
+    "cs": "získat",
+    "pl": "uzyskać",
+    "tr": "elde etmek",
+    "de": "erhalten",
+    "ja": "得る"
+   },
+   "formeEsempi": [
+    "ottenuto"
+   ]
+  },
+  {
+   "parola": "il valore",
+   "forme": [
+    "valori",
+    "valore"
+   ],
+   "esempi": [
+    "Questo anello ha un grande valore.",
+    "I valori della famiglia sono importanti.",
+    "Il valore cambia con la temperatura."
+   ],
+   "traduzioni": {
+    "en": "value, figure",
+    "es": "valor",
+    "pt": "valor",
+    "fr": "valeur",
+    "cs": "hodnota",
+    "pl": "wartość",
+    "tr": "değer",
+    "de": "Wert",
+    "ja": "値、価値"
+   }
+  },
+  {
+   "parola": "misurare",
+   "forme": [
+    "misura",
+    "misurerebbe"
+   ],
+   "formeEsempi": [
+    "misuro"
+   ],
+   "esempi": [
+    "Misuro la stanza con il metro.",
+    "Quanto misura il tavolo?",
+    "Il ponte misura cento metri."
+   ],
+   "traduzioni": {
+    "en": "to measure, to be (a certain length)",
+    "es": "medir",
+    "pt": "medir",
+    "fr": "mesurer",
+    "cs": "měřit",
+    "pl": "mierzyć",
+    "tr": "ölçmek",
+    "de": "messen",
+    "ja": "測る、長さが〜ある"
+   }
+  },
+  {
+   "parola": "grezzo",
+   "forme": [
+    "grezza"
+   ],
+   "formeEsempi": [
+    "grezzo"
+   ],
+   "esempi": [
+    "Il petrolio grezzo va raffinato.",
+    "È solo una versione grezza del testo.",
+    "Ha un carattere un po' grezzo."
+   ],
+   "traduzioni": {
+    "en": "raw, crude, rough",
+    "es": "bruto, en bruto",
+    "pt": "bruto",
+    "fr": "brut",
+    "cs": "hrubý, surový",
+    "pl": "surowy",
+    "tr": "ham",
+    "de": "roh",
+    "ja": "未加工の、粗い"
+   }
+  },
+  {
+   "parola": "ossia",
+   "forme": [
+    "ossia"
+   ],
+   "esempi": [
+    "Arrivo dopodomani, ossia venerdì.",
+    "È un'ipotesi, ossia un'idea da verificare.",
+    "Costa mille euro, ossia molto."
+   ],
+   "traduzioni": {
+    "en": "that is, in other words",
+    "es": "o sea, es decir",
+    "pt": "ou seja",
+    "fr": "c'est-à-dire, soit",
+    "cs": "tedy, neboli",
+    "pl": "czyli",
+    "tr": "yani",
+    "de": "das heißt",
+    "ja": "すなわち"
+   }
+  },
+  {
+   "parola": "ignorare",
+   "forme": [
+    "ignorano",
+    "ignorate"
+   ],
+   "formeEsempi": [
+    "ignora"
+   ],
+   "esempi": [
+    "Ignora i messaggi del suo ex.",
+    "Molti ignorano il problema.",
+    "Le domande non furono ignorate."
+   ],
+   "traduzioni": {
+    "en": "to ignore, to leave out",
+    "es": "ignorar, no tener en cuenta",
+    "pt": "ignorar",
+    "fr": "ignorer, négliger",
+    "cs": "ignorovat, nebrat v úvahu",
+    "pl": "ignorować, pomijać",
+    "tr": "görmezden gelmek",
+    "de": "ignorieren, außer Acht lassen",
+    "ja": "無視する"
+   }
+  },
+  {
+   "parola": "la densità",
+   "forme": [
+    "densità"
+   ],
+   "esempi": [
+    "La densità della popolazione è alta.",
+    "L'olio ha una densità minore dell'acqua.",
+    "La densità del traffico aumenta."
+   ],
+   "traduzioni": {
+    "en": "density",
+    "es": "densidad",
+    "pt": "densidade",
+    "fr": "densité",
+    "cs": "hustota",
+    "pl": "gęstość",
+    "tr": "yoğunluk",
+    "de": "Dichte",
+    "ja": "密度"
+   }
+  },
+  {
+   "parola": "stimare",
+   "forme": [
+    "stimare",
+    "stimata"
+   ],
+   "esempi": [
+    "È difficile stimare i costi.",
+    "La folla è stimata in mille persone.",
+    "Stimo molto il tuo lavoro."
+   ],
+   "traduzioni": {
+    "en": "to estimate (also: to respect)",
+    "es": "estimar, calcular",
+    "pt": "estimar",
+    "fr": "estimer",
+    "cs": "odhadnout",
+    "pl": "oszacować",
+    "tr": "tahmin etmek",
+    "de": "schätzen",
+    "ja": "推定する（尊敬する、の意味も）"
+   },
+   "formeEsempi": [
+    "stimo"
+   ]
+  },
+  {
+   "parola": "sacrificare",
+   "forme": [
+    "sacrificare"
+   ],
+   "esempi": [
+    "Ha dovuto sacrificare le vacanze.",
+    "Non voglio sacrificare la qualità.",
+    "Per studiare sacrifica il tempo libero."
+   ],
+   "traduzioni": {
+    "en": "to sacrifice, to give up",
+    "es": "sacrificar",
+    "pt": "sacrificar",
+    "fr": "sacrifier",
+    "cs": "obětovat",
+    "pl": "poświęcić",
+    "tr": "feda etmek",
+    "de": "opfern",
+    "ja": "犠牲にする"
+   },
+   "formeEsempi": [
+    "sacrifica"
+   ]
+  },
+  {
+   "parola": "il supporto",
+   "forme": [
+    "supporti"
+   ],
+   "formeEsempi": [
+    "supporto"
+   ],
+   "esempi": [
+    "Grazie per il tuo supporto.",
+    "Salvo i file su un supporto esterno.",
+    "I vecchi supporti come i CD spariscono."
+   ],
+   "traduzioni": {
+    "en": "support; storage medium",
+    "es": "apoyo; soporte",
+    "pt": "apoio; suporte",
+    "fr": "soutien ; support",
+    "cs": "podpora; nosič (dat)",
+    "pl": "wsparcie; nośnik",
+    "tr": "destek; depolama ortamı",
+    "de": "Unterstützung; Datenträger",
+    "ja": "支援；記録媒体"
+   }
+  },
+  {
+   "parola": "il vincolo",
+   "forme": [
+    "vincoli"
+   ],
+   "formeEsempi": [
+    "vincolo"
+   ],
+   "esempi": [
+    "Il contratto ha molti vincoli.",
+    "Lavoriamo senza vincoli di orario.",
+    "È un vincolo di legge."
+   ],
+   "traduzioni": {
+    "en": "constraint, restriction",
+    "es": "restricción, vínculo",
+    "pt": "restrição, vínculo",
+    "fr": "contrainte",
+    "cs": "omezení",
+    "pl": "ograniczenie",
+    "tr": "kısıtlama",
+    "de": "Einschränkung",
+    "ja": "制約"
+   }
+  },
+  {
+   "parola": "la traccia",
+   "forme": [
+    "tracce"
+   ],
+   "formeEsempi": [
+    "traccia"
+   ],
+   "esempi": [
+    "Sulla neve ci sono tracce di animali.",
+    "Non c'è traccia del ladro.",
+    "Il passato lascia tracce."
+   ],
+   "traduzioni": {
+    "en": "trace, track",
+    "es": "huella, rastro",
+    "pt": "rastro, vestígio",
+    "fr": "trace",
+    "cs": "stopa",
+    "pl": "ślad",
+    "tr": "iz",
+    "de": "Spur",
+    "ja": "痕跡"
+   }
+  },
+  {
+   "parola": "inutile",
+   "forme": [
+    "inutile"
+   ],
+   "esempi": [
+    "È inutile piangere.",
+    "Questo oggetto è inutile.",
+    "Ho fatto un viaggio inutile."
+   ],
+   "traduzioni": {
+    "en": "useless, pointless",
+    "es": "inútil",
+    "pt": "inútil",
+    "fr": "inutile",
+    "cs": "zbytečný",
+    "pl": "bezużyteczny",
+    "tr": "işe yaramaz, gereksiz",
+    "de": "nutzlos",
+    "ja": "無用な"
+   }
+  },
+  {
+   "parola": "mediante",
+   "forme": [
+    "mediante"
+   ],
+   "esempi": [
+    "Si paga mediante bonifico.",
+    "Comunicano mediante segni.",
+    "I dati si recuperano mediante sequenziamento."
+   ],
+   "traduzioni": {
+    "en": "by means of, through",
+    "es": "mediante",
+    "pt": "mediante, por meio de",
+    "fr": "au moyen de",
+    "cs": "pomocí",
+    "pl": "za pomocą",
+    "tr": "aracılığıyla",
+    "de": "mittels",
+    "ja": "〜によって"
+   }
+  },
+  {
+   "parola": "irripetibile",
+   "forme": [
+    "irripetibile"
+   ],
+   "esempi": [
+    "È stata un'esperienza irripetibile.",
+    "Ogni persona è irripetibile.",
+    "Un'occasione irripetibile!"
+   ],
+   "traduzioni": {
+    "en": "unique, unrepeatable",
+    "es": "irrepetible",
+    "pt": "irrepetível, único",
+    "fr": "unique, irremplaçable",
+    "cs": "neopakovatelný",
+    "pl": "niepowtarzalny",
+    "tr": "eşsiz, bir daha olmayacak",
+    "de": "einmalig",
+    "ja": "二度とない、唯一の"
+   }
+  },
+  {
+   "parola": "ereditare",
+   "forme": [
+    "ereditato",
+    "eredita"
+   ],
+   "esempi": [
+    "Ho ereditato la casa dei nonni.",
+    "Ha ereditato gli occhi della madre.",
+    "Ogni figlio eredita metà dei geni da ciascun genitore."
+   ],
+   "traduzioni": {
+    "en": "to inherit",
+    "es": "heredar",
+    "pt": "herdar",
+    "fr": "hériter",
+    "cs": "zdědit",
+    "pl": "odziedziczyć",
+    "tr": "miras almak",
+    "de": "erben",
+    "ja": "受け継ぐ"
+   }
+  },
+  {
+   "parola": "l'eccezione",
+   "forme": [
+    "eccezioni"
+   ],
+   "formeEsempi": [
+    "eccezione"
+   ],
+   "esempi": [
+    "Ogni regola ha le sue eccezioni.",
+    "Per te faccio un'eccezione.",
+    "Tutti sono venuti, con un'eccezione."
+   ],
+   "traduzioni": {
+    "en": "exception",
+    "es": "excepción",
+    "pt": "exceção",
+    "fr": "exception",
+    "cs": "výjimka",
+    "pl": "wyjątek",
+    "tr": "istisna",
+    "de": "Ausnahme",
+    "ja": "例外"
+   }
+  },
+  {
+   "parola": "soggetto a",
+   "forme": [
+    "soggetti"
+   ],
+   "formeEsempi": [
+    "soggetto"
+   ],
+   "esempi": [
+    "Il prezzo è soggetto a variazioni.",
+    "Sono soggetto alle allergie.",
+    "Questi prodotti sono soggetti a tassa."
+   ],
+   "traduzioni": {
+    "en": "subject to",
+    "es": "sujeto a",
+    "pt": "sujeito a",
+    "fr": "soumis à, sujet à",
+    "cs": "podléhající",
+    "pl": "podlegający",
+    "tr": "-e tabi",
+    "de": "unterliegend",
+    "ja": "〜の対象となる"
+   }
+  },
+  {
+   "parola": "la catena",
+   "forme": [
+    "catene",
+    "catena"
+   ],
+   "esempi": [
+    "La bicicletta ha perso la catena.",
+    "È una catena di supermercati.",
+    "Una catena di eventi."
+   ],
+   "traduzioni": {
+    "en": "chain",
+    "es": "cadena",
+    "pt": "corrente, cadeia",
+    "fr": "chaîne",
+    "cs": "řetěz, řetězec",
+    "pl": "łańcuch",
+    "tr": "zincir",
+    "de": "Kette",
+    "ja": "鎖、連鎖"
+   }
+  },
+  {
+   "parola": "saldare",
+   "forme": [
+    "saldati"
+   ],
+   "formeEsempi": [
+    "salda",
+    "saldare"
+   ],
+   "esempi": [
+    "Il fabbro salda due pezzi di metallo.",
+    "Devo saldare il conto.",
+    "I frammenti vengono saldati tra loro."
+   ],
+   "traduzioni": {
+    "en": "to join, to weld (also: to pay off)",
+    "es": "soldar (también: saldar)",
+    "pt": "soldar (também: quitar)",
+    "fr": "souder (aussi : régler)",
+    "cs": "spojit, svařit (i: zaplatit)",
+    "pl": "spawać, łączyć (też: spłacić)",
+    "tr": "kaynak yapmak (ayrıca: borcu ödemek)",
+    "de": "verschweißen (auch: begleichen)",
+    "ja": "つなぎ合わせる（精算する、の意味も）"
+   }
+  },
+  {
+   "parola": "favorire",
+   "forme": [
+    "favorisce"
+   ],
+   "esempi": [
+    "Il sole favorisce la crescita delle piante.",
+    "Lo sport favorisce il sonno.",
+    "L'arbitro favorisce l'altra squadra."
+   ],
+   "traduzioni": {
+    "en": "to favour, to promote",
+    "es": "favorecer",
+    "pt": "favorecer",
+    "fr": "favoriser",
+    "cs": "podporovat, zvýhodňovat",
+    "pl": "sprzyjać",
+    "tr": "kolaylaştırmak, kayırmak",
+    "de": "begünstigen",
+    "ja": "促す、有利にする"
+   }
+  },
+  {
+   "parola": "la rottura",
+   "forme": [
+    "rotture"
+   ],
+   "formeEsempi": [
+    "rottura"
+   ],
+   "esempi": [
+    "La rottura del tubo ha allagato la cucina.",
+    "Dopo la rottura con Marco è triste.",
+    "Il DNA può subire rotture."
+   ],
+   "traduzioni": {
+    "en": "break, breakage (also: break-up)",
+    "es": "rotura (también: ruptura)",
+    "pt": "ruptura, quebra",
+    "fr": "rupture, cassure",
+    "cs": "zlom, roztržení (i: rozchod)",
+    "pl": "pęknięcie (też: rozstanie)",
+    "tr": "kırılma (ayrıca: ayrılık)",
+    "de": "Bruch (auch: Trennung)",
+    "ja": "破断（別れ、の意味も）"
+   }
+  },
+  {
+   "parola": "straordinariamente",
+   "forme": [
+    "straordinariamente"
+   ],
+   "esempi": [
+    "È una persona straordinariamente gentile.",
+    "Oggi fa straordinariamente caldo.",
+    "Il sistema è straordinariamente preciso."
+   ],
+   "traduzioni": {
+    "en": "extraordinarily",
+    "es": "extraordinariamente",
+    "pt": "extraordinariamente",
+    "fr": "extraordinairement",
+    "cs": "mimořádně",
+    "pl": "niezwykle",
+    "tr": "olağanüstü derecede",
+    "de": "außerordentlich",
+    "ja": "並外れて"
+   }
+  },
+  {
+   "parola": "assoluto",
+   "forme": [
+    "assoluta",
+    "assoluto"
+   ],
+   "esempi": [
+    "È il silenzio assoluto.",
+    "Non è una verità assoluta.",
+    "È il migliore in assoluto."
+   ],
+   "traduzioni": {
+    "en": "absolute, total",
+    "es": "absoluto",
+    "pt": "absoluto",
+    "fr": "absolu",
+    "cs": "absolutní",
+    "pl": "absolutny",
+    "tr": "mutlak",
+    "de": "absolut",
+    "ja": "絶対的な"
+   }
+  },
+  {
+   "parola": "consumare",
+   "forme": [
+    "consumano"
+   ],
+   "formeEsempi": [
+    "consuma",
+    "consumiamo"
+   ],
+   "esempi": [
+    "Questa macchina consuma poca benzina.",
+    "Gli sport consumano energia.",
+    "Consumiamo troppa plastica."
+   ],
+   "traduzioni": {
+    "en": "to consume, to use up",
+    "es": "consumir, gastar",
+    "pt": "consumir, gastar",
+    "fr": "consommer",
+    "cs": "spotřebovávat",
+    "pl": "zużywać",
+    "tr": "tüketmek",
+    "de": "verbrauchen",
+    "ja": "消費する"
+   }
+  },
+  {
+   "parola": "rimuovere",
+   "forme": [
+    "rimuovere",
+    "rimuove"
+   ],
+   "esempi": [
+    "Rimuovi la macchia con l'acqua.",
+    "Il medico rimuove i punti.",
+    "Hanno rimosso la statua."
+   ],
+   "traduzioni": {
+    "en": "to remove",
+    "es": "quitar, eliminar",
+    "pt": "remover",
+    "fr": "enlever, retirer",
+    "cs": "odstranit",
+    "pl": "usunąć",
+    "tr": "kaldırmak",
+    "de": "entfernen",
+    "ja": "取り除く"
+   },
+   "formeEsempi": [
+    "rimuovi",
+    "rimosso"
+   ]
+  },
+  {
+   "parola": "il paradosso",
+   "forme": [
+    "paradosso"
+   ],
+   "esempi": [
+    "È un paradosso: più lavoro, meno guadagno.",
+    "Il paradosso si risolve facilmente.",
+    "Sembra un paradosso, ma è vero."
+   ],
+   "traduzioni": {
+    "en": "paradox",
+    "es": "paradoja",
+    "pt": "paradoxo",
+    "fr": "paradoxe",
+    "cs": "paradox",
+    "pl": "paradoks",
+    "tr": "paradoks",
+    "de": "Paradox",
+    "ja": "逆説、矛盾"
+   }
+  },
+  {
+   "parola": "sigillato",
+   "forme": [
+    "sigillato"
+   ],
+   "esempi": [
+    "Il barattolo è sigillato.",
+    "La lettera arriva in una busta sigillata.",
+    "Il pacco è ancora sigillato."
+   ],
+   "traduzioni": {
+    "en": "sealed",
+    "es": "sellado",
+    "pt": "selado, lacrado",
+    "fr": "scellé",
+    "cs": "zapečetěný",
+    "pl": "zapieczętowany",
+    "tr": "mühürlü, kapalı",
+    "de": "versiegelt",
+    "ja": "封をされた"
+   },
+   "formeEsempi": [
+    "sigillata"
+   ]
+  },
+  {
+   "parola": "risiedere",
+   "forme": [
+    "risiede"
+   ],
+   "esempi": [
+    "Risiede a Milano da dieci anni.",
+    "Il problema risiede nel motore.",
+    "La forza del gruppo risiede nell'unione."
+   ],
+   "traduzioni": {
+    "en": "to reside, to lie (in)",
+    "es": "residir",
+    "pt": "residir",
+    "fr": "résider",
+    "cs": "spočívat, sídlit",
+    "pl": "polegać na, mieszkać",
+    "tr": "ikamet etmek; -de yatmak",
+    "de": "liegen in, wohnen",
+    "ja": "〜にある、居住する"
+   }
+  },
+  {
+   "parola": "bensì",
+   "forme": [
+    "bensì"
+   ],
+   "esempi": [
+    "Non è rosso, bensì arancione.",
+    "Non studia medicina, bensì legge.",
+    "Non è un problema, bensì un'opportunità."
+   ],
+   "traduzioni": {
+    "en": "but rather",
+    "es": "sino",
+    "pt": "mas sim",
+    "fr": "mais plutôt",
+    "cs": "nýbrž",
+    "pl": "lecz",
+    "tr": "bilakis, aksine",
+    "de": "sondern",
+    "ja": "そうではなく"
+   }
+  },
+  {
+   "parola": "ripiegare",
+   "forme": [
+    "ripiegarlo"
+   ],
+   "formeEsempi": [
+    "ripiego",
+    "ripiega"
+   ],
+   "esempi": [
+    "Ripiego la mappa e la metto in borsa.",
+    "Ripiega la coperta con cura.",
+    "Il foglio è troppo grande per ripiegarlo."
+   ],
+   "traduzioni": {
+    "en": "to fold (up)",
+    "es": "plegar, doblar",
+    "pt": "dobrar",
+    "fr": "replier",
+    "cs": "složit",
+    "pl": "złożyć",
+    "tr": "katlamak",
+    "de": "zusammenfalten",
+    "ja": "折りたたむ"
+   }
+  },
+  {
+   "parola": "consultare",
+   "forme": [
+    "consultarlo"
+   ],
+   "formeEsempi": [
+    "consulto",
+    "consultare",
+    "consulta"
+   ],
+   "esempi": [
+    "Consulto il dizionario.",
+    "Prima di decidere, consulta un medico.",
+    "Ho il libro qui: puoi consultarlo."
+   ],
+   "traduzioni": {
+    "en": "to consult, to look up",
+    "es": "consultar",
+    "pt": "consultar",
+    "fr": "consulter",
+    "cs": "nahlédnout do, poradit se",
+    "pl": "sprawdzić, skonsultować",
+    "tr": "danışmak, bakmak",
+    "de": "nachschlagen, konsultieren",
+    "ja": "参照する、相談する"
+   }
+  },
+  {
+   "parola": "ospitare",
+   "forme": [
+    "ospitano"
+   ],
+   "formeEsempi": [
+    "ospita",
+    "ospito"
+   ],
+   "esempi": [
+    "Ospito un amico per una settimana.",
+    "La città ospita le Olimpiadi.",
+    "Il museo ospita una mostra."
+   ],
+   "traduzioni": {
+    "en": "to host, to house",
+    "es": "albergar, alojar",
+    "pt": "hospedar, abrigar",
+    "fr": "accueillir, abriter",
+    "cs": "hostit, ubytovat",
+    "pl": "gościć, mieścić",
+    "tr": "ağırlamak, barındırmak",
+    "de": "beherbergen",
+    "ja": "収容する、迎え入れる"
+   }
+  },
+  {
+   "parola": "la cautela",
+   "forme": [
+    "cautela"
+   ],
+   "esempi": [
+    "Guida con cautela: c'è nebbia.",
+    "Il dato va usato con cautela.",
+    "Per cautela chiudiamo la porta."
+   ],
+   "traduzioni": {
+    "en": "caution, care",
+    "es": "cautela",
+    "pt": "cautela",
+    "fr": "prudence",
+    "cs": "opatrnost",
+    "pl": "ostrożność",
+    "tr": "dikkat, ihtiyat",
+    "de": "Vorsicht",
+    "ja": "慎重さ"
+   }
+  },
+  {
+   "parola": "coincidere",
+   "forme": [
+    "coincide"
+   ],
+   "esempi": [
+    "Le date coincidono.",
+    "La mia opinione non coincide con la tua.",
+    "Il suo compleanno coincide con Natale."
+   ],
+   "traduzioni": {
+    "en": "to coincide, to be the same as",
+    "es": "coincidir",
+    "pt": "coincidir",
+    "fr": "coïncider",
+    "cs": "shodovat se",
+    "pl": "pokrywać się",
+    "tr": "örtüşmek, çakışmak",
+    "de": "übereinstimmen",
+    "ja": "一致する"
+   },
+   "formeEsempi": [
+    "coincidono"
+   ]
+  },
+  {
+   "parola": "la spazzatura",
+   "forme": [
+    "spazzatura"
+   ],
+   "esempi": [
+    "Porta fuori la spazzatura!",
+    "In TV c'è tanta spazzatura.",
+    "Il DNA non codificante non è spazzatura."
+   ],
+   "traduzioni": {
+    "en": "rubbish, junk",
+    "es": "basura",
+    "pt": "lixo",
+    "fr": "déchets, ordures",
+    "cs": "odpadky",
+    "pl": "śmieci",
+    "tr": "çöp",
+    "de": "Müll",
+    "ja": "ごみ、がらくた"
+   }
+  },
+  {
+   "parola": "vertiginoso",
+   "forme": [
+    "vertiginosa"
+   ],
+   "formeEsempi": [
+    "vertiginoso"
+   ],
+   "esempi": [
+    "I prezzi hanno avuto un aumento vertiginoso.",
+    "La strada scende con una pendenza vertiginosa.",
+    "È una velocità vertiginosa."
+   ],
+   "traduzioni": {
+    "en": "dizzying, staggering",
+    "es": "vertiginoso",
+    "pt": "vertiginoso",
+    "fr": "vertigineux",
+    "cs": "závratný",
+    "pl": "zawrotny",
+    "tr": "baş döndürücü",
+    "de": "schwindelerregend",
+    "ja": "目もくらむような"
+   }
+  },
+  {
+   "parola": "tollerare",
+   "forme": [
+    "tollerare"
+   ],
+   "formeEsempi": [
+    "tollero",
+    "tollerano"
+   ],
+   "esempi": [
+    "Non tollero le bugie.",
+    "Alcune piante non tollerano il freddo.",
+    "Il sistema deve tollerare alcuni errori."
+   ],
+   "traduzioni": {
+    "en": "to tolerate, to cope with",
+    "es": "tolerar",
+    "pt": "tolerar",
+    "fr": "tolérer",
+    "cs": "tolerovat, snést",
+    "pl": "tolerować",
+    "tr": "tahammül etmek",
+    "de": "tolerieren, vertragen",
+    "ja": "許容する"
+   }
+  },
+  {
+   "parola": "l'eredità",
+   "forme": [
+    "eredità"
+   ],
+   "esempi": [
+    "Ha ricevuto un'eredità dallo zio.",
+    "La lingua è un'eredità culturale.",
+    "L'eredità genetica viene dai genitori."
+   ],
+   "traduzioni": {
+    "en": "inheritance, heredity, legacy",
+    "es": "herencia",
+    "pt": "herança",
+    "fr": "héritage, hérédité",
+    "cs": "dědictví, dědičnost",
+    "pl": "spadek, dziedziczność",
+    "tr": "miras, kalıtım",
+    "de": "Erbe, Vererbung",
+    "ja": "遺産、遺伝"
+   }
+  },
+  {
+   "parola": "a seconda di",
+   "forme": [
+    "seconda"
+   ],
+   "esempi": [
+    "Il prezzo cambia a seconda della stagione.",
+    "Esco o resto a casa a seconda del tempo.",
+    "A seconda dei casi, si decide."
+   ],
+   "traduzioni": {
+    "en": "depending on",
+    "es": "según, dependiendo de",
+    "pt": "conforme, dependendo de",
+    "fr": "selon, en fonction de",
+    "cs": "podle, v závislosti na",
+    "pl": "w zależności od",
+    "tr": "-e bağlı olarak",
+    "de": "je nach",
+    "ja": "〜によって"
+   }
+  },
+  {
+   "parola": "innocuo",
+   "forme": [
+    "innocua"
+   ],
+   "formeEsempi": [
+    "innocuo"
+   ],
+   "esempi": [
+    "Questo ragno è innocuo.",
+    "È una domanda innocua.",
+    "La sostanza è innocua per l'uomo."
+   ],
+   "traduzioni": {
+    "en": "harmless",
+    "es": "inofensivo",
+    "pt": "inofensivo",
+    "fr": "inoffensif",
+    "cs": "neškodný",
+    "pl": "nieszkodliwy",
+    "tr": "zararsız",
+    "de": "harmlos",
+    "ja": "無害な"
+   }
+  },
+  {
+   "parola": "srotolare",
+   "forme": [
+    "srotolato"
+   ],
+   "formeEsempi": [
+    "srotolo"
+   ],
+   "esempi": [
+    "Srotolo il tappeto in salotto.",
+    "Ha srotolato la mappa sul tavolo.",
+    "Il cromosoma non viene srotolato tutto."
+   ],
+   "traduzioni": {
+    "en": "to unroll, to unwind",
+    "es": "desenrollar",
+    "pt": "desenrolar",
+    "fr": "dérouler",
+    "cs": "rozvinout",
+    "pl": "rozwinąć",
+    "tr": "açmak (rulo)",
+    "de": "abrollen, entrollen",
+    "ja": "ほどく、広げる"
+   }
+  },
+  {
+   "parola": "opportuno",
+   "forme": [
+    "opportuni"
+   ],
+   "formeEsempi": [
+    "opportuno",
+    "opportune"
+   ],
+   "esempi": [
+    "Non è il momento opportuno.",
+    "Prendiamo le misure opportune.",
+    "Ti chiamerò al momento opportuno."
+   ],
+   "traduzioni": {
+    "en": "appropriate, right (moment)",
+    "es": "oportuno",
+    "pt": "oportuno",
+    "fr": "opportun, approprié",
+    "cs": "vhodný",
+    "pl": "odpowiedni, stosowny",
+    "tr": "uygun",
+    "de": "passend, geeignet",
+    "ja": "適切な"
+   }
+  },
+  {
+   "parola": "l'equilibrio",
+   "forme": [
+    "equilibrio"
+   ],
+   "esempi": [
+    "Ho perso l'equilibrio e sono caduto.",
+    "Cerco un equilibrio tra lavoro e vita.",
+    "La natura ha un suo equilibrio."
+   ],
+   "traduzioni": {
+    "en": "balance, equilibrium",
+    "es": "equilibrio",
+    "pt": "equilíbrio",
+    "fr": "équilibre",
+    "cs": "rovnováha",
+    "pl": "równowaga",
+    "tr": "denge",
+    "de": "Gleichgewicht",
+    "ja": "バランス、均衡"
+   }
+  }
+ ]
+}
