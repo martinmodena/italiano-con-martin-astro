@@ -43,6 +43,7 @@ import { ERRORS_PRESENTE_REGOLARE } from './confronti-presente-regolare.mjs';
 import { ERRORS_PRESENTE_IRREGOLARE } from './confronti-presente-irregolare.mjs';
 import { ERRORS_ARTICOLI_DETERMINATIVI } from './confronti-articoli-determinativi.mjs';
 import { ERRORS_IMPERFETTO } from './confronti-imperfetto.mjs';
+import { ERRORS_PP_IMPERFETTO } from './confronti-pp-imperfetto.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1035,3 +1036,4 @@ Object.assign(ERRORS, ERRORS_PRESENTE_REGOLARE);
 Object.assign(ERRORS, ERRORS_PRESENTE_IRREGOLARE);
 Object.assign(ERRORS, ERRORS_ARTICOLI_DETERMINATIVI);
 Object.assign(ERRORS, ERRORS_IMPERFETTO);
+Object.assign(ERRORS, ERRORS_PP_IMPERFETTO);
