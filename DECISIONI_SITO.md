@@ -1311,3 +1311,4 @@ Analisi completa delle 24 letture (richiesta di Martin: «affinché una lettura 
 - **Fatto lo stesso giorno**: «Il presente dei verbi regolari» (A1), 12 → 30 esercizi, con confronto ed errori per lingua che prima mancavano.
 - **Fatto lo stesso giorno**: «Il presente dei verbi irregolari» (A1), 10 → 30 esercizi, con otto verbi, gli schemi per ricordarli e sapere o conoscere; tolti da `seo-boost.mjs` descrizione e sottotitolo vecchi.
 - **Fatto lo stesso giorno**: «Gli articoli determinativi» (A1), 12 → 30 esercizi, con quando l’articolo si usa e quando no.
+- **2026-11-24**: «L’imperfetto» (A2), 12 → 30 esercizi, con le parole spia, il racconto con il passato prossimo e un racconto da completare.
