@@ -592,16 +592,7 @@ const GRAMMAR_MID = {
 };
 // Descrizioni rifatte: la traduzione automatica aveva tradotto le forme italiane.
 const GRAMMAR_DESCRIPTIONS = {
-  'articoli-indeterminativi': {
-    en: "Learn when to use un, uno, una and un' in Italian, with simple explanations, a complete table and interactive exercises with instant feedback.",
-    es: "Aprende cuándo usar un, uno, una y un' en italiano, con explicaciones sencillas, una tabla completa y ejercicios interactivos con corrección inmediata.",
-    fr: "Apprenez quand utiliser un, uno, una et un' en italien, avec des explications simples, un tableau complet et des exercices interactifs corrigés immédiatement.",
-    cs: "Naučte se, kdy v italštině použít un, uno, una a un', s jednoduchým vysvětlením, úplnou tabulkou a interaktivními cvičeními s okamžitou opravou.",
-    pl: "Dowiedz się, kiedy używać un, uno, una i un' po włosku: proste wyjaśnienia, pełna tabela i interaktywne ćwiczenia z natychmiastową korektą.",
-    tr: "İtalyancada un, uno, una ve un' ne zaman kullanılır? Basit açıklamalar, eksiksiz tablo ve anında düzeltilen etkileşimli alıştırmalar.",
-    de: "Lernen Sie, wann man im Italienischen un, uno, una und un' verwendet – mit einfachen Erklärungen, vollständiger Tabelle und interaktiven Übungen mit sofortiger Korrektur.",
-    ja: "イタリア語の不定冠詞 un、uno、una、un' の使い分けを、やさしい説明、一覧表、すぐに答え合わせできる練習問題で学びます。",
-  },
+  // «articoli-indeterminativi» tolto il 2026-11-24: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
   'aggettivi-e-pronomi-possessivi': {
     en: 'Learn the Italian possessives mio, tuo, suo, nostro, vostro and loro with tables, examples, common mistakes and interactive exercises.',
     es: 'Aprende los posesivos italianos mio, tuo, suo, nostro, vostro y loro con tablas, ejemplos, errores comunes y ejercicios interactivos.',
@@ -666,7 +657,6 @@ const CHOOSE = {
   ja: (a, b) => `${a} と ${b} の使い分けを学びましょう。`,
 };
 const GRAMMAR_LEADS = {
-  'articoli-indeterminativi': (l) => CHOOSE[l](it('un, uno, una'), it('un’')),
   // «presente-verbi-irregolari» tolto il 2026-11-23: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
 };
 

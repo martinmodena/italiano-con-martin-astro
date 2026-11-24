@@ -1801,4 +1801,15 @@ export const NAV_LABELS = {
     de: 'Verben mit anderer Bedeutung',
     ja: '意味が変わる動詞',
   },
+  // Gli articoli indeterminativi (A1, rifatta il 2026-11-24).
+  'Uno e un’': {
+    en: 'Uno and un’',
+    es: 'Uno y un’',
+    fr: 'Uno et un’',
+    cs: 'Uno a un’',
+    pl: 'Uno i un’',
+    tr: 'Uno ve un’',
+    de: 'Uno und un’',
+    ja: 'uno と un’',
+  },
 };

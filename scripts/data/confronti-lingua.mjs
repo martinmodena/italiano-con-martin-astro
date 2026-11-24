@@ -30,6 +30,7 @@ import { NOTES_PERIODO_IPOTETICO } from './confronti-periodo-ipotetico.mjs';
 import { NOTES_GENERE_NUMERO } from './confronti-genere-numero.mjs';
 import { NOTES_PRESENTE_REGOLARE } from './confronti-presente-regolare.mjs';
 import { NOTES_PP_IMPERFETTO } from './confronti-pp-imperfetto.mjs';
+import { NOTES_INDETERMINATIVI } from './confronti-articoli-indeterminativi.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3162,3 +3163,4 @@ Object.assign(NOTES, NOTES_GENERE_NUMERO);
 // Presente dei verbi regolari (A1), rifatta il 2026-11-23: prima non aveva il confronto.
 Object.assign(NOTES, NOTES_PRESENTE_REGOLARE);
 Object.assign(NOTES, NOTES_PP_IMPERFETTO);
+Object.assign(NOTES, NOTES_INDETERMINATIVI);
