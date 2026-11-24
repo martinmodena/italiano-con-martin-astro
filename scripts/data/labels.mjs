@@ -1812,4 +1812,25 @@ export const NAV_LABELS = {
     de: 'Uno und un’',
     ja: 'uno と un’',
   },
+  // Il futuro semplice (A2, rifatta il 2026-11-24).
+  'Futuro o presente?': {
+    en: 'Future or present?',
+    es: '¿Futuro o presente?',
+    fr: 'Futur ou présent ?',
+    cs: 'Budoucí, nebo přítomný čas?',
+    pl: 'Przyszły czy teraźniejszy?',
+    tr: 'Gelecek mi, şimdiki mi?',
+    de: 'Futur oder Präsens?',
+    ja: '未来形か現在形か',
+  },
+  'Quando e appena': {
+    en: 'Quando and appena',
+    es: 'Quando y appena',
+    fr: 'Quando et appena',
+    cs: 'Quando a appena',
+    pl: 'Quando i appena',
+    tr: 'Quando ve appena',
+    de: 'Quando und appena',
+    ja: 'quando と appena',
+  },
 };
