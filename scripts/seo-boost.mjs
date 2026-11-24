@@ -613,16 +613,6 @@ const GRAMMAR_DESCRIPTIONS = {
     de: "Lernen Sie, c'è und ci sono im Italienischen zu verwenden (es gibt), mit einfachen Erklärungen, echten Beispielen und interaktiven Übungen.",
     ja: "イタリア語の c'è と ci sono（〜がある・いる）の使い方を、やさしい説明、実例、練習問題で学びます。",
   },
-  'verbi-modali': {
-    en: 'Learn the Italian modal verbs potere, volere and dovere with tables, practical examples, use with the infinitive and interactive exercises.',
-    es: 'Aprende los verbos modales italianos potere, volere y dovere con tablas, ejemplos prácticos, el uso con el infinitivo y ejercicios interactivos.',
-    fr: "Apprenez les verbes modaux italiens potere, volere et dovere avec des tableaux, des exemples pratiques, l'emploi avec l'infinitif et des exercices interactifs.",
-    cs: 'Naučte se italská způsobová slovesa potere, volere a dovere s tabulkami, praktickými příklady, použitím s infinitivem a interaktivními cvičeními.',
-    pl: 'Poznaj włoskie czasowniki modalne potere, volere i dovere: tabele, praktyczne przykłady, użycie z bezokolicznikiem i interaktywne ćwiczenia.',
-    tr: 'İtalyanca kiplik fiilleri potere, volere ve dovere: tablolar, pratik örnekler, mastarla kullanım ve etkileşimli alıştırmalar.',
-    de: 'Lernen Sie die italienischen Modalverben potere, volere und dovere mit Tabellen, praktischen Beispielen, dem Gebrauch mit dem Infinitiv und interaktiven Übungen.',
-    ja: 'イタリア語の助動詞 potere、volere、dovere を、表、実用的な例文、不定詞との使い方、練習問題で学びます。',
-  },
   'comparativo-e-superlativo': {
     en: 'Learn when to use di and che, the difference between meglio and migliore, and practise with 30 interactive exercises.',
     es: 'Aprende cuándo usar di y che, la diferencia entre meglio y migliore, y practica con 30 ejercicios interactivos.',

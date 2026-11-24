@@ -46,6 +46,7 @@ import { ERRORS_IMPERFETTO } from './confronti-imperfetto.mjs';
 import { ERRORS_PP_IMPERFETTO } from './confronti-pp-imperfetto.mjs';
 import { ERRORS_INDETERMINATIVI } from './confronti-articoli-indeterminativi.mjs';
 import { ERRORS_FUTURO } from './confronti-futuro-semplice.mjs';
+import { ERRORS_MODALI } from './confronti-verbi-modali.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1041,3 +1042,4 @@ Object.assign(ERRORS, ERRORS_IMPERFETTO);
 Object.assign(ERRORS, ERRORS_PP_IMPERFETTO);
 Object.assign(ERRORS, ERRORS_INDETERMINATIVI);
 Object.assign(ERRORS, ERRORS_FUTURO);
+Object.assign(ERRORS, ERRORS_MODALI);
