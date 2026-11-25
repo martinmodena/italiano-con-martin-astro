@@ -20,6 +20,7 @@
 // Il 2026-11-24 «Gli articoli indeterminativi» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-24 «Il futuro semplice» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-25 «I verbi modali» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
+// Il 2026-11-25 «I pronomi diretti» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -108,6 +109,8 @@ import futuro from './data/lezioni-a2/futuro-semplice.mjs';
 import futuroI18n from './data/lezioni-a2/futuro-semplice-i18n.mjs';
 import modali from './data/lezioni-a2/verbi-modali.mjs';
 import modaliI18n from './data/lezioni-a2/verbi-modali-i18n.mjs';
+import pronDiretti from './data/lezioni-a2/pronomi-diretti.mjs';
+import pronDirettiI18n from './data/lezioni-a2/pronomi-diretti-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -326,6 +329,7 @@ const lessons = [
   { ...indeterminativi, strings: { it: indeterminativi.it, ...indeterminativiI18n } },
   { ...futuro, strings: { it: futuro.it, ...futuroI18n } },
   { ...modali, strings: { it: modali.it, ...modaliI18n } },
+  { ...pronDiretti, strings: { it: pronDiretti.it, ...pronDirettiI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

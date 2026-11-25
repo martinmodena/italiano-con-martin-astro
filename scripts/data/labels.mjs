@@ -1864,4 +1864,25 @@ export const NAV_LABELS = {
     de: 'Höflich sein',
     ja: 'ていねいに言う',
   },
+  // I pronomi diretti (A2, rifatta il 2026-11-25).
+  'Lo so': {
+    en: 'Lo so',
+    es: 'Lo so',
+    fr: 'Lo so',
+    cs: 'Lo so',
+    pl: 'Lo so',
+    tr: 'Lo so',
+    de: 'Lo so',
+    ja: 'lo so',
+  },
+  'Forme toniche': {
+    en: 'Stressed forms',
+    es: 'Formas tónicas',
+    fr: 'Formes toniques',
+    cs: 'Důrazné tvary',
+    pl: 'Formy akcentowane',
+    tr: 'Vurgulu biçimler',
+    de: 'Betonte Formen',
+    ja: '強勢形',
+  },
 };
