@@ -22,6 +22,7 @@
 // Il 2026-11-25 «I verbi modali» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-25 «I pronomi diretti» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-26 «Il verbo essere» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
+// Il 2026-11-26 «Il verbo avere» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -114,6 +115,8 @@ import pronDiretti from './data/lezioni-a2/pronomi-diretti.mjs';
 import pronDirettiI18n from './data/lezioni-a2/pronomi-diretti-i18n.mjs';
 import essere from './data/lezioni-a1/verbo-essere.mjs';
 import essereI18n from './data/lezioni-a1/verbo-essere-i18n.mjs';
+import avere from './data/lezioni-a1/verbo-avere.mjs';
+import avereI18n from './data/lezioni-a1/verbo-avere-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -334,6 +337,7 @@ const lessons = [
   { ...modali, strings: { it: modali.it, ...modaliI18n } },
   { ...pronDiretti, strings: { it: pronDiretti.it, ...pronDirettiI18n } },
   { ...essere, strings: { it: essere.it, ...essereI18n } },
+  { ...avere, strings: { it: avere.it, ...avereI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
