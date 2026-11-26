@@ -48,6 +48,7 @@ import { ERRORS_INDETERMINATIVI } from './confronti-articoli-indeterminativi.mjs
 import { ERRORS_FUTURO } from './confronti-futuro-semplice.mjs';
 import { ERRORS_MODALI } from './confronti-verbi-modali.mjs';
 import { ERRORS_PRONOMI_DIRETTI } from './confronti-pronomi-diretti.mjs';
+import { ERRORS_VERBO_ESSERE } from './confronti-verbo-essere.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1045,3 +1046,4 @@ Object.assign(ERRORS, ERRORS_INDETERMINATIVI);
 Object.assign(ERRORS, ERRORS_FUTURO);
 Object.assign(ERRORS, ERRORS_MODALI);
 Object.assign(ERRORS, ERRORS_PRONOMI_DIRETTI);
+Object.assign(ERRORS, ERRORS_VERBO_ESSERE);

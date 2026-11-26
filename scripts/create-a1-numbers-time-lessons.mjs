@@ -21,6 +21,7 @@
 // Il 2026-11-24 «Il futuro semplice» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-25 «I verbi modali» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-25 «I pronomi diretti» (A2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
+// Il 2026-11-26 «Il verbo essere» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -111,6 +112,8 @@ import modali from './data/lezioni-a2/verbi-modali.mjs';
 import modaliI18n from './data/lezioni-a2/verbi-modali-i18n.mjs';
 import pronDiretti from './data/lezioni-a2/pronomi-diretti.mjs';
 import pronDirettiI18n from './data/lezioni-a2/pronomi-diretti-i18n.mjs';
+import essere from './data/lezioni-a1/verbo-essere.mjs';
+import essereI18n from './data/lezioni-a1/verbo-essere-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -330,6 +333,7 @@ const lessons = [
   { ...futuro, strings: { it: futuro.it, ...futuroI18n } },
   { ...modali, strings: { it: modali.it, ...modaliI18n } },
   { ...pronDiretti, strings: { it: pronDiretti.it, ...pronDirettiI18n } },
+  { ...essere, strings: { it: essere.it, ...essereI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;
@@ -531,7 +535,8 @@ for (const lang of LANGS) {
       anchor = lines.findIndex((line) => line.includes(`href="${hrefOf(lesson.after)}"`));
       if (anchor < 0) throw new Error(`indice ${lang}: tessera ${lesson.after} non trovata`);
     }
-    const existing = lines.findIndex((line) => line.includes(`href="${href}"`));
+    // Solo le tessere: nell'indice italiano anche il pulsante «Inizia dal verbo essere» punta a una lezione.
+    const existing = lines.findIndex((line) => line.includes('lesson-card') && line.includes(`href="${href}"`));
     if (existing >= 0) {
       // Una lezione rifatta (il passato prossimo) aggiorna il testo della tessera che c'era già.
       if (lesson.level !== 'a1' || lesson.updateCard) lines[existing] = card;
