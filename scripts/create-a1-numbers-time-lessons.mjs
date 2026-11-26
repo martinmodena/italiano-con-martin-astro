@@ -24,6 +24,7 @@
 // Il 2026-11-26 «Il verbo essere» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-26 «Il verbo avere» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-26 «C’è e ci sono» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
+// Il 2026-11-26 «Gli aggettivi qualificativi» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -120,6 +121,8 @@ import avere from './data/lezioni-a1/verbo-avere.mjs';
 import avereI18n from './data/lezioni-a1/verbo-avere-i18n.mjs';
 import ceCiSono from './data/lezioni-a1/ce-ci-sono.mjs';
 import ceCiSonoI18n from './data/lezioni-a1/ce-ci-sono-i18n.mjs';
+import aggettivi from './data/lezioni-a1/aggettivi-qualificativi.mjs';
+import aggettiviI18n from './data/lezioni-a1/aggettivi-qualificativi-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -342,6 +345,7 @@ const lessons = [
   { ...essere, strings: { it: essere.it, ...essereI18n } },
   { ...avere, strings: { it: avere.it, ...avereI18n } },
   { ...ceCiSono, strings: { it: ceCiSono.it, ...ceCiSonoI18n } },
+  { ...aggettivi, strings: { it: aggettivi.it, ...aggettiviI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

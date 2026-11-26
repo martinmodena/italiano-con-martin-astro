@@ -51,6 +51,7 @@ import { ERRORS_PRONOMI_DIRETTI } from './confronti-pronomi-diretti.mjs';
 import { ERRORS_VERBO_ESSERE } from './confronti-verbo-essere.mjs';
 import { ERRORS_VERBO_AVERE } from './confronti-verbo-avere.mjs';
 import { ERRORS_CE_CI_SONO } from './confronti-ce-ci-sono.mjs';
+import { ERRORS_AGGETTIVI } from './confronti-aggettivi-qualificativi.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1051,3 +1052,5 @@ Object.assign(ERRORS, ERRORS_PRONOMI_DIRETTI);
 Object.assign(ERRORS, ERRORS_VERBO_ESSERE);
 Object.assign(ERRORS, ERRORS_VERBO_AVERE);
 Object.assign(ERRORS, ERRORS_CE_CI_SONO);
+// 2026-11-26: «Gli aggettivi qualificativi» (A1), per la prima volta con gli errori per lingua.
+Object.assign(ERRORS, ERRORS_AGGETTIVI);
