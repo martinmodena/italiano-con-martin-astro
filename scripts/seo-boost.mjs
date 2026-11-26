@@ -603,16 +603,6 @@ const GRAMMAR_DESCRIPTIONS = {
     de: 'Lernen Sie die italienischen Possessivbegleiter mio, tuo, suo, nostro, vostro und loro mit Tabellen, Beispielen, typischen Fehlern und interaktiven Übungen.',
     ja: 'イタリア語の所有形容詞・所有代名詞（mio、tuo、suo、nostro、vostro、loro）を、表、例文、よくある間違い、練習問題で学びます。',
   },
-  'ce-ci-sono': {
-    en: "Learn how to use c'è and ci sono in Italian (there is, there are) with simple explanations, real examples and interactive exercises.",
-    es: "Aprende a usar c'è y ci sono en italiano (hay) con explicaciones sencillas, ejemplos reales y ejercicios interactivos.",
-    fr: "Apprenez à utiliser c'è et ci sono en italien (il y a) avec des explications simples, des exemples réels et des exercices interactifs.",
-    cs: "Naučte se používat c'è a ci sono v italštině (je, jsou) s jednoduchým vysvětlením, skutečnými příklady a interaktivními cvičeními.",
-    pl: "Naucz się używać c'è i ci sono po włosku (jest, są) dzięki prostym wyjaśnieniom, prawdziwym przykładom i interaktywnym ćwiczeniom.",
-    tr: "İtalyancada c'è ve ci sono (var) kullanımını basit açıklamalar, gerçek örnekler ve etkileşimli alıştırmalarla öğrenin.",
-    de: "Lernen Sie, c'è und ci sono im Italienischen zu verwenden (es gibt), mit einfachen Erklärungen, echten Beispielen und interaktiven Übungen.",
-    ja: "イタリア語の c'è と ci sono（〜がある・いる）の使い方を、やさしい説明、実例、練習問題で学びます。",
-  },
   'comparativo-e-superlativo': {
     en: 'Learn when to use di and che, the difference between meglio and migliore, and practise with 30 interactive exercises.',
     es: 'Aprende cuándo usar di y che, la diferencia entre meglio y migliore, y practica con 30 ejercicios interactivos.',
