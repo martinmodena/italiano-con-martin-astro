@@ -593,16 +593,7 @@ const GRAMMAR_MID = {
 // Descrizioni rifatte: la traduzione automatica aveva tradotto le forme italiane.
 const GRAMMAR_DESCRIPTIONS = {
   // «articoli-indeterminativi» tolto il 2026-11-24: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
-  'aggettivi-e-pronomi-possessivi': {
-    en: 'Learn the Italian possessives mio, tuo, suo, nostro, vostro and loro with tables, examples, common mistakes and interactive exercises.',
-    es: 'Aprende los posesivos italianos mio, tuo, suo, nostro, vostro y loro con tablas, ejemplos, errores comunes y ejercicios interactivos.',
-    fr: 'Apprenez les possessifs italiens mio, tuo, suo, nostro, vostro et loro avec des tableaux, des exemples, les erreurs courantes et des exercices interactifs.',
-    cs: 'Naučte se italská přivlastňovací zájmena mio, tuo, suo, nostro, vostro a loro s tabulkami, příklady, častými chybami a interaktivními cvičeními.',
-    pl: 'Poznaj włoskie zaimki dzierżawcze mio, tuo, suo, nostro, vostro i loro: tabele, przykłady, typowe błędy i interaktywne ćwiczenia.',
-    tr: 'İtalyanca iyelik sözcükleri mio, tuo, suo, nostro, vostro ve loro: tablolar, örnekler, sık yapılan hatalar ve etkileşimli alıştırmalar.',
-    de: 'Lernen Sie die italienischen Possessivbegleiter mio, tuo, suo, nostro, vostro und loro mit Tabellen, Beispielen, typischen Fehlern und interaktiven Übungen.',
-    ja: 'イタリア語の所有形容詞・所有代名詞（mio、tuo、suo、nostro、vostro、loro）を、表、例文、よくある間違い、練習問題で学びます。',
-  },
+  // «aggettivi-e-pronomi-possessivi» tolto il 2026-11-26: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
   'comparativo-e-superlativo': {
     en: 'Learn when to use di and che, the difference between meglio and migliore, and practise with 30 interactive exercises.',
     es: 'Aprende cuándo usar di y che, la diferencia entre meglio y migliore, y practica con 30 ejercicios interactivos.',
