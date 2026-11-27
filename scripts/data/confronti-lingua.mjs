@@ -34,6 +34,7 @@ import { NOTES_INDETERMINATIVI } from './confronti-articoli-indeterminativi.mjs'
 import { NOTES_MODALI } from './confronti-verbi-modali.mjs';
 import { NOTES_AGGETTIVI } from './confronti-aggettivi-qualificativi.mjs';
 import { NOTES_COMBINATI } from './confronti-pronomi-combinati.mjs';
+import { NOTES_INTERROGATIVI } from './confronti-interrogativi.mjs';
 
 export const NOTES = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -3172,3 +3173,5 @@ Object.assign(NOTES, NOTES_MODALI);
 Object.assign(NOTES, NOTES_AGGETTIVI);
 // 2026-11-27: «I pronomi combinati» (B1) rifatta, con il confronto per la prima volta.
 Object.assign(NOTES, NOTES_COMBINATI);
+// 2026-11-27: lezione nuova «Gli interrogativi» (A1).
+Object.assign(NOTES, NOTES_INTERROGATIVI);

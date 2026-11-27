@@ -46,6 +46,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'The Italian condizionale passato: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'The Italian congiuntivo passato and trapassato: abbia fatto, avessi fatto',
     'futuro-anteriore': 'The Italian futuro anteriore: avrò fatto, sarò andato',
+    'interrogativi': 'Italian question words',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'Adjetivos y pronombres posesivos en italiano',
@@ -94,6 +95,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'El condizionale passato en italiano: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'El congiuntivo passato y trapassato en italiano: abbia fatto, avessi fatto',
     'futuro-anteriore': 'El futuro anteriore en italiano: avrò fatto, sarò andato',
+    'interrogativi': 'Los interrogativos en italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'Adjectifs et pronoms possessifs en italien',
@@ -142,6 +144,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'Le condizionale passato en italien : avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'Le congiuntivo passato et trapassato en italien : abbia fatto, avessi fatto',
     'futuro-anteriore': 'Le futuro anteriore en italien : avrò fatto, sarò andato',
+    'interrogativi': 'Les mots interrogatifs en italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'Italská přivlastňovací přídavná jména a zájmena',
@@ -190,6 +193,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'Condizionale passato v italštině: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'Congiuntivo passato a trapassato v italštině: abbia fatto, avessi fatto',
     'futuro-anteriore': 'Futuro anteriore v italštině: avrò fatto, sarò andato',
+    'interrogativi': 'Tázací slova v italštině',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'Włoskie przymiotniki i zaimki dzierżawcze',
@@ -238,6 +242,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'Condizionale passato po włosku: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'Congiuntivo passato i trapassato po włosku: abbia fatto, avessi fatto',
     'futuro-anteriore': 'Futuro anteriore po włosku: avrò fatto, sarò andato',
+    'interrogativi': 'Zaimki pytajne po włosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'İtalyanca iyelik sıfatları ve zamirleri',
@@ -286,6 +291,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'İtalyancada condizionale passato: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'İtalyancada congiuntivo passato ve trapassato: abbia fatto, avessi fatto',
     'futuro-anteriore': 'İtalyancada futuro anteriore: avrò fatto, sarò andato',
+    'interrogativi': 'İtalyanca soru kelimeleri',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'Italienische Possessivadjektive und Pronomen',
@@ -334,6 +340,7 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'Das condizionale passato im Italienischen: avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'Das congiuntivo passato und trapassato im Italienischen: abbia fatto, avessi fatto',
     'futuro-anteriore': 'Das futuro anteriore im Italienischen: avrò fatto, sarò andato',
+    'interrogativi': 'Fragewörter im Italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -382,5 +389,6 @@ export const grammarSeoTitles = {
     'condizionale-passato': 'イタリア語の条件法過去 condizionale passato：avrei fatto, sarei andato',
     'congiuntivo-passato-e-trapassato': 'イタリア語の接続法過去と大過去 congiuntivo passato・trapassato：abbia fatto, avessi fatto',
     'futuro-anteriore': 'イタリア語の未来完了 futuro anteriore：avrò fatto, sarò andato',
+    'interrogativi': 'イタリア語の疑問詞',
   },
 };

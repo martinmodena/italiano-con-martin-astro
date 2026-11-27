@@ -8,11 +8,11 @@
 // aggettivo o pronome (la tua?, i miei = i genitori), le espressioni (colpa mia, piacere mio), le trappole e 30
 // esercizi. Il confronto con la lingua resta quello di confronti-lingua.mjs; gli errori per lingua (cinque al posto
 // di tre o quattro) sono in confronti-aggettivi-e-pronomi-possessivi.mjs. Tolta la descrizione scritta a mano da
-// seo-boost.mjs. Nell’indice A1 la tessera resta dov’era; il pulsante finale porta ai numeri.
+// seo-boost.mjs. Nell’indice A1 la tessera resta dov’era; il pulsante finale porta ai numeri (dal 2026-11-27 agli interrogativi).
 
 export default {
   slug: 'aggettivi-e-pronomi-possessivi',
-  next: 'numeri',
+  next: 'interrogativi',
   updateCard: true,
   minutes: 15,
   hero: { src: 'grammatica/aggettivi-e-pronomi-possessivi-hero.webp', width: 1280, height: 720 },

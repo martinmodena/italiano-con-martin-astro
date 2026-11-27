@@ -48,6 +48,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'the-italian-condizionale-passato',
     'congiuntivo-passato-e-trapassato': 'the-italian-congiuntivo-passato-and-trapassato',
     'futuro-anteriore': 'the-italian-futuro-anteriore',
+    'interrogativi': 'italian-question-words',
   },
   es: {
     'aggettivi-e-pronomi-possessivi': 'adjetivos-y-pronombres-posesivos-en-italiano',
@@ -96,6 +97,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'el-condizionale-passato-en-italiano',
     'congiuntivo-passato-e-trapassato': 'el-congiuntivo-passato-y-trapassato-en-italiano',
     'futuro-anteriore': 'el-futuro-anteriore-en-italiano',
+    'interrogativi': 'interrogativos-en-italiano',
   },
   fr: {
     'aggettivi-e-pronomi-possessivi': 'adjectifs-et-pronoms-possessifs-en-italien',
@@ -144,6 +146,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'le-condizionale-passato-en-italien',
     'congiuntivo-passato-e-trapassato': 'le-congiuntivo-passato-et-trapassato-en-italien',
     'futuro-anteriore': 'le-futuro-anteriore-en-italien',
+    'interrogativi': 'mots-interrogatifs-en-italien',
   },
   cs: {
     'aggettivi-e-pronomi-possessivi': 'italska-privlastnovaci-pridavna-jmena-a-zajmena',
@@ -192,6 +195,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'condizionale-passato-v-italstine',
     'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-a-trapassato-v-italstine',
     'futuro-anteriore': 'futuro-anteriore-v-italstine',
+    'interrogativi': 'tazaci-slova-v-italstine',
   },
   pl: {
     'aggettivi-e-pronomi-possessivi': 'wloskie-przymiotniki-i-zaimki-dzierzawcze',
@@ -240,6 +244,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'condizionale-passato-po-wlosku',
     'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-i-trapassato-po-wlosku',
     'futuro-anteriore': 'futuro-anteriore-po-wlosku',
+    'interrogativi': 'zaimki-pytajne-po-wlosku',
   },
   tr: {
     'aggettivi-e-pronomi-possessivi': 'italyanca-iyelik-sifatlari-ve-zamirleri',
@@ -288,6 +293,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'italyanca-condizionale-passato',
     'congiuntivo-passato-e-trapassato': 'italyanca-congiuntivo-passato-ve-trapassato',
     'futuro-anteriore': 'italyanca-futuro-anteriore',
+    'interrogativi': 'italyanca-soru-kelimeleri',
   },
   de: {
     'aggettivi-e-pronomi-possessivi': 'italienische-possessivadjektive-und-pronomen',
@@ -336,6 +342,7 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'das-condizionale-passato-im-italienischen',
     'congiuntivo-passato-e-trapassato': 'congiuntivo-passato-und-trapassato-im-italienischen',
     'futuro-anteriore': 'das-futuro-anteriore-im-italienischen',
+    'interrogativi': 'fragewoerter-im-italienischen',
   },
   ja: {
     'aggettivi-e-pronomi-possessivi': 'イタリア語の所有形容詞と代名詞',
@@ -384,5 +391,6 @@ export const grammarSeoSlugs = {
     'condizionale-passato': 'イタリア語の条件法過去',
     'congiuntivo-passato-e-trapassato': 'イタリア語の接続法過去と大過去',
     'futuro-anteriore': 'イタリア語の未来完了',
+    'interrogativi': 'イタリア語の疑問詞',
   },
 };
