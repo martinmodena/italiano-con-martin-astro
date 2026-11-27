@@ -26,6 +26,7 @@
 // Il 2026-11-26 «C’è e ci sono» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-26 «Gli aggettivi qualificativi» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-26 «Aggettivi e pronomi possessivi» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
+// Il 2026-11-27 «I pronomi combinati» (B1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -126,6 +127,8 @@ import aggettivi from './data/lezioni-a1/aggettivi-qualificativi.mjs';
 import aggettiviI18n from './data/lezioni-a1/aggettivi-qualificativi-i18n.mjs';
 import possessivi from './data/lezioni-a1/aggettivi-e-pronomi-possessivi.mjs';
 import possessiviI18n from './data/lezioni-a1/aggettivi-e-pronomi-possessivi-i18n.mjs';
+import combinati from './data/lezioni-b1/pronomi-combinati.mjs';
+import combinatiI18n from './data/lezioni-b1/pronomi-combinati-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -350,6 +353,7 @@ const lessons = [
   { ...ceCiSono, strings: { it: ceCiSono.it, ...ceCiSonoI18n } },
   { ...aggettivi, strings: { it: aggettivi.it, ...aggettiviI18n } },
   { ...possessivi, strings: { it: possessivi.it, ...possessiviI18n } },
+  { ...combinati, strings: { it: combinati.it, ...combinatiI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

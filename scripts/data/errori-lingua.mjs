@@ -53,6 +53,7 @@ import { ERRORS_VERBO_AVERE } from './confronti-verbo-avere.mjs';
 import { ERRORS_CE_CI_SONO } from './confronti-ce-ci-sono.mjs';
 import { ERRORS_AGGETTIVI } from './confronti-aggettivi-qualificativi.mjs';
 import { ERRORS_POSSESSIVI } from './confronti-aggettivi-e-pronomi-possessivi.mjs';
+import { ERRORS_COMBINATI } from './confronti-pronomi-combinati.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1057,3 +1058,5 @@ Object.assign(ERRORS, ERRORS_CE_CI_SONO);
 Object.assign(ERRORS, ERRORS_AGGETTIVI);
 // 2026-11-26: «Aggettivi e pronomi possessivi» (A1) rifatta, cinque errori per lingua.
 Object.assign(ERRORS, ERRORS_POSSESSIVI);
+// 2026-11-27: «I pronomi combinati» (B1), per la prima volta con gli errori per lingua.
+Object.assign(ERRORS, ERRORS_COMBINATI);
