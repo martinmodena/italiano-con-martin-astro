@@ -28,6 +28,7 @@
 // Il 2026-11-26 «Aggettivi e pronomi possessivi» (A1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-27 «I pronomi combinati» (B1, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Il 2026-11-27 «Gli interrogativi» (A1, lezione nuova, dopo i possessivi).
+// Il 2026-11-27 «Il congiuntivo presente» (B2, rifatta agli stessi URL: prima era scritta a mano, 10 esercizi).
 // Ogni lezione può dichiarare `level` (default 'a1'), `exerciseCount` (default 30), `hero`
 // (immagine in public/assets/, con `heroAlt` nei testi) e `after` (lo slug italiano della
 // tessera dopo cui va la sua tessera nell'indice; default: dopo l'ultima lezione A1).
@@ -132,6 +133,8 @@ import combinati from './data/lezioni-b1/pronomi-combinati.mjs';
 import combinatiI18n from './data/lezioni-b1/pronomi-combinati-i18n.mjs';
 import interrogativi from './data/lezioni-a1/interrogativi.mjs';
 import interrogativiI18n from './data/lezioni-a1/interrogativi-i18n.mjs';
+import congPresente from './data/lezioni-b2/congiuntivo-presente.mjs';
+import congPresenteI18n from './data/lezioni-b2/congiuntivo-presente-i18n.mjs';
 
 const ROOT = process.cwd();
 const SITE = 'https://italianoconmartin.com';
@@ -358,6 +361,7 @@ const lessons = [
   { ...possessivi, strings: { it: possessivi.it, ...possessiviI18n } },
   { ...combinati, strings: { it: combinati.it, ...combinatiI18n } },
   { ...interrogativi, strings: { it: interrogativi.it, ...interrogativiI18n } },
+  { ...congPresente, strings: { it: congPresente.it, ...congPresenteI18n } },
 ];
 const onlyArg = process.argv.indexOf('--only');
 const only = onlyArg >= 0 ? process.argv[onlyArg + 1].split(',') : null;

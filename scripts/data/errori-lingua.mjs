@@ -55,6 +55,7 @@ import { ERRORS_AGGETTIVI } from './confronti-aggettivi-qualificativi.mjs';
 import { ERRORS_POSSESSIVI } from './confronti-aggettivi-e-pronomi-possessivi.mjs';
 import { ERRORS_COMBINATI } from './confronti-pronomi-combinati.mjs';
 import { ERRORS_INTERROGATIVI } from './confronti-interrogativi.mjs';
+import { ERRORS_CONG_PRESENTE } from './confronti-congiuntivo-presente.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1063,3 +1064,5 @@ Object.assign(ERRORS, ERRORS_POSSESSIVI);
 Object.assign(ERRORS, ERRORS_COMBINATI);
 // 2026-11-27: lezione nuova «Gli interrogativi» (A1).
 Object.assign(ERRORS, ERRORS_INTERROGATIVI);
+// 2026-11-27: «Il congiuntivo presente» (B2), per la prima volta con gli errori per lingua.
+Object.assign(ERRORS, ERRORS_CONG_PRESENTE);
