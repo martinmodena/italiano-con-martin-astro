@@ -56,6 +56,7 @@ import { ERRORS_POSSESSIVI } from './confronti-aggettivi-e-pronomi-possessivi.mj
 import { ERRORS_COMBINATI } from './confronti-pronomi-combinati.mjs';
 import { ERRORS_INTERROGATIVI } from './confronti-interrogativi.mjs';
 import { ERRORS_CONG_PRESENTE } from './confronti-congiuntivo-presente.mjs';
+import { ERRORS_PASSIVA } from './confronti-forma-passiva.mjs';
 
 export const ERRORS = {
   'grammatica/a1/ce-ci-sono.html': {
@@ -1066,3 +1067,5 @@ Object.assign(ERRORS, ERRORS_COMBINATI);
 Object.assign(ERRORS, ERRORS_INTERROGATIVI);
 // 2026-11-27: «Il congiuntivo presente» (B2), per la prima volta con gli errori per lingua.
 Object.assign(ERRORS, ERRORS_CONG_PRESENTE);
+// 2026-11-28: «La forma passiva» (C1), per la prima volta con gli errori per lingua.
+Object.assign(ERRORS, ERRORS_PASSIVA);

@@ -604,16 +604,8 @@ const GRAMMAR_DESCRIPTIONS = {
     de: 'Lernen Sie, wann man di und wann che verwendet, den Unterschied zwischen meglio und migliore, und üben Sie mit 30 interaktiven Aufgaben.',
     ja: 'di と che の使い分け、meglio と migliore の違いを学び、30問の練習問題で身につけましょう。',
   },
-  'forma-passiva': {
-    en: 'Learn the Italian passive voice with essere, venire and andare, formal examples and interactive exercises.',
-    es: 'Aprende la voz pasiva italiana con essere, venire y andare, ejemplos formales y ejercicios interactivos.',
-    fr: 'Apprenez la voix passive italienne avec essere, venire et andare, des exemples formels et des exercices interactifs.',
-    cs: 'Naučte se italský trpný rod se slovesy essere, venire a andare, s formálními příklady a interaktivními cvičeními.',
-    pl: 'Naucz się włoskiej strony biernej z essere, venire i andare, na formalnych przykładach i w interaktywnych ćwiczeniach.',
-    tr: 'İtalyancada essere, venire ve andare ile edilgen çatıyı resmî örnekler ve etkileşimli alıştırmalarla öğrenin.',
-    de: 'Lernen Sie das italienische Passiv mit essere, venire und andare, mit formellen Beispielen und interaktiven Übungen.',
-    ja: 'essere、venire、andare を使うイタリア語の受動態を、フォーマルな例文と練習問題で学びます。',
-  },
+  // «forma-passiva» tolto il 2026-11-28: la lezione ora la scrive create-a1-numbers-time-lessons.mjs.
+
 };
 // Sottotitoli rifatti: le forme italiane restano italiane e marcate lang="it".
 const it = (s) => `<span lang="it">${s}</span>`;
