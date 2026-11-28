@@ -25,6 +25,11 @@
     if (/\/grammatica\/b1\/comparativo-e-superlativo\.html$/i.test(path)) return 33;
     return /(comparativ|comparative|comparatif|vergleich|srovnavaci|porownawcze|karsılastırmalı|比較級)/i.test(path) ? 13 : 10;
   }
+  // Il numero vero di esercizi della lezione, scritto sulla tessera da scripts/add-grammar-book.mjs.
+  // Vale più del totale salvato nel browser, che resta vecchio quando una lezione viene ampliata.
+  function cardTotal(link) {
+    return Number(link.dataset.exercises) || 0;
+  }
   function completed(record) {
     if (!record) return 0;
     const correctAnswers = Number(record.score) || 0;
@@ -46,7 +51,7 @@
     lessonLinks.forEach((link) => {
       const path = normalizedPath(link.href);
       const record = byPath.get(path);
-      const total = record?.totalActivities || expectedTotal(path);
+      const total = cardTotal(link) || record?.totalActivities || expectedTotal(path);
       const done = Math.min(completed(record), total);
       courseDone += done; courseTotal += total;
       link.querySelector('.lesson-link-progress')?.remove();
@@ -55,7 +60,7 @@
     document.querySelectorAll('.level-section').forEach((block) => {
       const links = [...block.querySelectorAll('a.lesson-card[href]')];
       const totals = links.reduce((sum, link) => {
-        const path = normalizedPath(link.href); const record = byPath.get(path); const total = record?.totalActivities || expectedTotal(path);
+        const path = normalizedPath(link.href); const record = byPath.get(path); const total = cardTotal(link) || record?.totalActivities || expectedTotal(path);
         return { done: sum.done + Math.min(completed(record), total), total: sum.total + total };
       }, { done: 0, total: 0 });
       block.querySelector('.level-progress-summary')?.remove();

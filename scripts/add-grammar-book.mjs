@@ -8,7 +8,19 @@
 // `scripts/pt/build-pt.mjs`, che riscrive l'indice portoghese da quello spagnolo,
 // e dopo ogni generatore che riscrive gli indici di grammatica da zero.
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+
+// Numero vero di esercizi di ogni lezione, scritto sulla tessera dell'indice come data-exercises
+// (Martin, 2026-11-28: «dove si misurano la quantità di esercizi fatti penso ci sia un errore»).
+// grammar-progress.js lo usa come totale della barra «Progresso»: prima prendeva il totale salvato nel
+// browser, rimasto a 10 per le lezioni poi portate a 30 esercizi, o 10 per tutte quando non c'era.
+const EXERCISE = /class="(?:[^"]*\s)?(?:exercise|translation-exercise)(?:\s[^"]*)?"/g;
+function exerciseCount(indexDir, href) {
+  const file = href.startsWith('/') ? path.join('src/html', href) : path.join('src/html', indexDir, href);
+  if (!existsSync(file)) return 0;
+  return (readFileSync(file, 'utf8').match(EXERCISE) || []).length;
+}
 
 const BOOK = {
   it: { dir: 'grammatica', file: 'grammatica-italiana-a1-c1.pdf', title: ['Grammatica italiana per stranieri A1–C1: lezioni ed esercizi gratis', 'Grammatica italiana per stranieri A1–C1: lezioni, esercizi e PDF gratis'], strong: 'Tutta la grammatica in un PDF', text: 'Le {n} lezioni dall’A1 al C1 in un unico libro da stampare, con indice, esercizi e soluzioni. Gratis.', button: 'Scarica il PDF (A1–C1)' },
@@ -36,6 +48,10 @@ for (const [lang, t] of Object.entries(BOOK)) {
   if (anchor === -1) throw new Error(`${htmlFile}: manca .path-note`);
   const end = html.indexOf('</div>', html.indexOf('</a>', anchor)) + '</div>'.length;
   html = html.slice(0, end) + block + html.slice(end);
+  html = html.replace(/<a class="(lesson-card[^"]*)" href="([^"]+)"(?: data-exercises="\d+")?/g, (tag, cls, href) => {
+    const n = exerciseCount(t.dir, href);
+    return n ? `<a class="${cls}" href="${href}" data-exercises="${n}"` : `<a class="${cls}" href="${href}"`;
+  });
   // Niente etichette «Nuova lezione» / «Lezione interattiva» sulle tessere (Martin, 2026-10-29:
   // «mi sembrano inutili»). I generatori delle lezioni le rimettono: per questo si tolgono qui.
   html = html.replace(/<span class="status">[^<]*<\/span>/g, '');
